@@ -4,7 +4,7 @@
   "worker": "C01",
   "job_id": "F-43791278ec4506a5114d",
   "prompt_sha256": "a2ca30d4e8e3806308a1176ceb5dfac64bad76cd6375e2cc7a9e72d6738b9bf3",
-  "state": "SENT_VERIFIED",
+  "state": "COMPLETED",
   "at": "2026-11-06T21:26:40.408361+00:00",
   "error": "{\"success\": false, \"verified\": false, \"command\": \"panel.chat.send\", \"panelId\": \"panel-01\", \"characters\": 2312, \"detail\": \"INSERT_FAILED\"}",
   "verified_at": "2026-11-06T21:29:42.510296+00:00",
@@ -18,5 +18,6 @@
     "detail": "before=0;after=1"
   },
   "send_error": null,
-  "panel_url": "https://chatgpt.com/c/6aee4595-6f1c-83e8-94da-a8d77c2c768d"
+  "panel_url": "https://chatgpt.com/c/6aee4595-6f1c-83e8-94da-a8d77c2c768d",
+  "completed_at": "2026-11-06T21:35:33.566230+00:00"
 }
