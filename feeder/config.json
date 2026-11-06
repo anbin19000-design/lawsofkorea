@@ -1,0 +1,79 @@
+{
+  "schema": "WORKC_GITHUB_INSTRUCTION_FEEDER_V1",
+  "repository": "anbin19000-design/lawsofkorea",
+  "branch": "main",
+  "repo_root": "C:\\YOLLA_WORKSPACE\\github_law_review_workc",
+  "enabled": false,
+  "mode": "PREPARE_ONLY",
+  "dispatch_confirm_token": "ENABLE_WORKC_GITHUB_DISPATCH_V1",
+  "poll_seconds": 60,
+  "source_manifest": "status/workc-assignment.jsonl",
+  "korean_dir": "laws/ko",
+  "chinese_dir": "laws/zh",
+  "review_dir": "review/zh",
+  "receipt_dir": "receipts",
+  "active_dir": "status/active",
+  "claim_dir": "status/claims",
+  "delivery_dir": "status/delivery",
+  "local_prior_hold_policy": "IGNORE_FOR_GITHUB_REVIEW",
+  "completion_requires": [
+    "review_file",
+    "completion_receipt"
+  ],
+  "scheduler": {
+    "strategy": "ROWS_ASCENDING",
+    "heavy_threshold_rows": 3000,
+    "max_heavy_active": 1,
+    "one_whole_law_per_worker": true,
+    "max_active_per_worker": 1
+  },
+  "transport": {
+    "kind": "KIIP_PANEL",
+    "pc": "WORK-C",
+    "group_id": "group-01",
+    "panel_gateway": "http://127.0.0.1:32722",
+    "kiip_tool_root": "C:\\YOLLA_WORKSPACE\\law_review18_environment_20261105\\zh_fastpass_20261106\\kiip_support",
+    "allowed_url_prefix": "https://chatgpt.com/",
+    "send_timeout_seconds": 60,
+    "uncertain_send_no_retry": true
+  },
+  "workers": [
+    {
+      "worker": "C01",
+      "panel_id": "panel-01",
+      "enabled": true
+    },
+    {
+      "worker": "C02",
+      "panel_id": "panel-02",
+      "enabled": true
+    },
+    {
+      "worker": "C03",
+      "panel_id": "panel-03",
+      "enabled": true
+    },
+    {
+      "worker": "C04",
+      "panel_id": "panel-04",
+      "enabled": true
+    },
+    {
+      "worker": "C05",
+      "panel_id": "panel-05",
+      "enabled": true
+    },
+    {
+      "worker": "C06",
+      "panel_id": "panel-06",
+      "enabled": true
+    }
+  ],
+  "installation": {
+    "pc": "WORK-C",
+    "scheduled_task": "WORKC_GitHub_Law_Instruction_Feeder",
+    "scheduled_task_enabled": false,
+    "trigger_interval_seconds": 60,
+    "service_wrapper": "feeder/service.cmd"
+  }
+}
