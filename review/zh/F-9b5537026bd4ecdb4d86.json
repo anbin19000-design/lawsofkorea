@@ -1,0 +1,380 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-9b5537026bd4ecdb4d86",
+  "worker": "C04",
+  "checked_rows": 67,
+  "edits": [
+    {
+      "id": "B1-zh-00001",
+      "target_id": "2c3d8bbfc2687eac6998322696fd79bfd3b61f15fa95df3784442fb0980512d7",
+      "source_hash": "cc53a695017c4d32a04565040201b8630cbaaa59486e66962e9bbbf3cea1fc7e",
+      "text": "合成生物学促进法",
+      "reason": "Corrected mistranslated official title from a 'cultivation method' to the Synthetic Biology Promotion Act."
+    },
+    {
+      "id": "B1-zh-00003",
+      "target_id": "224394163904b1e9f83e2d6465676eb07dc7906a7d3d14e9eec0d02ffbd52bc3",
+      "source_hash": "3e144c53dcdb5b3111f78cd2b722c052013e12dc468bc76023bc02a512c950a2",
+      "text": "第一条（目的）本法的目的是通过建立合成生物学研究和开发的基础，确保稳定性，促进利用合成生物学的科学技术创新，为国民经济的可持续发展和人民生活质量的提高做出贡献。\n\n",
+      "reason": "Korean 안정성 specifies stability, not safety."
+    },
+    {
+      "id": "B1-zh-00004",
+      "target_id": "d5bc309fc3c29f518b856e19e51773e0103a973198b3022485190ebb28875dab",
+      "source_hash": "48eba2ef65ad660e34427d7b9bd91b0afbdd2b8c72802700d2bb945823882ff0",
+      "text": "第二条（定义）本法所用术语的含义如下。<2025年10月1日修订>\n1.“合成生物学”是指生物技术领域内运用工程方法设计、制造和利用生物体组成部分和系统的学术学科和技术。\n2.“生物铸造厂”是指生物研究支持设施，它能够标准化、加速和自动化一系列与合成生物学的设计、制造、测试和学习相关的流程。\n3.“合成生物学研究主体”是指从事与合成生物学相关的国家研发项目（指根据《国家研究开发创新法》第2条第1项开展的国家研发项目；以下简称“国家研发项目”）和私人研发的研究机构、附属研究人员和相关专家。\n4.“合成生物学研究数据”是指合成生物学研究主体在为合成生物学研究而进行实验、调查或收集的过程中或作为其结果生成或取得并管理的、可以进行光学或电子处理的材料或信息。\n5.“有关中央行政机关”是指与合成生物学促进相关的中央行政机构，例如财政经济部、科学技术信息通信部、教育部、外交部、农林畜产食品部、产业通商部、保健福祉部、气候能源环境部、海洋水产部、中小企业和创业部、企划预算处、食品医药品安全处、知识产权处、疾病管理厅、农村振兴厅和山林厅。\n\n",
+      "reason": "Restored omitted definition 5; corrected subparagraph citation, research entity, institutional names and missing 'result' qualification. Verified terminology consistency."
+    },
+    {
+      "id": "B1-zh-00005",
+      "target_id": "cb16866e28abba003db77ce31881c63069854974fdf0316f1f88166f959e84a3",
+      "source_hash": "1d254b88ecafcbfafa538b34754ef57a4c11789efd9785325ded439762b6a6a9",
+      "text": "第三条（国家责任等）\n① 国家应当制定促进合成生物学发展的综合政策，并为此目的制定必要的行政、技术和财政支持措施。\n② 合成生物学研究主体应当积极配合国家根据第1款制定的政策。\n\n",
+      "reason": "Ensured defined term 합성생물학 연구주체 is consistently research entity/subject, not generic unlinked term."
+    },
+    {
+      "id": "B1-zh-00007",
+      "target_id": "bc22271d10aff6471fa836672b09ddc151c48ebf2b3e9cf885dadd895cdb3135",
+      "source_hash": "dda6b696783777ca318dba90c46e7ce0efee64e9aa3d2ff71b5c247b64b38dc9",
+      "text": "第五条（制定促进合成生物学发展的基本计划）\n① 政府应每五年制定一次促进合成生物学发展的基本计划（以下简称“基本计划”），以促进合成生物学的发展。\n② 基本计划应包括以下事项：\n1. 关于促进合成生物学发展的中长期政策目标和方向的事项\n2. 合成生物学的趋势、现状和未来方向相关事宜\n3. 关于扩大投资和融资以促进合成生物学发展的计划事项\n4. 与研究和开发有关的事项，包括合成生物学的基础和源头研究、产业应用研究和融合研究\n5. 与合成生物学相关的技术转让、商业化和初创企业促进事宜\n6. 关于根据第19条设立和利用合成生物学研究设施和公共生物铸造厂的事项\n7. 关于合成生物学成果知识产权的保护和利用的事项\n8. 与合成生物学相关的基础设施的建立和支持事宜，包括人员、信息、统计数据和标准\n9. 合成生物学领域产业界、学术界和研究部门之间的合作事宜\n10. 关于促进合成生物学相关国际合作的事项\n11. 关于建立和完善促进合成生物学技术开发和商业化的系统的事项\n12. 合成生物学安全保障相关事宜\n13. 促进合成生物学技术发展和产业化的其他重要事项\n③ 基本计划由科学技术信息通信部部长与相关中央行政机关负责人协商制定，并根据《生物技术促进法》第七条的规定，经生物技术综合政策审议会（以下简称“审议会”）审议后最终确定。对基本计划进行修改时，也适用同样的程序（总统令规定的细微事项修改除外）。\n④ 科学技术信息通信部部长认为在制定和实施基本计划或第6条规定的实施计划等工作中有必要时，可以要求有关中央行政机关或与合成生物学研究开发相关的机构、团体提供必要资料。\n⑤ 根据第4款收到提供资料请求的机构或团体，除非有特殊原因，否则应遵守该请求。\n⑥ 基本计划应当与《科学技术基本法》第七条规定的科学技术基本计划以及《生物技术促进法》第五条规定的生物技术促进基本计划相一致。\n⑦ 除第1款至第5款规定的事项外，制定基本计划等所需事项，由总统令规定。\n\n",
+      "reason": "Restored paragraph ④ and accurately defined data request, advisory council, statutory title and source-research scope."
+    },
+    {
+      "id": "B1-zh-00008",
+      "target_id": "50c7a597a518eadf886ea2b48d040998a9bb3645acaa25ff980dfa473b9c308c",
+      "source_hash": "ff4f5e75f2948c3064e1001112b3696ff49e295c773b82a313bbfc9a49bb3b0a",
+      "text": "第六条（制定和实施年度实施计划等）\n① 科学技术信息通信部部长应当按照基本计划，与有关中央行政机关负责人协商，制定并实施年度实施计划（以下简称“实施计划”）。\n② 科学和信息通信技术部长应向审议会报告上一年度实施计划的执行结果和下一年度的实施计划。\n③ 实施计划的制定和实施以及根据第2款进行报告所需的事项，由总统令规定。\n\n",
+      "reason": "Corrected 심의회 from board of directors to deliberative council."
+    },
+    {
+      "id": "B1-zh-00009",
+      "target_id": "5204066c8fda8e239add2d14a17057816fc5bd918efc78feed1622ce9705a5fb",
+      "source_hash": "0988ed1b1a115f40a1c59f61b5baaae13e4849febedb689294109a64924771b8",
+      "text": "第七条（合成生物学工作推进委员会）\n① 为预先审查拟提交审议会审议的合成生物学领域议案，并处理审议会委托的事务等，可以在审议会下设合成生物学工作推进委员会。\n② 第1款规定的合成生物学工作推进委员会的组成、运作及其他必要事项，由总统令规定。\n\n",
+      "reason": "Corrected legal bodies: 심의회 is a deliberative council and 실무추진위원회 is the working-level promotion committee. Restored precise 'pre-review before submission' construction."
+    },
+    {
+      "id": "B1-zh-00011",
+      "target_id": "58bf1315b6d10e78bba66daf57bab9585d2b7857a014f1baa3ae6f5afa649998",
+      "source_hash": "a14c8d110f3b3ce4ca00269fee10051d807bd760655f7f475bd06374f904c046",
+      "text": "第九条（现状调查及发展方向展望/预测）\n① 科学技术信息通信部部长应每年调查国内外合成生物学的技术、产业、政策和体制状况，预测其发展方向，并将调查及预测结果反映在基本规划和实施计划的制定中。\n② 根据第1款规定，对现状进行调查和对发展方向进行预测的必要事项，由总统令规定。\n\n",
+      "reason": "Restored requirement to reflect both investigation and forecast results in plans."
+    },
+    {
+      "id": "B1-zh-00012",
+      "target_id": "d1b0bee16f38704a3a2357749b5929fe7277e007fbec9940900d407a26bfcab5",
+      "source_hash": "b80e82bbf0bfb4d35ba7a9731a22c77778cf17dadaa9a34329f65178aba9e02e",
+      "text": "第十条（统计汇编）\n① 科学和信息通信技术部长应编制并管理相关统计数据，以便有效地制定有关促进合成生物学的政策。\n② 根据第1款规定，科学技术信息通信部部长如有必要编制统计资料等，可向其他相关中央行政机关负责人、地方政府负责人、企业负责人、高校负责人、科研机构负责人、医疗机构负责人以及其他公共机构和组织负责人索取相关资料。被要求提供资料的人员应当配合，除非有特殊原因。\n③ 根据第 1 款编制统计数据时，必须注意确保其与根据《生物技术促进法》第 21 条编制的生物技术统计数据不重叠。\n④ 根据第1款和第2款规定，统计的主题和方法的必要事项由总统令规定。\n\n",
+      "reason": "Corrected statistics compilation duty, statutory numbering and paragraph ④ marker."
+    },
+    {
+      "id": "B1-zh-00013",
+      "target_id": "230ea58e56c88e8aff4ad18a419d872f3f4dae9f6f05bb4c6936b1b4f5f30415",
+      "source_hash": "c6ed346f5a2f059503f7ebb8ef477879570d83de717b0ff805beb4d0461db65c",
+      "text": "第11条（技术影响评估和技术水平评估）\n① 科学技术信息通信部部长应当事先评估合成生物学技术对经济、社会、文化、伦理和环境的影响，有关中央行政机关负责人应当将评估结果反映在政策中。\n② 科学技术信息通信部部长应当评估合成生物学的国内和国际技术水平，有关中央行政机关负责人应当制定和推行提高该技术水平的政策。\n③ 第1款规定的技术影响评估的程序和方法等事项以及第2款规定的技术水平评估的程序和方法等事项，应当按照《科学技术基本法》第14条的规定，由总统令予以规定。\n\n",
+      "reason": "Corrected the official title of the Framework Act on Science and Technology."
+    },
+    {
+      "id": "B1-zh-00014",
+      "target_id": "f3fa98e51b5f872a915eeb97086c61edde99f599849bac90eacc9c2f17954bd0",
+      "source_hash": "b8dc344fda01b96ec27d530f1a87766b3adf7dc5342e3749da5c9c5bd353baee",
+      "text": "第十二条（合成生物学发展协商会）\n① 科学技术信息通信部部长可设立合成生物学发展协商会（以下简称“发展协商会”），以促进合成生物学领域产业界、学术界和研究界之间的信息交流、人员交流和联合研究。在此情况下，政府可为发展协商会的运作提供必要的财政支持。\n② 发展协商会的组成和运作以及其他必要事项，由总统令规定。\n\n",
+      "reason": "Corrected 발전협의회 as development consultative council, not formal promotion committee. Verified terminology consistency."
+    },
+    {
+      "id": "B1-zh-00015",
+      "target_id": "5ea2d136b3ca045b92754a73a284e546c394ce8ddcf245a39bb50ae532111b4b",
+      "source_hash": "1fa7716f1acf9370256ff61a975e7eefef05d4ff576dbeddd3a5acbb56a443bf",
+      "text": "第十三条（指定合成生物学专门政策机构）\n① 科学技术信息通信部部长可指定一个合成生物学政策专门机构，以有效支持制定和协调促进合成生物学发展以及相关技术开发和利用的政策。\n② 科学和信息通信技术部长可在预算范围内，为根据第1款指定的合成生物学政策专门机构（以下简称“政策中心”）的运营等所需费用提供全部或部分支持。\n③ 如果政策中心符合下列任何一项规定，科学和信息通信技术部长可以撤销该政策中心的指定。\n1. 如果不再符合科学技术信息通信部令规定的指定要求，则\n2. 如果指定为政策中心的用途无法再实现，则\n④ 政策中心职责、指定要求和程序等事项，由科学和信息通信技术部长确定。\n\n第三章 合成生物学研究与开发的促进与支持\n\n",
+      "reason": "Corrected the expressly defined policy center and science ministry ordinance designation."
+    },
+    {
+      "id": "B1-zh-00016",
+      "target_id": "54faf0c5c1648b30b926b0a49546d12f439dbfa3a3e2b0b9f9a50947c1d50a82",
+      "source_hash": "37ca36e7217d176b37730506670d694c952a4e4d3dce8a96b78a01bbd0a2809a",
+      "text": "第十四条（推进研究开发项目）\n① 有关中央行政机关负责人可以推进合成生物学相关国家研究开发项目，以有效实施基本计划和实施计划。\n② 为执行合成生物学相关国家研究开发项目而选择研究开发课题、研究开发机构及与选定的研究开发机构签订协议的程序，依照《国家研究开发创新法》办理。\n③ 科学技术信息通信部部长为制定合成生物学技术开发战略、确定研究开发投资方向等，应听取有关中央行政机关负责人的意见，并依总统令规定编制合成生物学领域的综合技术路线图（技术地图）。\n④ 有关中央行政机关负责人推进合成生物学相关国家研究开发项目时，应将依第3款编制的技术路线图积极用于确定拟开发的核心技术等事项。\n\n",
+      "reason": "Restored omitted paragraph ② and paragraph ④ markers and the correct National R&D Innovation Act and cross-reference wording."
+    },
+    {
+      "id": "B1-zh-00017",
+      "target_id": "3ed2d36068658478aafebdd9373009382d0ccb3001fbab11086ac55373d899c7",
+      "source_hash": "faca670d86573f63899886e1c94d7a8c06fb29077332acfc09e4991aa64d2fea",
+      "text": "第十五条（指定合成生物学研究与开发枢纽机构等）\n① 科学技术信息通信部部长可指定合成生物学研发枢纽机构，以创新和传播合成生物学的研究与开发，并建立、维护和发展产业界、学术界和研究部门之间的有机合作体系。\n② 根据第1款指定的合成生物学研究与开发枢纽机构（以下简称“枢纽机构”）应履行下列各款的职能。\n1. 与合成生物学领域有关的《国家战略技术培育特别法》第11条第1款规定的任务导向型研究开发项目、《科学技术基本法》第15条之2规定的挑战性研究开发及核心设备、零部件开发。\n2. 通过枢纽机构间的联系与合作开发合成生物学中的源技术\n3. 枢纽机构研发成果的技术转移、商业化和创业支持\n4. 合成生物学联合研发设施和示范设施的安装与运行\n5. 向《中小企业基本法》第2条规定的中小企业及《风险企业培育特别法》第2条第1款规定的风险企业提供合成生物学相关技术支持。\n6. 促进产学研合作融合研究\n7. 基础设施建设和运营技术及知识的传播\n8. 科学与信息通信技术部长认为必要的其他事项\n③ 政府可以补助枢纽机构运营所需费用的全部或一部分。\n④ 如有下列情形之一，科学及信息通信技术部长可撤销枢纽机构的指定。\n1. 如果不再满足指定要求\n2. 如果存在充分理由相信难以实现指定枢纽机构的目的，则\n⑤ 指定枢纽机构的要求、方法、程序等事项，由总统令规定。\n\n",
+      "reason": "Corrected erroneous invented Venture Act title and legal citations; standardized the named research and development hub institutions. Verified terminology consistency. Verified terminology consistency."
+    },
+    {
+      "id": "B1-zh-00018",
+      "target_id": "5a1799dc92ccc0de3dc1cc6fac7d7a2cbdc5309899ef20cf1a2473ec7bb2af0d",
+      "source_hash": "912564f2c52a78fdef0a7af5f26904d61bd40a59a9365f18893fa4834f3af59d",
+      "text": "第十六条（支持创新与发展）政府可根据《为加强国家科学技术竞争力而支援理工科的特别法》第2条第2项的规定，对国内企业、高校以及产业和技术相关机构或组织，实施有关促进合成生物学技术创新、能力建设和共同发展的支持措施。\n\n",
+      "reason": "Corrected the subparagraph 2 (not paragraph 2) reference and statutory title."
+    },
+    {
+      "id": "B1-zh-00021",
+      "target_id": "350997f2e5854e29370d370c838274e1b2b16b12bb9a9a1dc5eac92b81e86b63",
+      "source_hash": "706773c6668e3046a9536e68c90660e622e11fe6d571c388f57d76279b07d38b",
+      "text": "第十九条（公共生物铸造厂的设立和运营）\n① 政府可以设立和运营生物铸造厂，用于合成生物学的研究、开发和利用。\n② 政府可指定运营机构，负责有效管理和利用根据第1款设立和运营的生物铸造厂（以下简称“公共生物铸造厂”）。\n③ 政府应努力促成国内外产业界、学术界和研究机构共同利用公共生物铸造厂，以期高效利用这些设施。在此情况下，政府可以要求使用者或使用机构承担全部或部分使用费用。\n④ 政府应确保必要的预算，以根据技术发展的速度和工业界、学术界和研究部门的需求变化，购置设施和设备，从而有效运营和利用公共生物铸造厂。\n⑤ 公共生物铸造厂的建立、运营和联合使用所需的费用可由政府拨款支付，或由用户或用户机构根据第 3 款承担。\n⑥ 公共生物铸造厂的设立、运营、使用和管理所需事项，以及根据第2款等规定指定运营机构的要求和程序，由总统令规定。\n\n",
+      "reason": "Restored government's legal discretion to charge users, not simply an unspecified possible fee."
+    },
+    {
+      "id": "B1-zh-00022",
+      "target_id": "c12aa7bcc1617ef20e25eef368812c511f3b27f45920b342654687837f40560c",
+      "source_hash": "8f6dc2737131fa87966a84ae3e4c61c595a46c54ace68cb7133e64ee88418c08",
+      "text": "第二十条（促进合成生物学研究数据的利用）\n① 合成生物学研究主体利用公共生物铸造厂生成或获取的合成生物学研究数据，可由该研究实体与根据第十九条第二款指定的公共生物铸造厂运营机构（以下简称本条中的“运营机构”）共同使用。\n② 如果运营机构打算利用根据第 1 款可供共同使用的合成生物学研究数据来支持另一合成生物学研究主体的研究和开发，则必须获得生成或获取所述研究数据的研究实体的同意。\n③ 合成生物学研究数据使用所需的其他事项，由总统令规定。\n\n",
+      "reason": "Aligned operative data-sharing rights and consent provisions with the defined statutory term 합성생물학 연구주체."
+    },
+    {
+      "id": "B1-zh-00023",
+      "target_id": "be50d0af9edcc31ce438e20a8bb369a99d4b78749c0ff0ac6900b293c5498786",
+      "source_hash": "b090725286283569891a5166b0d7b9e6a6058f052c28bf90c1afe50cb29fd79e",
+      "text": "第21条（合成生物学研究数据利用政策的制定等）\n① 政府可以制定和实施必要的政策，以利于合成生物学研究数据的利用。\n② 政府可以实施扶持项目，以促进合成生物学研究数据的生成和收集、处理和分析、共享和利用。\n③ 政府可向参与第 2 款所述支持项目的工业、学术和研究部门对所需费用的全部或一部分给予出资或补助。\n\n",
+      "reason": "Restored omitted paragraph ② and specific discretion to fund/contribute to participant costs."
+    },
+    {
+      "id": "B1-zh-00025",
+      "target_id": "b9e3d07b1e4d3c496c5514c5c84d58049d12ffdae01c27e12d7d41b15e70ab22",
+      "source_hash": "f78062eefbb7a7ea7bd886e95f7f412b799807edd7443d8e36b6d2ef700f48dc",
+      "text": "第23条（专业人员的培训和保障）\n① 政府应当制定有关建立专门教育和培训计划、海外专业人才培训以及吸引和利用优秀海外人才的措施，以培养合成生物学领域的专业人才。\n② 政府可与产业界、学术界和研究机构合作，推进以下项目，以培养合成生物学领域的专业人才。\n1. 通过教育机构（例如总统令指定的《初等和中等教育法》第2条第3项所列高中）开展人力资源开发项目\n2. 根据《为加强国家科学技术竞争力而支援理工科的特别法》第2条第2项，通过高校开展人力资源开发项目\n3. 根据《关于设立、运营和促进科技领域政府资助研究机构等的法律》，通过政府资助的科技领域研究机构开展人力资源开发项目。\n4. 与合成生物学研究设施和设备（例如生物铸造厂）相关的人力资源开发项目，以及相关专业教师的扩充\n5. 为培养合成生物学专业人才所需的其他项目\n\n",
+      "reason": "Corrected subparagraph citations, statute versus bill designation, and specialized teachers versus professional personnel."
+    },
+    {
+      "id": "B1-zh-00027",
+      "target_id": "17733e2ea45b92fe69c36b8a891c97d003ad8cf7e43c5d183dc6836b248eb049",
+      "source_hash": "51b84dec36da1c1a9b23803684d6450a823562ccde5ef8c1095903f821aef4a4",
+      "text": "第25条（合成生物学研究与开发指南）\n① 科学技术信息通信部部长可以制定《合成生物学研究与开发指南》（以下简称“研究与开发指南”），以明确合成生物学研究与开发（包括实验研究）的程序和方法，从而提前防止生物风险、不利环境影响和伦理问题的发生，并营造自主、安全的研究环境。\n② 科学技术信息通信部部长在制定研发指导方针时，应当事先征询产业界、学术界和研究界专家的意见，并与有关中央行政机关的负责人进行磋商。\n③ 科学和信息通信技术部长可以对合成生物学研究主体开展教育培训，以便研发指南能够被工业界、学术界和研究界广泛传播和利用。\n④ 研究与开发指南的内容和制定等事项，由总统令规定。\n\n",
+      "reason": "Corrected training beneficiaries: synthetic biology research entities rather than only individual researchers."
+    },
+    {
+      "id": "B1-zh-00028",
+      "target_id": "f78ec694622f57151d3549d35f4f995813470b589ec1ab283a4250bf1d42e9e8",
+      "source_hash": "0c9bd83b4cbdd6dd35fc4f40f706a9ce2ef6f221862e1576537366a1ca775db7",
+      "text": "第二十六条（安全管理体系的建立和运行等）\n① 科学技术信息通信部部长可与相关中央行政机关负责人协商，建立并运行安全管理体系，以应对国家合成生物学相关研发项目及其成果应用过程中可能出现的风险和环境影响。在此情况下，安全管理体系必须体现研发指导原则的内容。\n② 相关中央行政机关负责人可以对国家合成生物学相关研发项目可能产生的有害物质暴露和环境影响进行安全管理监测。在这种情况下，相关中央行政机关负责人应当将安全管理监测结果报告给科学技术信息通信部部长。\n③ 中央行政机关负责人如欲依第2款进行安全管理监测，应当在征集有关国家研发项目建议书时，提前公布安全管理监测的时间和方式。\n④ 中央行政机关负责人根据第2款进行安全管理监测时，必要时可以向其他中央行政机关、科研机构或者组织的负责人索取资料。被要求提供资料的人应当配合，除非有特殊理由不配合。\n⑤ 相关中央行政机关负责人可根据第2款安全管理监测结果，请求另一相关中央行政机关、研发机构或组织负责人采取适当措施。\n⑥ 其他相关中央行政机关、研发机构或组织的负责人，在根据第5款采取适当措施时，应当将结果通知科学和信息通信技术部长。\n⑦ 关于根据第1款建立和运行安全管理体系的事项以及根据第2款进行安全管理监测的方法和程序等，由总统令规定。\n\n",
+      "reason": "Restored paragraph ④/⑥ markers and consistent monitoring terminology. Verified terminology consistency. Verified terminology consistency."
+    },
+    {
+      "id": "B1-zh-00031",
+      "target_id": "e989ff8bb327a6a9d7b6a03d2b37bad2edd51903a22d1c0c792b72df04785709",
+      "source_hash": "84e74b218debf6335a29b90655683a2286ac64eef4299a581cd0de40f8cceebc",
+      "text": "第29条（授权和委托等）\n① 根据本法，有关中央行政机关机关长官的权力可以按照总统令的规定，将部分权限委任给所属机关负责人。\n② 根据本法，有关中央行政机关负责人的职责可以部分委托给具备专门能力和人员的相关机关或组织，具体由总统令规定。\n\n",
+      "reason": "Distinguished legally delegated authority under paragraph ① from entrusted tasks under paragraph ②."
+    },
+    {
+      "id": "B1-zh-00032",
+      "target_id": "a5000086c7359f947cc13fe939971f356a4ab2f8feeaea64eee59b708702eb0a",
+      "source_hash": "2b140d32a4979618110730d1ff61845e87e65ffcb7537d907acdd72fbca3ea1a",
+      "text": "第三十条（适用刑罚时视为公务员）根据第13条第1款指定的政策中心、根据第19条第2款指定的公共生物铸造厂运营机构，以及从事依第29条由有关中央行政机关负责人委托的业务的机构或团体的负责人及工作人员，在适用《刑法》第127条及第129条至第132条时，视为公务员。\n\n",
+      "reason": "Restored statutory deemed-public-official scope for executives and employees of all three delegated institutions."
+    },
+    {
+      "id": "B1-zh-00033",
+      "target_id": "84f108dc341af43f7de7126fd03ce532ea0121dceccedb808c845b71e3ee1909",
+      "source_hash": "95269512a48e72ef05be50f8233f9323d1bac3da82de5a52a07ff4bcea8529bb",
+      "text": "附则 <第20923号，2025年4月22日>\n\n",
+      "reason": "Corrected legal addenda heading (부칙)."
+    },
+    {
+      "id": "B1-zh-00034",
+      "target_id": "54f2f86046f4a1cd699b0426c970742bcdcc20ef7a96e19a0d1a64bf10a42fbc",
+      "source_hash": "5b7b7ce00ce4ba4c696d6b6cc0d3cd9522eb78f4c0e501bed0ee7129bdb3666a",
+      "text": "第一条（生效日期）本法自公布后满一年之日起施行。\n\n",
+      "reason": "Clarified commencement after one full year has elapsed from promulgation."
+    },
+    {
+      "id": "B1-zh-00035",
+      "target_id": "b8d8020bccc2daff856022e8e26334fbf4903aa04a942c88008e55a4d93eae13",
+      "source_hash": "e659655a2f1fae204a50d512e0ef45d8faed600f8dbb2d16ecb50877a885357d",
+      "text": "第二条（其他法律的修订）《生物技术促进法》作如下部分修订。\n\n  在第7条第2款中增设第9-2项如下。\n\n    9-2. 《合成生物学促进法》规定的合成生物学促进基本计划、年度实施计划等合成生物学领域的重要政策\n\n",
+      "reason": "Corrected subparagraph 9-2 insertion (not paragraph), preserving reference to the Act and both relevant plans."
+    },
+    {
+      "id": "B1-zh-00036",
+      "target_id": "791f2cabd9d53b2da0586d63c48dd884943f490f82ca3b80e99aba73f2d552a8",
+      "source_hash": "3480e86a86ef9ad8c919b6a09b870d318b15d3a9f68ecd56d35864dbf3fed08b",
+      "text": "附则（政府组织法）<第21065号法律，2025年10月1日>\n\n",
+      "reason": "Corrected supplementary provisions associated with Government Organization Act and enacted-law designation."
+    },
+    {
+      "id": "B1-zh-00037",
+      "target_id": "7a3f7ba97ff5b46a47ea9730851ccc54cd5e27c3c321e8fa2b77b6e63fbc3ed3",
+      "source_hash": "5e8ac6ebc080703d90da77b6da219a55c5f1dfb62aa43590097cb9432c27cf97",
+      "text": "第一条（生效日期）本法自公布之日起生效。但是，根据附则第七条修正的法律中，修正在本法生效前已公布但生效日期尚未届满的法律的条款，自相关法律的生效日期起生效；下列各款修正后的规定，自各款所定日期起生效。\n\n  1.下列各款的修正规定自2026年1月2日起生效。但是，根据附则第7条修正的法律（仅限于与第(a)款和第(b)款修正规定相关的部分），修正在正文生效日期之前颁布但尚未生效的法律的部分，应自各法律的生效日期起生效。\n\n    A. 修改第十九条第四款、第二十三条、第二十九条第一款第一项和第三十条的规定\n\n    B. 修改第 12 条第 2 款、第 19 条第 3 款、第 22 条以及第 29 条第 2 款但书的规定（仅限于有关财政经济部部长和财政经济部的部分）\n\n    C. 根据附则第7条修正的法律（仅限于与A款和B款修正条款相关的部分）\n\n  2. 省略\n\n",
+      "reason": "Corrected addenda cross-references and finance minister / legally enacted statute terms. Verified terminology consistency."
+    },
+    {
+      "id": "B1-zh-00039",
+      "target_id": "d707293e389e6da560ca111ac4f99115cc4f533f29c1594de79e77902d4986ca",
+      "source_hash": "428b67a0078a0d955a5dc43adcd4053b4243752938ad3e00ed96126aeec7e2f4",
+      "text": "第七条（修改其他法律）①至<102>款已省略\n\n  <103> 《合成生物学促进法》修正如下。\n\n  在第二条第五款中，“企划财政部、教育部、科学技术信息通信部、外交部、农林畜产食品部、产业通商资源部、保健福祉部、环境部、海洋水产部、中小风险企业部、食品医药品安全处、专利厅”应改为“财政经济部、科学技术信息通信部、教育部、外交部、农林畜产食品部、产业通商部、保健福祉部、气候能源环境部、海洋水产部、中小风险企业部、企划预算处、食品医药品安全处、知识产权处”。\n\n  <104> 至 <626> 已省略\n\n",
+      "reason": "Corrected both pre- and post-amendment ministry/office name lists in the Government Organization Act consequential amendment."
+    },
+    {
+      "id": "B2-zh-00001",
+      "target_id": "a60e1723f1040768776dfb79d82b4b45267b0649f1178dea21b7d0ca3a15d237",
+      "source_hash": "585613f00098d39686b5bd81e808651c23cdb4fa7354e1c59b75166ee2a18450",
+      "text": "合成生物学促进法施行令",
+      "reason": "Corrected 시행령 to enforcement decree, not implementing detailed regulations."
+    },
+    {
+      "id": "B2-zh-00003",
+      "target_id": "62445347ab07a7f34047111a8e6b6aedbc8a895bf7b878b3a4686bb1e2facdc6",
+      "source_hash": "743e6f62198942132d33b8329d03015886ec7629da623b72f18cd0761c0c4faf",
+      "text": "第一条（目的）本令旨在规定《合成生物学促进法》所委托的事项以及实施该法所必需的事项。\n\n第二章 合成生物学促进与发展体系\n\n",
+      "reason": "Corrected 이 영 to the present decree."
+    },
+    {
+      "id": "B2-zh-00004",
+      "target_id": "093996d63940a4fccfc9b00864bfb83ef01513eb0aca9549d18579ca617baf00",
+      "source_hash": "4fce4bceea4a4116d4000b8f360586a68cd855a5a8cb449df78d16fb214c3cef",
+      "text": "第二条（合成生物学促进基本计划的制定等）\n① 科学技术信息通信部部长为制定《合成生物学促进法》（以下简称“本法”）第5条第1款规定的合成生物学促进基本计划（以下简称“基本计划”），应与有关中央行政机关负责人协商后编制基本计划制定指南，并通知有关中央行政机关负责人。\n② 有关中央行政机关负责人应根据依第1款收到的基本计划制定指南，编制主管领域的计划，并自收到通知之日起30日内提交科学技术信息通信部部长。\n③ 根据第2款提交的主管领域计划如有重复或相互抵触，科学技术信息通信部部长可以要求有关中央行政机关负责人修改、补充或调整其主管领域计划。\n④ 科学技术信息通信部部长应汇总依第2款提交的主管领域计划（包括依第3款修改、补充和调整的计划），编制基本计划草案，并通知有关中央行政机关负责人以征求意见。\n⑤ 本法第5条第3款后段所称“总统令规定的轻微事项”，是指下列事项：\n1. 不影响基本计划的目的和方向且变更依据明确的事项\n2. 计算错误、笔误、遗漏或与之类似的明显错误事项\n⑥ 科学技术信息通信部部长根据本法第5条第3款确定或变更基本计划时，应立即将有关内容通知有关中央行政机关负责人，并在科学技术信息通信部网站上公告。\n\n",
+      "reason": "Translated all untranslated Korean clauses ②–⑥, preserving the 30-day deadline and legal process for basic-plan preparation and publication."
+    },
+    {
+      "id": "B2-zh-00005",
+      "target_id": "a55689b34ce26bd1481c6741cd70be7ca9f27cb1f9d0d52bc8af8348a70ffdf9",
+      "source_hash": "b7d2a6c499fd75b300168f891c6be3929b237a249a1a9a14bfe8d926f5dec1d4",
+      "text": "第三条（制定年度实施计划等）\n① 科学技术信息通信部部长应当通知有关中央行政机关负责人，提交上一年度各相关领域的实施计划执行情况和下一年度的实施计划，以便按照本法第六条第一款的规定，高效制定年度实施计划（以下简称“实施计划”）。\n② 收到第1款通知的相关中央行政机关负责人应当于每年1月15日前，按各相关领域，向科学技术信息通信部部长提交上一年度实施计划的执行结果和下一年度的实施计划。\n③ 科学技术信息通信部部长应当根据第2款提交的事项制定实施计划，并按照本法第6条第2款的规定，于每年3月31日之前，按照《生物技术促进法》第7条的规定，向生物技术综合政策审议会（以下简称“审议会”）报告上一年度实施计划的执行结果和下一年度的实施计划。\n④ 如果有关中央行政机关的负责人认为有必要改变根据第3款向审议会报告的实施计划的内容，他/她可以请求科学和信息通信技术部长作出这样的改变。\n⑤ 如果科学和信息通信技术部长收到根据第 4 款提出的变更请求，部长可以考虑与基本计划的联系等，在认为必要时变更实施计划。\n⑥ 如果科学和信息通信技术部长根据第5款改变实施计划，他/她应当向审议会报告改变后的实施计划。\n\n",
+      "reason": "Corrected false Biotechnology Act citation to this Act art. 6(2), deliberative council, and paragraph ④."
+    },
+    {
+      "id": "B2-zh-00006",
+      "target_id": "430dedfea612cb696010190b9e9d6012d43511064e3ff423f88f7bb1a6e9dd1a",
+      "source_hash": "46b70fbe1b13d24feea516b4b99ae82d793f8240ad67a4748a68fbcedc68bb11",
+      "text": "第四条（合成生物学工作推进委员会的组成及运作）\n① 根据本法第7条设立的合成生物学工作推进委员会（以下简称“工作推进委员会”）处理下列事项：\n1. 对拟提交审议会会议的议案进行预先审查和协调\n2. 审议会委托的事务\n3. 选定依本法第11条实施技术影响评估及技术水平评估的合成生物学技术\n4. 审查依本法第15条指定合成生物学研究开发枢纽机构的事项\n5. 审查依本法第19条第2款指定运营机构的事项\n6. 审查依本法第25条第1款制定的合成生物学研究开发指南\n② 工作推进委员会由包括一名主席在内的不超过20名委员组成，并应考虑性别因素。\n③ 工作推进委员会主席（以下简称本条中的“主席”）由科学技术信息通信部部长从该部负责合成生物学政策的高级公务员团所属公务员中指定；工作推进委员会的委员由该部长从下列人员中任命或聘任：\n1. 财政经济部、科学技术信息通信部、农林畜产食品部、产业通商部、保健福祉部、气候能源环境部及海洋水产部所属的负责合成生物学政策相关业务的科长级以上公务员中，由各该中央行政机关负责人指定的人选\n2. 在产业界、学术界、研究界等从事合成生物学相关工作并具有丰富知识和经验的人士\n④ 主席认为审议议案有必要时，可以邀请非委员的有关中央行政机关所属公务员或相关专家列席会议并听取其意见。\n⑤ 依第3款第2项聘任的委员任期为2年。\n⑥ 工作推进委员会设秘书1名，由主席从科学技术信息通信部所属公务员中指定。\n⑦ 除第2款至第6款规定的事项外，工作推进委员会组成及运作所需事项，由主席经工作推进委员会决议后确定。\n\n",
+      "reason": "Fully translated Korean paragraphs ①/②, including all six statutory committee duties and restored exact legal composition and numbers."
+    },
+    {
+      "id": "B2-zh-00008",
+      "target_id": "34abe254ee50726190c810c72b0ef8c0be9354c617359468194699b2c23e1caf",
+      "source_hash": "365a4312ebb7d5a225a8bcff82563e73571ad8b92095513283db7ac48938780e",
+      "text": "第六条（统计汇编的主题和方法等）\n① 根据本法第十条第一款编制的统计数据应当包括下列事项：\n1. 合成生物学相关研究、开发和产业的现状\n2. 合成生物学相关专业人员的规模和分布\n3. 合成生物学领域的科学技术成就，例如论文和专利，以及它们目前的利用状况\n4. 根据本法第19条第1款，公共生物铸造厂的设立、运营和利用现状\n5. 根据本法第26条第1款，合成生物学相关安全管理体系的建立和运行现状\n6. 科学和信息通信技术部长认为为有效制定有关促进合成生物学的政策所必需的其他事项。\n② 根据第1款编制统计数据，可采用文献综述、实地调查、问卷调查、收集专家意见等方法进行；必要时，可采用电话、信息通信网络或电子邮件等电子手段。\n\n",
+      "reason": "Corrected false references in subparagraphs 4 and 5; corrected item 6 punctuation."
+    },
+    {
+      "id": "B2-zh-00009",
+      "target_id": "053a0991ad4792b32bc913286a65eae56c23d51b22e21a304b537337967af9d2",
+      "source_hash": "1b9711299af88ab500a8707059615cbc5176e6b87727790935db8c3b7da442be",
+      "text": "第七条（技术影响评估）\n① 科学及信息通信技术部长应当根据该法第11条第1款的规定，对工作推进委员会审查选定的合成生物学技术进行技术影响评估。\n② 技术影响评估应包括以下项目。\n1. 相关合成生物学技术的进步和产业化对整个国家社会的影响\n2. 相关合成生物学技术对经济、社会、文化、伦理和环境的影响\n3. 相关合成生物学技术可能造成的负面影响及应对措施\n4. 科学与信息通信技术部长认为必要的其他事项\n③ 科学和信息通信技术部长应通过审议会审议最终确定技术影响评估结果，并通知有关中央行政机关的负责人。\n④ 相关中央行政机关负责人应当采取措施，尽量减少合成生物学技术可能造成的负面影响，例如将第三款技术影响评估结果反映在《国家研究开发创新法》第2条第1项规定的国家研发项目（以下简称“国家研发项目”）中。\n\n",
+      "reason": "Restored exact committee and council names, law Article 2(1) subparagraph citation and missing ④ marker."
+    },
+    {
+      "id": "B2-zh-00010",
+      "target_id": "45790f990927450cd0c6c26f6ee093fa6b81abdcec824a40cf4673ceeaa629ad",
+      "source_hash": "37ed34b85fcd67b658f70682f9dab0f76addb45e3992736949cd02e5a9c39355",
+      "text": "第八条（技术水平评估）\n① 科学和信息通信技术部长应当按照该法第11条第2款的规定，对工作推进委员会审查选定的合成生物学技术进行技术水平评估。\n② 技术水平评估应包括以下项目。\n1. 发达国家与韩国在特定技术领域的水平比较\n2. 当前及未来五年技术水平和技术发展所需时间\n3. 促成当前技术水平的主要因素\n4. 提高相关技术水平的措施\n5. 相关技术发展面临的技术、产业和经济障碍\n6. 相关技术发展的政策方向、角色分工和资源分配方向\n③ 科学和信息通信技术部长应通过委员会审议最终确定技术水平评估结果，并通知有关中央行政机关的负责人。\n④ 相关中央行政机关负责人应当将第3款规定的技术水平评估结果反映在合成生物学领域的政策制定和国家研发项目中。\n\n",
+      "reason": "Corrected working-level committee's name."
+    },
+    {
+      "id": "B2-zh-00011",
+      "target_id": "bfa582e156051baf85a01fcca704936145178366352cf532da369594ae517211",
+      "source_hash": "471c4f21fb82e9277d49bb168611e9d87d3e43c250d2e9574d7fe195912dd6c0",
+      "text": "第九条（合成生物学发展协商会的组成和运作）\n① 根据该法第十二条第一款，合成生物学发展协商会（以下简称“发展协商会”）由不超过20名成员组成，其中一名为主席，并应考虑性别因素。\n② 发展协商会成员由科学和信息通信技术部长从工业界、学术界和研究界具有合成生物学广泛知识和经验的民间专家中聘任。\n③ 发展协商会主席应从成员中选举产生。\n④ 除第1款至第3款规定的事项外，发展协商会的组成和运作事项由发展协商会主席根据发展协商会的决议予以决定。\n\n第三章 合成生物学研究与开发的促进与支持\n\n",
+      "reason": "Corrected development consultative body, restored omitted paragraph ② and paragraph ④, clarified appointed private experts. Verified terminology consistency."
+    },
+    {
+      "id": "B2-zh-00012",
+      "target_id": "cc851939c31dce24492bd8eb7a0c64e63f12b604e47448a1de1b336940d76fa7",
+      "source_hash": "1944ec66012bb19f53877f775a13db7c6b61350bdd04183c01e2b26569b99a96",
+      "text": "第十条（合成生物学技术路线图的编制）\n① 科学技术信息通信部部长应根据本法第14条第3款，每5年编制一次合成生物学领域的综合技术路线图（以下简称本条中的“技术路线图”），并通知有关中央行政机关负责人。\n② 技术路线图应包括下列事项：\n1. 主要合成生物学技术领域的开发动向及发展展望\n2. 主要合成生物学技术的需求及市场前景\n3. 合成生物学技术开发的研究能力及制约因素分析\n4. 与先进国家的合成生物学技术差距分析及应对战略\n5. 主要合成生物学技术的实现时间及实现可能性\n6. 主要合成生物学技术相关专利分析\n③ 科学技术信息通信部部长编制技术路线图时，必要时可以要求研究机构、大学及参与国家研究开发项目的企业等提交相关资料。\n\n",
+      "reason": "Fully translated previously untranslated ② items 1–6 and ③ source-information request for the technical roadmap."
+    },
+    {
+      "id": "B2-zh-00013",
+      "target_id": "367eeaff097c8e015f291347894cd3bd67c7ba7378123e1d55ef10974f82f646",
+      "source_hash": "8bd0457462790f7d7a42401a66ab47fbc583e36768101b6cc01f9e204d23fb79",
+      "text": "第11条（合成生物学研究与开发枢纽机构等的指定要求和程序）\n① 根据本法第十五条第一款的规定，应从下列各项机构中指定合成生物学研究与开发枢纽机构（以下简称“枢纽机构”）。为此，科学技术信息通信部部长应制定并公布枢纽机构指定方案。\n1. 根据《高等教育法》第二条设立的学校、根据该法第二十九条设立的研究生院以及根据该法第三十条设立的研究生院大学\n2. 根据《科学技术领域政府资助研究机构等设立、运营和促进法》第二条设立的政府资助科学技术领域研究机构\n3. 根据《国立大学医院设立法》设立的国立大学医院、根据《国立大学牙科医院设立法》设立的国立大学牙科医院、根据《首尔国立大学医院设立法》设立的首尔国立大学医院以及根据《首尔国立大学牙科医院设立法》设立的首尔国立大学牙科医院\n4. 根据《特定研究机构促进法》第2条设立的特定研究机构\n5. 韩国海洋科学技术院依据《韩国海洋科学技术院法》设立\n6. 国立及公立研究机构\n② 枢纽机构的指定要求如下。具体指定标准由科学技术信息通信部部长确定并公布。\n1. 必须具备研究基础条件，如人员、设施、设备和信息，能够执行该法第十五条第二款中规定的各项职能。\n2. 建立并运行与合成生物学相关的产业界、学术界和研究部门之间的合作体系\n3. 具备枢纽机构运营所需的财务能力\n4. 必须具备与合成生物学相关的卓越研究成果\n③ 拟被指定为枢纽机构的机构，应当满足第2款规定的所有指定要求，并向科学和信息通信技术部长提交科学和信息通信技术部长规定和通知的申请，并附上下列各款规定的文件。\n1. 枢纽机构运行计划\n2. 证明第 2 款各子款所有要求均已满足的文件\n④ 科学和信息通信技术部长在进行书面审查和现场考察，并经工作推进委员会审查后，决定是否指定枢纽机构。\n⑤ 当科学和信息通信技术部长根据该法第15条第1款指定枢纽机构或根据同条第4款撤销该指定时，部长应在官方公报和科学和信息通信技术部网站上公布该事实。\n⑥ 除第1至5款规定的事项外，枢纽机构的指定和运营所需事项，如指定和筛选程序、运营和绩效评估等，由科学和信息通信技术部长决定，并通过公告予以公布。\n\n第四章 合成生物学研究基础设施和环境的建立\n\n",
+      "reason": "Corrected hub institution eligibility, graduate university, research infrastructure, review board and paragraph ⑥; removed invented requirements. Verified terminology consistency."
+    },
+    {
+      "id": "B2-zh-00014",
+      "target_id": "200af87051c6e186ad86efde60b4a9bd090dcc80183f48cf65d924b7056a9e0c",
+      "source_hash": "73f514435d7a8263330392ebb7e2a7a7f4df0d59f6e3d9c2783ef511169b886b",
+      "text": "第十二条（公共生物铸造厂的设立和运营）\n① 中央行政机关负责人依据本法第十九条第一款设立公共生物铸造厂（以下简称“公共生物铸造厂”）时，应当考虑生物安全与安保、运营可持续性以及公共生物铸造厂之间的互联互通。\n② 根据本法第十九条第二款规定，运营机构（以下简称“运营机构”）的负责人应当在每个财政年度结束后的60天内编制公共生物铸造厂运营绩效报告，并提交有关中央行政机构负责人。\n③ 除第1款和第2款规定的事项外，公共生物铸造厂的设立和运营所需事项由科学和信息通信技术部长决定，并以公告形式公布。\n\n",
+      "reason": "Corrected the defined operator term to refer to institution, not its head, preserving 60-day fiscal deadline. Verified terminology consistency."
+    },
+    {
+      "id": "B2-zh-00015",
+      "target_id": "f4987f3b90183ec98e94574585bbe68386372515ecbba9afbfa6090235e10c38",
+      "source_hash": "25e5c53d702fe4687a44c85cae07fdfe5f977fdb9b4601797d1214ff8f4ceef9",
+      "text": "第十三条（公共生物铸造厂运营机构等的指定要求和程序）\n① 运营机构的指定要求如下。具体指定标准由科学技术信息通信部部长确定并公布。\n1. 必须是从事合成生物学研究、开发和应用的机构或组织。\n2。作为一家公共生物铸造厂运营机构，建立专门的组织和专业人员，以支持合成生物学的研究、开发和利用。\n3. 拥有运营公共生物铸造厂所需的空间、设施、设备和运营能力。\n4. 建立公共生物铸造厂运营安全与安保管理体系\n5. 制定关于公共生物铸造厂组织人员、运营等方面的内部规章（指章程或相当于章程的规定）。\n② 任何希望根据本法第十九条第二款被指定为运营机构的人，应当满足第一款规定的所有指定条件，并按照科学和信息通信技术部长规定和公布的申请表格，将下列各款规定的文件附在申请表格上，向有关中央行政机构负责人申请被指定为运营机构。\n1. 运营机构运营计划\n2. 证明第1款各子款所有要求均已满足的文件\n③ 中央有关行政机关负责人收到根据第2款规定指定为运营机构的申请时，应当通过书面审查、现场考察等方式审查其适当性，并经工作推进委员会审查、审议委员会审议后决定是否指定该运营机构。\n④ 中央行政机关负责人根据第3款指定运营机构时，应当在官报及该中央行政机关的网站上公布该事实。\n\n",
+      "reason": "Corrected severely mistranslated biofoundry and operator names; restored item and paragraph markers, notification and security-management language. Verified terminology consistency."
+    },
+    {
+      "id": "B2-zh-00016",
+      "target_id": "c334d0850abd63fb2155a1031258fb7a5532548102750fd54621fc03adaa54aa",
+      "source_hash": "e05e3e8983d38b7a9975ce568fe2fd8a6ec686be0d2049bd3dddd4b351ac507c",
+      "text": "第十四条（公共生物铸造厂等的利用）\n① 任何打算使用公共生物铸造厂的人（以下简称“用户”），必须向公共生物铸造厂运营机构负责人提出使用申请。\n② 运营机构负责人收到根据第1款提出的使用申请时，应当审查其适当性，例如使用优先性，并将结果通知用户。\n③ 根据该法第十九条第三款后半部分的规定，运营机构负责人应当按照科学和信息通信技术部长确定并公布的费用计算标准，要求用户承担使用公共生物铸造厂所产生的费用（以下简称“使用费”）。\n④ 尽管有第 2 款和第 3 款的规定，但如果科学和信息通信技术部长认定情况构成国家紧急情况，例如传染病爆发或涉及进出口或供应链的危机，则运营机构负责人可以调整使用优先权或免除全部或部分使用费。\n⑤ 运营机构负责人应当依本法第19条第5款，将使用费充作公共生物铸造厂建设、运营和共同利用所需的费用。\n⑥ 除第1至5款规定的事项外，使用公共生物铸造厂所需事项由科学和信息通信技术部长确定，并以公告形式公布。\n\n",
+      "reason": "Corrected para ⑤ major mistake: user fees fund costs rather than operators having to bear them; restored paragraphs ④/⑥."
+    },
+    {
+      "id": "B2-zh-00017",
+      "target_id": "b3686c30ff7c24ef7586560c389b4fbdcb8f24f9b2bacfa0e482c952a5e1b15a",
+      "source_hash": "656992c25cffa234bedc7a47764c16dcc5cf22b9e8f2362705d45f81bc1fdd46",
+      "text": "第十五条（合成生物学研究数据等的联合使用程序）\n① 运营机构如要与合成生物学研究主体共同使用根据本法第20条第1款利用公共生物铸造厂生成或获取的合成生物学研究数据（以下简称“研究数据”），则必须与合成生物学研究主体订立研究数据共同使用协议（以下简称“共同使用协议”），该协议应包含下列各款的事项。\n1. 研究数据类型\n2. 研究数据的归属主体\n3. 研究数据联合使用范围（包括旨在支持其他合成生物学研究实体的研究数据）\n② 如果根据第 1 款订立了共同使用协议，则应视为已根据该法第 20 条第 2 款获得同意。\n③ 除第1款和第2款规定的事项外，研究数据使用所必需的事项，如共同使用的研究数据类型以及研究数据的登记和存储方法，由科学和信息通信技术部长确定，并以公告形式公布。\n\n",
+      "reason": "Restored research entities and the owner of research data rather than subject matter of research."
+    },
+    {
+      "id": "B2-zh-00018",
+      "target_id": "dcbbb538512f9ebe2681d2726cbf926ad831551227f2b496a06781e546756533",
+      "source_hash": "8d397c3a62c71fd3e6d0ffc08852804d70c23b4c2e414ba6cfb76baf0ce31d13",
+      "text": "第十六条（专业人才的培养和保障）本法第二十三条第二款第一项所称“总统令规定的高中”，是指下列各款所列的高中。\n1. 根据《初等和中等教育法实施令》第76条之3第1项规定，在普通高中中，设立并运营由教育总监指定的、旨在培养工业领域人才的部门的高中\n2. 根据《初等和中等教育法实施令》第90条第1款第10项规定，设立迎合行业需求的高中\n3. 根据《初等和中等教育法实施令》第91条第1款规定，专业高中中，旨在培养工业领域人才的高中\n\n第五章 合成生物学中的责任管理等\n\n",
+      "reason": "Corrected legal reference to Article 76-3 subparagraph 1."
+    },
+    {
+      "id": "B2-zh-00020",
+      "target_id": "8bb9cb3c9f5f53dcd9579678b585ada8982fe9d0fa82caa581a6a2f351524bd1",
+      "source_hash": "bfacf74130be62fc675e6353d389c912011949c97b26a71e995dbfd47128ba51",
+      "text": "第十八条（安全管理体系的建立和运行等）\n① 科学和信息通信技术部长应当履行下列各款规定的职责，以根据本法第26条第1款建立和运行安全管理体系（以下简称“安全管理体系”）。\n1. 建立安全管理体系基本方向\n2. 制定研发指南及合规性检查与管理\n3. 合成生物学研究领域安全管理措施的建立\n4. 各有关中央行政机关管辖范围内制定详细安全管理措施\n5. 科学与信息通信技术部长认为建立和运行安全管理体系所必需的其他事项\n② 相关中央行政机关负责人应当依据《国家研究开发创新法》第十一条的规定，在推进合成生物学相关国家科研项目时，将研究开发指南纳入科研项目协议。在此情况下，如果科研项目实施过程中出现违反研究开发指南或风险因素的情况，相关中央行政机关负责人可以依据《国家研究开发创新法》第十五条第一款的规定，结合专项评估，变更科研项目的研究目标、项目负责人等，或者中止相关科研项目。\n③ 除第1款和第2款规定的事项外，建立和运行安全管理体系等所必需的事项，由科学和信息通信技术部长确定，并以公告形式公布。\n\n",
+      "reason": "Corrected National R&D Innovation Act title and the binding research-and-development guidelines."
+    },
+    {
+      "id": "B2-zh-00021",
+      "target_id": "fd355d30da52a7b64fe0d9bb615b47a33101e534fe50ee540e82009002d97fb6",
+      "source_hash": "8ee8c7b0c635040783929f2786c2d9062a099e3428844dfcf7d73d886384304f",
+      "text": "第十九条（安全管理监测等方法和程序）\n① 相关中央行政机关负责人应当按照本法第二十六条第二款的规定，定期对开展合成生物学相关研发项目的研发机构（指根据《国家研发创新法》第十条选定的研发机构；以下简称“研发机构”）进行安全管理监测（以下简称“安全管理监测”），监督频率由科学技术信息通信部部长确定并通知。在此情况下，安全管理监测计划和程序应当事先通知相关研发机构负责人。\n② 中央行政机关负责人如在安全管理监测过程中发现危险因素，或者认为安全管理义务履行不足，应当要求相关研发机构负责人采取必要的措施，如纠正或改进，并可进行额外检查以核实是否符合规定。\n③ 研发机构负责人应当随时开展安全管理检查，并将检查结果定期向有关中央行政机关负责人报告。但是，如果发生安全事故等紧急风险因素，应当立即向有关中央行政机关负责人报告。\n④ 相关中央行政机关负责人应当将根据第2款采取的措施的结果和根据第3款提交的报告的内容通知科学和信息通信技术部长，科学和信息通信技术部长应当对这些结果和报告进行综合，并反映在安全管理体系的建立和运行中。\n⑤ 除第1至4款规定的事项外，根据安全管理监测结果采取的措施以及紧急情况下的程序和应对措施，应由科学和信息通信技术部长确定，并以公告形式公布。\n\n第6章 补充规定\n\n",
+      "reason": "Corrected the Act reference, safety monitoring terminology, at-any-time checks and paragraph ④."
+    },
+    {
+      "id": "B2-zh-00022",
+      "target_id": "11ccaca46861f98b6ab16fe4922be3b84a9fb6e9e8359d0de0fb2804d938ed00",
+      "source_hash": "647442cdbb0b07bcd49f25c3effbeaaca2c47b0777a24399c795c80d6614189f",
+      "text": "第20条（业务委托）\n① 根据该法第29条第2款，科学和信息通信技术部长的下列各项职责，应根据该法第13条第1款委托给合成生物学政策专门机构。\n1. 根据该法第9条第1款进行的现状调查及发展方向展望/预测\n2. 根据该法第10条第1款编制统计数据\n3. 根据该法第11条第1款进行技术影响评估，并根据该条第2款进行技术水平评估\n② 根据该法第29条第2款，科学和信息通信技术部长可根据履行下列各款规定的职责所需的组织、人员和专业知识，将下列各款规定的职责委托给科学和信息通信技术部长指定的机构或组织。\n1. 接收并审查依本法第15条第1款指定合成生物学研究开发枢纽机构的申请\n2. 接收和审查依本法第19条第2款指定运营机构的申请\n3. 支持依本法第25条第1款制定合成生物学研发指南\n4. 支持根据该法第26条第1款建立和运行安全管理体系\n③ 科学和信息通信技术部长根据第2款委托任务时，应当公开宣布受托机构和委托任务的详情。\n\n",
+      "reason": "Corrected completely wrong title 'tariff outsourcing', false Act references, and hub/operator designation tasks."
+    },
+    {
+      "id": "B2-zh-00023",
+      "target_id": "94877f0cc14045acbee2f3b6cce573e34041a116d07df9f13ed280906f9d7e3d",
+      "source_hash": "2e155bc538227c525f96f0804ae09942887463b2f7046518f84db284370fa2ea",
+      "text": "附则 <第36265号，2026年4月21日>\n\n本令自2026年4月23日生效。",
+      "reason": "Corrected addendum and presidential decree designation."
+    },
+    {
+      "id": "B3-zh-00001",
+      "target_id": "60c1b1ddb40f7ced25939c3cac464dc458c5542165ac74e129be47a24218214e",
+      "source_hash": "50415e4cd19a467df209e47c42bb9e91b82fc69493f9375e2c6824f717888044",
+      "text": "合成生物学促进法施行规则",
+      "reason": "Corrected 시행규칙 as enforcement rules, rather than general implementing detailed regulations."
+    },
+    {
+      "id": "B3-zh-00002",
+      "target_id": "ba5c3c9d8be5239fdaaecd843dde332c556c8358894a8885470ed75022bf9a7c",
+      "source_hash": "b13effb0486f2f7907a398aac4319e9ced6dd9960ca1aef2eeb5a3225a8b523e",
+      "text": "第一条（目的）本规则旨在规定《合成生物学促进法》及《合成生物学促进法施行令》委任的事项，以及施行该法所需的事项。\n\n",
+      "reason": "Corrected statutory full title of the enforcement decree to the exact instrument referred to by Korean 시행령."
+    },
+    {
+      "id": "B3-zh-00003",
+      "target_id": "baa99c3916d32216768170eb9bb527f41c6607cd0af7b4019f442554389e98c7",
+      "source_hash": "60afe89240fa9407201f45c1bf0760b6fbafcf10c2f1fadfc3c1a1a5f48fdfa2",
+      "text": "第二条（合成生物学政策专门机构的指定条件）科学技术信息通信部部长可以根据《合成生物学促进法》第13条第1款，将符合下列各项全部条件的机构或团体指定为合成生物学政策专门机构。\n1. 该机构或团体的业务内容包括合成生物学政策支持工作\n2. 设有能够执行《合成生物学促进法施行令》（以下简称“本令”）第20条第1款各项业务的专门组织及专职人员\n3. 具有执行本令第20条第1款各项业务所需的专用办公场所和设施\n\n",
+      "reason": "Corrected wrong enforcement decree title and defined abbreviation, maintained all three cumulative policy-institution designation criteria and article 20(1) references."
+    },
+    {
+      "id": "B3-zh-00004",
+      "target_id": "7a165af9e1db0a75de6545fb1a257e6ff813f3517949b7949cfaef8b58b02e8e",
+      "source_hash": "de0a4a67c975956749be8ac26d9209c83e9d5d2b49518695ea71080a92b89106",
+      "text": "附则 <第168号，2026年4月22日>\n\n本规则自2026年4月23日起施行。",
+      "reason": "Corrected supplementary provisions heading and rule commencement; retained ordinance number and dates."
+    }
+  ],
+  "status": "COMPLETE"
+}
