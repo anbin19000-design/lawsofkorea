@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "family_id": "EXAMPLE_ONLY",
+  "title_ko": "구조 설명용 가상 법률 — 실제 법률 아님",
+  "source_language": "ko",
+  "target_language": "zh-Hans",
+  "is_example": true,
+  "catalog": {
+    "confirmed": false,
+    "expected_document_ids": ["EXAMPLE_ACT"]
+  },
+  "documents": [
+    {
+      "document_id": "EXAMPLE_ACT",
+      "kind": "act",
+      "title_ko": "가상 법률",
+      "source_url": "https://example.invalid/not-a-real-law",
+      "source_version": "EXAMPLE_ONLY",
+      "units": [
+        {
+          "unit_id": "article-1",
+          "source_ko": "[예시] 이 문장은 데이터 구조를 설명합니다.",
+          "translation": "[示例] 本句用于说明数据结构。",
+          "status": "pending",
+          "reviewed_source_sha256": "",
+          "reviewed_by": "",
+          "reviewed_at": "",
+          "note": "실제 법률이나 검수 결과가 아닙니다."
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "in_progress",
+    "checkpoint_receipt": "",
+    "finish_receipt": ""
+  }
+}
