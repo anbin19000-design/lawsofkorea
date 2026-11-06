@@ -95,8 +95,48 @@ def prompt(c,w,j,a):
  t=(HERE/'instruction_template.txt').read_text('utf-8');jid=j['job_id'];return t.format(assignment_id=a,worker=w,job_id=jid,repository=c['repository'],branch=c['branch'],title=j.get('title') or jid,ko_path=f"{c['korean_dir']}/{jid}.json",zh_path=f"{c['chinese_dir']}/{jid}.json",review_path=f"{c['review_dir']}/{jid}.json",receipt_path=f"{c['receipt_dir']}/{jid}.json")
 def transport(c):
  sys.path.insert(0,c['transport']['kiip_tool_root']);from panel_watch import LocalPanelClient,classify;return LocalPanelClient(),classify
+def reconcile_completed(c):
+ r=root(c);changed=[];done=[]
+ for ap in sorted((r/c['active_dir']).glob('C??.json')):
+  try:a=readj(ap)
+  except Exception:continue
+  if a.get('status')!='ACTIVE' or not completed(c,a.get('job_id')):continue
+  aid=a['assignment_id'];a['status']='COMPLETE';a['completed_at']=now()
+  cp=r/c['claim_dir']/(aid+'.json');dp=r/c['delivery_dir']/(aid+'.json');archive=r/'status'/'completed'/(aid+'.json')
+  atomic(archive,a)
+  if cp.exists():
+   x=readj(cp);x.update(status='COMPLETE',completed_at=a['completed_at']);atomic(cp,x)
+  if dp.exists():
+   x=readj(dp);x.update(state='COMPLETED',completed_at=a['completed_at']);atomic(dp,x)
+  ap.unlink();changed.extend([str(ap.relative_to(r)),str(archive.relative_to(r)),str(cp.relative_to(r)),str(dp.relative_to(r))]);done.append({'worker':a['worker'],'job_id':a['job_id'],'assignment_id':aid})
+ if changed:commit(c,'Archive completed WORK-C assignments',changed)
+ return done
+def recover_deliveries(c,client,classify):
+ r=root(c);changed=[];results=[];rows={x['job_id']:x for x in manifest(c)}
+ for worker,a in active(c).items():
+  if a.get('delivery_status') in ('SENT','SENT_VERIFIED'):continue
+  aid=a['assignment_id'];jid=a['job_id'];panel=a['panel_id'];marker=f'[WORKC-GITHUB-REVIEW:{aid}:{worker}:{jid}]';dp=r/c['delivery_dir']/(aid+'.json');cp=r/c['claim_dir']/(aid+'.json')
+  d=readj(dp) if dp.exists() else {'schema':'WORKC_GITHUB_DELIVERY_V1','assignment_id':aid,'worker':worker,'job_id':jid,'state':'RETRY_PENDING','at':now()}
+  try:obs=client.command('panel.observe',panelId=panel);obs=obs.get('observation',obs)
+  except Exception as e:results.append({'worker':worker,'status':'OBSERVE_ERROR','error':str(e)});continue
+  delivered=marker in str(obs.get('lastUser') or obs.get('last_user') or '')
+  if not delivered and str(obs.get('status') or '') in ('IDLE','READY') and not str(obs.get('composer_text') or '').strip():
+   text=prompt(c,worker,rows.get(jid,{'job_id':jid,'title':a.get('title')}),aid);answer=None;err=None
+   try:answer=client.command('panel.chat.send',panelId=panel,text=text)
+   except Exception as e:err=str(e)
+   time.sleep(1)
+   try:obs=client.command('panel.observe',panelId=panel);obs=obs.get('observation',obs)
+   except Exception:pass
+   delivered=marker in str(obs.get('lastUser') or obs.get('last_user') or '')
+   d['attempts']=int(d.get('attempts') or 0)+1;d['last_attempt_at']=now();d['last_result']=answer;d['last_error']=err
+  d['state']='SENT_VERIFIED' if delivered else 'RETRY_PENDING';d['verified_at']=now();d['panel_url']=obs.get('url');atomic(dp,d)
+  a['delivery_status']=d['state'];atomic(r/c['active_dir']/(worker+'.json'),a)
+  if cp.exists():x=readj(cp);x['delivery_status']=d['state'];atomic(cp,x)
+  changed.extend([str((r/c['active_dir']/(worker+'.json')).relative_to(r)),str(cp.relative_to(r)),str(dp.relative_to(r))]);results.append({'worker':worker,'job_id':jid,'status':d['state']})
+ if changed:commit(c,'Reconcile WORK-C assignment deliveries',changed)
+ return results
 def run_once(c,confirm):
- require_live(c,confirm);sync(c);client,classify=transport(c);a=active(c);cand=candidates(c);results=[]
+ require_live(c,confirm);sync(c);client,classify=transport(c);done=reconcile_completed(c);recovered=recover_deliveries(c,client,classify);a=active(c);cand=candidates(c);results=[]
  heavy=int(c['scheduler']['heavy_threshold_rows']);maxh=int(c['scheduler']['max_heavy_active']);ha=sum(int(v.get('rows') or 0)>=heavy for v in a.values())
  for w in c['workers']:
   worker=w['worker']
@@ -113,7 +153,7 @@ def run_once(c,confirm):
   try:delivery.update(state='SENT',sent_at=now(),result=client.command('panel.chat.send',panelId=w['panel_id'],text=text))
   except Exception as e:delivery.update(state='UNCERTAIN_NO_RESEND',error=str(e))
   atomic(dp,delivery);claim['delivery_status']=delivery['state'];atomic(ap,claim);atomic(cp,claim);commit(c,f'Record delivery {aid}',[str(ap.relative_to(root(c))),str(cp.relative_to(root(c))),str(dp.relative_to(root(c)))]);results.append({'worker':worker,'job_id':job['job_id'],'status':delivery['state']})
- return {'at':now(),'results':results}
+ return {'at':now(),'completed':done,'delivery_recovery':recovered,'results':results}
 def set_enabled(c,en,confirm):
  expected='ENABLE_WORKC_FEEDER_CONFIG' if en else 'DISABLE_WORKC_FEEDER_CONFIG'
  if confirm!=expected:raise RuntimeError('CONFIG_CONFIRMATION_REQUIRED')
