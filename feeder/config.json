@@ -7,7 +7,7 @@
   "mode": "LIVE",
   "dispatch_confirm_token": "ENABLE_WORKC_GITHUB_DISPATCH_V1",
   "poll_seconds": 60,
-  "source_manifest": "status/workc-assignment.jsonl",
+  "source_manifest": "status/whole-law-family-assignment.jsonl",
   "korean_dir": "laws/ko",
   "chinese_dir": "laws/zh",
   "review_dir": "review/zh",
@@ -25,7 +25,17 @@
     "heavy_threshold_rows": 3000,
     "max_heavy_active": 1,
     "one_whole_law_per_worker": true,
-    "max_active_per_worker": 1
+    "max_active_per_worker": 1,
+    "assignment_unit": "WHOLE_LAW_FAMILY",
+    "require_base_act": true,
+    "include_all_linked_documents": true,
+    "poll_purpose": "OBSERVE_AND_FILL_FREE_SLOT",
+    "periodic_reissue": false,
+    "dispatch_only_on": [
+      "FREE_WORKER",
+      "PRIOR_FAMILY_COMPLETE",
+      "WORKER_REPLACED"
+    ]
   },
   "transport": {
     "kind": "KIIP_PANEL",

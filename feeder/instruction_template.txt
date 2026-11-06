@@ -1,8 +1,12 @@
-[WORKC-GITHUB-REVIEW:{assignment_id}:{worker}:{job_id}]
-Start this whole-law Chinese review now.
-Repo: {repository} ({branch})
-Read: {ko_path}, {zh_path}, laws/en/{job_id}.json, and referenced meaning/pairs files.
-Use only official GitHub tools. Do not use local databases/files, worker_client, or local Python. Korean is authoritative; English and meaning data are references only.
-Review every row in this law family. Keep the draft unless there is a clear mistranslation, omission, untranslated Korean, or broken legal reference. Preserve IDs, numbers, citations, links, tables, annex/form relations, and hashes.
-Write {review_path} with schema LAW_ZH_MINIMAL_REVIEW_V1, job_id, worker, checked_rows, edits, and status COMPLETE. Then write {receipt_path} with status COMPLETE, checked_rows, corrected_rows, worker, and note. Do not edit laws/*.
-Commit both files to main and report the commit. Do not stop at planning or status.
+[WORKC-WHOLE-LAW-FAMILY:{assignment_id}:{worker}:{job_id}]
+지금부터 이 법령가족 1건 전체를 끝까지 검수하십시오.
+저장소: {repository}
+브랜치: {branch}
+법령가족: {title}
+Job ID: {job_id}
+
+이 job_id의 laws/ko/{job_id}.json 안에 연결된 법률, 시행령, 시행규칙, 별표, 별지 및 서식 전부가 하나의 작업단위입니다. 문서를 나누거나 일부만 COMPLETE로 처리하지 마십시오.
+공식 GitHub 도구만 사용하십시오. 로컬 DB, 로컬 패킷, worker_client, 로컬 Python을 검수 데이터 경로로 사용하지 마십시오.
+읽기: {ko_path}, {zh_path}, laws/en/{job_id}.json, documents/en, reviewed/en, meaning/pairs. 한국어 원문이 최종 기준이며 영어와 의미기록은 참고입니다.
+전체 연결 문서의 모든 행을 확인하고 명백한 오역·누락·한국어 잔존·수치/인용/법률용어 오류만 최소 교정하십시오.
+전체가 끝난 뒤에만 {review_path}와 {receipt_path}를 status COMPLETE로 저장하고 {branch}에 커밋한 뒤 SHA를 보고하십시오. laws/* 원본은 수정하지 마십시오.
