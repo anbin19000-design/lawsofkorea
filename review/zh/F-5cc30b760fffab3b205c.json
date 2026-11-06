@@ -1,0 +1,37 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-5cc30b760fffab3b205c",
+  "worker": "C04",
+  "checked_rows": 4,
+  "edits": [
+    {
+      "id": "B1-zh-00001",
+      "target_id": "683b7c56e70735a3f588caa563f33da3abad7719c43f4e4e3cbc0a343ec8b841",
+      "source_hash": "603ed1c9bf9208c42069481b5d47387ef885682d0916048208ac4efc05341c5e",
+      "text": "关于《检察厅法》部分修正法（法律第16908号）和《刑事诉讼法》部分修正法（法律第16924号）生效日期的规定",
+      "reason": "Corrected 检察官法 (prosecutors act) to 检察厅法 (Public Prosecutors' Office Act) and replaced 法案 (bill) with enacted-law references; preserved enactment numbers."
+    },
+    {
+      "id": "B1-zh-00002",
+      "target_id": "beeb8050fd15ad1d97253e8b5f589f5b571b53302bdde9de6d02b548c415573f",
+      "source_hash": "8ce03450c7790142d8cf39120e62cd7bdf5e0098174eef58cc8e390d428726b8",
+      "text": "第一条（检察厅法部分修正的生效日期）第16908号法律，即检察厅法部分修正法，自2021年1月1日起生效。\n\n",
+      "reason": "Corrected the statutory short title 检察机关法 to the more precise 检察厅法; retained the effective date."
+    },
+    {
+      "id": "B1-zh-00003",
+      "target_id": "557948eb18e0638c2f54c628722eb879faa1864def38132366b53c4db0cbd4ef",
+      "source_hash": "f466f67a37600005786333dbf3c846cd9ee3649ffb1308c31761f3908809147f",
+      "text": "第2条（刑事诉讼法部分修正的生效日期）第16924号法律，即《刑事诉讼法部分修正法》，自2021年1月1日起生效。但第312条第1款的修正规定自2022年1月1日起生效。\n\n",
+      "reason": "Corrected 第16924号法令 to 第16924号法律 (Act, not subordinate decree); preserved Article 312(1), its exception, and both dates."
+    },
+    {
+      "id": "B1-zh-00004",
+      "target_id": "1987d0a07ac4e281fe67753b4dfdbc9b515b84a831ce358a71c1d930776d5259",
+      "source_hash": "0ebff03dc44fde05e0c0db9cc2546f368189d43c2443ce633cdbdcd7f6841123",
+      "text": "附则 <第31091号，2020年10月7日>\n\n本令自颁布之日起生效。",
+      "reason": "Corrected 부칙 to 附则 and 이 영 to 本令 (the decree); retained decree number, promulgation date and commencement rule."
+    }
+  ],
+  "status": "COMPLETE"
+}
