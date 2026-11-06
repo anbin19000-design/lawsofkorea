@@ -3,8 +3,20 @@
   "assignment_id": "A-af1900a8c5b240ca930bb4944ba64760",
   "worker": "C05",
   "job_id": "F-3c963b359b7f002608c6",
-  "prompt_sha256": "4e46245db54acb7c7ffc013016fa5519db217fac8f2a268d48f9ef76721ba2f2",
-  "state": "UNCERTAIN_NO_RESEND",
+  "prompt_sha256": "bb747d64ce16733ff14cf49560be3eaf77a62740cc5f9672aa052d00aedf81da",
+  "state": "SENT_VERIFIED",
   "at": "2026-11-06T21:26:57.717705+00:00",
-  "error": "{\"success\": false, \"verified\": false, \"command\": \"panel.chat.send\", \"panelId\": \"panel-05\", \"characters\": 2320, \"detail\": \"INSERT_FAILED\"}"
+  "error": "{\"success\": false, \"verified\": false, \"command\": \"panel.chat.send\", \"panelId\": \"panel-05\", \"characters\": 2320, \"detail\": \"INSERT_FAILED\"}",
+  "verified_at": "2026-11-06T21:29:54.089507+00:00",
+  "compact_prompt": true,
+  "send_result": {
+    "success": true,
+    "verified": true,
+    "command": "panel.chat.send",
+    "panelId": "panel-05",
+    "characters": 1084,
+    "detail": "before=0;after=1"
+  },
+  "send_error": null,
+  "panel_url": "https://chatgpt.com/c/6aee455c-a9f8-83ee-94ed-4e0897e9ae7c"
 }
