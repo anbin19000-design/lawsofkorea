@@ -1,0 +1,51 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-4b9ca8fc8e0cebb2fb85",
+  "worker": "C04",
+  "checked_rows": 6,
+  "edits": [
+    {
+      "id": "B1-zh-00001",
+      "target_id": "6d06d46c4759c0e302450dd2d22d5b10db2e34cf17c8745521630006d8aa9e28",
+      "source_hash": "3a13415ba847d03fcaa22fc480bb2de53418f87b000c1b00e319e09659740bd3",
+      "text": "关于仁川广域市中区和弥邹忽区管辖区域变更的规定",
+      "reason": "Corrected the mistransliterated district name 密周区 to 弥邹忽区 (Michuhol-gu); preserved the legislative title and administrative boundary-change meaning."
+    },
+    {
+      "id": "B1-zh-00002",
+      "target_id": "8d83053354d745afe57a5092e18628f357a6e8d52776ac2f78e2893f685d6574",
+      "source_hash": "b081c8d832d52fb05b5d91c655f645cc1271098af72530ad1c1aac5cafc582b3",
+      "text": "将仁川广域市中区桃源洞第75号和第76号地块从仁川广域市中区的管辖区域划出，划入仁川广域市弥邹忽区的管辖区域。\n\n",
+      "reason": "Corrected the Dowon-dong place name 道元洞 to 桃源洞 and the inconsistent/wrong destination 密朝河区 to 弥邹忽区; made the legally operative exclusion and incorporation explicit and retained both lot numbers."
+    },
+    {
+      "id": "B1-zh-00003",
+      "target_id": "17d1fffb9b1e72928bff0ac82f255c8750c6a7be2251b626ff3e2bdd69920a30",
+      "source_hash": "02f9a4a43f39f2e9063dbbc8f2e3fa458f8928d1a62cb6a49b5176cab9102c7b",
+      "text": "附则 <第33255号，2023年2月21日>\n\n",
+      "reason": "Rendered Korean 부칙 as the legal section 附则, retaining the promulgation instrument number and date."
+    },
+    {
+      "id": "B1-zh-00004",
+      "target_id": "176a92b814ef1873c468319f872c5dff880b6bcc952d53ac43de2283f94a5626",
+      "source_hash": "594cb838cb967fa9b2c09eb82a9e381c08c31938f17ec653fddf1b028ac6404f",
+      "text": "第一条（施行日期）本令自公布后满30日之日起施行。\n\n",
+      "reason": "Corrected the decree designation and commencement timing to the date 30 full days have elapsed following promulgation, rather than an imprecise '30 days later' reference."
+    },
+    {
+      "id": "B1-zh-00005",
+      "target_id": "c8180ead873acb520d8a2d913565cbb59e0640f43a8c009cd7ca8261ef30b70a",
+      "source_hash": "176de68c6defd742af4cde9af5dfa6bb5d77d24ba8c64afd8d8f7fe25285da29",
+      "text": "第二条（关于行政处分等的过渡措施）① 在本令施行前，原地方自治团体的负责人或其所属机关的负责人就划入另一地方自治团体的地区所作的公告、行政处分或其他行为，视为依照本令取得该地区管辖权的地方自治团体的负责人或其所属机关的负责人所作的公告、行政处分或其他行为。\n\n  ② 在本令施行前向原地方自治团体的负责人或其所属机关的负责人提出的申请、申报或其他行为，视为向依照本令取得划入另一地方自治团体的地区管辖权的地方自治团体的负责人或其所属机关的负责人提出的申请、申报或其他行为。\n\n",
+      "reason": "Corrected 신고 from 通知 (notice) to 申报 (report/declaration), 행정처분 to 行政处分, and the responsible local self-governing bodies, retaining both paragraphs and the statutory deeming rules."
+    },
+    {
+      "id": "B1-zh-00006",
+      "target_id": "c2f108919e9f3eb2dffd19579a479f6d086f15d03822cf4d4b697bdb6c9840c3",
+      "source_hash": "57d4723ff30d10fad9fd2f770ec7412d2f0999252bde8d6e9ea2e163bf95c8a1",
+      "text": "第三条（与其他法令的关系）在本令施行时，将依本令变更的自治辖区地域的全部或一部分规定为其区域或管辖区域的法令，在根据本令规定的变更作相应修订之前，适用该法令时，应将依本令变更的自治辖区地域视为仍属于变更前自治辖区的区域或管辖区域。",
+      "reason": "Corrected 법령 to 法令, clarified the subject is the changed district territory rather than the entire autonomous district, and preserved the transitional application of prior jurisdiction until other laws are revised."
+    }
+  ],
+  "status": "COMPLETE"
+}
