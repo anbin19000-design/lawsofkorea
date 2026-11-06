@@ -46,16 +46,19 @@ def candidates(c):
  out.sort(key=lambda x:(int(x.get('rows') or 0),int(x.get('documents') or 0),x['job_id']))
  return out
 def validate(c,write=False):
- rows=manifest(c);ids=set();errors=[];pairs=done=0
+ rows=manifest(c);ids=set();errors=[];pairs=done=0;english_indexes=0
  for x in rows:
   j=x.get('job_id')
   if not j or j in ids:errors.append({'job_id':j,'error':'MISSING_OR_DUPLICATE_JOB_ID'});continue
   ids.add(j);p=paths(c,j);miss=[k for k in ('ko','zh') if not p[k].exists()]
   if miss:errors.append({'job_id':j,'error':'MISSING_SOURCE_PAIR','missing':miss})
   else:pairs+=1
+  ep=root(c)/c.get('english_index_dir','laws/en')/(j+'.json')
+  if ep.exists():english_indexes+=1
+  else:errors.append({'job_id':j,'error':'MISSING_ENGLISH_INDEX'})
   if completed(c,j):done+=1
  workers=[w['worker'] for w in c['workers'] if w.get('enabled')]
- report={'schema':'WORKC_GITHUB_FEEDER_VALIDATION_V1','at':now(),'repository':c['repository'],'branch':c['branch'],'enabled':c['enabled'],'mode':c['mode'],'manifest_jobs':len(rows),'paired_jobs':pairs,'completed_jobs':done,'active_jobs':len(active(c)),'eligible_jobs':len(candidates(c)),'workers':workers,'errors':errors,'valid':bool(rows) and not errors,'dispatch_guard_locked':not(c.get('enabled') and c.get('mode')=='LIVE')}
+ report={'schema':'WORKC_GITHUB_FEEDER_VALIDATION_V1','at':now(),'repository':c['repository'],'branch':c['branch'],'enabled':c['enabled'],'mode':c['mode'],'manifest_jobs':len(rows),'paired_jobs':pairs,'english_index_jobs':english_indexes,'completed_jobs':done,'active_jobs':len(active(c)),'eligible_jobs':len(candidates(c)),'workers':workers,'errors':errors,'valid':bool(rows) and not errors,'dispatch_guard_locked':not(c.get('enabled') and c.get('mode')=='LIVE')}
  if write:atomic(root(c)/'status'/'feeder-validation.json',report)
  return report
 def preview(c,limit=6):

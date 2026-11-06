@@ -1,0 +1,81 @@
+{
+  "schema": "WORKC_ENGLISH_SEMANTIC_EXPORT_SUMMARY_V1",
+  "jobs_requested": 1448,
+  "jobs_exported": 1448,
+  "job_failures": 0,
+  "rows": 1452943,
+  "rows_with_english": 1095758,
+  "rows_without_english": 357185,
+  "packet_reference_rows": 1095758,
+  "reviewed_rows": 0,
+  "ambiguous_rows": 0,
+  "english_index_bytes": 633483172,
+  "unique_pairs": 498201,
+  "pair_states": {
+    "NO_EXACT_H_LEXEME": 467240,
+    "REFERENCE_PAIR_NOT_IN_MATCHING_DB": 24282,
+    "UNIQUE_KO_EN_SUPPORTED_CONCEPT": 2234,
+    "MULTIPLE_KO_EN_SUPPORTED_CONCEPTS": 378,
+    "H_ENGLISH_NOT_EXACT": 4067
+  },
+  "h_rendering_records": 19070,
+  "pair_prefix_files": 256,
+  "documents": {
+    "unique_ko_documents": 2606,
+    "english_document_files": 5227,
+    "reviewed_family_files": 430,
+    "reviewed_rows_loaded": 120430,
+    "document_status": {
+      "EXACT_ENGLISH_AVAILABLE": 1388,
+      "FALLBACK_ENGLISH_AVAILABLE": 464,
+      "NO_DOCUMENT_ENGLISH": 754
+    },
+    "document_gaps": 423
+  },
+  "matching_source_status": {
+    "at": "2026-11-06T00:15:50.263295+09:00",
+    "pid": 40300,
+    "phase": "PREPARATION_COMPLETE_WAIT_FRENCH",
+    "seconds_this_process": 2209.82,
+    "statistics": {
+      "unique_ko_en_pairs": 1035139,
+      "NO_EXACT_H_LEXEME": 1023790,
+      "paired_source_items": 1051740,
+      "current_english_groups": 6450,
+      "target_rendering_records": 27545,
+      "UNIQUE_KO_EN_SUPPORTED_CONCEPT": 3239,
+      "H_ENGLISH_NOT_EXACT": 7548,
+      "MULTIPLE_KO_EN_SUPPORTED_CONCEPTS": 562,
+      "common_field_english_pairs": 3962,
+      "body_document_reference_links": 10411,
+      "source_tasks_scanned": 3240670,
+      "scope_ANNEX": 1119840,
+      "source_items_without_paired_text": 2199342,
+      "scope_BODY": 2120830
+    },
+    "source_snapshot": {
+      "path": "E:\\도구모음\\크롬번역기\\fast_draft_20261101\\law_ru_20261105\\source_frozen\\queue.sqlite3",
+      "bytes": 9771757568,
+      "mtime_ns": 1793857286658410800
+    },
+    "french": {
+      "sampled_at": 1793891697.5795565,
+      "counts": {
+        "DONE": 2638225,
+        "KEEP": 388462,
+        "RETRY": 213943,
+        "REVIEW": 40
+      },
+      "remaining": 213983,
+      "apply_gate": "WAIT_FRENCH_COMPLETE"
+    },
+    "next_source_rowid": 3240670,
+    "production_translation_writes": 0,
+    "english_writes": 0,
+    "h_database_writes": 0,
+    "semantic_approvals": 0,
+    "scope_note": "Lexical whole-pair evidence only; no substring replacement. Current document groups take precedence at application. Missing task English is missing linkage, not untranslated English.",
+    "database": "E:\\YOLLA_WORKSPACE\\law_review18_environment_20261105\\ko_en_h_matching_20261105\\matching.sqlite3"
+  },
+  "authority_note": "Korean source is authoritative. Exact-version English is preferred. Family-latest fallback is reference-only. Meaning records are lexical whole-pair evidence and are not automatic approval."
+}

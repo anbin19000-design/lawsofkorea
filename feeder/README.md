@@ -14,3 +14,7 @@ python feeder/github_instruction_feeder.py preview --limit 6
 ```
 
 The Windows task `WORKC_GitHub_Law_Instruction_Feeder` is installed disabled with a one-minute trigger.
+
+## English and semantic references
+
+Each assignment has `laws/en/<job_id>.json`. It links rows to Korean-English pairs and to shared English law documents under `documents/en/`. Reviewed row references are under `reviewed/en/`; semantic evidence and H-language renderings are under `meaning/pairs/`. Korean remains authoritative. Family-version fallbacks and semantic evidence are references, not automatic approvals.

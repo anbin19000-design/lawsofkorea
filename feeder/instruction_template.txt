@@ -8,15 +8,20 @@ Law family: {title}
 Job ID: {job_id}
 Korean source: {ko_path}
 Chinese draft: {zh_path}
+English matching index: laws/en/{job_id}.json
+Shared full English documents: documents/en/
+Reviewed English references: reviewed/en/
+Meaning records: meaning/pairs/<first two hex characters of pair_id>.jsonl
 Correction output: {review_path}
 Completion receipt: {receipt_path}
 
 Rules:
 1. Use only official GitHub tools to read and write this assignment. Do not use a local law database, local packet files, worker_client, or local Python tools as the review data path.
 2. Finish this whole law family before taking another law. Act, Decree, Rule, annexes and forms remain one family.
-3. Compare each Chinese row against its Korean source. Keep the current Chinese draft unless there is a clear mistranslation, omission, untranslated Korean, broken number/name/reference, or obvious legal-term error.
-4. Preserve job_id, law_id, row id, document relationships, numbers, citations, prefixes/suffixes, tables, annex/form relationships and source hashes.
-5. Do not rewrite for style. Save actual corrections only to review/zh/{job_id}.json as LAW_ZH_MINIMAL_REVIEW_V1 with job_id, worker, checked_rows, edits and status COMPLETE.
-6. After the whole family is checked, create receipts/{job_id}.json with status COMPLETE, checked_rows, corrected_rows, worker and a concise note. Do not edit laws/ source files.
-7. Old local-tool SAFETY_HOLD or RETIRED_HOLD history does not block independent GitHub review. Only a new GitHub access error or malformed/missing GitHub source is a GitHub hold.
-8. Report the GitHub commit or file-update receipt. Do not stop after a status message.
+3. Read laws/en/{job_id}.json before reviewing. Use exact-version English, reviewed English rows, and meaning-pair records to accelerate matching, but always treat Korean as authoritative. FAMILY_LATEST_FALLBACK and semantic evidence are reference-only and must not be copied automatically.
+4. Compare each Chinese row against its Korean source. Keep the current Chinese draft unless there is a clear mistranslation, omission, untranslated Korean, broken number/name/reference, or obvious legal-term error.
+5. Preserve job_id, law_id, row id, document relationships, numbers, citations, prefixes/suffixes, tables, annex/form relationships and source hashes.
+6. Do not rewrite for style. Save actual corrections only to review/zh/{job_id}.json as LAW_ZH_MINIMAL_REVIEW_V1 with job_id, worker, checked_rows, edits and status COMPLETE.
+7. After the whole family is checked, create receipts/{job_id}.json with status COMPLETE, checked_rows, corrected_rows, worker and a concise note. Do not edit laws/ source files.
+8. Old local-tool SAFETY_HOLD or RETIRED_HOLD history does not block independent GitHub review. Only a new GitHub access error or malformed/missing GitHub source is a GitHub hold.
+9. Report the GitHub commit or file-update receipt. Do not stop after a status message.

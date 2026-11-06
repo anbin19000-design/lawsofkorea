@@ -75,5 +75,16 @@
     "scheduled_task_enabled": false,
     "trigger_interval_seconds": 60,
     "service_wrapper": "feeder/service.cmd"
+  },
+  "english_index_dir": "laws/en",
+  "english_document_dir": "documents/en",
+  "reviewed_english_dir": "reviewed/en",
+  "meaning_pair_dir": "meaning/pairs",
+  "english_semantic_summary": "status/english-semantic-summary.json",
+  "english_reference_policy": {
+    "korean_authoritative": true,
+    "exact_version_preferred": true,
+    "family_latest_fallback_reference_only": true,
+    "semantic_record_is_evidence_not_automatic_approval": true
   }
 }
