@@ -1,0 +1,95 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-df4302990a5e6f8116c9",
+  "family_id": "F-df4302990a5e6f8116c9",
+  "worker": "C02",
+  "checked_rows": 7,
+  "edits": [
+    {
+      "id": "B1-zh-00001",
+      "doc": "B1",
+      "law_id": "kr-001424-165523-ko",
+      "scope": "BODY",
+      "start": 0,
+      "end": 10,
+      "target_id": "1d416c32a7d25defaaa84f6d6545709e0f92d571e447f8f0f04543e000626ab1",
+      "source_hash": "a2aabf0332cd293141afd7cc4e5de785317cd2f4185864ade1dd7c9209bd8c91",
+      "text": "关于国庆日的法律",
+      "reason": "국경일은 일반 공휴일이 아니며 법률은 법안이 아님. 법령 제명 바로잡음."
+    },
+    {
+      "id": "B1-zh-00002",
+      "doc": "B1",
+      "law_id": "kr-001424-165523-ko",
+      "scope": "BODY",
+      "start": 0,
+      "end": 50,
+      "target_id": "387cee9b9118fd6c165e9ad1478fe9b551f6b2d9b019ef086b84a2513baf2a0e",
+      "source_hash": "ee37e9e49202fcfb31e13bef651be265adc05043f86bbee178c0a54ada3bbadd",
+      "text": "第一条（国庆日的指定）为纪念国家值得庆祝的日子，规定国庆日。\n\n",
+      "reason": "국경일(國慶日)을 국가의 일반 공휴일과 혼동한 오역 및 국가의 경사로운 날 표현 교정."
+    },
+    {
+      "id": "B1-zh-00003",
+      "doc": "B1",
+      "law_id": "kr-001424-165523-ko",
+      "scope": "BODY",
+      "start": 50,
+      "end": 156,
+      "target_id": "1a553e706aec5c58965cd0d39f04d9065effe013a32f3bfc479b530b146499e2",
+      "source_hash": "efc9c4c1b4ea721a9126f53823f265434e66a6aa0f7a8759e21f1a53b87804fb",
+      "text": "第二条（国庆日的种类）国庆日如下：\n1. 三一节：3月1日\n2. 制宪节：7月17日\n3. 光复节：8月15日\n4. 开天节：10月3日\n5. 韩文日：10月9日\n\n",
+      "reason": "국경일 5종의 법정 명칭 바로잡음: 3·1절은 이동일이 아니며, 개천절은 국가재단법인 관련 일이 아님. 다섯 날짜·순서 보존."
+    },
+    {
+      "id": "B1-zh-00004",
+      "doc": "B1",
+      "law_id": "kr-001424-165523-ko",
+      "scope": "BODY",
+      "start": 156,
+      "end": 177,
+      "target_id": "f6a5453acb0d7976c81a09d3e00f055443a06707730a4785035c911928fd4335",
+      "source_hash": "a2c6a6b3b78dc7e7dc6e9934631e6ecd4269025be76405022650a884c69868c0",
+      "text": "第三条 删除 <2014年12月30日>\n\n",
+      "reason": "제3조 삭제를 문서·문장 삭제와 혼동한 번역 교정. 삭제일 보존."
+    },
+    {
+      "id": "B1-zh-00005",
+      "doc": "B1",
+      "law_id": "kr-001424-165523-ko",
+      "scope": "BODY",
+      "start": 177,
+      "end": 218,
+      "target_id": "7c56fd30961ef519e50df62870065c3759c7bad1946ad653517657b18064a32a",
+      "source_hash": "b7f10db68c820314362b85d96b1c690669d53b8e2f12160645b8876dc19966d6",
+      "text": "附则 <第53号，1949年10月1日>\n\n本法自公布之日起施行。\n\n",
+      "reason": "부칙을 부록으로 오역한 부분 교정, 시행 법률 용어 통일. 공포번호·날짜 보존."
+    },
+    {
+      "id": "B1-zh-00006",
+      "doc": "B1",
+      "law_id": "kr-001424-165523-ko",
+      "scope": "BODY",
+      "start": 218,
+      "end": 262,
+      "target_id": "1ac92c7b10c11e12fb42e829c0ccaa2675f051782faaf607c5ad92bcd29054f5",
+      "source_hash": "ee00f0c17ebbc5f45f61a4725776e2c44d9d236c71b850cb455949c6887858f2",
+      "text": "附则 <第7771号，2005年12月29日>\n\n本法自公布之日起施行。\n\n",
+      "reason": "부칙 표제 및 시행 법률 용어 교정. 공포번호·날짜 보존."
+    },
+    {
+      "id": "B1-zh-00007",
+      "doc": "B1",
+      "law_id": "kr-001424-165523-ko",
+      "scope": "BODY",
+      "start": 262,
+      "end": 305,
+      "target_id": "5427b2b9e9f031c46bd238f863afd094589b31a92dd1d401638cb97e1714e0f6",
+      "source_hash": "fdb69a8fa625f611cac8208f6533b8d8fa46276352052b1483d1a5c951c5d6f8",
+      "text": "附则 <第12915号，2014年12月30日>\n\n本法自公布之日起施行。",
+      "reason": "부칙 표제 및 시행 법률 용어 교정. 공포번호·날짜 보존."
+    }
+  ],
+  "status": "COMPLETE",
+  "note": "국경일에 관한 법률 1개 문서의 중국어 행 7/7개를 한국어 기준 커밋 원문과 직접 대조. 한국어/중국어/영어 색인 blobs 모두 기준 커밋과 main에서 동일. 정확한 판본의 official 및 draft 영문 documents/en 2개는 참고했고, row_matches에는 연결된 의미쌍과 reviewed/en 경로가 없음. 국경일은 일반 공휴일과 구별, 국경일 5종 날짜·제3조 삭제일·부칙 3건의 공포번호/날짜 보존. laws/* 원본 미변경."
+}
