@@ -1,0 +1,44 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-de2b5b622f8d580933bc",
+  "worker": "C04",
+  "checked_rows": 5,
+  "edits": [
+    {
+      "id": "B1-zh-00001",
+      "target_id": "8461c7a288908e5510dda48ed0ef7aa4689aa7b37fd7c10c4a3b88e030138ece",
+      "source_hash": "4b464d9e68730a99aa810cc810da134050f73840049e3bc0e8c748482597b9e5",
+      "text": "《宪法法院法》第十九条第四款第五项关于研究机构范围的规则",
+      "reason": "Corrected the instrument title from 规定 to 规则 to preserve the Korean 법규 type 규칙; maintained Article 19(4)(5)."
+    },
+    {
+      "id": "B1-zh-00002",
+      "target_id": "dcc29d4189a61302133db18552c3a5292d02a581d689809da6348bb1db4ebb26",
+      "source_hash": "273273a00fd9cf80ef3cf141fbb0b63b4c4933749d97a72fedf7fd0a14f62a1f",
+      "text": "第一条（目的）本规则旨在根据《宪法法院法》第十九条第四款第五项的授权，规定大学等经认可的研究机构的范围。\n\n",
+      "reason": "Clarified that the Constitutional Court Act delegates authority to define the scope, not to authorize the institutions themselves; rendered 대학 등 as 大学等 rather than an illustrative ‘such as universities’."
+    },
+    {
+      "id": "B1-zh-00003",
+      "target_id": "441728ab6cf0a899d4270090c4d2ffcbba588a75d21aaddde2dd7fbf7293fe37",
+      "source_hash": "e20b2288c06f5c82914f27f779e38748234734997343558a85dc0860ef69ea30",
+      "text": "第二条（大学等经认可的研究机构的范围）《宪法法院法》第十九条第四款第五项所称“大学等经认可的研究机构”，是指下列机构：\n1. 由依据《高等教育法》第四条第一款设立，或经教育部长依据同条第二款批准设立的大学、产业大学、教育大学、专科大学、广播通信大学及技术大学设立的，以法学为主要研究对象的大学附设研究所\n2. 依据《政府出资研究机构等的设立、运营及培育法》第8条设立的政府出资研究机构\n3. 依据《地方自治团体出资研究院的设立及运营法》第4条设立的地方自治团体出资研究院\n4. 依据《特定研究机构培育法》可以获得政府保护和培育的研究机构\n\n",
+      "reason": "Restored omitted numbered item 2, corrected legal titles and government-funded/local-government-funded institution types, and clarified the university-affiliated law-research-institute limitation; preserved all four clauses and statutory citations."
+    },
+    {
+      "id": "B1-zh-00004",
+      "target_id": "76caa114050b808f2063639f0fe518b1d34733dd5cd2d5985669fd02cf1cd5cf",
+      "source_hash": "69c0029427cca74cf422e5d4c30900b6d5d58a32431f10bae19ca5e6b548edad",
+      "text": "附则 <第135号，2003年6月9日>\n\n本规则自2003年6月13日起施行。\n\n",
+      "reason": "Rendered 부칙 as 附则 and 이 규칙 as 本规则, preserving Rule No. 135 and promulgation/effective dates."
+    },
+    {
+      "id": "B1-zh-00005",
+      "target_id": "382f141c76395a25cdfe307a8b2fa6fc4774b29e3aef274b7eb1bf28aab6e29a",
+      "source_hash": "80aac001e74680b2334c5a8aeb4be6ceb5ce5a3c8fa81f2db8db2791e921fbeb",
+      "text": "附则 <第332号，2014年10月2日>\n\n本规则自颁布之日起施行。",
+      "reason": "Rendered 부칙 as 附则 and preserved this Rule’s promulgation-day commencement and number/date."
+    }
+  ],
+  "status": "COMPLETE"
+}
