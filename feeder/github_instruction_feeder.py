@@ -82,11 +82,16 @@ def git(c,*args,check=True):
 def sync(c):
  git(c,'fetch','origin',c['branch'])
  if git(c,'status','--porcelain').stdout.strip():raise RuntimeError('DIRTY_GITHUB_WORKTREE')
- git(c,'pull','--ff-only','origin',c['branch'])
+ git(c,'pull','--rebase','origin',c['branch'])
 def commit(c,msg,items):
  git(c,'add',*items)
  if not git(c,'status','--porcelain').stdout.strip():return None
- git(c,'commit','-m',msg);git(c,'push','origin',c['branch']);return git(c,'rev-parse','HEAD').stdout.strip()
+ git(c,'commit','-m',msg)
+ pushed=git(c,'push','origin',c['branch'],check=False)
+ if pushed.returncode:
+  git(c,'pull','--rebase','origin',c['branch'])
+  git(c,'push','origin',c['branch'])
+ return git(c,'rev-parse','HEAD').stdout.strip()
 def require_live(c,confirm):
  if not c.get('enabled') or c.get('mode')!='LIVE':raise RuntimeError('FEEDER_DISABLED')
  if confirm!=c.get('dispatch_confirm_token'):raise RuntimeError('DISPATCH_CONFIRMATION_REQUIRED')
