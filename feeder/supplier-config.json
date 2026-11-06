@@ -1,0 +1,61 @@
+{
+  "schema": "LAW_EVENT_SUPPLIER_CONFIG_V2",
+  "enabled": true,
+  "event_max_age_seconds": 120,
+  "source_manifest": "status/whole-law-family-assignment.jsonl",
+  "bindings_path": "status/worker-bindings.json",
+  "heavy_threshold_rows": 3000,
+  "max_heavy_active": 1,
+  "observer_conversation": "6aee54fb-1a94-83ee-ab44-7ac18c2f5592",
+  "mode": "OBSERVER_EVENT_ONLY",
+  "automatic_observation": false,
+  "automatic_retry": false,
+  "pc": "WORK-C",
+  "repository": "anbin19000-design/lawsofkorea",
+  "branch": "main",
+  "repo_root": "C:\\YOLLA_WORKSPACE\\github_law_review_workc",
+  "partition_manifest_blob": "3de359c4d1d2afd5ac7708cc3abe85a97c5ec44b",
+  "partition_jobs": 785,
+  "workers": [
+    {
+      "worker": "C01",
+      "panel_id": "panel-01",
+      "enabled": true
+    },
+    {
+      "worker": "C02",
+      "panel_id": "panel-02",
+      "enabled": true
+    },
+    {
+      "worker": "C03",
+      "panel_id": "panel-03",
+      "enabled": true
+    },
+    {
+      "worker": "C04",
+      "panel_id": "panel-04",
+      "enabled": true
+    },
+    {
+      "worker": "C05",
+      "panel_id": "panel-05",
+      "enabled": true
+    },
+    {
+      "worker": "C06",
+      "panel_id": "panel-06",
+      "enabled": true
+    }
+  ],
+  "transport": {
+    "panel_gateway": "http://127.0.0.1:32722"
+  },
+  "observer_latest": "C:\\YOLLA\\LaoPanelObserverPassive\\20261107\\run\\latest.json",
+  "observer_health": "C:\\YOLLA\\LaoPanelObserverPassive\\20261107\\run\\health.json",
+  "observer_stale_seconds": 60,
+  "stop_paths": [
+    "C:\\YOLLA_WORKSPACE\\law_review18_environment_20261105\\zh_fastpass_20261106\\STOP",
+    "C:\\YOLLA_WORKSPACE\\law_review18_environment_20261105\\zh_fastpass_20261106\\dispatch_v2\\STOP"
+  ]
+}
