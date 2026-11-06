@@ -1,0 +1,2709 @@
+{
+  "family_id": "KR:011121",
+  "title": "지적측량 시행규칙",
+  "worker": "N04",
+  "saved_at": 1793510642.8202877,
+  "rows": [
+    {
+      "index": 0,
+      "source_ko": "국토교통부 (공간정보제도과), 044-201-4839",
+      "text_en": "Ministry of Land, Infrastructure and Transport ( Spatial Information System Division ), 044-201-4839",
+      "pre_body_fill_index": 0
+    },
+    {
+      "index": 1,
+      "source_ko": "        제1장 총칙",
+      "text_en": "        Chapter 1 General Provisions",
+      "pre_body_fill_index": 1
+    },
+    {
+      "index": 2,
+      "source_ko": " 제1조(목적) 이 규칙은「공간정보의 구축 및 관리 등에 관한 법률」 및 같은 법 시행령에서 위임된 사항과 그 시행에 필요한 사항을 정함을 목적으로 한다. <개정 2015. 4. 23.>",
+      "text_en": "Article 1 (Purpose) The purpose of this Rule is to prescribe matters delegated by the Act on the Establishment and Management of Spatial Information, etc. and the Enforcement Decree of the same Act, as well as matters necessary for the implementation thereof. <Amended Apr. 23, 2015>",
+      "pre_body_fill_index": 2
+    },
+    {
+      "index": 3,
+      "source_ko": " 제2조(정의) 이 규칙에서 사용하는 용어의 뜻은 다음과 같다.",
+      "text_en": " Article 2 (Definitions) The meanings of terms used in this Rule are as follows:",
+      "pre_body_fill_index": 3
+    },
+    {
+      "index": 4,
+      "source_ko": "1. “기지점(旣知點)”이란 다음 각 목의 구분에 따른 측량기준점 및 경계점을 말한다.",
+      "text_en": "1. “Known points” refers to survey reference points and boundary points according to the classifications in each of the following subparagraphs.",
+      "pre_body_fill_index": 4
+    },
+    {
+      "index": 5,
+      "source_ko": "가. 「공간정보의 구축 및 관리 등에 관한 법률 시행령」(이하 “영”이라 한다) 제8조제1항제3호에 따른 지적기준점을 정하기 위한 기초측량(이하 “기초측량”이라 한다): 「공간정보의 구축 및 관리 등에 관한 법률」(이하 “법”이라 한다) 제7조제1항제1호에 따른 국가기준점 또는 같은 항 제3호에 따른 지적기준점(이하 “지적기준점”이라 한다)",
+      "text_en": "a. Basic surveying for establishing cadastral reference points pursuant to Article 8, Paragraph 1, Subparagraph 3 of the Enforcement Decree of the Act on the Establishment and Management of Spatial Information, etc. (hereinafter referred to as the “Decree” ) (hereinafter referred to as “Basic Surveying”): National reference points pursuant to Article 7, Paragraph 1, Subparagraph 1 of the Act on the Establishment and Management of Spatial Information, etc. (hereinafter referred to as the “Act”) or cadastral reference points pursuant to Subparagraph 3 of the same Paragraph (hereinafter referred to as “Cadastral Reference Points”)",
+      "pre_body_fill_index": 5
+    },
+    {
+      "index": 6,
+      "source_ko": "나. 제5조제1항에 따른 세부측량: 지적기준점 또는 지적도ㆍ임야도상 필지를 구획하는 경계점과 상호 부합되는 지상의 경계점",
+      "text_en": "B. Detailed survey pursuant to Article 5, Paragraph 1 : Boundary points on the ground that correspond to cadastral reference points or boundary points demarcating parcels on cadastral maps or forest maps.",
+      "pre_body_fill_index": 6
+    },
+    {
+      "index": 7,
+      "source_ko": "2. “망평균계산법”이란 지적삼각망을 활용하여 구하려는 지적삼각점 위치를 구하는 계산방법을 말한다.",
+      "text_en": "2. “Network average calculation method” refers to a calculation method for finding the location of a cadastral triangulation point to be found by utilizing a cadastral triangulation network.",
+      "pre_body_fill_index": 7
+    },
+    {
+      "index": 8,
+      "source_ko": "3. “배각법(倍角法)”이란 하나의 각을 2회 이상 반복 관측하여 누적된 값을 평균하는 관측방법을 말한다.",
+      "text_en": "3. “Double angle method” refers to an observation method in which a single angle is observed two or more times and the accumulated value is averaged.",
+      "pre_body_fill_index": 8
+    },
+    {
+      "index": 9,
+      "source_ko": "4. “방위각법(方位角法)”이란 자오선의 북을 기준으로 시계방향으로 각 측선까지 이루는 각을 직접 관측하는 방법을 말한다.",
+      "text_en": "4. “Azimuth method” refers to a method of directly observing the angles formed to each traverse line in a clockwise direction based on the north of the meridian.",
+      "pre_body_fill_index": 9
+    },
+    {
+      "index": 10,
+      "source_ko": "5. “도선법(道線法)”이란 기지점에서 출발하여 각 변의 방향과 거리를 순차적으로 관측하고 기지점에 도착하도록 하여 측점의 위치를 결정하는 방법을 말한다.",
+      "text_en": "5. “The method of traversing” refers to a method of determining the location of a survey point by starting from a base point, sequentially observing the direction and distance of each side, and returning to the base point.",
+      "pre_body_fill_index": 10
+    },
+    {
+      "index": 11,
+      "source_ko": "6. “다각망도선법(多角網道線法)”이란 여러 개의 도선을 결합한 형태로 구성하여 각 도선에서 발생한 오차를 상호 관련이 있는 도선과의 관계를 종합하여 오차를 소거시키는 방법을 말한다.",
+      "text_en": "6. “Multi-angled wire method” refers to a method of configuring multiple wires in a combined form to eliminate errors by synthesizing the relationship between the errors generated in each wire and the related wires.",
+      "pre_body_fill_index": 11
+    },
+    {
+      "index": 12,
+      "source_ko": "7. “교회법(交會法)”이란 기지점 또는 미지점(未知點)에서 방향선의 교차로 점의 위치를 결정하는 방법을 말한다.",
+      "text_en": "7. “Church law” refers to a method of determining the location of a point by the intersection of direction lines at a known or unknown point.",
+      "pre_body_fill_index": 12
+    },
+    {
+      "index": 13,
+      "source_ko": "8. “방사법(放射法)”이란 측정하려는 점이 모두 보이는 점 또는 기지점에 측판을 설치하고 여러 점의 거리와 각을 측정하여 측정하려는 점의 위치를 결정하는 방법을 말한다.",
+      "text_en": "8. “Radial method” refers to a method of determining the location of a point to be measured by installing a measuring plate at a point or base point where all points to be measured are visible and measuring the distances and angles of several points.",
+      "pre_body_fill_index": 13
+    },
+    {
+      "index": 14,
+      "source_ko": "9. “연직각(鉛直角)”이란 시준선(視準線)이 수평선과 이루는 각을 말한다.",
+      "text_en": "9. “Vertical angle” refers to the angle formed by the line of sight with the horizontal line.",
+      "pre_body_fill_index": 14
+    },
+    {
+      "index": 15,
+      "source_ko": "[본조신설 2024. 12. 26.]\n[종전 제2조는 제2조의2로 이동 <2024. 12. 26.>]",
+      "text_en": "[This Article was newly added on Dec. 26, 2024.]\n[Former Article 2 was moved to Article 2-2 <Dec. 26, 2024>]",
+      "pre_body_fill_index": 15
+    },
+    {
+      "index": 16,
+      "source_ko": "        제2장 지적기준점의 설치 및 관리",
+      "text_en": "        Chapter 2 Installation and Management of Cadastral Reference Points",
+      "pre_body_fill_index": 16
+    },
+    {
+      "index": 17,
+      "source_ko": " 제2조의2(지적기준점표지의 설치ㆍ관리 등) ① 법 제8조제1항에 따른 지적기준점표지의 설치는 다음 각 호의 기준에 따른다. <개정 2015. 4. 23., 2024. 12. 26.>",
+      "text_en": " Article 2-2 (Installation and Management, etc. of Cadastral Reference Point Markers) ① The installation of cadastral reference point markers pursuant to Article 8, Paragraph 1 of the Act shall be in accordance with the standards set forth in each of the following subparagraphs. <Amended Apr. 23, 2015; Dec. 26, 2024>",
+      "pre_body_fill_index": 17
+    },
+    {
+      "index": 18,
+      "source_ko": "1. 지적삼각점표지의 점간거리는 평균 2킬로미터 이상 5킬로미터 이하로 할 것",
+      "text_en": "1. The distance between cadastral triangulation markers shall be an average of 2 kilometers or more and 5 kilometers or less.",
+      "pre_body_fill_index": 18
+    },
+    {
+      "index": 19,
+      "source_ko": "2. 지적삼각보조점표지의 점간거리는 평균 1킬로미터 이상 3킬로미터 이하로 할 것. 다만, 다각망도선법에 따르는 경우에는 평균 0.5킬로미터 이상 1킬로미터 이하로 한다.",
+      "text_en": "2. The distance between points of cadastral auxiliary triangulation markers shall be at least 1 kilometer and no more than 3 kilometers on average. However, in cases following the polygonal network traversal method, the distance shall be at least 0.5 kilometers and no more than 1 kilometer on average.",
+      "pre_body_fill_index": 19
+    },
+    {
+      "index": 20,
+      "source_ko": "3. 지적도근점표지의 점간거리는 평균 50미터 이상 500미터 이하로 할 것",
+      "text_en": "3. The distance between cadastral control point markers shall be at least 50 meters and no more than 500 meters on average.",
+      "pre_body_fill_index": 20
+    },
+    {
+      "index": 21,
+      "source_ko": "② 지적소관청은 연 1회 이상 지적기준점표지의 이상 유무를 조사하여야 한다. 이 경우 멸실되거나 훼손된 지적기준점표지를 계속 보존할 필요가 없을 때에는 폐기할 수 있다.",
+      "text_en": "② The cadastral authority shall investigate the condition of cadastral reference point markers at least once a year. In this case, if there is no longer a need to preserve cadastral reference point markers that have been lost or damaged, they may be disposed of.",
+      "pre_body_fill_index": 21
+    },
+    {
+      "index": 22,
+      "source_ko": "③ 지적소관청이 관리하는 지적기준점표지가 멸실되거나 훼손되었을 때에는 지적소관청은 다시 설치하거나 보수하여야 한다.",
+      "text_en": "③ When a cadastral reference point marker managed by the cadastral authority is lost or damaged, the cadastral authority shall reinstall or repair it.",
+      "pre_body_fill_index": 22
+    },
+    {
+      "index": 23,
+      "source_ko": "[제2조에서 이동 <2024. 12. 26.>]",
+      "text_en": "[Moved from Article 2 <December 26, 2024>]",
+      "pre_body_fill_index": 23
+    },
+    {
+      "index": 24,
+      "source_ko": " 제3조(지적기준점성과의 관리 등) 법 제27조제1항에 따른 지적기준점성과의 관리는 다음 각 호에 따른다. <개정 2024. 12. 26.>",
+      "text_en": " Article 3 (Management of Cadastral Reference Point Results, etc.) The management of cadastral reference point results pursuant to Article 27, Paragraph 1 of the Act shall be in accordance with each of the following subparagraphs. <Amended Dec. 26, 2024>",
+      "pre_body_fill_index": 24
+    },
+    {
+      "index": 25,
+      "source_ko": "1. 지적삼각점성과는 특별시장ㆍ광역시장ㆍ특별자치시장ㆍ도지사 또는 특별자치도지사(이하 “시ㆍ도지사”라 한다)가 관리하고, 지적삼각보조점성과 및 지적도근점성과는 지적소관청이 관리할 것",
+      "text_en": "1. Cadastral triangulation results shall be managed by the Mayor of a Special City, Metropolitan City, Special Self-Governing City, or the Governor of a Province or Special Self-Governing Province (hereinafter referred to as the “City/Provincial Governor”), and cadastral auxiliary triangulation results and cadastral control point results shall be managed by the competent cadastral authority.",
+      "pre_body_fill_index": 25
+    },
+    {
+      "index": 26,
+      "source_ko": "2. 지적소관청이 지적삼각점을 설치하거나 변경하였을 때에는 그 측량성과를 시ㆍ도지사에게 통보할 것",
+      "text_en": "2. When the cadastral authority installs or changes a cadastral triangulation point, it shall notify the Mayor or Provincial Governor of the survey results.",
+      "pre_body_fill_index": 26
+    },
+    {
+      "index": 27,
+      "source_ko": "3. 지적소관청은 지형ㆍ지물 등의 변동으로 인하여 지적삼각점성과가 다르게 된 때에는 지체 없이 그 측량성과를 수정하고 그 내용을 시ㆍ도지사에게 통보할 것",
+      "text_en": "3. If cadastral triangulation results differ due to changes in topography, features, etc., the competent cadastral authority shall correct the survey results without delay and notify the Mayor/Do Governor of the details.",
+      "pre_body_fill_index": 27
+    },
+    {
+      "index": 28,
+      "source_ko": " 제4조(지적기준점성과표의 기록ㆍ관리 등) ① 제3조에 따라 시ㆍ도지사가 지적삼각점성과를 관리할 때에는 다음 각 호의 사항을 지적삼각점성과표에 기록ㆍ관리하여야 한다.",
+      "text_en": " Article 4 (Recording and Management of Cadastral Reference Point Results Table, etc.) ① When a City or Provincial Governor manages cadastral triangulation results pursuant to Article 3, they shall record and manage the following matters in the cadastral triangulation result table.",
+      "pre_body_fill_index": 28
+    },
+    {
+      "index": 29,
+      "source_ko": "1. 지적삼각점의 명칭과 기준 원점명",
+      "text_en": "1. Names of Geodetic Triangulation Points and Reference Origin Names",
+      "pre_body_fill_index": 29
+    },
+    {
+      "index": 30,
+      "source_ko": "2. 좌표 및 표고",
+      "text_en": "2. Coordinates and Elevation",
+      "pre_body_fill_index": 30
+    },
+    {
+      "index": 31,
+      "source_ko": "3. 경도 및 위도(필요한 경우로 한정한다)",
+      "text_en": "3. Longitude and latitude (limited to cases where necessary)",
+      "pre_body_fill_index": 31
+    },
+    {
+      "index": 32,
+      "source_ko": "4. 자오선수차(子午線收差)",
+      "text_en": "4. Meridian aberration",
+      "pre_body_fill_index": 32
+    },
+    {
+      "index": 33,
+      "source_ko": "5. 시준점(視準點)의 명칭, 방위각 및 거리",
+      "text_en": "5. Name of the sighting point, azimuth, and distance",
+      "pre_body_fill_index": 33
+    },
+    {
+      "index": 34,
+      "source_ko": "6. 소재지와 측량연월일",
+      "text_en": "6. Location and Date of Survey",
+      "pre_body_fill_index": 34
+    },
+    {
+      "index": 35,
+      "source_ko": "7. 그 밖의 참고사항",
+      "text_en": "7. Other Notes",
+      "pre_body_fill_index": 35
+    },
+    {
+      "index": 36,
+      "source_ko": "② 제3조에 따라 지적소관청이 지적삼각보조점성과 및 지적도근점성과를 관리할 때에는 다음 각 호의 사항을 지적삼각보조점성과표 및 지적도근점성과표에 기록ㆍ관리하여야 한다. <개정 2024. 12. 26.>",
+      "text_en": "② When the cadastral authority manages cadastral auxiliary triangulation point results and cadastral control point results pursuant to Article 3, it shall record and manage the matters of each of the following subparagraphs in the cadastral auxiliary triangulation point result table and the cadastral control point result table. <Amended Dec. 26, 2024>",
+      "pre_body_fill_index": 36
+    },
+    {
+      "index": 37,
+      "source_ko": "1. 지적삼각보조점 또는 지적도근점의 번호",
+      "text_en": "1. Number of cadastral auxiliary triangulation point or cadastral control point",
+      "pre_body_fill_index": 37
+    },
+    {
+      "index": 38,
+      "source_ko": "1의2. 근경사진 및 위치의 약도(위치의 약도는 원경사진ㆍ항공사진으로 대체할 수 있다)",
+      "text_en": "1-2. Close-up photograph and sketch map of location (the sketch map of location may be replaced with a long-distance photograph or aerial photograph)",
+      "pre_body_fill_index": 38
+    },
+    {
+      "index": 39,
+      "source_ko": "2. 좌표와 직각좌표계 원점명",
+      "text_en": "2. Coordinates and Rectangular Coordinate System Origin Name",
+      "pre_body_fill_index": 39
+    },
+    {
+      "index": 40,
+      "source_ko": "3. 경도와 위도(필요한 경우로 한정한다)",
+      "text_en": "3. Longitude and latitude (limited to cases where necessary)",
+      "pre_body_fill_index": 40
+    },
+    {
+      "index": 41,
+      "source_ko": "4. 표고(필요한 경우로 한정한다)",
+      "text_en": "4. Altitude (limited to cases where necessary)",
+      "pre_body_fill_index": 41
+    },
+    {
+      "index": 42,
+      "source_ko": "5. 소재지와 설치 및 재설치연월일",
+      "text_en": "5. Location and date of installation and reinstallation",
+      "pre_body_fill_index": 42
+    },
+    {
+      "index": 43,
+      "source_ko": "6. 도선등급 및 도선명",
+      "text_en": "6. Pilot Class and Pilot Name",
+      "pre_body_fill_index": 43
+    },
+    {
+      "index": 44,
+      "source_ko": "7. 표지의 재질",
+      "text_en": "7. Cover material",
+      "pre_body_fill_index": 44
+    },
+    {
+      "index": 45,
+      "source_ko": "8. 지적도ㆍ임야도의 번호",
+      "text_en": "8. Number of cadastral map and forest map",
+      "pre_body_fill_index": 45
+    },
+    {
+      "index": 46,
+      "source_ko": "9. 삭제 <2024. 12. 26.>",
+      "text_en": "9. Deleted <December 26, 2024>",
+      "pre_body_fill_index": 46
+    },
+    {
+      "index": 47,
+      "source_ko": "10. 조사연월일, 조사자의 직위ㆍ성명 및 조사 내용",
+      "text_en": "10. Date of investigation, position and name of the investigator, and content of the investigation",
+      "pre_body_fill_index": 47
+    },
+    {
+      "index": 48,
+      "source_ko": "③ 제2항제10호에 따른 조사 내용은 지적삼각보조점 및 지적도근점표지의 멸실 유무, 사고 원인, 경계의 부합 여부 등을 적는다. 이 경우 경계와 부합되지 아니할 때에는 그 사유를 적는다. <개정 2015. 4. 23.>",
+      "text_en": "③ The contents of the investigation under Paragraph 2, Subparagraph 10 shall record the presence or absence of cadastral auxiliary triangulation points and cadastral control point markers, the cause of the accident, and whether they conform to the boundary. In this case, if they do not conform to the boundary, the reason shall be recorded. <Amended Apr. 23, 2015>",
+      "pre_body_fill_index": 48
+    },
+    {
+      "index": 49,
+      "source_ko": "        제3장 지적측량의 방법 및 절차",
+      "text_en": "        Chapter 3 Methods and Procedures of Cadastral Surveying",
+      "pre_body_fill_index": 49
+    },
+    {
+      "index": 50,
+      "source_ko": "        제1절 통칙",
+      "text_en": "        Section 1 General Rules",
+      "pre_body_fill_index": 50
+    },
+    {
+      "index": 51,
+      "source_ko": " 제5조(지적측량의 구분 등) ① 지적측량은 기초측량과 1필지의 경계와 면적을 정하는 세부측량으로 구분한다. <개정 2015. 4. 23., 2024. 12. 26.>",
+      "text_en": " Article 5 (Classification of Cadastral Surveying, etc.) ① Cadastral surveying shall be classified into basic surveying and detailed surveying for determining the boundaries and area of ​​a single parcel. <Amended Apr. 23, 2015; Dec. 26, 2024>",
+      "pre_body_fill_index": 51
+    },
+    {
+      "index": 52,
+      "source_ko": "② 지적측량은 평판(平板)측량, 전자평판측량, 경위의(經緯儀)측량, 전파기(電波機) 또는 광파기(光波機)측량, 사진측량, 위성측량 및 드론측량 등의 방법에 따른다. <개정 2024. 12. 26.>",
+      "text_en": "② Cadastral surveying shall be conducted using methods such as plane table surveying, electronic plane table surveying, astradoxis surveying, radio or optical station surveying, photogrammetry, satellite surveying, and drone surveying. <Amended Dec. 26, 2024>",
+      "pre_body_fill_index": 52
+    },
+    {
+      "index": 53,
+      "source_ko": " 제6조(지적측량의 실시기준) ① 지적삼각점측량ㆍ지적삼각보조점측량은 다음 각 호의 어느 하나에 해당하는 경우에 실시한다.",
+      "text_en": " Article 6 (Standards for Implementation of Cadastral Surveying) ① Cadastral triangulation point surveying and cadastral auxiliary triangulation point surveying shall be conducted in any of the following cases:",
+      "pre_body_fill_index": 53
+    },
+    {
+      "index": 54,
+      "source_ko": "1. 측량지역의 지형상 지적삼각점이나 지적삼각보조점의 설치 또는 재설치가 필요한 경우",
+      "text_en": "1. Cases where the installation or reinstallation of cadastral triangulation points or auxiliary cadastral triangulation points is necessary due to the topography of the survey area",
+      "pre_body_fill_index": 54
+    },
+    {
+      "index": 55,
+      "source_ko": "2. 지적도근점의 설치 또는 재설치를 위하여 지적삼각점이나 지적삼각보조점의 설치가 필요한 경우",
+      "text_en": "2. Cases where the installation of cadastral triangulation points or auxiliary cadastral triangulation points is necessary for the installation or reinstallation of cadastral control points",
+      "pre_body_fill_index": 55
+    },
+    {
+      "index": 56,
+      "source_ko": "3. 세부측량을 하기 위하여 지적삼각점 또는 지적삼각보조점의 설치가 필요한 경우",
+      "text_en": "3. Cases where the installation of cadastral triangulation points or auxiliary cadastral triangulation points is necessary for detailed surveying",
+      "pre_body_fill_index": 56
+    },
+    {
+      "index": 57,
+      "source_ko": "② 지적도근점측량은 다음 각 호의 어느 하나에 해당하는 경우에 실시한다.",
+      "text_en": "② Cadastral control point surveying shall be carried out in any of the following cases:",
+      "pre_body_fill_index": 57
+    },
+    {
+      "index": 58,
+      "source_ko": "1. 법 제83조에 따라 축척변경을 위한 측량을 하는 경우",
+      "text_en": "1. Cases where surveying for scale change is conducted pursuant to Article 83 of the Act",
+      "pre_body_fill_index": 58
+    },
+    {
+      "index": 59,
+      "source_ko": "2. 법 제86조에 따른 도시개발사업 등으로 인하여 지적확정측량을 하는 경우",
+      "text_en": "2. Cases where a cadastral survey is conducted due to urban development projects, etc. pursuant to Article 86 of the Act",
+      "pre_body_fill_index": 59
+    },
+    {
+      "index": 60,
+      "source_ko": "3. 「국토의 계획 및 이용에 관한 법률」 제7조제1호의 도시지역에서 세부측량을 하는 경우",
+      "text_en": "3. Cases where detailed surveying is conducted in urban areas under Article 7, Subparagraph 1 of the National Land Planning and Utilization Act",
+      "pre_body_fill_index": 60
+    },
+    {
+      "index": 61,
+      "source_ko": "4. 측량지역의 면적이 해당 지적도 1장에 해당하는 면적 이상인 경우",
+      "text_en": "4. If the area of ​​the surveyed area is equal to or greater than the area corresponding to one sheet of the relevant cadastral map",
+      "pre_body_fill_index": 61
+    },
+    {
+      "index": 62,
+      "source_ko": "5. 세부측량을 하기 위하여 특히 필요한 경우",
+      "text_en": "5. When particularly necessary for detailed surveying",
+      "pre_body_fill_index": 62
+    },
+    {
+      "index": 63,
+      "source_ko": "③ 세부측량은 법 제23조제1항제2호ㆍ제3호ㆍ제4호 및 제5호의 경우에 실시한다.",
+      "text_en": "③ Detailed surveying shall be carried out in the cases of Article 23 , Paragraph 1 , Subparagraphs 2 , 3 , 4 , and 5 of the Act .",
+      "pre_body_fill_index": 63
+    },
+    {
+      "index": 64,
+      "source_ko": " 제7조(지적측량의 방법 등) ① 법 제23조제2항에 따른 지적측량의 방법은 다음 각 호의 어느 하나에 따른다. <개정 2013. 3. 23., 2024. 12. 26.>",
+      "text_en": " Article 7 (Methods of Cadastral Surveying, etc.) ① The method of cadastral surveying pursuant to Article 23, Paragraph 2 of the Act shall be in accordance with any one of the following subparagraphs. <Amended Mar. 23, 2013; Dec. 26, 2024>",
+      "pre_body_fill_index": 64
+    },
+    {
+      "index": 65,
+      "source_ko": "1. 지적삼각점측량: 위성기준점, 통합기준점, 삼각점 및 지적삼각점을 기초로 하여 경위의측량방법, 전파기 또는 광파기측량방법, 위성측량방법 및 국토교통부장관이 승인한 측량방법에 따르되, 그 계산은 평균계산법이나 망평균계산법에 따를 것",
+      "text_en": "1. Cadastral Triangulation Survey: Based on satellite reference points, integrated reference points, triangulation points, and cadastral triangulation points, surveys shall be conducted in accordance with the orthogonal surveying method, radio or optical surveying method, satellite surveying method, and surveying methods approved by the Minister of Land, Infrastructure and Transport, provided that calculations shall follow the average calculation method or the network average calculation method.",
+      "pre_body_fill_index": 65
+    },
+    {
+      "index": 66,
+      "source_ko": "2. 지적삼각보조점측량: 위성기준점, 통합기준점, 삼각점, 지적삼각점 및 지적삼각보조점을 기초로 하여 경위의측량방법, 전파기 또는 광파기측량방법, 위성측량방법 및 국토교통부장관이 승인한 측량방법에 따르되, 그 계산은 교회법(交會法) 또는 다각망도선법에 따를 것",
+      "text_en": "2. Cadastral Auxiliary Triangulation Survey: Based on satellite reference points, integrated reference points, triangulation points, cadastral triangulation points, and cadastral auxiliary triangulation points, surveys shall be conducted in accordance with the orthogonal surveying method, radio or optical surveying method, satellite surveying method, and surveying methods approved by the Minister of Land, Infrastructure and Transport, provided that the calculations shall follow the intersection method or the polygonal network traverse method.",
+      "pre_body_fill_index": 66
+    },
+    {
+      "index": 67,
+      "source_ko": "3. 지적도근점측량: 위성기준점, 통합기준점, 삼각점 및 지적기준점을 기초로 하여 경위의측량방법, 전파기 또는 광파기측량방법, 위성측량방법 및 국토교통부장관이 승인한 측량방법에 따르되, 그 계산은 도선법, 교회법 및 다각망도선법에 따를 것",
+      "text_en": "3. Cadastral Control Point Survey: Based on satellite control points, integrated control points, triangulation points, and cadastral control points, surveys shall be conducted in accordance with the traverse surveying method, radio or optical surveying method, satellite surveying method, and surveying methods approved by the Minister of Land, Infrastructure and Transport; provided, however, that calculations shall follow the Traverse Method, the Intersection Method, and the Polygonal Network Traverse Method.",
+      "pre_body_fill_index": 67
+    },
+    {
+      "index": 68,
+      "source_ko": "4. 세부측량: 위성기준점, 통합기준점, 지적기준점 및 경계점을 기초로 하여 경위의측량방법, 평판측량방법, 전자평판측량방법, 위성측량방법 및 드론측량방법에 따를 것",
+      "text_en": "4. Detailed Survey: Based on satellite control points, integrated control points, cadastral control points, and boundary points, survey shall be conducted in accordance with the traverse surveying method, plane table surveying method, electronic plane table surveying method, satellite surveying method, and drone surveying method.",
+      "pre_body_fill_index": 68
+    },
+    {
+      "index": 69,
+      "source_ko": "② 위성측량 및 드론측량의 방법 및 절차 등에 관하여 필요한 사항은 국토교통부장관이 따로 정한다. <개정 2013. 3. 23., 2024. 12. 26.>",
+      "text_en": "② Matters necessary for the methods and procedures, etc. of satellite surveying and drone surveying shall be separately determined by the Minister of Land, Infrastructure and Transport . <Amended Mar. 23, 2013; Dec. 26, 2024>",
+      "pre_body_fill_index": 69
+    },
+    {
+      "index": 70,
+      "source_ko": "③ 법 제23조제1항제1호에 따른 지적기준점측량의 절차는 다음 각 호의 순서에 따른다.",
+      "text_en": "③ The procedure for cadastral reference point surveying pursuant to Article 23, Paragraph 1, Item 1 of the Act shall follow the order of the following items.",
+      "pre_body_fill_index": 70
+    },
+    {
+      "index": 71,
+      "source_ko": "1. 계획의 수립",
+      "text_en": "1. Formulation of a plan",
+      "pre_body_fill_index": 71
+    },
+    {
+      "index": 72,
+      "source_ko": "2. 준비 및 현지답사",
+      "text_en": "2. Preparation and Field Trip",
+      "pre_body_fill_index": 72
+    },
+    {
+      "index": 73,
+      "source_ko": "3. 선점(選點) 및 조표(調標)",
+      "text_en": "3. Selection and Key Marking",
+      "pre_body_fill_index": 73
+    },
+    {
+      "index": 74,
+      "source_ko": "4. 관측 및 계산과 성과표의 작성",
+      "text_en": "4. Observations, Calculations, and Preparation of Results Sheets",
+      "pre_body_fill_index": 74
+    },
+    {
+      "index": 75,
+      "source_ko": "④ 지적측량의 계산 및 결과 작성에 사용하는 소프트웨어는 국토교통부장관이 정한다. <개정 2013. 3. 23.>",
+      "text_en": "④ Software used for calculations and the preparation of results in cadastral surveying shall be determined by the Minister of Land, Infrastructure and Transport . <Amended Mar. 23, 2013>",
+      "pre_body_fill_index": 75
+    },
+    {
+      "index": 76,
+      "source_ko": "        제2절 기초측량",
+      "text_en": "        Section 2 Basic Surveying",
+      "pre_body_fill_index": 76
+    },
+    {
+      "index": 77,
+      "source_ko": " 제8조(지적삼각점측량) ① 지적삼각점측량을 할 때에는 미리 지적삼각점표지를 설치하여야 한다.",
+      "text_en": " Article 8 (Cadastral Triangulation Survey) ① When conducting a cadastral triangulation survey, cadastral triangulation markers must be installed in advance.",
+      "pre_body_fill_index": 77
+    },
+    {
+      "index": 78,
+      "source_ko": "② 지적삼각점의 명칭은 측량지역이 소재하고 있는 특별시ㆍ광역시ㆍ특별자치시ㆍ도 또는 특별자치도(이하 “시ㆍ도”라 한다)의 명칭 중 두 글자를 선택하고 시ㆍ도 단위로 일련번호를 붙여서 정한다. <개정 2024. 12. 26.>",
+      "text_en": "② The names of cadastral triangulation points shall be determined by selecting two characters from the name of the Special City, Metropolitan City, Special Self-Governing City, Province, or Special Self-Governing Province (hereinafter referred to as “City/Province”) where the survey area is located, and assigning a serial number at the City/Province level. <Amended Dec. 26, 2024>",
+      "pre_body_fill_index": 78
+    },
+    {
+      "index": 79,
+      "source_ko": "③ 지적삼각점은 유심다각망(有心多角網)ㆍ삽입망(揷入網)ㆍ사각망(四角網)ㆍ삼각쇄(三角鎖) 또는 삼변(三邊) 이상의 망으로 구성하여야 한다.",
+      "text_en": "③ Geodetic triangulation points must be composed of a central polygonal network, an interpolation network, a quadrilateral network, a triangular chain, or a network of three sides or more.",
+      "pre_body_fill_index": 79
+    },
+    {
+      "index": 80,
+      "source_ko": "④ 삼각형의 각 내각은 30도 이상 120도 이하로 한다. 다만, 망평균계산법과 삼변측량에 따르는 경우에는 그러하지 아니하다.",
+      "text_en": "④ Each interior angle of a triangle shall be between 30 degrees and 120 degrees. However, this shall not apply in cases where the net mean method and trilateration are used.",
+      "pre_body_fill_index": 80
+    },
+    {
+      "index": 81,
+      "source_ko": "⑤ 지적삼각점성과 결정을 위한 관측 및 계산의 과정은 지적삼각점측량부에 적어야 한다.",
+      "text_en": "⑤ The process of observation and calculation for determining cadastral triangulation points must be recorded in the cadastral triangulation survey log.",
+      "pre_body_fill_index": 81
+    },
+    {
+      "index": 82,
+      "source_ko": " 제9조(지적삼각점측량의 관측 및 계산) ① 경위의측량방법에 따른 지적삼각점의 관측과 계산은 다음 각 호의 기준에 따른다.",
+      "text_en": " Article 9 (Observation and Calculation of Cadastral Triangulation Points) ① The observation and calculation of cadastral triangulation points according to the traverse surveying method shall be in accordance with the standards of each of the following subparagraphs.",
+      "pre_body_fill_index": 82
+    },
+    {
+      "index": 83,
+      "source_ko": "1. 관측은 10초독(秒讀) 이상의 경위의를 사용할 것",
+      "text_en": "1. Use a longitude and latitude of at least 10 seconds for observation.",
+      "pre_body_fill_index": 83
+    },
+    {
+      "index": 84,
+      "source_ko": "2. 수평각 관측은 3대회(大回, 윤곽도는 0도, 60도, 120도로 한다)의 방향관측법에 따를 것",
+      "text_en": "2. Horizontal angle observation shall follow the directional observation method of the three major cycles (the outlines shall be 0, 60, and 120 degrees).",
+      "pre_body_fill_index": 84
+    },
+    {
+      "index": 85,
+      "source_ko": "3. 수평각의 측각공차(測角公差)는 다음 표에 따를 것\n",
+      "text_en": "3. The angular tolerance for horizontal angles shall comply with the following table.\n",
+      "pre_body_fill_index": 85
+    },
+    {
+      "index": 86,
+      "source_ko": "종별 1방향각 1측회(測回)의 삼각형 내각관측의 기지각(旣知角)과 \n 폐색(閉塞) 합과 180도와의 차 의 차 \n 공차 30초 이내 ±30초 이내 ±30초 이내 ±40초 이내",
+      "text_en": "Type 1-directional angle 1-measurement triangle Interior angle observation known angle and\ndifference between sum of occlusion and 180 degrees\ntolerance within 30 sec within 30 sec within 30 sec within 30 sec within 40 sec",
+      "body_asset_id": "7a0ea77ab7da3e332cb8f84a",
+      "body_source_locator": {
+        "source_record_id": "kr-011121-267509-ko",
+        "source_version": "267509",
+        "source_path": "E:\\lawdata\\전체_법령자료\\법령\\documents\\law\\267509_지적측량 시행규칙.xml",
+        "container_kind": "ARTICLE",
+        "container_key": "0009001",
+        "node_path": "/법령/조문/조문단위[15]/항[1]/호[3]/호내용",
+        "start_char": 31,
+        "end_char": 110,
+        "location": "제9조 지적삼각점측량의 관측 및 계산",
+        "image_url": "http://www.law.go.kr/flDownload.do?flSeq=4281475"
+      },
+      "body_original_source": "\n┌──┬─────┬───────┬─────────┬────────┐\n│종별│1방향각   │1측회(測回)의 │삼각형 내각관측의 │기지각(旣知角)과│\n│    │          │폐색(閉塞)    │합과 180도와의 차 │의 차           │\n├──┼─────┼───────┼─────────┼────────┤\n│공차│30초 이내 │±30초 이내   │±30초 이내       │±40초 이내     │\n└──┴─────┴───────┴─────────┴────────┘\n",
+      "translation_status": "XML_TEXT_DRAFT",
+      "body_inserted_at": "2026-11-01T08:32:09.436420+00:00"
+    },
+    {
+      "index": 87,
+      "source_ko": "② 전파기 또는 광파기측량방법에 따른 지적삼각점의 관측과 계산은 다음 각 호의 기준에 따른다.",
+      "text_en": "② The observation and calculation of cadastral triangulation points using radio or optical surveying methods shall be in accordance with the standards of each of the following subparagraphs.",
+      "pre_body_fill_index": 86
+    },
+    {
+      "index": 88,
+      "source_ko": "1. 전파 또는 광파측거기(光波測距機)는 표준편차가 ±[5밀리미터+5피피엠(ppm)] 이상인 정밀측거기를 사용할 것",
+      "text_en": "1. For radio or optical distance measuring instruments, use a precision instrument with a standard deviation of ±[5 millimeters + 5 ppm] or greater.",
+      "pre_body_fill_index": 87
+    },
+    {
+      "index": 89,
+      "source_ko": "2. 점간거리는 5회 측정하여 그 측정치의 최대치와 최소치의 교차가 평균치의 10만분의 1 이하일 때에는 그 평균치를 측정거리로 하고, 원점에 투영된 평면거리에 따라 계산할 것",
+      "text_en": "2. The distance between points shall be measured five times; if the intersection of the maximum and minimum values ​​is 1/100,000 or less of the average, the average shall be used as the measured distance, and the distance shall be calculated based on the planar distance projected onto the origin.",
+      "pre_body_fill_index": 88
+    },
+    {
+      "index": 90,
+      "source_ko": "3. 삼각형의 내각은 세 변의 평면거리에 따라 계산하며, 기지각과의 차(差)에 관하여는 제1항제3호를 준용할 것",
+      "text_en": "3. The interior angles of a triangle shall be calculated based on the planar distances of the three sides, and the provisions of Paragraph 1, Subparagraph 3 shall apply mutatis mutandis to the difference from the known angles.",
+      "pre_body_fill_index": 89
+    },
+    {
+      "index": 91,
+      "source_ko": "③ 제1항과 제2항에 따라 지적삼각점을 관측하는 경우 연직각의 관측 및 계산은 다음 각 호의 기준에 따른다. <개정 2014. 1. 17., 2024. 12. 26.>",
+      "text_en": "③ When observing cadastral triangulation points pursuant to Paragraphs 1 and 2, the observation and calculation of vertical angles shall be in accordance with the standards in each of the following subparagraphs. <Amended Jan. 17, 2014; Dec. 26, 2024>",
+      "pre_body_fill_index": 90
+    },
+    {
+      "index": 92,
+      "source_ko": "1. 각 측점에서 정반(正反)으로 각 2회 관측할 것",
+      "text_en": "1. Observe twice at each station using both the standard and reverse methods.",
+      "pre_body_fill_index": 91
+    },
+    {
+      "index": 93,
+      "source_ko": "2. 관측치의 최대치와 최소치의 교차가 30초 이내일 때에는 그 평균치를 연직각으로 할 것",
+      "text_en": "2. When the intersection of the maximum and minimum observations is within 30 seconds, the average value shall be taken as the vertical angle.",
+      "pre_body_fill_index": 92
+    },
+    {
+      "index": 94,
+      "source_ko": "3. 2점의 기지점에서 소구점(所求點)의 표고를 계산한 결과 그 교차가  이하일 때에는 그 평균치를 표고로 할 것. 이 경우  기지점에서 소구점까지의 평면거리로서 킬로미터 단위로 표시한 수를 말한다.",
+      "text_en": "3. If the elevations of the point to be determined, calculated from two known points, differ by no more than 0.05 m + 0.05(S₁ + S₂) m, use their mean as the elevation. S₁ and S₂ are the horizontal distances from the respective known points to the point to be determined, expressed in kilometers.",
+      "pre_body_fill_index": 93,
+      "body_asset_ids": [
+        "d3d9db056d7b892dc9efc33f",
+        "f20f7bf42bf46080accedd27"
+      ],
+      "body_source_node": "/법령/조문/조문단위[15]/항[3]/호[3]/호내용",
+      "body_original_source": "3. 2점의 기지점에서 소구점(所求點)의 표고를 계산한 결과 그 교차가 <img src=\"http://www.law.go.kr/flDownload.do?flSeq=16305778\"  alt=\"img16305778\" >null</img> 이하일 때에는 그 평균치를 표고로 할 것. 이 경우 <img src=\"http://www.law.go.kr/flDownload.do?flSeq=16305786\"  alt=\"img16305786\" >null</img> 기지점에서 소구점까지의 평면거리로서 킬로미터 단위로 표시한 수를 말한다.",
+      "body_asset_reviewed_at": "2026-11-01T08:30:21.256354+00:00"
+    },
+    {
+      "index": 95,
+      "source_ko": "④지적삼각점의 계산은 진수(眞數)를 사용하여 각규약(角規約)과 변규약(邊規約)에 따른 평균계산법 또는 망평균계산법에 따르며, 계산단위는 다음 표에 따른다. <개정 2014. 1. 17.>\n",
+      "text_en": "④ Calculations of cadastral triangulation points shall be performed using true numbers in accordance with the average calculation method or the network average calculation method based on the angle and edge conventions, and the calculation units shall be as specified in the following table. <Amended Jan. 17, 2014>\n",
+      "pre_body_fill_index": 94
+    },
+    {
+      "index": 96,
+      "source_ko": "종별 각 변의 길이 진수 좌표 또는 경위도 자오선수차 \n 표고 \n 단위 초 센티미터 6자리 이상 센티미터 초 아래 3자리 초 아래 1자리",
+      "text_en": "Type Length of each side Base number Coordinates or Latitude/Longitude Meridian aberration\nElevation\nUnit Seconds Centimeters 6 digits or more Centimeters 3 digits below second 1 digit below second",
+      "body_asset_id": "a0d486ef99f7df07521be1d7",
+      "body_source_locator": {
+        "source_record_id": "kr-011121-267509-ko",
+        "source_version": "267509",
+        "source_path": "E:\\lawdata\\전체_법령자료\\법령\\documents\\law\\267509_지적측량 시행규칙.xml",
+        "container_kind": "ARTICLE",
+        "container_key": "0009001",
+        "node_path": "/법령/조문/조문단위[15]/항[4]/항내용",
+        "start_char": 103,
+        "end_char": 184,
+        "location": "제9조 지적삼각점측량의 관측 및 계산",
+        "image_url": "http://www.law.go.kr/flDownload.do?flSeq=16195361"
+      },
+      "body_original_source": "\n┌──┬─┬─────┬─────┬─────┬───────┬───────┐\n│종별│각│변의 길이 │진수      │좌표 또는 │경위도        │자오선수차    │\n│    │  │          │          │표고      │              │              │\n├──┼─┼─────┼─────┼─────┼───────┼───────┤\n│단위│초│센티미터  │6자리 이상│센티미터  │초 아래 3자리 │초 아래 1자리 │\n└──┴─┴─────┴─────┴─────┴───────┴───────┘\n",
+      "translation_status": "XML_TEXT_DRAFT",
+      "body_inserted_at": "2026-11-01T08:32:09.436420+00:00"
+    },
+    {
+      "index": 97,
+      "source_ko": " 제10조(지적삼각보조점측량) ① 지적삼각보조점측량을 할때에 필요한 경우에는 미리 지적삼각보조점표지를 설치하여야 한다.",
+      "text_en": " Article 10 (Cadastral Triangulation Auxiliary Point Survey) ① When necessary for cadastral triangulation auxiliary point surveying, cadastral triangulation auxiliary point markers must be installed in advance.",
+      "pre_body_fill_index": 95
+    },
+    {
+      "index": 98,
+      "source_ko": "② 지적삼각보조점은 측량지역별로 설치순서에 따라 일련번호를 부여하되, 영구표지를 설치하는 경우에는 시ㆍ군ㆍ구별로 일련번호를 부여한다. 이 경우 지적삼각보조점의 일련번호 앞에 “보”자를 붙인다.",
+      "text_en": "② Cadastral auxiliary triangulation points shall be assigned serial numbers according to the order of installation for each survey area; however, in the case of installing permanent markers, serial numbers shall be assigned for each city, county, or district. In this case, the prefix “Bo” shall be placed before the serial number of the cadastral auxiliary triangulation point.",
+      "pre_body_fill_index": 96
+    },
+    {
+      "index": 99,
+      "source_ko": "③ 지적삼각보조점은 교회망 또는 교점다각망(交點多角網)으로 구성하여야 한다.",
+      "text_en": "③ Geodetic triangulation auxiliary points must be constructed as an intersection network or an intersection polygonal network.",
+      "pre_body_fill_index": 97
+    },
+    {
+      "index": 100,
+      "source_ko": "④ 경위의측량방법과 전파기 또는 광파기측량방법에 따라 교회법으로 지적삼각보조점측량을 할 때에는 다음 각 호의 기준에 따른다.",
+      "text_en": "④ When conducting cadastral auxiliary triangulation surveys using the church method according to the surveying method of the latitude and equatorial method and the surveying method of the radio or optical station, the following standards shall apply.",
+      "pre_body_fill_index": 98
+    },
+    {
+      "index": 101,
+      "source_ko": "1. 3방향의 교회에 따를 것. 다만, 지형상 부득이 하여 2방향의 교회에 의하여 결정하려는 경우에는 각 내각을 관측하여 각 내각의 관측치의 합계와 180도와의 차가 ±40초 이내일 때에는 이를 각 내각에 고르게 배분하여 사용할 수 있다.",
+      "text_en": "1. Follow the three-way intersection. However, if it is unavoidable due to the terrain and the determination is to be made by the two-way intersection, each interior angle may be observed, and if the difference between the sum of the observations of each interior angle and 180 degrees is within ±40 seconds, the result may be distributed evenly among each interior angle.",
+      "pre_body_fill_index": 99
+    },
+    {
+      "index": 102,
+      "source_ko": "2. 삼각형의 각 내각은 30도 이상 120도 이하로 할 것",
+      "text_en": "2. Each interior angle of a triangle shall be between 30 degrees and 120 degrees.",
+      "pre_body_fill_index": 100
+    },
+    {
+      "index": 103,
+      "source_ko": "⑤ 전파기 또는 광파기측량방법에 따라 다각망도선법으로 지적삼각보조점측량을 할 때에는 다음 각 호의 기준에 따른다. <개정 2014. 1. 17.>",
+      "text_en": "⑤ When conducting cadastral auxiliary triangulation surveys using the polygonal traverse method in accordance with radio or optical surveying methods, the standards in each of the following subparagraphs shall apply. <Amended Jan. 17, 2014>",
+      "pre_body_fill_index": 101
+    },
+    {
+      "index": 104,
+      "source_ko": "1. 3점 이상의 기지점을 포함한 결합다각방식에 따를 것",
+      "text_en": "1. Follow the combined polygonal method including three or more known points.",
+      "pre_body_fill_index": 102
+    },
+    {
+      "index": 105,
+      "source_ko": "2. 1도선(기지점과 교점간 또는 교점과 교점간을 말한다)의 점의 수는 기지점과 교점을 포함하여 5점 이하로 할 것",
+      "text_en": "2. The number of points on a single path (referring to between a base point and an intersection point, or between two intersection points) shall be five or fewer, including the base point and the intersection point.",
+      "pre_body_fill_index": 103
+    },
+    {
+      "index": 106,
+      "source_ko": "3. 1도선의 거리(기지점과 교점 또는 교점과 교점간의 점간거리의 총합계를 말한다)는 4킬로미터 이하로 할 것",
+      "text_en": "3. The distance of one line (referring to the total sum of distances between a base point and an intersection point, or between intersection points) shall be 4 kilometers or less.",
+      "pre_body_fill_index": 104
+    },
+    {
+      "index": 107,
+      "source_ko": "⑥ 지적삼각보조점성과 결정을 위한 관측 및 계산의 과정은 지적삼각보조점측량부에 적어야 한다.",
+      "text_en": "⑥ The process of observation and calculation for determining cadastral auxiliary triangulation points must be recorded in the cadastral auxiliary triangulation survey log.",
+      "pre_body_fill_index": 105
+    },
+    {
+      "index": 108,
+      "source_ko": " 제11조(지적삼각보조점의 관측 및 계산) ① 경위의측량방법과 교회법에 따른 지적삼각보조점의 관측 및 계산은 다음 각 호의 기준에 따른다.",
+      "text_en": " Article 11 (Observation and Calculation of Cadastral Auxiliary Triangulation Points) ① The observation and calculation of cadastral auxiliary triangulation points in accordance with the surveying method of latitude and equatorial notation and the church law shall be in accordance with the standards of each of the following subparagraphs.",
+      "pre_body_fill_index": 106
+    },
+    {
+      "index": 109,
+      "source_ko": "1. 관측은 20초독 이상의 경위의를 사용할 것",
+      "text_en": "1. Use a girdle with a reading of 20 seconds or more for observation.",
+      "pre_body_fill_index": 107
+    },
+    {
+      "index": 110,
+      "source_ko": "2. 수평각 관측은 2대회(윤곽도는 0도, 90도로 한다)의 방향관측법에 따를 것",
+      "text_en": "2. Horizontal angle observation shall follow the directional observation method of the 2nd division (contour diagrams shall be 0 degrees and 90 degrees).",
+      "pre_body_fill_index": 108
+    },
+    {
+      "index": 111,
+      "source_ko": "3. 수평각의 측각공차는 다음 표에 따를 것. 이 경우 삼각형 내각의 관측치를 합한 값과 180도와의 차는 내각을 전부 관측한 경우에 적용한다.\n",
+      "text_en": "3. The angular tolerance for horizontal angles shall be in accordance with the following table. In this case, the difference between the sum of the observed interior angles of the triangle and 180 degrees shall apply when all interior angles are observed.\n",
+      "pre_body_fill_index": 109
+    },
+    {
+      "index": 112,
+      "source_ko": "종별 1방향각 1측회의 폐색 삼각형 내각관측의 기지각과의 차 \n 합과 180도와의 차 \n 공차 40초 이내 ±40초 이내 ±50초 이내 ±50초 이내",
+      "text_en": "Type 1-directional angle 1-measurement occlusion triangle Difference between interior angle observation and known angle\nDifference between sum and 180 degrees\nTolerance within 40 sec within ±40 sec within ±50 sec within ±50 sec",
+      "body_asset_id": "8876afc9ceac1a95d1cf21da",
+      "body_source_locator": {
+        "source_record_id": "kr-011121-267509-ko",
+        "source_version": "267509",
+        "source_path": "E:\\lawdata\\전체_법령자료\\법령\\documents\\law\\267509_지적측량 시행규칙.xml",
+        "container_kind": "ARTICLE",
+        "container_key": "0011001",
+        "node_path": "/법령/조문/조문단위[17]/항[1]/호[3]/호내용",
+        "start_char": 81,
+        "end_char": 160,
+        "location": "제11조 지적삼각보조점의 관측 및 계산",
+        "image_url": "http://www.law.go.kr/flDownload.do?flSeq=4281477"
+      },
+      "body_original_source": "\n┌──┬─────┬──────┬─────────┬───────┐\n│종별│1방향각   │1측회의 폐색│삼각형 내각관측의 │기지각과의 차 │\n│    │          │            │합과 180도와의 차 │              │\n├──┼─────┼──────┼─────────┼───────┤\n│공차│40초 이내 │±40초 이내 │±50초 이내       │±50초 이내   │\n└──┴─────┴──────┴─────────┴───────┘\n",
+      "translation_status": "XML_TEXT_DRAFT",
+      "body_inserted_at": "2026-11-01T08:32:09.436420+00:00"
+    },
+    {
+      "index": 113,
+      "source_ko": "4. 계산단위는 다음 표에 따를 것\n",
+      "text_en": "4. The units of calculation shall follow the following table.\n",
+      "pre_body_fill_index": 110
+    },
+    {
+      "index": 114,
+      "source_ko": "종별 각 변의 길이 진수 좌표 \n 공차 초 센티미터 6자리 이상 센티미터",
+      "text_en": "Type Length of each side Base coordinate\nTolerance seconds centimeter 6 or more digits centimeter",
+      "body_asset_id": "9ef3c9d99a8ee1c61589e21b",
+      "body_source_locator": {
+        "source_record_id": "kr-011121-267509-ko",
+        "source_version": "267509",
+        "source_path": "E:\\lawdata\\전체_법령자료\\법령\\documents\\law\\267509_지적측량 시행규칙.xml",
+        "container_kind": "ARTICLE",
+        "container_key": "0011001",
+        "node_path": "/법령/조문/조문단위[17]/항[1]/호[4]/호내용",
+        "start_char": 20,
+        "end_char": 99,
+        "location": "제11조 지적삼각보조점의 관측 및 계산",
+        "image_url": "http://www.law.go.kr/flDownload.do?flSeq=4281478"
+      },
+      "body_original_source": "\n┌──┬─┬─────┬─────┬────┐\n│종별│각│변의 길이 │진수      │좌표    │\n├──┼─┼─────┼─────┼────┤\n│공차│초│센티미터  │6자리 이상│센티미터│\n└──┴─┴─────┴─────┴────┘\n",
+      "translation_status": "XML_TEXT_DRAFT",
+      "body_inserted_at": "2026-11-01T08:32:09.436420+00:00"
+    },
+    {
+      "index": 115,
+      "source_ko": "5. 2개의 삼각형으로부터 계산한 위치의 연결교차( 을 말한다. 이하 같다)가 0.30미터 이하일 때에는 그 평균치를 지적삼각보조점의 위치로 할 것. 이 경우 기지점과 소구점 사이의 방위각 및 거리는 평균치에 따라 새로 계산하여 정한다.",
+      "text_en": "5. If the positional discrepancy calculated from two triangles—meaning √[(northing discrepancy)² + (easting discrepancy)²], hereinafter the same—does not exceed 0.30 m, use the mean position as the position of the auxiliary cadastral triangulation point. Recalculate the azimuth and distance between the known point and the point to be determined using that mean position.",
+      "pre_body_fill_index": 111,
+      "body_asset_ids": [
+        "42a81daec32c70033766bb69"
+      ],
+      "body_source_node": "/법령/조문/조문단위[17]/항[1]/호[5]/호내용",
+      "body_original_source": "5. 2개의 삼각형으로부터 계산한 위치의 연결교차(<img src=\"http://www.law.go.kr/flDownload.do?flSeq=4281479\"  alt=\"img4281479\" >\n</img> 을 말한다. 이하 같다)가 0.30미터 이하일 때에는 그 평균치를 지적삼각보조점의 위치로 할 것. 이 경우 기지점과 소구점 사이의 방위각 및 거리는 평균치에 따라 새로 계산하여 정한다.",
+      "body_asset_reviewed_at": "2026-11-01T08:30:21.256354+00:00"
+    },
+    {
+      "index": 116,
+      "source_ko": "② 전파기 또는 광파기측량방법과 교회법에 따른 지적삼각보조점의 관측과 계산은 다음 각 호의 기준에 따른다.",
+      "text_en": "② The observation and calculation of auxiliary cadastral triangulation points according to radio or optical surveying methods and the church law shall be in accordance with the standards of each of the following subparagraphs.",
+      "pre_body_fill_index": 112
+    },
+    {
+      "index": 117,
+      "source_ko": "1. 점간거리 및 연직각의 측정방법에 관하여는 제9조제2항 및 제3항을 준용할 것",
+      "text_en": "1. Paragraphs 2 and 3 of Article 9 shall apply mutatis mutandis to the method of measuring distances between points and vertical angles.",
+      "pre_body_fill_index": 113
+    },
+    {
+      "index": 118,
+      "source_ko": "2. 기지각과의 차에 관하여는 제1항제3호를 준용할 것",
+      "text_en": "2. Paragraph 1, Subparagraph 3 shall apply mutatis mutandis to the difference from the known angle.",
+      "pre_body_fill_index": 114
+    },
+    {
+      "index": 119,
+      "source_ko": "3. 계산단위 및 2개의 삼각형으로부터 계산한 위치의 연결교차에 관하여는 제1항제4호 및 제5호를 준용할 것",
+      "text_en": "3. The provisions of Paragraph 1, Subparagraphs 4 and 5 shall apply mutatis mutandis to the unit of calculation and the connecting intersection of positions calculated from two triangles.",
+      "pre_body_fill_index": 115
+    },
+    {
+      "index": 120,
+      "source_ko": "③ 경위의측량방법, 전파기 또는 광파기측량방법과 다각망도선법에 따른 지적삼각보조점의 관측 및 계산은 다음 각 호의 기준에 따른다.",
+      "text_en": "③ The observation and calculation of auxiliary cadastral triangulation points based on the traverse surveying method, radio or optical surveying method, and the polygonal network traverse method shall be in accordance with the standards of each of the following subparagraphs.",
+      "pre_body_fill_index": 116
+    },
+    {
+      "index": 121,
+      "source_ko": "1. 관측과 계산방법에 관하여는 제1항제1호부터 제4호까지의 규정을 준용하고, 점간거리 및 연직각의 관측방법에 관하여는 제9조제2항 및 제3항을 준용할 것. 다만, 다각망도선법에 따른 지적삼각보조점의 수평각관측은 제13조제3호에 따른 배각법(倍角法)에 따를 수 있으며, 1회 측정각과 3회 측정각의 평균치에 대한 교차는 30초 이내로 한다.",
+      "text_en": "1. The provisions of subparagraphs 1 through 4 of Paragraph 1 shall apply mutatis mutandis to the methods of observation and calculation, and Paragraphs 2 and 3 of Paragraph 9 shall apply mutatis mutandis to the methods of observation of distance between points and vertical angles. However, horizontal angle observation of cadastral auxiliary points according to the polygonal network method may follow the angle-doubling method according to subparagraph 3 of Article 13 , and the intersection of the first measured angle and the average of three measured angles shall be within 30 seconds.",
+      "pre_body_fill_index": 117
+    },
+    {
+      "index": 122,
+      "source_ko": "2. 도선별 평균방위각과 관측방위각의 폐색오차(閉塞誤差)는  이내로 할 것. 이 경우 n은 폐색변을 포함한 변의 수를 말한다.",
+      "text_en": "2. The angular misclosure between the mean azimuth and observed azimuth of each traverse shall be within ±10√n arcseconds. Here, n is the number of sides, including the closing side.",
+      "pre_body_fill_index": 118,
+      "body_asset_ids": [
+        "58e675d1017773dc7ab38457"
+      ],
+      "body_source_node": "/법령/조문/조문단위[17]/항[3]/호[2]/호내용",
+      "body_original_source": "2. 도선별 평균방위각과 관측방위각의 폐색오차(閉塞誤差)는 <img src=\"http://www.law.go.kr/flDownload.do?flSeq=4281480\"  alt=\"img4281480\" >\n±10초\n</img> 이내로 할 것. 이 경우 n은 폐색변을 포함한 변의 수를 말한다.",
+      "body_asset_reviewed_at": "2026-11-01T08:30:21.256354+00:00"
+    },
+    {
+      "index": 123,
+      "source_ko": "3. 도선별 연결오차는 0.05×S미터 이하로 할 것. 이 경우 S는 도선의 거리를 1천으로 나눈 수를 말한다.",
+      "text_en": "3. The connection error for each traverse shall be 0.05 × S meters or less. In this case, S refers to the number obtained by dividing the length of the traverse by 1,000.",
+      "pre_body_fill_index": 119,
+      "body_asset_reviewed_at": "2026-11-01T08:10:12.791473+00:00",
+      "body_asset_review_method": "source_ko_minimum_correction"
+    },
+    {
+      "index": 124,
+      "source_ko": "4. 측각오차(測角誤差)의 배분에 관하여는 제14조제2항을 준용할 것",
+      "text_en": "4. Article 14, Paragraph 2 shall apply mutatis mutandis to the distribution of angle measurement errors.",
+      "pre_body_fill_index": 120
+    },
+    {
+      "index": 125,
+      "source_ko": "5. 종선오차 및 횡선오차의 배분에 관하여는 제15조제2항을 준용할 것",
+      "text_en": "5. Article 15, Paragraph 2 shall apply mutatis mutandis to the distribution of longitudinal and transverse errors.",
+      "pre_body_fill_index": 121
+    },
+    {
+      "index": 126,
+      "source_ko": " 제12조(지적도근점측량) ① 지적도근점측량을 할 때에는 미리 지적도근점표지를 설치하여야 한다.",
+      "text_en": " Article 12 (Cadastral Control Point Survey) ① When conducting a cadastral control point survey, cadastral control point markers must be installed in advance.",
+      "pre_body_fill_index": 122
+    },
+    {
+      "index": 127,
+      "source_ko": "② 지적도근점의 번호는 영구표지를 설치하는 경우에는 시ㆍ군ㆍ구별로, 영구표지를 설치하지 아니하는 경우에는 시행지역별로 설치순서에 따라 일련번호를 부여한다. 이 경우 각 도선의 교점은 지적도근점의 번호 앞에 “교”자를 붙인다.",
+      "text_en": "",
+      "pre_body_fill_index": 123
+    },
+    {
+      "index": 128,
+      "source_ko": "③ 지적도근점측량의 도선은 다음 각 호의 기준에 따라 1등도선과 2등도선으로 구분한다.",
+      "text_en": "③ The traverse lines for cadastral control point surveying shall be classified into first-order and second-order traverse lines according to the criteria in each of the following subparagraphs.",
+      "pre_body_fill_index": 124
+    },
+    {
+      "index": 129,
+      "source_ko": "1. 1등도선은 위성기준점, 통합기준점, 삼각점, 지적삼각점 및 지적삼각보조점의 상호간을 연결하는 도선 또는 다각망도선으로 할 것",
+      "text_en": "1. First-order traverses shall be traverses or polygonal network traverses connecting satellite reference points, integrated reference points, triangulation points, cadastral triangulation points, and cadastral auxiliary triangulation points.",
+      "pre_body_fill_index": 125
+    },
+    {
+      "index": 130,
+      "source_ko": "2. 2등도선은 위성기준점, 통합기준점, 삼각점, 지적삼각점 및 지적삼각보조점과 지적도근점을 연결하거나 지적도근점 상호간을 연결하는 도선으로 할 것",
+      "text_en": "2. Second-order traverses shall be traverses connecting satellite reference points, integrated reference points, triangulation points, cadastral triangulation points, and auxiliary cadastral triangulation points with cadastral control points, or connecting cadastral control points to one another.",
+      "pre_body_fill_index": 126
+    },
+    {
+      "index": 131,
+      "source_ko": "3. 1등도선은 가ㆍ나ㆍ다순으로 표기하고, 2등도선은 ㄱㆍㄴㆍㄷ순으로 표기할 것",
+      "text_en": "3. First-class conductors shall be listed in alphabetical order (Ga-Na-Da), and second-class conductors shall be listed in alphabetical order (G-N-D).",
+      "pre_body_fill_index": 127
+    },
+    {
+      "index": 132,
+      "source_ko": "④ 지적도근점은 결합도선ㆍ폐합도선(廢合道線)ㆍ왕복도선 및 다각망도선으로 구성하여야 한다.",
+      "text_en": "④ Cadastral control points must be composed of combined lines, closed lines, round-trip lines, and polygonal network lines.",
+      "pre_body_fill_index": 128
+    },
+    {
+      "index": 133,
+      "source_ko": "⑤ 경위의측량방법에 따라 도선법으로 지적도근점측량을 할 때에는 다음 각 호의 기준에 따른다.",
+      "text_en": "⑤ When conducting cadastral control point surveys using the traverse method according to the surveying method of the latitude and equatorial method, the standards of each of the following subparagraphs shall apply.",
+      "pre_body_fill_index": 129
+    },
+    {
+      "index": 134,
+      "source_ko": "1. 도선은 위성기준점, 통합기준점, 삼각점, 지적삼각점, 지적삼각보조점 및 지적도근점의 상호간을 연결하는 결합도선에 따를 것. 다만, 지형상 부득이 한 경우에는 폐합도선 또는 왕복도선에 따를 수 있다.",
+      "text_en": "1. Traverse lines shall follow combined traverse lines connecting satellite reference points, integrated reference points, triangulation points, cadastral triangulation points, cadastral auxiliary triangulation points, and cadastral control points. However, if unavoidable due to topography, closed traverse lines or round-trip traverse lines may be followed.",
+      "pre_body_fill_index": 130
+    },
+    {
+      "index": 135,
+      "source_ko": "2. 1도선의 점의 수는 40점 이하로 할 것. 다만, 지형상 부득이 한 경우에는 50점까지로 할 수 있다.",
+      "text_en": "2. The number of points in one line shall be 40 or fewer. However, if unavoidable due to topography, it may be up to 50 points.",
+      "pre_body_fill_index": 131
+    },
+    {
+      "index": 136,
+      "source_ko": "⑥ 경위의측량방법이나 전파기 또는 광파기측량방법에 따라 다각망도선법으로 지적도근점측량을 할 때에는 다음 각 호의 기준에 따른다. <개정 2014. 1. 17.>",
+      "text_en": "⑥ When conducting cadastral control point surveying using the polygonal network traverse method in accordance with the traverse surveying method or the radio or optical surveying method, the standards in each of the following subparagraphs shall apply. <Amended Jan. 17, 2014>",
+      "pre_body_fill_index": 132
+    },
+    {
+      "index": 137,
+      "source_ko": "1. 3점 이상의 기지점을 포함한 결합다각방식에 따를 것",
+      "text_en": "1. Follow the combined polygonal method including three or more known points.",
+      "pre_body_fill_index": 133
+    },
+    {
+      "index": 138,
+      "source_ko": "2. 1도선의 점의 수는 20점 이하로 할 것",
+      "text_en": "2. The number of points per line shall be 20 or fewer.",
+      "pre_body_fill_index": 134
+    },
+    {
+      "index": 139,
+      "source_ko": "⑦ 지적도근점 성과결정을 위한 관측 및 계산의 과정은 그 내용을 지적도근점측량부에 적어야 한다.",
+      "text_en": "⑦ The process of observation and calculation for determining the results of cadastral control points must be recorded in the cadastral control point survey register.",
+      "pre_body_fill_index": 135
+    },
+    {
+      "index": 140,
+      "source_ko": " 제13조(지적도근점의 관측 및 계산) 경위의측량방법, 전파기 또는 광파기측량방법과 도선법 또는 다각망도선법에 따른 지적도근점의 관측과 계산은 다음 각 호의 기준에 따른다.",
+      "text_en": " Article 13 (Observation and Calculation of Cadastral Control Points) The observation and calculation of cadastral control points based on the traverse method, radio or optical method, and the traverse method or polygonal network traverse method shall be in accordance with the standards set forth in each of the following subparagraphs.",
+      "pre_body_fill_index": 136
+    },
+    {
+      "index": 141,
+      "source_ko": "1. 수평각의 관측은 시가지 지역, 축척변경지역 및 경계점좌표등록부 시행 지역에 대하여는 배각법에 따르고, 그 밖의 지역에 대하여는 배각법과 방위각법을 혼용할 것",
+      "text_en": "1. For the observation of horizontal angles, the double angle method shall be followed for urban areas, areas subject to scale changes, and areas where the Boundary Point Coordinate Register is implemented; for other areas, the double angle method and the azimuth method shall be used in combination.",
+      "pre_body_fill_index": 137
+    },
+    {
+      "index": 142,
+      "source_ko": "2. 관측은 20초독 이상의 경위의를 사용할 것",
+      "text_en": "2. Use a girder with a reading of 20 seconds or more for observation.",
+      "pre_body_fill_index": 138
+    },
+    {
+      "index": 143,
+      "source_ko": "3. 관측과 계산은 다음 표에 따를 것\n",
+      "text_en": "3. Observations and calculations shall follow the following table.\n",
+      "pre_body_fill_index": 139
+    },
+    {
+      "index": 144,
+      "source_ko": "종별 각 측정 횟수 거리 진수 좌표 \n 배각법 초 3회 센티미터 5자리 이상 센티미터 \n 방위각법 분 1회 센티미터 5자리 이상 센티미터",
+      "text_en": "Type Number of Measurements Distance Base Number Coordinates\nAngle Method Seconds 3 times Centimeters 5 or more decimal places Centimeters\nAzimuth Method Minutes 1 time Centimeters 5 or more decimal places Centimeters",
+      "body_asset_id": "ec7a21c240e515e651fd426d",
+      "body_source_locator": {
+        "source_record_id": "kr-011121-267509-ko",
+        "source_version": "267509",
+        "source_path": "E:\\lawdata\\전체_법령자료\\법령\\documents\\law\\267509_지적측량 시행규칙.xml",
+        "container_kind": "ARTICLE",
+        "container_key": "0013001",
+        "node_path": "/법령/조문/조문단위[19]/항/호[3]/호내용",
+        "start_char": 22,
+        "end_char": 101,
+        "location": "제13조 지적도근점의 관측 및 계산",
+        "image_url": "http://www.law.go.kr/flDownload.do?flSeq=4281481"
+      },
+      "body_original_source": "\n┌────┬─┬─────┬────┬─────┬────┐\n│종별    │각│측정 횟수 │거리    │진수      │좌표    │\n├────┼─┼─────┼────┼─────┼────┤\n│배각법  │초│3회       │센티미터│5자리 이상│센티미터│\n├────┼─┼─────┼────┼─────┼────┤\n│방위각법│분│1회       │센티미터│5자리 이상│센티미터│\n└────┴─┴─────┴────┴─────┴────┘\n",
+      "translation_status": "XML_TEXT_DRAFT",
+      "body_inserted_at": "2026-11-01T08:32:09.436420+00:00"
+    },
+    {
+      "index": 145,
+      "source_ko": "4. 점간거리를 측정하는 경우에는 2회 측정하여 그 측정치의 교차가 평균치의 3천분의 1 이하일 때에는 그 평균치를 점간거리로 할 것. 이 경우 점간거리가 경사(傾斜)거리일 때에는 수평거리로 계산하여야 한다.",
+      "text_en": "4. When measuring the distance between points, two measurements shall be taken, and if the difference between the measurements is 1/3,000 of the average value or less, the average value shall be used as the distance between points. In this case, if the distance between points is an oblique distance, it shall be calculated as a horizontal distance.",
+      "pre_body_fill_index": 140
+    },
+    {
+      "index": 146,
+      "source_ko": "5. 연직각을 관측하는 경우에는 올려본 각과 내려본 각을 관측하여 그 교차가 90초 이내일 때에는 그 평균치를 연직각으로 할 것",
+      "text_en": "5. When observing the vertical angle, observe the upward angle and the downward angle; if the intersection is within 90 seconds, take the average value as the vertical angle.",
+      "pre_body_fill_index": 141
+    },
+    {
+      "index": 147,
+      "source_ko": " 제14조(지적도근점의 각도관측을 할 때의 폐색오차의 허용범위 및 측각오차의 배분) ① 도선법과 다각망도선법에 따른 지적도근점의 각도관측을 할 때의 폐색오차의 허용범위는 다음 각 호의 기준에 따른다. 이 경우 n은 폐색변을 포함한 변의 수를 말한다.",
+      "text_en": " Article 14 (Permissible Range of Block Error and Distribution of Angle Measurement Error when Observing Angles at Cadastral Control Points) ① The permissible range of block error when observing angles at cadastral control points according to the Traverse Method and the Polygonal Traverse Method shall be in accordance with the standards in each of the following subparagraphs. In this case, n refers to the number of sides including the blocked side.",
+      "pre_body_fill_index": 142
+    },
+    {
+      "index": 148,
+      "source_ko": "1. 배각법에 따르는 경우: 1회 측정각과 3회 측정각의 평균값에 대한 교차는 30초 이내로 하고, 1도선의 기지방위각 또는 평균방위각과 관측방위각의 폐색오차는 1등도선은  이내, 2등도선은  이내로 할 것",
+      "text_en": "1. For the repetition method, the discrepancy between a single measured angle and the mean of three measured angles shall not exceed 30 arcseconds. The angular misclosure between the known or mean azimuth and the observed azimuth of a traverse shall be within ±20√n arcseconds for a first-order traverse and ±30√n arcseconds for a second-order traverse.",
+      "pre_body_fill_index": 143,
+      "body_asset_ids": [
+        "447f96f6e2dc9b5e50f9fff3",
+        "bf57cb06282bdcd33ec0db71"
+      ],
+      "body_source_node": "/법령/조문/조문단위[20]/항[1]/호[1]/호내용",
+      "body_original_source": "1. 배각법에 따르는 경우: 1회 측정각과 3회 측정각의 평균값에 대한 교차는 30초 이내로 하고, 1도선의 기지방위각 또는 평균방위각과 관측방위각의 폐색오차는 1등도선은 <img src=\"http://www.law.go.kr/flDownload.do?flSeq=4281482\"  alt=\"img4281482\" >\n±20초\n</img> 이내, 2등도선은 <img src=\"http://www.law.go.kr/flDownload.do?flSeq=4281483\"  alt=\"img4281483\" >\n±30초\n</img> 이내로 할 것",
+      "body_asset_reviewed_at": "2026-11-01T08:30:21.256354+00:00"
+    },
+    {
+      "index": 149,
+      "source_ko": "2. 방위각법에 따르는 경우: 1도선의 폐색오차는 1등도선은 분 이내, 2등도선은 분 이내로 할 것",
+      "text_en": "2. For the azimuth method, the angular misclosure of a traverse shall be within ±√n arcminutes for a first-order traverse and ±1.5√n arcminutes for a second-order traverse.",
+      "pre_body_fill_index": 144,
+      "body_asset_ids": [
+        "ca1a8f4f05c128879a60d903",
+        "646e298520ea238f27059ecc"
+      ],
+      "body_source_node": "/법령/조문/조문단위[20]/항[1]/호[2]/호내용",
+      "body_original_source": "2. 방위각법에 따르는 경우: 1도선의 폐색오차는 1등도선은 <img src=\"http://www.law.go.kr/flDownload.do?flSeq=4281490\"  alt=\"img4281490\" >\n±\n</img>분 이내, 2등도선은 <img src=\"http://www.law.go.kr/flDownload.do?flSeq=4281497\"  alt=\"img4281497\" >\n±1.5\n</img>분 이내로 할 것",
+      "body_asset_reviewed_at": "2026-11-01T08:30:21.256354+00:00"
+    },
+    {
+      "index": 150,
+      "source_ko": "② 각도의 측정결과가 제1항에 따른 허용범위 이내인 경우 그 오차의 배분은 다음 각 호의 구분에 따른 기준에 따른다. <개정 2024. 12. 26.>",
+      "text_en": "",
+      "pre_body_fill_index": 145
+    },
+    {
+      "index": 151,
+      "source_ko": "1. 배각법에 따르는 경우: 다음의 계산식에 따라 측선장(測線長)에 반비례하여 각 측선의 관측각에 배분할 것\n\n(K는 각 측선에 배분할 초단위의 각도, e는 초단위의 오차, R은 폐색변을 포함한 각 측선장의 반수의 총합계, r은 각 측선장의 반수. 이 경우 반수는 측선장 1미터에 대하여 1천을 기준으로 한 수를 말한다)",
+      "text_en": "1. For the repetition method, distribute the error among the observed angles of the survey lines in inverse proportion to their lengths using:\nK = −(e/R) × r.\nK is the angular correction for each survey line in arcseconds; e is the error in arcseconds; R is the sum of the reciprocal-length values for all survey lines, including the closing side; and r is the reciprocal-length value for the relevant line. The reciprocal-length value is 1,000 divided by the line length in meters.",
+      "pre_body_fill_index": 146,
+      "body_asset_ids": [
+        "3f20d3a66bf3378e54f1e7eb"
+      ],
+      "body_source_node": "/법령/조문/조문단위[20]/항[2]/호[1]/호내용",
+      "body_original_source": "1. 배각법에 따르는 경우: 다음의 계산식에 따라 측선장(測線長)에 반비례하여 각 측선의 관측각에 배분할 것\n<img src=\"http://www.law.go.kr/flDownload.do?flSeq=147185877\"  alt=\"img147185877\" >\n    \n</img>\n    (K는 각 측선에 배분할 초단위의 각도, e는 초단위의 오차, R은 폐색변을 포함한 각 측선장의 반수의 총합계, r은 각 측선장의 반수. 이 경우 반수는 측선장 1미터에 대하여 1천을 기준으로 한 수를 말한다)",
+      "body_asset_reviewed_at": "2026-11-01T08:30:21.256354+00:00"
+    },
+    {
+      "index": 152,
+      "source_ko": "2. 방위각법에 따르는 경우: 다음의 산식에 따라 변의 수에 비례하여 각 측선의 방위각에 배분할 것\n\n(Kn은 각 측선의 순서대로 배분할 분단위의 각도, e는 분단위의 오차, S는 폐색변을 포함한 변의 수, s는 각 측선의 순서를 말한다)",
+      "text_en": "2. For the azimuth method, distribute the error among the azimuths of the survey lines in proportion to the number of sides using:\nKₙ = −(e/S) × s.\nKₙ is the angular correction in arcminutes allocated in the order of the survey lines; e is the error in arcminutes; S is the number of sides, including the closing side; and s is the ordinal position of the relevant survey line.",
+      "pre_body_fill_index": 147,
+      "body_asset_ids": [
+        "d5bb437c0b72a14d711d7622"
+      ],
+      "body_source_node": "/법령/조문/조문단위[20]/항[2]/호[2]/호내용",
+      "body_original_source": "2. 방위각법에 따르는 경우: 다음의 산식에 따라 변의 수에 비례하여 각 측선의 방위각에 배분할 것\n<img src=\"http://www.law.go.kr/flDownload.do?flSeq=147185887\"  alt=\"img147185887\" >\n    \n</img>\n    (Kn은 각 측선의 순서대로 배분할 분단위의 각도, e는 분단위의 오차, S는 폐색변을 포함한 변의 수, s는 각 측선의 순서를 말한다)",
+      "body_asset_reviewed_at": "2026-11-01T08:30:21.256354+00:00"
+    },
+    {
+      "index": 153,
+      "source_ko": " 제15조(지적도근점측량에서의 연결오차의 허용범위와 종선 및 횡선오차의 배분) ① 지적도근점측량에서 연결오차의 허용범위는 다음 각 호의 기준에 따른다. 이 경우 n은 각 측선의 수평거리의 총합계를 100으로 나눈 수를 말한다.",
+      "text_en": "",
+      "pre_body_fill_index": 148
+    },
+    {
+      "index": 154,
+      "source_ko": "1. 1등도선은 해당 지역 축척분모의  센티미터 이하로 할 것",
+      "text_en": "1. For a first-order traverse, the error shall not exceed the local map-scale denominator multiplied by √n/100 centimeters.",
+      "pre_body_fill_index": 149,
+      "body_asset_ids": [
+        "9e52ee3f9a4147851a79110d"
+      ],
+      "body_source_node": "/법령/조문/조문단위[21]/항[1]/호[1]/호내용",
+      "body_original_source": "1. 1등도선은 해당 지역 축척분모의 <img src=\"http://www.law.go.kr/flDownload.do?flSeq=4281572\"  alt=\"img4281572\" >\n</img> 센티미터 이하로 할 것",
+      "body_asset_reviewed_at": "2026-11-01T08:30:21.256354+00:00"
+    },
+    {
+      "index": 155,
+      "source_ko": "2. 2등도선은 해당 지역 축척분모의  센티미터 이하로 할 것",
+      "text_en": "2. For a second-order traverse, the error shall not exceed the local map-scale denominator multiplied by 1.5√n/100 centimeters.",
+      "pre_body_fill_index": 150,
+      "body_asset_ids": [
+        "e84215b916f9320fa2afe807"
+      ],
+      "body_source_node": "/법령/조문/조문단위[21]/항[1]/호[2]/호내용",
+      "body_original_source": "2. 2등도선은 해당 지역 축척분모의 <img src=\"http://www.law.go.kr/flDownload.do?flSeq=4281576\"  alt=\"img4281576\" >\n</img> 센티미터 이하로 할 것",
+      "body_asset_reviewed_at": "2026-11-01T08:30:21.256354+00:00"
+    },
+    {
+      "index": 156,
+      "source_ko": "3. 제1호 및 제2호를 적용하는 경우 경계점좌표등록부를 갖춰 두는 지역의 축척분모는 500으로 하고, 축척이 6천분의 1인 지역의 축척분모는 3천으로 할 것. 이 경우 하나의 도선에 속하여 있는 지역의 축척이 2 이상일 때에는 대축척의 축척분모에 따른다.",
+      "text_en": "",
+      "pre_body_fill_index": 151
+    },
+    {
+      "index": 157,
+      "source_ko": "② 지적도근점측량에 따라 계산된 연결오차가 제1항에 따른 허용범위 이내인 경우 그 오차의 배분은 다음 각 호의 기준에 따른다.",
+      "text_en": "",
+      "pre_body_fill_index": 152
+    },
+    {
+      "index": 158,
+      "source_ko": "1. 배각법에 따르는 경우: 다음의 계산식에 따라 각 측선의 종선차 또는 횡선차 길이에 비례하여 배분할 것\n\n(T는 각 측선의 종선차 또는 횡선차에 배분할 센티미터 단위의 수치, e는 종선오차 또는 횡선오차, L은 종선차 또는 횡선차의 절대치의 합계,은 각 측선의 종선차 또는 횡선차를 말한다)",
+      "text_en": "1. For the repetition method, distribute the error in proportion to the northing or easting difference of each survey line using:\nT = −(e/L) × l.\nT is the correction, in centimeters, to the northing or easting difference of each line; e is the northing or easting error; L is the sum of the absolute northing or easting differences; and l is the northing or easting difference of the relevant line.",
+      "pre_body_fill_index": 153,
+      "body_asset_ids": [
+        "fac67cf23017db1e62b6afa1",
+        "109ba76df87e0a5b9f973223"
+      ],
+      "body_source_node": "/법령/조문/조문단위[21]/항[2]/호[1]/호내용",
+      "body_original_source": "1. 배각법에 따르는 경우: 다음의 계산식에 따라 각 측선의 종선차 또는 횡선차 길이에 비례하여 배분할 것\n<img src=\"http://www.law.go.kr/flDownload.do?flSeq=4281577\"  alt=\"img4281577\" >\n</img>\n   (T는 각 측선의 종선차 또는 횡선차에 배분할 센티미터 단위의 수치, e는 종선오차 또는 횡선오차, L은 종선차 또는 횡선차의 절대치의 합계,<img src=\"http://www.law.go.kr/flDownload.do?flSeq=4281578\"  alt=\"img4281578\" >\n</img>은 각 측선의 종선차 또는 횡선차를 말한다)",
+      "body_asset_reviewed_at": "2026-11-01T08:30:21.256354+00:00"
+    },
+    {
+      "index": 159,
+      "source_ko": "2. 방위각법에 따르는 경우: 다음의 계산식에 따라 각 측선장에 비례하여 배분할 것\n\n(C는 각 측선의 종선차 또는 횡선차에 배분할 센티미터 단위의 수치, e는 종선오차 또는 횡선오차, L은 각 측선장의 총합계,  은 각 측선의 측선장을 말한다)",
+      "text_en": "2. For the azimuth method, distribute the error in proportion to the length of each survey line using:\nC = −(e/L) × l.\nC is the correction, in centimeters, to the northing or easting difference of each line; e is the northing or easting error; L is the sum of all survey-line lengths; and l is the length of the relevant line.",
+      "pre_body_fill_index": 154,
+      "body_asset_ids": [
+        "a97a04cf4158960ddbf38981",
+        "ecf086f444b4612122dd4251"
+      ],
+      "body_source_node": "/법령/조문/조문단위[21]/항[2]/호[2]/호내용",
+      "body_original_source": "2. 방위각법에 따르는 경우: 다음의 계산식에 따라 각 측선장에 비례하여 배분할 것\n<img src=\"http://www.law.go.kr/flDownload.do?flSeq=4281579\"  alt=\"img4281579\" >\n</img>\n   (C는 각 측선의 종선차 또는 횡선차에 배분할 센티미터 단위의 수치, e는 종선오차 또는 횡선오차, L은 각 측선장의 총합계, <img src=\"http://www.law.go.kr/flDownload.do?flSeq=4281580\"  alt=\"img4281580\" >\n</img> 은 각 측선의 측선장을 말한다)",
+      "body_asset_reviewed_at": "2026-11-01T08:30:21.256354+00:00"
+    },
+    {
+      "index": 160,
+      "source_ko": "③ 제2항의 경우 종선 또는 횡선의 오차가 매우 작아 이를 배분하기 곤란할 때에는 배각법에서는 종선차 및 횡선차가 긴 것부터, 방위각법에서는 측선장이 긴 것부터 차례로 배분하여 종선 및 횡선의 수치를 결정할 수 있다.",
+      "text_en": "",
+      "pre_body_fill_index": 155
+    },
+    {
+      "index": 161,
+      "source_ko": "        제3절 세부측량",
+      "text_en": "",
+      "pre_body_fill_index": 156
+    },
+    {
+      "index": 162,
+      "source_ko": " 제16조(지적공부 등의 전산자료 제공) ① 지적소관청은 지적측량수행자가 「공간정보의 구축 및 관리 등에 관한 법률 시행규칙」(이하 “규칙”이라 한다) 제25조제2항에 따라 제출한 지적측량 수행계획서에 따라 지적측량을 하려는 지역의 지적공부와 부동산종합공부에 관한 전산자료를 지적측량수행자에게 제공하여야 한다. <개정 2014. 1. 17., 2015. 4. 23.>",
+      "text_en": "",
+      "pre_body_fill_index": 157
+    },
+    {
+      "index": 163,
+      "source_ko": "② 지적소관청은 지적측량수행자가 측량업무수행을 위하여 전산화 이전의 지적공부, 측량부ㆍ측량결과도ㆍ면적측정부, 측량성과 파일 등 측량성과에 관한 자료를 요청한 경우에는 특별한 사정이 없는 한 지적측량수행자에게 제공하여야 한다. <신설 2014. 1. 17.>",
+      "text_en": "",
+      "pre_body_fill_index": 158
+    },
+    {
+      "index": 164,
+      "source_ko": "[제목개정 2014. 1. 17.]",
+      "text_en": "",
+      "pre_body_fill_index": 159
+    },
+    {
+      "index": 165,
+      "source_ko": " 제17조(측량준비도 또는 측량준비 파일의 작성) ① 지적측량수행자는 제18조제1항에 따른 평판측량방법 또는 같은 조 제11항에 따른 전자평판측량방법으로 세부측량을 할 때에는 지적도, 임야도에 따라 다음 각 호의 사항을 포함한 측량준비도 또는 측량준비 파일을 작성해야 한다. <개정 2013. 3. 23., 2024. 12. 26.>",
+      "text_en": "",
+      "pre_body_fill_index": 160
+    },
+    {
+      "index": 166,
+      "source_ko": "1. 측량대상 토지의 경계선ㆍ지번 및 지목",
+      "text_en": "",
+      "pre_body_fill_index": 161
+    },
+    {
+      "index": 167,
+      "source_ko": "2. 인근 토지의 경계선ㆍ지번 및 지목",
+      "text_en": "",
+      "pre_body_fill_index": 162
+    },
+    {
+      "index": 168,
+      "source_ko": "3. 임야도를 갖춰 두는 지역에서 인근 지적도의 축척으로 측량을 할 때에는 임야도에 표시된 경계점의 좌표를 구하여 지적도에 전개(展開)한 경계선. 다만, 임야도에 표시된 경계점의 좌표를 구할 수 없거나 그 좌표에 따라 확대하여 그리는 것이 부적당한 경우에는 축척비율에 따라 확대한 경계선을 말한다.",
+      "text_en": "",
+      "pre_body_fill_index": 163
+    },
+    {
+      "index": 169,
+      "source_ko": "4. 행정구역선과 그 명칭",
+      "text_en": "",
+      "pre_body_fill_index": 164
+    },
+    {
+      "index": 170,
+      "source_ko": "5. 지적기준점 및 그 번호와 지적기준점 간의 거리, 지적기준점의 좌표, 그 밖에 측량의 기점이 될 수 있는 기지점",
+      "text_en": "",
+      "pre_body_fill_index": 165
+    },
+    {
+      "index": 171,
+      "source_ko": "6. 도곽선(圖廓線)과 그 수치",
+      "text_en": "",
+      "pre_body_fill_index": 166
+    },
+    {
+      "index": 172,
+      "source_ko": "7. 도곽선의 신축이 0.5밀리미터 이상일 때에는 그 신축량 및 보정(補正) 계수",
+      "text_en": "",
+      "pre_body_fill_index": 167
+    },
+    {
+      "index": 173,
+      "source_ko": "8. 그 밖에 국토교통부장관이 정하는 사항",
+      "text_en": "",
+      "pre_body_fill_index": 168
+    },
+    {
+      "index": 174,
+      "source_ko": "② 제18조제9항에 따라 경위의측량방법으로 세부측량을 할 때에는 경계점좌표등록부와 지적도에 따라 다음 각 호의 사항을 포함한 측량준비 파일을 작성하여야 한다. <개정 2013. 3. 23.>",
+      "text_en": "",
+      "pre_body_fill_index": 169
+    },
+    {
+      "index": 175,
+      "source_ko": "1. 측량대상 토지의 경계와 경계점의 좌표 및 부호도ㆍ지번ㆍ지목",
+      "text_en": "",
+      "pre_body_fill_index": 170
+    },
+    {
+      "index": 176,
+      "source_ko": "2. 인근 토지의 경계와 경계점의 좌표 및 부호도ㆍ지번ㆍ지목",
+      "text_en": "",
+      "pre_body_fill_index": 171
+    },
+    {
+      "index": 177,
+      "source_ko": "3. 행정구역선과 그 명칭",
+      "text_en": "",
+      "pre_body_fill_index": 172
+    },
+    {
+      "index": 178,
+      "source_ko": "4. 지적기준점 및 그 번호와 지적기준점 간의 방위각 및 그 거리",
+      "text_en": "",
+      "pre_body_fill_index": 173
+    },
+    {
+      "index": 179,
+      "source_ko": "5. 경계점 간 계산거리",
+      "text_en": "",
+      "pre_body_fill_index": 174
+    },
+    {
+      "index": 180,
+      "source_ko": "6. 도곽선과 그 수치",
+      "text_en": "",
+      "pre_body_fill_index": 175
+    },
+    {
+      "index": 181,
+      "source_ko": "7. 그 밖에 국토교통부장관이 정하는 사항",
+      "text_en": "",
+      "pre_body_fill_index": 176
+    },
+    {
+      "index": 182,
+      "source_ko": "③ 지적측량수행자는 제1항 및 제2항의 측량준비 파일로 지적측량성과를 결정할 수 없는 경우에는 지적소관청에 지적측량성과의 연혁 자료를 요청할 수 있다.",
+      "text_en": "",
+      "pre_body_fill_index": 177
+    },
+    {
+      "index": 183,
+      "source_ko": "④ 지적측량수행자는 「국토의 계획 및 이용에 관한 법률」 제30조제6항에 따른 도시ㆍ군관리계획 결정고시와 같은 법 제32조제4항에 따른 지형도면 고시가 된 지역의 도시ㆍ군관리계획선(이하 이 항에서 “도시ㆍ군관리계획선”이라 한다)을 측량하는 경우에는 도시ㆍ군관리계획선이 포함된 측량준비도 또는 측량준비 파일을 해당 시ㆍ군ㆍ구의 도시계획업무 담당자에게 제출하여 해당 측량준비도 또는 측량준비 파일에 포함된 도시ㆍ군관리계획선의 적정성 여부를 확인받은 후 해당 측량준비도 또는 측량준비 파일에 서명(측량준비 파일의 경우에는 전자서명을 말한다)을 받아야 한다. <신설 2024. 12. 26.>",
+      "text_en": "",
+      "pre_body_fill_index": 178
+    },
+    {
+      "index": 184,
+      "source_ko": "⑤ 지적측량수행자는 제4항에 따라 측량준비 파일을 작성할 때 필요한 경우에는 지적소관청에 지적전산자료의 제공을 요청할 수 있으며, 지적소관청은 특별한 이유가 없으면 해당 요청에 따라야 한다. <신설 2024. 12. 26.>",
+      "text_en": "",
+      "pre_body_fill_index": 179
+    },
+    {
+      "index": 185,
+      "source_ko": "[제목개정 2024. 12. 26.]",
+      "text_en": "",
+      "pre_body_fill_index": 180
+    },
+    {
+      "index": 186,
+      "source_ko": " 제18조(세부측량의 기준 및 방법 등) ① 평판측량방법에 따른 세부측량은 다음 각 호의 기준에 따른다. <개정 2024. 12. 26.>",
+      "text_en": "",
+      "pre_body_fill_index": 181
+    },
+    {
+      "index": 187,
+      "source_ko": "1. 거리측정단위는 지적도를 갖춰 두는 지역에서는 5센티미터로 하고, 임야도를 갖춰 두는 지역에서는 50센티미터로 할 것",
+      "text_en": "",
+      "pre_body_fill_index": 182
+    },
+    {
+      "index": 188,
+      "source_ko": "2. 측량결과도는 그 토지가 등록된 도면과 동일한 축척으로 작성할 것",
+      "text_en": "",
+      "pre_body_fill_index": 183
+    },
+    {
+      "index": 189,
+      "source_ko": "3. 세부측량의 기준이 되는 위성기준점, 통합기준점, 삼각점, 지적삼각점, 지적삼각보조점, 지적도근점 및 기지점이 부족하거나 이를 활용할 수 없는 경우에는 측량상 필요한 위치에 보조점을 설치하여 활용할 것",
+      "text_en": "",
+      "pre_body_fill_index": 184
+    },
+    {
+      "index": 190,
+      "source_ko": "4. 경계점은 기지점을 기준으로 하여 지상경계선과 도상경계선의 부합 여부를 현형법(現形法)ㆍ도상원호(圖上圓弧)교회법ㆍ지상원호(地上圓弧)교회법 또는 거리비교확인법 등으로 확인하여 정할 것",
+      "text_en": "",
+      "pre_body_fill_index": 185
+    },
+    {
+      "index": 191,
+      "source_ko": "② 평판측량방법에 따른 세부측량은 교회법ㆍ도선법 및 방사법에 따른다. <개정 2024. 12. 26.>",
+      "text_en": "",
+      "pre_body_fill_index": 186
+    },
+    {
+      "index": 192,
+      "source_ko": "③ 평판측량방법에 따른 세부측량을 교회법으로 하는 경우에는 다음 각 호의 기준에 따른다.",
+      "text_en": "",
+      "pre_body_fill_index": 187
+    },
+    {
+      "index": 193,
+      "source_ko": "1. 전방교회법 또는 측방교회법에 따를 것",
+      "text_en": "",
+      "pre_body_fill_index": 188
+    },
+    {
+      "index": 194,
+      "source_ko": "2. 3방향 이상의 교회에 따를 것",
+      "text_en": "",
+      "pre_body_fill_index": 189
+    },
+    {
+      "index": 195,
+      "source_ko": "3. 방향각의 교각은 30도 이상 150도 이하로 할 것",
+      "text_en": "",
+      "pre_body_fill_index": 190
+    },
+    {
+      "index": 196,
+      "source_ko": "4. 방향선의 도상길이는 측판의 방위표정(方位標定)에 사용한 방향선의 도상길이 이하로서 10센티미터 이하로 할 것. 다만, 광파조준의(光波照準儀) 또는 광파측거기를 사용하는 경우에는 30센티미터 이하로 할 수 있다.",
+      "text_en": "",
+      "pre_body_fill_index": 191
+    },
+    {
+      "index": 197,
+      "source_ko": "5. 측량결과 시오(示誤)삼각형이 생긴 경우 내접원의 지름이 1밀리미터 이하일 때에는 그 중심을 점의 위치로 할 것",
+      "text_en": "",
+      "pre_body_fill_index": 192
+    },
+    {
+      "index": 198,
+      "source_ko": "④ 평판측량방법에 따른 세부측량을 도선법으로 하는 경우에는 다음 각 호의 기준에 따른다.",
+      "text_en": "",
+      "pre_body_fill_index": 193
+    },
+    {
+      "index": 199,
+      "source_ko": "1. 위성기준점, 통합기준점, 삼각점, 지적삼각점, 지적삼각보조점 및 지적도근점, 그 밖에 명확한 기지점 사이를 서로 연결할 것",
+      "text_en": "",
+      "pre_body_fill_index": 194
+    },
+    {
+      "index": 200,
+      "source_ko": "2. 도선의 측선장은 도상길이 8센티미터 이하로 할 것. 다만, 광파조준의 또는 광파측거기를 사용할 때에는 30센티미터 이하로 할 수 있다.",
+      "text_en": "",
+      "pre_body_fill_index": 195
+    },
+    {
+      "index": 201,
+      "source_ko": "3. 도선의 변은 20개 이하로 할 것",
+      "text_en": "",
+      "pre_body_fill_index": 196
+    },
+    {
+      "index": 202,
+      "source_ko": "4. 도선의 폐색오차가 도상길이  밀리미터 이하인 경우 그 오차는 다음의 계산식에 따라 이를 각 점에 배분하여 그 점의 위치로 할 것\n\n(Mn은 각점에 순서대로 배분할 밀리미터 단위의 도상길이, e는 밀리미터 단위의 오차, N은 변의 수, n은 변의 순서를 말한다)",
+      "text_en": "4. If the traverse misclosure does not exceed √N/3 millimeters on the map, distribute the error to each point using the following formula and use the adjusted positions:\nMₙ = (e/N) × n.\nMₙ is the map-distance correction, in millimeters, allocated to each point in order; e is the error in millimeters; N is the number of sides; and n is the ordinal position of the side.",
+      "pre_body_fill_index": 197,
+      "body_asset_ids": [
+        "1239c5f07748fba5858e622d",
+        "9a05b65de85147aae866e714"
+      ],
+      "body_source_node": "/법령/조문/조문단위[25]/항[4]/호[4]/호내용",
+      "body_original_source": "4. 도선의 폐색오차가 도상길이 <img src=\"http://www.law.go.kr/flDownload.do?flSeq=4281582\"  alt=\"img4281582\" >\n</img> 밀리미터 이하인 경우 그 오차는 다음의 계산식에 따라 이를 각 점에 배분하여 그 점의 위치로 할 것\n<img src=\"http://www.law.go.kr/flDownload.do?flSeq=4281585\"  alt=\"img4281585\" >\n</img>\n  (Mn은 각점에 순서대로 배분할 밀리미터 단위의 도상길이, e는 밀리미터 단위의 오차, N은 변의 수, n은 변의 순서를 말한다)",
+      "body_asset_reviewed_at": "2026-11-01T08:30:21.256354+00:00"
+    },
+    {
+      "index": 203,
+      "source_ko": "⑤ 평판측량방법에 따른 세부측량을 방사법으로 하는 경우에는 1방향선의 도상길이는 10센티미터 이하로 한다. 다만, 광파조준의 또는 광파측거기를 사용할 때에는 30센티미터 이하로 할 수 있다.",
+      "text_en": "",
+      "pre_body_fill_index": 198
+    },
+    {
+      "index": 204,
+      "source_ko": "⑥평판측량방법으로 거리를 측정하는 경우 도곽선의 신축량이 0.5밀리미터 이상일 때에는 다음의 계산식에 따른 보정량을 산출하여 도곽선이 늘어난 경우에는 실측거리에 보정량을 더하고, 줄어든 경우에는 실측거리에서 보정량을 뺀다.\n",
+      "text_en": "⑥ When measuring distances by plane-table surveying, if the expansion or contraction of the map frame is at least 0.5 mm, calculate the correction using the following formula. Add the correction to the measured distance if the frame has expanded, and subtract it if the frame has contracted.\nCorrection = [(Expansion/contraction amount expressed as ground distance × 4) / Map-frame length expressed as ground distance] × Measured distance.",
+      "pre_body_fill_index": 199,
+      "body_asset_ids": [
+        "e87d13f3afe26cb5cc1abe0b"
+      ],
+      "body_source_node": "/법령/조문/조문단위[25]/항[6]/항내용",
+      "body_original_source": "⑥평판측량방법으로 거리를 측정하는 경우 도곽선의 신축량이 0.5밀리미터 이상일 때에는 다음의 계산식에 따른 보정량을 산출하여 도곽선이 늘어난 경우에는 실측거리에 보정량을 더하고, 줄어든 경우에는 실측거리에서 보정량을 뺀다.\n<img src=\"http://www.law.go.kr/flDownload.do?flSeq=4281586\"  alt=\"img4281586\" >\n × 실측거리\n</img>",
+      "body_asset_reviewed_at": "2026-11-01T08:30:21.256354+00:00"
+    },
+    {
+      "index": 205,
+      "source_ko": "⑦ 평판측량방법에 따라 경사거리를 측정하는 경우의 수평거리의 계산은 다음 각 호의 기준에 따른다.",
+      "text_en": "",
+      "pre_body_fill_index": 200
+    },
+    {
+      "index": 206,
+      "source_ko": "1. 조준의[앨리데이드(alidade)]를 사용한 경우\n\n(D는 수평거리, 은 경사거리, n은 경사분획)",
+      "text_en": "1. When an alidade is used:\nD = l / √[1 + (n/100)²].\nD is the horizontal distance, l is the slope distance, and n is the slope graduation.",
+      "pre_body_fill_index": 201,
+      "body_asset_ids": [
+        "1f4db5c9a37c4559724d86c2",
+        "2343f815f77d6e2df2d48bf0"
+      ],
+      "body_source_node": "/법령/조문/조문단위[25]/항[7]/호[1]/호내용",
+      "body_original_source": "1. 조준의[앨리데이드(alidade)]를 사용한 경우\n<img src=\"http://www.law.go.kr/flDownload.do?flSeq=4281588\"  alt=\"img4281588\" >\n</img>\n   (D는 수평거리,<img src=\"http://www.law.go.kr/flDownload.do?flSeq=4281589\"  alt=\"img4281589\" >\n</img> 은 경사거리, n은 경사분획)",
+      "body_asset_reviewed_at": "2026-11-01T08:30:21.256354+00:00"
+    },
+    {
+      "index": 207,
+      "source_ko": "2. 망원경조준의(망원경 앨리데이드)를 사용한 경우\n\n(D는 수평거리,  은 경사거리, θ는 연직각, α는 천정각 또는 천저각)",
+      "text_en": "2. When a telescopic alidade is used:\nD = l cos θ or l sin α.\nD is the horizontal distance, l is the slope distance, θ is the vertical angle, and α is the zenith or nadir angle.",
+      "pre_body_fill_index": 202,
+      "body_asset_ids": [
+        "fd88173eb3175e8372681b2f",
+        "fa249ed8cd53511154a93e38"
+      ],
+      "body_source_node": "/법령/조문/조문단위[25]/항[7]/호[2]/호내용",
+      "body_original_source": "2. 망원경조준의(망원경 앨리데이드)를 사용한 경우\n<img src=\"http://www.law.go.kr/flDownload.do?flSeq=4281590\"  alt=\"img4281590\" >\nD =  cosθ 또는  sinα\n</img>\n   (D는 수평거리, <img src=\"http://www.law.go.kr/flDownload.do?flSeq=4281591\"  alt=\"img4281591\" >\n</img> 은 경사거리, θ는 연직각, α는 천정각 또는 천저각)",
+      "body_asset_reviewed_at": "2026-11-01T08:30:21.256354+00:00"
+    },
+    {
+      "index": 208,
+      "source_ko": "⑧평판측량방법에 있어서 도상에 영향을 미치지 아니하는 지상거리의 축척별 허용범위는  밀리미터로 한다. 이 경우 M은 축척분모를 말한다.",
+      "text_en": "⑧ For plane-table surveying, the permissible ground distance that does not affect the map shall be M/10 millimeters for the relevant scale. M is the scale denominator.",
+      "pre_body_fill_index": 203,
+      "body_asset_ids": [
+        "df8652c48420b88a0eff45c6"
+      ],
+      "body_source_node": "/법령/조문/조문단위[25]/항[8]/항내용",
+      "body_original_source": "⑧평판측량방법에 있어서 도상에 영향을 미치지 아니하는 지상거리의 축척별 허용범위는 <img src=\"http://www.law.go.kr/flDownload.do?flSeq=4281592\"  alt=\"img4281592\" >\n</img> 밀리미터로 한다. 이 경우 M은 축척분모를 말한다.",
+      "body_asset_reviewed_at": "2026-11-01T08:30:21.256354+00:00"
+    },
+    {
+      "index": 209,
+      "source_ko": "⑨ 경위의측량방법에 따른 세부측량은 다음 각 호의 기준에 따른다. <개정 2024. 12. 26.>",
+      "text_en": "",
+      "pre_body_fill_index": 204
+    },
+    {
+      "index": 210,
+      "source_ko": "1. 거리측정단위는 1센티미터로 할 것",
+      "text_en": "",
+      "pre_body_fill_index": 205
+    },
+    {
+      "index": 211,
+      "source_ko": "2. 측량결과도는 그 토지의 지적도와 동일한 축척으로 작성할 것. 다만, 지적확정측량 시행지역(농지의 구획정리 시행지역은 제외한다)과 축척변경 시행지역은 500분의 1로 하고, 농지의 구획정리 시행지역은 1천분의 1로 하되, 필요한 경우에는 미리 시ㆍ도지사의 승인을 받아 6천분의 1까지 작성할 수 있다.",
+      "text_en": "",
+      "pre_body_fill_index": 206
+    },
+    {
+      "index": 212,
+      "source_ko": "3. 토지의 경계가 곡선인 경우에는 가급적 현재 상태와 다르게 되지 아니하도록 경계점을 측정하여 연결할 것. 이 경우 직선으로 연결하는 곡선의 중앙종거(中央縱距)의 길이는 5센티미터 이상 10센티미터 이하로 한다.",
+      "text_en": "",
+      "pre_body_fill_index": 207
+    },
+    {
+      "index": 213,
+      "source_ko": "⑩ 경위의측량방법에 따른 세부측량의 관측 및 계산은 다음 각 호의 기준에 따른다.",
+      "text_en": "",
+      "pre_body_fill_index": 208
+    },
+    {
+      "index": 214,
+      "source_ko": "1. 미리 각 경계점에 표지를 설치하여야 한다. 다만, 부득이한 경우에는 그러하지 아니하다.",
+      "text_en": "",
+      "pre_body_fill_index": 209
+    },
+    {
+      "index": 215,
+      "source_ko": "2. 도선법 또는 방사법에 따를 것",
+      "text_en": "",
+      "pre_body_fill_index": 210
+    },
+    {
+      "index": 216,
+      "source_ko": "3. 관측은 20초독 이상의 경위의를 사용할 것",
+      "text_en": "",
+      "pre_body_fill_index": 211
+    },
+    {
+      "index": 217,
+      "source_ko": "4. 수평각의 관측은 1대회의 방향관측법이나 2배각의 배각법에 따를 것 다만, 방향관측법인 경우에는 1측회의 폐색을 하지 아니할 수 있다.",
+      "text_en": "",
+      "pre_body_fill_index": 212
+    },
+    {
+      "index": 218,
+      "source_ko": "5. 연직각의 관측은 정반으로 1회 관측하여 그 교차가 5분 이내일 때에는 그 평균치를 연직각으로 하되, 분단위로 독정(讀定)할 것",
+      "text_en": "",
+      "pre_body_fill_index": 213
+    },
+    {
+      "index": 219,
+      "source_ko": "6. 수평각의 측각공차는 다음 표에 따를 것\n",
+      "text_en": "",
+      "pre_body_fill_index": 214
+    },
+    {
+      "index": 220,
+      "source_ko": "종별 1방향각 1회 측정각과 \n 2회 측정각의 \n 평균값에 대한 교차 \n 공차 60초 이내 40초 이내",
+      "text_en": "Type 1-directional angle Intersection of the average value of the 1st measured angle and the 2nd measured angle tolerance Within 60 seconds Within 40 seconds",
+      "body_asset_id": "76bbbbf958d3f59ad35b5637",
+      "body_source_locator": {
+        "source_record_id": "kr-011121-267509-ko",
+        "source_version": "267509",
+        "source_path": "E:\\lawdata\\전체_법령자료\\법령\\documents\\law\\267509_지적측량 시행규칙.xml",
+        "container_kind": "ARTICLE",
+        "container_key": "0018001",
+        "node_path": "/법령/조문/조문단위[25]/항[10]/호[6]/호내용",
+        "start_char": 25,
+        "end_char": 104,
+        "location": "제18조 세부측량의 기준 및 방법 등",
+        "image_url": "http://www.law.go.kr/flDownload.do?flSeq=4281593"
+      },
+      "body_original_source": "\n┌──┬─────┬─────────┐\n│종별│1방향각   │1회 측정각과      │\n│    │          │2회 측정각의      │\n│    │          │평균값에 대한 교차│\n├──┼─────┼─────────┤\n│공차│60초 이내 │40초 이내         │\n└──┴─────┴─────────┘\n",
+      "translation_status": "XML_TEXT_DRAFT",
+      "body_inserted_at": "2026-11-01T08:32:09.436420+00:00"
+    },
+    {
+      "index": 221,
+      "source_ko": "7. 경계점의 거리측정에 관하여는 제13조제4호를 준용할 것",
+      "text_en": "",
+      "pre_body_fill_index": 215
+    },
+    {
+      "index": 222,
+      "source_ko": "8. 계산방법은 다음 표에 따를 것\n",
+      "text_en": "",
+      "pre_body_fill_index": 216
+    },
+    {
+      "index": 223,
+      "source_ko": "종별 각 변의 길이 진수 좌표 \n 단위 초 센티미터 5자리 이상 센티미터",
+      "text_en": "Type Length of each side Base coordinate\nUnits Seconds Centimeters 5 or more digits Centimeter",
+      "body_asset_id": "43beeb5fb042b63d5e596375",
+      "body_source_locator": {
+        "source_record_id": "kr-011121-267509-ko",
+        "source_version": "267509",
+        "source_path": "E:\\lawdata\\전체_법령자료\\법령\\documents\\law\\267509_지적측량 시행규칙.xml",
+        "container_kind": "ARTICLE",
+        "container_key": "0018001",
+        "node_path": "/법령/조문/조문단위[25]/항[10]/호[8]/호내용",
+        "start_char": 20,
+        "end_char": 99,
+        "location": "제18조 세부측량의 기준 및 방법 등",
+        "image_url": "http://www.law.go.kr/flDownload.do?flSeq=4281594"
+      },
+      "body_original_source": "\n┌──┬─┬─────┬─────┬────┐\n│종별│각│변의 길이 │진수      │좌표    │\n├──┼─┼─────┼─────┼────┤\n│단위│초│센티미터  │5자리 이상│센티미터│\n└──┴─┴─────┴─────┴────┘\n",
+      "translation_status": "XML_TEXT_DRAFT",
+      "body_inserted_at": "2026-11-01T08:32:09.436420+00:00"
+    },
+    {
+      "index": 224,
+      "source_ko": "⑪ 전자평판측량은 제1항제2호부터 제4호까지와 제2항부터 제5항까지 및 제8항을 준용한다.",
+      "text_en": "",
+      "pre_body_fill_index": 217
+    },
+    {
+      "index": 225,
+      "source_ko": "⑫ 제1항부터 제11항까지에서 규정한 사항 외에 측량방법 및 절차에 관하여 필요한 사항은 국토교통부장관이 정한다. <개정 2013. 3. 23.>",
+      "text_en": "",
+      "pre_body_fill_index": 218
+    },
+    {
+      "index": 226,
+      "source_ko": " 제19조(면적측정의 대상) 세부측량을 하는 경우 다음 각 호의 어느 하나에 해당하면 필지마다 면적을 측정해야 한다.",
+      "text_en": "",
+      "pre_body_fill_index": 219
+    },
+    {
+      "index": 227,
+      "source_ko": "1. 지적공부의 복구ㆍ신규등록ㆍ등록전환ㆍ분할 및 축척변경을 하는 경우",
+      "text_en": "",
+      "pre_body_fill_index": 220
+    },
+    {
+      "index": 228,
+      "source_ko": "2. 법 제84조에 따라 면적 또는 경계를 정정하는 경우",
+      "text_en": "",
+      "pre_body_fill_index": 221
+    },
+    {
+      "index": 229,
+      "source_ko": "3. 지적확정측량을 하는 경우",
+      "text_en": "",
+      "pre_body_fill_index": 222
+    },
+    {
+      "index": 230,
+      "source_ko": "4. 지적현황측량에 면적측정이 수반되는 경우",
+      "text_en": "",
+      "pre_body_fill_index": 223
+    },
+    {
+      "index": 231,
+      "source_ko": "[전문개정 2024. 12. 26.]",
+      "text_en": "",
+      "pre_body_fill_index": 224
+    },
+    {
+      "index": 232,
+      "source_ko": " 제20조(면적측정의 방법 등) ① 좌표면적계산법 또는 전산처리방법에 따른 면적측정은 다음 각 호의 기준에 따른다. <개정 2024. 12. 26.>",
+      "text_en": "",
+      "pre_body_fill_index": 225
+    },
+    {
+      "index": 233,
+      "source_ko": "1. 경위의측량방법으로 세부측량을 한 지역의 필지별 면적측정은 경계점 좌표에 따를 것",
+      "text_en": "",
+      "pre_body_fill_index": 226
+    },
+    {
+      "index": 234,
+      "source_ko": "2. 측정면적은 1천분의 1제곱미터까지 측정하고, 산출면적은 다음 각 목의 구분에 따른 단위로 정할 것",
+      "text_en": "",
+      "pre_body_fill_index": 227
+    },
+    {
+      "index": 235,
+      "source_ko": "가. 지적도의 축척이 600분의 1인 지역 및 경계점좌표등록부에 등록하는 지역: 100분의 1제곱미터",
+      "text_en": "",
+      "pre_body_fill_index": 228
+    },
+    {
+      "index": 236,
+      "source_ko": "나. 그 밖의 지역: 10분의 1제곱미터",
+      "text_en": "",
+      "pre_body_fill_index": 229
+    },
+    {
+      "index": 237,
+      "source_ko": "② 전자면적측정기에 따른 면적측정은 다음 각 호의 기준에 따른다. <개정 2024. 12. 26.>",
+      "text_en": "",
+      "pre_body_fill_index": 230
+    },
+    {
+      "index": 238,
+      "source_ko": "1. 도상에서 2회 측정하여 그 교차가 다음 계산식에 따른 허용면적 이하일 때에는 그 평균치를 측정면적으로 할 것\n\n(A는 허용면적, M은 축척분모, F는 2회 측정한 면적의 합계를 2로 나눈 수)",
+      "text_en": "1. Measure the area twice on the map. If the difference does not exceed the permissible area calculated by the following formula, use the mean as the measured area:\n![Formula](https://www.law.go.kr/LSW/flDownload.do?flSeq=4281595)\nA is the permissible area; M is the scale denominator; and F is the sum of the two measured areas divided by two.",
+      "pre_body_fill_index": 231,
+      "body_asset_ids": [
+        "0bc904f878ce2f1ade9ab5ea"
+      ],
+      "body_source_node": "/법령/조문/조문단위[27]/항[2]/호[1]/호내용",
+      "body_original_source": "1. 도상에서 2회 측정하여 그 교차가 다음 계산식에 따른 허용면적 이하일 때에는 그 평균치를 측정면적으로 할 것\n<img src=\"http://www.law.go.kr/flDownload.do?flSeq=4281595\"  alt=\"img4281595\" >\n</img>\n  (A는 허용면적, M은 축척분모, F는 2회 측정한 면적의 합계를 2로 나눈 수)",
+      "body_asset_reviewed_at": "2026-11-01T08:30:21.256354+00:00"
+    },
+    {
+      "index": 239,
+      "source_ko": "2. 측정면적은 1천분의 1제곱미터까지 측정하고, 산출면적은 10분의 1제곱미터 단위로 정할 것",
+      "text_en": "",
+      "pre_body_fill_index": 232
+    },
+    {
+      "index": 240,
+      "source_ko": "③ 제2항에 따라 전자면적측정기로 면적을 측정하는 경우 도곽선의 길이에 0.5밀리미터 이상의 신축이 있을 때에는 이를 보정해야 한다. 이 경우 도곽선의 신축량 및 보정계수의 계산은 다음 각 호의 계산식에 따른다. <개정 2024. 12. 26.>",
+      "text_en": "",
+      "pre_body_fill_index": 233
+    },
+    {
+      "index": 241,
+      "source_ko": "1. 도곽선의 신축량계산\n\n(S는 신축량, △X₁는 왼쪽 종선의 신축된 차, △X₂는 오른쪽 종선의 신축된 차, △Y₁는 윗쪽 횡선의 신축된 차, △Y₂는 아래쪽 횡선의 신축된 차)\n\n(L은 신축된 도곽선지상길이, Lo는 도곽선지상길이, M은 축척분모)",
+      "text_en": "1. Calculation of map-frame expansion or contraction:\nS = (ΔX₁ + ΔX₂ + ΔY₁ + ΔY₂) / 4.\nS is the expansion or contraction; ΔX₁ and ΔX₂ are the changes in the left and right vertical frame lines, respectively; and ΔY₁ and ΔY₂ are the changes in the upper and lower horizontal frame lines, respectively.\nExpansion/contraction difference (mm) = 1000(L − L₀) / M.\nL is the ground length represented by the expanded or contracted frame line; L₀ is the original ground length represented by the frame line; and M is the scale denominator.",
+      "pre_body_fill_index": 234,
+      "body_asset_ids": [
+        "c0f6eb543240b41db6cc4cc3",
+        "f4b769a6ccc834625ff87f4b"
+      ],
+      "body_source_node": "/법령/조문/조문단위[27]/항[3]/호[1]/호내용",
+      "body_original_source": "1. 도곽선의 신축량계산\n<img src=\"http://www.law.go.kr/flDownload.do?flSeq=4281596\"  alt=\"img4281596\" >\n</img>\n  (S는 신축량, △X₁는 왼쪽 종선의 신축된 차, △X₂는 오른쪽 종선의 신축된 차, △Y₁는 윗쪽 횡선의 신축된 차, △Y₂는 아래쪽 횡선의 신축된 차)\n<img src=\"http://www.law.go.kr/flDownload.do?flSeq=4281597\"  alt=\"img4281597\" >\n이 경우 신축된 차(밀리미터)=\n</img>\n  (L은 신축된 도곽선지상길이, Lo는 도곽선지상길이, M은 축척분모)",
+      "body_asset_reviewed_at": "2026-11-01T08:30:21.256354+00:00"
+    },
+    {
+      "index": 242,
+      "source_ko": "2. 도곽선의 보정계수계산\n\n(Z는 보정계수, X는 도곽선종선길이, Y는 도곽선횡선길이, △X는 신축된 도곽선종선길이의 합/2, △Y는 신축된 도곽선횡선길이의 합/2을 말한다)",
+      "text_en": "2. Calculation of the map-frame correction factor:\nZ = (X × Y) / (ΔX × ΔY).\nZ is the correction factor; X and Y are the vertical and horizontal frame-line lengths, respectively; ΔX is half the sum of the expanded or contracted vertical frame-line lengths; and ΔY is half the sum of the expanded or contracted horizontal frame-line lengths.",
+      "pre_body_fill_index": 235,
+      "body_asset_ids": [
+        "ee55e7824a288fd25ec3f204"
+      ],
+      "body_source_node": "/법령/조문/조문단위[27]/항[3]/호[2]/호내용",
+      "body_original_source": "2. 도곽선의 보정계수계산\n<img src=\"http://www.law.go.kr/flDownload.do?flSeq=4281598\"  alt=\"img4281598\" >\n</img>\n  (Z는 보정계수, X는 도곽선종선길이, Y는 도곽선횡선길이, △X는 신축된 도곽선종선길이의 합/2, △Y는 신축된 도곽선횡선길이의 합/2을 말한다)",
+      "body_asset_reviewed_at": "2026-11-01T08:30:21.256354+00:00"
+    },
+    {
+      "index": 243,
+      "source_ko": "④ 면적이 5천제곱미터 이상인 필지를 분할하는 경우 분할 후의 면적이 분할 전 면적의 80퍼센트 이상이 되는 필지의 면적을 측정할 때에는 분할 전 면적의 20퍼센트 미만이 되는 필지의 면적을 먼저 측정한 후, 분할 전 면적에서 그 측정된 면적을 빼는 방법으로 할 수 있다. 다만, 동일한 측량결과도에서 측정할 수 있는 경우와 좌표면적계산법에 따라 면적을 측정하는 경우에는 그러하지 아니하다.",
+      "text_en": "",
+      "pre_body_fill_index": 236
+    },
+    {
+      "index": 244,
+      "source_ko": " 제21조(임야도를 갖춰 두는 지역의 세부측량) ① 임야도를 갖춰 두는 지역의 세부측량은 위성기준점, 통합기준점, 삼각점, 지적삼각점, 지적삼각보조점 및 지적도근점에 따른다. 다만, 다음 각 호의 어느 하나에 해당하는 경우에는 위성기준점, 통합기준점, 삼각점, 지적삼각점, 지적삼각보조점 및 지적도근점에 따라 측량하지 아니하고 지적도의 축척으로 측량한 후 그 성과에 따라 임야측량결과도를 작성할 수 있다.",
+      "text_en": "",
+      "pre_body_fill_index": 237
+    },
+    {
+      "index": 245,
+      "source_ko": "1. 측량대상토지가 지적도를 갖춰 두는 지역에 인접하여 있고 지적도의 기지점이 정확하다고 인정되는 경우",
+      "text_en": "",
+      "pre_body_fill_index": 238
+    },
+    {
+      "index": 246,
+      "source_ko": "2. 임야도에 도곽선이 없는 경우",
+      "text_en": "",
+      "pre_body_fill_index": 239
+    },
+    {
+      "index": 247,
+      "source_ko": "② 제1항 단서에 따라 측량할 때에는 임야도상의 경계는 제17조제1항제3호의 경계에 따라야 하며, 지적도의 축척에 따른 측량성과를 임야도의 축척으로 측량결과도에 표시할 때에는 지적도의 축척에 따른 측량결과도에 표시된 경계점의 좌표를 구하여 임야측량결과도에 전개하여야 한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우에는 축척비율에 따라 줄여서 임야측량결과도를 작성한다.",
+      "text_en": "",
+      "pre_body_fill_index": 240
+    },
+    {
+      "index": 248,
+      "source_ko": "1. 경계점의 좌표를 구할 수 없는 경우",
+      "text_en": "",
+      "pre_body_fill_index": 241
+    },
+    {
+      "index": 249,
+      "source_ko": "2. 경계점의 좌표에 따라 줄여서 그리는 것이 부적당한 경우",
+      "text_en": "",
+      "pre_body_fill_index": 242
+    },
+    {
+      "index": 250,
+      "source_ko": " 제22조(지적확정측량) ① 지적확정측량을 하는 경우 필지별 경계점은 위성기준점, 통합기준점, 삼각점, 지적삼각점, 지적삼각보조점 및 지적도근점에 따라 측정하여야 한다.",
+      "text_en": "",
+      "pre_body_fill_index": 243
+    },
+    {
+      "index": 251,
+      "source_ko": "② 지적확정측량을 할 때에는 미리 규칙 제95조제1항제3호에 따른 사업계획도와 지적도ㆍ임야도를 대조하여 각 필지의 위치 등을 확인해야 한다. <개정 2024. 12. 26.>",
+      "text_en": "",
+      "pre_body_fill_index": 244
+    },
+    {
+      "index": 252,
+      "source_ko": "③ 도시개발사업 등으로 지적확정측량을 하려는 지역에 임야도를 갖춰 두는 지역의 토지가 있는 경우에는 등록전환을 하지 아니할 수 있다.",
+      "text_en": "",
+      "pre_body_fill_index": 245
+    },
+    {
+      "index": 253,
+      "source_ko": "④ 지적확정측량 방법과 절차에 대해서는 국토교통부장관이 정한다. <개정 2013. 3. 23., 2024. 12. 26.>",
+      "text_en": "",
+      "pre_body_fill_index": 246
+    },
+    {
+      "index": 254,
+      "source_ko": " 제23조(경계점좌표등록부를 갖춰 두는 지역의 측량) ① 경계점좌표등록부를 갖춰 두는 지역에 있는 각 필지의 경계점을 측정할 때에는 도선법ㆍ방사법 또는 교회법에 따라 좌표를 산출하여야 한다. 다만, 필지의 경계점이 지형ㆍ지물에 가로막혀 경위의를 사용할 수 없는 경우에는 간접적인 방법으로 경계점의 좌표를 산출할 수 있다.",
+      "text_en": "",
+      "pre_body_fill_index": 247
+    },
+    {
+      "index": 255,
+      "source_ko": "② 제1항에 따른 각 필지의 경계점 측점번호는 왼쪽 위에서부터 오른쪽으로 경계를 따라 일련번호를 부여한다.",
+      "text_en": "",
+      "pre_body_fill_index": 248
+    },
+    {
+      "index": 256,
+      "source_ko": "③ 기존의 경계점좌표등록부를 갖춰 두는 지역의 경계점에 접속하여 경위의측량방법 등으로 지적확정측량을 하는 경우 동일한 경계점의 측량성과가 서로 다를 때에는 경계점좌표등록부에 등록된 좌표를 그 경계점의 좌표로 본다. 이 경우 동일한 경계점의 측량성과의 차이는 제27조제1항제4호가목의 허용범위 이내여야 한다.",
+      "text_en": "",
+      "pre_body_fill_index": 249
+    },
+    {
+      "index": 257,
+      "source_ko": " 제24조(경계복원측량 기준 등) ① 경계점을 지표상에 복원하기 위한 경계복원측량을 하려는 경우 측량결과도에 기재된 경계점의 위치와 필지의 경계점의 위치가 부합하는지를 확인해야 한다. <신설 2024. 12. 26.>",
+      "text_en": "",
+      "pre_body_fill_index": 250
+    },
+    {
+      "index": 258,
+      "source_ko": "② 제1항에 따라 경계복원측량을 하려는 경우 경계를 지적공부에 등록할 당시 측량성과의 착오 또는 경계 오인 등의 사유로 지적공부에 경계가 잘못 등록되었다고 판단될 때에는 법 제84조제1항에 따라 등록사항을 정정한 후 측량해야 한다. <개정 2024. 12. 26.>",
+      "text_en": "",
+      "pre_body_fill_index": 251
+    },
+    {
+      "index": 259,
+      "source_ko": "③ 경계복원측량에 따라 지표상에 복원할 토지의 경계점에는 규칙 제60조제4항에 따른 경계점표지를 설치해야 한다. 다만, 건축물이 경계에 걸쳐 있거나 부득이하게 경계점표지를 설치할 수 없는 경우에는 그렇지 않다. <개정 2024. 12. 26.>",
+      "text_en": "",
+      "pre_body_fill_index": 252
+    },
+    {
+      "index": 260,
+      "source_ko": " 제25조(지적현황측량) 영 제18조에 따른 지적현황측량은 다음 각 호의 방법으로 실시한다.",
+      "text_en": "",
+      "pre_body_fill_index": 253
+    },
+    {
+      "index": 261,
+      "source_ko": "1. 지상건축물 등에 대한 측량은 지상, 지표 및 지하에 대한 현황을 지적도, 임야도에 등록된 경계와 대비하여 표시할 것",
+      "text_en": "",
+      "pre_body_fill_index": 254
+    },
+    {
+      "index": 262,
+      "source_ko": "2. 건축허가에 따라 처음으로 시공된 옹벽, 기둥 등 측량이 가능한 건축구조물에 대한 현황을 지적도, 임야도에 등록된 경계와 대비하여 표시할 것",
+      "text_en": "",
+      "pre_body_fill_index": 255
+    },
+    {
+      "index": 263,
+      "source_ko": " 제26조(세부측량성과의 작성) ① 평판측량방법으로 세부측량을 한 경우 측량결과도에 다음 각 호의 사항을 적어야 한다. 다만, 1년 이내에 작성된 경계복원측량 또는 지적현황측량결과도와 지적도, 임야도의 도곽신축 차이가 0.5밀리미터 이하인 경우에는 종전의 측량결과도에 함께 작성할 수 있다. <개정 2014. 1. 17., 2024. 12. 26.>",
+      "text_en": "",
+      "pre_body_fill_index": 256
+    },
+    {
+      "index": 264,
+      "source_ko": "1. 제17조제1항 각 호의 사항",
+      "text_en": "",
+      "pre_body_fill_index": 257
+    },
+    {
+      "index": 265,
+      "source_ko": "2. 측정점의 위치, 측량기하적 및 지상에서 측정한 거리",
+      "text_en": "",
+      "pre_body_fill_index": 258
+    },
+    {
+      "index": 266,
+      "source_ko": "3. 측량대상 토지의 토지이동 전의 지번과 지목(2개의 붉은 선으로 말소한다)",
+      "text_en": "",
+      "pre_body_fill_index": 259
+    },
+    {
+      "index": 267,
+      "source_ko": "4. 측량결과도의 제명 및 번호(연도별로 붙인다)와 도면번호",
+      "text_en": "",
+      "pre_body_fill_index": 260
+    },
+    {
+      "index": 268,
+      "source_ko": "5. 신규등록 또는 등록전환하려는 경계선 및 분할경계선",
+      "text_en": "",
+      "pre_body_fill_index": 261
+    },
+    {
+      "index": 269,
+      "source_ko": "6. 측량대상 토지의 점유현황선",
+      "text_en": "",
+      "pre_body_fill_index": 262
+    },
+    {
+      "index": 270,
+      "source_ko": "7. 측량 및 검사의 연월일, 측량자 및 검사자의 성명ㆍ소속 및 자격등급 또는 기술등급",
+      "text_en": "",
+      "pre_body_fill_index": 263
+    },
+    {
+      "index": 271,
+      "source_ko": "8. 해당 필지 및 인접 필지의 측량 연혁",
+      "text_en": "",
+      "pre_body_fill_index": 264
+    },
+    {
+      "index": 272,
+      "source_ko": "② 경위의측량방법으로 세부측량을 한 경우 측량결과도 및 측량계산부에 그 성과를 적되, 측량결과도에는 다음 각 호의 사항을 적어야 한다. <개정 2014. 1. 17., 2024. 12. 26.>",
+      "text_en": "",
+      "pre_body_fill_index": 265
+    },
+    {
+      "index": 273,
+      "source_ko": "1. 제17조제2항 각 호의 사항",
+      "text_en": "",
+      "pre_body_fill_index": 266
+    },
+    {
+      "index": 274,
+      "source_ko": "2. 측정점의 위치(측량계산부의 좌표를 전개하여 적는다), 지상에서 측정한 거리 및 방위각",
+      "text_en": "",
+      "pre_body_fill_index": 267
+    },
+    {
+      "index": 275,
+      "source_ko": "3. 측량대상 토지의 경계점 간 실측거리",
+      "text_en": "",
+      "pre_body_fill_index": 268
+    },
+    {
+      "index": 276,
+      "source_ko": "4. 측량대상 토지의 토지이동 전의 지번과 지목(2개의 붉은 색으로 말소한다)",
+      "text_en": "",
+      "pre_body_fill_index": 269
+    },
+    {
+      "index": 277,
+      "source_ko": "5. 측량결과도의 제명 및 번호(연도별로 붙인다)와 지적도의 도면번호",
+      "text_en": "",
+      "pre_body_fill_index": 270
+    },
+    {
+      "index": 278,
+      "source_ko": "6. 신규등록 또는 등록전환하려는 경계선 및 분할경계선",
+      "text_en": "",
+      "pre_body_fill_index": 271
+    },
+    {
+      "index": 279,
+      "source_ko": "7. 측량대상 토지의 점유현황선",
+      "text_en": "",
+      "pre_body_fill_index": 272
+    },
+    {
+      "index": 280,
+      "source_ko": "8. 측량 및 검사의 연월일, 측량자 및 검사자의 성명ㆍ소속 및 자격등급 또는 기술등급",
+      "text_en": "",
+      "pre_body_fill_index": 273
+    },
+    {
+      "index": 281,
+      "source_ko": "9. 해당 필지 및 인접 필지의 측량 연혁",
+      "text_en": "",
+      "pre_body_fill_index": 274
+    },
+    {
+      "index": 282,
+      "source_ko": "③제2항제3호에 따른 측량대상 토지의 경계점 간 실측거리와 경계점의 좌표에 따라 계산한 거리의 교차는  센티미터 이내여야 한다. 이 경우 L은 실측거리로서 미터단위로 표시한 수치를 말한다.",
+      "text_en": "③ The difference between the measured distance between boundary points of the land under paragraph (2)3 and the distance calculated from their coordinates shall not exceed (3 + L/10) centimeters. L is the measured distance in meters.",
+      "pre_body_fill_index": 275,
+      "body_asset_ids": [
+        "911b9f543883ad331b88d133"
+      ],
+      "body_source_node": "/법령/조문/조문단위[33]/항[3]/항내용",
+      "body_original_source": "③제2항제3호에 따른 측량대상 토지의 경계점 간 실측거리와 경계점의 좌표에 따라 계산한 거리의 교차는 <img src=\"http://www.law.go.kr/flDownload.do?flSeq=4281599\"  alt=\"img4281599\" >\n</img> 센티미터 이내여야 한다. 이 경우 L은 실측거리로서 미터단위로 표시한 수치를 말한다.",
+      "body_asset_reviewed_at": "2026-11-01T08:30:21.256354+00:00"
+    },
+    {
+      "index": 283,
+      "source_ko": "④ 전자평판측량방법으로 세부측량을 한 경우에는 제1항 본문을 준용하여 측량성과 파일을 작성하여야 한다.",
+      "text_en": "",
+      "pre_body_fill_index": 276
+    },
+    {
+      "index": 284,
+      "source_ko": "        제4절 지적측량성과의 작성 및 검사",
+      "text_en": "",
+      "pre_body_fill_index": 277
+    },
+    {
+      "index": 285,
+      "source_ko": " 제27조(지적측량성과의 결정) ① 지적측량성과와 검사 성과의 연결교차가 다음 각 호의 허용범위 이내일 때에는 그 지적측량성과에 관하여 다른 입증을 할 수 있는 경우를 제외하고는 그 측량성과로 결정하여야 한다. <개정 2024. 12. 26.>",
+      "text_en": "",
+      "pre_body_fill_index": 278
+    },
+    {
+      "index": 286,
+      "source_ko": "1. 지적삼각점: ±20센티미터",
+      "text_en": "",
+      "pre_body_fill_index": 279
+    },
+    {
+      "index": 287,
+      "source_ko": "2. 지적삼각보조점: ±25센티미터",
+      "text_en": "",
+      "pre_body_fill_index": 280
+    },
+    {
+      "index": 288,
+      "source_ko": "3. 지적도근점",
+      "text_en": "",
+      "pre_body_fill_index": 281
+    },
+    {
+      "index": 289,
+      "source_ko": "가. 경계점좌표등록부 시행지역: ±15센티미터",
+      "text_en": "",
+      "pre_body_fill_index": 282
+    },
+    {
+      "index": 290,
+      "source_ko": "나. 그 밖의 지역: ±25센티미터",
+      "text_en": "",
+      "pre_body_fill_index": 283
+    },
+    {
+      "index": 291,
+      "source_ko": "4. 경계점",
+      "text_en": "",
+      "pre_body_fill_index": 284
+    },
+    {
+      "index": 292,
+      "source_ko": "가. 경계점좌표등록부 시행지역: ±10센티미터",
+      "text_en": "",
+      "pre_body_fill_index": 285
+    },
+    {
+      "index": 293,
+      "source_ko": "나. 그 밖의 지역: ±100분의 3M센티미터(M은 축척분모). 이 경우 전자평판측량방법으로 측량하는 경우에는 ±100분의 2M센티미터로 한다.",
+      "text_en": "",
+      "pre_body_fill_index": 286
+    },
+    {
+      "index": 294,
+      "source_ko": "② 지적측량성과를 전자계산기기로 계산하였을 때에는 그 계산성과자료를 측량부 및 면적측정부로 본다.",
+      "text_en": "",
+      "pre_body_fill_index": 287
+    },
+    {
+      "index": 295,
+      "source_ko": " 제28조(지적측량성과의 검사방법 등) ① 법 제25조제1항 단서에서 “국토교통부령으로 정하는 측량의 경우”란 경계복원측량 및 지적현황측량을 하는 경우를 말한다. <개정 2013. 3. 23.>",
+      "text_en": "",
+      "pre_body_fill_index": 288
+    },
+    {
+      "index": 296,
+      "source_ko": "② 법 제25조제2항에 따른 지적측량성과의 검사방법과 검사절차는 다음 각 호와 같다. <개정 2014. 1. 17.>",
+      "text_en": "",
+      "pre_body_fill_index": 289
+    },
+    {
+      "index": 297,
+      "source_ko": "1. 지적측량수행자는 측량부ㆍ측량결과도ㆍ면적측정부, 측량성과 파일 등 측량성과에 관한 자료(전자파일 형태로 저장한 매체 또는 인터넷 등 정보통신망을 이용하여 제출하는 자료를 포함한다)를 지적소관청에 제출하여 그 성과의 정확성에 관한 검사를 받아야 한다. 다만, 지적삼각점측량성과 및 경위의측량방법으로 실시한 지적확정측량성과인 경우에는 다음 각 목의 구분에 따라 검사를 받아야 한다.",
+      "text_en": "",
+      "pre_body_fill_index": 290
+    },
+    {
+      "index": 298,
+      "source_ko": "가. 국토교통부장관이 정하여 고시하는 면적 규모 이상의 지적확정측량성과: 시ㆍ도지사 또는 대도시 시장(「지방자치법」 제175조에 따라 서울특별시ㆍ광역시 및 특별시를 제외한 인구 50만 이상 대도시의 시장을 말한다. 이하 같다):",
+      "text_en": "",
+      "pre_body_fill_index": 291
+    },
+    {
+      "index": 299,
+      "source_ko": "나. 국토교통부장관이 정하여 고시하는 면적 규모 미만의 지적확정측량성과: 지적소관청",
+      "text_en": "",
+      "pre_body_fill_index": 292
+    },
+    {
+      "index": 300,
+      "source_ko": "2. 시ㆍ도지사 또는 대도시 시장은 제1호가목에 따른 검사를 하였을 때에는 그 결과를 지적소관청에 통지하여야 한다.",
+      "text_en": "",
+      "pre_body_fill_index": 293
+    },
+    {
+      "index": 301,
+      "source_ko": "3. 지적소관청은 「건축법」 등 관계 법령에 따른 분할제한 저촉 여부 등을 판단하여 측량성과가 정확하다고 인정하면 지적측량성과도를 지적측량수행자에게 발급하여야 하며, 지적측량수행자는 측량의뢰인에게 그 지적측량성과도를 포함한 지적측량 결과부를 지체 없이 발급하여야 한다. 이 경우 검사를 받지 아니한 지적측량성과도는 측량의뢰인에게 발급할 수 없다.",
+      "text_en": "",
+      "pre_body_fill_index": 294
+    },
+    {
+      "index": 302,
+      "source_ko": "③ 지적소관청은 지적측량성과의 검사에 필요한 경우 지적측량수행자에게 해당 필지 및 인접 필지의 경계복원측량결과도 또는 지적현황측량결과도를 제공할 것을 요청할 수 있으며, 지적측량수행자는 특별한 이유가 없으면 해당 요청에 따라야 한다. <신설 2024. 12. 26.>",
+      "text_en": "",
+      "pre_body_fill_index": 295
+    },
+    {
+      "index": 303,
+      "source_ko": "④ 제2항에 따른 측량성과에 관한 자료의 제출방법 및 절차, 지적측량성과도의 작성방법 등에 관하여 필요한 사항은 국토교통부장관이 정한다. <개정 2013. 3. 23., 2014. 1. 17., 2024. 12. 26.>",
+      "text_en": "",
+      "pre_body_fill_index": 296
+    },
+    {
+      "index": 304,
+      "source_ko": "        제4장 보칙",
+      "text_en": "",
+      "pre_body_fill_index": 297
+    },
+    {
+      "index": 305,
+      "source_ko": " 제29조(문서의 서식) 이 규칙에 따른 서식은 다음 각 호와 같다.",
+      "text_en": "",
+      "pre_body_fill_index": 298
+    },
+    {
+      "index": 306,
+      "source_ko": "1. 지적삼각측량부: 별지 제1호서식",
+      "text_en": "",
+      "pre_body_fill_index": 299
+    },
+    {
+      "index": 307,
+      "source_ko": "2. 기지점방위각 및 거리 계산부: 별지 제2호서식",
+      "text_en": "",
+      "pre_body_fill_index": 300
+    },
+    {
+      "index": 308,
+      "source_ko": "3. 수평각 관측부: 별지 제3호서식",
+      "text_en": "",
+      "pre_body_fill_index": 301
+    },
+    {
+      "index": 309,
+      "source_ko": "4. 수평각개정 계산부: 별지 제4호서식",
+      "text_en": "",
+      "pre_body_fill_index": 302
+    },
+    {
+      "index": 310,
+      "source_ko": "5. 수평각 측점귀심 계산부: 별지 제5호서식",
+      "text_en": "",
+      "pre_body_fill_index": 303
+    },
+    {
+      "index": 311,
+      "source_ko": "6. 수평각 점표귀심 계산부: 별지 제6호서식",
+      "text_en": "",
+      "pre_body_fill_index": 304
+    },
+    {
+      "index": 312,
+      "source_ko": "7. 거리측정부(광파측거기): 별지 제7호서식",
+      "text_en": "",
+      "pre_body_fill_index": 305
+    },
+    {
+      "index": 313,
+      "source_ko": "8. 평면거리 계산부: 별지 제8호서식",
+      "text_en": "",
+      "pre_body_fill_index": 306
+    },
+    {
+      "index": 314,
+      "source_ko": "9. 삼각형 내각 계산부: 별지 제9호서식",
+      "text_en": "",
+      "pre_body_fill_index": 307
+    },
+    {
+      "index": 315,
+      "source_ko": "10. 연직각 관측부: 별지 제10호서식",
+      "text_en": "",
+      "pre_body_fill_index": 308
+    },
+    {
+      "index": 316,
+      "source_ko": "11. 표고 계산부: 별지 제11호서식",
+      "text_en": "",
+      "pre_body_fill_index": 309
+    },
+    {
+      "index": 317,
+      "source_ko": "12. 유심다각망(삽입망) 조정계산부: 별지 제12호서식",
+      "text_en": "",
+      "pre_body_fill_index": 310
+    },
+    {
+      "index": 318,
+      "source_ko": "13. 사각망 조정계산부: 별지 제13호서식",
+      "text_en": "",
+      "pre_body_fill_index": 311
+    },
+    {
+      "index": 319,
+      "source_ko": "14. 삼각쇄 조정계산부: 별지 제14호서식",
+      "text_en": "",
+      "pre_body_fill_index": 312
+    },
+    {
+      "index": 320,
+      "source_ko": "15. 삼각망 조정계산부: 별지 제15호서식",
+      "text_en": "",
+      "pre_body_fill_index": 313
+    },
+    {
+      "index": 321,
+      "source_ko": "16. 변장 계산부: 별지 제16호서식",
+      "text_en": "",
+      "pre_body_fill_index": 314
+    },
+    {
+      "index": 322,
+      "source_ko": "17. 종횡선 계산부: 별지 제17호서식",
+      "text_en": "",
+      "pre_body_fill_index": 315
+    },
+    {
+      "index": 323,
+      "source_ko": "18. 좌표전환 계산부(XㆍY→BㆍL): 별지 제18호서식",
+      "text_en": "",
+      "pre_body_fill_index": 316
+    },
+    {
+      "index": 324,
+      "source_ko": "19. 좌표전환 계산부(BㆍL→XㆍY): 별지 제19호서식",
+      "text_en": "",
+      "pre_body_fill_index": 317
+    },
+    {
+      "index": 325,
+      "source_ko": "20. 지적삼각점 성과표: 별지 제20호서식",
+      "text_en": "",
+      "pre_body_fill_index": 318
+    },
+    {
+      "index": 326,
+      "source_ko": "21. 지적삼각보조측량부: 별지 제21호서식",
+      "text_en": "",
+      "pre_body_fill_index": 319
+    },
+    {
+      "index": 327,
+      "source_ko": "22. 지적삼각보조점 방위각 계산부: 별지 제22호서식",
+      "text_en": "",
+      "pre_body_fill_index": 320
+    },
+    {
+      "index": 328,
+      "source_ko": "23. 교회점 계산부: 별지 제23호서식",
+      "text_en": "",
+      "pre_body_fill_index": 321
+    },
+    {
+      "index": 329,
+      "source_ko": "24. 후방교회점 계산부(2점법): 별지 제24호서식",
+      "text_en": "",
+      "pre_body_fill_index": 322
+    },
+    {
+      "index": 330,
+      "source_ko": "25. 후방교회점 계산부(3점법): 별지 제25호서식",
+      "text_en": "",
+      "pre_body_fill_index": 323
+    },
+    {
+      "index": 331,
+      "source_ko": "26. 교점다각망 계산부: 별지 제26호서식",
+      "text_en": "",
+      "pre_body_fill_index": 324
+    },
+    {
+      "index": 332,
+      "source_ko": "27. 교점다각망 계산부(XㆍY형): 별지 제27호서식",
+      "text_en": "",
+      "pre_body_fill_index": 325
+    },
+    {
+      "index": 333,
+      "source_ko": "28. 교점다각망 계산부(HㆍA형): 별지 제28호서식",
+      "text_en": "",
+      "pre_body_fill_index": 326
+    },
+    {
+      "index": 334,
+      "source_ko": "29. 다각점좌표 계산부: 별지 제29호서식",
+      "text_en": "",
+      "pre_body_fill_index": 327
+    },
+    {
+      "index": 335,
+      "source_ko": "30. 지적도근측량부: 별지 제30호서식",
+      "text_en": "",
+      "pre_body_fill_index": 328
+    },
+    {
+      "index": 336,
+      "source_ko": "31. 배각 관측 및 거리 측정부: 별지 제31호서식",
+      "text_en": "",
+      "pre_body_fill_index": 329
+    },
+    {
+      "index": 337,
+      "source_ko": "32. 방위각 관측 및 거리 측정부: 별지 제32호서식",
+      "text_en": "",
+      "pre_body_fill_index": 330
+    },
+    {
+      "index": 338,
+      "source_ko": "33. 지적도근측량 계산부(배각법): 별지 제33호서식",
+      "text_en": "",
+      "pre_body_fill_index": 331
+    },
+    {
+      "index": 339,
+      "source_ko": "34. 지적도근측량 계산부(방위각법): 별지 제34호서식",
+      "text_en": "",
+      "pre_body_fill_index": 332
+    },
+    {
+      "index": 340,
+      "source_ko": "35. 지적삼각보조(도근)점 성과표: 별지 제35호서식",
+      "text_en": "",
+      "pre_body_fill_index": 333
+    },
+    {
+      "index": 341,
+      "source_ko": "36. 경계점관측부: 별지 제36호서식",
+      "text_en": "",
+      "pre_body_fill_index": 334
+    },
+    {
+      "index": 342,
+      "source_ko": "37. 좌표면적 및 경계점간 거리 계산부: 별지 제37호서식",
+      "text_en": "",
+      "pre_body_fill_index": 335
+    },
+    {
+      "index": 343,
+      "source_ko": "38. 교차점 계산부: 별지 제38호서식",
+      "text_en": "",
+      "pre_body_fill_index": 336
+    },
+    {
+      "index": 344,
+      "source_ko": "39. 경계점좌표측량부: 별지 제39호서식",
+      "text_en": "",
+      "pre_body_fill_index": 337
+    },
+    {
+      "index": 345,
+      "source_ko": "40. 면적 측정부: 별지 제40호서식",
+      "text_en": "",
+      "pre_body_fill_index": 338
+    },
+    {
+      "index": 346,
+      "source_ko": "41. 지적측량 결과부: 별지 제41호서식",
+      "text_en": "",
+      "pre_body_fill_index": 339
+    },
+    {
+      "index": 347,
+      "source_ko": "42. 지적(경계복원ㆍ현황)측량 결과부: 별지 제42호서식",
+      "text_en": "",
+      "pre_body_fill_index": 340
+    },
+    {
+      "index": 348,
+      "source_ko": "   부      칙 <국토해양부령 제192호, 2009. 12. 14.> ",
+      "text_en": "",
+      "pre_body_fill_index": 341
+    },
+    {
+      "index": 349,
+      "source_ko": "제1조(시행일) 이 규칙은 공포한 날부터 시행한다.",
+      "text_en": "",
+      "pre_body_fill_index": 342
+    },
+    {
+      "index": 350,
+      "source_ko": "제2조(다른 법령과의 관계) 이 규칙 시행 당시 다른 법령에서 종전의 「지적법 시행규칙」 또는 그 규정을 인용한 경우에 이 규칙 가운데 그에 해당하는 규정이 있으면 종전의 규정을 갈음하여 이 규칙 또는 이 규칙의 해당 규정을 인용한 것으로 본다.",
+      "text_en": "",
+      "pre_body_fill_index": 343
+    },
+    {
+      "index": 351,
+      "source_ko": "   부      칙 <국토교통부령 제1호, 2013. 3. 23.> (국토교통부와 그 소속기관 직제 시행규칙) ",
+      "text_en": "",
+      "pre_body_fill_index": 344
+    },
+    {
+      "index": 352,
+      "source_ko": "제1조(시행일) 이 규칙은 공포한 날부터 시행한다. <단서 생략>",
+      "text_en": "",
+      "pre_body_fill_index": 345
+    },
+    {
+      "index": 353,
+      "source_ko": "제2조 부터 제5조까지 생략",
+      "text_en": "",
+      "pre_body_fill_index": 346
+    },
+    {
+      "index": 354,
+      "source_ko": "제6조(다른 법령의 개정) ①부터 <97>까지 생략",
+      "text_en": "",
+      "pre_body_fill_index": 347
+    },
+    {
+      "index": 355,
+      "source_ko": "<98> 지적측량시행규칙 일부를 다음과 같이 개정한다.",
+      "text_en": "",
+      "pre_body_fill_index": 348
+    },
+    {
+      "index": 356,
+      "source_ko": "제7조제1항제1호부터 제3호까지, 같은 조 제2항ㆍ제4항, 제17조제1항제8호, 같은 조 제2항제7호, 제18조제12항, 제22조제4항 및 제28조제3항 중 “국토해양부장관”을 각각 “국토교통부장관”으로 한다.",
+      "text_en": "",
+      "pre_body_fill_index": 349
+    },
+    {
+      "index": 357,
+      "source_ko": "제28조제1항 중 “국토해양부령”을 “국토교통부령”으로 한다.",
+      "text_en": "",
+      "pre_body_fill_index": 350
+    },
+    {
+      "index": 358,
+      "source_ko": "<99>부터 <126>까지 생략",
+      "text_en": "",
+      "pre_body_fill_index": 351
+    },
+    {
+      "index": 359,
+      "source_ko": "   부      칙 <국토교통부령 제64호, 2014. 1. 17.> ",
+      "text_en": "",
+      "pre_body_fill_index": 352
+    },
+    {
+      "index": 360,
+      "source_ko": "제1조(시행일) 이 규칙은 2014년 1월 18일부터 시행한다. 다만, 제28조제2항제1호의 개정규정은 이 규칙 시행 후 3개월이 경과한 날부터 시행한다.",
+      "text_en": "",
+      "pre_body_fill_index": 353
+    },
+    {
+      "index": 361,
+      "source_ko": "제2조(측량결과도 작성에 관한 적용례) 제26조제1항제7호 및 같은 조 제2항제8호, 별지 제41호서식 및 별지 제42호서식의 개정규정은 이 규칙 시행 후 제출하는 측량결과도부터 적용한다.",
+      "text_en": "",
+      "pre_body_fill_index": 354
+    },
+    {
+      "index": 362,
+      "source_ko": "제3조(지적삼각측량성과 및 경위의측량방법으로 실시한 지적확정측량성과 검사에 관한 경과조치) 제28조제2항제1호의 개정규정에도 불구하고 이 규칙 시행 전에 요청된 지적확정측량성과의 검사에 대해서는 종전의 규정에 따른다.",
+      "text_en": "",
+      "pre_body_fill_index": 355
+    },
+    {
+      "index": 363,
+      "source_ko": "   부      칙 <국토교통부령 제198호, 2015. 4. 23.>",
+      "text_en": "",
+      "pre_body_fill_index": 356
+    },
+    {
+      "index": 364,
+      "source_ko": "이 규칙은 2015년 6월 4일부터 시행한다. 다만, 제4조제3항의 개정규정은 공포한 날부터 시행한다.",
+      "text_en": "",
+      "pre_body_fill_index": 357
+    },
+    {
+      "index": 365,
+      "source_ko": "   부      칙 <국토교통부령 제1426호, 2024. 12. 26.> ",
+      "text_en": "",
+      "pre_body_fill_index": 358
+    },
+    {
+      "index": 366,
+      "source_ko": "제1조(시행일) 이 규칙은 공포 후 3개월이 경과한 날부터 시행한다.",
+      "text_en": "",
+      "pre_body_fill_index": 359
+    },
+    {
+      "index": 367,
+      "source_ko": "제2조(지적측량성과의 결정에 관한 경과조치) 제27조제1항제4호나목 후단의 개정규정에도 불구하고 이 규칙 시행 전에 요청된 전자평판측량방법으로 측량된 지적측량성과의 결정에 대해서는 종전의 제27조제1항제4호나목에 따른다.",
+      "text_en": "",
+      "pre_body_fill_index": 360
+    },
+    {
+      "index": 368,
+      "source_ko": "[별지 제1호서식] 지적삼각측량부 ",
+      "text_en": "",
+      "pre_body_fill_index": 361
+    },
+    {
+      "index": 369,
+      "source_ko": "[별지 제2호서식] 기지점방위각 및 거리 계산부 ",
+      "text_en": "",
+      "pre_body_fill_index": 362
+    },
+    {
+      "index": 370,
+      "source_ko": "[별지 제3호서식] 수평각관측부 ",
+      "text_en": "",
+      "pre_body_fill_index": 363
+    },
+    {
+      "index": 371,
+      "source_ko": "[별지 제4호서식] 수평각개정 계산부 ",
+      "text_en": "",
+      "pre_body_fill_index": 364
+    },
+    {
+      "index": 372,
+      "source_ko": "[별지 제5호서식] 수평각 측점귀심 계산부 ",
+      "text_en": "",
+      "pre_body_fill_index": 365
+    },
+    {
+      "index": 373,
+      "source_ko": "[별지 제6호서식] 수평각점표귀심계산부 ",
+      "text_en": "",
+      "pre_body_fill_index": 366
+    },
+    {
+      "index": 374,
+      "source_ko": "[별지 제7호서식] 거리측정부(광파측거기) ",
+      "text_en": "",
+      "pre_body_fill_index": 367
+    },
+    {
+      "index": 375,
+      "source_ko": "[별지 제8호서식] 평면거리계산부 ",
+      "text_en": "",
+      "pre_body_fill_index": 368
+    },
+    {
+      "index": 376,
+      "source_ko": "[별지 제9호서식] 삼각형내각계산부 ",
+      "text_en": "",
+      "pre_body_fill_index": 369
+    },
+    {
+      "index": 377,
+      "source_ko": "[별지 제10호서식] 연직각관측부 ",
+      "text_en": "",
+      "pre_body_fill_index": 370
+    },
+    {
+      "index": 378,
+      "source_ko": "[별지 제11호서식] 표고계산부 ",
+      "text_en": "",
+      "pre_body_fill_index": 371
+    },
+    {
+      "index": 379,
+      "source_ko": "[별지 제12호서식] [유심다각망·삽입망]조정계산부 ",
+      "text_en": "",
+      "pre_body_fill_index": 372
+    },
+    {
+      "index": 380,
+      "source_ko": "[별지 제13호서식] 사각망 조정계산부 ",
+      "text_en": "",
+      "pre_body_fill_index": 373
+    },
+    {
+      "index": 381,
+      "source_ko": "[별지 제14호서식] 삼각쇄 조정계산부 ",
+      "text_en": "",
+      "pre_body_fill_index": 374
+    },
+    {
+      "index": 382,
+      "source_ko": "[별지 제15호서식] 삼각망조정계산부 ",
+      "text_en": "",
+      "pre_body_fill_index": 375
+    },
+    {
+      "index": 383,
+      "source_ko": "[별지 제16호서식] 변장 계산부 ",
+      "text_en": "",
+      "pre_body_fill_index": 376
+    },
+    {
+      "index": 384,
+      "source_ko": "[별지 제17호서식] 종횡선 계산부 ",
+      "text_en": "",
+      "pre_body_fill_index": 377
+    },
+    {
+      "index": 385,
+      "source_ko": "[별지 제18호서식] 좌표전환 계산부(XㆍY→BㆍL) ",
+      "text_en": "",
+      "pre_body_fill_index": 378
+    },
+    {
+      "index": 386,
+      "source_ko": "[별지 제19호서식] 좌표전환계산부(BㆍL→XㆍY) ",
+      "text_en": "[Attachment Form No. 19] Coordinate Conversion Calculation Sheet (B·L→X·Y)",
+      "pre_body_fill_index": 379
+    },
+    {
+      "index": 387,
+      "source_ko": "[별지 제20호서식] 지적삼각점 성과표 ",
+      "text_en": "[Attachment Form No. 20] Cadastral Triangulation Point Results Table",
+      "pre_body_fill_index": 380
+    },
+    {
+      "index": 388,
+      "source_ko": "[별지 제21호서식] 지적삼각보조측량부 ",
+      "text_en": "[Attachment Form No. 21] Cadastral Triangulation Auxiliary Survey Register",
+      "pre_body_fill_index": 381
+    },
+    {
+      "index": 389,
+      "source_ko": "[별지 제22호서식] 지적삼각보조점 방위각 계산부 ",
+      "text_en": "[Attachment Form No. 22] Calculation Sheet for Azimuth Angle of Cadastral Auxiliary Points",
+      "pre_body_fill_index": 382
+    },
+    {
+      "index": 390,
+      "source_ko": "[별지 제23호서식] 교회점 계산부 ",
+      "text_en": "[Attachment Form No. 23] Church Store Account Book",
+      "pre_body_fill_index": 383
+    },
+    {
+      "index": 391,
+      "source_ko": "[별지 제24호서식] 후방교회점 계산부(2점법) ",
+      "text_en": "[Attachment Form No. 24] Rear Intersection Point Calculation Sheet (2-Point Method)",
+      "pre_body_fill_index": 384
+    },
+    {
+      "index": 392,
+      "source_ko": "[별지 제25호서식] 후방교회법계산부(3점법) ",
+      "text_en": "[Attachment Form No. 25] Rear Church Law Calculation Sheet (3-Point Method)",
+      "pre_body_fill_index": 385
+    },
+    {
+      "index": 393,
+      "source_ko": "[별지 제26호서식] 교점다각망계산부 ",
+      "text_en": "[Attachment Form No. 26] Intersection Polygonal Network Calculation Sheet",
+      "pre_body_fill_index": 386
+    },
+    {
+      "index": 394,
+      "source_ko": "[별지 제27호서식] 교점다각망계산부(XㆍY형) ",
+      "text_en": "[Attachment Form No. 27] Intersection Polygonal Network Calculation Sheet (X-Y Type)",
+      "pre_body_fill_index": 387
+    },
+    {
+      "index": 395,
+      "source_ko": "[별지 제28호서식] 교점다각망 계산부(HㆍA형) ",
+      "text_en": "[Attachment Form No. 28] Intersection Polygon Network Calculation Section (H·A Type)",
+      "pre_body_fill_index": 388
+    },
+    {
+      "index": 396,
+      "source_ko": "[별지 제29호서식] 다각점좌표 계산부 ",
+      "text_en": "[Attachment Form No. 29] Multi-point Coordinate Calculation Sheet",
+      "pre_body_fill_index": 389
+    },
+    {
+      "index": 397,
+      "source_ko": "[별지 제30호서식] 지적도근측량부 ",
+      "text_en": "[Attachment Form No. 30] Cadastral Survey Record",
+      "pre_body_fill_index": 390
+    },
+    {
+      "index": 398,
+      "source_ko": "[별지 제31호서식] 배각관측 및 거리측정부 ",
+      "text_en": "[Attachment Form No. 31] Angle Observation and Distance Measuring Unit",
+      "pre_body_fill_index": 391
+    },
+    {
+      "index": 399,
+      "source_ko": "[별지 제32호서식] 방위각관측 및 거리측정부 ",
+      "text_en": "[Attachment Form No. 32] Azimuth Observation and Distance Measurement Unit",
+      "pre_body_fill_index": 392
+    },
+    {
+      "index": 400,
+      "source_ko": "[별지 제33호서식] 도근측량 계산부(배각법) ",
+      "text_en": "[Attachment Form No. 33] Calculation Sheet for Traverse Survey (Angle Method)",
+      "pre_body_fill_index": 393
+    },
+    {
+      "index": 401,
+      "source_ko": "[별지 제34호서식] 지적도근측량 계산부(방위각법) ",
+      "text_en": "[Attachment Form No. 34] Cadastral Survey Calculation Sheet (Azimuth Method)",
+      "pre_body_fill_index": 394
+    },
+    {
+      "index": 402,
+      "source_ko": "[별지 제35호서식] (지적삼각보조점, 지적도근점) 성과표 ",
+      "text_en": "[Attachment Form No. 35] Results Table (Cadastral Triangulation Auxiliary Points, Cadastral Control Points)",
+      "pre_body_fill_index": 395
+    },
+    {
+      "index": 403,
+      "source_ko": "[별지 제36호서식] 경계점관측부 ",
+      "text_en": "[Attachment Form No. 36] Boundary Point Observation Sheet",
+      "pre_body_fill_index": 396
+    },
+    {
+      "index": 404,
+      "source_ko": "[별지 제37호서식] 좌표면적 및 경계점 간 거리 계산부 ",
+      "text_en": "[Attachment Form No. 37] Calculation Sheet for Coordinate Area and Distance Between Boundary Points",
+      "pre_body_fill_index": 397
+    },
+    {
+      "index": 405,
+      "source_ko": "[별지 제38호서식] 교차점 계산부 ",
+      "text_en": "[Attachment Form No. 38] Intersection Calculation Sheet",
+      "pre_body_fill_index": 398
+    },
+    {
+      "index": 406,
+      "source_ko": "[별지 제39호서식] 경계점좌표측량부 ",
+      "text_en": "[Attachment Form No. 39] Boundary Point Coordinate Survey Record",
+      "pre_body_fill_index": 399
+    },
+    {
+      "index": 407,
+      "source_ko": "[별지 제40호서식] 면적측정부 ",
+      "text_en": "[Attachment Form No. 40] Area Measurement Register",
+      "pre_body_fill_index": 400
+    },
+    {
+      "index": 408,
+      "source_ko": "[별지 제41호서식] 지적측량 결과부 ",
+      "text_en": "[Attachment Form No. 41] Cadastral Survey Results Register",
+      "pre_body_fill_index": 401
+    },
+    {
+      "index": 409,
+      "source_ko": "[별지 제42호서식] 지적(경계복원ㆍ현황)측량 결과부 ",
+      "text_en": "[Attachment Form No. 42] Cadastral (Boundary Restoration/Current Status) Survey Results Register",
+      "pre_body_fill_index": 402
+    }
+  ],
+  "body_asset_review_applied": [
+    "ff3026544d0359fd2263de61"
+  ],
+  "body_asset_reviewed_at": "2026-11-01T08:10:12.791473+00:00",
+  "body_assets_updated_at": "2026-11-01T08:32:09.436420+00:00"
+}
