@@ -1,20 +1,25 @@
 {
-  "schema": "WORKC_WHOLE_LAW_FAMILY_ASSIGNMENT_V1",
-  "assignment_id": "WF-74af28b014984ef89cb5c53beed818ee",
-  "worker": "C03",
+  "assignment_id": "S2-047e1391cd2965769b169899671f3867",
+  "claimed_at": "2026-11-06T23:44:49.686708+00:00",
+  "conversation_hash": "fa1ed7fd841e74db9b476dbe609c51dde056a32124a2b5cc5141cf14c1f63a9e",
+  "delivery_status": "INTENT_RECORDED_NO_RESEND",
+  "documents": 1,
+  "event_id": "obs-2feea335e1fb3b235507565ba7811d167cb3c40f",
+  "family_id": "F-9e498c28901d3824b0bb",
+  "job_id": "F-9e498c28901d3824b0bb",
+  "marker": "[LAW-SUPPLY-V2:S2-047e1391cd2965769b169899671f3867:C03:F-9e498c28901d3824b0bb]",
   "panel_id": "panel-03",
-  "job_id": "F-daa20f66c2fd0e818ac4",
-  "family_id": "F-daa20f66c2fd0e818ac4",
-  "title": "대한노인회 지원에 관한 법률",
-  "documents": 4,
-  "document_titles": [
-    "대한노인회 지원에 관한 법률",
-    "대한노인회 지원에 관한 법률 시행령",
-    "과태료의 부과기준(제2조 관련)",
-    "대한노인회 지원에 관한 법률 시행규칙"
-  ],
-  "unit_policy": "ACT_DECREE_RULE_ANNEX_FORMS_ONE_FAMILY",
+  "pc": "WORK-C",
+  "rows": 9,
+  "schema": "LAW_SUPPLIER_ASSIGNMENT_V2",
+  "source_blobs": {
+    "en": "dff10bab3839b236b3d5e5de741c93c8f30b6041",
+    "ko": "e35fbaea17fd94b94e1513d51d4f4e9db39caf42",
+    "zh": "f99a723b257a8b2e2c56a412a530ab79f0de014b"
+  },
+  "source_commit": "fa0e805021be154d6760e547214138f61f46811b",
   "status": "ACTIVE",
-  "claimed_at": "2026-11-06T22:21:41.840426+00:00",
-  "delivery_status": "SENT_VERIFIED"
+  "title": "대한민국과 아메리카합중국 간의 상호방위조약 제4조에 의한 시설과 구역 및 대한민국에서의 합중국 군대의 지위에 관한 협정의 시행에 관한 형사특별법",
+  "unit_policy": "ACT_DECREE_RULE_ANNEX_FORMS_ONE_FAMILY",
+  "worker": "C03"
 }
