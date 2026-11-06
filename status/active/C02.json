@@ -1,19 +1,25 @@
 {
-  "schema": "WORKC_WHOLE_LAW_FAMILY_ASSIGNMENT_V1",
-  "assignment_id": "WF-8223023f47f84093a3e9a2bb89ddfadc",
-  "worker": "C02",
+  "assignment_id": "S2-a09bfcf386a10d2af4e69b7da8d86b7a",
+  "claimed_at": "2026-11-06T23:44:37.804780+00:00",
+  "conversation_hash": "8d1f3b0ba7e511c937c1649277547ae6977d0fae9133b756d701efd56d87c8d5",
+  "delivery_status": "INTENT_RECORDED_NO_RESEND",
+  "documents": 1,
+  "event_id": "obs-c30b86c10c784d17f3f901ec19a1762d28b6c5e5",
+  "family_id": "F-df4302990a5e6f8116c9",
+  "job_id": "F-df4302990a5e6f8116c9",
+  "marker": "[LAW-SUPPLY-V2:S2-a09bfcf386a10d2af4e69b7da8d86b7a:C02:F-df4302990a5e6f8116c9]",
   "panel_id": "panel-02",
-  "job_id": "F-f0a1cac1229e584bbfda",
-  "family_id": "F-f0a1cac1229e584bbfda",
-  "title": "전통무예진흥법",
-  "documents": 3,
-  "document_titles": [
-    "전통무예진흥법",
-    "전통무예진흥법 시행령",
-    "전통무예진흥법 시행규칙"
-  ],
-  "unit_policy": "ACT_DECREE_RULE_ANNEX_FORMS_ONE_FAMILY",
+  "pc": "WORK-C",
+  "rows": 7,
+  "schema": "LAW_SUPPLIER_ASSIGNMENT_V2",
+  "source_blobs": {
+    "en": "993b6424f9e976ba2840098d2fc1a957758c2cf4",
+    "ko": "ad37f7af82b81078757f1e0a0178261772ea93d4",
+    "zh": "c30f73a107fedbace59c0988d1c94a3f887bbb3d"
+  },
+  "source_commit": "74a9ee4a95d543d03a73d0ded5f2b848ea241bcb",
   "status": "ACTIVE",
-  "claimed_at": "2026-11-06T22:21:41.836618+00:00",
-  "delivery_status": "SENT_VERIFIED"
+  "title": "국경일에 관한 법률",
+  "unit_policy": "ACT_DECREE_RULE_ANNEX_FORMS_ONE_FAMILY",
+  "worker": "C02"
 }
