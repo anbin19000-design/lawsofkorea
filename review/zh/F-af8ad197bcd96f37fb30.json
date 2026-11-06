@@ -1,0 +1,65 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-af8ad197bcd96f37fb30",
+  "worker": "C04",
+  "checked_rows": 9,
+  "edits": [
+    {
+      "id": "B1-zh-00001",
+      "target_id": "a11af13b87054b2bfc0119b4ba04996038e6b04b06616a0acbdbee2073cd115e",
+      "source_hash": "c8edbc820ac723f7a7c3d0220d280332edfa3f6c2e0bed1c69daf7c04d46334b",
+      "text": "因法院灾害引起的民事、刑事案件临时措施法",
+      "reason": "Restored court-disaster scope expressly stated in the Korean Act title."
+    },
+    {
+      "id": "B1-zh-00002",
+      "target_id": "c421600bd6ec852521cceb18ec36e9de5159a4298f0ef7b289cafb75909ae6f4",
+      "source_hash": "8caa6eecc9f4278954f38a09708261f172c6c8565f954ab4f2de4fc07315187a",
+      "text": "第一条（目的）本法旨在规定：因火灾、事变或其他灾害致使诉讼记录灭失时，使法院能够迅速处理民事、刑事诉讼案件的临时措施。\n\n",
+      "reason": "Corrected the meaning of 사변 and 멸실: the records are destroyed, rather than merely misplaced, after fire, disturbances or other disasters."
+    },
+    {
+      "id": "B1-zh-00003",
+      "target_id": "78b129dc919e1b6c9790da0bfa95747b799279bc964cd19a25ec31b786f6d6d3",
+      "source_hash": "9b7e36f812dcf334e7139da59b60e00db37fd757a1c7cd653c7b48ebc4c785b3",
+      "text": "第二条（措施程序）发生第1条所述灾害时，诉讼关系人及检察官应当在6个月内向该法院按照下列各项规定履行相应程序。\n1. 原告、申请人或上诉人：提交起诉状、申请书或上诉状的副本，以及能够证明案件仍处于法院系属状态的资料\n2. 检察官：提交关于公诉事实及维持公诉的资料\n\n",
+      "reason": "Corrected misleading requirement to file a new lawsuit: litigants and prosecutors must submit evidence and specified documents within six months; preserved both numbered duties and public prosecution meaning."
+    },
+    {
+      "id": "B1-zh-00004",
+      "target_id": "4ec8cca44d805724b5db98119523bc7579a820d4afaeb3c6b4f5dcf5e659882d",
+      "source_hash": "f733588bb799ae7d38eb694975d4ac02cc30368b9ca5af6f70a57b7703ce2cc5",
+      "text": "第三条（视为撤回及撤销）第2条规定的诉讼关系人或检察官未在该条规定的期限内履行规定程序的，视为撤回诉讼、申请或上诉，公诉则视为撤销。\n\n",
+      "reason": "Corrected consequences of missing procedures: public prosecution itself, not the indictment document, is deemed cancelled; civil actions/applications/appeals are deemed withdrawn."
+    },
+    {
+      "id": "B1-zh-00005",
+      "target_id": "e6e44182b62b90732bce68d8b8fce96681287989f881feaacd385663cb53c99a",
+      "source_hash": "3b154ec14e649807e65a0a7c2e520e5a12af6b26aa9cbd7a01cb4caec7ee62e1",
+      "text": "第四条（公告）发生第1条规定的灾害时，该法院院长应当在对该法院具有管辖权的地方法院所在地发行的日报上公告至少2次，公告第2条规定的诉讼关系人应提交的具体证明资料及提交日期。\n\n",
+      "reason": "Corrected the parties described in the statutory notice and the place and nature of the publication while retaining the two-notice minimum."
+    },
+    {
+      "id": "B1-zh-00006",
+      "target_id": "8373ec39609b11c8070f4e5391784da28516bbafe900f75aa499ed76998f9f8b",
+      "source_hash": "c97981562fcb9a533d2d6d1260bf53d1d6b95df1b4f4f38c638c902ef0638975",
+      "text": "附则 <第113号，1950年3月22日>\n\n",
+      "reason": "Corrected 부칙 heading to 附则; preserved Act number and date."
+    },
+    {
+      "id": "B1-zh-00008",
+      "target_id": "e28d1cf27560efe71b7230d558b2a577ccca97297cfbbe8774a46419dbf9fc59",
+      "source_hash": "250217fbcd7e6136f337e01fdae8efd21da0203abb207724b43cacf299ad2aba",
+      "text": "第六条 本法亦适用于本法施行前发生的法院灾害。但第2条规定的期限，自本法施行之日起为4个月。\n\n",
+      "reason": "Restored applicability to court disasters predating this Act, with a four-month period from its effective date."
+    },
+    {
+      "id": "B1-zh-00009",
+      "target_id": "44146e6a0395160367e0043053d78b5c2f6786dcd6316a66cf32da20a0262f90",
+      "source_hash": "c7bd804c4db3596992d0df086806ac4495e5779fd43cca956df8e855e6845fda",
+      "text": "附则 <第10180号，2010年3月24日>\n\n本法自公布之日起生效。",
+      "reason": "Corrected 부칙 heading; preserved Act number, date, and effective-on-promulgation rule."
+    }
+  ],
+  "status": "COMPLETE"
+}
