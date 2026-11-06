@@ -1,0 +1,87 @@
+{
+  "schema": "KIIP_GITHUB_FRESH_WORKERS_V1",
+  "pc": "WORK-C",
+  "repository": "anbin19000-design/lawsofkorea",
+  "created_at": "2026-11-06T21:25:29.581629+00:00",
+  "all_verified": true,
+  "workers": [
+    {
+      "worker": "C01",
+      "pc": "WORK-C",
+      "panel_id": "panel-01",
+      "url": "https://chatgpt.com/c/6aee4595-6f1c-83e8-94da-a8d77c2c768d",
+      "conversation_id": "6aee4595-6f1c-83e8-94da-a8d77c2c768d",
+      "title": "GitHub review ready",
+      "status": "IDLE",
+      "assistant_count": 2,
+      "bootstrap_marker": "[KIIP-GITHUB-WORKER-BOOTSTRAP:C01:20261107]",
+      "ready_text": "C01 READY",
+      "verified": true
+    },
+    {
+      "worker": "C02",
+      "pc": "WORK-C",
+      "panel_id": "panel-02",
+      "url": "https://chatgpt.com/c/6aee453a-fac0-83ee-bafe-bd0aee3c891b",
+      "conversation_id": "6aee453a-fac0-83ee-bafe-bd0aee3c891b",
+      "title": "Worker readiness confirmation",
+      "status": "IDLE",
+      "assistant_count": 2,
+      "bootstrap_marker": "[KIIP-GITHUB-WORKER-BOOTSTRAP:C02:20261107]",
+      "ready_text": "C02 READY",
+      "verified": true
+    },
+    {
+      "worker": "C03",
+      "pc": "WORK-C",
+      "panel_id": "panel-03",
+      "url": "https://chatgpt.com/c/6aee4546-2bf4-83e8-8d2d-3482f48c3817",
+      "conversation_id": "6aee4546-2bf4-83e8-8d2d-3482f48c3817",
+      "title": "C03 READY",
+      "status": "IDLE",
+      "assistant_count": 2,
+      "bootstrap_marker": "[KIIP-GITHUB-WORKER-BOOTSTRAP:C03:20261107]",
+      "ready_text": "C03 READY",
+      "verified": true
+    },
+    {
+      "worker": "C04",
+      "pc": "WORK-C",
+      "panel_id": "panel-04",
+      "url": "https://chatgpt.com/c/6aee4550-87c4-83ec-95a1-ef5f036ef515",
+      "conversation_id": "6aee4550-87c4-83ec-95a1-ef5f036ef515",
+      "title": "Bootstrap response",
+      "status": "IDLE",
+      "assistant_count": 2,
+      "bootstrap_marker": "[KIIP-GITHUB-WORKER-BOOTSTRAP:C04:20261107]",
+      "ready_text": "C04 READY",
+      "verified": true
+    },
+    {
+      "worker": "C05",
+      "pc": "WORK-C",
+      "panel_id": "panel-05",
+      "url": "https://chatgpt.com/c/6aee455c-a9f8-83ee-94ed-4e0897e9ae7c",
+      "conversation_id": "6aee455c-a9f8-83ee-94ed-4e0897e9ae7c",
+      "title": "C05 READY",
+      "status": "IDLE",
+      "assistant_count": 2,
+      "bootstrap_marker": "[KIIP-GITHUB-WORKER-BOOTSTRAP:C05:20261107]",
+      "ready_text": "C05 READY",
+      "verified": true
+    },
+    {
+      "worker": "C06",
+      "pc": "WORK-C",
+      "panel_id": "panel-06",
+      "url": "https://chatgpt.com/c/6aee4567-3ec8-83ec-9a2c-5e523a389f59",
+      "conversation_id": "6aee4567-3ec8-83ec-9a2c-5e523a389f59",
+      "title": "Confirm worker readiness",
+      "status": "IDLE",
+      "assistant_count": 2,
+      "bootstrap_marker": "[KIIP-GITHUB-WORKER-BOOTSTRAP:C06:20261107]",
+      "ready_text": "C06 READY",
+      "verified": true
+    }
+  ]
+}
