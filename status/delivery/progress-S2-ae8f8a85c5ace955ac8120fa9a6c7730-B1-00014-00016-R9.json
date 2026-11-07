@@ -1,0 +1,29 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 2,
+  "edits": [
+    {
+      "id": "B1-zh-00014",
+      "text": "第九条之二（民间部门的提案）\n① 国土交通部长官及智慧城市计划制定权人，可以面向民营企业、个人、团体及法人（包括《公共机构运营法》规定的公共机构，以下称“民营企业等”），公开征集下列事业的提案。此时地方自治团体可以与民营企业等共同提出事业提案。<2019年11月26日修订>\n1. 智慧城市建设事业\n2. 提供智慧城市服务\n3. 开发智慧城市技术\n4. 总统令规定的其他事项\n② 智慧城市计划制定权人选择依据第一款提出的事业（以下简称“民间提案事业”）的，可以依第八条制定该事业的智慧城市计划，或者依第十一条变更智慧城市计划并推进事业。\n③ 如提出民间提案事业的民营企业等属于第十二条规定的事业实施者，智慧城市计划制定权人可以将其指定为事业实施者。此时对被指定的民营企业等准用第十四条。\n④ 国土交通部长官可以支持推进民间提案事业所需的全部或部分费用。\n⑤ 民间提案事业的提案方式、选定标准、选定程序及费用支持所需事项，由总统令规定。\n\n",
+      "source_hash": "faf0315467336256600f1541e49ddb6bb729ec8f9972d6f264c2235ec5db846f",
+      "target_id": "fa079fce532af06dba11ab43353abb331d74e8c9a6fea2995123bc38a0e209ff"
+    },
+    {
+      "id": "B1-zh-00016",
+      "text": "第十一条（智慧城市计划的变更）智慧城市计划的变更，准用第八条第三款至第五款及第七款、第九条和第十条。但总统令规定的轻微事项变更不在此限。<2012年5月23日、2017年3月21日修订>\n\n第三章 智慧城市建设事业的实施等<2017年3月21日修订>\n\n",
+      "source_hash": "c99c5b7f9fb4f3e3236a003913cd087d67b8daf388352f88b05603182fc5048b",
+      "target_id": "add2d683fc39720cb37886c32f652aa593b0a7dd6fffebced2712abe43e19ca6"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "note": "R9 B1 Articles 9-2 and 11 complete comparison to Korean, restore missing paragraph 4 and correct cross-reference placement."
+}
