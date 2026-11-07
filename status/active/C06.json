@@ -1,25 +1,26 @@
 {
-  "assignment_id": "S2-60d9e8e749b17afa33c1ad417fe77493",
-  "claimed_at": "2026-11-07T03:29:17.425230+00:00",
+  "assignment_id": "S2-3a558940303d79ec0594ac9c3c14691d",
+  "claimed_at": "2026-11-07T06:15:22.314575+00:00",
   "conversation_hash": "37fe035f029698e9fb337a273ca9faef5839a8ef01c42544d69f4f2c0cae940b",
-  "delivery_status": "SENT_VERIFIED",
-  "documents": 3,
-  "event_id": "obs-b768bace3f5e7ad7ce4d9876c1bb2ef3ac3a2530",
-  "family_id": "F-d8a6bbd723f60dd1f290",
-  "job_id": "F-d8a6bbd723f60dd1f290",
-  "marker": "[LAW-SUPPLY-V2:S2-60d9e8e749b17afa33c1ad417fe77493:C06:F-d8a6bbd723f60dd1f290]",
+  "delivery_status": "INTENT_RECORDED_NO_RESEND",
+  "documents": 2,
+  "event_id": "obs-8b17fb35444c456d4d3bde9880a89ffffb3335b2",
+  "family_id": "F-8afb439b97613af9b5cf",
+  "job_id": "F-8afb439b97613af9b5cf",
+  "marker": "[LAW-SUPPLY-V2:S2-3a558940303d79ec0594ac9c3c14691d:C06:F-8afb439b97613af9b5cf]",
   "panel_id": "panel-06",
   "pc": "WORK-C",
-  "rows": 117,
+  "rows": 121,
   "schema": "LAW_SUPPLIER_ASSIGNMENT_V2",
   "source_blobs": {
-    "en": "a9a5730a4d670dda2f83011878798a88d3c166b5",
-    "ko": "8a572028a7a933023d5c6c052a0c515598375524",
-    "zh": "14449e4c762c138d7c65d8c65f43c220e8ba1f57"
+    "en": "ae63e42d5fa6e3c8164e8052ed8b5ef29f892713",
+    "ko": "c9737b334c4c01b6211ee1127fedaf203417e93f",
+    "zh": "8efcdcc80d5f4f32edaad003a066809eb6a78e73"
   },
-  "source_commit": "6ea321286c8962e5a65a7f5a964803d9a9040e8b",
+  "source_commit": "5defc1dc96b296d977125ccae3f3f09e51f5521d",
   "status": "ACTIVE",
-  "title": "친일반민족행위자 재산의 국가귀속에 관한 특별법",
+  "title": "육군3사관학교 설치법",
   "unit_policy": "ACT_DECREE_RULE_ANNEX_FORMS_ONE_FAMILY",
-  "worker": "C06"
+  "worker": "C06",
+  "write_protocol": "contents-only"
 }

@@ -1,25 +1,26 @@
 {
-  "assignment_id": "S2-d012260bfa54e3a068beb09ba55dd016",
-  "claimed_at": "2026-11-07T02:57:58.601401+00:00",
+  "assignment_id": "S2-177b4afa2e3faf7c75848b101ad457bd",
+  "claimed_at": "2026-11-07T06:15:20.414046+00:00",
   "conversation_hash": "a1c95aa54e86d152e070106d9c27b6523c1a1c53da5329d8b01d8ac9eb1acaa5",
-  "delivery_status": "SENT_VERIFIED",
+  "delivery_status": "INTENT_RECORDED_NO_RESEND",
   "documents": 3,
-  "event_id": "obs-fac9c1464be126a688368895dfa4f5cc575ae63b",
-  "family_id": "F-b05e27c8099652e8158a",
-  "job_id": "F-b05e27c8099652e8158a",
-  "marker": "[LAW-SUPPLY-V2:S2-d012260bfa54e3a068beb09ba55dd016:C02:F-b05e27c8099652e8158a]",
+  "event_id": "obs-ddf97ab31ecc60fb606c0466a183fb5cec920ea0",
+  "family_id": "F-eea324a9975ffd69e1f5",
+  "job_id": "F-eea324a9975ffd69e1f5",
+  "marker": "[LAW-SUPPLY-V2:S2-177b4afa2e3faf7c75848b101ad457bd:C02:F-eea324a9975ffd69e1f5]",
   "panel_id": "panel-02",
   "pc": "WORK-C",
-  "rows": 103,
+  "rows": 119,
   "schema": "LAW_SUPPLIER_ASSIGNMENT_V2",
   "source_blobs": {
-    "en": "fd713324288ab3c6983131d55629b522f87b6dde",
-    "ko": "2e24846a88fff582adccce71a67e708de22cd9e1",
-    "zh": "ed434a89104c67d3cefe33ae15e0ff39e866fe65"
+    "en": "8ad855fe00614a4be0916079358e76cff8ebf792",
+    "ko": "6fd79c15cd5686359b3ffee34d92fa3909d3ed92",
+    "zh": "de1bdb98f65b651b3db8fdc5ad00c96932ebdf6a"
   },
-  "source_commit": "fbeb7b78ff608ed2433caf31f1d45ff7c50b66ed",
+  "source_commit": "5defc1dc96b296d977125ccae3f3f09e51f5521d",
   "status": "ACTIVE",
-  "title": "국립해양생물자원관의 설립 및 운영에 관한 법률",
+  "title": "한국보건복지인재원법",
   "unit_policy": "ACT_DECREE_RULE_ANNEX_FORMS_ONE_FAMILY",
-  "worker": "C02"
+  "worker": "C02",
+  "write_protocol": "contents-only"
 }
