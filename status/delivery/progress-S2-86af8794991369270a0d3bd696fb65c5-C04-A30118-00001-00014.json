@@ -1,0 +1,430 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B1-01.json",
+      "blob_sha": "69fcf795c9621b125ae73864793ee4064bd4b815",
+      "document_key": "B1",
+      "rows_checked": 145,
+      "rows_corrected": 26
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "blob_sha": "aeba15bca83d7887b5e9f7ce393fba770a9b5faa",
+      "verified_rows": 12,
+      "documents": [
+        "A30118",
+        "A30120"
+      ]
+    },
+    {
+      "path": "status/delivery/verified-step-S2-86af8794991369270a0d3bd696fb65c5-C04-CHECKPOINT-166-01.json",
+      "blob_sha": "33003dbd344370d5b2cf92bb05838b92b144a7ba",
+      "status": "INTENT_NO_RESEND"
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-01.json",
+      "blob_sha": "5f92fef46a104d832b4e6944e94ab8ba7257dda1",
+      "document_key": "B2",
+      "rows_checked": 36,
+      "rows_corrected": 31
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00037-00044.json",
+      "blob_sha": "31d1e93b2b7bc2aab9430a0d4b201c246301d1c5",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00045-00052.json",
+      "blob_sha": "be37a2f05e6c47bf33ec4ea58b1d6163df4b96a1",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00053-00060.json",
+      "blob_sha": "385725a9ff5c6f74e8cb723a6fc91fbcf072d639",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00061-00072.json",
+      "blob_sha": "4573174026ca13b9d49225d71e76f10c6ab2d76f",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00073-00084.json",
+      "blob_sha": "eb20464990f1e23042b03e95a20ed243fed5c555",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00085-00104.json",
+      "blob_sha": "30ba440fd5a8c3e355e8e79c418c6c9b7adcaa9f",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00105-00124.json",
+      "blob_sha": "3fe79039feaa1febde3bcd60b4397e5a52301b9e",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00125-00144.json",
+      "blob_sha": "3fe9aed92331bbf966efeff025964f461a605d6b",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00145-00164.json",
+      "blob_sha": "ab61b90a9bc19864b55a54b55cce703f9cb22470",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 12
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00165-00184.json",
+      "blob_sha": "68f3e74081cab6a1e84a178d3404ae96facceabe",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00185-00204.json",
+      "blob_sha": "81c7f57799a8550b49975c68793c0c3de622e902",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00205-00208.json",
+      "blob_sha": "feda2b38822c3429ef5493d37b044d1e5ef9ff86",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00209-00212.json",
+      "blob_sha": "08cb0522bc3ceae21d3d76fb56b95152a08fc246",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00213-00223.json",
+      "blob_sha": "a7fecc1db30a21c0677eaf0e6696e8267404fdbd",
+      "document_key": "B2",
+      "rows_checked": 11,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00224-00224.json",
+      "blob_sha": "7ce857683229c544c015843cb5da47ec2c5ea6ed",
+      "document_key": "B2",
+      "rows_checked": 1,
+      "rows_corrected": 1
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00225-00244.json",
+      "blob_sha": "bde39fb81d1a2fe5f6acbc78ab2d929732f8cb58",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00245-00264.json",
+      "blob_sha": "52e222a297a0913cce11527a0e6db004f8de1012",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00265-00272.json",
+      "blob_sha": "ed666acab2f084c7266595060f136c7c5c4c90aa",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "preserved_preverified_ids": [
+        "A30118-zh-00029",
+        "A30118-zh-00030"
+      ]
+    }
+  ],
+  "document": {
+    "key": "A30118",
+    "kind": "별표",
+    "title": "의무경찰 선발시험 신체 및 체력기준표(제7조제4항 관련)",
+    "source_hash": "6bbdfe157c466f524b69f30a3fa5885a8bbe6aef00ca70c818b6cb984098921e",
+    "rows_checked": 14,
+    "rows_corrected": 7,
+    "document_review_state": "IN_PROGRESS"
+  },
+  "range": {
+    "first_row_id": "A30118-zh-00001",
+    "last_row_id": "A30118-zh-00014",
+    "verified_row_count": 14
+  },
+  "verified_rows": [
+    {
+      "row_id": "A30118-zh-00001",
+      "target_id": "XML:2210406",
+      "source_hash": "84c81211f6c9ccde2881b99afe2dbc11cfb7400eabfb1ca990bac9bbbaa5d89b",
+      "source_ko": "■ 의무경찰대 설치 및 운영에 관한 법률 시행령 [별표 1] <개정 2017. 7. 26.>",
+      "previous_zh": "■ 征召警察部队设立及运作法实施令[附表1]<2017年7月26日修订>",
+      "meaning_pair_id": "0271e794ddcbffc11e6853164799143ec6ea78d6c4924c51048776e001d31d3c",
+      "meaning_pair_path": "meaning/pairs/02.jsonl",
+      "meaning_pair_blob_sha": "7d00e2656772681895febe44ef22e955f9cfab10"
+    },
+    {
+      "row_id": "A30118-zh-00002",
+      "target_id": "XML:2210407",
+      "source_hash": "227958e96a5e828dbd5c01aa7b007f9f6209bdc937951171f578ecf4e3fc16b8",
+      "source_ko": "의무경찰 선발시험 신체 및 체력기준표(제7조제4항 관련)",
+      "previous_zh": "征召警察选拔考试体能标准表（与第七条第四款有关）",
+      "meaning_pair_id": "d1f27ff6da79340aa22bb3b4f0f05d4b08e09fe038a4a58a8f43f826605ba00c",
+      "meaning_pair_path": "meaning/pairs/d1.jsonl",
+      "meaning_pair_blob_sha": "2f738899b4e0b40bd94bbd64ecb5c16486a4b7be"
+    },
+    {
+      "row_id": "A30118-zh-00003",
+      "target_id": "XML:2210408",
+      "source_hash": "9eff86e2ac87887e44b4dcb3f41f2da9bebf9b7f9e30db635fbd13144ef91ef1",
+      "source_ko": "1. 신체기준",
+      "previous_zh": "1. 物理标准",
+      "meaning_pair_id": "12d788c130705b9b6e40d02bdc1074bb9d038655fd42fb940ccced4b1111b1e3",
+      "meaning_pair_path": "meaning/pairs/12.jsonl",
+      "meaning_pair_blob_sha": "5d2001ac183684283e2c263ff80f829a95067cce"
+    },
+    {
+      "row_id": "A30118-zh-00004",
+      "target_id": "XML:2210409",
+      "source_hash": "95e7eed7240cc9dbcd11dabeb8ec09d4ec08e28ecc1cf3e823b5b7ef6dd63d60",
+      "source_ko": "구 분",
+      "previous_zh": "分类",
+      "meaning_pair_id": "d23501bcef90fa4e380a696a542b654f70de695fd49a0db03531ed65c9e051bf",
+      "meaning_pair_path": "meaning/pairs/d2.jsonl",
+      "meaning_pair_blob_sha": "26008b0523a7828d7ca2419c9482b73f4f00bafc"
+    },
+    {
+      "row_id": "A30118-zh-00005",
+      "target_id": "XML:2210410",
+      "source_hash": "cf72149c06c6b87ad8a84107cefcac3ab26ba371837bc940c9fe98729c4c33a7",
+      "source_ko": "기 준",
+      "previous_zh": "标准",
+      "meaning_pair_id": "bcfb89044c73081b39048f524135f42d517f707b42ba1df2dda9809a11ac52ac",
+      "meaning_pair_path": "meaning/pairs/bc.jsonl",
+      "meaning_pair_blob_sha": "cbaa3467d039f4deda9bf0b9a3b254cbfd9f6e67"
+    },
+    {
+      "row_id": "A30118-zh-00006",
+      "target_id": "XML:2210411",
+      "source_hash": "9b2738bf05952604aab672bfe7e019d8500096dfa9a3df1d0274bf19fc79a2ea",
+      "source_ko": "체 격",
+      "previous_zh": "体格",
+      "meaning_pair_id": "95cfded51b49643ff2e81cab8e298e14c1c912f548ef1115a4b674184d2d0fd4",
+      "meaning_pair_path": "meaning/pairs/95.jsonl",
+      "meaning_pair_blob_sha": "385874a8b1a6183e658efad2dbc3b5788ce07cc8"
+    },
+    {
+      "row_id": "A30118-zh-00007",
+      "target_id": "XML:2210412",
+      "source_hash": "84e1d1e53b335cfe826416b9e423b5d30352caa7b7224af60c9ecd5e5dc06502",
+      "source_ko": "체격이 강건하고 팔ㆍ다리가 완전하며, 가슴ㆍ배ㆍ입ㆍ구강ㆍ내장",
+      "previous_zh": "体格健壮，四肢完整，胸部、腹部、口腔、内脏器官",
+      "meaning_pair_id": "e26d9142475f1a9cc919e39a4f8b40c8a6882a69e55f674b112994d5778dcc5c",
+      "meaning_pair_path": "meaning/pairs/e2.jsonl",
+      "meaning_pair_blob_sha": "80bb813e575ee415b1f1fc2a16dfe74eb39f59a7"
+    },
+    {
+      "row_id": "A30118-zh-00008",
+      "target_id": "XML:2210414",
+      "source_hash": "2294cf178689378be531148b1485ec87516768ed952b175363b23d780101eeb4",
+      "source_ko": "시 력",
+      "previous_zh": "视觉",
+      "meaning_pair_id": "5d0355d1fd1565049771a8763dc0e214d4175279aad1117049286c6036f172ff",
+      "meaning_pair_path": "meaning/pairs/5d.jsonl",
+      "meaning_pair_blob_sha": "a52c253ac0281f3e92473f606dd48e8b7a9b42e8"
+    },
+    {
+      "row_id": "A30118-zh-00009",
+      "target_id": "XML:2210415",
+      "source_hash": "4a8edbbc8fc13a9915752b1dad41f0160e20c75250032e89eb4915cea8e28e9f",
+      "source_ko": "시력(교정시력을 포함한다)은 양쪽 눈이 각각 0.8 이상인 사람",
+      "previous_zh": "双眼视力（包括矫正视力）均达到或超过 0.8 的人士",
+      "meaning_pair_id": "429650e8a242129df56b2ec0c52f852843bd95dffb94b42821f6e2dcbdd3fd57",
+      "meaning_pair_path": "meaning/pairs/42.jsonl",
+      "meaning_pair_blob_sha": "bfbc5c5db26145e31149cacc03c90d4fc42550c6"
+    },
+    {
+      "row_id": "A30118-zh-00010",
+      "target_id": "XML:2210416",
+      "source_hash": "fbd48681541f7f52cf00d7771b52aee3260775e620b77acfa581a1ab6b434a3b",
+      "source_ko": "색 신",
+      "previous_zh": "颜色 新",
+      "meaning_pair_id": "844062c83259313a493e1e48610670149494dc51d9a50bf85853b5c30db60ab1",
+      "meaning_pair_path": "meaning/pairs/84.jsonl",
+      "meaning_pair_blob_sha": "f0a1c9d5b634fd5e707358dc353a0aa6f63a116b"
+    },
+    {
+      "row_id": "A30118-zh-00011",
+      "target_id": "XML:2210417",
+      "source_hash": "efcfd8820291584423d924e6f1ac94e59cbbef6a9e6ade3f059de1ecd7659742",
+      "source_ko": "색맹이 아닌 사람",
+      "previous_zh": "非色盲人士",
+      "meaning_pair_id": "90e3951fa26c3f098298f2eaf1b81d2ef2489ed232f704dccc520ca4fafb4f0a",
+      "meaning_pair_path": "meaning/pairs/90.jsonl",
+      "meaning_pair_blob_sha": "8b2befd86875e1dcf046fb742549535e30707e6e"
+    },
+    {
+      "row_id": "A30118-zh-00012",
+      "target_id": "XML:2210418",
+      "source_hash": "f4ce5c861faab87e9e4230d31a562e534d464db5da56f486865b8aa8a9dbe76c",
+      "source_ko": "청 력",
+      "previous_zh": "听证会",
+      "meaning_pair_id": "8c3b4e1fcc597ce87ef2efb600e79e8460995ba65af418f4614a16afb8f1e1db",
+      "meaning_pair_path": "meaning/pairs/8c.jsonl",
+      "meaning_pair_blob_sha": "1ecee9083f5ecf2ed4a8193cb9360745d0963722"
+    },
+    {
+      "row_id": "A30118-zh-00013",
+      "target_id": "XML:2210419",
+      "source_hash": "a79b7dc2580270c9aebe2115e2d3ca866b061c7c327f7eb3e2fe5f3014843447",
+      "source_ko": "청력이 완전한 사람",
+      "previous_zh": "听力完全正常的人",
+      "meaning_pair_id": "24fcba102b528179ddc74dccb75427ba5eae37a2e0eea64a2b8aae7256ff8893",
+      "meaning_pair_path": "meaning/pairs/24.jsonl",
+      "meaning_pair_blob_sha": "3435445500ba570f8bf92c728f656af1b37fb451"
+    },
+    {
+      "row_id": "A30118-zh-00014",
+      "target_id": "XML:2210420",
+      "source_hash": "409e4e327334696ede4ff84f933dad89cd61199ad23b6e5a532e0f144688f386",
+      "source_ko": "혈 압",
+      "previous_zh": "血压",
+      "meaning_pair_id": "0c3ba89fc78c884e03e3f3e80bbab3fdbe7affd012a127f6cb2360b4b8d598cc",
+      "meaning_pair_path": "meaning/pairs/0c.jsonl",
+      "meaning_pair_blob_sha": "be1c90cbce2102fc7bc0e525c9a5bdb69616b157"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "A30118-zh-00001",
+      "target_id": "XML:2210406",
+      "source_hash": "84c81211f6c9ccde2881b99afe2dbc11cfb7400eabfb1ca990bac9bbbaa5d89b",
+      "source_ko": "■ 의무경찰대 설치 및 운영에 관한 법률 시행령 [별표 1] <개정 2017. 7. 26.>",
+      "previous_zh": "■ 征召警察部队设立及运作法实施令[附表1]<2017年7月26日修订>",
+      "meaning_pair_id": "0271e794ddcbffc11e6853164799143ec6ea78d6c4924c51048776e001d31d3c",
+      "meaning_pair_path": "meaning/pairs/02.jsonl",
+      "meaning_pair_blob_sha": "7d00e2656772681895febe44ef22e955f9cfab10",
+      "corrected_zh": "■ 《义务警察部队设立及运营法施行令》[附表1] <2017年7月26日修订>",
+      "reason": "신체/체력 기준표의 용어, 색신·청력, 법령명 및 항목 누락·오역 교정."
+    },
+    {
+      "row_id": "A30118-zh-00002",
+      "target_id": "XML:2210407",
+      "source_hash": "227958e96a5e828dbd5c01aa7b007f9f6209bdc937951171f578ecf4e3fc16b8",
+      "source_ko": "의무경찰 선발시험 신체 및 체력기준표(제7조제4항 관련)",
+      "previous_zh": "征召警察选拔考试体能标准表（与第七条第四款有关）",
+      "meaning_pair_id": "d1f27ff6da79340aa22bb3b4f0f05d4b08e09fe038a4a58a8f43f826605ba00c",
+      "meaning_pair_path": "meaning/pairs/d1.jsonl",
+      "meaning_pair_blob_sha": "2f738899b4e0b40bd94bbd64ecb5c16486a4b7be",
+      "corrected_zh": "义务警察选拔考试身体及体能标准表（与第七条第四款有关）",
+      "reason": "신체/체력 기준표의 용어, 색신·청력, 법령명 및 항목 누락·오역 교정."
+    },
+    {
+      "row_id": "A30118-zh-00003",
+      "target_id": "XML:2210408",
+      "source_hash": "9eff86e2ac87887e44b4dcb3f41f2da9bebf9b7f9e30db635fbd13144ef91ef1",
+      "source_ko": "1. 신체기준",
+      "previous_zh": "1. 物理标准",
+      "meaning_pair_id": "12d788c130705b9b6e40d02bdc1074bb9d038655fd42fb940ccced4b1111b1e3",
+      "meaning_pair_path": "meaning/pairs/12.jsonl",
+      "meaning_pair_blob_sha": "5d2001ac183684283e2c263ff80f829a95067cce",
+      "corrected_zh": "1. 身体标准",
+      "reason": "신체/체력 기준표의 용어, 색신·청력, 법령명 및 항목 누락·오역 교정."
+    },
+    {
+      "row_id": "A30118-zh-00007",
+      "target_id": "XML:2210412",
+      "source_hash": "84e1d1e53b335cfe826416b9e423b5d30352caa7b7224af60c9ecd5e5dc06502",
+      "source_ko": "체격이 강건하고 팔ㆍ다리가 완전하며, 가슴ㆍ배ㆍ입ㆍ구강ㆍ내장",
+      "previous_zh": "体格健壮，四肢完整，胸部、腹部、口腔、内脏器官",
+      "meaning_pair_id": "e26d9142475f1a9cc919e39a4f8b40c8a6882a69e55f674b112994d5778dcc5c",
+      "meaning_pair_path": "meaning/pairs/e2.jsonl",
+      "meaning_pair_blob_sha": "80bb813e575ee415b1f1fc2a16dfe74eb39f59a7",
+      "corrected_zh": "体格健壮，四肢完整，胸部、腹部、口部、口腔和内脏均无疾病的人员",
+      "reason": "한국어 별표의 다음 줄에 이어지는 '의 질환이 없는 사람' 누락과 체격 기준의 원문 의미 복구."
+    },
+    {
+      "row_id": "A30118-zh-00008",
+      "target_id": "XML:2210414",
+      "source_hash": "2294cf178689378be531148b1485ec87516768ed952b175363b23d780101eeb4",
+      "source_ko": "시 력",
+      "previous_zh": "视觉",
+      "meaning_pair_id": "5d0355d1fd1565049771a8763dc0e214d4175279aad1117049286c6036f172ff",
+      "meaning_pair_path": "meaning/pairs/5d.jsonl",
+      "meaning_pair_blob_sha": "a52c253ac0281f3e92473f606dd48e8b7a9b42e8",
+      "corrected_zh": "视力",
+      "reason": "신체/체력 기준표의 용어, 색신·청력, 법령명 및 항목 누락·오역 교정."
+    },
+    {
+      "row_id": "A30118-zh-00010",
+      "target_id": "XML:2210416",
+      "source_hash": "fbd48681541f7f52cf00d7771b52aee3260775e620b77acfa581a1ab6b434a3b",
+      "source_ko": "색 신",
+      "previous_zh": "颜色 新",
+      "meaning_pair_id": "844062c83259313a493e1e48610670149494dc51d9a50bf85853b5c30db60ab1",
+      "meaning_pair_path": "meaning/pairs/84.jsonl",
+      "meaning_pair_blob_sha": "f0a1c9d5b634fd5e707358dc353a0aa6f63a116b",
+      "corrected_zh": "色觉",
+      "reason": "신체/체력 기준표의 용어, 색신·청력, 법령명 및 항목 누락·오역 교정."
+    },
+    {
+      "row_id": "A30118-zh-00012",
+      "target_id": "XML:2210418",
+      "source_hash": "f4ce5c861faab87e9e4230d31a562e534d464db5da56f486865b8aa8a9dbe76c",
+      "source_ko": "청 력",
+      "previous_zh": "听证会",
+      "meaning_pair_id": "8c3b4e1fcc597ce87ef2efb600e79e8460995ba65af418f4614a16afb8f1e1db",
+      "meaning_pair_path": "meaning/pairs/8c.jsonl",
+      "meaning_pair_blob_sha": "1ecee9083f5ecf2ed4a8193cb9360745d0963722",
+      "corrected_zh": "听力",
+      "reason": "신체/체력 기준표의 용어, 색신·청력, 법령명 및 항목 누락·오역 교정."
+    }
+  ],
+  "validation": {
+    "row_ids_unique": true,
+    "source_hashes_match": true,
+    "korean_pair_ids_resolved": true,
+    "linked_meaning_pair_evidence": true,
+    "annex_table_continuation_reviewed": true,
+    "preverified_29_30_preserved": true,
+    "total_cumulative_checked_rows": 443
+  },
+  "next_step": "Continue A30118 15-28, then skip preverified 29/30 and check 31-38."
+}
