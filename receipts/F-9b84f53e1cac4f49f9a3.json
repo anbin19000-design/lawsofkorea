@@ -1,0 +1,8 @@
+{
+  "job_id": "F-9b84f53e1cac4f49f9a3",
+  "worker": "C02",
+  "checked_rows": 170,
+  "corrected_rows": 84,
+  "status": "COMPLETE",
+  "note": "Completed full GitHub Chinese review for 협동연구개발촉진법 family on main against unmodified baseline 2a3799a3ba9dc5a8a78e911be2e1d40e2a6c0971. Scope: Act B1 87 rows (21 corrected), Enforcement Decree B2 38 rows (18 corrected), research-personnel annex A30866 45 rows (45 corrected). Total 170 checked and 84 unique corrected original row IDs, all nonblank. Inspected official English decree and earlier-version Act references and the 45 annex meaning/pairs entries. Fixed collaboration/research terminology, omitted clause markers, staffing and member thresholds, dispatch and leave rules, priority support, support-organization criteria, decree references, annex technical credentials and experience periods, and exclusions from eligible research personnel. Preexisting Chinese draft row B2-zh-00038 had a source span running beyond the decree into duplicate annex text; its correction contains only Korean decree addendum wording, while the annex is retained and corrected under its 45 distinct existing IDs. This preexisting span anomaly was not written back into laws/*. Korean, Chinese and English source files unchanged. GitHub review storage is separate from operational database publication."
+}
