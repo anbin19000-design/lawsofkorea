@@ -1,0 +1,10 @@
+{
+  "worker": "C01",
+  "job_id": "F-c1db9f2d11e9a051e9db",
+  "assignment_id": "S2-4206a1f458527bd3b6f1d7cbe4168ad3",
+  "status": "INTENT_NO_RESEND",
+  "url": "https://chatgpt.com/c/6aef487e-a8c8-83e8-ba56-b15b82a121e9",
+  "prompt": "[LAW-SUPPLY-V2:S2-4206a1f458527bd3b6f1d7cbe4168ad3:C01:F-c1db9f2d11e9a051e9db] [LAW-VERIFIED-ACTION:C01-CHECKPOINT-ID-A25758-18]\n저장소: anbin19000-design/lawsofkorea\n브랜치: main\n법령가족: 항만 재개발 및 주변지역 발전에 관한 법률\nJob ID: F-c1db9f2d11e9a051e9db\nA25758 1~18행까지의 저장을 확인했습니다. 이전 지시는 수신됐습니다. 기존 중간파일 다수의 assignment_id가 잘려 있으므로, 원본 해시·워커·job과 행 ID를 확인하여 실제 같은 배정의 구간을 전체 assignment_id로 새 인계 색인에 연결하십시오. 저장된 검수문을 반복하거나 덮어쓰지 마십시오. A25758 19행 이후 첫 미검수 구간부터 현재 Chat에서 계속 직접 검수하고 고유 구간별 GitHub Contents API 저장·재조회를 진행하십시오. 사용자 STOP, 원문 변경, 권한·안전·승인·한도 보류를 보존하고 전체 검증 전 COMPLETE를 기록하지 마십시오.",
+  "prompt_sha256": "0dfe50393af1a045223ebfbf3496f73bfe4ec32b09eada36a7a6c31b529a8b06",
+  "created_at": "2026-11-07T18:24:43.407150+00:00"
+}
