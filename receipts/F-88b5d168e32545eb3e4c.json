@@ -1,0 +1,8 @@
+{
+  "job_id": "F-88b5d168e32545eb3e4c",
+  "worker": "C05",
+  "checked_rows": 187,
+  "corrected_rows": 74,
+  "status": "COMPLETE",
+  "note": "C05 completed full Chinese legal review of four assigned documents against authoritative Korean at base commit f3bb68038c20b340c1307b716fc172ea00cadf06. Counts: Act 89 checked/17 corrections; Enforcement Decree 44/13; attached table on total quantity/sales limits 33/33; inspector ID form 21/11. Verified 187 unique source row IDs and 74 nonempty distinct edited row texts in LAW_ZH_MINIMAL_REVIEW_V1. Corrected untranslated Korean in decree Article 9, corrupted item labels, omitted legal qualifiers, contribution rates (35/10,000 and maximum 40% reduction of base rate), the KRW 10 billion installment threshold, attached-table 7% and 4% sales-total adjustments, truncated annex phrases, form certification, and the duplicate appended annex after the last decree supplemental provision. Read one linked official English fallback and 53 referenced meaning pairs from 46 GitHub meaning/pairs files; none of the four indexed documents had a reviewed/en reference. Source Korean/Chinese blobs are unchanged (ko: 28c1efb56721dc17c433fa99a266f527c7e1f7a4; zh: 28908faaca88d3a56e6cc12bb9aa06f042d50360). Preserved source printed 55mm×80m measurement without silently changing it. Persisted review file: review/zh/F-88b5d168e32545eb3e4c.json (blob SHA 9d93aa1bae91a15d969e9ad24c0cd145dc8dc6f3, commit 984789f5d5fe88b5b5018cc98730cf3604bbf906). No laws/* edits. Operational database ingestion is separate."
+}
