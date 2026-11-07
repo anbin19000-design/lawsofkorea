@@ -1,0 +1,45 @@
+{
+  "schema": "LAW_ZH_IN_PROGRESS_REVIEW_V1",
+  "job_id": "F-69d9e2651808803c4773",
+  "worker": "C05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_commit": "2bf6ebdc1974eb43100aa2ab00e7f7e7fd09e094",
+  "ko_blob_sha": "111519dd32bb33a661576be45b72c6b8e535cbb4",
+  "zh_blob_sha": "3c62ee9db18e00e56fab07bbcc3f8d47bbf0b528",
+  "en_blob_sha": "472b93f92f9acf1f4104ce1792d7eb5bb83981a4",
+  "checked_rows": 4,
+  "checked_row_ids": [
+    "B2-zh-00146",
+    "B2-zh-00147",
+    "B2-zh-00148",
+    "B2-zh-00149"
+  ],
+  "edits": [
+    {
+      "id": "B2-zh-00146",
+      "source_hash": "bb5235601068b4657967850d6372f2a7f96b2023db9f4c8545a26c4012ab7211",
+      "target_id": "e0e836c152f5aa896321315a152aa7d3f017a4d0e628d48855339629080aa431",
+      "text": "第六十三条（罚款的征收标准）依照本法第七十五条规定的罚款征收标准，见附表2。<2020年8月4日、2023年9月12日修订>\n\n"
+    },
+    {
+      "id": "B2-zh-00147",
+      "source_hash": "c8d7b2cf35f67b316f30588c7562f7f69eaaccf92ab54d4a2efcc949f030540c",
+      "target_id": "2312abb3ddc6b43fdeaa00ad0c2570346524bd7bfe0f29c0330e4f60ef4cbff8",
+      "text": "附则 <第23169号，2011年9月29日>\n\n"
+    },
+    {
+      "id": "B2-zh-00148",
+      "source_hash": "bbcbe05975222bb3d1cf24470d06e7d3300d6a4eae7062b39096bab2114eeb07",
+      "target_id": "2665cbcf4c45b2442fabef0b2255fc3dc260e59f5f2f06680b33d7423190baf5",
+      "text": "第一条（施行日期）本施行令自2011年9月30日起施行。但第二十条及附表2第2项第（子）目自2012年3月30日起施行。\n\n"
+    },
+    {
+      "id": "B2-zh-00149",
+      "source_hash": "72c8b76e352897a21f24acd941e15ae6ddb16b91fd09b3e4ef4de003878ca665",
+      "target_id": "c2e7c4c2990b35792f5d1835854446abdf9adb0c9fb35268f617bca329c59ca3",
+      "text": "第二条（废止其他法令）废止《公共机构个人信息保护相关法律施行令》。\n\n"
+    }
+  ],
+  "note": "B2 rows 146-149: Korean original checked; corrected administrative fine terminology, annex cross-reference and decree title. Prior saved checkpoints through B2 145 preserved. Family not complete."
+}
