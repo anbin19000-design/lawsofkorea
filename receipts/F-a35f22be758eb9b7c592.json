@@ -1,0 +1,8 @@
+{
+  "job_id": "F-a35f22be758eb9b7c592",
+  "worker": "C02",
+  "checked_rows": 184,
+  "corrected_rows": 142,
+  "status": "COMPLETE",
+  "note": "Reviewed complete economic education support law family (경제교육지원법) against unchanged Korean source at GitHub main baseline 0f2f6160c626fd3c756c2de0cfb179dcb5a037d9. Scope: Act B1 32 rows/17 corrected, Enforcement Decree B2 27/17, annex on revocation and business suspension A36524 51/47, regional economic education center designation application form A36525 61/49, designation certificate A36526 13/12. Total 184 checked, 142 distinct nonblank original-row-ID corrections. Checked official English references for Act and Decree, annex/form Korean texts, and all 88 referenced GitHub meaning/pairs file paths (119 annex/form reference matches; 6 form fragments lack an English pair and were reviewed against Korean). Corrected missing paragraphs, article cross-references, delegation and appointment wording, personnel/committee rules, designation eligibility and application forms, administrative sanction table and mitigation thresholds (one-half, two to six months), 2025 ministry renaming, and untranslated or malformed form fields. Preexisting Chinese draft row B2-zh-00027 extends beyond the decree Korean-source span and duplicates the annex; its review correction retains only the decree addendum; annex and forms stay in their own 125 original row IDs. Review JSON was created and independently checked before this separate receipt commit. No modification of laws/ko, laws/zh, or laws/en; review storage is distinct from operational database publication."
+}
