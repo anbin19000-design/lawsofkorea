@@ -1,0 +1,88 @@
+{
+  "schema": "LAW_ZH_PARTIAL_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A39475",
+  "range": {
+    "first": "A39475-zh-00016",
+    "last": "A39475-zh-00029"
+  },
+  "checked_rows": 14,
+  "corrected_rows": 14,
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "edits": [
+    {
+      "id": "A39475-zh-00016",
+      "source_hash": "d134508cb6424e422f22d54901c11bc56cb2a293e124300ada714fc684537816",
+      "text": "丁. 依《律师法》第四条取得律师资格，"
+    },
+    {
+      "id": "A39475-zh-00017",
+      "source_hash": "15adac939c72b3d3c63e5b3440c501aed8a0c24b4c234a32b2ff63dffbff96bd",
+      "text": "从事社会福利或者人权领域相关工作满三年"
+    },
+    {
+      "id": "A39475-zh-00018",
+      "source_hash": "fc6b864d8e01ba8e79c3465b80dc479349f49e2227e9ede2c658ed162e4af6d3",
+      "text": "的人。"
+    },
+    {
+      "id": "A39475-zh-00019",
+      "source_hash": "558acb17ce5dede064fac7c7dc6d702c7dfd6d92de656c775f4518f63cc0b12f",
+      "text": "戊. 在法学、社会学、社会福利学、女性学或者其他类似领域"
+    },
+    {
+      "id": "A39475-zh-00020",
+      "source_hash": "c0bf0ad16fc8843177d00171dc700332a3a6700333770e9bd07664b397a57378",
+      "text": "取得博士学位，并从事社会福利或者人权领域"
+    },
+    {
+      "id": "A39475-zh-00021",
+      "source_hash": "f39f1179a75d00bbbc54743ebf709fadb8887c9cba5d42c7f753d8e5c927f6d8",
+      "text": "相关工作满五年的人。"
+    },
+    {
+      "id": "A39475-zh-00022",
+      "source_hash": "ec24507f1b2bb4ef02fb7afb7ba0b19e3cde59a09df5a9879dfb863d3727801c",
+      "text": "己. 在法学、社会学、社会福利学、女性学或者其他类似领域"
+    },
+    {
+      "id": "A39475-zh-00023",
+      "source_hash": "30044a640c4b0a51664b736defdb446b78b1234119e8056e4060bad56a0a6b69",
+      "text": "取得硕士学位，并从事社会福利或者人权领域"
+    },
+    {
+      "id": "A39475-zh-00024",
+      "source_hash": "4675dbc6a7bcbf2beb1e7a03a61232cf96ece10461677d134e32685641d69aa8",
+      "text": "相关工作满七年的人。"
+    },
+    {
+      "id": "A39475-zh-00025",
+      "source_hash": "a95f07fd4e05e801e370212045e43a8a982a510cd60487fc6432dafdc5e37197",
+      "text": "庚. 在《高等教育法》第二条规定的学校，取得法学、社会学、社会福利学、"
+    },
+    {
+      "id": "A39475-zh-00026",
+      "source_hash": "72a6cb4c1d9560a813d0a7f573b479a64993e8d68aa8463a1ff1f3edbc7de783",
+      "text": "女性学或者其他类似领域的学士学位"
+    },
+    {
+      "id": "A39475-zh-00027",
+      "source_hash": "791be02d3e8186c0c8f0ba586e3f736a56ed798d52b762d03aa4d5aeb3e4a64c",
+      "text": "或者专科学士学位的人（包括依法被认定具备同等学历的人），"
+    },
+    {
+      "id": "A39475-zh-00028",
+      "source_hash": "3b3b9f836428b43a7b9ece96479da3e2c4efd69752203824ad8c0d85688d3f14",
+      "text": "从事社会福利或者"
+    },
+    {
+      "id": "A39475-zh-00029",
+      "source_hash": "3fefb99ed0bebe16d40b7b48179fc8a19f8ca7cb3a9255c6f13001e9d1be6aed",
+      "text": "人权领域相关工作满九年的人。"
+    }
+  ],
+  "note": "Compared row fragments of Annex 2 head qualification criteria against contiguous Korean table: lawyer three years, doctoral five years, master's seven years, bachelor's/associate nine years. Corrected mixed-up qualifications and work experience, and removed stray END in row 28."
+}
