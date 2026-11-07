@@ -1,0 +1,293 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30125-00015-00028.json",
+      "blob_sha": "0e7b791f205fd0e7ac5c41dd1e26f6d34fa21c48",
+      "document_key": "A30125",
+      "rows_checked": 14,
+      "rows_corrected": 13
+    }
+  ],
+  "document": {
+    "key": "A30126",
+    "kind": "서식",
+    "title": "(부상, 질병) 확인서",
+    "source_hash": "0890e3c86a84b90ed69dbcb70250e9b2caa1b0c6657c704965646eba4f63dcbe",
+    "rows_checked": 16,
+    "rows_corrected": 11,
+    "document_review_state": "IN_PROGRESS"
+  },
+  "range": {
+    "first_row_id": "A30126-zh-00001",
+    "last_row_id": "A30126-zh-00016",
+    "verified_row_count": 16
+  },
+  "verified_rows": [
+    {
+      "row_id": "A30126-zh-00001",
+      "target_id": "XML:2210703",
+      "source_hash": "a4ce6556a9455e37a4de2bcb8d9c1e4bc5b8e414fe48fbe99e1cfe846de593a9",
+      "source_ko": "■ 의무경찰대 설치 및 운영에 관한 법률 시행령 [별지 제6호서식] <개정 2015.11.20.>",
+      "previous_zh": "■ 征召警察部队设立及运作法实施令[附件表格6] <2015年11月20日修订>",
+      "meaning_pair_id": "a2fa4106b0d786c29930bfe4882ca660df3c0286e5fb008056a95f77f841b113",
+      "source_basis": "authoritative Korean full form and meaning pairs"
+    },
+    {
+      "row_id": "A30126-zh-00002",
+      "target_id": "XML:2210704",
+      "source_hash": "f1516bb11308206e89c4ba49fb733d7068de3c48e1b74037be91acbcf28c2404",
+      "source_ko": "[ ]부상",
+      "previous_zh": "[ ]受伤",
+      "meaning_pair_id": "941228748286d103903235c8642de36acacfa9894e78eceac8dfd7ff758dc2e6",
+      "source_basis": "authoritative Korean full form and meaning pairs"
+    },
+    {
+      "row_id": "A30126-zh-00003",
+      "target_id": "XML:2210705",
+      "source_hash": "b07cfe241898eebc955059cbb92d09be271804dde2f6510012e51e6ff29a3019",
+      "source_ko": "확인서",
+      "previous_zh": "确认",
+      "meaning_pair_id": "69609b664c2a59bee7d344ecfe68a0a7edf420ffa728477dd8e59826cdaea4b7",
+      "source_basis": "authoritative Korean full form and meaning pairs"
+    },
+    {
+      "row_id": "A30126-zh-00004",
+      "target_id": "XML:2210706",
+      "source_hash": "10f378412eab47df3fed2c66a12ade7426eecefb6b56f17144a395afdecca317",
+      "source_ko": "[ ]질병",
+      "previous_zh": "[ ]疾病",
+      "meaning_pair_id": "dbbda896844b3af258cd5b70bc00383c28fff842bbaee2ff82cdb3d31020c9e3",
+      "source_basis": "authoritative Korean full form and meaning pairs"
+    },
+    {
+      "row_id": "A30126-zh-00005",
+      "target_id": "XML:2210707",
+      "source_hash": "0e9e3ce22b201f1c886d2a36e02844b6ee3ff73f362055d9c963932b4cb6229f",
+      "source_ko": "부상",
+      "previous_zh": "损伤",
+      "meaning_pair_id": "944e24ec62021055d4e8387bd123fdeb32cef130a57218d14f58aa800b8d9ffd",
+      "source_basis": "authoritative Korean full form and meaning pairs"
+    },
+    {
+      "row_id": "A30126-zh-00006",
+      "target_id": "XML:2210708",
+      "source_hash": "01603d13dd6590d7676446f682aed959803754281fa23ce912d6c1bf93cbcb15",
+      "source_ko": "소속",
+      "previous_zh": "隶属关系",
+      "meaning_pair_id": "16b862d8f6ce2c7ae0405cefc94dd784ad669fd99b6f3ff521245a13039ae51a",
+      "source_basis": "authoritative Korean full form and meaning pairs"
+    },
+    {
+      "row_id": "A30126-zh-00007",
+      "target_id": "XML:2210709",
+      "source_hash": "91412fb1782f5b1bb08a0c0b350836297ee5276944750ad6c9521b47eab012f9",
+      "source_ko": "(질병)",
+      "previous_zh": "(疾病)",
+      "meaning_pair_id": "9854b2c1666ef49597f00c6251d14d930c8c979f60379aa5f95e676080592ace",
+      "source_basis": "authoritative Korean full form and meaning pairs"
+    },
+    {
+      "row_id": "A30126-zh-00008",
+      "target_id": "XML:2210711",
+      "source_hash": "e30475ab58895c7ee4d6393695dfae85c53660e08827eea68f29b851a6f6a3a8",
+      "source_ko": "계급",
+      "previous_zh": "排名",
+      "meaning_pair_id": "a21e838a5729c0359ada0c841de115ede51d801659f04cbed23395e8f81ca929",
+      "source_basis": "authoritative Korean full form and meaning pairs"
+    },
+    {
+      "row_id": "A30126-zh-00009",
+      "target_id": "XML:2210712",
+      "source_hash": "d2cc353c099a0825cf17be583a5c2aaaeebcfe807150af57e561b132bae7a1cf",
+      "source_ko": "군번",
+      "previous_zh": "军号",
+      "meaning_pair_id": "31a28a6745cdf0cd0f180d27fe7c9485ee79c84633c109a2c0de7963dea4c535",
+      "source_basis": "authoritative Korean full form and meaning pairs"
+    },
+    {
+      "row_id": "A30126-zh-00010",
+      "target_id": "XML:2210713",
+      "source_hash": "5aa32deffdf1362feb45b4aaf4a1945b15c91915f96194031e41bc759b5f2f97",
+      "source_ko": "성명",
+      "previous_zh": "名称",
+      "meaning_pair_id": "e555e8cf05f96583a4d528d3673e3ba9ee34932d74cb284c76d04d37cc079047",
+      "source_basis": "authoritative Korean full form and meaning pairs"
+    },
+    {
+      "row_id": "A30126-zh-00011",
+      "target_id": "XML:2210714",
+      "source_hash": "0cfaa069c4d77e55af86144e32ee89b6d1bb736458ac46736e38965103c9fbd7",
+      "source_ko": "주민등록번호",
+      "previous_zh": "居民注册号",
+      "meaning_pair_id": "c3abfdce5df01e556c54db58360f3be91533e2e222fee8358335b4b4d7b6f89a",
+      "source_basis": "authoritative Korean full form and meaning pairs"
+    },
+    {
+      "row_id": "A30126-zh-00012",
+      "target_id": "XML:2210715",
+      "source_hash": "28e058c7cec8846e6c5fb52308685e1c534d4b8a745ab01a9d40c045f3fd6c71",
+      "source_ko": "주소",
+      "previous_zh": "地址",
+      "meaning_pair_id": "85a28277b11fa6b425dd50932bb9395c7db8327b3c42ca972aae6724d0c6896c",
+      "source_basis": "authoritative Korean full form and meaning pairs"
+    },
+    {
+      "row_id": "A30126-zh-00013",
+      "target_id": "XML:2210716",
+      "source_hash": "0e9e3ce22b201f1c886d2a36e02844b6ee3ff73f362055d9c963932b4cb6229f",
+      "source_ko": "부상",
+      "previous_zh": "损伤",
+      "meaning_pair_id": "944e24ec62021055d4e8387bd123fdeb32cef130a57218d14f58aa800b8d9ffd",
+      "source_basis": "authoritative Korean full form and meaning pairs"
+    },
+    {
+      "row_id": "A30126-zh-00014",
+      "target_id": "XML:2210717",
+      "source_hash": "1bf67468c1c8de5c3c1ed598bbc85fe6dab6a9b18f7148110ed8463ad871514f",
+      "source_ko": "발생장소",
+      "previous_zh": "发生位置",
+      "meaning_pair_id": "278fb8d26c4f3ebfbc7534bb29916291a50a4e5e034de755f151deb693bc1ad6",
+      "source_basis": "authoritative Korean full form and meaning pairs"
+    },
+    {
+      "row_id": "A30126-zh-00015",
+      "target_id": "XML:2210718",
+      "source_hash": "91412fb1782f5b1bb08a0c0b350836297ee5276944750ad6c9521b47eab012f9",
+      "source_ko": "(질병)",
+      "previous_zh": "(疾病)",
+      "meaning_pair_id": "40ba1189dd77f345565c05edafce5a028b50c5d3cc0125de7ed2da701fd4fc9a",
+      "source_basis": "authoritative Korean full form and meaning pairs"
+    },
+    {
+      "row_id": "A30126-zh-00016",
+      "target_id": "XML:2210719",
+      "source_hash": "e10195a1239fb321327bafbe0397ebfcf7f0985a6e3bc28661a65132025b6808",
+      "source_ko": "상태",
+      "previous_zh": "状态",
+      "meaning_pair_id": "2fca16ba5d4745752b898b7adc585204043543112b76e792d788617a74442230",
+      "source_basis": "authoritative Korean full form and meaning pairs"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "A30126-zh-00001",
+      "target_id": "XML:2210703",
+      "source_hash": "a4ce6556a9455e37a4de2bcb8d9c1e4bc5b8e414fe48fbe99e1cfe846de593a9",
+      "source_ko": "■ 의무경찰대 설치 및 운영에 관한 법률 시행령 [별지 제6호서식] <개정 2015.11.20.>",
+      "previous_zh": "■ 征召警察部队设立及运作法实施令[附件表格6] <2015年11月20日修订>",
+      "corrected_zh": "■ 《义务警察部队设立及运营法施行令》〔附件第6号格式〕<2015年11月20日修订>",
+      "reason": "의무경찰 확인서의 의료·인사·신원 항목 원문에 맞게 교정."
+    },
+    {
+      "row_id": "A30126-zh-00002",
+      "target_id": "XML:2210704",
+      "source_hash": "f1516bb11308206e89c4ba49fb733d7068de3c48e1b74037be91acbcf28c2404",
+      "source_ko": "[ ]부상",
+      "previous_zh": "[ ]受伤",
+      "corrected_zh": "[ ]负伤",
+      "reason": "의무경찰 확인서의 의료·인사·신원 항목 원문에 맞게 교정."
+    },
+    {
+      "row_id": "A30126-zh-00003",
+      "target_id": "XML:2210705",
+      "source_hash": "b07cfe241898eebc955059cbb92d09be271804dde2f6510012e51e6ff29a3019",
+      "source_ko": "확인서",
+      "previous_zh": "确认",
+      "corrected_zh": "确认书",
+      "reason": "의무경찰 확인서의 의료·인사·신원 항목 원문에 맞게 교정."
+    },
+    {
+      "row_id": "A30126-zh-00005",
+      "target_id": "XML:2210707",
+      "source_hash": "0e9e3ce22b201f1c886d2a36e02844b6ee3ff73f362055d9c963932b4cb6229f",
+      "source_ko": "부상",
+      "previous_zh": "损伤",
+      "corrected_zh": "负伤",
+      "reason": "의무경찰 확인서의 의료·인사·신원 항목 원문에 맞게 교정."
+    },
+    {
+      "row_id": "A30126-zh-00006",
+      "target_id": "XML:2210708",
+      "source_hash": "01603d13dd6590d7676446f682aed959803754281fa23ce912d6c1bf93cbcb15",
+      "source_ko": "소속",
+      "previous_zh": "隶属关系",
+      "corrected_zh": "所属机关",
+      "reason": "의무경찰 확인서의 의료·인사·신원 항목 원문에 맞게 교정."
+    },
+    {
+      "row_id": "A30126-zh-00008",
+      "target_id": "XML:2210711",
+      "source_hash": "e30475ab58895c7ee4d6393695dfae85c53660e08827eea68f29b851a6f6a3a8",
+      "source_ko": "계급",
+      "previous_zh": "排名",
+      "corrected_zh": "警衔",
+      "reason": "의무경찰 확인서의 의료·인사·신원 항목 원문에 맞게 교정."
+    },
+    {
+      "row_id": "A30126-zh-00009",
+      "target_id": "XML:2210712",
+      "source_hash": "d2cc353c099a0825cf17be583a5c2aaaeebcfe807150af57e561b132bae7a1cf",
+      "source_ko": "군번",
+      "previous_zh": "军号",
+      "corrected_zh": "军籍编号",
+      "reason": "의무경찰 확인서의 의료·인사·신원 항목 원문에 맞게 교정."
+    },
+    {
+      "row_id": "A30126-zh-00010",
+      "target_id": "XML:2210713",
+      "source_hash": "5aa32deffdf1362feb45b4aaf4a1945b15c91915f96194031e41bc759b5f2f97",
+      "source_ko": "성명",
+      "previous_zh": "名称",
+      "corrected_zh": "姓名",
+      "reason": "의무경찰 확인서의 의료·인사·신원 항목 원문에 맞게 교정."
+    },
+    {
+      "row_id": "A30126-zh-00011",
+      "target_id": "XML:2210714",
+      "source_hash": "0cfaa069c4d77e55af86144e32ee89b6d1bb736458ac46736e38965103c9fbd7",
+      "source_ko": "주민등록번호",
+      "previous_zh": "居民注册号",
+      "corrected_zh": "居民登记号码",
+      "reason": "의무경찰 확인서의 의료·인사·신원 항목 원문에 맞게 교정."
+    },
+    {
+      "row_id": "A30126-zh-00013",
+      "target_id": "XML:2210716",
+      "source_hash": "0e9e3ce22b201f1c886d2a36e02844b6ee3ff73f362055d9c963932b4cb6229f",
+      "source_ko": "부상",
+      "previous_zh": "损伤",
+      "corrected_zh": "负伤",
+      "reason": "의무경찰 확인서의 의료·인사·신원 항목 원문에 맞게 교정."
+    },
+    {
+      "row_id": "A30126-zh-00014",
+      "target_id": "XML:2210717",
+      "source_hash": "1bf67468c1c8de5c3c1ed598bbc85fe6dab6a9b18f7148110ed8463ad871514f",
+      "source_ko": "발생장소",
+      "previous_zh": "发生位置",
+      "corrected_zh": "发生地点",
+      "reason": "의무경찰 확인서의 의료·인사·신원 항목 원문에 맞게 교정."
+    }
+  ],
+  "validation": {
+    "row_ids_unique": true,
+    "source_hashes_match": true,
+    "korean_form_context_checked": true,
+    "no_mtq_start_korean_in_edits": true,
+    "total_cumulative_checked_rows": 709
+  },
+  "next_step": "Resume A30126 rows 17-33; no final receipt yet."
+}
