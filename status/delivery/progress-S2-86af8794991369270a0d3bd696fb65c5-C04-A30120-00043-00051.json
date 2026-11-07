@@ -1,0 +1,410 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B1-01.json",
+      "blob_sha": "69fcf795c9621b125ae73864793ee4064bd4b815",
+      "document_key": "B1",
+      "rows_checked": 145,
+      "rows_corrected": 26
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "blob_sha": "aeba15bca83d7887b5e9f7ce393fba770a9b5faa",
+      "verified_rows": 12,
+      "documents": [
+        "A30118",
+        "A30120"
+      ]
+    },
+    {
+      "path": "status/delivery/verified-step-S2-86af8794991369270a0d3bd696fb65c5-C04-CHECKPOINT-166-01.json",
+      "blob_sha": "33003dbd344370d5b2cf92bb05838b92b144a7ba",
+      "status": "INTENT_NO_RESEND"
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-01.json",
+      "blob_sha": "5f92fef46a104d832b4e6944e94ab8ba7257dda1",
+      "document_key": "B2",
+      "rows_checked": 36,
+      "rows_corrected": 31
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00037-00044.json",
+      "blob_sha": "31d1e93b2b7bc2aab9430a0d4b201c246301d1c5",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00045-00052.json",
+      "blob_sha": "be37a2f05e6c47bf33ec4ea58b1d6163df4b96a1",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00053-00060.json",
+      "blob_sha": "385725a9ff5c6f74e8cb723a6fc91fbcf072d639",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00061-00072.json",
+      "blob_sha": "4573174026ca13b9d49225d71e76f10c6ab2d76f",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00073-00084.json",
+      "blob_sha": "eb20464990f1e23042b03e95a20ed243fed5c555",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00085-00104.json",
+      "blob_sha": "30ba440fd5a8c3e355e8e79c418c6c9b7adcaa9f",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00105-00124.json",
+      "blob_sha": "3fe79039feaa1febde3bcd60b4397e5a52301b9e",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00125-00144.json",
+      "blob_sha": "3fe9aed92331bbf966efeff025964f461a605d6b",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00145-00164.json",
+      "blob_sha": "ab61b90a9bc19864b55a54b55cce703f9cb22470",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 12
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00165-00184.json",
+      "blob_sha": "68f3e74081cab6a1e84a178d3404ae96facceabe",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00185-00204.json",
+      "blob_sha": "81c7f57799a8550b49975c68793c0c3de622e902",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00205-00208.json",
+      "blob_sha": "feda2b38822c3429ef5493d37b044d1e5ef9ff86",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00209-00212.json",
+      "blob_sha": "08cb0522bc3ceae21d3d76fb56b95152a08fc246",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00213-00223.json",
+      "blob_sha": "a7fecc1db30a21c0677eaf0e6696e8267404fdbd",
+      "document_key": "B2",
+      "rows_checked": 11,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00224-00224.json",
+      "blob_sha": "7ce857683229c544c015843cb5da47ec2c5ea6ed",
+      "document_key": "B2",
+      "rows_checked": 1,
+      "rows_corrected": 1
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00225-00244.json",
+      "blob_sha": "bde39fb81d1a2fe5f6acbc78ab2d929732f8cb58",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00245-00264.json",
+      "blob_sha": "52e222a297a0913cce11527a0e6db004f8de1012",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00265-00272.json",
+      "blob_sha": "ed666acab2f084c7266595060f136c7c5c4c90aa",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "preserved_preverified_ids": [
+        "A30118-zh-00029",
+        "A30118-zh-00030"
+      ]
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30118-00001-00014.json",
+      "blob_sha": "b0ec0f1cc7e719106067960812e69c7bed03cfb5",
+      "document_key": "A30118",
+      "rows_checked": 14,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30118-00015-00028.json",
+      "blob_sha": "f0db9312e41184469f9b91334aac527a58a0871b",
+      "document_key": "A30118",
+      "rows_checked": 14,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30118-00031-00038.json",
+      "blob_sha": "2349cd68ccb30b9a5cd817d6446e0146920045e2",
+      "document_key": "A30118",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00001-00014.json",
+      "blob_sha": "691b91f81935198f72df0af0f3591c64a3573fde",
+      "document_key": "A30120",
+      "rows_checked": 14,
+      "rows_corrected": 14
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00015-00019.json",
+      "blob_sha": "f8689815603add57b3f7f545d07d19967926556c",
+      "document_key": "A30120",
+      "rows_checked": 5,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00024-00028.json",
+      "blob_sha": "be641e075a3db3268ad4d76b449384d52da6643c",
+      "document_key": "A30120",
+      "rows_checked": 5,
+      "rows_corrected": 3
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00030-00030.json",
+      "blob_sha": "ce8293ae3d09532ae16961e355e2bebe0dcc67aa",
+      "document_key": "A30120",
+      "rows_checked": 1,
+      "rows_corrected": 1
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00034-00042.json",
+      "blob_sha": "799d80439c9bb29fec77171c7e5879f1685850fc",
+      "document_key": "A30120",
+      "rows_checked": 9,
+      "rows_corrected": 6
+    }
+  ],
+  "document": {
+    "key": "A30120",
+    "kind": "서식",
+    "title": "의무경찰 응시자 명단",
+    "source_hash": "8060e506a1441c4b2495731b485bd5de9e9c7e80a841bb91321f0d8b6981af70",
+    "rows_checked": 9,
+    "rows_corrected": 5,
+    "document_review_state": "IN_PROGRESS"
+  },
+  "range": {
+    "first_row_id": "A30120-zh-00043",
+    "last_row_id": "A30120-zh-00051",
+    "verified_row_count": 9
+  },
+  "verified_rows": [
+    {
+      "row_id": "A30120-zh-00043",
+      "target_id": "XML:2210494",
+      "source_hash": "cb8c6b238f800814355e19339cd8accac66e3694f0770d65b3b95a72a190e49c",
+      "source_ko": "비고",
+      "previous_zh": "备注",
+      "meaning_pair_id": "80a469855d104eaf4cfdc8391fb770717a02983495c8e1b195a4875d4910cdc8",
+      "meaning_pair_path": "meaning/pairs/80.jsonl",
+      "meaning_pair_blob_sha": "8e0a6c9be82816b733cb2ffd87571ece68c46653"
+    },
+    {
+      "row_id": "A30120-zh-00044",
+      "target_id": "XML:2210495",
+      "source_hash": "cf57fb29da3118185a06d49fca0bda11cdedd4d9e92aabb3fd40a61b219969ee",
+      "source_ko": "검사",
+      "previous_zh": "测试",
+      "meaning_pair_id": "53c0cb9ab72cabfd866e09053ec5e14d4fab461823cadada1476682fb228164a",
+      "meaning_pair_path": "meaning/pairs/53.jsonl",
+      "meaning_pair_blob_sha": "c6054707b8a7a0b2fe494fad950e8545a8947ae8"
+    },
+    {
+      "row_id": "A30120-zh-00045",
+      "target_id": "XML:2210496",
+      "source_hash": "9db1bbd2b80a8273cfbff9b3ca93673cc7b17f455e54520ebd880c592a8661d9",
+      "source_ko": "국어",
+      "previous_zh": "韩语",
+      "meaning_pair_id": "874e3dfdaf74a0f4090ac4c089c632486660b47335da8f91109c96e8fd90251b",
+      "meaning_pair_path": "meaning/pairs/87.jsonl",
+      "meaning_pair_blob_sha": "222ddb1045623f4f08bc6c0dc1d1c34bfada02be"
+    },
+    {
+      "row_id": "A30120-zh-00046",
+      "target_id": "XML:2210497",
+      "source_hash": "ed80dbe5f80f1435ca2dba07844840e50d85dad9c8a321ae0112cd16c3200095",
+      "source_ko": "국사",
+      "previous_zh": "国家历史",
+      "meaning_pair_id": "2bd176c38d6b4df64ececfdc70f27901776caf8ced3dd95dcbb96dcff6446ac4",
+      "meaning_pair_path": "meaning/pairs/2b.jsonl",
+      "meaning_pair_blob_sha": "c753792f741b32e52940d040bc90f8173b6f3576"
+    },
+    {
+      "row_id": "A30120-zh-00047",
+      "target_id": "XML:2210498",
+      "source_hash": "512989791c19de3fcf9c18e11580d2895d2a146264cc803e52c86bede3453e4e",
+      "source_ko": "일반",
+      "previous_zh": "常规",
+      "meaning_pair_id": "b77c3148004796266abd5ef792c779fdbba46b642332e51bd6a0e148b0d3fae4",
+      "meaning_pair_path": "meaning/pairs/b7.jsonl",
+      "meaning_pair_blob_sha": "0c20f6783a0d2c8f50b8567ea6063fc8c0a22991"
+    },
+    {
+      "row_id": "A30120-zh-00048",
+      "target_id": "XML:2210499",
+      "source_hash": "740d6a6ee18b96883aea9584067bb6fdbb7fd0fedbfb555afff859e6e50567e4",
+      "source_ko": "총점",
+      "previous_zh": "总分",
+      "meaning_pair_id": "63040c62cd70f69ea6dfc7a9e63dbccfb63cc32976cc5e8f49f7f038602f9e8c",
+      "meaning_pair_path": "meaning/pairs/63.jsonl",
+      "meaning_pair_blob_sha": "3d16de7cd632927a68a6521efbfb3becc8f6e05a"
+    },
+    {
+      "row_id": "A30120-zh-00049",
+      "target_id": "XML:2210500",
+      "source_hash": "30b00f8857254855fa1b0224a90489b5c76c7b39532e928270d6a1033fbc9d38",
+      "source_ko": "상식",
+      "previous_zh": "常识",
+      "meaning_pair_id": "a2ef51331dc7a423e2a026f8f1a7b62b66f8adf9e8b90101cf2e5604c924d6ba",
+      "meaning_pair_path": "meaning/pairs/a2.jsonl",
+      "meaning_pair_blob_sha": "b390fb960ae5e79205cca6bdc5bae21e09a8271e"
+    },
+    {
+      "row_id": "A30120-zh-00050",
+      "target_id": "XML:2210501",
+      "source_hash": "41e11819187cd0d8c51419c8b34571d1f01d02758075137da10203ce9bd4c517",
+      "source_ko": "작성방법",
+      "previous_zh": "如何编写",
+      "meaning_pair_id": "59ebe1476925fe5b3c5937fe632279297d1146826a624c14f8fee6ac493d76f8",
+      "meaning_pair_path": "meaning/pairs/59.jsonl",
+      "meaning_pair_blob_sha": "ebad86f9fbdbfb71904b5f2b6cd6102d60727273"
+    },
+    {
+      "row_id": "A30120-zh-00051",
+      "target_id": "XML:2210502",
+      "source_hash": "6a3b1776599edabb8a2f0b25b008181cc0e5f53761133f36a2be19aae1201786",
+      "source_ko": "1. 응시자 명단은 모집 회차, 응시지역 및 응시구분(일반, 특기) 별로 구분하여 수험번호 순으로 작성합니다.",
+      "previous_zh": "1. 申请人名单按考生编号排序，并按招聘轮次、考试地区和考试类别（普通、特殊）进行分类。",
+      "meaning_pair_id": "a8f19839ac8c4727eb60d1b0b0da948074729987b872f8de89cbba82130c6150",
+      "meaning_pair_path": "meaning/pairs/a8.jsonl",
+      "meaning_pair_blob_sha": "3062af204f162b23053bc6883cb5ff1a97efca09"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "A30120-zh-00044",
+      "target_id": "XML:2210495",
+      "source_hash": "cf57fb29da3118185a06d49fca0bda11cdedd4d9e92aabb3fd40a61b219969ee",
+      "source_ko": "검사",
+      "previous_zh": "测试",
+      "meaning_pair_id": "53c0cb9ab72cabfd866e09053ec5e14d4fab461823cadada1476682fb228164a",
+      "meaning_pair_path": "meaning/pairs/53.jsonl",
+      "meaning_pair_blob_sha": "c6054707b8a7a0b2fe494fad950e8545a8947ae8",
+      "corrected_zh": "检查",
+      "reason": "국사 및 일반상식의 학과명, 검사 및 작성방법, 특기 지원자 범주 오역 교정."
+    },
+    {
+      "row_id": "A30120-zh-00046",
+      "target_id": "XML:2210497",
+      "source_hash": "ed80dbe5f80f1435ca2dba07844840e50d85dad9c8a321ae0112cd16c3200095",
+      "source_ko": "국사",
+      "previous_zh": "国家历史",
+      "meaning_pair_id": "2bd176c38d6b4df64ececfdc70f27901776caf8ced3dd95dcbb96dcff6446ac4",
+      "meaning_pair_path": "meaning/pairs/2b.jsonl",
+      "meaning_pair_blob_sha": "c753792f741b32e52940d040bc90f8173b6f3576",
+      "corrected_zh": "韩国史",
+      "reason": "국사 및 일반상식의 학과명, 검사 및 작성방법, 특기 지원자 범주 오역 교정."
+    },
+    {
+      "row_id": "A30120-zh-00047",
+      "target_id": "XML:2210498",
+      "source_hash": "512989791c19de3fcf9c18e11580d2895d2a146264cc803e52c86bede3453e4e",
+      "source_ko": "일반",
+      "previous_zh": "常规",
+      "meaning_pair_id": "b77c3148004796266abd5ef792c779fdbba46b642332e51bd6a0e148b0d3fae4",
+      "meaning_pair_path": "meaning/pairs/b7.jsonl",
+      "meaning_pair_blob_sha": "0c20f6783a0d2c8f50b8567ea6063fc8c0a22991",
+      "corrected_zh": "一般",
+      "reason": "국사 및 일반상식의 학과명, 검사 및 작성방법, 특기 지원자 범주 오역 교정."
+    },
+    {
+      "row_id": "A30120-zh-00050",
+      "target_id": "XML:2210501",
+      "source_hash": "41e11819187cd0d8c51419c8b34571d1f01d02758075137da10203ce9bd4c517",
+      "source_ko": "작성방법",
+      "previous_zh": "如何编写",
+      "meaning_pair_id": "59ebe1476925fe5b3c5937fe632279297d1146826a624c14f8fee6ac493d76f8",
+      "meaning_pair_path": "meaning/pairs/59.jsonl",
+      "meaning_pair_blob_sha": "ebad86f9fbdbfb71904b5f2b6cd6102d60727273",
+      "corrected_zh": "填写方法",
+      "reason": "국사 및 일반상식의 학과명, 검사 및 작성방법, 특기 지원자 범주 오역 교정."
+    },
+    {
+      "row_id": "A30120-zh-00051",
+      "target_id": "XML:2210502",
+      "source_hash": "6a3b1776599edabb8a2f0b25b008181cc0e5f53761133f36a2be19aae1201786",
+      "source_ko": "1. 응시자 명단은 모집 회차, 응시지역 및 응시구분(일반, 특기) 별로 구분하여 수험번호 순으로 작성합니다.",
+      "previous_zh": "1. 申请人名单按考生编号排序，并按招聘轮次、考试地区和考试类别（普通、特殊）进行分类。",
+      "meaning_pair_id": "a8f19839ac8c4727eb60d1b0b0da948074729987b872f8de89cbba82130c6150",
+      "meaning_pair_path": "meaning/pairs/a8.jsonl",
+      "meaning_pair_blob_sha": "3062af204f162b23053bc6883cb5ff1a97efca09",
+      "corrected_zh": "1. 报考人员名单应按招募批次、报考地区及报考类别（普通类、特长类）分别编制，并按照准考号码的顺序填写。",
+      "reason": "국사 및 일반상식의 학과명, 검사 및 작성방법, 특기 지원자 범주 오역 교정."
+    }
+  ],
+  "validation": {
+    "row_ids_unique": true,
+    "source_hashes_match": true,
+    "korean_pair_ids_resolved": true,
+    "preverified_52_53_preserved": true,
+    "total_cumulative_checked_rows": 508
+  },
+  "next_step": "Skip already verified A30120 52 and 53; check 54-57."
+}
