@@ -9,4 +9,5 @@ Job ID: {job_id}
 공식 GitHub 도구만 사용하십시오. 로컬 DB, 로컬 패킷, worker_client, 로컬 Python을 검수 데이터 경로로 사용하지 마십시오.
 읽기: {ko_path}, {zh_path}, laws/en/{job_id}.json, documents/en, reviewed/en, meaning/pairs. 한국어 원문이 최종 기준이며 영어와 의미기록은 참고입니다.
 전체 연결 문서의 모든 행을 확인하고 명백한 오역·누락·한국어 잔존·수치/인용/법률용어 오류만 최소 교정하십시오.
+reviewed/zh/{job_id}.json에 PC 검수 결과가 있으면 source_blobs와 행 ID를 확인하고, 저장된 범위와 교정문을 이어받아 남은 행을 검수하십시오. 최종 결과에는 확인된 선행 교정을 포함하고, 같은 버전의 GitHub 전체 검수본이 이미 있으면 그 결과를 우선하십시오.
 전체가 끝난 뒤에만 {review_path}와 {receipt_path}를 status COMPLETE로 저장하고 {branch}에 커밋한 뒤 SHA를 보고하십시오. laws/* 원본은 수정하지 마십시오.

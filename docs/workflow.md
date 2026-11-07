@@ -26,3 +26,9 @@
 ## 차단과 보류
 
 원문 누락이나 접근 문제는 해당 단위를 `blocked`로 표시하고 `note`에 공개 가능한 이유를 적습니다. 안전·권한 거절은 승인된 사건 원장에 기록하며, 재시도하거나 경로를 바꾸어 우회하지 않습니다. 내부 원장과 민감한 자료는 이 공개 저장소에 넣지 않습니다.
+
+## PC 검수 이력
+
+`reviewed/zh/<job_id>.json`에는 PC에서 저장이 확인된 중국어 검수 행과 교정문이 있습니다. `source_blobs`는 `laws/ko/<job_id>.json`과 `laws/zh/<job_id>.json`의 Git blob SHA입니다. 두 파일의 버전과 행 ID를 확인한 뒤 `checked_row_ids`의 검수 범위를 이어받고 `edits`의 교정문을 적용합니다. 같은 버전의 GitHub 전체 검수본이 있으면 `review/zh/<job_id>.json`의 최종 결과를 사용합니다.
+
+`PARTIAL`은 일부 행의 저장을, `PASS1_SAVED`는 해당 버전 전체 행의 PC 1차 검수 저장을 뜻합니다. `law_finish_saved`는 PC에서 법령 단위 완료 영수증까지 확인한 경우에만 참입니다. 각 결과에 전체 행 수와 저장된 행 수가 들어 있습니다. GitHub 전체 검수를 완료한 결과와 영수증은 기존 절차에 따라 저장합니다.
