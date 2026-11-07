@@ -1,0 +1,8 @@
+{
+  "job_id": "F-feb7e75f9ae5941e3d2d",
+  "worker": "C02",
+  "checked_rows": 814,
+  "corrected_rows": 26,
+  "status": "COMPLETE",
+  "note": "Reviewed all 814 unique Chinese rows across all 12 documents against the Korean source. Applied 26 unique minimal corrections, including removal of MTQ/START artifacts, repair of split form labels and dates, correction of benefit/penalty annex labels, correction of a misaligned annex block appended to the final body row, and form-field/filing-period translations. Confirmed the final text contains no remaining MTQ markers, START artifacts, or Korean characters. The Korean source blob SHA remained 41da1013cd6a5380d95cb0ba044b2b63cef47f90, matching the supplied base commit. Review storage is separate from operational database application."
+}
