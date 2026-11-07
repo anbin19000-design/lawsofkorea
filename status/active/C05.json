@@ -1,53 +1,26 @@
 {
-  "assignment_id": "S2-342072d278040e1e964daaf646ac8172",
-  "claimed_at": "2026-11-07T12:34:12.288578+00:00",
+  "assignment_id": "S2-e88a6ccf8591ba26ff9ac3350754372c",
+  "claimed_at": "2026-11-07T12:41:23.042019+00:00",
   "conversation_hash": "f645c4de8edbc49c4f722f71eb528b11fef08d8daffa8b933cba07ba50fd296e",
-  "delivery_status": "SENT_VERIFIED",
-  "documents": 7,
-  "event_id": "obs-5edf1523949b505c52b94b58047c2c58b9e7a92d",
-  "family_id": "F-d0c923946978ef257acf",
-  "job_id": "F-d0c923946978ef257acf",
-  "marker": "[LAW-SUPPLY-V2:S2-342072d278040e1e964daaf646ac8172:C05:F-d0c923946978ef257acf]",
+  "delivery_status": "INTENT_RECORDED_NO_RESEND",
+  "documents": 15,
+  "event_id": "obs-16400fa80c3031669b5b573dc2e6f43410ea6286",
+  "family_id": "F-53d30eb1bc0eb7c029a1",
+  "job_id": "F-53d30eb1bc0eb7c029a1",
+  "marker": "[LAW-SUPPLY-V2:S2-e88a6ccf8591ba26ff9ac3350754372c:C05:F-53d30eb1bc0eb7c029a1]",
   "panel_id": "panel-05",
   "pc": "WORK-C",
   "prompt_format": "no-terminal-lf",
-  "quality_followup": {
-    "job_id": "F-d0c923946978ef257acf",
-    "opened_at": "2026-11-07T12:31:35.069034+00:00",
-    "receipt_blob": "8f910566ae27d0f5ab082c808ee2d0de622e7c99",
-    "review_blob": "47e04a3263021f95eb800f732f93f67e21f396ad",
-    "rows": [
-      {
-        "check": "학술활동수당 표의 마지막 셀. MTQ 표식 잔존. 00131~00155의 학술활동수당·월 40만원 이내·인건비 수령 시 계상 불가·간접비 및 조문 인용과 각 셀의 행 연결도 원문 표에서 확인해 주변 오역을 함께 바로잡을 것.",
-        "id": "A22424-zh-00143",
-        "observed": "MTQ1b50597ba8bf505600772开始每个",
-        "source_hash": "16e48f0615bfc53ee52076ca6d1ba24248f9ae9a7d51aff7a3ac35b824c2843e"
-      },
-      {
-        "check": "한국어 월 40만원(400,000원). 40파운드가 아님. 전후 표 셀 전체 대조.",
-        "id": "A22424-zh-00136",
-        "observed": "学术活动津贴为每月 40 英镑。",
-        "source_hash": "a07df37e4e3a69871c187972c523de45e45cafaf24fe7c74ec3fe2924e48ae8e"
-      }
-    ],
-    "schema": "LAW_QUALITY_FOLLOWUP_V1",
-    "source_blobs": {
-      "en": "3a725e5d9e1c54584bdccad329983d2c83fcc423",
-      "ko": "247e9a3f93db67ac52c174e3d28922b77c95dee9",
-      "zh": "f15723a0032377b36435cf1e8e47851af1a1ddfc"
-    },
-    "worker": "C05"
-  },
-  "rows": 468,
+  "rows": 542,
   "schema": "LAW_SUPPLIER_ASSIGNMENT_V2",
   "source_blobs": {
-    "en": "3a725e5d9e1c54584bdccad329983d2c83fcc423",
-    "ko": "247e9a3f93db67ac52c174e3d28922b77c95dee9",
-    "zh": "f15723a0032377b36435cf1e8e47851af1a1ddfc"
+    "en": "b3be80db4850726602a0d6eb5323ebe0db289aed",
+    "ko": "935c96e1cc4e1daf3ccfce90b00f2867fe17c113",
+    "zh": "e95495801a4ba8dc500092f6dcf435b86d2c9a0c"
   },
-  "source_commit": "304aa3a509e2593f5520f0c652dc467c0004582e",
+  "source_commit": "18df42d359186c39c01c79c44cf9dcb296d34d58",
   "status": "ACTIVE",
-  "title": "학술진흥법",
+  "title": "해양경찰장비 도입 및 관리에 관한 법률",
   "unit_policy": "ACT_DECREE_RULE_ANNEX_FORMS_ONE_FAMILY",
   "worker": "C05",
   "write_protocol": "contents-zh-v3"
