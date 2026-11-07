@@ -1,0 +1,8 @@
+{
+  "job_id": "F-f96663f10b96f15892f0",
+  "worker": "C01",
+  "checked_rows": 911,
+  "corrected_rows": 293,
+  "status": "COMPLETE",
+  "note": "Completed Chinese review across all 911 rows in all 9 documents against the Korean source pinned at e28b91573f534f68bb412124b37d7013ccc3ff5c. The review contains 293 unique row corrections addressing statutory title and missing-child terminology consistency, untranslated Enforcement Rule records, administrative fine criteria and table fragments, identity-card fields, and missing-child report/return forms. The Korean source SHA is unchanged between the pinned commit and main. Official English translations for the Act and Enforcement Decree and reviewed English Enforcement Rule material were consulted as secondary references; no matching meaning/pairs files were found at the checked candidate paths. Laws files were not modified. This receipt records repository review storage only and does not indicate operational database application."
+}
