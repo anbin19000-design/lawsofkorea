@@ -1,0 +1,591 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B1-01.json",
+      "blob_sha": "69fcf795c9621b125ae73864793ee4064bd4b815",
+      "document_key": "B1",
+      "rows_checked": 145,
+      "rows_corrected": 26
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "blob_sha": "aeba15bca83d7887b5e9f7ce393fba770a9b5faa",
+      "verified_rows": 12,
+      "documents": [
+        "A30118",
+        "A30120"
+      ]
+    },
+    {
+      "path": "status/delivery/verified-step-S2-86af8794991369270a0d3bd696fb65c5-C04-CHECKPOINT-166-01.json",
+      "blob_sha": "33003dbd344370d5b2cf92bb05838b92b144a7ba",
+      "status": "INTENT_NO_RESEND"
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-01.json",
+      "blob_sha": "5f92fef46a104d832b4e6944e94ab8ba7257dda1",
+      "document_key": "B2",
+      "rows_checked": 36,
+      "rows_corrected": 31
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00037-00044.json",
+      "blob_sha": "31d1e93b2b7bc2aab9430a0d4b201c246301d1c5",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00045-00052.json",
+      "blob_sha": "be37a2f05e6c47bf33ec4ea58b1d6163df4b96a1",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00053-00060.json",
+      "blob_sha": "385725a9ff5c6f74e8cb723a6fc91fbcf072d639",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00061-00072.json",
+      "blob_sha": "4573174026ca13b9d49225d71e76f10c6ab2d76f",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00073-00084.json",
+      "blob_sha": "eb20464990f1e23042b03e95a20ed243fed5c555",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00085-00104.json",
+      "blob_sha": "30ba440fd5a8c3e355e8e79c418c6c9b7adcaa9f",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00105-00124.json",
+      "blob_sha": "3fe79039feaa1febde3bcd60b4397e5a52301b9e",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00125-00144.json",
+      "blob_sha": "3fe9aed92331bbf966efeff025964f461a605d6b",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00145-00164.json",
+      "blob_sha": "ab61b90a9bc19864b55a54b55cce703f9cb22470",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 12
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00165-00184.json",
+      "blob_sha": "68f3e74081cab6a1e84a178d3404ae96facceabe",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00185-00204.json",
+      "blob_sha": "81c7f57799a8550b49975c68793c0c3de622e902",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00205-00208.json",
+      "blob_sha": "feda2b38822c3429ef5493d37b044d1e5ef9ff86",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00209-00212.json",
+      "blob_sha": "08cb0522bc3ceae21d3d76fb56b95152a08fc246",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00213-00223.json",
+      "blob_sha": "a7fecc1db30a21c0677eaf0e6696e8267404fdbd",
+      "document_key": "B2",
+      "rows_checked": 11,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00224-00224.json",
+      "blob_sha": "7ce857683229c544c015843cb5da47ec2c5ea6ed",
+      "document_key": "B2",
+      "rows_checked": 1,
+      "rows_corrected": 1
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00225-00244.json",
+      "blob_sha": "bde39fb81d1a2fe5f6acbc78ab2d929732f8cb58",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00245-00264.json",
+      "blob_sha": "52e222a297a0913cce11527a0e6db004f8de1012",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00265-00272.json",
+      "blob_sha": "ed666acab2f084c7266595060f136c7c5c4c90aa",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "preserved_preverified_ids": [
+        "A30118-zh-00029",
+        "A30118-zh-00030"
+      ]
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30118-00001-00014.json",
+      "blob_sha": "b0ec0f1cc7e719106067960812e69c7bed03cfb5",
+      "document_key": "A30118",
+      "rows_checked": 14,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30118-00015-00028.json",
+      "blob_sha": "f0db9312e41184469f9b91334aac527a58a0871b",
+      "document_key": "A30118",
+      "rows_checked": 14,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30118-00031-00038.json",
+      "blob_sha": "2349cd68ccb30b9a5cd817d6446e0146920045e2",
+      "document_key": "A30118",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00001-00014.json",
+      "blob_sha": "691b91f81935198f72df0af0f3591c64a3573fde",
+      "document_key": "A30120",
+      "rows_checked": 14,
+      "rows_corrected": 14
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00015-00019.json",
+      "blob_sha": "f8689815603add57b3f7f545d07d19967926556c",
+      "document_key": "A30120",
+      "rows_checked": 5,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00024-00028.json",
+      "blob_sha": "be641e075a3db3268ad4d76b449384d52da6643c",
+      "document_key": "A30120",
+      "rows_checked": 5,
+      "rows_corrected": 3
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00030-00030.json",
+      "blob_sha": "ce8293ae3d09532ae16961e355e2bebe0dcc67aa",
+      "document_key": "A30120",
+      "rows_checked": 1,
+      "rows_corrected": 1
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00034-00042.json",
+      "blob_sha": "799d80439c9bb29fec77171c7e5879f1685850fc",
+      "document_key": "A30120",
+      "rows_checked": 9,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00043-00051.json",
+      "blob_sha": "56bbddb7099852f03248f5c7b171de53e074c16a",
+      "document_key": "A30120",
+      "rows_checked": 9,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00054-00057.json",
+      "blob_sha": "38ff001d94b8c1838a627577caeed53074df5c95",
+      "document_key": "A30120",
+      "rows_checked": 4,
+      "rows_corrected": 3
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30121-00001-00014.json",
+      "blob_sha": "32ee47e3078fe0c97a8473811f9e96c7116424bc",
+      "document_key": "A30121",
+      "rows_checked": 14,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30121-00015-00028.json",
+      "blob_sha": "b8d7a71e92a0efe67fc79a42c926b0d87be8e82d",
+      "document_key": "A30121",
+      "rows_checked": 14,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30122-00001-00014.json",
+      "blob_sha": "9b20336051ee6cfb635fe2f7759b287cc4497858",
+      "document_key": "A30122",
+      "rows_checked": 14,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30122-00015-00028.json",
+      "blob_sha": "48a7f6e351541885973d1a37352daba9f71f9b79",
+      "document_key": "A30122",
+      "rows_checked": 14,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30122-00029-00042.json",
+      "blob_sha": "e2df0e4cfe8c3c43ae4478900ebdbf9c9ae3b615",
+      "document_key": "A30122",
+      "rows_checked": 14,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30122-00043-00050.json",
+      "blob_sha": "690ac8dd346f232bb023acb06b2803368eef0771",
+      "document_key": "A30122",
+      "rows_checked": 8,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30123-00001-00014.json",
+      "blob_sha": "9f2b0daa1a28c00c8e1b6ff60ee19008fe077e41",
+      "document_key": "A30123",
+      "rows_checked": 14,
+      "rows_corrected": 12
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30123-00015-00028.json",
+      "blob_sha": "82b4898526cd03280309b2a7b543581effcc9e64",
+      "document_key": "A30123",
+      "rows_checked": 14,
+      "rows_corrected": 9
+    }
+  ],
+  "document": {
+    "key": "A30123",
+    "kind": "서식",
+    "title": "(사망, 상이)확인서",
+    "source_hash": "5175e3b92e5c85f36e3dcf6211cc1895a18c0150d84abcc92650d184669d648a",
+    "rows_checked": 14,
+    "rows_corrected": 8,
+    "document_review_state": "DOCUMENT_ROWS_CHECKED"
+  },
+  "range": {
+    "first_row_id": "A30123-zh-00029",
+    "last_row_id": "A30123-zh-00042",
+    "verified_row_count": 14
+  },
+  "verified_rows": [
+    {
+      "row_id": "A30123-zh-00029",
+      "target_id": "XML:2210623",
+      "source_hash": "28e058c7cec8846e6c5fb52308685e1c534d4b8a745ab01a9d40c045f3fd6c71",
+      "source_ko": "주소",
+      "previous_zh": "地址",
+      "meaning_pair_id": "85a28277b11fa6b425dd50932bb9395c7db8327b3c42ca972aae6724d0c6896c",
+      "meaning_pair_path": "meaning/pairs/85.jsonl",
+      "meaning_pair_blob_sha": "310b48805f22c2d42db5c8e3dfa0f1a6c6948db9",
+      "source_basis": "GITHUB_MEANING_PAIR"
+    },
+    {
+      "row_id": "A30123-zh-00030",
+      "target_id": "XML:2210624",
+      "source_hash": "871ff711baa0b2796d1a493af74245aef87f151452b64dda6c809ed3eec90a9f",
+      "source_ko": "소속기관등의장",
+      "previous_zh": "附属机构负责人等。",
+      "meaning_pair_id": "97165261a7adead2fc46de7d2ebfa27977f88600f2d1af267909f9386b670c0a",
+      "meaning_pair_path": "meaning/pairs/97.jsonl",
+      "meaning_pair_blob_sha": "78331d3e58c561c289448ab5d7e9f4bb2252de39",
+      "source_basis": "GITHUB_MEANING_PAIR"
+    },
+    {
+      "row_id": "A30123-zh-00031",
+      "target_id": "XML:2210625",
+      "source_hash": "ae0cab4ba3f00a3be951d9c7363b8904860a36b08c0c66dfe28b084c93d0bb8d",
+      "source_ko": "(소속기관등의장) ??",
+      "previous_zh": "（附属机构主席等）??",
+      "meaning_pair_id": "b738a8cbe40235f1ac50cac88003beaeb0e327edf52ee90df0cc32867ab9c8e7",
+      "meaning_pair_path": "meaning/pairs/b7.jsonl",
+      "meaning_pair_blob_sha": "0c20f6783a0d2c8f50b8567ea6063fc8c0a22991",
+      "source_basis": "GITHUB_MEANING_PAIR"
+    },
+    {
+      "row_id": "A30123-zh-00032",
+      "target_id": "XML:2210626",
+      "source_hash": "1aacb54c499242964cc07e606bd5b1d628a56b6dd22267ae14202fbd35884fc4",
+      "source_ko": "확인",
+      "previous_zh": "确认",
+      "meaning_pair_id": "0984cd56801ee5c8a10f39f448c48b6ac33f7fd26e82d38f8ed6ddff220f4c7d",
+      "meaning_pair_path": "meaning/pairs/09.jsonl",
+      "meaning_pair_blob_sha": "b34df343206cfe6fd3e3189c58a3aa10fcb801f7",
+      "source_basis": "GITHUB_MEANING_PAIR"
+    },
+    {
+      "row_id": "A30123-zh-00033",
+      "target_id": "XML:2210627",
+      "source_hash": "6c9a0042cab5f2762e0fa767a26d67a84622b389cce0315291165f1b8bb3dfaf",
+      "source_ko": "위와 같이 확인함",
+      "previous_zh": "确认如上所述",
+      "meaning_pair_id": "32fe4381100d8bd8c0a728161533694d69fbb8611f629ea4ee7a73b492930d46",
+      "meaning_pair_path": "meaning/pairs/32.jsonl",
+      "meaning_pair_blob_sha": "6b61703cf4921cf685841f5b8c2d972b84bf6887",
+      "source_basis": "GITHUB_MEANING_PAIR"
+    },
+    {
+      "row_id": "A30123-zh-00034",
+      "target_id": "XML:2210628",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "source_ko": "년",
+      "previous_zh": "年份",
+      "meaning_pair_id": "51a9c53d5e91050e3abe1ef30e6743e05bc272555042d615ccb26c1cbd4bac01",
+      "meaning_pair_path": "meaning/pairs/51.jsonl",
+      "meaning_pair_blob_sha": "2a81adc629ef25015135b3e8aeaefa4b1a7069b6",
+      "source_basis": "GITHUB_MEANING_PAIR"
+    },
+    {
+      "row_id": "A30123-zh-00035",
+      "target_id": "XML:2210629",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "source_ko": "월",
+      "previous_zh": "月份",
+      "meaning_pair_id": "fe11e2c245c4120f7ec1489f418bd7cb4dfa4f13b76bd89d3b8f839acc883cfc",
+      "meaning_pair_path": "meaning/pairs/fe.jsonl",
+      "meaning_pair_blob_sha": "9931861966dfb563168bf709151bcce4f1995af5",
+      "source_basis": "GITHUB_MEANING_PAIR"
+    },
+    {
+      "row_id": "A30123-zh-00036",
+      "target_id": "XML:2210630",
+      "source_hash": "dfc76879e2f5c3ead09186ff1c6b635624f96b7adbd71d94c37566429ca5df6f",
+      "source_ko": "일",
+      "previous_zh": "日",
+      "meaning_pair_id": "09573106deaddabc003ab690e51d1abb23f4c3b00649980fbc69af84c3d91542",
+      "meaning_pair_path": "meaning/pairs/09.jsonl",
+      "meaning_pair_blob_sha": "b34df343206cfe6fd3e3189c58a3aa10fcb801f7",
+      "source_basis": "GITHUB_MEANING_PAIR"
+    },
+    {
+      "row_id": "A30123-zh-00037",
+      "target_id": "XML:2210631",
+      "source_hash": "56c86d3f978febce92d9b410743eed986bbcfac674faa5347f648480cc1b12da",
+      "source_ko": "국가보훈부장관 귀하",
+      "previous_zh": "致爱国者和退伍军人事务部长",
+      "meaning_pair_id": "1c7ff3fd672467392da39c2afb1b76992267f49e7c089dc54ee27bcb61bbe9bf",
+      "meaning_pair_path": "meaning/pairs/1c.jsonl",
+      "meaning_pair_blob_sha": "9cfbc9c985e591983314000477c714269734237d",
+      "source_basis": "GITHUB_MEANING_PAIR"
+    },
+    {
+      "row_id": "A30123-zh-00038",
+      "target_id": "XML:2210632",
+      "source_hash": "eee3824dd21801d041612bc3bcf821d94803caef09733ecca12fe89e7b2e1885",
+      "source_ko": "경찰청장 또는 해양경찰청장 ??",
+      "previous_zh": "韩国国家警察厅长官或韩国海上保安厅长官 ??",
+      "meaning_pair_id": "1dd5142443826d58ea97ec7df94f1e529ede85228052f13a9ca5df2013654065",
+      "meaning_pair_path": "meaning/pairs/1d.jsonl",
+      "meaning_pair_blob_sha": "83ebf844feb603248004ffeea8c01e595399d696",
+      "source_basis": "GITHUB_MEANING_PAIR"
+    },
+    {
+      "row_id": "A30123-zh-00039",
+      "target_id": "XML:2210633",
+      "source_hash": "f1f2c380b55e396454058df39772e93275325c02b23d6f7e799a881377f657f0",
+      "source_ko": "2106-366일",
+      "previous_zh": "2106-366 天",
+      "meaning_pair_id": "bf41dfb6c87f84d260db4f3605dca268eedc2f3660064d590b53bdfdbf9b71f8",
+      "meaning_pair_path": "meaning/pairs/bf.jsonl",
+      "meaning_pair_blob_sha": "209af1cfd7b8a6717a46e03d977f992fc7d33c42",
+      "source_basis": "GITHUB_MEANING_PAIR"
+    },
+    {
+      "row_id": "A30123-zh-00040",
+      "target_id": "XML:2210634",
+      "source_hash": "aeac84d3dd867baeb9bfc4f68e828548cd40f15ee1f9d40b4a2db09806fcfdf0",
+      "source_ko": "190㎜×268㎜",
+      "previous_zh": "190㎜×268㎜",
+      "meaning_pair_id": null,
+      "meaning_pair_path": null,
+      "meaning_pair_blob_sha": null,
+      "source_basis": "DIRECT_KOREAN_SOURCE_DOCUMENT"
+    },
+    {
+      "row_id": "A30123-zh-00041",
+      "target_id": "XML:2210635",
+      "source_hash": "e687a4d7a90ceee390e62e1ce5cf6e8ac109f8fc5dbb877bdcaf347a8f37b1bb",
+      "source_ko": "83.7.19 승인",
+      "previous_zh": "83.7.19 已批准",
+      "meaning_pair_id": "1a3defe8e6c6475d46e7262403e4ccf2415ebca05a9910ad5a0d1988eafd93e2",
+      "meaning_pair_path": "meaning/pairs/1a.jsonl",
+      "meaning_pair_blob_sha": "1c436f92ffc58baadbd287b7b4fda4112478de0d",
+      "source_basis": "GITHUB_MEANING_PAIR"
+    },
+    {
+      "row_id": "A30123-zh-00042",
+      "target_id": "XML:2210636",
+      "source_hash": "b7a3a10d716a3863fe1699326f0e32bc86241e016f61c3b3ff99bc0f001778dd",
+      "source_ko": "(신문용지 54g/㎡)",
+      "previous_zh": "(报纸 54g/㎡)",
+      "meaning_pair_id": "c9840254b6509689d5bc29b66f53adcf9a9116b439250017fef2120295dcca00",
+      "meaning_pair_path": "meaning/pairs/c9.jsonl",
+      "meaning_pair_blob_sha": "9632c86b937740d2ddb858a05af4018c43a5dfde",
+      "source_basis": "GITHUB_MEANING_PAIR"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "A30123-zh-00030",
+      "target_id": "XML:2210624",
+      "source_hash": "871ff711baa0b2796d1a493af74245aef87f151452b64dda6c809ed3eec90a9f",
+      "source_ko": "소속기관등의장",
+      "previous_zh": "附属机构负责人等。",
+      "meaning_pair_id": "97165261a7adead2fc46de7d2ebfa27977f88600f2d1af267909f9386b670c0a",
+      "meaning_pair_path": "meaning/pairs/97.jsonl",
+      "meaning_pair_blob_sha": "78331d3e58c561c289448ab5d7e9f4bb2252de39",
+      "source_basis": "GITHUB_MEANING_PAIR",
+      "corrected_zh": "所属机关等负责人",
+      "reason": "원문 소속기관장·국가보훈부장관·법정 서식 일자 및 신문용지 규격 오역 교정; 출처의 ?? 표기는 보존."
+    },
+    {
+      "row_id": "A30123-zh-00031",
+      "target_id": "XML:2210625",
+      "source_hash": "ae0cab4ba3f00a3be951d9c7363b8904860a36b08c0c66dfe28b084c93d0bb8d",
+      "source_ko": "(소속기관등의장) ??",
+      "previous_zh": "（附属机构主席等）??",
+      "meaning_pair_id": "b738a8cbe40235f1ac50cac88003beaeb0e327edf52ee90df0cc32867ab9c8e7",
+      "meaning_pair_path": "meaning/pairs/b7.jsonl",
+      "meaning_pair_blob_sha": "0c20f6783a0d2c8f50b8567ea6063fc8c0a22991",
+      "source_basis": "GITHUB_MEANING_PAIR",
+      "corrected_zh": "（所属机关等负责人）??",
+      "reason": "원문 소속기관장·국가보훈부장관·법정 서식 일자 및 신문용지 규격 오역 교정; 출처의 ?? 표기는 보존."
+    },
+    {
+      "row_id": "A30123-zh-00034",
+      "target_id": "XML:2210628",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "source_ko": "년",
+      "previous_zh": "年份",
+      "meaning_pair_id": "51a9c53d5e91050e3abe1ef30e6743e05bc272555042d615ccb26c1cbd4bac01",
+      "meaning_pair_path": "meaning/pairs/51.jsonl",
+      "meaning_pair_blob_sha": "2a81adc629ef25015135b3e8aeaefa4b1a7069b6",
+      "source_basis": "GITHUB_MEANING_PAIR",
+      "corrected_zh": "年",
+      "reason": "원문 소속기관장·국가보훈부장관·법정 서식 일자 및 신문용지 규격 오역 교정; 출처의 ?? 표기는 보존."
+    },
+    {
+      "row_id": "A30123-zh-00035",
+      "target_id": "XML:2210629",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "source_ko": "월",
+      "previous_zh": "月份",
+      "meaning_pair_id": "fe11e2c245c4120f7ec1489f418bd7cb4dfa4f13b76bd89d3b8f839acc883cfc",
+      "meaning_pair_path": "meaning/pairs/fe.jsonl",
+      "meaning_pair_blob_sha": "9931861966dfb563168bf709151bcce4f1995af5",
+      "source_basis": "GITHUB_MEANING_PAIR",
+      "corrected_zh": "月",
+      "reason": "원문 소속기관장·국가보훈부장관·법정 서식 일자 및 신문용지 규격 오역 교정; 출처의 ?? 표기는 보존."
+    },
+    {
+      "row_id": "A30123-zh-00037",
+      "target_id": "XML:2210631",
+      "source_hash": "56c86d3f978febce92d9b410743eed986bbcfac674faa5347f648480cc1b12da",
+      "source_ko": "국가보훈부장관 귀하",
+      "previous_zh": "致爱国者和退伍军人事务部长",
+      "meaning_pair_id": "1c7ff3fd672467392da39c2afb1b76992267f49e7c089dc54ee27bcb61bbe9bf",
+      "meaning_pair_path": "meaning/pairs/1c.jsonl",
+      "meaning_pair_blob_sha": "9cfbc9c985e591983314000477c714269734237d",
+      "source_basis": "GITHUB_MEANING_PAIR",
+      "corrected_zh": "致国家报勋部部长",
+      "reason": "원문 소속기관장·국가보훈부장관·법정 서식 일자 및 신문용지 규격 오역 교정; 출처의 ?? 표기는 보존."
+    },
+    {
+      "row_id": "A30123-zh-00038",
+      "target_id": "XML:2210632",
+      "source_hash": "eee3824dd21801d041612bc3bcf821d94803caef09733ecca12fe89e7b2e1885",
+      "source_ko": "경찰청장 또는 해양경찰청장 ??",
+      "previous_zh": "韩国国家警察厅长官或韩国海上保安厅长官 ??",
+      "meaning_pair_id": "1dd5142443826d58ea97ec7df94f1e529ede85228052f13a9ca5df2013654065",
+      "meaning_pair_path": "meaning/pairs/1d.jsonl",
+      "meaning_pair_blob_sha": "83ebf844feb603248004ffeea8c01e595399d696",
+      "source_basis": "GITHUB_MEANING_PAIR",
+      "corrected_zh": "警察厅厅长或海洋警察厅厅长 ??",
+      "reason": "원문 소속기관장·국가보훈부장관·법정 서식 일자 및 신문용지 규격 오역 교정; 출처의 ?? 표기는 보존."
+    },
+    {
+      "row_id": "A30123-zh-00039",
+      "target_id": "XML:2210633",
+      "source_hash": "f1f2c380b55e396454058df39772e93275325c02b23d6f7e799a881377f657f0",
+      "source_ko": "2106-366일",
+      "previous_zh": "2106-366 天",
+      "meaning_pair_id": "bf41dfb6c87f84d260db4f3605dca268eedc2f3660064d590b53bdfdbf9b71f8",
+      "meaning_pair_path": "meaning/pairs/bf.jsonl",
+      "meaning_pair_blob_sha": "209af1cfd7b8a6717a46e03d977f992fc7d33c42",
+      "source_basis": "GITHUB_MEANING_PAIR",
+      "corrected_zh": "2106-366日",
+      "reason": "원문 소속기관장·국가보훈부장관·법정 서식 일자 및 신문용지 규격 오역 교정; 출처의 ?? 표기는 보존."
+    },
+    {
+      "row_id": "A30123-zh-00042",
+      "target_id": "XML:2210636",
+      "source_hash": "b7a3a10d716a3863fe1699326f0e32bc86241e016f61c3b3ff99bc0f001778dd",
+      "source_ko": "(신문용지 54g/㎡)",
+      "previous_zh": "(报纸 54g/㎡)",
+      "meaning_pair_id": "c9840254b6509689d5bc29b66f53adcf9a9116b439250017fef2120295dcca00",
+      "meaning_pair_path": "meaning/pairs/c9.jsonl",
+      "meaning_pair_blob_sha": "9632c86b937740d2ddb858a05af4018c43a5dfde",
+      "source_basis": "GITHUB_MEANING_PAIR",
+      "corrected_zh": "（新闻纸54g/㎡）",
+      "reason": "원문 소속기관장·국가보훈부장관·법정 서식 일자 및 신문용지 규격 오역 교정; 출처의 ?? 표기는 보존."
+    }
+  ],
+  "validation": {
+    "row_ids_unique": true,
+    "source_hashes_match": true,
+    "korean_pairs_resolved_rows": 13,
+    "source_document_rows": 1,
+    "original_double_question_marks_preserved": true,
+    "document_A30123_total_rows": 42,
+    "document_A30123_all_unique_rows_accounted_for": true,
+    "total_cumulative_checked_rows": 632
+  },
+  "next_step": "A30123 complete, continue A30124 escort report."
+}
