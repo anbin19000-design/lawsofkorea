@@ -1,0 +1,275 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30127-00015-00028.json",
+      "blob_sha": "fff3ff7e9148b4eda1a76ae2f1d5d264bc9fe0eb",
+      "document_key": "A30127",
+      "rows_checked": 14,
+      "rows_corrected": 10
+    }
+  ],
+  "document": {
+    "key": "A30128",
+    "kind": "서식",
+    "title": "고발장",
+    "source_hash": "0d4702221c75221907b8b0a31eba8c6b835a013a16473d44665872d1b20ebe07",
+    "rows_checked": 13,
+    "rows_corrected": 12,
+    "document_review_state": "IN_PROGRESS"
+  },
+  "range": {
+    "first_row_id": "A30128-zh-00001",
+    "last_row_id": "A30128-zh-00013",
+    "verified_row_count": 13
+  },
+  "verified_rows": [
+    {
+      "row_id": "A30128-zh-00001",
+      "target_id": "XML:2210767",
+      "source_hash": "390f6b0b03f76d5847d1835df6feee5131b69e383427cf3b57170a3d03c822f1",
+      "source_ko": "■ 의무경찰대 설치 및 운영에 관한 법률 시행령 [별지 제8호서식] <개정 2015.11.20.>",
+      "previous_zh": "■ 征召警察部队设立及运作法实施令[附件8]<2015年11月20日修订>",
+      "meaning_pair_id": "0fbdb764e97c4a941d31f763639fa69ec51981936add4db8e1b97bfd82e8b660",
+      "source_basis": "authoritative Korean full complaint form and table context"
+    },
+    {
+      "row_id": "A30128-zh-00002",
+      "target_id": "XML:2210768",
+      "source_hash": "d24307983d740503ca27b203343415f10f63e83cbd1a264702f213732d4751c6",
+      "source_ko": "고 발 장",
+      "previous_zh": "高英尺长",
+      "meaning_pair_id": "cf81cea392eaaaef37a654eca741fd3fe7c155bf8e8e6c745ebef1f8d4bab296",
+      "source_basis": "authoritative Korean full complaint form and table context"
+    },
+    {
+      "row_id": "A30128-zh-00003",
+      "target_id": "XML:2210769",
+      "source_hash": "6758ae0a0ef76df56f02ee8618b38651d8d7d62ef1368c0b1b8d0cbf4931629b",
+      "source_ko": "수 신",
+      "previous_zh": "接收",
+      "meaning_pair_id": "334b2d21edcc786571c76434e6514c936bbd315d97f45d8ba0abe2f7d7ccd3e6",
+      "source_basis": "authoritative Korean full complaint form and table context"
+    },
+    {
+      "row_id": "A30128-zh-00004",
+      "target_id": "XML:2210770",
+      "source_hash": "e97852c450c7598031373f2189e48ad694adc49edd0ea3c189c44728c8cd7c56",
+      "source_ko": "(경유)",
+      "previous_zh": "（通过）",
+      "meaning_pair_id": "2745ce0e2764eb3000509d241e6d417d0dd437e735ef02ec5810687668e1e0f0",
+      "source_basis": "authoritative Korean full complaint form and table context"
+    },
+    {
+      "row_id": "A30128-zh-00005",
+      "target_id": "XML:2210771",
+      "source_hash": "c9e1d6c5b7b529ae2cbd78270ee26149c9169c2103de4cbb23ac9d1bdabec43b",
+      "source_ko": "제 목",
+      "previous_zh": "标题",
+      "meaning_pair_id": "b7b15021af02c31aa14a1f01fe7404583b7a8bbb37f6e96734f94f6ab2787706",
+      "source_basis": "authoritative Korean full complaint form and table context"
+    },
+    {
+      "row_id": "A30128-zh-00006",
+      "target_id": "XML:2210772",
+      "source_hash": "d24307983d740503ca27b203343415f10f63e83cbd1a264702f213732d4751c6",
+      "source_ko": "고 발 장",
+      "previous_zh": "高英尺长",
+      "meaning_pair_id": "cf81cea392eaaaef37a654eca741fd3fe7c155bf8e8e6c745ebef1f8d4bab296",
+      "source_basis": "authoritative Korean full complaint form and table context"
+    },
+    {
+      "row_id": "A30128-zh-00007",
+      "target_id": "XML:2210773",
+      "source_hash": "464e5ee42a29545e18c63778de4c1c79180ac6fd951107360fa5ab8248980f5b",
+      "source_ko": "「의무경찰대 설치 및 운영에 관한 법률 시행령」 제61조에 따라 다음 사람에 대하여 아",
+      "previous_zh": "根据《关于设立和运作义务警察部队的法律》实施令第61条，针对下列人员，",
+      "meaning_pair_id": "be05920098a73b011f3f2958fe2bbd2807aa400d759ebcbaf0457f8e5d5b6d11",
+      "source_basis": "authoritative Korean full complaint form and table context"
+    },
+    {
+      "row_id": "A30128-zh-00008",
+      "target_id": "XML:2210774",
+      "source_hash": "dad826f913ed2d744f32a8678e8452924be2a08ad7653369cf1bc75bb8639a18",
+      "source_ko": "래와 같이 피의사실을 고발합니다.",
+      "previous_zh": "我谨将所指控的事实陈述如下。",
+      "meaning_pair_id": "0a51d78ce11903ab9275722c857b9d2cc3a86e7677afb31965ea483e15d44b46",
+      "source_basis": "authoritative Korean full complaint form and table context"
+    },
+    {
+      "row_id": "A30128-zh-00009",
+      "target_id": "XML:2210775",
+      "source_hash": "7ed8127c6c8fd7a2a856115d4d7d66928d78730e88f4e1aa97a57b00b1368076",
+      "source_ko": "피고발인",
+      "previous_zh": "被告",
+      "meaning_pair_id": "12ed0c6621fb7310676a9cac5c3f89bf8c04c104d02d5f67b1ec2d6935cbcf2b",
+      "source_basis": "authoritative Korean full complaint form and table context"
+    },
+    {
+      "row_id": "A30128-zh-00010",
+      "target_id": "XML:2210776",
+      "source_hash": "f250b07e6c17bcd297911f67930fda92d0d4fe86e16bb44a8ac949c1b931c9a0",
+      "source_ko": "소 속",
+      "previous_zh": "隶属关系",
+      "meaning_pair_id": "16b862d8f6ce2c7ae0405cefc94dd784ad669fd99b6f3ff521245a13039ae51a",
+      "source_basis": "authoritative Korean full complaint form and table context"
+    },
+    {
+      "row_id": "A30128-zh-00011",
+      "target_id": "XML:2210777",
+      "source_hash": "3996849e928d97a747cf7aacbe1f49e1144ff2e885597b54d94dde9a195c0d59",
+      "source_ko": "직 책",
+      "previous_zh": "位置",
+      "meaning_pair_id": "527d06dcfe76f05cf644f08f2664bab1bd1fcde43c75920eee1357ab10fbeff5",
+      "source_basis": "authoritative Korean full complaint form and table context"
+    },
+    {
+      "row_id": "A30128-zh-00012",
+      "target_id": "XML:2210778",
+      "source_hash": "f34e450e93a735acb71ad87e810784dc2d9c78cb441e9027dc156117c57d9979",
+      "source_ko": "계 급",
+      "previous_zh": "系列等级",
+      "meaning_pair_id": "8bdd5b3774d5dcb5512aa0767840917111d7b71f24f1af06d369def2f6f1fb5e",
+      "source_basis": "authoritative Korean full complaint form and table context"
+    },
+    {
+      "row_id": "A30128-zh-00013",
+      "target_id": "XML:2210779",
+      "source_hash": "e50fb72349eb53a9483e6f070b1b598498407a057f831e6228f4601a8dcc5eb0",
+      "source_ko": "군 번",
+      "previous_zh": "组号",
+      "meaning_pair_id": "459b11690bf6e82a7e33047833af9f988d7b11a6d321fb749029730f7a54204c",
+      "source_basis": "authoritative Korean full complaint form and table context"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "A30128-zh-00001",
+      "target_id": "XML:2210767",
+      "source_hash": "390f6b0b03f76d5847d1835df6feee5131b69e383427cf3b57170a3d03c822f1",
+      "source_ko": "■ 의무경찰대 설치 및 운영에 관한 법률 시행령 [별지 제8호서식] <개정 2015.11.20.>",
+      "previous_zh": "■ 征召警察部队设立及运作法实施令[附件8]<2015年11月20日修订>",
+      "corrected_zh": "■ 《义务警察部队设立及运营法施行令》〔附件第8号格式〕<2015年11月20日修订>",
+      "reason": "고발장을 고소장·피고인과 혼동한 중국어 오역, 법령인용 및 소속·직책·계급 관련 오역 교정."
+    },
+    {
+      "row_id": "A30128-zh-00002",
+      "target_id": "XML:2210768",
+      "source_hash": "d24307983d740503ca27b203343415f10f63e83cbd1a264702f213732d4751c6",
+      "source_ko": "고 발 장",
+      "previous_zh": "高英尺长",
+      "corrected_zh": "告发书",
+      "reason": "고발장을 고소장·피고인과 혼동한 중국어 오역, 법령인용 및 소속·직책·계급 관련 오역 교정."
+    },
+    {
+      "row_id": "A30128-zh-00003",
+      "target_id": "XML:2210769",
+      "source_hash": "6758ae0a0ef76df56f02ee8618b38651d8d7d62ef1368c0b1b8d0cbf4931629b",
+      "source_ko": "수 신",
+      "previous_zh": "接收",
+      "corrected_zh": "收件单位",
+      "reason": "고발장을 고소장·피고인과 혼동한 중국어 오역, 법령인용 및 소속·직책·계급 관련 오역 교정."
+    },
+    {
+      "row_id": "A30128-zh-00004",
+      "target_id": "XML:2210770",
+      "source_hash": "e97852c450c7598031373f2189e48ad694adc49edd0ea3c189c44728c8cd7c56",
+      "source_ko": "(경유)",
+      "previous_zh": "（通过）",
+      "corrected_zh": "（经由）",
+      "reason": "고발장을 고소장·피고인과 혼동한 중국어 오역, 법령인용 및 소속·직책·계급 관련 오역 교정."
+    },
+    {
+      "row_id": "A30128-zh-00006",
+      "target_id": "XML:2210772",
+      "source_hash": "d24307983d740503ca27b203343415f10f63e83cbd1a264702f213732d4751c6",
+      "source_ko": "고 발 장",
+      "previous_zh": "高英尺长",
+      "corrected_zh": "告发书",
+      "reason": "고발장을 고소장·피고인과 혼동한 중국어 오역, 법령인용 및 소속·직책·계급 관련 오역 교정."
+    },
+    {
+      "row_id": "A30128-zh-00007",
+      "target_id": "XML:2210773",
+      "source_hash": "464e5ee42a29545e18c63778de4c1c79180ac6fd951107360fa5ab8248980f5b",
+      "source_ko": "「의무경찰대 설치 및 운영에 관한 법률 시행령」 제61조에 따라 다음 사람에 대하여 아",
+      "previous_zh": "根据《关于设立和运作义务警察部队的法律》实施令第61条，针对下列人员，",
+      "corrected_zh": "依据《义务警察部队设立及运营法施行令》第六十一条，就下列人员，",
+      "reason": "고발장을 고소장·피고인과 혼동한 중국어 오역, 법령인용 및 소속·직책·계급 관련 오역 교정."
+    },
+    {
+      "row_id": "A30128-zh-00008",
+      "target_id": "XML:2210774",
+      "source_hash": "dad826f913ed2d744f32a8678e8452924be2a08ad7653369cf1bc75bb8639a18",
+      "source_ko": "래와 같이 피의사실을 고발합니다.",
+      "previous_zh": "我谨将所指控的事实陈述如下。",
+      "corrected_zh": "按下述内容告发其涉嫌犯罪的事实。",
+      "reason": "고발장을 고소장·피고인과 혼동한 중국어 오역, 법령인용 및 소속·직책·계급 관련 오역 교정."
+    },
+    {
+      "row_id": "A30128-zh-00009",
+      "target_id": "XML:2210775",
+      "source_hash": "7ed8127c6c8fd7a2a856115d4d7d66928d78730e88f4e1aa97a57b00b1368076",
+      "source_ko": "피고발인",
+      "previous_zh": "被告",
+      "corrected_zh": "被告发人",
+      "reason": "고발장을 고소장·피고인과 혼동한 중국어 오역, 법령인용 및 소속·직책·계급 관련 오역 교정."
+    },
+    {
+      "row_id": "A30128-zh-00010",
+      "target_id": "XML:2210776",
+      "source_hash": "f250b07e6c17bcd297911f67930fda92d0d4fe86e16bb44a8ac949c1b931c9a0",
+      "source_ko": "소 속",
+      "previous_zh": "隶属关系",
+      "corrected_zh": "所属机关",
+      "reason": "고발장을 고소장·피고인과 혼동한 중국어 오역, 법령인용 및 소속·직책·계급 관련 오역 교정."
+    },
+    {
+      "row_id": "A30128-zh-00011",
+      "target_id": "XML:2210777",
+      "source_hash": "3996849e928d97a747cf7aacbe1f49e1144ff2e885597b54d94dde9a195c0d59",
+      "source_ko": "직 책",
+      "previous_zh": "位置",
+      "corrected_zh": "职务",
+      "reason": "고발장을 고소장·피고인과 혼동한 중국어 오역, 법령인용 및 소속·직책·계급 관련 오역 교정."
+    },
+    {
+      "row_id": "A30128-zh-00012",
+      "target_id": "XML:2210778",
+      "source_hash": "f34e450e93a735acb71ad87e810784dc2d9c78cb441e9027dc156117c57d9979",
+      "source_ko": "계 급",
+      "previous_zh": "系列等级",
+      "corrected_zh": "警衔",
+      "reason": "고발장을 고소장·피고인과 혼동한 중국어 오역, 법령인용 및 소속·직책·계급 관련 오역 교정."
+    },
+    {
+      "row_id": "A30128-zh-00013",
+      "target_id": "XML:2210779",
+      "source_hash": "e50fb72349eb53a9483e6f070b1b598498407a057f831e6228f4601a8dcc5eb0",
+      "source_ko": "군 번",
+      "previous_zh": "组号",
+      "corrected_zh": "军籍编号",
+      "reason": "고발장을 고소장·피고인과 혼동한 중국어 오역, 법령인용 및 소속·직책·계급 관련 오역 교정."
+    }
+  ],
+  "validation": {
+    "row_ids_unique": true,
+    "source_blobs_unchanged": true,
+    "form_context_checked": true,
+    "no_mtq_start_korean_in_edits": true,
+    "total_cumulative_checked_rows": 767
+  },
+  "next_step": "Continue A30128 14-26 and then A30130."
+}
