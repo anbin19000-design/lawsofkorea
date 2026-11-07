@@ -30,7 +30,20 @@
   },
   "assistant_count": 2,
   "assistant_excerpt": "\n\n저장소 / 브랜치\n\n\t\n\nanbin19000-design/lawsofkorea / main\n\n\n\n\n법령가족\n\n\t\n\n소방장비관리법\n\n\n\n\n대상\n\n\t\n\n26개 문서 · 중국어 1,162행\n\n\n\n\n한국어 원문\n\n\t\n\n기준 커밋과 파일 SHA 일치\n\n\n\n\n기존 검수 파일\n\n\t\n\n없음 (404)\n\n\n\n\n기존 완료 영수증\n\n\t\n\n없음 (404)\n\n\n\n\nMTQ 표식\n\n\t\n\n17개 행에서 발견\n\n\n\n\n중국어 공백 행\n\n\t\n\n0개\n\n\n\n\n수치 대조 후보\n\n\t\n\n75개 행 — 추가 확인 필요\n\n원문 무결성 확인\n\nlaws/ko/F-3705abbc710de4b867bc.json\n\n기준 커밋과 현재 main에서 확인한 파일 SHA:\n\n7974bf81d14f4838ae85d4b3ceea80a2f0e65fed\n\n확인된 교정 대상\n\n소방장비 분류 별표: MTQ 표식 8개 행\n\n센터·사업소 지정취소 기준: MTQ 표식 2개 행\n\n신청서·서식 및 재고관리대장: MTQ 표식 7개 행\n\n법률 본문 제2조 정의: 중국어 항목 번호 2와 6 누락\n\n일부 법률명·조문 인용: 한국어 원문과 번역문 간 추가 대조 필요\n\n수치 대조 후보 75개는 한자 숫자 표기 등 정상 번역도 포함하므로 오류로 확정하지 않았습니다.\n\n저장 결과\n\n현재 1,162행 전체에 대한 한·중 문맥 검수가 끝나지 않았습니다. 따라서 다음 두 파일은 생성하지 않았습니다.\n\nreview/zh/F-3705abbc710de4b867bc.json\n\nreceipts/F-3705abbc710de4b867bc.json\n\n원본 데이터와 기존 파일은 변경하지 않았으며, 허위 COMPLETE 기록도 생성하지 않았습니다.\n\n최종 상태: 미완료. 원문 변경이나 권한 거절은 확인되지 않았으며, 남은 작업은 중국어 전체 행의 실제 대조·교정과 공식 GitHub 저장 검증입니다.",
+  "attempted_at": "2026-11-07T22:13:45.745001+00:00",
   "created_at": "2026-11-07T22:13:40.624478+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-8183a621b8430dee4e0cc754affc1b45",
+    "attempted_at": "2026-11-07T22:13:45.745001+00:00",
+    "claim_commit": "1d1b7e2634efe2022e40f21726c231d7ddc8c2ab",
+    "event_id": "obs-e41efc891c7876c1247795e6a06627dd1548c448",
+    "job_id": "F-3705abbc710de4b867bc",
+    "record_path": "status/delivery/recovery-S2-8183a621b8430dee4e0cc754affc1b45.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C05"
+  },
   "episode": 1,
   "event_id": "obs-e41efc891c7876c1247795e6a06627dd1548c448",
   "job_id": "F-3705abbc710de4b867bc",
@@ -41,7 +54,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-056d2bbf9ac9415cdb1a71e1]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "dc7f180920c1b2625b51d1ab63f7ec239eb4da3d",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef9e88-c3f8-83e8-ad64-0f3c30f831db",
   "worker": "C05"
 }
