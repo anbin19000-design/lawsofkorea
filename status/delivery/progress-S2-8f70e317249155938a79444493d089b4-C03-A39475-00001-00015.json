@@ -1,0 +1,78 @@
+{
+  "schema": "LAW_ZH_PARTIAL_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A39475",
+  "range": {
+    "first": "A39475-zh-00001",
+    "last": "A39475-zh-00015"
+  },
+  "checked_rows": 15,
+  "corrected_rows": 12,
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "edits": [
+    {
+      "id": "A39475-zh-00001",
+      "source_hash": "c0e9c5454476bdd423121aebd4705048115fe8fefac991f4b0ed324090d471b4",
+      "text": "■ 《防止人口贩运等及保护受害者等法施行令》〔附表二〕"
+    },
+    {
+      "id": "A39475-zh-00005",
+      "source_hash": "2b3a127d1217c5ef0f5f85fdfcbc804e1ca73ec04d70a5eee93cbfecfc824690",
+      "text": "1. 受害者权益"
+    },
+    {
+      "id": "A39475-zh-00006",
+      "source_hash": "e146a5483748228d281501c42ddcde80ba0a913eebc04d4b1806f4147bf85642",
+      "text": "甲. 依《社会福利事业法》第十一条第一款取得一级社会福利师"
+    },
+    {
+      "id": "A39475-zh-00007",
+      "source_hash": "e4b4d4445dfc7718261e8c3daaef64b4c514687b34b886818c179c5c6d9827f2",
+      "text": "保护机构"
+    },
+    {
+      "id": "A39475-zh-00008",
+      "source_hash": "d6b4cd3f8951c1ed826c692b1504ee46f25dd8f0e9c0a1c686587baf0423eb3d",
+      "text": "资格，且从事社会福利或者人权领域相关工作"
+    },
+    {
+      "id": "A39475-zh-00009",
+      "source_hash": "17fe2beaab3144d9709e38d472ef44f6d46a7b6a63a69e1ae82c49debc26cfe2",
+      "text": "负责人"
+    },
+    {
+      "id": "A39475-zh-00010",
+      "source_hash": "9788d30e803b44eb7876fdc3986195ebca726050376da34dd4c82a3a75610cbf",
+      "text": "满五年以上的人。"
+    },
+    {
+      "id": "A39475-zh-00011",
+      "source_hash": "21bad47c15b3284175cb511625771a93c7c49994277bd0bc967ffcb2a88caebc",
+      "text": "乙. 在社会福利设施、社会福利团体、公益团体或者人权团体任职"
+    },
+    {
+      "id": "A39475-zh-00012",
+      "source_hash": "11e235712cc5e7d4b297cd257be07befd0354f42c246f75eea3b7ac8f6ef01e7",
+      "text": "并从事社会福利或者人权领域相关工作满七年"
+    },
+    {
+      "id": "A39475-zh-00013",
+      "source_hash": "ffd3bbb423e907d1b8cbba8ac837eff6da8742d4dad67ce1068d9a8b5c6d0a90",
+      "text": "的人。"
+    },
+    {
+      "id": "A39475-zh-00014",
+      "source_hash": "5c13dc8ae5f699c961c7f874ae29aeca4c65f22b2d83ac5252d6372867e3ed98",
+      "text": "丙. 作为国家或者地方自治团体七级以上公务员，从事社会福利"
+    },
+    {
+      "id": "A39475-zh-00015",
+      "source_hash": "c5accd40ba1ac4b2d28825dfa608ccb07f81042ac177f78eb939c015e04aae22",
+      "text": "或者人权领域相关工作满七年的人。"
+    }
+  ],
+  "note": "Reviewed first 15 annex 2 XML fragments with full Korean table context. Corrected implementing decree title; split role name victim-rights protection institution head; social-welfare worker 1st-grade qualification and five-year experience; nonprofit organizations seven-year experience; public officials level 7 or above and seven-year experience. Restored START corruption. Other 3 fragments retained."
+}
