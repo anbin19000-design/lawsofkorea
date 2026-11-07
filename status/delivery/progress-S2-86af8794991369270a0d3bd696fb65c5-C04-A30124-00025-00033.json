@@ -1,0 +1,192 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30124-00013-00024.json",
+      "blob_sha": "706bd771017ff3dc3ceac187fb6a83ca90dcdd84",
+      "document_key": "A30124",
+      "rows_checked": 12,
+      "rows_corrected": 12
+    }
+  ],
+  "document": {
+    "key": "A30124",
+    "kind": "서식",
+    "title": "피질문자 동행조치 보고서",
+    "source_hash": "c8f8c09425c02745dd01cac66d4ef069ffbbb1b117998443b39ef5d09fe2c4a2",
+    "rows_checked": 9,
+    "rows_corrected": 5,
+    "document_review_state": "DOCUMENT_ROWS_CHECKED"
+  },
+  "range": {
+    "first_row_id": "A30124-zh-00025",
+    "last_row_id": "A30124-zh-00033",
+    "verified_row_count": 9
+  },
+  "verified_rows": [
+    {
+      "row_id": "A30124-zh-00025",
+      "target_id": "XML:2210665",
+      "source_hash": "dfc76879e2f5c3ead09186ff1c6b635624f96b7adbd71d94c37566429ca5df6f",
+      "source_ko": "일",
+      "previous_zh": "日",
+      "source_basis": "meaning/pairs plus authoritative full form",
+      "meaning_pair_path": "meaning/pairs/09.jsonl",
+      "meaning_pair_blob_sha": "b34df343206cfe6fd3e3189c58a3aa10fcb801f7"
+    },
+    {
+      "row_id": "A30124-zh-00026",
+      "target_id": "XML:2210666",
+      "source_hash": "62764b15e1724e8e7f07a6a778ccb41745af1a063dae9ad7e298b88892a97c46",
+      "source_ko": "보고자",
+      "previous_zh": "报告器",
+      "source_basis": "meaning/pairs plus authoritative full form",
+      "meaning_pair_path": "meaning/pairs/c1.jsonl",
+      "meaning_pair_blob_sha": "53ccb7ca26836dc9699ee095198152b699551d35"
+    },
+    {
+      "row_id": "A30124-zh-00027",
+      "target_id": "XML:2210667",
+      "source_hash": "01603d13dd6590d7676446f682aed959803754281fa23ce912d6c1bf93cbcb15",
+      "source_ko": "소속기관",
+      "previous_zh": "隶属关系",
+      "source_basis": "meaning/pairs plus authoritative full form",
+      "meaning_pair_path": "meaning/pairs/16.jsonl",
+      "meaning_pair_blob_sha": "f8df6085fea409743c4f7aa388de4c68f3993971"
+    },
+    {
+      "row_id": "A30124-zh-00028",
+      "target_id": "XML:2210668",
+      "source_hash": "e30475ab58895c7ee4d6393695dfae85c53660e08827eea68f29b851a6f6a3a8",
+      "source_ko": "순위",
+      "form_source_ko_context": "계급",
+      "previous_zh": "排名",
+      "source_basis": "authoritative form source_ko with pair mismatch noted",
+      "meaning_pair_path": "meaning/pairs/52.jsonl",
+      "meaning_pair_blob_sha": "2b94bc4dc0c044d1758732af2fa3934ce233a317"
+    },
+    {
+      "row_id": "A30124-zh-00029",
+      "target_id": "XML:2210669",
+      "source_hash": "5aa32deffdf1362feb45b4aaf4a1945b15c91915f96194031e41bc759b5f2f97",
+      "source_ko": "명",
+      "form_source_ko_context": "성명",
+      "previous_zh": "名称",
+      "source_basis": "authoritative form source_ko with pair mismatch noted",
+      "meaning_pair_path": "meaning/pairs/e5.jsonl",
+      "meaning_pair_blob_sha": "ce7752e05c07f438119bbf9c3341b68d88d61e82"
+    },
+    {
+      "row_id": "A30124-zh-00030",
+      "target_id": "XML:2210670",
+      "source_hash": "368b92683273104dafdda4b6b123f0c2fa94b3dc2fe48363bb0cb637d4a9cf8d",
+      "source_ko": "2106-367일",
+      "previous_zh": "2106-367 天",
+      "source_basis": "meaning/pairs plus authoritative full form",
+      "meaning_pair_path": "meaning/pairs/a1.jsonl",
+      "meaning_pair_blob_sha": "3240073aee8dbf9f2bc8d17db805d5c751acb062"
+    },
+    {
+      "row_id": "A30124-zh-00031",
+      "target_id": "XML:2210671",
+      "source_hash": "aeac84d3dd867baeb9bfc4f68e828548cd40f15ee1f9d40b4a2db09806fcfdf0",
+      "source_ko": "190㎜×268㎜",
+      "previous_zh": "190㎜×268㎜",
+      "source_basis": "authoritative full form (unmatched numeric dimension)",
+      "meaning_pair_path": null,
+      "meaning_pair_blob_sha": null
+    },
+    {
+      "row_id": "A30124-zh-00032",
+      "target_id": "XML:2210672",
+      "source_hash": "e687a4d7a90ceee390e62e1ce5cf6e8ac109f8fc5dbb877bdcaf347a8f37b1bb",
+      "source_ko": "83.7.19 승인",
+      "previous_zh": "83.7.19 已批准",
+      "source_basis": "meaning/pairs plus authoritative full form",
+      "meaning_pair_path": "meaning/pairs/1a.jsonl",
+      "meaning_pair_blob_sha": "1c436f92ffc58baadbd287b7b4fda4112478de0d"
+    },
+    {
+      "row_id": "A30124-zh-00033",
+      "target_id": "XML:2210673",
+      "source_hash": "b7a3a10d716a3863fe1699326f0e32bc86241e016f61c3b3ff99bc0f001778dd",
+      "source_ko": "(신문용지 54g/㎡)",
+      "previous_zh": "(报纸 54g/㎡)",
+      "source_basis": "meaning/pairs plus authoritative full form",
+      "meaning_pair_path": "meaning/pairs/c9.jsonl",
+      "meaning_pair_blob_sha": "9632c86b937740d2ddb858a05af4018c43a5dfde"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "A30124-zh-00026",
+      "target_id": "XML:2210666",
+      "source_hash": "62764b15e1724e8e7f07a6a778ccb41745af1a063dae9ad7e298b88892a97c46",
+      "source_ko": "보고자",
+      "previous_zh": "报告器",
+      "corrected_zh": "报告人",
+      "reason": "한·중 원문 비교 후 명백한 보고자·소속기관·신문용지 용어 오역 교정."
+    },
+    {
+      "row_id": "A30124-zh-00027",
+      "target_id": "XML:2210667",
+      "source_hash": "01603d13dd6590d7676446f682aed959803754281fa23ce912d6c1bf93cbcb15",
+      "source_ko": "소속기관",
+      "previous_zh": "隶属关系",
+      "corrected_zh": "所属机关",
+      "reason": "한·중 원문 비교 후 명백한 보고자·소속기관·신문용지 용어 오역 교정."
+    },
+    {
+      "row_id": "A30124-zh-00028",
+      "target_id": "XML:2210668",
+      "source_hash": "e30475ab58895c7ee4d6393695dfae85c53660e08827eea68f29b851a6f6a3a8",
+      "source_ko": "계급",
+      "previous_zh": "排名",
+      "corrected_zh": "警衔",
+      "reason": "권위 있는 원문 서식의 ‘계급/성명’에 맞게 교정. 보조 meaning/pairs와 문맥 차이를 명시하고 원문 우선."
+    },
+    {
+      "row_id": "A30124-zh-00029",
+      "target_id": "XML:2210669",
+      "source_hash": "5aa32deffdf1362feb45b4aaf4a1945b15c91915f96194031e41bc759b5f2f97",
+      "source_ko": "성명",
+      "previous_zh": "名称",
+      "corrected_zh": "姓名",
+      "reason": "권위 있는 원문 서식의 ‘계급/성명’에 맞게 교정. 보조 meaning/pairs와 문맥 차이를 명시하고 원문 우선."
+    },
+    {
+      "row_id": "A30124-zh-00033",
+      "target_id": "XML:2210673",
+      "source_hash": "b7a3a10d716a3863fe1699326f0e32bc86241e016f61c3b3ff99bc0f001778dd",
+      "source_ko": "(신문용지 54g/㎡)",
+      "previous_zh": "(报纸 54g/㎡)",
+      "corrected_zh": "（新闻纸54克/平方米）",
+      "reason": "한·중 원문 비교 후 명백한 보고자·소속기관·신문용지 용어 오역 교정."
+    }
+  ],
+  "validation": {
+    "row_ids_unique": true,
+    "source_hashes_match": true,
+    "authoritative_full_form_checked": true,
+    "corrected_zh_free_of_mtq_start_and_korean": true,
+    "unmatched_pair_count": 1,
+    "pair_vs_form_source_conflict_ids": [
+      "A30124-zh-00028",
+      "A30124-zh-00029"
+    ],
+    "total_cumulative_checked_rows": 665
+  },
+  "next_step": "A30124 full 33 checked; next A30125 1-28 then A30126-30. No COMPLETE before 800 rows."
+}
