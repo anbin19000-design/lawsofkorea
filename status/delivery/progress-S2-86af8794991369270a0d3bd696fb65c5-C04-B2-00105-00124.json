@@ -1,0 +1,319 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B1-01.json",
+      "blob_sha": "69fcf795c9621b125ae73864793ee4064bd4b815",
+      "document_key": "B1",
+      "rows_checked": 145,
+      "rows_corrected": 26
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "blob_sha": "aeba15bca83d7887b5e9f7ce393fba770a9b5faa",
+      "verified_rows": 12,
+      "documents": [
+        "A30118",
+        "A30120"
+      ]
+    },
+    {
+      "path": "status/delivery/verified-step-S2-86af8794991369270a0d3bd696fb65c5-C04-CHECKPOINT-166-01.json",
+      "blob_sha": "33003dbd344370d5b2cf92bb05838b92b144a7ba",
+      "status": "INTENT_NO_RESEND"
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-01.json",
+      "blob_sha": "5f92fef46a104d832b4e6944e94ab8ba7257dda1",
+      "document_key": "B2",
+      "rows_checked": 36,
+      "rows_corrected": 31
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00037-00044.json",
+      "blob_sha": "31d1e93b2b7bc2aab9430a0d4b201c246301d1c5",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00045-00052.json",
+      "blob_sha": "be37a2f05e6c47bf33ec4ea58b1d6163df4b96a1",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00053-00060.json",
+      "blob_sha": "385725a9ff5c6f74e8cb723a6fc91fbcf072d639",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00061-00072.json",
+      "blob_sha": "4573174026ca13b9d49225d71e76f10c6ab2d76f",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00073-00084.json",
+      "blob_sha": "eb20464990f1e23042b03e95a20ed243fed5c555",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00085-00104.json",
+      "blob_sha": "30ba440fd5a8c3e355e8e79c418c6c9b7adcaa9f",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    }
+  ],
+  "document": {
+    "key": "B2",
+    "kind": "대통령령",
+    "title": "의무경찰대 설치 및 운영에 관한 법률 시행령",
+    "source_hash": "da345505912da9c84c24a63989aee8605f2465beea1b28313585cd363b8b2504",
+    "rows_checked": 20,
+    "rows_corrected": 5,
+    "document_review_state": "IN_PROGRESS"
+  },
+  "range": {
+    "first_row_id": "B2-zh-00105",
+    "last_row_id": "B2-zh-00124",
+    "verified_row_count": 20
+  },
+  "verified_rows": [
+    {
+      "row_id": "B2-zh-00105",
+      "target_id": "8e3ee492ec7d9777e000c2c8f1bdb6c369ba05c445fd75ee44bd87fe6587d354",
+      "source_hash": "074ffea9241c1ad50027c7163326fcb59c5ad78550a0291bfeb3e8b881a1085e",
+      "source_ko": "부칙(서식중본적란삭제를위한상훈법시행령등의일부개정령) <제12555호,1988.12.19>\n\n①(시행일) 이 영은 공포한 날로부터 시행한다.\n\n②(경과조치) 이 영 시행전에 종전의 규정에 의하여 작성되어 사용중인 서식은 계속하여 사용하되, 이 영에 의하여 삭제된 난은 기재하지 아니한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "补充规定（关于删除表格中“原籍地”栏的《荣誉与奖励法》等实施法令的部分修正）<1988年12月19日，第12555号>\n\n①（生效日期）本法令自公布之日起生效。\n\n②（过渡措施）根据先前规定在本法令实施前已编制和使用的表格可以继续使用；但是，根据本法令删除的部分不得填写。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00106",
+      "target_id": "552992b7e0c75c339a7b017bb114dd0b920d21c8fe4acec8ea165771b642fd52",
+      "source_hash": "e4d29d65eb0a264859f4492d98406bba2c05c28442a95a26dccb639f388c284f",
+      "source_ko": "부칙(병역의무의특례규제에관한법률시행령) <제12992호,1990.4.30>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "补充法令（《兵役义务特别规定法》实施令）<1990年4月30日第12992号>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00107",
+      "target_id": "7a01215aca8b910549318c058fda482483c16802b0c036cf2a6b615ad1724649",
+      "source_hash": "40ac608cf2787f4f50a97c8b940ad8db5f2f59c445aea0216bf6cbd54d933b82",
+      "source_ko": "제1조 (시행일) 이 영은 공포한 날부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自公布之日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00108",
+      "target_id": "58a0ad503c6358caaa051b05b445addf0a267e34479e5de1328afdbe7dc3648b",
+      "source_hash": "2bda9b21046fb6bdc567072c89f09443b5d37f80a35c0d89ec2cdcf2eed6f18a",
+      "source_ko": "제2조 내지 제8조 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "省略第2至8条\n\n"
+    },
+    {
+      "row_id": "B2-zh-00109",
+      "target_id": "351d0322f6822549bdc72d7ba80bf2c501486cc2c57533131fe027d521994cab",
+      "source_hash": "8cb163ef4006313ffc47503f27e484e8b95afa81f7170a13daaaebd67471fee1",
+      "source_ko": "부칙(경찰공무원임용령) <제13435호,1991.7.30>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "补充文件（警官任命法令）<第13435号，1991年7月30日>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00110",
+      "target_id": "ace8c6f93c65a401dd463f337f43332eaf1a2bc14573bb5a1d06245a19a9b72c",
+      "source_hash": "a4c857a595e997561a37cba9c34a782ccf266d8811e6e11454d576e7e9c3f219",
+      "source_ko": "제1조 (시행일) 이 영은 1991년 7월 31일부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自1991年7月31日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00111",
+      "target_id": "f4ff0130c2066d4440380ccd645e7c49093457e2027d3ea132e332e8d5154104",
+      "source_hash": "c27a8d90e2fad39db31a7ec7c05311572dbb07d5ec24565e9bc0e8ebd63ca618",
+      "source_ko": "제2조 및 제3조 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "省略第 2 条和第 3 条\n\n"
+    },
+    {
+      "row_id": "B2-zh-00112",
+      "target_id": "315acfbea3ba14d817f7d24891dd38dfb2e5dd062b965921e85a9e8caf2f4cb5",
+      "source_hash": "07eb7fbdd4f41f17e48825a8292813f4d7cd6df8250e59c68a8c9cb608767c4d",
+      "source_ko": "부칙 <제14038호,1993.12.31>\n\n이 영은 공포한 날부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "补充规定 <第14038号，1993年12月31日>\n\n本法令自颁布之日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00113",
+      "target_id": "53364a847a66bdddf5d310972b3d8083891092d7bd87b1bb9f6b2f9cb51efc7b",
+      "source_hash": "664a2a7a83fad9301d11160961a7c1da94bddc23265279ca91ab9e5e44d3ce2a",
+      "source_ko": "부칙(병역법시행령) <제14397호,1994.10.6>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "补充规定（兵役法实施令）<1994年10月6日第14397号>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00114",
+      "target_id": "5fcaa0fcf5f0b77bb57261d2bd938b6e6d77ff8175ca466f8422fea0d272ab4c",
+      "source_hash": "15f8655de762f8a37d7f6d34577326cd6fc38b3ae996e09b709979c842c016c6",
+      "source_ko": "제1조 (시행일) 이 영은 공포한 날부터 시행한다. <단서 생략>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自公布之日起生效。<但书略>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00115",
+      "target_id": "e388492499ba845462a69baa94d4e1670e0fc601bb37e253b6472a60285c9d35",
+      "source_hash": "43558608be82108a7c826b49372cdc1ecc6266f53398024cff479eebe2be7268",
+      "source_ko": "제2조 내지 제14조 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "省略第 2 至 14 条\n\n"
+    },
+    {
+      "row_id": "B2-zh-00116",
+      "target_id": "209412e544a69f957689fea07877e9c9e5bdd7c08e844107317b0d818e245b14",
+      "source_hash": "f070c16dfc8fdaeb519c12bce09b89fce757a05e0a193af89b4dd87f8385b18f",
+      "source_ko": "부칙(재정경제원과그소속기관직제) <제14438호,1994.12.23>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "增编（财政经济部及其附属机构的组织结构）<1994年12月23日第14438号>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00117",
+      "target_id": "5d58088b94b2ad9cb5fddd2d23174037c7561d3d33086af68b46c58564c5019e",
+      "source_hash": "40ac608cf2787f4f50a97c8b940ad8db5f2f59c445aea0216bf6cbd54d933b82",
+      "source_ko": "제1조 (시행일) 이 영은 공포한 날부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自公布之日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00118",
+      "target_id": "29bab0d7ecf73833303fb02497a71554363197f6fbd95fd251bc0e75f25df133",
+      "source_hash": "5b9afbdf2e8854c1395bfd4c406e8831273cb316d6a621d74a00d09486bb51ae",
+      "source_ko": "제2조 내지 제5조 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "省略第 2 至 5 条\n\n"
+    },
+    {
+      "row_id": "B2-zh-00119",
+      "target_id": "cfecd94c22d7571eb04e4e1a05b40feeb69f8eba196889b3422fcb4fb9a4b469",
+      "source_hash": "efee0b9b99209d4515d9b82ae5afb4aa4d50e103fa1349ebc0a08a1f8cb12a97",
+      "source_ko": "부칙(해양경찰청과그소속기관직제) <제15136호,1996.8.8>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "增编（韩国海警及其附属机构组织）<1996年8月8日第15136号>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00120",
+      "target_id": "4e834a31047ec249aca50594e3d45edb7ca20b6b8e552538096c85adea271d1a",
+      "source_hash": "40ac608cf2787f4f50a97c8b940ad8db5f2f59c445aea0216bf6cbd54d933b82",
+      "source_ko": "제1조 (시행일) 이 영은 공포한 날부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自公布之日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00121",
+      "target_id": "77b5dbea128d255186c0081be250f73f01acf4d2610b87d9729d954869acc256",
+      "source_hash": "119c19aa8cf5d20a95854f948299b43b564b2b8788981249c71d35dec8490177",
+      "source_ko": "제2조 내지 제4조 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "省略第 2 至 4 条\n\n"
+    },
+    {
+      "row_id": "B2-zh-00122",
+      "target_id": "692f62b4d7788fa8eebe484e757fa36d8d5c1d4f9fa4665bdad4675b3aa2d17e",
+      "source_hash": "3c7c8cd289b690d458e412c1bdf1a482bcd0d1f85cac22ffa64613d58dbec495",
+      "source_ko": "부칙(병역법시행령) <제15380호,1997.5.27>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "补充条款（兵役法实施令）<1997年5月27日第15380号法令>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00123",
+      "target_id": "1b05e9e8d13ab362502a30d9a0c7cd3c000b046fe8bf1961568f9a5fd8f61909",
+      "source_hash": "15f8655de762f8a37d7f6d34577326cd6fc38b3ae996e09b709979c842c016c6",
+      "source_ko": "제1조 (시행일) 이 영은 공포한 날부터 시행한다. <단서 생략>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自公布之日起生效。<但书略>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00124",
+      "target_id": "f0716b270db83b2ff58b6298a96a9f47fba777344361bf59533f89f77c449565",
+      "source_hash": "5a59a79dd14cf60a8856d88c6eeec15a3bcd860d4b2df98e6a6f94e4ec6af028",
+      "source_ko": "제2조 내지 제6조 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "省略第 2 至 6 条\n\n"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "B2-zh-00105",
+      "target_id": "8e3ee492ec7d9777e000c2c8f1bdb6c369ba05c445fd75ee44bd87fe6587d354",
+      "source_hash": "074ffea9241c1ad50027c7163326fcb59c5ad78550a0291bfeb3e8b881a1085e",
+      "source_ko": "부칙(서식중본적란삭제를위한상훈법시행령등의일부개정령) <제12555호,1988.12.19>\n\n①(시행일) 이 영은 공포한 날로부터 시행한다.\n\n②(경과조치) 이 영 시행전에 종전의 규정에 의하여 작성되어 사용중인 서식은 계속하여 사용하되, 이 영에 의하여 삭제된 난은 기재하지 아니한다.\n\n",
+      "previous_zh": "补充规定（关于删除表格中“原籍地”栏的《荣誉与奖励法》等实施法令的部分修正）<1988年12月19日，第12555号>\n\n①（生效日期）本法令自公布之日起生效。\n\n②（过渡措施）根据先前规定在本法令实施前已编制和使用的表格可以继续使用；但是，根据本法令删除的部分不得填写。\n\n",
+      "corrected_zh": "附则（为删除表格中的本籍栏而对《赏勋法施行令》等作出部分修订的命令）<第12555号，1988年12月19日>\n\n①（施行日期）本施行令自公布之日起施行。\n\n②（过渡措施）本施行令施行前依据原有规定制作并正在使用的表格可以继续使用，但不得填写依本施行令删除的栏位。\n\n",
+      "reason": "부칙의 법명·시행령·소속기관 직제 등 고유명사 및 규범유형 오역 교정."
+    },
+    {
+      "row_id": "B2-zh-00106",
+      "target_id": "552992b7e0c75c339a7b017bb114dd0b920d21c8fe4acec8ea165771b642fd52",
+      "source_hash": "e4d29d65eb0a264859f4492d98406bba2c05c28442a95a26dccb639f388c284f",
+      "source_ko": "부칙(병역의무의특례규제에관한법률시행령) <제12992호,1990.4.30>\n\n",
+      "previous_zh": "补充法令（《兵役义务特别规定法》实施令）<1990年4月30日第12992号>\n\n",
+      "corrected_zh": "附则（《关于兵役义务特别例外规制的法律施行令》）<第12992号，1990年4月30日>\n\n",
+      "reason": "부칙의 법명·시행령·소속기관 직제 등 고유명사 및 규범유형 오역 교정."
+    },
+    {
+      "row_id": "B2-zh-00109",
+      "target_id": "351d0322f6822549bdc72d7ba80bf2c501486cc2c57533131fe027d521994cab",
+      "source_hash": "8cb163ef4006313ffc47503f27e484e8b95afa81f7170a13daaaebd67471fee1",
+      "source_ko": "부칙(경찰공무원임용령) <제13435호,1991.7.30>\n\n",
+      "previous_zh": "补充文件（警官任命法令）<第13435号，1991年7月30日>\n\n",
+      "corrected_zh": "附则（《警察公务员任用令》）<第13435号，1991年7月30日>\n\n",
+      "reason": "부칙의 법명·시행령·소속기관 직제 등 고유명사 및 규범유형 오역 교정."
+    },
+    {
+      "row_id": "B2-zh-00116",
+      "target_id": "209412e544a69f957689fea07877e9c9e5bdd7c08e844107317b0d818e245b14",
+      "source_hash": "f070c16dfc8fdaeb519c12bce09b89fce757a05e0a193af89b4dd87f8385b18f",
+      "source_ko": "부칙(재정경제원과그소속기관직제) <제14438호,1994.12.23>\n\n",
+      "previous_zh": "增编（财政经济部及其附属机构的组织结构）<1994年12月23日第14438号>\n\n",
+      "corrected_zh": "附则（《财政经济院及其所属机关职制》）<第14438号，1994年12月23日>\n\n",
+      "reason": "부칙의 법명·시행령·소속기관 직제 등 고유명사 및 규범유형 오역 교정."
+    },
+    {
+      "row_id": "B2-zh-00119",
+      "target_id": "cfecd94c22d7571eb04e4e1a05b40feeb69f8eba196889b3422fcb4fb9a4b469",
+      "source_hash": "efee0b9b99209d4515d9b82ae5afb4aa4d50e103fa1349ebc0a08a1f8cb12a97",
+      "source_ko": "부칙(해양경찰청과그소속기관직제) <제15136호,1996.8.8>\n\n",
+      "previous_zh": "增编（韩国海警及其附属机构组织）<1996年8月8日第15136号>\n\n",
+      "corrected_zh": "附则（《海洋警察厅及其所属机关职制》）<第15136号，1996年8月8日>\n\n",
+      "reason": "부칙의 법명·시행령·소속기관 직제 등 고유명사 및 규범유형 오역 교정."
+    }
+  ],
+  "validation": {
+    "row_ids_unique": true,
+    "source_hashes_match": true,
+    "verified_korean_offsets": true,
+    "no_untranslated_or_mtq_start_markers": true,
+    "english_reference": "documents/en/kr-004766-281729-en.json",
+    "total_cumulative_checked_rows": 281
+  },
+  "next_step": "Continue from B2-zh-00125; never mark COMPLETE until all 800 rows verified."
+}
