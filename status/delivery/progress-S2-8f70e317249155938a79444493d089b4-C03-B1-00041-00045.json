@@ -1,0 +1,23 @@
+{
+  "schema": "LAW_ZH_PARTIAL_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "B1",
+  "range": {
+    "first": "B1-zh-00041",
+    "last": "B1-zh-00045"
+  },
+  "checked_rows": 5,
+  "corrected_rows": 1,
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "edits": [
+    {
+      "id": "B1-zh-00043",
+      "source_hash": "7675c38ed2cd87aa4cb7142f88cff4526b93b5d72ef5e232bad49adace63932c",
+      "text": "第四十一条（支援设施的合并设立和运营）国家或者地方自治团体可以将依本法设立、运营的支援设施与总统令规定的性质相似的设施合并设立、运营，或者建议将其合并设立、运营。\n\n第五章 关于外国籍受害者的特别规定\n\n"
+    }
+  ],
+  "note": "All five rows compared against Korean. Article 41 corrected repeated machine wording of combined establishment and operation. 41,42,44,45 otherwise retained."
+}
