@@ -1,0 +1,8 @@
+{
+  "job_id": "F-af0e30764ff73a376ec6",
+  "worker": "C03",
+  "checked_rows": 1087,
+  "corrected_rows": 129,
+  "status": "COMPLETE",
+  "note": "All 1,087 Chinese rows across the 26-document family were reviewed against the authoritative Korean family source. 129 unique source-row IDs were corrected in review/zh. Exact-version official English body reference was consulted for the Act; the Decree English reference is an AI draft. No reviewed/en document paths were supplied; form/rule rows without document-level English were checked against Korean source and relevant packet meaning-pair references. The Korean source file on main still has the same blob SHA as at the supplied base commit. Review storage is separate from operational database application."
+}
