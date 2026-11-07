@@ -30,7 +30,20 @@
   },
   "assistant_count": 7,
   "assistant_excerpt": "C05 소방장비관리법 — 검수 재개 및 중간 저장 성공\nGitHub 중간 저장 검증 완료\n\nJob ID: F-3705abbc710de4b867bc\n브랜치: main\n\n중단 원인은 이전 검수가 완료되지 않은 상태에서 응답이 종료된 것이었습니다. 재개 과정에서 GitHub 409 충돌이 1회 발생했으나, 한국어·중국어·영어 원본 SHA가 모두 불변이고 결과 파일이 존재하지 않음을 재확인한 뒤 허용된 1회 재저장에 성공했습니다.\n\n중간 저장 커밋\n\nfed5610c3e250f7607fb8ee9d34a5f9d495615c9\n\n검수 파일 SHA\n\nab957456699cd2f4ea1d0e2807836e1220a13713\n\n공식 GitHub에서 다시 읽어 확인한 결과, 검수 파일은 IN_PROGRESS이며 18개 고유 교정 행이 저장되어 있습니다. 법률 제2조의 누락된 항목 번호 및 번역 오류와 별표·서식의 MTQ 표식 17개 행을 교정했습니다.\n\n완료 영수증은 아직 생성하지 않았습니다. 전체 26개 문서와 1,162개 행에 대한 최종 검수가 끝나지 않았기 때문입니다.\n\n이어서 확인한 구간\n\n중간 저장 직후 법률 본문 B1-zh-00001~B1-zh-00011의 한국어·중국어를 추가 대조했습니다. 이 과정에서 제4조의 끊어진 법률명 인용과 제5조의 시·도지사 명칭 오역을 발견했습니다.\n\n이 추가 오류는 아직 교정 파일에 반영하지 않았으므로, **다음 교정 대상은 B1-zh-00006과 B1-zh-00007**입니다.\n\n현재 저장된 범위는 18개 교정 행이며, 완료로 인정할 수 있는 전체 검수 범위는 확보되지 않았습니다.\n\n저장 상태: IN_PROGRESS\n\n완료 영수증: 미발행\n\n운영 DB: 변경 없음\n\n원본 laws/*: 변경 없음\n\n추가 검수와 최종 완료 검증이 남아 있습니다.",
+  "attempted_at": "2026-11-07T22:16:00.695236+00:00",
   "created_at": "2026-11-07T22:15:55.205740+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-8183a621b8430dee4e0cc754affc1b45",
+    "attempted_at": "2026-11-07T22:16:00.695236+00:00",
+    "claim_commit": "75b13ba3ec523466414bc0226c3490cc38c9fccb",
+    "event_id": "obs-2fae7272e6c9bb3b4d03f140cbeab1d7b2a9f67b",
+    "job_id": "F-3705abbc710de4b867bc",
+    "record_path": "status/delivery/recovery-S2-8183a621b8430dee4e0cc754affc1b45.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C05"
+  },
   "episode": 2,
   "event_id": "obs-2fae7272e6c9bb3b4d03f140cbeab1d7b2a9f67b",
   "job_id": "F-3705abbc710de4b867bc",
@@ -103,7 +116,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-c51cd096eecdca69dc4cb114]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "05e2350d2a72ac7b9c3f18cc41b89c326b01ecb6",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef9e88-c3f8-83e8-ad64-0f3c30f831db",
   "worker": "C05"
 }
