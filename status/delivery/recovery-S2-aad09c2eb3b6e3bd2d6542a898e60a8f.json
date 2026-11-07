@@ -601,10 +601,12 @@
     }
   ],
   "prompt_sha256": "df45f024dbb91a36053955e9e17a616b51762e78e0d2534a2fcfcb5eeab241d8",
+  "received_at": "2026-11-07T21:05:57.826732+00:00",
   "recovery_marker": "[LAW-RECOVERY-V1:R1-a23afd209dd5763fb401cb56]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "30ec53ad7de92bd39257041208221a557c377e49",
-  "status": "RECOVERY_SENT_AWAITING_ACK",
+  "status": "RECOVERY_WORKING_VERIFIED",
   "url": "https://chatgpt.com/c/6aef7f45-c340-83e8-bed7-2fb0dbdc7078",
-  "worker": "C04"
+  "worker": "C04",
+  "working_seen_at": "2026-11-07T21:05:57.826740+00:00"
 }
