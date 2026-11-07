@@ -17,7 +17,9 @@ import time
 import uuid
 from urllib.request import Request, build_opener, ProxyHandler
 
-VERSION = '2026.11.07-passive.10'
+import panel_faults
+
+VERSION = '2026.11.07-passive.12'
 SCHEMA = 'LAO_PASSIVE_OBSERVATION_V1'
 ROOT = Path(__file__).resolve().parent
 ALLOWED_COMMANDS = frozenset({'panel.list', 'panel.observe'})
@@ -120,6 +122,12 @@ def classify(obs, current_assignment=None):
     login = any(re.fullmatch(r'(?:Log in|Sign in|로그인)', x, re.I) for x in controls)
     if login:
         return 'LOGIN_REQUIRED', ['LIVE_LOGIN_CONTROL']
+    if obs.get('dom_read_status') == 'OK':
+        detected = panel_faults.fault(obs)
+        if detected:
+            return detected, ['KIIP_CURRENT_TURN_' + detected]
+        if obs.get('dom_stop_visible'):
+            return 'WORKING', ['VISIBLE_STOP_CONTROL']
     if obs.get('transportError'):
         return 'TRANSPORT_ERROR', ['LIVE_TRANSPORT_ERROR']
     ui = str(obs.get('status') or 'UNKNOWN').upper()
@@ -167,7 +175,8 @@ def summarize(panel, obs, previous, now):
     state, reasons = classify(obs, scope)
     if url != panel.get('url'):
         state, reasons = 'CONVERSATION_CHANGED', ['LIST_OBSERVE_URL_MISMATCH']
-    signature = fingerprint([url, obs.get('lastUser'), obs.get('lastAssistant'), obs.get('assistantCount'), obs.get('status')])
+    count = None if obs.get('dom_read_status') == 'OK' else obs.get('assistantCount')
+    signature = fingerprint([url, obs.get('lastUser'), obs.get('lastAssistant'), count, obs.get('status')])
     old = previous or {}
     continuity = (old.get('observation_ok') and old.get('url') == url
                   and (old.get('assignment') or {}).get('marker') == scope.get('marker')
@@ -181,6 +190,8 @@ def summarize(panel, obs, previous, now):
         reasons.append('IDLE_OBSERVED_5_MIN')
     commits = list(dict.fromkeys(re.findall(r'(?<![0-9a-f])[0-9a-f]{40}(?![0-9a-f])', str(obs.get('lastAssistant') or ''))))
     return dict(panel_id=panel['panelId'], panel_name=panel.get('name'), url=url,
+                dom_verified=obs.get('dom_read_status')=='OK',
+                recovery_button=any(panel_faults.ACTION.fullmatch(panel_faults.label(e)) for e in obs.get('recovery_controls', [])),
                 title=obs.get('title'), native_state=obs.get('status'), state=state,
                 reasons=reasons, observed_at=now, observation_ok=state not in {'UNKNOWN', 'DISCONNECTED', 'CONVERSATION_CHANGED', 'LOADING', 'OFFLINE', 'TRANSPORT_ERROR'},
                 busy_evidence=obs.get('evidence') or [],
@@ -191,7 +202,7 @@ def summarize(panel, obs, previous, now):
                 signature=signature, unchanged_since=unchanged_since, unchanged_seconds=round(unchanged, 1),
                 state_since=state_since, state_seconds=round(max(0, now-state_since), 1),
                 assistant_excerpt=str(obs.get('lastAssistant') or '')[-900:],
-                draft_present=bool('send-ready' in (obs.get('evidence') or []) or any(str(x.get('text') or '').strip() for x in obs.get('elements', []) if x.get('role') == 'textbox')))
+                draft_present=bool(str(obs.get('composer_text') or '').strip() or 'send-ready' in (obs.get('evidence') or []) or any(str(x.get('text') or '').strip() for x in obs.get('elements', []) if x.get('role') == 'textbox')))
 
 
 def observe_one(panel, cfg, previous):
@@ -201,11 +212,25 @@ def observe_one(panel, cfg, previous):
         obs = result.get('observation')
         if not isinstance(obs, dict):
             raise RuntimeError('MISSING_OBSERVATION')
+        if cfg.get('kiip_dom_signals') and obs.get('url') == panel.get('url') and str(obs.get('url')).startswith('https://chatgpt.com/'):
+            item = {'panel_id': panel['panelId'], 'worker': panel['panelId']}
+            try:
+                obs.update(panel_faults.reader().read(item, obs))
+            except Exception as exc:
+                obs['dom_read_status'] = type(exc).__name__
         row = summarize(panel, obs, previous, time.time())
     except Exception as exc:
         row = dict(panel_id=panel['panelId'], panel_name=panel.get('name'), url=panel.get('url'),
                    state='UNKNOWN', observation_ok=False, observed_at=time.time(),
                    reasons=['OBSERVATION_FAILED'], error=str(exc)[:300])
+        if (cfg.get('kiip_dom_signals') and isinstance(exc, TimeoutError)
+                and str(panel.get('url')).startswith('https://chatgpt.com/c/')):
+            try:
+                fallback = panel_faults.read_after_timeout(panel)
+                row = summarize(panel, fallback, previous, time.time())
+                row['reasons'].append('NATIVE_TIMEOUT_KIIP_DOM_READ')
+            except Exception as dom_error:
+                row['dom_error'] = str(dom_error)[:200]
     row['latency_ms'] = round((time.monotonic()-started)*1000)
     return row
 

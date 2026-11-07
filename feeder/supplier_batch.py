@@ -70,7 +70,16 @@ def main(root=None):
             config["trace_path"] = str(run / "git-progress.json")
             supplier.check(config.get("enabled") is True, "SUPPLIER_DISABLED")
             supplier.require_unstopped(config)
-            result = batch_engine.execute(config, supplier.GitStore(config))
+            store = supplier.GitStore(config)
+            if config.get("automatic_worker_handoff"):
+                config["handoff_run"] = str(run)
+            result = batch_engine.execute(config, store)
+            if config.get("handoff_run"):
+                import worker_handoff
+                try:
+                    result["handoffs"] = worker_handoff.run(config, store)
+                except Exception as exc:
+                    result["handoff_error"] = str(exc)[:200]
             status.update(result, status="COMPLETED", finished_at=supplier.iso(),
                           elapsed_seconds=round(time.time() - started, 3))
             atomic(run / "supplier-latest.json", status)

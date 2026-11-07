@@ -38,6 +38,11 @@ def prepare(config, snapshot, report, health):
         try:
             active = s.active_records(view).get(ident)
             panel = next((p for p in report.get('panels', []) if p.get('panel_id') == worker['panel_id']), {})
+            if config.get('handoff_run'):
+                import worker_handoff as handoff
+                if handoff.journal(config, ident).exists() or (active and handoff.f.reason(panel)):
+                    results[ident] = {'worker': ident, 'status': 'HANDOFF_PENDING', 'sent': False}
+                    continue
             view.apply(recovery.acknowledge(view, active, panel))
             event = s.observer_event(config, report, health, ident, active, allow_recovery=True)
             work = s.plan(view, config, event)

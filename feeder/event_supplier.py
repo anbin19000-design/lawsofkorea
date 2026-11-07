@@ -19,7 +19,7 @@ import uuid
 from urllib.request import Request, urlopen
 from urllib.parse import urlparse
 
-VERSION = "2.3.1"
+VERSION = "2.4.1"
 EVENT_SCHEMA = "LAW_SUPPLY_EVENT_V1"
 ID = re.compile(r"[A-Za-z0-9_-]{1,120}\Z")
 JOB = re.compile(r"F-[a-f0-9]{20}\Z")
@@ -167,9 +167,9 @@ class GitStore:
         sha = self.git("rev-parse", "refs/remotes/origin/" + self.branch).stdout.strip()
         return Snapshot(self, sha)
 
-    def publish(self, base, changes, message):
+    def publish(self, base, changes, message, *, rebind=False):
         check(bool(changes), "EMPTY_TRANSACTION")
-        check(all(p.startswith(WRITABLE) and ".." not in p for p in changes),
+        check(all((p.startswith(WRITABLE) or (rebind and p == "status/worker-bindings.json")) and ".." not in p for p in changes),
               "WRITE_OUTSIDE_SUPPLIER_STATUS")
         with tempfile.TemporaryDirectory(prefix="law-supply-index-") as directory:
             env = {"GIT_INDEX_FILE": str(Path(directory) / "index")}

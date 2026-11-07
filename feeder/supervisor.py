@@ -115,6 +115,11 @@ def overview(root, clock=None):
         seconds = age(p.get('observed_at'), clock)
         state = p.get('state', 'UNAVAILABLE') if seconds <= 60 else 'STALE'
         alerts = list(p.get('reasons') or [])
+        progress = (batch.get('handoffs') or {}).get(binding['worker'])
+        if progress:
+            alerts.append(progress)
+        if batch.get('handoff_error'):
+            alerts.append(batch['handoff_error'])
         if state in ('IDLE', 'COMPLETION_REPORTED') and p.get('state_seconds', 0) >= 60:
             alerts.append('IDLE_NEEDS_SUPPLIER_ATTENTION')
         if r.get('status') in ('UNCERTAIN_NO_RESEND', 'RECOVERY_UNCERTAIN_NO_RESEND', 'RECOVERY_PAUSED_AGAIN_REQUIRES_REVIEW'):
