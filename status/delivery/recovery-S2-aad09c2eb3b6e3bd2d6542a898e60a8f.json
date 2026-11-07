@@ -30,7 +30,20 @@
   },
   "assistant_count": 15,
   "assistant_excerpt": " 파일 6개를 공식 GitHub Contents API로 생성하고 각각 재조회했습니다.\n\n구간\n\n\t\n\n대조\n\n\t\n\n교정\n\n\t\n\n커밋 SHA 앞 12자리\n\n\n\n\nB1 잔여 행\n\n\t\n\n7\n\n\t\n\n5\n\n\t\n\n5a9ca3ede185\n\n\n\n\nB2 제목·제2조\n\n\t\n\n2\n\n\t\n\n2\n\n\t\n\n436750cd83b5\n\n\n\n\nB2 제5조\n\n\t\n\n1\n\n\t\n\n1\n\n\t\n\nc1b51b8f80d1\n\n\n\n\nB2 잔여 조문\n\n\t\n\n4\n\n\t\n\n2\n\n\t\n\n03b3eefd2586\n\n\n\n\nB3 잔여 행\n\n\t\n\n3\n\n\t\n\n3\n\n\t\n\na37faff2c7ba\n\n\n\n\nA39343 별표 머리글\n\n\t\n\n2\n\n\t\n\n1\n\n\t\n\nea35d4b8fbb7\n\n\n\n\n합계\n\n\t\n\n19\n\n\t\n\n14\n\n\t\n\n신규 파일마다 교정 ID 고유성, 빈 교정문 여부, 저장 후 재조회를 확인했습니다.\n\n전체 검수 통합 시 발견된 문제\n\nA26429·A26430의 서로 다른 중간 파일에서 동일한 교정 ID 27개에 서로 다른 중국어 문장이 기록돼 있습니다. 원문과 비교해 최종 채택 문장을 확정해야 합니다.\n\n또한 A26438에서는 한국어 원문의 사무 공간 선택항목에 대응하는 중국어 내용이 누락돼 있습니다.\n\nB1·B2·B3의 검수 ID는 이번 추가 저장으로 기존 기록과 연결됐으며, 별표와 서식의 범위도 확인했습니다. 그러나 1,158행 전체에 대한 최종 고유 ID 합집합과 충돌 교정문 확정은 아직 완료되지 않았습니다.\n\n현재 상태: IN_PROGRESS\n\n원본 laws/ko, laws/zh, laws/en: 변경 없음\n\n최종 검수 파일: 기존 IN_PROGRESS 보존\n\nCOMPLETE 영수증: 미생성\n\n운영 DB: 변경 없음\n\n다음 검수 지점은 중복 교정 27개 ID의 최종 대조와 A26438 누락 항목 보완입니다. 전체 검증 전에는 완료 처리하지 않겠습니다.",
+  "attempted_at": "2026-11-07T22:37:03.102005+00:00",
   "created_at": "2026-11-07T22:36:55.184148+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-aad09c2eb3b6e3bd2d6542a898e60a8f",
+    "attempted_at": "2026-11-07T22:37:03.102005+00:00",
+    "claim_commit": "372894edb888fc763df13bdcc994692420562ba4",
+    "event_id": "obs-bce801d5874b0a7cebd2431f47c91f3441891eda",
+    "job_id": "F-0c6349d844045c6cc10b",
+    "record_path": "status/delivery/recovery-S2-aad09c2eb3b6e3bd2d6542a898e60a8f.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C04"
+  },
   "episode": 17,
   "event_id": "obs-bce801d5874b0a7cebd2431f47c91f3441891eda",
   "job_id": "F-0c6349d844045c6cc10b",
@@ -1018,7 +1031,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-75fe5f0555b2b1866eec2aaa]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "37b0e8adffc8656255103a39b02aa967ad7df716",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aefa3db-8150-83ee-a060-cfdd470bc0cf",
   "worker": "C04"
 }
