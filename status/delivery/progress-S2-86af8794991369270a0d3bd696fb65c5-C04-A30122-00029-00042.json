@@ -1,0 +1,575 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B1-01.json",
+      "blob_sha": "69fcf795c9621b125ae73864793ee4064bd4b815",
+      "document_key": "B1",
+      "rows_checked": 145,
+      "rows_corrected": 26
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "blob_sha": "aeba15bca83d7887b5e9f7ce393fba770a9b5faa",
+      "verified_rows": 12,
+      "documents": [
+        "A30118",
+        "A30120"
+      ]
+    },
+    {
+      "path": "status/delivery/verified-step-S2-86af8794991369270a0d3bd696fb65c5-C04-CHECKPOINT-166-01.json",
+      "blob_sha": "33003dbd344370d5b2cf92bb05838b92b144a7ba",
+      "status": "INTENT_NO_RESEND"
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-01.json",
+      "blob_sha": "5f92fef46a104d832b4e6944e94ab8ba7257dda1",
+      "document_key": "B2",
+      "rows_checked": 36,
+      "rows_corrected": 31
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00037-00044.json",
+      "blob_sha": "31d1e93b2b7bc2aab9430a0d4b201c246301d1c5",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00045-00052.json",
+      "blob_sha": "be37a2f05e6c47bf33ec4ea58b1d6163df4b96a1",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00053-00060.json",
+      "blob_sha": "385725a9ff5c6f74e8cb723a6fc91fbcf072d639",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00061-00072.json",
+      "blob_sha": "4573174026ca13b9d49225d71e76f10c6ab2d76f",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00073-00084.json",
+      "blob_sha": "eb20464990f1e23042b03e95a20ed243fed5c555",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00085-00104.json",
+      "blob_sha": "30ba440fd5a8c3e355e8e79c418c6c9b7adcaa9f",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00105-00124.json",
+      "blob_sha": "3fe79039feaa1febde3bcd60b4397e5a52301b9e",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00125-00144.json",
+      "blob_sha": "3fe9aed92331bbf966efeff025964f461a605d6b",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00145-00164.json",
+      "blob_sha": "ab61b90a9bc19864b55a54b55cce703f9cb22470",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 12
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00165-00184.json",
+      "blob_sha": "68f3e74081cab6a1e84a178d3404ae96facceabe",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00185-00204.json",
+      "blob_sha": "81c7f57799a8550b49975c68793c0c3de622e902",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00205-00208.json",
+      "blob_sha": "feda2b38822c3429ef5493d37b044d1e5ef9ff86",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00209-00212.json",
+      "blob_sha": "08cb0522bc3ceae21d3d76fb56b95152a08fc246",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00213-00223.json",
+      "blob_sha": "a7fecc1db30a21c0677eaf0e6696e8267404fdbd",
+      "document_key": "B2",
+      "rows_checked": 11,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00224-00224.json",
+      "blob_sha": "7ce857683229c544c015843cb5da47ec2c5ea6ed",
+      "document_key": "B2",
+      "rows_checked": 1,
+      "rows_corrected": 1
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00225-00244.json",
+      "blob_sha": "bde39fb81d1a2fe5f6acbc78ab2d929732f8cb58",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00245-00264.json",
+      "blob_sha": "52e222a297a0913cce11527a0e6db004f8de1012",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00265-00272.json",
+      "blob_sha": "ed666acab2f084c7266595060f136c7c5c4c90aa",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "preserved_preverified_ids": [
+        "A30118-zh-00029",
+        "A30118-zh-00030"
+      ]
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30118-00001-00014.json",
+      "blob_sha": "b0ec0f1cc7e719106067960812e69c7bed03cfb5",
+      "document_key": "A30118",
+      "rows_checked": 14,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30118-00015-00028.json",
+      "blob_sha": "f0db9312e41184469f9b91334aac527a58a0871b",
+      "document_key": "A30118",
+      "rows_checked": 14,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30118-00031-00038.json",
+      "blob_sha": "2349cd68ccb30b9a5cd817d6446e0146920045e2",
+      "document_key": "A30118",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00001-00014.json",
+      "blob_sha": "691b91f81935198f72df0af0f3591c64a3573fde",
+      "document_key": "A30120",
+      "rows_checked": 14,
+      "rows_corrected": 14
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00015-00019.json",
+      "blob_sha": "f8689815603add57b3f7f545d07d19967926556c",
+      "document_key": "A30120",
+      "rows_checked": 5,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00024-00028.json",
+      "blob_sha": "be641e075a3db3268ad4d76b449384d52da6643c",
+      "document_key": "A30120",
+      "rows_checked": 5,
+      "rows_corrected": 3
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00030-00030.json",
+      "blob_sha": "ce8293ae3d09532ae16961e355e2bebe0dcc67aa",
+      "document_key": "A30120",
+      "rows_checked": 1,
+      "rows_corrected": 1
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00034-00042.json",
+      "blob_sha": "799d80439c9bb29fec77171c7e5879f1685850fc",
+      "document_key": "A30120",
+      "rows_checked": 9,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00043-00051.json",
+      "blob_sha": "56bbddb7099852f03248f5c7b171de53e074c16a",
+      "document_key": "A30120",
+      "rows_checked": 9,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00054-00057.json",
+      "blob_sha": "38ff001d94b8c1838a627577caeed53074df5c95",
+      "document_key": "A30120",
+      "rows_checked": 4,
+      "rows_corrected": 3
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30121-00001-00014.json",
+      "blob_sha": "32ee47e3078fe0c97a8473811f9e96c7116424bc",
+      "document_key": "A30121",
+      "rows_checked": 14,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30121-00015-00028.json",
+      "blob_sha": "b8d7a71e92a0efe67fc79a42c926b0d87be8e82d",
+      "document_key": "A30121",
+      "rows_checked": 14,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30122-00001-00014.json",
+      "blob_sha": "9b20336051ee6cfb635fe2f7759b287cc4497858",
+      "document_key": "A30122",
+      "rows_checked": 14,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30122-00015-00028.json",
+      "blob_sha": "48a7f6e351541885973d1a37352daba9f71f9b79",
+      "document_key": "A30122",
+      "rows_checked": 14,
+      "rows_corrected": 6
+    }
+  ],
+  "document": {
+    "key": "A30122",
+    "kind": "서식",
+    "title": "의무경찰 지원서",
+    "source_hash": "9f5e31fb17107478538cb0b29c1da76def458bfb17e969657bbf92a6d50c79d9",
+    "rows_checked": 14,
+    "rows_corrected": 11,
+    "document_review_state": "IN_PROGRESS"
+  },
+  "range": {
+    "first_row_id": "A30122-zh-00029",
+    "last_row_id": "A30122-zh-00042",
+    "verified_row_count": 14
+  },
+  "verified_rows": [
+    {
+      "row_id": "A30122-zh-00029",
+      "target_id": "XML:2210567",
+      "source_hash": "326ead0dc013b19557729b7f8e4c7c64682b1efb64a8abd5105863f8fd3ca445",
+      "source_ko": "(해당하는 사람만 제",
+      "previous_zh": "（仅限适用人员）",
+      "meaning_pair_id": "861a738b302d64c5baebf8b1e9dea3fd77163a68c1bbb8ca8e36e716f607a139",
+      "meaning_pair_path": "meaning/pairs/86.jsonl",
+      "meaning_pair_blob_sha": "34d5b58a8d116f0bdc40469e71e822345dd7cc7b"
+    },
+    {
+      "row_id": "A30122-zh-00030",
+      "target_id": "XML:2210568",
+      "source_hash": "58e3198c4c0b549a19d9bf64d5536537df2f62039e51b1171286f8a8cc8bd415",
+      "source_ko": "2. 병역판정 신체검사를 받지 않은 사람의 경우 국공립병원 또는 종합병원의 장이 발행한 신체검사서 및",
+      "previous_zh": "2. 对于未接受过兵役体检的人员，需提供由国家或公立医院或综合医院院长签发的体检证明，以及",
+      "meaning_pair_id": "0691c792ee9920c0c696105c8e2624fe89a66dd04b78752a75b232fda0c14fce",
+      "meaning_pair_path": "meaning/pairs/06.jsonl",
+      "meaning_pair_blob_sha": "7bcb68f5aeac5c3ae16d9d35e13c8bde4cb9c579"
+    },
+    {
+      "row_id": "A30122-zh-00031",
+      "target_id": "XML:2210569",
+      "source_hash": "e17d85d52b9a07e3272f15c039a5920612ccf0d677f982408ca79844cfa50dcb",
+      "source_ko": "출합니다)",
+      "previous_zh": "发货)",
+      "meaning_pair_id": "fe5357a52f10be1b8b738990a54f94443177136a193ede7f7b7218654eb33a29",
+      "meaning_pair_path": "meaning/pairs/fe.jsonl",
+      "meaning_pair_blob_sha": "9931861966dfb563168bf709151bcce4f1995af5"
+    },
+    {
+      "row_id": "A30122-zh-00032",
+      "target_id": "XML:2210570",
+      "source_hash": "7f7143ccaad94e78a352aa92f4df50c668bbe5b91880710e53ca7148ed6fba3a",
+      "source_ko": "최종 졸업한 학교의 학력증명서",
+      "previous_zh": "最后毕业学校的成绩单",
+      "meaning_pair_id": "3a3ee373cb4cc777d043f5fafcf3490daa2744408f7a5ade72f1b9e6ed43d2f7",
+      "meaning_pair_path": "meaning/pairs/3a.jsonl",
+      "meaning_pair_blob_sha": "99ee263b5cc604c46d6247533a20d05b9a93366b"
+    },
+    {
+      "row_id": "A30122-zh-00033",
+      "target_id": "XML:2210571",
+      "source_hash": "b85c73dee5e2d1db75d2be2d6cd2301c83e4c6b9460410911623d8d7deb8e19c",
+      "source_ko": "3. 특수업무 분야 자격증 소지자로서 필기시험에 갈음하여 실시되는 실기시험에 응시하는 경우 해당 분야 자격증",
+      "previous_zh": "3. 对于持有专业资格证书且参加以实践考试代替笔试的考生，相关专业资格证书",
+      "meaning_pair_id": "68423a8e81b66e0dca7dee5799ecc38dec86dc4f0e4804ecf6ee3a711397bdf9",
+      "meaning_pair_path": "meaning/pairs/68.jsonl",
+      "meaning_pair_blob_sha": "b1f43cf455f611378553bda5ac9a64f84935ee6f"
+    },
+    {
+      "row_id": "A30122-zh-00034",
+      "target_id": "XML:2210572",
+      "source_hash": "6250ec0b291d8a54d22229ed7fb9c92f64d4a25d8ff40eadb0e247096299c33a",
+      "source_ko": "사본",
+      "previous_zh": "复制",
+      "meaning_pair_id": "bcc80a394e80a937bbb16bdc237fe20644014520d18d904f0e4dbc5158cb6503",
+      "meaning_pair_path": "meaning/pairs/bc.jsonl",
+      "meaning_pair_blob_sha": "cbaa3467d039f4deda9bf0b9a3b254cbfd9f6e67"
+    },
+    {
+      "row_id": "A30122-zh-00035",
+      "target_id": "XML:2210573",
+      "source_hash": "7a75dfb4f98958b7a32c3f19046d3b04a2959a4b408c360771276c41f7f9e542",
+      "source_ko": "행정정보 공동이용 동의서",
+      "previous_zh": "行政信息联合使用同意书",
+      "meaning_pair_id": "fdf5a62bf05976b31deb4d8fd25cdf00795910c8fb1f7adb19dd60ef49594ee1",
+      "meaning_pair_path": "meaning/pairs/fd.jsonl",
+      "meaning_pair_blob_sha": "07fe401a29556f7c755595c11648665033188f39"
+    },
+    {
+      "row_id": "A30122-zh-00036",
+      "target_id": "XML:2210574",
+      "source_hash": "e2e70c0091746b2557ec365ed38616b7c572e50a8db07cd60ea1d3d2b31f2b67",
+      "source_ko": "본인은 이 건의 업무처리와 관련하여 담당 공무원이 「전자정부법」 제36조제1항에 따른 행정정보의 공동이용을 통하여 아래 항",
+      "previous_zh": "本人，以下署名人，就处理此事，[关于]主管公职人员，根据《电子政务法》第36条第1款，通过共同使用行政信息，[关于]以下[事项]",
+      "meaning_pair_id": "3beea92f2bb82e298f9e6ce288a4e93957cd06216e85d068628b6f9813733b33",
+      "meaning_pair_path": "meaning/pairs/3b.jsonl",
+      "meaning_pair_blob_sha": "f087af70d24c13e856363d5439199bd76ec6ea11"
+    },
+    {
+      "row_id": "A30122-zh-00037",
+      "target_id": "XML:2210575",
+      "source_hash": "f992d9f7b201220e37a21220550b524533a8227f7fdd5aec182d92824a51b143",
+      "source_ko": "목의 자료를 확인하는 것에 동의합니다.",
+      "previous_zh": "项目的资料。",
+      "meaning_pair_id": "563bb704bde67b7fa0cec738431a51caff93a4277185d8240b61c06f98279930",
+      "meaning_pair_path": "meaning/pairs/56.jsonl",
+      "meaning_pair_blob_sha": "39044a5537210a378f8f4e9912b9c02eea1ad21f"
+    },
+    {
+      "row_id": "A30122-zh-00038",
+      "target_id": "XML:2210576",
+      "source_hash": "c0eb99fb47327d613b47a77db5ce84eb786be31b4bba72db1f9eed421b72e096",
+      "source_ko": "ㅇ 행정정보 공동이용 확인자료: 병적증명서, 국가유공자(유족)확인원",
+      "previous_zh": "ㅇ 行政信息共用确认材料：兵役证明、国家功勋人员确认证明（遗属）",
+      "meaning_pair_id": "3ac5bb32a3d2f25f0e420aff3f7d502c5632df58c9b117bb31be2e1468ccc8c0",
+      "meaning_pair_path": "meaning/pairs/3a.jsonl",
+      "meaning_pair_blob_sha": "99ee263b5cc604c46d6247533a20d05b9a93366b"
+    },
+    {
+      "row_id": "A30122-zh-00039",
+      "target_id": "XML:2210577",
+      "source_hash": "0e789523d09cdd5cb95b394d43a34078d3aaa9ff943280428f0a7ea023f2c9bf",
+      "source_ko": "※ 이용 수수료는 없으며 동의하지 않는 경우에는 지원자가 직접 관련 서류를 제출하여야 합니다.",
+      "previous_zh": "※ 不收取任何使用费。如不同意，申请人须亲自提交相关文件。",
+      "meaning_pair_id": "906f2f6f64402018035e5e80f556c0f4c0113efed3679c311fbb1b08850b821e",
+      "meaning_pair_path": "meaning/pairs/90.jsonl",
+      "meaning_pair_blob_sha": "8b2befd86875e1dcf046fb742549535e30707e6e"
+    },
+    {
+      "row_id": "A30122-zh-00040",
+      "target_id": "XML:2210578",
+      "source_hash": "ad73d0e027763da5a53bb49fb413f1a319302313170114e933ee4a2d61bcd51e",
+      "source_ko": "신청인",
+      "previous_zh": "申请人",
+      "meaning_pair_id": "9a05552a564d7aeaaf7bbcb71d3419c4ff7ba8fd29f58efc0872f54d33dca1be",
+      "meaning_pair_path": "meaning/pairs/9a.jsonl",
+      "meaning_pair_blob_sha": "360cb3d27b0c24ddd8bf1ef858f3d58b2806448d"
+    },
+    {
+      "row_id": "A30122-zh-00041",
+      "target_id": "XML:2210579",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "source_ko": "(서명 또는 인)",
+      "previous_zh": "（签名或印章）",
+      "meaning_pair_id": "3ada74a029331c1c9e10fcb8a8907de24300187cd88a2c7f640ceae28715ed86",
+      "meaning_pair_path": "meaning/pairs/3a.jsonl",
+      "meaning_pair_blob_sha": "99ee263b5cc604c46d6247533a20d05b9a93366b"
+    },
+    {
+      "row_id": "A30122-zh-00042",
+      "target_id": "XML:2210580",
+      "source_hash": "41e11819187cd0d8c51419c8b34571d1f01d02758075137da10203ce9bd4c517",
+      "source_ko": "작성방법",
+      "previous_zh": "如何编写",
+      "meaning_pair_id": "138e035b9d5a5e41e147115d4e9e068e6a96b2f8f6c715c7854a3a5e7444f4d6",
+      "meaning_pair_path": "meaning/pairs/13.jsonl",
+      "meaning_pair_blob_sha": "7f71e3f008acaa8e3bdc69cc84b71a5c71dbcc68"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "A30122-zh-00029",
+      "target_id": "XML:2210567",
+      "source_hash": "326ead0dc013b19557729b7f8e4c7c64682b1efb64a8abd5105863f8fd3ca445",
+      "source_ko": "(해당하는 사람만 제",
+      "previous_zh": "（仅限适用人员）",
+      "meaning_pair_id": "861a738b302d64c5baebf8b1e9dea3fd77163a68c1bbb8ca8e36e716f607a139",
+      "meaning_pair_path": "meaning/pairs/86.jsonl",
+      "meaning_pair_blob_sha": "34d5b58a8d116f0bdc40469e71e822345dd7cc7b",
+      "corrected_zh": "（仅由符合条件者提",
+      "reason": "첨부서류 제출·병역판정 검사·학력증명서·자격증 사본, 행정정보 공동이용 동의 문장의 누락·오역 교정."
+    },
+    {
+      "row_id": "A30122-zh-00030",
+      "target_id": "XML:2210568",
+      "source_hash": "58e3198c4c0b549a19d9bf64d5536537df2f62039e51b1171286f8a8cc8bd415",
+      "source_ko": "2. 병역판정 신체검사를 받지 않은 사람의 경우 국공립병원 또는 종합병원의 장이 발행한 신체검사서 및",
+      "previous_zh": "2. 对于未接受过兵役体检的人员，需提供由国家或公立医院或综合医院院长签发的体检证明，以及",
+      "meaning_pair_id": "0691c792ee9920c0c696105c8e2624fe89a66dd04b78752a75b232fda0c14fce",
+      "meaning_pair_path": "meaning/pairs/06.jsonl",
+      "meaning_pair_blob_sha": "7bcb68f5aeac5c3ae16d9d35e13c8bde4cb9c579",
+      "corrected_zh": "2. 未接受兵役判定体格检查的人员：由国立、公立医院或综合医院院长签发的体格检查书以及",
+      "reason": "첨부서류 제출·병역판정 검사·학력증명서·자격증 사본, 행정정보 공동이용 동의 문장의 누락·오역 교정."
+    },
+    {
+      "row_id": "A30122-zh-00031",
+      "target_id": "XML:2210569",
+      "source_hash": "e17d85d52b9a07e3272f15c039a5920612ccf0d677f982408ca79844cfa50dcb",
+      "source_ko": "출합니다)",
+      "previous_zh": "发货)",
+      "meaning_pair_id": "fe5357a52f10be1b8b738990a54f94443177136a193ede7f7b7218654eb33a29",
+      "meaning_pair_path": "meaning/pairs/fe.jsonl",
+      "meaning_pair_blob_sha": "9931861966dfb563168bf709151bcce4f1995af5",
+      "corrected_zh": "交）",
+      "reason": "첨부서류 제출·병역판정 검사·학력증명서·자격증 사본, 행정정보 공동이용 동의 문장의 누락·오역 교정."
+    },
+    {
+      "row_id": "A30122-zh-00032",
+      "target_id": "XML:2210570",
+      "source_hash": "7f7143ccaad94e78a352aa92f4df50c668bbe5b91880710e53ca7148ed6fba3a",
+      "source_ko": "최종 졸업한 학교의 학력증명서",
+      "previous_zh": "最后毕业学校的成绩单",
+      "meaning_pair_id": "3a3ee373cb4cc777d043f5fafcf3490daa2744408f7a5ade72f1b9e6ed43d2f7",
+      "meaning_pair_path": "meaning/pairs/3a.jsonl",
+      "meaning_pair_blob_sha": "99ee263b5cc604c46d6247533a20d05b9a93366b",
+      "corrected_zh": "最后毕业学校的学历证明书",
+      "reason": "첨부서류 제출·병역판정 검사·학력증명서·자격증 사본, 행정정보 공동이용 동의 문장의 누락·오역 교정."
+    },
+    {
+      "row_id": "A30122-zh-00033",
+      "target_id": "XML:2210571",
+      "source_hash": "b85c73dee5e2d1db75d2be2d6cd2301c83e4c6b9460410911623d8d7deb8e19c",
+      "source_ko": "3. 특수업무 분야 자격증 소지자로서 필기시험에 갈음하여 실시되는 실기시험에 응시하는 경우 해당 분야 자격증",
+      "previous_zh": "3. 对于持有专业资格证书且参加以实践考试代替笔试的考生，相关专业资格证书",
+      "meaning_pair_id": "68423a8e81b66e0dca7dee5799ecc38dec86dc4f0e4804ecf6ee3a711397bdf9",
+      "meaning_pair_path": "meaning/pairs/68.jsonl",
+      "meaning_pair_blob_sha": "b1f43cf455f611378553bda5ac9a64f84935ee6f",
+      "corrected_zh": "3. 持有特殊业务领域资格证书，参加代替笔试而实施的技能考试者：该领域资格证书",
+      "reason": "첨부서류 제출·병역판정 검사·학력증명서·자격증 사본, 행정정보 공동이용 동의 문장의 누락·오역 교정."
+    },
+    {
+      "row_id": "A30122-zh-00034",
+      "target_id": "XML:2210572",
+      "source_hash": "6250ec0b291d8a54d22229ed7fb9c92f64d4a25d8ff40eadb0e247096299c33a",
+      "source_ko": "사본",
+      "previous_zh": "复制",
+      "meaning_pair_id": "bcc80a394e80a937bbb16bdc237fe20644014520d18d904f0e4dbc5158cb6503",
+      "meaning_pair_path": "meaning/pairs/bc.jsonl",
+      "meaning_pair_blob_sha": "cbaa3467d039f4deda9bf0b9a3b254cbfd9f6e67",
+      "corrected_zh": "复印件",
+      "reason": "첨부서류 제출·병역판정 검사·학력증명서·자격증 사본, 행정정보 공동이용 동의 문장의 누락·오역 교정."
+    },
+    {
+      "row_id": "A30122-zh-00035",
+      "target_id": "XML:2210573",
+      "source_hash": "7a75dfb4f98958b7a32c3f19046d3b04a2959a4b408c360771276c41f7f9e542",
+      "source_ko": "행정정보 공동이용 동의서",
+      "previous_zh": "行政信息联合使用同意书",
+      "meaning_pair_id": "fdf5a62bf05976b31deb4d8fd25cdf00795910c8fb1f7adb19dd60ef49594ee1",
+      "meaning_pair_path": "meaning/pairs/fd.jsonl",
+      "meaning_pair_blob_sha": "07fe401a29556f7c755595c11648665033188f39",
+      "corrected_zh": "行政信息共同使用同意书",
+      "reason": "첨부서류 제출·병역판정 검사·학력증명서·자격증 사본, 행정정보 공동이용 동의 문장의 누락·오역 교정."
+    },
+    {
+      "row_id": "A30122-zh-00036",
+      "target_id": "XML:2210574",
+      "source_hash": "e2e70c0091746b2557ec365ed38616b7c572e50a8db07cd60ea1d3d2b31f2b67",
+      "source_ko": "본인은 이 건의 업무처리와 관련하여 담당 공무원이 「전자정부법」 제36조제1항에 따른 행정정보의 공동이용을 통하여 아래 항",
+      "previous_zh": "本人，以下署名人，就处理此事，[关于]主管公职人员，根据《电子政务法》第36条第1款，通过共同使用行政信息，[关于]以下[事项]",
+      "meaning_pair_id": "3beea92f2bb82e298f9e6ce288a4e93957cd06216e85d068628b6f9813733b33",
+      "meaning_pair_path": "meaning/pairs/3b.jsonl",
+      "meaning_pair_blob_sha": "f087af70d24c13e856363d5439199bd76ec6ea11",
+      "corrected_zh": "本人同意，负责办理本案的公务员依《电子政府法》第三十六条第一款通过行政信息共同使用核查下列项",
+      "reason": "첨부서류 제출·병역판정 검사·학력증명서·자격증 사본, 행정정보 공동이용 동의 문장의 누락·오역 교정."
+    },
+    {
+      "row_id": "A30122-zh-00037",
+      "target_id": "XML:2210575",
+      "source_hash": "f992d9f7b201220e37a21220550b524533a8227f7fdd5aec182d92824a51b143",
+      "source_ko": "목의 자료를 확인하는 것에 동의합니다.",
+      "previous_zh": "项目的资料。",
+      "meaning_pair_id": "563bb704bde67b7fa0cec738431a51caff93a4277185d8240b61c06f98279930",
+      "meaning_pair_path": "meaning/pairs/56.jsonl",
+      "meaning_pair_blob_sha": "39044a5537210a378f8f4e9912b9c02eea1ad21f",
+      "corrected_zh": "目的资料。",
+      "reason": "첨부서류 제출·병역판정 검사·학력증명서·자격증 사본, 행정정보 공동이용 동의 문장의 누락·오역 교정."
+    },
+    {
+      "row_id": "A30122-zh-00038",
+      "target_id": "XML:2210576",
+      "source_hash": "c0eb99fb47327d613b47a77db5ce84eb786be31b4bba72db1f9eed421b72e096",
+      "source_ko": "ㅇ 행정정보 공동이용 확인자료: 병적증명서, 국가유공자(유족)확인원",
+      "previous_zh": "ㅇ 行政信息共用确认材料：兵役证明、国家功勋人员确认证明（遗属）",
+      "meaning_pair_id": "3ac5bb32a3d2f25f0e420aff3f7d502c5632df58c9b117bb31be2e1468ccc8c0",
+      "meaning_pair_path": "meaning/pairs/3a.jsonl",
+      "meaning_pair_blob_sha": "99ee263b5cc604c46d6247533a20d05b9a93366b",
+      "corrected_zh": "ㅇ 行政信息共同使用核查资料：兵籍证明书、国家有功者（遗属）确认书",
+      "reason": "첨부서류 제출·병역판정 검사·학력증명서·자격증 사본, 행정정보 공동이용 동의 문장의 누락·오역 교정."
+    },
+    {
+      "row_id": "A30122-zh-00042",
+      "target_id": "XML:2210580",
+      "source_hash": "41e11819187cd0d8c51419c8b34571d1f01d02758075137da10203ce9bd4c517",
+      "source_ko": "작성방법",
+      "previous_zh": "如何编写",
+      "meaning_pair_id": "138e035b9d5a5e41e147115d4e9e068e6a96b2f8f6c715c7854a3a5e7444f4d6",
+      "meaning_pair_path": "meaning/pairs/13.jsonl",
+      "meaning_pair_blob_sha": "7f71e3f008acaa8e3bdc69cc84b71a5c71dbcc68",
+      "corrected_zh": "填写方法",
+      "reason": "첨부서류 제출·병역판정 검사·학력증명서·자격증 사본, 행정정보 공동이용 동의 문장의 누락·오역 교정."
+    }
+  ],
+  "validation": {
+    "row_ids_unique": true,
+    "source_hashes_match": true,
+    "korean_pair_ids_resolved": true,
+    "split_form_columns_29_31_jointly_reviewed": true,
+    "missing_consent_statement_restored": true,
+    "total_cumulative_checked_rows": 582
+  },
+  "next_step": "Continue A30122 43-50 and check instructions and receipt."
+}
