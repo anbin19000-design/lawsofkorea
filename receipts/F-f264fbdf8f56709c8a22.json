@@ -1,0 +1,8 @@
+{
+  "job_id": "F-f264fbdf8f56709c8a22",
+  "worker": "C02",
+  "checked_rows": 603,
+  "corrected_rows": 34,
+  "status": "COMPLETE",
+  "note": "Reviewed all 603 Chinese rows across all 12 family documents against the Korean source. Applied 34 minimal row-level corrections, preserving row IDs and source hashes. The Korean source manifest is unchanged at the specified base commit. English fallback references cover 395 rows; 208 rows have no English pair. No family-level reviewed/en file was present, so English was used only where available as a secondary reference; Korean remains authoritative. Final applied-text QA found no MTQ hash markers, START/END artifacts, or remaining variants of the incorrect Act title; fine amounts in the administrative-fine annex were checked against the Korean table. Review storage is separate from operational database application."
+}
