@@ -1,0 +1,240 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-ffbb8f954075c59a77d7",
+  "worker": "C04",
+  "checked_rows": 40,
+  "edits": [
+    {
+      "id": "B1-zh-00001",
+      "target_id": "27f70186ad486fbab385c98d5e4e1eba257eded7090e0d68de4ca6ceb80f4fb2",
+      "source_hash": "57d0558870bcef093c9d079085239c62e12e9fb72466910ce7dd4d6d30d00609",
+      "text": "关于特别检察官的任命等事项的法律",
+      "reason": "Corrected enacted Korean 법률: the original called a law a draft bill (法案); preserved the law title and appointment scope."
+    },
+    {
+      "id": "B1-zh-00003",
+      "target_id": "a09579739f85948a0626ac646ed79b0763260486b9d1f1b3f0b4a1126e71488d",
+      "source_hash": "258e0a1e00cfe602db54b9e0fa464d3efa14a48ef29bfdf1ee7e2b1b22d445ef",
+      "text": "第一条（目的）本法旨在规定在犯罪侦查和提起公诉等过程中，针对特定案件具有独立地位的特别检察官的任命、职务及其他必要事项。\n\n第二章 特别检察官的侦查对象及任命\n\n",
+      "reason": "Clarified that special prosecutors have independent status in investigations and prosecutions limited to specified cases, and the scope of Chapter II."
+    },
+    {
+      "id": "B1-zh-00004",
+      "target_id": "5d71d945a3ac50c87b7f32834b09aa86c5b58becae011ef7f697db72add4865c",
+      "source_hash": "bb438e33fb28d48133e6aca383fdfc90481a0540fe6295df26cd854fa03f6442",
+      "text": "第二条（特别检察官的侦查对象等）\n① 特别检察官的侦查对象如下：\n1. 国会因政治中立、公正等原因，认为有必要由特别检察官侦查并经全体会议议决的案件\n2. 法务部部长因利益冲突、公正性等原因认定有必要由特别检察官侦查的案件\n② 法务部部长对第1款第2项所述事项，应听取检察总长的意见。\n\n",
+      "reason": "Corrected 국회 to 国会, 법무부장관 to 法务部部长 and 검찰총장 to 检察总长; preserved disjunctive routes and Article 2(1)(2)."
+    },
+    {
+      "id": "B1-zh-00005",
+      "target_id": "c010dd70ebda1c14354fd2db1ff623bfe21e3ef65d257119ecfd6e812bd16675",
+      "source_hash": "2ced3b26aa6fd344aad5f89b093acf63ded86276b9222f84e0b76dc7d184f5bf",
+      "text": "第三条（特别检察官的任命程序）\n① 依第2条决定由特别检察官进行侦查的，总统应立即请求依第4条组成的特别检察官候选人推荐委员会推荐2名特别检察官候选人。\n② 特别检察官候选人推荐委员会应自收到第1款请求之日起5日内，经全体在任委员过半数赞成，从担任《法院组织法》第42条第1款第1项规定职务满15年以上的律师中，以书面形式向总统推荐2名候选人。\n③ 总统应自收到第2款推荐之日起3日内，在被推荐的候选人中任命1人为特别检察官。\n\n",
+      "reason": "Restored majority of all incumbent recommendation committee members (not only members attending), and exact 2/5/15/3-day appointment rules."
+    },
+    {
+      "id": "B1-zh-00006",
+      "target_id": "f5e0117f82235045280618107359074728cd1f002b612ee2c61b5824b32759f6",
+      "source_hash": "71212f656470c2025b24e33c40d648fe14d757676e4ff3dd0d42c63af6d3e4d6",
+      "text": "第四条（特别检察官候选人推荐委员会）\n① 为推荐特别检察官候选人，在国会设置特别检察官候选人推荐委员会（以下简称本条中的“推荐委员会”）。\n② 推荐委员会由包括1名委员长在内的7名委员组成。\n③ 委员长由委员依第4款规定从委员中互选产生。\n④ 委员由国会议长从下列人员中任命或聘任：\n1. 法务部次官\n2. 法院行政处次长\n3. 大韩律师协会会长\n4. 由国会推荐的其他4名学识渊博、德高望重并在各专业领域具有丰富经验的人士\n⑤ 推荐委员会在国会议长提出请求、三分之一以上委员提出请求或委员长认为必要时，由委员长召集；经全体在任委员过半数赞成作出议决。\n⑥ 推荐委员会依第3条第2款推荐特别检察官候选人后，视为解散。\n⑦ 推荐委员会委员应保持政治中立并独立履行职务。\n⑧ 推荐委员会组成、运作等其他必要事项由国会规则规定。\n\n",
+      "reason": "Restored missing paragraph ②, ④ and ⑦ markers, exact recommendation committee membership of seven and election and majority of incumbent members (not only those attending)."
+    },
+    {
+      "id": "B1-zh-00007",
+      "target_id": "7e66f05560feee27e8820be01b9ecef5ccb67a72292f708110bd758a6e3820c5",
+      "source_hash": "ae4c39f88a0ed20378bb2157ed47ad3fcf667069d2358526917ea1965016ee29",
+      "text": "第五条（特别检察官的任职资格限制）有下列任一情形的人不得被任命为特别检察官：\n1. 非大韩民国国民的人\n2. 《国家公务员法》第2条或《地方公务员法》第2条规定的公务员\n3. 在特别检察官任命日前1年内曾担任第2项规定职务的人\n4. 具有政党党籍的人，或在特别检察官任命日前1年内曾具有党籍的人\n5. 依《公职选举法》举办的选举中登记为候选人（包括预备候选人）的人\n6. 属于《国家公务员法》第33条各项所规定情形的人\n\n",
+      "reason": "Restored statutory disqualification (not cancellation of a qualification) and corrected subparagraph 2, party-membership, election and Civil Service Acts."
+    },
+    {
+      "id": "B1-zh-00009",
+      "target_id": "d4c812643ff7dd892908f438207fc9558a7181da7b1ef3c8809006337c36505e",
+      "source_hash": "6f0e171e8eab436f662d9dfd0c70e6953a9d28da9e07047fccdb318bc12d4f36",
+      "text": "第七条（特别检察官的职务范围与权限等）\n① 特别检察官的职务范围如下：\n1. 侦查依第3条在任命特别检察官的推荐书中记载的案件（以下简称“承办案件”），决定是否提起公诉并维持公诉\n2. 指挥、监督第8条规定的特别检察官助理、特别调查员及从有关机关派遣的公务员\n② 特别检察官不得超越职务范围，传唤或调查与承办案件无关的人。\n③ 为履行职务有必要时，特别检察官可要求大检察厅、警察厅等有关机关负责人提供与承办案件有关的调查记录、证据等资料及侦查活动支援等协助。\n④ 为履行职务有必要时，特别检察官可请求大检察厅、警察厅等有关机关负责人派遣所属公务员及提供相关支持；但派遣检察官不得超过5人，其他派遣公务员不得超过30人。\n⑤ 有关机关负责人收到第3款或第4款请求后，除有正当理由外应予遵从；但请求派遣特定检察官或公务员时，应事先与有关机关负责人协商。\n⑥ 有关机关负责人无正当理由拒绝第5款正文规定的请求时，特别检察官可以要求有权提出纪律处分议决请求的人，对该机关负责人启动纪律处分程序。\n⑦ 《刑事诉讼法》《检察厅法》（不包括第4条第2款）、《军事法院法》及其他法令中有关检察官和军事检察官权限的规定，在不与本法抵触的范围内准用于特别检察官。<2022年5月9日修订>\n\n",
+      "reason": "Restored omitted paragraph ④/⑥ markers, maximum five prosecutors and thirty other seconded staff, and exact Section 7(7) exception to Prosecutors' Office Act §4(2) and power of prosecution maintenance."
+    },
+    {
+      "id": "B1-zh-00010",
+      "target_id": "8ab13aceb095c120680d2678a7c7ac0ea410f379efdfa5013fffbd842e1cde81",
+      "source_hash": "16f465ea429ba778efa84fe6bd71f11850821b7727af86f5ed4dced2092b1bbe",
+      "text": "第八条（特别检察官助理及特别调查员的任命和权限）\n① 特别检察官可以从担任《法院组织法》第42条第1款第1项所述职务满7年以上的律师中选出4名特别检察官助理候选人，并请求总统予以任命。总统应自收到请求之日起3日内，从候选人中任命2名特别检察官助理。\n② 特别检察官助理在特别检察官指挥、监督下负责侦查承办案件及维持已提起的公诉，并指挥、监督特别调查员和有关机关派遣的公务员。\n③ 特别检察官履行职务有必要时可以任命不超过30名特别调查员；任命时应考虑其在相关机关任职的经历、职务执行能力和素质等。\n④ 特别调查员在承办案件的侦查范围内履行司法警察官的职务。\n⑤ 关于特别检察官助理及特别调查员的任职资格限制，准用第5条；关于特别检察官助理的权限，准用第7条第7款。\n⑥ 特别检察官完成侦查后，为维持公诉应将特别检察官助理、特别调查员等协助人员数量保持在所需的最低限度。\n\n",
+      "reason": "Restored missing paragraph ④, corrected unlawful substitution of prosecution maintenance with instituting public prosecution, and preserved 4 selected/2 appointed/3-day/30-investigator limits."
+    },
+    {
+      "id": "B1-zh-00011",
+      "target_id": "e8c024077e61fed8ecb98c7cafb56b57e908527ce9964485534839c2acee7d78",
+      "source_hash": "18fd06d2f1b95892525a1463d5ea906792f1fbd5fc8b0e9902b49e3bfc67835b",
+      "text": "第九条（特别检察官等的义务）\n① 特别检察官、特别检察官助理和特别调查员（以下简称“特别检察官等”），以及依第7条第4款派遣的公务员和为协助特别检察官执行职务而聘用的人，在职期间及离职后均不得泄露在职务中知悉的秘密。\n② 特别检察官等不得从事以营利为目的的业务，也不得兼任其他职务。\n③ 特别检察官等、依第7条第4款派遣的公务员及为协助特别检察官执行职务而聘用的人，除第10条第3款及第4款、第12条及第17条规定的情形外，无正当理由不得公开或泄露侦查内容。\n④ 《刑事诉讼法》《检察厅法》《军事法院法》等法令有关检察官义务的规定，在不与本法抵触的范围内准用于特别检察官及特别检察官助理。\n\n第四章 案件处理程序\n\n",
+      "reason": "Restored paragraph ② and distinguished statutory duties of prosecutors and prohibition on disclosure of investigation details, with Prosecutors' Office Act designation."
+    },
+    {
+      "id": "B1-zh-00012",
+      "target_id": "e33e0ac6548c16e5e657c4b48da5abc9d8307ca259aca8f739630bded5e00b8b",
+      "source_hash": "8623422b257b013e24d73c38016efbf802f8bffcad3c00d4db271b1f43c10273",
+      "text": "第十条（侦查期间等）\n① 特别检察官自任命之日起20日内，可以进行确保侦查设施、请求任命特别检察官助理等执行职务所需准备。在准备期间不得侦查承办案件。\n② 特别检察官应自第1款规定的准备期间届满之次日起60日内，完成承办案件侦查并决定是否提起公诉。\n③ 特别检察官不能在第2款规定期间内完成侦查或难以决定是否提起公诉时，可以向总统报告理由并经总统批准，仅延长一次侦查期间，延长时间不得超过30日。\n④ 第3款规定的报告及批准请求应在侦查期间届满3日前提出，总统应在期限届满前通知特别检察官是否批准。\n⑤ 特别检察官不能在侦查期间内完成侦查或决定是否提起公诉时，应自侦查期间届满之日起3日内将案件移交管辖地方检察厅检察长。此时支出费用及活动情况等报告准用第17条，报告期限自案件移交之日起计算。\n\n",
+      "reason": "Corrected the day immediately following the preparation period as the 60-day start and restored Article 10 paragraph ④, while preserving 20/60/30/3-day limits."
+    },
+    {
+      "id": "B1-zh-00014",
+      "target_id": "a70e9c4d500fa8bb1a8f0efb8cff824b175ac6c3406c991f1e7a1aff39b6da24",
+      "source_hash": "a3b8364593da0e59634941241b63c018d90847fd3316670d26d5d13376cd288a",
+      "text": "第十二条（案件处理报告）特别检察官就承办案件决定不提起公诉、提起公诉或该案判决确定时，应分别于10日内以书面形式向总统及国会报告，并以书面形式通知法务部部长。\n\n第五章 特别检察官的地位及身份保障\n\n",
+      "reason": "Corrected Ministry of Justice name, notification obligations and constitutional status guarantee instead of physical safety."
+    },
+    {
+      "id": "B1-zh-00015",
+      "target_id": "dcfaf968d5c1659f5a144159482d42c35409f70f31b38f2c5be97fa77fed8a8f",
+      "source_hash": "de4ee62dacdf1eb026a37ab841edeb81bc84d7f4a803d5927fd504286d08750d",
+      "text": "第十三条（报酬等）\n① 特别检察官的报酬和待遇参照高等检察厅检察长的标准。\n② 特别检察官助理的报酬和待遇参照检察长的标准。\n③ 特别调查员的报酬和待遇参照相当于3级至5级的别定职国家公务员的标准。\n④ 政府从预备费中支付特别检察官等执行职务所需费用。但完成侦查并提起公诉后，在判决确定之前，仅支付维持公诉所需的最低限度费用。\n⑤ 特别检察官可以请求国家或公共机构提供执行职务所需的办公室、通信设施等设备；受请求机关除有正当理由外应予遵从。\n\n",
+      "reason": "Corrected high prosecutor (not high court) remuneration comparator, reserve funds, and minimal spending for maintenance of public prosecution after investigation."
+    },
+    {
+      "id": "B1-zh-00016",
+      "target_id": "be866dc93e0c4cb1ba8f2a4103eccdf406208c506a128bf109a47c2784aa7a31",
+      "source_hash": "a7646e1617907e7b7491feeb7c043f34d62fb4eca129f8b23593ff231e084725",
+      "text": "第十四条（离职等）\n① 特别检察官无正当理由不得辞职；拟辞职时应以书面方式提出。\n② 特别检察官死亡或依第1款提交辞呈时，总统应立即通知国会议长。\n③ 特别检察官死亡或依第1款提交辞呈时，总统应依第3条规定的任命程序任命继任特别检察官；继任者承继前任者的职务。\n④ 依第3款任命继任特别检察官时，计算第10条规定的侦查期间，应合计前任及继任特别检察官的侦查期间；但自前任特别检察官提交辞呈之日起至继任者任命之日止的期间不计入。\n⑤ 特别检察官助理死亡或辞任时，特别检察官可以请求总统任命继任助理；总统应立即依第8条第1款任命继任者。\n⑥ 特别检察官等依第12条就不提起公诉的决定或判决确定提交报告时，以及依第10条第5款移交案件时，当然离职。\n\n",
+      "reason": "Corrected false 'submission of judgment' as automatic retirement trigger, retained separate reporting/transfer conditions and restored paragraphs ④ and ⑥."
+    },
+    {
+      "id": "B1-zh-00017",
+      "target_id": "70c8aa625d79dec173207a769af3401d34eafec1978bdee913de9b40e0cef3eb",
+      "source_hash": "c3d2dc255616e0ab56127b217437567589f3ba505fa9c7639c4bba35a390c640",
+      "text": "第十五条（解任等）\n① 除下列任一情形外，总统不得解任特别检察官或特别检察官助理：\n1. 发现第5条各项规定的任职资格限制事由\n2. 经认定患有使执行职务显著困难的身体或精神疾病\n3. 违反第9条第1款或第2款\n4. 违反依第9条第4款准用于特别检察官和助理的有关检察官义务规定\n5. 特别检察官认为为执行职务或依第8条第6款有必要，请求总统解任特别检察官助理\n② 总统解任特别检察官时应立即通知国会议长。\n③ 总统解任特别检察官时，应依第3条规定的任命程序任命继任者。关于职务承继准用第14条第3款后段，关于侦查期间的计算准用同条第4款。\n④ 总统解任特别检察官助理后，应立即依第8条第1款任命继任者。但依第1款第5项（限于依第8条第6款的情形）解任的，不在此限。\n⑤ 特别检察官执行职务有必要时，可以解任特别调查员，或请求被派遣公务员所属机关负责人更换该公务员。\n\n",
+      "reason": "Restored paragraph ④ and correct institutional Speaker, Article 15(1)(5) exception on successor appointment, and agency controlling seconded staff."
+    },
+    {
+      "id": "B1-zh-00018",
+      "target_id": "508b445929ac1e6e62a0661f46889fa71acc3b329001eae3b01217fdf6d699a6",
+      "source_hash": "c4accdc140d106768510d687c55d1f0ef2a0a0db9cd4a85b23582d3f2d21cdb6",
+      "text": "第十六条（身份保障）特别检察官及特别检察官助理，除受到弹劾或被判处禁锢以上刑罚外，不得被罢免。\n\n第六章 杂则\n\n",
+      "reason": "Corrected 금고 to imprisonment without labor (禁锢), not ordinary imprisonment with labor, and 보칙 (miscellaneous provisions) to 杂则."
+    },
+    {
+      "id": "B1-zh-00021",
+      "target_id": "fae98bce7e06fc4ecccd5690dbd95827be97b5cbef7c4983e54c8c311f5fe036",
+      "source_hash": "33358ed99764016f42f3fd65f1c3e9cc9e18169447f94721d07a78f9b6a4628d",
+      "text": "第十九条（超越职务范围提起公诉的效力）特别检察官违反第7条第1款规定，超出职务范围提起公诉的，该公诉无效。\n\n",
+      "reason": "Corrected generic civil lawsuit (提起诉讼) to criminal public prosecution (提起公诉), which is the subject of the statutory invalidity."
+    },
+    {
+      "id": "B1-zh-00022",
+      "target_id": "536fd4d9271ab0e41433133785d2b7a65bb3699a453790f2963c4f84642cad39",
+      "source_hash": "0d8f3a30cb3e7567fd3ea5b7dc5dc01a8491cd5025ac31fb8a1db4319a727f2d",
+      "text": "第二十条（异议申请）\n① 承办案件的被调查人或其配偶、直系尊亲属、直系卑亲属、同居人及辩护人，可以就违反第7条第2款等超出特别检察官职务范围的行为，向首尔高等法院提出异议。\n② 第1款规定的异议申请应以载明理由的书面文件提出，并经由特别检察官提交。\n③ 特别检察官收到第2款规定的异议申请后，应依下列各项处理：\n1. 认为异议有理由时，应立即按申请内容改正，并书面通知首尔高等法院及异议申请人\n2. 认为异议无理由时，应自收到申请之时起24小时内附上意见书，将申请书送交首尔高等法院\n④ 首尔高等法院收到依第3款第2项送交的申请书后，应自收到之时起48小时内依下列各项决定；必要时可查阅侦查记录等调查证据：\n1. 认为异议无理由时，驳回申请\n2. 认为异议有理由时，认定申请所涉侦查内容已超出特别检察官职务范围\n⑤ 依第4款第2项作出认可异议的决定时，特别检察官不得从事违反该决定宗旨的侦查活动。\n⑥ 对第4款规定的决定，不得提出抗告。\n⑦ 即使依第1款提出异议，特别检察官的侦查活动也不当然停止。\n⑧ 第1款规定的异议申请人可以在提出异议的同时或另行以书面说明理由，请求首尔高等法院停止有关处分等效力、执行或程序继续进行的全部或一部分；法院应立即作出决定。\n⑨ 首尔高等法院依第4款或第8款作出决定时，应书面通知异议申请人及特别检察官。\n\n",
+      "reason": "Restored missing paragraph ④/⑧ labels, precise 24-/48-hour statutory deadlines, collateral stay of investigative dispositions (not 'lawsuit' continuation), and 抗告 rather than generic appeal."
+    },
+    {
+      "id": "B1-zh-00023",
+      "target_id": "212020136358bb732f757a53d2d9852c8bbe8d0e55905ec33fd1985127f64692",
+      "source_hash": "24ba1aa36b8851f19d8249ed15dce1d30601b65822094ed4fdc5cdf81af8e2b5",
+      "text": "第二十一条（委任）本法未规定的特别检察官案件处理程序等施行本法所需事项，由总统令或国会规则规定。\n\n第七章 罚则\n\n",
+      "reason": "Corrected 国民议会规则 to 国会规则 and legal chapter 罚则."
+    },
+    {
+      "id": "B1-zh-00024",
+      "target_id": "2d62c211228c444873470fa12904d13cb9f371797529e6c7e78db5ddf7d6ad0e",
+      "source_hash": "e152e1ab181647f512127e2f405a287e07af6f1dbf58d7236c9844e28a965fa0",
+      "text": "第二十二条（罚则）\n① 以诡计或威势妨碍特别检察官等执行职务的人，处5年以下有期徒刑或5,000万韩元以下罚金。\n② 特别检察官等、依第7条第4款派遣的公务员或为协助特别检察官执行职务而聘用的人，违反第9条第1款泄露职务中知悉的秘密的，处3年以下有期徒刑或5年以下资格停止。\n③ 特别检察官等、依第7条第4款派遣的公务员或为协助特别检察官执行职务而聘用的人，违反第9条第3款，在提起公诉前公开职务中知悉的侦查内容的，处3年以下有期徒刑或5年以下资格停止。\n\n",
+      "reason": "Corrected statutory obstruction via deceit/coercive influence, qualification suspension rather than revocation, and Article 22(3) public disclosure before prosecution rather than a generic leak; retained 5 years/50 million won and 3 years/5 years."
+    },
+    {
+      "id": "B1-zh-00025",
+      "target_id": "c6303a8419bc57994423499140ca56d678be1586be727d5bba56c2eb430cee00",
+      "source_hash": "12f63b0ae6d7186e6b2a75c9b4d87d7f46c7f4161df2d00f148a0563ca94ca48",
+      "text": "第二十三条（适用罚则时视为公务员）特别检察官等及为协助特别检察官执行职务而聘用的人，在适用《刑法》或其他法律规定的罚则时，视为公务员。\n\n",
+      "reason": "Corrected article title to the statutory deemed-public-official rule upon application of penal provisions."
+    },
+    {
+      "id": "B1-zh-00026",
+      "target_id": "5cc48449c26ef08762b06cdecf328879b9cae4233a92f23197aacbdcd65a287b",
+      "source_hash": "6a95e368e3d783d7f25869790bce836e8c522b95b57c6c1646eae1be892a8a22",
+      "text": "附则 <第12423号，2014年3月18日>\n\n本法自公布后满3个月之日起施行。\n\n",
+      "reason": "Corrected Korean 부칙 to 附则 and preserved Act No. 12423 and delayed commencement after three months have elapsed."
+    },
+    {
+      "id": "B1-zh-00027",
+      "target_id": "1fcc6107b3cd09a921296534f178f780158c0efa1fad795fa29748e607808d5a",
+      "source_hash": "32d9facc293ffcb74f73d0ed5dfd63f723ba0d30883e5d2d51e977409fe2b35e",
+      "text": "附则（检察厅法）<第18861号，2022年5月9日>\n\n",
+      "reason": "Corrected the legal instrument title from generic 'prosecution law' to Prosecutors' Office Act and kept the enactment number/date."
+    },
+    {
+      "id": "B1-zh-00030",
+      "target_id": "d7da0f3796c07c1b8c9a4168fdd10944b4d4c02cbc526f554c0bda5e2bf73df9",
+      "source_hash": "4d00233a95ea520ed2157b71de4287850e6ad0412ecbb1e91b1c3fe193b6855c",
+      "text": "第四条（其他法律的修订）①及②省略\n\n  ③ 《关于特别检察官的任命等事项的法律》作如下部分修订。\n\n  在第7条第7款中，将“《检察厅法》”改为“《检察厅法》（不包括第4条第2款）”。",
+      "reason": "Corrected the exact old-and-new quotation of the Prosecutors' Office Act and its Article 4(2) exception; preserved Article 7(7), ①–③ and omitted provisions."
+    },
+    {
+      "id": "B2-zh-00001",
+      "target_id": "468936594164306269e41810d01ad997acb9d0bc6d7a5a2b21401ca64b895068",
+      "source_hash": "2d7a4cccb5ba6a0ca490a75d9b6841b949f1fcefb8702c7032cd11c39da21caa",
+      "text": "关于特别检察官的任命等事项的法律施行令",
+      "reason": "Corrected the precise nature of Korean 시행령 as the Enforcement Decree of the Special Prosecutor Appointment Act, not a generic implementing law."
+    },
+    {
+      "id": "B2-zh-00002",
+      "target_id": "72e7bea86beaff40ed1a55673e9c0ba6795e02732061b69ddb0e116ab6695d23",
+      "source_hash": "d9d4eeead7095b0ea51c72c0d2b51147c7b9fbf59990ea3355d29a33adc34660",
+      "text": "第一条（目的）本令旨在规定《关于特别检察官的任命等事项的法律》委任的事项及该法施行所需的事项。\n\n",
+      "reason": "Corrected decree status and full parent Act reference, preserving the delegation-and-enforcement purpose."
+    },
+    {
+      "id": "B2-zh-00003",
+      "target_id": "1a382adcdc22b3d593bf63b8dd21c680e25302af66d49d470e874a876d60cd7c",
+      "source_hash": "158eb86b427aab85e2de7a726503b9235f3e5ba867af1f8aad353a50260969bf",
+      "text": "第二条（特别检察官侦查对象的决定）法务部部长依《关于特别检察官的任命等事项的法律》（以下简称“本法”）第2条第1款第2项决定由特别检察官侦查时，应以书面形式具体确定并列明下列事项：\n1. 侦查对象人\n2. 犯罪事实\n3. 需要特别检察官侦查的理由\n\n",
+      "reason": "Corrected 法务部部长 and the exact legal parent Act Article 2(1)2, with written determination and all three mandatory subjects."
+    },
+    {
+      "id": "B2-zh-00004",
+      "target_id": "c1455a86f74d4d00a4a1ae4a8795e954b356b4d54834833c25316b66963ffadd",
+      "source_hash": "fafc22e56be9b0b8d9961c0d7712ee337bd7efc9fe1a0ec897458ed1ee9fd9b3",
+      "text": "第三条（特别检察官侦查决定的通知）\n① 法务部部长依本法第2条第1款第2项决定由特别检察官侦查时，应立即通知国会议长。\n② 第1款规定的通知应以书面形式作出，具体确定并列明第2条各项所述事项。\n\n",
+      "reason": "Corrected the institution (Speaker of the National Assembly), actor Minister of Justice, mandatory immediacy and written content requirement."
+    },
+    {
+      "id": "B2-zh-00005",
+      "target_id": "a871c7d1946182e034aeeee3e54c6558af36efba2dc76cf87495eef25a8fb1a4",
+      "source_hash": "d5b6b3bd2fb40e04bca2e016b024b3e5f06f0278fab1716385d4ef75dc227084",
+      "text": "第四条（特别检察官执行职务等）\n① 本法第7条第1款第1项规定的特别检察官任命推荐书所记载的案件，应为依本法第2条第1款决定由特别检察官侦查的案件。\n② 本法第7条第2款规定的与承办案件无关的人，是指与本法第7条第1款第1项规定的承办案件（以下简称“承办案件”）及本条第3款各项规定的案件均不具有相关性的人。\n③ 本法第7条第3款规定的与承办案件相关的案件，指与承办案件具有下列任一关系的案件：\n1. 数人共同实施的犯罪\n2. 藏匿犯人、毁灭证据、伪证或虚假鉴定、翻译之罪\n3. 与承办案件具有基本相同事实关系的犯罪\n4. 作为实施承办案件犯罪手段而实施的犯罪\n④ 特别检察官依本法第7条第3款请求有关机关负责人提交资料或协助侦查时，应以书面说明与承办案件的关联性及执行职务所需理由。\n⑤ 有关机关负责人依本法第7条第3款被要求提交资料时，可以提交经认证的副本或节本。\n⑥ 特别检察官依本法第7条第4款请求派遣职员等时，应以书面说明执行职务所需理由。\n\n",
+      "reason": "Corrected '囚犯' to multiple co-offenders, precise concealment/evidence/perjury/false expert opinion/translation offense, full definition of related cases, and restored ④/⑥ markers plus certified-copy option. Technical correction: Korean 등본/초본 allows certified copy or extract; no original-plus-copy requirement."
+    },
+    {
+      "id": "B2-zh-00006",
+      "target_id": "36eb263ea4767e2c6f43a058ba2bd4589e61992df12bc400f048b51ec7aeec49",
+      "source_hash": "dfec9c6a2a155f5df3374535eb0866c6d73c390316d00bbc6bb16f1aa304267a",
+      "text": "第五条（公开侦查内容等的界限）本法第9条第3款规定的正当理由包括下列情形：\n1. 为防止严重失实或推测性报道侵害案件有关人员的名誉、隐私等人权或妨碍侦查，或因相类似的不可避免理由，具有必须公开的重大公共利益需要\n2. 在提起公诉时，同时公布有关未起诉案件的侦查结果\n\n",
+      "reason": "Corrected the scope of exceptional permissible disclosure: prevention of materially false/speculative reports injuring human rights or investigation and substantial overriding public-interest need."
+    },
+    {
+      "id": "B2-zh-00007",
+      "target_id": "0b9aaf957eb717aa3688fea10f14d4fb8568abf4c24f3b0aa7417d7d69f93a32",
+      "source_hash": "257034f78144277ed6f9f941b5947a104fc0e010ee3346b8b9062f0af311076c",
+      "text": "第六条（案件处理报告的记载事项）依本法第12条书面报告或通知时，应具体记载特别检察官决定提起或不提起公诉、或已确定判决的宗旨及理由，以及侦查、审判的详细进展和活动内容等。\n\n",
+      "reason": "Corrected gross confusion of the alternative outcomes (prosecution decision, non-prosecution decision, or final judgment) into a single false 'non-prosecuted final judgment'."
+    },
+    {
+      "id": "B2-zh-00008",
+      "target_id": "fd3dc5b516f8e411815f6c03ccadc4c755f44fb36e8eb4f04d5604250a70b9f9",
+      "source_hash": "7f1ff4b724484ac2daff972fdd16fc1d838ce99640a43228f35d6cdd3c134e94",
+      "text": "第七条（会计报告记载事项等）\n① 依本法第17条提交书面报告（包括中期报告）时，应具体记载侦查与审判的详细进展、费用支出及活动内容等。\n② 本法第17条正文规定的保管中的职务相关文件等，包括侦查和审判记录，以及特别检察官、特别检察官助理、特别调查员、依本法第7条第4款派遣的公务员、为协助特别检察官执行职务而聘用的人在执行职务过程中制作或保管的全部文件、物品等。\n③ 特别检察官对于因不提起公诉的处分或法院裁判应返还的扣押物，在依本法第17条正文将保管中的职务相关文件等移交检察总长前，应依《刑事诉讼法》等有关法令完成扣押物的处分或法院裁判的执行。\n\n",
+      "reason": "Corrected handover and seizure disposition mechanics, retaining mandatory completion before transfer to Prosecutor General and coverage of all records and materials."
+    },
+    {
+      "id": "B2-zh-00009",
+      "target_id": "92c9d4762c5c48b2cae18035974d02fa01bc2b3fb206d8c016e11d9d9099372f",
+      "source_hash": "70e51677d132956c98161c86a23299ee5bbfe9a33d5f8b3bba7c9cae73809173",
+      "text": "第八条（敏感信息等的处理）特别检察官、特别检察官助理、特别调查员、依本法第7条第4款派遣的公务员及为协助特别检察官执行职务而聘用的人，在执行下列职务确有不可避免的需要时，可以依《个人信息保护法》处理该法第23条规定的敏感信息、同法施行令第19条第1项至第4项规定的居民登记号码、护照号码、驾驶证号码、外国人登记号码或其他个人信息：\n1. 本法第7条第1款第1项规定的侦查、决定是否提起公诉及维持公诉\n2. 执行第1项职务所附带需要的事务\n\n",
+      "reason": "Corrected Article 19 subparagraphs 1–4 (not paragraphs 1–4), strict unavoidable necessity before personal-data processing, and distinction of public prosecution maintenance."
+    },
+    {
+      "id": "B2-zh-00010",
+      "target_id": "86920eeeefbf93dfaa15e4436db539338b063ea4bf18aefd4ad22827b37d1f73",
+      "source_hash": "0d4957145f3f3f9f7c626641fb194287febd64a22919e5de7f4b9213a9a3aece",
+      "text": "附则 <第25382号，2014年6月17日>\n\n本令自2014年6月19日起施行。",
+      "reason": "Corrected 부칙 to the legal supplementary-provisions heading and decree name, preserving Presidential Decree number and effective date."
+    }
+  ],
+  "status": "COMPLETE"
+}
