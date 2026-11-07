@@ -1,0 +1,385 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B1-01.json",
+      "blob_sha": "69fcf795c9621b125ae73864793ee4064bd4b815",
+      "document_key": "B1",
+      "rows_checked": 145,
+      "rows_corrected": 26
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "blob_sha": "aeba15bca83d7887b5e9f7ce393fba770a9b5faa",
+      "verified_rows": 12,
+      "documents": [
+        "A30118",
+        "A30120"
+      ]
+    },
+    {
+      "path": "status/delivery/verified-step-S2-86af8794991369270a0d3bd696fb65c5-C04-CHECKPOINT-166-01.json",
+      "blob_sha": "33003dbd344370d5b2cf92bb05838b92b144a7ba",
+      "status": "INTENT_NO_RESEND"
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-01.json",
+      "blob_sha": "5f92fef46a104d832b4e6944e94ab8ba7257dda1",
+      "document_key": "B2",
+      "rows_checked": 36,
+      "rows_corrected": 31
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00037-00044.json",
+      "blob_sha": "31d1e93b2b7bc2aab9430a0d4b201c246301d1c5",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00045-00052.json",
+      "blob_sha": "be37a2f05e6c47bf33ec4ea58b1d6163df4b96a1",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00053-00060.json",
+      "blob_sha": "385725a9ff5c6f74e8cb723a6fc91fbcf072d639",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00061-00072.json",
+      "blob_sha": "4573174026ca13b9d49225d71e76f10c6ab2d76f",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00073-00084.json",
+      "blob_sha": "eb20464990f1e23042b03e95a20ed243fed5c555",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00085-00104.json",
+      "blob_sha": "30ba440fd5a8c3e355e8e79c418c6c9b7adcaa9f",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00105-00124.json",
+      "blob_sha": "3fe79039feaa1febde3bcd60b4397e5a52301b9e",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00125-00144.json",
+      "blob_sha": "3fe9aed92331bbf966efeff025964f461a605d6b",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00145-00164.json",
+      "blob_sha": "ab61b90a9bc19864b55a54b55cce703f9cb22470",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 12
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00165-00184.json",
+      "blob_sha": "68f3e74081cab6a1e84a178d3404ae96facceabe",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00185-00204.json",
+      "blob_sha": "81c7f57799a8550b49975c68793c0c3de622e902",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00205-00208.json",
+      "blob_sha": "feda2b38822c3429ef5493d37b044d1e5ef9ff86",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00209-00212.json",
+      "blob_sha": "08cb0522bc3ceae21d3d76fb56b95152a08fc246",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00213-00223.json",
+      "blob_sha": "a7fecc1db30a21c0677eaf0e6696e8267404fdbd",
+      "document_key": "B2",
+      "rows_checked": 11,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00224-00224.json",
+      "blob_sha": "7ce857683229c544c015843cb5da47ec2c5ea6ed",
+      "document_key": "B2",
+      "rows_checked": 1,
+      "rows_corrected": 1
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00225-00244.json",
+      "blob_sha": "bde39fb81d1a2fe5f6acbc78ab2d929732f8cb58",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00245-00264.json",
+      "blob_sha": "52e222a297a0913cce11527a0e6db004f8de1012",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00265-00272.json",
+      "blob_sha": "ed666acab2f084c7266595060f136c7c5c4c90aa",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "preserved_preverified_ids": [
+        "A30118-zh-00029",
+        "A30118-zh-00030"
+      ]
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30118-00001-00014.json",
+      "blob_sha": "b0ec0f1cc7e719106067960812e69c7bed03cfb5",
+      "document_key": "A30118",
+      "rows_checked": 14,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30118-00015-00028.json",
+      "blob_sha": "f0db9312e41184469f9b91334aac527a58a0871b",
+      "document_key": "A30118",
+      "rows_checked": 14,
+      "rows_corrected": 8
+    }
+  ],
+  "document": {
+    "key": "A30118",
+    "kind": "별표",
+    "title": "의무경찰 선발시험 신체 및 체력기준표(제7조제4항 관련)",
+    "source_hash": "6bbdfe157c466f524b69f30a3fa5885a8bbe6aef00ca70c818b6cb984098921e",
+    "rows_checked": 8,
+    "rows_corrected": 7,
+    "document_review_state": "DOCUMENT_ROWS_CHECKED"
+  },
+  "range": {
+    "first_row_id": "A30118-zh-00031",
+    "last_row_id": "A30118-zh-00038",
+    "verified_row_count": 8
+  },
+  "verified_rows": [
+    {
+      "row_id": "A30118-zh-00031",
+      "target_id": "XML:2210439",
+      "source_hash": "a0be5b33dabffdfd85854fdd198a945de10f8238e6c078b287660dc43c44fcd4",
+      "source_ko": "※ 비고",
+      "previous_zh": "※ 备注",
+      "meaning_pair_id": "6242617edcceea097af2d665fbc06ff0821f79a8e350eeaf8fa224a3d2a2e220",
+      "meaning_pair_path": "meaning/pairs/62.jsonl",
+      "meaning_pair_blob_sha": "62f24c8f6b11f440305aeea9f1eeae96b1edad09"
+    },
+    {
+      "row_id": "A30118-zh-00032",
+      "target_id": "XML:2210440",
+      "source_hash": "6ef8e7582ac55c348905e19b934f8cc95f6614e58898c74235787256d435b550",
+      "source_ko": "가. 경찰청장 또는 해양경찰청장은 특히 필요하다고 인정하는 경우에는 위 표",
+      "previous_zh": "a. 韩国国家警察厅厅长或韩国海上保安厅厅长如认为特别必要，可参考上表。",
+      "meaning_pair_id": "1bc4ee5c7ff35d9676d1430c28ca5cba4d042a0f0516fdd9f14bd78f2d000c41",
+      "meaning_pair_path": "meaning/pairs/1b.jsonl",
+      "meaning_pair_blob_sha": "ca44713ed064234c1d94bd531c8fb51eb76dbaac"
+    },
+    {
+      "row_id": "A30118-zh-00033",
+      "target_id": "XML:2210441",
+      "source_hash": "db1099a26761bedb5a017f22f8045475cd25a57aa8b17778a72f71e1e823720d",
+      "source_ko": "의 기준에도 불구하고 교통ㆍ전산처리 등의 특수업무에 복무할 의무경찰에",
+      "previous_zh": "的标准，征召的警官仍需从事交通和计算机处理等特殊任务",
+      "meaning_pair_id": "f5bc830cddb7bc8f94ff829cc930ddcc38b522d72e87824bddec62199425a2e7",
+      "meaning_pair_path": "meaning/pairs/f5.jsonl",
+      "meaning_pair_blob_sha": "f29f607f2b347354ada1a4260dc72ce8519741f3"
+    },
+    {
+      "row_id": "A30118-zh-00034",
+      "target_id": "XML:2210442",
+      "source_hash": "240096f68640d5c3b4ae17b914ca7900fa02a1a34af307f38d4733d454a02bc3",
+      "source_ko": "대하여 그 신체기준을 달리 정할 수 있다.",
+      "previous_zh": "，其物理标准可能设置不同。",
+      "meaning_pair_id": "9138f7a23038e667e7c543f8dffc53822a79b1bba67f7483e6b6cb2ca487b7ca",
+      "meaning_pair_path": "meaning/pairs/91.jsonl",
+      "meaning_pair_blob_sha": "b74d6452b7792442e25a216851b15f7963332bd4"
+    },
+    {
+      "row_id": "A30118-zh-00035",
+      "target_id": "XML:2210443",
+      "source_hash": "a6101c6cd125e513e6a10b69fdd38d3a3abf9efd17d6a55470ff806034acba20",
+      "source_ko": "나. 경찰청장 또는 해양경찰청장은 의무경찰 선발을 위하여 필요하다고 인정",
+      "previous_zh": "b. 韩国国家警察厅长官或韩国海上保安厅长官，在认为有必要选拔义务警员时。",
+      "meaning_pair_id": "f4c18e3ce1f92ad1177461625bf5e984537a648c90793b0e9daeea009a4a4b92",
+      "meaning_pair_path": "meaning/pairs/f4.jsonl",
+      "meaning_pair_blob_sha": "9c488a0c80ac5a4d18b0fe909751dd1fa1296949"
+    },
+    {
+      "row_id": "A30118-zh-00036",
+      "target_id": "XML:2210444",
+      "source_hash": "ad6c9d59dd3bcd58469f97c25056b835c68046d0f841e099cb62f033757dcef0",
+      "source_ko": "하는 경우에는 제2호에서 정한 종목의 기준을 변경하거나 제2호의 종목 외",
+      "previous_zh": "如果要变更第2款所列项目的标准，或者变更第2款以外的其他项目的标准，",
+      "meaning_pair_id": "591a41d102875d64ea137d669da0fa5e8a688177659c7505b48106aee01ed5cc",
+      "meaning_pair_path": "meaning/pairs/59.jsonl",
+      "meaning_pair_blob_sha": "ebad86f9fbdbfb71904b5f2b6cd6102d60727273"
+    },
+    {
+      "row_id": "A30118-zh-00037",
+      "target_id": "XML:2210445",
+      "source_hash": "62a38f43ae30163c12841046cd40ae95d4722506d929c7f2d0fbadd9d8481b3b",
+      "source_ko": "의 종목을 추가할 수 있다. 이 경우 변경된 기준 또는 추가되는 종목이 적",
+      "previous_zh": "添加股票。在这种情况下，更改的条件或添加的股票是",
+      "meaning_pair_id": "3eb061566ea9bcc136b85c1453610ca9059612962e23b1c063cd5bfc4485b9ce",
+      "meaning_pair_path": "meaning/pairs/3e.jsonl",
+      "meaning_pair_blob_sha": "beb41b08ebf7a73acb664c331a1303d571bdd59f"
+    },
+    {
+      "row_id": "A30118-zh-00038",
+      "target_id": "XML:2210446",
+      "source_hash": "5e22ded4fd3ba4e6ff4b127f53e5f1e83554c9c845bba3606e40e7a257bf88b3",
+      "source_ko": "용되는 선발시험의 실시 전에 이를 미리 공고하여야 한다.",
+      "previous_zh": "必须在实施选拔测试之前提前公布此事。",
+      "meaning_pair_id": "9330ab3e9fde922f63c46980d86f1ee887b672986c528e9ea7555a5ba77b558f",
+      "meaning_pair_path": "meaning/pairs/93.jsonl",
+      "meaning_pair_blob_sha": "35bbf59b62d02657a842e640fba616cb936d0c86"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "A30118-zh-00032",
+      "target_id": "XML:2210440",
+      "source_hash": "6ef8e7582ac55c348905e19b934f8cc95f6614e58898c74235787256d435b550",
+      "source_ko": "가. 경찰청장 또는 해양경찰청장은 특히 필요하다고 인정하는 경우에는 위 표",
+      "previous_zh": "a. 韩国国家警察厅厅长或韩国海上保安厅厅长如认为特别必要，可参考上表。",
+      "meaning_pair_id": "1bc4ee5c7ff35d9676d1430c28ca5cba4d042a0f0516fdd9f14bd78f2d000c41",
+      "meaning_pair_path": "meaning/pairs/1b.jsonl",
+      "meaning_pair_blob_sha": "ca44713ed064234c1d94bd531c8fb51eb76dbaac",
+      "corrected_zh": "甲. 警察厅厅长或海洋警察厅厅长认定特别必要时，即使有上表",
+      "reason": "비고의 이어진 조문 셀을 한 문맥으로 대조해 선발 기준 변경 권한, 종목 추가, 사전 공고 의무 오역 교정."
+    },
+    {
+      "row_id": "A30118-zh-00033",
+      "target_id": "XML:2210441",
+      "source_hash": "db1099a26761bedb5a017f22f8045475cd25a57aa8b17778a72f71e1e823720d",
+      "source_ko": "의 기준에도 불구하고 교통ㆍ전산처리 등의 특수업무에 복무할 의무경찰에",
+      "previous_zh": "的标准，征召的警官仍需从事交通和计算机处理等特殊任务",
+      "meaning_pair_id": "f5bc830cddb7bc8f94ff829cc930ddcc38b522d72e87824bddec62199425a2e7",
+      "meaning_pair_path": "meaning/pairs/f5.jsonl",
+      "meaning_pair_blob_sha": "f29f607f2b347354ada1a4260dc72ce8519741f3",
+      "corrected_zh": "所列标准，对从事交通、计算机处理等特殊业务的义务警察，",
+      "reason": "비고의 이어진 조문 셀을 한 문맥으로 대조해 선발 기준 변경 권한, 종목 추가, 사전 공고 의무 오역 교정."
+    },
+    {
+      "row_id": "A30118-zh-00034",
+      "target_id": "XML:2210442",
+      "source_hash": "240096f68640d5c3b4ae17b914ca7900fa02a1a34af307f38d4733d454a02bc3",
+      "source_ko": "대하여 그 신체기준을 달리 정할 수 있다.",
+      "previous_zh": "，其物理标准可能设置不同。",
+      "meaning_pair_id": "9138f7a23038e667e7c543f8dffc53822a79b1bba67f7483e6b6cb2ca487b7ca",
+      "meaning_pair_path": "meaning/pairs/91.jsonl",
+      "meaning_pair_blob_sha": "b74d6452b7792442e25a216851b15f7963332bd4",
+      "corrected_zh": "也可以另行规定身体标准。",
+      "reason": "비고의 이어진 조문 셀을 한 문맥으로 대조해 선발 기준 변경 권한, 종목 추가, 사전 공고 의무 오역 교정."
+    },
+    {
+      "row_id": "A30118-zh-00035",
+      "target_id": "XML:2210443",
+      "source_hash": "a6101c6cd125e513e6a10b69fdd38d3a3abf9efd17d6a55470ff806034acba20",
+      "source_ko": "나. 경찰청장 또는 해양경찰청장은 의무경찰 선발을 위하여 필요하다고 인정",
+      "previous_zh": "b. 韩国国家警察厅长官或韩国海上保安厅长官，在认为有必要选拔义务警员时。",
+      "meaning_pair_id": "f4c18e3ce1f92ad1177461625bf5e984537a648c90793b0e9daeea009a4a4b92",
+      "meaning_pair_path": "meaning/pairs/f4.jsonl",
+      "meaning_pair_blob_sha": "9c488a0c80ac5a4d18b0fe909751dd1fa1296949",
+      "corrected_zh": "乙. 警察厅厅长或海洋警察厅厅长认为选拔义务警察确有必要时，",
+      "reason": "비고의 이어진 조문 셀을 한 문맥으로 대조해 선발 기준 변경 권한, 종목 추가, 사전 공고 의무 오역 교정."
+    },
+    {
+      "row_id": "A30118-zh-00036",
+      "target_id": "XML:2210444",
+      "source_hash": "ad6c9d59dd3bcd58469f97c25056b835c68046d0f841e099cb62f033757dcef0",
+      "source_ko": "하는 경우에는 제2호에서 정한 종목의 기준을 변경하거나 제2호의 종목 외",
+      "previous_zh": "如果要变更第2款所列项目的标准，或者变更第2款以外的其他项目的标准，",
+      "meaning_pair_id": "591a41d102875d64ea137d669da0fa5e8a688177659c7505b48106aee01ed5cc",
+      "meaning_pair_path": "meaning/pairs/59.jsonl",
+      "meaning_pair_blob_sha": "ebad86f9fbdbfb71904b5f2b6cd6102d60727273",
+      "corrected_zh": "可以变更第二项（体能标准）规定的测试项目标准，或在该项所列项目以外",
+      "reason": "비고의 이어진 조문 셀을 한 문맥으로 대조해 선발 기준 변경 권한, 종목 추가, 사전 공고 의무 오역 교정."
+    },
+    {
+      "row_id": "A30118-zh-00037",
+      "target_id": "XML:2210445",
+      "source_hash": "62a38f43ae30163c12841046cd40ae95d4722506d929c7f2d0fbadd9d8481b3b",
+      "source_ko": "의 종목을 추가할 수 있다. 이 경우 변경된 기준 또는 추가되는 종목이 적",
+      "previous_zh": "添加股票。在这种情况下，更改的条件或添加的股票是",
+      "meaning_pair_id": "3eb061566ea9bcc136b85c1453610ca9059612962e23b1c063cd5bfc4485b9ce",
+      "meaning_pair_path": "meaning/pairs/3e.jsonl",
+      "meaning_pair_blob_sha": "beb41b08ebf7a73acb664c331a1303d571bdd59f",
+      "corrected_zh": "增加测试项目。此时，对将采用变更后的标准或新增项目的",
+      "reason": "비고의 이어진 조문 셀을 한 문맥으로 대조해 선발 기준 변경 권한, 종목 추가, 사전 공고 의무 오역 교정."
+    },
+    {
+      "row_id": "A30118-zh-00038",
+      "target_id": "XML:2210446",
+      "source_hash": "5e22ded4fd3ba4e6ff4b127f53e5f1e83554c9c845bba3606e40e7a257bf88b3",
+      "source_ko": "용되는 선발시험의 실시 전에 이를 미리 공고하여야 한다.",
+      "previous_zh": "必须在实施选拔测试之前提前公布此事。",
+      "meaning_pair_id": "9330ab3e9fde922f63c46980d86f1ee887b672986c528e9ea7555a5ba77b558f",
+      "meaning_pair_path": "meaning/pairs/93.jsonl",
+      "meaning_pair_blob_sha": "35bbf59b62d02657a842e640fba616cb936d0c86",
+      "corrected_zh": "选拔考试，应在实施前提前公告。",
+      "reason": "비고의 이어진 조문 셀을 한 문맥으로 대조해 선발 기준 변경 권한, 종목 추가, 사전 공고 의무 오역 교정."
+    }
+  ],
+  "validation": {
+    "row_ids_unique": true,
+    "source_hashes_match": true,
+    "korean_pair_ids_resolved": true,
+    "linked_meaning_pair_evidence": true,
+    "preverified_29_30_preserved": true,
+    "document_A30118_total_rows": 38,
+    "document_A30118_all_38_unique_rows_accounted_for": true,
+    "total_cumulative_checked_rows": 465
+  },
+  "next_step": "A30118 complete with preverified rows 29/30. Continue A30120, skip previously verified A30120 row IDs."
+}
