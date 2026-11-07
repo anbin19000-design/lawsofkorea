@@ -1,0 +1,98 @@
+{
+  "schema": "LAW_ZH_PARTIAL_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26696",
+  "range": {
+    "first": "A26696-zh-00001",
+    "last": "A26696-zh-00019"
+  },
+  "checked_rows": 19,
+  "corrected_rows": 16,
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "edits": [
+    {
+      "id": "A26696-zh-00001",
+      "source_hash": "8fb7b76d1d05fe220259c724c3899c2bb72d7861ea1dc4c4374fb74b42527f49",
+      "text": "■ 《防止人口贩运等及保护受害者等法施行规则》〔附表格式第四号〕"
+    },
+    {
+      "id": "A26696-zh-00002",
+      "source_hash": "7ecec98ecf424f633eec976b3225215801909dbbf738ddfd7af8b6bd37756c92",
+      "text": "受害者确认书申请及签发登记簿"
+    },
+    {
+      "id": "A26696-zh-00003",
+      "source_hash": "be41aba2fd84362ba49d22d8635d6c05f86426ee40846f1354e944062c4557a8",
+      "text": "申请"
+    },
+    {
+      "id": "A26696-zh-00004",
+      "source_hash": "fc0aec8efc9cf7434964f86433311e24f2998ef6e36c7e3904222fa29065b276",
+      "text": "签发"
+    },
+    {
+      "id": "A26696-zh-00005",
+      "source_hash": "750086e9fe99bde5d8094513e465e2eb5468aa793f38ff81a1d52389af317148",
+      "text": "经办人"
+    },
+    {
+      "id": "A26696-zh-00007",
+      "source_hash": "d4335e4767e00a6636528a158bf9e1dcb346a3c0dcf49564ef9636b8684feeed",
+      "text": "（未签发时注明"
+    },
+    {
+      "id": "A26696-zh-00008",
+      "source_hash": "f8152b235035198a49b4c419b309a16cb41263ab1292e6cefeaa2debac2abd26",
+      "text": "流水号"
+    },
+    {
+      "id": "A26696-zh-00009",
+      "source_hash": "9dd1771d703c46576eba89ca6d25dcfe72faa2a07570a4e57c5b61449438904f",
+      "text": "年月日"
+    },
+    {
+      "id": "A26696-zh-00010",
+      "source_hash": "5aa32deffdf1362feb45b4aaf4a1945b15c91915f96194031e41bc759b5f2f97",
+      "text": "姓名"
+    },
+    {
+      "id": "A26696-zh-00012",
+      "source_hash": "9dd1771d703c46576eba89ca6d25dcfe72faa2a07570a4e57c5b61449438904f",
+      "text": "年月日"
+    },
+    {
+      "id": "A26696-zh-00013",
+      "source_hash": "2fbd9337e652d7499c050d32189eea6e0c45920a41589ebf5441c7829c3d371a",
+      "text": "签发编号"
+    },
+    {
+      "id": "A26696-zh-00014",
+      "source_hash": "5ee6fc3073efa1c809288c058351a9309d29c2b0093a136895910619f7aa96a2",
+      "text": "签发对象"
+    },
+    {
+      "id": "A26696-zh-00015",
+      "source_hash": "fce7a1553ac75ccf2ff4b619aeb07faff1d49fe85bd128d2ebad03a85fb0529d",
+      "text": "判定机构"
+    },
+    {
+      "id": "A26696-zh-00016",
+      "source_hash": "4f10aa4c127b5bdb24803e55e7c3aa2747205d5715bfdb73e0e58f7807a9d01b",
+      "text": "原因）"
+    },
+    {
+      "id": "A26696-zh-00017",
+      "source_hash": "9cfad998cc84beb294598ce45962b8ace566e8613ba6bcd6173c85dc67fff883",
+      "text": "本人"
+    },
+    {
+      "id": "A26696-zh-00018",
+      "source_hash": "bd6c8cccb6aa815bc26f04b4d3f9b1e83d3454d885ed59afb667bd3f496a2433",
+      "text": "举报人"
+    }
+  ],
+  "note": "Compared all form register headers and columns in Korean; restored victim confirmation request/issuance distinction, serial/date fields, adjudicating institution, applicant vs reporter, nonissuance reason. Paper size retained."
+}
