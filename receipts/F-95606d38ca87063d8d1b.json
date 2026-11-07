@@ -1,0 +1,8 @@
+{
+  "job_id": "F-95606d38ca87063d8d1b",
+  "worker": "C02",
+  "checked_rows": 703,
+  "corrected_rows": 31,
+  "status": "COMPLETE",
+  "note": "Reviewed all 703 Chinese rows across the complete 10-document family against the Korean source at the assigned base commit; English official-source documents and available reviewed English/meaning references were consulted where available. Applied 31 minimal row corrections, including missing soil-sampling conclusions, annex table wording and split-cell continuity, incorrect statutory name, Korean remnants, START/MTQ artifacts, and form labels. Verified unique row IDs, non-empty corrections, 703-row coverage, and no remaining Hangul, START, or MTQ markers in the corrected final Chinese rows. Korean, Chinese, and English source files have the same blob SHAs at main and the assigned base commit. Review storage is separate from operational DB application."
+}
