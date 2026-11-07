@@ -1,0 +1,305 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B1-01.json",
+      "blob_sha": "69fcf795c9621b125ae73864793ee4064bd4b815",
+      "document_key": "B1",
+      "rows_checked": 145,
+      "rows_corrected": 26
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "blob_sha": "aeba15bca83d7887b5e9f7ce393fba770a9b5faa",
+      "verified_rows": 12,
+      "documents": [
+        "A30118",
+        "A30120"
+      ]
+    },
+    {
+      "path": "status/delivery/verified-step-S2-86af8794991369270a0d3bd696fb65c5-C04-CHECKPOINT-166-01.json",
+      "blob_sha": "33003dbd344370d5b2cf92bb05838b92b144a7ba",
+      "status": "INTENT_NO_RESEND"
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-01.json",
+      "blob_sha": "5f92fef46a104d832b4e6944e94ab8ba7257dda1",
+      "document_key": "B2",
+      "rows_checked": 36,
+      "rows_corrected": 31
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00037-00044.json",
+      "blob_sha": "31d1e93b2b7bc2aab9430a0d4b201c246301d1c5",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00045-00052.json",
+      "blob_sha": "be37a2f05e6c47bf33ec4ea58b1d6163df4b96a1",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00053-00060.json",
+      "blob_sha": "385725a9ff5c6f74e8cb723a6fc91fbcf072d639",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00061-00072.json",
+      "blob_sha": "4573174026ca13b9d49225d71e76f10c6ab2d76f",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00073-00084.json",
+      "blob_sha": "eb20464990f1e23042b03e95a20ed243fed5c555",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00085-00104.json",
+      "blob_sha": "30ba440fd5a8c3e355e8e79c418c6c9b7adcaa9f",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00105-00124.json",
+      "blob_sha": "3fe79039feaa1febde3bcd60b4397e5a52301b9e",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00125-00144.json",
+      "blob_sha": "3fe9aed92331bbf966efeff025964f461a605d6b",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00145-00164.json",
+      "blob_sha": "ab61b90a9bc19864b55a54b55cce703f9cb22470",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 12
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00165-00184.json",
+      "blob_sha": "68f3e74081cab6a1e84a178d3404ae96facceabe",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00185-00204.json",
+      "blob_sha": "81c7f57799a8550b49975c68793c0c3de622e902",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00205-00208.json",
+      "blob_sha": "feda2b38822c3429ef5493d37b044d1e5ef9ff86",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00209-00212.json",
+      "blob_sha": "08cb0522bc3ceae21d3d76fb56b95152a08fc246",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    }
+  ],
+  "document": {
+    "key": "B2",
+    "kind": "대통령령",
+    "title": "의무경찰대 설치 및 운영에 관한 법률 시행령",
+    "source_hash": "da345505912da9c84c24a63989aee8605f2465beea1b28313585cd363b8b2504",
+    "rows_checked": 11,
+    "rows_corrected": 6,
+    "document_review_state": "IN_PROGRESS"
+  },
+  "range": {
+    "first_row_id": "B2-zh-00213",
+    "last_row_id": "B2-zh-00223",
+    "verified_row_count": 11
+  },
+  "verified_rows": [
+    {
+      "row_id": "B2-zh-00213",
+      "target_id": "dcaea68b4ad20d90b80e4965ebf9ce2b622f975d179baf3bcdceb03c720ca3ef",
+      "source_hash": "f891f7e0c5dbae2cb7c57185dd8ccb1c17e09c217dba65f5558351ac767b7f7c",
+      "source_ko": "부칙(병역법 시행령) <제27620호,2016.11.29>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "补充条款（兵役法实施令）<2016年11月29日第27620号法令>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00214",
+      "target_id": "c3aa62b3f98c5019c5c9df9e3137fc80b51cee07700737ca87ffac8c584d588d",
+      "source_hash": "5e305a4807fb09c67b1f4e542e06c90f3160c460c37ffd123f28d755c751255a",
+      "source_ko": "제1조(시행일) 이 영은 2016년 11월 30일부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自2016年11月30日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00215",
+      "target_id": "afb3b96275440ddcf606c0d10a788a411e598ec6f73048e89d5b71708151e5c7",
+      "source_hash": "c27a8d90e2fad39db31a7ec7c05311572dbb07d5ec24565e9bc0e8ebd63ca618",
+      "source_ko": "제2조 및 제3조 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "省略第2条和第3条\n\n"
+    },
+    {
+      "row_id": "B2-zh-00216",
+      "target_id": "d46270dd8f225d26ec02d547da9712dd0a5b24222ad98f31610ef1fd792077b3",
+      "source_hash": "2c5a71ae67488beb04cdd4053dbdbe9f8b8f39898cee7dcebbac365bfa772bfe",
+      "source_ko": "제4조(다른 법령의 개정) ①부터 <18>까지 생략\n\n  <19> 의무경찰대 설치 및 운영에 관한 법률 시행령 일부를 다음과 같이 개정한다.\n\n  제5조제1항 중 \"제1국민역\"을 \"병역준비역\"으로 한다.\n\n  제7조제2항 중 \"징병신체검사\"를 \"병역판정 신체검사\"로 한다.\n\n  제9조제1항제1호 중 \"징병신체검사결과\"를 \"병역판정 신체검사결과\"로, \"징병검사를\"을 \"병역판정검사를\"로 하고, 같은 항 제2호 및 제3호 중 \"징병검사\"를 각각 \"병역판정검사\"로 하며, 같은 조 제2항제1호 중 \"징병검사\"를 \"병역판정검사\"로 한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第四条（修改其他法律）①至<18>款省略\n\n  <19>《关于设立和运作义务警察部队的法律实施细则》部分内容修改如下。\n\n  第五条第一款中的“第一国民服役”应改为“兵役预备役”。\n\n  第七条第二款中，“征兵体检”应改为“兵役判断体检”。\n\n  第九条第一款第一项中，“征兵体检结果”改为“兵役判断体检结果”，“征兵体检”改为“兵役判断体检”；同款第二项和第三项中，“征兵体检”分别改为“兵役判断体检”；同条第二款第一项中，“征兵体检”改为“兵役判断体检”。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00217",
+      "target_id": "3eb949eae62e178c9861e8da7270cc080411315a71f26f42011d8cdc66587c83",
+      "source_hash": "dc705d64b98b0a4d9102f761047d531f8b2751ce52ad0488d7f30db2509feb3e",
+      "source_ko": "  제10조 중 \"입영기일\"을 \"입영일\"로 한다.\n\n  제30조제2항 각 호 외의 부분 단서 중 \"신체등위\"를 \"신체등급\"으로 한다.\n\n  제36조의3제1항제1호 중 \"신체등위\"를 \"신체등급\"으로 한다.\n\n  <20>부터 <26>까지 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "  第十条中的“入伍日期”应改为“入伍日期”。\n\n  除第 30 条第 2 款各分款外，其余部分的但书中，“体格等级”应改为“体格等级”。\n\n  第 36 章第 3 条第 1 款第 1 项中，“体格等级”应改为“体格等级”。\n\n  <20> 至 <26> 已省略\n\n"
+    },
+    {
+      "row_id": "B2-zh-00218",
+      "target_id": "9f328a5b61350f2ffec3dd64da67e56ceef5e7ab71e8694b34d81918435a016f",
+      "source_hash": "3df69fd3b6d2638f02b520b0db93bcbfeaee17308e7f739b49cf45b3ad9b63dc",
+      "source_ko": "부칙(경찰공무원 임용령) <제27703호,2016.12.30>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "补充文件（警官任命法令）<第27703号，2016年12月30日>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00219",
+      "target_id": "b76af7438b62e9968d93900ff20b8d8f7050b23fcb2ee7a455b95a213245a89f",
+      "source_hash": "7e5f07ffff6aef2f2136019cfb5263979ba5a34dacd8394c05b2d3c719360d57",
+      "source_ko": "제1조(시행일) 이 영은 공포한 날부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自公布之日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00220",
+      "target_id": "54744b4936d5968964bd0d3850f721e26e92f01bde0a8069055e26b3b725b3f4",
+      "source_hash": "35377dc68535dd9c1d3f5c8978e7b6f4ca4c78e110a18210a62253edad9c5d25",
+      "source_ko": "제2조(다른 법령의 개정) ①부터 ⑤까지 생략\n\n  ⑥ 의무경찰대 설치 및 운영에 관한 법률 시행령 일부를 다음과 같이 개정한다.\n\n  제58조제1항제1호 중 \"「경찰공무원임용령」\"을 \"「경찰공무원 임용령」\"으로 한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第二条（修改其他法律）①至⑤ 已省略\n\n  ⑥ 《关于设立和运作义务警察部队的法律实施细则》部分内容修改如下。\n\n  第 58 条第 1 款第 1 项中的“「警员委任条例」”应改为“「警员委任条例」”。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00221",
+      "target_id": "e6051667bf320820cf723f3cd735eaee1f6516b084666c71a7c638278b51394b",
+      "source_hash": "603f2a51aa9bb7c4b176e37b7b73ae0e4aeb4994554f59f7f0c9f86d5c0d3860",
+      "source_ko": "부칙(경찰청과 그 소속기관 직제) <제28215호,2017.7.26>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "增补（国家警察厅及其附属机构的组织结构）<2017年7月26日，第28215号>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00222",
+      "target_id": "1350fbfe9c4628ae1c3d729d78f315591ae836ce3ba7878181e3abe051e3c9a1",
+      "source_hash": "7e5f07ffff6aef2f2136019cfb5263979ba5a34dacd8394c05b2d3c719360d57",
+      "source_ko": "제1조(시행일) 이 영은 공포한 날부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自公布之日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00223",
+      "target_id": "56a10dfed487288b8b6cf3092ef0998d91d89326d2c05ca05324b887e4911329",
+      "source_hash": "1fa2d78222cc5f3a7b268ba3015a524a8e57a9355a8b17e0ae4253566ef34323",
+      "source_ko": "제2조 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第 2 条省略\n\n"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "B2-zh-00213",
+      "target_id": "dcaea68b4ad20d90b80e4965ebf9ce2b622f975d179baf3bcdceb03c720ca3ef",
+      "source_hash": "f891f7e0c5dbae2cb7c57185dd8ccb1c17e09c217dba65f5558351ac767b7f7c",
+      "source_ko": "부칙(병역법 시행령) <제27620호,2016.11.29>\n\n",
+      "previous_zh": "补充条款（兵役法实施令）<2016年11月29日第27620号法令>\n\n",
+      "corrected_zh": "附则（《兵役法施行令》）<第27620号，2016年11月29日>\n\n",
+      "reason": "법령명·병역 명칭·신체등위/등급의 개정 전후 차이·법률명 띄어쓰기 원문 차이 교정."
+    },
+    {
+      "row_id": "B2-zh-00216",
+      "target_id": "d46270dd8f225d26ec02d547da9712dd0a5b24222ad98f31610ef1fd792077b3",
+      "source_hash": "2c5a71ae67488beb04cdd4053dbdbe9f8b8f39898cee7dcebbac365bfa772bfe",
+      "source_ko": "제4조(다른 법령의 개정) ①부터 <18>까지 생략\n\n  <19> 의무경찰대 설치 및 운영에 관한 법률 시행령 일부를 다음과 같이 개정한다.\n\n  제5조제1항 중 \"제1국민역\"을 \"병역준비역\"으로 한다.\n\n  제7조제2항 중 \"징병신체검사\"를 \"병역판정 신체검사\"로 한다.\n\n  제9조제1항제1호 중 \"징병신체검사결과\"를 \"병역판정 신체검사결과\"로, \"징병검사를\"을 \"병역판정검사를\"로 하고, 같은 항 제2호 및 제3호 중 \"징병검사\"를 각각 \"병역판정검사\"로 하며, 같은 조 제2항제1호 중 \"징병검사\"를 \"병역판정검사\"로 한다.\n\n",
+      "previous_zh": "第四条（修改其他法律）①至<18>款省略\n\n  <19>《关于设立和运作义务警察部队的法律实施细则》部分内容修改如下。\n\n  第五条第一款中的“第一国民服役”应改为“兵役预备役”。\n\n  第七条第二款中，“征兵体检”应改为“兵役判断体检”。\n\n  第九条第一款第一项中，“征兵体检结果”改为“兵役判断体检结果”，“征兵体检”改为“兵役判断体检”；同款第二项和第三项中，“征兵体检”分别改为“兵役判断体检”；同条第二款第一项中，“征兵体检”改为“兵役判断体检”。\n\n",
+      "corrected_zh": "第四条（其他法令的修订）①至<18>省略。\n\n  <19> 《义务警察部队设立及运营法施行令》作如下部分修订。\n\n  第五条第一款中的“第一国民役”改为“兵役准备役”。\n\n  第七条第二款中的“征兵体格检查”改为“兵役判定体格检查”。\n\n  第九条第一款第一项中的“征兵体格检查结果”改为“兵役判定体格检查结果”，“征兵检查”改为“兵役判定检查”；同款第二项及第三项中的“征兵检查”分别改为“兵役判定检查”；同条第二款第一项中的“征兵检查”改为“兵役判定检查”。\n\n",
+      "reason": "법령명·병역 명칭·신체등위/등급의 개정 전후 차이·법률명 띄어쓰기 원문 차이 교정."
+    },
+    {
+      "row_id": "B2-zh-00217",
+      "target_id": "3eb949eae62e178c9861e8da7270cc080411315a71f26f42011d8cdc66587c83",
+      "source_hash": "dc705d64b98b0a4d9102f761047d531f8b2751ce52ad0488d7f30db2509feb3e",
+      "source_ko": "  제10조 중 \"입영기일\"을 \"입영일\"로 한다.\n\n  제30조제2항 각 호 외의 부분 단서 중 \"신체등위\"를 \"신체등급\"으로 한다.\n\n  제36조의3제1항제1호 중 \"신체등위\"를 \"신체등급\"으로 한다.\n\n  <20>부터 <26>까지 생략\n\n",
+      "previous_zh": "  第十条中的“入伍日期”应改为“入伍日期”。\n\n  除第 30 条第 2 款各分款外，其余部分的但书中，“体格等级”应改为“体格等级”。\n\n  第 36 章第 3 条第 1 款第 1 项中，“体格等级”应改为“体格等级”。\n\n  <20> 至 <26> 已省略\n\n",
+      "corrected_zh": "  第十条中的“预定入营日期”改为“入营日期”。\n\n  第三十条第二款各项以外部分的但书中的“身体等位”改为“身体等级”。\n\n  第三十六条之三第一款第一项中的“身体等位”改为“身体等级”。\n\n  <20>至<26>省略。\n\n",
+      "reason": "법령명·병역 명칭·신체등위/등급의 개정 전후 차이·법률명 띄어쓰기 원문 차이 교정."
+    },
+    {
+      "row_id": "B2-zh-00218",
+      "target_id": "9f328a5b61350f2ffec3dd64da67e56ceef5e7ab71e8694b34d81918435a016f",
+      "source_hash": "3df69fd3b6d2638f02b520b0db93bcbfeaee17308e7f739b49cf45b3ad9b63dc",
+      "source_ko": "부칙(경찰공무원 임용령) <제27703호,2016.12.30>\n\n",
+      "previous_zh": "补充文件（警官任命法令）<第27703号，2016年12月30日>\n\n",
+      "corrected_zh": "附则（《警察公务员任用令》）<第27703号，2016年12月30日>\n\n",
+      "reason": "법령명·병역 명칭·신체등위/등급의 개정 전후 차이·법률명 띄어쓰기 원문 차이 교정."
+    },
+    {
+      "row_id": "B2-zh-00220",
+      "target_id": "54744b4936d5968964bd0d3850f721e26e92f01bde0a8069055e26b3b725b3f4",
+      "source_hash": "35377dc68535dd9c1d3f5c8978e7b6f4ca4c78e110a18210a62253edad9c5d25",
+      "source_ko": "제2조(다른 법령의 개정) ①부터 ⑤까지 생략\n\n  ⑥ 의무경찰대 설치 및 운영에 관한 법률 시행령 일부를 다음과 같이 개정한다.\n\n  제58조제1항제1호 중 \"「경찰공무원임용령」\"을 \"「경찰공무원 임용령」\"으로 한다.\n\n",
+      "previous_zh": "第二条（修改其他法律）①至⑤ 已省略\n\n  ⑥ 《关于设立和运作义务警察部队的法律实施细则》部分内容修改如下。\n\n  第 58 条第 1 款第 1 项中的“「警员委任条例」”应改为“「警员委任条例」”。\n\n",
+      "corrected_zh": "第二条（其他法令的修订）①至⑤省略。\n\n  ⑥ 《义务警察部队设立及运营法施行令》作如下部分修订。\n\n  第五十八条第一款第一项中的“《警察公务员任用令》”（原韩文标题连写）改为“《警察公务员任用令》”（原韩文标题在“公务员”与“任用令”之间增加空格）。\n\n",
+      "reason": "법령명·병역 명칭·신체등위/등급의 개정 전후 차이·법률명 띄어쓰기 원문 차이 교정."
+    },
+    {
+      "row_id": "B2-zh-00221",
+      "target_id": "e6051667bf320820cf723f3cd735eaee1f6516b084666c71a7c638278b51394b",
+      "source_hash": "603f2a51aa9bb7c4b176e37b7b73ae0e4aeb4994554f59f7f0c9f86d5c0d3860",
+      "source_ko": "부칙(경찰청과 그 소속기관 직제) <제28215호,2017.7.26>\n\n",
+      "previous_zh": "增补（国家警察厅及其附属机构的组织结构）<2017年7月26日，第28215号>\n\n",
+      "corrected_zh": "附则（《警察厅及其所属机关职制》）<第28215号，2017年7月26日>\n\n",
+      "reason": "법령명·병역 명칭·신체등위/등급의 개정 전후 차이·법률명 띄어쓰기 원문 차이 교정."
+    }
+  ],
+  "validation": {
+    "row_ids_unique": true,
+    "source_hashes_match": true,
+    "verified_korean_offsets": true,
+    "no_untranslated_or_mtq_start_markers": true,
+    "english_reference": "documents/en/kr-004766-281729-en.json",
+    "total_cumulative_checked_rows": 380
+  },
+  "next_step": "Continue B2-zh-00224; final receipt not yet permitted."
+}
