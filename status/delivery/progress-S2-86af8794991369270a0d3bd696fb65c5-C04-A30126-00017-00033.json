@@ -1,0 +1,338 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30126-00001-00016.json",
+      "blob_sha": "0a08351044e19ed1999b5f0ca2ee6f1aa5e47bf3",
+      "document_key": "A30126",
+      "rows_checked": 16,
+      "rows_corrected": 11
+    }
+  ],
+  "document": {
+    "key": "A30126",
+    "kind": "서식",
+    "title": "(부상, 질병) 확인서",
+    "source_hash": "0890e3c86a84b90ed69dbcb70250e9b2caa1b0c6657c704965646eba4f63dcbe",
+    "rows_checked": 17,
+    "rows_corrected": 15,
+    "document_review_state": "DOCUMENT_ROWS_CHECKED"
+  },
+  "range": {
+    "first_row_id": "A30126-zh-00017",
+    "last_row_id": "A30126-zh-00033",
+    "verified_row_count": 17
+  },
+  "verified_rows": [
+    {
+      "row_id": "A30126-zh-00017",
+      "target_id": "XML:2210720",
+      "source_hash": "08dc67cb3ec6f68eb05254493d2b1886770af13ce678718ef0639ab2810fd409",
+      "source_ko": "발생부위",
+      "previous_zh": "发生位置",
+      "meaning_pair_id": "d62d20b0a20f3eb3e23a34f385d8ce61a9c86b959dedd687a3ba78c0f13341e2",
+      "source_basis": "authoritative complete Korean form, pair cross-reference"
+    },
+    {
+      "row_id": "A30126-zh-00018",
+      "target_id": "XML:2210721",
+      "source_hash": "3a74c64c07661e2c2a26627dae2445d6c0756e1245d8adda9f04eadc97a82432",
+      "source_ko": "발생경위",
+      "previous_zh": "发生情况",
+      "meaning_pair_id": "7ed54d0adf6304b1a46412a4a135eea4389a82444eb310808816a57b920ebb7a",
+      "source_basis": "authoritative complete Korean form, pair cross-reference"
+    },
+    {
+      "row_id": "A30126-zh-00019",
+      "target_id": "XML:2210723",
+      "source_hash": "77d28d36a9aca22637ae3845d88ee135e0cfd0de6cf4cd8b3e47d138e5dacda8",
+      "source_ko": "그 밖의 참고사항",
+      "previous_zh": "其他说明",
+      "meaning_pair_id": "5c1f6e37a9b0e49e5cdf8ed76856845dfa571b56ca08198850845ddbc222edce",
+      "source_basis": "authoritative complete Korean form, pair cross-reference"
+    },
+    {
+      "row_id": "A30126-zh-00020",
+      "target_id": "XML:2210724",
+      "source_hash": "2915a96f42e601e01e979f7e67a57c31d730e731d1f92f7070ba97dbae18e890",
+      "source_ko": "「의무경찰대 설치 및 운영에 관한 법률 시행령」 제57조제1항",
+      "previous_zh": "《关于设立和运作义务警察部队的法律实施法令》第五十七条第一款",
+      "meaning_pair_id": "c6fd7f45ce7a5c3577b8250dfc1ada2129c206c4c085faa30ded4a40dbc258f3",
+      "source_basis": "authoritative complete Korean form, pair cross-reference"
+    },
+    {
+      "row_id": "A30126-zh-00021",
+      "target_id": "XML:2210725",
+      "source_hash": "f1516bb11308206e89c4ba49fb733d7068de3c48e1b74037be91acbcf28c2404",
+      "source_ko": "[ ]부상",
+      "previous_zh": "[ ]受伤",
+      "meaning_pair_id": "941228748286d103903235c8642de36acacfa9894e78eceac8dfd7ff758dc2e6",
+      "source_basis": "authoritative complete Korean form, pair cross-reference"
+    },
+    {
+      "row_id": "A30126-zh-00022",
+      "target_id": "XML:2210726",
+      "source_hash": "c9dcfaeccbe333a6dda3ca495baeaf8e5fb3635cc01b2fb86453d57ef8c74617",
+      "source_ko": "에 따라 위와 같이 사실을 확인합니다.",
+      "previous_zh": "和",
+      "meaning_pair_id": "f8d4308f40efc16be802ebb144442a03965a889e21da7d2f06706a048236c738",
+      "source_basis": "authoritative complete Korean form, pair cross-reference"
+    },
+    {
+      "row_id": "A30126-zh-00023",
+      "target_id": "XML:2210727",
+      "source_hash": "10f378412eab47df3fed2c66a12ade7426eecefb6b56f17144a395afdecca317",
+      "source_ko": "[ ]질병",
+      "previous_zh": "[ ]疾病",
+      "meaning_pair_id": "dbbda896844b3af258cd5b70bc00383c28fff842bbaee2ff82cdb3d31020c9e3",
+      "source_basis": "authoritative complete Korean form, pair cross-reference"
+    },
+    {
+      "row_id": "A30126-zh-00024",
+      "target_id": "XML:2210728",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "source_ko": "년",
+      "previous_zh": "年份",
+      "meaning_pair_id": "51a9c53d5e91050e3abe1ef30e6743e05bc272555042d615ccb26c1cbd4bac01",
+      "source_basis": "authoritative complete Korean form, pair cross-reference"
+    },
+    {
+      "row_id": "A30126-zh-00025",
+      "target_id": "XML:2210729",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "source_ko": "월",
+      "previous_zh": "月份",
+      "meaning_pair_id": "fe11e2c245c4120f7ec1489f418bd7cb4dfa4f13b76bd89d3b8f839acc883cfc",
+      "source_basis": "authoritative complete Korean form, pair cross-reference"
+    },
+    {
+      "row_id": "A30126-zh-00026",
+      "target_id": "XML:2210730",
+      "source_hash": "dfc76879e2f5c3ead09186ff1c6b635624f96b7adbd71d94c37566429ca5df6f",
+      "source_ko": "일",
+      "previous_zh": "日",
+      "meaning_pair_id": "09573106deaddabc003ab690e51d1abb23f4c3b00649980fbc69af84c3d91542",
+      "source_basis": "authoritative complete Korean form, pair cross-reference"
+    },
+    {
+      "row_id": "A30126-zh-00027",
+      "target_id": "XML:2210731",
+      "source_hash": "05b5a9b2940b9df3f10c17725a05a4ee57d8391d240bb456d90cbcc6e366ff70",
+      "source_ko": "소속경찰기관장",
+      "previous_zh": "附属警察机构负责人",
+      "meaning_pair_id": "c38f5fd8cc9617c89c7f3319cb9b08aacd718b788bead472650d121dcc99c997",
+      "source_basis": "authoritative complete Korean form, pair cross-reference"
+    },
+    {
+      "row_id": "A30126-zh-00028",
+      "target_id": "XML:2210732",
+      "source_hash": "c2c25ba0a53a6f7b97292cfe2d401a55b263f9c6222471a4b8a4c3509c1a4197",
+      "source_ko": "직인",
+      "previous_zh": "官方印章",
+      "meaning_pair_id": "4633b346583cfd7746b9188f967d7a4d596041a9985738cbe6b93daf23268cd6",
+      "source_basis": "authoritative complete Korean form, pair cross-reference"
+    },
+    {
+      "row_id": "A30126-zh-00029",
+      "target_id": "XML:2210733",
+      "source_hash": "04f7145094b522cb5dcf56c0cf4103c537ad3a1363a4a719195074519992623f",
+      "source_ko": "장관",
+      "previous_zh": "秘书",
+      "meaning_pair_id": "a304f9eeead1d683f3619a722983bb63f87c6d33bb711019e6d6c60795429fb3",
+      "source_basis": "authoritative complete Korean form, pair cross-reference"
+    },
+    {
+      "row_id": "A30126-zh-00030",
+      "target_id": "XML:2210734",
+      "source_hash": "2099cd7f323c38ac89f0ebc4dd140529ccb048fb87aa42935038b81b0325020d",
+      "source_ko": "귀하",
+      "previous_zh": "您的",
+      "meaning_pair_id": "7f7354c3e691f7e82c0b0c934a808bd3bcfdd64207d00ed8024907fccd052ff0",
+      "source_basis": "authoritative complete Korean form, pair cross-reference"
+    },
+    {
+      "row_id": "A30126-zh-00031",
+      "target_id": "XML:2210735",
+      "source_hash": "8d1d1b9d54e7233afc4fc8aa25163b441cd97e85c6f2ca02e01ad676758a1c89",
+      "source_ko": "시ㆍ도지사",
+      "previous_zh": "市长/省长",
+      "meaning_pair_id": "1736dcbbd4b87eaf9245f79c97c46c0854c55f0d94547776b309419d5d98d0d0",
+      "source_basis": "authoritative complete Korean form, pair cross-reference"
+    },
+    {
+      "row_id": "A30126-zh-00032",
+      "target_id": "XML:2210736",
+      "source_hash": "5bb45a536e97c26a35db29327b00da08a2b6dc013cde0336e8afb0d6135c9a27",
+      "source_ko": "시장ㆍ군수",
+      "previous_zh": "市长/县长",
+      "meaning_pair_id": "1ec994199ba11c275cd6b5f643a1b97bc928f2c76c949594149fecaccb4cace3",
+      "source_basis": "authoritative complete Korean form, pair cross-reference"
+    },
+    {
+      "row_id": "A30126-zh-00033",
+      "target_id": "XML:2210737",
+      "source_hash": "7ccad476e1d798c0b3d8819350e19759027dd3d9d5d2bc522f0f182e7a51dd92",
+      "source_ko": "210mm×297mm[백상지 80g/㎡(재활용품)]",
+      "previous_zh": "210mm×297mm[白纸 80g/㎡（再生纸）]",
+      "meaning_pair_id": "fea714413c580cf501b204cafb8998d56c8fca7eb27759fb9ca926e57b047f9b",
+      "source_basis": "authoritative complete Korean form, pair cross-reference"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "A30126-zh-00017",
+      "target_id": "XML:2210720",
+      "source_hash": "08dc67cb3ec6f68eb05254493d2b1886770af13ce678718ef0639ab2810fd409",
+      "source_ko": "발생부위",
+      "previous_zh": "发生位置",
+      "corrected_zh": "负伤（患病）部位",
+      "reason": "부상·질병 확인서의 실제 기재·확인 문구 및 수신기관·담당자, 법령조문 원문과 대조하여 오류 교정."
+    },
+    {
+      "row_id": "A30126-zh-00018",
+      "target_id": "XML:2210721",
+      "source_hash": "3a74c64c07661e2c2a26627dae2445d6c0756e1245d8adda9f04eadc97a82432",
+      "source_ko": "발생경위",
+      "previous_zh": "发生情况",
+      "corrected_zh": "发生经过",
+      "reason": "부상·질병 확인서의 실제 기재·확인 문구 및 수신기관·담당자, 법령조문 원문과 대조하여 오류 교정."
+    },
+    {
+      "row_id": "A30126-zh-00019",
+      "target_id": "XML:2210723",
+      "source_hash": "77d28d36a9aca22637ae3845d88ee135e0cfd0de6cf4cd8b3e47d138e5dacda8",
+      "source_ko": "그 밖의 참고사항",
+      "previous_zh": "其他说明",
+      "corrected_zh": "其他参考事项",
+      "reason": "부상·질병 확인서의 실제 기재·확인 문구 및 수신기관·담당자, 법령조문 원문과 대조하여 오류 교정."
+    },
+    {
+      "row_id": "A30126-zh-00020",
+      "target_id": "XML:2210724",
+      "source_hash": "2915a96f42e601e01e979f7e67a57c31d730e731d1f92f7070ba97dbae18e890",
+      "source_ko": "「의무경찰대 설치 및 운영에 관한 법률 시행령」 제57조제1항",
+      "previous_zh": "《关于设立和运作义务警察部队的法律实施法令》第五十七条第一款",
+      "corrected_zh": "《义务警察部队设立及运营法施行令》第五十七条第一款",
+      "reason": "부상·질병 확인서의 실제 기재·확인 문구 및 수신기관·담당자, 법령조문 원문과 대조하여 오류 교정."
+    },
+    {
+      "row_id": "A30126-zh-00021",
+      "target_id": "XML:2210725",
+      "source_hash": "f1516bb11308206e89c4ba49fb733d7068de3c48e1b74037be91acbcf28c2404",
+      "source_ko": "[ ]부상",
+      "previous_zh": "[ ]受伤",
+      "corrected_zh": "[ ]负伤",
+      "reason": "부상·질병 확인서의 실제 기재·확인 문구 및 수신기관·담당자, 법령조문 원문과 대조하여 오류 교정."
+    },
+    {
+      "row_id": "A30126-zh-00022",
+      "target_id": "XML:2210726",
+      "source_hash": "c9dcfaeccbe333a6dda3ca495baeaf8e5fb3635cc01b2fb86453d57ef8c74617",
+      "source_ko": "에 따라 위와 같이 사실을 확인합니다.",
+      "previous_zh": "和",
+      "corrected_zh": "依据上述规定，确认以上事实属实。",
+      "reason": "부상·질병 확인서의 실제 기재·확인 문구 및 수신기관·담당자, 법령조문 원문과 대조하여 오류 교정."
+    },
+    {
+      "row_id": "A30126-zh-00024",
+      "target_id": "XML:2210728",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "source_ko": "년",
+      "previous_zh": "年份",
+      "corrected_zh": "年",
+      "reason": "부상·질병 확인서의 실제 기재·확인 문구 및 수신기관·담당자, 법령조문 원문과 대조하여 오류 교정."
+    },
+    {
+      "row_id": "A30126-zh-00025",
+      "target_id": "XML:2210729",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "source_ko": "월",
+      "previous_zh": "月份",
+      "corrected_zh": "月",
+      "reason": "부상·질병 확인서의 실제 기재·확인 문구 및 수신기관·담당자, 법령조문 원문과 대조하여 오류 교정."
+    },
+    {
+      "row_id": "A30126-zh-00027",
+      "target_id": "XML:2210731",
+      "source_hash": "05b5a9b2940b9df3f10c17725a05a4ee57d8391d240bb456d90cbcc6e366ff70",
+      "source_ko": "소속경찰기관장",
+      "previous_zh": "附属警察机构负责人",
+      "corrected_zh": "所属警察机关负责人",
+      "reason": "부상·질병 확인서의 실제 기재·확인 문구 및 수신기관·담당자, 법령조문 원문과 대조하여 오류 교정."
+    },
+    {
+      "row_id": "A30126-zh-00028",
+      "target_id": "XML:2210732",
+      "source_hash": "c2c25ba0a53a6f7b97292cfe2d401a55b263f9c6222471a4b8a4c3509c1a4197",
+      "source_ko": "직인",
+      "previous_zh": "官方印章",
+      "corrected_zh": "职务印章",
+      "reason": "부상·질병 확인서의 실제 기재·확인 문구 및 수신기관·담당자, 법령조문 원문과 대조하여 오류 교정."
+    },
+    {
+      "row_id": "A30126-zh-00029",
+      "target_id": "XML:2210733",
+      "source_hash": "04f7145094b522cb5dcf56c0cf4103c537ad3a1363a4a719195074519992623f",
+      "source_ko": "장관",
+      "previous_zh": "秘书",
+      "corrected_zh": "部长",
+      "reason": "부상·질병 확인서의 실제 기재·확인 문구 및 수신기관·담당자, 법령조문 원문과 대조하여 오류 교정."
+    },
+    {
+      "row_id": "A30126-zh-00030",
+      "target_id": "XML:2210734",
+      "source_hash": "2099cd7f323c38ac89f0ebc4dd140529ccb048fb87aa42935038b81b0325020d",
+      "source_ko": "귀하",
+      "previous_zh": "您的",
+      "corrected_zh": "敬启",
+      "reason": "부상·질병 확인서의 실제 기재·확인 문구 및 수신기관·담당자, 법령조문 원문과 대조하여 오류 교정."
+    },
+    {
+      "row_id": "A30126-zh-00031",
+      "target_id": "XML:2210735",
+      "source_hash": "8d1d1b9d54e7233afc4fc8aa25163b441cd97e85c6f2ca02e01ad676758a1c89",
+      "source_ko": "시ㆍ도지사",
+      "previous_zh": "市长/省长",
+      "corrected_zh": "市、道知事",
+      "reason": "부상·질병 확인서의 실제 기재·확인 문구 및 수신기관·담당자, 법령조문 원문과 대조하여 오류 교정."
+    },
+    {
+      "row_id": "A30126-zh-00032",
+      "target_id": "XML:2210736",
+      "source_hash": "5bb45a536e97c26a35db29327b00da08a2b6dc013cde0336e8afb0d6135c9a27",
+      "source_ko": "시장ㆍ군수",
+      "previous_zh": "市长/县长",
+      "corrected_zh": "市长、郡守",
+      "reason": "부상·질병 확인서의 실제 기재·확인 문구 및 수신기관·담당자, 법령조문 원문과 대조하여 오류 교정."
+    },
+    {
+      "row_id": "A30126-zh-00033",
+      "target_id": "XML:2210737",
+      "source_hash": "7ccad476e1d798c0b3d8819350e19759027dd3d9d5d2bc522f0f182e7a51dd92",
+      "source_ko": "210mm×297mm[백상지 80g/㎡(재활용품)]",
+      "previous_zh": "210mm×297mm[白纸 80g/㎡（再生纸）]",
+      "corrected_zh": "210mm×297mm〔白色胶版纸80g/㎡（再生纸）〕",
+      "reason": "부상·질병 확인서의 실제 기재·확인 문구 및 수신기관·담당자, 법령조문 원문과 대조하여 오류 교정."
+    }
+  ],
+  "validation": {
+    "row_ids_unique": true,
+    "source_blobs_unchanged": true,
+    "source_form_checked": true,
+    "no_mtq_start_korean_in_edits": true,
+    "total_cumulative_checked_rows": 726
+  },
+  "next_step": "Continue A30127 form next; no receipt until all 800."
+}
