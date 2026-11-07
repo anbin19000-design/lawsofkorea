@@ -1,0 +1,8 @@
+{
+  "job_id": "F-485ce7313bcb099bd686",
+  "worker": "C03",
+  "checked_rows": 311,
+  "corrected_rows": 83,
+  "status": "COMPLETE",
+  "note": "Reviewed all 4 documents (Housing Lease Protection Act, enforcement decree, mediation jurisdiction annex and fee annex), 311 original Chinese rows. Existing C03 review recovered after GitHub branch race; source laws/ko, laws/zh and laws/en verified unchanged. With explicit LAW-VERIFIED-ACTION authorization, updated exactly 4 omitted legal provision rows (B1-zh-00004, B1-zh-00007, B1-zh-00009, B1-zh-00026) using the current review blob SHA once; compared before and after review versions, preserving all other 79 unique edits. Verified 83 unique nonempty original row IDs, schema and 311 checked rows. Receipt separately committed after review verification; operational DB update remains separate."
+}
