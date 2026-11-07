@@ -1,0 +1,571 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B1-01.json",
+      "blob_sha": "69fcf795c9621b125ae73864793ee4064bd4b815",
+      "document_key": "B1",
+      "rows_checked": 145,
+      "rows_corrected": 26
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "blob_sha": "aeba15bca83d7887b5e9f7ce393fba770a9b5faa",
+      "verified_rows": 12,
+      "documents": [
+        "A30118",
+        "A30120"
+      ]
+    },
+    {
+      "path": "status/delivery/verified-step-S2-86af8794991369270a0d3bd696fb65c5-C04-CHECKPOINT-166-01.json",
+      "blob_sha": "33003dbd344370d5b2cf92bb05838b92b144a7ba",
+      "status": "INTENT_NO_RESEND"
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-01.json",
+      "blob_sha": "5f92fef46a104d832b4e6944e94ab8ba7257dda1",
+      "document_key": "B2",
+      "rows_checked": 36,
+      "rows_corrected": 31
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00037-00044.json",
+      "blob_sha": "31d1e93b2b7bc2aab9430a0d4b201c246301d1c5",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00045-00052.json",
+      "blob_sha": "be37a2f05e6c47bf33ec4ea58b1d6163df4b96a1",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00053-00060.json",
+      "blob_sha": "385725a9ff5c6f74e8cb723a6fc91fbcf072d639",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00061-00072.json",
+      "blob_sha": "4573174026ca13b9d49225d71e76f10c6ab2d76f",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00073-00084.json",
+      "blob_sha": "eb20464990f1e23042b03e95a20ed243fed5c555",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00085-00104.json",
+      "blob_sha": "30ba440fd5a8c3e355e8e79c418c6c9b7adcaa9f",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00105-00124.json",
+      "blob_sha": "3fe79039feaa1febde3bcd60b4397e5a52301b9e",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00125-00144.json",
+      "blob_sha": "3fe9aed92331bbf966efeff025964f461a605d6b",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00145-00164.json",
+      "blob_sha": "ab61b90a9bc19864b55a54b55cce703f9cb22470",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 12
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00165-00184.json",
+      "blob_sha": "68f3e74081cab6a1e84a178d3404ae96facceabe",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00185-00204.json",
+      "blob_sha": "81c7f57799a8550b49975c68793c0c3de622e902",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00205-00208.json",
+      "blob_sha": "feda2b38822c3429ef5493d37b044d1e5ef9ff86",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00209-00212.json",
+      "blob_sha": "08cb0522bc3ceae21d3d76fb56b95152a08fc246",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00213-00223.json",
+      "blob_sha": "a7fecc1db30a21c0677eaf0e6696e8267404fdbd",
+      "document_key": "B2",
+      "rows_checked": 11,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00224-00224.json",
+      "blob_sha": "7ce857683229c544c015843cb5da47ec2c5ea6ed",
+      "document_key": "B2",
+      "rows_checked": 1,
+      "rows_corrected": 1
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00225-00244.json",
+      "blob_sha": "bde39fb81d1a2fe5f6acbc78ab2d929732f8cb58",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00245-00264.json",
+      "blob_sha": "52e222a297a0913cce11527a0e6db004f8de1012",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00265-00272.json",
+      "blob_sha": "ed666acab2f084c7266595060f136c7c5c4c90aa",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "preserved_preverified_ids": [
+        "A30118-zh-00029",
+        "A30118-zh-00030"
+      ]
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30118-00001-00014.json",
+      "blob_sha": "b0ec0f1cc7e719106067960812e69c7bed03cfb5",
+      "document_key": "A30118",
+      "rows_checked": 14,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30118-00015-00028.json",
+      "blob_sha": "f0db9312e41184469f9b91334aac527a58a0871b",
+      "document_key": "A30118",
+      "rows_checked": 14,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30118-00031-00038.json",
+      "blob_sha": "2349cd68ccb30b9a5cd817d6446e0146920045e2",
+      "document_key": "A30118",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00001-00014.json",
+      "blob_sha": "691b91f81935198f72df0af0f3591c64a3573fde",
+      "document_key": "A30120",
+      "rows_checked": 14,
+      "rows_corrected": 14
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00015-00019.json",
+      "blob_sha": "f8689815603add57b3f7f545d07d19967926556c",
+      "document_key": "A30120",
+      "rows_checked": 5,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00024-00028.json",
+      "blob_sha": "be641e075a3db3268ad4d76b449384d52da6643c",
+      "document_key": "A30120",
+      "rows_checked": 5,
+      "rows_corrected": 3
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00030-00030.json",
+      "blob_sha": "ce8293ae3d09532ae16961e355e2bebe0dcc67aa",
+      "document_key": "A30120",
+      "rows_checked": 1,
+      "rows_corrected": 1
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00034-00042.json",
+      "blob_sha": "799d80439c9bb29fec77171c7e5879f1685850fc",
+      "document_key": "A30120",
+      "rows_checked": 9,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00043-00051.json",
+      "blob_sha": "56bbddb7099852f03248f5c7b171de53e074c16a",
+      "document_key": "A30120",
+      "rows_checked": 9,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00054-00057.json",
+      "blob_sha": "38ff001d94b8c1838a627577caeed53074df5c95",
+      "document_key": "A30120",
+      "rows_checked": 4,
+      "rows_corrected": 3
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30121-00001-00014.json",
+      "blob_sha": "32ee47e3078fe0c97a8473811f9e96c7116424bc",
+      "document_key": "A30121",
+      "rows_checked": 14,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30121-00015-00028.json",
+      "blob_sha": "b8d7a71e92a0efe67fc79a42c926b0d87be8e82d",
+      "document_key": "A30121",
+      "rows_checked": 14,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30122-00001-00014.json",
+      "blob_sha": "9b20336051ee6cfb635fe2f7759b287cc4497858",
+      "document_key": "A30122",
+      "rows_checked": 14,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30122-00015-00028.json",
+      "blob_sha": "48a7f6e351541885973d1a37352daba9f71f9b79",
+      "document_key": "A30122",
+      "rows_checked": 14,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30122-00029-00042.json",
+      "blob_sha": "e2df0e4cfe8c3c43ae4478900ebdbf9c9ae3b615",
+      "document_key": "A30122",
+      "rows_checked": 14,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30122-00043-00050.json",
+      "blob_sha": "690ac8dd346f232bb023acb06b2803368eef0771",
+      "document_key": "A30122",
+      "rows_checked": 8,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30123-00001-00014.json",
+      "blob_sha": "9f2b0daa1a28c00c8e1b6ff60ee19008fe077e41",
+      "document_key": "A30123",
+      "rows_checked": 14,
+      "rows_corrected": 12
+    }
+  ],
+  "document": {
+    "key": "A30123",
+    "kind": "서식",
+    "title": "(사망, 상이)확인서",
+    "source_hash": "5175e3b92e5c85f36e3dcf6211cc1895a18c0150d84abcc92650d184669d648a",
+    "rows_checked": 14,
+    "rows_corrected": 9,
+    "document_review_state": "IN_PROGRESS"
+  },
+  "range": {
+    "first_row_id": "A30123-zh-00015",
+    "last_row_id": "A30123-zh-00028",
+    "verified_row_count": 14
+  },
+  "verified_rows": [
+    {
+      "row_id": "A30123-zh-00015",
+      "target_id": "XML:2210607",
+      "source_hash": "0c8c87f8d461c375d1f0e55c3e6506a09f499011609dec20c68ea9c9a5a592e2",
+      "source_ko": "□ 순직",
+      "previous_zh": "□ 因公殉职",
+      "meaning_pair_id": "da565aac32743a4940c5d152f2b6eb4ea6a3a3b9f2c7b221e56515861aa4cf2e",
+      "meaning_pair_path": "meaning/pairs/da.jsonl",
+      "meaning_pair_blob_sha": "5e326692c9a12000ad5062328c7f5738c1bbf41b"
+    },
+    {
+      "row_id": "A30123-zh-00016",
+      "target_id": "XML:2210608",
+      "source_hash": "3d691e30c38a410417fd8d68e98ee0f5d4b822b4584d62ba3eaf41e6a0392fbe",
+      "source_ko": "□ 상이",
+      "previous_zh": "□ 不同",
+      "meaning_pair_id": "4223de6ba29ae4449ee34d736d00450345d1b3de3436dc84a3f071fda0d156f0",
+      "meaning_pair_path": "meaning/pairs/42.jsonl",
+      "meaning_pair_blob_sha": "bfbc5c5db26145e31149cacc03c90d4fc42550c6"
+    },
+    {
+      "row_id": "A30123-zh-00017",
+      "target_id": "XML:2210609",
+      "source_hash": "d9aab385a7f9b76f41ead4b16a268a272e06818a822fbfb2d162878429ad7388",
+      "source_ko": "사망(상이)",
+      "previous_zh": "死亡（受伤）",
+      "meaning_pair_id": "e77f001df7d0a1e83c68ddc2a76ffc6e46570f3e9e7dad749b003fdc078097ce",
+      "meaning_pair_path": "meaning/pairs/e7.jsonl",
+      "meaning_pair_blob_sha": "40a21959ef52cba4fa505b118c43c1bef8db89e4"
+    },
+    {
+      "row_id": "A30123-zh-00018",
+      "target_id": "XML:2210610",
+      "source_hash": "d9aab385a7f9b76f41ead4b16a268a272e06818a822fbfb2d162878429ad7388",
+      "source_ko": "사망(상이)",
+      "previous_zh": "死亡（受伤）",
+      "meaning_pair_id": "e77f001df7d0a1e83c68ddc2a76ffc6e46570f3e9e7dad749b003fdc078097ce",
+      "meaning_pair_path": "meaning/pairs/e7.jsonl",
+      "meaning_pair_blob_sha": "40a21959ef52cba4fa505b118c43c1bef8db89e4"
+    },
+    {
+      "row_id": "A30123-zh-00019",
+      "target_id": "XML:2210611",
+      "source_hash": "9dd1771d703c46576eba89ca6d25dcfe72faa2a07570a4e57c5b61449438904f",
+      "source_ko": "연월일",
+      "previous_zh": "日期",
+      "meaning_pair_id": "3bc8b3c5458b450a1ddc5541149f6192c2798cd5c1460cdc5f0dd6ee0bd2d1de",
+      "meaning_pair_path": "meaning/pairs/3b.jsonl",
+      "meaning_pair_blob_sha": "f087af70d24c13e856363d5439199bd76ec6ea11"
+    },
+    {
+      "row_id": "A30123-zh-00020",
+      "target_id": "XML:2210612",
+      "source_hash": "61eaecc09cb7e53dbc6e233451cc9c1cc3cbab66a4934f57b7673099819d3da4",
+      "source_ko": "장소",
+      "previous_zh": "位置",
+      "meaning_pair_id": "4e8250674ba60181f09d298aa10b651435b554066f7f897204d33c53a8683fdf",
+      "meaning_pair_path": "meaning/pairs/4e.jsonl",
+      "meaning_pair_blob_sha": "b25ecf20986c05a56b87107c22c3827098563658"
+    },
+    {
+      "row_id": "A30123-zh-00021",
+      "target_id": "XML:2210613",
+      "source_hash": "d9aab385a7f9b76f41ead4b16a268a272e06818a822fbfb2d162878429ad7388",
+      "source_ko": "사망(상이)",
+      "previous_zh": "死亡（受伤）",
+      "meaning_pair_id": "ec8f457aeb64ccec8e1761263957e4c31b28597210737e04b22b07126841198c",
+      "meaning_pair_path": "meaning/pairs/ec.jsonl",
+      "meaning_pair_blob_sha": "8cadf3362813aae669372e8e2621e9448fc3ae19"
+    },
+    {
+      "row_id": "A30123-zh-00022",
+      "target_id": "XML:2210614",
+      "source_hash": "2b8d25aea6f995c8082a3d1af279195364a9ff4290ed07ab419611829ae0b460",
+      "source_ko": "(난이 부족시 별지로 작성)",
+      "previous_zh": "（如果难度不够，请另附纸张）",
+      "meaning_pair_id": "8d42e7cca63af17319dec4dfc8fca0e271327aaec98b52febfb9c16ca069b901",
+      "meaning_pair_path": "meaning/pairs/8d.jsonl",
+      "meaning_pair_blob_sha": "fdbb5d9c9d5e1be00c52d2e3f8020e899783069b"
+    },
+    {
+      "row_id": "A30123-zh-00023",
+      "target_id": "XML:2210615",
+      "source_hash": "ab9442a23e772cce670320f5d60fb8e84f94b845c859d2f7691c7d052aeabb99",
+      "source_ko": "사유",
+      "previous_zh": "原因",
+      "meaning_pair_id": "5cdd539c26f34b0ee57b8cdf4019127b67e602162472906ba8fcb4a9ab0adeed",
+      "meaning_pair_path": "meaning/pairs/5c.jsonl",
+      "meaning_pair_blob_sha": "b4e00ec82167b69c096d05299cfbac63bd7debc7"
+    },
+    {
+      "row_id": "A30123-zh-00024",
+      "target_id": "XML:2210617",
+      "source_hash": "5aa32deffdf1362feb45b4aaf4a1945b15c91915f96194031e41bc759b5f2f97",
+      "source_ko": "명",
+      "previous_zh": "名称",
+      "meaning_pair_id": "e555e8cf05f96583a4d528d3673e3ba9ee34932d74cb284c76d04d37cc079047",
+      "meaning_pair_path": "meaning/pairs/e5.jsonl",
+      "meaning_pair_blob_sha": "ce7752e05c07f438119bbf9c3341b68d88d61e82"
+    },
+    {
+      "row_id": "A30123-zh-00025",
+      "target_id": "XML:2210618",
+      "source_hash": "40588d214e2975f232f33c93590fb65338e2ff3cb40dfff07e6ee07bafe69092",
+      "source_ko": "주민등록",
+      "previous_zh": "居民注册",
+      "meaning_pair_id": "2268b7ef71465af9401dcee18c141cfc3fed8c2a9e29b7869339644c701452e5",
+      "meaning_pair_path": "meaning/pairs/22.jsonl",
+      "meaning_pair_blob_sha": "7e8af3d791e513ac38535bee08d564875861f63b"
+    },
+    {
+      "row_id": "A30123-zh-00026",
+      "target_id": "XML:2210619",
+      "source_hash": "5d8e1d49ae475bb06b7f4b97a516c54d3ce47ae883e104c56c4b5136ea023b54",
+      "source_ko": "사망자와",
+      "previous_zh": "Deceased 和",
+      "meaning_pair_id": "0592ca179dccae74e986ec9a68b1facb7ca723f19ef0f25533f0ef56f8551ddd",
+      "meaning_pair_path": "meaning/pairs/05.jsonl",
+      "meaning_pair_blob_sha": "df4b0b08cf19ecedfb4901d82dd4389cb7480cb8"
+    },
+    {
+      "row_id": "A30123-zh-00027",
+      "target_id": "XML:2210621",
+      "source_hash": "00e65ebb3d8a52e54e6fe2981b12b60193e4b27699137f4179119795daf2ad90",
+      "source_ko": "번호",
+      "previous_zh": "编号",
+      "meaning_pair_id": "564af005419483ea5d6a60a58e2a07c402c619485452b2765b4075eb1602d62e",
+      "meaning_pair_path": "meaning/pairs/56.jsonl",
+      "meaning_pair_blob_sha": "39044a5537210a378f8f4e9912b9c02eea1ad21f"
+    },
+    {
+      "row_id": "A30123-zh-00028",
+      "target_id": "XML:2210622",
+      "source_hash": "346e3761b9cb1a6e28d1d77524d8f1264f4fdfb2f361c0baacce16f3fb02d5c0",
+      "source_ko": "의 관게",
+      "previous_zh": "与",
+      "meaning_pair_id": "9b380d28a80140cac170e09559a3f3bf09f5637d7405e752e7ad38b01f01d77a",
+      "meaning_pair_path": "meaning/pairs/9b.jsonl",
+      "meaning_pair_blob_sha": "b217f26bda57397cdab318319712af96c8db9ca8"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "A30123-zh-00016",
+      "target_id": "XML:2210608",
+      "source_hash": "3d691e30c38a410417fd8d68e98ee0f5d4b822b4584d62ba3eaf41e6a0392fbe",
+      "source_ko": "□ 상이",
+      "previous_zh": "□ 不同",
+      "meaning_pair_id": "4223de6ba29ae4449ee34d736d00450345d1b3de3436dc84a3f071fda0d156f0",
+      "meaning_pair_path": "meaning/pairs/42.jsonl",
+      "meaning_pair_blob_sha": "bfbc5c5db26145e31149cacc03c90d4fc42550c6",
+      "corrected_zh": "□ 负伤",
+      "reason": "사망·상이별 장소/일자·서식난 부족 시 별지작성·유족의 사망자와 관계 기재항목의 오역 교정."
+    },
+    {
+      "row_id": "A30123-zh-00019",
+      "target_id": "XML:2210611",
+      "source_hash": "9dd1771d703c46576eba89ca6d25dcfe72faa2a07570a4e57c5b61449438904f",
+      "source_ko": "연월일",
+      "previous_zh": "日期",
+      "meaning_pair_id": "3bc8b3c5458b450a1ddc5541149f6192c2798cd5c1460cdc5f0dd6ee0bd2d1de",
+      "meaning_pair_path": "meaning/pairs/3b.jsonl",
+      "meaning_pair_blob_sha": "f087af70d24c13e856363d5439199bd76ec6ea11",
+      "corrected_zh": "年月日",
+      "reason": "사망·상이별 장소/일자·서식난 부족 시 별지작성·유족의 사망자와 관계 기재항목의 오역 교정."
+    },
+    {
+      "row_id": "A30123-zh-00020",
+      "target_id": "XML:2210612",
+      "source_hash": "61eaecc09cb7e53dbc6e233451cc9c1cc3cbab66a4934f57b7673099819d3da4",
+      "source_ko": "장소",
+      "previous_zh": "位置",
+      "meaning_pair_id": "4e8250674ba60181f09d298aa10b651435b554066f7f897204d33c53a8683fdf",
+      "meaning_pair_path": "meaning/pairs/4e.jsonl",
+      "meaning_pair_blob_sha": "b25ecf20986c05a56b87107c22c3827098563658",
+      "corrected_zh": "地点",
+      "reason": "사망·상이별 장소/일자·서식난 부족 시 별지작성·유족의 사망자와 관계 기재항목의 오역 교정."
+    },
+    {
+      "row_id": "A30123-zh-00022",
+      "target_id": "XML:2210614",
+      "source_hash": "2b8d25aea6f995c8082a3d1af279195364a9ff4290ed07ab419611829ae0b460",
+      "source_ko": "(난이 부족시 별지로 작성)",
+      "previous_zh": "（如果难度不够，请另附纸张）",
+      "meaning_pair_id": "8d42e7cca63af17319dec4dfc8fca0e271327aaec98b52febfb9c16ca069b901",
+      "meaning_pair_path": "meaning/pairs/8d.jsonl",
+      "meaning_pair_blob_sha": "fdbb5d9c9d5e1be00c52d2e3f8020e899783069b",
+      "corrected_zh": "（栏位不够时另附页填写）",
+      "reason": "사망·상이별 장소/일자·서식난 부족 시 별지작성·유족의 사망자와 관계 기재항목의 오역 교정."
+    },
+    {
+      "row_id": "A30123-zh-00024",
+      "target_id": "XML:2210617",
+      "source_hash": "5aa32deffdf1362feb45b4aaf4a1945b15c91915f96194031e41bc759b5f2f97",
+      "source_ko": "명",
+      "previous_zh": "名称",
+      "meaning_pair_id": "e555e8cf05f96583a4d528d3673e3ba9ee34932d74cb284c76d04d37cc079047",
+      "meaning_pair_path": "meaning/pairs/e5.jsonl",
+      "meaning_pair_blob_sha": "ce7752e05c07f438119bbf9c3341b68d88d61e82",
+      "corrected_zh": "姓名",
+      "reason": "사망·상이별 장소/일자·서식난 부족 시 별지작성·유족의 사망자와 관계 기재항목의 오역 교정."
+    },
+    {
+      "row_id": "A30123-zh-00025",
+      "target_id": "XML:2210618",
+      "source_hash": "40588d214e2975f232f33c93590fb65338e2ff3cb40dfff07e6ee07bafe69092",
+      "source_ko": "주민등록",
+      "previous_zh": "居民注册",
+      "meaning_pair_id": "2268b7ef71465af9401dcee18c141cfc3fed8c2a9e29b7869339644c701452e5",
+      "meaning_pair_path": "meaning/pairs/22.jsonl",
+      "meaning_pair_blob_sha": "7e8af3d791e513ac38535bee08d564875861f63b",
+      "corrected_zh": "居民登记",
+      "reason": "사망·상이별 장소/일자·서식난 부족 시 별지작성·유족의 사망자와 관계 기재항목의 오역 교정."
+    },
+    {
+      "row_id": "A30123-zh-00026",
+      "target_id": "XML:2210619",
+      "source_hash": "5d8e1d49ae475bb06b7f4b97a516c54d3ce47ae883e104c56c4b5136ea023b54",
+      "source_ko": "사망자와",
+      "previous_zh": "Deceased 和",
+      "meaning_pair_id": "0592ca179dccae74e986ec9a68b1facb7ca723f19ef0f25533f0ef56f8551ddd",
+      "meaning_pair_path": "meaning/pairs/05.jsonl",
+      "meaning_pair_blob_sha": "df4b0b08cf19ecedfb4901d82dd4389cb7480cb8",
+      "corrected_zh": "与死者的",
+      "reason": "사망·상이별 장소/일자·서식난 부족 시 별지작성·유족의 사망자와 관계 기재항목의 오역 교정."
+    },
+    {
+      "row_id": "A30123-zh-00027",
+      "target_id": "XML:2210621",
+      "source_hash": "00e65ebb3d8a52e54e6fe2981b12b60193e4b27699137f4179119795daf2ad90",
+      "source_ko": "번호",
+      "previous_zh": "编号",
+      "meaning_pair_id": "564af005419483ea5d6a60a58e2a07c402c619485452b2765b4075eb1602d62e",
+      "meaning_pair_path": "meaning/pairs/56.jsonl",
+      "meaning_pair_blob_sha": "39044a5537210a378f8f4e9912b9c02eea1ad21f",
+      "corrected_zh": "号码",
+      "reason": "사망·상이별 장소/일자·서식난 부족 시 별지작성·유족의 사망자와 관계 기재항목의 오역 교정."
+    },
+    {
+      "row_id": "A30123-zh-00028",
+      "target_id": "XML:2210622",
+      "source_hash": "346e3761b9cb1a6e28d1d77524d8f1264f4fdfb2f361c0baacce16f3fb02d5c0",
+      "source_ko": "의 관게",
+      "previous_zh": "与",
+      "meaning_pair_id": "9b380d28a80140cac170e09559a3f3bf09f5637d7405e752e7ad38b01f01d77a",
+      "meaning_pair_path": "meaning/pairs/9b.jsonl",
+      "meaning_pair_blob_sha": "b217f26bda57397cdab318319712af96c8db9ca8",
+      "corrected_zh": "关系",
+      "reason": "사망·상이별 장소/일자·서식난 부족 시 별지작성·유족의 사망자와 관계 기재항목의 오역 교정."
+    }
+  ],
+  "validation": {
+    "row_ids_unique": true,
+    "source_hashes_match": true,
+    "korean_pair_ids_resolved": true,
+    "related_cell_context_joined": true,
+    "total_cumulative_checked_rows": 618
+  },
+  "next_step": "Continue A30123 29-42."
+}
