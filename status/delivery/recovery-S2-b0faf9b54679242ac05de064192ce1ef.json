@@ -30,7 +30,20 @@
   },
   "assistant_count": 17,
   "assistant_excerpt": "C05 개인정보 보호법 — 복구 회차 5 결과\n중간 검수 저장·재조회 성공\n\nJob ID: F-69d9e2651808803c4773\n\nGitHub 공식 저장 상태와 기존 대화를 대조한 결과, 직전 회차의 정상적인 중간 저장 후 응답이 종료된 것이 정체 원인으로 확인됐습니다. 권한 거절이나 원문 변경은 발견되지 않았습니다.\n\n이번 회차 신규 검수\n\n기존 B2 92행까지의 기록을 보존하고 B2 93~100행 총 8행을 새로 검수·교정했습니다.\n\n교정한 행 ID\n\n\t\n\n신규 커밋 SHA\n\n\t\n\n저장 검증\n\n\n\n\nB2-zh-00093~00094\n\n\t\n\n89675b0b42d63d5e1055c9a5b0c441cba1243aaf\n\n\t\n\n\n\n\nB2-zh-00095~00096\n\n\t\n\n3ef0bae4da45d40a4396860be9ab006dba6cb1c6\n\n\t\n\n\n\n\nB2-zh-00097~00098\n\n\t\n\ne67bb0034146da0ee53868c38cf9301b60415778\n\n\t\n\n\n\n\nB2-zh-00099~00100\n\n\t\n\nb2ec61f67ac34b7d80a2f5df4fdaaeb2f9cbdb02\n\n\t\n\n마지막 파일 SHA: a71b9bae290fb0e0b4e2889a7b42b44347f610e2\n\n마지막 저장 파일 — B2 99~100행\n\n보존 및 다음 진행 범위\n\n한국어·중국어·영어 원본 SHA 불변 확인\n\n기존 검수 파일 덮어쓰기 없음\n\n신규 중간 저장 파일 4개 재조회 완료\n\n운영 DB 변경 없음\n\n최종 COMPLETE 및 영수증 미생성\n\n현재 상태: IN_PROGRESS\n\n다음 미검수 시작 행은 **B2-zh-00101**입니다. 전체 8개 문서·1,102행의 검수가 완료될 때까지 같은 법령가족을 유지해야 합니다.",
+  "attempted_at": "2026-11-07T20:51:21.840772+00:00",
   "created_at": "2026-11-07T20:51:13.841269+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-b0faf9b54679242ac05de064192ce1ef",
+    "attempted_at": "2026-11-07T20:51:21.840772+00:00",
+    "claim_commit": "03f07ec76cc602085c5d65cbdfa2c1e1bd31f186",
+    "event_id": "obs-afad25340ce91b3cd918aa01d8ac089358d7e87f",
+    "job_id": "F-69d9e2651808803c4773",
+    "record_path": "status/delivery/recovery-S2-b0faf9b54679242ac05de064192ce1ef.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C05"
+  },
   "episode": 6,
   "event_id": "obs-afad25340ce91b3cd918aa01d8ac089358d7e87f",
   "job_id": "F-69d9e2651808803c4773",
@@ -347,7 +360,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-a9e4916a7ad98aee18173337]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "4a6b5445ff92ff344967356adffba48f486a9189",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef7d43-15a0-83ec-aa7c-49604588653d",
   "worker": "C05"
 }
