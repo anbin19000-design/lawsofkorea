@@ -1,0 +1,12 @@
+{
+  "worker": "C05",
+  "assignment_id": "S2-b0faf9b54679242ac05de064192ce1ef",
+  "job_id": "F-69d9e2651808803c4773",
+  "url": "https://chatgpt.com/c/6aef63a0-7db4-83ee-8693-2161f508cb26",
+  "previous_marker": "[LAW-RECOVERY-V1:R1-317660cd59decd27713ad0c4]",
+  "previous_last_user_sha256": "4fe34ca13301f215d4dfafb88135f6bc819dbc4e0e181c5abedb9fa0d20da6ff",
+  "status": "INTENT_NO_RESEND",
+  "created_at": "2026-11-07T17:53:29.480314+00:00",
+  "prompt": "[LAW-SUPPLY-V2:S2-b0faf9b54679242ac05de064192ce1ef:C05:F-69d9e2651808803c4773] [LAW-VERIFIED-ACTION:C05-DIRECT-B1-01]\n저장소: anbin19000-design/lawsofkorea\n브랜치: main\n법령가족: 개인정보 보호법\nJob ID: F-69d9e2651808803c4773\n이 Chat의 C05가 검수를 직접 수행하십시오. 자신이나 다른 패널에 메시지를 보내거나 PC·관측기·공급기를 조작하지 마십시오. 지금 공식 GitHub의 개인정보 보호법 B1에서 첫 미검수 구간을 읽고 한국어와 중국어를 직접 대조하십시오. 누락·오역은 교정하고 결과를 status/delivery/progress-S2-b0faf9b54679242ac05de064192ce1ef-B1-시작행-끝행.json에 실제 행 ID를 써서 저장한 뒤 다음 구간을 계속하십시오. 기존 행 ID와 해시는 보존하고 검증된 행은 반복하지 마십시오. 같은 배정만 계속하고 실제 보호·권한·승인·한도·STOP 또는 원문 변경이면 중단하십시오. 한 문서씩 처리하고 각 새 구간을 공식 GitHub Contents API로 고유 IN_PROGRESS 파일에 저장하고 재조회하십시오. 전체 법령가족을 대조한 뒤에만 검수 결과와 영수증을 저장하십시오. 운영 DB 및 원문은 수정하지 마십시오.",
+  "prompt_sha256": "7a5a39fc184e9a76d502aa5d38ff5432a1e38d5c582dcbb77d5cb649067d6461"
+}
