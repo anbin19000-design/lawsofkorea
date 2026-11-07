@@ -1,0 +1,457 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-95d9acfe847d56bea0f8",
+  "worker": "C04",
+  "checked_rows": 83,
+  "edits": [
+    {
+      "id": "B1-zh-00001",
+      "target_id": "b9ba363ca98151f80b2993ba5da3d6832ff8c76d38fa7032e7d8fe883337d947",
+      "source_hash": "154ac8f6bfba830f73d45db6e08e0043d334b115e24d2f44d2db069fec4a2e86",
+      "text": "关于史料的收集、编纂及韩国史的普及等的法律",
+      "reason": "Aligned the enacted official Act title with defined 史料 and 韩国史 terminology, without altering its legal scope."
+    },
+    {
+      "id": "B1-zh-00004",
+      "target_id": "3f6e571b7ed57b3e0d29e532ea5b13071500d5beed76a8c9fa4a73f3e4b026f2",
+      "source_hash": "d73ba732b251fdf293b6c0e77acf5e2cb11d04945d2f08742319ca6791b4a4cc",
+      "text": "第二条（定义）本法所用术语的定义如下：<2021年3月23日修订>\n1. “史料”是指作为历史研究材料的记录（包括文件、图书、照片、金石铭文、书画、视听资料、口述采录资料及电子记录等；下同）。\n2. “史料调查”是指确认有关史料是否存在、实物形态、保存状况、收藏地点、目录等。\n3. “史料收集”是指通过复制、购买，或借入、接受捐赠、受托保管等方式持有经调查确认的史料。\n4. “编纂”是指编辑、出版史料和韩国史研究成果，以及将其加工为使用信息通信网络的服务等电子形式予以提供。\n5. “韩国史研修”是指面向专家、教师、公务员等，为学习韩国史及培养历史认识能力实施的研修。\n6. “韩国史信息化”是指以电子形式收集、加工、制作及提供史料与韩国史有关的内容。\n\n",
+      "reason": "Corrected critical 史料收集 acquisitions: 借入 not 借出 and 委托保管 not consignment sale; restored 金石文, oral records and precise defined terms."
+    },
+    {
+      "id": "B1-zh-00005",
+      "target_id": "770380e61a5022ea151304960b6462638068142d40f8cc2fd34cf023e94a7478",
+      "source_hash": "58319935e4eee5777d45aab61bb5557045f7e7807c4186496cf16aab106c9dfe",
+      "text": "第三条（与其他法律的关系）关于史料的调查、收集、保存及编纂，以及韩国史的研究、编纂、研修及普及等事项，除其他法律另有特别规定外，依本法规定办理。\n\n第二章 国史编纂委员会\n\n",
+      "reason": "Corrected chapter to the official 国史编纂委员会 (not an unrelated national history research institute); kept other-law exception."
+    },
+    {
+      "id": "B1-zh-00006",
+      "target_id": "a0e01726c8d60fdbbe8b02eb6b3b56a19f0e21bd080c2b5453ec211615b2ee36",
+      "source_hash": "d4825dec5479647e379778acae3ee9af1435ee9ecaa1e2e3c50b31b81e4e0851",
+      "text": "第四条（国史编纂委员会的设置）为深化韩国史研究并促进其系统发展，在教育部部长所属设置国史编纂委员会（以下简称“委员会”）。<2008年2月29日、2013年3月23日修订>\n\n",
+      "reason": "Restored name and statutory placement of 국사편찬위원회 under Education Minister, not a research institute."
+    },
+    {
+      "id": "B1-zh-00008",
+      "target_id": "0ebea87e1498ece8d957d7efa9e42dc8328daff8b610ad76a1cf0c9675a59f3a",
+      "source_hash": "263a0ee8bb11ec1d1c3ebe1c33247c0c2be432fb11be1f47ee335e6e934639bc",
+      "text": "第六条（组成）\n① 委员会由包括委员长1人及常任委员2人在内的15人以上、20人以下委员组成。\n② 委员长由总统任命，任政务职；常任委员担任《国家公务员法》第2条之2规定的高级公务员团公务员。\n③ 委员依委员长推荐，由教育部部长聘任；有关委员资格及聘任所需事项，由总统令规定。<2008年2月29日、2013年3月23日修订>\n④ 委员任期3年，可以连任。\n\n",
+      "reason": "Corrected National Public Officials Act Article 2-2 (not Art.2(2)), political service, and statutory committee member commissions rather than appointments."
+    },
+    {
+      "id": "B1-zh-00009",
+      "target_id": "5b1cc36951cab65dc15661d0c6e7cf3c40a27669a00ad2d985b55288a1172d05",
+      "source_hash": "4dd069eeb8e50e5ed8a0cea346ed6030571fcf057372c0c77e97c6f72e54bb73",
+      "text": "第七条（委员会会议）\n① 委员会会议由包括委员长在内的全体委员组成，由委员长主持。\n② 委员会会议由委员长召集，全体在任委员过半数出席始得开会，并经出席委员过半数赞成作出决议。\n\n",
+      "reason": "Restored missing paragraph ② and distinction between incumbent-member quorum and votes of attending members."
+    },
+    {
+      "id": "B1-zh-00010",
+      "target_id": "073f29d49b784ee010207ddc26f571b286352549f056580cf588d6a9050e64e2",
+      "source_hash": "0f001b7551d0751a71e35d5ca275427a9d66a24676f2ea9142b0e44117673975",
+      "text": "第八条（委员长的职务）\n① 委员长代表委员会，统管委员会事务，并指挥、监督所属职员。<2021年3月23日修订>\n② 委员长因不可避免的原因不能履行职务时，由其指定的常任委员代行其职务。\n\n",
+      "reason": "Corrected broad unavoidable circumstances rather than force majeure, and the chair's overall duties."
+    },
+    {
+      "id": "B1-zh-00011",
+      "target_id": "772f4563b875c91ad6bd3478877a141fc896d47b955e5620be6d11e06dcb946e",
+      "source_hash": "ddc0f2db1d24e169487b7f89e2573e5c8124e42a5fe99aa6fef1379dc8fe89bb",
+      "text": "第九条（委员的任职资格限制）\n① 有下列任一情形的人不得担任委员：\n1. 非大韩民国国民\n2. 属于《国家公务员法》第33条第1款各项规定情形的人\n3. 政党党员\n4. 依《公职选举法》举办的选举登记为候选人的人\n② 委员符合第1款任一情形时当然离职。\n\n",
+      "reason": "Corrected 国家公务员法 citation and statutory disqualification/automatic vacation of office, not cancellation of a previously held qualification."
+    },
+    {
+      "id": "B1-zh-00012",
+      "target_id": "344635b42045de63c60af2e49ed57bf6f32df346c238a31a00862d7f36ff9185",
+      "source_hash": "a6fee597cd92c4a1d7f107eecc579ed32faea0406f8ba41aaf79d337e16c168d",
+      "text": "第十条（运营）\n① 可以配置必要的公务员办理委员会事务。\n② 为收集、编纂史料等而需要专家参与时，委员长可以依总统令规定聘任有关领域专家为史料研究委员。\n③ 为调查、收集史料有必要时，委员长可以依总统令规定，在国内外按地区或机构聘任史料调查委员。\n④ 委员会运营所需其他事项由总统令规定。\n\n",
+      "reason": "Restored missing paragraphs ① and ④, and distinguished individual 史料研究委员/史料调查委员 from a separate committee."
+    },
+    {
+      "id": "B1-zh-00013",
+      "target_id": "6704638fb0add3aec079c693874eb484c8d58f90a2234b33d31d322747c545e8",
+      "source_hash": "b911139a1e151d8870a41fea1fc1b8af705d6d02eec04d1afec55fdc99ec18f2",
+      "text": "第十一条（公正履行职务）\n① 依本法从事韩国史研究、调查等业务的人，应公正、中立地履行职务。\n② 从事委员会业务的人，不得将履行职务中获知的文件等内容用于韩国史学术研究以外的目的。\n\n第三章 史料的调查、收集及保存等\n\n",
+      "reason": "Restored omitted paragraph ② and correctly covered all persons performing committee work, not only committee members."
+    },
+    {
+      "id": "B1-zh-00014",
+      "target_id": "c1872999e67c48ff9e21c722fd3ac0a5d2df08a4c6397d859f164aae4cf37e24",
+      "source_hash": "5cff5e5ce38e90bb426381efea341b85592f7a8ae1d8cae0cee5e7e925ebc0a2",
+      "text": "第十二条（史料调查）\n① 委员会应为掌握史料现状，在全国或区域范围内开展史料调查，并开展国外史料调查。\n② 为开展第1款规定的史料调查，委员会可以请求持有史料的国家机关、地方自治团体、个人或团体提交所藏史料目录；有关机关负责人、个人或团体应予配合。\n\n",
+      "reason": "Corrected gross mistranslation 사료 as animal feed 饲料, and restored mandatory domestic and foreign historical-source surveys."
+    },
+    {
+      "id": "B1-zh-00015",
+      "target_id": "45eb8c6122d2bdc70eb2b1008f2f81a85d6d60cd39462cf8753da71cfabfb002",
+      "source_hash": "170f4763c9073d726be16d578e433567f0c86334ea5c6f13a660bfab2326722e",
+      "text": "第十三条（史料的查阅、复制）委员会可以请求查阅、复制国家机关、地方自治团体、个人或团体保存、管理的韩国史有关史料；有关机关负责人、个人或团体除其他法律另有特别规定外，应予遵从。\n\n",
+      "reason": "Corrected perusal (열람) rather than inspection and the exception for special provisions in OTHER laws, not only this Act."
+    },
+    {
+      "id": "B1-zh-00016",
+      "target_id": "e4ff5243d29ed02fc4532498d3f01b91817dba0c89066ab532dd2f6cd0c60fba",
+      "source_hash": "91af3af456922d9bd884bca8309a39928ea4613f6432debb9c9c6d60ef3ea7d4",
+      "text": "第十四条（史料的受托保管及保存）\n① 国家机关、地方自治团体、个人或团体为永久、安全保存其所保管的史料而请求委托保管时，委员会可以经审查接受受托保管并保存。\n② 依第1款提供史料的人提出请求时，委员会应向有关个人或团体支付必要费用。\n③ 第1款及第2款规定的受托保管、保存的审查方法、程序及补偿所需事项由总统令规定。\n\n",
+      "reason": "Corrected state institution (not 州 government), historically entrusted custody and compensation, not outright transfer or feed."
+    },
+    {
+      "id": "B1-zh-00017",
+      "target_id": "a62ebd482b7847479cc4f532a32b0ba7e31ada4f9c2792bc1e3156fb801f88e1",
+      "source_hash": "23e804ef03d203944cf495dbb0c54c841668a2381aadbbfb548d2d6b5892d9c9",
+      "text": "第十五条 删除<2010年3月17日>\n\n第四章 韩国史的研究、编纂及普及\n\n",
+      "reason": "Corrected deleted article marker and Chapter IV context, keeping repeal date."
+    },
+    {
+      "id": "B1-zh-00018",
+      "target_id": "25b93cf192da87be94b37a58c8c3c6b08c9f1b228e645f6a7a22ba15f1737b43",
+      "source_hash": "392d515ea3268aebc951b7ace2d1e877ee6d104804cc938f86107b2d097175a2",
+      "text": "第十六条（研究、编纂）\n① 委员会应为深化韩国史研究及其系统发展，研究重要史料和韩国史，并编纂研究成果。\n② 委员会应研究或编纂下列事项：\n1. 按时代划分的基础史料\n2. 按主题划分的基础史料\n3. 根据国家政策需要的史料\n4. 韩国史有关研究成果\n\n",
+      "reason": "Unified '사료' with 史料 and distinguished era/theme-specific basic historical sources; maintained four statutory subjects."
+    },
+    {
+      "id": "B1-zh-00020",
+      "target_id": "56114a9e14048974f2eb1c2312fcb141278605868ca9e01e7fcef03a1726779b",
+      "source_hash": "e7561531b6cde06a583a793dc2904aac0dc04fe7bbc4d8b5b4b24055b78ebcd9",
+      "text": "第十八条（韩国史能力检定）\n① 委员会可以进行韩国史能力检定，以扩大公众对韩国史的兴趣，并培养历史知识、思维能力及解决问题的能力。\n② 第1款规定的韩国史能力检定的方法、程序、内容及对象等所需事项，由总统令规定。\n\n",
+      "reason": "Corrected scope of subjects: 검정 대상 means examinees/targets (对象), not course topics (科目), and statutory history proficiency test designation."
+    },
+    {
+      "id": "B1-zh-00021",
+      "target_id": "60294c7bf2828f3963e61cd61dcb3a8d5c7a2779373fc8025a827bd0e6f18851",
+      "source_hash": "274316b2200770192e989d873b06a39988a574891ae8549b8135a781dfc5ae6c",
+      "text": "第十九条（促进韩国史信息化）\n① 委员会应制定、实施韩国史信息化基本计划及年度计划，以使国民易于学习、方便利用韩国史。\n② 委员会应运营历史领域综合信息中心，促进韩国史信息化。\n③ 删除<2021年3月23日>\n④ 第1款及第2款规定的韩国史信息化所需其他事项由总统令规定。<2021年3月23日修订>\n\n第五章 杂则\n\n",
+      "reason": "Restored paragraph ② and corrected 보칙 as miscellaneous matters (杂则), not addenda; maintained deleted paragraph ③ and amendment date."
+    },
+    {
+      "id": "B1-zh-00022",
+      "target_id": "ffda606e18a8254ae5fd0ce08bdd2ce072c31c2e679167115d1f5df201003572",
+      "source_hash": "e8aabfde2dd0b6aa6d05a7cd6279008f6d537d86ca9a8f8f5321d8e5dc432638",
+      "text": "第二十条（权限的委任及事务委托）\n① 教育部部长可以依总统令规定，将本法规定的部分权限委任给地方自治团体负责人（包括教育监）。<2008年2月29日、2013年3月23日修订>\n② 教育部部长可以依总统令规定，将本法规定的部分事务委托给韩国史有关专门机构、团体等。<2008年2月29日、2013年3月23日修订>\n\n",
+      "reason": "Distinguished legal delegation of governmental powers 委任 from entrustment of tasks 委托 and 教育监, not a school inspector."
+    },
+    {
+      "id": "B1-zh-00023",
+      "target_id": "6b3cdcdbe08d5038c3710d9bc2035d3c4b707a8c60f4e5ea433ed9fc1f45eec2",
+      "source_hash": "d3ec1a122b281e2751b326963cc768a18ab10dcfaba07c0879edcb2e1e75e248",
+      "text": "附则 <第8674号，2007年12月14日>\n\n本法自公布后满3个月之日起施行。\n\n",
+      "reason": "Corrected law's formal addenda, retaining Act 8674 and delayed three-month effect."
+    },
+    {
+      "id": "B1-zh-00024",
+      "target_id": "2cc2eba6b14362c48d7b9f0b1d9b6426b5d4ceae7082b30308abd4293dd265bf",
+      "source_hash": "9f984faffebd91642f1e26e75c1ab3649e306236dd38deee54e7ee1495f626a6",
+      "text": "附则（政府组织法）<第8852号，2008年2月29日>\n\n",
+      "reason": "Corrected 2008 Act No. 8852 Government Organization Act as legislative addenda, not an executive decree or appendix."
+    },
+    {
+      "id": "B1-zh-00025",
+      "target_id": "e24ad9eca1fb8367b7bb305302fd4b244160110228644cd1b8fb623c4eeb758a",
+      "source_hash": "03e0918f6c69687d79ae96e04fe4115ef8163f97ce502e70129a60e9cf05fbeb",
+      "text": "第一条（施行日期）本法自公布之日起施行。但……<省略>……，依附则第6条修订的法律中，对本法施行前已公布但尚未到施行日期的法律所作的修订部分，分别自有关法律施行之日起施行。\n\n",
+      "reason": "Corrected addenda Article 6 reference and preserved effective-date exception for previously promulgated but not effective laws."
+    },
+    {
+      "id": "B1-zh-00027",
+      "target_id": "d0e5f987f95e6c46c17b40c2d65b1a8d1adda325e6bd3300769414a3a9f21cc5",
+      "source_hash": "d26e894b549096715fe19e8721e804a4c75780b8c72e9d7174d2594ab1fd44f4",
+      "text": "第六条（其他法律的修订）①至<81>省略\n\n<82> 第8674号《关于史料的收集、编纂及韩国史的普及等的法律》作如下部分修订。（施行日期：2008年3月15日）\n\n在第4条、第6条第3款及第20条第1款、第2款中，分别将“教育人力资源部部长”改为“教育科学技术部部长”。\n\n在第15条第1款中，将“教育人力资源部”改为“教育科学技术部”。\n\n<83>至<760>省略\n\n",
+      "reason": "Corrected precise pre- and post-2008 historic ministry titles, amendment target Act No.8674 and omitted item ranges."
+    },
+    {
+      "id": "B1-zh-00029",
+      "target_id": "267f3d06fa1eb2551e9e2a2d889447cb77019648860d81b8f63228a24bb02d47",
+      "source_hash": "432edd0ebf9701db085a6b1fa3bfeaeed60238dd3c0a57e7bb9e81e28565c889",
+      "text": "附则 <第10084号，2010年3月17日>\n\n本法自公布后满3个月之日起施行。\n\n",
+      "reason": "Corrected legal addenda and elapsed three-month effective date."
+    },
+    {
+      "id": "B1-zh-00030",
+      "target_id": "2fecf42ec6ff854b176e8272ac96ee95c6721291a2f181f440e4afc1d2f1ab32",
+      "source_hash": "884b1766aaddfed62f208e70764e5d43694b510475476512e06be6a0808c47af",
+      "text": "附则（政府组织法）<第11690号，2013年3月23日>\n\n",
+      "reason": "Corrected enacted Government Organization Act No.11690 instead of labeling a bill or appendix."
+    },
+    {
+      "id": "B1-zh-00033",
+      "target_id": "49b6d092fcab62d49d11cb056b2e4ed20b327b923db8a4b81eca632120e3f7e5",
+      "source_hash": "45d2854ece8abb8a9d9e8074a374fc93fafc52ff23ba77a4ef666684681060ef",
+      "text": "第六条（其他法律的修订）①至<46>省略\n\n<47>《关于史料的收集、编纂及韩国史的普及等的法律》作如下部分修订。\n\n在第4条、第6条第3款及第20条第1款、第2款中，分别将“教育科学技术部部长”改为“教育部部长”。\n\n<48>至<710>省略\n\n",
+      "reason": "Restored 2013 statute title and exact amendment item <47>, prior/after ministry and four affected statutory positions."
+    },
+    {
+      "id": "B1-zh-00035",
+      "target_id": "18965467601800fd7e0bf3a10f68a39235f1ec13c2bb2dc675e7cdd045320e07",
+      "source_hash": "0cd2350801145646d5c30dd66d576155f88d23e2913fd9605cd78749962c178a",
+      "text": "附则（关于为整顿法律用语而部分修订教育委员会所管34部法律的法律）<第17954号，2021年3月23日>\n\n本法自公布之日起施行。<但书省略>\n\n",
+      "reason": "Corrected 2021 law (not bill) and legal addenda, preserving all 34 acts, law number and proviso omitted."
+    },
+    {
+      "id": "B1-zh-00036",
+      "target_id": "a4f9d8ecf31a24f604e92f86892bfa1da08b729da14ec0c1386224a9980c7b00",
+      "source_hash": "5222a058b4b65e2fc80c8d79270f0c2ecf5e2dba486d87a5eaf9459dad51f113",
+      "text": "附则 <第17955号，2021年3月23日>\n\n本法自公布之日起施行。",
+      "reason": "Corrected the formal supplementary-provisions heading while preserving law number and commencement."
+    },
+    {
+      "id": "B2-zh-00001",
+      "target_id": "80de93e785d9e006ef2d3ca8e747a63a592932bc2eb38bd28e13e00b74589754",
+      "source_hash": "80a87b8ffc8f66633c4da37c806fcd19d0a5c922c5d538d0bdf6bb6b2c079771",
+      "text": "关于史料的收集、编纂及韩国史的普及等的法律施行令",
+      "reason": "Corrected Presidential Enforcement Decree title, not ministerial implementing rules (实施细则)."
+    },
+    {
+      "id": "B2-zh-00003",
+      "target_id": "e6c97dd69b3990d2158114ce7c7e3703ab786a4a9a072623ad626640100f1b6e",
+      "source_hash": "a289f404331924bb08032d6e56623fc19a8b7432bbe10419d6ce49d9cb05d396",
+      "text": "第一条（目的）本令旨在规定《关于史料的收集、编纂及韩国史的普及等的法律》授权委任的事项及施行该法所需事项。\n\n第二章 国史编纂委员会\n\n",
+      "reason": "Corrected instrument status and National Institute of Korean History statutory name 国史编纂委员会."
+    },
+    {
+      "id": "B2-zh-00004",
+      "target_id": "655dbe5b9e9a255440417c6bcb51b04d4395fa0cd3ac345a2d794e6483f3f167",
+      "source_hash": "0d00363c360430c7969c95b07a23a7fd549e91729554c7e8d562a394b2b4f198",
+      "text": "第二条（委员的聘任等）\n① 《关于史料的收集、编纂及韩国史的普及等的法律》（以下简称“本法”）第4条规定的国史编纂委员会（以下简称“委员会”）委员，应从具有丰富历史研究经验与学识、德望高尚的人士中聘任。\n② 补缺委员的任期为前任委员任期的剩余期间。\n\n",
+      "reason": "Corrected legal nomination/commissioning 委嘱 (聘任), not appointment, and restored paragraph ② and proper Institute title."
+    },
+    {
+      "id": "B2-zh-00005",
+      "target_id": "a821e188eb42a13ad6d606f0e761aa0f73f996f990aaffee758e509096489b0f",
+      "source_hash": "15d42c736199f2d7ad6151346b967af3aa8a4d1807cf190f4bc589302742f0fc",
+      "text": "第2条之2（委员的解聘）教育部部长认为依第2条第1款聘任的委员会委员有下列任一情形时，可以解聘该委员：\n1. 因身心障碍不能履行职务\n2. 存在与职务有关的不当行为\n3. 因怠于职守、损害品行或其他事由，被认定不适合担任委员\n4. 委员本人表示难以履行职务\n\n",
+      "reason": "Corrected 제2조의2 sub-article, statutory removal from commissioned membership (해촉) and precise four grounds."
+    },
+    {
+      "id": "B2-zh-00006",
+      "target_id": "da7d3158396145b435ed3af81f4c03564f94cec50f63dd9ad035fce7a0000d4e",
+      "source_hash": "4fdcd4d3d33a55ef1c1fa52fbdc306b7909debda9e28d90bda0fe0f41cd994ea",
+      "text": "第三条（国史编纂委员会的会议）\n① 委员会每半年召开一次定期会议；委员长认为有必要时，可以召开临时会议。\n② 会议运营所需其他事项，须经委员会议决后由委员长决定。\n\n",
+      "reason": "Corrected institution name and six-month meeting cycle; committee resolution controls operating rules."
+    },
+    {
+      "id": "B2-zh-00007",
+      "target_id": "8a328cf01e1ac0879e7ca60a237cccfc7d34a1a3d22f3b75efa5776aa8e3fd08",
+      "source_hash": "15138474b7825d6207ed6d9292961816042f16fe1accccf6f5cd42af98a752a4",
+      "text": "第四条（史料研究委员的聘任）\n① 本法第10条第2款规定的史料研究委员（以下简称“史料研究委员”），由委员长从下列任一人员中聘任：\n1. 在《高等教育法》第2条各项规定的学校主修韩国史，具有该领域10年以上研究经历或该领域博士学位的人\n2. 具备解读古文书、整理为史料的能力且在有关领域具有5年以上研究经历的人\n3. 具备解读外文历史资料、整理为史料的能力且在有关领域具有5年以上研究经历的人\n4. 具备史料信息化能力且在有关领域具有5年以上研究及实务经历的人\n② 史料研究委员聘任期间为1年，可以续聘。\n\n",
+      "reason": "Corrected gross 饲料/动物饲养 error, individual 史料研究委员 vs separate committee, and 10/5/5/5 year expertise thresholds."
+    },
+    {
+      "id": "B2-zh-00008",
+      "target_id": "f44ef3cbc5c6ef6992bd458d36db444c7074a30a39677096aae5e5a4fe63cf09",
+      "source_hash": "20c0be2b9a778e6c399d77bb6d08c916ee9a2aa5fac07b64f0464e8afc43a69e",
+      "text": "第五条（史料调查委员的聘任）\n① 本法第10条第3款规定的史料调查委员（以下简称“史料调查委员”），由委员长按下列类别聘任：\n1. 国内史料调查委员\n  a. 地区史料调查委员：居住并登记于史料调查地区的特别市、广域市的区，或道、特别自治道的市、郡内，熟悉韩国史并具有丰富史料调查经验的人\n  b. 机构史料调查委员：在国家机关或法人、团体任职，熟悉韩国史并具有丰富史料调查经验的人\n2. 海外史料调查委员：居住于国外（包括外国人），熟悉韩国史并具有丰富史料调查经验的人\n② 可以在预算范围内向史料调查委员支付史料调查、收集所需费用及津贴。\n\n第三章 史料的调查、收集及保存\n\n",
+      "reason": "Corrected every animal-feed/committee-name mistranslation, category distinction and overseas persons, preserving prescribed geographic requirements and budget-limited compensation; restored Hangul chapter heading."
+    },
+    {
+      "id": "B2-zh-00009",
+      "target_id": "74e1ada4141a8f0354118f353dad8e32a932050390e895747ee25b82dd8c6efc",
+      "source_hash": "60cb77e6e2d88464071fa831541d7cfba66c4dccc54c0613aa54fac45ca56ad6",
+      "text": "第六条（史料调查）\n① 委员会可以召开历史领域专家参加的咨询会议，以调查国内外史料。\n② 委员会可以成立研究小组，对国内外史料进行基础调查。\n③ 可以在预算范围内向参加第1款咨询会议的专家和第2款研究小组成员支付参会或史料调查所需费用及津贴。\n\n",
+      "reason": "Corrected 史料 not 饲料, restored omitted paragraph ② and explicit funding conditions."
+    },
+    {
+      "id": "B2-zh-00010",
+      "target_id": "328cdbc87431aaf5cd1f4766c63fd5854ea9ead5b12e42673db7ac69150f6029",
+      "source_hash": "5ecac49adc94dcb367f2395070f697ab00cc5e249555d5f3d4a57c9a278719e0",
+      "text": "第七条（史料收集）\n① 委员会通过复制、购买或借入、接受捐赠、受托保管等方式收集史料。<2021年9月14日修订>\n② 委员会可以通过口述采录收集史料，即以笔记、打字、录音或录像等方式记录有关个人生平、事件或事项的访谈或证词。\n③ 史料提供者请求不公开或仅部分公开史料时，委员会应遵从该请求。\n\n",
+      "reason": "Corrected 借阅/寄售 misinterpretations to borrowing/entrusted custody, and binding provider restriction on disclosure."
+    },
+    {
+      "id": "B2-zh-00011",
+      "target_id": "495c4b063d71d29b278af8f0a6fc6c7ee4e77fb61964c70365e1c4e189468755",
+      "source_hash": "f928189f09b932b36f2c4df7b7c7718856c780fe4b3ce318a5e1c5f38fb4869d",
+      "text": "第八条（史料的受托保管）\n① 拟依本法第14条第1款请求委托保管史料的人，应提交委员长规定的申请书。\n② 委员会应审查申请受托史料的价值、保存状况及受托条件后，决定是否接受受托保管。\n③ 委员会应接收、验收已确定受托的史料，确认其内容后交付载明受托条件的受托凭证。\n④ 委员长可以另行制定将受托史料设为专题文库的标准及程序。\n\n",
+      "reason": "Corrected critical Article 8 史料受托 custody to not 'feed transport', and receipt document conditions."
+    },
+    {
+      "id": "B2-zh-00012",
+      "target_id": "88b2f3c835f4e681b38a324fc583f649c810227bad8fffc6e51c07de2c2663a0",
+      "source_hash": "aa01abdca888ca84046dc2bf2f43d3b44e78d377d4424c4115c2d957ec0c4672",
+      "text": "第九条（史料的管理）\n① 委员会应制定整理所藏史料的工作程序和体系，并制定史料管理指南。\n② 地方自治团体负责人为评价、整理、保存及利用其所藏史料而请求采取必要措施时，委员会除有特别理由外应予遵从。\n③ 委员会应积极向国民公开所藏史料，以促进史料的广泛利用。\n\n",
+      "reason": "Corrected 사료 not 饲料, and mandatory public disclosure, structured cataloging, and local government requests."
+    },
+    {
+      "id": "B2-zh-00016",
+      "target_id": "44e3eccab3eff08ebb8a616e9f11230a5e30ca0d0db36c83f5256e1f7f9cf344",
+      "source_hash": "5ed3b86e80cd08c68f14fc753b5edc0e0de2dc25a9dd2cdfd24ad1e16b2f8f52",
+      "text": "第十三条（韩国史的编纂）委员会制定韩国史编纂计划时，应包括下列事项：<2019年7月2日修订>\n1. 韩国史基础史料集及通史的编纂\n2. 韩国史各时代史料集及时期史的编纂\n3. 韩国史各主题史料集及专题史的编纂\n4. 大韩民国史料集及大韩民国史的编纂\n5. 依第7条第2款口述采录编纂口述史料集及口述史\n6. 朝鲜相关史料集及朝鲜史的编纂\n7. 海外同胞相关史料集及海外同胞史的编纂\n8. 韩国史术语词典、历史地图、年表等参考资料的编纂\n\n",
+      "reason": "Corrected duty to compile, not merely collect, each of eight classes of Korean history resources and special Article 7(2) oral-history material."
+    },
+    {
+      "id": "B2-zh-00017",
+      "target_id": "823269924787a56b6078bc9c75500d70e1c780ad63829d1b330be451390980d5",
+      "source_hash": "4d1c39d743b00ef6ff6b38d5a3a3da0082e5bd15999d97e7facc65138215735e",
+      "text": "第十四条（韩国史研修）\n① 委员会制定韩国史研修及培养史料管理专业人员的计划时，应包括下列事项：\n1. 对公务员进行韩国史教育的方案\n2. 对历史专业小学、中学教师进行研修的方案\n3. 与大学等机构开展韩国史交流授课的方案\n② 研修课程分为国内史料课程及国外史料课程，并按各专业领域进一步划分实施。\n③ 各课程研修期限原则上为1年，不得超过2年。\n④ 研修课程运营所需其他事项由委员长规定。\n\n",
+      "reason": "Corrected gross 'domestic/international feed courses', restored missing paragraph ② and preserved 1-year norm/2-year maximum."
+    },
+    {
+      "id": "B2-zh-00018",
+      "target_id": "f02abb3a551abfd59bf8af2dc246f4e9984913bd772054b3dc96dccf0ec76c2d",
+      "source_hash": "58e42ea38ec7e7bea3710f4d8df03fa8e1df7fb8c456894c50fc78bdec1f1eac",
+      "text": "第十五条（韩国史的普及）委员会制定普及韩国史的计划时，应包括下列事项：\n1. 用韩语或外语编纂韩国史教材的方案\n2. 通过大众传媒普及韩国史的方案\n3. 开设教养课程等以提高国民韩国史知识的教育方案\n4. 举办、运营各种活动以增进国民历史认识的方案\n\n",
+      "reason": "Corrected general Korean-history teaching materials (교재), not only formal textbooks; preserved all four plans."
+    },
+    {
+      "id": "B2-zh-00019",
+      "target_id": "5e953311e3e966a32252ee09705406034daa1bad1eaaca33964a50d6d94cd7f8",
+      "source_hash": "b9ec25e23f62ada61e219013a25e46a241f37ba7cc1a481accc0fb684b3820a6",
+      "text": "第十五条之2（韩国史能力检定）\n① 委员会每年应在国内外面向大韩民国国民、海外同胞及外国人实施至少4次本法第18条第1款规定的韩国史能力检定（以下简称“韩国史考试”）。\n② 委员会应在上一年12月底前公告本年度韩国史考试实施计划。\n③ 委员会认为自然灾害、传染病流行等不可避免的情况导致难以实施韩国史考试时，可以延期或取消考试。\n④ 拟参加韩国史考试的人，应缴纳委员长规定的报考手续费。\n⑤ 委员会在下列情形下，应按相应规定返还全部或部分已缴手续费：\n1. 在报名受理期间取消报名：全额\n2. 在报名受理期结束后的指定取消期间取消报名：部分\n3. 因委员会可归责事由未能参加考试：全额\n4. 多缴或错缴报考手续费：返还多缴或错缴金额\n5. 委员长认定因其他不可避免原因无法参加韩国史考试：全额或部分\n⑥ 委员会应在考试结束后将结果通知考生。\n⑦ 委员会可请求中央行政机关、地方自治团体及有关机构负责人为命题、评分及考试管理提供必要协助。\n⑧ 除第1款至第7款规定外，考试实施所需事项应经委员会议决，由委员长规定。\n\n",
+      "reason": "Restored missing paragraphs ②/④ and critical Art 15-2(5)5 examination FEE REFUND, mistranslated as loss of exam eligibility; preserved four-yearly minimum, cancellation and refund rules."
+    },
+    {
+      "id": "B2-zh-00020",
+      "target_id": "d573d24dfd63eb07dc9e9eb7ea0b58cb629a5c300b7f9aded171a9c7bbb406c9",
+      "source_hash": "f7ce95a09a812c306bcc4cff9c41fb9331875dd3f316afdcfa0af8ee185a77d0",
+      "text": "第十五条之3（韩国史考试命题、评分委员的聘任等）\n① 委员会可以从韩国史领域专家中分别聘任或指定考试命题、评分委员；并可从委员会、教育行政机关及教育研究机构所属职员中聘任或指定考试管理委员。\n② 可以在预算范围内向第1款命题、评分委员及管理委员支付津贴。\n\n",
+      "reason": "Corrected individuals serving as examination setters, graders and administrators rather than forming separate formally established committees."
+    },
+    {
+      "id": "B2-zh-00021",
+      "target_id": "74bc6da640b110e39c6b4f5a0f8eae63bd84cdd5f8a0242d34fa40035b71a70a",
+      "source_hash": "9ba19f77eda065c39a80e9e16a5cfde47daa589cb5d4d9cced3e4f1191ee5e2e",
+      "text": "第十五条之4（对作弊人员的措施）\n① 对在韩国史考试中实施下列任一行为的人，委员会应中止其本次考试或认定考试无效，并停止其参加此后连续3次韩国史考试的资格：\n1. 查看其他考生答题纸或向他人展示本人答题纸\n2. 代替他人参加考试或让他人代考\n3. 伪造、变造身份证件参加考试\n4. 与其他考生以手势、声音等方式互通暗号\n5. 查看字条等不正当携带物品\n6. 操作或利用通信设备、电子计算器等\n7. 委员长制定、公告的其他相当于第1项至第6项、以不正当手段影响本人或他人考试结果的行为\n② 对在韩国史考试中实施下列任一行为的人，委员会应中止其本次考试或认定考试无效：\n1. 考试开始前查看试题\n2. 考试结束后继续填写答题纸\n3. 将答题纸带出考场\n4. 在指定座位以外的座位参加考试\n5. 使通信设备或电子计算器等发出电子提示音或振动\n6. 委员长制定、公告的其他相当于第1项至第5项、影响考试公正管理的行为\n\n",
+      "reason": "Corrected sanctions: termination or invalidation of exam plus ban from three SUBSEQUENT sittings for serious misconduct, and separate lighter conduct without three-exam ban; corrected impersonation."
+    },
+    {
+      "id": "B2-zh-00023",
+      "target_id": "6222bc3f3f456294cfbecbf7572d5412c8105b3f65f873505e1b723fac7b1b35",
+      "source_hash": "02be9f4248dd4c0da126b3c4dd0e798a0a93b34a547c5d00d147a5e90b1605e4",
+      "text": "第十七条（韩国史信息化）委员会应制定、推进包含下列事项的韩国史信息化计划：\n1. 史料数据库的建设及管理方案\n2. 韩国史有关内容的开发、运营方案\n3. 历史教育内容的开发、运营方案\n4. 按国民年龄及学历提供历史信息的信息系统开发、运营方案\n\n",
+      "reason": "Corrected the subject of database to historical source materials (史料), not generic information database."
+    },
+    {
+      "id": "B2-zh-00024",
+      "target_id": "66476c2b901b94af324caf3d3e548f5160cf4424e57149b4430ca2c39bd7bbcc",
+      "source_hash": "90429d819bf396cd3be7f2b6f83eeeab1700ea8cce1049acae19616f0d4df707",
+      "text": "第十八条（历史领域综合信息中心的运作）\n① 根据本法第十九条第二款规定，历史领域综合信息中心（以下简称“历史信息中心”）的负责人，由委员会主席从委员会常任委员中指定。\n② 历史信息中心应促进以下事项，以推动韩国历史的信息化。\n1. 历史领域知识和信息资源管理政策与战略的制定\n2. 历史领域知识和信息资源共享与分发服务的管理\n3. 历史领域知识信息资源和数据库列表的管理\n4. 历史领域数据库的标准化与传播\n5. 历史领域知识信息系统的运行\n6. 韩国历史相关机构信息系统之间的联系\n7. 历史信息化相关机构间的磋商与协调\n\n",
+      "reason": "Corrected clear duplication of the word 信息 in the source's Article 18 fifth item about historical knowledge information systems."
+    },
+    {
+      "id": "B2-zh-00025",
+      "target_id": "708533d525cc3e79b155d9c992a65893b9a0a819ec6d20a295834f80a01d70a7",
+      "source_hash": "3a9021cfe789eb2a0f4a4a3913bdfcfd8a435845cfa6d537bdbd2730405d91be",
+      "text": "第十九条（固有识别信息的处理）委员会为执行下列事务确有不可避免的需要时，可以处理含有《个人信息保护法施行令》第19条第1项或第4项规定的居民登记号码或外国人登记号码的资料：\n1. 依第15条之2实施韩国史考试的事务\n2. 依第15条之3第1款聘任、指定韩国史考试命题、评分及管理委员的事务\n3. 依第15条之3第2款支付津贴的事务\n4. 依第15条之4对作弊人员采取措施的事务\n5. 删除<2022年10月4日>\n\n",
+      "reason": "Corrected Personal Information Protection Act Enforcement Decree Article 19 subparagraph 1/4, NOT paragraphs 1/4, and Article 15-3(1) instead of wrong Article 15(3)1."
+    },
+    {
+      "id": "B2-zh-00026",
+      "target_id": "315588c071fad3793cd1c1288b192c7d450c3600dafff9e72ea36c588c27a32a",
+      "source_hash": "7473092b90eda65e92e446c95c983903ea2f376de4bee1e03c2220a2eee91fef",
+      "text": "附则 <第20748号，2008年3月21日>\n\n本令自公布之日起施行。\n\n",
+      "reason": "Restored formal Presidential Decree addenda and same-day commencement."
+    },
+    {
+      "id": "B2-zh-00027",
+      "target_id": "6a50c2467a128f269f839098de00597fcf2f910136ffca6c66f2a66821dd5f75",
+      "source_hash": "6c4d4cd24e0ac1170ddb814df2aa28a5e890d9cd0a20182553a46cb1845e2427",
+      "text": "附则（关于设立及运营国立大学法人首尔大学的法律施行令）<第23116号，2011年9月6日>\n\n",
+      "reason": "Corrected exact parent Act and its Enforcement Decree, not a mismatched double-bracket appendage."
+    },
+    {
+      "id": "B2-zh-00028",
+      "target_id": "49e8c6ffea7a6ac35a91a3a70291fe9ee1cc0c955a7f86fd30bd2766e3bbd814",
+      "source_hash": "7487812b10de153d2330d6a29f9196b8a7bbafe1eb3fa01c09151c3246ebe90e",
+      "text": "第一条（施行日期）本令自2011年12月28日起施行。\n\n",
+      "reason": "Distinguished enforcement of this Presidential Decree from enacted law."
+    },
+    {
+      "id": "B2-zh-00030",
+      "target_id": "1ad3475b4e46b75f2ca369c5057878ff3573a7ef9efb583d4c5fe91e955fa5be",
+      "source_hash": "a820bedcf955926203059ac93c8c6e3b6125288ece7ca0673708a54a98c0717b",
+      "text": "第五条（其他法令的修订）①至③省略\n\n④ 《关于史料的收集、编纂及韩国史的普及等的法律施行令》作如下部分修订。\n\n在第10条第3款第1项中，将“首尔大学”改为“国立大学法人首尔大学”。\n\n⑤至⑨省略\n\n",
+      "reason": "Restored precise title of subordinate Decree and original '서울대학교' vs new national university corporation title in 2011."
+    },
+    {
+      "id": "B2-zh-00031",
+      "target_id": "af9dbde83dd1a1d49876281655a6a06e883199a5172fe5931debad96e33cdd9c",
+      "source_hash": "acbb7ae4a0e9c89ad171f2a0f97c5c50e259ec8cc8d463812d7b833c4a788f87",
+      "text": "附则（教育部及其所属机关职制）<第24423号，2013年3月23日>\n\n",
+      "reason": "Corrected legal supplementary provisions and exact 2013 Ministry of Education institutional decree name."
+    },
+    {
+      "id": "B2-zh-00032",
+      "target_id": "89ede8d213f7786ecff71379c6103fe8fbab1bcdb3f8e65c5041184a2c9e3aa4",
+      "source_hash": "7d7075d3fab665cdbaac560b14335b0ee552583c1a51db7e92e263494f72f34f",
+      "text": "第一条（施行日期）本令自公布之日起施行。<但书省略>\n\n",
+      "reason": "Restored formal enforcement wording of Presidential Decree."
+    },
+    {
+      "id": "B2-zh-00034",
+      "target_id": "5d7cad3f1921bdae214bbd583d797c906a98fc629dc10d448f7ea3d9cd995ad6",
+      "source_hash": "f9e31c4cf505d1ef14e60c767754c916db0c1574562284c35bb0fcc14ea5aba0",
+      "text": "第七条（其他法令的修订）①至<51>省略\n\n<52>《关于史料的收集、编纂及韩国史的普及等的法律施行令》作如下部分修订。\n\n在第10条第3款第1项中，分别将“外交通商部”改为“外交部”，将“行政安全部”改为“安全行政部”。\n\n<53>至<105>省略\n\n",
+      "reason": "Restored exact 2013 government reorganization names and item 52, historical Article 10(3)(1) and all omission ranges."
+    },
+    {
+      "id": "B2-zh-00035",
+      "target_id": "747fb07de61a58e2fc3b0276ed4b69965be1cd8d555b7069beebe57a02855f64",
+      "source_hash": "a3c47358b5319a3ba45787da785dfea890df8d8d79398cc9047d30e04f9d9dac",
+      "text": "附则（行政自治部及其所属机关职制）<第25751号，2014年11月19日>\n\n",
+      "reason": "Corrected 2014 Ministry of Government Administration and Home Affairs name and formal Decree addenda."
+    },
+    {
+      "id": "B2-zh-00036",
+      "target_id": "76bd0886ac07aa192c342651357dffba78b4a3731ff49b6645def7185e3c7979",
+      "source_hash": "ecc5937743f918230a397055273a1cd44275217a8341699c9b3693e458eb6e4c",
+      "text": "第一条（施行日期）本令自公布之日起施行。但依附则第5条修订的总统令中，对本令施行前已公布但尚未到施行日期的总统令所作的修订部分，分别自有关总统令施行之日起施行。\n\n",
+      "reason": "Corrected 부칙 제5조 as 附则第5条, not a different supplementary decree; preserved future effective-date clause."
+    },
+    {
+      "id": "B2-zh-00038",
+      "target_id": "5a083f2723ee1431a989e2b0095796aba3996782c258bbce4ac32f90724dbbfb",
+      "source_hash": "e7383cae93557334edffc97d9b5b356e7bffae95426bbf6d06b5e447cb66d71b",
+      "text": "第五条（其他法令的修订）①至<54>省略\n\n<55>《关于史料的收集、编纂及韩国史的普及等的法律施行令》作如下部分修订。\n\n在第10条第3款第1项中，将“安全行政部国家记录院院长”改为“行政自治部国家记录院院长”。\n\n<56>至<418>省略\n\n",
+      "reason": "Restored exact 2014 transfer from Ministry of Security and Public Administration to Ministry of Government Administration and Home Affairs, preserving National Archives head and old Article 10(3)1 reference."
+    },
+    {
+      "id": "B2-zh-00039",
+      "target_id": "a49b06dc7db7d93dd6036328edbc4fde7e63d2b1d3775e9af24c423895c4e246",
+      "source_hash": "e0b6febf5446679407c1fc9ef32b2e9f025574ca8db443d657881baa13b9142e",
+      "text": "附则（为加强行政机关所属委员会运营的公正性及责任性而部分修订《国民健康保险法施行令》等法令的总统令）<第26844号，2015年12月31日>\n\n本令自公布之日起施行。\n\n",
+      "reason": "Corrected 2015 Presidential Decree's supplementary provisions, full legal status and committee-governance terminology."
+    },
+    {
+      "id": "B2-zh-00040",
+      "target_id": "90468c024c24cdd4a374a85709188ac1ff657f7c1552305828f14cb1dd0ec92c",
+      "source_hash": "1145e216f8b3bffefe86b7aece5e60bce480ea09619246fd590e2604fec2bd95",
+      "text": "附则（为加强行政机关所属委员会运营的公正性及责任性而部分修订《私立学校法施行令》等法令的总统令）<第27129号，2016年5月10日>\n\n本令自公布之日起施行。\n\n",
+      "reason": "Corrected 2016 distinct amendment concerning Private School Act Enforcement Decree, preserving number and date."
+    },
+    {
+      "id": "B2-zh-00041",
+      "target_id": "86e7349ecd10709d4477bd49747f12e1963c140ea1beca6d963a8b8560a27b6f",
+      "source_hash": "54cf959edc7c72640089356232036172716e47f12e4913efeb9a36e66b8b97f0",
+      "text": "附则（关于为整顿难懂的法令用语而部分修订210部法令的总统令）<第29950号，2019年7月2日>\n\n本令自公布之日起施行。<但书省略>\n\n",
+      "reason": "Corrected 2019 amendment to 210 statutes/regulations, legal addenda and omitted proviso."
+    },
+    {
+      "id": "B2-zh-00042",
+      "target_id": "1b39eafaa1db56ee12f0da082b2ec5d485efc5ba8d7aef613b89eb52058b5736",
+      "source_hash": "3c5041372371356dd70ada87695296112fb7297d872b0028c3564bcc381a7cf1",
+      "text": "附则 <第31977号，2021年9月14日>\n\n",
+      "reason": "Corrected formal supplementary provisions, preserving Decree No.31977."
+    },
+    {
+      "id": "B2-zh-00045",
+      "target_id": "c554ae375ffff1621d441c01ff5175b5ff12966988af942028c6febfbfd24112",
+      "source_hash": "2709456c659de60445d4ad5d7e42a738a493a856574b40fdceae3877f269928d",
+      "text": "附则（关于为整顿行政机关所属委员会而部分修订《教育公务员任用令》等4部法令的总统令）<第32932号，2022年10月4日>\n\n",
+      "reason": "Corrected 2022 exact ordinance title referring to Educational Public Officials Appointment Decree and four statutes/regulations."
+    },
+    {
+      "id": "B2-zh-00046",
+      "target_id": "71873461315113a220820a56f49f6a249444dbabfde388035764d7391bc8c2c8",
+      "source_hash": "7d7075d3fab665cdbaac560b14335b0ee552583c1a51db7e92e263494f72f34f",
+      "text": "第一条（施行日期）本令自公布之日起施行。<但书省略>\n\n",
+      "reason": "Corrected Presidential Decree formal commencement, preserving omitted proviso."
+    },
+    {
+      "id": "B2-zh-00047",
+      "target_id": "c086390a58bc17c314e22548ba24897f57b0021cb659e0b1924b60e9a4a85e58",
+      "source_hash": "4d09d25b57b294d6ed40b1122f34d51b605749ed3df595efefcfcb4334ceb3a7",
+      "text": "第2条省略",
+      "reason": "Corrected omitted Article 2 rather than generic 'article text' 文章."
+    }
+  ],
+  "status": "COMPLETE"
+}
