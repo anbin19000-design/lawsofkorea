@@ -1,0 +1,8 @@
+{
+  "job_id": "F-2ce70b7e0c9818b28e04",
+  "worker": "C02",
+  "checked_rows": 425,
+  "corrected_rows": 258,
+  "status": "COMPLETE",
+  "note": "Reviewed all 10 family documents (law, enforcement decree, annex, enforcement rule, six forms) against Korean source at commit 7c56cfa342af32b1bf78eaa9983c425839317498. Source files' main SHA matched baseline. Corrected untranslated Korean law/decree passages, administrative disposition criteria, form terms and malformed text. Preserved source row IDs and laws/* files; verified unique nonempty review edits before saving this separate receipt. Operational DB not modified."
+}
