@@ -1,0 +1,41 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 4,
+  "edits": [
+    {
+      "id": "A25469-zh-00012",
+      "text": "1. 需要国土交通部长官或主管行政机关负责人办理许可、批准、认证、验证、认可、登记等手续",
+      "source_hash": "47b9cbc2fd209e6cea9ab5fd131d05300d3b13886a6daa4da115c85b23b58100",
+      "target_id": "XML:1802867"
+    },
+    {
+      "id": "A25469-zh-00017",
+      "text": "2. 无需国土交通部长官或主管行政机关负责人办理许可、批准、认证、验证、认可、登记等手续",
+      "source_hash": "bccff45bcfd5a44a8f867d481b5f69eb5bb36137a0c099a9d220966801d7ac8a",
+      "target_id": "XML:1802872"
+    },
+    {
+      "id": "A25469-zh-00021",
+      "text": "依据《智慧城市建设及产业振兴等相关法律》第四十九条之二、该法施行令第五十二条之二第二款及该法施行规则",
+      "source_hash": "cec8e5e778c20ef3d4a0ad3296295ef00a33233537931fc5dbd32af5eb5f90d0",
+      "target_id": "XML:1802876"
+    },
+    {
+      "id": "A25469-zh-00022",
+      "text": "第四条之二第二款，现将智慧创新技术及服务的规制快速确认结果通知如下。",
+      "source_hash": "87a2ba4912887216615d79049c337735b3de1d03344d4f8ed9431e617119d1a3",
+      "target_id": "XML:1802877"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "note": "A25469 statutory references and permit enumeration corrected using Korean form; preserve other reviewed fragments."
+}
