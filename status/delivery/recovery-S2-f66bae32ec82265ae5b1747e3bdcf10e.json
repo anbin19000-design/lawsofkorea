@@ -29,7 +29,20 @@
   },
   "assistant_count": 15,
   "assistant_excerpt": "료를 확인했습니다.\n\n기준 커밋: be49d1846b529f0a29d352e135a34c59e2c614e7\n\n확인 결과\n\n대상\n\n\t\n\n행 수\n\n\t\n\n상태\n\n\n\n\n학술진흥법\n\n\t\n\n44\n\n\t\n\n추가 교정 필요\n\n\n\n\n시행령\n\n\t\n\n45\n\n\t\n\n별표 내용 혼입\n\n\n\n\n사업비 환수 기준\n\n\t\n\n32\n\n\t\n\n표 제목·내용 오류\n\n\n\n\n제재부가금 기준\n\n\t\n\n42\n\n\t\n\n교정 필요\n\n\n\n\n과태료 기준\n\n\t\n\n36\n\n\t\n\n교정 필요\n\n\n\n\n시행규칙\n\n\t\n\n15\n\n\t\n\n별표 내용 혼입\n\n\n\n\n비용 항목별 계상기준\n\n\t\n\n254\n\n\t\n\n심각한 번역 손상\n\n주요 문제\n\n1. 비용 항목별 계상기준 254행\n\nMTQ 식별 문자열이 번역문에 남아 있습니다.\n\n연구비, 인건비, 간접비, 연구활동비의 설명이 여러 행에서 뒤섞였습니다.\n\n원문 표의 항목과 중국어 행의 대응 관계를 다시 검증해야 합니다.\n\n2. 시행령\n\n마지막 행에 사업비 환수 별표가 중복 삽입되어 있습니다.\n\n3. 시행규칙\n\n마지막 행에 비용 항목별 계상기준 별표가 중복 삽입되어 있습니다.\n\n4. 별표\n\n환수 사유별 기준, 제재부가금 누진 계산식 및 과태료 금액을 원문과 다시 대조해야 합니다.\n\n한국어 원문과 영어 참고자료, 기존 영문 검수 자료는 확인했습니다. 따라서 원문 부재가 원인은 아닙니다.\n\n저장 상태\n\nlaws/*: 수정하지 않음\n\nreview/zh/F-d0c923946978ef257acf.json: 저장하지 않음\n\nreceipts/F-d0c923946978ef257acf.json: 저장하지 않음\n\n부분 저장 없음\n\n현재 468행 전체를 정확히 검수했다고 확인할 수 없으므로 COMPLETE 영수증을 발행하지 않았습니다.\n\n비용 항목별 계상기준의 254개 행과 두 문서의 별표 혼입을 원문 기준으로 복원·검증한 뒤 완료 처리해야 합니다.",
+  "attempted_at": "2026-11-07T12:01:47.984090+00:00",
   "created_at": "2026-11-07T12:01:39.920017+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-f66bae32ec82265ae5b1747e3bdcf10e",
+    "attempted_at": "2026-11-07T12:01:47.984090+00:00",
+    "claim_commit": "04c2127ff42858e8326e1590d12e726b99e0c327",
+    "event_id": "obs-b4142ec9b5e6674adfee76d18d763cecee4846e5",
+    "job_id": "F-d0c923946978ef257acf",
+    "record_path": "status/delivery/recovery-S2-f66bae32ec82265ae5b1747e3bdcf10e.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C05"
+  },
   "episode": 1,
   "event_id": "obs-b4142ec9b5e6674adfee76d18d763cecee4846e5",
   "job_id": "F-d0c923946978ef257acf",
@@ -40,7 +53,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-143ecdccfa4e06844292bd64]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "281d608147c67bd1c01387b78ca47e7ffe58fec6",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef04a6-675c-83e8-9057-6cdab2441a1c",
   "worker": "C05"
 }
