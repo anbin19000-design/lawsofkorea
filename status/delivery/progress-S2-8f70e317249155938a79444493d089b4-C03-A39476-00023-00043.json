@@ -1,0 +1,108 @@
+{
+  "schema": "LAW_ZH_PARTIAL_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A39476",
+  "range": {
+    "first": "A39476-zh-00023",
+    "last": "A39476-zh-00043"
+  },
+  "checked_rows": 21,
+  "corrected_rows": 18,
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "edits": [
+    {
+      "id": "A39476-zh-00023",
+      "source_hash": "46496b73646b9570344fe3f8029322ddd7cbdb036634d83d87cc5e6d9eaab74c",
+      "text": "庚. 洗衣房"
+    },
+    {
+      "id": "A39476-zh-00025",
+      "source_hash": "0641cec82970ac9cc8916e54898a8ac39a82ae92cdbb907b638debd127011c8c",
+      "text": "辛. 卫生间"
+    },
+    {
+      "id": "A39476-zh-00027",
+      "source_hash": "0f8a86cc6594306ab9ede953696f1257e5d13648548b0bc85379f28f17ba69f8",
+      "text": "壬. 供水设施及排水设备"
+    },
+    {
+      "id": "A39476-zh-00029",
+      "source_hash": "5d9de61ce8b04af5a0ce87cc5e6ca23ad00c0bc3274b4fc5dd30faf18b771e6a",
+      "text": "应配备能够供应符合《饮用水管理法》第五条规定的饮用水水质标准的地下水等"
+    },
+    {
+      "id": "A39476-zh-00030",
+      "source_hash": "513de0a711ab6aa8414d7216f2fb8e12fde64fa0174e76c5a054f7681b926f90",
+      "text": "的设施。"
+    },
+    {
+      "id": "A39476-zh-00031",
+      "source_hash": "92c10ea676c5c9748aea1721ceb283a43d4efa099382c0371d2d30a589128844",
+      "text": "2）应当安装符合《下水道法》规定的排水设备。"
+    },
+    {
+      "id": "A39476-zh-00032",
+      "source_hash": "fab2177c19f8892eb59d4cb31233610f3cd6c0db493ed7c4c16ed42006ba376d",
+      "text": "癸. 应急灾害防备设施"
+    },
+    {
+      "id": "A39476-zh-00033",
+      "source_hash": "44d609b36191ba6703abe9d5ca41aa25e986833e74cd96ef07bb1b4e28bb6807",
+      "text": "应当依照《消防设施设置及管理法》规定的消防安全标准配备灭火"
+    },
+    {
+      "id": "A39476-zh-00034",
+      "source_hash": "8202f97f09eb3278fb519a52fd1f783aa9a01cccaff4877a6d5fba6ec5eff91d",
+      "text": "设备和避难设备。"
+    },
+    {
+      "id": "A39476-zh-00035",
+      "source_hash": "95149008a6d9cf923f168a233e1a401f3d52343f889e54b2dd8579630665acee",
+      "text": "2. 工作人员人数"
+    },
+    {
+      "id": "A39476-zh-00036",
+      "source_hash": "d8ba487317ac4e370c544ff11fee92077c5dfe235d14d8d93e213e278685f7be",
+      "text": "类别"
+    },
+    {
+      "id": "A39476-zh-00037",
+      "source_hash": "6b7911e1027043148deb7136c72cd393d41024db9af8b27bb51e478a4cda026a",
+      "text": "支援设施容纳人数"
+    },
+    {
+      "id": "A39476-zh-00038",
+      "source_hash": "fcaadb1667d784a9d8ecdce891d1cc973366e3fc28558009ad81ddd4ae80c60b",
+      "text": "十人以下"
+    },
+    {
+      "id": "A39476-zh-00039",
+      "source_hash": "4bee108e3ca1df06409da7c36a6183c615da608e2e7fa81bbb4311c357d05d2f",
+      "text": "十一人以上"
+    },
+    {
+      "id": "A39476-zh-00040",
+      "source_hash": "9a985b848f4ba4ea842473604abb3d293cc1dcdd8e85addd3fa2713b2c343c03",
+      "text": "十五人以上"
+    },
+    {
+      "id": "A39476-zh-00041",
+      "source_hash": "b5083843b5a98b70e5c32d7f8feb3f0b04bebcac7615873328a5dad8b739801d",
+      "text": "二十人以上"
+    },
+    {
+      "id": "A39476-zh-00042",
+      "source_hash": "7013239d03ba20f7e499f1e1067939ca8093a0d9fddf94d8516ee80c776ba8b9",
+      "text": "不足十五人"
+    },
+    {
+      "id": "A39476-zh-00043",
+      "source_hash": "ae4c64541a862b74c4de36b32de4397269fd8881bc67c8be336f70e2401c7b97",
+      "text": "不足二十人"
+    }
+  ],
+  "note": "Direct comparison to Annex 3 Korean facility requirements and adjacent table cells. Corrects facilities and personnel headers, removes MTQ token in category heading, preserves thresholds."
+}
