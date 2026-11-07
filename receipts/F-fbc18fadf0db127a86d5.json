@@ -1,0 +1,8 @@
+{
+  "job_id": "F-fbc18fadf0db127a86d5",
+  "worker": "C03",
+  "checked_rows": 893,
+  "corrected_rows": 3,
+  "status": "COMPLETE",
+  "note": "Reviewed all 893 Chinese rows across the 5-document family against the authoritative Korean source. The Korean source blob SHA on main matches the supplied base commit. Three unique row-level corrections were recorded in review/zh: the Act's Article 2 definitions list was corrected for legal-item lettering and law names; the Enforcement Decree's amendment text was translated from Korean; and the remaining Korean category labels and local-government designation names in the attached government-procurement annex were translated/corrected. Exact-version official English references were consulted for the Enforcement Decree and annex; the Act reference was the latest family fallback. English reference coverage was 151/893 rows and no reviewed-English row set was supplied. The first 16 meaning/pairs shards (00–0f) were inspected; no records matched the two law IDs in this family. Review storage is separate from operational database application."
+}
