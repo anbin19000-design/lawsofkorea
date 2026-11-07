@@ -1,0 +1,48 @@
+{
+  "schema": "LAW_ZH_PARTIAL_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A39476",
+  "range": {
+    "first": "A39476-zh-00044",
+    "last": "A39476-zh-00065"
+  },
+  "checked_rows": 22,
+  "corrected_rows": 6,
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "edits": [
+    {
+      "id": "A39476-zh-00044",
+      "source_hash": "8afd04744fd689021c4c7cb773e481dd37b42485b20f90f4f4b15ba0a4332f7f",
+      "text": "支援设施负责人"
+    },
+    {
+      "id": "A39476-zh-00049",
+      "source_hash": "9d91d650bab442f04433a464eeb766ad2ac0fb5dea25e0426aaf9dd6f50bcbc1",
+      "text": "咨询员"
+    },
+    {
+      "id": "A39476-zh-00054",
+      "source_hash": "e70d33e84372fec81343b30d428aafe3d012b11a27df95c90e581e4ce8757cad",
+      "text": "辅助人员"
+    },
+    {
+      "id": "A39476-zh-00063",
+      "source_hash": "05583f7b7778061db5f83368f2f1a51edc9be07b38038feff88f8b38ed592448",
+      "text": "备注：支援设施负责人应当为全职人员，不得兼任其他业务。"
+    },
+    {
+      "id": "A39476-zh-00064",
+      "source_hash": "26a4e8e406c5f2b76b3e1e3f3e4719e8bb3859481f7fb260497c9ed7df38b42f",
+      "text": "但可以兼任其所属法人、团体运营的法第三十三条第三款第五项规定的自立支援共同"
+    },
+    {
+      "id": "A39476-zh-00065",
+      "source_hash": "13061a7d49e3737fd32c8c4f1cba63508bace82e27654caa2f61e0c556d913ff",
+      "text": "生活设施的负责人。"
+    }
+  ],
+  "note": "Reviewed staffing table Annex 3 against Korean. Staff types corrected: facility head, counselor, assistant. The existing numeric table cell values and thresholds retained. Footnote restored full-time condition and narrowly permitted concurrent headship of self-reliance shared living facilities."
+}
