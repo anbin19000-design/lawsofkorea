@@ -1,0 +1,8 @@
+{
+  "job_id": "F-049fef00d56c7c960bb3",
+  "worker": "C02",
+  "checked_rows": 122,
+  "corrected_rows": 79,
+  "status": "COMPLETE",
+  "note": "Reviewed all 122 Chinese rows in 1 Act against Korean original at base commit 56228cea642f0fc5473409adb4bb025af95f9796; consulted exact-version official English translation. Corrected 79 distinct source row IDs (maritime liability, judicial deposit, immediate appeals, claim assessments, distribution terminology and substantive misstatements). Review file verified on main before this separate receipt commit. laws/* unmodified. GitHub review storage is separate from operational DB deployment."
+}
