@@ -1,0 +1,8 @@
+{
+  "job_id": "F-904d26edf03038054266",
+  "worker": "C03",
+  "checked_rows": 166,
+  "corrected_rows": 104,
+  "status": "COMPLETE",
+  "note": "Full Chinese review of all four assigned documents (Act 39 rows, Enforcement Decree 39 rows, Annex application form 74 rows, Annex designation certificate 14 rows) against authoritative Korean source at base commit bc9a6edf0266594712ac4d808bdc40ed3f5f1ec4. Verified 166 original unique row IDs and 104 unique nonempty corrections (Act 20, Decree 22, form 1: 53, form 2: 9). Corrected agency titles, article references, certified teacher grades, establishment and revocation criteria, form labels, and duplicated form content in the decree draft. Official linked English reference documents and 87 of 88 meaning-pair records read; remaining form item matched directly against authoritative Korean after a transient remote read error. review/zh file saved and verified in commit bc896240a59f80896567918d27c22cf00c3cbedc. laws/* originals unchanged. Operational database reflection separate."
+}
