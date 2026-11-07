@@ -30,7 +30,20 @@
   },
   "assistant_count": 14,
   "assistant_excerpt": "00579d24611ae84fc3530680\n\n파일 Blob SHA: 3f83bdb7d12635901dacca2ad8849524ccbc102b\n\n교정 행 ID: B2-zh-00167 ~ B2-zh-00175\n\n재조회 결과: 9개 행 ID 및 9개 교정문 확인\n\nGitHub B2 167~175행 검수 파일\n\n회차 10 추가 저장 결과\n\n409 충돌은 지침에 따라 원문 SHA와 대상 경로가 변하지 않았음을 확인한 후, 1회 재저장으로 해결했습니다.\n\n구간\n\n\t\n\n검수\n\n\t\n\n교정\n\n\t\n\n커밋 SHA\n\n\n\n\nB2 176~185\n\n\t\n\n10행\n\n\t\n\n7행\n\n\t\n\n7c7bf829250132791129f71c6ab279fb5401bf1a\n\n\n\n\nB2 186~193\n\n\t\n\n8행\n\n\t\n\n6행\n\n\t\n\n2a19bb6c16e9a1526e805b53b2af84fd077ef0e2\n\n추가 교정 행 ID는 B2-zh-00177, 00178, 00179, 00180, 00182, 00183, 00184, 00186, 00188, 00189, 00191, 00192, 00193입니다.\n\n두 파일 모두 main에서 저장 후 재조회했고, 마지막 파일의 Blob SHA는 1d218a823d85da206690b6deab13a02ea224ceb2입니다.\n\n회차 10 종합\n\n신규 검수\n\n27행\n\n신규 교정\n\n22행\n\n저장 파일\n\n3개\n\n현재 검수 도달 지점: B2 193행\n\n다음 미검수 행: B2-zh-00194\n\nB2 잔여: 49행\n\n법령가족 상태: IN_PROGRESS\n\n원문 및 운영 DB: 변경 없음\n\n이번 회차에 확인된 오류는 GitHub 브랜치 커밋 불일치에 따른 409 충돌 1건이었으며, 지정된 복구 절차로 해결됐습니다. 전체 법령가족 검수가 아직 끝나지 않아 최종 COMPLETE 및 영수증은 발행하지 않았습니다.",
+  "attempted_at": "2026-11-07T21:23:36.068543+00:00",
   "created_at": "2026-11-07T21:23:27.907650+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-b0faf9b54679242ac05de064192ce1ef",
+    "attempted_at": "2026-11-07T21:23:36.068543+00:00",
+    "claim_commit": "cdc85e22c3e9d91a7c2b2aefa880df35b9eadf3a",
+    "event_id": "obs-97570c02a37b71dfc6515c721023f5f3f6641065",
+    "job_id": "F-69d9e2651808803c4773",
+    "record_path": "status/delivery/recovery-S2-b0faf9b54679242ac05de064192ce1ef.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C05"
+  },
   "episode": 11,
   "event_id": "obs-97570c02a37b71dfc6515c721023f5f3f6641065",
   "job_id": "F-69d9e2651808803c4773",
@@ -652,7 +665,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-0b7e04d718e2102e20438d08]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "5e8a4a449312d51259fc8af288897569151ac9f7",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef92b5-a09c-83ec-9b14-f0b802515554",
   "worker": "C05"
 }
