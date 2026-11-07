@@ -30,7 +30,20 @@
   },
   "assistant_count": 12,
   "assistant_excerpt": "저장 파일 3개를 재조회하여 SHA를 확인했고, 첫 미저장 구간인 B2 87~88행을 추가 교정·저장했습니다.\n\n확인 항목\n\n\t\n\n결과\n\n\n\n\n신규 검수\n\n\t\n\nB2 87~88행\n\n\n\n\n신규 교정\n\n\t\n\n2행\n\n\n\n\n저장 브랜치\n\n\t\n\nmain\n\n\n\n\n커밋 SHA\n\n\t\n\n0f5cb50a376ffe4cb7a64e7317e86d55533d6a2d\n\n\n\n\n파일 SHA\n\n\t\n\n766918cb5b866d89d41e709fbd3d471257283353\n\n\n\n\n저장 후 재조회\n\n\t\n\n일치 확인\n\n신규 B2 87~88행 검수 파일\n\n주요 교정은 개인정보 전송 요구의 조문 인용, 전송 주체의 정의, 대리인 처리 조건, 암호화 및 전송 의무에 관한 오역입니다.\n\n추가 검수·저장 결과\n\n이번 복구 회차에서 B2 87~92행, 총 6행을 교정하고 3개 파일로 나누어 저장·재조회했습니다.\n\n신규 구간\n\n\t\n\n커밋 SHA\n\n\t\n\n결과\n\n\n\n\nB2 87~88\n\n\t\n\n0f5cb50a376ffe4cb7a64e7317e86d55533d6a2d\n\n\t\n\n검증 완료\n\n\n\n\nB2 89~90\n\n\t\n\n92c0f18a4ca8f08f0fc7f6910d50681923612aff\n\n\t\n\n검증 완료\n\n\n\n\nB2 91~92\n\n\t\n\nf56e5961c71abeec5e5f7b9b2c0293b57ef2393a\n\n\t\n\n검증 완료\n\n마지막 파일 SHA: bc2e2f6a77e3afa2793f071db69807c0f1ade05f\n\n마지막 B2 91~92행 검수 파일\n\n현재 상태: IN_PROGRESS\n\n기존 저장 결과와 한국어·중국어·영어 원본 해시는 보존했습니다. 운영 DB는 변경하지 않았습니다.\n\n다음 미검수 구간은 B2 93행부터이며, 전체 8개 문서·1,102행 검수가 끝나지 않아 최종 검수 파일과 COMPLETE 영수증은 생성하지 않았습니다.",
+  "attempted_at": "2026-11-07T20:48:19.034209+00:00",
   "created_at": "2026-11-07T20:48:12.200886+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-b0faf9b54679242ac05de064192ce1ef",
+    "attempted_at": "2026-11-07T20:48:19.034209+00:00",
+    "claim_commit": "22a6fd52ba33e064f15ad573748deb9806484df7",
+    "event_id": "obs-f00a2e72f0e17e7fb69b7c44882eb4dc77d120b4",
+    "job_id": "F-69d9e2651808803c4773",
+    "record_path": "status/delivery/recovery-S2-b0faf9b54679242ac05de064192ce1ef.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C05"
+  },
   "episode": 5,
   "event_id": "obs-f00a2e72f0e17e7fb69b7c44882eb4dc77d120b4",
   "job_id": "F-69d9e2651808803c4773",
@@ -286,7 +299,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-8735e270d66f032c464f1b10]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "9972f8f7036deede15b2643c335c17e35610fd04",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef7d43-15a0-83ec-aa7c-49604588653d",
   "worker": "C05"
 }
