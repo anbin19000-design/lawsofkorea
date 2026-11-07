@@ -1,0 +1,8 @@
+{
+  "job_id": "F-32aa5c3aa9ef65992b4b",
+  "worker": "C01",
+  "checked_rows": 874,
+  "corrected_rows": 230,
+  "status": "COMPLETE",
+  "note": "Completed the Chinese review across all 874 rows in all 15 documents against the Korean source pinned at b76de97c7b97f888172bb800e57e0c6bd29ea24c. The review contains 230 unique row corrections addressing inconsistent statutory titles and benefit terminology, untranslated or corrupted annex fragments, administrative fine criteria, application-form labels and deadlines, direct-payment notices, and objection forms. The Korean source SHA is unchanged between the pinned commit and main. Official English translations for the Act and Enforcement Decree and the reviewed English Enforcement Rule material were consulted as secondary references; no matching meaning/pairs files were found at the checked candidate paths. Laws files were not modified. This receipt records repository review storage only and does not indicate operational database application."
+}
