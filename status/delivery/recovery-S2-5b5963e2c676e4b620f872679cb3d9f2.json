@@ -29,7 +29,20 @@
   },
   "assistant_count": 7,
   "assistant_excerpt": "경제범죄 가중처벌 등에 관한 법률\n\nJob ID: F-6477e5e339a1dceafdac\n\n대상: 5개 문서, 중국어 188행\n\n저장소·브랜치: anbin19000-design/lawsofkorea · main\n\n원문 기준 커밋 이후 변경: 상태·배정 기록만 변경되었으며, 대상 법령 원문 변경은 확인되지 않음\n\n기존 검수 파일·완료 영수증: 두 파일 모두 미존재 확인\n\nHOLD — 한국어 원문 1행 결손\n\n전체 188행을 조사했으나, 187행만 한국어 원문과 대조할 수 있었습니다. 나머지 1행은 저장소의 한국어 원문에 내용이 일부 누락되어 있어 COMPLETE로 처리하지 않았습니다.\n\n항목\n\n\t\n\n확인 결과\n\n\n\n\n문제 행\n\n\t\n\nB2-zh-00022\n\n\n\n\n문서\n\n\t\n\n특정경제범죄 가중처벌 등에 관한 법률 시행령\n\n\n\n\n한국어 원문 길이\n\n\t\n\n4,001자\n\n\n\n\n해당 행 참조 범위\n\n\t\n\n3,999~4,055\n\n\n\n\n누락된 원문\n\n\t\n\n54자\n\n\n\n\n원문 해시 검증\n\n\t\n\n불일치\n\n그 밖에 명백한 중국어 번역 오류도 확인했습니다. B1-zh-00003에는 열거 항목의 내용 누락이 있고, B2-zh-00016에는 잘못된 법령명과 깨진 문자열이 있으며, 별표 3에는 기관명·기관 유형의 오역이 있습니다.\n\nGitHub 저장 결과: 원문 검증이 완료되지 않아 review/zh/F-6477e5e339a1dceafdac.json과 receipts/F-6477e5e339a1dceafdac.json은 생성하지 않았습니다. 따라서 신규 커밋 SHA도 없습니다. 기존 laws/* 파일은 변경하지 않았습니다.\n\nC06 상태: HOLD — SOURCE_INCOMPLETE. 누락된 한국어 원문을 복구하고 기준 커밋을 재확인해야 전체 188행에 대한 COMPLETE 영수증을 안전하게 발행할 수 있습니다.",
+  "attempted_at": "2026-11-07T08:31:07.571771+00:00",
   "created_at": "2026-11-07T08:31:02.150380+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-5b5963e2c676e4b620f872679cb3d9f2",
+    "attempted_at": "2026-11-07T08:31:07.571771+00:00",
+    "claim_commit": "019ae0f1f308e97d49844e7a4324aaa987367cdc",
+    "event_id": "obs-c01202947bd1c56bf54d03640e2ee2330b489bd5",
+    "job_id": "F-6477e5e339a1dceafdac",
+    "record_path": "status/delivery/recovery-S2-5b5963e2c676e4b620f872679cb3d9f2.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C06"
+  },
   "episode": 1,
   "event_id": "obs-c01202947bd1c56bf54d03640e2ee2330b489bd5",
   "job_id": "F-6477e5e339a1dceafdac",
@@ -40,7 +53,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-25dfda3cbb187c3a7ee6dca6]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "ff1998b8d6b741d44ae2a2d4aa15e1314dafba45",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aeedf30-3618-83ee-9749-0c4ff2a2241b",
   "worker": "C06"
 }
