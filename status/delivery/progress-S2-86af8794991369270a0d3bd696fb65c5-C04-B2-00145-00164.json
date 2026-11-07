@@ -1,0 +1,396 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B1-01.json",
+      "blob_sha": "69fcf795c9621b125ae73864793ee4064bd4b815",
+      "document_key": "B1",
+      "rows_checked": 145,
+      "rows_corrected": 26
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "blob_sha": "aeba15bca83d7887b5e9f7ce393fba770a9b5faa",
+      "verified_rows": 12,
+      "documents": [
+        "A30118",
+        "A30120"
+      ]
+    },
+    {
+      "path": "status/delivery/verified-step-S2-86af8794991369270a0d3bd696fb65c5-C04-CHECKPOINT-166-01.json",
+      "blob_sha": "33003dbd344370d5b2cf92bb05838b92b144a7ba",
+      "status": "INTENT_NO_RESEND"
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-01.json",
+      "blob_sha": "5f92fef46a104d832b4e6944e94ab8ba7257dda1",
+      "document_key": "B2",
+      "rows_checked": 36,
+      "rows_corrected": 31
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00037-00044.json",
+      "blob_sha": "31d1e93b2b7bc2aab9430a0d4b201c246301d1c5",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00045-00052.json",
+      "blob_sha": "be37a2f05e6c47bf33ec4ea58b1d6163df4b96a1",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00053-00060.json",
+      "blob_sha": "385725a9ff5c6f74e8cb723a6fc91fbcf072d639",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00061-00072.json",
+      "blob_sha": "4573174026ca13b9d49225d71e76f10c6ab2d76f",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00073-00084.json",
+      "blob_sha": "eb20464990f1e23042b03e95a20ed243fed5c555",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00085-00104.json",
+      "blob_sha": "30ba440fd5a8c3e355e8e79c418c6c9b7adcaa9f",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00105-00124.json",
+      "blob_sha": "3fe79039feaa1febde3bcd60b4397e5a52301b9e",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00125-00144.json",
+      "blob_sha": "3fe9aed92331bbf966efeff025964f461a605d6b",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 6
+    }
+  ],
+  "document": {
+    "key": "B2",
+    "kind": "대통령령",
+    "title": "의무경찰대 설치 및 운영에 관한 법률 시행령",
+    "source_hash": "da345505912da9c84c24a63989aee8605f2465beea1b28313585cd363b8b2504",
+    "rows_checked": 20,
+    "rows_corrected": 12,
+    "document_review_state": "IN_PROGRESS"
+  },
+  "range": {
+    "first_row_id": "B2-zh-00145",
+    "last_row_id": "B2-zh-00164",
+    "verified_row_count": 20
+  },
+  "verified_rows": [
+    {
+      "row_id": "B2-zh-00145",
+      "target_id": "9224d744f9f3dc79c33f0ad571c31351a4755f4bf42023485f15daaab38e7994",
+      "source_hash": "1fa2d78222cc5f3a7b268ba3015a524a8e57a9355a8b17e0ae4253566ef34323",
+      "source_ko": "제2조 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第 2 条省略\n\n"
+    },
+    {
+      "row_id": "B2-zh-00146",
+      "target_id": "0b77399013ee34b7da38132b6578e901aa232d3cd4cb4704413698e6c2c8ce01",
+      "source_hash": "a224a30c64e8d544590374092e7380eb471bc1b2030bd11c60ef12e31f90db2c",
+      "source_ko": "제3조 (다른 법령의 개정) ①전투경찰대설치법시행령중 다음과 같이 개정한다.\n\n  제34조제1항 본문중 \"병역법 제24조제1항 및 제2항\"을 \"병역법 제24조제2항 및 동법 제25조제1항\"으로 한다.\n\n  ②생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第三条（修改其他法律）①《防暴警察部队设立法》实施细则修改如下。\n\n  在第三十四条第一款正文中，“兵役法第二十四条第一款和第二款”应改为“兵役法第二十四条第二款和同一法第二十五条第一款”。\n\n  ②省略\n\n"
+    },
+    {
+      "row_id": "B2-zh-00147",
+      "target_id": "d58056ae440d466d29dbc64aee546663a1169ef10d18c78ef089561224f11fcf",
+      "source_hash": "5b48680bb08d85f769a6d1b89b84a63a7cc0a723382176704b18d39716c570d4",
+      "source_ko": "부칙(전자적민원처리를위한가석방자관리규정등중개정령) <제18312호,2004.3.17>\n\n이 영은 공포한 날부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "补充规定（修订假释人员管理条例以进行民事诉讼电子处理的条例）<2004年3月17日第18312号条例>\n\n本法令自颁布之日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00148",
+      "target_id": "9b55e960508e6a3661b78426742bf6c31b54d71a42e53a1f1bf9b59528c2cd09",
+      "source_hash": "4f5c6410b5c5bf067721a0e9d6effc9381320e1e7034ba0d35df3b543714f75a",
+      "source_ko": "부칙 <제18860호,2005.6.13>\n\n이 영은 2005년 7월 1일부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "补充规定 <第18860号，2005年6月13日>\n\n本法令自2005年7月1日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00149",
+      "target_id": "db2d6d5f602dad79b191df606826bb07ad0dfe22bd4415d0ee3fa355bde4accb",
+      "source_hash": "5e92da57923c74ffe35372e7035a11d738f3e9fee60f866274930c54ffbf65e0",
+      "source_ko": "부칙(행정정보의 공동이용 및 문서감축을 위한 국가채권관리법 시행령 등 일부개정령) <제19507호,2006.6.12>\n\n이 영은 공포한 날부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "增补（关于行政信息共享与文件简化的共同使用，对《国家债务管理法》等实施细则的部分修正）<2006年6月12日，第19507号>\n\n本法令自颁布之日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00150",
+      "target_id": "5d74f5ec5aa1061263491cb1a6c0dab7312704560cd8f83a237af781295fd387",
+      "source_hash": "3738f012a3b40c8d3c0d3c9b3f006d914faed2043b847406022c89bee023cf09",
+      "source_ko": "부칙(제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법 시행령) <제19563호,2006.6.29>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "增补（济州特别自治道设立及国际自由城市设立特别法实施令）<2006年6月29日第19563号>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00151",
+      "target_id": "6d6bc041400cf76643da3ef62d8914a49ec71fcc3892cedc0b521cb5d5b7336c",
+      "source_hash": "0e94a08c2a71f70cb6d96527e2a9581ff50930d0b9f006904c6179e63655524b",
+      "source_ko": "제1조 (시행일) 이 영은 2006년 7월 1일부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自2006年7月1日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00152",
+      "target_id": "17265b4cd9cd71cc0f5fa94132afc8e3cbdffd6ab3e9ace101297cfb85314b71",
+      "source_hash": "5a59a79dd14cf60a8856d88c6eeec15a3bcd860d4b2df98e6a6f94e4ec6af028",
+      "source_ko": "제2조 내지 제6조 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "省略第2至6条\n\n"
+    },
+    {
+      "row_id": "B2-zh-00153",
+      "target_id": "a7722e5e8b8eac5d2fd5f044ad33eb19cf30bd32c82a5328031ee58b89028c18",
+      "source_hash": "485d7eb1101517133adeb481c945b329ce4b47f8923686e44b5424e555e2d941",
+      "source_ko": "제7조 (다른 법령의 개정) ①내지 ⑫생략\n\n  ⑬전투경찰대설치법 시행령 일부를 다음과 같이 개정한다.\n\n  제2조제1항제2호중 \"경찰기관\"을 각각 \"국가경찰기관\"으로 하고, 동조제2항중 \"경찰기관의 장\"을 \"국가경찰기관의 장\"으로 한다.\n\n  제12조의 제목 \"(경찰공무원으로의 특별채용)\"을 \"(국가경찰공무원으로의 특별채용)\"으로 하고, 동조중 \"경찰공무원으로\"를 \"국가경찰공무원으로\"로 한다.\n\n  제20조ㆍ제22조ㆍ제27조제1항 및 제37조제2항중 \"경찰기관\"을 각각 \"국가경찰기관\"으로 한다.\n\n  제30조제2항 본문중 \"소속경찰기관\"을 \"소속 국가경찰기관\"으로 한다.\n\n  제35조제2항중 \"경찰공무원\"을 \"국가경찰공무원\"으로 한다.\n\n  ⑭내지 <32>생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第七条（修改其他法律）①至⑫ 省略\n\n  13. 对《防暴警察部队设立法》实施细则的部分内容修改如下。\n\n  在第二条第一款第二项中，“警察机关”应改为“国家警察机关”，在同一条第二款中，“警察机关负责人”应改为“国家警察机关负责人”。\n\n  第十二条“（特别招募警察）”的标题应改为“（特别招募国家警察）”，该条中的“作为警察”应改为“作为国家警察”。\n\n  第 20 条、第 22 条、第 27 条第 1 款和第 37 条第 2 款中的“警察机构”应分别改为“国家警察机构”。\n\n  第30条第2款正文中的“隶属警察机构”应改为“隶属国家警察机构”。\n\n  第35条第2款中的“警察”应改为“国家警察”。\n\n  ⑭ 至 <32> 已省略\n\n"
+    },
+    {
+      "row_id": "B2-zh-00154",
+      "target_id": "70b020562605f315d82707a183f4bfb32824889b0110755e4c464c23bfa728ff",
+      "source_hash": "b0a2f8baaefa661aa8c51a30216cb8d4988038b9219a65ce930bf6416c0027e0",
+      "source_ko": "제8조 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第8条省略\n\n"
+    },
+    {
+      "row_id": "B2-zh-00155",
+      "target_id": "66e0507c57395b4b3a56149007362b3bc78d970eabb87e9534e6c26aa9684233",
+      "source_hash": "b2050d1f367fbb6453224c30b46000a2fcc98eb88f1444da72367745621b1461",
+      "source_ko": "부칙(경찰공무원 교육훈련규정) <제20284호,2007.9.20>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "补充规定（警务人员教育和培训条例）<2007年9月20日第20284号>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00156",
+      "target_id": "00b5f0b2a04ab8b54519d42cc07502fa4604a5c503068cab8bb2c8b8c5363c83",
+      "source_hash": "40ac608cf2787f4f50a97c8b940ad8db5f2f59c445aea0216bf6cbd54d933b82",
+      "source_ko": "제1조 (시행일) 이 영은 공포한 날부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自公布之日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00157",
+      "target_id": "b7deac3675b6cac70d6344cd1fe79ca7d6728843e3043d1bf0916e6adc59bc40",
+      "source_hash": "b4df25c7a798b23d54b5a39a875cf332eec4b27fddaaf15740c7a11f35521e49",
+      "source_ko": "제2조 (다른 법령의 개정) ① 부터 ④ 까지 생략\n\n  ⑤ 전투경찰대설치법 시행령 일부를 다음과 같이 개정한다.\n\n  제2조제1항제3호 중 \"중앙경찰학교\"를 \"중앙경찰학교ㆍ경찰수사연수원\"으로 한다.\n\n  ⑥ 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第二条（修改其他法律）①至④ 省略\n\n  ⑤ 전투경찰대설치법 시행령 일부를 다음과 같이 개정한다.\n\n  제2조제1항제3호 중 \"중앙경찰학교\"를 \"중앙경찰학교ㆍ경찰수사연수원\"으로 한다.\n\n  ⑥ 생략\n\n"
+    },
+    {
+      "row_id": "B2-zh-00158",
+      "target_id": "a9775798658b46b07928b634f4c86b00e276febc5c6226ba6dc4cdab7c46691e",
+      "source_hash": "728d6ec7b52cdf9e53d7f301f561d47e79a97095e2becfbaa7c540dcf0bb3daf",
+      "source_ko": "부칙(경찰청과 그 소속기관 직제) <제20692호,2008.2.29>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "增补（国家警察厅及其附属机构的组织结构）<第20692号，2008年2月29日>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00159",
+      "target_id": "ee409ceed233c42b456ac4619b4ed7acc52394ee1b86104c74646ccbf816494b",
+      "source_hash": "7e5f07ffff6aef2f2136019cfb5263979ba5a34dacd8394c05b2d3c719360d57",
+      "source_ko": "제1조(시행일) 이 영은 공포한 날부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自公布之日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00160",
+      "target_id": "02435444b17de52074b1270d5c6edd5e6dbc84142b3cf050e87bc412fb32d7e8",
+      "source_hash": "0d2706ed277686b7529094bcc9490143d728b051ef4b48cb997a8b6af337d6bd",
+      "source_ko": "제2조(다른 법령의 개정) ① 부터 ⑨ 까지 생략\n\n  ⑩ 전투경찰대설치법 시행령 일부를 다음과 같이 개정한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第二条（修改其他法律）①至⑨ 省略\n\n  10. 对《防暴警察机构法》实施细则的部分内容修改如下。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00161",
+      "target_id": "f8c376d8603ccdc6150b58cd891ee4db48002cb6bcb4c2f7660678c7c577c372",
+      "source_hash": "4cb77d8ec82bb825c5e4c5c73c26e71dd7d1d95a9623c135f9c7560eb39c21be",
+      "source_ko": "  제24조 중 \"행정자치부령\"을 \"행정안전부령\"으로 한다.\n\n  제48조제2항 중 \"기획예산처장관\"을 \"기획재정부장관\"으로 한다. \n\n  ⑪ 및 ⑫ 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "  第 24 条中的“行政内政部条例”应改为“内政安全部条例”。\n\n  第 48 条第 2 款中的“计划和预算部长”应改为“战略和财政部长”。 \n\n  ⑪ 和 ⑫ 省略\n\n"
+    },
+    {
+      "row_id": "B2-zh-00162",
+      "target_id": "b1fc1603f26d8209f49a2022a3a98c90dcbc38bc4b28039137e9ee7eebc6d2ab",
+      "source_hash": "82646b8f172fc0c2bd04542d2a84cd8b447320da412b06b7da9e891052a463b8",
+      "source_ko": "부칙(경찰청과 그 소속기관 직제) <제21842호,2009.11.23>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "增编（国家警察厅及其附属机构的组织结构）<2009年11月23日，第21842号>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00163",
+      "target_id": "720645ebdbdb0d5b8233307b2949f5c9b5420ec1ae5f99b7956d4269334205dc",
+      "source_hash": "9df0f7bf13494fe816d035ccc335c6202d1ed447e4381dbc942abb74f8b5f2c5",
+      "source_ko": "제1조(시행일) 이 영은 2010년 1월 1일부터 시행한다. 다만, ㆍㆍㆍ<생략>ㆍㆍㆍ 부칙 제2조의 개정규정은 2009년 11월 25일부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自2010年1月1日起生效。但是，……<省略>……附件第二条的修正规定自2009年11月25日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00164",
+      "target_id": "e6e0898432bfa5a6c0fc30003a10cb201485a35692c5ffde916b7970eaa68414",
+      "source_hash": "f5cf5364b148488e3db7039646bf93f3168a9f0655527c00900b29b2eed00a3d",
+      "source_ko": "제2조(다른 법령의 개정) ① 부터 ⑥ 까지 생략\n\n  ⑦ 전투경찰대설치법 시행령 일부를 다음과 같이 개정한다.\n\n  제2조제1항제3호 중 \"경찰종합학교\"를 \"경찰교육원\"으로 한다.\n\n  ⑧ 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第二条（修改其他法律）①至⑥ 省略\n\n  ⑦ 《战斗警察部队设立法》实施细则部分内容修改如下。\n\n  第二条第一款第三项中的“国家警察大学”应改为“警察培训学院”。\n\n  ⑧ 省略\n\n"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "B2-zh-00146",
+      "target_id": "0b77399013ee34b7da38132b6578e901aa232d3cd4cb4704413698e6c2c8ce01",
+      "source_hash": "a224a30c64e8d544590374092e7380eb471bc1b2030bd11c60ef12e31f90db2c",
+      "source_ko": "제3조 (다른 법령의 개정) ①전투경찰대설치법시행령중 다음과 같이 개정한다.\n\n  제34조제1항 본문중 \"병역법 제24조제1항 및 제2항\"을 \"병역법 제24조제2항 및 동법 제25조제1항\"으로 한다.\n\n  ②생략\n\n",
+      "previous_zh": "第三条（修改其他法律）①《防暴警察部队设立法》实施细则修改如下。\n\n  在第三十四条第一款正文中，“兵役法第二十四条第一款和第二款”应改为“兵役法第二十四条第二款和同一法第二十五条第一款”。\n\n  ②省略\n\n",
+      "corrected_zh": "第三条（其他法令的修订）①《战斗警察部队设立法施行令》作如下修订。\n\n  第三十四条第一款正文中的“《兵役法》第二十四条第一款及第二款”改为“《兵役法》第二十四条第二款及同法第二十五条第一款”。\n\n  ②省略。\n\n",
+      "reason": "원문의 역사적 법령명·개정 전후 기관명·전자 민원 업무 및 누락된 한국어 원문을 중국어로 정확히 교정."
+    },
+    {
+      "row_id": "B2-zh-00147",
+      "target_id": "d58056ae440d466d29dbc64aee546663a1169ef10d18c78ef089561224f11fcf",
+      "source_hash": "5b48680bb08d85f769a6d1b89b84a63a7cc0a723382176704b18d39716c570d4",
+      "source_ko": "부칙(전자적민원처리를위한가석방자관리규정등중개정령) <제18312호,2004.3.17>\n\n이 영은 공포한 날부터 시행한다.\n\n",
+      "previous_zh": "补充规定（修订假释人员管理条例以进行民事诉讼电子处理的条例）<2004年3月17日第18312号条例>\n\n本法令自颁布之日起生效。\n\n",
+      "corrected_zh": "附则（为以电子方式办理民愿而对《假释人员管理规定》等作出部分修订的命令）<第18312号，2004年3月17日>\n\n本施行令自公布之日起施行。\n\n",
+      "reason": "원문의 역사적 법령명·개정 전후 기관명·전자 민원 업무 및 누락된 한국어 원문을 중국어로 정확히 교정."
+    },
+    {
+      "row_id": "B2-zh-00149",
+      "target_id": "db2d6d5f602dad79b191df606826bb07ad0dfe22bd4415d0ee3fa355bde4accb",
+      "source_hash": "5e92da57923c74ffe35372e7035a11d738f3e9fee60f866274930c54ffbf65e0",
+      "source_ko": "부칙(행정정보의 공동이용 및 문서감축을 위한 국가채권관리법 시행령 등 일부개정령) <제19507호,2006.6.12>\n\n이 영은 공포한 날부터 시행한다.\n\n",
+      "previous_zh": "增补（关于行政信息共享与文件简化的共同使用，对《国家债务管理法》等实施细则的部分修正）<2006年6月12日，第19507号>\n\n本法令自颁布之日起生效。\n\n",
+      "corrected_zh": "附则（为行政信息共同利用及减少文书而对《国家债权管理法施行令》等作出部分修订的命令）<第19507号，2006年6月12日>\n\n本施行令自公布之日起施行。\n\n",
+      "reason": "원문의 역사적 법령명·개정 전후 기관명·전자 민원 업무 및 누락된 한국어 원문을 중국어로 정확히 교정."
+    },
+    {
+      "row_id": "B2-zh-00150",
+      "target_id": "5d74f5ec5aa1061263491cb1a6c0dab7312704560cd8f83a237af781295fd387",
+      "source_hash": "3738f012a3b40c8d3c0d3c9b3f006d914faed2043b847406022c89bee023cf09",
+      "source_ko": "부칙(제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법 시행령) <제19563호,2006.6.29>\n\n",
+      "previous_zh": "增补（济州特别自治道设立及国际自由城市设立特别法实施令）<2006年6月29日第19563号>\n\n",
+      "corrected_zh": "附则（《关于设立济州特别自治道及建设国际自由城市的特别法施行令》）<第19563号，2006年6月29日>\n\n",
+      "reason": "원문의 역사적 법령명·개정 전후 기관명·전자 민원 업무 및 누락된 한국어 원문을 중국어로 정확히 교정."
+    },
+    {
+      "row_id": "B2-zh-00153",
+      "target_id": "a7722e5e8b8eac5d2fd5f044ad33eb19cf30bd32c82a5328031ee58b89028c18",
+      "source_hash": "485d7eb1101517133adeb481c945b329ce4b47f8923686e44b5424e555e2d941",
+      "source_ko": "제7조 (다른 법령의 개정) ①내지 ⑫생략\n\n  ⑬전투경찰대설치법 시행령 일부를 다음과 같이 개정한다.\n\n  제2조제1항제2호중 \"경찰기관\"을 각각 \"국가경찰기관\"으로 하고, 동조제2항중 \"경찰기관의 장\"을 \"국가경찰기관의 장\"으로 한다.\n\n  제12조의 제목 \"(경찰공무원으로의 특별채용)\"을 \"(국가경찰공무원으로의 특별채용)\"으로 하고, 동조중 \"경찰공무원으로\"를 \"국가경찰공무원으로\"로 한다.\n\n  제20조ㆍ제22조ㆍ제27조제1항 및 제37조제2항중 \"경찰기관\"을 각각 \"국가경찰기관\"으로 한다.\n\n  제30조제2항 본문중 \"소속경찰기관\"을 \"소속 국가경찰기관\"으로 한다.\n\n  제35조제2항중 \"경찰공무원\"을 \"국가경찰공무원\"으로 한다.\n\n  ⑭내지 <32>생략\n\n",
+      "previous_zh": "第七条（修改其他法律）①至⑫ 省略\n\n  13. 对《防暴警察部队设立法》实施细则的部分内容修改如下。\n\n  在第二条第一款第二项中，“警察机关”应改为“国家警察机关”，在同一条第二款中，“警察机关负责人”应改为“国家警察机关负责人”。\n\n  第十二条“（特别招募警察）”的标题应改为“（特别招募国家警察）”，该条中的“作为警察”应改为“作为国家警察”。\n\n  第 20 条、第 22 条、第 27 条第 1 款和第 37 条第 2 款中的“警察机构”应分别改为“国家警察机构”。\n\n  第30条第2款正文中的“隶属警察机构”应改为“隶属国家警察机构”。\n\n  第35条第2款中的“警察”应改为“国家警察”。\n\n  ⑭ 至 <32> 已省略\n\n",
+      "corrected_zh": "第七条（其他法令的修订）①至⑫省略。\n\n  ⑬ 《战斗警察部队设立法施行令》作如下部分修订。\n\n  第二条第一款第二项中的“警察机关”分别改为“国家警察机关”，同条第二款中的“警察机关负责人”改为“国家警察机关负责人”。\n\n  第十二条标题“（特别录用为警察公务员）”改为“（特别录用为国家警察公务员）”，该条中的“录用为警察公务员”改为“录用为国家警察公务员”。\n\n  第二十条、第二十二条、第二十七条第一款及第三十七条第二款中的“警察机关”分别改为“国家警察机关”。\n\n  第三十条第二款正文中的“所属警察机关”改为“所属国家警察机关”。\n\n  第三十五条第二款中的“警察公务员”改为“国家警察公务员”。\n\n  ⑭至<32>省略。\n\n",
+      "reason": "원문의 역사적 법령명·개정 전후 기관명·전자 민원 업무 및 누락된 한국어 원문을 중국어로 정확히 교정."
+    },
+    {
+      "row_id": "B2-zh-00157",
+      "target_id": "b7deac3675b6cac70d6344cd1fe79ca7d6728843e3043d1bf0916e6adc59bc40",
+      "source_hash": "b4df25c7a798b23d54b5a39a875cf332eec4b27fddaaf15740c7a11f35521e49",
+      "source_ko": "제2조 (다른 법령의 개정) ① 부터 ④ 까지 생략\n\n  ⑤ 전투경찰대설치법 시행령 일부를 다음과 같이 개정한다.\n\n  제2조제1항제3호 중 \"중앙경찰학교\"를 \"중앙경찰학교ㆍ경찰수사연수원\"으로 한다.\n\n  ⑥ 생략\n\n",
+      "previous_zh": "第二条（修改其他法律）①至④ 省略\n\n  ⑤ 전투경찰대설치법 시행령 일부를 다음과 같이 개정한다.\n\n  제2조제1항제3호 중 \"중앙경찰학교\"를 \"중앙경찰학교ㆍ경찰수사연수원\"으로 한다.\n\n  ⑥ 생략\n\n",
+      "corrected_zh": "第二条（其他法令的修订）①至④省略。\n\n  ⑤ 《战斗警察部队设立法施行令》作如下部分修订。\n\n  第二条第一款第三项中的“中央警察学校”改为“中央警察学校、警察侦查研修院”。\n\n  ⑥省略。\n\n",
+      "reason": "원문의 역사적 법령명·개정 전후 기관명·전자 민원 업무 및 누락된 한국어 원문을 중국어로 정확히 교정."
+    },
+    {
+      "row_id": "B2-zh-00158",
+      "target_id": "a9775798658b46b07928b634f4c86b00e276febc5c6226ba6dc4cdab7c46691e",
+      "source_hash": "728d6ec7b52cdf9e53d7f301f561d47e79a97095e2becfbaa7c540dcf0bb3daf",
+      "source_ko": "부칙(경찰청과 그 소속기관 직제) <제20692호,2008.2.29>\n\n",
+      "previous_zh": "增补（国家警察厅及其附属机构的组织结构）<第20692号，2008年2月29日>\n\n",
+      "corrected_zh": "附则（《警察厅及其所属机关职制》）<第20692号，2008年2月29日>\n\n",
+      "reason": "원문의 역사적 법령명·개정 전후 기관명·전자 민원 업무 및 누락된 한국어 원문을 중국어로 정확히 교정."
+    },
+    {
+      "row_id": "B2-zh-00160",
+      "target_id": "02435444b17de52074b1270d5c6edd5e6dbc84142b3cf050e87bc412fb32d7e8",
+      "source_hash": "0d2706ed277686b7529094bcc9490143d728b051ef4b48cb997a8b6af337d6bd",
+      "source_ko": "제2조(다른 법령의 개정) ① 부터 ⑨ 까지 생략\n\n  ⑩ 전투경찰대설치법 시행령 일부를 다음과 같이 개정한다.\n\n",
+      "previous_zh": "第二条（修改其他法律）①至⑨ 省略\n\n  10. 对《防暴警察机构法》实施细则的部分内容修改如下。\n\n",
+      "corrected_zh": "第二条（其他法令的修订）①至⑨省略。\n\n  ⑩ 《战斗警察部队设立法施行令》作如下部分修订。\n\n",
+      "reason": "원문의 역사적 법령명·개정 전후 기관명·전자 민원 업무 및 누락된 한국어 원문을 중국어로 정확히 교정."
+    },
+    {
+      "row_id": "B2-zh-00161",
+      "target_id": "f8c376d8603ccdc6150b58cd891ee4db48002cb6bcb4c2f7660678c7c577c372",
+      "source_hash": "4cb77d8ec82bb825c5e4c5c73c26e71dd7d1d95a9623c135f9c7560eb39c21be",
+      "source_ko": "  제24조 중 \"행정자치부령\"을 \"행정안전부령\"으로 한다.\n\n  제48조제2항 중 \"기획예산처장관\"을 \"기획재정부장관\"으로 한다. \n\n  ⑪ 및 ⑫ 생략\n\n",
+      "previous_zh": "  第 24 条中的“行政内政部条例”应改为“内政安全部条例”。\n\n  第 48 条第 2 款中的“计划和预算部长”应改为“战略和财政部长”。 \n\n  ⑪ 和 ⑫ 省略\n\n",
+      "corrected_zh": "  第二十四条中的“行政自治部令”改为“行政安全部令”。\n\n  第四十八条第二款中的“企划预算处长官”改为“企划财政部部长”。\n\n  ⑪及⑫省略。\n\n",
+      "reason": "원문의 역사적 법령명·개정 전후 기관명·전자 민원 업무 및 누락된 한국어 원문을 중국어로 정확히 교정."
+    },
+    {
+      "row_id": "B2-zh-00162",
+      "target_id": "b1fc1603f26d8209f49a2022a3a98c90dcbc38bc4b28039137e9ee7eebc6d2ab",
+      "source_hash": "82646b8f172fc0c2bd04542d2a84cd8b447320da412b06b7da9e891052a463b8",
+      "source_ko": "부칙(경찰청과 그 소속기관 직제) <제21842호,2009.11.23>\n\n",
+      "previous_zh": "增编（国家警察厅及其附属机构的组织结构）<2009年11月23日，第21842号>\n\n",
+      "corrected_zh": "附则（《警察厅及其所属机关职制》）<第21842号，2009年11月23日>\n\n",
+      "reason": "원문의 역사적 법령명·개정 전후 기관명·전자 민원 업무 및 누락된 한국어 원문을 중국어로 정확히 교정."
+    },
+    {
+      "row_id": "B2-zh-00163",
+      "target_id": "720645ebdbdb0d5b8233307b2949f5c9b5420ec1ae5f99b7956d4269334205dc",
+      "source_hash": "9df0f7bf13494fe816d035ccc335c6202d1ed447e4381dbc942abb74f8b5f2c5",
+      "source_ko": "제1조(시행일) 이 영은 2010년 1월 1일부터 시행한다. 다만, ㆍㆍㆍ<생략>ㆍㆍㆍ 부칙 제2조의 개정규정은 2009년 11월 25일부터 시행한다.\n\n",
+      "previous_zh": "第一条（生效日期）本法令自2010年1月1日起生效。但是，……<省略>……附件第二条的修正规定自2009年11月25日起生效。\n\n",
+      "corrected_zh": "第一条（施行日期）本施行令自2010年1月1日起施行。但是，……<省略>……附则第二条的修订规定自2009年11月25日起施行。\n\n",
+      "reason": "원문의 역사적 법령명·개정 전후 기관명·전자 민원 업무 및 누락된 한국어 원문을 중국어로 정확히 교정."
+    },
+    {
+      "row_id": "B2-zh-00164",
+      "target_id": "e6e0898432bfa5a6c0fc30003a10cb201485a35692c5ffde916b7970eaa68414",
+      "source_hash": "f5cf5364b148488e3db7039646bf93f3168a9f0655527c00900b29b2eed00a3d",
+      "source_ko": "제2조(다른 법령의 개정) ① 부터 ⑥ 까지 생략\n\n  ⑦ 전투경찰대설치법 시행령 일부를 다음과 같이 개정한다.\n\n  제2조제1항제3호 중 \"경찰종합학교\"를 \"경찰교육원\"으로 한다.\n\n  ⑧ 생략\n\n",
+      "previous_zh": "第二条（修改其他法律）①至⑥ 省略\n\n  ⑦ 《战斗警察部队设立法》实施细则部分内容修改如下。\n\n  第二条第一款第三项中的“国家警察大学”应改为“警察培训学院”。\n\n  ⑧ 省略\n\n",
+      "corrected_zh": "第二条（其他法令的修订）①至⑥省略。\n\n  ⑦ 《战斗警察部队设立法施行令》作如下部分修订。\n\n  第二条第一款第三项中的“警察综合学校”改为“警察教育院”。\n\n  ⑧省略。\n\n",
+      "reason": "원문의 역사적 법령명·개정 전후 기관명·전자 민원 업무 및 누락된 한국어 원문을 중국어로 정확히 교정."
+    }
+  ],
+  "validation": {
+    "row_ids_unique": true,
+    "source_hashes_match": true,
+    "verified_korean_offsets": true,
+    "no_untranslated_or_mtq_start_markers": true,
+    "english_reference": "documents/en/kr-004766-281729-en.json",
+    "total_cumulative_checked_rows": 321
+  },
+  "next_step": "Resume B2 from B2-zh-00165 and preserve all previous corrections; do not issue final receipt."
+}
