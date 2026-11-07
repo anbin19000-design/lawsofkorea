@@ -1,27 +1,85 @@
 {
-  "assignment_id": "S2-e6ee4441627c2f064838337730ee3241",
-  "claimed_at": "2026-11-07T12:51:10.927752+00:00",
+  "assignment_id": "S2-103eeef0127f5ca285fb1f84590b2419",
+  "claimed_at": "2026-11-07T12:56:05.295392+00:00",
   "conversation_hash": "19d70fbb8aef4d223c766c45305da9d4435d198076b9bbb53bb4de271e7f7f9d",
-  "delivery_status": "SENT_VERIFIED",
-  "documents": 8,
-  "event_id": "obs-dccd5fbd0922a25aa4b79f3b7d06357df3b8242e",
-  "family_id": "F-15a6dd12eb06cff8ba51",
-  "job_id": "F-15a6dd12eb06cff8ba51",
-  "marker": "[LAW-SUPPLY-V2:S2-e6ee4441627c2f064838337730ee3241:C02:F-15a6dd12eb06cff8ba51]",
+  "delivery_status": "INTENT_RECORDED_NO_RESEND",
+  "documents": 6,
+  "event_id": "obs-539c0198b65a5990db525bdb100579717f70e4a0",
+  "family_id": "F-19b06535c5c77f663850",
+  "job_id": "F-19b06535c5c77f663850",
+  "marker": "[LAW-SUPPLY-V2:S2-103eeef0127f5ca285fb1f84590b2419:C02:F-19b06535c5c77f663850]",
   "panel_id": "panel-02",
   "pc": "WORK-C",
   "prompt_format": "no-terminal-lf",
-  "rows": 562,
+  "quality_followup": {
+    "job_id": "F-19b06535c5c77f663850",
+    "opened_at": "2026-11-07T12:53:41.041872+00:00",
+    "receipt_blob": "e6d40e60d25ad71150b67b6e9adff3cf254ee698",
+    "review_blob": "e960d0f4963fa07fbfd1efcee797ee2463f373b8",
+    "rows": [
+      {
+        "check": "별표 제22호·제23호에서 인용한 법은 금융소비자 보호에 관한 법률 제28조제1항·제2항입니다. 개인정보보호법·반부패법으로 오역된 행을 바로잡고 같은 별표의 인용 법명도 원문과 대조하십시오.",
+        "id": "A39230-zh-00046",
+        "observed": "22. 未按数据类型记录或维护和管理数据，违反了《数据保护法》第28条第1款的规定。",
+        "source_hash": "f01c437f9dcbbb67a8df3d8871ff98dce82377dde6c914af2924b1a09a30953f"
+      },
+      {
+        "check": "금융상품판매업자등 및 그 임직원에 대한 조치 또는 조치요구 기준(제41조제3항 및 제42조제1항 관련)의 해당 표 셀과 앞뒤 행을 한국어 원문으로 대조해 기계 표식과 연결된 오역을 보완하십시오.",
+        "id": "A39230-zh-00047",
+        "observed": "否则 START",
+        "source_hash": "7f4b3a96a7c30e3811611fe4f6817ce1b48abf5f44d373c50b5621ba65080cf3"
+      },
+      {
+        "check": "별표 제22호·제23호에서 인용한 법은 금융소비자 보호에 관한 법률 제28조제1항·제2항입니다. 개인정보보호법·반부패법으로 오역된 행을 바로잡고 같은 별표의 인용 법명도 원문과 대조하십시오.",
+        "id": "A39230-zh-00048",
+        "observed": "23. 未按照《反腐败法》第28条第2款规定制定和实施对策的案件",
+        "source_hash": "d85e95687ab4a5fe9af6647e554345fe45776db2f5fc5ef6ab6e6c3df2f73901"
+      },
+      {
+        "check": "과태료의 부과기준(제51조 관련)의 해당 표 셀과 앞뒤 행을 한국어 원문으로 대조해 기계 표식과 연결된 오역을 보완하십시오.",
+        "id": "A39233-zh-00065",
+        "observed": "如果您未通知 START 或收到确认",
+        "source_hash": "ce96528eac8c3339ff529297b75dbd2fe3e794e3ecbea3e58dc036a40fe868b8"
+      },
+      {
+        "check": "과태료의 부과기준(제51조 관련)의 해당 표 셀과 앞뒤 행을 한국어 원문으로 대조해 기계 표식과 연결된 오역을 보완하십시오.",
+        "id": "A39233-zh-00129",
+        "observed": "不包括未忽略 START 的情况",
+        "source_hash": "69bd7e40cae8d3e5c6bf956851bf352fc585dd682111917d987de5f64668cf2e"
+      },
+      {
+        "check": "과태료의 부과기준(제51조 관련)의 해당 표 셀과 앞뒤 행을 한국어 원문으로 대조해 기계 표식과 연결된 오역을 보완하십시오.",
+        "id": "A39233-zh-00162",
+        "observed": "不为 START 的情况将被排除。",
+        "source_hash": "c40882c5218426525d0aa6151a25d04c76c573547d95846aeaa989bb18a99bfc"
+      },
+      {
+        "check": "과태료의 부과기준(제51조 관련)의 해당 표 셀과 앞뒤 행을 한국어 원문으로 대조해 기계 표식과 연결된 오역을 보완하십시오.",
+        "id": "A39233-zh-00212",
+        "observed": "如果未通过 START  进行维护",
+        "source_hash": "061a1c69b0036c16947c4fd19e6eea7c60c247a53069cd92a66b02143f17cfcb"
+      }
+    ],
+    "schema": "LAW_QUALITY_FOLLOWUP_V1",
+    "source_blobs": {
+      "en": "1dda31379f39193799285ba9a0eecf84b63c80d5",
+      "ko": "077a3cdb2977ead5cd3fd3a65f0797cac7a770c0",
+      "zh": "7c1eb1212805608af52ba9c50a57c8275df502cd"
+    },
+    "worker": "C02"
+  },
+  "rows": 560,
   "schema": "LAW_SUPPLIER_ASSIGNMENT_V2",
   "source_blobs": {
-    "en": "5b97a0875ff8aed2a34d61559e537d65fffb4bc6",
-    "ko": "b2ffd2ac354bcea5f70250983b5ece694748289d",
-    "zh": "6395a94f1e4e5420fc18948a4bfcc9369c43def2"
+    "en": "1dda31379f39193799285ba9a0eecf84b63c80d5",
+    "ko": "077a3cdb2977ead5cd3fd3a65f0797cac7a770c0",
+    "zh": "7c1eb1212805608af52ba9c50a57c8275df502cd"
   },
-  "source_commit": "8485661c770655aa26b3372edb4cc6f23b81f71f",
+  "source_commit": "f240a81e58997e0f8ff55041fa7672f99a6bb34c",
   "status": "ACTIVE",
-  "title": "산업재산 정보의 관리 및 활용 촉진에 관한 법률",
+  "title": "금융소비자 보호에 관한 법률",
   "unit_policy": "ACT_DECREE_RULE_ANNEX_FORMS_ONE_FAMILY",
+  "verify_final_cells": true,
   "worker": "C02",
   "write_protocol": "contents-zh-v3"
 }
