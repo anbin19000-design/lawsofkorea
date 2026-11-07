@@ -1,0 +1,8 @@
+{
+  "job_id": "F-4e15d507b6deb8cd3b27",
+  "worker": "C02",
+  "checked_rows": 801,
+  "corrected_rows": 37,
+  "status": "COMPLETE",
+  "note": "Reviewed all 801 Chinese rows across all 20 documents against the Korean source in laws/ko; preserved row IDs and document relationships. Applied 37 unique minimal corrections, including removal of MTQ/START artifacts, untranslated Korean fragments, erroneous statutory references and annex text improperly appended to body rows. Korean source blob SHA remained 533c3d5831ff789a27c50614eabc9577b914fafd (same as the supplied baseline). Final corrected Chinese text was checked for remaining MTQ markers, START artifacts, Korean fragments, and obvious incorrect cross-statute references. This GitHub review record is separate from operational database application."
+}
