@@ -1,25 +1,26 @@
 {
-  "assignment_id": "S2-9dd75ab36b12aa5c1b9b328e0d6ac990",
-  "claimed_at": "2026-11-07T03:07:01.624531+00:00",
+  "assignment_id": "S2-132fd0128782f8057cc3736876239f73",
+  "claimed_at": "2026-11-07T06:15:39.428148+00:00",
   "conversation_hash": "afaddd33000909212d614be0f95fada7583886fd20c11b3025f7565a9f1f39ae",
-  "delivery_status": "SENT_VERIFIED",
-  "documents": 3,
-  "event_id": "obs-e6908721eb838122efb0144c3693c21e5a64e640",
-  "family_id": "F-f20d9745c625efd3c03d",
-  "job_id": "F-f20d9745c625efd3c03d",
-  "marker": "[LAW-SUPPLY-V2:S2-9dd75ab36b12aa5c1b9b328e0d6ac990:C04:F-f20d9745c625efd3c03d]",
+  "delivery_status": "INTENT_RECORDED_NO_RESEND",
+  "documents": 2,
+  "event_id": "obs-e3e6b9c59bfab6d5eb6865688bd1b48894c215a3",
+  "family_id": "F-d92e4ac3320627a40f8e",
+  "job_id": "F-d92e4ac3320627a40f8e",
+  "marker": "[LAW-SUPPLY-V2:S2-132fd0128782f8057cc3736876239f73:C04:F-d92e4ac3320627a40f8e]",
   "panel_id": "panel-04",
   "pc": "WORK-C",
-  "rows": 110,
+  "rows": 121,
   "schema": "LAW_SUPPLIER_ASSIGNMENT_V2",
   "source_blobs": {
-    "en": "4a4b0499e3d68850bd09c25dfa5407a101fc92df",
-    "ko": "b18d9452483aaf75501e903bee0a4ed9d004062f",
-    "zh": "bc5307597811af73ebb1587b145e6db7f4b795b4"
+    "en": "589e66454d2419cff72a332920d8d3ccf7ac73c1",
+    "ko": "90cd3fc787913444d78aa28225fe0bc84d0d0392",
+    "zh": "eea74a53f77c430dd364bc359cf868718ea3d0c2"
   },
-  "source_commit": "33d391a6c0317813505963de409276a42b0c514e",
+  "source_commit": "c017c4ea144e6f525113cf3f7bd5afa811e83b3b",
   "status": "ACTIVE",
-  "title": "스토킹범죄의 처벌 등에 관한 법률",
+  "title": "국가회계법",
   "unit_policy": "ACT_DECREE_RULE_ANNEX_FORMS_ONE_FAMILY",
-  "worker": "C04"
+  "worker": "C04",
+  "write_protocol": "contents-only"
 }
