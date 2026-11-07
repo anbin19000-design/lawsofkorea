@@ -1,0 +1,312 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B1-01.json",
+      "blob_sha": "69fcf795c9621b125ae73864793ee4064bd4b815",
+      "document_key": "B1",
+      "rows_checked": 145,
+      "rows_corrected": 26
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "blob_sha": "aeba15bca83d7887b5e9f7ce393fba770a9b5faa",
+      "verified_rows": 12,
+      "documents": [
+        "A30118",
+        "A30120"
+      ]
+    },
+    {
+      "path": "status/delivery/verified-step-S2-86af8794991369270a0d3bd696fb65c5-C04-CHECKPOINT-166-01.json",
+      "blob_sha": "33003dbd344370d5b2cf92bb05838b92b144a7ba",
+      "status": "INTENT_NO_RESEND"
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-01.json",
+      "blob_sha": "5f92fef46a104d832b4e6944e94ab8ba7257dda1",
+      "document_key": "B2",
+      "rows_checked": 36,
+      "rows_corrected": 31
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00037-00044.json",
+      "blob_sha": "31d1e93b2b7bc2aab9430a0d4b201c246301d1c5",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00045-00052.json",
+      "blob_sha": "be37a2f05e6c47bf33ec4ea58b1d6163df4b96a1",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00053-00060.json",
+      "blob_sha": "385725a9ff5c6f74e8cb723a6fc91fbcf072d639",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00061-00072.json",
+      "blob_sha": "4573174026ca13b9d49225d71e76f10c6ab2d76f",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00073-00084.json",
+      "blob_sha": "eb20464990f1e23042b03e95a20ed243fed5c555",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 9
+    }
+  ],
+  "document": {
+    "key": "B2",
+    "kind": "대통령령",
+    "title": "의무경찰대 설치 및 운영에 관한 법률 시행령",
+    "source_hash": "da345505912da9c84c24a63989aee8605f2465beea1b28313585cd363b8b2504",
+    "rows_checked": 20,
+    "rows_corrected": 5,
+    "document_review_state": "IN_PROGRESS"
+  },
+  "range": {
+    "first_row_id": "B2-zh-00085",
+    "last_row_id": "B2-zh-00104",
+    "verified_row_count": 20
+  },
+  "verified_rows": [
+    {
+      "row_id": "B2-zh-00085",
+      "target_id": "84220ebfabf6431f37c219703322275acbd03239737806f29961967669f79454",
+      "source_hash": "258dbe7c74d519cef1c980ad3d55e09750014b653a6705b72dbaae4279422413",
+      "source_ko": "부칙 <제9531호,1979.7.13>\n\n이 영은 공포한 날로부터 시행한다.\n\n",
+      "previous_zh": "补充规定 <第9531号，1979年7月13日>\n\n本法令自颁布之日起生效。\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    },
+    {
+      "row_id": "B2-zh-00086",
+      "target_id": "4c5f610735ef4c451a58bd93aa6b10ef3486fcda143b35cc855517464c1aa19c",
+      "source_hash": "c4c84776763316070893e82cc5dcb84a366cb2afbd8e1e39709092599d49e133",
+      "source_ko": "부칙 <제9654호,1979.11.8>\n\n이 영은 공포한 날로부터 시행한다.\n\n",
+      "previous_zh": "补充规定 <第9654号，1979年11月8日>\n\n本法令自颁布之日起生效。\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    },
+    {
+      "row_id": "B2-zh-00087",
+      "target_id": "ab6c29e9d900184ba0997dfb95e39e77e0079e4a3e21242e4c0795fc32d66d62",
+      "source_hash": "42d0f202cb9eb948ea612e2fcb760a42ae2e722a8f457b73f2a6bc5c4fa15986",
+      "source_ko": "부칙 <제10458호,1981.9.5>\n\n①(시행일) 이 영은 공포한 날로부터 시행한다.\n\n②(경과조치) 이 영 시행당시 영창의 징계처분을 받고 그 집행이 종료되거나 집행중에 있는 자의 귀휴기간 계산에 관하여는 종전의 규정에 의한다.\n\n",
+      "previous_zh": "补充规定 <第10458号，1981年9月5日>\n\n①（生效日期）本法令自公布之日起生效。\n\n②（过渡措施）对于在本法令生效时已受到军事拘留处分且该处分已执行完毕或正在执行的人员，其休假期限的计算，适用以前的规定。\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    },
+    {
+      "row_id": "B2-zh-00088",
+      "target_id": "a4364fa4388b61338b09d6edaec6aec1d04eeedb1ebaa6df011fcbfeb0077fe1",
+      "source_hash": "40754e0960a5415716fc35898186c54a611f492bb58bb62a75cc4dcd6a53c7cd",
+      "source_ko": "부칙 <제10770호,1982.3.23>\n\n이 영은 공포한 날로부터 시행한다.\n\n",
+      "previous_zh": "补充规定 <第10770号，1982年3月23日>\n\n本法令自颁布之日起生效。\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    },
+    {
+      "row_id": "B2-zh-00089",
+      "target_id": "5b9f242b140eab582d8c3fa9e40db5f1cc24d58127560a8967218f357b642ada",
+      "source_hash": "5ffdcc40b636ce7f2fdc024e4c7d7d04cdef3e7f947ccfff6618d7500bb13983",
+      "source_ko": "부칙(공무원보수규정) <제10956호,1982.12.20>\n\n",
+      "previous_zh": "补充规定（公务员薪酬条例）<1982年12月20日第10956号>\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    },
+    {
+      "row_id": "B2-zh-00090",
+      "target_id": "17a111be32354a215d67c2ecad8aab6104d6c271a2cd7684fe5b478360d7fa13",
+      "source_hash": "de0ec285fd3ffce32091f02ba3a05908eaef136736b1d9962924dadd14284017",
+      "source_ko": "제1조 (시행일) 이 영은 공포한 날로부터 시행한다.\n\n",
+      "previous_zh": "第一条（生效日期）本法令自公布之日起生效。\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    },
+    {
+      "row_id": "B2-zh-00091",
+      "target_id": "8a1065f5cc5d01a9fb207213f5f05ff112c1291d4a4dcec52a403727a5831afa",
+      "source_hash": "5b9afbdf2e8854c1395bfd4c406e8831273cb316d6a621d74a00d09486bb51ae",
+      "source_ko": "제2조 내지 제5조 생략\n\n",
+      "previous_zh": "省略第 2 至 5 条\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    },
+    {
+      "row_id": "B2-zh-00092",
+      "target_id": "9a021e47254dc86f26ff92f940169911f3c7846cabf38214e3959878449067ef",
+      "source_hash": "10ffcc2c91c5fe4c07801df7606b1e3c5af18a4386d3925100249be0c4a30051",
+      "source_ko": "부칙 <제11217호,1983.8.31>\n\n①(시행일) 이 영은 공포한 날로부터 시행한다.\n\n②(복무기간에 관한 경과조치) 의무경찰의 복무기간에 관한 제11조제2항의 개정규정은 1983년 1월 1일이후 입영한 자부터 적용한다.\n\n③(진급에 관한 경과조치) 제14조제4항의 개정규정을 적용함에 있어서 이 영 시행전에 임용된 자에 대하여는 그 입영일로부터 5월이 경과된 다음달 1일자로 일경으로 진급된 것으로 본다.\n\n",
+      "previous_zh": "补充规定 <第11217号，1983年8月31日>\n\n①（生效日期）本法令自公布之日起生效。\n\n②（关于服役期限的过渡措施）第11条第2款关于义务警察服役期限的修正规定，适用于1983年1月1日或之后入伍的人员。\n\n③（关于晋升的过渡措施）根据第十四条第四款的修订规定，在本法令实施之前任命的人员，应视为自入伍之日起满五个月后的次月第一天晋升为警察（Ilbyeong）职级。\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    },
+    {
+      "row_id": "B2-zh-00093",
+      "target_id": "e46774d7a8b925d691c46678054d99541a442cbae541f9a4c8fefc5f049195f7",
+      "source_hash": "f405a577ebecedf8840a9566977cf4e30122bd41b363202ba2cfcf8b90b1cc03",
+      "source_ko": "부칙(병역법시행령) <제11511호,1984.9.22>\n\n",
+      "previous_zh": "附录（兵役法实施令）<1984年9月22日第11511号法令>\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    },
+    {
+      "row_id": "B2-zh-00094",
+      "target_id": "6d900e5546e5a482f804bda426350e246198b34cb126fc1f6c949c512f31fd08",
+      "source_hash": "af7f8a2a2bb4a9440b7d06e3b42b7f63465efc7bd90686f6427b26b8a88f2d42",
+      "source_ko": "제1조 (시행일) 이 영은 공포한 날로부터 시행한다. <단서 생략>\n\n",
+      "previous_zh": "第一条（生效日期）本法令自公布之日起生效。<但书略>\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    },
+    {
+      "row_id": "B2-zh-00095",
+      "target_id": "52851a1849693af4a0d7c9cb2a86c7aeb00835d83810989f134e4e0307052fbb",
+      "source_hash": "9bd94d71e470230b5fa6f4f1606d79a6868dd75a840c8a331925f135b3c15944",
+      "source_ko": "제2조 내지 제12조 생략\n\n",
+      "previous_zh": "省略第 2 至 12 条\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    },
+    {
+      "row_id": "B2-zh-00096",
+      "target_id": "5adf6b4d81f3da9d928243a2b7d98c36589b03f8a257b1a97cd32bf04cf7fde5",
+      "source_hash": "0b2af6fa9add20f4c4a7824763e8c32582dae95476a87f903dfb0888b05ad2c1",
+      "source_ko": "부칙 <제11983호,1986.10.25>\n\n이 영은 공포한 날로부터 시행한다.\n\n",
+      "previous_zh": "补充规定 <第11983号，1986年10月25日>\n\n本法令自颁布之日起生效。\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    },
+    {
+      "row_id": "B2-zh-00097",
+      "target_id": "b0019f19c2ddb733f3d2d20f17d52868523602f35568ce6c139ba0c0f3a55b2b",
+      "source_hash": "0d067d07ba1c9e0a68475e098efa5d5ffab8758152f15877e31c171fa1e214ec",
+      "source_ko": "부칙 <제12184호,1987.6.25>\n\n①(시행일) 이 영은 공포한 날로부터 시행한다.\n\n②(복무이탈자의 인사처리에 관한 경과조치) 이 영 시행당시 복무를 이탈하고 귀대하지 아니한 자는 제23조의2제1항의 개정규정에 의하여 처리한다.\n\n",
+      "previous_zh": "补充规定 <1987年6月25日第12184号>\n\n①（生效日期）本法令自公布之日起生效。\n\n②（关于逃兵人事处理的过渡措施）在本法令生效时，擅离职守且未返回原单位的人员，应当按照第23条之2第1款的修正规定进行处理。\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    },
+    {
+      "row_id": "B2-zh-00098",
+      "target_id": "b23bc15e667ebce6b059251a5e212972d1ca4cf2119e9fef8c500f0884e9baae",
+      "source_hash": "ba6374074bebc5798510fb7a5c8661ff3e434d7862d338836abbd5e1715b3517",
+      "source_ko": "부칙(국가유공자예우등에관한법률시행령) <제12262호,1987.10.26>\n\n",
+      "previous_zh": "补充法令（《国家功勋人员优待法》实施细则）<1987年10月26日第12262号>\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    },
+    {
+      "row_id": "B2-zh-00099",
+      "target_id": "89d6722c79bf0cc13342b8c8e5afc8945e4b5d477aaf8920afcd5cfb93ab6828",
+      "source_hash": "58fb8a64f6860dd1a18aec13727d2d7c197ef99770ea1cb0634e27aed1466a59",
+      "source_ko": "제1조 (시행일) 이 영은 1987년 11월 1일부터 시행한다.\n\n",
+      "previous_zh": "第一条（生效日期）本法令自1987年11月1日起生效。\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    },
+    {
+      "row_id": "B2-zh-00100",
+      "target_id": "cbb439b446d66ef56d8e7c648c5d1526b9c00947a4f0449f29ad1a57b17ba2b6",
+      "source_hash": "119c19aa8cf5d20a95854f948299b43b564b2b8788981249c71d35dec8490177",
+      "source_ko": "제2조 내지 제4조 생략\n\n",
+      "previous_zh": "省略第 2 至 4 条\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    },
+    {
+      "row_id": "B2-zh-00101",
+      "target_id": "f5b1770dc3fefc5e7afef0cc409a859eb3c1799b317b507349918f4426fba014",
+      "source_hash": "1ddfb02d58bba2454d7dd257f7318cbe0cec20dabc1b1b5df51050ef3bd94044",
+      "source_ko": "부칙(경찰공무원임용령) <제12343호,1987.12.31>\n\n",
+      "previous_zh": "附录（警官任命法令）<第12343号，1987年12月31日>\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    },
+    {
+      "row_id": "B2-zh-00102",
+      "target_id": "2ca2b0a3913e96c54d4fe10a5473b73a46f687db253680d788baa3783bd4e824",
+      "source_hash": "de0ec285fd3ffce32091f02ba3a05908eaef136736b1d9962924dadd14284017",
+      "source_ko": "제1조 (시행일) 이 영은 공포한 날로부터 시행한다.\n\n",
+      "previous_zh": "第一条（生效日期）本法令自公布之日起生效。\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    },
+    {
+      "row_id": "B2-zh-00103",
+      "target_id": "2839d1213ab312ded0cb9e9ccd2c24eec219ac19c692c28e6f410387d1d39413",
+      "source_hash": "1fa2d78222cc5f3a7b268ba3015a524a8e57a9355a8b17e0ae4253566ef34323",
+      "source_ko": "제2조 생략\n\n",
+      "previous_zh": "第 2 条省略\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    },
+    {
+      "row_id": "B2-zh-00104",
+      "target_id": "2e1bd24a53ebc3674b98e8e11520cdcc50462e3682d6e75a6eddc8ec96258f28",
+      "source_hash": "c9d67ed997126d1c2b104a3c4317fb3be28bf867330743e7ec0bc2fcefaa7dc7",
+      "source_ko": "부칙 <제12453호,1988.5.13>\n\n이 영은 공포한 날로부터 시행한다.\n\n",
+      "previous_zh": "补充规定 <1988年5月13日第12453号>\n\n本法令自颁布之日起生效。\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "B2-zh-00087",
+      "target_id": "ab6c29e9d900184ba0997dfb95e39e77e0079e4a3e21242e4c0795fc32d66d62",
+      "source_hash": "42d0f202cb9eb948ea612e2fcb760a42ae2e722a8f457b73f2a6bc5c4fa15986",
+      "source_ko": "부칙 <제10458호,1981.9.5>\n\n①(시행일) 이 영은 공포한 날로부터 시행한다.\n\n②(경과조치) 이 영 시행당시 영창의 징계처분을 받고 그 집행이 종료되거나 집행중에 있는 자의 귀휴기간 계산에 관하여는 종전의 규정에 의한다.\n\n",
+      "previous_zh": "补充规定 <第10458号，1981年9月5日>\n\n①（生效日期）本法令自公布之日起生效。\n\n②（过渡措施）对于在本法令生效时已受到军事拘留处分且该处分已执行完毕或正在执行的人员，其休假期限的计算，适用以前的规定。\n\n",
+      "corrected_zh": "附则 <第10458号，1981年9月5日>\n\n①（施行日期）本施行令自公布之日起施行。\n\n②（过渡措施）本施行令施行时已受到禁闭纪律处分且处分已执行完毕或正在执行的人员，其归休期间的计算仍适用原有规定。\n\n",
+      "reason": "부칙의 법령명·계급·절차 용어 또는 귀휴 관련 오역 교정."
+    },
+    {
+      "row_id": "B2-zh-00092",
+      "target_id": "9a021e47254dc86f26ff92f940169911f3c7846cabf38214e3959878449067ef",
+      "source_hash": "10ffcc2c91c5fe4c07801df7606b1e3c5af18a4386d3925100249be0c4a30051",
+      "source_ko": "부칙 <제11217호,1983.8.31>\n\n①(시행일) 이 영은 공포한 날로부터 시행한다.\n\n②(복무기간에 관한 경과조치) 의무경찰의 복무기간에 관한 제11조제2항의 개정규정은 1983년 1월 1일이후 입영한 자부터 적용한다.\n\n③(진급에 관한 경과조치) 제14조제4항의 개정규정을 적용함에 있어서 이 영 시행전에 임용된 자에 대하여는 그 입영일로부터 5월이 경과된 다음달 1일자로 일경으로 진급된 것으로 본다.\n\n",
+      "previous_zh": "补充规定 <第11217号，1983年8月31日>\n\n①（生效日期）本法令自公布之日起生效。\n\n②（关于服役期限的过渡措施）第11条第2款关于义务警察服役期限的修正规定，适用于1983年1月1日或之后入伍的人员。\n\n③（关于晋升的过渡措施）根据第十四条第四款的修订规定，在本法令实施之前任命的人员，应视为自入伍之日起满五个月后的次月第一天晋升为警察（Ilbyeong）职级。\n\n",
+      "corrected_zh": "附则 <第11217号，1983年8月31日>\n\n①（施行日期）本施行令自公布之日起施行。\n\n②（关于服役期间的过渡措施）第十一条第二款有关义务警察服役期间的修订规定，自1983年1月1日以后入营的人员起适用。\n\n③（关于晋升的过渡措施）适用第十四条第四款修订规定时，对本施行令施行前已被任用的人员，视为其自入营日起满五个月后的次月第一日晋升为一警。\n\n",
+      "reason": "부칙의 법령명·계급·절차 용어 또는 귀휴 관련 오역 교정."
+    },
+    {
+      "row_id": "B2-zh-00093",
+      "target_id": "e46774d7a8b925d691c46678054d99541a442cbae541f9a4c8fefc5f049195f7",
+      "source_hash": "f405a577ebecedf8840a9566977cf4e30122bd41b363202ba2cfcf8b90b1cc03",
+      "source_ko": "부칙(병역법시행령) <제11511호,1984.9.22>\n\n",
+      "previous_zh": "附录（兵役法实施令）<1984年9月22日第11511号法令>\n\n",
+      "corrected_zh": "附则（《兵役法施行令》）<第11511号，1984年9月22日>\n\n",
+      "reason": "부칙의 법령명·계급·절차 용어 또는 귀휴 관련 오역 교정."
+    },
+    {
+      "row_id": "B2-zh-00098",
+      "target_id": "b23bc15e667ebce6b059251a5e212972d1ca4cf2119e9fef8c500f0884e9baae",
+      "source_hash": "ba6374074bebc5798510fb7a5c8661ff3e434d7862d338836abbd5e1715b3517",
+      "source_ko": "부칙(국가유공자예우등에관한법률시행령) <제12262호,1987.10.26>\n\n",
+      "previous_zh": "补充法令（《国家功勋人员优待法》实施细则）<1987年10月26日第12262号>\n\n",
+      "corrected_zh": "附则（《国家有功者礼遇等相关法律施行令》）<第12262号，1987年10月26日>\n\n",
+      "reason": "부칙의 법령명·계급·절차 용어 또는 귀휴 관련 오역 교정."
+    },
+    {
+      "row_id": "B2-zh-00101",
+      "target_id": "f5b1770dc3fefc5e7afef0cc409a859eb3c1799b317b507349918f4426fba014",
+      "source_hash": "1ddfb02d58bba2454d7dd257f7318cbe0cec20dabc1b1b5df51050ef3bd94044",
+      "source_ko": "부칙(경찰공무원임용령) <제12343호,1987.12.31>\n\n",
+      "previous_zh": "附录（警官任命法令）<第12343号，1987年12月31日>\n\n",
+      "corrected_zh": "附则（《警察公务员任用令》）<第12343号，1987年12月31日>\n\n",
+      "reason": "부칙의 법령명·계급·절차 용어 또는 귀휴 관련 오역 교정."
+    }
+  ],
+  "validation": {
+    "row_ids_unique": true,
+    "source_hashes_match": true,
+    "verified_korean_offsets": true,
+    "no_untranslated_or_mtq_start_markers": true,
+    "english_reference": "documents/en/kr-004766-281729-en.json",
+    "total_cumulative_checked_rows": 261
+  },
+  "next_step": "Continue from B2-zh-00105, leave final receipt absent until all 800 rows are checked."
+}
