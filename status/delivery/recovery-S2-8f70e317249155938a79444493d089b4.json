@@ -30,7 +30,20 @@
   },
   "assistant_count": 16,
   "assistant_excerpt": ". 중단 원인\n\n이전 회차는 저장 오류가 아니라 미완료 상태에서 응답이 종료된 것으로 확인했습니다.\n\n기존 검수 파일 4개가 보존되어 있고, 한국어·중국어·영어 원본 SHA도 유지되었습니다. 권한 거절이나 원본 변경은 확인되지 않았습니다.\n\n2. 이번 회차 검수\n\n구간\n\n\t\n\n검수\n\n\t\n\n교정\n\n\t\n\n저장·재조회\n\n\n\n\nB1-00021~00025\n\n\t\n\n5행\n\n\t\n\n4행\n\n\t\n\n\n\n\nB1-00026~00030\n\n\t\n\n5행\n\n\t\n\n4행\n\n\t\n\n\n\n\n합계\n\n\t\n\n10행\n\n\t\n\n8행\n\n\t\n\n성공\n\n주요 교정은 신고자를 기자로 잘못 번역한 부분, 제20조 제2항 표시 누락, 피의자·참고인 구분 오류, 불법원인 채권의 법률용어 및 취학지원 대상 표현입니다.\n\n3. GitHub 저장 결과\n\nB1-00021~00025\n\n검증됨\n\n커밋 8c3a835010aa136c3196fc308a9d24625894615d\n\n파일 SHA b67e79aa45ebff4ac9631fa29970e46999754644\n\nB1-00026~00030\n\n검증됨\n\n커밋 d275820594a8c484d78835e5041aad30a5256d0e\n\n파일 SHA 48526b06655a661964837e2ffb58d8093eb4ddb7\n\n4. 누적 진행 상태\n\n검수 기록 37 / 1,136행\n\n3.3%\n\n이전 서식 7행 + B1 본문 30행\n\n고유 교정 기록은 누적 24행입니다.\n\n다음 검수 지점: B1-zh-00031\n\n남은 미검수 행: 1,099행\n\n최종 review/zh 파일: 미생성\n\n최종 receipts 파일: 미생성\n\n운영 DB 변경: 없음\n\nC03 상태: IN_PROGRESS. 전체 22개 문서 검수 전까지 COMPLETE를 선언하지 않습니다. 기존 저장 결과를 보존하며 같은 Job의 B1-zh-00031부터 이어가야 합니다.",
+  "attempted_at": "2026-11-07T19:27:33.828989+00:00",
   "created_at": "2026-11-07T19:27:26.047548+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-8f70e317249155938a79444493d089b4",
+    "attempted_at": "2026-11-07T19:27:33.828989+00:00",
+    "claim_commit": "f7869b54c7af41ed9f8a84afd3f3a3a405f934ac",
+    "event_id": "obs-52f6187904a753624d659983bf8892ea46a06114",
+    "job_id": "F-0536890d62605f77ff0a",
+    "record_path": "status/delivery/recovery-S2-8f70e317249155938a79444493d089b4.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C03"
+  },
   "episode": 3,
   "event_id": "obs-52f6187904a753624d659983bf8892ea46a06114",
   "job_id": "F-0536890d62605f77ff0a",
@@ -164,7 +177,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-5e01f0a7dd8778baebc99ec5]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "0e58b4e7bcf81bffa52a15dd2a509dd7c5b5552e",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef6ce4-cab4-83ee-a2bc-eaab0e4c9392",
   "worker": "C03"
 }
