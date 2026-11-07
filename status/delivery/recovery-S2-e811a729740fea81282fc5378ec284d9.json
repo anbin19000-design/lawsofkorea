@@ -30,7 +30,20 @@
   },
   "assistant_count": 6,
   "assistant_excerpt": "C01 — 검수 진행 중 / COMPLETE 미발행\n\nJob ID: F-eb24b26e08a83be58f81\n\n법령가족: 도시 공업지역의 관리 및 활성화에 관한 특별법\n\n저장소: anbin19000-design/lawsofkorea\n\n브랜치: main\n\n전체 범위 확인: 23개 문서, 중국어 1,143행\n\n원문 기준: 지정 커밋 이후 이번 Job의 원문 파일 변경은 비교 결과에서 발견되지 않음\n\n확인된 교정 대상\n\n초기 대조 및 오류 탐색에서 다음 문제를 발견했습니다.\n\nB1-zh-00004: 정의 조항의 법률 인용 및 용어 오류\n\nB1-zh-00006: 제4조 제3항 제5호의 내용 누락\n\nB1-zh-00008: 제4조를 다른 법률 조항으로 잘못 인용\n\n별표·서식: MTQ 및 START 표식이 포함된 행 23개 확인\n\nGitHub 저장 상태\n\n파일\n\n\t\n\n상태\n\n\n\n\nlaws/ko\n\n\t\n\n읽기 성공\n\n\n\n\nlaws/zh\n\n\t\n\n읽기 성공\n\n\n\n\nlaws/en\n\n\t\n\n읽기 성공\n\n\n\n\nreview/zh/F-eb24b26e08a83be58f81.json\n\n\t\n\n미생성\n\n\n\n\nreceipts/F-eb24b26e08a83be58f81.json\n\n\t\n\n미생성\n\n전체 1,143행의 의미 대조는 완료하지 못했습니다. 따라서 검수되지 않은 행을 포함해 COMPLETE로 기록하거나 완료 영수증을 발행하지 않았습니다.\n\n현재 상태는 IN_PROGRESS이며 권한 또는 안전상의 HOLD는 확인되지 않았습니다. 기존 원문·행 ID·해시·운영 DB는 변경하지 않았습니다.",
+  "attempted_at": "2026-11-07T18:45:57.036487+00:00",
   "created_at": "2026-11-07T18:45:51.597951+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-e811a729740fea81282fc5378ec284d9",
+    "attempted_at": "2026-11-07T18:45:57.036487+00:00",
+    "claim_commit": "40aeff72df60334551d70c09f4dde17e11e4bb9e",
+    "event_id": "obs-3dc54d4db0daac5b64701da0e5d93021a50b57be",
+    "job_id": "F-eb24b26e08a83be58f81",
+    "record_path": "status/delivery/recovery-S2-e811a729740fea81282fc5378ec284d9.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C01"
+  },
   "episode": 1,
   "event_id": "obs-3dc54d4db0daac5b64701da0e5d93021a50b57be",
   "job_id": "F-eb24b26e08a83be58f81",
@@ -41,7 +54,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-306891bdeba8de97cab5746e]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "4e2a549f1d84f6728d4bb48e05e0ac478306c68a",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef714e-be54-83ee-b7a7-8a742c791cfe",
   "worker": "C01"
 }
