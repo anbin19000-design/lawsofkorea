@@ -30,7 +30,20 @@
   },
   "assistant_count": 6,
   "assistant_excerpt": "\t\n\n교정 사항\n\n\n\n\nB2-zh-00146\n\n\t\n\n과태료 부과기준 용어 정정\n\n\n\n\nB2-zh-00147\n\n\t\n\n부칙 표기 교정\n\n\n\n\nB2-zh-00148\n\n\t\n\n시행일 및 별표 인용 교정\n\n\n\n\nB2-zh-00149\n\n\t\n\n폐지 대상 시행령 명칭 교정\n\n공식 GitHub Contents API 저장 결과\n\n커밋 SHA: 82bd513c3a8b965c92cffc2c58b4a98333fe867e\n\n파일 Blob SHA: 3cf402b5bf0c9a981d57018edf102e3062953b57\n\n상태: IN_PROGRESS\n\n재조회: 성공, 4개 행 ID 및 교정문 확인\n\n저장된 B2 146~149행 검수 파일\n\n3. 추가 검수·저장 결과\n\nB2 150~153행: 4행 검수, 1행 교정\n\nB2-zh-00150: 기본계획 및 시행계획의 수립 절차와 기한 표현 교정\n\nB2-zh-00151~00153: 한국어 원문과 대조, 기존 번역 유지\n\nGitHub 저장 및 재조회\n\n성공\n\n커밋 SHA: 8fadcbce62c98ab22a035771ac7fdde2baae0c8d\n\n파일 Blob SHA: 184c75e6dd13023a2270a8d03d9ec52e7a72d1c6\n\n저장된 B2 150~153행 검수 파일\n\n4. 이번 회차 종합\n\n신규 검수\n\n8행\n\n신규 교정\n\n5행\n\n신규 저장 파일\n\n2개\n\n현재 확인된 진행 위치는 B2 153행까지입니다. 다음 검수 대상은 B2 154행 이후이며, B2의 나머지 89행과 별표 6개 문서도 전체 검수 대상에 남아 있습니다.\n\n최종 상태: IN_PROGRESS\n\n이번 회차에 저장한 두 파일 모두 main에서 재조회했습니다. 기존 검수 기록과 원문은 보존했으며, 전체 1,102행 검수가 완료되지 않았으므로 최종 COMPLETE 파일과 영수증은 발행하지 않았습니다.",
+  "attempted_at": "2026-11-07T21:16:41.630914+00:00",
   "created_at": "2026-11-07T21:16:32.709947+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-b0faf9b54679242ac05de064192ce1ef",
+    "attempted_at": "2026-11-07T21:16:41.630914+00:00",
+    "claim_commit": "a09784a1663b946b327475a93b9955d5193e1306",
+    "event_id": "obs-db990b56f826674dd914c305d76c785698d41b14",
+    "job_id": "F-69d9e2651808803c4773",
+    "record_path": "status/delivery/recovery-S2-b0faf9b54679242ac05de064192ce1ef.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C05"
+  },
   "episode": 9,
   "event_id": "obs-db990b56f826674dd914c305d76c785698d41b14",
   "job_id": "F-69d9e2651808803c4773",
@@ -530,7 +543,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-97ed655cd58d6a3b7f7d2c65]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "b7bf3102fe79e63dcdf705ab1533c90673305d66",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef92b5-a09c-83ec-9b14-f0b802515554",
   "worker": "C05"
 }

@@ -30,7 +30,20 @@
   },
   "assistant_count": 17,
   "assistant_excerpt": "\n\n\n\n\n신규 파일 SHA\n\n\t\n\n7593abf8dcd6b9f355a7f236f9dfe9e622b4429d\n\n\n\n\n저장 상태\n\n\t\n\nIN_PROGRESS\n\n기존 검수 파일의 83개 교정과 한국어·중국어·영어 원본 SHA를 유지했습니다. 새 파일의 고유 행 ID 10개와 비어 있지 않은 교정문도 재조회해 확인했습니다.\n\n추가 구간 저장 및 검증 결과\n\n별표 2 전체 59행을 네 개의 독립 구간 파일로 저장·재조회했습니다.\n\n구간\n\n\t\n\n확인 행\n\n\t\n\n교정 행\n\n\t\n\n커밋 SHA\n\n\n\n\n00001–00010\n\n\t\n\n10\n\n\t\n\n10\n\n\t\n\n732a5194\n\n\n\n\n00011–00024\n\n\t\n\n14\n\n\t\n\n14\n\n\t\n\n5c730758\n\n\n\n\n00025–00034\n\n\t\n\n10\n\n\t\n\n10\n\n\t\n\n9c096975\n\n\n\n\n00035–00059\n\n\t\n\n25\n\n\t\n\n16\n\n\t\n\n09eb8b27\n\n\n\n\n합계\n\n\t\n\n59\n\n\t\n\n50\n\n\t\n\n4개 커밋\n\n기존 83개 교정에 이번 신규 교정 50개를 더해, 누적 저장 교정은 133개 행입니다. 별표 2의 금액은 원문대로 75·85·100만원, 50·70·100만원을 보존했습니다.\n\n마지막 구간 파일 SHA: da1313f22ed75bc4c6bb420ffcb1773e2a46a103\n\n보존 및 완료 상태\n\n기존 검수 파일 83행과 SHA 유지\n\n신규 구간 파일 4개 생성·재조회 성공\n\n원본 laws/* 변경 없음\n\n409 충돌 경로 재시도 없음\n\nCOMPLETE 영수증 미생성\n\n운영 DB 변경 없음\n\n다음 검수 범위는 별표 1의 아직 대조하지 않은 셀과 이어지는 서식의 미검수 행입니다.\n\nJob F-0c6349d844045c6cc10b는 계속 IN_PROGRESS입니다. 전체 20개 문서·1,158행 검수가 끝나기 전에는 COMPLETE로 전환하지 않습니다.",
+  "attempted_at": "2026-11-07T21:16:41.630898+00:00",
   "created_at": "2026-11-07T21:16:31.571062+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-aad09c2eb3b6e3bd2d6542a898e60a8f",
+    "attempted_at": "2026-11-07T21:16:41.630898+00:00",
+    "claim_commit": "a09784a1663b946b327475a93b9955d5193e1306",
+    "event_id": "obs-0c54d67c952771f7648a696a08ef55bd6d87d604",
+    "job_id": "F-0c6349d844045c6cc10b",
+    "record_path": "status/delivery/recovery-S2-aad09c2eb3b6e3bd2d6542a898e60a8f.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C04"
+  },
   "episode": 11,
   "event_id": "obs-0c54d67c952771f7648a696a08ef55bd6d87d604",
   "job_id": "F-0c6349d844045c6cc10b",
@@ -652,7 +665,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-47063b1b7b5d76c02c6f08a1]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "b7bf3102fe79e63dcdf705ab1533c90673305d66",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef7f45-c340-83e8-bed7-2fb0dbdc7078",
   "worker": "C04"
 }
