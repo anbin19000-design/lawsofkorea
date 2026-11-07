@@ -1,0 +1,53 @@
+{
+  "schema": "LAW_ZH_PARTIAL_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A39474",
+  "range": {
+    "first": "A39474-zh-00001",
+    "last": "A39474-zh-00012"
+  },
+  "checked_rows": 12,
+  "corrected_rows": 7,
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "edits": [
+    {
+      "id": "A39474-zh-00001",
+      "source_hash": "78b65662544ea0f69f76516fed51b23b3fc50d175a9432ca270480f748a2f6b2",
+      "text": "■ 《防止人口贩运等及保护受害者等法施行令》〔附表一〕"
+    },
+    {
+      "id": "A39474-zh-00004",
+      "source_hash": "04a976184d0c070209b98775a95d0c9b828cdef768c3534093e018e7d252e64a",
+      "text": "甲. 设立标准"
+    },
+    {
+      "id": "A39474-zh-00006",
+      "source_hash": "e8ccf59bd923f008c7bfebe0f78ef3df1c4344461a099f73514be5a65cbd3e40",
+      "text": "1）应当配备履行法第十五条第一款各项业务所需的空间及设备"
+    },
+    {
+      "id": "A39474-zh-00007",
+      "source_hash": "b07f284c168b4439d8094be830d84b516e0148679cabd0662c895cfc05d593ad",
+      "text": "。"
+    },
+    {
+      "id": "A39474-zh-00008",
+      "source_hash": "0901da54bf934fa7848a32d30c1c0aa0fada8751ff08afdd16ed31caa60b13d6",
+      "text": "2）应当按照《消防设施设置及管理法》规定的消防安全标准配备灭火"
+    },
+    {
+      "id": "A39474-zh-00009",
+      "source_hash": "8202f97f09eb3278fb519a52fd1f783aa9a01cccaff4877a6d5fba6ec5eff91d",
+      "text": "设备和避难设备。"
+    },
+    {
+      "id": "A39474-zh-00010",
+      "source_hash": "a6700f2f22fed724d163a0a8216e9468e822b8ae1808153d634143a74f419595",
+      "text": "乙. 运营标准"
+    }
+  ],
+  "note": "Compared Annex 1 header and first twelve logical XML text fragments with Korean table. Corrected implementing-decree title (not implementing regulation), installation vs installation hardware, section markers, and combined adjacent fire safety equipment text 8-9. Row 6-7 retains split-cell punctuation and underlying IDs. Remaining table not reviewed."
+}
