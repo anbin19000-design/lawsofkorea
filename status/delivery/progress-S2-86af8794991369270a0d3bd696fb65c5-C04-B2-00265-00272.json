@@ -1,0 +1,302 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B1-01.json",
+      "blob_sha": "69fcf795c9621b125ae73864793ee4064bd4b815",
+      "document_key": "B1",
+      "rows_checked": 145,
+      "rows_corrected": 26
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "blob_sha": "aeba15bca83d7887b5e9f7ce393fba770a9b5faa",
+      "verified_rows": 12,
+      "documents": [
+        "A30118",
+        "A30120"
+      ]
+    },
+    {
+      "path": "status/delivery/verified-step-S2-86af8794991369270a0d3bd696fb65c5-C04-CHECKPOINT-166-01.json",
+      "blob_sha": "33003dbd344370d5b2cf92bb05838b92b144a7ba",
+      "status": "INTENT_NO_RESEND"
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-01.json",
+      "blob_sha": "5f92fef46a104d832b4e6944e94ab8ba7257dda1",
+      "document_key": "B2",
+      "rows_checked": 36,
+      "rows_corrected": 31
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00037-00044.json",
+      "blob_sha": "31d1e93b2b7bc2aab9430a0d4b201c246301d1c5",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00045-00052.json",
+      "blob_sha": "be37a2f05e6c47bf33ec4ea58b1d6163df4b96a1",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00053-00060.json",
+      "blob_sha": "385725a9ff5c6f74e8cb723a6fc91fbcf072d639",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00061-00072.json",
+      "blob_sha": "4573174026ca13b9d49225d71e76f10c6ab2d76f",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00073-00084.json",
+      "blob_sha": "eb20464990f1e23042b03e95a20ed243fed5c555",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00085-00104.json",
+      "blob_sha": "30ba440fd5a8c3e355e8e79c418c6c9b7adcaa9f",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00105-00124.json",
+      "blob_sha": "3fe79039feaa1febde3bcd60b4397e5a52301b9e",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00125-00144.json",
+      "blob_sha": "3fe9aed92331bbf966efeff025964f461a605d6b",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00145-00164.json",
+      "blob_sha": "ab61b90a9bc19864b55a54b55cce703f9cb22470",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 12
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00165-00184.json",
+      "blob_sha": "68f3e74081cab6a1e84a178d3404ae96facceabe",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00185-00204.json",
+      "blob_sha": "81c7f57799a8550b49975c68793c0c3de622e902",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00205-00208.json",
+      "blob_sha": "feda2b38822c3429ef5493d37b044d1e5ef9ff86",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00209-00212.json",
+      "blob_sha": "08cb0522bc3ceae21d3d76fb56b95152a08fc246",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00213-00223.json",
+      "blob_sha": "a7fecc1db30a21c0677eaf0e6696e8267404fdbd",
+      "document_key": "B2",
+      "rows_checked": 11,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00224-00224.json",
+      "blob_sha": "7ce857683229c544c015843cb5da47ec2c5ea6ed",
+      "document_key": "B2",
+      "rows_checked": 1,
+      "rows_corrected": 1
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00225-00244.json",
+      "blob_sha": "bde39fb81d1a2fe5f6acbc78ab2d929732f8cb58",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00245-00264.json",
+      "blob_sha": "52e222a297a0913cce11527a0e6db004f8de1012",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 11
+    }
+  ],
+  "document": {
+    "key": "B2",
+    "kind": "대통령령",
+    "title": "의무경찰대 설치 및 운영에 관한 법률 시행령",
+    "source_hash": "da345505912da9c84c24a63989aee8605f2465beea1b28313585cd363b8b2504",
+    "rows_checked": 8,
+    "rows_corrected": 5,
+    "document_review_state": "DOCUMENT_ROWS_CHECKED"
+  },
+  "range": {
+    "first_row_id": "B2-zh-00265",
+    "last_row_id": "B2-zh-00272",
+    "verified_row_count": 8
+  },
+  "verified_rows": [
+    {
+      "row_id": "B2-zh-00265",
+      "target_id": "efa050e9bac762186dedca72bfeeeea272100e7041d76e63eba5b6271d57d123",
+      "source_hash": "6a2259c82e1dab4ee85a2e87dd8112e5eed0ed07c64369126e04de4d06f034d8",
+      "source_ko": "제1조(시행일) 이 영은 2023년 6월 5일부터 시행한다.\n\n",
+      "previous_zh": "第一条（生效日期）本法令自2023年6月5日起生效。\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    },
+    {
+      "row_id": "B2-zh-00266",
+      "target_id": "d7c42b9701335866b85a90155a595cd767a5a4280053ac2c3e1014520bb17855",
+      "source_hash": "6ffda08faf109c176be482db4409396ced46b0373db22ad766c9b45cca3b755a",
+      "source_ko": "제2조 부터 제4조까지 생략\n\n",
+      "previous_zh": "省略第 2 至 4 条\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    },
+    {
+      "row_id": "B2-zh-00267",
+      "target_id": "ed8b63b27c623bdf45584eeb98f6a568e51992c8e4db40e83928c63af8530bf3",
+      "source_hash": "ec9ab878eb05f91132a7b429fe4e82bee29e06e288e3db46090b4b2d607e690c",
+      "source_ko": "제5조(다른 법령의 개정) ①부터 <37>까지 생략\n\n  <38> 의무경찰대 설치 및 운영에 관한 법률 시행령 일부를 다음과 같이 개정한다.\n\n  제49조제1항 전단, 제50조 각 호 외의 부분, 제53조 전단, 제55조 및 제56조제3항 중 \"국가보훈처장\"을 각각 \"국가보훈부장관\"으로 한다.\n\n",
+      "previous_zh": "第五条（修改其他法律）①至<37> 已省略\n\n  《关于设立和运作义务警察部队的法律实施细则》部分内容修改如下。\n\n  在第49条第1款第一部分、第50条编号项目以外的部分、第53条第一款、第55条和第56条第3款中，“爱国者和退伍军人事务部部长”应改为“爱国者和退伍军人事务部长”。\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    },
+    {
+      "row_id": "B2-zh-00268",
+      "target_id": "a614bba6c813dded2e7c2bc18c4bc3045150416e02b7c415fc74d937d7e2cd29",
+      "source_hash": "806a9be5a4b8809c1ea9386c6e207fe4313f8d2fc24a58ecc5d2a936ad124153",
+      "source_ko": "  별지 제3호서식 중 \"국가보훈처장\"을 \"국가보훈부장관\"으로 한다.\n\n  <39>부터 <73>까지 생략\n\n",
+      "previous_zh": "  在附件表格第 3 号中，“爱国者和退伍军人事务部长”应改为“爱国者和退伍军人事务部长”。\n\n  <39​​> 至 <73> 已省略\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    },
+    {
+      "row_id": "B2-zh-00269",
+      "target_id": "c18b15638321ac4eece7df2ed0d3b72c1f394b5f883d4a8e061986dc21535fa1",
+      "source_hash": "e94cb060215343794849c45723917db1ef36905da0729360d1209f1fd79739ab",
+      "source_ko": "부칙(기획예산처와 그 소속기관 직제) <제35948호,2025.12.30>\n\n",
+      "previous_zh": "增编（计划和预算部及其附属机构的组织结构）<第35948号，2025年12月30日>\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    },
+    {
+      "row_id": "B2-zh-00270",
+      "target_id": "592313ec2689d873c39041791dd4e737cf48e7c8e5f6e2cd48a5679c845251a3",
+      "source_hash": "d91ca08ab13d680b646c74aa4763cd8612c6e937853e3db26fe10f30e26d8871",
+      "source_ko": "제1조(시행일) 이 영은 2026년 1월 2일부터 시행한다. 다만, 부칙 제4조에 따라 개정되는 대통령령 중 이 영 시행 전에 공포되었으나 시행일이 도래하지 않은 대통령령을 개정한 부분은 각각 해당 대통령령의 시행일부터 시행한다.\n\n",
+      "previous_zh": "第一条（生效日期）本法令自2026年1月2日起生效。但是，根据本补充法令第四条修正的总统令中，修正在本法令生效前颁布但生效日期尚未到来的总统令的部分，应自相关总统令的生效日期起生效。\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    },
+    {
+      "row_id": "B2-zh-00271",
+      "target_id": "fa5f4b070c83145b56738b5151727f5607be0d59e01069721a240886c4b6ccf7",
+      "source_hash": "c27a8d90e2fad39db31a7ec7c05311572dbb07d5ec24565e9bc0e8ebd63ca618",
+      "source_ko": "제2조 및 제3조 생략\n\n",
+      "previous_zh": "条款 2 和 3 已省略\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    },
+    {
+      "row_id": "B2-zh-00272",
+      "target_id": "fbc0d61eea2762fc2b0da03e03330615182795f3da330d9162fa4993f8a04d96",
+      "source_hash": "bfe0bfa978a9a346ded3c80004e0872b9ac4e9412cfc1e534fa4cdb603f443cf",
+      "source_ko": "제4조(다른 법령의 개정) ①부터 <161>까지 생략\n\n  <162> 의무경찰대 설치 및 운영에 관한 법률 시행령 일부를 다음과 같이 개정한다.\n\n  제48조제2항 중 \"기획재정부장관\"을 \"기획예산처장관\"으로 한다.\n\n  <163>부터 <176>까지 생략\n\n",
+      "previous_zh": "第四条（修改其他法律）①至<161>款已省略\n\n  《关于设立和运作义务警察部队的法律实施细则》部分内容修改如下。\n\n  第 48 条第 2 款中的“战略和财政部长”应改为“计划和预算部长”。\n\n  <163> 至 <176> 已省略\n\n征召警察选拔考试体能标准表（与第七条第四款有关）\n■ 征召警察部队设立及运作法实施令[附表1]<2017年7月26日修订>  \n\n  征召警察选拔考试体能标准表（与第七条第四款有关）                       \n\n  1. 物理标准                                                                 \n\n┌────┬────────────────────────────────┐\n\n│구 분   │기 준                                                           │\n\n├────┼────────────────────────────────┤\n\n│体格│强壮的体格，四肢、胸部、腹部、嘴巴、口腔、内脏器官完整│\n\n│ │ │ │\n\n├────┼────────────────────────────────┤\n\n│视力 │双眼视力（包括矫正视力）达到0.8或以上的人 │\n\n├────┼────────────────────────────────┤\n\n│颜色 │非色盲人士 │\n\n├────┼────────────────────────────────┤\n\n│听力 │听力正常的人 │\n\n├────┼────────────────────────────────┤\n\n│血压│高血压（收缩压超过145 mmHg或舒张压超过90 mmHg）│\n\n│ │Hg) 或低血压（收缩压低于 90 mmHg │\n\n血压不正常（或舒张压低于 60 mmHg）的人 │\n\n├────┼────────────────────────────────┤\n\n│纹身│纹身的动机、含义、大小和暴露程度可能会损害辅警的荣誉│\n\n│ │没有纹身的人被认为存在 │\n\n├────┼────────────────────────────────┤\n\n│运动神经│因各种疾病后遗症导致的神经和身体功能障碍而被征召入伍的警察 │\n\n│        │직무수행에 어려움이 없는 사람                                   │\n\n└────┴────────────────────────────────┘\n\n  2. 耐力标准                                                                 \n\n┌────────┬────────────────────────────┐\n\n│库存 │标准 │\n\n├────────┼────────────────────────────┤\n\n│제자리 멀리뛰기 │160cm 이상                                              │\n\n",
+      "source_basis": "authoritative source_ko offsets"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "B2-zh-00267",
+      "target_id": "ed8b63b27c623bdf45584eeb98f6a568e51992c8e4db40e83928c63af8530bf3",
+      "source_hash": "ec9ab878eb05f91132a7b429fe4e82bee29e06e288e3db46090b4b2d607e690c",
+      "source_ko": "제5조(다른 법령의 개정) ①부터 <37>까지 생략\n\n  <38> 의무경찰대 설치 및 운영에 관한 법률 시행령 일부를 다음과 같이 개정한다.\n\n  제49조제1항 전단, 제50조 각 호 외의 부분, 제53조 전단, 제55조 및 제56조제3항 중 \"국가보훈처장\"을 각각 \"국가보훈부장관\"으로 한다.\n\n",
+      "previous_zh": "第五条（修改其他法律）①至<37> 已省略\n\n  《关于设立和运作义务警察部队的法律实施细则》部分内容修改如下。\n\n  在第49条第1款第一部分、第50条编号项目以外的部分、第53条第一款、第55条和第56条第3款中，“爱国者和退伍军人事务部部长”应改为“爱国者和退伍军人事务部长”。\n\n",
+      "corrected_zh": "第五条（其他法令的修订）①至<37>省略。\n\n  <38> 《义务警察部队设立及运营法施行令》作如下部分修订。\n\n  第四十九条第一款前段、第五十条各项以外部分、第五十三条前段、第五十五条及第五十六条第三款中的“国家报勋处处长”分别改为“国家报勋部部长”。\n\n",
+      "reason": "국가보훈처→국가보훈부 및 기획재정부→기획예산처 개정의 원문 명칭 오류와 B2 마지막 행에 인접 별표 중국어가 유입된 문제 분리 교정."
+    },
+    {
+      "row_id": "B2-zh-00268",
+      "target_id": "a614bba6c813dded2e7c2bc18c4bc3045150416e02b7c415fc74d937d7e2cd29",
+      "source_hash": "806a9be5a4b8809c1ea9386c6e207fe4313f8d2fc24a58ecc5d2a936ad124153",
+      "source_ko": "  별지 제3호서식 중 \"국가보훈처장\"을 \"국가보훈부장관\"으로 한다.\n\n  <39>부터 <73>까지 생략\n\n",
+      "previous_zh": "  在附件表格第 3 号中，“爱国者和退伍军人事务部长”应改为“爱国者和退伍军人事务部长”。\n\n  <39​​> 至 <73> 已省略\n\n",
+      "corrected_zh": "  附件第三号格式中的“国家报勋处处长”改为“国家报勋部部长”。\n\n  <39>至<73>省略。\n\n",
+      "reason": "국가보훈처→국가보훈부 및 기획재정부→기획예산처 개정의 원문 명칭 오류와 B2 마지막 행에 인접 별표 중국어가 유입된 문제 분리 교정."
+    },
+    {
+      "row_id": "B2-zh-00269",
+      "target_id": "c18b15638321ac4eece7df2ed0d3b72c1f394b5f883d4a8e061986dc21535fa1",
+      "source_hash": "e94cb060215343794849c45723917db1ef36905da0729360d1209f1fd79739ab",
+      "source_ko": "부칙(기획예산처와 그 소속기관 직제) <제35948호,2025.12.30>\n\n",
+      "previous_zh": "增编（计划和预算部及其附属机构的组织结构）<第35948号，2025年12月30日>\n\n",
+      "corrected_zh": "附则（《企划预算处及其所属机关职制》）<第35948号，2025年12月30日>\n\n",
+      "reason": "국가보훈처→국가보훈부 및 기획재정부→기획예산처 개정의 원문 명칭 오류와 B2 마지막 행에 인접 별표 중국어가 유입된 문제 분리 교정."
+    },
+    {
+      "row_id": "B2-zh-00270",
+      "target_id": "592313ec2689d873c39041791dd4e737cf48e7c8e5f6e2cd48a5679c845251a3",
+      "source_hash": "d91ca08ab13d680b646c74aa4763cd8612c6e937853e3db26fe10f30e26d8871",
+      "source_ko": "제1조(시행일) 이 영은 2026년 1월 2일부터 시행한다. 다만, 부칙 제4조에 따라 개정되는 대통령령 중 이 영 시행 전에 공포되었으나 시행일이 도래하지 않은 대통령령을 개정한 부분은 각각 해당 대통령령의 시행일부터 시행한다.\n\n",
+      "previous_zh": "第一条（生效日期）本法令自2026年1月2日起生效。但是，根据本补充法令第四条修正的总统令中，修正在本法令生效前颁布但生效日期尚未到来的总统令的部分，应自相关总统令的生效日期起生效。\n\n",
+      "corrected_zh": "第一条（施行日期）本施行令自2026年1月2日起施行。但是，依据附则第四条被修订的总统令中，凡在本施行令施行前已公布但尚未达到施行日期的总统令，其有关修订部分分别自该总统令的施行日期起施行。\n\n",
+      "reason": "국가보훈처→국가보훈부 및 기획재정부→기획예산처 개정의 원문 명칭 오류와 B2 마지막 행에 인접 별표 중국어가 유입된 문제 분리 교정."
+    },
+    {
+      "row_id": "B2-zh-00272",
+      "target_id": "fbc0d61eea2762fc2b0da03e03330615182795f3da330d9162fa4993f8a04d96",
+      "source_hash": "bfe0bfa978a9a346ded3c80004e0872b9ac4e9412cfc1e534fa4cdb603f443cf",
+      "source_ko": "제4조(다른 법령의 개정) ①부터 <161>까지 생략\n\n  <162> 의무경찰대 설치 및 운영에 관한 법률 시행령 일부를 다음과 같이 개정한다.\n\n  제48조제2항 중 \"기획재정부장관\"을 \"기획예산처장관\"으로 한다.\n\n  <163>부터 <176>까지 생략\n\n",
+      "previous_zh": "第四条（修改其他法律）①至<161>款已省略\n\n  《关于设立和运作义务警察部队的法律实施细则》部分内容修改如下。\n\n  第 48 条第 2 款中的“战略和财政部长”应改为“计划和预算部长”。\n\n  <163> 至 <176> 已省略\n\n征召警察选拔考试体能标准表（与第七条第四款有关）\n■ 征召警察部队设立及运作法实施令[附表1]<2017年7月26日修订>  \n\n  征召警察选拔考试体能标准表（与第七条第四款有关）                       \n\n  1. 物理标准                                                                 \n\n┌────┬────────────────────────────────┐\n\n│구 분   │기 준                                                           │\n\n├────┼────────────────────────────────┤\n\n│体格│强壮的体格，四肢、胸部、腹部、嘴巴、口腔、内脏器官完整│\n\n│ │ │ │\n\n├────┼────────────────────────────────┤\n\n│视力 │双眼视力（包括矫正视力）达到0.8或以上的人 │\n\n├────┼────────────────────────────────┤\n\n│颜色 │非色盲人士 │\n\n├────┼────────────────────────────────┤\n\n│听力 │听力正常的人 │\n\n├────┼────────────────────────────────┤\n\n│血压│高血压（收缩压超过145 mmHg或舒张压超过90 mmHg）│\n\n│ │Hg) 或低血压（收缩压低于 90 mmHg │\n\n血压不正常（或舒张压低于 60 mmHg）的人 │\n\n├────┼────────────────────────────────┤\n\n│纹身│纹身的动机、含义、大小和暴露程度可能会损害辅警的荣誉│\n\n│ │没有纹身的人被认为存在 │\n\n├────┼────────────────────────────────┤\n\n│运动神经│因各种疾病后遗症导致的神经和身体功能障碍而被征召入伍的警察 │\n\n│        │직무수행에 어려움이 없는 사람                                   │\n\n└────┴────────────────────────────────┘\n\n  2. 耐力标准                                                                 \n\n┌────────┬────────────────────────────┐\n\n│库存 │标准 │\n\n├────────┼────────────────────────────┤\n\n│제자리 멀리뛰기 │160cm 이상                                              │\n\n",
+      "corrected_zh": "第四条（其他法令的修订）①至<161>省略。\n\n  <162> 《义务警察部队设立及运营法施行令》作如下部分修订。\n\n  第四十八条第二款中的“企划财政部部长”改为“企划预算处长官”。\n\n  <163>至<176>省略。\n\n",
+      "reason": "국가보훈처→국가보훈부 및 기획재정부→기획예산처 개정의 원문 명칭 오류와 B2 마지막 행에 인접 별표 중국어가 유입된 문제 분리 교정."
+    }
+  ],
+  "validation": {
+    "row_ids_unique": true,
+    "source_hashes_match": true,
+    "verified_korean_offsets": true,
+    "no_untranslated_or_mtq_start_markers": true,
+    "english_reference": "documents/en/kr-004766-281729-en.json",
+    "total_cumulative_checked_rows": 429,
+    "document_B2_verified_rows": 272,
+    "annex_text_spillover_removed_from_B2_row_272": true
+  },
+  "next_step": "B2 all 272 checked. Next inspect A30118/A30120 prior verified 12 rows, then continue unverified annex/form rows, total family not complete."
+}
