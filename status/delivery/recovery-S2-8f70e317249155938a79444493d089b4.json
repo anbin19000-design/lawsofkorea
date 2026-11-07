@@ -30,7 +30,20 @@
   },
   "assistant_count": 8,
   "assistant_excerpt": "\n\t\n\n\n\n\nB1-00041~00045\n\n\t\n\n5\n\n\t\n\n1\n\n\t\n\n\n\n\nB1-00046~00050\n\n\t\n\n5\n\n\t\n\n2\n\n\t\n\n\n\n\nB1-00051~00056\n\n\t\n\n6\n\n\t\n\n2\n\n\t\n\n\n\n\nB1-00057~00062\n\n\t\n\n6\n\n\t\n\n2\n\n\t\n\n\n\n\nB2-00001~00006\n\n\t\n\n6\n\n\t\n\n4\n\n\t\n\n\n\n\n합계\n\n\t\n\n38\n\n\t\n\n16\n\n\t\n\n7개 파일\n\n이번 회차에 저장한 7개 파일 모두 공식 GitHub Contents API를 통한 저장 후 main에서 재조회했습니다.\n\n특히 B1의 정부조직법 개정 인용과 벌칙 조항, B2 시행령의 법령명 분리 오역·위원회 의결 요건·교육 대상 인용 오류를 교정했습니다.\n\n3. 누적 진행 상태\n\n검수 기록 75 / 1,136행\n\n6.6%\n\nB1 법률: 62행 구간별 검수 기록 완료\n\nB2 시행령: 첫 6행 검수\n\n기존 서식 교정: 7행 보존\n\n누적 고유 교정: 40행\n\n다음 시작 행: B2-zh-00007\n\n남은 미검수 행: 1,061행\n\n4. 최종 저장 상태\n\n마지막 B2 구간 파일:\n\nstatus/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-00001-00006.json\n\n커밋 SHA: ace2db4b6bc4c730e5ca160f8a3b4f1e2cae05df\n\n파일 SHA: 1e94c7856ffc9b4bdd5fd5b895dc5ef1eb172770\n\n상태: IN_PROGRESS\n\n최종 review/zh 및 receipts 파일은 아직 생성하지 않았으며 운영 DB도 변경하지 않았습니다.\n\nC03 상태: IN_PROGRESS. 같은 Job을 유지하며 다음 검수 지점은 B2-zh-00007입니다. 전체 22개 문서와 1,136행 검증 전까지 COMPLETE를 선언하지 않습니다.",
+  "attempted_at": "2026-11-07T20:37:47.682465+00:00",
   "created_at": "2026-11-07T20:37:40.147602+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-8f70e317249155938a79444493d089b4",
+    "attempted_at": "2026-11-07T20:37:47.682465+00:00",
+    "claim_commit": "aeed94c9002ad544da3d0d56eff9cd0e8a07cf39",
+    "event_id": "obs-39709e6b7fadfab55b20956f3b9f3bc2fa1986de",
+    "job_id": "F-0536890d62605f77ff0a",
+    "record_path": "status/delivery/recovery-S2-8f70e317249155938a79444493d089b4.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C03"
+  },
   "episode": 4,
   "event_id": "obs-39709e6b7fadfab55b20956f3b9f3bc2fa1986de",
   "job_id": "F-0536890d62605f77ff0a",
@@ -225,7 +238,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-9e82800b4c23dfb11f6d075b]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "6c80b809d17b53f4299940e7febaab8f416186f3",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef6ce4-cab4-83ee-a2bc-eaab0e4c9392",
   "worker": "C03"
 }
