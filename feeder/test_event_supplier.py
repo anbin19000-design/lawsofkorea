@@ -261,14 +261,37 @@ class SupplierTests(unittest.TestCase):
         with self.assertRaisesRegex(s.SupplyError, "COMPLETION_JOB_MISMATCH"):
             self.run_supply()
 
-    def test_transport_calls_only_send_once(self):
-        response = contextlib.nullcontext(__import__('io').StringIO('{"success":true}'))
-        config = {"transport": {"panel_gateway": "http://127.0.0.1:32722"}}
-        with mock.patch.object(s, "urlopen", return_value=response) as post:
-            s.send_panel(config, self.event, "test")
-            post.assert_called_once()
-            request = post.call_args.args[0]
-            self.assertEqual(json.loads(request.data)["command"], "panel.chat.send")
+    def transport_observation(self, marker=None, draft=None):
+        return {"success": True, "observation": {"success": True, "url": "https://chatgpt.com/c/conv-1",
+                "status": "IDLE", "lastUser": marker or "previous", "elements": [] if not draft else [
+                    {"role": "textbox", "text": draft},
+                    {"tag": "button", "ariaLabel": "보내기", "disabled": False, "elementId": "send-1"}]}}
+
+    def test_transport_verifies_sent_marker_without_second_send(self):
+        text = "[marker]\n" + "instruction " * 20
+        responses = [self.transport_observation(), {"success": True}, self.transport_observation("[marker]")]
+        with mock.patch.object(s, "panel_command", side_effect=responses) as call:
+            self.assertTrue(s.send_panel(self.config, self.event, text))
+            self.assertEqual([x.args[1] for x in call.call_args_list], ["panel.observe", "panel.chat.send", "panel.observe"])
+
+    def test_transport_completes_own_unsent_draft_once(self):
+        text = "[marker]\n" + "instruction " * 20
+        responses = [self.transport_observation(), {"success": False, "error": "send-button-not-found"},
+                     self.transport_observation(draft=text[:150]), {"success": True},
+                     self.transport_observation("[marker]")]
+        with mock.patch.object(s, "panel_command", side_effect=responses) as call:
+            self.assertTrue(s.send_panel(self.config, self.event, text))
+            self.assertEqual([x.args[1] for x in call.call_args_list],
+                             ["panel.observe", "panel.chat.send", "panel.observe", "panel.click", "panel.observe"])
+
+    def test_transport_never_clicks_unrelated_draft_or_denial(self):
+        for responses in ([self.transport_observation(), {"success": False, "error": "permission denied"}],
+                          [self.transport_observation(draft="unrelated user draft")]):
+            with self.subTest(responses=responses):
+                with mock.patch.object(s, "panel_command", side_effect=responses) as call:
+                    with self.assertRaises(s.SupplyError):
+                        s.send_panel(self.config, self.event, "[marker]\n" + "instruction " * 20)
+                    self.assertNotIn("panel.click", [x.args[1] for x in call.call_args_list])
 
     def test_ack_updates_state_without_send(self):
         first = self.run_supply()

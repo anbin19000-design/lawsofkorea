@@ -1,6 +1,6 @@
 # 법령가족 공급기 V2 — 관측기 연동
 
-관측기는 별도 대화 `6aee54fb-1a94-83ee-ab44-7ac18c2f5592`가 담당한다. 이 프로그램은 패널을 관측하거나 주기적으로 실행하지 않는다. 관측기가 보내는 신선한 이벤트 한 건을 처리하고 종료한다.
+관측기는 별도 대화 `6aee54fb-1a94-83ee-ab44-7ac18c2f5592`가 담당한다. 관측기는 10초 주기로 6개 패널을 읽는다. 공급기는 별도의 일반 사용자 상주 프로세스로 10초 주기 실행하며 관측 결과를 받아 유휴 슬롯 전체를 일괄 처리한다. 발송 중에는 해당 전송의 성공 확인을 위한 제한된 panel.observe를 수행한다.
 
 | PC | 저장소 | 작업 브랜치 | 워커 |
 |---|---|---|---|
@@ -9,7 +9,18 @@
 
 두 manifest는 각각 785/813개 가족이며 설치 시 ID 교집합은 0이었다. 설정의 `partition_manifest_blob`으로 이 분할을 고정한다. 목록이 변경되면 두 PC 분할을 다시 대조한 후 설정을 갱신해야 한다.
 
-## 호출
+## 상주 일괄 실행
+
+2026-11-07 사용자 지시에 따라 두 PC 모두 다음 예약 작업을 일반 사용자 76kor, Limited, Interactive 권한으로 등록했다.
+
+- `LaoPanelObserverPassive10`: 기존 observer.py run, 관측 간격 10초.
+- `LawSupplierV2_ObserverBatch`: supplier_batch.py --service, 공급 간격 10초.
+- 로그인 시 자동 시작한다. 상태 파일은 feeder/run/supplier-latest.json, 이력은 supplier-history.jsonl이다.
+- 모든 신규 배정을 하나의 원격 Git 커밋으로 먼저 기록한 뒤 독립 패널에 병렬 전송한다. 처리 시간이 10초를 넘으면 중복 배치를 실행하지 않고 다음 회차를 바로 시작한다.
+- 중지: 예약 작업 LawSupplierV2_ObserverBatch를 중지하거나 supplier-config.json의 enabled를 false로 변경한다. 기존 STOP 파일도 계속 준수한다.
+- 일괄 1회 실행은 supplier_batch.py, 단일 이벤트/워커 진단은 아래 event_supplier.py 명령을 사용한다.
+
+## 단일 이벤트 진단 호출
 
 가동 중인 관측기 `2026.11.07-passive.2`의 `run/latest.json`과 `run/health.json`을 직접 읽는 연결을 포함한다. 관측기 파일이나 프로세스를 변경하지 않는다.
 
@@ -18,7 +29,7 @@
 - 한 워커만 처리: `args=["observer-supply", "--worker", "C01"]` (노텍스는 N01 등)
 - 두 스냅샷의 boot/sequence가 같고 60초 이내여야 한다. 오류·승인대기·초안·다른 배정·갱신중단 상태에서는 보류한다.
 - `COMPLETION_REPORTED`는 READY 요청으로만 변환하며, 실제 완료 판정은 GitHub 검수 결과·영수증을 공급기가 별도로 확인한다.
-- 신규 발송 marker가 관측되면 DELIVERY_ACK로 기록한다. 공급기는 패널 관측을 호출하지 않는다.
+- 신규 발송 marker가 관측되면 DELIVERY_ACK로 기록한다. 상주 모니터링은 관측기가 담당하며, 공급기는 발송 직전·직후의 대상 패널 상태만 확인한다.
 - 기존 `user_stop_all_workers` STOP 파일과 관측 출력의 STOP 제어가 존재하면 공급을 보류한다. 설치는 이를 삭제하거나 해제하지 않는다.
 
 각 PC의 등록 Python 도구로 아래 스크립트를 호출한다. 이벤트는 `stdin`으로 전달하면 된다.
@@ -31,7 +42,7 @@
 - `PYTHONUTF8=1`, `PYTHONIOENCODING=utf-8` 권장. 표준 출력은 ASCII-safe JSON이다.
 - Windows 도구의 stdin 인코딩 차이를 피하도록 이벤트 JSON은 `ensure_ascii=true`로 직렬화한다.
 
-기존 `github_instruction_feeder.py service` 또는 `run-once`와 동시에 실행하지 않는다. 기존 예약 작업은 자동 활성화하지 않는다. V2에는 service/monitor 기능이 없다.
+기존 `github_instruction_feeder.py service` 또는 `run-once`와 동시에 실행하지 않는다. 기존 예약 작업은 자동 활성화하지 않는다. supplier_batch.py --service만 상주 실행하고, 기존 공급기를 함께 가동하지 않는다.
 
 ## READY 이벤트
 
@@ -64,7 +75,7 @@
 3. 기존 완료·부분결과·ACTIVE·HOLD 가족을 새로 배정하지 않는다. 한 워커는 한 법령가족 전체를 맡는다.
 4. 완료 아카이브, 신규 ACTIVE/claim, 발송 의도와 이벤트 영수증을 하나의 Git 커밋으로 먼저 게시한다.
 5. 원격 브랜치가 바뀌면 새 스냅샷에서 다시 계산한다. force push나 기존 작업트리 rebase는 하지 않는다.
-6. 패널 발송은 한 번만 시도한다. 성공 응답은 SENT_AWAITING_OBSERVER_ACK, 불확실 응답/오류는 UNCERTAIN_NO_RESEND로 남긴다.
+6. 지시문 입력은 한 번만 시도한다. 입력 후 미전송 초안으로 남으면 같은 배정의 초안과 보내기 버튼을 확인하여 제출을 마친다. 성공 응답은 SENT_AWAITING_OBSERVER_ACK, 불확실 응답/오류는 UNCERTAIN_NO_RESEND로 남긴다.
 
 ## 발송 확인
 
@@ -87,6 +98,8 @@ ACK는 결과를 SENT_VERIFIED로 기록할 뿐 메시지를 보내지 않는다
 
 ```text
 python -m unittest discover -s feeder -p test_event_supplier.py -v
+python -m unittest discover -s feeder -p test_supplier_batch.py -v
+python -m unittest discover -s feeder -p test_batch_engine.py -v
 ```
 
 테스트는 중복 이벤트, 동시 커밋, 발송 timeout, 발송 의도 기록 후 종료, 별표 누락, 부분 검수, 관측 시각/대화/입력창 불일치, ACK 및 원격 Git 트랜잭션을 확인한다. 실제 워커에게 테스트 메시지를 전송하지 않는다.

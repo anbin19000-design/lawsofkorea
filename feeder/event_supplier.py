@@ -14,11 +14,12 @@ import socket
 import subprocess
 import sys
 import tempfile
+import time
 import uuid
 from urllib.request import Request, urlopen
 from urllib.parse import urlparse
 
-VERSION = "2.0.0"
+VERSION = "2.3.0"
 EVENT_SCHEMA = "LAW_SUPPLY_EVENT_V1"
 ID = re.compile(r"[A-Za-z0-9_-]{1,120}\Z")
 JOB = re.compile(r"F-[a-f0-9]{20}\Z")
@@ -64,6 +65,18 @@ def json_file(path):
     return json.loads(Path(path).read_text("utf-8-sig"))
 
 
+def read_observation(config):
+    """Resolve the short atomic-replacement gap without reusing stale evidence."""
+    for attempt in range(3):
+        report = json_file(config["observer_latest"])
+        health = json_file(config["observer_health"])
+        if (report.get("boot"), report.get("sequence")) == (health.get("boot"), health.get("sequence")):
+            return report, health
+        if attempt < 2:
+            time.sleep(0.03)
+    raise SupplyError("OBSERVER_SNAPSHOT_IN_FLIGHT")
+
+
 def require_unstopped(config):
     check(not any(Path(p).exists() for p in config.get("stop_paths", [])), "WORKFLOW_STOP_PRESENT")
 
@@ -107,11 +120,18 @@ class GitStore:
     def git(self, *args, input=None, env=None, required=True):
         options = os.environ.copy()
         options["GIT_TERMINAL_PROMPT"] = "0"
+        options["GCM_INTERACTIVE"] = "Never"
         if env:
             options.update(env)
+        trace = self.config.get("trace_path")
+        if trace:
+            Path(trace).write_text(encoded({"operation": args[0], "phase": "START", "at": iso()}), encoding="utf-8")
         proc = subprocess.run(["git", "-C", str(self.root), *args], input=input,
                               text=True, encoding="utf-8", capture_output=True,
-                              env=options, timeout=60)
+                              env=options, timeout=60, creationflags=subprocess.CREATE_NO_WINDOW if os.name == "nt" else 0)
+        if trace:
+            Path(trace).write_text(encoded({"operation": args[0], "phase": "END", "exit_code": proc.returncode,
+                                           "at": iso(), "error": re.sub(r"https?://\S+", "[remote]", proc.stderr)[-800:] if proc.returncode else None}), encoding="utf-8")
         if required and proc.returncode:
             # Never echo an authenticated remote URL or credential helper output.
             raise SupplyError("GIT_OPERATION_FAILED:" + args[0])
@@ -123,9 +143,6 @@ class GitStore:
         if not common.is_absolute():
             common = self.root / common
         with open(common / "law-supplier-v2.lock", "a+b") as stream:
-            stream.seek(0)
-            stream.write(b"0")
-            stream.flush()
             stream.seek(0)
             try:
                 if os.name == "nt":
@@ -172,7 +189,8 @@ class GitStore:
             return commit
         if fresh.sha != base:
             raise Conflict("BRANCH_CHANGED_REPLAN")
-        check(pushed.returncode == 0, "PUBLISH_FAILED_NO_DISPATCH")
+        check(pushed.returncode == 0, "PUBLISH_FAILED_NO_DISPATCH:" +
+              re.sub(r"https?://\S+", "[remote]", pushed.stderr)[-1000:])
         raise SupplyError("PUBLISH_NOT_VERIFIED_NO_DISPATCH")
 
 
@@ -309,6 +327,7 @@ Job ID: {jid}
 공식 GitHub 도구로 laws/ko/{jid}.json, laws/zh/{jid}.json, laws/en/{jid}.json과 연결된 documents/en, reviewed/en, meaning/pairs를 읽으십시오. 로컬 DB·패킷·worker_client·Python을 검수 데이터 경로로 사용하지 마십시오.
 한국어 원문이 기준이고 영어·의미기록은 참고입니다. 명백한 오역·누락·미번역·수치·인용·용어 오류만 최소 교정하고 ID·해시·표·별표/서식 관계를 보존하십시오.
 모든 행을 실제 검토한 뒤 review/zh/{jid}.json (schema LAW_ZH_MINIMAL_REVIEW_V1, job_id, worker, checked_rows, edits, status COMPLETE)과 receipts/{jid}.json (job_id, worker, checked_rows, corrected_rows, status COMPLETE, note)을 함께 커밋하십시오. edits에는 원본 row의 id와 text 필드의 교정문을 기록하고 corrected_rows는 고유 교정 행 수로 기록하십시오.
+GitHub update_ref에서 명시적 권한 거절이 없는 GithubGraphQLAPIError/UNKNOWN 실행 오류가 발생하면 동일 실패 요청을 반복하지 마십시오. 기존 결과와 원본 해시를 확인한 뒤 공식 GitHub create_file(Contents API)로 검수 결과, 영수증 순서로 저장하는 별도 커밋 2개를 허용합니다. 이미 저장된 파일은 덮어쓰지 말고 확인하며, 두 파일 모두 브랜치에서 검증되기 전에는 완료로 처리하지 마십시오.
 기존 완료 결과를 반복하거나 laws/*를 수정하지 마십시오. 원문이 기준 커밋에서 바뀌거나 안전·권한 거절이 발생하면 HOLD로 보고하고 재시도·우회하지 마십시오. 완료 시 두 파일이 브랜치에 존재하는지 다시 확인하고 SHA를 보고하십시오. 검수 저장은 운영 DB 반영과 별개입니다.
 """
 
@@ -393,22 +412,80 @@ def plan(snapshot, config, event):
     return {"result": receipt, "changes": changes, "prompt": text, "claim": claim}
 
 
-def send_panel(config, event, text):
-    # No observe, browser scan, retry, navigation, or monitoring is performed here.
+def panel_command(config, command, **params):
+    if command == "panel.observe":
+        params.setdefault("maxElements", 1000)
+        params.setdefault("maxMessages", 1)
     gateway = config["transport"]["panel_gateway"].rstrip("/")
     check(gateway == "http://127.0.0.1:32722", "UNVERIFIED_PANEL_GATEWAY")
-    payload = {"command": "panel.chat.send", "params": {"panelId": event["panel_id"], "text": text}}
-    request = Request(gateway + "/command", data=json.dumps(payload, ensure_ascii=True).encode("ascii"),
+    request = Request(gateway + "/command",
+                      data=json.dumps({"command": command, "params": params}, ensure_ascii=True).encode("ascii"),
                       headers={"Content-Type": "application/json"}, method="POST")
-    with urlopen(request, timeout=20) as stream:
+    with urlopen(request, timeout=25) as stream:
         response = json.load(stream)
-    check(isinstance(response, dict), "DELIVERY_RESPONSE_UNCERTAIN")
-    check(response.get("success") is True or response.get("ok") is True, "DELIVERY_RESPONSE_UNCERTAIN")
-    nested = response
-    while isinstance(nested, dict):
-        check(nested.get("success") is not False and nested.get("ok") is not False,
-              "DELIVERY_RESPONSE_UNCERTAIN")
-        nested = nested.get("result")
+    check(isinstance(response, dict), "INVALID_PANEL_RESPONSE")
+    return response
+
+
+def panel_observation(response):
+    node = response
+    while isinstance(node, dict):
+        if isinstance(node.get("observation"), dict):
+            return node["observation"]
+        node = node.get("result")
+    raise SupplyError("PANEL_OBSERVATION_MISSING")
+
+
+def verify_panel_destination(observation, event):
+    parsed = urlparse(observation.get("url", ""))
+    check(parsed.hostname == "chatgpt.com" and parsed.scheme == "https"
+          and parsed.path == "/c/" + event["conversation_id"], "CONVERSATION_CHANGED")
+    check(observation.get("success") is True, "PANEL_OBSERVATION_FAILED")
+
+
+def sent_marker(observation, marker):
+    return str(observation.get("lastUser") or "").startswith(marker)
+
+
+def send_panel(config, event, text):
+    # Bounded verification of this transmission; the passive observer owns monitoring.
+    # panel.chat.send may type the text yet fail to press Send. Complete only that
+    # identified draft, never type a second copy or click an unrelated draft.
+    marker = text.splitlines()[0]
+    before = panel_observation(panel_command(config, "panel.observe", panelId=event["panel_id"]))
+    verify_panel_destination(before, event)
+    if sent_marker(before, marker):
+        return True
+    check(before.get("status") in ("IDLE", "READY") and not any(
+        e.get("role") == "textbox" and e.get("text", "").strip() for e in before.get("elements", [])),
+        "PANEL_CHANGED_BEFORE_TYPING")
+    response = panel_command(config, "panel.chat.send", panelId=event["panel_id"], text=text)
+    messages = []
+    node = response
+    while isinstance(node, dict):
+        messages.extend(str(node.get(k, "")) for k in ("error", "message", "reason"))
+        node = node.get("result")
+    check(not re.search(r"denied|forbidden|unauthori[sz]ed|approval|policy|permission|거절|권한", " ".join(messages), re.I),
+          "PANEL_PERMISSION_DENIED")
+    observed = panel_observation(panel_command(config, "panel.observe", panelId=event["panel_id"]))
+    verify_panel_destination(observed, event)
+    if sent_marker(observed, marker):
+        return True
+    elements = observed.get("elements", [])
+    drafts = [e for e in elements if e.get("role") == "textbox" and e.get("text", "").strip()]
+    buttons = [e for e in elements if e.get("tag") == "button" and not e.get("disabled")
+               and e.get("ariaLabel") in ("보내기", "Send", "Send prompt")]
+    normalize = lambda value: " ".join(value.split())
+    check(observed.get("status") in ("IDLE", "READY") and len(drafts) == len(buttons) == 1,
+          "SEND_BUTTON_NOT_READY")
+    draft = normalize(drafts[0]["text"])
+    check(draft.startswith(marker) and len(draft) > len(marker) + 30
+          and normalize(text).startswith(draft), "DRAFT_DOES_NOT_MATCH_ASSIGNMENT")
+    require_unstopped(config)
+    panel_command(config, "panel.click", panelId=event["panel_id"], elementId=buttons[0]["elementId"])
+    observed = panel_observation(panel_command(config, "panel.observe", panelId=event["panel_id"]))
+    verify_panel_destination(observed, event)
+    check(sent_marker(observed, marker), "SEND_NOT_CONFIRMED_NO_RESEND")
     return True
 
 
@@ -449,7 +526,8 @@ def run(config, event, store, sender=send_panel, dispatch=False):
             sender(config, event, work["prompt"])
             result.update(status="SENT_AWAITING_OBSERVER_ACK", sent=True)
         except Exception as exc:
-            result.update(status="UNCERTAIN_NO_RESEND", sent=None, error_type=type(exc).__name__)
+            result.update(status="UNCERTAIN_NO_RESEND", sent=None, error_type=type(exc).__name__,
+                          error=str(exc) if isinstance(exc, SupplyError) else type(exc).__name__)
         result["attempted_at"] = iso()
         result["claim_commit"] = commit
         # Publication can be retried; the message cannot.
@@ -494,12 +572,16 @@ def inspect(config, store):
             "stop_paths_present": [p for p in config.get("stop_paths", []) if Path(p).exists()]}
 
 
-def observer_event(config, report, health, worker, active, current=None):
+def observer_event(config, report, health, worker, active, current=None, allow_recovery=False):
     """Translate passive.2 output; never inspect a browser or trust completion prose."""
     check(report.get("schema") == health.get("schema") == "LAO_PASSIVE_OBSERVATION_V1", "INVALID_OBSERVER_SCHEMA")
     check(report.get("pc") == health.get("pc") == config["pc"], "WRONG_OBSERVER_PC")
-    check(report.get("mode") == "PASSIVE" and report.get("health") == health.get("health") == "OK",
+    check(report.get("mode") == "PASSIVE" and report.get("health") == health.get("health")
+          and report.get("health") in ("OK", "DEGRADED"),
           "OBSERVER_NOT_HEALTHY")
+    if report.get("health") == "DEGRADED":
+        check(not report.get("list_error") and report.get("expected_panels") == len(report.get("panels", [])),
+              "OBSERVER_LIST_INCOMPLETE")
     check((report.get("boot"), report.get("sequence")) == (health.get("boot"), health.get("sequence")),
           "OBSERVER_SNAPSHOT_IN_FLIGHT")
     clock = (current or now()).timestamp()
@@ -531,7 +613,9 @@ def observer_event(config, report, health, worker, active, current=None):
             kind = "DELIVERY_ACK"
     if kind == "READY":
         check(row.get("native_state") in ("IDLE", "READY")
-              and row.get("state") in ("IDLE", "READY", "COMPLETION_REPORTED"), "OBSERVER_WORKER_NOT_READY")
+              and row.get("state") in (("IDLE", "READY", "COMPLETION_REPORTED", "STORAGE_BLOCKED", "REPORTED_ERROR")
+                                        if allow_recovery and active else ("IDLE", "READY", "COMPLETION_REPORTED")),
+              "OBSERVER_WORKER_NOT_READY")
     else:
         check(row.get("state") in ("WORKING", "IDLE", "READY", "COMPLETION_REPORTED"), "OBSERVER_WORKER_NOT_READY")
     parsed = urlparse(row.get("url") or "")
@@ -562,6 +646,15 @@ def consume_observer(config, store, worker=None, dispatch=False):
             active = active_records(snapshot).get(ident)
             event = observer_event(config, report, health, ident, active)
             result = run(config, event, store, dispatch=dispatch)
+            if (dispatch and event["kind"] == "DELIVERY_ACK"
+                    and next(p for p in report["panels"] if p["panel_id"] == event["panel_id"])["native_state"] in ("IDLE", "READY")):
+                # A completed worker need not wait another minute merely for its ACK.
+                report = json_file(config["observer_latest"])
+                health = json_file(config["observer_health"])
+                active = active_records(store.refresh()).get(ident)
+                next_event = observer_event(config, report, health, ident, active)
+                if next_event["kind"] == "READY":
+                    result = run(config, next_event, store, dispatch=True)
             result.pop("prompt", None)
             results.append({"worker": ident, **result})
         except Exception as exc:
@@ -598,3 +691,5 @@ def main():
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
+
