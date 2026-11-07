@@ -418,10 +418,12 @@
     }
   ],
   "prompt_sha256": "0018d84fbdd7d01cb0808ff87c6e2ff534354a73712221c6ca35b6042ed67c37",
+  "received_at": "2026-11-07T21:31:50.894144+00:00",
   "recovery_marker": "[LAW-RECOVERY-V1:R1-24be8bcaf194f3aa536e00f2]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "9aa19a5d12b09709a8a19cdfdd1728d76ffc1c98",
-  "status": "RECOVERY_SENT_AWAITING_ACK",
+  "status": "RECOVERY_WORKING_VERIFIED",
   "url": "https://chatgpt.com/c/6aef92b3-47f4-83ee-abf9-0a573b2d7d04",
-  "worker": "C01"
+  "worker": "C01",
+  "working_seen_at": "2026-11-07T21:31:50.894151+00:00"
 }
