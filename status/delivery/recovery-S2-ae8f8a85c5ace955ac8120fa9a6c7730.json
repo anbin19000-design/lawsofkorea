@@ -30,7 +30,20 @@
   },
   "assistant_count": 11,
   "assistant_excerpt": "C02 검수 중간 저장 완료\nGitHub 저장 및 재조회 검증 성공\n\nJob ID: F-81e30c25fcbea5af2364\n법령가족: 스마트도시 조성 및 산업진흥 등에 관한 법률\n브랜치: main\n상태: IN_PROGRESS\n\n교정문 저장·검증\n\n25행\n전체 1,133행 중 교정문을 저장한 행 기준. 나머지 행의 검수 완료를 의미하지 않습니다.\n저장된 중간 파일\n\n구간\n\n\t\n\n교정 행\n\n\t\n\n커밋 SHA\n\n\n\n\nB1 제24조, B3 제3조의3\n\n\t\n\n2\n\n\t\n\n907760c0…\n\n\n\n\n시행령 별표 1\n\n\t\n\n9\n\n\t\n\n1f4c414a…\n\n\n\n\n시행령 별표 2\n\n\t\n\n14\n\n\t\n\nf0275911…\n\n\n\n\n합계\n\n\t\n\n25\n\n\t\n\n3개 커밋\n\n세 파일 모두 공식 GitHub Contents API로 생성하고 main에서 재조회했습니다. 25개 교정 행의 ID가 모두 고유하며, 비어 있지 않은 교정문과 원본 해시가 보존됐음을 확인했습니다.\n\n주요 교정 사항은 제24조 미번역, 제3조의3 인용 오류, 별표 1의 45㎡ 시설 요건 및 기관명 오류, 별표 2의 행정처분 기준·기간 오류입니다.\n\n전체 검수는 아직 완료되지 않았습니다. review/zh 최종 파일과 receipts 완료 영수증은 생성하지 않았으며, 원본 laws/*와 운영 DB도 변경하지 않았습니다. 기존 세 중간 파일을 유지한 채 같은 배정의 나머지 범위를 검수해야 합니다.",
+  "attempted_at": "2026-11-07T19:22:14.421513+00:00",
   "created_at": "2026-11-07T19:22:05.821179+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+    "attempted_at": "2026-11-07T19:22:14.421513+00:00",
+    "claim_commit": "39200a48c3d13a3315ac43c25538104b74bc6558",
+    "event_id": "obs-b75b0a0c5ced1910c8c2ee67b032a09efb2759c6",
+    "job_id": "F-81e30c25fcbea5af2364",
+    "record_path": "status/delivery/recovery-S2-ae8f8a85c5ace955ac8120fa9a6c7730.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C02"
+  },
   "episode": 2,
   "event_id": "obs-b75b0a0c5ced1910c8c2ee67b032a09efb2759c6",
   "job_id": "F-81e30c25fcbea5af2364",
@@ -103,7 +116,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-0303f6a1e96564b3b84a4e79]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "c62ec365c492ca0788a68e5e4c6a5025e87a08cc",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef6c60-9e78-83ee-8cce-939d00e6c476",
   "worker": "C02"
 }

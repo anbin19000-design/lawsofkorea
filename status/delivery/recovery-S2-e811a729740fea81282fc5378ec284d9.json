@@ -30,7 +30,20 @@
   },
   "assistant_count": 8,
   "assistant_excerpt": "C01 검수 계속 — 중간 저장 완료\nIN_PROGRESS\n\nJob ID: F-eb24b26e08a83be58f81\n법령가족: 도시 공업지역의 관리 및 활성화에 관한 특별법\n브랜치: main\n\n기존 검수 20행을 보존하고, 이번 회차에 B1-zh-00021~00033을 한국어 원문과 직접 대조했습니다.\n\n누적 검수\n\n33행\n전체 1,143행\n\n누적 교정\n\n28행\n이번 회차 +13행\n\n잔여 검수\n\n1,110행\n미완료\n이번 회차 GitHub 저장 결과\n\n검수 구간\n\n\t\n\n커밋 SHA\n\n\t\n\n재조회\n\n\n\n\nB1 00021–00023\n\n\t\n\nc5b75654e37f\n\n\t\n\n\n\n\nB1 00024–00026\n\n\t\n\n1eb8cfbeca59\n\n\t\n\n\n\n\nB1 00027–00030\n\n\t\n\n15fd2a54319e\n\n\t\n\n\n\n\nB1 00031–00033\n\n\t\n\n0b557bca758d\n\n\t\n\n모두 공식 GitHub Contents API로 개별 생성하고, IN_PROGRESS 및 교정 행 수를 재조회했습니다.\n\n주요 교정은 산업정비구역과 산업혁신구역의 정의 구분, 조문 인용, 제27조의 누락된 사업 종류, 실시계획 인가·공고 관련 규정입니다.\n\n다음 검수 지점: B1-zh-00034 (제32조 관련 인허가 등의 의제)\n\n기존 원문·행 ID·해시는 변경하지 않았습니다. 전체 검수가 완료되지 않았으므로 최종 COMPLETE 및 영수증은 발행하지 않았습니다.",
+  "attempted_at": "2026-11-07T19:22:14.421499+00:00",
   "created_at": "2026-11-07T19:22:05.191059+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-e811a729740fea81282fc5378ec284d9",
+    "attempted_at": "2026-11-07T19:22:14.421499+00:00",
+    "claim_commit": "39200a48c3d13a3315ac43c25538104b74bc6558",
+    "event_id": "obs-49819032a3d8b42ed876fcea09bd237bb1bc323b",
+    "job_id": "F-eb24b26e08a83be58f81",
+    "record_path": "status/delivery/recovery-S2-e811a729740fea81282fc5378ec284d9.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C01"
+  },
   "episode": 2,
   "event_id": "obs-49819032a3d8b42ed876fcea09bd237bb1bc323b",
   "job_id": "F-eb24b26e08a83be58f81",
@@ -103,7 +116,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-c3f8cb8f52c3f7a8ab5d90c7]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "c62ec365c492ca0788a68e5e4c6a5025e87a08cc",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef714e-be54-83ee-b7a7-8a742c791cfe",
   "worker": "C01"
 }
