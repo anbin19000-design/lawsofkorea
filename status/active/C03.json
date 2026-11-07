@@ -1,26 +1,26 @@
 {
-  "assignment_id": "S2-dcc6b29c9722661942d9aa220226f397",
-  "claimed_at": "2026-11-07T06:23:02.775822+00:00",
+  "assignment_id": "S2-fcfd7ed0f167843095dcd0a391f71882",
+  "claimed_at": "2026-11-07T06:28:43.888452+00:00",
   "conversation_hash": "f814babcd9a4eef998ee6b9a52a51d53857d7852b5cf666de022498d47d3bd71",
-  "delivery_status": "SENT_VERIFIED",
+  "delivery_status": "INTENT_RECORDED_NO_RESEND",
   "documents": 2,
-  "event_id": "obs-158049cbd960011c5f7b556eeb8b33da254c945d",
-  "family_id": "F-28ff51f33e2d2db50d92",
-  "job_id": "F-28ff51f33e2d2db50d92",
-  "marker": "[LAW-SUPPLY-V2:S2-dcc6b29c9722661942d9aa220226f397:C03:F-28ff51f33e2d2db50d92]",
+  "event_id": "obs-66b6eb061230b01e7ec32e6cb03bbcfc61bf2e83",
+  "family_id": "F-dba4019f6b74d41e5b71",
+  "job_id": "F-dba4019f6b74d41e5b71",
+  "marker": "[LAW-SUPPLY-V2:S2-fcfd7ed0f167843095dcd0a391f71882:C03:F-dba4019f6b74d41e5b71]",
   "panel_id": "panel-03",
   "pc": "WORK-C",
-  "rows": 123,
+  "rows": 127,
   "schema": "LAW_SUPPLIER_ASSIGNMENT_V2",
   "source_blobs": {
-    "en": "5623553a156588215fe1df5743bcaa2b3fc6e057",
-    "ko": "5090f56409d998cb2800947aa31b24821d267f04",
-    "zh": "b70dfede8e2fa4454c617a00be8524770b84b737"
+    "en": "279a9e3a78bdf625d46cffef308552f5bc587070",
+    "ko": "da1bc9616b511d105cf7519d001524ee4c4c0131",
+    "zh": "bad018018a6c853cc2d97cda84cde1babf558999"
   },
-  "source_commit": "56228cea642f0fc5473409adb4bb025af95f9796",
+  "source_commit": "5dd1a268797619ea1be759a75495ce56bdfeeaae",
   "status": "ACTIVE",
-  "title": "농어가목돈마련저축에 관한 법률",
+  "title": "건축기본법",
   "unit_policy": "ACT_DECREE_RULE_ANNEX_FORMS_ONE_FAMILY",
   "worker": "C03",
-  "write_protocol": "contents-only"
+  "write_protocol": "contents-zh-v2"
 }
