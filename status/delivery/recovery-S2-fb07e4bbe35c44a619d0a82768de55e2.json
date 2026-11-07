@@ -29,7 +29,20 @@
   },
   "assistant_count": 14,
   "assistant_excerpt": "HOLD — 검수 파일 저장 후 보완 충돌\n\nC01 — 화훼산업 발전 및 화훼문화 진흥에 관한 법률\n\n11개 문서의 중국어 362행을 대조하고 교정 288행을 GitHub에 저장했습니다. 다만, 저장 후 발견한 서식 조문 표기 오류 2건을 보완하는 과정에서 GitHub 409 충돌이 발생했습니다.\n\n검수 행\n\n362\n\n저장된 교정 행\n\n288\n\n미반영 보완\n\n2\nGitHub 현재 저장 상태\n\n항목\n\n\t\n\n상태\n\n\n\n\n한국어 원문\n\n\t\n\n기준 커밋과 일치\n\n\n\n\n중국어 검수 파일\n\n\t\n\n저장됨, 보완 필요\n\n\n\n\n완료 영수증\n\n\t\n\n미생성\n\n\n\n\n운영 DB\n\n\t\n\n변경하지 않음\n\n저장된 검수 파일 확인\n\n검수 파일의 커밋은 9582b7a14060aa2f39445bee9f85087175cfef06, 파일 SHA는 3c048f2a8c06895743b1762122dd307fcd8379bd입니다.\n\n한국어 원문 SHA 57ea540bd6edc6c1045563cc47924c3b2855f9fc는 변하지 않았습니다.\n\n보완이 필요한 2개 행\n\n행 ID\n\n\t\n\n수정할 중국어\n\n\n\n\nA25795-zh-00021\n\n\t\n\n文化振兴法》第16条第1款规定的调查公务员。\n\n\n\n\nA25796-zh-00020\n\n\t\n\n文化振兴法》第17条第2款规定的调查公务员。\n\n두 행 모두 법률의 조문 번호와 항·조 표기 순서를 바로잡는 교정입니다.\n\n409 충돌 이후 최신 main을 다시 확인한 결과, 기존 검수 파일은 보존되어 있고 영수증은 없는 상태입니다. 지시된 충돌 중단 조건에 따라 추가 쓰기나 재시도를 진행하지 않았으며, COMPLETE 영수증도 발행하지 않았습니다.\n\nJob ID: F-c48669bfce560a1e2ed2\n\nC01 HOLD — 저장된 검수 결과 보존, 조문 표기 2행 보완 및 최종 완료 확인 필요.",
+  "attempted_at": "2026-11-07T10:56:25.133201+00:00",
   "created_at": "2026-11-07T10:56:17.436114+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-fb07e4bbe35c44a619d0a82768de55e2",
+    "attempted_at": "2026-11-07T10:56:25.133201+00:00",
+    "claim_commit": "6c11496e50c9ec297adc93c8214d72f8e91794f4",
+    "event_id": "obs-d2ded8df5f527e9b3c6c561cf8c6639ae8d3b8a8",
+    "job_id": "F-c48669bfce560a1e2ed2",
+    "record_path": "status/delivery/recovery-S2-fb07e4bbe35c44a619d0a82768de55e2.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C01"
+  },
   "episode": 1,
   "event_id": "obs-d2ded8df5f527e9b3c6c561cf8c6639ae8d3b8a8",
   "job_id": "F-c48669bfce560a1e2ed2",
@@ -40,7 +53,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-76aaaee82f187dd186725055]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "2ceeab9c658edf3f44ca75f0f1686275eef11a8a",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aeeee8e-5e9c-83ee-aa9d-d1ce249f25d7",
   "worker": "C01"
 }
