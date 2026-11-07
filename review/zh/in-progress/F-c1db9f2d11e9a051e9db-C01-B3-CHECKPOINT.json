@@ -1,0 +1,37 @@
+{
+  "schema": "LAW_ZH_IN_PROGRESS_CHECKPOINT_V1",
+  "job_id": "F-c1db9f2d11e9a051e9db",
+  "assignment_id": "S2-4206a1f458527bd3b6f1",
+  "worker": "C01",
+  "document": "B3",
+  "source_blob_sha": "db488cde1b619063c5c217a0f78358688f2b1a0c",
+  "zh_blob_sha": "9e53a8f7d71640cebdd1af9d2d375b296a287bf1",
+  "checked_rows": 19,
+  "checked_row_ids": [
+    "B3-zh-00001",
+    "B3-zh-00002",
+    "B3-zh-00003",
+    "B3-zh-00004",
+    "B3-zh-00005",
+    "B3-zh-00006",
+    "B3-zh-00007",
+    "B3-zh-00008",
+    "B3-zh-00009",
+    "B3-zh-00010",
+    "B3-zh-00011",
+    "B3-zh-00012",
+    "B3-zh-00013",
+    "B3-zh-00014",
+    "B3-zh-00015",
+    "B3-zh-00016",
+    "B3-zh-00017",
+    "B3-zh-00018",
+    "B3-zh-00019"
+  ],
+  "corrected_rows": 19,
+  "status": "IN_PROGRESS",
+  "progress_files": [
+    "review/zh/in-progress/F-c1db9f2d11e9a051e9db-C01-B3-00001-00019.json"
+  ],
+  "note": "B3施行规则全部19行已逐行核对，19个行ID已修正法令名称、申报/许可表单关系、进入他人土地、权利义务转移门槛及附则术语。B3-00019原目标误拼接的独立附表A25758已剥离，附表将在独立文档阶段核对。"
+}
