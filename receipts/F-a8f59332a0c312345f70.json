@@ -1,0 +1,8 @@
+{
+  "job_id": "F-a8f59332a0c312345f70",
+  "worker": "C01",
+  "checked_rows": 853,
+  "corrected_rows": 135,
+  "status": "COMPLETE",
+  "note": "Completed Chinese review of all 853 rows across all 6 documents against the Korean source pinned at c1b3c816f77e44933ded5bf9126544d0b58c9bd8. The review contains 135 unique row corrections addressing statutory terminology and titles, internal governance duties, financial-company responsible-duty schedule, major shareholder change-approval criteria, administrative fine descriptions and table fragments, and residual START/false/MTQ translation artifacts. The Korean source SHA is unchanged between the pinned commit and main. English source documents were consulted as secondary references; no matching reviewed/en or meaning/pairs files were found at the checked candidate paths. Laws files were not modified. This receipt records repository review storage only and does not indicate operational database application."
+}
