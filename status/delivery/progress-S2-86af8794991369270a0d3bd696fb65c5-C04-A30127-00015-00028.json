@@ -1,0 +1,266 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30127-00001-00014.json",
+      "blob_sha": "275841fb8411ca203a3d3574d736ce632be0e783",
+      "document_key": "A30127",
+      "rows_checked": 14,
+      "rows_corrected": 13
+    }
+  ],
+  "document": {
+    "key": "A30127",
+    "kind": "서식",
+    "title": "(부상자, 질병자) 치료결정통지서",
+    "source_hash": "05b0dbe8ae58b0397a93aa9ce37c33765fa4bc02f5988c5a9cee6339b9cba716",
+    "rows_checked": 14,
+    "rows_corrected": 10,
+    "document_review_state": "DOCUMENT_ROWS_CHECKED"
+  },
+  "range": {
+    "first_row_id": "A30127-zh-00015",
+    "last_row_id": "A30127-zh-00028",
+    "verified_row_count": 14
+  },
+  "verified_rows": [
+    {
+      "row_id": "A30127-zh-00015",
+      "target_id": "XML:2210753",
+      "source_hash": "108e44b6099164b117f3a949253dce1ed0cfe6e2f5e2ef50f7cd47972993ea8b",
+      "source_ko": "사항",
+      "previous_zh": "项目",
+      "meaning_pair_id": "e29b13973c0a711725c50fb37ee57f898a61a08ecb1d41d746227be8828bd514",
+      "source_basis": "authoritative full Korean form with adjacent column context"
+    },
+    {
+      "row_id": "A30127-zh-00016",
+      "target_id": "XML:2210754",
+      "source_hash": "24e7a8506b83c5c5fd3bbe1a62fc4fd913ad510f4293481bf0b633c577dd96ab",
+      "source_ko": "의료시설명",
+      "previous_zh": "医疗机构名称",
+      "meaning_pair_id": "ae28d08e45344c09e0372b1a4327ebedcca60ae801687fc54a5142a0155365e2",
+      "source_basis": "authoritative full Korean form with adjacent column context"
+    },
+    {
+      "row_id": "A30127-zh-00017",
+      "target_id": "XML:2210755",
+      "source_hash": "b918d5af77b8733a489218cf90ec744604ce4966780baaef23f3d1950a23813a",
+      "source_ko": "기간",
+      "previous_zh": "期间",
+      "meaning_pair_id": "4f3ca13e3b4a5d5886447ff56b20b4792507c0ac5441ae0d870f217641f15708",
+      "source_basis": "authoritative full Korean form with adjacent column context"
+    },
+    {
+      "row_id": "A30127-zh-00018",
+      "target_id": "XML:2210756",
+      "source_hash": "2797d7d1a68b6d3488573871e873a818080a4a084b68b6f0e65e399448d6c23c",
+      "source_ko": "일간",
+      "previous_zh": "(每日)",
+      "meaning_pair_id": "282400ae2a405976f5b74b20c6938817b7e44ab539aa75324e01e42bfc2d2e70",
+      "source_basis": "authoritative full Korean form with adjacent column context"
+    },
+    {
+      "row_id": "A30127-zh-00019",
+      "target_id": "XML:2210757",
+      "source_hash": "cb8c6b238f800814355e19339cd8accac66e3694f0770d65b3b95a72a190e49c",
+      "source_ko": "비고",
+      "previous_zh": "备注",
+      "meaning_pair_id": "80a469855d104eaf4cfdc8391fb770717a02983495c8e1b195a4875d4910cdc8",
+      "source_basis": "authoritative full Korean form with adjacent column context"
+    },
+    {
+      "row_id": "A30127-zh-00020",
+      "target_id": "XML:2210758",
+      "source_hash": "cbdcd3fee780c470072acb7f1d2899d8b217a944bc1ef3fcc81cacb3cd4010a3",
+      "source_ko": "귀하가 제출한 치료신청에 대하여 위와 같이 결정되었음을 통지합니다.",
+      "previous_zh": "特此通知您，关于您提交的治疗申请的决定已如上所述作出。",
+      "meaning_pair_id": "3b609921b27627d9d5aba2b3550c7788cc4d9552ba16f15ed55331fea176b7a8",
+      "source_basis": "authoritative full Korean form with adjacent column context"
+    },
+    {
+      "row_id": "A30127-zh-00021",
+      "target_id": "XML:2210759",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "source_ko": "년",
+      "previous_zh": "年份",
+      "meaning_pair_id": "51a9c53d5e91050e3abe1ef30e6743e05bc272555042d615ccb26c1cbd4bac01",
+      "source_basis": "authoritative full Korean form with adjacent column context"
+    },
+    {
+      "row_id": "A30127-zh-00022",
+      "target_id": "XML:2210760",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "source_ko": "월",
+      "previous_zh": "月份",
+      "meaning_pair_id": "fe11e2c245c4120f7ec1489f418bd7cb4dfa4f13b76bd89d3b8f839acc883cfc",
+      "source_basis": "authoritative full Korean form with adjacent column context"
+    },
+    {
+      "row_id": "A30127-zh-00023",
+      "target_id": "XML:2210761",
+      "source_hash": "dfc76879e2f5c3ead09186ff1c6b635624f96b7adbd71d94c37566429ca5df6f",
+      "source_ko": "일",
+      "previous_zh": "日",
+      "meaning_pair_id": "09573106deaddabc003ab690e51d1abb23f4c3b00649980fbc69af84c3d91542",
+      "source_basis": "authoritative full Korean form with adjacent column context"
+    },
+    {
+      "row_id": "A30127-zh-00024",
+      "target_id": "XML:2210762",
+      "source_hash": "04f7145094b522cb5dcf56c0cf4103c537ad3a1363a4a719195074519992623f",
+      "source_ko": "장관",
+      "previous_zh": "秘书",
+      "meaning_pair_id": "a304f9eeead1d683f3619a722983bb63f87c6d33bb711019e6d6c60795429fb3",
+      "source_basis": "authoritative full Korean form with adjacent column context"
+    },
+    {
+      "row_id": "A30127-zh-00025",
+      "target_id": "XML:2210763",
+      "source_hash": "c2c25ba0a53a6f7b97292cfe2d401a55b263f9c6222471a4b8a4c3509c1a4197",
+      "source_ko": "직인",
+      "previous_zh": "官方印章",
+      "meaning_pair_id": "4633b346583cfd7746b9188f967d7a4d596041a9985738cbe6b93daf23268cd6",
+      "source_basis": "authoritative full Korean form with adjacent column context"
+    },
+    {
+      "row_id": "A30127-zh-00026",
+      "target_id": "XML:2210764",
+      "source_hash": "8d1d1b9d54e7233afc4fc8aa25163b441cd97e85c6f2ca02e01ad676758a1c89",
+      "source_ko": "시ㆍ도지사",
+      "previous_zh": "市长/省长",
+      "meaning_pair_id": "1736dcbbd4b87eaf9245f79c97c46c0854c55f0d94547776b309419d5d98d0d0",
+      "source_basis": "authoritative full Korean form with adjacent column context"
+    },
+    {
+      "row_id": "A30127-zh-00027",
+      "target_id": "XML:2210765",
+      "source_hash": "5bb45a536e97c26a35db29327b00da08a2b6dc013cde0336e8afb0d6135c9a27",
+      "source_ko": "시장ㆍ군수",
+      "previous_zh": "市长/县长",
+      "meaning_pair_id": "1ec994199ba11c275cd6b5f643a1b97bc928f2c76c949594149fecaccb4cace3",
+      "source_basis": "authoritative full Korean form with adjacent column context"
+    },
+    {
+      "row_id": "A30127-zh-00028",
+      "target_id": "XML:2210766",
+      "source_hash": "7ccad476e1d798c0b3d8819350e19759027dd3d9d5d2bc522f0f182e7a51dd92",
+      "source_ko": "210mm×297mm[백상지 80g/㎡(재활용품)]",
+      "previous_zh": "210mm×297mm[白纸 80g/㎡（再生纸）]",
+      "meaning_pair_id": "fea714413c580cf501b204cafb8998d56c8fca7eb27759fb9ca926e57b047f9b",
+      "source_basis": "authoritative full Korean form with adjacent column context"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "A30127-zh-00015",
+      "target_id": "XML:2210753",
+      "source_hash": "108e44b6099164b117f3a949253dce1ed0cfe6e2f5e2ef50f7cd47972993ea8b",
+      "source_ko": "사항",
+      "previous_zh": "项目",
+      "corrected_zh": "事项",
+      "reason": "치료결정통지서의 기간·수신자·용지 규격을 표와 한국어 원문에 맞게 교정."
+    },
+    {
+      "row_id": "A30127-zh-00016",
+      "target_id": "XML:2210754",
+      "source_hash": "24e7a8506b83c5c5fd3bbe1a62fc4fd913ad510f4293481bf0b633c577dd96ab",
+      "source_ko": "의료시설명",
+      "previous_zh": "医疗机构名称",
+      "corrected_zh": "医疗设施名称",
+      "reason": "치료결정통지서의 기간·수신자·용지 규격을 표와 한국어 원문에 맞게 교정."
+    },
+    {
+      "row_id": "A30127-zh-00018",
+      "target_id": "XML:2210756",
+      "source_hash": "2797d7d1a68b6d3488573871e873a818080a4a084b68b6f0e65e399448d6c23c",
+      "source_ko": "일간",
+      "previous_zh": "(每日)",
+      "corrected_zh": "（共    日）",
+      "reason": "치료결정통지서의 기간·수신자·용지 규격을 표와 한국어 원문에 맞게 교정."
+    },
+    {
+      "row_id": "A30127-zh-00021",
+      "target_id": "XML:2210759",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "source_ko": "년",
+      "previous_zh": "年份",
+      "corrected_zh": "年",
+      "reason": "치료결정통지서의 기간·수신자·용지 규격을 표와 한국어 원문에 맞게 교정."
+    },
+    {
+      "row_id": "A30127-zh-00022",
+      "target_id": "XML:2210760",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "source_ko": "월",
+      "previous_zh": "月份",
+      "corrected_zh": "月",
+      "reason": "치료결정통지서의 기간·수신자·용지 규격을 표와 한국어 원문에 맞게 교정."
+    },
+    {
+      "row_id": "A30127-zh-00024",
+      "target_id": "XML:2210762",
+      "source_hash": "04f7145094b522cb5dcf56c0cf4103c537ad3a1363a4a719195074519992623f",
+      "source_ko": "장관",
+      "previous_zh": "秘书",
+      "corrected_zh": "部长",
+      "reason": "치료결정통지서의 기간·수신자·용지 규격을 표와 한국어 원문에 맞게 교정."
+    },
+    {
+      "row_id": "A30127-zh-00025",
+      "target_id": "XML:2210763",
+      "source_hash": "c2c25ba0a53a6f7b97292cfe2d401a55b263f9c6222471a4b8a4c3509c1a4197",
+      "source_ko": "직인",
+      "previous_zh": "官方印章",
+      "corrected_zh": "职务印章",
+      "reason": "치료결정통지서의 기간·수신자·용지 규격을 표와 한국어 원문에 맞게 교정."
+    },
+    {
+      "row_id": "A30127-zh-00026",
+      "target_id": "XML:2210764",
+      "source_hash": "8d1d1b9d54e7233afc4fc8aa25163b441cd97e85c6f2ca02e01ad676758a1c89",
+      "source_ko": "시ㆍ도지사",
+      "previous_zh": "市长/省长",
+      "corrected_zh": "市、道知事",
+      "reason": "치료결정통지서의 기간·수신자·용지 규격을 표와 한국어 원문에 맞게 교정."
+    },
+    {
+      "row_id": "A30127-zh-00027",
+      "target_id": "XML:2210765",
+      "source_hash": "5bb45a536e97c26a35db29327b00da08a2b6dc013cde0336e8afb0d6135c9a27",
+      "source_ko": "시장ㆍ군수",
+      "previous_zh": "市长/县长",
+      "corrected_zh": "市长、郡守",
+      "reason": "치료결정통지서의 기간·수신자·용지 규격을 표와 한국어 원문에 맞게 교정."
+    },
+    {
+      "row_id": "A30127-zh-00028",
+      "target_id": "XML:2210766",
+      "source_hash": "7ccad476e1d798c0b3d8819350e19759027dd3d9d5d2bc522f0f182e7a51dd92",
+      "source_ko": "210mm×297mm[백상지 80g/㎡(재활용품)]",
+      "previous_zh": "210mm×297mm[白纸 80g/㎡（再生纸）]",
+      "corrected_zh": "210mm×297mm〔白色胶版纸80g/㎡（再生纸）〕",
+      "reason": "치료결정통지서의 기간·수신자·용지 규격을 표와 한국어 원문에 맞게 교정."
+    }
+  ],
+  "validation": {
+    "unique_row_ids": true,
+    "source_hashes_match": true,
+    "korean_form_checked": true,
+    "no_mtq_start_korean_in_edits": true,
+    "total_cumulative_checked_rows": 754
+  },
+  "next_step": "Continue A30128-zh-00001; do not issue COMPLETE before all 800."
+}
