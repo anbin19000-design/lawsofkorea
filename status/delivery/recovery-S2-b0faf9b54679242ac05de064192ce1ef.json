@@ -30,7 +30,20 @@
   },
   "assistant_count": 8,
   "assistant_excerpt": "C05 개인정보 보호법 — 복구 회차 6 결과\n정상 재개 · 신규 6행 저장 완료\n\nJob ID: F-69d9e2651808803c4773\n\n공식 GitHub 확인 결과, 직전 회차는 B2 100행까지 정상 저장한 후 대화가 종료되어 작업이 정체된 상태였습니다. 원문 변경, 401/403 권한 거절, 안전·보호 보류는 발견되지 않았습니다.\n\n이번 회차 검수·저장\n\n한국어 원문을 기준으로 B2-zh-00101부터 B2-zh-00106까지 6행을 대조하고 교정했습니다. 각 구간은 별도 파일로 저장한 뒤 다시 읽어 검증했습니다.\n\n교정 행 ID\n\n\t\n\n신규 커밋 SHA\n\n\t\n\n결과\n\n\n\n\nB2-zh-00101~00102\n\n\t\n\n394257c90b07d0567da9ac0ca09b097fff7304a5\n\n\t\n\n\n\n\nB2-zh-00103~00104\n\n\t\n\neab0b2bf6e1ea049edd7382b30ab07b6998a529a\n\n\t\n\n\n\n\nB2-zh-00105~00106\n\n\t\n\n6d156b7b5a8dff82fd435d42faa4c5a0d86644c1\n\n\t\n\n마지막 파일 SHA: beeb3d9c23bb6a4315ddf60f02e4e89d24d59840\n\n마지막 저장 파일 — B2 105~106행\n\n주요 교정 내용은 개인정보 처리정지 절차, 자동화된 결정에 대한 거부·설명 요구, 처리 기한, 대리인 확인 및 행정정보 조회 범위입니다.\n\n현재 작업 상태\n\n현재 상태: IN_PROGRESS\n\n마지막 검수 행: B2-zh-00106\n\n다음 미검수 행: B2-zh-00107\n\n원본: 한국어·중국어·영어 SHA 불변\n\n기존 검수 기록: 보존\n\n운영 DB: 변경 없음\n\n전체 8개 문서·1,102행 검수는 아직 완료되지 않았으므로 최종 검수 파일과 COMPLETE 영수증은 생성하지 않았습니다.",
+  "attempted_at": "2026-11-07T20:56:58.892835+00:00",
   "created_at": "2026-11-07T20:56:49.421574+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-b0faf9b54679242ac05de064192ce1ef",
+    "attempted_at": "2026-11-07T20:56:58.892835+00:00",
+    "claim_commit": "ba27955451d13072713af9a7d179c4595a537dca",
+    "event_id": "obs-619d4c8a0682bad573e467ed699194985b50584c",
+    "job_id": "F-69d9e2651808803c4773",
+    "record_path": "status/delivery/recovery-S2-b0faf9b54679242ac05de064192ce1ef.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C05"
+  },
   "episode": 7,
   "event_id": "obs-619d4c8a0682bad573e467ed699194985b50584c",
   "job_id": "F-69d9e2651808803c4773",
@@ -408,7 +421,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-3ffdeae3fd100e29651f6508]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "7494706609e8b7392de6cd2a3542b156a5b22806",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef7d43-15a0-83ec-aa7c-49604588653d",
   "worker": "C05"
 }
