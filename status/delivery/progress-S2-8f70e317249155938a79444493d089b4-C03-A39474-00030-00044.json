@@ -1,0 +1,58 @@
+{
+  "schema": "LAW_ZH_PARTIAL_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A39474",
+  "range": {
+    "first": "A39474-zh-00030",
+    "last": "A39474-zh-00044"
+  },
+  "checked_rows": 15,
+  "corrected_rows": 8,
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "edits": [
+    {
+      "id": "A39474-zh-00031",
+      "source_hash": "04a976184d0c070209b98775a95d0c9b828cdef768c3534093e018e7d252e64a",
+      "text": "甲. 设立标准"
+    },
+    {
+      "id": "A39474-zh-00033",
+      "source_hash": "50331dce37f50a8b2ae40a3d715543d6030573b19d84785602d33f0e0ce190ef",
+      "text": "甲）应配备能够开展法第十五条第二款第一项规定的举报受理及同款第三项至第五项"
+    },
+    {
+      "id": "A39474-zh-00034",
+      "source_hash": "569046c4dacf827d6530e4b2cc1e8bcdf5bb140c5fbab28cffcb2a937db966dc",
+      "text": "规定的业务所需的空间和设备。"
+    },
+    {
+      "id": "A39474-zh-00038",
+      "source_hash": "4fbaff60e2f25acd150adf1d9a895a85a825a0d4b8af6a14fdf80c6773e4be8c",
+      "text": "甲）应设置面积不少于16.5平方米的独立空间。"
+    },
+    {
+      "id": "A39474-zh-00041",
+      "source_hash": "38b706614c279855f973db4342f6ea4af28f8fc1f56d43f03b336e5794eacaa6",
+      "text": "丙）应确保留有足够空间，放置为儿童、青少年、残疾人、外国人等提供咨询时所需的沟通辅助"
+    },
+    {
+      "id": "A39474-zh-00042",
+      "source_hash": "87197170e1b1e3aa6ac2fa83214ea2e070ea9d8569760f07b049d52eb41d5841",
+      "text": "工具。"
+    },
+    {
+      "id": "A39474-zh-00043",
+      "source_hash": "25c972a59dd9e8dc4072e179d3bca13008863194a015563cc0b7d41f49d0d98c",
+      "text": "丁）咨询室应配备经当事人同意后可以录制咨询过程的设备和"
+    },
+    {
+      "id": "A39474-zh-00044",
+      "source_hash": "6c0e686daa29a450383ffde6f0c0cf60bdf61a0384f0e80d8c4ccdd7248aba70",
+      "text": "用品。"
+    }
+  ],
+  "note": "Reviewed Annex 1 regional-office facilities requirements in Korean source and segmented Chinese XML texts. Corrected installation heading, explicit report intake and duties article citations, 16.5 square-meter room requirement, counseling communication tools with START corruption in row 42, consultation recording equipment and supplies. All original row IDs/hashes kept."
+}
