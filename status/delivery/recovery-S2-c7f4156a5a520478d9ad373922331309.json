@@ -30,7 +30,20 @@
   },
   "assistant_count": 6,
   "assistant_excerpt": "",
+  "attempted_at": "2026-11-07T15:27:03.447297+00:00",
   "created_at": "2026-11-07T15:26:56.240931+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-c7f4156a5a520478d9ad373922331309",
+    "attempted_at": "2026-11-07T15:27:03.447297+00:00",
+    "claim_commit": "fa681298287d2c6ebb243f8f34e8caa24d037575",
+    "event_id": "obs-844d563e0b248eba0f3dd023a22a0b0b02f999f2",
+    "job_id": "F-808418a6cfdf53bd778e",
+    "record_path": "status/delivery/recovery-S2-c7f4156a5a520478d9ad373922331309.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C02"
+  },
   "episode": 1,
   "event_id": "obs-844d563e0b248eba0f3dd023a22a0b0b02f999f2",
   "job_id": "F-808418a6cfdf53bd778e",
@@ -41,7 +54,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-d15aa989610df78cc05b5908]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "1d443cb5c4e609c62b5279bfc3ebcb6add6ae996",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef3fca-f494-83ec-8be2-5de5971e6c3d",
   "worker": "C02"
 }
