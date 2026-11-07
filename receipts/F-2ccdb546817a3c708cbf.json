@@ -1,0 +1,8 @@
+{
+  "job_id": "F-2ccdb546817a3c708cbf",
+  "worker": "C06",
+  "checked_rows": 171,
+  "corrected_rows": 80,
+  "status": "COMPLETE",
+  "note": "Completed all 171 Chinese rows in 4 documents: Act 66, Enforcement Decree 39, fine schedule 30, waiver application form 36. Corrected Act 13, Decree 19, fine schedule 25, form 23 unique row IDs. Korean source authoritative and laws/ko, laws/zh, laws/en blobs match base 86371ae6984f6c003430be0421c7ecd613350fae. Attached schedule fine amounts: 300/400/500 units of 10,000 KRW for 1st/2nd/3rd+ offences; reduction exceptions and form withdrawal restrictions verified. Legacy appended schedule/form duplicate in B2 final row retained and corrected without altering row spans or IDs. Review saved and verified first; receipt committed separately. No laws/* modifications. Operating DB synchronization is separate."
+}
