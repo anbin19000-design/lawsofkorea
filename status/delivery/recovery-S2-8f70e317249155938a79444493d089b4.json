@@ -30,7 +30,20 @@
   },
   "assistant_count": 11,
   "assistant_excerpt": "되고 기존 진행 파일도 보존되어 있습니다. 권한 거절, STOP 또는 원본 변경은 확인되지 않았습니다.\n\n2. 이번 회차 실행 실적\n\n신규 검수 구간\n\n\t\n\n검수 행\n\n\t\n\n교정 행\n\n\t\n\n저장·재조회\n\n\n\n\nB2-00007~00012\n\n\t\n\n6\n\n\t\n\n3\n\n\t\n\n\n\n\nB2-00013~00017\n\n\t\n\n5\n\n\t\n\n3\n\n\t\n\n\n\n\nB2-00018~00022\n\n\t\n\n5\n\n\t\n\n3\n\n\t\n\n\n\n\nB2-00023~00027\n\n\t\n\n5\n\n\t\n\n3\n\n\t\n\n\n\n\n합계\n\n\t\n\n21\n\n\t\n\n12\n\n\t\n\n4개 파일\n\n주요 교정에는 판정위원회 위원의 제척·기피·회피 구분, 교육기관 관련 명칭, 의료비 지원 항목, 귀국지원과 강제퇴거의 의미 구분, 행정처분 사유 및 시설 종류 열거 누락이 포함됩니다.\n\n3. 마지막 저장 검증\n\n마지막 구간: B2-zh-00023~00027\n\n커밋 SHA: 769bb827d9db27fbc257b2b7c220f2fe076beaf9\n\n파일 SHA: 86b3766ca65a9f94edb59c5f33a659a11b9e4f07\n\n상태: IN_PROGRESS\n\n확인: 공식 GitHub Contents API 저장 후 main 재조회 성공\n\n4. 누적 상태\n\n검수 기록 96 / 1,136행\n\n8.5%\n\nB1 법률: 62행 검수 기록\n\nB2 시행령: 27행 검수 기록\n\n기존 서식: 7행 교정 보존\n\n누적 고유 교정: 52행\n\n남은 미검수 행: 1,040행\n\n다음 시작점: B2-zh-00028\n\n최종 review/zh와 receipts 파일은 생성하지 않았으며, 운영 DB도 변경하지 않았습니다.\n\nC03 상태: IN_PROGRESS. 기존 배정을 유지하며 다음 미검수 구간은 B2-zh-00028입니다. 전체 22개 문서와 1,136행 검수가 완료되기 전에는 COMPLETE를 선언하지 않습니다.",
+  "attempted_at": "2026-11-07T20:43:59.334329+00:00",
   "created_at": "2026-11-07T20:43:51.089461+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-8f70e317249155938a79444493d089b4",
+    "attempted_at": "2026-11-07T20:43:59.334329+00:00",
+    "claim_commit": "9fff782863b913689074d396a044732bcac92186",
+    "event_id": "obs-bac852c72598e62f4c1a455f679664486084494d",
+    "job_id": "F-0536890d62605f77ff0a",
+    "record_path": "status/delivery/recovery-S2-8f70e317249155938a79444493d089b4.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C03"
+  },
   "episode": 5,
   "event_id": "obs-bac852c72598e62f4c1a455f679664486084494d",
   "job_id": "F-0536890d62605f77ff0a",
@@ -286,7 +299,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-51d8a280872947bc066c4690]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "4a5a68881fc9ee5871f37208ca16704dbbf633a7",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef6ce4-cab4-83ee-a2bc-eaab0e4c9392",
   "worker": "C03"
 }
