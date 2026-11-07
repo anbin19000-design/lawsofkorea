@@ -1,27 +1,27 @@
 {
-  "assignment_id": "S2-b773a5fdc64ddef3ca1501d3d6f06cd1",
-  "claimed_at": "2026-11-07T09:21:57.203477+00:00",
+  "assignment_id": "S2-11966d825cf062f036d87d6824ef1600",
+  "claimed_at": "2026-11-07T09:25:48.599932+00:00",
   "conversation_hash": "3bec932063217ed973d0ea114518f9e9fcf5e4e43d69e3b6bae750a676062cab",
-  "delivery_status": "SENT_VERIFIED",
-  "documents": 3,
-  "event_id": "obs-6247468853af1dde0d17fe4ee8dabbcb2de11238",
-  "family_id": "F-31e11cb4ec52f5ea0a36",
-  "job_id": "F-31e11cb4ec52f5ea0a36",
-  "marker": "[LAW-SUPPLY-V2:S2-b773a5fdc64ddef3ca1501d3d6f06cd1:C05:F-31e11cb4ec52f5ea0a36]",
+  "delivery_status": "INTENT_RECORDED_NO_RESEND",
+  "documents": 2,
+  "event_id": "obs-0b70504e88514471925864ca92742030b540e4d6",
+  "family_id": "F-b6d070904fd323c826e4",
+  "job_id": "F-b6d070904fd323c826e4",
+  "marker": "[LAW-SUPPLY-V2:S2-11966d825cf062f036d87d6824ef1600:C05:F-b6d070904fd323c826e4]",
   "panel_id": "panel-05",
   "pc": "WORK-C",
   "prompt_format": "no-terminal-lf",
-  "rows": 246,
+  "rows": 253,
   "schema": "LAW_SUPPLIER_ASSIGNMENT_V2",
   "source_blobs": {
-    "en": "33e79f99ada8b19b9257e7578db6207b6f8ee665",
-    "ko": "d5e7d3cd846e73c8a3f67610da3f48be876b0c41",
-    "zh": "1b75c67301deec2a1ede24899742485897a1419d"
+    "en": "65a82b3a068d733f2aec11c3a2d5919d8cd21e3c",
+    "ko": "ef41d5e0b0ae8f98fe0b03b47552b5c0ae4e8e64",
+    "zh": "565b3a34f1bb3cbdbc906a117a8d867834c29123"
   },
-  "source_commit": "3f9c2503908c7e6f42ce820afcbf25592a8b84b7",
+  "source_commit": "0936ff12e736a84ef37adb07bfa20c6271277a3e",
   "status": "ACTIVE",
-  "title": "여수세계박람회 기념 및 사후활용에 관한 특별법",
+  "title": "한국가스공사법",
   "unit_policy": "ACT_DECREE_RULE_ANNEX_FORMS_ONE_FAMILY",
   "worker": "C05",
-  "write_protocol": "contents-zh-v2"
+  "write_protocol": "contents-zh-v3"
 }
