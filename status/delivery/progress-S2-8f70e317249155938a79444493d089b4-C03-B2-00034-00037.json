@@ -1,0 +1,28 @@
+{
+  "schema": "LAW_ZH_PARTIAL_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "B2",
+  "range": {
+    "first": "B2-zh-00034",
+    "last": "B2-zh-00037"
+  },
+  "checked_rows": 4,
+  "corrected_rows": 2,
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "edits": [
+    {
+      "id": "B2-zh-00036",
+      "source_hash": "bda0b802583b02be9faf66d507c8d73c045b1efbe91f3fd0540b1738533ffac0",
+      "text": "第四条（其他法令的修改）①至〈16〉省略。\n〈17〉《防止人口贩运等及保护受害者等法施行令》部分修改如下。\n将第二条第一款至第四款、第三条第一款至第五款、第五条第三款第七项及同条第四款、第六条第一款至第三款、第七条第一款及同条第三款至第五款、第十四条第一款各项以外的部分及同条第二款、第十八条第一款各项以外的部分及同条第四款、同条第五款正文、第二十条第一款各项以外的部分及同款第一项、同条第二款至第四款、第二十一条第一款第三项、第二十六条第十项、第二十七条各项以外的部分以及第二十九条各项以外的部分中的“女性家庭部部长”分别改为“性别平等家庭部部长”。\n将第七条第三款、第四款、第二十条第二款、第三款及第二十三条第二款至第五款中的“女性家庭部令”分别改为“性别平等家庭部令”。\n〈18〉至〈24〉省略。\n\n"
+    },
+    {
+      "id": "B2-zh-00037",
+      "source_hash": "79b40d807e209f4b58d1828a35f118756df5eca9050707168b38dcceb8dca8d1",
+      "text": "附则（关于部分修改四项法令以便利国民履行行政义务行为的总统令）〈第36221号，2026年3月24日〉\n\n本令自公布之日起施行。\n\n"
+    }
+  ],
+  "note": "Compared last four decree rows against Korean source. Article 4 transitional amendment replaces old Ministry name with new Ministry name; original Chinese had same name on both sides. Row 37 contained substantial text from following annex beyond its source range, removed only out-of-range content. Rows 34 and 35 preserved. Not complete job."
+}
