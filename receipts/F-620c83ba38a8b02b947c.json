@@ -1,0 +1,8 @@
+{
+  "job_id": "F-620c83ba38a8b02b947c",
+  "worker": "C01",
+  "checked_rows": 817,
+  "corrected_rows": 109,
+  "status": "COMPLETE",
+  "note": "Completed Chinese review across all 20 documents and 817 translation rows against the Korean source pinned at 1853987cd9b3b9f81a139fc258f4ed8ca0d0300a. 109 unique row corrections address untranslated Korean, MTQ/START artifacts, statutory title and citation consistency, coastal safety terminology, safety personnel and equipment standards, administrative fine standards, and form processing-time labels. The Korean source SHA is unchanged between the pinned commit and main. English source documents and the reviewed English rule translation were consulted as secondary references; no matching meaning/pairs file was found at the checked candidate paths. Laws files were not modified. This receipt records repository review storage only, not operational database application."
+}
