@@ -1,0 +1,8 @@
+{
+  "job_id": "F-54b6941a3ba1c50a4c64",
+  "worker": "C02",
+  "checked_rows": 823,
+  "corrected_rows": 45,
+  "status": "COMPLETE",
+  "note": "Reviewed all 823 unique Chinese rows across all 13 documents against the Korean source. Applied 45 unique minimal corrections, including legal instrument/title distinctions (Act vs Enforcement Decree), incorrect statutory citations and terminology, duplicated/misnumbered clauses, form-title and user-category corrections, and removal of MTQ/START artifacts and unrelated form text appended to a decree row. Verified final corrected text has no remaining MTQ markers, START artifacts, or Korean fragments. Korean source blob SHA 977740d1801878ba080d0a0f560450ab5e18efa9 matches the supplied baseline commit. Review storage is separate from operational database application."
+}
