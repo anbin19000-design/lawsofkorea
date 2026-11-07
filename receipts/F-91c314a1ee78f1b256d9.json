@@ -1,0 +1,8 @@
+{
+  "job_id": "F-91c314a1ee78f1b256d9",
+  "worker": "C02",
+  "checked_rows": 533,
+  "corrected_rows": 254,
+  "status": "COMPLETE",
+  "note": "Reviewed all eight documents in the Stamp Tax Act family against Korean source at baseline commit 35782b6a09ba58bb5144ba556699d529fac32da3. Corrected tax terminology and legal references, definitions and taxable-document amount calculations, cash-payment marking application/approval and printing completion forms, refund/deduction application, and proxy payment declaration. Removed MTQ/START-related artifacts and repaired form labels, processing terms and statutory references. Verified 533 unique source rows and 254 unique nonempty correction IDs. Original laws/* unchanged; review file verified before separate receipt commit. Operational DB not modified."
+}
