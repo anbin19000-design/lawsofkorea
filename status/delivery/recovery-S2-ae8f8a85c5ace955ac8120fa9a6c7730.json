@@ -30,7 +30,20 @@
   },
   "assistant_count": 8,
   "assistant_excerpt": "절 확인되지 않음\n\n최종 검수 파일과 완료 영수증은 아직 없음\n\n2. 신규 중간 저장\n\n규제신속확인 신청서 A25468의 한국어 원문과 중국어를 대조하여 17행의 교정문을 저장했습니다.\n\n신규 GitHub 커밋 SHA\n\n347b0180ddc62a2a2f39f7ffd9f22b3465390b94\n\n저장 파일 Blob SHA\n\n689f2174adf7647db1f52138c38c09f1a76a5906\n\n공식 GitHub Contents API로 저장한 뒤 main에서 다시 읽어 교정문 17개, 원본 해시, 고유 행 ID 및 IN_PROGRESS 상태를 확인했습니다.\n\n3. 추가 검수 및 저장\n\n규제신속확인 결과 통지서 A25469에서 기존에 교정한 행을 제외하고 10행을 추가 교정했습니다.\n\n실제 교정 행 ID:\n\nA25469-zh-00001, 00002, 00004, 00008, 00011, 00013~00016, 00018\n\n신규 커밋 SHA: d8afa0fb6b4c2723e193c711766dc95e1c2af3c5\n\nBlob SHA: 2084b8284246eed4480363770fcfeeae75eb04aa\n\n4. 회차 7 최종 검증\n\n이번 회차 신규 교정\n\n27행\n\n누적 저장된 교정문\n\n184행\n\n공식 GitHub에서 누적 중간 파일 13개를 재조회했습니다. 교정문 184행의 ID가 모두 고유하며, 교정문·원본 해시·대상 ID가 보존돼 있습니다.\n\n다음 순차 검수 시작 행: A25470-zh-00001 — 스마트혁신사업·스마트실증사업 연장신청서.\n\n법률 B1, 시행령 B2 및 나머지 서식의 전체 대조도 계속 필요합니다.\n\n전체 17개 문서·1,133행 검수는 미완료이므로 COMPLETE 및 최종 영수증을 생성하지 않았습니다. 운영 DB는 변경하지 않았으며 같은 Job ID를 유지합니다.",
+  "attempted_at": "2026-11-07T20:51:48.594552+00:00",
   "created_at": "2026-11-07T20:51:38.675440+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+    "attempted_at": "2026-11-07T20:51:48.594552+00:00",
+    "claim_commit": "53cda863412f461b0fa47b3af13be4084dcedd11",
+    "event_id": "obs-10274654c59d68b88f74ff54a4de161080c5fb0b",
+    "job_id": "F-81e30c25fcbea5af2364",
+    "record_path": "status/delivery/recovery-S2-ae8f8a85c5ace955ac8120fa9a6c7730.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C02"
+  },
   "episode": 8,
   "event_id": "obs-10274654c59d68b88f74ff54a4de161080c5fb0b",
   "job_id": "F-81e30c25fcbea5af2364",
@@ -469,7 +482,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-e275a78cd7df81b391cd606c]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "0ccd0283861510de034dead2d91ca39c066563ac",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef6c60-9e78-83ee-8cce-939d00e6c476",
   "worker": "C02"
 }

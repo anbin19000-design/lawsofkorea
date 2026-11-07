@@ -30,7 +30,20 @@
   },
   "assistant_count": 8,
   "assistant_excerpt": "\n\n\t\n\n10\n\n\t\n\n\n\n\nA39474-00030~00044\n\n\t\n\n15\n\n\t\n\n8\n\n\t\n\n\n\n\nA39474-00045~00065\n\n\t\n\n21\n\n\t\n\n9\n\n\t\n\n\n\n\nA39474-00066~00078\n\n\t\n\n13\n\n\t\n\n10\n\n\t\n\n\n\n\nA39475-00001~00015\n\n\t\n\n15\n\n\t\n\n12\n\n\t\n\n\n\n\n합계\n\n\t\n\n81\n\n\t\n\n49\n\n\t\n\n5개 파일 검증\n\n주요 교정 내용은 별표 1의 장부·회계처리, 응급보호실 시설기준, 상담실 의사소통 지원 도구의 START 오염, 별표 2의 사회복지사 자격과 경력 요건입니다.\n\n3. 마지막 GitHub 저장 결과\n\n마지막 구간 A39475-zh-00001~00015\n\n커밋 SHA: f4c9625aec600d4343a631c93d9f9b036e22dbc8\n\n파일 SHA: 5476d5ae6800110eff5e5d93543c4b7271fc41eb\n\n검수: 15행\n\n교정: 12행\n\n상태: IN_PROGRESS\n\n마지막 저장 파일 확인\n\n4. 누적 진행 상태\n\n199 / 1,136행\n\n17.5%\n\nB1 법률: 62행 검수 기록 완료\n\nB2 시행령: 37행 검수 기록 완료\n\nA39474 별표 1: 78행 검수 기록 완료\n\nA39475 별표 2: 15 / 53행 검수\n\n기존 서식: 7행 교정 보존\n\n누적 고유 교정: 113행\n\n남은 미검수: 937행\n\n다음 시작점: A39475-zh-00016\n\n5. 최종 상태\n\n최종 review/zh와 receipts 파일은 아직 생성하지 않았습니다. 운영 DB와 기존 원본도 변경하지 않았습니다.\n\nC03 상태: IN_PROGRESS. 이번 회차에서 실제 교정 49행을 신규 저장했고, 모두 공식 GitHub Contents API 재조회로 확인했습니다. 전체 검수가 끝나지 않았으므로 COMPLETE를 선언하지 않습니다.",
+  "attempted_at": "2026-11-07T20:51:48.594567+00:00",
   "created_at": "2026-11-07T20:51:39.670621+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-8f70e317249155938a79444493d089b4",
+    "attempted_at": "2026-11-07T20:51:48.594567+00:00",
+    "claim_commit": "53cda863412f461b0fa47b3af13be4084dcedd11",
+    "event_id": "obs-b9ab27d6a18cdccf110bb5d6cd3b6fd228f347a7",
+    "job_id": "F-0536890d62605f77ff0a",
+    "record_path": "status/delivery/recovery-S2-8f70e317249155938a79444493d089b4.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C03"
+  },
   "episode": 7,
   "event_id": "obs-b9ab27d6a18cdccf110bb5d6cd3b6fd228f347a7",
   "job_id": "F-0536890d62605f77ff0a",
@@ -408,7 +421,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-4b33458d03354b4fe5bd2651]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "0ccd0283861510de034dead2d91ca39c066563ac",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef6ce4-cab4-83ee-a2bc-eaab0e4c9392",
   "worker": "C03"
 }
