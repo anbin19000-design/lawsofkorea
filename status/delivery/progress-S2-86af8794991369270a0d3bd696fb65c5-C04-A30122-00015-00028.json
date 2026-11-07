@@ -1,0 +1,507 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B1-01.json",
+      "blob_sha": "69fcf795c9621b125ae73864793ee4064bd4b815",
+      "document_key": "B1",
+      "rows_checked": 145,
+      "rows_corrected": 26
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "blob_sha": "aeba15bca83d7887b5e9f7ce393fba770a9b5faa",
+      "verified_rows": 12,
+      "documents": [
+        "A30118",
+        "A30120"
+      ]
+    },
+    {
+      "path": "status/delivery/verified-step-S2-86af8794991369270a0d3bd696fb65c5-C04-CHECKPOINT-166-01.json",
+      "blob_sha": "33003dbd344370d5b2cf92bb05838b92b144a7ba",
+      "status": "INTENT_NO_RESEND"
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-01.json",
+      "blob_sha": "5f92fef46a104d832b4e6944e94ab8ba7257dda1",
+      "document_key": "B2",
+      "rows_checked": 36,
+      "rows_corrected": 31
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00037-00044.json",
+      "blob_sha": "31d1e93b2b7bc2aab9430a0d4b201c246301d1c5",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00045-00052.json",
+      "blob_sha": "be37a2f05e6c47bf33ec4ea58b1d6163df4b96a1",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00053-00060.json",
+      "blob_sha": "385725a9ff5c6f74e8cb723a6fc91fbcf072d639",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00061-00072.json",
+      "blob_sha": "4573174026ca13b9d49225d71e76f10c6ab2d76f",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00073-00084.json",
+      "blob_sha": "eb20464990f1e23042b03e95a20ed243fed5c555",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00085-00104.json",
+      "blob_sha": "30ba440fd5a8c3e355e8e79c418c6c9b7adcaa9f",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00105-00124.json",
+      "blob_sha": "3fe79039feaa1febde3bcd60b4397e5a52301b9e",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00125-00144.json",
+      "blob_sha": "3fe9aed92331bbf966efeff025964f461a605d6b",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00145-00164.json",
+      "blob_sha": "ab61b90a9bc19864b55a54b55cce703f9cb22470",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 12
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00165-00184.json",
+      "blob_sha": "68f3e74081cab6a1e84a178d3404ae96facceabe",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00185-00204.json",
+      "blob_sha": "81c7f57799a8550b49975c68793c0c3de622e902",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00205-00208.json",
+      "blob_sha": "feda2b38822c3429ef5493d37b044d1e5ef9ff86",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00209-00212.json",
+      "blob_sha": "08cb0522bc3ceae21d3d76fb56b95152a08fc246",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00213-00223.json",
+      "blob_sha": "a7fecc1db30a21c0677eaf0e6696e8267404fdbd",
+      "document_key": "B2",
+      "rows_checked": 11,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00224-00224.json",
+      "blob_sha": "7ce857683229c544c015843cb5da47ec2c5ea6ed",
+      "document_key": "B2",
+      "rows_checked": 1,
+      "rows_corrected": 1
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00225-00244.json",
+      "blob_sha": "bde39fb81d1a2fe5f6acbc78ab2d929732f8cb58",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00245-00264.json",
+      "blob_sha": "52e222a297a0913cce11527a0e6db004f8de1012",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00265-00272.json",
+      "blob_sha": "ed666acab2f084c7266595060f136c7c5c4c90aa",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "preserved_preverified_ids": [
+        "A30118-zh-00029",
+        "A30118-zh-00030"
+      ]
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30118-00001-00014.json",
+      "blob_sha": "b0ec0f1cc7e719106067960812e69c7bed03cfb5",
+      "document_key": "A30118",
+      "rows_checked": 14,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30118-00015-00028.json",
+      "blob_sha": "f0db9312e41184469f9b91334aac527a58a0871b",
+      "document_key": "A30118",
+      "rows_checked": 14,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30118-00031-00038.json",
+      "blob_sha": "2349cd68ccb30b9a5cd817d6446e0146920045e2",
+      "document_key": "A30118",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00001-00014.json",
+      "blob_sha": "691b91f81935198f72df0af0f3591c64a3573fde",
+      "document_key": "A30120",
+      "rows_checked": 14,
+      "rows_corrected": 14
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00015-00019.json",
+      "blob_sha": "f8689815603add57b3f7f545d07d19967926556c",
+      "document_key": "A30120",
+      "rows_checked": 5,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00024-00028.json",
+      "blob_sha": "be641e075a3db3268ad4d76b449384d52da6643c",
+      "document_key": "A30120",
+      "rows_checked": 5,
+      "rows_corrected": 3
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00030-00030.json",
+      "blob_sha": "ce8293ae3d09532ae16961e355e2bebe0dcc67aa",
+      "document_key": "A30120",
+      "rows_checked": 1,
+      "rows_corrected": 1
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00034-00042.json",
+      "blob_sha": "799d80439c9bb29fec77171c7e5879f1685850fc",
+      "document_key": "A30120",
+      "rows_checked": 9,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00043-00051.json",
+      "blob_sha": "56bbddb7099852f03248f5c7b171de53e074c16a",
+      "document_key": "A30120",
+      "rows_checked": 9,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00054-00057.json",
+      "blob_sha": "38ff001d94b8c1838a627577caeed53074df5c95",
+      "document_key": "A30120",
+      "rows_checked": 4,
+      "rows_corrected": 3
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30121-00001-00014.json",
+      "blob_sha": "32ee47e3078fe0c97a8473811f9e96c7116424bc",
+      "document_key": "A30121",
+      "rows_checked": 14,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30121-00015-00028.json",
+      "blob_sha": "b8d7a71e92a0efe67fc79a42c926b0d87be8e82d",
+      "document_key": "A30121",
+      "rows_checked": 14,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30122-00001-00014.json",
+      "blob_sha": "9b20336051ee6cfb635fe2f7759b287cc4497858",
+      "document_key": "A30122",
+      "rows_checked": 14,
+      "rows_corrected": 11
+    }
+  ],
+  "document": {
+    "key": "A30122",
+    "kind": "서식",
+    "title": "의무경찰 지원서",
+    "source_hash": "9f5e31fb17107478538cb0b29c1da76def458bfb17e969657bbf92a6d50c79d9",
+    "rows_checked": 14,
+    "rows_corrected": 6,
+    "document_review_state": "IN_PROGRESS"
+  },
+  "range": {
+    "first_row_id": "A30122-zh-00015",
+    "last_row_id": "A30122-zh-00028",
+    "verified_row_count": 14
+  },
+  "verified_rows": [
+    {
+      "row_id": "A30122-zh-00015",
+      "target_id": "XML:2210553",
+      "source_hash": "4b7b7cce89b7c68d9d52489e915203299dc647b0045e328c693c135e8566a602",
+      "source_ko": "전자우편주소",
+      "previous_zh": "电子邮件地址",
+      "meaning_pair_id": "5549d049d9498a11533ba725cff93a5e854720ce2f6291cf762d907cdc72a121",
+      "meaning_pair_path": "meaning/pairs/55.jsonl",
+      "meaning_pair_blob_sha": "6f6ac13f84ef9b7b4bd64b0776cb4e174d3dd39a"
+    },
+    {
+      "row_id": "A30122-zh-00016",
+      "target_id": "XML:2210554",
+      "source_hash": "4edc94394feec0a6ca6b04c04db74384ad82a009922c2195ea48a7c1cda5088e",
+      "source_ko": "전화번호",
+      "previous_zh": "电话号码",
+      "meaning_pair_id": "6ffa44ae1b675b1eea3146f7012006e3eb6895cc75c288e381de8ea431a17e43",
+      "meaning_pair_path": "meaning/pairs/6f.jsonl",
+      "meaning_pair_blob_sha": "bde7569ce93080fdd0de8004f73c13f3f6a3cc32"
+    },
+    {
+      "row_id": "A30122-zh-00017",
+      "target_id": "XML:2210555",
+      "source_hash": "4cff263d7616dfda157087cdd395106f52b807fc14b4216ad1cb3bb0c9b95eb9",
+      "source_ko": "휴대전화번호",
+      "previous_zh": "手机号码",
+      "meaning_pair_id": "2ca4b02588d73e8b7e96ff87b734e04b330a8e47ddfb4f98b89436441289feee",
+      "meaning_pair_path": "meaning/pairs/2c.jsonl",
+      "meaning_pair_blob_sha": "ac2bb2fcd5793acb805ddc97a473307090454ab8"
+    },
+    {
+      "row_id": "A30122-zh-00018",
+      "target_id": "XML:2210556",
+      "source_hash": "bf80ceffdd6970df0a7311a028a4aed6ca592a0d32fb600ac8ad203f04226b72",
+      "source_ko": "그 밖의 특이사항",
+      "previous_zh": "其他详情",
+      "meaning_pair_id": "f9afe8b833f8d9805dcc704696f49bccaa204b66d2a0d61fe50e0c3144b7d8f9",
+      "meaning_pair_path": "meaning/pairs/f9.jsonl",
+      "meaning_pair_blob_sha": "169cdeed8cec1b529b86835d1ed6ed7fa9c60cb0"
+    },
+    {
+      "row_id": "A30122-zh-00019",
+      "target_id": "XML:2210557",
+      "source_hash": "10324b24f41abdd90132d2953164036231b6a38f9d1d6859c15bef471d548ec2",
+      "source_ko": "「병역법」 제20조 및 「의무경찰대 설치 및 운영에 관한 법률 시행령」 제9조에 따라 의무경찰 모집",
+      "previous_zh": "根据《兵役法》第20条和《警察部队设立和运作法实施令》第9条的规定，招募义务警员。",
+      "meaning_pair_id": "ea0f2238833c9f9cbb7d38e2bc9241abb766c9bfde97d98dff6f5183f897a33b",
+      "meaning_pair_path": "meaning/pairs/ea.jsonl",
+      "meaning_pair_blob_sha": "856389ad1abc6a649d7d8c36033ec972f7089275"
+    },
+    {
+      "row_id": "A30122-zh-00020",
+      "target_id": "XML:2210558",
+      "source_hash": "160e715fc5ecfe7bb5e593b0bae0c550fc99a06752105c7922a9279036e34086",
+      "source_ko": "에 응시하기 위하여 지원서를 제출합니다.",
+      "previous_zh": ".",
+      "meaning_pair_id": "cdbeac167d9c023e68b8782c082fabc939a0d401bfc60003b308ea77f8555f52",
+      "meaning_pair_path": "meaning/pairs/cd.jsonl",
+      "meaning_pair_blob_sha": "2e2b66adc79e6a68f866c9447d1b035ba9beda7b"
+    },
+    {
+      "row_id": "A30122-zh-00021",
+      "target_id": "XML:2210559",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "source_ko": "년",
+      "previous_zh": "年份",
+      "meaning_pair_id": "51a9c53d5e91050e3abe1ef30e6743e05bc272555042d615ccb26c1cbd4bac01",
+      "meaning_pair_path": "meaning/pairs/51.jsonl",
+      "meaning_pair_blob_sha": "2a81adc629ef25015135b3e8aeaefa4b1a7069b6"
+    },
+    {
+      "row_id": "A30122-zh-00022",
+      "target_id": "XML:2210560",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "source_ko": "월",
+      "previous_zh": "月份",
+      "meaning_pair_id": "fe11e2c245c4120f7ec1489f418bd7cb4dfa4f13b76bd89d3b8f839acc883cfc",
+      "meaning_pair_path": "meaning/pairs/fe.jsonl",
+      "meaning_pair_blob_sha": "9931861966dfb563168bf709151bcce4f1995af5"
+    },
+    {
+      "row_id": "A30122-zh-00023",
+      "target_id": "XML:2210561",
+      "source_hash": "1bfa95cfdfb79f2ff0ecd2412e922b1aeb3936cb6a915f5ec6569fc9388a5768",
+      "source_ko": "일장",
+      "previous_zh": "日长度",
+      "meaning_pair_id": "0e8e26220215656597e4a378adf75efc1d044b91c099bb5e2cd611ade3f8022c",
+      "meaning_pair_path": "meaning/pairs/0e.jsonl",
+      "meaning_pair_blob_sha": "291c4b8ce746b9352333871790c23d6d7182dd8f"
+    },
+    {
+      "row_id": "A30122-zh-00024",
+      "target_id": "XML:2210562",
+      "source_hash": "ad73d0e027763da5a53bb49fb413f1a319302313170114e933ee4a2d61bcd51e",
+      "source_ko": "지원자",
+      "previous_zh": "申请人",
+      "meaning_pair_id": "aefa775f99893a9a3970eee9659ecd5ee6cf4805b35583740091f5cf47259da0",
+      "meaning_pair_path": "meaning/pairs/ae.jsonl",
+      "meaning_pair_blob_sha": "4ff18e5e40afe3044a613c53f984e912ee0ad03e"
+    },
+    {
+      "row_id": "A30122-zh-00025",
+      "target_id": "XML:2210563",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "source_ko": "(서명 또는 인)",
+      "previous_zh": "（签名或印章）",
+      "meaning_pair_id": "3ada74a029331c1c9e10fcb8a8907de24300187cd88a2c7f640ceae28715ed86",
+      "meaning_pair_path": "meaning/pairs/3a.jsonl",
+      "meaning_pair_blob_sha": "99ee263b5cc604c46d6247533a20d05b9a93366b"
+    },
+    {
+      "row_id": "A30122-zh-00026",
+      "target_id": "XML:2210564",
+      "source_hash": "1ebe3d4250e245aa96755189fa9f0fac7ca11a7a3b64232c577b6f34e8b24a81",
+      "source_ko": "경찰청장 또는 해양경찰청장 귀하",
+      "previous_zh": "致韩国国家警察厅长官或韩国海上保安厅长官",
+      "meaning_pair_id": "33903b124602e8e710a33157298a3df26024288128104f042cfea68a835631d7",
+      "meaning_pair_path": "meaning/pairs/33.jsonl",
+      "meaning_pair_blob_sha": "da708cf81dbc1c2d445d35ed6a070cd1de8545f5"
+    },
+    {
+      "row_id": "A30122-zh-00027",
+      "target_id": "XML:2210565",
+      "source_hash": "415c12cfe236ffa5094f9e3a7709063457a807995edc8ff53226e774fda2c5bd",
+      "source_ko": "첨부서류",
+      "previous_zh": "附件",
+      "meaning_pair_id": "6dcf183bdc376f344c4f55a85e4ccc3232ca19f58bc00f6333b5fa0df92eb736",
+      "meaning_pair_path": "meaning/pairs/6d.jsonl",
+      "meaning_pair_blob_sha": "40d564f41a2272598b27444059afe02eea0ed1e5"
+    },
+    {
+      "row_id": "A30122-zh-00028",
+      "target_id": "XML:2210566",
+      "source_hash": "4dd7249be163c461b1e2b206b65d739f5e4fc2823f2918ee4a70736ff25c24c8",
+      "source_ko": "1. 병역판정 신체검사를 받은 사람의 경우 병역판정 신체검사결과 통보서",
+      "previous_zh": "1. 对于已接受兵役体检的人员，兵役体检结果通知",
+      "meaning_pair_id": "bc45fc5b540a3338ce895e5088607fc5829abd32459e604c97ba99b442753e77",
+      "meaning_pair_path": "meaning/pairs/bc.jsonl",
+      "meaning_pair_blob_sha": "cbaa3467d039f4deda9bf0b9a3b254cbfd9f6e67"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "A30122-zh-00018",
+      "target_id": "XML:2210556",
+      "source_hash": "bf80ceffdd6970df0a7311a028a4aed6ca592a0d32fb600ac8ad203f04226b72",
+      "source_ko": "그 밖의 특이사항",
+      "previous_zh": "其他详情",
+      "meaning_pair_id": "f9afe8b833f8d9805dcc704696f49bccaa204b66d2a0d61fe50e0c3144b7d8f9",
+      "meaning_pair_path": "meaning/pairs/f9.jsonl",
+      "meaning_pair_blob_sha": "169cdeed8cec1b529b86835d1ed6ed7fa9c60cb0",
+      "corrected_zh": "其他特殊事项",
+      "reason": "신청서 제출의 진술문 누락, 법령 인용, 병역판정검사 결과통보서 및 날짜 항목의 오역 교정."
+    },
+    {
+      "row_id": "A30122-zh-00019",
+      "target_id": "XML:2210557",
+      "source_hash": "10324b24f41abdd90132d2953164036231b6a38f9d1d6859c15bef471d548ec2",
+      "source_ko": "「병역법」 제20조 및 「의무경찰대 설치 및 운영에 관한 법률 시행령」 제9조에 따라 의무경찰 모집",
+      "previous_zh": "根据《兵役法》第20条和《警察部队设立和运作法实施令》第9条的规定，招募义务警员。",
+      "meaning_pair_id": "ea0f2238833c9f9cbb7d38e2bc9241abb766c9bfde97d98dff6f5183f897a33b",
+      "meaning_pair_path": "meaning/pairs/ea.jsonl",
+      "meaning_pair_blob_sha": "856389ad1abc6a649d7d8c36033ec972f7089275",
+      "corrected_zh": "本人依据《兵役法》第二十条及《义务警察部队设立及运营法施行令》第九条，为报考义务警察招募",
+      "reason": "신청서 제출의 진술문 누락, 법령 인용, 병역판정검사 결과통보서 및 날짜 항목의 오역 교정."
+    },
+    {
+      "row_id": "A30122-zh-00020",
+      "target_id": "XML:2210558",
+      "source_hash": "160e715fc5ecfe7bb5e593b0bae0c550fc99a06752105c7922a9279036e34086",
+      "source_ko": "에 응시하기 위하여 지원서를 제출합니다.",
+      "previous_zh": ".",
+      "meaning_pair_id": "cdbeac167d9c023e68b8782c082fabc939a0d401bfc60003b308ea77f8555f52",
+      "meaning_pair_path": "meaning/pairs/cd.jsonl",
+      "meaning_pair_blob_sha": "2e2b66adc79e6a68f866c9447d1b035ba9beda7b",
+      "corrected_zh": "，特提交本申请书。",
+      "reason": "신청서 제출의 진술문 누락, 법령 인용, 병역판정검사 결과통보서 및 날짜 항목의 오역 교정."
+    },
+    {
+      "row_id": "A30122-zh-00023",
+      "target_id": "XML:2210561",
+      "source_hash": "1bfa95cfdfb79f2ff0ecd2412e922b1aeb3936cb6a915f5ec6569fc9388a5768",
+      "source_ko": "일장",
+      "previous_zh": "日长度",
+      "meaning_pair_id": "0e8e26220215656597e4a378adf75efc1d044b91c099bb5e2cd611ade3f8022c",
+      "meaning_pair_path": "meaning/pairs/0e.jsonl",
+      "meaning_pair_blob_sha": "291c4b8ce746b9352333871790c23d6d7182dd8f",
+      "corrected_zh": "日",
+      "reason": "신청서 제출의 진술문 누락, 법령 인용, 병역판정검사 결과통보서 및 날짜 항목의 오역 교정."
+    },
+    {
+      "row_id": "A30122-zh-00026",
+      "target_id": "XML:2210564",
+      "source_hash": "1ebe3d4250e245aa96755189fa9f0fac7ca11a7a3b64232c577b6f34e8b24a81",
+      "source_ko": "경찰청장 또는 해양경찰청장 귀하",
+      "previous_zh": "致韩国国家警察厅长官或韩国海上保安厅长官",
+      "meaning_pair_id": "33903b124602e8e710a33157298a3df26024288128104f042cfea68a835631d7",
+      "meaning_pair_path": "meaning/pairs/33.jsonl",
+      "meaning_pair_blob_sha": "da708cf81dbc1c2d445d35ed6a070cd1de8545f5",
+      "corrected_zh": "致警察厅厅长或海洋警察厅厅长",
+      "reason": "신청서 제출의 진술문 누락, 법령 인용, 병역판정검사 결과통보서 및 날짜 항목의 오역 교정."
+    },
+    {
+      "row_id": "A30122-zh-00028",
+      "target_id": "XML:2210566",
+      "source_hash": "4dd7249be163c461b1e2b206b65d739f5e4fc2823f2918ee4a70736ff25c24c8",
+      "source_ko": "1. 병역판정 신체검사를 받은 사람의 경우 병역판정 신체검사결과 통보서",
+      "previous_zh": "1. 对于已接受兵役体检的人员，兵役体检结果通知",
+      "meaning_pair_id": "bc45fc5b540a3338ce895e5088607fc5829abd32459e604c97ba99b442753e77",
+      "meaning_pair_path": "meaning/pairs/bc.jsonl",
+      "meaning_pair_blob_sha": "cbaa3467d039f4deda9bf0b9a3b254cbfd9f6e67",
+      "corrected_zh": "1. 已接受兵役判定体格检查的人员：兵役判定体格检查结果通知书",
+      "reason": "신청서 제출의 진술문 누락, 법령 인용, 병역판정검사 결과통보서 및 날짜 항목의 오역 교정."
+    }
+  ],
+  "validation": {
+    "row_ids_unique": true,
+    "source_hashes_match": true,
+    "korean_pair_ids_resolved": true,
+    "application_statement_across_rows_19_20_restored": true,
+    "total_cumulative_checked_rows": 568
+  },
+  "next_step": "Continue A30122 29-42."
+}
