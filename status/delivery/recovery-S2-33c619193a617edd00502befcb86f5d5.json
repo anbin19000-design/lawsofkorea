@@ -45,10 +45,12 @@
   "observed_at": 1794012408.0464435,
   "observed_state": "STORAGE_BLOCKED",
   "prompt_sha256": "e2fd8215231747af9cde770f1a3b771c17af7931aa5ece7275920ec8e195b0e8",
+  "received_at": "2026-11-07T00:47:25.124259+00:00",
   "recovery_marker": "[LAW-RECOVERY-V1:R1-6c7ce33c8588b9bec5b6b207]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "cd397a0f144f31de8999d178a55e746af23aa6c4",
-  "status": "RECOVERY_SENT_AWAITING_ACK",
+  "status": "RECOVERY_WORKING_VERIFIED",
   "url": "https://chatgpt.com/c/6aee4567-3ec8-83ec-9a2c-5e523a389f59",
-  "worker": "C06"
+  "worker": "C06",
+  "working_seen_at": "2026-11-07T00:47:25.124267+00:00"
 }
