@@ -1,0 +1,358 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B1-01.json",
+      "blob_sha": "69fcf795c9621b125ae73864793ee4064bd4b815",
+      "document_key": "B1",
+      "rows_checked": 145,
+      "rows_corrected": 26
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "blob_sha": "aeba15bca83d7887b5e9f7ce393fba770a9b5faa",
+      "verified_rows": 12,
+      "documents": [
+        "A30118",
+        "A30120"
+      ]
+    },
+    {
+      "path": "status/delivery/verified-step-S2-86af8794991369270a0d3bd696fb65c5-C04-CHECKPOINT-166-01.json",
+      "blob_sha": "33003dbd344370d5b2cf92bb05838b92b144a7ba",
+      "status": "INTENT_NO_RESEND"
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-01.json",
+      "blob_sha": "5f92fef46a104d832b4e6944e94ab8ba7257dda1",
+      "document_key": "B2",
+      "rows_checked": 36,
+      "rows_corrected": 31
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00037-00044.json",
+      "blob_sha": "31d1e93b2b7bc2aab9430a0d4b201c246301d1c5",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00045-00052.json",
+      "blob_sha": "be37a2f05e6c47bf33ec4ea58b1d6163df4b96a1",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00053-00060.json",
+      "blob_sha": "385725a9ff5c6f74e8cb723a6fc91fbcf072d639",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00061-00072.json",
+      "blob_sha": "4573174026ca13b9d49225d71e76f10c6ab2d76f",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00073-00084.json",
+      "blob_sha": "eb20464990f1e23042b03e95a20ed243fed5c555",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00085-00104.json",
+      "blob_sha": "30ba440fd5a8c3e355e8e79c418c6c9b7adcaa9f",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00105-00124.json",
+      "blob_sha": "3fe79039feaa1febde3bcd60b4397e5a52301b9e",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00125-00144.json",
+      "blob_sha": "3fe9aed92331bbf966efeff025964f461a605d6b",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00145-00164.json",
+      "blob_sha": "ab61b90a9bc19864b55a54b55cce703f9cb22470",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 12
+    }
+  ],
+  "document": {
+    "key": "B2",
+    "kind": "대통령령",
+    "title": "의무경찰대 설치 및 운영에 관한 법률 시행령",
+    "source_hash": "da345505912da9c84c24a63989aee8605f2465beea1b28313585cd363b8b2504",
+    "rows_checked": 20,
+    "rows_corrected": 7,
+    "document_review_state": "IN_PROGRESS"
+  },
+  "range": {
+    "first_row_id": "B2-zh-00165",
+    "last_row_id": "B2-zh-00184",
+    "verified_row_count": 20
+  },
+  "verified_rows": [
+    {
+      "row_id": "B2-zh-00165",
+      "target_id": "348942cd1e8a2a3898ef1796870efc27e3f90bc127480688ae4d68adad1660f6",
+      "source_hash": "1cfc2e6ab327da50b2f5e607f2080ad682cfb3d144c45cc465b91a63b011ff3a",
+      "source_ko": "부칙(병역법 시행령) <제21867호,2009.12.7>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "补充规定（兵役法实施令）<第21867号，2009年12月7日>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00166",
+      "target_id": "546e10b0102495f53d95ab6e8c0a2ef0b9061703fb9a18a5346175cf48990f40",
+      "source_hash": "ea2d6922ed807c2d581037f379e3aa707f4d885a2afe21602e95c112ebd61c06",
+      "source_ko": "제1조(시행일) 이 영은 2009년 12월 10일부터 시행한다. <단서 생략>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自2009年12月10日起生效。<但书略>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00167",
+      "target_id": "3ce6bd8c5b56d63ee36bc775603c915f3a3654f854029784d487eb837e6947ab",
+      "source_hash": "d9985315e81c5ba7d5516a248b6bd3f949098433ce3c6da60edc74f7499d0a05",
+      "source_ko": "제2조 부터 제7조까지 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第 2 至 7 条已省略\n\n"
+    },
+    {
+      "row_id": "B2-zh-00168",
+      "target_id": "cfc42052d7f1b6d8df79ec975f6d927c4d63bc8c45924a07c5a0f0179bf88734",
+      "source_hash": "b30f744e0f5a44ccbb87fda5a6242974aa41dccf8e9831186e8d123558bde249",
+      "source_ko": "제8조(다른 법령의 개정) ① 부터 ⑩ 까지 생략\n\n  ⑪ 전투경찰대설치법 시행령 일부를 다음과 같이 개정한다.\n\n  제11조제2항 중 \"「병역법」 제24조제3항 단서\"를 \"「병역법」 제25조제3항\"으로 한다.\n\n  제36조의3제2항 중 \"「병역법 시행령」 제137조제1항제3호\"를 \"「병역법 시행령」 제137조제1항제3호 및 제4호\"로 한다.\n\n  ⑫ 및 ⑬ 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第八条（修改其他法律）①至⑩ 已省略\n\n  11. 对《关于设立战斗警察部队的法律》实施细则的部分内容修改如下。\n\n  第 11 条第 2 款中的“兵役法第 24 条第 3 款的但书”应改为“兵役法第 25 条第 3 款”。\n\n  第 36-3 条第 2 款中，“兵役法实施令第 137 条第 1 款第 3 项”应改为“兵役法实施令第 137 条第 1 款第 3 项和第 4 项”。\n\n  ⑫ 和 ⑬ 省略\n\n"
+    },
+    {
+      "row_id": "B2-zh-00169",
+      "target_id": "117b775d05471586efa50aad03e8b7ff136d3f813671f819c2c7e61c1da6d2bc",
+      "source_hash": "1da8ec1baef9be415ada7d35b269bd946545d2e64a474889ab52758d3384f723",
+      "source_ko": "제9조 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第9条省略\n\n"
+    },
+    {
+      "row_id": "B2-zh-00170",
+      "target_id": "298795299facea410f21c6f5f0d66635f097d76b3bcdc7115b807dc112ee1946",
+      "source_hash": "ed10475e82d9cf579978f9a13793d87314f34c3db63b970a4796df1820395349",
+      "source_ko": "부칙(전자정부법 시행령) <제22151호,2010.5.4>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "补充文件（《电子政务法》实施令）<第22151号，2010年5月4日>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00171",
+      "target_id": "f25adcb3840e67a8f8407d4a2b1592742fc749a67874a57f5de49907e17bf001",
+      "source_hash": "856cdc47a5ab93193b366a0d76d7dc3e7cb1a346e30ece11d7fb9339dd87a809",
+      "source_ko": "제1조(시행일) 이 영은 2010년 5월 5일부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自2010年5月5日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00172",
+      "target_id": "3cee4fec6b384c9e229eff23852fe236ba8c764d68d52af87e8d5a19e54d37f4",
+      "source_hash": "c27a8d90e2fad39db31a7ec7c05311572dbb07d5ec24565e9bc0e8ebd63ca618",
+      "source_ko": "제2조 및 제3조 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "条款 2 和 3 已省略\n\n"
+    },
+    {
+      "row_id": "B2-zh-00173",
+      "target_id": "e5180167ee4e2f80d9cd31700f0abb282cfa8eca2908cb720b15ae3f4c897af4",
+      "source_hash": "6a983b6c432303603d739ddd7f87a9e7e3c5d3475f3bf1dc46232cc1d4acf82a",
+      "source_ko": "제4조(다른 법령의 개정) ① 부터 <147> 까지 생략\n\n  <148> 전투경찰대설치법 시행령 일부를 다음과 같이 개정한다.\n\n  제9조제2항 각 호 외의 부분 본문 중 \"「전자정부 구현을 위한 행정업무 등의 전자화촉진에 관한 법률」 제21조제1항\"을 \"「전자정부법」 제36조제1항\"으로 한다.\n\n  <149> 부터 <192> 까지 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "제4조(다른 법령의 개정) ① 부터 <147> 까지 생략\n\n  <148> 전투경찰대설치법 시행령 일부를 다음과 같이 개정한다.\n\n  제9조제2항 각 호 외의 부분 본문 중 \"「전자정부 구현을 위한 행정업무 등의 전자화촉진에 관한 법률」 제21조제1항\"을 \"「전자정부법」 제36조제1항\"으로 한다.\n\n  <149> 至 <192> 已省略\n\n"
+    },
+    {
+      "row_id": "B2-zh-00174",
+      "target_id": "98ef2b45bf877bda4695ed83854fd37a42d16d55018291a9457de969d01b14f1",
+      "source_hash": "4f4b25bba3d06bc6b63b5970be3c8aa2cb2a425d9b07672997cef3acf1c4ec43",
+      "source_ko": "부칙(행정정보의 공동이용 및 문서감축을 위한 경제교육지원법 시행령 등 일부개정령) <제22467호,2010.11.2>\n\n이 영은 공포한 날부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "增补（关于行政信息共享与文件简化的共同使用，对《经济教育支援法》等实施细则的部分修正）<2010年11月2日第22467号>\n\n本法令自颁布之日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00175",
+      "target_id": "7722e5678430a57ea8ce07c83f211d07a256f19e1b5e6eb233fa0b09ef1fc0e6",
+      "source_hash": "a264798d5861e9bf9bd1a182ac460151f2600663ba8d940f2876167dc3fd55d3",
+      "source_ko": "부칙(민감정보 및 고유식별정보 처리 근거 마련을 위한 과세자료의 제출 및 관리에 관한 법률 시행령 등 일부개정령) <제23488호,2012.1.6>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "增补（关于提交和管理税务数据等相关法律实施细则的部分修订，以确立处理敏感信息和唯一身份识别信息的理由）<2012年1月6日第23488号>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00176",
+      "target_id": "0c323a26f793280fe6487322e633ff32d504de976df06a9169b3a0353d78673c",
+      "source_hash": "7d7075d3fab665cdbaac560b14335b0ee552583c1a51db7e92e263494f72f34f",
+      "source_ko": "제1조(시행일) 이 영은 공포한 날부터 시행한다. <단서 생략>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自公布之日起生效。<但书略>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00177",
+      "target_id": "0e4f75a4a8bbbf4135c22e322c0204168e5a2002c3b50ab65e592ee62727de63",
+      "source_hash": "1fa2d78222cc5f3a7b268ba3015a524a8e57a9355a8b17e0ae4253566ef34323",
+      "source_ko": "제2조 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第 2 条省略\n\n"
+    },
+    {
+      "row_id": "B2-zh-00178",
+      "target_id": "0b55df5b297fdff64a500de6738ae71e4656fe1841a916f0acada12ea0b4c02b",
+      "source_hash": "4991a4c0818243ad1412913211ac467cedb6623e810b5ee49566b87533aa43bb",
+      "source_ko": "부칙 <제24249호,2012.12.24>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "补充规定 <第24249号，2012年12月24日>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00179",
+      "target_id": "71889ea26008cdf5b73cbdf68036e20ed6c72ec405996a08276ef5fbcd548720",
+      "source_hash": "ec6868c2ef406b009e356d9beb43e47966488ae0fe762020248f765cb9cd77a6",
+      "source_ko": "제1조(시행일) 이 영은 2013년 1월 1일부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自2013年1月1日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00180",
+      "target_id": "f740ad750ead5cad4ed72fcf27415a4248f11079c43eacb8c9af05fce71f3529",
+      "source_hash": "47f938206d72a1930bfe6732334a241b1828c58d34ebe104575053dc703b1e5a",
+      "source_ko": "제2조(의무경찰임용예정자 선발에 관한 적용례) 제5조제1항의 개정규정은 이 영 시행 후 의무경찰선발시험에 응시하는 사람부터 적용한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第二条（适用于征召警察选拔）第五条第一款的修正规定适用于本法令实施后参加征召警察选拔考试的人员。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00181",
+      "target_id": "b6e03a0c61168a4688801373e3c753a9f0aa82aa25dd0ce62bd215d277483c64",
+      "source_hash": "d09964ba80e9f037261174f3623874b795b76fc953b2ecac4146cf1f387bbadc",
+      "source_ko": "제3조(진급 제한에 관한 적용례) 제15조제2항제1호의 개정규정은 이 영 시행 후 유죄판결을 받은 사람부터 적용한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第三条（晋升限制的适用性）第十五条第二款第一项的修正规定适用于本法令实施后被定罪的人。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00182",
+      "target_id": "935683322b790cf8253df6ca29f3f4830b1c12a543f17a9f011bd7507bf12993",
+      "source_hash": "802368ff7d7abc897f018e495f4cd595364a2be1ae72bd93292f742427eb9245",
+      "source_ko": "제4조(진급최저복무기간에 관한 특례) 제14조제2항의 개정규정에도 불구하고 2012년 9월 1일 이전에 입영한 전투경찰순경의 진급최저복무기간은 다음 각 호의 구분에 따른다.\n\n  1. 2012년 8월 1일 이전에 입영한 전투경찰순경의 진급최저복무기간\n\n    가. 수경으로의 진급: 상경으로서 7개월\n\n    나. 상경으로의 진급: 일경으로서 6개월\n\n    다. 일경으로의 진급: 입영일부터 5개월 \n\n  2. 2012년 8월 2일부터 2012년 9월 1일까지 입영한 전투경찰순경의 진급최저복무기간\n\n    가. 수경으로의 진급: 상경으로서 7개월\n\n    나. 상경으로의 진급: 일경으로서 6개월\n\n    다. 일경으로의 진급: 입영일부터 4개월\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第四条（关于晋升最低服役期限的特别规定）尽管第十四条第二款有修改规定，但2012年9月1日以前入伍的战斗警察晋升的最低服役期限，应当按照下列各款的分类执行。\n\n  1. 2012年8月1日前入伍的战斗警察晋升的最低服役期限\n\n    A. 晋升为高级警员：担任高级警员7个月\n\n    B. 晋升为高级警员：担任一级警员 6 个月\n\n    C. 晋升为一级警员：自入伍之日起 5 个月 \n\n  2. 2012年8月2日至2012年9月1日期间入伍的战斗警察晋升最低服役期限\n\n    A. 晋升为高级警员：担任高级警员7个月\n\n    B. 晋升为高级警员：担任一级警员 6 个月\n\n    C. 晋升为一级警官：自入伍之日起 4 个月\n\n"
+    },
+    {
+      "row_id": "B2-zh-00183",
+      "target_id": "99f1509dab8f6eb3cdc370a5b299d8bed22572b0fdf9038621c3ca82fcea468b",
+      "source_hash": "0b8b5ddc9b23b7e8b2ed264df61f340a438523615820e5ce63b1abcf9b8e7f12",
+      "source_ko": "부칙(경찰청과 그 소속기관 직제) <제24419호,2013.3.23>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "增补（国家警察厅及其附属机构的组织结构）<第24419号，2013年3月23日>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00184",
+      "target_id": "10afc88a8b4cf92c2e4afe521eb7237d804cbb508abb0c23cd99492288578703",
+      "source_hash": "7e5f07ffff6aef2f2136019cfb5263979ba5a34dacd8394c05b2d3c719360d57",
+      "source_ko": "제1조(시행일) 이 영은 공포한 날부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自公布之日起生效。\n\n"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "B2-zh-00168",
+      "target_id": "cfc42052d7f1b6d8df79ec975f6d927c4d63bc8c45924a07c5a0f0179bf88734",
+      "source_hash": "b30f744e0f5a44ccbb87fda5a6242974aa41dccf8e9831186e8d123558bde249",
+      "source_ko": "제8조(다른 법령의 개정) ① 부터 ⑩ 까지 생략\n\n  ⑪ 전투경찰대설치법 시행령 일부를 다음과 같이 개정한다.\n\n  제11조제2항 중 \"「병역법」 제24조제3항 단서\"를 \"「병역법」 제25조제3항\"으로 한다.\n\n  제36조의3제2항 중 \"「병역법 시행령」 제137조제1항제3호\"를 \"「병역법 시행령」 제137조제1항제3호 및 제4호\"로 한다.\n\n  ⑫ 및 ⑬ 생략\n\n",
+      "previous_zh": "第八条（修改其他法律）①至⑩ 已省略\n\n  11. 对《关于设立战斗警察部队的法律》实施细则的部分内容修改如下。\n\n  第 11 条第 2 款中的“兵役法第 24 条第 3 款的但书”应改为“兵役法第 25 条第 3 款”。\n\n  第 36-3 条第 2 款中，“兵役法实施令第 137 条第 1 款第 3 项”应改为“兵役法实施令第 137 条第 1 款第 3 项和第 4 项”。\n\n  ⑫ 和 ⑬ 省略\n\n",
+      "corrected_zh": "第八条（其他法令的修订）①至⑩省略。\n\n  ⑪ 《战斗警察部队设立法施行令》作如下部分修订。\n\n  第十一条第二款中的“《兵役法》第二十四条第三款但书”改为“《兵役法》第二十五条第三款”。\n\n  第三十六条之三第二款中的“《兵役法施行令》第一百三十七条第一款第三项”改为“《兵役法施行令》第一百三十七条第一款第三项及第四项”。\n\n  ⑫及⑬省略。\n\n",
+      "reason": "원문 대조에서 확인한 미번역 한국어, 법령 인용·명칭, 계급·기간의 명백한 오역 교정."
+    },
+    {
+      "row_id": "B2-zh-00170",
+      "target_id": "298795299facea410f21c6f5f0d66635f097d76b3bcdc7115b807dc112ee1946",
+      "source_hash": "ed10475e82d9cf579978f9a13793d87314f34c3db63b970a4796df1820395349",
+      "source_ko": "부칙(전자정부법 시행령) <제22151호,2010.5.4>\n\n",
+      "previous_zh": "补充文件（《电子政务法》实施令）<第22151号，2010年5月4日>\n\n",
+      "corrected_zh": "附则（《电子政府法施行令》）<第22151号，2010年5月4日>\n\n",
+      "reason": "원문 대조에서 확인한 미번역 한국어, 법령 인용·명칭, 계급·기간의 명백한 오역 교정."
+    },
+    {
+      "row_id": "B2-zh-00173",
+      "target_id": "e5180167ee4e2f80d9cd31700f0abb282cfa8eca2908cb720b15ae3f4c897af4",
+      "source_hash": "6a983b6c432303603d739ddd7f87a9e7e3c5d3475f3bf1dc46232cc1d4acf82a",
+      "source_ko": "제4조(다른 법령의 개정) ① 부터 <147> 까지 생략\n\n  <148> 전투경찰대설치법 시행령 일부를 다음과 같이 개정한다.\n\n  제9조제2항 각 호 외의 부분 본문 중 \"「전자정부 구현을 위한 행정업무 등의 전자화촉진에 관한 법률」 제21조제1항\"을 \"「전자정부법」 제36조제1항\"으로 한다.\n\n  <149> 부터 <192> 까지 생략\n\n",
+      "previous_zh": "제4조(다른 법령의 개정) ① 부터 <147> 까지 생략\n\n  <148> 전투경찰대설치법 시행령 일부를 다음과 같이 개정한다.\n\n  제9조제2항 각 호 외의 부분 본문 중 \"「전자정부 구현을 위한 행정업무 등의 전자화촉진에 관한 법률」 제21조제1항\"을 \"「전자정부법」 제36조제1항\"으로 한다.\n\n  <149> 至 <192> 已省略\n\n",
+      "corrected_zh": "第四条（其他法令的修订）①至<147>省略。\n\n  <148> 《战斗警察部队设立法施行令》作如下部分修订。\n\n  第九条第二款各项以外部分的正文中的“《关于为实现电子政府而促进电子化行政业务等的法律》第二十一条第一款”改为“《电子政府法》第三十六条第一款”。\n\n  <149>至<192>省略。\n\n",
+      "reason": "원문 대조에서 확인한 미번역 한국어, 법령 인용·명칭, 계급·기간의 명백한 오역 교정."
+    },
+    {
+      "row_id": "B2-zh-00174",
+      "target_id": "98ef2b45bf877bda4695ed83854fd37a42d16d55018291a9457de969d01b14f1",
+      "source_hash": "4f4b25bba3d06bc6b63b5970be3c8aa2cb2a425d9b07672997cef3acf1c4ec43",
+      "source_ko": "부칙(행정정보의 공동이용 및 문서감축을 위한 경제교육지원법 시행령 등 일부개정령) <제22467호,2010.11.2>\n\n이 영은 공포한 날부터 시행한다.\n\n",
+      "previous_zh": "增补（关于行政信息共享与文件简化的共同使用，对《经济教育支援法》等实施细则的部分修正）<2010年11月2日第22467号>\n\n本法令自颁布之日起生效。\n\n",
+      "corrected_zh": "附则（为行政信息共同利用及减少文书而对《经济教育支援法施行令》等作出部分修订的命令）<第22467号，2010年11月2日>\n\n本施行令自公布之日起施行。\n\n",
+      "reason": "원문 대조에서 확인한 미번역 한국어, 법령 인용·명칭, 계급·기간의 명백한 오역 교정."
+    },
+    {
+      "row_id": "B2-zh-00175",
+      "target_id": "7722e5678430a57ea8ce07c83f211d07a256f19e1b5e6eb233fa0b09ef1fc0e6",
+      "source_hash": "a264798d5861e9bf9bd1a182ac460151f2600663ba8d940f2876167dc3fd55d3",
+      "source_ko": "부칙(민감정보 및 고유식별정보 처리 근거 마련을 위한 과세자료의 제출 및 관리에 관한 법률 시행령 등 일부개정령) <제23488호,2012.1.6>\n\n",
+      "previous_zh": "增补（关于提交和管理税务数据等相关法律实施细则的部分修订，以确立处理敏感信息和唯一身份识别信息的理由）<2012年1月6日第23488号>\n\n",
+      "corrected_zh": "附则（为确立处理敏感信息及固有识别信息的法律依据而对《课税资料的提交及管理法施行令》等作出部分修订的命令）<第23488号，2012年1月6日>\n\n",
+      "reason": "원문 대조에서 확인한 미번역 한국어, 법령 인용·명칭, 계급·기간의 명백한 오역 교정."
+    },
+    {
+      "row_id": "B2-zh-00182",
+      "target_id": "935683322b790cf8253df6ca29f3f4830b1c12a543f17a9f011bd7507bf12993",
+      "source_hash": "802368ff7d7abc897f018e495f4cd595364a2be1ae72bd93292f742427eb9245",
+      "source_ko": "제4조(진급최저복무기간에 관한 특례) 제14조제2항의 개정규정에도 불구하고 2012년 9월 1일 이전에 입영한 전투경찰순경의 진급최저복무기간은 다음 각 호의 구분에 따른다.\n\n  1. 2012년 8월 1일 이전에 입영한 전투경찰순경의 진급최저복무기간\n\n    가. 수경으로의 진급: 상경으로서 7개월\n\n    나. 상경으로의 진급: 일경으로서 6개월\n\n    다. 일경으로의 진급: 입영일부터 5개월 \n\n  2. 2012년 8월 2일부터 2012년 9월 1일까지 입영한 전투경찰순경의 진급최저복무기간\n\n    가. 수경으로의 진급: 상경으로서 7개월\n\n    나. 상경으로의 진급: 일경으로서 6개월\n\n    다. 일경으로의 진급: 입영일부터 4개월\n\n",
+      "previous_zh": "第四条（关于晋升最低服役期限的特别规定）尽管第十四条第二款有修改规定，但2012年9月1日以前入伍的战斗警察晋升的最低服役期限，应当按照下列各款的分类执行。\n\n  1. 2012年8月1日前入伍的战斗警察晋升的最低服役期限\n\n    A. 晋升为高级警员：担任高级警员7个月\n\n    B. 晋升为高级警员：担任一级警员 6 个月\n\n    C. 晋升为一级警员：自入伍之日起 5 个月 \n\n  2. 2012年8月2日至2012年9月1日期间入伍的战斗警察晋升最低服役期限\n\n    A. 晋升为高级警员：担任高级警员7个月\n\n    B. 晋升为高级警员：担任一级警员 6 个月\n\n    C. 晋升为一级警官：自入伍之日起 4 个月\n\n",
+      "corrected_zh": "第四条（晋升最低服役期间的特例）尽管有第十四条第二款的修订规定，对于2012年9月1日以前入营的战斗警察巡警，其晋升所需最低服役期间依下列各项分别规定。\n\n  1. 2012年8月1日以前入营的战斗警察巡警的晋升最低服役期间\n\n    甲. 晋升为水警：任上警满七个月；\n\n    乙. 晋升为上警：任一警满六个月；\n\n    丙. 晋升为一警：自入营日起满五个月。\n\n  2. 2012年8月2日至2012年9月1日期间入营的战斗警察巡警的晋升最低服役期间\n\n    甲. 晋升为水警：任上警满七个月；\n\n    乙. 晋升为上警：任一警满六个月；\n\n    丙. 晋升为一警：自入营日起满四个月。\n\n",
+      "reason": "원문 대조에서 확인한 미번역 한국어, 법령 인용·명칭, 계급·기간의 명백한 오역 교정."
+    },
+    {
+      "row_id": "B2-zh-00183",
+      "target_id": "99f1509dab8f6eb3cdc370a5b299d8bed22572b0fdf9038621c3ca82fcea468b",
+      "source_hash": "0b8b5ddc9b23b7e8b2ed264df61f340a438523615820e5ce63b1abcf9b8e7f12",
+      "source_ko": "부칙(경찰청과 그 소속기관 직제) <제24419호,2013.3.23>\n\n",
+      "previous_zh": "增补（国家警察厅及其附属机构的组织结构）<第24419号，2013年3月23日>\n\n",
+      "corrected_zh": "附则（《警察厅及其所属机关职制》）<第24419号，2013年3月23日>\n\n",
+      "reason": "원문 대조에서 확인한 미번역 한국어, 법령 인용·명칭, 계급·기간의 명백한 오역 교정."
+    }
+  ],
+  "validation": {
+    "row_ids_unique": true,
+    "source_hashes_match": true,
+    "verified_korean_offsets": true,
+    "no_untranslated_or_mtq_start_markers": true,
+    "english_reference": "documents/en/kr-004766-281729-en.json",
+    "total_cumulative_checked_rows": 341
+  },
+  "next_step": "Resume B2-zh-00185; do not claim full completion before 800."
+}
