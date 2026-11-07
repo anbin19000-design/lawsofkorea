@@ -30,7 +30,20 @@
   },
   "assistant_count": 12,
   "assistant_excerpt": "C04 복구 회차 2 — 중간 저장 및 재검증 완료\nIN_PROGRESS · 전체 검수 미완료\n\nJob ID: F-0c6349d844045c6cc10b\n법령가족: 연구산업진흥법\n저장소: anbin19000-design/lawsofkorea\n브랜치: main\n\n중단 원인 확인\n\n이전 중간 저장 이후 대화가 종료된 것이 원인입니다. GitHub 권한 거절, 보호 상태, 원문 변경 또는 저장 충돌은 확인되지 않았습니다. 기존 7개 교정 행을 보존한 채 재개했습니다.\n\n이번 회차 저장 결과\n\n구간\n\n\t\n\n신규 교정\n\n\t\n\n커밋 SHA\n\n\n\n\n법률 제8조, 시행령 제8·18·19조\n\n\t\n\n4행\n\n\t\n\nc8f5d443\n\n\n\n\n시행령 제16조, 별표·서식\n\n\t\n\n5행\n\n\t\n\n170f9d8b\n\n누적 저장된 교정 행\n\n16행\n전체 대상 1,158행 · 미검수 범위 남음\n\n최종 검수 파일 SHA: 06ee60fec28c6c496ec70155504a7be886a28066\n\n재조회 결과 checked_rows=16, 고유 교정 ID 16개, 교정문 누락 0개, 상태 IN_PROGRESS를 확인했습니다.\n\nGitHub에 저장된 검수 파일\n\n남은 작업 및 보존 상태\n\n전체 20개 문서의 1,158행에 대한 검수는 완료되지 않았습니다. 별표와 서식의 MTQ·START 표식, 수치, 인용, 연결 셀에 대한 추가 대조도 필요합니다.\n\n기존 교정 7행과 이번 신규 교정 9행 보존\n\n원본 laws/ko, laws/zh, laws/en SHA 유지\n\nCOMPLETE 영수증 미생성\n\n운영 DB 변경 없음\n\n다른 법령 배정 및 PC·공급기·관측기 조작 없음\n\nC04는 READY가 아니라 IN_PROGRESS 상태입니다. 다음 재개 지점은 저장된 16행을 제외한 연구산업진흥법의 미검수 구간입니다.",
+  "attempted_at": "2026-11-07T20:46:04.946500+00:00",
   "created_at": "2026-11-07T20:45:56.567896+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-aad09c2eb3b6e3bd2d6542a898e60a8f",
+    "attempted_at": "2026-11-07T20:46:04.946500+00:00",
+    "claim_commit": "4ec6b9b28753e942872216b614eb9f6a1e8f338b",
+    "event_id": "obs-de4acc921d1507e0407d755885499c27b3103fa0",
+    "job_id": "F-0c6349d844045c6cc10b",
+    "record_path": "status/delivery/recovery-S2-aad09c2eb3b6e3bd2d6542a898e60a8f.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C04"
+  },
   "episode": 3,
   "event_id": "obs-de4acc921d1507e0407d755885499c27b3103fa0",
   "job_id": "F-0c6349d844045c6cc10b",
@@ -164,7 +177,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-e429ab2d53b2c0e70a2d1e67]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "d266e63249338a65e21ad7bbf0b1d14c94846596",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef7f45-c340-83e8-bed7-2fb0dbdc7078",
   "worker": "C04"
 }
