@@ -1,0 +1,608 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B1-01.json",
+      "blob_sha": "69fcf795c9621b125ae73864793ee4064bd4b815",
+      "document_key": "B1",
+      "rows_checked": 145,
+      "rows_corrected": 26
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "blob_sha": "aeba15bca83d7887b5e9f7ce393fba770a9b5faa",
+      "verified_rows": 12,
+      "documents": [
+        "A30118",
+        "A30120"
+      ]
+    },
+    {
+      "path": "status/delivery/verified-step-S2-86af8794991369270a0d3bd696fb65c5-C04-CHECKPOINT-166-01.json",
+      "blob_sha": "33003dbd344370d5b2cf92bb05838b92b144a7ba",
+      "status": "INTENT_NO_RESEND"
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-01.json",
+      "blob_sha": "5f92fef46a104d832b4e6944e94ab8ba7257dda1",
+      "document_key": "B2",
+      "rows_checked": 36,
+      "rows_corrected": 31
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00037-00044.json",
+      "blob_sha": "31d1e93b2b7bc2aab9430a0d4b201c246301d1c5",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00045-00052.json",
+      "blob_sha": "be37a2f05e6c47bf33ec4ea58b1d6163df4b96a1",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00053-00060.json",
+      "blob_sha": "385725a9ff5c6f74e8cb723a6fc91fbcf072d639",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00061-00072.json",
+      "blob_sha": "4573174026ca13b9d49225d71e76f10c6ab2d76f",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00073-00084.json",
+      "blob_sha": "eb20464990f1e23042b03e95a20ed243fed5c555",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00085-00104.json",
+      "blob_sha": "30ba440fd5a8c3e355e8e79c418c6c9b7adcaa9f",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00105-00124.json",
+      "blob_sha": "3fe79039feaa1febde3bcd60b4397e5a52301b9e",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00125-00144.json",
+      "blob_sha": "3fe9aed92331bbf966efeff025964f461a605d6b",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00145-00164.json",
+      "blob_sha": "ab61b90a9bc19864b55a54b55cce703f9cb22470",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 12
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00165-00184.json",
+      "blob_sha": "68f3e74081cab6a1e84a178d3404ae96facceabe",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00185-00204.json",
+      "blob_sha": "81c7f57799a8550b49975c68793c0c3de622e902",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00205-00208.json",
+      "blob_sha": "feda2b38822c3429ef5493d37b044d1e5ef9ff86",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00209-00212.json",
+      "blob_sha": "08cb0522bc3ceae21d3d76fb56b95152a08fc246",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00213-00223.json",
+      "blob_sha": "a7fecc1db30a21c0677eaf0e6696e8267404fdbd",
+      "document_key": "B2",
+      "rows_checked": 11,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00224-00224.json",
+      "blob_sha": "7ce857683229c544c015843cb5da47ec2c5ea6ed",
+      "document_key": "B2",
+      "rows_checked": 1,
+      "rows_corrected": 1
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00225-00244.json",
+      "blob_sha": "bde39fb81d1a2fe5f6acbc78ab2d929732f8cb58",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00245-00264.json",
+      "blob_sha": "52e222a297a0913cce11527a0e6db004f8de1012",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00265-00272.json",
+      "blob_sha": "ed666acab2f084c7266595060f136c7c5c4c90aa",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "preserved_preverified_ids": [
+        "A30118-zh-00029",
+        "A30118-zh-00030"
+      ]
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30118-00001-00014.json",
+      "blob_sha": "b0ec0f1cc7e719106067960812e69c7bed03cfb5",
+      "document_key": "A30118",
+      "rows_checked": 14,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30118-00015-00028.json",
+      "blob_sha": "f0db9312e41184469f9b91334aac527a58a0871b",
+      "document_key": "A30118",
+      "rows_checked": 14,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30118-00031-00038.json",
+      "blob_sha": "2349cd68ccb30b9a5cd817d6446e0146920045e2",
+      "document_key": "A30118",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00001-00014.json",
+      "blob_sha": "691b91f81935198f72df0af0f3591c64a3573fde",
+      "document_key": "A30120",
+      "rows_checked": 14,
+      "rows_corrected": 14
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00015-00019.json",
+      "blob_sha": "f8689815603add57b3f7f545d07d19967926556c",
+      "document_key": "A30120",
+      "rows_checked": 5,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00024-00028.json",
+      "blob_sha": "be641e075a3db3268ad4d76b449384d52da6643c",
+      "document_key": "A30120",
+      "rows_checked": 5,
+      "rows_corrected": 3
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00030-00030.json",
+      "blob_sha": "ce8293ae3d09532ae16961e355e2bebe0dcc67aa",
+      "document_key": "A30120",
+      "rows_checked": 1,
+      "rows_corrected": 1
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00034-00042.json",
+      "blob_sha": "799d80439c9bb29fec77171c7e5879f1685850fc",
+      "document_key": "A30120",
+      "rows_checked": 9,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00043-00051.json",
+      "blob_sha": "56bbddb7099852f03248f5c7b171de53e074c16a",
+      "document_key": "A30120",
+      "rows_checked": 9,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00054-00057.json",
+      "blob_sha": "38ff001d94b8c1838a627577caeed53074df5c95",
+      "document_key": "A30120",
+      "rows_checked": 4,
+      "rows_corrected": 3
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30121-00001-00014.json",
+      "blob_sha": "32ee47e3078fe0c97a8473811f9e96c7116424bc",
+      "document_key": "A30121",
+      "rows_checked": 14,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30121-00015-00028.json",
+      "blob_sha": "b8d7a71e92a0efe67fc79a42c926b0d87be8e82d",
+      "document_key": "A30121",
+      "rows_checked": 14,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30122-00001-00014.json",
+      "blob_sha": "9b20336051ee6cfb635fe2f7759b287cc4497858",
+      "document_key": "A30122",
+      "rows_checked": 14,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30122-00015-00028.json",
+      "blob_sha": "48a7f6e351541885973d1a37352daba9f71f9b79",
+      "document_key": "A30122",
+      "rows_checked": 14,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30122-00029-00042.json",
+      "blob_sha": "e2df0e4cfe8c3c43ae4478900ebdbf9c9ae3b615",
+      "document_key": "A30122",
+      "rows_checked": 14,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30122-00043-00050.json",
+      "blob_sha": "690ac8dd346f232bb023acb06b2803368eef0771",
+      "document_key": "A30122",
+      "rows_checked": 8,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30123-00001-00014.json",
+      "blob_sha": "9f2b0daa1a28c00c8e1b6ff60ee19008fe077e41",
+      "document_key": "A30123",
+      "rows_checked": 14,
+      "rows_corrected": 12
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30123-00015-00028.json",
+      "blob_sha": "82b4898526cd03280309b2a7b543581effcc9e64",
+      "document_key": "A30123",
+      "rows_checked": 14,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30123-00029-00042.json",
+      "blob_sha": "454326898eb831e46fa6736856dd65181749bf8d",
+      "document_key": "A30123",
+      "rows_checked": 14,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30124-00001-00012.json",
+      "blob_sha": "993b891dc3804a7f5b5d24529a7cb8047ff6b796",
+      "document_key": "A30124",
+      "rows_checked": 12,
+      "rows_corrected": 11
+    }
+  ],
+  "document": {
+    "key": "A30124",
+    "kind": "서식",
+    "title": "피질문자 동행조치 보고서",
+    "source_hash": "c8f8c09425c02745dd01cac66d4ef069ffbbb1b117998443b39ef5d09fe2c4a2",
+    "rows_checked": 12,
+    "rows_corrected": 12,
+    "document_review_state": "IN_PROGRESS"
+  },
+  "range": {
+    "first_row_id": "A30124-zh-00013",
+    "last_row_id": "A30124-zh-00024",
+    "verified_row_count": 12
+  },
+  "verified_rows": [
+    {
+      "row_id": "A30124-zh-00013",
+      "target_id": "XML:2210653",
+      "source_hash": "12cc1050ce9a6b3dfafecd11008d9d3adde9d529ecd80cfcd2d9397bd08a422d",
+      "source_ko": ": 까지",
+      "previous_zh": ":",
+      "meaning_pair_id": "4ef3c7b7e11dbe20d4000a0d2c08d3a65684c84f4b4fd968c2dc18c39c74333a",
+      "meaning_pair_path": "meaning/pairs/4e.jsonl",
+      "meaning_pair_blob_sha": "b25ecf20986c05a56b87107c22c3827098563658"
+    },
+    {
+      "row_id": "A30124-zh-00014",
+      "target_id": "XML:2210654",
+      "source_hash": "68367c6f39e39c87c75e74076880cab55cee8cad3bdc5a584b3fb28e06a7a3a5",
+      "source_ko": "질문사항과",
+      "previous_zh": "问题和",
+      "meaning_pair_id": "8b425959fd917f4061d309aa9b9604e8ab5999143d899f29ddf17282e68b4f60",
+      "meaning_pair_path": "meaning/pairs/8b.jsonl",
+      "meaning_pair_blob_sha": "3042876c64f162d3f4774440347da5c231aecdf6"
+    },
+    {
+      "row_id": "A30124-zh-00015",
+      "target_id": "XML:2210655",
+      "source_hash": "5b161518eb038fe7c05ac581af6e615909e06098bf3fa2956abd283756ef2ff2",
+      "source_ko": "답변요지",
+      "previous_zh": "答案摘要",
+      "meaning_pair_id": "61023075cf28d52c4c928a074e7ae19b5aa7f64a036a91feda01fffb558222a5",
+      "meaning_pair_path": "meaning/pairs/61.jsonl",
+      "meaning_pair_blob_sha": "fa226cd7a4c12b630864b415b5f7b07847471165"
+    },
+    {
+      "row_id": "A30124-zh-00016",
+      "target_id": "XML:2210656",
+      "source_hash": "f6e78ff61268776df81b1d61748bf16ef2deed7706021916d677bc0a41a0d6f9",
+      "source_ko": "질문완료후",
+      "previous_zh": "完成问题后",
+      "meaning_pair_id": "1202217b2fef0f836aeea6b2487207717f72918ea96886683c620e2a59f3e0df",
+      "meaning_pair_path": "meaning/pairs/12.jsonl",
+      "meaning_pair_blob_sha": "5d2001ac183684283e2c263ff80f829a95067cce"
+    },
+    {
+      "row_id": "A30124-zh-00017",
+      "target_id": "XML:2210657",
+      "source_hash": "7abb2ffefd45facd0ca4d40dd3eab4a41616e92e8f8d15086ae2907a6e18b78e",
+      "source_ko": "조치사항",
+      "previous_zh": "操作项",
+      "meaning_pair_id": "b1651d5c75da806757c071fa68c5f51f5c27b70c565db62750025359a4ddeb49",
+      "meaning_pair_path": "meaning/pairs/b1.jsonl",
+      "meaning_pair_blob_sha": "bde12ef666ed653bbb328f3ea9936c83cf223081"
+    },
+    {
+      "row_id": "A30124-zh-00018",
+      "target_id": "XML:2210658",
+      "source_hash": "0bcd53f93f35138e98553f0331f19441755541a401b834badda72ea42a07874c",
+      "source_ko": "피질문자의",
+      "previous_zh": "提问者的",
+      "meaning_pair_id": "fbc09f905170a5c5acc55fc0695db10a33831dbc14fe0dceed904d2a68bd92b2",
+      "meaning_pair_path": "meaning/pairs/fb.jsonl",
+      "meaning_pair_blob_sha": "ea419d2072be46d3f9daa5fa0953f2d5d5c5d894"
+    },
+    {
+      "row_id": "A30124-zh-00019",
+      "target_id": "XML:2210659",
+      "source_hash": "5a54dc0a61db350170380eda7ee104886e699b17df55590766969a4a08f3483a",
+      "source_ko": "피질문자의답변",
+      "previous_zh": "提问者答案",
+      "meaning_pair_id": "33f61caa19c0348164e2a8bad8b57ab7ddcf6f699add4fa0c53cc321d660f795",
+      "meaning_pair_path": "meaning/pairs/33.jsonl",
+      "meaning_pair_blob_sha": "da708cf81dbc1c2d445d35ed6a070cd1de8545f5"
+    },
+    {
+      "row_id": "A30124-zh-00020",
+      "target_id": "XML:2210660",
+      "source_hash": "779277a45bca9a19aecff10bd0b732191bbeaaa570352fc9d95d95a3a97812a3",
+      "source_ko": "동행승낙표시",
+      "previous_zh": "随附验收指示",
+      "meaning_pair_id": "36d10fda7cf91e5e4808a2c867dd62cd123f456456cc33a45be0fbbf2e91a766",
+      "meaning_pair_path": "meaning/pairs/36.jsonl",
+      "meaning_pair_blob_sha": "bb33c06208b9109648ce488931717f165d231010"
+    },
+    {
+      "row_id": "A30124-zh-00021",
+      "target_id": "XML:2210661",
+      "source_hash": "d1abe8b07b67a876f54712658e8ae53ea8089e13432262d3f663af70a4dae90b",
+      "source_ko": "사항 승인 표시",
+      "previous_zh": "项目批准标记",
+      "meaning_pair_id": "6082db8f940de1014f3a49b077d4b6b60dfcb23a494f9a5bd58cf493192a6453",
+      "meaning_pair_path": "meaning/pairs/60.jsonl",
+      "meaning_pair_blob_sha": "09d91c9241b3e8705e0fd595ef7f6228e488f2fd"
+    },
+    {
+      "row_id": "A30124-zh-00022",
+      "target_id": "XML:2210662",
+      "source_hash": "16be3fbe0e97f87dbb72d32bfe6420c61b1ef83b8ba7995d08af6017db876c53",
+      "source_ko": "위와 같이 동행 조치하였음을 보고합니다..",
+      "previous_zh": "我报告说，已采取上述配套措施。",
+      "meaning_pair_id": "e3c1dc0e37481fc7a18e6a7dda624ebed2120c33650bc75c244292c0a5cdfde0",
+      "meaning_pair_path": "meaning/pairs/e3.jsonl",
+      "meaning_pair_blob_sha": "1d5a088f17dc2fa5504c1eb066966cb1ad627125"
+    },
+    {
+      "row_id": "A30124-zh-00023",
+      "target_id": "XML:2210663",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "source_ko": "년",
+      "previous_zh": "年份",
+      "meaning_pair_id": "51a9c53d5e91050e3abe1ef30e6743e05bc272555042d615ccb26c1cbd4bac01",
+      "meaning_pair_path": "meaning/pairs/51.jsonl",
+      "meaning_pair_blob_sha": "2a81adc629ef25015135b3e8aeaefa4b1a7069b6"
+    },
+    {
+      "row_id": "A30124-zh-00024",
+      "target_id": "XML:2210664",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "source_ko": "월",
+      "previous_zh": "月份",
+      "meaning_pair_id": "fe11e2c245c4120f7ec1489f418bd7cb4dfa4f13b76bd89d3b8f839acc883cfc",
+      "meaning_pair_path": "meaning/pairs/fe.jsonl",
+      "meaning_pair_blob_sha": "9931861966dfb563168bf709151bcce4f1995af5"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "A30124-zh-00013",
+      "target_id": "XML:2210653",
+      "source_hash": "12cc1050ce9a6b3dfafecd11008d9d3adde9d529ecd80cfcd2d9397bd08a422d",
+      "source_ko": ": 까지",
+      "previous_zh": ":",
+      "meaning_pair_id": "4ef3c7b7e11dbe20d4000a0d2c08d3a65684c84f4b4fd968c2dc18c39c74333a",
+      "meaning_pair_path": "meaning/pairs/4e.jsonl",
+      "meaning_pair_blob_sha": "b25ecf20986c05a56b87107c22c3827098563658",
+      "corrected_zh": "：止",
+      "reason": "피질문자의 동행 승낙·답변 내용 승인과 질문 종료 후 조치 등 인접 셀 원문 의미 대조."
+    },
+    {
+      "row_id": "A30124-zh-00014",
+      "target_id": "XML:2210654",
+      "source_hash": "68367c6f39e39c87c75e74076880cab55cee8cad3bdc5a584b3fb28e06a7a3a5",
+      "source_ko": "질문사항과",
+      "previous_zh": "问题和",
+      "meaning_pair_id": "8b425959fd917f4061d309aa9b9604e8ab5999143d899f29ddf17282e68b4f60",
+      "meaning_pair_path": "meaning/pairs/8b.jsonl",
+      "meaning_pair_blob_sha": "3042876c64f162d3f4774440347da5c231aecdf6",
+      "corrected_zh": "询问事项与",
+      "reason": "피질문자의 동행 승낙·답변 내용 승인과 질문 종료 후 조치 등 인접 셀 원문 의미 대조."
+    },
+    {
+      "row_id": "A30124-zh-00015",
+      "target_id": "XML:2210655",
+      "source_hash": "5b161518eb038fe7c05ac581af6e615909e06098bf3fa2956abd283756ef2ff2",
+      "source_ko": "답변요지",
+      "previous_zh": "答案摘要",
+      "meaning_pair_id": "61023075cf28d52c4c928a074e7ae19b5aa7f64a036a91feda01fffb558222a5",
+      "meaning_pair_path": "meaning/pairs/61.jsonl",
+      "meaning_pair_blob_sha": "fa226cd7a4c12b630864b415b5f7b07847471165",
+      "corrected_zh": "答复要旨",
+      "reason": "피질문자의 동행 승낙·답변 내용 승인과 질문 종료 후 조치 등 인접 셀 원문 의미 대조."
+    },
+    {
+      "row_id": "A30124-zh-00016",
+      "target_id": "XML:2210656",
+      "source_hash": "f6e78ff61268776df81b1d61748bf16ef2deed7706021916d677bc0a41a0d6f9",
+      "source_ko": "질문완료후",
+      "previous_zh": "完成问题后",
+      "meaning_pair_id": "1202217b2fef0f836aeea6b2487207717f72918ea96886683c620e2a59f3e0df",
+      "meaning_pair_path": "meaning/pairs/12.jsonl",
+      "meaning_pair_blob_sha": "5d2001ac183684283e2c263ff80f829a95067cce",
+      "corrected_zh": "询问结束后",
+      "reason": "피질문자의 동행 승낙·답변 내용 승인과 질문 종료 후 조치 등 인접 셀 원문 의미 대조."
+    },
+    {
+      "row_id": "A30124-zh-00017",
+      "target_id": "XML:2210657",
+      "source_hash": "7abb2ffefd45facd0ca4d40dd3eab4a41616e92e8f8d15086ae2907a6e18b78e",
+      "source_ko": "조치사항",
+      "previous_zh": "操作项",
+      "meaning_pair_id": "b1651d5c75da806757c071fa68c5f51f5c27b70c565db62750025359a4ddeb49",
+      "meaning_pair_path": "meaning/pairs/b1.jsonl",
+      "meaning_pair_blob_sha": "bde12ef666ed653bbb328f3ea9936c83cf223081",
+      "corrected_zh": "处置事项",
+      "reason": "피질문자의 동행 승낙·답변 내용 승인과 질문 종료 후 조치 등 인접 셀 원문 의미 대조."
+    },
+    {
+      "row_id": "A30124-zh-00018",
+      "target_id": "XML:2210658",
+      "source_hash": "0bcd53f93f35138e98553f0331f19441755541a401b834badda72ea42a07874c",
+      "source_ko": "피질문자의",
+      "previous_zh": "提问者的",
+      "meaning_pair_id": "fbc09f905170a5c5acc55fc0695db10a33831dbc14fe0dceed904d2a68bd92b2",
+      "meaning_pair_path": "meaning/pairs/fb.jsonl",
+      "meaning_pair_blob_sha": "ea419d2072be46d3f9daa5fa0953f2d5d5c5d894",
+      "corrected_zh": "被询问人的",
+      "reason": "피질문자의 동행 승낙·답변 내용 승인과 질문 종료 후 조치 등 인접 셀 원문 의미 대조."
+    },
+    {
+      "row_id": "A30124-zh-00019",
+      "target_id": "XML:2210659",
+      "source_hash": "5a54dc0a61db350170380eda7ee104886e699b17df55590766969a4a08f3483a",
+      "source_ko": "피질문자의답변",
+      "previous_zh": "提问者答案",
+      "meaning_pair_id": "33f61caa19c0348164e2a8bad8b57ab7ddcf6f699add4fa0c53cc321d660f795",
+      "meaning_pair_path": "meaning/pairs/33.jsonl",
+      "meaning_pair_blob_sha": "da708cf81dbc1c2d445d35ed6a070cd1de8545f5",
+      "corrected_zh": "被询问人的答复",
+      "reason": "피질문자의 동행 승낙·답변 내용 승인과 질문 종료 후 조치 등 인접 셀 원문 의미 대조."
+    },
+    {
+      "row_id": "A30124-zh-00020",
+      "target_id": "XML:2210660",
+      "source_hash": "779277a45bca9a19aecff10bd0b732191bbeaaa570352fc9d95d95a3a97812a3",
+      "source_ko": "동행승낙표시",
+      "previous_zh": "随附验收指示",
+      "meaning_pair_id": "36d10fda7cf91e5e4808a2c867dd62cd123f456456cc33a45be0fbbf2e91a766",
+      "meaning_pair_path": "meaning/pairs/36.jsonl",
+      "meaning_pair_blob_sha": "bb33c06208b9109648ce488931717f165d231010",
+      "corrected_zh": "同行同意表示",
+      "reason": "피질문자의 동행 승낙·답변 내용 승인과 질문 종료 후 조치 등 인접 셀 원문 의미 대조."
+    },
+    {
+      "row_id": "A30124-zh-00021",
+      "target_id": "XML:2210661",
+      "source_hash": "d1abe8b07b67a876f54712658e8ae53ea8089e13432262d3f663af70a4dae90b",
+      "source_ko": "사항 승인 표시",
+      "previous_zh": "项目批准标记",
+      "meaning_pair_id": "6082db8f940de1014f3a49b077d4b6b60dfcb23a494f9a5bd58cf493192a6453",
+      "meaning_pair_path": "meaning/pairs/60.jsonl",
+      "meaning_pair_blob_sha": "09d91c9241b3e8705e0fd595ef7f6228e488f2fd",
+      "corrected_zh": "事项认可表示",
+      "reason": "피질문자의 동행 승낙·답변 내용 승인과 질문 종료 후 조치 등 인접 셀 원문 의미 대조."
+    },
+    {
+      "row_id": "A30124-zh-00022",
+      "target_id": "XML:2210662",
+      "source_hash": "16be3fbe0e97f87dbb72d32bfe6420c61b1ef83b8ba7995d08af6017db876c53",
+      "source_ko": "위와 같이 동행 조치하였음을 보고합니다..",
+      "previous_zh": "我报告说，已采取上述配套措施。",
+      "meaning_pair_id": "e3c1dc0e37481fc7a18e6a7dda624ebed2120c33650bc75c244292c0a5cdfde0",
+      "meaning_pair_path": "meaning/pairs/e3.jsonl",
+      "meaning_pair_blob_sha": "1d5a088f17dc2fa5504c1eb066966cb1ad627125",
+      "corrected_zh": "特此报告已按上述方式采取同行措施。",
+      "reason": "피질문자의 동행 승낙·답변 내용 승인과 질문 종료 후 조치 등 인접 셀 원문 의미 대조."
+    },
+    {
+      "row_id": "A30124-zh-00023",
+      "target_id": "XML:2210663",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "source_ko": "년",
+      "previous_zh": "年份",
+      "meaning_pair_id": "51a9c53d5e91050e3abe1ef30e6743e05bc272555042d615ccb26c1cbd4bac01",
+      "meaning_pair_path": "meaning/pairs/51.jsonl",
+      "meaning_pair_blob_sha": "2a81adc629ef25015135b3e8aeaefa4b1a7069b6",
+      "corrected_zh": "年",
+      "reason": "피질문자의 동행 승낙·답변 내용 승인과 질문 종료 후 조치 등 인접 셀 원문 의미 대조."
+    },
+    {
+      "row_id": "A30124-zh-00024",
+      "target_id": "XML:2210664",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "source_ko": "월",
+      "previous_zh": "月份",
+      "meaning_pair_id": "fe11e2c245c4120f7ec1489f418bd7cb4dfa4f13b76bd89d3b8f839acc883cfc",
+      "meaning_pair_path": "meaning/pairs/fe.jsonl",
+      "meaning_pair_blob_sha": "9931861966dfb563168bf709151bcce4f1995af5",
+      "corrected_zh": "月",
+      "reason": "피질문자의 동행 승낙·답변 내용 승인과 질문 종료 후 조치 등 인접 셀 원문 의미 대조."
+    }
+  ],
+  "validation": {
+    "row_ids_unique": true,
+    "source_hashes_match": true,
+    "korean_pair_ids_resolved": true,
+    "form_multiple_columns_joined": true,
+    "total_cumulative_checked_rows": 656
+  },
+  "next_step": "Continue A30124 25-33."
+}
