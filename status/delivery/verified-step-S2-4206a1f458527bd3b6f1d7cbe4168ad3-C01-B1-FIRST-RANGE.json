@@ -1,0 +1,12 @@
+{
+  "worker": "C01",
+  "assignment_id": "S2-4206a1f458527bd3b6f1d7cbe4168ad3",
+  "job_id": "F-c1db9f2d11e9a051e9db",
+  "url": "https://chatgpt.com/c/6aef487e-a8c8-83e8-ba56-b15b82a121e9",
+  "previous_marker": "[LAW-SUPPLY-V2:S2-4206a1f458527bd3b6f1d7cbe4168ad3:C01:F-c1db9f2d11e9a051e9db]",
+  "previous_last_user_sha256": "d48fdd225ee76bde3a552a0720457307f6c36f4ba1782cb5865106d3a57bce84",
+  "status": "INTENT_NO_RESEND",
+  "created_at": "2026-11-07T17:46:04.921363+00:00",
+  "prompt": "[LAW-SUPPLY-V2:S2-4206a1f458527bd3b6f1d7cbe4168ad3:C01:F-c1db9f2d11e9a051e9db] [LAW-VERIFIED-ACTION:C01-B1-FIRST-RANGE]\n저장소: anbin19000-design/lawsofkorea\n브랜치: main\n법령가족: 항만 재개발 및 주변지역 발전에 관한 법률\nJob ID: F-c1db9f2d11e9a051e9db\n수신된 현재 배정의 기존 검수·진행 파일을 먼저 확인하십시오. 기검수 범위를 제외하고 B1 첫 미대조 구간의 행 ID와 한·중 원문을 대조하고, 한 구간의 구체적 교정 결과부터 중간 저장한 다음 같은 법령가족을 이어가십시오. 기존 행 ID와 해시는 보존하고 검증된 행은 반복하지 마십시오. 같은 배정만 계속하고 실제 보호·권한·승인·한도·STOP 또는 원문 변경이면 중단하십시오. 한 문서씩 처리하고 각 새 구간을 공식 GitHub Contents API로 고유 IN_PROGRESS 파일에 저장하고 재조회하십시오. 전체 법령가족을 대조한 뒤에만 검수 결과와 영수증을 저장하십시오. 운영 DB 및 원문은 수정하지 마십시오.",
+  "prompt_sha256": "1f6353be2d60940e1c7be6b5ad5643b52c316f33c02afd798ddb9884ddccf3b1"
+}
