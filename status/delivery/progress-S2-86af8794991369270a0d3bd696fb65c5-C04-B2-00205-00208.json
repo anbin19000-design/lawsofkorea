@@ -1,0 +1,217 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B1-01.json",
+      "blob_sha": "69fcf795c9621b125ae73864793ee4064bd4b815",
+      "document_key": "B1",
+      "rows_checked": 145,
+      "rows_corrected": 26
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "blob_sha": "aeba15bca83d7887b5e9f7ce393fba770a9b5faa",
+      "verified_rows": 12,
+      "documents": [
+        "A30118",
+        "A30120"
+      ]
+    },
+    {
+      "path": "status/delivery/verified-step-S2-86af8794991369270a0d3bd696fb65c5-C04-CHECKPOINT-166-01.json",
+      "blob_sha": "33003dbd344370d5b2cf92bb05838b92b144a7ba",
+      "status": "INTENT_NO_RESEND"
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-01.json",
+      "blob_sha": "5f92fef46a104d832b4e6944e94ab8ba7257dda1",
+      "document_key": "B2",
+      "rows_checked": 36,
+      "rows_corrected": 31
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00037-00044.json",
+      "blob_sha": "31d1e93b2b7bc2aab9430a0d4b201c246301d1c5",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00045-00052.json",
+      "blob_sha": "be37a2f05e6c47bf33ec4ea58b1d6163df4b96a1",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00053-00060.json",
+      "blob_sha": "385725a9ff5c6f74e8cb723a6fc91fbcf072d639",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00061-00072.json",
+      "blob_sha": "4573174026ca13b9d49225d71e76f10c6ab2d76f",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00073-00084.json",
+      "blob_sha": "eb20464990f1e23042b03e95a20ed243fed5c555",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00085-00104.json",
+      "blob_sha": "30ba440fd5a8c3e355e8e79c418c6c9b7adcaa9f",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00105-00124.json",
+      "blob_sha": "3fe79039feaa1febde3bcd60b4397e5a52301b9e",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00125-00144.json",
+      "blob_sha": "3fe9aed92331bbf966efeff025964f461a605d6b",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00145-00164.json",
+      "blob_sha": "ab61b90a9bc19864b55a54b55cce703f9cb22470",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 12
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00165-00184.json",
+      "blob_sha": "68f3e74081cab6a1e84a178d3404ae96facceabe",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00185-00204.json",
+      "blob_sha": "81c7f57799a8550b49975c68793c0c3de622e902",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 9
+    }
+  ],
+  "document": {
+    "key": "B2",
+    "kind": "대통령령",
+    "title": "의무경찰대 설치 및 운영에 관한 법률 시행령",
+    "source_hash": "da345505912da9c84c24a63989aee8605f2465beea1b28313585cd363b8b2504",
+    "rows_checked": 4,
+    "rows_corrected": 4,
+    "document_review_state": "IN_PROGRESS"
+  },
+  "range": {
+    "first_row_id": "B2-zh-00205",
+    "last_row_id": "B2-zh-00208",
+    "verified_row_count": 4
+  },
+  "verified_rows": [
+    {
+      "row_id": "B2-zh-00205",
+      "target_id": "2256db55cc37f2f3ddf7c7c483f525d414d20aee234df76881e9c4ba67f72d40",
+      "source_hash": "265404c4ec8ff95e228dfd909c5eb7068c7747a2819dc0a25b536527100c9804",
+      "source_ko": "제1조(시행일) 이 영은 2016년 1월 25일부터 시행한다. 다만, 제5조제2항ㆍ제3항, 제5조의2, 제7조 및 별표 1의 개정규정은 공포한 날부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自2016年1月25日起生效。但是，第五条第二款和第三款、第五条之二、第七条以及附件一的修正规定自公布之日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00206",
+      "target_id": "a29f6eea6cdb243dbf98246e1e3cce6951ad2e911d566cfbdcb027119fd606d7",
+      "source_hash": "f999e865065502c92873c8db1dd812b48539bb964ab9fa1421d9803474a9191b",
+      "source_ko": "제2조(의무경찰대 선발시험에 관한 경과조치) 부칙 제1조 단서에 따른 시행일 당시 진행 중인 의무경찰대 선발시험은 제5조, 제5조의2, 제7조 및 별표 1의 개정규정에도 불구하고 종전의 규정에 따른다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第二条（关于征召警察部队选拔考试的过渡措施）尽管第五条、第五条之二、第七条和附件一的规定有所修改，但在根据附录第一条但书规定生效之日正在进行的征召警察部队选拔考试，仍适用以前的规定。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00207",
+      "target_id": "b4835d3d3c98c87c0cd68f1263d3a7501a10cb52adeaecd00c230ebc593c91ec",
+      "source_hash": "56d7f42c13ccaea0869da4c14a8212ed1ae46fd8224c331818bd0ddaff5562a9",
+      "source_ko": "제3조(다른 법령의 개정) ① 5ㆍ18민주유공자예우에 관한 법률 시행령 일부를 다음과 같이 개정한다.\n\n  제50조제1항제2호 중 \"전투경찰대원\"을 \"의무경찰대원\"으로 한다.\n\n  ② 경찰공무원임용령 일부를 다음과 같이 개정한다.\n\n  제16조제3항 단서 및 같은 조 제4항제1호 중 \"전투경찰순경으로\"를 각각 \"의무경찰로\"로 하고, 같은 항 제3호 중 \"전투경찰순경중\"을 \"의무경찰 중\"으로, \"전투경찰대\"를 각각 \"의무경찰대\"로 한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第三条（修改其他法律）①对《五一八民主运动功勋人物待遇法》实施令的部分内容修改如下。\n\n  第五十条第一款第二项中，“战斗警察”应改为“征召警察”。\n\n  ② 《警官委任条例》部分内容修改如下。\n\n  在第十六条但书中，第三款和第四款第一项中，“战斗警察”应改为“征召警察”，在同一款第三项中，“战斗警察”应改为“征召警察”，“战斗警察部队”应改为“征召警察部队”。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00208",
+      "target_id": "2d8b8762dcf9cc4f32e479c086f9351a1e104796977e21a281e38c05f233711d",
+      "source_hash": "5d4a7deda34922f9e93dd814acf9d94a1afddaa091a430515a32075705118215",
+      "source_ko": "  제33조 본문 및 제43조제2항 단서 중 \"전투경찰순경으로\"를 각각 \"의무경찰로\"로 한다.\n\n  ③ 경찰공무원 징계령 일부를 다음과 같이 개정한다.\n\n  제3조제2항 및 제4조제2항제2호 중 \"전투경찰대\"를 각각 \"의무경찰대\"로 한다.\n\n  ④ 경찰청과 그 소속기관 직제 일부를 다음과 같이 개정한다.\n\n  제5조의2제2항제2호, 제6조제2항제4호, 제13조제3항제10호ㆍ제11호, 제27조제2항, 제31조, 제46조제2항제7호 및 제50조제2항제7호ㆍ제8호 중 \"전투경찰순경\"을 각각 \"의무경찰\"로 한다.\n\n  ⑤ 고엽제후유의증 등 환자지원 및 단체설립에 관한 법률 시행령 일부를 다음과 같이 개정한다.\n\n  제10조의2제1항제2호다목 중 \"전투경찰순경\"을 \"의무경찰\"로 한다.\n\n  ⑥ 공무원보수규정 일부를 다음과 같이 개정한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "  在第33条正文和第43条但书第2款中，“打击警察”应改为“征召警察”。\n\n  ③ 《警务人员纪律条例》部分修改如下。\n\n  在第三条第二款和第四条第二款第二项中，“战斗警察部队”应改为“征召警察部队”。\n\n  ④ 国家警察厅及其附属机构的组织结构部分修改如下。\n\n  在第5条之2第2款第2项；第6条第2款第4项；第13条第3款第10项和第11项；第27条第2款；第31条；第46条第2款第7项；以及第50条第2款第7项和第8项中，“战斗警察”应改为“征召警察”。\n\n  ⑤ 对《橙剂相关疾病患者援助法》实施细则等以及组织设立规定修改如下。\n\n  在第 10-2 条第 1 款第 2 项（c）中，“战斗警察”应改为“征召警察”。\n\n  6. 《公务员薪酬条例》部分修改如下。\n\n"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "B2-zh-00205",
+      "target_id": "2256db55cc37f2f3ddf7c7c483f525d414d20aee234df76881e9c4ba67f72d40",
+      "source_hash": "265404c4ec8ff95e228dfd909c5eb7068c7747a2819dc0a25b536527100c9804",
+      "source_ko": "제1조(시행일) 이 영은 2016년 1월 25일부터 시행한다. 다만, 제5조제2항ㆍ제3항, 제5조의2, 제7조 및 별표 1의 개정규정은 공포한 날부터 시행한다.\n\n",
+      "previous_zh": "第一条（生效日期）本法令自2016年1月25日起生效。但是，第五条第二款和第三款、第五条之二、第七条以及附件一的修正规定自公布之日起生效。\n\n",
+      "corrected_zh": "第一条（施行日期）本施行令自2016年1月25日起施行。但是，第五条第二款及第三款、第五条之二、第七条和附表一的修订规定自公布之日起施行。\n\n",
+      "reason": "법령명·과거 법령개정 인용·별표 관계·전투경찰순경과 의무경찰의 번역상 명확한 오류 교정."
+    },
+    {
+      "row_id": "B2-zh-00206",
+      "target_id": "a29f6eea6cdb243dbf98246e1e3cce6951ad2e911d566cfbdcb027119fd606d7",
+      "source_hash": "f999e865065502c92873c8db1dd812b48539bb964ab9fa1421d9803474a9191b",
+      "source_ko": "제2조(의무경찰대 선발시험에 관한 경과조치) 부칙 제1조 단서에 따른 시행일 당시 진행 중인 의무경찰대 선발시험은 제5조, 제5조의2, 제7조 및 별표 1의 개정규정에도 불구하고 종전의 규정에 따른다.\n\n",
+      "previous_zh": "第二条（关于征召警察部队选拔考试的过渡措施）尽管第五条、第五条之二、第七条和附件一的规定有所修改，但在根据附录第一条但书规定生效之日正在进行的征召警察部队选拔考试，仍适用以前的规定。\n\n",
+      "corrected_zh": "第二条（关于义务警察部队选拔考试的过渡措施）在附则第一条但书规定的施行日期当时正在进行的义务警察部队选拔考试，尽管有第五条、第五条之二、第七条和附表一的修订规定，仍适用原有规定。\n\n",
+      "reason": "법령명·과거 법령개정 인용·별표 관계·전투경찰순경과 의무경찰의 번역상 명확한 오류 교정."
+    },
+    {
+      "row_id": "B2-zh-00207",
+      "target_id": "b4835d3d3c98c87c0cd68f1263d3a7501a10cb52adeaecd00c230ebc593c91ec",
+      "source_hash": "56d7f42c13ccaea0869da4c14a8212ed1ae46fd8224c331818bd0ddaff5562a9",
+      "source_ko": "제3조(다른 법령의 개정) ① 5ㆍ18민주유공자예우에 관한 법률 시행령 일부를 다음과 같이 개정한다.\n\n  제50조제1항제2호 중 \"전투경찰대원\"을 \"의무경찰대원\"으로 한다.\n\n  ② 경찰공무원임용령 일부를 다음과 같이 개정한다.\n\n  제16조제3항 단서 및 같은 조 제4항제1호 중 \"전투경찰순경으로\"를 각각 \"의무경찰로\"로 하고, 같은 항 제3호 중 \"전투경찰순경중\"을 \"의무경찰 중\"으로, \"전투경찰대\"를 각각 \"의무경찰대\"로 한다.\n\n",
+      "previous_zh": "第三条（修改其他法律）①对《五一八民主运动功勋人物待遇法》实施令的部分内容修改如下。\n\n  第五十条第一款第二项中，“战斗警察”应改为“征召警察”。\n\n  ② 《警官委任条例》部分内容修改如下。\n\n  在第十六条但书中，第三款和第四款第一项中，“战斗警察”应改为“征召警察”，在同一款第三项中，“战斗警察”应改为“征召警察”，“战斗警察部队”应改为“征召警察部队”。\n\n",
+      "corrected_zh": "第三条（其他法令的修订）① 《关于礼遇五一八民主有功者的法律施行令》作如下部分修订。\n\n  第五十条第一款第二项中的“战斗警察部队队员”改为“义务警察部队队员”。\n\n  ② 《警察公务员任用令》作如下部分修订。\n\n  第十六条第三款但书及同条第四款第一项中的“作为战斗警察巡警”分别改为“作为义务警察”；同款第三项中的“战斗警察巡警之中”改为“义务警察之中”，并分别将“战斗警察部队”改为“义务警察部队”。\n\n",
+      "reason": "법령명·과거 법령개정 인용·별표 관계·전투경찰순경과 의무경찰의 번역상 명확한 오류 교정."
+    },
+    {
+      "row_id": "B2-zh-00208",
+      "target_id": "2d8b8762dcf9cc4f32e479c086f9351a1e104796977e21a281e38c05f233711d",
+      "source_hash": "5d4a7deda34922f9e93dd814acf9d94a1afddaa091a430515a32075705118215",
+      "source_ko": "  제33조 본문 및 제43조제2항 단서 중 \"전투경찰순경으로\"를 각각 \"의무경찰로\"로 한다.\n\n  ③ 경찰공무원 징계령 일부를 다음과 같이 개정한다.\n\n  제3조제2항 및 제4조제2항제2호 중 \"전투경찰대\"를 각각 \"의무경찰대\"로 한다.\n\n  ④ 경찰청과 그 소속기관 직제 일부를 다음과 같이 개정한다.\n\n  제5조의2제2항제2호, 제6조제2항제4호, 제13조제3항제10호ㆍ제11호, 제27조제2항, 제31조, 제46조제2항제7호 및 제50조제2항제7호ㆍ제8호 중 \"전투경찰순경\"을 각각 \"의무경찰\"로 한다.\n\n  ⑤ 고엽제후유의증 등 환자지원 및 단체설립에 관한 법률 시행령 일부를 다음과 같이 개정한다.\n\n  제10조의2제1항제2호다목 중 \"전투경찰순경\"을 \"의무경찰\"로 한다.\n\n  ⑥ 공무원보수규정 일부를 다음과 같이 개정한다.\n\n",
+      "previous_zh": "  在第33条正文和第43条但书第2款中，“打击警察”应改为“征召警察”。\n\n  ③ 《警务人员纪律条例》部分修改如下。\n\n  在第三条第二款和第四条第二款第二项中，“战斗警察部队”应改为“征召警察部队”。\n\n  ④ 国家警察厅及其附属机构的组织结构部分修改如下。\n\n  在第5条之2第2款第2项；第6条第2款第4项；第13条第3款第10项和第11项；第27条第2款；第31条；第46条第2款第7项；以及第50条第2款第7项和第8项中，“战斗警察”应改为“征召警察”。\n\n  ⑤ 对《橙剂相关疾病患者援助法》实施细则等以及组织设立规定修改如下。\n\n  在第 10-2 条第 1 款第 2 项（c）中，“战斗警察”应改为“征召警察”。\n\n  6. 《公务员薪酬条例》部分修改如下。\n\n",
+      "corrected_zh": "  第三十三条正文及第四十三条第二款但书中的“作为战斗警察巡警”分别改为“作为义务警察”。\n\n  ③ 《警察公务员纪律处分令》作如下部分修订。\n\n  第三条第二款及第四条第二款第二项中的“战斗警察部队”分别改为“义务警察部队”。\n\n  ④ 《警察厅及其所属机关职制》作如下部分修订。\n\n  第五条之二第二款第二项、第六条第二款第四项、第十三条第三款第十项及第十一项、第二十七条第二款、第三十一条、第四十六条第二款第七项及第五十条第二款第七项、第八项中的“战斗警察巡警”分别改为“义务警察”。\n\n  ⑤ 《关于支援枯叶剂后遗症疑似患者等及设立团体的法律施行令》作如下部分修订。\n\n  第十条之二第一款第二项丙目中的“战斗警察巡警”改为“义务警察”。\n\n  ⑥ 《公务员报酬规定》作如下部分修订。\n\n",
+      "reason": "법령명·과거 법령개정 인용·별표 관계·전투경찰순경과 의무경찰의 번역상 명확한 오류 교정."
+    }
+  ],
+  "validation": {
+    "row_ids_unique": true,
+    "source_hashes_match": true,
+    "verified_korean_offsets": true,
+    "no_untranslated_or_mtq_start_markers": true,
+    "english_reference": "documents/en/kr-004766-281729-en.json",
+    "total_cumulative_checked_rows": 365
+  },
+  "next_step": "Resume B2 at B2-zh-00209, no final receipt."
+}
