@@ -1,0 +1,8 @@
+{
+  "job_id": "F-75f90b343c07db864a3b",
+  "worker": "C02",
+  "checked_rows": 438,
+  "corrected_rows": 330,
+  "status": "COMPLETE",
+  "note": "Reviewed the 6-document family against unchanged Korean source at baseline b818ab7b9ffc616199bb991ff43585e6b4bc2321. After authorized recovery from concurrent branch-head 409, replaced only correction B3-zh-00008 with a complete Chinese rendering of enforcement rule Article 7 using current file SHA. All 329 other corrections preserved byte-for-byte; 438 rows and 330 unique nonempty correction IDs verified. Original laws/* unchanged. Review storage is separate from operational DB."
+}
