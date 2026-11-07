@@ -1,0 +1,61 @@
+{
+  "schema": "LAW_ZH_IN_PROGRESS_REVIEW_V1",
+  "job_id": "F-69d9e2651808803c4773",
+  "worker": "C05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_commit": "2bf6ebdc1974eb43100aa2ab00e7f7e7fd09e094",
+  "ko_blob_sha": "111519dd32bb33a661576be45b72c6b8e535cbb4",
+  "zh_blob_sha": "3c62ee9db18e00e56fab07bbcc3f8d47bbf0b528",
+  "en_blob_sha": "472b93f92f9acf1f4104ce1792d7eb5bb83981a4",
+  "checked_rows": 8,
+  "checked_row_ids": [
+    "B2-zh-00186",
+    "B2-zh-00187",
+    "B2-zh-00188",
+    "B2-zh-00189",
+    "B2-zh-00190",
+    "B2-zh-00191",
+    "B2-zh-00192",
+    "B2-zh-00193"
+  ],
+  "edits": [
+    {
+      "id": "B2-zh-00186",
+      "source_hash": "5d1ff1b83d9d5ec24f8ee9edc071acfed0a3db05b60357cecff772a857c64b1e",
+      "target_id": "a0836667ce974114143292989fe08d04eab5a9360e7482b89f4e291867a7b59a",
+      "text": "第三条（其他法令的修改）① 略\n\n  ②《个人信息保护法施行令》部分修改如下。\n\n  将第二十二条第一款第二号修改如下。\n\n    2. 依照《精神健康增进及精神疾病患者福利服务支援相关法律》第三条第五号至第七号规定的精神医疗机构（仅限设有收容设施的机构）、精神疗养设施及精神康复设施\n\n  ③至<24> 略\n\n"
+    },
+    {
+      "id": "B2-zh-00188",
+      "source_hash": "ba6741fc6520dcd66bf30eef426c08b23ec3fb868893873efb96d4b2357824a9",
+      "target_id": "64497bbf03217f62515b94ce4eeebb525a79dbd85c1107442191556db3226313",
+      "text": "附则（《居民登记法施行令》）<第28150号，2017年6月27日>\n\n"
+    },
+    {
+      "id": "B2-zh-00189",
+      "source_hash": "5e579d16fa1756875131dad761e800164b78dbf2b62d54557a6072dba7d3b84d",
+      "target_id": "e706bb592bf11dc219e5b28c6723929641e5719d1478fd88d94a426e5e2202a3",
+      "text": "第一条（施行日期）本施行令自2017年7月1日起施行。但附则第三条的修订规定自公布之日起施行。\n\n"
+    },
+    {
+      "id": "B2-zh-00191",
+      "source_hash": "9419d683fd52b2db4abc479359729e7c9adf9539a6c84a13e182a89e6a9240bd",
+      "target_id": "b500e4c6301b74c795bc3a38873032eedca83633aa6b263336acc3a3c3907d4c",
+      "text": "第三条（其他法令的修改）①《个人信息保护法施行令》部分修改如下。\n\n  将第十九条第一号中的“《居民登记法》第七条第三款”改为“《居民登记法》第七条之二第一款”。\n\n  ②至⑤ 略\n\n"
+    },
+    {
+      "id": "B2-zh-00192",
+      "source_hash": "2229ee61688f381fa8791a317dce02e692966c0fc8dfff0224bc44e3cd9315a8",
+      "target_id": "22407954b980a474d862ed545871bbd1901c668a390568b313e3b346a319218d",
+      "text": "附则（行政安全部及其所属机构编制）<第28211号，2017年7月26日>\n\n"
+    },
+    {
+      "id": "B2-zh-00193",
+      "source_hash": "d4d103d3e37771adbbb46411d05494fb1bd3e0332ddee1f3d4d168acbb01195b",
+      "target_id": "f7a2987cfd030908cf6ebcb76580a4437c92c4edb1e81a4a00e27d1d98677d48",
+      "text": "第一条（施行日期）本施行令自公布之日起施行。但依附则第八条修改的总统令中，对本施行令施行前已公布而施行日期尚未到来的总统令所作的修改部分，分别自相应总统令的施行日期起施行。\n\n第二条至第七条 略\n\n"
+    }
+  ],
+  "note": "B2 186-193 checked against Korean: legal subparagraphs, psychiatric facility categories, decree titles, supplementary provisions. Rows 187 and 190 retained. Family remains IN_PROGRESS."
+}
