@@ -1,0 +1,285 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30124-00025-00033.json",
+      "blob_sha": "731ceaac987a10d553c9972fd89a6f8eeceff248",
+      "document_key": "A30124",
+      "rows_checked": 9,
+      "rows_corrected": 5
+    }
+  ],
+  "document": {
+    "key": "A30125",
+    "kind": "서식",
+    "title": "(부상자, 질병자) 치료신청서",
+    "source_hash": "04e45d8be8d3f2ab910b28aa69c94028ed0fc83d760b1dccc496ff7ae1b15493",
+    "rows_checked": 14,
+    "rows_corrected": 12,
+    "document_review_state": "IN_PROGRESS"
+  },
+  "range": {
+    "first_row_id": "A30125-zh-00001",
+    "last_row_id": "A30125-zh-00014",
+    "verified_row_count": 14
+  },
+  "verified_rows": [
+    {
+      "row_id": "A30125-zh-00001",
+      "target_id": "XML:2210674",
+      "source_hash": "2431e6f0b9b72dc9f615aba2826f5ecc4123312eabc4ba8e8028bbfc3f7e99f0",
+      "source_ko": "■ 의무경찰대 설치 및 운영에 관한 법률 시행령 [별지 제5호서식] <개정 2015.11.20.>",
+      "previous_zh": "■ 征召警察部队设立及运作法实施令[附件5] <2015年11月20日修订>",
+      "meaning_pair_id": "cbbe49a3e67e1bd2e4e3c854941d7d3626cb1abc9cf92944c54f1ae199c20aed",
+      "source_basis": "meaning/pairs and authoritative complete form"
+    },
+    {
+      "row_id": "A30125-zh-00002",
+      "target_id": "XML:2210675",
+      "source_hash": "298b51c5a2d424797834d565a864b8c6f20d0e3675f58e3d57854bef90c95d4e",
+      "source_ko": "[ ]부상자",
+      "previous_zh": "[ ]受伤",
+      "meaning_pair_id": "a5b7f5d1b99a5725a5cc64602934a5f8e5aaf55157e6a8ee2c24f5f0b7fb1328",
+      "source_basis": "meaning/pairs and authoritative complete form"
+    },
+    {
+      "row_id": "A30125-zh-00003",
+      "target_id": "XML:2210676",
+      "source_hash": "adbdfe5b8e229d0f9ffceeaa3051f44493f8ca9863f1733430615f9f44270a22",
+      "source_ko": "치료신청서",
+      "previous_zh": "治疗申请表",
+      "meaning_pair_id": "8114f8a823231522d86016e39dd25be18f55c8d5e1e282f979f2a38b338b9ac4",
+      "source_basis": "meaning/pairs and authoritative complete form"
+    },
+    {
+      "row_id": "A30125-zh-00004",
+      "target_id": "XML:2210677",
+      "source_hash": "76a2aff0721bb54830c02d9dbdcc761510752c898171353adac30521b6bde439",
+      "source_ko": "[ ]질병자",
+      "previous_zh": "[ ]患病",
+      "meaning_pair_id": "d29989760161cc300bfae6ee069bb05439dd429d56282ef68c9d8f505d10be90",
+      "source_basis": "meaning/pairs and authoritative complete form"
+    },
+    {
+      "row_id": "A30125-zh-00005",
+      "target_id": "XML:2210678",
+      "source_hash": "0e9e3ce22b201f1c886d2a36e02844b6ee3ff73f362055d9c963932b4cb6229f",
+      "source_ko": "부상",
+      "previous_zh": "损伤",
+      "meaning_pair_id": "944e24ec62021055d4e8387bd123fdeb32cef130a57218d14f58aa800b8d9ffd",
+      "source_basis": "meaning/pairs and authoritative complete form"
+    },
+    {
+      "row_id": "A30125-zh-00006",
+      "target_id": "XML:2210679",
+      "source_hash": "01603d13dd6590d7676446f682aed959803754281fa23ce912d6c1bf93cbcb15",
+      "source_ko": "소속기관",
+      "previous_zh": "隶属关系",
+      "meaning_pair_id": "16b862d8f6ce2c7ae0405cefc94dd784ad669fd99b6f3ff521245a13039ae51a",
+      "source_basis": "meaning/pairs and authoritative complete form"
+    },
+    {
+      "row_id": "A30125-zh-00007",
+      "target_id": "XML:2210680",
+      "source_hash": "91412fb1782f5b1bb08a0c0b350836297ee5276944750ad6c9521b47eab012f9",
+      "source_ko": "(질병)",
+      "previous_zh": "(疾病)",
+      "meaning_pair_id": "9854b2c1666ef49597f00c6251d14d930c8c979f60379aa5f95e676080592ace",
+      "source_basis": "meaning/pairs and authoritative complete form"
+    },
+    {
+      "row_id": "A30125-zh-00008",
+      "target_id": "XML:2210682",
+      "source_hash": "e30475ab58895c7ee4d6393695dfae85c53660e08827eea68f29b851a6f6a3a8",
+      "source_ko": "계급",
+      "previous_zh": "排名",
+      "meaning_pair_id": "a21e838a5729c0359ada0c841de115ede51d801659f04cbed23395e8f81ca929",
+      "source_basis": "meaning/pairs and authoritative complete form"
+    },
+    {
+      "row_id": "A30125-zh-00009",
+      "target_id": "XML:2210683",
+      "source_hash": "d2cc353c099a0825cf17be583a5c2aaaeebcfe807150af57e561b132bae7a1cf",
+      "source_ko": "군번",
+      "previous_zh": "军号",
+      "meaning_pair_id": "31a28a6745cdf0cd0f180d27fe7c9485ee79c84633c109a2c0de7963dea4c535",
+      "source_basis": "meaning/pairs and authoritative complete form"
+    },
+    {
+      "row_id": "A30125-zh-00010",
+      "target_id": "XML:2210684",
+      "source_hash": "5aa32deffdf1362feb45b4aaf4a1945b15c91915f96194031e41bc759b5f2f97",
+      "source_ko": "명",
+      "form_source_ko_context": "성명",
+      "previous_zh": "名称",
+      "meaning_pair_id": "e555e8cf05f96583a4d528d3673e3ba9ee34932d74cb284c76d04d37cc079047",
+      "source_basis": "meaning/pairs and authoritative complete form"
+    },
+    {
+      "row_id": "A30125-zh-00011",
+      "target_id": "XML:2210685",
+      "source_hash": "0cfaa069c4d77e55af86144e32ee89b6d1bb736458ac46736e38965103c9fbd7",
+      "source_ko": "주민등록번호",
+      "previous_zh": "居民注册号",
+      "meaning_pair_id": "c3abfdce5df01e556c54db58360f3be91533e2e222fee8358335b4b4d7b6f89a",
+      "source_basis": "meaning/pairs and authoritative complete form"
+    },
+    {
+      "row_id": "A30125-zh-00012",
+      "target_id": "XML:2210686",
+      "source_hash": "28e058c7cec8846e6c5fb52308685e1c534d4b8a745ab01a9d40c045f3fd6c71",
+      "source_ko": "주소",
+      "previous_zh": "地址",
+      "meaning_pair_id": "85a28277b11fa6b425dd50932bb9395c7db8327b3c42ca972aae6724d0c6896c",
+      "source_basis": "meaning/pairs and authoritative complete form"
+    },
+    {
+      "row_id": "A30125-zh-00013",
+      "target_id": "XML:2210687",
+      "source_hash": "b83ca747862ff2cfa93c0babf355539b5f104219b9a8fe28473278099982d4b0",
+      "source_ko": "치료를 받으려는",
+      "previous_zh": "拟接受治疗者",
+      "meaning_pair_id": "409396654dca6d47830118658a3e61441977f17de0906547201011e1fb2c7a7f",
+      "source_basis": "meaning/pairs and authoritative complete form"
+    },
+    {
+      "row_id": "A30125-zh-00014",
+      "target_id": "XML:2210688",
+      "source_hash": "ba190e83c1b90e0128818a604a1cdeeb7e728a56eb39d3df6d93de76a19b4b86",
+      "source_ko": "의료 시설명",
+      "previous_zh": "医疗机构名称",
+      "meaning_pair_id": "537fc27740255bdb1a56980b76f9048027dcda91bad45236f0775f26c79a189b",
+      "source_basis": "meaning/pairs and authoritative complete form"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "A30125-zh-00001",
+      "target_id": "XML:2210674",
+      "source_hash": "2431e6f0b9b72dc9f615aba2826f5ecc4123312eabc4ba8e8028bbfc3f7e99f0",
+      "source_ko": "■ 의무경찰대 설치 및 운영에 관한 법률 시행령 [별지 제5호서식] <개정 2015.11.20.>",
+      "previous_zh": "■ 征召警察部队设立及运作法实施令[附件5] <2015年11月20日修订>",
+      "corrected_zh": "■ 《义务警察部队设立及运营法施行令》〔附件第5号格式〕<2015年11月20日修订>",
+      "reason": "서식의 한글 원문과 표 레이아웃을 기준으로 사람·계급·주민등록번호·기관명·의료시설 관련 오역 및 누락 교정."
+    },
+    {
+      "row_id": "A30125-zh-00002",
+      "target_id": "XML:2210675",
+      "source_hash": "298b51c5a2d424797834d565a864b8c6f20d0e3675f58e3d57854bef90c95d4e",
+      "source_ko": "[ ]부상자",
+      "previous_zh": "[ ]受伤",
+      "corrected_zh": "[ ]负伤者",
+      "reason": "서식의 한글 원문과 표 레이아웃을 기준으로 사람·계급·주민등록번호·기관명·의료시설 관련 오역 및 누락 교정."
+    },
+    {
+      "row_id": "A30125-zh-00003",
+      "target_id": "XML:2210676",
+      "source_hash": "adbdfe5b8e229d0f9ffceeaa3051f44493f8ca9863f1733430615f9f44270a22",
+      "source_ko": "치료신청서",
+      "previous_zh": "治疗申请表",
+      "corrected_zh": "治疗申请书",
+      "reason": "서식의 한글 원문과 표 레이아웃을 기준으로 사람·계급·주민등록번호·기관명·의료시설 관련 오역 및 누락 교정."
+    },
+    {
+      "row_id": "A30125-zh-00004",
+      "target_id": "XML:2210677",
+      "source_hash": "76a2aff0721bb54830c02d9dbdcc761510752c898171353adac30521b6bde439",
+      "source_ko": "[ ]질병자",
+      "previous_zh": "[ ]患病",
+      "corrected_zh": "[ ]患病者",
+      "reason": "서식의 한글 원문과 표 레이아웃을 기준으로 사람·계급·주민등록번호·기관명·의료시설 관련 오역 및 누락 교정."
+    },
+    {
+      "row_id": "A30125-zh-00005",
+      "target_id": "XML:2210678",
+      "source_hash": "0e9e3ce22b201f1c886d2a36e02844b6ee3ff73f362055d9c963932b4cb6229f",
+      "source_ko": "부상",
+      "previous_zh": "损伤",
+      "corrected_zh": "负伤",
+      "reason": "서식의 한글 원문과 표 레이아웃을 기준으로 사람·계급·주민등록번호·기관명·의료시설 관련 오역 및 누락 교정."
+    },
+    {
+      "row_id": "A30125-zh-00006",
+      "target_id": "XML:2210679",
+      "source_hash": "01603d13dd6590d7676446f682aed959803754281fa23ce912d6c1bf93cbcb15",
+      "source_ko": "소속기관",
+      "previous_zh": "隶属关系",
+      "corrected_zh": "所属机关",
+      "reason": "서식의 한글 원문과 표 레이아웃을 기준으로 사람·계급·주민등록번호·기관명·의료시설 관련 오역 및 누락 교정."
+    },
+    {
+      "row_id": "A30125-zh-00008",
+      "target_id": "XML:2210682",
+      "source_hash": "e30475ab58895c7ee4d6393695dfae85c53660e08827eea68f29b851a6f6a3a8",
+      "source_ko": "계급",
+      "previous_zh": "排名",
+      "corrected_zh": "警衔",
+      "reason": "서식의 한글 원문과 표 레이아웃을 기준으로 사람·계급·주민등록번호·기관명·의료시설 관련 오역 및 누락 교정."
+    },
+    {
+      "row_id": "A30125-zh-00009",
+      "target_id": "XML:2210683",
+      "source_hash": "d2cc353c099a0825cf17be583a5c2aaaeebcfe807150af57e561b132bae7a1cf",
+      "source_ko": "군번",
+      "previous_zh": "军号",
+      "corrected_zh": "军籍编号",
+      "reason": "서식의 한글 원문과 표 레이아웃을 기준으로 사람·계급·주민등록번호·기관명·의료시설 관련 오역 및 누락 교정."
+    },
+    {
+      "row_id": "A30125-zh-00010",
+      "target_id": "XML:2210684",
+      "source_hash": "5aa32deffdf1362feb45b4aaf4a1945b15c91915f96194031e41bc759b5f2f97",
+      "source_ko": "성명",
+      "previous_zh": "名称",
+      "corrected_zh": "姓名",
+      "reason": "서식의 한글 원문과 표 레이아웃을 기준으로 사람·계급·주민등록번호·기관명·의료시설 관련 오역 및 누락 교정."
+    },
+    {
+      "row_id": "A30125-zh-00011",
+      "target_id": "XML:2210685",
+      "source_hash": "0cfaa069c4d77e55af86144e32ee89b6d1bb736458ac46736e38965103c9fbd7",
+      "source_ko": "주민등록번호",
+      "previous_zh": "居民注册号",
+      "corrected_zh": "居民登记号码",
+      "reason": "서식의 한글 원문과 표 레이아웃을 기준으로 사람·계급·주민등록번호·기관명·의료시설 관련 오역 및 누락 교정."
+    },
+    {
+      "row_id": "A30125-zh-00013",
+      "target_id": "XML:2210687",
+      "source_hash": "b83ca747862ff2cfa93c0babf355539b5f104219b9a8fe28473278099982d4b0",
+      "source_ko": "치료를 받으려는",
+      "previous_zh": "拟接受治疗者",
+      "corrected_zh": "拟接受治疗的",
+      "reason": "서식의 한글 원문과 표 레이아웃을 기준으로 사람·계급·주민등록번호·기관명·의료시설 관련 오역 및 누락 교정."
+    },
+    {
+      "row_id": "A30125-zh-00014",
+      "target_id": "XML:2210688",
+      "source_hash": "ba190e83c1b90e0128818a604a1cdeeb7e728a56eb39d3df6d93de76a19b4b86",
+      "source_ko": "의료 시설명",
+      "previous_zh": "医疗机构名称",
+      "corrected_zh": "医疗设施名称",
+      "reason": "서식의 한글 원문과 표 레이아웃을 기준으로 사람·계급·주민등록번호·기관명·의료시설 관련 오역 및 누락 교정."
+    }
+  ],
+  "validation": {
+    "unique_ids": true,
+    "source_blobs_unchanged": true,
+    "korean_form_context_checked": true,
+    "corrections_without_mtq_start_and_korean": true,
+    "total_cumulative_checked_rows": 679
+  },
+  "next_step": "Continue A30125 15-28, then A30126. Family 800 not complete."
+}
