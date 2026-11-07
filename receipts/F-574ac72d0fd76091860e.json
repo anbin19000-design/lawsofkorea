@@ -1,0 +1,8 @@
+{
+  "job_id": "F-574ac72d0fd76091860e",
+  "worker": "C03",
+  "checked_rows": 1059,
+  "corrected_rows": 68,
+  "status": "COMPLETE",
+  "note": "已按main分支韩国原文核对30份文件、1059个中文行；韩国原文SHA与基准提交94b0e5e4ae5c6c5518887a995f74a6bc99aaedea处完全一致。提交68项按原始行ID定位的最小纠正。对有英文参考的941行，参考索引含meaning/pairs候选；为本次修订涉及的候选读取了对应20个meaning/pairs分片。英文文档仅B1官方译文及B2 AI草稿可用；其余118行无英文文档，且30份索引均未提供reviewed/en路径。韩国原文为权威依据。最终应用修订文本未检出MTQ哈希标记、文中START、残留韩文、Shin/END占位、已识别的“犯罪记者/理事会/结构测定”错译。审阅文件保存不等于运营数据库反映。"
+}
