@@ -1,0 +1,8 @@
+{
+  "job_id": "F-6bd7dc59194692c00393",
+  "worker": "C02",
+  "checked_rows": 964,
+  "corrected_rows": 29,
+  "status": "COMPLETE",
+  "note": "Completed Chinese review of all 964 unique rows across the 22-document Healing Agriculture Research, Development and Promotion Act family. Corrected material mistranslations and omissions in the Act, Enforcement Decree and Enforcement Rule; corrected residual Korean and duplicated annex/form content; fixed qualification/eligibility and education table wording; removed MTQ and START artifacts from remaining form and annex rows. The final text after applying the 29 unique edits was checked for Korean characters, MTQ markers, START tokens and hash-like artifacts; none remain. The Korean source blob on main matches the supplied baseline commit. Review and receipt storage are separate from operational database application."
+}
