@@ -30,7 +30,20 @@
   },
   "assistant_count": 16,
   "assistant_excerpt": "정대장\n\n\t\n\n21\n\n\t\n\nd951b897a354\n\n\n\n\nA26507 실시계획 인가신청서\n\n\t\n\n84\n\n\t\n\nb11d922b2e56\n\n\n\n\nA26508 실시계획 인가대장\n\n\t\n\n31\n\n\t\n\nf315e66bd6ad\n\n\n\n\nA26509 환지신청서\n\n\t\n\n46\n\n\t\n\n2afc5c7ddbbf\n\n\n\n\nA26510 공사완료 보고서\n\n\t\n\n60\n\n\t\n\n8fc3b4374de7\n\n\n\n\nA26511 준공검사 증명서\n\n\t\n\n22\n\n\t\n\n1a15ed6ac078\n\n\n\n\nA26512 준공 전 사용허가 신청서\n\n\t\n\n51\n\n\t\n\n232e436ede3a\n\n\n\n\nA26513 비용부담 납부통지서\n\n\t\n\n27\n\n\t\n\na5bb246edf0a\n\n\n\n\nA26514 증표\n\n\t\n\n21\n\n\t\n\n5b0bb9a49d18\n\nSHA는 앞 12자리로 표시했습니다.\n\n중단 원인\n\n마지막 통합 검증에서 다음 도구 오류가 발생했습니다.\n\nCode Mode exceeded the maximum number of tool calls.\n\n따라서 해당 회차에서 추가 호출을 중단했습니다. 앞서 발생한 GitHub 409 충돌은 원문과 대상 경로를 재확인한 뒤 허용된 1회 재시도로 해결됐으며, 마지막 중단 원인과는 별개입니다.\n\n완료 전 남은 검증\n\n기존 515행과 이번 신규 628행을 합하면 1,143행입니다. 다만 아직 두 중간 저장 경로 전체의 checked_ids 합집합을 확정하지 못했고, 기존 교정문 충돌 41행의 원문 대조와 해소가 남았습니다.\n\n따라서 다음 작업 시작점은 신규 번역 행이 아니라 중간 검수 파일 전체 통합 및 충돌 검증입니다.\n\n최종 review/zh와 receipts는 생성하지 않았습니다. 기존 원문, 해시, 중간 검수 파일 및 운영 DB는 보존했습니다.\n\n현재 상태: C01 / IN_PROGRESS / 전체 통합 검증 대기",
+  "attempted_at": "2026-11-07T21:31:35.936716+00:00",
   "created_at": "2026-11-07T21:31:28.618179+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-e811a729740fea81282fc5378ec284d9",
+    "attempted_at": "2026-11-07T21:31:35.936716+00:00",
+    "claim_commit": "f301520de07b6c42f0af4f9e993324c55dd35de3",
+    "event_id": "obs-5724890da86f45bce7c1e3235a69ea178afcfb84",
+    "job_id": "F-eb24b26e08a83be58f81",
+    "record_path": "status/delivery/recovery-S2-e811a729740fea81282fc5378ec284d9.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C01"
+  },
   "episode": 7,
   "event_id": "obs-5724890da86f45bce7c1e3235a69ea178afcfb84",
   "job_id": "F-eb24b26e08a83be58f81",
@@ -408,7 +421,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-24be8bcaf194f3aa536e00f2]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "9aa19a5d12b09709a8a19cdfdd1728d76ffc1c98",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef92b3-47f4-83ee-abf9-0a573b2d7d04",
   "worker": "C01"
 }
