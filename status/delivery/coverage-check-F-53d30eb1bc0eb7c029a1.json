@@ -1,0 +1,27 @@
+{
+  "schema": "LAW_QUALITY_FOLLOWUP_V1",
+  "worker": "C05",
+  "job_id": "F-53d30eb1bc0eb7c029a1",
+  "source_blobs": {
+    "ko": "935c96e1cc4e1daf3ccfce90b00f2867fe17c113",
+    "zh": "e95495801a4ba8dc500092f6dcf435b86d2c9a0c",
+    "en": "b3be80db4850726602a0d6eb5323ebe0db289aed"
+  },
+  "review_blob": "d7022523853feacf1d32ed016c21d0239dd49ed0",
+  "receipt_blob": "caf2cd5f10e9eca58be1c21649dc2ec4982b5493",
+  "opened_at": "2026-11-07T12:53:40.624361+00:00",
+  "rows": [
+    {
+      "id": "A39420-zh-00054",
+      "source_hash": "233f248154d9edc49764ff16e1fa5156ecd7c10acfbe5daa095086028890ec9d",
+      "observed": "项目评估MTQ15a314f48477896f01367结束",
+      "check": "안전도 평가의 실시 기간 및 평가 항목(제9조 관련)의 해당 표 셀과 앞뒤 행을 한국어 원문으로 대조해 기계 표식과 연결된 오역을 보완하십시오."
+    },
+    {
+      "id": "A39420-zh-00055",
+      "source_hash": "233f248154d9edc49764ff16e1fa5156ecd7c10acfbe5daa095086028890ec9d",
+      "observed": "项目评估MTQ15a314f48477896f01367结束",
+      "check": "안전도 평가의 실시 기간 및 평가 항목(제9조 관련)의 해당 표 셀과 앞뒤 행을 한국어 원문으로 대조해 기계 표식과 연결된 오역을 보완하십시오."
+    }
+  ]
+}
