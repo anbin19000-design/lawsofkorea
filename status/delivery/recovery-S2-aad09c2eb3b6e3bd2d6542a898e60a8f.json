@@ -30,7 +30,20 @@
   },
   "assistant_count": 18,
   "assistant_excerpt": "ART 표식 교정\n\n\n\n\n시행규칙 서식\n\n\t\n\nA26424-zh-00116, A26430-zh-00054, A26432-zh-00082, 00087\n\n\t\n\nMTQ·START 표식 및 작성방법 교정\n\n\n\n\n시행규칙 본문\n\n\t\n\nB3-zh-00003, 00004, 00005, 00007\n\n\t\n\n신고 절차·평가기관 규정 교정 및 서식 혼입 제거\n\n3. GitHub 저장 결과\n\n저장 구간\n\n\t\n\n신규 교정\n\n\t\n\n커밋 SHA\n\n\n\n\n1차\n\n\t\n\n3행\n\n\t\n\n5c42d6a5dd571745673ba0f9e5e372c378227134\n\n\n\n\n2차\n\n\t\n\n5행\n\n\t\n\n7fa62e0305e0b3ed48caddd51d02c73401af630b\n\n\n\n\n3차\n\n\t\n\n4행\n\n\t\n\n19ff54f298f644cc1cd235f1369a22f75a1d352f\n\n누적 저장 교정\n\n61행\n기존 49행 + 이번 신규 12행\n\n최종 검수 파일 SHA\n\n36022835327adbf71cb0bf3aa0ef11ce54ebbfd8\n\nGitHub 검수 파일 확인\n\n재조회 결과 checked_rows=61, 고유 교정 ID 61개, 빈 교정문 0개, 상태 IN_PROGRESS를 확인했습니다.\n\n4. 다음 미검수 구간\n\n다음에는 A39343-zh-00001부터 별표 1의 아직 검수 기록이 없는 셀을 순서대로 확인해야 합니다. 이미 교정한 행은 제외하며, 특히 인접 셀의 한국어 문구를 연결해 비교해야 합니다.\n\n이후 별표 2와 각종 서식의 미검수 행을 계속 대조해야 합니다.\n\n최종 보존 상태: 한국어·중국어·영어 원본 SHA 유지, 기존 교정 보존, COMPLETE 영수증 미생성, 운영 DB 변경 없음.\n\n61행은 저장된 교정 건수이며, 전체 1,158행 검수 완료를 의미하지 않습니다. C04는 IN_PROGRESS 상태를 유지합니다.",
+  "attempted_at": "2026-11-07T21:02:51.921098+00:00",
   "created_at": "2026-11-07T21:02:43.774533+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-aad09c2eb3b6e3bd2d6542a898e60a8f",
+    "attempted_at": "2026-11-07T21:02:51.921098+00:00",
+    "claim_commit": "e330bc607b7bfe657399372277043bf77e4def16",
+    "event_id": "obs-9b3bb5f80c9ec25d5467759f20e2dc31109ce679",
+    "job_id": "F-0c6349d844045c6cc10b",
+    "record_path": "status/delivery/recovery-S2-aad09c2eb3b6e3bd2d6542a898e60a8f.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C04"
+  },
   "episode": 9,
   "event_id": "obs-9b3bb5f80c9ec25d5467759f20e2dc31109ce679",
   "job_id": "F-0c6349d844045c6cc10b",
@@ -530,7 +543,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-f014ae4b81807a840d98b0b1]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "904aeb4dd14765150bbd8d1b1f83b5f719308954",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef7f45-c340-83e8-bed7-2fb0dbdc7078",
   "worker": "C04"
 }
