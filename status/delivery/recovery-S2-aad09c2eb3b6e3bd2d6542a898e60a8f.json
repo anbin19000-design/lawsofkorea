@@ -30,7 +30,20 @@
   },
   "assistant_count": 8,
   "assistant_excerpt": "규 검수\n\n104\n대조 행\n88\n교정 행\n0\n신규 파일 내 ID 중복\n\n기존 A26429의 중복 20행은 이번 신규 진척에 포함하지 않았습니다.\n\nGitHub 저장 검증\n\n항목\n\n\t\n\n확인 결과\n\n\n\n\n브랜치\n\n\t\n\nmain\n\n\n\n\n저장 방식\n\n\t\n\n공식 Contents API create_file\n\n\n\n\n커밋 SHA\n\n\t\n\n691aa4d96752068e7c4e6f76a9774203e346733c\n\n\n\n\n파일 SHA\n\n\t\n\n72b2a5c9bc4359c9e9ca670e5e8777aeadea23c8\n\n\n\n\n재조회\n\n\t\n\n성공\n\n\n\n\n교정문 공백·중복 검사\n\n\t\n\n이상 없음\n\n\n\n\n상태\n\n\t\n\nIN_PROGRESS\n\nA26432 검수 결과 파일\n\n교정 대상에는 START 잔재, 법령 인용, 연구장비 성능평가 용어, 체크박스 분할 문장, 처리 절차 및 별지 서식 명칭이 포함됩니다.\n\n기존 저장 범위 추가 확인\n\n공식 GitHub 재조회로 다음 파일도 확인했습니다.\n\n문서\n\n\t\n\n저장된 대조 범위\n\n\n\n\nA26429 신고증\n\n\t\n\n20행, 복구 파일 존재\n\n\n\n\nA26431 갱신신고서\n\n\t\n\n1~65행 및 66~110행, 두 구간 존재\n\n\n\n\nA26432 성능평가 신청서\n\n\t\n\n1~104행, 이번 회차 신규 저장\n\n한국어·중국어·영어 원본 파일 SHA는 기존 배정 기록과 모두 일치했습니다.\n\n다만 GitHub 검색으로 모든 review/zh/in-progress 파일과 전체 진행 파일을 완전하게 열거하지는 못했으므로, 기존 대조 ID의 전체 합집합 검증은 아직 미완료입니다. 이번 신규 파일 자체의 고유 ID 88개는 확인했습니다.\n\n다음 검수 문서는 **A26433 연구장비성능평가 결과서(표지)**입니다.\n\n전체 법령가족의 검수는 계속 진행 중이며 COMPLETE 영수증은 생성하지 않았습니다.",
+  "attempted_at": "2026-11-07T22:25:53.038184+00:00",
   "created_at": "2026-11-07T22:25:46.971110+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-aad09c2eb3b6e3bd2d6542a898e60a8f",
+    "attempted_at": "2026-11-07T22:25:53.038184+00:00",
+    "claim_commit": "9c3a2e91d7b6af248edfad7b3ddd805a5ecc1e81",
+    "event_id": "obs-ef9d0bf7a8bdc736d0876369f20cb1adbce39504",
+    "job_id": "F-0c6349d844045c6cc10b",
+    "record_path": "status/delivery/recovery-S2-aad09c2eb3b6e3bd2d6542a898e60a8f.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C04"
+  },
   "episode": 15,
   "event_id": "obs-ef9d0bf7a8bdc736d0876369f20cb1adbce39504",
   "job_id": "F-0c6349d844045c6cc10b",
@@ -896,7 +909,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-aba9d4ff5ea1e66edfe614ac]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "b9a97040a5d32b3b62a7350404fb9a906983805d",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aefa3db-8150-83ee-a060-cfdd470bc0cf",
   "worker": "C04"
 }
