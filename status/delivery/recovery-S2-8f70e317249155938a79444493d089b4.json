@@ -30,7 +30,20 @@
   },
   "assistant_count": 4,
   "assistant_excerpt": "C03 — 신규 배정 검수 진행, 미완료\n\nJob ID: F-0536890d62605f77ff0a\n\n법령가족: 인신매매등방지 및 피해자보호 등에 관한 법률\n\n대상: 22개 문서 / 중국어 1,136행\n\n저장소·브랜치: anbin19000-design/lawsofkorea / main\n\n확인 결과\n\nGitHub 공식 도구로 한국어·중국어·영어 자료를 조회했습니다.\n\n한국어 및 중국어 원본의 파일 SHA가 지정된 기준 커밋과 일치합니다.\n\n기존 검수 결과와 완료 영수증은 존재하지 않습니다.\n\n전체 1,136행의 구조 및 오류 표식을 탐색하여 실제 교정이 필요한 후보를 발견했습니다.\n\n발견한 오류 예시\n\n행 ID\n\n\t\n\n발견 내용\n\n\n\n\nA39474-zh-00042\n\n\t\n\n문장 내부 START 잔존\n\n\n\n\nA39476-zh-00036\n\n\t\n\nMTQ 해시 표식 잔존\n\n\n\n\nA39478-zh-00089\n\n\t\n\nMTQ 및 START 혼입\n\n\n\n\nA26693-zh-00007\n\n\t\n\n처리기간 관련 MTQ 표식\n\n\n\n\nA26703-zh-00026\n\n\t\n\n입소 정원 관련 MTQ 표식\n\n별표·서식의 일부 행에는 원문 위치 정보가 없어 인접 행과 한국어 표 전체의 맥락을 통한 추가 대조가 필요합니다.\n\n저장 상태\n\nreview/zh/F-0536890d62605f77ff0a.json — 미생성\n\nreceipts/F-0536890d62605f77ff0a.json — 미생성\n\n원본 파일 변경 — 없음\n\n1136행 전체의 한·중 의미 검수가 끝나지 않았으므로 COMPLETE 파일이나 영수증을 생성하지 않았습니다. 오류 탐지 결과를 전체 검수 완료로 간주하지 않겠습니다.\n\n현재 상태는 INCOMPLETE이며, 권한 거절이나 원본 변경으로 인한 HOLD는 아닙니다.",
+  "attempted_at": "2026-11-07T19:14:02.248053+00:00",
   "created_at": "2026-11-07T19:13:57.176316+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-8f70e317249155938a79444493d089b4",
+    "attempted_at": "2026-11-07T19:14:02.248053+00:00",
+    "claim_commit": "aef8b82708d0921dec3b69e53234833c2a77d4c9",
+    "event_id": "obs-07af29f639cce1575a322c223b770777a108a76a",
+    "job_id": "F-0536890d62605f77ff0a",
+    "record_path": "status/delivery/recovery-S2-8f70e317249155938a79444493d089b4.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C03"
+  },
   "episode": 1,
   "event_id": "obs-07af29f639cce1575a322c223b770777a108a76a",
   "job_id": "F-0536890d62605f77ff0a",
@@ -41,7 +54,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-66c6a5dc4f82937ba649aa82]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "74247e9680402c789488d47fcf5c5a775f30aa86",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef6ce4-cab4-83ee-a2bc-eaab0e4c9392",
   "worker": "C03"
 }
