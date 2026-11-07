@@ -1,0 +1,55 @@
+{
+  "assignment_id": "S2-b026c1a52ccce4ca764558f128dd3a88",
+  "claimed_at": "2026-11-07T13:00:10.233917+00:00",
+  "conversation_hash": "1178db33b12884cddf9aa41a00dcfe42544b01eebe34278c6fc7f5fc99a1595c",
+  "delivery_status": "INTENT_RECORDED_NO_RESEND",
+  "documents": 15,
+  "event_id": "obs-0a0609bc885f75f7f472816b08af96ab6f809cdc",
+  "family_id": "F-53d30eb1bc0eb7c029a1",
+  "job_id": "F-53d30eb1bc0eb7c029a1",
+  "marker": "[LAW-SUPPLY-V2:S2-b026c1a52ccce4ca764558f128dd3a88:C05:F-53d30eb1bc0eb7c029a1]",
+  "panel_id": "panel-05",
+  "pc": "WORK-C",
+  "prompt_format": "no-terminal-lf",
+  "quality_followup": {
+    "job_id": "F-53d30eb1bc0eb7c029a1",
+    "opened_at": "2026-11-07T12:53:40.624361+00:00",
+    "receipt_blob": "caf2cd5f10e9eca58be1c21649dc2ec4982b5493",
+    "review_blob": "d7022523853feacf1d32ed016c21d0239dd49ed0",
+    "rows": [
+      {
+        "check": "안전도 평가의 실시 기간 및 평가 항목(제9조 관련)의 해당 표 셀과 앞뒤 행을 한국어 원문으로 대조해 기계 표식과 연결된 오역을 보완하십시오.",
+        "id": "A39420-zh-00054",
+        "observed": "项目评估MTQ15a314f48477896f01367结束",
+        "source_hash": "233f248154d9edc49764ff16e1fa5156ecd7c10acfbe5daa095086028890ec9d"
+      },
+      {
+        "check": "안전도 평가의 실시 기간 및 평가 항목(제9조 관련)의 해당 표 셀과 앞뒤 행을 한국어 원문으로 대조해 기계 표식과 연결된 오역을 보완하십시오.",
+        "id": "A39420-zh-00055",
+        "observed": "项目评估MTQ15a314f48477896f01367结束",
+        "source_hash": "233f248154d9edc49764ff16e1fa5156ecd7c10acfbe5daa095086028890ec9d"
+      }
+    ],
+    "schema": "LAW_QUALITY_FOLLOWUP_V1",
+    "source_blobs": {
+      "en": "b3be80db4850726602a0d6eb5323ebe0db289aed",
+      "ko": "935c96e1cc4e1daf3ccfce90b00f2867fe17c113",
+      "zh": "e95495801a4ba8dc500092f6dcf435b86d2c9a0c"
+    },
+    "worker": "C05"
+  },
+  "rows": 542,
+  "schema": "LAW_SUPPLIER_ASSIGNMENT_V2",
+  "source_blobs": {
+    "en": "b3be80db4850726602a0d6eb5323ebe0db289aed",
+    "ko": "935c96e1cc4e1daf3ccfce90b00f2867fe17c113",
+    "zh": "e95495801a4ba8dc500092f6dcf435b86d2c9a0c"
+  },
+  "source_commit": "88ca9871b7d2c3da3a20301101012d81e7fbe9c0",
+  "status": "ACTIVE",
+  "title": "해양경찰장비 도입 및 관리에 관한 법률",
+  "unit_policy": "ACT_DECREE_RULE_ANNEX_FORMS_ONE_FAMILY",
+  "verify_final_cells": true,
+  "worker": "C05",
+  "write_protocol": "contents-zh-v3"
+}
