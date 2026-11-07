@@ -1,0 +1,12 @@
+{
+  "status": "INTENT_NO_RESEND",
+  "worker": "C01",
+  "job_id": "F-eb24b26e08a83be58f81",
+  "assignment_id": "S2-e811a729740fea81282fc5378ec284d9",
+  "url": "https://chatgpt.com/c/6aef92b3-47f4-83ee-abf9-0a573b2d7d04",
+  "marker": "[LAW-SUPPLY-V2:S2-e811a729740fea81282fc5378ec284d9:C01:F-eb24b26e08a83be58f81] [LAW-VERIFIED-ACTION:3255813d466412a751]",
+  "prompt_sha256": "16ef5cc45c3af791010fd6d6d0b271a0043d5d5a80ae4d6baffa195ad2ce9f3e",
+  "created_at": "2026-11-07T21:18:20.251879+00:00",
+  "previous_user_sha256": "8e798605efc054a676ffb80f55cbcdb752921f91a56832c4f4bf542fc9ebe9b6",
+  "instruction": "[LAW-SUPPLY-V2:S2-e811a729740fea81282fc5378ec284d9:C01:F-eb24b26e08a83be58f81] [LAW-VERIFIED-ACTION:3255813d466412a751]\n저장소: anbin19000-design/lawsofkorea\n브랜치: main\n법령가족: 도시 공업지역의 관리 및 활성화에 관한 특별법\n직전의 B3 1~16행은 기존 B3 1~29행과 겹쳤습니다. 전체 57개 중간 파일의 checked_ids 합집합은 442/1143행이며 실제 미검수는 701행입니다. B3나 A39352를 다시 검수하지 마십시오. 첫 미검수 ID는 A26500-zh-00001입니다. A26500의 아직 저장되지 않은 행을 먼저 교정하고 각 고유 구간을 Contents API로 저장·재조회한 다음, 매번 동일 Job의 두 중간 저장 경로 전체 checked_ids 합집합을 빼고 이어가십시오. 최종 통합 시 동일 ID에 교정문이 다른 41행은 기존 파일을 모두 보존하고 원문 기준으로 차이를 해소하십시오. 교정이 다른 중복 행을 별도 진척으로 계수하지 마십시오. 전체 법령가족 검수 전 완료 금지. 실제 도구 한도·권한·보호·승인·STOP·원문 변경 시 중단하고 원문과 운영 DB는 보존하십시오."
+}
