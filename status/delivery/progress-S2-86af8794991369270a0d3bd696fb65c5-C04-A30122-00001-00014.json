@@ -1,0 +1,586 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B1-01.json",
+      "blob_sha": "69fcf795c9621b125ae73864793ee4064bd4b815",
+      "document_key": "B1",
+      "rows_checked": 145,
+      "rows_corrected": 26
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "blob_sha": "aeba15bca83d7887b5e9f7ce393fba770a9b5faa",
+      "verified_rows": 12,
+      "documents": [
+        "A30118",
+        "A30120"
+      ]
+    },
+    {
+      "path": "status/delivery/verified-step-S2-86af8794991369270a0d3bd696fb65c5-C04-CHECKPOINT-166-01.json",
+      "blob_sha": "33003dbd344370d5b2cf92bb05838b92b144a7ba",
+      "status": "INTENT_NO_RESEND"
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-01.json",
+      "blob_sha": "5f92fef46a104d832b4e6944e94ab8ba7257dda1",
+      "document_key": "B2",
+      "rows_checked": 36,
+      "rows_corrected": 31
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00037-00044.json",
+      "blob_sha": "31d1e93b2b7bc2aab9430a0d4b201c246301d1c5",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00045-00052.json",
+      "blob_sha": "be37a2f05e6c47bf33ec4ea58b1d6163df4b96a1",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00053-00060.json",
+      "blob_sha": "385725a9ff5c6f74e8cb723a6fc91fbcf072d639",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00061-00072.json",
+      "blob_sha": "4573174026ca13b9d49225d71e76f10c6ab2d76f",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00073-00084.json",
+      "blob_sha": "eb20464990f1e23042b03e95a20ed243fed5c555",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00085-00104.json",
+      "blob_sha": "30ba440fd5a8c3e355e8e79c418c6c9b7adcaa9f",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00105-00124.json",
+      "blob_sha": "3fe79039feaa1febde3bcd60b4397e5a52301b9e",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00125-00144.json",
+      "blob_sha": "3fe9aed92331bbf966efeff025964f461a605d6b",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00145-00164.json",
+      "blob_sha": "ab61b90a9bc19864b55a54b55cce703f9cb22470",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 12
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00165-00184.json",
+      "blob_sha": "68f3e74081cab6a1e84a178d3404ae96facceabe",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00185-00204.json",
+      "blob_sha": "81c7f57799a8550b49975c68793c0c3de622e902",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00205-00208.json",
+      "blob_sha": "feda2b38822c3429ef5493d37b044d1e5ef9ff86",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00209-00212.json",
+      "blob_sha": "08cb0522bc3ceae21d3d76fb56b95152a08fc246",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00213-00223.json",
+      "blob_sha": "a7fecc1db30a21c0677eaf0e6696e8267404fdbd",
+      "document_key": "B2",
+      "rows_checked": 11,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00224-00224.json",
+      "blob_sha": "7ce857683229c544c015843cb5da47ec2c5ea6ed",
+      "document_key": "B2",
+      "rows_checked": 1,
+      "rows_corrected": 1
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00225-00244.json",
+      "blob_sha": "bde39fb81d1a2fe5f6acbc78ab2d929732f8cb58",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00245-00264.json",
+      "blob_sha": "52e222a297a0913cce11527a0e6db004f8de1012",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00265-00272.json",
+      "blob_sha": "ed666acab2f084c7266595060f136c7c5c4c90aa",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "preserved_preverified_ids": [
+        "A30118-zh-00029",
+        "A30118-zh-00030"
+      ]
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30118-00001-00014.json",
+      "blob_sha": "b0ec0f1cc7e719106067960812e69c7bed03cfb5",
+      "document_key": "A30118",
+      "rows_checked": 14,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30118-00015-00028.json",
+      "blob_sha": "f0db9312e41184469f9b91334aac527a58a0871b",
+      "document_key": "A30118",
+      "rows_checked": 14,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30118-00031-00038.json",
+      "blob_sha": "2349cd68ccb30b9a5cd817d6446e0146920045e2",
+      "document_key": "A30118",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00001-00014.json",
+      "blob_sha": "691b91f81935198f72df0af0f3591c64a3573fde",
+      "document_key": "A30120",
+      "rows_checked": 14,
+      "rows_corrected": 14
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00015-00019.json",
+      "blob_sha": "f8689815603add57b3f7f545d07d19967926556c",
+      "document_key": "A30120",
+      "rows_checked": 5,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00024-00028.json",
+      "blob_sha": "be641e075a3db3268ad4d76b449384d52da6643c",
+      "document_key": "A30120",
+      "rows_checked": 5,
+      "rows_corrected": 3
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00030-00030.json",
+      "blob_sha": "ce8293ae3d09532ae16961e355e2bebe0dcc67aa",
+      "document_key": "A30120",
+      "rows_checked": 1,
+      "rows_corrected": 1
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00034-00042.json",
+      "blob_sha": "799d80439c9bb29fec77171c7e5879f1685850fc",
+      "document_key": "A30120",
+      "rows_checked": 9,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00043-00051.json",
+      "blob_sha": "56bbddb7099852f03248f5c7b171de53e074c16a",
+      "document_key": "A30120",
+      "rows_checked": 9,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00054-00057.json",
+      "blob_sha": "38ff001d94b8c1838a627577caeed53074df5c95",
+      "document_key": "A30120",
+      "rows_checked": 4,
+      "rows_corrected": 3
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30121-00001-00014.json",
+      "blob_sha": "32ee47e3078fe0c97a8473811f9e96c7116424bc",
+      "document_key": "A30121",
+      "rows_checked": 14,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30121-00015-00028.json",
+      "blob_sha": "b8d7a71e92a0efe67fc79a42c926b0d87be8e82d",
+      "document_key": "A30121",
+      "rows_checked": 14,
+      "rows_corrected": 10
+    }
+  ],
+  "document": {
+    "key": "A30122",
+    "kind": "서식",
+    "title": "의무경찰 지원서",
+    "source_hash": "9f5e31fb17107478538cb0b29c1da76def458bfb17e969657bbf92a6d50c79d9",
+    "rows_checked": 14,
+    "rows_corrected": 11,
+    "document_review_state": "IN_PROGRESS"
+  },
+  "range": {
+    "first_row_id": "A30122-zh-00001",
+    "last_row_id": "A30122-zh-00014",
+    "verified_row_count": 14
+  },
+  "verified_rows": [
+    {
+      "row_id": "A30122-zh-00001",
+      "target_id": "XML:2210539",
+      "source_hash": "b36373e57055f4c530e1defa5ec08993672aa6fff045f92c13ad9ec632d4829c",
+      "source_ko": "■ 의무경찰대 설치 및 운영에 관한 법률 시행령 [별지 제2호의2서식] <개정",
+      "previous_zh": "■ 征召警察部队设立和运作法实施令[表格2-2] <修订版",
+      "meaning_pair_id": "2e497b285a2a29002c200ff49580e6b9579a9ce828e94ad21f8f3c3ca17725cf",
+      "meaning_pair_path": "meaning/pairs/2e.jsonl",
+      "meaning_pair_blob_sha": "da85b42699a6dbbc4908c114189b9f0578fdba61",
+      "source_basis": "GITHUB_MEANING_PAIR"
+    },
+    {
+      "row_id": "A30122-zh-00002",
+      "target_id": "XML:2210540",
+      "source_hash": "f55c3c2093510f1861dd6f8514bf0128998bd419a257fb376bcb3ca640e82216",
+      "source_ko": "대한민국 의무경찰 홈페이지(www.ap.police.go.kr)에서도",
+      "previous_zh": "另见韩国义务警察网站（www.ap.police.go.kr）",
+      "meaning_pair_id": "5c46a0edde3d30b6b34915e63d711a1cc1d561fa31fe5cb06887dfd8dc12ee93",
+      "meaning_pair_path": "meaning/pairs/5c.jsonl",
+      "meaning_pair_blob_sha": "b4e00ec82167b69c096d05299cfbac63bd7debc7",
+      "source_basis": "GITHUB_MEANING_PAIR"
+    },
+    {
+      "row_id": "A30122-zh-00003",
+      "target_id": "XML:2210541",
+      "source_hash": "a2312d34c1016ef6f1c7e789563d318fefebce54805419d889f08d57a9768d83",
+      "source_ko": "2020. 12. 31.>",
+      "previous_zh": "2020. 12. 31.>",
+      "meaning_pair_id": null,
+      "meaning_pair_path": null,
+      "meaning_pair_blob_sha": null,
+      "source_basis": "DIRECT_KOREAN_SOURCE_DOCUMENT"
+    },
+    {
+      "row_id": "A30122-zh-00004",
+      "target_id": "XML:2210542",
+      "source_hash": "ea473f5eabbb1e64cf02503835e51c5917770e02104561f170d8f83b04681098",
+      "source_ko": "지원할 수 있습니다.",
+      "previous_zh": "可以支持。",
+      "meaning_pair_id": "23d9e80ceed87dd04f9625f192cd1225933db40f0e3522265639105d2a3fc3d7",
+      "meaning_pair_path": "meaning/pairs/23.jsonl",
+      "meaning_pair_blob_sha": "71e6f6ba6ab265f637136368f9afa7ff9d2b8803",
+      "source_basis": "GITHUB_MEANING_PAIR"
+    },
+    {
+      "row_id": "A30122-zh-00005",
+      "target_id": "XML:2210543",
+      "source_hash": "ef942eae385ccce8f6bed6c0939a82f454f92a4e0ba4b15b7a0d37b3f7f81ec1",
+      "source_ko": "의무경찰 지원서",
+      "previous_zh": "征召警察申请",
+      "meaning_pair_id": "33854938851f175d38aca2c89ff5a641d531b411050fa1cb903b7e40a321f71c",
+      "meaning_pair_path": "meaning/pairs/33.jsonl",
+      "meaning_pair_blob_sha": "da708cf81dbc1c2d445d35ed6a070cd1de8545f5",
+      "source_basis": "GITHUB_MEANING_PAIR"
+    },
+    {
+      "row_id": "A30122-zh-00006",
+      "target_id": "XML:2210544",
+      "source_hash": "0cd88570b80440d6b520b2ccc97ff878498a89ae0d25879fc117af4caa155080",
+      "source_ko": "작성방법을 읽고 정확히 작성하여 주시기 바랍니다. 만일 지원서 내용이 사실이 아닌 경우 합격이 취소될 수 있으며 입영 후에도 선발",
+      "previous_zh": "请仔细阅读说明并准确填写表格。如果申请表中的信息被发现不实，您的录取资格可能会被撤销，即使在入伍后，[甄选] 也可能无法更改。",
+      "meaning_pair_id": "6ecb2aacb3b12a654e7057b899be2a836dc3f1fefc1039145cc88eb6f7671f82",
+      "meaning_pair_path": "meaning/pairs/6e.jsonl",
+      "meaning_pair_blob_sha": "99f537cf8bff660be1d1348426796f0abcb0861a",
+      "source_basis": "GITHUB_MEANING_PAIR"
+    },
+    {
+      "row_id": "A30122-zh-00007",
+      "target_id": "XML:2210545",
+      "source_hash": "c6f2e0e95b56cc50c8035ba6af9634f0e12c2d5214ea687202c8b8f7e6e65ae9",
+      "source_ko": "특기와 다른 특기로 재분류되어 복무하게 되는 등 불이익을 받게 됩니다.",
+      "previous_zh": "你将面临不利后果，例如被重新分配到其他专业领域服务。",
+      "meaning_pair_id": "a3a46cf087a113f431e7e7f4a0dd97aa3bc1b321b388a1769e247f1e070e642a",
+      "meaning_pair_path": "meaning/pairs/a3.jsonl",
+      "meaning_pair_blob_sha": "08f018fa87e1145ca6b6a4d4c47a5ff40c0f8897",
+      "source_basis": "GITHUB_MEANING_PAIR"
+    },
+    {
+      "row_id": "A30122-zh-00008",
+      "target_id": "XML:2210546",
+      "source_hash": "9b87b0a5c29d14a794ae287fb32ee61227c5ed3eef9f1b3b2947c920b697e18f",
+      "source_ko": "응시지역",
+      "previous_zh": "测试区域",
+      "meaning_pair_id": "2cd73a42808b53a06f11e954e893b1d089da25349c150725ea6e57d8633f2b05",
+      "meaning_pair_path": "meaning/pairs/2c.jsonl",
+      "meaning_pair_blob_sha": "ac2bb2fcd5793acb805ddc97a473307090454ab8",
+      "source_basis": "GITHUB_MEANING_PAIR"
+    },
+    {
+      "row_id": "A30122-zh-00009",
+      "target_id": "XML:2210547",
+      "source_hash": "218fad60446dd2b956cc203dd7d9afade95b86072187fd4a7d069936b95abe10",
+      "source_ko": "모집분야",
+      "previous_zh": "招聘领域",
+      "meaning_pair_id": "299105536f77d659fffb8f71e3c262bb13e9d9ee70347c197235cae9624a1523",
+      "meaning_pair_path": "meaning/pairs/29.jsonl",
+      "meaning_pair_blob_sha": "af2f712a8d8e863b88e77403614cf0cc813f2501",
+      "source_basis": "GITHUB_MEANING_PAIR"
+    },
+    {
+      "row_id": "A30122-zh-00010",
+      "target_id": "XML:2210548",
+      "source_hash": "d4e7cc48a9572aa0107705b1c22e3127df4f44b3b31eb402fe7e16cd39156647",
+      "source_ko": "모집회차",
+      "previous_zh": "招聘轮",
+      "meaning_pair_id": "1b425857684865dc3ee591abaab9359de28fd4abefc5b2027be900348c3c464c",
+      "meaning_pair_path": "meaning/pairs/1b.jsonl",
+      "meaning_pair_blob_sha": "ca44713ed064234c1d94bd531c8fb51eb76dbaac",
+      "source_basis": "GITHUB_MEANING_PAIR"
+    },
+    {
+      "row_id": "A30122-zh-00011",
+      "target_id": "XML:2210549",
+      "source_hash": "7ce0c6259a760d4c3238e25788652527e39fc0f04081869ac634c3eb18545838",
+      "source_ko": "인적사항",
+      "previous_zh": "个人信息",
+      "meaning_pair_id": "3c11f7d30fbd576672365674b2d422a18f934e2399df34c18ad4b682c4211072",
+      "meaning_pair_path": "meaning/pairs/3c.jsonl",
+      "meaning_pair_blob_sha": "d045d46611fd0a00cb16e1c9addffe118748dc37",
+      "source_basis": "GITHUB_MEANING_PAIR"
+    },
+    {
+      "row_id": "A30122-zh-00012",
+      "target_id": "XML:2210550",
+      "source_hash": "5aa32deffdf1362feb45b4aaf4a1945b15c91915f96194031e41bc759b5f2f97",
+      "source_ko": "명",
+      "previous_zh": "名称",
+      "meaning_pair_id": "e555e8cf05f96583a4d528d3673e3ba9ee34932d74cb284c76d04d37cc079047",
+      "meaning_pair_path": "meaning/pairs/e5.jsonl",
+      "meaning_pair_blob_sha": "ce7752e05c07f438119bbf9c3341b68d88d61e82",
+      "source_basis": "GITHUB_MEANING_PAIR"
+    },
+    {
+      "row_id": "A30122-zh-00013",
+      "target_id": "XML:2210551",
+      "source_hash": "05e73f1c0c58049103cbb51fc33905ab2765ff43988fc8e4c9b11f58ed59f190",
+      "source_ko": "병적지청",
+      "previous_zh": "军事登记处",
+      "meaning_pair_id": "bc4b6c733bf8377febac36423570becf1ccdaf475fd469b7f566a308da9d95bf",
+      "meaning_pair_path": "meaning/pairs/bc.jsonl",
+      "meaning_pair_blob_sha": "cbaa3467d039f4deda9bf0b9a3b254cbfd9f6e67",
+      "source_basis": "GITHUB_MEANING_PAIR"
+    },
+    {
+      "row_id": "A30122-zh-00014",
+      "target_id": "XML:2210552",
+      "source_hash": "0cfaa069c4d77e55af86144e32ee89b6d1bb736458ac46736e38965103c9fbd7",
+      "source_ko": "주민등록번호",
+      "previous_zh": "居民注册号",
+      "meaning_pair_id": "c3abfdce5df01e556c54db58360f3be91533e2e222fee8358335b4b4d7b6f89a",
+      "meaning_pair_path": "meaning/pairs/c3.jsonl",
+      "meaning_pair_blob_sha": "8db498b0988e63c7fd70a7c04fd35e90b7222e61",
+      "source_basis": "GITHUB_MEANING_PAIR"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "A30122-zh-00001",
+      "target_id": "XML:2210539",
+      "source_hash": "b36373e57055f4c530e1defa5ec08993672aa6fff045f92c13ad9ec632d4829c",
+      "source_ko": "■ 의무경찰대 설치 및 운영에 관한 법률 시행령 [별지 제2호의2서식] <개정",
+      "previous_zh": "■ 征召警察部队设立和运作法实施令[表格2-2] <修订版",
+      "meaning_pair_id": "2e497b285a2a29002c200ff49580e6b9579a9ce828e94ad21f8f3c3ca17725cf",
+      "meaning_pair_path": "meaning/pairs/2e.jsonl",
+      "meaning_pair_blob_sha": "da85b42699a6dbbc4908c114189b9f0578fdba61",
+      "source_basis": "GITHUB_MEANING_PAIR",
+      "corrected_zh": "■ 《义务警察部队设立及运营法施行令》[附件第2号之2格式] <修订",
+      "reason": "지원서 표제·법령 별지 번호·실제 지원 절차와 특기 재분류 경고·인적사항의 오역 및 누락 교정."
+    },
+    {
+      "row_id": "A30122-zh-00002",
+      "target_id": "XML:2210540",
+      "source_hash": "f55c3c2093510f1861dd6f8514bf0128998bd419a257fb376bcb3ca640e82216",
+      "source_ko": "대한민국 의무경찰 홈페이지(www.ap.police.go.kr)에서도",
+      "previous_zh": "另见韩国义务警察网站（www.ap.police.go.kr）",
+      "meaning_pair_id": "5c46a0edde3d30b6b34915e63d711a1cc1d561fa31fe5cb06887dfd8dc12ee93",
+      "meaning_pair_path": "meaning/pairs/5c.jsonl",
+      "meaning_pair_blob_sha": "b4e00ec82167b69c096d05299cfbac63bd7debc7",
+      "source_basis": "GITHUB_MEANING_PAIR",
+      "corrected_zh": "也可在韩国义务警察官方网站（www.ap.police.go.kr）",
+      "reason": "지원서 표제·법령 별지 번호·실제 지원 절차와 특기 재분류 경고·인적사항의 오역 및 누락 교정."
+    },
+    {
+      "row_id": "A30122-zh-00004",
+      "target_id": "XML:2210542",
+      "source_hash": "ea473f5eabbb1e64cf02503835e51c5917770e02104561f170d8f83b04681098",
+      "source_ko": "지원할 수 있습니다.",
+      "previous_zh": "可以支持。",
+      "meaning_pair_id": "23d9e80ceed87dd04f9625f192cd1225933db40f0e3522265639105d2a3fc3d7",
+      "meaning_pair_path": "meaning/pairs/23.jsonl",
+      "meaning_pair_blob_sha": "71e6f6ba6ab265f637136368f9afa7ff9d2b8803",
+      "source_basis": "GITHUB_MEANING_PAIR",
+      "corrected_zh": "提交申请。",
+      "reason": "지원서 표제·법령 별지 번호·실제 지원 절차와 특기 재분류 경고·인적사항의 오역 및 누락 교정."
+    },
+    {
+      "row_id": "A30122-zh-00005",
+      "target_id": "XML:2210543",
+      "source_hash": "ef942eae385ccce8f6bed6c0939a82f454f92a4e0ba4b15b7a0d37b3f7f81ec1",
+      "source_ko": "의무경찰 지원서",
+      "previous_zh": "征召警察申请",
+      "meaning_pair_id": "33854938851f175d38aca2c89ff5a641d531b411050fa1cb903b7e40a321f71c",
+      "meaning_pair_path": "meaning/pairs/33.jsonl",
+      "meaning_pair_blob_sha": "da708cf81dbc1c2d445d35ed6a070cd1de8545f5",
+      "source_basis": "GITHUB_MEANING_PAIR",
+      "corrected_zh": "义务警察申请书",
+      "reason": "지원서 표제·법령 별지 번호·실제 지원 절차와 특기 재분류 경고·인적사항의 오역 및 누락 교정."
+    },
+    {
+      "row_id": "A30122-zh-00006",
+      "target_id": "XML:2210544",
+      "source_hash": "0cd88570b80440d6b520b2ccc97ff878498a89ae0d25879fc117af4caa155080",
+      "source_ko": "작성방법을 읽고 정확히 작성하여 주시기 바랍니다. 만일 지원서 내용이 사실이 아닌 경우 합격이 취소될 수 있으며 입영 후에도 선발",
+      "previous_zh": "请仔细阅读说明并准确填写表格。如果申请表中的信息被发现不实，您的录取资格可能会被撤销，即使在入伍后，[甄选] 也可能无法更改。",
+      "meaning_pair_id": "6ecb2aacb3b12a654e7057b899be2a836dc3f1fefc1039145cc88eb6f7671f82",
+      "meaning_pair_path": "meaning/pairs/6e.jsonl",
+      "meaning_pair_blob_sha": "99f537cf8bff660be1d1348426796f0abcb0861a",
+      "source_basis": "GITHUB_MEANING_PAIR",
+      "corrected_zh": "※ 请阅读填写说明并如实、准确填写。申请书内容不实的，合格资格可能被取消；即使入营后，也可能将原选拔",
+      "reason": "지원서 표제·법령 별지 번호·실제 지원 절차와 특기 재분류 경고·인적사항의 오역 및 누락 교정."
+    },
+    {
+      "row_id": "A30122-zh-00007",
+      "target_id": "XML:2210545",
+      "source_hash": "c6f2e0e95b56cc50c8035ba6af9634f0e12c2d5214ea687202c8b8f7e6e65ae9",
+      "source_ko": "특기와 다른 특기로 재분류되어 복무하게 되는 등 불이익을 받게 됩니다.",
+      "previous_zh": "你将面临不利后果，例如被重新分配到其他专业领域服务。",
+      "meaning_pair_id": "a3a46cf087a113f431e7e7f4a0dd97aa3bc1b321b388a1769e247f1e070e642a",
+      "meaning_pair_path": "meaning/pairs/a3.jsonl",
+      "meaning_pair_blob_sha": "08f018fa87e1145ca6b6a4d4c47a5ff40c0f8897",
+      "source_basis": "GITHUB_MEANING_PAIR",
+      "corrected_zh": "的特长重新分类为其他特长而服役，并遭受相应不利后果。",
+      "reason": "지원서 표제·법령 별지 번호·실제 지원 절차와 특기 재분류 경고·인적사항의 오역 및 누락 교정."
+    },
+    {
+      "row_id": "A30122-zh-00008",
+      "target_id": "XML:2210546",
+      "source_hash": "9b87b0a5c29d14a794ae287fb32ee61227c5ed3eef9f1b3b2947c920b697e18f",
+      "source_ko": "응시지역",
+      "previous_zh": "测试区域",
+      "meaning_pair_id": "2cd73a42808b53a06f11e954e893b1d089da25349c150725ea6e57d8633f2b05",
+      "meaning_pair_path": "meaning/pairs/2c.jsonl",
+      "meaning_pair_blob_sha": "ac2bb2fcd5793acb805ddc97a473307090454ab8",
+      "source_basis": "GITHUB_MEANING_PAIR",
+      "corrected_zh": "报考地区",
+      "reason": "지원서 표제·법령 별지 번호·실제 지원 절차와 특기 재분류 경고·인적사항의 오역 및 누락 교정."
+    },
+    {
+      "row_id": "A30122-zh-00010",
+      "target_id": "XML:2210548",
+      "source_hash": "d4e7cc48a9572aa0107705b1c22e3127df4f44b3b31eb402fe7e16cd39156647",
+      "source_ko": "모집회차",
+      "previous_zh": "招聘轮",
+      "meaning_pair_id": "1b425857684865dc3ee591abaab9359de28fd4abefc5b2027be900348c3c464c",
+      "meaning_pair_path": "meaning/pairs/1b.jsonl",
+      "meaning_pair_blob_sha": "ca44713ed064234c1d94bd531c8fb51eb76dbaac",
+      "source_basis": "GITHUB_MEANING_PAIR",
+      "corrected_zh": "招募批次",
+      "reason": "지원서 표제·법령 별지 번호·실제 지원 절차와 특기 재분류 경고·인적사항의 오역 및 누락 교정."
+    },
+    {
+      "row_id": "A30122-zh-00012",
+      "target_id": "XML:2210550",
+      "source_hash": "5aa32deffdf1362feb45b4aaf4a1945b15c91915f96194031e41bc759b5f2f97",
+      "source_ko": "명",
+      "previous_zh": "名称",
+      "meaning_pair_id": "e555e8cf05f96583a4d528d3673e3ba9ee34932d74cb284c76d04d37cc079047",
+      "meaning_pair_path": "meaning/pairs/e5.jsonl",
+      "meaning_pair_blob_sha": "ce7752e05c07f438119bbf9c3341b68d88d61e82",
+      "source_basis": "GITHUB_MEANING_PAIR",
+      "corrected_zh": "姓名",
+      "reason": "지원서 표제·법령 별지 번호·실제 지원 절차와 특기 재분류 경고·인적사항의 오역 및 누락 교정."
+    },
+    {
+      "row_id": "A30122-zh-00013",
+      "target_id": "XML:2210551",
+      "source_hash": "05e73f1c0c58049103cbb51fc33905ab2765ff43988fc8e4c9b11f58ed59f190",
+      "source_ko": "병적지청",
+      "previous_zh": "军事登记处",
+      "meaning_pair_id": "bc4b6c733bf8377febac36423570becf1ccdaf475fd469b7f566a308da9d95bf",
+      "meaning_pair_path": "meaning/pairs/bc.jsonl",
+      "meaning_pair_blob_sha": "cbaa3467d039f4deda9bf0b9a3b254cbfd9f6e67",
+      "source_basis": "GITHUB_MEANING_PAIR",
+      "corrected_zh": "兵籍管辖厅",
+      "reason": "지원서 표제·법령 별지 번호·실제 지원 절차와 특기 재분류 경고·인적사항의 오역 및 누락 교정."
+    },
+    {
+      "row_id": "A30122-zh-00014",
+      "target_id": "XML:2210552",
+      "source_hash": "0cfaa069c4d77e55af86144e32ee89b6d1bb736458ac46736e38965103c9fbd7",
+      "source_ko": "주민등록번호",
+      "previous_zh": "居民注册号",
+      "meaning_pair_id": "c3abfdce5df01e556c54db58360f3be91533e2e222fee8358335b4b4d7b6f89a",
+      "meaning_pair_path": "meaning/pairs/c3.jsonl",
+      "meaning_pair_blob_sha": "8db498b0988e63c7fd70a7c04fd35e90b7222e61",
+      "source_basis": "GITHUB_MEANING_PAIR",
+      "corrected_zh": "居民登记号码",
+      "reason": "지원서 표제·법령 별지 번호·실제 지원 절차와 특기 재분류 경고·인적사항의 오역 및 누락 교정."
+    }
+  ],
+  "validation": {
+    "row_ids_unique": true,
+    "source_hashes_match": true,
+    "korean_pair_resolved_rows": 13,
+    "source_doc_segment_rows": 1,
+    "form_warning_cross_row_checked": true,
+    "total_cumulative_checked_rows": 554
+  },
+  "next_step": "Continue A30122 15-28."
+}
