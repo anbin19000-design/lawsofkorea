@@ -1,0 +1,239 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30128-00001-00013.json",
+      "blob_sha": "d95455b4a7e26a38bffada826a70087ad686436e",
+      "document_key": "A30128",
+      "rows_checked": 13,
+      "rows_corrected": 12
+    }
+  ],
+  "document": {
+    "key": "A30128",
+    "kind": "서식",
+    "title": "고발장",
+    "source_hash": "0d4702221c75221907b8b0a31eba8c6b835a013a16473d44665872d1b20ebe07",
+    "rows_checked": 13,
+    "rows_corrected": 8,
+    "document_review_state": "DOCUMENT_ROWS_CHECKED"
+  },
+  "range": {
+    "first_row_id": "A30128-zh-00014",
+    "last_row_id": "A30128-zh-00026",
+    "verified_row_count": 13
+  },
+  "verified_rows": [
+    {
+      "row_id": "A30128-zh-00014",
+      "target_id": "XML:2210780",
+      "source_hash": "0909c98c874340d6c25765c310d0c64b3e6d8c61a3bcf92a1db4294a6fd30da6",
+      "source_ko": "성 명",
+      "previous_zh": "名称",
+      "meaning_pair_id": "e555e8cf05f96583a4d528d3673e3ba9ee34932d74cb284c76d04d37cc079047",
+      "source_basis": "authoritative Korean full complaint form"
+    },
+    {
+      "row_id": "A30128-zh-00015",
+      "target_id": "XML:2210781",
+      "source_hash": "f7ea9e331f80935959d8c179f685fbbdfde7f0301e791106a64b454bb1d6e80c",
+      "source_ko": "생년월일",
+      "previous_zh": "出生日期",
+      "meaning_pair_id": "93d4b56aec7fe702243d50d760723d0c12fabe0a2fe5807b189b657033f8f587",
+      "source_basis": "authoritative Korean full complaint form"
+    },
+    {
+      "row_id": "A30128-zh-00016",
+      "target_id": "XML:2210782",
+      "source_hash": "fe75877196572a9fac2314452c5035c14e3a91dfb357cdc87c813c2cb0dedb6c",
+      "source_ko": "주 소",
+      "previous_zh": "地址",
+      "meaning_pair_id": "85a28277b11fa6b425dd50932bb9395c7db8327b3c42ca972aae6724d0c6896c",
+      "source_basis": "authoritative Korean full complaint form"
+    },
+    {
+      "row_id": "A30128-zh-00017",
+      "target_id": "XML:2210783",
+      "source_hash": "c56c6d850caf781301ba4d98d15dcb0328ad8af63c12d9130a67d812197df45c",
+      "source_ko": "고발인",
+      "previous_zh": "投诉人",
+      "meaning_pair_id": "b8cc101c6c1a203b65e847deb71e1f53c5ea74f72c02beb2c95b2b9560a4f469",
+      "source_basis": "authoritative Korean full complaint form"
+    },
+    {
+      "row_id": "A30128-zh-00018",
+      "target_id": "XML:2210784",
+      "source_hash": "0ae8cc35104b54d2200b8c957cf2e26150406089f2f36f816261dcb78d279e42",
+      "source_ko": "(연락처 :",
+      "previous_zh": "(联系方式：",
+      "meaning_pair_id": "bdaf8ccb28cac6413f1c0abf0131f826603564827043d3eb0bb6058e9a5790ca",
+      "source_basis": "authoritative Korean full complaint form"
+    },
+    {
+      "row_id": "A30128-zh-00019",
+      "target_id": "XML:2210785",
+      "source_hash": "33b8dc5ab29cc5f80a07f65a121b7fe42668a105b7f263d437f6a17b37104761",
+      "source_ko": "범죄사실",
+      "previous_zh": "犯罪事实",
+      "meaning_pair_id": "f97da309f76c8725d431949fa79342fcb78a633d2e880b3b427fafa69812f35b",
+      "source_basis": "authoritative Korean full complaint form"
+    },
+    {
+      "row_id": "A30128-zh-00020",
+      "target_id": "XML:2210786",
+      "source_hash": "bba62257cac06a48144679843143d267bad70013d8eadbfe13919e410135558c",
+      "source_ko": "첨부 : 증거물",
+      "previous_zh": "附件：证据",
+      "meaning_pair_id": "7a606fe273bac828bd2514f401820a39aeaf9136e1db1227f3a5add5d51c5963",
+      "source_basis": "authoritative Korean full complaint form"
+    },
+    {
+      "row_id": "A30128-zh-00021",
+      "target_id": "XML:2210787",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "source_ko": "년",
+      "previous_zh": "年份",
+      "meaning_pair_id": "51a9c53d5e91050e3abe1ef30e6743e05bc272555042d615ccb26c1cbd4bac01",
+      "source_basis": "authoritative Korean full complaint form"
+    },
+    {
+      "row_id": "A30128-zh-00022",
+      "target_id": "XML:2210788",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "source_ko": "월",
+      "previous_zh": "月份",
+      "meaning_pair_id": "fe11e2c245c4120f7ec1489f418bd7cb4dfa4f13b76bd89d3b8f839acc883cfc",
+      "source_basis": "authoritative Korean full complaint form"
+    },
+    {
+      "row_id": "A30128-zh-00023",
+      "target_id": "XML:2210789",
+      "source_hash": "dfc76879e2f5c3ead09186ff1c6b635624f96b7adbd71d94c37566429ca5df6f",
+      "source_ko": "일",
+      "previous_zh": "日",
+      "meaning_pair_id": "09573106deaddabc003ab690e51d1abb23f4c3b00649980fbc69af84c3d91542",
+      "source_basis": "authoritative Korean full complaint form"
+    },
+    {
+      "row_id": "A30128-zh-00024",
+      "target_id": "XML:2210790",
+      "source_hash": "05b5a9b2940b9df3f10c17725a05a4ee57d8391d240bb456d90cbcc6e366ff70",
+      "source_ko": "소속경찰기관장",
+      "previous_zh": "附属警察机构负责人",
+      "meaning_pair_id": "c38f5fd8cc9617c89c7f3319cb9b08aacd718b788bead472650d121dcc99c997",
+      "source_basis": "authoritative Korean full complaint form"
+    },
+    {
+      "row_id": "A30128-zh-00025",
+      "target_id": "XML:2210791",
+      "source_hash": "c2c25ba0a53a6f7b97292cfe2d401a55b263f9c6222471a4b8a4c3509c1a4197",
+      "source_ko": "직인",
+      "previous_zh": "官方印章",
+      "meaning_pair_id": "4633b346583cfd7746b9188f967d7a4d596041a9985738cbe6b93daf23268cd6",
+      "source_basis": "authoritative Korean full complaint form"
+    },
+    {
+      "row_id": "A30128-zh-00026",
+      "target_id": "XML:2210792",
+      "source_hash": "aa77174005668fbb8fdf67e265550402ab5f1ec57546efc725193866717f59a2",
+      "source_ko": "210mm×297mm[백상지 80g/㎡]",
+      "previous_zh": "210mm×297mm[白纸 80g/㎡]",
+      "meaning_pair_id": "7228c6863943aeab5a595c7f54087ca2ee7c5e3580c1afabbc7a1491b927ea67",
+      "source_basis": "authoritative Korean full complaint form"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "A30128-zh-00014",
+      "target_id": "XML:2210780",
+      "source_hash": "0909c98c874340d6c25765c310d0c64b3e6d8c61a3bcf92a1db4294a6fd30da6",
+      "source_ko": "성 명",
+      "previous_zh": "名称",
+      "corrected_zh": "姓名",
+      "reason": "형사 고발서의 고발인·첨부 증거물·공식 인장·용지 표기 오역 교정."
+    },
+    {
+      "row_id": "A30128-zh-00017",
+      "target_id": "XML:2210783",
+      "source_hash": "c56c6d850caf781301ba4d98d15dcb0328ad8af63c12d9130a67d812197df45c",
+      "source_ko": "고발인",
+      "previous_zh": "投诉人",
+      "corrected_zh": "告发人",
+      "reason": "형사 고발서의 고발인·첨부 증거물·공식 인장·용지 표기 오역 교정."
+    },
+    {
+      "row_id": "A30128-zh-00020",
+      "target_id": "XML:2210786",
+      "source_hash": "bba62257cac06a48144679843143d267bad70013d8eadbfe13919e410135558c",
+      "source_ko": "첨부 : 증거물",
+      "previous_zh": "附件：证据",
+      "corrected_zh": "附件：证物",
+      "reason": "형사 고발서의 고발인·첨부 증거물·공식 인장·용지 표기 오역 교정."
+    },
+    {
+      "row_id": "A30128-zh-00021",
+      "target_id": "XML:2210787",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "source_ko": "년",
+      "previous_zh": "年份",
+      "corrected_zh": "年",
+      "reason": "형사 고발서의 고발인·첨부 증거물·공식 인장·용지 표기 오역 교정."
+    },
+    {
+      "row_id": "A30128-zh-00022",
+      "target_id": "XML:2210788",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "source_ko": "월",
+      "previous_zh": "月份",
+      "corrected_zh": "月",
+      "reason": "형사 고발서의 고발인·첨부 증거물·공식 인장·용지 표기 오역 교정."
+    },
+    {
+      "row_id": "A30128-zh-00024",
+      "target_id": "XML:2210790",
+      "source_hash": "05b5a9b2940b9df3f10c17725a05a4ee57d8391d240bb456d90cbcc6e366ff70",
+      "source_ko": "소속경찰기관장",
+      "previous_zh": "附属警察机构负责人",
+      "corrected_zh": "所属警察机关负责人",
+      "reason": "형사 고발서의 고발인·첨부 증거물·공식 인장·용지 표기 오역 교정."
+    },
+    {
+      "row_id": "A30128-zh-00025",
+      "target_id": "XML:2210791",
+      "source_hash": "c2c25ba0a53a6f7b97292cfe2d401a55b263f9c6222471a4b8a4c3509c1a4197",
+      "source_ko": "직인",
+      "previous_zh": "官方印章",
+      "corrected_zh": "职务印章",
+      "reason": "형사 고발서의 고발인·첨부 증거물·공식 인장·용지 표기 오역 교정."
+    },
+    {
+      "row_id": "A30128-zh-00026",
+      "target_id": "XML:2210792",
+      "source_hash": "aa77174005668fbb8fdf67e265550402ab5f1ec57546efc725193866717f59a2",
+      "source_ko": "210mm×297mm[백상지 80g/㎡]",
+      "previous_zh": "210mm×297mm[白纸 80g/㎡]",
+      "corrected_zh": "210mm×297mm〔白色胶版纸80g/㎡〕",
+      "reason": "형사 고발서의 고발인·첨부 증거물·공식 인장·용지 표기 오역 교정."
+    }
+  ],
+  "validation": {
+    "row_ids_unique": true,
+    "source_hashes_match": true,
+    "korean_form_context_checked": true,
+    "no_mtq_start_korean_in_edits": true,
+    "total_cumulative_checked_rows": 780
+  },
+  "next_step": "A30128 fully verified; continue A30130 last 20 rows. No final receipt before complete."
+}
