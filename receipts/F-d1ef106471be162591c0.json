@@ -1,0 +1,8 @@
+{
+  "job_id": "F-d1ef106471be162591c0",
+  "worker": "C05",
+  "checked_rows": 176,
+  "corrected_rows": 116,
+  "status": "COMPLETE",
+  "note": "Full Chinese review against Korean source at base commit fc57ba3c1fdf971cfe27534b6195678edd754e31, all four assigned documents: Act 60 rows, Enforcement Decree 64 rows, Annex 1 4 rows, Annex 2 48 rows. All 176 original unique row IDs checked; 116 nonempty unique corrections (Act 36; Decree 32; Annex 1 3; Annex 2 45). Corrected mistranslated legal titles and terminology, untranslated headings, missing items, numerical and paragraph references, appointment and reassignment powers, annex table content and annex contamination in decree draft. Four linked English reference documents and all 52 annex meaning pairs from 32 files consulted; no reviewed/en path in linked index. Verified review/zh saved in separate commit ac247460b615ad7f1cf18db863c2c4702348ac41, blob ff6b226aecb8efefac1b4b39214a46ff1e873915. Original laws/* files unchanged. Operational DB reflection separate."
+}
