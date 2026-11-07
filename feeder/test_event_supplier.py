@@ -277,12 +277,13 @@ class SupplierTests(unittest.TestCase):
     def test_transport_completes_own_unsent_draft_once(self):
         text = "[marker]\n" + "instruction " * 20
         responses = [self.transport_observation(), {"success": False, "error": "send-button-not-found"},
-                     self.transport_observation(draft=text[:150]), {"success": True},
+                     self.transport_observation(draft=text[:150]),
                      self.transport_observation("[marker]")]
-        with mock.patch.object(s, "panel_command", side_effect=responses) as call:
+        with mock.patch.object(s, "panel_command", side_effect=responses) as call, mock.patch("verified_draft.finish_own_draft") as finish:
             self.assertTrue(s.send_panel(self.config, self.event, text))
+            finish.assert_called_once_with(self.config, self.event, text)
             self.assertEqual([x.args[1] for x in call.call_args_list],
-                             ["panel.observe", "panel.chat.send", "panel.observe", "panel.click", "panel.observe"])
+                             ["panel.observe", "panel.chat.send", "panel.observe", "panel.observe"])
 
     def test_transport_never_clicks_unrelated_draft_or_denial(self):
         for responses in ([self.transport_observation(), {"success": False, "error": "permission denied"}],
@@ -404,3 +405,4 @@ class PassiveObserverTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+

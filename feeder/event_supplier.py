@@ -19,7 +19,7 @@ import uuid
 from urllib.request import Request, urlopen
 from urllib.parse import urlparse
 
-VERSION = "2.3.0"
+VERSION = "2.3.1"
 EVENT_SCHEMA = "LAW_SUPPLY_EVENT_V1"
 ID = re.compile(r"[A-Za-z0-9_-]{1,120}\Z")
 JOB = re.compile(r"F-[a-f0-9]{20}\Z")
@@ -482,7 +482,8 @@ def send_panel(config, event, text):
     check(draft.startswith(marker) and len(draft) > len(marker) + 30
           and normalize(text).startswith(draft), "DRAFT_DOES_NOT_MATCH_ASSIGNMENT")
     require_unstopped(config)
-    panel_command(config, "panel.click", panelId=event["panel_id"], elementId=buttons[0]["elementId"])
+    from verified_draft import finish_own_draft
+    finish_own_draft(config, event, text)
     observed = panel_observation(panel_command(config, "panel.observe", panelId=event["panel_id"]))
     verify_panel_destination(observed, event)
     check(sent_marker(observed, marker), "SEND_NOT_CONFIRMED_NO_RESEND")

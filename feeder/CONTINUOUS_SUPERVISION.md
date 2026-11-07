@@ -1,6 +1,6 @@
 # LaoPanel continuous supervision — 2026-11-07
 
-The live controller is supplier_batch.py --service (2.3.0), driven by the passive observer (2026.11.07-passive.10). Both use a 10-second target cadence. A batch can take longer when GitHub work or transport is slow. Separate per-worker outcomes keep a failed panel from blocking healthy panels.
+The live controller is supplier_batch.py --service (2.3.1), driven by the passive observer (2026.11.07-passive.10). Both use a 10-second target cadence. A batch can take longer when GitHub work or transport is slow. Separate per-worker outcomes keep a failed panel from blocking healthy panels.
 
 ## Process lifetime and dashboard
 
@@ -33,9 +33,15 @@ The official panel.observe output can omit the live error banner and retain a pr
 
 ## Validation and rollback
 
-Feeder: python -m unittest discover -s feeder -p test_*.py (54 tests).
+Feeder: python -m unittest discover -s feeder -p test_*.py (56 tests).
 Observer: python -m unittest discover -s feeder/observer_runtime -p test_observer.py (29 tests).
 WORK-C repository checks: python -m unittest discover -s tests -v (14 tests); python scripts/validate.py (template validation only, not a validation of all live law reviews).
 The legacy feeder test uses an isolated fixture and never invokes the enabled production configuration.
 
 Each PC retains timestamped runtime code and scheduled-task XML backups. Restore only the intended versions after checking STOP, process identity and the batch lock. Never roll back law-review results or source files as part of a controller rollback.
+
+## Stable completion of an already typed draft
+
+verified_draft.py reads only the exact registered local WebView matching the bound conversation URL. It verifies the entire visible editor text against the expected supplier prompt, checks that the assignment marker has not already appeared as the last user message, rejects live stop/approval/login/recovery/error controls, and identifies the currently visible Send button by its label. It then clicks once. A mutable panel element number is no longer used for the fallback send action.
+
+The helper never types or clears content and never opens a conversation. An ambiguous target, mismatched full draft, blocked or obscured button causes a hold. The normal supplier persists send intent first and verifies receipt afterward. The tests exercise 9 DOM scenarios, including the full draft mismatch, already-received marker, generating UI, approval, permission denial, duplicate buttons and obscured controls.
