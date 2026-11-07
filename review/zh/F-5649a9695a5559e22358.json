@@ -1,0 +1,156 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-5649a9695a5559e22358",
+  "worker": "C04",
+  "checked_rows": 25,
+  "edits": [
+    {
+      "id": "B1-zh-00001",
+      "target_id": "b36576c3ee025067391187e78fc0c62028fb96e9fef466fedc9fec307e9a5bdb",
+      "source_hash": "318ef32bc30b17b8a6beb57ae3295611d133245f51f0294dc3447ebb06f9b363",
+      "text": "关于居民条例提案的法律",
+      "reason": "Corrected the Act title: Korean 법률 is an enacted law, not 法案 (bill); defined ordinance initiative more precisely."
+    },
+    {
+      "id": "B1-zh-00002",
+      "target_id": "ae50fb862ac2e381c7b6a9571a15357f6e954c61d45315293450bf3d357b423a",
+      "source_hash": "4ad7f8aa481e72a5c6f7e773adf36f7b9cff3a717edb2ba27167c80537863ebe",
+      "text": "第一条（目的）本法旨在规定居民依照《地方自治法》第19条提出制定、修改或废止条例的请求所需事项，以保障居民直接参与，并提高地方自治行政的民主性和责任性。\n\n",
+      "reason": "Corrected mistranslation of municipal 조례 as general 法令 and kept Article 19 and the purpose intact."
+    },
+    {
+      "id": "B1-zh-00003",
+      "target_id": "15544719319a7c6ec62756acb5762c47b6c6be4cb38a13a9ca63ae5f54645026",
+      "source_hash": "cce36b0d79bef85126fdf89843d6b6051f1d528fb19a01cd7de74e59c82b3356",
+      "text": "第二条（居民条例请求权人）年满18周岁且符合下列任一项的居民（不包括《公职选举法》第18条规定的无选举权者；以下简称“请求权人”），可以向有关地方自治团体的议会（以下简称“地方议会”）请求制定、修改或废止条例（以下简称“居民条例请求”）。\n1. 在该地方自治团体管辖区域内办理居民登记的人\n2. 依据《出入境管理法》第10条取得可永久居留的在留资格满3年，且依据同法第34条登记于该地方自治团体外国人登记簿的外国人\n\n",
+      "reason": "Restored resident initiative terminology, eligibility of residents aged 18+, foreigner permanent-stay eligibility after three years and Article 10/34 statutory references."
+    },
+    {
+      "id": "B1-zh-00004",
+      "target_id": "cf7c3438779a94e38ddb800b9fdbf5dc077d44c8202d4070568a36402fcec592",
+      "source_hash": "49655018e7a5d808cad93bc173b066311d1cc4b81cbe7d6367e0b293c1022673",
+      "text": "第三条（居民条例请求权的保障等）\n① 国家及地方自治团体应采取必要措施，使请求权人能够向地方议会提出居民条例请求。\n② 地方自治团体应依照行政安全部部长规定建设和运行信息系统，使请求权人能够以电子方式提出居民条例请求。行政安全部部长可以提供信息系统建设、运行所需的支持。\n③ 国家及地方自治团体应宣传居民条例请求的条件、参与及签名方式和程序等，以促进请求权人提出居民条例请求。<2023年8月16日增设>\n\n",
+      "reason": "Aligned Ministry of the Interior and Safety, petitioner's defined rights and publicity duty while preserving electronic means and 2023 insertion."
+    },
+    {
+      "id": "B1-zh-00005",
+      "target_id": "0586e2533791fbad5fdb466a2415898391ea3078f62d1ba071f9b5e9a5be8461",
+      "source_hash": "cf2ee99db87bad160b35dc2c056d7ae4c53e939e1aefe7c56e7a56065a884195",
+      "text": "第四条（不属于居民条例请求对象的事项）下列事项不得作为居民条例请求的对象：\n1. 违反法令的事项\n2. 课征、征收或减免地方税、使用费、手续费及负担金的事项\n3. 设立或变更行政机构的事项\n4. 反对建设公共设施的事项\n\n",
+      "reason": "Corrected 法令 to statutes and regulations (not laws alone), imposition/collection/reduction of taxes and fees, and establishment rather than installation of public facilities."
+    },
+    {
+      "id": "B1-zh-00006",
+      "target_id": "601d1f4760aab33c634b8a04168bc63df2753baab12cb85a58a372f82da77791",
+      "source_hash": "d98a3b0abe98226b1e9acd8be34d4ea7498aea4e4370f2637b7bbbbc41e55f76",
+      "text": "第五条（居民条例请求的条件）\n① 请求权人拟提出居民条例请求的，应由不少于该地方自治团体条例在下列各项相应标准范围内规定人数的请求权人共同签名。\n1. 特别市及人口800万以上的广域市、道：请求权人总数的1/200\n2. 人口不足800万的广域市、道，特别自治市、特别自治道以及人口100万以上的市：请求权人总数的1/150\n3. 人口50万以上、不足100万的市、郡及自治区：请求权人总数的1/100\n4. 人口10万以上、不足50万的市、郡及自治区：请求权人总数的1/70\n5. 人口5万以上、不足10万的市、郡及自治区：请求权人总数的1/50\n6. 人口不足5万的市、郡及自治区：请求权人总数的1/20\n② 请求权人总数根据上一年12月31日的居民登记表和外国人登记表计算。\n③ 地方自治团体负责人应在每年1月10日前公布依第2款计算的请求权人总数。\n\n",
+      "reason": "Corrected population eligibility threshold 'at least 8 million' versus 'over 8 million', corrected below-50,000 category and made ordinance-set signature minimum within six statutory upper-bound standards explicit; preserved fractions, publication dates and all six brackets."
+    },
+    {
+      "id": "B1-zh-00007",
+      "target_id": "aa985011d2023115a60bfaef81f20af09bdc6b61a0903b19a0ea82e198f11e68",
+      "source_hash": "c74cf328060fbc83c583dff7551b76420cf09aad7db4576787db53c19799f5da",
+      "text": "第六条（代表人证明书的颁发等）\n① 请求权人拟提出居民条例请求的，应选出请求人的代表人（以下简称“代表人”）；选出的代表人应附具下列文件，向地方议会主席申请颁发代表人证明书。代表人提出申请时，还可以同时申请使用第3条第2款规定的信息系统（以下简称“信息系统”），以便请求第7条第4款规定的电子签名。\n1. 载明居民条例请求的宗旨、理由等的条例制定、修改或废止请求书（以下简称“请求书”）\n2. 条例制定案、修改案或废止案（以下简称“居民请求条例案”）\n② 地方议会主席收到第1款申请后，应确认代表人是否具有请求权，颁发代表人证明书并公布。依第1款除各项外部分后段收到信息系统使用申请时，还应公布下列事项，并在信息系统上发布第7条第3款各项所列文件。\n1. 可进行电子签名的信息系统网址\n2. 电子签名方法以及依第9条第3款撤销电子签名的方法\n\n",
+      "reason": "Corrected legally required request document and resident-initiated ordinance draft (not generic 法令提案), eligibility verification rather than identity-only checking, and required notice plus posting duties."
+    },
+    {
+      "id": "B1-zh-00008",
+      "target_id": "22adabbc2e476c1ad011411e0375f3ed3b59592bff6f9f7360a6ca4f8d0e7342",
+      "source_hash": "1254b09dd85eb899deaa098ae5aa44b556a84b91a2b32b7b45f0e6fba63a49b5",
+      "text": "第七条（请求签名等）\n① 代表人（依据第2款委托签名请求权时，包括该款所述受托人）可以请求请求权人在请求人名册上签名。\n② 代表人可以将第1款规定的签名请求权委托给请求权人；委托时，应向有关地方议会主席申报受托人姓名及委托日期。地方议会主席应立即颁发委托申报证明书。\n③ 代表人或第2款所述受托人（以下简称“受托人”）依第1款请求签名时，应在请求人名册上附具下列文件：\n1. 请求书或其副本\n2. 居民请求条例案或其副本\n3. 第6条第2款规定的代表人证明书（受托人还应附本条第2款后段的委托申报证明书）或其副本\n④ 代表人可以请求请求权人使用信息系统，在以电子方式生成的请求人签名册上作出《电子签名法》第2条第2项规定的电子签名（以下简称“电子签名”），以代替第1款的签名。\n⑤ 代表人或受托人可以向请求权人告知第6条第2款各项所列事项。\n⑥ 除第1款至第5款规定的事项外，请求签名程序等必要事项由地方自治团体条例规定。\n\n",
+      "reason": "Translated untranslated Korean Article 7 heading, corrected 'invoice' in lieu of petition document, claimant/signature roster terminology, delegation report/certificate, digital-signature method and paragraph ⑥ ordinance authority."
+    },
+    {
+      "id": "B1-zh-00009",
+      "target_id": "45cfc82a69d521cf404e8db8f1339baa629c6119e3b1e9e6757bc886362f5618",
+      "source_hash": "6fd336c7c6adb0c96789a72920efeebc7429dfcbe1f30960805868d52cd8ccb3",
+      "text": "第八条（请求签名的期限等）\n① 代表人或受托人应自第6条第2款公布之日起，在特别市、广域市、特别自治市、道及特别自治道（以下简称“市、道”）的情况下于6个月内，在市、郡及自治区的情况下于3个月内，请求第7条第1款规定的签名及电子签名。计算上述签名及电子签名的请求期限时，不计入《公职选举法》第33条规定的选举期间。\n② 在《公职选举法》第33条规定的选举期间，代表人或受托人不得请求第7条第1款规定的签名及电子签名。\n③ 代表人或受托人以外的人不得请求第7条第1款规定的签名及电子签名。\n\n",
+      "reason": "Restored the omitted three-month period for municipal/county/autonomous district signatures while preserving six-month city/province period, election-period exclusion and prohibited signatory solicitors."
+    },
+    {
+      "id": "B1-zh-00010",
+      "target_id": "e1472727dfa178f6e4fcb398a1775a6a14baad269e6708a55a106dcf8bc83c63",
+      "source_hash": "cd2425dd534001a645c5901f2fae577b3edf7a2362fdf35da3aedb89b1c60f3b",
+      "text": "第九条（请求人名册的编制等）\n① 拟在请求人名册上签名的请求权人，应在名册中填写下列事项，并签名或盖章；但进行电子签名时，视为已在以电子文件形式制作的请求人名册中填写下列事项。\n1. 姓名\n2. 出生年月日\n3. 住址或居留地\n4. 签名年月日\n② 已签名的请求权人拟撤销签名时，应在代表人依第10条第1款正文向地方议会主席提交请求人名册前，向代表人请求撤销签名。代表人收到请求，应立即从名册中删除该签名。\n③ 已作电子签名的请求权人拟撤销电子签名时，应在代表人依第10条第1款但书请求地方议会利用请求人名册前，直接通过信息系统撤销。\n④ 依第1款除各项外部分正文编制的请求人名册，在市、郡及自治区的情况下，应按邑、面、洞分别编制；在市、道的情况下，应按市、郡、自治区划分，并分别按邑、面、洞编制。\n⑤ 除第1款至第4款规定的事项外，编制请求人名册等必要事项由地方自治团体条例规定。\n\n",
+      "reason": "Corrected requester list (not claims for money), birthday/address labels, distinct cancellation points for paper vs electronic signature, grouping of registers and authority of municipal ordinance."
+    },
+    {
+      "id": "B1-zh-00011",
+      "target_id": "02ec50f9b9ed3e943915eca86443b4752bca12c2b2078f75515e4a85c63f4d56",
+      "source_hash": "84d7d4079898ed8be20312ea96816c8b806af30df4cc70d205983650dd6f620a",
+      "text": "第十条（提交请求人名册等）\n① 在请求人名册上签名（包括电子签名；下同）的请求权人人数达到第5条第1款规定的该地方自治团体条例确定的人数时，代表人应自第8条第1款规定的签名请求期限届满之日起，在市、道的情况下于10日内，在市、郡及自治区的情况下于5日内，向地方议会主席提交请求人名册。但对于电子签名，代表人应请求地方议会主席直接利用信息系统生成的请求人名册。\n② 地方议会主席自收到第1款提交的请求人名册或使用名册的请求之日起5日内，应公布名册内容；并自公布之日起将名册或其副本置于公开场所供查阅10日。\n③ 除第1款及第2款规定的事项外，名册提交等必要事项由地方自治团体条例规定。\n\n",
+      "reason": "Corrected signature count threshold from strictly greater than to greater than or equal to, repaired separate 10-day/5-day submission windows, and clarified five-day publication and ten-day public-inspection duties."
+    },
+    {
+      "id": "B1-zh-00012",
+      "target_id": "3d833f24d6a666762b624dfa390558cf136e3944a779b7ab37b1673f8b9a71f8",
+      "source_hash": "1601ee41cb23fc9582377eae20e2af4cb34d6ce5fa3ba0180820d4fb432e8705",
+      "text": "第十一条（异议申请等）\n① 地方议会主席发现请求人名册中的签名属于下列任一情形时，应认定该签名无效，修改名册，并立即通知代表人。\n1. 非请求权人的签名\n2. 无法确认签名者身份的签名\n3. 由不具有第7条第1款规定的签名请求权的人征集的签名\n4. 同一人就同一事项作出两份以上有效签名时，除其中一份以外的其余签名\n5. 在第8条第1款规定的签名请求期限之外，或在同条第2款规定的签名请求限制期间征集的签名\n6. 请求权人依第9条第2款请求撤销的签名\n7. 通过强迫、欺骗或其他不正当方法取得的签名\n② 对请求人名册中的签名有异议的人，可以在第10条第2款规定的查阅期内向地方议会主席提出异议。\n③ 地方议会主席收到第2款的异议后，应自第10条第2款规定的查阅期结束之日起14日内审查并决定。认定异议有理由时，应修改名册并通知异议提出人及代表人；认定无理由时，应立即通知异议提出人。\n④ 因第1款及第3款的决定，名册上签名的请求权人人数不足第5条第1款规定的请求条件时，地方议会主席可以允许代表人在该地方自治团体条例规定的期限内补正，该期限应在下列各项所列范围内：\n1. 市、道：15日以上\n2. 市、郡及自治区：10日以上\n⑤ 对依第4款补正的请求人名册的提交、公布及异议等，比照适用第10条及本条第1款至第3款规定。此时，第10条第1款正文中的“第8条第1款规定的签名请求期限”视为“第11条第4款规定的补正期限”。\n⑥ 除第1款至第5款规定的事项外，异议申请的必要事项由地方自治团体条例规定。\n\n",
+      "reason": "Corrected reverse legal result for duplicate signatures: all but one are invalid, not valid; restored paragraph ④/⑥ and precise 14-day decision, correction windows and statutory cross-references."
+    },
+    {
+      "id": "B1-zh-00013",
+      "target_id": "ce0c9baa06a1beb23b9a5784d60e92597e4aaee678b9c41f5e35a334d6578434",
+      "source_hash": "ade4aaf713bfc49488f377a0ff24f70aee9f5055cee40486c21e0d042427ecf8",
+      "text": "第十二条（请求的受理与驳回）\n① 地方议会主席在符合下列任一情形，并且满足第4条、第5条及第10条第1款（包括依第11条第5款比照适用的情形）的条件时，应受理居民条例请求；不符合条件时应予驳回。无论受理或驳回，均应通知代表人。\n1. 未提出第11条第2款规定的异议（包括依同条第5款比照适用的情形；下同）\n2. 对依第11条第2款提出的全部异议，已完成同条第3款规定的决定（包括依同条第5款比照适用的情形）\n② 地方议会主席应在该地方自治团体条例于下列期限范围内规定的期限之内，依第1款受理或驳回居民条例请求。<2023年8月16日增设>\n1. 符合第1款第1项时：自第10条第2款规定的查阅期结束之日起3个月内；依第11条第5款比照适用时，自补正名册的查阅期结束之日起3个月内\n2. 符合第1款第2项时：自依第11条第3款对全部异议的审查和决定完成之日起3个月内；依第11条第5款比照适用时，自补正名册签名所涉全部异议的审查和决定完成之日起3个月内\n③ 地方议会主席拟依第1款驳回居民条例请求时，应给予代表人提交意见的机会。<2023年8月16日修订>\n④ 尽管《地方自治法》第76条第1款另有规定，地方议会主席应在依本条第1款受理居民条例请求之日起30日内，以地方议会主席名义提出居民请求条例案。<2023年8月16日修订>\n⑤ 除第1款至第3款规定的事项外，居民条例请求的受理程序所需事项由地方议会会议规则规定。<2023年8月16日修订>\n\n",
+      "reason": "Repaired erroneous civil-lawsuit wording and legal acceptance/rejection logic, notification in both cases and three-month deadlines running from completion of review rather than filing of objections."
+    },
+    {
+      "id": "B1-zh-00014",
+      "target_id": "cf542dc5b5e0cc4e63faa32061b69fbc9cd60970740a97f8d6af66cc5a2d0055",
+      "source_hash": "022aece1af0f8823efe1daaaa1402e030e03b3c1359f12cb868f5fe8984d01e8",
+      "text": "第十三条（居民请求条例案的审查程序）\n① 地方议会应在依第12条第1款受理居民请求条例案之日起1年内对该条例案作出议决。但必要时，可以经全体会议议决仅延长一次，延长期限不超过1年。\n② 地方议会在对提交审查的居民请求条例案议决前，可以请代表人出席会议陈述请求宗旨（包括与代表人的问答）。\n③ 尽管《地方自治法》第79条但书另有规定，即使受理条例案时的地方议会议员任期届满，该案在下届地方议会议员任期内也不得仅因尚未议决而被废弃。\n④ 除第1款至第3款规定的事项外，审查该条例案所需程序由地方议会会议规则规定。\n\n",
+      "reason": "Corrected statutory requirement to reach a resolution rather than enact or pass; preserved one-year deliberation period, one-time extension and carryover to next assembly term; restored paragraph ④."
+    },
+    {
+      "id": "B1-zh-00015",
+      "target_id": "6d02e4fdab0d76369f734562a21c6c242597ee1462bb7e5535f32707dd9e96c6",
+      "source_hash": "cf018dc9af2146a99c5c2344a95235ae1d900b6dfdd8cba0f58725d63f1aecfe",
+      "text": "第十四条（行政事务合作）地方议会主席如有必要，可请求有关地方政府首脑合作，以便顺利履行根据第十一条规定核实请求人名册签名的行政职责。在这种情况下，收到请求的地方政府首脑应当满足请求，除非有特殊理由不予配合。\n\n",
+      "reason": "Corrected claimant-for-damages terminology 申索人 to the residents' ordinance petitioners whose signatures are being verified."
+    },
+    {
+      "id": "B1-zh-00016",
+      "target_id": "e660e82272c19d053eee49d5b5f1a3bc6e306383c6f6bef1241a0b81554d6233",
+      "source_hash": "7e4959916aec03647797ff4e4ccfe68b073484e304bbb0ecd1a558fc376c219b",
+      "text": "第十五条（固有识别信息的处理）\n① 为执行第11条规定的请求人名册签名确认工作，确有不可避免的需要时，地方自治团体可以在取得当事人同意后，处理包含《个人信息保护法》第24条规定的固有识别信息的资料。\n② 地方自治团体处理包含第1款规定的信息的资料时，应依《个人信息保护法》保护该信息。\n\n",
+      "reason": "Corrected false Personal Information Protection Act Article 11 reference to Article 24 and restored the statutory unavoidable-necessity and consent conditions."
+    },
+    {
+      "id": "B1-zh-00017",
+      "target_id": "4272de3667133cc1337517bd5fda8999bf7295593cae88e4da39e95912f43161",
+      "source_hash": "84ebe33f1e91033cac1c71277eb4e6c12ed2c4c855956a9695a66c3ad0d02450",
+      "text": "附则 <第18495号，2021年10月19日>\n\n",
+      "reason": "Corrected formal Korean 부칙 to 附则 and preserved enacted Act No. 18495 and promulgation date."
+    },
+    {
+      "id": "B1-zh-00019",
+      "target_id": "6d2e9e22cb87aefc4164c5afaefb95bceb528bb81b5f64a3b72cac5c1faea0c2",
+      "source_hash": "e5cfaa4e08744bfa747f8ad6ce6eea9e129b62599eb472b31131da2247996239",
+      "text": "第二条（居民条例请求的适用例等）① 本法亦适用于其施行时依旧《地方自治法》（指法律第17893号全部修订前的版本）第15条，已在进行条例制定、修改或废止请求程序的情形。在此情况下，向地方自治团体负责人提出的请求视为向地方议会提出的请求；向地方自治团体负责人提出的申请或提交视为向地方议会主席提出的申请或提交；地方自治团体负责人所作行为视为地方议会主席所作行为。\n\n  ② 尽管有第1款规定，第13条第1款及第3款仅适用于本法施行后依第12条第1款受理的居民请求条例案。\n\n  ③ 地方自治团体负责人应立即将本法施行时尚在办理中的条例制定、修改或废止请求所涉全部文件及其他资料移交地方议会。\n\n",
+      "reason": "Corrected mistaken general legislative or 法令 petitions to municipal-ordinance petitions, preserved Law No. 17893 and Article 15, and restored application of Article 13 only to bills accepted after enforcement."
+    },
+    {
+      "id": "B1-zh-00020",
+      "target_id": "5c71c5764308b38ab75ecaaa42985a5e03ff0d802d511b1c2430b4d3a6aba7a5",
+      "source_hash": "080e27e361f6b6ac3401e2c52bcd2b626f8f67ac1034d3fd3ab077e8166fd3b7",
+      "text": "第三条（居民条例请求条件等的特别规定）① 本法施行时，依第5条第1款由该地方自治团体条例规定的请求权人人数标准不符合该款规定的标准的，在制定符合该标准的条例或相应修订条例之前，请求权人人数达到该款各项规定标准以上者可以共同签名提出居民条例请求。\n\n  ② 本法施行时，依第11条第4款除各项以外部分由该地方自治团体条例规定的补正期限不符合该款各项规定的标准的，在制定符合该标准的条例或相应修订条例之前，可以在下列期限内补正请求人名册：\n\n  1. 市、道：15日\n\n  2. 市、郡及自治区：10日\n\n",
+      "reason": "Corrected 15 days and 10 days gross mistranslated as '15th' and '10th edition', and correctly used municipal ordinances (条例), not general statutes, as the transitional basis."
+    },
+    {
+      "id": "B1-zh-00021",
+      "target_id": "8f22bf8c574146d4816d60ad98a33ba966d9601c250fc7928248792dfebe68ea",
+      "source_hash": "441c77ca25367e3e2bd758ff7e468eed3186a344dd34971020b4ff49295dc2df",
+      "text": "第四条（其他法律的修订）① 《关于设立世宗特别自治市等的特别法》作如下部分修订。\n\n  在第20条第1款各项以外部分中，分别将“19岁”改为“18岁”，将“《地方自治法》第15条第1款”改为“《关于居民条例提案的法律》第5条第1款”，将“向市长”改为“向市议会”。\n\n  ② 《关于设立济州特别自治道及建设国际自由城市的特别法》作如下部分修订。\n\n  在第29条第1款各项以外部分中，分别将“19岁”改为“18岁”，将“《地方自治法》第15条第1款”改为“《关于居民条例提案的法律》第5条第1款”，将“向道知事”改为“向道议会”。\n\n  将第77条的标题“（《地方自治法》的准用）”改为“（《关于居民条例提案的法律》及《地方自治法》的准用）”；并将同条第1款前段中的“《地方自治法》第15条，”改为“《关于居民条例提案的法律》及《地方自治法》”。\n\n",
+      "reason": "Corrected precise quoted statutory substitutions for both Sejong and Jeju Acts, including Article 77 title and first sentence; restored municipal ordinance Act and exact 19-to-18 age, Mayor-to-Council and Governor-to-Provincial Council changes."
+    },
+    {
+      "id": "B1-zh-00022",
+      "target_id": "2aaf17b165298eef8ac5f6d8c0920028df9700113bd56dca4481ea2255c01e2c",
+      "source_hash": "cc858e6ea9da01fbad7c330e85af5ddf63763db80399224c3b2e1c2df4f91eb6",
+      "text": "附则 <第19633号，2023年8月16日>\n\n",
+      "reason": "Corrected formal addenda heading while preserving Act No. 19633 and date."
+    }
+  ],
+  "status": "COMPLETE"
+}
