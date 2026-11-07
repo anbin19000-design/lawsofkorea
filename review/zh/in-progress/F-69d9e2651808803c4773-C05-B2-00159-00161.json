@@ -1,0 +1,38 @@
+{
+  "schema": "LAW_ZH_IN_PROGRESS_REVIEW_V1",
+  "job_id": "F-69d9e2651808803c4773",
+  "worker": "C05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_commit": "2bf6ebdc1974eb43100aa2ab00e7f7e7fd09e094",
+  "ko_blob_sha": "111519dd32bb33a661576be45b72c6b8e535cbb4",
+  "zh_blob_sha": "3c62ee9db18e00e56fab07bbcc3f8d47bbf0b528",
+  "en_blob_sha": "472b93f92f9acf1f4104ce1792d7eb5bb83981a4",
+  "checked_rows": 3,
+  "checked_row_ids": [
+    "B2-zh-00159",
+    "B2-zh-00160",
+    "B2-zh-00161"
+  ],
+  "edits": [
+    {
+      "id": "B2-zh-00159",
+      "source_hash": "35bc15870e2fd35dfe4e60ee4eed3e0e6714ae85167fb86341a2e47cfd21a819",
+      "target_id": "389e938fad9440ddd58912deb0cba92f008519780f936a96977ac23274f25810",
+      "text": "第六条（其他法令的修改）①至④ 略\n\n  ⑤《个人信息保护法施行令》部分修改如下。\n\n  将第十一条第一款、该条第二款前段和后段、该条第三款、第十二条第一款、第十三条第一款各号以外的部分及该条第二款、第十四条、第二十条第二款各号以外的部分、第二十七条、第三十条第二款和第三款、第三十二条第三款、第三十四条第一款前段及该条第二款和第三款、第三十七条第一款各号以外的部分、第二款各号以外的部分、该条第三款各号以外部分的正文、该条第四款各号以外部分的前段、该条第五款各号以外部分的正文、该条第六款各号以外部分的正文、该条第七款、第三十八条第二款各号以外的部分及该条第三款、第四十一条第二款前段和后段、第四十八条第二款、第五十条第二款、第五十八条第二款正文、第五十九条、第六十条第二款、第六十一条第一款各号以外的部分及该条第二款和第三款、第六十二条第一款各号以外的部分及该条第二款和第三款中的“行政安全部长官”分别改为“安全行政部长官”。\n\n  将第十三条第三款后段中的“行政安全部长官”改为“安全行政部长官”。\n\n"
+    },
+    {
+      "id": "B2-zh-00160",
+      "source_hash": "fdc3fea1eaaeb63724640efb4221e383d9f4245e0a0a697d920528e980994bc1",
+      "target_id": "868ceb462452b8ef67c93e2f4d741e00241fda35bbb83ae932464eadafe5c650",
+      "text": "  将第十五条各号以外的部分、第三十四条第一款前段、第三十七条第二款各号以外的部分及该款第四号、该条第六款各号以外部分的正文、第四十一条第一款各号以外的部分及该条第四款、第四十二条第二款、第四十三条第一款和第三款、第四十四条第一款和第二款、第四十五条第二款中的“行政安全部令”分别改为“安全行政部令”。\n\n  将附表1第六号中的“行政安全部长官”改为“安全行政部长官”。\n\n  将附表2第一号（乙）目第1）至第4）项以外部分的正文及该号（丙）目第1）至第3）项以外部分的正文中的“行政安全部长官”分别改为“安全行政部长官”。\n\n  ⑥至<129> 略\n\n"
+    },
+    {
+      "id": "B2-zh-00161",
+      "source_hash": "805f7541e76c46a541959818988d70023b39bf43750d285868c984d97cc30586",
+      "target_id": "1e22b606226623607658946c0cd68555f4a5e444256679094e581d02663e6990",
+      "text": "附则 <第25531号，2014年8月6日>\n\n本施行令自2014年8月7日起施行。\n\n"
+    }
+  ],
+  "note": "B2 159-161 Korean-source comparison: translate remaining Korean introductory clauses, restore all enumerated clauses, historical ministry replacement names, annex subparts and supplementary title. Existing files preserved."
+}
