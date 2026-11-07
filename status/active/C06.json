@@ -1,26 +1,26 @@
 {
-  "assignment_id": "S2-1358474ebf0397a91bd5773795afca32",
-  "claimed_at": "2026-11-07T06:22:32.585067+00:00",
+  "assignment_id": "S2-b2ed7d1b88018fe4b1fecf862a97c203",
+  "claimed_at": "2026-11-07T06:32:20.625709+00:00",
   "conversation_hash": "37fe035f029698e9fb337a273ca9faef5839a8ef01c42544d69f4f2c0cae940b",
-  "delivery_status": "SENT_VERIFIED",
-  "documents": 3,
-  "event_id": "obs-5f7afc4f8283381bc8b5755b54704b615efb97ca",
-  "family_id": "F-6b963188fadaefbe08e0",
-  "job_id": "F-6b963188fadaefbe08e0",
-  "marker": "[LAW-SUPPLY-V2:S2-1358474ebf0397a91bd5773795afca32:C06:F-6b963188fadaefbe08e0]",
+  "delivery_status": "INTENT_RECORDED_NO_RESEND",
+  "documents": 1,
+  "event_id": "obs-0e984640ea3c2b73d37bf59f1ca1e4d7c35e88f1",
+  "family_id": "F-b7ec6bf5acb7fb7b2900",
+  "job_id": "F-b7ec6bf5acb7fb7b2900",
+  "marker": "[LAW-SUPPLY-V2:S2-b2ed7d1b88018fe4b1fecf862a97c203:C06:F-b7ec6bf5acb7fb7b2900]",
   "panel_id": "panel-06",
   "pc": "WORK-C",
-  "rows": 121,
+  "rows": 135,
   "schema": "LAW_SUPPLIER_ASSIGNMENT_V2",
   "source_blobs": {
-    "en": "8a8f02269f1aee9ab9fcafeaec458132825ae2fc",
-    "ko": "61ff12d2c776a68c4efc2b06b6525e603bdfe808",
-    "zh": "e470d9247b4c3687cee060325d71e7b302786b78"
+    "en": "10c33374590a7b11b293d0ec92cf0d4cc9f19933",
+    "ko": "d77a59ade45221eaf2076b6e4aa17f843b292aac",
+    "zh": "b8d3478a84a3df0cc9e13ebc2dc0d02c99d27b39"
   },
-  "source_commit": "f41bace0dc5736c513a74b3254863afbbc8098b2",
+  "source_commit": "2e44d216ae1f628a9bf833dacfc86796c3abdee6",
   "status": "ACTIVE",
-  "title": "이중상환청구권부 채권 발행에 관한 법률",
+  "title": "소송촉진 등에 관한 특례법",
   "unit_policy": "ACT_DECREE_RULE_ANNEX_FORMS_ONE_FAMILY",
   "worker": "C06",
-  "write_protocol": "contents-only"
+  "write_protocol": "contents-zh-v2"
 }
