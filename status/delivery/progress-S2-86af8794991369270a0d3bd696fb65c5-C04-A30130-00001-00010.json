@@ -1,0 +1,194 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30128-00014-00026.json",
+      "blob_sha": "e7dfacce8d338e0adbb1e2857221c7ff03b77150",
+      "document_key": "A30128",
+      "rows_checked": 13,
+      "rows_corrected": 8
+    }
+  ],
+  "document": {
+    "key": "A30130",
+    "kind": "서식",
+    "title": "사망보고",
+    "source_hash": "d37cc0e11ae0b1703bd9148ee57bce7c28e0273d4237da43f973c41baede83e5",
+    "rows_checked": 10,
+    "rows_corrected": 6,
+    "document_review_state": "IN_PROGRESS"
+  },
+  "range": {
+    "first_row_id": "A30130-zh-00001",
+    "last_row_id": "A30130-zh-00010",
+    "verified_row_count": 10
+  },
+  "verified_rows": [
+    {
+      "row_id": "A30130-zh-00001",
+      "target_id": "XML:2210794",
+      "source_hash": "72c8fa67edda44fb9dae044eae60c39ebdae508d5c082badd617337503184e30",
+      "source_ko": "[별지 제10호서식] <개정 1988.12.19>",
+      "previous_zh": "[附件表格编号 10] <修订于 1988.12.19>",
+      "meaning_pair_id": "088ddb1ea6f80c1cf61c4395d4ab3a8a35857fa449da21e151a5a8698a43f5e4",
+      "source_basis": "authoritative Korean death report form and meaning pairs"
+    },
+    {
+      "row_id": "A30130-zh-00002",
+      "target_id": "XML:2210795",
+      "source_hash": "8e0820dd24f492bc0f5e97c96a599ef87f40dd9cdf39541364e2925ca3fe30f6",
+      "source_ko": "사망보고",
+      "previous_zh": "死亡报告MTQ705f93461414a18402034结束",
+      "meaning_pair_id": "f69579266207b24a0786353f5ef3c444e9fa0f1fddde1c561bf5449aa1955048",
+      "source_basis": "authoritative Korean death report form and meaning pairs"
+    },
+    {
+      "row_id": "A30130-zh-00003",
+      "target_id": "XML:2210797",
+      "source_hash": "03ef777582454c304f9df9d972e89d9d9688f1a619a8a99f5f196e4d1af25294",
+      "source_ko": "성명(한자)",
+      "previous_zh": "名称（汉字）",
+      "meaning_pair_id": "614eef779de3c5c44192a10420d29f50eefe4afcdedc08edf2ce92e1fc2bb8d6",
+      "source_basis": "authoritative Korean death report form and meaning pairs"
+    },
+    {
+      "row_id": "A30130-zh-00004",
+      "target_id": "XML:2210798",
+      "source_hash": "0cfaa069c4d77e55af86144e32ee89b6d1bb736458ac46736e38965103c9fbd7",
+      "source_ko": "주민등록번호",
+      "previous_zh": "居民注册号",
+      "meaning_pair_id": "c3abfdce5df01e556c54db58360f3be91533e2e222fee8358335b4b4d7b6f89a",
+      "source_basis": "authoritative Korean death report form and meaning pairs"
+    },
+    {
+      "row_id": "A30130-zh-00005",
+      "target_id": "XML:2210801",
+      "source_hash": "28e058c7cec8846e6c5fb52308685e1c534d4b8a745ab01a9d40c045f3fd6c71",
+      "source_ko": "주소",
+      "previous_zh": "地址",
+      "meaning_pair_id": "85a28277b11fa6b425dd50932bb9395c7db8327b3c42ca972aae6724d0c6896c",
+      "source_basis": "authoritative Korean death report form and meaning pairs"
+    },
+    {
+      "row_id": "A30130-zh-00006",
+      "target_id": "XML:2210802",
+      "source_hash": "509d224d92693f545c6d6da779f729b9d400a4fca791b8a4508afc1335904fee",
+      "source_ko": "사망일시",
+      "previous_zh": "死亡日期和时间",
+      "meaning_pair_id": "c2942ff4ddb6161aecb9571e2a82c2dc298388bc4a51c5dfd45ffd22212eee0e",
+      "source_basis": "authoritative Korean death report form and meaning pairs"
+    },
+    {
+      "row_id": "A30130-zh-00007",
+      "target_id": "XML:2210803",
+      "source_hash": "c07187677f12157050ccbc54e39deb0dc3e0809fb6d83dbe226b0165db7893f4",
+      "source_ko": "사망장소",
+      "previous_zh": "死亡地点",
+      "meaning_pair_id": "6b36a6954dde0ee74552e3ba829d3a79c13a7771c0b9e1bb5b8bfd39aebad5ec",
+      "source_basis": "authoritative Korean death report form and meaning pairs"
+    },
+    {
+      "row_id": "A30130-zh-00008",
+      "target_id": "XML:2210804",
+      "source_hash": "144abfb63c3a82a5342e3ff4deea351303a53c6ac76718c3e62096a92ded845c",
+      "source_ko": "호주성명(한자)",
+      "previous_zh": "澳大利亚名称（中文字符）",
+      "meaning_pair_id": "3af92f6caeb7cb8d376dddf6f012b663c2666549df46c23366313e95d73f4a5c",
+      "source_basis": "authoritative Korean death report form and meaning pairs"
+    },
+    {
+      "row_id": "A30130-zh-00009",
+      "target_id": "XML:2210805",
+      "source_hash": "f9eb6798eed1abddc38617c243b5644c5d8f364c45f9f9db9c62a228524f2e37",
+      "source_ko": "사망자와의관계",
+      "previous_zh": "与逝者的关系",
+      "meaning_pair_id": "8d50ae46098c226d9133307866347a4c9d412b65859f4c4e2fa9301c0ed5f6b2",
+      "source_basis": "authoritative Korean death report form and meaning pairs"
+    },
+    {
+      "row_id": "A30130-zh-00010",
+      "target_id": "XML:2210806",
+      "source_hash": "91b507399f50e17832c08b3cb39542ec378f95411276fa1d89f01f9742dbb429",
+      "source_ko": "위 사람은",
+      "previous_zh": "上面的人",
+      "meaning_pair_id": "42325769c4f63afbc1fa9ec65263de3864c540e2e896e468e644d2207ae9c240",
+      "source_basis": "authoritative Korean death report form and meaning pairs"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "A30130-zh-00001",
+      "target_id": "XML:2210794",
+      "source_hash": "72c8fa67edda44fb9dae044eae60c39ebdae508d5c082badd617337503184e30",
+      "source_ko": "[별지 제10호서식] <개정 1988.12.19>",
+      "previous_zh": "[附件表格编号 10] <修订于 1988.12.19>",
+      "corrected_zh": "〔附件第10号格式〕<1988年12月19日修订>",
+      "reason": "사망보고서의 MTQ 출력표식·호주(戶主)의 오역 및 신원표기 누락을 한국어 원문에 맞추어 교정."
+    },
+    {
+      "row_id": "A30130-zh-00002",
+      "target_id": "XML:2210795",
+      "source_hash": "8e0820dd24f492bc0f5e97c96a599ef87f40dd9cdf39541364e2925ca3fe30f6",
+      "source_ko": "사망보고",
+      "previous_zh": "死亡报告MTQ705f93461414a18402034结束",
+      "corrected_zh": "死亡报告",
+      "reason": "사망보고서의 MTQ 출력표식·호주(戶主)의 오역 및 신원표기 누락을 한국어 원문에 맞추어 교정."
+    },
+    {
+      "row_id": "A30130-zh-00003",
+      "target_id": "XML:2210797",
+      "source_hash": "03ef777582454c304f9df9d972e89d9d9688f1a619a8a99f5f196e4d1af25294",
+      "source_ko": "성명(한자)",
+      "previous_zh": "名称（汉字）",
+      "corrected_zh": "姓名（汉字）",
+      "reason": "사망보고서의 MTQ 출력표식·호주(戶主)의 오역 및 신원표기 누락을 한국어 원문에 맞추어 교정."
+    },
+    {
+      "row_id": "A30130-zh-00004",
+      "target_id": "XML:2210798",
+      "source_hash": "0cfaa069c4d77e55af86144e32ee89b6d1bb736458ac46736e38965103c9fbd7",
+      "source_ko": "주민등록번호",
+      "previous_zh": "居民注册号",
+      "corrected_zh": "居民登记号码",
+      "reason": "사망보고서의 MTQ 출력표식·호주(戶主)의 오역 및 신원표기 누락을 한국어 원문에 맞추어 교정."
+    },
+    {
+      "row_id": "A30130-zh-00008",
+      "target_id": "XML:2210804",
+      "source_hash": "144abfb63c3a82a5342e3ff4deea351303a53c6ac76718c3e62096a92ded845c",
+      "source_ko": "호주성명(한자)",
+      "previous_zh": "澳大利亚名称（中文字符）",
+      "corrected_zh": "户主姓名（汉字）",
+      "reason": "사망보고서의 MTQ 출력표식·호주(戶主)의 오역 및 신원표기 누락을 한국어 원문에 맞추어 교정."
+    },
+    {
+      "row_id": "A30130-zh-00010",
+      "target_id": "XML:2210806",
+      "source_hash": "91b507399f50e17832c08b3cb39542ec378f95411276fa1d89f01f9742dbb429",
+      "source_ko": "위 사람은",
+      "previous_zh": "上面的人",
+      "corrected_zh": "上述人员",
+      "reason": "사망보고서의 MTQ 출력표식·호주(戶主)의 오역 및 신원표기 누락을 한국어 원문에 맞추어 교정."
+    }
+  ],
+  "validation": {
+    "row_ids_unique": true,
+    "source_hashes_match": true,
+    "verified_korean_form": true,
+    "mtq_marker_removed_in_final_zh": true,
+    "total_cumulative_checked_rows": 790
+  },
+  "next_step": "Next A30130 11-20; one last 10-row range before completeness validation."
+}
