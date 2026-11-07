@@ -30,7 +30,20 @@
   },
   "assistant_count": 10,
   "assistant_excerpt": "지 원인\n\n직전 회차에서 중간 검수 결과를 저장한 후 응답이 종료됐습니다. 저장 실패나 권한 거절로 중단된 것은 아닙니다.\n\n공식 GitHub 재조회에서 기존 중간 파일 7개가 확인됐고, 한국어·중국어·영어 원본 SHA가 모두 일치했습니다.\n\n2. 이번 회차 검수 실적\n\n이번 회차 신규 교정\n\n44행\n\n누적 저장 교정\n\n109행\n\n시행령 별표 4의 A36427-zh-00060~00128 범위에서 기존 저장 행을 제외하고 검수했습니다.\n\n과태료 처분 근거, 제55조 제1항의 호 번호, 스마트혁신사업·스마트실증사업의 위반기간과 책임보험 관련 번역을 교정했습니다.\n\n3. GitHub 저장 및 SHA\n\n구분\n\n\t\n\nSHA\n\n\n\n\n최초 중간 저장 커밋\n\n\t\n\n5277cc859b6109eab1b086914bcc158f22aa95de\n\n\n\n\n인용 오류 보완 커밋\n\n\t\n\n01f5e045332548654e3f15937e39e574639d8e5f\n\n\n\n\n최종 중간 파일 Blob SHA\n\n\t\n\nd987e0f2c929f405f3a665474c1a05e50dc9afb0\n\n저장 후 5개 조문 인용 표기를 수정하고 파일을 다시 읽어 확인했습니다.\n\n누적 검증 결과: 중간 파일 8개, 저장된 교정문 109행, 고유 행 ID 109개이며 모든 파일의 상태는 IN_PROGRESS입니다.\n\n4. 남은 작업\n\n전체 대상은 17개 문서, 중국어 1,133행입니다. 현재 109행은 교정문 저장 건수이며, 전체 검수 완료 행 수가 아닙니다.\n\n다음 검수는 기존 교정문을 보존하고 아직 대조하지 않은 법률·시행령·서식의 나머지 범위에서 진행해야 합니다.\n\n최종 review/zh 및 receipts 파일은 생성하지 않았으며 운영 DB도 변경하지 않았습니다. 다른 법령으로 전환하지 않고 같은 Job ID의 미완료 상태를 유지합니다.",
+  "attempted_at": "2026-11-07T20:41:32.975521+00:00",
   "created_at": "2026-11-07T20:41:26.086480+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+    "attempted_at": "2026-11-07T20:41:32.975521+00:00",
+    "claim_commit": "4304ccdff68ec4d42153a588e2233a9b4ce0c3d7",
+    "event_id": "obs-34b7f30f3184e949ffbece7396dd00884155cec9",
+    "job_id": "F-81e30c25fcbea5af2364",
+    "record_path": "status/delivery/recovery-S2-ae8f8a85c5ace955ac8120fa9a6c7730.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C02"
+  },
   "episode": 5,
   "event_id": "obs-34b7f30f3184e949ffbece7396dd00884155cec9",
   "job_id": "F-81e30c25fcbea5af2364",
@@ -286,7 +299,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-431a46d51ece254c5e6df853]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "851c41b014d13fe8ccabcf3fda1f7ae79f9fb8e0",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef6c60-9e78-83ee-8cce-939d00e6c476",
   "worker": "C02"
 }
