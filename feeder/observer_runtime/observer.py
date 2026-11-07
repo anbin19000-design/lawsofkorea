@@ -19,7 +19,7 @@ from urllib.request import Request, build_opener, ProxyHandler
 
 import panel_faults
 
-VERSION = '2026.11.07-passive.12'
+VERSION = '2026.11.07-passive.13'
 SCHEMA = 'LAO_PASSIVE_OBSERVATION_V1'
 ROOT = Path(__file__).resolve().parent
 ALLOWED_COMMANDS = frozenset({'panel.list', 'panel.observe'})
@@ -190,6 +190,7 @@ def summarize(panel, obs, previous, now):
         reasons.append('IDLE_OBSERVED_5_MIN')
     commits = list(dict.fromkeys(re.findall(r'(?<![0-9a-f])[0-9a-f]{40}(?![0-9a-f])', str(obs.get('lastAssistant') or ''))))
     return dict(panel_id=panel['panelId'], panel_name=panel.get('name'), url=url,
+                mode=(obs.get('worker_model') or {}).get('mode'),
                 dom_verified=obs.get('dom_read_status')=='OK',
                 recovery_button=any(panel_faults.ACTION.fullmatch(panel_faults.label(e)) for e in obs.get('recovery_controls', [])),
                 title=obs.get('title'), native_state=obs.get('status'), state=state,

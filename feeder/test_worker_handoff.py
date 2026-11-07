@@ -65,3 +65,37 @@ class HandoffTests(unittest.TestCase):
             h.open_home(reader,{'worker':'C03'},obs,None)
             self.assertIn(obs['url'],evaluate.call_args.args[1])
             reader.click_visible.assert_not_called()
+
+    def test_open_chat_is_used_without_reopening_work(self):
+        config={'assignment_mode':'Chat','use_open_panel_only':True}
+        row=dict(state='IDLE',observation_ok=True,dom_verified=True,mode='Chat',url=h.HOME)
+        self.assertEqual(h.route_reason(config,row),'USE_OPEN_CHAT')
+        self.assertIsNone(h.route_reason(config,dict(row,mode='Work')))
+        self.assertIsNone(h.route_reason(config,dict(row,draft_present=True)))
+        self.assertIsNone(h.route_reason(config,dict(row,url='https://chatgpt.com/c/old',state='WORKING')))
+        self.assertEqual(h.route_reason({'assignment_mode':'Chat'},dict(row,url='https://chatgpt.com/c/old',mode='Work')),'NEXT_IN_CHAT')
+
+    def test_old_work_family_remains_reserved_until_verified(self):
+        from test_event_supplier import fixture,MemoryStore
+        c,e,files=fixture()
+        base=MemoryStore(files).refresh()
+        first=h.s.plan(base,c,e)['claim'];jid=first['job_id'];aid=first['assignment_id']
+        path='status/draining/'+aid+'.json'
+        files[path]={**first,'status':'FINISHING_IN_PREVIOUS_CONVERSATION'}
+        snap=MemoryStore(files).refresh()
+        new=h.s.plan(snap,c,e)
+        self.assertNotEqual(new.get('claim',{}).get('job_id'),jid)
+        self.assertEqual(h.finish_draining(snap,c),{})
+        with patch.object(h.s,'completed',return_value=True):
+            updates=h.finish_draining(snap,c)
+        self.assertIsNone(updates[path])
+        self.assertEqual(updates['status/completed/'+aid+'.json']['job_id'],jid)
+
+    def test_new_claim_requires_a_confirmed_chat_composer(self):
+        from test_batch_engine import EngineTests
+        fixture=EngineTests();fixture.setUp()
+        c=dict(fixture.config,assignment_mode='Chat')
+        with self.assertRaisesRegex(s.SupplyError,'WAIT_FOR_CHAT_PANEL'):
+            s.observer_event(c,fixture.report,fixture.health,'C01',None)
+        fixture.report['panels'][0]['mode']='Chat'
+        self.assertEqual(s.observer_event(c,fixture.report,fixture.health,'C01',None)['kind'],'READY')

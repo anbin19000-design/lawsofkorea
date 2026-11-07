@@ -1,6 +1,6 @@
 # LaoPanel continuous supervision — 2026-11-07
 
-The live controller is supplier_batch.py --service (2.4.1), driven by the passive observer (2026.11.07-passive.12). Both use a 10-second target cadence. A batch can take longer when GitHub work or transport is slow. Separate per-worker outcomes keep a failed panel from blocking healthy panels.
+The live controller is supplier_batch.py --service (2.5.0), driven by the passive observer (2026.11.07-passive.13). Both use a 10-second target cadence. A batch can take longer when GitHub work or transport is slow. Separate per-worker outcomes keep a failed panel from blocking healthy panels.
 
 ## Process lifetime and dashboard
 
@@ -51,3 +51,7 @@ The helper never types or clears content and never opens a conversation. An ambi
 Enable automatic_worker_handoff in supplier-config.json and kiip_dom_signals in the observer config. The observer reads KIIP's current-turn DOM alerts. Explicit new-conversation errors are immediately eligible. Other confirmed recoverable errors use a 60-second grace. An active assignment with 120 seconds of unchanged observed idle UI is eligible. A generating UI alone never authorizes replacement. A native observation timeout can use a stamped read-only WebView for evidence.
 
 The supplier records an intent under status/delivery/auto-handoff-*.json and journals each phase in run/handoff-<worker>.json. Successful handoffs update the one worker binding and preserve the assignment and source hashes. Verify the replacement marker before marking a handoff REBOUND. Completed work receives a READY bootstrap, then the normal supplier verifies both files and allocates the next law. Unfinished work continues under the same claim. The dashboard shows per-worker handoff outcomes. An uncertain click waits for evidence.
+
+## Chat assignments
+
+New assignments require a live Chat composer. WORK-C uses the six currently open panels. An empty user-selected Chat receives its own verified bootstrap without reopening an old URL. If the outgoing assignment has not finished, it remains reserved in status/draining until its original results and receipt pass validation. The Chat worker receives another family through the existing supplier. Active generating Work conversations finish their current assignment. A recovery never selects Work when assignment_mode is Chat. Do not restore a previous WORK-C window or manually duplicate a pending delivery.

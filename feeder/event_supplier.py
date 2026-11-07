@@ -19,11 +19,11 @@ import uuid
 from urllib.request import Request, urlopen
 from urllib.parse import urlparse
 
-VERSION = "2.4.1"
+VERSION = "2.5.0"
 EVENT_SCHEMA = "LAW_SUPPLY_EVENT_V1"
 ID = re.compile(r"[A-Za-z0-9_-]{1,120}\Z")
 JOB = re.compile(r"F-[a-f0-9]{20}\Z")
-WRITABLE = ("status/active/", "status/claims/", "status/delivery/",
+WRITABLE = ("status/draining/", "status/active/", "status/claims/", "status/delivery/",
             "status/completed/", "status/supply-events/")
 
 
@@ -366,10 +366,12 @@ def plan(snapshot, config, event):
                         "status/active/" + event["worker"] + ".json": None})
         old_delivery = snapshot.read("status/delivery/" + aid + ".json", {})
         changes["status/delivery/" + aid + ".json"] = {**old_delivery, "state": "COMPLETED", "completed_at": iso()}
-    used = {x["job_id"] for x in active.values()}
+    finishing = [snapshot.read(p) for p in snapshot.paths if p.startswith("status/draining/") and p.endswith(".json")]
+    used = {x["job_id"] for x in [*active.values(), *finishing]}
     heavy_limit = config.get("heavy_threshold_rows", 3000)
     heavy_count = sum(all_jobs.get(x["job_id"], {}).get("rows", heavy_limit) >= heavy_limit
                       for w, x in active.items() if w != event["worker"])
+    heavy_count += sum(all_jobs[x["job_id"]]["rows"] >= heavy_limit for x in finishing)
     chosen, docs, blobs = None, None, None
     for job in sorted(all_jobs.values(), key=lambda x: (x["rows"], x["documents"], x["job_id"])):
         jid, p = job["job_id"], paths(job["job_id"])
@@ -459,6 +461,9 @@ def send_panel(config, event, text):
     check(before.get("status") in ("IDLE", "READY") and not any(
         e.get("role") == "textbox" and e.get("text", "").strip() for e in before.get("elements", [])),
         "PANEL_CHANGED_BEFORE_TYPING")
+    if config.get("assignment_mode") == "Chat":
+        from verified_draft import send_chat_only
+        return send_chat_only(config,event,text)
     response = panel_command(config, "panel.chat.send", panelId=event["panel_id"], text=text)
     messages = []
     node = response
@@ -613,6 +618,8 @@ def observer_event(config, report, health, worker, active, current=None, allow_r
             check(seen == active["marker"].strip("[]"), "DELIVERY_MARKER_MISMATCH")
             kind = "DELIVERY_ACK"
     if kind == "READY":
+        if config.get("assignment_mode") == "Chat":
+            check(row.get("mode") == "Chat", "WAIT_FOR_CHAT_PANEL")
         check(row.get("native_state") in ("IDLE", "READY")
               and row.get("state") in (("IDLE", "READY", "COMPLETION_REPORTED", "STORAGE_BLOCKED", "REPORTED_ERROR")
                                         if allow_recovery and active else ("IDLE", "READY", "COMPLETION_REPORTED")),

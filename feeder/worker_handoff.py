@@ -62,29 +62,79 @@ def save(path, record, phase):
     record.update(phase=phase, updated_at=s.iso())
     atomic(path, record)
 
+def route_reason(config, row):
+    if config.get('assignment_mode') != 'Chat':
+        return f.reason(row)
+    if not row.get('observation_ok') or not row.get('dom_verified') or row.get('draft_present'):
+        return None
+    ready = row.get('state') in ('READY','IDLE','COMPLETION_REPORTED')
+    if row.get('url') == HOME and ready and row.get('mode') == 'Chat':
+        return 'USE_OPEN_CHAT'
+    if config.get('use_open_panel_only'):
+        return None
+    if ready and row.get('mode') == 'Work':
+        return 'NEXT_IN_CHAT'
+    return f.reason(row)
+
+
+def finish_draining(snapshot,config):
+    updates = {}
+    paths = [p for p in snapshot.paths if p.startswith('status/draining/') and p.endswith('.json')]
+    if not paths:
+        return updates
+    jobs = s.manifest(snapshot,config)
+    for path in paths:
+        old = snapshot.read(path)
+        try:
+            done = s.completed(snapshot,jobs[old['job_id']],old)
+        except s.SupplyError as exc:
+            if old.get('validation_error') != str(exc):
+                updates[path] = {**old,'validation_error':str(exc)}
+            continue
+        if done:
+            old.update(status='COMPLETE',completed_at=s.iso())
+            aid=old['assignment_id']
+            delivery='status/delivery/'+aid+'.json'
+            updates.update({path:None,'status/completed/'+aid+'.json':old,'status/claims/'+aid+'.json':old,
+                            delivery:{**snapshot.read(delivery,{}),'state':'COMPLETED','completed_at':old['completed_at']}})
+    return updates
+
 
 def begin(config, store, item, row, obs, path):
-    old = row['url']; reason = f.reason(row)
-    s.check(old == obs['url'] and THREAD.fullmatch(old) and reason, 'OBSERVER_CHANGED')
+    old = row['url']; reason = route_reason(config,row)
+    s.check(old == obs['url'] and reason, 'OBSERVER_CHANGED')
+    snap = store.refresh()
+    adopt = reason=='USE_OPEN_CHAT'
+    if adopt:
+        s.check(old==HOME and not obs.get('lastUser') and not obs.get('lastAssistant') and
+                (obs.get('worker_model') or {}).get('mode')=='Chat','OPEN_CHAT_NOT_EMPTY')
+        bindings = snap.read(config['bindings_path'])
+        old=next(v['url'] for v in bindings['workers'] if v['worker']==item['worker'])
+    s.check(THREAD.fullmatch(old),'BOUND_URL_REQUIRED')
     detected = f.fault(obs)
-    if reason == 'PERSISTENT_IDLE':
+    if reason in ('PERSISTENT_IDLE','USE_OPEN_CHAT','NEXT_IN_CHAT'):
         s.check(detected is None and obs.get('status') in ('IDLE','READY') and
                 not obs.get('dom_stop_visible') and not obs.get('transportError'), 'IDLE_RESOLVED')
     else:
         s.check(reason == detected, 'FAULT_CHANGED')
     s.check(not normalized(obs.get('composer_text')) and not obs.get('dom_stop_visible'), 'PANEL_IN_USE')
-    snap = store.refresh()
     active, job, docs = verify_claim(snap, config, item, old)
     unavailable = (reason == 'CONVERSATION_UNAVAILABLE' and not obs.get('lastUser') and
                    active.get('delivery_status') == 'SENT_VERIFIED' and
                    active.get('conversation_hash') == s.digest(THREAD.fullmatch(old)[1]))
-    s.check(unavailable or ((row.get('assignment') or {}).get('job_id') == active['job_id'] and
+    s.check(adopt or unavailable or ((row.get('assignment') or {}).get('job_id') == active['job_id'] and
             (obs.get('lastUser') or '').startswith(active['marker'])), 'VISIBLE_ASSIGNMENT_MISMATCH')
     original = s.prompt(config, job, active, docs, active['source_commit'])
     key = s.digest(active['assignment_id']+' '+old)[:20]
     marker = '[LAO-HANDOFF:'+key+']'
     done = s.completed(snap, job, active)
+    if reason=='NEXT_IN_CHAT':
+        s.check(done,'WAIT_PREVIOUS_WORK')
     prompt = instruction(config,active,original,done,marker)
+    if adopt and not done:
+        prompt=(active['marker']+' '+marker+'\n저장소: '+config['repository']+'\n브랜치: '+config['branch']+
+                '\n기존 워커가 이전 법령을 계속 검수합니다. 이 Chat 패널은 '+active['worker']+
+                '의 후속 배정을 받습니다. 이전 법령을 시작하지 말고 '+active['worker']+' READY라고 답하십시오.')
     remote = 'status/delivery/auto-handoff-'+key+'.json'
     record = dict(schema='LAW_AUTO_HANDOFF_V1', worker=item['worker'], panel_id=item['panel_id'],
                   old_url=old, reason=reason, target=obs['dom_target_id'], assignment_id=active['assignment_id'],
@@ -108,7 +158,7 @@ def begin(config, store, item, row, obs, path):
         s.check(prior.get('status')=='INTENT' and prior['prompt_sha256']==receipt['prompt_sha256'], 'EXISTING_HANDOFF_CHANGED')
     else:
         store.publish(snap.sha,{remote:receipt},'Record worker handoff intent '+item['worker'])
-    save(path,record,'OPEN')
+    save(path,record,'HOME' if adopt else 'OPEN')
     return record
 
 
@@ -119,7 +169,7 @@ def eligible_now(obs, record):
             record['reason'] == 'CONVERSATION_UNAVAILABLE' and obs.get('conversation_unavailable') and not obs.get('lastUser')):
         return False
     state=f.fault(obs)
-    return state==record['reason'] or (record['reason']=='PERSISTENT_IDLE' and state is None and obs.get('status') in ('IDLE','READY'))
+    return state==record['reason'] or (record['reason'] in ('PERSISTENT_IDLE','NEXT_IN_CHAT') and state is None and obs.get('status') in ('IDLE','READY'))
 
 
 def new_chat_control(obs):
@@ -164,11 +214,14 @@ const name=e=>norm(e.getAttribute('aria-label')||e.innerText);
 if(buttons.some(e=>/^(allow once|always allow|approve|log in|sign in|허용|항상 허용|승인|로그인)$/i.test(name(e))))return out({error:'PROTECTED_CONTROL'});
 const ed=[...document.querySelectorAll('[role=textbox]')].filter(e=>vis(e)&&e.isContentEditable);
 if(ed.length!==1)return out({error:'EDITOR_UNAVAILABLE'});
-if(!/Work/i.test(ed[0].getAttribute('aria-label')||'')){
- const choices=buttons.filter(e=>/^Work$/i.test(name(e))||/^Work$/i.test(norm(e.innerText)));
- const chat=buttons.filter(e=>/^Chat$/i.test(name(e)));
- const opt=choices.length===1?choices[0]:chat.length===1?chat[0]:null;
- if(!opt)return out({error:'WORK_MODE_CONTROL_UNAVAILABLE'});
+const editorLabel=ed[0].getAttribute('aria-label')||'';
+const current=/Work/i.test(editorLabel)?'Work':/^(?:ChatGPT에게 물어보세요|Message ChatGPT|Ask (?:ChatGPT|anything)|메시지 입력|Send a message)/i.test(editorLabel)?'Chat':null;
+const wanted=a.mode||'Work';
+if(!current)return out({error:'EDITOR_MODE_UNKNOWN'});
+if(current!==wanted){
+ const choices=buttons.filter(e=>name(e)===wanted||norm(e.innerText)===wanted);
+ const opt=choices.length===1?choices[0]:null;
+ if(!opt)return out({error:'MODE_CONTROL_UNAVAILABLE'});
  opt.scrollIntoView({block:'nearest'});const r=opt.getBoundingClientRect(),hit=document.elementFromPoint(r.x+r.width/2,r.y+r.height/2);
  if(!hit||!(hit===opt||opt.contains(hit)))return out({error:'MODE_CONTROL_OBSCURED'});
  opt.click();return out({mode_selected:true});
@@ -184,6 +237,8 @@ def bind(config, store, item, record, obs):
     new_url=obs['url']
     s.check(THREAD.fullmatch(new_url) and new_url!=record['old_url'] and
             (obs.get('lastUser') or '').startswith(record['source_marker']+' '+record['marker']), 'RECEIPT_NOT_VISIBLE')
+    if config.get('assignment_mode')=='Chat':
+        s.check((obs.get('worker_model') or {}).get('mode')=='Chat','CHAT_MODE_REQUIRED')
     for _ in range(3):
         snap=store.refresh()
         receipt=snap.read(record['remote'])
@@ -197,11 +252,17 @@ def bind(config, store, item, record, obs):
         binding.update(conversation_id=cid,url=new_url,replaced_url=record['old_url'],verified=True,verified_at=s.iso(),
                        handoff_assignment_id=active['assignment_id'],status=obs.get('status'),title=obs.get('title'))
         bindings['updated_at']=s.iso()
-        active.update(conversation_hash=s.digest(cid),delivery_status='SENT_VERIFIED')
+        if record['reason']!='USE_OPEN_CHAT' or record['completed']:
+            active.update(conversation_hash=s.digest(cid),delivery_status='SENT_VERIFIED')
         receipt.update(status='REBOUND',new_url=new_url,verified_at=s.iso(),
                        completed=record['completed'],prompt_sha256=s.digest(record['prompt']))
         changes={config['bindings_path']:bindings,'status/active/'+item['worker']+'.json':active,
                  'status/claims/'+active['assignment_id']+'.json':active,record['remote']:receipt}
+        if record['reason']=='USE_OPEN_CHAT' and not record['completed']:
+            old={**active,'status':'FINISHING_IN_PREVIOUS_CONVERSATION','previous_url':record['old_url']}
+            changes.update({'status/active/'+item['worker']+'.json':None,
+                            'status/claims/'+active['assignment_id']+'.json':old,
+                            'status/draining/'+active['assignment_id']+'.json':old})
         try:
             store.publish(snap.sha,changes,'Bind replacement worker '+item['worker'],rebind=True)
             return
@@ -228,6 +289,7 @@ def advance(config,store,item,row,path):
         path.replace(path.with_name('finished-'+s.digest(rec['marker'])[:20]+'.json'))
         return 'REBOUND'
     if obs['url']==rec['old_url']:
+        s.check(not config.get('use_open_panel_only'),'KEEP_CURRENT_PANEL')
         if not eligible_now(obs,rec):
             healed = (state is None and (obs.get('dom_stop_visible') or
                       (obs.get('status') in ('READY','IDLE') and not normalized(obs.get('composer_text')))))
@@ -258,7 +320,7 @@ def advance(config,store,item,row,path):
     snap=store.refresh()
     active, job, _=verify_claim(snap,config,item,rec['old_url'])
     s.check(active['assignment_id']==rec['assignment_id'],'ASSIGNMENT_CHANGED')
-    if not rec['completed'] and s.completed(snap,job,active):
+    if rec['reason']!='USE_OPEN_CHAT' and not rec['completed'] and s.completed(snap,job,active):
         if draft:
             r.clear_known_draft(item,obs,rec['prompt'])
         rec['completed']=True
@@ -268,14 +330,15 @@ def advance(config,store,item,row,path):
     check_controls(config)
     if rec['phase']!='TYPED' or draft!=normalized(rec['prompt']):
         save(path,rec,'HOME')
-        args=json.dumps(dict(url=HOME,prompt=rec['prompt']),ensure_ascii=True)
+        args=json.dumps(dict(url=HOME,prompt=rec['prompt'],mode=config.get('assignment_mode','Work')),ensure_ascii=True)
         result=verified_draft.evaluate(target,HOME_JS.replace('__ARGS__',args))
         s.check(not result.get('error'),result.get('error','HOME_PREPARATION_FAILED'))
         if result.get('typed'):
             save(path,rec,'TYPED')
-        return 'DRAFT_READY' if result.get('typed') else 'SELECTING_WORK_MODE'
+        return 'DRAFT_READY' if result.get('typed') else 'SELECTING_REQUIRED_MODE'
     save(path,rec,'CLICK_INTENT')
-    args=json.dumps(dict(url=HOME,text=rec['prompt'],marker=rec['prompt'].splitlines()[0]),ensure_ascii=True)
+    args=json.dumps(dict(url=HOME,text=rec['prompt'],marker=rec['prompt'].splitlines()[0],
+                         chatOnly=config.get('assignment_mode')=='Chat'),ensure_ascii=True)
     result=verified_draft.evaluate(target,verified_draft.JS.replace('__ARGS__',args))
     if result.get('error'):
         # Every explicit JS error is emitted before the click. Transport exceptions keep CLICK_INTENT.
@@ -294,7 +357,7 @@ def run(config,store):
     result={}
     for item in config['workers']:
         worker=item['worker'];path=journal(config,worker);row=rows.get(item['panel_id'],{})
-        if not item.get('enabled') or (not path.exists() and not f.reason(row)):
+        if not item.get('enabled') or (not path.exists() and not route_reason(config,row)):
             continue
         try:
             with store.lock():

@@ -31,6 +31,9 @@ class Overlay:
 
 def prepare(config, snapshot, report, health):
     view, results, pending = Overlay(snapshot), {}, {}
+    if config.get('assignment_mode')=='Chat':
+        import worker_handoff as handoff
+        view.apply(handoff.finish_draining(snapshot,config))
     for worker in config['workers']:
         if not worker.get('enabled'):
             continue
@@ -40,7 +43,7 @@ def prepare(config, snapshot, report, health):
             panel = next((p for p in report.get('panels', []) if p.get('panel_id') == worker['panel_id']), {})
             if config.get('handoff_run'):
                 import worker_handoff as handoff
-                if handoff.journal(config, ident).exists() or (active and handoff.f.reason(panel)):
+                if handoff.journal(config, ident).exists() or (active and handoff.route_reason(config,panel)):
                     results[ident] = {'worker': ident, 'status': 'HANDOFF_PENDING', 'sent': False}
                     continue
             view.apply(recovery.acknowledge(view, active, panel))
