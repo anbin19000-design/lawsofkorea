@@ -30,7 +30,20 @@
   },
   "assistant_count": 15,
   "assistant_excerpt": "4f4194db0bb2ef63a19fd233ccad73662b8\n\n\n\n\nB1 초기 4행\n\n\t\n\nc7afa3567bf364f8a0717572b80011e825be96c1\n\n\n\n\nB1 제2조\n\n\t\n\nc8b396f5f480b023032e882abdff89671360d7b0\n\n\n\n\nB1 제4조\n\n\t\n\n6da3d8c3f9ecc3d74cc8ea874822cbde4177146b\n\n\n\n\nB1 제8조\n\n\t\n\n0b5e281fc78ce59a8a036a2b00bf649766b17616\n\n\n\n\nB1 제9조의2·11조\n\n\t\n\n2b567b90c90fcf4c43de8bb7ad640c3e1bd3164f\n\n\n\n\nB1 제12·14조\n\n\t\n\n4d1945e578c8ffea66f81f347a757ff514c856dc\n\n각 신규 파일은 저장 직후 개별 재조회에 성공했습니다. 마지막 B1 제12·14조 저장에서는 409 충돌이 발생했지만, 원본 SHA 불변과 대상 경로 부재를 확인한 후 허용된 1회 재저장에 성공했습니다.\n\n4. 검수 상태 및 다음 범위\n\n이번 회차의 마지막 저장 파일은 B1-00017-00019-R9.json이며, 다음 순차 행은 **B1-zh-00020**입니다. 아직 B1 앞부분의 일부 행과 B2 시행령 전체에 대한 정밀 대조도 남아 있습니다.\n\n누적 294행은 개별 저장 성공 건수의 합계입니다. 마지막 전체 파일 통합 재조회는 도구 호출 한도에 도달하여 수행하지 못했으므로, 24개 중간 파일과 고유 행 ID 294개에 대한 최종 통합 검증까지 성공했다고 보고하지는 않습니다.\n\n전체 17개 문서·중국어 1,133행의 검수는 미완료입니다. 최종 review/zh와 receipts 파일은 생성하지 않았으며 운영 DB도 변경하지 않았습니다.\n\nC02는 동일 Job ID의 IN_PROGRESS 상태를 유지합니다.",
+  "attempted_at": "2026-11-07T21:03:17.476425+00:00",
   "created_at": "2026-11-07T21:03:08.802375+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+    "attempted_at": "2026-11-07T21:03:17.476425+00:00",
+    "claim_commit": "d76d90456da1090bc8962719e517655ca3b95fe0",
+    "event_id": "obs-302fbcf0818a71bc79de8fa2a2ea4da9c090e28d",
+    "job_id": "F-81e30c25fcbea5af2364",
+    "record_path": "status/delivery/recovery-S2-ae8f8a85c5ace955ac8120fa9a6c7730.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C02"
+  },
   "episode": 10,
   "event_id": "obs-302fbcf0818a71bc79de8fa2a2ea4da9c090e28d",
   "job_id": "F-81e30c25fcbea5af2364",
@@ -591,7 +604,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-62b55953cab574dbbd0303b6]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "9e4e4c81b945033dc96b84aa218b5eb1d484e885",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef6c60-9e78-83ee-8cce-939d00e6c476",
   "worker": "C02"
 }
