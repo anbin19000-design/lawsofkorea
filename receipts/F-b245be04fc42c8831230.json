@@ -1,0 +1,8 @@
+{
+  "job_id": "F-b245be04fc42c8831230",
+  "worker": "C03",
+  "checked_rows": 1126,
+  "corrected_rows": 542,
+  "status": "COMPLETE",
+  "note": "Reviewed all 1,126 Chinese rows across the complete 24-document family against the authoritative Korean source. Corrected 542 unique source-row IDs in review/zh. The supplied Korean family source remains unchanged from the supplied base commit. Consulted exact-version official English source documents for the Act and Enforcement Decree, the linked reviewed/en source for the Enforcement Rule and forms, and targeted meaning/pairs references for fragmented or contaminated rows. The English coverage metadata indicates 914 packet-reference rows and 212 rows without row-level English; the latter were checked directly against Korean source context. Repaired residual Korean text, MTQ and START artifacts, mistranslated legal titles/references, table-cell alignment, and appendix text accidentally appended to body rows. Review storage is separate from operational database application."
+}
