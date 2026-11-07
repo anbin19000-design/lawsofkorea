@@ -1,0 +1,436 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B1-01.json",
+      "blob_sha": "69fcf795c9621b125ae73864793ee4064bd4b815",
+      "document_key": "B1",
+      "rows_checked": 145,
+      "rows_corrected": 26
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "blob_sha": "aeba15bca83d7887b5e9f7ce393fba770a9b5faa",
+      "verified_rows": 12,
+      "documents": [
+        "A30118",
+        "A30120"
+      ]
+    },
+    {
+      "path": "status/delivery/verified-step-S2-86af8794991369270a0d3bd696fb65c5-C04-CHECKPOINT-166-01.json",
+      "blob_sha": "33003dbd344370d5b2cf92bb05838b92b144a7ba",
+      "status": "INTENT_NO_RESEND"
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-01.json",
+      "blob_sha": "5f92fef46a104d832b4e6944e94ab8ba7257dda1",
+      "document_key": "B2",
+      "rows_checked": 36,
+      "rows_corrected": 31
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00037-00044.json",
+      "blob_sha": "31d1e93b2b7bc2aab9430a0d4b201c246301d1c5",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00045-00052.json",
+      "blob_sha": "be37a2f05e6c47bf33ec4ea58b1d6163df4b96a1",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00053-00060.json",
+      "blob_sha": "385725a9ff5c6f74e8cb723a6fc91fbcf072d639",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00061-00072.json",
+      "blob_sha": "4573174026ca13b9d49225d71e76f10c6ab2d76f",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00073-00084.json",
+      "blob_sha": "eb20464990f1e23042b03e95a20ed243fed5c555",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00085-00104.json",
+      "blob_sha": "30ba440fd5a8c3e355e8e79c418c6c9b7adcaa9f",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00105-00124.json",
+      "blob_sha": "3fe79039feaa1febde3bcd60b4397e5a52301b9e",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00125-00144.json",
+      "blob_sha": "3fe9aed92331bbf966efeff025964f461a605d6b",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00145-00164.json",
+      "blob_sha": "ab61b90a9bc19864b55a54b55cce703f9cb22470",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 12
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00165-00184.json",
+      "blob_sha": "68f3e74081cab6a1e84a178d3404ae96facceabe",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00185-00204.json",
+      "blob_sha": "81c7f57799a8550b49975c68793c0c3de622e902",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00205-00208.json",
+      "blob_sha": "feda2b38822c3429ef5493d37b044d1e5ef9ff86",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00209-00212.json",
+      "blob_sha": "08cb0522bc3ceae21d3d76fb56b95152a08fc246",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00213-00223.json",
+      "blob_sha": "a7fecc1db30a21c0677eaf0e6696e8267404fdbd",
+      "document_key": "B2",
+      "rows_checked": 11,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00224-00224.json",
+      "blob_sha": "7ce857683229c544c015843cb5da47ec2c5ea6ed",
+      "document_key": "B2",
+      "rows_checked": 1,
+      "rows_corrected": 1
+    }
+  ],
+  "document": {
+    "key": "B2",
+    "kind": "대통령령",
+    "title": "의무경찰대 설치 및 운영에 관한 법률 시행령",
+    "source_hash": "da345505912da9c84c24a63989aee8605f2465beea1b28313585cd363b8b2504",
+    "rows_checked": 20,
+    "rows_corrected": 11,
+    "document_review_state": "IN_PROGRESS"
+  },
+  "range": {
+    "first_row_id": "B2-zh-00225",
+    "last_row_id": "B2-zh-00244",
+    "verified_row_count": 20
+  },
+  "verified_rows": [
+    {
+      "row_id": "B2-zh-00225",
+      "target_id": "77a5ba7837f1914848064625c6be9ef33ec9d2b92aa02eb1c97c303939c3e9a0",
+      "source_hash": "aa8a56706699cc379aa56b5cba36c278757d8a8ba28e0097448f21922b7b3d6d",
+      "source_ko": "  제24조 중 \"행정자치부령\"을 \"행정안전부령\"으로 한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "  第 24 条中的“行政内政部条例”应改为“内政安全部条例”。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00226",
+      "target_id": "e591aeb34cd61eb4a2bb5a2cba393b121372fd26bf5125787c461c52c6b975ab",
+      "source_hash": "318a554647a85e5951fbae4f71af10b2d1b249b646b93d3aed83c5b1e244fd99",
+      "source_ko": "  별표 1 비고 가목 및 같은 비고 나목 전단 중 \"경찰청장\"을 각각 \"경찰청장 또는 해양경찰청장\"으로 한다.\n\n  별지 제2호의2서식 (3-2쪽) 중 \"경찰청장\"을 \"경찰청장 또는 해양경찰청장\"으로 하고, 같은 서식 (3-3쪽) 중 \"지방경찰청\"을 \"지방경찰청 또는 지방해양경찰청\"으로 한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "  在附表 1 的注释 (a) 和该注释的注释 (b) 的第一部分中，“国家警察厅长官”应改为“国家警察厅长官或韩国海岸警卫队长官”。\n\n  在附件表格 2-2（第 3-2 页）中，将“国家警察厅长官”改为“国家警察厅长官或韩国海岸警卫队长官”，并在同一表格（第 3-3 页）中，将“地方警察厅”改为“地方警察厅或地方海岸警卫队”。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00227",
+      "target_id": "fd18132e3c1786da6a3276c7075e4a3fa961d3ed6dee08fa9e9347b8362fda87",
+      "source_hash": "b0702a473fc35ce2851915940dc68771636dc2eb964664f0f6e231243aaa8776",
+      "source_ko": "  별지 제3호서식 중 \"국민안전처장관 또는 경찰청장\"을 \"경찰청장 또는 해양경찰청장\"으로 한다.\n\n  <18>부터 <20>까지 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "  在附件表格第 3 号中，“公安保部长或国家警察厅长官”应改为“国家警察厅长官或韩国海岸警卫队长官”。\n\n  <18> 至 <20> 已省略\n\n"
+    },
+    {
+      "row_id": "B2-zh-00228",
+      "target_id": "fe9b4daf7a0a8c64b47addb1a92f76290c74a1ab665022f4abad6220722dda54",
+      "source_hash": "2dc415a2a7760d8016cff45e69e4c17d40c17a4072f3a469a809e4b9e7387e81",
+      "source_ko": "부칙(경찰청과 그 소속기관 직제) <제28760호,2018.3.30>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "增编（国家警察厅及其附属机构的组织结构）<第28760号，2018年3月30日>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00229",
+      "target_id": "be0085525eccbe0d049532f754573ebf01cdf7541c41a9aee8df1f97e60adbcc",
+      "source_hash": "7e5f07ffff6aef2f2136019cfb5263979ba5a34dacd8394c05b2d3c719360d57",
+      "source_ko": "제1조(시행일) 이 영은 공포한 날부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自公布之日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00230",
+      "target_id": "85d69dc6c210436875e116efde140715e5a93aa35d05a2351397270f49c2b1dc",
+      "source_hash": "85360a3ca0fd0e0672be0ca873cc81e4d3d907e86800628910e875201ed0cb0d",
+      "source_ko": "제2조(다른 법령의 개정) ①부터 ⑥까지 생략\n\n  ⑦ 의무경찰대 설치 및 운영에 관한 법률 시행령 일부를 다음과 같이 개정한다.\n\n  제2조제2호 및 같은 조 제3호가목 중 \"경찰교육원\"을 각각 \"경찰인재개발원\"으로 한다.\n\n  제3조제1항 중 \"경찰교육원\"을 \"경찰인재개발원\"으로 한다.\n\n  ⑧ 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第二条（修改其他法律）①至⑥ 省略\n\n  7. 对《关于设立和运作义务警察部队的法律》实施细则的部分内容修改如下。\n\n  在第二条第二款和第三款（甲）项中，“警察训练学院”应改为“警察人力资源开发学院”。\n\n  第三条第一款中的“警察训练学院”应改为“警察人力资源开发学院”。\n\n  ⑧ 省略\n\n"
+    },
+    {
+      "row_id": "B2-zh-00231",
+      "target_id": "720d0b1310fba262475664f30b855f7b286f45ea5cf98a9ca87d982f5ed1250c",
+      "source_hash": "b7d10392162c82ee69b83277e126e1acf840626127ab845c7c211ef702a24f8e",
+      "source_ko": "부칙(주민등록표 등본ㆍ초본 제출요구 감축을 위한 간선급행버스체계의 건설 및 운영에 관한 특별법 시행령 등 7개 대통령령 일부개정령) <제29194호,2018.9.28>\n\n이 영은 공포한 날부터 시행한다. <단서 생략>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "增编（对7项总统令的部分修订，包括《快速公交系统建设和运营特别法》实施令，以减少提交居民登记记录认证副本和摘要的要求）<2018年9月28日，第29194号>\n\n本法令自颁布之日起生效。<但书略>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00232",
+      "target_id": "5f871b760b74339ca63cdc1ff885bf110fb705667c52df73f4aa979b8e7ef7d6",
+      "source_hash": "0696216ba766e3cee81d374554619b11f873528a5794e6d672e70291d82c91c5",
+      "source_ko": "부칙 <제29486호,2019.1.15>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "补充规定 <第29486号，2019年1月15日>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00233",
+      "target_id": "48de4089985b4c59e9346a1745e1999baac8e4cc42d1efb8fd2cb92e3aa4695e",
+      "source_hash": "7e5f07ffff6aef2f2136019cfb5263979ba5a34dacd8394c05b2d3c719360d57",
+      "source_ko": "제1조(시행일) 이 영은 공포한 날부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自公布之日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00234",
+      "target_id": "fa8df6915733554a8bbf715111929b7875395c4cba3fd16d2e46c62c5761a073",
+      "source_hash": "4243b65ab3e83aec713b58a9ccf444f87b2da27f5bccaef82b02872af6e8071b",
+      "source_ko": "제2조(중앙심사위원회의 재심사에 관한 적용례) 제36조의4제1항의 개정규정은 이 영 시행 이후 보통심사위원회의 심사가 종료된 후 결정서가 통지되는 안건부터 적용한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第 2 条（适用于中央审查委员会的复审）第 36-4 条第 1 款的修订规定适用于本法令实施后，普通审查委员会审查完毕并作出决定的案件。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00235",
+      "target_id": "acf160c0d4787350590eb785e01a39c72f2a7d6bd22f551735d717d804969e1d",
+      "source_hash": "0b227a0297899cabc292ad7a5c0e0a37d4875b503642b2dd69d6ff8bc1f49e81",
+      "source_ko": "제3조(종전의 전ㆍ공사상심사위원회에 계속 중인 안건에 관한 경과조치) 이 영 시행 당시 종전의 제36조의2에 따른 전ㆍ공사상심사위원회에 계속 중인 안건은 제36조의2제1항의 개정규정에 따른 보통심사위원회에 계속 중인 것으로 본다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第三条（关于原战争和公务伤害审查委员会待审案件的过渡措施）本法令生效时，根据原条第三十六条之二的规定，原战争和公务伤害审查委员会待审的案件，应视为根据第三十六条之二第一款的修正规定，由普通审查委员会待审。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00236",
+      "target_id": "22fe3261b1c6f329d6963b03250fad01e6e9ecaf9d4da3523f0e9f73c5ee8475",
+      "source_hash": "1bb9713c9a99ba33453f1a043935944138008131a6716cb9796d12ed6a168a84",
+      "source_ko": "부칙 <제30055호,2019.8.27>\n\n이 영은 2019년 9월 1일부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "补充规定 <第30055号，2019年8月27日>\n\n本法令自2019年9月1日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00237",
+      "target_id": "9c167ef4440f8653bcfe43c913852dd66dc6306121eb8aecfc46ba9fe1bf36c9",
+      "source_hash": "671846f21e7ac8f3326320c074739860041c8aee4ca3ba94f1bcc7bb94f8c49d",
+      "source_ko": "부칙(군인 재해보상법 시행령) <제30760호,2020.6.9>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "补充规定（《军事人员事故赔偿法》实施细则）<第30760号，2020年6月9日>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00238",
+      "target_id": "6a7e67a5c316c606881ad428cbcb1571edd4b6863868afe1bd4ba97ece16e364",
+      "source_hash": "57bbe42ff09997b339dc9b4fc0eb76a633b4f0a6e735b2e5d29116175937c588",
+      "source_ko": "제1조(시행일) 이 영은 2020년 6월 11일부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自2020年6月11日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00239",
+      "target_id": "74adde7fdc3a0efd5c492eb5c7f4ef6e2f1a70cb653623956a4ceabdd72d590e",
+      "source_hash": "ce3a74f7ecf254433f677a2b0977dfbdc06b40b8f6c872b14e55c365032afe96",
+      "source_ko": "제2조 부터 제11조까지 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "省略第2条至第11条\n\n"
+    },
+    {
+      "row_id": "B2-zh-00240",
+      "target_id": "690ccfb7e07309da1f8fc6d31e05dddc03608817bfa7b5e4c000731beb723f0e",
+      "source_hash": "eb2f526be9eca4f27883b44cbc600b915559b85993a84259453601c60b083304",
+      "source_ko": "제12조(다른 법령의 개정) ①부터 <23>까지 생략\n\n  <24> 의무경찰대 설치 및 운영에 관한 법률 시행령 일부를 다음과 같이 개정한다.\n\n  제49조제1항 후단 중 \"「군인연금법」 제31조제2항 및 제3항\"을 \"「군인 재해보상법」 제39조제2항\"으로 한다.\n\n  <25>부터 <36>까지 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第十二条（修改其他法律）①至<23>款已省略\n\n  <24> 《关于设立和运作义务警察部队的法律实施细则》部分内容修改如下。\n\n  在第 49 条第 1 款的后半部分，“军人养老金法第 31 条第 2 款和第 3 款”应改为“军人事故补偿法第 39 条第 2 款”。\n\n  <25> 至 <36> 已省略\n\n"
+    },
+    {
+      "row_id": "B2-zh-00241",
+      "target_id": "d0a1a59b5b67a0a5b1b05229478c30c8cff47ac06e92e0a061bd9a7dc4b330a8",
+      "source_hash": "1e50acaa6fc06e27e00411871ae3dc1d4ca81a381f767ea34e1aa93850c8a758",
+      "source_ko": "제13조 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第13条省略\n\n"
+    },
+    {
+      "row_id": "B2-zh-00242",
+      "target_id": "b8ae3679223969a5465c44a8f5018923ad85a462d94fa9e8928abdca9069643f",
+      "source_hash": "0d69ee1f9730a8f8de3f16be4014e2845571eb963564c285e068e9f7304b84a7",
+      "source_ko": "부칙(해양경찰청 소속 경찰공무원 임용에 관한 규정) <제30800호,2020.6.23>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "补充规定（韩国海警警官任命条例）<2020年6月23日第30800号>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00243",
+      "target_id": "079cef2bca8973c1f25b7bcfa8915c0cdc1a41dad1923840635817e5f240f65c",
+      "source_hash": "7d7075d3fab665cdbaac560b14335b0ee552583c1a51db7e92e263494f72f34f",
+      "source_ko": "제1조(시행일) 이 영은 공포한 날부터 시행한다. <단서 생략>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自公布之日起生效。<但书略>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00244",
+      "target_id": "3fe1ff1f3599a80770c6f1871e43362b66601c6078889210813456e3ebde3eb3",
+      "source_hash": "9c668f5a2d31a12403cc16a9e4f5410caea7fad78df52e49a6877577af85a298",
+      "source_ko": "제2조 부터 제8조까지 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "省略第2条至第8条\n\n"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "B2-zh-00225",
+      "target_id": "77a5ba7837f1914848064625c6be9ef33ec9d2b92aa02eb1c97c303939c3e9a0",
+      "source_hash": "aa8a56706699cc379aa56b5cba36c278757d8a8ba28e0097448f21922b7b3d6d",
+      "source_ko": "  제24조 중 \"행정자치부령\"을 \"행정안전부령\"으로 한다.\n\n",
+      "previous_zh": "  第 24 条中的“行政内政部条例”应改为“内政安全部条例”。\n\n",
+      "corrected_zh": "  第二十四条中的“行政自治部令”改为“行政安全部令”。\n\n",
+      "reason": "법령명·부속 서식/별표 인용·인사권자 및 재심사 적용요건의 누락·오역을 원문 기준 교정."
+    },
+    {
+      "row_id": "B2-zh-00226",
+      "target_id": "e591aeb34cd61eb4a2bb5a2cba393b121372fd26bf5125787c461c52c6b975ab",
+      "source_hash": "318a554647a85e5951fbae4f71af10b2d1b249b646b93d3aed83c5b1e244fd99",
+      "source_ko": "  별표 1 비고 가목 및 같은 비고 나목 전단 중 \"경찰청장\"을 각각 \"경찰청장 또는 해양경찰청장\"으로 한다.\n\n  별지 제2호의2서식 (3-2쪽) 중 \"경찰청장\"을 \"경찰청장 또는 해양경찰청장\"으로 하고, 같은 서식 (3-3쪽) 중 \"지방경찰청\"을 \"지방경찰청 또는 지방해양경찰청\"으로 한다.\n\n",
+      "previous_zh": "  在附表 1 的注释 (a) 和该注释的注释 (b) 的第一部分中，“国家警察厅长官”应改为“国家警察厅长官或韩国海岸警卫队长官”。\n\n  在附件表格 2-2（第 3-2 页）中，将“国家警察厅长官”改为“国家警察厅长官或韩国海岸警卫队长官”，并在同一表格（第 3-3 页）中，将“地方警察厅”改为“地方警察厅或地方海岸警卫队”。\n\n",
+      "corrected_zh": "  附表一备注甲目及同一备注乙目前段中的“警察厅厅长”分别改为“警察厅厅长或海洋警察厅厅长”。\n\n  附件第二号之二格式（第3-2页）中的“警察厅厅长”改为“警察厅厅长或海洋警察厅厅长”；同一格式（第3-3页）中的“地方警察厅”改为“地方警察厅或地方海洋警察厅”。\n\n",
+      "reason": "법령명·부속 서식/별표 인용·인사권자 및 재심사 적용요건의 누락·오역을 원문 기준 교정."
+    },
+    {
+      "row_id": "B2-zh-00227",
+      "target_id": "fd18132e3c1786da6a3276c7075e4a3fa961d3ed6dee08fa9e9347b8362fda87",
+      "source_hash": "b0702a473fc35ce2851915940dc68771636dc2eb964664f0f6e231243aaa8776",
+      "source_ko": "  별지 제3호서식 중 \"국민안전처장관 또는 경찰청장\"을 \"경찰청장 또는 해양경찰청장\"으로 한다.\n\n  <18>부터 <20>까지 생략\n\n",
+      "previous_zh": "  在附件表格第 3 号中，“公安保部长或国家警察厅长官”应改为“国家警察厅长官或韩国海岸警卫队长官”。\n\n  <18> 至 <20> 已省略\n\n",
+      "corrected_zh": "  附件第三号格式中的“国民安全处长官或警察厅厅长”改为“警察厅厅长或海洋警察厅厅长”。\n\n  <18>至<20>省略。\n\n",
+      "reason": "법령명·부속 서식/별표 인용·인사권자 및 재심사 적용요건의 누락·오역을 원문 기준 교정."
+    },
+    {
+      "row_id": "B2-zh-00228",
+      "target_id": "fe9b4daf7a0a8c64b47addb1a92f76290c74a1ab665022f4abad6220722dda54",
+      "source_hash": "2dc415a2a7760d8016cff45e69e4c17d40c17a4072f3a469a809e4b9e7387e81",
+      "source_ko": "부칙(경찰청과 그 소속기관 직제) <제28760호,2018.3.30>\n\n",
+      "previous_zh": "增编（国家警察厅及其附属机构的组织结构）<第28760号，2018年3月30日>\n\n",
+      "corrected_zh": "附则（《警察厅及其所属机关职制》）<第28760号，2018年3月30日>\n\n",
+      "reason": "법령명·부속 서식/별표 인용·인사권자 및 재심사 적용요건의 누락·오역을 원문 기준 교정."
+    },
+    {
+      "row_id": "B2-zh-00230",
+      "target_id": "85d69dc6c210436875e116efde140715e5a93aa35d05a2351397270f49c2b1dc",
+      "source_hash": "85360a3ca0fd0e0672be0ca873cc81e4d3d907e86800628910e875201ed0cb0d",
+      "source_ko": "제2조(다른 법령의 개정) ①부터 ⑥까지 생략\n\n  ⑦ 의무경찰대 설치 및 운영에 관한 법률 시행령 일부를 다음과 같이 개정한다.\n\n  제2조제2호 및 같은 조 제3호가목 중 \"경찰교육원\"을 각각 \"경찰인재개발원\"으로 한다.\n\n  제3조제1항 중 \"경찰교육원\"을 \"경찰인재개발원\"으로 한다.\n\n  ⑧ 생략\n\n",
+      "previous_zh": "第二条（修改其他法律）①至⑥ 省略\n\n  7. 对《关于设立和运作义务警察部队的法律》实施细则的部分内容修改如下。\n\n  在第二条第二款和第三款（甲）项中，“警察训练学院”应改为“警察人力资源开发学院”。\n\n  第三条第一款中的“警察训练学院”应改为“警察人力资源开发学院”。\n\n  ⑧ 省略\n\n",
+      "corrected_zh": "第二条（其他法令的修订）①至⑥省略。\n\n  ⑦ 《义务警察部队设立及运营法施行令》作如下部分修订。\n\n  第二条第二项及同条第三项甲目中的“警察教育院”分别改为“警察人才开发院”。\n\n  第三条第一款中的“警察教育院”改为“警察人才开发院”。\n\n  ⑧省略。\n\n",
+      "reason": "법령명·부속 서식/별표 인용·인사권자 및 재심사 적용요건의 누락·오역을 원문 기준 교정."
+    },
+    {
+      "row_id": "B2-zh-00231",
+      "target_id": "720d0b1310fba262475664f30b855f7b286f45ea5cf98a9ca87d982f5ed1250c",
+      "source_hash": "b7d10392162c82ee69b83277e126e1acf840626127ab845c7c211ef702a24f8e",
+      "source_ko": "부칙(주민등록표 등본ㆍ초본 제출요구 감축을 위한 간선급행버스체계의 건설 및 운영에 관한 특별법 시행령 등 7개 대통령령 일부개정령) <제29194호,2018.9.28>\n\n이 영은 공포한 날부터 시행한다. <단서 생략>\n\n",
+      "previous_zh": "增编（对7项总统令的部分修订，包括《快速公交系统建设和运营特别法》实施令，以减少提交居民登记记录认证副本和摘要的要求）<2018年9月28日，第29194号>\n\n本法令自颁布之日起生效。<但书略>\n\n",
+      "corrected_zh": "附则（为减少要求提交居民登记表誊本及摘录本而对《关于建设及运营干线快速公交系统的特别法施行令》等七项总统令作出部分修订的命令）<第29194号，2018年9月28日>\n\n本施行令自公布之日起施行。<但书省略>\n\n",
+      "reason": "법령명·부속 서식/별표 인용·인사권자 및 재심사 적용요건의 누락·오역을 원문 기준 교정."
+    },
+    {
+      "row_id": "B2-zh-00234",
+      "target_id": "fa8df6915733554a8bbf715111929b7875395c4cba3fd16d2e46c62c5761a073",
+      "source_hash": "4243b65ab3e83aec713b58a9ccf444f87b2da27f5bccaef82b02872af6e8071b",
+      "source_ko": "제2조(중앙심사위원회의 재심사에 관한 적용례) 제36조의4제1항의 개정규정은 이 영 시행 이후 보통심사위원회의 심사가 종료된 후 결정서가 통지되는 안건부터 적용한다.\n\n",
+      "previous_zh": "第 2 条（适用于中央审查委员会的复审）第 36-4 条第 1 款的修订规定适用于本法令实施后，普通审查委员会审查完毕并作出决定的案件。\n\n",
+      "corrected_zh": "第二条（中央审查委员会重新审查的适用例）第三十六条之四第一款的修订规定，自本施行令施行后普通审查委员会结束审查且决定书已经通知的案件起适用。\n\n",
+      "reason": "법령명·부속 서식/별표 인용·인사권자 및 재심사 적용요건의 누락·오역을 원문 기준 교정."
+    },
+    {
+      "row_id": "B2-zh-00235",
+      "target_id": "acf160c0d4787350590eb785e01a39c72f2a7d6bd22f551735d717d804969e1d",
+      "source_hash": "0b227a0297899cabc292ad7a5c0e0a37d4875b503642b2dd69d6ff8bc1f49e81",
+      "source_ko": "제3조(종전의 전ㆍ공사상심사위원회에 계속 중인 안건에 관한 경과조치) 이 영 시행 당시 종전의 제36조의2에 따른 전ㆍ공사상심사위원회에 계속 중인 안건은 제36조의2제1항의 개정규정에 따른 보통심사위원회에 계속 중인 것으로 본다.\n\n",
+      "previous_zh": "第三条（关于原战争和公务伤害审查委员会待审案件的过渡措施）本法令生效时，根据原条第三十六条之二的规定，原战争和公务伤害审查委员会待审的案件，应视为根据第三十六条之二第一款的修正规定，由普通审查委员会待审。\n\n",
+      "corrected_zh": "第三条（关于原战斗及公务伤亡审查委员会审查中案件的过渡措施）本施行令施行时原第三十六条之二规定的战斗及公务伤亡审查委员会尚在审查的案件，视为第三十六条之二第一款修订规定所设普通审查委员会尚在审查的案件。\n\n",
+      "reason": "법령명·부속 서식/별표 인용·인사권자 및 재심사 적용요건의 누락·오역을 원문 기준 교정."
+    },
+    {
+      "row_id": "B2-zh-00237",
+      "target_id": "9c167ef4440f8653bcfe43c913852dd66dc6306121eb8aecfc46ba9fe1bf36c9",
+      "source_hash": "671846f21e7ac8f3326320c074739860041c8aee4ca3ba94f1bcc7bb94f8c49d",
+      "source_ko": "부칙(군인 재해보상법 시행령) <제30760호,2020.6.9>\n\n",
+      "previous_zh": "补充规定（《军事人员事故赔偿法》实施细则）<第30760号，2020年6月9日>\n\n",
+      "corrected_zh": "附则（《军人灾害补偿法施行令》）<第30760号，2020年6月9日>\n\n",
+      "reason": "법령명·부속 서식/별표 인용·인사권자 및 재심사 적용요건의 누락·오역을 원문 기준 교정."
+    },
+    {
+      "row_id": "B2-zh-00240",
+      "target_id": "690ccfb7e07309da1f8fc6d31e05dddc03608817bfa7b5e4c000731beb723f0e",
+      "source_hash": "eb2f526be9eca4f27883b44cbc600b915559b85993a84259453601c60b083304",
+      "source_ko": "제12조(다른 법령의 개정) ①부터 <23>까지 생략\n\n  <24> 의무경찰대 설치 및 운영에 관한 법률 시행령 일부를 다음과 같이 개정한다.\n\n  제49조제1항 후단 중 \"「군인연금법」 제31조제2항 및 제3항\"을 \"「군인 재해보상법」 제39조제2항\"으로 한다.\n\n  <25>부터 <36>까지 생략\n\n",
+      "previous_zh": "第十二条（修改其他法律）①至<23>款已省略\n\n  <24> 《关于设立和运作义务警察部队的法律实施细则》部分内容修改如下。\n\n  在第 49 条第 1 款的后半部分，“军人养老金法第 31 条第 2 款和第 3 款”应改为“军人事故补偿法第 39 条第 2 款”。\n\n  <25> 至 <36> 已省略\n\n",
+      "corrected_zh": "第十二条（其他法令的修订）①至<23>省略。\n\n  <24> 《义务警察部队设立及运营法施行令》作如下部分修订。\n\n  第四十九条第一款后段中的“《军人年金法》第三十一条第二款及第三款”改为“《军人灾害补偿法》第三十九条第二款”。\n\n  <25>至<36>省略。\n\n",
+      "reason": "법령명·부속 서식/별표 인용·인사권자 및 재심사 적용요건의 누락·오역을 원문 기준 교정."
+    },
+    {
+      "row_id": "B2-zh-00242",
+      "target_id": "b8ae3679223969a5465c44a8f5018923ad85a462d94fa9e8928abdca9069643f",
+      "source_hash": "0d69ee1f9730a8f8de3f16be4014e2845571eb963564c285e068e9f7304b84a7",
+      "source_ko": "부칙(해양경찰청 소속 경찰공무원 임용에 관한 규정) <제30800호,2020.6.23>\n\n",
+      "previous_zh": "补充规定（韩国海警警官任命条例）<2020年6月23日第30800号>\n\n",
+      "corrected_zh": "附则（《关于任用海洋警察厅所属警察公务员的规定》）<第30800号，2020年6月23日>\n\n",
+      "reason": "법령명·부속 서식/별표 인용·인사권자 및 재심사 적용요건의 누락·오역을 원문 기준 교정."
+    }
+  ],
+  "validation": {
+    "row_ids_unique": true,
+    "source_hashes_match": true,
+    "verified_korean_offsets": true,
+    "no_untranslated_or_mtq_start_markers": true,
+    "english_reference": "documents/en/kr-004766-281729-en.json",
+    "total_cumulative_checked_rows": 401
+  },
+  "next_step": "Continue B2-zh-00245; do not mark complete."
+}
