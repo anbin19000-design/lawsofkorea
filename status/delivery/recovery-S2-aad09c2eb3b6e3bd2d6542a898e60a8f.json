@@ -30,7 +30,20 @@
   },
   "assistant_count": 8,
   "assistant_excerpt": "며, 교정 ID 중복과 빈 교정문은 발견되지 않았습니다.\n\n2. 새 충돌 원인\n\n다음 문서인 A26429 전문연구사업자 신고증 20행을 대조하고 신규 파일 생성을 시도했으나, GitHub가 다음 오류를 반환했습니다.\n\n일반 텍스트\n409 CONFLICT\nis at f315e66bd6adc9769522d0e001834d919de408d6\nbut expected 114fe4cd75b07680ef7aa9fc72be34a947323197\n\n저장 대상:\n\nstatus/delivery/progress-S2-aad09c2eb3b6e3bd2d6542a898e60a8f-A26429-00001-first.json\n\n충돌 후 재조회 결과, 해당 파일은 404 — 존재하지 않음으로 확인됐습니다.\n\n같은 경로로 다시 전송하거나 강제 갱신하지 않았습니다.\n\n3. GitHub 보존 상태\n\n항목\n\n\t\n\n결과\n\n\n\n\n기존 검수 파일\n\n\t\n\n83개 교정 보존\n\n\n\n\n이번 신규 저장\n\n\t\n\n141개 교정\n\n\n\n\n한국어·중국어·영어 원본 SHA\n\n\t\n\n불변\n\n\n\n\nA26429 신규 파일\n\n\t\n\n미생성\n\n\n\n\nCOMPLETE 영수증\n\n\t\n\n미생성\n\n\n\n\n운영 DB\n\n\t\n\n변경 없음\n\n이번 회차의 신규 교정 141행은 저장됐지만, A26429의 교정안은 GitHub에 저장되지 않았습니다.\n\n4. 다음 검수 지점\n\n충돌 해결 후 재개할 지점은 **A26429-zh-00001**입니다. 해당 20행의 신고증 서식을 완료한 뒤 다음 문서 A26430으로 진행해야 합니다.\n\n현재 작업 중단 이유는 명시적인 GitHub 브랜치 HEAD 불일치이며, 권한 또는 원문 변경은 확인되지 않았습니다.\n\nC04 상태: HOLD — 409 충돌. 전체 1,158행의 검수가 끝나지 않았으므로 COMPLETE 또는 READY로 전환하지 않았습니다.",
+  "attempted_at": "2026-11-07T21:28:07.845105+00:00",
   "created_at": "2026-11-07T21:27:59.515378+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-aad09c2eb3b6e3bd2d6542a898e60a8f",
+    "attempted_at": "2026-11-07T21:28:07.845105+00:00",
+    "claim_commit": "2783ae528651eddb95e7a2935aab1cb742aa24b4",
+    "event_id": "obs-4fdc4f39b670c65d2a248a9ba7c498e14e462f7f",
+    "job_id": "F-0c6349d844045c6cc10b",
+    "record_path": "status/delivery/recovery-S2-aad09c2eb3b6e3bd2d6542a898e60a8f.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C04"
+  },
   "episode": 14,
   "event_id": "obs-4fdc4f39b670c65d2a248a9ba7c498e14e462f7f",
   "job_id": "F-0c6349d844045c6cc10b",
@@ -835,7 +848,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-f6f14479c3efd3e9a35803a9]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "08ec9599cfbf323ef73850b538ed6c2a616ae19b",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef7f45-c340-83e8-bed7-2fb0dbdc7078",
   "worker": "C04"
 }
