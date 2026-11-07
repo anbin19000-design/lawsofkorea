@@ -1,26 +1,26 @@
 {
-  "assignment_id": "S2-34f25bf272f06164c71672d3173926b2",
-  "claimed_at": "2026-11-07T06:23:02.113971+00:00",
+  "assignment_id": "S2-a7615febc94674fcf889cd3e1294ba59",
+  "claimed_at": "2026-11-07T06:28:30.440986+00:00",
   "conversation_hash": "a1c95aa54e86d152e070106d9c27b6523c1a1c53da5329d8b01d8ac9eb1acaa5",
-  "delivery_status": "SENT_VERIFIED",
-  "documents": 1,
-  "event_id": "obs-c0051cf629ba5a7b3379ec9855d12d7a5a640a0c",
-  "family_id": "F-049fef00d56c7c960bb3",
-  "job_id": "F-049fef00d56c7c960bb3",
-  "marker": "[LAW-SUPPLY-V2:S2-34f25bf272f06164c71672d3173926b2:C02:F-049fef00d56c7c960bb3]",
+  "delivery_status": "INTENT_RECORDED_NO_RESEND",
+  "documents": 4,
+  "event_id": "obs-8dfb4a0c0cd17024ee61329d264094462c7542be",
+  "family_id": "F-249d53150b998049bfdf",
+  "job_id": "F-249d53150b998049bfdf",
+  "marker": "[LAW-SUPPLY-V2:S2-a7615febc94674fcf889cd3e1294ba59:C02:F-249d53150b998049bfdf]",
   "panel_id": "panel-02",
   "pc": "WORK-C",
-  "rows": 122,
+  "rows": 126,
   "schema": "LAW_SUPPLIER_ASSIGNMENT_V2",
   "source_blobs": {
-    "en": "53c99843d76fd3eee912351175bff41802be3fd1",
-    "ko": "3211b032ece0464f320241898f71f7c9aaccabc8",
-    "zh": "07767adefe09f035c5f7b3e375ff922b5f02aec6"
+    "en": "08112bfb31dfd770af1a521aa9a459e97478971f",
+    "ko": "f055eaeffeeade6a89447f457e49366a7d510a1c",
+    "zh": "a9b98a0209b403414ec55b527f5529d69c433982"
   },
-  "source_commit": "56228cea642f0fc5473409adb4bb025af95f9796",
+  "source_commit": "97768ba20903c68096f28923c99434e9d330079a",
   "status": "ACTIVE",
-  "title": "선박소유자 등의 책임제한절차에 관한 법률",
+  "title": "한국해양진흥공사법",
   "unit_policy": "ACT_DECREE_RULE_ANNEX_FORMS_ONE_FAMILY",
   "worker": "C02",
-  "write_protocol": "contents-only"
+  "write_protocol": "contents-zh-v2"
 }
