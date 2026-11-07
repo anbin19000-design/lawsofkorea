@@ -30,7 +30,20 @@
   },
   "assistant_count": 8,
   "assistant_excerpt": "C05 배정 확인\n\n법령: 개인정보 보호법\n\nJob ID: F-69d9e2651808803c4773\n\n담당: C05 / panel-05\n\n범위: 8개 문서, 중국어 1,102행\n\n기준 커밋: 2bf6ebdc1974eb43100aa2ab00e7f7e7fd09e094\n\n브랜치: main\n\nC05 패널에서 새 배정 수신을 확인했습니다. 현재 작업 상태는 WORKING입니다.\n\n한국어 원문 대조 → 중국어 최소 교정 → 검수 파일 저장 및 검증 → 완료 영수증 별도 저장 순서로 진행합니다.\n\n아직 검수 완료나 GitHub 저장 완료를 주장하지 않습니다.",
+  "attempted_at": "2026-11-07T17:48:27.019369+00:00",
   "created_at": "2026-11-07T17:48:21.870035+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-b0faf9b54679242ac05de064192ce1ef",
+    "attempted_at": "2026-11-07T17:48:27.019369+00:00",
+    "claim_commit": "48a2b9878f10b3ce2a259c1daf2553c1344ca7ce",
+    "event_id": "obs-465916448dbbe16c00835ec244ef0f53bfc9dcc1",
+    "job_id": "F-69d9e2651808803c4773",
+    "record_path": "status/delivery/recovery-S2-b0faf9b54679242ac05de064192ce1ef.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C05"
+  },
   "episode": 1,
   "event_id": "obs-465916448dbbe16c00835ec244ef0f53bfc9dcc1",
   "job_id": "F-69d9e2651808803c4773",
@@ -41,7 +54,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-317660cd59decd27713ad0c4]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "1e98c915cae8e356bbb0f24c1e69e8ef03d58932",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef63a0-7db4-83ee-8693-2161f508cb26",
   "worker": "C05"
 }
