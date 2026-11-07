@@ -1,0 +1,8 @@
+{
+  "job_id": "F-19b06535c5c77f663850",
+  "worker": "C02",
+  "checked_rows": 560,
+  "corrected_rows": 81,
+  "status": "COMPLETE",
+  "note": "Reviewed all six documents in the Financial Consumer Protection Act family against the Korean source at baseline commit 5fcc79e6a1ae5bb0b426c0b1b902be5aa243bd83. Corrected core statutory terminology and definitions, financial consumer rights and responsibilities, and damaged/mistranslated items in the enforcement decree schedules for supervisory measures and surcharge calculation. Removed malformed residual tokens and repaired statutory references and legal terminology. Verified 560 unique source rows and 81 unique nonempty correction IDs. Original laws/* unchanged; review file verified before separate receipt commit. Operational DB not modified."
+}
