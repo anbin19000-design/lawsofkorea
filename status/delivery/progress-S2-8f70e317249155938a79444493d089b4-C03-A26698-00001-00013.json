@@ -1,0 +1,78 @@
+{
+  "schema": "LAW_ZH_PARTIAL_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26698",
+  "range": {
+    "first": "A26698-zh-00001",
+    "last": "A26698-zh-00013"
+  },
+  "checked_rows": 13,
+  "corrected_rows": 12,
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "edits": [
+    {
+      "id": "A26698-zh-00001",
+      "source_hash": "9631dfd33dd9e7836777b5b0fd7eb09865581e5dc8fa9f3ef87e8dc734c3312a",
+      "text": "■ 《防止人口贩运等及保护受害者等法施行规则》〔附表格式第六号〕"
+    },
+    {
+      "id": "A26698-zh-00002",
+      "source_hash": "4282d527b09947c2ce7f1e309eb8e211fdf649a38a1f6e7e947d74a6ed319cfe",
+      "text": "身份证件签发及管理登记簿"
+    },
+    {
+      "id": "A26698-zh-00003",
+      "source_hash": "f8152b235035198a49b4c419b309a16cb41263ab1292e6cefeaa2debac2abd26",
+      "text": "流水号"
+    },
+    {
+      "id": "A26698-zh-00004",
+      "source_hash": "5aa32deffdf1362feb45b4aaf4a1945b15c91915f96194031e41bc759b5f2f97",
+      "text": "姓名"
+    },
+    {
+      "id": "A26698-zh-00005",
+      "source_hash": "01603d13dd6590d7676446f682aed959803754281fa23ce912d6c1bf93cbcb15",
+      "text": "所属机构"
+    },
+    {
+      "id": "A26698-zh-00006",
+      "source_hash": "530767dfbe357e6a37430d142588dc9618c4198769289889ebe0f39edd096268",
+      "text": "职务（职级）"
+    },
+    {
+      "id": "A26698-zh-00007",
+      "source_hash": "a62558441372a7dfb1ca3fe7e958f0e7ba1ac7185726eb3ef211d056efc9b5a8",
+      "text": "签发日期"
+    },
+    {
+      "id": "A26698-zh-00008",
+      "source_hash": "a7bf7464206d1e8a009c314009762340e847a5215e2692c332d97762fca91d9a",
+      "text": "领证人签名"
+    },
+    {
+      "id": "A26698-zh-00009",
+      "source_hash": "24d26cae5872ac1dd6c815cbc50d27f5a2f6ed96b91bbfc473052f2973ef23b8",
+      "text": "交还日期"
+    },
+    {
+      "id": "A26698-zh-00010",
+      "source_hash": "a7bf7464206d1e8a009c314009762340e847a5215e2692c332d97762fca91d9a",
+      "text": "交还人签名"
+    },
+    {
+      "id": "A26698-zh-00011",
+      "source_hash": "297ad90a569d401098f5e45c00a4029454a4af0b920ff39abaff01fc0a0306dc",
+      "text": "签发经办"
+    },
+    {
+      "id": "A26698-zh-00012",
+      "source_hash": "adb61a29e0e6c6dc763b0032f96c9a72fc62975187c0aa6617e19a47a0959b76",
+      "text": "公务员确认"
+    }
+  ],
+  "note": "Compared all ID issuance management register columns with Korean source: distinguished issuee signature, return date and returnee signature, and issuer official confirmation. Paper dimensions unchanged."
+}
