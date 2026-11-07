@@ -1,0 +1,8 @@
+{
+  "job_id": "F-808418a6cfdf53bd778e",
+  "worker": "C02",
+  "checked_rows": 906,
+  "corrected_rows": 18,
+  "status": "COMPLETE",
+  "note": "Resumed the interrupted review of the complete 17-document family and checked all 906 unique Chinese rows. Corrected eight rows containing residual Korean or material translation errors, nine form processing-period labels carrying MTQ artifacts, and one form attachment row containing a START artifact. The final text after applying edits was checked for remaining Korean, MTQ markers, START tokens and hash-like artifacts; none remain. The Korean source blob on main matches the supplied baseline commit. Review and receipt storage are separate from operational database application."
+}
