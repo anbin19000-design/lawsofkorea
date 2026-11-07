@@ -1,0 +1,730 @@
+{
+  "schema": "LAW_C04_CONSOLIDATION_FRAGMENT_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "part": "P03",
+  "source_baseline": {
+    "ko": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en": "cebe826bd075e5e33c4407e843e775f04a53120d"
+  },
+  "checked_row_ids": [
+    "A30120-zh-00030",
+    "A30120-zh-00034",
+    "A30120-zh-00035",
+    "A30120-zh-00036",
+    "A30120-zh-00037",
+    "A30120-zh-00038",
+    "A30120-zh-00039",
+    "A30120-zh-00040",
+    "A30120-zh-00041",
+    "A30120-zh-00042",
+    "A30120-zh-00043",
+    "A30120-zh-00044",
+    "A30120-zh-00045",
+    "A30120-zh-00046",
+    "A30120-zh-00047",
+    "A30120-zh-00048",
+    "A30120-zh-00049",
+    "A30120-zh-00050",
+    "A30120-zh-00051",
+    "A30120-zh-00054",
+    "A30120-zh-00055",
+    "A30120-zh-00056",
+    "A30120-zh-00057",
+    "A30121-zh-00001",
+    "A30121-zh-00002",
+    "A30121-zh-00003",
+    "A30121-zh-00004",
+    "A30121-zh-00005",
+    "A30121-zh-00006",
+    "A30121-zh-00007",
+    "A30121-zh-00008",
+    "A30121-zh-00009",
+    "A30121-zh-00010",
+    "A30121-zh-00011",
+    "A30121-zh-00012",
+    "A30121-zh-00013",
+    "A30121-zh-00014",
+    "A30121-zh-00015",
+    "A30121-zh-00016",
+    "A30121-zh-00017",
+    "A30121-zh-00018",
+    "A30121-zh-00019",
+    "A30121-zh-00020",
+    "A30121-zh-00021",
+    "A30121-zh-00022",
+    "A30121-zh-00023",
+    "A30121-zh-00024",
+    "A30121-zh-00025",
+    "A30121-zh-00026",
+    "A30121-zh-00027",
+    "A30121-zh-00028",
+    "A30122-zh-00001",
+    "A30122-zh-00002",
+    "A30122-zh-00003",
+    "A30122-zh-00004",
+    "A30122-zh-00005",
+    "A30122-zh-00006",
+    "A30122-zh-00007",
+    "A30122-zh-00008",
+    "A30122-zh-00009",
+    "A30122-zh-00010",
+    "A30122-zh-00011",
+    "A30122-zh-00012",
+    "A30122-zh-00013",
+    "A30122-zh-00014",
+    "A30122-zh-00015",
+    "A30122-zh-00016",
+    "A30122-zh-00017",
+    "A30122-zh-00018",
+    "A30122-zh-00019",
+    "A30122-zh-00020",
+    "A30122-zh-00021",
+    "A30122-zh-00022",
+    "A30122-zh-00023",
+    "A30122-zh-00024",
+    "A30122-zh-00025",
+    "A30122-zh-00026",
+    "A30122-zh-00027",
+    "A30122-zh-00028",
+    "A30122-zh-00029",
+    "A30122-zh-00030",
+    "A30122-zh-00031",
+    "A30122-zh-00032",
+    "A30122-zh-00033",
+    "A30122-zh-00034",
+    "A30122-zh-00035",
+    "A30122-zh-00036",
+    "A30122-zh-00037",
+    "A30122-zh-00038",
+    "A30122-zh-00039",
+    "A30122-zh-00040",
+    "A30122-zh-00041",
+    "A30122-zh-00042",
+    "A30122-zh-00043",
+    "A30122-zh-00044",
+    "A30122-zh-00045",
+    "A30122-zh-00046",
+    "A30122-zh-00047",
+    "A30122-zh-00048",
+    "A30122-zh-00049",
+    "A30122-zh-00050",
+    "A30123-zh-00001",
+    "A30123-zh-00002",
+    "A30123-zh-00003",
+    "A30123-zh-00004",
+    "A30123-zh-00005",
+    "A30123-zh-00006",
+    "A30123-zh-00007",
+    "A30123-zh-00008",
+    "A30123-zh-00009",
+    "A30123-zh-00010",
+    "A30123-zh-00011",
+    "A30123-zh-00012",
+    "A30123-zh-00013",
+    "A30123-zh-00014",
+    "A30123-zh-00015",
+    "A30123-zh-00016",
+    "A30123-zh-00017",
+    "A30123-zh-00018",
+    "A30123-zh-00019",
+    "A30123-zh-00020",
+    "A30123-zh-00021",
+    "A30123-zh-00022",
+    "A30123-zh-00023",
+    "A30123-zh-00024",
+    "A30123-zh-00025",
+    "A30123-zh-00026",
+    "A30123-zh-00027",
+    "A30123-zh-00028",
+    "A30123-zh-00029",
+    "A30123-zh-00030",
+    "A30123-zh-00031",
+    "A30123-zh-00032",
+    "A30123-zh-00033",
+    "A30123-zh-00034",
+    "A30123-zh-00035",
+    "A30123-zh-00036",
+    "A30123-zh-00037",
+    "A30123-zh-00038",
+    "A30123-zh-00039",
+    "A30123-zh-00040",
+    "A30123-zh-00041",
+    "A30123-zh-00042"
+  ],
+  "edits": [
+    {
+      "id": "A30120-zh-00030",
+      "text": "检查",
+      "source_hash": "cf57fb29da3118185a06d49fca0bda11cdedd4d9e92aabb3fd40a61b219969ee"
+    },
+    {
+      "id": "A30120-zh-00035",
+      "text": "姓名",
+      "source_hash": "253d1510caf5362045ce50b1bdc33758fc4b3fd6ddc552d8dc0619784bd9c7d1"
+    },
+    {
+      "id": "A30120-zh-00036",
+      "text": "学历",
+      "source_hash": "ef7ca2e3c3597ba4384f49021e3923722a012d990e9d5576c99fddab3d0f49fc"
+    },
+    {
+      "id": "A30120-zh-00038",
+      "text": "身体及体能检查",
+      "source_hash": "dd63b4eada4d0ab098137fdff2566260c0abbd602d37c03ce81387240885248d"
+    },
+    {
+      "id": "A30120-zh-00039",
+      "text": "面试考试",
+      "source_hash": "8077a1a3433e850ee7a68a29180d5014d1a1f08e43da0dd73948b3d1e5682985"
+    },
+    {
+      "id": "A30120-zh-00041",
+      "text": "推荐入营批次",
+      "source_hash": "23b103d381943b44bab1a31453b24a8844af43a4ccb101eee94304f252ca6a86"
+    },
+    {
+      "id": "A30120-zh-00042",
+      "text": "兵役处分",
+      "source_hash": "fcd832b51dfa87d75675ccc2dbabc539b9f24f0d5a4add983700f9918b83526f"
+    },
+    {
+      "id": "A30120-zh-00044",
+      "text": "检查",
+      "source_hash": "cf57fb29da3118185a06d49fca0bda11cdedd4d9e92aabb3fd40a61b219969ee"
+    },
+    {
+      "id": "A30120-zh-00046",
+      "text": "韩国史",
+      "source_hash": "ed80dbe5f80f1435ca2dba07844840e50d85dad9c8a321ae0112cd16c3200095"
+    },
+    {
+      "id": "A30120-zh-00047",
+      "text": "一般",
+      "source_hash": "512989791c19de3fcf9c18e11580d2895d2a146264cc803e52c86bede3453e4e"
+    },
+    {
+      "id": "A30120-zh-00050",
+      "text": "填写方法",
+      "source_hash": "41e11819187cd0d8c51419c8b34571d1f01d02758075137da10203ce9bd4c517"
+    },
+    {
+      "id": "A30120-zh-00051",
+      "text": "1. 报考人员名单应按招募批次、报考地区及报考类别（普通类、特长类）分别编制，并按照准考号码的顺序填写。",
+      "source_hash": "6a3b1776599edabb8a2f0b25b008181cc0e5f53761133f36a2be19aae1201786"
+    },
+    {
+      "id": "A30120-zh-00054",
+      "text": "4. “推荐入营批次”栏应填写该人员的预定入营时间。",
+      "source_hash": "c5aa44ec3b704c7c0120a393b30fca77bcdd4a9b0ca299abc574566cf9816362"
+    },
+    {
+      "id": "A30120-zh-00055",
+      "text": "5. “兵役处分”栏应填写该人员接受（地方）兵务厅征兵检查时被判定的身体等级。",
+      "source_hash": "39bab47ba4a91b961d6b49a71224949b1b400b24d4ca2f67a4642e73c45270e0"
+    },
+    {
+      "id": "A30120-zh-00056",
+      "text": "6. “备注”栏应填写是否属于国家有功者等特殊事项。",
+      "source_hash": "5caac3628d76f8efb94fced3698d966fa66411f0c6150995e6f787581264b168"
+    },
+    {
+      "id": "A30121-zh-00001",
+      "text": "■ 《义务警察部队设立及运营法施行令》[附件第2号格式] <2020年12月31日修订>",
+      "source_hash": "d60a1de2bae6584c527c407e6efec67a486b02531f9c5d151c4e0290168f31e5"
+    },
+    {
+      "id": "A30121-zh-00002",
+      "text": "第（　）次义务警察拟任用人员推荐名单",
+      "source_hash": "35c296f1a0036aa1d2cf6012516ac5ad22af6befec725c63e549ddcee0ec93a8"
+    },
+    {
+      "id": "A30121-zh-00004",
+      "text": "报考",
+      "source_hash": "4671b20ea306bbfe7eb7df7a26d85752e933657539ec22fc06b964faae1e1ab7"
+    },
+    {
+      "id": "A30121-zh-00005",
+      "text": "兵籍所在地",
+      "source_hash": "e40d4d1076fb348507d9a0f47595276e308537dcc91c94c85e2f34212db24f29"
+    },
+    {
+      "id": "A30121-zh-00006",
+      "text": "准考",
+      "source_hash": "32fdbd2dee822d81a59b8ca8525009e23d6ec110a3a71ac9762f8f701bf177c8"
+    },
+    {
+      "id": "A30121-zh-00007",
+      "text": "姓名",
+      "source_hash": "253d1510caf5362045ce50b1bdc33758fc4b3fd6ddc552d8dc0619784bd9c7d1"
+    },
+    {
+      "id": "A30121-zh-00008",
+      "text": "居民登记号码",
+      "source_hash": "0cfaa069c4d77e55af86144e32ee89b6d1bb736458ac46736e38965103c9fbd7"
+    },
+    {
+      "id": "A30121-zh-00010",
+      "text": "联系方式",
+      "source_hash": "67c1e932f9bc7bd77503bcce44a36f00abdad0dec840cdc627e41516e126b481"
+    },
+    {
+      "id": "A30121-zh-00011",
+      "text": "义务警察报",
+      "source_hash": "587a94856f565aacda5d3dd21aea1a982790b9e407b7b6fe4cf7966d2477ccc8"
+    },
+    {
+      "id": "A30121-zh-00013",
+      "text": "同伴入营",
+      "source_hash": "1984e756484e472b20bb70a0b0141f938836764bce021da1ce62ed25b0924a03"
+    },
+    {
+      "id": "A30121-zh-00015",
+      "text": "希望入营时间（批次）",
+      "source_hash": "09893f9f089740489426d0ef82a8786325db3e50110e7faf99b6f9c912bc9d75"
+    },
+    {
+      "id": "A30121-zh-00018",
+      "text": "名申请受理日期",
+      "source_hash": "cfca1d1e8c16b32ce5359201aa2b37f39abc29f73bd8aca403fe4adebceef974"
+    },
+    {
+      "id": "A30121-zh-00019",
+      "text": "填写方法",
+      "source_hash": "41e11819187cd0d8c51419c8b34571d1f01d02758075137da10203ce9bd4c517"
+    },
+    {
+      "id": "A30121-zh-00021",
+      "text": "2. “报考地区”栏填写主办义务警察选拔考试的市、道警察厅。",
+      "source_hash": "18fe660520600a523b2b01e0e64003e7ffc417b042be035185b802d16cd67cd1"
+    },
+    {
+      "id": "A30121-zh-00022",
+      "text": "3. “兵籍所在地”栏填写管辖该人员居住地址的地方兵务厅。",
+      "source_hash": "c32240676b945fbf5288a37b86d3f68e0cf7b86ed4905ac36eb12203706c447a"
+    },
+    {
+      "id": "A30121-zh-00023",
+      "text": "4. “准考号码”栏填写该人员在义务警察选拔考试中获分配的准考号码。",
+      "source_hash": "990562c677b9ce43363d391a4ac953d49cbfcca5c5090b4cdeb4d252318fe1c0"
+    },
+    {
+      "id": "A30121-zh-00024",
+      "text": "5. “申请受理日期”栏填写该人员义务警察申请书被受理的日期。",
+      "source_hash": "a958c22d5652c0b5c0c91275b5e2e3c08b0fde695c3a2c6dd41fec681b781262"
+    },
+    {
+      "id": "A30121-zh-00025",
+      "text": "6. “同伴入营”栏填写该人员希望与其一同入营者的准考号码及姓名。",
+      "source_hash": "ccf2cd68c8b03ecef3661999bee017f53035070890c93ecd73a09dbd5ffc0b3f"
+    },
+    {
+      "id": "A30121-zh-00026",
+      "text": "7. “备注”栏填写特长义务警察等特殊事项。",
+      "source_hash": "5df655f34e33797f430ab65f441d39c2a475d4fb75f3a294988122388fcb5eca"
+    },
+    {
+      "id": "A30121-zh-00027",
+      "text": "8. “希望入营时间”栏填写该人员希望入营的义务警察批次。",
+      "source_hash": "ba480876982a4d726f10ae3b1056ecf946b045af753cd4f2d7e9253680acf1a0"
+    },
+    {
+      "id": "A30122-zh-00001",
+      "text": "■ 《义务警察部队设立及运营法施行令》[附件第2号之2格式] <修订",
+      "source_hash": "b36373e57055f4c530e1defa5ec08993672aa6fff045f92c13ad9ec632d4829c"
+    },
+    {
+      "id": "A30122-zh-00002",
+      "text": "也可在韩国义务警察官方网站（www.ap.police.go.kr）",
+      "source_hash": "f55c3c2093510f1861dd6f8514bf0128998bd419a257fb376bcb3ca640e82216"
+    },
+    {
+      "id": "A30122-zh-00004",
+      "text": "提交申请。",
+      "source_hash": "ea473f5eabbb1e64cf02503835e51c5917770e02104561f170d8f83b04681098"
+    },
+    {
+      "id": "A30122-zh-00005",
+      "text": "义务警察申请书",
+      "source_hash": "ef942eae385ccce8f6bed6c0939a82f454f92a4e0ba4b15b7a0d37b3f7f81ec1"
+    },
+    {
+      "id": "A30122-zh-00006",
+      "text": "※ 请阅读填写说明并如实、准确填写。申请书内容不实的，合格资格可能被取消；即使入营后，也可能将原选拔",
+      "source_hash": "0cd88570b80440d6b520b2ccc97ff878498a89ae0d25879fc117af4caa155080"
+    },
+    {
+      "id": "A30122-zh-00007",
+      "text": "的特长重新分类为其他特长而服役，并遭受相应不利后果。",
+      "source_hash": "c6f2e0e95b56cc50c8035ba6af9634f0e12c2d5214ea687202c8b8f7e6e65ae9"
+    },
+    {
+      "id": "A30122-zh-00008",
+      "text": "报考地区",
+      "source_hash": "9b87b0a5c29d14a794ae287fb32ee61227c5ed3eef9f1b3b2947c920b697e18f"
+    },
+    {
+      "id": "A30122-zh-00010",
+      "text": "招募批次",
+      "source_hash": "d4e7cc48a9572aa0107705b1c22e3127df4f44b3b31eb402fe7e16cd39156647"
+    },
+    {
+      "id": "A30122-zh-00012",
+      "text": "姓名",
+      "source_hash": "5aa32deffdf1362feb45b4aaf4a1945b15c91915f96194031e41bc759b5f2f97"
+    },
+    {
+      "id": "A30122-zh-00013",
+      "text": "兵籍管辖厅",
+      "source_hash": "05e73f1c0c58049103cbb51fc33905ab2765ff43988fc8e4c9b11f58ed59f190"
+    },
+    {
+      "id": "A30122-zh-00014",
+      "text": "居民登记号码",
+      "source_hash": "0cfaa069c4d77e55af86144e32ee89b6d1bb736458ac46736e38965103c9fbd7"
+    },
+    {
+      "id": "A30122-zh-00018",
+      "text": "其他特殊事项",
+      "source_hash": "bf80ceffdd6970df0a7311a028a4aed6ca592a0d32fb600ac8ad203f04226b72"
+    },
+    {
+      "id": "A30122-zh-00019",
+      "text": "本人依据《兵役法》第二十条及《义务警察部队设立及运营法施行令》第九条，为报考义务警察招募",
+      "source_hash": "10324b24f41abdd90132d2953164036231b6a38f9d1d6859c15bef471d548ec2"
+    },
+    {
+      "id": "A30122-zh-00020",
+      "text": "，特提交本申请书。",
+      "source_hash": "160e715fc5ecfe7bb5e593b0bae0c550fc99a06752105c7922a9279036e34086"
+    },
+    {
+      "id": "A30122-zh-00023",
+      "text": "日",
+      "source_hash": "1bfa95cfdfb79f2ff0ecd2412e922b1aeb3936cb6a915f5ec6569fc9388a5768"
+    },
+    {
+      "id": "A30122-zh-00026",
+      "text": "致警察厅厅长或海洋警察厅厅长",
+      "source_hash": "1ebe3d4250e245aa96755189fa9f0fac7ca11a7a3b64232c577b6f34e8b24a81"
+    },
+    {
+      "id": "A30122-zh-00028",
+      "text": "1. 已接受兵役判定体格检查的人员：兵役判定体格检查结果通知书",
+      "source_hash": "4dd7249be163c461b1e2b206b65d739f5e4fc2823f2918ee4a70736ff25c24c8"
+    },
+    {
+      "id": "A30122-zh-00029",
+      "text": "（仅由符合条件者提",
+      "source_hash": "326ead0dc013b19557729b7f8e4c7c64682b1efb64a8abd5105863f8fd3ca445"
+    },
+    {
+      "id": "A30122-zh-00030",
+      "text": "2. 未接受兵役判定体格检查的人员：由国立、公立医院或综合医院院长签发的体格检查书以及",
+      "source_hash": "58e3198c4c0b549a19d9bf64d5536537df2f62039e51b1171286f8a8cc8bd415"
+    },
+    {
+      "id": "A30122-zh-00031",
+      "text": "交）",
+      "source_hash": "e17d85d52b9a07e3272f15c039a5920612ccf0d677f982408ca79844cfa50dcb"
+    },
+    {
+      "id": "A30122-zh-00032",
+      "text": "最后毕业学校的学历证明书",
+      "source_hash": "7f7143ccaad94e78a352aa92f4df50c668bbe5b91880710e53ca7148ed6fba3a"
+    },
+    {
+      "id": "A30122-zh-00033",
+      "text": "3. 持有特殊业务领域资格证书，参加代替笔试而实施的技能考试者：该领域资格证书",
+      "source_hash": "b85c73dee5e2d1db75d2be2d6cd2301c83e4c6b9460410911623d8d7deb8e19c"
+    },
+    {
+      "id": "A30122-zh-00034",
+      "text": "复印件",
+      "source_hash": "6250ec0b291d8a54d22229ed7fb9c92f64d4a25d8ff40eadb0e247096299c33a"
+    },
+    {
+      "id": "A30122-zh-00035",
+      "text": "行政信息共同使用同意书",
+      "source_hash": "7a75dfb4f98958b7a32c3f19046d3b04a2959a4b408c360771276c41f7f9e542"
+    },
+    {
+      "id": "A30122-zh-00036",
+      "text": "本人同意，负责办理本案的公务员依《电子政府法》第三十六条第一款通过行政信息共同使用核查下列项",
+      "source_hash": "e2e70c0091746b2557ec365ed38616b7c572e50a8db07cd60ea1d3d2b31f2b67"
+    },
+    {
+      "id": "A30122-zh-00037",
+      "text": "目的资料。",
+      "source_hash": "f992d9f7b201220e37a21220550b524533a8227f7fdd5aec182d92824a51b143"
+    },
+    {
+      "id": "A30122-zh-00038",
+      "text": "ㅇ 行政信息共同使用核查资料：兵籍证明书、国家有功者（遗属）确认书",
+      "source_hash": "c0eb99fb47327d613b47a77db5ce84eb786be31b4bba72db1f9eed421b72e096"
+    },
+    {
+      "id": "A30122-zh-00042",
+      "text": "填写方法",
+      "source_hash": "41e11819187cd0d8c51419c8b34571d1f01d02758075137da10203ce9bd4c517"
+    },
+    {
+      "id": "A30122-zh-00043",
+      "text": "1. “报考地区”栏应填写实施面试等选拔程序的市、道警察厅或地方海洋警察厅，而不受兵籍所在地限制。",
+      "source_hash": "5849246dac043e3de06a8b6164a2f1e6c36832a9c6544df4622aac843da11250"
+    },
+    {
+      "id": "A30122-zh-00044",
+      "text": "2. “招募领域”栏应在普通义务警察与特长义务警察中选择填写一项。",
+      "source_hash": "d227c8dd693a66188fee6731fed02df5b35afc3e04a06e0ce8819ff34e99a19d"
+    },
+    {
+      "id": "A30122-zh-00047",
+      "text": "义务警察申请书受理凭证",
+      "source_hash": "09a76b6f806b4198c606ab88ec341b85cb0e2e2d27ff9457cc075066b28488c8"
+    },
+    {
+      "id": "A30122-zh-00048",
+      "text": "※ 对填写上述申请书并直接向民愿服务窗口提交的人员，应将所提交文件中载明的事项录入韩国义务警察官方网站的",
+      "source_hash": "5cd6dbe68f122983f875fcfab841fa6fe4596cddd4277b9fc72d2d135580f53c"
+    },
+    {
+      "id": "A30122-zh-00049",
+      "text": "申请受理页面电子系统。",
+      "source_hash": "ad845ee03c8c5dec60a3575a13b42c4d2bd8452ac84e8a403152fe0731451b9c"
+    },
+    {
+      "id": "A30123-zh-00001",
+      "text": "[附件第3号格式] <2023年4月11日修订>",
+      "source_hash": "3ee52832d6369b3895794e8f29dd4679c57d1302c3017da5b3b8d4efea47d09c"
+    },
+    {
+      "id": "A30123-zh-00003",
+      "text": "确认书",
+      "source_hash": "b07cfe241898eebc955059cbb92d09be271804dde2f6510012e51e6ff29a3019"
+    },
+    {
+      "id": "A30123-zh-00004",
+      "text": "□ 负伤",
+      "source_hash": "3d691e30c38a410417fd8d68e98ee0f5d4b822b4584d62ba3eaf41e6a0392fbe"
+    },
+    {
+      "id": "A30123-zh-00005",
+      "text": "所属机构",
+      "source_hash": "01603d13dd6590d7676446f682aed959803754281fa23ce912d6c1bf93cbcb15"
+    },
+    {
+      "id": "A30123-zh-00006",
+      "text": "警衔",
+      "source_hash": "e30475ab58895c7ee4d6393695dfae85c53660e08827eea68f29b851a6f6a3a8"
+    },
+    {
+      "id": "A30123-zh-00007",
+      "text": "军籍号码",
+      "source_hash": "d2cc353c099a0825cf17be583a5c2aaaeebcfe807150af57e561b132bae7a1cf"
+    },
+    {
+      "id": "A30123-zh-00008",
+      "text": "退职年月日",
+      "source_hash": "b515a788859470e2854032e121e85b9504b03f4b28dd2ea96a8ea92084a0befe"
+    },
+    {
+      "id": "A30123-zh-00009",
+      "text": "姓名",
+      "source_hash": "5aa32deffdf1362feb45b4aaf4a1945b15c91915f96194031e41bc759b5f2f97"
+    },
+    {
+      "id": "A30123-zh-00010",
+      "text": "居民登记号码",
+      "source_hash": "0cfaa069c4d77e55af86144e32ee89b6d1bb736458ac46736e38965103c9fbd7"
+    },
+    {
+      "id": "A30123-zh-00011",
+      "text": "人员",
+      "source_hash": "34f404d9d0a79aa558baab1bc8c72555b392dc1bd242f069dd81c2e6817c8f70"
+    },
+    {
+      "id": "A30123-zh-00013",
+      "text": "类别",
+      "source_hash": "d8ba487317ac4e370c544ff11fee92077c5dfe235d14d8d93e213e278685f7be"
+    },
+    {
+      "id": "A30123-zh-00014",
+      "text": "□ 战死",
+      "source_hash": "692807e6fb061a64275894ed0862494459f69041dcddb112ea02f08d05dbf9d4"
+    },
+    {
+      "id": "A30123-zh-00016",
+      "text": "□ 负伤",
+      "source_hash": "3d691e30c38a410417fd8d68e98ee0f5d4b822b4584d62ba3eaf41e6a0392fbe"
+    },
+    {
+      "id": "A30123-zh-00019",
+      "text": "年月日",
+      "source_hash": "9dd1771d703c46576eba89ca6d25dcfe72faa2a07570a4e57c5b61449438904f"
+    },
+    {
+      "id": "A30123-zh-00020",
+      "text": "地点",
+      "source_hash": "61eaecc09cb7e53dbc6e233451cc9c1cc3cbab66a4934f57b7673099819d3da4"
+    },
+    {
+      "id": "A30123-zh-00022",
+      "text": "（栏位不够时另附页填写）",
+      "source_hash": "2b8d25aea6f995c8082a3d1af279195364a9ff4290ed07ab419611829ae0b460"
+    },
+    {
+      "id": "A30123-zh-00024",
+      "text": "姓名",
+      "source_hash": "5aa32deffdf1362feb45b4aaf4a1945b15c91915f96194031e41bc759b5f2f97"
+    },
+    {
+      "id": "A30123-zh-00025",
+      "text": "居民登记",
+      "source_hash": "40588d214e2975f232f33c93590fb65338e2ff3cb40dfff07e6ee07bafe69092"
+    },
+    {
+      "id": "A30123-zh-00026",
+      "text": "与死者的",
+      "source_hash": "5d8e1d49ae475bb06b7f4b97a516c54d3ce47ae883e104c56c4b5136ea023b54"
+    },
+    {
+      "id": "A30123-zh-00027",
+      "text": "号码",
+      "source_hash": "00e65ebb3d8a52e54e6fe2981b12b60193e4b27699137f4179119795daf2ad90"
+    },
+    {
+      "id": "A30123-zh-00028",
+      "text": "关系",
+      "source_hash": "346e3761b9cb1a6e28d1d77524d8f1264f4fdfb2f361c0baacce16f3fb02d5c0"
+    },
+    {
+      "id": "A30123-zh-00030",
+      "text": "所属机关等负责人",
+      "source_hash": "871ff711baa0b2796d1a493af74245aef87f151452b64dda6c809ed3eec90a9f"
+    },
+    {
+      "id": "A30123-zh-00031",
+      "text": "（所属机关等负责人）??",
+      "source_hash": "ae0cab4ba3f00a3be951d9c7363b8904860a36b08c0c66dfe28b084c93d0bb8d"
+    },
+    {
+      "id": "A30123-zh-00034",
+      "text": "年",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54"
+    },
+    {
+      "id": "A30123-zh-00035",
+      "text": "月",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93"
+    },
+    {
+      "id": "A30123-zh-00037",
+      "text": "致国家报勋部部长",
+      "source_hash": "56c86d3f978febce92d9b410743eed986bbcfac674faa5347f648480cc1b12da"
+    },
+    {
+      "id": "A30123-zh-00038",
+      "text": "警察厅厅长或海洋警察厅厅长 ??",
+      "source_hash": "eee3824dd21801d041612bc3bcf821d94803caef09733ecca12fe89e7b2e1885"
+    },
+    {
+      "id": "A30123-zh-00039",
+      "text": "2106-366日",
+      "source_hash": "f1f2c380b55e396454058df39772e93275325c02b23d6f7e799a881377f657f0"
+    },
+    {
+      "id": "A30123-zh-00042",
+      "text": "（新闻纸54g/㎡）",
+      "source_hash": "b7a3a10d716a3863fe1699326f0e32bc86241e016f61c3b3ff99bc0f001778dd"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00030-00030.json",
+      "sha": "ce8293ae3d09532ae16961e355e2bebe0dcc67aa",
+      "rows": 1,
+      "edits": 1
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00034-00042.json",
+      "sha": "799d80439c9bb29fec77171c7e5879f1685850fc",
+      "rows": 9,
+      "edits": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00043-00051.json",
+      "sha": "56bbddb7099852f03248f5c7b171de53e074c16a",
+      "rows": 9,
+      "edits": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00054-00057.json",
+      "sha": "38ff001d94b8c1838a627577caeed53074df5c95",
+      "rows": 4,
+      "edits": 3
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30121-00001-00014.json",
+      "sha": "32ee47e3078fe0c97a8473811f9e96c7116424bc",
+      "rows": 14,
+      "edits": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30121-00015-00028.json",
+      "sha": "b8d7a71e92a0efe67fc79a42c926b0d87be8e82d",
+      "rows": 14,
+      "edits": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30122-00001-00014.json",
+      "sha": "9b20336051ee6cfb635fe2f7759b287cc4497858",
+      "rows": 14,
+      "edits": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30122-00015-00028.json",
+      "sha": "48a7f6e351541885973d1a37352daba9f71f9b79",
+      "rows": 14,
+      "edits": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30122-00029-00042.json",
+      "sha": "e2df0e4cfe8c3c43ae4478900ebdbf9c9ae3b615",
+      "rows": 14,
+      "edits": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30122-00043-00050.json",
+      "sha": "690ac8dd346f232bb023acb06b2803368eef0771",
+      "rows": 8,
+      "edits": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30123-00001-00014.json",
+      "sha": "9f2b0daa1a28c00c8e1b6ff60ee19008fe077e41",
+      "rows": 14,
+      "edits": 12
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30123-00015-00028.json",
+      "sha": "82b4898526cd03280309b2a7b543581effcc9e64",
+      "rows": 14,
+      "edits": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30123-00029-00042.json",
+      "sha": "454326898eb831e46fa6736856dd65181749bf8d",
+      "rows": 14,
+      "edits": 8
+    }
+  ],
+  "audit": {
+    "checked_rows": 143,
+    "corrected_rows": 97,
+    "unique_checked_rows": true,
+    "unique_edits": true
+  }
+}
