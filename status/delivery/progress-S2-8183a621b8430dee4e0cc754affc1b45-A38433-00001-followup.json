@@ -1,0 +1,69 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-3705abbc710de4b867bc",
+  "worker": "C05",
+  "source_shas": {
+    "ko": "7974bf81d14f4838ae85d4b3ceea80a2f0e65fed",
+    "zh": "045dd328cd77f3eecd8b6cd485be27f2389773e8",
+    "en": "608343efc91f6dc84efbcee2e5a9276a847e3a67"
+  },
+  "checked_range": "A38433-zh-00001..A38433-zh-00023",
+  "checked_rows": 23,
+  "edits": [
+    {
+      "id": "A38433-zh-00001",
+      "text": "■ 《消防设备管理法施行令》[附表5] <2023年5月15日修订>"
+    },
+    {
+      "id": "A38433-zh-00002",
+      "text": "业务代办手续费的计算标准（与第46条有关）"
+    },
+    {
+      "id": "A38433-zh-00004",
+      "text": "a. 手续费参照《工程技术产业振兴法》第31条规定的工程事业报酬"
+    },
+    {
+      "id": "A38433-zh-00005",
+      "text": "标准计算。"
+    },
+    {
+      "id": "A38433-zh-00006",
+      "text": "b. 人工费适用工程技术人员工资单价中机械、设备部门的工资单价。"
+    },
+    {
+      "id": "A38433-zh-00008",
+      "text": "c. b项所称工程技术人员按下列类别分别适用："
+    },
+    {
+      "id": "A38433-zh-00012",
+      "text": "d. 标准工作量以检验等所需时间除以每日工作8小时计算。"
+    },
+    {
+      "id": "A38433-zh-00014",
+      "text": "a. 消防设备操作人员教育、检验及精密检查的各项手续费，按如下计算的"
+    },
+    {
+      "id": "A38433-zh-00015",
+      "text": "直接人工费、直接费用、其他费用及技术费之和确定。"
+    },
+    {
+      "id": "A38433-zh-00016",
+      "text": "1) 直接人工费按标准工作量乘以第1项b目规定的人工费计算。"
+    },
+    {
+      "id": "A38433-zh-00021",
+      "text": "b. 依a目计算的费用舍去不足一千韩元的零数。"
+    },
+    {
+      "id": "A38433-zh-00022",
+      "text": "c. 消防设备操作人员教育所需住宿费及餐费，与a目所定手续费分别"
+    },
+    {
+      "id": "A38433-zh-00023",
+      "text": "计算。"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "next_unreviewed": "A38434-zh-00001",
+  "note": "Reviewed Annex 5 in Korean and Chinese: wage bases, 8 hours, 20%, 110%, 20% technical fee, 1000 KRW truncation and separately charged lodging/meals. Structural standalone punctuation rows not rewritten without reliable alignment."
+}
