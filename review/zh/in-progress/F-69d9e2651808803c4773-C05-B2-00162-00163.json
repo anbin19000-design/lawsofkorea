@@ -1,0 +1,31 @@
+{
+  "schema": "LAW_ZH_IN_PROGRESS_REVIEW_V1",
+  "job_id": "F-69d9e2651808803c4773",
+  "worker": "C05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_commit": "2bf6ebdc1974eb43100aa2ab00e7f7e7fd09e094",
+  "ko_blob_sha": "111519dd32bb33a661576be45b72c6b8e535cbb4",
+  "zh_blob_sha": "3c62ee9db18e00e56fab07bbcc3f8d47bbf0b528",
+  "en_blob_sha": "472b93f92f9acf1f4104ce1792d7eb5bb83981a4",
+  "checked_rows": 2,
+  "checked_row_ids": [
+    "B2-zh-00162",
+    "B2-zh-00163"
+  ],
+  "edits": [
+    {
+      "id": "B2-zh-00162",
+      "source_hash": "a3c47358b5319a3ba45787da785dfea890df8d8d79398cc9047d30e04f9d9dac",
+      "target_id": "93a4903359d26ade98ec0ffbebaa23e25cf19cfc974e7474f43ce4571dd8fe1f",
+      "text": "附则（行政自治部及其所属机构编制）<第25751号，2014年11月19日>\n\n"
+    },
+    {
+      "id": "B2-zh-00163",
+      "source_hash": "29cad0e4de5c1ca07d425bd997279202960c7017caef59d813e4df3acb02afa8",
+      "target_id": "274d052feb9ec3d1d6eb6981d505ef53fa5efbfa2800bf97efc58d4f7f60ee43",
+      "text": "第一条（施行日期）本施行令自公布之日起施行。但根据附则第五条修改的总统令中，对本施行令施行前已公布而施行日期尚未到来的总统令所作的修改部分，分别自该总统令的施行日期起施行。\n\n第二条至第四条 略\n\n"
+    }
+  ],
+  "note": "B2 rows 162-163 verified from Korean; corrected Supplementary Provision and decree effective-date wording; all earlier segments preserved."
+}
