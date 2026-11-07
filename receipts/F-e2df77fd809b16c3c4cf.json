@@ -1,0 +1,8 @@
+{
+  "job_id": "F-e2df77fd809b16c3c4cf",
+  "worker": "C03",
+  "checked_rows": 824,
+  "corrected_rows": 18,
+  "status": "COMPLETE",
+  "note": "All 824 Chinese rows across the 16-document law family were checked against the unchanged authoritative Korean source at base commit 212bbeec65a7115085fc571118c2f9eb285ce4d0. Eighteen unique row-level corrections were recorded in review/zh; corrections address an untranslated Korean article, article/paragraph numbering and statutory references, omitted legal text, technical-fee terminology, form-label metadata artifacts, and mistranslated new-technology wording. English source documents and reviewed English material were consulted where available; no applicable meaning-pair candidates were supplied for the matched rows. This review save is separate from operational database application."
+}
