@@ -1,0 +1,415 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B1-01.json",
+      "blob_sha": "69fcf795c9621b125ae73864793ee4064bd4b815",
+      "document_key": "B1",
+      "rows_checked": 145,
+      "rows_corrected": 26
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "blob_sha": "aeba15bca83d7887b5e9f7ce393fba770a9b5faa",
+      "verified_rows": 12,
+      "documents": [
+        "A30118",
+        "A30120"
+      ]
+    },
+    {
+      "path": "status/delivery/verified-step-S2-86af8794991369270a0d3bd696fb65c5-C04-CHECKPOINT-166-01.json",
+      "blob_sha": "33003dbd344370d5b2cf92bb05838b92b144a7ba",
+      "status": "INTENT_NO_RESEND"
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-01.json",
+      "blob_sha": "5f92fef46a104d832b4e6944e94ab8ba7257dda1",
+      "document_key": "B2",
+      "rows_checked": 36,
+      "rows_corrected": 31
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00037-00044.json",
+      "blob_sha": "31d1e93b2b7bc2aab9430a0d4b201c246301d1c5",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00045-00052.json",
+      "blob_sha": "be37a2f05e6c47bf33ec4ea58b1d6163df4b96a1",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00053-00060.json",
+      "blob_sha": "385725a9ff5c6f74e8cb723a6fc91fbcf072d639",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00061-00072.json",
+      "blob_sha": "4573174026ca13b9d49225d71e76f10c6ab2d76f",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00073-00084.json",
+      "blob_sha": "eb20464990f1e23042b03e95a20ed243fed5c555",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00085-00104.json",
+      "blob_sha": "30ba440fd5a8c3e355e8e79c418c6c9b7adcaa9f",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00105-00124.json",
+      "blob_sha": "3fe79039feaa1febde3bcd60b4397e5a52301b9e",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00125-00144.json",
+      "blob_sha": "3fe9aed92331bbf966efeff025964f461a605d6b",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00145-00164.json",
+      "blob_sha": "ab61b90a9bc19864b55a54b55cce703f9cb22470",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 12
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00165-00184.json",
+      "blob_sha": "68f3e74081cab6a1e84a178d3404ae96facceabe",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00185-00204.json",
+      "blob_sha": "81c7f57799a8550b49975c68793c0c3de622e902",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00205-00208.json",
+      "blob_sha": "feda2b38822c3429ef5493d37b044d1e5ef9ff86",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00209-00212.json",
+      "blob_sha": "08cb0522bc3ceae21d3d76fb56b95152a08fc246",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00213-00223.json",
+      "blob_sha": "a7fecc1db30a21c0677eaf0e6696e8267404fdbd",
+      "document_key": "B2",
+      "rows_checked": 11,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00224-00224.json",
+      "blob_sha": "7ce857683229c544c015843cb5da47ec2c5ea6ed",
+      "document_key": "B2",
+      "rows_checked": 1,
+      "rows_corrected": 1
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00225-00244.json",
+      "blob_sha": "bde39fb81d1a2fe5f6acbc78ab2d929732f8cb58",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00245-00264.json",
+      "blob_sha": "52e222a297a0913cce11527a0e6db004f8de1012",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00265-00272.json",
+      "blob_sha": "ed666acab2f084c7266595060f136c7c5c4c90aa",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "preserved_preverified_ids": [
+        "A30118-zh-00029",
+        "A30118-zh-00030"
+      ]
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30118-00001-00014.json",
+      "blob_sha": "b0ec0f1cc7e719106067960812e69c7bed03cfb5",
+      "document_key": "A30118",
+      "rows_checked": 14,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30118-00015-00028.json",
+      "blob_sha": "f0db9312e41184469f9b91334aac527a58a0871b",
+      "document_key": "A30118",
+      "rows_checked": 14,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30118-00031-00038.json",
+      "blob_sha": "2349cd68ccb30b9a5cd817d6446e0146920045e2",
+      "document_key": "A30118",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00001-00014.json",
+      "blob_sha": "691b91f81935198f72df0af0f3591c64a3573fde",
+      "document_key": "A30120",
+      "rows_checked": 14,
+      "rows_corrected": 14
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00015-00019.json",
+      "blob_sha": "f8689815603add57b3f7f545d07d19967926556c",
+      "document_key": "A30120",
+      "rows_checked": 5,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00024-00028.json",
+      "blob_sha": "be641e075a3db3268ad4d76b449384d52da6643c",
+      "document_key": "A30120",
+      "rows_checked": 5,
+      "rows_corrected": 3
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30120-00030-00030.json",
+      "blob_sha": "ce8293ae3d09532ae16961e355e2bebe0dcc67aa",
+      "document_key": "A30120",
+      "rows_checked": 1,
+      "rows_corrected": 1
+    }
+  ],
+  "document": {
+    "key": "A30120",
+    "kind": "서식",
+    "title": "의무경찰 응시자 명단",
+    "source_hash": "8060e506a1441c4b2495731b485bd5de9e9c7e80a841bb91321f0d8b6981af70",
+    "rows_checked": 9,
+    "rows_corrected": 6,
+    "document_review_state": "IN_PROGRESS"
+  },
+  "range": {
+    "first_row_id": "A30120-zh-00034",
+    "last_row_id": "A30120-zh-00042",
+    "verified_row_count": 9
+  },
+  "verified_rows": [
+    {
+      "row_id": "A30120-zh-00034",
+      "target_id": "XML:2210484",
+      "source_hash": "de328e150de8902dcc2415dc0a37be3a301795bc9faee8357e1dabccb0b2618b",
+      "source_ko": "수험번호",
+      "previous_zh": "考试编号",
+      "meaning_pair_id": "49751f7a64302d707a0954b4ca05eebe1b712e836390234595702f8ce7a1a4e5",
+      "meaning_pair_path": "meaning/pairs/49.jsonl",
+      "meaning_pair_blob_sha": "82223da6e0b4867bdfa6477ee955d22177d640fc"
+    },
+    {
+      "row_id": "A30120-zh-00035",
+      "target_id": "XML:2210485",
+      "source_hash": "253d1510caf5362045ce50b1bdc33758fc4b3fd6ddc552d8dc0619784bd9c7d1",
+      "source_ko": "명",
+      "previous_zh": "名称",
+      "meaning_pair_id": "e555e8cf05f96583a4d528d3673e3ba9ee34932d74cb284c76d04d37cc079047",
+      "meaning_pair_path": "meaning/pairs/e5.jsonl",
+      "meaning_pair_blob_sha": "ce7752e05c07f438119bbf9c3341b68d88d61e82"
+    },
+    {
+      "row_id": "A30120-zh-00036",
+      "target_id": "XML:2210486",
+      "source_hash": "ef7ca2e3c3597ba4384f49021e3923722a012d990e9d5576c99fddab3d0f49fc",
+      "source_ko": "학력",
+      "previous_zh": "教育",
+      "meaning_pair_id": "5777ec6bcc06bd8a034e3b412a9d4288ade5c068ba30dd6d2f6aff287a1ed6a9",
+      "meaning_pair_path": "meaning/pairs/57.jsonl",
+      "meaning_pair_blob_sha": "7e6cc8b7521b5ef493484b19183ccc20f9f1fe6a"
+    },
+    {
+      "row_id": "A30120-zh-00037",
+      "target_id": "XML:2210487",
+      "source_hash": "5dd3bd5b2dc675949e43028b68c8fd2276c70f9b7f79ab5ab71befeb82bfc585",
+      "source_ko": "적성검사",
+      "previous_zh": "能力倾向测试",
+      "meaning_pair_id": "6d10e0e788e4e5a29903baaf0e37ec866b8c5fa92adece75c7bef8e6199ecf82",
+      "meaning_pair_path": "meaning/pairs/6d.jsonl",
+      "meaning_pair_blob_sha": "40d564f41a2272598b27444059afe02eea0ed1e5"
+    },
+    {
+      "row_id": "A30120-zh-00038",
+      "target_id": "XML:2210488",
+      "source_hash": "dd63b4eada4d0ab098137fdff2566260c0abbd602d37c03ce81387240885248d",
+      "source_ko": "신체ㆍ체력",
+      "previous_zh": "体能训练",
+      "meaning_pair_id": "2caeb4b3861dabd65f40f8f55570bf0b3cdc21e612f7e0d9060c6998e1643bf3",
+      "meaning_pair_path": "meaning/pairs/2c.jsonl",
+      "meaning_pair_blob_sha": "ac2bb2fcd5793acb805ddc97a473307090454ab8"
+    },
+    {
+      "row_id": "A30120-zh-00039",
+      "target_id": "XML:2210490",
+      "source_hash": "8077a1a3433e850ee7a68a29180d5014d1a1f08e43da0dd73948b3d1e5682985",
+      "source_ko": "면접시험",
+      "previous_zh": "面试测试MTQ8ab1dc2ae946983402785结束",
+      "meaning_pair_id": "67585b9fe2873eb5e5b794ddcc419ffb0b1be182d2c040297c7abc14e4290d2e",
+      "meaning_pair_path": "meaning/pairs/67.jsonl",
+      "meaning_pair_blob_sha": "80372a9580850b7a4e46ce6cbdf6b4e3805ca0bf"
+    },
+    {
+      "row_id": "A30120-zh-00040",
+      "target_id": "XML:2210491",
+      "source_hash": "67105e3349974507e3b7aa5f8b56d281c7dd7dde905dd28b5316be658c4db1ca",
+      "source_ko": "최종결과",
+      "previous_zh": "最终结果",
+      "meaning_pair_id": "94b68612f86edadd17241667c0cdc9882a3efa9df5a71e63b9ee479b36e1769d",
+      "meaning_pair_path": "meaning/pairs/94.jsonl",
+      "meaning_pair_blob_sha": "58daedcc9bfee31b8f4b1523d3899011dad70748"
+    },
+    {
+      "row_id": "A30120-zh-00041",
+      "target_id": "XML:2210492",
+      "source_hash": "23b103d381943b44bab1a31453b24a8844af43a4ccb101eee94304f252ca6a86",
+      "source_ko": "추천기수",
+      "previous_zh": "推荐骑师",
+      "meaning_pair_id": "8d5eab01eb22b167e77ca2f81c8cbc0ce1a743ac24dbf1602b854a53171736da",
+      "meaning_pair_path": "meaning/pairs/8d.jsonl",
+      "meaning_pair_blob_sha": "fdbb5d9c9d5e1be00c52d2e3f8020e899783069b"
+    },
+    {
+      "row_id": "A30120-zh-00042",
+      "target_id": "XML:2210493",
+      "source_hash": "fcd832b51dfa87d75675ccc2dbabc539b9f24f0d5a4add983700f9918b83526f",
+      "source_ko": "병역처분",
+      "previous_zh": "军事服务处置",
+      "meaning_pair_id": "0eb9db21664a5b4807cc8b08b098d0ec647aaef314c3c6ac4859a141fb98832e",
+      "meaning_pair_path": "meaning/pairs/0e.jsonl",
+      "meaning_pair_blob_sha": "291c4b8ce746b9352333871790c23d6d7182dd8f"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "A30120-zh-00035",
+      "target_id": "XML:2210485",
+      "source_hash": "253d1510caf5362045ce50b1bdc33758fc4b3fd6ddc552d8dc0619784bd9c7d1",
+      "source_ko": "명",
+      "previous_zh": "名称",
+      "meaning_pair_id": "e555e8cf05f96583a4d528d3673e3ba9ee34932d74cb284c76d04d37cc079047",
+      "meaning_pair_path": "meaning/pairs/e5.jsonl",
+      "meaning_pair_blob_sha": "ce7752e05c07f438119bbf9c3341b68d88d61e82",
+      "corrected_zh": "姓名",
+      "reason": "한국어 서식의 이름·학력·신체 및 체력검사·추천기수·병역처분 항목과 MTQ 표식 교정."
+    },
+    {
+      "row_id": "A30120-zh-00036",
+      "target_id": "XML:2210486",
+      "source_hash": "ef7ca2e3c3597ba4384f49021e3923722a012d990e9d5576c99fddab3d0f49fc",
+      "source_ko": "학력",
+      "previous_zh": "教育",
+      "meaning_pair_id": "5777ec6bcc06bd8a034e3b412a9d4288ade5c068ba30dd6d2f6aff287a1ed6a9",
+      "meaning_pair_path": "meaning/pairs/57.jsonl",
+      "meaning_pair_blob_sha": "7e6cc8b7521b5ef493484b19183ccc20f9f1fe6a",
+      "corrected_zh": "学历",
+      "reason": "한국어 서식의 이름·학력·신체 및 체력검사·추천기수·병역처분 항목과 MTQ 표식 교정."
+    },
+    {
+      "row_id": "A30120-zh-00038",
+      "target_id": "XML:2210488",
+      "source_hash": "dd63b4eada4d0ab098137fdff2566260c0abbd602d37c03ce81387240885248d",
+      "source_ko": "신체ㆍ체력",
+      "previous_zh": "体能训练",
+      "meaning_pair_id": "2caeb4b3861dabd65f40f8f55570bf0b3cdc21e612f7e0d9060c6998e1643bf3",
+      "meaning_pair_path": "meaning/pairs/2c.jsonl",
+      "meaning_pair_blob_sha": "ac2bb2fcd5793acb805ddc97a473307090454ab8",
+      "corrected_zh": "身体及体能检查",
+      "reason": "한국어 서식의 이름·학력·신체 및 체력검사·추천기수·병역처분 항목과 MTQ 표식 교정."
+    },
+    {
+      "row_id": "A30120-zh-00039",
+      "target_id": "XML:2210490",
+      "source_hash": "8077a1a3433e850ee7a68a29180d5014d1a1f08e43da0dd73948b3d1e5682985",
+      "source_ko": "면접시험",
+      "previous_zh": "面试测试MTQ8ab1dc2ae946983402785结束",
+      "meaning_pair_id": "67585b9fe2873eb5e5b794ddcc419ffb0b1be182d2c040297c7abc14e4290d2e",
+      "meaning_pair_path": "meaning/pairs/67.jsonl",
+      "meaning_pair_blob_sha": "80372a9580850b7a4e46ce6cbdf6b4e3805ca0bf",
+      "corrected_zh": "面试考试",
+      "reason": "한국어 서식의 이름·학력·신체 및 체력검사·추천기수·병역처분 항목과 MTQ 표식 교정."
+    },
+    {
+      "row_id": "A30120-zh-00041",
+      "target_id": "XML:2210492",
+      "source_hash": "23b103d381943b44bab1a31453b24a8844af43a4ccb101eee94304f252ca6a86",
+      "source_ko": "추천기수",
+      "previous_zh": "推荐骑师",
+      "meaning_pair_id": "8d5eab01eb22b167e77ca2f81c8cbc0ce1a743ac24dbf1602b854a53171736da",
+      "meaning_pair_path": "meaning/pairs/8d.jsonl",
+      "meaning_pair_blob_sha": "fdbb5d9c9d5e1be00c52d2e3f8020e899783069b",
+      "corrected_zh": "推荐入营批次",
+      "reason": "한국어 서식의 이름·학력·신체 및 체력검사·추천기수·병역처분 항목과 MTQ 표식 교정."
+    },
+    {
+      "row_id": "A30120-zh-00042",
+      "target_id": "XML:2210493",
+      "source_hash": "fcd832b51dfa87d75675ccc2dbabc539b9f24f0d5a4add983700f9918b83526f",
+      "source_ko": "병역처분",
+      "previous_zh": "军事服务处置",
+      "meaning_pair_id": "0eb9db21664a5b4807cc8b08b098d0ec647aaef314c3c6ac4859a141fb98832e",
+      "meaning_pair_path": "meaning/pairs/0e.jsonl",
+      "meaning_pair_blob_sha": "291c4b8ce746b9352333871790c23d6d7182dd8f",
+      "corrected_zh": "兵役处分",
+      "reason": "한국어 서식의 이름·학력·신체 및 체력검사·추천기수·병역처분 항목과 MTQ 표식 교정."
+    }
+  ],
+  "validation": {
+    "row_ids_unique": true,
+    "source_hashes_match": true,
+    "korean_pair_ids_resolved": true,
+    "mtq_markers_removed": true,
+    "total_cumulative_checked_rows": 499
+  },
+  "next_step": "Continue A30120 43-51; skip prior verified 52-53."
+}
