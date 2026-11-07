@@ -1,0 +1,8 @@
+{
+  "job_id": "F-c4d1c57bfcbccdd2b158",
+  "worker": "C06",
+  "checked_rows": 84,
+  "corrected_rows": 57,
+  "status": "COMPLETE",
+  "note": "C06 completed the full Korean-authoritative Chinese review of the 공공외교법 family, covering Act B1 (17/17 rows, 14 edits), Presidential Enforcement Decree B2 (22/22 rows, 18 edits), and attached application form A38135 (45/45 rows, 25 edits): 84 reviewed, 57 corrected, 27 retained. All laws/ko, laws/zh and laws/en Git blobs on main matched baseline ba89cbb66366e8b77a5cce6771c2f88d39fed8a6. Consulted exact-version official English translations of the Act and Decree, the separate form's version-linked draft English reference, and 35 meaning/pairs JSONL bucket files referenced by form rows (some indexed pair IDs were not present in their buckets; authoritative Korean form and English draft were consulted directly for those rows). Substantive corrections include omitted Article 3(2) and Article 8(4), diplomatic missions' roles, master and annual plan coordination, meeting membership and quorums, 2025 ministry amendments, Decree Article 2 paragraph enumeration and September 30/November 30/December 31/January 31 submission deadlines, grounds for designation of public diplomacy implementing organizations, 14-day form processing time, required form fields, application text, corporate registration confirmation and 1-copy document requirements. Removed erroneously appended form text from Decree Article 6 addendum while keeping all 45 catalog-linked form rows separately, preserving form field ordering, source IDs, hashes and relationships. Stored only review/zh and the receipt without modifying laws/*, original annex data or the operational database."
+}
