@@ -1,0 +1,38 @@
+{
+  "schema": "LAW_ZH_PARTIAL_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "B1",
+  "range": {
+    "first": "B1-zh-00026",
+    "last": "B1-zh-00030"
+  },
+  "checked_rows": 5,
+  "corrected_rows": 4,
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "edits": [
+    {
+      "id": "B1-zh-00026",
+      "source_hash": "00413f7f241ca5c9229c12f6a87f3d507073c1c01ad98dfe90b9a10fbd75ceba",
+      "text": "第二十四条（因不法原因产生的债权无效）\n① 实施人口贩运等犯罪者因其犯罪行为对受害者享有的债权，无论合同的形式或者名义如何，均属无效。转让该债权或者由他人承担该债务的，亦同。\n② 检察官或者司法警察侦查因涉嫌不履行与第一款不法原因有关的债务而被告诉、告发的案件时，应当查明提供金钱、财物或者其他财产利益是否被用作诱骗、强迫人口贩运等的手段，并在侦查中予以考虑。\n③ 检察官或者司法警察调查受害者时，应当告知受害者本人或者其法定代理人等第一款规定的债权无效的事实。\n\n"
+    },
+    {
+      "id": "B1-zh-00027",
+      "source_hash": "dcf59289d196f387c0befa3bf19dfce96447018debf14c12be8257b869412da2",
+      "text": "第二十五条（对受害者等的就学支援）\n① 受害者或者在受害者遭受侵害时居留在韩国的受害者直系卑亲属家庭成员（以下简称“受害者等”）为未成年人的，国家和地方自治团体可以支援其在《初等及中等教育法》第二条规定的学校就学，包括入学、重新入学、转学和编入学。\n② 受害者等有必要在住所地以外地区就学时，应当提供支援，以使其顺利就学。在此情形下，负责就学支援的有关人员应当注意避免侵犯受害者等的私生活。\n③ 出勤天数的计算等第二款就学支援所需事项由总统令规定。\n\n"
+    },
+    {
+      "id": "B1-zh-00028",
+      "source_hash": "e24a344f692a42ce5f794004a53d6ee3c3c8c8265442b0b598bc5e06eecb4eae",
+      "text": "第二十六条（对受害者等的就业支援）\n① 国家和地方自治团体可以通过职业培训、就业对接等方式，支援受害者等就业。\n② 就业支援对象的范围及就业支援所需事项由总统令规定。\n\n"
+    },
+    {
+      "id": "B1-zh-00030",
+      "source_hash": "cd73c198db3223e5cadccb644036ef8eb3320d2e1875d3e2414a004400f5e9d9",
+      "text": "第二十八条（医疗费用支援）\n① 受害者权益保护机构或者第三十三条规定的人口贩运等受害者支援设施的负责人将受害者等转介至医疗机构接受疾病治疗等时，国家或者地方自治团体可以对《医疗给付法》第七条规定的医疗给付不予支付的治疗项目，支援全部或者部分医疗费用。\n② 第一款规定的医疗费用支援范围、程序等必要事项由总统令规定。\n\n"
+    }
+  ],
+  "note": "Reviewed Korean and Chinese for 5 B1 rows. Corrected illegal-cause claims vs litigation claims, legal-representative subject, eligibility for minor educational support, state vs federal wording and treatment costs; row 29 retained."
+}
