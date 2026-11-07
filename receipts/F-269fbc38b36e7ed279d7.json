@@ -1,0 +1,8 @@
+{
+  "job_id": "F-269fbc38b36e7ed279d7",
+  "worker": "C02",
+  "checked_rows": 659,
+  "corrected_rows": 275,
+  "status": "COMPLETE",
+  "note": "Reviewed all 659 Chinese rows across the 3-document family against the Korean source. Applied 275 unique row-level corrections while preserving row IDs and document relationships. The Korean source blob SHA is unchanged from the specified base commit. Exact-version official English reference documents were read for the Act and Enforcement Decree; 143 rows had English packet pair references across 107 meaning/pairs files, while 516 rows had no English pair. No reviewed/en file was associated with these law versions (reviewed_en_path was null for all documents and no matching reviewed files were present). Korean remains authoritative. The annex list of 96 charge types was checked against adjacent Korean source lines and split cells; the Act's late-charge rates were checked as 3/100 of overdue charges and 25/100000 per day. Final applied-text QA found no remaining Korean text, MTQ hashes, START/END artifacts, or obsolete misrendered law-title variants. Review storage is separate from operational database application."
+}
