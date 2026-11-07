@@ -1,0 +1,8 @@
+{
+  "job_id": "F-8cbfea857f2cc0906ec6",
+  "worker": "C05",
+  "checked_rows": 182,
+  "corrected_rows": 95,
+  "status": "COMPLETE",
+  "note": "Completed full Chinese legal review of all four assigned documents against authoritative Korean at base commit 527cccf37ffe7e9ed7c7a95f69e4a5db40e2ad9d: Act 76 rows, Enforcement Decree 53 rows, Annex 1 fundraising subjects and amounts 18 rows, Annex 2 administrative fine standards 35 rows. Verified all 182 original unique row IDs; 95 unique nonempty changed texts (Act 30; Decree 20; Annex 1 17; Annex 2 28). Corrected the statutory foundation and fund names, officer composition and appointment, wrong or untranslated titles and qualifiers, government agency/minister references, historical transition provisions, international-exchange contributions and passport fee table, administrative fine escalating rules, and extraneous annex material appended to decree draft. Confirmed Annex 1 domestic KRW 12,000 / 9,000 and overseas USD 12 / 9 equivalents, and Annex 2 fine rows 50/100/200 and 25/50/100 in 10,000-won units. Read two linked official English document references and 48 referenced meaning pairs across 43 GitHub meaning/pairs files; reviewed/en_path unavailable (null) in supplied English index. Saved and verified review in commit f028ddb8a60d8c462be2f8e1869cb45c7328bdeb, blob 47a3eb4a31ae76158ca90868dadba12d7cec9e09. laws/* originals unchanged. Operational database ingestion is separate."
+}
