@@ -1,0 +1,335 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B1-01.json",
+      "blob_sha": "69fcf795c9621b125ae73864793ee4064bd4b815",
+      "document_key": "B1",
+      "rows_checked": 145,
+      "rows_corrected": 26
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "blob_sha": "aeba15bca83d7887b5e9f7ce393fba770a9b5faa",
+      "verified_rows": 12,
+      "documents": [
+        "A30118",
+        "A30120"
+      ]
+    },
+    {
+      "path": "status/delivery/verified-step-S2-86af8794991369270a0d3bd696fb65c5-C04-CHECKPOINT-166-01.json",
+      "blob_sha": "33003dbd344370d5b2cf92bb05838b92b144a7ba",
+      "status": "INTENT_NO_RESEND"
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-01.json",
+      "blob_sha": "5f92fef46a104d832b4e6944e94ab8ba7257dda1",
+      "document_key": "B2",
+      "rows_checked": 36,
+      "rows_corrected": 31
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00037-00044.json",
+      "blob_sha": "31d1e93b2b7bc2aab9430a0d4b201c246301d1c5",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00045-00052.json",
+      "blob_sha": "be37a2f05e6c47bf33ec4ea58b1d6163df4b96a1",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00053-00060.json",
+      "blob_sha": "385725a9ff5c6f74e8cb723a6fc91fbcf072d639",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00061-00072.json",
+      "blob_sha": "4573174026ca13b9d49225d71e76f10c6ab2d76f",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00073-00084.json",
+      "blob_sha": "eb20464990f1e23042b03e95a20ed243fed5c555",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00085-00104.json",
+      "blob_sha": "30ba440fd5a8c3e355e8e79c418c6c9b7adcaa9f",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00105-00124.json",
+      "blob_sha": "3fe79039feaa1febde3bcd60b4397e5a52301b9e",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    }
+  ],
+  "document": {
+    "key": "B2",
+    "kind": "대통령령",
+    "title": "의무경찰대 설치 및 운영에 관한 법률 시행령",
+    "source_hash": "da345505912da9c84c24a63989aee8605f2465beea1b28313585cd363b8b2504",
+    "rows_checked": 20,
+    "rows_corrected": 6,
+    "document_review_state": "IN_PROGRESS"
+  },
+  "range": {
+    "first_row_id": "B2-zh-00125",
+    "last_row_id": "B2-zh-00144",
+    "verified_row_count": 20
+  },
+  "verified_rows": [
+    {
+      "row_id": "B2-zh-00125",
+      "target_id": "0aee20b4b5b721af4a2df0fbc5ba3383bca002c6175da495325a836961436dfd",
+      "source_hash": "756de7811aa5a53b3606b91b77cdf43497f2d47796d35141eb8a462c9c5ed6d0",
+      "source_ko": "부칙(국가유공자등예우및지원에관한법률시행령) <제15486호,1997.9.30>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "补充法令（关于对国家功勋人物给予优待和扶持等的法令的执行令）<第15486号，1997年9月30日>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00126",
+      "target_id": "096099dd0b90d0cf81df138683a1cec70e37bc6789daf95b5c9fb485ebd37987",
+      "source_hash": "40ac608cf2787f4f50a97c8b940ad8db5f2f59c445aea0216bf6cbd54d933b82",
+      "source_ko": "제1조 (시행일) 이 영은 공포한 날부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自公布之日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00127",
+      "target_id": "41d9bb5eaf4b8ee07349d8ece634b5b9b347e42a696af94e69decff51bc0ca33",
+      "source_hash": "c27a8d90e2fad39db31a7ec7c05311572dbb07d5ec24565e9bc0e8ebd63ca618",
+      "source_ko": "제2조 및 제3조 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "省略第2条和第3条\n\n"
+    },
+    {
+      "row_id": "B2-zh-00128",
+      "target_id": "38bd2cf1d6c01d7d1df5ccad08098479b0d9e27f73a9e1ebe49bfd1661445c45",
+      "source_hash": "44a838defa1a41c3e6cb17b1c5f42a9cdd2e171ea08b743e32dd47d65eaed086",
+      "source_ko": "부칙(공무원여비규정) <제15680호,1998.2.24>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "增补（公务员差旅费规定）<第15680号，1998年2月24日>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00129",
+      "target_id": "c711154f6d86879f9cf604b4a0944550b85c8fd98ad680cdb7ead28ec8556356",
+      "source_hash": "40ac608cf2787f4f50a97c8b940ad8db5f2f59c445aea0216bf6cbd54d933b82",
+      "source_ko": "제1조 (시행일) 이 영은 공포한 날부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自公布之日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00130",
+      "target_id": "7da0806c249ce4f2be89c077ad8f3450440d5090dbc80282f554bd65eb227e3f",
+      "source_hash": "c27a8d90e2fad39db31a7ec7c05311572dbb07d5ec24565e9bc0e8ebd63ca618",
+      "source_ko": "제2조 및 제3조 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第 2 条和第 3 条已省略\n\n"
+    },
+    {
+      "row_id": "B2-zh-00131",
+      "target_id": "7ec11c626a5798ef1aa277361014fee5a752bd477f6336e4339df21f5ccf11ac",
+      "source_hash": "214a7d4377f7fbdb8936402bf39014bc88fb23afb1962170cf2d3addcf9a2ab4",
+      "source_ko": "부칙(병역법시행령) <제16149호,1999.3.3>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "补充条款（兵役法实施令）<1999年3月3日第16149号法令>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00132",
+      "target_id": "904bfe177e773a05303954ce0672ce829c7f787775355a70b6a88ff8769d35c6",
+      "source_hash": "15f8655de762f8a37d7f6d34577326cd6fc38b3ae996e09b709979c842c016c6",
+      "source_ko": "제1조 (시행일) 이 영은 공포한 날부터 시행한다. <단서 생략>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自公布之日起生效。<但书略>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00133",
+      "target_id": "d139e99edbaf73840e6b54ab6266393906cd3bc92adf7de4418ebc9bf1ddd251",
+      "source_hash": "5a59a79dd14cf60a8856d88c6eeec15a3bcd860d4b2df98e6a6f94e4ec6af028",
+      "source_ko": "제2조 내지 제6조 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "省略第 2 至 6 条\n\n"
+    },
+    {
+      "row_id": "B2-zh-00134",
+      "target_id": "d70712ead672d586d0ad3a086b96f0fda764ca654c24b2b80864e5478071638e",
+      "source_hash": "dde282c4e52475fb8f11836c7be26af5e93086e6127879956f982caa1bc94760",
+      "source_ko": "부칙 <제16231호,1999.4.9>\n\n①(시행일) 이 영은 공포한 날부터 시행한다.\n\n②(급여사유발생에 관한 경과조치) 이 영 시행전에 사망급여금의 지급사유가 발생한 자에 대한 급여에 관하여는 종전의 규정에 의한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "补充规定 <第16231号，1999年4月9日>\n\n①（生效日期）本法令自公布之日起生效。\n\n②（关于支付抚恤金事件的过渡措施）对于在本法令实施之前发生导致支付死亡抚恤金的事件的人的抚恤金，适用以前的规定。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00135",
+      "target_id": "04b755fc05c673176fd371d987822e36eb25618a408e7937b1e45d9e73661f7f",
+      "source_hash": "d109bb3f2e0d5b8976756855df0248ae0ffb3ef935e8bf58965673ddce5d8480",
+      "source_ko": "부칙(기획예산처직제) <제16326호,1999.5.24>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "增编（计划和预算部组织结构）<1999年5月24日，第16326号>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00136",
+      "target_id": "fb336e34a95b9381a18187da2fde8e7a93821545ea69552ddd74780761857520",
+      "source_hash": "40ac608cf2787f4f50a97c8b940ad8db5f2f59c445aea0216bf6cbd54d933b82",
+      "source_ko": "제1조 (시행일) 이 영은 공포한 날부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自公布之日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00137",
+      "target_id": "2d81f18fcc0aa1c725c4de5c06424364298a0d198dd8098f41a53d614e1e8dfb",
+      "source_hash": "119c19aa8cf5d20a95854f948299b43b564b2b8788981249c71d35dec8490177",
+      "source_ko": "제2조 내지 제4조 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "省略第 2 至 4 条\n\n"
+    },
+    {
+      "row_id": "B2-zh-00138",
+      "target_id": "2c17b324f39d35009a32d84d5b1e9b552cd3e16681f4e0e25249831acbb6ceac",
+      "source_hash": "b9ab4dd06bce578f69ac7f49a236b15c46a10f66b6eb1348ec609c71e0cf28b3",
+      "source_ko": "부칙 <제16881호,2000.7.1>\n\n이 영은 공포한 날부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "补充规定 <第16881号，2000年7月1日>\n\n本法令自颁布之日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00139",
+      "target_id": "fe6735e206ddc6f83d06d7c9e6ceb8a9fd946a18de39add428e117282c3904fb",
+      "source_hash": "18c90ba24de9f43239cb3d300b368bd05e8c7b4b3162b9a7eb4dfe30db41d481",
+      "source_ko": "부칙(군인사법시행령) <제17158호,2001.3.27>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "补充规定（《军事人员法》实施令）<第17158号，2001年3月27日>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00140",
+      "target_id": "234e984afb116bf8e2aaa2e73358dec21e046eecfcdde49ea989c24773506f5b",
+      "source_hash": "c21c01129849463c58cefd5cb1b1e9e9f657a5426545351af4fb8ee5536f126c",
+      "source_ko": "제1조 (시행일) 이 영은 2001년 3월 27일부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自2001年3月27日起生效。\n\n"
+    },
+    {
+      "row_id": "B2-zh-00141",
+      "target_id": "8afb41249f4de9df18225e5eb320e571c08c1132228c699d4f1bc5f9aa52c4d3",
+      "source_hash": "34b6ded913eea2851372de519a4d7113cfa06b2f08c30fa113e05ce4eba63342",
+      "source_ko": "제2조 (다른 법령의 개정) ①및 ②생략\n\n  ③전투경찰대설치법시행령중 다음과 같이 개정한다.\n\n  제14조제1항 단서중 \"육군하사관학교\"를 \"육군부사관학교\"로 한다.\n\n  ④내지 <25>생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第二条（修改其他法律）①和②已省略\n\n  ③ 《防暴警察部队设立法》实施细则修改如下。\n\n  第十四条第一款但书中的“陆军士官学校”应改为“陆军士官学校”。\n\n  ④ 至 <25> 省略\n\n"
+    },
+    {
+      "row_id": "B2-zh-00142",
+      "target_id": "688d2ec1ff965d37d9bc89eeacda4e00b30efd6f1edbe30f785c0a07733ba56a",
+      "source_hash": "fab18bd1e0d74a271eea817ca2d5dff62d53ec4d5214a8c48af3c4adbab54a93",
+      "source_ko": "제3조 생략\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第3条省略\n\n"
+    },
+    {
+      "row_id": "B2-zh-00143",
+      "target_id": "428625ee113678b9df9071aec3985a6da98625ec58c5cfc872f0e98214d792ec",
+      "source_hash": "39221dbb14aaf438159a21482376d9db39b440e5a43e8adb164c3437f5cf2680",
+      "source_ko": "부칙(병역법시행령) <제17361호,2001.9.15>\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "补充条款（兵役法实施令）<第17361号，2001年9月15日>\n\n"
+    },
+    {
+      "row_id": "B2-zh-00144",
+      "target_id": "c249513cff99cb8832975e1e30d633b9e1de5c25ee2261a3e004eb7ef3c75d07",
+      "source_hash": "40ac608cf2787f4f50a97c8b940ad8db5f2f59c445aea0216bf6cbd54d933b82",
+      "source_ko": "제1조 (시행일) 이 영은 공포한 날부터 시행한다.\n\n",
+      "source_basis": "authoritative source_ko offsets",
+      "previous_zh": "第一条（生效日期）本法令自公布之日起生效。\n\n"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "B2-zh-00125",
+      "target_id": "0aee20b4b5b721af4a2df0fbc5ba3383bca002c6175da495325a836961436dfd",
+      "source_hash": "756de7811aa5a53b3606b91b77cdf43497f2d47796d35141eb8a462c9c5ed6d0",
+      "source_ko": "부칙(국가유공자등예우및지원에관한법률시행령) <제15486호,1997.9.30>\n\n",
+      "previous_zh": "补充法令（关于对国家功勋人物给予优待和扶持等的法令的执行令）<第15486号，1997年9月30日>\n\n",
+      "corrected_zh": "附则（《国家有功者等礼遇及支援法施行令》）<第15486号，1997年9月30日>\n\n",
+      "reason": "한국어 원문에 비추어 부칙 법명과 제14조 개정의 서로 다른 군사학교 명칭 등 명백한 오류 교정."
+    },
+    {
+      "row_id": "B2-zh-00128",
+      "target_id": "38bd2cf1d6c01d7d1df5ccad08098479b0d9e27f73a9e1ebe49bfd1661445c45",
+      "source_hash": "44a838defa1a41c3e6cb17b1c5f42a9cdd2e171ea08b743e32dd47d65eaed086",
+      "source_ko": "부칙(공무원여비규정) <제15680호,1998.2.24>\n\n",
+      "previous_zh": "增补（公务员差旅费规定）<第15680号，1998年2月24日>\n\n",
+      "corrected_zh": "附则（《公务员差旅费规定》）<第15680号，1998年2月24日>\n\n",
+      "reason": "한국어 원문에 비추어 부칙 법명과 제14조 개정의 서로 다른 군사학교 명칭 등 명백한 오류 교정."
+    },
+    {
+      "row_id": "B2-zh-00134",
+      "target_id": "d70712ead672d586d0ad3a086b96f0fda764ca654c24b2b80864e5478071638e",
+      "source_hash": "dde282c4e52475fb8f11836c7be26af5e93086e6127879956f982caa1bc94760",
+      "source_ko": "부칙 <제16231호,1999.4.9>\n\n①(시행일) 이 영은 공포한 날부터 시행한다.\n\n②(급여사유발생에 관한 경과조치) 이 영 시행전에 사망급여금의 지급사유가 발생한 자에 대한 급여에 관하여는 종전의 규정에 의한다.\n\n",
+      "previous_zh": "补充规定 <第16231号，1999年4月9日>\n\n①（生效日期）本法令自公布之日起生效。\n\n②（关于支付抚恤金事件的过渡措施）对于在本法令实施之前发生导致支付死亡抚恤金的事件的人的抚恤金，适用以前的规定。\n\n",
+      "corrected_zh": "附则 <第16231号，1999年4月9日>\n\n①（施行日期）本施行令自公布之日起施行。\n\n②（关于给付事由发生的过渡措施）对于本施行令施行前已发生死亡给付金支付事由的人员，其给付金仍适用原有规定。\n\n",
+      "reason": "한국어 원문에 비추어 부칙 법명과 제14조 개정의 서로 다른 군사학교 명칭 등 명백한 오류 교정."
+    },
+    {
+      "row_id": "B2-zh-00135",
+      "target_id": "04b755fc05c673176fd371d987822e36eb25618a408e7937b1e45d9e73661f7f",
+      "source_hash": "d109bb3f2e0d5b8976756855df0248ae0ffb3ef935e8bf58965673ddce5d8480",
+      "source_ko": "부칙(기획예산처직제) <제16326호,1999.5.24>\n\n",
+      "previous_zh": "增编（计划和预算部组织结构）<1999年5月24日，第16326号>\n\n",
+      "corrected_zh": "附则（《企划预算处职制》）<第16326号，1999年5月24日>\n\n",
+      "reason": "한국어 원문에 비추어 부칙 법명과 제14조 개정의 서로 다른 군사학교 명칭 등 명백한 오류 교정."
+    },
+    {
+      "row_id": "B2-zh-00139",
+      "target_id": "fe6735e206ddc6f83d06d7c9e6ceb8a9fd946a18de39add428e117282c3904fb",
+      "source_hash": "18c90ba24de9f43239cb3d300b368bd05e8c7b4b3162b9a7eb4dfe30db41d481",
+      "source_ko": "부칙(군인사법시행령) <제17158호,2001.3.27>\n\n",
+      "previous_zh": "补充规定（《军事人员法》实施令）<第17158号，2001年3月27日>\n\n",
+      "corrected_zh": "附则（《军人事法施行令》）<第17158号，2001年3月27日>\n\n",
+      "reason": "한국어 원문에 비추어 부칙 법명과 제14조 개정의 서로 다른 군사학교 명칭 등 명백한 오류 교정."
+    },
+    {
+      "row_id": "B2-zh-00141",
+      "target_id": "8afb41249f4de9df18225e5eb320e571c08c1132228c699d4f1bc5f9aa52c4d3",
+      "source_hash": "34b6ded913eea2851372de519a4d7113cfa06b2f08c30fa113e05ce4eba63342",
+      "source_ko": "제2조 (다른 법령의 개정) ①및 ②생략\n\n  ③전투경찰대설치법시행령중 다음과 같이 개정한다.\n\n  제14조제1항 단서중 \"육군하사관학교\"를 \"육군부사관학교\"로 한다.\n\n  ④내지 <25>생략\n\n",
+      "previous_zh": "第二条（修改其他法律）①和②已省略\n\n  ③ 《防暴警察部队设立法》实施细则修改如下。\n\n  第十四条第一款但书中的“陆军士官学校”应改为“陆军士官学校”。\n\n  ④ 至 <25> 省略\n\n",
+      "corrected_zh": "第二条（其他法令的修订）①及②省略。\n\n  ③ 《战斗警察部队设立法施行令》作如下修订。\n\n  第十四条第一款但书中的“陆军下士官学校”改为“陆军副士官学校”。\n\n  ④至<25>省略。\n\n",
+      "reason": "한국어 원문에 비추어 부칙 법명과 제14조 개정의 서로 다른 군사학교 명칭 등 명백한 오류 교정."
+    }
+  ],
+  "validation": {
+    "row_ids_unique": true,
+    "source_hashes_match": true,
+    "verified_korean_offsets": true,
+    "no_untranslated_or_mtq_start_markers": true,
+    "english_reference": "documents/en/kr-004766-281729-en.json",
+    "total_cumulative_checked_rows": 301
+  },
+  "next_step": "Continue B2 at B2-zh-00145; whole 800-row family not complete."
+}
