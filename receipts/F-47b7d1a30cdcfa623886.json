@@ -1,0 +1,8 @@
+{
+  "job_id": "F-47b7d1a30cdcfa623886",
+  "worker": "C01",
+  "checked_rows": 230,
+  "corrected_rows": 105,
+  "status": "COMPLETE",
+  "note": "C01 reviewed all 230 Chinese rows in the four-document family 지방공무원 교육훈련법 against the unchanged Korean GitHub source (baseline 1752813706438c215533734e65b7a4eb7edc67e3; Korean blob SHA 7e523d954e9f96d8b5c524acd21bca0112b1fd4c). Scope: Act B1 61 checked/14 corrected; Enforcement Decree B2 76/31; annex 1 A30409 66/46; annex 2 A30410 27/14. Total 105 distinct, nonblank original-row-ID corrections. Consulted laws/ko, laws/zh, laws/en, the exact-version official English Act and draft English Decree sources under documents/en, and referenced meaning/pairs Korean/English contexts for annex rows. Corrected substantive issues in decree Article 7 promotion exceptions, Article 10 omitted training item, Article 35 return-to-duty order, numerical/citation and ministerial terminology, annex 1 grade/year thresholds, decimal rounding and reference date, annex 2 refund headings, fractions and cash selling exchange rate. Removed duplicate annex text mistakenly embedded in decree B2 final row while retaining all separate annex source row IDs. Review was created first through GitHub Contents API on main at commit eb90684db4817a17d0b94dd4b512b2ae73c54a37 (verified blob 53409a65ea2629f76244202845bd955597da7b2e) with 230 checked and 105 unique edits. Korean, Chinese, and English laws/* source files were not modified. Receipt stored separately; repository review/receipt persistence does not imply operational DB ingestion."
+}
