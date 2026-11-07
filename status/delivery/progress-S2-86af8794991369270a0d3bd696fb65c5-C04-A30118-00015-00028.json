@@ -1,0 +1,450 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B1-01.json",
+      "blob_sha": "69fcf795c9621b125ae73864793ee4064bd4b815",
+      "document_key": "B1",
+      "rows_checked": 145,
+      "rows_corrected": 26
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "blob_sha": "aeba15bca83d7887b5e9f7ce393fba770a9b5faa",
+      "verified_rows": 12,
+      "documents": [
+        "A30118",
+        "A30120"
+      ]
+    },
+    {
+      "path": "status/delivery/verified-step-S2-86af8794991369270a0d3bd696fb65c5-C04-CHECKPOINT-166-01.json",
+      "blob_sha": "33003dbd344370d5b2cf92bb05838b92b144a7ba",
+      "status": "INTENT_NO_RESEND"
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-01.json",
+      "blob_sha": "5f92fef46a104d832b4e6944e94ab8ba7257dda1",
+      "document_key": "B2",
+      "rows_checked": 36,
+      "rows_corrected": 31
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00037-00044.json",
+      "blob_sha": "31d1e93b2b7bc2aab9430a0d4b201c246301d1c5",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 8
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00045-00052.json",
+      "blob_sha": "be37a2f05e6c47bf33ec4ea58b1d6163df4b96a1",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00053-00060.json",
+      "blob_sha": "385725a9ff5c6f74e8cb723a6fc91fbcf072d639",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00061-00072.json",
+      "blob_sha": "4573174026ca13b9d49225d71e76f10c6ab2d76f",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 10
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00073-00084.json",
+      "blob_sha": "eb20464990f1e23042b03e95a20ed243fed5c555",
+      "document_key": "B2",
+      "rows_checked": 12,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00085-00104.json",
+      "blob_sha": "30ba440fd5a8c3e355e8e79c418c6c9b7adcaa9f",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00105-00124.json",
+      "blob_sha": "3fe79039feaa1febde3bcd60b4397e5a52301b9e",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00125-00144.json",
+      "blob_sha": "3fe9aed92331bbf966efeff025964f461a605d6b",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00145-00164.json",
+      "blob_sha": "ab61b90a9bc19864b55a54b55cce703f9cb22470",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 12
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00165-00184.json",
+      "blob_sha": "68f3e74081cab6a1e84a178d3404ae96facceabe",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 7
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00185-00204.json",
+      "blob_sha": "81c7f57799a8550b49975c68793c0c3de622e902",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 9
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00205-00208.json",
+      "blob_sha": "feda2b38822c3429ef5493d37b044d1e5ef9ff86",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00209-00212.json",
+      "blob_sha": "08cb0522bc3ceae21d3d76fb56b95152a08fc246",
+      "document_key": "B2",
+      "rows_checked": 4,
+      "rows_corrected": 4
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00213-00223.json",
+      "blob_sha": "a7fecc1db30a21c0677eaf0e6696e8267404fdbd",
+      "document_key": "B2",
+      "rows_checked": 11,
+      "rows_corrected": 6
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00224-00224.json",
+      "blob_sha": "7ce857683229c544c015843cb5da47ec2c5ea6ed",
+      "document_key": "B2",
+      "rows_checked": 1,
+      "rows_corrected": 1
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00225-00244.json",
+      "blob_sha": "bde39fb81d1a2fe5f6acbc78ab2d929732f8cb58",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00245-00264.json",
+      "blob_sha": "52e222a297a0913cce11527a0e6db004f8de1012",
+      "document_key": "B2",
+      "rows_checked": 20,
+      "rows_corrected": 11
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-B2-00265-00272.json",
+      "blob_sha": "ed666acab2f084c7266595060f136c7c5c4c90aa",
+      "document_key": "B2",
+      "rows_checked": 8,
+      "rows_corrected": 5
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-20261108-0107KST.json",
+      "preserved_preverified_ids": [
+        "A30118-zh-00029",
+        "A30118-zh-00030"
+      ]
+    },
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30118-00001-00014.json",
+      "blob_sha": "b0ec0f1cc7e719106067960812e69c7bed03cfb5",
+      "document_key": "A30118",
+      "rows_checked": 14,
+      "rows_corrected": 7
+    }
+  ],
+  "document": {
+    "key": "A30118",
+    "kind": "별표",
+    "title": "의무경찰 선발시험 신체 및 체력기준표(제7조제4항 관련)",
+    "source_hash": "6bbdfe157c466f524b69f30a3fa5885a8bbe6aef00ca70c818b6cb984098921e",
+    "rows_checked": 14,
+    "rows_corrected": 8,
+    "document_review_state": "IN_PROGRESS"
+  },
+  "range": {
+    "first_row_id": "A30118-zh-00015",
+    "last_row_id": "A30118-zh-00028",
+    "verified_row_count": 14
+  },
+  "verified_rows": [
+    {
+      "row_id": "A30118-zh-00015",
+      "target_id": "XML:2210421",
+      "source_hash": "92d4c353316b6549e6ecfff4deabd65eb62ff517116f2ff4eb6d88911dfafb4d",
+      "source_ko": "고혈압(수축기 혈압이 145㎜Hg을 초과하거나 확장기 혈압이 90㎜",
+      "previous_zh": "高血压（收缩压超过145 mmHg或舒张压超过90 mmHg）",
+      "meaning_pair_id": "6ab032c34c2173299ff09b3a38720bfd4cb4c26199f47d76ef22763501915010",
+      "meaning_pair_path": "meaning/pairs/6a.jsonl",
+      "meaning_pair_blob_sha": "53ead47123bf061b014532e2a5225176984c9c50"
+    },
+    {
+      "row_id": "A30118-zh-00016",
+      "target_id": "XML:2210422",
+      "source_hash": "5e9573fc1983f478da1d806666c420f5033fdcdc5c0c677f5eab992546774632",
+      "source_ko": "Hg을 초과하는 경우) 또는 저혈압(수축기 혈압이 90㎜Hg 미만이",
+      "previous_zh": "Hg）或低血压（收缩压低于 90 mmHg",
+      "meaning_pair_id": "11bfbfe87e4fcd8909b61eb1baa645a5b9a6920e9676697516001cddbc47218e",
+      "meaning_pair_path": "meaning/pairs/11.jsonl",
+      "meaning_pair_blob_sha": "c744c5418938526251f02585f837de1061ae27be"
+    },
+    {
+      "row_id": "A30118-zh-00017",
+      "target_id": "XML:2210423",
+      "source_hash": "b59a70d61e8687992c9497e09b70145af4446ac85c6c69773bcfddbbbd7633d9",
+      "source_ko": "거나 확장기 혈압이 60㎜Hg 미만인 경우)이 아닌 사람",
+      "previous_zh": "血压不高（或舒张压低于 60 mmHg）的人",
+      "meaning_pair_id": "b6a7786bd0e2207a814ec5d5e2c97d0844e42889edc28c752f80bee16b01810d",
+      "meaning_pair_path": "meaning/pairs/b6.jsonl",
+      "meaning_pair_blob_sha": "b3635382ecf61d246384502327cc5fba4376c554"
+    },
+    {
+      "row_id": "A30118-zh-00018",
+      "target_id": "XML:2210424",
+      "source_hash": "1c1675f2600e1b8af3caa60609ee8ae78c98d7fc359e3a7ca49947f9d85306b3",
+      "source_ko": "문 신",
+      "previous_zh": "纹身",
+      "meaning_pair_id": "7e88034af30c72fe6e432bebd4ed346f2e3855bedb60b1cf5bfa8edf574a406e",
+      "meaning_pair_path": "meaning/pairs/7e.jsonl",
+      "meaning_pair_blob_sha": "f983f8d25a2ac3b60c6a689e122bdba28d2d443d"
+    },
+    {
+      "row_id": "A30118-zh-00019",
+      "target_id": "XML:2210425",
+      "source_hash": "db4f5e74cb3a6d65dc000d7d6ee704e9579f906234515f6a7fa6ed60472fc98a",
+      "source_ko": "시술동기, 의미, 크기 및 노출정도가 의무경찰의 명예를 훼손할 수",
+      "previous_zh": "该程序的动机、意义、规模和曝光程度可能会损害被征召入伍的警察的荣誉。",
+      "meaning_pair_id": "af6f235485ea8d56736d9efe7864dae2cae927272d1068b9c88f8ce79652af25",
+      "meaning_pair_path": "meaning/pairs/af.jsonl",
+      "meaning_pair_blob_sha": "b6cf06759e954abeefe10bd8a5364082ba0d258f"
+    },
+    {
+      "row_id": "A30118-zh-00020",
+      "target_id": "XML:2210426",
+      "source_hash": "f31b3d3afb180454cefc9ae3bfec5f7aeee33d3877294d588edc0906f566abd2",
+      "source_ko": "있다고 판단되는 문신이 없는 사람",
+      "previous_zh": "没有纹身的人",
+      "meaning_pair_id": "22f178bf22b3f1e00f926816b7205fe5e5bcbc5f3de080fdf78364cb03eed950",
+      "meaning_pair_path": "meaning/pairs/22.jsonl",
+      "meaning_pair_blob_sha": "7e8af3d791e513ac38535bee08d564875861f63b"
+    },
+    {
+      "row_id": "A30118-zh-00021",
+      "target_id": "XML:2210427",
+      "source_hash": "35b4893b92414c778d023c9ab3ffce7b6713353fcf34164e273bdaaf1a81427f",
+      "source_ko": "운동신경",
+      "previous_zh": "运动神经",
+      "meaning_pair_id": "c23231488d6984132549763a87bb6ffc26bb3dad9321abedc90274664da7481a",
+      "meaning_pair_path": "meaning/pairs/c2.jsonl",
+      "meaning_pair_blob_sha": "828068d1a602f549eb41dafc8024199f45f14b37"
+    },
+    {
+      "row_id": "A30118-zh-00022",
+      "target_id": "XML:2210428",
+      "source_hash": "0175dc9bc1dbf7489cea1350eabb71681a8f46f5cd913d72984c9a5d5af55629",
+      "source_ko": "각종 질환의 후유증으로 인한 신경 및 신체의 기능장애로 의무경찰",
+      "previous_zh": "由于各种疾病后遗症导致的神经和身体功能障碍，应征入伍的警察",
+      "meaning_pair_id": "991a5c8b990b0778eeba6134820d29f4fe0d014f9f3753c4ad15034d88b143ed",
+      "meaning_pair_path": "meaning/pairs/99.jsonl",
+      "meaning_pair_blob_sha": "82081259978f3bd1ca561e65e3f590ff202de8bf"
+    },
+    {
+      "row_id": "A30118-zh-00023",
+      "target_id": "XML:2210429",
+      "source_hash": "a3e33a4841977bad4bc8ff42cc8c7cb7fbc033e5d59ec4d6527bcde7232ecd4d",
+      "source_ko": "직무수행에 어려움이 없는 사람",
+      "previous_zh": "能够轻松胜任工作的人员",
+      "meaning_pair_id": "0646522b5c7ce89bb4471cc3502b882d1e139620796f2bcd0f553320f12dffb8",
+      "meaning_pair_path": "meaning/pairs/06.jsonl",
+      "meaning_pair_blob_sha": "7bcb68f5aeac5c3ae16d9d35e13c8bde4cb9c579"
+    },
+    {
+      "row_id": "A30118-zh-00024",
+      "target_id": "XML:2210430",
+      "source_hash": "16b1716f1bb25bbfdb9df05fac0f623be7cdb234cea3e71c9b548760a0fd74fb",
+      "source_ko": "2. 체력기준",
+      "previous_zh": "2. 健康标准",
+      "meaning_pair_id": "9d6b96686cad3749a9e21d51ab9186e95abcb6542c0116dbedf089c6b5481376",
+      "meaning_pair_path": "meaning/pairs/9d.jsonl",
+      "meaning_pair_blob_sha": "69d99e3986d7f521e8ef43611c419b3b80f09fd6"
+    },
+    {
+      "row_id": "A30118-zh-00025",
+      "target_id": "XML:2210431",
+      "source_hash": "6b2e3bf32dc7128c1627ba2400a93c027231b9a77728230c547af023df363eb7",
+      "source_ko": "종 목",
+      "previous_zh": "项目",
+      "meaning_pair_id": "f06e5fbb13a769df0699f0dd707cb183588af1a9bfe6156be3e0c588ff700529",
+      "meaning_pair_path": "meaning/pairs/f0.jsonl",
+      "meaning_pair_blob_sha": "9f6be85de11bea5f1e65c46514e578f99214091b"
+    },
+    {
+      "row_id": "A30118-zh-00026",
+      "target_id": "XML:2210432",
+      "source_hash": "cf72149c06c6b87ad8a84107cefcac3ab26ba371837bc940c9fe98729c4c33a7",
+      "source_ko": "기 준",
+      "previous_zh": "标准",
+      "meaning_pair_id": "bcfb89044c73081b39048f524135f42d517f707b42ba1df2dda9809a11ac52ac",
+      "meaning_pair_path": "meaning/pairs/bc.jsonl",
+      "meaning_pair_blob_sha": "cbaa3467d039f4deda9bf0b9a3b254cbfd9f6e67"
+    },
+    {
+      "row_id": "A30118-zh-00027",
+      "target_id": "XML:2210433",
+      "source_hash": "622a29e0e64bd45691e39183ec3cd2e35224f44fe9044b749b000a24181cbde0",
+      "source_ko": "제자리 멀리뛰기",
+      "previous_zh": "立定跳远",
+      "meaning_pair_id": "582d771ddfe6d5d4ff3d23e3573b8cb6e3e1c9f12e02763abb0c90895e02eb29",
+      "meaning_pair_path": "meaning/pairs/58.jsonl",
+      "meaning_pair_blob_sha": "4bd4b207b127b82475e02f2eab3504c0c10984a9"
+    },
+    {
+      "row_id": "A30118-zh-00028",
+      "target_id": "XML:2210434",
+      "source_hash": "78e2fcd20183ade2ddd215535cf48efa3aebe1cf2c85d950b1d04286b7d8822b",
+      "source_ko": "160cm 이상",
+      "previous_zh": "160cm 或更高",
+      "meaning_pair_id": "ee47493af7f07a2dd452fd97e1c2eb21ac415f27d8de80287dba045c15d88dd2",
+      "meaning_pair_path": "meaning/pairs/ee.jsonl",
+      "meaning_pair_blob_sha": "6ea46bb96a93fddd7693d354c6fb5a79adbf92ba"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "A30118-zh-00015",
+      "target_id": "XML:2210421",
+      "source_hash": "92d4c353316b6549e6ecfff4deabd65eb62ff517116f2ff4eb6d88911dfafb4d",
+      "source_ko": "고혈압(수축기 혈압이 145㎜Hg을 초과하거나 확장기 혈압이 90㎜",
+      "previous_zh": "高血压（收缩压超过145 mmHg或舒张压超过90 mmHg）",
+      "meaning_pair_id": "6ab032c34c2173299ff09b3a38720bfd4cb4c26199f47d76ef22763501915010",
+      "meaning_pair_path": "meaning/pairs/6a.jsonl",
+      "meaning_pair_blob_sha": "53ead47123bf061b014532e2a5225176984c9c50",
+      "corrected_zh": "不属于以下高血压或低血压情形的人员：高血压指收缩压超过145毫米汞柱或舒张压超过90毫米汞柱",
+      "reason": "별표의 연속된 표 셀을 결합해 혈압 상하한의 배제 조건·문신 기준·운동신경 관련 직무수행 요건·체력기준 오역 교정."
+    },
+    {
+      "row_id": "A30118-zh-00016",
+      "target_id": "XML:2210422",
+      "source_hash": "5e9573fc1983f478da1d806666c420f5033fdcdc5c0c677f5eab992546774632",
+      "source_ko": "Hg을 초과하는 경우) 또는 저혈압(수축기 혈압이 90㎜Hg 미만이",
+      "previous_zh": "Hg）或低血压（收缩压低于 90 mmHg",
+      "meaning_pair_id": "11bfbfe87e4fcd8909b61eb1baa645a5b9a6920e9676697516001cddbc47218e",
+      "meaning_pair_path": "meaning/pairs/11.jsonl",
+      "meaning_pair_blob_sha": "c744c5418938526251f02585f837de1061ae27be",
+      "corrected_zh": "；低血压指收缩压低于90毫米汞柱",
+      "reason": "별표의 연속된 표 셀을 결합해 혈압 상하한의 배제 조건·문신 기준·운동신경 관련 직무수행 요건·체력기준 오역 교정."
+    },
+    {
+      "row_id": "A30118-zh-00017",
+      "target_id": "XML:2210423",
+      "source_hash": "b59a70d61e8687992c9497e09b70145af4446ac85c6c69773bcfddbbbd7633d9",
+      "source_ko": "거나 확장기 혈압이 60㎜Hg 미만인 경우)이 아닌 사람",
+      "previous_zh": "血压不高（或舒张压低于 60 mmHg）的人",
+      "meaning_pair_id": "b6a7786bd0e2207a814ec5d5e2c97d0844e42889edc28c752f80bee16b01810d",
+      "meaning_pair_path": "meaning/pairs/b6.jsonl",
+      "meaning_pair_blob_sha": "b3635382ecf61d246384502327cc5fba4376c554",
+      "corrected_zh": "或舒张压低于60毫米汞柱。",
+      "reason": "별표의 연속된 표 셀을 결합해 혈압 상하한의 배제 조건·문신 기준·운동신경 관련 직무수행 요건·체력기준 오역 교정."
+    },
+    {
+      "row_id": "A30118-zh-00019",
+      "target_id": "XML:2210425",
+      "source_hash": "db4f5e74cb3a6d65dc000d7d6ee704e9579f906234515f6a7fa6ed60472fc98a",
+      "source_ko": "시술동기, 의미, 크기 및 노출정도가 의무경찰의 명예를 훼손할 수",
+      "previous_zh": "该程序的动机、意义、规模和曝光程度可能会损害被征召入伍的警察的荣誉。",
+      "meaning_pair_id": "af6f235485ea8d56736d9efe7864dae2cae927272d1068b9c88f8ce79652af25",
+      "meaning_pair_path": "meaning/pairs/af.jsonl",
+      "meaning_pair_blob_sha": "b6cf06759e954abeefe10bd8a5364082ba0d258f",
+      "corrected_zh": "施作动机、含义、大小及暴露程度被认定可能损害义务警察名誉的纹身，",
+      "reason": "별표의 연속된 표 셀을 결합해 혈압 상하한의 배제 조건·문신 기준·운동신경 관련 직무수행 요건·체력기준 오역 교정."
+    },
+    {
+      "row_id": "A30118-zh-00020",
+      "target_id": "XML:2210426",
+      "source_hash": "f31b3d3afb180454cefc9ae3bfec5f7aeee33d3877294d588edc0906f566abd2",
+      "source_ko": "있다고 판단되는 문신이 없는 사람",
+      "previous_zh": "没有纹身的人",
+      "meaning_pair_id": "22f178bf22b3f1e00f926816b7205fe5e5bcbc5f3de080fdf78364cb03eed950",
+      "meaning_pair_path": "meaning/pairs/22.jsonl",
+      "meaning_pair_blob_sha": "7e8af3d791e513ac38535bee08d564875861f63b",
+      "corrected_zh": "没有此类纹身的人员",
+      "reason": "별표의 연속된 표 셀을 결합해 혈압 상하한의 배제 조건·문신 기준·운동신경 관련 직무수행 요건·체력기준 오역 교정."
+    },
+    {
+      "row_id": "A30118-zh-00022",
+      "target_id": "XML:2210428",
+      "source_hash": "0175dc9bc1dbf7489cea1350eabb71681a8f46f5cd913d72984c9a5d5af55629",
+      "source_ko": "각종 질환의 후유증으로 인한 신경 및 신체의 기능장애로 의무경찰",
+      "previous_zh": "由于各种疾病后遗症导致的神经和身体功能障碍，应征入伍的警察",
+      "meaning_pair_id": "991a5c8b990b0778eeba6134820d29f4fe0d014f9f3753c4ad15034d88b143ed",
+      "meaning_pair_path": "meaning/pairs/99.jsonl",
+      "meaning_pair_blob_sha": "82081259978f3bd1ca561e65e3f590ff202de8bf",
+      "corrected_zh": "因各种疾病后遗症引起神经及身体功能障碍，但执行义务警察",
+      "reason": "별표의 연속된 표 셀을 결합해 혈압 상하한의 배제 조건·문신 기준·운동신경 관련 직무수행 요건·체력기준 오역 교정."
+    },
+    {
+      "row_id": "A30118-zh-00023",
+      "target_id": "XML:2210429",
+      "source_hash": "a3e33a4841977bad4bc8ff42cc8c7cb7fbc033e5d59ec4d6527bcde7232ecd4d",
+      "source_ko": "직무수행에 어려움이 없는 사람",
+      "previous_zh": "能够轻松胜任工作的人员",
+      "meaning_pair_id": "0646522b5c7ce89bb4471cc3502b882d1e139620796f2bcd0f553320f12dffb8",
+      "meaning_pair_path": "meaning/pairs/06.jsonl",
+      "meaning_pair_blob_sha": "7bcb68f5aeac5c3ae16d9d35e13c8bde4cb9c579",
+      "corrected_zh": "职务时没有困难的人员",
+      "reason": "별표의 연속된 표 셀을 결합해 혈압 상하한의 배제 조건·문신 기준·운동신경 관련 직무수행 요건·체력기준 오역 교정."
+    },
+    {
+      "row_id": "A30118-zh-00024",
+      "target_id": "XML:2210430",
+      "source_hash": "16b1716f1bb25bbfdb9df05fac0f623be7cdb234cea3e71c9b548760a0fd74fb",
+      "source_ko": "2. 체력기준",
+      "previous_zh": "2. 健康标准",
+      "meaning_pair_id": "9d6b96686cad3749a9e21d51ab9186e95abcb6542c0116dbedf089c6b5481376",
+      "meaning_pair_path": "meaning/pairs/9d.jsonl",
+      "meaning_pair_blob_sha": "69d99e3986d7f521e8ef43611c419b3b80f09fd6",
+      "corrected_zh": "2. 体能标准",
+      "reason": "별표의 연속된 표 셀을 결합해 혈압 상하한의 배제 조건·문신 기준·운동신경 관련 직무수행 요건·체력기준 오역 교정."
+    }
+  ],
+  "validation": {
+    "row_ids_unique": true,
+    "source_hashes_match": true,
+    "korean_pair_ids_resolved": true,
+    "linked_meaning_pair_evidence": true,
+    "multiline_table_cells_jointly_reviewed": true,
+    "preverified_29_30_preserved": true,
+    "total_cumulative_checked_rows": 457,
+    "conflict_recovery_check": "Original KO/ZH/EN blobs unchanged; review and receipt targets and subrange absent; one allowed create retry"
+  },
+  "next_step": "Skip A30118 29/30 already verified; continue 31-38."
+}
