@@ -1,6 +1,8 @@
 {
   "assignment_id": "S2-d42623bd71f44ab540a05757ec2a9a47",
   "at": "2026-11-07T00:21:05.315476+00:00",
+  "attempted_at": "2026-11-07T00:21:14.351682+00:00",
+  "claim_commit": "9c27d78d7852885774165b69b0f10aa5fbe620b1",
   "event_hash": "b9789f3eb30458b17841fd53378c154af6407aba4d142ab2b74c93fd2e83a30c",
   "event_id": "obs-33e6d9c4f2475d3031eaddf72d77a24de7c96ed4",
   "job_id": "F-dbc66368b29b018d2c97",
@@ -8,6 +10,7 @@
   "pc": "WORK-C",
   "prompt_sha256": "b3f982c93bfdb1a6967e2c57889e407d94c7b5e88e776cbb7c32ec74a1fc5a33",
   "schema": "LAW_SUPPLY_RECEIPT_V2",
-  "status": "INTENT_RECORDED_NO_RESEND",
+  "sent": true,
+  "status": "SENT_AWAITING_OBSERVER_ACK",
   "worker": "C05"
 }
