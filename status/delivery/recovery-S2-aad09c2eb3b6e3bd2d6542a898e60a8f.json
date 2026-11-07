@@ -30,7 +30,20 @@
   },
   "assistant_count": 14,
   "assistant_excerpt": "\n\n연구산업 진흥 기본계획 및 시행계획의 항목·조항 구조\n\n\n\n\nB1-zh-00007\n\n\t\n\n연구산업 통계, 실태조사 및 통계법 준용\n\n\n\n\nB1-zh-00008\n\n\t\n\n전문연구사업자 신고·변경신고 및 신고수리 기간\n\n\n\n\nB2-zh-00004\n\n\t\n\n국가과학기술자문회의 심의와 시행계획 관련 인용\n\n\n\n\nB2-zh-00007\n\n\t\n\n신규 연구사업자의 매출·개발·납품 실적 요건\n\n\n\n\nB2-zh-00009\n\n\t\n\n신고 보완, 반려 및 신고증 발급\n\n누적 저장 교정\n\n22행\n기존 16행 + 이번 회차 6행\n3. GitHub 저장 및 검증\n\n구간\n\n\t\n\n신규 교정\n\n\t\n\n커밋 SHA\n\n\n\n\n첫 번째 구간\n\n\t\n\n4행\n\n\t\n\n1cf964c6f488e66209b954c84eea0ce328c6f12c\n\n\n\n\n두 번째 구간\n\n\t\n\n2행\n\n\t\n\n787c8909bf6a9721ed38bdcf02b9565ce7efe61c\n\n최종 검수 파일 SHA\n\n1bdb10e5ed392b1d2bd8f3e690dbbca13f80f32d\n\n공식 GitHub 재조회 결과:\n\nchecked_rows: 22\n\n고유 교정 ID: 22개\n\n빈 교정문: 0개\n\n상태: IN_PROGRESS\n\n한국어·중국어·영어 원본 SHA: 변경 없음\n\n완료 영수증: 없음 (404)\n\n운영 DB: 변경 없음\n\nGitHub 검수 파일 확인\n\n4. 다음 미검수 구간\n\n다음 검수는 B1-zh-00009(법률 제7조) 및 아직 저장되지 않은 법률 본문 행부터 진행해야 합니다. 이후 시행령의 잔여 행과 별표·서식의 MTQ·START 잔존 표식 및 연결 셀을 한국어 원문과 대조해야 합니다.\n\n전체 20개 문서, 1,158행 검증이 완료되지 않았으므로 COMPLETE 영수증을 생성하지 않았습니다. C04는 같은 법령가족의 IN_PROGRESS 상태를 유지합니다.",
+  "attempted_at": "2026-11-07T20:48:03.561030+00:00",
   "created_at": "2026-11-07T20:47:55.933187+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-aad09c2eb3b6e3bd2d6542a898e60a8f",
+    "attempted_at": "2026-11-07T20:48:03.561030+00:00",
+    "claim_commit": "702cbe96fe21223ef7a7eb32e5c2fe0a8c0af980",
+    "event_id": "obs-48ffdd2ed0bc73a3316b3a57f6b7f1771f234f95",
+    "job_id": "F-0c6349d844045c6cc10b",
+    "record_path": "status/delivery/recovery-S2-aad09c2eb3b6e3bd2d6542a898e60a8f.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C04"
+  },
   "episode": 4,
   "event_id": "obs-48ffdd2ed0bc73a3316b3a57f6b7f1771f234f95",
   "job_id": "F-0c6349d844045c6cc10b",
@@ -225,7 +238,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-090d4ada2821071ce6e166dc]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "08da8177fcafcae1e6514802cb0c3c9bec2ee9b5",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef7f45-c340-83e8-bed7-2fb0dbdc7078",
   "worker": "C04"
 }
