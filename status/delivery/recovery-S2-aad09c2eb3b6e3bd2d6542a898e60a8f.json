@@ -30,7 +30,20 @@
   },
   "assistant_count": 6,
   "assistant_excerpt": "중국어 번역의 오류 탐지를 진행했습니다.\n\n항목\n\n\t\n\n확인 결과\n\n\n\n\n저장소\n\n\t\n\nanbin19000-design/lawsofkorea\n\n\n\n\n브랜치\n\n\t\n\nmain\n\n\n\n\nJob ID\n\n\t\n\nF-0c6349d844045c6cc10b\n\n\n\n\n대상\n\n\t\n\n20개 문서 / 1,158행\n\n\n\n\n한국어·중국어 원본\n\n\t\n\n기준 커밋과 SHA 일치\n\n\n\n\n행 ID 중복 / 필수 필드 누락\n\n\t\n\n발견되지 않음\n\n\n\n\n전체 한·중 의미 대조\n\n\t\n\n미완료\n\n\n\n\n검수 파일 / 완료 영수증\n\n\t\n\n미생성\n\n발견된 주요 오류\n\nB1-zh-00003: 제1조 목적에 동일한 취지의 문구가 중복 번역됨.\n\nB1-zh-00004: 제2조 정의에서 가·나·다·라 항목 구분이 잘못 번역됨.\n\nB2-zh-00010: 상호 또는 명칭이 商标名称或标识로 잘못 번역됨.\n\nB2-zh-00011: 신고 갱신의 유효기간 기산점 번역 오류.\n\nB2-zh-00012: 한국어 조문 제목이 중국어 번역에 남아 있음.\n\nB2-zh-00023: 업무의 위탁이 关税外包으로 잘못 번역됨.\n\n자동 탐지 결과 MTQ 표식 포함 6행, START 포함 6행, 한국어 잔존 4행을 확인했습니다. 일부 행은 여러 유형에 중복 해당하며, 모두 실제 한국어 원문과 대조하여 교정해야 합니다.\n\nGitHub 보존 상태\n\n한국어 원본 SHA: 4fb193b6d51adbc24fa9709d45ad7dc9dbe0b1bc\n\n중국어 원본 SHA: 09780727c3a38819a33a091ea1a13f02010c5d85\n\n전체 1,158행의 의미·수치·인용·서식 관계를 검증하지 못했으므로 COMPLETE 처리하지 않았습니다. laws/* 원본도 변경하지 않았습니다.\n\n현재 결과는 검수 중간 진단이며, 완료 영수증이나 GitHub 저장 완료를 의미하지 않습니다.",
+  "attempted_at": "2026-11-07T19:45:09.352856+00:00",
   "created_at": "2026-11-07T19:45:04.301525+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-aad09c2eb3b6e3bd2d6542a898e60a8f",
+    "attempted_at": "2026-11-07T19:45:09.352856+00:00",
+    "claim_commit": "35cf7f59022162b94837b35d022b246635ae68c3",
+    "event_id": "obs-2d38fd830733de3b7ee18666ebd124b75b22376c",
+    "job_id": "F-0c6349d844045c6cc10b",
+    "record_path": "status/delivery/recovery-S2-aad09c2eb3b6e3bd2d6542a898e60a8f.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C04"
+  },
   "episode": 1,
   "event_id": "obs-2d38fd830733de3b7ee18666ebd124b75b22376c",
   "job_id": "F-0c6349d844045c6cc10b",
@@ -41,7 +54,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-2a655965b53fe3bf6067adde]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "f3f7cd4cf2f81ba3c93da591952b93477238fe83",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef7f45-c340-83e8-bed7-2fb0dbdc7078",
   "worker": "C04"
 }
