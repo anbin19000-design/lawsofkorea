@@ -1,0 +1,211 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "scope": {
+    "total_documents": 13,
+    "total_rows": 800,
+    "focused_documents": [
+      {
+        "key": "A30118",
+        "title": "의무경찰 선발시험 신체 및 체력기준표(제7조제4항 관련)",
+        "verified_rows": 2
+      },
+      {
+        "key": "A30120",
+        "title": "의무경찰 응시자 명단",
+        "verified_rows": 10
+      }
+    ],
+    "note": "仅保存已逐行核对的体能标准表20次以上阈值及应试者名单中的弃考/不合格标记；不是全篇审校完成记录。"
+  },
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "verified_row_count": 12,
+  "verified_rows": [
+    {
+      "row_id": "A30118-zh-00029",
+      "target_id": "XML:2210436",
+      "source_hash": "706bf65509f254855095e600a4d14823d5c9b023c5bdec6c6063aef7bee9f536",
+      "source_ko": "1분에 20회 이상",
+      "table_context_ko": "윗몸 일으키기 — 1분에 20회 이상",
+      "current_zh": "每分钟超过 20 次",
+      "corrected_zh": "每分钟20次以上",
+      "pair_id": "93fbb0daf6aa4c3ceb2c228d0339fe5a8788f0c53cd3448237c10512c42b28f4",
+      "pair_path": "meaning/pairs/93.jsonl",
+      "pair_blob_sha": "35bbf59b62d02657a842e640fba616cb936d0c86",
+      "reason": "‘이상’은 20회를 포함하는 이상(≥)이므로 ‘超过’가 아니라 ‘20次以上’로 바로잡음."
+    },
+    {
+      "row_id": "A30118-zh-00030",
+      "target_id": "XML:2210438",
+      "source_hash": "706bf65509f254855095e600a4d14823d5c9b023c5bdec6c6063aef7bee9f536",
+      "source_ko": "1분에 20회 이상",
+      "table_context_ko": "팔굽혀 펴기 — 1분에 20회 이상",
+      "current_zh": "每分钟超过 20 次",
+      "corrected_zh": "每分钟20次以上",
+      "pair_id": "93fbb0daf6aa4c3ceb2c228d0339fe5a8788f0c53cd3448237c10512c42b28f4",
+      "pair_path": "meaning/pairs/93.jsonl",
+      "pair_blob_sha": "35bbf59b62d02657a842e640fba616cb936d0c86",
+      "reason": "‘이상’은 20회를 포함하는 이상(≥)이므로 ‘超过’가 아니라 ‘20次以上’로 바로잡음."
+    },
+    {
+      "row_id": "A30120-zh-00020",
+      "target_id": "XML:2210469",
+      "source_hash": "357d559fb319068f861caa6cb12a0da9b708c000e879f677de07b8b31cde86e3",
+      "source_ko": "기권자",
+      "current_zh": "弃权",
+      "corrected_zh": "弃考人数",
+      "pair_id": "a9746067f4ac8706058871292968331935c3374e89023245cda13fbdfb642318",
+      "pair_path": "meaning/pairs/a9.jsonl",
+      "pair_blob_sha": "71191c5d20420b798e8606fdd28e552950b902b0",
+      "reason": "시험 집계표의 기권자 수 열이므로 일반적인 ‘弃权’보다 ‘弃考人数’가 정확함."
+    },
+    {
+      "row_id": "A30120-zh-00021",
+      "target_id": "XML:2210470",
+      "source_hash": "f51ebf5abd869afc4a7f8ca94039a9a359c5d1c6eaba91315bfeefc36670ae2b",
+      "source_ko": "검사 기권자",
+      "current_zh": "测试 Abstainer",
+      "corrected_zh": "体能检查弃考人数",
+      "pair_id": "3dd196aa72792ce08513f216f2cf508267728eefc16e5f6e8b7f4b46ca618d51",
+      "pair_path": "meaning/pairs/3d.jsonl",
+      "pair_blob_sha": "0a670f7b261a9dd108b4b3eb99dd7fddb417008c",
+      "reason": "남은 영어 ‘Abstainer’를 제거하고, 인접 열 제목인 신체·체력검사 맥락을 반영함."
+    },
+    {
+      "row_id": "A30120-zh-00022",
+      "target_id": "XML:2210471",
+      "source_hash": "357d559fb319068f861caa6cb12a0da9b708c000e879f677de07b8b31cde86e3",
+      "source_ko": "기권자",
+      "current_zh": "弃权",
+      "corrected_zh": "弃考人数",
+      "pair_id": "a9746067f4ac8706058871292968331935c3374e89023245cda13fbdfb642318",
+      "pair_path": "meaning/pairs/a9.jsonl",
+      "pair_blob_sha": "71191c5d20420b798e8606fdd28e552950b902b0",
+      "reason": "시험 집계표의 기권자 수 열이므로 ‘弃考人数’로 통일함."
+    },
+    {
+      "row_id": "A30120-zh-00023",
+      "target_id": "XML:2210472",
+      "source_hash": "357d559fb319068f861caa6cb12a0da9b708c000e879f677de07b8b31cde86e3",
+      "source_ko": "기권자",
+      "current_zh": "弃权",
+      "corrected_zh": "弃考人数",
+      "pair_id": "a9746067f4ac8706058871292968331935c3374e89023245cda13fbdfb642318",
+      "pair_path": "meaning/pairs/a9.jsonl",
+      "pair_blob_sha": "71191c5d20420b798e8606fdd28e552950b902b0",
+      "reason": "시험 집계표의 기권자 수 열이므로 ‘弃考人数’로 통일함."
+    },
+    {
+      "row_id": "A30120-zh-00029",
+      "target_id": "XML:2210479",
+      "source_hash": "ed7ddcf9e7e5735190ff8a9805926a2032e7dbf7cdcc3384cc470583c9b2bca3",
+      "source_ko": "불합격자",
+      "current_zh": "已拒绝",
+      "corrected_zh": "不合格人数",
+      "pair_id": "a03c8307ff34dbedeadd7d0b5a2d840055e43dd50b66118b4eff8f78404d34c0",
+      "pair_path": "meaning/pairs/a0.jsonl",
+      "pair_blob_sha": "543de644fb696803179153010c40f70703b46346",
+      "reason": "시험 결과 집계 열의 불합격자 수를 거절 행위가 아닌 ‘不合格人数’로 바로잡음."
+    },
+    {
+      "row_id": "A30120-zh-00031",
+      "target_id": "XML:2210481",
+      "source_hash": "ed7ddcf9e7e5735190ff8a9805926a2032e7dbf7cdcc3384cc470583c9b2bca3",
+      "source_ko": "불합격자",
+      "current_zh": "已拒绝",
+      "corrected_zh": "不合格人数",
+      "pair_id": "a03c8307ff34dbedeadd7d0b5a2d840055e43dd50b66118b4eff8f78404d34c0",
+      "pair_path": "meaning/pairs/a0.jsonl",
+      "pair_blob_sha": "543de644fb696803179153010c40f70703b46346",
+      "reason": "시험 결과 집계 열의 불합격자 수를 ‘不合格人数’로 바로잡음."
+    },
+    {
+      "row_id": "A30120-zh-00032",
+      "target_id": "XML:2210482",
+      "source_hash": "ed7ddcf9e7e5735190ff8a9805926a2032e7dbf7cdcc3384cc470583c9b2bca3",
+      "source_ko": "불합격자",
+      "current_zh": "已拒绝",
+      "corrected_zh": "不合格人数",
+      "pair_id": "a03c8307ff34dbedeadd7d0b5a2d840055e43dd50b66118b4eff8f78404d34c0",
+      "pair_path": "meaning/pairs/a0.jsonl",
+      "pair_blob_sha": "543de644fb696803179153010c40f70703b46346",
+      "reason": "시험 결과 집계 열의 불합격자 수를 ‘不合格人数’로 바로잡음."
+    },
+    {
+      "row_id": "A30120-zh-00033",
+      "target_id": "XML:2210483",
+      "source_hash": "ed7ddcf9e7e5735190ff8a9805926a2032e7dbf7cdcc3384cc470583c9b2bca3",
+      "source_ko": "불합격자",
+      "current_zh": "已拒绝",
+      "corrected_zh": "不合格人数",
+      "pair_id": "a03c8307ff34dbedeadd7d0b5a2d840055e43dd50b66118b4eff8f78404d34c0",
+      "pair_path": "meaning/pairs/a0.jsonl",
+      "pair_blob_sha": "543de644fb696803179153010c40f70703b46346",
+      "reason": "시험 결과 집계 열의 불합격자 수를 ‘不合格人数’로 바로잡음."
+    },
+    {
+      "row_id": "A30120-zh-00052",
+      "target_id": "XML:2210503",
+      "source_hash": "a5bdea02a93afd260df5a23e823b4694fd33c015877cbfc1a8b97d960d7b15ce",
+      "source_ko": "2. ‘적성검사’, ‘신체ㆍ체력검사’ 및 ‘최종결과’란은 기권, 불합격, 합격으로 적습니다.",
+      "current_zh": "2. 对于“能力倾向测试”、“体能测试”和“最终结果”栏，请填写“退出”、“不及格”或“通过”。",
+      "corrected_zh": "2. “能力倾向测验”、“体格及体能检查”和“最终结果”栏应填写“弃考”、“不合格”或“合格”。",
+      "pair_id": "20e3c947c7442119d193abda003d504af88a5f4732ad6a53c624f5d79f08de10",
+      "pair_path": "meaning/pairs/20.jsonl",
+      "pair_blob_sha": "0326d69f0753805cbae2096bffce44d6281f3ce0",
+      "reason": "기권·불합격·합격의 시험 결과 표기를 정확히 통일하고 신체·체력검사 용어를 보완함."
+    },
+    {
+      "row_id": "A30120-zh-00053",
+      "target_id": "XML:2210504",
+      "source_hash": "47938b524032b102dd1d77520a09c8ef54de78fcd791604bd988a4d6969ff498",
+      "source_ko": "3. ‘필기시험’ 및 ‘면접시험’란은 기권 또는 과목별 점수를 적습니다(실기시험의 경우에는 총점만 적습니다).",
+      "current_zh": "3. 在“笔试”和“面试”部分，注明是否退考或记录每门科目的分数（实践考试只需记录总分）。",
+      "corrected_zh": "3. 在“笔试”和“面试”栏中，填写“弃考”或各科成绩（实践考试仅填写总分）。",
+      "pair_id": "c2475ae8ce0f2a100a7d39de3136cc7a3aa1dbcab69aacfbd8008b367dc1f89b",
+      "pair_path": "meaning/pairs/c2.jsonl",
+      "pair_blob_sha": "828068d1a602f549eb41dafc8024199f45f14b37",
+      "reason": "与同表第2项统一将考试中的‘기권’译为‘弃考’，并保留实践考试只填总分的条件。"
+    }
+  ],
+  "references": {
+    "meaning_pair_shards": [
+      {
+        "path": "meaning/pairs/93.jsonl",
+        "blob_sha": "35bbf59b62d02657a842e640fba616cb936d0c86"
+      },
+      {
+        "path": "meaning/pairs/a9.jsonl",
+        "blob_sha": "71191c5d20420b798e8606fdd28e552950b902b0"
+      },
+      {
+        "path": "meaning/pairs/3d.jsonl",
+        "blob_sha": "0a670f7b261a9dd108b4b3eb99dd7fddb417008c"
+      },
+      {
+        "path": "meaning/pairs/a0.jsonl",
+        "blob_sha": "543de644fb696803179153010c40f70703b46346"
+      },
+      {
+        "path": "meaning/pairs/20.jsonl",
+        "blob_sha": "0326d69f0753805cbae2096bffce44d6281f3ce0"
+      },
+      {
+        "path": "meaning/pairs/c2.jsonl",
+        "blob_sha": "828068d1a602f549eb41dafc8024199f45f14b37"
+      }
+    ],
+    "validation": "각 지정 row의 laws/zh source_hash와 laws/en row_matches source_hash가 모두 일치함. 한국어 문구는 원문 source_ko와 해당 meaning pair의 ko 필드에 직접 대조함."
+  },
+  "next_step": "同一 Job 的其余文件继续逐份审校；保持 IN_PROGRESS，不生成 COMPLETE 审核文件或收据，直至13份文件及800行全部完成。"
+}
