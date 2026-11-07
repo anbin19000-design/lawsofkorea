@@ -1,0 +1,204 @@
+{
+  "schema": "LAW_C04_PROGRESS_SUBRANGE_V1",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "worker": "C04",
+  "branch": "main",
+  "state": "IN_PROGRESS",
+  "complete": false,
+  "source_baseline": {
+    "source_commit": "61b79fca1ee15e5d03559fcd5ccf7aaddec48e5b",
+    "ko_blob_sha": "c4f63c8c8e05002addac40f1d138c6aaa0964dee",
+    "zh_blob_sha": "d2f83aeffe886a04e7cd60b3215b62021900781c",
+    "en_blob_sha": "cebe826bd075e5e33c4407e843e775f04a53120d",
+    "korean_source_unchanged": true
+  },
+  "prior_checkpoints": [
+    {
+      "path": "status/delivery/progress-S2-86af8794991369270a0d3bd696fb65c5-C04-A30130-00001-00010.json",
+      "blob_sha": "e9c9ab6364c9e805e51e47cd18f2a60ee4a64b29",
+      "document_key": "A30130",
+      "rows_checked": 10,
+      "rows_corrected": 6
+    }
+  ],
+  "document": {
+    "key": "A30130",
+    "kind": "서식",
+    "title": "사망보고",
+    "source_hash": "d37cc0e11ae0b1703bd9148ee57bce7c28e0273d4237da43f973c41baede83e5",
+    "rows_checked": 10,
+    "rows_corrected": 7,
+    "document_review_state": "DOCUMENT_ROWS_CHECKED"
+  },
+  "range": {
+    "first_row_id": "A30130-zh-00011",
+    "last_row_id": "A30130-zh-00020",
+    "verified_row_count": 10
+  },
+  "verified_rows": [
+    {
+      "row_id": "A30130-zh-00011",
+      "target_id": "XML:2210807",
+      "source_hash": "aa7e2d95d75fb5761bb9b7ac650851cada16244987675516018e9a8bd8881dc5",
+      "source_ko": "로 인하여 사망하였음을 통보함",
+      "previous_zh": "通知：死亡原因是 START",
+      "meaning_pair_id": "d899cf7f72d4a2538ab7e1cf5babfe999425bcfbd34fd2155cd2860f26f32ea0",
+      "source_basis": "authoritative Korean death report form"
+    },
+    {
+      "row_id": "A30130-zh-00012",
+      "target_id": "XML:2210808",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "source_ko": "년",
+      "previous_zh": "年份",
+      "meaning_pair_id": "51a9c53d5e91050e3abe1ef30e6743e05bc272555042d615ccb26c1cbd4bac01",
+      "source_basis": "authoritative Korean death report form"
+    },
+    {
+      "row_id": "A30130-zh-00013",
+      "target_id": "XML:2210809",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "source_ko": "월",
+      "previous_zh": "月份",
+      "meaning_pair_id": "fe11e2c245c4120f7ec1489f418bd7cb4dfa4f13b76bd89d3b8f839acc883cfc",
+      "source_basis": "authoritative Korean death report form"
+    },
+    {
+      "row_id": "A30130-zh-00014",
+      "target_id": "XML:2210810",
+      "source_hash": "dfc76879e2f5c3ead09186ff1c6b635624f96b7adbd71d94c37566429ca5df6f",
+      "source_ko": "일",
+      "previous_zh": "日",
+      "meaning_pair_id": "09573106deaddabc003ab690e51d1abb23f4c3b00649980fbc69af84c3d91542",
+      "source_basis": "authoritative Korean death report form"
+    },
+    {
+      "row_id": "A30130-zh-00015",
+      "target_id": "XML:2210811",
+      "source_hash": "0725bc586eb08652910efb7906a9d326b8244bc40faa73f07096d67f95d0c359",
+      "source_ko": "(소속경찰기관의 장)",
+      "previous_zh": "（隶属警务机构负责人）",
+      "meaning_pair_id": "1f156b307b48b145eb5ad8bac415b957fb744cae655ba94a95702d47a39f3189",
+      "source_basis": "authoritative Korean death report form"
+    },
+    {
+      "row_id": "A30130-zh-00016",
+      "target_id": "XML:2210812",
+      "source_hash": "2099cd7f323c38ac89f0ebc4dd140529ccb048fb87aa42935038b81b0325020d",
+      "source_ko": "귀하",
+      "previous_zh": "您的",
+      "meaning_pair_id": "7f7354c3e691f7e82c0b0c934a808bd3bcfdd64207d00ed8024907fccd052ff0",
+      "source_basis": "authoritative Korean death report form"
+    },
+    {
+      "row_id": "A30130-zh-00017",
+      "target_id": "XML:2210813",
+      "source_hash": "0b722cbee132dcf5008c8762cb2f84467ee6d19c091c22be6282d88d2fa4895a",
+      "source_ko": "2106-373일",
+      "previous_zh": "2106-373 天",
+      "meaning_pair_id": "0222740b9c28b593f154b29c1808f6effcbfdf17df13117f67e8014d2ae8b0d9",
+      "source_basis": "authoritative Korean death report form"
+    },
+    {
+      "row_id": "A30130-zh-00018",
+      "target_id": "XML:2210814",
+      "source_hash": "aeac84d3dd867baeb9bfc4f68e828548cd40f15ee1f9d40b4a2db09806fcfdf0",
+      "source_ko": "190㎜×268㎜",
+      "previous_zh": "190㎜×268㎜",
+      "meaning_pair_id": null,
+      "source_basis": "authoritative Korean death report form"
+    },
+    {
+      "row_id": "A30130-zh-00019",
+      "target_id": "XML:2210815",
+      "source_hash": "e687a4d7a90ceee390e62e1ce5cf6e8ac109f8fc5dbb877bdcaf347a8f37b1bb",
+      "source_ko": "83.7.19 승인",
+      "previous_zh": "83.7.19 已批准",
+      "meaning_pair_id": "1a3defe8e6c6475d46e7262403e4ccf2415ebca05a9910ad5a0d1988eafd93e2",
+      "source_basis": "authoritative Korean death report form"
+    },
+    {
+      "row_id": "A30130-zh-00020",
+      "target_id": "XML:2210816",
+      "source_hash": "b7a3a10d716a3863fe1699326f0e32bc86241e016f61c3b3ff99bc0f001778dd",
+      "source_ko": "(신문용지 54g/㎡)",
+      "previous_zh": "(报纸 54g/㎡)",
+      "meaning_pair_id": "c9840254b6509689d5bc29b66f53adcf9a9116b439250017fef2120295dcca00",
+      "source_basis": "authoritative Korean death report form"
+    }
+  ],
+  "corrections": [
+    {
+      "row_id": "A30130-zh-00011",
+      "target_id": "XML:2210807",
+      "source_hash": "aa7e2d95d75fb5761bb9b7ac650851cada16244987675516018e9a8bd8881dc5",
+      "source_ko": "로 인하여 사망하였음을 통보함",
+      "previous_zh": "通知：死亡原因是 START",
+      "corrected_zh": "因____________死亡，特此报告。",
+      "reason": "사망보고 서식의 통보문 및 수신·용지표기 누락/오역 교정."
+    },
+    {
+      "row_id": "A30130-zh-00012",
+      "target_id": "XML:2210808",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "source_ko": "년",
+      "previous_zh": "年份",
+      "corrected_zh": "年",
+      "reason": "사망보고 서식의 통보문 및 수신·용지표기 누락/오역 교정."
+    },
+    {
+      "row_id": "A30130-zh-00013",
+      "target_id": "XML:2210809",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "source_ko": "월",
+      "previous_zh": "月份",
+      "corrected_zh": "月",
+      "reason": "사망보고 서식의 통보문 및 수신·용지표기 누락/오역 교정."
+    },
+    {
+      "row_id": "A30130-zh-00015",
+      "target_id": "XML:2210811",
+      "source_hash": "0725bc586eb08652910efb7906a9d326b8244bc40faa73f07096d67f95d0c359",
+      "source_ko": "(소속경찰기관의 장)",
+      "previous_zh": "（隶属警务机构负责人）",
+      "corrected_zh": "（所属警察机关负责人）",
+      "reason": "사망보고 서식의 통보문 및 수신·용지표기 누락/오역 교정."
+    },
+    {
+      "row_id": "A30130-zh-00016",
+      "target_id": "XML:2210812",
+      "source_hash": "2099cd7f323c38ac89f0ebc4dd140529ccb048fb87aa42935038b81b0325020d",
+      "source_ko": "귀하",
+      "previous_zh": "您的",
+      "corrected_zh": "敬启",
+      "reason": "사망보고 서식의 통보문 및 수신·용지표기 누락/오역 교정."
+    },
+    {
+      "row_id": "A30130-zh-00017",
+      "target_id": "XML:2210813",
+      "source_hash": "0b722cbee132dcf5008c8762cb2f84467ee6d19c091c22be6282d88d2fa4895a",
+      "source_ko": "2106-373일",
+      "previous_zh": "2106-373 天",
+      "corrected_zh": "2106-373일",
+      "reason": "‘2106-373일’은 인쇄 서식 고유번호로 보고 원문 표기를 그대로 보존하며 임의로 '天'을 덧붙인 오역 교정."
+    },
+    {
+      "row_id": "A30130-zh-00020",
+      "target_id": "XML:2210816",
+      "source_hash": "b7a3a10d716a3863fe1699326f0e32bc86241e016f61c3b3ff99bc0f001778dd",
+      "source_ko": "(신문용지 54g/㎡)",
+      "previous_zh": "(报纸 54g/㎡)",
+      "corrected_zh": "（新闻纸54g/㎡）",
+      "reason": "사망보고 서식의 통보문 및 수신·용지표기 누락/오역 교정."
+    }
+  ],
+  "validation": {
+    "row_ids_unique": true,
+    "source_hashes_match": true,
+    "korean_full_form_checked": true,
+    "no_mtq_start_markers_in_corrections": true,
+    "intentional_original_print_code_preserved": "A30130-zh-00017",
+    "total_cumulative_checked_rows": 800
+  },
+  "next_step": "All 13 documents and 800 rows checked. Consolidate unique edits and verify final Chinese then create final review/zh and receipts separately."
+}
