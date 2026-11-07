@@ -1,0 +1,114 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-75f7c503ac967166a321",
+  "worker": "C04",
+  "checked_rows": 24,
+  "edits": [
+    {
+      "id": "B1-zh-00001",
+      "target_id": "9d157d9623252ba341bf3c537981f6f1daebe9db67c3a3c7898097d916050f2b",
+      "source_hash": "8bb634ee6fe1ec52d297a2b89db515d684615842aa57e6931fec20c2fc175439",
+      "text": "利息限制法",
+      "reason": "Corrected 이자 (interest), not merely the interest rate, and enacted Act (법) rather than a proposed bill (法案)."
+    },
+    {
+      "id": "B1-zh-00003",
+      "target_id": "da251141a2cf358cd14c4a9a0db6a0769eb2faa4437e5c751b69afdd366377bb",
+      "source_hash": "76ea0cab3f21d0190b270d5e40bf97445e0a54ce3ad6d6493744043282139e79",
+      "text": "第2条（最高利息限额）\n① 货币贷款的最高合同利率由总统令确定，但年利率不得超过25%。<2011年7月25日修订；2014年1月14日修订>\n② 第1款规定的最高利率是指协议签订时的利率。\n③ 任何超过第1款规定最高利率的合同利息部分均无效。\n④ 如果债务人自愿支付的利息超过最高利率，则超额支付的利息金额应用于偿还本金，本金清偿完毕时，债务人可以请求返还超额支付的利息余额。\n⑤ 第1款不适用于贷款本金不足100,000韩元的贷款利息。\n\n",
+      "reason": "Restored Article 2 paragraph ⑤ marker and corrected return of excess interest after principal is extinguished; the debtor cannot demand return of principal under this clause."
+    },
+    {
+      "id": "B1-zh-00005",
+      "target_id": "d4f139e47d6ad4295e923fb5481fb789b0b510a7c0c487eac45491f146c167b6",
+      "source_hash": "0d4068f040c5c2514457fb2dc87cd5ac7682a95d58732ffcca10c96174a15d32",
+      "text": "第4条（视为利息）\n① 债权人因贷款而收到的任何款项，无论其名称如何——例如礼金、贴现款、手续费、扣除款、代垫款或其他名称——均应视为利息。<2011年7月25日修订>\n② 债务人同意承担与货币贷款相关的付款义务的，如果根据该义务产生的原因、相关法律法规、义务内容以及商业交易的一般原则，该义务的性质原本应由债权人承担，则该义务应视为利息。<2011年7月25日新增>\n\n",
+      "reason": "Corrected Article 4 deemed-interest title and specific examples: Korean 禮金 means gratuity, and 替當金 means an advance paid on another's behalf, not a bank deposit or ordinary prepayment."
+    },
+    {
+      "id": "B1-zh-00008",
+      "target_id": "2326cf569e41350ffecd3aba9493f09dcf4f0911e95cb8f5645fb034949551a2",
+      "source_hash": "2c1c9a21f35f406280ce28a2a7a3dc25c0d1f8f782d57cea6d750474ab1cdd8d",
+      "text": "第七条（适用范围）本法不适用于依照其他法律取得认可、许可或完成登记的金融业和贷款业，以及《贷款业等登记及金融使用者保护法》第2条第7项规定的非法民间金融业经营者。<2009年1月21日修订；2025年1月21日修订>\n\n",
+      "reason": "Corrected the authoritative statute title, Article 2 subparagraph 7 (not paragraph 7), illegal private financial lender terminology, and source-law authorization/permission/registration distinction."
+    },
+    {
+      "id": "B1-zh-00009",
+      "target_id": "6c0b9a05b0aa1177b0ffcfcac7dc28ebc9f2779b2a271d42c30f67f5276c1f78",
+      "source_hash": "0f0acf99b5aa29dad3be05cd6efa70d9d4d697eab971e772495fce183d7d426d",
+      "text": "第8条（处罚）\n① 任何人收取超过第二条第一款规定最高利率的利息，处一年以下有期徒刑或者一千万韩元以下罚金。\n② 第1款规定的有期徒刑和罚金可以并处。\n\n",
+      "reason": "Corrected 병과 as concurrent imposition of prison term and fine, not execution of punishments."
+    },
+    {
+      "id": "B1-zh-00010",
+      "target_id": "eeb0096843efc38d6b6fefeaeab4fe1a745b4305c789d04509f3deedbb56c6c1",
+      "source_hash": "ce3844db27b140bfa7bd613a13cde76a490dc7f726e39b656ab5a78667d74a45",
+      "text": "附则 <第8322号，2007年3月29日>\n\n①（生效日期）本法自公布之日起三个月后生效。\n\n②（过渡措施）对于本法实施前已建立的贷款关系的合同利率，自本法生效之日起，利率也应按照本法计算。\n\n",
+      "reason": "Corrected the supplementary-provisions legal heading 부칙 to 附则, preserving number, promulgation date, both paragraphs and three-month commencement."
+    },
+    {
+      "id": "B1-zh-00011",
+      "target_id": "1140bf455dbad7eaf4d809cde3d23e315365e71dc4ef83eaa8a505b0eb391af1",
+      "source_hash": "bc092a277abe1439ef230448f4f0f1b0c31ee710616e432d8a47ba571d496675",
+      "text": "附则（贷款业等登记及金融使用者保护法）<第9344号，2009年1月21日>\n\n",
+      "reason": "Corrected the legal supplementary-provisions heading and the full statute title; 法案 describes a bill, but this is enacted Act No. 9344."
+    },
+    {
+      "id": "B1-zh-00014",
+      "target_id": "5ba474ea306c06ba8385fa18c02ed6e30156f59473297ee706dcaa543e9b9d66",
+      "source_hash": "415925aee71aa9f0f1664a1dacbb60f9d7939cc7b16f75bd9099968607c36ce2",
+      "text": "第九条（其他法律的修订）《利息限制法》部分修订如下。\n\n",
+      "reason": "Corrected the official name of the Interest Limitation Act and Act No. 9344's consequential amendment."
+    },
+    {
+      "id": "B1-zh-00015",
+      "target_id": "0e3b5598a75218a9d506b41c6a2802f511294644da4ad7e98c72906a85d46c75",
+      "source_hash": "792ded97b41e29f7578f908b127a0f7c4d7b9a81292baa005823c0628bf03107",
+      "text": "  在第7条中，将“对于贷款业”改为“对于贷款业以及依照《贷款业等登记及金融使用者保护法》第9条之4规定的未登记贷款业经营者”。\n\n",
+      "reason": "Repaired Article 7's exact old/new statutory wording and citation Article 9-4 of the fully named lending law, without replacing the target of the original amendment."
+    },
+    {
+      "id": "B1-zh-00016",
+      "target_id": "e03ece46cba2d1e2c051abfd71430690979bba5b5ada148bc2145b9881e038e3",
+      "source_hash": "4ee9aaa5200b8400e97d705c1c662200c450ded0977578634ae2a2129b559e85",
+      "text": "附则 <第10925号，2011年7月25日>\n\n①（生效日期）本法自公布之日起三个月后生效。\n\n②（适用）关于本法实施前已确定的货币贷款合同利率，利率应自本法实施之日起按照本法计算。\n\n",
+      "reason": "Corrected the formal addenda heading for Act No. 10925; kept pre-existing contracts and the applicability date unchanged."
+    },
+    {
+      "id": "B1-zh-00017",
+      "target_id": "b7f5d3f6db3ac0659de8dc8fa84d4c353b7e7ac6e468d94cb1c57d4acafa004f",
+      "source_hash": "95fae14d658ef5c13f61e4439c52ddd73f83fb5dffc06bbd5fbe6240f30b7a45",
+      "text": "附则 <第12227号，2014年1月14日>\n\n",
+      "reason": "Corrected formal addenda heading for Act No. 12227, preserving date and number."
+    },
+    {
+      "id": "B1-zh-00019",
+      "target_id": "ff9e74d61b0fc53b2ef663ffee01f61bb969f27d89c2a8c50af650572ba30ab8",
+      "source_hash": "432ebb6b4e81e10af065eb8e6c98f394fbc82d4d6d224074ec68097a3a282e85",
+      "text": "第二条（适用例）第二条第一款的修正规定适用于本法实施后首次订立或续签的合同。\n\n",
+      "reason": "Corrected the technical legal heading 적용례 to Applicability (适用例), not the general statute's scope of application."
+    },
+    {
+      "id": "B1-zh-00020",
+      "target_id": "afd0f43b98c4dba28f0412b4106cb8d0edbb95b8df61cd28142ee7022ba5398d",
+      "source_hash": "8db5d28477b962374b8816a972f405675f681204ebdf8c062d06a3f5c51677aa",
+      "text": "附则（贷款业等登记及金融使用者保护法）<第20714号，2025年1月21日>\n\n",
+      "reason": "Corrected supplementary provisions and enacted Act No. 20714's full statutory title; a passed Act is not a bill."
+    },
+    {
+      "id": "B1-zh-00023",
+      "target_id": "5e6f2e2955ba1b5d93ed28349946ed1857cde67c35264bcd601031884f4de581",
+      "source_hash": "bb5f232369c0f8f018f28151df40cb46f1c802326660c976b3049fe3f5c83939",
+      "text": "第六条（修改其他法律）① 省略\n\n  ② 《利息限制法》部分修订如下。\n\n",
+      "reason": "Corrected the name 이자제한법 in the 2025 consequential amendment without altering Article 6(2) or omitted text."
+    },
+    {
+      "id": "B1-zh-00024",
+      "target_id": "b0f8846b71063fc225d4b6c8823ed889b6d5097e259bb207ad7869b7c9cccd6f",
+      "source_hash": "24f92f2be1bdbfaf2c2249f16a8c5545d036fbe4c31b4562d830e26847795b50",
+      "text": "  在第7条中，将“依照第9条之4规定的未登记贷款业经营者”改为“依照第2条第7项规定的非法民间金融业经营者”。\n\n  ③ 省略",
+      "reason": "Corrected 9조의4 and Article 2 subparagraph 7 citations, and preserved the old/new statutory definitions of unregistered lending operators versus illegal private financial operators."
+    }
+  ],
+  "status": "COMPLETE"
+}
