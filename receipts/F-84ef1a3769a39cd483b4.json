@@ -1,0 +1,8 @@
+{
+  "job_id": "F-84ef1a3769a39cd483b4",
+  "worker": "C01",
+  "checked_rows": 924,
+  "corrected_rows": 43,
+  "status": "COMPLETE",
+  "note": "Completed Chinese review across all 924 rows in all 7 documents against the Korean source pinned at 8199305121db57867d22538e9f6c2ba075951194. The review contains 43 unique row corrections addressing foreign-exchange statutory title consistency, exchange-rate and administrative-fine provisions, currency-exchange and small overseas remittance registration, foreign-exchange brokerage authorization, administrative disposition and annex fragments, foreign-currency funding deduction formula, and corrupted START/MTQ artifacts in annex tables. The Korean source SHA is unchanged between the pinned commit and main. Official English translations for the Act and Enforcement Decree were consulted as secondary references; no matching reviewed/en or meaning/pairs files were found at the checked candidate paths. Historical references in the Act to the repealed Foreign Exchange Management Act were retained. Laws files were not modified. This receipt records repository review storage only and does not indicate operational database application."
+}
