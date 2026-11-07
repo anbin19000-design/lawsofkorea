@@ -1,0 +1,513 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-ae758416e6256efff1db",
+  "worker": "C04",
+  "checked_rows": 79,
+  "edits": [
+    {
+      "id": "B1-zh-00001",
+      "target_id": "b304445fec81e9cfa266ce21dcafcb3bcfe6f8b52179d3fc994295a4b166480a",
+      "source_hash": "064ff91793cc0e30c113bf65356917d04b978db91bc79f24250cd83f08037802",
+      "text": "国立公园公团法",
+      "reason": "Corrected statutory title (not a bill or management bureau)."
+    },
+    {
+      "id": "B1-zh-00002",
+      "target_id": "b37140ca7b752988d9f4b94c371b4a7231633c610578792ffbb6fa55bde4357c",
+      "source_hash": "3b7a44ad4216ce5382c2465fb944ca7f99cc93f6c186d621e611051bbed487bb",
+      "text": "第一条（目的）本法的目的是设立国立公园公团，系统地保护和管理国家公园等地的自然生态系统、自然和文化景观以及地形地质资源，从而促进国家公园等地的可持续利用，使公民能够在宜人的自然环境中过上健康悠闲的生活。<2018年10月16日修订>\n\n",
+      "reason": "Corrected institution identity (국립공원공단)."
+    },
+    {
+      "id": "B1-zh-00003",
+      "target_id": "0a8939fc6100e5419ab019326451b020446604a98e576627e659e305361c5974",
+      "source_hash": "d51355e6d6538973e2f0d2bc1274e7018f81023c197fc48df48f3b290891b6d4",
+      "text": "第二条（法人资格）国立公园公团（以下简称“公团”）为法人实体。<2018年10月16日修订>\n\n",
+      "reason": "Corrected institutional name and legally defined abbreviation."
+    },
+    {
+      "id": "B1-zh-00004",
+      "target_id": "6d2ed5ca0cc74dccc1183c9aefb672904cb8aa0af8bf0d6a54b1f59778e9fc31",
+      "source_hash": "b8fb5b74fef92f3b1e757f6db45f4389b1011ce1f09a745e5f75e9fa288a26f0",
+      "text": "第三条（办公室）\n① 公团主要事务所的所在地由章程确定。\n② 公团可依章程设置公园事务所及其他下属组织。\n\n",
+      "reason": "Restored corporate charter and Park Offices."
+    },
+    {
+      "id": "B1-zh-00005",
+      "target_id": "e82835826050a8c1250169d27faa728dcaa1a9c86f5369fa633f7e0622078ac1",
+      "source_hash": "681cf3e728cac15e1b31656c51b4cb80d62d96a262c46e58f9c9e761baae3019",
+      "text": "第3条之2（章程）\n① 公团章程应当包括下列事项：\n1. 目的\n2. 名称\n3. 主要事务所所在地\n4. 关于负责人及职员的事项\n5. 董事会相关事宜\n6. 任务及其执行\n7. 财产和会计\n8. 公告方式\n9. 公团章程修订\n② 公团须经气候、能源和环境部长批准方可修改其公团章程。<2025年10月1日修订>\n\n",
+      "reason": "Corrected Article 3-2 and all charter references, including Ministerial approval."
+    },
+    {
+      "id": "B1-zh-00006",
+      "target_id": "5cf50e1874dab317af02eea5b78234550e97edfa46600416d02a87aeb478b048",
+      "source_hash": "d8da6805743b5370b5d96048a69da307d75ca0380cd6847d3496dd9436faed7c",
+      "text": "第四条（登记）\n① 公团在主要事务所所在地办理设立登记后成立。\n② 除第1款规定的设立登记事项外，《民法》中有关财团法人的规定，照此适用。\n\n",
+      "reason": "Corrected establishment and 民法 财团法人."
+    },
+    {
+      "id": "B1-zh-00007",
+      "target_id": "0d4877a5c362b4dc52ab1b28a43a125749af697b199d2e823607ebf19f668a44",
+      "source_hash": "919003e4893935d0487d1b0e1a4f845e15d41b837292fa243792b798053e9387",
+      "text": "第五条（负责人）\n① 公团设董事不超过15名（包括理事长1名），另设监事1名。<2025年11月11日修订>\n② 除理事长及章程规定的常任董事外，其他负责人均为非常任。<2025年11月11日增设>\n\n",
+      "reason": "Corrected 15 directors inclusive of chair, plus a separate auditor and non-executive director category."
+    },
+    {
+      "id": "B1-zh-00008",
+      "target_id": "a1403af15eefb915e7d231c137837d0dca00a02ec4f9f2d4a9bc6b2676e40f32",
+      "source_hash": "d406ca4be63ac7de30dee6116408f2459e9cd04820bcd18e14e7e6492482ac16",
+      "text": "第六条（代理人的委任）理事长可以按照章程的规定，从员工中委任一名代理人，就公团业务实施诉讼上及诉讼外的行为。\n\n",
+      "reason": "Corrected litigation agent and public institution designation."
+    },
+    {
+      "id": "B1-zh-00009",
+      "target_id": "e4c768555251eecf4e08b4e82d8b947fd8fcd7079dba90784cc6de3bde47f086",
+      "source_hash": "e7d550549ff789dde91bce0c4347b691278036f4abea9ac26a0eaac58c5704b9",
+      "text": "第七条（员工的聘用和解雇）公团职员的聘用和解雇由理事长按照章程执行。\n\n",
+      "reason": "Corrected staff appointment and removal by the chairperson."
+    },
+    {
+      "id": "B1-zh-00010",
+      "target_id": "4f1766cebca80ad482cd03622fc04fe12b4db6524463310c48d5c52c8b05a17b",
+      "source_hash": "b5ec8b5f2f1ab7718ccfb4ff01d065a2d2cb04a3be645ccf17d9f62fb47814de",
+      "text": "第 8 条（保密义务）公团现任或曾任负责人及职员不得泄露或挪用在履行职责过程中获悉的秘密。\n\n",
+      "reason": "Restored confidentiality of all past and current executives/employees."
+    },
+    {
+      "id": "B1-zh-00011",
+      "target_id": "3595745103d0c5add251303a77c983bb768a7a2ea8f5ba80991d29141a16b7a8",
+      "source_hash": "0ac68f4854446723ea1dfb8576b37b093fa41a782a4a698ed6032805de458a5a",
+      "text": "第九条（事业）公团开展下列事业：<2018年10月16日、2022年6月10日、2025年11月11日修订>\n1. 国立公园的保护\n2. 国立公园内野生生物保护及濒危物种恢复\n3. 国立公园内野生动物疾病管理及救护、治疗\n4. 公园设施的设置及管理\n5. 国立公园内灾难的预防、准备、应对、恢复及支援\n6. 组织、运营国立公园救援队，执行国立公园游客安全事故预防、救援、急救等业务\n7. 对自然公园资源进行调查、研究\n8. 自然公园的清洁\n9. 对自然公园利用进行指导、宣传\n10. 开发、教育、普及及运营自然公园体验事业、游览解说等游览项目\n11. 调查、研究气候变化对自然公园生态系统的影响及开展生态恢复\n12. 有关自然公园保护、管理的国际合作\n13. 依其他法令公团可以开展的事业\n14. 接受政府或地方自治团体委托的事业\n15. 为实现公团设立目的由总统令规定的其他事业\n16. 作为第1项至第15项事业的附带业务，由章程规定的事项\n\n",
+      "reason": "Repaired 16 statutory missions, including interpreting tourist visits vs maps, rescue, and disaster preparedness."
+    },
+    {
+      "id": "B1-zh-00012",
+      "target_id": "4a2baf644167bf47a8a4a13ce1c1c7aa323d42352a58f3c5114a6fb70f58bfdf",
+      "source_hash": "b27944c2736da010dc81556d59fe0486faae58d334696d1702cb68dab7676674",
+      "text": "第十条（资金的筹措等）\n① 公团运营及事业所需资金通过下列方式筹措：\n1. 政府或政府以外人士提供的出捐款或补助金\n2. 第9条事业产生的收益\n3. 第13条规定的借款\n4. 政府以外人士提供的捐赠款\n5. 章程规定的其他收入\n② 第1款第1项规定的政府出捐款的支付、管理及使用所需事项，由总统令规定。\n\n",
+      "reason": "Repaired distinct funding sources 출연/보조금/기부금 and Article 10(2) controls."
+    },
+    {
+      "id": "B1-zh-00013",
+      "target_id": "7fd3f98edf62441e63207b1f751dca5951454c176f89f03aa1dae64c318e70fb",
+      "source_hash": "01fe044602d964151fb3490e3b6e6e8d735d52c345cf58e82e33233802b3585f",
+      "text": "第11条（出资等）\n① 公团为高效开展公团事业有必要时，可以对第9条规定的事业出资或出捐。\n② 根据第1款规定，出资或出捐所需事项由总统令规定。\n\n",
+      "reason": "Repaired 出资与出捐 and public corporation rather than commercial corporation."
+    },
+    {
+      "id": "B1-zh-00014",
+      "target_id": "c3245884a6ef920b3a7f9574908959cc91a7ab0228092a522cd284864c74ca86",
+      "source_hash": "164006c3b415137fd398eef3972270eb02e52eb5b1ef511aa6b09ad77930e522",
+      "text": "第十二条（费用收取） 经气候、能源和环境部长批准，公团可就第九条所述项目收取手续费及其他实际费用。<2025年10月1日修订>\n\n",
+      "reason": "Clarified separate processing fees and actual costs incurred, public institution name."
+    },
+    {
+      "id": "B1-zh-00015",
+      "target_id": "cab90e7e382f5def0e96bde0a5ed4f000ccbceb07351484f77b37b45af8413a0",
+      "source_hash": "5005076ddf168be87a36bef5492b7a4b7945620b2b8284c4cb40eee05d7afd9a",
+      "text": "第十三条（资金借贷）如第九条所述项目需要，公团可在气候、能源和环境部长批准下借款。<2025年10月1日修订>\n\n",
+      "reason": "Corrected borrowing by the public corporation upon ministerial approval."
+    },
+    {
+      "id": "B1-zh-00016",
+      "target_id": "91bc2770440bfd5e05e52e8cb85e0b8fb39c028f34a41e592b1d9d6867fc7722",
+      "source_hash": "0e29b8f50e459a0dbf33f14daab11ef887aa8499660a3da96164834a6f0e763f",
+      "text": "第十四条（业务运营计划等的审批）  公团应按照总统令的规定，就其每个财政年度的业务运营计划和预算，向气候、能源和环境部长取得批准。如需变更已获批准的业务运营计划和预算，亦应遵循此规定。<2025年10月1日修订>\n\n",
+      "reason": "Corrected public corporation instead of generic commercial company."
+    },
+    {
+      "id": "B1-zh-00017",
+      "target_id": "0f823bcd8088c2a58f9c192b67905d906fbd26c7189d4e3148936905fcb34bbf",
+      "source_hash": "3674966e021910cb927117620cc5409e5c6a7894edac05cbf601ac18ff9da5db",
+      "text": "第十五条（盈余的处理）公团每会计年度决算产生盈余时，应依下列顺序处理：\n1. 弥补结转亏损\n2. 依总统令规定提取事业准备金\n3. 缴入国库\n\n",
+      "reason": "Restored entirely omitted Article 15 second subparagraph business reserve and mandatory order of profit allocation."
+    },
+    {
+      "id": "B1-zh-00018",
+      "target_id": "8efe0cc7586aedc3c97227ba74266968e61beae1820f4a3547e7f73713256141",
+      "source_hash": "1d3fd7095b1d42bde9cb10468e9d9ac47ba8bf6b1ced6b1778c15ded0615e3b2",
+      "text": "第十六条（国有财产等的租赁等）\n① 尽管有《国有财产法》的规定，但如果政府认为有必要有效履行公团业务，可以向公团无偿出借国有财产或允许其无偿使用（包括货物；以下同上）。\n② 尽管有《公有财产及物品管理法》的规定，但如果地方政府认为有必要履行管理国家公园等职责，可以免费将相关地方政府拥有的土地和建筑物等不动产租赁或允许公团使用。\n\n",
+      "reason": "Corrected 国家财产法 and 公有财产及物品管理法, free loan of state/local realty, public corporation identity."
+    },
+    {
+      "id": "B1-zh-00019",
+      "target_id": "d59c670af810f9e06af9d221b587cb7bafc78991fabd8f8a50e853d6c4358ace",
+      "source_hash": "930157032ed9ac2e9b1878f8e68e15e53a1a2b0e1a1cfae2c06cd2bc1fa23f4c",
+      "text": "第十七条（国有财产等的转贷）\n① 公团可在不妨碍公园设施管理、运营的范围内，出租依第10条取得的出捐财产，或转贷依第16条借入使用的财产。\n② 公团依第1款拟转贷借入财产时，应事先制定计划并取得气候能源环境部部长批准；拟变更该计划时亦同。<2025年10月1日修订>\n③ 依第1款承租或接受转贷的人，不得允许其他人使用、收益该财产，也不得再次出租。\n④ 依第1款承租或接受转贷的人，不得在该土地上设置建筑物或其他永久性设施。但属于气候能源环境部部长认为为实现行政目的或执行公团业务有必要，并以捐赠为前提的设施，不在此限。<2025年10月1日修订>\n\n",
+      "reason": "Corrected public corporation as lessor and critical lessee duties under paragraphs ③ and ④ (no re-letting/permanent structures without donation exception)."
+    },
+    {
+      "id": "B1-zh-00020",
+      "target_id": "55b34b9f304e97a30e2b58bad2ff32db3d59ad47fa4ed92e19ac23cf7423e646",
+      "source_hash": "123d565e5e29aaf16b1331b7a4da6c6555364c42ba1d05ecc4ed00510d996655",
+      "text": "第十八条（公团财产等的无偿使用）  公团应允许为履行公团业务（例如管理和运营自然公园）所必需的行政机构或非营利法人，按照气候、能源和环境部长与相关中央行政机构负责人协商后确定的规定，使用公团所有或管理的财产。<2020年5月26日修订；2025年10月1日更新>\n\n",
+      "reason": "Restored mandatory free use of relevant publicly owned property by agencies/nonprofit legal persons, correcting commercial-company terms."
+    },
+    {
+      "id": "B1-zh-00021",
+      "target_id": "67f1795aef5f8411793302443ac1136709d7dba2583ee8bdca59ff46aa4bfca6",
+      "source_hash": "fb72c9442537a26b92b7a94c24e2acc1d1124fe09adc69ea2fd255d190510d37",
+      "text": "第十九条（土地等的购买）公团可购买或出售为实现其设立宗旨所必需的土地及其土地上的定着物，但须经气候、能源和环境部长批准。<2025年10月1日修订>\n\n",
+      "reason": "Corrected corporation and land plus fixed fixtures rather than only attached facilities."
+    },
+    {
+      "id": "B1-zh-00022",
+      "target_id": "8aa1a31a5f440d87ccfe2d1b9570dd443398b6a464bbffb0f96b2a524e28e0a1",
+      "source_hash": "a5ee2476447824f6fb1a1f92668010cddfb3e61e6d68dfcc1742acc452420246",
+      "text": "第二十条（免除购买债券等义务）  公团为经营活动购置动产或不动产的，按照国家机关的先例，免除其他法律规定的购买各种债券等义务。\n\n",
+      "reason": "Corrected national public institution and applicability of statutory national agency examples."
+    },
+    {
+      "id": "B1-zh-00023",
+      "target_id": "019d6c2844d2e4e084e8891de2e377eca1498c82fcf10d3d6d206de080f9c9eb",
+      "source_hash": "3c9473dad8bdff0570b7fe797b7d40895f9a3c8bfb83ee0c4934bb9f4e99bf3a",
+      "text": "第21条（登记嘱托的代位）公团在履行本法或《自然公园法》规定的受托事务过程中，对国家或地方自治团体取得的不动产权利依法须依《不动产登记法》第98条办理登记时，可以代位国家或地方自治团体嘱托登记。\n\n",
+      "reason": "Restored legal 代位登记嘱托 by the Service, not an ordinary substitutional registration application, under Article 98."
+    },
+    {
+      "id": "B1-zh-00024",
+      "target_id": "e9f21b1e50d3bc721110220c67cdf8ce1d8df232a54a1193db5cfe9878762714",
+      "source_hash": "0510728fd925117d1df73778b68f658a827a6c8d36a06ae75ef97f1b1440e64a",
+      "text": "第22条（公团的规章）  公团制定有关其组织、会计、人事、薪酬等方面的规章时，应当事先获得气候、能源和环境部长的批准。如需更改已批准的事项，亦应遵循此规定。<2025年10月1日修订>\n\n",
+      "reason": "Corrected the Article 22 company charter misnomer: these are internal organization/accounting/personnel/remuneration rules separately subject to prior Minister approval."
+    },
+    {
+      "id": "B1-zh-00025",
+      "target_id": "47d7c781e19a38c86763633437046ff5f56c31321f5febe565f73a1b949296c4",
+      "source_hash": "5e04b0ea2c138c59276432479e74a8788a7ad1bec52ce60c7f0edcc02aaae4c7",
+      "text": "第23条（相关资料的索取等）  公团在执行第9条规定的项目时，可以请求有关行政机关、地方自治团体或其他有关人员准予查阅、复制文件等相关资料，例如文件，或者进行其他必要的合作。\n\n",
+      "reason": "Corrected the direction of access request: Service requests inspection/copies from other authorities, not orders outside people to inspect."
+    },
+    {
+      "id": "B1-zh-00026",
+      "target_id": "4cb7380f132308167207289683960319d7e9eff27da1ef0a084ff633c9ecd810",
+      "source_hash": "1805b60bb9adc96c83add5cb771fa4b36f8108d72c34df72cc74272cef3547ae",
+      "text": "第二十四条（指导和监督）\n① 气候、能源和环境部长应指导和监督公团处理下列各款所述事项，并在必要时要求公团报告其运营、会计和财产相关事宜，或指派其管辖范围内的官员检查公团的账簿、文件、设施及其他物品。<2025年10月1日修订>\n1. 根据《自然公园法》及其他法律，气候、能源和环境部长委托公团履行职责的事项\n2. 关于根据《关于公共机关运营的法律》第50条实施管理准则的事项\n3. 与各财政年度业务计划的制定和执行以及预算编制有关的事项\n4. 其他法律规定的事项\n② 如气候、能源与环境部长根据第1款的规定，在指导、监督或检查过程中发现任何违法或不当行为，部长可责令该公团予以纠正。<2025年10月1日修订>\n③ 按照第1款规定进行指导、监督或者检查的公职人员应当携带表明其职权的身份证明，并向有关人员出示。\n\n",
+      "reason": "Corrected public corporation and statutory National Parks duties as opposed to a commercial company."
+    },
+    {
+      "id": "B1-zh-00027",
+      "target_id": "508cc667c6060df0ec0c872e014840e71799dabf2ec13dc34fa0cf683f22d301",
+      "source_hash": "a103d3ae7252455a95be217aa8fbd835d88a4cb3219a8c5019b0d863ea09e3c5",
+      "text": "第25条（民法的适用）除本法、《自然公园法》及《关于公共机关运营的法律》另有规定外，《民法》中有关财团法人的规定，比照适用。\n\n",
+      "reason": "Corrected full 3 statutes and the Civil Act foundation corporation rules as an application mutatis mutandis, not generic corporate fund law."
+    },
+    {
+      "id": "B1-zh-00029",
+      "target_id": "3bb68799356c7cc3e6f159dfdcc687484554bb5063919c095f297fa2730bfd81",
+      "source_hash": "e6c7e2f1a02fa0ac3336a40267fb6d6f33c22f49ddbb72987f5721d45d5fa88d",
+      "text": "附则 <第14226号，2016年5月29日>\n\n",
+      "reason": "Corrected statutory addenda, not an informal supplement."
+    },
+    {
+      "id": "B1-zh-00031",
+      "target_id": "bbc55b2c1a63674885633720a9ae9c6a0e715b7fac23e47f1af4ce2f5fdc6841",
+      "source_hash": "0f2584a5536d77bd8df2b8f5d1c7a28e748cbdf95e88c05d418a9915c1143f62",
+      "text": "第二条（国有财产特别规定的有效期）① 第十六条第一款有效期至2025年12月31日。\n\n  ② 公团依第十六条第一款无偿租赁或使用的国有财产的租赁或使用，即使在第一款规定的有效期届满后，仍应在该国有财产的租赁或使用期限内继续有效。\n\n",
+      "reason": "Restored statutory public corporation and continuation of free state-property loans until the separately agreed expiry after sunset."
+    },
+    {
+      "id": "B1-zh-00032",
+      "target_id": "6de12dba1d5e9fbdc2d74830a42229360c5f728378544759371f0a1f349ad7c4",
+      "source_hash": "60cf42fb59054c3b9e1ca1ac0dc76f568fd62947a6c2d02a623db7f64f864e55",
+      "text": "第三条（免除购买债券等义务的适用性）第二十条自本法实施后公团取得动产或不动产之时起适用。\n\n",
+      "reason": "Corrected public corporation and the commencement rule for exempting bond purchase."
+    },
+    {
+      "id": "B1-zh-00033",
+      "target_id": "e3f2bb7805b2a41ba77df530bdb2047928c5e632e06d31b9f6cbef03d3a0dd11",
+      "source_hash": "15d8a6b2c9131456211dce9a27807c36a054dadb2139bb9242055568c121eaa5",
+      "text": "第四条（关于国立公园管理公团的过渡措施）\n① 本法施行时依原《自然公园法》设立的国立公园管理公团，视为依本法设立的国立公园管理公团。\n② 本法施行时，原国立公园管理公团的财产、权利及义务在登记簿和其他公簿中登记的国立公园管理公团名义，视为公团名义。\n③ 本法施行时，原国立公园管理公团依《自然公园法》实施的事业、处分及其他行为，以及对该公团提出的申请和其他行为，均视为本法规定的公团行为或对公团的行为。\n④ 本法施行时，原国立公园管理公团的负责人及职员，视为本法规定的国立公园管理公团的负责人及职员；其负责人任期为原公团章程规定任期的剩余期间。\n\n",
+      "reason": "Preserved legal continuity from the predecessor '国立公园管理公团' in 2016 and the current 公团, including ownership, rights, duties, staff and residual terms."
+    },
+    {
+      "id": "B1-zh-00034",
+      "target_id": "9a2c8100e3e27b1ab84f55b9dc2cd9d37c18dd567823e975ba87fce5adb939bb",
+      "source_hash": "52444719392acc56f2f87d5d4be931178690fc7dd4e572b8f9fea7d88b83d18b",
+      "text": "第五条（关于国有财产出借等的过渡措施）\n① 本法施行时，公团依原《自然公园法》第59条取得出借或使用许可的国有财产，或者地方自治团体所有的土地、建筑物等不动产，在其出借或使用许可期限届满前，依原规定办理。\n② 本法施行时，公团依原《自然公园法》第60条出租或转贷的财产、国有财产或地方自治团体所有的土地、建筑物等不动产，在其出租或转贷期限届满前，依原规定办理。\n③ 本法施行时，公团依原《自然公园法》第67条允许其他行政机关或非营利法人无偿使用的公团财产，在其使用期限届满前，依原规定办理。\n\n",
+      "reason": "Corrected three distinct grandfathered property arrangements under Articles 59, 60 and 67 of the former Natural Parks Act."
+    },
+    {
+      "id": "B1-zh-00035",
+      "target_id": "ebb415b2da304be75752c6e5490b7f08c46bf83afd8f9e0398f4032bfafe4b24",
+      "source_hash": "574efa4fd1d597ab686e0338184785eba1f7bdf7b6b2aca52864a85627d95210",
+      "text": "第六条（其他法律的修订）\n① 《关于陡坡地灾害预防的法律》作如下部分修订。\n\n  将第2条第5项第(h)目修改如下。\n\n    (h) 依《国立公园管理公团法》设立的国立公园管理公团\n\n② 《地方税特例限制法》作如下部分修订。\n\n",
+      "reason": "Corrected steep-slope disaster act Article 2(5)(h) and 2016 predecessor law/company titles, and local-tax act title."
+    },
+    {
+      "id": "B1-zh-00036",
+      "target_id": "2895fc9f1e2c3cd75040ae25c08e37f689a549e6ec1ff859173d8c385b9f3cf6",
+      "source_hash": "c6fef53e0b281890e715409ceab02638618d26433a4fa63077f478d3362460ed",
+      "text": "  在第48条中，将“依《自然公园法》设立的国立公园管理公团”改为“依《国立公园管理公团法》设立的国立公园管理公团”。\n\n",
+      "reason": "Restored source and replacement agency legal names under local tax law in 2016."
+    },
+    {
+      "id": "B1-zh-00037",
+      "target_id": "9ba1438928a3d0ee08169df53bc2c2329c62d8a87e0db4de7f073124228b8d66",
+      "source_hash": "b4fdb2c24cb1a4501cac41d6e6076da9415d61eb2f7783774b99800b165600bc",
+      "text": "第七条（与其他法令的关系）在本法实施时，其他法令援引原《自然公园法》第六章的规定，而本法中又有相应规定的，应当视为以本法的规定代替原规定。\n\n",
+      "reason": "Restored transition referring to other statutes AND regulations (다른 법령), not only other enacted Acts."
+    },
+    {
+      "id": "B1-zh-00038",
+      "target_id": "840b51e93fcf5ffe510825df6a7ad59557fa4f18168c0c6497e78f80ddf0b9e5",
+      "source_hash": "5dc81ebb78dbbe95fd037498c1d84618c820253698bca6d6e4edbfb26663c1e1",
+      "text": "附则 <第15830号，2018年10月16日>\n\n",
+      "reason": "Corrected formal addenda heading."
+    },
+    {
+      "id": "B1-zh-00040",
+      "target_id": "92ff475afa3a05dd65814d22fa0b720abd2d547312a1c7f980f4b2f9bcca1d9e",
+      "source_hash": "54c9f5e8b7e6a5f7594a5e509b05214c79a4fcad87702aeee844bf7ebdf5b6c2",
+      "text": "第二条（权利、义务的承继）本法施行前在登记簿或其他公簿上记载的国立公园管理公团名义，视为本法规定的国立公园公团名义。\n\n",
+      "reason": "Preserved predecessor name as '国立公园管理公团' and revised institutional name '国立公园公团'."
+    },
+    {
+      "id": "B1-zh-00041",
+      "target_id": "0e712d8f52c7abe90f9c1986cd5667796a96d61b51d4945e5a0f823e23393332",
+      "source_hash": "7b46dce72f0ae1689d535826791e96f8f6561a83f6fcaaf513fe1fe090f6be04",
+      "text": "第三条（其他法律的修订）\n① 《关于陡坡地灾害预防的法律》作如下部分修订。\n\n  在第2条第5项第(h)目中，将“依《国立公园管理公团法》设立的国立公园管理公团”改为“依《国立公园公团法》设立的国立公园公团”。\n\n② 《关于履行司法警察管理职务人员及其职务范围的法律》作如下部分修订。\n\n  在第7条之2标题中，将“国立公园管理公团”改为“国立公园公团”；在同条中，将“国立公园管理公团或”改为“国立公园公团或”，将“国立公园管理公团理事长”改为“国立公园公团理事长”。\n\n③ 《森林保护法》作如下部分修订。\n\n  在第32条第2款中，将“国立公园管理公团”改为“国立公园公团”。\n\n  在第39条第1款第5项中，将“国立公园管理公团”改为“国立公园公团”。\n\n④ 《自然公园法》作如下部分修订。\n\n  在第42条第1款但书中，将“依《国立公园管理公团法》设立的国立公园管理公团”改为“依《国立公园公团法》设立的国立公园公团”。\n\n⑤ 《地方税特例限制法》作如下部分修订。\n\n",
+      "reason": "Restored five consequential 2018 amendments, distinguishing former 国立公园管理公团 and renamed 国立公园公团, preserving all cited article/subparagraphs and statutes."
+    },
+    {
+      "id": "B1-zh-00042",
+      "target_id": "5b89166f3fb330e0130f757c3e8bd1a1c3d13abe55d480a961adbde52010f151",
+      "source_hash": "4f4d90564f3cba584972127e11ff88f4ce3e7b71b4d10c21d6a7fdb0086cc799",
+      "text": "  在第48条中，将“依《国立公园管理公团法》设立的国立公园管理公团”改为“依《国立公园公团法》设立的国立公园公团”。\n\n",
+      "reason": "Restored explicit prior and renamed corporation and Act names in Local Tax Special Cases Restriction Act Article 48."
+    },
+    {
+      "id": "B1-zh-00043",
+      "target_id": "270517b237c8d560a576d68aeee70459485c969ccff1b053f02842ee0178c438",
+      "source_hash": "eb979d7404acbfe34dfb4817861a9bc2838df42ad9945a19028df409443c18ba",
+      "text": "附则（关于为整顿法律用语而部分修订环境劳动委员会所管65部法律的法律）<2020年5月26日，第17326号>\n\n本法自公布之日起生效。<但书略>\n\n",
+      "reason": "Corrected exact title of 2020 Act amending 65 Acts, formal addenda and same-day commencement."
+    },
+    {
+      "id": "B1-zh-00044",
+      "target_id": "05199ee12a109c96d952b4125b8ac8197d59acf3b69b84a1b435d555445f50d8",
+      "source_hash": "9b9f225c88fffb670aea54ecbe42cb4c2eb62c7c1e8a46cbe28fd6135784d68d",
+      "text": "附则 <第18903号，2022年6月10日>\n\n本法自颁布之日起生效。\n\n",
+      "reason": "Corrected formal statutory addenda, preserving Act No.18903 and same-day enforcement."
+    },
+    {
+      "id": "B1-zh-00045",
+      "target_id": "f5e7c6d6f21e7fe47a92edfb81cd39e595606db19db5f394b42eed8aad7619ce",
+      "source_hash": "3480e86a86ef9ad8c919b6a09b870d318b15d3a9f68ecd56d35864dbf3fed08b",
+      "text": "附则（政府组织法）<第21065号，2025年10月1日>\n\n",
+      "reason": "Corrected Government Organization Act addenda number 21065, not a subordinate decree."
+    },
+    {
+      "id": "B1-zh-00046",
+      "target_id": "b188b747034d31658fcfa7c916def7937ea0508f6c88ed36ae32a890b984fba5",
+      "source_hash": "7aeb3bf0b40bd4c144c8ceaa24f9d7b38fcbb008f987298b83e74652288bac8a",
+      "text": "第一条（生效日期）本法自公布之日起生效。但是，根据附则第七条修正的法律中，修正在本法生效前已公布但生效日期尚未到来的法律的条款，自各相关法律的生效日期起生效……<省略>……\n\n  1. 和 2. 省略\n\n",
+      "reason": "Corrected source reference to the addenda Article 7, not an appendix; preserved explicitly omitted provisions and delayed effective dates."
+    },
+    {
+      "id": "B1-zh-00048",
+      "target_id": "526b536523409f0d06fa9857fd92698e98f7b7bb6dfd2499fb67801dd7042ffa",
+      "source_hash": "20b7d7920a565810552f445b3d2c914570edec5aac7ab26d2151107c7df49490",
+      "text": "第七条（其他法律的修订）①至<324>省略\n\n<325>《国立公园公团法》作如下部分修订。\n\n在第3条之2第2款、第12条、第13条、第14条前段、第17条第2款前段、同条第4款但书、第18条、第19条、第22条前段、第24条第1款各项以外部分、同款第1项及同条第2款中，分别将“环境部部长”改为“气候能源环境部部长”。\n\n<326>至<626>省略\n\n",
+      "reason": "Corrected 2025 old/new Ministry of Environment wording, the full list of amended articles and textual positions (introductory parts and provisos), and the law's identity."
+    },
+    {
+      "id": "B1-zh-00050",
+      "target_id": "6c900baaeb4b17736c6f2bf2352996914616dc681765c2d4fb63451bc0261e1e",
+      "source_hash": "7816b365df5d105d701062034e5fa3a372adf58fadfb6fa31ed3c46585bc4a32",
+      "text": "附则 <第21120号，2025年11月11日>\n\n",
+      "reason": "Corrected 2025 November addenda, distinguishing enacted Act from generic supplement."
+    },
+    {
+      "id": "B1-zh-00051",
+      "target_id": "bf37a103aefe934b31940c443e623187dd9a5ebc21a2111ea9ed7a1133e20af3",
+      "source_hash": "25ab8090219c7238abfcb9c5def1d259d4a6ffcd42cc55b280b8993c845bc68c",
+      "text": "第一条（生效日期）本法自公布后满6个月之日起施行。\n\n",
+      "reason": "Preserved six months after promulgation as legal commencement; standardized language minimally."
+    },
+    {
+      "id": "B1-zh-00052",
+      "target_id": "e7398eff8e06c24772835ddf6ab7bbb99d89c554b460272068679a9fbbbd9cfa",
+      "source_hash": "9c6955542fa98ae7ab4d0e73404579f5c17125928b12dc4ef39b78c708ce37df",
+      "text": "第二条（关于常任董事及董事选举的适用例）第五条的修订规定自本法实施后，按照该修订规定选举常任董事及董事之日起适用。",
+      "reason": "Corrected statutory applicability date after the enactment, for election of standing and other directors."
+    },
+    {
+      "id": "B2-zh-00001",
+      "target_id": "384e2dfa6fbeb48e7d72ad9dffa62679ccc179c0310a7ff7972284a0cf286e8b",
+      "source_hash": "5945d32ebe61880719663ec91becd76e33530f143e57edf6150cafb82e59d6a1",
+      "text": "国立公园公团法施行令",
+      "reason": "Corrected official parent Act and Presidential Enforcement Decree title, not the unrelated former park management bureau."
+    },
+    {
+      "id": "B2-zh-00002",
+      "target_id": "d01da6ac15806f2031b926ba82f0a89bcd5f2d2a26322977d71e6f230105624a",
+      "source_hash": "5d73f1d9e9c24c16bfe7f08fc93844a921320d82a5c27748330d717191e325cd",
+      "text": "第一条（目的）本令旨在规定《国立公园公团法》授权委任的事项及施行该法所需事项。<2019年1月15日修订>\n\n",
+      "reason": "Corrected parent Act title and status of this Presidential Decree, preserving 2019 amendment."
+    },
+    {
+      "id": "B2-zh-00003",
+      "target_id": "8dd9031932dbc397d8b63c8b368eda15f9a297ef115af86bff9babf4f2b5dede",
+      "source_hash": "671c6475dda261f41db0cf98b907ae17ea81a787229b804b11bd26b78d6793d8",
+      "text": "第二条（下属组织设置登记）《国立公园公团法》（以下简称“本法”）第2条规定的国立公园公团（以下简称“公团”）依本法第3条第2款设置下属组织时，应自设置之日起3周内，在主要事务所所在地登记新设下属组织的名称、所在地及设置年月日。\n\n",
+      "reason": "Restored the Korean Service legal name, its Act Article 2 and Article 3(2), three-week subsidiary registry and three registered particulars."
+    },
+    {
+      "id": "B2-zh-00004",
+      "target_id": "93053a0ac470432577e4881447ac5fd33a8a949261ffe0022e1712fba4b10d58",
+      "source_hash": "ae2c1eec1fc6bac9297bc2712d7fddef55884d7af4069a95fceba21982fef281",
+      "text": "第三条（设立登记） 按照本法第四条规定，公团设立登记的事项如下：\n1. 目的\n2. 名称\n3. 主要事务所及下属组织的所在地\n4. 负责人姓名及地址\n5. 公告方式\n\n",
+      "reason": "Corrected registration of the Service's establishment, office/subordinate organization locations and executive rather than generic company officers."
+    },
+    {
+      "id": "B2-zh-00005",
+      "target_id": "8537683d7d47d8dda22648152a717e70155ebbee1579543bde40a82642e9ee8a",
+      "source_hash": "21fd682a8c0ba55e73a67a83930ca05169111e1cd60938065680c508bce7c8d8",
+      "text": "第四条（迁移登记）\n① 公团迁移主要事务所时，应自迁移之日起2周内，在原所在地或新所在地登记新所在地及迁移日期。\n② 公团迁移下属组织时，应自迁移之日起2周内，在主要事务所所在地登记新所在地及迁移日期。\n\n",
+      "reason": "Corrected legal 迁移登记 (not real estate ownership transfer/过户登记) of principal office and subordinate organizations, preserving separate two-week periods."
+    },
+    {
+      "id": "B2-zh-00006",
+      "target_id": "c2239bd45dd4e858d06ff274e3d0aebc4fe9ac11f01cffed3b07ff43b76488c0",
+      "source_hash": "128e421aafe5f342ae5ab2e3ee2580105f542d77cf98b6287853e0402cc7c046",
+      "text": "第五条（变更登记）根据第二条或第三条各款登记的事项发生变更时（不包括根据第四条进行迁移登记的情况），公团应当在变更发生后两周内，在其主要事务所所在地登记变更事项。\n\n",
+      "reason": "Corrected statutory change registry and exemption for office relocation registration rather than transfer of ownership."
+    },
+    {
+      "id": "B2-zh-00007",
+      "target_id": "8a9d674a8357e0d355a941bc2b2baee8154e94ed654422c115bb8f09f0503f1e",
+      "source_hash": "d382d60110901cf78baa2e2a26c583e594f7e49b80da4a4a4ba69b517bbed688",
+      "text": "第六条（代理人选任登记等）\n① 公团理事长依本法第6条选任代理人时，公团应自选任之日起2周内，在主要事务所所在地登记下列事项：<2025年1月21日修订>\n1. 代理人的姓名及地址\n2. 配置代理人的主要事务所或下属组织的名称及所在地\n3. 代理人权限受到限制时，该限制的内容\n② 第1款各项登记事项发生变更时，公团理事长应自变更之日起2周内办理变更登记。\n③ 公团理事长依本法第6条解任代理人时，公团应自解任之日起2周内，在主要事务所所在地登记解任事实。<2025年1月21日修订>\n\n",
+      "reason": "Restored legal agency appointment and dismissal (not company chairman/executive), precise two-week filing and three registered fields."
+    },
+    {
+      "id": "B2-zh-00008",
+      "target_id": "ecf4e15e7940234453d68d4f13d931a515f44d09b79952e9a956d2c14ff1dff3",
+      "source_hash": "0450f8ae45f38c0e08ccb054e53fa125ade039d69ae56eaefc47aebb5a171b3e",
+      "text": "第七条（登记申请书的附属文件）依第2条至第6条申请各项登记时，应按以下类别附具文件：\n1. 依第2条登记下属组织的设置：证明其设置的文件\n2. 依第3条办理设立登记：公团章程及证明负责人资格的文件\n3. 依第4条办理迁移登记：证明主要事务所或下属组织迁移的文件\n4. 依第5条办理变更登记：证明相关变更的文件\n5. 依第6条登记代理人的选任、变更或解任：下列文件\na. 证明选任、变更或解任的文件\nb. 代理人权限受到限制时，证明限制的文件\n\n",
+      "reason": "Corrected five classes of registry evidence and subitems a/b including relocation, agency appointment, authority restrictions, not company property transfers."
+    },
+    {
+      "id": "B2-zh-00009",
+      "target_id": "c72a86c9de03c504c6adf158224886b4e6b8519adc9fd19629db668f03bccc6a",
+      "source_hash": "ab7017c832744732ad2639c241b45fbb3e08f14630e386dc0e581edf67b4fa08",
+      "text": "第八条（登记期限的起算）  凡依第二条至第六条规定须登记的事项中，有须经气候能源环境部部长许可或批准的事项，登记期限自收到该等许可或批准文件之日起算。<2025年10月1日修订>\n\n",
+      "reason": "Corrected approval/authorization under exact 2025 Climate, Energy and Environment Minister as starting point for registration."
+    },
+    {
+      "id": "B2-zh-00010",
+      "target_id": "d2e2db0734038750d81c65f5e62a59eb6a6c72ca78b95e10b6616ac6feb0289a",
+      "source_hash": "1fa0797ad4d927f09bda3159097c28285560e1da519e9436331ad45daf5a51a6",
+      "text": "第九条（事业）本法第9条第12项所称“总统令规定的事业”，指下列事业：<2019年1月15日修订>\n1. 游客安全管理及安全教育\n2. 游览项目等的认证及支援\n3. 建设有关自然公园保护、管理志愿服务活动的基础并开展支援事业\n\n",
+      "reason": "Corrected use of 公团 and tourism expedition rather than a 'foundation' for volunteer activity; preserved Korean decree's existing subparagraph 12 reference without independently changing Korean text."
+    },
+    {
+      "id": "B2-zh-00011",
+      "target_id": "c3629ee6fddfc5adc89eea1d8ceea86336911a6ca771db8be30b046bf8114a1c",
+      "source_hash": "aa6e4db6a2649ea39508c93dcc41ffb0c0eea3f3816c67051e25cc4d962dfcd2",
+      "text": "第十条（出捐款等预算要求书的提交等）\n① 公团拟依本法第10条第1款第1项请求政府出捐或补助时，应于每年5月31日前，向气候能源环境部部长提交下一会计年度的出捐款或补助金（以下简称“出捐款等”）预算要求书，并附下列文件：<2025年10月1日修订>\n1. 下一会计年度事业计划书\n2. 下一会计年度预计损益计算书、预计资产负债表及其附属明细书\n3. 其他为说明预算要求内容所需的文件\n② 气候能源环境部部长认为第1款预算要求合理时，应将其反映于预算案，并在出捐款等预算确定后通知公团。<2025年10月1日修订>\n\n",
+      "reason": "Corrected submission by May 31 of next-year government's contribution/subsidy budget request, 3 attachments, Ministerial draft and notice, not a corporation's private budget."
+    },
+    {
+      "id": "B2-zh-00012",
+      "target_id": "7a51718361011c4636d9a4087bf6871a1ac5f78bb34820f423c931196345dbab",
+      "source_hash": "0924b1378ab358831f8540aba10c6f7f1740be9c5c3455b9270689a3bcc4e975",
+      "text": "第十一条（出捐款等的支付）\n① 公团拟领取出捐款等时，应将有关会计年度的季度事业计划及预算执行计划附于季度支付申请书，提交气候能源环境部部长。<2025年10月1日修订>\n② 气候能源环境部部长收到第1款申请后，认为季度事业计划和预算执行计划合理时，应向公团支付出捐款等。<2025年10月1日修订>\n\n",
+      "reason": "Corrected Article 11 지급 of public contribution/subsidy funds, not members' dues; two-stage quarterly funding request and payment approval."
+    },
+    {
+      "id": "B2-zh-00013",
+      "target_id": "be1cf654d3ca74a67cc0565a0d2be20523975f6602fd1514587ba93a2ebc8bb6",
+      "source_hash": "13bcd666ed7c9d51df0a2583bfc05965f08d67e0c3221b9fbe8c6c46a7223e1c",
+      "text": "第十二条（出资等）公团拟依本法第11条出资或出捐时，应向气候能源环境部部长提交载明下列事项的计划书：<2025年10月1日修订>\n1. 出资或出捐的必要性\n2. 出资或出捐财产的种类及价值\n3. 出资或出捐对象事业的概要\n4. 出资或出捐所需其他事项\n\n",
+      "reason": "Corrected legal distinction between 출자 and 출연 and required project plan fields."
+    },
+    {
+      "id": "B2-zh-00014",
+      "target_id": "001533c51cafe88f03df09264336c37d174b68b6b1abdd0693a2f69b28cda3e0",
+      "source_hash": "c7b699efb9dab4b18a70332f195390204d05f9d2b463867a748456fd78968762",
+      "text": "第十三条（资金借入批准申请）公团拟依本法第13条申请批准借入资金时，应向气候能源环境部部长提交包括下列事项的申请书：<2025年10月1日修订>\n1. 借入理由\n2. 贷款方\n3. 借入金额及用途\n4. 利息支付方法及期间\n5. 借款偿还方法及期间\n6. 借入资金及偿还所需其他事项\n\n",
+      "reason": "Corrected 차입처 as the lender/source of borrowing, not the borrower, interest/payment dates and repayment plan."
+    },
+    {
+      "id": "B2-zh-00015",
+      "target_id": "b4e00097104a390ea5c42ab1dd0098219723c01e047be49426d7017b303e92fa",
+      "source_hash": "3a1a9dff7ccc6524a0269024710288ee483371a5fe2d12d8ebe148677bcc65cd",
+      "text": "第十四条（事业运营计划等批准申请）\n① 公团拟依本法第14条前段取得事业运营计划及预算批准时，应于每年10月31日前编制下一年度的事业计划书和预算书，提交气候能源环境部部长。<2025年10月1日修订>\n② 公团拟依本法第14条后段取得事业计划及预算变更批准时，应将反映变更内容的计划书和预算书，连同记载变更内容和理由的文件，提交气候能源环境部部长。<2025年10月1日修订>\n③ 依第1款及第2款提交的预算书，应包括下列事项，并附证明其内容的文件：\n1. 预算总则\n2. 预计资产负债表\n3. 预计损益计算书\n4. 资金计划书\n\n",
+      "reason": "Corrected fabricated 'Company Act' citation (actual 公团法 Article 14 first/last sentence), annual October 31 deadline and four budget documents."
+    },
+    {
+      "id": "B2-zh-00016",
+      "target_id": "ddcf38b80b6e84b464a43704d05902047b35dbfc1f0cdc980c1d870deedceb6c",
+      "source_hash": "df5234f0e1cb1467a7a1c6be1d2d132f9f0f0d8575eb8f67db02cd7a67c22aaa",
+      "text": "第十五条（事业准备金的积累）依本法第15条第2项的事业准备金，应经董事会议决，在每会计年度决算利润弥补结转亏损后剩余金额的90%范围内提取。\n\n",
+      "reason": "Corrected statutory cross-reference Article 15 subparagraph 2 (제2호, not paragraph 2); preserved business reserve cap 90% and board resolution."
+    },
+    {
+      "id": "B2-zh-00017",
+      "target_id": "e7c38e736c1b5279b872c88ae0ed464adc6be443e14dbb6a5f9cc1a5501f7119",
+      "source_hash": "0ba735ab550bdf47424f56acbc6274d95469cdb92cd7e8b3de0b95bd7b98c17d",
+      "text": "第十六条（预备费）公团可以列支预备费，以应对预算外无法预见的支出或超出预算的支出。\n\n",
+      "reason": "Corrected 예비비 as contingency funds appropriated in budget, not a separately created reserve fund."
+    },
+    {
+      "id": "B2-zh-00018",
+      "target_id": "e8f97b365b83ccdc9da9ba4e6fe0477492e0b99b0bb76b257f487df542626aaa",
+      "source_hash": "a240c0a5d1fa47b1c842acba92b98fdf64e323daf2142e96ba55dff3015b5309",
+      "text": "附则 <第28076号，2017年5月29日>\n\n本令自2017年5月30日起施行。\n\n",
+      "reason": "Corrected 2017 Presidential Decree No.28076 supplementary provisions and effective date May 30."
+    },
+    {
+      "id": "B2-zh-00019",
+      "target_id": "209b387393f4ca494fb1e4a8a667a58a16e3b03b07f2b22ff04e85d419cb1ec6",
+      "source_hash": "84db8d1ec3c5f126cedc484fd43edaa1afbb9ab72daa05bed42d4cb7bd50c9e9",
+      "text": "附则 <第29489号，2019年1月15日>\n\n",
+      "reason": "Corrected formal 2019 supplementary provisions heading."
+    },
+    {
+      "id": "B2-zh-00021",
+      "target_id": "dc1906ee7094a7a06b72dd0387596410ecfaa6f3dd37f71ce972afe6050080d4",
+      "source_hash": "70ef9257875af40d204ec66055171e8ac80a83e0f5ddeafd500370bcdebc460d",
+      "text": "第二条（其他法令的修订）\n① 《森林保护法施行令》作如下部分修订。\n\n  在第2条第1款第4项中，将“国立公园管理公团”改为“国立公园公团”。\n\n② 《自然公园法施行令》作如下部分修订。\n\n  在第5条第3款第2项及第27条之4第4款第2项中，分别将“国立公园管理公团”改为“国立公园公团”。\n\n③ 《灾难及安全管理基本法施行令》作如下部分修订。\n\n  将附表1之2第32项修改如下：\n\n    32. 国立公园公团\n\n④ 《关于加重处罚特定犯罪的法律施行令》作如下部分修订。\n\n  将第2条第13项修改如下：\n\n    13. 国立公园公团\n\n⑤ 《航空安全法施行令》作如下部分修订。\n\n",
+      "reason": "Restored 2019 organization rename in five separate presidential-decree amendments; distinguished former 国立公园管理公团 from renamed 国立公园公团, and 外部法令附表1之2 item 32."
+    },
+    {
+      "id": "B2-zh-00022",
+      "target_id": "0d998ec0f329fb00894431b4f36749d63cb53b39f38c8c67cc8fcfc1bc81f2a9",
+      "source_hash": "408fd56783dfa34f042d3c2d95c9c78059126925d1dae6152807bedfd28a1702",
+      "text": "  在第3条中，将“依《国立公园管理公团法》设立的国立公园管理公团”改为“依《国立公园公团法》设立的国立公园公团”。\n\n",
+      "reason": "Corrected source/replacement Act and organization names in Article 3 of Aviation Safety Act Enforcement Decree."
+    },
+    {
+      "id": "B2-zh-00023",
+      "target_id": "827de8f5562df64860f64701f9684475a2780dccdcae231cb3fab0aeef77927f",
+      "source_hash": "7e7b4a5a70a569564f42c118d33ee0873aa7a64c90944d0b6567ad9068f538d7",
+      "text": "附则（关于为整顿法人登记规定而部分修订78部法令的总统令）<第35228号，2025年1月21日>\n\n本令自2025年1月31日起施行。\n\n",
+      "reason": "Corrected statutory addenda title for Presidential Decree concerning 78 laws and regulations and corporate registration, preserving No.35228/date."
+    },
+    {
+      "id": "B2-zh-00024",
+      "target_id": "f9585d2d70b635577ec227bfea6a1b90ff5104fd4a806b6312677e90c3c19580",
+      "source_hash": "f483559ec1a36b942ef750619e644b759ece5c63ecb3cd9dec83df4752cb61a1",
+      "text": "附则（气候能源环境部及其所属机关职制）<第35804号，2025年10月1日>\n\n",
+      "reason": "Corrected formal 2025 Ministry of Climate, Energy and Environment organization decree supplementary heading."
+    },
+    {
+      "id": "B2-zh-00025",
+      "target_id": "96db1a9532894420c23803ea1ab40bda5da16d3e4b56f2d4ea5758adb6d7af4a",
+      "source_hash": "43029911dc2de8ee3c18d3a0db5ea54e4a90b52bf432a54ad38d3946d19ff180",
+      "text": "第一条（施行日期）本令自公布之日起施行。但依附则第6条修订的总统令中，对本令施行前已公布而尚未到施行日期的总统令所作的修订部分，分别自有关总统令施行之日起施行。\n\n",
+      "reason": "Corrected Decree Article 1 provision to its addenda Article 6 (not a separate supplemental decree) and future effective dates."
+    },
+    {
+      "id": "B2-zh-00027",
+      "target_id": "3cda296c25c7b6122443a7288509e00491be34b1f4cf86201c16d82d2acd1b66",
+      "source_hash": "16cbb8d41d6a3a43f2ddba1aed66c8661b247cc3df478fb2c5d5082902768d85",
+      "text": "第五条（其他法令的修订）①至④省略\n\n  ⑤《国立公园公团法施行令》作如下部分修订。\n\n  在第8条、第10条第1款各项以外部分及同条第2款、第11条第1款和第2款、第12条各项以外部分、第13条各项以外部分以及第14条第1款和第2款中，分别将“环境部部长”改为“气候能源环境部部长”。\n\n  ⑥至<80>省略",
+      "reason": "Corrected 2025 ministry changes in exact Article 8/10/11/12/13/14 scopes and former versus new Ministry of Environment names, preserving all omitted item numbers."
+    }
+  ],
+  "status": "COMPLETE"
+}
