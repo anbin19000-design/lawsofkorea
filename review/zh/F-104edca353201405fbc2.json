@@ -1,0 +1,282 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-104edca353201405fbc2",
+  "worker": "C04",
+  "checked_rows": 54,
+  "edits": [
+    {
+      "id": "B1-zh-00001",
+      "target_id": "cfb9d1566a2e605cb4461596025e059187f49cebf66a3996019dc61f19b575c9",
+      "source_hash": "f9464b06272ad9995ea9409417bd161da10eeb938f8ca3b01c496744c79db9e5",
+      "text": "警察职务支援法",
+      "reason": "Corrected the enacted Act title: 경찰직무 응원 refers to assistance to police duties, not cheering up police on duty."
+    },
+    {
+      "id": "B1-zh-00002",
+      "target_id": "ce54a8a973c0e51f9d9997e769dc7f6815b5816583d377bb94a410d7322524bf",
+      "source_hash": "34e0cdf43ef0558a19eae1c3f5f91827098779173c667d288afd7154555e6fad",
+      "text": "第一条（增援警察官的派遣）\n① 市、道警察厅厅长或地方海洋警察机关负责人，在镇压突发事态或警戒公共秩序已受扰乱、明显有扰乱之虞的地区（以下简称“特殊地区”）时，认为所属警力难以承担的，可以为获得增援，请求其他市、道警察厅厅长、地方海洋警察机关负责人或已设立自治警察队的济州特别自治道知事派遣警察官。<2014年11月19日、2017年7月26日、2020年12月22日修订>\n② 警察厅厅长或海洋警察厅厅长在镇压突发事态或警戒特殊地区时遇有紧急情况，可以命令市、道警察厅厅长、所属警察机关负责人或地方海洋警察机关负责人派遣所属警察官，增援其他市、道警察厅或地方海洋警察机关的警察官。<2017年7月26日、2020年12月22日修订>\n\n",
+      "reason": "Corrected special-area guarding, formal police/coast-guard offices, receiving reinforcement by dispatch, and request versus order authorities."
+    },
+    {
+      "id": "B1-zh-00003",
+      "target_id": "b66856bea836068a9968f6b7286ab9ff1549b7c778e54d33f59b76db0e4fb3ec",
+      "source_hash": "89e9cdc806ffd57f27f1ab0d86c1a4bcb1bf2d6a6ae15c8fcf2c4abc256e21b5",
+      "text": "第二条（派遣警察官的所属）依第1条派遣的警察官，应作为接受派遣的市、道警察厅或地方海洋警察机关的警察官执行职务。<2014年11月19日、2017年7月26日、2020年12月22日修订>\n\n",
+      "reason": "Corrected effect of statutory assignment to the receiving authority, not generic police duties in the receiving locality."
+    },
+    {
+      "id": "B1-zh-00004",
+      "target_id": "dae1bda3e807283674913ef4673b088010074a323f036ff1d173d5ee276a5799",
+      "source_hash": "b3299c531883b1493a3d4b8967b07919fb85e3c5d86607011c73c22bcfc4e3e4",
+      "text": "第三条（移动勤务）市、道警察厅厅长或地方海洋警察机关负责人，因警护、移动乘务、物品押运等有特别需要时，可以命令其所属警察官在其他市、道警察厅或地方海洋警察机关管辖区域内执行职务。<2014年11月19日、2017年7月26日、2020年12月22日修订>\n\n",
+      "reason": "Corrected 경호 (protective escort) and 물품 호송 (escort of goods), neither generic law-and-order patrol nor mere freight transport."
+    },
+    {
+      "id": "B1-zh-00005",
+      "target_id": "42ecdd8e12fa1a787cfe944a103662b0e2f6e8d0dbfc70fd75662376d3666a83",
+      "source_hash": "26ade7a3a4fd7eff3b7f0d582adc564b690f53082f1d34750eefaa8a4344d69f",
+      "text": "第四条（警察机动队的编成）警察厅厅长或海洋警察厅厅长认为为镇压突发事态或警戒特殊地区特别必要时，可以将所属警察官编成警察机动队（以下简称“机动队”），派往有需要的地区。\n\n",
+      "reason": "Corrected uniform statutory police mobile unit name 기동대 and formal agency heads."
+    },
+    {
+      "id": "B1-zh-00006",
+      "target_id": "67b84eb0f0b9942fa1652d0968c7c791cdcd789acb858cfd130c3b8f139a1e30",
+      "source_hash": "50d8bf999a8bb6797bbf198469e5ad8b479a5594018e0752de8373f5b40c5ff7",
+      "text": "第五条（机动队的编成、派遣及解散）机动队的编成、派遣目的、驻扎地区及解散，每次均由警察厅厅长或海洋警察厅厅长公告。<2014年11月19日、2017年7月26日修订>\n\n",
+      "reason": "Restored mandatory publication each time organization, dispatch or dissolution occurs rather than discretionary announcements at any time."
+    },
+    {
+      "id": "B1-zh-00007",
+      "target_id": "e72529d5cd9e13c4728f3b2bf53946164755c733c5671a03b311df3bbee87c3d",
+      "source_hash": "b28fa6828cebfcb2534de2566bcfc1b65c87eea2e2c61d23a36401c6eebb0a00",
+      "text": "第六条（机动队队长）机动队设队长1人，由警察厅厅长或海洋警察厅厅长从警务官或总警中任命；但必要时，可以由担任科长职务的总警兼任队长。<2014年11月19日、2017年7月26日修订>\n\n",
+      "reason": "Corrected specific statutory Korean police ranks 경무관/총경, wrong in the draft as higher/lower superintendents, preserving concurrent-head exception."
+    },
+    {
+      "id": "B1-zh-00008",
+      "target_id": "839b1d5e0d4b1b2e7776f1874c28995bc365d80096088c8fb2dca73692f6a856",
+      "source_hash": "5167e7f72e24090584a387ea68e15c80253f25ab35c181e266f4a4a84971d04e",
+      "text": "第七条（队长的权限）队长遵照警察厅厅长或海洋警察厅厅长的命令，负责处理机动队事务，并指挥、监督所属警察官（以下简称“队员”）。<2014年11月19日、2017年7月26日修订>\n\n",
+      "reason": "Corrected Police Mobile Unit command structure, officer designation and defined police squad members."
+    },
+    {
+      "id": "B1-zh-00010",
+      "target_id": "12f75d3446cb79b87178fb326ee06c38a99be672b84783bf3bcac4faafcbb25b",
+      "source_hash": "5db1cd6f2ea74f2bdfe383135f0679fbb8ab93e94cf7282f2e59cebb92383f0a",
+      "text": "第九条（奖惩、晋升、勤务及津贴）关于队员的奖惩、晋升、勤务及特别津贴的事项，由总统令规定。\n\n",
+      "reason": "Corrected 복무 to police service/discipline (勤务), not generic service."
+    },
+    {
+      "id": "B1-zh-00011",
+      "target_id": "7e99f791166be05c8f6e35ea30516dc9d7377eeb875d544d6688dacc5ab8cb4c",
+      "source_hash": "77fa2ddae17c6d23b2e28c2c204ef0e7a965f53ae22b54ea733986a55008d781",
+      "text": "附则 <第358号，1955年6月30日>\n\n本法自檀纪4288年7月1日起施行。\n\n《西南地区战斗警察队设置法》予以废止。\n\n",
+      "reason": "Restored historic Dangun-era date 檀纪4288, enacted Act number 358 (not article 358), formal addenda and correct southwest police unit name."
+    },
+    {
+      "id": "B1-zh-00012",
+      "target_id": "10d14539d2e85ce163075bf8a7da08084f363ad91437299318acc41f6da89485",
+      "source_hash": "0b575dda4f261c1b09ba5be4ccacec8e8ed71a2cf96a43b937b4115a0fdbdeaf",
+      "text": "附则（警察法）<第4369号，1991年5月31日>\n\n",
+      "reason": "Corrected enacted Act No. 4369 and formal supplementary provisions, not a decree."
+    },
+    {
+      "id": "B1-zh-00015",
+      "target_id": "3f7c2c5656dc8b1b039318dc8db7209e7c712d82d4fc4c2ce45ca3d7aa664c87",
+      "source_hash": "f48a22fd847c71fb9f21e8f40aeef89722c4ceb9daff053581cf792e587967a4",
+      "text": "第四条（其他法律的修订）①至⑧省略\n\n  ⑨《警察职务支援法》作如下修订。\n\n  在第1条第1款中，将“首尔特别市市长或道知事（以下简称‘地方长官’）”改为“地方警察厅厅长”，将“其他地方长官”改为“其他地方警察厅厅长”；并将同条第2款修改如下。\n\n  ② 警察厅厅长在镇压突发事态或警戒特殊地区时遇有紧急情况，可以命令地方警察厅厅长或所属警察机关负责人派遣所属警察官，以增援其他地方警察厅的警察官。\n\n  在第2条中，将“道”改为“地方警察厅”。\n\n  在第3条中，将“地方长官”改为“地方警察厅厅长”，将“其他道”改为“其他地方警察厅”。\n\n",
+      "reason": "Corrected the complete 1991 statutory substitution quotations, including historic 首尔特别市长/道知事, 地方长官, 道 and 他道; the draft had replaced them with wrong police agencies."
+    },
+    {
+      "id": "B1-zh-00016",
+      "target_id": "b712f32869b85998a3d6188630d0b190d204493f065cac10d052245d6baa9fe7",
+      "source_hash": "c3e35d81b1be67a65953890baa66233c279437ef9427643a8d348906e6d9b5f1",
+      "text": "  在第4条和第5条中，分别将“内务部长官”改为“警察厅厅长”。\n\n",
+      "reason": "Corrected the historic Korean 내무부장관 to Minister of Home Affairs, and the replacement 경찰청장 to Police Agency Commissioner, preserving both articles."
+    },
+    {
+      "id": "B1-zh-00017",
+      "target_id": "802e703fcff659ab43dfc84b095cea97c8369d15bafa4e0d01a425b192fef445",
+      "source_hash": "bd9895dbda59bff97ac558fb622133e506bd9dd0538cab45cf1ef08d92753205",
+      "text": "  在第6条正文中，将“内务部长官”改为“警察厅厅长”；在同条但书中，将“担任内务部治安局科长的书记官”改为“担任警察厅科长的总警”。\n\n  在第7条第1款中，将“内务部长官”改为“警察厅厅长”，并删除同条第2款。\n\n  ⑩至<19>省略\n\n",
+      "reason": "Corrected major wrong officer ranks and organizations: 内务部治安局科长的书记官 is not a secretary-general, and 총경 is 总警, not 警监."
+    },
+    {
+      "id": "B1-zh-00019",
+      "target_id": "4597a70ef61b145dbbc84f408c50671aa8e8259e068676099168c209f3c55e24",
+      "source_hash": "bfe02890928c30c4902c7fe35dbda86e6589f96da322e998bc49b43d7f83f72f",
+      "text": "附则（政府组织法）<第5153号，1996年8月8日>\n\n",
+      "reason": "Corrected addenda not appendix and enactment Act No. 5153 not an executive decree."
+    },
+    {
+      "id": "B1-zh-00020",
+      "target_id": "dd48328b7a22e78dc7c55c4156378e125996645b527e60cbd3f5411beffb7c23",
+      "source_hash": "43b1889cfc1e4006c1bf8a5d8687296a92960626e49ec60bac30be4fc82fafbb",
+      "text": "第一条（施行日期）本法以公布后30日内依第41条修订规定制定的、关于海洋水产部及海洋警察厅组织的总统令施行之日为施行日。\n\n",
+      "reason": "Clarified the condition linking enactment within 30 days of promulgation to the effective date of the Presidential Decree governing the two organizations."
+    },
+    {
+      "id": "B1-zh-00021",
+      "target_id": "0f327b061e8f5e6ec327d4e771d99e292665028f4c4ce144dc215b28d4391674",
+      "source_hash": "1fa2d78222cc5f3a7b268ba3015a524a8e57a9355a8b17e0ae4253566ef34323",
+      "text": "第2条省略\n\n",
+      "reason": "Corrected Article 2 (제2조), not a generic clause/paragraph."
+    },
+    {
+      "id": "B1-zh-00022",
+      "target_id": "2c8e9f1a2aff2d903e1f582206fdd72f306e0e5e372d36eb2d5c20d98058e228",
+      "source_hash": "3ae6663a11aea4d7616b12ae8fe3f6181581f9246080d21a1d19af4dd644874a",
+      "text": "第三条（其他法律的修订）①至⑦省略\n\n  ⑧《警察职务支援法》作如下修订。\n\n  在第1条第1款及第3条中，分别将“地方警察厅厅长”改为“地方警察厅厅长或地方海洋警察机关负责人”。\n\n  在第1条第2款及第4条至第7条中，分别将“警察厅厅长”改为“警察厅厅长或海洋警察厅厅长”。\n\n  在第1条第2款中，将“地方警察厅厅长或所属警察机关负责人”改为“地方警察厅厅长、所属警察机关负责人或地方海洋警察机关负责人”。\n\n  在第1条第2款、第2条及第3条中，分别将“地方警察厅”改为“地方警察厅或地方海洋警察机关”。\n\n  在第6条中，将“警察厅科长”改为“警察厅或海洋警察厅科长”。\n\n  ⑨至<69>省略\n\n",
+      "reason": "Restored five exact 1996 organizational amendments, distinguishing head of a local police agency, maritime police office, Police Agency Commissioner and section chiefs."
+    },
+    {
+      "id": "B1-zh-00024",
+      "target_id": "b2b0d65ce95be08e110535d69f35c64b846b1e864d344e62309a93e5a66280c8",
+      "source_hash": "292e0c31739a19d04c1ccce28b82600436b10dce950314d9724f90562a8eaedd",
+      "text": "附则（关于设立济州特别自治道及建设国际自由城市的特别法）<第7849号，2006年2月21日>\n\n",
+      "reason": "Corrected Jeju Special Act title, legal addenda and enacted Act No. 7849, not presidential decree."
+    },
+    {
+      "id": "B1-zh-00027",
+      "target_id": "9219a39b1a54a829f4a2a297c3eacb27be2180be6def6dc6fa5fb5137ef74b93",
+      "source_hash": "f7cf6f8dc8301ae23b775c69a3eba5f3da29f0b681d0960b32afa218eeae08ca",
+      "text": "第40条（其他法令的修订）①至④省略\n\n  ⑤《警察职务支援法》作如下部分修订。\n\n  在第1条第1款中，将“其他地方警察厅厅长或地方海洋警察机关负责人”改为“其他地方警察厅厅长、地方海洋警察机关负责人或已设立自治警察队的济州特别自治道知事”。\n\n  ⑥至<47>省略\n\n",
+      "reason": "Corrected the 2006 amendment adding the Jeju Governor's autonomous police team, and other statutes/regulations rather than only laws."
+    },
+    {
+      "id": "B1-zh-00029",
+      "target_id": "57e5d31ac0d2bbec47d6dfcf1454e065217aadc590f21ccd31e6940aaa85d756",
+      "source_hash": "6568efd4c891156f1bbfd668ca6b3c86a322a6d2de81de5455e5d35d9628c11a",
+      "text": "附则 <第10379号，2010年7月23日>\n\n本法自公布之日起施行。\n\n",
+      "reason": "Corrected original enacted Act number and statutory supplementary-provisions heading."
+    },
+    {
+      "id": "B1-zh-00030",
+      "target_id": "453b200d2fbe390d6c63222dbb8064bcd8a36b9dee94343ef6605407124ebb5c",
+      "source_hash": "a519f970907d80fc108d8947e92031f10c4d0762155b909dfe5d01543374cb67",
+      "text": "附则（政府组织法）<第12844号，2014年11月19日>\n\n",
+      "reason": "Corrected Government Organization Act addenda and Act No. 12844, not a subordinate decree."
+    },
+    {
+      "id": "B1-zh-00031",
+      "target_id": "de6e540f3213cc090ffe614640aaa1dbd62ee058e93d4ead21881b3230d8270e",
+      "source_hash": "bb485e539c649e8835d14e3b1b139feba527f204c8e9fced9e458cc082dde578",
+      "text": "第一条（施行日期）本法自公布之日起施行。但依附则第6条修订的法律中，对本法施行前已经公布而尚未到施行日期的法律所作的修订部分，分别自该有关法律的施行日期起施行。\n\n",
+      "reason": "Corrected Korean 부칙 to addenda and retained delayed commencement of previously promulgated laws."
+    },
+    {
+      "id": "B1-zh-00033",
+      "target_id": "85c7c72fa510e1af06a29ff81b3731b8e84212c240aeff441b8d5b71385ea42f",
+      "source_hash": "c78f64551852a0924c747bdbe7dcca1eb0c47b356a5c81cf2327abf2004fa930",
+      "text": "第六条（其他法律的修订）①至<130>省略\n\n  <131>《警察职务支援法》作如下部分修订。\n\n  在第1条第1款中，分别将“地方海洋警察机关”改为“地方海洋警备安全机关”，并将同条第2款修改如下。\n\n    ② 在镇压突发事态或警戒特殊地区的紧急情况下，警察厅厅长可以命令地方警察厅厅长或所属警察机关负责人派遣所属警察官，增援其他地方警察厅或地方海洋警备安全机关的警察官；国民安全处长官可以命令地方海洋机关负责人派遣所属警察官，增援其他地方警察厅或地方海洋警备安全机关的警察官。\n\n",
+      "reason": "Corrected 2014 organization reform: omitted vs deleted items, local maritime safety office and Minister of Public Safety and Security 国民安全处长官."
+    },
+    {
+      "id": "B1-zh-00034",
+      "target_id": "4808e3c405b96a4249694b1a82f29de8d7b74108055faa21db7102d12d33eab5",
+      "source_hash": "c07998ca08a13c325ceefa65ef4ebcc8861e9894a7db511704490309fdb67998",
+      "text": "  在第2条及第3条中，分别将“地方海洋警察机关”改为“地方海洋警备安全机关”。\n\n  将第4条修改如下。\n\n",
+      "reason": "Restored the exact 2014 substitution local maritime police to safety agencies."
+    },
+    {
+      "id": "B1-zh-00035",
+      "target_id": "7d43d8619ad45d429e852d3fe9a26509b63d6bf1518aac1242f3125e92fb6948",
+      "source_hash": "1d9854c0b267f06f341b6d0166b1f17f1a6dee38059a217340888f1174e08283",
+      "text": "  第四条（机动队的编成）① 警察厅厅长为镇压突发事态或警戒特殊地区有特别需要时，可以将所属警察官编成警察机动队（以下简称“机动队”），派往有需要的地区。\n\n    ② 国民安全处长官为镇压突发事态或警戒特殊地区有特别需要时，可以将所属警察官编成机动队，派往有需要的地区。\n\n",
+      "reason": "Restored dual authority of Police Commissioner and Minister of Public Safety and Security to deploy mobile units."
+    },
+    {
+      "id": "B1-zh-00036",
+      "target_id": "fa6c51981347cb47992a8aea21eb8a5a8accfcecb204aea3bc5b7dbfeeede1c7",
+      "source_hash": "e267a0c2b8608408a8e24a33be2775cf5842d9558999e6722d8dfca83bff749d",
+      "text": "  在第5条中，将“警察厅厅长或海洋警察厅厅长”改为“警察厅厅长（国民安全处长官编成机动队时，指国民安全处长官；下同）”。\n\n",
+      "reason": "Corrected 2014 replacement of marine police commissioner by Minister of Public Safety and Security, with the exact conditional definition."
+    },
+    {
+      "id": "B1-zh-00037",
+      "target_id": "4dc02d0dc1bc44cac157cf8cfd9e8f7a107fbb841a5a19bc58f7604ff27f45cb",
+      "source_hash": "4aeabc7737d14151d3e1ddca1c752249bd5cd83c5d329ea15236e750e4b34868",
+      "text": "  在第6条正文中，将“警察厅厅长或海洋警察厅厅长”改为“警察厅厅长”；在同条但书中，将“警察厅或海洋警察厅科长”改为“科长”。\n\n",
+      "reason": "Preserved separate amendment in Article 6 main sentence and proviso, with exact prior/replacement office titles."
+    },
+    {
+      "id": "B1-zh-00038",
+      "target_id": "5f6f5957ba527c11c2ceabcb0382907f7cfff00666555b14eae4399793b3b2e8",
+      "source_hash": "21343eda7a184438968137f467094db27fee282599566de831cc14f5cdc27173",
+      "text": "  在第7条中，将“警察厅厅长或海洋警察厅厅长”改为“警察厅厅长”。\n\n  <132>至<258>省略\n\n",
+      "reason": "Corrected the exact old/new titles and omitted amendment item range."
+    },
+    {
+      "id": "B1-zh-00040",
+      "target_id": "13f54aa0eb81f7c91a08a86d77294bdac72fdf47b58487acebe9a68cdd4486b6",
+      "source_hash": "89d73ef846bf6ff580dd06ac1dbeb869ec8e8f9d99295a602fcc49a474c5bde9",
+      "text": "附则（政府组织法）<第14839号，2017年7月26日>\n\n",
+      "reason": "Corrected statutory addenda, not a subordinate government decree; preserved Act No. 14839 and date."
+    },
+    {
+      "id": "B1-zh-00041",
+      "target_id": "9a77bd429cebcd08cd854d0711c7bd30efea252bfdefdc84ff6dea144db6d13f",
+      "source_hash": "e7f048bc4b0ef4b04a065b53430b00744940cecd919f925823a150f1c549efd1",
+      "text": "第一条（施行日期）① 本法自公布之日起施行。但依附则第5条修订的法律中，对本法施行前已公布而尚未到施行日期的法律所作的修订部分，分别自有关法律施行之日起施行。\n\n",
+      "reason": "Restored the addenda Article 5 reference and the future effective dates for already-promulgated laws."
+    },
+    {
+      "id": "B1-zh-00043",
+      "target_id": "0f52177eb73feb3b27cee7b232311fc28b40c08c8446acbe2453e3696841da0b",
+      "source_hash": "e2b4b0333b36988aef1ec676fad25bc0852906be54996c6f3a70b8789153dfc7",
+      "text": "第五条（其他法律的修订）①至<117>省略\n\n  <118>《警察职务支援法》作如下部分修订。\n\n  在第1条第1款、第2条及第3条中，分别将“地方海洋警备安全机关”改为“地方海洋警察机关”。\n\n  将第1条第2款修改如下。\n\n    ② 警察厅厅长或海洋警察厅厅长在镇压突发事态或警戒特殊地区时遇紧急情况，可以命令地方警察厅厅长、所属警察机关负责人或地方海洋警察机关负责人派遣所属警察官，增援其他地方警察厅或地方海洋警察机关的警察官。\n\n  将第4条修改如下。\n\n",
+      "reason": "Corrected the 2017 reorganization from local maritime safety office back to maritime police office, and full Article 1(2) substitution; preserved items <118> and Article 4 amendment reference."
+    },
+    {
+      "id": "B1-zh-00044",
+      "target_id": "70381be0cfd277bc811c4bf12305453116513613503d689822eef10ae5475b6a",
+      "source_hash": "01f03819b7516b1fc1aa1bc79d54c80a5760ed26bfcddd2098e662ef59a0bafa",
+      "text": "  第四条（机动队的编成）警察厅厅长或海洋警察厅厅长为镇压突发事态或警戒特殊地区有特别需要时，可以将所属警察官编成警察机动队（以下简称“机动队”），派往有需要的地区。\n\n",
+      "reason": "Aligned reinstated dual police/coast guard authority in the 2017 substituted Article 4 to legal titles and mobile squad terminology."
+    },
+    {
+      "id": "B1-zh-00045",
+      "target_id": "b8c5b8481001641ce67ad8b5f57048c0d0fad0d6d1c85b4cef59478388f7be22",
+      "source_hash": "0b5ff8157c108f4e0cc21194c6e67f4df479266f651140e1c5efdf646c663341",
+      "text": "  在第5条中，将“警察厅厅长（国民安全处长官编成机动队时，指国民安全处长官；下同）”改为“警察厅厅长或海洋警察厅厅长”。\n\n",
+      "reason": "Corrected 2017 old-and-new official office names including 国民安全处长官, not generic public security minister."
+    },
+    {
+      "id": "B1-zh-00046",
+      "target_id": "1a5ec1e2f36c2b18b4dbcea26fd77ccaf5168af8b7b6b75e29894333659b58a9",
+      "source_hash": "27941a820d049fad421c31782101365a950c1ce3b4ec23ade623a18384100fad",
+      "text": "  在第6条正文及第7条中，分别将“警察厅厅长”改为“警察厅厅长或海洋警察厅厅长”。\n\n  <119>至<382>省略\n\n",
+      "reason": "Clarified Article 6 main sentence and Article 7 separately, preserving exact item range <119>–<382> and both office titles."
+    },
+    {
+      "id": "B1-zh-00048",
+      "target_id": "7235704392ed9e9a94fc54899ed008b05ef37ade3db9fee502630b250fef29ff",
+      "source_hash": "574003e2c03e89a0593d70c1df97d0f338f3d32149b76e87fcfb87c85a457e97",
+      "text": "附则（关于国家警察与自治警察的组织及运营的法律）<第17689号，2020年12月22日>\n\n",
+      "reason": "Corrected the full enacted Act title, 自治警察 rather than generic local police, formal addenda and No. 17689 instead of a draft bill."
+    },
+    {
+      "id": "B1-zh-00051",
+      "target_id": "6f5aae0bace50ddfa00453a8aa7321437b048aacab2c460d00a0c5182747bffd",
+      "source_hash": "5b7ea522eb19efe0c2333eee0d5604937b29ba42845d775410d7856b9bb7c9d8",
+      "text": "第七条（其他法律的修订）①至⑦省略\n\n  ⑧《警察职务支援法》作如下部分修订。\n\n  在第1条第1款中，将“地方警察厅厅长”改为“市、道警察厅厅长”。\n\n  在第1条第2款中，将“地方警察厅厅长”改为“市、道警察厅厅长”，将“其他地方警察厅”改为“其他市、道警察厅”。\n\n",
+      "reason": "Restored the original and substituted legal office names of 2020 police agency organization amendments, with exact Article 1(1)/(2) quotation structure."
+    },
+    {
+      "id": "B1-zh-00052",
+      "target_id": "fb5b81df4b00696f6406b629ccac726c874af6e075d3e4d5bcc9c5489b428fc3",
+      "source_hash": "5fa116f2367fb48299638a6ddad15d3ba6b013127eb8b1a7691fcafef1a24f78",
+      "text": "  在第2条中，将“地方警察厅”改为“市、道警察厅”。\n\n",
+      "reason": "Corrected the name of police agency rather than generic local police institution."
+    },
+    {
+      "id": "B1-zh-00053",
+      "target_id": "91c26b776c1220d9da54d67691d4681fe516d03e15ac53cab45c07ac870ea470",
+      "source_hash": "a9ec4e5e1721e9cfffa15b344b91ab0e342faf05638163ee030f52a841c06e97",
+      "text": "  在第3条中，将“地方警察厅厅长”改为“市、道警察厅厅长”，将“其他地方警察厅”改为“其他市、道警察厅”。\n\n  ⑨至<53>省略\n\n",
+      "reason": "Corrected exact 2020 Article 3 organizational substitutions and preserved amendment item omission range."
+    }
+  ],
+  "status": "COMPLETE"
+}
