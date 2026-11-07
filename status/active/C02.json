@@ -1,27 +1,27 @@
 {
-  "assignment_id": "S2-28274940453f737c64b928149ab61b5d",
-  "claimed_at": "2026-11-07T09:20:23.095686+00:00",
+  "assignment_id": "S2-c92faf2c6517bd6f8db72b5cbab10799",
+  "claimed_at": "2026-11-07T09:33:14.438513+00:00",
   "conversation_hash": "11cf2bc39e000c49db505275b99730b2ef8a0ace412b5d9b4d5d48f0e7105f97",
-  "delivery_status": "SENT_VERIFIED",
-  "documents": 7,
-  "event_id": "obs-e83eb3f73c14d7593f9957582aa2262b3d5aa8a2",
-  "family_id": "F-801bb7629f7d5a5c334e",
-  "job_id": "F-801bb7629f7d5a5c334e",
-  "marker": "[LAW-SUPPLY-V2:S2-28274940453f737c64b928149ab61b5d:C02:F-801bb7629f7d5a5c334e]",
+  "delivery_status": "INTENT_RECORDED_NO_RESEND",
+  "documents": 3,
+  "event_id": "obs-ede8c60d4c22a601e49c6a294f8e3041e22d818b",
+  "family_id": "F-c3b58e59d22d97d49442",
+  "job_id": "F-c3b58e59d22d97d49442",
+  "marker": "[LAW-SUPPLY-V2:S2-c92faf2c6517bd6f8db72b5cbab10799:C02:F-c3b58e59d22d97d49442]",
   "panel_id": "panel-02",
   "pc": "WORK-C",
   "prompt_format": "no-terminal-lf",
-  "rows": 245,
+  "rows": 260,
   "schema": "LAW_SUPPLIER_ASSIGNMENT_V2",
   "source_blobs": {
-    "en": "ecc22106a1a0d256f0ca2fc6176ed38cba7c7899",
-    "ko": "4beb59d37e919a3543d785cf8e84d653a7693d73",
-    "zh": "b68c83f0d32359f12a30d6fb87e25a4636764255"
+    "en": "753fe30a93087c424ca9b2c084fe2525ed3c8db7",
+    "ko": "d430b20c52d8eadce79e15a0024b4ace03411201",
+    "zh": "3cb67d7f598a3a87cb8b4766a830984d2df1dc96"
   },
-  "source_commit": "ef2744360e04209ea3afd078a3f22bac3bbf42a9",
+  "source_commit": "e5b5c3e99f4d29c6f920bded75993d08dec8beae",
   "status": "ACTIVE",
-  "title": "동학농민혁명 참여자 등의 명예회복에 관한 특별법",
+  "title": "국가인권위원회법",
   "unit_policy": "ACT_DECREE_RULE_ANNEX_FORMS_ONE_FAMILY",
   "worker": "C02",
-  "write_protocol": "contents-zh-v2"
+  "write_protocol": "contents-zh-v3"
 }
