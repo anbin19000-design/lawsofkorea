@@ -1,0 +1,1035 @@
+{
+  "schema": "LAW_ZH_REVIEW_AUDIT_STAGE_V1",
+  "job_id": "F-69d9e2651808803c4773",
+  "worker": "C05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_commit": "2bf6ebdc1974eb43100aa2ab00e7f7e7fd09e094",
+  "checked_rows": 212,
+  "checked_row_ids": [
+    "A37057-zh-00221",
+    "A37057-zh-00222",
+    "A37057-zh-00223",
+    "A37057-zh-00224",
+    "A37057-zh-00225",
+    "A37057-zh-00226",
+    "A37057-zh-00227",
+    "A37057-zh-00228",
+    "A37057-zh-00229",
+    "A37057-zh-00230",
+    "A37057-zh-00231",
+    "A37057-zh-00232",
+    "A37057-zh-00233",
+    "A37057-zh-00234",
+    "A37057-zh-00235",
+    "A37057-zh-00236",
+    "A37057-zh-00237",
+    "A37057-zh-00238",
+    "A37057-zh-00239",
+    "A37057-zh-00240",
+    "A37057-zh-00241",
+    "A37057-zh-00242",
+    "A37057-zh-00243",
+    "A37057-zh-00244",
+    "A37057-zh-00245",
+    "A37057-zh-00246",
+    "A37057-zh-00247",
+    "A37057-zh-00248",
+    "A37057-zh-00249",
+    "A37057-zh-00250",
+    "A37057-zh-00251",
+    "A37057-zh-00252",
+    "A37057-zh-00253",
+    "A37057-zh-00254",
+    "A37057-zh-00255",
+    "A37057-zh-00256",
+    "A37057-zh-00257",
+    "A37057-zh-00258",
+    "A37057-zh-00259",
+    "A37057-zh-00260",
+    "A37057-zh-00261",
+    "A37057-zh-00262",
+    "A37057-zh-00263",
+    "A37057-zh-00264",
+    "A37057-zh-00265",
+    "A37057-zh-00266",
+    "A37057-zh-00267",
+    "A37057-zh-00268",
+    "A37057-zh-00269",
+    "A37057-zh-00270",
+    "A37057-zh-00271",
+    "A37057-zh-00272",
+    "A37057-zh-00273",
+    "A37057-zh-00274",
+    "A37057-zh-00275",
+    "A37057-zh-00276",
+    "A37057-zh-00277",
+    "A37057-zh-00278",
+    "A37057-zh-00279",
+    "A37057-zh-00280",
+    "A37057-zh-00281",
+    "A37057-zh-00282",
+    "A37057-zh-00283",
+    "A37057-zh-00284",
+    "A37057-zh-00285",
+    "A37057-zh-00286",
+    "A37057-zh-00287",
+    "A37057-zh-00288",
+    "A37057-zh-00289",
+    "A37057-zh-00290",
+    "A37057-zh-00291",
+    "A37057-zh-00292",
+    "A37057-zh-00293",
+    "A37057-zh-00294",
+    "A37057-zh-00295",
+    "A37057-zh-00296",
+    "A37057-zh-00297",
+    "A37057-zh-00298",
+    "A37057-zh-00299",
+    "A37057-zh-00300",
+    "A37057-zh-00301",
+    "A37057-zh-00302",
+    "A37057-zh-00303",
+    "A37057-zh-00304",
+    "A37057-zh-00305",
+    "A37057-zh-00306",
+    "A37057-zh-00307",
+    "A37057-zh-00308",
+    "A37057-zh-00309",
+    "A37057-zh-00310",
+    "A37057-zh-00311",
+    "A37057-zh-00312",
+    "A37057-zh-00313",
+    "A37057-zh-00314",
+    "A37057-zh-00315",
+    "A37057-zh-00316",
+    "A37057-zh-00317",
+    "A37057-zh-00318",
+    "A37057-zh-00319",
+    "A37057-zh-00320",
+    "A37057-zh-00321",
+    "A37057-zh-00322",
+    "A37057-zh-00323",
+    "A37057-zh-00324",
+    "A37057-zh-00325",
+    "A37057-zh-00326",
+    "A37057-zh-00327",
+    "A37057-zh-00328",
+    "A37057-zh-00329",
+    "A37057-zh-00330",
+    "A37057-zh-00331",
+    "A37057-zh-00332",
+    "A37057-zh-00333",
+    "A37057-zh-00334",
+    "A37057-zh-00335",
+    "A37057-zh-00336",
+    "A37057-zh-00337",
+    "A37057-zh-00338",
+    "A37057-zh-00339",
+    "A37057-zh-00340",
+    "A37057-zh-00341",
+    "A37057-zh-00342",
+    "A37057-zh-00343",
+    "A37057-zh-00344",
+    "A37057-zh-00345",
+    "A37057-zh-00346",
+    "A37057-zh-00347",
+    "A37057-zh-00348",
+    "A37057-zh-00349",
+    "A37057-zh-00350",
+    "A37057-zh-00351",
+    "A37057-zh-00352",
+    "A37057-zh-00353",
+    "A37057-zh-00354",
+    "A37057-zh-00355",
+    "A37057-zh-00356",
+    "A37057-zh-00357",
+    "A37057-zh-00358",
+    "A37057-zh-00359",
+    "A37057-zh-00360",
+    "A37057-zh-00361",
+    "A37057-zh-00362",
+    "A37057-zh-00363",
+    "A37057-zh-00364",
+    "A37057-zh-00365",
+    "A37057-zh-00366",
+    "A37057-zh-00367",
+    "A37057-zh-00368",
+    "A37057-zh-00369",
+    "A37057-zh-00370",
+    "A37057-zh-00371",
+    "A37057-zh-00372",
+    "A37057-zh-00373",
+    "A37057-zh-00374",
+    "A37057-zh-00375",
+    "A37057-zh-00376",
+    "A37057-zh-00377",
+    "A37057-zh-00378",
+    "A37057-zh-00379",
+    "A37057-zh-00380",
+    "A37057-zh-00381",
+    "A37057-zh-00382",
+    "A37057-zh-00383",
+    "A37057-zh-00384",
+    "A37057-zh-00385",
+    "A37057-zh-00386",
+    "A37057-zh-00387",
+    "A37057-zh-00388",
+    "A37057-zh-00389",
+    "A37057-zh-00390",
+    "A37057-zh-00391",
+    "A37057-zh-00392",
+    "A37057-zh-00393",
+    "A37057-zh-00394",
+    "A37057-zh-00395",
+    "A37057-zh-00396",
+    "A37057-zh-00397",
+    "A37057-zh-00398",
+    "A37057-zh-00399",
+    "A37057-zh-00400",
+    "A37057-zh-00401",
+    "A37057-zh-00402",
+    "A37057-zh-00403",
+    "A37057-zh-00404",
+    "A37057-zh-00405",
+    "A37057-zh-00406",
+    "A37057-zh-00407",
+    "A37057-zh-00408",
+    "A37057-zh-00409",
+    "A37057-zh-00410",
+    "A37057-zh-00411",
+    "A37057-zh-00412",
+    "A37057-zh-00413",
+    "A37057-zh-00414",
+    "A37057-zh-00415",
+    "A37057-zh-00416",
+    "A37057-zh-00417",
+    "A37057-zh-00418",
+    "A37057-zh-00419",
+    "A37057-zh-00420",
+    "A37057-zh-00421",
+    "A37057-zh-00422",
+    "A37057-zh-00423",
+    "A37057-zh-00424",
+    "A37057-zh-00425",
+    "A37057-zh-00426",
+    "A37057-zh-00427",
+    "A37057-zh-00428",
+    "A37057-zh-00429",
+    "A37057-zh-00430",
+    "A37057-zh-00431",
+    "A37057-zh-00432"
+  ],
+  "edits": [
+    {
+      "id": "A37057-zh-00224",
+      "target_id": "XML:2703599",
+      "source_hash": "0e84bbd6e3adb2c162a4b600db3400bf84f8b388a2dbcef193cdf20b66c288bf",
+      "text": "准用的情形），未向"
+    },
+    {
+      "id": "A37057-zh-00225",
+      "target_id": "XML:2703600",
+      "source_hash": "6065879284cbf859f97d0223c67dba8a9832ae25d901eed85c5c71610ae9b3ac",
+      "text": "第四款第六号"
+    },
+    {
+      "id": "A37057-zh-00226",
+      "target_id": "XML:2703601",
+      "source_hash": "1e7c33d2cb95b9f4fddf286f7819f46e5280e3f30a2bd53996d0a65958414cea",
+      "text": "信息主体告知个人信息转移事实的"
+    },
+    {
+      "id": "A37057-zh-00227",
+      "target_id": "XML:2703602",
+      "source_hash": "739fe088321bfe65c05bf64522a7f965d06c495bca50c27158ae8d26b544bfc6",
+      "text": "情形"
+    },
+    {
+      "id": "A37057-zh-00228",
+      "target_id": "XML:2703603",
+      "source_hash": "1a1b330d52dbc890d255f1deac5dce0201c94eec1b7d3e4bd3ad9bf8a47884d0",
+      "text": "亥. 违反本法第二十八条之四第三款（包括依本法第二十六条第八款"
+    },
+    {
+      "id": "A37057-zh-00229",
+      "target_id": "XML:2703604",
+      "source_hash": "4fa9b289130d6d54752d7283cef10eb1aa4ba80dbc6db71175a69c76611173d4",
+      "text": "本法第七十五条"
+    },
+    {
+      "id": "A37057-zh-00233",
+      "target_id": "XML:2703608",
+      "source_hash": "255a1052aaced4c0f78828aebf21b37504154714ec5e5ae02b1942f193149ed8",
+      "text": "准用的情形），未制作、保存"
+    },
+    {
+      "id": "A37057-zh-00234",
+      "target_id": "XML:2703609",
+      "source_hash": "75c1b38ccf8fa6eb8a7c488574a6de57d065e471a5c5f1a360c91309f4110903",
+      "text": "第四款第七号"
+    },
+    {
+      "id": "A37057-zh-00235",
+      "target_id": "XML:2703610",
+      "source_hash": "8930ed75162c8cd94cdd68ae1c1f893092752fde32fb97630be63af4187cf12a",
+      "text": "相关记录的情形"
+    },
+    {
+      "id": "A37057-zh-00236",
+      "target_id": "XML:2703611",
+      "source_hash": "f9c84ce139308aa742e58e844a380f649925860ff7b409f158e23b54152a20d4",
+      "text": "甲一. 违反本法第二十八条之五第二款（包括依本法第二十六条第八款"
+    },
+    {
+      "id": "A37057-zh-00237",
+      "target_id": "XML:2703612",
+      "source_hash": "4fa9b289130d6d54752d7283cef10eb1aa4ba80dbc6db71175a69c76611173d4",
+      "text": "本法第七十五条"
+    },
+    {
+      "id": "A37057-zh-00241",
+      "target_id": "XML:2703616",
+      "source_hash": "b4e9ee1ef5d39870f23b6ee64862fc29c40e6e75ac14f48d97e92918415967ec",
+      "text": "准用的情形），虽生成可识别个人的信息，"
+    },
+    {
+      "id": "A37057-zh-00242",
+      "target_id": "XML:2703617",
+      "source_hash": "8a6aba7bc798d99a24b45fb60e582c68d3f785dbc0be1348283897c9e4675742",
+      "text": "第二款第十三号"
+    },
+    {
+      "id": "A37057-zh-00243",
+      "target_id": "XML:2703618",
+      "source_hash": "2773cf393b8562862cb3ca5241955ea25cad3c89b13d074b8100a60b943347f4",
+      "text": "仍未停止利用，或者未回收、"
+    },
+    {
+      "id": "A37057-zh-00244",
+      "target_id": "XML:2703619",
+      "source_hash": "d76dbc9b84fa2f6f98f8bb64c7da951d03afb1e6865d05e2c81ede2185ab5ba8",
+      "text": "销毁该信息的"
+    },
+    {
+      "id": "A37057-zh-00245",
+      "target_id": "XML:2703620",
+      "source_hash": "ecefeca84e2b8ea8687b0544009e122bec1ea2e585a8d99a609c156cf8e06ffd",
+      "text": "情形"
+    },
+    {
+      "id": "A37057-zh-00246",
+      "target_id": "XML:2703621",
+      "source_hash": "e87759ca8897c4dcf2ccba2fabbb539826f7934a79f53794582f07c331e50bd1",
+      "text": "乙一. 违反本法第二十八条之八第四款（包括依本法第二十六条第八款及"
+    },
+    {
+      "id": "A37057-zh-00247",
+      "target_id": "XML:2703622",
+      "source_hash": "4fa9b289130d6d54752d7283cef10eb1aa4ba80dbc6db71175a69c76611173d4",
+      "text": "本法第七十五条"
+    },
+    {
+      "id": "A37057-zh-00251",
+      "target_id": "XML:2703626",
+      "source_hash": "92721fc7f72cf12d84d1ae116785de39223a6b56376537ddaadc5c1718de7a62",
+      "text": "第二十八条之十一准用的情形），未采取保护措施的"
+    },
+    {
+      "id": "A37057-zh-00252",
+      "target_id": "XML:2703627",
+      "source_hash": "aaacf42762cec5e9011fb3b06b5d027d8affe0ca4eefd83f7d7282c66b3ffcbc",
+      "text": "第二款第十四号"
+    },
+    {
+      "id": "A37057-zh-00253",
+      "target_id": "XML:2703628",
+      "source_hash": "2342f4492f02f582ba7b7084763997e830750636217ed905920c05c43fa8719c",
+      "text": "情形"
+    },
+    {
+      "id": "A37057-zh-00254",
+      "target_id": "XML:2703629",
+      "source_hash": "6ff422369b9011bb95e6c71fe739f32fdb1d3ff2f0ebd20de32ed0407bb50852",
+      "text": "丙一. 违反本法第三十条第一款或第二款（包括依本法第二十六条第八款"
+    },
+    {
+      "id": "A37057-zh-00255",
+      "target_id": "XML:2703630",
+      "source_hash": "4fa9b289130d6d54752d7283cef10eb1aa4ba80dbc6db71175a69c76611173d4",
+      "text": "本法第七十五条"
+    },
+    {
+      "id": "A37057-zh-00259",
+      "target_id": "XML:2703634",
+      "source_hash": "8f32e51545ca1e877e24be48df70e39619211ac4a46e9d53a136e724c1a0a1af",
+      "text": "准用的情形），"
+    },
+    {
+      "id": "A37057-zh-00260",
+      "target_id": "XML:2703635",
+      "source_hash": "ce6bcb08e6cc125c84a6e0b77e8022d901b690f0455862a531ce986f57c03f40",
+      "text": "第四款第八号"
+    },
+    {
+      "id": "A37057-zh-00261",
+      "target_id": "XML:2703636",
+      "source_hash": "bdcd06ecdfcd05019f11edbecd122d332f34d19f847ec8966cb04f3e067c2683",
+      "text": "未制定个人信息处理方针或"
+    },
+    {
+      "id": "A37057-zh-00262",
+      "target_id": "XML:2703637",
+      "source_hash": "3c20c1fe1bac73d656c9dc2de11d73d4a0726c89e7190bd86fb93b96fd090565",
+      "text": "未予公开的情形"
+    },
+    {
+      "id": "A37057-zh-00263",
+      "target_id": "XML:2703638",
+      "source_hash": "b9d49b62ce4a87ffe59d2768d0de477a7b646a5d508104127c500956b5823279",
+      "text": "丁一. 违反本法第三十一条第一款（包括依本法第二十六条第八款"
+    },
+    {
+      "id": "A37057-zh-00264",
+      "target_id": "XML:2703639",
+      "source_hash": "4fa9b289130d6d54752d7283cef10eb1aa4ba80dbc6db71175a69c76611173d4",
+      "text": "本法第七十五条"
+    },
+    {
+      "id": "A37057-zh-00268",
+      "target_id": "XML:2703643",
+      "source_hash": "41d3a3a5076d6876ae032a57f0e340b8833b052df63afc313467d1965a2a3bcc",
+      "text": "准用的情形），"
+    },
+    {
+      "id": "A37057-zh-00269",
+      "target_id": "XML:2703644",
+      "source_hash": "402c48814a70a6f53ac62d21f4eebf5c4cdac02724d1650fbe02af7366c21577",
+      "text": "第四款第九号"
+    },
+    {
+      "id": "A37057-zh-00270",
+      "target_id": "XML:2703645",
+      "source_hash": "c1a6efa7cc838660932130736afdef62fe1223f7cafe90f87504770e5c910fae",
+      "text": "未指定个人信息保护负责人的情形"
+    },
+    {
+      "id": "A37057-zh-00271",
+      "target_id": "XML:2703646",
+      "source_hash": "91c6f4dcbb3471721080200cad5d22f28d712a2346380689c80396ca1164fae1",
+      "text": "戊一. 违反本法第三十一条之二第一款，未指定国内代理人的"
+    },
+    {
+      "id": "A37057-zh-00272",
+      "target_id": "XML:2703647",
+      "source_hash": "4fa9b289130d6d54752d7283cef10eb1aa4ba80dbc6db71175a69c76611173d4",
+      "text": "本法第七十五条"
+    },
+    {
+      "id": "A37057-zh-00274",
+      "target_id": "XML:2703649",
+      "source_hash": "037b70975f36c7ac83b3bbcbf14e644b287b077faa3b7cf81040b66c03818517",
+      "text": "情形"
+    },
+    {
+      "id": "A37057-zh-00275",
+      "target_id": "XML:2703650",
+      "source_hash": "d9b431c44f18d3d4a6c991e5db1934812035dcc305c9172862742e297f64ae20",
+      "text": "第三款第二号"
+    },
+    {
+      "id": "A37057-zh-00276",
+      "target_id": "XML:2703651",
+      "source_hash": "c348743db63c9350b83f3655e48c1c9ca1e43913dcd24720a2cee72581bf2e4f",
+      "text": "己一. 违反本法第三十一条之二第二款，指定国内代理人的"
+    },
+    {
+      "id": "A37057-zh-00277",
+      "target_id": "XML:2703652",
+      "source_hash": "4fa9b289130d6d54752d7283cef10eb1aa4ba80dbc6db71175a69c76611173d4",
+      "text": "本法第七十五条"
+    },
+    {
+      "id": "A37057-zh-00279",
+      "target_id": "XML:2703654",
+      "source_hash": "fcdb3e6807240c48026ae6dedc70581159e57bde3eb14faf31e48acae86f9d31",
+      "text": "情形"
+    },
+    {
+      "id": "A37057-zh-00280",
+      "target_id": "XML:2703655",
+      "source_hash": "49c125ad85359595467c27c2fef209cc4f82dc92ee4547d633ac143570619caf",
+      "text": "第三款第三号"
+    },
+    {
+      "id": "A37057-zh-00281",
+      "source_hash": "cbd515a4642b8ab4073dcaf7783deecbe9c4a255246fdcfb4c4c918310f97cd8",
+      "target_id": "XML:2703656",
+      "text": "庚一. 违反本法第三十一条之二第三款，未对国内代理人进行"
+    },
+    {
+      "id": "A37057-zh-00282",
+      "source_hash": "4fa9b289130d6d54752d7283cef10eb1aa4ba80dbc6db71175a69c76611173d4",
+      "target_id": "XML:2703657",
+      "text": "本法第七十五条"
+    },
+    {
+      "id": "A37057-zh-00284",
+      "source_hash": "295f89f59ebef69c63d9aa836813920c9583aa447d57c18b1a7202456b68d75c",
+      "target_id": "XML:2703659",
+      "text": "管理、监督的情形"
+    },
+    {
+      "id": "A37057-zh-00285",
+      "source_hash": "50776c15122fff609c00f1c33d672216ac7b67ad19b276384daed94321205619",
+      "target_id": "XML:2703660",
+      "text": "第三款第四号"
+    },
+    {
+      "id": "A37057-zh-00286",
+      "source_hash": "4b142341f75df1218029279fa348c0bb740f539ad7067cf87c1a90e2c89a4412",
+      "target_id": "XML:2703661",
+      "text": "辛一. 违反本法第三十一条之二第四款，未将国内代理人的姓名、地址、电话号码及"
+    },
+    {
+      "id": "A37057-zh-00287",
+      "source_hash": "4fa9b289130d6d54752d7283cef10eb1aa4ba80dbc6db71175a69c76611173d4",
+      "target_id": "XML:2703662",
+      "text": "本法第七十五条"
+    },
+    {
+      "id": "A37057-zh-00291",
+      "source_hash": "7cafbc634243f18c89fd177b77b4d6cb09fc60b8f56f148e104d9e7ef5ec33d9",
+      "target_id": "XML:2703667",
+      "text": "第四款"
+    },
+    {
+      "id": "A37057-zh-00292",
+      "source_hash": "7d9bc1177dda0a9e5d8d88c5237d83f4f6be1ec3c131dcf5195c11bfe8ed448a",
+      "target_id": "XML:2703668",
+      "text": "电子邮件地址纳入个人信息处理方针的情形"
+    },
+    {
+      "id": "A37057-zh-00293",
+      "source_hash": "a03b9832dd0fe74c83198c64bfc504424a1459788df0e56afb7b1a2c90496e00",
+      "target_id": "XML:2703669",
+      "text": "第九号之二"
+    },
+    {
+      "id": "A37057-zh-00294",
+      "source_hash": "20278955014c09a2c682da808a1f3e1018e13f1f88471483af11aba54a92528c",
+      "target_id": "XML:2703670",
+      "text": "壬一. 违反本法第三十二条之二第六款，虽未取得认证，仍虚假标示或"
+    },
+    {
+      "id": "A37057-zh-00295",
+      "source_hash": "4fa9b289130d6d54752d7283cef10eb1aa4ba80dbc6db71175a69c76611173d4",
+      "target_id": "XML:2703671",
+      "text": "本法第七十五条"
+    },
+    {
+      "id": "A37057-zh-00299",
+      "source_hash": "6bd3ab7ac4a2df84a21e965bded964bb5b12b404a2ffe4dd3d35960118c72e93",
+      "target_id": "XML:2703675",
+      "text": "宣传认证内容的"
+    },
+    {
+      "id": "A37057-zh-00300",
+      "source_hash": "f8188c2f12617d1fd094e42db788f36bedf60e0bbb2d04cdeaf6ca48e6b02d14",
+      "target_id": "XML:2703676",
+      "text": "第二款第十五号"
+    },
+    {
+      "id": "A37057-zh-00301",
+      "source_hash": "1ff2e670686bf9a64aa6460fb385bdcd7fab5a2198b04315ddb8e6d66c1a455b",
+      "target_id": "XML:2703677",
+      "text": "情形"
+    },
+    {
+      "id": "A37057-zh-00302",
+      "source_hash": "a135fd3abd89ba3b0d5640c7f7e89c3eb5691d1773c8781aec0e3e802e2c393d",
+      "target_id": "XML:2703678",
+      "text": "癸一. 违反本法第三十三条第一款，未开展影响评估"
+    },
+    {
+      "id": "A37057-zh-00303",
+      "source_hash": "4fa9b289130d6d54752d7283cef10eb1aa4ba80dbc6db71175a69c76611173d4",
+      "target_id": "XML:2703679",
+      "text": "本法第七十五条"
+    },
+    {
+      "id": "A37057-zh-00307",
+      "source_hash": "56e46b72d0dc68f4ddffec321b01086103c89bec636ce6c04d518a675f7f80ce",
+      "target_id": "XML:2703683",
+      "text": "或者未向保护委员会提交评估结果的"
+    },
+    {
+      "id": "A37057-zh-00308",
+      "source_hash": "237b6978ad7e3af6fb048846319176b4b4d61337b512a3cfa770e143905775a0",
+      "target_id": "XML:2703684",
+      "text": "第二款第十六号"
+    },
+    {
+      "id": "A37057-zh-00309",
+      "source_hash": "ec456c8c6c7cc2feebec673020df15308bfd2b44406812958f939a390523e098",
+      "target_id": "XML:2703685",
+      "text": "情形"
+    },
+    {
+      "id": "A37057-zh-00310",
+      "source_hash": "780ca1d63f26bbe832604a7b51546b5efbc1b7986a1ee855aa6d8a032743c581",
+      "target_id": "XML:2703686",
+      "text": "子一. 违反本法第三十四条第一款（包括依本法第二十六条第八款"
+    },
+    {
+      "id": "A37057-zh-00311",
+      "source_hash": "4fa9b289130d6d54752d7283cef10eb1aa4ba80dbc6db71175a69c76611173d4",
+      "target_id": "XML:2703687",
+      "text": "本法第七十五条"
+    },
+    {
+      "id": "A37057-zh-00315",
+      "source_hash": "6a4172f05c55ab6bdfe787800cb9f8d09ce0bc421ff83e962af2f3a182ae5ee0",
+      "target_id": "XML:2703691",
+      "text": "准用的情形），"
+    },
+    {
+      "id": "A37057-zh-00316",
+      "source_hash": "9c5c0d8c289d15561a660ed0dd4154e325b3f8dc821d387e970ed65e87a0b27f",
+      "target_id": "XML:2703692",
+      "text": "第二款第十七号"
+    },
+    {
+      "id": "A37057-zh-00317",
+      "source_hash": "2352787c45efb7b2c3e186cf403c4850af358c5e381eb4a85770c9b81d46fc92",
+      "target_id": "XML:2703693",
+      "text": "未向信息主体告知该款各号规定的事项的"
+    },
+    {
+      "id": "A37057-zh-00318",
+      "source_hash": "3c96d9ba9003b4b9085e1b0aa280f16a56ded155271db0bee3672d18107d15ac",
+      "target_id": "XML:2703694",
+      "text": "情形"
+    },
+    {
+      "id": "A37057-zh-00319",
+      "source_hash": "d4a99d584a7ac097e130e6989a6c15175b975bc41365aac0a58ad5e8c6474506",
+      "target_id": "XML:2703695",
+      "text": "丑一. 违反本法第三十四条第三款（包括依本法第二十六条第八款"
+    },
+    {
+      "id": "A37057-zh-00320",
+      "source_hash": "4fa9b289130d6d54752d7283cef10eb1aa4ba80dbc6db71175a69c76611173d4",
+      "target_id": "XML:2703696",
+      "text": "本法第七十五条"
+    },
+    {
+      "id": "A37057-zh-00324",
+      "source_hash": "cda5d735247c6ad813852ad360ed329fb121c4b3e81cc8e9acebf3856bae28c6",
+      "target_id": "XML:2703700",
+      "text": "准用的情形），"
+    },
+    {
+      "id": "A37057-zh-00325",
+      "source_hash": "cade270f3238e7ad7f2f3992f3fb7f65404e7dc03a782576b0f14f9fbf36bb04",
+      "target_id": "XML:2703701",
+      "text": "第二款第十八号"
+    },
+    {
+      "id": "A37057-zh-00326",
+      "source_hash": "ebc2d057870c763cd1f9638411cd4b8125065e2cb5af0775e206e3eb9b4505c7",
+      "target_id": "XML:2703702",
+      "text": "未向保护委员会或专业机构申报的情形"
+    },
+    {
+      "id": "A37057-zh-00327",
+      "source_hash": "4be67af5719a9671f491bf903fd93eb30453d466c5636d54d4a1fc7275b094b3",
+      "target_id": "XML:2703704",
+      "text": "寅一. 违反本法第三十五条第三款（包括依本法第二十六条第八款"
+    },
+    {
+      "id": "A37057-zh-00328",
+      "source_hash": "4fa9b289130d6d54752d7283cef10eb1aa4ba80dbc6db71175a69c76611173d4",
+      "target_id": "XML:2703705",
+      "text": "本法第七十五条"
+    },
+    {
+      "id": "A37057-zh-00332",
+      "source_hash": "a8435c6a3ff680f0aab8155ed12efa6f8b85872f6b9d48afd3beb863215a1026",
+      "target_id": "XML:2703709",
+      "text": "准用的情形），"
+    },
+    {
+      "id": "A37057-zh-00333",
+      "source_hash": "f28101e5e6d5e59e5b3ab3efeb13aebe9c4f2d9aac49f49e2d3dfe40ef6df4df",
+      "target_id": "XML:2703710",
+      "text": "第二款第十九号"
+    },
+    {
+      "id": "A37057-zh-00334",
+      "source_hash": "2c6f33f0bbc7c12d090fa672621bd27716ecbcbcfdee09eb54db7763358e426b",
+      "target_id": "XML:2703711",
+      "text": "限制或拒绝查阅的情形"
+    },
+    {
+      "id": "A37057-zh-00335",
+      "source_hash": "1c723fd3b9f0b1a8170aa2b7f513290fae7c5808b319272b56e98b4ba6b304e1",
+      "target_id": "XML:2703712",
+      "text": "卯一. 违反本法第三十五条第三款及第四款、第三十六条第二款及第四款，"
+    },
+    {
+      "id": "A37057-zh-00336",
+      "source_hash": "4fa9b289130d6d54752d7283cef10eb1aa4ba80dbc6db71175a69c76611173d4",
+      "target_id": "XML:2703713",
+      "text": "本法第七十五条"
+    },
+    {
+      "id": "A37057-zh-00340",
+      "source_hash": "8ebac58267ace7b73ec4eb7dd7839f55f6ab38d2659791e731fc161ac2671fb0",
+      "target_id": "XML:2703717",
+      "text": "或者第三十七条第四款（包括依本法第二十六条第八款"
+    },
+    {
+      "id": "A37057-zh-00341",
+      "source_hash": "40185ff200f58b9d1db697dd270116569d394a1537e82ecd7d92b76bb47d17e7",
+      "target_id": "XML:2703718",
+      "text": "第四款第十号"
+    },
+    {
+      "id": "A37057-zh-00342",
+      "source_hash": "6be4214140f67526ba8fcd45fb936ad16730b115d3579ea576b0468e78ba949c",
+      "target_id": "XML:2703719",
+      "text": "准用的情形），"
+    },
+    {
+      "id": "A37057-zh-00343",
+      "source_hash": "3ace1d04408b4763b94e7d74e824d3bcd035bd6d9ae20bb7ad93816a8b376799",
+      "target_id": "XML:2703720",
+      "text": "未向信息主体告知应告知事项的"
+    },
+    {
+      "id": "A37057-zh-00344",
+      "source_hash": "3c96d9ba9003b4b9085e1b0aa280f16a56ded155271db0bee3672d18107d15ac",
+      "target_id": "XML:2703721",
+      "text": "情形"
+    },
+    {
+      "id": "A37057-zh-00345",
+      "source_hash": "a317a361f1ac412d29d357e84df1817d918a9ea187d48f38462754f43753d95b",
+      "target_id": "XML:2703722",
+      "text": "辰一. 未取得本法第三十五条之三第一款规定的指定，"
+    },
+    {
+      "id": "A37057-zh-00346",
+      "source_hash": "4fa9b289130d6d54752d7283cef10eb1aa4ba80dbc6db71175a69c76611173d4",
+      "target_id": "XML:2703723",
+      "text": "本法第七十五条"
+    },
+    {
+      "id": "A37057-zh-00350",
+      "source_hash": "e9b8c154b889f60af21c9efca0d82c94998f0f8a166703fd7bd9a568f8933f2f",
+      "target_id": "XML:2703727",
+      "text": "却实施同款第二号规定业务的情形"
+    },
+    {
+      "id": "A37057-zh-00351",
+      "source_hash": "ca22793d30d674b8161467c49e8d4b0bf7d8271db957b72ff7aba217f0820bb6",
+      "target_id": "XML:2703728",
+      "text": "第二款第二十号"
+    },
+    {
+      "id": "A37057-zh-00352",
+      "source_hash": "0b236f726e3885f57352f5af80249c8d2ba95fcf8ca0b4639d2c2a851b6cc1ad",
+      "target_id": "XML:2703729",
+      "text": "巳一. 违反本法第三十五条之三第三款的情形"
+    },
+    {
+      "id": "A37057-zh-00353",
+      "source_hash": "4fa9b289130d6d54752d7283cef10eb1aa4ba80dbc6db71175a69c76611173d4",
+      "target_id": "XML:2703730",
+      "text": "本法第七十五条"
+    },
+    {
+      "id": "A37057-zh-00357",
+      "source_hash": "ce4dd79f97187de8770a63c89cf3b79bc5307cd13a8ebfd799bbbd985300fbe3",
+      "target_id": "XML:2703734",
+      "text": "第二款第二十一号"
+    },
+    {
+      "id": "A37057-zh-00358",
+      "source_hash": "2b453138d8c05d626ad8e01eb932534358c5155d4618a0e2a098576ab5fd67c5",
+      "target_id": "XML:2703735",
+      "text": "午一. 违反本法第三十六条第二款（包括依本法第二十六条第八款"
+    },
+    {
+      "id": "A37057-zh-00359",
+      "source_hash": "4fa9b289130d6d54752d7283cef10eb1aa4ba80dbc6db71175a69c76611173d4",
+      "target_id": "XML:2703736",
+      "text": "本法第七十五条"
+    },
+    {
+      "id": "A37057-zh-00363",
+      "source_hash": "93b4e3a73879133b73a6c951af3e3ea57ee8f4ac43e2bf9157c043c1c32a5894",
+      "target_id": "XML:2703740",
+      "text": "准用的情形），未采取更正"
+    },
+    {
+      "id": "A37057-zh-00364",
+      "source_hash": "2ec2ff20122c3d2c1903b1f6eeeaad561214d2d5925ca033c7ecebed4a118647",
+      "target_id": "XML:2703741",
+      "text": "第二款第二十二号"
+    },
+    {
+      "id": "A37057-zh-00365",
+      "source_hash": "cb8257e35e5da273210e29c5b0a5bc49c0e79c3d022b5d175457c98f4e90254d",
+      "target_id": "XML:2703742",
+      "text": "、删除等必要措施的情形"
+    },
+    {
+      "id": "A37057-zh-00366",
+      "source_hash": "45177ecea6e93e91319c0f08b6e83296c46d39253d66a1d4f058fcb8ae7a5014",
+      "target_id": "XML:2703743",
+      "text": "未一. 违反本法第三十七条第三款或第五款（包括依本法第二十六条第八款"
+    },
+    {
+      "id": "A37057-zh-00367",
+      "source_hash": "4fa9b289130d6d54752d7283cef10eb1aa4ba80dbc6db71175a69c76611173d4",
+      "target_id": "XML:2703744",
+      "text": "本法第七十五条"
+    },
+    {
+      "id": "A37057-zh-00371",
+      "source_hash": "8f32e51545ca1e877e24be48df70e39619211ac4a46e9d53a136e724c1a0a1af",
+      "target_id": "XML:2703748",
+      "text": "准用的情形），"
+    },
+    {
+      "id": "A37057-zh-00372",
+      "source_hash": "23688f616d719d669c719c8e83b2567ea0698c9073b0e8e3548bcbd21292f89f",
+      "target_id": "XML:2703749",
+      "text": "第二款第二十三号"
+    },
+    {
+      "id": "A37057-zh-00373",
+      "source_hash": "302da8cf4065e41e580be1bc0f0dc6dcc6c91f8f1c216783873c1483143497eb",
+      "target_id": "XML:2703750",
+      "text": "未采取销毁等必要措施的情形"
+    },
+    {
+      "id": "A37057-zh-00374",
+      "source_hash": "48069c623eaa2e89e2261b57e75a40a647037e5ba2a1542cd1b449dcbe32b560",
+      "target_id": "XML:2703751",
+      "text": "申一. 违反本法第三十七条之二第三款（包括依本法第二十六条第八款"
+    },
+    {
+      "id": "A37057-zh-00375",
+      "source_hash": "4fa9b289130d6d54752d7283cef10eb1aa4ba80dbc6db71175a69c76611173d4",
+      "target_id": "XML:2703752",
+      "text": "本法第七十五条"
+    },
+    {
+      "id": "A37057-zh-00379",
+      "source_hash": "16e0792c83df9797ecb9b0f40e1e3712a5fe6097559c52acf2ae6fc7d21b75cf",
+      "target_id": "XML:2703756",
+      "text": "准用的情形），"
+    },
+    {
+      "id": "A37057-zh-00380",
+      "source_hash": "59c05c681c9daa2bcda3ab6484aac65f93913dd10681896a384ae0565a9a4541",
+      "target_id": "XML:2703757",
+      "text": "第二款第二十四号"
+    },
+    {
+      "id": "A37057-zh-00381",
+      "source_hash": "4757014e88adc2dd9a2ceddee7cfcf96d21fad455b827b2280dd4f81d2882b3a",
+      "target_id": "XML:2703758",
+      "text": "无正当理由不遵从信息主体请求的"
+    },
+    {
+      "id": "A37057-zh-00382",
+      "source_hash": "f13e0409a09beac0b6c1b586a02b93fef05c4f810f66cca9bb1b07cd01a4f6e7",
+      "target_id": "XML:2703759",
+      "text": "情形"
+    },
+    {
+      "id": "A37057-zh-00383",
+      "source_hash": "e7d57e4e274d22302cd2f338f7c3864bc19d89c33f004d9bc7c85ff1e4607dab",
+      "target_id": "XML:2703760",
+      "text": "酉一. 对本法第四十五条第一款规定的资料，无正当理由"
+    },
+    {
+      "id": "A37057-zh-00384",
+      "source_hash": "4fa9b289130d6d54752d7283cef10eb1aa4ba80dbc6db71175a69c76611173d4",
+      "target_id": "XML:2703761",
+      "text": "本法第七十五条"
+    },
+    {
+      "id": "A37057-zh-00385",
+      "source_hash": "0b85323e30f56ad968630e8b761e1473c5682f4ac9046454f85a7320631738f9",
+      "target_id": "XML:2703762",
+      "text": "不予提交或提交虚假资料的"
+    },
+    {
+      "id": "A37057-zh-00386",
+      "source_hash": "6c6b1b106d00586ac8b85582d2e429b379922469f9733a6204950989ab13bb00",
+      "target_id": "XML:2703763",
+      "text": "第四款第十一号"
+    },
+    {
+      "id": "A37057-zh-00387",
+      "source_hash": "0925aa90ecffa7d68ff7837a8061fc0727ed11f2ac486e261ce991adc65577ed",
+      "target_id": "XML:2703764",
+      "text": "情形"
+    },
+    {
+      "id": "A37057-zh-00388",
+      "source_hash": "2aab18a71dfccd94eb360836303d12128e1ca0ba3a81f71c35784260af050e58",
+      "target_id": "XML:2703765",
+      "text": "1）未提交资料的情形"
+    },
+    {
+      "id": "A37057-zh-00392",
+      "source_hash": "8e057065dd684a784b2cd0f40418947b0a17081e08c5e0c2a26b6e671b03c66c",
+      "target_id": "XML:2703769",
+      "text": "2）提交虚假资料的情形"
+    },
+    {
+      "id": "A37057-zh-00396",
+      "source_hash": "645ff84b0749f2bc7ee1ffdffe0eafad93c9e3cee4d98e64165de1cc58530653",
+      "target_id": "XML:2703773",
+      "text": "戌一. 无正当理由拒绝、妨碍或回避本法第四十五条第二款规定的进入、调查或查阅的"
+    },
+    {
+      "id": "A37057-zh-00397",
+      "source_hash": "4fa9b289130d6d54752d7283cef10eb1aa4ba80dbc6db71175a69c76611173d4",
+      "target_id": "XML:2703774",
+      "text": "本法第七十五条"
+    },
+    {
+      "id": "A37057-zh-00401",
+      "source_hash": "4515bb51a0a1ee47652b9c1efe3d25eb0cc500953f3ce599e068c71fd2767772",
+      "target_id": "XML:2703778",
+      "text": "无正当理由拒绝、妨碍或回避的"
+    },
+    {
+      "id": "A37057-zh-00402",
+      "source_hash": "33e311f3cdf4a0423ddae6ed9f86b6c9e7835f6e83c2ad3b40dee3e284a91ead",
+      "target_id": "XML:2703779",
+      "text": "第四款第十二号"
+    },
+    {
+      "id": "A37057-zh-00403",
+      "source_hash": "da3fe13b244673e7cb2235643606b7bc9419ab9809a0c431763c29cc1332a35d",
+      "target_id": "XML:2703780",
+      "text": "情形"
+    },
+    {
+      "id": "A37057-zh-00404",
+      "source_hash": "0dc0469a73676b89a5271a0b198679dc980c04a948a16eec8d749abda2efb073",
+      "target_id": "XML:2703781",
+      "text": "亥一. 依照本法第六十三条第一款（包括依本法第二十六条第八款"
+    },
+    {
+      "id": "A37057-zh-00405",
+      "source_hash": "4fa9b289130d6d54752d7283cef10eb1aa4ba80dbc6db71175a69c76611173d4",
+      "target_id": "XML:2703782",
+      "text": "本法第七十五条"
+    },
+    {
+      "id": "A37057-zh-00406",
+      "source_hash": "9ed0f2ad9a6f29a2163f666cc67ad1e27aff12867db79b21135838f25b25819d",
+      "target_id": "XML:2703783",
+      "text": "准用的情形），未提交有关物品、文件等资料或"
+    },
+    {
+      "id": "A37057-zh-00407",
+      "source_hash": "e3669718caedbf07033f9461e426c4e314c817966cff4962f5bd08bad2387983",
+      "target_id": "XML:2703784",
+      "text": "第二款第二十五号"
+    },
+    {
+      "id": "A37057-zh-00408",
+      "source_hash": "2599412265ef9a71fe45fef963f4eeaa930d928fb53770bb09dd77b3c030174b",
+      "target_id": "XML:2703785",
+      "text": "提交虚假资料的"
+    },
+    {
+      "id": "A37057-zh-00409",
+      "source_hash": "090d03eb8ae6c67c0e501ee85ff06d6e524e2fbd71ce571c0c03e7bf25e969e3",
+      "target_id": "XML:2703786",
+      "text": "情形"
+    },
+    {
+      "id": "A37057-zh-00410",
+      "source_hash": "2aab18a71dfccd94eb360836303d12128e1ca0ba3a81f71c35784260af050e58",
+      "target_id": "XML:2703787",
+      "text": "1）未提交资料的情形"
+    },
+    {
+      "id": "A37057-zh-00414",
+      "source_hash": "8e057065dd684a784b2cd0f40418947b0a17081e08c5e0c2a26b6e671b03c66c",
+      "target_id": "XML:2703791",
+      "text": "2）提交虚假资料的情形"
+    },
+    {
+      "id": "A37057-zh-00418",
+      "source_hash": "cae24b9ae36017212f1aac9b023f8733aaef2c2e2418c170ffc7ffde3d33ae33",
+      "target_id": "XML:2703795",
+      "text": "甲二. 对本法第六十三条第二款（包括依本法第二十六条第八款"
+    },
+    {
+      "id": "A37057-zh-00419",
+      "source_hash": "4fa9b289130d6d54752d7283cef10eb1aa4ba80dbc6db71175a69c76611173d4",
+      "target_id": "XML:2703796",
+      "text": "本法第七十五条"
+    },
+    {
+      "id": "A37057-zh-00423",
+      "source_hash": "33cc5261bb3be9ff53a160b4b6c09fba973ca43ccc92fe5b2a390928b9935557",
+      "target_id": "XML:2703800",
+      "text": "准用的情形）规定的进入、检查，"
+    },
+    {
+      "id": "A37057-zh-00424",
+      "source_hash": "94cbd69d8e4fc7c268054e10c47dcc62bcbd122898828f23a66197689b816075",
+      "target_id": "XML:2703801",
+      "text": "第二款第二十六号"
+    },
+    {
+      "id": "A37057-zh-00425",
+      "source_hash": "8dfe9b15f979aaad119d056ffe074f2ee12e25b63477747e398166e85a2a1f87",
+      "target_id": "XML:2703802",
+      "text": "予以拒绝、妨碍或回避的情形"
+    },
+    {
+      "id": "A37057-zh-00426",
+      "source_hash": "31f14853c39c373bf19830d7c769b23766596344213ff82043761cd1e0341b42",
+      "target_id": "XML:2703803",
+      "text": "乙二. 未遵从本法第六十四条第一款规定的纠正措施命令的"
+    },
+    {
+      "id": "A37057-zh-00427",
+      "source_hash": "4fa9b289130d6d54752d7283cef10eb1aa4ba80dbc6db71175a69c76611173d4",
+      "target_id": "XML:2703804",
+      "text": "本法第七十五条"
+    },
+    {
+      "id": "A37057-zh-00431",
+      "source_hash": "cd3daf7b89486d49c891e207457082f140c77dfc25b637c066484b8d9c791428",
+      "target_id": "XML:2703808",
+      "text": "情形"
+    },
+    {
+      "id": "A37057-zh-00432",
+      "source_hash": "60c4beeb1517d66a819eba0a34dd4eff7c87112e2f097a9072a84d893d546295",
+      "target_id": "XML:2703809",
+      "text": "第二款第二十七号"
+    }
+  ],
+  "source_files": [
+    "review/zh/in-progress/F-69d9e2651808803c4773-C05-A37057-00221-00280.json",
+    "review/zh/in-progress/F-69d9e2651808803c4773-C05-A37057-00281-00340.json",
+    "review/zh/in-progress/F-69d9e2651808803c4773-C05-A37057-00341-00400.json",
+    "review/zh/in-progress/F-69d9e2651808803c4773-C05-A37057-00401-00432.json"
+  ]
+}
