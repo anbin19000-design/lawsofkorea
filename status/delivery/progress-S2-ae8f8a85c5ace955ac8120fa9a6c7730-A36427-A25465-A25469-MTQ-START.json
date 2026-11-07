@@ -1,0 +1,35 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 3,
+  "edits": [
+    {
+      "id": "A36427-zh-00094",
+      "text": "的情形",
+      "source_hash": "7f4b3a96a7c30e3811611fe4f6817ce1b48abf5f44d373c50b5621ba65080cf3",
+      "target_id": "XML:2657466"
+    },
+    {
+      "id": "A25465-zh-00026",
+      "text": "事业实施期间",
+      "source_hash": "abf6a908dadc95038d202b1dcd98df3b3ea0a9a60a2cad3c03ad6ee395c3c32c",
+      "target_id": "XML:1802657"
+    },
+    {
+      "id": "A25469-zh-00020",
+      "text": "其他说明事项",
+      "source_hash": "e366f1722c14b3b9f148d91ae2b3310bfb70d41bb0ed97b66d5d2598c4358fe2",
+      "target_id": "XML:1802875"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "note": "Individual fragments grounded in Korean annex/form and adjacent cells; existing earlier 25 corrections unchanged. Does not indicate complete review."
+}
