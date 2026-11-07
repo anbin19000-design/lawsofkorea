@@ -30,7 +30,20 @@
   },
   "assistant_count": 8,
   "assistant_excerpt": "tHub에서 재조회했습니다.\n\n구간\n\n\t\n\n신규 교정\n\n\t\n\n커밋 앞 12자리\n\n\n\n\nA38429 15~40\n\n\t\n\n13\n\n\t\n\nf8376d0c6744\n\n\n\n\nA38429 41~70\n\n\t\n\n15\n\n\t\n\n3a40c25f720c\n\n\n\n\nA38429 71~100\n\n\t\n\n11\n\n\t\n\n0382fdff9684\n\n\n\n\nA38429 101~122\n\n\t\n\n12\n\n\t\n\n384a632e2a93\n\n\n\n\nA38430 1~32\n\n\t\n\n22\n\n\t\n\ncbf12c1445a6\n\n\n\n\nA38430 33~70\n\n\t\n\n19\n\n\t\n\nb5495205099e\n\n\n\n\nA38430 71~99\n\n\t\n\n15\n\n\t\n\n37b0e8adffc8\n\n\n\n\nA38431 1~38\n\n\t\n\n35\n\n\t\n\n2deb5afe608b\n\n누적 저장된 고유 교정\n\n221개 행\n\n이번 회차 신규 142개 · 신규 커밋 8개\n\n별표 3의 금액도 한국어 원문에 따라 확인했습니다. 일일 과징금은 위반 유형별로 50만 원·100만 원·150만 원이며, 총액 한도는 3억 원입니다.\n\n마지막 저장 결과:\n\n커밋: 2deb5afe608bc8bead71415b3d928b76ecf634a8\n\n파일 SHA: d1a4c70f9c9e752138de29238200fbd0b96c9281\n\n다음 미검수 행: A38432-zh-00001\n\n상태: IN_PROGRESS\n\nA38429 122행, A38430 99행, A38431 38행의 구간별 대조를 마쳤습니다. 별표 3까지 처리했으나 나머지 문서와 서식의 전체 검수는 아직 남아 있습니다.\n\n이번 회차에서 409 충돌이 1회 있었지만, 원본 해시와 경로 부재를 확인하고 허용된 1회 재저장에 성공했습니다. 이후 저장 파일은 모두 재조회했습니다.\n\n기존 교정문, 원본 laws/*, 운영 DB는 변경하지 않았습니다. 완료 영수증도 발행하지 않았습니다.",
+  "attempted_at": "2026-11-07T22:38:38.976328+00:00",
   "created_at": "2026-11-07T22:38:30.863164+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-8183a621b8430dee4e0cc754affc1b45",
+    "attempted_at": "2026-11-07T22:38:38.976328+00:00",
+    "claim_commit": "0a632c7cd163fe7fdea688f3e28ce76c24649dc2",
+    "event_id": "obs-ac1eefa49f00371363670788f50e0544d30238da",
+    "job_id": "F-3705abbc710de4b867bc",
+    "record_path": "status/delivery/recovery-S2-8183a621b8430dee4e0cc754affc1b45.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C05"
+  },
   "episode": 7,
   "event_id": "obs-ac1eefa49f00371363670788f50e0544d30238da",
   "job_id": "F-3705abbc710de4b867bc",
@@ -408,7 +421,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-564db5587003474a425fd087]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "103fe347c9102dd406ee8d7860e9d4b0aff00e01",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aef9e88-c3f8-83e8-ad64-0f3c30f831db",
   "worker": "C05"
 }
