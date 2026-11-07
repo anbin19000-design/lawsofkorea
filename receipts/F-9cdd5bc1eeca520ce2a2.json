@@ -1,0 +1,8 @@
+{
+  "job_id": "F-9cdd5bc1eeca520ce2a2",
+  "worker": "C02",
+  "checked_rows": 624,
+  "corrected_rows": 150,
+  "status": "COMPLETE",
+  "note": "Reviewed all 624 Chinese rows across all 17 documents against the Korean source. Applied 150 unique row-level corrections while preserving row IDs and source hashes. The Korean source manifest SHA is unchanged from the specified base commit. English references were mapped for 562 rows; 62 rows had no mapped English pair. The reviewed/en reference reviewed/en/KR_012476.json (73 rows) and sampled meaning/pairs references were consulted as secondary aids; Korean remains authoritative. Final applied-text checks found no remaining Korean text, MTQ/START/END artifacts, wrong act-title variants, or erroneous Ministry-ordinance wording. The administrative-fine annex amounts were checked against the Korean table: 300,000/700,000/1,500,000 won and 500,000/1,000,000/2,000,000 won. Review storage is separate from operational database application."
+}
