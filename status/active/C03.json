@@ -1,59 +1,26 @@
 {
-  "assignment_id": "S2-9370ff39a0ecac9a4470b3ca551f567e",
-  "claimed_at": "2026-11-07T12:35:26.084764+00:00",
+  "assignment_id": "S2-eb70ed020706e9a311833da3d73c1a6c",
+  "claimed_at": "2026-11-07T12:40:26.106044+00:00",
   "conversation_hash": "15a78bcff16b5c7cf9934c451bfcb773a5ba67833c1a8d2c409b347f9936242e",
-  "delivery_status": "SENT_VERIFIED",
-  "documents": 5,
-  "event_id": "obs-d406988a80423679c702b950256c4614b89868ef",
-  "family_id": "F-db1daf56e9628acb6968",
-  "job_id": "F-db1daf56e9628acb6968",
-  "marker": "[LAW-SUPPLY-V2:S2-9370ff39a0ecac9a4470b3ca551f567e:C03:F-db1daf56e9628acb6968]",
+  "delivery_status": "INTENT_RECORDED_NO_RESEND",
+  "documents": 12,
+  "event_id": "obs-34ff5d29c1533156b7067ecec029a85b09bd48b6",
+  "family_id": "F-355ef18e08cd12dbb401",
+  "job_id": "F-355ef18e08cd12dbb401",
+  "marker": "[LAW-SUPPLY-V2:S2-eb70ed020706e9a311833da3d73c1a6c:C03:F-355ef18e08cd12dbb401]",
   "panel_id": "panel-03",
   "pc": "WORK-C",
   "prompt_format": "no-terminal-lf",
-  "quality_followup": {
-    "job_id": "F-db1daf56e9628acb6968",
-    "opened_at": "2026-11-07T12:31:34.673444+00:00",
-    "receipt_blob": "776106cb2b3d88086a6e4c21770063ace6ca3337",
-    "review_blob": "4c375a922d3563e960190fd258b78c455105a352",
-    "rows": [
-      {
-        "check": "별표 가목 거짓이나 그 밖의 부정한 방법으로 지정을 받은 경우. 앞뒤 분절과 대조하여 START를 바로잡을 것.",
-        "id": "A36343-zh-00019",
-        "observed": "如果由 START 方法指定",
-        "source_hash": "2a589a2d13c086440d01f4e0dfb921224c0a5180f2b53049c6b2cba792689242"
-      },
-      {
-        "check": "과태료 표 사목 시정(다음 줄과 결합). MTQ 잔존.",
-        "id": "A36344-zh-00080",
-        "observed": "更正MTQ6e43c2ee98b0152701128结束",
-        "source_hash": "dd960a9d3ff0ec26f36061c22c2ba8ebfda6113f2d9562f73c2a8a8dbba058c4"
-      },
-      {
-        "check": "과태료 표 자목 시정(다음 줄과 결합). MTQ 잔존.",
-        "id": "A36344-zh-00096",
-        "observed": "更正MTQ6e43c2ee98b0152701128结束",
-        "source_hash": "dd960a9d3ff0ec26f36061c22c2ba8ebfda6113f2d9562f73c2a8a8dbba058c4"
-      }
-    ],
-    "schema": "LAW_QUALITY_FOLLOWUP_V1",
-    "source_blobs": {
-      "en": "4e9ed75a98733ddadfc2a417a58400d43fe48098",
-      "ko": "edf33ff1e2137664822b690d750cc8980bc23090",
-      "zh": "a245e3119164bd01ae1beb60b65078ab9256a4ff"
-    },
-    "worker": "C03"
-  },
-  "rows": 506,
+  "rows": 537,
   "schema": "LAW_SUPPLIER_ASSIGNMENT_V2",
   "source_blobs": {
-    "en": "4e9ed75a98733ddadfc2a417a58400d43fe48098",
-    "ko": "edf33ff1e2137664822b690d750cc8980bc23090",
-    "zh": "a245e3119164bd01ae1beb60b65078ab9256a4ff"
+    "en": "97cf400224039d871ceea0389e3481c924a16087",
+    "ko": "925113f307116c81b938d9d7480537aadca28c29",
+    "zh": "2f60307d270aea09a4b68a5967f4d1f4e4ed9f88"
   },
-  "source_commit": "d771cc553372af09e8c0894eee14efc620ef778b",
+  "source_commit": "a163c423a10a9f04c9bdef81f40f1f62bb30ca8d",
   "status": "ACTIVE",
-  "title": "식품산업진흥법",
+  "title": "반도체산업 경쟁력 강화 및 지원에 관한 특별법",
   "unit_policy": "ACT_DECREE_RULE_ANNEX_FORMS_ONE_FAMILY",
   "worker": "C03",
   "write_protocol": "contents-zh-v3"
