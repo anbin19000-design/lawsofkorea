@@ -51,10 +51,12 @@
   "observed_state": "IDLE",
   "previous_episodes": [],
   "prompt_sha256": "ff67d2bc9078434410f56384f7535f3d817dbd3327bc12fdd9da932bb74983b1",
+  "received_at": "2026-11-07T22:13:50.569422+00:00",
   "recovery_marker": "[LAW-RECOVERY-V1:R1-056d2bbf9ac9415cdb1a71e1]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "dc7f180920c1b2625b51d1ab63f7ec239eb4da3d",
-  "status": "RECOVERY_SENT_AWAITING_ACK",
+  "status": "RECOVERY_WORKING_VERIFIED",
   "url": "https://chatgpt.com/c/6aef9e88-c3f8-83e8-ad64-0f3c30f831db",
-  "worker": "C05"
+  "worker": "C05",
+  "working_seen_at": "2026-11-07T22:13:50.569430+00:00"
 }
