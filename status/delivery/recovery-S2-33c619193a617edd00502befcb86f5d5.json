@@ -26,7 +26,20 @@
     "worker": "C06"
   },
   "assistant_excerpt": "C06 — 법령가족 중국어 검수법령: 순직 해병 수사 방해 및 사건 은폐 등의 진상규명을 위한 특별검사의 임명 등에 관한 법률\nJob ID: F-c922697fcf8366444a46사전 확인 항목결과기준 커밋864d02c5a6b57b4352b4004f7da25b78e2112dc9한국어·중국어·영어 원본모두 기준 커밋과 일치배정 문서법률 1개중국어 검수 범위33행연결된 영어 참고본1개연결된 행 단위 의미기록없음기존 완료 기록없음한국어 원문과 중국어 초안 33행 전체를 대조했습니다. 법적 효과에 영향을 주는 번역 오류, 누락된 항 표시, 수사·기소·공소유지의 구분, 기간 및 인용 관계를 중심으로 교정 내용을 정리합니다.최종 상태: HOLD — GitHub 브랜치 갱신 실패항목결과전체 검수33 / 33행교정28행기존 번역 유지5행검수 결과·영수증 Git 객체 생성성공main 반영실패main의 결과 파일 2개없음laws/* 수정없음보존할 결과 커밋 SHAa3b0bf7f603575aba0831f2818066090b9e5a63d기존 검수 결과 커밋 객체 확인GitHub 오류 원문은 GithubGraphQLAPIError / UNKNOWN이며, 오류 보고 ID는 79BF:29117F:13C645:23FA46:6AEE7248입니다. 명시적인 401/403 권한 거절이나 expected SHA 충돌 메시지는 없었습니다.마지막 읽기 전용 확인에서 두 결과 파일 모두 main에 존재하지 않았습니다. 동일 쓰기 요청을 재시도하지 않았으며, 운영 DB도 변경하지 않았습니다.33행 검수 결과는 생성된 커밋 객체에 보존되어 있지만, 완료 영수증이 main에 반영되지 않아 COMPLETE로 처리하지 않습니다.",
+  "attempted_at": "2026-11-07T00:47:17.101137+00:00",
   "created_at": "2026-11-07T00:47:01.182912+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-33c619193a617edd00502befcb86f5d5",
+    "attempted_at": "2026-11-07T00:47:17.101137+00:00",
+    "claim_commit": "e4e29b21a5a8f07d2cfd707ff94b540c5df468ca",
+    "event_id": "obs-9ac11b68ac9c0044815583a20348c03f39969bbf",
+    "job_id": "F-c922697fcf8366444a46",
+    "record_path": "status/delivery/recovery-S2-33c619193a617edd00502befcb86f5d5.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C06"
+  },
   "event_id": "obs-9ac11b68ac9c0044815583a20348c03f39969bbf",
   "job_id": "F-c922697fcf8366444a46",
   "observed_at": 1794012408.0464435,
@@ -35,7 +48,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-6c7ce33c8588b9bec5b6b207]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "cd397a0f144f31de8999d178a55e746af23aa6c4",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aee4567-3ec8-83ec-9a2c-5e523a389f59",
   "worker": "C06"
 }
