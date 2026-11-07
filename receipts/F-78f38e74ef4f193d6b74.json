@@ -1,0 +1,8 @@
+{
+  "job_id": "F-78f38e74ef4f193d6b74",
+  "worker": "C03",
+  "checked_rows": 844,
+  "corrected_rows": 16,
+  "status": "COMPLETE",
+  "note": "Reviewed all 844 Chinese rows across the 7-document family against the authoritative Korean source. The Korean source blob SHA on main matches the supplied base commit. Sixteen unique row-level corrections were recorded in review/zh, including definition-list item lettering and terminology, untranslated Korean passages in the decree, incorrect/incomplete article text, and appendix terminology/placeholder artifacts. Official English reference documents were available as family-latest fallback for the Act and as an AI draft for the Enforcement Decree; English reference coverage was 626/844 rows, with no row-specific reviewed English entries. The meaning-pairs directory was located, but a complete scan of its shards could not be completed within the available GitHub call budget; no meaning-pair evidence was used to justify edits. Review storage is separate from operational database application."
+}
