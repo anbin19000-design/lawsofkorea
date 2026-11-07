@@ -1,0 +1,8 @@
+{
+  "job_id": "F-eec99de199952e3cd456",
+  "worker": "C02",
+  "checked_rows": 880,
+  "corrected_rows": 39,
+  "status": "COMPLETE",
+  "note": "Completed Chinese review of all 880 unique rows across the six-document National Finance Act family. Corrected residual Korean, broken form-field translations and MTQ/START artifacts, incomplete citations, and schedule numbering/title errors. Final applied review text was checked for remaining Korean, MTQ markers, START tokens, and hash-like artifacts; none remain. The Korean source blob on main matches the supplied baseline commit. Review and receipt storage are separate from operational database application."
+}
