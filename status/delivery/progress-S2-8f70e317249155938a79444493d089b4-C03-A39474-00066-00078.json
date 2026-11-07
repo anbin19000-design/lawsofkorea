@@ -1,0 +1,68 @@
+{
+  "schema": "LAW_ZH_PARTIAL_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A39474",
+  "range": {
+    "first": "A39474-zh-00066",
+    "last": "A39474-zh-00078"
+  },
+  "checked_rows": 13,
+  "corrected_rows": 10,
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "edits": [
+    {
+      "id": "A39474-zh-00066",
+      "source_hash": "887314459c48e910b074732efeb403954940d0c440a0d11827cf06cf548125e6",
+      "text": "丙）运营日志"
+    },
+    {
+      "id": "A39474-zh-00069",
+      "source_hash": "b3db18a2d5394227e7fa4bad0656db188ab900fb714c558e58141d8717628be2",
+      "text": "己）总分类账及收支辅助账簿"
+    },
+    {
+      "id": "A39474-zh-00070",
+      "source_hash": "75a7e6885edf3b8fa6ba9bf2cc83a093bf8d841a4355d5a8551ccf3a5821669d",
+      "text": "庚）现金及物品出纳簿及其证明文件"
+    },
+    {
+      "id": "A39474-zh-00071",
+      "source_hash": "121402971d8af5db38e1d10c2e394290b4463dc452923b25f287f4b92f103cf6",
+      "text": "辛）报告文件档案及与有关行政机关收发的文件档案"
+    },
+    {
+      "id": "A39474-zh-00072",
+      "source_hash": "86b33bb8372d76a8795b1d6677e731884985a14a4576ed8f9473cd1c3078579e",
+      "text": "壬）与地方受害者权益保护机构开展的受害者咨询等业务有关的记录"
+    },
+    {
+      "id": "A39474-zh-00073",
+      "source_hash": "f925a878e61390f9e2d97b54e825e36b8d14d6c5228d157e61ba8cbc93b15166",
+      "text": "及文件"
+    },
+    {
+      "id": "A39474-zh-00075",
+      "source_hash": "514355cd12e534794d25b1a320f5e372e50df0ad2023ec82b947dcd5f974fc81",
+      "text": "甲）地方受害者权益保护机构的设立、运营相关会计，应与法人会计或者"
+    },
+    {
+      "id": "A39474-zh-00076",
+      "source_hash": "c9b457e38ce7f628b203dbebaa4dea71dcb8cb58f3f3b815c3c9e657b9be3cc9",
+      "text": "其他事业的会计分开处理。"
+    },
+    {
+      "id": "A39474-zh-00077",
+      "source_hash": "08ec2ec8704328ca36a6a536976c1366f59b42c05b6c40b572e79f886a87c419",
+      "text": "乙）从国家或者地方自治团体获得的补助款物及从其他机构"
+    },
+    {
+      "id": "A39474-zh-00078",
+      "source_hash": "a2ab799895e48e921f464c23d4921107c02ad190d4c72c82b012ac8a3adc6d9e",
+      "text": "收到的捐赠款物，应分别设置独立账户进行会计处理。"
+    }
+  ],
+  "note": "Reviewed final 13 Annex 1 Chinese XML fragments against Korean regional victim rights agency operations. Repaired ledger letter order, report files, victim consultation records, separate corporate/project accounting and separate public subsidies versus other donors' contributions. No changes to earlier rows or source hashes."
+}
