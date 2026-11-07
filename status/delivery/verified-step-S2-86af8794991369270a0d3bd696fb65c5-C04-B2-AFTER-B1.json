@@ -1,0 +1,12 @@
+{
+  "worker": "C04",
+  "assignment_id": "S2-86af8794991369270a0d3bd696fb65c5",
+  "job_id": "F-1544513a7cf3c21c03fa",
+  "url": "https://chatgpt.com/c/6aef1387-40e0-83e8-8646-473a25207a19",
+  "previous_marker": "[LAW-VERIFIED-ACTION:C04-CHECKPOINT-166-01]",
+  "previous_last_user_sha256": "5f6ba3794101ceebb38bd0d3b843e72a78061eda2e4036577e543f05e0317405",
+  "status": "INTENT_NO_RESEND",
+  "created_at": "2026-11-07T17:47:09.668099+00:00",
+  "prompt": "[LAW-SUPPLY-V2:S2-86af8794991369270a0d3bd696fb65c5:C04:F-1544513a7cf3c21c03fa] [LAW-VERIFIED-ACTION:C04-B2-AFTER-B1]\n저장소: anbin19000-design/lawsofkorea\n브랜치: main\n법령가족: 의무경찰대 설치 및 운영에 관한 법률\nJob ID: F-1544513a7cf3c21c03fa\n기존 별표·서식 12행과 B1 145행의 검수 기록을 보존하십시오. B2에서 이미 저장된 행을 제외한 첫 구간부터 대조·교정하십시오. 166개 자료 일괄 호출은 반복하지 마십시오. 기존 행 ID와 해시는 보존하고 검증된 행은 반복하지 마십시오. 같은 배정만 계속하고 실제 보호·권한·승인·한도·STOP 또는 원문 변경이면 중단하십시오. 한 문서씩 처리하고 각 새 구간을 공식 GitHub Contents API로 고유 IN_PROGRESS 파일에 저장하고 재조회하십시오. 전체 법령가족을 대조한 뒤에만 검수 결과와 영수증을 저장하십시오. 운영 DB 및 원문은 수정하지 마십시오.",
+  "prompt_sha256": "c229b7ccc8c054460482adcfb147d8be8d30cacd15f372a6acf301fdcdad8480"
+}
