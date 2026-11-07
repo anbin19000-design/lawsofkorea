@@ -1,0 +1,8 @@
+{
+  "job_id": "F-4d76c923d11d381445dd",
+  "worker": "C02",
+  "checked_rows": 839,
+  "corrected_rows": 11,
+  "status": "COMPLETE",
+  "note": "Reviewed all 839 unique Chinese rows across all 13 documents against the Korean source. Applied 11 unique minimal corrections: repaired mixed Korean/Chinese and untranslated passages in Enforcement Decree Articles 10, 13, 13-2 and 14; corrected the special-act and enforcement-decree titles and an incorrect act citation; corrected the Civil Petitions Treatment Act reference; removed annex/form text erroneously appended to an amendment provision; and removed MTQ artifacts from form labels. Verified the final corrected Chinese text contains no MTQ markers, START artifacts, or remaining Korean fragments. Korean source blob SHA 2f28c817576a8c61135cc3df456925dee7184299 matches the supplied baseline commit. Review storage is separate from operational database application."
+}
