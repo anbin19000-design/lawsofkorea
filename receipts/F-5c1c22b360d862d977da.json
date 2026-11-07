@@ -1,0 +1,8 @@
+{
+  "job_id": "F-5c1c22b360d862d977da",
+  "worker": "C03",
+  "checked_rows": 859,
+  "corrected_rows": 17,
+  "status": "COMPLETE",
+  "note": "Reviewed all 859 Chinese rows across the 12-document family against the authoritative Korean source. The Korean source blob SHA on main matches the supplied base commit. Seventeen unique row-level corrections were recorded in review/zh, covering untranslated Korean passages in the Enforcement Decree table and Enforcement Rule, malformed MTQ/START placeholders, and missing/incorrect legal names and references in the marine-space suitability annex. The Act and Enforcement Decree exact-version official English documents and the reviewed English file for the Enforcement Rule were consulted; English reference coverage was 730/859 rows, with no row-level reviewed-English matches. The first 16 meaning/pairs shards (00–0f) were inspected; no records matched the three law IDs in this family. Review storage is separate from operational database application."
+}
