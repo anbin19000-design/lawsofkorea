@@ -1,0 +1,8 @@
+{
+  "job_id": "F-de95ea24566652c16086",
+  "worker": "C01",
+  "checked_rows": 784,
+  "corrected_rows": 184,
+  "status": "COMPLETE",
+  "note": "Completed a full 784-row Chinese review across all 12 documents against the Korean source pinned at 2c107e851d22a6571f7b9fb3ff5c4749512d482d. The 184 unique row corrections address untranslated Korean passages, MTQ/START residue, broken annex cell translations, administrative place names, statutory titles/citations, and form terminology. laws/ko, laws/zh, and laws/en were not modified. English source documents and reviewed/en/KR_010795.json were consulted as secondary references; no matching meaning/pairs file was found at the checked candidate paths. This receipt records repository review storage only, not operational database application."
+}
