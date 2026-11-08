@@ -1,0 +1,47 @@
+{
+  "schema": "LAW_ZH_PROGRESS_V1",
+  "assignment_id": "S2-901caa00a22014b2aeb6d9a618edfdbf",
+  "job_id": "F-c2b35f6aceb6477e1107",
+  "worker": "C04",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
+    "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
+    "zh": "f8879f4a12299069e4831b03f15a2a2fa30c8089"
+  },
+  "documents": 15,
+  "total_rows": 1241,
+  "unique_source_ids": 1241,
+  "verified_corrections": 12,
+  "pending_manual_verification": 1229,
+  "review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
+  "review_sha": "147b83e69f20c2f5b9cf3bf8cb8e5ce0365723b7",
+  "checked_ids": [
+    "A14112-zh-00030",
+    "A14112-zh-00032",
+    "A14112-zh-00034",
+    "A14112-zh-00036",
+    "A14112-zh-00038",
+    "A14114-zh-00176",
+    "A14115-zh-00124",
+    "A14120-zh-00003",
+    "B1-zh-00008",
+    "B2-zh-00007",
+    "B3-zh-00037",
+    "B2-zh-00055"
+  ],
+  "findings": {
+    "mtq_corruption_corrected": 8,
+    "untranslated_Korean_body_rows_corrected": 2,
+    "annex_spillover_rows_corrected": 2,
+    "source_offset_anomalies": [
+      "B2-zh-00055",
+      "B3-zh-00037"
+    ],
+    "english_row_matches": 911,
+    "english_rows_unmatched": 330,
+    "remaining_simple_MTQ_or_Hangul_patterns": 0
+  },
+  "note": "Automated anomaly scans do not amount to line-by-line semantic verification. Complete translation review and receipt withheld until remaining 1229 rows are manually source checked. Original sources and all row IDs/hashes preserved."
+}
