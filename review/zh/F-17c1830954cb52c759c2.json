@@ -20,9 +20,9 @@
     "korean": "COMPLETE",
     "english": "COMPLETE",
     "chinese": "IN_PROGRESS; A27040, A27042, A27043 complete review of general and individual disposition tables; forms remain under sequential review.",
-    "reviewed_rows": 588,
-    "corrected_rows": 553,
-    "remaining_rows": 687
+    "reviewed_rows": 610,
+    "corrected_rows": 575,
+    "remaining_rows": 665
   },
   "documents": [],
   "rows": [
@@ -7199,10 +7199,15 @@
       "end": null,
       "target_id": "XML:1906462",
       "source_hash": "dc8c86b5bbd150807c03c6ad18d1a508a62fa5241d72f56ea78063a4af14ac65",
-      "text": "60天",
+      "text": "60日",
       "text_original": "60天",
-      "text_reviewed": "60天",
-      "review_status": "PENDING"
+      "text_reviewed": "60日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "恢复第三次违法的处分期限。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00079",
@@ -7213,10 +7218,15 @@
       "end": null,
       "target_id": "XML:1906463",
       "source_hash": "6631a1c0bab75cfb449f293b4b35597e3ad4bd0f85264e6042d16f3dd1956d37",
-      "text": "120 天",
+      "text": "120日",
       "text_original": "120 天",
-      "text_reviewed": "120 天",
-      "review_status": "PENDING"
+      "text_reviewed": "120日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "恢复第三次违法的处分期限。"
+        }
+      ]
     },
     {
       "id": "A27041-zh-00001",
@@ -9216,10 +9226,15 @@
       "end": null,
       "target_id": "XML:1906574",
       "source_hash": "25e51843741edb403b41c45cf4906ea4bd64fae0b998ba396fc35dae697a7fb6",
-      "text": "施工",
+      "text": "停止施工",
       "text_original": "施工",
-      "text_reviewed": "施工",
-      "review_status": "PENDING"
+      "text_reviewed": "停止施工",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "补全附件3末项对未执行整改命令的停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00080",
@@ -9230,10 +9245,15 @@
       "end": null,
       "target_id": "XML:1906575",
       "source_hash": "25e51843741edb403b41c45cf4906ea4bd64fae0b998ba396fc35dae697a7fb6",
-      "text": "施工",
+      "text": "停止施工",
       "text_original": "施工",
-      "text_reviewed": "施工",
-      "review_status": "PENDING"
+      "text_reviewed": "停止施工",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "补全附件3末项对未执行整改命令的停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00081",
@@ -9244,10 +9264,15 @@
       "end": null,
       "target_id": "XML:1906576",
       "source_hash": "25e51843741edb403b41c45cf4906ea4bd64fae0b998ba396fc35dae697a7fb6",
-      "text": "施工",
+      "text": "停止施工",
       "text_original": "施工",
-      "text_reviewed": "施工",
-      "review_status": "PENDING"
+      "text_reviewed": "停止施工",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "补全附件3末项对未执行整改命令的停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00082",
@@ -9258,10 +9283,15 @@
       "end": null,
       "target_id": "XML:1906577",
       "source_hash": "e7a29abc3bdf6d15b0b59877fb19ed13d0bb13f96d98f94c4084a0b9bbfbf597",
-      "text": "许可",
+      "text": "撤销许可",
       "text_original": "许可",
-      "text_reviewed": "许可",
-      "review_status": "PENDING"
+      "text_reviewed": "撤销许可",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "补全附件3末项对未执行整改命令的停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00083",
@@ -9272,10 +9302,15 @@
       "end": null,
       "target_id": "XML:1906578",
       "source_hash": "2d723e43a3c25c33e430f07efadaa5228db88d784a57d353cc2f1b32b5d0c333",
-      "text": "收到纠正令的人员",
+      "text": "未在国土交通部长官规定的期限内采取适当措施",
       "text_original": "收到纠正令的人员",
-      "text_reviewed": "收到纠正令的人员",
-      "review_status": "PENDING"
+      "text_reviewed": "未在国土交通部长官规定的期限内采取适当措施",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "补全附件3末项对未执行整改命令的停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00084",
@@ -9286,10 +9321,15 @@
       "end": null,
       "target_id": "XML:1906582",
       "source_hash": "be876433993ab7ba221512b5703b32060626f390aa50d7ed464a847a34539a6c",
-      "text": "取消",
+      "text": "（整改命令未履行）",
       "text_original": "取消",
-      "text_reviewed": "取消",
-      "review_status": "PENDING"
+      "text_reviewed": "（整改命令未履行）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "补全附件3末项对未执行整改命令的停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00085",
@@ -9300,10 +9340,15 @@
       "end": null,
       "target_id": "XML:1906583",
       "source_hash": "f3b3284d348ee62641e632b9df0373423e3c907e9031d255a2830197294aa2f5",
-      "text": "由国土交通大臣确定",
+      "text": "（处分标准续）",
       "text_original": "由国土交通大臣确定",
-      "text_reviewed": "由国土交通大臣确定",
-      "review_status": "PENDING"
+      "text_reviewed": "（处分标准续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "补全附件3末项对未执行整改命令的停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00086",
@@ -9314,10 +9359,15 @@
       "end": null,
       "target_id": "XML:1906584",
       "source_hash": "aaf25d1dc4a735bd0c6aee8e25970ce4627a576e9ff8c14107611a0af04a5421",
-      "text": "30天",
+      "text": "30日",
       "text_original": "30天",
-      "text_reviewed": "30天",
-      "review_status": "PENDING"
+      "text_reviewed": "30日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "补全附件3末项对未执行整改命令的停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00087",
@@ -9328,10 +9378,15 @@
       "end": null,
       "target_id": "XML:1906585",
       "source_hash": "dc8c86b5bbd150807c03c6ad18d1a508a62fa5241d72f56ea78063a4af14ac65",
-      "text": "60 天",
+      "text": "60日",
       "text_original": "60 天",
-      "text_reviewed": "60 天",
-      "review_status": "PENDING"
+      "text_reviewed": "60日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "补全附件3末项对未执行整改命令的停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00088",
@@ -9342,10 +9397,15 @@
       "end": null,
       "target_id": "XML:1906586",
       "source_hash": "d85851858d06af8258eb751e807caf602208c73e50a8f4418f94bee59fdbf166",
-      "text": "90天",
+      "text": "90日",
       "text_original": "90天",
-      "text_reviewed": "90天",
-      "review_status": "PENDING"
+      "text_reviewed": "90日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "补全附件3末项对未执行整改命令的停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00089",
@@ -9356,10 +9416,15 @@
       "end": null,
       "target_id": "XML:1906587",
       "source_hash": "14c5500e9237194c8b4496ab0499c1616fa5a98688d243175c18205dd2ff71bf",
-      "text": "是",
+      "text": "（第4次及以上违法）",
       "text_original": "是",
-      "text_reviewed": "是",
-      "review_status": "PENDING"
+      "text_reviewed": "（第4次及以上违法）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "补全附件3末项对未执行整改命令的停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00090",
@@ -9370,10 +9435,15 @@
       "end": null,
       "target_id": "XML:1906588",
       "source_hash": "bd96d3add8302c5d56ca06e91fd5c13d83b8266e09fd7686e6bf1b9236b2659e",
-      "text": "值未设置，则",
+      "text": "撤销许可",
       "text_original": "值未设置，则",
-      "text_reviewed": "值未设置，则",
-      "review_status": "PENDING"
+      "text_reviewed": "撤销许可",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "补全附件3末项对未执行整改命令的停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00001",
@@ -10771,10 +10841,15 @@
       "end": null,
       "target_id": "XML:1906666",
       "source_hash": "32555f5ba712b1fdaf7403eff6d1a96ae377fd2bf903937b5ac1adc275c9b0e8",
-      "text": "部分",
+      "text": "停止部分事业",
       "text_original": "部分",
-      "text_reviewed": "部分",
-      "review_status": "PENDING"
+      "text_reviewed": "停止部分事业",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "补全附件4第三项对造成他人损害或交通危险的处分标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00075",
@@ -10785,10 +10860,15 @@
       "end": null,
       "target_id": "XML:1906667",
       "source_hash": "32555f5ba712b1fdaf7403eff6d1a96ae377fd2bf903937b5ac1adc275c9b0e8",
-      "text": "一些",
+      "text": "停止部分事业",
       "text_original": "一些",
-      "text_reviewed": "一些",
-      "review_status": "PENDING"
+      "text_reviewed": "停止部分事业",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "补全附件4第三项对造成他人损害或交通危险的处分标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00076",
@@ -10799,10 +10879,15 @@
       "end": null,
       "target_id": "XML:1906668",
       "source_hash": "be876433993ab7ba221512b5703b32060626f390aa50d7ed464a847a34539a6c",
-      "text": "取消",
+      "text": "撤销指定",
       "text_original": "取消",
-      "text_reviewed": "取消",
-      "review_status": "PENDING"
+      "text_reviewed": "撤销指定",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "补全附件4第三项对造成他人损害或交通危险的处分标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00077",
@@ -10813,10 +10898,15 @@
       "end": null,
       "target_id": "XML:1906669",
       "source_hash": "4f04bc1ef9eb7082cf88e44b560bf98aada5ce1b082a52c07e554d7f32d01127",
-      "text": "造成交通隐患",
+      "text": "造成交通危险",
       "text_original": "造成交通隐患",
-      "text_reviewed": "造成交通隐患",
-      "review_status": "PENDING"
+      "text_reviewed": "造成交通危险",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "补全附件4第三项对造成他人损害或交通危险的处分标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00078",
@@ -10827,10 +10917,15 @@
       "end": null,
       "target_id": "XML:1906673",
       "source_hash": "12d8997039c1a8677b1d355a3eb8d4fe3152eef6b0f9d16e384304d371c3c842",
-      "text": "，则生成了",
+      "text": "的情形",
       "text_original": "，则生成了",
-      "text_reviewed": "，则生成了",
-      "review_status": "PENDING"
+      "text_reviewed": "的情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "补全附件4第三项对造成他人损害或交通危险的处分标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00079",
@@ -10841,10 +10936,15 @@
       "end": null,
       "target_id": "XML:1906674",
       "source_hash": "aaf25d1dc4a735bd0c6aee8e25970ce4627a576e9ff8c14107611a0af04a5421",
-      "text": "30天",
+      "text": "30日",
       "text_original": "30天",
-      "text_reviewed": "30天",
-      "review_status": "PENDING"
+      "text_reviewed": "30日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "补全附件4第三项对造成他人损害或交通危险的处分标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00080",
@@ -10855,10 +10955,15 @@
       "end": null,
       "target_id": "XML:1906675",
       "source_hash": "dc8c86b5bbd150807c03c6ad18d1a508a62fa5241d72f56ea78063a4af14ac65",
-      "text": "60天",
+      "text": "60日",
       "text_original": "60天",
-      "text_reviewed": "60天",
-      "review_status": "PENDING"
+      "text_reviewed": "60日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "补全附件4第三项对造成他人损害或交通危险的处分标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00081",
@@ -10869,10 +10974,15 @@
       "end": null,
       "target_id": "XML:1906676",
       "source_hash": "6631a1c0bab75cfb449f293b4b35597e3ad4bd0f85264e6042d16f3dd1956d37",
-      "text": "120 天",
+      "text": "120日",
       "text_original": "120 天",
-      "text_reviewed": "120 天",
-      "review_status": "PENDING"
+      "text_reviewed": "120日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "补全附件4第三项对造成他人损害或交通危险的处分标准。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00001",
