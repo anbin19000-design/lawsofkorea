@@ -1,0 +1,48 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "documents": [
+    "A26693",
+    "A26701"
+  ],
+  "quality_checked_rows": 2,
+  "quality_passed_rows": 0,
+  "quality_failed_rows": 2,
+  "quality_checked_ids": [
+    "A26693-zh-00007",
+    "A26701-zh-00007"
+  ],
+  "results": [
+    {
+      "id": "A26693-zh-00007",
+      "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
+      "verdict": "CORRECT_MTQ",
+      "adopted_text": "处理期限",
+      "reason": "Korean 처리기간 80일(연장시 110일); next Chinese cell retains duration. Remove MTQ marker from heading only."
+    },
+    {
+      "id": "A26701-zh-00007",
+      "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
+      "verdict": "CORRECT_MTQ",
+      "adopted_text": "处理期限",
+      "reason": "Korean 처리기간 7일; next Chinese cell retains 7天. Remove MTQ marker from heading only."
+    }
+  ],
+  "edits": [
+    {
+      "id": "A26693-zh-00007",
+      "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
+      "text": "处理期限"
+    },
+    {
+      "id": "A26701-zh-00007",
+      "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
+      "text": "处理期限"
+    }
+  ],
+  "note": "Source hashes preserved, prior corrections retained; two previously uncorrected MTQ labels repaired after direct original Korean comparison; family review IN_PROGRESS. Other rows are not marked checked."
+}
