@@ -1,0 +1,68 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26698",
+  "quality_batch": "A26698-quality-fix-01",
+  "range": {
+    "first": "A26698-zh-00008",
+    "last": "A26698-zh-00010"
+  },
+  "quality_checked_rows": 2,
+  "quality_passed_rows": 2,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "A26698-zh-00008",
+    "A26698-zh-00010"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26698-00001-00013.json",
+  "prior_quality_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26698-quality-01.json",
+  "supersedes_prior_edits": [
+    {
+      "id": "A26698-zh-00008",
+      "prior_text": "领证人签名",
+      "new_text": "签发人签名"
+    },
+    {
+      "id": "A26698-zh-00010",
+      "prior_text": "交还人签名",
+      "new_text": "签发人签名"
+    }
+  ],
+  "results": [
+    {
+      "id": "A26698-zh-00008",
+      "source_hash": "a7bf7464206d1e8a009c314009762340e847a5215e2692c332d97762fca91d9a",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "한국어 발급자 서명과 중국어 签发人签名 대응을 복원하고 앞선 품질 오류를 해소"
+    },
+    {
+      "id": "A26698-zh-00010",
+      "source_hash": "a7bf7464206d1e8a009c314009762340e847a5215e2692c332d97762fca91d9a",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "한국어 발급자 서명과 중국어 签发人签名 대응을 복원하고 앞선 품질 오류를 해소"
+    }
+  ],
+  "edits": [
+    {
+      "id": "A26698-zh-00008",
+      "source_hash": "a7bf7464206d1e8a009c314009762340e847a5215e2692c332d97762fca91d9a",
+      "text": "签发人签名"
+    },
+    {
+      "id": "A26698-zh-00010",
+      "source_hash": "a7bf7464206d1e8a009c314009762340e847a5215e2692c332d97762fca91d9a",
+      "text": "签发人签名"
+    }
+  ],
+  "note": "원본 A26698 발급자 서명 표기 두 행의 중국어 주체를 수정. 기존 교정은 덮어쓰지 않고 새 품질 판정 파일로 우선 적용할 교정문 명시. 1136행 COMPLETE 아님."
+}
