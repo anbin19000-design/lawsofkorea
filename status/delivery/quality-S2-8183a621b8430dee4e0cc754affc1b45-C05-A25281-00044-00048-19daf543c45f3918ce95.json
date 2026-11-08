@@ -1,0 +1,32 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-3705abbc710de4b867bc",
+  "worker": "C05",
+  "branch": "main",
+  "source_blobs": {
+    "ko": "7974bf81d14f4838ae85d4b3ceea80a2f0e65fed",
+    "zh": "045dd328cd77f3eecd8b6cd485be27f2389773e8"
+  },
+  "document_key": "A25281",
+  "document_source_hash": "ca931435b1a64e904be69a6b80ff968e3075ab68579abd97aec7275f25ff64bf",
+  "checked_ids": [
+    "A25281-zh-00044",
+    "A25281-zh-00045",
+    "A25281-zh-00046",
+    "A25281-zh-00047",
+    "A25281-zh-00048"
+  ],
+  "checked_rows": 5,
+  "adopted_edits": [
+    {
+      "id": "A25281-zh-00045",
+      "text": "受理"
+    },
+    {
+      "id": "A25281-zh-00047",
+      "text": "填写免除认证确认书"
+    }
+  ],
+  "status": "QUALITY_PARTIAL",
+  "note": "Compared Korean form process flow: 처리 절차, 접수, 확인 및 결재, 면제확인서 작성, 면제확인서 발급. Corrected 接收 step wrongly rendered as receipt (收据), and restored the missing document concept in 작성. 44,46,48 retained. No family COMPLETE or receipt issued."
+}
