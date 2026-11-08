@@ -19,10 +19,10 @@
   "progress": {
     "korean": "COMPLETE",
     "english": "COMPLETE",
-    "chinese": "IN_PROGRESS; B1 and B2 fully reviewed; B3 main articles 1-26 reviewed/corrected. B3-zh-00027 includes appendix content not present in Korean B3 source text or English row references (English only titles appendices); leave pending for source reconciliation. Next: review Decree appendices A39652-A39656, then all 22 rule forms A27040-A27061.",
-    "reviewed_rows": 103,
-    "corrected_rows": 72,
-    "remaining_rows": 1172
+    "chinese": "IN_PROGRESS; B1/B2 fully reviewed; B3 main Articles 1-25 reviewed, but B3-00027 annex body awaits source reconciliation; all Decree appendices A39652-A39656 corrected/reviewed. Next: all 22 forms A27040-A27061.",
+    "reviewed_rows": 285,
+    "corrected_rows": 254,
+    "remaining_rows": 990
   },
   "documents": [],
   "rows": [
@@ -1597,10 +1597,15 @@
       "end": null,
       "target_id": "XML:2872803",
       "source_hash": "b95727569f4c95916fedf6f0b9bab5447cc98c2ae10b207b98e26208b92e3a6e",
-      "text": "■ 城市空中交通促进支援法实施令 [附表1]",
+      "text": "■《促进和支持城市空中交通利用法施行令》[附件1]",
       "text_original": "■ 城市空中交通促进支援法实施令 [附表1]",
-      "text_reviewed": "■ 城市空中交通促进支援法实施令 [附表1]",
-      "review_status": "PENDING"
+      "text_reviewed": "■《促进和支持城市空中交通利用法施行令》[附件1]",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件1设施名称存在多处明显误译（滑行道、停机坪等）及法令名称错误，依韩国施行令附件1逐项订正。"
+        }
+      ]
     },
     {
       "id": "A39652-zh-00002",
@@ -1611,10 +1616,15 @@
       "end": null,
       "target_id": "XML:2872804",
       "source_hash": "6d8d40212d425a94c21f4b76a1694466b38d01b7ed8c832a09c9bb5b440f7372",
-      "text": "垂直起降场设施（与第2条相关）",
+      "text": "垂直起降场设施（与第2条有关）",
       "text_original": "垂直起降场设施（与第2条相关）",
-      "text_reviewed": "垂直起降场设施（与第2条相关）",
-      "review_status": "PENDING"
+      "text_reviewed": "垂直起降场设施（与第2条有关）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件1设施名称存在多处明显误译（滑行道、停机坪等）及法令名称错误，依韩国施行令附件1逐项订正。"
+        }
+      ]
     },
     {
       "id": "A39652-zh-00003",
@@ -1625,10 +1635,15 @@
       "end": null,
       "target_id": "XML:2872805",
       "source_hash": "67b0477c476819803d9b7a86696d15a13cf772ed0961abb706c4bda24bb97d14",
-      "text": "1. 基本设施",
+      "text": "1. 必备设施",
       "text_original": "1. 基本设施",
-      "text_reviewed": "1. 基本设施",
-      "review_status": "PENDING"
+      "text_reviewed": "1. 必备设施",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件1设施名称存在多处明显误译（滑行道、停机坪等）及法令名称错误，依韩国施行令附件1逐项订正。"
+        }
+      ]
     },
     {
       "id": "A39652-zh-00004",
@@ -1639,10 +1654,15 @@
       "end": null,
       "target_id": "XML:2872806",
       "source_hash": "6c9637f1b9eab283ecc8a68e7311dcc67ac7ee0587ea020e6d8becb820ce33e2",
-      "text": "a. 着陆和起飞区域 (TLOF)",
+      "text": "a. 接地和离地区域（TLOF，Touchdown and Lift-off Area）",
       "text_original": "a. 着陆和起飞区域 (TLOF)",
-      "text_reviewed": "a. 着陆和起飞区域 (TLOF)",
-      "review_status": "PENDING"
+      "text_reviewed": "a. 接地和离地区域（TLOF，Touchdown and Lift-off Area）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件1设施名称存在多处明显误译（滑行道、停机坪等）及法令名称错误，依韩国施行令附件1逐项订正。"
+        }
+      ]
     },
     {
       "id": "A39652-zh-00005",
@@ -1653,10 +1673,15 @@
       "end": null,
       "target_id": "XML:2872807",
       "source_hash": "c3c3412881f1287cfe02d6c1e3c5526f13e1d8fd927303f7dec5d774e3298d45",
-      "text": "B. 最后进近和起飞区域 (FATO)",
+      "text": "b. 最终进近和起飞区域（FATO，Final Approach and Take-off Area）",
       "text_original": "B. 最后进近和起飞区域 (FATO)",
-      "text_reviewed": "B. 最后进近和起飞区域 (FATO)",
-      "review_status": "PENDING"
+      "text_reviewed": "b. 最终进近和起飞区域（FATO，Final Approach and Take-off Area）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件1设施名称存在多处明显误译（滑行道、停机坪等）及法令名称错误，依韩国施行令附件1逐项订正。"
+        }
+      ]
     },
     {
       "id": "A39652-zh-00006",
@@ -1667,10 +1692,15 @@
       "end": null,
       "target_id": "XML:2872808",
       "source_hash": "03f5257cc8f9c2ac4fdd711c358ecb86eeef138fb3e0899b31698ed0a4d572aa",
-      "text": "。安全区（围绕最后进近和起飞区的区域，离开该区域后",
+      "text": "c. 安全区（指围绕最终进近和起飞区域设置、用于降低航空器偏离该区域后受损风险的区域）",
       "text_original": "。安全区（围绕最后进近和起飞区的区域，离开该区域后",
-      "text_reviewed": "。安全区（围绕最后进近和起飞区的区域，离开该区域后",
-      "review_status": "PENDING"
+      "text_reviewed": "c. 安全区（指围绕最终进近和起飞区域设置、用于降低航空器偏离该区域后受损风险的区域）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件1设施名称存在多处明显误译（滑行道、停机坪等）及法令名称错误，依韩国施行令附件1逐项订正。"
+        }
+      ]
     },
     {
       "id": "A39652-zh-00007",
@@ -1681,10 +1711,15 @@
       "end": null,
       "target_id": "XML:2872809",
       "source_hash": "845f450818a167898ca30a346e142f0e42a137691dbdc7af54ced9c60461cd34",
-      "text": "（指为降低飞机受损风险而设立的区域）",
+      "text": "（上述安全区的定义续）",
       "text_original": "（指为降低飞机受损风险而设立的区域）",
-      "text_reviewed": "（指为降低飞机受损风险而设立的区域）",
-      "review_status": "PENDING"
+      "text_reviewed": "（上述安全区的定义续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件1设施名称存在多处明显误译（滑行道、停机坪等）及法令名称错误，依韩国施行令附件1逐项订正。"
+        }
+      ]
     },
     {
       "id": "A39652-zh-00008",
@@ -1695,10 +1730,15 @@
       "end": null,
       "target_id": "XML:2872810",
       "source_hash": "41db49574100257a0decd4184f326519e2d268da5d25aad6a4adffa6b7d7691e",
-      "text": "d. 客运航站楼或货运航站楼（根据《交通运输法》第2条第8款(a)项规定的城市航空运输）",
+      "text": "d. 旅客航站楼或货运航站楼（仅限用于本法第2条第8号a目规定的城市空中交通运输事业）",
       "text_original": "d. 客运航站楼或货运航站楼（根据《交通运输法》第2条第8款(a)项规定的城市航空运输）",
-      "text_reviewed": "d. 客运航站楼或货运航站楼（根据《交通运输法》第2条第8款(a)项规定的城市航空运输）",
-      "review_status": "PENDING"
+      "text_reviewed": "d. 旅客航站楼或货运航站楼（仅限用于本法第2条第8号a目规定的城市空中交通运输事业）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件1设施名称存在多处明显误译（滑行道、停机坪等）及法令名称错误，依韩国施行令附件1逐项订正。"
+        }
+      ]
     },
     {
       "id": "A39652-zh-00009",
@@ -1709,10 +1749,15 @@
       "end": null,
       "target_id": "XML:2872811",
       "source_hash": "4447b100aae29fd942dccc7bb031b500c26b9efce3473d905d0a458d3458012e",
-      "text": "（仅限项目使用）",
+      "text": "（仅限上述城市空中交通运输事业用途）",
       "text_original": "（仅限项目使用）",
-      "text_reviewed": "（仅限项目使用）",
-      "review_status": "PENDING"
+      "text_reviewed": "（仅限上述城市空中交通运输事业用途）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件1设施名称存在多处明显误译（滑行道、停机坪等）及法令名称错误，依韩国施行令附件1逐项订正。"
+        }
+      ]
     },
     {
       "id": "A39652-zh-00010",
@@ -1723,10 +1768,15 @@
       "end": null,
       "target_id": "XML:2872812",
       "source_hash": "c97dc572487d596958aeecd27e4c2a2f17e1d9e015e3501bb0628dc9834dc45c",
-      "text": "E. 此外，作为所有垂直起降场都必须具备的基本设施，国家",
+      "text": "e. 国土交通部令规定的、所有垂直起降场均必须具备的其他设施",
       "text_original": "E. 此外，作为所有垂直起降场都必须具备的基本设施，国家",
-      "text_reviewed": "E. 此外，作为所有垂直起降场都必须具备的基本设施，国家",
-      "review_status": "PENDING"
+      "text_reviewed": "e. 国土交通部令规定的、所有垂直起降场均必须具备的其他设施",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件1设施名称存在多处明显误译（滑行道、停机坪等）及法令名称错误，依韩国施行令附件1逐项订正。"
+        }
+      ]
     },
     {
       "id": "A39652-zh-00011",
@@ -1737,10 +1787,15 @@
       "end": null,
       "target_id": "XML:2872813",
       "source_hash": "63feced3ff2af91c9aebae457246889a212120c800abe3db86a97cb23b7eec95",
-      "text": "根据国土交通省条例规定的设施",
+      "text": "（必备设施规定续）",
       "text_original": "根据国土交通省条例规定的设施",
-      "text_reviewed": "根据国土交通省条例规定的设施",
-      "review_status": "PENDING"
+      "text_reviewed": "（必备设施规定续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件1设施名称存在多处明显误译（滑行道、停机坪等）及法令名称错误，依韩国施行令附件1逐项订正。"
+        }
+      ]
     },
     {
       "id": "A39652-zh-00012",
@@ -1751,10 +1806,15 @@
       "end": null,
       "target_id": "XML:2872814",
       "source_hash": "7a4ee9780d03833fb0bf5c18ee4024f54c56860a6021e76232549763a077d7ce",
-      "text": "2. 基本支持设施",
+      "text": "2. 必备支持设施",
       "text_original": "2. 基本支持设施",
-      "text_reviewed": "2. 基本支持设施",
-      "review_status": "PENDING"
+      "text_reviewed": "2. 必备支持设施",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件1设施名称存在多处明显误译（滑行道、停机坪等）及法令名称错误，依韩国施行令附件1逐项订正。"
+        }
+      ]
     },
     {
       "id": "A39652-zh-00013",
@@ -1765,10 +1825,15 @@
       "end": null,
       "target_id": "XML:2872815",
       "source_hash": "780de6ad3e64e066a17fe547dca32ecf825eb78eb33a499d64bba1d913e8aa55",
-      "text": "a. 感应",
+      "text": "a. 滑行道",
       "text_original": "a. 感应",
-      "text_reviewed": "a. 感应",
-      "review_status": "PENDING"
+      "text_reviewed": "a. 滑行道",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件1设施名称存在多处明显误译（滑行道、停机坪等）及法令名称错误，依韩国施行令附件1逐项订正。"
+        }
+      ]
     },
     {
       "id": "A39652-zh-00014",
@@ -1779,10 +1844,15 @@
       "end": null,
       "target_id": "XML:2872816",
       "source_hash": "e2a2f8065b83c4f73f9e73d3f4dfe0af705130a2f135ddd29ff151c692826ddf",
-      "text": "B. 系泊",
+      "text": "b. 停机坪",
       "text_original": "B. 系泊",
-      "text_reviewed": "B. 系泊",
-      "review_status": "PENDING"
+      "text_reviewed": "b. 停机坪",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件1设施名称存在多处明显误译（滑行道、停机坪等）及法令名称错误，依韩国施行令附件1逐项订正。"
+        }
+      ]
     },
     {
       "id": "A39652-zh-00015",
@@ -1793,10 +1863,15 @@
       "end": null,
       "target_id": "XML:2872817",
       "source_hash": "71789b27ef8116c2860456f5d9b5af8cb8f848d481d88d75b6ef784afebb93c3",
-      "text": ". 城市飞机和地面处理设备的检查、维护等设施",
+      "text": "c. 用于城市航空器及地面保障设备检查、维修等的设施",
       "text_original": ". 城市飞机和地面处理设备的检查、维护等设施",
-      "text_reviewed": ". 城市飞机和地面处理设备的检查、维护等设施",
-      "review_status": "PENDING"
+      "text_reviewed": "c. 用于城市航空器及地面保障设备检查、维修等的设施",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件1设施名称存在多处明显误译（滑行道、停机坪等）及法令名称错误，依韩国施行令附件1逐项订正。"
+        }
+      ]
     },
     {
       "id": "A39652-zh-00016",
@@ -1807,10 +1882,15 @@
       "end": null,
       "target_id": "XML:2872818",
       "source_hash": "b162aa37683845403e3f2fee35406c6bb2aed4ed8bdec1daece4832311b5a5bf",
-      "text": "d. 城市飞机充电设施和电池存储与管理设施",
+      "text": "d. 城市航空器充电设施及电池储存、管理设施",
       "text_original": "d. 城市飞机充电设施和电池存储与管理设施",
-      "text_reviewed": "d. 城市飞机充电设施和电池存储与管理设施",
-      "review_status": "PENDING"
+      "text_reviewed": "d. 城市航空器充电设施及电池储存、管理设施",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件1设施名称存在多处明显误译（滑行道、停机坪等）及法令名称错误，依韩国施行令附件1逐项订正。"
+        }
+      ]
     },
     {
       "id": "A39652-zh-00017",
@@ -1821,10 +1901,15 @@
       "end": null,
       "target_id": "XML:2872819",
       "source_hash": "e05a986f9bfc2929b303ec0a27caec5e0ac3d089864dbc0cae68d0b90594f01b",
-      "text": "e. 此外，连接到城市空中交通走廊的多个垂直起降场中的一个或多个",
+      "text": "e. 国土交通部令规定的、连接城市空中交通走廊的多个垂直起降场中至少一个应配备的其他设施",
       "text_original": "e. 此外，连接到城市空中交通走廊的多个垂直起降场中的一个或多个",
-      "text_reviewed": "e. 此外，连接到城市空中交通走廊的多个垂直起降场中的一个或多个",
-      "review_status": "PENDING"
+      "text_reviewed": "e. 国土交通部令规定的、连接城市空中交通走廊的多个垂直起降场中至少一个应配备的其他设施",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件1设施名称存在多处明显误译（滑行道、停机坪等）及法令名称错误，依韩国施行令附件1逐项订正。"
+        }
+      ]
     },
     {
       "id": "A39652-zh-00018",
@@ -1835,10 +1920,15 @@
       "end": null,
       "target_id": "XML:2872820",
       "source_hash": "97f83877e4cfbc85f682225d73f1eb12dd81d62682514672b9308b5acb509359",
-      "text": "根据国土交通省条例规定，垂直起降场必须配备的设施",
+      "text": "（必备支持设施规定续）",
       "text_original": "根据国土交通省条例规定，垂直起降场必须配备的设施",
-      "text_reviewed": "根据国土交通省条例规定，垂直起降场必须配备的设施",
-      "review_status": "PENDING"
+      "text_reviewed": "（必备支持设施规定续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件1设施名称存在多处明显误译（滑行道、停机坪等）及法令名称错误，依韩国施行令附件1逐项订正。"
+        }
+      ]
     },
     {
       "id": "A39652-zh-00019",
@@ -1852,7 +1942,12 @@
       "text": "3. 附加设施",
       "text_original": "3. 附加设施",
       "text_reviewed": "3. 附加设施",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件1设施名称存在多处明显误译（滑行道、停机坪等）及法令名称错误，依韩国施行令附件1逐项订正。"
+        }
+      ]
     },
     {
       "id": "A39652-zh-00020",
@@ -1863,10 +1958,15 @@
       "end": null,
       "target_id": "XML:2872822",
       "source_hash": "04029a581945141a69f8d90951ca852ed5c20dbd476ab2cd479101dee5c4271a",
-      "text": "a. 垂直起降场运行和管理设施，用于垂直起降场的运行和维护",
+      "text": "a. 用于垂直起降场运营、维护及维修的运营管理设施",
       "text_original": "a. 垂直起降场运行和管理设施，用于垂直起降场的运行和维护",
-      "text_reviewed": "a. 垂直起降场运行和管理设施，用于垂直起降场的运行和维护",
-      "review_status": "PENDING"
+      "text_reviewed": "a. 用于垂直起降场运营、维护及维修的运营管理设施",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件1设施名称存在多处明显误译（滑行道、停机坪等）及法令名称错误，依韩国施行令附件1逐项订正。"
+        }
+      ]
     },
     {
       "id": "A39652-zh-00021",
@@ -1877,10 +1977,15 @@
       "end": null,
       "target_id": "XML:2872823",
       "source_hash": "92eef971e768c4218fe098f64b1da471ebde597daec61b2effec74c9d4f22029",
-      "text": "B. 垂直起降场用户便利设施和员工福利设施",
+      "text": "b. 垂直起降场使用者便利设施及工作人员福利设施",
       "text_original": "B. 垂直起降场用户便利设施和员工福利设施",
-      "text_reviewed": "B. 垂直起降场用户便利设施和员工福利设施",
-      "review_status": "PENDING"
+      "text_reviewed": "b. 垂直起降场使用者便利设施及工作人员福利设施",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件1设施名称存在多处明显误译（滑行道、停机坪等）及法令名称错误，依韩国施行令附件1逐项订正。"
+        }
+      ]
     },
     {
       "id": "A39652-zh-00022",
@@ -1891,10 +1996,15 @@
       "end": null,
       "target_id": "XML:2872824",
       "source_hash": "18876e229f523e4b65031069203e4221cbdcf4b441f36b018c1be78e3f4a7e12",
-      "text": "。为垂直起降场用户提供商业、住宿、零售、娱乐、体育、展览和观景设施。",
+      "text": "c. 为垂直起降场使用者提供的办公、住宿、销售、娱乐、运动、展览及观览集会设施",
       "text_original": "。为垂直起降场用户提供商业、住宿、零售、娱乐、体育、展览和观景设施。",
-      "text_reviewed": "。为垂直起降场用户提供商业、住宿、零售、娱乐、体育、展览和观景设施。",
-      "review_status": "PENDING"
+      "text_reviewed": "c. 为垂直起降场使用者提供的办公、住宿、销售、娱乐、运动、展览及观览集会设施",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件1设施名称存在多处明显误译（滑行道、停机坪等）及法令名称错误，依韩国施行令附件1逐项订正。"
+        }
+      ]
     },
     {
       "id": "A39652-zh-00023",
@@ -1905,10 +2015,15 @@
       "end": null,
       "target_id": "XML:2872825",
       "source_hash": "baf12e06e5f592c32ca33a7359edc3d039f5a998ef2e7010cb5dbb28f93b13c7",
-      "text": "公司设施",
+      "text": "（附加设施规定续）",
       "text_original": "公司设施",
-      "text_reviewed": "公司设施",
-      "review_status": "PENDING"
+      "text_reviewed": "（附加设施规定续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件1设施名称存在多处明显误译（滑行道、停机坪等）及法令名称错误，依韩国施行令附件1逐项订正。"
+        }
+      ]
     },
     {
       "id": "A39652-zh-00024",
@@ -1919,10 +2034,15 @@
       "end": null,
       "target_id": "XML:2872826",
       "source_hash": "bdc86e1b060116f2442e3fcffb2b363fa0d53c3f38b49573483dbb242c167db6",
-      "text": "a. 垂直起降场运营与管理、城市空中交通运输业务及相关业务",
+      "text": "d. 垂直起降场运营管理、城市空中交通运输事业及相关事业所需建筑物的附属设施",
       "text_original": "a. 垂直起降场运营与管理、城市空中交通运输业务及相关业务",
-      "text_reviewed": "a. 垂直起降场运营与管理、城市空中交通运输业务及相关业务",
-      "review_status": "PENDING"
+      "text_reviewed": "d. 垂直起降场运营管理、城市空中交通运输事业及相关事业所需建筑物的附属设施",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件1设施名称存在多处明显误译（滑行道、停机坪等）及法令名称错误，依韩国施行令附件1逐项订正。"
+        }
+      ]
     },
     {
       "id": "A39652-zh-00025",
@@ -1933,10 +2053,15 @@
       "end": null,
       "target_id": "XML:2872827",
       "source_hash": "377ba4a570f76a8b8355bbc7e2bd82f05314e7dda6a405c8fce55adc14730949",
-      "text": "附属于所需建筑物的设施",
+      "text": "（附加设施规定续）",
       "text_original": "附属于所需建筑物的设施",
-      "text_reviewed": "附属于所需建筑物的设施",
-      "review_status": "PENDING"
+      "text_reviewed": "（附加设施规定续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件1设施名称存在多处明显误译（滑行道、停机坪等）及法令名称错误，依韩国施行令附件1逐项订正。"
+        }
+      ]
     },
     {
       "id": "A39652-zh-00026",
@@ -1947,10 +2072,15 @@
       "end": null,
       "target_id": "XML:2872828",
       "source_hash": "059484e03eb8f990ec6c2594831c1601bccfcadc7cb717f7ce9daac808c93b69",
-      "text": "e. 垂直起降场的其他运营和管理，城市空中交通工具运营支持，或客运",
+      "text": "e. 国土交通部令规定的、用于垂直起降场运营管理、支持城市航空器运行或便利旅客的其他设施",
       "text_original": "e. 垂直起降场的其他运营和管理，城市空中交通工具运营支持，或客运",
-      "text_reviewed": "e. 垂直起降场的其他运营和管理，城市空中交通工具运营支持，或客运",
-      "review_status": "PENDING"
+      "text_reviewed": "e. 国土交通部令规定的、用于垂直起降场运营管理、支持城市航空器运行或便利旅客的其他设施",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件1设施名称存在多处明显误译（滑行道、停机坪等）及法令名称错误，依韩国施行令附件1逐项订正。"
+        }
+      ]
     },
     {
       "id": "A39652-zh-00027",
@@ -1961,10 +2091,15 @@
       "end": null,
       "target_id": "XML:2872829",
       "source_hash": "1c5e86f19764ae751a8aeede25ef3c0bfa9c6342d8ff0ce32f791282711ea604",
-      "text": "根据国土交通省条例指定的便利设施",
+      "text": "（附件1结束）",
       "text_original": "根据国土交通省条例指定的便利设施",
-      "text_reviewed": "根据国土交通省条例指定的便利设施",
-      "review_status": "PENDING"
+      "text_reviewed": "（附件1结束）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件1设施名称存在多处明显误译（滑行道、停机坪等）及法令名称错误，依韩国施行令附件1逐项订正。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00001",
@@ -1975,10 +2110,15 @@
       "end": null,
       "target_id": "XML:2872830",
       "source_hash": "2e77f4230962b9b5375cc415d0d49de91fad04801c2c0b245de3ff5517da8bfe",
-      "text": "■ 城市空中交通促进支援法实施令[附录2]",
+      "text": "■《促进和支持城市空中交通利用法施行令》[附件2]",
       "text_original": "■ 城市空中交通促进支援法实施令[附录2]",
-      "text_reviewed": "■ 城市空中交通促进支援法实施令[附录2]",
-      "review_status": "PENDING"
+      "text_reviewed": "■《促进和支持城市空中交通利用法施行令》[附件2]",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00002",
@@ -1989,10 +2129,15 @@
       "end": null,
       "target_id": "XML:2872831",
       "source_hash": "70a067c0c06c873be61b0e99ec91a782405d7706c2bfad402890293ff01de8de",
-      "text": "城市空中交通示范项目运营者指定标准（与第7条相关）",
+      "text": "城市空中交通示范项目运营者指定标准（与第7条有关）",
       "text_original": "城市空中交通示范项目运营者指定标准（与第7条相关）",
-      "text_reviewed": "城市空中交通示范项目运营者指定标准（与第7条相关）",
-      "review_status": "PENDING"
+      "text_reviewed": "城市空中交通示范项目运营者指定标准（与第7条有关）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00003",
@@ -2003,10 +2148,15 @@
       "end": null,
       "target_id": "XML:2872832",
       "source_hash": "d9ae7889d90838b9e5b9e7907d293a171b72296529698b447cd7a231411cd340",
-      "text": "示范项目现场",
+      "text": "示范项目领域",
       "text_original": "示范项目现场",
-      "text_reviewed": "示范项目现场",
-      "review_status": "PENDING"
+      "text_reviewed": "示范项目领域",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00004",
@@ -2017,10 +2167,15 @@
       "end": null,
       "target_id": "XML:2872833",
       "source_hash": "a252b6e9358c2caff20badd398c65c88bcdeef431ed22fc8af301e009d50585a",
-      "text": "指定标准 MTQ34dfc47e8123f08a00412结束",
+      "text": "指定标准",
       "text_original": "指定标准 MTQ34dfc47e8123f08a00412结束",
-      "text_reviewed": "指定标准 MTQ34dfc47e8123f08a00412结束",
-      "review_status": "PENDING"
+      "text_reviewed": "指定标准",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00005",
@@ -2031,10 +2186,15 @@
       "end": null,
       "target_id": "XML:2872834",
       "source_hash": "e5b4fc75ddf3b50bc7701a41c2a5484a9ae588c263584af475ae5d5a0fab3262",
-      "text": "1. 城市飞机",
+      "text": "1. 城市航空器运行",
       "text_original": "1. 城市飞机",
-      "text_reviewed": "1. 城市飞机",
-      "review_status": "PENDING"
+      "text_reviewed": "1. 城市航空器运行",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00006",
@@ -2048,7 +2208,12 @@
       "text": "a. 设备标准",
       "text_original": "a. 设备标准",
       "text_reviewed": "a. 设备标准",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00007",
@@ -2059,10 +2224,15 @@
       "end": null,
       "target_id": "XML:2872836",
       "source_hash": "b63a77fcdfbef7a594ea536d4141204a52be72f25c05f1d27f35dcb3213035b7",
-      "text": "操作",
+      "text": "应具备",
       "text_original": "操作",
-      "text_reviewed": "操作",
-      "review_status": "PENDING"
+      "text_reviewed": "应具备",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00008",
@@ -2073,10 +2243,15 @@
       "end": null,
       "target_id": "XML:2872837",
       "source_hash": "d71891a1133841f15039269b002300cc9c2e6fdf953032071fb086930f56e389",
-      "text": "用于城市飞机运行领域的演示，例如城市飞机",
+      "text": "用于城市航空器等运行领域示范的设备",
       "text_original": "用于城市飞机运行领域的演示，例如城市飞机",
-      "text_reviewed": "用于城市飞机运行领域的演示，例如城市飞机",
-      "review_status": "PENDING"
+      "text_reviewed": "用于城市航空器等运行领域示范的设备",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00009",
@@ -2087,10 +2262,15 @@
       "end": null,
       "target_id": "XML:2872838",
       "source_hash": "948a491317e3fd265d4cb7065459a1a4d398f4c2b2edd1a62fd75ac48701b3bc",
-      "text": "装备设备",
+      "text": "（设备标准续）",
       "text_original": "装备设备",
-      "text_reviewed": "装备设备",
-      "review_status": "PENDING"
+      "text_reviewed": "（设备标准续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00010",
@@ -2101,10 +2281,15 @@
       "end": null,
       "target_id": "XML:2872839",
       "source_hash": "90812786a888a792f8c5106b7c5e36db0af81bcfe3aa3f60191236616269ad2f",
-      "text": "B. 人力标准",
+      "text": "b. 人员标准",
       "text_original": "B. 人力标准",
-      "text_reviewed": "B. 人力标准",
-      "review_status": "PENDING"
+      "text_reviewed": "b. 人员标准",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00011",
@@ -2115,10 +2300,15 @@
       "end": null,
       "target_id": "XML:2872841",
       "source_hash": "e65d29f5a822d5d5a7ed36a113a3f3f7d265647c75d0a739dd08937ffdfa2ccd",
-      "text": "保护",
+      "text": "应至少确保一名具备下列任一资格的人员：",
       "text_original": "保护",
-      "text_reviewed": "保护",
-      "review_status": "PENDING"
+      "text_reviewed": "应至少确保一名具备下列任一资格的人员：",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00012",
@@ -2129,10 +2319,15 @@
       "end": null,
       "target_id": "XML:2872842",
       "source_hash": "87ddf945b09c2791cf4a675b590f3324796a79a45c5ffdcb42b02501ee783b80",
-      "text": "1) 能够操作安全城市空中交通的飞行员",
+      "text": "1) 能够驾驶所配备城市航空器的飞行员",
       "text_original": "1) 能够操作安全城市空中交通的飞行员",
-      "text_reviewed": "1) 能够操作安全城市空中交通的飞行员",
-      "review_status": "PENDING"
+      "text_reviewed": "1) 能够驾驶所配备城市航空器的飞行员",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00013",
@@ -2143,10 +2338,15 @@
       "end": null,
       "target_id": "XML:2872843",
       "source_hash": "941cdedd6b598dedafa25fc4b0c1c93643764781553de9b35c2bd3a7dc4b05e9",
-      "text": "2) 能够维护安全城市空中交通飞机的机械师",
+      "text": "2) 能够维修所配备城市航空器的维修人员",
       "text_original": "2) 能够维护安全城市空中交通飞机的机械师",
-      "text_reviewed": "2) 能够维护安全城市空中交通飞机的机械师",
-      "review_status": "PENDING"
+      "text_reviewed": "2) 能够维修所配备城市航空器的维修人员",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00014",
@@ -2157,10 +2357,15 @@
       "end": null,
       "target_id": "XML:2872844",
       "source_hash": "5105919136ab73d300b1a46d1d691a5b5b8429cf0d6a9dfd1cefb2c7e78dea0d",
-      "text": "2. 城市空中交通",
+      "text": "2. 城市空中交通管理",
       "text_original": "2. 城市空中交通",
-      "text_reviewed": "2. 城市空中交通",
-      "review_status": "PENDING"
+      "text_reviewed": "2. 城市空中交通管理",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00015",
@@ -2174,7 +2379,12 @@
       "text": "a. 设备标准",
       "text_original": "a. 设备标准",
       "text_reviewed": "a. 设备标准",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00016",
@@ -2185,10 +2395,15 @@
       "end": null,
       "target_id": "XML:2872846",
       "source_hash": "29ae8f308ff1d9963b4d10a18fdb41982075acd1e2c0b84c4afa55178c4ff712",
-      "text": "管理",
+      "text": "应具备",
       "text_original": "管理",
-      "text_reviewed": "管理",
-      "review_status": "PENDING"
+      "text_reviewed": "应具备",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00017",
@@ -2199,10 +2414,15 @@
       "end": null,
       "target_id": "XML:2872847",
       "source_hash": "a2f3663341c5c2862cea3e22413d40981cf2685883748c15a2b5a2f21966ad91",
-      "text": "用于城市空中交通管理的计算机设备、通信设备和控制设备",
+      "text": "用于城市空中交通管理的计算机设备、通信设备、管制设备等",
       "text_original": "用于城市空中交通管理的计算机设备、通信设备和控制设备",
-      "text_reviewed": "用于城市空中交通管理的计算机设备、通信设备和控制设备",
-      "review_status": "PENDING"
+      "text_reviewed": "用于城市空中交通管理的计算机设备、通信设备、管制设备等",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00018",
@@ -2213,10 +2433,15 @@
       "end": null,
       "target_id": "XML:2872849",
       "source_hash": "90812786a888a792f8c5106b7c5e36db0af81bcfe3aa3f60191236616269ad2f",
-      "text": "B. 人力标准",
+      "text": "b. 人员标准",
       "text_original": "B. 人力标准",
-      "text_reviewed": "B. 人力标准",
-      "review_status": "PENDING"
+      "text_reviewed": "b. 人员标准",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00019",
@@ -2227,10 +2452,15 @@
       "end": null,
       "target_id": "XML:2872850",
       "source_hash": "480175842277f3362d1838b7efe20992f4fbafe63806b30cc185c20388ec83ef",
-      "text": "根据《航空安全法》第35条或依据该条规定，空中交通管制员",
+      "text": "至少确保一名依据《航空安全法》第35条取得航空交通管制员资格或具备同等资格的人员",
       "text_original": "根据《航空安全法》第35条或依据该条规定，空中交通管制员",
-      "text_reviewed": "根据《航空安全法》第35条或依据该条规定，空中交通管制员",
-      "review_status": "PENDING"
+      "text_reviewed": "至少确保一名依据《航空安全法》第35条取得航空交通管制员资格或具备同等资格的人员",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00020",
@@ -2241,10 +2471,15 @@
       "end": null,
       "target_id": "XML:2872851",
       "source_hash": "12ac6a2ad2ff9705bf3016346b6d244dfb25c74b211deb759fbcc5155125d3a8",
-      "text": "至少找到一名具有同等资格的人员。",
+      "text": "（人员标准续）",
       "text_original": "至少找到一名具有同等资格的人员。",
-      "text_reviewed": "至少找到一名具有同等资格的人员。",
-      "review_status": "PENDING"
+      "text_reviewed": "（人员标准续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00021",
@@ -2255,10 +2490,15 @@
       "end": null,
       "target_id": "XML:2872852",
       "source_hash": "2e7edd4ca2530eab052001a6bb0d2bbcfaabb8767793a575e9eb9258302cf2cb",
-      "text": "3。维帝福特",
+      "text": "3. 垂直起降场运营、管理",
       "text_original": "3。维帝福特",
-      "text_reviewed": "3。维帝福特",
-      "review_status": "PENDING"
+      "text_reviewed": "3. 垂直起降场运营、管理",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00022",
@@ -2272,7 +2512,12 @@
       "text": "a. 设备标准",
       "text_original": "a. 设备标准",
       "text_reviewed": "a. 设备标准",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00023",
@@ -2283,10 +2528,15 @@
       "end": null,
       "target_id": "XML:2872854",
       "source_hash": "96d747c0068b67414ac9a86192a3c78622af2675e9a7d4f7b880e6100aa7f068",
-      "text": "运营与管理",
+      "text": "应具备",
       "text_original": "运营与管理",
-      "text_reviewed": "运营与管理",
-      "review_status": "PENDING"
+      "text_reviewed": "应具备",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00024",
@@ -2297,10 +2547,15 @@
       "end": null,
       "target_id": "XML:2872855",
       "source_hash": "31053aa13cc2eae274d31ac983a84c9bbd5f81a64e4bad68a6c4f7edd96b73d4",
-      "text": "用于稳定运行和管理顶点、通信的计算机设备",
+      "text": "用于垂直起降场稳定运营、管理的计算机设备、通信设备等",
       "text_original": "用于稳定运行和管理顶点、通信的计算机设备",
-      "text_reviewed": "用于稳定运行和管理顶点、通信的计算机设备",
-      "review_status": "PENDING"
+      "text_reviewed": "用于垂直起降场稳定运营、管理的计算机设备、通信设备等",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00025",
@@ -2311,10 +2566,15 @@
       "end": null,
       "target_id": "XML:2872856",
       "source_hash": "3a74f624c36759803b207d4a2f5c2a0171b1912d0fad1628cee64eb11ec8b15c",
-      "text": "配备设备等。",
+      "text": "（设备标准续）",
       "text_original": "配备设备等。",
-      "text_reviewed": "配备设备等。",
-      "review_status": "PENDING"
+      "text_reviewed": "（设备标准续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00026",
@@ -2325,10 +2585,15 @@
       "end": null,
       "target_id": "XML:2872857",
       "source_hash": "90812786a888a792f8c5106b7c5e36db0af81bcfe3aa3f60191236616269ad2f",
-      "text": "B. 人力标准",
+      "text": "b. 人员标准",
       "text_original": "B. 人力标准",
-      "text_reviewed": "B. 人力标准",
-      "review_status": "PENDING"
+      "text_reviewed": "b. 人员标准",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00027",
@@ -2339,10 +2604,15 @@
       "end": null,
       "target_id": "XML:2872858",
       "source_hash": "abbe721b9a7919ba888f6f661e9ec521cd136ce093157765ff32083c9a8fe015",
-      "text": "确保至少有一名人员符合以下任一条件：",
+      "text": "应至少确保一名符合下列任一条件的人员：",
       "text_original": "确保至少有一名人员符合以下任一条件：",
-      "text_reviewed": "确保至少有一名人员符合以下任一条件：",
-      "review_status": "PENDING"
+      "text_reviewed": "应至少确保一名符合下列任一条件的人员：",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00028",
@@ -2353,10 +2623,15 @@
       "end": null,
       "target_id": "XML:2872859",
       "source_hash": "567e194501f106544813f19d13d5a315ab9f0149cdc54becbc06783ed41f8fbf",
-      "text": "1) 根据《航空保安法》第28条第1款和第5款，国土交通省",
+      "text": "1) 依据《航空保安法》第28条第1款及第5款，完成国土交通部长官规定的教育培训或同等教育培训，并能够执行垂直起降场安全检查监督业务的人员",
       "text_original": "1) 根据《航空保安法》第28条第1款和第5款，国土交通省",
-      "text_reviewed": "1) 根据《航空保安法》第28条第1款和第5款，国土交通省",
-      "review_status": "PENDING"
+      "text_reviewed": "1) 依据《航空保安法》第28条第1款及第5款，完成国土交通部长官规定的教育培训或同等教育培训，并能够执行垂直起降场安全检查监督业务的人员",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00029",
@@ -2367,10 +2642,15 @@
       "end": null,
       "target_id": "XML:2872860",
       "source_hash": "c9387d66d8c22a2ed7c550d42533f56c8ec840c37d7b431806c47e9a4abb49e3",
-      "text": "由贸易、工业和能源部长确定的教育和培训，或与此类教育和培训同等的教育和培训",
+      "text": "（上述人员资格续）",
       "text_original": "由贸易、工业和能源部长确定的教育和培训，或与此类教育和培训同等的教育和培训",
-      "text_reviewed": "由贸易、工业和能源部长确定的教育和培训，或与此类教育和培训同等的教育和培训",
-      "review_status": "PENDING"
+      "text_reviewed": "（上述人员资格续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00030",
@@ -2381,10 +2661,15 @@
       "end": null,
       "target_id": "XML:2872861",
       "source_hash": "c23e349c3885a2e6d499ddcc9878b30c0eb875811e93bfd026c98ced4d698e48",
-      "text": "是已完成培训并负责监督垂直起降场安全检查的人员。",
+      "text": "（能够执行垂直起降场安全检查监督业务）",
       "text_original": "是已完成培训并负责监督垂直起降场安全检查的人员。",
-      "text_reviewed": "是已完成培训并负责监督垂直起降场安全检查的人员。",
-      "review_status": "PENDING"
+      "text_reviewed": "（能够执行垂直起降场安全检查监督业务）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00031",
@@ -2395,10 +2680,15 @@
       "end": null,
       "target_id": "XML:2872862",
       "source_hash": "3ba5c8d279663609d3c4f33b7a00e8f2f4ed7d7cfd6dbbf956316e0b3c3418d3",
-      "text": "能够胜任该工作的人员",
+      "text": "（资格条件续）",
       "text_original": "能够胜任该工作的人员",
-      "text_reviewed": "能够胜任该工作的人员",
-      "review_status": "PENDING"
+      "text_reviewed": "（资格条件续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00032",
@@ -2409,10 +2699,15 @@
       "end": null,
       "target_id": "XML:2872863",
       "source_hash": "516aac5ea653b25a6c0152c6ccb88973f3541d56ef7ffde9348030286796ddd4",
-      "text": "2) 作为符合以下任何条件的人，Vertifort",
+      "text": "2) 符合下列任一条件且能够执行垂直起降场运营、管理业务的人员",
       "text_original": "2) 作为符合以下任何条件的人，Vertifort",
-      "text_reviewed": "2) 作为符合以下任何条件的人，Vertifort",
-      "review_status": "PENDING"
+      "text_reviewed": "2) 符合下列任一条件且能够执行垂直起降场运营、管理业务的人员",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00033",
@@ -2423,10 +2718,15 @@
       "end": null,
       "target_id": "XML:2872864",
       "source_hash": "20f5e8b1b808df2c04c3266837136ba9141a4c624346050ad30db7b52b77a096",
-      "text": "能够履行管理和行政职责的人员",
+      "text": "（垂直起降场运营管理人员）",
       "text_original": "能够履行管理和行政职责的人员",
-      "text_reviewed": "能够履行管理和行政职责的人员",
-      "review_status": "PENDING"
+      "text_reviewed": "（垂直起降场运营管理人员）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00034",
@@ -2437,10 +2737,15 @@
       "end": null,
       "target_id": "XML:2872865",
       "source_hash": "6b36b4040cb914a9e913d9c7c7b6f92bbf7c4464a9f4c1f0f9062550f5edef3d",
-      "text": "a) 根据《机场设施法》第47条第1款设立的导航安全设施",
+      "text": "a) 依据《机场设施法》第47条第1款规定的航空导航安全设施管理、运营及使用标准，完成该类设施管理、运营人员应接受的教育培训者",
       "text_original": "a) 根据《机场设施法》第47条第1款设立的导航安全设施",
-      "text_reviewed": "a) 根据《机场设施法》第47条第1款设立的导航安全设施",
-      "review_status": "PENDING"
+      "text_reviewed": "a) 依据《机场设施法》第47条第1款规定的航空导航安全设施管理、运营及使用标准，完成该类设施管理、运营人员应接受的教育培训者",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00035",
@@ -2451,10 +2756,15 @@
       "end": null,
       "target_id": "XML:2872866",
       "source_hash": "a7a2e310e915abee305eb11705e8b035f98984a01d751b4f34838e9fcd982771",
-      "text": "的管理、运行和使用标准，导航安全设施",
+      "text": "（教育培训完成条件续）",
       "text_original": "的管理、运行和使用标准，导航安全设施",
-      "text_reviewed": "的管理、运行和使用标准，导航安全设施",
-      "review_status": "PENDING"
+      "text_reviewed": "（教育培训完成条件续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00036",
@@ -2465,10 +2775,15 @@
       "end": null,
       "target_id": "XML:2872867",
       "source_hash": "2a2780c25dbf5ebe51054dba622875ee21d6bc3af865686cdef2a3aefc580692",
-      "text": "管理和运营人员必须完成的教育和培训",
+      "text": "（教育培训完成者）",
       "text_original": "管理和运营人员必须完成的教育和培训",
-      "text_reviewed": "管理和运营人员必须完成的教育和培训",
-      "review_status": "PENDING"
+      "text_reviewed": "（教育培训完成者）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00037",
@@ -2479,10 +2794,15 @@
       "end": null,
       "target_id": "XML:2872868",
       "source_hash": "cc2a2aed912338ea2633fd1f35a09e35488d08e978a236c152bd23e0b87961b5",
-      "text": "已完成",
+      "text": "b) 符合a目规定的教育培训的讲师",
       "text_original": "已完成",
-      "text_reviewed": "已完成",
-      "review_status": "PENDING"
+      "text_reviewed": "b) 符合a目规定的教育培训的讲师",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00038",
@@ -2493,10 +2813,15 @@
       "end": null,
       "target_id": "XML:2872869",
       "source_hash": "a7c46c19d1a9f1d1560ad3f3bd1fce002eefc8589b589a5ff5aebf48ca054f14",
-      "text": "b) 根据 a)",
+      "text": "备注",
       "text_original": "b) 根据 a)",
-      "text_reviewed": "b) 根据 a)",
-      "review_status": "PENDING"
+      "text_reviewed": "备注",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00039",
@@ -2507,10 +2832,15 @@
       "end": null,
       "target_id": "XML:2872870",
       "source_hash": "cb8c6b238f800814355e19339cd8accac66e3694f0770d65b3b95a72a190e49c",
-      "text": "备注",
+      "text": "1. 上表所列示范项目领域如下：",
       "text_original": "备注",
-      "text_reviewed": "备注",
-      "review_status": "PENDING"
+      "text_reviewed": "1. 上表所列示范项目领域如下：",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00040",
@@ -2521,10 +2851,15 @@
       "end": null,
       "target_id": "XML:2872871",
       "source_hash": "c33ce6ce4909f483edfd12b5c3b7914050012cd53315aad7787778a152ac79e9",
-      "text": "1。上表中的演示项目字段如下。",
+      "text": "a. 城市航空器运行：依据本法第7条第1款各号指定的人员中，拟就本法第2条第8号a目规定的城市空中交通运输事业或同号d目规定的城市航空器使用事业进行示范者",
       "text_original": "1。上表中的演示项目字段如下。",
-      "text_reviewed": "1。上表中的演示项目字段如下。",
-      "review_status": "PENDING"
+      "text_reviewed": "a. 城市航空器运行：依据本法第7条第1款各号指定的人员中，拟就本法第2条第8号a目规定的城市空中交通运输事业或同号d目规定的城市航空器使用事业进行示范者",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00041",
@@ -2535,10 +2870,15 @@
       "end": null,
       "target_id": "XML:2872872",
       "source_hash": "0938ce46956b3169621548fd3ae9c34ed2125636599bda623aea95fe424e24e6",
-      "text": "a. 城市航空器的运行：在符合本法第7条第1款各分项规定的范围内，以及符合本法第2条规定的范围内。",
+      "text": "（城市航空器运行领域说明续）",
       "text_original": "a. 城市航空器的运行：在符合本法第7条第1款各分项规定的范围内，以及符合本法第2条规定的范围内。",
-      "text_reviewed": "a. 城市航空器的运行：在符合本法第7条第1款各分项规定的范围内，以及符合本法第2条规定的范围内。",
-      "review_status": "PENDING"
+      "text_reviewed": "（城市航空器运行领域说明续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00042",
@@ -2549,10 +2889,15 @@
       "end": null,
       "target_id": "XML:2872873",
       "source_hash": "02f3924f66f4bf25bcc2dd6a22f33d313e1f28c26baa1ce16c16a5a7e8eb2fd6",
-      "text": "根据第8款(a)项或(d)项规定的城市航空运输业务",
+      "text": "（城市航空器使用事业）",
       "text_original": "根据第8款(a)项或(d)项规定的城市航空运输业务",
-      "text_reviewed": "根据第8款(a)项或(d)项规定的城市航空运输业务",
-      "review_status": "PENDING"
+      "text_reviewed": "（城市航空器使用事业）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00043",
@@ -2563,10 +2908,15 @@
       "end": null,
       "target_id": "XML:2872874",
       "source_hash": "8b1eea8968d3403be65a5b6e43a819ad65ffd29f8c520b1c70334c5683481197",
-      "text": "MTQ3b604215894b79b700525 拟就使用 START 型飞机业务进行演示的人员",
+      "text": "b. 城市空中交通管理：依据本法第7条第1款第2号或第3号指定的人员中，拟就本法第2条第8号b目规定的城市空中交通管理事业进行示范者",
       "text_original": "MTQ3b604215894b79b700525 拟就使用 START 型飞机业务进行演示的人员",
-      "text_reviewed": "MTQ3b604215894b79b700525 拟就使用 START 型飞机业务进行演示的人员",
-      "review_status": "PENDING"
+      "text_reviewed": "b. 城市空中交通管理：依据本法第7条第1款第2号或第3号指定的人员中，拟就本法第2条第8号b目规定的城市空中交通管理事业进行示范者",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00044",
@@ -2577,10 +2927,15 @@
       "end": null,
       "target_id": "XML:2872875",
       "source_hash": "73007e0f0869573730d46cbe21afeb13e03698d11781b048389d532d3821ccff",
-      "text": "b. 城市空中交通管理：属于《交通运输法》第7条第1款第2项或第3项所列情形之一",
+      "text": "（城市空中交通管理领域说明续）",
       "text_original": "b. 城市空中交通管理：属于《交通运输法》第7条第1款第2项或第3项所列情形之一",
-      "text_reviewed": "b. 城市空中交通管理：属于《交通运输法》第7条第1款第2项或第3项所列情形之一",
-      "review_status": "PENDING"
+      "text_reviewed": "（城市空中交通管理领域说明续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00045",
@@ -2591,10 +2946,15 @@
       "end": null,
       "target_id": "XML:2872876",
       "source_hash": "4847b2a46a2c68d26c3fdc262598b46849d56b396eb901868e487d623c414a58",
-      "text": "拟根据《交通运输法》第2条第8款B项的规定，就城市空中交通管理业务进行示范。",
+      "text": "c. 垂直起降场运营、管理：依据本法第7条第1款第2号或第3号指定的人员中，拟就本法第2条第8号c目规定的垂直起降场运营、管理事业进行示范者",
       "text_original": "拟根据《交通运输法》第2条第8款B项的规定，就城市空中交通管理业务进行示范。",
-      "text_reviewed": "拟根据《交通运输法》第2条第8款B项的规定，就城市空中交通管理业务进行示范。",
-      "review_status": "PENDING"
+      "text_reviewed": "c. 垂直起降场运营、管理：依据本法第7条第1款第2号或第3号指定的人员中，拟就本法第2条第8号c目规定的垂直起降场运营、管理事业进行示范者",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00046",
@@ -2605,10 +2965,15 @@
       "end": null,
       "target_id": "XML:2872878",
       "source_hash": "507856634ffcdb3a86c8aa6c8affe0594d1665f85955c59927a13d52813468b7",
-      "text": ". 垂直起降场运营和管理：符合《法案》第7条第1款第2项或第3项规定的人员",
+      "text": "（垂直起降场运营管理领域说明续）",
       "text_original": ". 垂直起降场运营和管理：符合《法案》第7条第1款第2项或第3项规定的人员",
-      "text_reviewed": ". 垂直起降场运营和管理：符合《法案》第7条第1款第2项或第3项规定的人员",
-      "review_status": "PENDING"
+      "text_reviewed": "（垂直起降场运营管理领域说明续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00047",
@@ -2619,10 +2984,15 @@
       "end": null,
       "target_id": "XML:2872879",
       "source_hash": "ff04c9116c5d4e9b12f72f81126e640df8e80f5121d08d0f1fdbe26dad5ab3c3",
-      "text": "在依据《法案》第二条第八款（c）项进行垂直起降场运营和管理业务示范期间",
+      "text": "2. 与设备所有人订立租赁合同等时，视为已具备该设备。",
       "text_original": "在依据《法案》第二条第八款（c）项进行垂直起降场运营和管理业务示范期间",
-      "text_reviewed": "在依据《法案》第二条第八款（c）项进行垂直起降场运营和管理业务示范期间",
-      "review_status": "PENDING"
+      "text_reviewed": "2. 与设备所有人订立租赁合同等时，视为已具备该设备。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00048",
@@ -2633,10 +3003,15 @@
       "end": null,
       "target_id": "XML:2872880",
       "source_hash": "3774c4ff28abbe0c8a233e1e5c7730360c5aec1cd57884ca7f977e73bf6a38a5",
-      "text": "打算结束",
+      "text": "（备注续）",
       "text_original": "打算结束",
-      "text_reviewed": "打算结束",
-      "review_status": "PENDING"
+      "text_reviewed": "（备注续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00049",
@@ -2647,10 +3022,15 @@
       "end": null,
       "target_id": "XML:2872881",
       "source_hash": "513ac42945f929b277155edb8513bd8075b068a8e8966507ccaab5be18d2c58c",
-      "text": "2. 如果已与设备所有者签订租赁协议等，则视为已配备该设备。",
+      "text": "3. 拟涵盖多个事业领域实施示范项目者，必须分别满足各事业领域的设备及人员标准。",
       "text_original": "2. 如果已与设备所有者签订租赁协议等，则视为已配备该设备。",
-      "text_reviewed": "2. 如果已与设备所有者签订租赁协议等，则视为已配备该设备。",
-      "review_status": "PENDING"
+      "text_reviewed": "3. 拟涵盖多个事业领域实施示范项目者，必须分别满足各事业领域的设备及人员标准。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00050",
@@ -2661,10 +3041,15 @@
       "end": null,
       "target_id": "XML:2872882",
       "source_hash": "13bbc63b146c9b71ae724f30fcd2556b05edfa0ac7f795a3ac4d935373eb3c2d",
-      "text": ".",
+      "text": "（备注续）",
       "text_original": ".",
-      "text_reviewed": ".",
-      "review_status": "PENDING"
+      "text_reviewed": "（备注续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00051",
@@ -2675,10 +3060,15 @@
       "end": null,
       "target_id": "XML:2872883",
       "source_hash": "bbd9dfa1b402c8f79c0894d8b4b1a3a0998bb696249541949647b45cf5d9d74f",
-      "text": "3. 任何拟开展涵盖多个业务领域的示范项目的人员，应配备各业务领域的设备。",
+      "text": "4. 上表所列设备及人员的详细标准，由国土交通部长官规定并公告。",
       "text_original": "3. 任何拟开展涵盖多个业务领域的示范项目的人员，应配备各业务领域的设备。",
-      "text_reviewed": "3. 任何拟开展涵盖多个业务领域的示范项目的人员，应配备各业务领域的设备。",
-      "review_status": "PENDING"
+      "text_reviewed": "4. 上表所列设备及人员的详细标准，由国土交通部长官规定并公告。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00052",
@@ -2689,10 +3079,15 @@
       "end": null,
       "target_id": "XML:2872884",
       "source_hash": "f1604fb9a3014196bfd09d3334d28063446bf9813a78355b3bcc2ae8b65e54b2",
-      "text": "和人员标准必须全部满足。",
+      "text": "（附件2结束）",
       "text_original": "和人员标准必须全部满足。",
-      "text_reviewed": "和人员标准必须全部满足。",
-      "review_status": "PENDING"
+      "text_reviewed": "（附件2结束）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文含MTQ控制标记、错译的航空器及垂直起降场术语和严重断句；按施行令附件2韩文原文逐行修复。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00053",
@@ -2731,10 +3126,15 @@
       "end": null,
       "target_id": "XML:2872887",
       "source_hash": "da55ed4b4d629059f20194031e8726883b53c9c4c4a07e8c6851e76d1d3f9138",
-      "text": "■ 城市空中交通促进支援法实施令[附录3]",
+      "text": "■《促进和支持城市空中交通利用法施行令》[附件3]",
       "text_original": "■ 城市空中交通促进支援法实施令[附录3]",
-      "text_reviewed": "■ 城市空中交通促进支援法实施令[附录3]",
-      "review_status": "PENDING"
+      "text_reviewed": "■《促进和支持城市空中交通利用法施行令》[附件3]",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件3多项分类名称错译或术语损坏，依据韩国施行令附件3更正。"
+        }
+      ]
     },
     {
       "id": "A39654-zh-00002",
@@ -2745,10 +3145,15 @@
       "end": null,
       "target_id": "XML:2872888",
       "source_hash": "32bd5269e10588cefc948c9962cb8cf0fbe3ced21d46fd64d56fe570bc1a39ff",
-      "text": "垂直起降场的分类（与第十三条第一款相关）",
+      "text": "垂直起降场的分类（与第13条第1款有关）",
       "text_original": "垂直起降场的分类（与第十三条第一款相关）",
-      "text_reviewed": "垂直起降场的分类（与第十三条第一款相关）",
-      "review_status": "PENDING"
+      "text_reviewed": "垂直起降场的分类（与第13条第1款有关）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件3多项分类名称错译或术语损坏，依据韩国施行令附件3更正。"
+        }
+      ]
     },
     {
       "id": "A39654-zh-00003",
@@ -2759,10 +3164,15 @@
       "end": null,
       "target_id": "XML:2872889",
       "source_hash": "6c991b6355005d326270f03a6e00a603595fb4046349a8130b159cb56456f7c6",
-      "text": "1. 按起飞和着陆区分类",
+      "text": "1. 按起飞、着陆区域分类",
       "text_original": "1. 按起飞和着陆区分类",
-      "text_reviewed": "1. 按起飞和着陆区分类",
-      "review_status": "PENDING"
+      "text_reviewed": "1. 按起飞、着陆区域分类",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件3多项分类名称错译或术语损坏，依据韩国施行令附件3更正。"
+        }
+      ]
     },
     {
       "id": "A39654-zh-00004",
@@ -2773,10 +3183,15 @@
       "end": null,
       "target_id": "XML:2872890",
       "source_hash": "28f815a7718ad6a18b7f5d663471f08312b519ca9bccc62a92dc208f34093bc4",
-      "text": "用于城市飞机起降的指定陆地或水域区域",
+      "text": "根据用于城市航空器起飞、着陆的特定陆地或水面区域，对垂直起降场作如下细分：",
       "text_original": "用于城市飞机起降的指定陆地或水域区域",
-      "text_reviewed": "用于城市飞机起降的指定陆地或水域区域",
-      "review_status": "PENDING"
+      "text_reviewed": "根据用于城市航空器起飞、着陆的特定陆地或水面区域，对垂直起降场作如下细分：",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件3多项分类名称错译或术语损坏，依据韩国施行令附件3更正。"
+        }
+      ]
     },
     {
       "id": "A39654-zh-00005",
@@ -2787,10 +3202,15 @@
       "end": null,
       "target_id": "XML:2872891",
       "source_hash": "015b86f1867aefa74862fe7ca088f471e81405f0b9000dd2f5a4005e39295b37",
-      "text": "根据  标准，垂直起降场的详细分类如下：",
+      "text": "a. 陆上垂直起降场",
       "text_original": "根据  标准，垂直起降场的详细分类如下：",
-      "text_reviewed": "根据  标准，垂直起降场的详细分类如下：",
-      "review_status": "PENDING"
+      "text_reviewed": "a. 陆上垂直起降场",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件3多项分类名称错译或术语损坏，依据韩国施行令附件3更正。"
+        }
+      ]
     },
     {
       "id": "A39654-zh-00006",
@@ -2801,10 +3221,15 @@
       "end": null,
       "target_id": "XML:2872892",
       "source_hash": "0c06837fbf002575bc63595f7e1c4abd8eb41aa9857d3cdd66194cc8b78054bc",
-      "text": "a. 陆地垂直起降场",
+      "text": "b. 屋顶垂直起降场",
       "text_original": "a. 陆地垂直起降场",
-      "text_reviewed": "a. 陆地垂直起降场",
-      "review_status": "PENDING"
+      "text_reviewed": "b. 屋顶垂直起降场",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件3多项分类名称错译或术语损坏，依据韩国施行令附件3更正。"
+        }
+      ]
     },
     {
       "id": "A39654-zh-00007",
@@ -2815,10 +3240,15 @@
       "end": null,
       "target_id": "XML:2872893",
       "source_hash": "59d505e2db5edb3f80a4d3f7132a3b08da5b63440e3ffce9ca04d23fd10089a6",
-      "text": "B. 屋顶垂直起降场",
+      "text": "c. 水上垂直起降场",
       "text_original": "B. 屋顶垂直起降场",
-      "text_reviewed": "B. 屋顶垂直起降场",
-      "review_status": "PENDING"
+      "text_reviewed": "c. 水上垂直起降场",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件3多项分类名称错译或术语损坏，依据韩国施行令附件3更正。"
+        }
+      ]
     },
     {
       "id": "A39654-zh-00008",
@@ -2829,10 +3259,15 @@
       "end": null,
       "target_id": "XML:2872894",
       "source_hash": "87d86a12e19e2e11b121efbd04309f93ce5c232b9f9c6c44b51595c30830fa1d",
-      "text": "。水垂直港",
+      "text": "d. 船上垂直起降场",
       "text_original": "。水垂直港",
-      "text_reviewed": "。水垂直港",
-      "review_status": "PENDING"
+      "text_reviewed": "d. 船上垂直起降场",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件3多项分类名称错译或术语损坏，依据韩国施行令附件3更正。"
+        }
+      ]
     },
     {
       "id": "A39654-zh-00009",
@@ -2843,10 +3278,15 @@
       "end": null,
       "target_id": "XML:2872895",
       "source_hash": "a519907829bb71eabd2cd04cee33f034d4b56bf871b65dc2777d3565555cc14a",
-      "text": "ra. 板载垂直起降",
+      "text": "e. 海上结构物垂直起降场",
       "text_original": "ra. 板载垂直起降",
-      "text_reviewed": "ra. 板载垂直起降",
-      "review_status": "PENDING"
+      "text_reviewed": "e. 海上结构物垂直起降场",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件3多项分类名称错译或术语损坏，依据韩国施行令附件3更正。"
+        }
+      ]
     },
     {
       "id": "A39654-zh-00010",
@@ -2857,10 +3297,15 @@
       "end": null,
       "target_id": "XML:2872896",
       "source_hash": "311e1cf9e70726997260dc9f7589aa34ba50d15c9af456d71031db5198d4e3d9",
-      "text": "E. 海上结构垂直港",
+      "text": "2. 按附件2规定的垂直起降场设施扩充程度分类",
       "text_original": "E. 海上结构垂直港",
-      "text_reviewed": "E. 海上结构垂直港",
-      "review_status": "PENDING"
+      "text_reviewed": "2. 按附件2规定的垂直起降场设施扩充程度分类",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件3多项分类名称错译或术语损坏，依据韩国施行令附件3更正。"
+        }
+      ]
     },
     {
       "id": "A39654-zh-00011",
@@ -2871,10 +3316,15 @@
       "end": null,
       "target_id": "XML:2872897",
       "source_hash": "d2a59f3008385ecc1c9f05724493225191634b82792b71f7abfafad1ff83edcc",
-      "text": "2. 根据附件表 2 中垂直起降场设施扩建程度的分类",
+      "text": "根据垂直起降场配备的设施，作如下细分：",
       "text_original": "2. 根据附件表 2 中垂直起降场设施扩建程度的分类",
-      "text_reviewed": "2. 根据附件表 2 中垂直起降场设施扩建程度的分类",
-      "review_status": "PENDING"
+      "text_reviewed": "根据垂直起降场配备的设施，作如下细分：",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件3多项分类名称错译或术语损坏，依据韩国施行令附件3更正。"
+        }
+      ]
     },
     {
       "id": "A39654-zh-00012",
@@ -2885,10 +3335,15 @@
       "end": null,
       "target_id": "XML:2872898",
       "source_hash": "ea52e03581eefc33288c79b734cf22ddc84745720e3e47aededcbddd5bbb6b96",
-      "text": "根据垂直起降场配备的设施，其详细分类如下：",
+      "text": "a. 一级：具备全部必备设施及必备支持设施的垂直起降场",
       "text_original": "根据垂直起降场配备的设施，其详细分类如下：",
-      "text_reviewed": "根据垂直起降场配备的设施，其详细分类如下：",
-      "review_status": "PENDING"
+      "text_reviewed": "a. 一级：具备全部必备设施及必备支持设施的垂直起降场",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件3多项分类名称错译或术语损坏，依据韩国施行令附件3更正。"
+        }
+      ]
     },
     {
       "id": "A39654-zh-00013",
@@ -2899,10 +3354,15 @@
       "end": null,
       "target_id": "XML:2872899",
       "source_hash": "457113e9927e7c5e1312a3f6d4c4a69ea7ef80549df00d80d7bbe002b4fa7db5",
-      "text": "a. 1级：垂直起降场配备所有必要的支持设施",
+      "text": "b. 二级：具备三级所需设施，并具备必备支持设施中的维修设施的垂直起降场",
       "text_original": "a. 1级：垂直起降场配备所有必要的支持设施",
-      "text_reviewed": "a. 1级：垂直起降场配备所有必要的支持设施",
-      "review_status": "PENDING"
+      "text_reviewed": "b. 二级：具备三级所需设施，并具备必备支持设施中的维修设施的垂直起降场",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件3多项分类名称错译或术语损坏，依据韩国施行令附件3更正。"
+        }
+      ]
     },
     {
       "id": "A39654-zh-00014",
@@ -2913,10 +3373,15 @@
       "end": null,
       "target_id": "XML:2872900",
       "source_hash": "93cf7ab1b9c56fc0e7818cfffcb86c3c6b1d7be95007032a16fab7b232a0c91a",
-      "text": "B. 2级：配备与3级相当的设施，以及必要的支持设施，包括维护设施",
+      "text": "c. 三级：具备必备设施，并具备必备支持设施中的滑行道、停机坪及充电设施的垂直起降场",
       "text_original": "B. 2级：配备与3级相当的设施，以及必要的支持设施，包括维护设施",
-      "text_reviewed": "B. 2级：配备与3级相当的设施，以及必要的支持设施，包括维护设施",
-      "review_status": "PENDING"
+      "text_reviewed": "c. 三级：具备必备设施，并具备必备支持设施中的滑行道、停机坪及充电设施的垂直起降场",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件3多项分类名称错译或术语损坏，依据韩国施行令附件3更正。"
+        }
+      ]
     },
     {
       "id": "A39654-zh-00015",
@@ -2927,10 +3392,15 @@
       "end": null,
       "target_id": "XML:2872902",
       "source_hash": "ccd7f03607c82ff2be407cfaa9514af51cf534a5b7ca6c517a4cfd6e5189025c",
-      "text": "。3 级：配备基本设施，以及必要的支持设施，包括滑行道和系泊区，充电时",
+      "text": "d. 四级：仅具备必备设施的垂直起降场",
       "text_original": "。3 级：配备基本设施，以及必要的支持设施，包括滑行道和系泊区，充电时",
-      "text_reviewed": "。3 级：配备基本设施，以及必要的支持设施，包括滑行道和系泊区，充电时",
-      "review_status": "PENDING"
+      "text_reviewed": "d. 四级：仅具备必备设施的垂直起降场",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件3多项分类名称错译或术语损坏，依据韩国施行令附件3更正。"
+        }
+      ]
     },
     {
       "id": "A39654-zh-00016",
@@ -2955,10 +3425,15 @@
       "end": null,
       "target_id": "XML:2872905",
       "source_hash": "f9a75eaafd32181f151230e9e37bcb50794615fb5ab49bed510dfa8402f5e4ce",
-      "text": "■ 城市空中交通促进支援法实施令[附录4]",
+      "text": "■《促进和支持城市空中交通利用法施行令》[附件4]",
       "text_original": "■ 城市空中交通促进支援法实施令[附录4]",
-      "text_reviewed": "■ 城市空中交通促进支援法实施令[附录4]",
-      "review_status": "PENDING"
+      "text_reviewed": "■《促进和支持城市空中交通利用法施行令》[附件4]",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00002",
@@ -2969,10 +3444,15 @@
       "end": null,
       "target_id": "XML:2872906",
       "source_hash": "a8cbc3d6c6386482cc220151b05fc01a61c1b7a610b2b11dcc85520c50a290b1",
-      "text": "城市空中交通运营商指定标准（与第15条相关）",
+      "text": "城市空中交通事业者指定标准（与第15条有关）",
       "text_original": "城市空中交通运营商指定标准（与第15条相关）",
-      "text_reviewed": "城市空中交通运营商指定标准（与第15条相关）",
-      "review_status": "PENDING"
+      "text_reviewed": "城市空中交通事业者指定标准（与第15条有关）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00003",
@@ -2983,10 +3463,15 @@
       "end": null,
       "target_id": "XML:2872907",
       "source_hash": "b5e0a4bf421ada5b538008a5679746179f7a5ec0cd628fb7be3fb978381483de",
-      "text": "商业领域",
+      "text": "事业领域",
       "text_original": "商业领域",
-      "text_reviewed": "商业领域",
-      "review_status": "PENDING"
+      "text_reviewed": "事业领域",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00004",
@@ -2997,10 +3482,15 @@
       "end": null,
       "target_id": "XML:2872908",
       "source_hash": "a252b6e9358c2caff20badd398c65c88bcdeef431ed22fc8af301e009d50585a",
-      "text": "指定标准 MTQ34dfc47e8123f08a00412结束",
+      "text": "指定标准",
       "text_original": "指定标准 MTQ34dfc47e8123f08a00412结束",
-      "text_reviewed": "指定标准 MTQ34dfc47e8123f08a00412结束",
-      "review_status": "PENDING"
+      "text_reviewed": "指定标准",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00005",
@@ -3011,10 +3501,15 @@
       "end": null,
       "target_id": "XML:2872909",
       "source_hash": "738e02162502cd9dd320da94bea8309fa0c0263804fc031804d85f08d2efef23",
-      "text": "1. 城市空中交通",
+      "text": "1. 城市空中交通运输事业",
       "text_original": "1. 城市空中交通",
-      "text_reviewed": "1. 城市空中交通",
-      "review_status": "PENDING"
+      "text_reviewed": "1. 城市空中交通运输事业",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00006",
@@ -3028,7 +3523,12 @@
       "text": "a. 设备标准",
       "text_original": "a. 设备标准",
       "text_reviewed": "a. 设备标准",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00007",
@@ -3039,10 +3539,15 @@
       "end": null,
       "target_id": "XML:2872911",
       "source_hash": "3835afd7843764546c7b65152bb7f20f2a84c0540bac4d38f0e59c6367db29fc",
-      "text": "运输业务",
+      "text": "应具备",
       "text_original": "运输业务",
-      "text_reviewed": "运输业务",
-      "review_status": "PENDING"
+      "text_reviewed": "应具备",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00008",
@@ -3053,10 +3558,15 @@
       "end": null,
       "target_id": "XML:2872912",
       "source_hash": "433396208c7417b1266c338dbef58da66bbd10c6b3d48703def1fbb4fce86403",
-      "text": "用于城市空中交通运输业务（例如城市飞机）的运营",
+      "text": "用于运营城市空中交通运输事业的城市航空器等设备",
       "text_original": "用于城市空中交通运输业务（例如城市飞机）的运营",
-      "text_reviewed": "用于城市空中交通运输业务（例如城市飞机）的运营",
-      "review_status": "PENDING"
+      "text_reviewed": "用于运营城市空中交通运输事业的城市航空器等设备",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00009",
@@ -3067,10 +3577,15 @@
       "end": null,
       "target_id": "XML:2872913",
       "source_hash": "177d051e5e8743292fb54148cf8263972cf89ea4658f4fef39f09d3b8e78e65c",
-      "text": "应配备",
+      "text": "（设备标准续）",
       "text_original": "应配备",
-      "text_reviewed": "应配备",
-      "review_status": "PENDING"
+      "text_reviewed": "（设备标准续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00010",
@@ -3081,10 +3596,15 @@
       "end": null,
       "target_id": "XML:2872914",
       "source_hash": "90812786a888a792f8c5106b7c5e36db0af81bcfe3aa3f60191236616269ad2f",
-      "text": "B. 人力标准",
+      "text": "b. 人员标准",
       "text_original": "B. 人力标准",
-      "text_reviewed": "B. 人力标准",
-      "review_status": "PENDING"
+      "text_reviewed": "b. 人员标准",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00011",
@@ -3095,10 +3615,15 @@
       "end": null,
       "target_id": "XML:2872915",
       "source_hash": "2e02c27c541ca6c8ccd15c66213be1ebfcf45e8adfed827b1c4757fb45caeca3",
-      "text": "确保至少有一名以下人员到场：",
+      "text": "应分别至少确保下列人员各1名：",
       "text_original": "确保至少有一名以下人员到场：",
-      "text_reviewed": "确保至少有一名以下人员到场：",
-      "review_status": "PENDING"
+      "text_reviewed": "应分别至少确保下列人员各1名：",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00012",
@@ -3109,10 +3634,15 @@
       "end": null,
       "target_id": "XML:2872916",
       "source_hash": "87ddf945b09c2791cf4a675b590f3324796a79a45c5ffdcb42b02501ee783b80",
-      "text": "1) 能够操作安全城市空中交通的飞行员",
+      "text": "1) 能够驾驶所配备城市航空器的飞行员",
       "text_original": "1) 能够操作安全城市空中交通的飞行员",
-      "text_reviewed": "1) 能够操作安全城市空中交通的飞行员",
-      "review_status": "PENDING"
+      "text_reviewed": "1) 能够驾驶所配备城市航空器的飞行员",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00013",
@@ -3123,10 +3653,15 @@
       "end": null,
       "target_id": "XML:2872917",
       "source_hash": "941cdedd6b598dedafa25fc4b0c1c93643764781553de9b35c2bd3a7dc4b05e9",
-      "text": "2) 能够维护安全城市空中交通飞机的机械师",
+      "text": "2) 能够维修所配备城市航空器的维修人员",
       "text_original": "2) 能够维护安全城市空中交通飞机的机械师",
-      "text_reviewed": "2) 能够维护安全城市空中交通飞机的机械师",
-      "review_status": "PENDING"
+      "text_reviewed": "2) 能够维修所配备城市航空器的维修人员",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00014",
@@ -3137,10 +3672,15 @@
       "end": null,
       "target_id": "XML:2872918",
       "source_hash": "5105919136ab73d300b1a46d1d691a5b5b8429cf0d6a9dfd1cefb2c7e78dea0d",
-      "text": "2. 城市空中交通",
+      "text": "2. 城市空中交通管理事业",
       "text_original": "2. 城市空中交通",
-      "text_reviewed": "2. 城市空中交通",
-      "review_status": "PENDING"
+      "text_reviewed": "2. 城市空中交通管理事业",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00015",
@@ -3151,10 +3691,15 @@
       "end": null,
       "target_id": "XML:2872919",
       "source_hash": "b55c4ac937269c4123d2cf143b6d0dc172c3673c0ae288c1e73f9c17f73bd906",
-      "text": "A. 设备和设施标准",
+      "text": "a. 设备及设施标准",
       "text_original": "A. 设备和设施标准",
-      "text_reviewed": "A. 设备和设施标准",
-      "review_status": "PENDING"
+      "text_reviewed": "a. 设备及设施标准",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00016",
@@ -3165,10 +3710,15 @@
       "end": null,
       "target_id": "XML:2872920",
       "source_hash": "2ed3b1abfb9e8b3505cf428cd82d82626d639b4b49d96644e05e6ec9415be73b",
-      "text": "管理业务",
+      "text": "1) 应具备用于稳定运营城市空中交通管理及管制城市航空器的计算机设备、通信设备、管制设备等",
       "text_original": "管理业务",
-      "text_reviewed": "管理业务",
-      "review_status": "PENDING"
+      "text_reviewed": "1) 应具备用于稳定运营城市空中交通管理及管制城市航空器的计算机设备、通信设备、管制设备等",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00017",
@@ -3179,10 +3729,15 @@
       "end": null,
       "target_id": "XML:2872921",
       "source_hash": "d4db6ff120fc267ec93e096ebfd8d211d69cb58dca1353e934d5b1c84697a8f8",
-      "text": "1) 城市空中交通管理和城市飞机的稳定运行",
+      "text": "（设备设施标准续）",
       "text_original": "1) 城市空中交通管理和城市飞机的稳定运行",
-      "text_reviewed": "1) 城市空中交通管理和城市飞机的稳定运行",
-      "review_status": "PENDING"
+      "text_reviewed": "（设备设施标准续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00018",
@@ -3193,10 +3748,15 @@
       "end": null,
       "target_id": "XML:2872922",
       "source_hash": "d2dd4d79322b49dc5977d4eda60090b21da1bf65518d2ba438726ca82f7ddc19",
-      "text": "配备计算机设备、通信设备、控制设备等用于控制",
+      "text": "2) 应具备城市空中交通管理事业所需的办公室或营业场所",
       "text_original": "配备计算机设备、通信设备、控制设备等用于控制",
-      "text_reviewed": "配备计算机设备、通信设备、控制设备等用于控制",
-      "review_status": "PENDING"
+      "text_reviewed": "2) 应具备城市空中交通管理事业所需的办公室或营业场所",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00019",
@@ -3207,10 +3767,15 @@
       "end": null,
       "target_id": "XML:2872923",
       "source_hash": "5908a5fc7609341686d94127cfc846055e5bbf6b54d1bf169af40a5ddf7ce879",
-      "text": "2) 城市空中交通管理业务所需的办公场所或商业场所",
+      "text": "（设备设施标准续）",
       "text_original": "2) 城市空中交通管理业务所需的办公场所或商业场所",
-      "text_reviewed": "2) 城市空中交通管理业务所需的办公场所或商业场所",
-      "review_status": "PENDING"
+      "text_reviewed": "（设备设施标准续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00020",
@@ -3221,10 +3786,15 @@
       "end": null,
       "target_id": "XML:2872924",
       "source_hash": "1eab16b9911e278fa7ee40bacbbe7d27e6f1bdfcaef8aac2740a78fa8aab12dc",
-      "text": "要装备的物品",
+      "text": "b. 人员标准",
       "text_original": "要装备的物品",
-      "text_reviewed": "要装备的物品",
-      "review_status": "PENDING"
+      "text_reviewed": "b. 人员标准",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00021",
@@ -3235,10 +3805,15 @@
       "end": null,
       "target_id": "XML:2872925",
       "source_hash": "90812786a888a792f8c5106b7c5e36db0af81bcfe3aa3f60191236616269ad2f",
-      "text": "B. 人力标准",
+      "text": "应至少确保1名依据《航空安全法》第35条取得航空交通管制员资格或具备同等资格的人员",
       "text_original": "B. 人力标准",
-      "text_reviewed": "B. 人力标准",
-      "review_status": "PENDING"
+      "text_reviewed": "应至少确保1名依据《航空安全法》第35条取得航空交通管制员资格或具备同等资格的人员",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00022",
@@ -3249,10 +3824,15 @@
       "end": null,
       "target_id": "XML:2872926",
       "source_hash": "480175842277f3362d1838b7efe20992f4fbafe63806b30cc185c20388ec83ef",
-      "text": "根据《航空安全法》第35条或依据该条规定，空中交通管制员",
+      "text": "（人员标准续）",
       "text_original": "根据《航空安全法》第35条或依据该条规定，空中交通管制员",
-      "text_reviewed": "根据《航空安全法》第35条或依据该条规定，空中交通管制员",
-      "review_status": "PENDING"
+      "text_reviewed": "（人员标准续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00023",
@@ -3263,10 +3843,15 @@
       "end": null,
       "target_id": "XML:2872927",
       "source_hash": "12ac6a2ad2ff9705bf3016346b6d244dfb25c74b211deb759fbcc5155125d3a8",
-      "text": "至少找到一名具有同等资格的人员。",
+      "text": "3. 垂直起降场运营、管理事业",
       "text_original": "至少找到一名具有同等资格的人员。",
-      "text_reviewed": "至少找到一名具有同等资格的人员。",
-      "review_status": "PENDING"
+      "text_reviewed": "3. 垂直起降场运营、管理事业",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00024",
@@ -3277,10 +3862,15 @@
       "end": null,
       "target_id": "XML:2872928",
       "source_hash": "2e7edd4ca2530eab052001a6bb0d2bbcfaabb8767793a575e9eb9258302cf2cb",
-      "text": "3。维帝福特",
+      "text": "a. 设备及设施标准",
       "text_original": "3。维帝福特",
-      "text_reviewed": "3。维帝福特",
-      "review_status": "PENDING"
+      "text_reviewed": "a. 设备及设施标准",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00025",
@@ -3291,10 +3881,15 @@
       "end": null,
       "target_id": "XML:2872929",
       "source_hash": "b55c4ac937269c4123d2cf143b6d0dc172c3673c0ae288c1e73f9c17f73bd906",
-      "text": "A. 设备和设施标准",
+      "text": "1) 应具备用于垂直起降场稳定运营、管理的计算机设备、通信设备等",
       "text_original": "A. 设备和设施标准",
-      "text_reviewed": "A. 设备和设施标准",
-      "review_status": "PENDING"
+      "text_reviewed": "1) 应具备用于垂直起降场稳定运营、管理的计算机设备、通信设备等",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00026",
@@ -3305,10 +3900,15 @@
       "end": null,
       "target_id": "XML:2872930",
       "source_hash": "96d747c0068b67414ac9a86192a3c78622af2675e9a7d4f7b880e6100aa7f068",
-      "text": "运营与管理",
+      "text": "（设备设施标准续）",
       "text_original": "运营与管理",
-      "text_reviewed": "运营与管理",
-      "review_status": "PENDING"
+      "text_reviewed": "（设备设施标准续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00027",
@@ -3319,10 +3919,15 @@
       "end": null,
       "target_id": "XML:2872931",
       "source_hash": "525fc635957555dd2e2bc2da9da76d9b812936773a3ab3205eb578c9c6ac0b39",
-      "text": "1) 用于垂直起降场稳定运行和管理的计算机设备和通信",
+      "text": "2) 应具备垂直起降场运营、管理事业所需的办公室或营业场所",
       "text_original": "1) 用于垂直起降场稳定运行和管理的计算机设备和通信",
-      "text_reviewed": "1) 用于垂直起降场稳定运行和管理的计算机设备和通信",
-      "review_status": "PENDING"
+      "text_reviewed": "2) 应具备垂直起降场运营、管理事业所需的办公室或营业场所",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00028",
@@ -3333,10 +3938,15 @@
       "end": null,
       "target_id": "XML:2872932",
       "source_hash": "7b3733aab2fd0dcf59d453ff7ce2c32f01b757f4d45bf6d21819f9915123613f",
-      "text": "业务",
+      "text": "（设备设施标准续）",
       "text_original": "业务",
-      "text_reviewed": "业务",
-      "review_status": "PENDING"
+      "text_reviewed": "（设备设施标准续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00029",
@@ -3347,10 +3957,15 @@
       "end": null,
       "target_id": "XML:2872933",
       "source_hash": "3a74f624c36759803b207d4a2f5c2a0171b1912d0fad1628cee64eb11ec8b15c",
-      "text": "配备设备等。",
+      "text": "b. 人员标准",
       "text_original": "配备设备等。",
-      "text_reviewed": "配备设备等。",
-      "review_status": "PENDING"
+      "text_reviewed": "b. 人员标准",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00030",
@@ -3361,10 +3976,15 @@
       "end": null,
       "target_id": "XML:2872934",
       "source_hash": "f4a2135bb916c3085c3dbcd840cf99fead97974598069a9b4811f9f3fe3f1894",
-      "text": "2) 垂直起降场运营和管理业务所需的办公室或营业场所",
+      "text": "应分别至少确保下列人员各1名：",
       "text_original": "2) 垂直起降场运营和管理业务所需的办公室或营业场所",
-      "text_reviewed": "2) 垂直起降场运营和管理业务所需的办公室或营业场所",
-      "review_status": "PENDING"
+      "text_reviewed": "应分别至少确保下列人员各1名：",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00031",
@@ -3375,10 +3995,15 @@
       "end": null,
       "target_id": "XML:2872935",
       "source_hash": "1eab16b9911e278fa7ee40bacbbe7d27e6f1bdfcaef8aac2740a78fa8aab12dc",
-      "text": "要装备的物品",
+      "text": "1) 依据《航空保安法》第28条第1款及第5款，完成国土交通部长官规定的教育培训或同等教育培训，并能够执行垂直起降场安全检查监督业务的人员",
       "text_original": "要装备的物品",
-      "text_reviewed": "要装备的物品",
-      "review_status": "PENDING"
+      "text_reviewed": "1) 依据《航空保安法》第28条第1款及第5款，完成国土交通部长官规定的教育培训或同等教育培训，并能够执行垂直起降场安全检查监督业务的人员",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00032",
@@ -3389,10 +4014,15 @@
       "end": null,
       "target_id": "XML:2872936",
       "source_hash": "90812786a888a792f8c5106b7c5e36db0af81bcfe3aa3f60191236616269ad2f",
-      "text": "B. 人力标准",
+      "text": "（上述人员资格续）",
       "text_original": "B. 人力标准",
-      "text_reviewed": "B. 人力标准",
-      "review_status": "PENDING"
+      "text_reviewed": "（上述人员资格续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00033",
@@ -3403,10 +4033,15 @@
       "end": null,
       "target_id": "XML:2872937",
       "source_hash": "2e02c27c541ca6c8ccd15c66213be1ebfcf45e8adfed827b1c4757fb45caeca3",
-      "text": "确保至少有一名以下人员到场：",
+      "text": "（能够执行垂直起降场安全检查监督业务）",
       "text_original": "确保至少有一名以下人员到场：",
-      "text_reviewed": "确保至少有一名以下人员到场：",
-      "review_status": "PENDING"
+      "text_reviewed": "（能够执行垂直起降场安全检查监督业务）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00034",
@@ -3417,10 +4052,15 @@
       "end": null,
       "target_id": "XML:2872938",
       "source_hash": "9b0b9c82363aae5aa0ce7eb334065acffb2bbf3459bf27461da66c78425fe5ba",
-      "text": "1) 根据《航空保安法》第28条第1款和第5款，国土交通省",
+      "text": "（资格条件续）",
       "text_original": "1) 根据《航空保安法》第28条第1款和第5款，国土交通省",
-      "text_reviewed": "1) 根据《航空保安法》第28条第1款和第5款，国土交通省",
-      "review_status": "PENDING"
+      "text_reviewed": "（资格条件续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00035",
@@ -3431,10 +4071,15 @@
       "end": null,
       "target_id": "XML:2872939",
       "source_hash": "9c3badf5eeefdba912a7b1766111ce7079ff02aeadd650399e797aeda91dad04",
-      "text": "由部长确定的教育和培训，或与此类教育和培训同等的培训",
+      "text": "2) 符合下列任一条件且能够执行垂直起降场运营、管理业务的人员",
       "text_original": "由部长确定的教育和培训，或与此类教育和培训同等的培训",
-      "text_reviewed": "由部长确定的教育和培训，或与此类教育和培训同等的培训",
-      "review_status": "PENDING"
+      "text_reviewed": "2) 符合下列任一条件且能够执行垂直起降场运营、管理业务的人员",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00036",
@@ -3445,10 +4090,15 @@
       "end": null,
       "target_id": "XML:2872940",
       "source_hash": "3332bc40f88f86bc8c4d9992ebc5b265223fe5258f064da77b752bcb23af49ce",
-      "text": "作为一名已完成培训的人员，履行垂直起降场安全检查监督职责",
+      "text": "（垂直起降场运营管理人员）",
       "text_original": "作为一名已完成培训的人员，履行垂直起降场安全检查监督职责",
-      "text_reviewed": "作为一名已完成培训的人员，履行垂直起降场安全检查监督职责",
-      "review_status": "PENDING"
+      "text_reviewed": "（垂直起降场运营管理人员）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00037",
@@ -3459,10 +4109,15 @@
       "end": null,
       "target_id": "XML:2872941",
       "source_hash": "4b7b8feb5cef2b19566245c273a82a8b8a93294a90764553460048a6a56f961c",
-      "text": "能够执行",
+      "text": "a) 依据《机场设施法》第47条第1款规定的航空导航安全设施管理、运营及使用标准，完成该类设施管理人员应接受的教育培训者",
       "text_original": "能够执行",
-      "text_reviewed": "能够执行",
-      "review_status": "PENDING"
+      "text_reviewed": "a) 依据《机场设施法》第47条第1款规定的航空导航安全设施管理、运营及使用标准，完成该类设施管理人员应接受的教育培训者",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00038",
@@ -3473,10 +4128,15 @@
       "end": null,
       "target_id": "XML:2872942",
       "source_hash": "2a304b8ee4c7cf38896e5e62c4667a654e3098d3cc4f5e7b951276970bc0a418",
-      "text": "2) 属于以下任何类别的人员运营垂直起降场",
+      "text": "（教育培训完成条件续）",
       "text_original": "2) 属于以下任何类别的人员运营垂直起降场",
-      "text_reviewed": "2) 属于以下任何类别的人员运营垂直起降场",
-      "review_status": "PENDING"
+      "text_reviewed": "（教育培训完成条件续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00039",
@@ -3487,10 +4147,15 @@
       "end": null,
       "target_id": "XML:2872943",
       "source_hash": "2dd5fa6720b12c42645b102e34c40263b1d061981cc235cc44369db004db1c6d",
-      "text": "· 能够履行管理职责的人员",
+      "text": "（教育培训完成者）",
       "text_original": "· 能够履行管理职责的人员",
-      "text_reviewed": "· 能够履行管理职责的人员",
-      "review_status": "PENDING"
+      "text_reviewed": "（教育培训完成者）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00040",
@@ -3501,10 +4166,15 @@
       "end": null,
       "target_id": "XML:2872944",
       "source_hash": "8c9cd7c08c4bc49c15f88884bbd5dd91d4594cdda59b5452599fead1a005c97e",
-      "text": "a) 根据《机场设施法》第47条第1款规定，导航安全设施",
+      "text": "b) 符合a目规定的教育培训的讲师",
       "text_original": "a) 根据《机场设施法》第47条第1款规定，导航安全设施",
-      "text_reviewed": "a) 根据《机场设施法》第47条第1款规定，导航安全设施",
-      "review_status": "PENDING"
+      "text_reviewed": "b) 符合a目规定的教育培训的讲师",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00041",
@@ -3515,10 +4185,15 @@
       "end": null,
       "target_id": "XML:2872945",
       "source_hash": "97ad889de461cceb687fa79e216d1a6bb30622e681290724884bafff1553d480",
-      "text": "按照管理、操作和使用标准管理航行安全设施。",
+      "text": "4. 城市航空器使用事业",
       "text_original": "按照管理、操作和使用标准管理航行安全设施。",
-      "text_reviewed": "按照管理、操作和使用标准管理航行安全设施。",
-      "review_status": "PENDING"
+      "text_reviewed": "4. 城市航空器使用事业",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00042",
@@ -3529,10 +4204,15 @@
       "end": null,
       "target_id": "XML:2872946",
       "source_hash": "0b1f4314db48e4c992acf87ff49c75f191049e0fc75578fa4d83e27505890301",
-      "text": "已完成执行 START  所需的教育和培训的人员",
+      "text": "应具备第1号各目规定的设备及人员",
       "text_original": "已完成执行 START  所需的教育和培训的人员",
-      "text_reviewed": "已完成执行 START  所需的教育和培训的人员",
-      "review_status": "PENDING"
+      "text_reviewed": "应具备第1号各目规定的设备及人员",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00043",
@@ -3543,10 +4223,15 @@
       "end": null,
       "target_id": "XML:2872947",
       "source_hash": "a7c46c19d1a9f1d1560ad3f3bd1fce002eefc8589b589a5ff5aebf48ca054f14",
-      "text": "b) 根据 a)",
+      "text": "（城市航空器使用事业续）",
       "text_original": "b) 根据 a)",
-      "text_reviewed": "b) 根据 a)",
-      "review_status": "PENDING"
+      "text_reviewed": "（城市航空器使用事业续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00044",
@@ -3557,10 +4242,15 @@
       "end": null,
       "target_id": "XML:2872948",
       "source_hash": "1676858bc5a85e88887c62c070d906a1f75682b781f3dd51724ea92f6c55a563",
-      "text": "4. 城市飞机",
+      "text": "备注",
       "text_original": "4. 城市飞机",
-      "text_reviewed": "4. 城市飞机",
-      "review_status": "PENDING"
+      "text_reviewed": "备注",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00045",
@@ -3571,10 +4261,15 @@
       "end": null,
       "target_id": "XML:2872949",
       "source_hash": "00eb02d47a1ecd2823c1aaa3e8b4034cba4296c6232e1bac40fbbeb99bd03125",
-      "text": "按照第1款各项规定配备设备和人员",
+      "text": "1. 与设备及设施所有人订立租赁合同等时，视为已具备该设备及设施。",
       "text_original": "按照第1款各项规定配备设备和人员",
-      "text_reviewed": "按照第1款各项规定配备设备和人员",
-      "review_status": "PENDING"
+      "text_reviewed": "1. 与设备及设施所有人订立租赁合同等时，视为已具备该设备及设施。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00046",
@@ -3585,10 +4280,15 @@
       "end": null,
       "target_id": "XML:2872950",
       "source_hash": "b443fa1719c2f8a77315b30fb3ab0e6fad6d59bd7a5b89f823cc3068ac432cee",
-      "text": "使用业务",
+      "text": "（备注续）",
       "text_original": "使用业务",
-      "text_reviewed": "使用业务",
-      "review_status": "PENDING"
+      "text_reviewed": "（备注续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00047",
@@ -3599,10 +4299,15 @@
       "end": null,
       "target_id": "XML:2872951",
       "source_hash": "cb8c6b238f800814355e19339cd8accac66e3694f0770d65b3b95a72a190e49c",
-      "text": "备注",
+      "text": "2. 拟经营涵盖多个事业领域的城市空中交通事业者，必须分别满足各事业领域的设备及人员标准。",
       "text_original": "备注",
-      "text_reviewed": "备注",
-      "review_status": "PENDING"
+      "text_reviewed": "2. 拟经营涵盖多个事业领域的城市空中交通事业者，必须分别满足各事业领域的设备及人员标准。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00048",
@@ -3613,10 +4318,15 @@
       "end": null,
       "target_id": "XML:2872952",
       "source_hash": "610dec6775313f45247b34ee0887dd1f7da6c12d1ded709cbcef34050693a2b2",
-      "text": "1. 如果已与设备和设施的所有者签订租赁协议等，则所述设备和",
+      "text": "（备注续）",
       "text_original": "1. 如果已与设备和设施的所有者签订租赁协议等，则所述设备和",
-      "text_reviewed": "1. 如果已与设备和设施的所有者签订租赁协议等，则所述设备和",
-      "review_status": "PENDING"
+      "text_reviewed": "（备注续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00049",
@@ -3627,10 +4337,15 @@
       "end": null,
       "target_id": "XML:2872953",
       "source_hash": "8cf46f59b7c4720cf5ff7c5625126f767df6c0299732cf4856502b1105c88ba9",
-      "text": "它被认为配备了相关设施。",
+      "text": "3. 上表所列设备及人员的详细标准，由国土交通部长官规定并公告。",
       "text_original": "它被认为配备了相关设施。",
-      "text_reviewed": "它被认为配备了相关设施。",
-      "review_status": "PENDING"
+      "text_reviewed": "3. 上表所列设备及人员的详细标准，由国土交通部长官规定并公告。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00050",
@@ -3641,10 +4356,15 @@
       "end": null,
       "target_id": "XML:2872954",
       "source_hash": "fa2cafcd5f237a9817832f8248fbf442ace0f2fa4a73b8103e33f650f3356aab",
-      "text": "2. 任何拟开展涵盖多个业务领域的城市空中交通业务的人员，其各业务部门应",
+      "text": "（附件4结束）",
       "text_original": "2. 任何拟开展涵盖多个业务领域的城市空中交通业务的人员，其各业务部门应",
-      "text_reviewed": "2. 任何拟开展涵盖多个业务领域的城市空中交通业务的人员，其各业务部门应",
-      "review_status": "PENDING"
+      "text_reviewed": "（附件4结束）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原译文存在MTQ控制标记、垂直起降场术语损坏及表格字段错位，按施行令附件4韩文逐项修复。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00051",
@@ -3697,10 +4417,15 @@
       "end": null,
       "target_id": "XML:2872958",
       "source_hash": "e044191fee3171546ac353498b504f03670d6417a48536fb39ebe020b604ffc5",
-      "text": "■ 城市空中交通促进支援法实施令[附录5]",
+      "text": "■《促进和支持城市空中交通利用法施行令》[附件5]",
       "text_original": "■ 城市空中交通促进支援法实施令[附录5]",
-      "text_reviewed": "■ 城市空中交通促进支援法实施令[附录5]",
-      "review_status": "PENDING"
+      "text_reviewed": "■《促进和支持城市空中交通利用法施行令》[附件5]",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00002",
@@ -3711,10 +4436,15 @@
       "end": null,
       "target_id": "XML:2872959",
       "source_hash": "f6d40e3e655da56422b02a72bf4e5ed2b7e010423caf93edb00bc703f4f95f33",
-      "text": "行政罚款的适用标准（与第26条相关）",
+      "text": "行政罚款的征收标准（与第26条有关）",
       "text_original": "行政罚款的适用标准（与第26条相关）",
-      "text_reviewed": "行政罚款的适用标准（与第26条相关）",
-      "review_status": "PENDING"
+      "text_reviewed": "行政罚款的征收标准（与第26条有关）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00003",
@@ -3725,10 +4455,15 @@
       "end": null,
       "target_id": "XML:2872960",
       "source_hash": "a617cf3ccc65ba6af0228b05b78c02b61364dbd74e669da8ea55dab0e5a320b6",
-      "text": "1. 通用标准",
+      "text": "1. 一般标准",
       "text_original": "1. 通用标准",
-      "text_reviewed": "1. 通用标准",
-      "review_status": "PENDING"
+      "text_reviewed": "1. 一般标准",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00004",
@@ -3739,10 +4474,15 @@
       "end": null,
       "target_id": "XML:2872961",
       "source_hash": "a065880566121e7a8775413a0cc3cc899ff0f7dca10c1ffb220c2428898993f5",
-      "text": "a. 根据违规次数增加行政罚款的标准，应与上一年内发生的违规行为的标准相同。",
+      "text": "a. 根据违法行为次数加重征收行政罚款的标准，适用于最近1年内因相同违法行为受到行政罚款处分的情形。期间以该违法行为受到行政罚款处分之日，以及处分后再次实施相同违法行为并被查获之日为准。",
       "text_original": "a. 根据违规次数增加行政罚款的标准，应与上一年内发生的违规行为的标准相同。",
-      "text_reviewed": "a. 根据违规次数增加行政罚款的标准，应与上一年内发生的违规行为的标准相同。",
-      "review_status": "PENDING"
+      "text_reviewed": "a. 根据违法行为次数加重征收行政罚款的标准，适用于最近1年内因相同违法行为受到行政罚款处分的情形。期间以该违法行为受到行政罚款处分之日，以及处分后再次实施相同违法行为并被查获之日为准。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00005",
@@ -3753,10 +4493,15 @@
       "end": null,
       "target_id": "XML:2872962",
       "source_hash": "6ec690fef33e778d5b9e4d96c39fc5142c12eead27178e7be34cb7c0a7f94dd2",
-      "text": "这适用于对违法行为处以罚款的情况。在这种情况下，计算期限为：",
+      "text": "（期间计算规则续）",
       "text_original": "这适用于对违法行为处以罚款的情况。在这种情况下，计算期限为：",
-      "text_reviewed": "这适用于对违法行为处以罚款的情况。在这种情况下，计算期限为：",
-      "review_status": "PENDING"
+      "text_reviewed": "（期间计算规则续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00006",
@@ -3767,10 +4512,15 @@
       "end": null,
       "target_id": "XML:2872963",
       "source_hash": "17645c79d5807549a177697222f74e68cdfdafb2e9b2c87b184fc44405ca8345",
-      "text": "指的是对违规行为处以罚款的日期，而在此之后，",
+      "text": "（以先前行政罚款处分日为起算参照）",
       "text_original": "指的是对违规行为处以罚款的日期，而在此之后，",
-      "text_reviewed": "指的是对违规行为处以罚款的日期，而在此之后，",
-      "review_status": "PENDING"
+      "text_reviewed": "（以先前行政罚款处分日为起算参照）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00007",
@@ -3781,10 +4531,15 @@
       "end": null,
       "target_id": "XML:2872964",
       "source_hash": "f6df22597420972c0b1250426c1e4292947c000179a86e2af65d4208ae8aa5d0",
-      "text": "它是以发现违规行为的日期为准。",
+      "text": "（以再次查获相同违法行为之日为期间终点）",
       "text_original": "它是以发现违规行为的日期为准。",
-      "text_reviewed": "它是以发现违规行为的日期为准。",
-      "review_status": "PENDING"
+      "text_reviewed": "（以再次查获相同违法行为之日为期间终点）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00008",
@@ -3795,10 +4550,15 @@
       "end": null,
       "target_id": "XML:2872965",
       "source_hash": "5e774f299a1c9f4bdf53d1003d4882c1a654a5dee2483746a282b7e4484a1d9e",
-      "text": "b. 根据第a项规定作出加重处罚的，其适用顺序为上述顺序。",
+      "text": "b. 依据a目作出加重处分时，加重处分的适用次数为该违法行为发生前的处分次数（a目规定期间内受到两次以上行政罚款处分时，指其中较高的次数）的下一次。",
       "text_original": "b. 根据第a项规定作出加重处罚的，其适用顺序为上述顺序。",
-      "text_reviewed": "b. 根据第a项规定作出加重处罚的，其适用顺序为上述顺序。",
-      "review_status": "PENDING"
+      "text_reviewed": "b. 依据a目作出加重处分时，加重处分的适用次数为该违法行为发生前的处分次数（a目规定期间内受到两次以上行政罚款处分时，指其中较高的次数）的下一次。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00009",
@@ -3809,10 +4569,15 @@
       "end": null,
       "target_id": "XML:2872966",
       "source_hash": "18597c58619fdd30de56db4e24d55fc2bca82c48cfdb900efb2d00799a5acd80",
-      "text": "在违规行为发生之前，已作出处分的命令（如果在根据第 (a) 款规定的期限内发出两份行政罚款处分）",
+      "text": "（加重处分次数的计算规则续）",
       "text_original": "在违规行为发生之前，已作出处分的命令（如果在根据第 (a) 款规定的期限内发出两份行政罚款处分）",
-      "text_reviewed": "在违规行为发生之前，已作出处分的命令（如果在根据第 (a) 款规定的期限内发出两份行政罚款处分）",
-      "review_status": "PENDING"
+      "text_reviewed": "（加重处分次数的计算规则续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00010",
@@ -3823,10 +4588,15 @@
       "end": null,
       "target_id": "XML:2872967",
       "source_hash": "efc5677756ff6290b88ed2e5caa0c66c933358113ea07cbc44714c19de5487b9",
-      "text": "如果有更高的学位，则为下一个学位。",
+      "text": "（以较高处分次数的下一次作为适用次数）",
       "text_original": "如果有更高的学位，则为下一个学位。",
-      "text_reviewed": "如果有更高的学位，则为下一个学位。",
-      "review_status": "PENDING"
+      "text_reviewed": "（以较高处分次数的下一次作为适用次数）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00011",
@@ -3837,10 +4607,15 @@
       "end": null,
       "target_id": "XML:2872968",
       "source_hash": "17426a1c1376e833a83a7eb6771e9d41955ea52cd00cabc6d675c9896e94d42c",
-      "text": "。在下列任何情况下，征税机关应将第2款的各项标准适用于",
+      "text": "c. 有下列任一情形时，征收权人可以在第2项个别标准所定行政罚款金额的二分之一范围内减轻征收。但对拖欠行政罚款的违法行为人，不适用减轻规定。",
       "text_original": "。在下列任何情况下，征税机关应将第2款的各项标准适用于",
-      "text_reviewed": "。在下列任何情况下，征税机关应将第2款的各项标准适用于",
-      "review_status": "PENDING"
+      "text_reviewed": "c. 有下列任一情形时，征收权人可以在第2项个别标准所定行政罚款金额的二分之一范围内减轻征收。但对拖欠行政罚款的违法行为人，不适用减轻规定。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00012",
@@ -3851,10 +4626,15 @@
       "end": null,
       "target_id": "XML:2872969",
       "source_hash": "4c36e90b6e723b56a5463c914ba4f770d6caad2c615b64cb5bafc2b4945c3ef5",
-      "text": "行政罚款金额可减少至原金额的一半。但是，",
+      "text": "（减轻征收标准续）",
       "text_original": "行政罚款金额可减少至原金额的一半。但是，",
-      "text_reviewed": "行政罚款金额可减少至原金额的一半。但是，",
-      "review_status": "PENDING"
+      "text_reviewed": "（减轻征收标准续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00013",
@@ -3865,10 +4645,15 @@
       "end": null,
       "target_id": "XML:2872970",
       "source_hash": "7623c2f22edf7ef955773245125650ddca6926c50233c413b9d6e2c211d74caa",
-      "text": "这条规定不适用于拖欠罚款的违规者。",
+      "text": "（拖欠行政罚款者除外）",
       "text_original": "这条规定不适用于拖欠罚款的违规者。",
-      "text_reviewed": "这条规定不适用于拖欠罚款的违规者。",
-      "review_status": "PENDING"
+      "text_reviewed": "（拖欠行政罚款者除外）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00014",
@@ -3879,10 +4664,15 @@
       "end": null,
       "target_id": "XML:2872971",
       "source_hash": "474a13a9236c94201152c9a16b464c60368d3b640e1a7bd22636a8b368190f95",
-      "text": "1) 如果违规行为被认定为由于轻微疏忽或错误造成",
+      "text": "1) 认定违法行为系因轻微疏忽或错误所致",
       "text_original": "1) 如果违规行为被认定为由于轻微疏忽或错误造成",
-      "text_reviewed": "1) 如果违规行为被认定为由于轻微疏忽或错误造成",
-      "review_status": "PENDING"
+      "text_reviewed": "1) 认定违法行为系因轻微疏忽或错误所致",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00015",
@@ -3893,10 +4683,15 @@
       "end": null,
       "target_id": "XML:2872972",
       "source_hash": "d37e53140084b8b066a70ec05cc89bf397416704b9177f81452024bb92e5b1ca",
-      "text": "2) 由于违法者已努力纠正或解决违法行为",
+      "text": "（减轻事由续）",
       "text_original": "2) 由于违法者已努力纠正或解决违法行为",
-      "text_reviewed": "2) 由于违法者已努力纠正或解决违法行为",
-      "review_status": "PENDING"
+      "text_reviewed": "（减轻事由续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00016",
@@ -3907,10 +4702,15 @@
       "end": null,
       "target_id": "XML:2872973",
       "source_hash": "e366814d4287af1b8b841620197dcac3e19e622ef692112ed2a40a1de031b809",
-      "text": "识别到的案例",
+      "text": "2) 认定违法行为人已为纠正或消除违法状态作出努力",
       "text_original": "识别到的案例",
-      "text_reviewed": "识别到的案例",
-      "review_status": "PENDING"
+      "text_reviewed": "2) 认定违法行为人已为纠正或消除违法状态作出努力",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00017",
@@ -3921,10 +4721,15 @@
       "end": null,
       "target_id": "XML:2872974",
       "source_hash": "ee4e7b7bdcabb4ef11d0b513f8ebe193ec478a7be7acee793316668bde068e8f",
-      "text": "此外，还要考虑违规的程度、违规的动机以及由此产生的后果等。",
+      "text": "（减轻事由续）",
       "text_original": "此外，还要考虑违规的程度、违规的动机以及由此产生的后果等。",
-      "text_reviewed": "此外，还要考虑违规的程度、违规的动机以及由此产生的后果等。",
-      "review_status": "PENDING"
+      "text_reviewed": "（减轻事由续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00018",
@@ -3935,10 +4740,15 @@
       "end": null,
       "target_id": "XML:2872975",
       "source_hash": "34a2fdda0faaed401e2d021256dcf8300f0d07fb975886c656d3fb832806b381",
-      "text": "在确认需要减少罚款金额的情况下，",
+      "text": "3) 考虑违法行为程度、动机及结果等，认定有必要减轻行政罚款金额的其他情形",
       "text_original": "在确认需要减少罚款金额的情况下，",
-      "text_reviewed": "在确认需要减少罚款金额的情况下，",
-      "review_status": "PENDING"
+      "text_reviewed": "3) 考虑违法行为程度、动机及结果等，认定有必要减轻行政罚款金额的其他情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00019",
@@ -3949,10 +4759,15 @@
       "end": null,
       "target_id": "XML:2872976",
       "source_hash": "9c9db271d3a7dbb036f7e11ea39569e955bcb29ba7b2499c2fa0e2ebf9369e47",
-      "text": "d. 在下列任何情况下，征税机关应将第2款的各项标准适用于",
+      "text": "d. 有下列任一情形时，征收权人可以在第2项个别标准所定行政罚款金额的二分之一范围内加重征收。但即使加重，也不得超过本法第31条第1款规定的行政罚款上限。",
       "text_original": "d. 在下列任何情况下，征税机关应将第2款的各项标准适用于",
-      "text_reviewed": "d. 在下列任何情况下，征税机关应将第2款的各项标准适用于",
-      "review_status": "PENDING"
+      "text_reviewed": "d. 有下列任一情形时，征收权人可以在第2项个别标准所定行政罚款金额的二分之一范围内加重征收。但即使加重，也不得超过本法第31条第1款规定的行政罚款上限。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00020",
@@ -3963,10 +4778,15 @@
       "end": null,
       "target_id": "XML:2872977",
       "source_hash": "9cfa183f481b3847e5c320a4e03a331491be1553bf56ad86b1f325d6e62eb700",
-      "text": "行政罚款金额可增加，增幅可达按规定计算金额的一半。但是，始终",
+      "text": "（加重征收标准续）",
       "text_original": "行政罚款金额可增加，增幅可达按规定计算金额的一半。但是，始终",
-      "text_reviewed": "行政罚款金额可增加，增幅可达按规定计算金额的一半。但是，始终",
-      "review_status": "PENDING"
+      "text_reviewed": "（加重征收标准续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00021",
@@ -3977,10 +4797,15 @@
       "end": null,
       "target_id": "XML:2872978",
       "source_hash": "e9068bba60c0426b34692bfec7588fc43eb14c0ec998f2eacf2ef78749c6e4a4",
-      "text": "即使处以罚款，也不得超过该法第31条第1款规定的行政罚款上限。",
+      "text": "（不得超过法定上限）",
       "text_original": "即使处以罚款，也不得超过该法第31条第1款规定的行政罚款上限。",
-      "text_reviewed": "即使处以罚款，也不得超过该法第31条第1款规定的行政罚款上限。",
-      "review_status": "PENDING"
+      "text_reviewed": "（不得超过法定上限）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00022",
@@ -3991,10 +4816,15 @@
       "end": null,
       "target_id": "XML:2872979",
       "source_hash": "581d7432d17a8bb1a9126a9b9d558f65ecda93a65fd3e5b340d55d650b003147",
-      "text": ".",
+      "text": "1) 违法行为的内容或程度严重，认定其对利害关系人等造成重大损害",
       "text_original": ".",
-      "text_reviewed": ".",
-      "review_status": "PENDING"
+      "text_reviewed": "1) 违法行为的内容或程度严重，认定其对利害关系人等造成重大损害",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00023",
@@ -4005,10 +4835,15 @@
       "end": null,
       "target_id": "XML:2872980",
       "source_hash": "ef63e9009e1066021a8cc0aa2659a9307ef722a9e6494fa19ff7ae334446b178",
-      "text": "1) 如果违规行为的性质和程度严重，且对相关方等造成的损害重大",
+      "text": "（加重事由续）",
       "text_original": "1) 如果违规行为的性质和程度严重，且对相关方等造成的损害重大",
-      "text_reviewed": "1) 如果违规行为的性质和程度严重，且对相关方等造成的损害重大",
-      "review_status": "PENDING"
+      "text_reviewed": "（加重事由续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00024",
@@ -4019,10 +4854,15 @@
       "end": null,
       "target_id": "XML:2872981",
       "source_hash": "e366814d4287af1b8b841620197dcac3e19e622ef692112ed2a40a1de031b809",
-      "text": "识别到的案例",
+      "text": "2) 考虑违法行为程度、动机及结果等，认定有必要加重行政罚款金额的其他情形",
       "text_original": "识别到的案例",
-      "text_reviewed": "识别到的案例",
-      "review_status": "PENDING"
+      "text_reviewed": "2) 考虑违法行为程度、动机及结果等，认定有必要加重行政罚款金额的其他情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00025",
@@ -4033,10 +4873,15 @@
       "end": null,
       "target_id": "XML:2872982",
       "source_hash": "c7a7f0b7a5c96e0a381700f80a6de75e0ae96eb739435b623a79bf557ac24b67",
-      "text": "此外，考虑到违规行为的程度、违规动机及其后果，处罚力度可能会加大。",
+      "text": "（一般标准结束）",
       "text_original": "此外，考虑到违规行为的程度、违规动机及其后果，处罚力度可能会加大。",
-      "text_reviewed": "此外，考虑到违规行为的程度、违规动机及其后果，处罚力度可能会加大。",
-      "review_status": "PENDING"
+      "text_reviewed": "（一般标准结束）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00026",
@@ -4047,10 +4892,15 @@
       "end": null,
       "target_id": "XML:2872983",
       "source_hash": "aeb3dd7ddd6b8c6a57378b8ca6c88b205790b03a1bf7cd488889651ba0f47655",
-      "text": "在必要时",
+      "text": "2. 个别标准",
       "text_original": "在必要时",
-      "text_reviewed": "在必要时",
-      "review_status": "PENDING"
+      "text_reviewed": "2. 个别标准",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00027",
@@ -4061,10 +4911,15 @@
       "end": null,
       "target_id": "XML:2872984",
       "source_hash": "1d6f6bce78138ea58d3cc062dbce45c849d57266d25052a404c84318174a0c95",
-      "text": "2. 单个标准",
+      "text": "违法行为",
       "text_original": "2. 单个标准",
-      "text_reviewed": "2. 单个标准",
-      "review_status": "PENDING"
+      "text_reviewed": "违法行为",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00028",
@@ -4075,10 +4930,15 @@
       "end": null,
       "target_id": "XML:2872985",
       "source_hash": "903aa577eae3314c52694d8cb0c32f8a688802c384b7267385dc97b9afdad866",
-      "text": "违规",
+      "text": "依据法条",
       "text_original": "违规",
-      "text_reviewed": "违规",
-      "review_status": "PENDING"
+      "text_reviewed": "依据法条",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00029",
@@ -4089,10 +4949,15 @@
       "end": null,
       "target_id": "XML:2872986",
       "source_hash": "f301e09bb088a35ead5a94b8a5272800ed1989bf2a850f142c6a2bc9c86559d4",
-      "text": "法律依据",
+      "text": "行政罚款金额（单位：万韩元）",
       "text_original": "法律依据",
-      "text_reviewed": "法律依据",
-      "review_status": "PENDING"
+      "text_reviewed": "行政罚款金额（单位：万韩元）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00030",
@@ -4103,10 +4968,15 @@
       "end": null,
       "target_id": "XML:2872987",
       "source_hash": "29868af714531b76fa12c0f1dcdcda16bef1ea9b78725e46eb97ac3b291f90a0",
-      "text": "罚款金额 (10,000 韩元)",
+      "text": "第1次",
       "text_original": "罚款金额 (10,000 韩元)",
-      "text_reviewed": "罚款金额 (10,000 韩元)",
-      "review_status": "PENDING"
+      "text_reviewed": "第1次",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00031",
@@ -4117,10 +4987,15 @@
       "end": null,
       "target_id": "XML:2872988",
       "source_hash": "4da4b59cbfd66518a897d218064dc6a845afee02d516e1aa110b8d210daccd96",
-      "text": "1 次",
+      "text": "第2次",
       "text_original": "1 次",
-      "text_reviewed": "1 次",
-      "review_status": "PENDING"
+      "text_reviewed": "第2次",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00032",
@@ -4131,10 +5006,15 @@
       "end": null,
       "target_id": "XML:2872989",
       "source_hash": "b3aba0b413acf7c30e8024efdb3c316561fd66d87ce9ea9fea1aeafe5fbd2f0b",
-      "text": "第二次违规",
+      "text": "第3次以上",
       "text_original": "第二次违规",
-      "text_reviewed": "第二次违规",
-      "review_status": "PENDING"
+      "text_reviewed": "第3次以上",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00033",
@@ -4145,10 +5025,15 @@
       "end": null,
       "target_id": "XML:2872990",
       "source_hash": "cfe5ecf17362a926a6c6e609a0edacd7e80f706658fcca366b6e2b7415c6d873",
-      "text": "3 次",
+      "text": "违反本法第9条第12款，在取得竣工确认书前使用垂直起降场，或未取得使用许可而使用垂直起降场的情形",
       "text_original": "3 次",
-      "text_reviewed": "3 次",
-      "review_status": "PENDING"
+      "text_reviewed": "违反本法第9条第12款，在取得竣工确认书前使用垂直起降场，或未取得使用许可而使用垂直起降场的情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00034",
@@ -4159,10 +5044,15 @@
       "end": null,
       "target_id": "XML:2872991",
       "source_hash": "e6e77b83100b28e797f155f37162ee0a171cb2b4193e24205fbc9debf6cca32e",
-      "text": "或更高版本",
+      "text": "本法第31条第1款",
       "text_original": "或更高版本",
-      "text_reviewed": "或更高版本",
-      "review_status": "PENDING"
+      "text_reviewed": "本法第31条第1款",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00035",
@@ -4173,10 +5063,15 @@
       "end": null,
       "target_id": "XML:2872992",
       "source_hash": "9ea163357e163e2304d5273eb68ab750648ded1a922f6d9bde4c37f99ffaacab",
-      "text": "确认完成违反了《法》第9条第12款的规定",
+      "text": "300",
       "text_original": "确认完成违反了《法》第9条第12款的规定",
-      "text_reviewed": "确认完成违反了《法》第9条第12款的规定",
-      "review_status": "PENDING"
+      "text_reviewed": "300",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00036",
@@ -4187,10 +5082,15 @@
       "end": null,
       "target_id": "XML:2872993",
       "source_hash": "2cccf71081dc5a73e89758a70ccf6fe61c156b2375e462c0812e3aab350950df",
-      "text": "该法第31条第1款",
+      "text": "400",
       "text_original": "该法第31条第1款",
-      "text_reviewed": "该法第31条第1款",
-      "review_status": "PENDING"
+      "text_reviewed": "400",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00037",
@@ -4201,10 +5101,15 @@
       "end": null,
       "target_id": "XML:2872994",
       "source_hash": "983bd614bb5afece5ab3b6023f71147cd7b6bc2314f9d27af7422541c6558389",
-      "text": "300",
+      "text": "500",
       "text_original": "300",
-      "text_reviewed": "300",
-      "review_status": "PENDING"
+      "text_reviewed": "500",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00038",
@@ -4215,10 +5120,15 @@
       "end": null,
       "target_id": "XML:2872995",
       "source_hash": "26d228663f13a88592a12d16cf9587caab0388b262d6d9f126ed62f9333aca94",
-      "text": "400",
+      "text": "（个别标准表结束）",
       "text_original": "400",
-      "text_reviewed": "400",
-      "review_status": "PENDING"
+      "text_reviewed": "（个别标准表结束）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00039",
