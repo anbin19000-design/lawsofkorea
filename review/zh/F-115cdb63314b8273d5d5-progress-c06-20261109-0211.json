@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 3160,
+    "verified_zh_rows": 3275,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 3160,
-      "checked_rows": 3160,
+      "next_row_zero_based": 3275,
+      "checked_rows": 3275,
       "total_rows": 5228
     }
   },
@@ -4513,9 +4513,207 @@
       "text": "长度",
       "original_text": "扩展",
       "reason": "연장을 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00393",
+      "text": "竣工日期",
+      "original_text": "完成日期MTQab988e36dac4b3bb00205结束",
+      "reason": "준공일 표제에 MTQ 잔존"
+    },
+    {
+      "id": "A4687-zh-00394",
+      "text": "实施者",
+      "original_text": "执行器",
+      "reason": "시행자를 기계 실행기로 오역"
+    },
+    {
+      "id": "A4687-zh-00396",
+      "text": "设计者",
+      "original_text": "设计器",
+      "reason": "설계자를 장치로 오역"
+    },
+    {
+      "id": "A4687-zh-00397",
+      "text": "监理者",
+      "original_text": "主管",
+      "reason": "감리자를 단순 관리자/主管으로 오역"
+    },
+    {
+      "id": "A4687-zh-00401",
+      "text": "监理费",
+      "original_text": "监督",
+      "reason": "감리비를 감독 행위로 오역"
+    },
+    {
+      "id": "A4687-zh-00403",
+      "text": "2-5. 地下人行通道规格",
+      "original_text": "2-5. 地下人行隧道规范",
+      "reason": "지하보도 제원을 지하 인도 터널 규정으로 오역"
+    },
+    {
+      "id": "A4687-zh-00411",
+      "text": "⑦地下人行通道名称",
+      "original_text": "⑦地下通道名称",
+      "reason": "지하보도 명칭의 보행자 시설 구분 누락"
+    },
+    {
+      "id": "A4687-zh-00412",
+      "text": "⑧设施类别",
+      "original_text": "⑧ 按设施类型",
+      "reason": "시설물 종별을 문장형으로 오역"
+    },
+    {
+      "id": "A4687-zh-00416",
+      "text": "⑪终点",
+      "original_text": "⑪终端",
+      "reason": "종점을 단말로 오역"
+    },
+    {
+      "id": "A4687-zh-00417",
+      "text": "⑫状态等级",
+      "original_text": "⑫条件等级",
+      "reason": "상태등급을 조건등급으로 오역"
+    },
+    {
+      "id": "A4687-zh-00419",
+      "text": "⑭长度",
+      "original_text": "⑭扩展",
+      "reason": "연장을 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00422",
+      "text": "饰面材料",
+      "original_text": "完成物料MTQdba100db1d89811701925结束",
+      "reason": "마감재 표제의 MTQ 잔존 및 의미 훼손"
+    },
+    {
+      "id": "A4687-zh-00423",
+      "text": "照明设施",
+      "original_text": "照明安装",
+      "reason": "조명시설을 설치 행위로 오역"
+    },
+    {
+      "id": "A4687-zh-00447",
+      "text": "2-6. 高架道路规格",
+      "original_text": "2-6. 高架道路规范",
+      "reason": "고가도로 제원을 규정으로 오역"
+    },
+    {
+      "id": "A4687-zh-00454",
+      "text": "⑥路段",
+      "original_text": "⑥部分",
+      "reason": "구간을 단순 부분으로 축소 번역"
+    },
+    {
+      "id": "A4687-zh-00455",
+      "text": "⑦高架道路",
+      "original_text": "⑦高架路",
+      "reason": "고가도로 명칭을 불완전하게 번역"
+    },
+    {
+      "id": "A4687-zh-00460",
+      "text": "⑪终点",
+      "original_text": "⑪终端",
+      "reason": "종점을 단말로 오역"
+    },
+    {
+      "id": "A4687-zh-00461",
+      "text": "⑫状态等级",
+      "original_text": "⑫条件等级",
+      "reason": "상태등급을 조건등급으로 오역"
+    },
+    {
+      "id": "A4687-zh-00464",
+      "text": "匝道",
+      "original_text": "MTQ7672a3a8f971aa7500741启动灯",
+      "reason": "램프(匝道) 번역에 MTQ 토큰 잔존 및 오역"
+    },
+    {
+      "id": "A4687-zh-00465",
+      "text": "材质",
+      "original_text": "物料",
+      "reason": "재질을 물량·자재로 오역"
+    },
+    {
+      "id": "A4687-zh-00466",
+      "text": "⑭宽度",
+      "original_text": "⑭宽度",
+      "reason": "폭원 항목의 의미 보존, 표기 정돈"
+    },
+    {
+      "id": "A4687-zh-00468",
+      "text": "车行道",
+      "original_text": "汽车",
+      "reason": "차도를 자동차로 오역"
+    },
+    {
+      "id": "A4687-zh-00469",
+      "text": "长度",
+      "original_text": "扩展",
+      "reason": "연장을 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00470",
+      "text": "宽度",
+      "original_text": "按",
+      "reason": "폭원 항목이 한 글자로 훼손됨"
+    },
+    {
+      "id": "A4687-zh-00471",
+      "text": "车道数",
+      "original_text": "通道号",
+      "reason": "차로 수를 통로 번호로 오역"
+    },
+    {
+      "id": "A4687-zh-00472",
+      "text": "长度",
+      "original_text": "扩展",
+      "reason": "연장을 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00475",
+      "text": "结构形式",
+      "original_text": "结构格式",
+      "reason": "구조형식을 포맷으로 오역"
+    },
+    {
+      "id": "A4687-zh-00476",
+      "text": "照明设施",
+      "original_text": "照明安装",
+      "reason": "조명시설을 설치 행위로 오역"
+    },
+    {
+      "id": "A4687-zh-00477",
+      "text": "隔音设施",
+      "original_text": "隔音",
+      "reason": "방음시설의 시설 의미 누락"
+    },
+    {
+      "id": "A4687-zh-00478",
+      "text": "上部结构",
+      "original_text": "上层建筑",
+      "reason": "상부구조를 건축물로 오역"
+    },
+    {
+      "id": "A4687-zh-00479",
+      "text": "下部结构",
+      "original_text": "子结构",
+      "reason": "하부구조를 하위 구조로 직역"
+    },
+    {
+      "id": "A4687-zh-00483",
+      "text": "长度",
+      "original_text": "扩展",
+      "reason": "연장을 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00485",
+      "text": "允许通行荷载",
+      "original_text": "允许的流量负载",
+      "reason": "허용 통행하중을 교통량 부하로 오역"
     }
   ],
-  "note": "Sequential review continued through row 3159, covering pedestrian overpass and underpass/road subway specifications. Added 26 corrections for concrete vs sphere, type, length/count, accessibility and auxiliary facilities, construction/monitoring roles and dates (MTQ residue), underground road passage title, condition grade, lane count/direction, finish materials and clearance height. Previous 700 edits retained. Continue at row 3160. IN_PROGRESS.",
+  "note": "Sequential review advanced through row 3274, covering underground pedestrian passage and elevated road specifications. Added 33 focused corrections for repeated MTQ residue, professional roles, pedestrian underpass title/name, facility classification, condition grade, lengths, elevated road/ramp terminology, carriageway, width/lanes, structural type, lighting/soundproof facilities, super/substructure and allowable traffic load. Previous 727 edits retained. Continue from row 3275. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
