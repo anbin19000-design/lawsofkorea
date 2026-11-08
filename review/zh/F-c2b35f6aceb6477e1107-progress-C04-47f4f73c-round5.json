@@ -1,0 +1,33 @@
+{
+  "schema": "LAW_ZH_PROGRESS_V1",
+  "assignment_id": "S2-901caa00a22014b2aeb6d9a618edfdbf",
+  "task_id": "WORK-TASK:C04:F-c2b35f6aceb6477e1107:47f4f73cb388",
+  "job_id": "F-c2b35f6aceb6477e1107",
+  "worker": "C04",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
+    "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
+    "zh": "f8879f4a12299069e4831b03f15a2a2fa30c8089"
+  },
+  "documents": 15,
+  "rows_total": 1241,
+  "stored_corrections": 29,
+  "review_sha": "47135bd34fa5518bcb0f69a7d5c32ca9586b7572",
+  "added_this_execution": [
+    "B2-zh-00013",
+    "B3-zh-00009"
+  ],
+  "next_first_unverified_id": "B1-zh-00086",
+  "english_coverage": {
+    "matched_rows": 911,
+    "unmatched_rows": 330,
+    "linked_documents": [
+      "documents/en/i18n-30c3050cbb553734f8fc4548761a39285370ec6a24622fea.json",
+      "documents/en/i18n-8e67defe715c03e2fdbe6b9fcb2be0977a75c21062f2311d.json",
+      "documents/en/kr-005377-250483-en.json",
+      "documents/en/i18n-48a16230baeb3c5f73d18ded886283542b8c54523670e1f9.json"
+    ]
+  },
+  "note": "Original blobs unchanged. Existing 27 corrections preserved, 2 verified and saved. Linked English documents were fetched; full sequential human-semantic read and all 1241 Chinese rows have not been certified. Do not mark COMPLETE."
+}
