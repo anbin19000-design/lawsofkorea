@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 123,
+    "correction_count": 129,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -886,6 +886,48 @@
       "original": "第七条（修改其他法律）①《特许经营业务公平交易法》实施令部分修改如下。\n\n  在第 5-4 条第 1 款中，“公共机构个人信息保护法第 2 条第 2 款”应改为“个人信息保护法第 2 条第 1 款”。\n\n  跳过 ② 到 ⑥\n\n",
       "corrected": "第七条（修改其他法律）①《特许经营业务公平交易法》实施令部分修改如下。\n\n  在第 5-4 条第 1 款中，“公共机构个人信息保护法第2条第2号”应改为“个人信息保护法第2条第1号”。\n\n  跳过 ② 到 ⑥\n\n",
       "reason": "제2조제2호·제1호의 ‘호’를 ‘항’으로 오인한 법조문 인용 오류."
+    },
+    "B2-zh-00128": {
+      "doc": "B2",
+      "source_hash": "097e6aeb3d2b6a9a94ead4cae7d40c277c75da61ce5ac96243b3350cea36ee20",
+      "original": "第二条（特许经营协议终止理由的适用性）第十五条第四款（b）项的修订规定，自特许经营者在本法令实施后违反与特许经营经营相关的法律法规之时起适用。\n\n",
+      "corrected": "第二条（特许经营协议终止理由的适用性）第十五条第四款（b）项的修订规定，自本法令施行后加盟店经营者违反与加盟店经营有关的法律法规的情形起适用。\n\n",
+      "reason": "제15조제4호나목 적용대상 가맹점사업자를 가맹본부로 잘못 번역한 당사자 오류."
+    },
+    "B2-zh-00131": {
+      "doc": "B2",
+      "source_hash": "6aa0df07b56526780e3927580383c67bb260a7d51b1def15285b2dce63c999c9",
+      "original": "第 2 条（适用于信息披露声明中要求的事项）附件 1 的修订规定自信息披露声明登记之时起适用，或自本法令生效后登记并修改登记之时起适用。\n\n",
+      "corrected": "第 2 条（适用于信息披露声明中要求的事项）附件 1 的修订规定适用于本法令施行后登记或办理变更登记的信息披露声明。\n\n",
+      "reason": "부칙 제2조의 시행 후 등록 또는 변경등록 조건이 문장 구조 오류로 분리되어 원문 범위를 벗어남."
+    },
+    "B2-zh-00133": {
+      "doc": "B2",
+      "source_hash": "802e5c83c6bcba56742ddfb49507a69c03e5ca651dba583c47b16082aa789cbd",
+      "original": "第四条（关于变更登记通知等的过渡措施）① 特许人在本法令实施前已登记变更披露声明的情况，即使第五条第三款第九项的规定有所修改，仍适用先前的规定。 \n\n  ② 如果加盟商在本法令实施之前向特许人要求修改信息披露声明，则尽管第 5-3 条第 10 款的规定有所修改，仍适用之前的规定。\n\n",
+      "corrected": "第四条（关于变更登记通知等的过渡措施）① 特许人在本法令实施前已登记变更披露声明的情况，即使第五条之三第9款的规定有所修改，仍适用先前的规定。 \n\n  ② 如果加盟商在本法令实施之前向特许人要求修改信息披露声明，则尽管第 5-3 条第 10 款的规定有所修改，仍适用之前的规定。\n\n",
+      "reason": "제5조의3제9항을 제5조제3항제9호로 오인한 인용 오류."
+    },
+    "B2-zh-00145": {
+      "doc": "B2",
+      "source_hash": "feadc57468a374824517372367f6ad86c61858c0c57ffa45959839ef3f75185e",
+      "original": "第 2 条（适用于信息披露声明中要求的事项）附件 1 的修订规定自信息披露声明根据本法第 6 条第 2 款登记或修改之日起，自附录第 1 条但书生效之日起适用。\n\n",
+      "corrected": "第 2 条（适用于信息披露声明中要求的事项）附件 1 的修订规定适用于附则第1条但书规定的施行日之后，依本法第6条之2登记或办理变更登记的信息披露声明。\n\n",
+      "reason": "제6조의2를 제6조제2항으로 오인하고 적용 기준일과 적용대상 구조가 잘못된 인용 오류."
+    },
+    "B2-zh-00147": {
+      "doc": "B2",
+      "source_hash": "eea854196ca8b225a54249d83711ebb6e7752c7c967cd6b0cab058b9b5795f04",
+      "original": "第一条（生效日期）本法令自2018年7月17日起生效。但是，经修订的第37条和附件5第2项第（j）款至第（h）款的规定自2018年10月18日起生效。\n\n",
+      "corrected": "第一条（生效日期）本法令自2018年7月17日起生效。但是，经修订的第37条和附表5第2号自“자”目至“하”目的规定自2018年10月18日起生效。\n\n",
+      "reason": "별표5 제2호 자목부터 하목까지의 한글 목 번호를 영어 알파벳 j~h로 오인한 인용 오류."
+    },
+    "B2-zh-00148": {
+      "doc": "B2",
+      "source_hash": "2eb913164b6fa69482c8b56fb7ac056f532316da7facf2dcd6d5521014c5af67",
+      "original": "第二条（关于行政罚款标准的过渡措施）  根据附件五第2项第（j）款至第（h）款修订规定，对在附件五生效日之前发生的违法行为处以行政罚款的，不计入违法次数的计算。\n\n",
+      "corrected": "第二条（关于行政罚款标准的过渡措施）  根据附表5第2号自“자”目至“하”目修订规定，对于附则第1条但书规定的施行日前违法行为所受到的行政罚款处分，不计入修订后的附表5第2号自“자”目至“하”目所规定的违法次数计算。\n\n",
+      "reason": "한글 자~하목 조문 번호가 j~h로 잘못 번역되었고 처분의 위반횟수 산정대상을 명시할 필요가 있음."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -936,7 +978,8 @@
     "C05 16c9500f212b: B2 Articles 14-18 reviewed; corrected Article 15 administrative termination grounds/lettering, Article 16-2 insurance contract termination prohibition (critical reversal), Article 17 paragraph numbering, and Article 18 dispute committee identity. Existing edits preserved; IN_PROGRESS.",
     "C05 16c9500f212b continuation: B2 Articles 21-2, 25, 27-29 corrected for dispute committee identity, reporting direction, wrong court-stay cross-reference, missing paragraph labels and exam exemption/fee refund kinship scope. Prior corrections preserved; IN_PROGRESS.",
     "C05 16c9500f212b continuation: B2 Articles 30, 32-3 and 32-4 corrected for missing paragraph markers and publication-order legal effect. Prior work preserved; IN_PROGRESS.",
-    "C05 0ecaf31c3202: B2 transitional provisions sequential inspection rows 79-105, seven confirmed errors in permissive clause, article-number citations, annex citations, old-standard application corrected; full family review not certified."
+    "C05 0ecaf31c3202: B2 transitional provisions sequential inspection rows 79-105, seven confirmed errors in permissive clause, article-number citations, annex citations, old-standard application corrected; full family review not certified.",
+    "C05 0ecaf31c3202 continuation: B2 supplementary clauses 106-152 reviewed in order; corrected six source-grounded party, effective-date and article/annex citations; full audit incomplete."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -945,5 +988,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 123
+  "corrected_rows": 129
 }
