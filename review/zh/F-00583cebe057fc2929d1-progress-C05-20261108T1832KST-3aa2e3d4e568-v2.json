@@ -1,0 +1,24 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "worker": "C05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "74efc12a4ca3a4e8580566f06cb86727b4f315e4",
+  "previous_progress": "review/zh/F-00583cebe057fc2929d1-progress-C05-20261108T1832KST-3aa2e3d4e568.json",
+  "correction_count": 170,
+  "added": [
+    "A29604-zh-00043",
+    "A29604-zh-00044"
+  ],
+  "duplicates_preserved": [
+    "A29604-zh-00042"
+  ],
+  "notes": "별표 법 조문과 특허심판원 명칭 오역 2건 추가. 원문 대응/판독 보류 사항 유지. 완료 영수증 없음."
+}
