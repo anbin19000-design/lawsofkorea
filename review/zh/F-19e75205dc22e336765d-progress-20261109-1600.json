@@ -1,0 +1,92 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-19e75205dc22e336765d",
+  "worker": "C06",
+  "panel_id": "panel-06",
+  "pc": "WORK-C",
+  "status": "IN_PROGRESS",
+  "checkpoint": "2026-11-09T16:00:00+09:00",
+  "active_assignment": {
+    "assignment_id": "UW-e7b1c2fbea7713747efc0430f7209c01",
+    "status": "ACTIVE",
+    "conversation_url": "https://chatgpt.com/c/6af0d459-1248-83e8-8b0a-0cdd2d4330be",
+    "source_commit": "cfb1d2139b0964af5165eecacfab57c57c1fe432"
+  },
+  "worker_binding": {
+    "assistant_count": 2,
+    "bootstrap_marker": "[KIIP-GITHUB-WORKER-BOOTSTRAP:C06:20261107]",
+    "conversation_id": "6af0d459-1248-83e8-8b0a-0cdd2d4330be",
+    "handoff_assignment_id": "S2-30caa1192ecd4c75a8ea030b41cf3e77",
+    "panel_id": "panel-06",
+    "pc": "WORK-C",
+    "ready_text": "C06 READY",
+    "replaced_url": "https://chatgpt.com/c/6af0cc75-699c-83ec-bf5d-6600e8a49506",
+    "status": "WORKING",
+    "title": "중국어 법령 검수",
+    "url": "https://chatgpt.com/c/6af0d459-1248-83e8-8b0a-0cdd2d4330be",
+    "verified": true,
+    "verified_at": "2026-11-08T20:00:39.144119+00:00",
+    "worker": "C06"
+  },
+  "source_blobs": {
+    "ko": "f3c381ac40a93d2dd0c81eeeec800d0484334dce",
+    "en": "9ccc8a185bc0a2975d2e349d3fc3690f6e4b439b",
+    "zh": "42d5c0c29e2439f506c7209aebee695f5a1a631b"
+  },
+  "reading": {
+    "ko": {
+      "status": "FULL_READ",
+      "documents": 30,
+      "characters": 238917
+    },
+    "en": {
+      "status": "FULL_READ",
+      "index_documents": 30,
+      "exact_documents": 1,
+      "fallback_documents": 29,
+      "rows_with_english": 1558,
+      "rows_without_english": 772
+    },
+    "zh": {
+      "status": "PARTIAL_REVIEW",
+      "documents": 30,
+      "rows": 2330,
+      "checked_rows": 1250
+    }
+  },
+  "review_path": "review/zh/F-19e75205dc22e336765d.json",
+  "review_sha": "05a4acf740e4523c647a4dc2e0225f86016b115e",
+  "edits_saved": 1413,
+  "changes_since_last_checkpoint": {
+    "new_or_refined_corrections": 85,
+    "latest_commit": "cf908af1041ab20f90420021858a1a2ed3f1e7e6",
+    "description": "A29831~A29834 인감대장 4종(일반/재외국민/외국인/국내거소신고자용)의 표제·인감신고사항·주소이동·보호신청 필드 정정; A29852/53 인감증명서 및 전자민원용 증명서 필드·확인번호·발급기관 문구 정정."
+  },
+  "quality_scan": {
+    "nonheld_rows": 2245,
+    "anomalies": [
+      {
+        "id": "A29855-zh-00044",
+        "type": "proper-name URL",
+        "text": "民愿24（www.minwon.go.kr）"
+      }
+    ]
+  },
+  "holds": [
+    {
+      "document": "A29851",
+      "source_hash": "1131eebc012f57cbcf1e90743a58d595b346bedd4405cdd37fefa08b632ba896",
+      "affected_rows": 85,
+      "reason": "한국어 source_ko 자체에 다수의 ? 및 손상문자가 포함되어 의미 복원이 불가능하며 정확한 공식 영문 대응본도 확인되지 않음. 임의 번역·복원 금지."
+    }
+  ],
+  "pending": [
+    "B1/B2 잔여 부칙·개정이력의 의미·인용·날짜 순차 대조",
+    "A29829~A29861 잔여 서식의 각 필드와 표 구조 순차 대조",
+    "A29851 신뢰 가능한 공식 원문 확보 여부 확인",
+    "영문 미대응 772행을 한국어 원문과 대조하고 영어 부재 상태 유지",
+    "전체 누락·MTQ·수치·조문번호·법령명·기관명·서식 연속성 최종 QA",
+    "모든 검수 조건 충족 후에만 review COMPLETE 및 receipt 저장·재조회"
+  ],
+  "protection": "C06 active assignment and verified binding; all source SHAs unchanged; no source law or operational DB modified."
+}
