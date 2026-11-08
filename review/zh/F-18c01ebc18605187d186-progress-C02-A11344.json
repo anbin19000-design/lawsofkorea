@@ -1,0 +1,27 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-18c01ebc18605187d186",
+  "worker": "C02",
+  "assignment_id": "UW-0a673f8b565379da27f279fba00d2225",
+  "status": "IN_PROGRESS",
+  "checkpoint_id": "C02-20261109-A11344-CHECKED",
+  "resume_at": "A11345",
+  "source_blob_sha": {
+    "ko": "1805b1dd08b6fb873f41f2ecc4a176f21df600e7",
+    "en": "012c37af32361e00852ac15d80479e7420c1c02b",
+    "zh": "33f05fab4e90982af82e2021dd54235f11428a33"
+  },
+  "verified_source_counts": {
+    "documents": 65,
+    "zh_rows": 5238
+  },
+  "reviewed_document": {
+    "key": "A11344",
+    "title": "정신요양시설의 이용ㆍ운영 기준",
+    "ko_source_sha256": "354063fcd674d7f3dc8856432e3ff09c967d08a7be36b6b5629e9d6d9194849a",
+    "zh_rows": 135,
+    "corrected_rows": 120,
+    "english_status": "NO_DOCUMENT_ENGLISH"
+  },
+  "note": "A11344 all 135 rows compared in order with the full Korean Appendix 5-5. 120 clear mistranslations/segmentation artifacts corrected minimally; numeric thresholds and split-cell structure retained. Main review accumulated; family remains IN_PROGRESS. Resume with A11345; do not repeat prior reviewed documents."
+}
