@@ -1,0 +1,46 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "worker": "C05",
+  "assignment_marker": "[WORK-TASK:C05:F-00583cebe057fc2929d1:1ca6b7fbd069]",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "e0f16148d2fae5932af81c81e62c48c6655393fe",
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "prior_corrections": 234,
+  "new_corrections": [
+    {
+      "id": "B1-zh-00092",
+      "source_hash": "61a9fd0b47642a338e2acde2186c1bbb5b52a2da322a051283d1bf8ace3614cf",
+      "decision": "CORRECT",
+      "reason": "부칙 제4조 전용실시권은 특정 실용신안에 대한 전용실시권(专用实施权)이며 일반 '专有许可权'이 아님."
+    },
+    {
+      "id": "B1-zh-00076",
+      "source_hash": "da4022b89677c80f29794e194eb6ac5b722047657afc37ed893e7216157c7031",
+      "decision": "CORRECT",
+      "reason": "부칙 제2조 최초 출원부터 적용되는 경과조치의 범위를 첫 신청 한 건에만 적용되는 것으로 오인하지 않도록 '부터'를 복원."
+    },
+    {
+      "id": "B1-zh-00087",
+      "source_hash": "a44f034efec134ac916ee79d82bd34dae5c4ab673fa0042151f81ec385505ae8",
+      "decision": "CORRECT",
+      "reason": "부칙 제10502호 제2항의 '최초로 출원하는 ...부터 적용'은 개정 규정의 적용 시작점을 뜻함."
+    }
+  ],
+  "total_corrections": 237,
+  "pending_rows_preserved": 89,
+  "english_note": "Official exact-version English for law and decree; rule/forms older version fallback only, not same-version English.",
+  "reading_status": "FULL_KO_EN_ZH_SEQUENTIAL_READING_NOT_VERIFIED",
+  "completion_receipt": null,
+  "notes": "원문 SHA 및 234건 기저장 교정 유지. 부칙 3행 최소 교정 누적. 전체 서류 독해·서식 원문 판독 보류는 해결되지 않음."
+}
