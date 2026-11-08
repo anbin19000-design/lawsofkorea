@@ -1,0 +1,160 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_blob_observed": "003cad21fa104b32a22b7d401755e50ffab76f42",
+  "cumulative_corrections": 866,
+  "inspected_span": "A34915 all 54 rows read sequentially against the complete Korean Schedule 4-2. Existing corrections for rows 2–3, 6–17, 22, 26–28, 31, 35–49 were retained. Verified severity categories, revenue base, cap of KRW 500 million, violation duration, 100% first adjustment, 70% second adjustment, 50% reduction and exceptional over-50% reduction, decision reasons, insolvency and exemption conditions.",
+  "proposed_corrections": [
+    {
+      "id": "A34915-zh-00001",
+      "source_hash": "ecd37a2723f73f6ffa1d6e40ebaf00ecb23329cf6088817d61bd1bf82be595c3",
+      "text": "■ 《特许经营业务交易公平化法实施令》[附表4之2] <2026年8月4日修订>",
+      "reason": "별표 4의2 표기를 일반 표/부속서가 아닌 법령 별표로 복구."
+    },
+    {
+      "id": "A34915-zh-00004",
+      "source_hash": "08fdc94b1dd7261cae9a07d6030b081b9f1aa4ee7c2b04e84d810ad1bb214765",
+      "text": "应优先考虑违法行为的内容及程度，并综合考虑市场状况等因素，决定是否征收附加罚款；",
+      "reason": "과징금 부과 여부 결정 시 위반행위 내용·정도 우선 고려 및 시장상황 종합 고려의 구조를 복구."
+    },
+    {
+      "id": "A34915-zh-00005",
+      "source_hash": "ce458fa5aaa053e8d0d2dabf94627fce619ec80af5306308ebbee2fa7e33ac6f",
+      "text": "但属于下列任何一项情形的，原则上应征收附加罚款：",
+      "reason": "다음 각 목 중 어느 하나에 해당하는 경우 원칙적 부과라는 규범구조 복구."
+    },
+    {
+      "id": "A34915-zh-00013",
+      "source_hash": "b94eefd9dfde23ec10ae663f4c5db26d05819a0187f8707991256d953784ee50",
+      "text": "应考虑本法第35条第2款各项所列事项及影响这些事项的相关因素计算附加罚款，",
+      "reason": "과징금 산정 시 고려사항과 이에 영향을 미치는 사항의 관계를 복구."
+    },
+    {
+      "id": "A34915-zh-00014",
+      "source_hash": "6a33aad0beeac553e4aace61d9654869092b29fa26bc67dfac77d8b8738e881f",
+      "text": "并依照(a)目所定基本计算标准，结合(b)目规定的违法行为期间及次数等因素进行调整，",
+      "reason": "가목 기본산정기준과 나목 위반기간·횟수 조정의 순서 복구."
+    },
+    {
+      "id": "A34915-zh-00015",
+      "source_hash": "bf256b378406896246879b2baa2b5452256d86d600f7bd6a72e08b2bb718ab73",
+      "text": "再依照(c)目规定的违法行为性质及情节等因素进行调整，",
+      "reason": "다목 위반행위 성격·사정에 따른 2차 조정 연결 복구."
+    },
+    {
+      "id": "A34915-zh-00018",
+      "source_hash": "85522e46b9af56cd59031c7e885d1b18020e94c055dbaaa6ea1181c66bf5f192",
+      "text": "1) 根据本法第35条第2款第1项所规定违法行为的内容及程度，",
+      "reason": "위반행위의 내용 및 정도에 따른 중대성 구분 문맥 복구."
+    },
+    {
+      "id": "A34915-zh-00019",
+      "source_hash": "a9fe767858c5579e44c9c01e30ef7cc40ca15a6d7bc76431575a6d85d1c26ac1",
+      "text": "将违法行为的严重程度分为“严重性较轻的违法行为”“严重违法行为”和“非常严重违法行为”三类，",
+      "reason": "위반행위 중대성의 세 단계 분류를 정확히 복구."
+    },
+    {
+      "id": "A34915-zh-00020",
+      "source_hash": "aa50ad5d5a90f802eb7cc1d18453a3e77ad8d67f9c930b23af196ac9e79184ae",
+      "text": "并按各严重程度类别适用第2)项规定的标准计算。",
+      "reason": "중대성 정도별 2) 기준에 따라 산정한다는 연결 복구."
+    },
+    {
+      "id": "A34915-zh-00023",
+      "source_hash": "cde9d004f2915f8a3514c7660cc56158b8e381111cdc2d4489afd646166c645f",
+      "text": "但是，属于第34条第3款各项所列情形之一的，应在5亿韩元以内，考虑违法行为严重程度计算。",
+      "reason": "제34조제3항 각 호 해당 시 5억원 이내에서 중대성을 고려해 산정한다는 예외를 복구."
+    },
+    {
+      "id": "A34915-zh-00025",
+      "source_hash": "de757e70b64dc492ca65912ea929f73dae3518e8167d36a8d84f28c22075bc9b",
+      "text": "3) 违法期间为自违法行为开始之日起至终止之日止的期间；",
+      "reason": "위반기간 정의의 시작·종료 시점을 복구."
+    },
+    {
+      "id": "A34915-zh-00029",
+      "source_hash": "8bb4c806a83d578f5ef32f3896aed8241f6bc80107b4343a301aee550d2ecc27",
+      "text": "在基本计算标准的100%范围内，依照公平交易委员会规定并公告的标准进行调整。",
+      "reason": "기본 산정기준 100분의 100 범위 조정의 법률구조를 복구."
+    },
+    {
+      "id": "A34915-zh-00030",
+      "source_hash": "1b4aa18021a31f2bd3a3c693ca84025a431fc38396f9e2c8488cde8e062821dc",
+      "text": "",
+      "reason": "앞 행의 '기준에 따라 조정한다'와 중복되는 분절 여부 확인 필요."
+    },
+    {
+      "id": "A34915-zh-00032",
+      "source_hash": "a2b1ee3d7b2a0185c844573800a4aed0a77811870b6e4833f5d9dc477ff16aa5",
+      "text": "考虑违法行为的性质、情节以及特许总部配合调查等因素，",
+      "reason": "위반행위 성격·사정 및 조사협력 요소를 정확히 복구."
+    },
+    {
+      "id": "A34915-zh-00033",
+      "source_hash": "15391ec366294105fb8bd3bd6bc093b94117868234c12464da3cc3f303839aa1",
+      "text": "在经第一次调整的基本计算标准70%的范围内，",
+      "reason": "1차 조정 기본산정기준의 70% 범위 내라는 상한을 복구."
+    },
+    {
+      "id": "A34915-zh-00034",
+      "source_hash": "ee049b58005cefa134f12c72675890e513ee2dcfe84c7935cf8df939f0626c04",
+      "text": "依照公平交易委员会规定并公告的标准进行调整。",
+      "reason": "공정위 고시 기준에 따른 조정의 주체와 방식 복구."
+    },
+    {
+      "id": "A34915-zh-00045",
+      "source_hash": "57d074ec1a991e39d980acb9b025ff8d0bcd802a4a3dc4e7161e8ee42a17c0fa",
+      "text": "2) 如减轻经第二次调整的基本计算标准，",
+      "reason": "2차 조정 기본산정기준 감액의 조건을 정확히 표현."
+    },
+    {
+      "id": "A34915-zh-00050",
+      "source_hash": "49d1e65e5f72930e50a9d8e4b3668029430dbc03fba48356361bdc8c3a1beed1",
+      "text": "",
+      "reason": "앞 행의 면제 규정과 연결되는 중복 파편인지 확인."
+    },
+    {
+      "id": "A34915-zh-00051",
+      "source_hash": "e6d167c13be390d6e9c88b0e64d82f94f289edc21a88a53c2c9ffe6bcd076dd",
+      "text": "3. 制定详细标准",
+      "reason": "세부기준의 제정이라는 표제 복구."
+    },
+    {
+      "id": "A34915-zh-00052",
+      "source_hash": "28e0cecc1f1a4d999192810fa747bce0402e9b41ccf1d322b8ec25034fa90b41",
+      "text": "关于基本计算标准征收基准率、相关销售额计算的详细标准、第一次调整及",
+      "reason": "과징금 부과기준율 및 관련매출액 산정 세부기준의 열거를 복구."
+    },
+    {
+      "id": "A34915-zh-00053",
+      "source_hash": "e042ab8479fa4b13c5eb3d0ca7a6b7c3f7bd04616a10029c7dfe526707e71f7f",
+      "text": "第二次调整以及其他征收附加罚款所需的详细标准和方法等事项，",
+      "reason": "2차 조정 및 과징금 부과에 필요한 세부기준과 방법의 문장 연결."
+    }
+  ],
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "chinese_total_rows": 1687,
+  "checked_rows": 849,
+  "corrected_rows": 866,
+  "quality_open_items": [
+    "Full sequential semantic audit of all 1,687 Chinese rows remains incomplete",
+    "429 rows without independently exact English require direct Korean/Chinese semantic comparison",
+    "A34909–A34914 candidates checkpoint-only",
+    "A34915 reviewed all 54 rows; candidates checkpoint-only",
+    "A34916 (212 rows) and remaining forms require sequential review and final QC"
+  ],
+  "note": "No source SHA changed. Proposed edits checkpoint-only, official correction count unchanged. IN_PROGRESS; no receipt."
+}
