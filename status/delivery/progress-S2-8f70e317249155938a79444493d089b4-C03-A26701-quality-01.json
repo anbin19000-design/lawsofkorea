@@ -1,0 +1,277 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26701",
+  "quality_batch": "A26701-quality-01",
+  "range": {
+    "first": "A26701-zh-00001",
+    "last": "A26701-zh-00025"
+  },
+  "quality_checked_rows": 25,
+  "quality_passed_rows": 25,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "A26701-zh-00001",
+    "A26701-zh-00002",
+    "A26701-zh-00003",
+    "A26701-zh-00004",
+    "A26701-zh-00005",
+    "A26701-zh-00006",
+    "A26701-zh-00007",
+    "A26701-zh-00008",
+    "A26701-zh-00009",
+    "A26701-zh-00010",
+    "A26701-zh-00011",
+    "A26701-zh-00012",
+    "A26701-zh-00013",
+    "A26701-zh-00014",
+    "A26701-zh-00015",
+    "A26701-zh-00016",
+    "A26701-zh-00017",
+    "A26701-zh-00018",
+    "A26701-zh-00019",
+    "A26701-zh-00020",
+    "A26701-zh-00021",
+    "A26701-zh-00022",
+    "A26701-zh-00023",
+    "A26701-zh-00024",
+    "A26701-zh-00025"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_files": [
+    "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26701-00001-00095.json",
+    "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-R1.json"
+  ],
+  "results": [
+    {
+      "id": "A26701-zh-00001",
+      "source_hash": "308b6cf362bb14bdc29b895b9ca424483a17fbe87b73fbd35bbd68680531ce77",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시행규칙 별지 제9호서식 공식 명칭"
+    },
+    {
+      "id": "A26701-zh-00002",
+      "source_hash": "7c0dbca399d1f81c88b641cc22cc7f65e8c960324c6e4be59b92415d3093cba7",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인신매매등피해자지원시설 지정신청서"
+    },
+    {
+      "id": "A26701-zh-00003",
+      "source_hash": "a3c1fbd2cef06fcfb82a0b35f78cc2a758ceb09cdc3489c5e3f6552f56ade4dd",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "체크 표시 작성 안내"
+    },
+    {
+      "id": "A26701-zh-00004",
+      "source_hash": "b736160e9f7f0d321a2b458369e87ad0a76a9b7c00b4454ad463a28ce8d1d95b",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "접수번호·일시 및 신청인·법인 등록번호"
+    },
+    {
+      "id": "A26701-zh-00005",
+      "source_hash": "5a4e38a1578eaec376cc5e1ad28f33f019956fc98d46f14b142cad94c5b1d1a5",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "접수번호·일시 및 신청인·법인 등록번호"
+    },
+    {
+      "id": "A26701-zh-00006",
+      "source_hash": "0b53beb448ea9caab555a2008aafaddf46ce8b8d662609949810cf258b29ccb5",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "접수번호·일시 및 신청인·법인 등록번호"
+    },
+    {
+      "id": "A26701-zh-00007",
+      "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "기저장 R1 처리기간 MTQ 제거 및 원문 대응"
+    },
+    {
+      "id": "A26701-zh-00008",
+      "source_hash": "4191dd8d20f47dced8b1e95af0a2b477da7f98b6b27016e5eb2593f3d7af2bb4",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "처리기간 7일 수치"
+    },
+    {
+      "id": "A26701-zh-00009",
+      "source_hash": "ef1661bfe1d0b773aea1bc51daf1dfa70e9d997454acf123165fd7df67dc959c",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "접수번호·일시 및 신청인·법인 등록번호"
+    },
+    {
+      "id": "A26701-zh-00010",
+      "source_hash": "135b2d53c337583773ec05ac31eb1e280c78db754abfe7dcfb462196f269bdae",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "접수번호·일시 및 신청인·법인 등록번호"
+    },
+    {
+      "id": "A26701-zh-00011",
+      "source_hash": "f7ea9e331f80935959d8c179f685fbbdfde7f0301e791106a64b454bb1d6e80c",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "접수번호·일시 및 신청인·법인 등록번호"
+    },
+    {
+      "id": "A26701-zh-00012",
+      "source_hash": "9c635dfe3b527939800a75a08c73a174d782945e784ebacca95c2a70eeaab86b",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "접수번호·일시 및 신청인·법인 등록번호"
+    },
+    {
+      "id": "A26701-zh-00013",
+      "source_hash": "4edc94394feec0a6ca6b04c04db74384ad82a009922c2195ea48a7c1cda5088e",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "접수번호·일시 및 신청인·법인 등록번호"
+    },
+    {
+      "id": "A26701-zh-00014",
+      "source_hash": "28e058c7cec8846e6c5fb52308685e1c534d4b8a745ab01a9d40c045f3fd6c71",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "접수번호·일시 및 신청인·법인 등록번호"
+    },
+    {
+      "id": "A26701-zh-00015",
+      "source_hash": "d6190fb77a7ff6d9c9ed4b3404454b31c394bfcb69afd9e10bf3affcb9d022f7",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시설명·시설장·운영예정일·입소정원 항목"
+    },
+    {
+      "id": "A26701-zh-00016",
+      "source_hash": "4cda38a249ab558190e607c4e4e9aca9c14c4591b75debb9989be5cba4ceab0f",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시설명·시설장·운영예정일·입소정원 항목"
+    },
+    {
+      "id": "A26701-zh-00017",
+      "source_hash": "39df5cce3483c414190ddec8771e60aed4bc3f6d6b299c9f49dc3e45f0eafba9",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시설명·시설장·운영예정일·입소정원 항목"
+    },
+    {
+      "id": "A26701-zh-00018",
+      "source_hash": "ef4403031e6e67eb6ff612ac7f030ff5fcf2e12e2b56fe2fa253adc78b0c68bb",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시설명·시설장·운영예정일·입소정원 항목"
+    },
+    {
+      "id": "A26701-zh-00019",
+      "source_hash": "e5ac93c257305de93a487c1ced0a64993a58dab1ab2b277227fa514e6d658068",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시설명·시설장·운영예정일·입소정원 항목"
+    },
+    {
+      "id": "A26701-zh-00020",
+      "source_hash": "f7ea9e331f80935959d8c179f685fbbdfde7f0301e791106a64b454bb1d6e80c",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시설명·시설장·운영예정일·입소정원 항목"
+    },
+    {
+      "id": "A26701-zh-00021",
+      "source_hash": "53b8b3cbc7a11fd0d9ada2d552deea61d684fba25e7a14e707c34d7b8995c410",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시설명·시설장·운영예정일·입소정원 항목"
+    },
+    {
+      "id": "A26701-zh-00022",
+      "source_hash": "53810a3e9123c0cd88342cf17c63376a647c775f5d964ace7d49a76d24c5524e",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시설명·시설장·운영예정일·입소정원 항목"
+    },
+    {
+      "id": "A26701-zh-00023",
+      "source_hash": "25b97dd897d354fcec632766e0669bb1c978329964ab3f6a3d2f4c2d83e84403",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시설 설비 총 면적과 거실 첫 셀"
+    },
+    {
+      "id": "A26701-zh-00024",
+      "source_hash": "5a849f1fc9d520fe3fc6c5527b3ed46b776b38a878724fb77858177cfaac612c",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시설 설비 총 면적과 거실 첫 셀"
+    },
+    {
+      "id": "A26701-zh-00025",
+      "source_hash": "1534653f3e1368421deef3cfcd121844ee31cc01d31762eb12651ea26c4e4935",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시설 설비 총 면적과 거실 첫 셀"
+    }
+  ],
+  "edits": [],
+  "note": "A26701 피해자지원시설 지정신청서 1~25행을 한국어 표·기저장 교정과 대조. 원본 처리기간 7일과 R1 처리기간 교정, 입소정원 및 면적 구분 확인. 기존 파일 변경 없음. 가족 전체 COMPLETE 아님."
+}
