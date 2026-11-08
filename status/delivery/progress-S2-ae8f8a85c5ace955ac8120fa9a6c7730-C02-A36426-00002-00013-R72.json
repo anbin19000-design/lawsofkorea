@@ -1,0 +1,63 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 12,
+  "checked_ids": [
+    "A36426-zh-00002",
+    "A36426-zh-00003",
+    "A36426-zh-00004",
+    "A36426-zh-00005",
+    "A36426-zh-00006",
+    "A36426-zh-00007",
+    "A36426-zh-00008",
+    "A36426-zh-00009",
+    "A36426-zh-00010",
+    "A36426-zh-00011",
+    "A36426-zh-00012",
+    "A36426-zh-00013"
+  ],
+  "edits": [
+    {
+      "id": "A36426-zh-00002",
+      "source_hash": "246033a07903bd814d205ebb80e488cc82fd73c42126c043195672cd0263bbb4",
+      "target_id": "XML:2657310",
+      "text": "委托业务及受托机构、团体的范围（与第六十条第二款有关）"
+    },
+    {
+      "id": "A36426-zh-00003",
+      "source_hash": "8d5a7929f2742cb75d2fb0ce815527728f3124a8da8c27fc8201e4136f0b97b7",
+      "target_id": "XML:2657311",
+      "text": "委托业务"
+    },
+    {
+      "id": "A36426-zh-00010",
+      "source_hash": "f597971ba7c4d19437e846072435133aada69630b88130ec83bc43ddf76e072a",
+      "target_id": "XML:2657318",
+      "text": "2. 依据本法第二十九条第二款，国土交通"
+    },
+    {
+      "id": "A36426-zh-00012",
+      "source_hash": "8022bcece77f1ab64a41c24f89bda82619a0cf261b29cd51f8453fdb139e2de2",
+      "target_id": "XML:2657320",
+      "text": "部长官对智慧城市特化园区所需的"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "supersedes": [
+    {
+      "id": "A36426-zh-00010",
+      "previous_path": "status/delivery/progress-S2-ae8f8a85c5ace955ac8120fa9a6c7730-A36426-00001-00050.json",
+      "previous_text": "2. 依据本法第二十九条第二款，国土交通部长官对",
+      "reason": "When joined with original A36426-zh-00012, minister reference repeats; align sentence boundary with Korean table text."
+    }
+  ],
+  "note": "R72 compared A36426 rows 2-13 and connected Korean annex 3 table cells. New corrections to heading and委托业务, and explicit override of previous row 10 to avoid duplicate minister across row 12. Original source rows/hash remain unchanged. No family COMPLETE receipt."
+}
