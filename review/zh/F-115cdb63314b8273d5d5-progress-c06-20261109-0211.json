@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 4060,
+    "verified_zh_rows": 4165,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 4060,
-      "checked_rows": 4060,
+      "next_row_zero_based": 4165,
+      "checked_rows": 4165,
       "total_rows": 5228
     }
   },
@@ -6235,9 +6235,249 @@
       "text": "5. 对于涉及道路开挖的占用，在④栏填写“由申请人或道路管理机关（许可机关）负责恢复”。",
       "original_text": "5. 在④中，对于涉及道路挖掘的占用，请填写“由申请人或道路管理机构（许可证持有人）进行修复”。",
       "reason": "도로 복구 방법에서 도로관리청을 허가자로 오역"
+    },
+    {
+      "id": "A4689-zh-00149",
+      "text": "市、郡",
+      "original_text": "古·思·Gun",
+      "reason": "시·군을 음역과 영문 Gun으로 훼손"
+    },
+    {
+      "id": "A4689-zh-00150",
+      "text": "市、郡",
+      "original_text": "古·思·Gun",
+      "reason": "시·군을 음역과 영문 Gun으로 훼손"
+    },
+    {
+      "id": "A4689-zh-00157",
+      "text": "1. 对于特别自治市及特别自治道，申请由其直接受理并办理，办理期限按占用类别适用广域市及道的办理期限。",
+      "original_text": "1. 对于特别自治市和特别自治道，道路占用许可证申请直接受理和处理，处理时间为",
+      "reason": "처리기간 일반 적용례 문장 완결"
+    },
+    {
+      "id": "A4689-zh-00158",
+      "text": "广域市及道的办理期限按占用类别适用。",
+      "original_text": "大都市和省份的处理期限是根据占用等级划分的。",
+      "reason": "점용 구분에 따라 처리기간 적용을 ‘등급’으로 오역"
+    },
+    {
+      "id": "A4689-zh-00160",
+      "text": "2. 括号内的天数为全部办理期限中与警察厅（警察署）协商处理所需的时间。",
+      "original_text": "2. (",
+      "reason": "괄호 내 일수의 협의처리기간 설명을 복구"
+    },
+    {
+      "id": "A4689-zh-00161",
+      "text": "申请指南及办理程序",
+      "original_text": "应用指南和处理流程",
+      "reason": "신청안내 및 처리절차의 법률서식 표현 정돈"
+    },
+    {
+      "id": "A4689-zh-00164",
+      "text": "主管部门",
+      "original_text": "部门负责人",
+      "reason": "담당부서를 부서 책임자로 오역"
+    },
+    {
+      "id": "A4689-zh-00166",
+      "text": "2. 一般国道：国土管理事务所",
+      "original_text": "2. 国道总局：区域土地管理办公室",
+      "reason": "일반국도 신청처를 국도총국으로 오역"
+    },
+    {
+      "id": "A4689-zh-00167",
+      "text": "2. 一般国道：养护科",
+      "original_text": "2. 国家公路总局：养护部",
+      "reason": "일반국도 담당부서를 국도총국으로 오역"
+    },
+    {
+      "id": "A4689-zh-00168",
+      "text": "3. 特别市道、广域市道、地方道、市道、郡道及区道：",
+      "original_text": "3. 特殊城市/省级公路 · 大都会城市/省级公路 · 城市/省级公路 ·",
+      "reason": "도로 종류 목록을 부정확하게 번역"
+    },
+    {
+      "id": "A4689-zh-00169",
+      "text": "3. 特别市道、广域市道、地方道、市道、郡道及区道：",
+      "original_text": "3. 特别城市/省·大都会城市/省·地方道路·",
+      "reason": "도로 종류 목록의 분절·누락 오류"
+    },
+    {
+      "id": "A4689-zh-00170",
+      "text": "特别市、广域市、特别自治市、道、特别自治道、",
+      "original_text": "结构：特区·大都会·特自治市·省·特区",
+      "reason": "행정기관 종류를 구조로 오역"
+    },
+    {
+      "id": "A4689-zh-00171",
+      "text": "市、郡及区（邑、面、洞）",
+      "original_text": "城市/省/军区/区：建设部门或建设",
+      "reason": "시·군·구(읍·면·동) 행정구역을 건설부서로 오역"
+    },
+    {
+      "id": "A4689-zh-00172",
+      "text": "（邑",
+      "original_text": "自治道·市·郡·区 (邑",
+      "reason": "행정구역 괄호 구간을 불완전 번역"
+    },
+    {
+      "id": "A4689-zh-00173",
+      "text": "、面、洞）",
+      "original_text": "·面·洞)",
+      "reason": "읍·면·동 행정구역 표기를 정돈"
+    },
+    {
+      "id": "A4689-zh-00176",
+      "text": "批准",
+      "original_text": "付款",
+      "reason": "결재를 지불로 오역"
+    },
+    {
+      "id": "A4690-zh-00001",
+      "text": "道路占用许可期限延长申请书",
+      "original_text": "道路占用许可证延期申请",
+      "reason": "도로점용허가 기간연장 신청서의 법률서식 명칭 정돈"
+    },
+    {
+      "id": "A4690-zh-00004",
+      "text": "收件日期",
+      "original_text": "收货日期",
+      "reason": "접수일을 물품 수령일로 오역"
+    },
+    {
+      "id": "A4690-zh-00005",
+      "text": "办理期限：7日",
+      "original_text": "处理周期MTQc2e2f91c71addd2000420结束",
+      "reason": "처리기간에 MTQ 잔존"
+    },
+    {
+      "id": "A4690-zh-00008",
+      "text": "姓名（法人填写法人名称及代表人姓名）",
+      "original_text": "Name（如果是公司，则填写公司名称和代表姓名）",
+      "reason": "신청인 성명을 영어 Name으로 미번역"
+    },
+    {
+      "id": "A4690-zh-00016",
+      "text": "原许可期限",
+      "original_text": "初始授权期",
+      "reason": "최초 허가기간을 권한 기간으로 오역"
+    },
+    {
+      "id": "A4690-zh-00018",
+      "text": "占用地点及面积",
+      "original_text": "占用地点和区域",
+      "reason": "점용의 장소 및 면적의 법률용어 정돈"
+    },
+    {
+      "id": "A4690-zh-00020",
+      "text": "本人依据《道路法》第六十一条第一款及同法施行规则第二十六条第二款，申请延长上述道路占用许可期限。",
+      "original_text": "根据《道路法》第61条第1款和该法实施细则第26条第2款的规定，延长上述道路占用许可证期限[新]",
+      "reason": "신청문에 불필요한 [新] 잔존 및 법령명·문장 오류"
+    },
+    {
+      "id": "A4690-zh-00027",
+      "text": "致道路管理机关",
+      "original_text": "您的",
+      "reason": "도로관리청 귀하를 ‘당신의’로 오역"
+    },
+    {
+      "id": "A4690-zh-00029",
+      "text": "手续费",
+      "original_text": "费用",
+      "reason": "수수료를 일반 비용으로 축소"
+    },
+    {
+      "id": "A4690-zh-00030",
+      "text": "1,000韩元，或按行政机关所属地方自治团体条例规定的金额",
+      "original_text": "1,000 韩元或行政机构",
+      "reason": "수수료 금액과 조례상 금액의 문장 구조 훼손"
+    },
+    {
+      "id": "A4690-zh-00036",
+      "text": "法律依据",
+      "original_text": "基本法",
+      "reason": "근거 법률을 기본법으로 오역"
+    },
+    {
+      "id": "A4690-zh-00039",
+      "text": "并征收损失补偿金。[]",
+      "original_text": "I 应予征收（《道路法》第72条和第114条第6款）。",
+      "reason": "변상금 부과 문장을 문자 I로 훼손"
+    },
+    {
+      "id": "A4690-zh-00044",
+      "text": "4. 如拟延长占用期限，应在许可期限届满前取得延期许可。",
+      "original_text": "4. 如果您打算延长入住期限，则必须在许可证到期前获得延期许可证。",
+      "reason": "점용기간을 입주기간으로 오역"
+    },
+    {
+      "id": "A4690-zh-00045",
+      "text": "填写方法",
+      "original_text": "如何填写",
+      "reason": "작성방법 표제의 서식 용어 정돈"
+    },
+    {
+      "id": "A4690-zh-00050",
+      "text": "申请指南及办理程序",
+      "original_text": "应用指南和处理流程",
+      "reason": "신청안내 및 처리절차 표제 정돈"
+    },
+    {
+      "id": "A4690-zh-00053",
+      "text": "主管部门",
+      "original_text": "部门负责人",
+      "reason": "담당부서를 부서 책임자로 오역"
+    },
+    {
+      "id": "A4690-zh-00055",
+      "text": "2. 一般国道：国土管理事务所",
+      "original_text": "2. 国道总局：区域土地管理办公室",
+      "reason": "일반국도 신청처 오역"
+    },
+    {
+      "id": "A4690-zh-00056",
+      "text": "2. 一般国道：养护科",
+      "original_text": "2. 国家公路总局：养护部",
+      "reason": "일반국도 담당부서 오역"
+    },
+    {
+      "id": "A4690-zh-00057",
+      "text": "3. 特别市道、广域市道、地方道、市道、郡道及区道：",
+      "original_text": "3. 特殊城市/省级公路 · 大都会城市/省级公路 · 城市/省级公路 · 县级公路 ·",
+      "reason": "도로 종류 목록의 번역 오류"
+    },
+    {
+      "id": "A4690-zh-00058",
+      "text": "特别市、广域市、特别自治市、道、特别自治道、",
+      "original_text": "3. 特别城市/省·大都会城市/省·地方道路·",
+      "reason": "행정기관 목록의 행정구역 명칭 오류"
+    },
+    {
+      "id": "A4690-zh-00059",
+      "text": "市、郡及区（邑、面、洞）",
+      "original_text": "结构：特区·大都会·特自治市·省·特区",
+      "reason": "행정구역을 구조로 오역"
+    },
+    {
+      "id": "A4690-zh-00060",
+      "text": "建设科或建设管理科",
+      "original_text": "城市/省/军区/区：建设部门/建设",
+      "reason": "담당 부서를 부정확하게 번역"
+    },
+    {
+      "id": "A4690-zh-00061",
+      "text": "特别自治道、市、郡及区（邑、面、洞）",
+      "original_text": "自治道·市·郡·区 (邑·面·洞)",
+      "reason": "행정구역 목록의 분절·누락 정돈"
+    },
+    {
+      "id": "A4690-zh-00065",
+      "text": "批准",
+      "original_text": "付款",
+      "reason": "결재를 지불로 오역"
     }
   ],
-  "note": "Sequential review continued through row 4059 of A4689, the road occupation permit application form (front and back) including application fields, attachments, fee, legal notices and completion guidance. Added 27 targeted corrections for rule title, receipt/processing labels and MTQ token, applicant details, road occupation terminology, permit addressee, fees/currency, major underground utility documents, legal basis and penalties, and instructions. Previous 986 edits retained. Continue from row 4060. IN_PROGRESS.",
+  "note": "Sequential review advanced through row 4164, completing A4689 road occupation permit application and A4690 road occupation permit extension application forms, including processing table, application routing and procedural notes. Added 38 focused corrections for local government jurisdiction labels, processing table terminology, receipt/department/approval labels, application title and fields, fees, legal basis, compensation charge and permit extension terminology. Previous 1014 edits retained. Continue from row 4165 with A4691. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
