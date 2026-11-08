@@ -19,10 +19,10 @@
   "progress": {
     "korean": "COMPLETE",
     "english": "COMPLETE",
-    "chinese": "IN_PROGRESS; A27041 criteria corrected; form MTQ/OCR remnants corrected for A27044/47/48/49/52/53/56/57/58 and inspector ID A27061. Other forms and annex tables remain under sequential review.",
-    "reviewed_rows": 360,
-    "corrected_rows": 325,
-    "remaining_rows": 915
+    "chinese": "IN_PROGRESS; A27040/A27042/A27043 general criteria reviewed and corrected; individual disposition tables still pending.",
+    "reviewed_rows": 450,
+    "corrected_rows": 415,
+    "remaining_rows": 825
   },
   "documents": [],
   "rows": [
@@ -5736,10 +5736,15 @@
       "end": null,
       "target_id": "XML:1906377",
       "source_hash": "d0ebc3d0132334fe7b527bf0f357c263198426ed1161cd07ca0813c45c0a5a7c",
-      "text": "■ 城市空中交通促进支援法实施细则 [附表1]",
+      "text": "1. 一般标准",
       "text_original": "■ 城市空中交通促进支援法实施细则 [附表1]",
-      "text_reviewed": "■ 城市空中交通促进支援法实施细则 [附表1]",
-      "review_status": "PENDING"
+      "text_reviewed": "1. 一般标准",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00002",
@@ -5750,10 +5755,15 @@
       "end": null,
       "target_id": "XML:1906378",
       "source_hash": "82eaa7ca7538387c2a701703b0051970528b5e73d21dcb65440dcbf9105eb672",
-      "text": "对城市空中交通示范项目运营者采取处置措施（包括撤销指定）的详细标准（与第7条相关）",
+      "text": "a. 有两项以上违法行为且各自适用的处分标准不同时，适用较重的处分标准；两项以上处分标准均为停止事业时，可在不超过各处分标准期间总和的范围内，将较重处分标准加重至其二分之一以内。",
       "text_original": "对城市空中交通示范项目运营者采取处置措施（包括撤销指定）的详细标准（与第7条相关）",
-      "text_reviewed": "对城市空中交通示范项目运营者采取处置措施（包括撤销指定）的详细标准（与第7条相关）",
-      "review_status": "PENDING"
+      "text_reviewed": "a. 有两项以上违法行为且各自适用的处分标准不同时，适用较重的处分标准；两项以上处分标准均为停止事业时，可在不超过各处分标准期间总和的范围内，将较重处分标准加重至其二分之一以内。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00003",
@@ -5764,10 +5774,15 @@
       "end": null,
       "target_id": "XML:1906379",
       "source_hash": "a617cf3ccc65ba6af0228b05b78c02b61364dbd74e669da8ea55dab0e5a320b6",
-      "text": "1. 通用标准",
+      "text": "（一般标准a目续）",
       "text_original": "1. 通用标准",
-      "text_reviewed": "1. 通用标准",
-      "review_status": "PENDING"
+      "text_reviewed": "（一般标准a目续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00004",
@@ -5778,10 +5793,15 @@
       "end": null,
       "target_id": "XML:1906380",
       "source_hash": "8de19a9851bafc0d9e8534affb2612ea5a9f00991702c7b6a2fa736bbadece45",
-      "text": "a. 存在两项或两项以上违规行为且相应处理标准不同的情况",
+      "text": "（加重后的停止事业期间不得超过各处分标准期间总和）",
       "text_original": "a. 存在两项或两项以上违规行为且相应处理标准不同的情况",
-      "text_reviewed": "a. 存在两项或两项以上违规行为且相应处理标准不同的情况",
-      "review_status": "PENDING"
+      "text_reviewed": "（加重后的停止事业期间不得超过各处分标准期间总和）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00005",
@@ -5792,10 +5812,15 @@
       "end": null,
       "target_id": "XML:1906381",
       "source_hash": "f380d68dad68f89ca7c746b3b3e43546f744700a91faa9211c7d7ea4fe43afce",
-      "text": "如果两项处置标准均与业务相关，则适用较重的处置标准；如果两项或两项以上处置标准均与业务相关，则适用较重的标准。",
+      "text": "b. 根据违法行为次数适用的行政处分标准，适用于最近1年内因相同违法行为受到行政处分的情形。期间以该违法行为受到行政处分之日，以及处分后再次实施相同违法行为并被查获之日为准。",
       "text_original": "如果两项处置标准均与业务相关，则适用较重的处置标准；如果两项或两项以上处置标准均与业务相关，则适用较重的标准。",
-      "text_reviewed": "如果两项处置标准均与业务相关，则适用较重的处置标准；如果两项或两项以上处置标准均与业务相关，则适用较重的标准。",
-      "review_status": "PENDING"
+      "text_reviewed": "b. 根据违法行为次数适用的行政处分标准，适用于最近1年内因相同违法行为受到行政处分的情形。期间以该违法行为受到行政处分之日，以及处分后再次实施相同违法行为并被查获之日为准。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00006",
@@ -5806,10 +5831,15 @@
       "end": null,
       "target_id": "XML:1906382",
       "source_hash": "91b632f651bc2a1b4eb1c145b2111a75d0c14be451085ee7577adc2b10698106",
-      "text": "对于特定地点，应处以严厉制裁，制裁期限不得超过各项处置标准期限的总和。",
+      "text": "（期间计算规则续）",
       "text_original": "对于特定地点，应处以严厉制裁，制裁期限不得超过各项处置标准期限的总和。",
-      "text_reviewed": "对于特定地点，应处以严厉制裁，制裁期限不得超过各项处置标准期限的总和。",
-      "review_status": "PENDING"
+      "text_reviewed": "（期间计算规则续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00007",
@@ -5820,10 +5850,15 @@
       "end": null,
       "target_id": "XML:1906383",
       "source_hash": "37104ad64f6ed2c52ac8b8d471a24e1ed051dfa9255c4e691bed7b694c1d0394",
-      "text": "分割标准权重在处置标准的一半范围内。",
+      "text": "（以再次查获相同违法行为之日为准）",
       "text_original": "分割标准权重在处置标准的一半范围内。",
-      "text_reviewed": "分割标准权重在处置标准的一半范围内。",
-      "review_status": "PENDING"
+      "text_reviewed": "（以再次查获相同违法行为之日为准）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00008",
@@ -5834,10 +5869,15 @@
       "end": null,
       "target_id": "XML:1906384",
       "source_hash": "886be2ef5b4aee4e948bb3bf35327ea6d1bd3613a8c50718715c24a628ace150",
-      "text": "B. 基于违规次数的行政处罚标准是：对于过去一年内发生的相同违规行为，行政处罚的处罚次数越多，处罚力度越大。",
+      "text": "c. 依据b目作出加重行政处分时，加重处分的适用次数为该违法行为发生前的处分次数（b目规定期间内受到两次以上行政处分时，指其中较高的次数）的下一次。",
       "text_original": "B. 基于违规次数的行政处罚标准是：对于过去一年内发生的相同违规行为，行政处罚的处罚次数越多，处罚力度越大。",
-      "text_reviewed": "B. 基于违规次数的行政处罚标准是：对于过去一年内发生的相同违规行为，行政处罚的处罚次数越多，处罚力度越大。",
-      "review_status": "PENDING"
+      "text_reviewed": "c. 依据b目作出加重行政处分时，加重处分的适用次数为该违法行为发生前的处分次数（b目规定期间内受到两次以上行政处分时，指其中较高的次数）的下一次。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00009",
@@ -5848,10 +5888,15 @@
       "end": null,
       "target_id": "XML:1906385",
       "source_hash": "7ccf973ee38bc8b094bfc87512db1b8a33d1087fdee1277cd87483601a940ac0",
-      "text": "这适用于已收到处理结果的情况。在这种情况下，违规期限的计算方式如下。",
+      "text": "（加重处分次数的计算规则续）",
       "text_original": "这适用于已收到处理结果的情况。在这种情况下，违规期限的计算方式如下。",
-      "text_reviewed": "这适用于已收到处理结果的情况。在这种情况下，违规期限的计算方式如下。",
-      "review_status": "PENDING"
+      "text_reviewed": "（加重处分次数的计算规则续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00010",
@@ -5862,10 +5907,15 @@
       "end": null,
       "target_id": "XML:1906386",
       "source_hash": "7009b2c2379c001f97eea9f10d2dbb92e768557f492c35bf231ada13c5322d3d",
-      "text": "收到行政处分通知书的日期与处分后再次发现相同违规行为的日期。",
+      "text": "（以较高处分次数的下一次作为适用次数）",
       "text_original": "收到行政处分通知书的日期与处分后再次发现相同违规行为的日期。",
-      "text_reviewed": "收到行政处分通知书的日期与处分后再次发现相同违规行为的日期。",
-      "review_status": "PENDING"
+      "text_reviewed": "（以较高处分次数的下一次作为适用次数）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00011",
@@ -5876,10 +5926,15 @@
       "end": null,
       "target_id": "XML:1906387",
       "source_hash": "9b89d7cd2509de17c1a6d0149951449ce86d9c7d01f7585cfd31f8abd887216c",
-      "text": ".",
+      "text": "d. 处分权人可根据违法行为的动机、内容、次数及程度等，在下列加重或减轻事由成立时，于处分标准二分之一范围内加重或减轻停止事业期间。但加重时，停止事业期间不得超过6个月。",
       "text_original": ".",
-      "text_reviewed": ".",
-      "review_status": "PENDING"
+      "text_reviewed": "d. 处分权人可根据违法行为的动机、内容、次数及程度等，在下列加重或减轻事由成立时，于处分标准二分之一范围内加重或减轻停止事业期间。但加重时，停止事业期间不得超过6个月。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00012",
@@ -5890,10 +5945,15 @@
       "end": null,
       "target_id": "XML:1906388",
       "source_hash": "e810f74ec857ad1d9a22e3c17114d5d98557049edb9198ebf79b57f03c065d8c",
-      "text": "。根据B款规定施加加重​​行政处罚的，加重处罚的适用顺序为上文所述",
+      "text": "（加重或减轻停止事业期间的标准续）",
       "text_original": "。根据B款规定施加加重​​行政处罚的，加重处罚的适用顺序为上文所述",
-      "text_reviewed": "。根据B款规定施加加重​​行政处罚的，加重处罚的适用顺序为上文所述",
-      "review_status": "PENDING"
+      "text_reviewed": "（加重或减轻停止事业期间的标准续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00013",
@@ -5904,10 +5964,15 @@
       "end": null,
       "target_id": "XML:1906389",
       "source_hash": "d354559bac93b1a95409ee2146a8cc3d19a6e02cfbfc8bc07da2ed840ad57a03",
-      "text": "先前针对该违规行为的处理令（当根据B款规定在期限内作出两项或两项以上行政处理时）",
+      "text": "（停止事业期间上限为6个月）",
       "text_original": "先前针对该违规行为的处理令（当根据B款规定在期限内作出两项或两项以上行政处理时）",
-      "text_reviewed": "先前针对该违规行为的处理令（当根据B款规定在期限内作出两项或两项以上行政处理时）",
-      "review_status": "PENDING"
+      "text_reviewed": "（停止事业期间上限为6个月）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00014",
@@ -5918,10 +5983,15 @@
       "end": null,
       "target_id": "XML:1906390",
       "source_hash": "71756296611284f3c1f665df5f50ed9ad628948ede6569451d97728ae313dd9f",
-      "text": "以上指的是较高阶指令）应为下一阶指令。",
+      "text": "1) 加重事由",
       "text_original": "以上指的是较高阶指令）应为下一阶指令。",
-      "text_reviewed": "以上指的是较高阶指令）应为下一阶指令。",
-      "review_status": "PENDING"
+      "text_reviewed": "1) 加重事由",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00015",
@@ -5932,10 +6002,15 @@
       "end": null,
       "target_id": "XML:1906391",
       "source_hash": "2b46bd76cfab78e989a1ae0d6a610fb30c2ff88484940738307f9c469369e0d6",
-      "text": "d. 处理机关应当就违法行为的动机、内容、频率和程度等，考虑下列加重情节。",
+      "text": "a) 违法行为内容或程度严重，认定其对旅客等造成重大损害的情形",
       "text_original": "d. 处理机关应当就违法行为的动机、内容、频率和程度等，考虑下列加重情节。",
-      "text_reviewed": "d. 处理机关应当就违法行为的动机、内容、频率和程度等，考虑下列加重情节。",
-      "review_status": "PENDING"
+      "text_reviewed": "a) 违法行为内容或程度严重，认定其对旅客等造成重大损害的情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00016",
@@ -5946,10 +6021,15 @@
       "end": null,
       "target_id": "XML:1906392",
       "source_hash": "2e373e2e4ac5797e4477a6f9e71585ac7dcc71ffda3292d18658f34743d06c12",
-      "text": "在符合法定理由或减刑理由的情况下，在处置标准的一半范围内，企业",
+      "text": "（加重事由a目续）",
       "text_original": "在符合法定理由或减刑理由的情况下，在处置标准的一半范围内，企业",
-      "text_reviewed": "在符合法定理由或减刑理由的情况下，在处置标准的一半范围内，企业",
-      "review_status": "PENDING"
+      "text_reviewed": "（加重事由a目续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00017",
@@ -5960,10 +6040,15 @@
       "end": null,
       "target_id": "XML:1906393",
       "source_hash": "40dfbe466f4cd389f016dab79850818b153561f9703b53b3242fe804cbd6f162",
-      "text": "暂停期限可以延长或缩短。但是，即使延长暂停期限，企业也必须遵守相关规定。",
+      "text": "b) 违法状态持续6个月以上的情形",
       "text_original": "暂停期限可以延长或缩短。但是，即使延长暂停期限，企业也必须遵守相关规定。",
-      "text_reviewed": "暂停期限可以延长或缩短。但是，即使延长暂停期限，企业也必须遵守相关规定。",
-      "review_status": "PENDING"
+      "text_reviewed": "b) 违法状态持续6个月以上的情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00018",
@@ -5974,10 +6059,15 @@
       "end": null,
       "target_id": "XML:1906394",
       "source_hash": "0ff9c047b386d0376552302fda06b1ea8a9a3385b4873a22c26fa298538f5f9f",
-      "text": "停职期限不得超过6个月。",
+      "text": "c) 考虑违法行为程度、动机及其结果等，认定有必要加重处分的其他情形",
       "text_original": "停职期限不得超过6个月。",
-      "text_reviewed": "停职期限不得超过6个月。",
-      "review_status": "PENDING"
+      "text_reviewed": "c) 考虑违法行为程度、动机及其结果等，认定有必要加重处分的其他情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00019",
@@ -5988,10 +6078,15 @@
       "end": null,
       "target_id": "XML:1906395",
       "source_hash": "48b1c5907a056c058836b7ea90699c857dbe45745b92b1bb0d5e48bd32e3c0bb",
-      "text": "1) 加权原因",
+      "text": "（加重事由续）",
       "text_original": "1) 加权原因",
-      "text_reviewed": "1) 加权原因",
-      "review_status": "PENDING"
+      "text_reviewed": "（加重事由续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00020",
@@ -6002,10 +6097,15 @@
       "end": null,
       "target_id": "XML:1906396",
       "source_hash": "c639972e5af0b0b1f057214c6db5d3270252b31ee6359e0f147596d9661ca164",
-      "text": "a) 当违规行为的性质和程度严重，且对用户等造成的损害被认为重大时。",
+      "text": "2) 减轻事由",
       "text_original": "a) 当违规行为的性质和程度严重，且对用户等造成的损害被认为重大时。",
-      "text_reviewed": "a) 当违规行为的性质和程度严重，且对用户等造成的损害被认为重大时。",
-      "review_status": "PENDING"
+      "text_reviewed": "2) 减轻事由",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00021",
@@ -6016,10 +6116,15 @@
       "end": null,
       "target_id": "XML:1906397",
       "source_hash": "e1831b5da0f7207ef6aaa819bdb0899ca549273f22c0634020e633702944b1a1",
-      "text": "确定情况",
+      "text": "a) 认定违法行为系因轻微疏忽或错误所致的情形",
       "text_original": "确定情况",
-      "text_reviewed": "确定情况",
-      "review_status": "PENDING"
+      "text_reviewed": "a) 认定违法行为系因轻微疏忽或错误所致的情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00022",
@@ -6030,10 +6135,15 @@
       "end": null,
       "target_id": "XML:1906398",
       "source_hash": "5fc47b294c5fc64594110513552e6c745e172818c722820e61516626ff2c17d0",
-      "text": "b) 如果违规期限为 6 个月或更长",
+      "text": "b) 违法行为人立即纠正违法行为或采取改正措施，消除违法状态的情形",
       "text_original": "b) 如果违规期限为 6 个月或更长",
-      "text_reviewed": "b) 如果违规期限为 6 个月或更长",
-      "review_status": "PENDING"
+      "text_reviewed": "b) 违法行为人立即纠正违法行为或采取改正措施，消除违法状态的情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00023",
@@ -6044,10 +6154,15 @@
       "end": null,
       "target_id": "XML:1906399",
       "source_hash": "4c83a22413015bf65db17247a2f8de620414364ce5b0bb2e3b66b003a1420433",
-      "text": "d）此外，还应考虑违规的程度、违规的动机及其后果等。",
+      "text": "（减轻事由b目续）",
       "text_original": "d）此外，还应考虑违规的程度、违规的动机及其后果等。",
-      "text_reviewed": "d）此外，还应考虑违规的程度、违规的动机及其后果等。",
-      "review_status": "PENDING"
+      "text_reviewed": "（减轻事由b目续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00024",
@@ -6058,10 +6173,15 @@
       "end": null,
       "target_id": "XML:1906400",
       "source_hash": "88339eb189b6055cddefb749e0b0013a721208b64f14809db1385cfcec0ad477",
-      "text": "如有必要继续",
+      "text": "c) 考虑违法行为程度、动机及其结果等，认定有必要减轻处分的其他情形",
       "text_original": "如有必要继续",
-      "text_reviewed": "如有必要继续",
-      "review_status": "PENDING"
+      "text_reviewed": "c) 考虑违法行为程度、动机及其结果等，认定有必要减轻处分的其他情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00025",
@@ -6072,10 +6192,15 @@
       "end": null,
       "target_id": "XML:1906401",
       "source_hash": "489c511a6217b4a629194d29198817a347f133e9f2d90f406df62baff647e844",
-      "text": "2) 缓解措施的理由",
+      "text": "（减轻事由续）",
       "text_original": "2) 缓解措施的理由",
-      "text_reviewed": "2) 缓解措施的理由",
-      "review_status": "PENDING"
+      "text_reviewed": "（减轻事由续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00026",
@@ -6086,10 +6211,15 @@
       "end": null,
       "target_id": "XML:1906402",
       "source_hash": "50d286a0875bcd2f5ab22521186474b01e91f9595b00adf148c6bc32ade6711f",
-      "text": "a) 如果违规行为被认定为由于轻微疏忽或错误所致。",
+      "text": "（一般标准结束）",
       "text_original": "a) 如果违规行为被认定为由于轻微疏忽或错误所致。",
-      "text_reviewed": "a) 如果违规行为被认定为由于轻微疏忽或错误所致。",
-      "review_status": "PENDING"
+      "text_reviewed": "（一般标准结束）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00027",
@@ -6100,10 +6230,15 @@
       "end": null,
       "target_id": "XML:1906403",
       "source_hash": "ab2278d15ea5cb4b890d2fc1aca0fe77128ed8825cc45456870c434a79ff5465",
-      "text": "b) 如果违规者立即纠正或补救违规行为以解决违法状态",
+      "text": "（个别标准如下）",
       "text_original": "b) 如果违规者立即纠正或补救违规行为以解决违法状态",
-      "text_reviewed": "b) 如果违规者立即纠正或补救违规行为以解决违法状态",
-      "review_status": "PENDING"
+      "text_reviewed": "（个别标准如下）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00028",
@@ -6114,10 +6249,15 @@
       "end": null,
       "target_id": "XML:1906404",
       "source_hash": "6aba41338aa494a0e6b605edc6998dd88f064425ca89c071154c14af5a857c7b",
-      "text": "如果较小",
+      "text": "（表格标题）",
       "text_original": "如果较小",
-      "text_reviewed": "如果较小",
-      "review_status": "PENDING"
+      "text_reviewed": "（表格标题）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00029",
@@ -6128,10 +6268,15 @@
       "end": null,
       "target_id": "XML:1906405",
       "source_hash": "aed90b530fe1828060f4d10adfec72de912718f1d539716cd1480902890632b6",
-      "text": "d) 此外，还应考虑违规程度、违规动机及其后果等。",
+      "text": "（违法行为及处分标准）",
       "text_original": "d) 此外，还应考虑违规程度、违规动机及其后果等。",
-      "text_reviewed": "d) 此外，还应考虑违规程度、违规动机及其后果等。",
-      "review_status": "PENDING"
+      "text_reviewed": "（违法行为及处分标准）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00030",
@@ -6142,10 +6287,15 @@
       "end": null,
       "target_id": "XML:1906406",
       "source_hash": "8670f98fe6ca7cf3747a44f709171cc17dff8424b56760716c12227fe70c11b1",
-      "text": "如有必要继续",
+      "text": "（附件表格续）",
       "text_original": "如有必要继续",
-      "text_reviewed": "如有必要继续",
-      "review_status": "PENDING"
+      "text_reviewed": "（附件表格续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件1校正一般标准中的行政处分、加重减轻条件及期间计算。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00031",
@@ -7349,10 +7499,15 @@
       "end": null,
       "target_id": "XML:1906491",
       "source_hash": "f71067efd112a49cca9ee72bbcd43698a19d8b26eb23f27b2d5429a4341f07eb",
-      "text": "■ 城市空中交通促进支援法实施细则[附录3]",
+      "text": "1. 一般标准",
       "text_original": "■ 城市空中交通促进支援法实施细则[附录3]",
-      "text_reviewed": "■ 城市空中交通促进支援法实施细则[附录3]",
-      "review_status": "PENDING"
+      "text_reviewed": "1. 一般标准",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00002",
@@ -7363,10 +7518,15 @@
       "end": null,
       "target_id": "XML:1906492",
       "source_hash": "bab15064ac6077fc8848f517e6122ac49f62f011e7c486b2a366843d63238879",
-      "text": "对垂直起降场开发运营商采取处置措施（包括撤销许可证）的详细标准（与第16条相关）",
+      "text": "a. 有两项以上违法行为且各自适用的处分标准不同时，适用较重的处分标准；两项以上处分标准均为停止施工时，可在不超过各处分标准期间总和的范围内，将较重处分标准加重至其二分之一以内。",
       "text_original": "对垂直起降场开发运营商采取处置措施（包括撤销许可证）的详细标准（与第16条相关）",
-      "text_reviewed": "对垂直起降场开发运营商采取处置措施（包括撤销许可证）的详细标准（与第16条相关）",
-      "review_status": "PENDING"
+      "text_reviewed": "a. 有两项以上违法行为且各自适用的处分标准不同时，适用较重的处分标准；两项以上处分标准均为停止施工时，可在不超过各处分标准期间总和的范围内，将较重处分标准加重至其二分之一以内。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00003",
@@ -7377,10 +7537,15 @@
       "end": null,
       "target_id": "XML:1906493",
       "source_hash": "a617cf3ccc65ba6af0228b05b78c02b61364dbd74e669da8ea55dab0e5a320b6",
-      "text": "1. 通用标准",
+      "text": "（一般标准a目续）",
       "text_original": "1. 通用标准",
-      "text_reviewed": "1. 通用标准",
-      "review_status": "PENDING"
+      "text_reviewed": "（一般标准a目续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00004",
@@ -7391,10 +7556,15 @@
       "end": null,
       "target_id": "XML:1906494",
       "source_hash": "8de19a9851bafc0d9e8534affb2612ea5a9f00991702c7b6a2fa736bbadece45",
-      "text": "a. 存在两项或两项以上违规行为且相应处理标准不同的情况",
+      "text": "（加重后的停止事业期间不得超过各处分标准期间总和）",
       "text_original": "a. 存在两项或两项以上违规行为且相应处理标准不同的情况",
-      "text_reviewed": "a. 存在两项或两项以上违规行为且相应处理标准不同的情况",
-      "review_status": "PENDING"
+      "text_reviewed": "（加重后的停止事业期间不得超过各处分标准期间总和）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00005",
@@ -7405,10 +7575,15 @@
       "end": null,
       "target_id": "XML:1906495",
       "source_hash": "c7e044fdc82415296ceb56637a2307629a6ad0eb84eb76e5df005af8efd5c2c1",
-      "text": "，应适用其中较重的处置标准；如果两个或多个处置标准均为建筑",
+      "text": "b. 根据违法行为次数适用的行政处分标准，适用于最近1年内因相同违法行为受到行政处分的情形。期间以该违法行为受到行政处分之日，以及处分后再次实施相同违法行为并被查获之日为准。",
       "text_original": "，应适用其中较重的处置标准；如果两个或多个处置标准均为建筑",
-      "text_reviewed": "，应适用其中较重的处置标准；如果两个或多个处置标准均为建筑",
-      "review_status": "PENDING"
+      "text_reviewed": "b. 根据违法行为次数适用的行政处分标准，适用于最近1年内因相同违法行为受到行政处分的情形。期间以该违法行为受到行政处分之日，以及处分后再次实施相同违法行为并被查获之日为准。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00006",
@@ -7419,10 +7594,15 @@
       "end": null,
       "target_id": "XML:1906496",
       "source_hash": "779dfe861846e81cccf86ce70e7db834f75d073ac34ff11ab4c1a13257fc9dc9",
-      "text": "在暂停的情况下，在不超过每项处置标准期限总和的范围内，重度[]",
+      "text": "（期间计算规则续）",
       "text_original": "在暂停的情况下，在不超过每项处置标准期限总和的范围内，重度[]",
-      "text_reviewed": "在暂停的情况下，在不超过每项处置标准期限总和的范围内，重度[]",
-      "review_status": "PENDING"
+      "text_reviewed": "（期间计算规则续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00007",
@@ -7433,10 +7613,15 @@
       "end": null,
       "target_id": "XML:1906497",
       "source_hash": "689ab2f173d794e02362b846afd8d0af25b201c2ce905946bf7c9320ece3bf12",
-      "text": "处置标准的权重范围为处置标准的一半。",
+      "text": "（以再次查获相同违法行为之日为准）",
       "text_original": "处置标准的权重范围为处置标准的一半。",
-      "text_reviewed": "处置标准的权重范围为处置标准的一半。",
-      "review_status": "PENDING"
+      "text_reviewed": "（以再次查获相同违法行为之日为准）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00008",
@@ -7447,10 +7632,15 @@
       "end": null,
       "target_id": "XML:1906498",
       "source_hash": "886be2ef5b4aee4e948bb3bf35327ea6d1bd3613a8c50718715c24a628ace150",
-      "text": "B. 基于违规次数的行政处罚标准是：对于过去一年内发生的相同违规行为，行政处罚的处罚次数越多，处罚力度越大。",
+      "text": "c. 依据b目作出加重行政处分时，加重处分的适用次数为该违法行为发生前的处分次数（b目规定期间内受到两次以上行政处分时，指其中较高的次数）的下一次。",
       "text_original": "B. 基于违规次数的行政处罚标准是：对于过去一年内发生的相同违规行为，行政处罚的处罚次数越多，处罚力度越大。",
-      "text_reviewed": "B. 基于违规次数的行政处罚标准是：对于过去一年内发生的相同违规行为，行政处罚的处罚次数越多，处罚力度越大。",
-      "review_status": "PENDING"
+      "text_reviewed": "c. 依据b目作出加重行政处分时，加重处分的适用次数为该违法行为发生前的处分次数（b目规定期间内受到两次以上行政处分时，指其中较高的次数）的下一次。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00009",
@@ -7461,10 +7651,15 @@
       "end": null,
       "target_id": "XML:1906499",
       "source_hash": "7ccf973ee38bc8b094bfc87512db1b8a33d1087fdee1277cd87483601a940ac0",
-      "text": "这适用于已收到处理结果的情况。在这种情况下，违规期限的计算方式如下。",
+      "text": "（加重处分次数的计算规则续）",
       "text_original": "这适用于已收到处理结果的情况。在这种情况下，违规期限的计算方式如下。",
-      "text_reviewed": "这适用于已收到处理结果的情况。在这种情况下，违规期限的计算方式如下。",
-      "review_status": "PENDING"
+      "text_reviewed": "（加重处分次数的计算规则续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00010",
@@ -7475,10 +7670,15 @@
       "end": null,
       "target_id": "XML:1906500",
       "source_hash": "7009b2c2379c001f97eea9f10d2dbb92e768557f492c35bf231ada13c5322d3d",
-      "text": "收到行政处分通知书的日期与处分后再次发现相同违规行为的日期。",
+      "text": "（以较高处分次数的下一次作为适用次数）",
       "text_original": "收到行政处分通知书的日期与处分后再次发现相同违规行为的日期。",
-      "text_reviewed": "收到行政处分通知书的日期与处分后再次发现相同违规行为的日期。",
-      "review_status": "PENDING"
+      "text_reviewed": "（以较高处分次数的下一次作为适用次数）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00011",
@@ -7489,10 +7689,15 @@
       "end": null,
       "target_id": "XML:1906501",
       "source_hash": "9b89d7cd2509de17c1a6d0149951449ce86d9c7d01f7585cfd31f8abd887216c",
-      "text": ".",
+      "text": "d. 处分权人可根据违法行为的动机、内容、次数及程度等，在下列加重或减轻事由成立时，于处分标准二分之一范围内加重或减轻停止施工期间。但加重时，停止施工期间不得超过6个月。",
       "text_original": ".",
-      "text_reviewed": ".",
-      "review_status": "PENDING"
+      "text_reviewed": "d. 处分权人可根据违法行为的动机、内容、次数及程度等，在下列加重或减轻事由成立时，于处分标准二分之一范围内加重或减轻停止施工期间。但加重时，停止施工期间不得超过6个月。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00012",
@@ -7503,10 +7708,15 @@
       "end": null,
       "target_id": "XML:1906502",
       "source_hash": "e810f74ec857ad1d9a22e3c17114d5d98557049edb9198ebf79b57f03c065d8c",
-      "text": "。根据B款规定施加加重​​行政处罚的，加重处罚的适用顺序为上文所述",
+      "text": "（加重或减轻停止施工期间的标准续）",
       "text_original": "。根据B款规定施加加重​​行政处罚的，加重处罚的适用顺序为上文所述",
-      "text_reviewed": "。根据B款规定施加加重​​行政处罚的，加重处罚的适用顺序为上文所述",
-      "review_status": "PENDING"
+      "text_reviewed": "（加重或减轻停止施工期间的标准续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00013",
@@ -7517,10 +7727,15 @@
       "end": null,
       "target_id": "XML:1906503",
       "source_hash": "d354559bac93b1a95409ee2146a8cc3d19a6e02cfbfc8bc07da2ed840ad57a03",
-      "text": "先前针对该违规行为的处理令（当根据B款规定在期限内作出两项或两项以上行政处理时）",
+      "text": "（停止事业期间上限为6个月）",
       "text_original": "先前针对该违规行为的处理令（当根据B款规定在期限内作出两项或两项以上行政处理时）",
-      "text_reviewed": "先前针对该违规行为的处理令（当根据B款规定在期限内作出两项或两项以上行政处理时）",
-      "review_status": "PENDING"
+      "text_reviewed": "（停止事业期间上限为6个月）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00014",
@@ -7531,10 +7746,15 @@
       "end": null,
       "target_id": "XML:1906504",
       "source_hash": "71756296611284f3c1f665df5f50ed9ad628948ede6569451d97728ae313dd9f",
-      "text": "以上指的是较高阶指令）应为下一阶指令。",
+      "text": "1) 加重事由",
       "text_original": "以上指的是较高阶指令）应为下一阶指令。",
-      "text_reviewed": "以上指的是较高阶指令）应为下一阶指令。",
-      "review_status": "PENDING"
+      "text_reviewed": "1) 加重事由",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00015",
@@ -7545,10 +7765,15 @@
       "end": null,
       "target_id": "XML:1906505",
       "source_hash": "2b46bd76cfab78e989a1ae0d6a610fb30c2ff88484940738307f9c469369e0d6",
-      "text": "d. 处理机关应当就违法行为的动机、内容、频率和程度等，考虑下列加重情节。",
+      "text": "a) 违法行为内容或程度严重，认定其对公众造成重大损害的情形",
       "text_original": "d. 处理机关应当就违法行为的动机、内容、频率和程度等，考虑下列加重情节。",
-      "text_reviewed": "d. 处理机关应当就违法行为的动机、内容、频率和程度等，考虑下列加重情节。",
-      "review_status": "PENDING"
+      "text_reviewed": "a) 违法行为内容或程度严重，认定其对公众造成重大损害的情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00016",
@@ -7559,10 +7784,15 @@
       "end": null,
       "target_id": "XML:1906506",
       "source_hash": "2e373e2e4ac5797e4477a6f9e71585ac7dcc71ffda3292d18658f34743d06c12",
-      "text": "在符合法定理由或减刑理由的情况下，在处置标准的一半范围内，企业",
+      "text": "（加重事由a目续）",
       "text_original": "在符合法定理由或减刑理由的情况下，在处置标准的一半范围内，企业",
-      "text_reviewed": "在符合法定理由或减刑理由的情况下，在处置标准的一半范围内，企业",
-      "review_status": "PENDING"
+      "text_reviewed": "（加重事由a目续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00017",
@@ -7573,10 +7803,15 @@
       "end": null,
       "target_id": "XML:1906507",
       "source_hash": "40dfbe466f4cd389f016dab79850818b153561f9703b53b3242fe804cbd6f162",
-      "text": "暂停期限可以延长或缩短。但是，即使延长暂停期限，企业也必须遵守相关规定。",
+      "text": "b) 违法状态持续6个月以上的情形",
       "text_original": "暂停期限可以延长或缩短。但是，即使延长暂停期限，企业也必须遵守相关规定。",
-      "text_reviewed": "暂停期限可以延长或缩短。但是，即使延长暂停期限，企业也必须遵守相关规定。",
-      "review_status": "PENDING"
+      "text_reviewed": "b) 违法状态持续6个月以上的情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00018",
@@ -7587,10 +7822,15 @@
       "end": null,
       "target_id": "XML:1906508",
       "source_hash": "0ff9c047b386d0376552302fda06b1ea8a9a3385b4873a22c26fa298538f5f9f",
-      "text": "停职期限不得超过6个月。",
+      "text": "c) 考虑违法行为程度、动机及其结果等，认定有必要加重处分的其他情形",
       "text_original": "停职期限不得超过6个月。",
-      "text_reviewed": "停职期限不得超过6个月。",
-      "review_status": "PENDING"
+      "text_reviewed": "c) 考虑违法行为程度、动机及其结果等，认定有必要加重处分的其他情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00019",
@@ -7601,10 +7841,15 @@
       "end": null,
       "target_id": "XML:1906509",
       "source_hash": "48b1c5907a056c058836b7ea90699c857dbe45745b92b1bb0d5e48bd32e3c0bb",
-      "text": "1) 加权原因",
+      "text": "（加重事由续）",
       "text_original": "1) 加权原因",
-      "text_reviewed": "1) 加权原因",
-      "review_status": "PENDING"
+      "text_reviewed": "（加重事由续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00020",
@@ -7615,10 +7860,15 @@
       "end": null,
       "target_id": "XML:1906510",
       "source_hash": "acbaa3149147bc239effb9082fceff7245d0fadecbe2be63a5528da832b3405b",
-      "text": "a) 如果违法行为的性质和程度严重，并被认定对公众造成重大损害，则应予以处罚。",
+      "text": "2) 减轻事由",
       "text_original": "a) 如果违法行为的性质和程度严重，并被认定对公众造成重大损害，则应予以处罚。",
-      "text_reviewed": "a) 如果违法行为的性质和程度严重，并被认定对公众造成重大损害，则应予以处罚。",
-      "review_status": "PENDING"
+      "text_reviewed": "2) 减轻事由",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00021",
@@ -7629,10 +7879,15 @@
       "end": null,
       "target_id": "XML:1906511",
       "source_hash": "0925aa90ecffa7d68ff7837a8061fc0727ed11f2ac486e261ce991adc65577ed",
-      "text": "案例",
+      "text": "a) 认定违法行为系因轻微疏忽或错误所致的情形",
       "text_original": "案例",
-      "text_reviewed": "案例",
-      "review_status": "PENDING"
+      "text_reviewed": "a) 认定违法行为系因轻微疏忽或错误所致的情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00022",
@@ -7643,10 +7898,15 @@
       "end": null,
       "target_id": "XML:1906512",
       "source_hash": "5fc47b294c5fc64594110513552e6c745e172818c722820e61516626ff2c17d0",
-      "text": "b) 如果违规期限为 6 个月或更长",
+      "text": "b) 违法行为人立即纠正违法行为或采取改正措施，消除违法状态的情形",
       "text_original": "b) 如果违规期限为 6 个月或更长",
-      "text_reviewed": "b) 如果违规期限为 6 个月或更长",
-      "review_status": "PENDING"
+      "text_reviewed": "b) 违法行为人立即纠正违法行为或采取改正措施，消除违法状态的情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00023",
@@ -7657,10 +7917,15 @@
       "end": null,
       "target_id": "XML:1906513",
       "source_hash": "4c83a22413015bf65db17247a2f8de620414364ce5b0bb2e3b66b003a1420433",
-      "text": "d）此外，还应考虑违规的程度、违规的动机及其后果等。",
+      "text": "（减轻事由b目续）",
       "text_original": "d）此外，还应考虑违规的程度、违规的动机及其后果等。",
-      "text_reviewed": "d）此外，还应考虑违规的程度、违规的动机及其后果等。",
-      "review_status": "PENDING"
+      "text_reviewed": "（减轻事由b目续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00024",
@@ -7671,10 +7936,15 @@
       "end": null,
       "target_id": "XML:1906514",
       "source_hash": "88339eb189b6055cddefb749e0b0013a721208b64f14809db1385cfcec0ad477",
-      "text": "如有必要继续",
+      "text": "c) 考虑违法行为程度、动机及其结果等，认定有必要减轻处分的其他情形",
       "text_original": "如有必要继续",
-      "text_reviewed": "如有必要继续",
-      "review_status": "PENDING"
+      "text_reviewed": "c) 考虑违法行为程度、动机及其结果等，认定有必要减轻处分的其他情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00025",
@@ -7685,10 +7955,15 @@
       "end": null,
       "target_id": "XML:1906515",
       "source_hash": "489c511a6217b4a629194d29198817a347f133e9f2d90f406df62baff647e844",
-      "text": "2) 缓解措施的理由",
+      "text": "（减轻事由续）",
       "text_original": "2) 缓解措施的理由",
-      "text_reviewed": "2) 缓解措施的理由",
-      "review_status": "PENDING"
+      "text_reviewed": "（减轻事由续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00026",
@@ -7699,10 +7974,15 @@
       "end": null,
       "target_id": "XML:1906516",
       "source_hash": "50d286a0875bcd2f5ab22521186474b01e91f9595b00adf148c6bc32ade6711f",
-      "text": "a) 如果违规行为被认定为由于轻微疏忽或错误所致。",
+      "text": "（一般标准结束）",
       "text_original": "a) 如果违规行为被认定为由于轻微疏忽或错误所致。",
-      "text_reviewed": "a) 如果违规行为被认定为由于轻微疏忽或错误所致。",
-      "review_status": "PENDING"
+      "text_reviewed": "（一般标准结束）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00027",
@@ -7713,10 +7993,15 @@
       "end": null,
       "target_id": "XML:1906517",
       "source_hash": "ab2278d15ea5cb4b890d2fc1aca0fe77128ed8825cc45456870c434a79ff5465",
-      "text": "b) 如果违规者立即纠正或补救违规行为以解决违法状态",
+      "text": "（个别标准如下）",
       "text_original": "b) 如果违规者立即纠正或补救违规行为以解决违法状态",
-      "text_reviewed": "b) 如果违规者立即纠正或补救违规行为以解决违法状态",
-      "review_status": "PENDING"
+      "text_reviewed": "（个别标准如下）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00028",
@@ -7727,10 +8012,15 @@
       "end": null,
       "target_id": "XML:1906518",
       "source_hash": "6aba41338aa494a0e6b605edc6998dd88f064425ca89c071154c14af5a857c7b",
-      "text": "如果较小",
+      "text": "（表格标题）",
       "text_original": "如果较小",
-      "text_reviewed": "如果较小",
-      "review_status": "PENDING"
+      "text_reviewed": "（表格标题）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00029",
@@ -7741,10 +8031,15 @@
       "end": null,
       "target_id": "XML:1906519",
       "source_hash": "aed90b530fe1828060f4d10adfec72de912718f1d539716cd1480902890632b6",
-      "text": "d) 此外，还应考虑违规程度、违规动机及其后果等。",
+      "text": "（违法行为及处分标准）",
       "text_original": "d) 此外，还应考虑违规程度、违规动机及其后果等。",
-      "text_reviewed": "d) 此外，还应考虑违规程度、违规动机及其后果等。",
-      "review_status": "PENDING"
+      "text_reviewed": "（违法行为及处分标准）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00030",
@@ -7755,10 +8050,15 @@
       "end": null,
       "target_id": "XML:1906520",
       "source_hash": "8670f98fe6ca7cf3747a44f709171cc17dff8424b56760716c12227fe70c11b1",
-      "text": "如有必要继续",
+      "text": "（附件表格续）",
       "text_original": "如有必要继续",
-      "text_reviewed": "如有必要继续",
-      "review_status": "PENDING"
+      "text_reviewed": "（附件表格续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件3校正施工停止处分的一般标准及加重减轻条件。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00031",
@@ -8609,10 +8909,15 @@
       "end": null,
       "target_id": "XML:1906589",
       "source_hash": "56f068572e94679de515e5f3302d69b4dfb459c9d3f716d6e0f086b5ba322e1d",
-      "text": "■ 城市空中交通促进支援法实施细则[附录4]",
+      "text": "1. 一般标准",
       "text_original": "■ 城市空中交通促进支援法实施细则[附录4]",
-      "text_reviewed": "■ 城市空中交通促进支援法实施细则[附录4]",
-      "review_status": "PENDING"
+      "text_reviewed": "1. 一般标准",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00002",
@@ -8623,10 +8928,15 @@
       "end": null,
       "target_id": "XML:1906590",
       "source_hash": "3755adc86d73fe85f973d51c652db6ffef2cffceb09c21ab388e70271d6de866",
-      "text": "对城市空中交通运营者采取处置措施（包括撤销指定）的详细标准（与第20条相关）",
+      "text": "a. 有两项以上违法行为且各自适用的处分标准不同时，适用较重的处分标准；两项以上处分标准均为停止事业时，可在不超过各处分标准期间总和的范围内，将较重处分标准加重至其二分之一以内。",
       "text_original": "对城市空中交通运营者采取处置措施（包括撤销指定）的详细标准（与第20条相关）",
-      "text_reviewed": "对城市空中交通运营者采取处置措施（包括撤销指定）的详细标准（与第20条相关）",
-      "review_status": "PENDING"
+      "text_reviewed": "a. 有两项以上违法行为且各自适用的处分标准不同时，适用较重的处分标准；两项以上处分标准均为停止事业时，可在不超过各处分标准期间总和的范围内，将较重处分标准加重至其二分之一以内。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00003",
@@ -8637,10 +8947,15 @@
       "end": null,
       "target_id": "XML:1906591",
       "source_hash": "a617cf3ccc65ba6af0228b05b78c02b61364dbd74e669da8ea55dab0e5a320b6",
-      "text": "1. 通用标准",
+      "text": "（一般标准a目续）",
       "text_original": "1. 通用标准",
-      "text_reviewed": "1. 通用标准",
-      "review_status": "PENDING"
+      "text_reviewed": "（一般标准a目续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00004",
@@ -8651,10 +8966,15 @@
       "end": null,
       "target_id": "XML:1906592",
       "source_hash": "8de19a9851bafc0d9e8534affb2612ea5a9f00991702c7b6a2fa736bbadece45",
-      "text": "a. 存在两项或两项以上违规行为且相应处理标准不同的情况",
+      "text": "（加重后的停止事业期间不得超过各处分标准期间总和）",
       "text_original": "a. 存在两项或两项以上违规行为且相应处理标准不同的情况",
-      "text_reviewed": "a. 存在两项或两项以上违规行为且相应处理标准不同的情况",
-      "review_status": "PENDING"
+      "text_reviewed": "（加重后的停止事业期间不得超过各处分标准期间总和）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00005",
@@ -8665,10 +8985,15 @@
       "end": null,
       "target_id": "XML:1906593",
       "source_hash": "f380d68dad68f89ca7c746b3b3e43546f744700a91faa9211c7d7ea4fe43afce",
-      "text": "如果两项处置标准均与业务相关，则适用较重的处置标准；如果两项或两项以上处置标准均与业务相关，则适用较重的标准。",
+      "text": "b. 根据违法行为次数适用的行政处分标准，适用于最近1年内因相同违法行为受到行政处分的情形。期间以该违法行为受到行政处分之日，以及处分后再次实施相同违法行为并被查获之日为准。",
       "text_original": "如果两项处置标准均与业务相关，则适用较重的处置标准；如果两项或两项以上处置标准均与业务相关，则适用较重的标准。",
-      "text_reviewed": "如果两项处置标准均与业务相关，则适用较重的处置标准；如果两项或两项以上处置标准均与业务相关，则适用较重的标准。",
-      "review_status": "PENDING"
+      "text_reviewed": "b. 根据违法行为次数适用的行政处分标准，适用于最近1年内因相同违法行为受到行政处分的情形。期间以该违法行为受到行政处分之日，以及处分后再次实施相同违法行为并被查获之日为准。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00006",
@@ -8679,10 +9004,15 @@
       "end": null,
       "target_id": "XML:1906594",
       "source_hash": "91b632f651bc2a1b4eb1c145b2111a75d0c14be451085ee7577adc2b10698106",
-      "text": "对于特定地点，应处以严厉制裁，制裁期限不得超过各项处置标准期限的总和。",
+      "text": "（期间计算规则续）",
       "text_original": "对于特定地点，应处以严厉制裁，制裁期限不得超过各项处置标准期限的总和。",
-      "text_reviewed": "对于特定地点，应处以严厉制裁，制裁期限不得超过各项处置标准期限的总和。",
-      "review_status": "PENDING"
+      "text_reviewed": "（期间计算规则续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00007",
@@ -8693,10 +9023,15 @@
       "end": null,
       "target_id": "XML:1906595",
       "source_hash": "37104ad64f6ed2c52ac8b8d471a24e1ed051dfa9255c4e691bed7b694c1d0394",
-      "text": "分割标准权重在处置标准的一半范围内。",
+      "text": "（以再次查获相同违法行为之日为准）",
       "text_original": "分割标准权重在处置标准的一半范围内。",
-      "text_reviewed": "分割标准权重在处置标准的一半范围内。",
-      "review_status": "PENDING"
+      "text_reviewed": "（以再次查获相同违法行为之日为准）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00008",
@@ -8707,10 +9042,15 @@
       "end": null,
       "target_id": "XML:1906596",
       "source_hash": "886be2ef5b4aee4e948bb3bf35327ea6d1bd3613a8c50718715c24a628ace150",
-      "text": "B. 基于违规次数的行政处罚标准是：对于过去一年内发生的相同违规行为，行政处罚的处罚次数越多，处罚力度越大。",
+      "text": "c. 依据b目作出加重行政处分时，加重处分的适用次数为该违法行为发生前的处分次数（b目规定期间内受到两次以上行政处分时，指其中较高的次数）的下一次。",
       "text_original": "B. 基于违规次数的行政处罚标准是：对于过去一年内发生的相同违规行为，行政处罚的处罚次数越多，处罚力度越大。",
-      "text_reviewed": "B. 基于违规次数的行政处罚标准是：对于过去一年内发生的相同违规行为，行政处罚的处罚次数越多，处罚力度越大。",
-      "review_status": "PENDING"
+      "text_reviewed": "c. 依据b目作出加重行政处分时，加重处分的适用次数为该违法行为发生前的处分次数（b目规定期间内受到两次以上行政处分时，指其中较高的次数）的下一次。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00009",
@@ -8721,10 +9061,15 @@
       "end": null,
       "target_id": "XML:1906597",
       "source_hash": "7ccf973ee38bc8b094bfc87512db1b8a33d1087fdee1277cd87483601a940ac0",
-      "text": "这适用于已收到处理结果的情况。在这种情况下，违规期限的计算方式如下。",
+      "text": "（加重处分次数的计算规则续）",
       "text_original": "这适用于已收到处理结果的情况。在这种情况下，违规期限的计算方式如下。",
-      "text_reviewed": "这适用于已收到处理结果的情况。在这种情况下，违规期限的计算方式如下。",
-      "review_status": "PENDING"
+      "text_reviewed": "（加重处分次数的计算规则续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00010",
@@ -8735,10 +9080,15 @@
       "end": null,
       "target_id": "XML:1906598",
       "source_hash": "7009b2c2379c001f97eea9f10d2dbb92e768557f492c35bf231ada13c5322d3d",
-      "text": "收到行政处分通知书的日期与处分后再次发现相同违规行为的日期。",
+      "text": "（以较高处分次数的下一次作为适用次数）",
       "text_original": "收到行政处分通知书的日期与处分后再次发现相同违规行为的日期。",
-      "text_reviewed": "收到行政处分通知书的日期与处分后再次发现相同违规行为的日期。",
-      "review_status": "PENDING"
+      "text_reviewed": "（以较高处分次数的下一次作为适用次数）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00011",
@@ -8749,10 +9099,15 @@
       "end": null,
       "target_id": "XML:1906599",
       "source_hash": "9b89d7cd2509de17c1a6d0149951449ce86d9c7d01f7585cfd31f8abd887216c",
-      "text": ".",
+      "text": "d. 处分权人可根据违法行为的动机、内容、次数及程度等，在下列加重或减轻事由成立时，于处分标准二分之一范围内加重或减轻停止事业期间。但加重时，停止事业期间不得超过6个月。",
       "text_original": ".",
-      "text_reviewed": ".",
-      "review_status": "PENDING"
+      "text_reviewed": "d. 处分权人可根据违法行为的动机、内容、次数及程度等，在下列加重或减轻事由成立时，于处分标准二分之一范围内加重或减轻停止事业期间。但加重时，停止事业期间不得超过6个月。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00012",
@@ -8763,10 +9118,15 @@
       "end": null,
       "target_id": "XML:1906600",
       "source_hash": "e810f74ec857ad1d9a22e3c17114d5d98557049edb9198ebf79b57f03c065d8c",
-      "text": "。根据B款规定施加加重​​行政处罚的，加重处罚的适用顺序为上文所述",
+      "text": "（加重或减轻停止事业期间的标准续）",
       "text_original": "。根据B款规定施加加重​​行政处罚的，加重处罚的适用顺序为上文所述",
-      "text_reviewed": "。根据B款规定施加加重​​行政处罚的，加重处罚的适用顺序为上文所述",
-      "review_status": "PENDING"
+      "text_reviewed": "（加重或减轻停止事业期间的标准续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00013",
@@ -8777,10 +9137,15 @@
       "end": null,
       "target_id": "XML:1906601",
       "source_hash": "d354559bac93b1a95409ee2146a8cc3d19a6e02cfbfc8bc07da2ed840ad57a03",
-      "text": "先前针对该违规行为的处理令（当根据B款规定在期限内作出两项或两项以上行政处理时）",
+      "text": "（停止事业期间上限为6个月）",
       "text_original": "先前针对该违规行为的处理令（当根据B款规定在期限内作出两项或两项以上行政处理时）",
-      "text_reviewed": "先前针对该违规行为的处理令（当根据B款规定在期限内作出两项或两项以上行政处理时）",
-      "review_status": "PENDING"
+      "text_reviewed": "（停止事业期间上限为6个月）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00014",
@@ -8791,10 +9156,15 @@
       "end": null,
       "target_id": "XML:1906602",
       "source_hash": "71756296611284f3c1f665df5f50ed9ad628948ede6569451d97728ae313dd9f",
-      "text": "以上指的是较高阶指令）应为下一阶指令。",
+      "text": "1) 加重事由",
       "text_original": "以上指的是较高阶指令）应为下一阶指令。",
-      "text_reviewed": "以上指的是较高阶指令）应为下一阶指令。",
-      "review_status": "PENDING"
+      "text_reviewed": "1) 加重事由",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00015",
@@ -8805,10 +9175,15 @@
       "end": null,
       "target_id": "XML:1906603",
       "source_hash": "2b46bd76cfab78e989a1ae0d6a610fb30c2ff88484940738307f9c469369e0d6",
-      "text": "d. 处理机关应当就违法行为的动机、内容、频率和程度等，考虑下列加重情节。",
+      "text": "a) 违法行为内容或程度严重，认定其对旅客等造成重大损害的情形",
       "text_original": "d. 处理机关应当就违法行为的动机、内容、频率和程度等，考虑下列加重情节。",
-      "text_reviewed": "d. 处理机关应当就违法行为的动机、内容、频率和程度等，考虑下列加重情节。",
-      "review_status": "PENDING"
+      "text_reviewed": "a) 违法行为内容或程度严重，认定其对旅客等造成重大损害的情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00016",
@@ -8819,10 +9194,15 @@
       "end": null,
       "target_id": "XML:1906604",
       "source_hash": "2e373e2e4ac5797e4477a6f9e71585ac7dcc71ffda3292d18658f34743d06c12",
-      "text": "在符合法定理由或减刑理由的情况下，在处置标准的一半范围内，企业",
+      "text": "（加重事由a目续）",
       "text_original": "在符合法定理由或减刑理由的情况下，在处置标准的一半范围内，企业",
-      "text_reviewed": "在符合法定理由或减刑理由的情况下，在处置标准的一半范围内，企业",
-      "review_status": "PENDING"
+      "text_reviewed": "（加重事由a目续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00017",
@@ -8833,10 +9213,15 @@
       "end": null,
       "target_id": "XML:1906605",
       "source_hash": "40dfbe466f4cd389f016dab79850818b153561f9703b53b3242fe804cbd6f162",
-      "text": "暂停期限可以延长或缩短。但是，即使延长暂停期限，企业也必须遵守相关规定。",
+      "text": "b) 违法状态持续6个月以上的情形",
       "text_original": "暂停期限可以延长或缩短。但是，即使延长暂停期限，企业也必须遵守相关规定。",
-      "text_reviewed": "暂停期限可以延长或缩短。但是，即使延长暂停期限，企业也必须遵守相关规定。",
-      "review_status": "PENDING"
+      "text_reviewed": "b) 违法状态持续6个月以上的情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00018",
@@ -8847,10 +9232,15 @@
       "end": null,
       "target_id": "XML:1906606",
       "source_hash": "0ff9c047b386d0376552302fda06b1ea8a9a3385b4873a22c26fa298538f5f9f",
-      "text": "停职期限不得超过6个月。",
+      "text": "c) 考虑违法行为程度、动机及其结果等，认定有必要加重处分的其他情形",
       "text_original": "停职期限不得超过6个月。",
-      "text_reviewed": "停职期限不得超过6个月。",
-      "review_status": "PENDING"
+      "text_reviewed": "c) 考虑违法行为程度、动机及其结果等，认定有必要加重处分的其他情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00019",
@@ -8861,10 +9251,15 @@
       "end": null,
       "target_id": "XML:1906607",
       "source_hash": "48b1c5907a056c058836b7ea90699c857dbe45745b92b1bb0d5e48bd32e3c0bb",
-      "text": "1) 加权原因",
+      "text": "（加重事由续）",
       "text_original": "1) 加权原因",
-      "text_reviewed": "1) 加权原因",
-      "review_status": "PENDING"
+      "text_reviewed": "（加重事由续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00020",
@@ -8875,10 +9270,15 @@
       "end": null,
       "target_id": "XML:1906608",
       "source_hash": "c639972e5af0b0b1f057214c6db5d3270252b31ee6359e0f147596d9661ca164",
-      "text": "a) 当违规行为的性质和程度严重，且对用户等造成的损害被认为重大时。",
+      "text": "2) 减轻事由",
       "text_original": "a) 当违规行为的性质和程度严重，且对用户等造成的损害被认为重大时。",
-      "text_reviewed": "a) 当违规行为的性质和程度严重，且对用户等造成的损害被认为重大时。",
-      "review_status": "PENDING"
+      "text_reviewed": "2) 减轻事由",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00021",
@@ -8889,10 +9289,15 @@
       "end": null,
       "target_id": "XML:1906609",
       "source_hash": "e1831b5da0f7207ef6aaa819bdb0899ca549273f22c0634020e633702944b1a1",
-      "text": "确定情况",
+      "text": "a) 认定违法行为系因轻微疏忽或错误所致的情形",
       "text_original": "确定情况",
-      "text_reviewed": "确定情况",
-      "review_status": "PENDING"
+      "text_reviewed": "a) 认定违法行为系因轻微疏忽或错误所致的情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00022",
@@ -8903,10 +9308,15 @@
       "end": null,
       "target_id": "XML:1906610",
       "source_hash": "5fc47b294c5fc64594110513552e6c745e172818c722820e61516626ff2c17d0",
-      "text": "b) 如果违规期限为 6 个月或更长",
+      "text": "b) 违法行为人立即纠正违法行为或采取改正措施，消除违法状态的情形",
       "text_original": "b) 如果违规期限为 6 个月或更长",
-      "text_reviewed": "b) 如果违规期限为 6 个月或更长",
-      "review_status": "PENDING"
+      "text_reviewed": "b) 违法行为人立即纠正违法行为或采取改正措施，消除违法状态的情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00023",
@@ -8917,10 +9327,15 @@
       "end": null,
       "target_id": "XML:1906611",
       "source_hash": "4c83a22413015bf65db17247a2f8de620414364ce5b0bb2e3b66b003a1420433",
-      "text": "d）此外，还应考虑违规的程度、违规的动机及其后果等。",
+      "text": "（减轻事由b目续）",
       "text_original": "d）此外，还应考虑违规的程度、违规的动机及其后果等。",
-      "text_reviewed": "d）此外，还应考虑违规的程度、违规的动机及其后果等。",
-      "review_status": "PENDING"
+      "text_reviewed": "（减轻事由b目续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00024",
@@ -8931,10 +9346,15 @@
       "end": null,
       "target_id": "XML:1906612",
       "source_hash": "88339eb189b6055cddefb749e0b0013a721208b64f14809db1385cfcec0ad477",
-      "text": "如有必要继续",
+      "text": "c) 考虑违法行为程度、动机及其结果等，认定有必要减轻处分的其他情形",
       "text_original": "如有必要继续",
-      "text_reviewed": "如有必要继续",
-      "review_status": "PENDING"
+      "text_reviewed": "c) 考虑违法行为程度、动机及其结果等，认定有必要减轻处分的其他情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00025",
@@ -8945,10 +9365,15 @@
       "end": null,
       "target_id": "XML:1906613",
       "source_hash": "489c511a6217b4a629194d29198817a347f133e9f2d90f406df62baff647e844",
-      "text": "2) 缓解措施的理由",
+      "text": "（减轻事由续）",
       "text_original": "2) 缓解措施的理由",
-      "text_reviewed": "2) 缓解措施的理由",
-      "review_status": "PENDING"
+      "text_reviewed": "（减轻事由续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00026",
@@ -8959,10 +9384,15 @@
       "end": null,
       "target_id": "XML:1906614",
       "source_hash": "50d286a0875bcd2f5ab22521186474b01e91f9595b00adf148c6bc32ade6711f",
-      "text": "a) 如果违规行为被认定为由于轻微疏忽或错误所致。",
+      "text": "（一般标准结束）",
       "text_original": "a) 如果违规行为被认定为由于轻微疏忽或错误所致。",
-      "text_reviewed": "a) 如果违规行为被认定为由于轻微疏忽或错误所致。",
-      "review_status": "PENDING"
+      "text_reviewed": "（一般标准结束）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00027",
@@ -8973,10 +9403,15 @@
       "end": null,
       "target_id": "XML:1906615",
       "source_hash": "ab2278d15ea5cb4b890d2fc1aca0fe77128ed8825cc45456870c434a79ff5465",
-      "text": "b) 如果违规者立即纠正或补救违规行为以解决违法状态",
+      "text": "（个别标准如下）",
       "text_original": "b) 如果违规者立即纠正或补救违规行为以解决违法状态",
-      "text_reviewed": "b) 如果违规者立即纠正或补救违规行为以解决违法状态",
-      "review_status": "PENDING"
+      "text_reviewed": "（个别标准如下）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00028",
@@ -8987,10 +9422,15 @@
       "end": null,
       "target_id": "XML:1906616",
       "source_hash": "6aba41338aa494a0e6b605edc6998dd88f064425ca89c071154c14af5a857c7b",
-      "text": "如果较小",
+      "text": "（表格标题）",
       "text_original": "如果较小",
-      "text_reviewed": "如果较小",
-      "review_status": "PENDING"
+      "text_reviewed": "（表格标题）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00029",
@@ -9001,10 +9441,15 @@
       "end": null,
       "target_id": "XML:1906617",
       "source_hash": "aed90b530fe1828060f4d10adfec72de912718f1d539716cd1480902890632b6",
-      "text": "d) 此外，还应考虑违规程度、违规动机及其后果等。",
+      "text": "（违法行为及处分标准）",
       "text_original": "d) 此外，还应考虑违规程度、违规动机及其后果等。",
-      "text_reviewed": "d) 此外，还应考虑违规程度、违规动机及其后果等。",
-      "review_status": "PENDING"
+      "text_reviewed": "（违法行为及处分标准）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00030",
@@ -9015,10 +9460,15 @@
       "end": null,
       "target_id": "XML:1906618",
       "source_hash": "8670f98fe6ca7cf3747a44f709171cc17dff8424b56760716c12227fe70c11b1",
-      "text": "如有必要继续",
+      "text": "（附件表格续）",
       "text_original": "如有必要继续",
-      "text_reviewed": "如有必要继续",
-      "review_status": "PENDING"
+      "text_reviewed": "（附件表格续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "依韩国施行规则附件4校正城市空中交通事业者处分的一般标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00031",
