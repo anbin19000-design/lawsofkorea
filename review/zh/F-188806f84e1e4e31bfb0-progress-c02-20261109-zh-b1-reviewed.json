@@ -1,0 +1,371 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-188806f84e1e4e31bfb0",
+  "family_id": "F-188806f84e1e4e31bfb0",
+  "worker": "C02",
+  "panel_id": "panel-02",
+  "status": "IN_PROGRESS",
+  "source_commit": "f7a96b14b38caa65b3550d7169b6b9df85a3786a",
+  "source_blobs": {
+    "en": "eb1d66d054cabc880674b69ce851607167725e67",
+    "ko": "a799aae4185740acf03b14bfc53aa041cc7efb03",
+    "zh": "6e76d3687ace20a1cd34e7e4d6a960f83393b959"
+  },
+  "source_verification": {
+    "ko_blob_matches": true,
+    "en_blob_sha_checked": "eb1d66d054cabc880674b69ce851607167725e67",
+    "zh_blob_sha_checked": "6e76d3687ace20a1cd34e7e4d6a960f83393b959",
+    "large_file_resolution": "Git Blobs API returned full JSON content, although contents fetch_file returned empty strings"
+  },
+  "total_documents": 51,
+  "total_chinese_rows": 7160,
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "stage": "ZH_FULL_READING",
+  "ko_fully_examined_documents": [
+    "B1",
+    "B2",
+    "A29309",
+    "A29310",
+    "A29313",
+    "A29314",
+    "A29315",
+    "A29316",
+    "A29317",
+    "A29318",
+    "A29319",
+    "A29320",
+    "A29321",
+    "A29322",
+    "A29323",
+    "A29324",
+    "A29325",
+    "A29326",
+    "A29327",
+    "A29328",
+    "A29329",
+    "A29330",
+    "A29331",
+    "A29332",
+    "A29333",
+    "A29334",
+    "A29335",
+    "A29336",
+    "A29337",
+    "A29338",
+    "A29339",
+    "A29340",
+    "A29341",
+    "A29342",
+    "A29343",
+    "A29344",
+    "A29345",
+    "A29346",
+    "A29347",
+    "A29348",
+    "A29349",
+    "A29350",
+    "A29351",
+    "A29352",
+    "A29353",
+    "A29354",
+    "A29355",
+    "A29356",
+    "A29359",
+    "A29360",
+    "A29361"
+  ],
+  "ko_next_document": "A29310",
+  "ko_remaining_documents": [
+    "A29309",
+    "A29310",
+    "A29313",
+    "A29314",
+    "A29315",
+    "A29316",
+    "A29317",
+    "A29318",
+    "A29319",
+    "A29320",
+    "A29321",
+    "A29322",
+    "A29323",
+    "A29324",
+    "A29325",
+    "A29326",
+    "A29327",
+    "A29328",
+    "A29329",
+    "A29330",
+    "A29331",
+    "A29332",
+    "A29333",
+    "A29334",
+    "A29335",
+    "A29336",
+    "A29337",
+    "A29338",
+    "A29339",
+    "A29340",
+    "A29341",
+    "A29342",
+    "A29343",
+    "A29344",
+    "A29345",
+    "A29346",
+    "A29347",
+    "A29348",
+    "A29349",
+    "A29350",
+    "A29351",
+    "A29352",
+    "A29353",
+    "A29354",
+    "A29355",
+    "A29356",
+    "A29359",
+    "A29360",
+    "A29361"
+  ],
+  "ko_large_annex": {
+    "key": "A29310",
+    "characters": 275425,
+    "layout_note": "Complex 12,093-line table with symbolic patterns and 6,214 Chinese rows; needs full manual semantic/cell validation",
+    "read_through_character_offset": 275425,
+    "review_status": "FULL_READ_COMPLETE",
+    "semantic_read_complete": true
+  },
+  "en_read_status": "COMPLETE_AVAILABLE",
+  "zh_review_status": "PARTIAL",
+  "checked_rows": 98,
+  "edits": [
+    {
+      "id": "B1-zh-00001",
+      "text": "勋章及奖章法",
+      "reason": "Correct title; original Korean is 상훈법, the statute governing orders and decorations, not rewards and training."
+    },
+    {
+      "id": "B1-zh-00011",
+      "text": "第九条（勋章种类）本法所称勋章种类如下：\n1. 无穷花大勋章\n2. 建国勋章\n3. 国民勋章\n4. 武功勋章\n5. 勤政勋章\n6. 保国勋章\n7. 修交勋章\n8. 产业勋章\n9. 新村勋章\n10. 文化勋章\n11. 体育勋章\n12. 科学技术勋章",
+      "reason": "Replace several materially wrong order names and inconsistent transliterations with the names in the Korean list."
+    },
+    {
+      "id": "B1-zh-00012",
+      "text": "第十条（无穷花大勋章）无穷花大勋章是我国最高勋章，授予总统；也可以授予总统配偶、友好国家元首及其配偶，或者对我国发展和国家安全保障作出显著贡献的前友好国家元首及其配偶。",
+      "reason": "Correct order name and ensure it is the Grand Order of Mugunghwa."
+    },
+    {
+      "id": "B1-zh-00014",
+      "text": "第十二条（国民勋章）国民勋章授予在政治、经济、社会、教育、学术领域作出贡献，为提高国民福利和促进国家发展作出显著贡献的人，分为五级。",
+      "reason": "Correct 국민훈장 misrendered as generic national merit order; preserve categories in Korean."
+    },
+    {
+      "id": "B1-zh-00015",
+      "text": "第十三条（武功勋章）武功勋章授予在战时或相当于战时的紧急状态下参加战斗，或者在接敌地区应对敌方攻击等履行相当于战斗的职务而建立显著战功的人，分为五级。",
+      "reason": "Correct honorific type and restore precise Korean criterion; Chinese had called it a medal."
+    },
+    {
+      "id": "B1-zh-00016",
+      "text": "第十四条（勤政勋章）勤政勋章授予勤勉履行职务、功绩显著的公务员（不包括军人和军务员；下同）、私立学校教员（包括依据《终身教育法》第31条第3款准用国立、公立学校教员规定的学历认可终身教育设施及学历、学位认可终身教育设施的教员；下同），以及《特别邮局法》第2条所称特别邮局工作人员，分为五级。<2012年3月21日修订；2025年11月11日修订>",
+      "reason": "Correct medal name and remove duplicated teacher phrase; accurately reflect 2025 Korean amendment."
+    },
+    {
+      "id": "B1-zh-00017",
+      "text": "第十五条（保国勋章）保国勋章授予为国家安全保障作出显著贡献的人，分为五级。",
+      "reason": "Correct term for 보국훈장."
+    },
+    {
+      "id": "B1-zh-00018",
+      "text": "第十六条（修交勋章）\n① 修交勋章授予为提升国家权威及增进与友好国家友好关系作出显著贡献的人，分为五级。\n② 新任命并赴任的外交官、政府代表、特别使节及政府认为必要的随行人员，在外交活动中应佩戴修交勋章，作为维持仪容的礼仪装饰。<2019年12月10日修订>\n③ 依第2款作为礼仪装饰佩戴的勋章，其各等级标准由总统令规定。",
+      "reason": "Correct diplomatic decoration name and translate Korean term for state prestige/relations."
+    },
+    {
+      "id": "B1-zh-00019",
+      "text": "第十七条（产业勋章）产业勋章授予为国家产业发展作出显著贡献的人，分为五级。",
+      "reason": "Correct industry order name."
+    },
+    {
+      "id": "B1-zh-00020",
+      "text": "第十七条之二（新村勋章）新村勋章授予通过新村运动为国家及社会发展作出显著贡献的人，分为五级。",
+      "reason": "Correct Saemaeul order name."
+    },
+    {
+      "id": "B1-zh-00021",
+      "text": "第十七条之三（文化勋章）文化勋章授予在文化艺术发展方面作出贡献，为提高国民文化水平和促进国家发展作出显著贡献的人，分为五级。",
+      "reason": "Correct Cultural Merit Order name and clarify source."
+    },
+    {
+      "id": "B1-zh-00022",
+      "text": "第十七条之四（体育勋章）体育勋章授予在体育发展方面作出贡献，为提高国民体育地位和促进国家发展作出显著贡献的人，分为五级。",
+      "reason": "Correct sports order name and source criteria."
+    },
+    {
+      "id": "B1-zh-00023",
+      "text": "第十七条之五（科学技术勋章）科学技术勋章授予为科学技术发展作出显著贡献的人，分为五级。",
+      "reason": "Correct science and technology order name."
+    },
+    {
+      "id": "B1-zh-00024",
+      "text": "第十八条（勋章各等级的名称）第11条至第17条以及第17条之二至第17条之五规定的勋章各等级名称，由总统令规定。",
+      "reason": "Correct mistranslation of class-specific names as 'orders/commands'."
+    },
+    {
+      "id": "B1-zh-00025",
+      "text": "第十九条（褒章种类）褒章的等级低于勋章，其种类如下：\n1. 建国褒章\n2. 国民褒章\n3. 武功褒章\n4. 勤政褒章\n5. 保国褒章\n6. 预备军褒章\n7. 修交褒章\n8. 产业褒章\n9. 新村褒章\n10. 文化褒章\n11. 体育褒章\n12. 科学技术褒章",
+      "reason": "Correct 포장 (decoration/medal) category and numerous transliterated medal names."
+    },
+    {
+      "id": "B1-zh-00026",
+      "text": "第二十条（建国褒章）建国褒章授予为大韩民国建国及巩固国家基础而尽心竭力、功绩显著的人。",
+      "reason": "Correct the type from order to medal/decoration."
+    },
+    {
+      "id": "B1-zh-00027",
+      "text": "第二十一条（国民褒章）国民褒章授予在政治、经济、社会、教育、学术领域发展方面作出显著贡献的人；冒着生命危险救助人员或保护财产的人；捐赠财产等行善的人；以及从事公益事业、为增进国民福利作出显著贡献的人。<2019年12月10日修订>",
+      "reason": "Correct mistranslated 국민포장, and align the list to current Korean text."
+    },
+    {
+      "id": "B1-zh-00028",
+      "text": "第二十二条（武功褒章）武功褒章授予为国土防卫尽心竭力、功绩显著的人。",
+      "reason": "Correct type and translate the source wording."
+    },
+    {
+      "id": "B1-zh-00029",
+      "text": "第二十三条（勤政褒章）勤政褒章授予勤勉履行职务，为国家利益和国民幸福作出显著贡献的公务员、私立学校教员或《特别邮局法》第2条所称特别邮局工作人员。<2012年3月21日修订；2019年12月10日修订>",
+      "reason": "Correct type and restore exact eligible classes and criteria."
+    },
+    {
+      "id": "B1-zh-00030",
+      "text": "第二十四条（保国褒章、预备军褒章）\n① 保国褒章授予在国家安全保障及维护社会安宁与秩序方面作出显著贡献的人。<2019年12月10日修订>\n② 预备军褒章授予为预备军建设和发展作出显著贡献的人，以及作为预备军勤勉履行职务的人。",
+      "reason": "Restore omitted second paragraph and distinguish the two decorations."
+    },
+    {
+      "id": "B1-zh-00031",
+      "text": "第二十五条（修交褒章）修交褒章授予为提升国家权威及增进与友好国家友好关系作出显著贡献，或者为提高国家声望作出重大贡献的人。",
+      "reason": "Correct category and source wording."
+    },
+    {
+      "id": "B1-zh-00032",
+      "text": "第二十六条（产业褒章）产业褒章授予为产业开发或发展作出贡献，或者勤勉从事实业、功绩显著的人；也授予在工厂、营业场所或其他工作场所任职，勤勉履行职务、为国家发展作出显著贡献的劳动者。",
+      "reason": "Correct award type and reflect both alternatives."
+    },
+    {
+      "id": "B1-zh-00033",
+      "text": "第二十六条之二（新村褒章）新村褒章授予通过新村运动践行新村精神，为地区社会开发和居民福利增进作出显著贡献的人。",
+      "reason": "Correct type and name."
+    },
+    {
+      "id": "B1-zh-00034",
+      "text": "第二十六条之三（文化褒章）文化褒章授予通过文化艺术活动为文化发展作出显著贡献的人，以及通过文化艺术活动提高国家声望的人。",
+      "reason": "Correct type and source meaning."
+    },
+    {
+      "id": "B1-zh-00035",
+      "text": "第二十六条之四（体育褒章）体育褒章授予通过体育活动为国民体育发展作出显著贡献的人，以及通过体育活动提高国家声望的人。",
+      "reason": "Correct type and source meaning."
+    },
+    {
+      "id": "B1-zh-00036",
+      "text": "第二十六条之五（科学技术褒章）科学技术褒章授予通过科学技术研究开发活动等为科学技术发展作出显著贡献的人，或者通过相关研究开发活动提高国家声望的人。",
+      "reason": "Correct type and restore research/development qualifier."
+    },
+    {
+      "id": "B1-zh-00037",
+      "text": "第二十七条（式样与规格）\n① 无穷花大勋章由颈饰勋章、以大绶佩戴的正章及副章组成，必要时可另设略章和襟章。\n② 一级勋章采用大绶。\n③ 二级及三级勋章采用中绶。但二级建国勋章及修交勋章采用大绶。\n④ 四级及五级勋章采用小绶。\n⑤ 第2款至第4款所述勋章由正章、副章、略章及襟章组成。但三级勋章（建国勋章除外）、四级及五级勋章不设副章。\n⑥ 褒章采用小绶，由正章、略章及襟章组成。\n⑦ 第1款至第6款所述正章、副章、略章、襟章、颈饰及绶带的形状、尺寸、颜色和材料，由总统令规定。\n⑧ 科学技术勋章及科学技术褒章的式样与规格，尽管有第2款至第7款规定，仍可由总统令另行规定。",
+      "reason": "Correct numerous mistranslations of the medal types and the physical components, and restore exact source structure."
+    },
+    {
+      "id": "B1-zh-00040",
+      "text": "第三十条（代理授予）\n① 在战时或相当于战时的紧急状态下，国防部长在不得已时可以代表总统授予二级以下（含二级）的武功勋章及武功褒章。但二级武功勋章的代理授予仅限于战时。\n② 国防部长不能亲自实施第1款规定的代理授予时，可以委托各军参谋总长、海军陆战队司令官、军司令官、军团长或师长。",
+      "reason": "Correct order/decoration distinction and delegated military authorities."
+    },
+    {
+      "id": "B1-zh-00042",
+      "text": "第三十二条（附加奖品）对获得勋章或褒章的人，可以同时授予附加奖品。",
+      "reason": "Correct 副赏 (supplementary prize), not subsequent award."
+    }
+  ],
+  "english_coverage_preliminary": "B1 only fallback English from a different source version, B2 exact English; linked originals must be read after full Korean reading",
+  "note": "Sequential first-pass review of all 98 Chinese B1 rows against current Korean law. 27 high-confidence minimal corrections recorded; this English B1 source is older fallback (195082), not current Korean 279617, so Korean original controls. Continue from B2-zh-00001; preserve edits in this checkpoint.",
+  "ko_read_status": "COMPLETE",
+  "ko_documents_total": 51,
+  "ko_total_characters": 377694,
+  "en_next_document": "B1",
+  "en_read_documents": [
+    {
+      "key": "B1",
+      "path": "documents/en/kr-001427-195082-en.json",
+      "source_version": "195082",
+      "basis": "FAMILY_LATEST_FALLBACK",
+      "read_characters": 24663,
+      "sha": "3b75250fd4e60e00549046be90279bf568da4c1e",
+      "coverage_note": "Full 24,663-character English text read; this is an older family fallback and does not exactly match Korean source version 279617."
+    },
+    {
+      "key": "B2",
+      "path": "documents/en/kr-003826-215477-en.json",
+      "source_version": "215477",
+      "basis": "EXACT_VERSION_BODY_REFERENCE",
+      "read_characters": 34501,
+      "sha": "569fd1564f27d26a95764b49158760466b10261d",
+      "coverage_note": "Full 34,501-character exact English decree text read; linked to annexes and forms."
+    }
+  ],
+  "en_missing_documents": [],
+  "en_fallback_documents": [
+    "B1"
+  ],
+  "en_exact_documents": [
+    "B2",
+    "A29309",
+    "A29310",
+    "A29313",
+    "A29314",
+    "A29315",
+    "A29316",
+    "A29317",
+    "A29318",
+    "A29319",
+    "A29320",
+    "A29321",
+    "A29322",
+    "A29323",
+    "A29324",
+    "A29325",
+    "A29326",
+    "A29327",
+    "A29328",
+    "A29329",
+    "A29330",
+    "A29331",
+    "A29332",
+    "A29333",
+    "A29334",
+    "A29335",
+    "A29336",
+    "A29337",
+    "A29338",
+    "A29339",
+    "A29340",
+    "A29341",
+    "A29342",
+    "A29343",
+    "A29344",
+    "A29345",
+    "A29346",
+    "A29347",
+    "A29348",
+    "A29349",
+    "A29350",
+    "A29351",
+    "A29352",
+    "A29353",
+    "A29354",
+    "A29355",
+    "A29356",
+    "A29359",
+    "A29360",
+    "A29361"
+  ],
+  "zh_next_row": "first row",
+  "zh_last_reviewed_id": "B1-zh-00098"
+}
