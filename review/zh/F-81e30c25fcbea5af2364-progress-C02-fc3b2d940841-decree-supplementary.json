@@ -1,0 +1,74 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:fc3b2d940841",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "checked_rows": 4,
+  "checked_ids": [
+    "B2-zh-00080",
+    "B2-zh-00084",
+    "B2-zh-00089",
+    "B2-zh-00097"
+  ],
+  "edits": [
+    {
+      "id": "B2-zh-00080",
+      "source_hash": "b5323f13128db91097e8836051b5fd0b708ec5faa9d9047caa2e3861cd0fdc57",
+      "target_id": "5f4a391a7d0145d5efc7f871b05c51df6210cf368ee30567caff93ebe0bddabf",
+      "text": "第六十一条（行政罚款的征收标准）根据本法第五十五条第一款和第二款规定，行政罚款的征收标准见附表四。<2019年2月8日、2019年8月20日、2020年2月25日修订>\n\n"
+    },
+    {
+      "id": "B2-zh-00084",
+      "source_hash": "75a7792d1a0e38bed8fffb097f2743ffd103d36e8174666dedbae16a9d557c92",
+      "target_id": "6de191e658193286fb712bce3cccd3c5910964a10a944530a6e2152a755af003",
+      "text": "第二条（修改其他法律）①至⑬ 已省略\n\n  ⑭ 《普适城市建设等法》施行令部分修改如下。\n\n  第七条第五款规定如下。\n\n    5. 根据《宝根扎里住宅建设等特别法》第二条第三款（a）项规定进行的宝根扎里住宅区开发项目\n\n  第十七条第四款第四项规定如下。\n\n    4. 根据《宝玉纱里住宅建设等特别法》第4条规定，宝玉纱里住宅项目的实施实体\n\n  ⑮ 至 <24> 已省略\n\n"
+    },
+    {
+      "id": "B2-zh-00089",
+      "source_hash": "90f696a006dd22d6da98275598f8aa28939e6020dfbd36dca928314a9d9d5cb3",
+      "target_id": "4b96b929f9ba2415e58b2ca4b8b1bcd0d27bbe49bef80bfa0a2a2116a4c8e26c",
+      "text": "第三条（修改其他法律）①至<30> 已省略\n\n  <31> 《普适城市建设等法》施行令部分修改如下。\n\n  第十七条第三款第二项规定如下。\n\n    2. 韩国农村社区公司，依据《韩国农村社区公司和农田管理基金法》\n\n  <32> 至 <48> 已省略\n\n"
+    },
+    {
+      "id": "B2-zh-00097",
+      "source_hash": "2c489003af08c1cfb7a07476b03864265f0ffa875cef5829298b84f36b124043",
+      "target_id": "b3cdd2cd8d763c92f8b9ba28c9b875c1ec6ccc0746f6e5132a2762fb8efdfbeb",
+      "text": "第三条（修改其他法律）①至⑩ 省略\n\n  ⑪ 《普适城市建设等法》施行令部分修改如下。\n\n  第八条第一款第一项中，“根据《信息化促进框架法》第五条制定的信息化促进基本计划”应改为“根据《国家信息化框架法》第六条制定的国家信息化基本计划”。\n\n  ⑫ 至 <19> 省略\n\n"
+    }
+  ],
+  "adjudications": [
+    {
+      "id": "B2-zh-00080",
+      "verdict": "CLEAR_LEGAL_TRANSLATION_ERROR",
+      "reason": "과태료는 행정상의 금전제재인 행정질서벌로서 광범위한 '行政处罚' 전체가 아니라 과태료의 부과기준을 명시해야 함."
+    },
+    {
+      "id": "B2-zh-00084",
+      "verdict": "CLEAR_LEGAL_TRANSLATION_ERROR",
+      "reason": "2009년 부칙 제2조제14항의 순서표지 ⑭ 및 시행령(施行令)을 보존. 실시세칙으로 법령 종류가 달라지는 명백한 오류 교정."
+    },
+    {
+      "id": "B2-zh-00089",
+      "verdict": "CLEAR_LEGAL_TRANSLATION_ERROR",
+      "reason": "부칙 제3조의 개정 대상 '시행령'이 중국어에서 하위 유형 '实施细则'로 잘못 번역되어 법령 종류 명칭만 교정."
+    },
+    {
+      "id": "B2-zh-00097",
+      "verdict": "CLEAR_LEGAL_TRANSLATION_ERROR",
+      "reason": "부칙 제3조제11항 항 표시 ⑪ 복원 및 시행령(施行令) 명칭 교정."
+    }
+  ],
+  "prior_progress": [
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-fc3b2d940841-decree-more.json"
+  ],
+  "note": "Original source and saved decisions preserved; targeted B2 supplementary enactment corrections only. Not a full Korean/English/Chinese read-through completion.",
+  "next_review": "Continue B2 subsequent supplementary provisions then annexes, rules, forms; only finalize with full unique 1133 row coverage and verified receipt."
+}
