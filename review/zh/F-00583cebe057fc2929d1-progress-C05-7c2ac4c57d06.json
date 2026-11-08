@@ -1,0 +1,31 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "worker": "C05",
+  "panel_id": "panel-05",
+  "status": "IN_PROGRESS",
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "11f32aa57e4c58d38ebc663e6b3d5db5a2ed4056",
+  "reviewed_ids_this_turn": [
+    "B2-zh-00069",
+    "B2-zh-00071"
+  ],
+  "new_corrected_rows": 2,
+  "previous_corrected_rows": 250,
+  "correction_count": 252,
+  "pending_rows": 89,
+  "english_note": "B1/B2 official exact-version; B3/forms only 2010 fallback, not exact current version; decree also has AI draft.",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "full_reading_proven": false,
+  "completion_receipt": null,
+  "note": "2024 시행령 부칙에 대한 한국어 원문 직접 대조 후 법령명 및 제5조제5호 인용 최소교정. 기존 검수·SHA·보류 유지. 영어 연결 자료 전체 독해, 중국어 전수 재검증 및 보류 해소 전에는 COMPLETE 금지."
+}
