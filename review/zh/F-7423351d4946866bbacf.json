@@ -2,7 +2,7 @@
   "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-7423351d4946866bbacf",
   "worker": "C01",
-  "checked_rows": 70,
+  "checked_rows": 73,
   "edits": [
     {
       "id": "B1-zh-00065",
@@ -1079,10 +1079,22 @@
     {
       "id": "B2-zh-00002",
       "text": "第一条（目的）本法令的目的是规定《水产品流通管理及支援法》所委托的事项以及为实施该法所必需的事项。\n\n"
+    },
+    {
+      "id": "B1-zh-00033",
+      "text": "第28条（溯源管理登记的有效期等）\n① 根据第27条第1款和第2款规定，可追溯性管理登记的有效期为自登记之日起三年。但是，如果由于物项的特殊性需要适用不同的有效期，海洋水产部可以通过条例在十年的范围内另行规定有效期。\n② 凡符合下列各款规定者，应当在追溯管理登记有效期届满前办理追溯管理登记续期。\n1。根据第 27 条第 1 款注册可追溯性管理，并打算在有效期届满后继续对相关渔业产品进行可追溯性管理的人。\n2。根据第27条第2款注册可追溯性管理，并在有效期届满后仍打算继续生产、分销或销售相关渔业产品的人。\n③ 不打算依据第2款续展注册的人员，如其产品在第1款规定的注册有效期内尚未完成发货，经海洋水产大臣批准，可在不超过一年的范围内延长该等产品的注册有效期。但是，在注册有效期届满前已发货的产品，可继续保留注册标志直至产品保质期届满。\n④ 有关溯源管理登记续期和延期等程序的其他必要事项，由海洋水产部条例规定。\n\n"
+    },
+    {
+      "id": "B1-zh-00036",
+      "text": "第31条（进口海产品流通历史管理）\n①进口外国渔业产品的个人和在国内交易进口渔业产品的个人，应当向海洋水产大臣报告经海洋水产大臣指定和通知为对公众健康构成风险的渔业产品（以下简称“可追溯进口渔业产品”）的交易详情，包括分销阶段（以下简称“进口分销历史”）。\n② 负有申报进口分销历史义务的人（以下简称“负有申报进口分销历史义务的人”）应当将进口分销历史记录在账簿中（包括电子记录方式），并自交易之日起保留数据一年。\n③ 海洋水产部长在指定有流通历史的进口水产品时，应当事先与有关行政机关负责人协商。\n④ 海洋渔业部长在指定可追溯进口渔业产品、确定报告义务期限和确定报告对象范围时，不得对进口渔业产品与国内渔业产品进行不公平歧视，并应确保将有义务报告进口分销历史者的负担降至最低。\n⑤ 其他有关各类须申报流通履历的进口水产品的申报程序、进口流通履历的范围等必要事项，由海洋水产部长官确定。\n\n"
+    },
+    {
+      "id": "B1-zh-00047",
+      "text": "第四十二条（支持私人渔业产品采购业务和放出命令）\n① 如有必要，海洋水产大臣可使用渔业发展基金向渔业产品分销经营者提供预付贷款支持，用于短期调整渔业产品供需和稳定价格，以支付部分款项。\n② 根据第1款规定，海洋水产大臣可以命令已获得贷款支持的渔业产品分销经营者，在必​​要时为了调整渔业产品的供需和稳定价格，释放其购买或储存的渔业产品。\n③ 收到第2款命令的渔业产品分销经营者应当遵守该命令，不遵守该命令的渔业产品分销经营者可以追回向其提供的全部或部分贷款资金。\n\n"
     }
   ],
   "status": "IN_PROGRESS",
-  "note": "IN_PROGRESS. 269 distinct corrected rows. B1 Arts 29 and 30 distinguish incoming/outgoing inventory records; B2 Art 1 law title corrected. All prior edits and source SHAs preserved. Independent English for B1/B2 available, rule and rule-annex/form documents lack English. Full Chinese 1207-row legal meaning verification and XML cell continuity not complete; no COMPLETE receipt.",
+  "note": "IN_PROGRESS; 272 unique corrections, all preexisting edits preserved. C01 identified Act Article 28(3) extension UP TO one year not automatically one year, Art31(5) import history procedural scope, and Art42 release order and recovery of loan financing. Korean source authoritative, available English indexed; source SHA preserved. Complete semantic verification of 1207 Chinese cells and annex/form XML correspondence NOT achieved. No COMPLETE receipt.",
   "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
   "source_sha": {
     "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
