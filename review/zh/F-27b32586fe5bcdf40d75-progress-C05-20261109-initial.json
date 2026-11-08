@@ -41,8 +41,8 @@
     "rows_without_document_english": 310,
     "official_rule_translation": "reviewed/en/KR_011294.json"
   },
-  "checked_rows": 15,
-  "corrected_rows": 15,
+  "checked_rows": 36,
+  "corrected_rows": 36,
   "edits": [
     {
       "id": "B1-zh-00003",
@@ -103,6 +103,90 @@
     {
       "id": "B2-zh-00059",
       "text": "  在附表2第1号(a)目中按如下内容新增第(18)栏。\n\n┃│(18) 依《车站区域开发及利用法》第4条及第7条 │依《车站区域开发及利用法》第4条第3款，指定权人与相关中央行政机关首长协商时 ┃\n┃│指定车站区域开发区及制定项目计划                 │                                                   ┃\n\n┖┴──────────────────┴────────────────┚\n\n"
+    },
+    {
+      "id": "B2-zh-00005",
+      "text": "第四条（开发区指定或变更申请等）\n① 市长、郡守或区厅长（指自治区区厅长，以下同）依本法第4条第5款拟向本法第4条第4款规定的指定权人（以下称“指定权人”）请求指定或变更开发区时，应依国土交通部令规定，在依《国土规划及利用法》第113条第2款听取市、郡或区城市规划委员会意见后，向指定权人提交载明下列事项的开发区指定（变更）请求书。但依第3条第2款各项请求变更轻微事项的，不在此限。\n2. 依《国土规划及利用法》第6条第1款听取居民及相关专家意见的相关资料\n\n"
+    },
+    {
+      "id": "B2-zh-00023",
+      "text": "第二十条（实施计划的公告）指定权人制定或批准实施计划时，应依本法第13条第4款公告下列事项。<2012年4月10日、2024年7月2日修订>\n1. 项目名称及目的\n2. 开发区的位置及面积\n3. 项目实施者的姓名（法人时为法人名称及代表人姓名）及地址\n4. 项目实施期间\n5. 已批准实施计划相关文件的公开阅览期间及地点\n6. 依《国土规划及利用法》确定的城市、郡管理计划（包括地区单位计划）的内容\n7. 视为依《国土规划及利用法》第16条公告的许可、批准等的公告或公示事项。\n\n"
+    },
+    {
+      "id": "B3-zh-00007",
+      "text": "第六条（实施计划批准申请）项目实施者（指定权人为项目实施者的情形除外）依施行令第19条第1款拟申请实施计划批准时，应将按附表第7号格式填写的实施计划批准申请书及下列文件提交指定权人。<2016年1月27日、2022年1月21日、2024年7月10日、2024年11月22日、2025年8月1日修订>\n8. 依《国土规划及利用法》第16条第3款与相关行政机关首长协商所需的文件。\n\n"
+    },
+    {
+      "id": "A20546-zh-00007",
+      "text": "办理期限"
+    },
+    {
+      "id": "A20546-zh-00015",
+      "text": "开发区"
+    },
+    {
+      "id": "A20546-zh-00027",
+      "text": "招引行业"
+    },
+    {
+      "id": "A20547-zh-00007",
+      "text": "规划人口"
+    },
+    {
+      "id": "A20548-zh-00007",
+      "text": "办理期限"
+    },
+    {
+      "id": "A20548-zh-00014",
+      "text": "开发区"
+    },
+    {
+      "id": "A20548-zh-00026",
+      "text": "招引行业"
+    },
+    {
+      "id": "A20549-zh-00004",
+      "text": "办理期限"
+    },
+    {
+      "id": "A20550-zh-00004",
+      "text": "办理期限"
+    },
+    {
+      "id": "A20552-zh-00004",
+      "text": "办理期限"
+    },
+    {
+      "id": "A20552-zh-00021",
+      "text": "项目实施期间"
+    },
+    {
+      "id": "A20555-zh-00004",
+      "text": "办理期限"
+    },
+    {
+      "id": "A20557-zh-00004",
+      "text": "办理期限"
+    },
+    {
+      "id": "A20557-zh-00019",
+      "text": "项目进度"
+    },
+    {
+      "id": "A20558-zh-00003",
+      "text": "办理期限"
+    },
+    {
+      "id": "A20558-zh-00022",
+      "text": "偿还日期"
+    },
+    {
+      "id": "A20560-zh-00007",
+      "text": "收件机关"
+    },
+    {
+      "id": "A20561-zh-00004",
+      "text": "办理期限"
     }
   ],
   "findings": {
@@ -126,7 +210,30 @@
     "duplicate_annex_text_in_body_rows": [
       "B2-zh-00143",
       "B3-zh-00034"
+    ],
+    "mtq_placeholder_rows": [
+      "B2-zh-00005",
+      "B2-zh-00023",
+      "B3-zh-00007",
+      "A20546-zh-00007",
+      "A20546-zh-00015",
+      "A20546-zh-00027",
+      "A20547-zh-00007",
+      "A20548-zh-00007",
+      "A20548-zh-00014",
+      "A20548-zh-00026",
+      "A20549-zh-00004",
+      "A20550-zh-00004",
+      "A20552-zh-00004",
+      "A20552-zh-00021",
+      "A20555-zh-00004",
+      "A20557-zh-00004",
+      "A20557-zh-00019",
+      "A20558-zh-00003",
+      "A20558-zh-00022",
+      "A20560-zh-00007",
+      "A20561-zh-00004"
     ]
   },
-  "notes": "Read all 24 Korean source documents (151,085 characters) in the assigned bundle, then both official English bodies (Act and Enforcement Decree) and all 95 rows of the reviewed English Enforcement Rule. English index reports 1,084/1,394 rows with English and 310 without document-level English. Loaded all 1,394 Chinese rows and performed an initial whole-file anomaly scan. Found mixed Korean/Chinese or untranslated content in 15 rows. Five unambiguous minimal fixes are recorded here; full sequential Chinese review of 1,394 rows remains pending. Do not mark COMPLETE. No source blobs changed. Five rows have now received source-grounded minimal corrections and are retained in this progress checkpoint; the other 1,389 rows remain to be sequentially reviewed. Additional sequentially checked rows: B1-zh-00014, B1-zh-00025, B1-zh-00027, B1-zh-00034, B1-zh-00035. These five rows now have minimal corrections; total checked/corrected rows in this checkpoint: 10. Full 1,394-row review remains IN_PROGRESS. Further corrected rows: B1-zh-00010, B1-zh-00017, B1-zh-00037, B1-zh-00048. Checkpoint now contains 14 corrections; full sequential review remains pending. B2-zh-00059 was corrected to translate the remaining Korean table cells and preserve the row's table structure. Fifteen rows with detected mixed/untranslated Korean are now addressed in the progress record; a full sequential Chinese review remains pending."
+  "notes": "Read all 24 Korean source documents (151,085 characters) in the assigned bundle, then both official English bodies (Act and Enforcement Decree) and all 95 rows of the reviewed English Enforcement Rule. English index reports 1,084/1,394 rows with English and 310 without document-level English. Loaded all 1,394 Chinese rows and performed an initial whole-file anomaly scan. Found mixed Korean/Chinese or untranslated content in 15 rows. Five unambiguous minimal fixes are recorded here; full sequential Chinese review of 1,394 rows remains pending. Do not mark COMPLETE. No source blobs changed. Five rows have now received source-grounded minimal corrections and are retained in this progress checkpoint; the other 1,389 rows remain to be sequentially reviewed. Additional sequentially checked rows: B1-zh-00014, B1-zh-00025, B1-zh-00027, B1-zh-00034, B1-zh-00035. These five rows now have minimal corrections; total checked/corrected rows in this checkpoint: 10. Full 1,394-row review remains IN_PROGRESS. Further corrected rows: B1-zh-00010, B1-zh-00017, B1-zh-00037, B1-zh-00048. Checkpoint now contains 14 corrections; full sequential review remains pending. B2-zh-00059 was corrected to translate the remaining Korean table cells and preserve the row's table structure. Fifteen rows with detected mixed/untranslated Korean are now addressed in the progress record; a full sequential Chinese review remains pending. A subsequent full-text anomaly scan identified 21 rows containing MTQ placeholder residue or embedded statute-name tokens: three statutory references and eighteen form labels. All 21 received targeted replacement/translation records. Form labels were mapped to the Korean source terms (처리기간, 개발구역, 유치업종, 계획인구, 사업기간, 사업진도, 상환일, 제출받는 기관). These are targeted anomaly corrections, not evidence that all 1,394 rows have been sequentially reviewed. Full sequential review and final QC remain pending."
 }
