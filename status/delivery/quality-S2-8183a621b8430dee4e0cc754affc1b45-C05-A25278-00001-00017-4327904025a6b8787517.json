@@ -1,0 +1,69 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-3705abbc710de4b867bc",
+  "worker": "C05",
+  "branch": "main",
+  "source_blobs": {
+    "ko": "7974bf81d14f4838ae85d4b3ceea80a2f0e65fed",
+    "zh": "045dd328cd77f3eecd8b6cd485be27f2389773e8"
+  },
+  "document_key": "A25278",
+  "document_source_hash": "ff252b7ea532b9e225fa50dbc6f050c3c2f7228c96628edc557a563e1564d8a7",
+  "checked_ids": [
+    "A25278-zh-00001",
+    "A25278-zh-00002",
+    "A25278-zh-00003",
+    "A25278-zh-00004",
+    "A25278-zh-00005",
+    "A25278-zh-00008",
+    "A25278-zh-00009",
+    "A25278-zh-00013",
+    "A25278-zh-00016",
+    "A25278-zh-00017"
+  ],
+  "checked_rows": 10,
+  "adopted_edits": [
+    {
+      "id": "A25278-zh-00001",
+      "text": "■ 《消防设备管理法施行规则》[别纸第3号格式]"
+    },
+    {
+      "id": "A25278-zh-00002",
+      "text": "消防设备认证机构指定申请书"
+    },
+    {
+      "id": "A25278-zh-00003",
+      "text": "受理编号"
+    },
+    {
+      "id": "A25278-zh-00004",
+      "text": "受理日期"
+    },
+    {
+      "id": "A25278-zh-00005",
+      "text": "处理期限"
+    },
+    {
+      "id": "A25278-zh-00008",
+      "text": "营业登记号码"
+    },
+    {
+      "id": "A25278-zh-00009",
+      "text": "代表人"
+    },
+    {
+      "id": "A25278-zh-00013",
+      "text": "认证业务的"
+    },
+    {
+      "id": "A25278-zh-00016",
+      "text": "依据《消防设备管理法》第14条第2款、同法施行令第19条第2款及同法施行规则第11条第1款，"
+    },
+    {
+      "id": "A25278-zh-00017",
+      "text": "现申请按上述内容指定为消防设备认证机构。"
+    }
+  ],
+  "status": "QUALITY_PARTIAL",
+  "note": "Checked Korean application form (annex form 3) against original Chinese row texts. Repairs certification-form title, intake labels, MTQ artifact, certification scope and law citations. Preserves earlier C05 decisions and original source rows. Not counted as full 1162-row verification; COMPLETE receipt withheld."
+}
