@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 445,
+    "correction_count": 449,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -3140,6 +3140,34 @@
       "original": "第15-5条（举报奖励）\n① 公平交易委员会可在预算范围内，向举报或提供有关违反本法行为的信息，并提交证据证实该举报或信息的任何人支付奖励。\n② 第1款规定的奖励支付对象范围、奖励支付标准和程序等事项，由总统令规定。\n\n第四章 纠纷调解等\n\n",
       "corrected": "第十五条之五（举报奖励金）\n① 公平交易委员会可以在预算范围内，向举报或提供本法违法行为线索，并提交能够证明该举报或线索的证据资料的人支付奖励金。\n② 关于第1款奖励金支付对象的范围、支付标准及程序等必要事项，由总统令规定。\n\n第四章 纠纷调解等\n\n",
       "reason": "신고포상금의 증거자료 제출 요건 및 지급대상 범위 표현을 원문에 맞춰 교정."
+    },
+    "B1-zh-00091": {
+      "doc": "B1",
+      "source_hash": "a65491c079ccdf76d4a7d700847dcf50a674347584890c64f0ae99ba5a86ba67",
+      "original": "第八条（关于退还特许经营费的过渡措施）  在本法实施前，特许经营人违反原第九条第一款规定提供虚假、夸大信息，违反原第八条第二款规定遗漏重要事项，或者无正当理由单方面中止特许经营业务的，适用原规定退还特许经营费。  在此情况下，退还本法实施前已缴纳的特许经营费的范围，适用原第二条第六款和第十条的规定。\n\n",
+      "corrected": "第八条（关于退还特许经营费的过渡措施）本法施行前，特许经营总部违反旧第9条第1款提供虚假或夸大信息、违反旧第8条第2款遗漏重要事项，或无正当理由单方面中止特许经营业务的，关于特许经营费的返还，适用旧规定。在此情况下，本法施行前已支付的特许经营费的返还范围，依旧第2条第6号及第10条规定确定。\n\n",
+      "reason": "원문은 가맹본부가 위반한 경우를 규정하므로 '特许经营人'을 가맹본부로 특정."
+    },
+    "B1-zh-00089": {
+      "doc": "B1",
+      "source_hash": "d7b693ac282cd41c890460f37ced813cf0059097ed27c44d8bcbc123df6b906d",
+      "original": "第六条（关于信息披露声明的特别规定）尽管第六条之二和第七条第一款、第二款的规定有所修改，但特许经营者可以自本法生效之日起六个月内提供先前的信息披露声明。\n\n",
+      "corrected": "第六条（关于信息披露声明的特别规定）自本法施行日起6个月内，尽管第6条之2及第7条第1款、第2款的修订规定已经施行，特许经营总部仍可以提供旧版信息披露声明。\n\n",
+      "reason": "특례의 주체는 가맹본부이고, 기존 정보공개서 제공 허용 기간을 법 시행일부터 6개월로 명확히 교정."
+    },
+    "B1-zh-00145": {
+      "doc": "B1",
+      "source_hash": "7cccabd347849fb78c02e9f76a58cd078512d24f620d5be010be158df31f0824",
+      "original": "第二条（小型特许经营商缴纳特许经营费及披露声明的适用性）① 经修订的第三条第二款中第六条第五款关于缴纳特许经营费等的规定，适用于本法实施后第三条第一款第一项或第二项所指的特许经营商订立的特许经营协议。\n\n  ② 在修订后的第三条第二款规定中，关于根据第七条提供信息披露声明等义务的内容，自第三条第一款第一项或第二项所指的特许人根据附录第四条申请信息披露声明登记并获得登记证书后首次招募加盟商之日起适用。\n\n",
+      "corrected": "第二条（关于小规模特许经营总部缴纳特许经营费及提供信息披露声明的适用例）\n① 第3条第2款修订规定中有关依第6条之5存入特许经营费等的内容，适用于符合第3条第1款第1项或第2项规定的小规模特许经营总部在本法施行后签订的特许经营合同。\n② 第3条第2款修订规定中有关依第7条提供信息披露声明等义务的内容，自符合第3条第1款第1项或第2项规定的特许经营总部依附则第4条申请信息披露声明登记并取得登记证书后，首次招募加盟商时起适用。\n\n",
+      "reason": "제3조제1항 각 호에 해당하는 대상은 가맹점사업자가 아니라 소규모 가맹본부이며, 제2항의 등록증 발급 후 모집 대상도 가맹점사업자임을 바로잡음."
+    },
+    "B1-zh-00152": {
+      "doc": "B1",
+      "source_hash": "c4bdde319232b111e303b3401ed15ed67c1295990f369977baf473c1ccc92220",
+      "original": "第三条（关于开展广告促销活动事先征得同意的过渡措施）  特许人在本法生效后，依据与广告销售代理机构等签订的、旨在开展此类广告促销活动的合同，开展广告促销活动的，即使第十二条之六第一款的修订规定另有规定，特许人也可以在未经被特许人同意的情况下开展此类广告促销活动。\n\n",
+      "corrected": "第三条（关于实施广告、促销活动事先取得同意的过渡措施）本法施行前，特许经营总部为实施广告或促销活动而与广告销售代理经营者等签订合同，并依据该合同在本法施行后实施广告或促销活动的，尽管第12条之6第1款的修订规定另有规定，仍可以不取得加盟商同意而实施该广告或促销活动。\n\n",
+      "reason": "한국어 원문은 법 시행 전에 체결된 광고판매대행 계약을 요건으로 하는데 중국어는 시행 후 계약으로 시점을 역전함."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -3227,7 +3255,8 @@
     "C05 dadabcb505f0 continuation: B1 Articles 12-3, 12-6, 12-7, 14, 15, 15-3, 15-4 and 16 compared with complete Korean text. Eight minimal corrections: restore normal-trade-practice test and responsible actors, advertising/marketing consent ratio and party, identify franchisor as industry-standard recommendation target, align contract termination legal effect, correct self-regulation authors, restore mutual-aid association party/paragraph structure, restore cooperation agreement paragraph marker/parties, and correct city/provincial governor and statutory mediation committee name. Prior 417 corrections preserved; IN_PROGRESS.",
     "C05 dadabcb505f0 continuation: B1 Articles 4 and 5 terminology rechecked. Two minimal clarifications align the good-faith principle and franchisor's direct-store/competitive-franchise restriction with the Korean text; cumulative corrections 427. IN_PROGRESS.",
     "C05 0986045a1c30 continuation: B1 Articles 18, 19, 32, 32-2, 33, 34, 34-3, 35, 37-2 and 39 compared against complete Korean clauses. Ten material corrections: disqualification parties, mediation committee small-meeting structure/voting, investigation limitation and penalty type, written fact-survey subjects, corrective-measure list and franchisor actor, recommendation actor, consent-decision beneficiary, administrative surcharge calculation/succession, treble damages party identity, and delegated-work cost support. Prior 427 edits preserved; IN_PROGRESS.",
-    "C05 9c0d04b7894a continuation: B1 Articles 29-2, 30, 34-4, 36, 37, 38, 42 and 15-5 checked against Korean source. Eight corrections: professional qualification title consistency, enforcement payment vs criminal fine distinction, administrative cooperation term, legal citation/decision terminology, supplementary statute application, two-penalty rule fine type, and whistleblower reward evidence/eligibility. Prior 437 corrections preserved; IN_PROGRESS."
+    "C05 9c0d04b7894a continuation: B1 Articles 29-2, 30, 34-4, 36, 37, 38, 42 and 15-5 checked against Korean source. Eight corrections: professional qualification title consistency, enforcement payment vs criminal fine distinction, administrative cooperation term, legal citation/decision terminology, supplementary statute application, two-penalty rule fine type, and whistleblower reward evidence/eligibility. Prior 437 corrections preserved; IN_PROGRESS.",
+    "C05 9c0d04b7894a continuation: B1 supplementary provisions rows 89, 91, 145 and 152 checked against Korean original. Four clear corrections: franchisor party in refund transition, six-month old-disclosure exception, small-franchisor (not franchisee) applicability scope and recruitment trigger, and pre-effective-date advertising-agency contract condition (date reversal). Prior 445 corrections preserved; IN_PROGRESS."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -3236,5 +3265,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 445
+  "corrected_rows": 449
 }
