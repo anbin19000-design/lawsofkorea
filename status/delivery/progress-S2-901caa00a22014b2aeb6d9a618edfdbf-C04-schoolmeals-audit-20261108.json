@@ -13,10 +13,10 @@
   "documents": 15,
   "total_rows": 1241,
   "unique_source_ids": 1241,
-  "verified_corrections": 26,
-  "pending_manual_verification": 1215,
+  "verified_corrections": 27,
+  "pending_manual_verification": 1214,
   "review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
-  "review_sha": "bf76a53a536e7d448c3d76d7de73707329de29d9",
+  "review_sha": "7e64e66c374ff835a7c413f3d807cea259226af3",
   "checked_ids": [
     "A14112-zh-00030",
     "A14112-zh-00032",
@@ -43,7 +43,8 @@
     "B1-zh-00047",
     "B1-zh-00061",
     "B1-zh-00069",
-    "B1-zh-00076"
+    "B1-zh-00076",
+    "B1-zh-00093"
   ],
   "findings": {
     "mtq_corruption_corrected": 8,
@@ -57,6 +58,6 @@
     "english_rows_unmatched": 330,
     "remaining_simple_MTQ_or_Hangul_patterns": 0
   },
-  "note": "Round 3: compared B1-zh-00063 through 00085 to Korean original. Corrected B1-zh-00069, B1-zh-00076. 26 edits retained and readback verified; 1215 rows remain uncertified. English complete-read milestone not verified, full-family review not complete.",
-  "next_unverified_id": "B1-zh-00086"
+  "note": "Round 4: B1-zh-00093 corrected against Korean original; review readback pending. English full-read and full-family manual review not certified; no COMPLETE receipt.",
+  "next_unverified_id": "B2-zh-00001"
 }
