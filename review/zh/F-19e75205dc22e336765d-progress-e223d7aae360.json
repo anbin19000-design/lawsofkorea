@@ -34,5 +34,32 @@
       "reason": "기존 검수 기록상 원문 손상 및 보호 보류. 임의 복원·수정 금지."
     }
   ],
-  "note": "기존 공식 검수본과 교정 1,548건을 보존. 원문 세 blob은 지정 SHA로 조회됨. 이 진행 파일은 재개 체크포인트이며 완료 영수증이 아님. 아직 남은 가족 전체 독해·중국어 검수·최종 품질검사·공식 저장 재조회가 필요함."
+  "note": "기존 공식 검수본과 교정 1,548건을 보존. 원문 세 blob은 지정 SHA로 조회됨. 이 진행 파일은 재개 체크포인트이며 완료 영수증이 아님. 아직 남은 가족 전체 독해·중국어 검수·최종 품질검사·공식 저장 재조회가 필요함. 추가 점검: 미교정 잔여 행의 명백한 MTQ/한글/치환문자/물음표 혼입 후보를 전수 스캔했으며, 후보는 기존 보호 보류 A29851에만 집중됨. 나머지 1,080행의 의미 대조는 미완료이므로 COMPLETE로 승격하지 않음.",
+  "audit": {
+    "reviewed_range": "existing review checked_rows baseline is 1..1250; edits also include targeted later-row corrections",
+    "remaining_rows": 1080,
+    "scan_result": "Unedited rows with Hangul, MTQ token, replacement character, or multiple question marks are confined to A29851 (protected damaged-source hold). No additional candidate outside that hold was identified by this scan; this is not a substitute for full semantic review.",
+    "hold_rows": [
+      "A29851-zh-00007",
+      "A29851-zh-00016",
+      "A29851-zh-00018",
+      "A29851-zh-00020",
+      "A29851-zh-00023",
+      "A29851-zh-00028",
+      "A29851-zh-00035",
+      "A29851-zh-00050",
+      "A29851-zh-00059",
+      "A29851-zh-00060",
+      "A29851-zh-00062",
+      "A29851-zh-00066",
+      "A29851-zh-00073",
+      "A29851-zh-00077",
+      "A29851-zh-00078",
+      "A29851-zh-00081",
+      "A29851-zh-00083",
+      "A29851-zh-00084",
+      "A29851-zh-00085"
+    ],
+    "prior_review_sha": "99fc4e59aa3aceabe42a8257aa8f8619d98a225e"
+  }
 }
