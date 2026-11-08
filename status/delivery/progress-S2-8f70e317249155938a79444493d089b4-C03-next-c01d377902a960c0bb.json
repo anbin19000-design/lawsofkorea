@@ -1,0 +1,52 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26703",
+  "quality_batch": "next-c01d377902a960c0bb",
+  "range": {
+    "first": "A26703-zh-00046",
+    "last": "A26703-zh-00048"
+  },
+  "quality_checked_rows": 3,
+  "quality_passed_rows": 3,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "A26703-zh-00046",
+    "A26703-zh-00047",
+    "A26703-zh-00048"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_quality_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26703-quality-02.json",
+  "prior_correction_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26703-00001-00083.json",
+  "results": [
+    {
+      "id": "A26703-zh-00046",
+      "source_hash": "0313408cdf794fea03a1b1d6758e8ad6cc7c6a9f70b7256de98dafab6a45bf1a",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "adopted_text": "手续费",
+      "source_hash_matches_original_row": true,
+      "reason": "한국어 '수수료'에 해당하며 원본 '费用'보다 기저장 교정 '手续费'가 정확함"
+    },
+    {
+      "id": "A26703-zh-00047",
+      "source_hash": "9b9f765e005f6811c5e986daa041057cea83f9af6c19ca7d70a7ef3c9ab707c9",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "adopted_text": "申请人提交文件",
+      "source_hash_matches_original_row": true,
+      "reason": "한국어 '신청인 제출서류'의 신청인 주체를 보존한 기저장 교정문 적합"
+    },
+    {
+      "id": "A26703-zh-00048",
+      "source_hash": "3d3d51df18ea40ee37d9093efef2002de7209f94751479a50e3c9e8282d4ca35",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "adopted_text": "2. 租赁合同（仅限设施所在地变更且租赁不动产的情形）",
+      "source_hash_matches_original_row": true,
+      "reason": "한국어 '임대차계약서(소재지가 변경되는 경우로서 부동산을 임차하는 경우만 해당)'의 제출 조건을 기저장 문장이 충실하게 반영"
+    }
+  ],
+  "edits": [],
+  "note": "A26703 46~48 three unique IDs compared against original Korean form and preserved prior corrections. No new edits; family-wide completion not asserted."
+}
