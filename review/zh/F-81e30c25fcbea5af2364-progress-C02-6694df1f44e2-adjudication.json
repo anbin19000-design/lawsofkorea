@@ -1,0 +1,272 @@
+{
+  "schema": "LAW_ZH_C02_CANDIDATE_ADJUDICATION_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "task_marker": "6694df1f44e2",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "scope": "Source-reviewed forms 6-10, Decree annexes 1-4; maintain Korean source fidelity and previously accepted cross-cell boundaries",
+  "decisions": [
+    {
+      "id": "A25470-zh-00040",
+      "source_hash": "b6fb97fcbcd88a0fcb8889c54d4d63913e90d756a01f1876e919fd92167b2a3a",
+      "target_id": "XML:1802924",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean Form 6 extension application requires 申请延长; existing master preserves this verb plus opening checkbox, unlike candidate.",
+      "retained_text": "第3款及该法施行规则第5条第1款，现申请延长［",
+      "rejected_historical_variant": "第三款及该法施行规则第五条第一款，现按上述内容申请[ ]"
+    },
+    {
+      "id": "A25470-zh-00043",
+      "source_hash": "bc82d31a88502ad1645b15e35285e3af7f8036a9dbcd4b093f2cad5a5f19fbb1",
+      "target_id": "XML:1802927",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean Form 6 continuation needs both implementation and demonstration periods; master preserves complete scope and matching checkbox closure.",
+      "retained_text": "］项目的实施期间或实证期间。",
+      "rejected_historical_variant": "或实证期间延期。"
+    },
+    {
+      "id": "A25471-zh-00025",
+      "source_hash": "021121bc312b0b866fdd4b6b2449b0415f3f7cd61d8ba4d8aa5fbdd31de71871",
+      "target_id": "XML:1802983",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean Form 7 issuance is for extension of listed project; master retains contextual introductory wording and checkbox.",
+      "retained_text": "第4款及该法施行规则第5条第2款，现签发上述［",
+      "rejected_historical_variant": "第四款、该法施行规则第五条第二款，现按上述内容签发[ ]"
+    },
+    {
+      "id": "A25471-zh-00028",
+      "source_hash": "140a0a1955095e0eaf10fa1b87a340301b4243b545b6bdcb523a4ad1f4e39e0b",
+      "target_id": "XML:1802986",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean Form 7 covers implementation OR demonstration period extension; master preserves both and closes checkbox.",
+      "retained_text": "］项目的实施期间或实证期间延长确认书。",
+      "rejected_historical_variant": "实证期间延期确认书。"
+    },
+    {
+      "id": "A25472-zh-00024",
+      "source_hash": "7e6c55ef4f2f07169154847f46fa85e9b3c14a5b39031abdc144a24a189f04b4",
+      "target_id": "XML:1803017",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean Form 8 classification has other laws requiring amendment; master preserves '其他', candidate adds unsupported temporal qualification '进一步'.",
+      "retained_text": "其他需要修订的法规",
+      "rejected_historical_variant": "还需进一步整备的法律法规"
+    },
+    {
+      "id": "A25472-zh-00039",
+      "source_hash": "a7b7f4eead2658008962f93491705d076ccf0abcf12a91d930aa476cc3865d14",
+      "target_id": "XML:1803032",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean Form 8 requests resident-damage, compensation and action outcome; master more precisely preserves 여부 and 조치 결과.",
+      "retained_text": "3. 居民等是否发生损害、是否已获损害赔偿及采取措施的结果",
+      "rejected_historical_variant": "3. 居民等是否遭受损害、是否进行损害赔偿及相应措施的结果"
+    },
+    {
+      "id": "A25473-zh-00019",
+      "source_hash": "a21a492062e62efa9f735bc7cecc3928a79664c92c76a53b207d0d0fe7cd387a",
+      "target_id": "XML:1803054",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean Form 9 administrative notification and statutory condition continued across row boundaries; retain master cross-cell continuity and existing statute reference.",
+      "retained_text": "根据同法第53条之3第8款，1. 在认定无需进行法令整备，或者虽认定需要整备法令但",
+      "rejected_historical_variant": "并告知：依据该法第五十三条之三第八款，1. 认定不需要整备法律法规，或者虽认定需要整备法律法规，"
+    },
+    {
+      "id": "A25474-zh-00008",
+      "source_hash": "31b92fb4917f6a016fa99adf294fcb01828e5c133e43890099239d1e1b2619ab",
+      "target_id": "XML:1803073",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean Form 10 field is 법령정비 검토 의견; candidate omits review-opinion element, master keeps it.",
+      "retained_text": "法令整备审查意见",
+      "rejected_historical_variant": "法律法规整备"
+    },
+    {
+      "id": "A36424-zh-00018",
+      "source_hash": "53d1a4b76f1c2c17fb3bbd1412d51a165e2fa2c0bde6a4da7fa0954259d4e32c",
+      "target_id": "XML:2657241",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean Decree annex 1 qualified individual with minister recognition is line-wrapped; master keeps approver name contiguous without duplicating it in next cell.",
+      "retained_text": "庚. 具备与上述甲至己项人员同等资格，并经国土交通部长官认可的",
+      "rejected_historical_variant": "庚. 具有与前述第一项至第六项人员同等水平的资格，并经国土交通"
+    },
+    {
+      "id": "A36424-zh-00019",
+      "source_hash": "5199c896bb80aa919e66ebb54760b60e0c1943ad972f89da6149375344dd651f",
+      "target_id": "XML:2657242",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean Decree annex 1 preceding row already includes minister recognition, leaving 人员 in this row avoids cross-cell duplication.",
+      "retained_text": "人员",
+      "rejected_historical_variant": "部长官认可的人员"
+    },
+    {
+      "id": "A36424-zh-00028",
+      "source_hash": "d1acb640b323ca3a436677649d24c2fd66bd23e13b93efb5843287f48a3d56c6",
+      "target_id": "XML:2657252",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 1 cites exact titled law 정부출연연구기관 등의 설립ㆍ운영 및 육성에 관한 법률; master official-style 法 avoids inaccurate '相关法律' genericization.",
+      "retained_text": "2.“智慧城市相关领域的实务经验”是指在《政府出资研究机构等的设立、运营及培育法》",
+      "rejected_historical_variant": "2.“智慧城市相关领域的实务经验”，是指在《政府出资研究机构等的设立、运营及培育相关法律》"
+    },
+    {
+      "id": "A36424-zh-00030",
+      "source_hash": "abf775c70b8dfe2615417272aa9e69ccca19aa84cb0fac1bb216ad3964e5bd61",
+      "target_id": "XML:2657254",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 1 describes legal persons formed under Civil/Commercial Law; master keeps 法人中 in this cell to maintain syntax with next.",
+      "retained_text": "《高等教育法》第二条规定的学校，以及依《民法》或《商法》设立的法人中，",
+      "rejected_historical_variant": "《高等教育法》第二条规定的学校，以及依照《民法》或《商法》设立的"
+    },
+    {
+      "id": "A36424-zh-00031",
+      "source_hash": "34fd0fb947109605f98eacde6db5a6e9784724022a5e178100c6d6da874e00b7",
+      "target_id": "XML:2657255",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 1 continues description of experiences in those legal persons; master avoids repeating 法人中 from previous cell.",
+      "retained_text": "从事智慧城市相关业务或研究的经历。",
+      "rejected_historical_variant": "法人中，从事智慧城市相关业务或研究的经历。"
+    },
+    {
+      "id": "A36425-zh-00009",
+      "source_hash": "2350552f0d69eaafa3b3d1e08bcad422c4b80e69bf96ca5156203239e36c5c85",
+      "target_id": "XML:2657264",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean Decree annex 2 general criteria 나 requires both stay order and cancellation conversion; master preserves conditional clause before reduction.",
+      "retained_text": "属于业务停止处分的，可在该处分标准的二分之一范围内减轻；属于撤销指定处分的，",
+      "rejected_historical_variant": "可以在规定的暂停业务期限的二分之一范围内减轻；处分属于撤销指定的，"
+    },
+    {
+      "id": "A36425-zh-00010",
+      "source_hash": "89f32ab5c3f3b0189c6cc1c44e2fac2172bdc8d84ef4d864508edffd09fb34dc",
+      "target_id": "XML:2657265",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 2 specifies 6-month suspension (업무정지), both translations equivalent; retain established 停止业务 terminology.",
+      "retained_text": "可减轻为停止业务六个月。",
+      "rejected_historical_variant": "可以减轻为暂停业务六个月。"
+    },
+    {
+      "id": "A36425-zh-00014",
+      "source_hash": "ce95f2f5e45038f7ff496adf4f9c5acc42a2eaaefd9b540cbf036a7492b9c9d1",
+      "target_id": "XML:2657269",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 2 다 expressly imposes combined-duration cap when aggravating suspension; candidate omits cap, retain master.",
+      "retained_text": "可在最重处分标准的二分之一范围内加重，但不得超过各项处分标准的合计期间。",
+      "rejected_historical_variant": "在较重处分标准的二分之一幅度内加重处分。"
+    },
+    {
+      "id": "A36425-zh-00015",
+      "source_hash": "1d6f6bce78138ea58d3cc062dbce45c849d57266d25052a404c84318174a0c95",
+      "target_id": "XML:2657270",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean heading '2. 개별기준' specifically means individual standards; master 个别标准 is more accurate than 具体标准.",
+      "retained_text": "2. 个别标准",
+      "rejected_historical_variant": "2. 具体标准"
+    },
+    {
+      "id": "A36426-zh-00028",
+      "source_hash": "67dadaf9dd212603a4e1d05159f54b607ec155e91d9b5e964896af2d9be944d5",
+      "target_id": "XML:2657337",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 3 law citation begins 《科学技术领域...》, candidate adds 依据 splitting sentence unnaturally across cells; retain existing cross-cell law citation.",
+      "retained_text": "《科学技术领域政府出资研究机构等的",
+      "rejected_historical_variant": "依据《科学技术领域政府出资研究机构等的"
+    },
+    {
+      "id": "A36426-zh-00029",
+      "source_hash": "70adbd622a6056ac3092b94bffd748813f5c52dbbd7d999fcb7550e83b74eb22",
+      "target_id": "XML:2657338",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 3 official statute title ends 법률; master retains full law name and Article 8 accurately.",
+      "retained_text": "设立、运营及培育法》第8条",
+      "rejected_historical_variant": "设立、运营及培育相关法律》第八条"
+    },
+    {
+      "id": "A36426-zh-00030",
+      "source_hash": "c2f0eda8e3a6e5500a5403c0731c0d289611d7940a723ea80cc6f9f806244091",
+      "target_id": "XML:2657339",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 3 links establishment under Article 8 of Korean Institute of Civil Engineering and Building Technology; master closes syntax from preceding cell.",
+      "retained_text": "规定设立的韩国建设技术研究院",
+      "rejected_historical_variant": "设立的韩国建设技术研究院"
+    },
+    {
+      "id": "A36427-zh-00032",
+      "source_hash": "79e8856468966f56cc9f74e5a890e3845e1917465a0b761a28de9183715319f5",
+      "target_id": "XML:2657401",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean 과태료 is administrative fine, not generic penalty; master 行政罚款 is more precise.",
+      "retained_text": "行政罚款",
+      "rejected_historical_variant": "罚款"
+    },
+    {
+      "id": "A36427-zh-00061",
+      "source_hash": "7d12b952579993bd639a1860f555303e6b53efbcb75a7c12ff9fc6fa173477ea",
+      "target_id": "XML:2657430",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean numbered citation identifies paragraph 2 subparagraph 3; master retains 第2款第3号.",
+      "retained_text": "第2款第3号",
+      "rejected_historical_variant": "二款第三号"
+    },
+    {
+      "id": "A36427-zh-00063",
+      "source_hash": "465b070307f588a1074aefd0f746f21a769a29dce542403febfcab7400ced375",
+      "target_id": "XML:2657432",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean advertising claim of certification is equally rendered by both variants; retain accepted master.",
+      "retained_text": "宣传自己已获得认证的情形",
+      "rejected_historical_variant": "宣传其已取得认证的情形"
+    },
+    {
+      "id": "A36427-zh-00069",
+      "source_hash": "57b5987e7319edde8155347fa1f58b08caa454086a07ad01b45a54bceadba267",
+      "target_id": "XML:2657439",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean numbering 제1호 equivalent to 第一号; master 第1号 consistent with citation pattern.",
+      "retained_text": "第1号",
+      "rejected_historical_variant": "第一号"
+    },
+    {
+      "id": "A36427-zh-00077",
+      "source_hash": "71437aa09522b625a53a3d6fe73cdfdd2b8cc106b48a83fb309fe2fc4612c3cc",
+      "target_id": "XML:2657448",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean numbering 제2호 equivalent to 第二号; master 第2号 consistent with citation pattern.",
+      "retained_text": "第2号",
+      "rejected_historical_variant": "第二号"
+    },
+    {
+      "id": "A36427-zh-00085",
+      "source_hash": "79a3947d12975b0f1644ec6711012991da5e76d19cda6a58c949bf7ebc91bf6e",
+      "target_id": "XML:2657457",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean numbering 제3호 equivalent to 第三号; master 第3号 consistent with citation pattern.",
+      "retained_text": "第3号",
+      "rejected_historical_variant": "第三号"
+    },
+    {
+      "id": "A36427-zh-00092",
+      "source_hash": "5d4ef505870fe4c302811d931e41a5edbd5ad5114c9de85988cbb19065e7138b",
+      "target_id": "XML:2657464",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean numbering 제4호 equivalent to 第四号; master 第4号 consistent with citation pattern.",
+      "retained_text": "第4号",
+      "rejected_historical_variant": "第四号"
+    },
+    {
+      "id": "A36427-zh-00112",
+      "source_hash": "70bcb5d1e89941a76b35b2f1f197fa3173a6a8a8877f016de55938479e64817a",
+      "target_id": "XML:2657484",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean numbering 제5호 equivalent to 第五号; master 第5号 consistent with citation pattern.",
+      "retained_text": "第5号",
+      "rejected_historical_variant": "第五号"
+    }
+  ],
+  "new_edits": 0,
+  "remaining_candidates_expected": 122,
+  "english_note": "No direct English documents for the form and annex source rows; Korean authoritative.",
+  "completion_receipt_verified": false
+}
