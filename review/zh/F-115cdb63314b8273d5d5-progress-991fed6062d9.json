@@ -5,7 +5,7 @@
   "pc": "WORK-C",
   "panel_id": "panel-06",
   "status": "IN_PROGRESS",
-  "phase": "KO_FULL_READING_IN_PROGRESS",
+  "phase": "EN_FULL_READING_IN_PROGRESS",
   "source_blobs": {
     "ko": "159cb5a14f8f5e07bea8f04a5437adbf4b15c6ba",
     "en": "f29bd3277059d324e7bbe7a69b6b6b49ab69939f",
@@ -68,7 +68,14 @@
       "A4703",
       "A4704",
       "A4705",
-      "A4706"
+      "A4706",
+      "A4707",
+      "A4708",
+      "A4709",
+      "A4710",
+      "A4711",
+      "A4712",
+      "A4713"
     ],
     "ko_decree_operational_articles": "제1조~제105조",
     "ko_decree_supplementary_lines_read": {
@@ -76,15 +83,11 @@
       "end_exclusive_zero_based": 1766
     },
     "ko_decree_next_line_zero_based": null,
-    "ko_full_read": false,
+    "ko_full_read": true,
     "en_full_read": false,
     "zh_full_review": false,
     "verified_zh_rows": 0,
-    "ko_next_document": {
-      "index_zero_based": 54,
-      "key": "A4707",
-      "title": "사업실적보고서"
-    },
+    "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
       "status": "READ_COMPLETE",
@@ -133,8 +136,10 @@
     },
     "ko_form_notes_23_24": "Road officer identification card front/back (photo 3x4cm), 60x90mm; road occupancy initial permit form includes applicants, utility and safety attachments, fee KRW1,000, penalties, processing period tables.",
     "ko_form_notes_25_29": "Permit extension 7-day processing; amendment form and local/central schedules; occupancy license rights-succession 2-month notice and up to KRW 500k penalty; public announcement and register.",
-    "ko_form_notes_30_41": "Road occupancy project plans and coordination, completion confirmation and works substitution, impounded objects records, travel restrictions, exceptional vehicle operation permit (10-day processing and KRW5,000 fee), land access/identity form, construction commencement and quarterly reports."
+    "ko_form_notes_30_41": "Road occupancy project plans and coordination, completion confirmation and works substitution, impounded objects records, travel restrictions, exceptional vehicle operation permit (10-day processing and KRW5,000 fee), land access/identity form, construction commencement and quarterly reports.",
+    "english_next_document": "documents/en/kr-001821-276971-en.json",
+    "ko_final_forms": "Business execution summary, cost-sharing orders (30/90-day appeals), compensation adjudication, succession of permit rights (7-day processing), applicable-road public notice, occupancy cancellation application (5-day processing)."
   },
   "edits": [],
-  "note": "54/61 Korean documents substantively read in source order, latest A4706; remaining 7 forms. No English/Chinese review or Chinese edits."
+  "note": "All 61 Korean source documents substantively read in order including 10 annexes, 48 forms. Now read 3 associated English original text documents in full, then Chinese 5228 rows. No edits or receipts yet."
 }
