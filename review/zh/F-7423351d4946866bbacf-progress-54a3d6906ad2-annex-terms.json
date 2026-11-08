@@ -1,0 +1,78 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "status": "IN_PROGRESS",
+  "checked_rows": 6,
+  "corrected_rows": 6,
+  "edits": [
+    {
+      "id": "B3-zh-00006",
+      "text": "第五条（经营管理计划）根据本法第十条第二款规定设立的鱼市的经营管理计划应当包括下列事项：\n1. 鱼市的场地、建筑物和其他设施的类型、规模、结构和布局\n2. 鱼市建设投资的融资状况（按来源分类），如有债务，则列出还款计划。\n3. 为履行鱼市经营者根据本法第十三条第一款所承担的义务，采取包括投资计划和质量改进等措施。\n4. 生产区域批发商指定方案\n5. 海鲜卸货作业计划\n6. 鱼市开业后五年的商业计划及收支预算\n7.有关相关区域渔业产品供需情况及展望的事项\n8. 鱼市经营者认为为有效管理和运营鱼市所必需的其他事项\n\n"
+    },
+    {
+      "id": "A23947-zh-00220",
+      "text": "扰乱拍卖优先顺序"
+    },
+    {
+      "id": "A23947-zh-00236",
+      "text": "批发市场开设者在指定条件中规定的最低交易金额"
+    },
+    {
+      "id": "A23947-zh-00239",
+      "text": "a) 1个月无交易实绩"
+    },
+    {
+      "id": "A23947-zh-00241",
+      "text": "b) 2个月无交易实绩"
+    },
+    {
+      "id": "A23947-zh-00243",
+      "text": "c) 3个月无交易实绩"
+    }
+  ],
+  "judgments": [
+    {
+      "id": "B3-zh-00006",
+      "decision": "EDIT",
+      "source_hash": "4217b4cbed3e7947833ad661250931651627b2f53e0fa67e6759884820a36332",
+      "basis": "시행규칙 제5조제3호 한국어 법 제13조제1항은 본법 조항이며 가공의 법률명 제거"
+    },
+    {
+      "id": "A23947-zh-00220",
+      "decision": "EDIT",
+      "source_hash": "23faee9d2cd73166e886290d27fcc83690aae2b74507af34ed3bf385c87f8454",
+      "basis": "별표 1 경매 우선순위의 결정을 문란하게 한 경우; 오역을 법률 문맥에 맞춰 수정"
+    },
+    {
+      "id": "A23947-zh-00236",
+      "decision": "EDIT",
+      "source_hash": "a67ceab2efa389b81c8283e15a5d1e9169ef62dcd631feec0433c19c79a8b415",
+      "basis": "별표 1 개설자=批发市场开设者이지 설치업자가 아님"
+    },
+    {
+      "id": "A23947-zh-00239",
+      "decision": "EDIT",
+      "source_hash": "e42f88909a72bb8d918a0458b2a2946b422d58e431b0f4c373a5d78eeff02a94",
+      "basis": "별표 1 1개월 무실적=无交易实绩"
+    },
+    {
+      "id": "A23947-zh-00241",
+      "decision": "EDIT",
+      "source_hash": "22a8304eebfed0597b57a02d92eb90af22f7d88af584bcb7457e50b1bcb6dccf",
+      "basis": "별표 1 2개월 무실적=无交易实绩"
+    },
+    {
+      "id": "A23947-zh-00243",
+      "decision": "EDIT",
+      "source_hash": "756e1b2ffa7519509b1852a25ad231244a16223b7d97dd43962b1c2d2a3a32ca",
+      "basis": "별표 1 다) 3개월 무실적 항목 복원"
+    }
+  ],
+  "source_sha": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c",
+    "en": "32423453da2fcfa466c97946520181a32643e289"
+  },
+  "note": "Korean source table and body semantic corrections. Original source and previous edits remain unchanged."
+}
