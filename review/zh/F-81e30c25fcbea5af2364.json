@@ -5219,9 +5219,27 @@
       "reason": "Correct 건설기술 as construction technology; clarify original facilities and exact clause reference.",
       "verification": "C02_DIRECT_KOREAN_STATUTE_TERM_CHECK",
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3aa49a4f01f1.json"
+    },
+    {
+      "id": "B1-zh-00050",
+      "source_hash": "6ccd03ae1cc99c433aaec2b5d41b85123d0ff8542f5b43c5422c3d47139172d3",
+      "target_id": "891a21633f0094820f9b78e123060e20a2489fce9e74ed8cf9069a97dd58f573",
+      "text": "第35条之二（总括规划师的运用）\n① 国土交通部长可委任智慧城市领域的私营部门专家担任总体规划师，履行下列各款规定的有关国家试点城市建设项目推进和运营的职责。\n1. 国家试点城市建设项目规划支持\n2. 智慧城市建设项目实施与管理支持\n3. 总统令规定的其他职责，例如支持国家试点城市的运营\n② 根据第1款规定，总规划师的资格要求、职责范围、运作等事项，由总统令规定。\n\n",
+      "reason": "Correct specifically wrong legal heading while preserving rest of translated paragraph.",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3aa49a4f01f1.json",
+      "verification": "C02_DIRECT_KOREAN_TITLE_CHECK"
+    },
+    {
+      "id": "B1-zh-00071",
+      "source_hash": "52001fa2561778b74f4d4cf92a26a3c8d20596a389afe57cbf36a4b834d000f7",
+      "target_id": "ca7003c7dbf2d2c2b5fc9ce847767d12ddb254c2be4767a312d553df7fba85c9",
+      "text": "第五十一条（智慧创新事业计划的批准标准等）\n① 国土交通大臣依据第49条第7款批准智能创新项目计划时（包括附条件批准或修改内容的批准），应当综合考虑下列各款的事项。<2021年3月16日修订>\n1. 智能创新项目的必要性及实施的适宜性\n2. 智能创新项目对实施区域公共卫生、安全、环境以及个人信息安全保护和处理的影响\n3. 智能创新项目对实施区域及周边地区的社会经济影响\n4. 其他法律下认可的监管特别规定和监管改进措施对实施智能创新项目的适当性\n5. 智能创新项目实施过程中可能造成的人员伤亡和财产损失的预防和补偿措施的适当性\n6. 总统令规定的其他事项\n② 智慧创新项目的实施期限为四年，并可根据总统令在两年范围内延长一次。但是，如果作为许可等依据的法律法规（以下简称“许可等法律法规”）的修订工作在延长期限内未能完成，则实施期限视为延长至该等法律法规修订工作完成为止。\n③ 根据第1款规定，智能创新商业计划的批准的具体标准由总统令规定。\n\n",
+      "reason": "Correct specifically wrong legal heading while preserving rest of translated paragraph.",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3aa49a4f01f1.json",
+      "verification": "C02_DIRECT_KOREAN_TITLE_CHECK"
     }
   ],
-  "adjudicated_edit_count": 552,
+  "adjudicated_edit_count": 554,
   "pending_single_candidate_count": 343,
   "pending_conflict_count": 0,
   "pending_single_candidates": [
@@ -10448,12 +10466,13 @@
     "C02 3aa49a4f01f1: corrected 17 additional source-backed enforcement-decree annex 2/4 penalty cell errors.",
     "C02 3aa49a4f01f1: restored 65 explicit form and appendix legal-term candidate corrections after comparing Korean source; unchanged historical edits preserved.",
     "C02 3aa49a4f01f1: reviewed and accepted 60 further source-backed legal fields and appendix column corrections, preserving previous edits.",
-    "C02 3aa49a4f01f1: repaired Korean statute names B1 00106/00139/00166/00187 and B2 00007 construction term."
+    "C02 3aa49a4f01f1: repaired Korean statute names B1 00106/00139/00166/00187 and B2 00007 construction term.",
+    "C02 3aa49a4f01f1: corrected titles of B1 Article 35-2 and 51 without wholesale rewrite."
   ],
   "integration_progress": {
-    "stage": "FINAL_SOURCE_BACKED_TERMS_REVIEW_PARTIAL",
+    "stage": "ADDITIONAL_B1_LEGAL_HEADINGS_RECONCILED",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:3aa49a4f01f1",
-    "note": "Five additional unambiguous wrong statute names and construction technology translations fixed. Unresolved historical candidates and full row-by-row certifications remain."
+    "note": "Two mistranslated article headings corrected with minimal substitution. Full-family unfinished evidence and source-backed candidates still pending."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
