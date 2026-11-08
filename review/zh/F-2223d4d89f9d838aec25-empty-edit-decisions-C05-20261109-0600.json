@@ -1,0 +1,87 @@
+{
+  "schema": "LAW_ZH_EMPTY_EDIT_DECISIONS_V1",
+  "job_id": "F-2223d4d89f9d838aec25",
+  "worker": "C05",
+  "panel_id": "panel-05",
+  "source_blob_sha": "770640285a1e85001013331a4a0a6fba3909dd43",
+  "decisions": [
+    {
+      "id": "A29186-zh-00031",
+      "source_hash": "b07f284c168b4439d8094be830d84b516e0148679cabd0662c895cfc05d593ad",
+      "original": ".",
+      "reason": "该独立句点为表格分段残片，无对应韩文内容；作为空片段删除并在进度判定中记录。",
+      "decision": "INTENTIONAL_SEGMENT_DELETION"
+    },
+    {
+      "id": "A29185-zh-00060",
+      "source_hash": "ec8d3f07240da0507573b21a22f63fb0d0dce1e8996a2c168de090d7ed885ed7",
+      "original": "求值。",
+      "reason": "本行是上一行“进行评估”的重复分段残片，删除重复文本；由独立判定记录保留删除理由。",
+      "decision": "INTENTIONAL_SEGMENT_DELETION"
+    },
+    {
+      "id": "A29185-zh-00063",
+      "source_hash": "09e8a8101587b648ac0e58b7920ee0d671da44fb29196819f041825318d96480",
+      "original": "必须确定。",
+      "reason": "删除与前行重复且无独立含义的“必须确定”机器残片。",
+      "decision": "INTENTIONAL_SEGMENT_DELETION"
+    },
+    {
+      "id": "A6597-zh-00033",
+      "source_hash": "487c52cf5f0d183038b6a979ef63ee720ccd301843f9504283e2429228dd4e98",
+      "original": ".",
+      "reason": "独立句点是分段残片，无对应韩文内容；作为空片段删除并记录。",
+      "decision": "INTENTIONAL_SEGMENT_DELETION"
+    },
+    {
+      "id": "B2-zh-00019",
+      "source_hash": "a32dfb63ad6522c8c728c655f8e1a66ac025e66471087d19ca3cce01eaea5e9a",
+      "original": "删除第16条 <2011.12.30>\n\n",
+      "reason": "原译“删除第16条”与韩文原文一致；无须修改，保留此行不变。",
+      "decision": "NO_CHANGE"
+    },
+    {
+      "id": "A6580-zh-00063",
+      "source_hash": "2ef4eabeafa6ce91b29bddd15d76a9a38f530fdadd6383e1eeecae8a6f49af1b",
+      "original": "2. 施工标准",
+      "reason": "恢复第二部分标题层级。",
+      "decision": "NO_CHANGE"
+    },
+    {
+      "id": "A6586-zh-00018",
+      "source_hash": "82d047b9fc39879463f1f9b95c29a48e5807a7b9f1985dfff084f0de59f0bd2c",
+      "original": "或",
+      "reason": "保留所有人/占有人栏位的连接词。",
+      "decision": "NO_CHANGE"
+    },
+    {
+      "id": "A6586-zh-00033",
+      "source_hash": "4c1bba968023610a1f2aa67261d5c8a6ecf8dce48ada00bc8f8cb3d5eaf7460e",
+      "original": "或数量",
+      "reason": "补足“면적 또는 수량”字段。",
+      "decision": "NO_CHANGE"
+    },
+    {
+      "id": "A6586-zh-00036",
+      "source_hash": "9da74ee4c5be3673e7a91414e31bbc9f5831403f69f58e12a032ad9b1c73a944",
+      "original": "损失补偿",
+      "reason": "“손실보상”是损失补偿。",
+      "decision": "NO_CHANGE"
+    },
+    {
+      "id": "A6597-zh-00044",
+      "source_hash": "0313408cdf794fea03a1b1d6758e8ad6cc7c6a9f70b7256de98dafab6a45bf1a",
+      "original": "费用",
+      "reason": "该单元格位于附件清单右侧的手续费栏，应保留为费用标题；并非附件第2项正文。",
+      "decision": "NO_CHANGE"
+    },
+    {
+      "id": "A6600-zh-00033",
+      "source_hash": "962f286b1490fd7e9d1b7a4cfc1558a522c7b0390dd29b794a29d9a3c9774086",
+      "original": "项目",
+      "reason": "“항목”是项目/项目项。",
+      "decision": "NO_CHANGE"
+    }
+  ],
+  "note": "Separate source-bound record of blank or unchanged legacy correction records; these are excluded from canonical nonblank edits and corrected_rows. The row IDs, source hashes, original Chinese texts and rationales are retained."
+}
