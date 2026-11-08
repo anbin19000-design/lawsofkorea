@@ -1,0 +1,80 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 19,
+  "checked_ids": [
+    "A25466-zh-00001",
+    "A25466-zh-00002",
+    "A25466-zh-00003",
+    "A25466-zh-00004",
+    "A25466-zh-00005",
+    "A25466-zh-00006",
+    "A25466-zh-00007",
+    "A25466-zh-00008",
+    "A25466-zh-00009",
+    "A25466-zh-00010",
+    "A25466-zh-00011",
+    "A25466-zh-00012",
+    "A25466-zh-00013",
+    "A25466-zh-00014",
+    "A25466-zh-00015",
+    "A25466-zh-00016",
+    "A25466-zh-00017",
+    "A25466-zh-00018",
+    "A25466-zh-00019"
+  ],
+  "edits": [
+    {
+      "id": "A25466-zh-00001",
+      "source_hash": "8ff9b856c64cf23b0f1bd9128058e0b8486e133a5885b4ba7361622d80b693f7",
+      "target_id": "XML:1802704",
+      "text": "■ 《智慧城市建设及产业振兴等相关法律施行规则》〔附页第4号格式〕<2021年7月12日修订>"
+    },
+    {
+      "id": "A25466-zh-00003",
+      "source_hash": "e7dc03cf40f82d5fb09c95341fdd2ca8c2a387f73240fe22653d0499eea7afa2",
+      "target_id": "XML:1802706",
+      "text": "※ 深色栏由申请人留空，并在［"
+    },
+    {
+      "id": "A25466-zh-00004",
+      "source_hash": "9c2cff79a84df6db8a038d4803908bc9bd951c982152400d044ce6c5b3292004",
+      "target_id": "XML:1802707",
+      "text": "］内相应位置标记√。"
+    },
+    {
+      "id": "A25466-zh-00005",
+      "source_hash": "b736160e9f7f0d321a2b458369e87ad0a76a9b7c00b4454ad463a28ce8d1d95b",
+      "target_id": "XML:1802708",
+      "text": "受理编号"
+    },
+    {
+      "id": "A25466-zh-00006",
+      "source_hash": "ebc9b96eb63cf003b7b1fc13d77fd353ced43869ee6c7836a9f3be4c588e1391",
+      "target_id": "XML:1802709",
+      "text": "受理日期"
+    },
+    {
+      "id": "A25466-zh-00012",
+      "source_hash": "261b57a79be08234e7fecc714416fc5066fe557c83f23b6ae778c5c825138510",
+      "target_id": "XML:1802715",
+      "text": "负责人姓名"
+    },
+    {
+      "id": "A25466-zh-00019",
+      "source_hash": "f8aeab5adac855899a304dc10cce394623944273d6e27a89b4b921dc080f4d87",
+      "target_id": "XML:1802722",
+      "text": "[ ] 作为许可等依据的法律中，没有推进该智慧实证事业所需标准、规格、条件等的情形"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "note": "R83 checked Form 4 rows 1-19 against Korean annex. Seven corrections to form title, checkmark instructions, receipt fields, representative, demonstration project approval-criteria ground. Previously corrected rows 2/8 from R5 retained; original source SHA unchanged. No COMPLETE."
+}
