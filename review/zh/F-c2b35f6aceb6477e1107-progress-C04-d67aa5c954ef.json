@@ -1,0 +1,33 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-c2b35f6aceb6477e1107",
+  "worker": "C04",
+  "panel_id": "panel-04",
+  "assignment_id": "S2-901caa00a22014b2aeb6d9a618edfdbf",
+  "assignment_marker": "d67aa5c954ef",
+  "status": "IN_PROGRESS",
+  "source_blob_shas": {
+    "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
+    "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
+    "zh": "f8879f4a12299069e4831b03f15a2a2fa30c8089"
+  },
+  "document_count": 15,
+  "chinese_rows": 1241,
+  "english_reference_rows": 911,
+  "without_english_reference_rows": 330,
+  "previous_edit_count": 248,
+  "revised_existing_edit_ids": [
+    "B1-zh-00010",
+    "B1-zh-00019",
+    "B1-zh-00093"
+  ],
+  "added_edit_ids": [],
+  "new_total_edit_count": 248,
+  "review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
+  "review_commit": "316d83a09b1c826f0f53ac630746cf70eacbcf0d",
+  "full_korean_read_verified": false,
+  "full_english_read_verified": false,
+  "full_chinese_read_verified": false,
+  "complete_receipt": false,
+  "note": "Official C04/panel-04 binding confirmed, all 15 Korean source document strings and four linked English texts fetched, 1241 Chinese rows indexed and checked for targeted discrepancies. Corrected inclusive threshold, fourth paragraph marker and decree mechanism in Article 7, and two mistranslations of negotiated direct purchase contracts. This does NOT establish complete full semantic read in prescribed language order; preserve IN_PROGRESS."
+}
