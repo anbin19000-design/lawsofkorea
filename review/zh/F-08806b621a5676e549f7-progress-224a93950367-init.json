@@ -9,19 +9,90 @@
     "en": "1de956c78a42df17c5f36079fab0b672ec1521b8",
     "zh": "dc8febba565ee7adee3dea09461594f98d24ea3d"
   },
-  "checked_rows": 0,
-  "edits": [],
+  "checked_rows": 14,
+  "edits": [
+    {
+      "id": "B2-zh-00014",
+      "text": "第八条之三（地震、火山防灾政策委员会审议事项）本法第九条之三第一款第四项所称“总统令规定的事项”，是指下列各项事项。<2017年7月26日、2017年12月19日、2022年10月4日修订>\n1. 关于依据本法第十一条之二第五款制定火山灰灾害减轻综合对策的事项\n2. 关于依据本法第十六条之三制定地震安全设施认证标准的事项\n3. 关于依据本法第十六条之四指定及撤销地震安全设施认证机构的事项\n4. 关于依据本法第二十三条调查、研究活动断层以及制作、核验相关地图的事项\n5. 其他由行政安全部长官请求审议的地震、火山防灾政策相关事项\n\n",
+      "reason": "한국어 조문과 대조하여 법령 인용을 이 법 조문으로 바로잡고 MTQ 오염을 제거함."
+    },
+    {
+      "id": "B2-zh-00067",
+      "text": "第三条（修改其他法令）①至<18>略。\n\n<19>《地震灾害对策法施行令》部分内容作如下修订：\n\n将第10条第17项中的“《原子力法》第2条第20项及同法施行令第9条之2”改为“《原子力安全法》第2条第20项及同法施行令第10条”。\n\n<20>及<21>略。\n\n",
+      "reason": "将整段未翻译韩文依对应韩国语原文翻译，保留修订条文引文。"
+    },
+    {
+      "id": "B2-zh-00083",
+      "text": "第十三条（修改其他法令）①至<31>略。\n\n<32>《地震灾害对策法施行令》部分内容作如下修订：\n\n将第5条第1款第3项及第4项中的“《建设技术管理法》第34条”分别改为“《建设技术振兴法》第44条”。\n\n<33>至<37>略。\n\n",
+      "reason": "将整段未翻译韩文依对应韩国语原文翻译，保留条号及法令名称。"
+    },
+    {
+      "id": "B2-zh-00099",
+      "text": "第七条（修改其他法令）①至<25>略。\n\n<26>《地震灾害对策法施行令》部分内容作如下修订：\n\n将第5条第1款第10项、同条第2款、第6条第3项、同条第4项(c)目、第8条之三第2款第2项、同条第4款、第9条第6款、第12条第4款、第13条第4款、第16条各项以外部分及同条第1项中的“消防防灾厅厅长”分别改为“国民安全处长官”。\n\n将第8条之三第1款中的“消防防灾厅副厅长”改为“国民安全处副部长”。\n\n将第8条之三第2款第1项、同条第4款、第12条第1款及第13条第1款中的“消防防灾厅”分别改为“国民安全处”。\n\n将第9条之二第5款、第7款及第15条各项以外部分中的“安全行政部令”分别改为“国务总理令”。\n\n附表1修改如下。\n\n<27>至<33>略。\n\n",
+      "reason": "原译误写为实施细则，原文为施行令；按韩国语条款逐项重译未译混合段落。"
+    },
+    {
+      "id": "A19767-zh-00005",
+      "text": "处理期限",
+      "reason": "表格字段为处理期限，清除MTQ占位污染。"
+    },
+    {
+      "id": "A19770-zh-00006",
+      "text": "处理期限",
+      "reason": "表格字段为处理期限，清除MTQ占位污染。"
+    },
+    {
+      "id": "A19774-zh-00006",
+      "text": "处理期限",
+      "reason": "表格字段为处理期限，清除MTQ占位污染。"
+    },
+    {
+      "id": "A19775-zh-00006",
+      "text": "处理期限",
+      "reason": "表格字段为处理期限，清除MTQ占位污染。"
+    },
+    {
+      "id": "A19777-zh-00006",
+      "text": "处理期限",
+      "reason": "表格字段为处理期限，清除MTQ占位污染。"
+    },
+    {
+      "id": "A19779-zh-00006",
+      "text": "处理期限",
+      "reason": "表格字段为处理期限，清除MTQ占位污染。"
+    },
+    {
+      "id": "A19775-zh-00028",
+      "text": "报告编号",
+      "reason": "表格字段为报告编号，清除MTQ占位污染。"
+    },
+    {
+      "id": "A19775-zh-00040",
+      "text": "报告编号",
+      "reason": "表格字段为报告编号，清除MTQ占位污染。"
+    },
+    {
+      "id": "A19768-zh-00056",
+      "text": "符合性",
+      "reason": "性能检验结果表中与测量结果并列的判定栏，清除MTQ占位污染。"
+    },
+    {
+      "id": "A19769-zh-00056",
+      "text": "符合性",
+      "reason": "性能检验结果表中与测量结果并列的判定栏，清除MTQ占位污染。"
+    }
+  ],
   "status": "IN_PROGRESS",
-  "phase": "SOURCE_VERIFICATION",
+  "phase": "TARGETED_CLEAR_DEFECTS",
   "reading_order": [
     "KO_FULL",
     "EN_FULL",
     "ZH_FULL"
   ],
   "reading_state": {
-    "ko": "PENDING_FULL_SEQUENTIAL_READ",
-    "en": "PENDING_FULL_SEQUENTIAL_READ",
-    "zh": "PENDING_FULL_SEQUENTIAL_REVIEW"
+    "ko": "NOT_CERTIFIED_FULL_READ",
+    "en": "NOT_CERTIFIED_FULL_READ",
+    "zh": "TARGETED_DEFECTS_IDENTIFIED; FULL_REVIEW_PENDING"
   },
   "document_count": 24,
   "target_rows": 1639,
@@ -78,5 +149,5 @@
     "A19779": "NO_DOCUMENT_ENGLISH"
   },
   "prior_state": "No review/zh/F-08806b621a5676e549f7.json or receipts/F-08806b621a5676e549f7.json found on main at intake. Existing progress records not found by targeted GitHub code search; verify exact candidate paths before assuming none.",
-  "note": "Initial checkpoint only. No rows have yet been semantically reviewed. Source files were fetched from main and blob SHAs match status/active/C01.json. Linked English full-text files verified present and BODY_LOADED. Do not treat this checkpoint as completion or as evidence of full sequential reading."
+  "note": "Targeted pass identified clear Hangul omissions in B2-zh-00067 and B2-zh-00083, a mixed untranslated passage in B2-zh-00099, incorrect statutory references in B2-zh-00014, and MTQ contamination in selected form labels. This is not full-family review. Continue full sequential KO then EN then ZH reading; verify remaining MTQ and B3 table issues against original annex XML before finalization."
 }
