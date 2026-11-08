@@ -973,10 +973,12 @@
     }
   ],
   "prompt_sha256": "31653723be630c0716e7e00f1bd2dc0bd1186ecf18dae1b13a3cc0b20ab5ac65",
+  "received_at": "2026-11-08T08:09:15.560753+00:00",
   "recovery_marker": "[LAW-RECOVERY-V1:R1-2f6d24fd5d79de5db748ebe5]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "956405abc5544fe61b5358cdf3589adcc6abb174",
-  "status": "RECOVERY_SENT_AWAITING_ACK",
+  "status": "RECOVERY_WORKING_VERIFIED",
   "url": "https://chatgpt.com/c/6af02d88-1198-83ee-b640-59a5d0fb8585",
-  "worker": "C02"
+  "worker": "C02",
+  "working_seen_at": "2026-11-08T08:09:15.560763+00:00"
 }
