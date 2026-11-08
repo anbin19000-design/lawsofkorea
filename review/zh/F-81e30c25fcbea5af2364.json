@@ -2971,9 +2971,36 @@
       "reason": "Correct 부칙 and law title, preserving date.",
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-8d3a9d26d513.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON"
+    },
+    {
+      "id": "B1-zh-00131",
+      "source_hash": "4a11ecac55ed342fccb5dca131a2ce9a38649abcbf416bfb580e7758c9e16c6b",
+      "target_id": "eee02bb633e8abb059cefd5344fd5d671f4e059175c60bfee6ff6c9666211731",
+      "text": "第六条（其他法律的修正）①至<219>条已省略\n\n  <220> 《普适城市建设等法》部分内容修改如下。\n\n  在第20条第1款正文、第22条第1款以及第23条第3款除各分款以外的部分中，“安全与公共管理部长”应改为“政府行政与内政部长”。\n\n  <221> 至 <258> 已省略\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-751eec993a83.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Restore omitted amendment item <220> and correct statute title."
+    },
+    {
+      "id": "B1-zh-00152",
+      "source_hash": "cc5e5eb9f127af2d34143aa8aaab69a383af5a03a958d6886a2ae3b37b924402",
+      "target_id": "ab3444c6859ef4f7bc1c9a48d8e466a6dd49667f2850938e775c494045f38bf5",
+      "text": "第五条（其他法律的修正）①至<226>条已省略\n\n  <227> 《普适城市建设等法》部分内容修改如下。\n\n  在第 20 条第 1 款和第 22 条第 1 款的正文中，“政府行政和内政部长”应改为“内政和安全部长”。\n\n  除第 23 条第 3 款的子款外，“科学、信息通信技术和未来规划部副部长、政府行政和内政部副部长”应改为“科学和信息通信技术部副部长​​、内政和安全部副部长”。\n\n  <228> 至 <382> 已省略\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-751eec993a83.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Restore omitted amendment item <227> and correct statute title."
+    },
+    {
+      "id": "B1-zh-00172",
+      "source_hash": "bda44eed797c7b70de715ac4d0244f2a1588f80c4896e57968315c000b59a42c",
+      "target_id": "601262be273f6419edf3889be56bc61cb9af80cecaf17bd110378ef86d2a00f2",
+      "text": "第十四条（修改其他法律）①至③ 已省略\n\n  ④ 《智慧城市建设和产业促进法》部分修改如下。\n\n  第十二条第三款第五项中的“「软件产业促进法」”应改为“「软件促进法」”。\n\n  在第41条第1款中，“软件产业促进法”改为“软件促进法”，“第24条之二第2款至第5款”改为“第48条第2款至第5款”；在同一条第2款除各分款以外的正文中，“软件产业促进法第24条之二第2款至第5款”改为“软件促进法第48条第2款至第5款”；并且该款第1款修改如下。\n\n    1. 根据《软件促进法》第2条第4款规定，软件经营者中，不属于《中小企业框架法》第2条所定义的中小企业的企业，且为总统令规定的企业\n\n  省略⑤至⑩\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-751eec993a83.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Restore truncated condition 대통령령으로 정하는 기업."
     }
   ],
-  "adjudicated_edit_count": 308,
+  "adjudicated_edit_count": 311,
   "pending_single_candidate_count": 343,
   "pending_conflict_count": 0,
   "pending_single_candidates": [
@@ -8187,12 +8214,13 @@
     "C02 2dec0ecc0be6 additional pass: five corrections to B2 historical decree supplementary provisions through 2019; still IN_PROGRESS, ordered reading not certified.",
     "C02 253f69ad016f: B1-zh-00027 minimal correction of 고도화; keep 17-document status IN_PROGRESS.",
     "C02 253f69ad016f: B1 00034, 00051, 00053 repaired incorrect ministry or ministerial-decree translations; B1 00027 previously corrected.",
-    "C02 8d3a9d26d513: B1 rows 00055-00105 inspected; corrected 00079/00081/00083/00102; retained other existing translations and edits."
+    "C02 8d3a9d26d513: B1 rows 00055-00105 inspected; corrected 00079/00081/00083/00102; retained other existing translations and edits.",
+    "C02 751eec993a83: B1 00106-00199 examined, amended 00131 00152 00172 to restore missing amendment item markers and truncated legal condition; IN_PROGRESS."
   ],
   "integration_progress": {
-    "stage": "CHINESE_B1_ORDERED_REVIEW_TO_00105",
-    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:8d3a9d26d513",
-    "note": "B1 00055-00105 source-to-Chinese review continuation. Four explicit minimal corrections; prior 349 edits preserved. Full family 1133 rows not yet complete."
+    "stage": "B1_CHINESE_REVIEW_THROUGH_00199",
+    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:751eec993a83",
+    "note": "Inspected Chinese B1 rows 00106-00199 against Korean, three substantive omissions restored. Original sources and previous edits retained. B2 and annexes/rules/forms remain to verify."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
