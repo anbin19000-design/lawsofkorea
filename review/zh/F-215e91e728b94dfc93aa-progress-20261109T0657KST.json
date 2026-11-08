@@ -1,0 +1,29 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-215e91e728b94dfc93aa",
+  "worker": "C06",
+  "panel_id": "panel-06",
+  "pc": "WORK-C",
+  "status": "IN_PROGRESS",
+  "source_commit": "396bee96cb14d35f6f4e36330de5998314afded1",
+  "source_blobs": {
+    "en": "e59574105c58e4041e11b2782728fe6d9e56c186",
+    "ko": "0c25588998cdc0458eef947b1df6fbf0fa8a53ad",
+    "zh": "8dd306f496c45a96f27cae0411fcf682a485ad13"
+  },
+  "source_sha_verified": {
+    "ko": "0c25588998cdc0458eef947b1df6fbf0fa8a53ad",
+    "en": "e59574105c58e4041e11b2782728fe6d9e56c186",
+    "zh": "8dd306f496c45a96f27cae0411fcf682a485ad13"
+  },
+  "total_documents": 2,
+  "total_rows": 1490,
+  "checked_rows": 1060,
+  "edits": 291,
+  "next_row_index": 1060,
+  "review_sha": "e33660f8f43757a511943b89bef372c028088773",
+  "review_file_status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_THEN_EN_FULL_THEN_ZH_FULL",
+  "worker_chat": "https://chatgpt.com/c/6af0dfef-9c28-83e8-a035-c75d26241cf5",
+  "note": "B1-zh-01060まで順次検査。船舶優先債権、運賃附属債権、承運人の過失責任、免責条項、収荷人の費用負担を修正。継続IN_PROGRESS。"
+}
