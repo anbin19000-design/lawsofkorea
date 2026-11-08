@@ -2808,6 +2808,461 @@
       "source_hash": "09bb13f8be590de491e948a67ddd8983b6d8866dd4cab6f25eabdebf0378b396",
       "decision": "SOURCE_MAPPING_REVIEW_REQUIRED",
       "reason": "B3 source length 23873; row end 25597, 중국어 마지막 행에 제1호서식 텍스트가 혼입됨."
+    },
+    {
+      "id": "A8690-zh-00001",
+      "doc": "A8690",
+      "source_hash": "75ad453f5cbfa3c7d93617e7be974c14cc79737f12c203961a6bd7c6a4833091",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00002",
+      "doc": "A8690",
+      "source_hash": "91ff0303391fc95ac7c615cacbdacb75ca493a31e2ce16aef4253da89eb97dd7",
+      "decision": "CORRECT",
+      "reason": "특허로 전자출원 포털을 기관명으로 오역"
+    },
+    {
+      "id": "A8690-zh-00003",
+      "doc": "A8690",
+      "source_hash": "2b55f2e79f8ecc00d2683392b4dbcff29e7868f2548248144c25abf804ee5519",
+      "decision": "CORRECT",
+      "reason": "온라인으로 제출 가능하다는 문구를 START 명령으로 오역"
+    },
+    {
+      "id": "A8690-zh-00004",
+      "doc": "A8690",
+      "source_hash": "413087e804492b750d3f3dad76b4488666c9e60db81d21ee05c2538149095aa0",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00005",
+      "doc": "A8690",
+      "source_hash": "b6ef554c92c1ee06c5c51142ea35929d24f513f49937876ea1d846a0a7057648",
+      "decision": "CORRECT",
+      "reason": "앞쪽(서식 앞면) 오역"
+    },
+    {
+      "id": "A8690-zh-00006",
+      "doc": "A8690",
+      "source_hash": "a61656f7586489ef47da94741b55eaaed93dea602144287232466fb713eb4896",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00007",
+      "doc": "A8690",
+      "source_hash": "93ca34ecbb43c7664fd50e5dd67c715feefdb4920c8a772b0f9f097ab58d2a79",
+      "decision": "CORRECT",
+      "reason": "분할출원은 분안/분할 신청, 部门申请 아님"
+    },
+    {
+      "id": "A8690-zh-00008",
+      "doc": "A8690",
+      "source_hash": "12fc691cf5aab1476a4e4bcedaee1876be34aad45b56e2543c503d465bf09740",
+      "decision": "CORRECT",
+      "reason": "분리출원은 分离申请"
+    },
+    {
+      "id": "A8690-zh-00009",
+      "doc": "A8690",
+      "source_hash": "8b29fde8ec02297e862c414488e2d589d00c8271f1331070035adc464ebbbfbc",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00010",
+      "doc": "A8690",
+      "source_hash": "fb9c7a434d8503d1e39e9ea66b962fa4c19af4b659d7c0033f688227facc3780",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00011",
+      "doc": "A8690",
+      "source_hash": "0e29ad47d5df682dbcd2a63a2af23c9c63a2889945d32c92832b8b3e292df23c",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00012",
+      "doc": "A8690",
+      "source_hash": "664be9f449af3799b1574e8f0fa76352fcb10cc19ee7e8f5628b4f52d8c9774a",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00013",
+      "doc": "A8690",
+      "source_hash": "0b2894fc8ea4663effd40c74b5e80ac4b8552312dc7881168903fd5487cd9363",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00014",
+      "doc": "A8690",
+      "source_hash": "f4d124962058b22e18ad00c5aeadf567416513053688a081ddfa0c374986ce37",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00015",
+      "doc": "A8690",
+      "source_hash": "79f69b2b14eee224633f9a50df009694be4bd497923637be24b9f03535f0711d",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00016",
+      "doc": "A8690",
+      "source_hash": "0b2894fc8ea4663effd40c74b5e80ac4b8552312dc7881168903fd5487cd9363",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00017",
+      "doc": "A8690",
+      "source_hash": "b6449d4249a2182accff983ec5e8ea0b3fb2cefb08a6f5ba077b0adf2f98a9fb",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00018",
+      "doc": "A8690",
+      "source_hash": "7d930f6d50ba28f7f183ad8f99777ad9f576c8c32d04ce501b0b70a0c6909d06",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00019",
+      "doc": "A8690",
+      "source_hash": "5abfc4dce629a34182dfa0d54311e9596917e9df3134f5b0446d14d404fd2ec7",
+      "decision": "CORRECT",
+      "reason": "고안의 국문명칭을 发明으로 오역"
+    },
+    {
+      "id": "A8690-zh-00020",
+      "doc": "A8690",
+      "source_hash": "53fe7143c831f7aa99042e306f19432aa94f2b19b62cd77a472c6cfc84a8ee8d",
+      "decision": "CORRECT",
+      "reason": "고안의 영문명칭을 发明으로 오역"
+    },
+    {
+      "id": "A8690-zh-00021",
+      "doc": "A8690",
+      "source_hash": "124cb33f1ad4c365be1195b0be2babd24e0045e55fb8760c4926ca69fab69b3e",
+      "decision": "CORRECT",
+      "reason": "고안자와 발명자 구분"
+    },
+    {
+      "id": "A8690-zh-00022",
+      "doc": "A8690",
+      "source_hash": "00ee20f5b1c9f4bde1783c12333df3e1e2a98bfb1834c9e1a4e279afd21d7a99",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00023",
+      "doc": "A8690",
+      "source_hash": "f4d124962058b22e18ad00c5aeadf567416513053688a081ddfa0c374986ce37",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00024",
+      "doc": "A8690",
+      "source_hash": "f18fd2475a21b9e8071e23f4f0ccc6538000f4bc7bb0405e8c66349d73ed2128",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00025",
+      "doc": "A8690",
+      "source_hash": "02de1dc9b99c559ec17b04e4e05e71dc4c5a8910fa044781c205bfdb4f040539",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00026",
+      "doc": "A8690",
+      "source_hash": "c43635d37f1e83d7061c5f3cbb2e8f251d5cdc0e380948b3ece346ad0f0c425d",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00027",
+      "doc": "A8690",
+      "source_hash": "0ac3288bf446139f5c6e0c0b0eed6e8373dbbd72a4fd37d37ad128940e04b0e4",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00028",
+      "doc": "A8690",
+      "source_hash": "ada23fbc67fc1aba1fad88121e58a28e42ecca93352ce607a5030db7ac2bc938",
+      "decision": "CORRECT",
+      "reason": "출원국명을 적용국가로 오역"
+    },
+    {
+      "id": "A8690-zh-00029",
+      "doc": "A8690",
+      "source_hash": "763d91d0af0fde3509081acd9c3aed0435c896d13b546789e8e2da8463a481c0",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00030",
+      "doc": "A8690",
+      "source_hash": "3e63f2cb67331be9c78f5e44add3a8d68ee1b80f9465c819684c185b73b6febd",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00031",
+      "doc": "A8690",
+      "source_hash": "44a2a3d80271514bf7c9739c1db2544a08e13f51fa5aae4fd756a04438cfebe8",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00032",
+      "doc": "A8690",
+      "source_hash": "e29507d54a47446dfa7295490d40eb008e343bd36a1f2e791597dde124a40185",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00033",
+      "doc": "A8690",
+      "source_hash": "07099e1f69333f07246b6834d4d8d32b69ed492c7356bd02d68102cb301a3cdd",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00034",
+      "doc": "A8690",
+      "source_hash": "4eca8715a4d9e1fbfa17047f2d85c27e8469006c476e86f9239edef2c1d7bfb8",
+      "decision": "CORRECT",
+      "reason": "공지예외 적용의 의미 교정"
+    },
+    {
+      "id": "A8690-zh-00035",
+      "doc": "A8690",
+      "source_hash": "125aa0ce92f69428d19a72cc65f967bcc8a88b1b33435f81ccfd26da122bb026",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00036",
+      "doc": "A8690",
+      "source_hash": "ab29046901da3d1f6f5b5778bf14dab962e61744057ce2a9ac2e7fade7241157",
+      "decision": "CORRECT",
+      "reason": "기술이전희망은 상담이 아님"
+    },
+    {
+      "id": "A8690-zh-00037",
+      "doc": "A8690",
+      "source_hash": "342fe9bcbf61e864a942c7da12245982b35b46f0d93af610787bad1adac06d98",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00038",
+      "doc": "A8690",
+      "source_hash": "276d8e9f57d9ac778fda3b054f9912cf0ee3a3c2f56cad7d6d86ab7720c4b2eb",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00039",
+      "doc": "A8690",
+      "source_hash": "18c55c1e79282ce9a6d2e85ec1bf29dc21480a8e4cfcc7d0ad6776bcfa003267",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00040",
+      "doc": "A8690",
+      "source_hash": "b5264550582a965d970c864c9441336ec4b1e79a8f99ff7dd3ee056cd78855ae",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00041",
+      "doc": "A8690",
+      "source_hash": "a466c27ca14e5d6e84c97376903f4d828f8a8d21815c91d60da608e532c99bac",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00042",
+      "doc": "A8690",
+      "source_hash": "a183dcc8ad566982e0ae1b07a228a20d2d7d823ab5d834b283fff085219a81af",
+      "decision": "CORRECT",
+      "reason": "지식재산처장에 제출 명칭 오역"
+    },
+    {
+      "id": "A8690-zh-00043",
+      "doc": "A8690",
+      "source_hash": "e705fb7b4e162132c87b2deecd45de874768095b3c23a04238cabe30a7cb66c5",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00044",
+      "doc": "A8690",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00045",
+      "doc": "A8690",
+      "source_hash": "e15c999cecaf4f1d7c7809081709bc25224f731a10f125bb3f852eab235f62eb",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00046",
+      "doc": "A8690",
+      "source_hash": "cede01ff6bfad2553f53e5506187c17ecbe569c5c137d321b0076ab31e4106f3",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00047",
+      "doc": "A8690",
+      "source_hash": "cd4530df02c851d2b57afc9c6fb6febe1351ab9d2999a98ee307742d88bd4626",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00048",
+      "doc": "A8690",
+      "source_hash": "c19fd6787279897c79a8049465e99093699ba4acdbc327984f0c219d4fa27515",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00049",
+      "doc": "A8690",
+      "source_hash": "d5289bf36ea0ccd8867c996bdbd37c83b583ff0a774e7638f01827c76809f459",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00050",
+      "doc": "A8690",
+      "source_hash": "cd5adf17131121b7c0718234d64c8237327b9ef962fa952d71bee67e47f4b44f",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00051",
+      "doc": "A8690",
+      "source_hash": "35b15a55e56bd848a2f8751167b3d82c05b873c7f59535b060b18753b06a95ce",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00052",
+      "doc": "A8690",
+      "source_hash": "e206047a74d498dd801e7e41ca9ff521b5233352708a91dadb4ce0dab73a6c33",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00053",
+      "doc": "A8690",
+      "source_hash": "fa8c81ef1f6e293ce8a8664784dbfba857007719ffdfa47fd2ff59f51b22e0eb",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00054",
+      "doc": "A8690",
+      "source_hash": "6532ba4a77838acbe747d570b92e73cdd4eaa3ec26577f08cdd0a236e021cf41",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00055",
+      "doc": "A8690",
+      "source_hash": "d6d87e05c543e71cabaccf3ed61804e7e814d1a465e94f4fdc59f331ba61f822",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00056",
+      "doc": "A8690",
+      "source_hash": "f17a14fe785d04a55b10da898cdd21a1590a1bc0959c601c5413cde28e053d24",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00057",
+      "doc": "A8690",
+      "source_hash": "72540cb705ca6236ba2d800f6d81941c9bcd5920617bd3d5ac901c71570a9a0d",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00058",
+      "doc": "A8690",
+      "source_hash": "cb0f24046b508710d6315e71bd9b21b920cf15301b0cf055dc9569c507576ea3",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00059",
+      "doc": "A8690",
+      "source_hash": "37c175b089596254f2e1368f5c2412fd9d53bc5ae85fa34fcb9824e4f5209ff7",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00060",
+      "doc": "A8690",
+      "source_hash": "f6b021957b5392046581449b987337c9c00fba1c2e03d8d8ab2174e284110428",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00061",
+      "doc": "A8690",
+      "source_hash": "f6b021957b5392046581449b987337c9c00fba1c2e03d8d8ab2174e284110428",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00062",
+      "doc": "A8690",
+      "source_hash": "eee681db2b47b0bcfaac1e0c78cb038044918a7de9b5b18d3f934bcc9b04bf12",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00063",
+      "doc": "A8690",
+      "source_hash": "97af28a6b4d17fda760499879a093d538e8fbcb516956ca99e01a77bb015065d",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
+    },
+    {
+      "id": "A8690-zh-00064",
+      "doc": "A8690",
+      "source_hash": "29e7d01ac3124c2918609a88a9a3b9bcba886f5fef06c92b3d8a060689d16cd2",
+      "decision": "CORRECT",
+      "reason": "분할출원 항목 오역"
+    },
+    {
+      "id": "A8690-zh-00065",
+      "doc": "A8690",
+      "source_hash": "7e8950d5d2445793f2173096c3908fc3cd25918f05a70042e78f4a1b5b6e39c5",
+      "decision": "KEEP",
+      "reason": "서식 앞쪽 항목명과 한국어 원문 대조; 원문 표 셀 분리 특성은 보존"
     }
   ],
   "changes": {
@@ -3426,10 +3881,101 @@
       "original": "  表格 1 的正面、表格 2 的背面、表格 4 的正面，“韩国知识产权局局长”应改为“知识产权局局长”。\n\n",
       "corrected": "  表格1正面及背面、表格2及表格4，“韩国知识产权局局长”应改为“知识产权局局长”。\n\n",
       "reason": "별지 제1호 앞쪽/뒤쪽 및 제2호/제4호 잘못 열거"
+    },
+    "A8690-zh-00002": {
+      "doc": "A8690",
+      "source_hash": "91ff0303391fc95ac7c615cacbdacb75ca493a31e2ce16aef4253da89eb97dd7",
+      "original": "来自韩国专利局（www.patent.go.kr）",
+      "corrected": "来自韩国专利电子申请网站（www.patent.go.kr）",
+      "reason": "특허로 전자출원 포털을 기관명으로 오역"
+    },
+    "A8690-zh-00003": {
+      "doc": "A8690",
+      "source_hash": "2b55f2e79f8ecc00d2683392b4dbcff29e7868f2548248144c25abf804ee5519",
+      "original": "您可以通过 START 行提交。",
+      "corrected": "可通过专利电子申请网站（www.patent.go.kr）在线提交。",
+      "reason": "온라인으로 제출 가능하다는 문구를 START 명령으로 오역"
+    },
+    "A8690-zh-00005": {
+      "doc": "A8690",
+      "source_hash": "b6ef554c92c1ee06c5c51142ea35929d24f513f49937876ea1d846a0a7057648",
+      "original": "（前端）",
+      "corrected": "（正面）",
+      "reason": "앞쪽(서식 앞면) 오역"
+    },
+    "A8690-zh-00007": {
+      "doc": "A8690",
+      "source_hash": "93ca34ecbb43c7664fd50e5dd67c715feefdb4920c8a772b0f9f097ab58d2a79",
+      "original": "□ 部门申请",
+      "corrected": "□ 分案申请",
+      "reason": "분할출원은 분안/분할 신청, 部门申请 아님"
+    },
+    "A8690-zh-00008": {
+      "doc": "A8690",
+      "source_hash": "12fc691cf5aab1476a4e4bcedaee1876be34aad45b56e2543c503d465bf09740",
+      "original": "□ 分离应用",
+      "corrected": "□ 分离申请",
+      "reason": "분리출원은 分离申请"
+    },
+    "A8690-zh-00019": {
+      "doc": "A8690",
+      "source_hash": "5abfc4dce629a34182dfa0d54311e9596917e9df3134f5b0446d14d404fd2ec7",
+      "original": "【发明韩文名称】",
+      "corrected": "【技术方案的韩文名称】",
+      "reason": "고안의 국문명칭을 发明으로 오역"
+    },
+    "A8690-zh-00020": {
+      "doc": "A8690",
+      "source_hash": "53fe7143c831f7aa99042e306f19432aa94f2b19b62cd77a472c6cfc84a8ee8d",
+      "original": "【发明英文名称】",
+      "corrected": "【技术方案的英文名称】",
+      "reason": "고안의 영문명칭을 发明으로 오역"
+    },
+    "A8690-zh-00021": {
+      "doc": "A8690",
+      "source_hash": "124cb33f1ad4c365be1195b0be2babd24e0045e55fb8760c4926ca69fab69b3e",
+      "original": "【发明人】",
+      "corrected": "【技术方案设计人】",
+      "reason": "고안자와 발명자 구분"
+    },
+    "A8690-zh-00028": {
+      "doc": "A8690",
+      "source_hash": "ada23fbc67fc1aba1fad88121e58a28e42ecca93352ce607a5030db7ac2bc938",
+      "original": "【适用国家/地区】",
+      "corrected": "【申请国名称】",
+      "reason": "출원국명을 적용국가로 오역"
+    },
+    "A8690-zh-00034": {
+      "doc": "A8690",
+      "source_hash": "4eca8715a4d9e1fbfa17047f2d85c27e8469006c476e86f9239edef2c1d7bfb8",
+      "original": "□ 延期审查申请 □ 提前披露申请 □ 通知例外申请",
+      "corrected": "□ 延期审查申请 □ 提前披露申请 □ 请求适用丧失新颖性例外",
+      "reason": "공지예외 적용의 의미 교정"
+    },
+    "A8690-zh-00036": {
+      "doc": "A8690",
+      "source_hash": "ab29046901da3d1f6f5b5778bf14dab962e61744057ce2a9ac2e7fade7241157",
+      "original": "□ 技术转让咨询 □ 国家研发项目",
+      "corrected": "□ 希望技术转让 □ 国家研发项目",
+      "reason": "기술이전희망은 상담이 아님"
+    },
+    "A8690-zh-00042": {
+      "doc": "A8690",
+      "source_hash": "a183dcc8ad566982e0ae1b07a228a20d2d7d823ab5d834b283fff085219a81af",
+      "original": "已按上述规定提交知识产权部长。",
+      "corrected": "按上述内容提交知识产权厅厅长。",
+      "reason": "지식재산처장에 제출 명칭 오역"
+    },
+    "A8690-zh-00064": {
+      "doc": "A8690",
+      "source_hash": "29e7d01ac3124c2918609a88a9a3b9bcba886f5fef06c92b3d8a060689d16cd2",
+      "original": "部门申请",
+      "corrected": "分案申请",
+      "reason": "분할출원 항목 오역"
     }
   },
-  "next_row_id": "A8690-zh-00001",
-  "notes": "법률 B1 196행; 시행령 B2 80행 +1 경계; 별표 구조 문제; 시행규칙 B3 116행 +1 경계. 서식 A8690부터 미검수.",
+  "next_row_id": "A8690-zh-00066",
+  "notes": "서식 A8690 앞 65행 판정 저장, 표 셀 원문 시작·끝 null 상태. 나머지 444행과 다른 서식 미완료.",
   "flagged_scan": {
     "range": "B1-zh-00102..B1-zh-00196",
     "method": "targeted anomaly screening, not full sequential review",
