@@ -1,0 +1,95 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "family": "실용신안법",
+  "worker": "C05",
+  "assignment_marker": "[WORK-TASK:C05:F-00583cebe057fc2929d1:e869380ff933]",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "f7e03555937d83b9186511be448943c9bf971c6c",
+  "review_commit": "717bda56797c5273f0ae6e757021deb2d5b2802d",
+  "previous_progress": "review/zh/F-00583cebe057fc2929d1-progress-C05-20261108-c3a6d5974e05.json",
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "prior_corrections": 206,
+  "new_corrections": [
+    {
+      "id": "B3-zh-00109",
+      "source_hash": "9bfb8823b5bd64fb775bdaedd341f280b90f9d795a2a348883796a4188b2e9f6",
+      "decision": "CORRECT",
+      "reason": "고안자=设计人，보정서 및 정정발급신청서의 문서종류 오역."
+    },
+    {
+      "id": "B3-zh-00114",
+      "source_hash": "da09d18c26059d53b4fcefe04e9b6ed030a61fc6139f90e2c8aca731ab59d9d3",
+      "decision": "CORRECT",
+      "reason": "제5조⑦ 원문에 있는 적용 조문 범위가 중간 생략·파손되었고 기관명 변경 대상도 잘못 번역. 한국어 원문에 따라 명백한 미번역/오역을 복원."
+    },
+    {
+      "id": "B3-zh-00116",
+      "source_hash": "d77166108d38dee926ab94aa8ae4f57b131e680c126e2d8b212aa8915e93546f",
+      "decision": "CORRECT",
+      "reason": "제1호서식에서 뒤쪽 기재요령 제10호·제13호 인용 누락 보완. 바뀌는 영문 문자열은 법령의 실제 치환 텍스트이므로 영어 원문 그대로 보존."
+    }
+  ],
+  "total_corrections": 209,
+  "prior_pending_rows": 89,
+  "english_note": "B1/B2 official exact-version; B3/forms only 2010 fallback, not exact current version; decree also has AI draft.",
+  "unresolved": [
+    {
+      "id": "B2-zh-00081",
+      "status": "SOURCE_MAPPING_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A29604",
+      "status": "ANNEX_ALIGNMENT_REQUIRED"
+    },
+    {
+      "id": "B3-zh-00117",
+      "status": "SOURCE_MAPPING_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8690",
+      "status": "FORM_ALIGNMENT_REQUIRED"
+    },
+    {
+      "id": "A8693",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8698",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8699",
+      "status": "SOURCE_CONTENT_MISSING"
+    },
+    {
+      "id": "A8703",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8708",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8709",
+      "status": "SOURCE_CONTENT_MISSING"
+    },
+    {
+      "id": "A8690-zh-00499",
+      "status": "SOURCE_TEXT_FRAGMENT_REVIEW_REQUIRED"
+    }
+  ],
+  "reading_status": "FULL_KO_EN_ZH_SEQUENTIAL_READING_NOT_VERIFIED",
+  "completion_receipt": null,
+  "notes": "누적 206개 기존 교정과 KO/EN/ZH 원문 SHA 보존. B3 후반부 규정상 명백한 미번역 조문 범위 및 원형 영문 치환문 복구 등 3행 검수. 원문 판독·대조 미해결로 COMPLETE 불가. 다음 법령 미수취."
+}
