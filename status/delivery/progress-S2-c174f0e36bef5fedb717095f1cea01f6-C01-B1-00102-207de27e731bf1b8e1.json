@@ -1,0 +1,28 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "status": "IN_PROGRESS",
+  "checked_rows": 1,
+  "corrected_rows": 1,
+  "edits": [
+    {
+      "id": "B1-zh-00102",
+      "text": "第四条（关于修改《水产品流通管理支援法》的过渡措施）  本法生效时，依据原《水产品流通管理支援法》第九条设立的水产品流通发展委员会，应视为依据该法第九条修正规定设立的水产品流通发展协商会。\n\n"
+    }
+  ],
+  "judgments": [
+    {
+      "id": "B1-zh-00102",
+      "decision": "EDIT",
+      "source_hash": "396129f1521506c1358086c30da4d6eda55328e20e43c3bb2030694b8bc3fdd7",
+      "basis": "한국어 수산물유통발전협의회와 수산물유통발전위원회의 법정 명칭 구분. 기존 理事会는 협의회가 아닌 이사회에 해당하므로 协商会로 최소 수정"
+    }
+  ],
+  "source_sha": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c",
+    "en": "32423453da2fcfa466c97946520181a32643e289"
+  },
+  "note": "Existing review and receipts preserved; family verification remains IN_PROGRESS."
+}
