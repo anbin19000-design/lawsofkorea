@@ -30,7 +30,20 @@
   },
   "assistant_count": 6,
   "assistant_excerpt": "완료\n\n공식 GitHub main에서 기존 작업 기록을 확인하고 같은 배정의 검수 상태를 대조했습니다.\n\n항목\n\n\t\n\n확인 결과\n\n\n\n\nJob ID\n\n\t\n\nF-81e30c25fcbea5af2364\n\n\n\n\n담당 워커\n\n\t\n\nC02\n\n\n\n\n전체 범위\n\n\t\n\n17개 문서 / 중국어 1,133행\n\n\n\n\n한국어·영어·중국어 원본\n\n\t\n\n3개 파일 접근 성공\n\n\n\n\n기존 진행 기록\n\n\t\n\nR101 기준 123개 파일 통합 조사\n\n\n\n\nR101 당시 명시적 검수 ID\n\n\t\n\n1,100개\n\n\n\n\n당시 미확인 33개 ID\n\n\t\n\nR102에 검수 기록 존재\n\n\n\n\n과거 상충 판정\n\n\t\n\nR103 3개, R104 4개 확인\n\n\n\n\n최종 검수본\n\n\t\n\n없음 (404)\n\n\n\n\n완료 영수증\n\n\t\n\n없음 (404)\n\n확인된 사항\n\n기존 한국어·영어·중국어 파일의 Git blob SHA가 인계 색인에 기록된 값과 일치합니다.\n\n또한 R102에서 누락되었던 33개 ID를 검수하고, B1-zh-00023의 명백한 오역을 바로잡은 기록을 확인했습니다. R103·R104에서는 기존 번역 후보 7건에 대한 상충 판정이 저장되어 있습니다.\n\n다만 1,133행 전체의 의미 검수와 최종 교정문 통합이 완료되었다는 증거는 아직 없습니다. 기존 기록의 범위 확인은 전체 독해 완료를 의미하지 않습니다.\n\n저장 및 종료 상태\n\n기존 원문·검수 기록은 변경하지 않았습니다.\n\n운영 DB를 변경하지 않았습니다.\n\n신규 COMPLETE 검수본이나 영수증을 발행하지 않았습니다.\n\n다음 법령가족을 수취하지 않았습니다.\n\n현재 확인된 작업 위치는 기존 검수 기록의 통합과 미해결 상충 후보 확인 단계입니다. 이번 실행에서는 전체 검수를 끝내지 못했으므로 완료 처리하지 않았습니다.\n\n공식 저장소: anbin19000-design/lawsofkorea",
+  "attempted_at": "2026-11-08T08:27:15.080338+00:00",
   "created_at": "2026-11-08T08:27:10.278693+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+    "attempted_at": "2026-11-08T08:27:15.080338+00:00",
+    "claim_commit": "e7222b64ec67aa200d4cead84d9f8047ea362544",
+    "event_id": "obs-bfce9b511a7dba6d1ef226d0328d4b4a21ea57fd",
+    "job_id": "F-81e30c25fcbea5af2364",
+    "record_path": "status/delivery/recovery-S2-ae8f8a85c5ace955ac8120fa9a6c7730.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C02"
+  },
   "episode": 18,
   "event_id": "obs-bfce9b511a7dba6d1ef226d0328d4b4a21ea57fd",
   "idle_followup": true,
@@ -1087,7 +1100,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-352620cb513c132c31996335]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "a9d5fb50e02ef56a4f4b5db99e40301def23c944",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6af031ec-1114-83ec-8c41-5f1d547fa1ed",
   "worker": "C02"
 }
