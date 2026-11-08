@@ -1,0 +1,55 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:6d5396449fb5",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "checked_rows": 2,
+  "checked_ids": [
+    "A36427-zh-00042",
+    "A36427-zh-00062"
+  ],
+  "edits": [
+    {
+      "id": "A36427-zh-00042",
+      "text": "拒绝提交资料、接受调查或检查",
+      "source_hash": "7b099fd8321689e45cd0c3cfa2c9f54d4e5d1ad42226ee068e718f21e9f41675",
+      "target_id": "XML:2657411"
+    },
+    {
+      "id": "A36427-zh-00062",
+      "text": "类似标志，或",
+      "source_hash": "75a1da62b4bb6a98cd54a4a77171b51133b87fdf261ea2c71908dcc2063cc5c8",
+      "target_id": "XML:2657431"
+    }
+  ],
+  "adjudications": [
+    {
+      "id": "A36427-zh-00042",
+      "verdict": "CORRECT_CLEAR_ANNEX_OMISSION_OR_SEMANTIC_ERROR",
+      "korean": "자료제출, 조사 또는 검사를 거부",
+      "reason": "Korean prohibits refusal of requested document submission, investigation or inspection; old translation syntactically implied 'submission of investigation/inspection'. Preserve continuation across neighboring cells."
+    },
+    {
+      "id": "A36427-zh-00062",
+      "verdict": "CORRECT_CLEAR_ANNEX_OMISSION_OR_SEMANTIC_ERROR",
+      "korean": "는 이와 유사한 표시를 하거나",
+      "reason": "Korean annex includes 'certification mark or similar mark'; Chinese row 60's previously stored candidate says 认证标志或, row 62 only 或 omitted similar-mark concept. Restore it without changing already-reviewed rows 60/63."
+    }
+  ],
+  "english_status": "NO_DOCUMENT_ENGLISH for A36427; Korean source controls.",
+  "prior_progress": [
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-801f725013f7.json",
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-801f725013f7-preserve.json",
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-801f725013f7-thousand.json"
+  ],
+  "note": "Continue same legal family; preserve source rows/hashes and prior Chinese edits. This is not completion or full 1133-row ordered verification.",
+  "next_review": "Complete remaining Annex 4 split-cell semantic checks, reconcile all prior edits and verify rule/forms and 17-document final coverage before COMPLETE."
+}
