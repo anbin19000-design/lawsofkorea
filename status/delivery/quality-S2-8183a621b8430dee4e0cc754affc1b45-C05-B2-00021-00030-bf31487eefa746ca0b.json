@@ -1,0 +1,42 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-3705abbc710de4b867bc",
+  "worker": "C05",
+  "branch": "main",
+  "source_blobs": {
+    "ko": "7974bf81d14f4838ae85d4b3ceea80a2f0e65fed",
+    "zh": "045dd328cd77f3eecd8b6cd485be27f2389773e8"
+  },
+  "checked_ids": [
+    "B2-zh-00024",
+    "B2-zh-00028"
+  ],
+  "checked_rows": 2,
+  "adopted_edits": [
+    {
+      "id": "B2-zh-00024",
+      "text": "第二十二条（认证豁免确认等）\n① 根据法第十五条申请豁免认证的消防设备制造商或者销售商，应当按消防设备种类，依照行政安全部令的规定，向消防厅厅长提交豁免确认申请书及附件。\n② 消防厅厅长收到依第一款提交的申请书，确认相关消防设备属于法第十五条任一项所规定的情形时，应当签发行政安全部令规定的豁免确认书；不属于上述情形时，应当向申请人说明理由并通知不予豁免。\n③ 依照第二款取得认证豁免确认者，应当在相应消防设备或者包装上作出行政安全部令规定的豁免确认标志。\n\n"
+    },
+    {
+      "id": "B2-zh-00028",
+      "text": "第25条（消防器材标准等的确定）\n① 消防机关负责人根据本法第十九条第一款和第三款的规定，需要专家意见确定待购消防设备的规格或具体规格时，应当征询三名以上专家的意见。\n② 根据第1款听取专家意见时，应当给予至少7天的期限。但如有紧急情况，则不适用此规定。\n③ 根据本法第十九条第一款和第三款的规定，消防机关负责人如有必要确定待购消防设备的规格或具体规格，可以向消防设备的制造商、进口商等索取以下数据。\n1. 消防设备的标准、规范、安全性和功能等数据\n2. 由根据《国家标准框架法》第23条第2款获得认可机构认可的测试或检验机构，或由国际认可的测试或检验机构出具的测试报告或检验报告。\n3. 消防部门负责人认为确定标准或具体标准所必需的其他材料\n④ 除第1款至第3款规定的事项外，确定消防设备规格或具体规格所必需的事项，由国家消防局局长决定。\n\n"
+    }
+  ],
+  "judgment": "PASS_EXISTING_CORRECTIONS_WITH_OPEN_ISSUES",
+  "rationale": {
+    "B2-zh-00024": "제22조 subject manufacturer or seller, application per equipment type, issuance or reasoned refusal, and product/packaging mark all preserved.",
+    "B2-zh-00028": "제25조 cross-references 19(1),19(3), three or more experts, minimum seven-day response window with emergency exception, and requested test reports preserved."
+  },
+  "pending_quality": [
+    {
+      "id": "B2-zh-00021",
+      "issue": "상시 근무 requires continuously employed/regularly on duty; existing 定期受雇 can convey periodic employment. Do not confirm pending corrected wording."
+    },
+    {
+      "id": "B2-zh-00025",
+      "issue": "과징금 term is inconsistently translated as 附加费/附加金, requiring legal-terminology harmonization before confirmation."
+    }
+  ],
+  "status": "QUALITY_PARTIAL",
+  "note": "Previously checked rows not counted as new progress. Other B2 edits remain pending; no receipt."
+}
