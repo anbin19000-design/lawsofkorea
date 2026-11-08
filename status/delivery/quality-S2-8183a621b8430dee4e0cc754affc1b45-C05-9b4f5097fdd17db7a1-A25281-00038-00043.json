@@ -1,0 +1,54 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-3705abbc710de4b867bc",
+  "assignment_id": "S2-8183a621b8430dee4e0cc754affc1b45",
+  "worker": "C05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "7974bf81d14f4838ae85d4b3ceea80a2f0e65fed",
+    "zh": "045dd328cd77f3eecd8b6cd485be27f2389773e8",
+    "en": "608343efc91f6dc84efbcee2e5a9276a847e3a67"
+  },
+  "prior_quality_record": "status/delivery/quality-S2-8183a621b8430dee4e0cc754affc1b45-C05-9b4f5097fdd17db7a1.json",
+  "quality_checked_rows": 4,
+  "quality_records": [
+    {
+      "id": "A25281-zh-00038",
+      "source_hash": "ab1dd45417af0ed013a7d327445db291d569ee33b90422c16c03145ab02047c1",
+      "candidate_text": "1. 营业执照复印件或同等文件（如有两家以上工厂制造同一产品，",
+      "source_ko_fragment": "1. 사업자등록증 사본 또는 이에 준하는 서류(같은 제품을 제조하는 공장이 둘 이",
+      "decision": "PASS",
+      "basis": "Accurately preserves business registration copy or equivalent, same product, and two or more factories; remaining clause continues in A25281-zh-00040.",
+      "action": "retain_existing_correction"
+    },
+    {
+      "id": "A25281-zh-00039",
+      "source_hash": "7276b85abc4b3d245c0121adea0a0f372b7d9e7804be306581450fcd52d0b4c1",
+      "candidate_text": "无需手续费",
+      "source_ko_fragment": "수수료 없음",
+      "decision": "PASS",
+      "basis": "Directly preserves the fee exemption in the form's fee cell.",
+      "action": "retain_existing_correction"
+    },
+    {
+      "id": "A25281-zh-00042",
+      "source_hash": "cfe030e99597105aa6548d812198edcb1666c053c0a750d5196c50ee26b82a00",
+      "candidate_text": "3. 证明符合《消防设备管理法》第15条各项任一情形的",
+      "source_ko_fragment": "3. 「소방장비관리법」 제15조 각 호의 어느 하나에 해당한다는 사실을 증명하는",
+      "decision": "PASS",
+      "basis": "Preserves the referenced statute, Article 15, one-of-listed-cases qualification and proof obligation. Sentence continues in A25281-zh-00043.",
+      "action": "retain_existing_correction"
+    },
+    {
+      "id": "A25281-zh-00043",
+      "source_hash": "2cf3e36e0c116d1be330ba3e0ba708ec92bfd039151fd47660fb4972128c5444",
+      "candidate_text": "文件及消防设备说明书",
+      "source_ko_fragment": "서류 및 소방장비 설명서",
+      "decision": "PASS",
+      "basis": "Preserves both proof documents and equipment description in the continuation of A25281-zh-00042.",
+      "action": "retain_existing_correction"
+    }
+  ],
+  "note": "New quality judgments only. Preserve original row IDs, source hashes, progress records and 1162-row coverage; no COMPLETE receipt."
+}
