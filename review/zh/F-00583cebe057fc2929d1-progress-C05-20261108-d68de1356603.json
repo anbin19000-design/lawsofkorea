@@ -1,0 +1,41 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "family": "실용신안법",
+  "worker": "C05",
+  "assignment_marker": "[WORK-TASK:C05:F-00583cebe057fc2929d1:d68de1356603]",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "36cecc4f59155ec1c41a665acc17caa61cec38e7",
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "prior_corrections": 237,
+  "new_corrections": [
+    {
+      "id": "B1-zh-00121",
+      "source_hash": "2472110159f0da612c014bfd5fa6d6247003a6d5ec95687a4bdb77a0f599f080",
+      "decision": "CORRECT",
+      "reason": "부칙 제8조의 '심사 및 심판'은 심사와 심판 절차이며 일반적인 상소(上诉)가 아님."
+    },
+    {
+      "id": "B1-zh-00135",
+      "source_hash": "94f3ab75a62f230b1ed744c864f0c88b2bcde0018da036b80edefdf67b6e9cd6",
+      "decision": "CORRECT",
+      "reason": "부칙 제7조의 '설정등록된'은 설정 또는 등록이라는 선택적 요건이 아니라 설정등록 완료라는 단일 법적 요건임."
+    }
+  ],
+  "total_corrections": 239,
+  "pending_rows_preserved": 89,
+  "english_note": "B1 and B2 official same-version English indexed; B3 and attached forms only historical-version English fallback; not exact-version English.",
+  "reading_status": "FULL_KO_EN_ZH_SEQUENTIAL_READING_NOT_VERIFIED",
+  "completion_receipt": null,
+  "notes": "기저장 237건 보존, 부칙 2행의 명백한 절차·등록 요건 오역 교정. 전체 가족 순차 독해 및 89행 미해결로 COMPLETE 보류."
+}
