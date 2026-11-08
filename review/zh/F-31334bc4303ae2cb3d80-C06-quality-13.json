@@ -1,0 +1,46 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-31334bc4303ae2cb3d80",
+  "worker": "C06",
+  "status": "IN_PROGRESS",
+  "source_progress_path": "review/zh/F-31334bc4303ae2cb3d80-C06-progress-26.json",
+  "source_progress_sha": "91b2b2debb311c604ebd64e2c10cc865aef9d234",
+  "ko_sha": "d6d795ff1ece4a82663a83efd46f7f73afa7fbbb",
+  "zh_sha": "7a6d1e8d841fb3b27185d6d4a6b811149d604dc0",
+  "checked": [
+    {
+      "id": "A22642-zh-00026",
+      "target_id": "XML:1607364",
+      "source_hash": "3ed686cc919031f6025ab9dd026678343456279a7b8835de61412bb8703b0083",
+      "korean_context": "「생활주변방사선 안전관리법」 제18조의2제1항제4호 및 같은 법 시행규칙 제8조의2제2항제6호에 따라",
+      "original_text": "根据《生活环境辐射安全管理法》第18条之2第1款第4项和该法实施细则第8条之2第2款第6项的规定，",
+      "candidate_text": "根据《生活环境辐射安全管理法》第十八条之二第一款第四号及该法实施规则第八条之二第二款第六号，",
+      "final_text": "根据《生活环境辐射安全管理法》第十八条之二第一款第四号及该法实施规则第八条之二第二款第六号，",
+      "verdict": "ACCEPT",
+      "reason": "법 제18조의2제1항제4호, 같은 법 시행규칙 제8조의2제2항제6호 인용과 '号' 단위가 한국어 서식과 일치하며 시행규칙을 实施规则로 통일."
+    },
+    {
+      "id": "A22642-zh-00027",
+      "target_id": "XML:1607365",
+      "source_hash": "5eabd48b022dd1b925da05cca2eded8f726ab267d8fe3de2d4d32292165fd375",
+      "korean_context": "같은 법 제18조제6항에 따른 교육실시 결과를 보고합니다.",
+      "original_text": "我报告根据同一法案第 18 条第 6 款进行的教育结果。",
+      "candidate_text": "报告根据该法第十八条第六款实施教育的结果。",
+      "final_text": "报告根据该法第十八条第六款实施教育的结果。",
+      "verdict": "ACCEPT",
+      "reason": "교육실시 결과 보고 서식의 문장으로 1인칭 '我'를 제거하고 법 제18조제6항 인용 유지."
+    },
+    {
+      "id": "A22642-zh-00038",
+      "target_id": "XML:1607376",
+      "source_hash": "679e401ef363d8c106bc8ce982e35d290283cacc04d1714b31e45c2659be0a81",
+      "korean_context": "3. 수료번호: 교육기관에서 발급하는 교육 수료증에 표기된 교육 실시 수료번호를 적습니다.",
+      "original_text": "3. 完成编号：请输入教育机构颁发的结业证书上显示的培训完成编号。",
+      "candidate_text": "3. 结业编号：填写教育机构颁发的结业证书中注明的结业编号。",
+      "final_text": "3. 结业编号：填写教育机构颁发的结业证书中注明的结业编号。",
+      "verdict": "ACCEPT",
+      "reason": "작성방법 제3호의 수료번호, 교육기관 발급 수료증의 기재 내용을 정확히 반영."
+    }
+  ],
+  "note": "A22642 legal citations and education report/form completion instructions verified. Previous quality files and source hashes preserved."
+}
