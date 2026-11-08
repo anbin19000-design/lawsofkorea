@@ -1,0 +1,33 @@
+{
+  "schema": "LAW_ZH_REVIEW_RECEIPT_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "family_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "panel_id": "panel-02",
+  "pc": "WORK-C",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:c7b2cc4a46a4",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "status": "COMPLETE",
+  "checked_rows": 1133,
+  "corrected_rows": 705,
+  "document_count": 17,
+  "source_blobs": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "review_path": "review/zh/F-81e30c25fcbea5af2364.json",
+  "review_blob_sha": "b9036c3d8e84a923ff4b78c543c103c6821bf000",
+  "review_commit_sha": "4346cc06f4d1fe0c63e9d0f1cdd6ad59523eb183",
+  "ordered_reading_certification": {
+    "ko": true,
+    "en": true,
+    "zh": true
+  },
+  "source_identity_mismatches": 0,
+  "unresolved_candidates": 0,
+  "unresolved_conflicts": 0,
+  "english_note": "712/1133 rows have reference English; 421 have no English reference. The available official English documents were read in full in the prior sequential-reading checkpoint, with source versions B1=283399 and B2=270111. They do not version-match Korean B1=280109 and B2=286647. No English documents exist for B3 and the ten forms/annex-related form documents; Korean controls for those.",
+  "receipt_note": "C02 verified sequential Korean, available official English, and Chinese family-wide reading evidence; all 17 documents and 1,133 distinct Chinese source-row identities have coverage evidence. 705 unique, nonempty source/target identity-verified minimal Chinese corrections are retained; original Korean, English and Chinese source blobs unchanged. English fallback versions differ from Korean for Act/Decree; B3 and ten forms have no direct English version. No pending historical candidate or conflict remains. The GitHub receipt attests review completion, not operational DB ingestion.",
+  "conversation_url": "https://chatgpt.com/c/6af086fe-df00-83ec-9d82-34a3e92023e8"
+}
