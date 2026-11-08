@@ -22,7 +22,7 @@
     "zh_rows_loaded": 3247,
     "zh_rows_screened_for_korean_and_mtq_artifacts": 3247
   },
-  "checked_rows": 65,
+  "checked_rows": 0,
   "corrected_rows": 65,
   "edits": [
     {
@@ -313,5 +313,7 @@
     "Added four targeted fixes: removed MTQ artifact in B1-zh-00056 and replaced the three table-label/fragment artifacts in A39201-zh-00004, A39203-zh-00003, A39204-zh-00024. The canonical Chinese source remains unchanged; corrections are accumulated in progress JSON.",
     "Added targeted form/annex label and obvious MTQ/START artifact corrections in A39201, A39203, A39204 and A26149-A26201 rows; uncertain XML fragment rows were not guessed."
   ],
-  "status": "IN_PROGRESS"
+  "status": "IN_PROGRESS",
+  "screened_rows": 3247,
+  "note": "checked_rows remains 0 because a full sequential semantic review has not been completed. screened_rows records a pattern-based screening pass across 3247 rows; corrected_rows counts proposed targeted replacements only."
 }
