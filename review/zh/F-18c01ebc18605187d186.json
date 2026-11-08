@@ -3635,6 +3635,55 @@
       "source_hash": "2d78994549b0da04088480915ecf874d8318c0c27d7bd1f4b102333f329e74e1",
       "target_id": "XML:838049",
       "source_progress": "C02 sequential A11335 table review; minimal correction: The source suffix is 중심; the natural Chinese legal/table phrase is 为中心, not 居中."
+    },
+    {
+      "id": "A11335-zh-00265",
+      "text": "2级",
+      "source_hash": "8bbb099b72e3d56bb998808e394adfd9926d2e9e51d2ab9171b777e5dd1be0f6",
+      "target_id": "XML:838058",
+      "source_progress": "C02 sequential A11335 table review; minimal correction: Korean grade marker 2급 is qualification grade, not school year."
+    },
+    {
+      "id": "A11335-zh-00278",
+      "text": "治疗（Ⅰ）",
+      "source_hash": "d3dae93b83087c3b3ba14e7fec0945703ba387f3bf3edf4a9780442a1298ab1c",
+      "target_id": "XML:838071",
+      "source_progress": "C02 sequential A11335 table review; minimal correction: Korean 치료 means treatment, not 处理."
+    },
+    {
+      "id": "A11335-zh-00289",
+      "text": "实习",
+      "source_hash": "2b47482006985567a625f7884b2ab9ba177f5efdadd99cf233c6052593d1f170",
+      "target_id": "XML:838082",
+      "source_progress": "C02 sequential A11335 table review; minimal correction: Korean 실습 denotes practical training, not generic practice."
+    },
+    {
+      "id": "A11335-zh-00290",
+      "text": "实习",
+      "source_hash": "e80098b00ed00fc6e7ad0639e8290654198b5117dee5c6fabba9ee9d6ba84a9b",
+      "target_id": "XML:838083",
+      "source_progress": "C02 sequential A11335 table review; minimal correction: Korean 실습 denotes practical training, not generic practice."
+    },
+    {
+      "id": "A11335-zh-00295",
+      "text": "治疗（Ⅰ）",
+      "source_hash": "d3dae93b83087c3b3ba14e7fec0945703ba387f3bf3edf4a9780442a1298ab1c",
+      "target_id": "XML:838088",
+      "source_progress": "C02 sequential A11335 table review; minimal correction: Korean 치료 means treatment, not 处理."
+    },
+    {
+      "id": "A11335-zh-00276",
+      "text": "精神科护理干预与",
+      "source_hash": "e017c6e6b8322c68699825901f857f1b295cbbe890ade0cff62b2a7f97eb49df",
+      "target_id": "XML:838069",
+      "source_progress": "C02 sequential A11335 table review; minimal correction: Retained meaning while using the correct Chinese conjunction for the paired intervention-and-treatment course title."
+    },
+    {
+      "id": "A11335-zh-00293",
+      "text": "精神科护理干预与",
+      "source_hash": "e017c6e6b8322c68699825901f857f1b295cbbe890ade0cff62b2a7f97eb49df",
+      "target_id": "XML:838086",
+      "source_progress": "C02 sequential A11335 table review; minimal correction: Retained meaning while using the correct Chinese conjunction for the paired intervention-and-treatment course title."
     }
   ],
   "adjudicated_edit_count": 0,
@@ -4851,10 +4900,50 @@
     "A11335-zh-00257",
     "A11335-zh-00258",
     "A11335-zh-00259",
-    "A11335-zh-00260"
+    "A11335-zh-00260",
+    "A11335-zh-00261",
+    "A11335-zh-00262",
+    "A11335-zh-00263",
+    "A11335-zh-00264",
+    "A11335-zh-00265",
+    "A11335-zh-00266",
+    "A11335-zh-00267",
+    "A11335-zh-00268",
+    "A11335-zh-00269",
+    "A11335-zh-00270",
+    "A11335-zh-00271",
+    "A11335-zh-00272",
+    "A11335-zh-00273",
+    "A11335-zh-00274",
+    "A11335-zh-00275",
+    "A11335-zh-00276",
+    "A11335-zh-00277",
+    "A11335-zh-00278",
+    "A11335-zh-00279",
+    "A11335-zh-00280",
+    "A11335-zh-00281",
+    "A11335-zh-00282",
+    "A11335-zh-00283",
+    "A11335-zh-00284",
+    "A11335-zh-00285",
+    "A11335-zh-00286",
+    "A11335-zh-00287",
+    "A11335-zh-00288",
+    "A11335-zh-00289",
+    "A11335-zh-00290",
+    "A11335-zh-00291",
+    "A11335-zh-00292",
+    "A11335-zh-00293",
+    "A11335-zh-00294",
+    "A11335-zh-00295",
+    "A11335-zh-00296",
+    "A11335-zh-00297",
+    "A11335-zh-00298",
+    "A11335-zh-00299",
+    "A11335-zh-00300"
   ],
-  "checked_rows": 1200,
-  "corrected_rows": 517,
+  "checked_rows": 1240,
+  "corrected_rows": 524,
   "notes": [
     "Only obvious omissions of clause numbering and a missing subparagraph marker corrected; substantive terminology and existing wording retained.",
     "B2 English is an older fallback (version 272521), not exact current Korean version; newer provisions require Korean-Chinese comparison.",
@@ -4919,6 +5008,7 @@
     "Resumed source-locked review of Annex A30229 after the overlap merge adjudication. In the training-institution qualification clause, removed machine-corrupted bracket artifacts in rows 28-29 and restored the Minister of Health and Welfare title/designation relation. These two cell edits are limited to the clearly recoverable ministerial designation phrase; fragmented neighboring cells remain under sequential table-context review. The family remains IN_PROGRESS.",
     "C02 resumed the next pending Chinese review segment at A11335-zh-00116 and checked rows 116-180 against the Korean Schedule 1 table. Corrected only three clear cell errors: 00119 rendered the qualification grade 2급 as a school year; 00136 mistranslated 이상 in 이상심리학 as 以上 rather than 异常; 00162 rendered 급수 as 成绩 rather than 等级. Hour totals and the surrounding course names were checked and retained. This schedule has no English source; Korean controls. Review continues at A11335 row 181; family remains IN_PROGRESS.",
     "C02 continued the no-English-source A11335 training-course schedule, checking rows 181-220 against the Korean table. Corrected the clear mixed-language fragment in the mental-health administration/policy cell, policy terminology, institution-centered case-management wording, the developmental-stage mental-nursing fragment, and the home-centered suffix. Numeric hours and accurate table labels were retained. Resume at A11335 row 221; family remains IN_PROGRESS.",
-    "C02 continued A11335 rows 221-260 against the Korean nursing-specialist training table. Corrected the two subtotal fragments translated as 子, two practical-training labels rendered as generic practice, the mistranslated treatment label, the institution-centered case-management phrase, and three split suffix fragments for 중심 rendered as 居中. Numeric hour cells and accurate subject labels were retained. No English source exists for this ministry-rule annex. Resume at row 261; family remains IN_PROGRESS."
+    "C02 continued A11335 rows 221-260 against the Korean nursing-specialist training table. Corrected the two subtotal fragments translated as 子, two practical-training labels rendered as generic practice, the mistranslated treatment label, the institution-centered case-management phrase, and three split suffix fragments for 중심 rendered as 居中. Numeric hour cells and accurate subject labels were retained. No English source exists for this ministry-rule annex. Resume at row 261; family remains IN_PROGRESS.",
+    "C02 reviewed A11335 rows 261-300 against the Korean training schedule. Corrected the class-II qualification marker rendered as a school year, two treatment cells mistranslated as 处理, two practical-training labels rendered as generic practice, and the paired nursing-intervention conjunction in two parallel table cells. All hour values and other course labels were checked and retained. Resume at row 301; family remains IN_PROGRESS."
   ]
 }
