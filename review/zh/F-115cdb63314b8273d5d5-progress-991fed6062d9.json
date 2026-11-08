@@ -1,0 +1,33 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-115cdb63314b8273d5d5",
+  "worker": "C06",
+  "pc": "WORK-C",
+  "panel_id": "panel-06",
+  "status": "IN_PROGRESS",
+  "phase": "KO_FULL_READING_IN_PROGRESS",
+  "source_blobs": {
+    "ko": "159cb5a14f8f5e07bea8f04a5437adbf4b15c6ba",
+    "en": "f29bd3277059d324e7bbe7a69b6b6b49ab69939f",
+    "zh": "de02d84d8491a7aa79491594587e28914944a33a"
+  },
+  "previous_progress_path": "review/zh/F-115cdb63314b8273d5d5-progress-91cb01eae9bf.json",
+  "previous_progress_blob_sha": "9f2b7de054dcea90199ec6b8bdf5feb8c46e7a4e",
+  "reading_evidence": {
+    "ko_complete_documents": [
+      "B1"
+    ],
+    "ko_decree_operational_articles": "제1조~제105조",
+    "ko_decree_supplementary_lines_read": {
+      "start_zero_based": 967,
+      "end_exclusive_zero_based": 1195
+    },
+    "ko_decree_next_line_zero_based": 1195,
+    "ko_full_read": false,
+    "en_full_read": false,
+    "zh_full_review": false,
+    "verified_zh_rows": 0
+  },
+  "edits": [],
+  "note": "Independent checkpoint after 409 conflict while updating existing progress file. Korean B2 supplementary provisions lines 967-1194 include 2014 enactment, repealed prior decrees, transitional measures and related decree amendments through item 34. No Chinese changes. Do not declare COMPLETE."
+}
