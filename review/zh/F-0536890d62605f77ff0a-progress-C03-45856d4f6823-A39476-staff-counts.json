@@ -1,0 +1,145 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:45856d4f6823",
+  "status": "IN_PROGRESS",
+  "phase": "ZH_SEMANTIC_REVIEW_CONTINUATION",
+  "document": "A39476",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_en_index_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "english_status": "Older English decree fallback only; current Korean annex authoritative",
+  "checked_rows": 15,
+  "checked_ids": [
+    "A39476-zh-00045",
+    "A39476-zh-00046",
+    "A39476-zh-00047",
+    "A39476-zh-00048",
+    "A39476-zh-00050",
+    "A39476-zh-00051",
+    "A39476-zh-00052",
+    "A39476-zh-00053",
+    "A39476-zh-00055",
+    "A39476-zh-00056",
+    "A39476-zh-00057",
+    "A39476-zh-00059",
+    "A39476-zh-00060",
+    "A39476-zh-00061",
+    "A39476-zh-00062"
+  ],
+  "quality_passed_rows": 15,
+  "corrected_rows": 0,
+  "results": [
+    {
+      "id": "A39476-zh-00045",
+      "verdict": "PASS",
+      "reason": "Korean Annex 3 staffing table at capacity thresholds 10 or fewer, 11–14, 15–19, 20 or more has matching cell value 1"
+    },
+    {
+      "id": "A39476-zh-00046",
+      "verdict": "PASS",
+      "reason": "Korean Annex 3 staffing table at capacity thresholds 10 or fewer, 11–14, 15–19, 20 or more has matching cell value 1"
+    },
+    {
+      "id": "A39476-zh-00047",
+      "verdict": "PASS",
+      "reason": "Korean Annex 3 staffing table at capacity thresholds 10 or fewer, 11–14, 15–19, 20 or more has matching cell value 1"
+    },
+    {
+      "id": "A39476-zh-00048",
+      "verdict": "PASS",
+      "reason": "Korean Annex 3 staffing table at capacity thresholds 10 or fewer, 11–14, 15–19, 20 or more has matching cell value 1"
+    },
+    {
+      "id": "A39476-zh-00050",
+      "verdict": "PASS",
+      "reason": "Korean Annex 3 staffing table at capacity thresholds 10 or fewer, 11–14, 15–19, 20 or more has matching cell value 1"
+    },
+    {
+      "id": "A39476-zh-00051",
+      "verdict": "PASS",
+      "reason": "Korean Annex 3 staffing table at capacity thresholds 10 or fewer, 11–14, 15–19, 20 or more has matching cell value 2"
+    },
+    {
+      "id": "A39476-zh-00052",
+      "verdict": "PASS",
+      "reason": "Korean Annex 3 staffing table at capacity thresholds 10 or fewer, 11–14, 15–19, 20 or more has matching cell value 2"
+    },
+    {
+      "id": "A39476-zh-00053",
+      "verdict": "PASS",
+      "reason": "Korean Annex 3 staffing table at capacity thresholds 10 or fewer, 11–14, 15–19, 20 or more has matching cell value 3"
+    },
+    {
+      "id": "A39476-zh-00055",
+      "verdict": "PASS",
+      "reason": "Korean Annex 3 staffing table at capacity thresholds 10 or fewer, 11–14, 15–19, 20 or more has matching cell value 1"
+    },
+    {
+      "id": "A39476-zh-00056",
+      "verdict": "PASS",
+      "reason": "Korean Annex 3 staffing table at capacity thresholds 10 or fewer, 11–14, 15–19, 20 or more has matching cell value 2"
+    },
+    {
+      "id": "A39476-zh-00057",
+      "verdict": "PASS",
+      "reason": "Korean Annex 3 staffing table at capacity thresholds 10 or fewer, 11–14, 15–19, 20 or more has matching cell value 2"
+    },
+    {
+      "id": "A39476-zh-00059",
+      "verdict": "PASS",
+      "reason": "Korean Annex 3 staffing table at capacity thresholds 10 or fewer, 11–14, 15–19, 20 or more has matching cell value 2"
+    },
+    {
+      "id": "A39476-zh-00060",
+      "verdict": "PASS",
+      "reason": "Korean Annex 3 staffing table at capacity thresholds 10 or fewer, 11–14, 15–19, 20 or more has matching cell value 4"
+    },
+    {
+      "id": "A39476-zh-00061",
+      "verdict": "PASS",
+      "reason": "Korean Annex 3 staffing table at capacity thresholds 10 or fewer, 11–14, 15–19, 20 or more has matching cell value 5"
+    },
+    {
+      "id": "A39476-zh-00062",
+      "verdict": "PASS",
+      "reason": "Korean Annex 3 staffing table at capacity thresholds 10 or fewer, 11–14, 15–19, 20 or more has matching cell value 6"
+    }
+  ],
+  "edits": [],
+  "source_table_validation": {
+    "facility_head": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "counselors": [
+      1,
+      2,
+      2,
+      3
+    ],
+    "assistants": [
+      "-",
+      1,
+      2,
+      2
+    ],
+    "totals": [
+      2,
+      4,
+      5,
+      6
+    ],
+    "note": "Source dash (no assistant) retained. Checked 15 numeric cells, not all table headers or remaining rows."
+  },
+  "prior_evidence_index": "status/delivery/reconcile-S2-8f70e317249155938a79444493d089b4-evidence-7e6b69412a765526.json",
+  "previous_verification_file": "review/zh/F-0536890d62605f77ff0a-progress-C03-897f42b91c9e-B1-14-delegation.json",
+  "protected_unresolved_ids": [
+    "A26697-zh-00008",
+    "A26699-zh-00053"
+  ],
+  "note": "Checked 15 independent number cells in Annex 3 staffing table. Existing candidates not replaced or double counted. No complete reading certification."
+}
