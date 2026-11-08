@@ -1,0 +1,47 @@
+{
+  "schema": "LAW_ZH_REVIEW_AUDIT_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:9b2937918ee6]",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "review_path": "review/zh/F-7423351d4946866bbacf.json",
+  "review_blob": "8b18f106578c16ada1f22d17cb43f395ab5b2a1e",
+  "documents": 16,
+  "zh_source_rows": 1207,
+  "prior_unique_edits": 243,
+  "total_unique_edits": 245,
+  "changes": [
+    {
+      "id": "B3-zh-00040",
+      "type": "new",
+      "basis": "Korean Rule Art38",
+      "corrected": "Statutory name of import recommendation and customs/statistical integrated tariff nomenclature"
+    },
+    {
+      "id": "B3-zh-00043",
+      "type": "new",
+      "basis": "Korean Rule Art41",
+      "corrected": "Untranslated Item, Origin, Rating fields -> 品目, 产地, 等级"
+    },
+    {
+      "id": "B3-zh-00053",
+      "type": "existing_edit_amended",
+      "basis": "Korean Addendum Art3",
+      "corrected": "Corrected 제50조제3호 as 第50条第3项, 별표13 as 附表13"
+    }
+  ],
+  "existing_edits_preserved": true,
+  "english_missing_note": "B3 and its annexes/forms have no independent English document; Korean source authoritative",
+  "full_semantic_review_completed": false,
+  "unresolved": [
+    "Full semantic correspondence for 1207 Chinese rows not yet certified",
+    "Annex and form XML cell alignment including punctuation-only cells remains unresolved"
+  ],
+  "complete_receipt_issued": false,
+  "next_action": "Continue same family until all sources and existing Chinese translated rows are fully compared; only then issue COMPLETE and delivery receipt."
+}
