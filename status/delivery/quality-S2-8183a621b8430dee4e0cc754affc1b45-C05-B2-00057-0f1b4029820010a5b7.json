@@ -1,0 +1,25 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-3705abbc710de4b867bc",
+  "worker": "C05",
+  "branch": "main",
+  "source_blobs": {
+    "ko": "7974bf81d14f4838ae85d4b3ceea80a2f0e65fed",
+    "zh": "045dd328cd77f3eecd8b6cd485be27f2389773e8"
+  },
+  "checked_ids": [
+    "B2-zh-00057"
+  ],
+  "checked_rows": 1,
+  "adopted_edits": [
+    {
+      "id": "B2-zh-00057",
+      "text": "第二条（公告等方式的一般适用例）本施行令适用于本施行令施行后实施的公告、公表、公示或者告示。\n\n"
+    }
+  ],
+  "rationale": {
+    "B2-zh-00057": "부칙 제2조는 공고·공표·공시·고시 4개 행위 및 이 영 시행 이후 적용을 규정; 公告、公表、公示、告示 명칭을 모두 보존하고 시행령으로 지칭함."
+  },
+  "status": "QUALITY_PARTIAL",
+  "note": "B2-00054 and B2-00063 have existing separate quality records and were not re-counted or rewritten. B2-00057 quality recheck is not new review coverage. No COMPLETE receipt."
+}
