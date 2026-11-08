@@ -19,7 +19,7 @@
   "scope": {
     "documents_total": 34,
     "zh_rows_total": 2925,
-    "rows_reviewed": 2068,
+    "rows_reviewed": 2087,
     "documents_reviewed": [
       "B1: partial review; full semantic pass remains",
       "B2: partial review; full semantic pass remains",
@@ -31,10 +31,11 @@
       "A12196: all 111 rows inspected; corrected obvious mistranslations in form labels, legal citation, date sequence and MTQ artifacts",
       "A12197: all 95 rows inspected; corrected terminology, form fields, price units, statutory reference and obvious MTQ/fragment errors",
       "A12198: all 23 rows inspected; corrected all obvious mistranslations in table headings and measurement units",
-      "A12199: all 145 rows inspected; rebuilt fragmented 3-page field labels and corrected clear mistranslations/MTQ artifacts while preserving table structure and units"
+      "A12199: all 145 rows inspected; rebuilt fragmented 3-page field labels and corrected clear mistranslations/MTQ artifacts while preserving table structure and units",
+      "A12200: all 19 rows inspected; corrected office titles, committee terminology and response fields"
     ],
-    "documents_remaining": 9,
-    "rows_not_yet_reviewed": 827
+    "documents_remaining": 8,
+    "rows_not_yet_reviewed": 808
   },
   "english_availability": {
     "official_full_text_documents": [
@@ -47,8 +48,8 @@
       "B2": "e75241d5a275a1d646bb7c48dc37a31daff529c4"
     }
   },
-  "checked_rows": 2068,
-  "corrected_rows": 1672,
+  "checked_rows": 2087,
+  "corrected_rows": 1689,
   "edits": [
     {
       "id": "B1-zh-00001",
@@ -6737,9 +6738,77 @@
     {
       "id": "A12199-zh-00145",
       "text": "其他参考事项"
+    },
+    {
+      "id": "A12200-zh-00001",
+      "text": "■ 《房地产价格公示法施行规则》[附表第24号格式]"
+    },
+    {
+      "id": "A12200-zh-00002",
+      "text": "市长、郡守或区厅长关于非住宅标准房地产价格意见征询结果书"
+    },
+    {
+      "id": "A12200-zh-00003",
+      "text": "意见征询结果"
+    },
+    {
+      "id": "A12200-zh-00004",
+      "text": "市、郡、区名称："
+    },
+    {
+      "id": "A12200-zh-00005",
+      "text": "区分"
+    },
+    {
+      "id": "A12200-zh-00006",
+      "text": "内容"
+    },
+    {
+      "id": "A12200-zh-00007",
+      "text": "意见征询日期"
+    },
+    {
+      "id": "A12200-zh-00008",
+      "text": "请求日期"
+    },
+    {
+      "id": "A12200-zh-00009",
+      "text": "市、郡、区不动产价格公示委员会召开日期"
+    },
+    {
+      "id": "A12200-zh-00010",
+      "text": "意见回复日期"
+    },
+    {
+      "id": "A12200-zh-00011",
+      "text": "主要意见"
+    },
+    {
+      "id": "A12200-zh-00012",
+      "text": "是否采纳"
+    },
+    {
+      "id": "A12200-zh-00013",
+      "text": "采纳情况"
+    },
+    {
+      "id": "A12200-zh-00014",
+      "text": "附件"
+    },
+    {
+      "id": "A12200-zh-00015",
+      "text": "1. 意见征询请求书副本1份"
+    },
+    {
+      "id": "A12200-zh-00016",
+      "text": "2. 市长、郡守或区厅长回复公文副本1份"
+    },
+    {
+      "id": "A12200-zh-00017",
+      "text": "210mm×297mm[胶版纸（80g/㎡）]"
     }
   ],
   "status": "IN_PROGRESS",
-  "next": "继续按顺序检查A12200至A12207共8份表单；随后对B1/B2全文补做语义复核和最终质量检查。",
-  "edits_saved": 1672
+  "next": "继续按顺序检查A12201至A12207共7份表单；随后补做B1/B2全文语义复核和最终质量检查。",
+  "edits_saved": 1689
 }
