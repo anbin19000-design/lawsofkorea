@@ -1,0 +1,32 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "panel_id": "panel-01",
+  "assignment_id": "S2-c174f0e36bef5fedb717095f1cea01f6",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:dcc68b94e7bb]",
+  "status": "IN_PROGRESS",
+  "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
+  "source_sha": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "official_review_blob": "701821eff3e9697e1372c431cd2c5f561a6151fe",
+  "checked_rows": 333,
+  "unique_edits": 301,
+  "reviewed_sequentially": [
+    "B1-zh-00089..B1-zh-00103",
+    "B2-zh-00001..B2-zh-00057",
+    "A38090-zh-00001..A38090-zh-00039",
+    "A38091-zh-00001..A38091-zh-00119",
+    "B3-zh-00001..B3-zh-00015"
+  ],
+  "english_status": "Exact English sources exist for B1 and B2 only. No independent English source for B3 and its related annexes/forms; Korean-Chinese comparison required.",
+  "next_position": "B3-zh-00016",
+  "unresolved": [
+    "A38090-zh-00012 punctuation-only dot requires XML cell verification.",
+    "Complete XML cell-level alignment for remaining annexes/forms is pending."
+  ],
+  "note": "Original KO/EN/ZH SHA unchanged. Existing corrections preserved. B3 initial 15 rows checked directly against Korean source; no COMPLETE receipt."
+}
