@@ -1,0 +1,42 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-1c153c79662f8df50e84",
+  "worker": "C04",
+  "pc": "WORK-C",
+  "panel_id": "panel-04",
+  "status": "IN_PROGRESS",
+  "source_commit": "e2c29b72dbaeccc4eb66876894d901c67de3f909",
+  "source_blobs": {
+    "ko": "e1b24030d49282e7ffee1466e72b4197f51d03e9",
+    "en": "83ff5ff6a4bcee53c6990ad71d240b71cc20db8b",
+    "zh": "8c8bc3b30a9fb349785b2ad05ff3f0c3fd051b35"
+  },
+  "scope": {
+    "documents": 34,
+    "zh_rows": 2925,
+    "korean_source_chars": 369520,
+    "english_reference_rows": 1561,
+    "english_missing_rows": 1364
+  },
+  "reading_checkpoint": {
+    "required_order": "KO_FULL_EN_FULL_ZH_FULL",
+    "ko": "COMPLETE: all 34 documents in laws/ko family source loaded and read in source order; 369,520 Korean characters.",
+    "en": "COMPLETE: exact official B1 English body and B2 English draft body read in full; English index and reviewed/en/KR_008306.json (173 reference rows) read. B3 and forms have no complete official English documents; those portions must be checked directly against Korean.",
+    "zh": "IN_PROGRESS: all 2,925 rows loaded in original order. Initial scan identified 846 rows containing Korean fragments and requires row-by-row reconciliation; no completion claim.",
+    "next_step": "Review Chinese rows sequentially by source document and row ID, use Korean originals and available English references, preserve bilingual form labels where intended, and record only actual corrections."
+  },
+  "findings": [
+    "Source laws/ko and laws/zh file SHA match assignment source_blobs.",
+    "The laws/en index Contents response was empty despite a nonempty assignment blob SHA; Git Blobs API returned the complete index (1,118,505 characters).",
+    "English index marks B1 and B2 EXACT_ENGLISH_AVAILABLE; B3 and 31 forms NO_DOCUMENT_ENGLISH. 1,561 row-level English references and 1,364 rows without English.",
+    "Initial scan found 846 Chinese rows with Korean characters; many appear in amended-law quotations and form tables and need contextual treatment, not blind replacement."
+  ],
+  "read_hashes": {
+    "ko": "e1b24030d49282e7ffee1466e72b4197f51d03e9",
+    "en_index": "83ff5ff6a4bcee53c6990ad71d240b71cc20db8b",
+    "en_B1": "c41cda23b98a8e39950d8d33b58ce9c287cf1cfb",
+    "en_B2": "e75241d5a275a1d646bb7c48dc37a31daff529c4",
+    "en_B3_reference": "17b644cac69e27113ad5c34eeb2d1c472e548f6a",
+    "zh": "8c8bc3b30a9fb349785b2ad05ff3f0c3fd051b35"
+  }
+}
