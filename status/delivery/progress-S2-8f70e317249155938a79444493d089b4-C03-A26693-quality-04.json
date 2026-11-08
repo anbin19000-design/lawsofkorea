@@ -1,0 +1,405 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26693",
+  "quality_batch": "A26693-quality-04",
+  "range": {
+    "first": "A26693-zh-00065",
+    "last": "A26693-zh-00102"
+  },
+  "quality_checked_rows": 38,
+  "quality_passed_rows": 38,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "A26693-zh-00065",
+    "A26693-zh-00066",
+    "A26693-zh-00067",
+    "A26693-zh-00068",
+    "A26693-zh-00069",
+    "A26693-zh-00070",
+    "A26693-zh-00071",
+    "A26693-zh-00072",
+    "A26693-zh-00073",
+    "A26693-zh-00074",
+    "A26693-zh-00075",
+    "A26693-zh-00076",
+    "A26693-zh-00077",
+    "A26693-zh-00078",
+    "A26693-zh-00079",
+    "A26693-zh-00080",
+    "A26693-zh-00081",
+    "A26693-zh-00082",
+    "A26693-zh-00083",
+    "A26693-zh-00084",
+    "A26693-zh-00085",
+    "A26693-zh-00086",
+    "A26693-zh-00087",
+    "A26693-zh-00088",
+    "A26693-zh-00089",
+    "A26693-zh-00090",
+    "A26693-zh-00091",
+    "A26693-zh-00092",
+    "A26693-zh-00093",
+    "A26693-zh-00094",
+    "A26693-zh-00095",
+    "A26693-zh-00096",
+    "A26693-zh-00097",
+    "A26693-zh-00098",
+    "A26693-zh-00099",
+    "A26693-zh-00100",
+    "A26693-zh-00101",
+    "A26693-zh-00102"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26693-00065-00102.json",
+  "prior_quality_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26693-quality-03.json",
+  "results": [
+    {
+      "id": "A26693-zh-00065",
+      "source_hash": "733e2c6b141f12c49bf68968c80fd3d900838b187863bdb0b47f88602fd4b20f",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "개인정보 관련 법령·시행령 및 행간 결합 문구 확인"
+    },
+    {
+      "id": "A26693-zh-00066",
+      "source_hash": "5336eb6d7feefac33fe050c4f4223cc0fd0cd635bffdd3ac8187efc99d1e633b",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "개인정보 관련 법령·시행령 및 행간 결합 문구 확인"
+    },
+    {
+      "id": "A26693-zh-00067",
+      "source_hash": "76da8bfc88813d26ddbb94945c173a24d39a78cafdf7245ff68e1ec432a89662",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "개인정보 관련 법령·시행령 및 행간 결합 문구 확인"
+    },
+    {
+      "id": "A26693-zh-00068",
+      "source_hash": "5044c65f8d95c7982b242c5c3db723260398aed59ab27e6a745690b4dd1cf588",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "개인정보 관련 법령·시행령 및 행간 결합 문구 확인"
+    },
+    {
+      "id": "A26693-zh-00069",
+      "source_hash": "4d8b77c36648e835348d4d0d374ee263e91bdb46d0d408876dc33a45dfb8ec15",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "개인정보 관련 법령·시행령 및 행간 결합 문구 확인"
+    },
+    {
+      "id": "A26693-zh-00070",
+      "source_hash": "19755f723381e1c9ffce7e5f19db52d7d1f326c612767e88b830c9faedcdf742",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "개인정보 항목·5년 보유·제3자 제공·동의 거부 및 목적 외 사용 금지 대조"
+    },
+    {
+      "id": "A26693-zh-00071",
+      "source_hash": "5f5e8f6b2ee98ebbc07735c1a011db6578353d9ad0e2318dfb3090019a76b2b1",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "개인정보 항목·5년 보유·제3자 제공·동의 거부 및 목적 외 사용 금지 대조"
+    },
+    {
+      "id": "A26693-zh-00072",
+      "source_hash": "4eb6608d35e77c0ec59065844b514f77ff9960546285108521f76b5045f0ccf5",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "개인정보 항목·5년 보유·제3자 제공·동의 거부 및 목적 외 사용 금지 대조"
+    },
+    {
+      "id": "A26693-zh-00073",
+      "source_hash": "7b9a0025fc97ea239e4c2442cced81c48bf8b2d377bb270e2043040b4806ae2f",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "개인정보 항목·5년 보유·제3자 제공·동의 거부 및 목적 외 사용 금지 대조"
+    },
+    {
+      "id": "A26693-zh-00074",
+      "source_hash": "024f414f9f5f7dc617ef6a98baf4bb8ee3df21cad4fb67ad2f0223fbdc4f2fa5",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "개인정보 항목·5년 보유·제3자 제공·동의 거부 및 목적 외 사용 금지 대조"
+    },
+    {
+      "id": "A26693-zh-00075",
+      "source_hash": "4d47c1efb8bc2fe818fa9f28b30bcb0cc4a8422931d5081eb9704c41bfa8e227",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "개인정보 항목·5년 보유·제3자 제공·동의 거부 및 목적 외 사용 금지 대조"
+    },
+    {
+      "id": "A26693-zh-00076",
+      "source_hash": "0d5c709fee9218b19a186286f42003d06273ad9a869995b60757af3164f848eb",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "개인정보 항목·5년 보유·제3자 제공·동의 거부 및 목적 외 사용 금지 대조"
+    },
+    {
+      "id": "A26693-zh-00077",
+      "source_hash": "190db5d2957d0b83b2d3fdd191ed360957479cd0afaff48eb4d5d6568cee59bb",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "개인정보 항목·5년 보유·제3자 제공·동의 거부 및 목적 외 사용 금지 대조"
+    },
+    {
+      "id": "A26693-zh-00078",
+      "source_hash": "7529e14e4ed29b7817d55ec595bf65a4311744877d6fd86e33e0dd34a92419cd",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "개인정보 항목·5년 보유·제3자 제공·동의 거부 및 목적 외 사용 금지 대조"
+    },
+    {
+      "id": "A26693-zh-00079",
+      "source_hash": "fa616e89e555d04eb438a00323466b58b6ace8044d984be8f12600c933413759",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "개인정보 항목·5년 보유·제3자 제공·동의 거부 및 목적 외 사용 금지 대조"
+    },
+    {
+      "id": "A26693-zh-00080",
+      "source_hash": "c0fe7696c173f349c7cb8587730e787a42872406c15281e78cc0c73150c17054",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "개인정보 항목·5년 보유·제3자 제공·동의 거부 및 목적 외 사용 금지 대조"
+    },
+    {
+      "id": "A26693-zh-00081",
+      "source_hash": "f064169d55f067450ee9ac4ca521378fc6557ffba0cdf9fdfa541e55205ddaeb",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "개인정보 항목·5년 보유·제3자 제공·동의 거부 및 목적 외 사용 금지 대조"
+    },
+    {
+      "id": "A26693-zh-00082",
+      "source_hash": "f8cf67ffc8f79eca51a1654075c90765b1c2a7dcd1999c98eee52bf7de8a1068",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "개인정보 항목·5년 보유·제3자 제공·동의 거부 및 목적 외 사용 금지 대조"
+    },
+    {
+      "id": "A26693-zh-00083",
+      "source_hash": "7e229f9325a0e395329c15773387adab9bec438e4937bb6735da7ee3bdd3aca8",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "개인정보 항목·5년 보유·제3자 제공·동의 거부 및 목적 외 사용 금지 대조"
+    },
+    {
+      "id": "A26693-zh-00084",
+      "source_hash": "c28519fe22deaa1aae1901819a114efd6052659f25cb26bec0208cd904c74c24",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "개인정보 항목·5년 보유·제3자 제공·동의 거부 및 목적 외 사용 금지 대조"
+    },
+    {
+      "id": "A26693-zh-00085",
+      "source_hash": "75fdc092f2ee83ee1f89e07b0bbfc4f8b703d74aaf3bb6f24635875e14212bea",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "개인정보 항목·5년 보유·제3자 제공·동의 거부 및 목적 외 사용 금지 대조"
+    },
+    {
+      "id": "A26693-zh-00086",
+      "source_hash": "0ad8d937fb08b584971c17f266e25149cd0a677c905fdae703455b90de377842",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "동의란·서명·신청서 처리 절차·용지 규격 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00087",
+      "source_hash": "b2d76834cd99e45ab650fe772133e728783491fd7e25f70c3855a85721665a7f",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "동의란·서명·신청서 처리 절차·용지 규격 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00088",
+      "source_hash": "9c1c00981d2ce03215eae1820c7913c2fc478c9288ff0147da8be282e47906ba",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "동의란·서명·신청서 처리 절차·용지 규격 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00089",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "동의란·서명·신청서 처리 절차·용지 규격 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00090",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "동의란·서명·신청서 처리 절차·용지 규격 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00091",
+      "source_hash": "dfc76879e2f5c3ead09186ff1c6b635624f96b7adbd71d94c37566429ca5df6f",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "동의란·서명·신청서 처리 절차·용지 규격 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00092",
+      "source_hash": "813afb2c0f870ca3a7dd7106df662ee18cff5b3ccf7e2dce700078b8e61302e3",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "동의란·서명·신청서 처리 절차·용지 규격 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00093",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "동의란·서명·신청서 처리 절차·용지 규격 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00094",
+      "source_hash": "2879222415672d201abfe3e634d8339e67e1459aae97a4f34b023760aaf0d94f",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "동의란·서명·신청서 처리 절차·용지 규격 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00095",
+      "source_hash": "9d62579f9c9457be124f61b10c676805aeb34f2362e83bef4d7421781109bdd0",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "동의란·서명·신청서 처리 절차·용지 규격 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00096",
+      "source_hash": "d995d6ab415d91d191bafde064de400b1e66d82532d91ec0cc02d72258ce5cda",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "동의란·서명·신청서 처리 절차·용지 규격 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00097",
+      "source_hash": "7e0e212667f735a4ed33b98de25a804c20bc29714b318cac041768909f463a7d",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "동의란·서명·신청서 처리 절차·용지 규격 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00098",
+      "source_hash": "d47c78190a0cedf08a85d48403af80a5b2f63144351a5264cb2614eb90fe6341",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "동의란·서명·신청서 처리 절차·용지 규격 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00099",
+      "source_hash": "fc0aec8efc9cf7434964f86433311e24f2998ef6e36c7e3904222fa29065b276",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "동의란·서명·신청서 처리 절차·용지 규격 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00100",
+      "source_hash": "d18875e1fa5508fbd63ab68f1bdc871134b418fb8069e19c5a5d3b64327c2254",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "동의란·서명·신청서 처리 절차·용지 규격 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00101",
+      "source_hash": "6130db5071108dc0c004b420d658a03acd65ca384cad1e59ab7b27774e7e0ef9",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "동의란·서명·신청서 처리 절차·용지 규격 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00102",
+      "source_hash": "6a9fd2459313c78ed634682f52734f6a424348a2381255da601ab4f842ec71c4",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "동의란·서명·신청서 처리 절차·용지 규격 대응 확인"
+    }
+  ],
+  "edits": [],
+  "note": "A26693 65~102번 서식 뒷면 개인정보 동의 및 처리절차를 한국어 원문과 기존 저장 교정문에 대조. 관련 법령 인용, 보유기간 5년, 지역 기관 제공, 서명 절차 및 210×297mm 규격 확인. 앞 구간 39번 인용 수정 필요 판정은 보존. 가족 전체 COMPLETE 아님."
+}
