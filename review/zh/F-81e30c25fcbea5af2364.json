@@ -2935,9 +2935,45 @@
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-253f69ad016f-zh.json",
       "reason": "Translate 국토교통부령 accurately as ministerial decree."
+    },
+    {
+      "id": "B1-zh-00079",
+      "source_hash": "2219085dd1b5d9a4dda70cae31f98d91b7c1305fa0b173e04b0346c0d4c03ffe",
+      "target_id": "3a288c7bb1fb21f604400bd35a4da5a0453593f987ad2ab6374ffa0413bbc695",
+      "text": "附则 <第9052号，2008年3月28日>\n\n",
+      "reason": "Correct 부칙 to 附则.",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-8d3a9d26d513.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON"
+    },
+    {
+      "id": "B1-zh-00081",
+      "source_hash": "3791dab6bb43bc0f0696d72c979a31f9d8ba77496f8762f44b17db6eac5efa8a",
+      "target_id": "c8414fa19563f6c401cd03fb222ebd28b22462213f3c4918ca0b7e0d137449ee",
+      "text": "第二条（关于设立普适城市规划的特别规定）① 尽管第八条第一款有但书规定，但凡在本法实施时，国土海洋部长官依据附则第四条认可的普适城市建设项目正在实施，或者项目实施者与项目所在区域有管辖权的市长或县长达成协议，以推进普适城市建设项目，且国土交通大臣应该市长或县长的请求予以认可，则无需依据第八条设立普适城市规划即可实施普适城市建设项目。 \n\n  ② 根据第1款实施普遍性城市建设项目时，根据第13条第2款批准项目计划的机关应当事先与国土交通海事大臣协商（不包括根据本补充条款第4条由国土交通海事大臣认可的项目正在实施的情况），并且，在本法实施后，对相关项目区域具有管辖权的市长或县长在根据《国家土地规划利用法》首次修订或修改城市基本规划时，应当反映相关项目计划的内容。\n\n",
+      "reason": "Correct historical 국토해양부장관 and 부칙 reference.",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-8d3a9d26d513.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON"
+    },
+    {
+      "id": "B1-zh-00083",
+      "source_hash": "693ba07f42bea56fa5a1cc661db343740581abbd87093c91cb772c03dddc90b9",
+      "target_id": "ecdbf04e7832eb749f16d9fe94ab171c86f914963661be13fa1fc5eb58be8be7",
+      "text": "第四条（关于普遍城市建设项目的过渡措施）在本法实施之时，凡已制定与第十三条规定的项目计划和第十四条规定的实施计划内容相似的项目计划，且实施的项目所涉区域面积达到或超过第三条规定的规模，经项目区域主管市长或县长的请求，国土交通海事大臣予以确认的，该项目应视为依据本法实施的普遍城市建设项目。\n\n",
+      "reason": "Correct 이상 to greater than or equal to, not strictly greater.",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-8d3a9d26d513.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON"
+    },
+    {
+      "id": "B1-zh-00102",
+      "source_hash": "1cd2fbec3b2a6bcb27ff4b6ca990c216484a31a01a38bb4b052547df8bcac357",
+      "target_id": "0d39aa3ca89b7e6135068ac36a2b13137f181b76fa165881c6b36d3b511ffca2",
+      "text": "附则（《噪声与振动管理法》）<第9770号法律，2009年6月9日>\n\n",
+      "reason": "Correct 부칙 and law title, preserving date.",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-8d3a9d26d513.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON"
     }
   ],
-  "adjudicated_edit_count": 304,
+  "adjudicated_edit_count": 308,
   "pending_single_candidate_count": 343,
   "pending_conflict_count": 0,
   "pending_single_candidates": [
@@ -8150,12 +8186,13 @@
     "2026-11-08 C02 2dec0ecc0be6: retained original source blobs; corrected B2 00122/00126/00133/00140 after Korean source comparison; retained previously checked accurate rows; whole-family status IN_PROGRESS.",
     "C02 2dec0ecc0be6 additional pass: five corrections to B2 historical decree supplementary provisions through 2019; still IN_PROGRESS, ordered reading not certified.",
     "C02 253f69ad016f: B1-zh-00027 minimal correction of 고도화; keep 17-document status IN_PROGRESS.",
-    "C02 253f69ad016f: B1 00034, 00051, 00053 repaired incorrect ministry or ministerial-decree translations; B1 00027 previously corrected."
+    "C02 253f69ad016f: B1 00034, 00051, 00053 repaired incorrect ministry or ministerial-decree translations; B1 00027 previously corrected.",
+    "C02 8d3a9d26d513: B1 rows 00055-00105 inspected; corrected 00079/00081/00083/00102; retained other existing translations and edits."
   ],
   "integration_progress": {
-    "stage": "CHINESE_B1_ORDERED_INITIAL_REVIEW_TO_00054",
-    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:253f69ad016f",
-    "note": "Chinese B1 rows 00001-00054 read against Korean; 4 new minimal corrections in this task so far, preserving all prior edits. Whole family in progress."
+    "stage": "CHINESE_B1_ORDERED_REVIEW_TO_00105",
+    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:8d3a9d26d513",
+    "note": "B1 00055-00105 source-to-Chinese review continuation. Four explicit minimal corrections; prior 349 edits preserved. Full family 1133 rows not yet complete."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
