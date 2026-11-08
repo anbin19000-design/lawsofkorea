@@ -9810,6 +9810,14 @@
     }
   ],
   "status": "IN_PROGRESS",
-  "next": "进行全量最终质量检查：逐项核验B1/B2/B3及34份表单的MTQ残留、未翻译韩文、数字单位、条文引用、表格/表单连续性；完成后合并全部累积edits到正式review文件并保存、回读收据。",
-  "edits_saved": 2437
+  "next": "继续将双语表单中保留的英文源字段完整译为中文并核对字段顺序；重点A12181-A12197及后续表单英文栏。随后复核B1/B2/B3引用、数字、表格连续性，正式合并完整review文件并生成收据。",
+  "edits_saved": 2437,
+  "final_quality_check": {
+    "mtq_residuals": 0,
+    "untranslated_korean_residuals": 0,
+    "english_source_fragments_remaining": "detected in bilingual English sections of several forms; translation/continuity pass still required",
+    "duplicate_edit_ids": 0,
+    "unknown_edit_ids": 0,
+    "source_sha_match": true
+  }
 }
