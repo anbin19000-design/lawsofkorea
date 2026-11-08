@@ -13,7 +13,7 @@
   "documents": 15,
   "total_rows": 1241,
   "unique_source_ids": 1241,
-  "checked_rows": 51,
+  "checked_rows": 56,
   "checked_ids": [
     "A14112-zh-00030",
     "A14112-zh-00032",
@@ -65,16 +65,21 @@
     "B1-zh-00021",
     "B1-zh-00022",
     "B1-zh-00024",
-    "B1-zh-00025"
+    "B1-zh-00025",
+    "B1-zh-00027",
+    "B1-zh-00028",
+    "B1-zh-00030",
+    "B1-zh-00031",
+    "B1-zh-00032"
   ],
   "corrections_in_review": 264,
   "unique_correction_ids": 264,
   "unverified_existing_review_entries": 237,
   "review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
-  "review_sha": "aa3f6f135ba5e304b10570a1786cf43ab3dca6aa",
+  "review_sha": "e9f6eb499c412b35f7b2b32de500c9d7edceac66",
   "prior_progress_path": "status/delivery/progress-S2-901caa00a22014b2aeb6d9a618edfdbf-C04-schoolmeals-audit-20261108.json",
   "prior_progress_sha": "fc8f2ca9695022e497ad3b36478f9be453220ceb",
-  "next_unverified_id": "B1-zh-00027",
+  "next_unverified_id": "B1-zh-00033",
   "reading_evidence": {
     "korean": "PARTIAL_READ_IN_CURRENT_RESUMPTION; source file verified, documents enumerated; no full-family completion claim",
     "english": "FULL_READ_NOT_CERTIFIED; 911/1241 rows have matching English references, 330 have none",
@@ -93,7 +98,7 @@
     "attachment_layout_holds": 12,
     "additional_minimal_corrections": 6
   },
-  "note": "Resume checkpoint. Preserves current official review and previous progress without modifying either. Current review file reports checked_rows=264 and contains 264 unique edits, while prior progress file reports 27 verified corrections/27 checked IDs and references a different review SHA. Therefore only the 27 prior checked IDs are carried as verified; the other review entries are preserved but not newly certified here. Current official C04 panel binding resolves to the registered chat URL, but the observed panel at that URL is IDLE with an empty composer and no message history; no duplicate chat message was sent. Full KO→EN→ZH read-through and family certification remain outstanding. Source blobs match status/active/C04.json. English source metadata independently records 29 family holds: 17 delegated/local normative text or edition-alignment scopes and 12 missing attachment binary/layout scopes. These are not to be invented or certified complete. Current Korean/English/Chinese source blobs still match the active assignment. Resume round: reviewed B1-zh-00086 through B1-zh-00094 sequentially against the full Korean Act addenda. 00086/87/89/90/91/94 were accurate; 00088/92/93 retain their already stored minimal corrections. No new edits needed. English row match status for these addenda is NO_ROW_ENGLISH; Korean-Chinese comparison completed. Existing review file was not rewritten. Sequential Act opening review: checked B1-zh-00001 through B1-zh-00006. Preserved existing edits for 00001/00004/00006; 00002 accurate. Corrected 00003 '改善国民膳食健康' to '改善国民饮食生活' and 00005 '保护和发展传统饮食文化' to '传承和发展传统饮食文化'. These are minimal semantic corrections against Korean source; no English row matches for these entries. Sequential Act review continued: checked B1-zh-00009 through B1-zh-00014 against Korean source. Corrected clear legal-numbering, cross-reference, threshold, scope and omitted numbering errors in rows 10-13; row 09 and row 14 were retained as materially accurate. No English row matches were available for these entries. Previous edit text for rows 10-13 remains recoverable in Git history (pre-update commit 4a695cd9749b5a4aad2ecc6e6dc2900ff0645cc6); current review entries are cumulative minimal corrections, not deletion of the prior review history. Sequential Act review continued: checked B1-zh-00015 through B1-zh-00020. Rows 15-19 were retained using current text or existing corrections; refined existing row 20 correction for the exact statutory title 《农水产品原产地标示等法》, 食材, quality/nutrition/hygiene management-standard terminology, and the covered school meal staff. English row matches are absent for these rows. Terminology normalization in checked Act rows: Korean 교육부령 is rendered as 教育部令 (not 教育部条例) in rows 15 and 20; row 20 para.3 now consistently renders 학교급식관계교직원 as 学校供餐相关教职员工. Sequential Act review continued: checked B1-zh-00021 through B1-zh-00026. Rows 21-22 and 24 were retained as materially accurate; existing minimal corrections for rows 23, 25 and 26 were preserved, with row 23 terminology refined from generic 学校供餐单位 to the source-specific 学校供餐供应商. English row matches absent for these entries.",
+  "note": "Resume checkpoint. Preserves current official review and previous progress without modifying either. Current review file reports checked_rows=264 and contains 264 unique edits, while prior progress file reports 27 verified corrections/27 checked IDs and references a different review SHA. Therefore only the 27 prior checked IDs are carried as verified; the other review entries are preserved but not newly certified here. Current official C04 panel binding resolves to the registered chat URL, but the observed panel at that URL is IDLE with an empty composer and no message history; no duplicate chat message was sent. Full KO→EN→ZH read-through and family certification remain outstanding. Source blobs match status/active/C04.json. English source metadata independently records 29 family holds: 17 delegated/local normative text or edition-alignment scopes and 12 missing attachment binary/layout scopes. These are not to be invented or certified complete. Current Korean/English/Chinese source blobs still match the active assignment. Resume round: reviewed B1-zh-00086 through B1-zh-00094 sequentially against the full Korean Act addenda. 00086/87/89/90/91/94 were accurate; 00088/92/93 retain their already stored minimal corrections. No new edits needed. English row match status for these addenda is NO_ROW_ENGLISH; Korean-Chinese comparison completed. Existing review file was not rewritten. Sequential Act opening review: checked B1-zh-00001 through B1-zh-00006. Preserved existing edits for 00001/00004/00006; 00002 accurate. Corrected 00003 '改善国民膳食健康' to '改善国民饮食生活' and 00005 '保护和发展传统饮食文化' to '传承和发展传统饮食文化'. These are minimal semantic corrections against Korean source; no English row matches for these entries. Sequential Act review continued: checked B1-zh-00009 through B1-zh-00014 against Korean source. Corrected clear legal-numbering, cross-reference, threshold, scope and omitted numbering errors in rows 10-13; row 09 and row 14 were retained as materially accurate. No English row matches were available for these entries. Previous edit text for rows 10-13 remains recoverable in Git history (pre-update commit 4a695cd9749b5a4aad2ecc6e6dc2900ff0645cc6); current review entries are cumulative minimal corrections, not deletion of the prior review history. Sequential Act review continued: checked B1-zh-00015 through B1-zh-00020. Rows 15-19 were retained using current text or existing corrections; refined existing row 20 correction for the exact statutory title 《农水产品原产地标示等法》, 食材, quality/nutrition/hygiene management-standard terminology, and the covered school meal staff. English row matches are absent for these rows. Terminology normalization in checked Act rows: Korean 교육부령 is rendered as 教育部令 (not 教育部条例) in rows 15 and 20; row 20 para.3 now consistently renders 학교급식관계교직원 as 学校供餐相关教职员工. Sequential Act review continued: checked B1-zh-00021 through B1-zh-00026. Rows 21-22 and 24 were retained as materially accurate; existing minimal corrections for rows 23, 25 and 26 were preserved, with row 23 terminology refined from generic 学校供餐单位 to the source-specific 学校供餐供应商. English row matches absent for these entries. Sequential Act review continued through B1-zh-00032. A concurrent Contents API update was detected on the official review file; after refreshing, verified that the current official file already contains the minimal dual-penalty correction for B1-zh-00028 and the preserved corrections for B1-zh-00027/29/32. No conflicting review write was attempted. Progress now points to the next unchecked row.",
   "source_holds": {
     "total": 29,
     "delegated_or_local_scope": 17,
