@@ -1,0 +1,38 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_blob_after_save": "9bbef46d4477a35cde00035a20e4fcd7b4e6d991",
+  "prior_corrections_preserved": 479,
+  "cumulative_corrections": 484,
+  "new_corrections": [
+    "B2-zh-00065",
+    "B2-zh-00066",
+    "B2-zh-00075",
+    "B2-zh-00076",
+    "B2-zh-00108"
+  ],
+  "inspected_span": "B2-zh-00065 through B2-zh-00120, targeted uncorrected entries compared to Korean full text; five definite corrections",
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "chinese_total_rows": 1687,
+  "quality_open_items": [
+    "Full sequential semantic audit of all 1,687 Chinese rows remains incomplete",
+    "B2 remaining articles and annex/form rows need semantic comparison",
+    "A34911 calculation formula requires source-artifact visual check",
+    "429 rows without independently exact English require direct Korean/Chinese semantic comparison",
+    "Other unreviewed rows across the family remain"
+  ],
+  "note": "Five further minimal corrections appended; all original text and source_hash values preserved. Official review Contents API update was re-read and SHA-verified. No COMPLETE status or receipt."
+}
