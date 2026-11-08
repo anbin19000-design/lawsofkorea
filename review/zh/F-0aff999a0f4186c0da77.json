@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 322,
+    "correction_count": 332,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -2279,6 +2279,76 @@
       "original": "仅开始)",
       "corrected": "仅适用于加盟商经特许经营总部同意提出请求的情形）",
       "reason": "별지 제6·7호서식 한국어 원문에 따라 예치금 지급·반환의 근거 조문, 수수료 공제 및 동의 주체의 명백한 오역 교정."
+    },
+    "A34925-zh-00010": {
+      "doc": "A34925",
+      "source_hash": "a80d8a96abcc1c80d8f95535b490e6787f784da8ee8b9cb9681825f3e895dae7",
+      "original": "商标名称（特许经营名称）",
+      "corrected": "商号（加盟店名称）",
+      "reason": "별지 제8호서식 한국어 원문 대조: 지급보류 사유, 법령 인용, 지급·반환 신청자 및 처리조건의 명백한 의미 오류·누락 교정."
+    },
+    "A34925-zh-00019": {
+      "doc": "A34925",
+      "source_hash": "df54e8de18cf83d33745233b308e091f24b41722e8c0cf114242dc7301ea797b",
+      "original": "持有原因",
+      "corrected": "暂缓支付理由",
+      "reason": "별지 제8호서식 한국어 원문 대조: 지급보류 사유, 법령 인용, 지급·반환 신청자 및 처리조건의 명백한 의미 오류·누락 교정."
+    },
+    "A34925-zh-00020": {
+      "doc": "A34925",
+      "source_hash": "65ea0527a0983d8428c75c777a9459ba9e646e253a181bd90b5c0cd556b2cfd3",
+      "original": "[ ] 投诉",
+      "corrected": "[ ] 提起诉讼",
+      "reason": "별지 제8호서식 한국어 원문 대조: 지급보류 사유, 법령 인용, 지급·반환 신청자 및 처리조건의 명백한 의미 오류·누락 교정."
+    },
+    "A34925-zh-00021": {
+      "doc": "A34925",
+      "source_hash": "3e774dd4d1fc3d72af6aa3da5349dae0128821cef74f4515c97c52440a3301ce",
+      "original": "[ ] 请求转介",
+      "corrected": "[ ] 申请斡旋",
+      "reason": "별지 제8호서식 한국어 원문 대조: 지급보류 사유, 법령 인용, 지급·반환 신청자 및 처리조건의 명백한 의미 오류·누락 교정."
+    },
+    "A34925-zh-00022": {
+      "doc": "A34925",
+      "source_hash": "3d24c207e5d0c737f22689c866990af4ebfe5409563196c9a7d42bbcbd806560",
+      "original": "[ ] 调整请求",
+      "corrected": "[ ] 申请调解",
+      "reason": "별지 제8호서식 한국어 원문 대조: 지급보류 사유, 법령 인용, 지급·반환 신청자 및 처리조건의 명백한 의미 오류·누락 교정."
+    },
+    "A34925-zh-00030": {
+      "doc": "A34925",
+      "source_hash": "f2b5e86bce142067debcb810420b9887295d8389d4920e224a4323fb861bb33f",
+      "original": "根据《特许经营业务公平交易法》第6条第5款第5项和该法实施令第5条第10款第2项的规定",
+      "corrected": "依据《特许经营业务公平交易法》第6条之五第5款及该法实施令第5条之十第2款，",
+      "reason": "별지 제8호서식 한국어 원문 대조: 지급보류 사유, 법령 인용, 지급·반환 신청자 및 처리조건의 명백한 의미 오류·누락 교정."
+    },
+    "A34925-zh-00031": {
+      "doc": "A34925",
+      "source_hash": "0e1e1cc65d9332ba8233fd5aa720e376bbf4efefad5e8b79b203472398886236",
+      "original": "我们请求按上述规定暂缓支付定金。",
+      "corrected": "现请求按上述内容暂缓支付已托管的加盟费。",
+      "reason": "별지 제8호서식 한국어 원문 대조: 지급보류 사유, 법령 인용, 지급·반환 신청자 및 처리조건의 명백한 의미 오류·누락 교정."
+    },
+    "A34925-zh-00048": {
+      "doc": "A34925",
+      "source_hash": "e65920f9ff46d500b53ca7b76f7681b4f67fde8109f4fb585b5d3025de50bf46",
+      "original": "2. 存款机构负责人[可要求]特许经营人或被特许经营人提交争议调解结果等文件，或关于已存入特许经营费的支付的纠正措施文件，或",
+      "corrected": "2. 特许经营总部或加盟商附上争议调解等结果或纠正措施结果，申请支付或退还已托管的加盟费时，",
+      "reason": "별지 제8호서식 한국어 원문 대조: 지급보류 사유, 법령 인용, 지급·반환 신청자 및 처리조건의 명백한 의미 오류·누락 교정."
+    },
+    "A34925-zh-00049": {
+      "doc": "A34925",
+      "source_hash": "cdf1734bc199bb5f967b3e844b11ecf9b850cf00f55dbe18b4119d7f1fd82b25",
+      "original": "如果提出退款请求，已缴纳的加盟费应在请求之日起 30 天内支付给特许人或被特许人，具体取决于退款结果。",
+      "corrected": "存款机构负责人应自申请之日起30日内按相关结果，向特许经营总部支付托管加盟费或向加盟商退还托管加盟费。",
+      "reason": "별지 제8호서식 한국어 원문 대조: 지급보류 사유, 법령 인용, 지급·반환 신청자 및 처리조건의 명백한 의미 오류·누락 교정."
+    },
+    "A34925-zh-00052": {
+      "doc": "A34925",
+      "source_hash": "8596203e4262255ad06682a9b2806b719dfb78c02a4cfa1ad8190ed9aba26f19",
+      "original": ".",
+      "corrected": "将已托管的加盟费退还给加盟商。",
+      "reason": "별지 제8호서식 한국어 원문 대조: 지급보류 사유, 법령 인용, 지급·반환 신청자 및 처리조건의 명백한 의미 오류·누락 교정."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -2347,7 +2417,8 @@
     "C05 16f5d26f374d: Annex A34917 Korean source checked; 6 concrete wording/citation/form workflow corrections. No full-family semantic certification.",
     "C05 16f5d26f374d: continued annex A34918 and A34920 review; 8 source-grounded corrections. Chinese full semantic review remains incomplete.",
     "C05 94852f90eda2: A34921/A34922 Korean-source comparison and 8 confirmed corrections. Full-family Chinese semantic certification still pending.",
-    "C05 94852f90eda2: A34923/A34924 source checked; 8 verified corrections; remaining family semantic QA pending."
+    "C05 94852f90eda2: A34923/A34924 source checked; 8 verified corrections; remaining family semantic QA pending.",
+    "C05 94852f90eda2: A34925 source checked; 10 source-grounded corrections. Complete family-wide Chinese semantic QA still pending."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -2356,5 +2427,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 322
+  "corrected_rows": 332
 }
