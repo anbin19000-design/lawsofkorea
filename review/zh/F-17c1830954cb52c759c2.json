@@ -19,10 +19,10 @@
   "progress": {
     "korean": "COMPLETE",
     "english": "COMPLETE",
-    "chinese": "IN_PROGRESS; A27040/A27042/A27043 general criteria reviewed and corrected; individual disposition tables still pending.",
-    "reviewed_rows": 450,
-    "corrected_rows": 415,
-    "remaining_rows": 825
+    "chinese": "IN_PROGRESS; A27040, A27042, A27043 complete review of general and individual disposition tables; forms remain under sequential review.",
+    "reviewed_rows": 588,
+    "corrected_rows": 553,
+    "remaining_rows": 687
   },
   "documents": [],
   "rows": [
@@ -6306,10 +6306,15 @@
       "end": null,
       "target_id": "XML:1906407",
       "source_hash": "1d6f6bce78138ea58d3cc062dbce45c849d57266d25052a404c84318174a0c95",
-      "text": "2. 单个标准",
+      "text": "2. 个别标准",
       "text_original": "2. 单个标准",
-      "text_reviewed": "2. 单个标准",
-      "review_status": "PENDING"
+      "text_reviewed": "2. 个别标准",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00032",
@@ -6320,10 +6325,15 @@
       "end": null,
       "target_id": "XML:1906408",
       "source_hash": "903aa577eae3314c52694d8cb0c32f8a688802c384b7267385dc97b9afdad866",
-      "text": "违规",
+      "text": "违法行为",
       "text_original": "违规",
-      "text_reviewed": "违规",
-      "review_status": "PENDING"
+      "text_reviewed": "违法行为",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00033",
@@ -6334,10 +6344,15 @@
       "end": null,
       "target_id": "XML:1906409",
       "source_hash": "f301e09bb088a35ead5a94b8a5272800ed1989bf2a850f142c6a2bc9c86559d4",
-      "text": "法律依据",
+      "text": "依据法条",
       "text_original": "法律依据",
-      "text_reviewed": "法律依据",
-      "review_status": "PENDING"
+      "text_reviewed": "依据法条",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00034",
@@ -6348,10 +6363,15 @@
       "end": null,
       "target_id": "XML:1906410",
       "source_hash": "d7f26532491d3211d6e65d9ce3fe4003c57e01edbe3f534e05b975ea57041e18",
-      "text": "行政处置标准",
+      "text": "行政处分标准",
       "text_original": "行政处置标准",
-      "text_reviewed": "行政处置标准",
-      "review_status": "PENDING"
+      "text_reviewed": "行政处分标准",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00035",
@@ -6362,10 +6382,15 @@
       "end": null,
       "target_id": "XML:1906412",
       "source_hash": "453808332b8346c9e1954ffef8e87d7c8645abcc884e39a2c583ff251600635e",
-      "text": "第二个",
+      "text": "第1次违法",
       "text_original": "第二个",
-      "text_reviewed": "第二个",
-      "review_status": "PENDING"
+      "text_reviewed": "第1次违法",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00036",
@@ -6376,10 +6401,15 @@
       "end": null,
       "target_id": "XML:1906413",
       "source_hash": "f75ff0ce105d0acf38b5a14a59cc7d0e03b66d25389c0cc6f3654de5f9829795",
-      "text": "第三个",
+      "text": "第2次违法",
       "text_original": "第三个",
-      "text_reviewed": "第三个",
-      "review_status": "PENDING"
+      "text_reviewed": "第2次违法",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00037",
@@ -6390,10 +6420,15 @@
       "end": null,
       "target_id": "XML:1906414",
       "source_hash": "a68191ef7bdd10d7fcd4c0cf10f51e1873d41c8d6c04cbf0af0625f1a32998ad",
-      "text": "第 4 个",
+      "text": "第3次违法",
       "text_original": "第 4 个",
-      "text_reviewed": "第 4 个",
-      "review_status": "PENDING"
+      "text_reviewed": "第3次违法",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00038",
@@ -6404,10 +6439,15 @@
       "end": null,
       "target_id": "XML:1906415",
       "source_hash": "8babdb5c9618a214bed6a9bbfddbc7c25131c0aa1fa244eaf3c9c77e4d0c0a22",
-      "text": "违规",
+      "text": "第4次及以上违法",
       "text_original": "违规",
-      "text_reviewed": "违规",
-      "review_status": "PENDING"
+      "text_reviewed": "第4次及以上违法",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00039",
@@ -6418,10 +6458,15 @@
       "end": null,
       "target_id": "XML:1906416",
       "source_hash": "8babdb5c9618a214bed6a9bbfddbc7c25131c0aa1fa244eaf3c9c77e4d0c0a22",
-      "text": "违规",
+      "text": "（次数栏）",
       "text_original": "违规",
-      "text_reviewed": "违规",
-      "review_status": "PENDING"
+      "text_reviewed": "（次数栏）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00040",
@@ -6432,10 +6477,15 @@
       "end": null,
       "target_id": "XML:1906417",
       "source_hash": "8babdb5c9618a214bed6a9bbfddbc7c25131c0aa1fa244eaf3c9c77e4d0c0a22",
-      "text": "违规",
+      "text": "（次数栏）",
       "text_original": "违规",
-      "text_reviewed": "违规",
-      "review_status": "PENDING"
+      "text_reviewed": "（次数栏）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00041",
@@ -6446,10 +6496,15 @@
       "end": null,
       "target_id": "XML:1906418",
       "source_hash": "e6e77b83100b28e797f155f37162ee0a171cb2b4193e24205fbc9debf6cca32e",
-      "text": "或更多",
+      "text": "（次数栏）",
       "text_original": "或更多",
-      "text_reviewed": "或更多",
-      "review_status": "PENDING"
+      "text_reviewed": "（次数栏）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00042",
@@ -6460,10 +6515,15 @@
       "end": null,
       "target_id": "XML:1906419",
       "source_hash": "8babdb5c9618a214bed6a9bbfddbc7c25131c0aa1fa244eaf3c9c77e4d0c0a22",
-      "text": "违规",
+      "text": "（次数栏）",
       "text_original": "违规",
-      "text_reviewed": "违规",
-      "review_status": "PENDING"
+      "text_reviewed": "（次数栏）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00043",
@@ -6474,10 +6534,15 @@
       "end": null,
       "target_id": "XML:1906420",
       "source_hash": "1d5df887c56912a8169bbd2c8a8e81b5539165c27de5fc11c1f12ead970cd993",
-      "text": "a. 虚假或其他不诚实行为",
+      "text": "a. 以虚假或其他不正当方法取得本法第7条第1款规定的指定",
       "text_original": "a. 虚假或其他不诚实行为",
-      "text_reviewed": "a. 虚假或其他不诚实行为",
-      "review_status": "PENDING"
+      "text_reviewed": "a. 以虚假或其他不正当方法取得本法第7条第1款规定的指定",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00044",
@@ -6488,10 +6553,15 @@
       "end": null,
       "target_id": "XML:1906421",
       "source_hash": "7c9dc7d54a149849866ceb9ca308c6ad7029c0bb32d11b094539d4a071548e36",
-      "text": "《法案》第七条第四款第一项",
+      "text": "本法第7条第4款第1号",
       "text_original": "《法案》第七条第四款第一项",
-      "text_reviewed": "《法案》第七条第四款第一项",
-      "review_status": "PENDING"
+      "text_reviewed": "本法第7条第4款第1号",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00045",
@@ -6502,10 +6572,15 @@
       "end": null,
       "target_id": "XML:1906422",
       "source_hash": "7dee49c12898730c9bb55294543e417c38795c50d5d3116d0819a3c7428772f5",
-      "text": "指定",
+      "text": "撤销指定",
       "text_original": "指定",
-      "text_reviewed": "指定",
-      "review_status": "PENDING"
+      "text_reviewed": "撤销指定",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00046",
@@ -6516,10 +6591,15 @@
       "end": null,
       "target_id": "XML:1906423",
       "source_hash": "63ac7cf4d48ba0ee3183c37a35cd8a85d1ccb825761497e589aff9a6c5034039",
-      "text": "根据该法第七条第一款规定的方法",
+      "text": "（撤销指定）",
       "text_original": "根据该法第七条第一款规定的方法",
-      "text_reviewed": "根据该法第七条第一款规定的方法",
-      "review_status": "PENDING"
+      "text_reviewed": "（撤销指定）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00047",
@@ -6530,10 +6610,15 @@
       "end": null,
       "target_id": "XML:1906424",
       "source_hash": "be876433993ab7ba221512b5703b32060626f390aa50d7ed464a847a34539a6c",
-      "text": "取消",
+      "text": "（本项适用撤销指定）",
       "text_original": "取消",
-      "text_reviewed": "取消",
-      "review_status": "PENDING"
+      "text_reviewed": "（本项适用撤销指定）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00048",
@@ -6544,10 +6629,15 @@
       "end": null,
       "target_id": "XML:1906426",
       "source_hash": "40225630d1b1dcffe3c5fe6f65e82f9381f7479372ad040a6498d28d8db7b302",
-      "text": "b. 根据该法第7条第3款",
+      "text": "b. 收到本法第7条第3款规定的整改命令后，无正当理由未在指定期限内履行的情形",
       "text_original": "b. 根据该法第7条第3款",
-      "text_reviewed": "b. 根据该法第7条第3款",
-      "review_status": "PENDING"
+      "text_reviewed": "b. 收到本法第7条第3款规定的整改命令后，无正当理由未在指定期限内履行的情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00049",
@@ -6558,10 +6648,15 @@
       "end": null,
       "target_id": "XML:1906427",
       "source_hash": "2233b8e2d31b64bd858443742639e209387012308aed52445992c7862a4869ae",
-      "text": "该法第七条第四款第二项",
+      "text": "本法第7条第4款第2号",
       "text_original": "该法第七条第四款第二项",
-      "text_reviewed": "该法第七条第四款第二项",
-      "review_status": "PENDING"
+      "text_reviewed": "本法第7条第4款第2号",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00050",
@@ -6572,10 +6667,15 @@
       "end": null,
       "target_id": "XML:1906428",
       "source_hash": "7b3733aab2fd0dcf59d453ff7ce2c32f01b757f4d45bf6d21819f9915123613f",
-      "text": "业务",
+      "text": "停止全部或部分事业",
       "text_original": "业务",
-      "text_reviewed": "业务",
-      "review_status": "PENDING"
+      "text_reviewed": "停止全部或部分事业",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00051",
@@ -6586,10 +6686,15 @@
       "end": null,
       "target_id": "XML:1906429",
       "source_hash": "7b3733aab2fd0dcf59d453ff7ce2c32f01b757f4d45bf6d21819f9915123613f",
-      "text": "业务",
+      "text": "停止全部或部分事业",
       "text_original": "业务",
-      "text_reviewed": "业务",
-      "review_status": "PENDING"
+      "text_reviewed": "停止全部或部分事业",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00052",
@@ -6600,10 +6705,15 @@
       "end": null,
       "target_id": "XML:1906430",
       "source_hash": "7b3733aab2fd0dcf59d453ff7ce2c32f01b757f4d45bf6d21819f9915123613f",
-      "text": "业务",
+      "text": "停止全部或部分事业",
       "text_original": "业务",
-      "text_reviewed": "业务",
-      "review_status": "PENDING"
+      "text_reviewed": "停止全部或部分事业",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00053",
@@ -6614,10 +6724,15 @@
       "end": null,
       "target_id": "XML:1906431",
       "source_hash": "7dee49c12898730c9bb55294543e417c38795c50d5d3116d0819a3c7428772f5",
-      "text": "指定",
+      "text": "撤销指定",
       "text_original": "指定",
-      "text_reviewed": "指定",
-      "review_status": "PENDING"
+      "text_reviewed": "撤销指定",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00054",
@@ -6628,10 +6743,15 @@
       "end": null,
       "target_id": "XML:1906432",
       "source_hash": "5c8f1a439f875a7e593d8453de3fde4c46f76ffa4f7deebca951c2970cb11520",
-      "text": "即使收到正式命令，合法的",
+      "text": "即使收到整改命令，仍无正当理由未在指定期限内履行",
       "text_original": "即使收到正式命令，合法的",
-      "text_reviewed": "即使收到正式命令，合法的",
-      "review_status": "PENDING"
+      "text_reviewed": "即使收到整改命令，仍无正当理由未在指定期限内履行",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00055",
@@ -6642,10 +6762,15 @@
       "end": null,
       "target_id": "XML:1906433",
       "source_hash": "32555f5ba712b1fdaf7403eff6d1a96ae377fd2bf903937b5ac1adc275c9b0e8",
-      "text": "一些",
+      "text": "（事业停止处分）",
       "text_original": "一些",
-      "text_reviewed": "一些",
-      "review_status": "PENDING"
+      "text_reviewed": "（事业停止处分）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00056",
@@ -6656,10 +6781,15 @@
       "end": null,
       "target_id": "XML:1906434",
       "source_hash": "32555f5ba712b1fdaf7403eff6d1a96ae377fd2bf903937b5ac1adc275c9b0e8",
-      "text": "部分",
+      "text": "（事业停止处分）",
       "text_original": "部分",
-      "text_reviewed": "部分",
-      "review_status": "PENDING"
+      "text_reviewed": "（事业停止处分）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00057",
@@ -6670,10 +6800,15 @@
       "end": null,
       "target_id": "XML:1906435",
       "source_hash": "32555f5ba712b1fdaf7403eff6d1a96ae377fd2bf903937b5ac1adc275c9b0e8",
-      "text": "一些",
+      "text": "（事业停止处分）",
       "text_original": "一些",
-      "text_reviewed": "一些",
-      "review_status": "PENDING"
+      "text_reviewed": "（事业停止处分）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00058",
@@ -6684,10 +6819,15 @@
       "end": null,
       "target_id": "XML:1906436",
       "source_hash": "be876433993ab7ba221512b5703b32060626f390aa50d7ed464a847a34539a6c",
-      "text": "取消",
+      "text": "（撤销指定）",
       "text_original": "取消",
-      "text_reviewed": "取消",
-      "review_status": "PENDING"
+      "text_reviewed": "（撤销指定）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00059",
@@ -6698,10 +6838,15 @@
       "end": null,
       "target_id": "XML:1906437",
       "source_hash": "c4b59e20549a1360a3131c5db27e9663943d48c131c34fcbea9738cfbb8bbfef",
-      "text": "在指定期限内立即开始",
+      "text": "30日",
       "text_original": "在指定期限内立即开始",
-      "text_reviewed": "在指定期限内立即开始",
-      "review_status": "PENDING"
+      "text_reviewed": "30日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00060",
@@ -6712,10 +6857,15 @@
       "end": null,
       "target_id": "XML:1906441",
       "source_hash": "646ff0a7cb9f0c4a9a6f77f59637b4cb0ccf924ae1de77f356194eb28a5ee662",
-      "text": "如果未满足此条件",
+      "text": "60日",
       "text_original": "如果未满足此条件",
-      "text_reviewed": "如果未满足此条件",
-      "review_status": "PENDING"
+      "text_reviewed": "60日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00061",
@@ -6726,10 +6876,15 @@
       "end": null,
       "target_id": "XML:1906442",
       "source_hash": "aaf25d1dc4a735bd0c6aee8e25970ce4627a576e9ff8c14107611a0af04a5421",
-      "text": "30天",
+      "text": "90日",
       "text_original": "30天",
-      "text_reviewed": "30天",
-      "review_status": "PENDING"
+      "text_reviewed": "90日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00062",
@@ -6740,10 +6895,15 @@
       "end": null,
       "target_id": "XML:1906443",
       "source_hash": "dc8c86b5bbd150807c03c6ad18d1a508a62fa5241d72f56ea78063a4af14ac65",
-      "text": "60 天",
+      "text": "（第四次以上：撤销指定）",
       "text_original": "60 天",
-      "text_reviewed": "60 天",
-      "review_status": "PENDING"
+      "text_reviewed": "（第四次以上：撤销指定）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00063",
@@ -6754,10 +6914,15 @@
       "end": null,
       "target_id": "XML:1906444",
       "source_hash": "d85851858d06af8258eb751e807caf602208c73e50a8f4418f94bee59fdbf166",
-      "text": "90天",
+      "text": "c. 因示范项目对他人造成损害或引发交通危险的情形",
       "text_original": "90天",
-      "text_reviewed": "90天",
-      "review_status": "PENDING"
+      "text_reviewed": "c. 因示范项目对他人造成损害或引发交通危险的情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00064",
@@ -6768,10 +6933,15 @@
       "end": null,
       "target_id": "XML:1906445",
       "source_hash": "03df8a551f50d61e78c47768a85efb75f30c7d1f685e84889dfce1ede458a7bd",
-      "text": "。由于是演示项目，其他是",
+      "text": "本法第7条第4款第3号",
       "text_original": "。由于是演示项目，其他是",
-      "text_reviewed": "。由于是演示项目，其他是",
-      "review_status": "PENDING"
+      "text_reviewed": "本法第7条第4款第3号",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00065",
@@ -6782,10 +6952,15 @@
       "end": null,
       "target_id": "XML:1906446",
       "source_hash": "9f2045210b08afb4e15fee83ed82e9b441504d3a7b4ffcc9f10ab5d489f6f2dd",
-      "text": "该法第七条第四款第三项",
+      "text": "停止全部或部分事业",
       "text_original": "该法第七条第四款第三项",
-      "text_reviewed": "该法第七条第四款第三项",
-      "review_status": "PENDING"
+      "text_reviewed": "停止全部或部分事业",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00066",
@@ -6796,10 +6971,15 @@
       "end": null,
       "target_id": "XML:1906447",
       "source_hash": "7b3733aab2fd0dcf59d453ff7ce2c32f01b757f4d45bf6d21819f9915123613f",
-      "text": "业务",
+      "text": "停止全部或部分事业",
       "text_original": "业务",
-      "text_reviewed": "业务",
-      "review_status": "PENDING"
+      "text_reviewed": "停止全部或部分事业",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00067",
@@ -6810,10 +6990,15 @@
       "end": null,
       "target_id": "XML:1906448",
       "source_hash": "7b3733aab2fd0dcf59d453ff7ce2c32f01b757f4d45bf6d21819f9915123613f",
-      "text": "业务",
+      "text": "停止全部或部分事业",
       "text_original": "业务",
-      "text_reviewed": "业务",
-      "review_status": "PENDING"
+      "text_reviewed": "停止全部或部分事业",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00068",
@@ -6824,10 +7009,15 @@
       "end": null,
       "target_id": "XML:1906449",
       "source_hash": "7b3733aab2fd0dcf59d453ff7ce2c32f01b757f4d45bf6d21819f9915123613f",
-      "text": "业务",
+      "text": "撤销指定",
       "text_original": "业务",
-      "text_reviewed": "业务",
-      "review_status": "PENDING"
+      "text_reviewed": "撤销指定",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00069",
@@ -6838,10 +7028,15 @@
       "end": null,
       "target_id": "XML:1906450",
       "source_hash": "7dee49c12898730c9bb55294543e417c38795c50d5d3116d0819a3c7428772f5",
-      "text": "指定",
+      "text": "因示范项目对他人造成损害",
       "text_original": "指定",
-      "text_reviewed": "指定",
-      "review_status": "PENDING"
+      "text_reviewed": "因示范项目对他人造成损害",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00070",
@@ -6852,10 +7047,15 @@
       "end": null,
       "target_id": "XML:1906451",
       "source_hash": "4d942da2e66b51549a35430cb2a4afd4a95bcdf104c23b2033ed32fe0739cbb0",
-      "text": "对他人造成伤害或",
+      "text": "（事业停止处分）",
       "text_original": "对他人造成伤害或",
-      "text_reviewed": "对他人造成伤害或",
-      "review_status": "PENDING"
+      "text_reviewed": "（事业停止处分）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00071",
@@ -6866,10 +7066,15 @@
       "end": null,
       "target_id": "XML:1906452",
       "source_hash": "32555f5ba712b1fdaf7403eff6d1a96ae377fd2bf903937b5ac1adc275c9b0e8",
-      "text": "一些",
+      "text": "（事业停止处分）",
       "text_original": "一些",
-      "text_reviewed": "一些",
-      "review_status": "PENDING"
+      "text_reviewed": "（事业停止处分）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00072",
@@ -6880,10 +7085,15 @@
       "end": null,
       "target_id": "XML:1906453",
       "source_hash": "32555f5ba712b1fdaf7403eff6d1a96ae377fd2bf903937b5ac1adc275c9b0e8",
-      "text": "部分",
+      "text": "（事业停止处分）",
       "text_original": "部分",
-      "text_reviewed": "部分",
-      "review_status": "PENDING"
+      "text_reviewed": "（事业停止处分）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00073",
@@ -6894,10 +7104,15 @@
       "end": null,
       "target_id": "XML:1906454",
       "source_hash": "32555f5ba712b1fdaf7403eff6d1a96ae377fd2bf903937b5ac1adc275c9b0e8",
-      "text": "一些",
+      "text": "（撤销指定）",
       "text_original": "一些",
-      "text_reviewed": "一些",
-      "review_status": "PENDING"
+      "text_reviewed": "（撤销指定）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00074",
@@ -6908,10 +7123,15 @@
       "end": null,
       "target_id": "XML:1906455",
       "source_hash": "be876433993ab7ba221512b5703b32060626f390aa50d7ed464a847a34539a6c",
-      "text": "取消",
+      "text": "引发交通危险的情形",
       "text_original": "取消",
-      "text_reviewed": "取消",
-      "review_status": "PENDING"
+      "text_reviewed": "引发交通危险的情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00075",
@@ -6922,10 +7142,15 @@
       "end": null,
       "target_id": "XML:1906456",
       "source_hash": "2b84092bc8815dcbcee6a5208f9e1b8c382d12bc3aa893402e62d77752fcf051",
-      "text": "造成交通隐患",
+      "text": "30日",
       "text_original": "造成交通隐患",
-      "text_reviewed": "造成交通隐患",
-      "review_status": "PENDING"
+      "text_reviewed": "30日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00076",
@@ -6936,10 +7161,15 @@
       "end": null,
       "target_id": "XML:1906460",
       "source_hash": "1d6e2f62530c9e84c64f5cf1d525ecfb17e3f2bf071256483ccfe71d7f97c4ca",
-      "text": "是情况",
+      "text": "60日",
       "text_original": "是情况",
-      "text_reviewed": "是情况",
-      "review_status": "PENDING"
+      "text_reviewed": "60日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00077",
@@ -6950,10 +7180,15 @@
       "end": null,
       "target_id": "XML:1906461",
       "source_hash": "aaf25d1dc4a735bd0c6aee8e25970ce4627a576e9ff8c14107611a0af04a5421",
-      "text": "30天",
+      "text": "120日",
       "text_original": "30天",
-      "text_reviewed": "30天",
-      "review_status": "PENDING"
+      "text_reviewed": "120日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的违法行为、法律依据、处分种类及第1至第4次处分标准。"
+        }
+      ]
     },
     {
       "id": "A27040-zh-00078",
@@ -8069,10 +8304,15 @@
       "end": null,
       "target_id": "XML:1906521",
       "source_hash": "1d6f6bce78138ea58d3cc062dbce45c849d57266d25052a404c84318174a0c95",
-      "text": "2. 单个标准",
+      "text": "2. 个别标准",
       "text_original": "2. 单个标准",
-      "text_reviewed": "2. 单个标准",
-      "review_status": "PENDING"
+      "text_reviewed": "2. 个别标准",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00032",
@@ -8083,10 +8323,15 @@
       "end": null,
       "target_id": "XML:1906522",
       "source_hash": "903aa577eae3314c52694d8cb0c32f8a688802c384b7267385dc97b9afdad866",
-      "text": "违规",
+      "text": "违法行为",
       "text_original": "违规",
-      "text_reviewed": "违规",
-      "review_status": "PENDING"
+      "text_reviewed": "违法行为",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00033",
@@ -8097,10 +8342,15 @@
       "end": null,
       "target_id": "XML:1906523",
       "source_hash": "f301e09bb088a35ead5a94b8a5272800ed1989bf2a850f142c6a2bc9c86559d4",
-      "text": "法律依据",
+      "text": "依据法条",
       "text_original": "法律依据",
-      "text_reviewed": "法律依据",
-      "review_status": "PENDING"
+      "text_reviewed": "依据法条",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00034",
@@ -8111,10 +8361,15 @@
       "end": null,
       "target_id": "XML:1906524",
       "source_hash": "d7f26532491d3211d6e65d9ce3fe4003c57e01edbe3f534e05b975ea57041e18",
-      "text": "行政处置标准",
+      "text": "行政处分标准",
       "text_original": "行政处置标准",
-      "text_reviewed": "行政处置标准",
-      "review_status": "PENDING"
+      "text_reviewed": "行政处分标准",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00035",
@@ -8125,10 +8380,15 @@
       "end": null,
       "target_id": "XML:1906526",
       "source_hash": "453808332b8346c9e1954ffef8e87d7c8645abcc884e39a2c583ff251600635e",
-      "text": "第二个",
+      "text": "第1次违法",
       "text_original": "第二个",
-      "text_reviewed": "第二个",
-      "review_status": "PENDING"
+      "text_reviewed": "第1次违法",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00036",
@@ -8139,10 +8399,15 @@
       "end": null,
       "target_id": "XML:1906527",
       "source_hash": "f75ff0ce105d0acf38b5a14a59cc7d0e03b66d25389c0cc6f3654de5f9829795",
-      "text": "第三个",
+      "text": "第2次违法",
       "text_original": "第三个",
-      "text_reviewed": "第三个",
-      "review_status": "PENDING"
+      "text_reviewed": "第2次违法",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00037",
@@ -8153,10 +8418,15 @@
       "end": null,
       "target_id": "XML:1906528",
       "source_hash": "a68191ef7bdd10d7fcd4c0cf10f51e1873d41c8d6c04cbf0af0625f1a32998ad",
-      "text": "第 4 个",
+      "text": "第3次违法",
       "text_original": "第 4 个",
-      "text_reviewed": "第 4 个",
-      "review_status": "PENDING"
+      "text_reviewed": "第3次违法",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00038",
@@ -8167,10 +8437,15 @@
       "end": null,
       "target_id": "XML:1906529",
       "source_hash": "8babdb5c9618a214bed6a9bbfddbc7c25131c0aa1fa244eaf3c9c77e4d0c0a22",
-      "text": "违规",
+      "text": "第4次及以上违法",
       "text_original": "违规",
-      "text_reviewed": "违规",
-      "review_status": "PENDING"
+      "text_reviewed": "第4次及以上违法",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00039",
@@ -8181,10 +8456,15 @@
       "end": null,
       "target_id": "XML:1906530",
       "source_hash": "8babdb5c9618a214bed6a9bbfddbc7c25131c0aa1fa244eaf3c9c77e4d0c0a22",
-      "text": "违规",
+      "text": "（次数栏）",
       "text_original": "违规",
-      "text_reviewed": "违规",
-      "review_status": "PENDING"
+      "text_reviewed": "（次数栏）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00040",
@@ -8195,10 +8475,15 @@
       "end": null,
       "target_id": "XML:1906531",
       "source_hash": "8babdb5c9618a214bed6a9bbfddbc7c25131c0aa1fa244eaf3c9c77e4d0c0a22",
-      "text": "违规",
+      "text": "（次数栏）",
       "text_original": "违规",
-      "text_reviewed": "违规",
-      "review_status": "PENDING"
+      "text_reviewed": "（次数栏）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00041",
@@ -8209,10 +8494,15 @@
       "end": null,
       "target_id": "XML:1906532",
       "source_hash": "e6e77b83100b28e797f155f37162ee0a171cb2b4193e24205fbc9debf6cca32e",
-      "text": "或更多",
+      "text": "（次数栏）",
       "text_original": "或更多",
-      "text_reviewed": "或更多",
-      "review_status": "PENDING"
+      "text_reviewed": "（次数栏）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00042",
@@ -8223,10 +8513,15 @@
       "end": null,
       "target_id": "XML:1906533",
       "source_hash": "8babdb5c9618a214bed6a9bbfddbc7c25131c0aa1fa244eaf3c9c77e4d0c0a22",
-      "text": "违规",
+      "text": "（次数栏）",
       "text_original": "违规",
-      "text_reviewed": "违规",
-      "review_status": "PENDING"
+      "text_reviewed": "（次数栏）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00043",
@@ -8237,10 +8532,15 @@
       "end": null,
       "target_id": "XML:1906534",
       "source_hash": "012e3728ef5b57fb3c426a9a466183bfa7a5e67b95c30c51dc803f1f40af9cff",
-      "text": "a. 虚假或其他否定",
+      "text": "a. 以虚假或其他不正当方法取得本法第9条第2款规定的许可",
       "text_original": "a. 虚假或其他否定",
-      "text_reviewed": "a. 虚假或其他否定",
-      "review_status": "PENDING"
+      "text_reviewed": "a. 以虚假或其他不正当方法取得本法第9条第2款规定的许可",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00044",
@@ -8251,10 +8551,15 @@
       "end": null,
       "target_id": "XML:1906535",
       "source_hash": "23900c920f9446833673a03f2954e76e901d9cd4df7be2a31752997982b8ed35",
-      "text": "法案第十条第二款第一项",
+      "text": "本法第10条第2款第1号",
       "text_original": "法案第十条第二款第一项",
-      "text_reviewed": "法案第十条第二款第一项",
-      "review_status": "PENDING"
+      "text_reviewed": "本法第10条第2款第1号",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00045",
@@ -8265,10 +8570,15 @@
       "end": null,
       "target_id": "XML:1906536",
       "source_hash": "e7a29abc3bdf6d15b0b59877fb19ed13d0bb13f96d98f94c4084a0b9bbfbf597",
-      "text": "许可",
+      "text": "撤销许可",
       "text_original": "许可",
-      "text_reviewed": "许可",
-      "review_status": "PENDING"
+      "text_reviewed": "撤销许可",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00046",
@@ -8279,10 +8589,15 @@
       "end": null,
       "target_id": "XML:1906537",
       "source_hash": "3f183de0c8f9ef69f362f7e275bb8b34f293dd2a506d40fd38b5e634c6340945",
-      "text": "，《",
+      "text": "（撤销许可）",
       "text_original": "，《",
-      "text_reviewed": "，《",
-      "review_status": "PENDING"
+      "text_reviewed": "（撤销许可）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00047",
@@ -8293,10 +8608,15 @@
       "end": null,
       "target_id": "XML:1906538",
       "source_hash": "be876433993ab7ba221512b5703b32060626f390aa50d7ed464a847a34539a6c",
-      "text": "取消",
+      "text": "（本项适用撤销许可）",
       "text_original": "取消",
-      "text_reviewed": "取消",
-      "review_status": "PENDING"
+      "text_reviewed": "（本项适用撤销许可）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00048",
@@ -8307,10 +8627,15 @@
       "end": null,
       "target_id": "XML:1906539",
       "source_hash": "eecb199678eef9bc6a0416502c1fc1f6d9b16a86fe8a2672b0c631e49230e656",
-      "text": "2 已授权",
+      "text": "b. 违反本法第9条第2款，国土交通部长官以外的人未经许可开发垂直起降场，或违反许可事项的情形",
       "text_original": "2 已授权",
-      "text_reviewed": "2 已授权",
-      "review_status": "PENDING"
+      "text_reviewed": "b. 违反本法第9条第2款，国土交通部长官以外的人未经许可开发垂直起降场，或违反许可事项的情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00049",
@@ -8321,10 +8646,15 @@
       "end": null,
       "target_id": "XML:1906540",
       "source_hash": "0925aa90ecffa7d68ff7837a8061fc0727ed11f2ac486e261ce991adc65577ed",
-      "text": "案例",
+      "text": "本法第10条第2款第2号",
       "text_original": "案例",
-      "text_reviewed": "案例",
-      "review_status": "PENDING"
+      "text_reviewed": "本法第10条第2款第2号",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00050",
@@ -8335,10 +8665,15 @@
       "end": null,
       "target_id": "XML:1906541",
       "source_hash": "52d17429ad82a4aaa89203568bc9004a9fb5f0956f9d76b21665bd62164c3aba",
-      "text": "a. 违反该法第九条第二款",
+      "text": "1) 未取得许可而开发垂直起降场的情形",
       "text_original": "a. 违反该法第九条第二款",
-      "text_reviewed": "a. 违反该法第九条第二款",
-      "review_status": "PENDING"
+      "text_reviewed": "1) 未取得许可而开发垂直起降场的情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00051",
@@ -8349,10 +8684,15 @@
       "end": null,
       "target_id": "XML:1906542",
       "source_hash": "d408141d5ecd0a15456ea0eb24181054271a1e7bd75ef7c0e1adc7fd6e428e40",
-      "text": "法案第十条第二款第二项",
+      "text": "恢复原状",
       "text_original": "法案第十条第二款第二项",
-      "text_reviewed": "法案第十条第二款第二项",
-      "review_status": "PENDING"
+      "text_reviewed": "恢复原状",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00052",
@@ -8363,10 +8703,15 @@
       "end": null,
       "target_id": "XML:1906543",
       "source_hash": "f57af8b873782653173cd18c58c1b18226a40610548c8ec4d017911854c3f216",
-      "text": "和国土交通大臣及其他人士",
+      "text": "（恢复原状）",
       "text_original": "和国土交通大臣及其他人士",
-      "text_reviewed": "和国土交通大臣及其他人士",
-      "review_status": "PENDING"
+      "text_reviewed": "（恢复原状）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00053",
@@ -8377,10 +8722,15 @@
       "end": null,
       "target_id": "XML:1906544",
       "source_hash": "fbbc313be15766907b70c436977a343c3226556b0cf8eb733dadef71ceb60261",
-      "text": "的自授权尚未获得",
+      "text": "2) 违反许可事项的情形",
       "text_original": "的自授权尚未获得",
-      "text_reviewed": "的自授权尚未获得",
-      "review_status": "PENDING"
+      "text_reviewed": "2) 违反许可事项的情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00054",
@@ -8391,10 +8741,15 @@
       "end": null,
       "target_id": "XML:1906545",
       "source_hash": "02214759a642ebdc8abc540425fafb0e8a157c496b2dc0b799cb3677d8337e41",
-      "text": "并开发垂直端口",
+      "text": "停止施工",
       "text_original": "并开发垂直端口",
-      "text_reviewed": "并开发垂直端口",
-      "review_status": "PENDING"
+      "text_reviewed": "停止施工",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00055",
@@ -8405,10 +8760,15 @@
       "end": null,
       "target_id": "XML:1906546",
       "source_hash": "e31bd939050e6978b1e694ab660442af8b1c5d650e42edab3db51097e33406be",
-      "text": "或上述授权事项",
+      "text": "停止施工",
       "text_original": "或上述授权事项",
-      "text_reviewed": "或上述授权事项",
-      "review_status": "PENDING"
+      "text_reviewed": "停止施工",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00056",
@@ -8419,10 +8779,15 @@
       "end": null,
       "target_id": "XML:1906547",
       "source_hash": "5d2c9ec029cfc860bcf90d4074e0dbbbc4090e9e0073312d34518e455b615bbe",
-      "text": "违反已批准的条款",
+      "text": "停止施工",
       "text_original": "违反已批准的条款",
-      "text_reviewed": "违反已批准的条款",
-      "review_status": "PENDING"
+      "text_reviewed": "停止施工",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00057",
@@ -8433,10 +8798,15 @@
       "end": null,
       "target_id": "XML:1906548",
       "source_hash": "7570a9e471de8c131a2de471b54d9f560a71cba1f4feb4c327117675aa1d0c34",
-      "text": "1) 未经许可",
+      "text": "撤销许可",
       "text_original": "1) 未经许可",
-      "text_reviewed": "1) 未经许可",
-      "review_status": "PENDING"
+      "text_reviewed": "撤销许可",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00058",
@@ -8447,10 +8817,15 @@
       "end": null,
       "target_id": "XML:1906549",
       "source_hash": "3a87ef97814dcabcf06b87e4a3d5404075b5cd84985def41f5956a3fe4976013",
-      "text": "原创Sang",
+      "text": "（违反许可事项）",
       "text_original": "原创Sang",
-      "text_reviewed": "原创Sang",
-      "review_status": "PENDING"
+      "text_reviewed": "（违反许可事项）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00059",
@@ -8461,10 +8836,15 @@
       "end": null,
       "target_id": "XML:1906550",
       "source_hash": "5bffe0008b8478e6cbfe2305ff6fe2323fadcb230e213fe7b9c10f14e89ccae5",
-      "text": "如果开发了 T 端口",
+      "text": "30日",
       "text_original": "如果开发了 T 端口",
-      "text_reviewed": "如果开发了 T 端口",
-      "review_status": "PENDING"
+      "text_reviewed": "30日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00060",
@@ -8475,10 +8855,15 @@
       "end": null,
       "target_id": "XML:1906551",
       "source_hash": "de755cc2f7308e1463e10b4349875aa0f1e0837371cb29bd9c4e3aa3dca31f0c",
-      "text": "恢复",
+      "text": "60日",
       "text_original": "恢复",
-      "text_reviewed": "恢复",
-      "review_status": "PENDING"
+      "text_reviewed": "60日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00061",
@@ -8489,10 +8874,15 @@
       "end": null,
       "target_id": "XML:1906552",
       "source_hash": "c0e943986c48cee70f73949f815c9ff523be971d2c44ab7ef2e798438f482b99",
-      "text": "2) 违反授权事项",
+      "text": "90日",
       "text_original": "2) 违反授权事项",
-      "text_reviewed": "2) 违反授权事项",
-      "review_status": "PENDING"
+      "text_reviewed": "90日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00062",
@@ -8503,10 +8893,15 @@
       "end": null,
       "target_id": "XML:1906553",
       "source_hash": "25e51843741edb403b41c45cf4906ea4bd64fae0b998ba396fc35dae697a7fb6",
-      "text": "施工",
+      "text": "（第四次以上：撤销许可）",
       "text_original": "施工",
-      "text_reviewed": "施工",
-      "review_status": "PENDING"
+      "text_reviewed": "（第四次以上：撤销许可）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00063",
@@ -8517,10 +8912,15 @@
       "end": null,
       "target_id": "XML:1906554",
       "source_hash": "25e51843741edb403b41c45cf4906ea4bd64fae0b998ba396fc35dae697a7fb6",
-      "text": "施工",
+      "text": "c. 因情况变更而被认定无法继续实施垂直起降场开发的情形",
       "text_original": "施工",
-      "text_reviewed": "施工",
-      "review_status": "PENDING"
+      "text_reviewed": "c. 因情况变更而被认定无法继续实施垂直起降场开发的情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00064",
@@ -8531,10 +8931,15 @@
       "end": null,
       "target_id": "XML:1906555",
       "source_hash": "25e51843741edb403b41c45cf4906ea4bd64fae0b998ba396fc35dae697a7fb6",
-      "text": "施工",
+      "text": "本法第10条第2款第3号",
       "text_original": "施工",
-      "text_reviewed": "施工",
-      "review_status": "PENDING"
+      "text_reviewed": "本法第10条第2款第3号",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00065",
@@ -8545,10 +8950,15 @@
       "end": null,
       "target_id": "XML:1906556",
       "source_hash": "e7a29abc3bdf6d15b0b59877fb19ed13d0bb13f96d98f94c4084a0b9bbfbf597",
-      "text": "许可",
+      "text": "撤销许可",
       "text_original": "许可",
-      "text_reviewed": "许可",
-      "review_status": "PENDING"
+      "text_reviewed": "撤销许可",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00066",
@@ -8559,10 +8969,15 @@
       "end": null,
       "target_id": "XML:1906561",
       "source_hash": "be876433993ab7ba221512b5703b32060626f390aa50d7ed464a847a34539a6c",
-      "text": "取消",
+      "text": "（撤销许可）",
       "text_original": "取消",
-      "text_reviewed": "取消",
-      "review_status": "PENDING"
+      "text_reviewed": "（撤销许可）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00067",
@@ -8573,10 +8988,15 @@
       "end": null,
       "target_id": "XML:1906562",
       "source_hash": "aaf25d1dc4a735bd0c6aee8e25970ce4627a576e9ff8c14107611a0af04a5421",
-      "text": "30天",
+      "text": "（本项适用撤销许可）",
       "text_original": "30天",
-      "text_reviewed": "30天",
-      "review_status": "PENDING"
+      "text_reviewed": "（本项适用撤销许可）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00068",
@@ -8587,10 +9007,15 @@
       "end": null,
       "target_id": "XML:1906563",
       "source_hash": "dc8c86b5bbd150807c03c6ad18d1a508a62fa5241d72f56ea78063a4af14ac65",
-      "text": "60 天",
+      "text": "d. 收到本法第10条第1款规定的整改命令后，未在国土交通部长官规定期限内采取适当措施的情形",
       "text_original": "60 天",
-      "text_reviewed": "60 天",
-      "review_status": "PENDING"
+      "text_reviewed": "d. 收到本法第10条第1款规定的整改命令后，未在国土交通部长官规定期限内采取适当措施的情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00069",
@@ -8601,10 +9026,15 @@
       "end": null,
       "target_id": "XML:1906564",
       "source_hash": "d85851858d06af8258eb751e807caf602208c73e50a8f4418f94bee59fdbf166",
-      "text": "90天",
+      "text": "本法第10条第2款第4号",
       "text_original": "90天",
-      "text_reviewed": "90天",
-      "review_status": "PENDING"
+      "text_reviewed": "本法第10条第2款第4号",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00070",
@@ -8615,10 +9045,15 @@
       "end": null,
       "target_id": "XML:1906565",
       "source_hash": "e8613298b61f562558debb6562631ab8ffa745545db1bb7f779df884d185ee0f",
-      "text": "。由于情况变化，Vertipo",
+      "text": "停止施工",
       "text_original": "。由于情况变化，Vertipo",
-      "text_reviewed": "。由于情况变化，Vertipo",
-      "review_status": "PENDING"
+      "text_reviewed": "停止施工",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00071",
@@ -8629,10 +9064,15 @@
       "end": null,
       "target_id": "XML:1906566",
       "source_hash": "6d9d47e9e58bb644c770b63e1add23afbb20f2fbd7b4a3386ad2563a54134195",
-      "text": "法案第十条第二款第三项",
+      "text": "停止施工",
       "text_original": "法案第十条第二款第三项",
-      "text_reviewed": "法案第十条第二款第三项",
-      "review_status": "PENDING"
+      "text_reviewed": "停止施工",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00072",
@@ -8643,10 +9083,15 @@
       "end": null,
       "target_id": "XML:1906567",
       "source_hash": "e7a29abc3bdf6d15b0b59877fb19ed13d0bb13f96d98f94c4084a0b9bbfbf597",
-      "text": "许可",
+      "text": "停止施工",
       "text_original": "许可",
-      "text_reviewed": "许可",
-      "review_status": "PENDING"
+      "text_reviewed": "停止施工",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00073",
@@ -8657,10 +9102,15 @@
       "end": null,
       "target_id": "XML:1906568",
       "source_hash": "bc81723d4b00f86089f32d96a12833b439d2df2b9e34e766fd9ab6c8e2d971c6",
-      "text": "开发",
+      "text": "撤销许可",
       "text_original": "开发",
-      "text_reviewed": "开发",
-      "review_status": "PENDING"
+      "text_reviewed": "撤销许可",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00074",
@@ -8671,10 +9121,15 @@
       "end": null,
       "target_id": "XML:1906569",
       "source_hash": "be876433993ab7ba221512b5703b32060626f390aa50d7ed464a847a34539a6c",
-      "text": "取消",
+      "text": "（未在指定期限内采取适当措施）",
       "text_original": "取消",
-      "text_reviewed": "取消",
-      "review_status": "PENDING"
+      "text_reviewed": "（未在指定期限内采取适当措施）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00075",
@@ -8685,10 +9140,15 @@
       "end": null,
       "target_id": "XML:1906570",
       "source_hash": "1d7f108a0ed7aea905ad57d91362b846e03feaf39125825cbf13628369325f8e",
-      "text": "不可能",
+      "text": "30日",
       "text_original": "不可能",
-      "text_reviewed": "不可能",
-      "review_status": "PENDING"
+      "text_reviewed": "30日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00076",
@@ -8699,10 +9159,15 @@
       "end": null,
       "target_id": "XML:1906571",
       "source_hash": "e366814d4287af1b8b841620197dcac3e19e622ef692112ed2a40a1de031b809",
-      "text": "识别到的案例",
+      "text": "60日",
       "text_original": "识别到的案例",
-      "text_reviewed": "识别到的案例",
-      "review_status": "PENDING"
+      "text_reviewed": "60日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00077",
@@ -8713,10 +9178,15 @@
       "end": null,
       "target_id": "XML:1906572",
       "source_hash": "ad3e2efa6f23dfcc6a0b9818a4ba8eadc37281f83a9f8e6caa3ab5dc0da003c3",
-      "text": "。根据该法第10条第1款",
+      "text": "90日",
       "text_original": "。根据该法第10条第1款",
-      "text_reviewed": "。根据该法第10条第1款",
-      "review_status": "PENDING"
+      "text_reviewed": "90日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00078",
@@ -8727,10 +9197,15 @@
       "end": null,
       "target_id": "XML:1906573",
       "source_hash": "02005f919ccffd2b8f86c9277838b4f86eb59bf87de79f867470ea807e0c8aa2",
-      "text": "法案第十条第二款第四项",
+      "text": "（第四次以上：撤销许可）",
       "text_original": "法案第十条第二款第四项",
-      "text_reviewed": "法案第十条第二款第四项",
-      "review_status": "PENDING"
+      "text_reviewed": "（第四次以上：撤销许可）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复个别处分表格中的许可违法、恢复原状、停工及撤销许可标准。"
+        }
+      ]
     },
     {
       "id": "A27042-zh-00079",
@@ -9479,10 +9954,15 @@
       "end": null,
       "target_id": "XML:1906619",
       "source_hash": "1d6f6bce78138ea58d3cc062dbce45c849d57266d25052a404c84318174a0c95",
-      "text": "2. 单个标准",
+      "text": "2. 个别标准",
       "text_original": "2. 单个标准",
-      "text_reviewed": "2. 单个标准",
-      "review_status": "PENDING"
+      "text_reviewed": "2. 个别标准",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00032",
@@ -9493,10 +9973,15 @@
       "end": null,
       "target_id": "XML:1906620",
       "source_hash": "903aa577eae3314c52694d8cb0c32f8a688802c384b7267385dc97b9afdad866",
-      "text": "违规",
+      "text": "违法行为",
       "text_original": "违规",
-      "text_reviewed": "违规",
-      "review_status": "PENDING"
+      "text_reviewed": "违法行为",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00033",
@@ -9507,10 +9992,15 @@
       "end": null,
       "target_id": "XML:1906621",
       "source_hash": "f301e09bb088a35ead5a94b8a5272800ed1989bf2a850f142c6a2bc9c86559d4",
-      "text": "法律依据",
+      "text": "依据法条",
       "text_original": "法律依据",
-      "text_reviewed": "法律依据",
-      "review_status": "PENDING"
+      "text_reviewed": "依据法条",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00034",
@@ -9521,10 +10011,15 @@
       "end": null,
       "target_id": "XML:1906622",
       "source_hash": "d7f26532491d3211d6e65d9ce3fe4003c57e01edbe3f534e05b975ea57041e18",
-      "text": "行政处置标准",
+      "text": "行政处分标准",
       "text_original": "行政处置标准",
-      "text_reviewed": "行政处置标准",
-      "review_status": "PENDING"
+      "text_reviewed": "行政处分标准",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00035",
@@ -9535,10 +10030,15 @@
       "end": null,
       "target_id": "XML:1906624",
       "source_hash": "453808332b8346c9e1954ffef8e87d7c8645abcc884e39a2c583ff251600635e",
-      "text": "第二个",
+      "text": "第1次违法",
       "text_original": "第二个",
-      "text_reviewed": "第二个",
-      "review_status": "PENDING"
+      "text_reviewed": "第1次违法",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00036",
@@ -9549,10 +10049,15 @@
       "end": null,
       "target_id": "XML:1906625",
       "source_hash": "f75ff0ce105d0acf38b5a14a59cc7d0e03b66d25389c0cc6f3654de5f9829795",
-      "text": "第三个",
+      "text": "第2次违法",
       "text_original": "第三个",
-      "text_reviewed": "第三个",
-      "review_status": "PENDING"
+      "text_reviewed": "第2次违法",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00037",
@@ -9563,10 +10068,15 @@
       "end": null,
       "target_id": "XML:1906626",
       "source_hash": "a68191ef7bdd10d7fcd4c0cf10f51e1873d41c8d6c04cbf0af0625f1a32998ad",
-      "text": "第 4 个",
+      "text": "第3次违法",
       "text_original": "第 4 个",
-      "text_reviewed": "第 4 个",
-      "review_status": "PENDING"
+      "text_reviewed": "第3次违法",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00038",
@@ -9577,10 +10087,15 @@
       "end": null,
       "target_id": "XML:1906627",
       "source_hash": "8babdb5c9618a214bed6a9bbfddbc7c25131c0aa1fa244eaf3c9c77e4d0c0a22",
-      "text": "违规",
+      "text": "第4次及以上违法",
       "text_original": "违规",
-      "text_reviewed": "违规",
-      "review_status": "PENDING"
+      "text_reviewed": "第4次及以上违法",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00039",
@@ -9591,10 +10106,15 @@
       "end": null,
       "target_id": "XML:1906628",
       "source_hash": "8babdb5c9618a214bed6a9bbfddbc7c25131c0aa1fa244eaf3c9c77e4d0c0a22",
-      "text": "违规",
+      "text": "（次数栏）",
       "text_original": "违规",
-      "text_reviewed": "违规",
-      "review_status": "PENDING"
+      "text_reviewed": "（次数栏）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00040",
@@ -9605,10 +10125,15 @@
       "end": null,
       "target_id": "XML:1906629",
       "source_hash": "8babdb5c9618a214bed6a9bbfddbc7c25131c0aa1fa244eaf3c9c77e4d0c0a22",
-      "text": "违规",
+      "text": "（次数栏）",
       "text_original": "违规",
-      "text_reviewed": "违规",
-      "review_status": "PENDING"
+      "text_reviewed": "（次数栏）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00041",
@@ -9619,10 +10144,15 @@
       "end": null,
       "target_id": "XML:1906630",
       "source_hash": "e6e77b83100b28e797f155f37162ee0a171cb2b4193e24205fbc9debf6cca32e",
-      "text": "或更多",
+      "text": "（次数栏）",
       "text_original": "或更多",
-      "text_reviewed": "或更多",
-      "review_status": "PENDING"
+      "text_reviewed": "（次数栏）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00042",
@@ -9633,10 +10163,15 @@
       "end": null,
       "target_id": "XML:1906631",
       "source_hash": "8babdb5c9618a214bed6a9bbfddbc7c25131c0aa1fa244eaf3c9c77e4d0c0a22",
-      "text": "违规",
+      "text": "（次数栏）",
       "text_original": "违规",
-      "text_reviewed": "违规",
-      "review_status": "PENDING"
+      "text_reviewed": "（次数栏）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00043",
@@ -9647,10 +10182,15 @@
       "end": null,
       "target_id": "XML:1906632",
       "source_hash": "1d5df887c56912a8169bbd2c8a8e81b5539165c27de5fc11c1f12ead970cd993",
-      "text": "a. 虚假或其他不诚实行为",
+      "text": "a. 以虚假或其他不正当方法取得城市空中交通事业者指定的情形",
       "text_original": "a. 虚假或其他不诚实行为",
-      "text_reviewed": "a. 虚假或其他不诚实行为",
-      "review_status": "PENDING"
+      "text_reviewed": "a. 以虚假或其他不正当方法取得城市空中交通事业者指定的情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00044",
@@ -9661,10 +10201,15 @@
       "end": null,
       "target_id": "XML:1906633",
       "source_hash": "7dba1c2e88c679d2bf22be1f707f437b6540d517f1fd6337c64bcbc99bf9193a",
-      "text": "《法案》第十四条第五款第一项",
+      "text": "本法第14条第5款第1号",
       "text_original": "《法案》第十四条第五款第一项",
-      "text_reviewed": "《法案》第十四条第五款第一项",
-      "review_status": "PENDING"
+      "text_reviewed": "本法第14条第5款第1号",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00045",
@@ -9675,10 +10220,15 @@
       "end": null,
       "target_id": "XML:1906634",
       "source_hash": "7dee49c12898730c9bb55294543e417c38795c50d5d3116d0819a3c7428772f5",
-      "text": "指定",
+      "text": "撤销指定",
       "text_original": "指定",
-      "text_reviewed": "指定",
-      "review_status": "PENDING"
+      "text_reviewed": "撤销指定",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00046",
@@ -9689,10 +10239,15 @@
       "end": null,
       "target_id": "XML:1906635",
       "source_hash": "157beb99388d8516c68662272a04d89476b38da86bb46142269fa94d12854d2e",
-      "text": "方法",
+      "text": "（撤销指定）",
       "text_original": "方法",
-      "text_reviewed": "方法",
-      "review_status": "PENDING"
+      "text_reviewed": "（撤销指定）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00047",
@@ -9703,10 +10258,15 @@
       "end": null,
       "target_id": "XML:1906636",
       "source_hash": "be876433993ab7ba221512b5703b32060626f390aa50d7ed464a847a34539a6c",
-      "text": "取消",
+      "text": "（本项适用撤销指定）",
       "text_original": "取消",
-      "text_reviewed": "取消",
-      "review_status": "PENDING"
+      "text_reviewed": "（本项适用撤销指定）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00048",
@@ -9717,10 +10277,15 @@
       "end": null,
       "target_id": "XML:1906637",
       "source_hash": "52b1ec3ae852287ea6c00606e8281709ffc6f1f09e0838c1d44e943dedfd3bfa",
-      "text": "如果被指定为经营者",
+      "text": "b. 收到本法第14条第4款规定的整改命令后，无正当理由未在指定期限内履行的情形",
       "text_original": "如果被指定为经营者",
-      "text_reviewed": "如果被指定为经营者",
-      "review_status": "PENDING"
+      "text_reviewed": "b. 收到本法第14条第4款规定的整改命令后，无正当理由未在指定期限内履行的情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00049",
@@ -9731,10 +10296,15 @@
       "end": null,
       "target_id": "XML:1906638",
       "source_hash": "4d7ba41cc569d20caef3470b9e3f27cf246de206e41bd37b66af1c8f5249f718",
-      "text": "b. 根据该法第14条第4款",
+      "text": "本法第14条第5款第2号",
       "text_original": "b. 根据该法第14条第4款",
-      "text_reviewed": "b. 根据该法第14条第4款",
-      "review_status": "PENDING"
+      "text_reviewed": "本法第14条第5款第2号",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00050",
@@ -9745,10 +10315,15 @@
       "end": null,
       "target_id": "XML:1906639",
       "source_hash": "1b086bd3b6daea85dfcdc6cda4f78cdae0bade066c5ac7b53f065899e471554f",
-      "text": "《法案》第十四条第五款第二项",
+      "text": "停止全部或部分事业",
       "text_original": "《法案》第十四条第五款第二项",
-      "text_reviewed": "《法案》第十四条第五款第二项",
-      "review_status": "PENDING"
+      "text_reviewed": "停止全部或部分事业",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00051",
@@ -9759,10 +10334,15 @@
       "end": null,
       "target_id": "XML:1906640",
       "source_hash": "7b3733aab2fd0dcf59d453ff7ce2c32f01b757f4d45bf6d21819f9915123613f",
-      "text": "业务",
+      "text": "停止全部或部分事业",
       "text_original": "业务",
-      "text_reviewed": "业务",
-      "review_status": "PENDING"
+      "text_reviewed": "停止全部或部分事业",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00052",
@@ -9773,10 +10353,15 @@
       "end": null,
       "target_id": "XML:1906641",
       "source_hash": "7b3733aab2fd0dcf59d453ff7ce2c32f01b757f4d45bf6d21819f9915123613f",
-      "text": "业务",
+      "text": "停止全部或部分事业",
       "text_original": "业务",
-      "text_reviewed": "业务",
-      "review_status": "PENDING"
+      "text_reviewed": "停止全部或部分事业",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00053",
@@ -9787,10 +10372,15 @@
       "end": null,
       "target_id": "XML:1906642",
       "source_hash": "7b3733aab2fd0dcf59d453ff7ce2c32f01b757f4d45bf6d21819f9915123613f",
-      "text": "业务",
+      "text": "撤销指定",
       "text_original": "业务",
-      "text_reviewed": "业务",
-      "review_status": "PENDING"
+      "text_reviewed": "撤销指定",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00054",
@@ -9801,10 +10391,15 @@
       "end": null,
       "target_id": "XML:1906643",
       "source_hash": "7dee49c12898730c9bb55294543e417c38795c50d5d3116d0819a3c7428772f5",
-      "text": "指定",
+      "text": "（未在指定期限内履行整改命令）",
       "text_original": "指定",
-      "text_reviewed": "指定",
-      "review_status": "PENDING"
+      "text_reviewed": "（未在指定期限内履行整改命令）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00055",
@@ -9815,10 +10410,15 @@
       "end": null,
       "target_id": "XML:1906644",
       "source_hash": "085c3be2e37efe3822728df88104eb670820bd53b7a368af6767139da7a39795",
-      "text": "即使在收到更正指令后，",
+      "text": "30日",
       "text_original": "即使在收到更正指令后，",
-      "text_reviewed": "即使在收到更正指令后，",
-      "review_status": "PENDING"
+      "text_reviewed": "30日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00056",
@@ -9829,10 +10429,15 @@
       "end": null,
       "target_id": "XML:1906645",
       "source_hash": "32555f5ba712b1fdaf7403eff6d1a96ae377fd2bf903937b5ac1adc275c9b0e8",
-      "text": "部分",
+      "text": "60日",
       "text_original": "部分",
-      "text_reviewed": "部分",
-      "review_status": "PENDING"
+      "text_reviewed": "60日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00057",
@@ -9843,10 +10448,15 @@
       "end": null,
       "target_id": "XML:1906646",
       "source_hash": "32555f5ba712b1fdaf7403eff6d1a96ae377fd2bf903937b5ac1adc275c9b0e8",
-      "text": "部分",
+      "text": "90日",
       "text_original": "部分",
-      "text_reviewed": "部分",
-      "review_status": "PENDING"
+      "text_reviewed": "90日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00058",
@@ -9857,10 +10467,15 @@
       "end": null,
       "target_id": "XML:1906647",
       "source_hash": "32555f5ba712b1fdaf7403eff6d1a96ae377fd2bf903937b5ac1adc275c9b0e8",
-      "text": "一些",
+      "text": "（第四次以上：撤销指定）",
       "text_original": "一些",
-      "text_reviewed": "一些",
-      "review_status": "PENDING"
+      "text_reviewed": "（第四次以上：撤销指定）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00059",
@@ -9871,10 +10486,15 @@
       "end": null,
       "target_id": "XML:1906648",
       "source_hash": "be876433993ab7ba221512b5703b32060626f390aa50d7ed464a847a34539a6c",
-      "text": "取消",
+      "text": "c. 因试点运行对他人造成损害或引发交通危险的情形",
       "text_original": "取消",
-      "text_reviewed": "取消",
-      "review_status": "PENDING"
+      "text_reviewed": "c. 因试点运行对他人造成损害或引发交通危险的情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00060",
@@ -9885,10 +10505,15 @@
       "end": null,
       "target_id": "XML:1906649",
       "source_hash": "5512d2fc6b4ba4c7dd1a3c12b905de2f7b84e40f5cb2eeb890fd2ef061bc5400",
-      "text": "无故指定",
+      "text": "本法第14条第5款第3号",
       "text_original": "无故指定",
-      "text_reviewed": "无故指定",
-      "review_status": "PENDING"
+      "text_reviewed": "本法第14条第5款第3号",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00061",
@@ -9899,10 +10524,15 @@
       "end": null,
       "target_id": "XML:1906653",
       "source_hash": "4d5e50c159485014553584720699653ae8bb069195e7a39d78efd9445605e27d",
-      "text": "在",
+      "text": "停止全部或部分事业",
       "text_original": "在",
-      "text_reviewed": "在",
-      "review_status": "PENDING"
+      "text_reviewed": "停止全部或部分事业",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00062",
@@ -9913,10 +10543,15 @@
       "end": null,
       "target_id": "XML:1906654",
       "source_hash": "aaf25d1dc4a735bd0c6aee8e25970ce4627a576e9ff8c14107611a0af04a5421",
-      "text": "30天",
+      "text": "停止全部或部分事业",
       "text_original": "30天",
-      "text_reviewed": "30天",
-      "review_status": "PENDING"
+      "text_reviewed": "停止全部或部分事业",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00063",
@@ -9927,10 +10562,15 @@
       "end": null,
       "target_id": "XML:1906655",
       "source_hash": "dc8c86b5bbd150807c03c6ad18d1a508a62fa5241d72f56ea78063a4af14ac65",
-      "text": "60 天",
+      "text": "停止全部或部分事业",
       "text_original": "60 天",
-      "text_reviewed": "60 天",
-      "review_status": "PENDING"
+      "text_reviewed": "停止全部或部分事业",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00064",
@@ -9941,10 +10581,15 @@
       "end": null,
       "target_id": "XML:1906656",
       "source_hash": "d85851858d06af8258eb751e807caf602208c73e50a8f4418f94bee59fdbf166",
-      "text": "90天",
+      "text": "撤销指定",
       "text_original": "90天",
-      "text_reviewed": "90天",
-      "review_status": "PENDING"
+      "text_reviewed": "撤销指定",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00065",
@@ -9955,10 +10600,15 @@
       "end": null,
       "target_id": "XML:1906657",
       "source_hash": "ec456c8c6c7cc2feebec673020df15308bfd2b44406812958f939a390523e098",
-      "text": "如果不是",
+      "text": "对他人造成损害",
       "text_original": "如果不是",
-      "text_reviewed": "如果不是",
-      "review_status": "PENDING"
+      "text_reviewed": "对他人造成损害",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00066",
@@ -9969,10 +10619,15 @@
       "end": null,
       "target_id": "XML:1906658",
       "source_hash": "9f55540835ecc91862affb88f17f0e42ee83eccea68e174a8424c7ca063af102",
-      "text": "。由于试运行，状态为",
+      "text": "（事业停止处分）",
       "text_original": "。由于试运行，状态为",
-      "text_reviewed": "。由于试运行，状态为",
-      "review_status": "PENDING"
+      "text_reviewed": "（事业停止处分）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00067",
@@ -9983,10 +10638,15 @@
       "end": null,
       "target_id": "XML:1906659",
       "source_hash": "be53adac6d04ce61edbd7d36d886acd70976cdacf8dec74a85c1f84019b350e1",
-      "text": "该法第十四条第五款第三项",
+      "text": "（事业停止处分）",
       "text_original": "该法第十四条第五款第三项",
-      "text_reviewed": "该法第十四条第五款第三项",
-      "review_status": "PENDING"
+      "text_reviewed": "（事业停止处分）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00068",
@@ -9997,10 +10657,15 @@
       "end": null,
       "target_id": "XML:1906660",
       "source_hash": "7b3733aab2fd0dcf59d453ff7ce2c32f01b757f4d45bf6d21819f9915123613f",
-      "text": "业务",
+      "text": "（事业停止处分）",
       "text_original": "业务",
-      "text_reviewed": "业务",
-      "review_status": "PENDING"
+      "text_reviewed": "（事业停止处分）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00069",
@@ -10011,10 +10676,15 @@
       "end": null,
       "target_id": "XML:1906661",
       "source_hash": "7b3733aab2fd0dcf59d453ff7ce2c32f01b757f4d45bf6d21819f9915123613f",
-      "text": "业务",
+      "text": "（撤销指定）",
       "text_original": "业务",
-      "text_reviewed": "业务",
-      "review_status": "PENDING"
+      "text_reviewed": "（撤销指定）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00070",
@@ -10025,10 +10695,15 @@
       "end": null,
       "target_id": "XML:1906662",
       "source_hash": "7b3733aab2fd0dcf59d453ff7ce2c32f01b757f4d45bf6d21819f9915123613f",
-      "text": "业务",
+      "text": "引发交通危险的情形",
       "text_original": "业务",
-      "text_reviewed": "业务",
-      "review_status": "PENDING"
+      "text_reviewed": "引发交通危险的情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00071",
@@ -10039,10 +10714,15 @@
       "end": null,
       "target_id": "XML:1906663",
       "source_hash": "7dee49c12898730c9bb55294543e417c38795c50d5d3116d0819a3c7428772f5",
-      "text": "指定",
+      "text": "30日",
       "text_original": "指定",
-      "text_reviewed": "指定",
-      "review_status": "PENDING"
+      "text_reviewed": "30日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00072",
@@ -10053,10 +10733,15 @@
       "end": null,
       "target_id": "XML:1906664",
       "source_hash": "a6cec6d4a336ff8e3517eb6a42bae9d782b60848c62600383230afebb1635624",
-      "text": "伤害他人",
+      "text": "60日",
       "text_original": "伤害他人",
-      "text_reviewed": "伤害他人",
-      "review_status": "PENDING"
+      "text_reviewed": "60日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00073",
@@ -10067,10 +10752,15 @@
       "end": null,
       "target_id": "XML:1906665",
       "source_hash": "32555f5ba712b1fdaf7403eff6d1a96ae377fd2bf903937b5ac1adc275c9b0e8",
-      "text": "部分",
+      "text": "120日",
       "text_original": "部分",
-      "text_reviewed": "部分",
-      "review_status": "PENDING"
+      "text_reviewed": "120日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复城市空中交通事业者处分表格的违法行为、法律依据及停业/撤销指定标准。"
+        }
+      ]
     },
     {
       "id": "A27043-zh-00074",
