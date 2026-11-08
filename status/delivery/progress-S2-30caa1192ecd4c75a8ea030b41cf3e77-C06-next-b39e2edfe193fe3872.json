@@ -1,0 +1,24 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-31334bc4303ae2cb3d80",
+  "worker": "C06",
+  "status": "IN_PROGRESS",
+  "source_quality_path": "review/zh/F-31334bc4303ae2cb3d80-C06-quality-15.json",
+  "source_quality_sha": "478a1f2a3d3840e1bfea634ab815a994d6d654e8",
+  "ko_sha": "d6d795ff1ece4a82663a83efd46f7f73afa7fbbb",
+  "zh_sha": "7a6d1e8d841fb3b27185d6d4a6b811149d604dc0",
+  "checked": [
+    {
+      "id": "A22629-zh-00005",
+      "target_id": "XML:1606611",
+      "source_hash": "4e5427ff2daca58768e8ed53da92fd51a262cae8717cb832bf93c9adefef33af",
+      "korean_context": "[별표 1] 유통현황 등의 기록ㆍ보관 및 보고의 기준: 표 머리글 '구분 | 기록시기 | 보관기간'",
+      "original_text": "录制时间MTQ0e007168e4d502b301936结束",
+      "candidate_text": "记录时间",
+      "final_text": "记录时间",
+      "verdict": "ACCEPT",
+      "reason": "한국어 표 머리글 '기록시기'에 대응하는 중국어는 '记录时间'. MTQ 해시 표식과 '结束'는 한국어 원문에 없으므로 제거."
+    }
+  ],
+  "note": "First previously unadjudicated cell checked against Korean source table; other prior quality decisions preserved in separate source file. IN_PROGRESS, not COMPLETE."
+}
