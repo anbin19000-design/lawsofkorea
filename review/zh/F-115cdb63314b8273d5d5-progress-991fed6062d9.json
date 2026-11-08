@@ -5,7 +5,7 @@
   "pc": "WORK-C",
   "panel_id": "panel-06",
   "status": "IN_PROGRESS",
-  "phase": "EN_FULL_READING_IN_PROGRESS",
+  "phase": "ZH_FULL_REVIEW_IN_PROGRESS",
   "source_blobs": {
     "ko": "159cb5a14f8f5e07bea8f04a5437adbf4b15c6ba",
     "en": "f29bd3277059d324e7bbe7a69b6b6b49ab69939f",
@@ -84,7 +84,7 @@
     },
     "ko_decree_next_line_zero_based": null,
     "ko_full_read": true,
-    "en_full_read": false,
+    "en_full_read": true,
     "zh_full_review": false,
     "verified_zh_rows": 0,
     "ko_next_document": null,
@@ -139,17 +139,28 @@
     "ko_form_notes_30_41": "Road occupancy project plans and coordination, completion confirmation and works substitution, impounded objects records, travel restrictions, exceptional vehicle operation permit (10-day processing and KRW5,000 fee), land access/identity form, construction commencement and quarterly reports.",
     "english_next_document": "documents/en/kr-001821-276971-en.json",
     "ko_final_forms": "Business execution summary, cost-sharing orders (30/90-day appeals), compensation adjudication, succession of permit rights (7-day processing), applicable-road public notice, occupancy cancellation application (5-day processing).",
-    "en_reading_position": {
-      "file": "documents/en/kr-003400-287115-en.json",
-      "source_blob_sha": "2a9365469c2317f77b4301d5f9c15cc25ae68b61",
-      "next_line_zero_based": 0,
-      "notes": "Two entire official English Road Act versions read including addenda; now exact-version Enforcement Decree original English."
-    },
+    "en_reading_position": null,
     "en_completed_documents": [
       "documents/en/kr-001821-276971-en.json",
-      "documents/en/kr-klri-71547-en.json"
-    ]
+      "documents/en/kr-klri-71547-en.json",
+      "documents/en/kr-003400-287115-en.json"
+    ],
+    "zh_reading_position": {
+      "next_row_zero_based": 0,
+      "checked_rows": 0,
+      "total_rows": 5228
+    }
   },
   "edits": [],
-  "note": "Korean 61/61 complete; English 2/3 complete. Next enforcement decree English. Chinese 0/5228; no edits."
+  "note": "All 61 KO documents and three available full EN source documents read in original order; now start sequential Chinese 5228-row review. Corrections only for demonstrated errors and untranslated omissions; 0 rows checked so far.",
+  "english_coverage": {
+    "reference_rows": 4234,
+    "unavailable_rows": 994,
+    "exact_en_document": "kr-003400-287115-en",
+    "fallback_road_act_versions": [
+      "kr-001821-276971-en",
+      "kr-klri-71547-en"
+    ],
+    "note": "53 source documents have no independent English full text; 994 individual rows have no English reference. Use Korean source for these."
+  }
 }
