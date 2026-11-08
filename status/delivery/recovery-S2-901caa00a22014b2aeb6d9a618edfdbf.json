@@ -32,7 +32,20 @@
   },
   "assistant_count": 18,
   "assistant_excerpt": "발견되지 않음\n\n이번 중단은 이전 실행의 중간 응답 종료로 확인됩니다. 401/403 또는 보호 보류로 인해 중단된 기록은 현재까지 확인되지 않았습니다.\n\n기존 파일을 새 파일로 덮어쓰거나 중복 생성하지 않고, 같은 배정에서 미검수 행을 이어서 확인합니다.\n\n복구 1회차 실행 결과\nIN_PROGRESS — 검수 계속 필요\n\n기존 검수 결과를 보존하면서 새로운 8개 행을 교정하고 GitHub에 저장·재조회했습니다.\n\n항목\n\n\t\n\n결과\n\n\n\n\n전체 중국어 행\n\n\t\n\n1,241\n\n\n\n\n이전 저장 교정\n\n\t\n\n12건\n\n\n\n\n이번 신규 교정\n\n\t\n\n8건\n\n\n\n\n누적 고유 교정\n\n\t\n\n20건\n\n\n\n\n추가 검수가 필요한 행\n\n\t\n\n1,221행\n\n\n\n\n원본 SHA 변경\n\n\t\n\n없음\n\n\n\n\n완료 영수증\n\n\t\n\n미발행\n\n이번에 교정한 ID는 B1-zh-00004, 00006, 00007, 00010, 00012, 00013, 00019, 00023입니다. 조문 번호, 인용, 항·호 번호, 입찰 제한 기간과 검사 관련 법률 표현을 한국어 원문에 맞춰 수정했습니다.\n\n공식 저장 커밋\n\n검수 교정 1차: 76527c72ebfea566be4b4fb95dd1811eef205d68\n\n검수 교정 2차: 646acc36427abf9f857b2412693ac483c340740f\n\n진행 기록 갱신: c72c72e548a5a713b34b5148a6bf15522cee6a36\n\n공식 검수본 확인\n\n다음 확인 위치는 **B1-zh-00024**입니다. 이는 다음 순차 검토 위치이며, 앞선 모든 무교정 행의 최종 검수를 인증했다는 의미는 아닙니다.\n\n이번 재개 회차에서 실제 교정·저장은 성공했지만 법령가족 전체의 의미 검수는 끝나지 않았습니다. 따라서 COMPLETE 영수증은 발행하지 않았으며, 다른 법령도 수취하지 않았습니다.",
+  "attempted_at": "2026-11-08T08:13:08.551268+00:00",
   "created_at": "2026-11-08T08:13:03.200948+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-901caa00a22014b2aeb6d9a618edfdbf",
+    "attempted_at": "2026-11-08T08:13:08.551268+00:00",
+    "claim_commit": "ec9d1cfea7082d7e2325361c7041b10d3241558b",
+    "event_id": "obs-4f9134c76bad053f53fe3e696e5bf1ceec057c7b",
+    "job_id": "F-c2b35f6aceb6477e1107",
+    "record_path": "status/delivery/recovery-S2-901caa00a22014b2aeb6d9a618edfdbf.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C04"
+  },
   "episode": 2,
   "event_id": "obs-4f9134c76bad053f53fe3e696e5bf1ceec057c7b",
   "idle_followup": true,
@@ -109,7 +122,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-f0bae39df9865433c34fced6]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "f60b6fe1757cf6287a5262986e9f391b720acdf5",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6af028ed-f3a8-83ee-a8e8-8f8e3f45ca08",
   "worker": "C04"
 }
