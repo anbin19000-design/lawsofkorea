@@ -1,0 +1,26 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-3705abbc710de4b867bc",
+  "worker": "C05",
+  "source_ref": "7ee9cd5d441a4debc182592939f4e45fc1e61bf3",
+  "source_shas": {
+    "ko": "7974bf81d14f4838ae85d4b3ceea80a2f0e65fed",
+    "zh": "045dd328cd77f3eecd8b6cd485be27f2389773e8",
+    "en": "608343efc91f6dc84efbcee2e5a9276a847e3a67"
+  },
+  "checked_ids": [
+    "B1-zh-00001",
+    "B1-zh-00002",
+    "B1-zh-00003",
+    "B1-zh-00005"
+  ],
+  "checked_rows": 4,
+  "edits": [
+    {
+      "id": "B1-zh-00005",
+      "text": "第三条（与其他法律的关系）关于消防设备的管理，本法优先于其他法律适用。\n\n第二章 消防设备管理基本计划的制定等\n\n"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "note": "Verified previously unindexed initial B1 rows against Korean base source. B1-zh-00004 already corrected in root review; excludes it to prevent double counting. B1-zh-00005 corrects basic plan chapter heading. No completion receipt issued; full union and MTQ reconciliation remains pending."
+}
