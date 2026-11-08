@@ -2278,9 +2278,27 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-b98b4421518f-continued.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
       "reason": "Correct Article 42-2(1) legal hierarchy in ministerial notice provision."
+    },
+    {
+      "id": "B2-zh-00049",
+      "source_hash": "42b7c466b9f2f67a4f040e7d8312045aeae07c6c4bd514f1c87afea39d528110",
+      "target_id": "244bad0cb56711ea35960af55efae6a461b57f46f5f576854a518a2b6b28ee64",
+      "text": "第38条（公开征集商业计划书的程序）\n① 项目实施者根据《智慧城市建设法》第三十八条第一款的规定，拟征集智慧城市建设项目商业计划书时，应当在两份以上综合性日报上刊登下列各款事项（指根据《报业振兴法》第九条第一款的规定，以全国发行范围为登记的综合性日报）。\n1. 项目计划概述，包括国家示范城市建设项目的目的、地点、规模、周期和方法\n2. 通过租赁和出售已开发土地等方式制定供应计划。\n3. 商业计划书撰写指南\n4. 申请指南，包括商业计划书提交期限和方式\n5. 商业计划书评估标准和评估计划\n6. 准备和提交商业计划书等所需的其他事项。\n② 项目实施者应当对根据第一款公告提交的项目计划书，按照同款第5项的规定进行评估，予以选择。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-cdb16aa1344a.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Decree Article 38(2) references paragraph 1 and its subparagraph 5, not subparagraphs 1 and 5 of the present paragraph."
+    },
+    {
+      "id": "B2-zh-00120",
+      "source_hash": "527999a0bd79486f2f40e160b223733bc866377a590e05b9a97f17f0936e9901",
+      "target_id": "d6ea0fbd0af5de3e7f2bb2bc268ad078c8f0cac156cb11074c16703a5be150b5",
+      "text": "第五条（其他法令的修改）《普适城市建设等法实施令》部分内容修改如下。\n\n  第十七条第四款第六项规定如下。\n\n    6. 根据《新万金项目促进与支持法》第8条指定为项目实施者的人员\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-cdb16aa1344a.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Supplementary Article 5 amends another enforcement decree (다른 법령), not another Act alone."
     }
   ],
-  "adjudicated_edit_count": 278,
+  "adjudicated_edit_count": 280,
   "pending_single_candidate_count": 350,
   "pending_conflict_count": 0,
   "pending_single_candidates": [
@@ -7570,9 +7588,9 @@
     "Existing stored adjudications and later progress files must be incorporated with source/hash verification before COMPLETE."
   ],
   "integration_progress": {
-    "stage": "C02_VERIFIED_EDITS_FULL_FAMILY_AUDIT_PENDING",
-    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:b98b4421518f",
-    "note": "Four new directly verified corrections this task, full family audit incomplete."
+    "stage": "C02_FURTHER_VERIFIED_DECREE_REVIEW_IN_PROGRESS",
+    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:cdb16aa1344a",
+    "note": "Two directly verified fixes. Full KO/EN/ZH family readthrough not yet certified."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -7867,7 +7885,9 @@
     "B2-zh-00050",
     "B2-zh-00074",
     "B2-zh-00073",
-    "B2-zh-00052"
+    "B2-zh-00052",
+    "B2-zh-00049",
+    "B2-zh-00120"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
