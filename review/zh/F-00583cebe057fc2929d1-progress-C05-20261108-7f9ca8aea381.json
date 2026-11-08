@@ -1,0 +1,53 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "family": "실용신안법",
+  "worker": "C05",
+  "assignment_marker": "[WORK-TASK:C05:F-00583cebe057fc2929d1:7f9ca8aea381]",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "489a13cd015dd7269fa6ac84090f92387a171dee",
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "prior_corrections": 239,
+  "new_corrections": [
+    {
+      "id": "B1-zh-00142",
+      "source_hash": "bcf5d33245edca7bc0f0a4f62ea63acfea9e49e8d0880d0ffbae56d89b6bda74",
+      "decision": "CORRECT",
+      "reason": "부칙 제14조 '심판청구서 등의 각하'는 상소 기각이 아니라 심판청구서 등의 각하이며, 시행 후 청구되는 '심판'을 일반 상소로 잘못 번역한 부분 교정."
+    },
+    {
+      "id": "B1-zh-00143",
+      "source_hash": "b7f611478c9aaa4b5667adb68546acbc117f641bf0639ceee5b9d194d1a92763",
+      "decision": "CORRECT",
+      "reason": "부칙 제15조 '거절결정에 대한 심판이 계속 중인'은 상소 제기 중인 상태가 아니라 심판 계속 중인 사건을 뜻함."
+    },
+    {
+      "id": "B1-zh-00144",
+      "source_hash": "84fdaedd92fe079290442999d0c4bcc686baa2df22581763dc0ad534aaf75743",
+      "decision": "CORRECT",
+      "reason": "부칙 제16조는 두 유형의 '거절결정에 대한 심판청구기간' 연장에 관한 조항; 기존 번역은 실용신안권 존속기간 자체를 연장하는 신청으로 오역."
+    },
+    {
+      "id": "B1-zh-00149",
+      "source_hash": "1c6ba7558448bfca1e6a76ece0d6376ef03d35d4c973df569388b1fd3883b9bd",
+      "decision": "CORRECT",
+      "reason": "부칙 제21조 '우선권 주장의 기초가 된 선출원'은 우선권 신청이 아니라 선출원임."
+    }
+  ],
+  "total_corrections": 243,
+  "pending_rows_preserved": 89,
+  "english_note": "B1/B2 official same-version EN indexed. B3/forms fallback EN historical version only; AI draft not authority.",
+  "reading_status": "FULL_KO_EN_ZH_SEQUENTIAL_READING_NOT_VERIFIED",
+  "completion_receipt": null,
+  "notes": "기존 교정 239건 보존; 부칙 제14~16,21조 법적 절차/선출원 4행 추가. 24문서 전체 독해 검증 및 원문 판독 보류 89행 미해결. COMPLETE 영수증 미발행."
+}
