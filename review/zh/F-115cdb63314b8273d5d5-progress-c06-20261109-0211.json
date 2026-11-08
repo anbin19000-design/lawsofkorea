@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 3883,
+    "verified_zh_rows": 3912,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 3883,
-      "checked_rows": 3883,
+      "next_row_zero_based": 3912,
+      "checked_rows": 3912,
       "total_rows": 5228
     }
   },
@@ -6031,9 +6031,45 @@
       "text": "⑨出生日期",
       "original_text": "⑨出生日期",
       "reason": "생년월일 표기를 유지"
+    },
+    {
+      "id": "A4688-zh-00001",
+      "text": "■《道路法施行规则》[附件表格第23号]",
+      "original_text": "■ 道路交通法执行规则 [附件表格编号 23]",
+      "reason": "도로법 시행규칙을 도로교통법 시행규칙으로 오역"
+    },
+    {
+      "id": "A4688-zh-00006",
+      "text": "（免冠上半身照片，拍摄于6个月以内，背景为纯色）",
+      "original_text": "（上半身，不戴帽子）",
+      "reason": "사진 설명에서 배경 없이 촬영한 조건 누락"
+    },
+    {
+      "id": "A4688-zh-00009",
+      "text": "洪吉童",
+      "original_text": "东",
+      "reason": "예시 인명 ‘홍길동’을 동쪽으로 오역"
+    },
+    {
+      "id": "A4688-zh-00010",
+      "text": "国土交通部或",
+      "original_text": "国土交通省 或",
+      "reason": "국토교통부의 정부 부처 명칭 오역"
+    },
+    {
+      "id": "A4688-zh-00016",
+      "text": "职务/职级",
+      "original_text": "位置/排名",
+      "reason": "직위/직급을 위치/순위로 오역"
+    },
+    {
+      "id": "A4688-zh-00026",
+      "text": "不得。",
+      "original_text": "无法.",
+      "reason": "금지 문장을 불가능으로 오역"
     }
   ],
-  "note": "Sequential review advanced through row 3882, completing road ledger A4687 (all 20 pages). Added 50 focused corrections for component length breakdown, ownership/land category, paid-road toll period/collection basis and MTQ residue, bypass road fields, roadside zone boundary marker status, and road occupation license fields. Previous 938 edits retained. Continue at row 3883 with A4688 (Road Traffic Act Enforcement Rule form annex) and remaining documents. IN_PROGRESS.",
+  "note": "Completed sequential review of A4688 (road maintenance officer identity card form, front/back). Added six focused corrections for statute/rule title, photo background/recency requirement, sample name, ministry title, position/rank and prohibition sentence. Previous 980 edits retained. Continue from row 3912 with A4689. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
