@@ -1,0 +1,95 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "family": "실용신안법",
+  "worker": "C05",
+  "assignment_marker": "[WORK-TASK:C05:F-00583cebe057fc2929d1:394b8dc2463f]",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "7eea13638267344f550fc40659f0677fa5e025de",
+  "review_commit": "93490f03ccdccb9ffddec4737f2b4a98b2f876cb",
+  "previous_progress": "review/zh/F-00583cebe057fc2929d1-progress-C05-20261108-a0e4cf6f4506-v2.json",
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "prior_corrections": 215,
+  "new_corrections": [
+    {
+      "id": "B2-zh-00004",
+      "source_hash": "2241950139f2513705833f1c4645f626e158f891e86f448feaf72b5e6635968d",
+      "decision": "CORRECT",
+      "reason": "② 原文 고안의 성질에 따라 적정한 수는技术方案的性质及适当数量而非发明及编号；④ '택일적으로' 必须择一列明被引用项，原译遗漏。"
+    },
+    {
+      "id": "B2-zh-00008",
+      "source_hash": "9865b30fd9c7943c3c030443b5cf332a78b07b6fcdddee02fb348f7a072aee58",
+      "decision": "CORRECT",
+      "reason": "시행령 제6조의2 원문 확인: 지식재산처·특허심판원 기관 오역과 본법 제3·8조의2·11조를 특허법으로 잘못 인용한 부분만 정정."
+    },
+    {
+      "id": "B2-zh-00015",
+      "source_hash": "e017299bf0eac94c2ec7171f9255160548fdaaf374fb9ee1a5c6745a07bf3a96",
+      "decision": "CORRECT",
+      "reason": "원문의 과태료 부과는 벌금 부과 기준을 뜻하며 징수(征收) 절차가 아님."
+    }
+  ],
+  "total_corrections": 218,
+  "pending_rows_from_previous_review": 89,
+  "english_note": "Official exact-version EN references for B1/B2; B3 and attached forms use old-version 2010 fallback, not current-version authority. AI draft is not authoritative.",
+  "unresolved": [
+    {
+      "id": "B2-zh-00081",
+      "status": "SOURCE_MAPPING_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A29604",
+      "status": "ANNEX_ALIGNMENT_REQUIRED"
+    },
+    {
+      "id": "B3-zh-00117",
+      "status": "SOURCE_MAPPING_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8690",
+      "status": "FORM_ALIGNMENT_REQUIRED"
+    },
+    {
+      "id": "A8693",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8698",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8699",
+      "status": "SOURCE_CONTENT_MISSING"
+    },
+    {
+      "id": "A8703",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8708",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8709",
+      "status": "SOURCE_CONTENT_MISSING"
+    },
+    {
+      "id": "A8690-zh-00499",
+      "status": "SOURCE_TEXT_FRAGMENT_REVIEW_REQUIRED"
+    }
+  ],
+  "reading_status": "FULL_KO_EN_ZH_SEQUENTIAL_READING_NOT_VERIFIED",
+  "completion_receipt": null,
+  "notes": "기존 215개 교정과 3개 원문 SHA 유지, 한국어 시행령 B2 제3조/6조의2/8조의 명백한 오역 3개 행 보정. 전체 KO/EN/ZH 순차 독해와 잔여 자료 원문 정합성 해소는 미완료; 완료 영수증 아님."
+}
