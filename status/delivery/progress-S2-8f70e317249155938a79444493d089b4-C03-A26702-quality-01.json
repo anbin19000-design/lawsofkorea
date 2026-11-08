@@ -1,0 +1,324 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26702",
+  "quality_batch": "A26702-quality-01",
+  "range": {
+    "first": "A26702-zh-00001",
+    "last": "A26702-zh-00030"
+  },
+  "quality_checked_rows": 30,
+  "quality_passed_rows": 30,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "A26702-zh-00001",
+    "A26702-zh-00002",
+    "A26702-zh-00003",
+    "A26702-zh-00004",
+    "A26702-zh-00005",
+    "A26702-zh-00006",
+    "A26702-zh-00007",
+    "A26702-zh-00008",
+    "A26702-zh-00009",
+    "A26702-zh-00010",
+    "A26702-zh-00011",
+    "A26702-zh-00012",
+    "A26702-zh-00013",
+    "A26702-zh-00014",
+    "A26702-zh-00015",
+    "A26702-zh-00016",
+    "A26702-zh-00017",
+    "A26702-zh-00018",
+    "A26702-zh-00019",
+    "A26702-zh-00020",
+    "A26702-zh-00021",
+    "A26702-zh-00022",
+    "A26702-zh-00023",
+    "A26702-zh-00024",
+    "A26702-zh-00025",
+    "A26702-zh-00026",
+    "A26702-zh-00027",
+    "A26702-zh-00028",
+    "A26702-zh-00029",
+    "A26702-zh-00030"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26702-00001-00030.json",
+  "results": [
+    {
+      "id": "A26702-zh-00001",
+      "source_hash": "7249f5102ffdcb69b961eedc4e15cc75c829a58ab896e8c76af3ae001b1a2b54",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "별지 제10호 서식·앞쪽·지정서 번호 및 명칭"
+    },
+    {
+      "id": "A26702-zh-00002",
+      "source_hash": "b6ef554c92c1ee06c5c51142ea35929d24f513f49937876ea1d846a0a7057648",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "별지 제10호 서식·앞쪽·지정서 번호 및 명칭"
+    },
+    {
+      "id": "A26702-zh-00003",
+      "source_hash": "b94e182b9a95d9dc23294428515515c68a59d1d634e19d301cdc19e9a9516fed",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "별지 제10호 서식·앞쪽·지정서 번호 및 명칭"
+    },
+    {
+      "id": "A26702-zh-00004",
+      "source_hash": "ea61fe3c7fc80baaed14a157da00560eaf9b1ccf1d85617fc228a1d928f158e8",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "별지 제10호 서식·앞쪽·지정서 번호 및 명칭"
+    },
+    {
+      "id": "A26702-zh-00005",
+      "source_hash": "84e821cc8bce39c326e97ce3a8e540957cfbb7e42c41d8f5cb5e3e8587664519",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시설명·소재지·시설 유형·입소 정원·운영 법인·시설장 정보"
+    },
+    {
+      "id": "A26702-zh-00006",
+      "source_hash": "d863b15e68dfb5c3c785619bb7562fd6bf8808be374e0a0cf325b9dd9ea4e4db",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시설명·소재지·시설 유형·입소 정원·운영 법인·시설장 정보"
+    },
+    {
+      "id": "A26702-zh-00007",
+      "source_hash": "d1c0bb9b661ecd428525df361d4133fbf574422178f7438e50520b4fa84265e5",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시설명·소재지·시설 유형·입소 정원·운영 법인·시설장 정보"
+    },
+    {
+      "id": "A26702-zh-00008",
+      "source_hash": "e86ce0080eb241ce6b6ead9bfc4ff2207d82e7d50d96ca2715aeae1ddcd5d835",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시설명·소재지·시설 유형·입소 정원·운영 법인·시설장 정보"
+    },
+    {
+      "id": "A26702-zh-00009",
+      "source_hash": "9f96b8e22cc06bfafc548ef472e33b60548b190f17dbc04b1da176a50d2c6d2c",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시설명·소재지·시설 유형·입소 정원·운영 법인·시설장 정보"
+    },
+    {
+      "id": "A26702-zh-00010",
+      "source_hash": "45b3406d840b631f502e6b6b8283d6ca62a2472b7bb96f01afd9de971b99718d",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시설명·소재지·시설 유형·입소 정원·운영 법인·시설장 정보"
+    },
+    {
+      "id": "A26702-zh-00011",
+      "source_hash": "e2b01b14e5dcc346fe9a3bca323691bc88d8d89c0ec029073a296872a25aa5aa",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시설명·소재지·시설 유형·입소 정원·운영 법인·시설장 정보"
+    },
+    {
+      "id": "A26702-zh-00012",
+      "source_hash": "f9bcab6720f6ffa64ab267edd6fdd31f20fa65c182d4b5297bfd3264e93e919a",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시설명·소재지·시설 유형·입소 정원·운영 법인·시설장 정보"
+    },
+    {
+      "id": "A26702-zh-00013",
+      "source_hash": "197500d4840ff62e5b7636953da0c060e5b8423ef3867f7f6b927bf24aefe0f8",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시설명·소재지·시설 유형·입소 정원·운영 법인·시설장 정보"
+    },
+    {
+      "id": "A26702-zh-00014",
+      "source_hash": "6bc6d6e3dcae862d5a1df50ab7e41092b4df6e72a84fc0b5b1ef05c8b4db3595",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법 제33조제2항, 시행령 제23조제3항, 시행규칙 제8조제3항 및 지원시설 지정 의미"
+    },
+    {
+      "id": "A26702-zh-00015",
+      "source_hash": "e4d5d242874638362598d848ae9d1736946b2b50713abe2aa034c016181eb2e7",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법 제33조제2항, 시행령 제23조제3항, 시행규칙 제8조제3항 및 지원시설 지정 의미"
+    },
+    {
+      "id": "A26702-zh-00016",
+      "source_hash": "5bca402cf9dbe137061fea58566e238ce5f1021756c2e624f5f3d5271af67eb5",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법 제33조제2항, 시행령 제23조제3항, 시행규칙 제8조제3항 및 지원시설 지정 의미"
+    },
+    {
+      "id": "A26702-zh-00017",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "발급일자·지방자치단체장 및 직인"
+    },
+    {
+      "id": "A26702-zh-00018",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "발급일자·지방자치단체장 및 직인"
+    },
+    {
+      "id": "A26702-zh-00019",
+      "source_hash": "dfc76879e2f5c3ead09186ff1c6b635624f96b7adbd71d94c37566429ca5df6f",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "발급일자·지방자치단체장 및 직인"
+    },
+    {
+      "id": "A26702-zh-00020",
+      "source_hash": "a64ee000e236ddf59c9932fea0bb7e24773f6203ea7fcf73b2e9b5b54117f78f",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "발급일자·지방자치단체장 및 직인"
+    },
+    {
+      "id": "A26702-zh-00021",
+      "source_hash": "c2c25ba0a53a6f7b97292cfe2d401a55b263f9c6222471a4b8a4c3509c1a4197",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "발급일자·지방자치단체장 및 직인"
+    },
+    {
+      "id": "A26702-zh-00022",
+      "source_hash": "1df26bb60d2eb96eaa45c4c2b01ae0e3b84cdffaa105ab91ab26d2b37fee97a9",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "발급일자·지방자치단체장 및 직인"
+    },
+    {
+      "id": "A26702-zh-00023",
+      "source_hash": "6a9fd2459313c78ed634682f52734f6a424348a2381255da601ab4f842ec71c4",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "앞쪽 용지 규격"
+    },
+    {
+      "id": "A26702-zh-00024",
+      "source_hash": "d6d87e05c543e71cabaccf3ed61804e7e814d1a465e94f4fdc59f331ba61f822",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "뒷쪽 변경사항, 연월일·내용·기록자 서명"
+    },
+    {
+      "id": "A26702-zh-00025",
+      "source_hash": "467d305bfbe5e83a8a6e0bb6cb5811b4dcbb6a04a9c274f30d8fc20c201f3433",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "뒷쪽 변경사항, 연월일·내용·기록자 서명"
+    },
+    {
+      "id": "A26702-zh-00026",
+      "source_hash": "9dd1771d703c46576eba89ca6d25dcfe72faa2a07570a4e57c5b61449438904f",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "뒷쪽 변경사항, 연월일·내용·기록자 서명"
+    },
+    {
+      "id": "A26702-zh-00027",
+      "source_hash": "cb0f24046b508710d6315e71bd9b21b920cf15301b0cf055dc9569c507576ea3",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "뒷쪽 변경사항, 연월일·내용·기록자 서명"
+    },
+    {
+      "id": "A26702-zh-00028",
+      "source_hash": "ba123b0dd12c873879b89d1982a261a8bdbd0d5459bfe2835bd29ed3f7bbe5f7",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "뒷쪽 변경사항, 연월일·내용·기록자 서명"
+    },
+    {
+      "id": "A26702-zh-00029",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "뒷쪽 변경사항, 연월일·내용·기록자 서명"
+    },
+    {
+      "id": "A26702-zh-00030",
+      "source_hash": "6a9fd2459313c78ed634682f52734f6a424348a2381255da601ab4f842ec71c4",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "뒷쪽 용지 규격"
+    }
+  ],
+  "edits": [],
+  "note": "A26702 지원시설 지정서 앞뒤 30행을 한국어 원문과 기존 19개 교정문으로 대조. 법령 인용 및 시설 종류·입소정원·변경사항 기록, 용지 규격 확인. 원본/기교정 불변. 가족 전체 COMPLETE 아님."
+}
