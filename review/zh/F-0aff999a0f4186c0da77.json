@@ -21,8 +21,8 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 75,
-    "pending_rows": 1612,
+    "correction_count": 78,
+    "pending_rows": 1609,
     "by_document": {}
   },
   "corrections": {
@@ -550,6 +550,27 @@
       "original": "如果未准备好，则根据《增值税法》可以核实销售收入的[主体][]",
       "corrected": "则可以使用根据《增值税法》编制的增值税申报表等能够核实销售额的证明文件",
       "reason": "한국어 '매출액을 확인할 수 있는 부가가치세신고서 등의 증명서류' 부분이 [主体][]로 훼손되어 최소 복원."
+    },
+    "A34912-zh-00062": {
+      "doc": "A34912",
+      "source_hash": "3dccdf33e30eec2687695816799ec854d8cb2f571ea295dad8580564e944cd4d",
+      "original": "(4) 特许人[在交易中]与特定交易对手[在交易中]进行购买、出售或租赁等交易",
+      "corrected": "(4) 特许人强制加盟商与特定交易对象进行购买、销售或租赁等交易时，",
+      "reason": "시행령 별표 2 (4)항은 가맹본부가 특정 상대방과의 구매·판매·임대차 거래를 강제하는 조건을 뜻하는데 기존 중국어 [在交易中] 반복은 강제 요건을 누락함."
+    },
+    "A34924-zh-00055": {
+      "doc": "A34924",
+      "source_hash": "e65920f9ff46d500b53ca7b76f7681b4f67fde8109f4fb585b5d3025de50bf46",
+      "original": "2. 存款机构负责人[可要求]特许经营人或被特许经营人提交争议调解结果等文件，或关于已存入特许经营费的支付的纠正措施文件，或",
+      "corrected": "2. 特许人或加盟商附上争议调解等结果或纠正措施结果，申请支付或退还已托管的加盟费时，",
+      "reason": "서식 예치기관 유의사항 2호는 분쟁조정·시정조치 결과를 첨부한 지급/반환 신청의 조건인데 기존 번역은 예치기관장의 자료 제출 요구 권한으로 주체와 행위를 뒤바꿈."
+    },
+    "A34924-zh-00056": {
+      "doc": "A34924",
+      "source_hash": "cdf1734bc199bb5f967b3e844b11ecf9b850cf00f55dbe18b4119d7f1fd82b25",
+      "original": "如果提出退款请求，已缴纳的加盟费应在请求之日起 30 天内支付给特许人或被特许人，具体取决于退款结果。",
+      "corrected": "存款机构负责人须自申请之日起30日内根据相关结果，向特许人支付托管加盟费或向加盟商退还托管加盟费。",
+      "reason": "예치기관장은 신청일부터 30일 이내에 결과에 따라 가맹본부에 지급하거나 가맹점사업자에게 반환해야 함. 기존 번역의 지급·반환 당사자 관계가 불분명하여 해당 부분 복원."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -586,7 +607,8 @@
     "C05 bd07648d1ce4: Annex A34912 rows 00058 and 00086 corrected against Korean full-context source, preserving previous 67 corrections; Chinese full semantic audit remains unverified.",
     "C05 2222ebeb54cf: annex 2 fragments 63/64 corrected against full Korean clause (4), prior 69 preserved; no full-row completion certification.",
     "C05 fae2c4774c60: A34909-zh-00017 disclaimer truth-verification statement repaired against Korean annex 1; previous 71 edits preserved; semantic review incomplete.",
-    "C05 0d34f96333ad: annex A34909 rows 37, 46, 47 Korean-source-grounded correction of three-year affiliation scope and financial alternative evidence; previous 72 preserved; complete semantic review remains outstanding."
+    "C05 0d34f96333ad: annex A34909 rows 37, 46, 47 Korean-source-grounded correction of three-year affiliation scope and financial alternative evidence; previous 72 preserved; complete semantic review remains outstanding.",
+    "C05 3b88121742c9: restored mandatory designated-counterparty trading clause A34912-zh-00062 and escrow request/payout conditions A34924-zh-00055/56 against Korean originals; earlier 75 preserved; whole-family Chinese semantic review remains incomplete."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -595,5 +617,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 75
+  "corrected_rows": 78
 }
