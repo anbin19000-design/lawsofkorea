@@ -1,0 +1,73 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 29,
+  "checked_ids": [
+    "A25470-zh-00044",
+    "A25470-zh-00045",
+    "A25470-zh-00046",
+    "A25470-zh-00047",
+    "A25470-zh-00048",
+    "A25470-zh-00049",
+    "A25470-zh-00050",
+    "A25470-zh-00051",
+    "A25470-zh-00052",
+    "A25470-zh-00053",
+    "A25470-zh-00054",
+    "A25470-zh-00055",
+    "A25470-zh-00056",
+    "A25470-zh-00057",
+    "A25470-zh-00058",
+    "A25470-zh-00059",
+    "A25470-zh-00060",
+    "A25470-zh-00061",
+    "A25470-zh-00062",
+    "A25470-zh-00063",
+    "A25470-zh-00064",
+    "A25470-zh-00065",
+    "A25470-zh-00066",
+    "A25470-zh-00067",
+    "A25470-zh-00068",
+    "A25470-zh-00069",
+    "A25470-zh-00070",
+    "A25470-zh-00071",
+    "A25470-zh-00072"
+  ],
+  "edits": [
+    {
+      "id": "A25470-zh-00049",
+      "source_hash": "5d198bb5e838918707a8044806bdf8567e7d1a9dde69dc6d15d873ed679d8657",
+      "target_id": "XML:1802933",
+      "text": "国土交通部长官"
+    },
+    {
+      "id": "A25470-zh-00050",
+      "source_hash": "2099cd7f323c38ac89f0ebc4dd140529ccb048fb87aa42935038b81b0325020d",
+      "target_id": "XML:1802934",
+      "text": "收"
+    },
+    {
+      "id": "A25470-zh-00051",
+      "source_hash": "fd2f47ef0e382c62edaf27036494fbc803f503705144e1049d1463aadda6388b",
+      "target_id": "XML:1802935",
+      "text": "附件资料"
+    },
+    {
+      "id": "A25470-zh-00060",
+      "source_hash": "d6d87e05c543e71cabaccf3ed61804e7e814d1a465e94f4fdc59f331ba61f822",
+      "target_id": "XML:1802944",
+      "text": "（背面）"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "korean_evidence": "국토교통부장관 귀하; 첨부 서류; (뒤쪽); 신청서 작성/접수/검토/관계 중앙행정기관 협의/국가스마트도시위원회 심의/승인 여부 통보/결재(연장확인서 발급)/공고",
+  "note": "R91 checks remaining A25470 form backside rows 44-72, corrects four previously uncorrected labels without touching R8 existing edits or paper dimensions. Korean original has malformed bracket in page-material notation; preserve exact source. Full family pending."
+}
