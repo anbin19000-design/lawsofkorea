@@ -81,7 +81,30 @@
       "original": "项目",
       "reason": "“항목”是项目/项目项。",
       "decision": "NO_CHANGE"
+    },
+    {
+      "id": "A6594-zh-00014",
+      "source_hash": "c2e8295373e44e5999f0423f39148a0eedb7e6fcc9a06d542bd4301427ca0548",
+      "original": "侵蚀控制设施",
+      "reason": "“사방시설”是侵蚀控制设施。",
+      "decision": "NO_CHANGE"
+    },
+    {
+      "id": "A6594-zh-00017",
+      "source_hash": "f66746594df28606f6be2ff644ead5b47357e6582a75c100d051cf81c6edba11",
+      "original": "立木",
+      "reason": "“입목”是立木。",
+      "decision": "NO_CHANGE"
+    },
+    {
+      "id": "A6594-zh-00032",
+      "source_hash": "0383beaa281cb51eee1d2eb1e2c7ec33f7ceb3841b0a73d0e6f871dd92ba15ab",
+      "original": "每公顷",
+      "reason": "“ha당”是每公顷。",
+      "decision": "NO_CHANGE"
     }
   ],
-  "note": "Separate source-bound record of blank or unchanged legacy correction records; these are excluded from canonical nonblank edits and corrected_rows. The row IDs, source hashes, original Chinese texts and rationales are retained."
+  "note": "Separate source-bound record of blank or unchanged legacy correction records; these are excluded from canonical nonblank edits and corrected_rows. The row IDs, source hashes, original Chinese texts and rationales are retained.",
+  "no_change_count": 10,
+  "intentional_deletion_count": 4
 }
