@@ -1,0 +1,36 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "panel_id": "panel-01",
+  "assignment_id": "S2-c174f0e36bef5fedb717095f1cea01f6",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:dcc68b94e7bb]",
+  "status": "IN_PROGRESS",
+  "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
+  "source_sha": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "official_review_blob": "3c69507c761432286a2bfbd2093f59bb9c43c14f",
+  "checked_rows": 318,
+  "unique_edits": 300,
+  "reviewed_sequentially": [
+    "B1-zh-00089..B1-zh-00103",
+    "B2-zh-00001..B2-zh-00057",
+    "A38090-zh-00001..A38090-zh-00039",
+    "A38091-zh-00001..A38091-zh-00119"
+  ],
+  "verified": [
+    "A38090: all 12 annual-turnover bands and daily surcharge amounts checked against Korean source; rows 00007-00010 corrected to restore complete annual turnover calculation.",
+    "A38091: all nine violation categories and four fine-frequency columns checked against Korean table; numeric sequences matched.",
+    "A38091: repeat violation window and escalation sequence corrected; prior edits for mitigation clauses retained.",
+    "B2: statutory references, corporate eligibility, MTQ contamination, and annex spillover corrected."
+  ],
+  "unresolved": [
+    "A38090-zh-00012 punctuation-only dot requires XML cell verification.",
+    "Complete XML cell-level alignment for remaining annexes/forms is pending."
+  ],
+  "next_position": "B3-zh-00001",
+  "note": "Original Korean, English and Chinese package SHAs unchanged. Existing corrections preserved. No COMPLETE receipt issued."
+}
