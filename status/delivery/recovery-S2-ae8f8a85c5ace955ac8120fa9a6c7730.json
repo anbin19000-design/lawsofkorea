@@ -30,7 +30,20 @@
   },
   "assistant_count": 8,
   "assistant_excerpt": "bea5af2364\n\n\n\n\n담당\n\n\t\n\nC02\n\n\n\n\n전체 범위\n\n\t\n\n17개 문서, 중국어 1,133행\n\n\n\n\n한국어·영어·중국어 원본 SHA\n\n\t\n\n인계 기록과 모두 일치\n\n\n\n\n기존 진행 기록\n\n\t\n\n인계 색인 기준 123개\n\n\n\n\n기존 명시적 검수 범위\n\n\t\n\n고유 ID 1,100개\n\n\n\n\n최종 통합 검수본\n\n\t\n\n없음\n\n\n\n\nCOMPLETE 영수증\n\n\t\n\n없음\n\n기존 통합 감사 기록에는 명시적 검수 근거가 없는 33개 ID와 상충 번역 이력이 있는 15개 ID가 기록되어 있습니다. 다만 이 수치는 해당 감사 당시의 상태이며, 이후 판정 기록과 합쳐 최종 미완료 범위를 확정해야 합니다.\n\n원문 변경이나 SHA 불일치는 발견되지 않았습니다. 기존 결과를 삭제하거나 작업을 처음부터 중복 저장할 필요는 없습니다.\n\n추가 확인 결과\n\n후속 기록 R102, R103까지 확인했습니다.\n\nR102: 미검수로 기록된 33개 ID를 대조했고, B1-zh-00023의 명백한 오역 1건에 대한 교정문이 저장되어 있습니다.\n\nR103: 상충 번역 15개 ID 중 3개(B1-zh-00163, 00165, 00190)의 채택 판본이 결정되어 있습니다.\n\n나머지 상충 판정, 기존 교정안의 최종 통합, 전체 문서의 연속성 검증은 완료되지 않았습니다.\n\n이번 실행에서는 한국어·영어·중국어 원본 파일을 조회하고 SHA를 확인했지만, 요청하신 세 언어 전체 본문에 대한 순차 독해 및 최종 1,133행 검수는 끝내지 못했습니다.\n\n따라서 실제 완료 사실이 없는 COMPLETE 검수본이나 영수증은 발행하지 않았습니다. 기존 GitHub 파일도 변경하지 않았습니다.\n\n현재 상태: IN_PROGRESS\n\n동일한 C02 배정과 기존 검수 기록을 유지해야 하며, 다음 법령으로 넘어갈 완료 조건은 아직 충족되지 않았습니다.",
+  "attempted_at": "2026-11-08T08:08:59.411376+00:00",
   "created_at": "2026-11-08T08:08:54.877067+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+    "attempted_at": "2026-11-08T08:08:59.411376+00:00",
+    "claim_commit": "fe719adf8d72e79afb8751e8eced6f09af3a5a18",
+    "event_id": "obs-8357a2094d59bac7af53244f4a300956fa8042e1",
+    "job_id": "F-81e30c25fcbea5af2364",
+    "record_path": "status/delivery/recovery-S2-ae8f8a85c5ace955ac8120fa9a6c7730.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C02"
+  },
   "episode": 16,
   "event_id": "obs-8357a2094d59bac7af53244f4a300956fa8042e1",
   "idle_followup": true,
@@ -963,7 +976,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-2f6d24fd5d79de5db748ebe5]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "956405abc5544fe61b5358cdf3589adcc6abb174",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6af02d88-1198-83ee-b640-59a5d0fb8585",
   "worker": "C02"
 }
