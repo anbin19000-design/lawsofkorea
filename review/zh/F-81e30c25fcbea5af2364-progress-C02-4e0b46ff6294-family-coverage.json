@@ -1,0 +1,45 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "panel_id": "panel-02",
+  "pc": "WORK-C",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:4e0b46ff6294",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "checked_rows": 3,
+  "checked_ids": [
+    "B2-zh-00113",
+    "B2-zh-00114",
+    "B2-zh-00115"
+  ],
+  "edits": [],
+  "retained_sequential_evidence": [
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-253f69ad016f-zh.json",
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-8d3a9d26d513.json",
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-751eec993a83.json",
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-66b0b614d7aa.json",
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-3aa49a4f01f1.json"
+  ],
+  "ordered_reading_certification": {
+    "ko": true,
+    "en": true,
+    "zh": true
+  },
+  "english_status": "Available official English B1/B2 fallback documents read in full in prior sequential checkpoint; versions differ from Korean. No direct English B3 or forms. Korean controls.",
+  "family_coverage": {
+    "total_rows": 1133,
+    "checked_unique_ids": 1133,
+    "unreviewed_ids": 0,
+    "pending_single_candidates": 343,
+    "pending_conflicts": 0
+  },
+  "next_review": "Adjudicate 343 historical single candidates against frozen Korean source, current Chinese rows, and cross-cell context. Resolve candidate variants, update audit and then perform final integrity/receipt verification.",
+  "note": "B1 sequential review evidence reconciled; B2 rows 00113-00115 directly checked. All 1133 row IDs now carry review evidence. This is not a COMPLETE claim; 343 historical candidates remain."
+}
