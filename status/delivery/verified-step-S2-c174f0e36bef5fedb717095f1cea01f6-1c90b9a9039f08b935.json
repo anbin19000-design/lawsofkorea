@@ -1,0 +1,12 @@
+{
+  "assignment_id": "S2-c174f0e36bef5fedb717095f1cea01f6",
+  "baseline": "9ee8f2d4",
+  "conversation_id": "6af017db-65d8-83ec-9c45-ff08e769f61d",
+  "job_id": "F-7423351d4946866bbacf",
+  "marker": "[LAW-SUPPLY-V2:S2-c174f0e36bef5fedb717095f1cea01f6:C01:F-7423351d4946866bbacf] [LAW-VERIFIED-ACTION:1c90b9a9039f08b935]",
+  "prompt": "[LAW-SUPPLY-V2:S2-c174f0e36bef5fedb717095f1cea01f6:C01:F-7423351d4946866bbacf] [LAW-VERIFIED-ACTION:1c90b9a9039f08b935]\n공급기에서 후속 작업을 수취하여 작업을 재개하세요.\nF-7423351d4946866bbacf B1-00001~00017에서 이미 대조한 00004·00012·00014의 한국어 법률 인용·허가 요건을 확정하고 status/delivery/progress-S2-c174f0e36bef5fedb717095f1cea01f6-C01-B1-00001-00017.json에 신규 IN_PROGRESS로 저장하십시오. 이 별도 경로로 기존 31행 체크포인트를 보존하고 이후 구간도 각 고유 경로에 연속 저장하십시오. 전체 파일 반복 조회를 생략하고 새 판정을 구간별 저장 후 재조회하십시오. 기존 행·원문 해시를 보존하고 실제 한도·STOP·권한·승인·원문 변경·전송 불명이면 중단하십시오.",
+  "prompt_sha256": "0b5c6d4827561bc43b911e59e9bc007efef4a1290341597824546cc34a30df21",
+  "status": "SEND_INTENT",
+  "url": "https://chatgpt.com/c/6af017db-65d8-83ec-9c45-ff08e769f61d",
+  "worker": "C01"
+}
