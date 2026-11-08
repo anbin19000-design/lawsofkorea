@@ -1,0 +1,36 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-31334bc4303ae2cb3d80",
+  "worker": "C06",
+  "status": "IN_PROGRESS",
+  "source_progress_path": "review/zh/F-31334bc4303ae2cb3d80-C06-progress-01.json",
+  "source_progress_sha": "27e0b9f26375c880142096dd8eea371aa62244e3",
+  "ko_sha": "d6d795ff1ece4a82663a83efd46f7f73afa7fbbb",
+  "zh_sha": "7a6d1e8d841fb3b27185d6d4a6b811149d604dc0",
+  "checked": [
+    {
+      "id": "A37294-zh-00003",
+      "target_id": "XML:2719045",
+      "source_hash": "d8ba487317ac4e370c544ff11fee92077c5dfe235d14d8d93e213e278685f7be",
+      "korean": "구분",
+      "original_text": "分类MTQ29f13724665d54a300119结束",
+      "candidate_text": "类别",
+      "final_text": "类别",
+      "verdict": "ACCEPT",
+      "reason": "별표 1의 머리글 '구분'에 대응하며 MTQ 표식 및 '结束'는 원문에 없음. 기존 progress-01의 교정문 유지."
+    },
+    {
+      "id": "A37295-zh-00065",
+      "target_id": "XML:2719155",
+      "source_hash": "c2b819ecf29add546f7f68dacc08f4ed522f18ef2367c74c616b442d1a4528aa",
+      "korean": "로 기록·보관 또는 보고를 한 경우",
+      "context_korean": "라. 정당한 사유 없이 법 제12조제1항에 따른 기록·보관 또는 보고를 하지 않거나 거짓으로 기록·보관 또는 보고를 한 경우",
+      "original_text": "如果记录、存储或报告是通过 START 进行的，则",
+      "candidate_text": "或者进行了虚假记录、保管或报告的",
+      "final_text": "或者进行了虚假记录、保管或报告的",
+      "verdict": "ACCEPT",
+      "reason": "과태료 별표의 라목 행 분할 구조상 이전 셀의 '거짓으'에 이어지는 종결 셀로 검증. START 및 조건문은 한국어에 없음. 기존 progress-01 교정문 유지."
+    }
+  ],
+  "note": "Two stored candidates validated against corresponding Korean annex table and adjacent cells. Existing source row IDs/hashes and all earlier progress records preserved; not COMPLETE."
+}
