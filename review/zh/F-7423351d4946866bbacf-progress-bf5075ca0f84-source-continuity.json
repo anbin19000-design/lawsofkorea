@@ -1,0 +1,28 @@
+{
+  "schema": "LAW_ZH_REVIEW_AUDIT_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "status": "IN_PROGRESS",
+  "task_marker": "bf5075ca0f84",
+  "source_blobs": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "review_blob": "158863c07666e543e39a29b666fbdf4924b766ff",
+  "source_documents": 16,
+  "source_rows": 1207,
+  "prior_unique_corrections": 230,
+  "new_corrections": 0,
+  "inspected_unresolved_punctuation_ids": [
+    "A38090-zh-00012",
+    "A23947-zh-00010",
+    "A23948-zh-00013",
+    "A23948-zh-00019",
+    "A23951-zh-00017"
+  ],
+  "finding": "Five source Chinese cells are '.' with XML target IDs, null offsets. Document Korean source exists but per-XML-cell Korean mapping was not established; omission versus layout marker remains undecided. Do not alter without evidence.",
+  "semantic_review_completed": false,
+  "complete_receipt_issued": false,
+  "notes": "Existing correction edits preserved unchanged; exact-version English references indexed for B1/B2; B3 and associated rule annexes/forms have no standalone English document; continue Korean-Chinese comparison. No COMPLETE claim."
+}
