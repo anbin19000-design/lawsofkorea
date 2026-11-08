@@ -1,0 +1,31 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 6,
+  "checked_ids": [
+    "A25474-zh-00016",
+    "A25474-zh-00017",
+    "A25474-zh-00018",
+    "A25474-zh-00019",
+    "A25474-zh-00020",
+    "A25474-zh-00021"
+  ],
+  "edits": [
+    {
+      "id": "A25474-zh-00019",
+      "source_hash": "5d198bb5e838918707a8044806bdf8567e7d1a9dde69dc6d15d873ed679d8657",
+      "target_id": "XML:1803084",
+      "text": "国土交通部长官"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "note": "R62: Compared remaining A25474 form rows 16-21 against original Korean. Corrected 국토교통부장관 to 国土交通部长官 in row 19; other date, seal and paper-size cells preserved. R9 corrections 1-15 preserved. Full family 1133-row reconciliation NOT complete; no receipt."
+}
