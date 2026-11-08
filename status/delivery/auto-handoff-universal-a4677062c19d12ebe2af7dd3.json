@@ -1,10 +1,13 @@
 {
   "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
   "completed": false,
-  "copied_sha": null,
+  "copied_sha": "9f8f2ccb8ac74241fe59e6bc12d128aaabedf0800d323abc672269e5acecca50",
   "created_at": "2026-11-08T09:15:26.260163+00:00",
+  "draft_verified_at": "2026-11-08T09:23:40.501377+00:00",
+  "evidence": "Prior supplier pending marker and installed full prompt match copied text exactly",
   "job_id": "F-81e30c25fcbea5af2364",
   "old_url": "https://chatgpt.com/c/6af031ec-1114-83ec-8c41-5f1d547fa1ed",
+  "prior_marker": "[WORK-TASK:C02:F-81e30c25fcbea5af2364:f11badba2881]",
   "receipt_blob": null,
   "review_blob": null,
   "source_blobs": {
@@ -14,5 +17,6 @@
   },
   "source_commit": "406742fef9122f0a0648cc29751a46aa588b5885",
   "status": "INTENT",
+  "verified_task_spec_sha256": "ab615aa5632c7401d83439752e17e22252504afca50a5848b7a1a3c25cde4644",
   "worker": "C02"
 }
