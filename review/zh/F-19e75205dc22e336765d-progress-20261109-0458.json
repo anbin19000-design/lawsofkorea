@@ -1,0 +1,62 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-19e75205dc22e336765d",
+  "worker": "C06",
+  "panel_id": "panel-06",
+  "pc": "WORK-C",
+  "status": "IN_PROGRESS",
+  "checkpoint": "2026-11-09T04:58:00+09:00",
+  "source_commit": "cfb1d2139b0964af5165eecacfab57c57c1fe432",
+  "source_blobs": {
+    "ko": "f3c381ac40a93d2dd0c81eeeec800d0484334dce",
+    "en": "9ccc8a185bc0a2975d2e349d3fc3690f6e4b439b",
+    "zh": "42d5c0c29e2439f506c7209aebee695f5a1a631b"
+  },
+  "linked_english_blobs": {
+    "exact_law": "778cf9dc89f29e1b8f5a4d2d7a78ad798986aef1",
+    "decree_fallback": "525229e3b9e34ce18ace273cbd9333d28134cdb4"
+  },
+  "reading": {
+    "ko": {
+      "status": "FULL_READ",
+      "documents": 30,
+      "characters": 238917
+    },
+    "en": {
+      "status": "FULL_READ",
+      "documents": 2,
+      "characters": 100432,
+      "exact_documents": 1,
+      "fallback_documents": 29,
+      "rows_with_english": 1558,
+      "rows_without_english": 772
+    },
+    "zh": {
+      "status": "PARTIAL_REVIEW",
+      "documents": 30,
+      "rows": 2330,
+      "checked_rows": 1250,
+      "next_row": 1251
+    }
+  },
+  "review_path": "review/zh/F-19e75205dc22e336765d.json",
+  "review_sha_before_checkpoint": "385b6c8e6340c39da386c4cb1f359e7b5f8a7e2c",
+  "checked_rows": 1250,
+  "edits_saved": 1033,
+  "observations": [
+    "공식 status/active/C06.json에서 WORK-C/panel-06/C06, assignment 및 30문서/2330행 배정을 확인했고 status/worker-bindings.json의 C06 실제 Chat 주소와 일치함.",
+    "한국어 원문 30개 문서 전체와 영어 연결 원문 2개(법률 정확본 1, 시행령 최신 가족 대체본 1)를 읽은 이전 진행 증거를 확인. 영어 대응 1,558행, 미대응 772행.",
+    "KO/EN/ZH source blob SHA가 active assignment source_blobs와 일치. 원문 변경 및 접근 거부 없음.",
+    "기존 공식 검수본은 IN_PROGRESS, checked_rows 1250, edits 1033. 이를 보존하고 ZH 잔여 1080행부터 계속함.",
+    "잔여 구간에서 A29848, A29850, A29857은 한국어 원문 양식의 본문 자체가 영어로 작성된 별지이며 중국어본에 영어 문구가 대량 잔존함. A29851에는 원문 손상으로 보이는 OCR/MTQ 잔재가 있어 별도 대조 및 근거 확인 필요."
+  ],
+  "pending": [
+    "ZH 1251~2330행 전체를 문서 순서대로 계속 검수하고 기존 edits와 중복되지 않게 교정 추가",
+    "A29848/A29850/A29857 영어 원문 별지의 중국어 누락 구간 보완",
+    "A29851 손상 행은 한국어/영어 원문과 대조해 복원 가능성 확인; 근거가 없으면 보류 유지",
+    "772개 영어 미대응 행의 중국어를 한국어 원문과 직접 대조",
+    "전체 MTQ·영문 잔존·누락·숫자·조문번호·표/서식 연속성 최종 QA",
+    "검수 완료 후에만 review status COMPLETE 및 receipt 생성, 두 공식 파일 Contents API 저장·재조회"
+  ],
+  "protection": "active/C06 ACTIVE, worker binding verified; source SHAs unchanged; laws/* and operational DB untouched."
+}
