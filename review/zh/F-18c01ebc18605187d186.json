@@ -4534,10 +4534,31 @@
     },
     {
       "id": "A11336-zh-00080",
-      "text": "3) 不响应根据该法第17条之3第2款提出的培训机构评价所需资料提供请求，",
+      "text": "3) 根据该法第17条之3第2款，",
       "source_hash": "9889d4568216ce7b2d7d28dd3d0bb459f1676a534c2f7b5c5cdcd7b60f1ba3d6",
       "target_id": "XML:838478",
-      "source_progress": "C02 sequential A11336 review; minimal correction: Restored statutory clause and request meaning."
+      "source_progress": "C02 A11336 sequential table review; minimal correction: This cell is the statutory basis for the evaluation-material request, not 'training'."
+    },
+    {
+      "id": "A11336-zh-00083",
+      "text": "提供培训机构评价所需资料的请求",
+      "source_hash": "5d0ae4691654a0f4da570829ee7a694fe1348e5310c7b4d8abe6122ce693d26a",
+      "target_id": "XML:838481",
+      "source_progress": "C02 A11336 sequential table review; minimal correction: Restored the object of the request."
+    },
+    {
+      "id": "A11336-zh-00084",
+      "text": "未响应该资料提供请求，或",
+      "source_hash": "bb39832dd03fcb7fb898fa3a878f5dbb7b40249d9617d7e89ebd0c55a4f0b964",
+      "target_id": "XML:838482",
+      "source_progress": "C02 A11336 sequential table review; minimal correction: Restored the alternative grounds."
+    },
+    {
+      "id": "A11336-zh-00085",
+      "text": "拒绝现场评价等培训机构评价的情形",
+      "source_hash": "fcea868880a2d89656f64e22c17746134c0387f6a0b0c3fc30037067bfd1fb0e",
+      "target_id": "XML:838483",
+      "source_progress": "C02 A11336 sequential table review; minimal correction: Restored the refusal-to-undergo-evaluation ground."
     }
   ],
   "adjudicated_edit_count": 0,
@@ -4552,7 +4573,7 @@
   "ordered_reading_certification": {
     "korean": "READ_COMPLETE_ALL_65_DOCUMENTS",
     "english": "READ_COMPLETE_AVAILABLE_SOURCES_B1_AND_B2_FALLBACK",
-    "chinese": "IN_PROGRESS; B1 complete; B2 through row 105; A30229 1-212; A30230 1-29; A30231 1-136; A30232 1-18; A30233 1-142; B3 rows 1-123 complete; A11335 rows 1-593 complete; A11336 rows 1-80 reviewed; A11337-A11391 pending"
+    "chinese": "IN_PROGRESS; B1 complete; B2 through row 105; A30229 1-212; A30230 1-29; A30231 1-136; A30232 1-18; A30233 1-142; B3 rows 1-123 complete; A11335 rows 1-593 complete; A11336 rows 1-85 complete; A11337-A11391 pending"
   },
   "checked_unique_ids": [
     "B1-zh-00001",
@@ -6167,10 +6188,15 @@
     "A11336-zh-00077",
     "A11336-zh-00078",
     "A11336-zh-00079",
-    "A11336-zh-00080"
+    "A11336-zh-00080",
+    "A11336-zh-00081",
+    "A11336-zh-00082",
+    "A11336-zh-00083",
+    "A11336-zh-00084",
+    "A11336-zh-00085"
   ],
-  "checked_rows": 1613,
-  "corrected_rows": 646,
+  "checked_rows": 1618,
+  "corrected_rows": 649,
   "notes": [
     "Only obvious omissions of clause numbering and a missing subparagraph marker corrected; substantive terminology and existing wording retained.",
     "B2 English is an older fallback (version 272521), not exact current Korean version; newer provisions require Korean-Chinese comparison.",
@@ -6239,9 +6265,10 @@
     "C02 reviewed A11335 rows 261-300 against the Korean training schedule. Corrected the class-II qualification marker rendered as a school year, two treatment cells mistranslated as 处理, two practical-training labels rendered as generic practice, and the paired nursing-intervention conjunction in two parallel table cells. All hour values and other course labels were checked and retained. Resume at row 301; family remains IN_PROGRESS.",
     "C02 reviewed A11335 rows 301-470 against the Korean training-course schedule, covering the remainder of the nursing-specialist and the social-worker/occupational-therapist section headings and table headers. Corrected clear grade-vs-score errors (급수), subtotal mistranslations (소계), practical-training labels (실습), and the class-II grade marker. Numeric totals and accurately translated course titles were retained. No English source exists for this ministry-rule annex. Resume at row 471; family remains IN_PROGRESS.",
     "C02 completed the sequential Chinese review of all 593 rows in A11335 against the Korean training-course schedule. Corrected the consistent mistranslation of occupational therapy (작업치료) from 职业治疗/职业疗法 to 作业治疗 in the occupational-therapist section, plus clear subtotal, practical-training and class-II grade errors. Hour totals and all other table entries were retained where accurate. This ministry-rule annex has no English source. Resume with A11336; the family remains IN_PROGRESS.",
-    "C02 began A11336 (Ministry Rule Schedule 1-2, designation cancellation criteria), reviewing rows 1-80 against the Korean original. Repaired major machine-translation corruption including START/END artifacts, malformed article references, reversed sanction sequence, training-course non-operation, failure to meet designation requirements, inadequate evaluation results, fraudulent designation, voluntary cancellation, noncompliance with corrective orders, and violence/qualification revocation grounds. The remaining cells of the schedule continue in sequence. No English source exists for this ministry-rule annex. Resume at row 81; family remains IN_PROGRESS."
+    "C02 began A11336 (Ministry Rule Schedule 1-2, designation cancellation criteria), reviewing rows 1-80 against the Korean original. Repaired major machine-translation corruption including START/END artifacts, malformed article references, reversed sanction sequence, training-course non-operation, failure to meet designation requirements, inadequate evaluation results, fraudulent designation, voluntary cancellation, noncompliance with corrective orders, and violence/qualification revocation grounds. The remaining cells of the schedule continue in sequence. No English source exists for this ministry-rule annex. Resume at row 81; family remains IN_PROGRESS.",
+    "C02 completed all 85 rows of A11336 against the Korean Schedule 1-2. Corrected the final evaluation-material request clause: row 80 is the statutory basis (Article 17-3(2)), rows 83-85 express the request for evaluation materials, failure to respond, and refusal of on-site/institution evaluation. A11336 contains no English source. Resume at A11337; family remains IN_PROGRESS."
   ],
-  "checkpoint_id": "C02-20261109-A11336-001-080",
+  "checkpoint_id": "C02-20261109-A11336-COMPLETE",
   "checkpoint_status": "IN_PROGRESS",
-  "checkpoint_note": "A11335 complete. A11336 rows 1-80 reviewed and major legal machine translation corruption corrected. Resume at A11336 row 81."
+  "checkpoint_note": "A11336 all 85 rows reviewed; resume at A11337."
 }
