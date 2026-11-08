@@ -1535,6 +1535,62 @@
       "source_hash": "aa66f372c34382bcabb478aaeb61801fbe4043746c01418da0b6b52076ac3593",
       "target_id": "XML:2217726",
       "source_progress": "C02 sequential Annex A30229 review; corrected obvious statute/term mistranslations"
+    },
+    {
+      "id": "A30229-zh-00186",
+      "text": "完成培训的人",
+      "source_hash": "51860b7f74d7615f1fa17423e7785d9f7ad2aa6994e95a31198460316131c0a3",
+      "target_id": "XML:2217735",
+      "source_progress": "C02 sequential Annex A30229 review; clear legal reference and note mistranslations"
+    },
+    {
+      "id": "A30229-zh-00190",
+      "text": "2. 根据《护理法》",
+      "source_hash": "eb57f0eb490eac7c98e8bdb6db9910908d00a57900603ba3f64bab3d540820f0",
+      "target_id": "XML:2217739",
+      "source_progress": "C02 sequential Annex A30229 review; clear legal reference and note mistranslations"
+    },
+    {
+      "id": "A30229-zh-00193",
+      "text": "精神护理领域",
+      "source_hash": "0a009f4d31be734aadd24b8449da009a5d50df3befa18840caec7a6fd8b64cc7",
+      "target_id": "XML:2217742",
+      "source_progress": "C02 sequential Annex A30229 review; clear legal reference and note mistranslations"
+    },
+    {
+      "id": "A30229-zh-00195",
+      "text": "护士资格",
+      "source_hash": "da3146aeca96b731ccf6dd471f331bd0726fde9240b6e8054b045ef8a83db095",
+      "target_id": "XML:2217744",
+      "source_progress": "C02 sequential Annex A30229 review; clear legal reference and note mistranslations"
+    },
+    {
+      "id": "A30229-zh-00200",
+      "text": "2. 根据《国家技术资格法施行令》",
+      "source_hash": "66fd9026619e65f8590343f6f97fecf1c5e291734a13bcd2b50074afeaf3afab",
+      "target_id": "XML:2217749",
+      "source_progress": "C02 sequential Annex A30229 review; clear legal reference and note mistranslations"
+    },
+    {
+      "id": "A30229-zh-00201",
+      "text": "第12条之2第1款规定",
+      "source_hash": "d8be883d8ecccb09009081d6e5447a521ba815a8566e504c90df6e1bf642d109",
+      "target_id": "XML:2217750",
+      "source_progress": "C02 sequential Annex A30229 review; clear legal reference and note mistranslations"
+    },
+    {
+      "id": "A30229-zh-00202",
+      "text": "根据第12条之2第1款",
+      "source_hash": "405058c240ee2539f52cb42d497badf5048f4033d6910428b7d1c111de583ae1",
+      "target_id": "XML:2217751",
+      "source_progress": "C02 sequential Annex A30229 review; clear legal reference and note mistranslations"
+    },
+    {
+      "id": "A30229-zh-00211",
+      "text": "取得与精神健康专业人员相近资格的人，依卫生福利部长规定，可被认定具有与精神健康专业人员同等资格。",
+      "source_hash": "5e86692ffa4eb400915569620838ce799fad10d55173e2538d8779bd10983ebf",
+      "target_id": "XML:2217762",
+      "source_progress": "C02 sequential Annex A30229 review; clear legal reference and note mistranslations"
     }
   ],
   "adjudicated_edit_count": 0,
@@ -1549,7 +1605,7 @@
   "ordered_reading_certification": {
     "korean": "READ_COMPLETE_ALL_65_DOCUMENTS",
     "english": "READ_COMPLETE_AVAILABLE_SOURCES_B1_AND_B2_FALLBACK",
-    "chinese": "IN_PROGRESS; B1 complete; B2 through row 105; Annex A30229 reviewed through row 185; remaining rows/documents pending"
+    "chinese": "IN_PROGRESS; B1 complete; B2 through row 105; Annex A30229 rows 1-212 reviewed; table structure QA and remaining 64 documents pending"
   },
   "checked_unique_ids": [
     "B1-zh-00001",
@@ -2016,10 +2072,37 @@
     "A30229-zh-00182",
     "A30229-zh-00183",
     "A30229-zh-00184",
-    "A30229-zh-00185"
+    "A30229-zh-00185",
+    "A30229-zh-00186",
+    "A30229-zh-00187",
+    "A30229-zh-00188",
+    "A30229-zh-00189",
+    "A30229-zh-00190",
+    "A30229-zh-00191",
+    "A30229-zh-00192",
+    "A30229-zh-00193",
+    "A30229-zh-00194",
+    "A30229-zh-00195",
+    "A30229-zh-00196",
+    "A30229-zh-00197",
+    "A30229-zh-00198",
+    "A30229-zh-00199",
+    "A30229-zh-00200",
+    "A30229-zh-00201",
+    "A30229-zh-00202",
+    "A30229-zh-00203",
+    "A30229-zh-00204",
+    "A30229-zh-00205",
+    "A30229-zh-00206",
+    "A30229-zh-00207",
+    "A30229-zh-00208",
+    "A30229-zh-00209",
+    "A30229-zh-00210",
+    "A30229-zh-00211",
+    "A30229-zh-00212"
   ],
-  "checked_rows": 465,
-  "corrected_rows": 217,
+  "checked_rows": 492,
+  "corrected_rows": 225,
   "notes": [
     "Only obvious omissions of clause numbering and a missing subparagraph marker corrected; substantive terminology and existing wording retained.",
     "B2 English is an older fallback (version 272521), not exact current Korean version; newer provisions require Korean-Chinese comparison.",
@@ -2060,6 +2143,7 @@
     "Sequential review of Annex A30229 rows 66-74. Corrected the four grade-2 professional category labels and qualification labels where the machine translation had dropped or distorted the professional specialty. Fragmentary repeated cells from row 75 onward remain pending contextual table alignment.",
     "Sequential Annex A30229 review continued through row 105. Corrected only unmistakable machine/OCR corruptions ('加纳地方政府', '心理健康从 START', '钢铁强化项目等') using the Korean schedule context. Rows 75-87, 92, 94, 96, 98-99, 101-105 contain split fragments whose exact cell boundaries need further table-context QA; no speculative reconstruction applied.",
     "Sequential Annex A30229 review continued through row 145. Corrected clear corruption in Minister title, National Technical Qualifications Act citation, nursing professional qualification, statutory reference, and nursing college faculty rank/context. Other fragmented cells retained where the exact XML cell phrase is uncertain; continue with table alignment rather than guessing.",
-    "Sequential Annex A30229 review continued through row 185. Corrected obvious misrendering of the Nursing Act, Social Welfare Services Act Article 11(2), social welfare act reference, mental-health occupational therapist, Minister title, and clinical-psychology coursework. Rows 146-154, 156-158, 160-162, 165-168, 170-176, 178-185 remain fragmented/garbled and need source-aligned table QA; no unsupported reconstruction."
+    "Sequential Annex A30229 review continued through row 185. Corrected obvious misrendering of the Nursing Act, Social Welfare Services Act Article 11(2), social welfare act reference, mental-health occupational therapist, Minister title, and clinical-psychology coursework. Rows 146-154, 156-158, 160-162, 165-168, 170-176, 178-185 remain fragmented/garbled and need source-aligned table QA; no unsupported reconstruction.",
+    "Sequential Annex A30229 review completed through row 212. Corrected clear statutory references (Nursing Act, National Technical Qualifications Act Enforcement Decree, Article 12-2(1)), psychiatric nursing terminology, and the note's mistranslated equivalency recognition rule. Several fragmented cells remain dependent on XML/table rendering and need final source-aligned QA; no COMPLETE status."
   ]
 }
