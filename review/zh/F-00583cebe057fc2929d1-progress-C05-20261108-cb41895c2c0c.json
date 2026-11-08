@@ -1,0 +1,54 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "family": "실용신안법",
+  "worker": "C05",
+  "assignment_marker": "[WORK-TASK:C05:F-00583cebe057fc2929d1:cb41895c2c0c]",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "305c4d07485bfd1d0e5106d14fd23fe9d7f95b91",
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "prior_corrections": 222,
+  "new_corrections": [
+    {
+      "id": "B1-zh-00018",
+      "source_hash": "1aeefb779171335dbf03cba0d13f5ea792f1c01462044d1df80a0bdc541ac72e",
+      "decision": "CORRECT",
+      "reason": "한국어 제14조제1항 단서의 '각하결정'은 본문에 언급된 등록거절결정과 구별되므로 '驳回决定'으로 혼동한 부분만 '不予受理决定'으로 정정."
+    },
+    {
+      "id": "B1-zh-00041",
+      "source_hash": "2a3f820d12c4839389e8a11fd7f275472e77945bbc363688c5b6b885a498df8e",
+      "decision": "CORRECT",
+      "reason": "한국어 장 제목 '제7장 심판ㆍ재심 및 소송'에서 심판/재심을 일반 재결·재심사로 오인한 표현을 법률절차 용어로 정정."
+    }
+  ],
+  "total_corrections": 224,
+  "pending_rows_preserved": 89,
+  "english_note": "B1/B2 official same-version EN; B3 and attached forms only have old-version fallback EN; AI draft not official.",
+  "reading_status": "FULL_KO_EN_ZH_SEQUENTIAL_READING_NOT_VERIFIED",
+  "unresolved": [
+    "B2-zh-00081",
+    "A29604",
+    "B3-zh-00117",
+    "A8690",
+    "A8693",
+    "A8698",
+    "A8699",
+    "A8703",
+    "A8708",
+    "A8709",
+    "A8690-zh-00499"
+  ],
+  "completion_receipt": null,
+  "notes": "기존 222건 보존, 금회 B1 2행의 법적 절차용어 오역만 대조 후 정정. 89행 원문 대응/판독 보류, 전체 24개 한국어·영어·중국어 순차 독해 검증 미완료로 COMPLETE 보류."
+}
