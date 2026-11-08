@@ -1,0 +1,100 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:3ee843da8cef",
+  "status": "IN_PROGRESS",
+  "phase": "ANNEX_3_SOURCE_COMPARISON",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_en_index_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "english_status": "Older English fallback only. Current Korean annex primary.",
+  "document": "A39476",
+  "checked_rows": 12,
+  "checked_ids": [
+    "A39476-zh-00002",
+    "A39476-zh-00003",
+    "A39476-zh-00008",
+    "A39476-zh-00009",
+    "A39476-zh-00014",
+    "A39476-zh-00016",
+    "A39476-zh-00018",
+    "A39476-zh-00020",
+    "A39476-zh-00022",
+    "A39476-zh-00024",
+    "A39476-zh-00026",
+    "A39476-zh-00028"
+  ],
+  "passed_rows": 12,
+  "corrected_rows": 0,
+  "edits": [],
+  "results": [
+    {
+      "id": "A39476-zh-00002",
+      "verdict": "PASS",
+      "reason": "Annex 3 caption references Article 23(1) and support facility designation standards exactly."
+    },
+    {
+      "id": "A39476-zh-00003",
+      "verdict": "PASS",
+      "reason": "Facility standards top-level heading 1 preserved."
+    },
+    {
+      "id": "A39476-zh-00008",
+      "verdict": "PASS",
+      "reason": "Heating, ventilation and sunlight requirements all preserved."
+    },
+    {
+      "id": "A39476-zh-00009",
+      "verdict": "PASS",
+      "reason": "Entrance orientation for emergency evacuation retained."
+    },
+    {
+      "id": "A39476-zh-00014",
+      "verdict": "PASS",
+      "reason": "Office space and equipment for administration retained."
+    },
+    {
+      "id": "A39476-zh-00016",
+      "verdict": "PASS",
+      "reason": "Consultation privacy requirement for partition or soundproofing retained."
+    },
+    {
+      "id": "A39476-zh-00018",
+      "verdict": "PASS",
+      "reason": "Night-duty room bedding/equipment requirement retained."
+    },
+    {
+      "id": "A39476-zh-00020",
+      "verdict": "PASS",
+      "reason": "Dining/cooking facilities requirement retained."
+    },
+    {
+      "id": "A39476-zh-00022",
+      "verdict": "PASS",
+      "reason": "Bathing shower and washing facilities retained."
+    },
+    {
+      "id": "A39476-zh-00024",
+      "verdict": "PASS",
+      "reason": "Laundry machine/equipment requirement retained."
+    },
+    {
+      "id": "A39476-zh-00026",
+      "verdict": "PASS",
+      "reason": "Flush toilet requirement retained."
+    },
+    {
+      "id": "A39476-zh-00028",
+      "verdict": "PASS",
+      "reason": "Water supply rule from public mains and exception when public water is unavailable retained in lead cell, continuation in following cells not newly certified."
+    }
+  ],
+  "existing_source_index": "status/delivery/reconcile-S2-8f70e317249155938a79444493d089b4-evidence-7e6b69412a765526.json",
+  "previous_progress": "review/zh/F-0536890d62605f77ff0a-progress-C03-45856d4f6823-A39476-staff-counts.json",
+  "held_ids": [
+    "A26697-zh-00008",
+    "A26699-zh-00053"
+  ],
+  "note": "Verified 12 previously un-candidated Annex 3 cells in context, kept existing Chinese; related candidate-bearing cells require existing adjudication and are not overwritten. Full family not complete."
+}
