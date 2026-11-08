@@ -53,7 +53,7 @@
     ],
     "note": "The English manifest marks the main Act as exact-version English and the Decree/Rule plus attached annexes/forms as fallback official English references; source versions differ."
   },
-  "checked_rows": 0,
+  "checked_rows": 10,
   "mechanical_scan_rows": 1709,
   "candidate_findings": [
     {
@@ -107,12 +107,67 @@
       "proposed_minimal_text": null
     }
   ],
-  "edits": [],
+  "edits": [
+    {
+      "id": "A5541-zh-00007",
+      "text": "处理期限",
+      "reason": "명백한 MTQ/영어 혼입 또는 필드 라벨 오류만 최소 교정"
+    },
+    {
+      "id": "A5544-zh-00009",
+      "text": "处理期限",
+      "reason": "명백한 MTQ/영어 혼입 또는 필드 라벨 오류만 최소 교정"
+    },
+    {
+      "id": "A5545-zh-00007",
+      "text": "处理期限",
+      "reason": "명백한 MTQ/영어 혼입 또는 필드 라벨 오류만 최소 교정"
+    },
+    {
+      "id": "A5546-zh-00010",
+      "text": "处理期限",
+      "reason": "명백한 MTQ/영어 혼입 또는 필드 라벨 오류만 최소 교정"
+    },
+    {
+      "id": "A5548-zh-00007",
+      "text": "处理期限",
+      "reason": "명백한 MTQ/영어 혼입 또는 필드 라벨 오류만 최소 교정"
+    },
+    {
+      "id": "A5551-zh-00007",
+      "text": "处理期限",
+      "reason": "명백한 MTQ/영어 혼입 또는 필드 라벨 오류만 최소 교정"
+    },
+    {
+      "id": "A5552-zh-00010",
+      "text": "处理期限",
+      "reason": "명백한 MTQ/영어 혼입 또는 필드 라벨 오류만 최소 교정"
+    },
+    {
+      "id": "A5554-zh-00005",
+      "text": "处理期限",
+      "reason": "명백한 MTQ/영어 혼입 또는 필드 라벨 오류만 최소 교정"
+    },
+    {
+      "id": "A5554-zh-00009",
+      "text": "主办公室地址",
+      "reason": "명백한 MTQ/영어 혼입 또는 필드 라벨 오류만 최소 교정"
+    },
+    {
+      "id": "B2-zh-00129",
+      "text": "",
+      "reason": "행 안의 미번역 한국어 '의 수량'만 '的数量'로 치환. 행 전체는 재작성하지 않음.",
+      "replace": {
+        "old": "의 수량",
+        "new": "的数量"
+      }
+    }
+  ],
   "notes": [
     "No existing review/zh/F-06ded4db5360e8951333.json or receipts/F-06ded4db5360e8951333.json existed at inspection time (Contents API returned 404).",
     "Official status/active/C03.json and status/worker-bindings.json both bind C03 to https://chatgpt.com/c/6af041f2-e328-83ee-ae24-c2dbe020c5a2.",
     "Panel-03 initially displayed a different conversation; it was navigated to the official C03 URL and verified. The current assignment is present in that conversation; panel reports WORKING/stop-ui. A further send attempt returned operation-canceled and was not retried.",
     "Do not mark COMPLETE until all 1709 rows are sequentially reviewed, edits are verified, and final review/receipt are saved and reread."
   ],
-  "updated_at": "2026-11-08T20:24:00+09:00"
+  "updated_at": "2026-11-08T20:28:00+09:00"
 }
