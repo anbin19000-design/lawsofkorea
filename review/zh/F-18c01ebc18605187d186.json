@@ -1150,6 +1150,34 @@
       "source_hash": "4d067213e08ae290d51fc708d5fa0b21c8ffa3cbf4d0999a34ab9beb030904cc",
       "target_id": "307bd10e6c18ff6632315d2f882925c3f7ffb96f0f60477d2729394534a81f5b",
       "source_progress": "C02 sequential review; Korean B2 cross-check of 2024-2025 amendment titles and headings"
+    },
+    {
+      "id": "B2-zh-00097",
+      "text": "第四条（其他法令的修正）①至〈21〉省略\n\n〈22〉对《精神健康促进及精神疾病患者福利服务支援法施行令》作如下部分修正。\n\n第25条第2款第3号中的“《医疗法》第7条”改为“《护理法》第4条”。\n\n",
+      "source_hash": "303601259da911f08f7cdcb1c174176c910d37498f07117b52d0a5c0c6916eac",
+      "target_id": "1245ec6eeb8ed3305856ace0ec9e61e896a111188273c88746575c613469d97d",
+      "source_progress": "C02 sequential review; Korean B2 source cross-check"
+    },
+    {
+      "id": "B2-zh-00098",
+      "text": "附表1中，一级精神健康护士栏第1号中的“《医疗法》”改为“《护理法》”；同表二级精神健康护士栏第1号及第2号中的“《医疗法》”分别改为“《护理法》”。\n\n〈23〉及〈24〉省略\n\n",
+      "source_hash": "dae9eb248a9596d67b0b4c3ee037d102e4031703b15d7afbf47c1d60723549bd",
+      "target_id": "5d05e6cac8cd98a50a6737bad0d060b97b16c208f61f80046bf16678ff5db7ed",
+      "source_progress": "C02 sequential review; Korean B2 source cross-check"
+    },
+    {
+      "id": "B2-zh-00101",
+      "text": "附则（《设立全南光州统合特别市特别法施行令》）<第36423号，2026年6月23日>\n\n",
+      "source_hash": "f957b237db426465d09fe0da02699ff70862bdbb01e8c8677d2a38f5ae02b34c",
+      "target_id": "4b30c140e13d08591846ea175b82923c5e0786fcd7042f2ffda23417befff885",
+      "source_progress": "C02 sequential review; Korean B2 source cross-check"
+    },
+    {
+      "id": "B2-zh-00104",
+      "text": "第三条（其他法令的修正）①至〈58〉省略\n\n〈59〉对《精神健康促进及精神疾病患者福利服务支援法施行令》作如下部分修正。\n\n",
+      "source_hash": "9b490051876cdedb902b3fa42b175e3df63d62b9ae94e4e929a20bf9fa900527",
+      "target_id": "00436b59179ae8c32625f60b7a1aefb8c1963ebafa7e97b046e1d66e75014bab",
+      "source_progress": "C02 sequential review; Korean B2 source cross-check"
     }
   ],
   "adjudicated_edit_count": 0,
@@ -1164,7 +1192,7 @@
   "ordered_reading_certification": {
     "korean": "READ_COMPLETE_ALL_65_DOCUMENTS",
     "english": "READ_COMPLETE_AVAILABLE_SOURCES_B1_AND_B2_FALLBACK",
-    "chinese": "IN_PROGRESS through B2-zh-00096; sequential continuation required"
+    "chinese": "IN_PROGRESS through B2-zh-00104; sequential continuation required"
   },
   "checked_unique_ids": [
     "B1-zh-00001",
@@ -1437,10 +1465,18 @@
     "B2-zh-00093",
     "B2-zh-00094",
     "B2-zh-00095",
-    "B2-zh-00096"
+    "B2-zh-00096",
+    "B2-zh-00097",
+    "B2-zh-00098",
+    "B2-zh-00099",
+    "B2-zh-00100",
+    "B2-zh-00101",
+    "B2-zh-00102",
+    "B2-zh-00103",
+    "B2-zh-00104"
   ],
-  "checked_rows": 271,
-  "corrected_rows": 162,
+  "checked_rows": 279,
+  "corrected_rows": 166,
   "notes": [
     "Only obvious omissions of clause numbering and a missing subparagraph marker corrected; substantive terminology and existing wording retained.",
     "B2 English is an older fallback (version 272521), not exact current Korean version; newer provisions require Korean-Chinese comparison.",
@@ -1471,6 +1507,7 @@
     "Quality-preservation follow-up: restored the full existing text for B2-zh-00054 through B2-zh-00060 from the source index and applied only minimal statutory terminology substitutions, avoiding the earlier condensed paraphrase that could have omitted amendment subclauses.",
     "Sequential review through B2-zh-00072. Corrected the appendix heading and exact title of the amended Enforcement Decree in the consequential amendment clause. Other commencement dates and transitional provisions in rows 62, 64-72 checked and retained.",
     "Sequential review through B2-zh-00084. Corrected the local-police regulation appendix heading, the police-law citation in consequential amendments, early-treatment specialist terminology, and the qualification name/requirements for mental-health occupational therapists. Other effective dates and transitional clauses checked and retained.",
-    "Sequential review through B2-zh-00096. Corrected 2024-2025 supplementary provision headings and the enforcement-decree title in consequential amendments; other effective dates, omitted ranges and regional jurisdiction changes checked and retained."
+    "Sequential review through B2-zh-00096. Corrected 2024-2025 supplementary provision headings and the enforcement-decree title in consequential amendments; other effective dates, omitted ranges and regional jurisdiction changes checked and retained.",
+    "Sequential review through B2-zh-00104. Corrected 2025 Nursing Act cross-references and the 2026 consolidated special-city enforcement decree title; other commencement dates and omitted amendment ranges checked and retained. Annex 1 qualification table begins at B2-zh-00105 and requires dedicated table-structure review."
   ]
 }
