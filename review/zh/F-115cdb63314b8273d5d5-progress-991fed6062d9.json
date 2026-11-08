@@ -15,19 +15,25 @@
   "previous_progress_blob_sha": "9f2b7de054dcea90199ec6b8bdf5feb8c46e7a4e",
   "reading_evidence": {
     "ko_complete_documents": [
-      "B1"
+      "B1",
+      "B2"
     ],
     "ko_decree_operational_articles": "제1조~제105조",
     "ko_decree_supplementary_lines_read": {
       "start_zero_based": 967,
-      "end_exclusive_zero_based": 1195
+      "end_exclusive_zero_based": 1766
     },
-    "ko_decree_next_line_zero_based": 1195,
+    "ko_decree_next_line_zero_based": null,
     "ko_full_read": false,
     "en_full_read": false,
     "zh_full_review": false,
-    "verified_zh_rows": 0
+    "verified_zh_rows": 0,
+    "ko_next_document": {
+      "index_zero_based": 2,
+      "key": "A28845",
+      "title": "일반국도 위임대상 구간(제29조제1항 관련)"
+    }
   },
   "edits": [],
-  "note": "Independent checkpoint after 409 conflict while updating existing progress file. Korean B2 supplementary provisions lines 967-1194 include 2014 enactment, repealed prior decrees, transitional measures and related decree amendments through item 34. No Chinese changes. Do not declare COMPLETE."
+  "note": "Korean Road Act B1 (2093 lines) and Korean Enforcement Decree B2 (1766 lines) read through, including all supplementary provisions up to 2026-06-23. 2/61 Korean documents complete. Next A28845 annex; do not commence English or Chinese review."
 }
