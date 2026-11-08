@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 4800,
+    "verified_zh_rows": 4850,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 4800,
-      "checked_rows": 4800,
+      "next_row_zero_based": 4850,
+      "checked_rows": 4850,
       "total_rows": 5228
     }
   },
@@ -8317,9 +8317,189 @@
       "text": "不予许可通知",
       "original_text": "不批准通知",
       "reason": "불허가 통지의 법률용어 정돈"
+    },
+    {
+      "id": "A4703-zh-00001",
+      "text": "■《道路法施行规则》[附件表格第38号]",
+      "original_text": "■ 道路交通法执行规则 [附件表格编号 38]​​",
+      "reason": "도로법 시행규칙을 도로교통법 시행규칙으로 오역"
+    },
+    {
+      "id": "A4703-zh-00002",
+      "text": "（[ ]进入土地 [ ]使用土地 [ ]变更、移除障碍物）通知书",
+      "original_text": "([ ] 土地使用权 [ ] 土地用途 [ ] 障碍物变更/移除) 通知",
+      "reason": "토지 출입·사용 및 장애물 변경·제거 통지의 법적 의미를 오역"
+    },
+    {
+      "id": "A4703-zh-00003",
+      "text": "致",
+      "original_text": "您的",
+      "reason": "수신인 귀하를 ‘당신의’로 오역"
+    },
+    {
+      "id": "A4703-zh-00004",
+      "text": "进入或使用区域",
+      "original_text": "访问或使用区域",
+      "reason": "출입 또는 사용 구역의 법률용어 정돈"
+    },
+    {
+      "id": "A4703-zh-00006",
+      "text": "使用面积（㎡）",
+      "original_text": "可用面积 (㎡)",
+      "reason": "사용면적을 사용 가능한 면적으로 오역"
+    },
+    {
+      "id": "A4703-zh-00007",
+      "text": "进入或使用期间",
+      "original_text": "入口或使用期",
+      "reason": "출입 또는 사용 기간을 입구 또는 사용 기간으로 오역"
+    },
+    {
+      "id": "A4703-zh-00008",
+      "text": "自",
+      "original_text": "来自",
+      "reason": "기간 시작을 출처로 오역"
+    },
+    {
+      "id": "A4703-zh-00009",
+      "text": "起至（共　日）",
+      "original_text": "天)",
+      "reason": "기간 종료 및 일수 표기를 누락"
+    },
+    {
+      "id": "A4703-zh-00010",
+      "text": "拟变更或移除的障碍物种类",
+      "original_text": "您想要更改或删除",
+      "reason": "장애물의 종류를 사용자 행위로 오역"
+    },
+    {
+      "id": "A4703-zh-00011",
+      "text": "障碍物种类",
+      "original_text": "障碍物类型",
+      "reason": "장애물 종류 항목을 정돈"
+    },
+    {
+      "id": "A4703-zh-00013",
+      "text": "其他事项",
+      "original_text": "其他事项",
+      "reason": "그 밖의 사항 표기를 유지"
+    },
+    {
+      "id": "A4703-zh-00014",
+      "text": "依据《道路法》第八十一条第二款及同法施行规则第四十一条第一款，特此通知将进入或使用您所有（占有）的下列土地，或变更、移除该土地上的障碍物：",
+      "original_text": "根据《道路法》第81条第2款和该法实施细则第41条第1款，您拥有（占有）所有权（[）",
+      "reason": "토지 출입·사용 및 장애물 변경·제거 통지문을 훼손"
+    },
+    {
+      "id": "A4703-zh-00015",
+      "text": "[ ]进入土地",
+      "original_text": " ] 在土地上",
+      "reason": "토지 출입 선택 항목의 문장 조각을 복구"
+    },
+    {
+      "id": "A4703-zh-00016",
+      "text": "[ ]使用土地",
+      "original_text": "输入 [",
+      "reason": "토지 사용 선택 항목을 입력으로 오역"
+    },
+    {
+      "id": "A4703-zh-00017",
+      "text": "[ ]变更、移除土地上的障碍物",
+      "original_text": " ]使用土地 [",
+      "reason": "장애물 변경·제거 선택 항목을 복구"
+    },
+    {
+      "id": "A4703-zh-00018",
+      "text": "，特此通知。",
+      "original_text": " ] 特此通知，土地上的障碍物将被改变或移除。[",
+      "reason": "통지문 끝부분을 문장 구조에 맞게 정돈"
+    },
+    {
+      "id": "A4703-zh-00021",
+      "text": "日",
+      "original_text": "日长度",
+      "reason": "일(日)을 일 길이로 오역"
+    },
+    {
+      "id": "A4703-zh-00022",
+      "text": "进入人或使用人",
+      "original_text": "Enter 或 User",
+      "reason": "출입자 또는 사용자를 영문 잔존으로 미번역"
+    },
+    {
+      "id": "A4704-zh-00001",
+      "text": "身份证明书",
+      "original_text": "身份证",
+      "reason": "신분증명서를 일반 신분증으로 축약"
+    },
+    {
+      "id": "A4704-zh-00005",
+      "text": "所属（地址）",
+      "original_text": "隶属关系（地址）",
+      "reason": "소속(주소) 표기의 의미를 정돈"
+    },
+    {
+      "id": "A4704-zh-00006",
+      "text": "职务",
+      "original_text": "位置",
+      "reason": "직위를 위치로 오역"
+    },
+    {
+      "id": "A4704-zh-00007",
+      "text": "职名",
+      "original_text": "作业名称",
+      "reason": "직명을 작업명으로 오역"
+    },
+    {
+      "id": "A4704-zh-00008",
+      "text": "姓名",
+      "original_text": "名称",
+      "reason": "성명을 일반 명칭으로 축소"
+    },
+    {
+      "id": "A4704-zh-00010",
+      "text": "有效期限",
+      "original_text": "到期日期",
+      "reason": "유효기간을 만료일로만 축소"
+    },
+    {
+      "id": "A4704-zh-00015",
+      "text": "至（共　日）",
+      "original_text": "直到(",
+      "reason": "유효기간의 종료일 및 기간 단위 표기를 정돈"
+    },
+    {
+      "id": "A4704-zh-00017",
+      "text": "上述人员依据《道路法》第八十一条第一款，属于为道路工程、道路调查测量或道路维护管理而可进入他人土地或临时使用该土地，并可在必要时变更、移除障碍物的人员。",
+      "original_text": "上述人员，根据《道路法》第81条第1款，是道路相关的公共官员",
+      "reason": "신분증명서의 권한 설명을 도로 관련 공무원으로 축소 오역"
+    },
+    {
+      "id": "A4704-zh-00018",
+      "text": "其可以为实施道路工程、调查测量或道路维护管理而进入或临时使用他人土地，",
+      "original_text": "，从事道路调查和勘测或道路维护和管理；",
+      "reason": "도로공사·조사측량·유지관리 목적의 토지 출입 권한을 정돈"
+    },
+    {
+      "id": "A4704-zh-00019",
+      "text": "并可在必要时变更、移除障碍物。",
+      "original_text": "您可以进入或临时使用他人的土地，并且需要",
+      "reason": "필요한 경우 장애물을 변경·제거할 수 있다는 권한 표현 오류"
+    },
+    {
+      "id": "A4704-zh-00020",
+      "text": "特此证明。",
+      "original_text": "，我证明我有能力改变或移除障碍物。",
+      "reason": "증명서의 종결 표현을 복구"
+    },
+    {
+      "id": "A4704-zh-00026",
+      "text": "80毫米×70毫米[白纸120克/平方米]",
+      "original_text": "80mm×70mm[白纸 120g/㎡]",
+      "reason": "신분증 규격 표기 정돈"
     }
   ],
-  "note": "Sequential review advanced through row 4799, completing A4702 restricted vehicle operation permit application (front/back), including vehicle dimensions/loads, cargo, route, attachments, statutory requirements, consent form and processing flow. Added 63 targeted corrections for rule title, vehicle permit terminology, vehicle specs/axle/load, route and operating fields, permit wording, fees, attachments, document counts, administrative information sharing and process stages. Previous 1289 edits retained. Continue from row 4800 with A4703. IN_PROGRESS.",
+  "note": "Sequential review advanced through row 4849, completing A4703 land entry/use/obstacle modification notice and A4704 road officer identity certificate. Added 29 targeted corrections for notice options, access/use area/period, legal notice text, entrant/user, identity certificate fields (position/title/name/validity) and statutory powers. Previous 1361 edits retained. Continue from row 4850 with A4705. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
