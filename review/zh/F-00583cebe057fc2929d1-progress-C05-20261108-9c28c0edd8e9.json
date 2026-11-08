@@ -1,0 +1,49 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "worker": "C05",
+  "panel_id": "panel-05",
+  "pc": "WORK-C",
+  "assignment_marker": "[WORK-TASK:C05:F-00583cebe057fc2929d1:9c28c0edd8e9]",
+  "official_assignment_id": "UW-a30ff5f4ad3850c4026c050789bc77a1",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "dfe49aa462b0edf352d2cb9e4422db1e47073a32",
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "prior_corrections": 247,
+  "new_corrections": [
+    {
+      "id": "B2-zh-00067",
+      "source_hash": "e016f7109ebd1576348493cde6e551f67539ffa44f8e039736ef00d4b41a7e67",
+      "decision": "CORRECT",
+      "reason": "원문 '우선심사'는 우선권 심사가 아닌 우선심사. 시행령 제5조 대상에 대한 경과조치이므로 제목·본문 2곳을 바로잡음."
+    },
+    {
+      "id": "B2-zh-00062",
+      "source_hash": "8543b8b92205ce88dbf0b06bad87b89c786e8f5d2ed2852d47a761608d18d485",
+      "decision": "CORRECT",
+      "reason": "제6조의2제1항제1호거목은 g목이 아닌 제15목(거목), 특허법 제67조의3제1항 '각 호의 어느 하나'에 해당하는 기간이라는 범위 누락 교정."
+    },
+    {
+      "id": "B2-zh-00058",
+      "source_hash": "a22576381003927f47a3e30739c5dc1e74d7dbe8beb12069e3147ad007b318aa",
+      "decision": "CORRECT",
+      "reason": "원문 아목·어목·하목의 목 번호를 갑/을/h로 바꾼 인용 오류만 정정(아=8, 어=22, 하=14)."
+    }
+  ],
+  "total_corrections": 250,
+  "pending_rows_preserved": 89,
+  "reading_status": "FULL_KO_EN_ZH_SEQUENTIAL_READING_NOT_VERIFIED",
+  "english_note": "B1/B2 official exact-version English indexed; B3 and forms only older historical fallback; cannot claim same-version English.",
+  "completion_receipt": null,
+  "notes": "Official status/active/C05.json and status/worker-bindings.json confirm C05 panel-05 and family. Prior 247 corrections retained. Three decree addenda subsection/priority examination mistranslations corrected. Full 24-doc sequential reading and unresolved source mapping not verified; no COMPLETE receipt."
+}
