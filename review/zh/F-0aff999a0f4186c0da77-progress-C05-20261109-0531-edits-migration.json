@@ -21,8 +21,96 @@
     "nonempty_changed_edits": 1023,
     "intentional_deletion_decisions": 24,
     "no_change_decisions": 32,
-    "decision_file": "review/zh/F-0aff999a0f4186c0da77-empty-edit-decisions-C05-20261109-0531.json"
+    "decision_file": "review/zh/F-0aff999a0f4186c0da77-empty-edit-decisions-C05-20261109-0531.json",
+    "overlay_qc": {
+      "rowCount": 1687,
+      "uniqueRows": 1687,
+      "finalBlankRows": 24,
+      "finalHangulRows": [
+        "A34917-zh-00079"
+      ],
+      "finalMTQSTART": [],
+      "finalDuplicateEditIds": 0,
+      "sourceBlobsMatch": true,
+      "receiptPreviousBlob": "fd93c7ce4b76e9abe8238519d7091e55e8955470",
+      "receiptStatus": "COMPLETE",
+      "sourceCoverageByDoc": [
+        [
+          "B1",
+          169
+        ],
+        [
+          "B2",
+          190
+        ],
+        [
+          "A34909",
+          328
+        ],
+        [
+          "A34910",
+          50
+        ],
+        [
+          "A34911",
+          4
+        ],
+        [
+          "A34912",
+          147
+        ],
+        [
+          "A34913",
+          12
+        ],
+        [
+          "A34914",
+          26
+        ],
+        [
+          "A34915",
+          54
+        ],
+        [
+          "A34916",
+          212
+        ],
+        [
+          "A34917",
+          96
+        ],
+        [
+          "A34918",
+          26
+        ],
+        [
+          "A34920",
+          106
+        ],
+        [
+          "A34921",
+          79
+        ],
+        [
+          "A34922",
+          41
+        ],
+        [
+          "A34923",
+          34
+        ],
+        [
+          "A34924",
+          60
+        ],
+        [
+          "A34925",
+          53
+        ]
+      ]
+    }
   },
-  "outstanding": "Continue exhaustive sequential semantic review and final quality control. Do not mark COMPLETE or issue a completion receipt until the full Chinese review is evidenced and all canonical checks pass.",
-  "prior_review_blob_sha": "fd93c7ce4b76e9abe8238519d7091e55e8955470"
+  "outstanding": "Exhaustive sequential semantic review remains unverified; targeted full-text and source comparison must continue for every Chinese row/document, including numbers, cross-references, tables and forms. Do not issue COMPLETE receipt.",
+  "prior_review_blob_sha": "fd93c7ce4b76e9abe8238519d7091e55e8955470",
+  "last_verified_review_blob_sha": "6c274c021a93f4a9eb70f77a22221d441676929f"
 }
