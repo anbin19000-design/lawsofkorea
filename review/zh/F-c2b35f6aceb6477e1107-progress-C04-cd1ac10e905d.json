@@ -1,0 +1,29 @@
+{
+  "schema": "LAW_ZH_PROGRESS_V1",
+  "job_id": "F-c2b35f6aceb6477e1107",
+  "worker": "C04",
+  "task_id": "WORK-TASK:C04:F-c2b35f6aceb6477e1107:cd1ac10e905d",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
+    "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
+    "zh": "f8879f4a12299069e4831b03f15a2a2fa30c8089"
+  },
+  "documents_total": 15,
+  "zh_rows_total": 1241,
+  "previous_edits": 125,
+  "added_ids": [
+    "A14113-zh-00024",
+    "A14113-zh-00025",
+    "A14113-zh-00033",
+    "A14113-zh-00034",
+    "A14113-zh-00037",
+    "A14113-zh-00052",
+    "A14113-zh-00058"
+  ],
+  "total_unique_edits": 132,
+  "review_blob_sha": "9964d8fcbc9e41bb9ac021c19e18c2cd57d5bd4b",
+  "english_rows_without_direct_match": 330,
+  "receipt_status": "NOT_ISSUED",
+  "note": "Seven A14113 safety annex lines corrected against Korean source. Existing 125 distinct edits preserved and original sources unchanged. English full read and full 1241-row semantic QA cannot yet be certified. Do not mark COMPLETE."
+}
