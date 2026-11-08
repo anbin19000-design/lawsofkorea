@@ -141,7 +141,7 @@
     "chinese": {
       "status": "IN_PROGRESS",
       "rows": 5238,
-      "reviewed_rows": 42,
+      "reviewed_rows": 54,
       "checked_unique_ids": [
         "B1-zh-00001",
         "B1-zh-00002",
@@ -184,21 +184,33 @@
         "B1-zh-00039",
         "B1-zh-00040",
         "B1-zh-00041",
-        "B1-zh-00042"
+        "B1-zh-00042",
+        "B1-zh-00043",
+        "B1-zh-00044",
+        "B1-zh-00045",
+        "B1-zh-00046",
+        "B1-zh-00047",
+        "B1-zh-00048",
+        "B1-zh-00049",
+        "B1-zh-00050",
+        "B1-zh-00051",
+        "B1-zh-00052",
+        "B1-zh-00053",
+        "B1-zh-00054"
       ],
-      "next_row": "B1-zh-00043",
-      "corrections": 27,
+      "next_row": "B1-zh-00055",
+      "corrections": 35,
       "review_path": "review/zh/F-18c01ebc18605187d186.json",
-      "review_blob_sha": "72250274de1602c749932d92d60e4a10eedb74f7"
+      "review_blob_sha": "a020e5ca8f827b8d3c079b395954c10712cacf53"
     }
   },
   "current_review": {
     "path": "review/zh/F-18c01ebc18605187d186.json",
-    "blob_sha": "72250274de1602c749932d92d60e4a10eedb74f7",
+    "blob_sha": "a020e5ca8f827b8d3c079b395954c10712cacf53",
     "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
     "status": "IN_PROGRESS",
-    "edits": 27,
-    "checked_unique_ids": 42
+    "edits": 35,
+    "checked_unique_ids": 54
   },
-  "note": "Resumed from source blobs recorded in official C02 active assignment. Contents API returned empty body for EN/ZH source files; exact SHA blobs were fetched and parsed successfully. Prior progress/review files for this job were not located in current main branch by exact-path lookup or repository code search. No source file modified. Do not infer missing source from empty Contents body. Continue Korean full-family sequential reading, then all available English full texts, then Chinese rows in source order. 689 rows have no linked English coverage, across documents without English references; mark English-unavailable and continue KO/ZH comparison.  B1 and B2 Korean source texts read completely; B3 Korean source reading has begun. No review edits made before completion of the required KO->EN->ZH reading order. Completed B3 Korean full text sequentially (39,904 chars). Started connected annex/form family; no review edits yet. Source hashes remain unchanged. Sequential Korean annex/form reading progressed through the first ten connected documents (A30229-A11339); continue from A11340. No translation edits have been applied. Sequentially read connected Korean annexes/forms through A11357; 20 of 62 unique documents counted (first 5 decree annexes + first 15 ministry-rule annexes). Next A11358. Sequentially read Korean annex/form documents through A11367 (30/62); continue A11368. All 62 connected Korean annex/form documents read. Entire KO family complete. Starting sequential English read; 689 rows without linked English source remain explicitly marked unavailable and will still be checked KO/ZH later. Entire available English sources read sequentially: exact B1 official translation and B2 fallback version. B2 fallback predates current Korean source, so newer decree updates lack corresponding English and will be flagged as unavailable; B3 and ministry-rule annexes/forms have no English document. Now start complete Chinese row review in source order. Began sequential Chinese comparison in source row order. Checked B1 rows 1-6; rows 4-6 had omitted Chinese enumeration markers/subparagraph marker, corrected minimally and saved to cumulative review. Original KO/EN/ZH blobs remain unchanged. Chinese review progressed sequentially through B1-zh-00012. Five minimal corrections recorded (missing clause numbering in Articles 2/3/4; mistranslated discharge/leave; missing community rehabilitation/social participation text). Sequential Chinese review advanced through B1-zh-00036; 18 additional rows examined, with minimal corrections retained for clear mistranslations, broken enumerations and English contamination. Original source blobs unchanged. Sequential Chinese review through B1-zh-00042; current official review and progress checkpoint reconciled to the same saved review SHA."
+  "note": "Resumed from source blobs recorded in official C02 active assignment. Contents API returned empty body for EN/ZH source files; exact SHA blobs were fetched and parsed successfully. Prior progress/review files for this job were not located in current main branch by exact-path lookup or repository code search. No source file modified. Do not infer missing source from empty Contents body. Continue Korean full-family sequential reading, then all available English full texts, then Chinese rows in source order. 689 rows have no linked English coverage, across documents without English references; mark English-unavailable and continue KO/ZH comparison.  B1 and B2 Korean source texts read completely; B3 Korean source reading has begun. No review edits made before completion of the required KO->EN->ZH reading order. Completed B3 Korean full text sequentially (39,904 chars). Started connected annex/form family; no review edits yet. Source hashes remain unchanged. Sequential Korean annex/form reading progressed through the first ten connected documents (A30229-A11339); continue from A11340. No translation edits have been applied. Sequentially read connected Korean annexes/forms through A11357; 20 of 62 unique documents counted (first 5 decree annexes + first 15 ministry-rule annexes). Next A11358. Sequentially read Korean annex/form documents through A11367 (30/62); continue A11368. All 62 connected Korean annex/form documents read. Entire KO family complete. Starting sequential English read; 689 rows without linked English source remain explicitly marked unavailable and will still be checked KO/ZH later. Entire available English sources read sequentially: exact B1 official translation and B2 fallback version. B2 fallback predates current Korean source, so newer decree updates lack corresponding English and will be flagged as unavailable; B3 and ministry-rule annexes/forms have no English document. Now start complete Chinese row review in source order. Began sequential Chinese comparison in source row order. Checked B1 rows 1-6; rows 4-6 had omitted Chinese enumeration markers/subparagraph marker, corrected minimally and saved to cumulative review. Original KO/EN/ZH blobs remain unchanged. Chinese review progressed sequentially through B1-zh-00012. Five minimal corrections recorded (missing clause numbering in Articles 2/3/4; mistranslated discharge/leave; missing community rehabilitation/social participation text). Sequential Chinese review advanced through B1-zh-00036; 18 additional rows examined, with minimal corrections retained for clear mistranslations, broken enumerations and English contamination. Original source blobs unchanged. Sequential Chinese review through B1-zh-00042; current official review and progress checkpoint reconciled to the same saved review SHA. Sequential Chinese review advanced through B1-zh-00054; 12 additional rows checked, preserving existing correct translations."
 }
