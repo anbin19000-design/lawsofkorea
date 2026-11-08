@@ -1,0 +1,88 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "status": "IN_PROGRESS",
+  "checked_rows": 7,
+  "corrected_rows": 7,
+  "edits": [
+    {
+      "id": "A23951-zh-00002",
+      "text": "水产品产地批发市场开设许可申请书"
+    },
+    {
+      "id": "A23952-zh-00002",
+      "text": "产地交易参与者申报书"
+    },
+    {
+      "id": "A23953-zh-00002",
+      "text": "水产品追溯管理登记（新登记、续期）申请书"
+    },
+    {
+      "id": "A23954-zh-00003",
+      "text": "水产品追溯管理登记证"
+    },
+    {
+      "id": "A23955-zh-00002",
+      "text": "水产品追溯管理登记证补发申请书"
+    },
+    {
+      "id": "A23956-zh-00002",
+      "text": "水产品追溯管理登记事项变更申报书"
+    },
+    {
+      "id": "A23957-zh-00002",
+      "text": "水产品追溯管理登记有效期延长申请书"
+    }
+  ],
+  "judgments": [
+    {
+      "id": "A23951-zh-00002",
+      "decision": "EDIT",
+      "source_hash": "d4e2c77ed8e9f5d63f2bbe416a9f9a443806689b039077556b4ef38b51c42e4c",
+      "basis": "한국어 원문 별지 제1~7호 서식명(신청서·신고서·등록증)의 문서 유형·명칭을 정확히 반영"
+    },
+    {
+      "id": "A23952-zh-00002",
+      "decision": "EDIT",
+      "source_hash": "4f09d6636e0f07591769126c2bfd740b746456f5a20fb64bd7e8ebc58cdedd15",
+      "basis": "한국어 원문 별지 제1~7호 서식명(신청서·신고서·등록증)의 문서 유형·명칭을 정확히 반영"
+    },
+    {
+      "id": "A23953-zh-00002",
+      "decision": "EDIT",
+      "source_hash": "76fa01db3c706bbe5703363c4ecc9688618cbcbbfdbfd16092f37a645d0153cc",
+      "basis": "한국어 원문 별지 제1~7호 서식명(신청서·신고서·등록증)의 문서 유형·명칭을 정확히 반영"
+    },
+    {
+      "id": "A23954-zh-00003",
+      "decision": "EDIT",
+      "source_hash": "5f2022b49cba6c5367aaf8369554a89948d28a55d65b5f9672ef1c64b6466f92",
+      "basis": "한국어 원문 별지 제1~7호 서식명(신청서·신고서·등록증)의 문서 유형·명칭을 정확히 반영"
+    },
+    {
+      "id": "A23955-zh-00002",
+      "decision": "EDIT",
+      "source_hash": "11d16d01fe1fa25605160b3e4e7e8a83398f1b0e7dca84968e12cbc95207a15b",
+      "basis": "한국어 원문 별지 제1~7호 서식명(신청서·신고서·등록증)의 문서 유형·명칭을 정확히 반영"
+    },
+    {
+      "id": "A23956-zh-00002",
+      "decision": "EDIT",
+      "source_hash": "d3bf41c61877aaea5cf9b247fa6950a19e1fb11749f112661d48278f7780a382",
+      "basis": "한국어 원문 별지 제1~7호 서식명(신청서·신고서·등록증)의 문서 유형·명칭을 정확히 반영"
+    },
+    {
+      "id": "A23957-zh-00002",
+      "decision": "EDIT",
+      "source_hash": "fe0c95e1cb0dd16ac502847148b6c8bae6ce108850e8548c2372e67c21ea1999",
+      "basis": "한국어 원문 별지 제1~7호 서식명(신청서·신고서·등록증)의 문서 유형·명칭을 정확히 반영"
+    }
+  ],
+  "source_sha": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c",
+    "en": "32423453da2fcfa466c97946520181a32643e289"
+  },
+  "note": "Korean registered form titles corrected; earlier Chinese text and full source preserved."
+}
