@@ -1,0 +1,26 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-18c01ebc18605187d186",
+  "family_id": "F-18c01ebc18605187d186",
+  "assignment_id": "UW-0a673f8b565379da27f279fba00d2225",
+  "worker": "C02",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "1805b1dd08b6fb873f41f2ecc4a176f21df600e7",
+    "en": "012c37af32361e00852ac15d80479e7420c1c02b",
+    "zh": "33f05fab4e90982af82e2021dd54235f11428a33"
+  },
+  "document_count": 65,
+  "total_zh_rows": 5238,
+  "checked_rows": 675,
+  "corrected_rows": 308,
+  "review_blob_sha": "8197080ef69b01352e68f7af9341a2908fe6f3f7",
+  "checkpoint": "A30232-zh-00018",
+  "ordered_reading_certification": {
+    "korean": "READ_COMPLETE_ALL_65_DOCUMENTS",
+    "english": "READ_COMPLETE_AVAILABLE_SOURCES_B1_AND_B2_FALLBACK",
+    "chinese": "IN_PROGRESS; B1 complete; B2 through row 105; A30229 rows 1-212 reviewed; A30230 rows 1-29 reviewed; A30231 rows 1-136 reviewed; A30232 rows 1-18 reviewed; remaining documents pending"
+  },
+  "pending": "Continue A30233 from row 1; then B3 and connected annexes/forms. A30229 split-table final QA remains outstanding."
+}
