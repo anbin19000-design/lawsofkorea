@@ -29,7 +29,18 @@
       "final_text": "须立即报告。",
       "verdict": "ACCEPT",
       "reason": "한국어 연결 셀의 '즉시 보고해야 한다'를 번역함. START는 원문에 없는 표식이며 '报到'는 보고(报告)의 오역."
+    },
+    {
+      "id": "A22639-zh-00028",
+      "target_id": "XML:1607175",
+      "source_hash": "4929f7cc03943d2c008ecc1a45d64cb034cde13f4c2026ac05f706d753b85fa4",
+      "korean_context": "[별지 제7호서식] '2. 승무원 현황' 표 머리글 '구분 | 인원(명)' 및 다음 행 '운항승무원 | 객실승무원 | 합계'",
+      "original_text": "MTQ74d39927258b867f00043的数量END",
+      "candidate_text": "人数（人）",
+      "final_text": "人数（人）",
+      "verdict": "ACCEPT",
+      "reason": "표 머리글 '인원(명)'을 뜻에 맞게 번역하고 MTQ/END 혼입을 제거. 인접 '구분' 및 승무원 유형별 인원 열과 일치."
     }
   ],
-  "note": "Two newly adjudicated cells verified directly against Korean annex table contexts; prior quality records and source hashes preserved. Remaining cells not completed."
+  "note": "Three newly adjudicated cells verified against Korean annex/form tables. All previous checked IDs and hashes preserved; IN_PROGRESS."
 }
