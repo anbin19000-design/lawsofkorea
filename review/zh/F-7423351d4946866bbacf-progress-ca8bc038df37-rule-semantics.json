@@ -1,0 +1,39 @@
+{
+  "schema": "LAW_ZH_REVIEW_AUDIT_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:ca8bc038df37]",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "review_blob": "51e473e91d8395a07e1f24609698637e9ab26ec0",
+  "review_path": "review/zh/F-7423351d4946866bbacf.json",
+  "documents": 16,
+  "zh_rows": 1207,
+  "prior_corrections": 238,
+  "total_corrections": 243,
+  "new_correction_ids": [
+    "B3-zh-00038",
+    "B3-zh-00039",
+    "B3-zh-00041",
+    "B3-zh-00048",
+    "B3-zh-00053"
+  ],
+  "validation": "Specific Chinese phrases checked against Korean version with exact source offsets. No independent English for B3. All previous corrections retained. Existing Korean/English/Chinese source blobs unchanged.",
+  "english_status": {
+    "B1": "EXACT_ENGLISH_AVAILABLE",
+    "B2": "EXACT_ENGLISH_AVAILABLE",
+    "B3": "NO_DOCUMENT_ENGLISH",
+    "rules_annexes_forms": "NO_DOCUMENT_ENGLISH"
+  },
+  "semantic_review_completed": false,
+  "unresolved": [
+    "Entire Chinese text not yet meaning-verified across all 1207 rows",
+    "Annex/form XML individual cells including punctuation-only markers remain unaligned"
+  ],
+  "completion_receipt_issued": false,
+  "next_action": "Continue complete sequential semantic Korean-English-Chinese review for same family; reconcile annex/form cells, validate all 1207 rows, then issue COMPLETE only after finished and independently re-read."
+}
