@@ -1,0 +1,40 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "worker": "C05",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "dc21d95827ef90f5409f98a4f3014cba24d319eb",
+  "previous_corrections": 256,
+  "new_correction_ids": [
+    "B1-zh-00156",
+    "B1-zh-00161",
+    "B1-zh-00166",
+    "B1-zh-00171",
+    "B3-zh-00076",
+    "B3-zh-00081",
+    "B3-zh-00103"
+  ],
+  "correction_count": 263,
+  "pending_rows": 89,
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "full_reading_proven": false,
+  "completion_receipt": null,
+  "english_note": "B1/B2 official exact-version; B3/forms only 2010 fallback, not exact current version; decree also has AI draft.",
+  "english_reference_rows": {
+    "with_english": 771,
+    "without_english": 603
+  },
+  "note": "한국어 법률/시행규칙 원문에서 부칙 제목 7곳을 직접 대조해 오역만 수정. 기존 256건 교정 및 89행 판독·매핑 보류 유지. 24개 KO/EN/ZH 원본 전체 순차 독해·최종 검증은 미완료이므로 COMPLETE 금지."
+}
