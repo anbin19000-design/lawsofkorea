@@ -1,0 +1,11 @@
+{
+  "assignment_id": "S2-8f70e317249155938a79444493d089b4",
+  "created_at": "2026-11-08T03:56:27.733464+00:00",
+  "job_id": "F-0536890d62605f77ff0a",
+  "marker": "[LAW-SUPPLY-V2:S2-8f70e317249155938a79444493d089b4:C03:F-0536890d62605f77ff0a] [LAW-VERIFIED-ACTION:aea3fd4dc3fef3a540]",
+  "prompt": "[LAW-SUPPLY-V2:S2-8f70e317249155938a79444493d089b4:C03:F-0536890d62605f77ff0a] [LAW-VERIFIED-ACTION:aea3fd4dc3fef3a540]\n공급기에서 후속 작업을 수취하여 작업을 재개하세요.\nanbin19000-design/lawsofkorea / main / F-0536890d62605f77ff0a / 인신매매등방지 및 피해자보호 등에 관한 법률\n행 범위 합집합 확인 뒤 남은 것은 교정문 자체의 최종 품질 검증입니다. 이번 첫 구간은 status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00001-00010.json에 있는 B1-zh-00004,B1-zh-00006,B1-zh-00010입니다. 이 행들의 확정 후보 중국어와 한국어 원문을 직접 대조하여 해시, 조문 인용, 주체·의무 표현, MTQ·START 잔류 여부를 확인하십시오. 55개 파일 전체를 재호출하지 말고 이 구간의 최종 판단을 구간별 고유 status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-quality-01.json에 IN_PROGRESS로 저장·재조회하십시오. 원문과 기존 교정은 보존하고 이어서 같은 방식으로 검증한 구간을 누적하십시오.",
+  "prompt_sha256": "eba8565a9b5cdae12ae363e41654f19b0449bc7fc4aca6ccd211b8b85cee23d0",
+  "status": "INTENT",
+  "url": "https://chatgpt.com/c/6aeff126-a138-83ec-af1c-b11c0b795538",
+  "worker": "C03"
+}
