@@ -1,0 +1,23 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "checked_rows": 1,
+  "checked_ids": [
+    "B2-zh-00209"
+  ],
+  "edits": [
+    {
+      "id": "B2-zh-00209",
+      "text": "附则 <第36373号，2026年6月2日>\n\n本令自2026年6月3日起施行。\n\n"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "note": "Checked B2-zh-00209 against the exact B2 Korean source span (47616–47665): only the June 2026 supplementary provision is present. Existing Chinese target improperly appends Annex 1's title/table (and untranslated Korean), which has its own A36424 rows. Correction removes the cross-document attachment from B2 without modifying or discarding A36424. R51 and earlier saved reviews preserved; not a COMPLETE receipt."
+}
