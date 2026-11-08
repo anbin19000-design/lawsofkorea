@@ -1,0 +1,36 @@
+{
+  "schema": "LAW_ZH_REVIEW_AUDIT_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "panel_id": "panel-01",
+  "assignment_id": "S2-c174f0e36bef5fedb717095f1cea01f6",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:1edbd4e630b3]",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "review_path": "review/zh/F-7423351d4946866bbacf.json",
+  "review_blob": "b4daa6db7df1be35fe7da8695fb5acc0b7043b2e",
+  "source_documents": 16,
+  "source_rows": 1207,
+  "unique_correction_ids": 287,
+  "amended_existing_ids": [
+    "B1-zh-00020",
+    "B1-zh-00031"
+  ],
+  "details": [
+    "Act Art16 산지경매사 normalized as 产地拍卖师; related origin middle wholesalers terminology",
+    "Act Art26(2)4 and (3) disciplinary grounds corrected to express failure to dismiss/relieve, not successful dismissal"
+  ],
+  "source_sha_unchanged": true,
+  "prior_edits_preserved": true,
+  "receipt_exists": false,
+  "full_semantic_review_completed": false,
+  "unresolved": [
+    "Full 1207-row semantic review",
+    "Annex/form XML source-cell correspondence"
+  ],
+  "next_action": "Continue same family; COMPLETE only after full source coverage and verification."
+}
