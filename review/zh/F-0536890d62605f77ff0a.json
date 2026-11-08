@@ -10,8 +10,8 @@
   "document_count": 22,
   "source_rows": 1136,
   "checked_rows": null,
-  "candidate_ids_reconciled": 801,
-  "edits_count": 787,
+  "candidate_ids_reconciled": 802,
+  "edits_count": 788,
   "unchanged_candidates": 14,
   "conflict_ids_adjudicated": [
     "A26693-zh-00039",
@@ -24,7 +24,7 @@
   ],
   "document_edit_counts": {
     "B1": 32,
-    "B2": 24,
+    "B2": 25,
     "A39474": 44,
     "A39475": 48,
     "A39476": 35,
@@ -3981,6 +3981,11 @@
       "id": "A39477-zh-00018",
       "source_hash": "3e56d218ff4a465a98cf2b07f2f5a6afa15260d7fbd2150f050f93f599fc0fca",
       "text": "d. 支援设施使用规则"
+    },
+    {
+      "id": "B2-zh-00016",
+      "source_hash": "643e1d0b3fadbedfc846cf08f2873130ebe5cfed3ede0405a3b3f690c0c9991d",
+      "text": "第十五条（报告义务）本法第二十一条第二款第十一项中“总统令规定的设施”是指下列各项所指的任何设施。\n1. 根据《无家可归者福利及自立支援法》设立的无家可归者设施。\n2. 韩国海员福利就业中心依据《海员法》第142条规定\n3. 根据《儿童福利法》第45条设立的儿童保护机构\n4. 根据《外国劳动者雇佣等法施行令》第三十一条第二款及第三款，受托执行《外国劳动者雇佣等法》第二十一条规定的业务的韩国产业人力公团、非营利法人或者非营利团体。\n5. 根据《残疾人福利法》第59-11条第1款设立的残疾人权利中央倡导机构和根据该条第2款设立的残疾人权利区域倡导机构\n\n"
     }
   ],
   "unresolved_ids": [
@@ -4032,7 +4037,7 @@
     "ready_for_complete": false,
     "structural_audit_passed": true
   },
-  "note": "All previous edits and original hashes preserved. C03 d28d2c522ad0: corrected the existing B3-zh-00006 item 2 source term 지원시설에 입소 지원 to 协助受害者入住支援设施. Layout/segmentation anomalies remain; COMPLETE not authorized.",
+  "note": "Preserved prior records; corrected B3-zh-00006 in-place and B2-zh-00016 item 4 official organization and entrustment relationship. Full semantic QA and unresolved form/table layout remain pending.",
   "structural_audit": {
     "path": "review/zh/F-0536890d62605f77ff0a-progress-C03-a166f62f1d4a-structural-audit.json",
     "metrics": {
