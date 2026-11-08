@@ -1,0 +1,24 @@
+{
+  "schema": "LAW_ZH_PROGRESS_V1",
+  "job_id": "F-c2b35f6aceb6477e1107",
+  "worker": "C04",
+  "task_id": "WORK-TASK:C04:F-c2b35f6aceb6477e1107:417a9f1335b8",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
+    "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
+    "zh": "f8879f4a12299069e4831b03f15a2a2fa30c8089"
+  },
+  "total_documents": 15,
+  "total_zh_rows": 1241,
+  "unique_saved_edits": 36,
+  "added_ids": [
+    "B2-zh-00010",
+    "B2-zh-00014",
+    "B1-zh-00088"
+  ],
+  "review_blob_sha": "bc9b9b15325ab075ecb7960e83c252ec6ce77526",
+  "english_rows_without_direct_match": 330,
+  "first_unreviewed_in_order": "B1-zh-00086",
+  "note": "Three new Korean-anchored corrections saved after previous 33. Connected English versions and source index previously retrieved; absence of English row-level mapping does not establish absence of English full-text. Semantic review of all 1241 Chinese rows not complete. No receipt required."
+}
