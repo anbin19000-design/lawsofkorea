@@ -315,7 +315,8 @@
     "Six additional rows corrected for omitted/mislabelled statutory paragraph markers and incorrect Article 8-2/Annex 3-2 cross-references. Full 1516-row review remains incomplete.",
     "Four further corrections: remove duplicated malformed tail in Act Article 23, correct parent statute title in Enforcement Rule Article 2, restore paragraph numbering in Rule Article 4, and correct local-authority enumeration in Rule Article 15.",
     "Four further corrections: designation-application terminology, paragraph citation, defined system name, and amended Act title. Row B1-zh-00047 was already present in the prior review and was not duplicated.",
-    "This continuation re-read the source inventories and current progress file. Targeted residual scan found no remaining Hangul runs in 1516 Chinese rows. Remaining suspicious paragraph-number matches were manually checked against Korean source and are legitimate (subitems or existing paragraph markers), so no speculative edit was added. English index reports 1300 rows with English and 216 without; linked English files remain distinct from full coverage. Full sequential semantic review of all 1516 Chinese rows is still not evidenced."
+    "This continuation re-read the source inventories and current progress file. Targeted residual scan found no remaining Hangul runs in 1516 Chinese rows. Remaining suspicious paragraph-number matches were manually checked against Korean source and are legitimate (subitems or existing paragraph markers), so no speculative edit was added. English index reports 1300 rows with English and 216 without; linked English files remain distinct from full coverage. Full sequential semantic review of all 1516 Chinese rows is still not evidenced.",
+    "Clarification: Hangul scan of the untouched source zh rows finds five rows with source-language fragments; all five are already represented in accumulated edit text and those corrected outputs contain no Hangul. The corrected-output overlay therefore has zero Hangul remnants. This does not establish semantic review of every other row."
   ],
   "audit_snapshot": {
     "source_sha": {
@@ -325,9 +326,10 @@
     },
     "document_count": 33,
     "zh_rows": 1516,
-    "rows_with_hangul": 5,
+    "rows_with_hangul": 0,
     "english_rows_with_text": 1300,
     "english_rows_without_text": 216,
-    "previous_corrections": 45
+    "previous_corrections": 45,
+    "corrected_rows_with_hangul": 0
   }
 }
