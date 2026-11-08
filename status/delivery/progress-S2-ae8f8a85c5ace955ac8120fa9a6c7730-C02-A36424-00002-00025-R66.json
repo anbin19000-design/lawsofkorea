@@ -1,0 +1,31 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 6,
+  "checked_ids": [
+    "A36424-zh-00002",
+    "A36424-zh-00004",
+    "A36424-zh-00005",
+    "A36424-zh-00020",
+    "A36424-zh-00021",
+    "A36424-zh-00025"
+  ],
+  "edits": [
+    {
+      "id": "A36424-zh-00002",
+      "source_hash": "175e90d7a541a371e2fd69b9d9e06fb87a4739f75e182319d701e5de6f1182b0",
+      "target_id": "XML:2657225",
+      "text": "智慧城市服务支持机构的指定要求（与第二十二条之四第二款相关）"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "note": "R66: Checked six previously unlisted header/table labels against the Korean annex 1: rows 2,4,5,20,21,25. Corrected article citation formatting in row 2 (제22조의4제2항), other five labels retained. Preserves all existing R1-R65 and older annex fragment edits. This is an intermediate record, not the family-wide 1133-row COMPLETE review or receipt."
+}
