@@ -1,0 +1,29 @@
+{
+  "schema": "LAW_ZH_PROGRESS_V1",
+  "job_id": "F-094f31803e062ee4a97a",
+  "worker": "C04",
+  "assignment_id": "UW-15c632008f6077278d64792813503303",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_commit": "2ce36c1d2c3126e746f23cca98528f422806d105",
+  "source_blobs": {
+    "ko": "b14a891dbe6797a6104709952ca287463c1c7738",
+    "en": "1ff368bfa23fbc009f113f448d14560f8198854f",
+    "zh": "48cd27064980991865a4486f347730938f51f733"
+  },
+  "documents": 25,
+  "total_rows": 1560,
+  "korean_read_complete": [
+    "B1",
+    "B2",
+    "A38017",
+    "A38018"
+  ],
+  "english_read_complete": [],
+  "chinese_read_complete": [],
+  "existing_review_found": false,
+  "existing_receipt_found": false,
+  "english_availability": "B1 official English document; other documents NO_DOCUMENT_ENGLISH; B3 and related annex/form reviewed/en/KR_012391.json reference to inspect only after all Korean documents are read",
+  "next_stage": "Continue Korean source full sequential reading from B3 through A23735, then English sources, then Chinese rows.",
+  "note": "Official C04 current assignment verified on active status. No existing canonical review or receipt for this family. Preserve all original SHA and IDs. Do not issue COMPLETE until all sources read and each Chinese row checked."
+}
