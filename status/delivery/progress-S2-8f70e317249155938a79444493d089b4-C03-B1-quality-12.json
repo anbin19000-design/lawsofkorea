@@ -1,0 +1,44 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "B1",
+  "quality_batch": "B1-quality-12",
+  "range": {
+    "first": "B1-zh-00057",
+    "last": "B1-zh-00062"
+  },
+  "quality_checked_rows": 2,
+  "quality_passed_rows": 2,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "B1-zh-00058",
+    "B1-zh-00061"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00057-00062.json",
+  "results": [
+    {
+      "id": "B1-zh-00058",
+      "source_hash": "3480e86a86ef9ad8c919b6a09b870d318b15d3a9f68ecd56d35864dbf3fed08b",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "The Korean row is supplementary provisions of the Government Organization Act, Act No. 21065, 2025-10-01, and the saved Chinese correction accurately preserves the appendix name, act number and date."
+    },
+    {
+      "id": "B1-zh-00061",
+      "source_hash": "5d7314ee65df09500d7dce2d87535e4d737f318db1a8351753d7ecbeaf697421",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Korean Government Organization Act Article 7 amendment, items 425 and 426-626, matches the saved Chinese correction: old and new ministry names, Deputy Prime Minister/Education Minister replacement, and all enumerated clauses preserved."
+    }
+  ],
+  "edits": [],
+  "note": "Two previously unquality-checked saved B1 corrections checked directly against corresponding Korean source slices. Existing corrections unchanged. Full family quality review and union reconciliation remain IN_PROGRESS; no final receipt."
+}
