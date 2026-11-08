@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 2820,
+    "verified_zh_rows": 2900,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 2820,
-      "checked_rows": 2820,
+      "next_row_zero_based": 2900,
+      "checked_rows": 2900,
       "total_rows": 5228
     }
   },
@@ -3781,9 +3781,159 @@
       "text": "4车道",
       "original_text": "4 通道",
       "reason": "4차로를 4개 통로로 오역"
+    },
+    {
+      "id": "A4687-zh-00044",
+      "text": "5车道以上",
+      "original_text": "5 条或更多通道",
+      "reason": "5차로 이상을 ‘통로’로 오역"
+    },
+    {
+      "id": "A4687-zh-00045",
+      "text": "其他桥梁",
+      "original_text": "其他桥接器",
+      "reason": "그 밖의 교량을 ‘교량 연결장치’로 오역"
+    },
+    {
+      "id": "A4687-zh-00051",
+      "text": "车行道",
+      "original_text": "查德威",
+      "reason": "차도를 음역 형태로 훼손"
+    },
+    {
+      "id": "A4687-zh-00052",
+      "text": "中央分隔带",
+      "original_text": "中央分隔符",
+      "reason": "중앙분리대를 분리 기호로 오역"
+    },
+    {
+      "id": "A4687-zh-00053",
+      "text": "路肩（人行道）",
+      "original_text": "街道路肩（人行道）",
+      "reason": "길어깨 표제의 중복·부정확한 번역"
+    },
+    {
+      "id": "A4687-zh-00055",
+      "text": "面层、基层及铺装板",
+      "original_text": "表面层·",
+      "reason": "표층·기층 및 포장슬래브 표제가 잘려 핵심 내용 누락"
+    },
+    {
+      "id": "A4687-zh-00056",
+      "text": "基层",
+      "original_text": "底座",
+      "reason": "기층을 일반적인 받침대로 오역"
+    },
+    {
+      "id": "A4687-zh-00058",
+      "text": "2车道以上、不足4车道",
+      "original_text": "2nd 车道异常",
+      "reason": "2차로 이상 4차로 미만 구간을 오역"
+    },
+    {
+      "id": "A4687-zh-00059",
+      "text": "4车道以上、不足6车道",
+      "original_text": "4 车道异常",
+      "reason": "4차로 이상 6차로 미만 구간을 오역"
+    },
+    {
+      "id": "A4687-zh-00060",
+      "text": "6车道以上",
+      "original_text": "6 条或更多通道",
+      "reason": "차로를 통로로 오역"
+    },
+    {
+      "id": "A4687-zh-00061",
+      "text": "铺装板",
+      "original_text": "路面板",
+      "reason": "포장슬래브를 단순 노면판으로 불완전 표기"
+    },
+    {
+      "id": "A4687-zh-00062",
+      "text": "不足4车道",
+      "original_text": "少于 4 条车道",
+      "reason": "차로 수 기준 용어를 통일"
+    },
+    {
+      "id": "A4687-zh-00063",
+      "text": "不足6车道",
+      "original_text": "少于 6 条车道",
+      "reason": "차로 수 기준 용어를 통일"
+    },
+    {
+      "id": "A4687-zh-00064",
+      "text": "车行道",
+      "original_text": "查德威",
+      "reason": "차도를 음역 형태로 훼손"
+    },
+    {
+      "id": "A4687-zh-00065",
+      "text": "路肩（人行道）",
+      "original_text": "街道路肩（人行道）",
+      "reason": "길어깨 표제의 중복·부정확한 번역"
+    },
+    {
+      "id": "A4687-zh-00070",
+      "text": "未铺装",
+      "original_text": "未打包",
+      "reason": "비포장 도로를 미포장 상품으로 오역"
+    },
+    {
+      "id": "A4687-zh-00071",
+      "text": "已铺装",
+      "original_text": "包装",
+      "reason": "포장도로를 포장·포장하기로 오역"
+    },
+    {
+      "id": "A4687-zh-00072",
+      "text": "未铺装",
+      "original_text": "未打包",
+      "reason": "비포장 상태를 오역"
+    },
+    {
+      "id": "A4687-zh-00087",
+      "text": "道路用地面积",
+      "original_text": "道路场地区域",
+      "reason": "도로부지 면적을 도로 현장 구역으로 오역"
+    },
+    {
+      "id": "A4687-zh-00096",
+      "text": "国有地",
+      "original_text": "国家土地",
+      "reason": "국유지를 국가의 토지로 직역해 법적 소유구분을 흐림"
+    },
+    {
+      "id": "A4687-zh-00097",
+      "text": "公有地",
+      "original_text": "共享",
+      "reason": "공유지를 공유/공동 사용으로 오역"
+    },
+    {
+      "id": "A4687-zh-00098",
+      "text": "私有地",
+      "original_text": "私有属性",
+      "reason": "사유지를 사유 속성으로 오역"
+    },
+    {
+      "id": "A4687-zh-00101",
+      "text": "不足460米",
+      "original_text": "460m 小于",
+      "reason": "곡선반경 구간의 ‘460m 미만’을 문법적으로 훼손"
+    },
+    {
+      "id": "A4687-zh-00115",
+      "text": "过线桥",
+      "original_text": "和行",
+      "reason": "과선교 표제의 미번역·훼손"
+    },
+    {
+      "id": "A4687-zh-00116",
+      "text": "跨线道路（跨线通道）",
+      "original_text": "加多",
+      "reason": "가도 표제의 미번역·훼손"
     }
   ],
-  "note": "Sequential Chinese review continued through original row 2819, reviewing appraisal fee notice appeal rights and beginning the 20-page road register. Added focused corrections to appraisal payment notice vs already paid, objection and 90-day administrative remedies, road ledger title, road segment/route length/dedicated/common-use/unpassable length, route length details, unopened road, and lane count units. Previous 587 edits retained. Continue from row 2820. IN_PROGRESS.",
+  "note": "Resumed from the latest shared checkpoint (row 2820; 605 cumulative edits) and reviewed sequentially through row 2899, road ledger form labels. Added 25 focused corrections for lane-count terminology, bridge categories, roadway/median/shoulder labels, pavement structure, surfaced/unpaved status, road land ownership categories, curvature range and crossing facility labels. Prior edits preserved. Continue from row 2900. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
