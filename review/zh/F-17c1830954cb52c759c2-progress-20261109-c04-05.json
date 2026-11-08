@@ -1,0 +1,261 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-17c1830954cb52c759c2",
+  "worker": "C04",
+  "panel_id": "panel-04",
+  "assignment_id": "UW-ae29ceae79dce2b6f6b096967b9c7d2a",
+  "predecessor_assignment_id": "UW-13dcf8b336720c3b2618fdc820a94e6a",
+  "status": "IN_PROGRESS",
+  "source_commit": "5f7a7e32af396dc79cd118fe4cd10694a66a9197",
+  "source_blobs": {
+    "ko": "dc7900aa39aa4daea43830abfc398a436695411c",
+    "en": "6dde8519d0cb5d72763353feaac3b483954cd1bc",
+    "zh": "cd35c01be0c39b6adbf2cc69f5f814e2c9cf8a67"
+  },
+  "review_file_sha": "e6cbb655bfabddbaa96912665018bbb57f647d46",
+  "active_status": {
+    "path": "status/active/C04.json",
+    "sha": "b9889f82b1d4c10ad942ff0f63eb582eaf54e683",
+    "status": "ACTIVE",
+    "family_id": "F-17c1830954cb52c759c2",
+    "assignment_id": "UW-ae29ceae79dce2b6f6b096967b9c7d2a",
+    "conversation_url": "https://chatgpt.com/c/6af0c95b-3e00-83ec-aba9-d103f4cabde6"
+  },
+  "worker_binding": {
+    "path": "status/worker-bindings.json",
+    "sha": "be3d64762dcfd31d6955e81f28a3deeb2d7148c6",
+    "conversation_url_matches_active": true,
+    "description_mismatch": "The C04 binding description contains an older school-lunch task title/body, but its verified URL matches active C04 and active status confirms this same UAM job. No other project's W worker list used."
+  },
+  "progress": {
+    "documents": 30,
+    "total_rows": 1275,
+    "reviewed_rows": 360,
+    "corrected_rows": 325,
+    "unchanged_rows": 35,
+    "pending_rows": 915
+  },
+  "reading": {
+    "korean": "COMPLETE: all 30 Korean source documents read in required order.",
+    "english": "COMPLETE: exact/fallback official English Act and Decree plus all 195 rows in reviewed/en/KR_014648.json read in order.",
+    "chinese": "IN_PROGRESS: B1 42/42, B2 35/35, B3 26/27 (B3-00027 appendix content cannot be verified against available Korean full text or English references), Decree appendices A39652-A39656 all reviewed; forms and remaining annexes in progress."
+  },
+  "per_document": {
+    "B1": {
+      "total": 42,
+      "reviewed": 42,
+      "corrected": 22,
+      "unchanged": 20,
+      "pending": 0
+    },
+    "B2": {
+      "total": 35,
+      "reviewed": 35,
+      "corrected": 24,
+      "unchanged": 11,
+      "pending": 0
+    },
+    "A39652": {
+      "total": 27,
+      "reviewed": 27,
+      "corrected": 27,
+      "unchanged": 0,
+      "pending": 0
+    },
+    "A39653": {
+      "total": 54,
+      "reviewed": 54,
+      "corrected": 53,
+      "unchanged": 1,
+      "pending": 0
+    },
+    "A39654": {
+      "total": 16,
+      "reviewed": 16,
+      "corrected": 16,
+      "unchanged": 0,
+      "pending": 0
+    },
+    "A39655": {
+      "total": 53,
+      "reviewed": 53,
+      "corrected": 51,
+      "unchanged": 2,
+      "pending": 0
+    },
+    "A39656": {
+      "total": 42,
+      "reviewed": 42,
+      "corrected": 41,
+      "unchanged": 1,
+      "pending": 0
+    },
+    "B3": {
+      "total": 27,
+      "reviewed": 26,
+      "corrected": 26,
+      "unchanged": 0,
+      "pending": 1
+    },
+    "A27040": {
+      "total": 79,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0,
+      "pending": 79
+    },
+    "A27041": {
+      "total": 27,
+      "reviewed": 27,
+      "corrected": 27,
+      "unchanged": 0,
+      "pending": 0
+    },
+    "A27042": {
+      "total": 90,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0,
+      "pending": 90
+    },
+    "A27043": {
+      "total": 81,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0,
+      "pending": 81
+    },
+    "A27044": {
+      "total": 39,
+      "reviewed": 2,
+      "corrected": 2,
+      "unchanged": 0,
+      "pending": 37
+    },
+    "A27045": {
+      "total": 16,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0,
+      "pending": 16
+    },
+    "A27046": {
+      "total": 15,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0,
+      "pending": 15
+    },
+    "A27047": {
+      "total": 80,
+      "reviewed": 1,
+      "corrected": 1,
+      "unchanged": 0,
+      "pending": 79
+    },
+    "A27048": {
+      "total": 78,
+      "reviewed": 2,
+      "corrected": 2,
+      "unchanged": 0,
+      "pending": 76
+    },
+    "A27049": {
+      "total": 69,
+      "reviewed": 2,
+      "corrected": 2,
+      "unchanged": 0,
+      "pending": 67
+    },
+    "A27050": {
+      "total": 55,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0,
+      "pending": 55
+    },
+    "A27051": {
+      "total": 21,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0,
+      "pending": 21
+    },
+    "A27052": {
+      "total": 59,
+      "reviewed": 3,
+      "corrected": 3,
+      "unchanged": 0,
+      "pending": 56
+    },
+    "A27053": {
+      "total": 47,
+      "reviewed": 3,
+      "corrected": 3,
+      "unchanged": 0,
+      "pending": 44
+    },
+    "A27054": {
+      "total": 17,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0,
+      "pending": 17
+    },
+    "A27055": {
+      "total": 15,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0,
+      "pending": 15
+    },
+    "A27056": {
+      "total": 43,
+      "reviewed": 1,
+      "corrected": 1,
+      "unchanged": 0,
+      "pending": 42
+    },
+    "A27057": {
+      "total": 26,
+      "reviewed": 1,
+      "corrected": 1,
+      "unchanged": 0,
+      "pending": 25
+    },
+    "A27058": {
+      "total": 46,
+      "reviewed": 3,
+      "corrected": 3,
+      "unchanged": 0,
+      "pending": 43
+    },
+    "A27059": {
+      "total": 14,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0,
+      "pending": 14
+    },
+    "A27060": {
+      "total": 15,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0,
+      "pending": 15
+    },
+    "A27061": {
+      "total": 47,
+      "reviewed": 20,
+      "corrected": 20,
+      "unchanged": 0,
+      "pending": 27
+    }
+  },
+  "issues": [
+    "B3-zh-00027 includes detailed appendix 1 text not present in Korean B3 source_ko (which ends at the 2024 addendum) or English reference rows (titles only). Keep pending until matching official source content is found; do not invent.",
+    "A27052-zh-00028 retains source form citation Article 93(12) although main Act states Article 9(12); note discrepancy, do not silently normalize.",
+    "The original official receipt file remains NOT_FOUND; do not generate COMPLETE receipt before all rows and final QA."
+  ],
+  "next_step": "Continue review of A27040, A27042, A27043 table-based enforcement standards against Korean sources; then review all remaining A27040-A27061 rows sequentially, including every form/table field. Reconcile B3-00027 source; final QA and save/readback review and receipt only after full completion."
+}
