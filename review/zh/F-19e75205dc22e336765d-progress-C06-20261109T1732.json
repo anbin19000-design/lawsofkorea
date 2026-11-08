@@ -1,0 +1,53 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-19e75205dc22e336765d",
+  "worker": "C06",
+  "panel_id": "panel-06",
+  "pc": "WORK-C",
+  "status": "IN_PROGRESS",
+  "checkpoint": "2026-11-09T17:32:00+09:00",
+  "source_commit": "cfb1d2139b0964af5165eecacfab57c57c1fe432",
+  "source_blobs": {
+    "ko": "f3c381ac40a93d2dd0c81eeeec800d0484334dce",
+    "en": "9ccc8a185bc0a2975d2e349d3fc3690f6e4b439b",
+    "zh": "42d5c0c29e2439f506c7209aebee695f5a1a631b"
+  },
+  "reading": {
+    "ko": {
+      "status": "FULL_READ",
+      "documents": 30,
+      "characters": 238917
+    },
+    "en": {
+      "status": "FULL_READ",
+      "documents": 2,
+      "characters": 100432,
+      "exact_documents": 1,
+      "fallback_documents": 29,
+      "rows_with_english": 1558,
+      "rows_without_english": 772
+    },
+    "zh": {
+      "status": "PARTIAL_REVIEW",
+      "documents": 30,
+      "rows": 2330,
+      "checked_rows": 1010
+    }
+  },
+  "review_path": "review/zh/F-19e75205dc22e336765d.json",
+  "review_sha": "1b78059344742527cceccccd9d0cbcfd4ed4c43e",
+  "edits_saved": 785,
+  "pending": [
+    "B2 시행령 제15~131조 잔여 조항 전수 검수 및 부칙의 법령명·개정이력·인용 정확성 확인",
+    "A29829~A29861 나머지 별지·서식 전체 행 검수 및 OCR 분절/영문 잔존 확인",
+    "A29851 원문 손상 문장은 한국어/영어 근거 모두 손상되어 있어 신뢰 가능한 원문 복원 자료 확보 전 보류",
+    "772개 영문 미대응 행에 대해 한국어 원문 대조 및 영문 부재 표기",
+    "전 문서 MTQ·영문 잔존·누락·숫자·조문번호·표/서식 연속성 최종 QA",
+    "완료 증거 충족 후에만 검수본 COMPLETE 및 receipt 생성·재조회"
+  ],
+  "observations": [
+    "A29845의 미주민등록 재외국민 인감신고사항 통보, A29846의 국내거소신고자 인감신고사항 통보, A29847의 사망·실종·변경·말소·부활 신고서를 교정.",
+    "기존 번역에서 Seal/密封/报告/户籍 등 법률 의미를 왜곡하는 표현과 잘못된 법령명을 수정."
+  ],
+  "protection": "active/C06 ACTIVE 및 worker binding 확인. KO/EN/ZH 원문 SHA가 배정 source_blobs와 모두 일치. 운영 DB 변경 없음."
+}
