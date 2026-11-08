@@ -1,0 +1,22 @@
+{
+  "schema": "LAW_ZH_REVIEW_RECEIPT_V1",
+  "job_id": "F-02c515d98a78404ca699",
+  "worker": "C03",
+  "panel_id": "panel-03",
+  "pc": "WORK-C",
+  "task_id": "WORK-TASK:C03:F-02c515d98a78404ca699:7271018fd541",
+  "status": "COMPLETE",
+  "checked_rows": 2081,
+  "corrected_rows": 92,
+  "document_count": 28,
+  "source_blobs": {
+    "ko": "65aedec9e89b416787ffa1f31fd0355527c11670",
+    "en": "6738aac3bb911f281c34a87039aed8815de24350",
+    "zh": "3ffb734574196fd0f3295236a8e220cbf0e9cae8"
+  },
+  "review_path": "review/zh/F-02c515d98a78404ca699.json",
+  "review_blob_sha": "3d8502f509407d858a488789617c5b064a90d020",
+  "review_commit_sha": "410347919df4a68f5f7895abe9d2c73b2292e141",
+  "receipt_note": "Reviewed the full 28-document family in Korean -> available English -> Chinese order. Preserved 48 prior correction decisions and added 44 targeted minimal corrections. English reference documents are historical/partial; no full English documents for implementing rules, annexes and forms, so Korean is authoritative. No source files or operational DB changed.",
+  "conversation_url": "https://chatgpt.com/c/6af041f2-e328-83ee-ae24-c2dbe020c5a2"
+}
