@@ -1,0 +1,36 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "panel_id": "panel-02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:7ffe3eb52630",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "prior_master_blob_sha": "b6632eb835ad2e896646f8926a4d82dfa72d3fcc",
+  "checked_ids": [
+    "B1-zh-00010"
+  ],
+  "new_edit_count": 1,
+  "edits": [
+    {
+      "id": "B1-zh-00010",
+      "text": "第六条（确认综合规划）\n①国土交通部长应根据第五条的规定，在与相关中央行政机关负责人协商后，经国家智慧城市委员会根据第二十三条的规定审议，最终确定反映公众听证结果的综合规划草案。<2013年3月23日、2017年3月21日修订>\n② 根据第1款规定完成综合规划后，国土交通部长应立即在官方公报上公布其主要内容，并将综合规划送交有关中央行政机关负责人、特大城市、大都会城市、特别自治市市长、省长、特别自治省长（以下统称“市/省长”）以及各市长及郡守（不包括广域市辖区内的郡守；以下同上） 。<2013年3月23日、2017年3月21日修订>\n\n",
+      "source_hash": "7ae6f0b5f35751770454ae5bde102dead0b854073fd23084deca63171ca86611",
+      "target_id": "133373ab2ad631988f68b19dabd5101647c1bcf4fab4fbb2e471f60ed740df28",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-7ffe3eb52630-article6.json",
+      "verification": "C02_DIRECT_KOREAN_ARTICLE6_COMPARISON",
+      "reason": "Korean Act Article 6(2) includes 시장 및 군수, which the existing Chinese translation rendered as only county heads; restores both mayors and county chiefs and preserves the metropolitan-city exception."
+    }
+  ],
+  "ordered_reading_certification": {
+    "ko": false,
+    "en": false,
+    "zh": false
+  },
+  "note": "Follow-on Korean Act Article 6 omission correction, do not mark COMPLETE."
+}
