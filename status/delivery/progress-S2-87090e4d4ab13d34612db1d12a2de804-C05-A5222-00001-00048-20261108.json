@@ -1,0 +1,473 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-b5c27d20d49b721e47e6",
+  "worker": "C05",
+  "status": "IN_PROGRESS",
+  "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
+  "source_blobs": {
+    "ko": "24ddd78e32a748b7d1c1ce01fef19d036494b9e9",
+    "en": "3d130788df10274ded6103c1fa81654c977eec5c",
+    "zh": "66ea4d0981f8e1a76348309f8254051d4914f693"
+  },
+  "checked_rows": 48,
+  "checked_ids": [
+    "A5222-zh-00001",
+    "A5222-zh-00002",
+    "A5222-zh-00003",
+    "A5222-zh-00004",
+    "A5222-zh-00005",
+    "A5222-zh-00006",
+    "A5222-zh-00007",
+    "A5222-zh-00008",
+    "A5222-zh-00009",
+    "A5222-zh-00010",
+    "A5222-zh-00011",
+    "A5222-zh-00012",
+    "A5222-zh-00013",
+    "A5222-zh-00014",
+    "A5222-zh-00015",
+    "A5222-zh-00016",
+    "A5222-zh-00017",
+    "A5222-zh-00018",
+    "A5222-zh-00019",
+    "A5222-zh-00020",
+    "A5222-zh-00021",
+    "A5222-zh-00022",
+    "A5222-zh-00023",
+    "A5222-zh-00024",
+    "A5222-zh-00025",
+    "A5222-zh-00026",
+    "A5222-zh-00027",
+    "A5222-zh-00028",
+    "A5222-zh-00029",
+    "A5222-zh-00030",
+    "A5222-zh-00031",
+    "A5222-zh-00032",
+    "A5222-zh-00033",
+    "A5222-zh-00034",
+    "A5222-zh-00035",
+    "A5222-zh-00036",
+    "A5222-zh-00037",
+    "A5222-zh-00038",
+    "A5222-zh-00039",
+    "A5222-zh-00040",
+    "A5222-zh-00041",
+    "A5222-zh-00042",
+    "A5222-zh-00043",
+    "A5222-zh-00044",
+    "A5222-zh-00045",
+    "A5222-zh-00046",
+    "A5222-zh-00047",
+    "A5222-zh-00048"
+  ],
+  "decisions": [
+    {
+      "id": "A5222-zh-00001",
+      "source_hash": "b25c8bacd57235c82fab4887b749ed6e744df0c0afc1524244de780f5e59b5e5",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00002",
+      "source_hash": "54ffc560cc44127f65ad4fcd76b1e73be3b1217ca1c8ae133d4a9747969f0061",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00003",
+      "source_hash": "1731d33ee3321b6fd29353dfceb8f473cdc53b1afb0ff31808978038b609584a",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00004",
+      "source_hash": "1740bfee14fcb5d1f1a078f71945aadef5b03639ef618397912fbd0faca16a04",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00005",
+      "source_hash": "37043329b96f9d28b6fb8f54ba684812b0118dcfb1a782b0dc7452baa61e5ca5",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5222-zh-00006",
+      "source_hash": "d3e18e10fd9316f267e72e7c674141c50c907a270943da831ed72dd07df0ca26",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00007",
+      "source_hash": "ee1fd979888e19a8fb50468f2e4c2dfdad94aa0853e37fa9c262b2013f458450",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00008",
+      "source_hash": "bf896f4441ed0a635996231bb0c1ade4de619bbb024583fd8e3b71992896dc3f",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00009",
+      "source_hash": "f9aa9d8e4ae792a68cb3b28109593ab0462bc76f912ed045b6a91cdd9d26a65e",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00010",
+      "source_hash": "e7d031555e43fcbc21f25bf1996d4124fe3245723ec4081d2beb2dc427d9fbaa",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00011",
+      "source_hash": "b391ded204c9f0fd10b84045e767aac6baf3bc067a2690e88efeda56618eb450",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5222-zh-00012",
+      "source_hash": "7c245001a5da4ced51f8e0cad3c8ffd2d94befe6727b0444b5c24b892fbd7e33",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5222-zh-00013",
+      "source_hash": "bdc70179f9e86062d4dedd392ae317ae568c5bad34bca4ef01c566e9effb3be5",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00014",
+      "source_hash": "50bd67df7d53212dfd9543f7e1d661815e831245d51078f58522a1cf8c6f5fa8",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00015",
+      "source_hash": "37fd68ad4ff58a42467b119fe4adb23b7d89881d4172baa696c8c0df390630b7",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5222-zh-00016",
+      "source_hash": "58b4fdf0628228afb8bfd84f3c5a2c613d6c72c2c164a964db97931b1c0f52b7",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00017",
+      "source_hash": "4a48faf25c5cfcbd14d3b2e23092369e1b5f4d55c7ba6b9bc443bba911af95be",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00018",
+      "source_hash": "819f315629ad63f9c1bd6d026f23b05cb081214b46ba5ad6e03c271a9e472f8a",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00019",
+      "source_hash": "44dda3756111819b58bfc0b02c17f69d94fec103397a226f99502c121dce0343",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00020",
+      "source_hash": "ab501ee37cea6d3802cfd887209e63f609037c9c674037911df6c75510406a55",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5222-zh-00021",
+      "source_hash": "58b4fdf0628228afb8bfd84f3c5a2c613d6c72c2c164a964db97931b1c0f52b7",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00022",
+      "source_hash": "819f315629ad63f9c1bd6d026f23b05cb081214b46ba5ad6e03c271a9e472f8a",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00023",
+      "source_hash": "ccacb3fe433d5470224660e2df2df10baccc3b9cd5a5f233282006568854565a",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00024",
+      "source_hash": "7559db26472bf13c29ea67c24a2203933509a358df47d7b40f1454ca00736a90",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5222-zh-00025",
+      "source_hash": "3a81ca902d79845cc532bdefd547343bc13b42c5a843dae183f17dfd9afc3072",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00026",
+      "source_hash": "79e90778f08eb8a6f25c8716f05d7f8cc063123c6f817b244c94f7922558b4f1",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00027",
+      "source_hash": "a7b970949c10d11aaf686ef01e992b6a33f7143a20f3a53a0011513a973dc9b0",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00028",
+      "source_hash": "0963383a896cf38b6adae3b0689e392ede3900f415f5add9ba6eb66712abff82",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5222-zh-00029",
+      "source_hash": "58b4fdf0628228afb8bfd84f3c5a2c613d6c72c2c164a964db97931b1c0f52b7",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00030",
+      "source_hash": "819f315629ad63f9c1bd6d026f23b05cb081214b46ba5ad6e03c271a9e472f8a",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00031",
+      "source_hash": "d313cc9c02eda470c4f13dbc839eaebe4a05e209f7fbda0137d05eb21f15dae7",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00032",
+      "source_hash": "9edadfe799206fccc4a9261a136ab3bffc1be82f52ab78e8dae1fc191ea13fa6",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00033",
+      "source_hash": "b1d20d1f103c0c2b2ebc90cad3ff3bfe2418a793b7fc4f012305bba76cd716a0",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00034",
+      "source_hash": "eaa11e131e0fef5db4f8ba12654ffbbabc375c6ac3ec0f82edc54aefc2e27822",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00035",
+      "source_hash": "10cf4ec0f7c067f2bb5e787e67342df212ac6ec6e5e4f6b8cb570a1fd84ff657",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00036",
+      "source_hash": "1f37b91669b109d46ab91c54ac898478121f2acbdfb872069722ada614b5feda",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00037",
+      "source_hash": "c2b322fd4fce71fab2d87ee4b632daff2a63253c526ca7abef9b6a39fa494896",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00038",
+      "source_hash": "7fbaf595245eacfda97fa4480cf58d40049886d69919a7fab3452f619cc9232d",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00039",
+      "source_hash": "2c6f1d2ff981cf7d85b433d80b3e92791956799657094fb832f6f93a9ce7a6c0",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00040",
+      "source_hash": "b7c3aa22e3c2e0346b7b78b9e693ec3eb2ba017a896f0986ab6d26e79f5bb71a",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00041",
+      "source_hash": "36ff5e2495418499a37e2f67ba920647d70804b7afd4ccdd3c44cb389066b80d",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00042",
+      "source_hash": "ad2a5ffbc140b716d818d282feab0c8db03fcf4601b277ef853c0ff3d26923a8",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00043",
+      "source_hash": "294f6afebf76a3b4c9516df0b0bc42d141267b188e709b31173c2385e7e93b7c",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00044",
+      "source_hash": "0ec32736476a197fa5ea13d25b381f3cab3f72c2315fc81e39790c92715af187",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00045",
+      "source_hash": "76a66f1ead80cbafb6cca05abb5ad8eaa309a6c290e0d72f1fe3e1a8aaf3e532",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00046",
+      "source_hash": "c0de769ca8d0edcd59db5187cad5ce31e21e0abacaafa6564999218cf2965ed6",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00047",
+      "source_hash": "32e37710f1b8ef2ff6928597c679897e163e558595e81e1f67625cc1c45646db",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5222-zh-00048",
+      "source_hash": "eef2b4ab37101f269abfb2104c6c8639563322d3af2a5b9bb290d69773fbf4f2",
+      "decision": "CORRECT"
+    }
+  ],
+  "edits": [
+    {
+      "id": "A5222-zh-00001",
+      "text": "■ 《单亲家庭支援法施行规则》[附表1] <2023年10月12日修订>"
+    },
+    {
+      "id": "A5222-zh-00002",
+      "text": "单亲家庭福利设施的入住期限、延长入住期限的理由及可延长期限"
+    },
+    {
+      "id": "A5222-zh-00003",
+      "text": "（与第九条之七有关）"
+    },
+    {
+      "id": "A5222-zh-00004",
+      "text": "1. 按设施类型划分的入住期限"
+    },
+    {
+      "id": "A5222-zh-00006",
+      "text": "可延长期限"
+    },
+    {
+      "id": "A5222-zh-00007",
+      "text": "（仅限符合第二项各目"
+    },
+    {
+      "id": "A5222-zh-00008",
+      "text": "任一情形时）"
+    },
+    {
+      "id": "A5222-zh-00009",
+      "text": "甲. 分娩支援设施"
+    },
+    {
+      "id": "A5222-zh-00010",
+      "text": "1）本法第十九条第一款第一项甲目"
+    },
+    {
+      "id": "A5222-zh-00013",
+      "text": "及乙目所规定的设施"
+    },
+    {
+      "id": "A5222-zh-00014",
+      "text": "2）本法第十九条第一款第一项丙目"
+    },
+    {
+      "id": "A5222-zh-00016",
+      "text": "以不足六个月的期间为单位"
+    },
+    {
+      "id": "A5222-zh-00017",
+      "text": "所规定的设施"
+    },
+    {
+      "id": "A5222-zh-00018",
+      "text": "累计不超过一年"
+    },
+    {
+      "id": "A5222-zh-00019",
+      "text": "乙. 养育支援设施"
+    },
+    {
+      "id": "A5222-zh-00021",
+      "text": "以不足六个月的期间为单位"
+    },
+    {
+      "id": "A5222-zh-00022",
+      "text": "累计不超过一年"
+    },
+    {
+      "id": "A5222-zh-00023",
+      "text": "丙. 生活支援设施"
+    },
+    {
+      "id": "A5222-zh-00025",
+      "text": "以不足一年的期间为单位"
+    },
+    {
+      "id": "A5222-zh-00026",
+      "text": "累计不超过两年"
+    },
+    {
+      "id": "A5222-zh-00027",
+      "text": "丁. 临时支援设施"
+    },
+    {
+      "id": "A5222-zh-00029",
+      "text": "以不足六个月的期间为单位"
+    },
+    {
+      "id": "A5222-zh-00030",
+      "text": "累计不超过一年"
+    },
+    {
+      "id": "A5222-zh-00031",
+      "text": "2. 延长入住期限的理由"
+    },
+    {
+      "id": "A5222-zh-00032",
+      "text": "甲. 母亲或父亲正在《初等及中等教育法》规定的学校或《高等教育法》规定的学校就读时"
+    },
+    {
+      "id": "A5222-zh-00033",
+      "text": "乙. 母亲或父亲正在依《补习班设立、运营及课外辅导相关法律》登记的补习班接受教育时"
+    },
+    {
+      "id": "A5222-zh-00034",
+      "text": ""
+    },
+    {
+      "id": "A5222-zh-00035",
+      "text": "丙. 母亲或父亲正在《性别平等基本法》第四十七条规定的女性人力开发中心，或"
+    },
+    {
+      "id": "A5222-zh-00036",
+      "text": "《国民终身职业能力开发法》规定的职业能力开发培训设施接受教育或培训时"
+    },
+    {
+      "id": "A5222-zh-00037",
+      "text": "丁. 母亲或父亲正在参加《促进求职者就业及生活稳定支援相关法律》第十三条规定的就业支援项目，或"
+    },
+    {
+      "id": "A5222-zh-00038",
+      "text": "同法第十四条规定的求职活动支援项目时"
+    },
+    {
+      "id": "A5222-zh-00039",
+      "text": ""
+    },
+    {
+      "id": "A5222-zh-00040",
+      "text": "戊. 母亲或父亲是正在参加《中小企业创业支援法》规定的创业教育的预备创业者，"
+    },
+    {
+      "id": "A5222-zh-00041",
+      "text": "或自首次创业之日起未满三年的初期创业者时"
+    },
+    {
+      "id": "A5222-zh-00042",
+      "text": "己. 母亲或父亲正在学习《初等及中等教育法》第二十七条之二第一款规定的学历认定考试课程，"
+    },
+    {
+      "id": "A5222-zh-00043",
+      "text": "或已经申请参加学历认定考试时"
+    },
+    {
+      "id": "A5222-zh-00044",
+      "text": "庚. 特别自治市市长、特别自治道知事、市长、郡守、区厅长因残疾、疾病或"
+    },
+    {
+      "id": "A5222-zh-00045",
+      "text": "准备自立等理由认为有必要延长入住期限时"
+    },
+    {
+      "id": "A5222-zh-00046",
+      "text": "备注：尽管有第一项及第二项的规定，特别自治市市长、特别自治道知事、市长、郡守、区厅长"
+    },
+    {
+      "id": "A5222-zh-00047",
+      "text": "认为有必要延长入住期限时，可以在第一项规定期限之外另行延长入住期限。"
+    },
+    {
+      "id": "A5222-zh-00048",
+      "text": ""
+    }
+  ],
+  "next_id": "A5223-zh-00001",
+  "note": "Compared all 48 A5222 annex cells to original Korean full table. Correction restores categorical labels, duration units, extended-term grounds, and escaped OCR fragments; blank entries remove spurious isolated punctuation while retaining full Korean meaning in adjoining rows. Prior heading checkpoint preserved."
+}
