@@ -1,0 +1,30 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-c2b35f6aceb6477e1107",
+  "worker": "C04",
+  "assignment_marker": "01c62db489ae",
+  "status": "IN_PROGRESS",
+  "source_blob_shas": {
+    "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
+    "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
+    "zh": "f8879f4a12299069e4831b03f15a2a2fa30c8089"
+  },
+  "scope_documents": 15,
+  "zh_total_rows": 1241,
+  "english_reference_rows": 911,
+  "english_reference_missing_rows": 330,
+  "prior_edit_count": 164,
+  "new_edit_ids": [
+    "A14112-zh-00183",
+    "A14118-zh-00013",
+    "A14120-zh-00008"
+  ],
+  "total_edit_count": 167,
+  "review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
+  "review_commit": "b9b8a77f1bf3204634079677a0a4ce5fab64d66b",
+  "full_korean_read_verified": false,
+  "full_english_read_verified": false,
+  "full_chinese_review_verified": false,
+  "completion_receipt_issued": false,
+  "note": "Korean/English/Chinese source blob SHAs retained. Untranslated English tokens corrected in nutrition annex and forms, while preserving all previous edits. This is an incremental checkpoint, not an assertion of full source reading or full row verification."
+}
