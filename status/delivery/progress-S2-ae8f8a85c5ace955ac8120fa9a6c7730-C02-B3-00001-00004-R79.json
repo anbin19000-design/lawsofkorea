@@ -1,0 +1,34 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 2,
+  "checked_ids": [
+    "B3-zh-00001",
+    "B3-zh-00004"
+  ],
+  "edits": [
+    {
+      "id": "B3-zh-00001",
+      "source_hash": "8b20e653954da046bc18d6ddf5a63e09590c117541604af27ed8a0cc3f96dae2",
+      "target_id": "74f6d9e74c08b605bd4e314b3ab936ce7c0b432e3100cda99b7c55e749300684",
+      "text": "《智慧城市建设及产业振兴等相关法律施行规则》"
+    },
+    {
+      "id": "B3-zh-00004",
+      "source_hash": "8c865a4a1033261b59b0741ebd2c1bfba0d5104cc028ece67d2126186af05125",
+      "target_id": "040152a04dda12c0eef4ae59d74e2dc365cdb74f8dc7060054bc0d6d941b8655",
+      "text": "第三条（国家示范城市建设事业绩效评价的实施）\n① 国土交通部长官应当经过第三条之三规定的绩效评价委员会审议，评价国家示范城市建设事业的绩效，并将结果通知事业实施者。\n② 收到第一款通知的事业实施者对结果有异议时，可以自收到通知之日起十日内，向国土交通部长官提交异议申请内容及有关说明资料。\n③ 国土交通部长官收到第二款规定的异议申请后，应当经绩效评价委员会重新审议，确定是否采纳异议申请内容。\n\n"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "korean_evidence": "제3조(국가시범도시건설사업에 대한 성과평가의 실시) ① 국토교통부장관은 제3조의3에 따른 성과평가위원회의 심의를 거쳐 ...",
+  "note": "R79: first unreviewed B3 body rows title 00001 and Article 3 00004; corrected citation 제3조의3, minister title and performance review steps. Existing R5 and R53 B3 changes preserved; source rows and hashes unchanged. Not COMPLETE."
+}
