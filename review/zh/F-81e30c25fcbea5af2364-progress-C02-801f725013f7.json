@@ -1,0 +1,118 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:801f725013f7",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "checked_rows": 7,
+  "checked_ids": [
+    "A36427-zh-00029",
+    "A36427-zh-00037",
+    "A36427-zh-00045",
+    "A36427-zh-00046",
+    "A36427-zh-00047",
+    "A36427-zh-00052",
+    "A36427-zh-00054"
+  ],
+  "edits": [
+    {
+      "id": "A36427-zh-00029",
+      "text": "2. 个别标准",
+      "source_hash": "1d6f6bce78138ea58d3cc062dbce45c849d57266d25052a404c84318174a0c95",
+      "target_id": "XML:2657398"
+    },
+    {
+      "id": "A36427-zh-00037",
+      "text": "甲. 对本法第24条之3第1款规定的报告、",
+      "source_hash": "fab3cbaa15f0e69e22af6b820fc5d1d66e114584b46d22a78986777faa81dd18",
+      "target_id": "XML:2657406"
+    },
+    {
+      "id": "A36427-zh-00045",
+      "text": "不履行，或作虚假报告",
+      "source_hash": "d041253243ac26ae725cf5313a6694d05b9f022f88ad748d6ae42453c3b9d590",
+      "target_id": "XML:2657414"
+    },
+    {
+      "id": "A36427-zh-00046",
+      "text": "或提交虚假资料的情形",
+      "source_hash": "4619d56fd82ac52629bd964bc413044422a81de3d5bf854eab1ea8e790335909",
+      "target_id": "XML:2657415"
+    },
+    {
+      "id": "A36427-zh-00047",
+      "text": "乙. 以虚假或其他不正当方法",
+      "source_hash": "ffedb4d8843ecd1e58c3c7723b04de5c501d88007b62c7e17191f0d01efbacfe",
+      "target_id": "XML:2657416"
+    },
+    {
+      "id": "A36427-zh-00052",
+      "text": "取得",
+      "source_hash": "4a3a08d81a37a629c8424dae3600f0551849423115c96e74d1ca4d2c38adaa27",
+      "target_id": "XML:2657421"
+    },
+    {
+      "id": "A36427-zh-00054",
+      "text": "依本法第32条第1款取得认证的情形",
+      "source_hash": "4a795f1c4313b68063e7d59e5aa7261ad5b6ebf0b1ae56fb4c29a864ceb6a7b7",
+      "target_id": "XML:2657423"
+    }
+  ],
+  "adjudications": [
+    {
+      "id": "A36427-zh-00029",
+      "verdict": "CORRECT_CLEAR_ANNEX_FINE_STANDARD_MISTRANSLATION",
+      "source_korean": "2. 개별기준",
+      "reason": "The annex section is 개별기준, not a generic individual-person standard."
+    },
+    {
+      "id": "A36427-zh-00037",
+      "verdict": "CORRECT_CLEAR_ANNEX_FINE_STANDARD_MISTRANSLATION",
+      "source_korean": "가. 법 제24조의3제1항에 따른 보고,",
+      "reason": "Retain the beginning of a split violation description without prematurely stating that a report was submitted."
+    },
+    {
+      "id": "A36427-zh-00045",
+      "verdict": "CORRECT_CLEAR_ANNEX_FINE_STANDARD_MISTRANSLATION",
+      "source_korean": "을 이행하지 않거나 거짓으로 보",
+      "reason": "Remove mistranslated [参见] and reconstruct the original obligation not complied with or false reporting, continuing in next cell."
+    },
+    {
+      "id": "A36427-zh-00046",
+      "verdict": "CORRECT_CLEAR_ANNEX_FINE_STANDARD_MISTRANSLATION",
+      "source_korean": "고 또는 자료제출을 한 경우",
+      "reason": "Complete prior row with false data submission. No obligation is added."
+    },
+    {
+      "id": "A36427-zh-00047",
+      "verdict": "CORRECT_CLEAR_ANNEX_FINE_STANDARD_MISTRANSLATION",
+      "source_korean": "나. 거짓이나 그 밖의 부정한 방",
+      "reason": "Restore qualifying fraudulent designation/approval conduct, not mere honesty judgment."
+    },
+    {
+      "id": "A36427-zh-00052",
+      "verdict": "CORRECT_CLEAR_ANNEX_FINE_STANDARD_MISTRANSLATION",
+      "source_korean": "으로 법 제32조제1항에 따라 인",
+      "reason": "Follow original split '...方法으로 법 ... 인증을 받은 경우' without adding another action."
+    },
+    {
+      "id": "A36427-zh-00054",
+      "verdict": "CORRECT_CLEAR_ANNEX_FINE_STANDARD_MISTRANSLATION",
+      "source_korean": "증을 받은 경우",
+      "reason": "Original Korean is certification under Article 32(1), not a conversational 'you obtained a certificate'."
+    }
+  ],
+  "english_status": "A36427 NO_DOCUMENT_ENGLISH, Korean controls",
+  "prior_progress": [
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-dfac99b5ac32.json"
+  ],
+  "note": "A36427 split-cell sanctions table checked against complete Korean annex. Previous corrected candidates kept; originals, IDs, SHA unchanged. Not final review or COMPLETE.",
+  "next_review": "Continue A36427 annex and remaining rule/form documents; integrate historical decisions only after certified full review."
+}
