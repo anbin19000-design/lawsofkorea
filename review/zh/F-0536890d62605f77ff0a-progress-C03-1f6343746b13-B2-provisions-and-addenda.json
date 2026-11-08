@@ -1,0 +1,82 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:1f6343746b13",
+  "status": "IN_PROGRESS",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_en_index_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "english_status": "B2 FALLBACK_ENGLISH_AVAILABLE, version 246917; Korean current version 284943 authoritative",
+  "english_document_reference": "documents/en/kr-014371-246917-en.json",
+  "checked_rows": 9,
+  "checked_ids": [
+    "B2-zh-00012",
+    "B2-zh-00014",
+    "B2-zh-00018",
+    "B2-zh-00025",
+    "B2-zh-00031",
+    "B2-zh-00032",
+    "B2-zh-00033",
+    "B2-zh-00034",
+    "B2-zh-00035"
+  ],
+  "quality_checked_rows": 9,
+  "quality_passed_rows": 9,
+  "quality_failed_rows": 0,
+  "results": [
+    {
+      "id": "B2-zh-00012",
+      "verdict": "PASS",
+      "reason": "Decree Article 11: determination of adjudication committee organization and operation by the chair after committee resolution corresponds to Korean."
+    },
+    {
+      "id": "B2-zh-00014",
+      "verdict": "PASS",
+      "reason": "Decree Article 13: attached Table 1 for institutional operation criteria and attached Table 2 for staff qualifications are correctly linked."
+    },
+    {
+      "id": "B2-zh-00018",
+      "verdict": "PASS",
+      "reason": "Decree Article 17: direct or delegated vocational training and social adaptation support matches Korean; older-version English provides corroboration."
+    },
+    {
+      "id": "B2-zh-00025",
+      "verdict": "PASS",
+      "reason": "Decree Article 24: Article 33(6) operating standards reference attached Table 4 matches Korean and available older-version English."
+    },
+    {
+      "id": "B2-zh-00031",
+      "verdict": "PASS",
+      "reason": "Decree Article 30: Article 50(1) and (2) administrative fine criteria reference attached Table 6 matches Korean and older English."
+    },
+    {
+      "id": "B2-zh-00032",
+      "verdict": "PASS",
+      "reason": "Decree No. 33132 addendum issued December 27, 2022: effective January 1, 2023 correctly stated."
+    },
+    {
+      "id": "B2-zh-00033",
+      "verdict": "PASS",
+      "reason": "Supplementary regulation to decree on Ministry of Gender Equality and Family organization No. 35806 dated October 1, 2025 correctly identified."
+    },
+    {
+      "id": "B2-zh-00034",
+      "verdict": "PASS",
+      "reason": "2025 organizational decree Article 1: effective on promulgation, with exception for amended decrees whose effective dates were not reached, preserved."
+    },
+    {
+      "id": "B2-zh-00035",
+      "verdict": "PASS",
+      "reason": "2025 organizational decree Articles 2 and 3 omitted in source; matching omission marker preserved."
+    }
+  ],
+  "edits": [],
+  "prior_evidence_index": "status/delivery/reconcile-S2-8f70e317249155938a79444493d089b4-evidence-7e6b69412a765526.json",
+  "prior_verification_file": "review/zh/F-0536890d62605f77ff0a-progress-C03-9e788d4c6766-B1-article15-supplementary.json",
+  "protected_unresolved_ids": [
+    "A26697-zh-00008",
+    "A26699-zh-00053"
+  ],
+  "note": "Current-version Korean is controlling when older English differs; nine previously unlisted B2 rows checked. Existing edits unchanged. Family-wide review not complete."
+}
