@@ -1,0 +1,34 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-3705abbc710de4b867bc",
+  "worker": "C05",
+  "branch": "main",
+  "source_blobs": {
+    "ko": "7974bf81d14f4838ae85d4b3ceea80a2f0e65fed",
+    "zh": "045dd328cd77f3eecd8b6cd485be27f2389773e8"
+  },
+  "document_key": "A25296",
+  "document_source_hash": "9d8fad91f17b91c8bd96b37937cf75a740bbef68cb586daa6b9e549d4957b6ad",
+  "checked_ids": [
+    "A25296-zh-00001",
+    "A25296-zh-00002",
+    "A25296-zh-00003",
+    "A25296-zh-00004",
+    "A25296-zh-00005",
+    "A25296-zh-00006",
+    "A25296-zh-00007"
+  ],
+  "checked_rows": 7,
+  "adopted_edits": [],
+  "unresolved_issues": [
+    {
+      "kind": "SOURCE_FIELD_WITHOUT_TARGET_ROW",
+      "ko_text": "조치사항",
+      "suggested_zh": "处理措施",
+      "location": "Korean form: after 고장발생 장소 and before 원인 및 상태; Chinese rows A25296-zh-00006 and A25296-zh-00007 are adjacent",
+      "resolution": "Requires a structurally safe row mapping; do not overwrite 原因及状态 or fabricate an ID."
+    }
+  ],
+  "status": "QUALITY_PARTIAL",
+  "note": "Compared Korean source form against Chinese rows and existing A25296 25-row progress file. Existing edits preserved, no replacement of review/zh or laws/*, receipt withheld."
+}
