@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 4662,
+    "verified_zh_rows": 4800,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 4662,
-      "checked_rows": 4662,
+      "next_row_zero_based": 4800,
+      "checked_rows": 4800,
       "total_rows": 5228
     }
   },
@@ -7885,9 +7885,441 @@
       "text": "附件：相关道路比例尺为1:50,000或更大的地形图",
       "original_text": "附件：比例尺为 1:50,000 或更大的相关道路地形图",
       "reason": "지형도 첨부 문구를 정돈"
+    },
+    {
+      "id": "A4702-zh-00001",
+      "text": "■《道路法施行规则》[附件表格第37号] <2021年8月27日修订>",
+      "original_text": "■ 道路交通法执行规则 [附件表格编号 37] <2021 年 8 月 27 日修订>",
+      "reason": "도로법 시행규칙을 도로교통법 시행규칙으로 오역"
+    },
+    {
+      "id": "A4702-zh-00002",
+      "text": "限制车辆通行许可申请书（[ ]新申请 [ ]变更申请）",
+      "original_text": "限制车辆操作许可申请（[ ] 新增 [ ] 修改）",
+      "reason": "제한차량 운행허가 신청서를 차량 조작 허가로 오역"
+    },
+    {
+      "id": "A4702-zh-00004",
+      "text": "收件日期",
+      "original_text": "收货日期",
+      "reason": "접수일을 물품 수령일로 오역"
+    },
+    {
+      "id": "A4702-zh-00006",
+      "text": "办理期限：10日",
+      "original_text": "处理周期MTQc2e2f91c71addd2000420结束",
+      "reason": "처리기간에 MTQ 잔존"
+    },
+    {
+      "id": "A4702-zh-00009",
+      "text": "姓名",
+      "original_text": "名称",
+      "reason": "성명을 일반 명칭으로 축소"
+    },
+    {
+      "id": "A4702-zh-00012",
+      "text": "车辆类型",
+      "original_text": "车辆型号",
+      "reason": "차량 형식을 모델명으로 오역"
+    },
+    {
+      "id": "A4702-zh-00016",
+      "text": "工程机械",
+      "original_text": "建筑机械",
+      "reason": "건설기계를 일반 건축기계로 부정확하게 번역"
+    },
+    {
+      "id": "A4702-zh-00017",
+      "text": "车库所在地",
+      "original_text": "车库",
+      "reason": "차고지 주소 항목의 의미 누락"
+    },
+    {
+      "id": "A4702-zh-00019",
+      "text": "车辆规格",
+      "original_text": "车辆规格",
+      "reason": "차량 제원 표기를 유지"
+    },
+    {
+      "id": "A4702-zh-00020",
+      "text": "车轴数",
+      "original_text": "车轴号",
+      "reason": "축수를 축 번호로 오역"
+    },
+    {
+      "id": "A4702-zh-00021",
+      "text": "最大轴距",
+      "original_text": "最远",
+      "reason": "가장 먼 축간거리를 ‘가장 먼’으로 축약"
+    },
+    {
+      "id": "A4702-zh-00022",
+      "text": "规格",
+      "original_text": "规范",
+      "reason": "규격을 규범으로 오역"
+    },
+    {
+      "id": "A4702-zh-00023",
+      "text": "重量",
+      "original_text": "重量",
+      "reason": "중량 항목 표기 유지"
+    },
+    {
+      "id": "A4702-zh-00029",
+      "text": "车辆自重",
+      "original_text": "车辆重量",
+      "reason": "차량중량을 차량 자체중량으로 명확히 함"
+    },
+    {
+      "id": "A4702-zh-00030",
+      "text": "最大装载量",
+      "original_text": "最大负载",
+      "reason": "최대적재량의 차량 적재 기준 용어 정돈"
+    },
+    {
+      "id": "A4702-zh-00032",
+      "text": "车轴",
+      "original_text": "轴",
+      "reason": "축 단위 표기를 정돈"
+    },
+    {
+      "id": "A4702-zh-00037",
+      "text": "吨",
+      "original_text": "音调",
+      "reason": "톤 단위를 음조로 오역"
+    },
+    {
+      "id": "A4702-zh-00038",
+      "text": "许可申请车辆规格",
+      "original_text": "许可申请",
+      "reason": "허가신청 제원을 단순 신청으로 축약"
+    },
+    {
+      "id": "A4702-zh-00039",
+      "text": "规格",
+      "original_text": "规范",
+      "reason": "규격을 규범으로 오역"
+    },
+    {
+      "id": "A4702-zh-00041",
+      "text": "最大轴荷",
+      "original_text": "规范",
+      "reason": "최대축하중을 규범으로 오역"
+    },
+    {
+      "id": "A4702-zh-00043",
+      "text": "宽度",
+      "original_text": "宽度",
+      "reason": "폭 표기를 유지"
+    },
+    {
+      "id": "A4702-zh-00044",
+      "text": "高度",
+      "original_text": "高度",
+      "reason": "높이 표기를 유지"
+    },
+    {
+      "id": "A4702-zh-00045",
+      "text": "长度",
+      "original_text": "长度",
+      "reason": "길이 표기를 유지"
+    },
+    {
+      "id": "A4702-zh-00046",
+      "text": "最大轴荷",
+      "original_text": "最大轴荷",
+      "reason": "최대축하중 용어를 유지"
+    },
+    {
+      "id": "A4702-zh-00051",
+      "text": "※ 货车应填写装载货物状态下的车辆规格。",
+      "original_text": "※ 对于货车，请列出装载货物后的车辆规格。",
+      "reason": "화물 적재 상태 차량 제원 작성 안내를 정돈"
+    },
+    {
+      "id": "A4702-zh-00055",
+      "text": "车辆运行",
+      "original_text": "车辆操作",
+      "reason": "차량 운행을 조작으로 오역"
+    },
+    {
+      "id": "A4702-zh-00056",
+      "text": "运行目的",
+      "original_text": "操作目的",
+      "reason": "운행목적을 조작목적으로 오역"
+    },
+    {
+      "id": "A4702-zh-00057",
+      "text": "运行期间",
+      "original_text": "操作周期",
+      "reason": "운행기간을 조작주기로 오역"
+    },
+    {
+      "id": "A4702-zh-00058",
+      "text": "运行方法",
+      "original_text": "驱动方法",
+      "reason": "운행방법을 구동방법으로 오역"
+    },
+    {
+      "id": "A4702-zh-00059",
+      "text": "运行路线",
+      "original_text": "操作路线",
+      "reason": "운행경로의 법률서식 용어 정돈"
+    },
+    {
+      "id": "A4702-zh-00060",
+      "text": "出发地",
+      "original_text": "出发",
+      "reason": "출발지를 출발 행위로 축약"
+    },
+    {
+      "id": "A4702-zh-00061",
+      "text": "目的地",
+      "original_text": "目标",
+      "reason": "도착지를 목표로 오역"
+    },
+    {
+      "id": "A4702-zh-00063",
+      "text": "（路段）",
+      "original_text": "（节）",
+      "reason": "구간을 절(節)로 오역"
+    },
+    {
+      "id": "A4702-zh-00064",
+      "text": "※ 请填写路线名称、互通式立交等运行路线信息（例如：国道○号线、地名等）。",
+      "original_text": "※ 填写路线名称、交汇处等信息（例如：国道X号、地名等）",
+      "reason": "운행경로의 인터체인지 용어와 예시를 정돈"
+    },
+    {
+      "id": "A4702-zh-00065",
+      "text": "变更经过",
+      "original_text": "更改历史记录",
+      "reason": "변경 경위 표제를 정돈"
+    },
+    {
+      "id": "A4702-zh-00067",
+      "text": "许可日期",
+      "original_text": "授权日期",
+      "reason": "허가 연월일을 권한 날짜로 오역"
+    },
+    {
+      "id": "A4702-zh-00068",
+      "text": "许可编号",
+      "original_text": "权限编号",
+      "reason": "허가번호를 권한 번호로 오역"
+    },
+    {
+      "id": "A4702-zh-00070",
+      "text": "第二次",
+      "original_text": "第二个",
+      "reason": "제2회를 두 번째 물건으로 오역"
+    },
+    {
+      "id": "A4702-zh-00071",
+      "text": "第三次",
+      "original_text": "第三个",
+      "reason": "제3회를 세 번째 물건으로 오역"
+    },
+    {
+      "id": "A4702-zh-00072",
+      "text": "本人依据《道路法》第七十七条第一款但书及同法施行令第七十九条第四款，申请上述限制车辆通行许可。",
+      "original_text": "根据《道路法》第77条第1款的但书和该法实施令第79条第4款的规定，上述限制车辆的运营许可证",
+      "reason": "제한차량 운행허가 신청문을 미완성 문장으로 번역"
+    },
+    {
+      "id": "A4702-zh-00073",
+      "text": "特此申请。",
+      "original_text": "应用中。MTQ801a824b30773f8c01962结束",
+      "reason": "신청문에 MTQ 토큰 잔존"
+    },
+    {
+      "id": "A4702-zh-00079",
+      "text": "致道路管理机关首长",
+      "original_text": "致公路管理局局长",
+      "reason": "도로관리청장을 공로관리국장으로 오역"
+    },
+    {
+      "id": "A4702-zh-00082",
+      "text": "手续费",
+      "original_text": "费用",
+      "reason": "수수료를 일반 비용으로 축소"
+    },
+    {
+      "id": "A4702-zh-00084",
+      "text": "5,000韩元，或按行政机关所属地方自治团体条例规定的金额",
+      "original_text": "5,000 韩元或行政机构",
+      "reason": "수수료 및 조례 금액의 문장 구조 훼손"
+    },
+    {
+      "id": "A4702-zh-00090",
+      "text": "申请类别",
+      "original_text": "应用程序分类",
+      "reason": "신청구분을 응용 프로그램 분류로 오역"
+    },
+    {
+      "id": "A4702-zh-00091",
+      "text": "新申请",
+      "original_text": "新建应用程序",
+      "reason": "신규 신청을 응용프로그램 생성으로 오역"
+    },
+    {
+      "id": "A4702-zh-00092",
+      "text": "变更申请",
+      "original_text": "更改请求MTQf9df811992aeaa0f00048结束",
+      "reason": "변경신청에 MTQ 잔존"
+    },
+    {
+      "id": "A4702-zh-00095",
+      "text": "一份",
+      "original_text": "第 1 部分",
+      "reason": "1부를 제1부분으로 오역"
+    },
+    {
+      "id": "A4702-zh-00096",
+      "text": "一份",
+      "original_text": "第 1 部分",
+      "reason": "1부를 제1부분으로 오역"
+    },
+    {
+      "id": "A4702-zh-00098",
+      "text": "一份",
+      "original_text": "第 1 部分",
+      "reason": "1부를 제1부분으로 오역"
+    },
+    {
+      "id": "A4702-zh-00101",
+      "text": "（N）份",
+      "original_text": "（N）部分",
+      "reason": "N부를 N부분으로 오역"
+    },
+    {
+      "id": "A4702-zh-00103",
+      "text": "（N）份",
+      "original_text": "（N）部分",
+      "reason": "N부를 N부분으로 오역"
+    },
+    {
+      "id": "A4702-zh-00104",
+      "text": "1. （N）为运行路线所经过的道路管理机关（机构）数量。",
+      "original_text": "1. (N) 为运营路线上的道路管理机构（单位）数量。",
+      "reason": "운행경로상 도로관리청 수 설명을 정돈"
+    },
+    {
+      "id": "A4702-zh-00106",
+      "text": "的情形；在此情形下，免收手续费。",
+      "original_text": "的情况，在这种情况下，费用将被免除。",
+      "reason": "변경신청 수수료 면제 조건 문장 정돈"
+    },
+    {
+      "id": "A4702-zh-00108",
+      "text": "拟申请超过限制标准的车辆通行许可时，应提交①、②及③所列文件。",
+      "original_text": "如果您希望获得继续进行的许可，您必须提交文件①、②和③。",
+      "reason": "제한기준 초과 차량 운행허가 신청 요건을 잘못 번역"
+    },
+    {
+      "id": "A4702-zh-00111",
+      "text": "依据《道路法施行令》第七十九条第四款但书及同法施行规则第四十条第三款，超过限制标准的程度轻微，",
+      "original_text": "根据《道路法实施条例》第79条第4款的但书和该法实施细则第40条第3款的规定，超过限制标准",
+      "reason": "시행령을 시행조례로 오역하고 조문 문장 분절"
+    },
+    {
+      "id": "A4702-zh-00113",
+      "text": "车辆重量表（②）应填写按照国土交通部另行规定的方法计算的数值，或称重证明机构等实际测得的数值。",
+      "original_text": "6. 车辆重量表（②）是根据国土交通省另行确定的方法计算的值，或由称重认证机构等提供的实际值。",
+      "reason": "국토교통부 명칭 및 차량중량표 작성방법의 법률서식 표현 정돈"
+    },
+    {
+      "id": "A4702-zh-00115",
+      "text": "行政信息共同利用同意书",
+      "original_text": "行政信息联合使用同意书",
+      "reason": "행정정보 공동이용의 공식 용어 정돈"
+    },
+    {
+      "id": "A4702-zh-00116",
+      "text": "本人同意负责办理本事项的公务员依据《电子政府法》第三十六条第一款，通过行政信息共同利用系统核查下列确认事项中的车辆检验合格证或车辆登记证。",
+      "original_text": "本人，作为负责处理此事的公职人员，根据《电子政务法》第36条第1款的规定，通过共同使用行政信息，特此声明。",
+      "reason": "행정정보 공동이용 동의서의 주체·동의 내용을 오역"
+    },
+    {
+      "id": "A4702-zh-00117",
+      "text": "同意核查上述确认事项中的车辆检验合格证或车辆登记证。",
+      "original_text": "我同意核实上述核实项目中的车辆检验合格证或车辆登记证。",
+      "reason": "동의 내용 문장을 정돈"
+    },
+    {
+      "id": "A4702-zh-00121",
+      "text": "办理程序",
+      "original_text": "处理过程",
+      "reason": "처리절차 표제 정돈"
+    },
+    {
+      "id": "A4702-zh-00122",
+      "text": "〈申请书提交〉",
+      "original_text": "<申请提交>",
+      "reason": "신청서 접수 단계를 명확히 함"
+    },
+    {
+      "id": "A4702-zh-00123",
+      "text": "〈审查〉",
+      "original_text": "<考试>",
+      "reason": "심사를 시험으로 오역"
+    },
+    {
+      "id": "A4702-zh-00124",
+      "text": "〈与其他道路管理机关协商〉",
+      "original_text": "<与其他道路管理机构协商>",
+      "reason": "도로관리청 협의 주체의 법률용어 정돈"
+    },
+    {
+      "id": "A4702-zh-00125",
+      "text": "〈审查结果通知〉",
+      "original_text": "<考试成绩通知>",
+      "reason": "심사결과 통지를 시험성적 통지로 오역"
+    },
+    {
+      "id": "A4702-zh-00126",
+      "text": "申请人",
+      "original_text": "应用程序",
+      "reason": "신청인을 응용프로그램으로 오역"
+    },
+    {
+      "id": "A4702-zh-00128",
+      "text": "运行路线经过两个以上道路管理机关时",
+      "original_text": "路线由两条或多条道路组成",
+      "reason": "운행경로가 2개 이상의 도로관리청을 경유하는 경우를 도로 수로 오역"
+    },
+    {
+      "id": "A4702-zh-00130",
+      "text": "所需文件",
+      "original_text": "所需文档",
+      "reason": "첨부서류 표제 정돈"
+    },
+    {
+      "id": "A4702-zh-00132",
+      "text": "仅限于运行路线经过两个以上道路管理机关的情形",
+      "original_text": "仅当通过管理机构时",
+      "reason": "두 개 이상의 도로관리청 경유 조건을 부정확하게 번역"
+    },
+    {
+      "id": "A4702-zh-00135",
+      "text": "许可期限及许可条件等",
+      "original_text": "许可期限和许可条件等。",
+      "reason": "허가기간 및 허가조건 표기 정돈"
+    },
+    {
+      "id": "A4702-zh-00136",
+      "text": "申请",
+      "original_text": "应用",
+      "reason": "신청 단계를 응용으로 오역"
+    },
+    {
+      "id": "A4702-zh-00137",
+      "text": "不予许可通知",
+      "original_text": "不批准通知",
+      "reason": "불허가 통지의 법률용어 정돈"
     }
   ],
-  "note": "Sequential review advanced through row 4661, completing A4698 road occupation work delegation notice, A4699 stored articles ledger, A4700 stored articles claim/receipt and A4701 traffic restriction notice. Added 50 targeted corrections for delegation notice fields/statutory references, storage ledger terminology, claim/receipt labels, and public notice/statute citations/traffic restrictions. Previous 1230 edits retained. Continue from row 4662 with A4702. IN_PROGRESS.",
+  "note": "Sequential review advanced through row 4799, completing A4702 restricted vehicle operation permit application (front/back), including vehicle dimensions/loads, cargo, route, attachments, statutory requirements, consent form and processing flow. Added 63 targeted corrections for rule title, vehicle permit terminology, vehicle specs/axle/load, route and operating fields, permit wording, fees, attachments, document counts, administrative information sharing and process stages. Previous 1289 edits retained. Continue from row 4800 with A4703. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
