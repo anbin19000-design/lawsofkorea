@@ -1,0 +1,224 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "panel_id": "panel-01",
+  "assignment_id": "S2-c174f0e36bef5fedb717095f1cea01f6",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:8c9c21fa8f34]",
+  "status": "IN_PROGRESS",
+  "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
+  "source_sha": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "read_stages": {
+    "korean_complete": true,
+    "korean_document_count": 16,
+    "korean_documents": [
+      {
+        "key": "B1",
+        "source_hash": "6bd172ed0b744fd6316620a2cdfb254f210ca234e5c28c68237e125ddeee1545",
+        "characters": 32084
+      },
+      {
+        "key": "B2",
+        "source_hash": "ccd94b842aa9bb71bf1e67bd87e3ced6fe35e349c79b6d87563e10c006584faa",
+        "characters": 14068
+      },
+      {
+        "key": "A38090",
+        "source_hash": "0fe5171e7790d179f11f7ff66b1ddcb4f876ae9f054a8504179340f3b80dc0b7",
+        "characters": 2863
+      },
+      {
+        "key": "A38091",
+        "source_hash": "2ff50c91105fc9a6b6ce239a008610e9206b6f1e1a7aefc26b73b9e45a0a409e",
+        "characters": 4651
+      },
+      {
+        "key": "B3",
+        "source_hash": "31821e252092def2f3f777861ad7d9899b27c0fa11a0d16f56bd25495e98d7f1",
+        "characters": 20264
+      },
+      {
+        "key": "A23947",
+        "source_hash": "4800a47930fcb4481ec58136ce958d66d489c12643b950f127c24d2ac4afcad7",
+        "characters": 12638
+      },
+      {
+        "key": "A23948",
+        "source_hash": "e784fe944cedb9e142d7d06a6957940c9fe9f25345c59b50e68eba92c5ff110c",
+        "characters": 5179
+      },
+      {
+        "key": "A23949",
+        "source_hash": "b23d7373daaaedfb81ee5f8cbc054b953c15b0ca31c25376ed9b3a0512b47823",
+        "characters": 5901
+      },
+      {
+        "key": "A23950",
+        "source_hash": "bef027aa5ab3723167054d7256a4db07b816330ee7a1360110f11c962a77afaf",
+        "characters": 4112
+      },
+      {
+        "key": "A23951",
+        "source_hash": "263b93e8222bd97c21774c44ff55fd79bbee22bedabdfa20baa230889d7ead28",
+        "characters": 3677
+      },
+      {
+        "key": "A23952",
+        "source_hash": "81c2d61355306d49e15b751fec47c74769132dc5b744f3aa6db34780f4b82859",
+        "characters": 4897
+      },
+      {
+        "key": "A23953",
+        "source_hash": "6296e805bc422d674cdda4577d6409838026c2e925165cf5b40500fc5a394641",
+        "characters": 6901
+      },
+      {
+        "key": "A23954",
+        "source_hash": "66c6f630716de65b3e7e9d3d26b1da1288ef3e838c8fd4efb6d20ffd9e74e7b9",
+        "characters": 2862
+      },
+      {
+        "key": "A23955",
+        "source_hash": "726916aba05bb20df5883c3f245780bf0ff915fc91de2b274276f28880ffeb21",
+        "characters": 3473
+      },
+      {
+        "key": "A23956",
+        "source_hash": "52621f4bb8d0adda809fdc9cc60dd07755cca7c1b0f2b26d1f1b3bbddf9862fa",
+        "characters": 5565
+      },
+      {
+        "key": "A23957",
+        "source_hash": "ac2b4be57ad89f02313d6a63e280ca195fe621a06455c8546e618ff8eb17243c",
+        "characters": 5891
+      }
+    ],
+    "english_available_complete": true,
+    "english_documents": [
+      {
+        "key": "B1",
+        "path": "documents/en/kr-012267-255833-en.json",
+        "sha": "f87656fa91683e050ec1b59c5f0f35bafcab752e",
+        "characters": 86278,
+        "article_count": 84
+      },
+      {
+        "key": "B2",
+        "path": "documents/en/kr-012519-262091-en.json",
+        "sha": "a6ca29d7e6453dcd5ed3b720da877b0b0549cfdc",
+        "characters": 34768,
+        "article_count": 40
+      }
+    ],
+    "english_unavailable_keys": [
+      "A38090",
+      "A38091",
+      "B3",
+      "A23947",
+      "A23948",
+      "A23949",
+      "A23950",
+      "A23951",
+      "A23952",
+      "A23953",
+      "A23954",
+      "A23955",
+      "A23956",
+      "A23957"
+    ]
+  },
+  "prior_review_blob": "b4daa6db7df1be35fe7da8695fb5acc0b7043b2e",
+  "prior_unique_edits": 287,
+  "prior_edits_preserved": true,
+  "prior_checked_rows": 88,
+  "newly_reviewed": {
+    "document": "B1",
+    "from": "B1-zh-00089",
+    "to": "B1-zh-00103",
+    "rows": 15,
+    "ids": [
+      {
+        "id": "B1-zh-00089",
+        "source_hash": "4e3f0ce283b7d749454c7e96973832607d9328f163b7c4e283561ed797a6695b",
+        "edited": false
+      },
+      {
+        "id": "B1-zh-00090",
+        "source_hash": "7c297336e164660bc6b39b340a08ff1cf67575540d952b3302fdf1bb0a946235",
+        "edited": false
+      },
+      {
+        "id": "B1-zh-00091",
+        "source_hash": "d5d913d936482b990c2d80e87e61f46c36eb7e2a1d08940374a65f016e1a89df",
+        "edited": false
+      },
+      {
+        "id": "B1-zh-00092",
+        "source_hash": "6dca5292b2748b20b72c44c43b9d6cbf42cdb9978477e69dc2381baa229fc63e",
+        "edited": false
+      },
+      {
+        "id": "B1-zh-00093",
+        "source_hash": "77e4eac38cf5346e4d3701817301fd26d851b6877590858f210e37892c19254d",
+        "edited": false
+      },
+      {
+        "id": "B1-zh-00094",
+        "source_hash": "c27a8d90e2fad39db31a7ec7c05311572dbb07d5ec24565e9bc0e8ebd63ca618",
+        "edited": false
+      },
+      {
+        "id": "B1-zh-00095",
+        "source_hash": "9185b2cd5a7acb5e750411fc4bee316f10521a397d70b7100b5e8562dcddabd3",
+        "edited": false
+      },
+      {
+        "id": "B1-zh-00096",
+        "source_hash": "ef55f3731ca58fff2f2d0bd5b5c9566497eb6d021fc855ca0f395bb8ee15228d",
+        "edited": false
+      },
+      {
+        "id": "B1-zh-00097",
+        "source_hash": "1e82911022af24967165e1717d96a08dc2bb8fcfd36af414b2975691498e65cf",
+        "edited": false
+      },
+      {
+        "id": "B1-zh-00098",
+        "source_hash": "525600df60cd168fa428d429574b8f6c5732c50f77890b1eab670e298f8ef112",
+        "edited": false
+      },
+      {
+        "id": "B1-zh-00099",
+        "source_hash": "3ebefbe523e83b001c921da38baabbfe48f3ae2a2f054d05a221daae258de083",
+        "edited": false
+      },
+      {
+        "id": "B1-zh-00100",
+        "source_hash": "25ab8090219c7238abfcb9c5def1d259d4a6ffcd42cc55b280b8993c845bc68c",
+        "edited": false
+      },
+      {
+        "id": "B1-zh-00101",
+        "source_hash": "c27a8d90e2fad39db31a7ec7c05311572dbb07d5ec24565e9bc0e8ebd63ca618",
+        "edited": false
+      },
+      {
+        "id": "B1-zh-00102",
+        "source_hash": "396129f1521506c1358086c30da4d6eda55328e20e43c3bb2030694b8bc3fdd7",
+        "edited": true
+      },
+      {
+        "id": "B1-zh-00103",
+        "source_hash": "c2b51faf226b5db6dbdf23b8ac9e0440760f497e2c39e15778edf738e3102454",
+        "edited": false
+      }
+    ],
+    "additional_edits": 0
+  },
+  "next_position": "B2-zh-00001",
+  "note": "B1 rows 89-103 compared against Korean source; existing edit B1-zh-00102 preserved. No further unequivocal translation error found in this continuation segment. Family review remains incomplete; do not issue receipt."
+}
