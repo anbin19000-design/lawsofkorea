@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 2900,
+    "verified_zh_rows": 2960,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 2900,
-      "checked_rows": 2900,
+      "next_row_zero_based": 2960,
+      "checked_rows": 2960,
       "total_rows": 5228
     }
   },
@@ -3931,9 +3931,153 @@
       "text": "跨线道路（跨线通道）",
       "original_text": "加多",
       "reason": "가도 표제의 미번역·훼손"
+    },
+    {
+      "id": "A4687-zh-00127",
+      "text": "管理人",
+      "original_text": "管理员",
+      "reason": "유료도로 관리자를 나타내는 항목을 관리행정원으로 부정확하게 표현"
+    },
+    {
+      "id": "A4687-zh-00129",
+      "text": "起",
+      "original_text": "亮",
+      "reason": "요금징수시간의 시작 표기를 오역"
+    },
+    {
+      "id": "A4687-zh-00130",
+      "text": "止",
+      "original_text": "至",
+      "reason": "요금징수시간의 종료 표기를 문맥상 모호하게 번역"
+    },
+    {
+      "id": "A4687-zh-00134",
+      "text": "长度明细",
+      "original_text": "扩展详情",
+      "reason": "연장내역을 확장 상세정보로 오역"
+    },
+    {
+      "id": "A4687-zh-00139",
+      "text": "处数",
+      "original_text": "打开",
+      "reason": "개소를 열기/개방으로 오역"
+    },
+    {
+      "id": "A4687-zh-00140",
+      "text": "长度",
+      "original_text": "扩展",
+      "reason": "연장을 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00141",
+      "text": "处数",
+      "original_text": "积分",
+      "reason": "개소를 점수로 오역"
+    },
+    {
+      "id": "A4687-zh-00142",
+      "text": "长度",
+      "original_text": "扩展",
+      "reason": "연장을 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00145",
+      "text": "2-1. 桥梁规格",
+      "original_text": "2-1. 桥接器规格",
+      "reason": "교량 제원을 브리지 연결장치 규격으로 오역"
+    },
+    {
+      "id": "A4687-zh-00150",
+      "text": "路线名称",
+      "original_text": "④路由名称",
+      "reason": "노선명을 네트워크 라우팅 명칭으로 오역"
+    },
+    {
+      "id": "A4687-zh-00151",
+      "text": "路线编号",
+      "original_text": "⑤路由编号",
+      "reason": "노선번호를 라우팅 번호로 오역"
+    },
+    {
+      "id": "A4687-zh-00152",
+      "text": "⑥路段",
+      "original_text": "⑥部分",
+      "reason": "구간을 단순 부분으로 축소 번역"
+    },
+    {
+      "id": "A4687-zh-00153",
+      "text": "⑦桥梁名称",
+      "original_text": "⑦网桥名称",
+      "reason": "교량을 네트워크 브리지로 오역"
+    },
+    {
+      "id": "A4687-zh-00157",
+      "text": "⑩所在地",
+      "original_text": "⑩位置",
+      "reason": "소재지를 위치로 단순화하여 항목 구분을 흐림"
+    },
+    {
+      "id": "A4687-zh-00158",
+      "text": "⑪终点",
+      "original_text": "⑪终端",
+      "reason": "종점을 전자기기 단말로 오역"
+    },
+    {
+      "id": "A4687-zh-00161",
+      "text": "⑭桥梁长度",
+      "original_text": "⑭桥接扩展",
+      "reason": "교량 연장을 브리지 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00162",
+      "text": "⑮跨数",
+      "original_text": "⑮跨度数",
+      "reason": "경간 수의 구조물 용어를 부정확하게 표현"
+    },
+    {
+      "id": "A4687-zh-00163",
+      "text": "最大跨径",
+      "original_text": "最大跨度长度",
+      "reason": "최대 경간장을 정확한 교량 용어로 정정"
+    },
+    {
+      "id": "A4687-zh-00165",
+      "text": "总宽度",
+      "original_text": "道路宽度",
+      "reason": "총폭원을 도로 폭으로 오역"
+    },
+    {
+      "id": "A4687-zh-00166",
+      "text": "车道数（下行）",
+      "original_text": "车道号（下行）",
+      "reason": "하행 차로 수를 차로 번호로 오역"
+    },
+    {
+      "id": "A4687-zh-00168",
+      "text": "允许通行荷载",
+      "original_text": "允许的流量负载",
+      "reason": "허용 통행하중을 교통량 부하로 오역"
+    },
+    {
+      "id": "A4687-zh-00170",
+      "text": "跨径布置",
+      "original_text": "Span 配置",
+      "reason": "경간 구성을 영문 혼용·부정확 표현"
+    },
+    {
+      "id": "A4687-zh-00171",
+      "text": "主跨类型",
+      "original_text": "主跨距类型",
+      "reason": "주경간 형식의 용어를 오역"
+    },
+    {
+      "id": "A4687-zh-00172",
+      "text": "侧跨类型",
+      "original_text": "Pukyeonggan 类型",
+      "reason": "부경간 형식이 음역 잔존"
     }
   ],
-  "note": "Resumed from the latest shared checkpoint (row 2820; 605 cumulative edits) and reviewed sequentially through row 2899, road ledger form labels. Added 25 focused corrections for lane-count terminology, bridge categories, roadway/median/shoulder labels, pavement structure, surfaced/unpaved status, road land ownership categories, curvature range and crossing facility labels. Prior edits preserved. Continue from row 2900. IN_PROGRESS.",
+  "note": "Sequential review advanced through row 2959 in the road ledger annex, including toll-road fields and bridge specification form labels. Added 24 targeted corrections for toll manager/time/range labels, count-vs-length fields, route terminology, bridge name/specification, location/endpoint, bridge length/span terminology, lane direction, load and span arrangement. Previous 630 edits preserved. Continue at row 2960. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
