@@ -1,0 +1,28 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 1,
+  "checked_ids": [
+    "A36427-zh-00061"
+  ],
+  "edits": [
+    {
+      "id": "A36427-zh-00061",
+      "source_hash": "7d12b952579993bd639a1860f555303e6b53efbcb75a7c12ff9fc6fa173477ea",
+      "target_id": "XML:2657430",
+      "text": "二款第三号"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "korean_evidence": "별표 4 위반행위 다: 법 제34조제2항; 근거 법조문 법 제55조제2항제3호",
+  "joined_final_text": "本法第五十五条第二款第三号",
+  "note": "R100 closes last uncovered A36427 annex 4 row 00061 in 60-128 after R4, R60, R61 and earlier MTQ row94. Row56 existing R59 fragment 本法第五十五条第 joins R100 二款第三号. Prevent duplicate 第 and restore exact 조·항·호 statutory citation. No source mutation, IN_PROGRESS."
+}
