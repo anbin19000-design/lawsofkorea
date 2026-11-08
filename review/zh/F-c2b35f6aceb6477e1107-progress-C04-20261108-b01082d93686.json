@@ -1,0 +1,33 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-c2b35f6aceb6477e1107",
+  "worker": "C04",
+  "assignment_marker": "b01082d93686",
+  "status": "IN_PROGRESS",
+  "source_blob_shas": {
+    "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
+    "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
+    "zh": "f8879f4a12299069e4831b03f15a2a2fa30c8089"
+  },
+  "document_count": 15,
+  "zh_rows": 1241,
+  "english_with_reference": 911,
+  "english_without_reference": 330,
+  "prior_corrections": 167,
+  "new_ids": [
+    "A14117-zh-00024",
+    "A14119-zh-00004",
+    "A14119-zh-00007",
+    "A14119-zh-00009"
+  ],
+  "total_corrections": 171,
+  "review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
+  "review_commit": "dc2594db33ad697a853b46e012598a32845da6b7",
+  "full_read_stages_verified": {
+    "korean": false,
+    "english": false,
+    "chinese": false
+  },
+  "complete_receipt": false,
+  "note": "Original SHAs unchanged; existing 167 corrections preserved. Annex A14117 statutory inspector designation corrected, Annex A14119 sampling log labels corrected. C04 remains on same family; 171 counts corrections, not sequentially verified rows."
+}
