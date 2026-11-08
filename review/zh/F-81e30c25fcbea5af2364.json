@@ -2341,10 +2341,19 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-7ffe3eb52630.json",
       "verification": "C02_DIRECT_KOREAN_ARTICLE4_COMPARISON",
       "reason": "Act Article 4(1) subparagraph 9 explicitly protects smart city infrastructure; subparagraph 12 includes other presidential-decree-prescribed necessary matters, not merely 'Presidential Decree'; paragraph 3 separately defines 종합계획안 (draft comprehensive plan)."
+    },
+    {
+      "id": "B1-zh-00010",
+      "text": "第六条（确认综合规划）\n①国土交通部长应根据第五条的规定，在与相关中央行政机关负责人协商后，经国家智慧城市委员会根据第二十三条的规定审议，最终确定反映公众听证结果的综合规划草案。<2013年3月23日、2017年3月21日修订>\n② 根据第1款规定完成综合规划后，国土交通部长应立即在官方公报上公布其主要内容，并将综合规划送交有关中央行政机关负责人、特大城市、大都会城市、特别自治市市长、省长、特别自治省长（以下统称“市/省长”）以及各市长及郡守（不包括广域市辖区内的郡守；以下同上） 。<2013年3月23日、2017年3月21日修订>\n\n",
+      "source_hash": "7ae6f0b5f35751770454ae5bde102dead0b854073fd23084deca63171ca86611",
+      "target_id": "133373ab2ad631988f68b19dabd5101647c1bcf4fab4fbb2e471f60ed740df28",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-7ffe3eb52630-article6.json",
+      "verification": "C02_DIRECT_KOREAN_ARTICLE6_COMPARISON",
+      "reason": "Korean Act Article 6(2) includes 시장 및 군수, which the existing Chinese translation rendered as only county heads; restores both mayors and county chiefs and preserves the metropolitan-city exception."
     }
   ],
-  "adjudicated_edit_count": 285,
-  "pending_single_candidate_count": 345,
+  "adjudicated_edit_count": 286,
+  "pending_single_candidate_count": 344,
   "pending_conflict_count": 0,
   "pending_single_candidates": [
     {
@@ -6310,21 +6319,6 @@
       "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
     },
     {
-      "id": "B1-zh-00010",
-      "source_hash": "7ae6f0b5f35751770454ae5bde102dead0b854073fd23084deca63171ca86611",
-      "target_id": "133373ab2ad631988f68b19dabd5101647c1bcf4fab4fbb2e471f60ed740df28",
-      "variants": [
-        {
-          "text": "第六条（综合计划的确定）\n① 国土交通部长官应当将根据第五条举行公听会的结果反映到综合计划草案中，与有关中央行政机关负责人协商，并经过第二十三条规定的国家智慧城市委员会审议后予以确定。<2013年3月23日、2017年3月21日修订>\n② 依据第一款确定综合计划后，国土交通部长官应当立即将其主要内容刊登于官报，并将综合计划送交有关中央行政机关负责人、特别市市长、广域市市长、特别自治市市长、道知事及特别自治道知事（以下称“市、道知事”），以及市长和郡守（不包括广域市辖区内的郡守；下同）。<2013年3月23日、2017年3月21日修订>\n\n",
-          "file_indices": [
-            16
-          ]
-        }
-      ],
-      "text": "第六条（综合计划的确定）\n① 国土交通部长官应当将根据第五条举行公听会的结果反映到综合计划草案中，与有关中央行政机关负责人协商，并经过第二十三条规定的国家智慧城市委员会审议后予以确定。<2013年3月23日、2017年3月21日修订>\n② 依据第一款确定综合计划后，国土交通部长官应当立即将其主要内容刊登于官报，并将综合计划送交有关中央行政机关负责人、特别市市长、广域市市长、特别自治市市长、道知事及特别自治道知事（以下称“市、道知事”），以及市长和郡守（不包括广域市辖区内的郡守；下同）。<2013年3月23日、2017年3月21日修订>\n\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
       "id": "B1-zh-00015",
       "source_hash": "900e1d75f97395f894b6eb011cf914bba7b302fb706457fa1e09f554356fffb5",
       "target_id": "1a77f4253c38db3eb4caaf1fa0365c6c5e6f0ee1a8cb97a76da4b84974efa959",
@@ -7558,9 +7552,9 @@
     "Existing stored adjudications and later progress files must be incorporated with source/hash verification before COMPLETE."
   ],
   "integration_progress": {
-    "stage": "C02_ACT_ARTICLE4_MINIMAL_CORRECTIONS",
+    "stage": "C02_ACT_ARTICLE6_MINIMAL_CORRECTIONS",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:7ffe3eb52630",
-    "note": "Corrected three direct Korean source omissions/misstatements in Act Article 4; full reading remains unverified."
+    "note": "Act Article 4 and 6 Korean-backed corrections applied. Full review incomplete."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -7862,7 +7856,8 @@
     "B3-zh-00004",
     "B3-zh-00003",
     "B3-zh-00001",
-    "B1-zh-00008"
+    "B1-zh-00008",
+    "B1-zh-00010"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
