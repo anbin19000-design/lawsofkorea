@@ -9,15 +9,15 @@
     "en": "835fe6c61b35a38db06d890138be0001ca03c610",
     "zh": "a039851e87912aaef943e29d8fe40df20ae65e8a"
   },
-  "previous_checkpoint": "review/zh/F-1497d85066511dfeffd4-progress-23f55534a28b-a29205.json",
+  "previous_checkpoint": "review/zh/F-1497d85066511dfeffd4-progress-d0ad559bfd5a.json",
   "reading_checkpoint": {
     "required_order": "KO_FULL_EN_FULL_ZH_FULL",
     "ko": "COMPLETE_READ: all 56 family documents",
     "en": "COMPLETE_READ: English family index and both available linked English full texts; 39 documents have no English reference",
-    "zh": "IN_PROGRESS: B3 rules rows 1-101 inspected; corrected untranslated Korean data in row 9 and mixed Korean/garbled appendix 1 in row 101. Appendix 1 rows A13757-001 to 028 inspected and corrections recorded. Next appendix 2 A13758.",
-    "checked_rows": 1519,
+    "zh": "IN_PROGRESS: Appendix 2 (A13758) all 12 rows inspected against Korean; Appendix 1 split-row continuation text normalized. Next Appendix 3.",
+    "checked_rows": 1531,
     "total_rows": 3494,
-    "next_row": "A13758-zh-00001",
+    "next_row": "A13759-zh-00001",
     "semantic_quality_certified": false
   },
   "edits": [
@@ -1822,13 +1822,13 @@
     },
     {
       "id": "A13757-zh-00020",
-      "text": "1. 培养课程的科目名称即使不完全相同，经国家终身教育振兴院院长批准认定课程内容相同的，也视为同一科目。",
+      "text": "1. 培养课程的科目名称即使不完全相同，但课程内容相同的，",
       "reason": "국가평생교육진흥원장 승인 조건 복원",
       "original_source_hash": "a7f661446f8525b035b0c222fabcb54ee1c57e2ea1777f6868929d1a346a20cc"
     },
     {
       "id": "A13757-zh-00021",
-      "text": "（同上条款的后续部分）",
+      "text": "经国家终身教育振兴院院长批准认定的，视为同一科目。",
       "reason": "원문과 분절된 행의 연결 의미 표시",
       "original_source_hash": "083fe9eb54e05ba54ac2d581999c0574242036bf203eed00eac84f2b5472b04a"
     },
@@ -1840,13 +1840,13 @@
     },
     {
       "id": "A13757-zh-00023",
-      "text": "3. 每门科目为3学分，各科成绩以100分为满分计算，平均成绩须达到80分以上。",
+      "text": "3. 每门科目为3学分，各科成绩以100分为满分计算，",
       "reason": "학점 및 평균 성적 요건",
       "original_source_hash": "f5d9463506184d66182f81ba04731414532cdf5c34decf2ffe4b2c06363272b7"
     },
     {
       "id": "A13757-zh-00024",
-      "text": "（同上条款的后续部分）",
+      "text": "平均成绩须达到80分以上。",
       "reason": "분절된 성적 문구 연속성",
       "original_source_hash": "93f33abb423206894681e1e1b17f6b2485d6a3825e4b419c81635912242d13d3"
     },
@@ -1873,8 +1873,80 @@
       "text": "并应由包含上述实习的课程组成。",
       "reason": "실습 포함 수업과정 구성",
       "original_source_hash": "8eb925153a812fec4280021f9b3f2184033cd2997a9d70f82a9c75a72bdc46d7"
+    },
+    {
+      "id": "A13758-zh-00001",
+      "text": "■《终身教育法实施细则》[附表2]",
+      "reason": "부속표 번호·법령명 표기",
+      "original_source_hash": "6af2b9b14ec485a22a3e392e4c91ae33e161b1606f79abba28fa33bebf768300"
+    },
+    {
+      "id": "A13758-zh-00002",
+      "text": "学校形态终身教育设施的设施及设备标准（与第十条相关）",
+      "reason": "시설·설비 기준 제목",
+      "original_source_hash": "ef449e6c3446fc7614c54d10e09683dafdca5086b1d301a2f719ace379783212"
+    },
+    {
+      "id": "A13758-zh-00003",
+      "text": "类别",
+      "reason": "표 열 제목",
+      "original_source_hash": "d8ba487317ac4e370c544ff11fee92077c5dfe235d14d8d93e213e278685f7be"
+    },
+    {
+      "id": "A13758-zh-00004",
+      "text": "设施及设备标准",
+      "reason": "표 열 제목",
+      "original_source_hash": "ece161928d0d57716222743ed69e19de6b2f31c0dd49bf16b7686366f9fc4c43"
+    },
+    {
+      "id": "A13758-zh-00005",
+      "text": "1. 学习设施",
+      "reason": "학습시설",
+      "original_source_hash": "f886dee0c2a91358c12aef18a03dc15b327c9f6b1cd40a4cf19ab78badf21d35"
+    },
+    {
+      "id": "A13758-zh-00006",
+      "text": "a. 至少1间教室（每间标准面积不得少于49.5平方米）",
+      "reason": "면적 기준을 ‘이상’으로 정확히 표현",
+      "original_source_hash": "153876f00b5b6b52cd3b4d399adf6d81ed093c1fac578a327e9975f2d99024f8"
+    },
+    {
+      "id": "A13758-zh-00007",
+      "text": "b. 学习所需的设施及设备",
+      "reason": "항목명 교정",
+      "original_source_hash": "5d35a8e88a44694968e26a507c5021c041d3183d0d5cb50973352ab9bb7448a1"
+    },
+    {
+      "id": "A13758-zh-00008",
+      "text": "2. 资料室",
+      "reason": "자료실을 보관소로 오역",
+      "original_source_hash": "0e921e1e0d3bf3e2bcb66a5eb81f2fc0c3cdea8442f0f22f771e4303e72eaeb3"
+    },
+    {
+      "id": "A13758-zh-00009",
+      "text": "a. 图书及资料不少于500册",
+      "reason": "‘500권 이상’ 수량 기준",
+      "original_source_hash": "49a47d2f58789069562b7b0018e08c3e849fc56313aafcc622e268ed25896b35"
+    },
+    {
+      "id": "A13758-zh-00010",
+      "text": "b. 可以与管理室合用",
+      "reason": "관리실 겸용 가능",
+      "original_source_hash": "b522ddceb1d90536cc18e28b6a094d5420a03c0321ef1504a82f6207c0dfdecb"
+    },
+    {
+      "id": "A13758-zh-00011",
+      "text": "3. 管理室",
+      "reason": "관리실",
+      "original_source_hash": "48a1385e92258e5120ae62a90d655dd316df69615b37e56d9a57b2055c265734"
+    },
+    {
+      "id": "A13758-zh-00012",
+      "text": "至少1间",
+      "reason": "1실 이상",
+      "original_source_hash": "c4869ef6afff1c6a53a853f6bdd7d2c93299e79cdfa03fbe6dd98f4dfac2bddb"
     }
   ],
-  "corrected_rows": 309,
-  "notes": "Preserves prior 278 corrections; adds source-hash-bound corrections for B3 untranslated/garbled provisions and full appendix 1 translation repairs. Remains IN_PROGRESS; all remaining annexes and forms still require sequential review and final QA."
+  "corrected_rows": 321,
+  "notes": "Preserves prior 309 candidate corrections; normalized split continuation fragments in Appendix 1 and added 12 row-specific corrections for Appendix 2. Status remains IN_PROGRESS."
 }
