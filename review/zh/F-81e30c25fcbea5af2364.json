@@ -2296,10 +2296,28 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-cdb16aa1344a.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
       "reason": "Supplementary Article 5 amends another enforcement decree (다른 법령), not another Act alone."
+    },
+    {
+      "id": "B3-zh-00002",
+      "source_hash": "1ead33533718e10f807b7999e535008f399b8c904024412bc74124a1db88f536",
+      "target_id": "8f5cf23ae0a3233ab39c873011233af2537827eaa31da971081d7b556d1e4a1b",
+      "text": "第一条（目的）本规则的目的是规定《智慧城市建设及产业振兴等相关法律》及其施行令授权的事项，以及为实施该等法律所必需的事项。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-cdb16aa1344a-rule.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Rule Article 1 expressly refers to delegated matters of the parent Act and its Enforcement Decree, not the parent Act and 'implementation rules'."
+    },
+    {
+      "id": "B3-zh-00004",
+      "source_hash": "8c865a4a1033261b59b0741ebd2c1bfba0d5104cc028ece67d2126186af05125",
+      "target_id": "040152a04dda12c0eef4ae59d74e2dc365cdb74f8dc7060054bc0d6d941b8655",
+      "text": "第三条（国家试点城市建设项目绩效评价的实施）\n① 国土交通大臣应当按照第三条之三的规定，通过绩效评估委员会的审议，对国家试点城市建设项目绩效进行评估，并将评估结果通知项目实施方。\n② 收到第1款通知的项目实施者如对结果有异议，可自收到通知之日起10日内向国土交通大臣提交异议详情及相关说明材料。\n③ 如有人根据第 2 款提出异议，国土交通大臣应在绩效评估委员会重新审议后，决定是否采纳该异议的内容。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-cdb16aa1344a-rule.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Rule Article 3 refers to Article 3-3 evaluation committee, not Article 3 paragraph 3."
     }
   ],
-  "adjudicated_edit_count": 280,
-  "pending_single_candidate_count": 350,
+  "adjudicated_edit_count": 282,
+  "pending_single_candidate_count": 348,
   "pending_conflict_count": 0,
   "pending_single_candidates": [
     {
@@ -7510,21 +7528,6 @@
       "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
     },
     {
-      "id": "B3-zh-00002",
-      "source_hash": "1ead33533718e10f807b7999e535008f399b8c904024412bc74124a1db88f536",
-      "target_id": "8f5cf23ae0a3233ab39c873011233af2537827eaa31da971081d7b556d1e4a1b",
-      "variants": [
-        {
-          "text": "第一条（目的）本规则旨在规定《智慧城市建设及产业振兴等相关法律》及该法施行令委任的事项，以及施行所需的事项。\n\n",
-          "file_indices": [
-            39
-          ]
-        }
-      ],
-      "text": "第一条（目的）本规则旨在规定《智慧城市建设及产业振兴等相关法律》及该法施行令委任的事项，以及施行所需的事项。\n\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
       "id": "B3-zh-00003",
       "source_hash": "c875130cab088149bc446f1856cf5ef6da3bfd90a67e52146375d100f13015dc",
       "target_id": "332ecf91042d3ab51f8d17111b5a5e8b1ed8b488787057b5151b0a9eece1c20d",
@@ -7537,21 +7540,6 @@
         }
       ],
       "text": "第二条（国家示范城市建设事业绩效评价计划的制定等）\n① 国土交通部长官应当每年制定依据《智慧城市建设及产业振兴等相关法律》（以下简称“本法”）第三十五条之三第二款评价国家示范城市建设事业绩效的计划（以下简称“绩效评价计划”）。\n② 绩效评价计划应当包括下列事项：\n1. 绩效评价的基本方向及推进日程\n2. 绩效评价的范围和对象\n3. 绩效评价标准、绩效指标及各指标的分值\n4. 绩效评价所需资料的编制\n5. 绩效评价结果的运用方案\n6. 绩效评价结果的公开范围及方法\n7. 客观评价国家示范城市建设事业绩效所需的其他事项\n③ 国土交通部长官制定绩效评价计划后，应当立即通知有关国家示范城市建设事业的事业实施者。\n\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "B3-zh-00004",
-      "source_hash": "8c865a4a1033261b59b0741ebd2c1bfba0d5104cc028ece67d2126186af05125",
-      "target_id": "040152a04dda12c0eef4ae59d74e2dc365cdb74f8dc7060054bc0d6d941b8655",
-      "variants": [
-        {
-          "text": "第三条（国家示范城市建设事业绩效评价的实施）\n① 国土交通部长官应当经过第三条之三规定的绩效评价委员会审议，评价国家示范城市建设事业的绩效，并将结果通知事业实施者。\n② 收到第一款通知的事业实施者对结果有异议时，可以自收到通知之日起十日内，向国土交通部长官提交异议申请内容及有关说明资料。\n③ 国土交通部长官收到第二款规定的异议申请后，应当经绩效评价委员会重新审议，确定是否采纳异议申请内容。\n\n",
-          "file_indices": [
-            90
-          ]
-        }
-      ],
-      "text": "第三条（国家示范城市建设事业绩效评价的实施）\n① 国土交通部长官应当经过第三条之三规定的绩效评价委员会审议，评价国家示范城市建设事业的绩效，并将结果通知事业实施者。\n② 收到第一款通知的事业实施者对结果有异议时，可以自收到通知之日起十日内，向国土交通部长官提交异议申请内容及有关说明资料。\n③ 国土交通部长官收到第二款规定的异议申请后，应当经绩效评价委员会重新审议，确定是否采纳异议申请内容。\n\n",
       "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
     }
   ],
@@ -7588,9 +7576,9 @@
     "Existing stored adjudications and later progress files must be incorporated with source/hash verification before COMPLETE."
   ],
   "integration_progress": {
-    "stage": "C02_FURTHER_VERIFIED_DECREE_REVIEW_IN_PROGRESS",
+    "stage": "C02_RULE_CORRECTIONS_IN_PROGRESS",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:cdb16aa1344a",
-    "note": "Two directly verified fixes. Full KO/EN/ZH family readthrough not yet certified."
+    "note": "Four source-supported corrections this execution; full readthrough remains uncertified."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -7887,7 +7875,9 @@
     "B2-zh-00073",
     "B2-zh-00052",
     "B2-zh-00049",
-    "B2-zh-00120"
+    "B2-zh-00120",
+    "B3-zh-00002",
+    "B3-zh-00004"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
