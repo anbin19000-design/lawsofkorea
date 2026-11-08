@@ -1,0 +1,58 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:0e99a0eda465",
+  "status": "IN_PROGRESS",
+  "phase": "EXISTING_CANDIDATE_CONFLICT_ADJUDICATION",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_en_index_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "english_status": "A26698 NO_DOCUMENT_ENGLISH; compare directly with Korean source",
+  "document": "A26698",
+  "checked_rows": 2,
+  "checked_ids": [
+    "A26698-zh-00008",
+    "A26698-zh-00010"
+  ],
+  "corrected_rows": 2,
+  "results": [
+    {
+      "id": "A26698-zh-00008",
+      "verdict": "PASS_AFTER_CONFLICT_ADJUDICATION",
+      "reason": "Korean A26698 Annex Form 6 prints 발급자 서명 in both signature columns, not 领证人签名 or 交还人签名. Retain existing alternate candidate 签发人签名, exclude other variant."
+    },
+    {
+      "id": "A26698-zh-00010",
+      "verdict": "PASS_AFTER_CONFLICT_ADJUDICATION",
+      "reason": "Korean A26698 Annex Form 6 prints 발급자 서명 in both signature columns, not 领证人签名 or 交还人签名. Retain existing alternate candidate 签发人签名, exclude other variant."
+    }
+  ],
+  "edits": [
+    {
+      "id": "A26698-zh-00008",
+      "source_hash": "a7bf7464206d1e8a009c314009762340e847a5215e2692c332d97762fca91d9a",
+      "text": "签发人签名"
+    },
+    {
+      "id": "A26698-zh-00010",
+      "source_hash": "a7bf7464206d1e8a009c314009762340e847a5215e2692c332d97762fca91d9a",
+      "text": "签发人签名"
+    }
+  ],
+  "adjudication": {
+    "accepted_text": "签发人签名",
+    "rejected_alternates": {
+      "A26698-zh-00008": "领证人签名",
+      "A26698-zh-00010": "交还人签名"
+    },
+    "prior_source": "status/delivery/reconcile-S2-8f70e317249155938a79444493d089b4-evidence-7e6b69412a765526.json",
+    "new_unique_corrections": 0,
+    "note": "Existing alternate candidate chosen; do not double-count these IDs when consolidating existing corrections."
+  },
+  "protected_unresolved_ids": [
+    "A26697-zh-00008",
+    "A26699-zh-00053"
+  ],
+  "note": "Prior candidates remain unmodified. Confirmed two same Korean columns and accepted prior accurate candidates. This is not whole-family review or a COMPLETE receipt."
+}
