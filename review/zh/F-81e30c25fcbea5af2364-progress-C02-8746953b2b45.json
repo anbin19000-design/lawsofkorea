@@ -1,0 +1,63 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:8746953b2b45",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "english_note": "B3 시행규칙 has NO_DOCUMENT_ENGLISH; Korean original is controlling source.",
+  "checked_rows": 3,
+  "checked_ids": [
+    "B3-zh-00005",
+    "B3-zh-00006",
+    "B3-zh-00007"
+  ],
+  "edits": [
+    {
+      "id": "B3-zh-00005",
+      "source_hash": "d2c6464ce830c3eded448c8f5f03b41c8267307179829c207b3b2aa5138530d0",
+      "target_id": "860b87c5dfba41e5c1e8ff633ce06d943497aff087a959d280f72482f38b2ae5",
+      "text": "第三条之二（国家示范城市建设事业绩效评价结果的公开等）\n① 国土交通部长官应当于每年3月31日前，在国土交通部网站公布依据第三条第一款作出的绩效评价结果。\n② 国土交通部长官可以将依据第三条第一款作出的绩效评价结果，用作依据本法第三十六条对国家示范城市提供支持的资料。\n\n"
+    },
+    {
+      "id": "B3-zh-00006",
+      "source_hash": "83de994b8b10107c409be9d8fde932e1223107b77c12ca2a236a48398c8405c6",
+      "target_id": "588048038216535021bef346869564f309db3205d7ebea90ffaee204893597e5",
+      "text": "第三条之三（国家示范城市建设事业绩效评价委员会的组成、运营等）\n① 国土交通部长官应当依据本法第三十五条之三第二款，为评价国家示范城市建设事业的绩效，组建并运营绩效评价委员会（以下简称“绩效评价委员会”）。\n② 绩效评价委员会由国土交通部长官从本法第二十三条第四款规定的专门委员会委员中任命或委任的人员组成。\n③ 绩效评价委员会主任委员由国土交通部长官从第二款规定的委员中任命或委任。\n④ 除第一款至第三款规定的事项外，绩效评价委员会组成及运营所需的具体事项，由国土交通部长官规定。\n\n"
+    },
+    {
+      "id": "B3-zh-00007",
+      "source_hash": "16de11375f87cf333953d2e7d36253e3dabde597d1c068c976a1d9049e59e3fc",
+      "target_id": "62d48059749438ee251c5b37e7d91acaddcfd61c7afc5d320a6a5f926bacf89c",
+      "text": "第四条（智慧创新事业及智慧实证事业申请书等）\n① 依据《智慧城市建设及产业振兴等相关法律施行令》（以下简称“施行令”）第五十二条第二款的智慧创新事业申请书，使用附页第三号格式；依据施行令第五十三条准用第五十二条第二款的智慧实证事业，使用附页第四号格式。<2021年7月12日修订>\n② 依据施行令第五十二条第六款的智慧创新事业计划批准确认书（包括依据施行令第五十三条准用的智慧实证事业计划批准确认书），使用附页第五号格式。\n\n"
+    }
+  ],
+  "adjudications": [
+    {
+      "id": "B3-zh-00005",
+      "reason": "한국어 시행규칙 제3조의2는 매년 3월 31일 공개 및 법 제36조에 따른 지원 자료 활용으로, 기존 후보가 본 법령과 시행규칙의 제3조제1항 인용을 정확히 구분함.",
+      "source": "existing reconciled candidate, file index 39"
+    },
+    {
+      "id": "B3-zh-00006",
+      "reason": "조문 번호 제3조의3을 원본 중국어가 第三条第三款으로 오기하고 법률명을 잘못 참조하며 제4항을 한국어로 방치함. 기존 후보는 네 항을 모두 번역하고 인용을 바로잡음.",
+      "source": "existing reconciled candidate, file index 25"
+    },
+    {
+      "id": "B3-zh-00007",
+      "reason": "한국어 시행규칙 제4조의 서식 번호 3/4/5 및 시행령 제52조·제53조 준용 관계를 기존 중국어 후보에서 확인. 다른 문서·셀 병합 없음.",
+      "source": "existing reconciled candidate, file index 39"
+    }
+  ],
+  "previous_progress": [
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-0db64372db7d.json",
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-3d3a40a47c11.json"
+  ],
+  "note": "Reconciled three previously stored candidates, not three newly unique rows; preserve all previous corrections. Whole-family 1133-row complete semantic review has not been established. No COMPLETE status."
+}
