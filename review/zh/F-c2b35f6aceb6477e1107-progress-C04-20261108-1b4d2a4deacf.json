@@ -1,0 +1,34 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-c2b35f6aceb6477e1107",
+  "worker": "C04",
+  "assignment_marker": "1b4d2a4deacf",
+  "status": "IN_PROGRESS",
+  "source_blob_shas": {
+    "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
+    "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
+    "zh": "f8879f4a12299069e4831b03f15a2a2fa30c8089"
+  },
+  "document_count": 15,
+  "zh_rows": 1241,
+  "english_reference_rows": 911,
+  "english_missing_reference_rows": 330,
+  "previous_edit_count": 208,
+  "new_edit_ids": [
+    "A14112-zh-00005",
+    "A14112-zh-00029",
+    "A14112-zh-00031",
+    "A14112-zh-00033",
+    "A14112-zh-00035",
+    "A14112-zh-00037",
+    "A14112-zh-00039"
+  ],
+  "total_edit_count": 215,
+  "review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
+  "review_commit": "5832144fc01fdd4cf68c27512e54227953984b04",
+  "korean_full_read_verified": false,
+  "english_full_read_verified": false,
+  "chinese_full_read_verified": false,
+  "complete_receipt": false,
+  "note": "Source-checked 7 table heading component corrections in A14112: energy and average nutritional requirement labels. Previously saved corrections and source SHAs preserved. Not complete."
+}
