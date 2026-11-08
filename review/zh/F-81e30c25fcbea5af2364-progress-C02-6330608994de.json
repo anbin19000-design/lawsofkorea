@@ -1,0 +1,40 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "family_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "panel_id": "panel-02",
+  "pc": "WORK-C",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "task_marker": "WORK-TASK:C02:F-81e30c25fcbea5af2364:6330608994de",
+  "source_blob_sha": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "source_documents": 17,
+  "total_zh_rows": 1133,
+  "checked_ids": [
+    "B2-zh-00114",
+    "B2-zh-00115",
+    "B2-zh-00116",
+    "B2-zh-00118"
+  ],
+  "edits_added": [
+    "B2-zh-00114",
+    "B2-zh-00115",
+    "B2-zh-00118"
+  ],
+  "retained": [
+    "B2-zh-00116"
+  ],
+  "pending_next": "B2-zh-00117 and remaining 17-document whole-family read-through",
+  "ordered_reading_certification": {
+    "ko": false,
+    "en": false,
+    "zh": false
+  },
+  "completion_receipt_verified": false
+}
