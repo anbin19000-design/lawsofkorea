@@ -1,0 +1,98 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:ef290af4a19d",
+  "status": "IN_PROGRESS",
+  "phase": "WHOLE_FAMILY_CHINESE_SEQUENTIAL_REVIEW_WITH_UNRESOLVED_LAYOUT",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_en_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "canonical_review_path": "review/zh/F-0536890d62605f77ff0a.json",
+  "canonical_review_blob_sha": "af1cf3a5276c71158ca93f6ea5e8847d2b096e2a",
+  "full_korean_read": true,
+  "full_english_read": true,
+  "all_chinese_rows_read_in_sequence": true,
+  "full_chinese_semantic_review": false,
+  "source_rows": 1136,
+  "source_documents": 22,
+  "previous_edits": 782,
+  "current_edits": 787,
+  "existing_edit_amendments": 1,
+  "new_edits": 5,
+  "checked_rows": 1136,
+  "meaning_review_complete": false,
+  "changed_ids": [
+    {
+      "id": "A26693-zh-00036",
+      "decision": "EXPAND_PREVIOUS_EDIT_FOR_EXPLICIT_SOURCE_OMISSION",
+      "before": "其他剥削〔 〕",
+      "after": "器官摘取〔 〕、其他剥削〔 〕",
+      "basis": "Korean form 1 피해유형 includes 장기적출 before 그 밖의 착취; this option was absent in effective Chinese; related form 3 already uses 器官摘取."
+    },
+    {
+      "id": "B1-zh-00040",
+      "decision": "MINIMAL_EXISTING_TERM_CORRECTION",
+      "before": "辅助设施",
+      "after": "支援设施",
+      "basis": "Korean 지원시설, matching established Chinese designation 支援设施."
+    },
+    {
+      "id": "B1-zh-00041",
+      "decision": "MINIMAL_EXISTING_TERM_CORRECTION",
+      "before": "辅助设施",
+      "after": "支援设施",
+      "basis": "Korean 지원시설, matching established Chinese designation 支援设施."
+    },
+    {
+      "id": "B2-zh-00024",
+      "decision": "MINIMAL_EXISTING_TERM_CORRECTION",
+      "before": "辅助设施",
+      "after": "支援设施",
+      "basis": "Korean 지원시설, matching established Chinese designation 支援设施."
+    },
+    {
+      "id": "B2-zh-00025",
+      "decision": "MINIMAL_EXISTING_TERM_CORRECTION",
+      "before": "辅助设施",
+      "after": "支援设施",
+      "basis": "Korean 지원시설, matching established Chinese designation 支援设施."
+    },
+    {
+      "id": "A39477-zh-00018",
+      "decision": "MINIMAL_EXISTING_TERM_CORRECTION",
+      "before": "辅助设施",
+      "after": "支援设施",
+      "basis": "Korean 지원시설, matching established Chinese designation 支援设施."
+    }
+  ],
+  "unresolved_ids": [
+    "A26697-zh-00008",
+    "A26699-zh-00053",
+    "A39474-zh-00040"
+  ],
+  "additional_layout_tokens_to_verify": [
+    "A39476-zh-00006",
+    "A39476-zh-00010",
+    "A39477-zh-00006",
+    "A39477-zh-00008",
+    "A39478-zh-00027"
+  ],
+  "english_missing_document_keys": [
+    "B3",
+    "A26693",
+    "A26694",
+    "A26695",
+    "A26696",
+    "A26697",
+    "A26698",
+    "A26699",
+    "A26700",
+    "A26701",
+    "A26702",
+    "A26703",
+    "A26704",
+    "A26705"
+  ],
+  "note": "Complete Chinese row sequence was examined after full Korean and available English reading. Canonical source and all earlier translations are preserved; only evident local mistranslations and omission were changed. Unresolved isolated split tokens require original table/layout alignment, so no COMPLETE status or completion receipt is justified. No next family assignment accepted."
+}
