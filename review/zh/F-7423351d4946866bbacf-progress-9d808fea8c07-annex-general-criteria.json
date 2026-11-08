@@ -1,0 +1,99 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "status": "IN_PROGRESS",
+  "checked_rows": 8,
+  "corrected_rows": 8,
+  "edits": [
+    {
+      "id": "A23947-zh-00004",
+      "text": "a. 存在两项以上违法行为的，适用其中较重的处分标准；"
+    },
+    {
+      "id": "A23947-zh-00005",
+      "text": "如果两项以上处分标准均为停业，可以在其中较重的处分标准的二分之一范围内加重处分。"
+    },
+    {
+      "id": "A23947-zh-00012",
+      "text": "符合下列加重或减轻事由的，可以在处分标准二分之一范围内加重"
+    },
+    {
+      "id": "A23947-zh-00013",
+      "text": "或者减轻处分。"
+    },
+    {
+      "id": "A23947-zh-00033",
+      "text": "或者有关市场、行业状况是否持续恶化"
+    },
+    {
+      "id": "A38091-zh-00013",
+      "text": "拖欠行政罚款的违法者不适用上述减免规定。"
+    },
+    {
+      "id": "A38091-zh-00025",
+      "text": "1) 违法者的实际负担能力"
+    },
+    {
+      "id": "A38091-zh-00027",
+      "text": "或者有关市场、行业状况是否持续恶化"
+    }
+  ],
+  "judgments": [
+    {
+      "id": "A23947-zh-00004",
+      "decision": "EDIT",
+      "source_hash": "23cab340a20dc276b710fc115e118ea6a141b3ba5013425a965b34eaaf92be01",
+      "basis": "별표 1 일반기준 가목 중복 위반은 무거운 처분기준 적용, 가벼운 처분이 아님"
+    },
+    {
+      "id": "A23947-zh-00005",
+      "decision": "EDIT",
+      "source_hash": "092845c81934ad22ea574441123f864627778538ebcc3336cbec8860c2d63c34",
+      "basis": "별표 1 가목 업무정지 기준 2분의1 범위 가중, 감경 아님"
+    },
+    {
+      "id": "A23947-zh-00012",
+      "decision": "EDIT",
+      "source_hash": "d86362d0519c303fe26605525db85ccadd69c574cb85fad95d56958ff7279ef9",
+      "basis": "별표 일반기준 다목은 가중 또는 감경 모두 허용"
+    },
+    {
+      "id": "A23947-zh-00013",
+      "decision": "EDIT",
+      "source_hash": "5967e7b577beb179e0843d766d652378c70a22dc74e3d9a129f8c23817424909",
+      "basis": "별표 일반기준 다목 전행과의 가중 또는 감경 연결"
+    },
+    {
+      "id": "A23947-zh-00033",
+      "decision": "EDIT",
+      "source_hash": "8bb072c622d1ad62b5f8b7eb7990846a2931cd33cd49fc2a1d39d2cdb7b497bc",
+      "basis": "경제위기 관련 산업 여건 지속 악화이지 병세 악화가 아님"
+    },
+    {
+      "id": "A38091-zh-00013",
+      "decision": "EDIT",
+      "source_hash": "b472fa764c17c21d4e72bca877e122618ad55561ab04528b2931505817367aa8",
+      "basis": "시행령 과태료 기준 다목 체납 위반행위자 예외, 反动分子 오역"
+    },
+    {
+      "id": "A38091-zh-00025",
+      "decision": "EDIT",
+      "source_hash": "5593815f373f3462b13d4bf58a1f1165c213f5841c89884d4617e2ea9c8dfb56",
+      "basis": "과태료 일반기준 라목 위반자의 현실적 부담능력은 입증능력이 아님"
+    },
+    {
+      "id": "A38091-zh-00027",
+      "decision": "EDIT",
+      "source_hash": "8bb072c622d1ad62b5f8b7eb7990846a2931cd33cd49fc2a1d39d2cdb7b497bc",
+      "basis": "경제 위기 관련 시장·산업 여건 지속 악화이지 병세 악화가 아님"
+    }
+  ],
+  "source_sha": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c",
+    "en": "32423453da2fcfa466c97946520181a32643e289"
+  },
+  "english_status": "Korean authoritative; independent English annex not present",
+  "note": "Verified substantive penalty criteria, nonpayment, economic capacity; preserve prior source/edits."
+}
