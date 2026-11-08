@@ -1,0 +1,49 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_sha": "69bb11c17827b9c5344ac8552a56e6d6749c8c98",
+  "prior_corrections_preserved": 351,
+  "new_corrections": [
+    "A34916-zh-00012",
+    "A34916-zh-00014",
+    "A34916-zh-00023",
+    "A34916-zh-00031",
+    "A34916-zh-00131",
+    "A34916-zh-00135",
+    "A34916-zh-00159",
+    "A34916-zh-00203"
+  ],
+  "cumulative_corrections": 359,
+  "integrity": {
+    "chinese_rows": 1687,
+    "distinct_chinese_row_ids": 1687,
+    "correction_row_id_doc_source_hash_original_mismatches": 0,
+    "uncorrected_rows_with_hangul_or_mtq_start_end_markers": 0
+  },
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "english_coverage": {
+    "rows_with_english": 1258,
+    "rows_without_english": 429
+  },
+  "inspected_span": "A34916 original Korean administrative fines annex and corresponding Chinese fragments, existing corrections and indexes checked; prior complete KO and linked EN reading evidence inherited",
+  "review_status": "ZH_SEMANTIC_AUDIT_IN_PROGRESS",
+  "quality_open_items": [
+    "Complete the whole-family sequential semantic review of Chinese 1687 rows",
+    "Confirm A34911 table calculation formula unavailable in text extraction from image-backed original before completeness certification",
+    "Keep English fallback and 429 no-English rows labeled"
+  ],
+  "notes": "Eight verified minimal corrections to decree Annex 5 preserved 351 earlier corrections. Official review read-back confirmed 359 entries. QA 0 source-ID/hash/original mismatches. This remains IN_PROGRESS; no completion receipt."
+}
