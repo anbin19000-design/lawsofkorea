@@ -1,0 +1,32 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-b5c27d20d49b721e47e6",
+  "worker": "C05",
+  "status": "IN_PROGRESS",
+  "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
+  "source_blobs": {
+    "ko": "24ddd78e32a748b7d1c1ce01fef19d036494b9e9",
+    "en": "3d130788df10274ded6103c1fa81654c977eec5c",
+    "zh": "66ea4d0981f8e1a76348309f8254051d4914f693"
+  },
+  "checked_rows": 1,
+  "checked_ids": [
+    "B3-zh-00021"
+  ],
+  "decisions": [
+    {
+      "id": "B3-zh-00021",
+      "source_hash": "39daabcde611ca0ba8af4f3659ea4c4b2579a721eafa4466b892f02011363a09",
+      "decision": "CORRECT",
+      "basis": "Verified Korean Article 11: remove MTQ43a... artifact, restore sole-listed three-month notice, one-year operational pause, 15-day report, supporting documents, and proper local government titles. Earlier deferred record is superseded by direct adjudication; no pre-existing B3-21 correction found in indexed C05 review records."
+    }
+  ],
+  "edits": [
+    {
+      "id": "B3-zh-00021",
+      "text": "第十一条（单亲家庭福利设施废止、暂停运营等事项的申报）\n① 拟依本法第二十一条废止、暂停运营（暂停运营期间不超过一年）或恢复运营单亲家庭福利设施的人，应在废止、暂停运营或恢复运营三个月前，向特别自治市市长、特别自治道知事、市长、郡守、区厅长提交附页第7号表格规定的单亲家庭福利设施废止（暂停运营、恢复运营）申报书（包括电子申报书），附上下列材料，并将有关情况告知设施从业人员及入住者。<2008年1月15日、2010年8月17日、2014年7月22日、2016年9月7日、2019年8月28日修订>\n1. 单亲家庭福利设施废止、暂停运营或恢复运营理由书（法人还应提交决议废止、暂停运营或恢复运营的董事会会议记录复印件）一份\n2. 对设施入住者的安置措施计划书（仅限废止或暂停运营时）一份\n3. 补助金、赞助款使用结果报告书及以其为财源形成的剩余财产返还措施计划书（仅限废止或暂停运营时）一份\n4. 设施财产使用或处分计划书（仅限废止或暂停运营时）一份\n5. 单亲家庭福利设施设置申报确认书（仅限废止时）一份\n② 收到第一款申报书的特别自治市市长、特别自治道知事、市长、郡守、区厅长，应确认是否依第一款所提交的计划采取措施。<2016年9月7日新设>\n③ 特别自治市市长、特别自治道知事、市长、郡守、区厅长受理第一款申报书后，应于受理之日起十五日内经市、道知事向性别平等家族部部长报告。但特别自治市、特别自治道由特别自治市市长、特别自治道知事直接报告。<2008年3月3日、2010年3月19日、2010年8月17日、2014年7月22日、2016年9月7日、2019年8月28日、2025年10月1日修订>\n\n"
+    }
+  ],
+  "next_id": "CONSOLIDATION",
+  "note": "Prior B3-21 deferred for MTQ decision was reconciled by direct Korean comparison. No original row or earlier checkpoint overwritten."
+}
