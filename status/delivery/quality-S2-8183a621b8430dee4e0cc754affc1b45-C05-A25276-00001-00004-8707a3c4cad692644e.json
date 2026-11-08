@@ -1,0 +1,46 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-3705abbc710de4b867bc",
+  "worker": "C05",
+  "branch": "main",
+  "source_blobs": {
+    "ko": "7974bf81d14f4838ae85d4b3ceea80a2f0e65fed",
+    "zh": "045dd328cd77f3eecd8b6cd485be27f2389773e8"
+  },
+  "document_key": "A25276",
+  "document_source_hash": "bcdd3ea81f96f89443d3477838f86cc6d749bd4b8c466d138d14a19ac6c85e72",
+  "checked_range": "A25276-zh-00001..A25276-zh-00004",
+  "checked_ids": [
+    "A25276-zh-00001",
+    "A25276-zh-00002",
+    "A25276-zh-00003",
+    "A25276-zh-00004"
+  ],
+  "checked_rows": 4,
+  "adopted_edits": [
+    {
+      "id": "A25276-zh-00001",
+      "text": "■ 《消防设备管理法施行规则》[别纸第1号格式]"
+    },
+    {
+      "id": "A25276-zh-00002",
+      "text": "消防设备认证申请书"
+    },
+    {
+      "id": "A25276-zh-00003",
+      "text": "受理编号"
+    },
+    {
+      "id": "A25276-zh-00004",
+      "text": "受理日期"
+    }
+  ],
+  "rationale": {
+    "A25276-zh-00001": "한국어 표 머리글 ‘■ 소방장비관리법 시행규칙 [별지 제1호서식]’과 직접 대조; 시행규칙 및 별지 번호 보존.",
+    "A25276-zh-00002": "서식 제목 ‘소방장비 인증 신청서’와 대조; 认证申请书로 문서 종류 명확화.",
+    "A25276-zh-00003": "표 첫 행 ‘접수번호’ 대조; 收据编号(영수증번호)이 아닌 受理编号.",
+    "A25276-zh-00004": "표 첫 행 ‘접수일’ 대조; 收货日期(수령일)가 아닌 受理日期."
+  },
+  "status": "QUALITY_PARTIAL",
+  "note": "First previously unjudged form correction IDs A25276 00001-00004 checked against entire Korean form context; retain prior progress file unchanged, no new unique review coverage. Previously judged A25281 entries excluded. Next unjudged candidate A25276-zh-00009. No COMPLETE receipt."
+}
