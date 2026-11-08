@@ -1,0 +1,49 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0e85eccd3114729a4e48",
+  "worker": "C04",
+  "status": "IN_PROGRESS",
+  "source_commit": "e4d2c9c2907b9faa27a0207136f59368478cdf57",
+  "source_blobs": {
+    "ko": "7a73f0fd20ea34126bcaa28cb6d800668ba02f87",
+    "en": "6e1e1fafe1ce67a3ff6a7b762ebc5d7b678d4b8b",
+    "zh": "6893de556d097781e2fbfee0ca8662250e56787d"
+  },
+  "based_on": "review/zh/F-0e85eccd3114729a4e48-progress-d9bfcd381140-2809-qc.json",
+  "based_on_blob": "2857500ce7c3206b2252637ec08306312d62ffe1",
+  "scope": {
+    "documents": 46,
+    "zh_rows": 2809
+  },
+  "reading_checkpoint": {
+    "ko": "COMPLETE per preserved checkpoint",
+    "en": "COMPLETE per preserved checkpoint; missing full English for 40 documents",
+    "zh": "FIRST_PASS_COMPLETE 2809/2809; final conflict reconciliation pending"
+  },
+  "conflict_decisions": [
+    {
+      "id": "B2-zh-00003",
+      "choice": "alternate_text",
+      "reason": "Korean 제2조① specifies fertilized eggs of aquatic animals AND young individuals of enumerated animal categories; existing variant incorrectly narrows fertilized eggs to enumerated categories."
+    },
+    {
+      "id": "B2-zh-00009",
+      "choice": "alternate_text",
+      "reason": "Korean 제8조①1 explicitly states 중간 육성 (intermediate rearing), not generic seedling rearing in existing variant."
+    },
+    {
+      "id": "B2-zh-00012",
+      "choice": "alternate_text",
+      "reason": "Korean 제11조① states 수산종자사업자 and establishment authorization of association; existing variant contains machine-translated, materially inaccurate entity and documents."
+    },
+    {
+      "id": "B2-zh-00019",
+      "choice": "alternate_text",
+      "reason": "Korean 제18조 states aquatic seeds, joint specimen sampling, and one party's refusal; original and existing variants mistranslate these conditions."
+    }
+  ],
+  "conflicts_from_qc": 59,
+  "conflicts_resolved_here": 4,
+  "conflicts_remaining": 55,
+  "note": "Preserve all original and prior translated findings. Decisions are additive audit evidence only; no existing variant or official review is overwritten. Full QA, reconciliation of remaining 55 conflicts and official review/receipt are pending. Do not mark COMPLETE."
+}
