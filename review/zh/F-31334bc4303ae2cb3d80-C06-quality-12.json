@@ -1,0 +1,79 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-31334bc4303ae2cb3d80",
+  "worker": "C06",
+  "status": "IN_PROGRESS",
+  "source_progress_path": "review/zh/F-31334bc4303ae2cb3d80-C06-progress-26.json",
+  "source_progress_sha": "91b2b2debb311c604ebd64e2c10cc865aef9d234",
+  "ko_sha": "d6d795ff1ece4a82663a83efd46f7f73afa7fbbb",
+  "zh_sha": "7a6d1e8d841fb3b27185d6d4a6b811149d604dc0",
+  "checked": [
+    {
+      "id": "A22642-zh-00002",
+      "target_id": "XML:1607340",
+      "source_hash": "a0a5ed986dc2e4f7a4db80cbf8acbb62a8257b8eae8d29460305dc8b37a7dcae",
+      "korean_context": "승무원에 대한 교육 실시 결과",
+      "original_text": "机组训练结果",
+      "candidate_text": "乘务员教育实施结果",
+      "final_text": "乘务员教育实施结果",
+      "verdict": "ACCEPT",
+      "reason": "'机组训练结果' 대신 '乘务员教育实施结果'이 승무원·교육 실시 결과의 의미를 정확히 반영."
+    },
+    {
+      "id": "A22642-zh-00003",
+      "target_id": "XML:1607341",
+      "source_hash": "03d372195269e4a4a72790feda043d00a346495c7e010caa69d805d20c9c741c",
+      "korean_context": "[  ] 기록서",
+      "original_text": "] 记录",
+      "candidate_text": "[ ] 记录表",
+      "final_text": "[ ] 记录表",
+      "verdict": "ACCEPT",
+      "reason": "누락된 체크박스 좌측 괄호 복원, 기록서 의미 보존."
+    },
+    {
+      "id": "A22642-zh-00004",
+      "target_id": "XML:1607342",
+      "source_hash": "83f4a812044bbd3d1cfbe5499301f1a7e1b1ae52db51e18942bb147f9efcdc14",
+      "korean_context": "[  ] 보고서",
+      "original_text": "] 报告",
+      "candidate_text": "[ ] 报告书",
+      "final_text": "[ ] 报告书",
+      "verdict": "ACCEPT",
+      "reason": "누락된 체크박스 좌측 괄호 복원, 보고서 의미 보존."
+    },
+    {
+      "id": "A22642-zh-00020",
+      "target_id": "XML:1607358",
+      "source_hash": "0909c98c874340d6c25765c310d0c64b3e6d8c61a3bcf92a1db4294a6fd30da6",
+      "korean_context": "성 명",
+      "original_text": "名称",
+      "candidate_text": "姓名",
+      "final_text": "姓名",
+      "verdict": "ACCEPT",
+      "reason": "서식의 인적사항 '성명'은 '姓名'이 맞으며 '名称'은 부적절."
+    },
+    {
+      "id": "A22642-zh-00021",
+      "target_id": "XML:1607359",
+      "source_hash": "0cfaa069c4d77e55af86144e32ee89b6d1bb736458ac46736e38965103c9fbd7",
+      "korean_context": "주민등록번호 (외국인등록번호)",
+      "original_text": "居民注册号",
+      "candidate_text": "居民登记号码",
+      "final_text": "居民登记号码",
+      "verdict": "ACCEPT",
+      "reason": "'居民登记号码'는 주민등록번호에 해당하며 인접 외국인등록번호 칸과 구별됨."
+    },
+    {
+      "id": "A22642-zh-00024",
+      "target_id": "XML:1607362",
+      "source_hash": "319a7841b9f8ecb300a6c78b12ee412da7ed3bc9d4274b162f7254efa3972ae0",
+      "korean_context": "수료번호",
+      "original_text": "证书完成编号",
+      "candidate_text": "结业编号",
+      "final_text": "结业编号",
+      "verdict": "ACCEPT",
+      "reason": "'结业编号'는 교육 수료번호를 나타내며 단순 '证书完成编号'보다 정확함."
+    }
+  ],
+  "note": "A22642 form heading, checkbox markers and personal-information/education number fields checked against Korean form layout; previous quality files unchanged."
+}
