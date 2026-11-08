@@ -1,0 +1,36 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-c2b35f6aceb6477e1107",
+  "worker": "C04",
+  "assignment_marker": "ddad8ac2ebc6",
+  "status": "IN_PROGRESS",
+  "source_blob_shas": {
+    "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
+    "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
+    "zh": "f8879f4a12299069e4831b03f15a2a2fa30c8089"
+  },
+  "total_documents": 15,
+  "zh_rows": 1241,
+  "english_rows_with_reference": 911,
+  "english_rows_without_reference": 330,
+  "prior_edit_count": 171,
+  "new_edit_ids": [
+    "A14117-zh-00003",
+    "A14117-zh-00011",
+    "A14117-zh-00018",
+    "A14117-zh-00038",
+    "A14118-zh-00019",
+    "A14119-zh-00002",
+    "A14120-zh-00009",
+    "A14120-zh-00010",
+    "A14120-zh-00011"
+  ],
+  "total_edit_count": 180,
+  "review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
+  "review_commit": "778208f2e963f1ff0545552113912910d7733e35",
+  "full_korean_read_verified": false,
+  "full_english_read_verified": false,
+  "full_chinese_review_verified": false,
+  "complete_receipt": false,
+  "note": "Korean source directly checked for each added title/label; entire full-family language-ordered read not certified. Incremental same assignment, no next law."
+}
