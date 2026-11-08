@@ -1,0 +1,45 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "B1",
+  "quality_batch": "B1-quality-08",
+  "range": {
+    "first": "B1-zh-00036",
+    "last": "B1-zh-00040"
+  },
+  "quality_checked_rows": 2,
+  "quality_passed_rows": 2,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "B1-zh-00036",
+    "B1-zh-00038"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-B1-00036-00040.json",
+  "prior_progress_blob_sha": "9b3f631fe82df20a495b1364d2e07496f3baf769",
+  "results": [
+    {
+      "id": "B1-zh-00036",
+      "source_hash": "c3cd150708824a310110a11f01f8c6e17af598cfecd37350d03fd4ed07155c21",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Korean Article 34 establishes eleven duties of general facilities, additional duties by type, precise foreign-facility subset items 1–7 and 9 plus return-home assistance, and four common-living facility duties. Existing correction preserves these duties and replaces misleading forced-deportation language with 回国支援."
+    },
+    {
+      "id": "B1-zh-00038",
+      "source_hash": "221db52d7bb1da6dbdadcf97313b5fdce3fe23cba6cc3afb7f47cf0b4c66a17f",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Korean Article 36 distinguishes discretionary cancellation or suspension for listed reasons from mandatory cancellation on fraudulent designation (item 1); correction preserves five grounds, competent local officials, Article 33(2),(6), Article 39, Article 45(3), and Presidential Decree standard."
+    }
+  ],
+  "edits": [],
+  "note": "Korean source and Chinese correction directly compared; uncorrected neighboring rows excluded. Existing edits unchanged; family IN_PROGRESS."
+}
