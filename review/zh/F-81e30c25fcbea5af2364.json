@@ -460,11 +460,19 @@
     },
     {
       "id": "B2-zh-00153",
-      "text": "补充文件（《创新型城市创建与发展特别法》施行令）<第28686号，2018年2月27日>\n\n",
+      "text": "附则（《创新城市建设及发展特别法施行令》）<第28686号，2018年2月27日>\n\n",
       "source_hash": "12edec393c5bbeb7ca852ee923759f9d43a4a141b2eddbe9ee05c4fa0d7c3959",
       "target_id": "95a2e314abf2e870d2a45ce21777f8bde3d05c0491d899e88af6fe7ebb9feb52",
-      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-73645d4f3db3-continuation.json",
-      "verification": "C02_RECORDED_COMPARISON"
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-continued.json",
+      "verification": "C02_DIRECT_KOREAN_ENFORCEMENT_DECREE_COMPARISON",
+      "prior_text_versions": [
+        {
+          "task": "4e0b46ff6294",
+          "text": "补充文件（《创新型城市创建与发展特别法》施行令）<第28686号，2018年2月27日>\n\n",
+          "reason": "Preserve previous text before current Korean-source correction"
+        }
+      ],
+      "reason": "Correct supplementary-provision label and legal instrument terminology against Korean original."
     },
     {
       "id": "B2-zh-00155",
@@ -5556,6 +5564,24 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294.json",
       "verification": "C02_DIRECT_KOREAN_ENFORCEMENT_DECREE_COMPARISON",
       "reason": "Correct clear enforcement-decree instrument title and historical ministry/legal references; preserve original row boundary."
+    },
+    {
+      "id": "B2-zh-00148",
+      "source_hash": "d4d103d3e37771adbbb46411d05494fb1bd3e0332ddee1f3d4d168acbb01195b",
+      "target_id": "b79a5a9caa239cc17af7ce7b5bd9ed5fa03893ba1c713d04698534dd28d8d3f9",
+      "text": "第一条（生效日期）本施行令自公布之日起施行。但是，根据附则第八条修正的总统令中，对本施行令施行前已公布但尚未到施行日期的总统令所作的修正部分，分别自相关总统令的施行日起施行。\n\n省略第2至7条\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-continued.json",
+      "verification": "C02_DIRECT_KOREAN_ENFORCEMENT_DECREE_COMPARISON",
+      "reason": "Correct supplementary-provision label and legal instrument terminology against Korean original."
+    },
+    {
+      "id": "B2-zh-00152",
+      "source_hash": "b163e81d553cde5627ac20e1aeb6239ab8b96630de9eadd1b8ddf3a0d2102b96",
+      "target_id": "f40c11e71e4a149f0a8bbca03326946d48a6385648c5d3e78f6eb27ad80f1e39",
+      "text": "第二条（修改其他法律）①《国土规划及利用法施行令》部分内容修改如下。\n\n  将第4条第3号中的“《泛在城市建设等相关法律》第2条第3号(c)项”改为“《智慧城市建设及产业振兴等相关法律》第2条第3号(c)项”。\n\n  ②《国土交通部及其所属机关职制》部分内容修改如下。\n\n  将第11条第3款第38号和第39号中的“泛在城市”分别改为“智慧城市”。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-continued.json",
+      "verification": "C02_DIRECT_KOREAN_ENFORCEMENT_DECREE_COMPARISON",
+      "reason": "Correct supplementary-provision label and legal instrument terminology against Korean original."
     }
   ],
   "adjudicated_edit_count": 554,
@@ -10788,12 +10814,13 @@
     "C02 3aa49a4f01f1: repaired Korean statute names B1 00106/00139/00166/00187 and B2 00007 construction term.",
     "C02 3aa49a4f01f1: corrected titles of B1 Article 35-2 and 51 without wholesale rewrite.",
     "2026-11-08 C02 6330608994de: read and compared complete Korean originals and all 91 Chinese cells in forms A25472-A25474; 47 minimal corrections added. English index has no direct English rows for these forms. Original source blobs and prior edits preserved; overall status remains IN_PROGRESS.",
-    "2026-11-08 C02 4e0b46ff6294: compared B2 rows 00117-00140 against the Korean Enforcement Decree. Reconciled 9 row texts, including correction of 시행령 misrendered as implementation rules and the 2013/2014 ministry-name substitution chain; retained accurate rows. Original source blobs and prior review decisions preserved. Family remains IN_PROGRESS."
+    "2026-11-08 C02 4e0b46ff6294: compared B2 rows 00117-00140 against the Korean Enforcement Decree. Reconciled 9 row texts, including correction of 시행령 misrendered as implementation rules and the 2013/2014 ministry-name substitution chain; retained accurate rows. Original source blobs and prior review decisions preserved. Family remains IN_PROGRESS.",
+    "2026-11-08 C02 4e0b46ff6294 continuation: compared B2 rows 00141-00160 with Korean source, added corrections for 00148, 00152 and 00153, and retained previous verified edits on related rows. Full-family review remains IN_PROGRESS."
   ],
   "integration_progress": {
-    "stage": "B2_HISTORICAL_SUPPLEMENTARY_ROWS_00117_00140_RECONCILED",
+    "stage": "B2_ROWS_00141_00160_RECONCILED",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:4e0b46ff6294",
-    "note": "Compared B2 Chinese rows 00117-00140 with the Korean Enforcement Decree original. Corrected instrument type (시행령), historical ministry-name substitutions, and clear supplementary-title terminology. Retained rows whose dates, omissions, and other references matched. Full-family ordered-reading certification remains incomplete."
+    "note": "Compared B2 rows 00141-00160 with Korean source. Corrected 00148 supplementary-provision/effective-date legal terms, 00152 enforcement-decree title and Ubiquitous City terminology, and 00153 supplementary-provision label. Prior corrections for rows 00143, 00145, 00147, 00149, 00150, 00155, 00157, 00159, 00160 retained."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -11336,7 +11363,14 @@
     "B2-zh-00126",
     "B2-zh-00133",
     "B2-zh-00134",
-    "B2-zh-00140"
+    "B2-zh-00140",
+    "B2-zh-00143",
+    "B2-zh-00147",
+    "B2-zh-00148",
+    "B2-zh-00150",
+    "B2-zh-00152",
+    "B2-zh-00157",
+    "B2-zh-00160"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
