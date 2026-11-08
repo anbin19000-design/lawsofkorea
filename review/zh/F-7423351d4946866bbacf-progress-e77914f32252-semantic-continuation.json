@@ -1,0 +1,56 @@
+{
+  "schema": "LAW_ZH_REVIEW_AUDIT_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:e77914f32252]",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "review_path": "review/zh/F-7423351d4946866bbacf.json",
+  "review_blob": "c2d062957f3504b98f102982ec94514553d010b2",
+  "source_documents": 16,
+  "source_rows": 1207,
+  "prior_unique_corrections": 248,
+  "current_unique_corrections": 253,
+  "new_correction_ids": [
+    "B3-zh-00009",
+    "B3-zh-00026",
+    "B3-zh-00046",
+    "B3-zh-00049",
+    "B3-zh-00018"
+  ],
+  "evidence": [
+    {
+      "id": "B3-zh-00009",
+      "reason": "seed eel exception no longer confused with eel used to produce fry"
+    },
+    {
+      "id": "B3-zh-00026",
+      "reason": "at or below inclusive standard, two subclauses"
+    },
+    {
+      "id": "B3-zh-00046",
+      "reason": "producer groups subject to Enforcement Decree Article 3"
+    },
+    {
+      "id": "B3-zh-00049",
+      "reason": "approval for trading between origin intermediate wholesalers, and violation-specific disposition standards"
+    },
+    {
+      "id": "B3-zh-00018",
+      "reason": "auction exception item 2 restored from grammatically incomplete Chinese sentence"
+    }
+  ],
+  "prior_edits_preserved": true,
+  "english_status": "B1 and B2 official exact-version English; B3 and associated rule annexes/forms lack independent English, continue Korean-Chinese comparison",
+  "full_semantic_review_completed": false,
+  "unresolved": [
+    "All 1207 rows not independently verified for meaning equivalence",
+    "Annex and form XML cell-level alignment for punctuation-only rows"
+  ],
+  "completion_receipt_issued": false,
+  "next_action": "Continue one family through entire Chinese text, complete annex/form source alignment and semantic verification; issue COMPLETE only after finished and re-read."
+}
