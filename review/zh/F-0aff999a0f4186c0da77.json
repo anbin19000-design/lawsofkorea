@@ -21,8 +21,8 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 54,
-    "pending_rows": 1633,
+    "correction_count": 56,
+    "pending_rows": 1631,
     "by_document": {}
   },
   "corrections": {
@@ -403,6 +403,20 @@
       "original": "第31条（取消特许经营交易专家的注册和暂停其资格）\n① 凡依本条第29款规定注册的特许经营交易专家，若有下列情形之一，公平交易委员会可撤销其注册资格。但有下列情形之一的，应当撤销注册资格。<2007年8月3日修订>\n1. 若注册或续展注册系以虚假或其他欺诈手段进行，则\n2. 如果第27条第2款规定的取消资格理由适用，\n3. 向他人披露因履行职责而获悉的秘密的情况\n4. 将特许经营交易专家注册证书借给他人时\n5. 如果因履行职责过程中的故意或重大过失而对他人造成重大损害，\n② 特许经营交易专家如未按照第29条第2款的规定续期注册，其资格将被暂停。在此情况下，如其按照公平交易委员会公告规定的继续教育要求完成注册并续期，其资格将自续期之日起恢复。<2007年8月3日修订>\n③ 根据第1款规定被撤销特许经营交易专家资格的人员，应当立即将资格证书交还公平交易委员会。<2022年1月4日新增>\n④ 根据第1款规定撤销特许经营交易专家注册的，应当按照《行政程序法》的规定举行听证会。<2012年2月17日新增，2022年1月4日更新>\n\n",
       "corrected": "第31条（取消特许经营交易专家的注册和暂停其资格）\n① 凡依第29条规定注册的特许经营交易专家，若有下列情形之一，公平交易委员会可撤销其注册资格。但属于第1项或第2项情形的，必须撤销注册。<2007年8月3日修订>\n1. 若注册或续展注册系以虚假或其他欺诈手段进行，则\n2. 如果第27条第2款规定的取消资格理由适用，\n3. 向他人披露因履行职责而获悉的秘密的情况\n4. 将特许经营交易专家注册证书借给他人时\n5. 如果因履行职责过程中的故意或重大过失而对他人造成重大损害，\n② 特许经营交易专家如未按照第29条第2款的规定续期注册，其资格将被暂停。在此情况下，如其按照公平交易委员会公告规定的继续教育要求完成注册并续期，其资格将自续期之日起恢复。<2007年8月3日修订>\n③ 根据第1款规定被撤销特许经营交易专家资格的人员，应当立即将资格证书交还公平交易委员会。<2022年1月4日新增>\n④ 根据第1款规定撤销特许经营交易专家注册的，应当按照《行政程序法》的规定举行听证会。<2012年2月17日新增，2022年1月4日更新>\n\n",
       "reason": " 제31조제1항의 제29조 인용과 의무 등록취소 범위(제1호·제2호)가 누락·오역되어 보완."
+    },
+    "A34912-zh-00111": {
+      "doc": "A34912",
+      "source_hash": "d38d082a6259a5280a5433ee8d387c74204c96ce32276a2a51596738e3b69a74",
+      "original": "执行 START  的行为",
+      "corrected": "强迫加盟商与特定人员共同经营加盟店的行为",
+      "reason": "별표 2 경영 간섭 항목의 '특정인과 가맹점을 같이 운영하도록 강요하는 행위'가 START 표식으로 훼손되어 원문에 따라 최소 보완."
+    },
+    "A34912-zh-00147": {
+      "doc": "A34912",
+      "source_hash": "c96bc6248da8857309c62a34a21af26b5cc73e99586d57846c7f0a097e6cb83c",
+      "original": "它指的是给予 START 或对其他竞争特许经营商的特许经营业务造成不利影响的行为。",
+      "corrected": "从而使其自身加盟商的营业遭受不利影响，或者使其他竞争特许人的特许经营业务遭受不利影响的行为。",
+      "reason": "별표 2 제5호 '자기의 가맹점사업자의 영업에 불이익을 주거나 다른 경쟁가맹본부의 가맹사업에 불이익을 주는 행위'의 START 누락을 원문대로 복원."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -426,7 +440,8 @@
     "Checkpoint review/zh/F-0aff999a0f4186c0da77-progress-C05-382d0b9d5453-semantic-audit.json records 52 verified corrections and explicitly incomplete full semantic Chinese row review.",
     "C05 refined 3 existing corrections in full-row reinspection; source SHA and originals preserved.",
     "C05 full-length B1 clause reinspection: recovered Article 11(2)(13) missing substance and Article 31 mandatory cancellation scope.",
-    "Latest integrity checkpoint review/zh/F-0aff999a0f4186c0da77-progress-C05-382d0b9d5453-final-checkpoint.json confirms 54 corrections with zero source mismatches, but does not certify completed Chinese semantic review."
+    "Latest integrity checkpoint review/zh/F-0aff999a0f4186c0da77-progress-C05-382d0b9d5453-final-checkpoint.json confirms 54 corrections with zero source mismatches, but does not certify completed Chinese semantic review.",
+    "C05 continuation 91cb01eae9bf/3e61e88b96b9: annex A34912 two START-contaminated Chinese row fragments repaired against full Korean annex context; prior 54 corrections retained. Full 1687-row Chinese semantic certification remains incomplete."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -435,5 +450,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 54
+  "corrected_rows": 56
 }
