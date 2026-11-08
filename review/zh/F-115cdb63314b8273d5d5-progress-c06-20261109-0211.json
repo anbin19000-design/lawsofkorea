@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 3615,
+    "verified_zh_rows": 3690,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 3615,
-      "checked_rows": 3615,
+      "next_row_zero_based": 3690,
+      "checked_rows": 3690,
       "total_rows": 5228
     }
   },
@@ -5347,9 +5347,153 @@
       "text": "⑯安装日期",
       "original_text": "?安装日期",
       "reason": "불필요한 물음표 및 항 번호 누락"
+    },
+    {
+      "id": "A4687-zh-00840",
+      "text": "埋设深度",
+      "original_text": "深度",
+      "reason": "매설 깊이 항목을 명확히 표기"
+    },
+    {
+      "id": "A4687-zh-00841",
+      "text": "⑦起点",
+      "original_text": "7点",
+      "reason": "시점을 숫자 7로 오역"
+    },
+    {
+      "id": "A4687-zh-00842",
+      "text": "⑧终点",
+      "original_text": "⑧终端",
+      "reason": "종점을 단말로 오역"
+    },
+    {
+      "id": "A4687-zh-00844",
+      "text": "6-3. 共同管沟",
+      "original_text": "6-3. 公用隧道",
+      "reason": "공동구를 일반 공용 터널로 오역"
+    },
+    {
+      "id": "A4687-zh-00852",
+      "text": "⑨共同管沟名称",
+      "original_text": "⑨关节凹槽名称",
+      "reason": "공동구 명칭을 관절 홈으로 오역"
+    },
+    {
+      "id": "A4687-zh-00855",
+      "text": "⑫长度",
+      "original_text": "⑫扩展",
+      "reason": "연장을 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00856",
+      "text": "⑬埋设深度",
+      "original_text": "⑬埋深",
+      "reason": "매설 깊이를 의미가 불명확한 축약어로 표기"
+    },
+    {
+      "id": "A4687-zh-00859",
+      "text": "⑦起点",
+      "original_text": "7点",
+      "reason": "시점을 숫자 7로 오역"
+    },
+    {
+      "id": "A4687-zh-00860",
+      "text": "⑧终点",
+      "original_text": "⑧终端",
+      "reason": "종점을 단말로 오역"
+    },
+    {
+      "id": "A4687-zh-00861",
+      "text": "6-4. 超载检查站及除雪设施",
+      "original_text": "6-4. 过载检查站和除雪设施",
+      "reason": "과적검문소를 과부하 일반 점검소로 오역"
+    },
+    {
+      "id": "A4687-zh-00870",
+      "text": "⑨类别",
+      "original_text": "⑨分类",
+      "reason": "구분 항목을 명확히 표기"
+    },
+    {
+      "id": "A4687-zh-00874",
+      "text": "⑦地点",
+      "original_text": "⑦分支",
+      "reason": "지점을 분기로 오역"
+    },
+    {
+      "id": "A4687-zh-00876",
+      "text": "6-5. 通道箱涵",
+      "original_text": "6-5. 通道盒",
+      "reason": "통로박스를 단순 상자로 직역"
+    },
+    {
+      "id": "A4687-zh-00883",
+      "text": "⑦位置",
+      "original_text": "标准",
+      "reason": "위치 항목이 ‘표준’으로 오역"
+    },
+    {
+      "id": "A4687-zh-00884",
+      "text": "⑩材质",
+      "original_text": "⑩物料",
+      "reason": "재질을 물량·자재로 오역"
+    },
+    {
+      "id": "A4687-zh-00887",
+      "text": "⑬长度",
+      "original_text": "⑬扩展",
+      "reason": "연장을 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00890",
+      "text": "⑧横向",
+      "original_text": "⑧水平",
+      "reason": "가로 치수를 수평으로 모호하게 번역"
+    },
+    {
+      "id": "A4687-zh-00891",
+      "text": "⑨纵向",
+      "original_text": "⑨垂直",
+      "reason": "세로 치수를 수직으로 오역"
+    },
+    {
+      "id": "A4687-zh-00892",
+      "text": "6-6. 生态通道",
+      "original_text": "6-6. 生态走廊",
+      "reason": "생태통로를 일반 생태 회랑으로 번역"
+    },
+    {
+      "id": "A4687-zh-00900",
+      "text": "设施物现状",
+      "original_text": "设施状态",
+      "reason": "시설물 현황을 단순 상태로 축소"
+    },
+    {
+      "id": "A4687-zh-00904",
+      "text": "⑩纵向尺寸",
+      "original_text": "⑩立式",
+      "reason": "세로 치수를 입식/세워진 형식으로 오역"
+    },
+    {
+      "id": "A4687-zh-00905",
+      "text": "⑪长度",
+      "original_text": "⑪长度",
+      "reason": "길이 항목 표기를 정돈"
+    },
+    {
+      "id": "A4687-zh-00906",
+      "text": "⑫类别",
+      "original_text": "⑫分类",
+      "reason": "구분 항목을 명확히 표기"
+    },
+    {
+      "id": "A4687-zh-00907",
+      "text": "⑬数量（规格）",
+      "original_text": "⑬数量（规格）",
+      "reason": "수량(규격) 항목 표기를 유지·정돈"
     }
   ],
-  "note": "Sequential review advanced through row 3614, covering road signs, electronic message signs, streetlights, traffic signals, protective fences, impact-absorbing facilities, soundproof facilities/trees and underground utilities. Added 42 focused corrections for sign/post fields, electronic sign wording, streetlight pole/luminaire terminology, start/end points, fence grade, crash cushion title, accessory facilities and buried utility terms. Previous 824 edits retained. Continue from row 3615. IN_PROGRESS.",
+  "note": "Sequential review advanced through row 3689, covering underground utilities, common utility tunnel, overload inspection/snow facilities, box culvert, ecological passage. Added 24 targeted corrections for joint utility duct terminology, buried depth, road start/end points, overload check title, box culvert, horizontal/vertical dimensions and ecological passage facility status. Previous 866 edits retained. Continue from row 3690. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
