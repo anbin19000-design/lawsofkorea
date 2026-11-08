@@ -6666,7 +6666,7 @@
     "en": true,
     "zh": true
   },
-  "completion_receipt_verified": false,
+  "completion_receipt_verified": true,
   "notes": [
     "This is an IN_PROGRESS cumulative manifest; pending candidates are NOT confirmed edits.",
     "Preserve historical source, independent progress records and original translation. No completion claim.",
@@ -6757,7 +6757,7 @@
   "integration_progress": {
     "stage": "COMPLETE_SOURCE_COVERAGE_VERIFIED",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:c7b2cc4a46a4",
-    "note": "17 documents, 1133 source-linked checked Chinese row IDs, 705 unique corrected rows, no pending historical candidate/conflicts, full ordered reading certified. Final receipt pending independent write/readback."
+    "note": "17-document family COMPLETE, 1133 checked IDs and 705 unique corrections. Official COMPLETE receipt fetched and verified; receipt SHA pointer updated separately to final review blob."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
