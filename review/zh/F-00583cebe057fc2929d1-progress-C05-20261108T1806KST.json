@@ -1954,6 +1954,41 @@
       "source_hash": "1a11a1f08ba5d9e819449ee4403827c616a2bba94eb6cc7822fc056f66078090",
       "decision": "SOURCE_MAPPING_REVIEW_REQUIRED",
       "reason": "KO B2 source length 17073인데 row end 18445; 중국어 행에 별표 본문이 연결되어 있음. 원본 수정 없이 별표 재매핑 필요."
+    },
+    {
+      "id": "A29604-zh-00005",
+      "doc": "A29604",
+      "source_hash": "2a89acebaa15379f7a8e4e3427f6a41952e68aeed7bbe34c33e9262c430ced6c",
+      "decision": "CORRECT",
+      "reason": "원문 '(무거운 부과기준이 같은 경우에는 그 중 하나의 부과기준을 말한다)'에서 [不清楚] 의미불명 잔재"
+    },
+    {
+      "id": "A29604-zh-00012",
+      "doc": "A29604",
+      "source_hash": "f3b9a36d5f87f84a660299f09de727c25428bccf113570503d2d95113bb5b675",
+      "decision": "CORRECT",
+      "reason": "과태료 체납자 감경 금지 원문과 의미 반전"
+    },
+    {
+      "id": "A29604-zh-00014",
+      "doc": "A29604",
+      "source_hash": "8c89c331e22d9750cb662004c34ddef1dbacd609ac96bc533e5c66ceec57e797",
+      "decision": "CORRECT",
+      "reason": "질서위반행위규제법 시행령 제2조의2제1항 각 호 인용"
+    },
+    {
+      "id": "A29604-zh-00021",
+      "doc": "A29604",
+      "source_hash": "4b2cd6d63c385548225ddde2c1e91c9211e9043e40bacdf27667e8b30488fe60",
+      "decision": "CORRECT",
+      "reason": "지식재산처장 직위 오역"
+    },
+    {
+      "id": "A29604-zh-00042",
+      "doc": "A29604",
+      "source_hash": "2b4c9e0f2da2c3b74a26e42ac0e3267671c285869e6b05789b45547e91648e20",
+      "decision": "CORRECT",
+      "reason": "민사소송법 제367조 법률명 오역"
     }
   ],
   "changes": {
@@ -2411,10 +2446,45 @@
       "original": "ADDEND（知识产权部及其附属机构的组织结构）<2025年10月1日，第35809号>\n\n",
       "corrected": "附则（知识产权厅及其所属机构的组织结构）<2025年10月1日，第35809号>\n\n",
       "reason": "한국어 행정기관의 명칭과 한자 부칙 표현 교정"
+    },
+    "A29604-zh-00005": {
+      "doc": "A29604",
+      "source_hash": "2a89acebaa15379f7a8e4e3427f6a41952e68aeed7bbe34c33e9262c430ced6c",
+      "original": "如果标准相同，则指其中一项评估标准），而本例中，[不清楚]",
+      "corrected": "如果标准相同，则指其中一项评估标准），在此情况下",
+      "reason": "원문 '(무거운 부과기준이 같은 경우에는 그 중 하나의 부과기준을 말한다)'에서 [不清楚] 의미불명 잔재"
+    },
+    "A29604-zh-00012": {
+      "doc": "A29604",
+      "source_hash": "f3b9a36d5f87f84a660299f09de727c25428bccf113570503d2d95113bb5b675",
+      "original": "罚款金额可减少至原罚款金额的一半。但是，如果行政罚款逾期未缴，则罚款金额可能会减少至原罚款金额的一半。",
+      "corrected": "罚款金额可减少至原罚款金额的一半。但是，对于拖欠行政罚款的违法行为人，不适用减轻规定。",
+      "reason": "과태료 체납자 감경 금지 원문과 의미 반전"
+    },
+    "A29604-zh-00014": {
+      "doc": "A29604",
+      "source_hash": "8c89c331e22d9750cb662004c34ddef1dbacd609ac96bc533e5c66ceec57e797",
+      "original": "1) 违反《公共秩序违法行为管制法》实施令第2条第2款第1项任何子款规定的，均属违法行为。",
+      "corrected": "1) 违反《公共秩序违法行为管制法》实施令第2条之2第1款各项任何子款规定的，均属违法行为。",
+      "reason": "질서위반행위규제법 시행령 제2조의2제1항 각 호 인용"
+    },
+    "A29604-zh-00021": {
+      "doc": "A29604",
+      "source_hash": "4b2cd6d63c385548225ddde2c1e91c9211e9043e40bacdf27667e8b30488fe60",
+      "original": "d. 在下列任何情况下，知识产权部长应根据第2款规定处以行政罚款",
+      "corrected": "d. 在下列任何情况下，知识产权厅厅长应根据第2款规定处以行政罚款",
+      "reason": "지식재산처장 직위 오역"
+    },
+    "A29604-zh-00042": {
+      "doc": "A29604",
+      "source_hash": "2b4c9e0f2da2c3b74a26e42ac0e3267671c285869e6b05789b45547e91648e20",
+      "original": "作为根据《专利审判法》第367条宣誓的人",
+      "corrected": "作为根据《民事诉讼法》第367条宣誓的人",
+      "reason": "민사소송법 제367조 법률명 오역"
     }
   },
   "next_row_id": "A29604-zh-00001",
-  "notes": "B1 196행 판정, B2 80행 판정 + B2 마지막 81행 구조 대조 필요. 전체 미완료/완료 영수증 없음.",
+  "notes": "별표 원문 전체와 중국어 63행 구조 확인. 일부 확정 오역 저장, 정렬 문제로 별표 전체 완료 판정하지 않음.",
   "flagged_scan": {
     "range": "B1-zh-00102..B1-zh-00196",
     "method": "targeted anomaly screening, not full sequential review",
@@ -2435,5 +2505,20 @@
       "status": "ANNEX_ALIGNMENT_REQUIRED",
       "note": "ANNEX rows lack start/end offsets; compare entire original annex against target rows before final judgment."
     }
-  ]
+  ],
+  "annex_status": {
+    "doc": "A29604",
+    "row_count": 63,
+    "decision": "ALIGNMENT_REVIEW_REQUIRED",
+    "known_defects": [
+      "A29604-zh-00005",
+      "A29604-zh-00006",
+      "A29604-zh-00007",
+      "A29604-zh-00013",
+      "A29604-zh-00018",
+      "A29604-zh-00025",
+      "A29604-zh-00063"
+    ],
+    "note": "표 셀을 중국어 행으로 분절한 산출물이어서 한국어 원문 위치가 null이다. 5개 확정 교정 저장, 구조 복원·전체 검증 별도 필요."
+  }
 }
