@@ -1,0 +1,560 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-b03365726c96ae9a9cc1",
+  "worker": "C05",
+  "assignment_id": "S2-13d54292ded7d9dee0336566bbd6552b",
+  "status": "IN_PROGRESS",
+  "source_commit": "cf91b988356d39ef374f1e2950831b446f9805aa",
+  "source_blobs": {
+    "ko": "da998892a905553b9118a68d7462283dd789aa0e",
+    "en": "0ae67d1026dd416649e23cf41790c10a301c2597",
+    "zh": "d1581ff0123795ec633f73554343bf9e5f9f3df9"
+  },
+  "checked_rows": 59,
+  "checked_ids": [
+    "A17315-zh-00001",
+    "A17315-zh-00002",
+    "A17315-zh-00003",
+    "A17315-zh-00004",
+    "A17315-zh-00005",
+    "A17315-zh-00006",
+    "A17315-zh-00007",
+    "A17315-zh-00008",
+    "A17315-zh-00009",
+    "A17315-zh-00010",
+    "A17315-zh-00011",
+    "A17315-zh-00012",
+    "A17315-zh-00013",
+    "A17315-zh-00014",
+    "A17315-zh-00015",
+    "A17315-zh-00016",
+    "A17315-zh-00017",
+    "A17316-zh-00001",
+    "A17316-zh-00002",
+    "A17316-zh-00003",
+    "A17316-zh-00004",
+    "A17316-zh-00005",
+    "A17316-zh-00006",
+    "A17316-zh-00007",
+    "A17316-zh-00008",
+    "A17316-zh-00009",
+    "A17316-zh-00010",
+    "A17316-zh-00011",
+    "A17316-zh-00012",
+    "A17316-zh-00013",
+    "A17316-zh-00014",
+    "A17316-zh-00015",
+    "A17316-zh-00016",
+    "A17316-zh-00017",
+    "A17316-zh-00018",
+    "A17316-zh-00019",
+    "A17316-zh-00020",
+    "A17316-zh-00021",
+    "A17316-zh-00022",
+    "A17316-zh-00023",
+    "A17316-zh-00024",
+    "A17316-zh-00025",
+    "A17316-zh-00026",
+    "A17316-zh-00027",
+    "A17316-zh-00028",
+    "A17316-zh-00029",
+    "A17316-zh-00030",
+    "A17316-zh-00031",
+    "A17316-zh-00032",
+    "A17316-zh-00033",
+    "A17316-zh-00034",
+    "A17316-zh-00035",
+    "A17316-zh-00036",
+    "A17316-zh-00037",
+    "A17316-zh-00038",
+    "A17316-zh-00039",
+    "A17316-zh-00040",
+    "A17316-zh-00041",
+    "A17316-zh-00042"
+  ],
+  "decisions": [
+    {
+      "id": "A17315-zh-00001",
+      "source_hash": "6c345efea8e8c15961bfd6ba75f25747c29741b25b82809e6fc980a309165325",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17315-zh-00002",
+      "source_hash": "b94e182b9a95d9dc23294428515515c68a59d1d634e19d301cdc19e9a9516fed",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17315-zh-00003",
+      "source_hash": "10f0dd78b73891cc25e043c3d4956d78ba2ad4e3f169671cd7652d7504cc6eae",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17315-zh-00004",
+      "source_hash": "f2c265d150b962d9715a9544a22039694694f6c62ec39095f465301e558308e2",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17315-zh-00005",
+      "source_hash": "d9a840f848387fb0a14c02db65cd24330acdf78835ce07aa6a207876b1461d60",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17315-zh-00006",
+      "source_hash": "5793c0fa089408ebdd7f2a422b5300d415a58ca61854a09c21f98e3c51204026",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17315-zh-00007",
+      "source_hash": "9c5363fe8f0fc2c92cc931002cb598e7a1723efd095ae5d53820935601d48990",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17315-zh-00008",
+      "source_hash": "c94d8539f0c5835463e37c83e5d27771dacbb32c8861b81a04b10d6949886c92",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17315-zh-00009",
+      "source_hash": "4ce3232cbac9e4099052a25db19c63aac71216c646092a796ae2ef767b273866",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17315-zh-00010",
+      "source_hash": "7536835c18341534c9e6f095746f74db3c265a16e33cf4caeb50e2debebf54d1",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17315-zh-00011",
+      "source_hash": "e75c886ba000772703db61dfe24d761e260f396b3053e5ffceea385e1034de82",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17315-zh-00012",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17315-zh-00013",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17315-zh-00014",
+      "source_hash": "dfc76879e2f5c3ead09186ff1c6b635624f96b7adbd71d94c37566429ca5df6f",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17315-zh-00015",
+      "source_hash": "a3b7834f80d74149500d22d2c65b662c728f83a40ff8c8ec5ffcd5f955e0b708",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17315-zh-00016",
+      "source_hash": "c2c25ba0a53a6f7b97292cfe2d401a55b263f9c6222471a4b8a4c3509c1a4197",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17315-zh-00017",
+      "source_hash": "aa77174005668fbb8fdf67e265550402ab5f1ec57546efc725193866717f59a2",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00001",
+      "source_hash": "2b7143be46d0a5c8e364b0e83655c02364157fab7e18dd12867ac89926fcfc5c",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00002",
+      "source_hash": "7a8e4699ae4a8d7843a66750fad222e218b7a8abd0852cb1284a06118f27c2ee",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00003",
+      "source_hash": "b736160e9f7f0d321a2b458369e87ad0a76a9b7c00b4454ad463a28ce8d1d95b",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00004",
+      "source_hash": "ebc9b96eb63cf003b7b1fc13d77fd353ced43869ee6c7836a9f3be4c588e1391",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00005",
+      "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17316-zh-00006",
+      "source_hash": "64b087a7e338ba6a14a979b84c18631b9acef1d5c765dae6a2bc630ceae4c8f2",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17316-zh-00007",
+      "source_hash": "17cf632623eefae1e53fa1341628920fd12eb3bc1b5a1b94ad908fb86e850602",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00008",
+      "source_hash": "a387535cf4b175ed2b772e8166d82de71db1777e7560fbfd325e908d31ea4a51",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17316-zh-00009",
+      "source_hash": "70a34a56b11d603959f0534c3ae0a6597cdceb25fd4ea07b7f9c0d643cf4c1f6",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00010",
+      "source_hash": "65593e3fc46581dacb41e762a4cf14da1953f105475b2a2e33564154349311fa",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00011",
+      "source_hash": "f7ea9e331f80935959d8c179f685fbbdfde7f0301e791106a64b454bb1d6e80c",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17316-zh-00012",
+      "source_hash": "28e058c7cec8846e6c5fb52308685e1c534d4b8a745ab01a9d40c045f3fd6c71",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17316-zh-00013",
+      "source_hash": "b69f5b949b7b0f3a787d8c7738a78234a8f576b19a7ab1cbbeb97047ca574b0a",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17316-zh-00014",
+      "source_hash": "d8291eb080d2ab03dcd7180bf23b0ecf9cc5cee083f9fd81cfc4bff62826b371",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00015",
+      "source_hash": "867b54a8aa22a61d5dd2502936f89f754c6d13a5c5a1322da2d97a65eebc22ee",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00016",
+      "source_hash": "e354502186447c53f473faca3da2443d554ad4ed490fa75d09d88bd0583d2ca6",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00017",
+      "source_hash": "621be8b9e45fd58432a2a9e2c3708a7344ab3fe365d8815493300833b2c74a5b",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00018",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00019",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00020",
+      "source_hash": "dfc76879e2f5c3ead09186ff1c6b635624f96b7adbd71d94c37566429ca5df6f",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17316-zh-00021",
+      "source_hash": "17cf632623eefae1e53fa1341628920fd12eb3bc1b5a1b94ad908fb86e850602",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00022",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17316-zh-00023",
+      "source_hash": "a3b7834f80d74149500d22d2c65b662c728f83a40ff8c8ec5ffcd5f955e0b708",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00024",
+      "source_hash": "2099cd7f323c38ac89f0ebc4dd140529ccb048fb87aa42935038b81b0325020d",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00025",
+      "source_hash": "415c12cfe236ffa5094f9e3a7709063457a807995edc8ff53226e774fda2c5bd",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00026",
+      "source_hash": "bb9772f432cf16bbfe101c8cfc3c9a9a838ce88656fd07a0a12d322acb1f8a1f",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00027",
+      "source_hash": "0313408cdf794fea03a1b1d6758e8ad6cc7c6a9f70b7256de98dafab6a45bf1a",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00028",
+      "source_hash": "72ea3d64ace5bc9414498b815d4305c8867b0942a508179e0657ad60d1274daa",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17316-zh-00029",
+      "source_hash": "2879222415672d201abfe3e634d8339e67e1459aae97a4f34b023760aaf0d94f",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00030",
+      "source_hash": "8cc915984e78fbaa6948254a113d11bea302f186e9497ef70009472f4f65e3fd",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00031",
+      "source_hash": "d995d6ab415d91d191bafde064de400b1e66d82532d91ec0cc02d72258ce5cda",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00032",
+      "source_hash": "7e0e212667f735a4ed33b98de25a804c20bc29714b318cac041768909f463a7d",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00033",
+      "source_hash": "d47c78190a0cedf08a85d48403af80a5b2f63144351a5264cb2614eb90fe6341",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00034",
+      "source_hash": "eb07e307b4f8057bf69712183bcd337aafedca2a7144a22cab002dd5957e971e",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17316-zh-00035",
+      "source_hash": "17cf632623eefae1e53fa1341628920fd12eb3bc1b5a1b94ad908fb86e850602",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00036",
+      "source_hash": "3e4d5771869a172ee6a54203b26ddd4585011095887320baf365a769b67acf76",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00037",
+      "source_hash": "3e4d5771869a172ee6a54203b26ddd4585011095887320baf365a769b67acf76",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00038",
+      "source_hash": "3e4d5771869a172ee6a54203b26ddd4585011095887320baf365a769b67acf76",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00039",
+      "source_hash": "1903a4791fe0337f66b1302ac55d3004b4228fece75436cdbf82e9380c8622dc",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00040",
+      "source_hash": "1903a4791fe0337f66b1302ac55d3004b4228fece75436cdbf82e9380c8622dc",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00041",
+      "source_hash": "1903a4791fe0337f66b1302ac55d3004b4228fece75436cdbf82e9380c8622dc",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17316-zh-00042",
+      "source_hash": "aa77174005668fbb8fdf67e265550402ab5f1ec57546efc725193866717f59a2",
+      "decision": "CORRECT"
+    }
+  ],
+  "edits": [
+    {
+      "id": "A17315-zh-00001",
+      "text": "■ 《宇宙开发促进法施行规则》[附页第2号表格] <2024年5月27日修订>"
+    },
+    {
+      "id": "A17315-zh-00002",
+      "text": "第　号"
+    },
+    {
+      "id": "A17315-zh-00003",
+      "text": "宇宙物体预备登记（登记）证书"
+    },
+    {
+      "id": "A17315-zh-00005",
+      "text": "代表人姓名："
+    },
+    {
+      "id": "A17315-zh-00007",
+      "text": "宇宙物体名称："
+    },
+    {
+      "id": "A17315-zh-00008",
+      "text": "用途："
+    },
+    {
+      "id": "A17315-zh-00009",
+      "text": "有效期限："
+    },
+    {
+      "id": "A17315-zh-00010",
+      "text": "兹依据《宇宙开发促进法》第八条第一款、第二款、第五款及同法施行规则"
+    },
+    {
+      "id": "A17315-zh-00011",
+      "text": "第二条第二款，证明上述宇宙物体已完成预备登记（登记）。"
+    },
+    {
+      "id": "A17315-zh-00012",
+      "text": "年"
+    },
+    {
+      "id": "A17315-zh-00013",
+      "text": "月"
+    },
+    {
+      "id": "A17315-zh-00015",
+      "text": "宇宙航空厅厅长"
+    },
+    {
+      "id": "A17315-zh-00016",
+      "text": "公章"
+    },
+    {
+      "id": "A17315-zh-00017",
+      "text": "210毫米×297毫米[白色纸张80克/平方米]"
+    },
+    {
+      "id": "A17316-zh-00001",
+      "text": "■ 《宇宙开发促进法施行规则》[附页第3号表格] <2024年5月27日修订>"
+    },
+    {
+      "id": "A17316-zh-00002",
+      "text": "宇宙物体预备登记（登记）变更通知书"
+    },
+    {
+      "id": "A17316-zh-00003",
+      "text": "受理编号"
+    },
+    {
+      "id": "A17316-zh-00004",
+      "text": "受理日期"
+    },
+    {
+      "id": "A17316-zh-00007",
+      "text": "通知人"
+    },
+    {
+      "id": "A17316-zh-00009",
+      "text": "事业者登记号码"
+    },
+    {
+      "id": "A17316-zh-00010",
+      "text": "代表人姓名"
+    },
+    {
+      "id": "A17316-zh-00014",
+      "text": "变更内容"
+    },
+    {
+      "id": "A17316-zh-00015",
+      "text": "变更理由"
+    },
+    {
+      "id": "A17316-zh-00016",
+      "text": "依据《宇宙开发促进法》第八条第六款、同法施行令第十条第二款及同法施行规则第三条第一款，"
+    },
+    {
+      "id": "A17316-zh-00017",
+      "text": "现将上述宇宙物体预备登记（登记）变更事项通知如下。"
+    },
+    {
+      "id": "A17316-zh-00018",
+      "text": "年"
+    },
+    {
+      "id": "A17316-zh-00019",
+      "text": "月"
+    },
+    {
+      "id": "A17316-zh-00021",
+      "text": "通知人"
+    },
+    {
+      "id": "A17316-zh-00023",
+      "text": "宇宙航空厅厅长"
+    },
+    {
+      "id": "A17316-zh-00024",
+      "text": "敬启"
+    },
+    {
+      "id": "A17316-zh-00025",
+      "text": "随附材料"
+    },
+    {
+      "id": "A17316-zh-00026",
+      "text": "变更事项相关文件一份（另附电子文书一份）"
+    },
+    {
+      "id": "A17316-zh-00027",
+      "text": "手续费"
+    },
+    {
+      "id": "A17316-zh-00029",
+      "text": "办理流程"
+    },
+    {
+      "id": "A17316-zh-00030",
+      "text": "填写通知书"
+    },
+    {
+      "id": "A17316-zh-00031",
+      "text": "受理"
+    },
+    {
+      "id": "A17316-zh-00032",
+      "text": "审核"
+    },
+    {
+      "id": "A17316-zh-00033",
+      "text": "审批"
+    },
+    {
+      "id": "A17316-zh-00035",
+      "text": "通知人"
+    },
+    {
+      "id": "A17316-zh-00036",
+      "text": "办理机关"
+    },
+    {
+      "id": "A17316-zh-00037",
+      "text": "办理机关"
+    },
+    {
+      "id": "A17316-zh-00038",
+      "text": "办理机关"
+    },
+    {
+      "id": "A17316-zh-00039",
+      "text": "（宇宙航空厅）"
+    },
+    {
+      "id": "A17316-zh-00040",
+      "text": "（宇宙航空厅）"
+    },
+    {
+      "id": "A17316-zh-00041",
+      "text": "（宇宙航空厅）"
+    },
+    {
+      "id": "A17316-zh-00042",
+      "text": "210毫米×297毫米[白色纸张80克/平方米]"
+    }
+  ],
+  "next_id": "A17317-zh-00001",
+  "note": "A17315 (17 cells) registration certificate + A17316 (42 cells) registration-change notification compared to full Korean forms, reviewed statutory basis, processing steps, agency and valid-period field. Prior A17316 MTQ processing period already recorded in sweep, kept without duplicate edit."
+}
