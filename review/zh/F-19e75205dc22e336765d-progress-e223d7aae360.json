@@ -1,0 +1,38 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-19e75205dc22e336765d",
+  "worker": "C06",
+  "panel_id": "panel-06",
+  "pc": "WORK-C",
+  "status": "IN_PROGRESS",
+  "source_commit": "cfb1d2139b0964af5165eecacfab57c57c1fe432",
+  "source_blobs": {
+    "en": "9ccc8a185bc0a2975d2e349d3fc3690f6e4b439b",
+    "ko": "f3c381ac40a93d2dd0c81eeeec800d0484334dce",
+    "zh": "42d5c0c29e2439f506c7209aebee695f5a1a631b"
+  },
+  "source_sha_verified": {
+    "ko": "f3c381ac40a93d2dd0c81eeeec800d0484334dce",
+    "en": "9ccc8a185bc0a2975d2e349d3fc3690f6e4b439b",
+    "zh": "42d5c0c29e2439f506c7209aebee695f5a1a631b"
+  },
+  "blob_reads": {
+    "ko": 253960,
+    "en": 968235,
+    "zh": 605804
+  },
+  "prior_review_sha": "99fc4e59aa3aceabe42a8257aa8f8619d98a225e",
+  "prior_checked_rows": 1250,
+  "prior_edit_count": 1548,
+  "total_rows": 2330,
+  "total_documents": 30,
+  "next_row_index": 1250,
+  "reading_order": "KO_FULL_THEN_EN_FULL_THEN_ZH_FULL",
+  "preserved_hold": [
+    {
+      "document": "A29851",
+      "reason": "기존 검수 기록상 원문 손상 및 보호 보류. 임의 복원·수정 금지."
+    }
+  ],
+  "note": "기존 공식 검수본과 교정 1,548건을 보존. 원문 세 blob은 지정 SHA로 조회됨. 이 진행 파일은 재개 체크포인트이며 완료 영수증이 아님. 아직 남은 가족 전체 독해·중국어 검수·최종 품질검사·공식 저장 재조회가 필요함."
+}
