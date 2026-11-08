@@ -1,0 +1,99 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 14,
+  "checked_ids": [
+    "A36425-zh-00025",
+    "A36425-zh-00026",
+    "A36425-zh-00027",
+    "A36425-zh-00028",
+    "A36425-zh-00029",
+    "A36425-zh-00030",
+    "A36425-zh-00031",
+    "A36425-zh-00032",
+    "A36425-zh-00033",
+    "A36425-zh-00034",
+    "A36425-zh-00035",
+    "A36425-zh-00036",
+    "A36425-zh-00037",
+    "A36425-zh-00038"
+  ],
+  "edits": [
+    {
+      "id": "A36425-zh-00025",
+      "source_hash": "c78bf9c4c3e3f2a1aac1f1bcca4899b8c6a93746ae0a722a7d47cfae7621b9cf",
+      "target_id": "XML:2657281",
+      "text": "甲. 以虚假或其他不正当"
+    },
+    {
+      "id": "A36425-zh-00026",
+      "source_hash": "f1fd768d9b01f6a4c780ba25cee7176e8a45934601e292c40184e625a0992dfa",
+      "target_id": "XML:2657282",
+      "text": "本法第十九条之"
+    },
+    {
+      "id": "A36425-zh-00029",
+      "source_hash": "6d84ad46fd39f298230f0e6186e57c22c54c18bab68516736efa827eb75fd02e",
+      "target_id": "XML:2657285",
+      "text": "四第四款第一号"
+    },
+    {
+      "id": "A36425-zh-00030",
+      "source_hash": "c97a0ade7606319006d38b48f29965f22d19729c875c71388f3399a6d0c8af66",
+      "target_id": "XML:2657286",
+      "text": "乙. 违反指定事项而开展业"
+    },
+    {
+      "id": "A36425-zh-00031",
+      "source_hash": "f1fd768d9b01f6a4c780ba25cee7176e8a45934601e292c40184e625a0992dfa",
+      "target_id": "XML:2657287",
+      "text": "本法第十九条之"
+    },
+    {
+      "id": "A36425-zh-00033",
+      "source_hash": "1a9b9939c840311cf71e64333cfd6ac784018cedc37cde9d3d9f845ccba4542e",
+      "target_id": "XML:2657289",
+      "text": "务的情形"
+    },
+    {
+      "id": "A36425-zh-00034",
+      "source_hash": "dab911a70359f84385469ce4a92dea945f3949467bd0c936b7d46314607087e9",
+      "target_id": "XML:2657290",
+      "text": "四第四款第二号"
+    },
+    {
+      "id": "A36425-zh-00035",
+      "source_hash": "b77073f123dba4c14f6ea202ff244f3f75553a22be48e9e2a92d02dc8f4ba753",
+      "target_id": "XML:2657291",
+      "text": "丙. 不再符合本法第十九条之四第一款规定的指"
+    },
+    {
+      "id": "A36425-zh-00036",
+      "source_hash": "f1fd768d9b01f6a4c780ba25cee7176e8a45934601e292c40184e625a0992dfa",
+      "target_id": "XML:2657292",
+      "text": "本法第十九条之"
+    },
+    {
+      "id": "A36425-zh-00037",
+      "source_hash": "3ed00f8ef07d00ada4aea157e60e55bdbbef775a5fcc758b53d29b97afcf65d4",
+      "target_id": "XML:2657293",
+      "text": "定条件的情形"
+    },
+    {
+      "id": "A36425-zh-00038",
+      "source_hash": "cf527011c8b8f1983c10879533fc64c8bd3ce869cc5dcd5d0eabf2261d91f66c",
+      "target_id": "XML:2657294",
+      "text": "四第四款第三号"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "note": "R69: Korean Annex 2 two-column sanction table rows 25-38 checked as joined Korean cells, including misconduct a/b/c and legal citations: 법 제19조의4제4항제1호/제2호/제3호. New edits fix missing fragmented references and mistranslated offense descriptions. Previously corrected A36425-zh-00028 remains preserved; rows 27 and 32 designation cancellation remain as original; no duplicate edits. This is NOT a completed family-wide review or receipt."
+}
