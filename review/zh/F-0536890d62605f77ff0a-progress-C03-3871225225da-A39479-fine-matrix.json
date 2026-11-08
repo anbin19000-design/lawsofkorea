@@ -1,0 +1,106 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:3871225225da",
+  "status": "IN_PROGRESS",
+  "phase": "ANNEX_6_FINE_MATRIX_REVIEW",
+  "document": "A39479",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_en_index_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "english_status": "FALLBACK_ENGLISH_AVAILABLE; current Korean Annex 6 controlling",
+  "checked_rows": 8,
+  "checked_ids": [
+    "A39479-zh-00002",
+    "A39479-zh-00029",
+    "A39479-zh-00034",
+    "A39479-zh-00035",
+    "A39479-zh-00036",
+    "A39479-zh-00043",
+    "A39479-zh-00044",
+    "A39479-zh-00045"
+  ],
+  "passed_existing_rows": 2,
+  "confirmed_prior_candidate_rows": 6,
+  "corrected_new_unique_rows": 0,
+  "results": [
+    {
+      "id": "A39479-zh-00002",
+      "verdict": "PASS",
+      "text": "行政罚款的适用标准（与第30条相关）",
+      "source_hash": "ce1774b90d3971a67c1890bc1d5577dc8beed8dae38e05598d8d9b84c3e1fed3",
+      "reason": "Annex 6 administrative fine criteria Article 30 reference is accurate."
+    },
+    {
+      "id": "A39479-zh-00029",
+      "verdict": "PASS",
+      "text": "500万韩元",
+      "source_hash": "5fd0c94f7666350d61567c55e2248f411c54ba47b2356e58f8c7549397f8bca5",
+      "reason": "Korean Annex 6 fine matrix amount 500万韩元 preserved; previous candidate used where original was inaccurate."
+    },
+    {
+      "id": "A39479-zh-00034",
+      "verdict": "PASS_EXISTING_CANDIDATE",
+      "text": "150万韩元",
+      "source_hash": "f12d616b4dacb160a8aaab9948a1e124e5dbfc571373dda5f582337bfc886a14",
+      "reason": "Korean Annex 6 fine matrix amount 150万韩元 preserved; previous candidate used where original was inaccurate."
+    },
+    {
+      "id": "A39479-zh-00035",
+      "verdict": "PASS_EXISTING_CANDIDATE",
+      "text": "200万韩元",
+      "source_hash": "ec32def14caae856350cdc14244dd3cc180dfc63aee66aad0d0de00b92811a2c",
+      "reason": "Korean Annex 6 fine matrix amount 200万韩元 preserved; previous candidate used where original was inaccurate."
+    },
+    {
+      "id": "A39479-zh-00036",
+      "verdict": "PASS",
+      "text": "300万韩元",
+      "source_hash": "f3e90a216210195c0d6772a6faae2138079d72ec2fddfb85cc7ae26e3dc05470",
+      "reason": "Korean Annex 6 fine matrix amount 300万韩元 preserved; previous candidate used where original was inaccurate."
+    },
+    {
+      "id": "A39479-zh-00043",
+      "verdict": "PASS_EXISTING_CANDIDATE",
+      "text": "150万韩元",
+      "source_hash": "f12d616b4dacb160a8aaab9948a1e124e5dbfc571373dda5f582337bfc886a14",
+      "reason": "Korean Annex 6 fine matrix amount 150万韩元 preserved; previous candidate used where original was inaccurate."
+    },
+    {
+      "id": "A39479-zh-00044",
+      "verdict": "PASS_EXISTING_CANDIDATE",
+      "text": "200万韩元",
+      "source_hash": "ec32def14caae856350cdc14244dd3cc180dfc63aee66aad0d0de00b92811a2c",
+      "reason": "Korean Annex 6 fine matrix amount 200万韩元 preserved; previous candidate used where original was inaccurate."
+    },
+    {
+      "id": "A39479-zh-00045",
+      "verdict": "PASS",
+      "text": "300万韩元",
+      "source_hash": "f3e90a216210195c0d6772a6faae2138079d72ec2fddfb85cc7ae26e3dc05470",
+      "reason": "Korean Annex 6 fine matrix amount 300万韩元 preserved; previous candidate used where original was inaccurate."
+    }
+  ],
+  "edits": [],
+  "fine_matrix": {
+    "failure_to_report": "500万韩元",
+    "inspection_obstruction": [
+      "150万韩元",
+      "200万韩元",
+      "300万韩元"
+    ],
+    "similar_name_violation": [
+      "150万韩元",
+      "200万韩元",
+      "300万韩元"
+    ]
+  },
+  "prior_evidence_index": "status/delivery/reconcile-S2-8f70e317249155938a79444493d089b4-evidence-7e6b69412a765526.json",
+  "previous_progress": "review/zh/F-0536890d62605f77ff0a-progress-C03-2ab0a000cc7a-A39478-penalties.json",
+  "protected_unresolved_ids": [
+    "A26697-zh-00008",
+    "A26699-zh-00053"
+  ],
+  "note": "Two rows require no edit, six previously recorded candidate corrections confirmed against current Korean Annex 6. Do not double-count prior corrections. Family-wide semantic review incomplete; no COMPLETE receipt."
+}
