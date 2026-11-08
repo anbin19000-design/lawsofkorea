@@ -74,12 +74,12 @@
     {
       "id": "A19768-zh-00056",
       "text": "符合性",
-      "reason": "性能检验结果表中与测量结果并列的判定栏，清除MTQ占位污染。"
+      "reason": "将检验结果表的判定字段统一译为“符合性”，清除MTQ污染。"
     },
     {
       "id": "A19769-zh-00056",
       "text": "符合性",
-      "reason": "性能检验结果表中与测量结果并列的判定栏，清除MTQ占位污染。"
+      "reason": "将检验结果表的判定字段统一译为“符合性”，清除MTQ污染。"
     },
     {
       "id": "B3-zh-00034",
@@ -194,5 +194,5 @@
     "A19779": "NO_DOCUMENT_ENGLISH"
   },
   "prior_state": "No review/zh/F-08806b621a5676e549f7.json or receipts/F-08806b621a5676e549f7.json found on main at intake. Existing progress records not found by targeted GitHub code search; verify exact candidate paths before assuming none.",
-  "note": "Targeted pass identified clear Hangul omissions in B2-zh-00067 and B2-zh-00083, a mixed untranslated passage in B2-zh-00099, incorrect statutory references in B2-zh-00014, and MTQ contamination in selected form labels. This is not full-family review. Continue full sequential KO then EN then ZH reading; verify remaining MTQ and B3 table issues against original annex XML before finalization. B3-zh-00034 has had the remaining visible Korean table labels translated; remaining MTQ fragments in A19766-zh-00021 and A19766-zh-00064 require exact XML/source-cell verification before any replacement. Full sequential source reading and complete 1,639-row review remain pending. Resolved three additional MTQ-corrupted cells by matching the immediately adjacent Korean table/process sequence: A19766-00021, A19766-00064, and A19767-00067. Continue whole-family sequential review; this checkpoint remains IN_PROGRESS. Additional review removed remaining START placeholder artifacts from A36502, A19765, A19766 and translated the residual English Recorder label in B3 table. The full sequential reading/review across all 24 documents remains pending; no COMPLETE claim."
+  "note": "Targeted pass identified clear Hangul omissions in B2-zh-00067 and B2-zh-00083, a mixed untranslated passage in B2-zh-00099, incorrect statutory references in B2-zh-00014, and MTQ contamination in selected form labels. This is not full-family review. Continue full sequential KO then EN then ZH reading; verify remaining MTQ and B3 table issues against original annex XML before finalization. B3-zh-00034 has had the remaining visible Korean table labels translated; remaining MTQ fragments in A19766-zh-00021 and A19766-zh-00064 require exact XML/source-cell verification before any replacement. Full sequential source reading and complete 1,639-row review remain pending. Resolved three additional MTQ-corrupted cells by matching the immediately adjacent Korean table/process sequence: A19766-00021, A19766-00064, and A19767-00067. Continue whole-family sequential review; this checkpoint remains IN_PROGRESS. Additional review removed remaining START placeholder artifacts from A36502, A19765, A19766 and translated the residual English Recorder label in B3 table. The full sequential reading/review across all 24 documents remains pending; no COMPLETE claim. Machine-assisted residue scan found 4 Hangul-containing rows, 14 MTQ-corrupted rows, 7 START-token rows, and one Recorder English label in the original Chinese file. All are represented in the cumulative edit list; the effective edited rows were checked for removal of these specific artifacts. The original source rows remain unchanged. Full sequential review of all 1,639 rows remains pending."
 }
