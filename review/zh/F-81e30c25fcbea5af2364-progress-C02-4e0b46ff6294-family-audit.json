@@ -1,0 +1,27 @@
+{
+  "schema": "LAW_ZH_C02_FAMILY_COVERAGE_AUDIT_V2",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "branch": "main",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "total_documents": 17,
+  "total_zh_rows": 1133,
+  "checked_unique_ids": 1133,
+  "ids_without_review_evidence": [],
+  "ids_without_review_evidence_count": 0,
+  "accepted_edit_ids": 662,
+  "pending_single_candidates": 343,
+  "pending_conflicts": 0,
+  "ordered_reading_certification": {
+    "ko": true,
+    "en": true,
+    "zh": true
+  },
+  "english_version_note": "Official English fallback source files were read in full in the earlier sequential checkpoint. B1/B2 English source versions do not match the frozen Korean source versions; B3 and forms have no direct English source. Korean remains controlling.",
+  "coverage_note": "All 1133 Chinese row IDs now have source-linked review evidence: B1 1-199 sequential pass, B2 1-209 with the 113-115 gap directly checked in this task, annexes A36424-A36427, B3, and forms A25465-A25474. Remaining work is adjudication of 343 historical single candidates, final merge/identity/format audit, and receipt creation. No COMPLETE claim."
+}
