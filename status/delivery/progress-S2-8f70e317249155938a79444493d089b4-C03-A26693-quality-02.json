@@ -1,0 +1,225 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26693",
+  "quality_batch": "A26693-quality-02",
+  "range": {
+    "first": "A26693-zh-00011",
+    "last": "A26693-zh-00030"
+  },
+  "quality_checked_rows": 20,
+  "quality_passed_rows": 20,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "A26693-zh-00011",
+    "A26693-zh-00012",
+    "A26693-zh-00013",
+    "A26693-zh-00014",
+    "A26693-zh-00015",
+    "A26693-zh-00016",
+    "A26693-zh-00017",
+    "A26693-zh-00018",
+    "A26693-zh-00019",
+    "A26693-zh-00020",
+    "A26693-zh-00021",
+    "A26693-zh-00022",
+    "A26693-zh-00023",
+    "A26693-zh-00024",
+    "A26693-zh-00025",
+    "A26693-zh-00026",
+    "A26693-zh-00027",
+    "A26693-zh-00028",
+    "A26693-zh-00029",
+    "A26693-zh-00030"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26693-00001-00030.json",
+  "prior_quality_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26693-quality-01.json",
+  "results": [
+    {
+      "id": "A26693-zh-00011",
+      "source_hash": "0c9782432a61e01698b294a5acad8506a7914231b4de7978baa1e5db90bcb0f3",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "피해자의 주민등록번호·외국인등록번호·국내거소신고번호 구분 확인"
+    },
+    {
+      "id": "A26693-zh-00012",
+      "source_hash": "a44e94bae9fbac50848ab404ac5d343ab654e7bad05348e6d94ca255babff421",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "영문명 표기 확인"
+    },
+    {
+      "id": "A26693-zh-00013",
+      "source_hash": "9cf627a47a099f91ec615a3fe69c93ddb90b823d684f9b1f4aff2dfe0adda7d6",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "주소 또는 거소 항목 확인"
+    },
+    {
+      "id": "A26693-zh-00014",
+      "source_hash": "4edc94394feec0a6ca6b04c04db74384ad82a009922c2195ea48a7c1cda5088e",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "전화번호 항목 확인"
+    },
+    {
+      "id": "A26693-zh-00015",
+      "source_hash": "9e56b502786d2dc56c9166037754fb1d8665985b5d3f2f31052ef1e5178f3a3e",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "보호자 필요시 기재 표기 확인"
+    },
+    {
+      "id": "A26693-zh-00016",
+      "source_hash": "13c7a2257e3db5e84282b29a52911240fe1b8c1546a2b3ddd42db528a8c4e5fd",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "보호자 관계 기재 조건 확인"
+    },
+    {
+      "id": "A26693-zh-00017",
+      "source_hash": "bbb56c63d872d9a1b38142b7c08d065ebb5c0c8ce73b48c0146504d62eef6127",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신고의무자 표제 앞부분 확인"
+    },
+    {
+      "id": "A26693-zh-00018",
+      "source_hash": "bb35ab6d24daaf2db64eb43bf943f7653ff4f0c84bda2dede78d9ba7680b3f92",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신고의무자 표제 뒷부분 확인"
+    },
+    {
+      "id": "A26693-zh-00019",
+      "source_hash": "9f96b8e22cc06bfafc548ef472e33b60548b190f17dbc04b1da176a50d2c6d2c",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "성명 항목 확인"
+    },
+    {
+      "id": "A26693-zh-00020",
+      "source_hash": "f7ea9e331f80935959d8c179f685fbbdfde7f0301e791106a64b454bb1d6e80c",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "생년월일 확인"
+    },
+    {
+      "id": "A26693-zh-00021",
+      "source_hash": "180f768ac2709c10b3533ad526c886387c91ac746e0ea146304b3f53be996240",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신고의무자가 신청하는 경우에만 작성하는 문구의 시작 확인"
+    },
+    {
+      "id": "A26693-zh-00022",
+      "source_hash": "e17cbbb5223dba1693255c75b5bc2f0ea881b0636b6fe09a74083f76b78f7c18",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 행과 연결되는 조건절 확인"
+    },
+    {
+      "id": "A26693-zh-00023",
+      "source_hash": "ce1f164bd4a7e1100109d56c12cecab2bffe836425440e3670b7e765b15f7d0a",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 행과 연결되는 조건절 확인"
+    },
+    {
+      "id": "A26693-zh-00024",
+      "source_hash": "3ee4e166711014bb20a0267b57ce588f1c118798c5b22de332af79a0ae04467e",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "기관·시설명 확인"
+    },
+    {
+      "id": "A26693-zh-00025",
+      "source_hash": "89fa7855fb463451f6c478bb588a58af670ebb09f52eb478ded3c09b99d1b746",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시설 종류 확인"
+    },
+    {
+      "id": "A26693-zh-00026",
+      "source_hash": "5820593ac59d13a27a60880a2886834353fa881fb040c2d5d4a4e01d7d64bdbd",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신고의무자 작성 조건절의 마지막 부분 확인"
+    },
+    {
+      "id": "A26693-zh-00027",
+      "source_hash": "28b8fc6e555dabd97ac4d0b9445cd3154adf2e641b3b6ea36c24e78dd627c46f",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인신매매·가정폭력·성매매·성폭력 종류 확인"
+    },
+    {
+      "id": "A26693-zh-00028",
+      "source_hash": "8724825b321ad13d6d925e00e7c0f5e64ad7aac8d508adb6768db66390cd739a",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 문구와 결합되는 작성 조건 확인"
+    },
+    {
+      "id": "A26693-zh-00029",
+      "source_hash": "46083981748abfbcc065457ec291aafa6ecdc6d30073d1c078c90366b440f7fc",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "아동복지·청소년·기타 종류 확인"
+    },
+    {
+      "id": "A26693-zh-00030",
+      "source_hash": "ef4403031e6e67eb6ff612ac7f030ff5fcf2e12e2b56fe2fa253adc78b0c68bb",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "소재지 항목 확인"
+    }
+  ],
+  "edits": [],
+  "note": "피해자 및 신고의무자 표 11~30번의 원본/기교정문을 한국어 표 구조와 비교. 특히 17~18, 21~23 및 26~28번 인접 셀의 단어 연결과 신고의무자 조건을 확인. 기저장 교정 및 원문 불변. 전체 COMPLETE 아님."
+}
