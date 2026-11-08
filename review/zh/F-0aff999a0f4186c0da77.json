@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 286,
+    "correction_count": 292,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -2027,6 +2027,48 @@
       "original": "无正当理由拒绝或阻挠公司亦属违法行为",
       "corrected": "无正当理由拒绝、妨碍或规避依该法第81条第2款进行的调查",
       "reason": "별표 5 한국어 원문 대조: 법령 인용, 위반행위 또는 행정절차 행위자 의미의 명백한 오역만 교정."
+    },
+    "A34916-zh-00010": {
+      "doc": "A34916",
+      "source_hash": "229ebd824e8ed5d2f241bad75f8b50069d7a0a54a89064e5b08e3ee0c66af58c",
+      "original": "在该法案生效前已作出的处罚决定的数量（如果在根据第 (a) 款规定期间内有两项或两项以上处以行政罚款的处罚决定）",
+      "corrected": "在本次违法行为之前已作出的处罚次数（如在第a项规定的期间内已有两次以上罚款处罚，",
+      "reason": "한국어 별표 5의 조문번호·가중처분 차수·과태료 감경 제외조건에 대한 명백한 오역 교정."
+    },
+    "A34916-zh-00013": {
+      "doc": "A34916",
+      "source_hash": "f3b9a36d5f87f84a660299f09de727c25428bccf113570503d2d95113bb5b675",
+      "original": "罚款金额可减少至原罚款金额的一半。但是，如果行政罚款逾期未缴，则罚款金额可能会减少至原罚款金额的一半。",
+      "corrected": "可以在该罚款金额二分之一的范围内减轻。但对拖欠行政罚款的违法行为人，",
+      "reason": "한국어 별표 5의 조문번호·가중처분 차수·과태료 감경 제외조건에 대한 명백한 오역 교정."
+    },
+    "A34916-zh-00042": {
+      "doc": "A34916",
+      "source_hash": "5ab7b6e5917756850df1155a2a7131d603b24a7b91a0ec633ade0155c188fe0c",
+      "original": "a. 违反了该法第6条第2款正文",
+      "corrected": "a. 违反本法第6条之二第2款正文规定，",
+      "reason": "한국어 별표 5의 조문번호·가중처분 차수·과태료 감경 제외조건에 대한 명백한 오역 교정."
+    },
+    "A34916-zh-00050": {
+      "doc": "A34916",
+      "source_hash": "fe664a19241bff4d7aaa86a82e7914fe4a0ef0d7d40fc2c91c2ba612c054937d",
+      "original": "b. 违反了该法第6条第2款但书的规定",
+      "corrected": "b. 违反本法第6条之二第2款但书规定，",
+      "reason": "한국어 별표 5의 조문번호·가중처분 차수·과태료 감경 제외조건에 대한 명백한 오역 교정."
+    },
+    "A34916-zh-00163": {
+      "doc": "A34916",
+      "source_hash": "b64682db2b15f0885de2e899447e60b8e586ec0be10bd53510d37b6de5d4932a",
+      "original": "根据上述 Act 的第 81 条第 1 款第 1 项的规定，",
+      "corrected": "根据该法律第81条第1款第1项的规定，",
+      "reason": "한국어 별표 5의 조문번호·가중처분 차수·과태료 감경 제외조건에 대한 명백한 오역 교정."
+    },
+    "A34916-zh-00186": {
+      "doc": "A34916",
+      "source_hash": "8bf0f6d53b77266b4d3a353e074192c82955ce7f4f20191e89d688f8050e4ce5",
+      "original": "根据第  条第 6 款的规定进行报告或要求",
+      "corrected": "根据同条第6项的规定应报告或提交",
+      "reason": "한국어 별표 5의 조문번호·가중처분 차수·과태료 감경 제외조건에 대한 명백한 오역 교정."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -2090,7 +2132,8 @@
     "C05 00d89ac6886f: Annex A34912 full 147-row first-pass inspection against Korean source; repaired 23 explicit errors in subitem labels, Aligo contamination, coercion beneficiary, and reversed disadvantage term. Other previously corrected rows preserved; exhaustive semantic review remains pending.",
     "C05 00d89ac6886f: A34914/A34915 reviewed against full Korean annexes. 23 definite corrections: personnel/qualification criteria, facility subsection numbering, fine calculation and discretionary waiver, fines vs penalties, sales vs volume. Full semantic family review IN_PROGRESS.",
     "C05 6dfadf0508d4: annex A34914 and A34915 source-grounded 4 corrections; full Chinese semantic certification remains incomplete.",
-    "C05 f2c254040744: Korean annex A34916 penalty-table comparison: 6 confirmed legal-citation and offense semantic corrections. Full Chinese semantic review uncompleted, status IN_PROGRESS."
+    "C05 f2c254040744: Korean annex A34916 penalty-table comparison: 6 confirmed legal-citation and offense semantic corrections. Full Chinese semantic review uncompleted, status IN_PROGRESS.",
+    "C05 f2c254040744 Annex5 further 6 distinct, source verified penalty schedule corrections. No final full row certification."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -2099,5 +2142,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 286
+  "corrected_rows": 292
 }
