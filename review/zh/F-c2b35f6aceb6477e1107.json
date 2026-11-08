@@ -2,7 +2,7 @@
   "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-c2b35f6aceb6477e1107",
   "worker": "C04",
-  "checked_rows": 22,
+  "checked_rows": 23,
   "edits": [
     {
       "id": "A14112-zh-00030",
@@ -91,8 +91,12 @@
     {
       "id": "B1-zh-00029",
       "text": "第25条（行政罚款）\n① 学校供餐供应商如因违反第十六条第二款第一项的规定，被依据第十九条第三款发出整改通知，而无正当理由拒不整改，应处以不超过五百万韩元的行政罚款。<2021年3月23日修订>\n② 学校供餐供应商如因违反第十六条第二款第二项或同条第三款的规定，被依据第十九条第三款的规定责令整改，而无正当理由拒不整改的，处以不超过300万韩元的行政罚款。<2013年5月22日修订，2021年3月23日更新>\n③ 根据第1款和第2款规定处以的行政罚款，由教育部长或教育总监按照总统令规定征收。<2008年2月29日、2013年3月23日、2021年3月23日修订>\n④ 删除 <2010.3.17>\n⑤ 删除 <2010.3.17>\n⑥ 删除 <2010.3.17>\n\n"
+    },
+    {
+      "id": "B1-zh-00047",
+      "text": "第六条（其他法律的修正）①至<102> 已省略\n\n  <103> 《学校供餐服务法》部分修订如下。\n\n  第十条第二款、第十一条第二款、第十二条第二款和第十六条第二款第二项中的“教育人力资源部令”应改为“教育科学技术部条例”。\n\n  第十八条第一款；第十九条第一款和第三款；第二十条；第二十一条第一款和第二款；第二十二条第三款；以及第二十五条第三款至第五款中，“教育和人力资源部长”应改为“教育、科学和技术部长”。\n\n  <104> 至 <760> 已省略\n\n"
     }
   ],
   "status": "IN_PROGRESS",
-  "note": "C04 recovery round 2: 22 verified corrections. B1 00026 discipline obligation and B1 00029 Article 16/19 references corrected. Full family review still IN_PROGRESS; no completion receipt."
+  "note": "C04: 23 unique verified corrections; B1-zh-00047 corrected source term 교육인적자원부령 to 教育人力资源部令 (rather than 教育部条例). Full 15-document family remains IN_PROGRESS; no completion receipt."
 }
