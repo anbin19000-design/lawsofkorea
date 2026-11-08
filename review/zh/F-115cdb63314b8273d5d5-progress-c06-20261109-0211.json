@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 1500,
+    "verified_zh_rows": 1560,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 1500,
-      "checked_rows": 1500,
+      "next_row_zero_based": 1560,
+      "checked_rows": 1560,
       "total_rows": 5228
     }
   },
@@ -1915,9 +1915,87 @@
       "text": "1) 违反本法第七十七条第一款正文规定的车辆运行限制，轴荷超限不足2吨或总重量超限不足5吨而行驶的情形",
       "original_text": "1) 车辆的",
       "reason": "车辆载荷违法分档标准被截断"
+    },
+    {
+      "id": "A28851-zh-00193",
+      "text": "H. 违反本法第九十六条或第九十七条规定的道路管理机关命令的情形",
+      "original_text": "H. 根据该法第96条或第97条进行的道路管理",
+      "reason": "도로관리청 명령 위반 행위를 단순 도로관리로 오역"
+    },
+    {
+      "id": "A28851-zh-00198",
+      "text": "I. 未按照本法第一百零六条第二款规定申报权利和义务继承的情形",
+      "original_text": "ge。根据《继承法》第106条第2款提交的继承报告",
+      "reason": "도로법을 상속법으로 오역하고 승계신고 의무 위반을 긍정적 신고로 바꿈"
+    },
+    {
+      "id": "A28851-zh-00201",
+      "text": "",
+      "original_text": "否则 START",
+      "reason": "잔존 START 템플릿 토큰 제거"
+    },
+    {
+      "id": "A28851-zh-00203",
+      "text": "3. 罚款的详细计算标准",
+      "original_text": "3. 详细拼版标准",
+      "reason": "과태료의 세부 부과기준을 조판 기준으로 오역"
+    },
+    {
+      "id": "A28851-zh-00204",
+      "text": "A. 对第二款B项所列违法行为征收罚款的详细标准如下：",
+      "original_text": "a. 根据第2款b项规定，对行政罚款进行处罚的详细标准",
+      "reason": "과태료 상세 부과기준 조항 구조를 부정확하게 번역"
+    },
+    {
+      "id": "A28851-zh-00205",
+      "text": "1) 超出道路占用许可面积不超过1平方米的：50,000韩元。",
+      "original_text": "1) 如果超出占用面积为1平方米或以下：50,000韩元",
+      "reason": "도로점용허가 면적 초과 기준의 대상과 문장 구조 보정"
+    },
+    {
+      "id": "A28851-zh-00206",
+      "text": "2) 超出道路占用许可面积超过1平方米的：在第1)项金额基础上，超出1平方米的部分每平方米加收100,000韩元，但总额不得超过2,000,000韩元。",
+      "original_text": "2) 如果超出占用面积超过 1 平方米：1) 中超过 1 平方米的面积金额除以 1",
+      "reason": "초과 면적 추가 산정식과 단가 누락"
+    },
+    {
+      "id": "A28851-zh-00208",
+      "text": "",
+      "original_text": "无法启动。",
+      "reason": "원문에 없는 불필요한 실행 문구 삭제"
+    },
+    {
+      "id": "A28851-zh-00209",
+      "text": "B. 对第二款C项所列违法行为征收罚款的详细标准如下：",
+      "original_text": "B. 根据第2款C项规定，对行政罚款进行处罚的详细标准",
+      "reason": "과태료 세부 산정기준의 법률 문체 및 항목 표기 보정"
+    },
+    {
+      "id": "A28851-zh-00210",
+      "text": "1) 超出道路占用许可面积不超过1平方米的：100,000韩元。",
+      "original_text": "1) 如果占用面积为1平方米或以下：100,000韩元",
+      "reason": "무허가 적치 점용면적 기준의 대상 누락"
+    },
+    {
+      "id": "A28851-zh-00211",
+      "text": "2) 超出道路占用许可面积超过1平方米的：在第1)项金额基础上，超出1平方米的部分每平方米加收100,000韩元，但总额不得超过1,500,000韩元。",
+      "original_text": "2) 如果占用面积超过 1 平方米：1) 金额加上超过 1 平方米的 1 平方米",
+      "reason": "超出面积追加计费及150万韩元上限缺失"
+    },
+    {
+      "id": "B3-zh-00001",
+      "text": "《道路法施行规则》",
+      "original_text": "道路法执行规则",
+      "reason": "법령명 ‘도로법 시행규칙’을 부정확하게 번역"
+    },
+    {
+      "id": "B3-zh-00002",
+      "text": "第一条（目的）本规则旨在规定《道路法》及其施行令所委托的事项，以及实施《道路法》所必需的事项。",
+      "original_text": "第一条（目的）本规则的目的是规定道路法及其执行法令所委托的事项，以及实施道路法所必需的事项。\n\n",
+      "reason": "시행령을 실행 법령으로 오역"
     }
   ],
-  "note": "Sequential Chinese review continued through original row 1499 of Annex 7 fine schedule. Added ten focused corrections to rental cargo-vehicle management, directing drivers to violate restrictions, false notification of loaded cargo weight, cross-reference to fine bands, and first cargo-weight violation threshold. Previous 284 edits retained. Continue from row 1500. IN_PROGRESS.",
+  "note": "Sequential Chinese review continued through original row 1559, finishing Annex 7's fine calculations and beginning the Road Act Enforcement Rule (B3). Added 13 focused corrections for road authority orders, rights/obligations succession, fine calculation formulas and caps, residual START, and correct Enforcement Rule title/purpose. Previous 294 edits retained. Continue from row 1560. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
