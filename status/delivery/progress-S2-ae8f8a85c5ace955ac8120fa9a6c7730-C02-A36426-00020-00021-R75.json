@@ -1,0 +1,42 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 2,
+  "checked_ids": [
+    "A36426-zh-00020",
+    "A36426-zh-00021"
+  ],
+  "edits": [
+    {
+      "id": "A36426-zh-00020",
+      "source_hash": "d05d4807799629690831e043cb408d7c991e2d2adfafe63908f7bae1546f4fad",
+      "target_id": "XML:2657329",
+      "text": "韩国土地住宅公社（以下简称“韩国土地住宅"
+    },
+    {
+      "id": "A36426-zh-00021",
+      "source_hash": "ba58c93c9df664c9cb79a32726141b63556b69b56084e00655dcaaeccc395218",
+      "target_id": "XML:2657330",
+      "text": "公社”）"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "supersedes": [
+    {
+      "id": "A36426-zh-00021",
+      "previous_path": "status/delivery/progress-S2-ae8f8a85c5ace955ac8120fa9a6c7730-C02-A36426-00019-00038-R73.json",
+      "reason": "Keep R73 row 21 text, but explicitly repair the joint text by altering previously uncorrected row 20 to remove duplicated parenthetical institution name."
+    }
+  ],
+  "korean_evidence": "「한국토지주택공사법」 제2조에 따른 한국토지주택공사(이하 \"한국토지주택공사\"라 한다)",
+  "joined_final_text": "韩国土地住宅公社（以下简称“韩国土地住宅公社”）",
+  "note": "R75: First unresolved joined-cell conflict in A36426: row 20 original already repeats full acronym and row 21 R73 appends 公社”）. Replace row 20 while retaining R73 row 21, preserving source IDs and hashes. Confirm Korean legal-entity abbreviation; not full family COMPLETE."
+}
