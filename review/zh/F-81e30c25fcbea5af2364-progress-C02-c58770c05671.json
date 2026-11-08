@@ -12,7 +12,7 @@
     "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
     "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
   },
-  "checkpoint_type": "DIRECT_KOREAN_CROSS_REFERENCE_LEVEL_REVIEW",
+  "checkpoint_type": "REFINEMENT_OF_EXISTING_EDITS",
   "checked_ids": [
     "B1-zh-00046",
     "B1-zh-00057",
@@ -21,22 +21,13 @@
   "checked_rows_new": 3,
   "edits": [
     {
-      "id": "B1-zh-00046",
-      "text": "第三十三条（认证的撤销）国土交通大臣可按照总统令规定，在根据第三十二条第一款取得认证者符合下列任一情形时撤销其认证。但符合第1项情形时，必须撤销该认证。\n1. 以虚假或其他不正当方法取得认证\n2. 不再符合第三十二条第二款规定的认证标准\n\n",
-      "source_hash": "3ef26c1eee822b2d1040336191ae77ee44155d668927dc50819696ed2de3d41a",
-      "target_id": "8d317ea27396c6eb5bf42f5f65bdc672ac349029e4d1bb16017a5afd0ce67d44",
-      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c58770c05671.json",
-      "verification": "C02_DIRECT_KOREAN_COMPARISON",
-      "reason": "韩文“제1호”指第1项（第一项事由），并非“第一款”；原译将必须撤销认证的强制条件误写为第一款，且“인증”应为认证而非证书。"
-    },
-    {
       "id": "B1-zh-00057",
-      "text": "第四十条（无人驾驶飞行装置的特别规定）在国家试点城市内，拟为研究、开发或治安、国防、安全目的使用《航空安全法》第二条第三项所规定的超轻型飞行装置中的无人驾驶飞行装置者，如已按照该法第一百二十二条办理超轻型飞行装置申报，则视为已取得该法第九条第一款第四项但书规定的批准，但仅限于国土交通部长官事先与《军事基地及军事设施保护法》第八条第二款所规定的主管部队指挥官等协商确定的区域。\n\n",
+      "text": "第四十条（无人驾驶飞行装置的特别规定）在国家试点城市内，拟为研究、开发或治安、国家安全或公共安全目的使用《航空安全法》第二条第三项所规定的超轻型飞行装置中的无人驾驶飞行装置者，如已按照该法第一百二十二条办理超轻型飞行装置申报，则视为已取得该法第九条第一款第四项但书规定的批准，但仅限于国土交通部长官事先与《军事基地及军事设施保护法》第八条第二款所规定的主管部队指挥官等协商确定的区域。\n\n",
       "source_hash": "c5e07eda8447359d69e8281253331a84cee9926cec1b4bc4ea0c2c912702ea6a",
       "target_id": "d0d7ad75325d2b42f203abbab671fe80651257b919c970d48d2224632156e75b",
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c58770c05671.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
-      "reason": "韩文「항공안전법 제2조제3호」是第二条第三项/第三号定义，不是第二条第三款；同时「초경량비행장치」是超轻型飞行装置，不是飞机。"
+      "reason": "韩文“치안ㆍ안보ㆍ안전”分别指治安、国家安全和安全；将“国防”改为“国家安全”，避免把安보误解为军事国防。"
     },
     {
       "id": "B1-zh-00058",
@@ -45,7 +36,16 @@
       "target_id": "4e253d2b0f6b62182794b3d138bbe31e9292c382499404cef4c0828b778b6504",
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c58770c05671.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
-      "reason": "韩文《软件振兴法》第2条第3号、第4号均为定义条款中的第3项、第4项，不是第3款、第4款；原译把法条层级译错，需逐处修正。"
+      "reason": "韩文《软件振兴法》第2条第3号、第4号均为定义条款中的第3项、第4项，不是第3款、第4款；原译把法条层级译错，需逐处修正。 另保留韩文“적용하지 아니할 수 있다”的许可性语气，译为“可以不适用”，而非自动当然不适用。"
+    },
+    {
+      "id": "B1-zh-00046",
+      "text": "第三十三条（认证的撤销）国土交通大臣可按照总统令规定，在根据第三十二条第一款取得认证者符合下列任一情形时撤销其认证。但符合第1项情形时，必须撤销该认证。\n1. 以虚假或其他不正当方法取得认证\n2. 不再符合第三十二条第二款规定的认证标准\n\n",
+      "source_hash": "3ef26c1eee822b2d1040336191ae77ee44155d668927dc50819696ed2de3d41a",
+      "target_id": "8d317ea27396c6eb5bf42f5f65bdc672ac349029e4d1bb16017a5afd0ce67d44",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c58770c05671.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "韩文“제1호”指第1项（第一项事由），并非“第一款”；原译将必须撤销认证的强制条件误写为第一款，且“인증”应为认证而非证书。"
     }
   ],
   "ordered_reading_certification": {
@@ -60,7 +60,8 @@
   "notes": [
     "Compared B1 rows 00046, 00057, 00058 directly against Korean source.",
     "Corrected Article 33 mandatory revocation subparagraph, Article 40 Aviation Safety Act Article 2 subparagraph 3, and Article 41 Software Promotion Act Article 2 subparagraph references.",
-    "No full-family ordered reading certification; remain IN_PROGRESS."
+    "No full-family ordered reading certification; remain IN_PROGRESS.",
+    "Refined B1-zh-00057 to translate 안보 as national security, not military defense. Confirmed Article 41(1) permissive modality is retained as 可以不适用."
   ],
   "reviewed_ids": [
     "B1-zh-00002",
@@ -98,5 +99,10 @@
   ],
   "checked_rows_reviewed": 32,
   "review_method": "Read Korean source spans and matching Chinese rows in ascending B1 order for this batch; only rows 00046, 00057 and 00058 had confirmed material errors and were corrected. Other rows retained unchanged.",
-  "next_action": "Continue B1 from row 00059 onward, then complete remaining B1 rows and proceed B2/B3/annex/forms as one family. Complete Korean source, then available English, then Chinese sequence before any COMPLETE receipt."
+  "next_action": "Continue B1 from row 00059 onward, then complete remaining B1 rows and proceed B2/B3/annex/forms as one family. Complete Korean source, then available English, then Chinese sequence before any COMPLETE receipt.",
+  "refined_edit_ids": [
+    "B1-zh-00057",
+    "B1-zh-00058"
+  ],
+  "refined_edit_count": 2
 }
