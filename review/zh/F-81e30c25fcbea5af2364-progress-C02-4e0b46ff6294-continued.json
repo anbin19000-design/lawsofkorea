@@ -1,0 +1,92 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "panel_id": "panel-02",
+  "pc": "WORK-C",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:4e0b46ff6294",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 20,
+  "checked_ids": [
+    "B2-zh-00141",
+    "B2-zh-00142",
+    "B2-zh-00143",
+    "B2-zh-00144",
+    "B2-zh-00145",
+    "B2-zh-00146",
+    "B2-zh-00147",
+    "B2-zh-00148",
+    "B2-zh-00149",
+    "B2-zh-00150",
+    "B2-zh-00151",
+    "B2-zh-00152",
+    "B2-zh-00153",
+    "B2-zh-00154",
+    "B2-zh-00155",
+    "B2-zh-00156",
+    "B2-zh-00157",
+    "B2-zh-00158",
+    "B2-zh-00159",
+    "B2-zh-00160"
+  ],
+  "edits": [
+    {
+      "id": "B2-zh-00148",
+      "source_hash": "d4d103d3e37771adbbb46411d05494fb1bd3e0332ddee1f3d4d168acbb01195b",
+      "target_id": "b79a5a9caa239cc17af7ce7b5bd9ed5fa03893ba1c713d04698534dd28d8d3f9",
+      "text": "第一条（生效日期）本施行令自公布之日起施行。但是，根据附则第八条修正的总统令中，对本施行令施行前已公布但尚未到施行日期的总统令所作的修正部分，分别自相关总统令的施行日起施行。\n\n省略第2至7条\n\n",
+      "updated": false
+    },
+    {
+      "id": "B2-zh-00152",
+      "source_hash": "b163e81d553cde5627ac20e1aeb6239ab8b96630de9eadd1b8ddf3a0d2102b96",
+      "target_id": "f40c11e71e4a149f0a8bbca03326946d48a6385648c5d3e78f6eb27ad80f1e39",
+      "text": "第二条（修改其他法律）①《国土规划及利用法施行令》部分内容修改如下。\n\n  将第4条第3号中的“《泛在城市建设等相关法律》第2条第3号(c)项”改为“《智慧城市建设及产业振兴等相关法律》第2条第3号(c)项”。\n\n  ②《国土交通部及其所属机关职制》部分内容修改如下。\n\n  将第11条第3款第38号和第39号中的“泛在城市”分别改为“智慧城市”。\n\n",
+      "updated": false
+    },
+    {
+      "id": "B2-zh-00153",
+      "source_hash": "12edec393c5bbeb7ca852ee923759f9d43a4a141b2eddbe9ee05c4fa0d7c3959",
+      "target_id": "95a2e314abf2e870d2a45ce21777f8bde3d05c0491d899e88af6fe7ebb9feb52",
+      "text": "附则（《创新城市建设及发展特别法施行令》）<第28686号，2018年2月27日>\n\n",
+      "updated": true
+    }
+  ],
+  "retained_ids": [
+    "B2-zh-00141",
+    "B2-zh-00142",
+    "B2-zh-00143",
+    "B2-zh-00144",
+    "B2-zh-00145",
+    "B2-zh-00146",
+    "B2-zh-00147",
+    "B2-zh-00149",
+    "B2-zh-00150",
+    "B2-zh-00151",
+    "B2-zh-00154",
+    "B2-zh-00155",
+    "B2-zh-00156",
+    "B2-zh-00157",
+    "B2-zh-00158",
+    "B2-zh-00159",
+    "B2-zh-00160"
+  ],
+  "english_status": "B2 English source is official family fallback version 270111, not a direct version-matched translation of Korean source version 286647. No row-level English matches for these historical supplementary rows; Korean controls.",
+  "prior_master_blob_sha": "70dc95f41dcbc01234e1a636dee9de7a80e931a7",
+  "cumulative_edit_count": 606,
+  "cumulative_checked_unique_ids": 548,
+  "ordered_reading_certification": {
+    "ko": false,
+    "en": false,
+    "zh": false
+  },
+  "next_review": "Continue B2 row 00161 onward; reconcile remaining unreviewed rows and progress evidence before whole-family completion.",
+  "note": "Compared B2 rows 00141-00160. Three source-backed corrections added/updated; other prior verified edits retained. Not a whole-family completion record."
+}
