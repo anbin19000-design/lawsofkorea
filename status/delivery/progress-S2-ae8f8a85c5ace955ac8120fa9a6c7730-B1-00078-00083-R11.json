@@ -1,0 +1,43 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 6,
+  "reviewed_row_ids": [
+    "B1-zh-00078",
+    "B1-zh-00079",
+    "B1-zh-00080",
+    "B1-zh-00081",
+    "B1-zh-00082",
+    "B1-zh-00083"
+  ],
+  "edits": [
+    {
+      "id": "B1-zh-00078",
+      "text": "第五十六条（罚则适用时视为公务员）适用《刑法》第一百二十七条及第一百二十九条至第一百三十二条时，将下列任一人员视为公务员。<2019年11月26日、2021年3月16日修订>\n1. 第二十三条规定的国家智慧城市委员会委员\n2. 第三十四条之二第二款规定的受托业务从业机构、团体的董监事及职员\n3. 第三十五条之二规定的总括规划师\n4. 第五十三条第七款及第五十三条之二第六款规定的受托业务从业机构、团体的董监事及职员\n",
+      "source_hash": "3e5800a8d27492aabf45fc478483f15cb1e887c4acbb2028643168e4c29d0291",
+      "target_id": "ac93327bbca07b55344f4c9144c1a878d56e07cfe6e604bfd429e9ffe0907945"
+    },
+    {
+      "id": "B1-zh-00081",
+      "text": "第二条（制定泛在城市计划的特例）\n① 尽管有第八条第一款但书规定，本法施行时正在实施依附则第四条经国土海洋部长官认定的事业，或为推进泛在城市建设事业而由事业实施者与该事业区域管辖市长、郡守订立协议，并应其请求取得国土海洋部长官认可的，可以不制定第八条规定的泛在城市计划而实施泛在城市建设事业。\n② 拟依第一款实施泛在城市建设事业的，第十三条第二款规定的事业计划批准权人应事先与国土海洋部长官协商（正在实施依附则第四条经国土海洋部长官认可的事业除外）。事业区域管辖市长、郡守在本法施行后首次依据《国土规划及利用法》整备或变更城市基本计划时，应反映该事业计划内容。\n",
+      "source_hash": "3791dab6bb43bc0f0696d72c979a31f9d8ba77496f8762f44b17db6eac5efa8a",
+      "target_id": "c8414fa19563f6c401cd03fb222ebd28b22462213f3c4918ca0b7e0d137449ee"
+    },
+    {
+      "id": "B1-zh-00083",
+      "text": "第四条（泛在城市建设事业的过渡措施）本法施行时，对达到第三条规定规模以上的地区，已经制定包含与第十三条规定的事业计划及第十四条规定的实施计划类似内容的事业计划并实施事业，且应相应事业区域管辖市长、郡守的请求取得国土海洋部长官认可的，该事业视为依本法实施的泛在城市建设事业。\n",
+      "source_hash": "693ba07f42bea56fa5a1cc661db343740581abbd87093c91cb772c03dddc90b9",
+      "target_id": "ecdbf04e7832eb749f16d9fe94ab171c86f914963661be13fa1fc5eb58be8be7"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "note": "B1 78-83 matched Korean. Historical ministry name Ministry of Land Transport and Maritime Affairs preserved, Art 2 provision and Article 3 area threshold, public-official deeming; 79,80,82 unchanged."
+}
