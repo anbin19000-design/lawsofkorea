@@ -1,0 +1,52 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:565baf8fd4b9",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "english_note": "B3 시행규칙 NO_DOCUMENT_ENGLISH; Korean text controls.",
+  "checked_rows": 2,
+  "checked_ids": [
+    "B3-zh-00008",
+    "B3-zh-00009"
+  ],
+  "edits": [
+    {
+      "id": "B3-zh-00008",
+      "source_hash": "1d0cef58e5966630c984436a3a51c990c4a9e250e08f42882f5421dc6262c4c5",
+      "target_id": "7264f243e033511d73da029fa6be7deae909a383677374797056e1f6fdcb8ce2",
+      "text": "第四条之二（规制快速确认申请书等）\n① 依据施行令第五十二条之二第一款的规制快速确认申请书，使用附页第五号之二格式。\n② 依据施行令第五十二条之二第二款的规制快速确认结果通知书，使用附页第五号之三格式。\n\n"
+    },
+    {
+      "id": "B3-zh-00009",
+      "source_hash": "6e8b66aa19e9d195d229a7c5ecc9526a70d347324fed489d9a0b9bbf12094566",
+      "target_id": "3edc8b8ba787ad09e7b5244aa2abb52da76c8f9a5dbe72719504e5f2aa289d4d",
+      "text": "第五条（智慧创新事业计划及智慧实证事业计划延期申请书和延期确认书）\n① 依据施行令第五十四条第三款的智慧创新事业计划延期申请书（包括依据施行令第五十三条准用的智慧实证事业计划延期申请书），使用附页第六号格式。\n② 依据施行令第五十四条第四款的智慧创新事业计划延期确认书（包括依据施行令第五十三条准用的智慧实证事业计划延期确认书），使用附页第七号格式。\n\n"
+    }
+  ],
+  "adjudications": [
+    {
+      "id": "B3-zh-00008",
+      "reason": "한국어 제4조의2는 규제신속확인 신청서와 결과 통지서 두 가지 서식을 명시. 기존 중국어의 신청 동사 서술을 원문과 일치하는 기존 후보의 두 개 서식명으로 복원. 5호의2 및 5호의3 구분 유지.",
+      "prior_file_index": 39
+    },
+    {
+      "id": "B3-zh-00009",
+      "reason": "한국어 제5조는 연장신청서와 연장확인서, 스마트실증사업 준용 및 서식 6·7호를 구별. 기존 후보가 원문의 두 문서 명칭과 제54조 3·4항을 명확히 보존.",
+      "prior_file_index": 39
+    }
+  ],
+  "next_review": "B3-zh-00010 (article 6) and remaining unique unadjudicated cells, then full integrated review",
+  "prior_progress": [
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-8746953b2b45.json",
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-0db64372db7d.json"
+  ],
+  "note": "Re-adjudicated two previously stored correction candidates. No increase in unique row coverage; 17 documents / 1133 Chinese rows remain incomplete. Source unchanged."
+}
