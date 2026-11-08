@@ -1,0 +1,35 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-c2b35f6aceb6477e1107",
+  "worker": "C04",
+  "assignment_marker": "4a0461183c3e",
+  "status": "IN_PROGRESS",
+  "source_blob_shas": {
+    "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
+    "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
+    "zh": "f8879f4a12299069e4831b03f15a2a2fa30c8089"
+  },
+  "document_count": 15,
+  "zh_rows": 1241,
+  "english_reference_rows": 911,
+  "english_without_reference": 330,
+  "previous_unique_edit_count": 218,
+  "added_edit_ids": [
+    "A14110-zh-00006"
+  ],
+  "revised_existing_edit_ids": [
+    "A14110-zh-00001"
+  ],
+  "unique_edit_count_after": 219,
+  "review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
+  "review_commit": "2a7ac685fe1bd7d8ed28d6e70b72b7e0f3e31baf",
+  "evidence": {
+    "A14110_zh_00006": "조리장은 ... 주변 환경이 위생적이며 쾌적한 곳에 위치하여야 하고",
+    "A14110_zh_00001": "■ 학교급식법 시행규칙 [별표 1]"
+  },
+  "full_korean_read_verified": false,
+  "full_english_read_verified": false,
+  "full_chinese_review_verified": false,
+  "complete_receipt": false,
+  "note": "Source-grounded repair to incomplete sanitation location sentence and previous Chinese annex designation; prior source SHA and all edit IDs preserved. Continue same assignment."
+}
