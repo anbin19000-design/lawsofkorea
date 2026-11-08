@@ -2,7 +2,7 @@
   "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-7423351d4946866bbacf",
   "worker": "C01",
-  "checked_rows": 31,
+  "checked_rows": 32,
   "edits": [
     {
       "id": "B1-zh-00065",
@@ -923,10 +923,14 @@
     {
       "id": "A23948-zh-00001",
       "text": "■《水产品流通管理支援法》实施细则[附表2]<2019年7月1日修订>"
+    },
+    {
+      "id": "B1-zh-00022",
+      "text": "第十八条（海产品在拍卖市场等场所的寄售）\n① 鱼市经营者应当从发货人处接收批发水产品。但是，在海洋水产部条例规定的特殊情况下，例如为了稳定水产品价格，经营者可以自行购买并批发水产品。\n② 除海洋水产部条例另有规定外，鱼市经营者不得拒绝或避免接受进港水产品或出售寄售水产品，也不得对交易伙伴进行不公平的歧视性待遇。\n③ 产地批发商不得交易除鱼市经营者列出的水产品以外的其他水产品。但是，根据海洋水产部条例，经市长、县长或区长许可的水产品，例如不适合鱼市经营者列出的进口水产品或远洋水产品，不受此限制。\n④ 产地中间批发商之间不得进行交易。但经市长、县长或区长按照海洋水产部条例规定取得许可的情况除外，例如加工过剩水产品。\n\n"
     }
   ],
   "status": "IN_PROGRESS",
-  "note": "IN_PROGRESS. 230 distinct Korean source-verified Chinese corrections saved, including annex source labels. Full semantic verification across 1207 Chinese rows and all annex/form cell continuity remains unfinished; original SHA unchanged.",
+  "note": "IN_PROGRESS. Existing edits retained; added B1-zh-00022 Art.18(4) correction of prohibited trading parties, directly verified against Korean and exact-version official English. Full semantic verification of 1207 rows and annex/form XML cell continuity not yet complete; no COMPLETE receipt.",
   "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
   "source_sha": {
     "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
