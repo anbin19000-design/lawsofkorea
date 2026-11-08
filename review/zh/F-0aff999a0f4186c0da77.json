@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 345,
+    "correction_count": 351,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -2440,6 +2440,48 @@
       "original": "(仅限已赢取)",
       "corrected": "韩元整）",
       "reason": "별지 예치·지급 관련 서식의 한국어 '성명(대표자)', '금 ... 원 정', '가맹점명'에 대비하여 잔존 영문/잘못된 금액 단위·명칭을 원문에 맞게 교정."
+    },
+    "A34922-zh-00018": {
+      "doc": "A34922",
+      "source_hash": "2089af62344c19c509dcac294d8e601675e4c5dad85bd67516e8463c08452026",
+      "original": "定金 加盟费",
+      "corrected": "托管加盟费",
+      "reason": "한국어 원문 '예치가맹금', '가맹금 예치증서', '지급보류 요청서'에 상응하는 법정 서식명·금전 성격을 복원. 단순 보증금·계약금으로의 오역 수정."
+    },
+    "A34924-zh-00002": {
+      "doc": "A34924",
+      "source_hash": "2089af62344c19c509dcac294d8e601675e4c5dad85bd67516e8463c08452026",
+      "original": "定金 加盟费",
+      "corrected": "托管加盟费",
+      "reason": "한국어 원문 '예치가맹금', '가맹금 예치증서', '지급보류 요청서'에 상응하는 법정 서식명·금전 성격을 복원. 단순 보증금·계약금으로의 오역 수정."
+    },
+    "A34924-zh-00028": {
+      "doc": "A34924",
+      "source_hash": "2089af62344c19c509dcac294d8e601675e4c5dad85bd67516e8463c08452026",
+      "original": "定金 加盟费",
+      "corrected": "托管加盟费",
+      "reason": "한국어 원문 '예치가맹금', '가맹금 예치증서', '지급보류 요청서'에 상응하는 법정 서식명·금전 성격을 복원. 단순 보증금·계약금으로의 오역 수정."
+    },
+    "A34925-zh-00002": {
+      "doc": "A34925",
+      "source_hash": "4c0a818c4970c16a476ee37197107f84d35fc14b4151f7268b20c7d590bdf1e0",
+      "original": "暂停存款支付请求",
+      "corrected": "托管加盟费暂缓支付请求书",
+      "reason": "한국어 원문 '예치가맹금', '가맹금 예치증서', '지급보류 요청서'에 상응하는 법정 서식명·금전 성격을 복원. 단순 보증금·계약금으로의 오역 수정."
+    },
+    "A34925-zh-00026": {
+      "doc": "A34925",
+      "source_hash": "2089af62344c19c509dcac294d8e601675e4c5dad85bd67516e8463c08452026",
+      "original": "定金 加盟费",
+      "corrected": "托管加盟费",
+      "reason": "한국어 원문 '예치가맹금', '가맹금 예치증서', '지급보류 요청서'에 상응하는 법정 서식명·금전 성격을 복원. 단순 보증금·계약금으로의 오역 수정."
+    },
+    "A34923-zh-00002": {
+      "doc": "A34923",
+      "source_hash": "5b7e9c2986cba980362173bec0ac81f81de0db92aa7570c5de33a76824348f2e",
+      "original": "特许经营费押金证明",
+      "corrected": "加盟费托管证明书",
+      "reason": "한국어 원문 '예치가맹금', '가맹금 예치증서', '지급보류 요청서'에 상응하는 법정 서식명·금전 성격을 복원. 단순 보증금·계약금으로의 오역 수정."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -2510,7 +2552,8 @@
     "C05 94852f90eda2: A34921/A34922 Korean-source comparison and 8 confirmed corrections. Full-family Chinese semantic certification still pending.",
     "C05 94852f90eda2: A34923/A34924 source checked; 8 verified corrections; remaining family semantic QA pending.",
     "C05 94852f90eda2: A34925 source checked; 10 source-grounded corrections. Complete family-wide Chinese semantic QA still pending.",
-    "C05 d3c2c0c523fc: exact Korean-source reconciliation of escrow form identity and won-amount expressions; 13 minimal corrections; family semantic QA not COMPLETE."
+    "C05 d3c2c0c523fc: exact Korean-source reconciliation of escrow form identity and won-amount expressions; 13 minimal corrections; family semantic QA not COMPLETE.",
+    "C05 d3c2c0c523fc: 6 additional escrow-deposit legal form-heading corrections; unchanged KO/EN/ZH source blobs and all prior corrections preserved."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -2519,5 +2562,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 345
+  "corrected_rows": 351
 }
