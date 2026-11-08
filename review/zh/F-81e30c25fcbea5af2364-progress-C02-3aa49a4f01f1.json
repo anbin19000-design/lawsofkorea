@@ -45,13 +45,13 @@
     ],
     "previous_edit_texts_preserved": true,
     "pending_high_complexity": [
-      "B2-zh-00117",
-      "A36425 table punishment criteria reconstruction",
-      "A36427 detailed fines table criteria reconstruction",
-      "all unadjudicated original-row Chinese evidence and 343 candidate conflicts"
+      "APPENDIX_A36425_A36427_RECORD_INTEGRITY_RECHECK",
+      "TEN_FORMS_FULL_ROW_REVIEW",
+      "PENDING_SINGLE_CANDIDATES_343_REVIEW",
+      "B2_00117_CROSS_REFERENCE_RECHECK_COMPLETE_BUT_FINAL_VERIFICATION_PENDING"
     ],
-    "current_phase": "ALL_DOCUMENTS_INITIAL_SOURCE_COMPARISON_PERFORMED_RECHECK_PENDING",
-    "corrected_this_task_count": 93,
+    "current_phase": "ALL_DOCUMENTS_INITIAL_READ_AND_CORRECTIONS_RECHECK_UNRESOLVED",
+    "corrected_this_task_count": 110,
     "corrected_this_task_ids": [
       "B2-zh-00008",
       "B2-zh-00189",
@@ -147,12 +147,18 @@
       "A25474-zh-00014",
       "A25474-zh-00015"
     ],
-    "full_family_verified": false
+    "full_family_verified": false,
+    "reading_summary": {
+      "total_source_rows": 1133,
+      "docs": 17,
+      "verified_family_complete": false,
+      "limitations": "Cumulative 467 edits include historical work; full all-row semantic certification and pending candidates unresolved."
+    }
   },
   "cumulative_review": {
     "path": "review/zh/F-81e30c25fcbea5af2364.json",
-    "sha": "4caad02f96d4fb3a294be714f17d1ff055d4957d",
-    "edit_count": 450
+    "sha": "79b6d720a371c7c7b11d270c512f36cf626cb3a9",
+    "edit_count": 467
   },
   "ordered_reading_certification": {
     "ko": true,
@@ -160,5 +166,5 @@
     "zh": false
   },
   "completion_receipt_verified": false,
-  "next_action": "Continue exact verification of complex table cells, 2013 B2 article cross-references and pending candidate judgments; verify all 1133 rows and only then mark COMPLETE and create receipt."
+  "next_action": "Continue exact verification of pending candidate decisions and source-aligned table/fee/form contents; only set COMPLETE and receipt once all 17 documents and 1133 rows are certified."
 }
