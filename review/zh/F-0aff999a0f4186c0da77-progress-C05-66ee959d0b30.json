@@ -1,0 +1,37 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_commit": "82e465c557f3e58028302a89bc5d0a0c0763a739",
+  "prior_corrections_preserved": 408,
+  "cumulative_corrections": 413,
+  "new_corrections": [
+    "B1-zh-00020",
+    "B1-zh-00021",
+    "B1-zh-00023",
+    "B1-zh-00024",
+    "B1-zh-00027"
+  ],
+  "inspected_span": "B1 Articles 12, 12-2, 12-4, 12-5 and 13",
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "chinese_total_rows": 1687,
+  "quality_open_items": [
+    "Full sequential semantic audit of all 1,687 Chinese rows remains incomplete",
+    "A34911 calculation formula requires visual/source-artifact check",
+    "429 rows without linked English require direct Korean/Chinese semantic comparison",
+    "Unreviewed rows across the family remain"
+  ],
+  "note": "Five source-grounded minimal corrections appended to the existing 408; no COMPLETE status or receipt."
+}
