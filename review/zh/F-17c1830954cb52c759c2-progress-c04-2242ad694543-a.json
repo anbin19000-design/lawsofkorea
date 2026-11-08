@@ -60,9 +60,13 @@
     {
       "id": "B2-zh-00026/B2-zh-00027",
       "issue": "依据完整韩文施行令第25条，已补齐委托业务第1至13项及受托主体完整清单，纠正原翻译的法条编号、业务名称及分项错位。"
+    },
+    {
+      "id": "B3-zh-00001/00004/00013",
+      "issue": "纠正施行规则法名、示范运行任务和开发项目实施计划批准条款中的误译及错误法案指称。"
     }
   ],
-  "notes": "Preserves original source blobs and prior reading bookmark. Initial targeted corrections include incomplete Korean-only fragments in B2 Articles 8 and 17, statutory reference errors, the 100/100 state-property fee reduction cap, UAM terminology, appendix criteria and amounts, and MTQ artifacts/processing periods in forms. This is a progress checkpoint, not COMPLETE. Preserved original handoff checkpoint findings. All prior 48 empty correction entries have now been restored to nonempty source-backed fragments; no source row is intentionally deleted. Continued review of the full Decree Article 25, Rule Articles 10/15/17/19/22/23 and annex/form content. Corrected multiple corrupted or mistranslated cross-references, article titles, the delegated-work list and official institution names. Progress remains IN_PROGRESS.",
+  "notes": "Preserves original source blobs and prior reading bookmark. Initial targeted corrections include incomplete Korean-only fragments in B2 Articles 8 and 17, statutory reference errors, the 100/100 state-property fee reduction cap, UAM terminology, appendix criteria and amounts, and MTQ artifacts/processing periods in forms. This is a progress checkpoint, not COMPLETE. Preserved original handoff checkpoint findings. All prior 48 empty correction entries have now been restored to nonempty source-backed fragments; no source row is intentionally deleted. Continued review of the full Decree Article 25, Rule Articles 10/15/17/19/22/23 and annex/form content. Corrected multiple corrupted or mistranslated cross-references, article titles, the delegated-work list and official institution names. Progress remains IN_PROGRESS. Additional targeted review corrected regulation titles and several remaining article references, the inspector certificate number, a stray Vertiport English term and construction-engineer mistranslations. All edits remain source-hash-bound; this is still an IN_PROGRESS checkpoint.",
   "edits": [
     {
       "id": "B1-zh-00001",
@@ -1038,8 +1042,8 @@
     },
     {
       "id": "A39655-zh-00042",
-      "text": "b) 前项a)所述教育训练的讲师。",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "已完成前项a)所述教育训练的讲师。",
+      "reason": "根据韩文原文及上下文修正明显法名、术语、条号或字段误译。",
       "original_source_hash": "0b1f4314db48e4c992acf87ff49c75f191049e0fc75578fa4d83e27505890301"
     },
     {
@@ -1483,7 +1487,7 @@
     {
       "id": "A27049-zh-00044",
       "text": "事业计划书（包括本法第9条第6款各号规定的事项）",
-      "reason": "对照韩文原文纠正条号或补足明显漏译。",
+      "reason": "根据韩文原文及上下文修正明显法名、术语、条号或字段误译。",
       "original_source_hash": "bd756801b2c64a089e11b0169882ee151cfaa4789fae3fe2f70416e49e5ccaeb"
     },
     {
@@ -1519,7 +1523,7 @@
     {
       "id": "A27053-zh-00017",
       "text": "营业场所名称及地址",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "reason": "根据韩文原文及上下文修正明显法名、术语、条号或字段误译。",
       "original_source_hash": "24b96cae30f752ac3235ce6020dcc82b7a63539b402e0d2469e6c60660838c45"
     },
     {
@@ -1615,7 +1619,7 @@
     {
       "id": "A27061-zh-00004",
       "text": "证书编号（Certi. No.）",
-      "reason": "对照韩文原文纠正条号或补足明显漏译。",
+      "reason": "根据韩文原文及上下文修正明显法名、术语、条号或字段误译。",
       "original_source_hash": "8d5daa2251e73c4015cd0197f84191374616b6b9e113ac26de7e649fa915e28d"
     },
     {
@@ -1713,7 +1717,85 @@
       "text": "■《促进和支持城市空中交通利用法施行规则》[附件17]",
       "reason": "根据韩文原文及相关条文修正明显误译、条号、法令名称或不完整内容。",
       "original_source_hash": "fa9e005062935231fd49af106c160a5e6144fd387e40eb9169af28ac2c88453a"
+    },
+    {
+      "id": "B3-zh-00001",
+      "text": "《促进和支持城市空中交通利用法施行规则》",
+      "reason": "根据韩文原文及上下文修正明显法名、术语、条号或字段误译。",
+      "original_source_hash": "42f92a536a79d1a5e477ff1548005b113806915aa3694d2dd774e3773e59894c"
+    },
+    {
+      "id": "B3-zh-00002",
+      "text": "第一条（目的）本规则旨在规定《促进和支持城市空中交通利用法》及同法施行令委任的事项，以及其施行所需事项。",
+      "reason": "根据韩文原文及上下文修正明显法名、术语、条号或字段误译。",
+      "original_source_hash": "19c708b20bdebe0d094a86760a147adacdfa2826eae94a082b2fe55d275b827e"
+    },
+    {
+      "id": "B3-zh-00004",
+      "text": "第三条（示范运行中适用监管特例的业务）施行令第3条第5号所称“国土交通部令规定的业务”，是指下列业务：\n1. 拖曳广告横幅等空中广告；\n2. 摄影、录像、陆地及海上测量或勘探；\n3. 森林、管线、电线等的巡查或观测；\n4. 维护秩序等治安活动；\n5. 依本法第2条第8号d目规定的城市航空器使用业务所执行的业务。",
+      "reason": "根据韩文原文及上下文修正明显法名、术语、条号或字段误译。",
+      "original_source_hash": "175ed030438896fa8d475ab2295016d2b9b99275911ca040b094450f85f862df"
+    },
+    {
+      "id": "B3-zh-00013",
+      "text": "第十二条（制定及批准开发项目实施计划）\n① 本法第9条第6款第4号所称“国土交通部令规定的事项”，是指下列事项：\n1. 表示许可区域的位置图及平面图；\n2. 开工前制定确保拟开发垂直起降场用地所有权或使用权的计划；\n3. 国土交通部长官认为必要并公告的开发项目实施计划相关其他事项。\n② 依本法第9条第2款取得垂直起降场开发项目许可者（以下简称“开发项目经营者”）拟依本法第9条第7款前段申请开发项目实施计划批准时，应向国土交通部长官提交附件6格式的批准申请书，并附具下列文件。申请人为法人时，国土交通部长官应通过《电子政府法》第36条第1款规定的行政信息共同利用确认法人登记事项证明书。\n1. 包括本法第9条第6款各号所列事项的事业计划书；\n2. 国土交通部长官认为批准实施开发项目所需的其他文件。\n③ 除第1款及第2款规定外，开发项目实施计划批准的具体必要事项，由国土交通部长官制定并公告。",
+      "reason": "根据韩文原文及上下文修正明显法名、术语、条号或字段误译。",
+      "original_source_hash": "e56fc4f4fd8266c150308186908d9489ea16e497f3605709683235ec3db106ec"
+    },
+    {
+      "id": "A39656-zh-00040",
+      "text": "在取得竣工确认书前使用垂直起降场",
+      "reason": "根据韩文原文及上下文修正明显法名、术语、条号或字段误译。",
+      "original_source_hash": "5451bb084a0a455e20b71df3ca50b7e6e2d7e1aec1fa152113912c6c57ce7096"
+    },
+    {
+      "id": "A27040-zh-00044",
+      "text": "本法第7条第4款第1号",
+      "reason": "根据韩文原文及上下文修正明显法名、术语、条号或字段误译。",
+      "original_source_hash": "7c9dc7d54a149849866ceb9ca308c6ad7029c0bb32d11b094539d4a071548e36"
+    },
+    {
+      "id": "A27047-zh-00052",
+      "text": "3. 参照适用《促进和支持城市空中交通利用法施行令》第9条第2款。",
+      "reason": "根据韩文原文及上下文修正明显法名、术语、条号或字段误译。",
+      "original_source_hash": "67d6a2d9d8e22fd465356c5dc689aee187b58bc538b91b10e80f909cbd4cff05"
+    },
+    {
+      "id": "A27050-zh-00018",
+      "text": "依据《促进和支持城市空中交通利用法》第9条第10款及同法施行规则第15条第1款，特此申请竣工确认。",
+      "reason": "根据韩文原文及上下文修正明显法名、术语、条号或字段误译。",
+      "original_source_hash": "f76f2d3071dd5fb47d95576fbe6c6f36fa88531cd538c2ea5e3633522bb7c873"
+    },
+    {
+      "id": "A27051-zh-00015",
+      "text": "依据《促进和支持城市空中交通利用法》第9条第11款及同法施行规则第15条第2款，特此发给竣工确认书。",
+      "reason": "根据韩文原文及上下文修正明显法名、术语、条号或字段误译。",
+      "original_source_hash": "eb034e86ba812b56ce31a427bac478e65feb03c340e7638a1251c360a70e7bf8"
+    },
+    {
+      "id": "A27054-zh-00011",
+      "text": "依据《促进和支持城市空中交通利用法》第14条第1款及同法施行规则第19条第3款，特此指定为城市空中交通业务经营者。",
+      "reason": "根据韩文原文及上下文修正明显法名、术语、条号或字段误译。",
+      "original_source_hash": "4334790f601e974f3aa4419a526bc41bf30160d74250625409b97c01896ed4a8"
+    },
+    {
+      "id": "A27056-zh-00027",
+      "text": "依据《促进和支持城市空中交通利用法》第19条第1款、同法施行令第18条第1款及同法施行规则第22条第1款，特此申请监管确认。",
+      "reason": "根据韩文原文及上下文修正明显法名、术语、条号或字段误译。",
+      "original_source_hash": "71d1c86854674470cff4b614424c09d466597489aebc6a1b29fd87b887038ed3"
+    },
+    {
+      "id": "A27041-zh-00018",
+      "text": "建设技术人员",
+      "reason": "根据韩文原文及上下文修正明显法名、术语、条号或字段误译。",
+      "original_source_hash": "4c5be25128e02143411d5f72486b67256c2cace371dedb1cf89106d3e37eadb9"
+    },
+    {
+      "id": "A27041-zh-00023",
+      "text": "建设技术人员",
+      "reason": "根据韩文原文及上下文修正明显法名、术语、条号或字段误译。",
+      "original_source_hash": "4c5be25128e02143411d5f72486b67256c2cace371dedb1cf89106d3e37eadb9"
     }
   ],
-  "corrected_rows": 275
+  "corrected_rows": 288
 }
