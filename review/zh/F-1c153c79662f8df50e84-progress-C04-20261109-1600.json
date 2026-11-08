@@ -19,7 +19,7 @@
   "scope": {
     "documents_total": 34,
     "zh_rows_total": 2925,
-    "rows_reviewed": 1953,
+    "rows_reviewed": 2068,
     "documents_reviewed": [
       "B1: partial review; full semantic pass remains",
       "B2: partial review; full semantic pass remains",
@@ -30,10 +30,11 @@
       "A12195: all 104 rows inspected; terminology, MTQ artifacts, statute reference and form labels corrected where clearly wrong",
       "A12196: all 111 rows inspected; corrected obvious mistranslations in form labels, legal citation, date sequence and MTQ artifacts",
       "A12197: all 95 rows inspected; corrected terminology, form fields, price units, statutory reference and obvious MTQ/fragment errors",
-      "A12198: all 23 rows inspected; corrected all obvious mistranslations in table headings and measurement units"
+      "A12198: all 23 rows inspected; corrected all obvious mistranslations in table headings and measurement units",
+      "A12199: all 145 rows inspected; rebuilt fragmented 3-page field labels and corrected clear mistranslations/MTQ artifacts while preserving table structure and units"
     ],
-    "documents_remaining": 10,
-    "rows_not_yet_reviewed": 972
+    "documents_remaining": 9,
+    "rows_not_yet_reviewed": 827
   },
   "english_availability": {
     "official_full_text_documents": [
@@ -46,8 +47,8 @@
       "B2": "e75241d5a275a1d646bb7c48dc37a31daff529c4"
     }
   },
-  "checked_rows": 1953,
-  "corrected_rows": 1527,
+  "checked_rows": 2068,
+  "corrected_rows": 1672,
   "edits": [
     {
       "id": "B1-zh-00001",
@@ -6156,9 +6157,589 @@
     {
       "id": "A12198-zh-00023",
       "text": "364mm×257mm[胶版纸（80g/㎡）]"
+    },
+    {
+      "id": "A12199-zh-00001",
+      "text": "■ 《房地产价格公示法施行规则》[附表第23号格式]"
+    },
+    {
+      "id": "A12199-zh-00002",
+      "text": "（共3页，第1页）"
+    },
+    {
+      "id": "A12199-zh-00003",
+      "text": "非住宅标准房地产调查事项及价格计算意见书"
+    },
+    {
+      "id": "A12199-zh-00004",
+      "text": "非住宅标准房地产"
+    },
+    {
+      "id": "A12199-zh-00005",
+      "text": "序号："
+    },
+    {
+      "id": "A12199-zh-00006",
+      "text": "调查、计算人员："
+    },
+    {
+      "id": "A12199-zh-00007",
+      "text": "所在地"
+    },
+    {
+      "id": "A12199-zh-00008",
+      "text": "土地"
+    },
+    {
+      "id": "A12199-zh-00009",
+      "text": "土地类别"
+    },
+    {
+      "id": "A12199-zh-00010",
+      "text": "土地面积（㎡）"
+    },
+    {
+      "id": "A12199-zh-00011",
+      "text": "区域"
+    },
+    {
+      "id": "A12199-zh-00012",
+      "text": "因素"
+    },
+    {
+      "id": "A12199-zh-00013",
+      "text": "是否为一体地块"
+    },
+    {
+      "id": "A12199-zh-00014",
+      "text": "周边环境"
+    },
+    {
+      "id": "A12199-zh-00015",
+      "text": "及"
+    },
+    {
+      "id": "A12199-zh-00016",
+      "text": "个别"
+    },
+    {
+      "id": "A12199-zh-00017",
+      "text": "形状"
+    },
+    {
+      "id": "A12199-zh-00018",
+      "text": "高低"
+    },
+    {
+      "id": "A12199-zh-00019",
+      "text": "因素"
+    },
+    {
+      "id": "A12199-zh-00020",
+      "text": "分析"
+    },
+    {
+      "id": "A12199-zh-00021",
+      "text": "方位"
+    },
+    {
+      "id": "A12199-zh-00022",
+      "text": "城市规划及"
+    },
+    {
+      "id": "A12199-zh-00023",
+      "text": "用途地区："
+    },
+    {
+      "id": "A12199-zh-00024",
+      "text": "公共管制"
+    },
+    {
+      "id": "A12199-zh-00025",
+      "text": "用途地区："
+    },
+    {
+      "id": "A12199-zh-00026",
+      "text": "城市规划设施："
+    },
+    {
+      "id": "A12199-zh-00027",
+      "text": "抵触率："
+    },
+    {
+      "id": "A12199-zh-00028",
+      "text": "其他限制："
+    },
+    {
+      "id": "A12199-zh-00029",
+      "text": "道路"
+    },
+    {
+      "id": "A12199-zh-00030",
+      "text": "接面道路"
+    },
+    {
+      "id": "A12199-zh-00031",
+      "text": "主干道距离"
+    },
+    {
+      "id": "A12199-zh-00032",
+      "text": "米"
+    },
+    {
+      "id": "A12199-zh-00033",
+      "text": "建筑物"
+    },
+    {
+      "id": "A12199-zh-00034",
+      "text": "交易类型"
+    },
+    {
+      "id": "A12199-zh-00035",
+      "text": "楼层数"
+    },
+    {
+      "id": "A12199-zh-00036",
+      "text": "地上（"
+    },
+    {
+      "id": "A12199-zh-00037",
+      "text": "）／地下（"
+    },
+    {
+      "id": "A12199-zh-00038",
+      "text": "个别"
+    },
+    {
+      "id": "A12199-zh-00039",
+      "text": "建筑面积"
+    },
+    {
+      "id": "A12199-zh-00040",
+      "text": "总建筑面积"
+    },
+    {
+      "id": "A12199-zh-00041",
+      "text": "分析"
+    },
+    {
+      "id": "A12199-zh-00042",
+      "text": "建筑覆盖率"
+    },
+    {
+      "id": "A12199-zh-00043",
+      "text": "建筑覆盖率"
+    },
+    {
+      "id": "A12199-zh-00044",
+      "text": "使用批准年度"
+    },
+    {
+      "id": "A12199-zh-00045",
+      "text": "容积率"
+    },
+    {
+      "id": "A12199-zh-00046",
+      "text": "主要建筑物结构"
+    },
+    {
+      "id": "A12199-zh-00047",
+      "text": "建筑物用途"
+    },
+    {
+      "id": "A12199-zh-00048",
+      "text": "增建、改建"
+    },
+    {
+      "id": "A12199-zh-00049",
+      "text": "特殊附属设施"
+    },
+    {
+      "id": "A12199-zh-00050",
+      "text": "价格"
+    },
+    {
+      "id": "A12199-zh-00051",
+      "text": "可交易价格"
+    },
+    {
+      "id": "A12199-zh-00052",
+      "text": "韩元"
+    },
+    {
+      "id": "A12199-zh-00053",
+      "text": "评估"
+    },
+    {
+      "id": "A12199-zh-00054",
+      "text": "耐用年限"
+    },
+    {
+      "id": "A12199-zh-00055",
+      "text": "年"
+    },
+    {
+      "id": "A12199-zh-00056",
+      "text": "残值率"
+    },
+    {
+      "id": "A12199-zh-00057",
+      "text": "建筑物价值"
+    },
+    {
+      "id": "A12199-zh-00058",
+      "text": "韩元"
+    },
+    {
+      "id": "A12199-zh-00059",
+      "text": "土地价值"
+    },
+    {
+      "id": "A12199-zh-00060",
+      "text": "总额："
+    },
+    {
+      "id": "A12199-zh-00061",
+      "text": "韩元"
+    },
+    {
+      "id": "A12199-zh-00062",
+      "text": "单价："
+    },
+    {
+      "id": "A12199-zh-00063",
+      "text": "韩元/㎡"
+    },
+    {
+      "id": "A12199-zh-00064",
+      "text": "210mm×297mm[胶版纸（80g/㎡）]"
+    },
+    {
+      "id": "A12199-zh-00065",
+      "text": "（共3页，第2页）"
+    },
+    {
+      "id": "A12199-zh-00066",
+      "text": "按楼层"
+    },
+    {
+      "id": "A12199-zh-00067",
+      "text": "结构"
+    },
+    {
+      "id": "A12199-zh-00068",
+      "text": "楼层"
+    },
+    {
+      "id": "A12199-zh-00069",
+      "text": "主要用途（A）"
+    },
+    {
+      "id": "A12199-zh-00070",
+      "text": "附属用途（B）"
+    },
+    {
+      "id": "A12199-zh-00071",
+      "text": "空中庭院（C）"
+    },
+    {
+      "id": "A12199-zh-00072",
+      "text": "建筑物"
+    },
+    {
+      "id": "A12199-zh-00073",
+      "text": "建筑物"
+    },
+    {
+      "id": "A12199-zh-00074",
+      "text": "面积"
+    },
+    {
+      "id": "A12199-zh-00075",
+      "text": "重置成本"
+    },
+    {
+      "id": "A12199-zh-00076",
+      "text": "适用单价"
+    },
+    {
+      "id": "A12199-zh-00077",
+      "text": "建筑物"
+    },
+    {
+      "id": "A12199-zh-00078",
+      "text": "面积"
+    },
+    {
+      "id": "A12199-zh-00079",
+      "text": "重置成本"
+    },
+    {
+      "id": "A12199-zh-00080",
+      "text": "适用单价"
+    },
+    {
+      "id": "A12199-zh-00081",
+      "text": "面积"
+    },
+    {
+      "id": "A12199-zh-00082",
+      "text": "重置成本"
+    },
+    {
+      "id": "A12199-zh-00083",
+      "text": "适用单价"
+    },
+    {
+      "id": "A12199-zh-00084",
+      "text": "用途"
+    },
+    {
+      "id": "A12199-zh-00085",
+      "text": "结构"
+    },
+    {
+      "id": "A12199-zh-00086",
+      "text": "用途"
+    },
+    {
+      "id": "A12199-zh-00087",
+      "text": "（㎡）"
+    },
+    {
+      "id": "A12199-zh-00088",
+      "text": "（韩元/㎡）"
+    },
+    {
+      "id": "A12199-zh-00089",
+      "text": "（韩元/㎡）"
+    },
+    {
+      "id": "A12199-zh-00090",
+      "text": "（㎡）"
+    },
+    {
+      "id": "A12199-zh-00091",
+      "text": "（韩元/㎡）"
+    },
+    {
+      "id": "A12199-zh-00092",
+      "text": "（韩元/㎡）"
+    },
+    {
+      "id": "A12199-zh-00093",
+      "text": "（㎡）"
+    },
+    {
+      "id": "A12199-zh-00094",
+      "text": "（韩元/㎡）"
+    },
+    {
+      "id": "A12199-zh-00095",
+      "text": "（韩元/㎡）"
+    },
+    {
+      "id": "A12199-zh-00096",
+      "text": "ㆍ"
+    },
+    {
+      "id": "A12199-zh-00097",
+      "text": "重置"
+    },
+    {
+      "id": "A12199-zh-00098",
+      "text": "成本"
+    },
+    {
+      "id": "A12199-zh-00099",
+      "text": "及"
+    },
+    {
+      "id": "A12199-zh-00100",
+      "text": "面积"
+    },
+    {
+      "id": "A12199-zh-00101",
+      "text": "主"
+    },
+    {
+      "id": "A12199-zh-00102",
+      "text": "建筑物"
+    },
+    {
+      "id": "A12199-zh-00103",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00104",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00105",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00106",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00107",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00108",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00109",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00110",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00111",
+      "text": "附"
+    },
+    {
+      "id": "A12199-zh-00112",
+      "text": "属"
+    },
+    {
+      "id": "A12199-zh-00113",
+      "text": "建筑物"
+    },
+    {
+      "id": "A12199-zh-00114",
+      "text": "（1）"
+    },
+    {
+      "id": "A12199-zh-00115",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00116",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00117",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00118",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00119",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00120",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00121",
+      "text": "附"
+    },
+    {
+      "id": "A12199-zh-00122",
+      "text": "属"
+    },
+    {
+      "id": "A12199-zh-00123",
+      "text": "建筑物"
+    },
+    {
+      "id": "A12199-zh-00124",
+      "text": "（2）"
+    },
+    {
+      "id": "A12199-zh-00125",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00126",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00127",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00128",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00129",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00130",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00131",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00132",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00133",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00134",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00135",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00136",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00137",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00138",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00139",
+      "text": "层"
+    },
+    {
+      "id": "A12199-zh-00140",
+      "text": "（共3页，第3页）"
+    },
+    {
+      "id": "A12199-zh-00141",
+      "text": "非住宅"
+    },
+    {
+      "id": "A12199-zh-00142",
+      "text": "标准房地产"
+    },
+    {
+      "id": "A12199-zh-00143",
+      "text": "公告价格"
+    },
+    {
+      "id": "A12199-zh-00144",
+      "text": "价格计算意见"
+    },
+    {
+      "id": "A12199-zh-00145",
+      "text": "其他参考事项"
     }
   ],
   "status": "IN_PROGRESS",
-  "next": "继续按顺序检查A12199至A12207共9份表单；随后补做B1/B2全文语义复核和最终质量检查。",
-  "edits_saved": 1527
+  "next": "继续按顺序检查A12200至A12207共8份表单；随后对B1/B2全文补做语义复核和最终质量检查。",
+  "edits_saved": 1672
 }
