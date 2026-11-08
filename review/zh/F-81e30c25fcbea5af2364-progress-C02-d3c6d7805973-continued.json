@@ -1,0 +1,46 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:d3c6d7805973",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "checkpoint_type": "ADDITIONAL_TARGETED_VERIFIED_TRANSLATION_CORRECTIONS",
+  "checked_ids": [
+    "B1-zh-00005",
+    "B1-zh-00014"
+  ],
+  "checked_rows_new": 2,
+  "edits": [
+    {
+      "id": "B1-zh-00005",
+      "text": "第三条（适用范围）\n① 本法适用于下列各款所列智慧城市建设项目。<2015年12月29日、2017年3月21日、2017年12月26日、2019年4月23日修订>\n1. 根据《土地开发促进法》开展的土地开发项目\n2. 根据《城市发展法》开展的城市发展项目\n3. 根据《创新型城市创建与发展特别法》开展的创新型城市发展项目\n4. 根据《企业城市发展特别法》开展的企业城市发展项目\n5. 根据《关于在灵基公州地区建设多功能行政城市的新行政首都后续措施的特别法》开展的行政城市建设项目\n6. 根据《城市更新促进支援特别法》开展的城市更新项目\n7. 根据其他相关法律法规开展的城市发展项目，以及总统令规定的特别城市、大都会城市、市、县的城市维护、改善等项目\n② 本法适用于除第一款所列项目以外的旨在建设智慧城市基础设施、增强其功能或促进智慧城市服务衔接的项目。但是，第八条关于制定智慧城市规划的规定以及第十四条关于智慧城市建设项目实施计划的规定不适用。<2017年3月21日新增>\n\n",
+      "source_hash": "555d6f62ca830ed727ffa09d7272dd1c9f5e1c800233410e7a064b31595c8a3d",
+      "target_id": "7a330b53eb7c80b1d6874357e77005893fac33a587e46751c9e258c04d331c18",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-d3c6d7805973-continued.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Restore omitted enumeration marker 6, preserving existing translation."
+    },
+    {
+      "id": "B1-zh-00014",
+      "text": "第九条之二（私营部门的建议）\n① 国土交通大臣和智慧城市规划主管部门可以就下列各项项目向私营公司、个人、组织和法人（包括依据《公有机构运营法》设立的公有机构；以下统称“私营公司等”）征集方案。在此情况下，地方政府可以与私营公司等联合提交方案。<2019年11月26日修订>\n1. 智慧城市建设项目\n2. 提供智慧城市服务\n3. 智慧城市技术开发\n4. 总统令规定的其他事项\n② 如果负责制定智慧城市规划的主管机关选择根据第1款提出的项目（以下简称“私人提案项目”），可以根据第8条为该项目制定智慧城市规划，或者根据第11条修改和推进智慧城市规划。\n③ 负责制定智慧城市规划的主管机关可以指定已提出私营部门项目提案的私营公司等作为项目实施单位，但该私营公司等必须符合第十二条规定的项目实施单位的范畴。在这种情况下，第十四条的规定应当比照适用于被指定为项目实施单位的私营公司等。\n④ 国土交通大臣可为私人提出的项目推进工作提供全部或部分必要的费用支持。\n⑤ 私人提案项目的提案方法、选择标准、选择程序和费用支持等必要事项，由总统令规定。\n\n",
+      "source_hash": "faf0315467336256600f1541e49ddb6bb729ec8f9972d6f264c2235ec5db846f",
+      "target_id": "fa079fce532af06dba11ab43353abb331d74e8c9a6fea2995123bc38a0e209ff",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-d3c6d7805973-continued.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Correct Article 9-2 misnumbering and restore omitted paragraph marker ④; preserve all other existing text."
+    }
+  ],
+  "ordered_reading_certification": {
+    "ko": false,
+    "en": false,
+    "zh": false
+  },
+  "notes": "Explicit Korean line and paragraph markers checked. Preserved existing Chinese sentences; full family ordered reading remains uncertified."
+}
