@@ -2215,9 +2215,36 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-76c55431dcf3.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
       "reason": "Decree's Article 12 cross-reference refers to Smart City Act, not Commercial Act; restore paragraph ⑥."
+    },
+    {
+      "id": "B2-zh-00067",
+      "source_hash": "acbb278683ad4739e88dd344d088456456da605d244988b57e519b5a188322c0",
+      "target_id": "e4da86fa845cb3520c2c7cdf845aeb4fa4ab398f595cc8e398c63eaf21cd1fcc",
+      "text": "第52-2条（申请加快监管审查等）\n① 任何打算利用智能创新技术或服务开展业务的人，应当按照本法第49条之2款第1项的规定，申请确认与所述技术或服务相关的许可、批准、认证、核实、授权、登记等（以下简称“许可等”）的必要性，并向国土交通大臣提交国土交通部条例规定的申请表，以及关于所述技术或服务及其利用业务的说明性声明。\n② 国土交通大臣根据本法第49条之2第3款收到主管行政机关负责人关于需要许可等事项的答复（包括未在同条第4款规定的期限内收到主管行政机关负责人答复的情况），大臣应当按照国土交通部条例规定的通知书，将详情告知申请人。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-76c55431dcf3-continued.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Decree Article 52-2 erroneously cites non-existent National Land and Transport Act; Korean refers to parent Smart City Act."
+    },
+    {
+      "id": "B2-zh-00078",
+      "source_hash": "92e2b2e09a502b842dbf085e4bcecb6f526d53dc9c88265b16bc6c690e132cea",
+      "target_id": "289967fd202534269bcec27bfc219e3a1b393cc43b598ab82666d7752e707b19",
+      "text": "第59条（听证）国土交通部长在拟作出下列各款所指的任何处置时，应当举行听证。\n1. 删除<2021.6.15>\n2. 根据本法第52条第5款取消智能创新商业计划的批准\n3. 根据该法第52条第5款撤销智能示范项目计划的批准，该撤销根据该法第50条第2款进行必要修改后适用。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-76c55431dcf3-continued.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Decree Article 59 refers to parent Smart City Act, not a separate Smart Innovation Act."
+    },
+    {
+      "id": "B2-zh-00053",
+      "source_hash": "59e9b026eddceb4386371a8d1350ef4f62073e3a29442401d3927942485b4c22",
+      "target_id": "f4c181cffd5bc406ff67500d99d8511d44f0b92da50d5a46856ffa1629926eb4",
+      "text": "第40条之3（关于汽车租赁业务的特别规定）根据本法第42条之3的规定，拟经营汽车租赁业务的人员的车库面积和营业场所的标准，由国土交通部令规定，并应考虑国家试点城市内租赁车辆的需求以及已建成或计划建成的道路、停车场等交通设施的容量。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-76c55431dcf3-continued.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Correct ministerial ordinance (국토교통부령) mistranslated as provincial ordinance."
     }
   ],
-  "adjudicated_edit_count": 271,
+  "adjudicated_edit_count": 274,
   "pending_single_candidate_count": 350,
   "pending_conflict_count": 0,
   "pending_single_candidates": [
@@ -7507,9 +7534,9 @@
     "Existing stored adjudications and later progress files must be incorporated with source/hash verification before COMPLETE."
   ],
   "integration_progress": {
-    "stage": "C02_KOREAN_VERIFIED_FIVE_EDITS_FULL_SEQUENTIAL_REVIEW_PENDING",
+    "stage": "C02_ADDITIONAL_VERIFIED_MISTRANSLATIONS_COMPLETE_READ_PENDING",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:76c55431dcf3",
-    "note": "Five new source-grounded edits saved; entire-family full reading not yet complete."
+    "note": "Eight verified new corrections this task. Full semantic review pending."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -7797,7 +7824,10 @@
     "B1-zh-00092",
     "B1-zh-00168",
     "B2-zh-00004",
-    "B2-zh-00021"
+    "B2-zh-00021",
+    "B2-zh-00067",
+    "B2-zh-00078",
+    "B2-zh-00053"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
