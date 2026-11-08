@@ -1,0 +1,58 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-3705abbc710de4b867bc",
+  "worker": "C05",
+  "branch": "main",
+  "source_blobs": {
+    "ko": "7974bf81d14f4838ae85d4b3ceea80a2f0e65fed",
+    "zh": "045dd328cd77f3eecd8b6cd485be27f2389773e8"
+  },
+  "document_key": "A25276",
+  "document_source_hash": "bcdd3ea81f96f89443d3477838f86cc6d749bd4b8c466d138d14a19ac6c85e72",
+  "checked_ids": [
+    "A25276-zh-00038",
+    "A25276-zh-00039",
+    "A25276-zh-00041",
+    "A25276-zh-00042",
+    "A25276-zh-00043"
+  ],
+  "checked_rows": 5,
+  "adopted_edits": [
+    {
+      "id": "A25276-zh-00038",
+      "text": "认证机构负责人"
+    },
+    {
+      "id": "A25276-zh-00039",
+      "text": "收"
+    },
+    {
+      "id": "A25276-zh-00041",
+      "text": "1. 营业执照复印件或同等文件（有两家及以上工厂生产同一产品时，"
+    },
+    {
+      "id": "A25276-zh-00042",
+      "text": "手续费"
+    },
+    {
+      "id": "A25276-zh-00043",
+      "text": "应按每家工厂分别附上）"
+    }
+  ],
+  "source_row_hashes": {
+    "A25276-zh-00038": "f9d7109fbadfad13253b41246a9fb2441b0fa1331c966251000505e4d94d53f3",
+    "A25276-zh-00039": "2099cd7f323c38ac89f0ebc4dd140529ccb048fb87aa42935038b81b0325020d",
+    "A25276-zh-00041": "3e655c7cc9e70f7bcab9f11ad77a763cd6388f224beb8380ee2654522b705de0",
+    "A25276-zh-00042": "0313408cdf794fea03a1b1d6758e8ad6cc7c6a9f70b7256de98dafab6a45bf1a",
+    "A25276-zh-00043": "3f591fa266116aab6304b9b34b1fd6ecc5fdbb5018197dd5f4d05c5f8e0f46c0"
+  },
+  "rationale": {
+    "A25276-zh-00038": "인증기관의 장: head of certification institution; retain 认证机构负责人.",
+    "A25276-zh-00039": "귀하: form addressee suffix; paired with preceding institutional head, 收 is conventional form addressee rendering.",
+    "A25276-zh-00041": "사업자등록증 사본 또는 이에 준하는 서류(동일한 제품을 제조하는 공장이 둘: split-cell first part; retains 2+ factories condition completed by next cell.",
+    "A25276-zh-00042": "수수료 table header; use 手续费 consistently with neighboring 시행령 제17조제1항 fee column.",
+    "A25276-zh-00043": "이상인 경우에는 공장별로 첨부합니다): finishes prior split condition and requires per-factory attachments, not factory installation."
+  },
+  "status": "QUALITY_PARTIAL",
+  "note": "New independent quality judgments on five previously staged but unjudged A25276 form candidates. A25276-00040 and -00048 were previously quality-confirmed and are excluded. Does not add new unique 1162-row coverage. Existing review/zh retained IN_PROGRESS; receipt withheld."
+}
