@@ -1,0 +1,51 @@
+{
+  "job_id": "F-5c680578acc95aaaac92",
+  "worker": "C04",
+  "schema": "LAW_ZH_CONFLICT_QUALITY_V1",
+  "status": "RESOLVED",
+  "checked_rows_increment": 0,
+  "corrected_rows_increment": 0,
+  "resolutions": [
+    {
+      "id": "A36990-zh-00015",
+      "source_hash": "ea7f256e05dfeb30933815a95e0f708e630e00370d35c63b8f2824c0d4882db1",
+      "selected_text": "第十九条",
+      "reason": "The Korean adjacent cell is '19조' completing the article reference, not a quantity; explicit 第 reflects article reference."
+    },
+    {
+      "id": "B1-zh-00116",
+      "source_hash": "b2d7304d0c42c8b6f22964674e1ee98c3f6d1c78da748d93e879aee6e84e83bc",
+      "selected_text": "附则 <第21345号，2026年2月19日>\n\n本法自2026年7月1日起施行。\n\n",
+      "reason": "Both candidates have the same commencement date and regulation number; select the previously saved source-preserving version, avoiding duplicate progress."
+    },
+    {
+      "id": "B1-zh-00111",
+      "source_hash": "ebb68b472d950a6fbee2f3055ccfd1036520ec527e914ca987f8cbcfe8d9902e",
+      "selected_text": "第七条（其他法律的修订）①至<18>省略。\n\n  <19> 将《国有财产特别规定限制法》部分修订如下：\n\n  将第六条第一款、同条第三款至第五款，第七条第一款各项以外的部分、同条第二款各项以外的部分、同条第三款、第四款及第六款，第八条第一款、第二款，第九条第一款、第二款，第十条第一款、第二款，第十一条各项以外的部分以及第十三条第一款、第二款中的“企划财政部长”分别改为“财政经济部长”。\n\n  <20>至<626>省略。\n\n",
+      "reason": "The Korean source retains <19> and <20> through <626> omitted; alternative wording expands a range oddly. This candidate preserves the statute amendment targets and omission range."
+    },
+    {
+      "id": "B1-zh-00002",
+      "source_hash": "aa88bd18efa23c14cbaf442aa77d96408b0bffa523dba1ac24cf99c550a4b8b7",
+      "selected_text": "第一条（目的）本法旨在规定国有财产使用费减免等国有财产特别规定及其限制事项，以促进国有财产的妥善管理，从而有助于国家财政的健全运行。\n\n",
+      "reason": "Both candidates convey the purpose; selected form makes the causal construction 국유재산의 적정한 관리를 도모함으로써 explicit."
+    },
+    {
+      "id": "B1-zh-00003",
+      "source_hash": "1436828f9df6452341c60aef24b506ca1dcd25fdc1f582d81c76bcce7f073874",
+      "selected_text": "第二条（定义）本法所称“国有财产特别规定”，是指下列任一情形：\n1. 不依照《国有财产法》第三十二条第一款、第三十四条第一款或第四十七条第一款的规定，减免国有财产使用费、租赁费及其他使用或收益的对价（以下简称“使用费等”）。\n2. 超过《国有财产法》第三十五条第一款或第四十六条第一款规定期限的国有财产使用许可或租赁（以下简称“长期使用许可等”）。\n3. 不依照《国有财产法》第五十五条第一款规定无偿转让国有财产。\n\n",
+      "reason": "Second alternative explicitly preserves 국유재산 사용허가 또는 대부 as use permission or lease and the cited article numbers."
+    },
+    {
+      "id": "B1-zh-00004",
+      "source_hash": "b760a96efdd39eb15a4910555fcb8328051a2f3ec2d88420002d66c4407280b7",
+      "selected_text": "第三条（适用范围）本法不适用于下列任一情形：<2020年1月29日、2022年1月11日修订>\n1. 依照法律，作为向国家捐赠或提供替代设施（包括与此相当的情形）的对价，减免国有财产使用费等、给予长期使用许可等或无偿转让国有财产的情形。\n2. 依照《道路法》《河川法》《小河川整治法》《公有水面管理及填埋法》《渔村及渔港法》或《港口法》，许可占用或使用国有财产，或租赁、无偿转让国有财产的情形。\n\n",
+      "reason": "Second candidate better preserves the Korean enumerated exceptions and parallel structure of 점용허가, 사용허가, 대부, 양여."
+    }
+  ],
+  "source_blobs": {
+    "ko": "81188b51954682ac58f4fc97f20e06ae50da8992",
+    "zh": "7a2b3ae20229648a0e49c4370ae8b66b31acd9f8"
+  },
+  "note": "Resolved 6 previously conflicting corrected-text candidates by Korean original; no duplicates counted and existing files untouched."
+}
