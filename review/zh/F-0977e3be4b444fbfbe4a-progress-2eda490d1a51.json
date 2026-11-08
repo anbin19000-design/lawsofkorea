@@ -17,10 +17,10 @@
   },
   "reading_checkpoint": {
     "required_order": "KO_FULL_EN_FULL_ZH_FULL",
-    "ko": "IN_PROGRESS; sequential full-text reading completed for B1-B3 and forms A21391-A21409 (forms 1-18). Remaining Korean source documents A21410-A21427 (18 forms).",
-    "en": "IN_PROGRESS; retrieved exact-version official English full_text for B1 (44,973 chars; 53 articles) and B2. B1 text read from beginning through Article 14 excerpt; complete sequential reading of both English bodies still required. B3 and all 37 forms have no document-level English source.",
-    "zh": "IN_PROGRESS; initial B1 rows and end-of-family annex rows sampled; no claim of full 1,966-row sequential review yet.",
-    "next_step": "Continue Korean source bodies A21410-A21427 in order. Then finish sequential English full_text reading for B1 and B2 (including remaining tail), then review all 1,966 Chinese rows in order.",
+    "ko": "COMPLETE; read all 40 Korean source documents sequentially: B1-B3 and forms A21391-A21427. Long form A21410 was additionally read in slices across all 29,583 characters.",
+    "en": "COMPLETE; read full_text sequentially for exact-version official English B1 (44,973 chars, 53 articles) and B2 (36,297 chars). English source SHA: B1 3fb4125ebe20d6eb77f20ec953c976185229edd1; B2 53ff816786de057b33a6adcf2abdbf59fa81b08e. B3 and all 37 forms have no document-level English source.",
+    "zh": "IN_PROGRESS; initial B1 rows and terminal annex rows sampled; full sequential review of all 1,966 rows remains.",
+    "next_step": "Review Chinese rows in strict order from B1-zh-00001 through A21427, comparing each to Korean sources and available English; correct only unambiguous errors, retain accurate translations.",
     "english_source_blobs": {
       "B1": "3fb4125ebe20d6eb77f20ec953c976185229edd1",
       "B2": "53ff816786de057b33a6adcf2abdbf59fa81b08e"
@@ -43,6 +43,6 @@
       "reason": "The existing row contains a materially incorrect description of the 15-year limitation (the source does not say 15 years from filing where a final judgment remains outstanding in the manner rendered). Re-aligned with the Korean source text."
     }
   ],
-  "note": "Checkpoint updated after Korean source reading through A21409 and retrieval/initial sequential reading of exact-version official English documents. Earlier findings retained. No COMPLETE status or official receipt asserted.",
+  "note": "Korean source reading and available English full-text reading are complete for the frozen source hashes. Chinese full-family review is not complete. Earlier findings retained; do not mark COMPLETE.",
   "progress_marker": "2eda490d1a51"
 }
