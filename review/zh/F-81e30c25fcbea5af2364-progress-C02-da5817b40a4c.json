@@ -1,0 +1,84 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:da5817b40a4c",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "english_status": "A25467 NO_DOCUMENT_ENGLISH; Korean original controls",
+  "checked_rows": 4,
+  "checked_ids": [
+    "A25467-zh-00022",
+    "A25467-zh-00023",
+    "A25467-zh-00024",
+    "A25467-zh-00025"
+  ],
+  "edits": [
+    {
+      "id": "A25467-zh-00022",
+      "text": "依据《智慧城市建设及产业振兴等相关法律》第四十九条第七款、该法施行令第五十二条第六款及该法施行规则第四条",
+      "source_hash": "91f7654c3f3a3ecae7399ffb5a519209d05289e7fb403fc5a764e567dfa5c984",
+      "target_id": "XML:1802800"
+    },
+    {
+      "id": "A25467-zh-00023",
+      "text": "第二款，现按上述内容签发[",
+      "source_hash": "0812242d9d876ba8331005d787372d2f55fe4c4a8fbbbd96e8ef5981293c9a1b",
+      "target_id": "XML:1802801"
+    },
+    {
+      "id": "A25467-zh-00024",
+      "text": "]智慧创新事业[",
+      "source_hash": "62ee9a8cce92e5f57d502b9c27547d49eb477a95b2c77b6067f044b2aa948940",
+      "target_id": "XML:1802802"
+    },
+    {
+      "id": "A25467-zh-00025",
+      "text": "]智慧实证事业批准确认书。",
+      "source_hash": "7c3cc1ec3428cd98a7da8229625fdca44a15cfc76623a274a757fa5397778aa8",
+      "target_id": "XML:1802803"
+    }
+  ],
+  "checked_details": [
+    {
+      "id": "A25467-zh-00022",
+      "verdict": "RECONFIRM_PRIOR_CANDIDATE",
+      "reason": "법 제49조제7항·시행령 제52조제6항·시행규칙 제4조제2항 인용을 한국어 원문과 비교해 기저장 후보 채택"
+    },
+    {
+      "ids": [
+        "A25467-zh-00023",
+        "A25467-zh-00024",
+        "A25467-zh-00025"
+      ],
+      "verdict": "CORRECT_SPLIT_CELL_CONTINUITY",
+      "reason": "한국어 '제4조제2항에 따라 위와 같이 [ ] 스마트혁신사업 [ ] 스마트실증사업 승인 확인서를 발급합니다'를 분할된 3개 셀에서 순서대로 하나의 문장으로 복원. 기저장 00023 완성 후보와 00024 후보를 동시에 사용할 경우 중복 발생하므로 분할 후보 신규 판정"
+    }
+  ],
+  "continuity_check": {
+    "ids": [
+      "A25467-zh-00022",
+      "A25467-zh-00023",
+      "A25467-zh-00024",
+      "A25467-zh-00025"
+    ],
+    "combined_text": "依据《智慧城市建设及产业振兴等相关法律》第四十九条第七款、该法施行令第五十二条第六款及该法施行规则第四条第二款，现按上述内容签发[]智慧创新事业[]智慧实证事业批准确认书。",
+    "law_citations": [
+      "제49조제7항",
+      "시행령 제52조제6항",
+      "시행규칙 제4조제2항"
+    ],
+    "check": "two project checkbox choices and one issuance of confirmation certificate"
+  },
+  "previous_progress": [
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-34fa8ae3de70.json"
+  ],
+  "next_review": "A25467-zh-00026~00031, followed by A25468 and other unresolved annex/form rows",
+  "note": "Three newly adjudicated split-cell formulations plus one previously stored candidate; complete 17-document review not certified. Original texts/IDs/hashes retained, no COMPLETE receipt."
+}
