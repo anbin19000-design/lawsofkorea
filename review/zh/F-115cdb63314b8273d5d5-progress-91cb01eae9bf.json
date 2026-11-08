@@ -32,7 +32,7 @@
     "verified_row_count": 0
   },
   "edits": [],
-  "note": "Korean Road Act main operative provisions through Article 118 read. Continue at supplementary provisions of the same B1 document before moving to decree and annexes. English then Chinese only after all 61 KO documents semantically read.",
+  "note": "Korean Road Act B1 all 2093 lines including full supplementary provisions read; next B2 Enforcement Decree. KO family 1/61 documents completed. No EN/ZH review yet.",
   "ko_structural_traversal": {
     "status": "COMPLETE",
     "document_count": 61,
@@ -667,14 +667,27 @@
     }
   ],
   "ko_reading_position": {
-    "document_index": 1,
-    "document_key": "B1",
-    "document_title": "도로법",
-    "fully_read_articles": "제1조~제118조 (가지 조문 포함)",
-    "section": "부칙 제12248호(2014.1.14.)",
-    "supplementary_read_through": "2018.12.18 대도시권 광역교통 관리에 관한 특별법 연계 개정 제3조제2항",
-    "next_line_index_zero_based": 1850,
-    "full_read_completed": false,
-    "notes": "2014 supplementary Article 24 other-law amendments 1-126 and Article 25 reviewed, then subsequent amendments through 2018.12.18 metropolitan transport act cross-reference. Remaining supplementary text starts at line index 1850."
-  }
+    "document_index": 2,
+    "document_key": "B2",
+    "document_title": "도로법 시행령",
+    "next_article": "제1조",
+    "previous_document": {
+      "key": "B1",
+      "title": "도로법",
+      "status": "KO_FULL_READ",
+      "total_lines": 2093,
+      "body_articles": "제1조~제118조 (가지 조문 포함)",
+      "supplementary_read_through": "2025.12.2 법률 제21172호 부칙",
+      "notes": "2014 full revision and subsequent supplementary amendment provisions including 2031-12-31 road ledger transitional deadline and effective dates checked"
+    },
+    "full_read_completed": false
+  },
+  "ko_completed_documents": [
+    {
+      "key": "B1",
+      "title": "도로법",
+      "status": "READ_COMPLETE",
+      "source_hash": "20c5a846268eb2892ebfbe5f99b1e58bdbff9f04c72c03f5644a7d7b4722fd9e"
+    }
+  ]
 }
