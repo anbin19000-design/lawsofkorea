@@ -1,0 +1,31 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-c2b35f6aceb6477e1107",
+  "worker": "C04",
+  "assignment_marker": "65eeacee3f53",
+  "status": "IN_PROGRESS",
+  "original_blob_shas": {
+    "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
+    "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
+    "zh": "f8879f4a12299069e4831b03f15a2a2fa30c8089"
+  },
+  "document_count": 15,
+  "chinese_total_rows": 1241,
+  "english_reference_rows": 911,
+  "english_reference_missing_rows": 330,
+  "previous_edit_count": 160,
+  "new_edit_ids": [
+    "A14116-zh-00007",
+    "A14117-zh-00030",
+    "A14118-zh-00024",
+    "A14118-zh-00035"
+  ],
+  "total_edit_count": 164,
+  "review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
+  "review_commit": "6fce91b9fb93fe2395d049ad98397b2957d569cf",
+  "full_korean_read_verified": false,
+  "full_english_read_verified": false,
+  "full_chinese_review_verified": false,
+  "completion_receipt_issued": false,
+  "note": "Korean, English, Chinese source blobs unmodified. Four source-checked corrections to inspection/sampling form text. 164 is edit count, not verified row coverage. Continue full-family task."
+}
