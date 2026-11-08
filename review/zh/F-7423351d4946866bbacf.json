@@ -2,7 +2,7 @@
   "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-7423351d4946866bbacf",
   "worker": "C01",
-  "checked_rows": 67,
+  "checked_rows": 70,
   "edits": [
     {
       "id": "B1-zh-00065",
@@ -1067,10 +1067,22 @@
     {
       "id": "B2-zh-00007",
       "text": "第六条（成员的解职等）\n① 海洋水产大臣可根据第5条第3款第1项的规定，对符合下列任何一项的成员进行除名。<2024年4月30日修订>\n1. 若因身体或精神疲惫等原因无法长时间履行职责，\n2. 如发生与公务相关的渎职行为\n3. 若成员因玩忽职守、名誉受损或其他原因被认为不合适，\n4. 当协议会委员表示难以履行其职责时\n② 依据第五条第三款第二项或第三项指定成员的人，如该成员符合第一款任何一项的规定，可以撤销对该成员的指定。<2024年4月30日修订>\n\n"
+    },
+    {
+      "id": "B1-zh-00034",
+      "text": "第29条（可追溯性管理数据的提交）\n① 海洋水产大臣可要求生产、分销或销售受可追溯性管理约束的渔业产品的人员提交渔业产品的生产、入库和出库以及其他可追溯性管理目的所需的数据。\n② 任何生产、分销或销售受可追溯性管理约束的渔业产品的人员，除有正当理由外，应当遵守第 1 款规定的提交数据的要求。\n③ 根据第1款规定提交数据的范围、方法、程序等事项，由海洋水产部条例规定。\n\n"
+    },
+    {
+      "id": "B1-zh-00035",
+      "text": "第30条（追溯管理等目的的登记注销）\n① 海洋水产大臣可以取消根据第27条注册的人员的注册，或者责令禁止其使用溯源管理标志，期限不超过六个月，如果该人员符合下列任何一项情形。但是，如果符合第1项或第2项情形，则必须取消其注册。\n1. 如果注册是通过虚假或其他欺诈手段获得的，则\n2. 如果违反禁止显示可追溯性管理信息的命令进行显示，则\n3. 如果未根据第27条第3款提交注册变更报告，则\n4. 如违反第27条第4款规定的标记方法，\n5. 未按照第27条第5款规定记录并保存入库、出库及管理内容的情况\n6. 若无正当理由拒绝提交材料请求，违反第29条第2款\n② 根据第1款规定，取消登记和禁止展示的标准、程序等具体事项，由海洋水产部条例规定。\n\n"
+    },
+    {
+      "id": "B2-zh-00002",
+      "text": "第一条（目的）本法令的目的是规定《水产品流通管理及支援法》所委托的事项以及为实施该法所必需的事项。\n\n"
     }
   ],
   "status": "IN_PROGRESS",
-  "note": "IN_PROGRESS. 266 unique rows corrected. Existing B2 Art 5 and Art 8 corrections extended to preserve statutory identity '수산물유통발전협의회' (协议会, not board of directors/committee); B2 Art 6 member expression aligned. All prior unique edits and original source SHA retained. Full 1207-row, annex/form XML cell comparison not complete; no COMPLETE receipt.",
+  "note": "IN_PROGRESS. 269 distinct corrected rows. B1 Arts 29 and 30 distinguish incoming/outgoing inventory records; B2 Art 1 law title corrected. All prior edits and source SHAs preserved. Independent English for B1/B2 available, rule and rule-annex/form documents lack English. Full Chinese 1207-row legal meaning verification and XML cell continuity not complete; no COMPLETE receipt.",
   "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
   "source_sha": {
     "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
