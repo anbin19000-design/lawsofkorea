@@ -1,0 +1,55 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "B2",
+  "quality_batch": "B2-quality-07",
+  "range": {
+    "first": "B2-zh-00028",
+    "last": "B2-zh-00030"
+  },
+  "quality_checked_rows": 3,
+  "quality_passed_rows": 3,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "B2-zh-00028",
+    "B2-zh-00029",
+    "B2-zh-00030"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-00028-00033.json",
+  "prior_quality_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-quality-06.json",
+  "results": [
+    {
+      "id": "B2-zh-00028",
+      "source_hash": "28b96d4e96301b72187704d32551e733bdfdc8803f1cc3bc6faef615ae81abd9",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "한국어 제27조의 법 제47조제2항, 양성평등기본법 제46조의2제1항, 한국여성인권진흥원, 위탁업무 3개와 2025.10.1 개정 표시 일치."
+    },
+    {
+      "id": "B2-zh-00029",
+      "source_hash": "10ab572a1082b0032866ed575f345131af999aeed54d44b1a271d256437b538d",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "제28조 제1~3항의 고유식별정보 및 건강정보, 제1항 10개·제2항 5개·제3항 2개 업무, 인용 조항과 제한조건 일치. 기존 누락 항목 복원 유지."
+    },
+    {
+      "id": "B2-zh-00030",
+      "source_hash": "35359e3bc3ae4dca082e84bd0411346bc675a01beea18aa3cffaf3fc0dc38344",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "제29조 2023.1.1 기산 3년 주기와 법령 재검토 의무, 제23조제1항·별표3 및 제24조·별표4 인용을 보존함."
+    }
+  ],
+  "edits": [],
+  "note": "B2 교정 28~30의 원문·인용·항목 수 품질 확인. 기저장 수정 없음; 가족 전체 최종 품질 미완료."
+}
