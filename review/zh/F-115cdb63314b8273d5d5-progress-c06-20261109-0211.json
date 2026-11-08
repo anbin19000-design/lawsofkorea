@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 1200,
+    "verified_zh_rows": 1260,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 1200,
-      "checked_rows": 1200,
+      "next_row_zero_based": 1260,
+      "checked_rows": 1260,
       "total_rows": 5228
     }
   },
@@ -1291,9 +1291,81 @@
       "text": "3. 加油站、氢燃料汽车充电设施、停车场、客运汽车站、货运站、汽车修理厂、站台、货物堆放场、休息区等类似设施，以及供其使用的进出通道",
       "original_text": "3. 加油站 · 编号",
       "reason": "第三类占用物类别名称严重残缺并混入错误词"
+    },
+    {
+      "id": "A28847-zh-00252",
+      "text": "公交车票销售亭、修鞋摊",
+      "original_text": "公交车售票亭，鞋子",
+      "reason": "구두수선대를 단순 ‘鞋子’로 누락 번역"
+    },
+    {
+      "id": "A28847-zh-00257",
+      "text": "修鞋摊",
+      "original_text": "维修支架",
+      "reason": "구두수선대를 수리용 받침대로 오역"
+    },
+    {
+      "id": "A28847-zh-00274",
+      "text": "9. 设置在高架道路路面下方的办公室、商店、仓库、",
+      "original_text": "9. 立交桥路面下方安装的办公室、商店和窗户",
+      "reason": "창고를 창문으로 오역"
+    },
+    {
+      "id": "A28847-zh-00278",
+      "text": "汽车停车场、广场、公园及其他类似设施",
+      "original_text": "高中、汽车停车场、广场、公园和其他类似场所",
+      "reason": "시설 목록에 원문에 없는 ‘高中’ 삽입"
+    },
+    {
+      "id": "A28847-zh-00280",
+      "text": "（不包括经营或存放油类、燃气等易燃物质的办公室、商店、仓库等）",
+      "original_text": "thing（办公室工作，处理易燃物质，例如石油和天然气）",
+      "reason": "인화성 물질 취급 시설 제외 단서를 심하게 오역"
+    },
+    {
+      "id": "A28847-zh-00282",
+      "text": "10. 为安装第一号至第九号规定的构筑物、物件及设施而临时设置的施工场地等，以及供其使用的进出通道",
+      "original_text": "10. 根据第1至9条规定建造的建筑物和建筑物",
+      "reason": "임시 공사장 및 출입로 범주를 건축물로 오역"
+    },
+    {
+      "id": "A28847-zh-00289",
+      "text": "",
+      "original_text": "入口 MTQb52771adce86f6ae01778结束",
+      "reason": "표 셀에 잔존한 MTQ 토큰 및 중복 템플릿 문자열 제거"
+    },
+    {
+      "id": "A28847-zh-00290",
+      "text": "11. 第一号至第十号规定以外的构筑物、物件及设施",
+      "original_text": "11. 从第 1 号到第 10 号",
+      "reason": "제1호부터 제10호까지에서 규정한 것 외의 항목을 ‘1~10호’로 오역"
+    },
+    {
+      "id": "A28847-zh-00296",
+      "text": "以及渔获物委托销售设施",
+      "original_text": "和寄售渔获物",
+      "reason": "어획물 위탁판매를 위탁 어획물로 오역"
+    },
+    {
+      "id": "A28847-zh-00305",
+      "text": "1. 所在地中的“甲地”指特别市，“乙地”指广域市（不包括邑、面地区），“丙地”指其他地区。",
+      "original_text": "1. 其中，“甲地”指特别市，“乙地”指广域市（不包括邑和面地区），“秉地”指其他地区。",
+      "reason": "병지를 ‘秉地’로 오기"
+    },
+    {
+      "id": "A28847-zh-00307",
+      "text": "2. 土地价格是指与道路占用部分相邻的土地（不包括道路用地）依照《房地产价格公示法》确定的个别公告地价。",
+      "original_text": "2. 土地价格为道路占用部分相邻土地（不包括道路用地）的“房地产价格公开公告法”规定的价格。",
+      "reason": "법령명과 개별공시지가의 법률상 개념 오역"
+    },
+    {
+      "id": "A28847-zh-00308",
+      "text": "在此情况下，如相邻土地（不包括道路用地）有两宗以上，则应按各相邻部分的比例计算加权平均价格。",
+      "original_text": "该价格应为根据“税率”官方评估的个别土地价格。在这种情况下，指道路占用部分相邻的土地（不包括道路用地本身）。",
+      "reason": "개별공시지가를 세율로 오역하고 가중평균 산정 문장을 누락"
     }
   ],
-  "note": "Sequential Chinese review continued through original row 1199 of Annex 3 fee table. Added nine focused corrections to temporary signboard category, private directional sign terminology, protruding signboard, banner use for memorial/religious events, arch spanning roadway, and severely truncated third occupancy category. Previous 181 edits retained. Continue from row 1200. IN_PROGRESS.",
+  "note": "Sequential Chinese review continued through original row 1259 of Annex 3. Added twelve focused corrections to shoe-repair stand, warehouse vs window, omitted/extraneous category items, inflammable-material exclusion, temporary construction site, residual MTQ, category 11 scope, consignment sale of fishery products, 丙地 label, official land-price statute and weighted-average formula. Previous 190 edits retained. Continue from row 1260. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
