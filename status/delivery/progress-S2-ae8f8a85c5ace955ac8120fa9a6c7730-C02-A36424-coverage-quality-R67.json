@@ -1,0 +1,43 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 0,
+  "checked_ids": [],
+  "edits": [],
+  "status": "IN_PROGRESS",
+  "quality_audit": {
+    "document": "A36424",
+    "total_source_rows": 31,
+    "previously_covered_rows": 31,
+    "prior_record_groups": [
+      {
+        "name": "original A36424 fragment",
+        "rows": 9
+      },
+      {
+        "name": "R54",
+        "rows": 16
+      },
+      {
+        "name": "R66",
+        "rows": 6
+      }
+    ],
+    "first_unconfirmed_row": null,
+    "flagged_existing_edit": {
+      "id": "A36424-zh-00022",
+      "existing_text": "甲. 应当拥有或租赁用于智慧城市服务支持业务的独立办公室（建筑面积45",
+      "ko_term": "바닥 면적",
+      "issue": "建筑面积 may not denote floor area; verify terminology before final compilation. No overwrite or conflicting correction was made."
+    }
+  },
+  "note": "R67 focused carryover audit: cross-checked all 31 A36424 row IDs against the older 9-row annex fragment, R54 16 checked IDs and R66 6 checked IDs. Union covers 31/31 without gaps. All pre-existing decisions retained. Zero NEW checked rows or edits; do not count as 31 additional family-wide rows. Adjacent Korean table cells confirm numerical conditions, but existing row 22 floor-area term requires focused semantic review prior to final consolidation. No COMPLETE declaration or receipt."
+}
