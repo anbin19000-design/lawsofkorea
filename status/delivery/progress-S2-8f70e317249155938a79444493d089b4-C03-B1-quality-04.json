@@ -1,0 +1,88 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "B1",
+  "quality_batch": "B1-quality-04",
+  "range": {
+    "first": "B1-zh-00016",
+    "last": "B1-zh-00022"
+  },
+  "quality_checked_rows": 3,
+  "quality_new_ids": [
+    "B1-zh-00021",
+    "B1-zh-00022"
+  ],
+  "quality_rechecked_ids": [
+    "B1-zh-00016"
+  ],
+  "quality_passed_rows": 3,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "B1-zh-00016",
+    "B1-zh-00021",
+    "B1-zh-00022"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00021-00025.json",
+  "prior_progress_blob_sha": "b67e79aa45ebff4ac9631fa29970e46999754644",
+  "adopted_correction_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00016-final-00016.json",
+  "adopted_correction_blob_sha": "275ecabdedafbf7159b540aeddf3d2d66607810d",
+  "results": [
+    {
+      "id": "B1-zh-00016",
+      "source_hash": "7123dba81c06014bd7641436ed676f96fa275c013eff84dbf36d918a75dd2e55",
+      "source_span": {
+        "start": 5564,
+        "end": 6099
+      },
+      "candidate_from": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00016-final-00016.json",
+      "verdict": "PASS",
+      "source_span_verified": true,
+      "source_hash_matches_original_row": true,
+      "mtq_marker_present": false,
+      "start_marker_present": false,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Final adopted wording uses 授权 for Korean 위임 under Article 14(4), rather than prior 委托; delegated function and central victim rights institution remain intact. Paragraphs 1–5, ministerial powers, Article 15 and 21(2) references, and Immigration Control Act Articles 25-2 and 46-2 remain correct."
+    },
+    {
+      "id": "B1-zh-00021",
+      "source_hash": "c9cef83dad3dd4289d7218c4e1386ebfd885656131eb518fbf95af380f7804c3",
+      "source_span": {
+        "start": 7882,
+        "end": 8145
+      },
+      "candidate_from": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00021-00025.json",
+      "verdict": "PASS",
+      "source_span_verified": true,
+      "source_hash_matches_original_row": true,
+      "mtq_marker_present": false,
+      "start_marker_present": false,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Korean Article 19(1) imposes careful consideration of crime victim age, mental state and aftereffects/disability on investigative bodies, courts and litigation participants; Article 19(2) obligates investigative bodies and courts to enable comfortable statements and minimize proceedings. Both duties and subjects preserved in candidate."
+    },
+    {
+      "id": "B1-zh-00022",
+      "source_hash": "8bc7f52351b464a7e7717d0422c2145f468b4646302131928bc7480a3de19ea7",
+      "source_span": {
+        "start": 8145,
+        "end": 8477
+      },
+      "candidate_from": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00021-00025.json",
+      "verdict": "PASS",
+      "source_span_verified": true,
+      "source_hash_matches_original_row": true,
+      "mtq_marker_present": false,
+      "start_marker_present": false,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Korean Article 20(1) permits non-public hearings by decision to protect privacy; (2) gives subpoenaed victim/family right to apply; (3) permits presiding judge decision on permission, publicity, manner/place; (4) applies Court Organization Act Article 57(2)-(3) and Military Court Act Article 67(2)-(3). All preserved including Chapter 4 heading."
+    }
+  ],
+  "edits": [],
+  "note": "Two new quality determinations on B1 rows 21-22 and recheck of previously failed B1 row 16 after final corrected adoption. No duplicate progress counted for row 16. Prior quality 01–03 preserved, family remains IN_PROGRESS."
+}
