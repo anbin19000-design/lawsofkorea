@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 2700,
+    "verified_zh_rows": 2760,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 2700,
-      "checked_rows": 2700,
+      "next_row_zero_based": 2760,
+      "checked_rows": 2760,
       "total_rows": 5228
     }
   },
@@ -3583,9 +3583,99 @@
       "text": "收件人：",
       "original_text": "至：",
       "reason": "귀하를‘至’로 직译"
+    },
+    {
+      "id": "A4685-zh-00043",
+      "text": "购买申请人",
+      "original_text": "购买索赔人",
+      "reason": "매수청구인을 구매청구인으로 오역"
+    },
+    {
+      "id": "A4685-zh-00049",
+      "text": "承办公务员核查事项",
+      "original_text": "负责人",
+      "reason": "담당 공무원 확인사항을 책임자로 오역"
+    },
+    {
+      "id": "A4685-zh-00050",
+      "text": "土地利用计划确认书",
+      "original_text": "土地利用规划确认",
+      "reason": "토지이용계획확인서의 서류명 누락"
+    },
+    {
+      "id": "A4685-zh-00051",
+      "text": "手续费",
+      "original_text": "费用",
+      "reason": "수수료 항목 표기 정정"
+    },
+    {
+      "id": "A4685-zh-00052",
+      "text": "核查事项",
+      "original_text": "待验证项",
+      "reason": "담당 공무원의 확인사항을 미검증 항목으로 오역"
+    },
+    {
+      "id": "A4685-zh-00053",
+      "text": "土地（林地）登记簿",
+      "original_text": "土地（森林）登记册",
+      "reason": "토지(임야)대장의 법률상 명칭 정정"
+    },
+    {
+      "id": "A4685-zh-00054",
+      "text": "无",
+      "original_text": "否",
+      "reason": "수수료 없음 표시를 부정응답으로 오역"
+    },
+    {
+      "id": "A4685-zh-00057",
+      "text": "填写申请书",
+      "original_text": "发票准备",
+      "reason": "청구서 작성을 송장 준비로 오역"
+    },
+    {
+      "id": "A4685-zh-00058",
+      "text": "受理",
+      "original_text": "收据",
+      "reason": "접수를 영수증으로 오역"
+    },
+    {
+      "id": "A4685-zh-00062",
+      "text": "购买申请人",
+      "original_text": "购买索赔人",
+      "reason": "매수청구인 용어 오역"
+    },
+    {
+      "id": "A4685-zh-00065",
+      "text": "收件人：",
+      "original_text": "至",
+      "reason": "귀하를‘至’로 직译"
+    },
+    {
+      "id": "A4686-zh-00001",
+      "text": "■ 《道路法施行规则》[附表第二十一号格式] <2025年12月26日修订>",
+      "original_text": "■ 道路交通法执行规则 [附件表格编号 21] <2025 年 12 月 26 日修订>",
+      "reason": "도로법 시행규칙을 도로교통법 시행규칙으로 오역"
+    },
+    {
+      "id": "A4686-zh-00012",
+      "text": "地块数",
+      "original_text": "包裹数量",
+      "reason": "필지 수를 소포 수로 오역"
+    },
+    {
+      "id": "A4686-zh-00016",
+      "text": "依据《道路法》第四十三条第二款、《道路法施行令》第四十四条第二款及《道路法施行规则》第二十条，",
+      "original_text": "根据《道路法》第43条第2款、《道路法》实施令第44条第2款和《道路法实施细则》第20条的规定，上述",
+      "reason": "道路法施行令、施行规则法令名错误"
+    },
+    {
+      "id": "A4686-zh-00017",
+      "text": "现通知缴纳购买对象土地的评估费用。",
+      "original_text": "兹通知您，已支付待购土地的评估费。",
+      "reason": "납부고지를 이미 납부한 것으로 오역"
     }
   ],
-  "note": "Sequential Chinese review continued through original row 2699, reviewing annual roadside-zone status report and land purchase claim form. Added focused corrections to road categories and lane thresholds, form completion heading, land purchase form title and 2-month handling period, claimant, parcel number, land category, right content, statutory citations and application statement; removed residual MTQ. Previous 554 edits retained. Continue from row 2700. IN_PROGRESS.",
+  "note": "Sequential Chinese review continued through original row 2759, completing land purchase application and reviewing appraisal fee payment notice forms. Added fifteen focused corrections to claimant, verification clerk, land-use plan confirmation, land/forest register, fee-none label, application/receipt workflow, parcel count, statutory decree/rule names and notice to pay appraisal fees (not already paid). Previous 572 edits retained. Continue from row 2760. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
