@@ -21,8 +21,8 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 23,
-    "pending_rows": 1664,
+    "correction_count": 26,
+    "pending_rows": 1661,
     "by_document": {}
   },
   "corrections": {
@@ -186,6 +186,27 @@
       "original": "第一条（生效日期）本法令自2008年2月4日起生效。但第五条至第六条至第五条第八条的修订规定自本法令生效之日起六个月后生效。\n\n",
       "corrected": "第一条（生效日期）本法令自2008年2月4日起生效。但第五条之六至第五条之八的修订规定自本法令生效之日起六个月后生效。\n\n",
       "reason": "부칙 시행일의 제5조의6부터 제5조의8까지를 중첩된 조문 범위로 오역한 인용 교정."
+    },
+    "A34909-zh-00011": {
+      "doc": "A34909",
+      "source_hash": "541ad0d106f9645c86878ad0d5145fd2873dc8e06329d6b2fa4aac0727ce508f",
+      "original": "自提供 START 文件之日起 14 天（如已收到律师或特许经营顾问的建议，则为 7 天）",
+      "corrected": "自收到信息披露声明之日起14天（如已接受律师或特许经营交易专家的咨询，则为7天）",
+      "reason": "정보공개서를 제공받은 날부터 14일(자문 시 7일) 문구의 미번역 START 표시 및 수신일 표현 보완."
+    },
+    "A34909-zh-00012": {
+      "doc": "A34909",
+      "source_hash": "5f6607625a35e17a674ab9cf61413079dcd3c2e54fb034820918c0dfc9cdc4f0",
+      "original": "在特许人无法从您那里收到特许经营费或无法与您签订特许经营协议之前，特许人不能从您那里收到特许经营费或无法与您签订特许经营协议。",
+      "corrected": "在上述期限届满之前，特许人不得向您收取加盟费，也不得与您签订特许经营合同。",
+      "reason": "가맹본부의 14일/7일 내 가맹금 수령·계약체결 금지를 이중 부정으로 흐린 오역 정정."
+    },
+    "A34909-zh-00018": {
+      "doc": "A34909",
+      "source_hash": "b5a48451c9eb922a7fe32ab4b8eaf37b4cd68bcd9c3ffbf3c15fc73620a8a518",
+      "original": "由于特许经营业务严格按照特许经营协议的内容进行运营，因此信息披露声明的内容也必须符合特许经营协议的规定。",
+      "corrected": "由于您最终须依照特许经营合同的内容经营特许业务，因此不得仅依赖信息披露声明的内容。",
+      "reason": "'정보공개서의 내용에만 의존하여서는 아니 된다'라는 금지를 계약내용과 반드시 일치해야 한다는 내용으로 오역한 것 교정."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -199,7 +220,8 @@
     "Additional early Article 2 enumeration corrections confirmed against Korean original; no general restyling.",
     "C05 review of Chinese B1 rows 36-120 found penalty/complaint law cross-reference errors; corrected only verified spans.",
     "C05 Chinese B2 initial rows: minimal repair of Article 5-4, 5-6, 5-9 captions, depository party, and Act 22(4) citation.",
-    "C05 Chinese B2 rows 45-86 review: 5 newly verified errors in source act citations and decree titles; unreviewed rows remain."
+    "C05 Chinese B2 rows 45-86 review: 5 newly verified errors in source act citations and decree titles; unreviewed rows remain.",
+    "C05 annex A34909 initial cover-page mandatory disclosure: corrected 3 clear substantive mistranslations against Korean source."
   ],
   "reading_evidence": {
     "ko": "18 documents full reading recorded in progress-C05-382d0b9d5453.json",
@@ -207,6 +229,6 @@
     "zh": "Ordered Chinese review started at B1-zh-00001; 35 rows displayed, with some long rows truncated pending return to full row text; first 3 additional corrections supported by Korean and English.",
     "full_sequential_human_review_complete": false
   },
-  "checked_rows": 23,
-  "corrected_rows": 23
+  "checked_rows": 26,
+  "corrected_rows": 26
 }
