@@ -1589,8 +1589,8 @@
       "doc": "A29185",
       "source_hash": "baacb4d27ccdf5eb8f67cf28a1e2e4b3c3daad42d1d31a24b20bf42bed6f921f",
       "original": "滑坡",
-      "corrected": "山体滑坡预防工程",
-      "reason": "恢复山地侵蚀工程分类表中的项目名称。"
+      "corrected": "山体滑坡",
+      "reason": "本表该行仅为合并单元格中的“산사태”，项目名称由后续“预防工程”单元格共同组成，保留原表格层级。"
     },
     "A29185-zh-00012": {
       "doc": "A29185",
@@ -1604,7 +1604,7 @@
       "source_hash": "dd126fd485fa5f601bc735ad8184dedf39a1cad70ac376da2480e24ed22362d7",
       "original": "预防项目",
       "corrected": "预防工程",
-      "reason": "规范项目名称，与“山体滑坡预防工程”衔接。"
+      "reason": "本表该行对应“예방사업”，与前一行“山体滑坡”组成项目名称。"
     },
     "A29185-zh-00014": {
       "doc": "A29185",
@@ -1645,8 +1645,8 @@
       "doc": "A29185",
       "source_hash": "7d3ba4b007b5e03b4b24dd9adcd7fc2a1e7ebdb814e23bb146f67d5365f9a97c",
       "original": "生产区",
-      "corrected": "山地保全工程",
-      "reason": "将“산지보전사업”误译为生产区，恢复项目名称。"
+      "corrected": "山地",
+      "reason": "本表该行对应左侧合并单元格“산지”，不应译成生产区。"
     },
     "A29185-zh-00020": {
       "doc": "A29185",
@@ -1659,29 +1659,29 @@
       "doc": "A29185",
       "source_hash": "e7041f5481424c78d1219b25d16fb758b4e60110cf587a279136ad4fb6b151b4",
       "original": "保护项目MTQa08f2b5d400171dd00312结束",
-      "corrected": "或已经发生荒废化的地区；如果实施侵蚀控制工程，",
-      "reason": "删除MTQ污染标记，并恢复本项句子连接。"
+      "corrected": "保全工程",
+      "reason": "本表该行对应“보전사업”，去除MTQ污染并保留表格合并单元格结构。"
     },
     "A29185-zh-00022": {
       "doc": "A29185",
       "source_hash": "178d963e5c29ceba82dbaedeeed14e6c1464b8570f7e4b35068acb8961afc9fc",
       "original": "的区域，如果实施侵蚀控制项目，山区",
-      "corrected": "能够防止山地崩塌、侵蚀或土石流出的地区。",
-      "reason": "恢复韩文原文的效果条件，修复错误断句。"
+      "corrected": "或者已经发生荒废化的地区；实施侵蚀控制工程能够防止山地",
+      "reason": "补齐荒废化条件的后半句，避免将表格行标题并入正文。"
     },
     "A29185-zh-00023": {
       "doc": "A29185",
       "source_hash": "dc83d2ae5b119faac9797988d0b732c719cdf1e219faee942d357dd74748ee76",
       "original": "能有效防止土壤和岩石坍塌、侵蚀或径流的区域",
-      "corrected": "应符合上述条件。",
-      "reason": "原译遗漏句末判断结构。"
+      "corrected": "崩塌、侵蚀或土石流出的地区。",
+      "reason": "完成上一行关于防止山地崩塌、侵蚀或土石流出的条件句。"
     },
     "A29185-zh-00025": {
       "doc": "A29185",
       "source_hash": "7d3ba4b007b5e03b4b24dd9adcd7fc2a1e7ebdb814e23bb146f67d5365f9a97c",
       "original": "生产区",
-      "corrected": "山地复原工程",
-      "reason": "将“산지복원사업”误译为生产区，恢复项目名称。"
+      "corrected": "山地",
+      "reason": "本表该行对应左侧合并单元格“산지”，项目名称由“复原工程”单元格共同组成。"
     },
     "A29185-zh-00026": {
       "doc": "A29185",
@@ -1701,8 +1701,8 @@
       "doc": "A29185",
       "source_hash": "7d1eb58e737b4e9f5b51a390bd0ff6c6846220a45c7c240d6fe202081921e932",
       "original": "Jin 将会是可能的",
-      "corrected": "应符合上述条件。",
-      "reason": "删除无关人名“Jin”，恢复原文句末判断。"
+      "corrected": "复原工程",
+      "reason": "本表该行对应“복원사업”，不属于句子结尾。"
     },
     "A29185-zh-00034": {
       "doc": "A29185",
@@ -1715,8 +1715,8 @@
       "doc": "A29185",
       "source_hash": "994cb2486c7defdd9d3164fc0d7af07912397126f272cd5bf7db52046a2b0d33",
       "original": "预防项目MTQa08f2b5d400171dd00327结束",
-      "corrected": "防止海岸侵蚀工程",
-      "reason": "删除MTQ污染标记并恢复海岸侵蚀防止工程名称。"
+      "corrected": "防止工程",
+      "reason": "本表该行对应“방지사업”，删除MTQ污染标记并保留表格项目名称层级。"
     },
     "A29185-zh-00041": {
       "doc": "A29185",
@@ -1729,22 +1729,22 @@
       "doc": "A29185",
       "source_hash": "e7041f5481424c78d1219b25d16fb758b4e60110cf587a279136ad4fb6b151b4",
       "original": "保护项目MTQa08f2b5d400171dd00312结束",
-      "corrected": "溪流保全工程",
-      "reason": "删除MTQ污染标记并恢复项目名称。"
+      "corrected": "保全工程",
+      "reason": "本表该行对应“보전사업”，前行已标明“溪流”，避免重复翻译。"
     },
     "A29185-zh-00046": {
       "doc": "A29185",
       "source_hash": "bfd66637b3198b132b5e5598f3719edd752fbc7ea315dfc0a2c04166955cb6ec",
       "original": "系泊 MTQa08f2b5d400171dd00330结束",
-      "corrected": "溪流复原工程",
-      "reason": "“계류복원사업”是溪流复原工程，不是系泊。"
+      "corrected": "复原工程",
+      "reason": "本表该行对应“복원사업”，前行已标明“溪流”，避免误译为系泊。"
     },
     "A29185-zh-00051": {
       "doc": "A29185",
       "source_hash": "3b0ec94b369f29e9fc4e8cc4cc52ba42a50a228fdccb0724b04e16559c432334",
       "original": "沙邦大坝",
-      "corrected": "侵蚀控制坝设置工程",
-      "reason": "“사방댐 설치사업”应为侵蚀控制坝设置工程，不是音译“沙邦大坝”。"
+      "corrected": "侵蚀控制坝",
+      "reason": "本表该行是项目名称“사방댐”的组成部分，不应音译为沙邦大坝。"
     },
     "A29185-zh-00055": {
       "doc": "A29185",
@@ -1808,6 +1808,13 @@
       "original": "3) 系泊修复项目",
       "corrected": "3）溪流复原工程",
       "reason": "“계류복원사업”误译为系泊修复项目，恢复工程术语。"
+    },
+    "A29185-zh-00053": {
+      "doc": "A29185",
+      "source_hash": "fcc6347ce0e7a6706deff7724c51192225d856161155f4324e95d81ccde3ad20",
+      "original": "安装项目",
+      "corrected": "设置工程",
+      "reason": "本表该行对应“설치사업”，与前行“侵蚀控制坝”组成“侵蚀控制坝设置工程”。"
     }
   },
   "edits": [
@@ -2701,7 +2708,7 @@
     },
     {
       "id": "A29185-zh-00011",
-      "text": "山体滑坡预防工程"
+      "text": "山体滑坡"
     },
     {
       "id": "A29185-zh-00012",
@@ -2733,7 +2740,7 @@
     },
     {
       "id": "A29185-zh-00019",
-      "text": "山地保全工程"
+      "text": "山地"
     },
     {
       "id": "A29185-zh-00020",
@@ -2741,19 +2748,19 @@
     },
     {
       "id": "A29185-zh-00021",
-      "text": "或已经发生荒废化的地区；如果实施侵蚀控制工程，"
+      "text": "保全工程"
     },
     {
       "id": "A29185-zh-00022",
-      "text": "能够防止山地崩塌、侵蚀或土石流出的地区。"
+      "text": "或者已经发生荒废化的地区；实施侵蚀控制工程能够防止山地"
     },
     {
       "id": "A29185-zh-00023",
-      "text": "应符合上述条件。"
+      "text": "崩塌、侵蚀或土石流出的地区。"
     },
     {
       "id": "A29185-zh-00025",
-      "text": "山地复原工程"
+      "text": "山地"
     },
     {
       "id": "A29185-zh-00026",
@@ -2765,7 +2772,7 @@
     },
     {
       "id": "A29185-zh-00028",
-      "text": "应符合上述条件。"
+      "text": "复原工程"
     },
     {
       "id": "A29185-zh-00034",
@@ -2773,7 +2780,7 @@
     },
     {
       "id": "A29185-zh-00038",
-      "text": "防止海岸侵蚀工程"
+      "text": "防止工程"
     },
     {
       "id": "A29185-zh-00041",
@@ -2781,15 +2788,15 @@
     },
     {
       "id": "A29185-zh-00043",
-      "text": "溪流保全工程"
+      "text": "保全工程"
     },
     {
       "id": "A29185-zh-00046",
-      "text": "溪流复原工程"
+      "text": "复原工程"
     },
     {
       "id": "A29185-zh-00051",
-      "text": "侵蚀控制坝设置工程"
+      "text": "侵蚀控制坝"
     },
     {
       "id": "A29185-zh-00055",
@@ -2818,10 +2825,14 @@
     {
       "id": "A29185-zh-00078",
       "text": "3）溪流复原工程"
+    },
+    {
+      "id": "A29185-zh-00053",
+      "text": "设置工程"
     }
   ],
   "checked_rows": 259,
-  "corrected_rows": 252,
+  "corrected_rows": 253,
   "notes": "Initial source-grounded correction set after full Korean and available English source reading. Chinese sequential review continues; do not treat this as completion. Sequential review so far: B1 rows 1–122; B2 rows 1–70. Additional complete targeted passes: A29186 (43 rows) and B3 rows 1–24. 64 nonblank changed edits are saved; further Chinese rows and documents remain pending. No COMPLETE certification.",
   "coverage": {
     "total_rows": 1290,
