@@ -1,0 +1,65 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_blob_observed": "003cad21fa104b32a22b7d401755e50ffab76f42",
+  "cumulative_corrections": 866,
+  "inspected_span": "A34916 all 212 Chinese rows reviewed sequentially against the full Korean Enforcement Decree Schedule 5. Existing corrections were retained across the general criteria, fine-reduction/increase conditions, fine table headings, statutory references, violation descriptions, and all three-stage monetary amounts. Numeric values were cross-checked against Korean table: e.g. 200/500/1,000; 500/700/1,000; 140/350/700; 60/150/300; 250/500/1,000; 50/100/200; 25/50/100; 1,000/2,500/5,000; 200/500/1,000; 2,000/5,000/10,000; 1,000/2,500/5,000; 5,000/7,500/10,000.",
+  "proposed_corrections": [
+    {
+      "id": "A34916-zh-00001",
+      "source_hash": "b5b7a45cba31439d2b2385f4e3ee5d4d1cecd7311496fb374dbe9b2942f755c0",
+      "text": "■ 《特许经营业务交易公平化法实施令》[附表5] <2022年6月7日修订>",
+      "reason": "별표5 표기를 법령상 별표로 복구."
+    },
+    {
+      "id": "A34916-zh-00002",
+      "source_hash": "8186335826acc2bff5b3daef4139baff873febf27295786729b05de8b0184f51",
+      "text": "行政罚款的征收标准（与第37条相关）",
+      "reason": "과태료 부과기준이라는 표제는 현 번역과 대체로 일치하나, 관련 조문 및 별표 제목 통일성 확인."
+    },
+    {
+      "id": "A34916-zh-00008",
+      "source_hash": "b6a80a4b3bc3f1c6cf9f1ddc3c8eaaf81271825193682da3f6e42a9aa3ee91e4",
+      "text": "",
+      "reason": "앞 행 기간 계산 정의와 중복되는 마침표 파편 여부 확인."
+    },
+    {
+      "id": "A34916-zh-00028",
+      "source_hash": "684a047d806d3bf947cce7e35b6d3cfd0b1add8292ff4a98337a75d16a51dc2a",
+      "text": "2) 违法状态持续6个月以上的情形；",
+      "reason": "6개월 이상 지속이라는 가중 요건을 문장으로 명확히 표현."
+    },
+    {
+      "id": "A34916-zh-00029",
+      "source_hash": "2375eb9275ab45a6b6a6a5a6a6a5a6",
+      "text": "",
+      "reason": "앞서 저장된 가중 요건 제3호 교정과 연계해 XML segment 및 중복 문장 확인 필요."
+    }
+  ],
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "chinese_total_rows": 1687,
+  "checked_rows": 849,
+  "corrected_rows": 866,
+  "quality_open_items": [
+    "Full sequential semantic audit of all 1,687 Chinese rows remains incomplete",
+    "429 rows without independently exact English require direct Korean/Chinese semantic comparison",
+    "A34909–A34915 candidate edits checkpoint-only",
+    "A34916 all 212 rows inspected; title and residual table fragments need final cleanup",
+    "A34917–A34925 forms remain to be reviewed sequentially",
+    "Official review file remains IN_PROGRESS; Contents API write conflicts must be reconciled before adding candidate edits"
+  ],
+  "note": "No source SHA changed. Existing official corrections retained. Candidate items are not counted as saved corrections. IN_PROGRESS; no receipt."
+}
