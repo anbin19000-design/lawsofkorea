@@ -1,0 +1,42 @@
+{
+  "schema": "LAW_ZH_REVIEW_AUDIT_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "panel_id": "panel-01",
+  "assignment_id": "S2-c174f0e36bef5fedb717095f1cea01f6",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:3b9eac1139e6]",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "review_path": "review/zh/F-7423351d4946866bbacf.json",
+  "review_blob": "fb2498f93dac94dee1556fb044c40e27b205fe9a",
+  "documents": 16,
+  "chinese_rows": 1207,
+  "cumulative_unique_corrections": 259,
+  "previous_unique_corrections": 253,
+  "new_unique_rows": [
+    "B3-zh-00030",
+    "B3-zh-00035",
+    "B3-zh-00020",
+    "B2-zh-00027",
+    "B2-zh-00042",
+    "B2-zh-00025"
+  ],
+  "amended_prior": [
+    "B3-zh-00028"
+  ],
+  "english_note": "Exact version English B1 and B2 present. No standalone English B3 or linked rule annexes/forms; authoritative Korean compared for these rows.",
+  "original_source_sha_unchanged": true,
+  "worker_binding_verified": true,
+  "receipt_file": "receipts/F-7423351d4946866bbacf.json",
+  "receipt_status": "NOT_FOUND",
+  "semantic_review_complete": false,
+  "unresolved": [
+    "Remaining Chinese source cells not fully verified against Korean throughout 16-doc family",
+    "Annex and form XML source-cell alignment and punctuation-only cells not independently reconciled"
+  ],
+  "next_action": "Continue same assignment, meaning-check every remaining clause, annex, form with preserved existing corrections; only mark COMPLETE and write receipt after proven full-family coverage and reread."
+}
