@@ -1,0 +1,20 @@
+{
+  "schema": "LAW_ZH_RECONCILE_V1",
+  "job_id": "F-eb24b26e08a83be58f81",
+  "assignment_id": "S2-e811a729740fea81282fc5378ec284d9",
+  "worker": "C01",
+  "branch": "main",
+  "status": "RECONCILED",
+  "row_id": "B3-zh-00015",
+  "source_hash": "fea7a9c9946daca00f4b692fe179887b339836a568cdd6c0ec9faf21b5914fb8",
+  "source_blob_sha": {
+    "ko": "f0d6fbd2ef344c2fcc23f9c68a9e5dfbb3ed196a",
+    "zh": "0ab0bdb3db18772f9e4cb45b0e179805f0df3940"
+  },
+  "candidate_files": [
+    "status/delivery/progress-S2-e811a729740fea81282fc5378ec284d9-C01-B3-00013-00016.json",
+    "status/delivery/progress-S2-e811a729740fea81282fc5378ec284d9-C01-B3-00014-00021.json"
+  ],
+  "text": "第13条（换地申请书）拟依施行令第35条第2款申请换地的人，应填写附页第10号格式的换地申请书，向项目实施者提出申请。\n\n第三节 竣工检查等\n\n",
+  "note": "Korean 제13조(환지신청서) refers to 환지, not generic 土地置换 or 土地重新分配; adopt the consistent legal term 换地. Preserve 附页第10号格式, project implementer, and section heading. Existing checked ID: 0 additional unique rows. Family remains IN_PROGRESS."
+}
