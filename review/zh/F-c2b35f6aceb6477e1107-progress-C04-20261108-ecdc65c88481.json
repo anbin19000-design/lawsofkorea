@@ -1,0 +1,28 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-c2b35f6aceb6477e1107",
+  "worker": "C04",
+  "assignment_marker": "ecdc65c88481",
+  "status": "IN_PROGRESS",
+  "source_blob_shas": {
+    "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
+    "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
+    "zh": "f8879f4a12299069e4831b03f15a2a2fa30c8089"
+  },
+  "documents": 15,
+  "chinese_rows": 1241,
+  "english_reference_rows": 911,
+  "english_reference_missing": 330,
+  "prior_edits": 207,
+  "new_ids": [
+    "A14111-zh-00054"
+  ],
+  "total_edits": 208,
+  "review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
+  "review_commit": "8d3d65cf69ec777495e043cc67f0ed84b73d8420",
+  "full_korean_read": false,
+  "full_english_read": false,
+  "full_chinese_review": false,
+  "complete_receipt": false,
+  "note": "Source confirms Korean 전처리 농산물, not seafood. Existing corrections preserved; full sequential review still in progress."
+}
