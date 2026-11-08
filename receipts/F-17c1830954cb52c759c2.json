@@ -1,0 +1,33 @@
+{
+  "job_id": "F-17c1830954cb52c759c2",
+  "worker": "C04",
+  "pc": "WORK-C",
+  "panel_id": "panel-04",
+  "assignment_id": "UW-ae29ceae79dce2b6f6b096967b9c7d2a",
+  "predecessor_assignment_id": "UW-13dcf8b336720c3b2618fdc820a94e6a",
+  "checked_rows": 1275,
+  "corrected_rows": 1196,
+  "unchanged_rows": 79,
+  "status": "COMPLETE",
+  "source_commit": "5f7a7e32af396dc79cd118fe4cd10694a66a9197",
+  "source_blobs": {
+    "ko": "dc7900aa39aa4daea43830abfc398a436695411c",
+    "en": "6dde8519d0cb5d72763353feaac3b483954cd1bc",
+    "zh": "cd35c01be0c39b6adbf2cc69f5f814e2c9cf8a67"
+  },
+  "review_path": "review/zh/F-17c1830954cb52c759c2.json",
+  "review_blob_sha": "f3840a26468fbf6e3c21f310bdfaf8666d1b029c",
+  "note": "C04 / WORK-C / panel-04 completed the full Urban Air Mobility law family Chinese minimal review. All 1,275 Chinese rows across 30 documents were reviewed after full Korean reading and full reading of available English references in the required KO_FULL_EN_FULL_ZH_FULL order. 1,196 rows received minimal corrections and 79 were retained unchanged. Original Chinese row text, IDs, order, and source blobs were preserved. No source law files were modified. The additional reviewed/en/KR_014648.json English reference (195 rows) was read; portions without English reference were checked against Korean. Final QA: row IDs/order match original; original Chinese preserved; 0 duplicate IDs; 0 empty rows; 0 unreviewed rows; 0 residual MTQ/OCR tokens; 0 untranslated Korean fragments. B3 Annex 1 content was reconciled to separate Korean source A27040. A27052 application form cites Article 93(12), whereas the Act text cites Article 9(12); the form's source wording was preserved and the discrepancy documented rather than silently normalized.",
+  "quality_assurance": {
+    "source_blob_sha_verified": true,
+    "source_documents": 30,
+    "chinese_rows": 1275,
+    "ids_in_original_order": true,
+    "original_chinese_preserved": true,
+    "duplicate_ids": 0,
+    "empty_rows": 0,
+    "unreviewed_rows": 0,
+    "residual_mtq_ocr_tokens": 0,
+    "residual_korean_fragments": 0
+  }
+}
