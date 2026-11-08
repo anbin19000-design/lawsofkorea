@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1374,
     "distinct_rows": 1374,
-    "correction_count": 170,
+    "correction_count": 179,
     "pending_rows": 89,
     "by_document": {
       "B1": {
@@ -36,7 +36,7 @@
       },
       "A29604": {
         "total": 63,
-        "corrected": 9,
+        "corrected": 18,
         "pending": 58
       },
       "B3": {
@@ -1336,6 +1336,69 @@
       "original": "在向法官作虚假陈述的情况下",
       "corrected": "向专利审判院作虚假陈述时",
       "reason": "특허심판원不是法官；更正接受虚假陈述的机关。"
+    },
+    "A29604-zh-00008": {
+      "doc": "A29604",
+      "source_hash": "6070dfe578e6cb05152d36b7d0c004090f5f159047afc12aef685e555c5e5efe",
+      "original": "a. 根据违规次数施加行政罚款的标准如下：对于过去一年内发生的相同违规行为……",
+      "corrected": "b. 根据违规次数施加行政罚款的标准如下：对于过去一年内发生的相同违规行为……",
+      "reason": "韩文 별표 一般基准 나项，既存 a 标识误译，改为 b。"
+    },
+    "A29604-zh-00022": {
+      "doc": "A29604",
+      "source_hash": "eb41fdcc56f30b7a1a6e203accd45307886d890b5c9abbd28d40239c4f214b06",
+      "original": "该金额可在费用金额的一半范围内增加。但是，《法案》第52条第1款规定……",
+      "corrected": "该金额可在第2项规定的罚款金额的一半幅度内增加。但是，依照本法第52条第1款规定……",
+      "reason": "원문 '제2호에 따른 과태료 금액의 2분의 1의 범위에서 늘릴 수 있다. 다만, 법 제52조제1항'；原译《法案》及基准对象错误。"
+    },
+    "A29604-zh-00029": {
+      "doc": "A29604",
+      "source_hash": "1d6f6bce78138ea58d3cc062dbce45c849d57266d25052a404c84318174a0c95",
+      "original": "2. 单个标准",
+      "corrected": "2. 具体标准",
+      "reason": "원문 개별기준 为各项具体标准，非一个单独标准。"
+    },
+    "A29604-zh-00045": {
+      "doc": "A29604",
+      "source_hash": "c63e98b59661561e94b5706605e63002de4125d4f839e76605df4ab3da0ba40d",
+      "original": "B. 审查证据或来自专利审判和上诉委员会的证据",
+      "corrected": "b. 收到专利审判院关于调查证据或者保全证据的",
+      "reason": "原文 '특허심판원으로부터 증거조사 또는 증거보전에 관하여'；原译误将机关认作审判和上诉委员会。"
+    },
+    "A29604-zh-00050": {
+      "doc": "A29604",
+      "source_hash": "a5f502fea4480f1cd46f58e0a516e4ba4c6d86769463a6e4a01101e8014902a0",
+      "original": "有关保存的文件或其他物品",
+      "corrected": "提交或者出示文件及其他物品的命令的人",
+      "reason": "原文 '서류나 그 밖의 물품의 제출 또는 제시의 명령을 받은 자'，不能遗漏出示命令。"
+    },
+    "A29604-zh-00051": {
+      "doc": "A29604",
+      "source_hash": "421c7b60ad5cdc158d4503f2c2f520686960bc9505e644ca4e1c8cbe6042bb3e",
+      "original": "第 1 段，第 2 子段",
+      "corrected": "第1款第2项",
+      "reason": "법 제52조 제1항제2호；罚款法律依据的款项数字误译。"
+    },
+    "A29604-zh-00054": {
+      "doc": "A29604",
+      "source_hash": "49b512187b831f54422a995a3b6faaa17b6d0b7ed0fe59f41b785d74ec460c5d",
+      "original": "。专利审判和上诉委员会的证人和专家证人也",
+      "corrected": "c. 经专利审判院传唤的证人、鉴定人或者",
+      "reason": "원문 '다. 특허심판원으로부터 증인ㆍ감정인 또는 통역인으로 소환된 자'；原译机构和对象关系不符，恢复项目编号。"
+    },
+    "A29604-zh-00060": {
+      "doc": "A29604",
+      "source_hash": "8d622ea97bbd8322668382b2b126fdf273ae06442beffba957bba639878c2740",
+      "original": "第 1 段第 3 项",
+      "corrected": "第1款第3项",
+      "reason": "법 제52조제1항제3호；法律依据项号误译。"
+    },
+    "A29604-zh-00062": {
+      "doc": "A29604",
+      "source_hash": "5a33c15c73b00e0457c377aac6aaa24b6d3d5ee2fbebab1c1cac0720a5daaa19",
+      "original": "拒绝发表声明、作证、提供专家意见或进行解释",
+      "corrected": "拒绝宣誓、陈述、作证、鉴定或口译",
+      "reason": "原文 '선서ㆍ진술ㆍ증언ㆍ감정 또는 통역을 거부'；原译口译误作解释。"
     }
   },
   "mapping_issues": [
@@ -1432,5 +1495,5 @@
     }
   ],
   "english_note": "B1/B2 official exact-version; B3/forms only 2010 fallback, not exact current version; decree also has AI draft.",
-  "notes": "기존 번역과 원본은 변경하지 않음. 명백한 교정문만 누적. SOURCE_MAPPING_REVIEW_REQUIRED/SOURCE_LEGIBILITY_REVIEW_REQUIRED/ANNEX_ALIGNMENT_REVIEW_REQUIRED 판정 잔존. 전수 검증·완료 영수증 미발행. 2026-11-08 C05: 별표 3개 행의 명백한 오역만 추가 교정, 원문 대응 미해결은 그대로 보류."
+  "notes": "기존 번역과 원본은 변경하지 않음. 명백한 교정문만 누적. SOURCE_MAPPING_REVIEW_REQUIRED/SOURCE_LEGIBILITY_REVIEW_REQUIRED/ANNEX_ALIGNMENT_REVIEW_REQUIRED 판정 잔존. 전수 검증·완료 영수증 미발행. 2026-11-08 C05: 별표 3개 행의 명백한 오역만 추가 교정, 원문 대응 미해결은 그대로 보류. 2026-11-08 C05-0888152c0192: 별표의 명백한 항목번호·근거법조문·기관·범위 오역 9건 추가, 다른 검수 결과와 기존 보류 사유 유지."
 }
