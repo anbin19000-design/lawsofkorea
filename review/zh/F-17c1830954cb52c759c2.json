@@ -1,10 +1,10 @@
 {
   "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-17c1830954cb52c759c2",
-  "status": "IN_PROGRESS",
+  "status": "COMPLETE",
   "worker": "C04",
   "panel_id": "panel-04",
-  "assignment_id": "UW-13dcf8b336720c3b2618fdc820a94e6a",
+  "assignment_id": "UW-ae29ceae79dce2b6f6b096967b9c7d2a",
   "source_commit": "5f7a7e32af396dc79cd118fe4cd10694a66a9197",
   "source_blobs": {
     "ko": "dc7900aa39aa4daea43830abfc398a436695411c",
@@ -19,9 +19,10 @@
   "progress": {
     "korean": "COMPLETE",
     "english": "COMPLETE",
-    "chinese": "IN_PROGRESS; all 1,275 rows reviewed; final QA found and corrected A27041 technical personnel table row alignment and one residual English term in B1. Run final consistency checks and reconcile SHA before COMPLETE.",
+    "chinese": "COMPLETE",
     "reviewed_rows": 1275,
     "corrected_rows": 1196,
+    "unchanged_rows": 79,
     "remaining_rows": 0
   },
   "documents": [],
@@ -24815,5 +24816,36 @@
       "text_reviewed": "Infrastructure and Transport)",
       "review_status": "REVIEWED_UNCHANGED"
     }
-  ]
+  ],
+  "predecessor_assignment_id": "UW-13dcf8b336720c3b2618fdc820a94e6a",
+  "assignment_history": [
+    "UW-13dcf8b336720c3b2618fdc820a94e6a",
+    "UW-ae29ceae79dce2b6f6b096967b9c7d2a"
+  ],
+  "quality_assurance": {
+    "source_blob_sha_verified": true,
+    "source_commit": "5f7a7e32af396dc79cd118fe4cd10694a66a9197",
+    "ko_full_read": true,
+    "en_full_read": true,
+    "zh_full_review": true,
+    "source_documents": 30,
+    "zh_source_rows": 1275,
+    "review_rows": 1275,
+    "ids_in_original_order": true,
+    "original_chinese_preserved": true,
+    "duplicate_ids": 0,
+    "empty_review_rows": 0,
+    "unreviewed_rows": 0,
+    "residual_mtq_or_ocr_tokens": 0,
+    "residual_korean_untranslated_segments": 0,
+    "english_reference_note": "The main manifest marks some document entries as having no English document; an additional reviewed/en/KR_014648.json English reference of 195 rows was discovered and read. Where no English reference was available, review was conducted directly against Korean.",
+    "source_anomalies": [
+      "A27052 form citation refers to Act Article 93(12), whereas the Act text refers to Article 9(12); source form wording was preserved and the discrepancy recorded, not silently normalized."
+    ],
+    "annex_reconciliation": [
+      "B3-zh-00027 contained Enforcement Rule Annex 1 content not embedded in B3 main source_ko; reconciled to the separate Korean annex source A27040 and replaced with its verified reviewed translation."
+    ],
+    "review_method": "Minimal corrections only; exact translations retained; missing or clearly mistranslated passages corrected against Korean and available English; no source laws modified."
+  },
+  "notes": "C04 / WORK-C / panel-04 completed the full Urban Air Mobility law family review. All 1,275 Chinese rows were reviewed after reading all 30 Korean source documents and all available English references in the required KO_FULL_EN_FULL_ZH_FULL order. Canonical review preserves original Chinese text, source row IDs and order. Official review file and receipt must be saved and read back."
 }
