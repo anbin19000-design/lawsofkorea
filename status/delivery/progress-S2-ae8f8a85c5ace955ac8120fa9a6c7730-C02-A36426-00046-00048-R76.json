@@ -1,0 +1,48 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 3,
+  "checked_ids": [
+    "A36426-zh-00046",
+    "A36426-zh-00047",
+    "A36426-zh-00048"
+  ],
+  "edits": [
+    {
+      "id": "A36426-zh-00046",
+      "source_hash": "a97922c8e97cbb4b2f39595823c54752f860207b477256867328a64223489aef",
+      "target_id": "XML:2657356",
+      "text": "《促进信息通信网利用及信息保护等"
+    },
+    {
+      "id": "A36426-zh-00047",
+      "source_hash": "a98fa5b9fd6480c7611c209eb77989300b1a29f0e98f179c9d08a0aa0158abd4",
+      "target_id": "XML:2657357",
+      "text": "相关法律》第五十二条规定的韩国"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "korean_evidence": "「정보통신망 이용촉진 및 정보보호 등에 관한 법률」 제52조에 따른 한국인터넷진흥원",
+  "joined_final_text": "《促进信息通信网利用及信息保护等相关法律》第五十二条规定的韩国互联网振兴院",
+  "retained_prior": {
+    "id": "A36426-zh-00048",
+    "text": "互联网振兴院",
+    "path": "status/delivery/progress-S2-ae8f8a85c5ace955ac8120fa9a6c7730-A36426-00001-00050.json"
+  },
+  "supersedes": [
+    {
+      "id": "A36426-zh-00047",
+      "path": "status/delivery/progress-S2-ae8f8a85c5ace955ac8120fa9a6c7730-A36426-00001-00050.json",
+      "reason": "Previous row 47 repeated whole law name already partly present in row 46, resulting in duplicated citation across adjacent Korean table cells."
+    }
+  ],
+  "note": "R76: Korean Annex 3 cross-cell statutory citation correction for Korea Internet & Security Agency. Only rows 46-47 newly corrected; row 48 retains old valid Chinese name. Keep 21 R72-R74 corrections and R75. Original source and hashes unchanged. Family IN_PROGRESS."
+}
