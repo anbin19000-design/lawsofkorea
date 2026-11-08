@@ -2,7 +2,7 @@
   "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-c2b35f6aceb6477e1107",
   "worker": "C04",
-  "checked_rows": 67,
+  "checked_rows": 70,
   "edits": [
     {
       "id": "A14112-zh-00030",
@@ -271,8 +271,20 @@
     {
       "id": "A14110-zh-00011",
       "text": "必须采取其他措施防止交叉污染。"
+    },
+    {
+      "id": "A14110-zh-00018",
+      "text": "并应便于清扫。"
+    },
+    {
+      "id": "A14110-zh-00020",
+      "text": "防虫网等适当设施，以防止害虫及鼠类侵入。"
+    },
+    {
+      "id": "A14110-zh-00025",
+      "text": "确保照度至少为540勒克斯（lx）。"
     }
   ],
   "status": "IN_PROGRESS",
-  "note": "C04 cd4619f329a9: preserved prior 63 corrections; source-anchored annex corrections A30764-zh-00001/00002 and A14110-zh-00001/00011. Korean annex titles and cross-contamination terminology checked. 15-document full semantic review and COMPLETE receipt not yet certified."
+  "note": "C04 dcaa1482e541: preserved prior 67 edits, corrected annex A14110-zh-00018 (cleanable drain), 00020 (pest/rodent barriers), 00025 (inspection area illuminance 540 lx, not 40). Source Korean annex verified; full family manual QA incomplete and no receipt."
 }
