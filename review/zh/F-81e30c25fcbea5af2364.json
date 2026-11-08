@@ -2584,6 +2584,33 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-ab7160916418.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
       "reason": "第50条第1款第2项韩文是“适用相关标准、规格、要求并不适当”，原译误写成这些标准本身“不适用”，改变了判断对象。修正为适用该标准不适当，保留其他结构。"
+    },
+    {
+      "id": "B2-zh-00028",
+      "source_hash": "be6c47d132c01f273c93976be9822b71b63867b4ef11c7e3960fdae69eb867f2",
+      "target_id": "eeabfc23d5fc06943b28c51edbda0eb24d5e4b7924335224ed1ed97f7d2dd146",
+      "text": "第二十二条之三（智慧城市基础设施的利用等）\n① 智慧城市基础设施管理机关依据本法第十九条之三第一款拟收取智慧城市基础设施使用费的，应当在实际费用范围内确定使用费，并在官方公报或公告上公布其内容，同时在该机关的互联网主页上公告。<2017年9月19日修订>\n② 关于免除第一款规定的使用费，准用第二十二条之二第三款的规定。在此情况下，“智慧城市服务相关信息的利用”视为“智慧城市基础设施的使用”，“手续费”视为“使用费”。<2017年9月19日修订>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-resume-20261108T2109.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Preserve the statutory actual-cost ceiling: 사용료는 실비의 범위에서 정함, not merely set at actual cost."
+    },
+    {
+      "id": "B2-zh-00030",
+      "source_hash": "cb955bf171c2b779d6ae4fb88e2d2399227191a587b298c97228724b9bb34578",
+      "target_id": "0a434cc2740e0cbac2bde958727db752675152a1ae682b590b4c1ea8e2b79bc0",
+      "text": "第二十三条（融合技术标准）\n① 本法第二十条第一款正文所称“总统令规定的有关中央行政机关负责人”是指下列人员。<2013年3月23日、2014年11月19日、2017年7月26日、2020年8月4日、2025年10月1日修订>\n1. 行政安全部长官\n2. 产业通商部长官\n3. 广播媒体通信委员会委员长\n4. 个人信息保护委员会委员长\n② 国土交通部长官为有效推进本法第二十条规定的建设与信息通信融合技术（以下简称“融合技术”）标准制定等相关工作，可以指定并运营专门机构。<2013年3月23日修订>\n③ 国土交通部长官依第二款指定专门机构的，应当予以公告。<2013年3月23日修订>\n④ 国土交通部长官可以在预算范围内，为第二款规定的专门机构履行职责所需的费用提供支持。<2013年3月23日修订>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-resume-20261108T2109.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Correct the statutory agency title 방송미디어통신위원회위원장; existing translation named the Korea Communications Commission."
+    },
+    {
+      "id": "B2-zh-00031",
+      "source_hash": "c962a51254727ddaa606efd8cf98f38b70db1f87d31e0312c580fc092817aae0",
+      "target_id": "f685cb01c6fa79736137c449b59ece2f70c8a12664289f6246500e0dfe8eac2c",
+      "text": "第二十四条（智慧城市基础设施的保护）本法第二十二条第一款所称“总统令规定的设施”，是指第四条第二项规定的智慧城市综合运营中心。<2017年9月19日修订>\n\n第五章 智慧城市推进体系 <2017年9月19日修订>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-resume-20261108T2109.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "The Korean cross-reference is Article 4, subparagraph 2 (제4조제2호), not Article 4, paragraph 2."
     }
   ],
   "adjudicated_edit_count": 288,
@@ -7781,12 +7808,13 @@
     "2026-11-08 C02 continuation: refined existing B1-zh-00073 and added correction for B1-zh-00074; retained previous edits and source hashes.",
     "2026-11-08 C02 continuation: corrected B1 rows 00084, 00085, 00090, 00094 and 00098; preserved existing review history.",
     "2026-11-08 C02 continuation: corrected B1-zh-00116, where the Chinese translation erased the statutory title amendment by translating old and new titles identically.",
-    "2026-11-08 C02 continuation: corrected B1-zh-00070 Article 50(1)(2) legal test; other paragraphs retained with only necessary terminology alignment."
+    "2026-11-08 C02 continuation: corrected B1-zh-00070 Article 50(1)(2) legal test; other paragraphs retained with only necessary terminology alignment.",
+    "2026-11-08 C02 continuation: three direct Korean-source corrections in Enforcement Decree B2 rows 00028, 00030 and 00031: preserve the actual-cost ceiling, update the Broadcasting Media and Communications Commission title, and correct Article 4 subparagraph 2 citation. Whole-family review remains IN_PROGRESS; no completion certification."
   ],
   "integration_progress": {
-    "stage": "B1_ARTICLE50_1_2_APPLICABILITY_TEST_RECONCILED",
-    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:ab7160916418",
-    "note": "Corrected Article 50(1)(2): the statutory test is that applying the standards is inappropriate, not that the standards are inapplicable. Whole family remains IN_PROGRESS."
+    "stage": "B2_ARTICLES_22_3_TO_24_RECONCILED",
+    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:e33af5bbd71a",
+    "note": "Corrected B2-zh-00028, 00030 and 00031 against the unchanged Korean source. Continue statutory sequence and reconcile remaining evidence gaps; full-family ordered reading remains uncertified."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -8115,7 +8143,10 @@
     "B1-zh-00094",
     "B1-zh-00098",
     "B1-zh-00116",
-    "B1-zh-00070"
+    "B1-zh-00070",
+    "B2-zh-00028",
+    "B2-zh-00030",
+    "B2-zh-00031"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
