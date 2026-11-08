@@ -17,11 +17,11 @@
   },
   "current_review": {
     "path": "review/zh/F-81e30c25fcbea5af2364.json",
-    "blob_sha": "a08bc0c76acba8f499faa716b11856275ba7a2aa",
+    "blob_sha": "c336dd5aaef248494ee1d2e44ccdf259b7481c84",
     "schema": "LAW_ZH_REVIEW_CUMULATIVE_V1",
     "status": "IN_PROGRESS",
-    "edits": 331,
-    "checked_unique_ids": 418
+    "edits": 333,
+    "checked_unique_ids": 424
   },
   "reading_checkpoint": {
     "korean": {
@@ -137,7 +137,13 @@
         "B2-zh-00103",
         "B2-zh-00104",
         "B2-zh-00105",
-        "B2-zh-00106"
+        "B2-zh-00106",
+        "B2-zh-00107",
+        "B2-zh-00108",
+        "B2-zh-00109",
+        "B2-zh-00110",
+        "B2-zh-00111",
+        "B2-zh-00112"
       ],
       "new_corrections": [
         "B2-zh-00028",
@@ -176,7 +182,11 @@
         "B2-zh-00101",
         "B2-zh-00103",
         "B2-zh-00105",
-        "B2-zh-00106"
+        "B2-zh-00106",
+        "B2-zh-00108",
+        "B2-zh-00109",
+        "B2-zh-00110",
+        "B2-zh-00112"
       ],
       "checked_without_change": [
         "B2-zh-00033",
@@ -239,7 +249,9 @@
         "B2-zh-00098",
         "B2-zh-00100",
         "B2-zh-00102",
-        "B2-zh-00104"
+        "B2-zh-00104",
+        "B2-zh-00107",
+        "B2-zh-00111"
       ]
     }
   },
@@ -391,6 +403,22 @@
     {
       "id": "B2-zh-00106",
       "reason": "Correct supplementary-provision label and Enforcement Decree title."
+    },
+    {
+      "id": "B2-zh-00108",
+      "reason": "Correct instrument title to Enforcement Decree."
+    },
+    {
+      "id": "B2-zh-00109",
+      "reason": "Correct supplementary provision label and partial-amendment decree title."
+    },
+    {
+      "id": "B2-zh-00110",
+      "reason": "Correct supplementary provision label and National Land Planning Act Enforcement Decree title."
+    },
+    {
+      "id": "B2-zh-00112",
+      "reason": "Restore amendment item <52> and correct instrument title."
     }
   ],
   "english_coverage_note": "The index lists 712/1,133 row-level English references; 421 have no row-level English. B1 and B2 have official parent fallback, but it is a different version for B2; B3 and all A25465-A25474 have no indexed English documents.",
@@ -400,5 +428,5 @@
     "zh": false
   },
   "completion_receipt_verified": false,
-  "next_action": "Continue B2 in statutory sequence from B2-zh-00107 onward; finish all historical amendment supplements through B2-zh-00209. Family-wide Korean and available English read-through and full Chinese review remain uncertified."
+  "next_action": "Continue B2 in source order from B2-zh-00113 onward. Full family Korean, available English, and Chinese read-through certifications remain false; no COMPLETE or receipt."
 }
