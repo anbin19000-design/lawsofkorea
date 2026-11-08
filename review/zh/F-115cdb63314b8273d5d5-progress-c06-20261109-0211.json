@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 1980,
+    "verified_zh_rows": 2040,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 1980,
-      "checked_rows": 1980,
+      "next_row_zero_based": 2040,
+      "checked_rows": 2040,
       "total_rows": 5228
     }
   },
@@ -2533,9 +2533,123 @@
       "text": "■ 《道路法施行规则》[附表三号格式]",
       "original_text": "■ 道路交通法执行规则 [附件表格 3]",
       "reason": "도로법 시행규칙을 도로교통법 시행규칙으로 오역"
+    },
+    {
+      "id": "A4668-zh-00020",
+      "text": "⑨ 主要经过地",
+      "original_text": "主",
+      "reason": "도로구역 결정 통지서의 ‘주요 통과지’ 항목이 ‘주’로 잘림"
+    },
+    {
+      "id": "A4668-zh-00021",
+      "text": "⑩ 总长度（公里）",
+      "original_text": "⑩ 总长度",
+      "reason": "총연장 단위(킬로미터) 누락"
+    },
+    {
+      "id": "A4668-zh-00022",
+      "text": "",
+      "original_text": "通过",
+      "reason": "与前一项合并后删除残缺词"
+    },
+    {
+      "id": "A4669-zh-00001",
+      "text": "请在相应的方框内打√。",
+      "original_text": "在 中标记相应的方框。",
+      "reason": "신고서 체크박스 기재 안내에서 대상 누락"
+    },
+    {
+      "id": "A4669-zh-00004",
+      "text": "办理期限：15日",
+      "original_text": "处理周期MTQc2e2f91c71addd2000420结束",
+      "reason": "처리기간 15일이 MTQ 잔존 토큰에 가려짐"
+    },
+    {
+      "id": "A4669-zh-00013",
+      "text": "[ ] 安装构筑物",
+      "original_text": "] 安装工件",
+      "reason": "공작물 설치를 공작품 설치로 오역"
+    },
+    {
+      "id": "A4669-zh-00022",
+      "text": "许可日期",
+      "original_text": "权限日期",
+      "reason": "허가일자를 권한일자로 오역"
+    },
+    {
+      "id": "A4669-zh-00023",
+      "text": "许可机关",
+      "original_text": "许可授予机构",
+      "reason": "허가권자를 부정확하게 표현"
+    },
+    {
+      "id": "A4669-zh-00028",
+      "text": "※ 请具体填写工程（项目）的推进情况。",
+      "original_text": "※ 请详细描述施工（项目）进度。",
+      "reason": "공사 또는 사업의 추진상황을 구체적으로 적으라는 서식 안내 보정"
+    },
+    {
+      "id": "A4669-zh-00029",
+      "text": "根据《道路法》第二十七条第三款、《道路法施行令》第二十六条第四款及《道路法施行规则》第七条，现申报上述工程（项目）的进展情况。",
+      "original_text": "根据《道路法》第27条第3款、《道路法》实施令第26条第4款和《道路法实施细则》第7条的规定，作出上述解释。",
+      "reason": "시행령·시행규칙 명칭 오역 및 ‘신고합니다’를 설명으로 오역"
+    },
+    {
+      "id": "A4669-zh-00037",
+      "text": "收件人：",
+      "original_text": "至",
+      "reason": "귀하를 ‘至’로 직역"
+    },
+    {
+      "id": "A4669-zh-00044",
+      "text": "3. 设计图纸（仅限于根据《道路法施行令》第二十六条第一款第一项或第二项实施建筑物建造或构筑物安装的情形）",
+      "original_text": "3. 设计图纸（根据《道路法实施法令》第26条第1款第1项或第2项进行建筑物施工）或",
+      "reason": "도로법 시행령 법령명 및 건축·공작물 설치의 조건 오역"
+    },
+    {
+      "id": "A4669-zh-00046",
+      "text": "4. 与工程或项目有关的图纸（例如配置图）（仅限于根据《道路法施行令》第二十六条第一款第三项或第四项实施土地形质变更或土石采掘的情形）",
+      "original_text": "4. 与施工或项目相关的图纸，例如场地平面图（《道路法实施法令》第26条第1款第3项或第4项）",
+      "reason": "도로법 시행령 법령명 및 적용 대상 행위 누락"
+    },
+    {
+      "id": "A4670-zh-00001",
+      "text": "■ 《道路法施行规则》[附表第五号格式] <2025年12月26日修订>",
+      "original_text": "■ 道路交通法执行规则 [附件表格 5] <2025 年 12 月 26 日修订>",
+      "reason": "도로법 시행규칙을 도로교통법 시행규칙으로 오역"
+    },
+    {
+      "id": "A4670-zh-00003",
+      "text": "道路种类",
+      "original_text": "路的",
+      "reason": "도로공사 시행명령서의 도로 종류 필드가 잘림"
+    },
+    {
+      "id": "A4670-zh-00008",
+      "text": "工程类别",
+      "original_text": "类型",
+      "reason": "공사의 종류 항목을 일반 유형으로 불완전하게 표기"
+    },
+    {
+      "id": "A4670-zh-00009",
+      "text": "施工区间",
+      "original_text": "构造实现",
+      "reason": "공사시행구간을 구조 실현으로 오역"
+    },
+    {
+      "id": "A4670-zh-00014",
+      "text": "施工期限",
+      "original_text": "构造实现",
+      "reason": "공사시행기간을 구조 실현으로 오역"
+    },
+    {
+      "id": "A4670-zh-00022",
+      "text": "施工原因",
+      "original_text": "构造实现",
+      "reason": "공사시행이유를 구조 실현으로 오역"
     }
   ],
-  "note": "Sequential Chinese review continued through original row 1979, reviewing road route designation and approval forms and beginning road-zone notice form. Added 22 focused corrections to route notice verbs, overlap sections and length fields, approval application text, residual MTQ, form recipient/fee/process labels, and Road Act Enforcement Rule form titles. Previous 376 edits retained. Continue from row 1980. IN_PROGRESS.",
+  "note": "Sequential Chinese review continued through original row 2039, reviewing road-zone notice, construction progress report and beginning work execution order forms. Added 19 focused corrections to major through point/total length fields, checkbox instruction, residual MTQ processing term, report fields, ministerial rule/decree titles, addressee, and road construction order field labels. Previous 397 edits retained. Continue from row 2040. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
