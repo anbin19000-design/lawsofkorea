@@ -1,0 +1,53 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "panel_id": "panel-01",
+  "assignment_id": "S2-c174f0e36bef5fedb717095f1cea01f6",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:838183d6ab8a]",
+  "status": "IN_PROGRESS",
+  "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
+  "source_sha": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "official_review_blob": "dcc2a0a1da7437f72e9ae0e2312cec8862b61aeb",
+  "checked_rows": 1207,
+  "unique_edits": 923,
+  "reviewed_sequentially": [
+    "B1-zh-00089..B1-zh-00103",
+    "B2-zh-00001..B2-zh-00057",
+    "A38090-zh-00001..A38090-zh-00039",
+    "A38091-zh-00001..A38091-zh-00119",
+    "B3-zh-00001..B3-zh-00076",
+    "A23947-zh-00001..A23947-zh-00285",
+    "A23948-zh-00001..A23948-zh-00062",
+    "A23949-zh-00001..A23949-zh-00073",
+    "A23950-zh-00001..A23950-zh-00090",
+    "A23951-zh-00001..A23951-zh-00039",
+    "A23952-zh-00001..A23952-zh-00051",
+    "A23953-zh-00001..A23953-zh-00055",
+    "A23954-zh-00001..A23954-zh-00021",
+    "A23955-zh-00001..A23955-zh-00040",
+    "A23956-zh-00001..A23956-zh-00049",
+    "A23957-zh-00001..A23957-zh-00048"
+  ],
+  "english_status": "Exact English full-text sources were read for B1, B2 and linked decree annexes A38090/A38091. No independent English source exists for B3, its four rule annexes and seven forms; these were checked against Korean originals.",
+  "validation": {
+    "all_1207_chinese_row_ids_present": true,
+    "all_1207_rows_in_review_checkpoint": true,
+    "all_923_edit_ids_unique_and_present": true,
+    "duplicate_edit_ids": 0,
+    "orphan_edit_ids": 0,
+    "effective_translation_hangul_count": 0,
+    "effective_translation_placeholder_count": 0,
+    "source_sha_matches_active_C01": true
+  },
+  "remaining_blockers": [
+    "Source XML/cell-level alignment has not been independently re-read; segmented rows in annexes and forms contain intentional line fragments and empty continuation cells.",
+    "Final cross-check of all annex/form table cell positions against original XML or authoritative cell structure is still pending."
+  ],
+  "next_action": "Perform final annex/form cell alignment verification and review intentional empty continuation cells. Only after resolving all cell-level discrepancies and confirming every legal provision/form field should review status become COMPLETE and receipt be created.",
+  "note": "All 1207 Chinese row IDs received sequential semantic review and 923 minimal corrections are retained. The current row-level mechanical validation has no missing/duplicate/orphan IDs and no effective Hangul or placeholder tokens. Do not issue COMPLETE or receipt yet because source XML cell alignment remains an explicit final verification blocker."
+}
