@@ -1,0 +1,53 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "family": "실용신안법",
+  "worker": "C05",
+  "assignment_marker": "[WORK-TASK:C05:F-00583cebe057fc2929d1:bfa4f11b6ced]",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "8959d98ca282198488c4801ab2a5e66ccb92af80",
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "prior_corrections": 228,
+  "new_corrections": [
+    {
+      "id": "B1-zh-00058",
+      "source_hash": "e946b54d70a06b6c28b2ec700dc28ee00af244cdc47abfc095f398ee72cd6645",
+      "decision": "CORRECT",
+      "reason": "제45조제1항 전용실시권 및 해당 버전 공식 영어 exclusive license는 일반 전속적 권리(专有权)가 아니라 专用实施权임."
+    },
+    {
+      "id": "B1-zh-00063",
+      "source_hash": "7d2aedc187e80083ccbe36d4270faddb942d5bab231460ce62a1bff2921804dd",
+      "decision": "CORRECT",
+      "reason": "제49조의2제2항의 고소는 일반적 申诉가 아니라 형사 고소(刑事告诉)로서 공소 제기의 필요조건임. 공식 영문 complaint 대조."
+    },
+    {
+      "id": "B1-zh-00067",
+      "source_hash": "12fcb2a26487ea1d2746a5258fe0a4a4f3cde7da689c7cf72069c3ad0f1af438",
+      "decision": "CORRECT",
+      "reason": "제52조 및 동일 버전 공식 영어의 Intellectual Property Tribunal / Minister of Intellectual Property: 특허심판원 명칭과 지식재산처장 부과·징수 권한을 오역한 부분 정정."
+    },
+    {
+      "id": "B1-zh-00070",
+      "source_hash": "e493920fc2dab0561639ef78fffe8d730132b7ff9b2cf4c0a47d3e1bcefa36cd",
+      "decision": "CORRECT",
+      "reason": "부칙 제2조 '시행 후 최초로 출원하는 ...부터 적용'은 첫 출원 1건에만 적용하는 것이 아니라 첫 출원부터 이후 신청에 적용하는 기준임."
+    }
+  ],
+  "total_corrections": 232,
+  "pending_rows_preserved": 89,
+  "english_note": "Same-version official EN exists for law/decree, rule and forms only older-version fallback; English draft not authoritative.",
+  "reading_status": "FULL_KO_EN_ZH_SEQUENTIAL_READING_NOT_VERIFIED",
+  "completion_receipt": null,
+  "notes": "기저장 228건 유지. 4행의 전용실시권·고소·특허심판원/부과징수·부칙 적용시점 오역만 교정. 전체 24문서 순차 독해 및 별표·서식 원문 대응 89행 미검증. COMPLETE 미기록."
+}
