@@ -1,0 +1,38 @@
+{
+  "schema": "LAW_ZH_REVIEW_AUDIT_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:8021dd04f714]",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "review_path": "review/zh/F-7423351d4946866bbacf.json",
+  "review_blob": "aed03e1c30bbcd6c02773e278044241272d9b29e",
+  "family_documents": 16,
+  "chinese_source_rows": 1207,
+  "prior_corrections": 245,
+  "cumulative_corrections": 248,
+  "newly_corrected_ids": [
+    "B3-zh-00008",
+    "B3-zh-00037",
+    "B3-zh-00047"
+  ],
+  "correction_reasons": {
+    "B3-zh-00008": "Facilities items 3 and 4 erroneously translated as paragraphs 3 and 4",
+    "B3-zh-00037": "한국해양수산개발원 incorrectly rendered 韩国海洋研究院; fixed 韩国海洋水产开发院",
+    "B3-zh-00047": "Buyer's mandatory electronic market usage charge mislabeled 买家须知"
+  },
+  "english_note": "Independent exact-version English available for B1/B2; NO_DOCUMENT_ENGLISH for B3 and rule annexes/forms. Korean controlling text for these.",
+  "source_sha_unchanged": true,
+  "existing_edits_preserved": true,
+  "full_semantic_review_completed": false,
+  "unresolved": [
+    "All 1207 Chinese rows not yet independently certified for full legal meaning equivalence",
+    "Annexes and forms XML source-cell alignment, especially punctuation-only source rows, not resolved"
+  ],
+  "completion_receipt_issued": false,
+  "next_action": "Continue same assigned legal family; establish full row-level Korean to Chinese semantic comparison and all annex/form cell alignment before changing status to COMPLETE."
+}
