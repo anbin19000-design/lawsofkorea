@@ -1,0 +1,27 @@
+{
+  "assignment_id": "S2-8f70e317249155938a79444493d089b4",
+  "at_commit": "40e3f632212b34fe910640703676dcc7cdb97d20",
+  "excluded": {
+    "records_without_full_matching_identity": 123
+  },
+  "files": [],
+  "job_id": "F-0536890d62605f77ff0a",
+  "listed_checked_id_sources": {},
+  "lookup_for_prior_turn": [
+    {
+      "blob": "c73f6b2e86a61c84e576749b86e4d8c165c9fcd3",
+      "note": "두 미확정 셀은 한국어/인접 행 재대조에서 오염을 확인했으나 비어 있지 않은 정확한 대체 셀을 보장할 수 없어 교정문 저장 보류. 기저장·원본 ID/해시 불변. 다음 서식 계속.",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26697-A26699-unresolved-quality-01.json"
+    }
+  ],
+  "notes": "보존된 검수 근거의 위치를 찾는 색인입니다. 미확정 두 셀은 기존 품질 기록의 보류 사유와 적용 범위를 보존하십시오. 다른 셀의 검수와 가족 전체의 순차 독해를 이어가십시오. 미확정 보류로 인한 완료 미발행을 준수하십시오. 이 색인은 전체 검수 증거가 아닙니다.",
+  "schema": "LAW_FAMILY_SUPERVISOR_EVIDENCE_INDEX_V1",
+  "source_blobs": {
+    "en": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+    "ko": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+    "zh": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c"
+  },
+  "status": "IN_PROGRESS",
+  "stored_edit_candidates": {},
+  "worker": "C03"
+}
