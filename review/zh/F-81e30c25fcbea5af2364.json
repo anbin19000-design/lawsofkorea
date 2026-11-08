@@ -2476,6 +2476,15 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-2b569e8b1d3b.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
       "reason": "韩文第52条第4款第1项明确规定“해당 스마트혁신사업의 일시적 또는 영구적 중지”（暂时或永久中止项目），原译仅写“相关项目”，遗漏核心法律措施；其余内容保留原有结构，仅作少量必要规范术语调整。"
+    },
+    {
+      "id": "B1-zh-00108",
+      "text": "第十二条（其他法律的修正）①至<53> 已省略\n\n  <54> 《普适城市建设等法》部分修改如下。\n\n  第十五条第一款第十三项中的“转换许可或申报”应改为“转换许可或申报，以及根据同一法第十五条之二规定的山地临时使用许可或申报”。\n\n  <55> 至 <89> 已省略\n\n",
+      "source_hash": "c3e475ff4b9f631fdd10df4440cac69db680b26611502dae9fa3c4599783d5e2",
+      "target_id": "4b3a18e3fa0d9b85e752dde1e0b55b7f736fb9be9ed94934cc9c44fa7582b369",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-2b569e8b1d3b.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "韩文修法内容明确新增“산지일시사용허가ㆍ신고”（山地临时使用许可及申报）；原中文仅译出许可，遗漏申报这一并列法律行为，现补齐。"
     }
   ],
   "adjudicated_edit_count": 288,
@@ -7667,12 +7676,13 @@
     "2026-11-08 C02 refinement: refined the previously accepted B1-zh-00033 edit to make the two co-chair structure explicit; this updates an existing edit and does not increase unique checked-row count.",
     "2026-11-08 C02 continuation: corrected B1-zh-00037 for the meaning of 소속 공무원 and the defined Association; retained the overall article structure.",
     "2026-11-08 C02 continuation: four clear translation/reference errors in B1 Articles 38, 39, 42 and 42-2 corrected against Korean source. Existing edits preserved.",
-    "2026-11-08 C02 continuation: four source-grounded corrections in B1 rows 00061, 00063, 00065 and 00072; prior edits including Article 53-3 numbering preserved."
+    "2026-11-08 C02 continuation: four source-grounded corrections in B1 rows 00061, 00063, 00065 and 00072; prior edits including Article 53-3 numbering preserved.",
+    "2026-11-08 C02 continuation: restored the omitted 신고 (filing/notification) element for temporary mountain use in B1-zh-00108; no style-only rewrites."
   ],
   "integration_progress": {
-    "stage": "B1_ARTICLES42_3_TO52_TERMINOLOGY_AND_OPERATIVE_TEXT_RECONCILED",
+    "stage": "B1_TRANSITIONAL_AMENDMENT_CLAUSE_00108_RECONCILED",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:2b569e8b1d3b",
-    "note": "Corrected B1 Article 42-3 legal title terminology, Article 44 cross-act reference, Article 46 deleted-article label, and omitted suspension action in Article 52(4)(1). Whole family remains IN_PROGRESS."
+    "note": "Restored the omitted notification/filing element in B1 transitional amendment clause B1-zh-00108. Whole family remains IN_PROGRESS."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -7989,7 +7999,8 @@
     "B1-zh-00061",
     "B1-zh-00063",
     "B1-zh-00065",
-    "B1-zh-00072"
+    "B1-zh-00072",
+    "B1-zh-00108"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
