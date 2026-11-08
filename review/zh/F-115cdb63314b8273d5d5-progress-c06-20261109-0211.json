@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 4165,
+    "verified_zh_rows": 4300,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 4165,
-      "checked_rows": 4165,
+      "next_row_zero_based": 4300,
+      "checked_rows": 4300,
       "total_rows": 5228
     }
   },
@@ -6475,9 +6475,249 @@
       "text": "批准",
       "original_text": "付款",
       "reason": "결재를 지불로 오역"
+    },
+    {
+      "id": "A4691-zh-00001",
+      "text": "■《道路法施行规则》[附件表格第26号]",
+      "original_text": "■ 道路交通法执行规则 [附件表格编号 26]",
+      "reason": "도로법 시행규칙을 도로교통법 시행규칙으로 오역"
+    },
+    {
+      "id": "A4691-zh-00002",
+      "text": "道路占用许可变更申请书",
+      "original_text": "道路占用权变更许可证申请",
+      "reason": "도로점용허가 변경허가 신청서의 명칭을 권리변경으로 오역"
+    },
+    {
+      "id": "A4691-zh-00005",
+      "text": "收件日期",
+      "original_text": "收货日期",
+      "reason": "접수일을 물품 수령일로 오역"
+    },
+    {
+      "id": "A4691-zh-00006",
+      "text": "办理期限（参见背面）",
+      "original_text": "处理周期MTQc2e2f91c71addd2000420结束",
+      "reason": "처리기간에 MTQ 잔존"
+    },
+    {
+      "id": "A4691-zh-00007",
+      "text": "参见背面",
+      "original_text": "查看背面",
+      "reason": "뒤쪽 참조를 부정확하게 번역"
+    },
+    {
+      "id": "A4691-zh-00009",
+      "text": "姓名（法人填写法人名称及代表人姓名）",
+      "original_text": "Name（如果是公司，则填写公司名称和代表姓名）",
+      "reason": "신청인 성명을 영어 Name으로 미번역"
+    },
+    {
+      "id": "A4691-zh-00016",
+      "text": "许可期限",
+      "original_text": "权限期限",
+      "reason": "허가기간을 권한 기간으로 오역"
+    },
+    {
+      "id": "A4691-zh-00018",
+      "text": "②占用目的",
+      "original_text": "② 占用目的",
+      "reason": "항 번호 표기를 정돈"
+    },
+    {
+      "id": "A4691-zh-00019",
+      "text": "占用地点及面积",
+      "original_text": "占用地点和区域",
+      "reason": "점용 장소 및 면적을 일반 구역으로 축소"
+    },
+    {
+      "id": "A4691-zh-00021",
+      "text": "④变更事项",
+      "original_text": "④ 更改",
+      "reason": "변경 사항을 일반 변경 동사로 축소"
+    },
+    {
+      "id": "A4691-zh-00022",
+      "text": "本人依据《道路法》第六十一条第一款及同法施行规则第二十六条第二款，申请变更上述道路占用许可。",
+      "original_text": "根据《道路法》第61条第1款和该法实施细则第26条第2款的规定，对上述道路占用许可证进行变更[新]",
+      "reason": "신청문에 [新] 잔존 및 법령명 오류"
+    },
+    {
+      "id": "A4691-zh-00030",
+      "text": "致道路管理机关",
+      "original_text": "您的",
+      "reason": "도로관리청 귀하를 ‘당신의’로 오역"
+    },
+    {
+      "id": "A4691-zh-00032",
+      "text": "与变更事项有关的文件、图纸等",
+      "original_text": "与变更相关的文档、图纸等",
+      "reason": "변경 관련 첨부서류 표현 정돈"
+    },
+    {
+      "id": "A4691-zh-00033",
+      "text": "手续费",
+      "original_text": "费用",
+      "reason": "수수료를 일반 비용으로 축소"
+    },
+    {
+      "id": "A4691-zh-00034",
+      "text": "1,000韩元，或按行政机关所属地方自治团体条例规定的金额",
+      "original_text": "1,000 韩元或行政机构",
+      "reason": "수수료 및 조례 금액 문장 훼손"
+    },
+    {
+      "id": "A4691-zh-00040",
+      "text": "法律依据",
+      "original_text": "基本法",
+      "reason": "근거 법률을 기본법으로 오역"
+    },
+    {
+      "id": "A4691-zh-00043",
+      "text": "并征收损失补偿金。[]",
+      "original_text": "I 应予征收（《道路法》第72条和第114条第6款）。",
+      "reason": "변상금 부과 문장을 문자 I로 훼손"
+    },
+    {
+      "id": "A4691-zh-00048",
+      "text": "4. 如拟延长占用期限，应在许可期限届满前取得延期许可。",
+      "original_text": "4. 如果您打算延长入住期限，则必须在许可证到期前获得延期许可证。",
+      "reason": "점용기간을 입주기간으로 오역"
+    },
+    {
+      "id": "A4691-zh-00049",
+      "text": "填写方法",
+      "original_text": "如何填写",
+      "reason": "작성방법 서식 용어 정돈"
+    },
+    {
+      "id": "A4691-zh-00055",
+      "text": "办理期限（参见背面）",
+      "original_text": "处理周期MTQc2e2f91c71addd2000420结束",
+      "reason": "처리기간 MTQ 잔존"
+    },
+    {
+      "id": "A4691-zh-00069",
+      "text": "洞",
+      "original_text": "东",
+      "reason": "동(洞)을 동쪽으로 오역"
+    },
+    {
+      "id": "A4691-zh-00070",
+      "text": "区",
+      "original_text": "旧",
+      "reason": "구(區)를 옛것으로 오역"
+    },
+    {
+      "id": "A4691-zh-00072",
+      "text": "区、邑、面",
+      "original_text": "顾·邑·面",
+      "reason": "구·읍·면을 음역으로 훼손"
+    },
+    {
+      "id": "A4691-zh-00075",
+      "text": "养护科",
+      "original_text": "区域土地管理办公室",
+      "reason": "담당부서 보수과를 국토관리사무소로 오역"
+    },
+    {
+      "id": "A4691-zh-00076",
+      "text": "养护科",
+      "original_text": "区域土地管理办公室",
+      "reason": "일반국도 담당부서를 오역"
+    },
+    {
+      "id": "A4691-zh-00083",
+      "text": "道路临时占用",
+      "original_text": "道路临时占用",
+      "reason": "도로 일시점용 항목 표기를 유지"
+    },
+    {
+      "id": "A4691-zh-00084",
+      "text": "洞",
+      "original_text": "东",
+      "reason": "동(洞)을 동쪽으로 오역"
+    },
+    {
+      "id": "A4691-zh-00085",
+      "text": "临时占用",
+      "original_text": "时间",
+      "reason": "일시점용을 시간으로 오역"
+    },
+    {
+      "id": "A4691-zh-00087",
+      "text": "区、邑、面",
+      "original_text": "顾·时邑·面",
+      "reason": "구·읍·면을 음역으로 훼손"
+    },
+    {
+      "id": "A4691-zh-00088",
+      "text": "区、市、邑、面",
+      "original_text": "顾·时邑·面",
+      "reason": "구·시·읍·면을 음역으로 훼손"
+    },
+    {
+      "id": "A4691-zh-00092",
+      "text": "拱门及人行天桥的使用",
+      "original_text": "拱桥和立交桥的使用",
+      "reason": "아치 및 육교 사용을 교량으로 오역"
+    },
+    {
+      "id": "A4691-zh-00103",
+      "text": "构筑物的安装",
+      "original_text": "安装工件",
+      "reason": "공작물 설치를 작업물 설치로 오역"
+    },
+    {
+      "id": "A4691-zh-00107",
+      "text": "市、郡",
+      "original_text": "古·思·Gun",
+      "reason": "시·군을 음역과 영문으로 훼손"
+    },
+    {
+      "id": "A4691-zh-00108",
+      "text": "市、道",
+      "original_text": "城市/省份",
+      "reason": "시·도를 행정구역 명칭으로 정돈"
+    },
+    {
+      "id": "A4691-zh-00118",
+      "text": "市、郡",
+      "original_text": "古·思·Gun",
+      "reason": "시·군을 음역과 영문으로 훼손"
+    },
+    {
+      "id": "A4691-zh-00119",
+      "text": "市、郡",
+      "original_text": "古·思·Gun",
+      "reason": "시·군을 음역과 영문으로 훼손"
+    },
+    {
+      "id": "A4691-zh-00129",
+      "text": "申请指南及办理程序",
+      "original_text": "应用指南和处理流程",
+      "reason": "신청안내 및 처리절차 표제 정돈"
+    },
+    {
+      "id": "A4691-zh-00132",
+      "text": "主管部门",
+      "original_text": "部门负责人",
+      "reason": "담당부서를 부서 책임자로 오역"
+    },
+    {
+      "id": "A4691-zh-00134",
+      "text": "2. 一般国道：国土管理事务所",
+      "original_text": "2. 国道总局：区域土地管理办公室",
+      "reason": "일반국도 신청처 오역"
+    },
+    {
+      "id": "A4691-zh-00135",
+      "text": "2. 一般国道：养护科",
+      "original_text": "2. 国家公路总局：养护部",
+      "reason": "일반국도 담당부서 오역"
     }
   ],
-  "note": "Sequential review advanced through row 4164, completing A4689 road occupation permit application and A4690 road occupation permit extension application forms, including processing table, application routing and procedural notes. Added 38 focused corrections for local government jurisdiction labels, processing table terminology, receipt/department/approval labels, application title and fields, fees, legal basis, compensation charge and permit extension terminology. Previous 1014 edits retained. Continue from row 4165 with A4691. IN_PROGRESS.",
+  "note": "Sequential review advanced through row 4299, covering A4691 road occupation permit change application (front and processing table). Added 39 targeted corrections for statute title, receipt/processing labels and MTQ, applicant/permit period/change fields, addressee/attachments/fees, legal notices, local government administrative units, temporary occupation and application offices. Previous 1054 edits retained. Continue from row 4300. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
