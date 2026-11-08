@@ -1,0 +1,42 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-3705abbc710de4b867bc",
+  "assignment_id": "S2-8183a621b8430dee4e0cc754affc1b45",
+  "worker": "C05",
+  "branch": "main",
+  "action_id": "9b4f5097fdd17db7a1",
+  "status": "IN_PROGRESS",
+  "basis_commit": "7ee9cd5d441a4debc182592939f4e45fc1e61bf3",
+  "source_blobs": {
+    "ko": "7974bf81d14f4838ae85d4b3ceea80a2f0e65fed",
+    "zh": "045dd328cd77f3eecd8b6cd485be27f2389773e8",
+    "en": "608343efc91f6dc84efbcee2e5a9276a847e3a67"
+  },
+  "preserved_coverage": {
+    "documents": 26,
+    "unique_rows": 1162,
+    "source": "prior handoff/progress coverage; no new rows claimed"
+  },
+  "quality_checked_rows": 2,
+  "quality_records": [
+    {
+      "id": "A25281-zh-00040",
+      "source_hash": "2798c2cbad8d89d5209b808af1096c1601940dcd2a494eb01844e9a028b69cae",
+      "candidate_text": "应按各工厂分别附上）",
+      "decision": "PASS",
+      "basis_ko": "상인 경우에는 공장별로 첨부합니다)",
+      "context": "The Korean form cell is split after '둘 이' in A25281-zh-00038; existing correction in prior progress for 00038 is '1. 营业执照复印件或同等文件（如有两家以上工厂制造同一产品，'. The two corrected cells jointly preserve the condition of two or more factories manufacturing the same product and the requirement to attach a document per factory.",
+      "action": "retain_existing_correction"
+    },
+    {
+      "id": "B2-zh-00063",
+      "source_hash": "e25ba860f2c6ac2b44970b3aa77173a72a01485c31c8d2f41392e8db40bbaf47",
+      "candidate_text": "附则（关于因新设统合特别市而部分修改消防厅主管的21项法令的总统令）<第36432号，2026年6月23日>\n\n本施行令自2026年7月1日起施行。\n\n",
+      "decision": "PASS",
+      "basis_ko": "부칙(통합특별시 신설에 따른 소방청 소관 21개 법령의 일부개정에 관한 대통령령) <제36432호,2026.6.23>\n\n이 영은 2026년 7월 1일부터 시행한다.",
+      "context": "Title, decree number, promulgation date and effective date correspond to the source. The unrequested appended Annex 1 content visible in the existing zh row is absent from the correction and is stored separately under A38429.",
+      "action": "retain_existing_correction"
+    }
+  ],
+  "next_step": "Continue checking remaining unique correction candidates against Korean source and existing quality records. Do not issue COMPLETE or receipt until every candidate is verified; preserve prior files."
+}
