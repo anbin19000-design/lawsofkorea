@@ -1,0 +1,97 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:d26729c18cac",
+  "status": "IN_PROGRESS",
+  "phase": "POST_FULL_READ_TARGETED_LEGAL_ACCURACY_REVIEW",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_en_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "canonical_review_blob_sha": "5236e9846e7d78ae7d9f58ebd89e659581604fc0",
+  "read_confirmation": {
+    "korean_full_read": true,
+    "available_english_full_read": true,
+    "chinese_1136_rows_read": true,
+    "source_shas_unchanged": true,
+    "previous_read_record": "review/zh/F-0536890d62605f77ff0a-progress-C03-ef290af4a19d-full-zh-review.json"
+  },
+  "prior_review_edits": 788,
+  "new_review_edits": 4,
+  "current_review_edits": 792,
+  "edits": [
+    {
+      "id": "B1-zh-00032",
+      "ko": "정원 초과 등 ... 제33조에 따른 인신매매등피해자지원시설",
+      "meaning": "Overcapacity of specified victim support facility, not vague capacity limit."
+    },
+    {
+      "id": "B1-zh-00037",
+      "ko": "지원시설의 장",
+      "meaning": "head of support facility, not support organization"
+    },
+    {
+      "id": "B1-zh-00046",
+      "ko": "지원시설의 이용 및 지원내용 등의 권리",
+      "meaning": "right to use support facility and receive support details"
+    },
+    {
+      "id": "B1-zh-00051",
+      "ko": "양벌규정",
+      "meaning": "dual punishment provision, not joint liability"
+    }
+  ],
+  "layout_anomalies_held": [
+    {
+      "id": "A39474-zh-00040",
+      "text": "."
+    },
+    {
+      "id": "A39476-zh-00006",
+      "text": "有。 "
+    },
+    {
+      "id": "A39476-zh-00010",
+      "text": "必须。 "
+    },
+    {
+      "id": "A39477-zh-00006",
+      "text": "."
+    },
+    {
+      "id": "A39477-zh-00008",
+      "text": "."
+    },
+    {
+      "id": "A39478-zh-00027",
+      "text": "不是这样的。 "
+    },
+    {
+      "id": "A26697-zh-00008",
+      "text": "金"
+    },
+    {
+      "id": "A26699-zh-00053",
+      "text": "按需。 "
+    }
+  ],
+  "english_document_absent": [
+    "B3",
+    "A26693",
+    "A26694",
+    "A26695",
+    "A26696",
+    "A26697",
+    "A26698",
+    "A26699",
+    "A26700",
+    "A26701",
+    "A26702",
+    "A26703",
+    "A26704",
+    "A26705"
+  ],
+  "completion_receipt_created": false,
+  "reason_not_complete": "Exact XML-to-source segmentation provenance for eight isolated tokens remains unverified; do not delete or claim final semantic completeness without source mapping.",
+  "next_action": "Compare raw attached annex/form XML cell target IDs with authoritative source layouts, reconcile eight held tokens, then perform final integrated verification and issue COMPLETE receipt only when proven."
+}
