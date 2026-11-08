@@ -10,8 +10,8 @@
   "document_count": 22,
   "source_rows": 1136,
   "checked_rows": null,
-  "candidate_ids_reconciled": 802,
-  "edits_count": 788,
+  "candidate_ids_reconciled": 806,
+  "edits_count": 792,
   "unchanged_candidates": 14,
   "conflict_ids_adjudicated": [
     "A26693-zh-00039",
@@ -23,7 +23,7 @@
     "B2-zh-00006"
   ],
   "document_edit_counts": {
-    "B1": 32,
+    "B1": 36,
     "B2": 25,
     "A39474": 44,
     "A39475": 48,
@@ -3986,6 +3986,26 @@
       "id": "B2-zh-00016",
       "source_hash": "643e1d0b3fadbedfc846cf08f2873130ebe5cfed3ede0405a3b3f690c0c9991d",
       "text": "第十五条（报告义务）本法第二十一条第二款第十一项中“总统令规定的设施”是指下列各项所指的任何设施。\n1. 根据《无家可归者福利及自立支援法》设立的无家可归者设施。\n2. 韩国海员福利就业中心依据《海员法》第142条规定\n3. 根据《儿童福利法》第45条设立的儿童保护机构\n4. 根据《外国劳动者雇佣等法施行令》第三十一条第二款及第三款，受托执行《外国劳动者雇佣等法》第二十一条规定的业务的韩国产业人力公团、非营利法人或者非营利团体。\n5. 根据《残疾人福利法》第59-11条第1款设立的残疾人权利中央倡导机构和根据该条第2款设立的残疾人权利区域倡导机构\n\n"
+    },
+    {
+      "id": "B1-zh-00032",
+      "source_hash": "f36e95b19ead493c7fd5ee1f7d49d1d94df506ef94a15ca437368d1bd7d2d928",
+      "text": "第30条（生计支持）\n① 如果出现不可避免的情况，导致无法按照第三十三条通过第三十三条规定的人口贩运等受害者支援设施保护受害者等，例如入住人数超过定员，国家或者地方政府可以在预算范围内，综合考虑受害者等的生活条件和维持生计的能力，向其提供生活必需品，例如物资和金钱，使其能够维持最低限度的生活。\n② 第1款规定的生计支持范围和支持程序等事项，由总统令规定。\n\n"
+    },
+    {
+      "id": "B1-zh-00037",
+      "source_hash": "885cb8d00374209cc8b0dca098fb25d7a9a0b5f3e5cd03f8a0404e07901a9b1a",
+      "text": "第35条（尊重受害者等的意愿）支援设施负责人不得违背受害者等的意愿，履行第34条规定的职责。\n\n"
+    },
+    {
+      "id": "B1-zh-00046",
+      "source_hash": "4e83799a8e3b5376db468be47096274192bda0e04d87a195ee6956095845178e",
+      "text": "第四十四条（向外国人告知权利等）\n① 在调查外国公民受害者时，调查机关应当告知受害者根据本法、移民管制法特别规定在调查和审判程序中获得协助的权利、使用支援设施及获得相关支援的权利。\n② 调查机关和法院应当向外国受害人提供必要的口译和笔译支持。\n\n第6章补充规定\n\n"
+    },
+    {
+      "id": "B1-zh-00051",
+      "source_hash": "91f5a2c6162363d079088a438060375c578ec0a9cf13490559c6e8d3d7c1462e",
+      "text": "第四十九条（双罚规定）  如果法人代表、代理人、雇员或其他工作人员在与该法人或个人的业务相关的范围内违反第四十八条的规定，除处罚违法者外，该法人或个人还应承担该条规定的罚款。但是，如果该法人或个人在相关业务中没有疏忽尽到合理的注意和监督义务以防止违法行为的发生，则不适用本条规定。\n\n"
     }
   ],
   "unresolved_ids": [
@@ -4037,7 +4057,7 @@
     "ready_for_complete": false,
     "structural_audit_passed": true
   },
-  "note": "Preserved prior records; corrected B3-zh-00006 in-place and B2-zh-00016 item 4 official organization and entrustment relationship. Full semantic QA and unresolved form/table layout remain pending.",
+  "note": "C03 d26729c18cac: prior 788 edits preserved, four Korean-grounded minimal corrections on B1 Articles 30,35,44,49 added. Source and existing edits retained. Final XML fragment provenance remains unresolved; COMPLETE not authorized.",
   "structural_audit": {
     "path": "review/zh/F-0536890d62605f77ff0a-progress-C03-a166f62f1d4a-structural-audit.json",
     "metrics": {
@@ -4053,5 +4073,5 @@
     },
     "meaning_review_complete": false
   },
-  "last_review_task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:d28d2c522ad0"
+  "last_review_task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:d26729c18cac"
 }
