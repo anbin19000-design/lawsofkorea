@@ -1,0 +1,37 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0e85eccd3114729a4e48",
+  "worker": "C04",
+  "status": "IN_PROGRESS",
+  "source_commit": "e4d2c9c2907b9faa27a0207136f59368478cdf57",
+  "source_blobs": {
+    "ko": "7a73f0fd20ea34126bcaa28cb6d800668ba02f87",
+    "en": "6e1e1fafe1ce67a3ff6a7b762ebc5d7b678d4b8b",
+    "zh": "6893de556d097781e2fbfee0ca8662250e56787d"
+  },
+  "scope": {
+    "documents": 46,
+    "zh_rows": 2809,
+    "english_rows_with_reference": 2556,
+    "english_missing_rows": 253
+  },
+  "reading_checkpoint": {
+    "required_order": "KO_FULL_EN_FULL_ZH_FULL",
+    "ko": "COMPLETE; sequentially read full source_ko across all 46 documents B1 B2 A38105–A38108 B3 A23999–A24037, including lengthy annexes and all form pages.",
+    "en": "NOT_STARTED; manifest retrieved using read-only Python GitHub raw route after GitHub fetch_file returned empty for 1.3 MB index. 2 unique official English documents mapped to 6 KO docs. Read only after all Korean documents.",
+    "zh": "NOT_STARTED; rows and unique IDs verified but no row-level comparative review or edits begun.",
+    "next_step": "Read both linked English original full texts in order B1 then B2; then begin Chinese sequential review B1-zh-00001 through row 2809."
+  },
+  "english_coverage": {
+    "document_statuses": {
+      "EXACT_ENGLISH_AVAILABLE": 6,
+      "NO_DOCUMENT_ENGLISH": 40
+    },
+    "paths": [
+      "documents/en/kr-012312-259239-en.json",
+      "documents/en/kr-012585-280589-en.json"
+    ]
+  },
+  "findings": [],
+  "note": "No completed Chinese corrections, no COMPLETE claim or receipt. KO/EN/ZH source SHA captured. Originals unchanged."
+}
