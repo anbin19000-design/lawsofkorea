@@ -1,0 +1,94 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 27,
+  "checked_ids": [
+    "A25467-zh-00005",
+    "A25467-zh-00006",
+    "A25467-zh-00007",
+    "A25467-zh-00008",
+    "A25467-zh-00009",
+    "A25467-zh-00010",
+    "A25467-zh-00011",
+    "A25467-zh-00012",
+    "A25467-zh-00013",
+    "A25467-zh-00014",
+    "A25467-zh-00015",
+    "A25467-zh-00016",
+    "A25467-zh-00017",
+    "A25467-zh-00018",
+    "A25467-zh-00019",
+    "A25467-zh-00020",
+    "A25467-zh-00021",
+    "A25467-zh-00022",
+    "A25467-zh-00023",
+    "A25467-zh-00024",
+    "A25467-zh-00025",
+    "A25467-zh-00026",
+    "A25467-zh-00027",
+    "A25467-zh-00028",
+    "A25467-zh-00029",
+    "A25467-zh-00030",
+    "A25467-zh-00031"
+  ],
+  "edits": [
+    {
+      "id": "A25467-zh-00006",
+      "source_hash": "b94e182b9a95d9dc23294428515515c68a59d1d634e19d301cdc19e9a9516fed",
+      "target_id": "XML:1802782",
+      "text": "第　号"
+    },
+    {
+      "id": "A25467-zh-00010",
+      "source_hash": "7e53d842dd0fd3a5f45f9a5162eb0ddefccb0e462c2c1c38b1e4f0d5a81dd547",
+      "target_id": "XML:1802787",
+      "text": "营业（法人）登记号码"
+    },
+    {
+      "id": "A25467-zh-00013",
+      "source_hash": "261b57a79be08234e7fecc714416fc5066fe557c83f23b6ae778c5c825138510",
+      "target_id": "XML:1802790",
+      "text": "负责人姓名"
+    },
+    {
+      "id": "A25467-zh-00017",
+      "source_hash": "085bbf8840b5bd20723df5fabce60dd5b8b6f9c387e0d30624a1e9f6a8ca316c",
+      "target_id": "XML:1802795",
+      "text": "规制特例及规制改善所涉及的法律法规"
+    },
+    {
+      "id": "A25467-zh-00018",
+      "source_hash": "346942363717a71392645e0800f71648288e74afc376e473e6350381fef9c8",
+      "target_id": "XML:1802796",
+      "text": "实施地区"
+    },
+    {
+      "id": "A25467-zh-00019",
+      "source_hash": "177c9759b162af824022de6bb975a2c5fb3326a52e03b10ec748379b3af5698f",
+      "target_id": "XML:1802797",
+      "text": "特例条件"
+    },
+    {
+      "id": "A25467-zh-00029",
+      "source_hash": "5d198bb5e838918707a8044806bdf8567e7d1a9dde69dc6d15d873ed679d8657",
+      "target_id": "XML:1802807",
+      "text": "国土交通部长官"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "unresolved": [
+    {
+      "id": "A25467-zh-00025",
+      "note": "Existing Chinese 00025 restates approval confirmation already translated in R6 rows 23-24; Korean printed sentence spans aligned cells and requires full row reconstruction to avoid duplication. Not changed here."
+    }
+  ],
+  "note": "R87 compared A25467 approval confirmation form 5 rows 05-31; seven clearly wrong uncorrected labels fixed. Existing R6 cells 01-04,09,16,20-24 retained. Original rows/hash preserved; no COMPLETE receipt."
+}
