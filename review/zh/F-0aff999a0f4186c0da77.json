@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 437,
+    "correction_count": 445,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -3084,6 +3084,62 @@
       "original": "第三十九条（授权和委托）\n① 根据本法，公平交易委员会的权力可以部分委托给附属机构负责人或省市知事，或者委托给其他行政机构负责人，具体由总统令规定。<2007年8月3日修订；2018年3月27日修订>\n② 公平交易委员会可将下列各款所列的任何职责委托给依据《垄断规制与公平交易法》第72条设立的韩国公平交易调解机构，或委托给总统令规定的相关法人或组织。在此情况下，委员会可根据第1款规定，对委托管理所产生的费用提供全部或部分资助。<2007年8月3日、2012年2月17日、2020年12月29日修订>\n1. 关于依据第6-2条和第6-3条进行的信息披露声明的登记、拒绝登记和披露等事项\n2. 根据第27条第1款，特许经营交易专家资格考试的实施和管理职责\n\n",
       "corrected": "第三十九条（权限的委任与委托）\n① 公平交易委员会依据本法享有的权限，可以依总统令规定，将其一部分委任给所属机关负责人或市、道知事，或委托给其他行政机关负责人。<2007年8月3日、2018年3月27日修订>\n② 公平交易委员会可以依总统令规定，将下列任一业务委托给依据《垄断规制及公平交易法》第72条设立的韩国公平交易调解院，或相关法人、团体。在此情况下，可以支援第1项委托管理所需经费的全部或一部分。<2007年8月3日、2012年2月17日、2020年12月29日修订>\n1. 依据第6条之2及第6条之3办理信息披露声明登记、拒绝登记及公开等业务；\n2. 依据第27条第1款实施及管理加盟交易专家资格考试的业务。\n\n",
       "reason": "원문 제39조제2항은 위탁 가능 업무를 한국공정거래조정원 등에 위탁하고 비용 지원은 제1호 위탁관리에 소요되는 경비임. 중국어는 제1항 위임비용으로 잘못 연결하고 '관련 법인·단체' 범위를 축소함."
+    },
+    "B1-zh-00050": {
+      "doc": "B1",
+      "source_hash": "1d00db299ea2c0ea64dc6e7878d93c113650f77c67335b1118dee7803738c4da",
+      "original": "第29条之2（禁止出借特许经营交易专家登记证等）\n① 特许经营交易专员不得将其注册证书借给他人。\n② 任何人不得借用他人的特许经营交易专家注册证书。\n③ 任何人不得促成第1款和第2款禁止的任何行为。\n\n",
+      "corrected": "第二十九条之二（禁止出借加盟交易专家登记证等）\n① 加盟交易专家不得将自己的登记证出借给他人。\n② 任何人不得借用他人的加盟交易专家登记证。\n③ 任何人不得为第1款及第2款所禁止的行为提供 посред介。\n\n",
+      "reason": "가맹거래사(가맹거래 전문가) 법정 명칭을 '特许经营交易专员'로 부정확하게 옮긴 것을 통일."
+    },
+    "B1-zh-00051": {
+      "doc": "B1",
+      "source_hash": "921a2aceb6a75e3bbde79a6695110844196109351b9b2ecdcef9f5c781d71455",
+      "original": "第30条（特许经营交易代理人的职责）\n① 特许经营交易专员应忠实履行职责，维护自身尊严。<2007年8月3日修订>\n② 特许经营交易专员在履行职责时，不得故意隐瞒事实或作虚假报告。<2007年8月3日修订>\n\n",
+      "corrected": "第三十条（加盟交易专家的责任）\n① 加盟交易专家应当诚实履行职务并保持品位。<2007年8月3日修订>\n② 加盟交易专家履行职务时，不得故意隐瞒事实或作虚假报告。<2007年8月3日修订>\n\n",
+      "reason": "가맹거래사 명칭을 '交易代理人' 또는 '专员'로 혼용하지 않고 법률상 전문자격 명칭으로 통일."
+    },
+    "B1-zh-00061": {
+      "doc": "B1",
+      "source_hash": "f7950ff19c33e7f1b5f79adbc6f34b797b550fb31b9351b533ad2eb99e8dd2d6",
+      "original": "第34-4条（强制执行处罚）\n① 对于无正当理由未在同意令规定的执行期限内执行同意令的人，公平交易委员会可自执行期限届满之日起，每日处以不超过200万韩元的强制执行罚款，直至同意令得到执行或被撤销为止。\n②《垄断规制与公平交易法》第十六条第二款至第四款的规定，比照适用于强制执行罚款的征收、缴纳、收取、退还等。<2025年1月21日修订>\n\n",
+      "corrected": "第三十四条之四（履行强制金）\n① 公平交易委员会可以对无正当理由未在同意决定规定的履行期限内履行同意决定的人，自履行期限届满之日起，按每日不超过200万韩元征收履行强制金，直至同意决定得到履行或被撤销为止。\n② 关于履行强制金的征收、缴纳、收取及退还等，准用《垄断规制及公平交易法》第16条第2款至第4款。<2025年1月21日修订>\n\n",
+      "reason": "이행강제금은 벌금·행정처벌이 아닌 이행을 강제하는 금전부담이므로 '强制执行处罚/罚款'을 법정 개념에 맞게 교정."
+    },
+    "B1-zh-00063": {
+      "doc": "B1",
+      "source_hash": "0f70daf2e04217b73ecb501eeeee1edac55082245d4389b8722e9cd7c02d532a",
+      "original": "第三十六条（有关行政机关负责人的合作）  公平交易委员会认为为执行本法有必要时，可以听取有关行政机关负责人的意见，或者要求有关行政机关负责人提供人员支持，以进行调查或者提供其他必要的合作。\n\n",
+      "corrected": "第三十六条（有关行政机关负责人的协助）公平交易委员会认为为执行本法有必要时，可以听取有关行政机关负责人的意见，或请求有关行政机关负责人提供调查所需人员及其他必要协助。\n\n",
+      "reason": "관계 행정기관장의 협조 조항으로, 중국어의 '合作'보다 행정상 협조인 '协助'로 의미를 바로잡음."
+    },
+    "B1-zh-00064": {
+      "doc": "B1",
+      "source_hash": "eb1e2d084b9a38f23f7b7c00c39590b4ceb179311e3829ed4d92bc3bcab5daab",
+      "original": "第三十七条（垄断规制和公平交易法的适用）\n①《垄断规制与公平交易法》第64条至第68条、第81条（第1、2、3、6和9款）、第93条、第95条至第97条以及第101条的规定，比照适用于公平交易委员会依据本法进行的调查、审议、裁决和纠正建议。<2007年8月3日、2016年12月20日、2020年12月29日修订>\n② 《垄断规制与公平交易法》第103条至第107条的规定，比照适用于本法项下行政附加费的征收。<2004年12月31日；2007年8月3日；2013年8月13日；2020年12月29日修订>\n③ 关于异议、提起诉讼以及本法项下上诉的专属管辖权，参照适用《垄断规制与公平交易法》第96条、第97条、第98条之2、第99条和第100条的规定。<2007年8月3日、2016年3月29日、2017年4月18日、2020年12月29日、2024年2月6日修订>\n④ 《垄断规制与公平交易法》第119条经必要修改后适用于公平交易委员会委员、公职人员或根据本法履行或曾经履行职责的人员、在委员会负责或曾经负责特许经营业务交易纠纷调解的人员，以及根据第34条之3负责或曾经负责执行同意决议的人员。<2020年12月29日、2022年1月4日修订>\n⑤ 对于负责或曾经负责管理依据第34条之3执行同意决议的人员，《垄断规制与公平交易法》第123条第2款的规定，比照适用。<2022年1月4日新增>\n\n",
+      "corrected": "第三十七条（准用《垄断规制及公平交易法》）\n① 关于公平交易委员会依本法进行的调查、审议、表决及纠正建议，准用《垄断规制及公平交易法》第64条至第68条、第81条第1款、第2款、第3款、第6款及第9款、第93条、第95条至第97条及第101条。<2007年8月3日、2016年12月20日、2020年12月29日修订>\n② 关于依本法征收罚款附加费，准用《垄断规制及公平交易法》第103条至第107条。<2004年12月31日、2007年8月3日、2013年8月13日、2020年12月29日修订>\n③ 关于依本法提出异议申请、提起诉讼及不服之诉的专属管辖，准用《垄断规制及公平交易法》第96条、第97条、第98条之2、第99条及第100条。<2007年8月3日、2016年3月29日、2017年4月18日、2020年12月29日、2024年2月6日修订>\n④ 对依本法履行或曾履行职务的公平交易委员会委员、公务员，以及在协议会负责或曾负责特许经营业务交易纠纷调解业务的人员，和负责或曾负责依第34条之3管理同意决定履行情况的人员，准用《垄断规制及公平交易法》第119条。<2020年12月29日、2022年1月4日修订>\n⑤ 对负责或曾负责依第34条之3管理同意决定履行情况的人员，准用《垄断规制及公平交易法》第123条第2款。<2022年1月4日新增>\n\n",
+      "reason": "제37조제1항의 '의결'을 판결로 오해하지 않도록 하고, 제4항·제5항의 준용 대상자를 정확히 정리."
+    },
+    "B1-zh-00066": {
+      "doc": "B1",
+      "source_hash": "f0b25d4c63b06c56b970195154bd62344cf2afe326d3eef55979dc52aca44552",
+      "original": "第三十八条（与垄断规制及公平交易法的关系）  关于特许经营业务交易，本法所适用的事项不适用垄断规制及公平交易法第四十五条第一款第一项、第四项、第六项和第七项，也不适用该法第四十六条。<2007年8月3日修订；2020年12月29日修订>\n\n",
+      "corrected": "第三十八条（与《垄断规制及公平交易法》的关系）关于特许经营业务交易中适用本法的事项，不适用《垄断规制及公平交易法》第45条第1款第1项、第4项、第6项、第7项及该法第46条。<2007年8月3日、2020年12月29日修订>\n\n",
+      "reason": "제38조의 적용 배제 대상 조문과 법률 명칭을 정식 인용 형식으로 정리."
+    },
+    "B1-zh-00070": {
+      "doc": "B1",
+      "source_hash": "32cee9e4be49d25a3c292c87678326cca328609b9555fe5a91bc678a30e8a5bb",
+      "original": "第四十二条（连带责任规定）  如果法人代表、代理人、雇员或其他工作人员在与该法人或个人的业务相关的范围内违反第四十一条的规定，除处罚违法者外，该法人或个人还应承担相关条款规定的罚款。但是，如果该法人或个人在相关业务中没有疏忽尽到合理的注意和监督义务以防止违法行为的发生，则不适用本条规定。\n\n",
+      "corrected": "第四十二条（两罚规定）法人代表人，或法人或个人的代理人、受雇人及其他从业人员，就该法人或个人业务实施第41条规定的违法行为时，除处罚行为人外，还应对该法人或个人依相应条款处以罚金。但法人或个人为防止该违法行为，在相关业务方面已尽相当注意及监督义务的，不在此限。\n\n",
+      "reason": "양벌규정은 법인·개인에 대해 행위자와 별도로 벌금형을 과하는 규정이므로 '罚款'을 형사 벌금인 '罚金'으로 교정."
+    },
+    "B1-zh-00034": {
+      "doc": "B1",
+      "source_hash": "b35d6e459d8876c5e19ec1df7641318b98a5df8867badfa48fc022d5d3bede55",
+      "original": "第15-5条（举报奖励）\n① 公平交易委员会可在预算范围内，向举报或提供有关违反本法行为的信息，并提交证据证实该举报或信息的任何人支付奖励。\n② 第1款规定的奖励支付对象范围、奖励支付标准和程序等事项，由总统令规定。\n\n第四章 纠纷调解等\n\n",
+      "corrected": "第十五条之五（举报奖励金）\n① 公平交易委员会可以在预算范围内，向举报或提供本法违法行为线索，并提交能够证明该举报或线索的证据资料的人支付奖励金。\n② 关于第1款奖励金支付对象的范围、支付标准及程序等必要事项，由总统令规定。\n\n第四章 纠纷调解等\n\n",
+      "reason": "신고포상금의 증거자료 제출 요건 및 지급대상 범위 표현을 원문에 맞춰 교정."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -3170,7 +3226,8 @@
     "C05 66ee959d0b30 continuation: B1 Article 7 and Article 9 actor labels minimally aligned to Korean legal actors (가맹본부 / 가맹점사업자); all unrelated wording preserved. Cumulative 417 corrections; IN_PROGRESS.",
     "C05 dadabcb505f0 continuation: B1 Articles 12-3, 12-6, 12-7, 14, 15, 15-3, 15-4 and 16 compared with complete Korean text. Eight minimal corrections: restore normal-trade-practice test and responsible actors, advertising/marketing consent ratio and party, identify franchisor as industry-standard recommendation target, align contract termination legal effect, correct self-regulation authors, restore mutual-aid association party/paragraph structure, restore cooperation agreement paragraph marker/parties, and correct city/provincial governor and statutory mediation committee name. Prior 417 corrections preserved; IN_PROGRESS.",
     "C05 dadabcb505f0 continuation: B1 Articles 4 and 5 terminology rechecked. Two minimal clarifications align the good-faith principle and franchisor's direct-store/competitive-franchise restriction with the Korean text; cumulative corrections 427. IN_PROGRESS.",
-    "C05 0986045a1c30 continuation: B1 Articles 18, 19, 32, 32-2, 33, 34, 34-3, 35, 37-2 and 39 compared against complete Korean clauses. Ten material corrections: disqualification parties, mediation committee small-meeting structure/voting, investigation limitation and penalty type, written fact-survey subjects, corrective-measure list and franchisor actor, recommendation actor, consent-decision beneficiary, administrative surcharge calculation/succession, treble damages party identity, and delegated-work cost support. Prior 427 edits preserved; IN_PROGRESS."
+    "C05 0986045a1c30 continuation: B1 Articles 18, 19, 32, 32-2, 33, 34, 34-3, 35, 37-2 and 39 compared against complete Korean clauses. Ten material corrections: disqualification parties, mediation committee small-meeting structure/voting, investigation limitation and penalty type, written fact-survey subjects, corrective-measure list and franchisor actor, recommendation actor, consent-decision beneficiary, administrative surcharge calculation/succession, treble damages party identity, and delegated-work cost support. Prior 427 edits preserved; IN_PROGRESS.",
+    "C05 9c0d04b7894a continuation: B1 Articles 29-2, 30, 34-4, 36, 37, 38, 42 and 15-5 checked against Korean source. Eight corrections: professional qualification title consistency, enforcement payment vs criminal fine distinction, administrative cooperation term, legal citation/decision terminology, supplementary statute application, two-penalty rule fine type, and whistleblower reward evidence/eligibility. Prior 437 corrections preserved; IN_PROGRESS."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -3179,5 +3236,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 437
+  "corrected_rows": 445
 }
