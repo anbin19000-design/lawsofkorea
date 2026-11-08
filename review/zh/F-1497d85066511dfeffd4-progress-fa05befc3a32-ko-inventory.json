@@ -1,0 +1,50 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-1497d85066511dfeffd4",
+  "family_id": "F-1497d85066511dfeffd4",
+  "worker": "C04",
+  "panel_id": "panel-04",
+  "status": "IN_PROGRESS",
+  "source_commit": "f25a08af79bad982285acfed02e84b028eb2670f",
+  "source_blobs": {
+    "ko": "f7414f486d3fff46fec301f56e47f37575f835aa",
+    "en": "835fe6c61b35a38db06d890138be0001ca03c610",
+    "zh": "a039851e87912aaef943e29d8fe40df20ae65e8a"
+  },
+  "scope": {
+    "documents": 56,
+    "document_types": {
+      "법률": 1,
+      "대통령령": 1,
+      "교육부령": 1,
+      "별표": 18,
+      "서식": 35
+    },
+    "ko_characters": 406924,
+    "zh_rows": 3494,
+    "english_reference_rows": 2952,
+    "english_missing_reference_rows": 542,
+    "document_english_statuses": {
+      "FALLBACK_ENGLISH_AVAILABLE": 17,
+      "NO_DOCUMENT_ENGLISH": 39
+    }
+  },
+  "source_read_verification": {
+    "ko": "GitHub Contents read; SHA matches assignment",
+    "en": "Git Blobs read for empty Contents response; SHA matches assignment",
+    "zh": "Git Blobs read for empty Contents response; SHA matches assignment"
+  },
+  "reading_checkpoint": {
+    "required_order": "KO_FULL_EN_FULL_ZH_FULL",
+    "ko": "IN_PROGRESS: complete family source loaded and document inventory verified; B1 opening and closing provisions and B2 opening inspected; full sequential Korean semantic reading not yet certified",
+    "en": "NOT_STARTED: English index inventoried only; two fallback translation paths identified, different versions from Korean and not exact English",
+    "zh": "NOT_STARTED: packet row count confirmed, no Chinese sequential review certified",
+    "next_step": "Continue sequential full Korean reading from B1; only after finishing all 56 Korean documents, read existing English source full text, then review Chinese rows sequentially."
+  },
+  "english_paths": [
+    "documents/en/kr-000851-249989-en.json",
+    "documents/en/kr-003751-269769-en.json"
+  ],
+  "findings": [],
+  "notes": "Initial non-destructive checkpoint. No Chinese corrections or completion assertions. Preserve source blobs and do not mark COMPLETE until full reading, reconciliation and QA."
+}
