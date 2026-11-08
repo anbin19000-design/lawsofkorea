@@ -42,7 +42,7 @@
     "official_rule_translation": "reviewed/en/KR_011294.json"
   },
   "checked_rows": 269,
-  "corrected_rows": 143,
+  "corrected_rows": 164,
   "edits": [
     {
       "id": "B1-zh-00003",
@@ -615,6 +615,90 @@
     {
       "id": "B2-zh-00141",
       "text": "第一条（生效日期）本法令自2026年1月2日起生效。但是，根据本施行令附则第6条修正的总统令中，修正在本法令生效前颁布但生效日期尚未到来的总统令的部分，应自相关总统令的生效日期起生效。\n\n"
+    },
+    {
+      "id": "A36858-zh-00001",
+      "text": "■《车站区域开发及利用法施行令》[附表1]"
+    },
+    {
+      "id": "A36858-zh-00006",
+      "text": "a. 与实施车站区域开发项目有关的工程承包合同的签订人"
+    },
+    {
+      "id": "A36858-zh-00008",
+      "text": "的5/100"
+    },
+    {
+      "id": "A36858-zh-00009",
+      "text": "b. 依《国土规划及利用法》第56条"
+    },
+    {
+      "id": "A36858-zh-00010",
+      "text": "取得土地形质变更许可"
+    },
+    {
+      "id": "A36858-zh-00011",
+      "text": "的人"
+    },
+    {
+      "id": "A36858-zh-00014",
+      "text": "备注：特别市、广域市或道（以下称“市、道”）可以在上表b项规定的金额范围内，通过该市、道条例另行规定债券购买金额。"
+    },
+    {
+      "id": "A36858-zh-00015",
+      "text": ""
+    },
+    {
+      "id": "A36858-zh-00017",
+      "text": "a. 对符合下列任一情形的人员，免除购买车站区域开发债券的义务："
+    },
+    {
+      "id": "A36858-zh-00018",
+      "text": ""
+    },
+    {
+      "id": "A36858-zh-00021",
+      "text": "3) 根据《公共机构运营法》，政府持有其"
+    },
+    {
+      "id": "A36858-zh-00022",
+      "text": "50%以上股份的公共机构"
+    },
+    {
+      "id": "A36858-zh-00024",
+      "text": "5) 驻韩外国政府机关"
+    },
+    {
+      "id": "A36858-zh-00027",
+      "text": "1) 为建设《社会基础设施民间投资法》第2条第1款(a)目至(ta)目所列设施"
+    },
+    {
+      "id": "A36858-zh-00028",
+      "text": "而取得土地形质变更许可的面积"
+    },
+    {
+      "id": "A36858-zh-00029",
+      "text": "2) 为建设住宅而取得土地形质变更许可的土地中，属于下列情形的面积"
+    },
+    {
+      "id": "A36858-zh-00031",
+      "text": "a) 依《住宅法》第2条第7号规定的项目主体，为建设专用面积60平方米（包括公用面积时为70平方米）以下的住宅（包括出租住宅）而使用的土地面积"
+    },
+    {
+      "id": "A36858-zh-00034",
+      "text": "b) 除a项所列住宅以外的住宅建设用地形质变更许可面积中，归国家或地方自治团体所有（包括捐赠采纳）的土地面积"
+    },
+    {
+      "id": "A36858-zh-00038",
+      "text": "c. 市、道知事认为因天灾地变或其他事由而不适宜购买债券时，"
+    },
+    {
+      "id": "A36858-zh-00039",
+      "text": "可以免除债券购买义务。"
+    },
+    {
+      "id": "A36858-zh-00042",
+      "text": "零数不足5,000韩元时，不计入零数。"
     }
   ],
   "findings": {
@@ -663,7 +747,7 @@
       "A20561-zh-00004"
     ]
   },
-  "notes": "Read all 24 Korean source documents (151,085 characters) in the assigned bundle, then both official English bodies (Act and Enforcement Decree) and all 95 rows of the reviewed English Enforcement Rule. English index reports 1,084/1,394 rows with English and 310 without document-level English. Loaded all 1,394 Chinese rows and performed an initial whole-file anomaly scan. Found mixed Korean/Chinese or untranslated content in 15 rows. Five unambiguous minimal fixes are recorded here; full sequential Chinese review of 1,394 rows remains pending. Do not mark COMPLETE. No source blobs changed. Five rows have now received source-grounded minimal corrections and are retained in this progress checkpoint; the other 1,389 rows remain to be sequentially reviewed. Additional sequentially checked rows: B1-zh-00014, B1-zh-00025, B1-zh-00027, B1-zh-00034, B1-zh-00035. These five rows now have minimal corrections; total checked/corrected rows in this checkpoint: 10. Full 1,394-row review remains IN_PROGRESS. Further corrected rows: B1-zh-00010, B1-zh-00017, B1-zh-00037, B1-zh-00048. Checkpoint now contains 14 corrections; full sequential review remains pending. B2-zh-00059 was corrected to translate the remaining Korean table cells and preserve the row's table structure. Fifteen rows with detected mixed/untranslated Korean are now addressed in the progress record; a full sequential Chinese review remains pending. A subsequent full-text anomaly scan identified 21 rows containing MTQ placeholder residue or embedded statute-name tokens: three statutory references and eighteen form labels. All 21 received targeted replacement/translation records. Form labels were mapped to the Korean source terms (처리기간, 개발구역, 유치업종, 계획인구, 사업기간, 사업진도, 상환일, 제출받는 기관). These are targeted anomaly corrections, not evidence that all 1,394 rows have been sequentially reviewed. Full sequential review and final QC remain pending. Sequential review of B1 early substantive rows identified additional legal-structure and terminology defects: Article 4-2/5-2 headings, project-plan terminology, Article 14's \"other person's land\", and cross-reference numbering in Article 17. Minimal corrections were appended/revised for B1-zh-00005, B1-zh-00006, B1-zh-00008, B1-zh-00010, B1-zh-00012, B1-zh-00018, B1-zh-00023, B1-zh-00024. Full family review remains IN_PROGRESS. Sequentially reviewed further B1 rows and corrected terminology/structure in B1-zh-00020, B1-zh-00028, B1-zh-00030, B1-zh-00031, B1-zh-00038, B1-zh-00040, B1-zh-00045, B1-zh-00049: implementation-plan terminology, completion announcement, land purchase vs expropriation, municipal/provincial ordinance, entry onto land, and supplementary provision title. Review remains IN_PROGRESS. Sequential review continued through B1 later amendment/supplementary provisions. Normalized 부칙 as 附则, corrected government ministry titles and the legal identity of 国家铁路公团, and revised application/consultation transitional clauses. Corrections appended/revised for B1-zh-00046, B1-zh-00054, B1-zh-00055, B1-zh-00058, B1-zh-00060, B1-zh-00065, B1-zh-00068, B1-zh-00070, B1-zh-00075, B1-zh-00080, B1-zh-00084, B1-zh-00087, B1-zh-00089, B1-zh-00093, B1-zh-00094, B1-zh-00099, B1-zh-00100, B1-zh-00103, B1-zh-00104, B1-zh-00109, B1-zh-00113, B1-zh-00115, B1-zh-00116, B1-zh-00117, B1-zh-00121, B1-zh-00123, B1-zh-00126. Family review remains IN_PROGRESS. Sequential review of the entire Act document B1 (126/126 Chinese rows) is now complete; the remainder of the family comprises 1,268 rows across the Enforcement Decree, annexes, Enforcement Rule and forms. Corrections remain minimal and source-bound. Continue with B2. Integrity correction: two earlier targeted placeholder records for B2-zh-00005 and B3-zh-00007 were expanded to preserve the complete original row text, replacing only the embedded MTQ statute-name token (and correcting the project-plan term where applicable). No source content was omitted. Sequential B2 review identified and minimally corrected decree title, Article 4-2/5-2 headings, jurisdiction terminology, basic-survey terminology, and major bond/land-supply mistranslations (记名式有价证券, 土地偿还债券原簿, 直接合同方式, supply recipient terminology). Updated rows: B2-zh-00001, B2-zh-00004, B2-zh-00006, B2-zh-00007, B2-zh-00008, B2-zh-00027, B2-zh-00028, B2-zh-00029, B2-zh-00030, B2-zh-00031, B2-zh-00034, B2-zh-00035. Full review remains IN_PROGRESS. Further B2 review corrections: project-name field, completion of the cost-subsidy item 8, bond-issue terminology and ministry titles, entrusted land-purchase duties and public-agency names, Enforcement Decree terminology, and amendment tables. Updated B2-zh-00039, B2-zh-00041, B2-zh-00042, B2-zh-00043, B2-zh-00045, B2-zh-00050, B2-zh-00051, B2-zh-00052, B2-zh-00053, B2-zh-00055, B2-zh-00056, B2-zh-00060, B2-zh-00063, B2-zh-00065, B2-zh-00066, B2-zh-00069, B2-zh-00070. Review remains IN_PROGRESS. Sequential Chinese review coverage now includes B1 126/126 and B2 70/143 rows. The next pending B2 row is B2-zh-00071. Total remaining family rows: 1,198. Continued B2 sequential review through row 110. Corrected supplementary-provision labels, Enforcement Decree vs Enforcement Rule, historical ministry names, public agency identity (Korea Appraisal Board), and several act/decree titles. Updated B2-zh-00071, B2-zh-00072, B2-zh-00073, B2-zh-00074, B2-zh-00076, B2-zh-00077, B2-zh-00082, B2-zh-00084, B2-zh-00086, B2-zh-00091, B2-zh-00093, B2-zh-00095, B2-zh-00099, B2-zh-00102, B2-zh-00103, B2-zh-00106, B2-zh-00108, B2-zh-00109, B2-zh-00110. Review remains IN_PROGRESS. Sequential review completed B2 rows 111–143. Corrected the official identity of 国家铁路公团, 韩国不动产院, the Enforcement Decree terminology and supplementary provision titles, and preserved the entire B2-zh-00143 row including its annex table while replacing its inaccurate amendment text. Updated B2-zh-00113, B2-zh-00115, B2-zh-00117, B2-zh-00119, B2-zh-00121, B2-zh-00122, B2-zh-00125, B2-zh-00126, B2-zh-00127, B2-zh-00129, B2-zh-00131, B2-zh-00133, B2-zh-00135, B2-zh-00137, B2-zh-00139, B2-zh-00140, B2-zh-00141, B2-zh-00143. Sequential Chinese review of B2 is complete (143/143 rows); B1 and B2 together account for 269/1,394 rows. Next pending document: A36858 (annex).",
+  "notes": "Read all 24 Korean source documents (151,085 characters) in the assigned bundle, then both official English bodies (Act and Enforcement Decree) and all 95 rows of the reviewed English Enforcement Rule. English index reports 1,084/1,394 rows with English and 310 without document-level English. Loaded all 1,394 Chinese rows and performed an initial whole-file anomaly scan. Found mixed Korean/Chinese or untranslated content in 15 rows. Five unambiguous minimal fixes are recorded here; full sequential Chinese review of 1,394 rows remains pending. Do not mark COMPLETE. No source blobs changed. Five rows have now received source-grounded minimal corrections and are retained in this progress checkpoint; the other 1,389 rows remain to be sequentially reviewed. Additional sequentially checked rows: B1-zh-00014, B1-zh-00025, B1-zh-00027, B1-zh-00034, B1-zh-00035. These five rows now have minimal corrections; total checked/corrected rows in this checkpoint: 10. Full 1,394-row review remains IN_PROGRESS. Further corrected rows: B1-zh-00010, B1-zh-00017, B1-zh-00037, B1-zh-00048. Checkpoint now contains 14 corrections; full sequential review remains pending. B2-zh-00059 was corrected to translate the remaining Korean table cells and preserve the row's table structure. Fifteen rows with detected mixed/untranslated Korean are now addressed in the progress record; a full sequential Chinese review remains pending. A subsequent full-text anomaly scan identified 21 rows containing MTQ placeholder residue or embedded statute-name tokens: three statutory references and eighteen form labels. All 21 received targeted replacement/translation records. Form labels were mapped to the Korean source terms (처리기간, 개발구역, 유치업종, 계획인구, 사업기간, 사업진도, 상환일, 제출받는 기관). These are targeted anomaly corrections, not evidence that all 1,394 rows have been sequentially reviewed. Full sequential review and final QC remain pending. Sequential review of B1 early substantive rows identified additional legal-structure and terminology defects: Article 4-2/5-2 headings, project-plan terminology, Article 14's \"other person's land\", and cross-reference numbering in Article 17. Minimal corrections were appended/revised for B1-zh-00005, B1-zh-00006, B1-zh-00008, B1-zh-00010, B1-zh-00012, B1-zh-00018, B1-zh-00023, B1-zh-00024. Full family review remains IN_PROGRESS. Sequentially reviewed further B1 rows and corrected terminology/structure in B1-zh-00020, B1-zh-00028, B1-zh-00030, B1-zh-00031, B1-zh-00038, B1-zh-00040, B1-zh-00045, B1-zh-00049: implementation-plan terminology, completion announcement, land purchase vs expropriation, municipal/provincial ordinance, entry onto land, and supplementary provision title. Review remains IN_PROGRESS. Sequential review continued through B1 later amendment/supplementary provisions. Normalized 부칙 as 附则, corrected government ministry titles and the legal identity of 国家铁路公团, and revised application/consultation transitional clauses. Corrections appended/revised for B1-zh-00046, B1-zh-00054, B1-zh-00055, B1-zh-00058, B1-zh-00060, B1-zh-00065, B1-zh-00068, B1-zh-00070, B1-zh-00075, B1-zh-00080, B1-zh-00084, B1-zh-00087, B1-zh-00089, B1-zh-00093, B1-zh-00094, B1-zh-00099, B1-zh-00100, B1-zh-00103, B1-zh-00104, B1-zh-00109, B1-zh-00113, B1-zh-00115, B1-zh-00116, B1-zh-00117, B1-zh-00121, B1-zh-00123, B1-zh-00126. Family review remains IN_PROGRESS. Sequential review of the entire Act document B1 (126/126 Chinese rows) is now complete; the remainder of the family comprises 1,268 rows across the Enforcement Decree, annexes, Enforcement Rule and forms. Corrections remain minimal and source-bound. Continue with B2. Integrity correction: two earlier targeted placeholder records for B2-zh-00005 and B3-zh-00007 were expanded to preserve the complete original row text, replacing only the embedded MTQ statute-name token (and correcting the project-plan term where applicable). No source content was omitted. Sequential B2 review identified and minimally corrected decree title, Article 4-2/5-2 headings, jurisdiction terminology, basic-survey terminology, and major bond/land-supply mistranslations (记名式有价证券, 土地偿还债券原簿, 直接合同方式, supply recipient terminology). Updated rows: B2-zh-00001, B2-zh-00004, B2-zh-00006, B2-zh-00007, B2-zh-00008, B2-zh-00027, B2-zh-00028, B2-zh-00029, B2-zh-00030, B2-zh-00031, B2-zh-00034, B2-zh-00035. Full review remains IN_PROGRESS. Further B2 review corrections: project-name field, completion of the cost-subsidy item 8, bond-issue terminology and ministry titles, entrusted land-purchase duties and public-agency names, Enforcement Decree terminology, and amendment tables. Updated B2-zh-00039, B2-zh-00041, B2-zh-00042, B2-zh-00043, B2-zh-00045, B2-zh-00050, B2-zh-00051, B2-zh-00052, B2-zh-00053, B2-zh-00055, B2-zh-00056, B2-zh-00060, B2-zh-00063, B2-zh-00065, B2-zh-00066, B2-zh-00069, B2-zh-00070. Review remains IN_PROGRESS. Sequential Chinese review coverage now includes B1 126/126 and B2 70/143 rows. The next pending B2 row is B2-zh-00071. Total remaining family rows: 1,198. Continued B2 sequential review through row 110. Corrected supplementary-provision labels, Enforcement Decree vs Enforcement Rule, historical ministry names, public agency identity (Korea Appraisal Board), and several act/decree titles. Updated B2-zh-00071, B2-zh-00072, B2-zh-00073, B2-zh-00074, B2-zh-00076, B2-zh-00077, B2-zh-00082, B2-zh-00084, B2-zh-00086, B2-zh-00091, B2-zh-00093, B2-zh-00095, B2-zh-00099, B2-zh-00102, B2-zh-00103, B2-zh-00106, B2-zh-00108, B2-zh-00109, B2-zh-00110. Review remains IN_PROGRESS. Sequential review completed B2 rows 111–143. Corrected the official identity of 国家铁路公团, 韩国不动产院, the Enforcement Decree terminology and supplementary provision titles, and preserved the entire B2-zh-00143 row including its annex table while replacing its inaccurate amendment text. Updated B2-zh-00113, B2-zh-00115, B2-zh-00117, B2-zh-00119, B2-zh-00121, B2-zh-00122, B2-zh-00125, B2-zh-00126, B2-zh-00127, B2-zh-00129, B2-zh-00131, B2-zh-00133, B2-zh-00135, B2-zh-00137, B2-zh-00139, B2-zh-00140, B2-zh-00141, B2-zh-00143. Sequential Chinese review of B2 is complete (143/143 rows); B1 and B2 together account for 269/1,394 rows. Next pending document: A36858 (annex). Sequential annex review: A36858 (bond purchase targets and amounts) was compared against the full Korean annex. Corrected the 5/100 contract rate fragment, land-form-change permit terminology, municipal/provincial note, public institution ownership threshold, Korean-stationed foreign government institutions, private-infrastructure facility reference, housing exemption wording, exemption authority and KRW rounding threshold. Updated 21 rows.",
   "coverage": {
     "total_rows": 1394,
     "reviewed_rows": 269,
