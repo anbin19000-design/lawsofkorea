@@ -3831,6 +3831,104 @@
       "original": "通知",
       "corrected": "告知事项",
       "reason": "该栏是表单“안내사항”标题，应译为告知事项。"
+    },
+    "A6586-zh-00022": {
+      "doc": "A6586",
+      "source_hash": "d33acaf7b5b95d85545659709ad83b229b2b83954796f4c05c1ae08052addeec",
+      "original": "陆地位置",
+      "corrected": "土地所在地",
+      "reason": "“토지 소재지”指土地所在地。"
+    },
+    "A6586-zh-00023": {
+      "doc": "A6586",
+      "source_hash": "3a4808ed60d42158802406eafc733fbd9e7ffe43cd87895e51d2d3991578a75a",
+      "original": "编号",
+      "corrected": "地块编号",
+      "reason": "“지번”是土地地块编号。"
+    },
+    "A6586-zh-00025": {
+      "doc": "A6586",
+      "source_hash": "9285603ef22574fff2f62a1f6be09f41b8fbe16c7ad6934ff1194f23be0213e1",
+      "original": "区域",
+      "corrected": "面积",
+      "reason": "“면적”是面积字段。"
+    },
+    "A6586-zh-00048": {
+      "doc": "A6586",
+      "source_hash": "fdaff6bbce92fa6a195eef2250d46314deb425f3aafff613fc4581ef7cc8f269",
+      "original": "国家森林管理办公室主任，区域森林服务局",
+      "corrected": "地方森林厅国有林管理所长",
+      "reason": "“지방산림청국유림관리소장”是地方森林厅国有林管理所长。"
+    },
+    "A6586-zh-00054": {
+      "doc": "A6586",
+      "source_hash": "7e75ad0a7ea4c419d8532ca6652de0d23b34f1ecc852de4b3aaa54ed418b29f3",
+      "original": "收据",
+      "corrected": "填写申请书",
+      "reason": "流程图第一步“신청서 작성”是填写申请书，不是收据。"
+    },
+    "A6586-zh-00055": {
+      "doc": "A6586",
+      "source_hash": "a7ac3aeeb354e28f606402c4cc4185010da8ab5c9f69199021e369b83bdcd179",
+      "original": "现场验证",
+      "corrected": "现场核查",
+      "reason": "“현지 확인”是现场核查。"
+    },
+    "A6586-zh-00062": {
+      "doc": "A6586",
+      "source_hash": "75b225acaddf7a4e6942b3c0b3e5fb50fb9a1abf61c58ef2af01f014f4a8cf58",
+      "original": "(城市/省份,",
+      "corrected": "（市、道，",
+      "reason": "“시ㆍ도”是市、道；该标签在流程图中重复出现。"
+    },
+    "A6586-zh-00063": {
+      "doc": "A6586",
+      "source_hash": "75b225acaddf7a4e6942b3c0b3e5fb50fb9a1abf61c58ef2af01f014f4a8cf58",
+      "original": "(城市/省份,",
+      "corrected": "（市、道，",
+      "reason": "“시ㆍ도”是市、道；该标签在流程图中重复出现。"
+    },
+    "A6586-zh-00064": {
+      "doc": "A6586",
+      "source_hash": "75b225acaddf7a4e6942b3c0b3e5fb50fb9a1abf61c58ef2af01f014f4a8cf58",
+      "original": "(城市/省份,",
+      "corrected": "（市、道，",
+      "reason": "“시ㆍ도”是市、道；该标签在流程图中重复出现。"
+    },
+    "A6586-zh-00065": {
+      "doc": "A6586",
+      "source_hash": "75b225acaddf7a4e6942b3c0b3e5fb50fb9a1abf61c58ef2af01f014f4a8cf58",
+      "original": "(城市/省份,",
+      "corrected": "（市、道，",
+      "reason": "“시ㆍ도”是市、道；该标签在流程图中重复出现。"
+    },
+    "A6586-zh-00066": {
+      "doc": "A6586",
+      "source_hash": "9da992b472693ca9566a32d68c77ca4ab362c4220ce511fc6f8bfa84bc242e19",
+      "original": "国家森林管理办公室)",
+      "corrected": "国有林管理所）",
+      "reason": "“국유림관리소”是国有林管理所；该标签在流程图中重复出现。"
+    },
+    "A6586-zh-00067": {
+      "doc": "A6586",
+      "source_hash": "9da992b472693ca9566a32d68c77ca4ab362c4220ce511fc6f8bfa84bc242e19",
+      "original": "国家森林管理办公室)",
+      "corrected": "国有林管理所）",
+      "reason": "“국유림관리소”是国有林管理所；该标签在流程图中重复出现。"
+    },
+    "A6586-zh-00068": {
+      "doc": "A6586",
+      "source_hash": "9da992b472693ca9566a32d68c77ca4ab362c4220ce511fc6f8bfa84bc242e19",
+      "original": "国家森林管理办公室)",
+      "corrected": "国有林管理所）",
+      "reason": "“국유림관리소”是国有林管理所；该标签在流程图中重复出现。"
+    },
+    "A6586-zh-00069": {
+      "doc": "A6586",
+      "source_hash": "9da992b472693ca9566a32d68c77ca4ab362c4220ce511fc6f8bfa84bc242e19",
+      "original": "国家森林管理办公室)",
+      "corrected": "国有林管理所）",
+      "reason": "“국유림관리소”是国有林管理所；该标签在流程图中重复出现。"
     }
   },
   "edits": [
@@ -5969,15 +6067,71 @@
     {
       "id": "A6585-zh-00034",
       "text": "告知事项"
+    },
+    {
+      "id": "A6586-zh-00022",
+      "text": "土地所在地"
+    },
+    {
+      "id": "A6586-zh-00023",
+      "text": "地块编号"
+    },
+    {
+      "id": "A6586-zh-00025",
+      "text": "面积"
+    },
+    {
+      "id": "A6586-zh-00048",
+      "text": "地方森林厅国有林管理所长"
+    },
+    {
+      "id": "A6586-zh-00054",
+      "text": "填写申请书"
+    },
+    {
+      "id": "A6586-zh-00055",
+      "text": "现场核查"
+    },
+    {
+      "id": "A6586-zh-00062",
+      "text": "（市、道，"
+    },
+    {
+      "id": "A6586-zh-00063",
+      "text": "（市、道，"
+    },
+    {
+      "id": "A6586-zh-00064",
+      "text": "（市、道，"
+    },
+    {
+      "id": "A6586-zh-00065",
+      "text": "（市、道，"
+    },
+    {
+      "id": "A6586-zh-00066",
+      "text": "国有林管理所）"
+    },
+    {
+      "id": "A6586-zh-00067",
+      "text": "国有林管理所）"
+    },
+    {
+      "id": "A6586-zh-00068",
+      "text": "国有林管理所）"
+    },
+    {
+      "id": "A6586-zh-00069",
+      "text": "国有林管理所）"
     }
   ],
-  "checked_rows": 685,
-  "corrected_rows": 534,
-  "notes": "Initial source-grounded correction set after full Korean and available English source reading. Chinese sequential review continues; do not treat this as completion. Sequential review so far: B1 rows 1–122; B2 rows 1–70. Additional complete targeted passes: A29186 (43 rows) and B3 rows 1–24. 64 nonblank changed edits are saved; further Chinese rows and documents remain pending. No COMPLETE certification. All source-bound correction records are retained. Blank fragment deletions and no-change records are documented separately at review/zh/F-2223d4d89f9d838aec25-empty-edit-decisions-C05-20261109-0600.json. Full semantic coverage is complete for B1, B2, B3, A29186 and A6580; A29185 and all attached forms remain in partial/targeted review. Status remains IN_PROGRESS. Sequential review resumed from the saved A29185 annex work. All 80 A29185 rows were compared against the Korean annex; 5 additional minimal corrections were added and 10 no-change decisions were recorded. Previously saved A29185 corrections were preserved. Next pending sequential document: A6581 (forms), with 687 rows still pending overall. Status remains IN_PROGRESS. A6581 form (30 rows) has now been fully compared against the Korean original; 11 minimal corrections and 11 no-change decisions were added, with prior targeted corrections retained. Next sequential pending form: A6582. Status remains IN_PROGRESS. A6582 designated-area map form (16 rows) has now been fully compared against the Korean form and the linked English Enforcement Rule references. Three additional minimal corrections and 10 no-change decisions were recorded; existing corrections were retained. Next pending sequential form: A6585. Status remains IN_PROGRESS. A6585 land-use notice form (36 rows) fully compared with the Korean original and linked English rule references; 7 additional minimal corrections and 22 no-change decisions recorded. Existing correction records retained. Next sequential form: A6586. Status remains IN_PROGRESS.",
+  "checked_rows": 755,
+  "corrected_rows": 548,
+  "notes": "Initial source-grounded correction set after full Korean and available English source reading. Chinese sequential review continues; do not treat this as completion. Sequential review so far: B1 rows 1–122; B2 rows 1–70. Additional complete targeted passes: A29186 (43 rows) and B3 rows 1–24. 64 nonblank changed edits are saved; further Chinese rows and documents remain pending. No COMPLETE certification. All source-bound correction records are retained. Blank fragment deletions and no-change records are documented separately at review/zh/F-2223d4d89f9d838aec25-empty-edit-decisions-C05-20261109-0600.json. Full semantic coverage is complete for B1, B2, B3, A29186 and A6580; A29185 and all attached forms remain in partial/targeted review. Status remains IN_PROGRESS. Sequential review resumed from the saved A29185 annex work. All 80 A29185 rows were compared against the Korean annex; 5 additional minimal corrections were added and 10 no-change decisions were recorded. Previously saved A29185 corrections were preserved. Next pending sequential document: A6581 (forms), with 687 rows still pending overall. Status remains IN_PROGRESS. A6581 form (30 rows) has now been fully compared against the Korean original; 11 minimal corrections and 11 no-change decisions were added, with prior targeted corrections retained. Next sequential pending form: A6582. Status remains IN_PROGRESS. A6582 designated-area map form (16 rows) has now been fully compared against the Korean form and the linked English Enforcement Rule references. Three additional minimal corrections and 10 no-change decisions were recorded; existing corrections were retained. Next pending sequential form: A6585. Status remains IN_PROGRESS. A6585 land-use notice form (36 rows) fully compared with the Korean original and linked English rule references; 7 additional minimal corrections and 22 no-change decisions recorded. Existing correction records retained. Next sequential form: A6586. Status remains IN_PROGRESS. A6586 loss-compensation application form (70 rows) fully compared with the Korean form and linked English Enforcement Rule references. 14 additional minimal corrections and 40 no-change decisions recorded, including consistent correction of repeated flowchart labels. Next sequential form: A6587. Status remains IN_PROGRESS.",
   "coverage": {
     "total_rows": 1290,
     "distinct_rows": 1290,
-    "fully_compared_rows": 685,
+    "fully_compared_rows": 755,
     "fully_compared_by_document": {
       "B1": 122,
       "B2": 199,
@@ -5987,10 +6141,10 @@
       "A29185": 80,
       "A6581": 30,
       "A6582": 16,
-      "A6585": 36
+      "A6585": 36,
+      "A6586": 70
     },
     "partial_targeted_docs": [
-      "A6586",
       "A6587",
       "A6588",
       "A6589",
@@ -6005,7 +6159,7 @@
       "A6599",
       "A6600"
     ],
-    "pending_rows": 605
+    "pending_rows": 535
   },
   "empty_edit_decisions_path": "review/zh/F-2223d4d89f9d838aec25-empty-edit-decisions-C05-20261109-0600.json"
 }
