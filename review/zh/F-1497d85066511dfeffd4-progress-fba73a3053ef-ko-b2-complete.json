@@ -1,0 +1,37 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-1497d85066511dfeffd4",
+  "worker": "C04",
+  "panel_id": "panel-04",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "f7414f486d3fff46fec301f56e47f37575f835aa",
+    "en": "835fe6c61b35a38db06d890138be0001ca03c610",
+    "zh": "a039851e87912aaef943e29d8fe40df20ae65e8a"
+  },
+  "previous_checkpoint": "review/zh/F-1497d85066511dfeffd4-progress-fba73a3053ef-ko-b2.json",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "reading_checkpoint": {
+    "ko": {
+      "documents_read_in_order": [
+        "B1",
+        "B2"
+      ],
+      "completed_chars": {
+        "B1": 35892,
+        "B2": 58303
+      },
+      "next_document": "A29191",
+      "next_document_title": "수급자 선정 및 수급자격 유지에 관한 사항을 확인하기 위한 자료",
+      "remaining_documents": 54
+    },
+    "en": "NOT_STARTED: full Korean reading pending",
+    "zh": "NOT_STARTED: full Korean then full English reading pending"
+  },
+  "review": {
+    "checked_rows": 0,
+    "edits": [],
+    "final_qa": false
+  },
+  "notes": "B1 law and B2 executive decree reviewed sequentially, including supplementary provisions; no bilingual corrections attempted because required language order is not yet fulfilled. Preserve all prior checkpoints and source SHA."
+}
