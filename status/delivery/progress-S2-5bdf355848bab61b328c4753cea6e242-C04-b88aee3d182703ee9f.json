@@ -1,0 +1,38 @@
+{
+  "schema": "LAW_ZH_PROGRESS_V1",
+  "assignment_id": "S2-5bdf355848bab61b328c4753cea6e242",
+  "action_id": "b88aee3d182703ee9f",
+  "job_id": "F-5c680578acc95aaaac92",
+  "worker": "C04",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "81188b51954682ac58f4fc97f20e06ae50da8992",
+    "en": "22889a7f54594d489a95c74669e8dc0820495099",
+    "zh": "7a2b3ae20229648a0e49c4370ae8b66b31acd9f8"
+  },
+  "evidence": {
+    "handoff_index": "status/delivery/handoff-index-3dac5e4e01b567f22c61.json",
+    "master_review_sha": "d6197b5c195761a124e2300e9644b5d8f71178be",
+    "master_unique_edits": 110,
+    "segmented_review_files_retrieved": 51,
+    "source_rows": {
+      "B1": 116,
+      "A36990": 1034,
+      "B2": 16,
+      "total": 1166
+    },
+    "source_ko_documents_read": 3,
+    "linked_english_documents_fetched": 3,
+    "english_reference_version_caution": true,
+    "zh_unique_ids": 1166,
+    "zh_duplicate_ids": 0,
+    "zh_empty_cells": 0,
+    "raw_mtq_rows": 20,
+    "raw_mtq_rows_with_existing_master_correction": 20,
+    "receipt_present": false
+  },
+  "new_edits": [],
+  "duplicate_edits_created": 0,
+  "note": "Continuation evidence only, not COMPLETE. All 51 indexed segment files fetched and source fingerprints verified. Original Chinese has 20 MTQ-marked rows, all 20 already represented by valid non-MTQ edits in existing master. B1 00002-00004 final master reconciliation and per-ID merge of overlapping segment corrections remain unresolved; no original file or prior decisions altered. Full semantic validation of all 1166 Chinese rows and final review/receipt not established."
+}
