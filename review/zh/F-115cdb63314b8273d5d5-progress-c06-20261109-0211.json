@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 3480,
+    "verified_zh_rows": 3615,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 3480,
-      "checked_rows": 3480,
+      "next_row_zero_based": 3615,
+      "checked_rows": 3615,
       "total_rows": 5228
     }
   },
@@ -5095,9 +5095,261 @@
       "text": "⑧终点",
       "original_text": "⑧终端",
       "reason": "종점을 단말로 오역"
+    },
+    {
+      "id": "A4687-zh-00700",
+      "text": "5-3. 道路标志",
+      "original_text": "5-3. 封面",
+      "reason": "표지를 표지·덮개(cover)로 오역"
+    },
+    {
+      "id": "A4687-zh-00708",
+      "text": "⑨地点",
+      "original_text": "位置",
+      "reason": "지점을 일반 위치로 단순화"
+    },
+    {
+      "id": "A4687-zh-00709",
+      "text": "⑩方向",
+      "original_text": "⑨型号",
+      "reason": "종류 항목 번호·의미가 뒤바뀜"
+    },
+    {
+      "id": "A4687-zh-00710",
+      "text": "⑩名称",
+      "original_text": "⑩名称",
+      "reason": "명칭 항목을 유지"
+    },
+    {
+      "id": "A4687-zh-00711",
+      "text": "⑪支柱形式",
+      "original_text": "⑪帖子类型",
+      "reason": "지주형식을 게시물 유형으로 오역"
+    },
+    {
+      "id": "A4687-zh-00714",
+      "text": "⑦地点",
+      "original_text": "⑦分支",
+      "reason": "지점을 분기점으로 오역"
+    },
+    {
+      "id": "A4687-zh-00715",
+      "text": "⑧方向",
+      "original_text": "⑧方向",
+      "reason": "방향 항목을 유지"
+    },
+    {
+      "id": "A4687-zh-00716",
+      "text": "5-4. 电子信息标志",
+      "original_text": "5-4. 电子标牌",
+      "reason": "전광표지의 도로 교통정보 표시 의미를 명확히 함"
+    },
+    {
+      "id": "A4687-zh-00724",
+      "text": "⑨显示面技术形式",
+      "original_text": "⑨显示表面技术类型",
+      "reason": "표시면 기술형식의 법률·기술 항목 명칭 정돈"
+    },
+    {
+      "id": "A4687-zh-00725",
+      "text": "⑩显示方式",
+      "original_text": "⑩显示格式",
+      "reason": "표출형식을 단순 포맷이 아닌 표시 방식으로 정돈"
+    },
+    {
+      "id": "A4687-zh-00726",
+      "text": "⑪安装方式",
+      "original_text": "⑪安装格式",
+      "reason": "설치형식을 설치 방식으로 정돈"
+    },
+    {
+      "id": "A4687-zh-00731",
+      "text": "5-5. 路灯",
+      "original_text": "5-5. 路灯",
+      "reason": "가로등 표제 유지"
+    },
+    {
+      "id": "A4687-zh-00739",
+      "text": "⑩灯杆形式",
+      "original_text": "⑩等距类型",
+      "reason": "등주형식을 등간격 유형으로 오역"
+    },
+    {
+      "id": "A4687-zh-00740",
+      "text": "⑪灯杆材质",
+      "original_text": "⑪路灯材料",
+      "reason": "등주재질을 가로등 전체 재료로 오역"
+    },
+    {
+      "id": "A4687-zh-00743",
+      "text": "⑭灯具数量",
+      "original_text": "⑭照明设备",
+      "reason": "등기구 수량을 조명 장비로 오역"
+    },
+    {
+      "id": "A4687-zh-00746",
+      "text": "⑦起点",
+      "original_text": "⑦时间点",
+      "reason": "시점을 시간 지점으로 오역"
+    },
+    {
+      "id": "A4687-zh-00747",
+      "text": "⑧终点",
+      "original_text": "⑧终端",
+      "reason": "종점을 단말로 오역"
+    },
+    {
+      "id": "A4687-zh-00749",
+      "text": "5-6. 交通信号灯",
+      "original_text": "5-6. 交通信号灯",
+      "reason": "신호등 표제 유지"
+    },
+    {
+      "id": "A4687-zh-00758",
+      "text": "⑨类型",
+      "original_text": "⑨型号",
+      "reason": "종류를 모델 번호로 오역"
+    },
+    {
+      "id": "A4687-zh-00760",
+      "text": "⑩安装方式",
+      "original_text": "⑩安装类型",
+      "reason": "설치형식 항목의 법령상 의미 정돈"
+    },
+    {
+      "id": "A4687-zh-00764",
+      "text": "5-7. 防护栏",
+      "original_text": "5-7. 防护围栏",
+      "reason": "방호울타리를 일반 울타리로 부정확하게 번역"
+    },
+    {
+      "id": "A4687-zh-00772",
+      "text": "⑩类别",
+      "original_text": "⑩分类",
+      "reason": "구분을 분류 항목으로 정돈"
+    },
+    {
+      "id": "A4687-zh-00773",
+      "text": "⑪类型",
+      "original_text": "⑪型号",
+      "reason": "종류를 모델 번호로 오역"
+    },
+    {
+      "id": "A4687-zh-00774",
+      "text": "⑫长度",
+      "original_text": "⑫扩展",
+      "reason": "연장을 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00777",
+      "text": "⑮等级",
+      "original_text": "⑮牌号",
+      "reason": "등급을 제품 번호로 오역"
+    },
+    {
+      "id": "A4687-zh-00778",
+      "text": "⑯备注",
+      "original_text": "？备注",
+      "reason": "불필요한 물음표 및 항 번호 누락"
+    },
+    {
+      "id": "A4687-zh-00779",
+      "text": "⑦起点",
+      "original_text": "7时间点",
+      "reason": "시점을 시간 지점으로 오역"
+    },
+    {
+      "id": "A4687-zh-00780",
+      "text": "⑧终点",
+      "original_text": "⑧终端",
+      "reason": "종점을 단말로 오역"
+    },
+    {
+      "id": "A4687-zh-00782",
+      "text": "5-8. 防撞缓冲设施",
+      "original_text": "5-8. 减震装置",
+      "reason": "충격흡수시설을 일반 감쇠장치로 오역"
+    },
+    {
+      "id": "A4687-zh-00790",
+      "text": "⑨类型",
+      "original_text": "⑨型号",
+      "reason": "종류를 모델 번호로 오역"
+    },
+    {
+      "id": "A4687-zh-00797",
+      "text": "6. 附属设施调查表",
+      "original_text": "6. 辅助设施调查",
+      "reason": "부대시설 조서임을 명확히 표기"
+    },
+    {
+      "id": "A4687-zh-00800",
+      "text": "6-1. 隔音设施及行道树",
+      "original_text": "6-1. 隔音设施和行道树",
+      "reason": "부대시설 항목명 정돈"
+    },
+    {
+      "id": "A4687-zh-00807",
+      "text": "⑩类别",
+      "original_text": "⑩分类",
+      "reason": "구분을 분류 항목으로 정돈"
+    },
+    {
+      "id": "A4687-zh-00808",
+      "text": "⑪类型",
+      "original_text": "⑪型号",
+      "reason": "종류를 모델 번호로 오역"
+    },
+    {
+      "id": "A4687-zh-00811",
+      "text": "⑦起点",
+      "original_text": "7点",
+      "reason": "시점을 점수/숫자 7로 오역"
+    },
+    {
+      "id": "A4687-zh-00812",
+      "text": "⑧终点",
+      "original_text": "⑧终端",
+      "reason": "종점을 단말로 오역"
+    },
+    {
+      "id": "A4687-zh-00823",
+      "text": "6-2. 地下埋设物",
+      "original_text": "6-2. 地下埋藏物",
+      "reason": "지하매설물을 매장된 물건으로 오역"
+    },
+    {
+      "id": "A4687-zh-00831",
+      "text": "⑩埋设物种类",
+      "original_text": "⑩埋藏对象",
+      "reason": "매설물의 종류를 매장 대상물로 오역"
+    },
+    {
+      "id": "A4687-zh-00832",
+      "text": "⑪材质",
+      "original_text": "⑪物料",
+      "reason": "재질을 자재/물량으로 오역"
+    },
+    {
+      "id": "A4687-zh-00834",
+      "text": "⑬埋设深度",
+      "original_text": "⑬埋置",
+      "reason": "매설 깊이의 의미를 불완전하게 번역"
+    },
+    {
+      "id": "A4687-zh-00836",
+      "text": "⑮长度",
+      "original_text": "⑮扩展",
+      "reason": "연장을 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00837",
+      "text": "⑯安装日期",
+      "original_text": "?安装日期",
+      "reason": "불필요한 물음표 및 항 번호 누락"
     }
   ],
-  "note": "Sequential review advanced through row 3479, covering earthwork/drainage form labels, drainage culverts/pipes and safety facilities (central median and rockfall prevention). Added 20 targeted corrections for lengths, starting/ending points, material and culvert dimensions, end wall, central median title, facility type/classification and MTQ-free table field consistency. Previous 804 edits retained. Continue from row 3480. IN_PROGRESS.",
+  "note": "Sequential review advanced through row 3614, covering road signs, electronic message signs, streetlights, traffic signals, protective fences, impact-absorbing facilities, soundproof facilities/trees and underground utilities. Added 42 focused corrections for sign/post fields, electronic sign wording, streetlight pole/luminaire terminology, start/end points, fence grade, crash cushion title, accessory facilities and buried utility terms. Previous 824 edits retained. Continue from row 3615. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
