@@ -3,7 +3,7 @@
   "job_id": "F-0536890d62605f77ff0a",
   "worker": "C03",
   "status": "IN_PROGRESS",
-  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:688e2553a2fc",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:a166f62f1d4a",
   "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
   "source_en_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
   "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
@@ -4004,7 +4004,23 @@
     "full_korean_read": false,
     "full_english_read": false,
     "full_chinese_semantic_review": false,
-    "ready_for_complete": false
+    "ready_for_complete": false,
+    "structural_audit_passed": true
   },
-  "note": "Consolidation of previously stored correction candidates and explicit conflict adjudications only. These are not newly verified 1136 rows; review remains IN_PROGRESS and unresolved source-layout tokens remain held. Do not emit COMPLETE receipt."
+  "note": "Consolidation of previously stored correction candidates and explicit conflict adjudications only. These are not newly verified 1136 rows; review remains IN_PROGRESS and unresolved source-layout tokens remain held. Do not emit COMPLETE receipt.",
+  "structural_audit": {
+    "path": "review/zh/F-0536890d62605f77ff0a-progress-C03-a166f62f1d4a-structural-audit.json",
+    "metrics": {
+      "source_rows": 1136,
+      "review_edits": 782,
+      "untouched_rows": 354,
+      "unique_ids": 1136,
+      "source_hash_mismatch": 0,
+      "empty_effective_rows": 0,
+      "hangul_effective_rows": 0,
+      "mtq_effective_rows": 0,
+      "flagged_literal_omissions": 2
+    },
+    "meaning_review_complete": false
+  }
 }
