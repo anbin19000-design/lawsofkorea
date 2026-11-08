@@ -1,0 +1,46 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "status": "IN_PROGRESS",
+  "checked_rows": 2,
+  "checked_ids": [
+    "A36424-zh-00022",
+    "A36426-zh-00047"
+  ],
+  "edits": [
+    {
+      "id": "A36424-zh-00022",
+      "text": "甲. 应当拥有或租赁用于智慧城市服务支持业务的独立办公室（室内地面面积45",
+      "source_hash": "5242c12ac27a31d7b148c045c9562b54cd626c4ce956adfcc74c86103cd6f030",
+      "target_id": "XML:2657245"
+    },
+    {
+      "id": "A36426-zh-00047",
+      "text": "相关法律》第五十二条规定的韩国",
+      "source_hash": "a98fa5b9fd6480c7611c209eb77989300b1a29f0e98f179c9d08a0aa0158abd4",
+      "target_id": "XML:2657357"
+    }
+  ],
+  "adjudications": [
+    {
+      "id": "A36424-zh-00022",
+      "reason": "한국어 별표 1 '별도의 사무실(바닥 면적 45제곱미터 이상)'의 바닥 면적은 建筑面积가 아닌 室内地面面积이며 다음 셀 00023과 연속. 기저장 후보 중 후자 선택",
+      "candidate_source_file_index": 60
+    },
+    {
+      "id": "A36426-zh-00047",
+      "reason": "한국어 별표 3 '「정보통신망 이용촉진 및 정보보호 등에 관한 법률」 제52조에 따른 한국인터넷진흥원'은 셀 00046에서 법률명 앞부분, 00047에서 뒷부분 및 제52조·한국, 00048에서 인터넷진흥원으로 이어짐. 00047에 법률명 전체를 재기재하면 00046과 중복하므로 기존 분할 후보 선택",
+      "candidate_source_file_index": 70
+    }
+  ],
+  "note": "18차 복구 회차. 한국어 별표 원문과 인접 중국어 셀을 대조하여 기존 상충 후보 2건을 판정, 기저장 후보 텍스트를 재사용. 원본·기존 기록 변경 없음. 영어 원본 전체 독해 및 법령가족 1133행 전체 최종 통합 검수 미완료이므로 COMPLETE 영수증 미발행."
+}
