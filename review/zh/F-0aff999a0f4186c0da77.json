@@ -17,11 +17,11 @@
     "en": "laws/en/F-0aff999a0f4186c0da77.json",
     "zh": "laws/zh/F-0aff999a0f4186c0da77.json"
   },
-  "progress_path": "review/zh/F-0aff999a0f4186c0da77-progress-C05-b942ab665ddb.json",
+  "progress_path": "review/zh/F-0aff999a0f4186c0da77-progress-C05-081ce62a2467.json",
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 100,
+    "correction_count": 103,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -725,6 +725,27 @@
       "original": "第 3 条（适用于理事会）第 17 条的修订规定适用于本法实施后新成立的理事会。\n\n",
       "corrected": "第三条（关于调解委员会的适用例）第17条的修正规定，适用于本法施行后新组成的特许经营业务交易纠纷调解委员会。\n\n",
       "reason": "第17条的협의회为法定分쟁조정협의회，译作理事会会误指董事会，须明确为纠纷调解委员会。"
+    },
+    "B2-zh-00008": {
+      "doc": "B2",
+      "source_hash": "71df326b610e76c749988ec5fba1293a62061676aa66509c0a7728026f12d0ba",
+      "original": "⑤ 尽管有第4款的规定，但若存在下列任何一项情形，公平交易委员会或市长/都道府县长可仅在首次情况下设定合理期限，要求特许经营人修改或补充必要内容，或拒绝注册信息披露声明。<2010年10月13日、2018年12月18日、2026年8月4日修订>\n1. 如果披露声明中所述信息不实或缺少某些内容\n2. 如果未提交第 2 段第 2 至 7 款所附文件，\n3. 如未同意按照第3款第2项和第3项进行核查而未提交文件，则\n6. 如信息披露声明符合下列任何一项情形，公平交易委员会或市长/都督应拒绝注册，并以书面形式（包括电子文件）通知特许人。<2010年10月13日、2018年12月18日、2026年8月4日修订>\n1. 如果信息披露声明或附件中的细节存在虚假信息\n2. 如果特许人未能遵守第 5 段规定的变更或补充请求，则\n⑦ 特许人根据第5款的规定满足变更或补充请求时，满足该请求的日期应视为注册申请日期。<2010年10月13日、2018年12月18日修订>\n⑧ 特许人可根据第2款的规定，通过特许经营信息系统申请注册信息披露声明。<新增于2010年10月13日、2018年12月18日>\n\n",
+      "corrected": "⑤ 尽管有第4款的规定，但若存在下列任何一项情形，公平交易委员会或市长/都道府县长可仅在首次情况下设定合理期限，要求特许经营人修改或补充必要内容，或拒绝注册信息披露声明。<2010年10月13日、2018年12月18日、2026年8月4日修订>\n1. 如果披露声明中所述信息不实或缺少某些内容\n2. 如果未提交第 2 段第 2 至 7 款所附文件，\n3. 如未同意按照第3款第2项和第3项进行核查而未提交文件，则\\n⑥ 如有下列任何一项情形，公平交易委员会或市/道知事应当拒绝登记信息披露声明，并以书面形式（包括电子文件）将该事实通知特许经营总部。<2010年10月13日、2018年12月18日、2026年8月4日修订>\\n1. 信息披露声明的记载事项或附件文件存在虚假内容。\\n2. 特许经营总部未遵守第⑤款规定的变更或补充要求。\\n\\n⑦ 如特许经营总部遵照第⑤款的变更或补充要求办理，则视其遵照该要求之日为登记申请日。<2010年10月13日、2018年12月18日修订>\\n\\n⑧ 特许经营总部可以通过加盟信息系统申请登记第②款规定的信息披露声明。<2010年10月13日、2018年12月18日新增>下列任何一项情形，公平交易委员会或市长/都督应拒绝注册，并以书面形式（包括电子文件）通知特许人。<2010年10月13日、2018年12月18日、2026年8月4日修订>\n1. 如果信息披露声明或附件中的细节存在虚假信息\n2. 如果特许人未能遵守第 5 段规定的变更或补充请求，则\n⑦ 特许人根据第5款的规定满足变更或补充请求时，满足该请求的日期应视为注册申请日期。<2010年10月13日、2018年12月18日修订>\n⑧ 特许人可根据第2款的规定，通过特许经营信息系统申请注册信息披露声明。<新增于2010年10月13日、2018年12月18日>\n\n",
+      "reason": "原译漏失第⑥款编号且将拒绝登记条件句结构弄反；按韩文恢复法定拒绝登记条件及主体称谓。"
+    },
+    "B2-zh-00020": {
+      "doc": "B2",
+      "source_hash": "acf6fee9bf0e36e4cde51c4f3fd5194751f0cdc7f4af3e5bd97004ac2e89084d",
+      "original": "第九条（提供预期盈利状况等信息）\n① 本法第九条第四款中，“总统令规定的材料”是指下列各款所列材料。<2008年1月31日、2010年10月13日、2014年2月11日、2020年4月28日修订>\n1. 用于计算当前或预计收益的事实依据和预测数据\n2. 以下数据作为计算当前或预计收益的基础\na. 作为计算基础的特许经营店数量（包括公司直营店和特许经营店；以下统称“加盟店”）。\nb. 根据第a项计算的门店数量占相关特许经营业务门店总数的比例\n. 根据项目 A，各门店与计划门店位置之间的距离\n3. 在最近指定的期间内，能够产生与特许人或特许经纪人所指明或描述的当前或预计利润相当的利润的加盟商数量及其比例（在这种情况下，必须指明最近指定的期间的起止日期）。\n② 公平交易委员会可根据行业、业务类型或用途，对第 1 款规定下的数据作出决定并公布详细事项。\n③ 除本法第九条第五款各款所列部分外，“总统令规定的预计销售收入范围”是指拟加盟商计划开设店铺后一年内预计产生的最低和最高销售收入范围。在此情况下，最高销售收入不得超过最低销售收入的1.7倍。<2014年2月11日新增>\n④ 尽管有第3款的规定，相关特许人在其拟开设店铺所在地的特许城市、综合特许城市、广域市、特别自治市、省或特别自治省（以下简称“市/省”）内的特许店[限于上一财政年度经营期满6个月以上的特许店（包括上一财政年度经营期满6个月以上，且在上一财政年度末与相关特许人订立有合同，但根据本法第9条第5款除各款规定之外的其他部分提供预计销售额计算表时已与相关特许人终止的店铺）[本款下同]。如有5家以上此类特许店，第3款的范围可替换为根据附件 1-3，在剩余的三家加盟商中，取上一财政年度转化销售额的最低值和最高值确定该范围，但不包括距离拟建门店位置最近的五家加盟商中，根据附件 1-3 转化销售额最低值和最高的加盟商。<新增于 2014 年 2 月 11 日；2018 年 12 月 18 日；2026 年 8 月 4 日>\n⑤ 在该法第9条第5款第2项中，“总统令规定的数量”指的是100。<2014年2月11日新增>\n\n",
+      "corrected": "第九条（提供预期收益情况等信息）\n① 本法第9条第4款所称“总统令规定的资料”，是指下列资料。<2008年1月31日、2010年10月13日、2014年2月11日、2020年4月28日修订>\n1. 用于计算当前收益或预期收益的事实依据及预测资料\n2. 作为计算当前收益或预期收益依据的下列资料：\na. 作为计算依据的该加盟事业门店数量（包括直营店和加盟店；以下相同）\nb. 上述a项门店数量占该加盟事业全部门店数量的比例\nc. 上述a项各门店与拟设门店地点之间的距离\n3. 在最近一段期间内，取得与加盟总部或加盟中介人所表示或说明的当前收益或预期收益相同水平收益的加盟店经营者人数及其比例（在此情况下，应标明该最近期间的起始日期和终止日期）\n② 公平交易委员会可以按行业、业态或用途，对第①款所述资料的详细事项作出规定并公告。\n③ 本法第9条第5款各项以外部分所称“总统令规定的预期销售额范围”，是指以拟加盟者拟设门店所在地自开始营业之日起一年内预计产生的销售额最低额和最高额所划定的范围。在此情况下，销售额最高额不得超过最低额的1.7倍。<2014年2月11日新增>\n④ 尽管有第③款规定，如拟加盟者拟设门店所在的特别市、统合特别市、广域市、特别自治市、道或特别自治道（以下称“市·道”）内，该加盟总部有5家以上加盟店符合下列条件，则可以用按附件1之3计算的、距离拟设门店最近的5家加盟店中剔除上一营业年度销售额换算值最低和最高的两家后，其余3家加盟店上一营业年度销售额换算值的最低额和最高额所划定的范围，代替第③款规定的范围：该等加盟店上一营业年度营业期间至少为6个月（包括上一营业年度末仍与该加盟总部签有合同、但在提供本法第9条第5款各项以外部分所称预期销售额计算书时已终止加盟合同的门店）。<2014年2月11日、2018年12月18日、2026年8月4日新增或修订>\n⑤ 本法第9条第5款第2项所称“总统令规定的数量”，是指100家。<2014年2月11日新增>\n\n",
+      "reason": "第9条第④款计算方法被译成排除最近五家加盟店中两家、又取剩余三家之外的相反规则，导致预期销售额范围计算实质颠倒；并修复第②款a/b/c项结构及明显残缺表述。"
+    },
+    "B2-zh-00022": {
+      "doc": "B2",
+      "source_hash": "34e0958a5f8d91f3a316e61b9d6c1218e36b2d8796e92c3578998708646009c0",
+      "original": "第11条（特许经营业务暂停日期） 本法第十条第一款第四项所称“总统令规定的特许经营业务暂停日期”，是指下列各款所列日期之一。<2008年1月31日修订>\n1. 如果特许人通知加盟商特许经营业务暂停日期，则以该通知送达加盟商的日期为准。\n2. 如果特许人暂停对特许经营业务开展有重大影响的房地产、服务、设施、商品等交易10天或以上，且未事先通知被特许人，并且被特许人要求恢复交易的请求特许人未以书面形式明确恢复交易的日期，则该恢复交易的日期为\n\n",
+      "corrected": "第十一条（加盟事业中止日）本法第10条第1款第4项所称“总统令规定的加盟事业中止日”，是指下列日期之一。<2008年1月31日修订>\n1. 加盟总部通知加盟店经营者加盟事业中止日的，以该通知送达加盟店经营者之日为准。\n2. 加盟总部未事先通知加盟店经营者，连续10日以上中止对加盟事业经营有重大影响的不动产、服务、设备、商品等交易，加盟店经营者以书面形式指定交易恢复日并请求恢复交易，而加盟总部仍未予以响应的，以该书面指定的交易恢复日为准。\n\n",
+      "reason": "第11条第2项原译句子截断，遗漏关键法律效果；补全书面指定的交易恢复日即视为加盟事业中止日。"
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -769,7 +790,8 @@
     "C05 4c8e2af1b090 continuation: B1 Articles 31-2, 32-3 and 34-2 corrected for paragraph numbering, competent actor, notice content, prosecution-trigger terminology and consent-resolution criteria. Full-family Chinese semantic audit remains IN_PROGRESS.",
     "C05 c9e74e20be50 continuation: B1 transitional provision Article 9 and applicability provision Article 4 reviewed; two clear errors corrected (mediation application mislabeled as litigation; injured franchisee party mislabeled as franchisor). Existing corrections preserved; IN_PROGRESS.",
     "C05 b942ab665ddb: B1 transitional provisions rows 124, 135 and amendment Act row 139 corrected for wrong cross-reference, injured party, and reversed old/new statutory citations. Existing corrections retained; status IN_PROGRESS.",
-    "C05 b942ab665ddb continuation: B1 rows 151 and 160 reviewed; corrected the misrendered alternative conduct in transitional provision and restored statutory dispute-resolution committee identity. Existing corrections preserved; IN_PROGRESS."
+    "C05 b942ab665ddb continuation: B1 rows 151 and 160 reviewed; corrected the misrendered alternative conduct in transitional provision and restored statutory dispute-resolution committee identity. Existing corrections preserved; IN_PROGRESS.",
+    "C05 081ce62a2467: began B2 ordered semantic review; corrected Article 5-2 registration refusal provisions, Article 9 projected sales range methodology (material reversal), and Article 11 truncated cessation-date condition. Existing 100 edits retained; whole-family audit IN_PROGRESS."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -778,5 +800,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 100
+  "corrected_rows": 103
 }
