@@ -1,0 +1,244 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "family": "실용신안법",
+  "worker": "C05",
+  "panel": "panel-05",
+  "status": "IN_PROGRESS",
+  "branch": "main",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "worker_conversation": "https://chatgpt.com/c/6af05978-8920-83e8-901c-76e3cccfde42",
+  "reading_order": {
+    "order": [
+      "KO_FULL",
+      "EN_FULL",
+      "ZH_FULL"
+    ],
+    "ko_documents": 24,
+    "en_documents": 24,
+    "zh_rows": 1374
+  },
+  "canonical_review": {
+    "path": "review/zh/F-00583cebe057fc2929d1.json",
+    "blob_sha": "be1e7d1b1b3f1cd67f1df814fbac1dcae713853d",
+    "schema": "WORKC_ZH_FAMILY_REVIEW_V1",
+    "status": "IN_PROGRESS",
+    "corrections": 427,
+    "coverage": {
+      "total_rows": 1374,
+      "distinct_rows": 1374,
+      "correction_count": 427,
+      "pending_rows": 28,
+      "by_document": {
+        "B1": {
+          "total": 196,
+          "corrected": 105,
+          "pending": 0
+        },
+        "B2": {
+          "total": 81,
+          "corrected": 46,
+          "pending": 0
+        },
+        "A29604": {
+          "total": 63,
+          "corrected": 37,
+          "pending": 0
+        },
+        "B3": {
+          "total": 117,
+          "corrected": 79,
+          "pending": 0
+        },
+        "A8690": {
+          "total": 509,
+          "corrected": 143,
+          "pending": 0
+        },
+        "A8691": {
+          "total": 38,
+          "corrected": 8,
+          "pending": 0
+        },
+        "A8692": {
+          "total": 20,
+          "corrected": 0,
+          "pending": 0
+        },
+        "A8693": {
+          "total": 20,
+          "corrected": 0,
+          "pending": 6
+        },
+        "A8694": {
+          "total": 21,
+          "corrected": 0,
+          "pending": 0
+        },
+        "A8695": {
+          "total": 21,
+          "corrected": 0,
+          "pending": 0
+        },
+        "A8696": {
+          "total": 20,
+          "corrected": 0,
+          "pending": 0
+        },
+        "A8697": {
+          "total": 21,
+          "corrected": 0,
+          "pending": 0
+        },
+        "A8698": {
+          "total": 27,
+          "corrected": 1,
+          "pending": 7
+        },
+        "A8699": {
+          "total": 4,
+          "corrected": 0,
+          "pending": 0
+        },
+        "A8700": {
+          "total": 4,
+          "corrected": 0,
+          "pending": 0
+        },
+        "A8701": {
+          "total": 40,
+          "corrected": 8,
+          "pending": 0
+        },
+        "A8702": {
+          "total": 22,
+          "corrected": 0,
+          "pending": 0
+        },
+        "A8703": {
+          "total": 22,
+          "corrected": 0,
+          "pending": 8
+        },
+        "A8704": {
+          "total": 24,
+          "corrected": 0,
+          "pending": 0
+        },
+        "A8705": {
+          "total": 23,
+          "corrected": 0,
+          "pending": 0
+        },
+        "A8706": {
+          "total": 23,
+          "corrected": 0,
+          "pending": 0
+        },
+        "A8707": {
+          "total": 24,
+          "corrected": 0,
+          "pending": 0
+        },
+        "A8708": {
+          "total": 29,
+          "corrected": 1,
+          "pending": 7
+        },
+        "A8709": {
+          "total": 5,
+          "corrected": 0,
+          "pending": 0
+        }
+      }
+    },
+    "annex_alignment": "REVIEWED",
+    "form_alignment": "REVIEWED"
+  },
+  "this_turn": {
+    "application_form_rows_read": 509,
+    "application_form_corrections_added": 57,
+    "application_form_alignment": "All 509 rows read in sequence and aligned against full Korean form; form hold cleared.",
+    "annex_alignment": "All 63 annex rows read in sequence and aligned; annex hold cleared.",
+    "unresolved_source_rows": 28,
+    "source_holds": [
+      {
+        "doc": "A8693",
+        "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED",
+        "note": "Japanese-language certificate source contains '?', target contains broken hybrid Japanese/Chinese. Requires source text repair before definitive translation.",
+        "ids": [
+          "A8693-zh-00002",
+          "A8693-zh-00008",
+          "A8693-zh-00009",
+          "A8693-zh-00011",
+          "A8693-zh-00012",
+          "A8693-zh-00013"
+        ]
+      },
+      {
+        "doc": "A8698",
+        "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED",
+        "ids": [
+          "A8698-zh-00002",
+          "A8698-zh-00003",
+          "A8698-zh-00015",
+          "A8698-zh-00016",
+          "A8698-zh-00018",
+          "A8698-zh-00019",
+          "A8698-zh-00020"
+        ],
+        "note": "Chinese-language certificate source itself contains corrupted ? symbols and unreadable text; no reconstruction without verified source."
+      },
+      {
+        "doc": "A8699",
+        "status": "SOURCE_CONTENT_MISSING",
+        "note": "Arabic certificate KO extracted text only contains paper dimensions and anti-counterfeit note; body cannot be compared."
+      },
+      {
+        "doc": "A8703",
+        "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED",
+        "ids": [
+          "A8703-zh-00002",
+          "A8703-zh-00003",
+          "A8703-zh-00009",
+          "A8703-zh-00010",
+          "A8703-zh-00011",
+          "A8703-zh-00012",
+          "A8703-zh-00013",
+          "A8703-zh-00014"
+        ],
+        "note": "Portable Japanese form source garbled, retain original and flag."
+      },
+      {
+        "doc": "A8708",
+        "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED",
+        "ids": [
+          "A8708-zh-00003",
+          "A8708-zh-00004",
+          "A8708-zh-00016",
+          "A8708-zh-00017",
+          "A8708-zh-00019",
+          "A8708-zh-00020",
+          "A8708-zh-00021"
+        ],
+        "note": "Portable Chinese certificate source garbled; no speculative replacement."
+      },
+      {
+        "doc": "A8709",
+        "status": "SOURCE_CONTENT_MISSING",
+        "note": "Arabic portable certificate body absent in KO text extraction; only margin/note text available."
+      }
+    ],
+    "source_limitations": [
+      "A8693/A8703 Japanese certificate text in Korean extraction contains '?' and unreadable characters.",
+      "A8698/A8708 Chinese certificate text in Korean extraction contains corrupted '?' and unreadable characters.",
+      "A8699/A8709 Arabic certificate body is absent from Korean text extraction; only dimensions and anti-counterfeit notes remain."
+    ],
+    "result": "Canonical review saved and fetched back after ordered whole-form review and additional minimal corrections."
+  },
+  "next": "The remaining 28 rows cannot be translated reliably without restored source images/text. Preserve SOURCE_LEGIBILITY_REVIEW_REQUIRED/SOURCE_CONTENT_MISSING, request/await source restoration, and do not infer certificate wording. Do not issue COMPLETE/receipt while these source holds remain."
+}
