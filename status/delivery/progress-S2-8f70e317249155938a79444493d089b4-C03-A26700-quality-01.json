@@ -1,0 +1,194 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26700",
+  "quality_batch": "A26700-quality-01",
+  "range": {
+    "first": "A26700-zh-00001",
+    "last": "A26700-zh-00017"
+  },
+  "quality_checked_rows": 17,
+  "quality_passed_rows": 17,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "A26700-zh-00001",
+    "A26700-zh-00002",
+    "A26700-zh-00003",
+    "A26700-zh-00004",
+    "A26700-zh-00005",
+    "A26700-zh-00006",
+    "A26700-zh-00007",
+    "A26700-zh-00008",
+    "A26700-zh-00009",
+    "A26700-zh-00010",
+    "A26700-zh-00011",
+    "A26700-zh-00012",
+    "A26700-zh-00013",
+    "A26700-zh-00014",
+    "A26700-zh-00015",
+    "A26700-zh-00016",
+    "A26700-zh-00017"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26700-00001-00017.json",
+  "results": [
+    {
+      "id": "A26700-zh-00001",
+      "source_hash": "0d9ab3ef7cc410ec777c73d8558f6e0e91a667f1375987ae1e54f7b69fc71c80",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시행규칙 별지 제8호, 개정일 2025.10.1"
+    },
+    {
+      "id": "A26700-zh-00002",
+      "source_hash": "b94e182b9a95d9dc23294428515515c68a59d1d634e19d301cdc19e9a9516fed",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "번호·발급 일자"
+    },
+    {
+      "id": "A26700-zh-00003",
+      "source_hash": "e92faedb152aefabfc864a04ec79dc88c088057441df4f841f465745f8758a2f",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "전담의료기관 지정서 명칭"
+    },
+    {
+      "id": "A26700-zh-00004",
+      "source_hash": "2596cab894b1813083884ddfe422efef7b620f83465bfba2f02eace7516c59e6",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "기관명·소재지·대표자 성명·생년월일"
+    },
+    {
+      "id": "A26700-zh-00005",
+      "source_hash": "d863b15e68dfb5c3c785619bb7562fd6bf8808be374e0a0cf325b9dd9ea4e4db",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "기관명·소재지·대표자 성명·생년월일"
+    },
+    {
+      "id": "A26700-zh-00006",
+      "source_hash": "8d7a5f60d8e51e3057408869a3e161c945b188f70a35ae1816062c0c0b659656",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "기관명·소재지·대표자 성명·생년월일"
+    },
+    {
+      "id": "A26700-zh-00007",
+      "source_hash": "197500d4840ff62e5b7636953da0c060e5b8423ef3867f7f6b927bf24aefe0f8",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "기관명·소재지·대표자 성명·생년월일"
+    },
+    {
+      "id": "A26700-zh-00008",
+      "source_hash": "33dd8d4be2f742f27d7f79013a562d5225629d0de30d9a3f9ba81d3085092ab0",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법 제29조제1항·시행령 제20조제3항·시행규칙 제7조제3항과 피해자 전담의료기관 지정 의미"
+    },
+    {
+      "id": "A26700-zh-00009",
+      "source_hash": "abe2af8adcac26d0a4a09d7fd79aaaa9e106c87bfd8a6f053d8c80e28d162650",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법 제29조제1항·시행령 제20조제3항·시행규칙 제7조제3항과 피해자 전담의료기관 지정 의미"
+    },
+    {
+      "id": "A26700-zh-00010",
+      "source_hash": "e8434ef3df0e75395230513bb9ba976b33d6e5934c803543abd182ac9d6387ab",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법 제29조제1항·시행령 제20조제3항·시행규칙 제7조제3항과 피해자 전담의료기관 지정 의미"
+    },
+    {
+      "id": "A26700-zh-00011",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "번호·발급 일자"
+    },
+    {
+      "id": "A26700-zh-00012",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "번호·발급 일자"
+    },
+    {
+      "id": "A26700-zh-00013",
+      "source_hash": "dfc76879e2f5c3ead09186ff1c6b635624f96b7adbd71d94c37566429ca5df6f",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "번호·발급 일자"
+    },
+    {
+      "id": "A26700-zh-00014",
+      "source_hash": "fc7b3ed4206b66df52cc1e4cb490201db862b42bd3a78b2187ddc356dcadb31c",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "성평등가족부장관·지방자치단체장 및 직인"
+    },
+    {
+      "id": "A26700-zh-00015",
+      "source_hash": "c2c25ba0a53a6f7b97292cfe2d401a55b263f9c6222471a4b8a4c3509c1a4197",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "성평등가족부장관·지방자치단체장 및 직인"
+    },
+    {
+      "id": "A26700-zh-00016",
+      "source_hash": "9170dd7a099e9a3c170bade681381d2fdb0c637188c7b0f05d4447fec48577cb",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "성평등가족부장관·지방자치단체장 및 직인"
+    },
+    {
+      "id": "A26700-zh-00017",
+      "source_hash": "6a9fd2459313c78ed634682f52734f6a424348a2381255da601ab4f842ec71c4",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "210×297mm 종이 규격, 80g/㎡"
+    }
+  ],
+  "edits": [],
+  "note": "전담의료기관 지정서 17개 셀 검증. 기존 교정 10건 및 원본 ID·해시 보존. A26697/99 두 미확정 항목은 별도 기록, 가족 전체 COMPLETE 아님."
+}
