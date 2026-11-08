@@ -320,12 +320,12 @@
     {
       "id": "A39474-zh-00006",
       "source_hash": "e8ccf59bd923f008c7bfebe0f78ef3df1c4344461a099f73514be5a65cbd3e40",
-      "text": "1）应当配备履行法第十五条第一款各项业务所需的空间及设备"
+      "text": "1）应当配备履行法第十五条第一款各项业务所需的空间及设备。"
     },
     {
       "id": "A39474-zh-00007",
       "source_hash": "b07f284c168b4439d8094be830d84b516e0148679cabd0662c895cfc05d593ad",
-      "text": "。"
+      "text": ""
     },
     {
       "id": "A39474-zh-00008",
@@ -925,7 +925,7 @@
     {
       "id": "A39476-zh-00054",
       "source_hash": "e70d33e84372fec81343b30d428aafe3d012b11a27df95c90e581e4ce8757cad",
-      "text": "辅助人员"
+      "text": "辅助人员（10人以下：—）"
     },
     {
       "id": "A39476-zh-00063",
@@ -4094,7 +4094,7 @@
     "structural_audit_passed": true,
     "source_layout_duplicates_resolved": true
   },
-  "note": "8 isolated and redundant Chinese XML fragments suppressed by explicit blank corrections only, originals untouched and SHA conserved. Korean content already fully reflected in adjacent effective text. Final family-wide quality audit pending; do not issue COMPLETE yet.",
+  "note": "C03 f705f160d162: preserve original file and exact 800 correction IDs. Suppressed nine known redundant OCR/segmentation cells; restored missing support-personnel dash value as (10人以下：—) on label cell. Full integrity checks pending before COMPLETE.",
   "structural_audit": {
     "path": "review/zh/F-0536890d62605f77ff0a-progress-C03-a166f62f1d4a-structural-audit.json",
     "metrics": {
@@ -4119,6 +4119,7 @@
     "A39477-zh-00008",
     "A39478-zh-00027",
     "A26697-zh-00008",
-    "A26699-zh-00053"
+    "A26699-zh-00053",
+    "A39474-zh-00007"
   ]
 }
