@@ -1,0 +1,39 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-31334bc4303ae2cb3d80",
+  "worker": "C06",
+  "status": "IN_PROGRESS",
+  "document": "A22639",
+  "ko_sha": "d6d795ff1ece4a82663a83efd46f7f73afa7fbbb",
+  "zh_sha": "7a6d1e8d841fb3b27185d6d4a6b811149d604dc0",
+  "source_progress_sha": "27e0b9f26375c880142096dd8eea371aa62244e3",
+  "previous_quality_sha": "dbd34ab6be9004bf2965bb7eedb8c9d0318ea66e",
+  "checks": [
+    {
+      "id": "A22639-zh-00028",
+      "source_hash": "4929f7cc03943d2c008ecc1a45d64cb034cde13f4c2026ac05f706d753b85fa4",
+      "target_id": "XML:1607175",
+      "korean_evidence": "2. 승무원 현황 표의 열 제목: 인 원(명)",
+      "original_text": "MTQ74d39927258b867f00043的数量END",
+      "candidate_text": "人数（名）",
+      "verdict": "ACCEPT",
+      "final_text": "人数（名）",
+      "reason": "기존 progress-01의 교정이 이미 MTQ 표식을 제거하고 수량(명) 의미를 보존하므로 신규 교정 추가 없이 보존"
+    },
+    {
+      "id": "A22639-zh-00029",
+      "target_id": "XML:1607176",
+      "verdict": "NEEDS_REVIEW",
+      "final_text": null,
+      "reason": "운항승무원 및 인원수 공란과 인접한 00030 대응을 원본 XML 셀 분할 기준으로 확인해야 함"
+    },
+    {
+      "id": "A22639-zh-00032",
+      "target_id": "XML:1607179",
+      "verdict": "NEEDS_REVIEW",
+      "final_text": null,
+      "reason": "객실승무원 및 인원수 공란과 00031의 관계를 원본 XML 셀 분할 기준으로 확인해야 함"
+    }
+  ],
+  "note": "Existing progress-01 MTQ correction verified and preserved; 00029/00032 remain unadjudicated. No COMPLETE or receipt asserted."
+}
