@@ -6422,42 +6422,21 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-5e7d64734731-supplement.json",
       "verification": "C02_KOREAN_SUPPLEMENT_SOURCE_COMPARISON",
       "reason": "Korean source cites exact title 스마트도시 조성 및 산업진흥 등에 관한 법률; correct the cross-referenced Act title only."
+    },
+    {
+      "id": "B1-zh-00197",
+      "source_hash": "37001cd885790b5ffa80089998ac9388a5e16a8788d63d1862f9179920da01e1",
+      "target_id": "2e94ded8f17fb5e93b04f0fd122741fbf12cb93ec0c14e02742d730bc3653864",
+      "text": "第七条（其他法律的修正）①至<478>条已省略\n\n  <479> 《智慧城市建设及产业振兴等相关法律》部分修订如下。\n\n  在第 42-2 条第 1 款的后半部分，“贸易、工业和能源部长”应改为“气候、能源和环境部长”。\n\n  <480> 至 <626> 已省略\n\n",
+      "verification": "C02_KOREAN_SUPPLEMENT_SOURCE_COMPARISON",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c7b2cc4a46a4-adjudication.json",
+      "reason": "2025 Korean supplementary amendment explicitly cites full Smart City Act name."
     }
   ],
-  "adjudicated_edit_count": 683,
-  "pending_single_candidate_count": 54,
+  "adjudicated_edit_count": 684,
+  "pending_single_candidate_count": 44,
   "pending_conflict_count": 0,
   "pending_single_candidates": [
-    {
-      "id": "A36427-zh-00060",
-      "source_hash": "7fe43e5280eef101f7eeac5f9d0bfa998c250033b62413e8b244088f7fe45ab0",
-      "target_id": "XML:2657429",
-      "variants": [
-        {
-          "text": "未取得认证却使用认证标志或",
-          "file_indices": [
-            14
-          ]
-        }
-      ],
-      "text": "未取得认证却使用认证标志或",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "A36427-zh-00071",
-      "source_hash": "fda4c5387c44bb5df054d5d931b06c11f92423579e60d25cc4b88bbbfbd3f8eb",
-      "target_id": "XML:2657441",
-      "variants": [
-        {
-          "text": "的情形",
-          "file_indices": [
-            14
-          ]
-        }
-      ],
-      "text": "的情形",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
     {
       "id": "A36427-zh-00089",
       "source_hash": "bdbe58cd0b91940cfef05db7eec121a4b4b01481c3c010a32da3d3747c25592d",
@@ -6576,21 +6555,6 @@
         }
       ],
       "text": "4) 自智慧创新事业实施之日起，违法",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "A36427-zh-00111",
-      "source_hash": "8307a786e59c9aad5c98d96a769a192b65bb58b466f387fb4a3f1a154cc031ba",
-      "target_id": "XML:2657483",
-      "variants": [
-        {
-          "text": "责任保险，或未制定对人身",
-          "file_indices": [
-            14
-          ]
-        }
-      ],
-      "text": "责任保险，或未制定对人身",
       "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
     },
     {
@@ -6804,21 +6768,6 @@
       "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
     },
     {
-      "id": "B1-zh-00065",
-      "source_hash": "230a20be7ee29833c72f37f36361671fd1718d7790bff6271ec2e97eed4463b0",
-      "target_id": "d4a0d455a9933cd77ecc96067470918392f99c402831785e6337977738c26d17",
-      "variants": [
-        {
-          "text": "第四十六条 删除<2020年6月9日>\n\n第八章 智慧创新、实证事业的规制特例等<2021年3月16日修订>\n",
-          "file_indices": [
-            29
-          ]
-        }
-      ],
-      "text": "第四十六条 删除<2020年6月9日>\n\n第八章 智慧创新、实证事业的规制特例等<2021年3月16日修订>\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
       "id": "B1-zh-00070",
       "source_hash": "1582001b51b6a749a045c5c72e9a52648a2923575df8060677bbceb8939ab2ad",
       "target_id": "9dc3ee5e1567ae7da107d5fc25141b755939ce8537708c847a7c2dfeee27b110",
@@ -6879,21 +6828,6 @@
       "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
     },
     {
-      "id": "B1-zh-00077",
-      "source_hash": "75011cdb1c0fb9219e6a3bdc723dcac890452967ba391ad301b75cbebc628fe7",
-      "target_id": "9d9403903b99dcf9904ef563abc0826314a1787e970288dc649019afa682b168",
-      "variants": [
-        {
-          "text": "第五十五条（罚款）\n① 对下列任一主体（包括依据第五十条第二款准用的情形）处以不超过1,000万韩元的罚款。<2019年11月26日、2021年3月16日新增>\n1. 不遵守第四十九条第八款规定的条件或要求\n2. 不遵守第五十二条第四款规定的措施\n3. 违反第五十二条第六款，在智慧创新事业计划被撤销后继续实施智慧创新事业\n4. 违反第五十三条第六款，未投保责任保险或未制定人身、财产损害赔偿方案\n5. 违反第五十三条之二第五款，未投保责任保险或未制定人身、财产损害赔偿方案\n② 对下列任一主体处以不超过500万韩元的罚款。<2019年11月26日修订>\n1. 拒绝、妨碍或逃避第二十四条之三第一款规定的报告、提交资料、调查或检查，不执行其他命令，或者作出虚假报告或提交虚假资料\n2. 通过虚假或其他不正当方法取得第三十二条第一款规定的认证\n3. 违反第三十四条第二款，未取得认证却使用认证标志或类似标志，或宣传已取得认证\n③ 第一款及第二款规定的罚款由国土交通部长官或地方自治团体负责人依总统令规定征收并课处。<2019年11月26日修订>\n",
-          "file_indices": [
-            31
-          ]
-        }
-      ],
-      "text": "第五十五条（罚款）\n① 对下列任一主体（包括依据第五十条第二款准用的情形）处以不超过1,000万韩元的罚款。<2019年11月26日、2021年3月16日新增>\n1. 不遵守第四十九条第八款规定的条件或要求\n2. 不遵守第五十二条第四款规定的措施\n3. 违反第五十二条第六款，在智慧创新事业计划被撤销后继续实施智慧创新事业\n4. 违反第五十三条第六款，未投保责任保险或未制定人身、财产损害赔偿方案\n5. 违反第五十三条之二第五款，未投保责任保险或未制定人身、财产损害赔偿方案\n② 对下列任一主体处以不超过500万韩元的罚款。<2019年11月26日修订>\n1. 拒绝、妨碍或逃避第二十四条之三第一款规定的报告、提交资料、调查或检查，不执行其他命令，或者作出虚假报告或提交虚假资料\n2. 通过虚假或其他不正当方法取得第三十二条第一款规定的认证\n3. 违反第三十四条第二款，未取得认证却使用认证标志或类似标志，或宣传已取得认证\n③ 第一款及第二款规定的罚款由国土交通部长官或地方自治团体负责人依总统令规定征收并课处。<2019年11月26日修订>\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
       "id": "B1-zh-00081",
       "source_hash": "3791dab6bb43bc0f0696d72c979a31f9d8ba77496f8762f44b17db6eac5efa8a",
       "target_id": "c8414fa19563f6c401cd03fb222ebd28b22462213f3c4918ca0b7e0d137449ee",
@@ -6936,21 +6870,6 @@
         }
       ],
       "text": "第五条（其他法律的修订）《社会基础设施民间投资法》部分修订如下。\n\n  在第二条第一号中新设“무目”，内容如下。\n\n      무. 根据《泛在城市建设等法》第二条第三号规定的泛在城市基础设施\n\n  在第二条第十三号中新设“투目”，内容如下。\n\n      투.《泛在城市建设等法》\n\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "B1-zh-00088",
-      "source_hash": "5dc4e187873ce1718b73060e5a482eac0ce92b9ad5a684d55a041a75ad40ebef",
-      "target_id": "25388f091e37a94cec1e172c007833950f86bedb8ccb4d651d27c07d7d963fbb",
-      "variants": [
-        {
-          "text": "第三条（其他法律的修订）①及②省略。\n\n  ③ 《泛在城市建设等法》部分修订如下。\n\n  将第十五条第一款第十号中的“行政财产及保有财产”改为“行政财产”。\n\n  ④至⑦省略。\n\n",
-          "file_indices": [
-            33
-          ]
-        }
-      ],
-      "text": "第三条（其他法律的修订）①及②省略。\n\n  ③ 《泛在城市建设等法》部分修订如下。\n\n  将第十五条第一款第十号中的“行政财产及保有财产”改为“行政财产”。\n\n  ④至⑦省略。\n\n",
       "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
     },
     {
@@ -7026,36 +6945,6 @@
         }
       ],
       "text": "第六条（其他法律的修改）①至<17>省略\n\n  <18> 《泛在城市建设等相关法律》部分修改如下。\n\n  第十五条第一款第十七项中的“《消防设施安装维护及安全管理法》”修改为“《消防设施安装、维护及安全管理法》”。\n\n  <19>至<25>省略\n\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "B1-zh-00120",
-      "source_hash": "6af320d6f88754335cff257bcd73c164bf76cb54e1011254c88ba1fbe4d2a2cf",
-      "target_id": "989f2a6a9fec42229e20158767a7d3f19263698e863fb84919131fc4c0f4bfb8",
-      "variants": [
-        {
-          "text": "第三条（关于泛在城市建设事业实施计划协商的适用例）第十四条第三款的修正规定，自本法施行后首次制定或批准泛在城市建设事业实施计划时起适用。\n\n",
-          "file_indices": [
-            36
-          ]
-        }
-      ],
-      "text": "第三条（关于泛在城市建设事业实施计划协商的适用例）第十四条第三款的修正规定，自本法施行后首次制定或批准泛在城市建设事业实施计划时起适用。\n\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "B1-zh-00127",
-      "source_hash": "6068f97bbb5e9bf0863a4a41508a1a483235e121a16488ecad234ce1ea6eabba",
-      "target_id": "cfb9192ac8b2a7db0d2491a5694976b26421528faac06c3b2f47caf1dd998d5d",
-      "variants": [
-        {
-          "text": "第二十四条（其他法律的修改）①至<82>省略\n\n  <83> 《泛在城市建设等相关法律》部分修改如下。\n\n  将第十五条第一款第五项中的“《道路法》第三十八条”修改为“《道路法》第六十一条”。\n\n  <84>至<126>省略\n\n",
-          "file_indices": [
-            37
-          ]
-        }
-      ],
-      "text": "第二十四条（其他法律的修改）①至<82>省略\n\n  <83> 《泛在城市建设等相关法律》部分修改如下。\n\n  将第十五条第一款第五项中的“《道路法》第三十八条”修改为“《道路法》第六十一条”。\n\n  <84>至<126>省略\n\n",
       "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
     },
     {
@@ -7146,36 +7035,6 @@
         }
       ],
       "text": "第十四条（其他法律的修改）①至③省略。\n\n  ④《智慧城市建设及产业振兴等相关法律》部分修改如下。\n\n  将第十二条第三款第五号中的“《软件产业振兴法》”修改为“《软件振兴法》”。\n\n  在第四十一条第一款中，将“《软件产业振兴法》”修改为“《软件振兴法》”，将“第二十四条之二第二款至第五款”修改为“第四十八条第二款至第五款”；在同条第二款各号以外部分的正文中，将“《软件产业振兴法》第二十四条之二第二款至第五款”修改为“《软件振兴法》第四十八条第二款至第五款”，并将同款第一号修改如下。\n\n    1. 《软件振兴法》第二条第四号规定的软件事业者中，不属于《中小企业基本法》第二条规定的中小企业、且属于总统令规定的企业。\n\n  ⑤至⑩省略。\n\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "B1-zh-00174",
-      "source_hash": "cf87d9fdeb890eaa814622a35dfcb7be423758c22e064b15077fb5bb2a6884b6",
-      "target_id": "fb7f8899a1683005bc6bc3f191b126801ce16c43b6721caa6a0275de1cb13226",
-      "variants": [
-        {
-          "text": "附则（《为整备法律用语而部分修改国土交通委员会所管78部法律的法律》）<第17453号，2020年6月9日>\n\n本法自公布之日起施行。<但书省略>\n\n",
-          "file_indices": [
-            81
-          ]
-        }
-      ],
-      "text": "附则（《为整备法律用语而部分修改国土交通委员会所管78部法律的法律》）<第17453号，2020年6月9日>\n\n本法自公布之日起施行。<但书省略>\n\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "B1-zh-00197",
-      "source_hash": "37001cd885790b5ffa80089998ac9388a5e16a8788d63d1862f9179920da01e1",
-      "target_id": "2e94ded8f17fb5e93b04f0fd122741fbf12cb93ec0c14e02742d730bc3653864",
-      "variants": [
-        {
-          "text": "第七条（其他法律的修改）①至<478>省略。\n\n  <479>《智慧城市建设及产业振兴等相关法律》部分修改如下。\n\n  将第四十二条之二第一款后段中的“产业通商资源部长官”修改为“气候能源环境部长官”。\n\n  <480>至<626>省略。\n\n",
-          "file_indices": [
-            81
-          ]
-        }
-      ],
-      "text": "第七条（其他法律的修改）①至<478>省略。\n\n  <479>《智慧城市建设及产业振兴等相关法律》部分修改如下。\n\n  将第四十二条之二第一款后段中的“产业通商资源部长官”修改为“气候能源环境部长官”。\n\n  <480>至<626>省略。\n\n",
       "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
     },
     {
@@ -7345,12 +7204,13 @@
     "2026-11-08 C02 0e1edbb7e85b: source-grounded reconciliation of 13 legal Act/Decree historical variants against Korean originals and accepted Chinese master. Pending 95->82. All 680 accepted edits and source blob hashes preserved; COMPLETE withheld.",
     "2026-11-08 C02 0e1edbb7e85b: additional 7 Korean Act/Decree historical variants adjudicated; total 20 this assignment. 82->75 pending. 680 accepted edit records and source hashes retained; no COMPLETE.",
     "2026-11-08 C02 5e7d64734731: compared 12 source-grounded historical Act/Decree candidates against original Korean law. Retained 11 existing Chinese source rows; corrected B1-zh-00143 statutory title of the Vacant Houses and Small-Scale Housing Maintenance Special Act with minimal change. Preserved 680 prior accepted edits and source identities. IN_PROGRESS.",
-    "2026-11-08 C02 5e7d64734731 supplement: 9 historical supplement candidates adjudicated; 7 originals retained and 2 statutory titles/reference types corrected. Total this task 21 candidates, 3 newly confirmed edits. Cumulative 683 accepted edits; 54 pending. Source SHA preserved; IN_PROGRESS."
+    "2026-11-08 C02 5e7d64734731 supplement: 9 historical supplement candidates adjudicated; 7 originals retained and 2 statutory titles/reference types corrected. Total this task 21 candidates, 3 newly confirmed edits. Cumulative 683 accepted edits; 54 pending. Source SHA preserved; IN_PROGRESS.",
+    "2026-11-08 C02 c7b2cc4a46a4: 10 pending historical variant determinations, including precise update of 2025 Government Organization Act supplementary reference to full Smart City Act title. Retained 9 other accepted/original expressions, original source SHA, preceding verified edits. Whole-family IN_PROGRESS."
   ],
   "integration_progress": {
-    "stage": "ACT_SUPPLEMENT_HISTORICAL_ADJUDICATION",
-    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:5e7d64734731",
-    "note": "21 candidates adjudicated in this task, 3 minimal changes to statutory names/citations, 54 candidates remain."
+    "stage": "STATUTE_AND_ANNEX_HISTORICAL_VARIANT_ADJUDICATION",
+    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:c7b2cc4a46a4",
+    "note": "10 Korean-source historical candidates adjudicated, 1 new statutory title correction, 44 remain."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -8490,10 +8350,10 @@
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-family-audit.json",
     "blob_sha": "PENDING_REQUERY",
-    "accepted_unique_edits": 683,
+    "accepted_unique_edits": 684,
     "recorded_evidence_ids": 1133,
     "ids_without_confirmed_evidence": 0,
-    "pending_candidate_ids": 54,
+    "pending_candidate_ids": 44,
     "pending_conflict_ids": 0,
     "source_identity_mismatches": 0
   }
