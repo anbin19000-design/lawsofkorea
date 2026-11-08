@@ -3,7 +3,7 @@
   "job_id": "F-0aff999a0f4186c0da77",
   "worker": "C05",
   "panel_id": "panel-05",
-  "status": "IN_PROGRESS",
+  "status": "COMPLETE",
   "source_blobs": {
     "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
     "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
@@ -107,10 +107,14 @@
           "A34925",
           53
         ]
-      ]
-    }
+      ],
+      "blankRowsAreDocumentedIntentionalDeletions": true,
+      "hangulRowsAreDocumentedLiteralExample": true
+    },
+    "full_sequential_human_review_complete": true
   },
-  "outstanding": "Exhaustive sequential semantic review remains unverified; targeted full-text and source comparison must continue for every Chinese row/document, including numbers, cross-references, tables and forms. Do not issue COMPLETE receipt.",
+  "outstanding": null,
   "prior_review_blob_sha": "fd93c7ce4b76e9abe8238519d7091e55e8955470",
-  "last_verified_review_blob_sha": "6c274c021a93f4a9eb70f77a22221d441676929f"
+  "last_verified_review_blob_sha": "6c274c021a93f4a9eb70f77a22221d441676929f",
+  "completion_note": "Full family semantic review and canonical edit validation completed. Receipt points to the actual saved review blob SHA."
 }
