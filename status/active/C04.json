@@ -6,6 +6,8 @@
   "delivery_status": "SENT_VERIFIED",
   "documents": 56,
   "family_id": "F-1497d85066511dfeffd4",
+  "held_at": "2026-11-08T15:33:20.729861+00:00",
+  "hold_reason": "이번 실행에서 한국어 56개 문서의 전체 독해와 후속 영문·중문 검수까지 완료하지 못했습니다. 정확한 재개 위치와 원문 SHA를 중간 파일에 보존했으며, 다음 법령은 수취하지 않았습니다.",
   "job_id": "F-1497d85066511dfeffd4",
   "marker": "[WORK-TASK:C04:F-1497d85066511dfeffd4:fa05befc3a32]",
   "panel_id": "panel-04",
@@ -19,7 +21,7 @@
     "zh": "a039851e87912aaef943e29d8fe40df20ae65e8a"
   },
   "source_commit": "f25a08af79bad982285acfed02e84b028eb2670f",
-  "status": "ACTIVE",
+  "status": "HELD",
   "title": "평생교육법",
   "verified_at": "2026-11-08T15:30:20.153912+00:00",
   "worker": "C04"

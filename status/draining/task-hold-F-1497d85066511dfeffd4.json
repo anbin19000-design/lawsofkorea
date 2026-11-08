@@ -1,0 +1,19 @@
+{
+  "assignment_id": "UW-a21a4d14ac8e220e89941ee8bfdefb65",
+  "evidence": {
+    "assistant": "b827220474cfd5a97766cd3c9c2d5aa8eb21f900ca78ac281ed95112b010d262",
+    "url": "https://chatgpt.com/c/6af094af-de90-83ee-96d4-e257523fc509",
+    "user": "499ce89973e396910a2d96a3b51c21bc3f3f88e1837b93315c0797d498e1b37b"
+  },
+  "held_at": "2026-11-08T15:33:20.729846+00:00",
+  "job_id": "F-1497d85066511dfeffd4",
+  "reason": "이번 실행에서 한국어 56개 문서의 전체 독해와 후속 영문·중문 검수까지 완료하지 못했습니다. 정확한 재개 위치와 원문 SHA를 중간 파일에 보존했으며, 다음 법령은 수취하지 않았습니다.",
+  "schema": "WORKER_TASK_HOLD_V1",
+  "source_blobs": {
+    "en": "835fe6c61b35a38db06d890138be0001ca03c610",
+    "ko": "f7414f486d3fff46fec301f56e47f37575f835aa",
+    "zh": "a039851e87912aaef943e29d8fe40df20ae65e8a"
+  },
+  "status": "HELD",
+  "worker": "C04"
+}
