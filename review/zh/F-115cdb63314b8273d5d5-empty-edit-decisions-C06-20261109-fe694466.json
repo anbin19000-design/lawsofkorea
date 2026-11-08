@@ -14,7 +14,7 @@
     "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT": 88
   },
   "status": "SOURCE_BOUND_DECISIONS_RECORDED",
-  "note": "Re-adjudicated every blank correction from the prior official review. All 84 empty edit entries were blank deletion/no-op decisions (OCR/template debris, unsupported fragments, duplicate continuations, or text already consolidated into adjacent complete corrected rows); none is a missing Korean provision. Added four source-bound deletion decisions for A28849's split continuation cells after restoring complete translations for schedule items 2 and 3. Empty decisions are preserved here with original IDs, source text/hash, target IDs, neighbors and reasons, and are excluded from canonical nonblank edits. Original laws/zh rows remain unchanged.",
+  "note": "Re-adjudicated every blank correction from the prior official review. All 84 empty edit entries were blank deletion/no-op decisions (OCR/template debris, unsupported fragments, duplicate continuations, or text already consolidated into adjacent complete corrected rows); none is a missing Korean provision. Added four source-bound deletion decisions for A28849's split continuation cells after restoring complete translations for schedule items 2 and 3. Empty decisions are preserved here with original IDs, source text/hash, target IDs, neighbors and reasons, and are excluded from canonical nonblank edits. Original laws/zh rows remain unchanged. Four orphan '-extra' correction IDs were reconciled to exact source row IDs; no invalid ID remains in the canonical review. They are preserved here as merge decisions, not active correction IDs.",
   "decisions": [
     {
       "id": "A28846-zh-00069",
@@ -1159,6 +1159,37 @@
       "following_row_id": "A28849-zh-00016",
       "reason": "A28849 table item 2/3 condition has been consolidated into the adjacent complete corrected row. These isolated continuation fragments are removed from the correction overlay to avoid broken sentence cells; the Korean schedule is represented in full in the corrected item heading.",
       "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+    }
+  ],
+  "orphan_edit_count": 4,
+  "orphan_edit_decisions": [
+    {
+      "id": "B2-zh-00134-extra",
+      "decision": "MERGED_INTO_SOURCE_ROW",
+      "source_row_id": "B2-zh-00134",
+      "prior_edit_text": "……",
+      "reason": "No matching source row ID exists. The placeholder ellipsis was not emitted; the complete Korean-source-backed paragraph and all amendment text are preserved in the replacement for B2-zh-00134."
+    },
+    {
+      "id": "B2-zh-00208-extra",
+      "decision": "MERGED_INTO_SOURCE_ROW",
+      "source_row_id": "B2-zh-00208",
+      "prior_edit_text": "① 国土交通部长官依据本法第一百一十条第一款，将下列各项有关大都市圈交通拥堵道路的权限委托给《大都市圈广域交通管理特别法》第八条规定的大都市圈广域交通委员会。\n",
+      "reason": "No matching source row ID exists. The clause is already part of the original B2-zh-00208 source row and is retained in its complete replacement."
+    },
+    {
+      "id": "B2-zh-00217-extra",
+      "decision": "MERGED_INTO_SOURCE_ROW",
+      "source_row_id": "B2-zh-00217",
+      "prior_edit_text": "  第八十四条第一款第二项中的“渔业权”改为“渔业权、水产养殖业权”。\n",
+      "reason": "No matching source row ID exists. The exact amendment was merged into the complete replacement for B2-zh-00217."
+    },
+    {
+      "id": "B3-zh-00052-extra",
+      "decision": "MERGED_INTO_SOURCE_ROW",
+      "source_row_id": "B3-zh-00052",
+      "prior_edit_text": "第四十七条（原因者费用负担命令书）根据施行令第九十一条作出的原因者费用负担命令书，应当采用附表第四十四号格式。",
+      "reason": "No matching source row ID exists. The correct full translation was moved to the actual source row B3-zh-00052, replacing an unrelated previous heading."
     }
   ]
 }
