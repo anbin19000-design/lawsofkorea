@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 381,
+    "correction_count": 389,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -2692,6 +2692,62 @@
       "original": "），付款接收人及退货条件，以及在无法退货的情况下，退货原因",
       "corrected": "收款对象、退款条件；如不能退款，还应记载其理由。",
       "reason": "시행령 별표 1 제5호 가목의 한국어 전체 문맥 대조: 환급·반환 조건, 예치가맹금, 지급대상 및 미반환 사유의 명백한 의미 누락·오역 복구."
+    },
+    "A34909-zh-00249": {
+      "doc": "A34909",
+      "source_hash": "9441201193f9caf408a67d14f4636172a4c14be6e3e7f5565ac8adf75208ed35",
+      "original": "4) 特许经营商向特许经营区域以外的客户提供的商品和服务，由特许经营商担保",
+      "corrected": "4) 对加盟商向其受保障营业区域以外的顾客销售商品或提供服务所施加的限制，",
+      "reason": "시행령 별표 1 제6호 마목 한국어 원문 대조: 영업지역 외 고객 판매 제한과 대리점·온라인·홈쇼핑 등 대체재 거래공개 조항의 의미 오류 복구."
+    },
+    "A34909-zh-00250": {
+      "doc": "A34909",
+      "source_hash": "5a9c67ebb1e575e784b62e264518a40783819e2f0079cbf550038681978b273b",
+      "original": "销售限制",
+      "corrected": "应记载其具体内容。",
+      "reason": "시행령 별표 1 제6호 마목 한국어 원문 대조: 영업지역 외 고객 판매 제한과 대리점·온라인·홈쇼핑 등 대체재 거래공개 조항의 의미 오류 복구."
+    },
+    "A34909-zh-00251": {
+      "doc": "A34909",
+      "source_hash": "566765f772042055dbfc116f58e4e8a00bec8eaab01573426815188ae105cdf2",
+      "original": "5) 如果特许人在其加盟商的经营区域内使用代理机构或其他商业标志",
+      "corrected": "5) 特许人在加盟商营业区域内通过代理店、使用其他营业标识的加盟店等，",
+      "reason": "시행령 별표 1 제6호 마목 한국어 원문 대조: 영업지역 외 고객 판매 제한과 대리점·온라인·홈쇼핑 등 대체재 거래공개 조항의 의미 오류 복구."
+    },
+    "A34909-zh-00252": {
+      "doc": "A34909",
+      "source_hash": "95e3f91ca6f3246485f3bd1d0af4b3b695c0366fb97207d7dd44cd53c6d63e61",
+      "original": "通过盲点等方式，与加盟商交易的商品或服务相同或相似。",
+      "corrected": "销售与加盟商经营的商品或服务相同或类似、可能构成替代关系的商品或服务时，",
+      "reason": "시행령 별표 1 제6호 마목 한국어 원문 대조: 영업지역 외 고객 판매 제한과 대리점·온라인·홈쇼핑 등 대체재 거래공개 조항의 의미 오류 복구."
+    },
+    "A34909-zh-00253": {
+      "doc": "A34909",
+      "source_hash": "194b905ad1c2e963e8a9201906acf65ae6574dba48c23607687329de2106d99a",
+      "original": "涉及可能存在替代关系的商品或服务的交易详情",
+      "corrected": "应记载相关交易内容。",
+      "reason": "시행령 별표 1 제6호 마목 한국어 원문 대조: 영업지역 외 고객 판매 제한과 대리점·온라인·홈쇼핑 등 대체재 거래공개 조항의 의미 오류 복구."
+    },
+    "A34909-zh-00254": {
+      "doc": "A34909",
+      "source_hash": "939b52ecea0d81acdfeb430ad5e74a17e5a11c88f414d13f2021936f076cdd2f",
+      "original": "6) 当特许人通过在线、家庭购物、电话营销等方式与加盟商进行交易时。",
+      "corrected": "6) 特许人通过网络、家庭购物、电话推销等方式，",
+      "reason": "시행령 별표 1 제6호 마목 한국어 원문 대조: 영업지역 외 고객 판매 제한과 대리점·온라인·홈쇼핑 등 대체재 거래공개 조항의 의미 오류 복구."
+    },
+    "A34909-zh-00255": {
+      "doc": "A34909",
+      "source_hash": "b11962bf39c4f11a9c8eaae936a87930e46abfc479efe504c4d13257e409dbd7",
+      "original": "与商品或服务相同或相似，且可能构成替代关系的商品或服务",
+      "corrected": "销售与加盟商经营的商品或服务相同或类似、可能构成替代关系的商品或服务时，",
+      "reason": "시행령 별표 1 제6호 마목 한국어 원문 대조: 영업지역 외 고객 판매 제한과 대리점·온라인·홈쇼핑 등 대체재 거래공개 조항의 의미 오류 복구."
+    },
+    "A34909-zh-00256": {
+      "doc": "A34909",
+      "source_hash": "40200c9d6649202e610656c35d901e08adaf0e7df779a8cddfd7c8f93cbeea5c",
+      "original": "，请查看有关",
+      "corrected": "应记载相关交易内容。",
+      "reason": "시행령 별표 1 제6호 마목 한국어 원문 대조: 영업지역 외 고객 판매 제한과 대리점·온라인·홈쇼핑 등 대체재 거래공개 조항의 의미 오류 복구."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -2767,7 +2823,8 @@
     "C05 b12a95d6624f: annex A34916 rechecked against whole Korean source; 8 clear semantic/enum corrections. Source preserved, full semantic review still pending.",
     "C05 9de52492017e: compared Korean Annex A34915 surcharge basis and linked original Chinese lines, corrected 11 concrete mistranslations; no whole family semantic completion certification.",
     "C05 c40b97c6430f: A34909 disclosure-cover statutory disclaimer clauses 14-16 restored against full Korean sentence; preserve row 17 continuation.",
-    "C05 1d83a14216df: A34909 section 5(a) source-grounded corrections for franchisee startup payments, refund/return conditions and escrow amount; 8 rows."
+    "C05 1d83a14216df: A34909 section 5(a) source-grounded corrections for franchisee startup payments, refund/return conditions and escrow amount; 8 rows.",
+    "C05 1d83a14216df: A34909 section 6(e) source-grounded territorial restriction and substitute-goods sales disclosure corrections (8)."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -2776,5 +2833,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 381
+  "corrected_rows": 389
 }
