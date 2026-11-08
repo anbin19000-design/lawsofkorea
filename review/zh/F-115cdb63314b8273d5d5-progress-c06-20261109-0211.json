@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 1680,
+    "verified_zh_rows": 1740,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 1680,
-      "checked_rows": 1680,
+      "next_row_zero_based": 1740,
+      "checked_rows": 1740,
       "total_rows": 5228
     }
   },
@@ -2119,9 +2119,153 @@
       "text": "",
       "original_text": "这是肝脏。",
       "reason": "표지 도면 OCR 잔존 오역 문구 삭제"
+    },
+    {
+      "id": "A4662-zh-00049",
+      "text": "1. 在接道区域内，根据《道路法》第四十条第三款的规定，禁止实施某些行为。",
+      "original_text": "1. 在路边区域，根据《道路法》第40条第3款的规定",
+      "reason": "접도구역 내 금지행위 안내문이 중간에서 끊김"
+    },
+    {
+      "id": "A4662-zh-00050",
+      "text": "2. 禁止擅自移动或损坏接道区域标志桩。",
+      "original_text": "因此，某些行为是被禁止的。",
+      "reason": "안내문의 두 번째 금지행위가 잘못 연결됨"
+    },
+    {
+      "id": "A4662-zh-00052",
+      "text": "",
+      "original_text": "操作。",
+      "reason": "与前项完整句合并后删除残缺词"
+    },
+    {
+      "id": "A4662-zh-00056",
+      "text": "○○郡守",
+      "original_text": "○○县供应",
+      "reason": "군수 직함을供应으로 오역"
+    },
+    {
+      "id": "A4663-zh-00001",
+      "text": "■ 《道路法施行规则》[附表二]",
+      "original_text": "■ 道路交通法执行规则 [附录 2]",
+      "reason": "도로법 시행규칙을 도로교통법 시행규칙으로 오역"
+    },
+    {
+      "id": "A4663-zh-00009",
+      "text": "1) 在正视图①的各面上标示“道路原点标志”。",
+      "original_text": "1) 在前视图①的每一侧，“原点标记”",
+      "reason": "道路原点标志的标示语句不完整"
+    },
+    {
+      "id": "A4663-zh-00010",
+      "text": "1) 距离是道路原点标志之间的距离，按上级道路顺序累计标示最近距离（公里）。",
+      "original_text": "1) 该距离是道路起点标记与上级道路",
+      "reason": "道路原点间距离及按上级道路顺序累计的标准被截断"
+    },
+    {
+      "id": "A4663-zh-00011",
+      "text": "",
+      "original_text": "将被标记。",
+      "reason": "与前一项完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A4663-zh-00012",
+      "text": "2) 在正视图②的各面上标示主要城市名称及距离（公里）（例如：仁川42公里、木浦429公里）。",
+      "original_text": "2) 在正面视图②的每一侧，主要城市的名称",
+      "reason": "主要城市名称及距离的标示要求被截断"
+    },
+    {
+      "id": "A4663-zh-00013",
+      "text": "",
+      "original_text": "计算并显示",
+      "reason": "与前一项完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A4663-zh-00014",
+      "text": "",
+      "original_text": "显示距离（公里）（例如，仁川 42 公里，木",
+      "reason": "与前一项完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A4663-zh-00015",
+      "text": "2) 岛屿地区等应标示直线距离（公里）。",
+      "original_text": "2) 对于岛屿地区等，直线距离（公里）",
+      "reason": "岛屿地区直线距离的标示要求被截断"
+    },
+    {
+      "id": "A4663-zh-00016",
+      "text": "",
+      "original_text": "429km)将",
+      "reason": "与前一项完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A4663-zh-00017",
+      "text": "3) 在正视图③的正面标示管理道路原点标志的道路管理机关名称，背面标示设立日期。",
+      "original_text": "3) 在前视图③的正面，道路起点标记由",
+      "reason": "道路管理机关名称及设立日期的标示要求被截断"
+    },
+    {
+      "id": "A4663-zh-00018",
+      "text": "",
+      "original_text": "执行该任务的道路管理机构的名称，以及背面的[文本]",
+      "reason": "与前一项完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A4663-zh-00019",
+      "text": "",
+      "original_text": "显示发布日期",
+      "reason": "与前一项完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A4663-zh-00023",
+      "text": "b. 如果道路原点标志无法设置在原定位置而必须迁移至其他地点，应在原定设置位置的路面上安装直径50厘米的黄铜牌。",
+      "original_text": "b. 如果原点标记无法安装在其原始位置，必须移动到其他位置，则",
+      "reason": "道路原点标志迁移条件及黄铜牌安装要求不完整"
+    },
+    {
+      "id": "A4663-zh-00024",
+      "text": "黄铜牌表面应刻有“道路原点标志”及“○○市或○○郡”字样。",
+      "original_text": "在原计划安装道路起点标志的路面上，安装一块直径为50厘米的黄铜牌（表面刻有“”字样）。",
+      "reason": "黄铜牌标记文字缺失"
+    },
+    {
+      "id": "A4663-zh-00025",
+      "text": "迁移后的道路原点标志侧面（③）应标明原道路原点标志位置的方向和距离。",
+      "original_text": "安装“道路起点标志”（指示“○○市或○○县”），以及重新安置和安装的道路起点标志",
+      "reason": "迁移后标志侧面的原位置指示要求被错误拆分"
+    },
+    {
+      "id": "A4663-zh-00026",
+      "text": "",
+      "original_text": "在侧面（③）上，用方向和距离标明道路起点标志的原始位置。",
+      "reason": "与前一项完整句合并后删除重复片段"
+    },
+    {
+      "id": "A4664-zh-00006",
+      "text": "5. 占用期限",
+      "original_text": "5. 入住期限",
+      "reason": "道路占用期限误译为入住期限"
+    },
+    {
+      "id": "A4664-zh-00007",
+      "text": "6. 占用物的结构",
+      "original_text": "6. 已占用房产的结构",
+      "reason": "점용물을 부동산으로 오역"
+    },
+    {
+      "id": "A4664-zh-00013",
+      "text": "12. 占用者的地址和姓名",
+      "original_text": "12. 居住者的地址和姓名",
+      "reason": "점용자를 거주자로 오역"
+    },
+    {
+      "id": "A4665-zh-00001",
+      "text": "■ 《道路法施行规则》[附表四] <2022年3月8日修订>",
+      "original_text": "■ 道路交通法执行规则 [附录 4] <2022 年 3 月 8 日修订>",
+      "reason": "도로법 시행규칙을 도로교통법 시행규칙으로 오역"
     }
   ],
-  "note": "Sequential Chinese review continued through original row 1679, reviewing B3 supplementary amendments and Annex 1 sign/marker installation standards. Added fourteen focused corrections to ministry-rule supplementary titles, correct Road Act Enforcement Rule naming, mountain-area marker spacing, and signboard text. Previous 314 edits retained. Continue from row 1680. IN_PROGRESS.",
+  "note": "Sequential Chinese review continued through original row 1739, reviewing Road Act Enforcement Rule annexes 1-4. Added focused corrections to prohibited roadside-zone actions, county governor title, road origin marker measurement/inscription/relocation instructions, Road Act vs Road Traffic Act rule titles, and road occupation notice fields. Previous 328 edits retained. Continue from row 1740. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
