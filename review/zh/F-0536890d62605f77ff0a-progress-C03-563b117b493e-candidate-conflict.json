@@ -1,0 +1,59 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:563b117b493e",
+  "status": "IN_PROGRESS",
+  "phase": "PRIOR_CANDIDATE_CONFLICT_ADJUDICATION",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_en_index_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "checked_rows": 2,
+  "checked_ids": [
+    "A26693-zh-00039",
+    "B2-zh-00006"
+  ],
+  "corrected_rows": 2,
+  "new_unique_corrections": 0,
+  "edits": [
+    {
+      "id": "A26693-zh-00039",
+      "source_hash": "795d2bd7018e2ec269b02d0b841e5f376597c11688b89219a1e58b0647677529",
+      "text": "※请依据《防止人口贩运等及保护受害者等法》第二条第一号规定的人口贩运等行为，"
+    },
+    {
+      "id": "B2-zh-00006",
+      "source_hash": "cc6774fc17d10e8b1752c766cf01255cac084994fd34126ddc276d83cd8ecf90",
+      "text": "第五条（教育等）\n① 法第十一条第一款第八项所称“总统令规定的机构工作人员”，是指依照《社会保障给付的利用、提供及受给权人发掘相关法律》第四十三条第一款，配置在特别市、广域市、特别自治市、道、特别自治道（以下简称“市、道”）、市、郡、区（指自治区；以下同）、邑、面、洞或者社会保障事务专责机构的社会福利专责公务员。\n② 法第十一条第一款所列不同教育对象的教育主管机关如下：\n1. 法第十一条第一款第一项至第三项及第八项所列人员：对其所属机构或者法人、团体、设施的所在地具有管辖权的特别市长、广域市长、特别自治市长、道知事、特别自治道知事或者市长、郡守、区厅长（指自治区区厅长；以下同）。\n2. 法第十一条第四项至第七项所列人员：其所属中央行政机关负责人。\n③ 法第十一条第一款规定的教育应当每年开展至少一小时，通过集中教育或者远程教育等方式进行，并包括下列内容。〈2025年10月1日修订〉\n1. 人口贩运等的类型和特点。\n2. 人口贩运等犯罪的主要内容。\n3. 防止及处罚人口贩运等相关法令的内容。\n4. 关于保护、支援法第三条第一款规定的人口贩运等受害者（以下简称“受害者”）的内容。\n5. 关于法第十三条第一款规定的受害者识别及保护指标（以下简称“受害者识别指标”）的内容。\n6. 发现受害者时的举报方法及保护程序。\n7. 性别平等家庭部部长认为预防、防止人口贩运等所需的其他内容。\n④ 依第二款及第三款开展受害者识别等教育的中央行政机关负责人、特别市长、广域市长、特别自治市长、道知事、特别自治道知事或者市长、郡守、区厅长，应当于下一年度一月三十一日前将教育实施结果提交性别平等家庭部部长。〈2025年10月1日修订〉\n\n"
+    }
+  ],
+  "results": [
+    {
+      "id": "A26693-zh-00039",
+      "verdict": "PASS_AFTER_CONFLICT_ADJUDICATION",
+      "reason": "Korean Annex Form 1 references 제2조제1호 (Act Article 2 subparagraph 1), not paragraph 1. Choose existing candidate 第二条第一号; candidate 第一项 not used."
+    },
+    {
+      "id": "B2-zh-00006",
+      "verdict": "PASS_AFTER_CONFLICT_ADJUDICATION",
+      "reason": "Korean decree Article 5(2) subparagraph 2 references 법 제11조제4호부터 제7호까지 without 제1항. Existing candidate file index 105 matches Korean; alternative file index 90 inserts 第十一条第一款 and is rejected."
+    }
+  ],
+  "candidate_decisions": {
+    "A26693-zh-00039": {
+      "accepted_file_index": 7,
+      "rejected_file_index": 1
+    },
+    "B2-zh-00006": {
+      "accepted_file_index": 105,
+      "rejected_file_index": 90
+    }
+  },
+  "preserve_prior_evidence": "status/delivery/reconcile-S2-8f70e317249155938a79444493d089b4-evidence-7e6b69412a765526.json",
+  "previous_adjudication": "review/zh/F-0536890d62605f77ff0a-progress-C03-0e99a0eda465-A26698-signatures-adjudication.json",
+  "protected_unresolved_ids": [
+    "A26697-zh-00008",
+    "A26699-zh-00053"
+  ],
+  "note": "Existing candidates adjudicated only. No new unique corrections. Do not issue COMPLETE, full family source reading and translated row review remain incomplete."
+}
