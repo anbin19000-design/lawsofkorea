@@ -1,0 +1,34 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 3,
+  "checked_ids": [
+    "B1-zh-00163",
+    "B1-zh-00164",
+    "B1-zh-00165"
+  ],
+  "edits": [
+    {
+      "id": "B1-zh-00163",
+      "source_hash": "2bf28fd861386ff733107dad4b6788f6b835022b5555d97c7f3ec1741c2bd7af",
+      "target_id": "e58ed4f90397d319f6d96cb65a858c9957204e15cab41eb7df96f7037001af71",
+      "text": "第二条（关于国家示范城市指定的过渡措施）本法施行前由国土交通部长官指定的国家示范城市，不受原规定限制，视为依本法指定的国家示范城市。\n\n"
+    },
+    {
+      "id": "B1-zh-00165",
+      "source_hash": "e2e0121c1b5f8ae6b89783dc3b0941e70f986d8ef083c8ab5e6a8c66dc26615f",
+      "target_id": "3e49171f6d92c8638f587c87f936de6cf636639f1974b8394d0b58dbed4050bc",
+      "text": "附则 <第16631号，2019年11月26日>\n\n本法自公布之日起满三个月之日施行。但第三十五条之三的修订规定自公布之日起满六个月之日施行。\n\n"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "note": "R64: Korean source checked B1 rows 163-165. Corrected minister title and transitional designation semantics in 163 and material Article 35-3 vs Article 35(3) mis-citation in 165. Row 164 preserved. Existing R1-R63 decisions preserved; full family not complete; no receipt."
+}
