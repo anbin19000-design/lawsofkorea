@@ -17,11 +17,11 @@
   },
   "current_review": {
     "path": "review/zh/F-81e30c25fcbea5af2364.json",
-    "blob_sha": "d1adda6fbff2310f5c17b1dd754fba8027574422",
+    "blob_sha": "bc85f5e5d82389fa226ce646e7dc34aaca9aba38",
     "schema": "LAW_ZH_REVIEW_CUMULATIVE_V1",
     "status": "IN_PROGRESS",
-    "edits": 315,
-    "checked_unique_ids": 337
+    "edits": 317,
+    "checked_unique_ids": 347
   },
   "reading_checkpoint": {
     "korean": {
@@ -50,12 +50,30 @@
         "B2-zh-00039",
         "B2-zh-00041",
         "B2-zh-00042",
-        "B2-zh-00044"
+        "B2-zh-00044",
+        "B2-zh-00046",
+        "B2-zh-00049",
+        "B2-zh-00052",
+        "B2-zh-00058",
+        "B2-zh-00048",
+        "B2-zh-00050",
+        "B2-zh-00053",
+        "B2-zh-00054",
+        "B2-zh-00056",
+        "B2-zh-00059",
+        "B2-zh-00060",
+        "B2-zh-00061",
+        "B2-zh-00062",
+        "B2-zh-00063"
       ],
       "new_corrections": [
         "B2-zh-00028",
         "B2-zh-00030",
-        "B2-zh-00031"
+        "B2-zh-00031",
+        "B2-zh-00046",
+        "B2-zh-00049",
+        "B2-zh-00052",
+        "B2-zh-00058"
       ],
       "checked_without_change": [
         "B2-zh-00033",
@@ -64,7 +82,17 @@
         "B2-zh-00039",
         "B2-zh-00041",
         "B2-zh-00042",
-        "B2-zh-00044"
+        "B2-zh-00044",
+        "B2-zh-00048",
+        "B2-zh-00050",
+        "B2-zh-00053",
+        "B2-zh-00054",
+        "B2-zh-00056",
+        "B2-zh-00059",
+        "B2-zh-00060",
+        "B2-zh-00061",
+        "B2-zh-00062",
+        "B2-zh-00063"
       ]
     }
   },
@@ -80,6 +108,22 @@
     {
       "id": "B2-zh-00031",
       "reason": "Correct legal citation from Article 4 paragraph 2 to Article 4 subparagraph 2."
+    },
+    {
+      "id": "B2-zh-00046",
+      "reason": "Use the defined term 总体规划师 consistently for 총괄계획가 and 총괄계획단."
+    },
+    {
+      "id": "B2-zh-00049",
+      "reason": "Correct 일반일간신문 to ordinary/general daily newspapers."
+    },
+    {
+      "id": "B2-zh-00052",
+      "reason": "Render 행정예고 as administrative advance notice (行政预告)."
+    },
+    {
+      "id": "B2-zh-00058",
+      "reason": "Correct the statute title in subparagraph 2 to 国土规划及利用法."
     }
   ],
   "english_coverage_note": "The index lists 712/1,133 row-level English references; 421 have no row-level English. B1 and B2 have official parent fallback, but it is a different version for B2; B3 and all A25465-A25474 have no indexed English documents.",
@@ -89,5 +133,5 @@
     "zh": false
   },
   "completion_receipt_verified": false,
-  "next_action": "Continue from the statutory sequence in B2, compare remaining B2 rows against the Korean decree; then complete remaining annexes and forms. Read the Korean family in full before reading available English documents in full, then conduct the full Chinese sequential review. Preserve all earlier review decisions. Do not mark COMPLETE until all 17 documents/1,133 rows are covered and official review plus receipt are saved and re-read."
+  "next_action": "Continue B2 in statutory order from the next unchecked row; then finish all remaining B2 and annex/form rows. Full Korean, available English, and Chinese family-wide sequential read-through is still required; keep status IN_PROGRESS and do not issue a receipt."
 }
