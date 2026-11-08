@@ -1,0 +1,177 @@
+{
+  "schema": "LAW_ZH_REVIEW_AUDIT_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "review_blob": "158863c07666e543e39a29b666fbdf4924b766ff",
+  "source_documents": 16,
+  "source_rows": 1207,
+  "source_unique_ids": 1207,
+  "corrected_ids": 230,
+  "unique_corrections": true,
+  "all_corrections_reference_source_ids": true,
+  "per_document": [
+    {
+      "key": "B1",
+      "kind": "법률",
+      "title": "수산물 유통의 관리 및 지원에 관한 법률",
+      "rows": 103,
+      "edits": 34,
+      "english_status": "EXACT_ENGLISH_AVAILABLE"
+    },
+    {
+      "key": "B2",
+      "kind": "대통령령",
+      "title": "수산물 유통의 관리 및 지원에 관한 법률 시행령",
+      "rows": 57,
+      "edits": 12,
+      "english_status": "EXACT_ENGLISH_AVAILABLE"
+    },
+    {
+      "key": "A38090",
+      "kind": "별표",
+      "title": "과징금의 부과기준(제27조 관련)",
+      "rows": 39,
+      "edits": 15,
+      "english_status": "EXACT_ENGLISH_AVAILABLE"
+    },
+    {
+      "key": "A38091",
+      "kind": "별표",
+      "title": "과태료의 부과기준(제30조 관련)",
+      "rows": 119,
+      "edits": 50,
+      "english_status": "EXACT_ENGLISH_AVAILABLE"
+    },
+    {
+      "key": "B3",
+      "kind": "해양수산부령",
+      "title": "수산물 유통의 관리 및 지원에 관한 법률 시행규칙",
+      "rows": 76,
+      "edits": 17,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23947",
+      "kind": "별표",
+      "title": "위반행위별 처분기준(제24조제2항 관련)",
+      "rows": 285,
+      "edits": 27,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23948",
+      "kind": "별표",
+      "title": "이력추적관리의 표시(제28조제1항 관련)",
+      "rows": 62,
+      "edits": 2,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23949",
+      "kind": "별표",
+      "title": "이력추적관리기준(제29조 관련)",
+      "rows": 73,
+      "edits": 14,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23950",
+      "kind": "별표",
+      "title": "이력추적관리의 등록취소 및 표시금지의 기준(제34조 관련)",
+      "rows": 90,
+      "edits": 11,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23951",
+      "kind": "서식",
+      "title": "위판장 개설허가신청서",
+      "rows": 39,
+      "edits": 5,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23952",
+      "kind": "서식",
+      "title": "매매참가인 신고서",
+      "rows": 51,
+      "edits": 15,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23953",
+      "kind": "서식",
+      "title": "수산물이력추적관리 등록(신규ㆍ갱신)신청서",
+      "rows": 55,
+      "edits": 8,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23954",
+      "kind": "서식",
+      "title": "수산물이력추적관리 등록증",
+      "rows": 21,
+      "edits": 3,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23955",
+      "kind": "서식",
+      "title": "수산물이력추적관리 등록증 재발급 신청서",
+      "rows": 40,
+      "edits": 6,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23956",
+      "kind": "서식",
+      "title": "수산물이력추적관리 등록사항 변경신고서",
+      "rows": 49,
+      "edits": 6,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23957",
+      "kind": "서식",
+      "title": "수산물이력추적관리 등록 유효기간 연장 신청서",
+      "rows": 48,
+      "edits": 5,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    }
+  ],
+  "mechanical_audit": {
+    "mtq_start_hangul_after_edits": [],
+    "unresolved_punctuation_cells": [
+      "A38090-zh-00012",
+      "A23947-zh-00010",
+      "A23948-zh-00013",
+      "A23948-zh-00019",
+      "A23951-zh-00017"
+    ],
+    "verified_surcharge_daily_krw": [
+      40000,
+      80000,
+      130000,
+      190000,
+      240000,
+      300000,
+      350000,
+      410000,
+      460000,
+      520000,
+      680000,
+      900000
+    ],
+    "verified_fine_table_amounts_source": "9 fine cases, four violation columns, numeric checks matched source Korean"
+  },
+  "english_note": "Exact-version English reference for Act B1 and Enforcement Decree B2 (and decree annex references). No independent English document for B3 and related rule annexes/forms.",
+  "semantic_review_completed": false,
+  "review_path": "review/zh/F-7423351d4946866bbacf.json",
+  "note": "This audit confirms mechanical consistency and corrected IDs, NOT full meaning equivalence. Source-cell continuity for annex tables and all 1207 rows remains not certified; no COMPLETE receipt shall be issued."
+}
