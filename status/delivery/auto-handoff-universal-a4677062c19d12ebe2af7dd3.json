@@ -6,9 +6,11 @@
   "draft_verified_at": "2026-11-08T09:23:40.501377+00:00",
   "evidence": "Prior supplier pending marker and installed full prompt match copied text exactly",
   "job_id": "F-81e30c25fcbea5af2364",
+  "new_url": "https://chatgpt.com/c/6af0403e-3a6c-83ee-8384-5155a5fc7a62",
   "old_url": "https://chatgpt.com/c/6af031ec-1114-83ec-8c41-5f1d547fa1ed",
   "prior_marker": "[WORK-TASK:C02:F-81e30c25fcbea5af2364:f11badba2881]",
   "receipt_blob": null,
+  "received_marker": "[WORK-TASK:C02:F-81e30c25fcbea5af2364:c4584abe8f51]",
   "review_blob": null,
   "source_blobs": {
     "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
@@ -16,7 +18,8 @@
     "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
   },
   "source_commit": "406742fef9122f0a0648cc29751a46aa588b5885",
-  "status": "INTENT",
+  "status": "REBOUND",
+  "verified_at": "2026-11-08T09:26:36.137072+00:00",
   "verified_task_spec_sha256": "ab615aa5632c7401d83439752e17e22252504afca50a5848b7a1a3c25cde4644",
   "worker": "C02"
 }
