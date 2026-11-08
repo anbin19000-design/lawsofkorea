@@ -1,0 +1,64 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_blob_observed": "003cad21fa104b32a22b7d401755e50ffab76f42",
+  "cumulative_corrections": 866,
+  "inspected_span": "A34909 rows 236–265 sequentially compared with Korean Schedule 1. Existing corrections at rows 239, 243, 249–256, 258 and 265 were retained. The row 236–238 price restriction text and 240–245 territorial protection clause were inspected; prior correction decisions remain authoritative.",
+  "candidate_notes": [
+    {
+      "id": "A34909-zh-00236",
+      "source_hash": "9a245d5729933bd182e8d35f8ee6b1cc034755f881de5e525688673dc9ddf17a",
+      "note": "'가격을 정하여 이에 따르도록 권장' is price setting and recommending compliance; translate subject/verb precisely, not suggest seller chooses price."
+    },
+    {
+      "id": "A34909-zh-00240",
+      "source_hash": "a30e47c09a8e5140414819eacf5af22a5ed5e7126da822c4755f73900b1c2853",
+      "note": "The clause describes setting the franchisee's business territory in the contract under Article 12-4; verify legal actor and contractual inclusion."
+    },
+    {
+      "id": "A34909-zh-00241",
+      "source_hash": "1e1f8beb760ad9af193017a726e4bdd74a2d23070d8dc54c561d7e31c4c84e47",
+      "note": "Sentence fragment continues statutory prohibition on establishing same-type direct/franchise outlets without just cause during contract term."
+    },
+    {
+      "id": "A34909-zh-00242",
+      "source_hash": "57b14b168c8066fa4599c6b08508942e1fbf22e7f65c58daa28ec7367828090c",
+      "note": "Retain the condition that direct/franchise outlets are limited to those operated by franchisor or its affiliates."
+    },
+    {
+      "id": "A34909-zh-00244",
+      "source_hash": "f3f41d170aba6cca4b6d0f9b53c123fc54d74914487c57dac5a4b9f4226e9b72",
+      "note": "The Korean requires listing other business marks in the same industry if such marks exist."
+    },
+    {
+      "id": "A34909-zh-00245",
+      "source_hash": "900db13eeae7c9e2f5e09055ea7b440804cdd434702ab331b064e79dc60af3e7",
+      "note": "The Chinese '商号' may not precisely reflect '영업표지'; preserve legal term as business mark, not trade name."
+    }
+  ],
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "chinese_total_rows": 1687,
+  "checked_rows": 849,
+  "corrected_rows": 866,
+  "quality_open_items": [
+    "Full sequential semantic audit of all 1,687 Chinese rows remains incomplete",
+    "429 rows without independently exact English require direct Korean/Chinese semantic comparison",
+    "A34909 rows 81–235 proposed edits remain checkpoint-only pending official review-file save",
+    "A34909 rows 236–265 reviewed; candidate notes recorded",
+    "Remaining annex/form rows require untruncated semantic comparison and final quality control"
+  ],
+  "note": "No source SHA changed. Existing correction entries retained. IN_PROGRESS; no completion receipt."
+}
