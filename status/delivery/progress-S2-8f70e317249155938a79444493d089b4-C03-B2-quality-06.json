@@ -1,0 +1,55 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "B2",
+  "quality_batch": "B2-quality-06",
+  "range": {
+    "first": "B2-zh-00023",
+    "last": "B2-zh-00027"
+  },
+  "quality_checked_rows": 3,
+  "quality_passed_rows": 3,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "B2-zh-00023",
+    "B2-zh-00026",
+    "B2-zh-00027"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-00023-00027.json",
+  "prior_quality_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-quality-05.json",
+  "results": [
+    {
+      "id": "B2-zh-00023",
+      "source_hash": "dde1a41273217412ac2bac908b7ba376145026a4fa9f124dd159559b658d64de",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "제22조 한국어 원문의 국가기관·지방자치단체 책임자, 사회보장기본법 제37조제2항, 법 제25~31조 및 제32조의 중복지원 제한을 교정문이 모두 보존함."
+    },
+    {
+      "id": "B2-zh-00026",
+      "source_hash": "27451e6e0e5acd3dd5eb515f39d75a6d91a3ffaaa51b09a396a6c10b91ba1270",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "제25조 제1~4항의 취소 사유 4개, 법 제36조제1항제5호 및 제45조, 별표 5, 사전 설명과 입소자 의사 고려 의무가 한국어와 일치함."
+    },
+    {
+      "id": "B2-zh-00027",
+      "source_hash": "38ecb944f1fcf8a07f0525a753d0672cb09866e580344838d73758acef2b8380",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "제26조의 법 제41조 인용, 열 개 시설 유형 및 각 법률 조문 번호, 2025.10.1 개정 표시가 한국어 원문과 일치하며 누락된 제5호 번호가 복구됨."
+    }
+  ],
+  "edits": [],
+  "note": "기존 교정 23,26,27 세 건을 한국어 시행령 원문과 직접 대조해 PASS 판정. 기존 교정문·원문·행 해시 수정 없음. 전체 1136행 최종 검증과 COMPLETE 영수증은 미완료."
+}
