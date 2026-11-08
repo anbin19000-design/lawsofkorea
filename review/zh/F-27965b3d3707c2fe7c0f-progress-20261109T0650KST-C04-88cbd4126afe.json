@@ -1,0 +1,33 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-27965b3d3707c2fe7c0f",
+  "worker": "C04",
+  "panel_id": "panel-04",
+  "assignment_id": "UW-e5aafc719c413c55e5888ef34765e340",
+  "title": "社会福祉사업법",
+  "status": "IN_PROGRESS",
+  "source_commit": "8af815dbd55269bccbbd8330328dadf018b8bcb3",
+  "source_blobs": {
+    "ko": "349b2faece96bb6e77f2c29afe6ff88eec30f307",
+    "en": "da0546fcc12bef5d6a308cb8f661aa3671ad5919",
+    "zh": "46339c5ab85767bc0d99d88e7165e31e525c9021"
+  },
+  "expected_documents": 42,
+  "expected_zh_rows": 2808,
+  "reading_order": "KO_FULL_THEN_EN_FULL_THEN_ZH_FULL",
+  "phase": "KO_FULL_READING_IN_PROGRESS",
+  "completed_ko_documents": [
+    "B1"
+  ],
+  "completed_en_documents": [],
+  "completed_zh_review_rows": [],
+  "edits": [],
+  "notes": [
+    "Verified status/active/C04.json and status/worker-bindings.json; C04 is bound to WORK-C/panel-04 and this job.",
+    "No existing review/zh/F-27965b3d3707c2fe7c0f.json or receipts/F-27965b3d3707c2fe7c0f.json found in main.",
+    "laws/en index Contents response had empty content despite nonzero blob; recovered exact index through Git Blobs API using assigned SHA da0546fcc12bef5d6a308cb8f661aa3671ad5919.",
+    "English index links official English source documents for B1 and B2; remaining 34 rule/annex/form documents have no linked English document and must be recorded as EN unavailable after full index validation.",
+    "No review edits or completion claim yet; preserve source files unchanged."
+  ],
+  "checkpoint": "C04 continuation marker 88cbd4126afe"
+}
