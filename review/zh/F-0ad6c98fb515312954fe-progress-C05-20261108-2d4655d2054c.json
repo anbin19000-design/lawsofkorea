@@ -2990,7 +2990,8 @@
     "完成附表1至附表6（A28544-A28549）全部行的中文核对。修正国际货币基金组织附表中的捐助类型/账户词、韩元币种遗漏；国际复兴开发银行附表中的技术援助基金、JPO计划、全球教育伙伴关系、阿富汗重建信托基金、脆弱国家经济和平建设基金、可持续城市及区域发展基金等误译，及若干币种/数字；国际开发协会表的韩元误译及一处数字错位；国际金融公司150万美元误译为1.50万美元；亚洲开发银行表两处金额数字顺序错误及业务基金名称/币种；非洲开发基金表的“赢”币种误译。",
     "完成附表7至附表17（A28550-A28560）全部行的中文核对。修正非洲开发银行表的缴款对象、计算单位数量级和美元数额；商品共同基金/国际投资担保机构等机构名称与缴款术语；欧洲复兴开发银行表的金额、初级专业人员/实习生派遣计划及“出资”误译；美洲开发银行表的金额和币种；美洲投资公司名称；亚洲基础设施投资银行表的实缴/催缴资本比例；东盟与中日韩宏观经济研究办公室名称；中美洲经济一体化银行表的实缴资本数额和合作基金捐助用语。A28559末尾的拆分句合并为完整、可读的备注译文。",
     "最终编辑映射复核：恢复附表2第91项金额行A28545-zh-00328为100万美元；恢复附表5序号22行A28548-zh-00079，并将对应业务基金捐助说明放回A28548-zh-00082。",
-    "正式检收完成：review/zh/F-0ad6c98fb515312954fe.json 已保存并重新读取，status COMPLETE；receipts/F-0ad6c98fb515312954fe.json 已保存并重新读取，status COMPLETE。"
+    "正式检收完成：review/zh/F-0ad6c98fb515312954fe.json 已保存并重新读取，status COMPLETE；receipts/F-0ad6c98fb515312954fe.json 已保存并重新读取，status COMPLETE。",
+    "复核进度元数据：中文全文审查状态更新为 REVIEW_COMPLETE（1,797/1,797），此前的 IN_PROGRESS 标记仅为旧的中途检查点，现已更正。"
   ],
   "next": "Family completed. Canonical review and completion receipt saved and re-queried. Await the next official C05 supplier assignment; do not select another law family manually.",
   "reading_evidence": {
@@ -3049,8 +3050,8 @@
       "note": "Only B1 is exact-version English. B2 and its appendices use fallback English versions dated earlier than current Korean version; they were read as reference only, not treated as exact current text."
     },
     "zh": {
-      "status": "IN_PROGRESS",
-      "rows_reviewed": 138,
+      "status": "REVIEW_COMPLETE",
+      "rows_reviewed": 1797,
       "source_blob": "1ec65820318f59d76137136c644db0bb07f53d79"
     }
   }
