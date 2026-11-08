@@ -1,0 +1,45 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-3705abbc710de4b867bc",
+  "worker": "C05",
+  "branch": "main",
+  "source_blobs": {
+    "ko": "7974bf81d14f4838ae85d4b3ceea80a2f0e65fed",
+    "zh": "045dd328cd77f3eecd8b6cd485be27f2389773e8"
+  },
+  "document_key": "A25280",
+  "document_source_hash": "f7abd72d608117eac6012d728d637af2514772826e5ae47b7b938c29d73af05b",
+  "checked_ids": [
+    "A25280-zh-00043",
+    "A25280-zh-00044",
+    "A25280-zh-00045",
+    "A25280-zh-00046",
+    "A25280-zh-00047",
+    "A25280-zh-00048"
+  ],
+  "checked_rows": 6,
+  "adopted_edits": [
+    {
+      "id": "A25280-zh-00044",
+      "text": "（消防厅）"
+    },
+    {
+      "id": "A25280-zh-00045",
+      "text": "（消防厅）"
+    },
+    {
+      "id": "A25280-zh-00046",
+      "text": "（消防厅）"
+    },
+    {
+      "id": "A25280-zh-00047",
+      "text": "（消防厅）"
+    },
+    {
+      "id": "A25280-zh-00048",
+      "text": "210mm×297mm［白色纸（80g/㎡）］"
+    }
+  ],
+  "status": "QUALITY_PARTIAL",
+  "note": "Verified final six A25280 Chinese form cells against Korean source, corrected four institution labels and paper format. Earlier quality records preserved; no COMPLETE receipt."
+}
