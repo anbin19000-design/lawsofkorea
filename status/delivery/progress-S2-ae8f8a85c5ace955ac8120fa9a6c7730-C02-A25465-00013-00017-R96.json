@@ -1,0 +1,31 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 5,
+  "checked_ids": [
+    "A25465-zh-00013",
+    "A25465-zh-00014",
+    "A25465-zh-00015",
+    "A25465-zh-00016",
+    "A25465-zh-00017"
+  ],
+  "edits": [
+    {
+      "id": "A25465-zh-00017",
+      "source_hash": "64aedb364d4943eabefccf4b36159605d4dee02c6483d97c9ebc66442a048288",
+      "target_id": "XML:1802648",
+      "text": "主要目的及内容"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "korean_evidence": "신청인 전화번호, 전자우편, 사업 개요, 명칭, 주요 목적 및 내용",
+  "note": "R96 fills missing explicit checked IDs 13-17 in A25465 from Korean original and corrects omitted 目的 in row17. Other cells preserved; R80/R81/R82 retained. Original source ids/hashes unchanged; family incomplete."
+}
