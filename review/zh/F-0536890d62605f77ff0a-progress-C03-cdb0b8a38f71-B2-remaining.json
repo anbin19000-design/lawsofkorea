@@ -1,0 +1,77 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:cdb0b8a38f71",
+  "status": "IN_PROGRESS",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_en_index_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "english_status": "FALLBACK_ENGLISH_AVAILABLE: 246917; Korean B2 version 284943 controls",
+  "english_document_reference": "documents/en/kr-014371-246917-en.json",
+  "checked_rows": 7,
+  "checked_ids": [
+    "B2-zh-00003",
+    "B2-zh-00004",
+    "B2-zh-00007",
+    "B2-zh-00008",
+    "B2-zh-00016",
+    "B2-zh-00021",
+    "B2-zh-00024"
+  ],
+  "quality_checked_rows": 7,
+  "quality_passed_rows": 6,
+  "quality_corrected_rows": 1,
+  "corrected_rows": 1,
+  "results": [
+    {
+      "id": "B2-zh-00003",
+      "verdict": "PASS",
+      "reason": "Decree Article 2 matched four paragraphs: comprehensive plan due October 31 of previous year, notification and modification responsibilities; text retained."
+    },
+    {
+      "id": "B2-zh-00004",
+      "verdict": "PASS",
+      "reason": "Decree Article 3 matched five paragraphs: Oct 31 guidance, Dec 31 annual plans, Jan 31 performance submissions and reporting results; retain without style changes."
+    },
+    {
+      "id": "B2-zh-00007",
+      "verdict": "PASS",
+      "reason": "Decree Article 6: records of victim identification indicators due Jan 31 next year and guidance authority retained."
+    },
+    {
+      "id": "B2-zh-00008",
+      "verdict": "PASS",
+      "reason": "Decree Article 7: victim verification certificate workflow, adjudication within 60 days, one extension up to 30 days, issuance and delegation public notice preserved."
+    },
+    {
+      "id": "B2-zh-00016",
+      "verdict": "PASS",
+      "reason": "Decree Article 15: five prescribed categories of mandatory reporting institution and referenced statutes retained."
+    },
+    {
+      "id": "B2-zh-00021",
+      "verdict": "CORRECTED",
+      "reason": "Decree Article 20: fixed missing list marker 1. and incorrect 7. paragraph marker to ⑦ based on current Korean source (three institutional categories under ①, seven numbered paragraphs). No other wording changed."
+    },
+    {
+      "id": "B2-zh-00024",
+      "verdict": "PASS",
+      "reason": "Decree Article 23: Table 3 criteria, designation procedure, 30-day change reporting, and associated ordinance references match."
+    }
+  ],
+  "edits": [
+    {
+      "id": "B2-zh-00021",
+      "source_hash": "d985bae3e885dbe802e0f821ec7f972eb18abbccb08838c87696ff686fff0b5b",
+      "text": "第二十条（指定专用医疗机构等）\n① 根据本法第29条第1款规定，性别平等和家庭部长、市、省知事、市长、县长、区长可以从下列各款所列机构中指定专门机构（以下简称“专门医疗机构”）用于治疗受害者等。<2025年10月1日修订>\n1. 性别平等与家庭部长：根据《医疗服务法》第3-4条第1款，由卫生与福利部长指定的先进综合医院\n2. 市长/省长：根据《医疗服务法》第三条第二款第三项规定，医院级医疗机构（不包括根据第一项规定设立的三级综合医院）\n3. 市长、县长或区长：根据《医疗服务法》第三条第二款第一项规定，诊所级医疗机构\n② 凡欲依第1款规定申请指定为专科医疗机构者，应依性别平等及家庭部条例规定，向性别平等及家庭部部长、市或省长、市长、县长或区长提交专科医疗机构指定申请书，并附上性别平等及家庭部条例规定的文件。<2025年10月1日修订>\n③ 性别平等及家庭部部长、市长或省长、市长、县长或区长，如收到依据第2款提出的指定申请，应在申请人符合设立专业医疗机构条件的情况下，指定申请人为专业医疗机构，并按照性别平等及家庭部条例的规定，向申请人颁发专业医疗机构指定证书。<2025年10月1日修订>\n④ 性别平等与家庭部长、省市长、县长、区长根据第3款指定专科医疗机构时，应当立即在日报、官方公报、公告、相关机构的互联网主页或其他有效方式上公布该专科医疗机构的名称、地址、代表姓名和医疗科室。<2025年10月1日修订>\n⑤ 在该法第 29 条第 2 款第 4 项中，“总统令规定的身心治疗”是指伴有身心检查和筛查的治疗。\n⑥ 专门医疗机构的负责人可以请求主管市长/区长或市长/县长/区长支付根据该法第29条第2款提供的医疗援助所产生的费用。\n⑦ 收到根据第6款规定支付费用的请求的市/省长或市长/县长/区长，在核实接受治疗者是否符合受害者资格等后，可以提供医疗费用资助。在这种情况下，市/省长或市长/县长/区长可以就医疗费用的合理性、最高金额等问题咨询医生或律师等专家的意见。\n\n"
+    }
+  ],
+  "prior_evidence_index": "status/delivery/reconcile-S2-8f70e317249155938a79444493d089b4-evidence-7e6b69412a765526.json",
+  "prior_verification_file": "review/zh/F-0536890d62605f77ff0a-progress-C03-1f6343746b13-B2-provisions-and-addenda.json",
+  "protected_unresolved_ids": [
+    "A26697-zh-00008",
+    "A26699-zh-00053"
+  ],
+  "note": "Seven previously-unlisted B2 rows verified against current Korean, previous-version English only supplemental. One minimal source-faithful numbering correction. Existing decisions preserved; full family not complete."
+}
