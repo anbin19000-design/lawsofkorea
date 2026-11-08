@@ -1,0 +1,36 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 7,
+  "checked_ids": [
+    "B1-zh-00124",
+    "B1-zh-00125",
+    "B1-zh-00126",
+    "B1-zh-00127",
+    "B1-zh-00128",
+    "B1-zh-00129",
+    "B1-zh-00130"
+  ],
+  "edits": [
+    {
+      "id": "B1-zh-00127",
+      "source_hash": "6068f97bbb5e9bf0863a4a41508a1a483235e121a16488ecad234ce1ea6eabba",
+      "text": "第二十四条（其他法律的修改）①至<82>省略\n\n  <83> 《泛在城市建设等相关法律》部分修改如下。\n\n  将第十五条第一款第五项中的“《道路法》第三十八条”修改为“《道路法》第六十一条”。\n\n  <84>至<126>省略\n\n"
+    },
+    {
+      "id": "B1-zh-00129",
+      "source_hash": "a519f970907d80fc108d8947e92031f10c4d0762155b909dfe5d01543374cb67",
+      "text": "附则（政府组织法）<第12844号，2014年11月19日>\n\n"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "note": "Direct comparison of B1 124-130 with Korean source. Corrected historical statutory title/citation in row 127 and annex law designation in row 129. Preserve prior progress; family not COMPLETE."
+}
