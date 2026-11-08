@@ -1185,6 +1185,69 @@
       "source_hash": "6e70f816f426374f529522a614da39a11ddee6411a2b8ead62705f198f7e05d3",
       "target_id": "04508d1bc2d48a9002780af7acf4d7b0011df8ce9f23f96677fa6d9382adc3a5",
       "source_progress": "C02 Korean B2 body cross-check; removed duplicated, misattached annex-table content, which is separately indexed as A30229"
+    },
+    {
+      "id": "A30229-zh-00001",
+      "text": "■《精神健康促进及精神疾病患者福利服务支援法施行令》[附表1] <2025年6月20日修订>",
+      "source_hash": "242bbc75155a3c7430821de6f4275669a28b23fbd376715414bd22d9be8a25ac",
+      "target_id": "XML:2217541",
+      "source_progress": "C02 sequential Annex 1 review; Korean annex heading and column labels cross-check"
+    },
+    {
+      "id": "A30229-zh-00002",
+      "text": "精神健康专业人员资格标准（与第12条第1款相关）",
+      "source_hash": "ffc5a2ecdf95f42a77ad8a0592b1b405d4dc9b307edb47db5ea6f6cbcc22aae8",
+      "target_id": "XML:2217542",
+      "source_progress": "C02 sequential Annex 1 review; Korean annex heading and column labels cross-check"
+    },
+    {
+      "id": "A30229-zh-00003",
+      "text": "种类",
+      "source_hash": "2e6adf4ec98d68239960607e3c29f6ee648e5c5b10665d1502e14c5a1d2d836d",
+      "target_id": "XML:2217543",
+      "source_progress": "C02 sequential Annex 1 review; Korean annex heading and column labels cross-check"
+    },
+    {
+      "id": "A30229-zh-00004",
+      "text": "精神健康临床心理师",
+      "source_hash": "26d455b789f7509738d100b7194aef578e3e23d8d6d7937c423429962dc1145e",
+      "target_id": "XML:2217544",
+      "source_progress": "C02 sequential Annex 1 review; Korean annex heading and column labels cross-check"
+    },
+    {
+      "id": "A30229-zh-00005",
+      "text": "精神健康护士",
+      "source_hash": "56f464a56b79fd5d70b1c46be52bac5e43b7ecf866d043b64a8df2b647f33fd5",
+      "target_id": "XML:2217545",
+      "source_progress": "C02 sequential Annex 1 review; Korean annex heading and column labels cross-check"
+    },
+    {
+      "id": "A30229-zh-00006",
+      "text": "精神健康社会工作者",
+      "source_hash": "c01a41598e9fcba31b400e1acec2659da2ee465634d3a677c319cbfd7731b4a9",
+      "target_id": "XML:2217546",
+      "source_progress": "C02 sequential Annex 1 review; Korean annex heading and column labels cross-check"
+    },
+    {
+      "id": "A30229-zh-00007",
+      "text": "精神健康作业治疗师",
+      "source_hash": "0a365d2f01c72fce402ebcb84cb406967d24ff49baf9566ef2f0b9e5bc1154b3",
+      "target_id": "XML:2217547",
+      "source_progress": "C02 sequential Annex 1 review; Korean annex heading and column labels cross-check"
+    },
+    {
+      "id": "A30229-zh-00008",
+      "text": "等级",
+      "source_hash": "655637e090439fa3db5cc61c3672fdc2218a10bed37efc2a5d88f36394647f7e",
+      "target_id": "XML:2217548",
+      "source_progress": "C02 sequential Annex 1 review; Korean annex heading and column labels cross-check"
+    },
+    {
+      "id": "A30229-zh-00009",
+      "text": "1级",
+      "source_hash": "344286584e7999ef0c826ae56bf67dfaae7e631643ceb1c44134ea8dff44392d",
+      "target_id": "XML:2217549",
+      "source_progress": "C02 sequential Annex 1 review; Korean annex heading and column labels cross-check"
     }
   ],
   "adjudicated_edit_count": 0,
@@ -1199,7 +1262,7 @@
   "ordered_reading_certification": {
     "korean": "READ_COMPLETE_ALL_65_DOCUMENTS",
     "english": "READ_COMPLETE_AVAILABLE_SOURCES_B1_AND_B2_FALLBACK",
-    "chinese": "IN_PROGRESS through B2-zh-00105; annex A30229 table requires dedicated sequential review"
+    "chinese": "IN_PROGRESS; B2 through row 105; Annex A30229 table reviewed through row 9 only"
   },
   "checked_unique_ids": [
     "B1-zh-00001",
@@ -1481,10 +1544,19 @@
     "B2-zh-00102",
     "B2-zh-00103",
     "B2-zh-00104",
-    "B2-zh-00105"
+    "B2-zh-00105",
+    "A30229-zh-00001",
+    "A30229-zh-00002",
+    "A30229-zh-00003",
+    "A30229-zh-00004",
+    "A30229-zh-00005",
+    "A30229-zh-00006",
+    "A30229-zh-00007",
+    "A30229-zh-00008",
+    "A30229-zh-00009"
   ],
-  "checked_rows": 280,
-  "corrected_rows": 167,
+  "checked_rows": 289,
+  "corrected_rows": 176,
   "notes": [
     "Only obvious omissions of clause numbering and a missing subparagraph marker corrected; substantive terminology and existing wording retained.",
     "B2 English is an older fallback (version 272521), not exact current Korean version; newer provisions require Korean-Chinese comparison.",
@@ -1517,6 +1589,7 @@
     "Sequential review through B2-zh-00084. Corrected the local-police regulation appendix heading, the police-law citation in consequential amendments, early-treatment specialist terminology, and the qualification name/requirements for mental-health occupational therapists. Other effective dates and transitional clauses checked and retained.",
     "Sequential review through B2-zh-00096. Corrected 2024-2025 supplementary provision headings and the enforcement-decree title in consequential amendments; other effective dates, omitted ranges and regional jurisdiction changes checked and retained.",
     "Sequential review through B2-zh-00104. Corrected 2025 Nursing Act cross-references and the 2026 consolidated special-city enforcement decree title; other commencement dates and omitted amendment ranges checked and retained. Annex 1 qualification table begins at B2-zh-00105 and requires dedicated table-structure review.",
-    "B2-zh-00105 was aligned to the actual Korean B2 body: the amendment clause only changes Annex 4 item 2 jurisdiction column and omits items 60-78. The appended garbled Annex 1 table was removed from this body row because Annex 1 is separately indexed under A30229 and must be reviewed there."
+    "B2-zh-00105 was aligned to the actual Korean B2 body: the amendment clause only changes Annex 4 item 2 jurisdiction column and omits items 60-78. The appended garbled Annex 1 table was removed from this body row because Annex 1 is separately indexed under A30229 and must be reviewed there.",
+    "Started dedicated review of Annex A30229 (Enforcement Decree Schedule 1). Corrected its official title, qualification-standard heading, column heading and four professional category names. The remaining table cells A30229-zh-00010 onward require sequential Korean-to-Chinese table-structure review; not marked complete."
   ]
 }
