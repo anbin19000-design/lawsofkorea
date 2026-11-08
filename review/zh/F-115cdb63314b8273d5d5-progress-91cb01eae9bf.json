@@ -1,0 +1,36 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-115cdb63314b8273d5d5",
+  "worker": "C06",
+  "panel_id": "panel-06",
+  "pc": "WORK-C",
+  "assignment_marker": "[WORK-TASK:C06:F-115cdb63314b8273d5d5:91cb01eae9bf]",
+  "status": "IN_PROGRESS",
+  "phase": "KO_FULL_READING_PENDING",
+  "source_commit": "9edde23de1ced67de890822d81f5dc165fabb013",
+  "source_blobs": {
+    "ko": "159cb5a14f8f5e07bea8f04a5437adbf4b15c6ba",
+    "en": "f29bd3277059d324e7bbe7a69b6b6b49ab69939f",
+    "zh": "de02d84d8491a7aa79491594587e28914944a33a"
+  },
+  "inventory": {
+    "documents": 61,
+    "law": 1,
+    "presidential_decree": 1,
+    "ministerial_rule": 1,
+    "annexes": 10,
+    "forms": 48,
+    "ko_source_characters": 563317,
+    "zh_rows": 5228,
+    "english_reference_rows": 4234,
+    "rows_without_english_reference": 994
+  },
+  "reading_evidence": {
+    "ko_full_read": false,
+    "en_full_read": false,
+    "zh_full_review": false,
+    "verified_row_count": 0
+  },
+  "edits": [],
+  "note": "Source blobs fetched and structural inventory verified. No substantive full-text reading or row-by-row translation review attested; do not treat as completion. Original and any existing corrections must be retained. Official final review and receipt are absent as of this checkpoint."
+}
