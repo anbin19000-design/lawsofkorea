@@ -1,0 +1,76 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26703",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "quality_checked_rows": 4,
+  "quality_checked_ids": [
+    "A26703-zh-00048",
+    "A26703-zh-00050",
+    "A26703-zh-00057",
+    "A26703-zh-00058"
+  ],
+  "quality_passed_rows": 4,
+  "quality_failed_rows": 0,
+  "edits": [
+    {
+      "id": "A26703-zh-00048",
+      "source_hash": "3d3d51df18ea40ee37d9093efef2002de7209f94751479a50e3c9e8282d4ca35",
+      "text": "2. 租赁合同（仅在设施所在地变更且租赁不动产的"
+    },
+    {
+      "id": "A26703-zh-00050",
+      "source_hash": "4baca921dfdc66e9b39fe6f3b3f2265b183ca2b8aadaaec6171ac27845d02255",
+      "text": "情况下适用）"
+    },
+    {
+      "id": "A26703-zh-00057",
+      "source_hash": "82c796e213293b7f12aa9afda2e9e47efd3cee40bc6812813dae484e13946787",
+      "text": "6. 入住者安置措施计划书（仅在设施所在地及入住定员发生变更时"
+    },
+    {
+      "id": "A26703-zh-00058",
+      "source_hash": "afe9e0b436d352335d3ec653a3ae47614a09aeb779d5f9897d8863a26306225c",
+      "text": "适用）"
+    }
+  ],
+  "results": [
+    {
+      "id": "A26703-zh-00048",
+      "source_hash": "3d3d51df18ea40ee37d9093efef2002de7209f94751479a50e3c9e8282d4ca35",
+      "text": "2. 租赁合同（仅在设施所在地变更且租赁不动产的",
+      "verdict": "PASS_AFTER_RECONCILIATION",
+      "reason": "Korean source wraps the conditional clause across adjacent table cells. Previously full condition in leading cell plus uncorrected trailing original caused duplicate meaning; split same condition into adjacent source-aligned cells."
+    },
+    {
+      "id": "A26703-zh-00050",
+      "source_hash": "4baca921dfdc66e9b39fe6f3b3f2265b183ca2b8aadaaec6171ac27845d02255",
+      "text": "情况下适用）",
+      "verdict": "PASS_AFTER_RECONCILIATION",
+      "reason": "Korean source wraps the conditional clause across adjacent table cells. Previously full condition in leading cell plus uncorrected trailing original caused duplicate meaning; split same condition into adjacent source-aligned cells."
+    },
+    {
+      "id": "A26703-zh-00057",
+      "source_hash": "82c796e213293b7f12aa9afda2e9e47efd3cee40bc6812813dae484e13946787",
+      "text": "6. 入住者安置措施计划书（仅在设施所在地及入住定员发生变更时",
+      "verdict": "PASS_AFTER_RECONCILIATION",
+      "reason": "Korean source wraps the conditional clause across adjacent table cells. Previously full condition in leading cell plus uncorrected trailing original caused duplicate meaning; split same condition into adjacent source-aligned cells."
+    },
+    {
+      "id": "A26703-zh-00058",
+      "source_hash": "afe9e0b436d352335d3ec653a3ae47614a09aeb779d5f9897d8863a26306225c",
+      "text": "适用）",
+      "verdict": "PASS_AFTER_RECONCILIATION",
+      "reason": "Korean source wraps the conditional clause across adjacent table cells. Previously full condition in leading cell plus uncorrected trailing original caused duplicate meaning; split same condition into adjacent source-aligned cells."
+    }
+  ],
+  "supersedes": [
+    "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26703-00001-00083.json",
+    "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-next-c01d377902a960c0bb-02.json",
+    "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-next-continuation-58-63-20261108.json"
+  ],
+  "note": "Rows 50 and 58 previous NEEDS_RECONCILIATION resolved; 48 and 57 updated only to eliminate duplicated application condition and preserve original split layout; all prior files unchanged and source hashes retained. Not COMPLETE."
+}
