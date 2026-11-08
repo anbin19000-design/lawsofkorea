@@ -1,0 +1,169 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-2223d4d89f9d838aec25",
+  "worker": "C05",
+  "panel_id": "panel-05",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "8da45e553059c6fa43c2398c7a85fb031801269f",
+    "en": "9aa870a762b685cffb5165159330ce674c944554",
+    "zh": "770640285a1e85001013331a4a0a6fba3909dd43"
+  },
+  "source_commit": "5ca6685452f89ed7f2c82222bcb43613f559060e",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "reading_evidence": {
+    "ko": {
+      "complete": true,
+      "documents": 23,
+      "ordered_keys": [
+        "B1",
+        "B2",
+        "A29185",
+        "A29186",
+        "B3",
+        "A6580",
+        "A6581",
+        "A6582",
+        "A6585",
+        "A6586",
+        "A6587",
+        "A6588",
+        "A6589",
+        "A6590",
+        "A6591",
+        "A6592",
+        "A6594",
+        "A6595",
+        "A6596",
+        "A6597",
+        "A6598",
+        "A6599",
+        "A6600"
+      ],
+      "all_document_bodies_read": true,
+      "source_blob_sha": "8da45e553059c6fa43c2398c7a85fb031801269f",
+      "total_chars": 117102
+    },
+    "en": {
+      "complete": true,
+      "index_documents": 23,
+      "ordered_keys": [
+        "B1",
+        "B2",
+        "A29185",
+        "A29186",
+        "B3",
+        "A6580",
+        "A6581",
+        "A6582",
+        "A6585",
+        "A6586",
+        "A6587",
+        "A6588",
+        "A6589",
+        "A6590",
+        "A6591",
+        "A6592",
+        "A6594",
+        "A6595",
+        "A6596",
+        "A6597",
+        "A6598",
+        "A6599",
+        "A6600"
+      ],
+      "linked_sources": [
+        {
+          "path": "documents/en/i18n-c896938528e4ec8f2b57ce5b3fe98adaa454fa5869862b5c.json",
+          "blob_sha": "27afaa512c00b95862d7dfcaedabf34702cd0bd5",
+          "chars": 41254,
+          "translation_status": "AI_DRAFT",
+          "kind": "법률"
+        },
+        {
+          "path": "documents/en/kr-000398-268865-en.json",
+          "blob_sha": "83fead77a8a10b020c3f06f066f1e2e4dff1639a",
+          "chars": 35753,
+          "translation_status": "OFFICIAL_SOURCE_TRANSLATION",
+          "kind": "법률"
+        },
+        {
+          "path": "documents/en/i18n-33a833c9d8049c3e2cb0578185976c2cbaf7168696cf42a2.json",
+          "blob_sha": "6620d8ee191b82471538ce01bcf61d2fc76b6731",
+          "chars": 58544,
+          "translation_status": "AI_DRAFT",
+          "kind": "대통령령"
+        },
+        {
+          "path": "documents/en/kr-003731-283127-en.json",
+          "blob_sha": "6ffa703f46e0ada707d6e8812cb544cbdb61b4ef",
+          "chars": 36449,
+          "translation_status": "OFFICIAL_SOURCE_TRANSLATION",
+          "kind": "대통령령"
+        },
+        {
+          "path": "documents/en/i18n-88851f6488276edec36cea484e8a409b82ab20fcace3b134.json",
+          "blob_sha": "273dc0f60dd63b127bf4ff875f04546bfaa94e4c",
+          "chars": 54035,
+          "translation_status": "AI_DRAFT",
+          "kind": "농림축산식품부령"
+        },
+        {
+          "path": "reviewed/en/KR_007320.json",
+          "blob_sha": "a6f9b8e3aa55279ad2e9fbdff1c080c65a208fd9",
+          "chars": 30123,
+          "translation_status": "REVIEWED_SOURCE",
+          "kind": "reviewed"
+        }
+      ],
+      "all_available_linked_bodies_read": true,
+      "source_blob_sha": "9aa870a762b685cffb5165159330ce674c944554",
+      "qualification": "B1 and B2 have official and AI-draft exact-version English; B3 has AI-draft English and a reviewed English row source. Annexes/forms share linked B2 or B3 English materials."
+    },
+    "zh": {
+      "complete": false,
+      "rows": 1290,
+      "documents": [
+        "B1",
+        "B2",
+        "A29185",
+        "A29186",
+        "B3",
+        "A6580",
+        "A6581",
+        "A6582",
+        "A6585",
+        "A6586",
+        "A6587",
+        "A6588",
+        "A6589",
+        "A6590",
+        "A6591",
+        "A6592",
+        "A6594",
+        "A6595",
+        "A6596",
+        "A6597",
+        "A6598",
+        "A6599",
+        "A6600"
+      ],
+      "cursor": null,
+      "rows_reviewed": 0
+    }
+  },
+  "coverage": {
+    "total_rows": 1290,
+    "distinct_rows": 1290,
+    "correction_count": 0,
+    "pending_rows": 1290,
+    "by_document": {}
+  },
+  "notes": "No prior review or receipt file existed at assignment start. All Korean source documents and all linked English source bodies were fetched and read in prescribed order before Chinese review. No original files changed.",
+  "source_paths": {
+    "ko": "laws/ko/F-2223d4d89f9d838aec25.json",
+    "en": "laws/en/F-2223d4d89f9d838aec25.json",
+    "zh": "laws/zh/F-2223d4d89f9d838aec25.json"
+  },
+  "next_step": "Begin sequential Chinese review from B1-zh-00001, preserving only clear source-grounded corrections."
+}
