@@ -1,0 +1,98 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "family": "실용신안법",
+  "worker": "C05",
+  "assignment": "[WORK-TASK:C05:F-00583cebe057fc2929d1:c3a6d5974e05]",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "770d1e16fca4abc71a39730cd8b84be0be4df357",
+  "review_commit": "5b40cc68371d4322cf960407401cf3e319bf46f7",
+  "previous_progress": "review/zh/F-00583cebe057fc2929d1-progress-C05-20261108-0e95778b2a23.json",
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "previous_corrections": 203,
+  "new_corrections": [
+    {
+      "id": "B3-zh-00039",
+      "doc": "B3",
+      "source_hash": "5d4e20f3a90834ed25fe38f2ec9cf22505c53eec2419d65fbbefce4fb0b80a90",
+      "decision": "CORRECT",
+      "reason": "原文限定第17条第2款中与特定专利法施行规则条款有关的修订部分，第3款亦同；原译重复错误地添加整个第17条修订范围。"
+    },
+    {
+      "id": "B3-zh-00091",
+      "doc": "B3",
+      "source_hash": "16e9c9d9e4ee093f506a2e56fa76d3947f38dc03dbf2ec8b236345c5a32c8989",
+      "decision": "CORRECT",
+      "reason": "韩文 '부칙 제1조 단서' 指本附则第1条但书，不是本法第1条。"
+    },
+    {
+      "id": "B3-zh-00095",
+      "doc": "B3",
+      "source_hash": "bf8ca4f26e08af209a471d4672f082721af48e0ecdaf54a8832beff786138400",
+      "decision": "CORRECT",
+      "reason": "원문 '제17조제1항 전단'，既存译文漏掉前段限制。"
+    }
+  ],
+  "correction_count": 206,
+  "pending_rows_unchanged": 89,
+  "english_note": "B1/B2 official exact-version; B3/forms only 2010 fallback, not exact current version; decree also has AI draft.",
+  "unresolved": [
+    {
+      "id": "B2-zh-00081",
+      "status": "SOURCE_MAPPING_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A29604",
+      "status": "ANNEX_ALIGNMENT_REQUIRED"
+    },
+    {
+      "id": "B3-zh-00117",
+      "status": "SOURCE_MAPPING_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8690",
+      "status": "FORM_ALIGNMENT_REQUIRED"
+    },
+    {
+      "id": "A8693",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8698",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8699",
+      "status": "SOURCE_CONTENT_MISSING"
+    },
+    {
+      "id": "A8703",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8708",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8709",
+      "status": "SOURCE_CONTENT_MISSING"
+    },
+    {
+      "id": "A8690-zh-00499",
+      "status": "SOURCE_TEXT_FRAGMENT_REVIEW_REQUIRED"
+    }
+  ],
+  "reading_status": "FULL_KO_EN_ZH_SEQUENTIAL_READING_NOT_VERIFIED",
+  "completion_receipt": null,
+  "notes": "기존 203건 보존, 신규 3건 한국어 원문에 근거하여 수정. 24문서 전체 KO/EN/ZH 독해 및 원문 정합성 보류 해소 미완료. 본 파일은 중간 진행 위치이며 완료 영수증 아님."
+}
