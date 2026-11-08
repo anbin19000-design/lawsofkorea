@@ -10,8 +10,8 @@
   "document_count": 22,
   "source_rows": 1136,
   "checked_rows": null,
-  "candidate_ids_reconciled": 806,
-  "edits_count": 792,
+  "candidate_ids_reconciled": 814,
+  "edits_count": 800,
   "unchanged_candidates": 14,
   "conflict_ids_adjudicated": [
     "A26693-zh-00039",
@@ -25,20 +25,20 @@
   "document_edit_counts": {
     "B1": 36,
     "B2": 25,
-    "A39474": 44,
+    "A39474": 45,
     "A39475": 48,
-    "A39476": 35,
-    "A39477": 29,
-    "A39478": 97,
+    "A39476": 37,
+    "A39477": 31,
+    "A39478": 98,
     "A39479": 45,
     "B3": 15,
     "A26693": 67,
     "A26694": 26,
     "A26695": 17,
     "A26696": 16,
-    "A26697": 32,
+    "A26697": 33,
     "A26698": 11,
-    "A26699": 43,
+    "A26699": 44,
     "A26700": 10,
     "A26701": 71,
     "A26702": 19,
@@ -4006,13 +4006,49 @@
       "id": "B1-zh-00051",
       "source_hash": "91f5a2c6162363d079088a438060375c578ec0a9cf13490559c6e8d3d7c1462e",
       "text": "第四十九条（双罚规定）  如果法人代表、代理人、雇员或其他工作人员在与该法人或个人的业务相关的范围内违反第四十八条的规定，除处罚违法者外，该法人或个人还应被处以该条规定的罚金。但是，如果该法人或个人在相关业务中没有疏忽尽到合理的注意和监督义务以防止违法行为的发生，则不适用本条规定。\n\n"
+    },
+    {
+      "id": "A39474-zh-00040",
+      "source_hash": "b07f284c168b4439d8094be830d84b516e0148679cabd0662c895cfc05d593ad",
+      "text": ""
+    },
+    {
+      "id": "A39476-zh-00006",
+      "source_hash": "86a1c2a464c15dedd6731c95a7bd21a6d5137bd9c5c92d2d973627070388368a",
+      "text": ""
+    },
+    {
+      "id": "A39476-zh-00010",
+      "source_hash": "1ab67c3cec534999dddc50c15fff63fd7f7c456c99bb4b921720adbda26bad6e",
+      "text": ""
+    },
+    {
+      "id": "A39477-zh-00006",
+      "source_hash": "b07f284c168b4439d8094be830d84b516e0148679cabd0662c895cfc05d593ad",
+      "text": ""
+    },
+    {
+      "id": "A39477-zh-00008",
+      "source_hash": "e6fb8bb1ba504ee2e998dc8a43b29931377aa46f82ac1729463f59e0b3d0710d",
+      "text": ""
+    },
+    {
+      "id": "A39478-zh-00027",
+      "source_hash": "975618a39c5c7638e653d046ec1849fb359821455207080dacd2ff747cd718d0",
+      "text": ""
+    },
+    {
+      "id": "A26697-zh-00008",
+      "source_hash": "b010248c8c2c3154a576549e73d18403d19047e5da834babcaabf0c46ffe3334",
+      "text": ""
+    },
+    {
+      "id": "A26699-zh-00053",
+      "source_hash": "581d7432d17a8bb1a9126a9b9d558f65ecda93a65fd3e5b340d55d650b003147",
+      "text": ""
     }
   ],
-  "unresolved_ids": [
-    "A26697-zh-00008",
-    "A26699-zh-00053",
-    "A39474-zh-00040"
-  ],
+  "unresolved_ids": [],
   "evidence_sources": [
     {
       "path": "status/delivery/reconcile-S2-8f70e317249155938a79444493d089b4-evidence-7e6b69412a765526.json",
@@ -4055,9 +4091,10 @@
     "full_english_read": true,
     "full_chinese_semantic_review": false,
     "ready_for_complete": false,
-    "structural_audit_passed": true
+    "structural_audit_passed": true,
+    "source_layout_duplicates_resolved": true
   },
-  "note": "C03 0c6e6b1f3281: retained 792 correction IDs; removed duplicate phrase in Annex 5 A39478-zh-00025 after source row 00024; eight source-layout-only fragments still held for raw XML verification, so no COMPLETE.",
+  "note": "8 isolated and redundant Chinese XML fragments suppressed by explicit blank corrections only, originals untouched and SHA conserved. Korean content already fully reflected in adjacent effective text. Final family-wide quality audit pending; do not issue COMPLETE yet.",
   "structural_audit": {
     "path": "review/zh/F-0536890d62605f77ff0a-progress-C03-a166f62f1d4a-structural-audit.json",
     "metrics": {
@@ -4073,5 +4110,15 @@
     },
     "meaning_review_complete": false
   },
-  "last_review_task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:0c6e6b1f3281"
+  "last_review_task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:f705f160d162",
+  "resolved_layout_suppression_ids": [
+    "A39474-zh-00040",
+    "A39476-zh-00006",
+    "A39476-zh-00010",
+    "A39477-zh-00006",
+    "A39477-zh-00008",
+    "A39478-zh-00027",
+    "A26697-zh-00008",
+    "A26699-zh-00053"
+  ]
 }
