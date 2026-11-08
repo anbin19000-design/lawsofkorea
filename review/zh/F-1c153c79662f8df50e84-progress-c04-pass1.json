@@ -15,7 +15,7 @@
     "required_order": "KO_FULL_EN_FULL_ZH_FULL",
     "ko": "COMPLETE: all 34 Korean source documents read in source order.",
     "en": "COMPLETE: B1 exact English and B2 English draft read in full; reviewed/en/KR_008306.json reference read; B3 and forms lack complete English document translations.",
-    "zh": "IN_PROGRESS: forms A12188–A12193 received targeted corrections for headings, fields, and legal references. Continue A12194 onward; A12179/A12180 segmented table labels remain to be reviewed."
+    "zh": "IN_PROGRESS: forms A12194–A12198 received targeted corrections. Remaining A12199–A12207 and table-label segmentation in A12179/A12180 remain to be reviewed."
   },
   "scope": {
     "documents": 34,
@@ -2585,13 +2585,440 @@
       "text_original": "应用程序基础",
       "corrected_text": "根据《房地产价格公示法》第十七条第八款，",
       "note": "修正异议申请法律依据。"
+    },
+    {
+      "id": "A12194-zh-00001",
+      "source_hash": "2457aacc053e8e6d6f238552000860965dc085bff29d0ed6ed25f5daa3c5485d",
+      "text_original": "■ 房地产价格公开披露法实施细则 [附件表格18]",
+      "corrected_text": "■《房地产价格公示法施行规则》[别纸第18号书式]",
+      "note": "修正共同住宅价格确认书式表头。"
+    },
+    {
+      "id": "A12194-zh-00002",
+      "source_hash": "ca226e675c84a3e9f85d83c8977b6487de56a6c7bc701d75b3532a66f23fecd3",
+      "text_original": "多单元住宅价格确认（申请）表",
+      "corrected_text": "共同住宅价格确认（申请）书",
+      "note": "修正共同住宅法定术语。"
+    },
+    {
+      "id": "A12194-zh-00008",
+      "source_hash": "4b237b7c112d6da6395f1e447cbac78f5d1928aad05d425161451f4d0a6eac1c",
+      "text_original": "Name(公司名称)",
+      "corrected_text": "姓名（法人名称）",
+      "note": "修正申请人姓名字段。"
+    },
+    {
+      "id": "A12194-zh-00011",
+      "source_hash": "77709079edcb7e3891bb29be440a7040eb59d345360d7199713403a48941b312",
+      "text_original": "符合申请条件的多单元住房",
+      "corrected_text": "申请对象共同住宅",
+      "note": "修正申请对象住宅字段。"
+    },
+    {
+      "id": "A12194-zh-00012",
+      "source_hash": "7da0a18577ffb4b9128e7ac493ab27f78fc4844fdcd8e1cf9d606187b79efa5e",
+      "text_original": "详情待确认",
+      "corrected_text": "确认内容",
+      "note": "修正确认内容字段。"
+    },
+    {
+      "id": "A12194-zh-00014",
+      "source_hash": "115405af4dae9d095ed9b83245f44867ae05d631425330f837da2d0224f313ea",
+      "text_original": "位置和批号",
+      "corrected_text": "所在地及地号",
+      "note": "修正所在地及地号字段。"
+    },
+    {
+      "id": "A12194-zh-00019",
+      "source_hash": "6febdacb52fbf3dd8d97ae850d189d524761bb816847cc8c303167fd122b2504",
+      "text_original": "公寓价格",
+      "corrected_text": "共同住宅价格",
+      "note": "修正共同住宅价格字段。"
+    },
+    {
+      "id": "A12194-zh-00023",
+      "source_hash": "0bf5c1bf7add4760e82e735ffea182ca04b5960150b26474aa0b19ce75ce2a1d",
+      "text_original": "根据《房地产价格公开法》实施细则第十七条的规定，本人特此申请确认上述多单元住宅的价格。",
+      "corrected_text": "根据《房地产价格公示法施行规则》第十七条，现申请确认上述共同住宅价格。",
+      "note": "修正确认申请的法源和共同住宅术语。"
+    },
+    {
+      "id": "A12194-zh-00027",
+      "source_hash": "ff4f7292e4b6f7044bb0dd5617ce6a076d1135bdc0e27da20bc5c6d3b2cea04e",
+      "text_original": "城市、县和区",
+      "corrected_text": "市、郡、区",
+      "note": "修正地方行政区划名称。"
+    },
+    {
+      "id": "A12194-zh-00028",
+      "source_hash": "560c9335fdfb10efd26f73e477b9f6691a2da991597229e60451e507183b8763",
+      "text_original": "受条例约束",
+      "corrected_text": "依市、郡、区条例规定",
+      "note": "原文指按地方自治团体条例规定收取费用。"
+    },
+    {
+      "id": "A12194-zh-00029",
+      "source_hash": "a268f66a26088027b22fdf88c3957f0cc7549e9d0093ca85e4c3ebda6c5a6180",
+      "text_original": "根据《房地产价格公开法》实施细则第十七条的规定，您申请的多单元住宅价格如上所示。",
+      "corrected_text": "根据《房地产价格公示法施行规则》第十七条，确认贵方申请的共同住宅价格如下：",
+      "note": "修正确认书的法源及价格术语。"
+    },
+    {
+      "id": "A12195-zh-00001",
+      "source_hash": "5049e62efa54fdb567f4bdbe8f377da8d4d1a8310065380e2ed8ecf861417ca9",
+      "text_original": "■ 房地产价格公开披露法实施细则 [附件19号]",
+      "corrected_text": "■《房地产价格公示法施行规则》[别纸第19号书式]",
+      "note": "修正意见书表头母法名称和书式编号。"
+    },
+    {
+      "id": "A12195-zh-00002",
+      "source_hash": "452d66f21bcd7a7e7f56095dfe73c963298ad6b9fceddb612a8320fd9d9b737d",
+      "text_original": "对多单元住宅价格的看法",
+      "corrected_text": "共同住宅价格意见书",
+      "note": "修正共同住宅法定术语。"
+    },
+    {
+      "id": "A12195-zh-00008",
+      "source_hash": "4b237b7c112d6da6395f1e447cbac78f5d1928aad05d425161451f4d0a6eac1c",
+      "text_original": "Name(公司名称)",
+      "corrected_text": "姓名（法人名称）",
+      "note": "修正姓名字段。"
+    },
+    {
+      "id": "A12195-zh-00016",
+      "source_hash": "8c609debc12c2cd08ebde99d0d4f80137bd62074c4821a4bcb3e3fdaec279f95",
+      "text_original": "主题",
+      "corrected_text": "对象",
+      "note": "修正对象住宅标签。"
+    },
+    {
+      "id": "A12195-zh-00018",
+      "source_hash": "47680f106f00e9381b32a139105cb61c40f5ba7bca9cfffe94d4f123a2197e39",
+      "text_original": "多单元住宅",
+      "corrected_text": "共同住宅",
+      "note": "修正共同住宅类别字段。"
+    },
+    {
+      "id": "A12195-zh-00019",
+      "source_hash": "50358624dc88e34a37109f3169331dbbf5ba3a688502d9ba3f27f82db8509356",
+      "text_original": "Name(复合体名称)",
+      "corrected_text": "名称（小区名称）",
+      "note": "修正小区名称字段。"
+    },
+    {
+      "id": "A12195-zh-00020",
+      "source_hash": "e86eff24d7b466a999174ab5d8987561f329c8656431ecb74a26e72a82ae8669",
+      "text_original": "建筑物名称或编号",
+      "corrected_text": "栋名",
+      "note": "修正栋名字段。"
+    },
+    {
+      "id": "A12195-zh-00021",
+      "source_hash": "d85d1cb94a5d96112e05a61db2160a0c2615e5ee5b4f460ce035c2655fe3ee84",
+      "text_original": "单元号",
+      "corrected_text": "户号",
+      "note": "修正户号字段。"
+    },
+    {
+      "id": "A12195-zh-00022",
+      "source_hash": "e85b10295ce1bc518a234ea616987106145eed22bf8b43c0b1eb6b5bd08346a1",
+      "text_original": "提交意见",
+      "corrected_text": "意见提交内容",
+      "note": "修正意见提交内容栏。"
+    },
+    {
+      "id": "A12195-zh-00023",
+      "source_hash": "db3114f823eb6ba5ebd1849c35b60a81a68b9eaa58620faa80e674f8b7896dd4",
+      "text_original": "价格可供公开查阅",
+      "corrected_text": "查阅价格",
+      "note": "修正查阅价格字段。"
+    },
+    {
+      "id": "A12195-zh-00024",
+      "source_hash": "ac00a13fa20066f6c55584de44ba4f1815e81b6c2e32e369b2a89f12e3d94380",
+      "text_original": "Price 建议价格",
+      "corrected_text": "意见价格",
+      "note": "修正意见价格栏，移除英文残词。"
+    },
+    {
+      "id": "A12195-zh-00025",
+      "source_hash": "cb0f24046b508710d6315e71bd9b21b920cf15301b0cf055dc9569c507576ea3",
+      "text_original": "内容",
+      "corrected_text": "申请理由",
+      "note": "修正申请理由字段。"
+    },
+    {
+      "id": "A12195-zh-00029",
+      "source_hash": "f794ed150a57aef5313093229e46e7ffe4dfc0765bdb10848315b6bd93b4f33f",
+      "text_original": "关于依据《房地产价格公开披露法》实施令第42条对多户住宅价格进行审查的意见，如上所述。",
+      "corrected_text": "根据《房地产价格公示法施行令》第四十二条，现就共同住宅价格提出上述意见。",
+      "note": "修正共同住宅价格意见依据。"
+    },
+    {
+      "id": "A12196-zh-00001",
+      "source_hash": "75bc8d281be37b60590d6dca7e8f761c98a9fdca77794f836a16f193a55fe1e2",
+      "text_original": "■ 房地产价格公开披露法实施细则[附件20] <2022年3月30日修订>",
+      "corrected_text": "■《房地产价格公示法施行规则》[别纸第20号书式] <2022年3月30日修订>",
+      "note": "修正共同住宅异议申请书表头。"
+    },
+    {
+      "id": "A12196-zh-00004",
+      "source_hash": "9277e1629399636e300a01b16cdc5a6e13f268bec5fdddf3a89fcf8e44eb48d6",
+      "text_original": "公寓价格异议表",
+      "corrected_text": "共同住宅价格异议申请书",
+      "note": "修正共同住宅价格异议申请书标题。"
+    },
+    {
+      "id": "A12196-zh-00010",
+      "source_hash": "4b237b7c112d6da6395f1e447cbac78f5d1928aad05d425161451f4d0a6eac1c",
+      "text_original": "Name(公司名称)",
+      "corrected_text": "姓名（法人名称）",
+      "note": "修正申请人姓名字段。"
+    },
+    {
+      "id": "A12196-zh-00017",
+      "source_hash": "364d448a22b1512f4d3cd6ffae16cd65c8e787a5bbe2a79e4b4fe964e509f437",
+      "text_original": "主题",
+      "corrected_text": "对象",
+      "note": "修正对象住宅标签。"
+    },
+    {
+      "id": "A12196-zh-00020",
+      "source_hash": "47680f106f00e9381b32a139105cb61c40f5ba7bca9cfffe94d4f123a2197e39",
+      "text_original": "多单元住宅",
+      "corrected_text": "共同住宅",
+      "note": "修正共同住宅类别字段。"
+    },
+    {
+      "id": "A12196-zh-00021",
+      "source_hash": "50358624dc88e34a37109f3169331dbbf5ba3a688502d9ba3f27f82db8509356",
+      "text_original": "Name(复合体名称)",
+      "corrected_text": "名称（小区名称）",
+      "note": "修正小区名称字段。"
+    },
+    {
+      "id": "A12196-zh-00022",
+      "source_hash": "e86eff24d7b466a999174ab5d8987561f329c8656431ecb74a26e72a82ae8669",
+      "text_original": "建筑物名称或编号",
+      "corrected_text": "栋名",
+      "note": "修正栋名字段。"
+    },
+    {
+      "id": "A12196-zh-00023",
+      "source_hash": "d85d1cb94a5d96112e05a61db2160a0c2615e5ee5b4f460ce035c2655fe3ee84",
+      "text_original": "单元号",
+      "corrected_text": "户号",
+      "note": "修正户号字段。"
+    },
+    {
+      "id": "A12196-zh-00024",
+      "source_hash": "a381fab686d0c563a24164a83442041e9471a4fa7a330e141f6353f8fcad48c1",
+      "text_original": "反对",
+      "corrected_text": "异议内容",
+      "note": "修正异议内容栏。"
+    },
+    {
+      "id": "A12196-zh-00025",
+      "source_hash": "0ce31c00b1d76903a60434f04330efd37b738995f5e188306397b3bfe369c2ac",
+      "text_original": "官方评估价格",
+      "corrected_text": "公示价格",
+      "note": "修正共同住宅公示价格字段。"
+    },
+    {
+      "id": "A12196-zh-00026",
+      "source_hash": "ac00a13fa20066f6c55584de44ba4f1815e81b6c2e32e369b2a89f12e3d94380",
+      "text_original": "Price 建议价格",
+      "corrected_text": "异议价格",
+      "note": "修正异议价格字段。"
+    },
+    {
+      "id": "A12196-zh-00029",
+      "source_hash": "421ebe38ac32dbf2b7d33845dfd130f262a7640f93dcbd7b346fe2befabd4217",
+      "text_original": "应用程序基础",
+      "corrected_text": "异议理由",
+      "note": "修正异议理由字段。"
+    },
+    {
+      "id": "A12196-zh-00030",
+      "source_hash": "241127e59e2a5509ce914c3c191d00a469c41008df96a9413147e0df220e9775",
+      "text_original": "根据《房地产价格公开披露法》第18条第8款",
+      "corrected_text": "根据《房地产价格公示法》第十八条第八款，",
+      "note": "修正异议申请法律依据。"
+    },
+    {
+      "id": "A12197-zh-00001",
+      "source_hash": "bb3058f1b03eeec38e84efd66e4868e53bc1bd9006fc239d145ca59d4f0c7936",
+      "text_original": "■ 房地产价格公开披露法实施细则 [附件表格21]",
+      "corrected_text": "■《房地产价格公示法施行规则》[别纸第21号书式]",
+      "note": "修正非住宅标准房地产意见书表头。"
+    },
+    {
+      "id": "A12197-zh-00002",
+      "source_hash": "336b557dffc6dca61256ee97850dc888e2b23dce85d5e97d83aa7b26159f2069",
+      "text_original": "对标准非住宅房地产价格的意见",
+      "corrected_text": "非住宅标准房地产价格意见书",
+      "note": "修正法定价格类型。"
+    },
+    {
+      "id": "A12197-zh-00003",
+      "source_hash": "620c125f9df0c08a6f40fd632e2abd5ba610138091bd6b44b012a2d6368b0634",
+      "text_original": "※ 深色列无需意见提交者填写。",
+      "corrected_text": "※ 阴影栏无需由意见提交人填写。",
+      "note": "修正阴影栏填写说明。"
+    },
+    {
+      "id": "A12197-zh-00005",
+      "source_hash": "ebc9b96eb63cf003b7b1fc13d77fd353ced43869ee6c7836a9f3be4c588e1391",
+      "text_original": "收货日期",
+      "corrected_text": "收件日期",
+      "note": "修正收件日期。"
+    },
+    {
+      "id": "A12197-zh-00010",
+      "source_hash": "4b237b7c112d6da6395f1e447cbac78f5d1928aad05d425161451f4d0a6eac1c",
+      "text_original": "Name(公司名称)",
+      "corrected_text": "姓名（法人名称）",
+      "note": "修正姓名字段。"
+    },
+    {
+      "id": "A12197-zh-00018",
+      "source_hash": "8c609debc12c2cd08ebde99d0d4f80137bd62074c4821a4bcb3e3fdaec279f95",
+      "text_original": "主题",
+      "corrected_text": "对象",
+      "note": "修正对象房地产标签。"
+    },
+    {
+      "id": "A12197-zh-00019",
+      "source_hash": "115405af4dae9d095ed9b83245f44867ae05d631425330f837da2d0224f313ea",
+      "text_original": "位置和批号",
+      "corrected_text": "所在地及地号",
+      "note": "修正所在地及地号字段。"
+    },
+    {
+      "id": "A12197-zh-00022",
+      "source_hash": "cac86917237b341dd83b3e9b520f22f49d9e7f839c4b7a9352c87da5f8667f17",
+      "text_original": "Land 类别",
+      "corrected_text": "土地地目",
+      "note": "修正地目字段。"
+    },
+    {
+      "id": "A12197-zh-00023",
+      "source_hash": "ef0ec5eec77fb7759dea6b123ad449538f1ba8901f2d0d08c3029beea3ef397b",
+      "text_original": "站点面积 (㎡)",
+      "corrected_text": "宅基地面积（㎡）",
+      "note": "修正宅基地面积字段。"
+    },
+    {
+      "id": "A12197-zh-00024",
+      "source_hash": "097385de27a114321a359d9178858a0033110a9d15918aab6ceca71262f047da",
+      "text_original": "土地利用区",
+      "corrected_text": "用途地区",
+      "note": "修正用途地区字段。"
+    },
+    {
+      "id": "A12197-zh-00025",
+      "source_hash": "31c1dc6593426471ecbdae01579b6552a650d5138f0cc4129bfe367fe7ca0034",
+      "text_original": "总建筑面积（​​㎡）",
+      "corrected_text": "建筑物总面积（㎡）",
+      "note": "修正建筑物总面积字段。"
+    },
+    {
+      "id": "A12197-zh-00026",
+      "source_hash": "98c7949a5e9c547fceaeaa4bed290edc252c6c32214fc0e31a23907d128c47d6",
+      "text_original": "批准年份",
+      "corrected_text": "使用批准年份",
+      "note": "修正使用批准年份字段。"
+    },
+    {
+      "id": "A12197-zh-00028",
+      "source_hash": "f8f6603517715d1b24177af3f09ec2b2d89568018038e6ea7585d5d2f123f670",
+      "text_original": "主建筑结构",
+      "corrected_text": "主体建筑结构",
+      "note": "修正主体建筑结构字段。"
+    },
+    {
+      "id": "A12197-zh-00029",
+      "source_hash": "e85b10295ce1bc518a234ea616987106145eed22bf8b43c0b1eb6b5bd08346a1",
+      "text_original": "意见提交",
+      "corrected_text": "意见提交内容",
+      "note": "修正意见提交内容栏。"
+    },
+    {
+      "id": "A12197-zh-00030",
+      "source_hash": "a3fa0683ba9a6529f8aad6f085f0a0a8c38809680d9f21eee31e1b08e0f8a827",
+      "text_original": "建议价格",
+      "corrected_text": "拟定价格",
+      "note": "修正拟定价格字段。"
+    },
+    {
+      "id": "A12197-zh-00031",
+      "source_hash": "ac00a13fa20066f6c55584de44ba4f1815e81b6c2e32e369b2a89f12e3d94380",
+      "text_original": "Price 建议价格",
+      "corrected_text": "意见价格",
+      "note": "修正意见价格字段。"
+    },
+    {
+      "id": "A12198-zh-00001",
+      "source_hash": "5cd529288b787194eb6df0e2da9d9cc788d5f6de6fc5224724f2863bccbb62cf",
+      "text_original": "■ 房地产价格公开披露法实施细则 [附件表格22]",
+      "corrected_text": "■《房地产价格公示法施行规则》[别纸第22号书式]",
+      "note": "修正报告书表头母法名称。"
+    },
+    {
+      "id": "A12198-zh-00002",
+      "source_hash": "9b95ef5439b35527fce6cbd4e05cc245ed13b3a17d8590a0c21fa7c178585e22",
+      "text_original": "非住宅房地产标准价格调查与计算报告",
+      "corrected_text": "非住宅标准房地产价格调查、计算报告",
+      "note": "修正报告标题及法定术语。"
+    },
+    {
+      "id": "A12198-zh-00005",
+      "source_hash": "cac86917237b341dd83b3e9b520f22f49d9e7f839c4b7a9352c87da5f8667f17",
+      "text_original": "Land 类别",
+      "corrected_text": "土地地目",
+      "note": "修正地目字段。"
+    },
+    {
+      "id": "A12198-zh-00006",
+      "source_hash": "96e236841d85de19ed412f0d519eb298b9c0727fe21b0a812d77c2dccb39c252",
+      "text_original": "站点区域",
+      "corrected_text": "宅基地面积",
+      "note": "修正宅基地面积字段。"
+    },
+    {
+      "id": "A12198-zh-00014",
+      "source_hash": "51a9489f74ea88e7bf4dd38e55707baf9eb64d283dffdb1c63d65ed542bebb2a",
+      "text_original": "构建",
+      "corrected_text": "建筑物用途",
+      "note": "修正建筑物用途字段。"
+    },
+    {
+      "id": "A12198-zh-00015",
+      "source_hash": "51a9489f74ea88e7bf4dd38e55707baf9eb64d283dffdb1c63d65ed542bebb2a",
+      "text_original": "构建",
+      "corrected_text": "建筑物总面积",
+      "note": "修正建筑物总面积字段。"
+    },
+    {
+      "id": "A12198-zh-00016",
+      "source_hash": "850c3fe197b87e8baccba448b0bd7915d4de35304620f93fb303b46bf8e00e51",
+      "text_original": "主楼",
+      "corrected_text": "主体建筑结构",
+      "note": "修正主体建筑结构字段。"
+    },
+    {
+      "id": "A12198-zh-00018",
+      "source_hash": "98c7949a5e9c547fceaeaa4bed290edc252c6c32214fc0e31a23907d128c47d6",
+      "text_original": "批准年份",
+      "corrected_text": "使用批准年份",
+      "note": "修正使用批准年份字段。"
     }
   ],
   "quality_checks": {
     "source_zh_sha_preserved": true,
     "mtq_remaining": 0,
     "unique_changed_ids": true,
-    "total_saved_changes": 366
+    "total_saved_changes": 427
   },
-  "next_step": "Continue A12194–A12207 sequentially, inspect remaining table fields, and revisit A12179/A12180 segmentation."
+  "next_step": "Continue A12199–A12207 sequentially, inspect all remaining form fields, amounts, signatures, and processing-flow labels, and revisit A12179/A12180 segmentation."
 }
