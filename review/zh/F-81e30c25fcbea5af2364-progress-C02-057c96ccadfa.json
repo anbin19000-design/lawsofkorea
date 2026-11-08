@@ -1,0 +1,57 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:057c96ccadfa",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "checkpoint_type": "SOURCE_AND_PRIOR_EVIDENCE_RECONCILIATION",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "cumulative_review_blob_sha": "c9804c61b6bc57f65a782a62234647a360f2dc9c",
+  "prior_integration_path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
+  "source_document_count": 17,
+  "source_zh_rows": 1133,
+  "recorded_evidence_ids": 784,
+  "without_confirmed_evidence": 349,
+  "preserved_accepted_edits": 242,
+  "english_documents_verified": [
+    {
+      "path": "documents/en/kr-010730-283399-en.json",
+      "blob_sha": "cc660d340ea7f226437ea70597de4ad369133651",
+      "note": "Official family-level fallback; version differs from Korean"
+    },
+    {
+      "path": "documents/en/kr-010846-270111-en.json",
+      "blob_sha": "3b7a9c8967e958646ec42b5e3d20403761d896f8",
+      "note": "Official family-level fallback; version differs from Korean"
+    }
+  ],
+  "english_missing_for": [
+    "B3",
+    "A25465",
+    "A25466",
+    "A25467",
+    "A25468",
+    "A25469",
+    "A25470",
+    "A25471",
+    "A25472",
+    "A25473",
+    "A25474"
+  ],
+  "new_substantive_zh_checked": 0,
+  "new_edits": [],
+  "ordered_reading_certification": {
+    "ko": false,
+    "en": false,
+    "zh": false
+  },
+  "completion_receipt_verified": false,
+  "notes": "Confirmed source and cumulative review blobs on main, examined document metadata, availability of linked English document files, and historical evidence gaps. This is a metadata/evidence reconciliation checkpoint, NOT certification that the full text has been sequentially read or Chinese rows semantically reviewed. No existing translation, source hashes, or review candidates modified.",
+  "next_action": "Complete full sequential Korean read, then full available English read, then full Chinese review. Resolve 349 IDs lacking confirmed evidence without double-counting prior evidence; update cumulative review only after substantiated changes. Do not mark COMPLETE before full coverage and receipt."
+}
