@@ -6134,6 +6134,33 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-b3.json",
       "verification": "C02_DIRECT_KOREAN_RULE_COMPARISON",
       "reason": "Correct supplementary-provision and promulgation/effective-date terminology."
+    },
+    {
+      "id": "A25465-zh-00051",
+      "source_hash": "3fea18e1ce6eb2eba74f8e0c5df3a3994758012e72bdb84c7137d908cd1ec51b",
+      "target_id": "XML:1802682",
+      "text": "智慧创新事业",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-form3.json",
+      "verification": "C02_DIRECT_KOREAN_FORM3_COMPARISON",
+      "reason": "Correct the form's defined smart-innovation term and the split flowchart description/addressee."
+    },
+    {
+      "id": "A25465-zh-00054",
+      "source_hash": "1a39b63ebc14d01a1a7860d16f50eb3fff12c03d13216dea0f40a1016c6a3298",
+      "target_id": "XML:1802685",
+      "text": "（反映措施要求内容及计划）",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-form3.json",
+      "verification": "C02_DIRECT_KOREAN_FORM3_COMPARISON",
+      "reason": "Correct the form's defined smart-innovation term and the split flowchart description/addressee."
+    },
+    {
+      "id": "A25465-zh-00055",
+      "source_hash": "b428d32e52daf26f7091b24b5ce35fa38d3c5fa4807d8e609d3d3e2f8e778d34",
+      "target_id": "XML:1802686",
+      "text": "相关中央行政机关",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-form3.json",
+      "verification": "C02_DIRECT_KOREAN_FORM3_COMPARISON",
+      "reason": "Correct the form's defined smart-innovation term and the split flowchart description/addressee."
     }
   ],
   "adjudicated_edit_count": 554,
@@ -11374,12 +11401,13 @@
     "2026-11-08 C02 4e0b46ff6294 Annex 2: compared all 52 A36425 Chinese cells against the Korean original and prior R69/R70 evidence. Updated rows 2, 15, 28 and 33; specifically restored row 28 and 33 as continuation fragments rather than duplicated full descriptions. Existing edits and all original cell IDs/hashes preserved. Family remains IN_PROGRESS.",
     "2026-11-08 C02 4e0b46ff6294 Annex 3: compared all 59 A36426 Chinese cells against the Korean original and prior R72/R75/R76 evidence. Added seven minimal official-term/name corrections in rows 6,11,15,23,37,58,59. Prior corrections and split-cell boundaries retained. Family remains IN_PROGRESS.",
     "2026-11-08 C02 4e0b46ff6294 Annex 4: compared all 128 A36427 cells against Korean source and existing prior edits. Added/updated 20 minimal corrections for statutory references, numbering and table continuation; preserved all previous amount, duration and split-cell corrections. Annex 4 complete at cell-comparison level; family remains IN_PROGRESS.",
-    "2026-11-08 C02 4e0b46ff6294 B3: compared all 13 B3 rows against Korean source; corrected rows 11-12 부칙/시행 wording. Retained previous edits for articles 1-6 and the row 13 boundary split that prevents separate application forms from being duplicated into B3. English index has no direct B3 document. Family remains IN_PROGRESS."
+    "2026-11-08 C02 4e0b46ff6294 B3: compared all 13 B3 rows against Korean source; corrected rows 11-12 부칙/시행 wording. Retained previous edits for articles 1-6 and the row 13 boundary split that prevents separate application forms from being duplicated into B3. English index has no direct B3 document. Family remains IN_PROGRESS.",
+    "2026-11-08 C02 4e0b46ff6294 Form A25465: compared all 70 cells with Korean Form 3 and reconciled R5/R80/R81/R82/R96. Added/updated rows 51,54,55 for term consistency and accurate flowchart note/addressee. Prior corrections and cell IDs/hashes retained. English index has no direct English row-level form source. Family remains IN_PROGRESS."
   ],
   "integration_progress": {
-    "stage": "B3_IMPLEMENTING_RULE_ROWS_00001_00013_RECONCILED",
+    "stage": "A25465_FORM3_ROWS_00001_00070_RECONCILED",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:4e0b46ff6294",
-    "note": "Compared all 13 Chinese rows of B3 with the complete Korean implementing rule. Existing article corrections and the B3-zh-00013 boundary correction separating deleted forms 1-2 from independently catalogued forms retained. Corrected supplementary labels/effective-date terminology in rows 11-12."
+    "note": "Compared all 70 Chinese cells of Form 3 with the complete Korean original and reconciled prior R5/R80/R81/R82/R96 evidence. Preserved existing edits to checkbox instructions, statutory citations, required attachments, office titles, and flowchart steps. Corrected the smart-innovation term and the flowchart's measures-request/related-central-agency cells."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -12186,7 +12214,46 @@
     "A36427-zh-00124",
     "A36427-zh-00125",
     "A36427-zh-00126",
-    "A36427-zh-00128"
+    "A36427-zh-00128",
+    "A25465-zh-00001",
+    "A25465-zh-00002",
+    "A25465-zh-00003",
+    "A25465-zh-00004",
+    "A25465-zh-00005",
+    "A25465-zh-00007",
+    "A25465-zh-00009",
+    "A25465-zh-00010",
+    "A25465-zh-00011",
+    "A25465-zh-00013",
+    "A25465-zh-00014",
+    "A25465-zh-00015",
+    "A25465-zh-00016",
+    "A25465-zh-00018",
+    "A25465-zh-00019",
+    "A25465-zh-00024",
+    "A25465-zh-00025",
+    "A25465-zh-00029",
+    "A25465-zh-00030",
+    "A25465-zh-00031",
+    "A25465-zh-00032",
+    "A25465-zh-00033",
+    "A25465-zh-00043",
+    "A25465-zh-00046",
+    "A25465-zh-00047",
+    "A25465-zh-00048",
+    "A25465-zh-00050",
+    "A25465-zh-00051",
+    "A25465-zh-00053",
+    "A25465-zh-00054",
+    "A25465-zh-00055",
+    "A25465-zh-00057",
+    "A25465-zh-00058",
+    "A25465-zh-00059",
+    "A25465-zh-00060",
+    "A25465-zh-00061",
+    "A25465-zh-00062",
+    "A25465-zh-00064",
+    "A25465-zh-00070"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
