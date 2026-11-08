@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 4547,
+    "verified_zh_rows": 4662,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 4547,
-      "checked_rows": 4547,
+      "next_row_zero_based": 4662,
+      "checked_rows": 4662,
       "total_rows": 5228
     }
   },
@@ -7531,9 +7531,363 @@
       "text": "结果通知",
       "original_text": "结果通知",
       "reason": "결과 통보 표기를 유지"
+    },
+    {
+      "id": "A4698-zh-00001",
+      "text": "■《道路法施行规则》[附件表格第33号]",
+      "original_text": "■ 道路交通法执行规则 [附件表格编号 33]",
+      "reason": "도로법 시행규칙을 도로교통법 시행규칙으로 오역"
+    },
+    {
+      "id": "A4698-zh-00002",
+      "text": "道路占用工程代行通知书",
+      "original_text": "道路占用施工代理通知",
+      "reason": "도로점용공사 대행 통지서를 부정확하게 번역"
+    },
+    {
+      "id": "A4698-zh-00003",
+      "text": "致",
+      "original_text": "您的",
+      "reason": "수신인 귀하를 ‘당신의’로 오역"
+    },
+    {
+      "id": "A4698-zh-00004",
+      "text": "道路种类",
+      "original_text": "道路类型",
+      "reason": "도로의 종류 표제 정돈"
+    },
+    {
+      "id": "A4698-zh-00005",
+      "text": "占用面积",
+      "original_text": "占用区域",
+      "reason": "점용면적을 일반 구역으로 축소"
+    },
+    {
+      "id": "A4698-zh-00006",
+      "text": "工程目的",
+      "original_text": "工作目的",
+      "reason": "공사의 목적을 일반 업무 목적으로 오역"
+    },
+    {
+      "id": "A4698-zh-00007",
+      "text": "开挖工程实施方法",
+      "original_text": "开挖作业实施方案",
+      "reason": "굴착공사 시행방법을 계획안으로 오역"
+    },
+    {
+      "id": "A4698-zh-00008",
+      "text": "工程种类",
+      "original_text": "施工类型",
+      "reason": "공사의 종류 항목을 정돈"
+    },
+    {
+      "id": "A4698-zh-00009",
+      "text": "道路恢复方法",
+      "original_text": "道路修复方法",
+      "reason": "도로 복구방법의 법률서식 표현 정돈"
+    },
+    {
+      "id": "A4698-zh-00010",
+      "text": "占用期限",
+      "original_text": "使用期",
+      "reason": "점용기간을 일반 사용기간으로 축소"
+    },
+    {
+      "id": "A4698-zh-00011",
+      "text": "工程期间",
+      "original_text": "施工期",
+      "reason": "공사기간 표기 정돈"
+    },
+    {
+      "id": "A4698-zh-00012",
+      "text": "占用地点",
+      "original_text": "居住地点",
+      "reason": "점용장소를 거주지로 오역"
+    },
+    {
+      "id": "A4698-zh-00013",
+      "text": "代行施工时间",
+      "original_text": "建设机构周期",
+      "reason": "공사대행시기를 기관 주기로 오역"
+    },
+    {
+      "id": "A4698-zh-00014",
+      "text": "占用许可日期",
+      "original_text": "占用许可",
+      "reason": "점용허가 연월일의 날짜 의미 누락"
+    },
+    {
+      "id": "A4698-zh-00015",
+      "text": "被占用物的结构",
+      "original_text": "被占据物体的结构",
+      "reason": "점용물 구조 용어 정돈"
+    },
+    {
+      "id": "A4698-zh-00016",
+      "text": "日期",
+      "original_text": "日期",
+      "reason": "날짜 표기를 유지"
+    },
+    {
+      "id": "A4698-zh-00017",
+      "text": "代行施工理由",
+      "original_text": "建筑机构原因",
+      "reason": "공사대행 이유를 건축기관 원인으로 오역"
+    },
+    {
+      "id": "A4698-zh-00018",
+      "text": "道路开挖时的交通疏导措施",
+      "original_text": "挖掘作业期间的交通管理措施",
+      "reason": "굴착공사 시 교통소통대책을 교통관리로 모호하게 번역"
+    },
+    {
+      "id": "A4698-zh-00019",
+      "text": "依据《道路法》第六十一条获准的事项，因上述理由委托代行该工程，特依据同法第六十五条第二款、同法施行令第六十八条第一款及同法施行规则第三十四条通知如下。",
+      "original_text": "为了按照上述理由，代表他人进行道路建设工程，并遵守《道路法》第61条[该法的相关部分]的规定。",
+      "reason": "공사대행 통지 문장과 법적 근거 인용 오류"
+    },
+    {
+      "id": "A4698-zh-00020",
+      "text": "本人依据同法施行令第六十八条第一款及同法施行规则第三十四条发出本通知。",
+      "original_text": "本通知依据同一法律实施法令第65条第2款、第68条第1款以及同一法律实施细则第34条发出。",
+      "reason": "법 제65조제2항 및 시행령 제68조제1항의 인용 순서·법령명 오류"
+    },
+    {
+      "id": "A4698-zh-00023",
+      "text": "日",
+      "original_text": "一江",
+      "reason": "일(日)을 강(江)으로 오역"
+    },
+    {
+      "id": "A4698-zh-00027",
+      "text": "1. 预算书",
+      "original_text": "1. 预算办公室",
+      "reason": "예산서를 예산 사무실로 오역"
+    },
+    {
+      "id": "A4699-zh-00001",
+      "text": "■《道路法施行规则》[附件表格第34号]",
+      "original_text": "■ 道路交通法执行规则 [附件表格第34号]",
+      "reason": "도로법 시행규칙을 도로교통법 시행규칙으로 오역"
+    },
+    {
+      "id": "A4699-zh-00002",
+      "text": "堆放物等保管台账",
+      "original_text": "存储货物等的存储登记簿",
+      "reason": "적치물 등의 보관대장을 상품 저장 장부로 부정확하게 번역"
+    },
+    {
+      "id": "A4699-zh-00014",
+      "text": "品名",
+      "original_text": "产品名称",
+      "reason": "품명을 상품 제품명으로 축소"
+    },
+    {
+      "id": "A4699-zh-00015",
+      "text": "规格",
+      "original_text": "规范",
+      "reason": "규격을 규범으로 오역"
+    },
+    {
+      "id": "A4699-zh-00017",
+      "text": "保管日期",
+      "original_text": "存储日期",
+      "reason": "보관 연월일의 서식용어 정돈"
+    },
+    {
+      "id": "A4699-zh-00018",
+      "text": "保管地点",
+      "original_text": "存储位置",
+      "reason": "보관 장소 표기를 정돈"
+    },
+    {
+      "id": "A4699-zh-00019",
+      "text": "违规地点",
+      "original_text": "违规位置",
+      "reason": "위반 장소의 법률서식 용어 정돈"
+    },
+    {
+      "id": "A4699-zh-00020",
+      "text": "经手人姓名",
+      "original_text": "处理程序名称",
+      "reason": "취급자 성명을 처리절차 명칭으로 오역"
+    },
+    {
+      "id": "A4700-zh-00001",
+      "text": "堆放物认领凭证",
+      "original_text": "存储物品索赔",
+      "reason": "적치물 청구증을 물품 손해배상으로 오역"
+    },
+    {
+      "id": "A4700-zh-00003",
+      "text": "认领人",
+      "original_text": "声明者",
+      "reason": "청구인을 선언자로 오역"
+    },
+    {
+      "id": "A4700-zh-00007",
+      "text": "堆放物品名",
+      "original_text": "堆叠物品的产品名称",
+      "reason": "적치물의 품명을 불필요하게 길게 번역"
+    },
+    {
+      "id": "A4700-zh-00008",
+      "text": "堆放物数量",
+      "original_text": "库存货物数量",
+      "reason": "적치물 수량을 재고품 수량으로 오역"
+    },
+    {
+      "id": "A4700-zh-00009",
+      "text": "堆放物形态",
+      "original_text": "堆叠材料类型",
+      "reason": "적치물의 형태를 적치 재료 유형으로 오역"
+    },
+    {
+      "id": "A4700-zh-00010",
+      "text": "特此认领上述堆放物。",
+      "original_text": "请求以上堆叠项。",
+      "reason": "위 적치물을 청구한다는 문장을 요청 목록으로 오역"
+    },
+    {
+      "id": "A4700-zh-00013",
+      "text": "日",
+      "original_text": "日长度",
+      "reason": "일(日)을 일 길이로 오역"
+    },
+    {
+      "id": "A4700-zh-00014",
+      "text": "认领人",
+      "original_text": "声明者",
+      "reason": "청구인을 선언자로 오역"
+    },
+    {
+      "id": "A4700-zh-00017",
+      "text": "致道路管理机关",
+      "original_text": "您的",
+      "reason": "도로관리청 귀하를 ‘당신의’로 오역"
+    },
+    {
+      "id": "A4700-zh-00018",
+      "text": "堆放物领取凭证",
+      "original_text": "入库货物收据",
+      "reason": "적치물 인수증을 입고물품 영수증으로 오역"
+    },
+    {
+      "id": "A4700-zh-00019",
+      "text": "规格/形态",
+      "original_text": "参数",
+      "reason": "형태를 매개변수로 오역"
+    },
+    {
+      "id": "A4700-zh-00020",
+      "text": "姓名",
+      "original_text": "名称",
+      "reason": "성명을 일반 명칭으로 축소"
+    },
+    {
+      "id": "A4700-zh-00023",
+      "text": "堆放物品名",
+      "original_text": "堆叠物品的产品名称",
+      "reason": "적치물 품명 표기를 정돈"
+    },
+    {
+      "id": "A4700-zh-00024",
+      "text": "堆放物数量",
+      "original_text": "库存货物数量",
+      "reason": "적치물 수량을 재고품 수량으로 오역"
+    },
+    {
+      "id": "A4700-zh-00025",
+      "text": "堆放物形态",
+      "original_text": "堆叠材料类型",
+      "reason": "적치물 형태를 재료 유형으로 오역"
+    },
+    {
+      "id": "A4700-zh-00026",
+      "text": "特此领取上述堆放物。",
+      "original_text": "接收上方堆放的货物。",
+      "reason": "위 적치물을 인수한다는 문장을 부정확하게 번역"
+    },
+    {
+      "id": "A4700-zh-00030",
+      "text": "规格/形态",
+      "original_text": "参数",
+      "reason": "형태 항목을 매개변수로 오역"
+    },
+    {
+      "id": "A4700-zh-00033",
+      "text": "致道路管理机关",
+      "original_text": "您的",
+      "reason": "도로관리청 귀하를 ‘당신의’로 오역"
+    },
+    {
+      "id": "A4701-zh-00001",
+      "text": "■《道路法施行规则》[附件表格第36号]",
+      "original_text": "■ 道路交通法执行规则 [附件表格第36号]",
+      "reason": "도로법 시행규칙을 도로교통법 시행규칙으로 오역"
+    },
+    {
+      "id": "A4701-zh-00003",
+      "text": "[ ] 通行禁止、限制公告",
+      "original_text": "[ ] 禁止/限制通行",
+      "reason": "통행의 금지·제한 공고임을 명확히 표기"
+    },
+    {
+      "id": "A4701-zh-00005",
+      "text": "[ ] 车辆通行限制",
+      "original_text": "[ ] 车辆操作限制",
+      "reason": "차량 운행 제한을 차량 조작 제한으로 오역"
+    },
+    {
+      "id": "A4701-zh-00006",
+      "text": "依据《道路法》第七十六条第一款、第二款、第七十七条第一款、第七款及同法施行规则第三十八条、第四十条第四款",
+      "original_text": "《道路法》第76条第1款和第2款、第77条第1款和第7款以及该法实施细则第38条，",
+      "reason": "도로법 시행규칙 조문 인용을 분절·누락"
+    },
+    {
+      "id": "A4701-zh-00008",
+      "text": "[ ] 通行禁止、限制",
+      "original_text": "[ ] 禁止/限制通行",
+      "reason": "통행 금지·제한 선택 항목의 표기 정돈"
+    },
+    {
+      "id": "A4701-zh-00010",
+      "text": "[ ] 车辆通行限制",
+      "original_text": "[ ] 车辆操作限制",
+      "reason": "차량 운행 제한을 차량 조작 제한으로 오역"
+    },
+    {
+      "id": "A4701-zh-00014",
+      "text": "公告人",
+      "original_text": "通知程序",
+      "reason": "공고자를 통지 절차로 오역"
+    },
+    {
+      "id": "A4701-zh-00017",
+      "text": "路线名称",
+      "original_text": "路由名称",
+      "reason": "노선명을 네트워크 라우팅 명칭으로 오역"
+    },
+    {
+      "id": "A4701-zh-00019",
+      "text": "路段",
+      "original_text": "部分",
+      "reason": "구간을 단순 부분으로 축소"
+    },
+    {
+      "id": "A4701-zh-00020",
+      "text": "期限",
+      "original_text": "周期",
+      "reason": "기간을 주기로 오역"
+    },
+    {
+      "id": "A4701-zh-00029",
+      "text": "附件：相关道路比例尺为1:50,000或更大的地形图",
+      "original_text": "附件：比例尺为 1:50,000 或更大的相关道路地形图",
+      "reason": "지형도 첨부 문구를 정돈"
     }
   ],
-  "note": "Sequential review advanced through row 4546, completing A4695 road occupation project plan, A4696 plan adjustment notice and A4697 completion confirmation application. Added 54 targeted corrections for rule titles/citations, application period/purpose/fees, omitted attachments exception, project plan fields, adjustment notice, completion inspection application, MTQ/START residues, applicant fields, restoration work and procedural workflow. Previous 1175 edits retained. Continue from row 4547 with A4698. IN_PROGRESS.",
+  "note": "Sequential review advanced through row 4661, completing A4698 road occupation work delegation notice, A4699 stored articles ledger, A4700 stored articles claim/receipt and A4701 traffic restriction notice. Added 50 targeted corrections for delegation notice fields/statutory references, storage ledger terminology, claim/receipt labels, and public notice/statute citations/traffic restrictions. Previous 1230 edits retained. Continue from row 4662 with A4702. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
