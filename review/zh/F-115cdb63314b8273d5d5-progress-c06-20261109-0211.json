@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 5002,
+    "verified_zh_rows": 5075,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 5002,
-      "checked_rows": 5002,
+      "next_row_zero_based": 5075,
+      "checked_rows": 5075,
       "total_rows": 5228
     }
   },
@@ -8971,9 +8971,309 @@
       "text": "按财源分类的计算书",
       "original_text": "资金来源声明",
       "reason": "재원별 계산서를 재원 선언서로 오역"
+    },
+    {
+      "id": "A4708-zh-00001",
+      "text": "■《道路法施行规则》[附件表格第43号] <2025年12月26日修订>",
+      "original_text": "■ 道路交通法执行规则 [附件表格编号 43] <2025 年 12 月 26 日修订>",
+      "reason": "도로법 시행규칙을 도로교통법 시행규칙으로 오역"
+    },
+    {
+      "id": "A4708-zh-00002",
+      "text": "道路费用负担命令书",
+      "original_text": "道路成本负担订单",
+      "reason": "도로 비용 부담 명령서를 원가 주문으로 오역"
+    },
+    {
+      "id": "A4708-zh-00003",
+      "text": "致",
+      "original_text": "您的",
+      "reason": "수신인 귀하를 ‘당신의’로 오역"
+    },
+    {
+      "id": "A4708-zh-00005",
+      "text": "路线名称",
+      "original_text": "路由名称",
+      "reason": "노선명을 네트워크 라우팅 명칭으로 오역"
+    },
+    {
+      "id": "A4708-zh-00006",
+      "text": "负担对象",
+      "original_text": "应付",
+      "reason": "부담대상을 지불해야 할 것으로 오역"
+    },
+    {
+      "id": "A4708-zh-00008",
+      "text": "负担金额",
+      "original_text": "付款金额",
+      "reason": "부담금액을 지급금액으로 오역"
+    },
+    {
+      "id": "A4708-zh-00009",
+      "text": "期间",
+      "original_text": "周期",
+      "reason": "기간을 주기로 오역"
+    },
+    {
+      "id": "A4708-zh-00011",
+      "text": "依据《道路法》第八十七条第一款、第八十八条第二款、同法施行令第八十八条及同法施行规则第四十四条",
+      "original_text": "根据《道路法》第87条第1款和第88条第2款、《道路法》实施令第88条以及《道路法》实施细则第44条的规定",
+      "reason": "도로법 시행령·시행규칙 인용 및 조문 관계 오류"
+    },
+    {
+      "id": "A4708-zh-00012",
+      "text": "特此命令您承担上述道路相关费用。对本命令有异议的，可依据《行政基本法》第三十六条，自收到命令之日起三十日内提出异议申请。",
+      "original_text": "特此责令您承担上述道路相关费用。如果您对此命令有任何异议，请[参阅行政文件]。",
+      "reason": "이의신청 안내 조문과 문장 구조 오류"
+    },
+    {
+      "id": "A4708-zh-00013",
+      "text": "即使提出异议，仍可不受异议申请影响，自收到命令之日起九十日内依据《行政审判法》申请行政审判，或依据《行政诉讼法》提起行政诉讼。",
+      "original_text": "根据本法第36条规定，您可以在收到命令之日起30天内提出异议。已提出异议者",
+      "reason": "30일 이의신청·90일 행정심판 및 소송 권리 문장 오류"
+    },
+    {
+      "id": "A4708-zh-00014",
+      "text": "或提起行政诉讼。",
+      "original_text": "即使在这种情况下，无论是否有异议，都必须根据《行政上诉法》在收到命令之日起 90 天内提出行政上诉。",
+      "reason": "행정심판 및 행정소송 선택 권리 표현을 정돈"
+    },
+    {
+      "id": "A4708-zh-00015",
+      "text": "可依据《行政诉讼法》提起行政诉讼。",
+      "original_text": "您可以根据《行政诉讼法》提出索赔或提起行政诉讼。",
+      "reason": "행정소송 권리 문구의 중복·오역 정돈"
+    },
+    {
+      "id": "A4708-zh-00019",
+      "text": "国土交通部长官",
+      "original_text": "国土交通部长",
+      "reason": "국토교통부장관의 공식 직함 정돈"
+    },
+    {
+      "id": "A4708-zh-00021",
+      "text": "特别市长、广域市长或道知事",
+      "original_text": "特区市长、大都会区市长或省长",
+      "reason": "특별시장·광역시장·도지사 직함 정돈"
+    },
+    {
+      "id": "A4708-zh-00023",
+      "text": "设计文件",
+      "original_text": "设计文档",
+      "reason": "설계도서의 법령용어 정돈"
+    },
+    {
+      "id": "A4709-zh-00001",
+      "text": "■《道路法施行规则》[附件表格第44号] <2022年3月30日修订>",
+      "original_text": "■ 道路交通法执行规则 [表格编号 44] <2022 年 3 月 30 日修订>",
+      "reason": "도로법 시행규칙을 도로교통법 시행규칙으로 오역"
+    },
+    {
+      "id": "A4709-zh-00002",
+      "text": "机关名称",
+      "original_text": "管",
+      "reason": "기관명을 한 글자 ‘관’으로 훼손"
+    },
+    {
+      "id": "A4709-zh-00003",
+      "text": "名称",
+      "original_text": "名称",
+      "reason": "기관명 항목을 유지"
+    },
+    {
+      "id": "A4709-zh-00006",
+      "text": "文书编号",
+      "original_text": "文档编号",
+      "reason": "문서번호를 문서 파일 번호로 오역"
+    },
+    {
+      "id": "A4709-zh-00007",
+      "text": "施行日期",
+      "original_text": "生效日期",
+      "reason": "시행일자를 법령 효력일로 부정확하게 표현"
+    },
+    {
+      "id": "A4709-zh-00010",
+      "text": "收件人",
+      "original_text": "接收",
+      "reason": "수신을 접수 동사로 오역"
+    },
+    {
+      "id": "A4709-zh-00011",
+      "text": "标题：对其他构筑物管理人等的费用负担命令",
+      "original_text": "标题：承担其他工程管理人员等费用的命令",
+      "reason": "타공작물 관리자 등에 대한 비용부담 명령을 다른 공사 관리자 비용으로 오역"
+    },
+    {
+      "id": "A4709-zh-00012",
+      "text": "依据《道路法》第八十九条第二款、第三款、第九十条第三款、第九十一条第一款及同法施行令第八十九条、第九十条、第九十一条",
+      "original_text": "《道路法》第89条第2款和第3款、第90条第3款、第91条第1款以及该法的实施细则",
+      "reason": "도로법 조문 및 시행령 인용에서 시행령을 시행규칙으로 오역"
+    },
+    {
+      "id": "A4709-zh-00013",
+      "text": "现依据《道路法》第八十九条、第九十条及第九十一条的规定，命令承担如下道路相关费用。",
+      "original_text": "根据该条例第89条、第90条和第91条的规定，道路建设费用的承担方式如下：",
+      "reason": "비용부담 명령 문구와 법적 주체의 의미 오류"
+    },
+    {
+      "id": "A4709-zh-00014",
+      "text": "请依照随附的设计文件及维护、管理方法说明书执行本命令。",
+      "original_text": "请按照所附设计文档和维护手册执行此命令。此命令为",
+      "reason": "명령 이행 및 첨부문서 표현을 정돈"
+    },
+    {
+      "id": "A4709-zh-00015",
+      "text": "如对本命令有异议，可自收到命令之日起九十日内依据《行政审判法》申请行政审判，或依据《行政诉讼法》提起行政诉讼。",
+      "original_text": "有异议，请在收到命令之日起 90 天内，根据《行政上诉法》提交[文件]",
+      "reason": "행정심판법 및 행정소송법에 따른 불복 절차 문장 복구"
+    },
+    {
+      "id": "A4709-zh-00016",
+      "text": "或提起行政诉讼。",
+      "original_text": "您可以根据《行政诉讼法》提起上诉或提起行政诉讼。",
+      "reason": "행정소송 문구 중복 정돈"
+    },
+    {
+      "id": "A4709-zh-00018",
+      "text": "路线名称",
+      "original_text": "路由名称",
+      "reason": "노선명을 네트워크 라우팅 명칭으로 오역"
+    },
+    {
+      "id": "A4709-zh-00019",
+      "text": "负担对象",
+      "original_text": "应付",
+      "reason": "부담대상을 지불해야 할 것으로 오역"
+    },
+    {
+      "id": "A4709-zh-00021",
+      "text": "负担金额",
+      "original_text": "付款金额",
+      "reason": "부담금액을 지급금액으로 오역"
+    },
+    {
+      "id": "A4709-zh-00022",
+      "text": "期间",
+      "original_text": "周期",
+      "reason": "기간을 주기로 오역"
+    },
+    {
+      "id": "A4709-zh-00025",
+      "text": "自",
+      "original_text": "至",
+      "reason": "기간 시작을 종료로 오역"
+    },
+    {
+      "id": "A4709-zh-00028",
+      "text": "至",
+      "original_text": "直到",
+      "reason": "기간 종료 표기 정돈"
+    },
+    {
+      "id": "A4709-zh-00030",
+      "text": "附件：1. 设计文件",
+      "original_text": "附件：1. 设计文档",
+      "reason": "설계도서 용어 정돈"
+    },
+    {
+      "id": "A4709-zh-00031",
+      "text": "2. 维护、管理方法说明书",
+      "original_text": "2. 维护和管理方法说明手册。",
+      "reason": "유지·관리 방법 설명서의 법률서식 표현 정돈"
+    },
+    {
+      "id": "A4709-zh-00032",
+      "text": "完。",
+      "original_text": "结束。",
+      "reason": "서식 종결 표현 정돈"
+    },
+    {
+      "id": "A4710-zh-00001",
+      "text": "■《道路法施行规则》[附件表格第45号]",
+      "original_text": "■ 道路交通法执行规则 [表格编号 45]",
+      "reason": "도로법 시행규칙을 도로교통법 시행규칙으로 오역"
+    },
+    {
+      "id": "A4710-zh-00002",
+      "text": "裁决申请书",
+      "original_text": "复议申请",
+      "reason": "재결신청서를 재심의 신청으로 오역"
+    },
+    {
+      "id": "A4710-zh-00004",
+      "text": "收件日期",
+      "original_text": "收货日期",
+      "reason": "접수일을 물품 수령일로 오역"
+    },
+    {
+      "id": "A4710-zh-00005",
+      "text": "裁决申请人",
+      "original_text": "复议申请人",
+      "reason": "재결신청인을 재심의 신청인으로 오역"
+    },
+    {
+      "id": "A4710-zh-00007",
+      "text": "姓名",
+      "original_text": "名称",
+      "reason": "성명을 일반 명칭으로 축소"
+    },
+    {
+      "id": "A4710-zh-00008",
+      "text": "相对方",
+      "original_text": "对手",
+      "reason": "상대방을 대전 상대·적수로 오역"
+    },
+    {
+      "id": "A4710-zh-00010",
+      "text": "姓名",
+      "original_text": "名称",
+      "reason": "성명을 일반 명칭으로 축소"
+    },
+    {
+      "id": "A4710-zh-00011",
+      "text": "事业种类",
+      "original_text": "业务类型",
+      "reason": "사업의 종류를 일반 업무 유형으로 오역"
+    },
+    {
+      "id": "A4710-zh-00013",
+      "text": "损失补偿金额的计算及其明细",
+      "original_text": "损失赔偿金额及详情的计算",
+      "reason": "손실보상액 계산 및 그 내용을 법률용어로 정돈"
+    },
+    {
+      "id": "A4710-zh-00014",
+      "text": "协商经过",
+      "original_text": "磋商进展",
+      "reason": "협의의 경과를 진행 상태로 축소"
+    },
+    {
+      "id": "A4710-zh-00015",
+      "text": "其他参考事项",
+      "original_text": "其他说明",
+      "reason": "그 밖의 참고사항을 설명으로 축소"
+    },
+    {
+      "id": "A4710-zh-00016",
+      "text": "依据《道路法》第九十九条第三款、同法施行令第九十二条及同法施行规则第四十八条，特此提出申请。",
+      "original_text": "根据《道路法》第99条第3款、《道路法》实施令第92条和《道路法实施细则》第48条的规定，按上述方式提出申请。",
+      "reason": "도로법 시행령·시행규칙 인용과 재결신청 문장 오류"
+    },
+    {
+      "id": "A4710-zh-00022",
+      "text": "裁决申请人",
+      "original_text": "复议申请人",
+      "reason": "재결신청인을 재심의 신청인으로 오역"
+    },
+    {
+      "id": "A4710-zh-00023",
+      "text": "致管辖土地征用委员会",
+      "original_text": "귀하",
+      "reason": "관할 토지수용위원회 귀하의 수신인 표기 누락"
     }
   ],
-  "note": "Sequential review advanced through row 5001, completing A4705 construction commencement report, A4706 quarterly progress report and A4707 project performance report. Added 62 targeted corrections for project report fields, road length/lane count, contractor/trade name, amount/date labels, statutory citations and recipients; quarterly progress metrics and cumulative/actual/planned labels; project performance and funding source terms. Previous 1391 edits retained. Continue from row 5002 with A4708. IN_PROGRESS.",
+  "note": "Sequential review advanced through row 5074, completing A4708 road cost-bearing order, A4709 order to bear costs by managers of other structures/works, and A4710 adjudication application. Added 50 targeted corrections for legal titles/citations, liable party/amount/period, objections and appeal periods, issuing authorities, recipient and attachments, adjudication (재결) vs review terminology, applicant/opponent names and loss compensation fields. Previous 1470 edits retained. Continue from row 5075 with A4711. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
