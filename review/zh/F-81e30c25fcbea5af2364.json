@@ -6169,6 +6169,15 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-form3.json",
       "verification": "C02_DIRECT_KOREAN_FORM3_COMPARISON",
       "reason": "Correct the form's defined smart-innovation term and the split flowchart description/addressee."
+    },
+    {
+      "id": "A25470-zh-00060",
+      "source_hash": "d6d87e05c543e71cabaccf3ed61804e7e814d1a465e94f4fdc59f331ba61f822",
+      "target_id": "XML:1802944",
+      "text": "（背面）",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-form6.json",
+      "verification": "C02_R91_KOREAN_FORM6_COMPARISON",
+      "reason": "Restore the Korean form's separate back-side marker, preserving front/back cell boundaries."
     }
   ],
   "adjudicated_edit_count": 554,
@@ -11414,12 +11423,13 @@
     "2026-11-08 C02 4e0b46ff6294 Form A25466: compared all 70 cells with Korean Form 4 and reconciled R5/R83/R84/R85/R86/R104. Restored row 54 to the exact R85/R104 selected prefix fragment to preserve cell boundaries; all other prior decisions retained. Family remains IN_PROGRESS.",
     "2026-11-08 C02 4e0b46ff6294 Form A25467: compared all 31 cells with Korean Form 5 and reconciled R6/R87. No additional clear material errors beyond the stored corrections; all row IDs now included in checked_unique_ids. English index has no direct row-level form translation. Family remains IN_PROGRESS.",
     "2026-11-08 C02 4e0b46ff6294 Form A25468: compared all 46 cells with Korean Form 5-2 and reconciled R7/R88. No additional clear material errors beyond saved corrections; all row IDs added to checked_unique_ids. English index has no direct row-level English form source. Family remains IN_PROGRESS.",
-    "2026-11-08 C02 4e0b46ff6294 Form A25469: compared all 28 cells with Korean Form 5-3 and reconciled R7/R89. Retained row 20 '说明事项' after row 19 '其他' to avoid duplicated 其他; other prior corrections retained. All row IDs included in checked_unique_ids. No direct English form source. Family remains IN_PROGRESS."
+    "2026-11-08 C02 4e0b46ff6294 Form A25469: compared all 28 cells with Korean Form 5-3 and reconciled R7/R89. Retained row 20 '说明事项' after row 19 '其他' to avoid duplicated 其他; other prior corrections retained. All row IDs included in checked_unique_ids. No direct English form source. Family remains IN_PROGRESS.",
+    "2026-11-08 C02 4e0b46ff6294 Form A25470: compared all 72 cells with Korean Form 6 and reconciled R8/R90/R91/R97/R104. Integrated R91 row 60 '（背面）' into master; all prior form corrections retained. Family remains IN_PROGRESS."
   ],
   "integration_progress": {
-    "stage": "A25469_FORM5_3_ROWS_00001_00028_RECONCILED",
+    "stage": "A25470_FORM6_ROWS_00001_00072_RECONCILED",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:4e0b46ff6294",
-    "note": "Compared all 28 Chinese cells in Form 5-3 against Korean original and reconciled R7/R89. Preserved prior corrections for legal form title, applicant labels, authority/result terminology, legal citation and nonduplicating adjacent-cell handling of '其他说明事项'. No additional clear material error found."
+    "note": "Compared all 72 Chinese cells in Form 6 with Korean original and reconciled R8/R90/R91/R97/R104. Preserved R90 checkbox/front-side split, R97 duration-range markers, R91 minister/addressee/attachment/back-side cells, and R104 selection. Added missing master integration for row 60 back-side marker."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -12335,7 +12345,41 @@
     "A25469-zh-00007",
     "A25469-zh-00009",
     "A25469-zh-00010",
-    "A25469-zh-00013"
+    "A25469-zh-00013",
+    "A25470-zh-00039",
+    "A25470-zh-00040",
+    "A25470-zh-00041",
+    "A25470-zh-00042",
+    "A25470-zh-00043",
+    "A25470-zh-00044",
+    "A25470-zh-00045",
+    "A25470-zh-00046",
+    "A25470-zh-00047",
+    "A25470-zh-00048",
+    "A25470-zh-00049",
+    "A25470-zh-00050",
+    "A25470-zh-00051",
+    "A25470-zh-00052",
+    "A25470-zh-00053",
+    "A25470-zh-00054",
+    "A25470-zh-00055",
+    "A25470-zh-00056",
+    "A25470-zh-00057",
+    "A25470-zh-00058",
+    "A25470-zh-00059",
+    "A25470-zh-00060",
+    "A25470-zh-00061",
+    "A25470-zh-00062",
+    "A25470-zh-00063",
+    "A25470-zh-00064",
+    "A25470-zh-00065",
+    "A25470-zh-00066",
+    "A25470-zh-00067",
+    "A25470-zh-00068",
+    "A25470-zh-00069",
+    "A25470-zh-00070",
+    "A25470-zh-00071",
+    "A25470-zh-00072"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
