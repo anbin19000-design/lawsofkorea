@@ -19,8 +19,8 @@
     "required_order": "KO_FULL_EN_FULL_ZH_FULL",
     "ko": "COMPLETE; read all 40 Korean source documents sequentially: B1-B3 and forms A21391-A21427. Long form A21410 was additionally read in slices across all 29,583 characters.",
     "en": "COMPLETE; read full_text sequentially for exact-version official English B1 (44,973 chars, 53 articles) and B2 (36,297 chars). English source SHA: B1 3fb4125ebe20d6eb77f20ec953c976185229edd1; B2 53ff816786de057b33a6adcf2abdbf59fa81b08e. B3 and all 37 forms have no document-level English source.",
-    "zh": "IN_PROGRESS; sequential review completed through A21410-zh-00021 (row 917 of 1,966). Forms A21391-A21410 reviewed in order; A21410 long-form continuation remains.",
-    "next_step": "Continue from A21410-zh-00022 (row 918) through the end of the 1,966 Chinese rows, especially the remaining multi-page form A21410 and subsequent annexes.",
+    "zh": "IN_PROGRESS; sequential review completed through A21410-zh-00071 (row 967 of 1,966). Multi-page A21410 form is being reviewed in ordered chunks; remaining rows continue.",
+    "next_step": "Continue from A21410-zh-00072 (row 968) through A21410 end, then remaining forms A21411-A21427 through row 1,966.",
     "english_source_blobs": {
       "B1": "3fb4125ebe20d6eb77f20ec953c976185229edd1",
       "B2": "53ff816786de057b33a6adcf2abdbf59fa81b08e"
@@ -2831,8 +2831,193 @@
       "id": "A21410-zh-00021",
       "text": "1. 住所及联系方式",
       "reason": "“주소ㆍ연락처”应译住所及联系方式。"
+    },
+    {
+      "id": "A21410-zh-00022",
+      "text": "居民登记簿上的地址：",
+      "reason": "“주민등록표상의 주소”是居民登记簿记载的地址。"
+    },
+    {
+      "id": "A21410-zh-00023",
+      "text": "居住地址（与居民登记簿上的地址不同时填写）：",
+      "reason": "原译“居民登记册”应统一为居民登记簿。"
+    },
+    {
+      "id": "A21410-zh-00024",
+      "text": "☎（家庭电话号码）：",
+      "reason": "表格两列分别填写登记地址和现居地址的家庭电话，保留字段。"
+    },
+    {
+      "id": "A21410-zh-00025",
+      "text": "☎（家庭电话号码）：",
+      "reason": "对应另一地址栏的家庭电话号码。"
+    },
+    {
+      "id": "A21410-zh-00026",
+      "text": "手机号码：",
+      "reason": "“휴대전화번호”应译手机号码。"
+    },
+    {
+      "id": "A21410-zh-00027",
+      "text": "电子邮箱：",
+      "reason": "“전자우편”应译电子邮箱。"
+    },
+    {
+      "id": "A21410-zh-00028",
+      "text": "其他联系方式：",
+      "reason": "“그 밖의 연락처”应译其他联系方式。"
+    },
+    {
+      "id": "A21410-zh-00029",
+      "text": "（短信服务：【",
+      "reason": "短信服务同意/不同意勾选栏，括号内容应保留。"
+    },
+    {
+      "id": "A21410-zh-00030",
+      "text": "】同意，【",
+      "reason": "短信服务同意选项的括号边界。"
+    },
+    {
+      "id": "A21410-zh-00031",
+      "text": "】不同意）",
+      "reason": "原文为“동의 안 함”，应明确为不同意。"
+    },
+    {
+      "id": "A21410-zh-00032",
+      "text": "手机短信服务相关注意事项",
+      "reason": "“유의사항”是注意事项。"
+    },
+    {
+      "id": "A21410-zh-00033",
+      "text": "电话号码变更时，应立即告知保护观察官；收到的各类信息由本人负责管理，并应注意不得因手机转交他人或管理疏忽而泄露已发送的短信信息。",
+      "reason": "原译遗漏短信发送信息被泄露的具体风险，并将保护观察官误作缓刑监督官。"
+    },
+    {
+      "id": "A21410-zh-00034",
+      "text": "我已获悉上述内容。",
+      "reason": "原译应与告知确认句对应。"
+    },
+    {
+      "id": "A21410-zh-00035",
+      "text": "对象人：",
+      "reason": "该字段是对象人签署栏，不是治疗对象的主题。"
+    },
+    {
+      "id": "A21410-zh-00036",
+      "text": "（签名或盖章）",
+      "reason": "“서명 또는 인”应译签名或盖章。"
+    },
+    {
+      "id": "A21410-zh-00037",
+      "text": "治疗令事实的公开范围",
+      "reason": "“귀하의 치료명령 사실이 공개된 범위”是治疗令事实公开范围。"
+    },
+    {
+      "id": "A21410-zh-00044",
+      "text": "亲属",
+      "reason": "“친인척”应译亲属，不是相关序列。"
+    },
+    {
+      "id": "A21410-zh-00045",
+      "text": "邮件收件地址",
+      "reason": "“우편물 수령지”应译邮件收件地址。"
+    },
+    {
+      "id": "A21410-zh-00046",
+      "text": "居民登记簿上的地址",
+      "reason": "该选项应与登记簿地址对应。"
+    },
+    {
+      "id": "A21410-zh-00047",
+      "text": "居住地址",
+      "reason": "该选项对应现居住地址。"
+    },
+    {
+      "id": "A21410-zh-00048",
+      "text": "判决书（决定书）上的地址",
+      "reason": "原译“判决地址（决定）”不完整。"
+    },
+    {
+      "id": "A21410-zh-00049",
+      "text": "工作单位地址",
+      "reason": "“직장 주소”应译工作单位地址。"
+    },
+    {
+      "id": "A21410-zh-00050",
+      "text": "其他地址",
+      "reason": "“그 밖의 주소”应译其他地址。"
+    },
+    {
+      "id": "A21410-zh-00052",
+      "text": "2. 职业（无业者请填写前职业后转至第3项）前职业：",
+      "reason": "原译“工作”应为职业。"
+    },
+    {
+      "id": "A21410-zh-00053",
+      "text": "职业：",
+      "reason": "“직업”应译职业，不是作业。"
+    },
+    {
+      "id": "A21410-zh-00054",
+      "text": "工作单位地址：",
+      "reason": "“직장 주소”应译工作单位地址。"
+    },
+    {
+      "id": "A21410-zh-00056",
+      "text": "工作单位名称：",
+      "reason": "“직장명”应译工作单位名称。"
+    },
+    {
+      "id": "A21410-zh-00057",
+      "text": "3. 罪名",
+      "reason": "“죄명”应译罪名，不是进攻。"
+    },
+    {
+      "id": "A21410-zh-00058",
+      "text": "犯罪类别",
+      "reason": "表格“사범”是犯罪类别/类型，不应误译为进攻类型。"
+    },
+    {
+      "id": "A21410-zh-00059",
+      "text": "罪名",
+      "reason": "“죄명”应译罪名。"
+    },
+    {
+      "id": "A21410-zh-00063",
+      "text": "工作形式：",
+      "reason": "“근무 형태”应译工作形式。"
+    },
+    {
+      "id": "A21410-zh-00066",
+      "text": "【】日班，【",
+      "reason": "“일근”应译日班，不是伊尔根。"
+    },
+    {
+      "id": "A21410-zh-00067",
+      "text": "】夜班，【",
+      "reason": "“야근”应译夜班。"
+    },
+    {
+      "id": "A21410-zh-00068",
+      "text": "】两班制，【",
+      "reason": "“2교대”应译两班制。"
+    },
+    {
+      "id": "A21410-zh-00069",
+      "text": "】三班制，【",
+      "reason": "“3교대”应译三班制。"
+    },
+    {
+      "id": "A21410-zh-00070",
+      "text": "】其他（",
+      "reason": "“기타”应译其他。"
+    },
+    {
+      "id": "A21410-zh-00071",
+      "text": "万元",
+      "reason": "“만원”是韩元的万单位，不是人民币元。"
     }
   ],
-  "note": "Korean and available English source reading complete. Chinese sequential review underway; 550 unique correction candidates retained. Not COMPLETE.",
+  "note": "Korean and available English source reading complete. Chinese sequential review underway; 595 unique correction candidates retained. Not COMPLETE.",
   "progress_marker": "2eda490d1a51"
 }
