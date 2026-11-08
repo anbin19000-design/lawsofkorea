@@ -1,0 +1,30 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "checked_rows": 4,
+  "checked_ids": [
+    "B3-zh-00010",
+    "B3-zh-00011",
+    "B3-zh-00012",
+    "B3-zh-00013"
+  ],
+  "edits": [
+    {
+      "id": "B3-zh-00010",
+      "text": "第六条（法令修订请求书等）\n① 依据施行令第五十八条之三第三款的法令修订请求书，使用附页第八号格式。\n② 依据施行令第五十八条之三第四款的法令修订请求确认书，使用附页第九号格式。\n③ 依据施行令第五十八条之三第七款的法令修订审查结果书，使用附页第十号格式。\n\n"
+    },
+    {
+      "id": "B3-zh-00013",
+      "text": "附则 <第894号，2021年10月6日>\n\n本规则自公布之日起施行。\n\n删除 <2021年7月12日>\n■ 《智慧城市建设及产业振兴等相关法律施行规则》〔附页第1号格式〕删除 <2021年7月12日>\n\n删除 <2021年7月12日>\n■ 《智慧城市建设及产业振兴等相关法律施行规则》〔附页第2号格式〕删除 <2021年7月12日>\n\n"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "note": "Direct comparison of B3-zh-00010–00013 with Korean B3 source. B3-00010 corrects form titles and references; B3-00013 removes unrelated A25465 form contents appended beyond the B3 source and translates deletion captions for forms 1 and 2. B3-00011/12 match Korean supplement dates and commencement. Previously saved R5 and B3-00006 edits preserved. Not a complete family review; no receipt."
+}
