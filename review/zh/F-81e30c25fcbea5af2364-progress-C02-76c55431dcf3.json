@@ -1,0 +1,97 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:76c55431dcf3",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "prior_master_blob_sha": "0f674aa428c0a37055b0e650b558d94f34ba1bb0",
+  "checkpoint_type": "VERIFIED_LEGAL_REFERENCE_TERMINOLOGY_AND_NUMBERING_CORRECTIONS",
+  "checked_ids": [
+    "B1-zh-00075",
+    "B1-zh-00092",
+    "B1-zh-00168",
+    "B2-zh-00004",
+    "B2-zh-00021"
+  ],
+  "checked_rows_new": 5,
+  "edits": [
+    {
+      "id": "B1-zh-00075",
+      "source_hash": "f30c40339b444620152d3884f4538a2e5d48ab357b824681a2be37de92071deb",
+      "target_id": "8515e9ecaf90b9246bb633a8e8241d940eea974edbfd7b47d6773b9f85d84158",
+      "text": "第53条之3（智能示范项目的示范期等）\n① 智慧示范项目的示范期为四年。如果相关法律法规（如许可条例）的修订工作在示范期届满前尚未完成，则可根据总统令的规定，在两年的期限内延长一次。\n② 根据第1款规定，希望延长示范期的智能示范经营者应当按照总统令的规定，在示范期届满前两个月向国土交通大臣提出申请。\n③ 智能示范项目运营方可在示范期结束前两个月内，附上监管例外申请结果和示范结果，请求国土交通部长和相关中央行政机关负责人修改有关许可等的法律法规。\n④ 相关中央行政机关负责人应当按照第三款的要求，审查修订有关许可证等法律法规的必要性，并将审查结果报告委员会。\n⑤ 有有关中央行政机关的负责人，根据第4款的审查结果，认为有必要修改有关许可证等的法律法规，应当立即着手修改该等法律法规。\n⑥ 中央行政机关负责人认定无需修订有关许可证等的法律法规，但国土交通部长认为有必要进行修订的，部长可以依据《行政法规框架法》第17条和第17条之2款的规定，根据该法第23条的规定，要求对法规进行修订或向法规改革委员会提交意见。\n⑦ 凡根据第5款规定开始修订有关许可等的法律法规（包括有关中央行政机关负责人根据第6款规定经监管改革委员会审查后开始修订此类法律法规的情况），国土交通大臣可根据第49条规定批准利用其他法律未明确禁止的智能创新技术或服务的智能创新项目。\n⑧ 尽管有第1款的规定，但如根据第3款提出请求，则演示期应视为延长至第4款至第6款规定程序所需的期限。\n⑨ 延长示威活动期限所需的其他事项，以及对法律法规（如许可证等）的修改请求，均由总统令规定。\n\n第9章 处罚 <修订于2019年11月26日>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-76c55431dcf3.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Restore Article 53-3 paragraph numbers ⑥,⑦,⑨ from Korean."
+    },
+    {
+      "id": "B1-zh-00092",
+      "source_hash": "73d6784798b3aec5571b1733ee6bf6261c1c36440003719ac99d2528ddfc6f80",
+      "target_id": "bddbb3709f0ddbe458ee5e23039ecb7aaf125050d967d864870d36220d7a3f32",
+      "text": "第六条（修改其他法律）①至⑤ 已省略\n\n  ⑥《普惠城市建设等法》部分修改如下。\n\n  在第2条第3款第(b)项中，“信息化促进框架法第2条第5款”应改为“国家信息化框架法第3条第13款”，“第5款第2项”应改为“第14款”。\n\n  在第 4 条第 3 款的后半部分，“根据《信息化促进框架法》第 5 条制定的《信息化促进基本计划》中包含的有关行政事务和地区信息化的部门计划”应改为“根据《国家信息化框架法》第 6 条制定的《国家信息化基本计划》中包含的有关行政事务和地区国家信息化的部门计划”。\n\n  省略⑦至⑫\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-76c55431dcf3.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Restore paragraph ⑥ in amendment provision."
+    },
+    {
+      "id": "B1-zh-00168",
+      "source_hash": "99a3696f5c77d4a606d93def068835c67ba1d9f80056e7b5a17b53be3aa5fdb3",
+      "target_id": "56ca3768b936885d968e24535c9749cc65ec0296fbaac7465f0dacdb8bbf3dea",
+      "text": "第七条（修改其他法律）①至⑥ 已省略\n\n  ⑦《智慧城市建设和产业促进法》部分修改如下。\n\n  在第二条第三款（b）项中，“《国家信息化框架法》第三条第十三款规定的高速信息通信网络和该条第十四款规定的宽带综合信息通信网络”应改为“《智能信息化框架法》第二条第九款规定的超连接智能信息通信网络”。\n\n  在第 4 条第 3 款的后半部分，“根据《国家信息化框架法》第 6 条制定的国家信息化基本计划”应改为“根据《智能信息化框架法》第 6 条制定的智能信息社会综合计划”，“区域国家信息化”应改为“区域智能信息化”。  \n\n  省略⑧至<20>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-76c55431dcf3.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Restore paragraph ⑦ in amendment provision."
+    },
+    {
+      "id": "B2-zh-00004",
+      "source_hash": "957ad6f381c4efecd5314d19b15f39e87969e0892dfa57cf6361554db1734388",
+      "target_id": "30262231b71a0e92c7c5baac92aafc896ec8385397bbcd7845fc54eecef93202",
+      "text": "第二条（智慧城市服务）《智慧城市建设及产业促进法》（以下简称“本法”）第二条第二款所称“总统令规定的服务”，是指提供下列信息中的一项或两项以上信息并以关联方式提供的服务。<2013年3月23日修订；2017年9月19日修订>\n1. 行政\n2.运输\n3. 健康·医疗·福利\n4. 环境·能源·水资源\n5. 犯罪预防与灾害预防\n6. 设施管理\n7. 教育\n8. 文化·旅游·体育\n9. 物流\n10. 劳动·就业\n11. 住宅\n12. 国土交通大臣会同相关中央行政机关负责人协商后指定的其他领域，旨在提升城市竞争力，改善人民生活质量。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-76c55431dcf3.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Decree Article 2 administrative information wrongly translated as management and housing (주거) as shell."
+    },
+    {
+      "id": "B2-zh-00021",
+      "source_hash": "006111e9385c5f445cfb59ee58ed17063f396c20c42b1ccb3cbf9993c440f4e6",
+      "target_id": "94e67c8a4cb1221624cd58c0d0e32dd6fe048c2ff9c0ea9be1c44c69a81e198b",
+      "text": "20。根据《机动车客运业务法》第四条第一款取得机动车客运业务许可证或登记的人员，以及根据该法第二十八条第一款登记的机动车租赁业务人员。\n21. 已根据《汽车管理法》第27条第1款取得自动驾驶车辆临时运营许可证的人员\n22. 根据《航空业务法》第2条第24款规定，超轻型航空器运营人\n23。根据《商法》，由本法第十二条第一款第一项至第五项所列人员中的两人或两人以上，以出资设立的公司，旨在实施智慧城市建设项目。\n⑤ 根据该法第十二条第一款第六项的规定，“符合总统令规定的公司”是指符合下列各款所有规定的公司。<2020年7月7日、2021年6月15日新增>\n1. 必须是为了实施智慧城市建设项目而建立的\n2。共同投资的私人企业经营者必须是通过公开募股招募的。\n3. 属于本法第十二条第一款第一项至第三项规定的人员的出资比例之和，必须达到20%以上。\n⑥ 在本法第十二条第三款第六项中，“总统令规定的项目实施者”是指下列各款所列的项目实施者。<2017年9月19日新增；2020年7月7日修订>\n1. 根据《空间信息产业促进法》第2条第4款规定经营空间信息业务的经营者\n2. 根据《信息通信网络利用及信息保护促进法》第二条第三款规定，信息通信服务提供商。\n3. 根据《位置信息保护和使用法》第5条规定，位置信息业务经营者。\n⑦ 根据第5款第2项规定，私营企业经营者公开招标的标准、程序和方法等必要事项，由国土交通大臣确定并公布。<2020年7月7日新增>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-76c55431dcf3.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Decree's Article 12 cross-reference refers to Smart City Act, not Commercial Act; restore paragraph ⑥."
+    }
+  ],
+  "ordered_reading_certification": {
+    "ko": false,
+    "en": false,
+    "zh": false
+  },
+  "english_sources": {
+    "available_parent_official_fallback": [
+      "B1",
+      "B2"
+    ],
+    "no_document_english": [
+      "B3",
+      "A25465",
+      "A25466",
+      "A25467",
+      "A25468",
+      "A25469",
+      "A25470",
+      "A25471",
+      "A25472",
+      "A25473",
+      "A25474"
+    ],
+    "coverage_note": "712/1133 rows have reference English in prior index, 421 do not. Parent fallback not exact Korean version."
+  },
+  "notes": "Five directly Korean-evidenced Chinese corrections, existing correct text retained. Korean/English full sequential semantic reading not certified, so do not complete."
+}
