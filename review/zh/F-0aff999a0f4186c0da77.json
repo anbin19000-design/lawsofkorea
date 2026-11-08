@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 188,
+    "correction_count": 212,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -1341,6 +1341,174 @@
       "original": "B. 合同期限、续签、延期、终止和取消合同的详细信息",
       "corrected": "바. 合同期限、续签、延期、终止和取消合同的详细信息",
       "reason": "계약기간·계약갱신·해지 바목 번호 오류."
+    },
+    "A34909-zh-00269": {
+      "doc": "A34909",
+      "source_hash": "17d1f1335d00a0eeac4a801ea5d35c6255192af4f1b10471611db89a709d5047",
+      "original": "指定声音。",
+      "corrected": "应明确注明。",
+      "reason": "명시한다를 ‘음성 지정’으로 오역한 중대한 잔존 MT 오류."
+    },
+    "A34909-zh-00270": {
+      "doc": "A34909",
+      "source_hash": "35bc160e0b390b16bc4d050cbd40b7d4c493f086d32a9cd54c1bf8e282f1649e",
+      "original": "公司。特许经营经营权的回购、转让、继承和代理行使，竞业禁止，营业时间限制，特许人",
+      "corrected": "사.特许经营经营权的回购、转让、继承和代理行使，竞业禁止，营业时间限制，特许人",
+      "reason": "가맹점운영권 환매·양도·상속 사목 번호 오류."
+    },
+    "A34909-zh-00276": {
+      "doc": "A34909",
+      "source_hash": "0a5a1d8c3b5f58f2a975cf6d2ba3d1f71c87de860f221542314e40f925dd6a94",
+      "original": "5) 建议加盟商雇用的员工人数与加盟商在营业场所直接雇用的员工人数",
+      "corrected": "5) 建议加盟店经营者雇用的员工人数，以及加盟店经营者本人是否必须直接在营业场所",
+      "reason": "가맹점사업자가 직접 영업장에서 근무해야 하는지를 직접 고용 직원 수로 잘못 번역."
+    },
+    "A34909-zh-00277": {
+      "doc": "A34909",
+      "source_hash": "a2c50b3fb690bead201904c58a7e4f593d58180d5b5e767fd16de486e75b7c8d",
+      "original": "是否在",
+      "corrected": "工作",
+      "reason": "직접 근무 여부 문장이 행 분할로 오역되어 앞 행과 연결해 복구."
+    },
+    "A34909-zh-00279": {
+      "doc": "A34909",
+      "source_hash": "fc87b6d019d75d4c3363be9c25e20732e5329816a9b8287d2eacb3b15b844146",
+      "original": "A. 广告和促销活动",
+      "corrected": "아. 广告和促销活动",
+      "reason": "광고·판촉 활동 아목 번호 오류."
+    },
+    "A34909-zh-00286": {
+      "doc": "A34909",
+      "source_hash": "9e01fdd1a8570d260638591b99e94ebf6ad808a6f46fc31e01ce00c8fe4c7e7c",
+      "original": "。有关相关特许经营业务的商业秘密保护等内容（由于特许经营商未披露",
+      "corrected": "자.有关相关特许经营业务的商业秘密保护等内容（由于特许经营商未披露",
+      "reason": "영업비밀 보호 자목 번호 오류."
+    },
+    "A34909-zh-00288": {
+      "doc": "A34909",
+      "source_hash": "1b01f82926f80807cfc1910f38e87a543e365f4dc35be726f286e0c6cf2ae9b6",
+      "original": "D. 关于因违反特许经营协议而造成的损害赔偿事宜",
+      "corrected": "차. 关于因违反特许经营协议而造成的损害赔偿事宜",
+      "reason": "가맹계약 위반 손해배상 차목 번호 오류."
+    },
+    "A34909-zh-00290": {
+      "doc": "A34909",
+      "source_hash": "d90bda65352ac0938c2449d12a00c6d093fe59db5791f3d44ea5199bd8cec810",
+      "original": "a. 从签订特许经营协议到开始特许经营业务的咨询和谈判过程所需程序（si）",
+      "corrected": "가. 从签订特许经营协议到开始特许经营业务的咨询和谈判过程所需程序",
+      "reason": "영업개시 절차 가목 번호 및 잔존 비문 제거."
+    },
+    "A34909-zh-00292": {
+      "doc": "A34909",
+      "source_hash": "d0efd3874da65d72a0ae59148788c3c5e16259add282debb1ece441b728b82f6",
+      "original": "B. 每项操作的持续时间（说明持续时间可能会延长及其原因，但要准确）",
+      "corrected": "나. 每项操作的持续时间（说明持续时间可能会延长及其原因，但要准确）",
+      "reason": "영업개시 절차 나목 번호 오류."
+    },
+    "A34909-zh-00295": {
+      "doc": "A34909",
+      "source_hash": "f5de19b1ddbae482b774a3ef826411e925543994684a37455328b278cb7c1d78",
+      "original": "。每项手术产生的费用（请分别列出每项手术的费用，但如果无法计算确切费用，则见",
+      "corrected": "다.每项程序产生的费用（请分别列出每项手术的费用，但如果无法计算确切费用，则见",
+      "reason": "영업개시 절차 다목 번호가 유실되고 ‘절차’를 ‘수술’로 오역함."
+    },
+    "A34909-zh-00297": {
+      "doc": "A34909",
+      "source_hash": "930e564a397cc5a1df4faf54632ae335e008b51db89bb2acfd98c1e2cb438256",
+      "original": "D. 特许经营协议订立后可能出现的争议解决程序",
+      "corrected": "라. 特许经营协议订立后可能出现的争议解决程序",
+      "reason": "계약 체결 후 분쟁 해결 라목 번호 오류."
+    },
+    "A34909-zh-00300": {
+      "doc": "A34909",
+      "source_hash": "5ac6f9e8c0725aa8cb24b5685a1c4591fba7522a575d7d9eff71195d995da8b0",
+      "original": "a. 关于特许经营商对加盟商改善门店环境的财务支持事项（《特许经营法》第12条第2款）",
+      "corrected": "가. 关于特许经营商对加盟商改善门店环境的财务支持事项（《特许经营法》第12条第2款）",
+      "reason": "가맹본부 지원 가목 번호 오류."
+    },
+    "A34909-zh-00303": {
+      "doc": "A34909",
+      "source_hash": "a0bd64d580824822497e822369e79a79504d6ff1c7f552fafd7ca40402b093d6",
+      "original": "B. 特许经营商在促销活动期间提供的具体支持详情，例如人员支持",
+      "corrected": "나. 特许经营商在促销活动期间提供的具体支持详情，例如人员支持",
+      "reason": "판촉행사 지원 나목 번호 오류."
+    },
+    "A34909-zh-00304": {
+      "doc": "A34909",
+      "source_hash": "5e7319c17cf429ce7c1cd79fb4b0f9dabb8ed7f22aaedd45877229a46cc42c33",
+      "original": ". 特许人就加盟商的业务活动提供建议的具体方法和内容",
+      "corrected": "다. 特许人就加盟商的业务活动提供建议的具体方法和内容",
+      "reason": "경영활동 자문 다목 번호 유실 오류."
+    },
+    "A34909-zh-00305": {
+      "doc": "A34909",
+      "source_hash": "bc74bad2ab87f30c3038dc909e368666e62250a3b0d1db10daa83f9f2695b6d9",
+      "original": "d. 如果特许人直接向潜在加盟商或现有加盟商提供信贷，或者特许人的特殊",
+      "corrected": "라. 如果特许人直接向潜在加盟商或现有加盟商提供信贷，或者特许人的特殊",
+      "reason": "신용제공·주선 라목 번호 오류."
+    },
+    "A34909-zh-00311": {
+      "doc": "A34909",
+      "source_hash": "226de6c2829fa136c68bf3adb8a97aab24cee14568988f9b31a03cf16dec08b3",
+      "original": "E. 特许经营商运营管理支持系统，以确保加盟商店铺的稳定运营",
+      "corrected": "마. 特许经营商运营管理支持系统，以确保加盟商店铺的稳定运营",
+      "reason": "경영상 지원제도 마목 번호 오류."
+    },
+    "A34909-zh-00314": {
+      "doc": "A34909",
+      "source_hash": "19c0a07e6562ee676656254adc906a3f039cf2f4f83ec6b08fbab9b4b548b7aa",
+      "original": "a. 教育培训的主要内容（区分小组讲座和实践培训）及其是否必要",
+      "corrected": "가. 教育培训的主要内容（区分小组讲座和实践培训）及其是否必要",
+      "reason": "교육훈련 가목 번호 오류."
+    },
+    "A34909-zh-00315": {
+      "doc": "A34909",
+      "source_hash": "32523a5912259725a1a5b8af18684f95709e05174921c76799a9896dff58924d",
+      "original": "B. 向加盟商提供的最低教育和培训时长",
+      "corrected": "나. 向加盟商提供的最低教育和培训时长",
+      "reason": "교육훈련 최소시간 나목 번호 오류."
+    },
+    "A34909-zh-00316": {
+      "doc": "A34909",
+      "source_hash": "683b7d2c1c559f6da22c9e58fcdf8c593500858f3e91e2ef18d729be25e55742",
+      "original": "。加盟商承担的教育和培训费用。",
+      "corrected": "다.加盟商承担的教育和培训费用。",
+      "reason": "교육훈련 비용 다목 번호 유실."
+    },
+    "A34909-zh-00317": {
+      "doc": "A34909",
+      "source_hash": "940df706e5e2b439eae045ab16ae892ebf132d9e7211c861766577869655c23f",
+      "original": "d. 需要接受教育和培训的人员（由加盟商指定的代表也需接受教育和培训）",
+      "corrected": "라. 需要接受教育和培训的人员（由加盟商指定的代表也需接受教育和培训）",
+      "reason": "교육훈련 대상 라목 번호 오류."
+    },
+    "A34909-zh-00319": {
+      "doc": "A34909",
+      "source_hash": "c6a93d84f6b6b700b4bee905bd9c6c072599c38e0b2e8e0406fde47c6a335894",
+      "original": "E. 如果加盟商未能参加定期和强制性的教育和培训，则该加盟商将失去特许经营权。",
+      "corrected": "마. 如果加盟商未能参加定期和强制性的教育和培训，则该加盟商将失去特许经营权。",
+      "reason": "교육훈련 불참 불이익 마목 번호 오류."
+    },
+    "A34909-zh-00322": {
+      "doc": "A34909",
+      "source_hash": "3090a72fc6f28e0825a104416c6daa57ed3344a26bad17c7bf1f738b9c392036",
+      "original": "A. 截至上季度末，所有公司自营门店的名称、地址和开业日期",
+      "corrected": "가. 截至上季度末，所有公司自营门店的名称、地址和开业日期",
+      "reason": "직영점 현황 가목 번호 오류."
+    },
+    "A34909-zh-00323": {
+      "doc": "A34909",
+      "source_hash": "0b601ad2b27f54704b4c082043e6eef3ce4abd5366fa66b7fa50b204046a7959",
+      "original": "B. 截至上一个财政年度末，所有公司自营门店的平均营业期间（自各公司自营门店开始营业之日起计算）",
+      "corrected": "나. 截至上一个财政年度末，所有公司自营门店的平均营业期间（自各公司自营门店开始营业之日起计算）",
+      "reason": "직영점 현황 나목 번호 오류."
+    },
+    "A34909-zh-00326": {
+      "doc": "A34909",
+      "source_hash": "9275c179ed1e2df8611e4e79650b3beb847436952cd12743036651334b211a00",
+      "original": "。截至上一财政年度末，所有直属门店的年平均销售额（计算年平均销售额",
+      "corrected": "다.截至上一财政年度末，所有直属门店的年平均销售额（计算年平均销售额",
+      "reason": "직영점 평균매출액 다목 번호 유실."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -1398,7 +1566,8 @@
     "C05 00d89ac6886f continuation: A34909 rows 58-101 matched against full Korean Annex 1 heading sequence; 14 displaced/mistranslated Korean item labels restored. Not a complete semantic audit.",
     "C05 00d89ac6886f: A34909 rows 102-154: corrected telephone label, lost legal subitems, sales ratio and 1/3/5/10 year continuity range against Korean Annex 1; preserved previous edits.",
     "C05 00d89ac6886f continued: A34909 rows 155-210 inspected against Korean appendix; nine confirmed subitem and siting-selection errors corrected. IN_PROGRESS.",
-    "C05 00d89ac6886f: A34909 rows 211-260 checked; repaired annex subsection markers, omitted online/offline ratio clause and mistranslated non-establishment of competing outlets. Whole-family semantic review remains IN_PROGRESS."
+    "C05 00d89ac6886f: A34909 rows 211-260 checked; repaired annex subsection markers, omitted online/offline ratio clause and mistranslated non-establishment of competing outlets. Whole-family semantic review remains IN_PROGRESS.",
+    "C05 00d89ac6886f: A34909 rows 261-328 reviewed against full Korean source, repaired 24 confirmed legal subitem label and substantive mistranslation errors (employee count versus owner working requirement, procedure mistranslated as surgery). Whole family audit remains incomplete."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -1407,5 +1576,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 188
+  "corrected_rows": 212
 }
