@@ -1,0 +1,130 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-b5c27d20d49b721e47e6",
+  "worker": "C05",
+  "status": "IN_PROGRESS",
+  "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
+  "source_blobs": {
+    "ko": "24ddd78e32a748b7d1c1ce01fef19d036494b9e9",
+    "en": "3d130788df10274ded6103c1fa81654c977eec5c",
+    "zh": "66ea4d0981f8e1a76348309f8254051d4914f693"
+  },
+  "checked_rows": 10,
+  "checked_ids": [
+    "A28946-zh-00004",
+    "A5223-zh-00008",
+    "A5226-zh-00007",
+    "A5226-zh-00035",
+    "A5228-zh-00005",
+    "A5229-zh-00006",
+    "A5230-zh-00006",
+    "A5232-zh-00006",
+    "A5232-zh-00035",
+    "A5233-zh-00006"
+  ],
+  "decisions": [
+    {
+      "id": "A28946-zh-00004",
+      "source_hash": "d8ba487317ac4e370c544ff11fee92077c5dfe235d14d8d93e213e278685f7be",
+      "decision": "CORRECT",
+      "basis": "한국어 별표·서식의 표제 셀과 대조해 MTQ 오염 제거; 원래 의미 보존"
+    },
+    {
+      "id": "A5223-zh-00008",
+      "source_hash": "416c4e81901f4f4e35f757d11eb31191afb7dbb7d77db1dfd9f604fa4c65e72a",
+      "decision": "CORRECT",
+      "basis": "한국어 별표·서식의 표제 셀과 대조해 MTQ 오염 제거; 원래 의미 보존"
+    },
+    {
+      "id": "A5226-zh-00007",
+      "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
+      "decision": "CORRECT",
+      "basis": "한국어 별표·서식의 표제 셀과 대조해 MTQ 오염 제거; 원래 의미 보존"
+    },
+    {
+      "id": "A5226-zh-00035",
+      "source_hash": "048fa93dacd02d4cd89311ebd3db05eb590c127eee40d9299fe90580327ef038",
+      "decision": "CORRECT",
+      "basis": "한국어 별표·서식의 표제 셀과 대조해 MTQ 오염 제거; 원래 의미 보존"
+    },
+    {
+      "id": "A5228-zh-00005",
+      "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
+      "decision": "CORRECT",
+      "basis": "한국어 별표·서식의 표제 셀과 대조해 MTQ 오염 제거; 원래 의미 보존"
+    },
+    {
+      "id": "A5229-zh-00006",
+      "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
+      "decision": "CORRECT",
+      "basis": "한국어 별표·서식의 표제 셀과 대조해 MTQ 오염 제거; 원래 의미 보존"
+    },
+    {
+      "id": "A5230-zh-00006",
+      "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
+      "decision": "CORRECT",
+      "basis": "한국어 별표·서식의 표제 셀과 대조해 MTQ 오염 제거; 원래 의미 보존"
+    },
+    {
+      "id": "A5232-zh-00006",
+      "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
+      "decision": "CORRECT",
+      "basis": "한국어 별표·서식의 표제 셀과 대조해 MTQ 오염 제거; 원래 의미 보존"
+    },
+    {
+      "id": "A5232-zh-00035",
+      "source_hash": "416c4e81901f4f4e35f757d11eb31191afb7dbb7d77db1dfd9f604fa4c65e72a",
+      "decision": "CORRECT",
+      "basis": "한국어 별표·서식의 표제 셀과 대조해 MTQ 오염 제거; 원래 의미 보존"
+    },
+    {
+      "id": "A5233-zh-00006",
+      "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
+      "decision": "CORRECT",
+      "basis": "한국어 별표·서식의 표제 셀과 대조해 MTQ 오염 제거; 원래 의미 보존"
+    }
+  ],
+  "edits": [
+    {
+      "id": "A28946-zh-00004",
+      "text": "分类"
+    },
+    {
+      "id": "A5223-zh-00008",
+      "text": "入住定员"
+    },
+    {
+      "id": "A5226-zh-00007",
+      "text": "办理期限"
+    },
+    {
+      "id": "A5226-zh-00035",
+      "text": "证书签发"
+    },
+    {
+      "id": "A5228-zh-00005",
+      "text": "办理期限"
+    },
+    {
+      "id": "A5229-zh-00006",
+      "text": "办理期限"
+    },
+    {
+      "id": "A5230-zh-00006",
+      "text": "办理期限"
+    },
+    {
+      "id": "A5232-zh-00006",
+      "text": "办理期限"
+    },
+    {
+      "id": "A5232-zh-00035",
+      "text": "入住定员"
+    },
+    {
+      "id": "A5233-zh-00006",
+      "text": "办理期限"
+    }
+  ],
+  "note": "Confirmed only isolated heading cells contaminated by MTQ; append-only checkpoint, no final receipt."
+}
