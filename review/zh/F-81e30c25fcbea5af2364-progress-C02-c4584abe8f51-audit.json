@@ -1,0 +1,40 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:c4584abe8f51",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "checkpoint_type": "NON_DUPLICATING_SOURCE_AND_PREVIOUS_EVIDENCE_AUDIT",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "family_document_count": 17,
+  "zh_source_rows": 1133,
+  "english_index_coverage": {
+    "rows_with_english": 712,
+    "rows_without_english": 421,
+    "notes": "Fallback source-version English is not guaranteed an exact translation of present Korean version; no-document English forms require Korean-only controlling comparison."
+  },
+  "audited_evidence": [
+    {
+      "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3858c44d97d7.json",
+      "disposition": "A25470 1-38 already documented; latest note points to 39 onward"
+    },
+    {
+      "path": "status/delivery/progress-S2-ae8f8a85c5ace955ac8120fa9a6c7730-C02-A25470-00019-00043-R97.json",
+      "disposition": "A25470 39-43 already checked; duplicate review avoided"
+    },
+    {
+      "path": "status/delivery/progress-S2-ae8f8a85c5ace955ac8120fa9a6c7730-C02-A25471-00005-00034-R92.json",
+      "disposition": "A25471 5-34 including corrections already checked; duplicate review avoided"
+    }
+  ],
+  "checked_rows_new": 0,
+  "edits": [],
+  "next_action": "Reconcile A25472-A25474 and remaining 17-document unique row IDs with all stored review/zh and status/delivery progress evidence; then read any unverified Korean/English/Chinese material sequentially and only then publish a complete integrated review and receipt.",
+  "note": "Audit checkpoint only. Not evidence of complete ordered reading or complete semantic comparison. Do not mark COMPLETE. No original/previous edit/row ID/hash changed."
+}
