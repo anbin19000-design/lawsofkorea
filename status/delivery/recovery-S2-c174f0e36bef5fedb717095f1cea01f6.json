@@ -31,7 +31,20 @@
   },
   "assistant_count": 11,
   "assistant_excerpt": "C01 복구 회차 1 — 중간 저장 확인\n중간 검수 파일 저장·재조회 성공\n\nJob ID: F-7423351d4946866bbacf\n\n정지 원인: 이전 회차의 중간 응답 종료. GitHub 권한 거절이나 저장 실패는 확인되지 않았습니다.\n\n검수 체크포인트\n\n31 / 1,207행\n\n확정 교정 20개 행\n\n전체 완료율 2.6%\n\n저장 경로: review/zh/F-7423351d4946866bbacf.json\n\n새 커밋: 9ee8f2d45a1b6689c40965b3f6a3e542654ef276\n\n검수 파일 SHA: d8c7d54244058de48845fa35618d43c3346d3375\n\n저장 상태: IN_PROGRESS — 완료 아님\n\n영수증: 미발행\n\n주요 교정에는 벌칙 조문의 미번역 내용, 시행령의 다른 법령 개정 조문, 별표의 MTQ·START 표식, 서식 6개의 처리기간이 포함됩니다.\n\n원본 16개 문서와 1,207개 행의 ID를 보존했으며, 운영 DB는 변경하지 않았습니다.\n\n다음 검수 위치\n\n다음 미확정 행: B1-zh-00001\n\n문서: 수산물 유통의 관리 및 지원에 관한 법률 본문\n\n남은 교정 확정 대상: 기저장 20개 행을 제외한 1,187개 행\n\n추가 검토 사항: 제2조 정의의 법률 인용, 제10조 위판장 개설 요건, 별표의 연결 문장\n\n검수 파일을 재조회하여 20개 교정 행 ID의 유일성과 저장 상태를 확인했습니다. 다만 checked_rows=31은 검토 체크포인트이지, 1,207개 전체의 완료를 의미하지 않습니다.\n\nC01 상태: IN_PROGRESS\n전체 검수가 끝나기 전에는 영수증을 생성하거나 다음 법령으로 전환하지 않습니다.",
+  "attempted_at": "2026-11-08T06:42:43.620420+00:00",
   "created_at": "2026-11-08T06:42:37.982636+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-c174f0e36bef5fedb717095f1cea01f6",
+    "attempted_at": "2026-11-08T06:42:43.620420+00:00",
+    "claim_commit": "d19d17d979a2e73f60d51b452827122501ee4dd5",
+    "event_id": "obs-e0499b048a283ee2614406828eafe1bd36727899",
+    "job_id": "F-7423351d4946866bbacf",
+    "record_path": "status/delivery/recovery-S2-c174f0e36bef5fedb717095f1cea01f6.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C01"
+  },
   "episode": 2,
   "event_id": "obs-e0499b048a283ee2614406828eafe1bd36727899",
   "idle_followup": true,
@@ -107,7 +120,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-51efd79a0ce4da9eb92bed48]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "3a26a3104408c90c234abc6369d9bb29ff114212",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6af017db-65d8-83ec-9c45-ff08e769f61d",
   "worker": "C01"
 }
