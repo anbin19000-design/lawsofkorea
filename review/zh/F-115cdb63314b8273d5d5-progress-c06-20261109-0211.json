@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 3690,
+    "verified_zh_rows": 3815,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 3690,
-      "checked_rows": 3690,
+      "next_row_zero_based": 3815,
+      "checked_rows": 3815,
       "total_rows": 5228
     }
   },
@@ -5491,9 +5491,297 @@
       "text": "⑬数量（规格）",
       "original_text": "⑬数量（规格）",
       "reason": "수량(규격) 항목 표기를 유지·정돈"
+    },
+    {
+      "id": "A4687-zh-00917",
+      "text": "⑨设施长度",
+      "original_text": "⑨设施扩展",
+      "reason": "시설 연장을 시설 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00918",
+      "text": "⑩形式",
+      "original_text": "⑩格式",
+      "reason": "형식을 파일格式로 오역"
+    },
+    {
+      "id": "A4687-zh-00919",
+      "text": "⑪坡度",
+      "original_text": "⑪倾斜",
+      "reason": "경사를 일반 기울임으로 축약"
+    },
+    {
+      "id": "A4687-zh-00920",
+      "text": "⑫附属设施",
+      "original_text": "⑫辅助设施",
+      "reason": "부속시설을 일반 보조시설로 오역"
+    },
+    {
+      "id": "A4687-zh-00921",
+      "text": "⑬减速设施",
+      "original_text": "⑬减速装置",
+      "reason": "감속시설을 감속장치로 축소"
+    },
+    {
+      "id": "A4687-zh-00924",
+      "text": "⑦地点",
+      "original_text": "⑦分支",
+      "reason": "지점을 분기로 오역"
+    },
+    {
+      "id": "A4687-zh-00926",
+      "text": "6-8. 减速丘",
+      "original_text": "6-8. 减速带",
+      "reason": "과속방지턱의 도로시설 명칭을 정확히 표기"
+    },
+    {
+      "id": "A4687-zh-00930",
+      "text": "④路段",
+      "original_text": "④部分",
+      "reason": "구간을 단순 부분으로 축소"
+    },
+    {
+      "id": "A4687-zh-00934",
+      "text": "⑨宽度",
+      "original_text": "标准",
+      "reason": "폭 항목을 표준으로 오역"
+    },
+    {
+      "id": "A4687-zh-00939",
+      "text": "⑦地点",
+      "original_text": "⑦分支",
+      "reason": "지점을 분기로 오역"
+    },
+    {
+      "id": "A4687-zh-00940",
+      "text": "⑧方向",
+      "original_text": "⑧方向",
+      "reason": "방향 항목을 유지"
+    },
+    {
+      "id": "A4687-zh-00941",
+      "text": "⑨宽度",
+      "original_text": "⑨宽度",
+      "reason": "폭 항목을 유지"
+    },
+    {
+      "id": "A4687-zh-00942",
+      "text": "⑩长度",
+      "original_text": "⑩长度",
+      "reason": "길이 항목을 유지"
+    },
+    {
+      "id": "A4687-zh-00943",
+      "text": "⑪高度",
+      "original_text": "⑪高度",
+      "reason": "높이 항목을 유지"
+    },
+    {
+      "id": "A4687-zh-00944",
+      "text": "6-9. 疲劳驾驶休息区",
+      "original_text": "6-9. 疲劳驾驶员休息区",
+      "reason": "졸음쉼터를 운전자 대상 휴게시설로 간결하게 정리"
+    },
+    {
+      "id": "A4687-zh-00952",
+      "text": "停车设施（车位数）",
+      "original_text": "停车设施（车位数量）",
+      "reason": "주차시설의 면수를 주차면 수로 명확히 표현"
+    },
+    {
+      "id": "A4687-zh-00954",
+      "text": "⑭公交车站",
+      "original_text": "⑭总线",
+      "reason": "버스정류장을 컴퓨터 버스로 오역"
+    },
+    {
+      "id": "A4687-zh-00955",
+      "text": "⑮长度",
+      "original_text": "⑮扩展",
+      "reason": "연장을 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00956",
+      "text": "⑯安装日期",
+      "original_text": "？安装日期",
+      "reason": "불필요한 물음표 및 항 번호 누락"
+    },
+    {
+      "id": "A4687-zh-00957",
+      "text": "⑰备注",
+      "original_text": "？备注",
+      "reason": "불필요한 물음표 및 항 번호 누락"
+    },
+    {
+      "id": "A4687-zh-00959",
+      "text": "⑦起点",
+      "original_text": "7点",
+      "reason": "시점을 숫자 7로 오역"
+    },
+    {
+      "id": "A4687-zh-00960",
+      "text": "⑧终点",
+      "original_text": "⑧终端",
+      "reason": "종점을 단말로 오역"
+    },
+    {
+      "id": "A4687-zh-00962",
+      "text": "⑩小型车辆",
+      "original_text": "⑩小型",
+      "reason": "소형차 주차면의 대상 차량을 명확히 표현"
+    },
+    {
+      "id": "A4687-zh-00963",
+      "text": "⑪大型车辆",
+      "original_text": "⑪大型",
+      "reason": "대형차 주차면의 대상 차량을 명확히 표현"
+    },
+    {
+      "id": "A4687-zh-00964",
+      "text": "⑪卫生间",
+      "original_text": "⑪厕所",
+      "reason": "화장실 표기를 서식용어로 정돈"
+    },
+    {
+      "id": "A4687-zh-00965",
+      "text": "⑫长椅",
+      "original_text": "⑫工作台",
+      "reason": "벤치를 작업대로 오역"
+    },
+    {
+      "id": "A4687-zh-00966",
+      "text": "⑬其他设施",
+      "original_text": "⑬其他",
+      "reason": "그 밖의 시설을 구체적으로 표기"
+    },
+    {
+      "id": "A4687-zh-00969",
+      "text": "7-1. 实际长度",
+      "original_text": "7-1. 实际扩展",
+      "reason": "실연장을 실제 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00976",
+      "text": "⑥管理编号",
+      "original_text": "⑥管理",
+      "reason": "관리번호를 관리 행위로 축약"
+    },
+    {
+      "id": "A4687-zh-00978",
+      "text": "按组成设施分类的长度",
+      "original_text": "按组成设施划分的长度",
+      "reason": "구성시설별 연장 의미를 법령 문맥에 맞게 정돈"
+    },
+    {
+      "id": "A4687-zh-00979",
+      "text": "⑯备注",
+      "original_text": "？备注",
+      "reason": "불필요한 물음표 및 항 번호 누락"
+    },
+    {
+      "id": "A4687-zh-00981",
+      "text": "⑦起点",
+      "original_text": "⑦分支",
+      "reason": "지점을 분기로 오역"
+    },
+    {
+      "id": "A4687-zh-00982",
+      "text": "⑧终点",
+      "original_text": "⑧终端",
+      "reason": "종점을 단말로 오역"
+    },
+    {
+      "id": "A4687-zh-00983",
+      "text": "⑨总宽度",
+      "original_text": "⑨系列",
+      "reason": "계 폭원을 계열로 오역"
+    },
+    {
+      "id": "A4687-zh-00984",
+      "text": "⑩车行道宽度",
+      "original_text": "⑩车路",
+      "reason": "차도 폭을 차량 도로로 오역"
+    },
+    {
+      "id": "A4687-zh-00985",
+      "text": "⑪路肩（人行道）",
+      "original_text": "街道路肩（人行道）",
+      "reason": "길어깨(보도)의 용어를 정돈"
+    },
+    {
+      "id": "A4687-zh-00986",
+      "text": "⑬中央分隔带宽度",
+      "original_text": "⑬中央",
+      "reason": "중앙분리대 폭 항목의 의미 누락"
+    },
+    {
+      "id": "A4687-zh-00987",
+      "text": "⑭总长度",
+      "original_text": "⑭系列",
+      "reason": "총 연장을 계열로 오역"
+    },
+    {
+      "id": "A4687-zh-00988",
+      "text": "⑮道路长度",
+      "original_text": "⑮公路",
+      "reason": "도로 길이 항목의 번호·의미를 정돈"
+    },
+    {
+      "id": "A4687-zh-00989",
+      "text": "桥梁长度",
+      "original_text": "？隧道",
+      "reason": "교량을 터널로 오역"
+    },
+    {
+      "id": "A4687-zh-00990",
+      "text": "隧道长度",
+      "original_text": "？广场",
+      "reason": "터널을 광장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00991",
+      "text": "广场长度",
+      "original_text": "?其他",
+      "reason": "광장 항목이 기타로 혼동됨"
+    },
+    {
+      "id": "A4687-zh-00992",
+      "text": "其他设施长度",
+      "original_text": "分隔符",
+      "reason": "그 밖의 시설을 분리 기호로 오역"
+    },
+    {
+      "id": "A4687-zh-00997",
+      "text": "7-2. 道路区域",
+      "original_text": "7-2. 道路区域",
+      "reason": "도로구역 표제 유지"
+    },
+    {
+      "id": "A4687-zh-01004",
+      "text": "⑧地块编号",
+      "original_text": "⑧批号",
+      "reason": "지번을 배치번호로 오역"
+    },
+    {
+      "id": "A4687-zh-01005",
+      "text": "⑨土地类别",
+      "original_text": "⑨指定",
+      "reason": "지목을 지정으로 오역"
+    },
+    {
+      "id": "A4687-zh-01006",
+      "text": "⑫所有权类别",
+      "original_text": "⑫所有权分类",
+      "reason": "소유 구분 항목을 법률용어로 정돈"
+    },
+    {
+      "id": "A4687-zh-01010",
+      "text": "⑪剩余面积",
+      "original_text": "⑪剩余区域",
+      "reason": "잔여면적을 잔여 구역으로 오역"
     }
   ],
-  "note": "Sequential review advanced through row 3689, covering underground utilities, common utility tunnel, overload inspection/snow facilities, box culvert, ecological passage. Added 24 targeted corrections for joint utility duct terminology, buried depth, road start/end points, overload check title, box culvert, horizontal/vertical dimensions and ecological passage facility status. Previous 866 edits retained. Continue from row 3690. IN_PROGRESS.",
+  "note": "Sequential review advanced through row 3814, covering emergency braking facilities, speed humps, drowsy-driver rest areas and road register actual-length/road-zone tables. Added 48 targeted corrections for facility lengths/types/gradients, speed hump, rest area parking and bus-stop labels, actual road length, width breakdown and component lengths, lot number, land category and remaining area. Previous 890 edits retained. Continue from row 3815. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
