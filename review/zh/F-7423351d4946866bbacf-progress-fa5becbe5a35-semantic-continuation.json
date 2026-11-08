@@ -1,0 +1,79 @@
+{
+  "schema": "LAW_ZH_REVIEW_AUDIT_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "status": "IN_PROGRESS",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:fa5becbe5a35]",
+  "source_blobs": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "review_path": "review/zh/F-7423351d4946866bbacf.json",
+  "review_blob": "1b678b0ab226339b3685911ddd736c5d9ba9861e",
+  "source_documents": 16,
+  "source_rows": 1207,
+  "source_scope": {
+    "korean_document_keys": [
+      "B1",
+      "B2",
+      "A38090",
+      "A38091",
+      "B3",
+      "A23947",
+      "A23948",
+      "A23949",
+      "A23950",
+      "A23951",
+      "A23952",
+      "A23953",
+      "A23954",
+      "A23955",
+      "A23956",
+      "A23957"
+    ],
+    "english_exact_document_bodies": [
+      "documents/en/kr-012267-255833-en.json",
+      "documents/en/kr-012519-262091-en.json"
+    ],
+    "english_independent_missing_for": [
+      "B3",
+      "A23947",
+      "A23948",
+      "A23949",
+      "A23950",
+      "A23951",
+      "A23952",
+      "A23953",
+      "A23954",
+      "A23955",
+      "A23956",
+      "A23957"
+    ]
+  },
+  "corrections_before": 230,
+  "corrections_after": 232,
+  "verified_changes": [
+    {
+      "id": "B1-zh-00022",
+      "article": "18(1),18(4)",
+      "action": "restored consignment requirement; corrected prohibition on trades among intermediaries; disposal instead of processing of surplus fish"
+    },
+    {
+      "id": "B1-zh-00041",
+      "article": "36(1)1",
+      "action": "corrected fish box (어상자) mistranslated as fish cage (鱼笼)"
+    }
+  ],
+  "preserved_prior_edits": true,
+  "unresolved_xml_punctuation_ids": [
+    "A38090-zh-00012",
+    "A23947-zh-00010",
+    "A23948-zh-00013",
+    "A23948-zh-00019",
+    "A23951-zh-00017"
+  ],
+  "semantic_review_completed": false,
+  "completed_receipt_issued": false,
+  "next_action": "Continue full sequential manual semantic comparison, especially unmatched annex/form cells, until entire 1207-row legal family is verified; do not claim COMPLETE or accept next law before confirmed."
+}
