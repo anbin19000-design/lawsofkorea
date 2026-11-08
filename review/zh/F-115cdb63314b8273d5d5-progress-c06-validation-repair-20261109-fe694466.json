@@ -1,0 +1,36 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-115cdb63314b8273d5d5",
+  "worker": "C06",
+  "pc": "WORK-C",
+  "panel_id": "panel-06",
+  "status": "COMPLETE",
+  "phase": "SUPPLIER_VALIDATION_REPAIR_COMPLETE",
+  "source_commit": "9edde23de1ced67de890822d81f5dc165fabb013",
+  "source_blobs": {
+    "ko": "159cb5a14f8f5e07bea8f04a5437adbf4b15c6ba",
+    "en": "f29bd3277059d324e7bbe7a69b6b6b49ab69939f",
+    "zh": "de02d84d8491a7aa79491594587e28914944a33a"
+  },
+  "checked_rows": 5228,
+  "corrected_rows": 1558,
+  "canonical_review": {
+    "path": "review/zh/F-115cdb63314b8273d5d5.json",
+    "blob_sha": "f1fe54059c6503b1eeda6c5f67364931e6942069",
+    "status": "COMPLETE",
+    "empty_text_edits": 0
+  },
+  "receipt": {
+    "path": "receipts/F-115cdb63314b8273d5d5.json",
+    "blob_sha": "3d0c2ffb06c22a56cbb80686bbcccafc6c25afe0",
+    "status": "COMPLETE",
+    "review_blob_sha": "f1fe54059c6503b1eeda6c5f67364931e6942069"
+  },
+  "empty_edit_decisions": {
+    "path": "review/zh/F-115cdb63314b8273d5d5-empty-edit-decisions-C06-20261109-fe694466.json",
+    "blob_sha": "0feaca8d965b43a9f6fc0428c72fbf0a6a24f3ea",
+    "count": 88,
+    "status": "SOURCE_BOUND_DECISIONS_RECORDED"
+  },
+  "note": "Repaired supplier validation failure. The canonical review contains 1,558 unique nonblank corrections; 84 prior blank edits were source-bound deletion/no-op decisions and four additional split fragments in A28849 were adjudicated separately. All original row IDs, source hashes and neighbor links retained in the decision ledger. Corrected A28849 items 2 and 3 with complete Korean-source-backed Chinese wording. Canonical review, receipt and deletion ledger saved and read back. Source blobs unchanged. Do not move to another family until supplier accepts this corrected package."
+}
