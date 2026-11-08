@@ -1,0 +1,93 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "family_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "panel_id": "panel-02",
+  "pc": "WORK-C",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "task_marker": "WORK-TASK:C02:F-81e30c25fcbea5af2364:e33af5bbd71a",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "current_review": {
+    "path": "review/zh/F-81e30c25fcbea5af2364.json",
+    "blob_sha": "d1adda6fbff2310f5c17b1dd754fba8027574422",
+    "schema": "LAW_ZH_REVIEW_CUMULATIVE_V1",
+    "status": "IN_PROGRESS",
+    "edits": 315,
+    "checked_unique_ids": 337
+  },
+  "reading_checkpoint": {
+    "korean": {
+      "document": "B2",
+      "source_document_fetched": true,
+      "source_length_chars": 47665,
+      "complete_family_read": false
+    },
+    "english": {
+      "available_parent_fallback": "documents/en/kr-010846-270111-en.json",
+      "source_version": "270111",
+      "basis": "FAMILY_LATEST_FALLBACK",
+      "body_fetched": true,
+      "full_sequential_read": false,
+      "version_mismatch_note": "The fallback is not the exact Korean version 286647."
+    },
+    "chinese": {
+      "document": "B2",
+      "compared_ids": [
+        "B2-zh-00028",
+        "B2-zh-00030",
+        "B2-zh-00031",
+        "B2-zh-00033",
+        "B2-zh-00037",
+        "B2-zh-00038",
+        "B2-zh-00039",
+        "B2-zh-00041",
+        "B2-zh-00042",
+        "B2-zh-00044"
+      ],
+      "new_corrections": [
+        "B2-zh-00028",
+        "B2-zh-00030",
+        "B2-zh-00031"
+      ],
+      "checked_without_change": [
+        "B2-zh-00033",
+        "B2-zh-00037",
+        "B2-zh-00038",
+        "B2-zh-00039",
+        "B2-zh-00041",
+        "B2-zh-00042",
+        "B2-zh-00044"
+      ]
+    }
+  },
+  "corrections": [
+    {
+      "id": "B2-zh-00028",
+      "reason": "Preserve statutory actual-cost ceiling for infrastructure usage fees."
+    },
+    {
+      "id": "B2-zh-00030",
+      "reason": "Correct the current statutory title of the Broadcasting Media and Communications Commission chair."
+    },
+    {
+      "id": "B2-zh-00031",
+      "reason": "Correct legal citation from Article 4 paragraph 2 to Article 4 subparagraph 2."
+    }
+  ],
+  "english_coverage_note": "The index lists 712/1,133 row-level English references; 421 have no row-level English. B1 and B2 have official parent fallback, but it is a different version for B2; B3 and all A25465-A25474 have no indexed English documents.",
+  "ordered_reading_certification": {
+    "ko": false,
+    "en": false,
+    "zh": false
+  },
+  "completion_receipt_verified": false,
+  "next_action": "Continue from the statutory sequence in B2, compare remaining B2 rows against the Korean decree; then complete remaining annexes and forms. Read the Korean family in full before reading available English documents in full, then conduct the full Chinese sequential review. Preserve all earlier review decisions. Do not mark COMPLETE until all 17 documents/1,133 rows are covered and official review plus receipt are saved and re-read."
+}
