@@ -1,0 +1,59 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:864c49a5be1f",
+  "status": "IN_PROGRESS",
+  "phase": "ZH_SEMANTIC_REVIEW_CONTINUATION",
+  "document": "A39475",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_en_index_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "english_status": "FALLBACK_ENGLISH_AVAILABLE; prior decree version 246917 only, Korean current annex authoritative",
+  "checked_rows": 5,
+  "checked_ids": [
+    "A39475-zh-00002",
+    "A39475-zh-00003",
+    "A39475-zh-00004",
+    "A39475-zh-00030",
+    "A39475-zh-00044"
+  ],
+  "quality_passed_rows": 5,
+  "corrected_rows": 0,
+  "results": [
+    {
+      "id": "A39475-zh-00002",
+      "verdict": "PASS",
+      "reason": "Annex 2 title maps to 피해자권익보호기관 종사자의 자격 기준(제13조제2항 관련): personnel qualification standards and Article 13(2) reference are intact."
+    },
+    {
+      "id": "A39475-zh-00003",
+      "verdict": "PASS",
+      "reason": "Table left column 직종별 is rendered as occupational category (按职业); no legal category omitted."
+    },
+    {
+      "id": "A39475-zh-00004",
+      "verdict": "PASS",
+      "reason": "Table right column 자격 기준 corresponds to 资格标准."
+    },
+    {
+      "id": "A39475-zh-00030",
+      "verdict": "PASS",
+      "reason": "Second occupational class 팀장 corresponds to 团队负责人; structural numbering 2 retained."
+    },
+    {
+      "id": "A39475-zh-00044",
+      "verdict": "PASS",
+      "reason": "Third occupational class 팀원 corresponds to 团队成员; structural numbering 3 retained."
+    }
+  ],
+  "edits": [],
+  "preserve_existing_candidate_ids": true,
+  "prior_evidence_index": "status/delivery/reconcile-S2-8f70e317249155938a79444493d089b4-evidence-7e6b69412a765526.json",
+  "previous_review": "review/zh/F-0536890d62605f77ff0a-progress-C03-a770ee763b70-B3-minimal-legal-entity.json",
+  "protected_unresolved_ids": [
+    "A26697-zh-00008",
+    "A26699-zh-00053"
+  ],
+  "note": "Five Annex 2 column headings/qualification-class rows without recorded candidate edits verified; other cells have existing candidate corrections requiring consolidation. No full-family reading or COMPLETE claim."
+}
