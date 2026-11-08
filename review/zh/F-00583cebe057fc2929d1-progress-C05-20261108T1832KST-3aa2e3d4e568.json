@@ -1,0 +1,41 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "family": "실용신안법",
+  "worker": "C05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "previous_progress": "review/zh/F-00583cebe057fc2929d1-progress-C05-20261108T1806KST.json",
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "f1be6b7c77d517c9472c8366ac920e863a1aa75c",
+  "review_commit": "b8ecd2a87b324ea2b14cdfe5ae49903ddb12f326",
+  "review_total_rows": 1374,
+  "correction_count": 168,
+  "added": [
+    {
+      "id": "A29604-zh-00011",
+      "decision": "CORRECT",
+      "reason": "지식재산처장 오역"
+    },
+    {
+      "id": "A29604-zh-00036",
+      "decision": "CORRECT",
+      "reason": "3회 이상 표 오역"
+    }
+  ],
+  "skipped_duplicate": [
+    "A29604-zh-00021"
+  ],
+  "blockers": [
+    "ANNEX_ALIGNMENT_REQUIRED",
+    "SOURCE_MAPPING_REVIEW_REQUIRED",
+    "SOURCE_LEGIBILITY_REVIEW_REQUIRED",
+    "SOURCE_CONTENT_MISSING"
+  ],
+  "notes": "중간 저장. 기존 166개 교정 유지, 신규 2건 추가. 전체 완료 및 완료 영수증 미발행. 이전 진행 기록의 독해 단계 확인 없이 완료로 간주하지 않음."
+}
