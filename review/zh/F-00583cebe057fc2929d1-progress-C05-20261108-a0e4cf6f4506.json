@@ -1,0 +1,95 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "family": "실용신안법",
+  "worker": "C05",
+  "assignment": "[WORK-TASK:C05:F-00583cebe057fc2929d1:a0e4cf6f4506]",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "6743ef7e18c0a7e184964eb700bcad11104eb46d",
+  "review_commit": "04821371d1e00ff04e13833f9171334106cd25a0",
+  "previous_progress": "review/zh/F-00583cebe057fc2929d1-progress-C05-20261108-e869380ff933.json",
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "prior_corrections": 209,
+  "new_corrections": [
+    {
+      "id": "B2-zh-00016",
+      "source_hash": "4d3383f4bda984757011f8130d9c91598c60bcef9a66d69916248ab26276e624",
+      "decision": "CORRECT",
+      "reason": "韩文 출원ㆍ청구 指申请、请求并非权利要求；심판관 및 특허심판원장为审判官及专利审判院院长，非普通法官/审理上诉委员会。"
+    },
+    {
+      "id": "B2-zh-00017",
+      "source_hash": "7fde0d3bb3ee1138209dec6239745e77d5bbf1fe251a7096523bc8b8fbcf49b2",
+      "decision": "CORRECT",
+      "reason": "韩文 '우선심사' 为优先审查，不是优先权审查。"
+    },
+    {
+      "id": "B2-zh-00030",
+      "source_hash": "3095cc8ae365c8b76ce74f66b9fa68bede9ee0765d39aeee52c34a7dc2321090",
+      "decision": "CORRECT",
+      "reason": "우선심사는 优先审查, 不是优先权审查；避免误指巴黎公约优先权。"
+    }
+  ],
+  "correction_count": 212,
+  "prior_pending_rows": 89,
+  "english_note": "B1/B2 official exact-version; B3/forms only 2010 fallback, not exact current version; decree also has AI draft.",
+  "unresolved": [
+    {
+      "id": "B2-zh-00081",
+      "status": "SOURCE_MAPPING_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A29604",
+      "status": "ANNEX_ALIGNMENT_REQUIRED"
+    },
+    {
+      "id": "B3-zh-00117",
+      "status": "SOURCE_MAPPING_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8690",
+      "status": "FORM_ALIGNMENT_REQUIRED"
+    },
+    {
+      "id": "A8693",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8698",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8699",
+      "status": "SOURCE_CONTENT_MISSING"
+    },
+    {
+      "id": "A8703",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8708",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8709",
+      "status": "SOURCE_CONTENT_MISSING"
+    },
+    {
+      "id": "A8690-zh-00499",
+      "status": "SOURCE_TEXT_FRAGMENT_REVIEW_REQUIRED"
+    }
+  ],
+  "reading_status": "FULL_KO_EN_ZH_SEQUENTIAL_READING_NOT_VERIFIED",
+  "completion_receipt": null,
+  "notes": "한국어 시행령 제9조 및 부칙의 우선심사 명칭/심판관/청구 개념 3건 최소교정; 기존 교정과 원문 SHA 보존. 전체 다국어 순차 독해·미해결 원문 대응 검증 불충족으로 완료 처리 금지."
+}
