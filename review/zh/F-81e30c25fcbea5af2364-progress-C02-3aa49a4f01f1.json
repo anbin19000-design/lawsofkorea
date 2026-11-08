@@ -45,13 +45,13 @@
     ],
     "previous_edit_texts_preserved": true,
     "pending_high_complexity": [
-      "APPENDIX_A36425_A36427_RECORD_INTEGRITY_RECHECK",
-      "TEN_FORMS_FULL_ROW_REVIEW",
-      "PENDING_SINGLE_CANDIDATES_343_REVIEW",
-      "B2_00117_CROSS_REFERENCE_RECHECK_COMPLETE_BUT_FINAL_VERIFICATION_PENDING"
+      "PENDING_SOURCE_BACKED_UNEDITED_CANDIDATES_136",
+      "ALL_1133_ROWS_FINAL_SEMANTIC_CERTIFICATION",
+      "ANNEX4_PENALTY_TABLE_LAYOUT_AND_NUMERIC_VALIDATION",
+      "FORM_SUBSTANTIVE_CLAUSE_VERIFICATION"
     ],
     "current_phase": "ALL_DOCUMENTS_INITIAL_READ_AND_CORRECTIONS_RECHECK_UNRESOLVED",
-    "corrected_this_task_count": 110,
+    "corrected_this_task_count": 175,
     "corrected_this_task_ids": [
       "B2-zh-00008",
       "B2-zh-00189",
@@ -153,12 +153,19 @@
       "docs": 17,
       "verified_family_complete": false,
       "limitations": "Cumulative 467 edits include historical work; full all-row semantic certification and pending candidates unresolved."
+    },
+    "audit": {
+      "source_rows": 1133,
+      "unique_edited_ids": 532,
+      "unmatched_or_wrong_source_hash": 0,
+      "unresolved_historical_candidate_count": 136,
+      "historical_candidates_not_removed": true
     }
   },
   "cumulative_review": {
     "path": "review/zh/F-81e30c25fcbea5af2364.json",
-    "sha": "79b6d720a371c7c7b11d270c512f36cf626cb3a9",
-    "edit_count": 467
+    "sha": "f0eedd75f211f5b8a5b4e9887dee70aa10e808f2",
+    "edit_count": 532
   },
   "ordered_reading_certification": {
     "ko": true,
@@ -166,5 +173,5 @@
     "zh": false
   },
   "completion_receipt_verified": false,
-  "next_action": "Continue exact verification of pending candidate decisions and source-aligned table/fee/form contents; only set COMPLETE and receipt once all 17 documents and 1133 rows are certified."
+  "next_action": "Continue manual review of unresolved historical candidates against corresponding exact Korean paragraphs, audit 4 annex tables and form conditions, certify complete 1133 rows before any receipt."
 }
