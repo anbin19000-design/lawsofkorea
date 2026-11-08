@@ -1,0 +1,48 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "status": "IN_PROGRESS",
+  "checked_rows": 3,
+  "corrected_rows": 3,
+  "edits": [
+    {
+      "id": "A23954-zh-00005",
+      "text": "姓名（团体或组织名称）："
+    },
+    {
+      "id": "A23955-zh-00008",
+      "text": "姓名（团体名称）"
+    },
+    {
+      "id": "A23956-zh-00008",
+      "text": "姓名（团体名称）"
+    }
+  ],
+  "judgments": [
+    {
+      "id": "A23954-zh-00005",
+      "decision": "EDIT",
+      "source_hash": "d95ee47d7c86a917a22fa2b2cabda698742cdc0362e382c96f257801c79676c7",
+      "basis": "서식 원문 성명(단체/조직명)의 미번역 Name 표기 보완"
+    },
+    {
+      "id": "A23955-zh-00008",
+      "decision": "EDIT",
+      "source_hash": "5c9a9fc0b9ffd8373baca4869e4e88c2c9cd4fc4f50563443fa9a0776611120e",
+      "basis": "서식 원문 성명(단체/조직명)의 미번역 Name 표기 보완"
+    },
+    {
+      "id": "A23956-zh-00008",
+      "decision": "EDIT",
+      "source_hash": "5c9a9fc0b9ffd8373baca4869e4e88c2c9cd4fc4f50563443fa9a0776611120e",
+      "basis": "서식 원문 성명(단체/조직명)의 미번역 Name 표기 보완"
+    }
+  ],
+  "source_sha": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c",
+    "en": "32423453da2fcfa466c97946520181a32643e289"
+  },
+  "note": "Rechecked original blobs and absent target path following one unrelated branch conflict. Korean forms basis."
+}
