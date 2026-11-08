@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 314,
+    "correction_count": 322,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -2223,6 +2223,62 @@
       "original": "3. 存款机构负责人应将因存款特许经营费的存入及其管理而产生的费用作为管理费收取，该管理费应由存款特许经营费的接收方收取。",
       "corrected": "3. 存款机构负责人可将因特许经营费存入及管理产生的费用作为管理手续费，从特许经营费收款人应收取的金额中扣除。",
       "reason": "한국어 별지 제4호의2·제5호서식 원문 대조: 신청 절차, 조문 인용, 예치 수수료 공제 권한과 신청 의사표시의 명백한 오류 교정."
+    },
+    "A34923-zh-00016": {
+      "doc": "A34923",
+      "source_hash": "fc6857b17530fdebae2fb6293262effcf03a8cafd4e38eabe5aa5a0df20d6a01",
+      "original": "《特许经营业务公平交易法》第6条第5款第1项及该法实施令第5条",
+      "corrected": "依据《特许经营业务公平交易法》第6条之五第1款正文及该法实施令第5条之九",
+      "reason": "별지 제6·7호서식 한국어 원문에 따라 예치금 지급·반환의 근거 조문, 수수료 공제 및 동의 주체의 명백한 오역 교정."
+    },
+    "A34923-zh-00017": {
+      "doc": "A34923",
+      "source_hash": "3cf991e587529d4105a9ab5bb98c6cd04c3e8e5e2c0b7e0091663672582ed46f",
+      "original": "兹证明，已按照上述第4条和第5条的规定缴纳特许经营费。",
+      "corrected": "第4款、第5款，兹证明上述特许经营费已存入托管机构。",
+      "reason": "별지 제6·7호서식 한국어 원문에 따라 예치금 지급·반환의 근거 조문, 수수료 공제 및 동의 주체의 명백한 오역 교정."
+    },
+    "A34923-zh-00026": {
+      "doc": "A34923",
+      "source_hash": "5b5f167a367f51e0c8bedcdd20c30ae0ba785ac6087d668767eec22b85894593",
+      "original": "3. 存款机构负责人应承担因特许经营费存入及其管理而产生的费用，作为管理费，特许经营费接收方应收到的金额为",
+      "corrected": "3. 存款机构负责人可将因特许经营费的存入及管理而产生的费用作为管理手续费，从特许经营费收款人应收取的金额中扣除。",
+      "reason": "별지 제6·7호서식 한국어 원문에 따라 예치금 지급·반환의 근거 조문, 수수료 공제 및 동의 주체의 명백한 오역 교정."
+    },
+    "A34923-zh-00033": {
+      "doc": "A34923",
+      "source_hash": "4f630e99741dc771d38194452abb9098f9bc08dfd78da4692b3cb47a5789b243",
+      "original": "。如果加盟商因发生退还加盟保证金的原因而向公平交易委员会举报特许人，则",
+      "corrected": "c. 加盟商因发生退还托管加盟费的事由而向公平交易委员会举报特许人的情形",
+      "reason": "별지 제6·7호서식 한국어 원문에 따라 예치금 지급·반환의 근거 조문, 수수료 공제 및 동의 주체의 명백한 오역 교정."
+    },
+    "A34924-zh-00027": {
+      "doc": "A34924",
+      "source_hash": "8fe8da7b6aa51b787f35d069b6cc95bcaeec4c703d20b71da6b3ab31ba3d12c9",
+      "original": "[ ] 特许经营商同意",
+      "corrected": "[ ] 特许经营总部同意",
+      "reason": "별지 제6·7호서식 한국어 원문에 따라 예치금 지급·반환의 근거 조문, 수수료 공제 및 동의 주체의 명백한 오역 교정."
+    },
+    "A34924-zh-00033": {
+      "doc": "A34924",
+      "source_hash": "e6af617fe9deb387b1643538fe815da1f7b161872cf66d8308b430782f2006a3",
+      "original": "《特许经营业务公平交易法》第6条第5款、第3、6、7项以及该法实施令第5条第10款",
+      "corrected": "依据《特许经营业务公平交易法》第6条之五第3款、第6款、第7款及该法实施令第5条之十",
+      "reason": "별지 제6·7호서식 한국어 원문에 따라 예치금 지급·반환의 근거 조문, 수수료 공제 및 동의 주체의 명백한 오역 교정."
+    },
+    "A34924-zh-00034": {
+      "doc": "A34924",
+      "source_hash": "d39097ec8955fd8283e6abdba56cf17e4d32180599de0cae4c4369ee5e96775d",
+      "original": "我请求按照上述第 1、3 和 4 款的规定支付（退还）保证金加盟费。",
+      "corrected": "第1款、第3款、第4款，现请求按上述内容支付（退还）已托管的特许经营费。",
+      "reason": "별지 제6·7호서식 한국어 원문에 따라 예치금 지급·반환의 근거 조문, 수수료 공제 및 동의 주체의 명백한 오역 교정."
+    },
+    "A34924-zh-00050": {
+      "doc": "A34924",
+      "source_hash": "81a6c1a9071a799978b9b558555ae70a40fccbe5f0c730d34bf2b4fbf69f9c58",
+      "original": "仅开始)",
+      "corrected": "仅适用于加盟商经特许经营总部同意提出请求的情形）",
+      "reason": "별지 제6·7호서식 한국어 원문에 따라 예치금 지급·반환의 근거 조문, 수수료 공제 및 동의 주체의 명백한 오역 교정."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -2290,7 +2346,8 @@
     "C05 f2c254040744 Annex5 further 6 distinct, source verified penalty schedule corrections. No final full row certification.",
     "C05 16f5d26f374d: Annex A34917 Korean source checked; 6 concrete wording/citation/form workflow corrections. No full-family semantic certification.",
     "C05 16f5d26f374d: continued annex A34918 and A34920 review; 8 source-grounded corrections. Chinese full semantic review remains incomplete.",
-    "C05 94852f90eda2: A34921/A34922 Korean-source comparison and 8 confirmed corrections. Full-family Chinese semantic certification still pending."
+    "C05 94852f90eda2: A34921/A34922 Korean-source comparison and 8 confirmed corrections. Full-family Chinese semantic certification still pending.",
+    "C05 94852f90eda2: A34923/A34924 source checked; 8 verified corrections; remaining family semantic QA pending."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -2299,5 +2356,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 314
+  "corrected_rows": 322
 }
