@@ -1,0 +1,225 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26701",
+  "quality_batch": "A26701-quality-04",
+  "range": {
+    "first": "A26701-zh-00076",
+    "last": "A26701-zh-00095"
+  },
+  "quality_checked_rows": 20,
+  "quality_passed_rows": 20,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "A26701-zh-00076",
+    "A26701-zh-00077",
+    "A26701-zh-00078",
+    "A26701-zh-00079",
+    "A26701-zh-00080",
+    "A26701-zh-00081",
+    "A26701-zh-00082",
+    "A26701-zh-00083",
+    "A26701-zh-00084",
+    "A26701-zh-00085",
+    "A26701-zh-00086",
+    "A26701-zh-00087",
+    "A26701-zh-00088",
+    "A26701-zh-00089",
+    "A26701-zh-00090",
+    "A26701-zh-00091",
+    "A26701-zh-00092",
+    "A26701-zh-00093",
+    "A26701-zh-00094",
+    "A26701-zh-00095"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26701-00001-00095.json",
+  "prior_quality_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26701-quality-03.json",
+  "results": [
+    {
+      "id": "A26701-zh-00076",
+      "source_hash": "ef1661bfe1d0b773aea1bc51daf1dfa70e9d997454acf123165fd7df67dc959c",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청인 동의서 서명·날인"
+    },
+    {
+      "id": "A26701-zh-00077",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청인 동의서 서명·날인"
+    },
+    {
+      "id": "A26701-zh-00078",
+      "source_hash": "2879222415672d201abfe3e634d8339e67e1459aae97a4f34b023760aaf0d94f",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청서 작성→접수→검토→결재→지정서 작성→발급 절차 및 분리된 작성 셀"
+    },
+    {
+      "id": "A26701-zh-00079",
+      "source_hash": "d756749ae151055bb3f2fb59a27fb00c3964fefb2a90809570b03e8c0189e1ab",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청서 작성→접수→검토→결재→지정서 작성→발급 절차 및 분리된 작성 셀"
+    },
+    {
+      "id": "A26701-zh-00080",
+      "source_hash": "d995d6ab415d91d191bafde064de400b1e66d82532d91ec0cc02d72258ce5cda",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청서 작성→접수→검토→결재→지정서 작성→발급 절차 및 분리된 작성 셀"
+    },
+    {
+      "id": "A26701-zh-00081",
+      "source_hash": "7e0e212667f735a4ed33b98de25a804c20bc29714b318cac041768909f463a7d",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청서 작성→접수→검토→결재→지정서 작성→발급 절차 및 분리된 작성 셀"
+    },
+    {
+      "id": "A26701-zh-00082",
+      "source_hash": "d47c78190a0cedf08a85d48403af80a5b2f63144351a5264cb2614eb90fe6341",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청서 작성→접수→검토→결재→지정서 작성→발급 절차 및 분리된 작성 셀"
+    },
+    {
+      "id": "A26701-zh-00083",
+      "source_hash": "021c5aafa7889683ed9497da4156ab07cee0df64a71291bb9942398856e3b8d1",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청서 작성→접수→검토→결재→지정서 작성→발급 절차 및 분리된 작성 셀"
+    },
+    {
+      "id": "A26701-zh-00084",
+      "source_hash": "fc0aec8efc9cf7434964f86433311e24f2998ef6e36c7e3904222fa29065b276",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청서 작성→접수→검토→결재→지정서 작성→발급 절차 및 분리된 작성 셀"
+    },
+    {
+      "id": "A26701-zh-00085",
+      "source_hash": "4f961469c457130737f277d3bf7109e25b7b49eeb89e618f98200b9f308ad3d3",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청서 작성→접수→검토→결재→지정서 작성→발급 절차 및 분리된 작성 셀"
+    },
+    {
+      "id": "A26701-zh-00086",
+      "source_hash": "ef1661bfe1d0b773aea1bc51daf1dfa70e9d997454acf123165fd7df67dc959c",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시·도 및 시·군·구 기관별 처리 흐름"
+    },
+    {
+      "id": "A26701-zh-00087",
+      "source_hash": "9396c10d93302dbba9312782ff942498dad6175d8204a0d88924939ea947eee9",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시·도 및 시·군·구 기관별 처리 흐름"
+    },
+    {
+      "id": "A26701-zh-00088",
+      "source_hash": "9396c10d93302dbba9312782ff942498dad6175d8204a0d88924939ea947eee9",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시·도 및 시·군·구 기관별 처리 흐름"
+    },
+    {
+      "id": "A26701-zh-00089",
+      "source_hash": "9396c10d93302dbba9312782ff942498dad6175d8204a0d88924939ea947eee9",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시·도 및 시·군·구 기관별 처리 흐름"
+    },
+    {
+      "id": "A26701-zh-00090",
+      "source_hash": "9396c10d93302dbba9312782ff942498dad6175d8204a0d88924939ea947eee9",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시·도 및 시·군·구 기관별 처리 흐름"
+    },
+    {
+      "id": "A26701-zh-00091",
+      "source_hash": "0248793fbf588e5a70331f74a4b2fb1b4b3b963a155976d13c5a8dbcc1200eab",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시·도 및 시·군·구 기관별 처리 흐름"
+    },
+    {
+      "id": "A26701-zh-00092",
+      "source_hash": "0248793fbf588e5a70331f74a4b2fb1b4b3b963a155976d13c5a8dbcc1200eab",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시·도 및 시·군·구 기관별 처리 흐름"
+    },
+    {
+      "id": "A26701-zh-00093",
+      "source_hash": "0248793fbf588e5a70331f74a4b2fb1b4b3b963a155976d13c5a8dbcc1200eab",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시·도 및 시·군·구 기관별 처리 흐름"
+    },
+    {
+      "id": "A26701-zh-00094",
+      "source_hash": "0248793fbf588e5a70331f74a4b2fb1b4b3b963a155976d13c5a8dbcc1200eab",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시·도 및 시·군·구 기관별 처리 흐름"
+    },
+    {
+      "id": "A26701-zh-00095",
+      "source_hash": "6a9fd2459313c78ed634682f52734f6a424348a2381255da601ab4f842ec71c4",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "210mm×297mm 백상지·중질지 80g/㎡"
+    }
+  ],
+  "edits": [],
+  "note": "A26701 76~95행 동의 서명, 처리 절차, 시·도 및 시·군·구 단계, A4 종이 규격 대조. A26701 전체 95행 중 첫 R1 선행 판정의 7번 처리기간 기록 포함해 품질 대조 완료. 전체 가족 COMPLETE 아님."
+}
