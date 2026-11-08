@@ -1,0 +1,259 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "status": "IN_PROGRESS",
+  "checked_rows": 33,
+  "checked_ids": [
+    "B1-zh-00021",
+    "B1-zh-00023",
+    "B1-zh-00024",
+    "B1-zh-00026",
+    "B1-zh-00030",
+    "B1-zh-00031",
+    "B1-zh-00032",
+    "B1-zh-00038",
+    "B1-zh-00039",
+    "B1-zh-00041",
+    "B1-zh-00043",
+    "B1-zh-00045",
+    "B1-zh-00047",
+    "B1-zh-00052",
+    "B1-zh-00054",
+    "B1-zh-00055",
+    "B1-zh-00062",
+    "B1-zh-00064",
+    "B1-zh-00066",
+    "B1-zh-00067",
+    "B1-zh-00076",
+    "B1-zh-00079",
+    "B1-zh-00080",
+    "B1-zh-00082",
+    "B1-zh-00086",
+    "B1-zh-00087",
+    "B1-zh-00089",
+    "B1-zh-00091",
+    "B1-zh-00093",
+    "B1-zh-00095",
+    "B1-zh-00097",
+    "B1-zh-00099",
+    "B1-zh-00101"
+  ],
+  "edits": [
+    {
+      "id": "B1-zh-00023",
+      "text": "第十七条（实施计划等审批的特别规定）\n① 项目实施者在根据其他法律实施项目时，如依据相关法律制定并取得包含第十四条所列实施计划内容的开发计划和实施计划的批准，则该实施计划视为已依据第十四条制定或批准。<2015年12月29日修订>\n② 项目实施者按照第一款规定通过项目竣工验收后，视为已按照第十六条规定通过竣工验收。\n\n",
+      "source_hash": "20babaaf6a1f99e9ed629adb3b23385cee6ade394c305687453d13fd65e4f128",
+      "reason": "한국어 준공검사를 받았을 때는 준공검사를 통과·완료한 경우를 뜻하며 준공검사 보고서 수령이 아님"
+    }
+  ],
+  "checked_details": [
+    {
+      "id": "B1-zh-00021",
+      "source_hash": "8ec1058dac442a964826f8a5232aa3838fe36f6d3e7e4ef952a23111b3410876",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00023",
+      "source_hash": "20babaaf6a1f99e9ed629adb3b23385cee6ade394c305687453d13fd65e4f128",
+      "verdict": "CORRECT_CLEAR_MISTRANSLATION",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00024",
+      "source_hash": "b7346b54da58698398da5fc7c9efe2f9a946569385367cd9f581c79ce7f56b15",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00026",
+      "source_hash": "4256b1e31dd44cf8b7a054cf869a6dc5efeb3cd2118dd1807aff58619f9dbd90",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00030",
+      "source_hash": "458eab8ce15a2207d576ec959c589ad184acf1e333b7ba6e7dae5d1eb446386f",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00031",
+      "source_hash": "ec903feae8ac803b3dc034f5f03194200356aec6d409b5bae6cf727dc198d649",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00032",
+      "source_hash": "544f59a719d7061bc78087546898a653b59e3b2f47eab51755a5696f308dcb2e",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00038",
+      "source_hash": "6295e9321bc859c3fa1cd43b80e7671c3ed295006b7d87788227483d29c063e2",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00039",
+      "source_hash": "5161de23f735477d31d6d92cdc33f4f0f48dba3578f0aa2f728f7a5dcd3a0f79",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00041",
+      "source_hash": "371944d8a4b0bf1c40dc688da08c1755ce14e32b2c4bad5aeb54d41436df1af7",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00043",
+      "source_hash": "e006a5d7aed26043c2c1aaa6bd6857a9c8cde05766672a861e528b58e6f303c7",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00045",
+      "source_hash": "e34c38de6b4e907e9c0ce0ab756015a37f4c205e1f1e96b6ecb17e595f601425",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00047",
+      "source_hash": "b8b0f0f91ca2ad71af6dc482b07db85b4a38fbb843e7009eb519a86ed4ddc85c",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00052",
+      "source_hash": "68a1f61b0a81c40919a87a0af19785c7ab021b50a0aaa4e52dd40e018d70c023",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00054",
+      "source_hash": "30341ab69a6eea15433369549318bbcabed7a7c7ac65905b616dc33ae51b15e7",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00055",
+      "source_hash": "372759c94770507f6f9f46f11e361318b3fca4c0fe18629df8bfbac8014d821b",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00062",
+      "source_hash": "a93080752d78ca46d48f4575803d29c36a4e56e42d382edd807bfec8f677435d",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00064",
+      "source_hash": "04541e501cf6dd47a39e9b09be6862823e6667e742f31a0369a5fc742eb805a3",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00066",
+      "source_hash": "c5cf654ad36a004e6974a19e5ab3dc40d56a20432ac1250f06c4d28656827e76",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00067",
+      "source_hash": "bd82bf58ff5a15a84ff3c8c6edafc13bb7eb824541c81aef88c488766ce3870f",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00076",
+      "source_hash": "987debecc7d4ebf8a7dbece63e9d96b945e26623594868d0972976fbf21c0288",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00079",
+      "source_hash": "2219085dd1b5d9a4dda70cae31f98d91b7c1305fa0b173e04b0346c0d4c03ffe",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00080",
+      "source_hash": "d6fd403479f78bed4ba082bc139219c3a8df5a39d70dadefe83daf7809e6be60",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00082",
+      "source_hash": "f5a3756e55aeb527ad7091fd9f346fc03c5f07d69b9f0884d65c834c2ffde34a",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00086",
+      "source_hash": "b42e87f220112ebc4804207b36dcb8d27b9ea25424f8bf540642067b5c2fc262",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00087",
+      "source_hash": "1fa2d78222cc5f3a7b268ba3015a524a8e57a9355a8b17e0ae4253566ef34323",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00089",
+      "source_hash": "bc28291f8a8368cab289540ec155c57b21b6d38387b73664ba08b936ee269006",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00091",
+      "source_hash": "7cf248d4f31ed01fd1a5e451e712038c243714a8ded715911e0ddb1647870a87",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00093",
+      "source_hash": "d09f0bf027445fd59687bbc043e112a369a0ea4231afb55cde2e72e071f90c65",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00095",
+      "source_hash": "71c76813af8f94ad589ca675388abcd7b11bc60b968d1c3f738eea331fd9f175",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00097",
+      "source_hash": "aa4cbf32b1f74b3c57859cde8f82c6660fa920d1f504d06acf61825048c3b8ac",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00099",
+      "source_hash": "08e6a780471dbb256670424e2a5abfe97e7a3d367e72a6f6fc8e3bd613574395",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    },
+    {
+      "id": "B1-zh-00101",
+      "source_hash": "b0a2f8baaefa661aa8c51a30216cb8d4988038b9219a65ce930bf6416c0027e0",
+      "verdict": "KEEP_EXISTING",
+      "english_row_reference": "NO_ROW_ENGLISH"
+    }
+  ],
+  "supersedes": [],
+  "note": "R101 following audit: checked only 33 B1 IDs missing explicit prior coverage; Korean source and Chinese line compared, English packet has NO_ROW_ENGLISH for all 33; one obvious mistranslation at B1-zh-00023 corrected minimally. Prior 123 files intact. 15 conflict IDs still require adjudication. Not COMPLETE."
+}
