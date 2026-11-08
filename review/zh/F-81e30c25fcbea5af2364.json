@@ -1334,9 +1334,17 @@
       "id": "A25466-zh-00054",
       "source_hash": "1a39b63ebc14d01a1a7860d16f50eb3fff12c03d13216dea0f40a1016c6a3298",
       "target_id": "XML:1802758",
-      "text": "（反映措施要求内容及相关计划）",
-      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-950203ea968c-final-conflict.json",
-      "verification": "C02_RECORDED_KOREAN_CROSSCELL_ADJUDICATION"
+      "text": "（措施要求内容",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-form4.json",
+      "verification": "C02_R104_KOREAN_CROSSCELL_ADJUDICATION",
+      "prior_text_versions": [
+        {
+          "task": "4e0b46ff6294",
+          "text": "（反映措施要求内容及相关计划）",
+          "reason": "Preserve current cumulative wording before restoring the R85/R104 selected split-cell boundary"
+        }
+      ],
+      "reason": "R104 explicitly selects the R85 prefix fragment; do not pre-include the later 'reflection' portion in this cell."
     },
     {
       "id": "A25466-zh-00056",
@@ -11402,12 +11410,13 @@
     "2026-11-08 C02 4e0b46ff6294 Annex 3: compared all 59 A36426 Chinese cells against the Korean original and prior R72/R75/R76 evidence. Added seven minimal official-term/name corrections in rows 6,11,15,23,37,58,59. Prior corrections and split-cell boundaries retained. Family remains IN_PROGRESS.",
     "2026-11-08 C02 4e0b46ff6294 Annex 4: compared all 128 A36427 cells against Korean source and existing prior edits. Added/updated 20 minimal corrections for statutory references, numbering and table continuation; preserved all previous amount, duration and split-cell corrections. Annex 4 complete at cell-comparison level; family remains IN_PROGRESS.",
     "2026-11-08 C02 4e0b46ff6294 B3: compared all 13 B3 rows against Korean source; corrected rows 11-12 부칙/시행 wording. Retained previous edits for articles 1-6 and the row 13 boundary split that prevents separate application forms from being duplicated into B3. English index has no direct B3 document. Family remains IN_PROGRESS.",
-    "2026-11-08 C02 4e0b46ff6294 Form A25465: compared all 70 cells with Korean Form 3 and reconciled R5/R80/R81/R82/R96. Added/updated rows 51,54,55 for term consistency and accurate flowchart note/addressee. Prior corrections and cell IDs/hashes retained. English index has no direct English row-level form source. Family remains IN_PROGRESS."
+    "2026-11-08 C02 4e0b46ff6294 Form A25465: compared all 70 cells with Korean Form 3 and reconciled R5/R80/R81/R82/R96. Added/updated rows 51,54,55 for term consistency and accurate flowchart note/addressee. Prior corrections and cell IDs/hashes retained. English index has no direct English row-level form source. Family remains IN_PROGRESS.",
+    "2026-11-08 C02 4e0b46ff6294 Form A25466: compared all 70 cells with Korean Form 4 and reconciled R5/R83/R84/R85/R86/R104. Restored row 54 to the exact R85/R104 selected prefix fragment to preserve cell boundaries; all other prior decisions retained. Family remains IN_PROGRESS."
   ],
   "integration_progress": {
-    "stage": "A25465_FORM3_ROWS_00001_00070_RECONCILED",
+    "stage": "A25466_FORM4_ROWS_00001_00070_RECONCILED",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:4e0b46ff6294",
-    "note": "Compared all 70 Chinese cells of Form 3 with the complete Korean original and reconciled prior R5/R80/R81/R82/R96 evidence. Preserved existing edits to checkbox instructions, statutory citations, required attachments, office titles, and flowchart steps. Corrected the smart-innovation term and the flowchart's measures-request/related-central-agency cells."
+    "note": "Compared all 70 A25466 cells with Korean Form 4 and reconciled R5/R83-R86/R104. Preserved all prior corrected labels, legal citations, application grounds, supporting-document text, process diagram, minister/agency names and page size. Restored row 54 to the R85/R104-selected prefix fragment '（措施要求内容' to prevent premature insertion of '反映' across the split-cell boundary."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -12253,7 +12262,41 @@
     "A25465-zh-00061",
     "A25465-zh-00062",
     "A25465-zh-00064",
-    "A25465-zh-00070"
+    "A25465-zh-00070",
+    "A25466-zh-00001",
+    "A25466-zh-00002",
+    "A25466-zh-00003",
+    "A25466-zh-00004",
+    "A25466-zh-00005",
+    "A25466-zh-00006",
+    "A25466-zh-00007",
+    "A25466-zh-00008",
+    "A25466-zh-00009",
+    "A25466-zh-00010",
+    "A25466-zh-00011",
+    "A25466-zh-00012",
+    "A25466-zh-00013",
+    "A25466-zh-00014",
+    "A25466-zh-00015",
+    "A25466-zh-00016",
+    "A25466-zh-00018",
+    "A25466-zh-00019",
+    "A25466-zh-00026",
+    "A25466-zh-00030",
+    "A25466-zh-00031",
+    "A25466-zh-00032",
+    "A25466-zh-00033",
+    "A25466-zh-00034",
+    "A25466-zh-00035",
+    "A25466-zh-00036",
+    "A25466-zh-00037",
+    "A25466-zh-00043",
+    "A25466-zh-00047",
+    "A25466-zh-00048",
+    "A25466-zh-00050",
+    "A25466-zh-00052",
+    "A25466-zh-00054",
+    "A25466-zh-00055"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
