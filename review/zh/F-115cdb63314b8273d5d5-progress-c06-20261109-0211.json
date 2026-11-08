@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 1020,
+    "verified_zh_rows": 1080,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 1020,
-      "checked_rows": 1020,
+      "next_row_zero_based": 1080,
+      "checked_rows": 1080,
       "total_rows": 5228
     }
   },
@@ -1213,9 +1213,33 @@
       "text": "地下锚固装置（地锚）、涵洞及其他类似物",
       "original_text": "球体，地下锚点",
       "reason": "지중정착장치(어스앵커) 및 암거를 부정확하게 번역"
+    },
+    {
+      "id": "A28847-zh-00090",
+      "text": "地下锚固装置（地锚）",
+      "original_text": "地下锚固装置(eo",
+      "reason": "地锚术语残留错误拉丁字符并未完整翻译"
+    },
+    {
+      "id": "A28847-zh-00097",
+      "text": "涵洞及其他类似物",
+      "original_text": "锚）​​，涵洞，该",
+      "reason": "地下埋设物项目名称的句段错位及残留错误字符"
+    },
+    {
+      "id": "A28847-zh-00098",
+      "text": "1米",
+      "original_text": "1 仪表",
+      "reason": "长度计量单位“1米”误译为仪表"
+    },
+    {
+      "id": "A28847-zh-00099",
+      "text": "",
+      "original_text": "之外，类似于",
+      "reason": "上一项目类别句段重复残留"
     }
   ],
-  "note": "Sequential Chinese review continued through original row 1019, reviewing the fee calculation table (Annex 3). Added seven focused corrections to regional tier labels (甲/乙/丙地), badly mistranslated first and second occupancy categories, underground anchor/culvert terminology, and decree/annex title. Previous 171 edits retained. Continue from row 1020. IN_PROGRESS.",
+  "note": "Sequential Chinese review continued through original row 1079 of Annex 3 fee calculation table. Added four focused corrections to underground anchor/culvert item text and the 1-meter unit, removing malformed fragments. Previous 177 edits retained. Continue from row 1080. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
