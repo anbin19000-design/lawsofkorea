@@ -1,0 +1,195 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A39474",
+  "quality_batch": "A39474-quality-02",
+  "range": {
+    "first": "A39474-zh-00013",
+    "last": "A39474-zh-00029"
+  },
+  "quality_checked_rows": 17,
+  "quality_passed_rows": 17,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "A39474-zh-00013",
+    "A39474-zh-00014",
+    "A39474-zh-00015",
+    "A39474-zh-00016",
+    "A39474-zh-00017",
+    "A39474-zh-00018",
+    "A39474-zh-00019",
+    "A39474-zh-00020",
+    "A39474-zh-00021",
+    "A39474-zh-00022",
+    "A39474-zh-00023",
+    "A39474-zh-00024",
+    "A39474-zh-00025",
+    "A39474-zh-00026",
+    "A39474-zh-00027",
+    "A39474-zh-00028",
+    "A39474-zh-00029"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39474-00013-00029.json",
+  "prior_quality_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39474-quality-01.json",
+  "results": [
+    {
+      "id": "A39474-zh-00013",
+      "source_hash": "84fe01069c3e04d39e22403364131b43593c2e1a15e3ec36e744fe1182548fe6",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "12행에서 연결된 조직·인사·급여·회계·물품 운영 규정의 제정·시행 의무를 확인함."
+    },
+    {
+      "id": "A39474-zh-00014",
+      "source_hash": "ee163387152a35e58879de739924ac31f622c77f222ac5349e2c636f7ff5e97e",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "장부 등 비치 소제목이 원문과 일치함."
+    },
+    {
+      "id": "A39474-zh-00015",
+      "source_hash": "090874927934147a63059ec1671b6cce3dc28493f209877f0fe35349e71ad7ec",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "다음 각 목의 장부 및 서류를 사무실에 비치해야 하는 의무가 보존됨."
+    },
+    {
+      "id": "A39474-zh-00016",
+      "source_hash": "eb23b3647c760bdade01280cb475227d1504e7166db4fddbd17314890b547095",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "중앙기관 연혁에 관한 기록부를 보존함."
+    },
+    {
+      "id": "A39474-zh-00017",
+      "source_hash": "5dda89d15ff90200f54e4578116939151e320525397d3bb10a83f40953b39d0c",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "재산목록 및 소유권·사용권 증명서류를 보존함."
+    },
+    {
+      "id": "A39474-zh-00018",
+      "source_hash": "887314459c48e910b074732efeb403954940d0c440a0d11827cf06cf548125e6",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "다. 운영일지의 항목 표지 및 명칭 교정을 확인함."
+    },
+    {
+      "id": "A39474-zh-00019",
+      "source_hash": "0310cc323d82d8eeb2ebcab742a750ef503cc534aa4b978107b557b6047df79b",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "기관장 및 직원의 인사카드를 보존함."
+    },
+    {
+      "id": "A39474-zh-00020",
+      "source_hash": "08483ea1eab10f5e7d449eed79466e02a7cff35b23fab1e5d38b3f85a141cb70",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "예산서 및 결산서를 보존함."
+    },
+    {
+      "id": "A39474-zh-00021",
+      "source_hash": "b3db18a2d5394227e7fa4bad0656db188ab900fb714c558e58141d8717628be2",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "총계정원장 및 수입·지출 보조장부의 구분을 보존함."
+    },
+    {
+      "id": "A39474-zh-00022",
+      "source_hash": "75a7e6885edf3b8fa6ba9bf2cc83a093bf8d841a4355d5a8551ccf3a5821669d",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "금전·물품 출납부와 증명서류의 의미를 보존함."
+    },
+    {
+      "id": "A39474-zh-00023",
+      "source_hash": "121402971d8af5db38e1d10c2e394290b4463dc452923b25f287f4b92f103cf6",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "보고서철 및 행정기관 송수신 문서철을 각각 보존함."
+    },
+    {
+      "id": "A39474-zh-00024",
+      "source_hash": "119318ee7dc6198a495b85b429698650664fb45a1f285894b2ff9a1bd9ace0bb",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법 제15조제1항제7호 신고접수 관련 기록·서류를 보존함."
+    },
+    {
+      "id": "A39474-zh-00025",
+      "source_hash": "16736e61038858fc333499b19e32ebf466bf8edbff1bdbde2cbafb3e6f685b10",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "회계 소제목을 보존함."
+    },
+    {
+      "id": "A39474-zh-00026",
+      "source_hash": "c0a84d093aa1a654efe6f7ea7d0011444f7db5baaee58442916ed251cd0a9381",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법인회계 또는 다른 사업 회계와 분리하는 의무가 27행과 연결되어 일치함."
+    },
+    {
+      "id": "A39474-zh-00027",
+      "source_hash": "c9b457e38ce7f628b203dbebaa4dea71dcb8cb58f3f3b815c3c9e657b9be3cc9",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "26행과 연결된 별도 회계 처리 의무를 보존함."
+    },
+    {
+      "id": "A39474-zh-00028",
+      "source_hash": "08ec2ec8704328ca36a6a536976c1366f59b42c05b6c40b572e79f886a87c419",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "국가·지방자치단체 보조금품 및 타기관 기부금품이 29행과 연결됨."
+    },
+    {
+      "id": "A39474-zh-00029",
+      "source_hash": "a2ab799895e48e921f464c23d4921107c02ad190d4c72c82b012ac8a3adc6d9e",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "28행과 연결되어 별도 계정 분리 회계 처리 의무를 보존함."
+    }
+  ],
+  "edits": [],
+  "note": "별표 1 13~29번의 이미 저장된 10개 교정문과 나머지 7개 행을 한국어 원문 및 인접 셀과 대조한 품질 기록. 기존 교정은 그대로 보존. 1136행 전체 COMPLETE 아님."
+}
