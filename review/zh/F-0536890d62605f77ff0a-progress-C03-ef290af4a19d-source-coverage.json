@@ -1,0 +1,92 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:ef290af4a19d",
+  "status": "IN_PROGRESS",
+  "phase": "KOREAN_FULL_SOURCE_INVENTORY_AND_ENGLISH_VERSION_VERIFICATION",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_en_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "canonical_review_blob_sha": "a65c3563594ddd1377a0e4e85643f61f8fbf6cef",
+  "korean_source": {
+    "documents": 22,
+    "total_source_characters": 131094,
+    "missing_document_bodies": 0,
+    "document_kinds": {
+      "law": 1,
+      "decree": 1,
+      "annex": 6,
+      "ordinance": 1,
+      "forms": 13
+    }
+  },
+  "english_source": {
+    "exact_version": [
+      {
+        "doc": "B1",
+        "path": "documents/en/kr-014071-276899-en.json",
+        "blob_sha": "d0d8afa349016e48889d936e4ed1c9454a7f4e07",
+        "source_version": "276899"
+      }
+    ],
+    "older_fallback": [
+      {
+        "docs": [
+          "B2",
+          "A39474",
+          "A39475",
+          "A39476",
+          "A39477",
+          "A39478",
+          "A39479"
+        ],
+        "path": "documents/en/kr-014371-246917-en.json",
+        "blob_sha": "f5abc9a132b8fc9ee5bba322f9fff5cd720ba2c1",
+        "source_version": "246917",
+        "current_korean_decree_version": "284943",
+        "note": "Do not use older English fallback to override current Korean wording."
+      }
+    ],
+    "no_document_english": [
+      "B3",
+      "A26693",
+      "A26694",
+      "A26695",
+      "A26696",
+      "A26697",
+      "A26698",
+      "A26699",
+      "A26700",
+      "A26701",
+      "A26702",
+      "A26703",
+      "A26704",
+      "A26705"
+    ],
+    "row_index_coverage": {
+      "total": 1136,
+      "english_reference": 1002,
+      "no_english_reference": 134
+    }
+  },
+  "previous_review": {
+    "edits_preserved": 782,
+    "unchanged_candidate_count": 14,
+    "unresolved_ids": [
+      "A26697-zh-00008",
+      "A26699-zh-00053",
+      "A39474-zh-00040"
+    ],
+    "previous_checkpoint": "review/zh/F-0536890d62605f77ff0a-progress-C03-b1a4cb5a5aae-source-layout-verification.json"
+  },
+  "checked_rows": 0,
+  "edits": [],
+  "verification": {
+    "full_korean_read": false,
+    "full_english_read": false,
+    "full_chinese_semantic_review": false,
+    "ready_for_complete": false
+  },
+  "next_action": "Read all 22 Korean source documents sequentially, then both English bodies, then verify effective Chinese text row-by-row. Preserve previous edits and source SHA, keep unresolved segmentation tokens held."
+}
