@@ -1,0 +1,137 @@
+{
+  "schema": "LAW_ZH_C02_CANDIDATE_ADJUDICATION_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "task_marker": "0e1edbb7e85b",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "scope": "Korean Act and Decree historical candidate decisions, preserve previously certified whole-family ordered reading and accepted legal corrections",
+  "decisions": [
+    {
+      "id": "B1-zh-00001",
+      "source_hash": "fa4aa60d3d11bd5f247bdfcd6ec545563c79c6486a0883dba7ac13aa998c143a",
+      "target_id": "afc47a11051ffcc1fdcceecf335db87eb01c344488fecb8403f414297b06ed5c",
+      "decision": "RETAIN_MASTER",
+      "reason": "Title quotes only; original Korean statute title retains same words and no quote requirement. Accepted version retained.",
+      "retained_text": "智慧城市建设及产业振兴等相关法律",
+      "rejected_historical_variant": "《智慧城市建设及产业振兴等相关法律》"
+    },
+    {
+      "id": "B1-zh-00023",
+      "source_hash": "20babaaf6a1f99e9ed629adb3b23385cee6ade394c305687453d13fd65e4f128",
+      "target_id": "372e24b3f790eec8ba52192add0d38f110a97a07cc2524156b508b1a53fa9d7b",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean Act Article 17(2) refers to project under paragraph 1 receiving completion inspection and deemed inspection under Article 16. Master explicitly preserves 준공검사 in both clauses.",
+      "retained_text": "第十七条（实施计划等审批的特别规定）\n① 项目实施者在根据其他法律实施项目时，如依据相关法律制定并取得包含第十四条所列实施计划内容的开发计划和实施计划的批准，则该实施计划视为已依据第十四条制定或批准。<2015年12月29日修订>\n② 项目实施者按照第1款规定的项目通过竣工检查时，视为已依据第16条通过竣工检查。\n\n",
+      "rejected_historical_variant": "第十七条（实施计划等审批的特别规定）\n① 项目实施者在根据其他法律实施项目时，如依据相关法律制定并取得包含第十四条所列实施计划内容的开发计划和实施计划的批准，则该实施计划视为已依据第十四条制定或批准。<2015年12月29日修订>\n② 项目实施者按照第一款规定通过项目竣工验收后，视为已按照第十六条规定通过竣工验收。\n\n"
+    },
+    {
+      "id": "B1-zh-00046",
+      "source_hash": "3ef26c1eee822b2d1040336191ae77ee44155d668927dc50819696ed2de3d41a",
+      "target_id": "8d317ea27396c6eb5bf42f5f65bdc672ac349029e4d1bb16017a5afd0ce67d44",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean Act Article 33 requires cancellation for false/illegal certification, otherwise permits cancellation. Both preserve conditions; retain existing accurate master.",
+      "retained_text": "第三十三条（认证的撤销）国土交通大臣可按照总统令规定，在根据第三十二条第一款取得认证者符合下列任一情形时撤销其认证。但符合第1项情形时，必须撤销该认证。\n1. 以虚假或其他不正当方法取得认证\n2. 不再符合第三十二条第二款规定的认证标准\n\n",
+      "rejected_historical_variant": "第三十三条（撤销认证）依第三十二条第一款取得认证的主体符合下列任一情形时，国土交通部长官可以依总统令规定撤销其认证。但符合第一号情形的，必须撤销认证。\n1. 通过虚假或其他不正当方法取得认证\n2. 不再符合第三十二条第二款规定的认证标准\n"
+    },
+    {
+      "id": "B1-zh-00056",
+      "source_hash": "a2329d2c00a5a5ad238bab8ccfc71af37fc0ed9d011f6036a19fb24c11ed733a",
+      "target_id": "9ef648450b3fa96ffe0c515ec6ec2fabd1cc345e297592a56baac85f48bef6e7",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean Act Article 39 refers to autonomous vehicle in national pilot city, danger limitation, and Road Traffic Act 49(1) items 10/11/11-2. Master preserves all references.",
+      "retained_text": "第三十九条（自动驾驶汽车运行的特别规定）在国家试点城市内，为研究开发目的运行《汽车管理法》第二条第1项之3所规定的自动驾驶汽车时，只要不对他人造成危害或引发交通危险，则不适用《道路交通法》第四十九条第一款第十项、第十一项及第十一项之二的规定。\n\n",
+      "rejected_historical_variant": "第三十九条（自动驾驶汽车运行的特例）为在国家示范城市内以研究、开发为目的运行《汽车管理法》第二条第一号之三规定的自动驾驶汽车，在不对他人造成危害或者产生交通危险的范围内，不适用《道路交通法》第四十九条第一款第十号、第十一号及第十一号之二。\n"
+    },
+    {
+      "id": "B1-zh-00059",
+      "source_hash": "95d72fcee1d2fd375352e2c15d31c849ce5c4b6cf6085c2f71424b3a973ce43c",
+      "target_id": "9cb6eef00b3d0f4b7ff084a7dbeeefa394d51f9e8ef0b0b476cfa5d5678f5b3a",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean Act Article 42 permits self-use telecommunications for nonprofit public service, with joint ministerial notice on usage procedures. Master accurately retains conditions and two authorities.",
+      "retained_text": "第四十二条（自用电信设备使用的特别规定）\n① 国家机关等依据《电信业务法》第二条第五项在国家试点城市安装自用电信设备的，尽管有该法第六十五条第一款的规定，仍可使用该自用电信设备提供第二条第二项所规定的智慧城市服务中的非营利性公共服务。\n② 自用电信设备的用途及使用程序所需事项，由科学技术信息通信部长官与国土交通部长官协商后共同公告。\n\n",
+      "rejected_historical_variant": "第四十二条（自用电气通信设备使用的特例）\n① 国家机关等在国家示范城市安装《电气通信事业法》第二条第五号规定的自用电气通信设备时，尽管有该法第六十五条第一款规定，仍可为提供第二条第二号规定的智慧城市服务中非营利目的的公共服务而使用该设备。\n② 第一款规定的自用电气通信设备用途及使用程序所需事项，由科学技术信息通信部长官与国土交通部长官协商后共同告示。\n"
+    },
+    {
+      "id": "B1-zh-00061",
+      "source_hash": "71cee6bb28b982927b1422c99ba2fcff63313b5f205d3f713f38ea6137476b42",
+      "target_id": "12c158e3da755628f0b68d3074710f7358c57e4d48506f1ea84f9ef200d8c1e3",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean Act Article 42-3 permits alternative garage/facility criteria for qualifying unmanned reservation/dispatch car rentals; master keeps statutory exception and condition.",
+      "retained_text": "第四十二条之三（汽车租赁业务的特别规定）在国家试点城市内，拟经营《客运汽车运输事业法》第二条第四项所规定的汽车租赁业务者，如具备国土交通部令规定的条件（例如无人预约、调度系统），国土交通部长官尽管有《客运汽车运输事业法》第二十九条的规定，仍可按照总统令规定，另行确定所需车库面积及营业所的标准。\n\n",
+      "rejected_historical_variant": "第四十二条之三（汽车租赁事业的特例）拟在国家示范城市经营《旅客汽车运输事业法》第二条第四号规定的汽车租赁事业的主体，具备国土交通部令规定的无人预约、配置系统等条件的，国土交通部长官可以不受《旅客汽车运输事业法》第二十九条限制，依总统令规定另行确定所持车库面积及营业所标准。\n"
+    },
+    {
+      "id": "B1-zh-00106",
+      "source_hash": "67cdfb906056aac1a7d107e56088a3e20b33493ee27621da0ee9a926b678ae46",
+      "target_id": "75369ebbfbf654c35213880610be994875d2eeaa18d27533a26dc29a4007baa8",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean supplementary statute #10331 date and name unchanged; candidate differs only in trailing line break.",
+      "retained_text": "附则（《山地管理法》）<第10331号法律，2010年5月31日>",
+      "rejected_historical_variant": "附则（《山地管理法》）<第10331号法律，2010年5月31日>\n\n"
+    },
+    {
+      "id": "B1-zh-00139",
+      "source_hash": "da6e288bfe716413f6a54e87fa0f0885db2236f9b043e6d9f028b265d1087b66",
+      "target_id": "6533059622b91aac421cebfe481c7d2c089b2add1e5cad244d858c69dc6b8aa3",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean supplementary statute #14532 date and name preserved; master adds clarifying 法律 without changing legal reference.",
+      "retained_text": "附则（《水环境保全法》）<第14532号法律，2017年1月17日>",
+      "rejected_historical_variant": "附则（《水环境保全法》）<第14532号，2017年1月17日>\n\n"
+    },
+    {
+      "id": "B1-zh-00166",
+      "source_hash": "e275dc526a0bf21b17a126aa62158bbeeb22f58cd4a63870d9589cb34eedc664",
+      "target_id": "ae5c5496bc9c3bb06d784e4933e6359bbc63a1814a460d83d58daf11c3d99f77",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean supplementary statute #17344 date and name preserved; master clarifies statute number as 法律.",
+      "retained_text": "附则（《智能信息化基本法》）<第17344号法律，2020年6月9日>",
+      "rejected_historical_variant": "附则（《智能信息化基本法》）<第17344号，2020年6月9日>\n\n"
+    },
+    {
+      "id": "B1-zh-00187",
+      "source_hash": "3d13a393b1729ca5c86c27fc18a3fec39180f9fbffd7ec360303a2bfddf8fa26",
+      "target_id": "e61f65fc02508cc49fc6364ce7b2916414cb58acc01b7e775a58bd1635a9d995",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean supplementary statute #20234 date and law name preserved; master clarifies statute number as 法律.",
+      "retained_text": "附则（《关于国土规划及利用的法律》）<第20234号法律，2024年2月6日>",
+      "rejected_historical_variant": "附则（《关于国土规划及利用的法律》）<第20234号，2024年2月6日>\n\n"
+    },
+    {
+      "id": "B2-zh-00012",
+      "source_hash": "bfcc248c673b5fd32364aa782d0c52b80cc6ae2d8a1797d129cef71e3dc85780",
+      "target_id": "9e942190980d4727334378fc8fb40070d4c887e22071d04c1a6b788203fc0e27",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean decree Article 9 requires advance announcement by 14 days, nationwide daily newspaper, official gazette and website, date/time/place, and allows submissions. Master preserves all requirements.",
+      "retained_text": "第九条（举行公开听证会）\n① 国土交通大臣如欲依本法第五条举行公开听证会，应至少提前十四日，在全国发行的至少一份日报、官方公报及官方网站上公布下列各款所述事项。<2013年3月23日修订>\n1. 举行公开听证会的目的\n2. 公开听证会的预定日期、时间和地点\n3. 拟议综合规划概述\n4. 关于意见陈述的事项\n5. 举行公开听证会所需的其他事项\n② 对综合规划草案内容有意见的市民或相关专家等，可以亲自出席公开听证会陈述意见，也可以将意见摘要以书面形式或通过信息通信网络提交国土交通大臣。<2013年3月23日修订>\n\n",
+      "rejected_historical_variant": "第九条（举行公开听证会）\n① 国土交通部长官依照法第五条举行公开听证会时，应当不迟于预定举行日期的十四日前，在发行范围覆盖全国的一家以上日报、官报及互联网主页上公告下列各号事项。<2013年3月23日修订>\n1. 举行公开听证会的目的\n2. 预定举行的日期、时间及地点\n3. 综合规划草案概要\n4. 有关发表意见的事项\n5. 举行公开听证会所需的其他事项\n② 对综合规划草案内容有意见的国民或有关专家等，可以出席公开听证会直接陈述意见，也可以通过书面或信息通信网络向国土交通部长官提交意见概要。<2013年3月23日修订>\n\n"
+    },
+    {
+      "id": "B2-zh-00017",
+      "source_hash": "ad50854d829c64f5fb3419eb497ac5136899451fcfee5f5037ade0e8860356ff",
+      "target_id": "7012ccd58a964bcd957d18d002827d9474bb10319a15539230bf9d9424c829d7",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean decree Article 14 sets private proposal project solicitation/evaluation and permitted cost supports; master preserves full five paragraphs and requirements.",
+      "retained_text": "第十四条（民间提案项目的公开征集及支持）\n① 本法第九条之二第一款第四项所称“总统令规定的事项”，是指智能创新技术或服务的实证或提供。<2020年2月25日新增>\n② 国土交通部长官及依据本法第八条制定智慧城市规划的人（以下简称“智慧城市规划制定权人”）拟根据本法第九条之二第一款公开征集项目提案时，应当在官方公报或地方公报上公告下列事项。<2020年2月25日修订>\n1. 公开征集日程\n2. 参加公开征集的资格及方法\n3. 项目评估程序及标准\n4. 项目提案书的编制方法及标准\n5. 公开征集项目所需的其他事项\n③ 国土交通部长官及智慧城市规划制定权人拟选定根据本法第九条之二第一款提出的项目（以下简称“民间提案项目”）时，应当考虑下列事项。<2020年2月25日修订>\n1. 项目内容的适当性\n2. 市民参与方案的具体性\n3. 各项目参与主体的职责及资金筹措方案的适当性\n4. 项目的可实现性及可持续性\n5. 项目的预期效果\n④ 国土交通部长官及智慧城市规划制定权人选定民间提案项目时，应当在官方公报或地方公报上公告该事实。<2020年2月25日修订>\n⑤ 国土交通部长官依据本法第九条之二第四款，可以支持推进下列各项业务所需费用的全部或一部分。<2020年2月25日修订>\n1. 为选定的民间提案项目制定项目计划\n2. 智慧城市技术及智慧城市服务的实证或提供\n3. 智能创新技术及服务的实证或提供\n\n",
+      "rejected_historical_variant": "第十四条（民间提案事业的公开征集及支持）\n① 法第九条之二第一款第四号所称“总统令规定的事项”，是指智慧创新技术、服务的实证或提供。<2020年2月25日新增>\n② 国土交通部长官及依据法第八条制定智慧城市规划的人（以下简称“智慧城市规划制定权人”）依照法第九条之二第一款公开征集事业提案时，应当在官报或公报中公告下列各号事项。<2020年2月25日修订>\n1. 征集日程\n2. 参加征集的资格及方法\n3. 事业评价程序及标准\n4. 事业提案书的编写方法及标准\n5. 其他公开征集事业所需事项\n③ 国土交通部长官及智慧城市规划制定权人拟选定依照法第九条之二第一款提出的事业（以下简称“民间提案事业”）时，应当考虑下列各号事项。<2020年2月25日修订>\n1. 事业内容的适当性\n2. 市民参与方案的具体性\n3. 各事业参与主体的职责及资金筹措方案的适当性\n4. 事业的可实现性及可持续性\n5. 事业预期效果\n④ 国土交通部长官及智慧城市规划制定权人选定民间提案事业时，应当在官报或公报中公告该事实。<2020年2月25日修订>\n⑤ 国土交通部长官依照法第九条之二第四款，可以支持开展下列各号业务所需费用的全部或一部分。<2020年2月25日修订>\n1. 为选定的民间提案事业制定事业计划\n2. 智慧城市技术及智慧城市服务的实证或提供\n3. 智慧创新技术、服务的实证或提供\n\n"
+    },
+    {
+      "id": "B2-zh-00025",
+      "source_hash": "93f1695901e515149920c0f54dd2a68c2d01c5fea9613a30c1912fd5544278cc",
+      "target_id": "2f2880bf42d00b39cbb353be42bf668c7f59669db1e5e05213e03e1e49b6600f",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean decree Article 21 requires completion report with three attachments, immediate inspection, optional delegation, facility authority attendance, and gazette notification with five listed items; master preserves these.",
+      "retained_text": "第二十一条（竣工检查）\n① 项目实施者（国家及地方自治团体除外）依据本法第十六条第一款申请竣工检查时，应当向本法第十四条第二款规定的实施计划批准权人（以下简称“实施计划批准权人”）提交工程完工报告，并附上下列文件及图纸。<2017年9月19日修订>\n1. 竣工记录（包括竣工设计文件及竣工照片）\n2. 本法第十八条规定的智慧城市基础设施归属记录及图纸\n3. 竣工检查所需的其他文件\n② 实施计划批准权人收到第一款规定的工程完工报告后，应当立即进行竣工检查。\n③ 实施计划批准权人为有效进行竣工检查，必要时可以委托有关行政机关、《公共机构运营法》规定的公共机构、研究机构或其他专业机构等进行竣工检查。\n④ 实施计划批准权人可以要求接收或管理工程完工报告所列公共设施的管理机关参加竣工检查；收到该请求的管理机关，除有特殊理由外，应当遵从该请求。\n⑤ 国家或地方自治团体完成智慧城市建设项目，或者第一款规定的项目实施者通过竣工检查时，应当在官方公报或地方公报上公告工程完工，并载明下列事项。<2017年9月19日修订>\n1. 项目名称\n2. 项目实施者\n3. 项目实施区域的位置\n4. 竣工日期\n5. 已竣工的智慧城市基础设施及智慧城市服务的内容\n\n",
+      "rejected_historical_variant": "第二十一条（竣工检查）\n① 事业实施者（国家及地方自治团体除外）依照法第十六条第一款申请竣工检查时，应当在工程竣工报告书中附具下列各号文件及图纸，提交给法第十四条第二款规定的实施计划批准权人（以下简称“实施计划批准权人”）。<2017年9月19日修订>\n1. 竣工记录（包括竣工设计文件及竣工照片）\n2. 法第十八条规定的智慧城市基础设施归属记录及图纸\n3. 其他竣工检查所需文件\n② 实施计划批准权人收到第一款规定的工程竣工报告书后，应当立即进行竣工检查。\n③ 实施计划批准权人为高效进行竣工检查，必要时可以委托有关行政机关、《公共机构运营法》规定的公共机构、研究机构或其他专业机构等实施竣工检查。\n④ 实施计划批准权人可以要求将接收或管理工程竣工报告书所列公共设施的管理机关参加竣工检查；收到要求的管理机关，除有特殊理由外，应当遵从要求。\n⑤ 国家或地方自治团体完成智慧城市建设事业，或者第一款规定的事业实施者通过竣工检查时，应当在官报或公报中公告工程竣工情况，并载明下列各号事项。<2017年9月19日修订>\n1. 事业名称\n2. 事业实施者\n3. 事业实施区域的位置\n4. 竣工日期\n5. 已竣工的智慧城市基础设施及智慧城市服务内容\n\n"
+    }
+  ],
+  "new_edits": 0,
+  "remaining_candidates_expected": 82,
+  "english_note": "712/1133 rows have reference English; 421 have no English reference. The available official English documents were read in full in the prior sequential-reading checkpoint, with source versions B1=283399 and B2=270111. They do not version-match Korean B1=280109 and B2=286647. No English documents exist for B3 and the ten forms/annex-related form documents; Korean controls for those.",
+  "completion_receipt_verified": false
+}
