@@ -19,7 +19,7 @@
   "scope": {
     "documents_total": 34,
     "zh_rows_total": 2925,
-    "rows_reviewed": 2440,
+    "rows_reviewed": 2579,
     "documents_reviewed": [
       "B1: partial review; full semantic pass remains",
       "B2: partial review; full semantic pass remains",
@@ -35,10 +35,11 @@
       "A12200: all 19 rows inspected; corrected office titles, committee terminology and response fields",
       "A12201: all 137 rows inspected; corrected non-residential property terminology, statute citation, price units, field labels and English-layout fragments",
       "A12202: all 76 rows inspected; corrected individual non-residential property terminology, application/confirmation text, statutory citation and MTQ artifacts",
-      "A12203: all 140 rows inspected; corrected individual non-residential property terminology, statutory citation, process labels and MTQ artifacts"
+      "A12203: all 140 rows inspected; corrected individual non-residential property terminology, statutory citation, process labels and MTQ artifacts",
+      "A12204: all 139 rows inspected; corrected non-residential individual property terminology, statutory citation, field labels and fragmented workflow"
     ],
-    "documents_remaining": 5,
-    "rows_not_yet_reviewed": 485
+    "documents_remaining": 4,
+    "rows_not_yet_reviewed": 346
   },
   "english_availability": {
     "official_full_text_documents": [
@@ -51,8 +52,8 @@
       "B2": "e75241d5a275a1d646bb7c48dc37a31daff529c4"
     }
   },
-  "checked_rows": 2440,
-  "corrected_rows": 2004,
+  "checked_rows": 2579,
+  "corrected_rows": 2123,
   "edits": [
     {
       "id": "B1-zh-00001",
@@ -8069,9 +8070,485 @@
     {
       "id": "A12203-zh-00140",
       "text": "210mm×297mm[胶版纸（80g/㎡）]"
+    },
+    {
+      "id": "A12204-zh-00001",
+      "text": "■ 《房地产价格公示法施行规则》[附表第28号格式]"
+    },
+    {
+      "id": "A12204-zh-00002",
+      "text": "非住宅个别房地产价格异议申请书"
+    },
+    {
+      "id": "A12204-zh-00003",
+      "text": "※ 申请人无需填写颜色较深的栏位。"
+    },
+    {
+      "id": "A12204-zh-00006",
+      "text": "处理期限："
+    },
+    {
+      "id": "A12204-zh-00007",
+      "text": "自异议申请期间届满之日起30日"
+    },
+    {
+      "id": "A12204-zh-00008",
+      "text": "申请人"
+    },
+    {
+      "id": "A12204-zh-00010",
+      "text": "姓名（法人名称）"
+    },
+    {
+      "id": "A12204-zh-00017",
+      "text": "对象"
+    },
+    {
+      "id": "A12204-zh-00018",
+      "text": "所在地及地号"
+    },
+    {
+      "id": "A12204-zh-00019",
+      "text": "非住宅"
+    },
+    {
+      "id": "A12204-zh-00020",
+      "text": "个别房地产"
+    },
+    {
+      "id": "A12204-zh-00021",
+      "text": "土地类别"
+    },
+    {
+      "id": "A12204-zh-00022",
+      "text": "土地面积（㎡）"
+    },
+    {
+      "id": "A12204-zh-00023",
+      "text": "用途地区"
+    },
+    {
+      "id": "A12204-zh-00024",
+      "text": "建筑物总面积（㎡）"
+    },
+    {
+      "id": "A12204-zh-00025",
+      "text": "使用批准年度"
+    },
+    {
+      "id": "A12204-zh-00026",
+      "text": "楼层数"
+    },
+    {
+      "id": "A12204-zh-00027",
+      "text": "主要建筑物结构"
+    },
+    {
+      "id": "A12204-zh-00028",
+      "text": "主要建筑物用途"
+    },
+    {
+      "id": "A12204-zh-00029",
+      "text": "异议申请"
+    },
+    {
+      "id": "A12204-zh-00030",
+      "text": "公告价格"
+    },
+    {
+      "id": "A12204-zh-00031",
+      "text": "意见价格"
+    },
+    {
+      "id": "A12204-zh-00032",
+      "text": "内容"
+    },
+    {
+      "id": "A12204-zh-00033",
+      "text": "韩元"
+    },
+    {
+      "id": "A12204-zh-00034",
+      "text": "韩元"
+    },
+    {
+      "id": "A12204-zh-00035",
+      "text": "申请理由"
+    },
+    {
+      "id": "A12204-zh-00036",
+      "text": "根据《房地产价格公示法》第二十一条第八款，现就于    年    月    日公告的非住宅个别房地产价格提出上述异议申请。"
+    },
+    {
+      "id": "A12204-zh-00039",
+      "text": "日公告的"
+    },
+    {
+      "id": "A12204-zh-00040",
+      "text": "非住宅"
+    },
+    {
+      "id": "A12204-zh-00041",
+      "text": "个别房地产价格。"
+    },
+    {
+      "id": "A12204-zh-00047",
+      "text": "致"
+    },
+    {
+      "id": "A12204-zh-00048",
+      "text": "市长、郡守或区厅长"
+    },
+    {
+      "id": "A12204-zh-00049",
+      "text": "附件"
+    },
+    {
+      "id": "A12204-zh-00050",
+      "text": "异议申请相关参考资料（仅在有参考资料时提交）"
+    },
+    {
+      "id": "A12204-zh-00051",
+      "text": "手续费"
+    },
+    {
+      "id": "A12204-zh-00052",
+      "text": "处理程序"
+    },
+    {
+      "id": "A12204-zh-00053",
+      "text": "填写申请书"
+    },
+    {
+      "id": "A12204-zh-00054",
+      "text": "受理"
+    },
+    {
+      "id": "A12204-zh-00055",
+      "text": "核验"
+    },
+    {
+      "id": "A12204-zh-00056",
+      "text": "市、郡、区"
+    },
+    {
+      "id": "A12204-zh-00057",
+      "text": "不动产价格公示委员会审议"
+    },
+    {
+      "id": "A12204-zh-00058",
+      "text": "审批"
+    },
+    {
+      "id": "A12204-zh-00059",
+      "text": "处理结果"
+    },
+    {
+      "id": "A12204-zh-00060",
+      "text": "不动产价格"
+    },
+    {
+      "id": "A12204-zh-00061",
+      "text": "通知"
+    },
+    {
+      "id": "A12204-zh-00062",
+      "text": "申请人"
+    },
+    {
+      "id": "A12204-zh-00063",
+      "text": "市长、郡守或区厅长"
+    },
+    {
+      "id": "A12204-zh-00064",
+      "text": "市长、郡守或区厅长"
+    },
+    {
+      "id": "A12204-zh-00065",
+      "text": "市长、郡守或区厅长"
+    },
+    {
+      "id": "A12204-zh-00066",
+      "text": "市长、郡守或区厅长"
+    },
+    {
+      "id": "A12204-zh-00067",
+      "text": "市长、郡守或区厅长"
+    },
+    {
+      "id": "A12204-zh-00068",
+      "text": "市长、郡守或区厅长"
+    },
+    {
+      "id": "A12204-zh-00069",
+      "text": "市长、郡守或区厅长"
+    },
+    {
+      "id": "A12204-zh-00070",
+      "text": "市长、郡守或区厅长"
+    },
+    {
+      "id": "A12204-zh-00071",
+      "text": "210mm×297mm[胶版纸（80g/㎡）]"
+    },
+    {
+      "id": "A12204-zh-00072",
+      "text": "■ 《房地产价格公示法施行规则》[附表第28号格式]"
+    },
+    {
+      "id": "A12204-zh-00073",
+      "text": "非住宅个别房地产价格异议申请书"
+    },
+    {
+      "id": "A12204-zh-00074",
+      "text": "收件编号"
+    },
+    {
+      "id": "A12204-zh-00075",
+      "text": "收件日期"
+    },
+    {
+      "id": "A12204-zh-00076",
+      "text": "处理期限："
+    },
+    {
+      "id": "A12204-zh-00077",
+      "text": "自异议申请期间届满之日起30日"
+    },
+    {
+      "id": "A12204-zh-00080",
+      "text": "申请人"
+    },
+    {
+      "id": "A12204-zh-00081",
+      "text": "姓名"
+    },
+    {
+      "id": "A12204-zh-00082",
+      "text": "出生日期（营业执照号码）"
+    },
+    {
+      "id": "A12204-zh-00083",
+      "text": "地址"
+    },
+    {
+      "id": "A12204-zh-00084",
+      "text": "电话号码"
+    },
+    {
+      "id": "A12204-zh-00085",
+      "text": "手机号码"
+    },
+    {
+      "id": "A12204-zh-00086",
+      "text": "电子邮件"
+    },
+    {
+      "id": "A12204-zh-00087",
+      "text": "与所有者的关系"
+    },
+    {
+      "id": "A12204-zh-00088",
+      "text": "对象"
+    },
+    {
+      "id": "A12204-zh-00089",
+      "text": "所在地及地号"
+    },
+    {
+      "id": "A12204-zh-00090",
+      "text": "非住宅"
+    },
+    {
+      "id": "A12204-zh-00091",
+      "text": "个别房地产"
+    },
+    {
+      "id": "A12204-zh-00092",
+      "text": "土地类别"
+    },
+    {
+      "id": "A12204-zh-00093",
+      "text": "土地面积（㎡）"
+    },
+    {
+      "id": "A12204-zh-00094",
+      "text": "用途地区"
+    },
+    {
+      "id": "A12204-zh-00095",
+      "text": "建筑物总面积（㎡）"
+    },
+    {
+      "id": "A12204-zh-00096",
+      "text": "使用批准年度"
+    },
+    {
+      "id": "A12204-zh-00097",
+      "text": "楼层数"
+    },
+    {
+      "id": "A12204-zh-00098",
+      "text": "建筑物结构"
+    },
+    {
+      "id": "A12204-zh-00099",
+      "text": "建筑物用途"
+    },
+    {
+      "id": "A12204-zh-00102",
+      "text": "异议申请"
+    },
+    {
+      "id": "A12204-zh-00103",
+      "text": "公告价格"
+    },
+    {
+      "id": "A12204-zh-00104",
+      "text": "申请人意见"
+    },
+    {
+      "id": "A12204-zh-00105",
+      "text": "内容"
+    },
+    {
+      "id": "A12204-zh-00106",
+      "text": "韩元/㎡"
+    },
+    {
+      "id": "A12204-zh-00107",
+      "text": "韩元/㎡"
+    },
+    {
+      "id": "A12204-zh-00108",
+      "text": "申请理由"
+    },
+    {
+      "id": "A12204-zh-00109",
+      "text": "根据《房地产价格公示法》第二十一条第八款，现就于________公告的非住宅个别房地产价格提出异议申请。"
+    },
+    {
+      "id": "A12204-zh-00110",
+      "text": "的非住宅个别房地产价格"
+    },
+    {
+      "id": "A12204-zh-00111",
+      "text": "___________。"
+    },
+    {
+      "id": "A12204-zh-00112",
+      "text": "日期："
+    },
+    {
+      "id": "A12204-zh-00113",
+      "text": "申请人"
+    },
+    {
+      "id": "A12204-zh-00114",
+      "text": "（签名）"
+    },
+    {
+      "id": "A12204-zh-00115",
+      "text": "致市长、郡守或区厅长"
+    },
+    {
+      "id": "A12204-zh-00116",
+      "text": "附件"
+    },
+    {
+      "id": "A12204-zh-00117",
+      "text": "异议申请相关文件（仅在有相关文件时提交）"
+    },
+    {
+      "id": "A12204-zh-00118",
+      "text": "手续费"
+    },
+    {
+      "id": "A12204-zh-00119",
+      "text": "无"
+    },
+    {
+      "id": "A12204-zh-00120",
+      "text": "处理程序"
+    },
+    {
+      "id": "A12204-zh-00121",
+      "text": "提出申请"
+    },
+    {
+      "id": "A12204-zh-00122",
+      "text": "受理"
+    },
+    {
+      "id": "A12204-zh-00123",
+      "text": "核验"
+    },
+    {
+      "id": "A12204-zh-00124",
+      "text": "地方不动产价格公示委员会审议"
+    },
+    {
+      "id": "A12204-zh-00125",
+      "text": "审批"
+    },
+    {
+      "id": "A12204-zh-00126",
+      "text": "通知"
+    },
+    {
+      "id": "A12204-zh-00127",
+      "text": "不动产价格"
+    },
+    {
+      "id": "A12204-zh-00128",
+      "text": "公示"
+    },
+    {
+      "id": "A12204-zh-00129",
+      "text": "委员会"
+    },
+    {
+      "id": "A12204-zh-00130",
+      "text": "申请人"
+    },
+    {
+      "id": "A12204-zh-00131",
+      "text": "市长、郡守或区厅长"
+    },
+    {
+      "id": "A12204-zh-00132",
+      "text": "市长、郡守或区厅长"
+    },
+    {
+      "id": "A12204-zh-00133",
+      "text": "市长、郡守或区厅长"
+    },
+    {
+      "id": "A12204-zh-00134",
+      "text": "市长、郡守或区厅长"
+    },
+    {
+      "id": "A12204-zh-00135",
+      "text": "市长、郡守或区厅长"
+    },
+    {
+      "id": "A12204-zh-00136",
+      "text": "市长、郡守或区厅长"
+    },
+    {
+      "id": "A12204-zh-00137",
+      "text": "市长、郡守或区厅长"
+    },
+    {
+      "id": "A12204-zh-00138",
+      "text": "市长、郡守或区厅长"
+    },
+    {
+      "id": "A12204-zh-00139",
+      "text": "210mm×297mm[胶版纸（80g/㎡）]"
     }
   ],
   "status": "IN_PROGRESS",
-  "next": "继续按顺序检查A12204至A12207共4份表单；随后补做B1/B2全文语义复核和最终质量检查。",
-  "edits_saved": 2004
+  "next": "继续按顺序检查A12205至A12207共3份表单；随后补做B1/B2全文语义复核和最终质量检查。",
+  "edits_saved": 2123
 }
