@@ -21,8 +21,8 @@
   "coverage": {
     "total_rows": 1374,
     "distinct_rows": 1374,
-    "correction_count": 167,
-    "pending_rows": 88,
+    "correction_count": 166,
+    "pending_rows": 89,
     "by_document": {
       "B1": {
         "total": 196,
@@ -46,8 +46,8 @@
       },
       "A8690": {
         "total": 509,
-        "corrected": 61,
-        "pending": 0
+        "corrected": 60,
+        "pending": 1
       },
       "A8691": {
         "total": 38,
@@ -1169,13 +1169,6 @@
       "corrected": "图像格式为 JPEG（联合图像专家组），分辨率范围为 300 至 400dpi（建议 300dpi）。",
       "reason": "JPEG 영문 기관명 분절"
     },
-    "A8690-zh-00499": {
-      "doc": "A8690",
-      "source_hash": "3ad4f0e72e3cc3678da9885e04d94ce4a616b16821cc98f5bc464dd873f17732",
-      "original": "up) 待办。",
-      "corrected": "",
-      "reason": "앞 행의 JPEG 단어 파편 잔류"
-    },
     "A8690-zh-00501": {
       "doc": "A8690",
       "source_hash": "2f426c1199764a25c6a8e46b5af7200813d6d6e14f14d150f1d879acaf2a11d5",
@@ -1403,6 +1396,11 @@
       "doc": "A8709",
       "status": "SOURCE_CONTENT_MISSING",
       "note": "Arabic portable certificate body absent in KO text extraction; only margin/note text available."
+    },
+    {
+      "id": "A8690-zh-00499",
+      "status": "SOURCE_TEXT_FRAGMENT_REVIEW_REQUIRED",
+      "note": "JPEG organization name split across A8690 rows 498-499; preserve original until source alignment."
     }
   ],
   "english_note": "B1/B2 official exact-version; B3/forms only 2010 fallback, not exact current version; decree also has AI draft.",
