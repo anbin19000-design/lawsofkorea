@@ -57,15 +57,16 @@
     }
   },
   "audit": {
-    "correction_records": 453,
-    "nonblank_changed_edits": 442,
-    "unique_edit_ids": 442,
+    "correction_records": 493,
+    "nonblank_changed_edits": 479,
+    "unique_edit_ids": 479,
     "blank_decisions": 4,
-    "no_change_decisions": 7,
+    "no_change_decisions": 10,
     "source_bound_mismatches": 0,
     "duplicate_ids": 0,
     "blank_edits": 0,
-    "source_sha_unchanged": true
+    "source_sha_unchanged": true,
+    "unresolved_MTQ_START_END_Hangul_and_term_markers": 0
   },
   "coverage": {
     "total_rows": 1290,
@@ -101,8 +102,8 @@
     "pending_rows": 767
   },
   "review_path": "review/zh/F-2223d4d89f9d838aec25.json",
-  "review_blob_sha": "42553b6975012431fabb6c18f92614e05cda2225",
+  "review_blob_sha": "8a44824015f9ef50025cac9c2fb1a1f70e05a196",
   "empty_edit_decisions_path": "review/zh/F-2223d4d89f9d838aec25-empty-edit-decisions-C05-20261109-0600.json",
-  "empty_edit_decisions_blob_sha": "fb5b2547ddbdebf0a623e2b4daa32530eb1d201f",
-  "outstanding": "Continue source-aligned semantic review of A29185 (Annex 1), then all remaining forms A6581/A6582/A6585–A6600. Verify remaining table/form values, cross-references, legal actors, numerical thresholds, dates and any MTQ/START residue. No completion receipt until all 1,290 rows are fully checked and final QC passes."
+  "empty_edit_decisions_blob_sha": "a8646070f34375ceab636eafa6a4c26d6fe82134",
+  "outstanding": "Full sequential semantic comparison remains outstanding for A29185 and the remaining annex/form rows. Contamination scan across the current corrected overlay has zero MTQ/START/END, Hangul residue, Land, 系泊, 着陆, 收货日期, 府尹, implementation-rule, or supplementary-heading artifacts. Continue source-to-Chinese review for all remaining rows; do not issue COMPLETE until 1,290 rows are semantically checked."
 }
