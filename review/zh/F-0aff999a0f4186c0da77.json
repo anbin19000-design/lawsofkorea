@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 306,
+    "correction_count": 314,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -2167,6 +2167,62 @@
       "original": "注册证书变更",
       "corrected": "拟稿、审批；登记证书变更事项",
       "reason": "별지 제2·4호서식 한국어 원문 대조로 확인한 법령 조문번호·기간·문구 및 절차의 명백한 오류만 최소 교정."
+    },
+    "A34921-zh-00012": {
+      "doc": "A34921",
+      "source_hash": "9840d67e6200a873979c66d7911eb1d6b1122aeb10a008e83673eebff8a2f995",
+      "original": "企业标签",
+      "corrected": "营业标识",
+      "reason": "한국어 별지 제4호의2·제5호서식 원문 대조: 신청 절차, 조문 인용, 예치 수수료 공제 권한과 신청 의사표시의 명백한 오류 교정."
+    },
+    "A34921-zh-00024": {
+      "doc": "A34921",
+      "source_hash": "ff4ef81080a8a8b4bac9f952f86c9acea506b1aab9b945aadb59ec2764cb5186",
+      "original": "任务管理器",
+      "corrected": "信息披露书业务负责人",
+      "reason": "한국어 별지 제4호의2·제5호서식 원문 대조: 신청 절차, 조문 인용, 예치 수수료 공제 권한과 신청 의사표시의 명백한 오류 교정."
+    },
+    "A34921-zh-00066": {
+      "doc": "A34921",
+      "source_hash": "4e36555fb3600df2e46d18985dd4b6c28a5a0df624bf32c344d1435a98904fe8",
+      "original": "我不记下个人手机号码。",
+      "corrected": "不得填写代表人的个人手机号码。",
+      "reason": "한국어 별지 제4호의2·제5호서식 원문 대조: 신청 절차, 조문 인용, 예치 수수료 공제 권한과 신청 의사표시의 명백한 오류 교정."
+    },
+    "A34921-zh-00073": {
+      "doc": "A34921",
+      "source_hash": "7e0e212667f735a4ed33b98de25a804c20bc29714b318cac041768909f463a7d",
+      "original": "审查",
+      "corrected": "审查、拟稿及审批",
+      "reason": "한국어 별지 제4호의2·제5호서식 원문 대조: 신청 절차, 조문 인용, 예치 수수료 공제 권한과 신청 의사표시의 명백한 오류 교정."
+    },
+    "A34922-zh-00009": {
+      "doc": "A34922",
+      "source_hash": "a80d8a96abcc1c80d8f95535b490e6787f784da8ee8b9cb9681825f3e895dae7",
+      "original": "商标名称（特许经营名称）",
+      "corrected": "商号（加盟店名称）",
+      "reason": "한국어 별지 제4호의2·제5호서식 원문 대조: 신청 절차, 조문 인용, 예치 수수료 공제 권한과 신청 의사표시의 명백한 오류 교정."
+    },
+    "A34922-zh-00025": {
+      "doc": "A34922",
+      "source_hash": "c1bb60b62568658a8c1209de79cbca4607ee575f249e5c22bc75dfec48cca3e5",
+      "original": "《特许经营业务公平交易法》第6条第5款第1项及该法实施令第5条第9款第2项",
+      "corrected": "依据《特许经营业务公平交易法》第6条之五第1款正文及该法实施令第5条之九第2款，",
+      "reason": "한국어 별지 제4호의2·제5호서식 원문 대조: 신청 절차, 조문 인용, 예치 수수료 공제 권한과 신청 의사표시의 명백한 오류 교정."
+    },
+    "A34922-zh-00026": {
+      "doc": "A34922",
+      "source_hash": "c5e67a9787e50cd62a0eb6a15e311a98a9ab27419f3c1fb8b33f722be4808800",
+      "original": "。",
+      "corrected": "现申请按上述内容将特许经营费存入托管机构。",
+      "reason": "한국어 별지 제4호의2·제5호서식 원문 대조: 신청 절차, 조문 인용, 예치 수수료 공제 권한과 신청 의사표시의 명백한 오류 교정."
+    },
+    "A34922-zh-00039": {
+      "doc": "A34922",
+      "source_hash": "2a6e1b248221a7052a106fede965d6fb269278ca9deac73697ad4df08cda99df",
+      "original": "3. 存款机构负责人应将因存款特许经营费的存入及其管理而产生的费用作为管理费收取，该管理费应由存款特许经营费的接收方收取。",
+      "corrected": "3. 存款机构负责人可将因特许经营费存入及管理产生的费用作为管理手续费，从特许经营费收款人应收取的金额中扣除。",
+      "reason": "한국어 별지 제4호의2·제5호서식 원문 대조: 신청 절차, 조문 인용, 예치 수수료 공제 권한과 신청 의사표시의 명백한 오류 교정."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -2233,7 +2289,8 @@
     "C05 f2c254040744: Korean annex A34916 penalty-table comparison: 6 confirmed legal-citation and offense semantic corrections. Full Chinese semantic review uncompleted, status IN_PROGRESS.",
     "C05 f2c254040744 Annex5 further 6 distinct, source verified penalty schedule corrections. No final full row certification.",
     "C05 16f5d26f374d: Annex A34917 Korean source checked; 6 concrete wording/citation/form workflow corrections. No full-family semantic certification.",
-    "C05 16f5d26f374d: continued annex A34918 and A34920 review; 8 source-grounded corrections. Chinese full semantic review remains incomplete."
+    "C05 16f5d26f374d: continued annex A34918 and A34920 review; 8 source-grounded corrections. Chinese full semantic review remains incomplete.",
+    "C05 94852f90eda2: A34921/A34922 Korean-source comparison and 8 confirmed corrections. Full-family Chinese semantic certification still pending."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -2242,5 +2299,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 306
+  "corrected_rows": 314
 }
