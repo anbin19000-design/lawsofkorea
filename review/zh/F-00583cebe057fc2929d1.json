@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1374,
     "distinct_rows": 1374,
-    "correction_count": 166,
+    "correction_count": 168,
     "pending_rows": 89,
     "by_document": {
       "B1": {
@@ -36,7 +36,7 @@
       },
       "A29604": {
         "total": 63,
-        "corrected": 5,
+        "corrected": 7,
         "pending": 58
       },
       "B3": {
@@ -1308,6 +1308,20 @@
       "original": "应用程序日期",
       "corrected": "申请日期",
       "reason": "出원일자를 앱 날짜로 오역"
+    },
+    "A29604-zh-00011": {
+      "doc": "A29604",
+      "source_hash": "f42166629e245e46f2e76ad048b133cced450d09f7da80f097340de126b70323",
+      "original": "。在下列任何情况下，知识产权部长应根据第2款",
+      "corrected": "。在下列任何情况下，知识产权厅厅长应根据第2款",
+      "reason": "지식재산처장是知识产权厅厅长，非部长；仅修正机关称谓。"
+    },
+    "A29604-zh-00036": {
+      "doc": "A29604",
+      "source_hash": "e6e77b83100b28e797f155f37162ee0a171cb2b4193e24205fbc9debf6cca32e",
+      "original": "或更高版本",
+      "corrected": "以上",
+      "reason": "表格“3회 이상”中的“이상”意为“以上”，而非软件版本。"
     }
   },
   "mapping_issues": [
@@ -1404,5 +1418,5 @@
     }
   ],
   "english_note": "B1/B2 official exact-version; B3/forms only 2010 fallback, not exact current version; decree also has AI draft.",
-  "notes": "기존 번역과 원본은 변경하지 않음. 명백한 교정문만 누적. SOURCE_MAPPING_REVIEW_REQUIRED/SOURCE_LEGIBILITY_REVIEW_REQUIRED/ANNEX_ALIGNMENT_REVIEW_REQUIRED 판정 잔존. 전수 검증·완료 영수증 미발행."
+  "notes": "기존 번역과 원본은 변경하지 않음. 명백한 교정문만 누적. SOURCE_MAPPING_REVIEW_REQUIRED/SOURCE_LEGIBILITY_REVIEW_REQUIRED/ANNEX_ALIGNMENT_REVIEW_REQUIRED 판정 잔존. 전수 검증·완료 영수증 미발행. 2026-11-08 C05: 별표 3개 행의 명백한 오역만 추가 교정, 원문 대응 미해결은 그대로 보류."
 }
