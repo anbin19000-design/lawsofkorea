@@ -2,7 +2,7 @@
   "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-c2b35f6aceb6477e1107",
   "worker": "C04",
-  "checked_rows": 70,
+  "checked_rows": 75,
   "edits": [
     {
       "id": "A14112-zh-00030",
@@ -283,8 +283,28 @@
     {
       "id": "A14110-zh-00025",
       "text": "确保照度至少为540勒克斯（lx）。"
+    },
+    {
+      "id": "A30764-zh-00009",
+      "text": "在第2号规定的行政罚款金额二分之一的范围内，可以减轻该金额。但是，违法行为人拖欠行政罚款的，"
+    },
+    {
+      "id": "A30764-zh-00010",
+      "text": "不适用上述减轻规定。"
+    },
+    {
+      "id": "A30764-zh-00011",
+      "text": "1) 违法行为人属于《违反公共秩序行为规制法施行令》第2条之2第1款各项规定的任一情形"
+    },
+    {
+      "id": "A30764-zh-00023",
+      "text": "1) 违法行为人的实际负担能力"
+    },
+    {
+      "id": "A30764-zh-00025",
+      "text": "或者是否处于持续恶化的状态"
     }
   ],
   "status": "IN_PROGRESS",
-  "note": "C04 dcaa1482e541: preserved prior 67 edits, corrected annex A14110-zh-00018 (cleanable drain), 00020 (pest/rodent barriers), 00025 (inspection area illuminance 540 lx, not 40). Source Korean annex verified; full family manual QA incomplete and no receipt."
+  "note": "C04 a11a2fd40fa6: retained prior 70 distinct edits; verified against Korean A30764 annex original and corrected penalty reduction overdue exclusion, Public Order Violations Regulation Decree Article 2-2(1), actual ability to bear costs, and persistent industry deterioration. Five new edited IDs; full 15-document reading/review not certified, no COMPLETE receipt."
 }
