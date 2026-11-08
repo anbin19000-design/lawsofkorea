@@ -1,0 +1,85 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "family_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "pc": "WORK-C",
+  "panel_id": "panel-02",
+  "branch": "main",
+  "task_marker": "WORK-TASK:C02:F-81e30c25fcbea5af2364:1382814e80c6",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "cumulative_review": {
+    "path": "review/zh/F-81e30c25fcbea5af2364.json",
+    "sha": "9333396a8afa80cb582a54d8e488545d01da4618",
+    "status": "IN_PROGRESS",
+    "edits": 345
+  },
+  "read_activity": {
+    "phase": "KOREAN_FIRST_FULL_FAMILY",
+    "document": "B1",
+    "korean_document_version": "280109",
+    "korean_document_chars": 46707,
+    "displayed_ranges": [
+      [
+        0,
+        12000
+      ],
+      [
+        12000,
+        28000
+      ],
+      [
+        28000,
+        35500
+      ],
+      [
+        35500,
+        43000
+      ],
+      [
+        43000,
+        46707
+      ]
+    ],
+    "note": "B1 text inspected sequentially through tool display; output truncation in later range and full-family semantic certification NOT asserted",
+    "all_korean_documents_read": false,
+    "all_english_documents_read": false,
+    "all_chinese_documents_reviewed": false
+  },
+  "english_coverage": {
+    "fallback_parent_docs": [
+      "B1",
+      "B2"
+    ],
+    "same_fallback_referenced_for_annex": [
+      "A36424",
+      "A36425",
+      "A36426",
+      "A36427"
+    ],
+    "no_linked_english_document": [
+      "B3",
+      "A25465",
+      "A25466",
+      "A25467",
+      "A25468",
+      "A25469",
+      "A25470",
+      "A25471",
+      "A25472",
+      "A25473",
+      "A25474"
+    ],
+    "note": "fallback English is a different version than Korean; do not equate as exact match"
+  },
+  "new_edits": [],
+  "unchanged_cumulative": true,
+  "completion_receipt_verified": false,
+  "next_action": "Continue uncompleted Korean documents B2, annexes, rule and forms in order; read all available English documents next; then verify Chinese 1,133 rows; do not issue COMPLETE until substantiated."
+}
