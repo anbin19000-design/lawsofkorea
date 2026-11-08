@@ -1,0 +1,52 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:3d9d94ad98e7",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "english_status": "B3 NO_DOCUMENT_ENGLISH; Korean source controls.",
+  "checked_rows": 3,
+  "checked_ids": [
+    "B3-zh-00010",
+    "B3-zh-00011",
+    "B3-zh-00012"
+  ],
+  "edits": [
+    {
+      "id": "B3-zh-00010",
+      "source_hash": "d133401e4dad0affd5ea01ba59ffbf1b5cbf31f5569e871ce16f7f424e35733d",
+      "target_id": "a3a50ae4957f693aefaee77a8cbf928067d7a5dfd611732e078e556f97b71de9",
+      "text": "第六条（法令整备请求书等）\n① 依据施行令第五十八条之三第三款的法令整备请求书，使用附页第八号格式。\n② 依据施行令第五十八条之三第四款的法令整备请求确认书，使用附页第九号格式。\n③ 依据施行令第五十八条之三第七款的法令整备审查结果书，使用附页第十号格式。\n\n"
+    }
+  ],
+  "checked_details": [
+    {
+      "id": "B3-zh-00010",
+      "verdict": "CORRECT_CLEAR_MISTRANSLATION",
+      "reason": "韩国语 제6조는 제8호 법령정비 요청서, 제9호 요청 확인서, 제10호 검토 결과서의 서식 지정이다. 기존 중국어의 '修改法律法规的申请表' 및 '结果报告'와 작성 의무 표현은 서식명 및 지시와 불일치. 용어와 서식 지정만 최소 교정."
+    },
+    {
+      "id": "B3-zh-00011",
+      "verdict": "KEEP_EXISTING",
+      "reason": "부칙 제702호 시행일 조항과 날짜 동일."
+    },
+    {
+      "id": "B3-zh-00012",
+      "verdict": "KEEP_EXISTING",
+      "reason": "부칙 제870호 시행일 조항과 날짜 동일."
+    }
+  ],
+  "prior_progress": [
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-565baf8fd4b9.json",
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-8746953b2b45.json"
+  ],
+  "next_review": "B3-zh-00013 has prior boundary correction; proceed to first unadjudicated A25465 form rows, preserving historical edits.",
+  "note": "Original language blobs unchanged. Not a final 1133-row integration or COMPLETE claim."
+}
