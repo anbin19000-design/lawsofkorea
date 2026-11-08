@@ -1,0 +1,81 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-31334bc4303ae2cb3d80",
+  "worker": "C06",
+  "task_id": "41cea81dd751",
+  "status": "IN_PROGRESS",
+  "base_blobs": {
+    "ko": "d6d795ff1ece4a82663a83efd46f7f73afa7fbbb",
+    "en": "16e015facbcef00df95c985f816f47acf7bcfef7",
+    "zh": "7a6d1e8d841fb3b27185d6d4a6b811149d604dc0"
+  },
+  "previous_confirmed_edits": 135,
+  "added_edits": 9,
+  "total_confirmed_edits": 144,
+  "pending_candidate_count": 451,
+  "result_path": "review/zh/F-31334bc4303ae2cb3d80.json",
+  "result_sha": "1dd7dfc5c41380a6812cf571197baf486ebd8fb3",
+  "new_ids": [
+    "A37294-zh-00001",
+    "A37294-zh-00004",
+    "A37294-zh-00013",
+    "A37294-zh-00022",
+    "A37294-zh-00025",
+    "B1-zh-00039",
+    "A37294-zh-00014",
+    "A37294-zh-00023",
+    "A37294-zh-00035"
+  ],
+  "evidence": [
+    {
+      "id": "A37294-zh-00001",
+      "ko": "시행령 [별표 1]",
+      "correction": "实施令 replaces 实施细则"
+    },
+    {
+      "id": "A37294-zh-00004",
+      "ko": "검사주기",
+      "correction": "检查周期"
+    },
+    {
+      "id": "A37294-zh-00013",
+      "ko": "1000배 미만",
+      "correction": "不足1000倍"
+    },
+    {
+      "id": "A37294-zh-00022",
+      "ko": "100배 미만",
+      "correction": "不足100倍"
+    },
+    {
+      "id": "A37294-zh-00025",
+      "ko": "항공운송사업자",
+      "correction": "航空运输经营者"
+    },
+    {
+      "id": "B1-zh-00039",
+      "ko": "제26조의2제1항",
+      "correction": "第二十六条之二第一款 citation"
+    },
+    {
+      "id": "A37294-zh-00014",
+      "ko": "제4조제2항제1호에 따른 수량의 1000배 이상",
+      "correction": "1000倍以上 and correct article reference"
+    },
+    {
+      "id": "A37294-zh-00023",
+      "ko": "제4조제2항제2호에 따른 수량의 100배 이상",
+      "correction": "100倍以上 and correct article reference"
+    },
+    {
+      "id": "A37294-zh-00035",
+      "ko": "감시기설치ㆍ운영대상 재활용고철취급자",
+      "correction": "监测设备安装、运行对象的废金属回收处理者"
+    }
+  ],
+  "hold": [
+    "A22639-zh-00029",
+    "A22639-zh-00032"
+  ],
+  "notes": "9 newly saved and re-fetched corrections; original law texts and all previous decisions preserved. Not full semantic adjudication, not COMPLETE. English fallback remains version-limited for rules and forms."
+}
