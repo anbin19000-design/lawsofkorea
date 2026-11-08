@@ -1,0 +1,44 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_sha": "8013a25bfc20146f8c9cad62eb80459271b65bee",
+  "prior_corrections_preserved": 370,
+  "new_corrections": [
+    "A34909-zh-00014",
+    "A34909-zh-00015",
+    "A34909-zh-00016"
+  ],
+  "cumulative_corrections": 373,
+  "integrity": {
+    "chinese_rows": 1687,
+    "distinct_row_ids": 1687,
+    "correction_id_doc_source_hash_original_mismatches": 0,
+    "uncorrected_hangul_or_MTQ_START_END_markers": 0
+  },
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "english_coverage": {
+    "rows_with_english": 1258,
+    "rows_without_english": 429
+  },
+  "inspected_span": "A34909 disclosure cover statutory warning and delegated verification disclaimer clauses, compared full Korean context and adjacent Chinese fragments",
+  "review_status": "ZH_SEMANTIC_AUDIT_IN_PROGRESS",
+  "quality_open_items": [
+    "Whole-family full semantic audit not certified; rows with long text need complete, unclipped comparison",
+    "A34911 calculation formulas are not represented in extracted text and require original visual/table verification",
+    "429 rows without English remain subject to direct Korean/Chinese comparison"
+  ],
+  "notes": "Three corrections to A34909 cover disclaimer restored Korean statutory meaning. All 370 previous corrections retained. QA confirms zero source ID/hash/original mismatches and no residual Hangul/MTQ/START/END in uncorrected rows. Status remains IN_PROGRESS."
+}
