@@ -241,11 +241,12 @@
     },
     {
       "id": "B2-zh-00089",
-      "text": "第三条（修改其他法律）①至<30> 已省略\n\n  <31> 《普适城市建设等法》施行令部分修改如下。\n\n  第十七条第三款第二项规定如下。\n\n    2. 韩国农村社区公司，依据《韩国农村社区公司和农田管理基金法》\n\n  <32> 至 <48> 已省略\n\n",
       "source_hash": "90f696a006dd22d6da98275598f8aa28939e6020dfbd36dca928314a9d9d5cb3",
       "target_id": "4b96b929f9ba2415e58b2ca4b8b1bcd0d27bbe49bef80bfa0a2a2116a4c8e26c",
-      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-fc3b2d940841-decree-supplementary.json",
-      "verification": "C02_RECORDED_KOREAN_COMPARISON"
+      "text": "第三条（其他法令的修订）第一项至第三十项省略。\n\n第三十一项 对《普适城市建设等相关法律施行令》作如下部分修订。\n\n将第十七条第三款第二项修改如下。\n\n2. 依据《韩国农村公社及农地管理基金法》设立的韩国农村公社\n\n第三十二项至第四十八项省略。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-66b0b614d7aa.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Correct the instrument type from Enforcement Decree (시행령), not enforcement rules; preserve amendment item 31 and the proper institution name."
     },
     {
       "id": "B2-zh-00097",
@@ -2713,6 +2714,15 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-66b0b614d7aa.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
       "reason": "Use 附则 for 부칙 and render the historical statute title consistently; avoid the mistranslated 'economic housing' wording."
+    },
+    {
+      "id": "B2-zh-00091",
+      "source_hash": "7f4ece1a7d1c0b2ed92353eacca39147070750a17430954d4601f9c51f9c7c6e",
+      "target_id": "b933ebe6627af44efb5ccc11f3a23e766dca76ff687cf4385573072a4b850245",
+      "text": "附则（《经济自由区指定及运营特别法施行令》）<第21656号，2009年7月30日>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-66b0b614d7aa.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Use 附则 for 부칙 and render the title as the Enforcement Decree of the Special Act on Designation and Management of Free Economic Zones."
     }
   ],
   "adjudicated_edit_count": 288,
@@ -7919,12 +7929,13 @@
     "2026-11-08 C02 continuation: corrected B2-zh-00025 (wrong law reference and project name) and B2-zh-00027 (truncated second exemption and omitted full paragraph ④). Also reconciled prior accepted corrections for B2-zh-00020, 00029, 00032, 00034, 00035 and 00036, and compared 00023-00024.",
     "2026-11-08 C02 continuation: refined existing B2-zh-00040 edit to restore paragraph markers ④ and ⑥-⑧ and item punctuation; reconciled prior edits for B2-zh-00043, 00045, 00051 and 00055; checked B2-zh-00047 and retained translation.",
     "2026-11-08 C02 continuation: corrected B2 rows 00057, 00066, 00071, 00072, 00076, 00077 and 00079; restored omitted paragraph numbering and corrected false statutory references, truncated/merged clauses and delegation terminology. Rows 00064, 00065, 00068, 00080 and 00081 were compared and retained.",
-    "2026-11-08 C02 continuation: corrected B2 rows 00069, 00070, 00075, 00082 and 00084; corrected implementation-period terminology, paragraph numbering, delegated-agency statute/name and historical supplementary amendment terminology. Rows 00083, 00085 and 00086 compared and retained."
+    "2026-11-08 C02 continuation: corrected B2 rows 00069, 00070, 00075, 00082 and 00084; corrected implementation-period terminology, paragraph numbering, delegated-agency statute/name and historical supplementary amendment terminology. Rows 00083, 00085 and 00086 compared and retained.",
+    "2026-11-08 C02 continuation: corrected B2 rows 00089 and 00091 in historical amendment supplements (Enforcement Decree title and official institution name; supplement terminology). Rows 00087, 00088, 00090 and 00092 compared and retained."
   ],
   "integration_progress": {
-    "stage": "B2_ARTICLES_54_TO_HISTORICAL_SUPPLEMENTS_RECONCILED",
+    "stage": "B2_HISTORICAL_SUPPLEMENTS_2009_RECONCILED",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:66b0b614d7aa",
-    "note": "Corrected B2-zh-00069, 00070, 00075, 00082 and 00084; retained adjacent verified rows. Whole-family review remains IN_PROGRESS."
+    "note": "Corrected historical supplementary amendment rows B2-zh-00089 and 00091; adjacent effective-date and omission rows retained. Whole-family status remains IN_PROGRESS."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -8324,7 +8335,13 @@
     "B2-zh-00084",
     "B2-zh-00083",
     "B2-zh-00085",
-    "B2-zh-00086"
+    "B2-zh-00086",
+    "B2-zh-00089",
+    "B2-zh-00091",
+    "B2-zh-00087",
+    "B2-zh-00088",
+    "B2-zh-00090",
+    "B2-zh-00092"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
