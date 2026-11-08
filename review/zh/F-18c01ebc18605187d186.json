@@ -1066,6 +1066,20 @@
       "source_hash": "d1fdd27a06c584e1e3c5856aaf7d92d6df50d5c07e0b45962ab8474f9908334d",
       "target_id": "5f32f7185b117719b40343bdbe3312a001c8aaf1c6a8a329e4f05c20a2117073",
       "source_progress": "C02 restore full existing consequential-amendment text, applying only minimal terminology corrections against Korean B2; preserve all enumerated subclauses"
+    },
+    {
+      "id": "B2-zh-00061",
+      "text": "附则（《公务员灾害补偿法施行令》）<第29180号，2018年9月18日>\n\n",
+      "source_hash": "4e254c4ab7adb02f8352d7750d88bbc8cc28745e25ff1fd643e745aae804bf44",
+      "target_id": "6d0715cd103ffe74a6d0e6f5af04089b26308de272608c2023b709130d30782b",
+      "source_progress": "C02 sequential review; Korean B2 cross-check"
+    },
+    {
+      "id": "B2-zh-00063",
+      "text": "第十八条（其他法令的修正）①至〈35〉省略\n\n〈36〉对《精神健康促进及精神疾病患者福利服务支援法施行令》作如下部分修正。\n\n第31条第2号中的“《公务员年金法》”改为“《公务员灾害补偿法》”。\n\n第37条第2款中的“《公务员年金法》”改为“《公务员灾害补偿法》”。\n\n〈37〉至〈43〉省略\n\n",
+      "source_hash": "ba492a9afcf23c86d5d0eda77c28f53c426c25dd8184edfb4502339396c1f343",
+      "target_id": "8848dd62581df0c68ef1e98bb361e8d6db08a952c19190dad708853caccdb9ad",
+      "source_progress": "C02 sequential review; Korean B2 cross-check"
     }
   ],
   "adjudicated_edit_count": 0,
@@ -1080,7 +1094,7 @@
   "ordered_reading_certification": {
     "korean": "READ_COMPLETE_ALL_65_DOCUMENTS",
     "english": "READ_COMPLETE_AVAILABLE_SOURCES_B1_AND_B2_FALLBACK",
-    "chinese": "IN_PROGRESS through B2-zh-00060; sequential continuation required"
+    "chinese": "IN_PROGRESS through B2-zh-00072; sequential continuation required"
   },
   "checked_unique_ids": [
     "B1-zh-00001",
@@ -1317,10 +1331,22 @@
     "B2-zh-00057",
     "B2-zh-00058",
     "B2-zh-00059",
-    "B2-zh-00060"
+    "B2-zh-00060",
+    "B2-zh-00061",
+    "B2-zh-00062",
+    "B2-zh-00063",
+    "B2-zh-00064",
+    "B2-zh-00065",
+    "B2-zh-00066",
+    "B2-zh-00067",
+    "B2-zh-00068",
+    "B2-zh-00069",
+    "B2-zh-00070",
+    "B2-zh-00071",
+    "B2-zh-00072"
   ],
-  "checked_rows": 235,
-  "corrected_rows": 150,
+  "checked_rows": 247,
+  "corrected_rows": 152,
   "notes": [
     "Only obvious omissions of clause numbering and a missing subparagraph marker corrected; substantive terminology and existing wording retained.",
     "B2 English is an older fallback (version 272521), not exact current Korean version; newer provisions require Korean-Chinese comparison.",
@@ -1348,6 +1374,7 @@
     "Sequential review through B2-zh-00048. Corrected review-application and personal-information processing provisions, statutory references, committee naming, facility terminology and paragraph numbering. Row B2-zh-00047 contains a large corrupted/mixed statutory list requiring a dedicated source-aligned pass; it remains pending adjudication and is not certified as clean.",
     "B2-zh-00047 was fully corrected against the Korean source after the initial sequential pass identified corrupted law titles, cross-references and mixed machine-translation artifacts. The previously saved B2-zh-00048 text was aligned to Article 39(3)-(6).",
     "Sequential review through B2-zh-00060. Corrected regulatory-review terminology, consequential amendment instrument names and cross-references, mental-health professional terminology, and appendix heading; retained accurate effective dates and remaining text.",
-    "Quality-preservation follow-up: restored the full existing text for B2-zh-00054 through B2-zh-00060 from the source index and applied only minimal statutory terminology substitutions, avoiding the earlier condensed paraphrase that could have omitted amendment subclauses."
+    "Quality-preservation follow-up: restored the full existing text for B2-zh-00054 through B2-zh-00060 from the source index and applied only minimal statutory terminology substitutions, avoiding the earlier condensed paraphrase that could have omitted amendment subclauses.",
+    "Sequential review through B2-zh-00072. Corrected the appendix heading and exact title of the amended Enforcement Decree in the consequential amendment clause. Other commencement dates and transitional provisions in rows 62, 64-72 checked and retained."
   ]
 }
