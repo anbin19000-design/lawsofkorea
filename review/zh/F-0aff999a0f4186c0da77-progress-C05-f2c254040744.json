@@ -1,0 +1,41 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "family_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_sha": "85e7f4b4d9f61fcc3da80d54c0bf04bbf0e63735",
+  "prior_corrections_preserved": 280,
+  "new_corrections": [
+    "A34916-zh-00015",
+    "A34916-zh-00093",
+    "A34916-zh-00104",
+    "A34916-zh-00112",
+    "A34916-zh-00165",
+    "A34916-zh-00211",
+    "A34916-zh-00010",
+    "A34916-zh-00013",
+    "A34916-zh-00042",
+    "A34916-zh-00050",
+    "A34916-zh-00163",
+    "A34916-zh-00186"
+  ],
+  "cumulative_corrections": 292,
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "chinese_total_rows": 1687,
+  "inspected_span": "A34916 penalty annex, selected fragment rows and whole Korean source; remaining cross-document semantic audit not certified",
+  "review_status": "ZH_SEMANTIC_AUDIT_IN_PROGRESS",
+  "english_note": "B1 exact English; B2 fallback version; annexes/forms without independently verified exact English.",
+  "notes": "Original SHA and all 280 prior corrections preserved. Twelve source-grounded Annex 5 adjustments saved and verified via GitHub read-back. Partial comparison does not certify complete meaning review, so neither COMPLETE nor receipt is warranted."
+}
