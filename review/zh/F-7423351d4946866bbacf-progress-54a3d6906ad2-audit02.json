@@ -1,0 +1,144 @@
+{
+  "schema": "LAW_ZH_REVIEW_AUDIT_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "status": "IN_PROGRESS",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:54a3d6906ad2]",
+  "source_blobs": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "review_blob": "2e6297456ff34d478083d83e65e167e39848e35c",
+  "total_documents": 16,
+  "total_rows": 1207,
+  "unique_rows": 1207,
+  "unique_edits": 66,
+  "document_coverage": [
+    {
+      "key": "B1",
+      "kind": "법률",
+      "rows": 103,
+      "edits": 30,
+      "english_status": "EXACT_ENGLISH_AVAILABLE"
+    },
+    {
+      "key": "B2",
+      "kind": "대통령령",
+      "rows": 57,
+      "edits": 8,
+      "english_status": "EXACT_ENGLISH_AVAILABLE"
+    },
+    {
+      "key": "A38090",
+      "kind": "별표",
+      "rows": 39,
+      "edits": 1,
+      "english_status": "EXACT_ENGLISH_AVAILABLE"
+    },
+    {
+      "key": "A38091",
+      "kind": "별표",
+      "rows": 119,
+      "edits": 4,
+      "english_status": "EXACT_ENGLISH_AVAILABLE"
+    },
+    {
+      "key": "B3",
+      "kind": "해양수산부령",
+      "rows": 76,
+      "edits": 9,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23947",
+      "kind": "별표",
+      "rows": 285,
+      "edits": 4,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23948",
+      "kind": "별표",
+      "rows": 62,
+      "edits": 1,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23949",
+      "kind": "별표",
+      "rows": 73,
+      "edits": 0,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23950",
+      "kind": "별표",
+      "rows": 90,
+      "edits": 3,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23951",
+      "kind": "서식",
+      "rows": 39,
+      "edits": 1,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23952",
+      "kind": "서식",
+      "rows": 51,
+      "edits": 1,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23953",
+      "kind": "서식",
+      "rows": 55,
+      "edits": 1,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23954",
+      "kind": "서식",
+      "rows": 21,
+      "edits": 0,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23955",
+      "kind": "서식",
+      "rows": 40,
+      "edits": 1,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23956",
+      "kind": "서식",
+      "rows": 49,
+      "edits": 1,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23957",
+      "kind": "서식",
+      "rows": 48,
+      "edits": 1,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    }
+  ],
+  "structural_scan": {
+    "examined_rows": 1207,
+    "unresolved": [
+      {
+        "id": "A23947-zh-00174",
+        "excerpt": "如果 START 中断"
+      }
+    ]
+  },
+  "semantic_review_complete": false,
+  "english_note": "Exact English text exists for B1 and B2, referenced for two decree annexes; B3 and regulation annex/form documents have no document-level English file.",
+  "next_verified_work": "Resolve A23947-zh-00174 by exact original Korean XML table cell; continue full row-by-row meaning, amounts, citations, annex/form review. Preserve original hashes and all prior edits.",
+  "note": "This is a verifiable structural and corrections index, not a claim of semantic certification or COMPLETE."
+}
