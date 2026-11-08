@@ -1,0 +1,24 @@
+{
+  "assignment_id": "UW-3d2a033bd55a38e7795a138e76bb7ba3",
+  "checked_rows": 1502,
+  "corrected_rows": 151,
+  "follow_up": "Preserve the current Road Act assignment and all saved decisions. Verify existing same-source whole-family reading evidence at the next supervision and, if still missing, route a whole-family quality follow-up through the single supplier after the current assignment.",
+  "job_id": "F-1124697e55b797f190e9",
+  "observed_at": "2026-11-08T14:50:44.197457+00:00",
+  "reading_evidence": {
+    "en": "Both official linked English bodies retrieved; Act exact-version, Decree older fallback. English-only annex documents not identified.",
+    "final_audit": "Confirmed 23 Korean original documents, 2 linked English documents (exact Act, older Decree fallback), 1502 Chinese original rows and all active edit IDs; source hashes validated. Separate bilingual English form labels preserved.",
+    "ko": "All 23 Korean document bodies loaded in document order; targeted substantive alignment performed for B1 Article 1-22.",
+    "zh": "First complete sequential pass of all 1502 Chinese rows (Act B1 225; Decree B2 216; seven annexes 451; fourteen forms 610) against source family. High-confidence legal/form misrenderings corrected, Korean numerical thresholds and embedded bilingual English labels retained. Additional final validation required."
+  },
+  "reason": "Korean evidence states all documents loaded and targeted alignment for B1. English evidence states both files retrieved. Independent completion of whole KO then EN reading remains unverified.",
+  "source_blobs": {
+    "en": "e63ad3cc6772145fa2571b4d4346fabe365d20fe",
+    "ko": "e3ce444ef2f3559e724a90f156034d83f4d909be",
+    "zh": "d34872df6c903f77b89d6dec36899b82f73df0b2"
+  },
+  "status": "READING_EVIDENCE_REVIEW_REQUIRED",
+  "verified_receipt_blob": "293285b46ea39443097d27a44600c046fdc1e0b2",
+  "verified_review_blob": "d5d38fa5955ca481cc339dfd7c523fe8cdaa3075",
+  "worker": "C06"
+}
