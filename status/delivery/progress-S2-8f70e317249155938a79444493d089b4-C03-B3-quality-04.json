@@ -1,0 +1,45 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "B3",
+  "quality_batch": "B3-quality-04",
+  "range": {
+    "first": "B3-zh-00018",
+    "last": "B3-zh-00019"
+  },
+  "quality_checked_rows": 2,
+  "quality_passed_rows": 2,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "B3-zh-00018",
+    "B3-zh-00019"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B3-00010-00019.json",
+  "prior_quality_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B3-quality-03.json",
+  "results": [
+    {
+      "id": "B3-zh-00018",
+      "source_hash": "dc62a1c00ddeea8e1743f7d80415670f4d8e40de8b222d83978078c9adc0e58b",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "부칙 제6조의 여성가족부장관→성평등가족부장관, 여성가족부령→성평등가족부령, 별지 제7·8호서식 및 ⑯ 인용을 한국어와 기존 저장 교정문에 대조 확인."
+    },
+    {
+      "id": "B3-zh-00019",
+      "source_hash": "72231f6d67aea1375a145784438aade61e92b3edaadf5a41a91c609be483336b",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "부칙 제13호(2026.7.22)의 공포일 시행 문장만 유지하고 다음 별지 제1호서식 혼입 부분이 이전 저장 교정에서 제거된 것을 확인."
+    }
+  ],
+  "edits": [],
+  "note": "한국어 원문, 중국어 원본 및 기저장 B3-00010-00019의 두 교정 후보를 직접 대조한 후속 품질 판정. 기존 교정·판정·ID·해시 불변. 전체 COMPLETE 아님."
+}
