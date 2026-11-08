@@ -1,0 +1,34 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "worker": "C05",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "b297dd9892fcae29873733a2f565b5b0bbc33bc0",
+  "previous_corrections": 254,
+  "new_correction_ids": [
+    "B1-zh-00150",
+    "B1-zh-00158"
+  ],
+  "correction_count": 256,
+  "pending_rows": 89,
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "full_reading_proven": false,
+  "completion_receipt": null,
+  "english_availability": {
+    "rows_with_english_reference": 771,
+    "rows_without_english_reference": 603
+  },
+  "note": "기존 254건과 원본 SHA 보존. 한국어 법률 부칙의 명백한 제목 및 조문 생략 인용 오류만 2건 교정. 24문서 KO/EN/ZH 전체 순차 독해와 89행 보류 미해결. 완료 미발행."
+}
