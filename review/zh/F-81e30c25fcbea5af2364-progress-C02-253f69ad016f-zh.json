@@ -1,0 +1,76 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "family_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "pc": "WORK-C",
+  "panel_id": "panel-02",
+  "branch": "main",
+  "task_marker": "WORK-TASK:C02:F-81e30c25fcbea5af2364:253f69ad016f",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "korean_reading": {
+    "complete": true,
+    "document_count": 17
+  },
+  "english_reading": {
+    "complete": true,
+    "source_documents": [
+      {
+        "path": "documents/en/kr-010730-283399-en.json",
+        "document": "B1",
+        "source_version": "283399",
+        "chars": 119303,
+        "blob_sha": "cc660d340ea7f226437ea70597de4ad369133651"
+      },
+      {
+        "path": "documents/en/kr-010846-270111-en.json",
+        "document": "B2",
+        "source_version": "270111",
+        "chars": 113972,
+        "blob_sha": "3b7a9c8967e958646ec42b5e3d20403761d896f8"
+      }
+    ],
+    "missing_english_document_keys": [
+      "B3",
+      "A25465",
+      "A25466",
+      "A25467",
+      "A25468",
+      "A25469",
+      "A25470",
+      "A25471",
+      "A25472",
+      "A25473",
+      "A25474"
+    ],
+    "version_match": false
+  },
+  "chinese_reading": {
+    "phase": "B1_ORDERED_INITIAL_PASS",
+    "directly_compared_first_35_rows": true,
+    "total_zh_rows": 1133,
+    "full_family_complete": false,
+    "corrected_ids": [
+      "B1-zh-00027"
+    ],
+    "other_rows": "Prior edits retained; no assertion of full semantic check"
+  },
+  "cumulative_review": {
+    "path": "review/zh/F-81e30c25fcbea5af2364.json",
+    "blob_sha": "003d175689aa2c6a9027f414b2fd72b4bc048e54",
+    "edit_count": 346
+  },
+  "ordered_reading_certification": {
+    "ko": true,
+    "en": true,
+    "zh": false
+  },
+  "completion_receipt_verified": false,
+  "next_action": "Continue sequential Chinese review B1 row 00036 onward through all 17 documents, resolve pending 343 candidates and remaining evidence gaps; only then finalize."
+}
