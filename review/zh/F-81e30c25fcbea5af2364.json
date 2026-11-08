@@ -3265,19 +3265,33 @@
       "id": "A36425-zh-00028",
       "source_hash": "2a589a2d13c086440d01f4e0dfb921224c0a5180f2b53049c6b2cba792689242",
       "target_id": "XML:2657284",
-      "text": "以虚假或其他不正当手段取得指定的情况",
-      "reason": "Correct clearly corrupted or untranslated table cell against Korean source.",
-      "verification": "C02_DIRECT_KOREAN_APPENDIX_COMPARISON",
-      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3aa49a4f01f1.json"
+      "text": "手段取得指定的情形",
+      "reason": "Correct heading terminology and restore the tail cell to its original split-cell continuation, avoiding duplicated text.",
+      "verification": "C02_DIRECT_KOREAN_ANNEX2_COMPARISON",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex2.json",
+      "prior_text_versions": [
+        {
+          "task": "4e0b46ff6294",
+          "text": "以虚假或其他不正当手段取得指定的情况",
+          "reason": "Preserve prior cumulative wording before current Korean-source cross-cell adjudication"
+        }
+      ]
     },
     {
       "id": "A36425-zh-00033",
       "source_hash": "1a9b9939c840311cf71e64333cfd6ac784018cedc37cde9d3d9f845ccba4542e",
       "target_id": "XML:2657289",
-      "text": "违反指定事项开展业务的情况",
-      "reason": "Correct clearly corrupted or untranslated table cell against Korean source.",
-      "verification": "C02_DIRECT_KOREAN_APPENDIX_COMPARISON",
-      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3aa49a4f01f1.json"
+      "text": "务的情形",
+      "reason": "Correct heading terminology and restore the tail cell to its original split-cell continuation, avoiding duplicated text.",
+      "verification": "C02_DIRECT_KOREAN_ANNEX2_COMPARISON",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex2.json",
+      "prior_text_versions": [
+        {
+          "task": "4e0b46ff6294",
+          "text": "违反指定事项开展业务的情况",
+          "reason": "Preserve prior cumulative wording before current Korean-source cross-cell adjudication"
+        }
+      ]
     },
     {
       "id": "A36425-zh-00039",
@@ -5853,6 +5867,24 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex1.json",
       "verification": "C02_DIRECT_KOREAN_ANNEX_COMPARISON",
       "reason": "Korean annex enumerates facility conditions as 가 then 나; this second facility condition must be item 乙, not a duplicate 甲."
+    },
+    {
+      "id": "A36425-zh-00002",
+      "source_hash": "6146cdd69a3f5f061fc72226f826cb3f3f88a7f684ee868b47fe022fd6a56691",
+      "target_id": "XML:2657257",
+      "text": "支持机构指定撤销及业务暂停的标准（与第22条之4第5款有关）",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex2.json",
+      "verification": "C02_DIRECT_KOREAN_ANNEX2_COMPARISON",
+      "reason": "Correct heading terminology and restore the tail cell to its original split-cell continuation, avoiding duplicated text."
+    },
+    {
+      "id": "A36425-zh-00015",
+      "source_hash": "1d6f6bce78138ea58d3cc062dbce45c849d57266d25052a404c84318174a0c95",
+      "target_id": "XML:2657270",
+      "text": "2. 个别标准",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex2.json",
+      "verification": "C02_DIRECT_KOREAN_ANNEX2_COMPARISON",
+      "reason": "Correct heading terminology and restore the tail cell to its original split-cell continuation, avoiding duplicated text."
     }
   ],
   "adjudicated_edit_count": 554,
@@ -11089,12 +11121,13 @@
     "2026-11-08 C02 4e0b46ff6294 continuation: compared B2 rows 00141-00160 with Korean source, added corrections for 00148, 00152 and 00153, and retained previous verified edits on related rows. Full-family review remains IN_PROGRESS.",
     "2026-11-08 C02 4e0b46ff6294 decree-tail: compared B2 rows 00161-00180; corrected 14 rows with clear supplementary provision, enforcement decree title and 시행/施行 errors, plus the correct title of the Intelligent Informatization Basic Act Enforcement Decree. Existing prior edits retained. Full-family review remains IN_PROGRESS.",
     "2026-11-08 C02 4e0b46ff6294 B2 tail: compared all rows 00181-00209 to Korean original through the end of the Enforcement Decree, corrected 17 rows and retained existing edits. B2 00209 annex spillover is kept in the separately catalogued A36424 annex, not duplicated into B2. Whole-family status remains IN_PROGRESS.",
-    "2026-11-08 C02 4e0b46ff6294 Annex 1: compared all 31 A36424 Chinese cells with the Korean annex; corrected the second facility condition's item marker (나) from duplicate a to 乙. Existing prior edits retained, including area split cells and footnote statutory definitions. Full-family remains IN_PROGRESS."
+    "2026-11-08 C02 4e0b46ff6294 Annex 1: compared all 31 A36424 Chinese cells with the Korean annex; corrected the second facility condition's item marker (나) from duplicate a to 乙. Existing prior edits retained, including area split cells and footnote statutory definitions. Full-family remains IN_PROGRESS.",
+    "2026-11-08 C02 4e0b46ff6294 Annex 2: compared all 52 A36425 Chinese cells against the Korean original and prior R69/R70 evidence. Updated rows 2, 15, 28 and 33; specifically restored row 28 and 33 as continuation fragments rather than duplicated full descriptions. Existing edits and all original cell IDs/hashes preserved. Family remains IN_PROGRESS."
   ],
   "integration_progress": {
-    "stage": "A36424_ANNEX1_ROWS_00001_00031_RECONCILED",
+    "stage": "A36425_ANNEX2_ROWS_00001_00052_RECONCILED",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:4e0b46ff6294",
-    "note": "Compared all 31 Chinese cells in A36424 with the complete Korean annex. Prior accepted corrections for title, table headings, personnel letters, experience qualifications, office-area split cells and statutory definitions retained. Corrected the facility item marker 나 from duplicate 'a' to '乙'. No direct row-level English match; Korean source controls."
+    "note": "Compared all 52 Chinese cells in A36425 against the Korean Annex 2. Reconciled prior R69/R70 edits for general standards, violation descriptions, statutory citations and penalty schedule. Restored split-cell tails in rows 28 and 33 to avoid duplicate wording; corrected support-institution/business-suspension heading and individual-criteria label. Prior source-backed corrections preserved."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -11706,7 +11739,54 @@
     "A36424-zh-00028",
     "A36424-zh-00029",
     "A36424-zh-00030",
-    "A36424-zh-00031"
+    "A36424-zh-00031",
+    "A36425-zh-00002",
+    "A36425-zh-00003",
+    "A36425-zh-00007",
+    "A36425-zh-00008",
+    "A36425-zh-00009",
+    "A36425-zh-00010",
+    "A36425-zh-00011",
+    "A36425-zh-00012",
+    "A36425-zh-00013",
+    "A36425-zh-00014",
+    "A36425-zh-00015",
+    "A36425-zh-00016",
+    "A36425-zh-00017",
+    "A36425-zh-00018",
+    "A36425-zh-00019",
+    "A36425-zh-00020",
+    "A36425-zh-00021",
+    "A36425-zh-00022",
+    "A36425-zh-00023",
+    "A36425-zh-00024",
+    "A36425-zh-00025",
+    "A36425-zh-00026",
+    "A36425-zh-00027",
+    "A36425-zh-00028",
+    "A36425-zh-00029",
+    "A36425-zh-00030",
+    "A36425-zh-00031",
+    "A36425-zh-00032",
+    "A36425-zh-00033",
+    "A36425-zh-00034",
+    "A36425-zh-00035",
+    "A36425-zh-00036",
+    "A36425-zh-00037",
+    "A36425-zh-00038",
+    "A36425-zh-00039",
+    "A36425-zh-00040",
+    "A36425-zh-00041",
+    "A36425-zh-00042",
+    "A36425-zh-00043",
+    "A36425-zh-00044",
+    "A36425-zh-00045",
+    "A36425-zh-00046",
+    "A36425-zh-00047",
+    "A36425-zh-00048",
+    "A36425-zh-00049",
+    "A36425-zh-00050",
+    "A36425-zh-00051"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
