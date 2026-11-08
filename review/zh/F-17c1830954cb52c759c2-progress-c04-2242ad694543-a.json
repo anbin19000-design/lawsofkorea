@@ -27,10 +27,10 @@
   ],
   "reading_checkpoint": {
     "required_order": "KO_FULL_EN_FULL_ZH_FULL",
-    "ko": "IN_PROGRESS: all 30 Korean source documents extracted and inspected in ordered sequence; continued line-by-line verification of all annexes/forms is underway.",
-    "en": "IN_PROGRESS: B1 exact official English full text read; B2 older official fallback full text read; no separate English document for B3 and attached 22 annex/form records.",
-    "zh": "IN_PROGRESS: sequential review underway across 1,275 rows; 60 source-hash-bound corrections drafted for clear errors; continue remaining rows and final QC.",
-    "next_step": "Continue sequential Chinese review of all 1,275 rows, inspect remaining form rows and verify numerical/legal cross-references; then final QC."
+    "ko": "IN_PROGRESS: all 30 Korean documents retrieved; Act, Decree and core annexes reviewed; detailed sequential verification of remaining forms continues.",
+    "en": "IN_PROGRESS: exact official B1 English and older B2 fallback full texts read; no separate English for B3 or attached forms/annexes.",
+    "zh": "IN_PROGRESS: 1,275 Chinese rows loaded and reviewed in sequence; targeted corrections recorded; continue row-by-row QC for remaining untranslated, legal citations, numbers and forms.",
+    "next_step": "Continue checking every Chinese row, especially remaining B1 articles, B2 delegation provisions, B3 annex text and forms; then verify all corrections and source hashes."
   },
   "findings": [
     {
@@ -44,9 +44,21 @@
     {
       "id": "B2",
       "issue": "Fallback English version is older than the Korean source; used as reference only. B3 and 22 annex/form records have no separate English document."
+    },
+    {
+      "id": "B1-zh-00020/B1-zh-00021",
+      "issue": "上一版草拟的条文标题编号偏移，现已按韩文原文分别更正为第17条和第18条。"
+    },
+    {
+      "id": "A39652/A39653/A39655",
+      "issue": "原有48条空文本并非有意删除，均为表格断行、句子续行或标点；现已逐条恢复为非空中文片段并保留源行SHA。"
+    },
+    {
+      "id": "A27052-zh-00028",
+      "issue": "韩文表格原文引用第93条第12款，与本法第9条第12款及上下文不一致；保留原文引用并加注源文异常，不擅自改写法源。"
     }
   ],
-  "notes": "Preserves original source blobs and prior reading bookmark. Initial targeted corrections include incomplete Korean-only fragments in B2 Articles 8 and 17, statutory reference errors, the 100/100 state-property fee reduction cap, UAM terminology, appendix criteria and amounts, and MTQ artifacts/processing periods in forms. This is a progress checkpoint, not COMPLETE.",
+  "notes": "Preserves original source blobs and prior reading bookmark. Initial targeted corrections include incomplete Korean-only fragments in B2 Articles 8 and 17, statutory reference errors, the 100/100 state-property fee reduction cap, UAM terminology, appendix criteria and amounts, and MTQ artifacts/processing periods in forms. This is a progress checkpoint, not COMPLETE. Preserved original handoff checkpoint findings. All prior 48 empty correction entries have now been restored to nonempty source-backed fragments; no source row is intentionally deleted.",
   "edits": [
     {
       "id": "B1-zh-00001",
@@ -122,14 +134,14 @@
     },
     {
       "id": "B1-zh-00020",
-      "text": "第二十条（建立、运营城市空中交通信息系统等）\n① 国土交通部长官可以建立、运营城市空中交通信息系统（以下简称“信息系统”），整合下列信息（以下简称“城市空中交通信息”），以确保城市航空器运行安全、有序及高效：\n1. 依第12条提供的垂直起降场信息；\n2. 依第13条提供的城市空中交通走廊信息；\n3. 依第18条提供的城市空中交通空间信息；\n4. 依《机场设施法》第43条及第49条提供的航行安全设施信息；\n5. 其他总统令规定的信息。\n② 国土交通部长官可以向城市空中交通业务经营者提供国家管理的城市空中交通信息。\n③ 国土交通部长官可以要求有关行政机关、公共机构及城市空中交通相关机构或团体的负责人提供城市空中交通信息。收到要求者除有特别理由外，应予配合。\n④ 信息系统的建设、运营及城市空中交通信息提供等必要事项，由国土交通部令规定。",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "第十七条（建立、运营城市空中交通信息系统等）\n① 国土交通部长官可以建立、运营城市空中交通信息系统（以下简称“信息系统”），整合下列信息（以下简称“城市空中交通信息”），以确保城市航空器运行安全、有序及高效：\n1. 依第12条提供的垂直起降场信息；\n2. 依第13条提供的城市空中交通走廊信息；\n3. 依第18条提供的城市空中交通空间信息；\n4. 依《机场设施法》第43条及第49条提供的航行安全设施信息；\n5. 其他总统令规定的信息。\n② 国土交通部长官可以向城市空中交通业务经营者提供国家管理的城市空中交通信息。\n③ 国土交通部长官可以要求有关行政机关、公共机构及城市空中交通相关机构或团体的负责人提供城市空中交通信息。收到要求者除有特别理由外，应予配合。\n④ 信息系统的建设、运营及城市空中交通信息提供等必要事项，由国土交通部令规定。",
+      "reason": "对照韩文原文纠正条号或补足明显漏译。",
       "original_source_hash": "a0dffa66b5d61922a890aa882f049f4229a4e8df4ed624cae435644e8d2964a1"
     },
     {
       "id": "B1-zh-00021",
-      "text": "第二十一条（建设城市空中交通空间信息）\n① 国土交通部长官可以依总统令规定建设城市空中交通空间信息，以支持城市航空器安全运行及城市空中交通商业化。\n② 国土交通部长官可以免费向希望利用者提供依第1款建设的城市空中交通空间信息。\n③ 城市空中交通业务经营者因位置、气象等信息发生变化而需要更新城市空中交通空间信息，且总统令规定事项发生变化时，应依国土交通部令规定通知国土交通部长官。",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "第十八条（建设城市空中交通空间信息）\n① 国土交通部长官可以依总统令规定建设城市空中交通空间信息，以支持城市航空器安全运行及城市空中交通商业化。\n② 国土交通部长官可以免费向希望利用者提供依第1款建设的城市空中交通空间信息。\n③ 城市空中交通业务经营者因位置、气象等信息发生变化而需要更新城市空中交通空间信息，且总统令规定事项发生变化时，应依国土交通部令规定通知国土交通部长官。",
+      "reason": "对照韩文原文纠正条号或补足明显漏译。",
       "original_source_hash": "698f528223561a79f79a97591c108d28f30f362953931de064ebf47830ff94e3"
     },
     {
@@ -266,8 +278,8 @@
     },
     {
       "id": "A39652-zh-00009",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "（仅限于本法第2条第8号a目规定的城市空中交通运输业务用途）",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "4447b100aae29fd942dccc7bb031b500c26b9efce3473d905d0a458d3458012e"
     },
     {
@@ -278,8 +290,8 @@
     },
     {
       "id": "A39652-zh-00011",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "由国土交通部令规定的设施。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "63feced3ff2af91c9aebae457246889a212120c800abe3db86a97cb23b7eec95"
     },
     {
@@ -308,8 +320,8 @@
     },
     {
       "id": "A39652-zh-00018",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "由国土交通部令规定、在连接城市空中交通走廊的多个垂直起降场中至少一个应配备的设施。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "97f83877e4cfbc85f682225d73f1eb12dd81d62682514672b9308b5acb509359"
     },
     {
@@ -326,8 +338,8 @@
     },
     {
       "id": "A39652-zh-00023",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "设施。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "baf12e06e5f592c32ca33a7359edc3d039f5a998ef2e7010cb5dbb28f93b13c7"
     },
     {
@@ -338,8 +350,8 @@
     },
     {
       "id": "A39652-zh-00025",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "建筑物的附属设施。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "377ba4a570f76a8b8355bbc7e2bd82f05314e7dda6a405c8fce55adc14730949"
     },
     {
@@ -350,8 +362,8 @@
     },
     {
       "id": "A39652-zh-00027",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "设施。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "1c5e86f19764ae751a8aeede25ef3c0bfa9c6342d8ff0ce32f791282711ea604"
     },
     {
@@ -398,14 +410,14 @@
     },
     {
       "id": "A39653-zh-00008",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "用于城市航空器运行领域示范项目的城市航空器等设备",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "d71891a1133841f15039269b002300cc9c2e6fdf953032071fb086930f56e389"
     },
     {
       "id": "A39653-zh-00009",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "应当配备。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "948a491317e3fd265d4cb7065459a1a4d398f4c2b2edd1a62fd75ac48701b3bc"
     },
     {
@@ -452,8 +464,8 @@
     },
     {
       "id": "A39653-zh-00017",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "用于城市空中交通管理的计算机设备、通信设备及管制设备等",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "a2f3663341c5c2862cea3e22413d40981cf2685883748c15a2b5a2f21966ad91"
     },
     {
@@ -470,8 +482,8 @@
     },
     {
       "id": "A39653-zh-00020",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "应至少配备1名具备同等资格的人员。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "12ac6a2ad2ff9705bf3016346b6d244dfb25c74b211deb759fbcc5155125d3a8"
     },
     {
@@ -494,14 +506,14 @@
     },
     {
       "id": "A39653-zh-00024",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "用于垂直起降场稳定运营、管理的计算机设备、通信设备等",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "31053aa13cc2eae274d31ac983a84c9bbd5f81a64e4bad68a6c4f7edd96b73d4"
     },
     {
       "id": "A39653-zh-00025",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "应当配备。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "3a74f624c36759803b207d4a2f5c2a0171b1912d0fad1628cee64eb11ec8b15c"
     },
     {
@@ -524,20 +536,20 @@
     },
     {
       "id": "A39653-zh-00029",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "国土交通部长官规定的教育训练，或与该教育训练相当的教育",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "c9387d66d8c22a2ed7c550d42533f56c8ec840c37d7b431806c47e9a4abb49e3"
     },
     {
       "id": "A39653-zh-00030",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "并完成该教育训练，且能够执行垂直起降场安全检查监督业务的人员",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "c23e349c3885a2e6d499ddcc9878b30c0eb875811e93bfd026c98ced4d698e48"
     },
     {
       "id": "A39653-zh-00031",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "3ba5c8d279663609d3c4f33b7a00e8f2f4ed7d7cfd6dbbf956316e0b3c3418d3"
     },
     {
@@ -548,8 +560,8 @@
     },
     {
       "id": "A39653-zh-00033",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "并能够执行垂直起降场运营、管理业务的人员：",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "20f5e8b1b808df2c04c3266837136ba9141a4c624346050ad30db7b52b77a096"
     },
     {
@@ -560,20 +572,20 @@
     },
     {
       "id": "A39653-zh-00035",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "的管理、运营及使用标准，完成航行安全设施管理、运营人员",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "a7a2e310e915abee305eb11705e8b035f98984a01d751b4f34838e9fcd982771"
     },
     {
       "id": "A39653-zh-00036",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "应接受的教育训练",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "2a2780c25dbf5ebe51054dba622875ee21d6bc3af865686cdef2a3aefc580692"
     },
     {
       "id": "A39653-zh-00037",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "并已完成该教育训练者；",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "cc2a2aed912338ea2633fd1f35a09e35488d08e978a236c152bd23e0b87961b5"
     },
     {
@@ -602,14 +614,14 @@
     },
     {
       "id": "A39653-zh-00042",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "依本法第2条第8号a目规定的城市空中交通运输业务，或同号d目规定的城市航空器使用业务",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "02f3924f66f4bf25bcc2dd6a22f33d313e1f28c26baa1ce16c16a5a7e8eb2fd6"
     },
     {
       "id": "A39653-zh-00043",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "拟开展示范项目者。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "8b1eea8968d3403be65a5b6e43a819ad65ffd29f8c520b1c70334c5683481197"
     },
     {
@@ -620,8 +632,8 @@
     },
     {
       "id": "A39653-zh-00045",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "拟就本法第2条第8号b目规定的城市空中交通管理业务开展示范项目者。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "4847b2a46a2c68d26c3fdc262598b46849d56b396eb901868e487d623c414a58"
     },
     {
@@ -632,14 +644,14 @@
     },
     {
       "id": "A39653-zh-00047",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "拟就本法第2条第8号c目规定的垂直起降场运营管理业务开展示范项目者。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "ff04c9116c5d4e9b12f72f81126e640df8e80f5121d08d0f1fdbe26dad5ab3c3"
     },
     {
       "id": "A39653-zh-00048",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "3774c4ff28abbe0c8a233e1e5c7730360c5aec1cd57884ca7f977e73bf6a38a5"
     },
     {
@@ -650,8 +662,8 @@
     },
     {
       "id": "A39653-zh-00050",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "13bbc63b146c9b71ae724f30fcd2556b05edfa0ac7f795a3ac4d935373eb3c2d"
     },
     {
@@ -662,8 +674,8 @@
     },
     {
       "id": "A39653-zh-00052",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "及人员标准。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "f1604fb9a3014196bfd09d3334d28063446bf9813a78355b3bcc2ae8b65e54b2"
     },
     {
@@ -674,8 +686,8 @@
     },
     {
       "id": "A39653-zh-00054",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "b07f284c168b4439d8094be830d84b516e0148679cabd0662c895cfc05d593ad"
     },
     {
@@ -704,8 +716,8 @@
     },
     {
       "id": "A39654-zh-00005",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "的垂直起降场细分类别如下：",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "015b86f1867aefa74862fe7ca088f471e81405f0b9000dd2f5a4005e39295b37"
     },
     {
@@ -818,14 +830,14 @@
     },
     {
       "id": "A39655-zh-00008",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "用于运营城市空中交通运输业务的城市航空器等设备",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "433396208c7417b1266c338dbef58da66bbd10c6b3d48703def1fbb4fce86403"
     },
     {
       "id": "A39655-zh-00009",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "应当配备。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "177d051e5e8743292fb54148cf8263972cf89ea4658f4fef39f09d3b8e78e65c"
     },
     {
@@ -878,20 +890,20 @@
     },
     {
       "id": "A39655-zh-00018",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "配备计算机设备、通信设备、管制设备等，确保城市空中交通稳定管理及城市航空器管制。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "d2dd4d79322b49dc5977d4eda60090b21da1bf65518d2ba438726ca82f7ddc19"
     },
     {
       "id": "A39655-zh-00019",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "2) 应具备城市空中交通管理业务所需的办公室或营业场所。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "5908a5fc7609341686d94127cfc846055e5bbf6b54d1bf169af40a5ddf7ce879"
     },
     {
       "id": "A39655-zh-00020",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "1eab16b9911e278fa7ee40bacbbe7d27e6f1bdfcaef8aac2740a78fa8aab12dc"
     },
     {
@@ -908,8 +920,8 @@
     },
     {
       "id": "A39655-zh-00023",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "应至少配备1名具备同等资格的人员。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "12ac6a2ad2ff9705bf3016346b6d244dfb25c74b211deb759fbcc5155125d3a8"
     },
     {
@@ -938,26 +950,26 @@
     },
     {
       "id": "A39655-zh-00028",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "设备等",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "7b3733aab2fd0dcf59d453ff7ce2c32f01b757f4d45bf6d21819f9915123613f"
     },
     {
       "id": "A39655-zh-00029",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "应当配备。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "3a74f624c36759803b207d4a2f5c2a0171b1912d0fad1628cee64eb11ec8b15c"
     },
     {
       "id": "A39655-zh-00030",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "2) 应具备垂直起降场运营、管理业务所需的办公室或营业场所。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "f4a2135bb916c3085c3dbcd840cf99fead97974598069a9b4811f9f3fe3f1894"
     },
     {
       "id": "A39655-zh-00031",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "1eab16b9911e278fa7ee40bacbbe7d27e6f1bdfcaef8aac2740a78fa8aab12dc"
     },
     {
@@ -980,20 +992,20 @@
     },
     {
       "id": "A39655-zh-00035",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "国土交通部长官规定的教育训练，或与该教育训练相当的教育",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "9c3badf5eeefdba912a7b1766111ce7079ff02aeadd650399e797aeda91dad04"
     },
     {
       "id": "A39655-zh-00036",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "并完成该教育训练，且能够执行垂直起降场安全检查监督业务的人员",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "3332bc40f88f86bc8c4d9992ebc5b265223fe5258f064da77b752bcb23af49ce"
     },
     {
       "id": "A39655-zh-00037",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "应当配备。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "4b7b8feb5cef2b19566245c273a82a8b8a93294a90764553460048a6a56f961c"
     },
     {
@@ -1004,8 +1016,8 @@
     },
     {
       "id": "A39655-zh-00039",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "并能够执行垂直起降场运营、管理业务的人员：",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "2dd5fa6720b12c42645b102e34c40263b1d061981cc235cc44369db004db1c6d"
     },
     {
@@ -1016,8 +1028,8 @@
     },
     {
       "id": "A39655-zh-00041",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "依该标准管理、运营航行安全设施的人员应完成的教育训练",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "97ad889de461cceb687fa79e216d1a6bb30622e681290724884bafff1553d480"
     },
     {
@@ -1028,8 +1040,8 @@
     },
     {
       "id": "A39655-zh-00043",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "所述教育训练的讲师。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "a7c46c19d1a9f1d1560ad3f3bd1fce002eefc8589b589a5ff5aebf48ca054f14"
     },
     {
@@ -1046,8 +1058,8 @@
     },
     {
       "id": "A39655-zh-00046",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "业务",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "b443fa1719c2f8a77315b30fb3ab0e6fad6d59bd7a5b89f823cc3068ac432cee"
     },
     {
@@ -1064,8 +1076,8 @@
     },
     {
       "id": "A39655-zh-00049",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "该设备及设施视为已具备。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "8cf46f59b7c4720cf5ff7c5625126f767df6c0299732cf4856502b1105c88ba9"
     },
     {
@@ -1076,8 +1088,8 @@
     },
     {
       "id": "A39655-zh-00051",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "该业务领域的设备及人员标准应分别满足。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "11cba5f0ed0214cd16746b9f26a31c974d8554bc43e299167b3d00d0e913703a"
     },
     {
@@ -1088,8 +1100,8 @@
     },
     {
       "id": "A39655-zh-00053",
-      "text": "",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "。",
+      "reason": "恢复并修正原翻译中被误作删除的表格续行、句子片段或标点；依据相邻行和韩文原文核对。",
       "original_source_hash": "b07f284c168b4439d8094be830d84b516e0148679cabd0662c895cfc05d593ad"
     },
     {
@@ -1466,8 +1478,8 @@
     },
     {
       "id": "A27049-zh-00044",
-      "text": "商业计划书（包括工程设计文件）",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "事业计划书（包括本法第9条第6款各号规定的事项）",
+      "reason": "对照韩文原文纠正条号或补足明显漏译。",
       "original_source_hash": "bd756801b2c64a089e11b0169882ee151cfaa4789fae3fe2f70416e49e5ccaeb"
     },
     {
@@ -1589,7 +1601,19 @@
       "text": "兹证明此人为公务员，依《促进和支持城市空中交通利用法》第27条，有权命令城市空中交通业务经营者提交相关业务所需报告或资料，并进入其办公室或其他必要场所检查相关业务。",
       "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
       "original_source_hash": "129afe3560acbdbdd8c0e241c24b780f35aa44f1e113f298cc5c78c1cc8dff02"
+    },
+    {
+      "id": "B3-zh-00007",
+      "text": "第六条（指定城市空中交通示范项目经营者）\n① 拟依本法第7条第1款申请指定为城市空中交通示范项目经营者者，应向国土交通部长官（国土交通部长官依本法第28条第2款及施行令第25条委托相关业务时，指受托机构；以下同）提交附件1格式的指定申请书，并附具下列文件。申请人为法人时，国土交通部长官应通过《电子政府法》第36条第1款规定的行政信息共同利用，确认法人登记事项证明书。\n1. 包括下列事项的事业计划书：\na. 示范目的及示范期间；\nb. 示范推进计划及推进体系；\nc. 安全管理及事故应对计划；\nd. 国土交通部长官认为指定示范项目经营者所需并公告的其他事项。\n2. 证明符合施行令附表2指定标准的文件。\n② 国土交通部长官收到第1款申请时，应决定是否指定，并自收到申请之日起60日内通知申请人。但有不可避免事由时，可以延长一次，延长期限最多30日。\n③ 国土交通部长官依本法第7条第1款指定示范项目经营者时，应发给附件2格式的指定书，并将该事实记载于附件3格式的指定台账。\n④ 除第1款至第3款规定外，示范项目经营者指定程序的具体必要事项，由国土交通部长官制定并公告。",
+      "reason": "对照韩文原文纠正条号或补足明显漏译。",
+      "original_source_hash": "5994fa95f7b55ae82adbee744d4a7a8d1fc363c3c0df2c90f735c62ab410a454"
+    },
+    {
+      "id": "A27061-zh-00004",
+      "text": "证书编号（Certi. No.）",
+      "reason": "对照韩文原文纠正条号或补足明显漏译。",
+      "original_source_hash": "8d5daa2251e73c4015cd0197f84191374616b6b9e113ac26de7e649fa915e28d"
     }
   ],
-  "corrected_rows": 257
+  "corrected_rows": 259
 }
