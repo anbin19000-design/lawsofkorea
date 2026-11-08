@@ -1,0 +1,137 @@
+{
+  "schema": "LAW_ZH_C02_CANDIDATE_ADJUDICATION_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "task_marker": "5e7d64734731",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "scope": "Act and Decree Korean-source comparison, historical candidate acceptance/rejection",
+  "decisions": [
+    {
+      "id": "A25469-zh-00013",
+      "source_hash": "109383e344db8ae54a47c140e43b12fd1809e15469e42b9aba848f2f0fd758ca",
+      "target_id": "XML:1802868",
+      "decision": "RETAIN_ORIGINAL_NO_EDIT",
+      "reason": "The existing Chinese source and candidate both read 结果; no change.",
+      "retained_text": "结果",
+      "rejected_historical_variant": "结果"
+    },
+    {
+      "id": "B1-zh-00015",
+      "source_hash": "900e1d75f97395f894b6eb011cf914bba7b302fb706457fa1e09f554356fffb5",
+      "target_id": "1a77f4253c38db3eb4caaf1fa0365c6c5e6f0ee1a8cb97a76da4b84974efa959",
+      "decision": "RETAIN_ORIGINAL_NO_EDIT",
+      "reason": "Korean Article 10 approval by minister after inter-agency consultation, immediate notice in 공보, and dates are preserved in original Chinese.",
+      "retained_text": "第十条（智慧城市规划的批准）\n① 负责制定智慧城市规划的机构依据第八条制定智慧城市规划后，应当事先与相关行政机关负责人协商，并取得国土交通大臣批准。<2012年5月23日、2013年3月23日、2017年3月21日修订>\n② 负责制定智慧城市规划的机构根据第1款获得批准后，应当立即在官方公报上公布其内容。<2012年5月23日、2017年3月21日修订>\n\n",
+      "rejected_historical_variant": "第十条（智慧城市计划的批准）\n① 智慧城市计划制定权人依据第八条制定智慧城市计划后，应当事先与有关行政机关负责人协商，并取得国土交通部长官的批准。<2012年5月23日、2013年3月23日、2017年3月21日修订>\n② 智慧城市计划制定权人取得第一款规定的批准后，应当立即在公报上公告其内容。<2012年5月23日、2017年3月21日修订>\n\n"
+    },
+    {
+      "id": "B1-zh-00029",
+      "source_hash": "83f5a0a6e504c88bcc34ae5a3f6cf1b446f0260a40bd85af5b8aaa878d8ce2d0",
+      "target_id": "ac179d01e511332d2cb385267ffa7ab628477890cee835c14ddde1eb8194fc63",
+      "decision": "RETAIN_ORIGINAL_NO_EDIT",
+      "reason": "Korean Article 19-5 links management/operation facilities and integrated information systems with partial budget support; original Chinese preserves clauses and budget ceiling.",
+      "retained_text": "第十九条之五（智慧城市服务等相关信息系统的联动与整合）\n① 智慧城市基础设施管理机构应当管理为提供智慧城市服务而收集的信息，以便将其与智慧城市管理和运营相关的设施（如根据第2条第3款第（c）项设立的智慧城市综合运营中心，以下简称“智慧城市管理和运营设施”）连接起来。\n② 智慧城市基础设施管理机构应当管理智慧城市管理和运营设施内的信息系统，以便将它们连接起来，并整合起来，从而以集成和高效的方式提供智慧城市服务。\n③ 国土交通大臣可在预算范围内，对第 1 款和第 2 款规定的信息系统连接和集成项目的费用提供部分支持。\n\n第四章 智慧城市技术及信息保护等标准 <2017年3月21日修订>\n\n",
+      "rejected_historical_variant": "第十九条之五（智慧城市服务相关信息系统的衔接、整合等）\n① 智慧城市基础设施的管理机关应当管理为提供智慧城市服务而收集的信息，使其能够与第二条第三号丙目规定的智慧城市综合运营中心等智慧城市管理、运营设施（以下在本条中称“智慧城市管理、运营设施”）衔接。\n② 智慧城市基础设施的管理机关应当确保智慧城市管理、运营设施内的信息系统能够衔接、整合，从而综合、高效地提供智慧城市服务。\n③ 国土交通部长官可以在预算范围内，支持第一款及第二款规定的信息系统衔接、整合事业所需的部分费用。\n\n第四章 智慧城市技术的标准及信息保护等<2017年3月21日修订>\n"
+    },
+    {
+      "id": "B1-zh-00036",
+      "source_hash": "8db232cf0221f20aae1ec3280320b4d3c2e9350d0622ba55277ad59de98b6fdd",
+      "target_id": "db250968b6cdb8165cbdad11e1e45e7a8a2a6b47d1b0f67f647f077c3be8a0e4",
+      "decision": "RETAIN_ORIGINAL_NO_EDIT",
+      "reason": "Korean Article 24-2 permits association creation, legal personality, eight duties, ministerial approval and registration, Civil Act application; original Chinese preserves substance.",
+      "retained_text": "第24-2条（智慧城市协会）\n① 智慧城市运营者等可以成立智慧城市协会（以下简称“协会”），以促进智慧城市的健康发展和共同利益。\n② 该协会应为法人实体。\n③ 协会应履行下列各款规定的职责。\n1. 智慧城市数据和信息的收集与分析\n2. 智慧城市发展体制改进的政策建议和意见\n3. 关于智慧城市国际合作及海外拓展支持事宜\n4. 智慧城市相关人员的教育和培训\n5. 关于智慧城市技术的各种咨询\n6. 关于智慧城市性能验证支持的任务\n7. 国土交通大臣委托的职责\n8. 为实现协会宗旨所必需的其他业务\n④ 本协会经国土交通大臣批准，并在其主要办公地点注册成立。\n⑤ 除本法另有规定外，有关社团法的民事法规定应比照适用。\n⑥ 协会的组织和其他必要事项由总统令规定。\n\n",
+      "rejected_historical_variant": "第二十四条之二（智慧城市协会）\n① 智慧城市事业者等可以设立智慧城市协会（以下简称“协会”），以促进智慧城市健康发展及共同利益。\n② 协会为法人。\n③ 协会承担下列业务：\n1. 收集、分析智慧城市相关资料和信息\n2. 提出智慧城市发展政策建议及制度改善建议\n3. 智慧城市国际合作及支持海外拓展\n4. 对智慧城市相关人员开展教育培训\n5. 提供智慧城市技术相关的各种咨询\n6. 支持智慧城市业绩确认\n7. 承担国土交通部长官委托的业务\n8. 为实现协会设立目的所需的其他事业\n④ 协会经国土交通部长官认可并在主要事务所所在地办理设立登记后成立。\n⑤ 除本法另有规定外，关于协会准用《民法》中有关社团法人的规定。\n⑥ 协会的组织及其他所需事项，由总统令规定。\n"
+    },
+    {
+      "id": "B1-zh-00040",
+      "source_hash": "5052295b37269e5d016e47407558828947e101ca7c54f30ffd043f8fd9f860ef",
+      "target_id": "90f029aac0fd59a0d5e86503f059e21513ab7b71ba45dfd9ecbd189bccf0d4c9",
+      "decision": "RETAIN_ORIGINAL_NO_EDIT",
+      "reason": "Korean Article 27 allows state/local support for R&D, joint research, SME competitiveness and overseas export; original Chinese preserves all four enumerations.",
+      "retained_text": "第二十七条（研发等）国家和地方政府可以促进和支持下列项目，以发展智慧城市技术、提高技术标准和促进海外出口。<2017年3月21日修订>\n1. 智慧城市技术的研究、开发、转移和推广\n2. 与产业界、学术界、研究机构等开展联合研发。\n3. 删除<2017.3.21>\n4. 加强中小企业等的智慧城市技术竞争力\n\n",
+      "rejected_historical_variant": "第二十七条（研究、开发等）国家和地方自治团体可以为开发智慧城市技术、提高技术水平及促进海外出口等，推进并支持下列事业。<2017年3月21日修订>\n1. 智慧城市技术的研究、开发及转让、推广\n2. 与产业界、学术界及研究机构等共同开展研究、开发\n3. 删除<2017年3月21日>\n4. 增强中小企业等的智慧城市技术竞争力\n"
+    },
+    {
+      "id": "B1-zh-00042",
+      "source_hash": "1e3cf191c23f7d7d18d71fc9485657435f1fab70027a40cb17efa1e13f8b2f1b",
+      "target_id": "5f04d8d2f841b7184174e3f21c945270552c1341e79ba1d66d1692c876aa3918",
+      "decision": "RETAIN_ORIGINAL_NO_EDIT",
+      "reason": "Korean Article 29 recognizes special smart-city development district, joint minister/governor designation, consultation, support and cross-applied Articles 37-45; original keeps relevant requirements.",
+      "retained_text": "第29条（智慧城市专业综合体的指定和支持）\n① 国土交通大臣和市长、省知事可根据总统令的规定，经委员会审议，并与相关中央行政机关和地方政府负责人协商后，指定智慧城市专业综合体，以促进智慧城市的创建、管理和运营，振兴智慧城市服务，并扶持智慧城市产业。<2013年3月23日、2017年3月21日、2025年12月2日修订>\n② 国土交通部长和市长或省长可为依据第1款指定的智慧城市专用综合体提供必要的行政、财政、技术等方面的支持。<2013年3月23日、2017年3月21日、2025年12月2日修订>\n③ 第37条、第39条至第42条、第42条之2、第42条之3以及第43条至第45条经必要修改后适用于智慧城市专业化综合体。在此情况下，“国家试点城市”应视为“智慧城市专业化综合体”。<2025年12月2日新增>\n\n",
+      "rejected_historical_variant": "第二十九条（智慧城市特化园区的指定及支持）\n① 国土交通部长官及市、道知事可以为促进智慧城市的建设、管理、运营、智慧城市服务的活性化及智慧城市产业的支持，与有关中央行政机关负责人及地方自治团体负责人协商，并依总统令规定经过委员会审议后，指定智慧城市特化园区。<2013年3月23日、2017年3月21日、2025年12月2日修订>\n② 国土交通部长官及市、道知事可以对依据第一款指定的智慧城市特化园区提供所需行政、财政、技术等方面的支持。<2013年3月23日、2017年3月21日、2025年12月2日修订>\n③ 关于智慧城市特化园区，准用第三十七条、第三十九条至第四十二条、第四十二条之二、第四十二条之三及第四十三条至第四十五条。此时将“国家示范城市”视为“智慧城市特化园区”。<2025年12月2日新增>\n"
+    },
+    {
+      "id": "B1-zh-00078",
+      "source_hash": "3e5800a8d27492aabf45fc478483f15cb1e887c4acbb2028643168e4c29d0291",
+      "target_id": "ac93327bbca07b55344f4c9144c1a878d56e07cfe6e604bfd429e9ffe0907945",
+      "decision": "RETAIN_ORIGINAL_NO_EDIT",
+      "reason": "Korean Article 56 treats commissioners, commissioned-entity officials, general planner as public officials for Criminal Act Articles 127,129-132; original preserves persons and citations.",
+      "retained_text": "第五十六条（适用刑罚的公职人员认定） 凡属下列情形之一者，适用《刑法》第一百二十七条、第一百二十九条至第一百三十二条的规定，应视为公职人员。<2019年11月26日修订；2021年3月16日修订>\n1. 根据第23条规定，担任国家智慧城市委员会成员\n2. 根据第34条之2第2款履行委托职责的机构和组织的官员和雇员\n3. 根据第35-2条规定，主规划师\n4. 根据第53条第7款和第53条之二第6款履行委托职责的机构和组织的官员和雇员\n\n",
+      "rejected_historical_variant": "第五十六条（罚则适用时视为公务员）适用《刑法》第一百二十七条及第一百二十九条至第一百三十二条时，将下列任一人员视为公务员。<2019年11月26日、2021年3月16日修订>\n1. 第二十三条规定的国家智慧城市委员会委员\n2. 第三十四条之二第二款规定的受托业务从业机构、团体的董监事及职员\n3. 第三十五条之二规定的总括规划师\n4. 第五十三条第七款及第五十三条之二第六款规定的受托业务从业机构、团体的董监事及职员\n"
+    },
+    {
+      "id": "B2-zh-00005",
+      "source_hash": "36e5e7d1812ab2c60b14ee83f17e3cb598137f4ce5ec1e5f6b1fdbb04a3181b0",
+      "target_id": "e51f0afcf412922dedb83092fefe2b6e5242809c81822fd13ef7487dcda04416",
+      "decision": "RETAIN_ORIGINAL_NO_EDIT",
+      "reason": "Korean Decree Article 3 defines wired/wireless sensor networks conveying collected intelligent-facility info and facility services; original accurately captures definition.",
+      "retained_text": "第三条（智慧城市基础设施中的信息通信网络） 本法第二条第三款(b)项中“总统令规定的其他信息通信网络”是指传输根据本法第二条第三款(a)项从智能设施收集的信息以及与智慧城市管理和运营相关的设施提供的服务的有线和无线传感器网络。<2017年9月19日修订>\n\n",
+      "rejected_historical_variant": "第三条（智慧城市基础设施中的信息通信网络）法第二条第三号乙目所称“总统令规定的其他信息通信网络”，是指传输从法第二条第三号甲目所规定的智能化设施收集的信息，以及智慧城市管理、运营设施所提供服务的有线、无线传感器网络。<2017年9月19日修订>\n\n"
+    },
+    {
+      "id": "B2-zh-00006",
+      "source_hash": "82c6f589aab63569da13904007db03ae0c2e8ce394da3af02324c141d57df498",
+      "target_id": "30fe251862582be0f2619c881f48f420ceb4625a8f66878add9175be1bc6e166",
+      "decision": "RETAIN_ORIGINAL_NO_EDIT",
+      "reason": "Korean Decree Article 4 enumerates individual-system center, integrated operating center and minister-designated analogous facilities after consultation; original preserves all three.",
+      "retained_text": "第四条（智慧城市管理和运营设施）本法第二条第三款（c）项中“总统令规定的设施”是指下列各款中的设施。\n1. 中心运营个体信息系统以提供智慧城市服务\n2. 智慧城市综合运营中心，连接并整合多个信息系统，提供智慧城市服务\n3. 与第1款和第2款所述设施类似的其他设施，由国土交通大臣与相关中央行政机构负责人协商后通知。\n\n",
+      "rejected_historical_variant": "第四条（智慧城市管理、运营设施）法第二条第三号丙目所称“总统令规定的设施”，是指下列设施。\n1. 运行用于提供智慧城市服务的单独信息系统的中心\n2. 为提供智慧城市服务而将多个信息系统连接、整合并运行的智慧城市综合运营中心\n3. 国土交通部长官与有关中央行政机关负责人协商后公告的其他与第一号及第二号设施类似的设施\n\n"
+    },
+    {
+      "id": "B2-zh-00019",
+      "source_hash": "96c0d692eefd4853c5e892f6c2ef9925c1d422b3f86067c54e231ba91c556846",
+      "target_id": "0d8dd9f4d93d75099c54a3c6fd4db12f57d77fba35b001e7c15d60c6f9b747c5",
+      "decision": "RETAIN_ORIGINAL_NO_EDIT",
+      "reason": "Korean Decree Article 16 minor plan changes refer to Article 12(1) items 3 or 4, chapter heading intact; original matches.",
+      "retained_text": "第十六条（智慧城市规划的微小变更）本法第十一条但书中的“总统令规定的微小事项”是指第十二条第一款第三项或第四项规定的事项。\n\n第三章 智慧城市建设项目等的实施 <2017年9月19日修订>\n\n",
+      "rejected_historical_variant": "第十六条（智慧城市规划的轻微变更）法第十一条但书所称“总统令规定的轻微事项”，是指第十二条第一款第三号或第四号规定的事项。\n\n第三章 智慧城市建设事业的实施等 <2017年9月19日修订>\n\n"
+    },
+    {
+      "id": "B2-zh-00024",
+      "source_hash": "4294b04f9b501203d9b66c434669b0dbffbbca6c09e265f7633bbff46d95ccc9",
+      "target_id": "d4e503fbfb0009a463c0084383aec3b872f0bf9e9a9b12ff102ae5f33ebe449a",
+      "decision": "RETAIN_ORIGINAL_NO_EDIT",
+      "reason": "Korean Decree Article 20 defines prescribed consultation period as 20 days under Article 15(3); original matches.",
+      "retained_text": "第 20 条（其他法律规定的视同许可等的咨询期）在该法第 15 条第 3 款的后半部分中，“总统令规定的期限”是指 20 天。\n\n",
+      "rejected_historical_variant": "第二十条（依其他法律视为取得许可、批准等时的协商期限）法第十五条第三款后段所称“总统令规定的期限”，是指二十日。\n\n"
+    },
+    {
+      "id": "B1-zh-00143",
+      "source_hash": "3b30b96921d45947328d546825631b8010e1bf91fc66b04d2ec014d18c9b8729",
+      "target_id": "002b490809d68257a9f4bb74b45ae9b783251371ac5e02a696f750338627ce55",
+      "decision": "ACCEPT_MINIMAL_NEW_EDIT",
+      "reason": "Korean source names 빈집 및 소규모주택 정비에 관한 특례법; minimally correct '维护' to statutory '整备' and '住房' to '住宅' while preserving citation and date.",
+      "original_text": "补充条款（关于维护空置房屋和小规模住房的特别法）<第14569号法案，2017年2月8日>\n\n",
+      "corrected_text": "补充条款（《空置房屋及小规模住宅整备特别法》）<第14569号法案，2017年2月8日>\n\n",
+      "candidate_text": "附则（《空置房屋及小规模住宅整备特别法》）<第14569号，2017年2月8日>\n\n"
+    }
+  ],
+  "new_edits": 1,
+  "new_correction": {
+    "id": "B1-zh-00143",
+    "source_hash": "3b30b96921d45947328d546825631b8010e1bf91fc66b04d2ec014d18c9b8729",
+    "target_id": "002b490809d68257a9f4bb74b45ae9b783251371ac5e02a696f750338627ce55",
+    "text": "补充条款（《空置房屋及小规模住宅整备特别法》）<第14569号法案，2017年2月8日>\n\n",
+    "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-5e7d64734731-adjudication.json",
+    "verification": "C02_KOREAN_LEGAL_TITLE_COMPARISON",
+    "reason": "Korean source names 빈집 및 소규모주택 정비에 관한 특례법; minimally correct '维护' to statutory '整备' and '住房' to '住宅' while preserving citation and date."
+  },
+  "remaining_candidates_expected": 63,
+  "completion_receipt_verified": false
+}
