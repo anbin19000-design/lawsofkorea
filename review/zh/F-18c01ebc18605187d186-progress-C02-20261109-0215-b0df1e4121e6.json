@@ -33,11 +33,10 @@
         "note": "Sequential read through Article 53 and all appended transitional provisions."
       },
       "annexes_and_forms": {
-        "status": "IN_PROGRESS",
+        "status": "READ_COMPLETE",
         "documents": 62,
-        "completed_documents": 30,
-        "last_completed": "A11367",
-        "next_document": "A11368",
+        "completed_documents": 62,
+        "last_completed": "A11391",
         "completed_keys": [
           "A30229",
           "A30230",
@@ -76,21 +75,45 @@
           "A11364",
           "A11365",
           "A11366",
-          "A11367"
+          "A11367",
+          "A11368",
+          "A11369",
+          "A11370",
+          "A11371",
+          "A11372",
+          "A11373",
+          "A11374",
+          "A11375",
+          "A11376",
+          "A11377",
+          "A11378",
+          "A11379",
+          "A11380",
+          "A11381",
+          "A11382",
+          "A11383",
+          "A11384",
+          "A11385",
+          "A11386",
+          "A11387",
+          "A11388",
+          "A11389",
+          "A11390",
+          "A11391"
         ]
       }
     },
     "english": {
-      "status": "INDEX_READ",
+      "status": "IN_PROGRESS",
       "rows_with_english": 4549,
       "rows_without_english": 689,
-      "full_sequential_read": false,
-      "exact_act": "documents/en/kr-000222-279761-en.json",
-      "decree_fallback": "documents/en/kr-004830-272521-en.json",
-      "no_english_docs": [
-        "B3",
-        "A11335-A11391"
-      ]
+      "documents": [
+        "B1 exact official English",
+        "B2 official English fallback",
+        "B2 decree annexes same fallback"
+      ],
+      "next_document": "B1",
+      "full_sequential_read": false
     },
     "chinese": {
       "status": "NOT_STARTED",
@@ -104,5 +127,5 @@
     "edits": 0,
     "checked_unique_ids": 0
   },
-  "note": "Resumed from source blobs recorded in official C02 active assignment. Contents API returned empty body for EN/ZH source files; exact SHA blobs were fetched and parsed successfully. Prior progress/review files for this job were not located in current main branch by exact-path lookup or repository code search. No source file modified. Do not infer missing source from empty Contents body. Continue Korean full-family sequential reading, then all available English full texts, then Chinese rows in source order. 689 rows have no linked English coverage, across documents without English references; mark English-unavailable and continue KO/ZH comparison.  B1 and B2 Korean source texts read completely; B3 Korean source reading has begun. No review edits made before completion of the required KO->EN->ZH reading order. Completed B3 Korean full text sequentially (39,904 chars). Started connected annex/form family; no review edits yet. Source hashes remain unchanged. Sequential Korean annex/form reading progressed through the first ten connected documents (A30229-A11339); continue from A11340. No translation edits have been applied. Sequentially read connected Korean annexes/forms through A11357; 20 of 62 unique documents counted (first 5 decree annexes + first 15 ministry-rule annexes). Next A11358. Sequentially read Korean annex/form documents through A11367 (30/62); continue A11368."
+  "note": "Resumed from source blobs recorded in official C02 active assignment. Contents API returned empty body for EN/ZH source files; exact SHA blobs were fetched and parsed successfully. Prior progress/review files for this job were not located in current main branch by exact-path lookup or repository code search. No source file modified. Do not infer missing source from empty Contents body. Continue Korean full-family sequential reading, then all available English full texts, then Chinese rows in source order. 689 rows have no linked English coverage, across documents without English references; mark English-unavailable and continue KO/ZH comparison.  B1 and B2 Korean source texts read completely; B3 Korean source reading has begun. No review edits made before completion of the required KO->EN->ZH reading order. Completed B3 Korean full text sequentially (39,904 chars). Started connected annex/form family; no review edits yet. Source hashes remain unchanged. Sequential Korean annex/form reading progressed through the first ten connected documents (A30229-A11339); continue from A11340. No translation edits have been applied. Sequentially read connected Korean annexes/forms through A11357; 20 of 62 unique documents counted (first 5 decree annexes + first 15 ministry-rule annexes). Next A11358. Sequentially read Korean annex/form documents through A11367 (30/62); continue A11368. All 62 connected Korean annex/form documents read. Entire KO family complete. Starting sequential English read; 689 rows without linked English source remain explicitly marked unavailable and will still be checked KO/ZH later."
 }
