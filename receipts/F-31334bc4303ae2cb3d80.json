@@ -1,0 +1,31 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_RECEIPT_V1",
+  "job_id": "F-31334bc4303ae2cb3d80",
+  "worker": "C06",
+  "assignment_id": "S2-30caa1192ecd4c75a8ea030b41cf3e77",
+  "task_id": "2b37f0a2d130",
+  "status": "COMPLETE",
+  "checked_rows": 1206,
+  "corrected_rows": 621,
+  "unchanged_rows": 585,
+  "document_count": 19,
+  "review_path": "review/zh/F-31334bc4303ae2cb3d80.json",
+  "review_blob_sha": "995ece8a51890418495ce0a1e2d044e988febac2",
+  "review_commit_sha": "7f5d0b0975b3dea543391d6ad319f52f1320f7f1",
+  "source_blob_shas": {
+    "ko": "d6d795ff1ece4a82663a83efd46f7f73afa7fbbb",
+    "en": "16e015facbcef00df95c985f816f47acf7bcfef7",
+    "zh": "7a6d1e8d841fb3b27185d6d4a6b811149d604dc0"
+  },
+  "english_exact_document_links": 4,
+  "english_fallback_document_links": 15,
+  "verification": {
+    "duplicate_edit_ids": 0,
+    "unknown_edit_ids": 0,
+    "residual_hangul_or_mtq": 0,
+    "fine_amount_cells_matching": 90,
+    "linked_english_files_hash_verified": 3,
+    "source_shas_unchanged": true
+  },
+  "note": "C06 completed one unified 19-document legal family review of 1206 Chinese source rows, preserving 585 accurate original rows and storing 621 minimally corrected unique IDs. Entire Korean and available linked English reference sources checked in source order; 15 rule/form documents have older-version English fallback, so Korean source prevails. Verified review COMPLETE from GitHub Contents API before this receipt; preserved base source blob SHA and prior rejection decisions."
+}
