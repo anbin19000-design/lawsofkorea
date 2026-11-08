@@ -1947,6 +1947,13 @@
       "source_hash": "9ffe7b4ff1d0759599ab8dd27cf76c46acaf8234f5a678aefef4a2b1e3c1d808",
       "decision": "KEEP",
       "reason": "시행령 원문 및 해당 개정 부칙과 대조; 확정할 오역 외 원표현 유지"
+    },
+    {
+      "id": "B2-zh-00081",
+      "doc": "B2",
+      "source_hash": "1a11a1f08ba5d9e819449ee4403827c616a2bba94eb6cc7822fc056f66078090",
+      "decision": "SOURCE_MAPPING_REVIEW_REQUIRED",
+      "reason": "KO B2 source length 17073인데 row end 18445; 중국어 행에 별표 본문이 연결되어 있음. 원본 수정 없이 별표 재매핑 필요."
     }
   ],
   "changes": {
@@ -2406,8 +2413,8 @@
       "reason": "한국어 행정기관의 명칭과 한자 부칙 표현 교정"
     }
   },
-  "next_row_id": "B2-zh-00081",
-  "notes": "B1 전체 196행, B2 순차 80행 대조 저장. 시행령 81행 후속 및 별표/시행규칙/서식 미완료.",
+  "next_row_id": "A29604-zh-00001",
+  "notes": "B1 196행 판정, B2 80행 판정 + B2 마지막 81행 구조 대조 필요. 전체 미완료/완료 영수증 없음.",
   "flagged_scan": {
     "range": "B1-zh-00102..B1-zh-00196",
     "method": "targeted anomaly screening, not full sequential review",
@@ -2416,5 +2423,17 @@
       "B1-zh-00122",
       "B1-zh-00132"
     ]
-  }
+  },
+  "mapping_issues": [
+    {
+      "id": "B2-zh-00081",
+      "status": "SOURCE_MAPPING_REVIEW_REQUIRED",
+      "note": "B2 KO length 17073; row start 16647 end 18445 crosses source boundary; zh includes material labelled annex. No speculative replacement."
+    },
+    {
+      "doc": "A29604",
+      "status": "ANNEX_ALIGNMENT_REQUIRED",
+      "note": "ANNEX rows lack start/end offsets; compare entire original annex against target rows before final judgment."
+    }
+  ]
 }
