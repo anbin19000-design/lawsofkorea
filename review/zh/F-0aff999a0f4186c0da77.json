@@ -21,8 +21,8 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 66,
-    "pending_rows": 1621,
+    "correction_count": 67,
+    "pending_rows": 1620,
     "by_document": {}
   },
   "corrections": {
@@ -487,6 +487,13 @@
       "original": "START 名称，经济效益内容",
       "corrected": "供应商、服务提供商等的名称及其经济利益的内容",
       "reason": "별표 1 4) 항목의 '해당 납품업체, 용역업체 등의 명칭, 그 경제적 이익의 내용'이 START 오염으로 누락되어 원문에 따라 복원."
+    },
+    "A34916-zh-00136": {
+      "doc": "A34916",
+      "source_hash": "c4cfdd0363e3e6a0a778487c2e005bf7b7cadab0aaa047fc99408701811608a2",
+      "original": "START 第 3 条和  条",
+      "corrected": "条第3款及第4款",
+      "reason": "별표 5 카목 과태료 근거조항 '같은 조 제3항 및 제4항'이 행·셀 분할 중 START와 빈 조항으로 훼손되어 직전 행과 이어지는 조문번호를 원문대로 복원."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -518,7 +525,8 @@
     "C05 841a8fba515f: annex A34909-zh-00203 forced purchase versus provision, and A34909-zh-00301 mandatory minimum cost-support citation were corrected against Korean source. Full semantic Chinese review remains incomplete.",
     "C05 841a8fba515f continued annex A34909 contaminated rows 146/232/271, Korean-source minimal restoration; exhaustive Chinese semantic review remains incomplete.",
     "C05 841a8fba515f: A34909-zh-00219 affiliate economic benefit received, not paid, corrected against Korean original. Full semantic review incomplete.",
-    "C05 b5c0ceb7102d: Annex A34909 row 00221 restored supplier/provider names and economic benefits from Korean original; previous 65 edits preserved; full Chinese semantic verification incomplete."
+    "C05 b5c0ceb7102d: Annex A34909 row 00221 restored supplier/provider names and economic benefits from Korean original; previous 65 edits preserved; full Chinese semantic verification incomplete.",
+    "C05 b5c0ceb7102d: A34916-zh-00136 correct same-Article clauses 3 and 4 restored from Korean table; 67 corrections cumulative, no COMPLETE certification."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -527,5 +535,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 66
+  "corrected_rows": 67
 }
