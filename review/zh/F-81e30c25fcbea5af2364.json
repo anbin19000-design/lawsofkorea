@@ -6116,6 +6116,24 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex4.json",
       "verification": "C02_DIRECT_KOREAN_ANNEX4_COMPARISON",
       "reason": "Correct clear table continuation, official statutory references and legal numbering against Korean annex."
+    },
+    {
+      "id": "B3-zh-00011",
+      "source_hash": "442305632c74526174c53b15a16d64e96dee3051411c8f53d903f01218716c0b",
+      "target_id": "3d99b65c988fc406ca235462b910cbe3bf38029ba025a7c2dc28b9912298a925",
+      "text": "附则 <第702号，2020年2月28日>\n\n本规则自公布之日起施行。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-b3.json",
+      "verification": "C02_DIRECT_KOREAN_RULE_COMPARISON",
+      "reason": "Correct supplementary-provision and promulgation/effective-date terminology."
+    },
+    {
+      "id": "B3-zh-00012",
+      "source_hash": "c690cffb7634680b8f1c284e1406a15eaeb8e9da8db5a2d932dbe73e30180e61",
+      "target_id": "3b231a9bf96812f2f8848d58bfb44f465efebff8f56917c398e19200135b3054",
+      "text": "附则 <第870号，2021年7月12日>\n\n本规则自公布之日起施行。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-b3.json",
+      "verification": "C02_DIRECT_KOREAN_RULE_COMPARISON",
+      "reason": "Correct supplementary-provision and promulgation/effective-date terminology."
     }
   ],
   "adjudicated_edit_count": 554,
@@ -11355,12 +11373,13 @@
     "2026-11-08 C02 4e0b46ff6294 Annex 1: compared all 31 A36424 Chinese cells with the Korean annex; corrected the second facility condition's item marker (나) from duplicate a to 乙. Existing prior edits retained, including area split cells and footnote statutory definitions. Full-family remains IN_PROGRESS.",
     "2026-11-08 C02 4e0b46ff6294 Annex 2: compared all 52 A36425 Chinese cells against the Korean original and prior R69/R70 evidence. Updated rows 2, 15, 28 and 33; specifically restored row 28 and 33 as continuation fragments rather than duplicated full descriptions. Existing edits and all original cell IDs/hashes preserved. Family remains IN_PROGRESS.",
     "2026-11-08 C02 4e0b46ff6294 Annex 3: compared all 59 A36426 Chinese cells against the Korean original and prior R72/R75/R76 evidence. Added seven minimal official-term/name corrections in rows 6,11,15,23,37,58,59. Prior corrections and split-cell boundaries retained. Family remains IN_PROGRESS.",
-    "2026-11-08 C02 4e0b46ff6294 Annex 4: compared all 128 A36427 cells against Korean source and existing prior edits. Added/updated 20 minimal corrections for statutory references, numbering and table continuation; preserved all previous amount, duration and split-cell corrections. Annex 4 complete at cell-comparison level; family remains IN_PROGRESS."
+    "2026-11-08 C02 4e0b46ff6294 Annex 4: compared all 128 A36427 cells against Korean source and existing prior edits. Added/updated 20 minimal corrections for statutory references, numbering and table continuation; preserved all previous amount, duration and split-cell corrections. Annex 4 complete at cell-comparison level; family remains IN_PROGRESS.",
+    "2026-11-08 C02 4e0b46ff6294 B3: compared all 13 B3 rows against Korean source; corrected rows 11-12 부칙/시행 wording. Retained previous edits for articles 1-6 and the row 13 boundary split that prevents separate application forms from being duplicated into B3. English index has no direct B3 document. Family remains IN_PROGRESS."
   ],
   "integration_progress": {
-    "stage": "A36427_ANNEX4_ROWS_00001_00128_RECONCILED",
+    "stage": "B3_IMPLEMENTING_RULE_ROWS_00001_00013_RECONCILED",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:4e0b46ff6294",
-    "note": "Compared all 128 Chinese cells in A36427 with the complete Korean penalty annex. Preserved prior 58 master edits and earlier Annex 4 progress. Corrected clear statutory citations (Act, Article 55 paragraphs/subparagraphs), penalty-table item numbering, missing case-continuation cells and fine-ceiling clause. Existing amounts and duration bands retained; full-family ordered-reading certification still incomplete."
+    "note": "Compared all 13 Chinese rows of B3 with the complete Korean implementing rule. Existing article corrections and the B3-zh-00013 boundary correction separating deleted forms 1-2 from independently catalogued forms retained. Corrected supplementary labels/effective-date terminology in rows 11-12."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
