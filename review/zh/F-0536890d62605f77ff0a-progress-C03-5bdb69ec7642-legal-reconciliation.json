@@ -1,0 +1,75 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:5bdb69ec7642",
+  "status": "IN_PROGRESS",
+  "phase": "POST_TRILINGUAL_READ_LEGAL_DETAIL_RECONCILIATION",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_en_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "canonical_review_blob_sha": "0f6c5e7369fcec95187afe497aaf3d0d2677deb8",
+  "prior_progress": "review/zh/F-0536890d62605f77ff0a-progress-C03-d26729c18cac-legal-accuracy.json",
+  "read_stages": {
+    "full_korean_read": true,
+    "available_english_full_read": true,
+    "all_1136_chinese_rows_examined": true,
+    "source_hash_unchanged": true
+  },
+  "source_documents": 22,
+  "source_zh_rows": 1136,
+  "review_edits": 792,
+  "new_edit_ids": [],
+  "revised_ids": [
+    "B1-zh-00032",
+    "B1-zh-00046",
+    "B1-zh-00051"
+  ],
+  "corrections": [
+    {
+      "id": "B1-zh-00032",
+      "source": "제30조 ... 제33조에 따른 ... 지원시설",
+      "reason": "Removed duplicate 第三十三条 introduced by earlier correction"
+    },
+    {
+      "id": "B1-zh-00046",
+      "source": "「출입국관리법」에 대한 특례",
+      "reason": "Specified 《出入境管理法》 instead of a generic immigration control law reference"
+    },
+    {
+      "id": "B1-zh-00051",
+      "source": "제49조 ... 벌금형",
+      "reason": "Criminal 罚金 rather than administrative 罚款"
+    }
+  ],
+  "layout_fragments_still_held": [
+    "A39474-zh-00040",
+    "A39476-zh-00006",
+    "A39476-zh-00010",
+    "A39477-zh-00006",
+    "A39477-zh-00008",
+    "A39478-zh-00027",
+    "A26697-zh-00008",
+    "A26699-zh-00053"
+  ],
+  "source_xml_provenance": "Unable to validate original source layout at specific XML target cells; catalog only provides source_ko document plain text and zh target IDs. Existing progress and correction texts preserved.",
+  "english_document_absent": [
+    "B3",
+    "A26693",
+    "A26694",
+    "A26695",
+    "A26696",
+    "A26697",
+    "A26698",
+    "A26699",
+    "A26700",
+    "A26701",
+    "A26702",
+    "A26703",
+    "A26704",
+    "A26705"
+  ],
+  "complete": false,
+  "completion_receipt": false,
+  "next_action": "Inspect raw XML cell provenance for 8 fragments; adjudicate if possible and audit integrated text without inventing source content. Do not receive next assignment until COMPLETE verified."
+}
