@@ -3304,8 +3304,8 @@
       "doc": "A6594",
       "source_hash": "6530a5348b9c420fb15215542b9d85808e5cd931a8cd6cde8a6ef2f44f0b8616",
       "original": "操作",
-      "corrected": "地被状态",
-      "reason": "“지피상태”是地被状态。"
+      "corrected": "调查人",
+      "reason": "该列标题“조사자 의견”分为“调查人”和“意见”两行。"
     },
     "A6596-zh-00003": {
       "doc": "A6596",
@@ -3383,6 +3383,55 @@
       "original": "名称",
       "corrected": "姓名",
       "reason": "“성명”是姓名。"
+    },
+    "A6594-zh-00036": {
+      "doc": "A6594",
+      "source_hash": "2e6adf4ec98d68239960607e3c29f6ee648e5c5b10665d1502e14c5a1d2d836d",
+      "original": "类型",
+      "corrected": "意见",
+      "reason": "“의견”是意见，不是类型。"
+    },
+    "A6594-zh-00037": {
+      "doc": "A6594",
+      "source_hash": "ff65069ded4b6cd31e66c2817335dbaeb7aced0ad41d4ae1dd22d6bea4216130",
+      "original": "日期",
+      "corrected": "解除理由",
+      "reason": "该栏是“해제사유”，即解除理由。"
+    },
+    "A6594-zh-00038": {
+      "doc": "A6594",
+      "source_hash": "8c325091d6e8acfc06884c6f2ecb75cf7fc9928dda74be0f2ae568f636bc99a3",
+      "original": "和 Date",
+      "corrected": "（法条）",
+      "reason": "该栏括注“법조문”，即法条。"
+    },
+    "A6594-zh-00039": {
+      "doc": "A6594",
+      "source_hash": "f8d79b64b28d66564ee8bc6202d80b5f64b2eca65062f30c0370374aabd71713",
+      "original": "直径",
+      "corrected": "侵蚀控制设施",
+      "reason": "该栏对应“사방시설”。"
+    },
+    "A6594-zh-00040": {
+      "doc": "A6594",
+      "source_hash": "e10195a1239fb321327bafbe0397ebfcf7f0985a6e3bc28661a65132025b6808",
+      "original": "状态",
+      "corrected": "（立木）",
+      "reason": "“입목”是立木，作为侵蚀控制设施的括注。"
+    },
+    "A6594-zh-00041": {
+      "doc": "A6594",
+      "source_hash": "065bc27feb87e9e47bfbabd7655b05adf7c8efd6b7b5bc1a573d8ad3270dfdf3",
+      "original": "树的数量",
+      "corrected": "无偿让与措施",
+      "reason": "“양여조치”是无偿让与措施。"
+    },
+    "A6594-zh-00042": {
+      "doc": "A6594",
+      "source_hash": "3ea789c5d05ca22689ecc01b351390656ff6e8a4d9d930e9ac5c9f42c33035aa",
+      "original": "立木体积",
+      "corrected": "补偿金征收措施",
+      "reason": "“변상금 징수조치”是补偿金征收措施。"
     }
   },
   "edits": [
@@ -5208,7 +5257,7 @@
     },
     {
       "id": "A6594-zh-00035",
-      "text": "地被状态"
+      "text": "调查人"
     },
     {
       "id": "A6596-zh-00003",
@@ -5253,10 +5302,38 @@
     {
       "id": "A6596-zh-00025",
       "text": "姓名"
+    },
+    {
+      "id": "A6594-zh-00036",
+      "text": "意见"
+    },
+    {
+      "id": "A6594-zh-00037",
+      "text": "解除理由"
+    },
+    {
+      "id": "A6594-zh-00038",
+      "text": "（法条）"
+    },
+    {
+      "id": "A6594-zh-00039",
+      "text": "侵蚀控制设施"
+    },
+    {
+      "id": "A6594-zh-00040",
+      "text": "（立木）"
+    },
+    {
+      "id": "A6594-zh-00041",
+      "text": "无偿让与措施"
+    },
+    {
+      "id": "A6594-zh-00042",
+      "text": "补偿金征收措施"
     }
   ],
   "checked_rows": 523,
-  "corrected_rows": 467,
+  "corrected_rows": 474,
   "notes": "Initial source-grounded correction set after full Korean and available English source reading. Chinese sequential review continues; do not treat this as completion. Sequential review so far: B1 rows 1–122; B2 rows 1–70. Additional complete targeted passes: A29186 (43 rows) and B3 rows 1–24. 64 nonblank changed edits are saved; further Chinese rows and documents remain pending. No COMPLETE certification. All source-bound correction records are retained. Blank fragment deletions and no-change records are documented separately at review/zh/F-2223d4d89f9d838aec25-empty-edit-decisions-C05-20261109-0600.json. Full semantic coverage is complete for B1, B2, B3, A29186 and A6580; A29185 and all attached forms remain in partial/targeted review. Status remains IN_PROGRESS.",
   "coverage": {
     "total_rows": 1290,
