@@ -1,0 +1,58 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-3705abbc710de4b867bc",
+  "worker": "C05",
+  "branch": "main",
+  "source_blobs": {
+    "ko": "7974bf81d14f4838ae85d4b3ceea80a2f0e65fed",
+    "zh": "045dd328cd77f3eecd8b6cd485be27f2389773e8"
+  },
+  "document_key": "A25276",
+  "document_source_hash": "bcdd3ea81f96f89443d3477838f86cc6d749bd4b8c466d138d14a19ac6c85e72",
+  "checked_ids": [
+    "A25276-zh-00044",
+    "A25276-zh-00046",
+    "A25276-zh-00049",
+    "A25276-zh-00052",
+    "A25276-zh-00053"
+  ],
+  "checked_rows": 5,
+  "adopted_edits": [
+    {
+      "id": "A25276-zh-00044",
+      "text": "《消防设备管理法施行令》"
+    },
+    {
+      "id": "A25276-zh-00046",
+      "text": "依第17条第1款由认证机构"
+    },
+    {
+      "id": "A25276-zh-00049",
+      "text": "4. 消防设备零部件明细表"
+    },
+    {
+      "id": "A25276-zh-00052",
+      "text": "7. 依《消防设备管理法施行令》第12条第3款省略产品审查及现场审查时"
+    },
+    {
+      "id": "A25276-zh-00053",
+      "text": "的证明文件"
+    }
+  ],
+  "source_row_hashes": {
+    "A25276-zh-00044": "22b6228ab2a207f3faffd8d7a6cdbf7f4db2b91e3fe65797dddbf142ea542257",
+    "A25276-zh-00046": "a321c1804d4cc1f04a9d1acaae7417eb28972fdb5a80a57284aa9bb85b87f973",
+    "A25276-zh-00049": "ddedeb58fd5c9778b096f4d0ad7689cc1b2c10dd2b033b96e6ca2d1797b654c5",
+    "A25276-zh-00052": "6b5ec8e1f988894f8aea65647cdd56394fdbef6d841c6b5b79e73c911c3c987f",
+    "A25276-zh-00053": "366e76af0304ef773f063220540170ee20070c551e739632df2b88853e1bafda"
+  },
+  "rationale": {
+    "A25276-zh-00044": "「소방장비관리법 시행령」 table fee citation; correct name, preserving title.",
+    "A25276-zh-00046": "제17조제1항에 따라 인증기관; continuation with previously confirmed 00048.",
+    "A25276-zh-00049": "4. 소방장비의 부품 명세표; list of parts, not specifications.",
+    "A25276-zh-00052": "7. 「소방장비관리법 시행령」 제12조제3항에 따라 제품심사 및 현장심사를 생략하는; correct exemption rather than failure to inspect.",
+    "A25276-zh-00053": "경우 그 증명 서류; completes preceding split cell."
+  },
+  "status": "QUALITY_PARTIAL",
+  "note": "Five additional previously staged correction candidates directly compared with Korean certification application and adjacent split fee/evidence cells. No added unique row coverage; existing quality decisions and partial review retained; no COMPLETE receipt."
+}
