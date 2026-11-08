@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 900,
+    "verified_zh_rows": 960,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 900,
-      "checked_rows": 900,
+      "next_row_zero_based": 960,
+      "checked_rows": 960,
       "total_rows": 5228
     }
   },
@@ -1087,9 +1087,99 @@
       "text": "2. 占用期限",
       "original_text": "2. 入住期",
       "reason": "道路占用期间误译为入住期间"
+    },
+    {
+      "id": "A28846-zh-00094",
+      "text": "2. 占用期限",
+      "original_text": "2. 入住期",
+      "reason": "道路占用期间误译为居住入住期限"
+    },
+    {
+      "id": "A28846-zh-00097",
+      "text": "。占用物附着安装在桥梁或高架道路上时，不得影响桥梁或高架道路的结构安全。",
+      "original_text": "。当占用物体安装在桥梁或立交桥上时，桥梁或立交桥的结构为",
+      "reason": "句子结构断裂，遗漏桥梁和高架道路结构安全标准"
+    },
+    {
+      "id": "A28846-zh-00100",
+      "text": "A. 应采取必要措施，确保占用物的维护不受影响。",
+      "original_text": "a. 采取必要措施，确保被占用房屋的维护不受影响。",
+      "reason": "점용물을 주택으로 오역"
+    },
+    {
+      "id": "A28846-zh-00102",
+      "text": "如需封闭一条以上车道通行，应制定交通疏导措施。在此情况下，",
+      "original_text": "如果一条或多条车道交通受阻，则应采取交通疏导措施。在这种情况下，[交通流量]",
+      "reason": "잔존 [交通流量] placeholder 제거 및 1개 차로 이상 차단 기준 정확화"
+    },
+    {
+      "id": "A28846-zh-00105",
+      "text": "由相关道路管理机关所属地方自治团体的条例规定。",
+      "original_text": "由法令确定。",
+      "reason": "조례를 법령으로 오역"
+    },
+    {
+      "id": "A28846-zh-00108",
+      "text": "5. 施工时机",
+      "original_text": "5. 构造时序",
+      "reason": "공사 시기를 구조 순서로 오역"
+    },
+    {
+      "id": "A28846-zh-00110",
+      "text": "b. 尽可能在夜间等交通量最少的时段施工。",
+      "original_text": "a. 尽可能在交通流量最低的时段（例如夜间）进行施工。",
+      "reason": "동일 단계 항목의 가·나 목 번호 불일치"
+    },
+    {
+      "id": "A28846-zh-00118",
+      "text": "开挖工程实施者可先铣刨开挖面周边的表层，再进行修复。",
+      "original_text": "启动后可以恢复。",
+      "reason": "원문에 없는 ‘启动’ 오역 및 복구 절차 내용 누락"
+    },
+    {
+      "id": "A28846-zh-00121",
+      "text": "如果道路没有车道线且铺装宽度不足5米，则将整个铺装宽度视为一条车道；如果铺装宽度为5米以上、不足8米，则视为在铺装宽度中央设有车道线。",
+      "original_text": "如果铺装路面宽度小于5米，则整个区域视为单车道；如果铺装路面宽度为5米，则整个区域视为单车道。",
+      "reason": "도로 포장 폭 기준 5m 이상·8m 미만을 누락하고 수치 조건 오역"
+    },
+    {
+      "id": "A28846-zh-00132",
+      "text": "应设置相应标志。",
+      "original_text": "要安装的内容",
+      "reason": "표지 설치 기준의 의무 문장을 불완전하게 번역"
+    },
+    {
+      "id": "A28846-zh-00134",
+      "text": "应在埋设物正上方的地面设置标志等。在此情况下，",
+      "original_text": "必须在水面以上的地面上安装标志物等。在这种情况下，",
+      "reason": "埋设物上方地面을 수면 위로 오역"
+    },
+    {
+      "id": "A28846-zh-00136",
+      "text": "由国土交通部令规定。",
+      "original_text": "是的。根据第（a）款和第（b）款规定，标志等安装标准所需事项由国土交通省条例规定。",
+      "reason": "국토교통부령을 성·성령으로 오역하고 잔존 ‘是的’ 불필요"
+    },
+    {
+      "id": "A28846-zh-00138",
+      "text": "■ 《道路法施行令》[附表二] <2021年1月5日修订>",
+      "original_text": "■ 道路法实施令[附录2] <2021年1月5日修订>",
+      "reason": "도로법 시행령 법령명과 별표 표기 오류"
+    },
+    {
+      "id": "A28847-zh-00001",
+      "text": "■ 《道路法施行令》[附表三] <2021年1月5日修订>",
+      "original_text": "■ 道路法实施令[附录3] <2021年1月5日修订>",
+      "reason": "도로법 시행령 법령명과 별표 표기 오류"
+    },
+    {
+      "id": "A28847-zh-00003",
+      "text": "（金额单位：韩元）",
+      "original_text": "(金额单位：Won)",
+      "reason": "표의 통화 단위에 영문 잔존"
     }
   ],
-  "note": "Sequential Chinese review continued through original row 899, completing initial review of Annex 1 and advancing through Annex 2 occupancy standards. Added five focused corrections: residual Gong/START/Item artifacts, reversal of minimum 5m oil-pipeline clearance, and occupancy period mistranslation. Previous 151 edits retained. Continue from row 900. IN_PROGRESS.",
+  "note": "Sequential Chinese review continued through original row 959, reviewing Annex 2 and beginning Annex 3. Added 15 focused corrections to occupancy terms, bridge structural safety, occupied object vs building, traffic-control clause and placeholder, local ordinance vs law, work timing, paragraph lettering, road restoration, 5m/8m threshold, buried-utility marker wording, ministerial rule terminology, annex headings and currency unit. Previous 156 edits retained. Continue from row 960. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
