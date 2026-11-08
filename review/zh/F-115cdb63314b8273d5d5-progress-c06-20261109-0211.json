@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 460,
+    "verified_zh_rows": 485,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 460,
-      "checked_rows": 460,
+      "next_row_zero_based": 485,
+      "checked_rows": 485,
       "total_rows": 5228
     }
   },
@@ -613,9 +613,51 @@
       "text": "补充规定（为设定监管审查期限等而对《建筑法施行令》等进行部分修订的施行令）<第25840号，2014年12月9日>\n",
       "original_text": "补充规定（对《建筑法》等法规实施令进行部分修正，以进行监管重组，包括设立监管审查期）<2014年12月9日，第25840号>\n",
       "reason": "규제 재검토기한 설정의 법령 부칙 표제를 부정확하게 번역"
+    },
+    {
+      "id": "B2-zh-00178",
+      "text": "  <39> 《道路法施行令》部分内容修订如下。\n",
+      "original_text": "  <39​​> 《道路法实施法令》部分内容修订如下。\n",
+      "reason": "법령명 ‘도로법 시행령’의 중국어 표기 오류"
+    },
+    {
+      "id": "B2-zh-00183",
+      "text": "第六条（关于修订《道路法施行令》的过渡措施）",
+      "original_text": "第六条（关于修改《道路法》实施细则的过渡措施）",
+      "reason": "도로법 시행령을 시행규칙으로 오역"
+    },
+    {
+      "id": "B2-zh-00186",
+      "text": "  <16> 《道路法施行令》部分内容修订如下。\n",
+      "original_text": "  <16> 《道路法实施法令》部分内容修订如下。\n",
+      "reason": "도로법 시행령의 법령명 오역"
+    },
+    {
+      "id": "B2-zh-00191",
+      "text": "  <286> 《道路法施行令》部分内容修订如下。\n",
+      "original_text": "  <286> 《道路法实施法令》部分内容修订如下。\n",
+      "reason": "도로법 시행령의 법령명 오역"
+    },
+    {
+      "id": "B2-zh-00198",
+      "text": "  ⑬ 《道路法施行令》部分内容修订如下。\n",
+      "original_text": "  ⑬ 《道路法实施细则》部分内容修订如下。\n",
+      "reason": "도로법 시행령을 시행규칙으로 오역"
+    },
+    {
+      "id": "B2-zh-00181",
+      "text": "补充规定（为设定监管重新审查期限等而对《加盟事业交易公平化法施行令》等进行部分修订的施行令）<第27751号，2016年12月30日>\n",
+      "original_text": "补充规定（关于设立监管审查期等的特许经营业务公平交易法实施细则的部分修正）<2016年12月30日第27751号>\n",
+      "reason": "가맹사업거래의 공정화에 관한 법률 시행령을 부정확한 법령명과 시행규칙으로 오역"
+    },
+    {
+      "id": "B2-zh-00188",
+      "text": "本法令自2017年7月18日起施行。但是，为设定监管重新审查期限等而对《加盟事业交易公平化法施行令》等进行部分修订的第27751号总统令附则第六条的修正规定，自公布之日起施行。\n",
+      "original_text": "本法令自2017年7月18日起生效。但是，关于设立监管审查期等事项，对《特许经营业务公平交易法实施法令》等的实施细则进行部分修正的第27751号总统令附录第6条的修正规定，自其颁布之日起生效。\n",
+      "reason": "부칙 인용 법령과 시행령·시행세칙 구분 및 법령명 오역"
     }
   ],
-  "note": "Sequential Chinese review continued through row 459. Added seven focused corrections: Road Act Enforcement Decree mislabeled as enforcement rules, wrong article numbering (Article 80-2 vs Article 80(2)), supplementary title ADDEND typo, skipped article numbering, Article 40 item vs paragraph, and supplementary amendment title. Prior 70 edits retained. Continue from row 460. IN_PROGRESS.",
+  "note": "Sequential Chinese review continued through row 484. Added seven focused corrections to recurring mislabeling of the Road Act Enforcement Decree as enforcement rules, plus the Franchise Business Fairness Act Enforcement Decree title and transitional provision. Prior 77 edits retained. Continue from row 485. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
