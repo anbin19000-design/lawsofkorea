@@ -1,0 +1,126 @@
+{
+  "schema": "LAW_ZH_C02_CANDIDATE_ADJUDICATION_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "task_marker": "ea6051d0b151",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "decisions": [
+    {
+      "id": "A25470-zh-00070",
+      "source_hash": "0a71de9f52bdc9d9e04f10d58fdf79e7e7b33cd6b6b58880178d2f5f4368cc8b",
+      "target_id": "XML:1802955",
+      "decision": "RETAIN_MASTER",
+      "reason": "Form 6 approval/extension confirmation label; 延期 and 延长 are equivalent for Korean 연장, retain consistent accepted terminology.",
+      "retained_text": "审批（签发延长确认书）",
+      "rejected_historical_variant": "审批（签发延期确认书）"
+    },
+    {
+      "id": "A25472-zh-00022",
+      "source_hash": "c498e7b34da54d5d7d70d369f0cddf627cbdd5a2104748634c95cc910cf6cf9c",
+      "target_id": "XML:1803015",
+      "decision": "RETAIN_MASTER",
+      "reason": "Form 8 已完成整备的法律法规 versus 已完成修订的法规 both refer to already revised laws/regulations; retain concise accepted wording.",
+      "retained_text": "已完成修订的法规",
+      "rejected_historical_variant": "－ 已完成整备的法律法规"
+    },
+    {
+      "id": "A25472-zh-00023",
+      "source_hash": "8f14b2a14b51bc382aac8547cd4d44bbbe25d82a2018dfd52194d90098887673",
+      "target_id": "XML:1803016",
+      "decision": "RETAIN_MASTER",
+      "reason": "Form 8 needs amendment/reorganization of laws; retain Korean-based already accepted translation.",
+      "retained_text": "需要修订的法规",
+      "rejected_historical_variant": "－ 需要整备的法律法规"
+    },
+    {
+      "id": "A25472-zh-00025",
+      "source_hash": "e3b201e331d23a3482fb9c26b5d2d57eb80ff9386857a68cb96a0a414da52240",
+      "target_id": "XML:1803018",
+      "decision": "RETAIN_MASTER",
+      "reason": "Form 8 law-amendment rationale label; 法令 and 法律法规 are equivalent here, retain previously checked precise term.",
+      "retained_text": "需要修订法令的理由",
+      "rejected_historical_variant": "需要整备法律法规的理由"
+    },
+    {
+      "id": "A25473-zh-00013",
+      "source_hash": "6ef4ec1fa8c0370cb37a98ab747c7c1284e4a6dcdcad04c1ba0c95fc7a26c9e3",
+      "target_id": "XML:1803048",
+      "decision": "RETAIN_MASTER",
+      "reason": "Form 9 法令整备 label is a precise rendering of Korean 법령정비; alternative broadens terminology only.",
+      "retained_text": "法令整备",
+      "rejected_historical_variant": "法律法规整备"
+    },
+    {
+      "id": "A25473-zh-00016",
+      "source_hash": "dee748bf2f73cca74894cf545fcd0a84624178b31e5aa6d818ed85b492aba9ab",
+      "target_id": "XML:1803051",
+      "decision": "RETAIN_MASTER",
+      "reason": "Form 9 requested legal amendment, 法令 and 法律法规 variant; retain accepted Korean-based correction.",
+      "retained_text": "请求修订的法令",
+      "rejected_historical_variant": "请求整备的法律法规"
+    },
+    {
+      "id": "A25474-zh-00007",
+      "source_hash": "085bbf8840b5bd20723df5fabce60dd5b8b6f9c387e0d30624a1e9f6a8ca316c",
+      "target_id": "XML:1803072",
+      "decision": "RETAIN_MASTER",
+      "reason": "Form 10 regulations subject to regulatory improvement; 规制改善/改进 synonym; 法令 versus 法律法规 no new obligation.",
+      "retained_text": "适用规制特例及规制改进的对象法令",
+      "rejected_historical_variant": "适用规制特例及规制改善的对象法律法规"
+    },
+    {
+      "id": "A36425-zh-00028",
+      "source_hash": "2a589a2d13c086440d01f4e0dfb921224c0a5180f2b53049c6b2cba792689242",
+      "target_id": "XML:2657284",
+      "decision": "RETAIN_MASTER",
+      "reason": "Decree annex 2 手段 and 方式 are contextually equivalent ways of obtaining designation.",
+      "retained_text": "手段取得指定的情形",
+      "rejected_historical_variant": "方式获得指定的情形"
+    },
+    {
+      "id": "A36425-zh-00039",
+      "source_hash": "dfc30a9c8df3945a7afdb4171d41a60c20b0ce44ae177e89a321279a2629cb77",
+      "target_id": "XML:2657295",
+      "decision": "RETAIN_MASTER",
+      "reason": "Decree annex 2 personnel criterion 未达到 and 未能满足 equivalent in negative compliance test.",
+      "retained_text": "1) 未达到指定要求中的人员标准",
+      "rejected_historical_variant": "1) 未能满足指定条件中的人员标准"
+    },
+    {
+      "id": "A36425-zh-00043",
+      "source_hash": "39c93dffba2bc48deba01f61f0194e577803699c5cdcd1ad3f8fc1c678b03bea",
+      "target_id": "XML:2657299",
+      "decision": "RETAIN_MASTER",
+      "reason": "Decree annex 2 的情形/的情况 synonymous and do not affect disposition.",
+      "retained_text": "的情况",
+      "rejected_historical_variant": "的情形"
+    },
+    {
+      "id": "A36425-zh-00046",
+      "source_hash": "a06eb79961d837b33450332002ef6b2360eb4d2b76e77e71880348bb51c98486",
+      "target_id": "XML:2657302",
+      "decision": "RETAIN_MASTER",
+      "reason": "Decree annex 2 facility criterion 未达到 and 未能满足 equivalent in negative compliance test.",
+      "retained_text": "2) 未达到指定要求中的设施标准",
+      "rejected_historical_variant": "2) 未能满足指定条件中的设施标准"
+    },
+    {
+      "id": "A36425-zh-00050",
+      "source_hash": "39c93dffba2bc48deba01f61f0194e577803699c5cdcd1ad3f8fc1c678b03bea",
+      "target_id": "XML:2657306",
+      "decision": "RETAIN_MASTER",
+      "reason": "Decree annex 2 的情形/的情况 synonymous and do not affect disposition.",
+      "retained_text": "的情况",
+      "rejected_historical_variant": "的情形"
+    }
+  ],
+  "new_edits": 0,
+  "remaining_candidates_expected": 150,
+  "completion_receipt_verified": false
+}
