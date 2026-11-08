@@ -1,0 +1,89 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "family": "실용신안법",
+  "worker": "C05",
+  "assignment": "[WORK-TASK:C05:F-00583cebe057fc2929d1:31b3e20e09f7]",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "bd2a2b58f1959725bc638f3eeb15f6cf6081c2ef",
+  "review_commit": "ab4950e84bd8590cf96dc0cca2d2a2bc6f93b824",
+  "previous_progress": "review/zh/F-00583cebe057fc2929d1-progress-C05-20261108-d8d567b9d025-v2.json",
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "prior_corrections": 199,
+  "new_corrections": [
+    {
+      "id": "B3-zh-00032",
+      "source_hash": "a78b79f2dcfa834ecbb503af94ac05164eaf20ce3e6928748d1acea0a8685b4d",
+      "decision": "CORRECT",
+      "reason": "韩国语 '신고' 指申报，非报告义务；仅修正该用词。"
+    },
+    {
+      "id": "B3-zh-00033",
+      "source_hash": "b77d998ba94b805292312b7bf14178a2ce43e1a66de331ea056ef96c2d745e42",
+      "decision": "CORRECT",
+      "reason": "原文为一般程序的撤回或放弃，而非诉讼程序；并修正专利法施行规则的法规名称。"
+    }
+  ],
+  "total_corrections": 201,
+  "previous_pending_rows": 89,
+  "english_note": "B1/B2 official exact-version; B3/forms only 2010 fallback, not exact current version; decree also has AI draft.",
+  "unresolved": [
+    {
+      "id": "B2-zh-00081",
+      "status": "SOURCE_MAPPING_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A29604",
+      "status": "ANNEX_ALIGNMENT_REQUIRED"
+    },
+    {
+      "id": "B3-zh-00117",
+      "status": "SOURCE_MAPPING_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8690",
+      "status": "FORM_ALIGNMENT_REQUIRED"
+    },
+    {
+      "id": "A8693",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8698",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8699",
+      "status": "SOURCE_CONTENT_MISSING"
+    },
+    {
+      "id": "A8703",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8708",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8709",
+      "status": "SOURCE_CONTENT_MISSING"
+    },
+    {
+      "id": "A8690-zh-00499",
+      "status": "SOURCE_TEXT_FRAGMENT_REVIEW_REQUIRED"
+    }
+  ],
+  "reading_status": "FULL_KO_EN_ZH_SEQUENTIAL_READING_NOT_VERIFIED",
+  "completion_receipt": null,
+  "notes": "Same source SHA, 199 existing corrections retained, two further Korean-source-grounded corrections to enforcement rule supplementary provisions. Full sequential reading and unresolved alignment/legibility not completed; no COMPLETE receipt."
+}
