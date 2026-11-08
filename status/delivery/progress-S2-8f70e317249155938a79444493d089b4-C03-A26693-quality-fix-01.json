@@ -1,0 +1,47 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26693",
+  "quality_batch": "A26693-quality-fix-01",
+  "range": {
+    "first": "A26693-zh-00039",
+    "last": "A26693-zh-00039"
+  },
+  "quality_checked_rows": 1,
+  "quality_passed_rows": 1,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "A26693-zh-00039"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26693-00031-00064.json",
+  "prior_quality_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26693-quality-03.json",
+  "supersedes_prior_edit": {
+    "id": "A26693-zh-00039",
+    "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26693-00031-00064.json",
+    "source_hash": "795d2bd7018e2ec269b02d0b841e5f376597c11688b89219a1e58b0647677529",
+    "prior_text": "※请依据《防止人口贩运等及保护受害者等法》第二条第一项规定的人口贩运等行为，"
+  },
+  "results": [
+    {
+      "id": "A26693-zh-00039",
+      "source_hash": "795d2bd7018e2ec269b02d0b841e5f376597c11688b89219a1e58b0647677529",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "한국어 '제2조제1호'의 '호'를 중국어 '第一号'로 교정. 기존 저장 교정 및 품질 기록은 보존."
+    }
+  ],
+  "edits": [
+    {
+      "id": "A26693-zh-00039",
+      "source_hash": "795d2bd7018e2ec269b02d0b841e5f376597c11688b89219a1e58b0647677529",
+      "text": "※请依据《防止人口贩运等及保护受害者等法》第二条第一号规定的人口贩运等行为，"
+    }
+  ],
+  "note": "기존 A26693-quality-03의 39번 NEEDS_CORRECTION 해결용 별도 교정 기록. 기존 행과 원문 해시 및 다른 행 불변. 최종 통합 시 이 교정문을 우선 적용. 전체 COMPLETE 아님."
+}
