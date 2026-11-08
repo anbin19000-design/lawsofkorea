@@ -1,0 +1,46 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "panel_id": "panel-02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:6babcb0e5d1b",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "checked_ids": [
+    "B1-zh-00001"
+  ],
+  "checked_rows_new": 1,
+  "edits": [
+    {
+      "id": "B1-zh-00001",
+      "text": "智慧城市建设及产业振兴等相关法律",
+      "source_hash": "fa4aa60d3d11bd5f247bdfcd6ec545563c79c6486a0883dba7ac13aa998c143a",
+      "target_id": "afc47a11051ffcc1fdcceecf335db87eb01c344488fecb8403f414297b06ed5c",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-6babcb0e5d1b.json",
+      "verification": "C02_KOREAN_TITLE_AND_OFFICIAL_ENGLISH_TITLE_COMPARISON",
+      "reason": "现有标题将已生效的法律称为“法案”，误作尚待审议的 bill；按韩文正式法名及英文 ACT ON... 改为“相关法律”。"
+    }
+  ],
+  "ordered_reading_certification": {
+    "ko": false,
+    "en": false,
+    "zh": false
+  },
+  "english_status": "B1 official family fallback version 283399; not same version as Korean 280109. Korean source controls.",
+  "prior_master_blob_sha": "a601e5cdf4015970fd7d5c306fc9c852ed256aae",
+  "prior_edit_count": 288,
+  "cumulative_edit_count": 289,
+  "cumulative_checked_unique_ids": 304,
+  "notes": [
+    "Compared the Korean statutory title, the official English title, and Chinese title row B1-zh-00001.",
+    "Changed only 法案 to 法律 in the title; did not rewrite the rest of the title.",
+    "B1-zh-00004 and B1-zh-00005 corrections already existed in the master; B1-zh-00006 was also already integrated. They were not duplicated.",
+    "Partial checkpoint only; no full-family reading certificate or completion claim."
+  ]
+}
