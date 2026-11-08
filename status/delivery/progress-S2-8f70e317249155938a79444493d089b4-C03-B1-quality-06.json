@@ -1,0 +1,65 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "B1",
+  "quality_batch": "B1-quality-06",
+  "range": {
+    "first": "B1-zh-00026",
+    "last": "B1-zh-00030"
+  },
+  "quality_checked_rows": 4,
+  "quality_passed_rows": 4,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "B1-zh-00026",
+    "B1-zh-00027",
+    "B1-zh-00028",
+    "B1-zh-00030"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00026-00030.json",
+  "prior_progress_blob_sha": "48526b06655a661964837e2ffb58d8093eb4ddb7",
+  "results": [
+    {
+      "id": "B1-zh-00026",
+      "source_hash": "00413f7f241ca5c9229c12f6a87f3d507073c1c01ad98dfe90b9a10fbd75ceba",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Korean Article 24(1)-(3): creditor's claim arising from trafficking offense is void irrespective of contract form, including assigned claims or assumed debts; investigators must examine property transfers as inducement or coercion, and notify victim or legal representative. Correction replaces erroneous 诉讼请求 and 委托人 with 债权 and 本人, preserving the statutory obligations."
+    },
+    {
+      "id": "B1-zh-00027",
+      "source_hash": "dcf59289d196f387c0befa3bf19dfce96447018debf14c12be8257b869412da2",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Korean Article 25: support for school enrollment applies where the victim or qualifying direct-descendant family member residing domestically at time of victimization is a minor; covers admission, re-admission, school transfer, and transfer admission, with privacy protections and presidential-decree implementation. Correction restores minor-eligibility scope and inclusion of 编入学."
+    },
+    {
+      "id": "B1-zh-00028",
+      "source_hash": "e24a344f692a42ce5f794004a53d6ee3c3c8c8265442b0b598bc5e06eecb4eae",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Korean Article 26: 国家和地方自治团体 may provide vocational training and employment linkage for 受害者等; scope and implementation by Presidential Decree. Correction removes inaccurate 州和地方政府 and retains permissive support."
+    },
+    {
+      "id": "B1-zh-00030",
+      "source_hash": "cd73c198db3223e5cadccb644036ef8eb3320d2e1875d3e2414a004400f5e9d9",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Korean Article 28: state or local government may support all or part of medical expenses not covered by Medical Benefits Act Article 7 when an authorized institution or facility head refers victims for treatment; scope and procedure prescribed by Presidential Decree. Correction accurately identifies conditional referral and payment basis."
+    }
+  ],
+  "edits": [],
+  "note": "Quality-checked the four previously corrected distinct B1 rows immediately after quality-05 (last ID 00025) against Korean source spans and original Chinese. B1-zh-00029 has no saved correction and is excluded from correction-quality count. Existing edits unchanged; family remains IN_PROGRESS."
+}
