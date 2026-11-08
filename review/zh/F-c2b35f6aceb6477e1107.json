@@ -2,7 +2,7 @@
   "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-c2b35f6aceb6477e1107",
   "worker": "C04",
-  "checked_rows": 36,
+  "checked_rows": 39,
   "edits": [
     {
       "id": "A14112-zh-00030",
@@ -147,8 +147,20 @@
     {
       "id": "B1-zh-00088",
       "text": "第四条（修改其他法律）①至⑧ 省略\n\n  ⑨ 《学校供餐服务法》部分修订如下。\n\n  第十六条第一款第一项中，“农水产品原产地标示法”应改为“农水产品原产地标示等法”。\n\n"
+    },
+    {
+      "id": "B2-zh-00015",
+      "text": "第十二条（业务委托等的合同方式）根据本法第十五条进行学校供餐业务委托所订立的合同，适用或准用有关以国家为当事人的合同的法令或者有关以地方自治团体为当事人的合同的法令的相关规定。\n\n"
+    },
+    {
+      "id": "B2-zh-00019",
+      "text": "第十六条（学校供餐研究学校等的指定和运作）教育监可以指定和运作学校供餐研究学校或试点学校，以促进和发展学校供餐的教育效果。\n\n"
+    },
+    {
+      "id": "B2-zh-00021",
+      "text": "第十八条（行政罚款的处罚标准）根据本法第二十五条第一款和第二款行政罚款的处罚标准，见附表。\n\n"
     }
   ],
   "status": "IN_PROGRESS",
-  "note": "WORK-TASK C04 417a9f1335b8: retained 33 prior unique corrections; added B2-zh-00010 (검식 vs food inspection), B2-zh-00014 (incorrect Food Sanitation Act cite and sentence truncation), B1-zh-00088 (source law names). 15-document full QA still in progress."
+  "note": "C04 8f38128fc77b: preserved 36 preexisting unique edits. Added B2-zh-00015 restoring truncated legal contract sentence, B2-zh-00019 correcting education-superintendent authority, and B2-zh-00021 administrative fine standards and attached table. Full family review remains IN_PROGRESS."
 }
