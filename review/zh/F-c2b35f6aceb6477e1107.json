@@ -2,7 +2,7 @@
   "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-c2b35f6aceb6477e1107",
   "worker": "C04",
-  "checked_rows": 95,
+  "checked_rows": 100,
   "edits": [
     {
       "id": "A14112-zh-00030",
@@ -383,8 +383,28 @@
     {
       "id": "A14110-zh-00064",
       "text": ""
+    },
+    {
+      "id": "A14111-zh-00005",
+      "text": "但不属于原产地标示对象的食材的农产品除外。"
+    },
+    {
+      "id": "A14111-zh-00010",
+      "text": "农产品标准规格等级为“上”等级以上的农产品。但尚未制定标准规格的农产品，"
+    },
+    {
+      "id": "A14111-zh-00011",
+      "text": "应使用商品价值达到“上”等级以上的产品。"
+    },
+    {
+      "id": "A14111-zh-00015",
+      "text": "c. 大米应使用自收获年度起一年以内的产品。"
+    },
+    {
+      "id": "A14111-zh-00023",
+      "text": "5) 净含量"
     }
   ],
   "status": "IN_PROGRESS",
-  "note": "C04 0866495dab21: 89 previous edits preserved. Annex A14110 corrected lounge vs restroom, exterior access contamination safeguards, separation of outer and sanitary clothing, classroom serving fallback, and removed spurious 冷启动 text. Chinese annex line-segmented, adjacent clauses checked with Korean source; full-family review not yet certified."
+  "note": "C04 43a05ec02d94: preserved 95 prior unique edits. Korean-source-confirmed A14111 food ingredients annex corrections for origin-label exception, '上' quality grade, harvest-year rice limit, and net content quantity. Entire 15-document Chinese/English semantic review still IN_PROGRESS, no COMPLETE receipt."
 }
