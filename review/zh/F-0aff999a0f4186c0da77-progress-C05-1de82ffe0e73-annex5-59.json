@@ -1,0 +1,28 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "panel_id": "panel-05",
+  "pc": "WORK-C",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_commit": "a9e36b11f373ff6cec57ef41b541a1546d9afcb5",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "chinese_rows": 1687,
+  "previous_correction_count": 58,
+  "new_correction_ids": [
+    "A34916-zh-00158"
+  ],
+  "cumulative_corrections": 59,
+  "verified_review_blob_sha": "0fb45b3f303ffee8b6185b64eaf683315e88b965",
+  "prior_checkpoint": "review/zh/F-0aff999a0f4186c0da77-progress-C05-1de82ffe0e73-minimum-sales.json",
+  "outstanding": "Full untruncated Chinese semantic review is not certified; no COMPLETE receipt permitted",
+  "completion_receipt": null
+}
