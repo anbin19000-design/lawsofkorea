@@ -1,0 +1,158 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-b03365726c96ae9a9cc1",
+  "worker": "C05",
+  "assignment_id": "S2-13d54292ded7d9dee0336566bbd6552b",
+  "status": "IN_PROGRESS",
+  "source_commit": "cf91b988356d39ef374f1e2950831b446f9805aa",
+  "source_blobs": {
+    "ko": "da998892a905553b9118a68d7462283dd789aa0e",
+    "en": "0ae67d1026dd416649e23cf41790c10a301c2597",
+    "zh": "d1581ff0123795ec633f73554343bf9e5f9f3df9"
+  },
+  "checked_rows": 20,
+  "checked_ids": [
+    "B1-zh-00028",
+    "B1-zh-00029",
+    "B1-zh-00030",
+    "B1-zh-00031",
+    "B1-zh-00032",
+    "B1-zh-00033",
+    "B1-zh-00034",
+    "B1-zh-00035",
+    "B1-zh-00036",
+    "B1-zh-00037",
+    "B1-zh-00038",
+    "B1-zh-00039",
+    "B1-zh-00040",
+    "B1-zh-00041",
+    "B1-zh-00042",
+    "B1-zh-00043",
+    "B1-zh-00044",
+    "B1-zh-00045",
+    "B1-zh-00046",
+    "B1-zh-00047"
+  ],
+  "decisions": [
+    {
+      "id": "B1-zh-00028",
+      "source_hash": "e5748a4b12a80579731499d3a651c73950f0d4077bb0349d9dae8a9367c0c760",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B1-zh-00029",
+      "source_hash": "d92baf0d54a8a9ef373fcd91185a428e68faac0bb6b40dd5bb355f30537755da",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B1-zh-00030",
+      "source_hash": "96403a54c11212f0f008c59f79914fd802807650bfb7073fab25b968375d85fd",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B1-zh-00031",
+      "source_hash": "4d5a9f56b1c772623c23892dd313124abacf8da049813baa7b7847f1bdbefeeb",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "B1-zh-00032",
+      "source_hash": "7788816e05eedc732e66f66a420e576f6f8038f28dd21d0a8edb22028f73f2d4",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B1-zh-00033",
+      "source_hash": "5af62943a125027fec9419b3658af64d4bbba260356582a370ab8f57af747093",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B1-zh-00034",
+      "source_hash": "885f6dd63b9d299de05833b517edd7c7903f76224810de3c6c43392c3057f189",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B1-zh-00035",
+      "source_hash": "4784dc4d5ba76f1d752b07e449baf7c7326039166851676b7c38a97632bf5f6b",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B1-zh-00036",
+      "source_hash": "6ed64df9844a7552694c6b493143b0c11a08d6884a241f02985b621f75de7416",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B1-zh-00037",
+      "source_hash": "0dfc26ad982d6d836ff99651886aa6dd39789ce3f22d588c06c6c3d08e55af0f",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "B1-zh-00038",
+      "source_hash": "8128ac13f56178446856f633f0a24ebb2ec25725d5ef4df524a9af734c572c45",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B1-zh-00039",
+      "source_hash": "9a2bf0a05ea58007286dcdf08256a4fadbe59017c42222efbad0ccb0322d72f5",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B1-zh-00040",
+      "source_hash": "de53d3fc1ed9f8251b7329e2eb553f80d93019d2fc62562522d4399deb4246a9",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B1-zh-00041",
+      "source_hash": "cc5cce969f3e3b989411dc994c912aee89071148093cb7bfaaec7ef9936cadde",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B1-zh-00042",
+      "source_hash": "d052fbab943933a0df30d65c9bcd6a01c42bed25bb9e48c6ca71dd93f36aa34d",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B1-zh-00043",
+      "source_hash": "a86af16c938565879e5b2ea94fba3837688592ed585a77d99ae5d4e3b902fd1f",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B1-zh-00044",
+      "source_hash": "1f3cbc8451b5d01c5abe518a0b584773852701c3c2241499042d2b221e6dcf8c",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B1-zh-00045",
+      "source_hash": "71fcf88c87d09df75216742bf723bed1ea3f936548257660711f319b4f71942c",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "B1-zh-00046",
+      "source_hash": "e8bc9198bdde1456198ea5bb8e565253c701b78aa7fc128035fbdbfaa2c58ab8",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B1-zh-00047",
+      "source_hash": "31c4b5b9d46a9dd0eb00034e033daeef31836f76c9e05b223ba6c18a91e62d71",
+      "decision": "CORRECT"
+    }
+  ],
+  "edits": [
+    {
+      "id": "B1-zh-00031",
+      "text": "第十八条之二（空间开发基​​础设施等的开放和利用）\n① 为促进私人航天发展，国家和地方自治团体可允许宇宙事业经营者使用下列机构拥有并向其开放的宇宙开发基础设施。<2024年1月26日修订>\n1. 根据《公共机构运营法》第五条第四款第一项设立的公共企业\n2. 根据《地方公共企业法》设立的地方公共企业\n3. 根据《关于设立、运营和促进科学技术领域政府资助研究机构等的法案》设立的政府资助科学技术领域研究机构\n4. 根据《地方政府资助研究机构设立及运作法》设立的地方政府资助研究机构\n5. 根据《特定研究机构促进法》设立的特定研究机构\n6. 根据《产业技术创新促进法》第42条第1款设立的专业生产技术研究所\n7. 其他拥有宇宙开发基础设施、经宇宙航空厅厅长认定有开放和利用必要并由总统令规定的机构\n② 航天航空管理局局长可要求第1款各子款所列机构提交有关航天发展基础设施的开放和利用情况的绩效记录。<2024年1月26日修订>\n③ 除第1款和第2款规定的事项外，有关开放和利用空间开发基​​础设施等程序的必要事项，由总统令规定。\n\n"
+    },
+    {
+      "id": "B1-zh-00037",
+      "text": "第18-8条（枪支、刀剑、爆炸物等安全管理法的特别规定）\n① 根据《枪支、刀剑、爆炸物等安全管理法》第4条，国家警察厅厅长可以向已根据《国防采办计划法》第53条获得军用爆炸物制造许可证的设施颁发制造许可证，用于制造地面和飞行试验以及航天运载火箭发射所需的爆炸物，即使不符合《枪支、刀剑、爆炸物等安全管理相关法律》第四条规定的许可条件。\n② 第 1 款特别规定所适用的爆炸物及程序等，应由韩国航空航天局局长与韩国国家警察厅厅长和国防采办计划管理局局长协商后予以公布。\n\n"
+    },
+    {
+      "id": "B1-zh-00045",
+      "text": "第23条之2（投资促进区的指定）\n① 航天局局长拟在根据本法第二十二条指定的宇宙产业集群或根据《航空宇宙产业开发促进法》第八条之二指定的航空宇宙产业专门园区所在区域内，吸引符合总统令规定的航天产业促进投资额等标准的投资时，经与地方政府首脑协商并经委员会审议，可将下列任何一项所涵盖的区域指定为投资促进区（以下简称“投资促进区”）。\n1. 投资者期望的区域\n2. 有利于吸引投资且符合总统令规定条件的区域\n② 航天局局长根据第1款指定投资促进区时，应当公开宣布下列各款事项。\n1. 投资促进区的名称、位置和面积\n2. 投资促进区主要业务详情\n3. 投资促进区的开发或管理方法\n4. 总统令规定的其他事项\n③ 投资促进区的程序、方法和管理所需事项，由总统令规定。\n\n"
+    },
+    {
+      "id": "B1-zh-00047",
+      "text": "第23条之4（学校运作和课程的特别规定）\n① 投资促进区所在地区的市长、省长或县长、区长（自治区指区长）可以请求特别市、广域市、特别自治市、省、特别自治省（以下统称“市/省”）的教育局长指定一所依据《初等和中等教育法》第六十一条规定设立的学校，或者开办依据该法规定设立的教育课程的学校（以下简称“自主学校”），或者一所依据该法规定开展特定领域专业教育的高中（以下简称“专业高中”），用于培养符合航天产业特点的人才，并改善教育条件。在这种情况下，接到指定自主学校或专业高中请求的市/省教育局长可以优先指定投资促进区内的自主学校或专业高中。\n② 自治学校或特殊用途高中的校长可以请求有关市/省教育局长或教育局长任用运营自主学校或特殊目的高中所需的教师，或暂缓调动其所属教师（仅限征得该教师本人同意时）。\n\n"
+    }
+  ],
+  "next_id": "B1-zh-00048",
+  "note": "Korean-source read B1 28-47: fixed Art18-2 owner/subject inversion, Art18-8 wrong statute for explosives manufacturing permits, Art23-2 statute and missing area condition, Art23-4 teacher appointment vs deferral. Original rows preserved."
+}
