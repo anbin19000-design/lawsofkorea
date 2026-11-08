@@ -1,0 +1,47 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26703",
+  "quality_batch": "next-c01d377902a960c0bb-02",
+  "range": {
+    "first": "A26703-zh-00049",
+    "last": "A26703-zh-00051"
+  },
+  "quality_checked_rows": 3,
+  "quality_passed_rows": 2,
+  "quality_failed_rows": 1,
+  "quality_checked_ids": [
+    "A26703-zh-00049",
+    "A26703-zh-00050",
+    "A26703-zh-00051"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_correction_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26703-00001-00083.json",
+  "results": [
+    {
+      "id": "A26703-zh-00049",
+      "source_hash": "72ea3d64ace5bc9414498b815d4305c8867b0942a508179e0657ad60d1274daa",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "adopted_text": "无",
+      "reason": "수수료 '없음'과 기저장 교정 '无' 일치"
+    },
+    {
+      "id": "A26703-zh-00050",
+      "source_hash": "4baca921dfdc66e9b39fe6f3b3f2265b183ca2b8aadaaec6171ac27845d02255",
+      "verdict": "NEEDS_RECONCILIATION",
+      "reason": "한국어 임대차계약서 조건의 이어진 '경우만 해당합니다)'에 해당. 48행 기저장 교정문에 이미 해당 조건 전체가 포함되어 중복 표현 여부 확인 필요. 원본 또는 교정문 덮어쓰기 보류."
+    },
+    {
+      "id": "A26703-zh-00051",
+      "source_hash": "7ef82caf97ec4584a766baee9d786d834efe16e56bcb87b5de41d81e97f865cb",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "adopted_text": "3. 标示变更后支援设施各结构部分面积的平面图（仅在支援设施",
+      "reason": "한국어 평면도 제출 항목의 '변경된 시설 구조별 면적' 및 조건의 앞부분 일치. 52행에 이어짐."
+    }
+  ],
+  "edits": [],
+  "note": "First next segment after verified 46-48; row 50 flagged as possible adjacent-cell duplication, not silently passed. Family-wide COMPLETE not asserted."
+}
