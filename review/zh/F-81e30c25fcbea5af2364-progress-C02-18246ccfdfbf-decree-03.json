@@ -1,0 +1,51 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:18246ccfdfbf",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "checked_rows": 2,
+  "checked_ids": [
+    "B2-zh-00043",
+    "B2-zh-00045"
+  ],
+  "edits": [
+    {
+      "id": "B2-zh-00043",
+      "text": "第32条（证书的撤销）\n① 国土交通大臣根据该法第33条规定，拟撤销智慧城市等的认证时，应当提前通知被认证人，详细说明撤销的理由和提交解释材料的期限。\n② 根据第1款收到取消通知书的人，如未在规定期限内提交解释材料，国土交通大臣应再次发出拟撤销认证的预先通知。\n③ 如被认证方第二次未在事先通知的提交期限内提交解释材料，或者提交的解释材料被认为没有实质内容，则国土交通大臣应当撤销认证。\n④ 国土交通大臣撤销证明书时，应当立即通知相关证明书的持有人，并在国土交通部网站公布。\n\n",
+      "target_id": "200a1d830b70962b5c3ab82c23e02289b34904e5bf3bb099b61ade977ae8f8d7",
+      "source_hash": "69fa4b1def3940253b0b90f5e5128e58ad1cee3a482910a85bd9e704daab837c"
+    },
+    {
+      "id": "B2-zh-00045",
+      "text": "第三十四条（国家试点城市指定标准和程序）\n① 本法第35条第1款第4项所称“符合总统令规定条件的地区”是指符合下列任一项规定的地区。<2023年7月7日修订>\n1. 预计这些地区将有助于区域均衡发展，因为经评估，在国家试点城市指定和运营后，这些地区对周边城市具有较高的连锁效应和影响力。\n2. 预计创新产业集中且私营部门参与潜力巨大的地区\n② 中央有关行政机关负责人和特别大都市、大都会、特别自治市、特别自治省的市长、县长（以下统称“地方主管政府负责人”）在收到国土交通大臣依据本法第三十五条第二款提出的咨询或意见请求时，应当自收到请求之日起三十日内答复其意见，但有特殊情况者除外。\n③ 在该法第35条第4款第一部分中，“总统令规定的指定标准”是指根据该法第35条第1款规定的指定标准。\n④ 如果国土交通部长根据本法第35条第1款、第3款和第4款指定或撤销国家试点城市，或变更国家试点城市的范围，则他/她应根据同一条款第6款，立即在官方公报上公布下列各款所列事项。\n1. 指定国家试点城市时：下列各项事宜\nA. 国家试点城市的名称、位置和面积\nB. 指定国家试点城市的目的\nC. 在国家试点城市推进的事业内容\nd. 国土交通大臣认为必要的其他事项\n2. 如果国家试点城市的范围发生变更：变更原因以及第1款中关于变更后的国家试点城市的各项事项\n3。以国家试点城市解除为例：解除事实及解除原因\n\n",
+      "target_id": "1822363bc341d64f70e3fe1cbd6bbcd07319ae254e0a93c9db68fb61cb2edc81",
+      "source_hash": "f533fc39b9bf149ab1e4b3200c50e2e7034bab702365282b8388976a4e5e695a"
+    }
+  ],
+  "adjudications": [
+    {
+      "id": "B2-zh-00043",
+      "verdict": "CORRECT_MATERIAL_MISTRANSLATION_OR_OMISSION",
+      "reason": "제32조제2항은 인증 취소 자체가 아니라 '2차 예고통보' 의무. 기존 '第二次取消通知书'는 취소처분 통보로 오인될 수 있으므로 사전예고로 명시."
+    },
+    {
+      "id": "B2-zh-00045",
+      "verdict": "CORRECT_MATERIAL_MISTRANSLATION_OR_OMISSION",
+      "reason": "제34조제1항은 기준 중 어느 하나 충족이면 됨(任一项); 제4항의 항 번호 ④ 유지; 제4항제1호 다목 '국가시범도시에서 추진할 사업의 내용'이 중국어에서 한정어만 남고 실질 내용 누락되어 복원."
+    }
+  ],
+  "previous_progress": [
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-18246ccfdfbf.json",
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-18246ccfdfbf-decree-02.json"
+  ],
+  "note": "Verified source Korean B2 article 32/34 spans; no global ordered full read certification; original file IDs and hashes unchanged. Do not mark COMPLETE.",
+  "next_review": "Continue B2 subsequent original document cells, then other documents and final unique ID reconciliation."
+}
