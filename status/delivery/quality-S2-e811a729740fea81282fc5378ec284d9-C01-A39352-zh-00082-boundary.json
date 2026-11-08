@@ -1,0 +1,27 @@
+{
+  "schema": "LAW_ZH_ROW_QUALITY_V1",
+  "job_id": "F-eb24b26e08a83be58f81",
+  "assignment_id": "S2-e811a729740fea81282fc5378ec284d9",
+  "worker": "C01",
+  "branch": "main",
+  "status": "BOUNDARY_OVERLAP_VERIFIED",
+  "row_id": "A39352-zh-00082",
+  "adjacent_confirmed_id": "A39352-zh-00081",
+  "source_hash": "f6fffc69784191b8c56fa7dcd5afebaf4ef0450f4710bd38e3c895da2b5be36d",
+  "source_blob_sha": {
+    "ko": "f0d6fbd2ef344c2fcc23f9c68a9e5dfbb3ed196a",
+    "zh": "0ab0bdb3db18772f9e4cb45b0e179805f0df3940"
+  },
+  "progress_file": "status/delivery/progress-S2-e811a729740fea81282fc5378ec284d9-C01-A39352-00028-00082.json",
+  "progress_blob_sha": "140f02d4b0dccfb593be86d509b87fa9595970b3",
+  "adjacent_quality_file": "status/delivery/reconcile-S2-e811a729740fea81282fc5378ec284d9-C01-A39352-zh-00081.json",
+  "adjacent_quality_blob_sha": "3fcb8341eba609ce0138de418787712e1b0d36fe",
+  "existing_candidate_text": "的情形",
+  "adjacent_confirmed_text": "或者提交虚假资料的情形",
+  "korean_cell": "사. 법 제72조제1항에 따른 자료의 제출을 하지 않거나 거짓된 자료를 제출한 경우",
+  "decision": "00082 的情形 accurately represents sentence ending when 00081 is only 或者提交虚假资料. However the preserved 00081 confirmed text already includes 的情形. Do not append 00082 fragment to the confirmed 00081 full phrase: this would duplicate 的情形. Preserve 00081; mark 00082 as an overlapping boundary fragment for final aggregation, not an additional complete sentence.",
+  "checked_rows_added": 0,
+  "edits_added": 0,
+  "final_review_status": "IN_PROGRESS",
+  "note": "Focused Korean annex-cell and adjacent row boundary check only. No source, progress file, row ID, original hash, or prior confirmation changed; no COMPLETE receipt."
+}
