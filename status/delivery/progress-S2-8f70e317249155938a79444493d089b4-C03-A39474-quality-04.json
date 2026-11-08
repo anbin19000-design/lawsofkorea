@@ -1,0 +1,235 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A39474",
+  "quality_batch": "A39474-quality-04",
+  "range": {
+    "first": "A39474-zh-00045",
+    "last": "A39474-zh-00065"
+  },
+  "quality_checked_rows": 21,
+  "quality_passed_rows": 21,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "A39474-zh-00045",
+    "A39474-zh-00046",
+    "A39474-zh-00047",
+    "A39474-zh-00048",
+    "A39474-zh-00049",
+    "A39474-zh-00050",
+    "A39474-zh-00051",
+    "A39474-zh-00052",
+    "A39474-zh-00053",
+    "A39474-zh-00054",
+    "A39474-zh-00055",
+    "A39474-zh-00056",
+    "A39474-zh-00057",
+    "A39474-zh-00058",
+    "A39474-zh-00059",
+    "A39474-zh-00060",
+    "A39474-zh-00061",
+    "A39474-zh-00062",
+    "A39474-zh-00063",
+    "A39474-zh-00064",
+    "A39474-zh-00065"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39474-00045-00065.json",
+  "prior_quality_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39474-quality-03.json",
+  "results": [
+    {
+      "id": "A39474-zh-00045",
+      "source_hash": "f0e48bf93dfc0e2aafdc2fe212ee1cabe0fabf722782cdf4df3c817909a6981f",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "대기실 제목 일치"
+    },
+    {
+      "id": "A39474-zh-00046",
+      "source_hash": "6e90e14868b4735123d61d30ab112b7ce185192ea49e3b5ebc36583f9a269120",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "대기실 9.5제곱미터 이상 규모 기준 일치"
+    },
+    {
+      "id": "A39474-zh-00047",
+      "source_hash": "4cf5c740ac8a1c63d014bc5072d96308a5657cc46cfc66a09447efe7a854e567",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "응급보호실은 법 제22조제1항의 응급조치 의무가 필요한 경우에만 적용된다는 단서를 인접 행과 함께 확인"
+    },
+    {
+      "id": "A39474-zh-00048",
+      "source_hash": "f0af4c1f777042e4fafcbf4192d29b3c40be74be5619a4428a6c766f3e1c75e1",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "앞 행 응급보호실 적용 조건 문장 종결 일치"
+    },
+    {
+      "id": "A39474-zh-00049",
+      "source_hash": "0e8658f2640938da770a74b46584fb661325b43002229d23dcb941581861d510",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "9.9제곱미터 이상, 법 제22조제2항에 따른 피해자와 인신매매등 행위자 분리 요건의 시작 부분 일치"
+    },
+    {
+      "id": "A39474-zh-00050",
+      "source_hash": "443909a8ed891b4a78b27075738d4bd144d6f1ced3e6ad7fa8e4f1d1ecc49d73",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "식숙 제공 등 임시보호업무 수행 요건을 앞뒤 셀과 연결해 확인"
+    },
+    {
+      "id": "A39474-zh-00051",
+      "source_hash": "eea8ddff9ec01093eac9b4b2c4715e6232c78415da4d82dd8b0405d78cc93938",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "필요 시설 구비 의무를 연결해 확인"
+    },
+    {
+      "id": "A39474-zh-00052",
+      "source_hash": "96b0412dc8dd323e1cb9588017fd125dcbb663efbfacc97274b5aad36292d94a",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "소방시설 설치 및 관리에 관한 법률 화재안전기준 인용 일치"
+    },
+    {
+      "id": "A39474-zh-00053",
+      "source_hash": "971066b1253d034b7acf09400d6dea54185080dd48381282603459cedccdf726",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "소화설비 및 피난설비 구비 의무 일치"
+    },
+    {
+      "id": "A39474-zh-00054",
+      "source_hash": "619522a412d19638f83370035280efa4418b40041d218a2b14a99f8e29098fca",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "교육실 제목 일치"
+    },
+    {
+      "id": "A39474-zh-00055",
+      "source_hash": "1648b1f6525c5b2c640e75a1e130e7443c677be31af4dd63676d80599a5ab45b",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "39제곱미터 이상, 피해자·가족·기관 종사자 등 교육 전용공간 의무 시작 부분 일치"
+    },
+    {
+      "id": "A39474-zh-00056",
+      "source_hash": "f1d282b01b48ed7e06a67fc294e9cfd1f24c06e70dbc3b3a670a24d8dd093c51",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "교육 대상에 기타 관계자를 포함하며 전용공간 구비 의무의 마무리 일치"
+    },
+    {
+      "id": "A39474-zh-00057",
+      "source_hash": "ec699104467bb1e0dac6f59934d4e58848d67b41d5378d924c5c4cadb8354cda",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "교육에 필요한 집기·설비·비품 구비 의무 일치"
+    },
+    {
+      "id": "A39474-zh-00058",
+      "source_hash": "a6700f2f22fed724d163a0a8216e9468e822b8ae1808153d634143a74f419595",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "나. 운영 기준 구분 일치"
+    },
+    {
+      "id": "A39474-zh-00059",
+      "source_hash": "38bb4dcaa3eb3c157da7c9ee927972836d88fc2839458f3823bd79da1a2fe367",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "운영 규정 제정 및 시행 항목 일치"
+    },
+    {
+      "id": "A39474-zh-00060",
+      "source_hash": "183271ae13ebb0e4afa83f618e5ee83b7cd08bdcf9228d4bc19fd24d4671da34",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "조직·인사·급여·회계·물품 등 운영 필요 사항의 규정 범위 일치"
+    },
+    {
+      "id": "A39474-zh-00061",
+      "source_hash": "84fe01069c3e04d39e22403364131b43593c2e1a15e3ec36e744fe1182548fe6",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "앞 행 규정 제정·시행 의무 종결 일치"
+    },
+    {
+      "id": "A39474-zh-00062",
+      "source_hash": "ee163387152a35e58879de739924ac31f622c77f222ac5349e2c636f7ff5e97e",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "장부 등의 비치 제목 일치"
+    },
+    {
+      "id": "A39474-zh-00063",
+      "source_hash": "1bc5ebb6d58efb51c2976f3a53a7f6cd0b70dc8654fc51563079c9d920a238ce",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "사무실에 장부와 서류를 갖추어 둘 의무 일치"
+    },
+    {
+      "id": "A39474-zh-00064",
+      "source_hash": "e3d48db4f7e3443b8597497cb2938e6218a0f510ed6a8c404ffc7df1488cc21e",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "지역피해자권익보호기관 연혁 기록부 항목 일치"
+    },
+    {
+      "id": "A39474-zh-00065",
+      "source_hash": "5dda89d15ff90200f54e4578116939151e320525397d3bb10a83f40953b39d0c",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "재산목록 및 소유권·사용권 증명서류 항목 일치"
+    }
+  ],
+  "edits": [],
+  "note": "별표 1 45~65번의 기존 교정 9건과 나머지 12개 셀을 한국어 본문과 인접 셀로 확인. 9.5/9.9/39㎡ 기준, 법 제22조 인용, 소방안전·교육실·장부 요건 보존. 기존 원본, 행 ID, 해시와 교정은 변경하지 않음. 전체 가족 COMPLETE 아님."
+}
