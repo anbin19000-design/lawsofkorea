@@ -38,9 +38,9 @@
   },
   "chinese_review": {
     "status": "IN_PROGRESS",
-    "checked_rows": 476,
+    "checked_rows": 528,
     "total_rows": 2808,
-    "next_row_id": "A29207-zh-00001",
+    "next_row_id": "A29208-zh-00001",
     "edits": [
       {
         "id": "A6681-zh-00017",
@@ -821,6 +821,74 @@
       {
         "id": "B2-zh-00123",
         "text": "附则（为解除规制重新审查期限等而部分修改144项总统令的总统令）<第30509号，2020年3月3日>\n\n本施行令自公布之日起施行。\n\n"
+      },
+      {
+        "id": "A29207-zh-00005",
+        "text": "等级"
+      },
+      {
+        "id": "A29207-zh-00011",
+        "text": "（a）在依《高等教育法》设立的研究生院主修社会福利学或社会事业学并取得硕士或博士学位的人。但取得非社会福利学或社会事业学领域学士学位后，再取得社会福利学或社会事业学硕士学位的人，仅在修毕卫生福利部令规定的社会福利学专业课程及社会福利相关课程中，包含社会福利现场实习在内的必修科目6门以上（包括在大学修毕的科目，但研究生院须修毕4门以上）及选修科目2门以上时，才承认其社会工作者资格。"
+      },
+      {
+        "id": "A29207-zh-00019",
+        "text": "（上述必修科目6门以上及选修科目2门以上须分别修毕，方承认社会工作者资格。）"
+      },
+      {
+        "id": "A29207-zh-00020",
+        "text": "资格。"
+      },
+      {
+        "id": "A29207-zh-00021",
+        "text": "（b）在依《高等教育法》设立的大学修毕卫生福利部令规定的社会福利学专业课程及社会福利相关课程，并取得学士学位的人。"
+      },
+      {
+        "id": "A29207-zh-00023",
+        "text": "（c）依法律规定，被认定具有与依《高等教育法》毕业于大学者同等或更高学历，并修毕卫生福利部令规定的社会福利学专业课程及社会福利相关课程的人。"
+      },
+      {
+        "id": "A29207-zh-00026",
+        "text": "（d）在依《高等教育法》设立的专科大学修毕卫生福利部令规定的社会福利学专业课程及社会福利相关课程并毕业的人。"
+      },
+      {
+        "id": "A29207-zh-00028",
+        "text": "（上述专科大学毕业者的资格条件续下）"
+      },
+      {
+        "id": "A29207-zh-00029",
+        "text": "（e）依法律规定，被认定具有与依《高等教育法》毕业于专科大学者同等或更高学历，并修毕卫生福利部令规定的社会福利学专业课程及社会福利相关课程的人。"
+      },
+      {
+        "id": "A29207-zh-00032",
+        "text": "（f）依旧《社会福利事业法》（指第14923号法律修订前的规定）取得社会工作者三级资格证书后，具有3年以上社会福利事业实务经验的人。"
+      },
+      {
+        "id": "A29207-zh-00040",
+        "text": "领域"
+      },
+      {
+        "id": "A29207-zh-00042",
+        "text": "（a）精神健康社会工作者"
+      },
+      {
+        "id": "A29207-zh-00043",
+        "text": "依《促进精神健康及精神疾病患者福利服务支援法施行令》附表1规定，具备精神健康社会工作者资格标准的人。"
+      },
+      {
+        "id": "A29207-zh-00047",
+        "text": "（b）医疗社会工作者或学校社会工作者"
+      },
+      {
+        "id": "A29207-zh-00048",
+        "text": "取得社会工作者一级资格后，在依本法第11条第3款规定的培训机构"
+      },
+      {
+        "id": "A29207-zh-00049",
+        "text": "接受卫生福利部令规定的培训课程"
+      },
+      {
+        "id": "A29207-zh-00050",
+        "text": "并完成1年以上培训的人。"
       }
     ],
     "reviewed_documents": [
@@ -828,14 +896,15 @@
       "A6681",
       "A6682",
       "A6683",
-      "B2"
+      "B2",
+      "A29207"
     ],
-    "notes": "Sequential review completed B2 through row 00126 (126 rows); total checked_rows 476. The B2 source tail contains the Annex 1 standard text concatenated after the final 2026 supplementary provision, but the same annex is separately represented by document A29207 (52 rows), which is the next ordered document and will be reviewed there to avoid double-counting or splitting the annex. Remaining 37 documents after B2."
+    "notes": "Sequential review completed A29207 Annex 1 (52 rows), total checked_rows 528. Corrected corrupted labels/letter markers, qualification criteria fragmentation and omissions, the invalid ‘status/installation/closure’ renderings, and specialist field names/eligibility. Next source-order document A29208 (54 rows); 36 documents remain after it."
   },
   "prior_work": {
     "review_file": "NOT_FOUND",
     "receipt_file": "NOT_FOUND",
     "matching_progress_files": "NONE_FOUND"
   },
-  "updated_at": "2026-11-09T07:40:00+09:00"
+  "updated_at": "2026-11-09T07:44:00+09:00"
 }
