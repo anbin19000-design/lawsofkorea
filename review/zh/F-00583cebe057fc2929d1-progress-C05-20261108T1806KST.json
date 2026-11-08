@@ -2801,6 +2801,13 @@
       "source_hash": "d77166108d38dee926ab94aa8ae4f57b131e680c126e2d8b212aa8915e93546f",
       "decision": "KEEP",
       "reason": "시행규칙 한국어 부칙 원문과 날짜·조문·서식명 대조"
+    },
+    {
+      "id": "B3-zh-00117",
+      "doc": "B3",
+      "source_hash": "09bb13f8be590de491e948a67ddd8983b6d8866dd4cab6f25eabdebf0378b396",
+      "decision": "SOURCE_MAPPING_REVIEW_REQUIRED",
+      "reason": "B3 source length 23873; row end 25597, 중국어 마지막 행에 제1호서식 텍스트가 혼입됨."
     }
   ],
   "changes": {
@@ -3421,8 +3428,8 @@
       "reason": "별지 제1호 앞쪽/뒤쪽 및 제2호/제4호 잘못 열거"
     }
   },
-  "next_row_id": "B3-zh-00117",
-  "notes": "B3 시행규칙 순차 116행 확인; 끝 행 117은 원문 부칙과 서식 데이터 혼입 의심, 대조 필요.",
+  "next_row_id": "A8690-zh-00001",
+  "notes": "법률 B1 196행; 시행령 B2 80행 +1 경계; 별표 구조 문제; 시행규칙 B3 116행 +1 경계. 서식 A8690부터 미검수.",
   "flagged_scan": {
     "range": "B1-zh-00102..B1-zh-00196",
     "method": "targeted anomaly screening, not full sequential review",
@@ -3442,6 +3449,16 @@
       "doc": "A29604",
       "status": "ANNEX_ALIGNMENT_REQUIRED",
       "note": "ANNEX rows lack start/end offsets; compare entire original annex against target rows before final judgment."
+    },
+    {
+      "id": "B3-zh-00117",
+      "status": "SOURCE_MAPPING_REVIEW_REQUIRED",
+      "note": "B3 KO source ends at 23873, row end 25597 and text contains next annex/form; original unchanged."
+    },
+    {
+      "doc": "A8690",
+      "status": "FORM_ALIGNMENT_REQUIRED",
+      "note": "509 form rows have null source offsets; original KO form 41859 chars. Align sections/text before full verification."
     }
   ],
   "annex_status": {
