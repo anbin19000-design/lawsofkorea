@@ -1,0 +1,36 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-3705abbc710de4b867bc",
+  "assignment_id": "S2-8183a621b8430dee4e0cc754affc1b45",
+  "worker": "C05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "7974bf81d14f4838ae85d4b3ceea80a2f0e65fed",
+    "zh": "045dd328cd77f3eecd8b6cd485be27f2389773e8",
+    "en": "608343efc91f6dc84efbcee2e5a9276a847e3a67"
+  },
+  "quality_checked_rows": 2,
+  "quality_records": [
+    {
+      "id": "B2-zh-00054",
+      "source_hash": "0f2bc01243d6dcf11de1e3cc63171ac0aea822bf2d6b98d53c3f2977f520a50a",
+      "source_ko": "제2조(다른 법령의 개정) 소방산업의 진흥에 관한 법률 시행령 일부를 다음과 같이 개정한다.\n\n  제2조를 삭제한다.\n\n  별표를 삭제한다.\n\n",
+      "candidate_text": "第二条（修改其他法律）对《消防产业振兴法施行令》的部分内容修改如下。\n\n  第二条被删除。\n\n  删除附表。\n\n",
+      "decision": "NEEDS_CORRECTION",
+      "basis": "The heading 다른 법령 means other decrees/regulations or normative instruments (其他法令), not only statutes (其他法律). The deletion of Article 2 and the annex are correctly conveyed.",
+      "recommended_text": "第二条（其他法令的修改）《消防产业振兴法施行令》的部分内容修改如下。\n\n删除第二条。\n\n删除附表。\n\n",
+      "action": "record_quality_defect_do_not_overwrite_existing_progress"
+    },
+    {
+      "id": "B2-zh-00057",
+      "source_hash": "7a29aaf9bfede6e083e32cf04256163f86f9f8d38f716a1569073cef6eb1b789",
+      "source_ko": "제2조(공고 등의 방법에 관한 일반적 적용례) 이 영은 이 영 시행 이후 실시하는 공고, 공표, 공시 또는 고시부터 적용한다.\n\n",
+      "candidate_text": "第二条（公告等方式的一般适用例）本施行令适用于本施行令施行后实施的公告、公表、公示或者告示。\n\n",
+      "decision": "PASS",
+      "basis": "All four kinds of public notice are represented and the applicability after the decree's entry into force is retained.",
+      "action": "retain_existing_correction"
+    }
+  ],
+  "note": "Unique quality record only. B2-zh-00054 requires repair in a separate validated correction artifact; prior saved records are not overwritten. No final receipt."
+}
