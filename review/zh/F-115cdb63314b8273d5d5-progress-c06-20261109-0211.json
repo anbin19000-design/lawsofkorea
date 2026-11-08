@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 780,
+    "verified_zh_rows": 840,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 780,
-      "checked_rows": 780,
+      "next_row_zero_based": 840,
+      "checked_rows": 840,
       "total_rows": 5228
     }
   },
@@ -1003,9 +1003,63 @@
       "text": "全南光州综合特别市高敞郡上下面龙台里 ～ 全南光州综合特别市高敞郡上下面龙台里",
       "original_text": "全罗南道光州市高敞郡上下面龙大里 ～ 全罗南道光州市高敞郡上下面龙大里",
       "reason": "旧行政区划名称残留及地名音译错误"
+    },
+    {
+      "id": "A28845-zh-00234",
+      "text": "全南光州综合特别市高兴郡浦头面南城里 ～ 全南光州综合特别市高兴郡道阳邑凤岩里",
+      "original_text": "全罗南道光州市高兴郡浦头面南城里 ～ 全罗南道光州市高兴郡道阳邑凤岩里",
+      "reason": "旧行政区划名称残留"
+    },
+    {
+      "id": "A28845-zh-00236",
+      "text": "全南光州综合特别市高兴郡南阳面针桥里 ～ 全南光州综合特别市宝城郡鸟城面鸟城里",
+      "original_text": "全罗南道光州市高兴郡南阳面清桥里 ～ 全罗南道光州市宝城郡朝鲜面朝鲜里",
+      "reason": "旧行政区划名称残留及面名、地名音译错误"
+    },
+    {
+      "id": "A28845-zh-00238",
+      "text": "全南光州综合特别市长兴郡安良面水阳里 ～ 全南光州综合特别市长兴郡龙山面接亭里",
+      "original_text": "全罗南道光州长兴郡安阳面水阳里 ～ 全罗南道光州长兴郡龙山面铁井里",
+      "reason": "旧行政区划名称残留及地名音译错误"
+    },
+    {
+      "id": "A28845-zh-00240",
+      "text": "庆尚南道固城郡下二面德湖里 ～ 庆尚南道统营市道山面法松里",
+      "original_text": "庆尚南道高城郡海面德湖里 ～ 庆尚南道统营郡岛山面法松里",
+      "reason": "固城郡、下二面及统营市的地名层级与名称误译"
+    },
+    {
+      "id": "A28845-zh-00252",
+      "text": "总计 57.5",
+      "original_text": "总计 57.5MTQb52771adce86f6ae01576E​​ND",
+      "reason": "表格数值字段夹带残余MTQ标记"
+    },
+    {
+      "id": "A28845-zh-00254",
+      "text": "京畿道抱川市内村面内里 ～ 江原特别自治道铁原郡铁原邑大马里",
+      "original_text": "京畿道抱川市内村面内里 ～ 江原道铁原郡铁原邑大马里",
+      "reason": "강원특별자치도 신 행정구역명 누락"
+    },
+    {
+      "id": "A28845-zh-00256",
+      "text": "江原特别自治道铁原郡东松邑梧枝里 ～ 江原特别自治道铁原郡铁原邑大马里",
+      "original_text": "江原道铁原郡东松邑王子里 ～ 江原道铁原郡铁原邑大马里",
+      "reason": "강원특별자치도 신 행정구역명 누락 및 지명 오역"
+    },
+    {
+      "id": "A28845-zh-00262",
+      "text": "文岩里，日月面，英阳郡，庆尚北道 ～ 本新里，首比面，英阳郡，庆尚北道",
+      "original_text": "文南里, 日院面, 荣阳郡, 庆尚北道 ～ 本新里, 渚边面, 荣阳郡, 庆尚北道",
+      "reason": "경북 영양군 일월면·수비면 지명 순서 및 한자 음역 오류"
+    },
+    {
+      "id": "A28845-zh-00257",
+      "text": "■ 《道路法施行令》[附表一] <2026年6月23日修订>",
+      "original_text": "■ 道路法实施令[附表1]<2026年6月23日修订>",
+      "reason": "도로법 시행령을 부정확하게 표기"
     }
   ],
-  "note": "Sequential Chinese review continued through original row 779 of Annex 1. Added twelve corrections for Gangwon Special Self-Governing Province and Jeonnam-Gwangju Integrated Special City names, road-section location order, and obvious township/place-name errors. Previous 130 edits retained. Continue from row 780. IN_PROGRESS.",
+  "note": "Sequential Chinese review continued through original row 839. Completed the remaining portion of Annex 1 and began Annex 2. Added nine focused corrections for updated administrative names, road-section locality errors, residual MTQ token in a numeric cell, and Annex heading law title. Previous 142 edits retained. Continue from row 840. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
