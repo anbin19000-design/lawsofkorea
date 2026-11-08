@@ -31,7 +31,20 @@
   },
   "assistant_count": 17,
   "assistant_excerpt": "C04 회차 2 — 검수 재개 및 저장 결과\n중간 저장·재조회 성공\n\nJob ID: F-5c680578acc95aaaac92\n법령가족: 국유재산특례제한법\n브랜치: main\n\n이전 회차의 91개 교정을 보존하고, 법률 본문·시행령·별표에서 추가로 19개 행을 교정했습니다.\n\n항목\n\n\t\n\n현재 결과\n\n\n\n\n전체 중국어 행\n\n\t\n\n1,166\n\n\n\n\n누적 교정 저장\n\n\t\n\n110\n\n\n\n\n고유 교정 ID\n\n\t\n\n110\n\n\n\n\n원문 SHA 변경\n\n\t\n\n없음\n\n\n\n\n검수 상태\n\n\t\n\nIN_PROGRESS\n\n\n\n\nCOMPLETE 영수증\n\n\t\n\n미생성\n\n최신 검수 저장 커밋\n\na2699bf9963c8c53532a464beb3951d8d6a18ebd\n\n최신 검수 파일 SHA\n\nd6197b5c195761a124e2300e9644b5d8f71178be\n\n이번 회차에서는 시행령 제2조의2의 조문 구조와 누락·오역을 수정했으며, 법률 부칙 B1-zh-00116에 잘못 포함된 별표 중복 번역을 제거하는 교정문도 저장했습니다.\n\n추가 점검에서 저장된 교정문을 원래 중국어 행에 적용해 확인한 결과, MTQ, START, [文本不清晰], 조문 번호의 万亿 오표기는 더 이상 검출되지 않았습니다. 별표 222개 항목의 날짜 표기에서도 원문과 불일치하는 사례는 발견되지 않았습니다.\n\n다만 전체 1,166행의 의미 검수는 아직 완료되지 않았습니다. 다음 검수 시작 행은 B1-zh-00002이며, 저장되지 않은 교정과 미검증 범위를 계속 구분해야 합니다.\n\n권한·보호 오류는 발생하지 않았고, 운영 DB도 변경하지 않았습니다. 완료 영수증은 생성하지 않았습니다.",
+  "attempted_at": "2026-11-08T03:33:09.526430+00:00",
   "created_at": "2026-11-08T03:33:03.950748+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-5bdf355848bab61b328c4753cea6e242",
+    "attempted_at": "2026-11-08T03:33:09.526430+00:00",
+    "claim_commit": "ec789a67ff2b8bc0df98fd8077b56a269d4f4250",
+    "event_id": "obs-78b9965f91462d7768635b03cd01d5bf6242877a",
+    "job_id": "F-5c680578acc95aaaac92",
+    "record_path": "status/delivery/recovery-S2-5bdf355848bab61b328c4753cea6e242.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C04"
+  },
   "episode": 3,
   "event_id": "obs-78b9965f91462d7768635b03cd01d5bf6242877a",
   "idle_followup": true,
@@ -170,7 +183,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-8985a3de1deae41e5984ab01]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "a2699bf9963c8c53532a464beb3951d8d6a18ebd",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6aefea99-7234-83ec-b767-a56b85691cc4",
   "worker": "C04"
 }
