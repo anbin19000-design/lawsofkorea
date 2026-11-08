@@ -1,0 +1,187 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26699",
+  "quality_batch": "A26699-quality-03",
+  "range": {
+    "first": "A26699-zh-00051",
+    "last": "A26699-zh-00066"
+  },
+  "quality_checked_rows": 16,
+  "quality_passed_rows": 15,
+  "quality_failed_rows": 1,
+  "quality_checked_ids": [
+    "A26699-zh-00051",
+    "A26699-zh-00052",
+    "A26699-zh-00053",
+    "A26699-zh-00054",
+    "A26699-zh-00055",
+    "A26699-zh-00056",
+    "A26699-zh-00057",
+    "A26699-zh-00058",
+    "A26699-zh-00059",
+    "A26699-zh-00060",
+    "A26699-zh-00061",
+    "A26699-zh-00062",
+    "A26699-zh-00063",
+    "A26699-zh-00064",
+    "A26699-zh-00065",
+    "A26699-zh-00066"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26699-00001-00066.json",
+  "prior_quality_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26699-quality-02.json",
+  "results": [
+    {
+      "id": "A26699-zh-00051",
+      "source_hash": "c9b10df2527127ea18b556946c54ecd34af4184b48195d70f5331c986474353a",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "전자정부법 제36조제1항 및 행정정보 공동이용 동의 문장의 연결 의미 확인"
+    },
+    {
+      "id": "A26699-zh-00052",
+      "source_hash": "aa8b7277f41a88c59e2c7cbd4dd2d79a949c80071850395f7d79bd96424d22be",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "전자정부법 제36조제1항 및 행정정보 공동이용 동의 문장의 연결 의미 확인"
+    },
+    {
+      "id": "A26699-zh-00053",
+      "source_hash": "581d7432d17a8bb1a9126a9b9d558f65ecda93a65fd3e5b340d55d650b003147",
+      "verdict": "NEEDS_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "한국어 앞 행의 줄바꿈 '다.'와 대응하는 중국어 독립 '按需。'가 실제 의미를 추가함. 별도 삭제 또는 무의미 잔재 처리 판단 필요",
+      "original_text": "按需。",
+      "proposed_action": "이전 52번 셀의 완결 문장과 한국어 '다.' 연결 관계를 확인한 후 중복·오염 중국어 셀 정정"
+    },
+    {
+      "id": "A26699-zh-00054",
+      "source_hash": "ef1661bfe1d0b773aea1bc51daf1dfa70e9d997454acf123165fd7df67dc959c",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청인 및 서명·날인 확인"
+    },
+    {
+      "id": "A26699-zh-00055",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청인 및 서명·날인 확인"
+    },
+    {
+      "id": "A26699-zh-00056",
+      "source_hash": "2879222415672d201abfe3e634d8339e67e1459aae97a4f34b023760aaf0d94f",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청서 작성→접수→검토→결재→지정서 작성→발급 처리 순서 확인"
+    },
+    {
+      "id": "A26699-zh-00057",
+      "source_hash": "d756749ae151055bb3f2fb59a27fb00c3964fefb2a90809570b03e8c0189e1ab",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청서 작성→접수→검토→결재→지정서 작성→발급 처리 순서 확인"
+    },
+    {
+      "id": "A26699-zh-00058",
+      "source_hash": "d995d6ab415d91d191bafde064de400b1e66d82532d91ec0cc02d72258ce5cda",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청서 작성→접수→검토→결재→지정서 작성→발급 처리 순서 확인"
+    },
+    {
+      "id": "A26699-zh-00059",
+      "source_hash": "7e0e212667f735a4ed33b98de25a804c20bc29714b318cac041768909f463a7d",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청서 작성→접수→검토→결재→지정서 작성→발급 처리 순서 확인"
+    },
+    {
+      "id": "A26699-zh-00060",
+      "source_hash": "d47c78190a0cedf08a85d48403af80a5b2f63144351a5264cb2614eb90fe6341",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청서 작성→접수→검토→결재→지정서 작성→발급 처리 순서 확인"
+    },
+    {
+      "id": "A26699-zh-00061",
+      "source_hash": "021c5aafa7889683ed9497da4156ab07cee0df64a71291bb9942398856e3b8d1",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청서 작성→접수→검토→결재→지정서 작성→발급 처리 순서 확인"
+    },
+    {
+      "id": "A26699-zh-00062",
+      "source_hash": "fc0aec8efc9cf7434964f86433311e24f2998ef6e36c7e3904222fa29065b276",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청서 작성→접수→검토→결재→지정서 작성→발급 처리 순서 확인"
+    },
+    {
+      "id": "A26699-zh-00063",
+      "source_hash": "4f961469c457130737f277d3bf7109e25b7b49eeb89e618f98200b9f308ad3d3",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청서 작성→접수→검토→결재→지정서 작성→발급 처리 순서 확인"
+    },
+    {
+      "id": "A26699-zh-00064",
+      "source_hash": "ef1661bfe1d0b773aea1bc51daf1dfa70e9d997454acf123165fd7df67dc959c",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "한국어 210×297mm 80g/㎡ 용지 규격 및 신청인 표기 확인"
+    },
+    {
+      "id": "A26699-zh-00065",
+      "source_hash": "6ebf03ac49b74bc62a1cbb2e008fac08829f72ca996f270da9ac4583b17958f2",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "성평등가족부 및 지방자치단체 처리기관 명칭 확인"
+    },
+    {
+      "id": "A26699-zh-00066",
+      "source_hash": "6a9fd2459313c78ed634682f52734f6a424348a2381255da601ab4f842ec71c4",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "한국어 210×297mm 80g/㎡ 용지 규격 및 신청인 표기 확인"
+    }
+  ],
+  "edits": [],
+  "note": "A26699 51~66행 행정정보 공동이용 동의와 처리절차 품질 확인. 53번의 '按需。'는 원문의 줄바꿈 어미와 불일치하여 미확정 교정 후보로 기록, 기저장 자료 불변. 전체 가족 COMPLETE 아님."
+}
