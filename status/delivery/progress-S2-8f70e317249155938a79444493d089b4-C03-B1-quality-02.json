@@ -1,0 +1,62 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "B1",
+  "quality_batch": "B1-quality-02",
+  "range": {
+    "first": "B1-zh-00011",
+    "last": "B1-zh-00015"
+  },
+  "quality_checked_rows": 2,
+  "quality_passed_rows": 2,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "B1-zh-00011",
+    "B1-zh-00013"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_quality_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-quality-01.json",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00011-00015.json",
+  "prior_progress_blob_sha": "f0f45ca371fbe06593064ca9a5cef1635348fe63",
+  "results": [
+    {
+      "id": "B1-zh-00011",
+      "source_hash": "7d17fb011d3a89250095743f4b8a5fe524bfbaa2802ec70154c61f595a986ed8",
+      "source_span": {
+        "start": 3517,
+        "end": 4250
+      },
+      "candidate_from": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00011-00015.json",
+      "verdict": "PASS",
+      "source_span_verified": true,
+      "source_hash_matches_original_row": true,
+      "mtq_marker_present": false,
+      "start_marker_present": false,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Article 9(1) establishes the coordination council under the Minister of Education and covers all four deliberation/coordination purposes. Article 9(2) has at most 15 members, Education Minister as chair, Gender Equality and Family Minister as vice-chair, and all nine enumerated members. The three-year tenure/one reappointment rule, secretary designation and Presidential Decree delegation in paragraphs 3–5 correspond to the Korean original. Corrected candidate restores the policy-development and advisory function, committee terminology and paragraph numbering. No material altered citation or obligation detected."
+    },
+    {
+      "id": "B1-zh-00013",
+      "source_hash": "2f4f92d449f7122a4fa9323e058e1df6daa06acc8cc1b9b7836ed145a55b904e",
+      "source_span": {
+        "start": 4672,
+        "end": 5131
+      },
+      "candidate_from": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00011-00015.json",
+      "verdict": "PASS",
+      "source_span_verified": true,
+      "source_hash_matches_original_row": true,
+      "mtq_marker_present": false,
+      "start_marker_present": false,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Article 11(1) requires the State and local governments to provide victim-identification education to eight groups and submit results to the Minister of Gender Equality and Family. Corrected translation preserves references to Articles 21(2), 29 and 33; Immigration Control Act Articles 25-2 and 46-2; Labor Standards Act Article 101(1); Seafarers Act Article 125(1); and investigation/trial workers of national agencies. Article 11(2) delegates education contents, methods and target scope to Presidential Decree. No subject reversal, missing statutory item or changed legal duty detected."
+    }
+  ],
+  "edits": [],
+  "note": "Only existing corrections on B1 rows 11 and 13 audited against Korean original. Rows 12,14,15 have no saved edits and do not add quality-checked corrections. Prior files unchanged. No family COMPLETE claim."
+}
