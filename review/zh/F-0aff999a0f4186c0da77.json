@@ -17,7 +17,7 @@
     "en": "laws/en/F-0aff999a0f4186c0da77.json",
     "zh": "laws/zh/F-0aff999a0f4186c0da77.json"
   },
-  "progress_path": "review/zh/F-0aff999a0f4186c0da77-progress-C05-382d0b9d5453-semantic-audit.json",
+  "progress_path": "review/zh/F-0aff999a0f4186c0da77-progress-C05-382d0b9d5453-final-checkpoint.json",
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
@@ -425,7 +425,8 @@
     "C05 targeted full-row semantic recheck of B1(20,22) and B2(16-2) found critical reversals in insurance beneficiary and termination clause.",
     "Checkpoint review/zh/F-0aff999a0f4186c0da77-progress-C05-382d0b9d5453-semantic-audit.json records 52 verified corrections and explicitly incomplete full semantic Chinese row review.",
     "C05 refined 3 existing corrections in full-row reinspection; source SHA and originals preserved.",
-    "C05 full-length B1 clause reinspection: recovered Article 11(2)(13) missing substance and Article 31 mandatory cancellation scope."
+    "C05 full-length B1 clause reinspection: recovered Article 11(2)(13) missing substance and Article 31 mandatory cancellation scope.",
+    "Latest integrity checkpoint review/zh/F-0aff999a0f4186c0da77-progress-C05-382d0b9d5453-final-checkpoint.json confirms 54 corrections with zero source mismatches, but does not certify completed Chinese semantic review."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
