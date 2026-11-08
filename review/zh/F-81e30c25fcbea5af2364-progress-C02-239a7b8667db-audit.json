@@ -1,0 +1,98 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "panel_id": "panel-02",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "checkpoint_at": "2026-11-08T21:02:00+09:00",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "prior_master_review": {
+    "path": "review/zh/F-81e30c25fcbea5af2364.json",
+    "blob_sha": "f901441455c1a1428daf95b39e1531326babc451",
+    "status": "IN_PROGRESS",
+    "document_count": 17,
+    "total_zh_rows": 1133,
+    "prior_checked_id_count": 651,
+    "checked_unique_ids": 327,
+    "edits": 312,
+    "adjudicated_edit_count": 288,
+    "pending_single_candidate_count": 343,
+    "pending_conflict_count": 0,
+    "ordered_reading_certification": {
+      "ko": false,
+      "en": false,
+      "zh": false
+    }
+  },
+  "prior_integration": {
+    "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
+    "blob_sha": "ea7a19a50159d915c3f459b8b00f241c7b7bdda9",
+    "status": "IN_PROGRESS",
+    "accepted_unique_edits": 242,
+    "recorded_evidence_ids": 784,
+    "ids_without_confirmed_evidence": 349,
+    "pending_candidate_ids": 379,
+    "source_identity_mismatches": 0
+  },
+  "scope": {
+    "ko_documents": 17,
+    "english_documents": 17,
+    "zh_rows": 1133,
+    "zh_rows_by_document": {
+      "B1": 199,
+      "B2": 209,
+      "A36424": 31,
+      "A36425": 52,
+      "A36426": 59,
+      "A36427": 128,
+      "B3": 13,
+      "A25465": 70,
+      "A25466": 70,
+      "A25467": 31,
+      "A25468": 46,
+      "A25469": 28,
+      "A25470": 72,
+      "A25471": 34,
+      "A25472": 41,
+      "A25473": 29,
+      "A25474": 21
+    },
+    "no_document_english": [
+      "B3",
+      "A25465",
+      "A25466",
+      "A25467",
+      "A25468",
+      "A25469",
+      "A25470",
+      "A25471",
+      "A25472",
+      "A25473",
+      "A25474"
+    ],
+    "english_fallback": [
+      "B1",
+      "B2",
+      "A36424",
+      "A36425",
+      "A36426",
+      "A36427"
+    ]
+  },
+  "this_checkpoint": {
+    "source_files_refetched_and_sha_verified": true,
+    "new_rows_semantically_adjudicated": 0,
+    "new_edits": [],
+    "reason": "No false review progress recorded. Official C02 conversation URL from status/active/C02.json and status/worker-bindings.json was opened in panel-02, but the page rendered as a blank '새 채팅' view with status UNKNOWN, no message composer, and panel.chat.send returned PANEL_UNKNOWN. The previously observed panel conversation URL differed from the official binding. Therefore no further semantic review or chat handoff could be safely executed in this checkpoint.",
+    "source_files_unchanged": true,
+    "receipt_path": "receipts/F-81e30c25fcbea5af2364.json",
+    "receipt_exists": false
+  },
+  "next_action": "Restore the official C02 panel conversation at https://chatgpt.com/c/6af05e86-9e94-83ec-9a53-1f7b8be6d732 so the worker can continue the existing ordered review. Resume from the latest verified progress; complete Korean full read-through, English/fallback full read-through, then Chinese 1133-row review and final structural audit. Do not set COMPLETE or create a completion receipt until all stages are evidenced."
+}
