@@ -1,0 +1,66 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 22,
+  "checked_ids": [
+    "A25472-zh-00003",
+    "A25472-zh-00004",
+    "A25472-zh-00006",
+    "A25472-zh-00008",
+    "A25472-zh-00009",
+    "A25472-zh-00010",
+    "A25472-zh-00011",
+    "A25472-zh-00012",
+    "A25472-zh-00013",
+    "A25472-zh-00014",
+    "A25472-zh-00015",
+    "A25472-zh-00016",
+    "A25472-zh-00017",
+    "A25472-zh-00028",
+    "A25472-zh-00029",
+    "A25472-zh-00030",
+    "A25472-zh-00031",
+    "A25472-zh-00032",
+    "A25472-zh-00036",
+    "A25472-zh-00039",
+    "A25472-zh-00040",
+    "A25472-zh-00041"
+  ],
+  "edits": [
+    {
+      "id": "A25472-zh-00004",
+      "source_hash": "b736160e9f7f0d321a2b458369e87ad0a76a9b7c00b4454ad463a28ce8d1d95b",
+      "target_id": "XML:1802996",
+      "text": "受理编号"
+    },
+    {
+      "id": "A25472-zh-00008",
+      "source_hash": "7e53d842dd0fd3a5f45f9a5162eb0ddefccb0e462c2c1c38b1e4f0d5a81dd547",
+      "target_id": "XML:1803000",
+      "text": "营业（法人）登记号码"
+    },
+    {
+      "id": "A25472-zh-00036",
+      "source_hash": "fd2f47ef0e382c62edaf27036494fbc803f503705144e1049d1463aadda6388b",
+      "target_id": "XML:1803029",
+      "text": "附件资料"
+    },
+    {
+      "id": "A25472-zh-00039",
+      "source_hash": "a7b7f4eead2658008962f93491705d076ccf0abcf12a91d930aa476cc3865d14",
+      "target_id": "XML:1803032",
+      "text": "3. 居民等是否遭受损害、是否进行损害赔偿及相应措施的结果"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "korean_evidence": "접수번호; 사업자(법인)등록번호; 첨부 서류; 주민 등의 손해발생, 손해배상 여부 및 조치 결과",
+  "note": "R93 checks previously unlisted A25472 form fields and supplementary documentation. Retain original R9 legal-amendment terminology and cited articles; improve 4 uncorrected labels or material compensation clause. Source IDs and hashes preserved. Family incomplete."
+}
