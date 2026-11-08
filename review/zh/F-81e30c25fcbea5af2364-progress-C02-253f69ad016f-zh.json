@@ -53,18 +53,22 @@
   },
   "chinese_reading": {
     "phase": "B1_ORDERED_INITIAL_PASS",
-    "directly_compared_first_35_rows": true,
+    "directly_compared_first_35_rows": false,
     "total_zh_rows": 1133,
     "full_family_complete": false,
     "corrected_ids": [
-      "B1-zh-00027"
+      "B1-zh-00027",
+      "B1-zh-00034",
+      "B1-zh-00051",
+      "B1-zh-00053"
     ],
-    "other_rows": "Prior edits retained; no assertion of full semantic check"
+    "other_rows": "Prior edits retained; no assertion of full semantic check",
+    "directly_compared_first_54_rows": true
   },
   "cumulative_review": {
     "path": "review/zh/F-81e30c25fcbea5af2364.json",
-    "blob_sha": "003d175689aa2c6a9027f414b2fd72b4bc048e54",
-    "edit_count": 346
+    "blob_sha": "0c94e51909e6a6e1fa576a4cebe6ddaec945cd6b",
+    "edit_count": 349
   },
   "ordered_reading_certification": {
     "ko": true,
@@ -72,5 +76,5 @@
     "zh": false
   },
   "completion_receipt_verified": false,
-  "next_action": "Continue sequential Chinese review B1 row 00036 onward through all 17 documents, resolve pending 343 candidates and remaining evidence gaps; only then finalize."
+  "next_action": "Continue Chinese B1-zh-00055 onward in statutory order through all 17 documents; complete 1133-row semantic review before status COMPLETE."
 }
