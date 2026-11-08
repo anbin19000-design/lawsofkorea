@@ -1,0 +1,35 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-17c1830954cb52c759c2",
+  "worker": "C04",
+  "panel_id": "panel-04",
+  "assignment_id": "UW-13dcf8b336720c3b2618fdc820a94e6a",
+  "status": "IN_PROGRESS",
+  "source_commit": "5f7a7e32af396dc79cd118fe4cd10694a66a9197",
+  "source_blobs": {
+    "ko": "dc7900aa39aa4daea43830abfc398a436695411c",
+    "en": "6dde8519d0cb5d72763353feaac3b483954cd1bc",
+    "zh": "cd35c01be0c39b6adbf2cc69f5f814e2c9cf8a67"
+  },
+  "scope": {
+    "documents": 30,
+    "zh_rows": 1275,
+    "english_reference_rows": 1158,
+    "english_missing_rows": 117,
+    "english_document_statuses": {
+      "EXACT_ENGLISH_AVAILABLE": 1,
+      "FALLBACK_ENGLISH_AVAILABLE": 6,
+      "NO_DOCUMENT_ENGLISH": 23
+    },
+    "additional_existing_english_reference": "reviewed/en/KR_014648.json (195 rows)"
+  },
+  "reading_checkpoint": {
+    "required_order": "KO_FULL_EN_FULL_ZH_FULL",
+    "ko": "COMPLETED: B1, B2, A39652-A39656, B3, A27040-A27061 (all 30 documents). Checked complete text, schedules, numeric criteria, and all forms including A27047 multi-page form and A27061 bilingual ID card. A27041: corporate capital KRW 850m, individual assets KRW 1.7bn, at least 11 technicians. A39656 fines KRW 3m/4m/5m. A27052 Korean source form itself cites Article 93(12), whereas B1 Article 9(12); preserve source anomaly and do not silently repair source.",
+    "en": "IN_PROGRESS next: read exact-version B1 full_text, fallback B2 full_text including Annexes 1-5, then all 195 rows of reviewed/en/KR_014648.json sequentially. Manifest lists 23 records as NO_DOCUMENT_ENGLISH, but existing English row file is present and must be checked for coverage/validity.",
+    "zh": "NOT_STARTED; 1275 rows confirmed; no edits made.",
+    "next_step": "Complete English reading in required order, then Chinese 1275 rows sequentially. Preserve originals."
+  },
+  "findings": [],
+  "notes": "All three original source blob SHAs match active assignment and continuation record. Existing official review/receipt files were absent at initial lookup. Existing B3 English reference found at reviewed/en/KR_014648.json despite manifest status; must not assume 117 English-missing rows until reconciled."
+}
