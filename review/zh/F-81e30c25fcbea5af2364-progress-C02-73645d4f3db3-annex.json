@@ -1,0 +1,118 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:73645d4f3db3",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "checked_rows": 7,
+  "checked_ids": [
+    "A36424-zh-00001",
+    "A36424-zh-00007",
+    "A36424-zh-00011",
+    "A36424-zh-00013",
+    "A36424-zh-00017",
+    "A36425-zh-00001",
+    "A36427-zh-00001"
+  ],
+  "edits": [
+    {
+      "id": "A36424-zh-00001",
+      "source_hash": "efdc794f9e63a11c9c64e11e562c00e4ef495d64049847387ac057b06de7e2ae",
+      "target_id": "XML:2657224",
+      "text": "■ 《智慧城市建设及产业振兴等相关法律施行令》[附表1]<2017年9月19日修订>"
+    },
+    {
+      "id": "A36424-zh-00007",
+      "source_hash": "7dbae461ee0c421ebcabc3cfc54ee378b761782df0614c0bf2d24ad6479a7261",
+      "target_id": "XML:2657230",
+      "text": "应予配备"
+    },
+    {
+      "id": "A36424-zh-00011",
+      "source_hash": "3b6b2d8a649130ee6b33e47b90bd0be8d861eba36d311c85488313b780d77669",
+      "target_id": "XML:2657234",
+      "text": "C. 已获得博士学位，并在智慧城市相关领域拥有至少一年的实践经验。"
+    },
+    {
+      "id": "A36424-zh-00013",
+      "source_hash": "3e258d3236d212ee51d88c529b52397f9e6244f20f09668c5280d6a6eb08fcc3",
+      "target_id": "XML:2657236",
+      "text": "D. 拥有硕士学位，并在智慧城市相关领域拥有至少3年的实践经验"
+    },
+    {
+      "id": "A36424-zh-00017",
+      "source_hash": "4539d349ca82de7764edf723cc7022ab182a37a753488e28ea8c898cd2d1494a",
+      "target_id": "XML:2657240",
+      "text": "F. 在智慧城市相关领域拥有至少7年实践经验的人员"
+    },
+    {
+      "id": "A36425-zh-00001",
+      "source_hash": "1e37b29da13821638f3688ea0804404746a20af995f04fdca90ab2ffc1d5256f",
+      "target_id": "XML:2657256",
+      "text": "■ 《智慧城市建设及产业振兴等相关法律施行令》[附表2] <2012年11月20日新增>"
+    },
+    {
+      "id": "A36427-zh-00001",
+      "source_hash": "209152772ae525d5098a917f9e4c5bdfb684b5db8f2ce55d3277a97241a4668d",
+      "target_id": "XML:2657370",
+      "text": "■ 《智慧城市建设及产业振兴等相关法律施行令》[附表4] <2021年6月15日修订>"
+    }
+  ],
+  "adjudications": [
+    {
+      "id": "A36424-zh-00001",
+      "verdict": "CLEAR_ANNEX_OMISSION_OR_MISTRANSLATION",
+      "reason": "법령 표제 시행령/별표를 시행세칙으로 오역한 것을 복원.",
+      "source_phrase": "스마트도시 조성 및 산업진흥 등에 관한 법률 시행령 [별표 1]"
+    },
+    {
+      "id": "A36424-zh-00007",
+      "verdict": "CLEAR_ANNEX_OMISSION_OR_MISTRANSLATION",
+      "reason": "전문인력 3명 이상 상근 보유의 의무를 문맥상 연결하는 단순 保持(유지하다)에서 보유·배치의 의무 표현으로 교정.",
+      "source_phrase": "상근직으로 3명 이상"
+    },
+    {
+      "id": "A36424-zh-00011",
+      "verdict": "CLEAR_ANNEX_OMISSION_OR_MISTRANSLATION",
+      "reason": "전문인력 자격의 다목(세 번째 호) 표지가 점으로 소실되어 복구.",
+      "source_phrase": "다. 박사학위를 취득하고"
+    },
+    {
+      "id": "A36424-zh-00013",
+      "verdict": "CLEAR_ANNEX_OMISSION_OR_MISTRANSLATION",
+      "reason": "전문인력 자격 라목의 위치를 가목처럼 오기하여 D로 복원.",
+      "source_phrase": "라. 석사학위를 취득하고"
+    },
+    {
+      "id": "A36424-zh-00017",
+      "verdict": "CLEAR_ANNEX_OMISSION_OR_MISTRANSLATION",
+      "reason": "바목을 나목과 혼동하지 않도록 F항으로 복원.",
+      "source_phrase": "바. 스마트도시 관련 분야"
+    },
+    {
+      "id": "A36425-zh-00001",
+      "verdict": "CLEAR_ANNEX_OMISSION_OR_MISTRANSLATION",
+      "reason": "지원기관 지정 취소·업무 정지 기준을 정한 별표의 상위 법령 종류 및 별표 번호를 바로잡음.",
+      "source_phrase": "스마트도시 조성 및 산업진흥 등에 관한 법률 시행령 [별표 2]"
+    },
+    {
+      "id": "A36427-zh-00001",
+      "verdict": "CLEAR_ANNEX_OMISSION_OR_MISTRANSLATION",
+      "reason": "과태료 부과기준 별표의 시행령 명칭 및 별표 구분을 복원.",
+      "source_phrase": "스마트도시 조성 및 산업진흥 등에 관한 법률 시행령 [별표 4]"
+    }
+  ],
+  "english_note": "Annex-specific English not available; Korean authoritative.",
+  "prior_progress": [
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-73645d4f3db3-decree-tail.json"
+  ],
+  "note": "Same base SHA, no original mutation. Previous reviewed annex candidates preserved without new duplicates; this is intermediate, not COMPLETE.",
+  "next_review": "Continue all annex cells and semantic verification; then rule/forms and final whole-family integration."
+}
