@@ -1,0 +1,79 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-31334bc4303ae2cb3d80",
+  "worker": "C06",
+  "task_id": "84b91c325b84",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "d6d795ff1ece4a82663a83efd46f7f73afa7fbbb",
+    "en": "16e015facbcef00df95c985f816f47acf7bcfef7",
+    "zh": "7a6d1e8d841fb3b27185d6d4a6b811149d604dc0"
+  },
+  "review_path": "review/zh/F-31334bc4303ae2cb3d80.json",
+  "review_sha": "1fce60a4aeae716e4d20fb32bcf2366ce4d25fd2",
+  "original_rows": 1206,
+  "confirmed_edit_ids": 576,
+  "prior_candidates": 595,
+  "originals_retained_from_prior": 21,
+  "new_edit_ids_not_in_original_proposals": [
+    "A22639-zh-00026",
+    "A22639-zh-00033"
+  ],
+  "resolved_crew_form_split_cells": [
+    {
+      "id": "A22639-zh-00026",
+      "ko": "구",
+      "zh": "区"
+    },
+    {
+      "id": "A22639-zh-00027",
+      "ko": "분",
+      "zh": "分"
+    },
+    {
+      "id": "A22639-zh-00028",
+      "ko": "인",
+      "zh": "人"
+    },
+    {
+      "id": "A22639-zh-00029",
+      "ko": "원(명)",
+      "zh": "数（人）"
+    },
+    {
+      "id": "A22639-zh-00032",
+      "ko": "합",
+      "zh": "合"
+    },
+    {
+      "id": "A22639-zh-00033",
+      "ko": "계",
+      "zh": "计"
+    }
+  ],
+  "hash_evidence": "Each Korean text above independently verified as SHA-256 exact match to row.source_hash; Chinese concatenation forms 区分, 人数（人）, 合计.",
+  "numeric_unit_resolved": {
+    "id": "A22637-zh-00016",
+    "text": "10³/μL",
+    "evidence": "Korean law.go.kr Form 5-2 official PDF visual platelet unit"
+  },
+  "agency_overrides": [
+    "A22641-zh-00035",
+    "A22640-zh-00044",
+    "A22640-zh-00054",
+    "A22639-zh-00048",
+    "B2-zh-00010"
+  ],
+  "corrected_statutory_paragraphs": [
+    "B1-zh-00011",
+    "B1-zh-00034"
+  ],
+  "post_review_structural_checks": {
+    "unique_original_ids": 1206,
+    "unknown_review_ids": 0,
+    "empty_rows": 0,
+    "untranslated_hangul_or_mtq_marker_rows": 0
+  },
+  "remaining_work": "Confirm full Korean-then-available-English-then-Chinese semantic coverage of all 19 documents including 636 unchanged rows; confirm table continuity, numeric references, and all 576 edits' accuracy; until then cannot certify COMPLETE or create COMPLETE receipt.",
+  "note": "Protect all previous judgments and source files. Current IN_PROGRESS review is not an assertion that each of 1206 rows was semantically validated."
+}
