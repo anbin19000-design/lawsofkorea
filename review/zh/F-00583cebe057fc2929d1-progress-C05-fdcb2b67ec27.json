@@ -1,0 +1,37 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "worker": "C05",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "cdf7b90e19efe5df5003444bad787e3ce7ee2b2c",
+  "previous_corrections": 263,
+  "new_correction_ids": [
+    "B1-zh-00115",
+    "B1-zh-00117",
+    "B1-zh-00118",
+    "B1-zh-00133",
+    "B1-zh-00134"
+  ],
+  "correction_count": 268,
+  "pending_rows": 89,
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "full_reading_proven": false,
+  "completion_receipt": null,
+  "english_reference_rows": {
+    "with_english": 771,
+    "without_english": 603
+  },
+  "note": "한국어 원문의 공포된 특허법 개정법률 명칭에 '法案'을 사용한 5건 최소 수정; 이전 교정·SHA와 보류 89행 유지. 순차 전체 독해 인증 미완료."
+}
