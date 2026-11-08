@@ -1,0 +1,46 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-1c153c79662f8df50e84",
+  "worker": "C04",
+  "pc": "WORK-C",
+  "panel_id": "panel-04",
+  "source_commit": "e2c29b72dbaeccc4eb66876894d901c67de3f909",
+  "source_blobs": {
+    "ko": "e1b24030d49282e7ffee1466e72b4197f51d03e9",
+    "en": "83ff5ff6a4bcee53c6990ad71d240b71cc20db8b",
+    "zh": "8c8bc3b30a9fb349785b2ad05ff3f0c3fd051b35"
+  },
+  "phase": "KO_FULL_EN_FULL_ZH_FULL",
+  "completed_stages": {
+    "ko_full_read": true,
+    "en_available_full_read": true,
+    "zh_full_review": false
+  },
+  "scope": {
+    "documents_total": 34,
+    "zh_rows_total": 2925,
+    "documents_reviewed": [
+      "B1: prior initial review; not fully rechecked in this resumed session",
+      "B2: selected rows through 00115; not all rows complete",
+      "B3: all 46 rows sequentially inspected",
+      "A12177: all 86 form rows inspected and translated/corrected"
+    ],
+    "rows_reviewed": 314,
+    "documents_remaining": 30,
+    "rows_not_yet_reviewed": 2611
+  },
+  "english_availability": {
+    "official_full_text_documents": [
+      "B1",
+      "B2"
+    ],
+    "no_document_english_documents": 32,
+    "linked_english_body_sha": {
+      "B1": "c41cda23b98a8e39950d8d33b58ce9c287cf1cfb",
+      "B2": "e75241d5a275a1d646bb7c48dc37a31daff529c4"
+    }
+  },
+  "edits_saved": 207,
+  "status": "IN_PROGRESS",
+  "next": "继续A12178-A12207其余30份表单，逐份检查韩文表格与文档内存在的英文表格，不遗漏英文字段、金额、单位、签名/盖章栏及法律引用。"
+}
