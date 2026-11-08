@@ -38,13 +38,13 @@
   },
   "chinese_review": {
     "status": "IN_PROGRESS",
-    "checked_rows": 284,
+    "checked_rows": 351,
     "total_rows": 2808,
-    "next_row_id": "A6681-zh-00001",
+    "next_row_id": "B2-zh-00001",
     "edits": [
       {
         "id": "A6681-zh-00017",
-        "text": "特此证明上述人员是依据《社会福利事业法》第51条第1款，有权执行指导与监督工作的公务员。"
+        "text": "（上句连读）特此证明。"
       },
       {
         "id": "A6682-zh-00018",
@@ -537,17 +537,40 @@
       {
         "id": "B1-zh-00283",
         "text": "附则（关于为明确缓刑宣告所涉资格限制事由而部分修改《社会福利事业法》等三部法律的法律）<第20513号，2024年10月22日>\n\n本法自公布之日起施行。\n\n"
+      },
+      {
+        "id": "A6681-zh-00003",
+        "text": "指导、监督公务员证"
+      },
+      {
+        "id": "A6681-zh-00005",
+        "text": "职务（职级）："
+      },
+      {
+        "id": "A6681-zh-00008",
+        "text": "有效期限："
+      },
+      {
+        "id": "A6681-zh-00014",
+        "text": "止于（"
+      },
+      {
+        "id": "A6681-zh-00016",
+        "text": "特此证明上述人员是依据《社会福利事业法》第51条第1款，有权执行指导与监督工作的公务员。"
       }
     ],
     "reviewed_documents": [
-      "B1"
+      "B1",
+      "A6681",
+      "A6682",
+      "A6683"
     ],
-    "notes": "Sequential pass of B1 rows 00001–00284 reviewed to end of the main Act and its amendment/supplementary provisions. Corrected erroneous scope of disqualification application, inheritance-property application clause, transition disqualification cross-reference, adoption-law list marker/paired statute and title of 2024 amendment clarifying suspended-sentence disqualification. Next sequential Chinese document begins A6681; 41 non-B1 documents remain."
+    "notes": "Sequential review completed for B1 (284 rows) and the three final official forms A6681 (23), A6682 (24), A6683 (20), total checked_rows 351. Revalidated and consolidated the eight earlier form candidate corrections at their ordered position, with additional clear label corrections for the supervisory credential. Next document in source order is B2 (Enforcement Decree), 126 rows; 38 other documents remain after the completed four."
   },
   "prior_work": {
     "review_file": "NOT_FOUND",
     "receipt_file": "NOT_FOUND",
     "matching_progress_files": "NONE_FOUND"
   },
-  "updated_at": "2026-11-09T07:10:00+09:00"
+  "updated_at": "2026-11-09T07:12:00+09:00"
 }
