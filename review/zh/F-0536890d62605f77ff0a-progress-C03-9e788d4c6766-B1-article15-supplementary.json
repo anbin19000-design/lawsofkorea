@@ -1,0 +1,75 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:9e788d4c6766",
+  "status": "IN_PROGRESS",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_en_index_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "english_document_reference": "documents/en/kr-014071-276899-en.json",
+  "checked_rows": 8,
+  "quality_checked_rows": 8,
+  "quality_passed_rows": 8,
+  "quality_failed_rows": 0,
+  "checked_ids": [
+    "B1-zh-00017",
+    "B1-zh-00053",
+    "B1-zh-00055",
+    "B1-zh-00056",
+    "B1-zh-00057",
+    "B1-zh-00059",
+    "B1-zh-00060",
+    "B1-zh-00062"
+  ],
+  "results": [
+    {
+      "id": "B1-zh-00017",
+      "verdict": "PASS",
+      "reason": "Article 15 paragraphs 1-5: central/local victim-rights agencies, prescribed tasks, evidence requests, delegated operations and qualification rules matched Korean and exact English."
+    },
+    {
+      "id": "B1-zh-00053",
+      "verdict": "PASS",
+      "reason": "Original Act supplementary provision No. 18100 dated April 20 2021 and enforcement January 1 2023 match."
+    },
+    {
+      "id": "B1-zh-00055",
+      "verdict": "PASS",
+      "reason": "Immigration Act supplementary Article 1: six months after promulgation exception for Article 3(1) effective January 1 2023 preserved with source ellipses."
+    },
+    {
+      "id": "B1-zh-00056",
+      "verdict": "PASS",
+      "reason": "Immigration Act supplementary Article 2 omitted in original and correctly marked omitted."
+    },
+    {
+      "id": "B1-zh-00057",
+      "verdict": "PASS",
+      "reason": "Amendment to Articles 11(1)4, 14(5), 43 substitutes Immigration Act 25-2 and 46-2 for 25-5 and 62-2; numbers and amendment retained."
+    },
+    {
+      "id": "B1-zh-00059",
+      "verdict": "PASS",
+      "reason": "Government Organization Act supplementary effective-date qualification and expressly omitted material maintained."
+    },
+    {
+      "id": "B1-zh-00060",
+      "verdict": "PASS",
+      "reason": "Government Organization Act supplementary Articles 2 through 6 omitted in source, corresponding Chinese retained."
+    },
+    {
+      "id": "B1-zh-00062",
+      "verdict": "PASS",
+      "reason": "Government Organization Act supplementary Article 8 omitted in source, corresponding Chinese retained."
+    }
+  ],
+  "edits": [],
+  "prior_evidence_index": "status/delivery/reconcile-S2-8f70e317249155938a79444493d089b4-evidence-7e6b69412a765526.json",
+  "previous_verification_file": "review/zh/F-0536890d62605f77ff0a-progress-C03-ccbd64437333-B1-articles-22-27-45-49.json",
+  "protected_unresolved_ids": [
+    "A26697-zh-00008",
+    "A26699-zh-00053"
+  ],
+  "note": "B1 Article 15 and supplementary provisions reviewed without overwriting existing edits. English exact-version body reference present; 22-document family review not complete. Original source SHA and identities unchanged."
+}
