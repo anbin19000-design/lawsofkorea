@@ -3123,15 +3123,6 @@
       "reason": "Restore omitted amendment item <227> and correct statute title."
     },
     {
-      "id": "B1-zh-00172",
-      "source_hash": "bda44eed797c7b70de715ac4d0244f2a1588f80c4896e57968315c000b59a42c",
-      "target_id": "601262be273f6419edf3889be56bc61cb9af80cecaf17bd110378ef86d2a00f2",
-      "text": "第十四条（修改其他法律）①至③ 已省略\n\n  ④ 《智慧城市建设和产业促进法》部分修改如下。\n\n  第十二条第三款第五项中的“「软件产业促进法」”应改为“「软件促进法」”。\n\n  在第41条第1款中，“软件产业促进法”改为“软件促进法”，“第24条之二第2款至第5款”改为“第48条第2款至第5款”；在同一条第2款除各分款以外的正文中，“软件产业促进法第24条之二第2款至第5款”改为“软件促进法第48条第2款至第5款”；并且该款第1款修改如下。\n\n    1. 根据《软件促进法》第2条第4款规定，软件经营者中，不属于《中小企业框架法》第2条所定义的中小企业的企业，且为总统令规定的企业\n\n  省略⑤至⑩\n\n",
-      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-751eec993a83.json",
-      "verification": "C02_DIRECT_KOREAN_COMPARISON",
-      "reason": "Restore truncated condition 대통령령으로 정하는 기업."
-    },
-    {
       "id": "B2-zh-00012",
       "source_hash": "bfcc248c673b5fd32364aa782d0c52b80cc6ae2d8a1797d129cef71e3dc85780",
       "target_id": "9e942190980d4727334378fc8fb40070d4c887e22071d04c1a6b788203fc0e27",
@@ -6555,148 +6546,100 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c7b2cc4a46a4-annex4.json",
       "verification": "C02_KOREAN_ANNEX4_SOURCE_COMPARISON",
       "reason": "Korean annex 4 fourth smart demonstration violation tier, preserve scope and temporal start."
-    }
-  ],
-  "adjudicated_edit_count": 697,
-  "pending_single_candidate_count": 9,
-  "pending_conflict_count": 0,
-  "pending_single_candidates": [
+    },
     {
       "id": "A36427-zh-00093",
       "source_hash": "98a6914c1f0981f6fe3b0eaacdfcb40a36d52108e9701a1ddfbb384b2bdba91b",
       "target_id": "XML:2657465",
-      "variants": [
-        {
-          "text": "损害的赔偿方案",
-          "file_indices": [
-            14
-          ]
-        }
-      ],
       "text": "损害的赔偿方案",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c7b2cc4a46a4-final-nine.json",
+      "verification": "C02_KOREAN_SOURCE_MINIMAL_CORRECTION",
+      "reason": "Korean fine annex 4 requires compensation plan for human/property damage; '有形损失' misrepresents property damage, and original 制定 duplicates subsequent 未制定 clause."
     },
     {
       "id": "B1-zh-00096",
       "source_hash": "e863133c2e5fe49a2231190faa1d5272d4e6f94d83e48941c6e244693dfa4664",
       "target_id": "310e6c7204864fd4c789e86f7922df7d48f6e7ddfd13df2bc3d6a46aed6cb755",
-      "variants": [
-        {
-          "text": "第二十二条（其他法律的修订）①至<30>省略。\n\n  <31> 《泛在城市建设等法》部分修订如下。\n\n  将第十五条第一款第十二号中的“根据《农渔村整备法》第二十二条规定的农业基础设施”改为“根据《农渔村整备法》第二十三条规定的农业生产基础设施”。\n\n  <32>至<53>省略。\n\n",
-          "file_indices": [
-            34
-          ]
-        }
-      ],
-      "text": "第二十二条（其他法律的修订）①至<30>省略。\n\n  <31> 《泛在城市建设等法》部分修订如下。\n\n  将第十五条第一款第十二号中的“根据《农渔村整备法》第二十二条规定的农业基础设施”改为“根据《农渔村整备法》第二十三条规定的农业生产基础设施”。\n\n  <32>至<53>省略。\n\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
+      "text": "第22条（其他法律的修正）①至<30> 已省略\n\n  <31> 《普适城市建设等法》部分修订如下。\n\n  第十五条第一款第十二项中，“根据农渔村整备法第二十二条设立的农业基础设施”应改为“根据农渔村整备法第二十三条设立的农业生产基础设施”。\n\n  <32> 至 <53> 已省略\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c7b2cc4a46a4-final-nine.json",
+      "verification": "C02_KOREAN_SOURCE_MINIMAL_CORRECTION",
+      "reason": "Korean supplementary amendment explicitly cites 농어촌정비법, not generic Rural Development Act; fix only cited Act title."
     },
     {
       "id": "B1-zh-00100",
       "source_hash": "5f8de838d332d0ae9f82159821253fce05d01eee56edcd4e2f33e06bdf2307a5",
       "target_id": "841271a4a315a9c765e8843f32fadb0707ca40c7b602d4e8894de4902d603823",
-      "variants": [
-        {
-          "text": "第七条（其他法律的修订）①至<35>省略。\n\n  <36> 《泛在城市建设等法》部分修订如下。\n\n  将第十五条第一款第十四号中的“依同法第四十五条对保安林内采伐等行为的许可或者申报”改为“依《森林保护法》第九条第一款及第二款第一号、第二号对森林保护区（森林遗传资源保护区除外）内行为的许可或者申报”。\n\n  <37>至<61>省略。\n\n",
-          "file_indices": [
-            34
-          ]
-        }
-      ],
-      "text": "第七条（其他法律的修订）①至<35>省略。\n\n  <36> 《泛在城市建设等法》部分修订如下。\n\n  将第十五条第一款第十四号中的“依同法第四十五条对保安林内采伐等行为的许可或者申报”改为“依《森林保护法》第九条第一款及第二款第一号、第二号对森林保护区（森林遗传资源保护区除外）内行为的许可或者申报”。\n\n  <37>至<61>省略。\n\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
+      "text": "第七条（修改其他法律）①至<35> 已省略\n\n  <36> 《普适城市建设等法》部分修订如下。\n\n  第十五条第一款第十四项中，“根据同一法第四十五条在保护林内进行伐木等活动的许可或申报”应改为“根据《森林保护法》第九条第一款和第二款第一项、第二项在森林保护区（不包括森林遗传资源保护区）内进行活动的许可或申报”。\n\n  <37> 至 <61> 已省略\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c7b2cc4a46a4-final-nine.json",
+      "verification": "C02_KOREAN_SOURCE_MINIMAL_CORRECTION",
+      "reason": "Korean historical Forest Protection Act amendment uses 허가 또는 신고, administrative declaration/filing (申报), not a mere notice (通知)."
     },
     {
       "id": "B1-zh-00112",
       "source_hash": "8d1b92faf4eff20d7f16e5dbe15d49c94c158959cdc251f1a5ae331d330f8c94",
       "target_id": "1c932288d2a231ac0ec7dd133053251ccae695c155b640323c3711313ebf1e5d",
-      "variants": [
-        {
-          "text": "第八条（其他法律的修改）①至<52>省略\n\n  <53> 《泛在城市建设等相关法律》部分修改如下。\n\n  第八条第二款及第四款中的“城市基本规划”分别修改为“城市、郡基本规划”。\n\n  第十五条第一款第一项中的“城市管理规划”修改为“城市、郡管理规划”，“城市规划设施事业”修改为“城市、郡规划设施事业”。\n\n  <54>至<83>省略\n\n",
-          "file_indices": [
-            35
-          ]
-        }
-      ],
-      "text": "第八条（其他法律的修改）①至<52>省略\n\n  <53> 《泛在城市建设等相关法律》部分修改如下。\n\n  第八条第二款及第四款中的“城市基本规划”分别修改为“城市、郡基本规划”。\n\n  第十五条第一款第一项中的“城市管理规划”修改为“城市、郡管理规划”，“城市规划设施事业”修改为“城市、郡规划设施事业”。\n\n  <54>至<83>省略\n\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
+      "text": "第8条（修改其他法律）①至<52> 已省略\n\n  <53> 《普适城市建设等法》部分修订如下。\n\n  第 8 条第 2 款和第 4 款中的“城市基本规划”应分别改为“城市、郡基本规划”。\n\n  第十五条第一款第一项中，“城市管理计划”应改为“城市、郡管理规划”，“城市规划设施工程”应改为“城市、郡规划设施事业”。\n\n  <54> 至 <83> 已省略\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c7b2cc4a46a4-final-nine.json",
+      "verification": "C02_KOREAN_SOURCE_MINIMAL_CORRECTION",
+      "reason": "Korean land-plan amendment expressly renames 도시기본계획/도시관리계획/도시계획시설사업 to 도시ㆍ군 variants; distinguish municipal/county statutory terms from general urban/rural wording."
     },
     {
       "id": "B1-zh-00141",
       "source_hash": "00ca5c9d52460bceff6baba34ca0c8c8c4160ac33f099ca8c13cec37a3b5ab97",
       "target_id": "8fe9233e07ea1200164a6a5142bbf95815cbc45d616a72989a630f6276dd60e2",
-      "variants": [
-        {
-          "text": "第六条（其他法律的修订）①至<53>省略\n\n  <54>《泛在城市建设等相关法律》部分修订如下。\n\n  将第十五条第一款第二十二项中的“《水质及水生态系统保全法》第十条”修改为“《水环境保全法》第九条之二”。\n\n  <55>至<89>省略\n\n",
-          "file_indices": [
-            75
-          ]
-        }
-      ],
-      "text": "第六条（其他法律的修订）①至<53>省略\n\n  <54>《泛在城市建设等相关法律》部分修订如下。\n\n  将第十五条第一款第二十二项中的“《水质及水生态系统保全法》第十条”修改为“《水环境保全法》第九条之二”。\n\n  <55>至<89>省略\n\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
+      "text": "第六条（修改其他法律）①至<53> 已省略\n\n  <54> 《普适城市建设等法》部分修改如下。 \n\n  第十五条第一款第二十二项中，“水质和水生生态系统保护法第十条”应改为“水环境保全法第九条之二”。\n\n  <55> 至 <89> 已省略\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c7b2cc4a46a4-final-nine.json",
+      "verification": "C02_KOREAN_SOURCE_MINIMAL_CORRECTION",
+      "reason": "Korean supplementary amendment cites 물환경보전법; match protective-conservation statute name rather than nurture/育 terminology."
     },
     {
       "id": "B1-zh-00145",
       "source_hash": "9a056d30bd78e56202a7a04ff3850710b50a8e479e382fafd49c51d609cd3f1f",
       "target_id": "c81644857e71eb383cdba21932d7b3a6f716ef995d8a7e34eb149b9cc5fdce90",
-      "variants": [
-        {
-          "text": "第八条（其他法律的修订）①至⑫省略\n\n  ⑬《泛在城市建设等相关法律》部分修订如下。\n\n  将第十二条第一款第四项中的“《城市及居住环境整备法》第八条”修改为“《城市及居住环境整备法》第二十五条至第二十七条及《空置房屋及小规模住宅整备特别法》第十七条至第十九条”。\n\n  ⑭至<26>省略\n\n",
-          "file_indices": [
-            75
-          ]
-        }
-      ],
-      "text": "第八条（其他法律的修订）①至⑫省略\n\n  ⑬《泛在城市建设等相关法律》部分修订如下。\n\n  将第十二条第一款第四项中的“《城市及居住环境整备法》第八条”修改为“《城市及居住环境整备法》第二十五条至第二十七条及《空置房屋及小规模住宅整备特别法》第十七条至第十九条”。\n\n  ⑭至<26>省略\n\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
+      "text": "第八条（修改其他法律）①至⑫ 已省略\n\n  ⑬ 《普适城市建设等法》部分修订如下。\n\n  第十二条第一款第四项中，“《城市及居住环境整备法》第八条”应改为“《城市及居住环境整备法》第二十五条至第二十七条以及《空置房屋及小规模住宅整备特别法》第十七条至第十九条”。\n\n  省略 ⑭ 至 <26>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c7b2cc4a46a4-final-nine.json",
+      "verification": "C02_KOREAN_SOURCE_MINIMAL_CORRECTION",
+      "reason": "Korean amendment cites 도시 및 주거환경정비법 and 빈집 및 소규모주택 정비에 관한 특례법; preserve precise two statute titles."
     },
     {
       "id": "B1-zh-00149",
       "source_hash": "baf1b541851e8b73b16844f567ec648c312f44e7f4bab5911837caa8a84bf003",
       "target_id": "f14817da6dfb7a8ba3671634530de1a99c1245532fa9dad970c4984e7b0a45bd",
-      "variants": [
-        {
-          "text": "第二条（其他法律的修改）①《国家综合交通体系效率化法》部分修改如下。\n\n将第75条第2款中的“根据《泛在城市建设等相关法律》第8条制定的泛在城市规划”改为“根据《智慧城市建设及产业振兴等相关法律》第8条制定的智慧城市规划”。\n\n②《社会基础设施民间投资法》部分修改如下。\n\n将第2条第1号第（22）目中的“根据《泛在城市建设等相关法律》第2条第3号规定的泛在城市基础设施”改为“根据《智慧城市建设及产业振兴等相关法律》第2条第3号规定的智慧城市基础设施”。\n\n③《为实施新行政首都后续对策而建设燕岐、公州地区行政中心复合城市的特别法》部分修改如下。\n\n将第60条之2第1款第4号中的“《泛在城市建设等相关法律》”改为“《智慧城市建设及产业振兴等相关法律》”，并将“泛在城市规划”改为“智慧城市规划”。\n\n",
-          "file_indices": [
-            77
-          ]
-        }
-      ],
-      "text": "第二条（其他法律的修改）①《国家综合交通体系效率化法》部分修改如下。\n\n将第75条第2款中的“根据《泛在城市建设等相关法律》第8条制定的泛在城市规划”改为“根据《智慧城市建设及产业振兴等相关法律》第8条制定的智慧城市规划”。\n\n②《社会基础设施民间投资法》部分修改如下。\n\n将第2条第1号第（22）目中的“根据《泛在城市建设等相关法律》第2条第3号规定的泛在城市基础设施”改为“根据《智慧城市建设及产业振兴等相关法律》第2条第3号规定的智慧城市基础设施”。\n\n③《为实施新行政首都后续对策而建设燕岐、公州地区行政中心复合城市的特别法》部分修改如下。\n\n将第60条之2第1款第4号中的“《泛在城市建设等相关法律》”改为“《智慧城市建设及产业振兴等相关法律》”，并将“泛在城市规划”改为“智慧城市规划”。\n\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
+      "text": "第二条（修改其他法律）①《国家综合交通体系效率化法》部分修改如下。\n\n  在第 75 条第 2 款中，“根据《泛在城市建设等相关法律》第 8 条制定的普适城市计划”应改为“根据《智慧城市建设及产业振兴等相关法律》第 8 条制定的智慧城市计划”。\n\n  ②《社会基础设施民间投资法》部分修订如下。\n\n  在第二条第一号第二十二目中，“根据《泛在城市建设等相关法律》第二条第三款建设的普适城市基础设施”应改为“根据《智慧城市建设及产业振兴等相关法律》第二条第三款建设的智慧城市基础设施”。\n\n  ③ 对灵基公州地区多功能行政城市建设特别法中关于新行政首都后续措施的部分内容进行如下修改。\n\n  第 60 条之 2，第 1 款，第 4 项，“泛在城市建设等相关法律”应改为“智慧城市建设及产业振兴等相关法律”，“普适城市规划”应改为“智慧城市规划”。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c7b2cc4a46a4-final-nine.json",
+      "verification": "C02_KOREAN_SOURCE_MINIMAL_CORRECTION",
+      "reason": "Korean 2017 amendments require exact names and Social Infrastructure Private Investment Act Article 2 subparagraph 1 item 두 (22nd), not paragraph 1 item 2."
     },
     {
       "id": "B1-zh-00172",
       "source_hash": "bda44eed797c7b70de715ac4d0244f2a1588f80c4896e57968315c000b59a42c",
       "target_id": "601262be273f6419edf3889be56bc61cb9af80cecaf17bd110378ef86d2a00f2",
-      "variants": [
+      "text": "第十四条（修改其他法律）①至③ 已省略\n\n  ④ 《智慧城市建设及产业振兴等相关法律》部分修改如下。\n\n  第十二条第三款第五项中的“「软件产业促进法」”应改为“「软件促进法」”。\n\n  在第41条第1款中，“软件产业促进法”改为“软件促进法”，“第24条之二第2款至第5款”改为“第48条第2款至第5款”；在同一条第2款除各分款以外的正文中，“软件产业促进法第24条之二第2款至第5款”改为“软件促进法第48条第2款至第5款”；并且该款第1款修改如下。\n\n    1. 根据《软件促进法》第2条第4款规定，软件经营者中，不属于《中小企业基本法》第2条所定义的中小企业的企业，且为总统令规定的企业\n\n  省略⑤至⑩\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c7b2cc4a46a4-final-nine.json",
+      "verification": "C02_KOREAN_SOURCE_MINIMAL_CORRECTION",
+      "reason": "Korean 2020 Software Promotion Act amendment explicitly names full Smart City Act and 중소기업기본법; correct only cited statutory titles in previously accepted edit.",
+      "prior_text_versions": [
         {
-          "text": "第十四条（其他法律的修改）①至③省略。\n\n  ④《智慧城市建设及产业振兴等相关法律》部分修改如下。\n\n  将第十二条第三款第五号中的“《软件产业振兴法》”修改为“《软件振兴法》”。\n\n  在第四十一条第一款中，将“《软件产业振兴法》”修改为“《软件振兴法》”，将“第二十四条之二第二款至第五款”修改为“第四十八条第二款至第五款”；在同条第二款各号以外部分的正文中，将“《软件产业振兴法》第二十四条之二第二款至第五款”修改为“《软件振兴法》第四十八条第二款至第五款”，并将同款第一号修改如下。\n\n    1. 《软件振兴法》第二条第四号规定的软件事业者中，不属于《中小企业基本法》第二条规定的中小企业、且属于总统令规定的企业。\n\n  ⑤至⑩省略。\n\n",
-          "file_indices": [
-            80
-          ]
+          "text": "第十四条（修改其他法律）①至③ 已省略\n\n  ④ 《智慧城市建设和产业促进法》部分修改如下。\n\n  第十二条第三款第五项中的“「软件产业促进法」”应改为“「软件促进法」”。\n\n  在第41条第1款中，“软件产业促进法”改为“软件促进法”，“第24条之二第2款至第5款”改为“第48条第2款至第5款”；在同一条第2款除各分款以外的正文中，“软件产业促进法第24条之二第2款至第5款”改为“软件促进法第48条第2款至第5款”；并且该款第1款修改如下。\n\n    1. 根据《软件促进法》第2条第4款规定，软件经营者中，不属于《中小企业框架法》第2条所定义的中小企业的企业，且为总统令规定的企业\n\n  省略⑤至⑩\n\n",
+          "verification": "C02_DIRECT_KOREAN_COMPARISON",
+          "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-751eec993a83.json"
         }
-      ],
-      "text": "第十四条（其他法律的修改）①至③省略。\n\n  ④《智慧城市建设及产业振兴等相关法律》部分修改如下。\n\n  将第十二条第三款第五号中的“《软件产业振兴法》”修改为“《软件振兴法》”。\n\n  在第四十一条第一款中，将“《软件产业振兴法》”修改为“《软件振兴法》”，将“第二十四条之二第二款至第五款”修改为“第四十八条第二款至第五款”；在同条第二款各号以外部分的正文中，将“《软件产业振兴法》第二十四条之二第二款至第五款”修改为“《软件振兴法》第四十八条第二款至第五款”，并将同款第一号修改如下。\n\n    1. 《软件振兴法》第二条第四号规定的软件事业者中，不属于《中小企业基本法》第二条规定的中小企业、且属于总统令规定的企业。\n\n  ⑤至⑩省略。\n\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
+      ]
     },
     {
       "id": "B2-zh-00023",
       "source_hash": "4a33ec15f17f4f949a626b9843e75fbe71699dea2bddf09481d59e99660f389f",
       "target_id": "54703b42afbe1aea81e030f06e7b50f856aaae54781b2ce4931787ffec99cca6",
-      "variants": [
-        {
-          "text": "第十九条（智慧城市建设事业实施计划）\n① 法第十四条第一款规定的智慧城市建设事业实施计划（以下简称“实施计划”）应当附具下列各号文件及图纸。在此情况下，实施计划批准权人应当通过《电子政府法》第三十六条第一款规定的行政信息共同利用，核实事业实施地区的地籍图。<2010年11月2日、2017年9月19日修订>\n1. 事业实施地区位置图\n2. 实施计划平面图及概要设计文件\n3. 应归属国家或地方自治团体的公共设施安装费用计算书及应归属或转让给事业实施者的既有公共设施计算书（仅限事业实施者并非国家或地方自治团体时）\n4. 与有关行政机关负责人协商所需的文件\n② 法第十四条第一款第十号所称“总统令规定的事项”，是指下列各号事项。<2016年6月28日、2019年2月8日修订>\n1. 有关分阶段推进的事项\n2. 有关事业推进体系的事项\n3. 有关事业推进程序的事项\n4. 有关公共设施归属及替代的事项\n5. 有关通过出租、分售智慧城市建设事业所建成的土地、建筑物或构筑物等（以下简称“建成土地等”）进行供应的事项\n③ 法第十四条第五款但书所称“变更总统令规定的轻微事项时”，是指下列任意一种情形。<2016年6月28日、2017年9月19日修订>\n1. 在两年范围内变更事业期间\n2. 在总事业费百分之十以内变更智慧城市建设事业费\n3. 在原计划面积百分之十以内变更智慧城市建设事业面积\n④ 法第十四条第一款规定的实施计划制定标准及其他必要事项，由国土交通部长官制定并公告。在此情况下，应事先与有关中央行政机关负责人协商。<2016年6月28日新增>\n\n",
-          "file_indices": [
-            89
-          ]
-        }
-      ],
-      "text": "第十九条（智慧城市建设事业实施计划）\n① 法第十四条第一款规定的智慧城市建设事业实施计划（以下简称“实施计划”）应当附具下列各号文件及图纸。在此情况下，实施计划批准权人应当通过《电子政府法》第三十六条第一款规定的行政信息共同利用，核实事业实施地区的地籍图。<2010年11月2日、2017年9月19日修订>\n1. 事业实施地区位置图\n2. 实施计划平面图及概要设计文件\n3. 应归属国家或地方自治团体的公共设施安装费用计算书及应归属或转让给事业实施者的既有公共设施计算书（仅限事业实施者并非国家或地方自治团体时）\n4. 与有关行政机关负责人协商所需的文件\n② 法第十四条第一款第十号所称“总统令规定的事项”，是指下列各号事项。<2016年6月28日、2019年2月8日修订>\n1. 有关分阶段推进的事项\n2. 有关事业推进体系的事项\n3. 有关事业推进程序的事项\n4. 有关公共设施归属及替代的事项\n5. 有关通过出租、分售智慧城市建设事业所建成的土地、建筑物或构筑物等（以下简称“建成土地等”）进行供应的事项\n③ 法第十四条第五款但书所称“变更总统令规定的轻微事项时”，是指下列任意一种情形。<2016年6月28日、2017年9月19日修订>\n1. 在两年范围内变更事业期间\n2. 在总事业费百分之十以内变更智慧城市建设事业费\n3. 在原计划面积百分之十以内变更智慧城市建设事业面积\n④ 法第十四条第一款规定的实施计划制定标准及其他必要事项，由国土交通部长官制定并公告。在此情况下，应事先与有关中央行政机关负责人协商。<2016年6月28日新增>\n\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
+      "text": "第十九条（智慧城市建设项目实施方案）\n① 根据本法第十四条第一款规定编制的智慧城市建设项目实施方案（以下简称“实施方案”）应当附有下列各款规定的文件和图纸。在此情况下，批准实施方案的机构应当依据《电子政务法》第三十六条第一款的规定，通过行政信息联合核实项目实施区域的地籍图。<2010年11月2日修订；2017年9月19日修订>\n1. 项目实施区域位置图\n2. 详细平面图和初步设计文件\n3. 应归属国家或地方政府的公共设施安装费用计算表，以及应归属或转让给项目实施者的现有公共设施计算表（仅当项目实施者不是国家或地方政府时适用）。\n4. 与相关行政机关负责人磋商所需文件\n② 本法第十四条第一款第十项所称“总统令规定的事项”，是指下列各款所列事项。<2016年6月28日、2019年2月8日修订>\n1. 关于分阶段实施的事项\n2. 项目实施系统相关事宜\n3. 项目实施程序相关事宜\n4. 公共设施归属和更换事宜\n5. 关于通过智慧城市建设项目租赁或出售方式提供的土地、建筑物或构筑物等（以下简称“已开发土地等”）的供应事宜\n③ 本法第十四条第五款但书中的“总统令规定的小事变更情形”是指下列情形之一：<2016年6月28日、2017年9月19日修订>\n1. 如果项目周期在 2 年范围内变更，则\n2. 如果智慧城市建设项目成本变更幅度在项目总成本的 10% 以内，则\n3. 如果智慧城市建设项目面积变更幅度在原规划面积的10%以内，则适用\n④ 根据本法第十四条第一款制定实施计划的标准及其他必要事项，由国土交通大臣确定并公布。在此情况下，大臣应事先与相关中央行政机关负责人协商。<新增于2016年6月28日>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c7b2cc4a46a4-final-nine.json",
+      "verification": "C02_KOREAN_SOURCE_MINIMAL_CORRECTION",
+      "reason": "Korean Decree Article 19(1)(3) distinguishes installation-cost statement for public facilities vesting in state/local authority from existing public-facility calculation vested in or transferred to project implementer."
     }
   ],
+  "adjudicated_edit_count": 705,
+  "pending_single_candidate_count": 0,
+  "pending_conflict_count": 0,
+  "pending_single_candidates": [],
   "pending_conflicts": [],
   "english_sources": {
     "available_parent_official_fallback": [
@@ -6807,12 +6750,13 @@
     "2026-11-08 C02 c7b2cc4a46a4: 10 pending historical variant determinations, including precise update of 2025 Government Organization Act supplementary reference to full Smart City Act title. Retained 9 other accepted/original expressions, original source SHA, preceding verified edits. Whole-family IN_PROGRESS.",
     "2026-11-08 C02 c7b2cc4a46a4: further ten previously edited Act rows compared against Korean requirements and retained, no duplicate edits; total 20 candidates this task. 34 still require independent judgment. IN_PROGRESS.",
     "2026-11-08 C02 c7b2cc4a46a4 Annex 4: 13 source-grounded corrections for statutory fine and violation-duration table cells, including missing violation obligation, four tiers for smart innovation and four for smart demonstration. Source identities preserved and prior corrections unchanged. Whole family IN_PROGRESS.",
-    "2026-11-08 C02 c7b2cc4a46a4 finalcheck: 12 more Korean-source candidate decisions; previously accepted 2008 Supplementary Article 2 minister name corrected at second occurrence while preserving prior text version and 697 unique edits. Source unchanged; final status IN_PROGRESS."
+    "2026-11-08 C02 c7b2cc4a46a4 finalcheck: 12 more Korean-source candidate decisions; previously accepted 2008 Supplementary Article 2 minister name corrected at second occurrence while preserving prior text version and 697 unique edits. Source unchanged; final status IN_PROGRESS.",
+    "2026-11-08 C02 c7b2cc4a46a4: final 9 historical variants adjudicated against Korean statutory text, 8 added unique corrections, one prior correction refined retaining previous version. All 705 unique corrections preserved; 0 pending candidate records; COMPLETE not yet certified, final whole-family audit required."
   ],
   "integration_progress": {
-    "stage": "HISTORICAL_SOURCE_FINAL_ADJUDICATION",
+    "stage": "FINAL_FAMILY_COVERAGE_AUDIT",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:c7b2cc4a46a4",
-    "note": "45 candidates adjudicated this task, 14 new edits and one refinement, 9 candidates remain."
+    "note": "All recorded historical candidate IDs adjudicated. Complete whole-family final coverage and source consistency audit before issuing receipt."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -7952,10 +7896,10 @@
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-family-audit.json",
     "blob_sha": "PENDING_REQUERY",
-    "accepted_unique_edits": 697,
+    "accepted_unique_edits": 705,
     "recorded_evidence_ids": 1133,
     "ids_without_confirmed_evidence": 0,
-    "pending_candidate_ids": 9,
+    "pending_candidate_ids": 0,
     "pending_conflict_ids": 0,
     "source_identity_mismatches": 0
   }
