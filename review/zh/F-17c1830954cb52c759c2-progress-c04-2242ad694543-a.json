@@ -66,7 +66,7 @@
       "issue": "纠正施行规则法名、示范运行任务和开发项目实施计划批准条款中的误译及错误法案指称。"
     }
   ],
-  "notes": "Preserves original source blobs and prior reading bookmark. Initial targeted corrections include incomplete Korean-only fragments in B2 Articles 8 and 17, statutory reference errors, the 100/100 state-property fee reduction cap, UAM terminology, appendix criteria and amounts, and MTQ artifacts/processing periods in forms. This is a progress checkpoint, not COMPLETE. Preserved original handoff checkpoint findings. All prior 48 empty correction entries have now been restored to nonempty source-backed fragments; no source row is intentionally deleted. Continued review of the full Decree Article 25, Rule Articles 10/15/17/19/22/23 and annex/form content. Corrected multiple corrupted or mistranslated cross-references, article titles, the delegated-work list and official institution names. Progress remains IN_PROGRESS. Additional targeted review corrected regulation titles and several remaining article references, the inspector certificate number, a stray Vertiport English term and construction-engineer mistranslations. All edits remain source-hash-bound; this is still an IN_PROGRESS checkpoint.",
+  "notes": "Preserves original source blobs and prior reading bookmark. Initial targeted corrections include incomplete Korean-only fragments in B2 Articles 8 and 17, statutory reference errors, the 100/100 state-property fee reduction cap, UAM terminology, appendix criteria and amounts, and MTQ artifacts/processing periods in forms. This is a progress checkpoint, not COMPLETE. Preserved original handoff checkpoint findings. All prior 48 empty correction entries have now been restored to nonempty source-backed fragments; no source row is intentionally deleted. Continued review of the full Decree Article 25, Rule Articles 10/15/17/19/22/23 and annex/form content. Corrected multiple corrupted or mistranslated cross-references, article titles, the delegated-work list and official institution names. Progress remains IN_PROGRESS. Additional targeted review corrected regulation titles and several remaining article references, the inspector certificate number, a stray Vertiport English term and construction-engineer mistranslations. All edits remain source-hash-bound; this is still an IN_PROGRESS checkpoint. Corrected the remaining misnamed enforcement-rule title embedded in the long supplementary-provision row B3-zh-00027; the duplicate annex body still requires detailed comparison with its separately indexed annex.",
   "edits": [
     {
       "id": "B1-zh-00001",
@@ -1795,7 +1795,13 @@
       "text": "建设技术人员",
       "reason": "根据韩文原文及上下文修正明显法名、术语、条号或字段误译。",
       "original_source_hash": "4c5be25128e02143411d5f72486b67256c2cace371dedb1cf89106d3e37eadb9"
+    },
+    {
+      "id": "B3-zh-00027",
+      "text": "补充规定 <第1332号，2024年4月25日>\n\n本规则将于2024年4月25日生效。\n\n对城市空中交通示范项目运营者采取处置措施（包括撤销指定）的详细标准（与第7条相关）\n■ 《促进和支持城市空中交通利用法施行规则》[附录1] \n\n  对城市空中交通示范项目运营者采取处置措施（包括撤销指定）的详细标准（与第7条相关）               \n\n  1. 通用标准                                                                         \n\n    A. 存在两项或两项以上违规行为且相应处理标准不同的情况         \n\n  如果两项处置标准均与业务相关，则适用较严格的处置标准；如果两项或多项处置标准均与业务相关，则适用较严格的处置标准。              \n\n  对于熟人，应处以严厉的惩罚，但惩罚期限不得超过各项处置标准期限的总和。              \n\n  分割标准权重在处置标准的一半范围内。                                   \n\n    B. 根据违规次数对同一违规行为进行行政处罚的标准是，在过去一年内发生的违规行为。         \n\n  本规定适用于已收到处理结果的情况。在这种情况下，违规期限的计算方法如下：                \n\n  收到行政处分通知书的日期与处分后再次发现相同违规行为的日期。               \n\n  。                                                                      \n\n    c. 如依据第 b 款作出加重行政处罚，则适用上述加重处罚令。          \n\n  违规行为发生前的处置次数（如果在根据B款规定的期限内有两项或两项以上行政处置）               \n\n  （以上指的是较高阶指令）将是下一阶指令。                                      \n\n    D. 处理机关应当根据违法行为的动机、内容、频率和程度等因素，考虑下列加重情节。         \n\n  在符合诉讼时效或缩短诉讼时效理由的情况下，在处置标准的一半范围内，企业               \n\n  暂停期限可以延长或缩短。但是，即使延长暂停期限，企业也必须遵守相关规定。              \n\n  停职期限不得超过6个月。                                                 \n\n      1) 加重原因                                                                    \n\n        a) 当违规行为的性质和程度被认定为严重，且对用户等造成的损害显著时        \n\n  如果确定                                                                         \n\n        b) 如果违规期限为 6 个月或更长                                    \n\n        c) 此外，考虑到违规程度、违规动机及其后果等，      \n\n  在认为有必要继续的情况下                                                    \n\n      2) 缓解措施的理由                                                                    \n\n        a) 如果违规行为被认定为由于轻微疏忽或错误所致。               \n\n",
+      "reason": "统一法令正式名称；原文重复附录内容仍待后续逐项核对。",
+      "original_source_hash": "9392985fd23d9ad746fcf0503bc82a06be838c03209008fb7772608e9579e682"
     }
   ],
-  "corrected_rows": 288
+  "corrected_rows": 289
 }
