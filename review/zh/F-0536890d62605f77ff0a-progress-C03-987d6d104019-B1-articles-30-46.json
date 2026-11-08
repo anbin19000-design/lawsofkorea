@@ -1,0 +1,103 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:987d6d104019",
+  "status": "IN_PROGRESS",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_en_index_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "english_document_reference": "documents/en/kr-014071-276899-en.json",
+  "checked_rows": 11,
+  "checked_ids": [
+    "B1-zh-00032",
+    "B1-zh-00034",
+    "B1-zh-00037",
+    "B1-zh-00039",
+    "B1-zh-00040",
+    "B1-zh-00041",
+    "B1-zh-00042",
+    "B1-zh-00044",
+    "B1-zh-00045",
+    "B1-zh-00046",
+    "B1-zh-00048"
+  ],
+  "corrected_rows": 1,
+  "quality_passed_rows": 10,
+  "quality_corrected_rows": 1,
+  "results": [
+    {
+      "id": "B1-zh-00032",
+      "verdict": "PASS",
+      "reason": "Article content and operative requirements compared with Korean and exact-version official English; Chinese meaning retained."
+    },
+    {
+      "id": "B1-zh-00034",
+      "verdict": "PASS",
+      "reason": "Article content and operative requirements compared with Korean and exact-version official English; Chinese meaning retained."
+    },
+    {
+      "id": "B1-zh-00037",
+      "verdict": "PASS",
+      "reason": "Article content and operative requirements compared with Korean and exact-version official English; Chinese meaning retained."
+    },
+    {
+      "id": "B1-zh-00039",
+      "verdict": "PASS",
+      "reason": "Article content and operative requirements compared with Korean and exact-version official English; Chinese meaning retained."
+    },
+    {
+      "id": "B1-zh-00040",
+      "verdict": "PASS",
+      "reason": "Article content and operative requirements compared with Korean and exact-version official English; Chinese meaning retained."
+    },
+    {
+      "id": "B1-zh-00041",
+      "verdict": "PASS",
+      "reason": "Article content and operative requirements compared with Korean and exact-version official English; Chinese meaning retained."
+    },
+    {
+      "id": "B1-zh-00042",
+      "verdict": "PASS",
+      "reason": "Article content and operative requirements compared with Korean and exact-version official English; Chinese meaning retained."
+    },
+    {
+      "id": "B1-zh-00044",
+      "verdict": "PASS",
+      "reason": "Article content and operative requirements compared with Korean and exact-version official English; Chinese meaning retained."
+    },
+    {
+      "id": "B1-zh-00045",
+      "verdict": "CORRECTED",
+      "reason": "Korean 보호 일시해제 and exact English temporary release from detention refer to release from immigration detention, not termination of victim protection. Replaced 暂时解除保护 with 暂时解除收容."
+    },
+    {
+      "id": "B1-zh-00046",
+      "verdict": "PASS",
+      "reason": "Article content and operative requirements compared with Korean and exact-version official English; Chinese meaning retained."
+    },
+    {
+      "id": "B1-zh-00048",
+      "verdict": "PASS",
+      "reason": "Article content and operative requirements compared with Korean and exact-version official English; Chinese meaning retained."
+    }
+  ],
+  "edits": [
+    {
+      "id": "B1-zh-00045",
+      "source_hash": "d6b4be967528d68270e98311a9a60a64498446730bd8e68b5fcd172baf16e037",
+      "text": "第四十三条（外国受害者的特别规定）  关于暂缓执行驱逐令、暂时解除收容以及延长外国受害者居留期限的规定，适用《出入境管理法》第二十五条之二和第四十六条之二的规定。<2022年12月13日修订>\n\n"
+    }
+  ],
+  "prior_evidence_index": "status/delivery/reconcile-S2-8f70e317249155938a79444493d089b4-evidence-7e6b69412a765526.json",
+  "prior_verification_files": [
+    "review/zh/F-0536890d62605f77ff0a-progress-C03-8d2adb521ba2-B1-initial-verification.json",
+    "review/zh/F-0536890d62605f77ff0a-progress-C03-5b21d79de9ad-B1-articles-3-5-7.json",
+    "review/zh/F-0536890d62605f77ff0a-progress-C03-692776d583c9-B1-articles-10-12-13.json"
+  ],
+  "protected_unresolved_ids": [
+    "A26697-zh-00008",
+    "A26699-zh-00053"
+  ],
+  "note": "11 previously-unlisted legal body rows directly compared, one minimal correction. All other Chinese unchanged, earlier candidate edits and unresolved protections retained. Not whole-family completion."
+}
