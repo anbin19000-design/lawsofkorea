@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 1320,
+    "verified_zh_rows": 1380,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 1320,
-      "checked_rows": 1320,
+      "next_row_zero_based": 1380,
+      "checked_rows": 1380,
       "total_rows": 5228
     }
   },
@@ -1519,9 +1519,111 @@
       "text": "即使已就同一违法行为处以罚款，仍适用本规定。",
       "original_text": "即使对同一违规行为已处以行政罚款，本规定仍然适用。",
       "reason": "一般基准句式不准确"
+    },
+    {
+      "id": "A28851-zh-00012",
+      "text": "1) 被认定为因轻微疏忽或错误而非故意或重大过失所致的情形",
+      "original_text": "1) 如果违规行为是由于轻微的疏忽或错误而非故意或重大过失造成的",
+      "reason": "条款句式不完整，须表达认定情形"
+    },
+    {
+      "id": "A28851-zh-00013",
+      "text": "",
+      "original_text": "在被识别为 START 的情况下",
+      "reason": "残留START模板标记及重复片段"
+    },
+    {
+      "id": "A28851-zh-00016",
+      "text": "",
+      "original_text": "在事实得到确认的情况下",
+      "reason": "无对应原文的冗余句段"
+    },
+    {
+      "id": "A28851-zh-00017",
+      "text": "2. 个别标准",
+      "original_text": "2. 单个标准",
+      "reason": "과태료 개별기준을 단일 기준으로 오역"
+    },
+    {
+      "id": "A28851-zh-00023",
+      "text": "第二次",
+      "original_text": "2 轮",
+      "reason": "위반 횟수 2회를 회차로 오역"
+    },
+    {
+      "id": "A28851-zh-00024",
+      "text": "第三次",
+      "original_text": "3rd 违规",
+      "reason": "중국어·영어 혼합 및 위반 횟수 표현 오류"
+    },
+    {
+      "id": "A28851-zh-00025",
+      "text": "及以上",
+      "original_text": "或更高版本",
+      "reason": "위반 횟수의 이상 기준을 버전으로 오역"
+    },
+    {
+      "id": "A28851-zh-00026",
+      "text": "A. 违反本法第五十六条第三款，未提交道路登记簿或提交虚假道路登记簿的情形",
+      "original_text": "a. 违反该法第56条第3款规定，道路登记册",
+      "reason": "도로대장 미제출 또는 허위제출 행위의 내용 누락"
+    },
+    {
+      "id": "A28851-zh-00029",
+      "text": "",
+      "original_text": "或提交了错误的",
+      "reason": "与前一项完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00032",
+      "text": "B. 超过本法第六十一条第一款规定的道路占用许可面积占用道路的情形",
+      "original_text": "B. 根据该法第61条第1款规定颁发的道路占用许可证",
+      "reason": "허가면적 초과 점용행위를 단순 허가증으로 오역"
+    },
+    {
+      "id": "A28851-zh-00035",
+      "text": "",
+      "original_text": "如果占用区域超过起始区域",
+      "reason": "与前一项完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00037",
+      "text": "C. 未取得本法第六十一条第一款规定的道路占用许可，临时将物件等堆放在道路上的情形",
+      "original_text": "这是根据该法第 61 条第 1 款颁发的道路占用许可证。",
+      "reason": "무허가 도로상 물건 일시 적치 행위를 허가증으로 오역"
+    },
+    {
+      "id": "A28851-zh-00040",
+      "text": "",
+      "original_text": "临时将货物等放置在道路上，未收到 START",
+      "reason": "与前一项完整句合并并删除残留START标记"
+    },
+    {
+      "id": "A28851-zh-00043",
+      "text": "D. 违反本法第六十二条第一款，未制定预防安全事故措施的情形",
+      "original_text": "。违反《交通安全法》第62条第1款规定的安全事故。",
+      "reason": "도로법 조문을 도로교통법으로 오인용하고 예방대책 미수립 의미 누락"
+    },
+    {
+      "id": "A28851-zh-00048",
+      "text": "",
+      "original_text": "如果未做好预防措施",
+      "reason": "与前一项完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00061",
+      "text": "G. 未有本法第六十二条第五款规定的主要地下埋设物管理人参与而实施道路开挖工程的情形",
+      "original_text": "公司。根据《法案》第62条第5款进行的大型地下掩埋工程。",
+      "reason": "주요지하매설물 관리자를 수자원관리자로 오역하고 문장 구조 훼손"
+    },
+    {
+      "id": "A28851-zh-00064",
+      "text": "",
+      "original_text": "在未有水利管理人员参与的情况下进行挖掘作业",
+      "reason": "与前一项完整句合并后删除重复错误片段"
     }
   ],
-  "note": "Sequential Chinese review continued through original row 1319, finishing Annex 3 notes and reviewing Annexes 5-7 (enforcement charges, delegated fee rates, and administrative fines). Added 26 focused corrections for underground-depth fee reductions, composite occupancy and users, enforcement fine title/conditions, official decree annex titles, land purchase commission rate caps and definition, and administrative fine general standard. Previous 202 edits retained. Continue from row 1320. IN_PROGRESS.",
+  "note": "Sequential Chinese review continued through original row 1379 of Annex 7 fine schedule. Added 17 focused corrections for residual START markers, fine schedule terminology, violation frequency, road ledger non-submission, excessive road occupation, unpermitted temporary placement, wrong statute citation, and major underground utility manager participation. Previous 228 edits retained. Continue from row 1380. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
