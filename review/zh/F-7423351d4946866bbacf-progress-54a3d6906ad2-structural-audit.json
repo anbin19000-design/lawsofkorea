@@ -1,0 +1,204 @@
+{
+  "schema": "LAW_ZH_REVIEW_AUDIT_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "status": "IN_PROGRESS",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:54a3d6906ad2]",
+  "source_blobs": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "review_blob": "9a199b8309a4da8ef5a45625232582991da07b4d",
+  "documents": [
+    {
+      "key": "B1",
+      "kind": "법률",
+      "title": "수산물 유통의 관리 및 지원에 관한 법률",
+      "english_document_status": "EXACT_ENGLISH_AVAILABLE"
+    },
+    {
+      "key": "B2",
+      "kind": "대통령령",
+      "title": "수산물 유통의 관리 및 지원에 관한 법률 시행령",
+      "english_document_status": "EXACT_ENGLISH_AVAILABLE"
+    },
+    {
+      "key": "A38090",
+      "kind": "별표",
+      "title": "과징금의 부과기준(제27조 관련)",
+      "english_document_status": "EXACT_ENGLISH_AVAILABLE"
+    },
+    {
+      "key": "A38091",
+      "kind": "별표",
+      "title": "과태료의 부과기준(제30조 관련)",
+      "english_document_status": "EXACT_ENGLISH_AVAILABLE"
+    },
+    {
+      "key": "B3",
+      "kind": "해양수산부령",
+      "title": "수산물 유통의 관리 및 지원에 관한 법률 시행규칙",
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23947",
+      "kind": "별표",
+      "title": "위반행위별 처분기준(제24조제2항 관련)",
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23948",
+      "kind": "별표",
+      "title": "이력추적관리의 표시(제28조제1항 관련)",
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23949",
+      "kind": "별표",
+      "title": "이력추적관리기준(제29조 관련)",
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23950",
+      "kind": "별표",
+      "title": "이력추적관리의 등록취소 및 표시금지의 기준(제34조 관련)",
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23951",
+      "kind": "서식",
+      "title": "위판장 개설허가신청서",
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23952",
+      "kind": "서식",
+      "title": "매매참가인 신고서",
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23953",
+      "kind": "서식",
+      "title": "수산물이력추적관리 등록(신규ㆍ갱신)신청서",
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23954",
+      "kind": "서식",
+      "title": "수산물이력추적관리 등록증",
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23955",
+      "kind": "서식",
+      "title": "수산물이력추적관리 등록증 재발급 신청서",
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23956",
+      "kind": "서식",
+      "title": "수산물이력추적관리 등록사항 변경신고서",
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23957",
+      "kind": "서식",
+      "title": "수산물이력추적관리 등록 유효기간 연장 신청서",
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    }
+  ],
+  "row_count": 1207,
+  "unique_row_ids": 1207,
+  "corrected_row_ids": 65,
+  "per_document": {
+    "B1": {
+      "rows": 103,
+      "corrected_ids": 30
+    },
+    "B2": {
+      "rows": 57,
+      "corrected_ids": 8
+    },
+    "A38090": {
+      "rows": 39,
+      "corrected_ids": 1
+    },
+    "A38091": {
+      "rows": 119,
+      "corrected_ids": 4
+    },
+    "B3": {
+      "rows": 76,
+      "corrected_ids": 9
+    },
+    "A23947": {
+      "rows": 285,
+      "corrected_ids": 3
+    },
+    "A23948": {
+      "rows": 62,
+      "corrected_ids": 1
+    },
+    "A23949": {
+      "rows": 73,
+      "corrected_ids": 0
+    },
+    "A23950": {
+      "rows": 90,
+      "corrected_ids": 3
+    },
+    "A23951": {
+      "rows": 39,
+      "corrected_ids": 1
+    },
+    "A23952": {
+      "rows": 51,
+      "corrected_ids": 1
+    },
+    "A23953": {
+      "rows": 55,
+      "corrected_ids": 1
+    },
+    "A23954": {
+      "rows": 21,
+      "corrected_ids": 0
+    },
+    "A23955": {
+      "rows": 40,
+      "corrected_ids": 1
+    },
+    "A23956": {
+      "rows": 49,
+      "corrected_ids": 1
+    },
+    "A23957": {
+      "rows": 48,
+      "corrected_ids": 1
+    }
+  },
+  "mechanical_scan": {
+    "rows_scanned": 1207,
+    "rule": "After applying currently accepted review edits, detect MTQ, Korean Hangul runs or START placeholders",
+    "unresolved": [
+      {
+        "id": "A23947-zh-00174",
+        "markers": [
+          "START"
+        ],
+        "excerpt": "如果 START 中断"
+      },
+      {
+        "id": "A23947-zh-00231",
+        "markers": [
+          "START"
+        ],
+        "excerpt": "违反 START 的规定，未能满足指定条件"
+      }
+    ]
+  },
+  "remaining_semantic_review": "Full original-by-original semantic verification, numeric and citation continuity, and Korean annex table/form cell alignment NOT confirmed",
+  "checked_rows_not_certified": true,
+  "completion_status": "NOT_COMPLETE",
+  "note": "Preserves existing source and review; audit is structural not proof of semantic completion, English missing for B3/annex/form entries. Do not issue COMPLETE solely on this report."
+}
