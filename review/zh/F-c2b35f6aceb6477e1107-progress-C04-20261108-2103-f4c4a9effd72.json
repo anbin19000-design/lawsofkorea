@@ -4,7 +4,7 @@
   "job_id": "F-c2b35f6aceb6477e1107",
   "worker": "C04",
   "branch": "main",
-  "status": "COMPLETE",
+  "status": "AWAITING_SUPPLIER_REVALIDATION",
   "source_blobs": {
     "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
     "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
@@ -14,8 +14,8 @@
   "documents": 15,
   "total_rows": 1241,
   "preserved_review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
-  "preserved_review_sha_at_checkpoint": "49d7bdd7914d2d437cf4befa7da644817c3d5310",
-  "preserved_review_edits_at_checkpoint": 521,
+  "preserved_review_sha_at_checkpoint": "581797fc391e8e80f4f1bacaba69403af317b674",
+  "preserved_review_edits_at_checkpoint": 497,
   "current_checkpoint": {
     "korean_document_read": [
       "B1",
@@ -44,7 +44,7 @@
     "zh_row_checked_without_edit": [
       "B1-zh-00086"
     ],
-    "next_sequence": "Family complete. Do not start another family until a new official C04 assignment is issued.",
+    "next_sequence": "Do not take a new family until the supplier revalidates the corrected 497 nonblank edits and updated receipt.",
     "note": "B1-zh-00086 maps to Korean source 제1조(시행일) 이 법은 2022년 1월 1일부터 시행한다. Chinese text '第一条（生效日期）本法自2022年1月1日起生效。' is accurate; no edit warranted.",
     "zh_checked_ids": [
       "B1-zh-00001",
@@ -1289,15 +1289,18 @@
       "A14120-zh-00038",
       "A14120-zh-00039"
     ],
-    "status": "COMPLETE"
+    "status": "FULL_FAMILY_REVIEW_COMPLETE_VALIDATION_PENDING"
   },
-  "status_note": "COMPLETE. Final review and receipt saved through GitHub Contents API and re-read successfully. All 15 Korean documents, all linked English texts, and all 1,241 Chinese rows reviewed. Source blobs unchanged. Waiting for next official C04 assignment; no other law family selected.",
+  "status_note": "All 15 Korean documents, linked English originals, and all 1241 Chinese rows read and reviewed previously. Reconciled 24 blank edits against original Korean/source context: all are deletion or redundant/no-op judgments with original IDs, hashes and rationale preserved in dedicated sidecar. Canonical edits now 497 unique nonblank corrections. Review and receipt are COMPLETE and re-read; independent supplier has not yet reported PASS after its earlier MISSING_CORRECTION_TEXT rejection. Do not override supplier status.",
   "final_artifacts": {
     "review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
-    "review_sha": "909d94606805a691bf3c01e7882a7e22c86f59bf",
+    "review_sha": "581797fc391e8e80f4f1bacaba69403af317b674",
     "receipt_path": "receipts/F-c2b35f6aceb6477e1107.json",
-    "receipt_sha": "f7c1b360f386b836ea533ecb079379e798d45487",
+    "receipt_sha": "9d1a720359c465f367a5d9f0941b14336a23bd59",
     "checked_rows": 1241,
-    "corrected_rows": 521
+    "corrected_rows": 497,
+    "empty_edit_decisions_path": "review/zh/F-c2b35f6aceb6477e1107-empty-edit-decisions-C04-20261108-8f26e14fcb4a.json",
+    "empty_edit_decisions_sha": "856c487ffffba315abd70e4218dc33dd618f5753",
+    "supplier_validation": "PENDING_RECHECK_AFTER_MISSING_CORRECTION_TEXT"
   }
 }
