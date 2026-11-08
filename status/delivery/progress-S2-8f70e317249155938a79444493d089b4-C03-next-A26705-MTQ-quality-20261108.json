@@ -1,0 +1,52 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26705",
+  "range": {
+    "first": "A26705-zh-00005",
+    "last": "A26705-zh-00033"
+  },
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "quality_checked_rows": 3,
+  "quality_passed_rows": 2,
+  "quality_failed_rows": 1,
+  "quality_checked_ids": [
+    "A26705-zh-00005",
+    "A26705-zh-00006",
+    "A26705-zh-00033"
+  ],
+  "results": [
+    {
+      "id": "A26705-zh-00005",
+      "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
+      "verdict": "CORRECT_MTQ",
+      "adopted_text": "处理期限",
+      "reason": "한국어 서식의 '처리기간'에 대응. MTQc2e2f91c71addd2000420结束 오염 제거."
+    },
+    {
+      "id": "A26705-zh-00006",
+      "source_hash": "9cabba8ed9c82f4e7cf5531e0e32d0142e83eee0428863ceba24408e99cd345b",
+      "verdict": "PASS_EXISTING",
+      "adopted_text": "3 天",
+      "reason": "원문의 처리기간 3일과 중국어 3 天 일치."
+    },
+    {
+      "id": "A26705-zh-00033",
+      "source_hash": "6a9fd2459313c78ed634682f52734f6a424348a2381255da601ab4f842ec71c4",
+      "verdict": "PASS_EXISTING",
+      "adopted_text": "210mm×297mm[白纸（80g/㎡）或中等厚度纸（80g/㎡）]",
+      "reason": "원문 서식 용지 크기 210×297㎜, 평량 80g/㎡ 및 재질 대조."
+    }
+  ],
+  "edits": [
+    {
+      "id": "A26705-zh-00005",
+      "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
+      "text": "处理期限"
+    }
+  ],
+  "note": "Continuing C03 same family after A26703 closing-cell QA; Korean A26705 source checked against Chinese. Preserve all prior progress and corrections, not COMPLETE."
+}
