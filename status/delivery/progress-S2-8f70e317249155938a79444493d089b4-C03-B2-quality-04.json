@@ -1,0 +1,35 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "B2",
+  "quality_batch": "B2-quality-04",
+  "range": {
+    "first": "B2-zh-00017",
+    "last": "B2-zh-00017"
+  },
+  "quality_checked_rows": 1,
+  "quality_passed_rows": 1,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "B2-zh-00017"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-00013-00017.json",
+  "prior_quality_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-quality-03.json",
+  "results": [
+    {
+      "id": "B2-zh-00017",
+      "source_hash": "bedefc471c73d3beb8ab04f86adff9196af2367f1048f820f752d105d013e8ef",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Korean Decree Article 16(1)-(4) and existing corrected Chinese agree on the Act Article 25(1),(2),(3), eligibility of minor victim or direct-descendant family member resident in Korea at victimization, school admission/return/transfer, education superintendent and district education head request authority, priority placement near protected residence, attendance recognition before procedural completion and disclosure restriction to school-related personnel. The corrected ④ numbering is retained."
+    }
+  ],
+  "edits": [],
+  "note": "First saved but previously unquality-checked correction after B2-quality-03 is B2-zh-00017. Existing correction approved without rewriting. Previously adopted B2-zh-00006 citation correction remains untouched; whole family not yet COMPLETE."
+}
