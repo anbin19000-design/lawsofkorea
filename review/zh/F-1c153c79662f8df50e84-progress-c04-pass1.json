@@ -15,7 +15,7 @@
     "required_order": "KO_FULL_EN_FULL_ZH_FULL",
     "ko": "COMPLETE: all 34 Korean source documents read in source order.",
     "en": "COMPLETE: B1 exact English and B2 English draft read in full; reviewed/en/KR_008306.json reference read; B3 and forms lack complete English document translations.",
-    "zh": "IN_PROGRESS: all 34 documents have received an initial sequential review; 634 unique row corrections are recorded. Source scan shows 48 MTQ rows and 4 Korean-residual rows, all mapped to correction entries. Mixed English/Chinese defects have been addressed; remaining mixed-script cases are intentional gov.kr URLs and paper-size/unit notation, except the corrected END token in A12201."
+    "zh": "IN_PROGRESS: Korean source set (34 documents) and available English references have been read. B1–B3 Chinese texts received sequential review. All 31 forms received targeted row/field checks, but not every form row has yet been read end-to-end. 634 unique actual correction entries are recorded. Source scan: 48 MTQ rows and 4 Korean-residual rows; all 52 are mapped to correction entries. Mixed English/Chinese label defects were addressed; intentional gov.kr URLs and paper-size/unit notation remain."
   },
   "scope": {
     "documents": 34,
@@ -4480,5 +4480,5 @@
     "korean_residual_rows_in_source": 4,
     "korean_residual_rows_with_recorded_corrections": 4
   },
-  "next_step": "Final full-row review and canonical result construction are still pending. Verify all 2,925 rows against source IDs and hashes, ensure each actual edit is in edits with nonempty corrected_text, classify unchanged rows, and only then write COMPLETE review and receipt."
+  "next_step": "Complete end-to-end row-by-row review of every form row, compare form fields and processing-flow tables against Korean source, then validate all 2,925 row IDs/source_hash values. Construct the canonical LAW_ZH_MINIMAL_REVIEW_V1 only after full review; status remains IN_PROGRESS."
 }
