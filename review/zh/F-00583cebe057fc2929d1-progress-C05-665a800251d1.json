@@ -1,0 +1,32 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "worker": "C05",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "51d1209e0802e556d0d93bd856c45ea15ab26d73",
+  "previous_corrections": 332,
+  "new_correction_ids": [],
+  "correction_count": 332,
+  "pending_rows": 89,
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "full_reading_proven": false,
+  "completion_receipt": null,
+  "english_note": "B1/B2 official exact-version; B3/forms only 2010 fallback, not exact current version; decree also has AI draft.",
+  "english_reference_rows": {
+    "with_english": 771,
+    "without_english": 603
+  },
+  "note": "이번 회차에 offset 기반 원문/번역 대조 검색을 진행. 미교정 행 중 '고안'을 发明/设计者로 잘못 옮긴 추가 확정 사례는 검색되지 않아 교정 추가 없음. 기존 교정과 원문 SHA, 89행 보류 유지. B2-zh-00081 원문경계/별표 매핑, A29604·A8690 서식 정렬, A8693/A8698 원문 판독 보류 등 미해결. 전체 KO/EN/ZH 순차 독해 인증 및 COMPLETE 불가."
+}
