@@ -1,0 +1,93 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:92a1668969e1",
+  "status": "IN_PROGRESS",
+  "document": "A26704",
+  "phase": "FORM_12_SOURCE_COMPARISON",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_en_index_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "english_status": "NO_DOCUMENT_ENGLISH; Korean form controlling",
+  "checked_rows": 8,
+  "checked_ids": [
+    "A26704-zh-00009",
+    "A26704-zh-00010",
+    "A26704-zh-00015",
+    "A26704-zh-00017",
+    "A26704-zh-00021",
+    "A26704-zh-00022",
+    "A26704-zh-00023",
+    "A26704-zh-00029"
+  ],
+  "passed_rows": 8,
+  "corrected_rows": 0,
+  "results": [
+    {
+      "id": "A26704-zh-00009",
+      "verdict": "PASS",
+      "retained_text": "地址或居住地",
+      "source_hash": "9cf627a47a099f91ec615a3fe69c93ddb90b823d684f9b1f4aff2dfe0adda7d6",
+      "reason": "Address or domicile matches 주소 또는 거소."
+    },
+    {
+      "id": "A26704-zh-00010",
+      "verdict": "PASS",
+      "retained_text": "(电话号码:",
+      "source_hash": "cbd8975e279b620616cc2248caa1ec6c5348d1ba599415015b1022b65aa614ef",
+      "reason": "Telephone number label retained, alongside blank form input."
+    },
+    {
+      "id": "A26704-zh-00015",
+      "verdict": "PASS",
+      "retained_text": "地址",
+      "source_hash": "28e058c7cec8846e6c5fb52308685e1c534d4b8a745ab01a9d40c045f3fd6c71",
+      "reason": "Requesting institution address matches 주소."
+    },
+    {
+      "id": "A26704-zh-00017",
+      "verdict": "PASS",
+      "retained_text": "(电话号码:",
+      "source_hash": "cbd8975e279b620616cc2248caa1ec6c5348d1ba599415015b1022b65aa614ef",
+      "reason": "Contact person's telephone number label retained."
+    },
+    {
+      "id": "A26704-zh-00021",
+      "verdict": "PASS",
+      "retained_text": "年份",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "reason": "Date year corresponds to 년."
+    },
+    {
+      "id": "A26704-zh-00022",
+      "verdict": "PASS",
+      "retained_text": "月份",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "reason": "Date month corresponds to 월."
+    },
+    {
+      "id": "A26704-zh-00023",
+      "verdict": "PASS",
+      "retained_text": "日",
+      "source_hash": "dfc76879e2f5c3ead09186ff1c6b635624f96b7adbd71d94c37566429ca5df6f",
+      "reason": "Date day corresponds to 일."
+    },
+    {
+      "id": "A26704-zh-00029",
+      "verdict": "PASS",
+      "retained_text": "210mm×297mm[白纸（80g/㎡）或中等厚度纸（80g/㎡）]",
+      "source_hash": "6a9fd2459313c78ed634682f52734f6a424348a2381255da601ab4f842ec71c4",
+      "reason": "210 × 297 mm paper size and 80 g/m² alternatives match Korean form."
+    }
+  ],
+  "edits": [],
+  "existing_correction_source": "status/delivery/reconcile-S2-8f70e317249155938a79444493d089b4-evidence-7e6b69412a765526.json",
+  "previous_progress": "review/zh/F-0536890d62605f77ff0a-progress-C03-e436bc5f23de-A39474-annex1.json",
+  "unresolved_preserved": [
+    "A39474-zh-00040",
+    "A26697-zh-00008",
+    "A26699-zh-00053"
+  ],
+  "note": "8 form field tokens independently verified. Does not certify text of unreviewed candidate-bearing cells or entire law family. No false COMPLETE receipt."
+}
