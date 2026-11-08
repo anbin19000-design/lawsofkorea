@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 3275,
+    "verified_zh_rows": 3410,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 3275,
-      "checked_rows": 3275,
+      "next_row_zero_based": 3410,
+      "checked_rows": 3410,
       "total_rows": 5228
     }
   },
@@ -4711,9 +4711,273 @@
       "text": "允许通行荷载",
       "original_text": "允许的流量负载",
       "reason": "허용 통행하중을 교통량 부하로 오역"
+    },
+    {
+      "id": "A4687-zh-00506",
+      "text": "⑦互通立交名称（IC名称）",
+      "original_text": "⑦IC名称",
+      "reason": "IC名称标记需以互通立交语义明确"
+    },
+    {
+      "id": "A4687-zh-00507",
+      "text": "⑧IC开通日期",
+      "original_text": "⑧IC 开盘日期",
+      "reason": "IC 개통일을 개장 주식시장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00509",
+      "text": "⑨起点",
+      "original_text": "⑨时间点",
+      "reason": "시점을 시간 지점으로 오역"
+    },
+    {
+      "id": "A4687-zh-00511",
+      "text": "⑩终点",
+      "original_text": "⑩终端",
+      "reason": "종점을 단말로 오역"
+    },
+    {
+      "id": "A4687-zh-00513",
+      "text": "⑬连接道路",
+      "original_text": "⑬通道",
+      "reason": "접속도로를 통로로 축약"
+    },
+    {
+      "id": "A4687-zh-00515",
+      "text": "主管道路管理机关：",
+      "original_text": "行政机构:",
+      "reason": "관리청을 일반 행정기관으로 축약"
+    },
+    {
+      "id": "A4687-zh-00516",
+      "text": "车道数：",
+      "original_text": "通道号:",
+      "reason": "차로 수를 통로 번호로 오역"
+    },
+    {
+      "id": "A4687-zh-00517",
+      "text": "⑭匝道序号",
+      "original_text": "⑭灯泡序列号",
+      "reason": "램프를 전구로 오역"
+    },
+    {
+      "id": "A4687-zh-00519",
+      "text": "长度",
+      "original_text": "扩展",
+      "reason": "연장을 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00520",
+      "text": "出入口道路类别",
+      "original_text": "入口/出口",
+      "reason": "진·출입로 구분의 의미 축소"
+    },
+    {
+      "id": "A4687-zh-00521",
+      "text": "车道数",
+      "original_text": "通道号",
+      "reason": "차로 수를 통로 번호로 오역"
+    },
+    {
+      "id": "A4687-zh-00522",
+      "text": "行驶方向",
+      "original_text": "进度方向",
+      "reason": "진행방향을 진행상황으로 오역"
+    },
+    {
+      "id": "A4687-zh-00524",
+      "text": "终点侧",
+      "original_text": "终端侧",
+      "reason": "종점측을 단말 쪽으로 오역"
+    },
+    {
+      "id": "A4687-zh-00532",
+      "text": "竣工日期",
+      "original_text": "完成日期MTQab988e36dac4b3bb00205结束",
+      "reason": "준공일 항목에 MTQ 잔존"
+    },
+    {
+      "id": "A4687-zh-00533",
+      "text": "实施者",
+      "original_text": "执行器",
+      "reason": "시행자를 기계 실행기로 오역"
+    },
+    {
+      "id": "A4687-zh-00535",
+      "text": "设计者",
+      "original_text": "设计器",
+      "reason": "설계자를 장치로 오역"
+    },
+    {
+      "id": "A4687-zh-00536",
+      "text": "监理者",
+      "original_text": "主管",
+      "reason": "감리자를 단순 관리자/主管으로 오역"
+    },
+    {
+      "id": "A4687-zh-00540",
+      "text": "监理费",
+      "original_text": "监督",
+      "reason": "감리비를 감독 행위로 오역"
+    },
+    {
+      "id": "A4687-zh-00542",
+      "text": "3. 几何结构调查表",
+      "original_text": "3. 几何结构调查",
+      "reason": "조서 형식임을 명확히 표기"
+    },
+    {
+      "id": "A4687-zh-00543",
+      "text": "3-1. 道路中心线交点",
+      "original_text": "3-1. 道路中心任务点",
+      "reason": "도로중심선 교점을 업무·과업 지점으로 오역"
+    },
+    {
+      "id": "A4687-zh-00548",
+      "text": "④路段",
+      "original_text": "④旧",
+      "reason": "구간을 ‘옛’으로 오역"
+    },
+    {
+      "id": "A4687-zh-00550",
+      "text": "⑥管理编号",
+      "original_text": "⑥管理",
+      "reason": "관리번호를 관리 행위로 오역"
+    },
+    {
+      "id": "A4687-zh-00552",
+      "text": "⑧交角",
+      "original_text": "⑧桥墩",
+      "reason": "교각을 교량의 교각(桥墩)으로 오역; 해당 표에서는 교차각"
+    },
+    {
+      "id": "A4687-zh-00554",
+      "text": "⑩切线长",
+      "original_text": "⑩切题章节",
+      "reason": "접선장을 주제 장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00555",
+      "text": "⑪曲线长",
+      "original_text": "⑪曲线长度",
+      "reason": "곡선장을 곡선 길이로 명확히 표기"
+    },
+    {
+      "id": "A4687-zh-00556",
+      "text": "⑫曲线起点",
+      "original_text": "⑫曲线",
+      "reason": "곡선 시점을 누락"
+    },
+    {
+      "id": "A4687-zh-00557",
+      "text": "⑬曲线终点",
+      "original_text": "⑬曲线",
+      "reason": "곡선 종점을 누락"
+    },
+    {
+      "id": "A4687-zh-00558",
+      "text": "⑭中央纵距",
+      "original_text": "⑭中央",
+      "reason": "중앙종거의 측량 용어를 누락"
+    },
+    {
+      "id": "A4687-zh-00559",
+      "text": "⑮纵坡",
+      "original_text": "⑮倾斜",
+      "reason": "경사를 종방향 경사로 명확히 표기"
+    },
+    {
+      "id": "A4687-zh-00582",
+      "text": "3-3. 上坡车道",
+      "original_text": "3-3. 上坡巷",
+      "reason": "오르막차로를 골목으로 오역"
+    },
+    {
+      "id": "A4687-zh-00590",
+      "text": "⑩长度",
+      "original_text": "⑩扩展",
+      "reason": "연장을 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00591",
+      "text": "⑪车道数",
+      "original_text": "⑪车道号",
+      "reason": "차로 수를 차로 번호로 오역"
+    },
+    {
+      "id": "A4687-zh-00595",
+      "text": "⑦起点",
+      "original_text": "7点",
+      "reason": "시점을 시각으로 오역"
+    },
+    {
+      "id": "A4687-zh-00596",
+      "text": "⑧终点",
+      "original_text": "⑧ 点",
+      "reason": "종점을 불완전 번역"
+    },
+    {
+      "id": "A4687-zh-00597",
+      "text": "⑨方向",
+      "original_text": "⑨方向",
+      "reason": "방향을 유지하되 표기 정돈"
+    },
+    {
+      "id": "A4687-zh-00598",
+      "text": "3-4. 纵坡",
+      "original_text": "3-4. 纵坡",
+      "reason": "종단경사 용어를 도로 종단구배로 명확히 함"
+    },
+    {
+      "id": "A4687-zh-00607",
+      "text": "⑨纵坡",
+      "original_text": "⑨倾斜",
+      "reason": "경사를 종단경사로 명확히 표기"
+    },
+    {
+      "id": "A4687-zh-00608",
+      "text": "⑩起点地面高程",
+      "original_text": "⑩起点地面高程",
+      "reason": "시점지반고의 측량 용어를 유지·정돈"
+    },
+    {
+      "id": "A4687-zh-00609",
+      "text": "⑪坡长",
+      "original_text": "⑪坡度延伸",
+      "reason": "경사연장을 경사 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00612",
+      "text": "⑧终点",
+      "original_text": "⑧终端",
+      "reason": "종점을 단말로 오역"
+    },
+    {
+      "id": "A4687-zh-00613",
+      "text": "3-5. 停车待避区",
+      "original_text": "3-5. 停止支架",
+      "reason": "정차대를 정지 지지대로 오역"
+    },
+    {
+      "id": "A4687-zh-00621",
+      "text": "⑨长度",
+      "original_text": "⑨扩展",
+      "reason": "연장을 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00623",
+      "text": "⑪待避区",
+      "original_text": "⑪等待站",
+      "reason": "대기소를 대기역으로 오역"
+    },
+    {
+      "id": "A4687-zh-00626",
+      "text": "4-1. 边沟（路沟）、石砌结构、挡土墙、道路挖方边坡及道路填方坡面（填土面）",
+      "original_text": "4-1. 路边沟（道路沟渠）、石砌挡土墙、路堤、路堑边坡和路堤面（填土面）",
+      "reason": "측구·석축·옹벽·절개면·성토면의 시설 항목을 서로 혼합·누락"
     }
   ],
-  "note": "Sequential review advanced through row 3274, covering underground pedestrian passage and elevated road specifications. Added 33 focused corrections for repeated MTQ residue, professional roles, pedestrian underpass title/name, facility classification, condition grade, lengths, elevated road/ramp terminology, carriageway, width/lanes, structural type, lighting/soundproof facilities, super/substructure and allowable traffic load. Previous 727 edits retained. Continue from row 3275. IN_PROGRESS.",
+  "note": "Sequential review advanced through row 3409, covering interchange specifications and beginning of geometric structure register (road centerline intersection points, intersections, uphill lanes, longitudinal gradient and stopping bays), plus earthwork/drainage heading. Added 42 targeted corrections for interchange fields, MTQ residue, geometric survey terms (intersection angle, tangent, curve endpoints, central ordinate), lane and gradient, stopping bay and earthwork feature names. Previous 760 edits retained. Continue from row 3410. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
