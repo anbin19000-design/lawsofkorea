@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 3025,
+    "verified_zh_rows": 3090,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 3025,
-      "checked_rows": 3025,
+      "next_row_zero_based": 3090,
+      "checked_rows": 3090,
       "total_rows": 5228
     }
   },
@@ -4213,9 +4213,147 @@
       "text": "监理者",
       "original_text": "主管",
       "reason": "감리자를 단순 관리자/主管으로 오역"
+    },
+    {
+      "id": "A4687-zh-00249",
+      "text": "⑧设施类别",
+      "original_text": "⑧设施类型",
+      "reason": "시설물 종별의 법적 분류 표현을 명확화"
+    },
+    {
+      "id": "A4687-zh-00252",
+      "text": "⑩所在地",
+      "original_text": "⑩位置",
+      "reason": "소재지를 단순 위치와 구별"
+    },
+    {
+      "id": "A4687-zh-00253",
+      "text": "⑪终点",
+      "original_text": "⑪终端",
+      "reason": "종점을 전자기기 단말로 오역"
+    },
+    {
+      "id": "A4687-zh-00254",
+      "text": "⑫状态等级",
+      "original_text": "⑫条件等级",
+      "reason": "상태등급을 조건등급으로 오역"
+    },
+    {
+      "id": "A4687-zh-00257",
+      "text": "⑭长度",
+      "original_text": "⑭扩展",
+      "reason": "연장을 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00259",
+      "text": "通行限制高度",
+      "original_text": "通过",
+      "reason": "통행 제한높이의 핵심 의미 누락"
+    },
+    {
+      "id": "A4687-zh-00261",
+      "text": "车道数",
+      "original_text": "通道号",
+      "reason": "차로 수를 통로 번호로 오역"
+    },
+    {
+      "id": "A4687-zh-00262",
+      "text": "施工方法",
+      "original_text": "方法",
+      "reason": "공법을 일반 방법으로 축약"
+    },
+    {
+      "id": "A4687-zh-00265",
+      "text": "车行道",
+      "original_text": "查德威",
+      "reason": "차도를 음역 형태로 훼손"
+    },
+    {
+      "id": "A4687-zh-00268",
+      "text": "下行",
+      "original_text": "向下",
+      "reason": "하행 방향을 물리적 아래쪽으로 직역"
+    },
+    {
+      "id": "A4687-zh-00276",
+      "text": "材质",
+      "original_text": "物料",
+      "reason": "재질을 자재·물량으로 오역"
+    },
+    {
+      "id": "A4687-zh-00281",
+      "text": "避难疏散设备",
+      "original_text": "疏散设备",
+      "reason": "피난·대피설비의 안전기능 명칭 누락"
+    },
+    {
+      "id": "A4687-zh-00282",
+      "text": "灭火活动设备",
+      "original_text": "消防活动设备",
+      "reason": "소화활동설비의 전문 용어 부정확"
+    },
+    {
+      "id": "A4687-zh-00289",
+      "text": "竣工日期",
+      "original_text": "完成日期MTQab988e36dac4b3bb00205结束",
+      "reason": "준공일 표제에 MTQ 잔존 및 번역 오류"
+    },
+    {
+      "id": "A4687-zh-00290",
+      "text": "实施者",
+      "original_text": "执行器",
+      "reason": "시행자를 기계 실행기로 오역"
+    },
+    {
+      "id": "A4687-zh-00292",
+      "text": "设计者",
+      "original_text": "设计器",
+      "reason": "설계자를 장치로 오역"
+    },
+    {
+      "id": "A4687-zh-00293",
+      "text": "监理者",
+      "original_text": "主管",
+      "reason": "감리자를 단순 관리자/主管으로 오역"
+    },
+    {
+      "id": "A4687-zh-00297",
+      "text": "监理费",
+      "original_text": "监督",
+      "reason": "감리비를 감독 행위로 오역"
+    },
+    {
+      "id": "A4687-zh-00299",
+      "text": "2-3. 人行天桥规格",
+      "original_text": "2-3. 过桥规格",
+      "reason": "육교 제원을 모호한 통과교량으로 번역"
+    },
+    {
+      "id": "A4687-zh-00307",
+      "text": "⑦人行天桥名称",
+      "original_text": "⑦立交桥名称",
+      "reason": "육교를 자동차 입체교차로로 오역"
+    },
+    {
+      "id": "A4687-zh-00309",
+      "text": "⑧起点",
+      "original_text": "⑧时间点",
+      "reason": "시점을 시간 지점으로 오역"
+    },
+    {
+      "id": "A4687-zh-00311",
+      "text": "⑩终点",
+      "original_text": "⑩终端",
+      "reason": "종점을 단말로 오역"
+    },
+    {
+      "id": "A4687-zh-00312",
+      "text": "⑪长度",
+      "original_text": "⑪扩展",
+      "reason": "연장을 확장으로 오역"
     }
   ],
-  "note": "Sequential review continued through row 3024 of the road ledger form, covering bridge substructure and road structure fields. Added 23 focused corrections for bridge super/substructure terminology, spacing, abutment, embedment depth, foundation type, expansion joints, road facility labels, length fields, construction dates, and role titles; removed residual MTQ token from completion date. Previous 654 edits retained. Continue at row 3025. IN_PROGRESS.",
+  "note": "Sequential review advanced through row 3089 of road ledger forms, including tunnel specifications and beginning of pedestrian overpass form. Added 23 corrections to tunnel field terminology, condition/length/clearance, carriageway and lane direction, material and fire/evacuation systems, construction completion and professional roles, and pedestrian overpass title/position/length. Previous 677 edits preserved. Continue from row 3090. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
