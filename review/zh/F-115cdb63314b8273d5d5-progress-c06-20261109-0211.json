@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 3410,
+    "verified_zh_rows": 3480,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 3410,
-      "checked_rows": 3410,
+      "next_row_zero_based": 3480,
+      "checked_rows": 3480,
       "total_rows": 5228
     }
   },
@@ -4975,9 +4975,129 @@
       "text": "4-1. 边沟（路沟）、石砌结构、挡土墙、道路挖方边坡及道路填方坡面（填土面）",
       "original_text": "4-1. 路边沟（道路沟渠）、石砌挡土墙、路堤、路堑边坡和路堤面（填土面）",
       "reason": "측구·석축·옹벽·절개면·성토면의 시설 항목을 서로 혼합·누락"
+    },
+    {
+      "id": "A4687-zh-00634",
+      "text": "⑩类别",
+      "original_text": "⑩分类",
+      "reason": "구분 항목을 구체적인 분류 범주로 번역"
+    },
+    {
+      "id": "A4687-zh-00636",
+      "text": "⑫长度",
+      "original_text": "⑫扩展",
+      "reason": "연장을 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00640",
+      "text": "⑦起点",
+      "original_text": "7点",
+      "reason": "시점을 시각으로 오역"
+    },
+    {
+      "id": "A4687-zh-00641",
+      "text": "⑧终点",
+      "original_text": "⑧终端",
+      "reason": "종점을 단말로 오역"
+    },
+    {
+      "id": "A4687-zh-00645",
+      "text": "4-2. 排水涵洞及排水管",
+      "original_text": "4-2. 排水涵洞和排水管",
+      "reason": "배수암거 및 배수관 표제의 용어를 정돈"
+    },
+    {
+      "id": "A4687-zh-00654",
+      "text": "⑪长度",
+      "original_text": "⑪扩展",
+      "reason": "연장을 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00655",
+      "text": "材质",
+      "original_text": "物料",
+      "reason": "재질을 물량·자재로 오역"
+    },
+    {
+      "id": "A4687-zh-00658",
+      "text": "⑧横向",
+      "original_text": "⑧水平",
+      "reason": "가로 치수를 일반 수평으로 모호하게 번역"
+    },
+    {
+      "id": "A4687-zh-00659",
+      "text": "⑨纵向",
+      "original_text": "⑨垂直",
+      "reason": "세로 치수를 수직으로 오역"
+    },
+    {
+      "id": "A4687-zh-00662",
+      "text": "⑬端墙",
+      "original_text": "⑬面墙",
+      "reason": "면벽을 면이 있는 벽으로 오역"
+    },
+    {
+      "id": "A4687-zh-00665",
+      "text": "5. 安全设施调查表",
+      "original_text": "5. 安全设施调查",
+      "reason": "안전시설 조서임을 명확히 표기"
+    },
+    {
+      "id": "A4687-zh-00666",
+      "text": "5-1. 中央分隔带",
+      "original_text": "5-1. 中线障碍物",
+      "reason": "중앙분리대를 중앙선 장애물로 오역"
+    },
+    {
+      "id": "A4687-zh-00674",
+      "text": "⑨类型",
+      "original_text": "⑨型号",
+      "reason": "종류를 모델 번호로 오역"
+    },
+    {
+      "id": "A4687-zh-00675",
+      "text": "⑩长度",
+      "original_text": "⑩扩展",
+      "reason": "연장을 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00681",
+      "text": "⑦起点",
+      "original_text": "7点",
+      "reason": "시점을 시각으로 오역"
+    },
+    {
+      "id": "A4687-zh-00682",
+      "text": "⑧终点",
+      "original_text": "⑧终端",
+      "reason": "종점을 단말로 오역"
+    },
+    {
+      "id": "A4687-zh-00691",
+      "text": "⑩类别",
+      "original_text": "⑩分类",
+      "reason": "구분을 분류 범주로 정돈"
+    },
+    {
+      "id": "A4687-zh-00693",
+      "text": "⑫长度",
+      "original_text": "⑫扩展",
+      "reason": "연장을 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00697",
+      "text": "⑦起点",
+      "original_text": "7点",
+      "reason": "시점을 시각으로 오역"
+    },
+    {
+      "id": "A4687-zh-00698",
+      "text": "⑧终点",
+      "original_text": "⑧终端",
+      "reason": "종점을 단말로 오역"
     }
   ],
-  "note": "Sequential review advanced through row 3409, covering interchange specifications and beginning of geometric structure register (road centerline intersection points, intersections, uphill lanes, longitudinal gradient and stopping bays), plus earthwork/drainage heading. Added 42 targeted corrections for interchange fields, MTQ residue, geometric survey terms (intersection angle, tangent, curve endpoints, central ordinate), lane and gradient, stopping bay and earthwork feature names. Previous 760 edits retained. Continue from row 3410. IN_PROGRESS.",
+  "note": "Sequential review advanced through row 3479, covering earthwork/drainage form labels, drainage culverts/pipes and safety facilities (central median and rockfall prevention). Added 20 targeted corrections for lengths, starting/ending points, material and culvert dimensions, end wall, central median title, facility type/classification and MTQ-free table field consistency. Previous 804 edits retained. Continue from row 3480. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
