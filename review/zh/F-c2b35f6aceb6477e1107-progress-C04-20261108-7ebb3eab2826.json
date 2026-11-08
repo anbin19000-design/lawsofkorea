@@ -1,0 +1,30 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-c2b35f6aceb6477e1107",
+  "worker": "C04",
+  "assignment_marker": "7ebb3eab2826",
+  "status": "IN_PROGRESS",
+  "source_blob_shas": {
+    "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
+    "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
+    "zh": "f8879f4a12299069e4831b03f15a2a2fa30c8089"
+  },
+  "source_document_count": 15,
+  "zh_rows": 1241,
+  "english_reference_rows": 911,
+  "without_english_reference": 330,
+  "prior_edit_count": 204,
+  "added_edit_ids": [
+    "A14114-zh-00042",
+    "A14114-zh-00008",
+    "A14115-zh-00194"
+  ],
+  "total_edit_count": 207,
+  "review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
+  "review_commit": "e997658c3d6e0a13f86d8f944a61c41eec078376",
+  "full_korean_read_verified": false,
+  "full_english_read_verified": false,
+  "full_chinese_review_verified": false,
+  "completion_receipt": false,
+  "note": "3 corrections verified against Korean form source. Existing edits preserved; this progress record is not full reading or full 1241 row verification."
+}
