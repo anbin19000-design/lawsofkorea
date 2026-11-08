@@ -1,0 +1,23 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-c2b35f6aceb6477e1107",
+  "worker": "C04",
+  "assignment_marker": "1b4d2a4deacf",
+  "status": "IN_PROGRESS",
+  "checkpoint_type": "CORRECTION_TO_PREVIOUS_REVIEW",
+  "source_blob_shas": {
+    "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
+    "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
+    "zh": "f8879f4a12299069e4831b03f15a2a2fa30c8089"
+  },
+  "previous_checkpoint": "review/zh/F-c2b35f6aceb6477e1107-progress-C04-20261108-1b4d2a4deacf.json",
+  "corrected_existing_id": "A14111-zh-00054",
+  "incorrect_prior_text": "1) 预处理农产品（经清洗、分拣、去皮及切割等加工后，可直接用于烹饪的农产品）",
+  "correct_text": "1) 预处理水产品（经清洗、分拣及切割等加工后，可直接用于烹饪的食材）",
+  "source_evidence": "3. 수산물 > 다. 전처리수산물 > 1) 전처리수산물(세척, 선별, 절단 등의 가공을 통해 즉시 조리에 이용할 수 있는 형태로 처리된 식재료...)",
+  "edit_count": 215,
+  "review_commit": "0f65de7300f74f48fbb754fb371ef3694b5c0b24",
+  "full_review_verified": false,
+  "complete_receipt": false,
+  "note": "Corrects a substantive error in previous review. This does not add a new unique edit ID. Korean source and unmodified original Chinese both confirm preprocessed seafood/fishery products, not agricultural products."
+}
