@@ -1,0 +1,64 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "B3",
+  "quality_batch": "B3-quality-03",
+  "range": {
+    "first": "B3-zh-00014",
+    "last": "B3-zh-00017"
+  },
+  "quality_checked_rows": 4,
+  "quality_passed_rows": 4,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "B3-zh-00014",
+    "B3-zh-00015",
+    "B3-zh-00016",
+    "B3-zh-00017"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B3-00010-00019.json",
+  "results": [
+    {
+      "id": "B3-zh-00014",
+      "source_hash": "d69123129abc1e06f3cc06571138aea2a6aa471c7c5593e181977655a721f941",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "부칙 제184호(2022.12.27) 및 2023.1.1 시행일이 원문과 일치함."
+    },
+    {
+      "id": "B3-zh-00015",
+      "source_hash": "48d1da8231a4b821113fe612636d1e5e6fe20898283c1df84f85bd47bc40b6e1",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "부칙 제216호(2025.3.25)와 공포 후 1년 경과 시행 요건이 원문과 일치함."
+    },
+    {
+      "id": "B3-zh-00016",
+      "source_hash": "a56f5f77888139fb023eb761d314e0b9fff80e1ec08201fbc30c74ac03a65f0d",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "성평등가족부 직제 시행규칙 부칙 제목과 2025.10.1 제1호 표기가 보존됨."
+    },
+    {
+      "id": "B3-zh-00017",
+      "source_hash": "ce3145e93bda203ec3e87e7bc25e691f9b574a33d33d742afdfdccffb408a741",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "제1조 공포일 시행 및 제2조부터 제5조까지 생략 표기가 원문과 일치함."
+    }
+  ],
+  "edits": [],
+  "note": "B3 14~17 네 행을 한국어 원문과 직접 대조한 신규 품질 판정. 기존 B3 10~13·18~19 및 이전 모든 품질 기록을 변경하지 않음. 전체 1136행 COMPLETE 아님."
+}
