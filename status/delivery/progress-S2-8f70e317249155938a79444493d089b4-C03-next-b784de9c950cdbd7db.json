@@ -1,0 +1,70 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26703",
+  "range": {
+    "first": "A26703-zh-00064",
+    "last": "A26703-zh-00083"
+  },
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "quality_checked_rows": 6,
+  "quality_passed_rows": 6,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "A26703-zh-00064",
+    "A26703-zh-00065",
+    "A26703-zh-00069",
+    "A26703-zh-00070",
+    "A26703-zh-00074",
+    "A26703-zh-00083"
+  ],
+  "results": [
+    {
+      "id": "A26703-zh-00064",
+      "source_hash": "ef1661bfe1d0b773aea1bc51daf1dfa70e9d997454acf123165fd7df67dc959c",
+      "verdict": "PASS_EXISTING",
+      "adopted_text": "申请人",
+      "reason": "신청인 원문과 申请人 일치"
+    },
+    {
+      "id": "A26703-zh-00065",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "verdict": "PASS_EXISTING",
+      "adopted_text": "（签名或印章）",
+      "reason": "(서명 또는 인) 원문과 （签名或印章） 일치"
+    },
+    {
+      "id": "A26703-zh-00069",
+      "source_hash": "7e0e212667f735a4ed33b98de25a804c20bc29714b318cac041768909f463a7d",
+      "verdict": "PASS_EXISTING",
+      "adopted_text": "审查",
+      "reason": "검토 원문과 审查 일치"
+    },
+    {
+      "id": "A26703-zh-00070",
+      "source_hash": "d47c78190a0cedf08a85d48403af80a5b2f63144351a5264cb2614eb90fe6341",
+      "verdict": "PASS_EXISTING",
+      "adopted_text": "批准",
+      "reason": "결재 원문과 批准는 행정 결재 의미에 부합"
+    },
+    {
+      "id": "A26703-zh-00074",
+      "source_hash": "ef1661bfe1d0b773aea1bc51daf1dfa70e9d997454acf123165fd7df67dc959c",
+      "verdict": "PASS_EXISTING",
+      "adopted_text": "申请人",
+      "reason": "신청인 원문과 申请人 일치"
+    },
+    {
+      "id": "A26703-zh-00083",
+      "source_hash": "6a9fd2459313c78ed634682f52734f6a424348a2381255da601ab4f842ec71c4",
+      "verdict": "PASS_EXISTING",
+      "adopted_text": "210mm×297mm[白纸（80g/㎡）或中等厚度纸（80g/㎡）]",
+      "reason": "210㎜×297㎜ 및 종이 재질·평량 수치 대조"
+    }
+  ],
+  "edits": [],
+  "note": "Verified original Korean A26703 form closing fields and flowchart against existing Chinese cells; existing corrections 66-68,71-73,75-82 preserved; row 50/58 prior unresolved holds preserved; not family COMPLETE."
+}
