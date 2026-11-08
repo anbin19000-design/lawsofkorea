@@ -19038,7 +19038,7 @@
     },
     {
       "id": "A11378-zh-00003",
-      "text": "※ 深色栏由申请人填写以外的人员不得填写；请在相应的 [ ] 内打√。",
+      "text": "※ 深色栏无需申请人填写；请在相应的 [ ] 内打√。",
       "source_hash": "28a242330ee6c8f4a3807234c6a4a73300118e4f2ae8d1785c4b65da57469e0b",
       "target_id": "XML:841347",
       "source_progress": "C02 sequential A11378 review against complete Korean Enforcement Rule Form 20-2 request for review of discharge/transfer notification; corrected obvious benefit category, admission type, social support, statutory citations, attachments and process labels. No English document exists."
@@ -19164,7 +19164,7 @@
     },
     {
       "id": "A11378-zh-00036",
-      "text": "（可提供保护义务的人员）",
+      "text": "[ ] 无",
       "source_hash": "4ed8ff4a844632f57bd247a36b72cb9daf0b9c1473d33a70f06e6ec55622d910",
       "target_id": "XML:841380",
       "source_progress": "C02 sequential A11378 review against complete Korean Enforcement Rule Form 20-2 request for review of discharge/transfer notification; corrected obvious benefit category, admission type, social support, statutory citations, attachments and process labels. No English document exists."
@@ -19220,7 +19220,7 @@
     },
     {
       "id": "A11378-zh-00050",
-      "text": "而实施住院等措施的文件",
+      "text": "而因此接受住院等措施的证明文件",
       "source_hash": "97591202b01f0e22fa8f07177bd554c62f128bab3411d83f87480cda78bd4b8b",
       "target_id": "XML:841394",
       "source_progress": "C02 sequential A11378 review against complete Korean Enforcement Rule Form 20-2 request for review of discharge/transfer notification; corrected obvious benefit category, admission type, social support, statutory citations, attachments and process labels. No English document exists."
@@ -21981,7 +21981,8 @@
     "Sequential review completed for A11375 (52 rows). Corrected 20 clear mistranslations/corrupted segments, including MTQ contamination in processing-period label and wrong legal instrument reference; retained all other checked wording. No English document exists.",
     "Sequential review completed for A11376 (77 rows). Corrected 17 obvious mistranslations, including the personal-information inquiry request, statutory citation and police inquiry alternative. Fingerprint-table fragments whose cell mapping was not certain were retained for later contextual QA. No English document exists.",
     "Sequential review completed for A11377 (45 rows). Corrected 17 clear mistranslations, including the dangerous 'release from guardianship' rendering for 퇴원 또는 퇴소, restored the statutory Rule citation and consent language, and corrected the specialist title. All remaining checked wording retained. No English document exists.",
-    "Sequential review completed for A11378 (68 rows). Corrected 32 clear mistranslations/structural fragments including 'medical aid type' wrongly rendered as salary, admission categories, applicant and process labels, statutory citation, and split supporting-document text. Other checked fragments retained where source segmentation is structural. No English document exists."
+    "Sequential review completed for A11378 (68 rows). Corrected 32 clear mistranslations/structural fragments including 'medical aid type' wrongly rendered as salary, admission categories, applicant and process labels, statutory citation, and split supporting-document text. Other checked fragments retained where source segmentation is structural. No English document exists.",
+    "细化A11378分栏校正：深色栏说明明确为申请人无需填写；社会支持相关项目的否定选项保留为[ ]无，未扩写分栏含义。"
   ],
   "checkpoint_id": "C02-20261109-A11378-CHECKED",
   "checkpoint_status": "IN_PROGRESS",
