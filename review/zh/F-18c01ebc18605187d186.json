@@ -4552,7 +4552,7 @@
   "ordered_reading_certification": {
     "korean": "READ_COMPLETE_ALL_65_DOCUMENTS",
     "english": "READ_COMPLETE_AVAILABLE_SOURCES_B1_AND_B2_FALLBACK",
-    "chinese": "IN_PROGRESS; B1 complete; B2 through row 105; A30229 1-212; A30230 1-29; A30231 1-136; A30232 1-18; A30233 1-142; B3 rows 1-123 complete; A11335 rows 1-593 complete; A11336-A11391 pending"
+    "chinese": "IN_PROGRESS; B1 complete; B2 through row 105; A30229 1-212; A30230 1-29; A30231 1-136; A30232 1-18; A30233 1-142; B3 rows 1-123 complete; A11335 rows 1-593 complete; A11336 rows 1-80 reviewed; A11337-A11391 pending"
   },
   "checked_unique_ids": [
     "B1-zh-00001",
@@ -6241,7 +6241,7 @@
     "C02 completed the sequential Chinese review of all 593 rows in A11335 against the Korean training-course schedule. Corrected the consistent mistranslation of occupational therapy (작업치료) from 职业治疗/职业疗法 to 作业治疗 in the occupational-therapist section, plus clear subtotal, practical-training and class-II grade errors. Hour totals and all other table entries were retained where accurate. This ministry-rule annex has no English source. Resume with A11336; the family remains IN_PROGRESS.",
     "C02 began A11336 (Ministry Rule Schedule 1-2, designation cancellation criteria), reviewing rows 1-80 against the Korean original. Repaired major machine-translation corruption including START/END artifacts, malformed article references, reversed sanction sequence, training-course non-operation, failure to meet designation requirements, inadequate evaluation results, fraudulent designation, voluntary cancellation, noncompliance with corrective orders, and violence/qualification revocation grounds. The remaining cells of the schedule continue in sequence. No English source exists for this ministry-rule annex. Resume at row 81; family remains IN_PROGRESS."
   ],
-  "checkpoint_id": "C02-20261109-A11335-COMPLETE",
+  "checkpoint_id": "C02-20261109-A11336-001-080",
   "checkpoint_status": "IN_PROGRESS",
-  "checkpoint_note": "A11335 rows 1-593 now checked. Resume at A11336; family still has A11336-A11391 and B2 remaining."
+  "checkpoint_note": "A11335 complete. A11336 rows 1-80 reviewed and major legal machine translation corruption corrected. Resume at A11336 row 81."
 }
