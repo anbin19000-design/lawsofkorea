@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 3815,
+    "verified_zh_rows": 3883,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 3815,
-      "checked_rows": 3815,
+      "next_row_zero_based": 3883,
+      "checked_rows": 3883,
       "total_rows": 5228
     }
   },
@@ -5779,9 +5779,261 @@
       "text": "⑪剩余面积",
       "original_text": "⑪剩余区域",
       "reason": "잔여면적을 잔여 구역으로 오역"
+    },
+    {
+      "id": "A4687-zh-00993",
+      "text": "⑯备注",
+      "original_text": "时间",
+      "reason": "비고 항목을 시간으로 오역"
+    },
+    {
+      "id": "A4687-zh-00994",
+      "text": "组成设施类别",
+      "original_text": "部分",
+      "reason": "구성시설별 구분 표제를 불완전하게 번역"
+    },
+    {
+      "id": "A4687-zh-00995",
+      "text": "⑪左侧",
+      "original_text": "⑪左",
+      "reason": "좌측 항목을 불완전 표기"
+    },
+    {
+      "id": "A4687-zh-00996",
+      "text": "⑫右侧",
+      "original_text": "MTQ7672a3a8f971aa7500806开始 ⑫U",
+      "reason": "우측 항목에 MTQ 잔존 및 미번역"
+    },
+    {
+      "id": "A4687-zh-01011",
+      "text": "7-3. 收费公路",
+      "original_text": "7-3. 收费公路",
+      "reason": "유료도로 표제 유지"
+    },
+    {
+      "id": "A4687-zh-01019",
+      "text": "⑩长度",
+      "original_text": "扩展",
+      "reason": "연장을 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-01020",
+      "text": "收费期限",
+      "original_text": "Fee 收款期",
+      "reason": "요금징수기간을 영어 혼용·부정확 표현으로 표기"
+    },
+    {
+      "id": "A4687-zh-01021",
+      "text": "收费项目/收费标准",
+      "original_text": "?费用收取",
+      "reason": "요금징수 항목을 불완전 번역"
+    },
+    {
+      "id": "A4687-zh-01022",
+      "text": "收费设施数量",
+      "original_text": "?收费公路",
+      "reason": "유료도로 시설 수를 유료도로로 오역"
+    },
+    {
+      "id": "A4687-zh-01023",
+      "text": "收费依据",
+      "original_text": "？备注",
+      "reason": "설치 근거를 비고로 오역"
+    },
+    {
+      "id": "A4687-zh-01045",
+      "text": "开始",
+      "original_text": "启动",
+      "reason": "시작을 시동으로 오역"
+    },
+    {
+      "id": "A4687-zh-01046",
+      "text": "结束",
+      "original_text": "终止MTQ1422909627e6dcf800416结束",
+      "reason": "종료 항목에 MTQ 식별자 잔존"
+    },
+    {
+      "id": "A4687-zh-01047",
+      "text": "7-4. 绕行道路",
+      "original_text": "7-4. 绕过",
+      "reason": "우회도로를 우회 행위로 오역"
+    },
+    {
+      "id": "A4687-zh-01056",
+      "text": "⑨绕行道路类型",
+      "original_text": "⑨绕过",
+      "reason": "우회도로 종류 항목의 의미 누락"
+    },
+    {
+      "id": "A4687-zh-01057",
+      "text": "⑩宽度",
+      "original_text": "⑩绕行",
+      "reason": "폭원을 우회로 오역"
+    },
+    {
+      "id": "A4687-zh-01058",
+      "text": "⑪长度",
+      "original_text": "⑪绕行道路",
+      "reason": "연장을 우회도로로 오역"
+    },
+    {
+      "id": "A4687-zh-01059",
+      "text": "⑫主要经过地点",
+      "original_text": "⑫主要段落点",
+      "reason": "주요 통과지를 주요 문단 지점으로 오역"
+    },
+    {
+      "id": "A4687-zh-01060",
+      "text": "⑬指定日期",
+      "original_text": "⑬指定日期",
+      "reason": "지정일 항목을 유지"
+    },
+    {
+      "id": "A4687-zh-01064",
+      "text": "⑦起点",
+      "original_text": "7点",
+      "reason": "시점을 숫자 7로 오역"
+    },
+    {
+      "id": "A4687-zh-01065",
+      "text": "⑧终点",
+      "original_text": "⑧终端",
+      "reason": "종점을 단말로 오역"
+    },
+    {
+      "id": "A4687-zh-01066",
+      "text": "7-5. 路侧区域（接道区域）",
+      "original_text": "7-5. 路边区域",
+      "reason": "접도구역의 법률상 개념을 단순 도로변 지역으로 축소"
+    },
+    {
+      "id": "A4687-zh-01074",
+      "text": "⑨接道区域长度",
+      "original_text": "⑨路边区域扩展",
+      "reason": "접도구역의 연장을 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-01075",
+      "text": "界桩设置情况",
+      "original_text": "标准状态",
+      "reason": "푯대 현황을 표준 상태로 오역"
+    },
+    {
+      "id": "A4687-zh-01078",
+      "text": "⑦起点",
+      "original_text": "7点",
+      "reason": "시점을 숫자 7로 오역"
+    },
+    {
+      "id": "A4687-zh-01079",
+      "text": "⑧终点",
+      "original_text": "⑧终端",
+      "reason": "종점을 단말로 오역"
+    },
+    {
+      "id": "A4687-zh-01081",
+      "text": "7-6. 道路占用",
+      "original_text": "7-6. 道路占用",
+      "reason": "도로점용 표제 유지"
+    },
+    {
+      "id": "A4687-zh-01089",
+      "text": "⑩许可日期（许可证编号）",
+      "original_text": "⑩权限日期",
+      "reason": "허가일을 권한 날짜로 오역"
+    },
+    {
+      "id": "A4687-zh-01090",
+      "text": "⑪占用地点",
+      "original_text": "⑪占有",
+      "reason": "점용 위치를 소유·점유 행위로 오역"
+    },
+    {
+      "id": "A4687-zh-01091",
+      "text": "⑫占用目的",
+      "original_text": "⑫放置",
+      "reason": "점용 목적을 놓기/배치로 오역"
+    },
+    {
+      "id": "A4687-zh-01092",
+      "text": "⑬占用面积",
+      "original_text": "⑬拥有",
+      "reason": "점용 면적을 소유로 오역"
+    },
+    {
+      "id": "A4687-zh-01093",
+      "text": "⑭占用期限",
+      "original_text": "⑭占有",
+      "reason": "점용 기간을 점유 행위로 오역"
+    },
+    {
+      "id": "A4687-zh-01094",
+      "text": "⑮占用设施概要",
+      "original_text": "⑮占有",
+      "reason": "점용시설 개요를 점유로 오역"
+    },
+    {
+      "id": "A4687-zh-01095",
+      "text": "⑯备注",
+      "original_text": "？备注",
+      "reason": "불필요한 물음표 및 항 번호 누락"
+    },
+    {
+      "id": "A4687-zh-01096",
+      "text": "（许可证编号）",
+      "original_text": "(许可证编号)",
+      "reason": "허가번호 표기를 정돈"
+    },
+    {
+      "id": "A4687-zh-01097",
+      "text": "占用地点",
+      "original_text": "位置",
+      "reason": "점용 위치 표제를 명확히 함"
+    },
+    {
+      "id": "A4687-zh-01098",
+      "text": "占用目的",
+      "original_text": "用途",
+      "reason": "점용 목적을 법령용어로 명확히 함"
+    },
+    {
+      "id": "A4687-zh-01099",
+      "text": "占用面积",
+      "original_text": "区域",
+      "reason": "점용 면적을 일반 구역으로 오역"
+    },
+    {
+      "id": "A4687-zh-01100",
+      "text": "占用期限",
+      "original_text": "周期",
+      "reason": "점용 기간을 주기로 오역"
+    },
+    {
+      "id": "A4687-zh-01101",
+      "text": "占用设施概要",
+      "original_text": "设施",
+      "reason": "점용시설 개요를 시설 일반명으로 축소"
+    },
+    {
+      "id": "A4687-zh-01102",
+      "text": "⑦地址",
+      "original_text": "⑦地址",
+      "reason": "주소 표기를 유지"
+    },
+    {
+      "id": "A4687-zh-01103",
+      "text": "⑧姓名",
+      "original_text": "⑧名称",
+      "reason": "성명을 일반 명칭으로 오역"
+    },
+    {
+      "id": "A4687-zh-01104",
+      "text": "⑨出生日期",
+      "original_text": "⑨出生日期",
+      "reason": "생년월일 표기를 유지"
     }
   ],
-  "note": "Sequential review advanced through row 3814, covering emergency braking facilities, speed humps, drowsy-driver rest areas and road register actual-length/road-zone tables. Added 48 targeted corrections for facility lengths/types/gradients, speed hump, rest area parking and bus-stop labels, actual road length, width breakdown and component lengths, lot number, land category and remaining area. Previous 890 edits retained. Continue from row 3815. IN_PROGRESS.",
+  "note": "Sequential review advanced through row 3882, completing road ledger A4687 (all 20 pages). Added 50 focused corrections for component length breakdown, ownership/land category, paid-road toll period/collection basis and MTQ residue, bypass road fields, roadside zone boundary marker status, and road occupation license fields. Previous 938 edits retained. Continue at row 3883 with A4688 (Road Traffic Act Enforcement Rule form annex) and remaining documents. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
