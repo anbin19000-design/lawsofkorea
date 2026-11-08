@@ -1,0 +1,21 @@
+{
+  "schema": "LAW_ZH_RECONCILE_V1",
+  "job_id": "F-eb24b26e08a83be58f81",
+  "assignment_id": "S2-e811a729740fea81282fc5378ec284d9",
+  "worker": "C01",
+  "branch": "main",
+  "status": "RECONCILED",
+  "row_id": "A39352-zh-00058",
+  "source_hash": "98f8be0a337b9ed8b3bff7ebe1c08b8f9015af7092ca01576d33b5ab71a45286",
+  "source_blob_sha": {
+    "ko": "f0d6fbd2ef344c2fcc23f9c68a9e5dfbb3ed196a",
+    "zh": "0ab0bdb3db18772f9e4cb45b0e179805f0df3940"
+  },
+  "candidate_files": [
+    "status/delivery/progress-S2-e811a729740fea81282fc5378ec284d9-C01-A39352-00028-00082.json",
+    "status/delivery/progress-S2-e811a729740fea81282fc5378ec284d9-C01-A39352-00056-00082.json",
+    "status/delivery/progress-S2-e811a729740fea81282fc5378ec284d9-C01-A39352-00028-00055.json"
+  ],
+  "text": "法第82条第2款第2项",
+  "note": "Original Korean annex 2 table (split text fragments): 법 제82조제2항제2호. Reconciled against corresponding adjacent rows and article references. No new unique checked row, family IN_PROGRESS."
+}
