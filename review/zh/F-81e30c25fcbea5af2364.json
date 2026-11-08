@@ -2854,9 +2854,54 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-2dec0ecc0be6.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
       "reason": "Correct 부칙 label."
+    },
+    {
+      "id": "B2-zh-00143",
+      "text": "附则（《住宅法施行令》）<第27444号，2016年8月11日>\n\n",
+      "source_hash": "115cfb3954817797324215b2be6f5b05fb5bc12064e0d6d905373e5655d63485",
+      "target_id": "ffd791d1cba936c5c63167fc52baa7e7bee70aa21d4f9ea007e11d46acb7ebb1",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-2dec0ecc0be6-b.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Correct 부칙 label and 주택법 시행령 title."
+    },
+    {
+      "id": "B2-zh-00147",
+      "text": "附则（《行政安全部及其所属机关职制》）<第28211号，2017年7月26日>\n\n",
+      "source_hash": "2229ee61688f381fa8791a317dce02e692966c0fc8dfff0224bc44e3cd9315a8",
+      "target_id": "e0df10c86d9d8a099fc8d69c51c4056ec895899f62e6d36b89a21cb8ceaa7992",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-2dec0ecc0be6-b.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Correct 부칙 label and administrative organization decree title."
+    },
+    {
+      "id": "B2-zh-00150",
+      "text": "附则 <第28326号，2017年9月19日>\n\n",
+      "source_hash": "f32bd9c6cef304a1b7527b86e61462578b23b0aa3f83ed57cd173aba15dbc985",
+      "target_id": "5914acd2d76fab0d04351992a11264913abd51cd756652804489e74e2de72b0a",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-2dec0ecc0be6-b.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Correct 부칙 label."
+    },
+    {
+      "id": "B2-zh-00157",
+      "text": "附则（《民间租赁住宅特别法施行令》）<第29045号，2018年7月16日>\n\n",
+      "source_hash": "55d5f7d59cd38cbd02541dc199122e201ee9f01a206eea3e6a2ad0ee1f1b8055",
+      "target_id": "444c8b78e0d143995b51ea6bcd3aa7bd35ee78705d5782565da718fd5b881bbc",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-2dec0ecc0be6-b.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Correct 부칙 label and 민간임대주택 시행령 name."
+    },
+    {
+      "id": "B2-zh-00160",
+      "text": "附则 <第29516号，2019年2月8日>\n\n本施行令自2019年2月15日起施行。\n\n",
+      "source_hash": "7e699a386d607f9fa629647ada486395b372e96c9e2f3451142dedf5122b2b33",
+      "target_id": "86be3c5ee9f748e61902bef3df383493b254bfafde6fc98e3ce1db6389dd57f9",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-2dec0ecc0be6-b.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Correct supplementary provision label and identify decree effective date."
     }
   ],
-  "adjudicated_edit_count": 295,
+  "adjudicated_edit_count": 300,
   "pending_single_candidate_count": 343,
   "pending_conflict_count": 0,
   "pending_single_candidates": [
@@ -8066,12 +8111,13 @@
     "2026-11-08 C02 continuation: corrected B2 rows 00101, 00103, 00105 and 00106 in 2010 supplementary amendments; restored omitted amendment item numbers and corrected supplementary-provision labels and Decree titles. Rows 00100, 00102 and 00104 compared and retained.",
     "2026-11-08 C02 continuation: corrected B2 rows 00108, 00109, 00110 and 00112 in 2010-2012 historical supplementary amendments; corrected Decree titles, 附则 label, item <52> marker and city/county basic plan terminology. Rows 00107 and 00111 compared and retained.",
     "2026-11-08 C02 continuation 6330608994de: verified Korean-source B2 rows 00114-00116, 00118; corrected three supplement headings/effective-date terms; retained 00116. No COMPLETE certification.",
-    "2026-11-08 C02 2dec0ecc0be6: retained original source blobs; corrected B2 00122/00126/00133/00140 after Korean source comparison; retained previously checked accurate rows; whole-family status IN_PROGRESS."
+    "2026-11-08 C02 2dec0ecc0be6: retained original source blobs; corrected B2 00122/00126/00133/00140 after Korean source comparison; retained previously checked accurate rows; whole-family status IN_PROGRESS.",
+    "C02 2dec0ecc0be6 additional pass: five corrections to B2 historical decree supplementary provisions through 2019; still IN_PROGRESS, ordered reading not certified."
   ],
   "integration_progress": {
-    "stage": "B2_2013_TO_2016_SUPPLEMENTARY_PROVISIONS_PARTIAL_RECONCILIATION",
+    "stage": "B2_2016_TO_2019_SUPPLEMENTARY_RECONCILIATION",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:2dec0ecc0be6",
-    "note": "Source comparison for B2 00117-00140 (prior edits preserved). Four new minimal corrections. Sequential full-family read remains unverified; B2 00134 and other long provisions require further checking."
+    "note": "2016-2019 B2 supplementary provisions: five new corrections; previously recorded edits preserved, remaining provisions unverified."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -8507,7 +8553,15 @@
     "B2-zh-00131",
     "B2-zh-00136",
     "B2-zh-00137",
-    "B2-zh-00139"
+    "B2-zh-00139",
+    "B2-zh-00141",
+    "B2-zh-00142",
+    "B2-zh-00144",
+    "B2-zh-00146",
+    "B2-zh-00151",
+    "B2-zh-00154",
+    "B2-zh-00156",
+    "B2-zh-00158"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
