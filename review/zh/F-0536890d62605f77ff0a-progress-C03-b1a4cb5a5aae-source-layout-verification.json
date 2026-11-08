@@ -1,0 +1,45 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:b1a4cb5a5aae",
+  "status": "IN_PROGRESS",
+  "phase": "SOURCE_LAYOUT_ANOMALY_VERIFICATION",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_en_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "review_blob_sha": "a65c3563594ddd1377a0e4e85643f61f8fbf6cef",
+  "reviewed_existing_edit_count": 782,
+  "checked_rows": 0,
+  "edits": [],
+  "anomaly_checks": [
+    {
+      "id": "A39474-zh-00040",
+      "source_text": ".",
+      "context": "Korean annex 1 region consultation room 2) 나) confidentiality and 다) communication support; current Chinese rows 39 and 41 already carry these meanings, 41/42 corrected in canonical edits.",
+      "decision": "HOLD_SOURCE_LAYOUT_TOKEN",
+      "reason": "Standalone punctuation has no independent Korean proposition; do not fabricate a translation or erase source until row/token alignment confirmed."
+    },
+    {
+      "id": "A26699-zh-00053",
+      "source_text": "按需。",
+      "context": "Korean form 7 government-record verification consent sentence wraps at ending '합니' then '다.'; Chinese rows 51/52 are already consolidated in canonical edits.",
+      "decision": "HOLD_SOURCE_LAYOUT_TOKEN",
+      "reason": "Unaligned line-break tail; preserve row and existing corrections pending original target alignment."
+    },
+    {
+      "id": "A26697-zh-00008",
+      "source_text": "金",
+      "context": "Korean form 5 photo label '사진', photo size 3.5cm x 4.5cm; Chinese row 7 already says 照片 and row 8 cannot be reliably anchored to a separate source label.",
+      "decision": "HOLD_SOURCE_LAYOUT_TOKEN",
+      "reason": "Likely OCR or segmentation artifact; source alignment inconclusive."
+    }
+  ],
+  "verification": {
+    "full_korean_read": false,
+    "full_english_read": false,
+    "full_chinese_semantic_review": false,
+    "complete_receipt_authorized": false
+  },
+  "next_action": "Continue sequential full language-by-language read and semantic verification for all 22 documents. Canonical review retained untouched; no COMPLETE receipt."
+}
