@@ -1,0 +1,48 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "panel_id": "panel-01",
+  "assignment_id": "S2-c174f0e36bef5fedb717095f1cea01f6",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:af35a2a3229e]",
+  "status": "IN_PROGRESS",
+  "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
+  "source_sha": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "official_review_blob": "8cd38d4f4c22d69a2c64c987bcf575cf2c593893",
+  "checked_rows": 394,
+  "unique_edits": 304,
+  "reviewed_sequentially": [
+    "B1-zh-00089..B1-zh-00103",
+    "B2-zh-00001..B2-zh-00057",
+    "A38090-zh-00001..A38090-zh-00039",
+    "A38091-zh-00001..A38091-zh-00119",
+    "B3-zh-00001..B3-zh-00076"
+  ],
+  "english_status": "Exact-version English is available and was read for B1, B2, and decree annexes A38090/A38091. No independent English document for B3 and related rule annexes/forms; Korean-Chinese comparison is required.",
+  "critical_finding": "B3-zh-00076 source Korean cell contains only the 2026 addendum and effective date; the Chinese cell contained an unrelated annex 1 full text. Removed the spillover and retained the addendum only.",
+  "corrections_added_or_refined": [
+    "B3-zh-00016 trade between origin intermediaries statutory grounds and notification",
+    "B3-zh-00017 auction/trade methods and contractual shipment",
+    "B3-zh-00019 settlement statement and shipment party",
+    "B3-zh-00020 commission and brokerage fee definitions",
+    "B3-zh-00025 orders and consultation",
+    "B3-zh-00026 not exceeding standard for repeat evaluation",
+    "B3-zh-00027 eligible traceability products and registration data",
+    "B3-zh-00028 registration procedure and authority",
+    "B3-zh-00040 import recommendation items",
+    "B3-zh-00042 industrial standard and grading specifications",
+    "B3-zh-00043 standard product labels",
+    "B3-zh-00053 other-law amendment direction",
+    "B3-zh-00076 removed unrelated annex spillover"
+  ],
+  "unresolved": [
+    "A38090-zh-00012 punctuation-only cell needs XML verification.",
+    "Full XML cell alignment for all remaining annexes and forms pending."
+  ],
+  "next_position": "A23947-zh-00001",
+  "note": "B3 rows 1-76 reviewed sequentially against Korean source. Existing edits preserved. Original package SHA unchanged. Family remains IN_PROGRESS; annexes A23947-A23950 and forms A23951-A23957 remain."
+}
