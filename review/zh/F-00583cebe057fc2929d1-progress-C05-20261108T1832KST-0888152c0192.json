@@ -1,0 +1,175 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "family": "실용신안법",
+  "worker": "C05",
+  "assignment_marker": "[WORK-TASK:C05:F-00583cebe057fc2929d1:0888152c0192]",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "3bf43588054bebf342f045079ebcfddbc01d195e",
+  "review_commit": "f65db35fdf006a8fb51ed59d173bd8d38bf1810d",
+  "previous_progress": "review/zh/F-00583cebe057fc2929d1-progress-C05-20261108T1832KST-3aa2e3d4e568-v2.json",
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "correction_count": 179,
+  "new_corrections": [
+    {
+      "id": "A29604-zh-00008",
+      "source_hash": "6070dfe578e6cb05152d36b7d0c004090f5f159047afc12aef685e555c5e5efe",
+      "decision": "CORRECT",
+      "reason": "韩文 별표 一般基准 나项，既存 a 标识误译，改为 b。"
+    },
+    {
+      "id": "A29604-zh-00022",
+      "source_hash": "eb41fdcc56f30b7a1a6e203accd45307886d890b5c9abbd28d40239c4f214b06",
+      "decision": "CORRECT",
+      "reason": "원문 '제2호에 따른 과태료 금액의 2분의 1의 범위에서 늘릴 수 있다. 다만, 법 제52조제1항'；原译《法案》及基准对象错误。"
+    },
+    {
+      "id": "A29604-zh-00029",
+      "source_hash": "1d6f6bce78138ea58d3cc062dbce45c849d57266d25052a404c84318174a0c95",
+      "decision": "CORRECT",
+      "reason": "원문 개별기준 为各项具体标准，非一个单独标准。"
+    },
+    {
+      "id": "A29604-zh-00045",
+      "source_hash": "c63e98b59661561e94b5706605e63002de4125d4f839e76605df4ab3da0ba40d",
+      "decision": "CORRECT",
+      "reason": "原文 '특허심판원으로부터 증거조사 또는 증거보전에 관하여'；原译误将机关认作审判和上诉委员会。"
+    },
+    {
+      "id": "A29604-zh-00050",
+      "source_hash": "a5f502fea4480f1cd46f58e0a516e4ba4c6d86769463a6e4a01101e8014902a0",
+      "decision": "CORRECT",
+      "reason": "原文 '서류나 그 밖의 물품의 제출 또는 제시의 명령을 받은 자'，不能遗漏出示命令。"
+    },
+    {
+      "id": "A29604-zh-00051",
+      "source_hash": "421c7b60ad5cdc158d4503f2c2f520686960bc9505e644ca4e1c8cbe6042bb3e",
+      "decision": "CORRECT",
+      "reason": "법 제52조 제1항제2호；罚款法律依据的款项数字误译。"
+    },
+    {
+      "id": "A29604-zh-00054",
+      "source_hash": "49b512187b831f54422a995a3b6faaa17b6d0b7ed0fe59f41b785d74ec460c5d",
+      "decision": "CORRECT",
+      "reason": "원문 '다. 특허심판원으로부터 증인ㆍ감정인 또는 통역인으로 소환된 자'；原译机构和对象关系不符，恢复项目编号。"
+    },
+    {
+      "id": "A29604-zh-00060",
+      "source_hash": "8d622ea97bbd8322668382b2b126fdf273ae06442beffba957bba639878c2740",
+      "decision": "CORRECT",
+      "reason": "법 제52조제1항제3호；法律依据项号误译。"
+    },
+    {
+      "id": "A29604-zh-00062",
+      "source_hash": "5a33c15c73b00e0457c377aac6aaa24b6d3d5ee2fbebab1c1cac0720a5daaa19",
+      "decision": "CORRECT",
+      "reason": "原文 '선서ㆍ진술ㆍ증언ㆍ감정 또는 통역을 거부'；原译口译误作解释。"
+    }
+  ],
+  "pending_rows_from_previous_review": 89,
+  "source_english_note": "B1/B2 official exact-version; B3/forms only 2010 fallback, not exact current version; decree also has AI draft.",
+  "blockers": [
+    {
+      "id": "B2-zh-00081",
+      "status": "SOURCE_MAPPING_REVIEW_REQUIRED",
+      "note": "B2 KO length 17073; row start 16647 end 18445 crosses source boundary; zh includes material labelled annex. No speculative replacement."
+    },
+    {
+      "doc": "A29604",
+      "status": "ANNEX_ALIGNMENT_REQUIRED",
+      "note": "ANNEX rows lack start/end offsets; compare entire original annex against target rows before final judgment."
+    },
+    {
+      "id": "B3-zh-00117",
+      "status": "SOURCE_MAPPING_REVIEW_REQUIRED",
+      "note": "B3 KO source ends at 23873, row end 25597 and text contains next annex/form; original unchanged."
+    },
+    {
+      "doc": "A8690",
+      "status": "FORM_ALIGNMENT_REQUIRED",
+      "note": "509 form rows have null source offsets; original KO form 41859 chars. Align sections/text before full verification."
+    },
+    {
+      "doc": "A8693",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED",
+      "note": "Japanese-language certificate source contains '?', target contains broken hybrid Japanese/Chinese. Requires source text repair before definitive translation.",
+      "ids": [
+        "A8693-zh-00002",
+        "A8693-zh-00008",
+        "A8693-zh-00009",
+        "A8693-zh-00011",
+        "A8693-zh-00012",
+        "A8693-zh-00013"
+      ]
+    },
+    {
+      "doc": "A8698",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED",
+      "ids": [
+        "A8698-zh-00002",
+        "A8698-zh-00003",
+        "A8698-zh-00015",
+        "A8698-zh-00016",
+        "A8698-zh-00018",
+        "A8698-zh-00019",
+        "A8698-zh-00020"
+      ],
+      "note": "Chinese-language certificate source itself contains corrupted ? symbols and unreadable text; no reconstruction without verified source."
+    },
+    {
+      "doc": "A8699",
+      "status": "SOURCE_CONTENT_MISSING",
+      "note": "Arabic certificate KO extracted text only contains paper dimensions and anti-counterfeit note; body cannot be compared."
+    },
+    {
+      "doc": "A8703",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED",
+      "ids": [
+        "A8703-zh-00002",
+        "A8703-zh-00003",
+        "A8703-zh-00009",
+        "A8703-zh-00010",
+        "A8703-zh-00011",
+        "A8703-zh-00012",
+        "A8703-zh-00013",
+        "A8703-zh-00014"
+      ],
+      "note": "Portable Japanese form source garbled, retain original and flag."
+    },
+    {
+      "doc": "A8708",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED",
+      "ids": [
+        "A8708-zh-00003",
+        "A8708-zh-00004",
+        "A8708-zh-00016",
+        "A8708-zh-00017",
+        "A8708-zh-00019",
+        "A8708-zh-00020",
+        "A8708-zh-00021"
+      ],
+      "note": "Portable Chinese certificate source garbled; no speculative replacement."
+    },
+    {
+      "doc": "A8709",
+      "status": "SOURCE_CONTENT_MISSING",
+      "note": "Arabic portable certificate body absent in KO text extraction; only margin/note text available."
+    },
+    {
+      "id": "A8690-zh-00499",
+      "status": "SOURCE_TEXT_FRAGMENT_REVIEW_REQUIRED",
+      "note": "JPEG organization name split across A8690 rows 498-499; preserve original until source alignment."
+    }
+  ],
+  "notes": "원문과 검수본 GitHub SHA 재검증, 기존 검수 170건 유지+신규 9건. 현재 독해 순서 전체 완료를 증명하는 별도 기록 없어 COMPLETE 금지. 기존 pending 판정 감소 주장하지 않음. 완료 영수증 미발행."
+}
