@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 172,
+    "correction_count": 181,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -1229,6 +1229,69 @@
       "original": "d) 其他必要费用",
       "corrected": "라) 其他必要费用",
       "reason": "영업개시 이전 부담 가목4)라)의 목번호 오류."
+    },
+    "A34909-zh-00155": {
+      "doc": "A34909",
+      "source_hash": "a776533f873b9a5d91705c226e5dd17f4d6abf1324ecbaa2344cdc47537d8013",
+      "original": "5) 实体选择加盟店位置和选择标准",
+      "corrected": "5) 加盟店选址主体及选择标准",
+      "reason": "가맹점 입지 선정 주체를 ‘实体选择’로 잘못 번역한 의미 오류."
+    },
+    "A34909-zh-00159": {
+      "doc": "A34909",
+      "source_hash": "5bc916074a2f2a178ce832ae410eb757197999fa84ed1e12783d247458f68023",
+      "original": "B. 运营期间的负担",
+      "corrected": "나. 运营期间的负担",
+      "reason": "영업 중의 부담 나목을 영문 B로 잘못 표기."
+    },
+    "A34909-zh-00173": {
+      "doc": "A34909",
+      "source_hash": "32c48ef320838c7cfc0b790fa8e9829a946ec9eb4b59164b2a061a7a87d60025",
+      "original": "a) 上一财政年度每位加盟商的平均特许经营费差额支付金额 [上一财政年度运营期间 ]",
+      "corrected": "가) 上一财政年度每位加盟商的平均特许经营费差额支付金额 [上一财政年度运营期间 ]",
+      "reason": "차액가맹금 계산의 가)목 번호가 영문 a로 변경됨."
+    },
+    "A34909-zh-00177": {
+      "doc": "A34909",
+      "source_hash": "17392e52465aa954ae43679cae2f6295369b1294c26b881947c475837d20105d",
+      "original": "b) 特许经营费差额支付金额与上一财政年度每位加盟商销售收入的比率 [上一财政年度",
+      "corrected": "나) 特许经营费差额支付金额与上一财政年度每位加盟商销售收入的比率 [上一财政年度",
+      "reason": "차액가맹금 계산의 나)목 번호가 영문 b로 변경됨."
+    },
+    "A34909-zh-00181": {
+      "doc": "A34909",
+      "source_hash": "b0c3340c913925628e2dc065d2f8d2c3fc2c7ad13d9837da05cc4ada80bbd4bf",
+      "original": ". 合同终止后的义务（如无义务，请说明）",
+      "corrected": "다. 合同终止后的义务（如无义务，请说明）",
+      "reason": "계약 종료 후 부담 다목 번호가 누락됨."
+    },
+    "A34909-zh-00185": {
+      "doc": "A34909",
+      "source_hash": "3f2fac6066e67bf20932abe7ff1695968d1affe033b06524ce1cae3c64398ab5",
+      "original": "a) 如果特许人将特许经营业务转让给另一经营者，现有加盟商",
+      "corrected": "가) 如果特许人将特许经营业务转让给另一经营者，现有加盟商",
+      "reason": "계약 종료 관련 가)목 번호 오역."
+    },
+    "A34909-zh-00187": {
+      "doc": "A34909",
+      "source_hash": "18d4e7c531cb7d37b138cda9d38d86a3ef4d8e8f0e1951acc3a116767bcee528",
+      "original": "b) 特许人获准使用的知识产权有效期届满时应采取的措施",
+      "corrected": "나) 特许人获准使用的知识产权有效期届满时应采取的措施",
+      "reason": "계약 종료 관련 나)목 번호 오역."
+    },
+    "A34909-zh-00188": {
+      "doc": "A34909",
+      "source_hash": "44b3eb99dc10e644ef09d48dcb41cd799a2609ecaf19bfa000339b3892b85d32",
+      "original": "d) 特许人终止相关特许经营业务时应采取的措施",
+      "corrected": "다) 特许人终止相关特许经营业务时应采取的措施",
+      "reason": "계약 종료 관련 다)목 번호 오역."
+    },
+    "A34909-zh-00194": {
+      "doc": "A34909",
+      "source_hash": "c28a66c2ef751593cc1d6015a52fba2581fbd7a21008e59bc7b4d1766114f651",
+      "original": "a. 加盟商开展或经营相关加盟业务所需的所有房地产 ·",
+      "corrected": "가. 加盟商开展或经营相关加盟业务所需的所有房地产 ·",
+      "reason": "영업활동 조건 제6호 가목 번호 오역."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -1284,7 +1347,8 @@
     "C05 0ecaf31c3202 continuation: B2 rows 153-190 sequential supplementary inspection; source-grounded correction of Korean annex subitem letters and legal paragraph/number distinctions, six corrections. Annex spillover in B2-zh-00190 retained in existing correction. No family completion certification.",
     "C05 00d89ac6886f: A34909 first section inspected against full annex Korean text. Seven displaced or lost subitem identifiers repaired (가/나/다/라/마/바 and subsequent 나). Existing corrections preserved; no full semantic certification.",
     "C05 00d89ac6886f continuation: A34909 rows 58-101 matched against full Korean Annex 1 heading sequence; 14 displaced/mistranslated Korean item labels restored. Not a complete semantic audit.",
-    "C05 00d89ac6886f: A34909 rows 102-154: corrected telephone label, lost legal subitems, sales ratio and 1/3/5/10 year continuity range against Korean Annex 1; preserved previous edits."
+    "C05 00d89ac6886f: A34909 rows 102-154: corrected telephone label, lost legal subitems, sales ratio and 1/3/5/10 year continuity range against Korean Annex 1; preserved previous edits.",
+    "C05 00d89ac6886f continued: A34909 rows 155-210 inspected against Korean appendix; nine confirmed subitem and siting-selection errors corrected. IN_PROGRESS."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -1293,5 +1357,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 172
+  "corrected_rows": 181
 }
