@@ -1,0 +1,46 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 8,
+  "checked_range": {
+    "doc": "B1",
+    "start": "B1-zh-00084",
+    "end": "B1-zh-00091"
+  },
+  "edits": [
+    {
+      "id": "B1-zh-00084",
+      "text": "第五条（其他法律的修订）《社会基础设施民间投资法》部分修订如下。\n\n  在第二条第一号中新设“무目”，内容如下。\n\n      무. 根据《泛在城市建设等法》第二条第三号规定的泛在城市基础设施\n\n  在第二条第十三号中新设“투目”，内容如下。\n\n      투.《泛在城市建设等法》\n\n",
+      "source_hash": "5cfd697dabde1223286af235d0db617d65c3e02b9dfac7c2471842d71bebf053",
+      "target_id": "b0c6a3da97384a528f1a7c53405b09b1e5fab565ba079610365d756e7da4e54a"
+    },
+    {
+      "id": "B1-zh-00085",
+      "text": "附则（《共有财产及物品管理法》）<第9174号，2008年12月26日>\n\n",
+      "source_hash": "0b5eb08af2be3ef2eaacfbbaf3078ad456053d4123320f90a53940daa6da8187",
+      "target_id": "a347f9d040fe60c33eb8888f3938a5deeb00fbbc9bc6d60e70a44adb9bf527bc"
+    },
+    {
+      "id": "B1-zh-00088",
+      "text": "第三条（其他法律的修订）①及②省略。\n\n  ③ 《泛在城市建设等法》部分修订如下。\n\n  将第十五条第一款第十号中的“行政财产及保有财产”改为“行政财产”。\n\n  ④至⑦省略。\n\n",
+      "source_hash": "5dc4e187873ce1718b73060e5a482eac0ce92b9ad5a684d55a041a75ad40ebef",
+      "target_id": "25388f091e37a94cec1e172c007833950f86bedb8ccb4d651d27c07d7d963fbb"
+    },
+    {
+      "id": "B1-zh-00090",
+      "text": "附则（《国家信息化基本法》）<第9705号，2009年5月22日>\n\n",
+      "source_hash": "34cbc586ef7876efeba0a0b4d2a42a064fed421ae742a3ff4e3ce20d72ea17e7",
+      "target_id": "9a09d51d39c56cbc593fa16df49d9e497b873a32175447f3854880350e7f1ff5"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "note": "R12 original Korean compared B1 84-91, including untranslated original Korean item markers 무/투 retained; rows 86,87,89,91 checked unchanged. Other earlier progress preserved. Entire family 1133 rows NOT complete."
+}
