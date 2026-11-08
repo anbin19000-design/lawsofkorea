@@ -1,0 +1,55 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-19e75205dc22e336765d",
+  "worker": "C06",
+  "panel_id": "panel-06",
+  "pc": "WORK-C",
+  "status": "IN_PROGRESS",
+  "checkpoint": "2026-11-09T18:12:00+09:00",
+  "source_commit": "cfb1d2139b0964af5165eecacfab57c57c1fe432",
+  "source_blobs": {
+    "ko": "f3c381ac40a93d2dd0c81eeeec800d0484334dce",
+    "en": "9ccc8a185bc0a2975d2e349d3fc3690f6e4b439b",
+    "zh": "42d5c0c29e2439f506c7209aebee695f5a1a631b"
+  },
+  "reading": {
+    "ko": {
+      "status": "FULL_READ",
+      "documents": 30,
+      "characters": 238917
+    },
+    "en": {
+      "status": "FULL_READ",
+      "documents": 2,
+      "characters": 100432,
+      "exact_documents": 1,
+      "fallback_documents": 29,
+      "rows_with_english": 1558,
+      "rows_without_english": 772
+    },
+    "zh": {
+      "status": "PARTIAL_REVIEW",
+      "documents": 30,
+      "rows": 2330,
+      "review_entries": 1033
+    }
+  },
+  "review_path": "review/zh/F-19e75205dc22e336765d.json",
+  "review_sha": "385b6c8e6340c39da386c4cb1f359e7b5f8a7e2c",
+  "edits_saved": 1033,
+  "pending": [
+    "B1 부칙 제22~69행의 법령명·개정 내용·시행일 번역 오류 전수 대조",
+    "B2 부칙 제34~131행 전수 검수, 특히 다른 법령 개정 조항의 조문/기관명 오류 교정",
+    "A29829~A29861 별지·서식 잔여 미교정 행 전수 검수 및 OCR 분절 점검",
+    "A29851 원문 자체 손상 문장은 KO와 EN 참조가 모두 손상되어 신뢰 가능한 복원 근거 확보 전 추정 번역 금지",
+    "772개 영문 미대응 행에 대해 한국어 원문 대조 후 영문 부재 여부 명시",
+    "전체 30개 문서의 MTQ·영문 잔존·미번역·숫자·조문번호·서식 연속성 최종 QA",
+    "모든 전수 검수 완료 후 review COMPLETE 및 receipt 저장·재조회"
+  ],
+  "observations": [
+    "B1 제8~15조를 원문과 대조해 인감보호, 발급, 변경신고, 자료제공, 수수료의 핵심 법적 의미를 교정.",
+    "A29831~A29834의 인감대장 4종에서 '封条/密封/Seal' 오역, '大肠' OCR 오류, 인감란·주소/체류 필드·보호신청 필드를 교정.",
+    "원문 파일 SHA 세 개는 배정 source_blobs와 일치하며 운영 DB는 변경하지 않음."
+  ],
+  "protection": "status/active/C06 ACTIVE 및 WORK-C panel-06 binding 확인. KO/EN/ZH SHA 일치. receipts 파일은 아직 존재하지 않음."
+}
