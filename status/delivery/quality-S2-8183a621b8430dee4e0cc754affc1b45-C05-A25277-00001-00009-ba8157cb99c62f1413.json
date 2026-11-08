@@ -1,0 +1,79 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-3705abbc710de4b867bc",
+  "worker": "C05",
+  "branch": "main",
+  "source_blobs": {
+    "ko": "7974bf81d14f4838ae85d4b3ceea80a2f0e65fed",
+    "zh": "045dd328cd77f3eecd8b6cd485be27f2389773e8"
+  },
+  "document_key": "A25277",
+  "document_source_hash": "9c7c8961de7adf8c149fcce4f4a26d5a0886d04439da592a1788c184b0928853",
+  "checked_ids": [
+    "A25277-zh-00001",
+    "A25277-zh-00003",
+    "A25277-zh-00004",
+    "A25277-zh-00005",
+    "A25277-zh-00006",
+    "A25277-zh-00007",
+    "A25277-zh-00008",
+    "A25277-zh-00009"
+  ],
+  "checked_rows": 8,
+  "adopted_edits": [
+    {
+      "id": "A25277-zh-00001",
+      "text": "■ 《消防设备管理法施行规则》[别纸第2号格式]"
+    },
+    {
+      "id": "A25277-zh-00003",
+      "text": "消防设备认证书"
+    },
+    {
+      "id": "A25277-zh-00004",
+      "text": "认证经营者"
+    },
+    {
+      "id": "A25277-zh-00005",
+      "text": "商号（公司名称）："
+    },
+    {
+      "id": "A25277-zh-00006",
+      "text": "代表人："
+    },
+    {
+      "id": "A25277-zh-00007",
+      "text": "地址："
+    },
+    {
+      "id": "A25277-zh-00008",
+      "text": "依照《消防设备管理法施行令》第13条及同法施行规则第10条规定，"
+    },
+    {
+      "id": "A25277-zh-00009",
+      "text": "现颁发如下消防设备认证书。"
+    }
+  ],
+  "source_row_hashes": {
+    "A25277-zh-00001": "d97bfc6b984e707465f62e5fdb5b1d33e925c5cb9324570e4b22532b856f13de",
+    "A25277-zh-00003": "fab6cf93c7e4c5567d09ae552431f0b1ed5a3199c12edc4fc2f562632bec936a",
+    "A25277-zh-00004": "a47a7eff413005c83ad62bc32fc2f19827715b754e98eecbee0dcbaff7afe249",
+    "A25277-zh-00005": "141c2dff2b9f93af9f5eef7b6d50e18d1ed8b753a4dd0f73ec91f661769db72d",
+    "A25277-zh-00006": "41c1cd4b6432620eb03ab0ef882c438a64402fee90231f579bc1bbfafe97b06b",
+    "A25277-zh-00007": "6234d5b178a8b25809d84955b920b10df35485da32504c3e99f4b1fef7cca06a",
+    "A25277-zh-00008": "3b043a29715fb4237124cbfc07222292769c6197871d7f37d8cc9eb40fdddc52",
+    "A25277-zh-00009": "afd90a8091f3a4298a75df040d43b9856e912a0dd53cb230e3fe932bd1c552e5"
+  },
+  "rationale": {
+    "A25277-zh-00001": "소방장비관리법 시행규칙 [별지 제2호서식]: preserve law, implementing rule and annex form number.",
+    "A25277-zh-00003": "소방장비인증서: explicitly a certification certificate, not merely a device document.",
+    "A25277-zh-00004": "인증사업자: certified business operator, not the organization operating certification services.",
+    "A25277-zh-00005": "상호(회사명): both trade name and company name included.",
+    "A25277-zh-00006": "대표자: business representative.",
+    "A25277-zh-00007": "주소: remove anomalous 添加-.",
+    "A25277-zh-00008": "「소방장비관리법 시행령」 제13조 및 같은 법 시행규칙 제10조; exact governing document names and numbered citations.",
+    "A25277-zh-00009": "다음과 같이 소방장비 인증서를 발급합니다; completes split issuance sentence, replaces untranslated punctuation."
+  },
+  "status": "QUALITY_PARTIAL",
+  "note": "First previously staged but quality-unconfirmed certificate-form corrections compared with full Korean A25277 form and split sentence. Existing A25276 and law source hashes preserved; no new unique 1162-row coverage or COMPLETE receipt."
+}
