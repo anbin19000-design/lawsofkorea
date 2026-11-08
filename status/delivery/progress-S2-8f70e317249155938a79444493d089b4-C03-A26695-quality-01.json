@@ -1,0 +1,274 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26695",
+  "quality_batch": "A26695-quality-01",
+  "range": {
+    "first": "A26695-zh-00001",
+    "last": "A26695-zh-00025"
+  },
+  "quality_checked_rows": 25,
+  "quality_passed_rows": 25,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "A26695-zh-00001",
+    "A26695-zh-00002",
+    "A26695-zh-00003",
+    "A26695-zh-00004",
+    "A26695-zh-00005",
+    "A26695-zh-00006",
+    "A26695-zh-00007",
+    "A26695-zh-00008",
+    "A26695-zh-00009",
+    "A26695-zh-00010",
+    "A26695-zh-00011",
+    "A26695-zh-00012",
+    "A26695-zh-00013",
+    "A26695-zh-00014",
+    "A26695-zh-00015",
+    "A26695-zh-00016",
+    "A26695-zh-00017",
+    "A26695-zh-00018",
+    "A26695-zh-00019",
+    "A26695-zh-00020",
+    "A26695-zh-00021",
+    "A26695-zh-00022",
+    "A26695-zh-00023",
+    "A26695-zh-00024",
+    "A26695-zh-00025"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26695-00001-00025.json",
+  "results": [
+    {
+      "id": "A26695-zh-00001",
+      "source_hash": "4f4af332c8c31d7073aee597baff750f46b416e66861c1654dc6c80e07572475",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시행규칙 별지 제3호서식 및 2026.7.22 개정 표기"
+    },
+    {
+      "id": "A26695-zh-00002",
+      "source_hash": "5a78601e806c5f6b0ad40a65b8ac1b079c06873442a8a30ac9f0635c457ba0c1",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "피해자 인적사항, 확인서 형식 또는 서식 날짜·규격"
+    },
+    {
+      "id": "A26695-zh-00003",
+      "source_hash": "fdf8d198c10713e4aa32c9136c58cf72c00bf1e52c9d59c70e44369ebd1dcbeb",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "발급번호의 제·호 및 피해자 확인서 명칭"
+    },
+    {
+      "id": "A26695-zh-00004",
+      "source_hash": "b94e182b9a95d9dc23294428515515c68a59d1d634e19d301cdc19e9a9516fed",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "발급번호의 제·호 및 피해자 확인서 명칭"
+    },
+    {
+      "id": "A26695-zh-00005",
+      "source_hash": "8920c0d8f50729673863cf768709079dd0185cb7383aa404006ca7a04af1f56f",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "발급번호의 제·호 및 피해자 확인서 명칭"
+    },
+    {
+      "id": "A26695-zh-00006",
+      "source_hash": "908a4e580f61c8b9fc1e72fd77eb535ab09436f33a18f8430d9daab506cd6d7e",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "피해자 인적사항, 확인서 형식 또는 서식 날짜·규격"
+    },
+    {
+      "id": "A26695-zh-00007",
+      "source_hash": "9f96b8e22cc06bfafc548ef472e33b60548b190f17dbc04b1da176a50d2c6d2c",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "피해자 인적사항, 확인서 형식 또는 서식 날짜·규격"
+    },
+    {
+      "id": "A26695-zh-00008",
+      "source_hash": "0c9782432a61e01698b294a5acad8506a7914231b4de7978baa1e5db90bcb0f3",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "피해자 인적사항, 확인서 형식 또는 서식 날짜·규격"
+    },
+    {
+      "id": "A26695-zh-00009",
+      "source_hash": "a44e94bae9fbac50848ab404ac5d343ab654e7bad05348e6d94ca255babff421",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "피해자 인적사항, 확인서 형식 또는 서식 날짜·규격"
+    },
+    {
+      "id": "A26695-zh-00010",
+      "source_hash": "9cf627a47a099f91ec615a3fe69c93ddb90b823d684f9b1f4aff2dfe0adda7d6",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "피해자 인적사항, 확인서 형식 또는 서식 날짜·규격"
+    },
+    {
+      "id": "A26695-zh-00011",
+      "source_hash": "9e56b502786d2dc56c9166037754fb1d8665985b5d3f2f31052ef1e5178f3a3e",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "보호자와 관계의 필요시 기재 조건"
+    },
+    {
+      "id": "A26695-zh-00012",
+      "source_hash": "13c7a2257e3db5e84282b29a52911240fe1b8c1546a2b3ddd42db528a8c4e5fd",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "보호자와 관계의 필요시 기재 조건"
+    },
+    {
+      "id": "A26695-zh-00013",
+      "source_hash": "b3390524f58407e885b5a05c0ffeb7b3af46078160e0238df2ffd10e82e918d5",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "피해자 인적사항, 확인서 형식 또는 서식 날짜·규격"
+    },
+    {
+      "id": "A26695-zh-00014",
+      "source_hash": "3c2687cab87211d72ce6adf3f1bf48f016c7495f62ede0bb3ad4b306d2cb2036",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "성매매·성적착취·노동착취·장기적출·기타 착취 구분"
+    },
+    {
+      "id": "A26695-zh-00015",
+      "source_hash": "7d33749b9559d608aeeb48361dd6a03eba7070772f86346b8dcb9ca5bf8a79b5",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "성매매·성적착취·노동착취·장기적출·기타 착취 구분"
+    },
+    {
+      "id": "A26695-zh-00016",
+      "source_hash": "839bed5dd8ab9525f82c78971a6f760c36904655efc2656a70e6355ac6fe2b6b",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "성매매·성적착취·노동착취·장기적출·기타 착취 구분"
+    },
+    {
+      "id": "A26695-zh-00017",
+      "source_hash": "d382a2bfcb30200f25b990c2486206712370008bf75c11c89b7c2813b845d1fa",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "성매매·성적착취·노동착취·장기적출·기타 착취 구분"
+    },
+    {
+      "id": "A26695-zh-00018",
+      "source_hash": "009748a296f00a87f2c60d2c8dbc61c000125a3592ba05a6af6cb00755ea3788",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법 제14조제3항·시행령 제7조제4항·시행규칙 제3조제3항 인용"
+    },
+    {
+      "id": "A26695-zh-00019",
+      "source_hash": "4d9875998bf786d8ba2a153668f794899cce580b749b5d9e967f8a7afbc3b4b9",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법 제14조제3항·시행령 제7조제4항·시행규칙 제3조제3항 인용"
+    },
+    {
+      "id": "A26695-zh-00020",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "피해자 인적사항, 확인서 형식 또는 서식 날짜·규격"
+    },
+    {
+      "id": "A26695-zh-00021",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "피해자 인적사항, 확인서 형식 또는 서식 날짜·규격"
+    },
+    {
+      "id": "A26695-zh-00022",
+      "source_hash": "dfc76879e2f5c3ead09186ff1c6b635624f96b7adbd71d94c37566429ca5df6f",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "피해자 인적사항, 확인서 형식 또는 서식 날짜·규격"
+    },
+    {
+      "id": "A26695-zh-00023",
+      "source_hash": "870a0beba748fffb8dca3e6a2883928dd0ba71ac90f86ff2bec3f1bf9ac7a991",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "중앙 피해자권익보호기관장 직위"
+    },
+    {
+      "id": "A26695-zh-00024",
+      "source_hash": "c2c25ba0a53a6f7b97292cfe2d401a55b263f9c6222471a4b8a4c3509c1a4197",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "직인 표기"
+    },
+    {
+      "id": "A26695-zh-00025",
+      "source_hash": "6a9fd2459313c78ed634682f52734f6a424348a2381255da601ab4f842ec71c4",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "피해자 인적사항, 확인서 형식 또는 서식 날짜·규격"
+    }
+  ],
+  "edits": [],
+  "note": "별지 제3호 피해자 확인서 25행의 기존 중국어 교정 및 유지 행을 한국어 원문과 비교. 개정일·발급번호·장기적출 누락 보완·법 조문 연계·직인 확인. 이전 교정 파일과 모든 원본 행/해시 보존. 전체 가족 COMPLETE 아님."
+}
