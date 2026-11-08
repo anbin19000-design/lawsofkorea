@@ -1,0 +1,45 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "B2",
+  "quality_batch": "B2-quality-08",
+  "range": {
+    "first": "B2-zh-00036",
+    "last": "B2-zh-00037"
+  },
+  "quality_checked_rows": 2,
+  "quality_passed_rows": 2,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "B2-zh-00036",
+    "B2-zh-00037"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-00034-00037.json",
+  "prior_quality_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-quality-07.json",
+  "results": [
+    {
+      "id": "B2-zh-00036",
+      "source_hash": "bda0b802583b02be9faf66d507c8d73c045b1efbe91f3fd0540b1738533ffac0",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "제4조 부칙의 17번 개정 대상, 제2·3·5·6·7·14·18·20·21·26·27·29조 인용, 여성가족부장관→성평등가족부장관 및 여성가족부령→성평등가족부령의 서로 다른 구명칭·신명칭을 모두 보존함."
+    },
+    {
+      "id": "B2-zh-00037",
+      "source_hash": "79b40d807e209f4b58d1828a35f118756df5eca9050707168b38dcceb8dca8d1",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "2026.3.24 대통령령 제36221호 부칙의 제목, 공포 당일 시행 규정이 원문과 일치하며 다음 별표의 본문이 해당 셀에 혼입되지 않음."
+    }
+  ],
+  "edits": [],
+  "note": "B2 마지막 교정 두 건의 법령 변경명과 부칙 범위를 한국어 원문과 확인. 전체 가족 COMPLETE 아님."
+}
