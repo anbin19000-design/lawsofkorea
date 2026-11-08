@@ -1,0 +1,178 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_blob_observed": "003cad21fa104b32a22b7d401755e50ffab76f42",
+  "cumulative_corrections": 866,
+  "inspected_span": "A34911 (4 rows) read in full against the Korean source; A34912 rows 1–50 read in source order against the full Korean Annex 2 text. Existing corrections at A34911 rows 3–4 and A34912 rows 8, 14, 33–40, 48, 58, 62–66, 74–75, 81, 85–87, 93–94 were retained.",
+  "proposed_corrections": [
+    {
+      "id": "A34911-zh-00001",
+      "source_hash": "fcdefdd16c5790ac0d7372a9262f1c4bfe6076c8b8274878a85e9ad9add0fd21",
+      "text": "■ 《特许经营业务交易公平化法实施令》[附表1之3] <2014年2月11日新增>",
+      "reason": "별표 1의3 표기를 일반 附录가 아닌 법령 별표로 복구."
+    },
+    {
+      "id": "A34911-zh-00002",
+      "source_hash": "4f6c82663da9a8bd1b05c1c5492a6ec5352e6dfe449675f954369ebf2739ad01",
+      "text": "上一会计年度销售额折算额的计算方法（与第9条第4款相关）",
+      "reason": "직전 사업연도 매출환산액이라는 법령 용어 복구."
+    },
+    {
+      "id": "A34912-zh-00001",
+      "source_hash": "d4991c6d6394595e7584f86331077b208075fb8cb54024365534157ce59b2e56",
+      "text": "■ 《特许经营业务交易公平化法实施令》[附表2] <2024年6月4日修订>",
+      "reason": "별표2는 부속서가 아닌 별표이며 법령명 정식 표기 복구."
+    },
+    {
+      "id": "A34912-zh-00002",
+      "source_hash": "930ddfd1bf23d46741cdff596f62174d70fb7bdd67d8cc9f44bd6e0a6aa1b475",
+      "text": "不公平交易行为的类型或标准（与第13条第1款相关）",
+      "reason": "조문 인용과 불공정거래행위 표제 정리."
+    },
+    {
+      "id": "A34912-zh-00004",
+      "source_hash": "89645e13aa619a3a64f2f705b2087c79c7ed2d9586906c4c9f2aa75df329cc58",
+      "text": "本法第12条第1款第1项所规定行为的类型及标准如下。",
+      "reason": "법률 제12조제1항제1호에 해당하는 행위의 유형·기준을 정확히 표현."
+    },
+    {
+      "id": "A34912-zh-00005",
+      "source_hash": "c004326f5b06cc5e3e0bd1f82dd343d86956918fe33192a05bf8e18323c16dab",
+      "text": "但因加盟店经营者违反合同等可归责于加盟店经营者的事由，",
+      "reason": "가맹점사업자 계약위반 등 귀책사유의 조건절을 정확히 복구."
+    },
+    {
+      "id": "A34912-zh-00006",
+      "source_hash": "56477f1c8ca85a3f978558b441b476a75ed1d862a92b65becdf0104b2659d8da",
+      "text": "导致特许经营交易关系难以继续的情形，不在此限。",
+      "reason": "거래관계 지속이 어려운 사정이라는 예외의 의미 복구."
+    },
+    {
+      "id": "A34912-zh-00007",
+      "source_hash": "f70238d6844ac32ac79884b41174a222be2606b91d981a3c4ab5c5e694f7a88c",
+      "text": "",
+      "reason": "원문에 별도 대응 문구가 없는 파편으로 앞뒤 행과 XML 연결 여부 확인 필요."
+    },
+    {
+      "id": "A34912-zh-00009",
+      "source_hash": "f7dba5541a158495c584205ffdad9bfef75b3c4da7c6215b1a5e2eb5ff4a298d",
+      "text": "在交易期间无正当理由中断或拒绝供应经营特许业务所需的不动产、服务、设备、商品、原材料或辅助材料，",
+      "reason": "부동산·용역·설비·상품 등의 공급 중단·거절 행위 문맥 복구."
+    },
+    {
+      "id": "A34912-zh-00010",
+      "source_hash": "08b0c2b6b7b87dcef0874bdf3dbced4018d1104f554b6ad086703db26c193cb7",
+      "text": "以及与之相关的营业支持、信息披露书或加盟合同约定提供的",
+      "reason": "영업지원과 정보공개서·가맹계약서상 지원 내용을 연결."
+    },
+    {
+      "id": "A34912-zh-00011",
+      "source_hash": "241775227d6729890813ff53de2cb643811ae9392d7971879cd6900eac187195",
+      "text": "经营及营业活动支持，",
+      "reason": "경영·영업활동 지원이라는 법률용어 복구."
+    },
+    {
+      "id": "A34912-zh-00012",
+      "source_hash": "e4233b3deebc372bd4e3299c473c70637454733a23d38e8f88d12a4870242465",
+      "text": "或中止、拒绝该等支持，或者显著限制支持的数量或内容的行为",
+      "reason": "지원 중단·거절 또는 지원 물량·내용의 현저한 제한을 복구."
+    },
+    {
+      "id": "A34912-zh-00013",
+      "source_hash": "942c0c1991226fae21b806de622029b1a5eee073f2c282228ae97ae62b512d21",
+      "text": "",
+      "reason": "앞 행의 '행위'와 이어지는 분절 여부 확인 필요."
+    },
+    {
+      "id": "A34912-zh-00015",
+      "source_hash": "7121116b1ddefb755af1add8e41b623d936bbd6b73dadd22ebedccfb0a1959ea",
+      "text": "1) 特许总部为在加盟店经营区域内设置直营店而",
+      "reason": "가맹본부가 직영점을 설치할 목적으로 갱신요구를 거절한다는 문맥 복구."
+    },
+    {
+      "id": "A34912-zh-00016",
+      "source_hash": "14aa6a9a7fe4109acedc8f45b87dfc0e728dec7fee22b85d1d1157c0644e4ad8",
+      "text": "无正当理由拒绝加盟店经营者提出的合同续约要求的行为。",
+      "reason": "계약갱신 요구 거절의 주체와 목적을 명확히 함."
+    },
+    {
+      "id": "A34912-zh-00017",
+      "source_hash": "ed59ecf84085cc5779e3961cdeecd5ede12e2d49a4586179d77a936c32db1dd1",
+      "text": "但是，特许总部从加盟店经营者处受让加盟店，或",
+      "reason": "가맹본부가 가맹점사업자로부터 가맹점을 양수하는 예외 문구 복구."
+    },
+    {
+      "id": "A34912-zh-00018",
+      "source_hash": "1e6dacfef0d3769622d8a90d3dffa5b553ff3ec85ee5d9f4042c93ad69c9a5d2",
+      "text": "加盟店经营者未提出续约要求，且",
+      "reason": "계약갱신 요구가 없었던 예외의 조건 복구."
+    },
+    {
+      "id": "A34912-zh-00019",
+      "source_hash": "40c39d612df1588ef84cb42f74d9ad21f2f1c551bc498a5d49ba313cf8a27ab0",
+      "text": "特许总部依照本法第13条第4款通知不予续约，致使加盟合同终止的情形除外。",
+      "reason": "법 제13조제4항에 따른 갱신거절 통지로 계약 종료된 경우 예외 복구."
+    },
+    {
+      "id": "A34912-zh-00020",
+      "source_hash": "15837266ecc6c5d3df5085c2afc41584bcd084173fb293ba9159c9760661a164",
+      "text": "",
+      "reason": "앞 행에서 이미 예외 문장이 완결되는지 XML 분절 확인 필요."
+    },
+    {
+      "id": "A34912-zh-00021",
+      "source_hash": "a931922d046de84568cca3be28a4f351baa63fd08ce49f6ef9aa2f338dde454f",
+      "text": "2) 无正当理由仅对特定加盟店经营者差别对待，",
+      "reason": "특정 가맹점사업자에 대해서만 차별적으로 갱신요구를 거절한다는 조건 복구."
+    },
+    {
+      "id": "A34912-zh-00022",
+      "source_hash": "1804b2e8084c196e23c77fb65e1b4691b1f32a1212ba4bc74cc6eae29c5ca0c2",
+      "text": "拒绝其合同续约要求的行为。但是，特许总部",
+      "reason": "앞뒤 문장 구조 및 예외 조항의 주체를 연결."
+    },
+    {
+      "id": "A34912-zh-00023",
+      "source_hash": "31ebb5f9a15177a1cd5ec61a4f66acfd8fe2c5079ba6e52f7d476bba9523349b",
+      "text": "事先通知所属加盟店经营者共同适用的合同续约标准（包括评价标准、评价时间及评价方式；以下称“评价标准等”），",
+      "reason": "평가기준·시기·방식의 공통 적용 및 사전 통지 의무 복구."
+    },
+    {
+      "id": "A34912-zh-00024",
+      "source_hash": "2f55f2ab4f215d911fbaf3a299acbc2c79542f8ea05408004dc82e5fb4a190bd",
+      "text": "并依照评价标准等对加盟店进行评价后，",
+      "reason": "평가 실시 후 결과에 따른 갱신 거절이라는 문맥 연결."
+    },
+    {
+      "id": "A34912-zh-00025",
+      "source_hash": "635abc780971cc170085030784b0c41f1c3cac95b1dae4460571dac97e2187fc",
+      "text": "根据评价结果拒绝合同续约要求的行为，",
+      "reason": "평가 결과에 따른 갱신요구 거절의 문장 완성."
+    }
+  ],
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "chinese_total_rows": 1687,
+  "checked_rows": 849,
+  "corrected_rows": 866,
+  "quality_open_items": [
+    "Full sequential semantic audit of all 1,687 Chinese rows remains incomplete",
+    "429 rows without independently exact English require direct Korean/Chinese semantic comparison",
+    "A34909/A34910 candidates checkpoint-only",
+    "A34912 rows 1–50 candidate issues recorded; continue 51–147",
+    "Remaining annex/form rows require sequential review and final QC"
+  ],
+  "note": "No source SHA changed. Candidate text only; official review count unchanged. IN_PROGRESS; no receipt."
+}
