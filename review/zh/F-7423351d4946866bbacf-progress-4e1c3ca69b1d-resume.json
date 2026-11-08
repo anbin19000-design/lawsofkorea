@@ -1,0 +1,44 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "panel_id": "panel-01",
+  "assignment_id": "S2-c174f0e36bef5fedb717095f1cea01f6",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:4e1c3ca69b1d]",
+  "status": "IN_PROGRESS",
+  "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
+  "source_sha": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "source_documents": 16,
+  "source_chinese_rows": 1207,
+  "source_manifest_verified": true,
+  "official_worker_binding": "https://chatgpt.com/c/6af05982-c574-83e8-aba8-fa5a1e46886f",
+  "prior_review_path": "review/zh/F-7423351d4946866bbacf.json",
+  "prior_review_blob": "b4daa6db7df1be35fe7da8695fb5acc0b7043b2e",
+  "prior_checked_rows": 88,
+  "prior_unique_edits": 287,
+  "prior_edits_preserved": true,
+  "prior_status": "IN_PROGRESS",
+  "prior_receipt_path": "receipts/F-7423351d4946866bbacf.json",
+  "prior_receipt_state": "NOT_FOUND",
+  "previous_delivery_index": "status/delivery/handoff-index-0e3c0be84d60527735f4.json",
+  "current_delivery_status": "SENT_VERIFIED",
+  "english_status": "Exact-version English source available for B1 Act and B2 Enforcement Decree; no independent English document for B3 Enforcement Rule and its related annexes/forms. Continue Korean-Chinese comparison for those documents.",
+  "current_turn_checks": [
+    "Fetched the complete KO, EN, and ZH package files from main and verified their blob SHAs against status/active/C01.json.",
+    "Confirmed 16 aligned document keys and 1207 unique Chinese row IDs across B1, B2, A38090, A38091, B3, A23947-A23950, and A23951-A23957.",
+    "Re-read the existing review file; retained all 287 unique edit IDs and its checked_rows=88 checkpoint unchanged.",
+    "Mechanical scan of currently unedited Chinese rows found no remaining Hangul, MTQ, START, TODO, TRANSLATE, or 未翻译 markers; this does not establish semantic correctness.",
+    "Confirmed no completion receipt exists."
+  ],
+  "unresolved": [
+    "Full semantic equivalence of all 1207 Chinese rows is not certified; checked_rows remains 88.",
+    "The next sequential unreviewed row after the evidenced B1 checkpoint is B1-zh-00089.",
+    "Source-cell punctuation/continuity IDs remain unresolved pending source XML cell inspection: A38090-zh-00012, A23947-zh-00010, A23948-zh-00013, A23948-zh-00019, A23951-zh-00017.",
+    "Annex/form XML cell-level alignment remains incomplete."
+  ],
+  "next_action": "Continue sequential whole-family audit without resetting the saved 287 edits. Resume at B1-zh-00089, then proceed through all remaining B1 rows, B2, annexes, B3 and all forms in source order. Complete Korean full-source reading before the available English full-source reading, then Chinese row-by-row semantic comparison. Resolve the five punctuation/cell IDs from source XML. Save review and receipt only after all 1207 rows have been semantically checked; otherwise keep IN_PROGRESS."
+}
