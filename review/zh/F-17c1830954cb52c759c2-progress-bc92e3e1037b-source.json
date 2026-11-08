@@ -27,11 +27,11 @@
   ],
   "reading_checkpoint": {
     "required_order": "KO_FULL_EN_FULL_ZH_FULL",
-    "ko": "IN_PROGRESS: B1 full law (19,410 chars) and B2 full enforcement decree (14,159 chars) read sequentially; next A39652 annex 1 and remaining 28 documents.",
-    "en": "NOT_STARTED; English packet inspected for availability only",
+    "ko": "IN_PROGRESS: B1 law and B2 decree fully read. Korean annexes A39652–A39656, B3 regulation, A27040–A27061 schedules/forms inspected with layout whitespace condensed; full line-by-line semantic verification of every form is not yet certified.",
+    "en": "NOT_STARTED for full English sequential reading. Two document paths exist; confirmed B1 exact official version, B2 fallback older official version. B3 and attached 22 annex/form records lack document English.",
     "zh": "NOT_STARTED; row count confirmed but Chinese sequential review not performed",
-    "next_step": "Resume Korean at A39652 (버티포트의 시설) in family order; finish remaining 28 Korean documents, then the two existing English full texts, then Chinese rows 1–1275."
+    "next_step": "Complete remaining full Korean annex/form verification (including layout-continuation and A27047 long form), then read English B1 full_text and B2 full_text in order, then Chinese 1275 rows sequentially. Preserve originals."
   },
   "findings": [],
-  "notes": "Source SHA verified; existing official review/receipt and family progress absent. Korean B1 and B2 read; key legal conditions noted: mandatory vs discretionary revocation, 120+60-day pilot designation, insurance limits, 2026 delegation amendment. Originals untouched."
+  "notes": "No review edits made. Important Korean source checks captured: annex A27041 financial KRW 850m corporate/1.7bn individual and at least 11 technicians; B2 insurance deceased KRW 150m, injury KRW 30m, property KRW 1bn; A39656 fines 3/4/5 million. Korean A27052 source itself displays citation 법 제93조제12항 versus B1 제9조제12항: source anomaly must not be silently copied to Chinese; not edited in original."
 }
