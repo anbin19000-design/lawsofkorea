@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 4300,
+    "verified_zh_rows": 4381,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 4300,
-      "checked_rows": 4300,
+      "next_row_zero_based": 4381,
+      "checked_rows": 4381,
       "total_rows": 5228
     }
   },
@@ -6715,9 +6715,267 @@
       "text": "2. 一般国道：养护科",
       "original_text": "2. 国家公路总局：养护部",
       "reason": "일반국도 담당부서 오역"
+    },
+    {
+      "id": "A4691-zh-00136",
+      "text": "3. 特别市道、广域市道、地方道、市道、郡道及区道：",
+      "original_text": "3. 特别市省·都会市省·省级公路·市省·县省·区省：",
+      "reason": "도로 종류 열거를 행정구역의 도·시·군 도로로 바로잡음"
+    },
+    {
+      "id": "A4691-zh-00137",
+      "text": "3. 特别市道、广域市道、地方道、市道、郡道及区道：",
+      "original_text": "3. 特别城市/省·大都会城市/省·地方道路·",
+      "reason": "도로 종류 목록의 의미와 순서를 복구"
+    },
+    {
+      "id": "A4691-zh-00138",
+      "text": "特别市、广域市、特别自治市、道、特别自治道、",
+      "original_text": "特别市 · 大都会市 · 特别自治市 · 省 · 特别自治省 · 市 ·",
+      "reason": "지방자치단체 종류의 열거를 완결"
+    },
+    {
+      "id": "A4691-zh-00139",
+      "text": "市、郡及区：建设科或建设管理科",
+      "original_text": "城市/省/军区/区：建设部门/建设",
+      "reason": "시·군·구 행정구역과 담당 부서가 혼합됨"
+    },
+    {
+      "id": "A4691-zh-00140",
+      "text": "特别自治道、市、郡及区（邑、面、洞）",
+      "original_text": "郡/区（邑/面/洞）",
+      "reason": "지방자치단체 및 하위 행정구역 목록을 완결"
+    },
+    {
+      "id": "A4691-zh-00141",
+      "text": "建设管理科",
+      "original_text": "管理部门",
+      "reason": "건설과·건설관리과의 구체적인 담당 부서 명칭 누락"
+    },
+    {
+      "id": "A4691-zh-00144",
+      "text": "批准",
+      "original_text": "付款",
+      "reason": "결재를 지불로 오역"
+    },
+    {
+      "id": "A4692-zh-00001",
+      "text": "■《道路法施行规则》[附件表格第27号] <2022年11月17日修订>",
+      "original_text": "■ 道路交通法执行规则 [表格编号 27] <2022 年 11 月 17 日修订>",
+      "reason": "도로법 시행규칙을 도로교통법 시행규칙으로 오역"
+    },
+    {
+      "id": "A4692-zh-00002",
+      "text": "第　号",
+      "original_text": "编号",
+      "reason": "증서의 제호를 일반 번호로 부정확하게 번역"
+    },
+    {
+      "id": "A4692-zh-00003",
+      "text": "道路占用许可证",
+      "original_text": "道路占用许可证",
+      "reason": "도로점용 허가증 표기를 유지"
+    },
+    {
+      "id": "A4692-zh-00005",
+      "text": "（法人填写主要办事处所在地）",
+      "original_text": "(如果是公司，则负责人",
+      "reason": "법인의 주된 사무소 소재지를 책임자로 오역"
+    },
+    {
+      "id": "A4692-zh-00007",
+      "text": "姓名",
+      "original_text": "名称",
+      "reason": "성명을 일반 명칭으로 축소"
+    },
+    {
+      "id": "A4692-zh-00008",
+      "text": "（法人填写法人名称及代表人姓名）",
+      "original_text": "(如果是公司，则名称和",
+      "reason": "법인의 명칭 및 대표자 성명 문구 누락"
+    },
+    {
+      "id": "A4692-zh-00009",
+      "text": "（代表人姓名）",
+      "original_text": "（代表姓名）",
+      "reason": "대표자의 성명 표현을 정돈"
+    },
+    {
+      "id": "A4692-zh-00010",
+      "text": "出生日期",
+      "original_text": "出生日期",
+      "reason": "생년월일 표기를 유지"
+    },
+    {
+      "id": "A4692-zh-00011",
+      "text": "（法人填写）",
+      "original_text": "（适用于公司）",
+      "reason": "법인 경우의 보충 표기를 정돈"
+    },
+    {
+      "id": "A4692-zh-00012",
+      "text": "法人登记号码）",
+      "original_text": "公司注册号)",
+      "reason": "법인등록번호 표기를 법률용어로 정돈"
+    },
+    {
+      "id": "A4692-zh-00014",
+      "text": "路线名称",
+      "original_text": "路线名称",
+      "reason": "노선명 표기를 유지"
+    },
+    {
+      "id": "A4692-zh-00015",
+      "text": "占用地点",
+      "original_text": "占用地点",
+      "reason": "점용 장소 표기를 유지"
+    },
+    {
+      "id": "A4692-zh-00016",
+      "text": "占用面积",
+      "original_text": "占用区域",
+      "reason": "점용 면적을 일반 구역으로 오역"
+    },
+    {
+      "id": "A4692-zh-00017",
+      "text": "占用期限",
+      "original_text": "使用期",
+      "reason": "점용기간을 일반 사용기간으로 축소"
+    },
+    {
+      "id": "A4692-zh-00020",
+      "text": "自",
+      "original_text": "至",
+      "reason": "기간 시작의 ‘부터’를 종료 ‘까지’로 오역"
+    },
+    {
+      "id": "A4692-zh-00025",
+      "text": "至",
+      "original_text": "直到",
+      "reason": "기간 종료 표기를 정돈"
+    },
+    {
+      "id": "A4692-zh-00026",
+      "text": "许可条件",
+      "original_text": "权限条件",
+      "reason": "허가조건을 권한 조건으로 오역"
+    },
+    {
+      "id": "A4692-zh-00027",
+      "text": "本人依据《道路法》第六十一条第一款及同法施行令第五十四条第三款，准予上述道路占用。",
+      "original_text": "根据《道路法》第61条第1款和该法实施令第54条第3款的规定，上述道路点",
+      "reason": "도로점용 허가 문장을 ‘도로 점’으로 잘못 끊고 시행령 명칭 오류"
+    },
+    {
+      "id": "A4692-zh-00035",
+      "text": "〈须知〉",
+      "original_text": "<指南>",
+      "reason": "안내 표제를 안내서로 축소"
+    },
+    {
+      "id": "A4692-zh-00036",
+      "text": "依据法律",
+      "original_text": "基本法",
+      "reason": "근거 법률을 기본법으로 오역"
+    },
+    {
+      "id": "A4692-zh-00037",
+      "text": "道路占用许可权利义务的继受人",
+      "original_text": "根据《道路法》第106条及该法相关规定，继承道路占用许可证相关权利和义务的人应当履行该义务。",
+      "reason": "안내문의 권리·의무 승계자 규정 문장을 정돈"
+    },
+    {
+      "id": "A4692-zh-00038",
+      "text": "应自继承、受让或分割、合并之日起两个月内，向道路管理机关提交权利义务继承申报书，并附上证明继承事实的文件。",
+      "original_text": "根据实施细则第五十条，自继承、转让或分割/合并之日起两个月内，权利·",
+      "reason": "신고서 제출 의무 문장 누락"
+    },
+    {
+      "id": "A4692-zh-00039",
+      "text": "未履行申报义务的，依据同法第一百一十七条第三款第三项，处以不超过五十万韩元的罚款。",
+      "original_text": "……如果未履行报告义务，则根据同一法第117条第3款第3项的规定，处以不超过50万韩元的罚款。",
+      "reason": "과태료 조항의 법령용어 정돈"
+    },
+    {
+      "id": "A4693-zh-00001",
+      "text": "■《道路法施行规则》[附件表格第28号]",
+      "original_text": "■ 道路交通法执行规则 [附件表格编号 28]",
+      "reason": "도로법 시행규칙을 도로교통법 시행규칙으로 오역"
+    },
+    {
+      "id": "A4693-zh-00003",
+      "text": "道路占用许可内容公告",
+      "original_text": "道路占用许可证详情通知",
+      "reason": "도로점용허가 내용 공고를 단순 통지로 오역"
+    },
+    {
+      "id": "A4693-zh-00004",
+      "text": "依据《道路法》第六十一条、同法施行令第五十四条第三款及同法施行规则第二十六条第三款",
+      "original_text": "《道路法》第61条、《道路法》实施细则第54条第3款和《道路法》实施细则第26条第3款",
+      "reason": "도로법 시행령 제54조를 시행규칙으로 오역"
+    },
+    {
+      "id": "A4693-zh-00005",
+      "text": "特此公告已依据上述规定作出下列道路占用许可。",
+      "original_text": "条款，我们特此宣布已颁发如下道路占用许可证。",
+      "reason": "공고문 서술의 문장 연결 및 법적 효력 표현 오류"
+    },
+    {
+      "id": "A4693-zh-00013",
+      "text": "占用目的",
+      "original_text": "职业目的",
+      "reason": "점용 목적을 직업 목적으로 오역"
+    },
+    {
+      "id": "A4693-zh-00014",
+      "text": "占用期限",
+      "original_text": "使用期",
+      "reason": "점용기간을 일반 사용기간으로 축소"
+    },
+    {
+      "id": "A4693-zh-00017",
+      "text": "占用物种类",
+      "original_text": "占用对象类型",
+      "reason": "점용물의 종류를 점용 대상의 유형으로 모호하게 표현"
+    },
+    {
+      "id": "A4693-zh-00018",
+      "text": "施工方法",
+      "original_text": "构造方法",
+      "reason": "공사 방법을 구조 방법으로 오역"
+    },
+    {
+      "id": "A4693-zh-00019",
+      "text": "道路开挖时",
+      "original_text": "挖掘时",
+      "reason": "도로 굴착 상황의 문맥 누락"
+    },
+    {
+      "id": "A4693-zh-00020",
+      "text": "交通措施",
+      "original_text": "交通测量",
+      "reason": "교통대책을 교통 측량으로 오역"
+    },
+    {
+      "id": "A4693-zh-00022",
+      "text": "道路开挖情况",
+      "original_text": "道路挖掘",
+      "reason": "도로굴착 표제의 법률용어 정돈"
+    },
+    {
+      "id": "A4693-zh-00023",
+      "text": "占用人的",
+      "original_text": "占用用户的",
+      "reason": "점용자를 사용자로 오역"
+    },
+    {
+      "id": "A4693-zh-00025",
+      "text": "地址、姓名",
+      "original_text": "地址·名称",
+      "reason": "성명을 일반 명칭으로 오역"
     }
   ],
-  "note": "Sequential review advanced through row 4299, covering A4691 road occupation permit change application (front and processing table). Added 39 targeted corrections for statute title, receipt/processing labels and MTQ, applicant/permit period/change fields, addressee/attachments/fees, legal notices, local government administrative units, temporary occupation and application offices. Previous 1054 edits retained. Continue from row 4300. IN_PROGRESS.",
+  "note": "Sequential review advanced through row 4380, completing A4691 change permit application, A4692 road occupation permit certificate and A4693 public notice form. Added 43 targeted corrections for local road jurisdiction labels and approval workflow, certificate title/fields and successor notification obligations, and public notice/statutory citations/road occupation terminology. Previous 1094 edits retained. Continue from row 4381 with A4694. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
