@@ -21,8 +21,8 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 78,
-    "pending_rows": 1609,
+    "correction_count": 80,
+    "pending_rows": 1607,
     "by_document": {}
   },
   "corrections": {
@@ -571,6 +571,20 @@
       "original": "如果提出退款请求，已缴纳的加盟费应在请求之日起 30 天内支付给特许人或被特许人，具体取决于退款结果。",
       "corrected": "存款机构负责人须自申请之日起30日内根据相关结果，向特许人支付托管加盟费或向加盟商退还托管加盟费。",
       "reason": "예치기관장은 신청일부터 30일 이내에 결과에 따라 가맹본부에 지급하거나 가맹점사업자에게 반환해야 함. 기존 번역의 지급·반환 당사자 관계가 불분명하여 해당 부분 복원."
+    },
+    "A34909-zh-00029": {
+      "doc": "A34909",
+      "source_hash": "d89d9b28e410de072851e437952bf187cf5a150bcb80e57296ea124fed734e2f",
+      "original": "根据第1款与同一人相关的人员（不包括特许人以外的其他人的雇员）以及同一法案",
+      "corrected": "第1项规定的同一人关联者（不包括特许人以外其他人的雇员），以及同一实施令",
+      "reason": "시행령 별표 1 특수관계인 정의의 '제4조제1항제1호에 따른 동일인관련자 ... 및 같은 영'에서 중국어가 제1호 번호를 제1항으로 잘못 옮기고 '같은 영'을 법률로 표기한 인용 오류 교정."
+    },
+    "A34909-zh-00030": {
+      "doc": "A34909",
+      "source_hash": "447627197843de92fe56604e18e0f302cf089224f8fd0e0443891fcd23ed2cc2",
+      "original": "[指根据第十四条第一款第一项规定认定的关联方。下文亦适用] 其中，截至编制日期，[]",
+      "corrected": "第14条第1款第1项规定的关联方；下同〕中，截至编制基准日，",
+      "reason": "시행령 별표 1의 '같은 영 제14조제1항제1호에 따른 특수관계인 ... 이하 같다] 중 작성 기준일 현재'의 조문과 닫는 인용·기준일 표현을 복원하고 빈 [] 제거."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -608,7 +622,8 @@
     "C05 2222ebeb54cf: annex 2 fragments 63/64 corrected against full Korean clause (4), prior 69 preserved; no full-row completion certification.",
     "C05 fae2c4774c60: A34909-zh-00017 disclaimer truth-verification statement repaired against Korean annex 1; previous 71 edits preserved; semantic review incomplete.",
     "C05 0d34f96333ad: annex A34909 rows 37, 46, 47 Korean-source-grounded correction of three-year affiliation scope and financial alternative evidence; previous 72 preserved; complete semantic review remains outstanding.",
-    "C05 3b88121742c9: restored mandatory designated-counterparty trading clause A34912-zh-00062 and escrow request/payout conditions A34924-zh-00055/56 against Korean originals; earlier 75 preserved; whole-family Chinese semantic review remains incomplete."
+    "C05 3b88121742c9: restored mandatory designated-counterparty trading clause A34912-zh-00062 and escrow request/payout conditions A34924-zh-00055/56 against Korean originals; earlier 75 preserved; whole-family Chinese semantic review remains incomplete.",
+    "C05 b5904ba631e7: annex A34909 definition cross-references rows 29/30 corrected from KO; previous 78 preserved. Semantic Chinese full audit incomplete."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -617,5 +632,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 78
+  "corrected_rows": 80
 }
