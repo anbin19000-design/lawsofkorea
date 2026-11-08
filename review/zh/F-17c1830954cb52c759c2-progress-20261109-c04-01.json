@@ -1,0 +1,35 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-17c1830954cb52c759c2",
+  "worker": "C04",
+  "panel_id": "panel-04",
+  "assignment_id": "UW-13dcf8b336720c3b2618fdc820a94e6a",
+  "status": "IN_PROGRESS",
+  "source_commit": "5f7a7e32af396dc79cd118fe4cd10694a66a9197",
+  "source_blobs": {
+    "ko": "dc7900aa39aa4daea43830abfc398a436695411c",
+    "en": "6dde8519d0cb5d72763353feaac3b483954cd1bc",
+    "zh": "cd35c01be0c39b6adbf2cc69f5f814e2c9cf8a67"
+  },
+  "scope": {
+    "documents": 30,
+    "zh_rows": 1275,
+    "english_reference_rows": 1158,
+    "english_missing_rows": 117,
+    "english_document_statuses": {
+      "EXACT_ENGLISH_AVAILABLE": 1,
+      "FALLBACK_ENGLISH_AVAILABLE": 6,
+      "NO_DOCUMENT_ENGLISH": 23
+    },
+    "additional_existing_english_reference": "reviewed/en/KR_014648.json (195 rows; includes B3, annexes, and forms; inspect despite manifest NO_DOCUMENT_ENGLISH)"
+  },
+  "reading_checkpoint": {
+    "required_order": "KO_FULL_EN_FULL_ZH_FULL",
+    "ko": "IN_PROGRESS. Prior checkpoint confirms B1 law and B2 decree full reading; current continuation has inspected source text for A39652-A39656, B3, A27040-A27050. Remaining Korean sequential reading: A27051-A27061; verify all table/form content and page continuity. Preserve source whitespace/layout for forms.",
+    "en": "NOT_STARTED in this continuation. Existing references: official B1 exact version, B2 fallback older official version; also reviewed/en/KR_014648.json has 195 English rows for B3 and annex/form content and must be read sequentially as existing English material.",
+    "zh": "NOT_STARTED; 1275 rows confirmed, no edits made.",
+    "next_step": "Complete Korean A27051-A27061; then read English B1, B2, and all 195 rows of reviewed/en/KR_014648.json in order; then review Chinese 1275 rows sequentially."
+  },
+  "findings": [],
+  "notes": "Original source blob SHAs match the active C04 assignment and prior continuation record. Official review/receipt files were absent at initial lookup. Existing English B3/form reference discovered at reviewed/en/KR_014648.json despite manifest classification; do not mark those rows as having no English until reconciled. A27041 financial thresholds: corporate paid-in capital KRW 850m, individual assets KRW 1.7bn, 11+ technicians. B2 liability insurance: death KRW 150m, injury KRW 30m, property KRW 1bn. A39656 administrative fines: KRW 3m/4m/5m. A27052 source citation anomaly noted in prior checkpoint: it says Act Article 93(12), while B1 says Article 9(12); do not silently change Korean source."
+}
