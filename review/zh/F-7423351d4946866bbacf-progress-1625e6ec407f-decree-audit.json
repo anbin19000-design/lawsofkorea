@@ -1,0 +1,41 @@
+{
+  "schema": "LAW_ZH_REVIEW_AUDIT_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "panel_id": "panel-01",
+  "assignment_id": "S2-c174f0e36bef5fedb717095f1cea01f6",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:1625e6ec407f]",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "review_path": "review/zh/F-7423351d4946866bbacf.json",
+  "review_blob": "1427d219d481eb06015c7559bb3d680be23dc25d",
+  "source_documents": 16,
+  "source_chinese_rows": 1207,
+  "previous_corrections": 259,
+  "current_corrections": 262,
+  "new_correction_ids": [
+    "B2-zh-00001",
+    "B2-zh-00009",
+    "B2-zh-00020"
+  ],
+  "verified_issues": [
+    "Enforcement Decree document title mistranslated as an Enforcement Rule",
+    "Council meeting quorum incorrectly rendered registered association members rather than incumbent council members",
+    "Consulting authority incorrectly rendered Minister instead of Head of Ministry of Food and Drug Safety"
+  ],
+  "previous_edits_preserved": true,
+  "source_sha_unchanged": true,
+  "official_worker_binding_verified": true,
+  "english_status": "Exact-version English for B1/B2 and decree annexes, no independent English for B3 and related forms/annexes.",
+  "complete_receipt_exists": false,
+  "full_semantic_review_completed": false,
+  "unresolved": [
+    "Full 1207-row semantic verification not complete",
+    "Annex and form XML source-cell correspondence not fully certified"
+  ],
+  "next_action": "Continue same entire legal family; verify all remaining cells and annexes. Only issue COMPLETE and receipts after full verification."
+}
