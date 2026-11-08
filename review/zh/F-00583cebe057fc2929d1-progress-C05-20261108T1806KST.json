@@ -6705,8 +6705,8 @@
       "id": "A8690-zh-00499",
       "doc": "A8690",
       "source_hash": "3ad4f0e72e3cc3678da9885e04d94ce4a616b16821cc98f5bc464dd873f17732",
-      "decision": "CORRECT",
-      "reason": "앞 행의 JPEG 단어 파편 잔류"
+      "decision": "SOURCE_TEXT_FRAGMENT_REVIEW_REQUIRED",
+      "reason": "JPEG 명칭이 여러 중국어 행으로 분절된 구조. 공백으로 삭제하는 교정은 불허, 정확한 대응 확인 필요."
     },
     {
       "id": "A8690-zh-00500",
@@ -10658,13 +10658,6 @@
       "corrected": "图像格式为 JPEG（联合图像专家组），分辨率范围为 300 至 400dpi（建议 300dpi）。",
       "reason": "JPEG 영문 기관명 분절"
     },
-    "A8690-zh-00499": {
-      "doc": "A8690",
-      "source_hash": "3ad4f0e72e3cc3678da9885e04d94ce4a616b16821cc98f5bc464dd873f17732",
-      "original": "up) 待办。",
-      "corrected": "",
-      "reason": "앞 행의 JPEG 단어 파편 잔류"
-    },
     "A8690-zh-00501": {
       "doc": "A8690",
       "source_hash": "2f426c1199764a25c6a8e46b5af7200813d6d6e14f14d150f1d879acaf2a11d5",
@@ -10807,7 +10800,7 @@
     }
   },
   "next_row_id": null,
-  "notes": "총 1374개 중국어 ID 모두 확인/판정 기록은 있으나 보류가 있으며, 58개 별표 행은 미확정. 완료 검증/영수증 불가.",
+  "notes": "빈 문자열 교정 00499 취소·원문 보존. 모든 1374 행 기록, 교정 166, 미확정 89.",
   "flagged_scan": {
     "range": "B1-zh-00102..B1-zh-00196",
     "method": "targeted anomaly screening, not full sequential review",
@@ -10903,6 +10896,11 @@
       "doc": "A8709",
       "status": "SOURCE_CONTENT_MISSING",
       "note": "Arabic portable certificate body absent in KO text extraction; only margin/note text available."
+    },
+    {
+      "id": "A8690-zh-00499",
+      "status": "SOURCE_TEXT_FRAGMENT_REVIEW_REQUIRED",
+      "note": "JPEG organization name split across A8690 rows 498-499; preserve original until source alignment."
     }
   ],
   "annex_status": {
@@ -10923,8 +10921,8 @@
   "summary": {
     "total_zh_rows": 1374,
     "recorded": 1374,
-    "corrected": 167,
-    "pending": 88,
+    "corrected": 166,
+    "pending": 89,
     "ko_blob_sha": "5249368872e1c46c3e583b88a759c0526e6e04ef",
     "en_blob_sha": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
     "zh_blob_sha": "8c67da73d62c784e988ce2b7655ef398504b0786"
