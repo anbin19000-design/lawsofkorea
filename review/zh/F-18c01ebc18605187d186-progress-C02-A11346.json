@@ -1,0 +1,37 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-18c01ebc18605187d186",
+  "worker": "C02",
+  "assignment_id": "UW-0a673f8b565379da27f279fba00d2225",
+  "status": "IN_PROGRESS",
+  "checkpoint_id": "C02-20261109-A11346-CHECKED",
+  "resume_at": "A11347",
+  "source_blob_sha": {
+    "ko": "1805b1dd08b6fb873f41f2ecc4a176f21df600e7",
+    "en": "012c37af32361e00852ac15d80479e7420c1c02b",
+    "zh": "33f05fab4e90982af82e2021dd54235f11428a33"
+  },
+  "verified_source_counts": {
+    "documents": 65,
+    "zh_rows": 5238
+  },
+  "reviewed_documents": [
+    {
+      "key": "A11345",
+      "title": "정신요양시설 행정처분기준",
+      "ko_source_sha256": "42a22baeda6b8d350862321c479cfb05873e8ec8d2de066a02a3a9807548b61b",
+      "zh_rows": 144,
+      "corrected_rows": 93,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A11346",
+      "title": "정신재활시설의 시설ㆍ수용인원 기준",
+      "ko_source_sha256": "bd26ca5cfbbfe7f7cb8c7bb356e1071bbd469b429864909ea81aca2875f6289b",
+      "zh_rows": 126,
+      "corrected_rows": 122,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    }
+  ],
+  "note": "A11345 and A11346 each reviewed fully in sequence against their complete Korean sources; all numeric sanction periods, area thresholds, occupancy limits and percentages retained. Main review accumulated and remains IN_PROGRESS. Resume at A11347."
+}
