@@ -1,0 +1,226 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_blob_observed": "003cad21fa104b32a22b7d401755e50ffab76f42",
+  "cumulative_corrections": 866,
+  "inspected_span": "A34912 rows 51–100 sequentially compared with Korean Schedule 2. Existing corrections at rows 58, 62–66, 74–75, 81, 85–87, 93–94 retained. Identified incomplete or distorted fragments in the exceptions to transaction-partner restrictions, sales restrictions, and unfair restriction standards.",
+  "proposed_corrections": [
+    {
+      "id": "A34912-zh-00051",
+      "source_hash": "352c41f53fb36f6c9bf78513fdfd9467c298b765374e0030785fe603b99a045d",
+      "text": "（特定交易对象；以下本目亦同）。但是，符合下列全部条件的，不在此限：",
+      "reason": "괄호 정의의 '특정한 거래상대방(가맹본부 포함, 이하 이 목에서 같다)'과 예외 도입을 복구."
+    },
+    {
+      "id": "A34912-zh-00052",
+      "source_hash": "4c5b28acbdbdb8db508d27c900824bc6004d15d83b87cedc5a5cc86d21b1a0c4",
+      "text": "",
+      "reason": "앞 행에 '다음의 요건을 모두 충족하는 경우'가 들어가므로 빈칸이 된 참조구문은 중복·MT 훼손 여부를 XML로 확인."
+    },
+    {
+      "id": "A34912-zh-00053",
+      "source_hash": "5fb47ac08d7afe9f1b523d658d3993b0100da8f9d675ef814c93e418e9f86e7b",
+      "text": "(1) 不动产、服务、设备、商品、原材料或辅助材料被客观认定为经营特许业务所必需的，",
+      "reason": "필수성 요건의 법적 판단 표현 복구."
+    },
+    {
+      "id": "A34912-zh-00054",
+      "source_hash": "f5ffd6465a952dfc2d2bf0a10d32450498ab10b8605bfe9f98c3c62506c200dc",
+      "text": "",
+      "reason": "앞 항목과 이어지는 문장 분절이므로 불필요한 '对'의 목적어를 원문 XML 확인 후 복구."
+    },
+    {
+      "id": "A34912-zh-00055",
+      "source_hash": "326e9cffb93de6ef4d691761679a7027e9c4900072ccbe60017a4d9956507c23",
+      "text": "(2) 如不与特定交易对象进行交易，特许总部的商标权",
+      "reason": "특정 거래상대방과 거래하지 않을 경우의 상표권 보호 요건을 복구."
+    },
+    {
+      "id": "A34912-zh-00056",
+      "source_hash": "934499c23e365ae6cd1da0b1b4c41ca1fae5e58b9fa71d493da0dd2ad9487774",
+      "text": "将难以保护，且客观上难以维持商品或服务的同一性，",
+      "reason": "동일성 유지가 어렵다는 요건을 정확히 표현."
+    },
+    {
+      "id": "A34912-zh-00057",
+      "source_hash": "f62481e02d51f051722c4bef34414f61da28d22b318abcd60b75b149b85a2841",
+      "text": "且该事实应得到客观认定。",
+      "reason": "'将被识别'라는 불완전 번역을 법정 객관적 인정 요건으로 교정."
+    },
+    {
+      "id": "A34912-zh-00059",
+      "source_hash": "01d13c90a4e5c72ae3fdb487a3ad85fbc70a3fa28605fe0602583ee69a955e97",
+      "text": "不动产、服务、设备、商品、原材料或辅助材料的具体明细及其交易对象信息，",
+      "reason": "거래상대방에 관한 정보와 대상 품목의 세부내역을 복구."
+    },
+    {
+      "id": "A34912-zh-00060",
+      "source_hash": "f43d48dda2d33cd7c732844bfc728256b990ac03c2411506a61c60942b186f25",
+      "text": "应事先告知加盟店经营者，",
+      "reason": "앞 행과 이어지는 정보 제공의 수신자·시점을 복구."
+    },
+    {
+      "id": "A34912-zh-00061",
+      "source_hash": "6865e92221d9aef6d341601dcbba765dcf4e76e360991138dd0652acec7d7d39",
+      "text": "并将该内容列入加盟合同。",
+      "reason": "가맹계약서 포함 의무를 원문에 맞게 완결."
+    },
+    {
+      "id": "A34912-zh-00065",
+      "source_hash": "659d0dbf6d90e1c65eb3ae65ec2035ac10efdbbafda76f6ea0200ed42b1a3b02",
+      "text": "如特许总部拟对上述交易条件作出不利于加盟店经营者的变更，应与加盟店经营者协商。",
+      "reason": "거래조건의 불리한 변경 시 협의 대상·의무를 복구."
+    },
+    {
+      "id": "A34912-zh-00067",
+      "source_hash": "bf3ae348fb5f8057e2bdc6b837cc3e0a1ebb128e57c39c58edc309aee699ac28",
+      "text": "不合理地强制加盟店经营者仅销售指定商品或服务，",
+      "reason": "부당하게 지정된 상품·용역만 판매하도록 하는 행위의 법적 의미를 명확히 함."
+    },
+    {
+      "id": "A34912-zh-00068",
+      "source_hash": "94c64c250e794487bcfd9e0e6041a56088d6d2bd6e9f9b3023835e94e58ebc41",
+      "text": "或者根据交易对象限制商品或服务销售的行为。但是，",
+      "reason": "거래상대방에 따른 판매 제한 행위라는 원문을 복구."
+    },
+    {
+      "id": "A34912-zh-00070",
+      "source_hash": "0f1eadaaf64bafdc126225d8f61e5d041c8cf8600cf1ca016a7dd938486b4aad",
+      "text": "(1) 如不限制加盟店经营者销售商品或服务，",
+      "reason": "예외 요건의 주체를 가맹점사업자로 명확히 함."
+    },
+    {
+      "id": "A34912-zh-00071",
+      "source_hash": "2a7bbefd3b4548e75c238dc8dc879c559ca2dd5d8ec55b312079a439fd24fdac",
+      "text": "将难以保护特许总部的商标权并维持商品或服务的同一性，",
+      "reason": "상표권 보호·상품 또는 용역 동일성 유지 요건 복구."
+    },
+    {
+      "id": "A34912-zh-00072",
+      "source_hash": "d83f9ac5df545ecf25b7e8af4f57939bf08ebaa165300d062d6c3632eb731163",
+      "text": "且该困难应得到客观认定；",
+      "reason": "객관적으로 인정될 것이라는 법률요건 복구."
+    },
+    {
+      "id": "A34912-zh-00073",
+      "source_hash": "e68fdda592c3d47ea66f2cb20bd036d7c2453b84a08342d92ea5057445c7a6a2",
+      "text": "(2) 特许总部事先通过信息披露书向加盟店经营者告知该事实，",
+      "reason": "정보공개서를 통한 사전 고지의 대상과 수신자 명확화."
+    },
+    {
+      "id": "A34912-zh-00076",
+      "source_hash": "cf27927be7ed7e98139372724486f6c0c8b8ac830f171fce775cf90a9e977b4d",
+      "text": "不合理地附加条件或强制加盟店经营者遵守营业区域的行为。",
+      "reason": "영업지역 준수 강제행위의 법률상 표현 복구."
+    },
+    {
+      "id": "A34912-zh-00077",
+      "source_hash": "f027c8980a03675cb828295c1da4f291543e38c8cf03481329d0291c3b9850ed",
+      "text": "但是，下列行为不属于不合理附加条件或强制行为：",
+      "reason": "강제행위가 아니라는 원문의 예외 규정 표현을 복구."
+    },
+    {
+      "id": "A34912-zh-00079",
+      "source_hash": "db642cb06270f2088ccac98b2c88e9f582e58a60c4e56bb4eaeccf731cc669fb",
+      "text": "(1) 特许总部确定加盟店经营者的营业据点区域的行为；",
+      "reason": "영업거점지역이라는 법령용어를 '营业地域范围'보다 정확히 표현."
+    },
+    {
+      "id": "A34912-zh-00080",
+      "source_hash": "b6a6ee7b921b2568bfcf58382b9f3b0cb17b10ce01582bfd9c5467bf2e7386a9",
+      "text": "(2) 加盟店经营者在其营业区域内履行销售责任后，",
+      "reason": "자기 영업지역에서의 판매책임을 다한 경우라는 조건절 복구."
+    },
+    {
+      "id": "A34912-zh-00082",
+      "source_hash": "d96ed9c70ea6e60320221eab8e161a10e79ec9ac24a982682197f180af4f1e3e",
+      "text": "(3) 加盟店经营者拟在其营业区域以外的其他地区销售时，",
+      "reason": "영업지역 외 판매 상황을 정확히 표현."
+    },
+    {
+      "id": "A34912-zh-00083",
+      "source_hash": "69b5ce8b51dbd12d02cb590849cb37657724cda70a695a82b581d75583c139f2",
+      "text": "要求其向该地区的加盟店经营者支付相当于广告宣传费等促销费用的一定补偿金的行为。",
+      "reason": "보상금 지급 대상 및 산정 기준을 원문에 맞춰 복구."
+    },
+    {
+      "id": "A34912-zh-00084",
+      "source_hash": "a419609efe6b478a5b65b11cfbba21383a6a6efc37560f4622a32eef5a21270b",
+      "text": "",
+      "reason": "앞 행의 '행위'와 중복되는 파편 여부 확인 필요."
+    },
+    {
+      "id": "A34912-zh-00089",
+      "source_hash": "85f9cf12638ddefda25786e49fd7f9230aa6ed5e542ef07197934d4049ea3fe7",
+      "text": "(1) 如不限制加盟店经营者的营业活动，特许总部的",
+      "reason": "마목 예외의 요건 주체 및 문장 연결 복구."
+    },
+    {
+      "id": "A34912-zh-00090",
+      "source_hash": "e184ffb4796d15a3524d1a943be0dffa5027565eabd635842cb74fce80192d10",
+      "text": "商标权将难以保护，且难以维持商品或服务的同一性，",
+      "reason": "상표권 보호 및 동일성 유지의 어려움이라는 요건 복구."
+    },
+    {
+      "id": "A34912-zh-00091",
+      "source_hash": "716d7fae132e11bd9faa4a1ca978b7e124cbcfb7265a639b50bada232ab8da18",
+      "text": "且该困难应得到客观认定；",
+      "reason": "객관적으로 인정될 것이라는 요건을 복구."
+    },
+    {
+      "id": "A34912-zh-00092",
+      "source_hash": "e68fdda592c3d47ea66f2cb20bd036d7c2453b84a08342d92ea5057445c7a6a2",
+      "text": "(2) 特许总部事先通过信息披露书向加盟店经营者告知该事实，",
+      "reason": "정보공개서 사전 고지 요건 복구."
+    },
+    {
+      "id": "A34912-zh-00096",
+      "source_hash": "7dcdd8a52273c0a7d1ee54251b23d4d585691e094281962de548cef70cfa4099",
+      "text": "但是，为保护特许总部的商标权并维持商品或服务的同一性，客观上认定确有困难，且",
+      "reason": "3호 서두의 예외 단서 및 객관적 어려움 문장을 복구."
+    },
+    {
+      "id": "A34912-zh-00097",
+      "source_hash": "179e6d8936587424034c65b1bd301e0ea894b16797150743af2f67a08abb17bd",
+      "text": "特许总部已事先通过信息披露书告知加盟店经营者该事实，",
+      "reason": "사전 정보공개서 고지 조건의 주체·대상 복구."
+    },
+    {
+      "id": "A34912-zh-00098",
+      "source_hash": "d28bd8c838b5dbaca7a080e96d7b9c922f1fef0fd69afeb2ae3b378779c16cf0",
+      "text": "并与加盟店经营者订立合同的，",
+      "reason": "가맹점사업자와 계약 체결이라는 조건을 완결."
+    },
+    {
+      "id": "A34912-zh-00099",
+      "source_hash": "26beeee5984e3c95d7a5bff863d64103e2224133abb12311a98849472cf1beec",
+      "text": "则不适用本款规定。",
+      "reason": "예외 효과인 본 항 미적용을 복구."
+    }
+  ],
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "chinese_total_rows": 1687,
+  "checked_rows": 849,
+  "corrected_rows": 866,
+  "quality_open_items": [
+    "Full sequential semantic audit of all 1,687 Chinese rows remains incomplete",
+    "429 rows without independently exact English require direct Korean/Chinese semantic comparison",
+    "A34909/A34910 candidates checkpoint-only",
+    "A34912 rows 51–100 candidate issues recorded; continue 101–147",
+    "Remaining annex/form rows require sequential review and final QC"
+  ],
+  "note": "No source SHA changed. Proposed changes checkpoint-only; official correction count unchanged. IN_PROGRESS; no receipt."
+}
