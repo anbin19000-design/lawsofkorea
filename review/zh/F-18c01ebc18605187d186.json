@@ -1346,6 +1346,69 @@
       "source_hash": "c0e096765216e232ffad058cd2485d52018f3de7a947239b3451d401d684aa6b",
       "target_id": "XML:2217610",
       "source_progress": "C02 sequential Annex 1 review; corrected clearly corrupted fragments against Korean qualification table"
+    },
+    {
+      "id": "A30229-zh-00066",
+      "text": "完成培训的人",
+      "source_hash": "7e7f2943afe7db6eaa644353963dc4951696fe9189892dca7bc64ae5919513b1",
+      "target_id": "XML:2217611",
+      "source_progress": "C02 sequential Annex A30229 review; obvious qualification category mistranslation"
+    },
+    {
+      "id": "A30229-zh-00067",
+      "text": "2. 二级精神健康临床心理师",
+      "source_hash": "4c7e9ded854139778d2354c2dff39d8f6e7229c6de98cf7f7a0879cb14ba1e2b",
+      "target_id": "XML:2217612",
+      "source_progress": "C02 sequential Annex A30229 review; obvious qualification category mistranslation"
+    },
+    {
+      "id": "A30229-zh-00068",
+      "text": "2. 二级精神健康护士",
+      "source_hash": "86a4285db5c70fd17b6bb03f4f6c0e40a1ab7a3e79236d9e301f4d38c2f6b295",
+      "target_id": "XML:2217613",
+      "source_progress": "C02 sequential Annex A30229 review; obvious qualification category mistranslation"
+    },
+    {
+      "id": "A30229-zh-00069",
+      "text": "2. 二级精神健康社会工作者",
+      "source_hash": "b40a9767d06a7cc0340b2b0e2fa9959284717bb400ef46379b2e0c495645d69c",
+      "target_id": "XML:2217614",
+      "source_progress": "C02 sequential Annex A30229 review; obvious qualification category mistranslation"
+    },
+    {
+      "id": "A30229-zh-00070",
+      "text": "2. 二级精神健康作业治疗师",
+      "source_hash": "112ee6069dceab0f6c4d68d8f6810509fa06c7b028b761c06a104cbf8d05ac18",
+      "target_id": "XML:2217615",
+      "source_progress": "C02 sequential Annex A30229 review; obvious qualification category mistranslation"
+    },
+    {
+      "id": "A30229-zh-00071",
+      "text": "临床心理师资格",
+      "source_hash": "a005cd5c6a1c79217f2b8132df0d033ca546ed2b3afb2728cba83423b724d56d",
+      "target_id": "XML:2217616",
+      "source_progress": "C02 sequential Annex A30229 review; obvious qualification category mistranslation"
+    },
+    {
+      "id": "A30229-zh-00072",
+      "text": "护士资格",
+      "source_hash": "6b734e796ec8fb8a1d7bd1560016a360d70983f2c8d7406e54ec5bafba4aed96",
+      "target_id": "XML:2217617",
+      "source_progress": "C02 sequential Annex A30229 review; obvious qualification category mistranslation"
+    },
+    {
+      "id": "A30229-zh-00073",
+      "text": "社会工作者资格",
+      "source_hash": "5f2f2ef226ea085686def4e0ae88d32b4b698870a2b5d67ad9e9b9cc32061aed",
+      "target_id": "XML:2217618",
+      "source_progress": "C02 sequential Annex A30229 review; obvious qualification category mistranslation"
+    },
+    {
+      "id": "A30229-zh-00074",
+      "text": "作业治疗师资格",
+      "source_hash": "25886096976ed74bdf3fec22f89dac67e1fd290dc5daf2d5f90890474048fd17",
+      "target_id": "XML:2217619",
+      "source_progress": "C02 sequential Annex A30229 review; obvious qualification category mistranslation"
     }
   ],
   "adjudicated_edit_count": 0,
@@ -1360,7 +1423,7 @@
   "ordered_reading_certification": {
     "korean": "READ_COMPLETE_ALL_65_DOCUMENTS",
     "english": "READ_COMPLETE_AVAILABLE_SOURCES_B1_AND_B2_FALLBACK",
-    "chinese": "IN_PROGRESS; B2 through row 105; Annex A30229 reviewed sequentially through row 65"
+    "chinese": "IN_PROGRESS; B1 complete; B2 through row 105; Annex A30229 reviewed through row 74; remaining table and other annexes/forms pending"
   },
   "checked_unique_ids": [
     "B1-zh-00001",
@@ -1707,10 +1770,19 @@
     "A30229-zh-00062",
     "A30229-zh-00063",
     "A30229-zh-00064",
-    "A30229-zh-00065"
+    "A30229-zh-00065",
+    "A30229-zh-00066",
+    "A30229-zh-00067",
+    "A30229-zh-00068",
+    "A30229-zh-00069",
+    "A30229-zh-00070",
+    "A30229-zh-00071",
+    "A30229-zh-00072",
+    "A30229-zh-00073",
+    "A30229-zh-00074"
   ],
-  "checked_rows": 299,
-  "corrected_rows": 190,
+  "checked_rows": 354,
+  "corrected_rows": 199,
   "notes": [
     "Only obvious omissions of clause numbering and a missing subparagraph marker corrected; substantive terminology and existing wording retained.",
     "B2 English is an older fallback (version 272521), not exact current Korean version; newer provisions require Korean-Chinese comparison.",
@@ -1747,6 +1819,7 @@
     "Started dedicated review of Annex A30229 (Enforcement Decree Schedule 1). Corrected its official title, qualification-standard heading, column heading and four professional category names. The remaining table cells A30229-zh-00010 onward require sequential Korean-to-Chinese table-structure review; not marked complete.",
     "Sequential review resumed in Annex A30229 through row 24. Corrected obvious mistranslations in the social-work qualification, the Medical Technicians Act citation, and the occupational-therapy training-period exclusion. Other reviewed fragments were retained pending the next table-aligned pass.",
     "Sequential Annex A30229 review continued through rows 10-25. Corrected clear mistranslations of statutory 'under the Nursing Act', social welfare/social work academic fields, Medical Technicians Act reference, nursing master's qualification, and mental-health occupational therapist terminology. Row A30229-zh-00024 contains corrupted machine text ('球 END'); exact source-cell alignment must be established before replacement. Rows 20, 22, 24-25 remain subject to source-aligned table QA; no completion claim.",
-    "Continued Annex A30229 sequentially through row 65. Corrected clear mistranslations/corrupted fragments for the Minister of Health and Welfare, occupational therapy, the defined training institution, table reference, person, and exclusion-period phrase. Uncertain fragmented cells remain for contextual table QA."
+    "Continued Annex A30229 sequentially through row 65. Corrected clear mistranslations/corrupted fragments for the Minister of Health and Welfare, occupational therapy, the defined training institution, table reference, person, and exclusion-period phrase. Uncertain fragmented cells remain for contextual table QA.",
+    "Sequential review of Annex A30229 rows 66-74. Corrected the four grade-2 professional category labels and qualification labels where the machine translation had dropped or distorted the professional specialty. Fragmentary repeated cells from row 75 onward remain pending contextual table alignment."
   ]
 }
