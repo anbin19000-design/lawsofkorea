@@ -1,0 +1,131 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:34fa8ae3de70",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "english_status": "A25467 NO_DOCUMENT_ENGLISH; Korean source controls",
+  "checked_rows": 10,
+  "checked_ids": [
+    "A25467-zh-00002",
+    "A25467-zh-00003",
+    "A25467-zh-00004",
+    "A25467-zh-00006",
+    "A25467-zh-00009",
+    "A25467-zh-00013",
+    "A25467-zh-00016",
+    "A25467-zh-00019",
+    "A25467-zh-00020",
+    "A25467-zh-00021"
+  ],
+  "edits": [
+    {
+      "id": "A25467-zh-00002",
+      "text": "[ ] 智慧创新事业",
+      "source_hash": "e4b6c2bae4c5c1b1984fd53300838d75995dc14098b6b7dc02621f3cc9021b24",
+      "target_id": "XML:1802778"
+    },
+    {
+      "id": "A25467-zh-00003",
+      "text": "批准确认书",
+      "source_hash": "2a447baea94c5e4722855b435b550e788276b02371e09aa22a8eec02cdcb02fb",
+      "target_id": "XML:1802779"
+    },
+    {
+      "id": "A25467-zh-00004",
+      "text": "[ ] 智慧实证事业",
+      "source_hash": "7a0b9bef1f76ba0d4ac192b1bf7ccb617b105e598dc5c034283cb5fc1b200bca",
+      "target_id": "XML:1802780"
+    },
+    {
+      "id": "A25467-zh-00006",
+      "text": "第　号",
+      "source_hash": "b94e182b9a95d9dc23294428515515c68a59d1d634e19d301cdc19e9a9516fed",
+      "target_id": "XML:1802782"
+    },
+    {
+      "id": "A25467-zh-00009",
+      "text": "法人名称（姓名）",
+      "source_hash": "9444b0a00a812f655b27d369eb4c26c19b67484b28bc7411ca01f82e11d76532",
+      "target_id": "XML:1802786"
+    },
+    {
+      "id": "A25467-zh-00013",
+      "text": "负责人姓名",
+      "source_hash": "261b57a79be08234e7fecc714416fc5066fe557c83f23b6ae778c5c825138510",
+      "target_id": "XML:1802790"
+    },
+    {
+      "id": "A25467-zh-00016",
+      "text": "主要内容",
+      "source_hash": "55fa9f20eb47cc9f9fe2ca2fc9f80c7019fceed7ed10fb6567a7f997c1f14f7b",
+      "target_id": "XML:1802793"
+    },
+    {
+      "id": "A25467-zh-00019",
+      "text": "特例条件",
+      "source_hash": "177c9759b162af824022de6bb975a2c5fb3326a52e03b10ec748379b3af5698f",
+      "target_id": "XML:1802797"
+    },
+    {
+      "id": "A25467-zh-00020",
+      "text": "※ 根据《智慧城市建设及产业振兴等相关法律》第四十九条第八款，国土交通部长官为确保环境、安全、卫生等",
+      "source_hash": "8aa9e36f5ec95f2a66efe0282b3f17b80e07ba37a34a5dbe116bc3f2659fba51",
+      "target_id": "XML:1802798"
+    },
+    {
+      "id": "A25467-zh-00021",
+      "text": "附加条件的，应当填写该等条件。",
+      "source_hash": "50aec19d11c8dd9a30947989fac05bd5449b6d657a2d28fbb816b2df582ee4ce",
+      "target_id": "XML:1802799"
+    }
+  ],
+  "checked_details": [
+    {
+      "ids": [
+        "A25467-zh-00002",
+        "A25467-zh-00003",
+        "A25467-zh-00004"
+      ],
+      "reason": "한국어 승인 확인서의 스마트혁신사업·스마트실증사업 체크박스 및 제목이 기존 번역 후보와 일치함",
+      "verdict": "RECONFIRM_PRIOR_CANDIDATES"
+    },
+    {
+      "ids": [
+        "A25467-zh-00006",
+        "A25467-zh-00009",
+        "A25467-zh-00013",
+        "A25467-zh-00016",
+        "A25467-zh-00019"
+      ],
+      "reason": "승인번호, 법인명(성명), 대표자명, 주요 내용, 특례 조건을 한국어 서식과 대조하여 오역을 교정한 기존 후보 유지",
+      "verdict": "RECONFIRM_PRIOR_CANDIDATES"
+    },
+    {
+      "ids": [
+        "A25467-zh-00020",
+        "A25467-zh-00021"
+      ],
+      "reason": "환경·안전·보건 확보를 위하여 국토교통부장관이 부가한 조건의 기재 의무를 앞뒤 두 셀의 연결로 복원",
+      "verdict": "RECONFIRM_PRIOR_CANDIDATES"
+    }
+  ],
+  "prior_progress": [
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-e772d50bbb37.json"
+  ],
+  "unresolved_ids": [
+    "A25467-zh-00022",
+    "A25467-zh-00023",
+    "A25467-zh-00024",
+    "A25467-zh-00025"
+  ],
+  "next_review": "A25467-zh-00022 to 00025 cross-cell issue, then A25468 form; whole-family review remains outstanding",
+  "note": "Ten historical candidates rechecked, not added as new unique coverage. No source mutation, no COMPLETE or receipt."
+}
