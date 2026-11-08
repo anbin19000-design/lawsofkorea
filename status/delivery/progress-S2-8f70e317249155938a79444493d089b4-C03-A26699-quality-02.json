@@ -1,0 +1,275 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26699",
+  "quality_batch": "A26699-quality-02",
+  "range": {
+    "first": "A26699-zh-00026",
+    "last": "A26699-zh-00050"
+  },
+  "quality_checked_rows": 25,
+  "quality_passed_rows": 25,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "A26699-zh-00026",
+    "A26699-zh-00027",
+    "A26699-zh-00028",
+    "A26699-zh-00029",
+    "A26699-zh-00030",
+    "A26699-zh-00031",
+    "A26699-zh-00032",
+    "A26699-zh-00033",
+    "A26699-zh-00034",
+    "A26699-zh-00035",
+    "A26699-zh-00036",
+    "A26699-zh-00037",
+    "A26699-zh-00038",
+    "A26699-zh-00039",
+    "A26699-zh-00040",
+    "A26699-zh-00041",
+    "A26699-zh-00042",
+    "A26699-zh-00043",
+    "A26699-zh-00044",
+    "A26699-zh-00045",
+    "A26699-zh-00046",
+    "A26699-zh-00047",
+    "A26699-zh-00048",
+    "A26699-zh-00049",
+    "A26699-zh-00050"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26699-00001-00066.json",
+  "prior_quality_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26699-quality-01.json",
+  "results": [
+    {
+      "id": "A26699-zh-00026",
+      "source_hash": "1201d4e0ce1cdea263a1949e6adbdd6a7726dae6ebf7f8ef10986a5482c3c0d6",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "의사·간호사·그 밖의 종사자 인원 표기"
+    },
+    {
+      "id": "A26699-zh-00027",
+      "source_hash": "372647e8fb5ca2d2a7b60c2a8278f50021abd02fa4bb2c827c57c7c99d32b7b5",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법 제29조제1항·시행령 제20조제2항·시행규칙 제7조제1항 인용"
+    },
+    {
+      "id": "A26699-zh-00028",
+      "source_hash": "e9473b3a41d8ede5084c0cb772465fa0e58e1e49adfa45172eebc50aed600768",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법 제29조제1항·시행령 제20조제2항·시행규칙 제7조제1항 인용"
+    },
+    {
+      "id": "A26699-zh-00029",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청 연·월·일, 신청인 서명"
+    },
+    {
+      "id": "A26699-zh-00030",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청 연·월·일, 신청인 서명"
+    },
+    {
+      "id": "A26699-zh-00031",
+      "source_hash": "1bfa95cfdfb79f2ff0ecd2412e922b1aeb3936cb6a915f5ec6569fc9388a5768",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청 연·월·일, 신청인 서명"
+    },
+    {
+      "id": "A26699-zh-00032",
+      "source_hash": "ef1661bfe1d0b773aea1bc51daf1dfa70e9d997454acf123165fd7df67dc959c",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청 연·월·일, 신청인 서명"
+    },
+    {
+      "id": "A26699-zh-00033",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청 연·월·일, 신청인 서명"
+    },
+    {
+      "id": "A26699-zh-00034",
+      "source_hash": "fc7b3ed4206b66df52cc1e4cb490201db862b42bd3a78b2187ddc356dcadb31c",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "성평등가족부장관 및 지방자치단체장 수신인 확인"
+    },
+    {
+      "id": "A26699-zh-00035",
+      "source_hash": "2099cd7f323c38ac89f0ebc4dd140529ccb048fb87aa42935038b81b0325020d",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "성평등가족부장관 및 지방자치단체장 수신인 확인"
+    },
+    {
+      "id": "A26699-zh-00036",
+      "source_hash": "9170dd7a099e9a3c170bade681381d2fdb0c637188c7b0f05d4447fec48577cb",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "성평등가족부장관 및 지방자치단체장 수신인 확인"
+    },
+    {
+      "id": "A26699-zh-00037",
+      "source_hash": "ef1661bfe1d0b773aea1bc51daf1dfa70e9d997454acf123165fd7df67dc959c",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법인 정관, 법 제20조제1항 구분 및 수수료 없는 제출서류 확인"
+    },
+    {
+      "id": "A26699-zh-00038",
+      "source_hash": "eaaf67da3672ea147838955c5b1dc2bbaf0ea2ae0b2baafeaab332c1b722dfc1",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법인 정관, 법 제20조제1항 구분 및 수수료 없는 제출서류 확인"
+    },
+    {
+      "id": "A26699-zh-00039",
+      "source_hash": "0313408cdf794fea03a1b1d6758e8ad6cc7c6a9f70b7256de98dafab6a45bf1a",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법인 정관, 법 제20조제1항 구분 및 수수료 없는 제출서류 확인"
+    },
+    {
+      "id": "A26699-zh-00040",
+      "source_hash": "9b9f765e005f6811c5e986daa041057cea83f9af6c19ca7d70a7ef3c9ab707c9",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법인 정관, 법 제20조제1항 구분 및 수수료 없는 제출서류 확인"
+    },
+    {
+      "id": "A26699-zh-00041",
+      "source_hash": "60e7e127fa47350f9b4e57d786ead652cd16b4bc4439df4b30b0a8a198a8505d",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법인 정관, 법 제20조제1항 구분 및 수수료 없는 제출서류 확인"
+    },
+    {
+      "id": "A26699-zh-00042",
+      "source_hash": "72ea3d64ace5bc9414498b815d4305c8867b0942a508179e0657ad60d1274daa",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법인 정관, 법 제20조제1항 구분 및 수수료 없는 제출서류 확인"
+    },
+    {
+      "id": "A26699-zh-00043",
+      "source_hash": "7da47576431341a342fbbe85664edc486e575aa5d18c82bcd3ef14d59f4c68c0",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법인 정관, 법 제20조제1항 구분 및 수수료 없는 제출서류 확인"
+    },
+    {
+      "id": "A26699-zh-00044",
+      "source_hash": "b827c74bf8d6e87420e0f5fbb59551e36f9d2f125502ccc70f9f11139bd8294d",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "담당 공무원 확인사항·등기사항증명서·사업자등록증 확인"
+    },
+    {
+      "id": "A26699-zh-00045",
+      "source_hash": "4236e13cff2fc275a6feae03a45c519bc07957a3eb60d3fa0f341e0a33dbcdba",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "담당 공무원 확인사항·등기사항증명서·사업자등록증 확인"
+    },
+    {
+      "id": "A26699-zh-00046",
+      "source_hash": "db9efdd62ca7a22d7a85fd588aee08ce707abe419b5b52377d0a3a24f31070a7",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "담당 공무원 확인사항·등기사항증명서·사업자등록증 확인"
+    },
+    {
+      "id": "A26699-zh-00047",
+      "source_hash": "1a5be3c5938c8c2cedf096bb1485ce5f53335572edc7c3dbbf132e7bf9927045",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "담당 공무원 확인사항·등기사항증명서·사업자등록증 확인"
+    },
+    {
+      "id": "A26699-zh-00048",
+      "source_hash": "c88c8339a7fb4000b1bc2b6aeec9d618ff91843d81bcbdebe537ebbc6bdf3ec8",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "담당 공무원 확인사항·등기사항증명서·사업자등록증 확인"
+    },
+    {
+      "id": "A26699-zh-00049",
+      "source_hash": "0172f1378d584a298b8a9ea70a13c2995edafe45e91b4e7c439381bd06cb119d",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "담당 공무원 확인사항·등기사항증명서·사업자등록증 확인"
+    },
+    {
+      "id": "A26699-zh-00050",
+      "source_hash": "7a75dfb4f98958b7a32c3f19046d3b04a2959a4b408c360771276c41f7f9e542",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "담당 공무원 확인사항·등기사항증명서·사업자등록증 확인"
+    }
+  ],
+  "edits": [],
+  "note": "A26699 26~50번 의료기관 지정신청서의 관련 법령 인용, 의료인 숫자 칸, 수신인, 제출서류 및 담당 공무원 확인사항을 한국어와 대조. 기저장 교정과 ID·해시 불변. 전체 COMPLETE 아님."
+}
