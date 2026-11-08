@@ -1,0 +1,8936 @@
+{
+  "assignment_id": "S2-8f70e317249155938a79444493d089b4",
+  "at_commit": "3d2c88c1d918cf26b84b4549266eea86f1e503ff",
+  "excluded": {},
+  "files": [
+    {
+      "blob": "e04caa454059af1c11dbb87a76e058653359cf66",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26693-00001-00030.json"
+    },
+    {
+      "blob": "b086a0d46ccf92588707ad994efe3ecfe9bb3c0e",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26693-00031-00064.json"
+    },
+    {
+      "blob": "0b91a041ded3b870a97087e71788868b10f85f52",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26693-00065-00102.json"
+    },
+    {
+      "blob": "a19bc41e6592672622b742209bfe62aadb98f12f",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26693-quality-01.json"
+    },
+    {
+      "blob": "9f74ca99b8b7a9dd037a4d99a748c253709a3f75",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26693-quality-02.json"
+    },
+    {
+      "blob": "6a5c7f3d75b61f88e5ea639b48cf5fe41f603023",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26693-quality-03.json"
+    },
+    {
+      "blob": "e936f1e933dbded6a3b2c4458bee6c81d3069457",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26693-quality-04.json"
+    },
+    {
+      "blob": "636e1bc410a5c9af953990457f0e384fe17c499d",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26693-quality-fix-01.json"
+    },
+    {
+      "blob": "2aa78fd87dffe6189686184573606238f03ad00f",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26693-union-proof.json"
+    },
+    {
+      "blob": "49885f4877e5ca28a0878f082852e17496fa24e8",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26694-00001-00052.json"
+    },
+    {
+      "blob": "efc7d670a7b8770e9ec518ac5189709292881e49",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26694-quality-01.json"
+    },
+    {
+      "blob": "52cbe1e5b0b5b0f8fd0048866bfceddc97354f71",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26694-quality-02.json"
+    },
+    {
+      "blob": "b3fb4219938fdde86a7b5b3afc3e3900ff498191",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26695-00001-00025.json"
+    },
+    {
+      "blob": "509b9194187fa21607da77417a154e97ed623de5",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26695-quality-01.json"
+    },
+    {
+      "blob": "d0aa85db6940f5e75440b1f71955f97db098dfb5",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26696-00001-00019.json"
+    },
+    {
+      "blob": "a06382467ffea0d85bdc72588c896cdbc15742a6",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26696-quality-01.json"
+    },
+    {
+      "blob": "98abf683eb833e54751597c527f789646ba4d2c8",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26697-00001-00043.json"
+    },
+    {
+      "blob": "c73f6b2e86a61c84e576749b86e4d8c165c9fcd3",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26697-A26699-unresolved-quality-01.json"
+    },
+    {
+      "blob": "aab966ebfb4434992ac5f55cb52e5511b72f2d65",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26697-quality-01.json"
+    },
+    {
+      "blob": "46ac048a6ecd631097761d55701459fc9030f6c4",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26697-quality-02.json"
+    },
+    {
+      "blob": "1be752baa8af613a9df455cabfbd6a0556676caf",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26698-00001-00013.json"
+    },
+    {
+      "blob": "5eb4945b979b7a75e818dc8025479886feb7aac7",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26698-quality-01.json"
+    },
+    {
+      "blob": "ffe61c56c1571686988d7d1304fe6e024be9b926",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26698-quality-fix-01.json"
+    },
+    {
+      "blob": "bfa7e511f0f1ee768d6e269e369a0dfd98ec873f",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26699-00001-00066.json"
+    },
+    {
+      "blob": "68f594997d280349b764e53ef01da91c3930d6e8",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26699-quality-01.json"
+    },
+    {
+      "blob": "3fdf51165ca6c4f444dc2dd166d41f4a0c286301",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26699-quality-02.json"
+    },
+    {
+      "blob": "ef36c3f01770ee5b8179e88363d03bd8528154ef",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26699-quality-03.json"
+    },
+    {
+      "blob": "12e70d53e16c2f23ceac7799cf87fd0e37806aa6",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26700-00001-00017.json"
+    },
+    {
+      "blob": "b8666a4875ff6a8022c84856eaeb32c106b583c8",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26700-quality-01.json"
+    },
+    {
+      "blob": "54b00de0f40d466309336ca42210bcb0ae3013ac",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26701-00001-00095.json"
+    },
+    {
+      "blob": "c53ea0c7268576d0cdbd9884706fae0920e009f2",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26701-quality-01.json"
+    },
+    {
+      "blob": "23c1ddcdd8151531d59708c795ad75c615c877b1",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26701-quality-02.json"
+    },
+    {
+      "blob": "b33255c2dd7f90ea6a4f24b8ab9a9820258cdd3d",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26701-quality-03.json"
+    },
+    {
+      "blob": "bf722f626fbebbfd3f0326f0690e1d9884dbd58d",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26701-quality-04.json"
+    },
+    {
+      "blob": "55cf633daa327babc44ef6f85db4c3b7cb96effd",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26702-00001-00030.json"
+    },
+    {
+      "blob": "f62b7aa57755587d86a132cdf70a43d0112140e1",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26702-quality-01.json"
+    },
+    {
+      "blob": "7db4c905a80ca2040c1ec403e50937e55ba8a0cc",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26703-00001-00083.json"
+    },
+    {
+      "blob": "03cff709cb84d3819441f9fa2839fabf49324f6d",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26703-50-58-adjudication-20261108.json"
+    },
+    {
+      "blob": "11e9513cbfcb9ec2caeffb83029b9ddac79ba787",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26703-quality-01.json"
+    },
+    {
+      "blob": "aa96d6766d89f74de0c22935a47e3757a97bb2b3",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26703-quality-02.json"
+    },
+    {
+      "blob": "2d6703789f8a0adf39e9c5aa1eab1d280b0612c0",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26704-00001-00029.json"
+    },
+    {
+      "blob": "b656ebc968993782e98178706041669205aebab3",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26705-00001-00033.json"
+    },
+    {
+      "blob": "82a7c720e7b4d7b66e12de5394e578894efe2558",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26705-R1-duplicate-adjudication-20261108.json"
+    },
+    {
+      "blob": "f00ddd5b63a5ce67a926c33a38a41931571da4b0",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39474-00001-00012.json"
+    },
+    {
+      "blob": "7f3c0030f57b8053c3968e96ca90b7dcb8f9402d",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39474-00013-00029.json"
+    },
+    {
+      "blob": "56081a0f08af7f91873731e2efe3df15c07d2eb5",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39474-00030-00044.json"
+    },
+    {
+      "blob": "38f19acba5d9f2f53c9f364e2a57a4eeb3215ddc",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39474-00045-00065.json"
+    },
+    {
+      "blob": "59f80421711dd912ae020c5b8e0347e64dc17d70",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39474-00066-00078.json"
+    },
+    {
+      "blob": "b0e77cbe825a8fd5d8b24b31accf0ddded9eb119",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39474-quality-01.json"
+    },
+    {
+      "blob": "fe341afd39820488f2837451928cf3230d9250d4",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39474-quality-02.json"
+    },
+    {
+      "blob": "f0d6bc3e89e6b292e4669af62a5aed4df1e6454c",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39474-quality-03.json"
+    },
+    {
+      "blob": "4a620705281992f769d5f5740d119c0bbe28718c",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39474-quality-04.json"
+    },
+    {
+      "blob": "d9f6a33b8699c6513adba93a3c9610b83ce0eae7",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39474-quality-05.json"
+    },
+    {
+      "blob": "5476d5ae6800110eff5e5d93543c4b7271fc41eb",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39475-00001-00015.json"
+    },
+    {
+      "blob": "eb5b249b4cffa2081156e8afa883d80574f6061f",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39475-00016-00029.json"
+    },
+    {
+      "blob": "ea8ba9dce7939fdd95e08429ed3fdd35f9722bfb",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39475-00030-00053.json"
+    },
+    {
+      "blob": "12439cfe3f0bdb2ef0a1ffa86c4604561ce0d811",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39476-00001-00022.json"
+    },
+    {
+      "blob": "22fcc98fecd229ee634baa73d9ab6958185dcea9",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39476-00023-00043.json"
+    },
+    {
+      "blob": "bde5e47a8cfd50d5a26a8320ae99431aecb7f3c2",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39476-00044-00065.json"
+    },
+    {
+      "blob": "08f85ec14c569afebce0e6c48f2d1b6290e5360a",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39477-00001-00024.json"
+    },
+    {
+      "blob": "228af72b648c07e6699b19c871fc643ce2e6966f",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39477-00025-00043.json"
+    },
+    {
+      "blob": "9a7957006aba2cd3d393dc05452bafeec05c4064",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39478-00001-00024.json"
+    },
+    {
+      "blob": "8c873e0644c7c98e98cbb287d5643433e9714743",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39478-00025-00050.json"
+    },
+    {
+      "blob": "939a00b79ce2fcaa07e744e5bddd5097e419dde8",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39478-00051-00089.json"
+    },
+    {
+      "blob": "144249be19c33c46ffc5bedc40316956bdb8911d",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39478-00090-00123.json"
+    },
+    {
+      "blob": "02225e3b652026f53172a000d5438e56ae0c4416",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39479-00001-00049.json"
+    },
+    {
+      "blob": "5e11195e78394d150cd8f512567fca187f6b53d4",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00001-00010.json"
+    },
+    {
+      "blob": "f0f45ca371fbe06593064ca9a5cef1635348fe63",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00011-00015.json"
+    },
+    {
+      "blob": "0ccf2eee524221b2b19c112f9da0ab809ff295f5",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00016-00020.json"
+    },
+    {
+      "blob": "275ecabdedafbf7159b540aeddf3d2d66607810d",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00016-final-00016.json"
+    },
+    {
+      "blob": "b67e79aa45ebff4ac9631fa29970e46999754644",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00021-00025.json"
+    },
+    {
+      "blob": "48526b06655a661964837e2ffb58d8093eb4ddb7",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00026-00030.json"
+    },
+    {
+      "blob": "eaaea2e98defc59047594b9c9ad40d7c76d1d8b7",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00031-00035.json"
+    },
+    {
+      "blob": "9b3f631fe82df20a495b1364d2e07496f3baf769",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00036-00040.json"
+    },
+    {
+      "blob": "34c3cb27ccfe452540b89789fe86c81a5de5ef07",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00041-00045.json"
+    },
+    {
+      "blob": "07762bfddabfb2badaccfbb1f48aa3c29702300c",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00046-00050.json"
+    },
+    {
+      "blob": "88dbb0c6c4c429e40a2cba0dfb20eb051715a08a",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00051-00056.json"
+    },
+    {
+      "blob": "883ce33c8aa461a752e7e625d9bc5733332805ff",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00057-00062.json"
+    },
+    {
+      "blob": "d3f322fc59d35ab5ac4fac1b6d3b619daa5f0836",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-B1-quality-08.json"
+    },
+    {
+      "blob": "1970e8d5c101c002bd8512401decdae7a4b7cdfe",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-B1-quality-09.json"
+    },
+    {
+      "blob": "c78c924f170edd07800dfde97eaaed079fcdace1",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-quality-01.json"
+    },
+    {
+      "blob": "3a956520b2049aa0026d2ae3e3079d953315ffd8",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-quality-02.json"
+    },
+    {
+      "blob": "784cc7c0518deed3e61c649cb6d989027ebbd97e",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-quality-03.json"
+    },
+    {
+      "blob": "513b32e56b229a5cb7bc00936dc78253081dd4e5",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-quality-04.json"
+    },
+    {
+      "blob": "eeec30b336308cfb939a2d0edc88c92ce8e062f4",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-quality-05.json"
+    },
+    {
+      "blob": "ae339e5b588a0765639c4c0f1184b9bd381192cb",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-quality-06.json"
+    },
+    {
+      "blob": "324460005dee4a91b38a97e70906415bf7284604",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-quality-07.json"
+    },
+    {
+      "blob": "d1f0c1b1f0cc55aee8c1381591a10c13a25e1b56",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-quality-10.json"
+    },
+    {
+      "blob": "7fbf2558a478497e9bf700cc6a5a991f036c0c8e",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-quality-11.json"
+    },
+    {
+      "blob": "f43db61782b3ab7817f26ca1584dbe738adb4eac",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-quality-12.json"
+    },
+    {
+      "blob": "1e94c7856ffc9b4bdd5fd5b895dc5ef1eb172770",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-00001-00006.json"
+    },
+    {
+      "blob": "1eb40e71a7cd5169493ca1c2fdbefea96768e9a8",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-00007-00012.json"
+    },
+    {
+      "blob": "7c57d323edc3108bce3b8c754219d460eb485c17",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-00013-00017.json"
+    },
+    {
+      "blob": "0103bb6a683760cbbea6f9347adad8cda91a4d31",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-00018-00022.json"
+    },
+    {
+      "blob": "86b3766ca65a9f94edb59c5f33a659a11b9e4f07",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-00023-00027.json"
+    },
+    {
+      "blob": "883bc7b8073d07e988c871a4b1c9f20dc1218a4e",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-00028-00033.json"
+    },
+    {
+      "blob": "69d9d225fb6ee0f2a3923d1bc9a064a09233c214",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-00034-00037.json"
+    },
+    {
+      "blob": "b941d4a11df6db465fbf69b35f812eda8b28e0cc",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-quality-01.json"
+    },
+    {
+      "blob": "67111231b9a35f96c0a6bb614ee05467ca7bbeb3",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-quality-02.json"
+    },
+    {
+      "blob": "e79c780aa36c95e09930b395b8d43a82c56d171c",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-quality-03.json"
+    },
+    {
+      "blob": "6dc4f2c82399ac8df11025859b9f5f12a214c74a",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-quality-04.json"
+    },
+    {
+      "blob": "df4c8731774e7535f052cc9188825593b10227ee",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-quality-05.json"
+    },
+    {
+      "blob": "bfbf115ad96f6f72548c31562336074296a690b1",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-quality-06.json"
+    },
+    {
+      "blob": "0888af7c608ee15ed6d5d63b89256f1cf3056095",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-quality-07.json"
+    },
+    {
+      "blob": "d65e34679a87c3621c685b6734b75809702361f0",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-quality-08.json"
+    },
+    {
+      "blob": "6630dcfc3eb840806fc2403a18986716af39915c",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-quality-reconcile-01.json"
+    },
+    {
+      "blob": "488a5408f3d610cf914d3661e6dd2da027b45f07",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B3-00001-00004.json"
+    },
+    {
+      "blob": "827e9e3c9f4f97ca4076d1fa70368343701510d4",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B3-00005-00009.json"
+    },
+    {
+      "blob": "c070f2b5f478c974cb8f19868096535210fd3109",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B3-00010-00019.json"
+    },
+    {
+      "blob": "b0f1b4de87034ebd775479c106fa2cb1ac8baf4d",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B3-00013-quality-fix.json"
+    },
+    {
+      "blob": "dc3abc534cee648e515037034f041c12eb6ecc6f",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B3-quality-01.json"
+    },
+    {
+      "blob": "b405da2786ea36e29349047e92f42147bd37b207",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B3-quality-02.json"
+    },
+    {
+      "blob": "5ba52c030e3e26eec4da8c092fd6e7429b2a087c",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B3-quality-03.json"
+    },
+    {
+      "blob": "797f90b350b82c6b5cb69e9bde716ccf8bad13bf",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B3-quality-04.json"
+    },
+    {
+      "blob": "414c6289bab00234855fecce8bbc8432f1558eb5",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-MTQ-R1-duplicate-reconcile-20261108.json"
+    },
+    {
+      "blob": "4bfc778a7787129a0f76e9f5731d7dcc8eff5ad5",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-R1.json"
+    },
+    {
+      "blob": "b391e9661860f679bcc0fb8fcca5844120e67d14",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-next-A26693-A26701-MTQ-20261108.json"
+    },
+    {
+      "blob": "9b5174daaa92938ece1eb311c17715ba01bb21c6",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-next-A26705-MTQ-quality-20261108.json"
+    },
+    {
+      "blob": "dda53ce79151f48ff5d3e290451b5cf2dc17a03d",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-next-b784de9c950cdbd7db.json"
+    },
+    {
+      "blob": "c98309baf4ff53fc3b76701ef6898edfb05d45a6",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-next-c01d377902a960c0bb-02.json"
+    },
+    {
+      "blob": "fa2bf98f18e3d5536634f2802af66822ab74a015",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-next-c01d377902a960c0bb.json"
+    },
+    {
+      "blob": "eab1a53abf6e1b524a8a98d6de3a0cb307067996",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-next-continuation-52-57-20261108.json"
+    },
+    {
+      "blob": "4e50ab8998a79087e78ce70656b6be2f725b9417",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-next-continuation-58-63-20261108.json"
+    }
+  ],
+  "job_id": "F-0536890d62605f77ff0a",
+  "listed_checked_id_sources": {
+    "A26693-zh-00001": [
+      3
+    ],
+    "A26693-zh-00002": [
+      3
+    ],
+    "A26693-zh-00003": [
+      3
+    ],
+    "A26693-zh-00004": [
+      3
+    ],
+    "A26693-zh-00005": [
+      3
+    ],
+    "A26693-zh-00006": [
+      3
+    ],
+    "A26693-zh-00007": [
+      3,
+      116
+    ],
+    "A26693-zh-00008": [
+      3
+    ],
+    "A26693-zh-00009": [
+      3
+    ],
+    "A26693-zh-00010": [
+      3
+    ],
+    "A26693-zh-00011": [
+      4
+    ],
+    "A26693-zh-00012": [
+      4
+    ],
+    "A26693-zh-00013": [
+      4
+    ],
+    "A26693-zh-00014": [
+      4
+    ],
+    "A26693-zh-00015": [
+      4
+    ],
+    "A26693-zh-00016": [
+      4
+    ],
+    "A26693-zh-00017": [
+      4
+    ],
+    "A26693-zh-00018": [
+      4
+    ],
+    "A26693-zh-00019": [
+      4
+    ],
+    "A26693-zh-00020": [
+      4
+    ],
+    "A26693-zh-00021": [
+      4
+    ],
+    "A26693-zh-00022": [
+      4
+    ],
+    "A26693-zh-00023": [
+      4
+    ],
+    "A26693-zh-00024": [
+      4
+    ],
+    "A26693-zh-00025": [
+      4
+    ],
+    "A26693-zh-00026": [
+      4
+    ],
+    "A26693-zh-00027": [
+      4
+    ],
+    "A26693-zh-00028": [
+      4
+    ],
+    "A26693-zh-00029": [
+      4
+    ],
+    "A26693-zh-00030": [
+      4
+    ],
+    "A26693-zh-00031": [
+      5
+    ],
+    "A26693-zh-00032": [
+      5
+    ],
+    "A26693-zh-00033": [
+      5
+    ],
+    "A26693-zh-00034": [
+      5
+    ],
+    "A26693-zh-00035": [
+      5
+    ],
+    "A26693-zh-00036": [
+      5
+    ],
+    "A26693-zh-00037": [
+      5
+    ],
+    "A26693-zh-00038": [
+      5
+    ],
+    "A26693-zh-00039": [
+      5,
+      7
+    ],
+    "A26693-zh-00040": [
+      5
+    ],
+    "A26693-zh-00041": [
+      5
+    ],
+    "A26693-zh-00042": [
+      5
+    ],
+    "A26693-zh-00043": [
+      5
+    ],
+    "A26693-zh-00044": [
+      5
+    ],
+    "A26693-zh-00045": [
+      5
+    ],
+    "A26693-zh-00046": [
+      5
+    ],
+    "A26693-zh-00047": [
+      5
+    ],
+    "A26693-zh-00048": [
+      5
+    ],
+    "A26693-zh-00049": [
+      5
+    ],
+    "A26693-zh-00050": [
+      5
+    ],
+    "A26693-zh-00051": [
+      5
+    ],
+    "A26693-zh-00052": [
+      5
+    ],
+    "A26693-zh-00053": [
+      5
+    ],
+    "A26693-zh-00054": [
+      5
+    ],
+    "A26693-zh-00055": [
+      5
+    ],
+    "A26693-zh-00056": [
+      5
+    ],
+    "A26693-zh-00057": [
+      5
+    ],
+    "A26693-zh-00058": [
+      5
+    ],
+    "A26693-zh-00059": [
+      5
+    ],
+    "A26693-zh-00060": [
+      5
+    ],
+    "A26693-zh-00061": [
+      5
+    ],
+    "A26693-zh-00062": [
+      5
+    ],
+    "A26693-zh-00063": [
+      5
+    ],
+    "A26693-zh-00064": [
+      5
+    ],
+    "A26693-zh-00065": [
+      6
+    ],
+    "A26693-zh-00066": [
+      6
+    ],
+    "A26693-zh-00067": [
+      6
+    ],
+    "A26693-zh-00068": [
+      6
+    ],
+    "A26693-zh-00069": [
+      6
+    ],
+    "A26693-zh-00070": [
+      6
+    ],
+    "A26693-zh-00071": [
+      6
+    ],
+    "A26693-zh-00072": [
+      6
+    ],
+    "A26693-zh-00073": [
+      6
+    ],
+    "A26693-zh-00074": [
+      6
+    ],
+    "A26693-zh-00075": [
+      6
+    ],
+    "A26693-zh-00076": [
+      6
+    ],
+    "A26693-zh-00077": [
+      6
+    ],
+    "A26693-zh-00078": [
+      6
+    ],
+    "A26693-zh-00079": [
+      6
+    ],
+    "A26693-zh-00080": [
+      6
+    ],
+    "A26693-zh-00081": [
+      6
+    ],
+    "A26693-zh-00082": [
+      6
+    ],
+    "A26693-zh-00083": [
+      6
+    ],
+    "A26693-zh-00084": [
+      6
+    ],
+    "A26693-zh-00085": [
+      6
+    ],
+    "A26693-zh-00086": [
+      6
+    ],
+    "A26693-zh-00087": [
+      6
+    ],
+    "A26693-zh-00088": [
+      6
+    ],
+    "A26693-zh-00089": [
+      6
+    ],
+    "A26693-zh-00090": [
+      6
+    ],
+    "A26693-zh-00091": [
+      6
+    ],
+    "A26693-zh-00092": [
+      6
+    ],
+    "A26693-zh-00093": [
+      6
+    ],
+    "A26693-zh-00094": [
+      6
+    ],
+    "A26693-zh-00095": [
+      6
+    ],
+    "A26693-zh-00096": [
+      6
+    ],
+    "A26693-zh-00097": [
+      6
+    ],
+    "A26693-zh-00098": [
+      6
+    ],
+    "A26693-zh-00099": [
+      6
+    ],
+    "A26693-zh-00100": [
+      6
+    ],
+    "A26693-zh-00101": [
+      6
+    ],
+    "A26693-zh-00102": [
+      6
+    ],
+    "A26694-zh-00001": [
+      10
+    ],
+    "A26694-zh-00002": [
+      10
+    ],
+    "A26694-zh-00003": [
+      10
+    ],
+    "A26694-zh-00004": [
+      10
+    ],
+    "A26694-zh-00005": [
+      10
+    ],
+    "A26694-zh-00006": [
+      10
+    ],
+    "A26694-zh-00007": [
+      10
+    ],
+    "A26694-zh-00008": [
+      10
+    ],
+    "A26694-zh-00009": [
+      10
+    ],
+    "A26694-zh-00010": [
+      10
+    ],
+    "A26694-zh-00011": [
+      10
+    ],
+    "A26694-zh-00012": [
+      10
+    ],
+    "A26694-zh-00013": [
+      10
+    ],
+    "A26694-zh-00014": [
+      10
+    ],
+    "A26694-zh-00015": [
+      10
+    ],
+    "A26694-zh-00016": [
+      10
+    ],
+    "A26694-zh-00017": [
+      10
+    ],
+    "A26694-zh-00018": [
+      10
+    ],
+    "A26694-zh-00019": [
+      11
+    ],
+    "A26694-zh-00020": [
+      11
+    ],
+    "A26694-zh-00021": [
+      11
+    ],
+    "A26694-zh-00022": [
+      11
+    ],
+    "A26694-zh-00023": [
+      11
+    ],
+    "A26694-zh-00024": [
+      11
+    ],
+    "A26694-zh-00025": [
+      11
+    ],
+    "A26694-zh-00026": [
+      11
+    ],
+    "A26694-zh-00027": [
+      11
+    ],
+    "A26694-zh-00028": [
+      11
+    ],
+    "A26694-zh-00029": [
+      11
+    ],
+    "A26694-zh-00030": [
+      11
+    ],
+    "A26694-zh-00031": [
+      11
+    ],
+    "A26694-zh-00032": [
+      11
+    ],
+    "A26694-zh-00033": [
+      11
+    ],
+    "A26694-zh-00034": [
+      11
+    ],
+    "A26694-zh-00035": [
+      11
+    ],
+    "A26694-zh-00036": [
+      11
+    ],
+    "A26694-zh-00037": [
+      11
+    ],
+    "A26694-zh-00038": [
+      11
+    ],
+    "A26694-zh-00039": [
+      11
+    ],
+    "A26694-zh-00040": [
+      11
+    ],
+    "A26694-zh-00041": [
+      11
+    ],
+    "A26694-zh-00042": [
+      11
+    ],
+    "A26694-zh-00043": [
+      11
+    ],
+    "A26694-zh-00044": [
+      11
+    ],
+    "A26694-zh-00045": [
+      11
+    ],
+    "A26694-zh-00046": [
+      11
+    ],
+    "A26694-zh-00047": [
+      11
+    ],
+    "A26694-zh-00048": [
+      11
+    ],
+    "A26694-zh-00049": [
+      11
+    ],
+    "A26694-zh-00050": [
+      11
+    ],
+    "A26694-zh-00051": [
+      11
+    ],
+    "A26694-zh-00052": [
+      11
+    ],
+    "A26695-zh-00001": [
+      13
+    ],
+    "A26695-zh-00002": [
+      13
+    ],
+    "A26695-zh-00003": [
+      13
+    ],
+    "A26695-zh-00004": [
+      13
+    ],
+    "A26695-zh-00005": [
+      13
+    ],
+    "A26695-zh-00006": [
+      13
+    ],
+    "A26695-zh-00007": [
+      13
+    ],
+    "A26695-zh-00008": [
+      13
+    ],
+    "A26695-zh-00009": [
+      13
+    ],
+    "A26695-zh-00010": [
+      13
+    ],
+    "A26695-zh-00011": [
+      13
+    ],
+    "A26695-zh-00012": [
+      13
+    ],
+    "A26695-zh-00013": [
+      13
+    ],
+    "A26695-zh-00014": [
+      13
+    ],
+    "A26695-zh-00015": [
+      13
+    ],
+    "A26695-zh-00016": [
+      13
+    ],
+    "A26695-zh-00017": [
+      13
+    ],
+    "A26695-zh-00018": [
+      13
+    ],
+    "A26695-zh-00019": [
+      13
+    ],
+    "A26695-zh-00020": [
+      13
+    ],
+    "A26695-zh-00021": [
+      13
+    ],
+    "A26695-zh-00022": [
+      13
+    ],
+    "A26695-zh-00023": [
+      13
+    ],
+    "A26695-zh-00024": [
+      13
+    ],
+    "A26695-zh-00025": [
+      13
+    ],
+    "A26696-zh-00001": [
+      15
+    ],
+    "A26696-zh-00002": [
+      15
+    ],
+    "A26696-zh-00003": [
+      15
+    ],
+    "A26696-zh-00004": [
+      15
+    ],
+    "A26696-zh-00005": [
+      15
+    ],
+    "A26696-zh-00006": [
+      15
+    ],
+    "A26696-zh-00007": [
+      15
+    ],
+    "A26696-zh-00008": [
+      15
+    ],
+    "A26696-zh-00009": [
+      15
+    ],
+    "A26696-zh-00010": [
+      15
+    ],
+    "A26696-zh-00011": [
+      15
+    ],
+    "A26696-zh-00012": [
+      15
+    ],
+    "A26696-zh-00013": [
+      15
+    ],
+    "A26696-zh-00014": [
+      15
+    ],
+    "A26696-zh-00015": [
+      15
+    ],
+    "A26696-zh-00016": [
+      15
+    ],
+    "A26696-zh-00017": [
+      15
+    ],
+    "A26696-zh-00018": [
+      15
+    ],
+    "A26696-zh-00019": [
+      15
+    ],
+    "A26697-zh-00001": [
+      18
+    ],
+    "A26697-zh-00002": [
+      18
+    ],
+    "A26697-zh-00003": [
+      18
+    ],
+    "A26697-zh-00004": [
+      18
+    ],
+    "A26697-zh-00005": [
+      18
+    ],
+    "A26697-zh-00006": [
+      18
+    ],
+    "A26697-zh-00007": [
+      18
+    ],
+    "A26697-zh-00008": [
+      17,
+      18
+    ],
+    "A26697-zh-00009": [
+      18
+    ],
+    "A26697-zh-00010": [
+      18
+    ],
+    "A26697-zh-00011": [
+      18
+    ],
+    "A26697-zh-00012": [
+      18
+    ],
+    "A26697-zh-00013": [
+      18
+    ],
+    "A26697-zh-00014": [
+      18
+    ],
+    "A26697-zh-00015": [
+      18
+    ],
+    "A26697-zh-00016": [
+      18
+    ],
+    "A26697-zh-00017": [
+      18
+    ],
+    "A26697-zh-00018": [
+      18
+    ],
+    "A26697-zh-00019": [
+      18
+    ],
+    "A26697-zh-00020": [
+      18
+    ],
+    "A26697-zh-00021": [
+      18
+    ],
+    "A26697-zh-00022": [
+      18
+    ],
+    "A26697-zh-00023": [
+      18
+    ],
+    "A26697-zh-00024": [
+      19
+    ],
+    "A26697-zh-00025": [
+      19
+    ],
+    "A26697-zh-00026": [
+      19
+    ],
+    "A26697-zh-00027": [
+      19
+    ],
+    "A26697-zh-00028": [
+      19
+    ],
+    "A26697-zh-00029": [
+      19
+    ],
+    "A26697-zh-00030": [
+      19
+    ],
+    "A26697-zh-00031": [
+      19
+    ],
+    "A26697-zh-00032": [
+      19
+    ],
+    "A26697-zh-00033": [
+      19
+    ],
+    "A26697-zh-00034": [
+      19
+    ],
+    "A26697-zh-00035": [
+      19
+    ],
+    "A26697-zh-00036": [
+      19
+    ],
+    "A26697-zh-00037": [
+      19
+    ],
+    "A26697-zh-00038": [
+      19
+    ],
+    "A26697-zh-00039": [
+      19
+    ],
+    "A26697-zh-00040": [
+      19
+    ],
+    "A26697-zh-00041": [
+      19
+    ],
+    "A26697-zh-00042": [
+      19
+    ],
+    "A26697-zh-00043": [
+      19
+    ],
+    "A26698-zh-00001": [
+      21
+    ],
+    "A26698-zh-00002": [
+      21
+    ],
+    "A26698-zh-00003": [
+      21
+    ],
+    "A26698-zh-00004": [
+      21
+    ],
+    "A26698-zh-00005": [
+      21
+    ],
+    "A26698-zh-00006": [
+      21
+    ],
+    "A26698-zh-00007": [
+      21
+    ],
+    "A26698-zh-00008": [
+      21,
+      22
+    ],
+    "A26698-zh-00009": [
+      21
+    ],
+    "A26698-zh-00010": [
+      21,
+      22
+    ],
+    "A26698-zh-00011": [
+      21
+    ],
+    "A26698-zh-00012": [
+      21
+    ],
+    "A26698-zh-00013": [
+      21
+    ],
+    "A26699-zh-00001": [
+      24
+    ],
+    "A26699-zh-00002": [
+      24
+    ],
+    "A26699-zh-00003": [
+      24
+    ],
+    "A26699-zh-00004": [
+      24
+    ],
+    "A26699-zh-00005": [
+      24
+    ],
+    "A26699-zh-00006": [
+      24
+    ],
+    "A26699-zh-00007": [
+      24
+    ],
+    "A26699-zh-00008": [
+      24
+    ],
+    "A26699-zh-00009": [
+      24
+    ],
+    "A26699-zh-00010": [
+      24
+    ],
+    "A26699-zh-00011": [
+      24
+    ],
+    "A26699-zh-00012": [
+      24
+    ],
+    "A26699-zh-00013": [
+      24
+    ],
+    "A26699-zh-00014": [
+      24
+    ],
+    "A26699-zh-00015": [
+      24
+    ],
+    "A26699-zh-00016": [
+      24
+    ],
+    "A26699-zh-00017": [
+      24
+    ],
+    "A26699-zh-00018": [
+      24
+    ],
+    "A26699-zh-00019": [
+      24
+    ],
+    "A26699-zh-00020": [
+      24
+    ],
+    "A26699-zh-00021": [
+      24
+    ],
+    "A26699-zh-00022": [
+      24
+    ],
+    "A26699-zh-00023": [
+      24
+    ],
+    "A26699-zh-00024": [
+      24
+    ],
+    "A26699-zh-00025": [
+      24
+    ],
+    "A26699-zh-00026": [
+      25
+    ],
+    "A26699-zh-00027": [
+      25
+    ],
+    "A26699-zh-00028": [
+      25
+    ],
+    "A26699-zh-00029": [
+      25
+    ],
+    "A26699-zh-00030": [
+      25
+    ],
+    "A26699-zh-00031": [
+      25
+    ],
+    "A26699-zh-00032": [
+      25
+    ],
+    "A26699-zh-00033": [
+      25
+    ],
+    "A26699-zh-00034": [
+      25
+    ],
+    "A26699-zh-00035": [
+      25
+    ],
+    "A26699-zh-00036": [
+      25
+    ],
+    "A26699-zh-00037": [
+      25
+    ],
+    "A26699-zh-00038": [
+      25
+    ],
+    "A26699-zh-00039": [
+      25
+    ],
+    "A26699-zh-00040": [
+      25
+    ],
+    "A26699-zh-00041": [
+      25
+    ],
+    "A26699-zh-00042": [
+      25
+    ],
+    "A26699-zh-00043": [
+      25
+    ],
+    "A26699-zh-00044": [
+      25
+    ],
+    "A26699-zh-00045": [
+      25
+    ],
+    "A26699-zh-00046": [
+      25
+    ],
+    "A26699-zh-00047": [
+      25
+    ],
+    "A26699-zh-00048": [
+      25
+    ],
+    "A26699-zh-00049": [
+      25
+    ],
+    "A26699-zh-00050": [
+      25
+    ],
+    "A26699-zh-00051": [
+      26
+    ],
+    "A26699-zh-00052": [
+      26
+    ],
+    "A26699-zh-00053": [
+      17,
+      26
+    ],
+    "A26699-zh-00054": [
+      26
+    ],
+    "A26699-zh-00055": [
+      26
+    ],
+    "A26699-zh-00056": [
+      26
+    ],
+    "A26699-zh-00057": [
+      26
+    ],
+    "A26699-zh-00058": [
+      26
+    ],
+    "A26699-zh-00059": [
+      26
+    ],
+    "A26699-zh-00060": [
+      26
+    ],
+    "A26699-zh-00061": [
+      26
+    ],
+    "A26699-zh-00062": [
+      26
+    ],
+    "A26699-zh-00063": [
+      26
+    ],
+    "A26699-zh-00064": [
+      26
+    ],
+    "A26699-zh-00065": [
+      26
+    ],
+    "A26699-zh-00066": [
+      26
+    ],
+    "A26700-zh-00001": [
+      28
+    ],
+    "A26700-zh-00002": [
+      28
+    ],
+    "A26700-zh-00003": [
+      28
+    ],
+    "A26700-zh-00004": [
+      28
+    ],
+    "A26700-zh-00005": [
+      28
+    ],
+    "A26700-zh-00006": [
+      28
+    ],
+    "A26700-zh-00007": [
+      28
+    ],
+    "A26700-zh-00008": [
+      28
+    ],
+    "A26700-zh-00009": [
+      28
+    ],
+    "A26700-zh-00010": [
+      28
+    ],
+    "A26700-zh-00011": [
+      28
+    ],
+    "A26700-zh-00012": [
+      28
+    ],
+    "A26700-zh-00013": [
+      28
+    ],
+    "A26700-zh-00014": [
+      28
+    ],
+    "A26700-zh-00015": [
+      28
+    ],
+    "A26700-zh-00016": [
+      28
+    ],
+    "A26700-zh-00017": [
+      28
+    ],
+    "A26701-zh-00001": [
+      30
+    ],
+    "A26701-zh-00002": [
+      30
+    ],
+    "A26701-zh-00003": [
+      30
+    ],
+    "A26701-zh-00004": [
+      30
+    ],
+    "A26701-zh-00005": [
+      30
+    ],
+    "A26701-zh-00006": [
+      30
+    ],
+    "A26701-zh-00007": [
+      30,
+      116
+    ],
+    "A26701-zh-00008": [
+      30
+    ],
+    "A26701-zh-00009": [
+      30
+    ],
+    "A26701-zh-00010": [
+      30
+    ],
+    "A26701-zh-00011": [
+      30
+    ],
+    "A26701-zh-00012": [
+      30
+    ],
+    "A26701-zh-00013": [
+      30
+    ],
+    "A26701-zh-00014": [
+      30
+    ],
+    "A26701-zh-00015": [
+      30
+    ],
+    "A26701-zh-00016": [
+      30
+    ],
+    "A26701-zh-00017": [
+      30
+    ],
+    "A26701-zh-00018": [
+      30
+    ],
+    "A26701-zh-00019": [
+      30
+    ],
+    "A26701-zh-00020": [
+      30
+    ],
+    "A26701-zh-00021": [
+      30
+    ],
+    "A26701-zh-00022": [
+      30
+    ],
+    "A26701-zh-00023": [
+      30
+    ],
+    "A26701-zh-00024": [
+      30
+    ],
+    "A26701-zh-00025": [
+      30
+    ],
+    "A26701-zh-00026": [
+      31
+    ],
+    "A26701-zh-00027": [
+      31
+    ],
+    "A26701-zh-00028": [
+      31
+    ],
+    "A26701-zh-00029": [
+      31
+    ],
+    "A26701-zh-00030": [
+      31
+    ],
+    "A26701-zh-00031": [
+      31
+    ],
+    "A26701-zh-00032": [
+      31
+    ],
+    "A26701-zh-00033": [
+      31
+    ],
+    "A26701-zh-00034": [
+      31
+    ],
+    "A26701-zh-00035": [
+      31
+    ],
+    "A26701-zh-00036": [
+      31
+    ],
+    "A26701-zh-00037": [
+      31
+    ],
+    "A26701-zh-00038": [
+      31
+    ],
+    "A26701-zh-00039": [
+      31
+    ],
+    "A26701-zh-00040": [
+      31
+    ],
+    "A26701-zh-00041": [
+      31
+    ],
+    "A26701-zh-00042": [
+      31
+    ],
+    "A26701-zh-00043": [
+      31
+    ],
+    "A26701-zh-00044": [
+      31
+    ],
+    "A26701-zh-00045": [
+      31
+    ],
+    "A26701-zh-00046": [
+      31
+    ],
+    "A26701-zh-00047": [
+      31
+    ],
+    "A26701-zh-00048": [
+      31
+    ],
+    "A26701-zh-00049": [
+      31
+    ],
+    "A26701-zh-00050": [
+      31
+    ],
+    "A26701-zh-00051": [
+      32
+    ],
+    "A26701-zh-00052": [
+      32
+    ],
+    "A26701-zh-00053": [
+      32
+    ],
+    "A26701-zh-00054": [
+      32
+    ],
+    "A26701-zh-00055": [
+      32
+    ],
+    "A26701-zh-00056": [
+      32
+    ],
+    "A26701-zh-00057": [
+      32
+    ],
+    "A26701-zh-00058": [
+      32
+    ],
+    "A26701-zh-00059": [
+      32
+    ],
+    "A26701-zh-00060": [
+      32
+    ],
+    "A26701-zh-00061": [
+      32
+    ],
+    "A26701-zh-00062": [
+      32
+    ],
+    "A26701-zh-00063": [
+      32
+    ],
+    "A26701-zh-00064": [
+      32
+    ],
+    "A26701-zh-00065": [
+      32
+    ],
+    "A26701-zh-00066": [
+      32
+    ],
+    "A26701-zh-00067": [
+      32
+    ],
+    "A26701-zh-00068": [
+      32
+    ],
+    "A26701-zh-00069": [
+      32
+    ],
+    "A26701-zh-00070": [
+      32
+    ],
+    "A26701-zh-00071": [
+      32
+    ],
+    "A26701-zh-00072": [
+      32
+    ],
+    "A26701-zh-00073": [
+      32
+    ],
+    "A26701-zh-00074": [
+      32
+    ],
+    "A26701-zh-00075": [
+      32
+    ],
+    "A26701-zh-00076": [
+      33
+    ],
+    "A26701-zh-00077": [
+      33
+    ],
+    "A26701-zh-00078": [
+      33
+    ],
+    "A26701-zh-00079": [
+      33
+    ],
+    "A26701-zh-00080": [
+      33
+    ],
+    "A26701-zh-00081": [
+      33
+    ],
+    "A26701-zh-00082": [
+      33
+    ],
+    "A26701-zh-00083": [
+      33
+    ],
+    "A26701-zh-00084": [
+      33
+    ],
+    "A26701-zh-00085": [
+      33
+    ],
+    "A26701-zh-00086": [
+      33
+    ],
+    "A26701-zh-00087": [
+      33
+    ],
+    "A26701-zh-00088": [
+      33
+    ],
+    "A26701-zh-00089": [
+      33
+    ],
+    "A26701-zh-00090": [
+      33
+    ],
+    "A26701-zh-00091": [
+      33
+    ],
+    "A26701-zh-00092": [
+      33
+    ],
+    "A26701-zh-00093": [
+      33
+    ],
+    "A26701-zh-00094": [
+      33
+    ],
+    "A26701-zh-00095": [
+      33
+    ],
+    "A26702-zh-00001": [
+      35
+    ],
+    "A26702-zh-00002": [
+      35
+    ],
+    "A26702-zh-00003": [
+      35
+    ],
+    "A26702-zh-00004": [
+      35
+    ],
+    "A26702-zh-00005": [
+      35
+    ],
+    "A26702-zh-00006": [
+      35
+    ],
+    "A26702-zh-00007": [
+      35
+    ],
+    "A26702-zh-00008": [
+      35
+    ],
+    "A26702-zh-00009": [
+      35
+    ],
+    "A26702-zh-00010": [
+      35
+    ],
+    "A26702-zh-00011": [
+      35
+    ],
+    "A26702-zh-00012": [
+      35
+    ],
+    "A26702-zh-00013": [
+      35
+    ],
+    "A26702-zh-00014": [
+      35
+    ],
+    "A26702-zh-00015": [
+      35
+    ],
+    "A26702-zh-00016": [
+      35
+    ],
+    "A26702-zh-00017": [
+      35
+    ],
+    "A26702-zh-00018": [
+      35
+    ],
+    "A26702-zh-00019": [
+      35
+    ],
+    "A26702-zh-00020": [
+      35
+    ],
+    "A26702-zh-00021": [
+      35
+    ],
+    "A26702-zh-00022": [
+      35
+    ],
+    "A26702-zh-00023": [
+      35
+    ],
+    "A26702-zh-00024": [
+      35
+    ],
+    "A26702-zh-00025": [
+      35
+    ],
+    "A26702-zh-00026": [
+      35
+    ],
+    "A26702-zh-00027": [
+      35
+    ],
+    "A26702-zh-00028": [
+      35
+    ],
+    "A26702-zh-00029": [
+      35
+    ],
+    "A26702-zh-00030": [
+      35
+    ],
+    "A26703-zh-00001": [
+      38
+    ],
+    "A26703-zh-00002": [
+      38
+    ],
+    "A26703-zh-00003": [
+      38
+    ],
+    "A26703-zh-00004": [
+      38
+    ],
+    "A26703-zh-00005": [
+      38
+    ],
+    "A26703-zh-00006": [
+      38
+    ],
+    "A26703-zh-00007": [
+      38
+    ],
+    "A26703-zh-00008": [
+      38
+    ],
+    "A26703-zh-00009": [
+      38
+    ],
+    "A26703-zh-00010": [
+      38
+    ],
+    "A26703-zh-00011": [
+      38
+    ],
+    "A26703-zh-00012": [
+      38
+    ],
+    "A26703-zh-00013": [
+      38
+    ],
+    "A26703-zh-00014": [
+      38
+    ],
+    "A26703-zh-00015": [
+      38
+    ],
+    "A26703-zh-00016": [
+      38
+    ],
+    "A26703-zh-00017": [
+      38
+    ],
+    "A26703-zh-00018": [
+      38
+    ],
+    "A26703-zh-00019": [
+      38
+    ],
+    "A26703-zh-00020": [
+      38
+    ],
+    "A26703-zh-00021": [
+      38
+    ],
+    "A26703-zh-00022": [
+      38
+    ],
+    "A26703-zh-00023": [
+      38
+    ],
+    "A26703-zh-00024": [
+      38
+    ],
+    "A26703-zh-00025": [
+      38
+    ],
+    "A26703-zh-00026": [
+      39
+    ],
+    "A26703-zh-00027": [
+      39
+    ],
+    "A26703-zh-00028": [
+      39
+    ],
+    "A26703-zh-00029": [
+      39
+    ],
+    "A26703-zh-00030": [
+      39
+    ],
+    "A26703-zh-00031": [
+      39
+    ],
+    "A26703-zh-00032": [
+      39
+    ],
+    "A26703-zh-00033": [
+      39
+    ],
+    "A26703-zh-00034": [
+      39
+    ],
+    "A26703-zh-00035": [
+      39
+    ],
+    "A26703-zh-00036": [
+      39
+    ],
+    "A26703-zh-00037": [
+      39
+    ],
+    "A26703-zh-00038": [
+      39
+    ],
+    "A26703-zh-00039": [
+      39
+    ],
+    "A26703-zh-00040": [
+      39
+    ],
+    "A26703-zh-00041": [
+      39
+    ],
+    "A26703-zh-00042": [
+      39
+    ],
+    "A26703-zh-00043": [
+      39
+    ],
+    "A26703-zh-00044": [
+      39
+    ],
+    "A26703-zh-00045": [
+      39
+    ],
+    "A26703-zh-00046": [
+      120
+    ],
+    "A26703-zh-00047": [
+      120
+    ],
+    "A26703-zh-00048": [
+      37,
+      120
+    ],
+    "A26703-zh-00049": [
+      119
+    ],
+    "A26703-zh-00050": [
+      37,
+      119
+    ],
+    "A26703-zh-00051": [
+      119
+    ],
+    "A26703-zh-00052": [
+      121
+    ],
+    "A26703-zh-00053": [
+      121
+    ],
+    "A26703-zh-00054": [
+      121
+    ],
+    "A26703-zh-00055": [
+      121
+    ],
+    "A26703-zh-00056": [
+      121
+    ],
+    "A26703-zh-00057": [
+      37,
+      121
+    ],
+    "A26703-zh-00058": [
+      37,
+      122
+    ],
+    "A26703-zh-00059": [
+      122
+    ],
+    "A26703-zh-00060": [
+      122
+    ],
+    "A26703-zh-00061": [
+      122
+    ],
+    "A26703-zh-00062": [
+      122
+    ],
+    "A26703-zh-00063": [
+      122
+    ],
+    "A26703-zh-00064": [
+      118
+    ],
+    "A26703-zh-00065": [
+      118
+    ],
+    "A26703-zh-00069": [
+      118
+    ],
+    "A26703-zh-00070": [
+      118
+    ],
+    "A26703-zh-00074": [
+      118
+    ],
+    "A26703-zh-00083": [
+      118
+    ],
+    "A26705-zh-00005": [
+      117
+    ],
+    "A26705-zh-00006": [
+      117
+    ],
+    "A26705-zh-00033": [
+      117
+    ],
+    "A39474-zh-00001": [
+      48
+    ],
+    "A39474-zh-00002": [
+      48
+    ],
+    "A39474-zh-00003": [
+      48
+    ],
+    "A39474-zh-00004": [
+      48
+    ],
+    "A39474-zh-00005": [
+      48
+    ],
+    "A39474-zh-00006": [
+      48
+    ],
+    "A39474-zh-00007": [
+      48
+    ],
+    "A39474-zh-00008": [
+      48
+    ],
+    "A39474-zh-00009": [
+      48
+    ],
+    "A39474-zh-00010": [
+      48
+    ],
+    "A39474-zh-00011": [
+      48
+    ],
+    "A39474-zh-00012": [
+      48
+    ],
+    "A39474-zh-00013": [
+      49
+    ],
+    "A39474-zh-00014": [
+      49
+    ],
+    "A39474-zh-00015": [
+      49
+    ],
+    "A39474-zh-00016": [
+      49
+    ],
+    "A39474-zh-00017": [
+      49
+    ],
+    "A39474-zh-00018": [
+      49
+    ],
+    "A39474-zh-00019": [
+      49
+    ],
+    "A39474-zh-00020": [
+      49
+    ],
+    "A39474-zh-00021": [
+      49
+    ],
+    "A39474-zh-00022": [
+      49
+    ],
+    "A39474-zh-00023": [
+      49
+    ],
+    "A39474-zh-00024": [
+      49
+    ],
+    "A39474-zh-00025": [
+      49
+    ],
+    "A39474-zh-00026": [
+      49
+    ],
+    "A39474-zh-00027": [
+      49
+    ],
+    "A39474-zh-00028": [
+      49
+    ],
+    "A39474-zh-00029": [
+      49
+    ],
+    "A39474-zh-00030": [
+      50
+    ],
+    "A39474-zh-00031": [
+      50
+    ],
+    "A39474-zh-00032": [
+      50
+    ],
+    "A39474-zh-00033": [
+      50
+    ],
+    "A39474-zh-00034": [
+      50
+    ],
+    "A39474-zh-00035": [
+      50
+    ],
+    "A39474-zh-00036": [
+      50
+    ],
+    "A39474-zh-00037": [
+      50
+    ],
+    "A39474-zh-00038": [
+      50
+    ],
+    "A39474-zh-00039": [
+      50
+    ],
+    "A39474-zh-00040": [
+      50
+    ],
+    "A39474-zh-00041": [
+      50
+    ],
+    "A39474-zh-00042": [
+      50
+    ],
+    "A39474-zh-00043": [
+      50
+    ],
+    "A39474-zh-00044": [
+      50
+    ],
+    "A39474-zh-00045": [
+      51
+    ],
+    "A39474-zh-00046": [
+      51
+    ],
+    "A39474-zh-00047": [
+      51
+    ],
+    "A39474-zh-00048": [
+      51
+    ],
+    "A39474-zh-00049": [
+      51
+    ],
+    "A39474-zh-00050": [
+      51
+    ],
+    "A39474-zh-00051": [
+      51
+    ],
+    "A39474-zh-00052": [
+      51
+    ],
+    "A39474-zh-00053": [
+      51
+    ],
+    "A39474-zh-00054": [
+      51
+    ],
+    "A39474-zh-00055": [
+      51
+    ],
+    "A39474-zh-00056": [
+      51
+    ],
+    "A39474-zh-00057": [
+      51
+    ],
+    "A39474-zh-00058": [
+      51
+    ],
+    "A39474-zh-00059": [
+      51
+    ],
+    "A39474-zh-00060": [
+      51
+    ],
+    "A39474-zh-00061": [
+      51
+    ],
+    "A39474-zh-00062": [
+      51
+    ],
+    "A39474-zh-00063": [
+      51
+    ],
+    "A39474-zh-00064": [
+      51
+    ],
+    "A39474-zh-00065": [
+      51
+    ],
+    "A39474-zh-00066": [
+      52
+    ],
+    "A39474-zh-00067": [
+      52
+    ],
+    "A39474-zh-00068": [
+      52
+    ],
+    "A39474-zh-00069": [
+      52
+    ],
+    "A39474-zh-00070": [
+      52
+    ],
+    "A39474-zh-00071": [
+      52
+    ],
+    "A39474-zh-00072": [
+      52
+    ],
+    "A39474-zh-00073": [
+      52
+    ],
+    "A39474-zh-00074": [
+      52
+    ],
+    "A39474-zh-00075": [
+      52
+    ],
+    "A39474-zh-00076": [
+      52
+    ],
+    "A39474-zh-00077": [
+      52
+    ],
+    "A39474-zh-00078": [
+      52
+    ],
+    "B1-zh-00004": [
+      80
+    ],
+    "B1-zh-00006": [
+      80
+    ],
+    "B1-zh-00010": [
+      80
+    ],
+    "B1-zh-00011": [
+      81
+    ],
+    "B1-zh-00013": [
+      81
+    ],
+    "B1-zh-00016": [
+      82,
+      83
+    ],
+    "B1-zh-00018": [
+      82
+    ],
+    "B1-zh-00019": [
+      82
+    ],
+    "B1-zh-00020": [
+      82
+    ],
+    "B1-zh-00021": [
+      83
+    ],
+    "B1-zh-00022": [
+      83
+    ],
+    "B1-zh-00023": [
+      84
+    ],
+    "B1-zh-00025": [
+      84
+    ],
+    "B1-zh-00026": [
+      85
+    ],
+    "B1-zh-00027": [
+      85
+    ],
+    "B1-zh-00028": [
+      85
+    ],
+    "B1-zh-00030": [
+      85
+    ],
+    "B1-zh-00031": [
+      86
+    ],
+    "B1-zh-00033": [
+      86
+    ],
+    "B1-zh-00035": [
+      86
+    ],
+    "B1-zh-00036": [
+      78
+    ],
+    "B1-zh-00038": [
+      78
+    ],
+    "B1-zh-00043": [
+      79
+    ],
+    "B1-zh-00049": [
+      87
+    ],
+    "B1-zh-00050": [
+      87
+    ],
+    "B1-zh-00052": [
+      88
+    ],
+    "B1-zh-00054": [
+      88
+    ],
+    "B1-zh-00058": [
+      89
+    ],
+    "B1-zh-00061": [
+      89
+    ],
+    "B2-zh-00001": [
+      97
+    ],
+    "B2-zh-00002": [
+      97
+    ],
+    "B2-zh-00005": [
+      98
+    ],
+    "B2-zh-00006": [
+      98,
+      105
+    ],
+    "B2-zh-00009": [
+      98
+    ],
+    "B2-zh-00010": [
+      98
+    ],
+    "B2-zh-00011": [
+      98
+    ],
+    "B2-zh-00013": [
+      99
+    ],
+    "B2-zh-00015": [
+      99
+    ],
+    "B2-zh-00017": [
+      100
+    ],
+    "B2-zh-00019": [
+      101
+    ],
+    "B2-zh-00020": [
+      101
+    ],
+    "B2-zh-00022": [
+      101
+    ],
+    "B2-zh-00023": [
+      102
+    ],
+    "B2-zh-00026": [
+      102
+    ],
+    "B2-zh-00027": [
+      102
+    ],
+    "B2-zh-00028": [
+      103
+    ],
+    "B2-zh-00029": [
+      103
+    ],
+    "B2-zh-00030": [
+      103
+    ],
+    "B2-zh-00036": [
+      104
+    ],
+    "B2-zh-00037": [
+      104
+    ],
+    "B3-zh-00010": [
+      110
+    ],
+    "B3-zh-00011": [
+      110
+    ],
+    "B3-zh-00012": [
+      110
+    ],
+    "B3-zh-00013": [
+      111
+    ],
+    "B3-zh-00014": [
+      112
+    ],
+    "B3-zh-00015": [
+      112
+    ],
+    "B3-zh-00016": [
+      112
+    ],
+    "B3-zh-00017": [
+      112
+    ],
+    "B3-zh-00018": [
+      111,
+      113
+    ],
+    "B3-zh-00019": [
+      111,
+      113
+    ]
+  },
+  "lookup_for_prior_turn": [
+    {
+      "blob": "c73f6b2e86a61c84e576749b86e4d8c165c9fcd3",
+      "note": "두 미확정 셀은 한국어/인접 행 재대조에서 오염을 확인했으나 비어 있지 않은 정확한 대체 셀을 보장할 수 없어 교정문 저장 보류. 기저장·원본 ID/해시 불변. 다음 서식 계속.",
+      "path": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26697-A26699-unresolved-quality-01.json"
+    }
+  ],
+  "notes": "보존된 검수 근거의 위치를 찾는 색인입니다. 미확정 두 셀은 기존 품질 기록의 보류 사유와 적용 범위를 보존하십시오. 다른 셀의 검수와 가족 전체의 순차 독해를 이어가십시오. 미확정 보류로 인한 완료 미발행을 준수하십시오. 이 색인은 전체 검수 증거가 아닙니다. 이 123개 기록의 개별 출처는 한국어와 중국어 원문 blob으로 검증했습니다. 영어 독해 증거는 별도입니다.",
+  "record_hash_scope": [
+    "ko",
+    "zh"
+  ],
+  "schema": "LAW_FAMILY_SUPERVISOR_EVIDENCE_INDEX_V1",
+  "source_blobs": {
+    "en": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+    "ko": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+    "zh": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c"
+  },
+  "status": "IN_PROGRESS",
+  "stored_edit_candidates": {
+    "A26693-zh-00001": [
+      {
+        "file_indices": [
+          0
+        ],
+        "text": "■ 《防止人口贩运等及保护受害者等法施行规则》〔附表格式第一号〕"
+      }
+    ],
+    "A26693-zh-00002": [
+      {
+        "file_indices": [
+          0
+        ],
+        "text": "受害者确认书签发申请书"
+      }
+    ],
+    "A26693-zh-00004": [
+      {
+        "file_indices": [
+          0
+        ],
+        "text": "（正面）"
+      }
+    ],
+    "A26693-zh-00005": [
+      {
+        "file_indices": [
+          0
+        ],
+        "text": "受理编号"
+      }
+    ],
+    "A26693-zh-00006": [
+      {
+        "file_indices": [
+          0
+        ],
+        "text": "受理日期和时间"
+      }
+    ],
+    "A26693-zh-00007": [
+      {
+        "file_indices": [
+          115,
+          116
+        ],
+        "text": "处理期限"
+      }
+    ],
+    "A26693-zh-00010": [
+      {
+        "file_indices": [
+          0
+        ],
+        "text": "姓名"
+      }
+    ],
+    "A26693-zh-00012": [
+      {
+        "file_indices": [
+          0
+        ],
+        "text": "（英文姓名）"
+      }
+    ],
+    "A26693-zh-00015": [
+      {
+        "file_indices": [
+          0
+        ],
+        "text": "监护人（必要时填写）"
+      }
+    ],
+    "A26693-zh-00016": [
+      {
+        "file_indices": [
+          0
+        ],
+        "text": "与监护人的关系（必要时填写）"
+      }
+    ],
+    "A26693-zh-00017": [
+      {
+        "file_indices": [
+          0
+        ],
+        "text": "举报"
+      }
+    ],
+    "A26693-zh-00018": [
+      {
+        "file_indices": [
+          0
+        ],
+        "text": "义务人"
+      }
+    ],
+    "A26693-zh-00019": [
+      {
+        "file_indices": [
+          0
+        ],
+        "text": "姓名"
+      }
+    ],
+    "A26693-zh-00021": [
+      {
+        "file_indices": [
+          0
+        ],
+        "text": "※举报义务人"
+      }
+    ],
+    "A26693-zh-00022": [
+      {
+        "file_indices": [
+          0
+        ],
+        "text": "申请时"
+      }
+    ],
+    "A26693-zh-00023": [
+      {
+        "file_indices": [
+          0
+        ],
+        "text": "才须"
+      }
+    ],
+    "A26693-zh-00024": [
+      {
+        "file_indices": [
+          0
+        ],
+        "text": "机构、设施名称"
+      }
+    ],
+    "A26693-zh-00026": [
+      {
+        "file_indices": [
+          0
+        ],
+        "text": "填写。"
+      }
+    ],
+    "A26693-zh-00027": [
+      {
+        "file_indices": [
+          0
+        ],
+        "text": "人口贩运〔 〕、家庭暴力〔 〕、卖淫〔 〕、性暴力〔 〕"
+      }
+    ],
+    "A26693-zh-00028": [
+      {
+        "file_indices": [
+          0
+        ],
+        "text": "（仅在举报义务人申请时填写）"
+      }
+    ],
+    "A26693-zh-00029": [
+      {
+        "file_indices": [
+          0
+        ],
+        "text": "儿童福利〔 〕、青少年〔 〕、其他〔 〕"
+      }
+    ],
+    "A26693-zh-00030": [
+      {
+        "file_indices": [
+          0
+        ],
+        "text": "所在地"
+      }
+    ],
+    "A26693-zh-00033": [
+      {
+        "file_indices": [
+          1
+        ],
+        "text": "卖淫〔 〕"
+      }
+    ],
+    "A26693-zh-00034": [
+      {
+        "file_indices": [
+          1
+        ],
+        "text": "性剥削〔 〕"
+      }
+    ],
+    "A26693-zh-00035": [
+      {
+        "file_indices": [
+          1
+        ],
+        "text": "劳动剥削〔 〕"
+      }
+    ],
+    "A26693-zh-00036": [
+      {
+        "file_indices": [
+          1
+        ],
+        "text": "其他剥削〔 〕"
+      }
+    ],
+    "A26693-zh-00037": [
+      {
+        "file_indices": [
+          1
+        ],
+        "text": "受害情况"
+      }
+    ],
+    "A26693-zh-00038": [
+      {
+        "file_indices": [
+          1
+        ],
+        "text": "主要内容"
+      }
+    ],
+    "A26693-zh-00039": [
+      {
+        "file_indices": [
+          1
+        ],
+        "text": "※请依据《防止人口贩运等及保护受害者等法》第二条第一项规定的人口贩运等行为，"
+      },
+      {
+        "file_indices": [
+          7
+        ],
+        "text": "※请依据《防止人口贩运等及保护受害者等法》第二条第一号规定的人口贩运等行为，"
+      }
+    ],
+    "A26693-zh-00040": [
+      {
+        "file_indices": [
+          1
+        ],
+        "text": "按照何人、何时、何地、何事、为何及如何等原则详细填写受害经过与内容，以便判定其属于人口贩运等造成的受害。"
+      }
+    ],
+    "A26693-zh-00041": [
+      {
+        "file_indices": [
+          1
+        ],
+        "text": "（填写空间不足时，请另附纸张。）"
+      }
+    ],
+    "A26693-zh-00042": [
+      {
+        "file_indices": [
+          1
+        ],
+        "text": "依照《防止人口贩运等及保护受害者等法》第十四条第一款、同法施行令第七条第一款及"
+      }
+    ],
+    "A26693-zh-00043": [
+      {
+        "file_indices": [
+          1
+        ],
+        "text": "同法施行规则第三条第一款，申请签发受害者确认书。"
+      }
+    ],
+    "A26693-zh-00047": [
+      {
+        "file_indices": [
+          1
+        ],
+        "text": "申请人"
+      }
+    ],
+    "A26693-zh-00049": [
+      {
+        "file_indices": [
+          1
+        ],
+        "text": "中央人口贩运等受害者"
+      }
+    ],
+    "A26693-zh-00050": [
+      {
+        "file_indices": [
+          1
+        ],
+        "text": "致"
+      }
+    ],
+    "A26693-zh-00051": [
+      {
+        "file_indices": [
+          1
+        ],
+        "text": "权益保护机构负责人"
+      }
+    ],
+    "A26693-zh-00052": [
+      {
+        "file_indices": [
+          1
+        ],
+        "text": "（背面）"
+      }
+    ],
+    "A26693-zh-00053": [
+      {
+        "file_indices": [
+          1
+        ],
+        "text": "随附文件"
+      }
+    ],
+    "A26693-zh-00054": [
+      {
+        "file_indices": [
+          1
+        ],
+        "text": "1. 居民登记证、驾驶证、护照、外国人登记证等公共机构签发的能够确认本人身份的证件"
+      }
+    ],
+    "A26693-zh-00055": [
+      {
+        "file_indices": [
+          1
+        ],
+        "text": "手续费"
+      }
+    ],
+    "A26693-zh-00056": [
+      {
+        "file_indices": [
+          1
+        ],
+        "text": "复印件一份"
+      }
+    ],
+    "A26693-zh-00057": [
+      {
+        "file_indices": [
+          1
+        ],
+        "text": "无"
+      }
+    ],
+    "A26693-zh-00059": [
+      {
+        "file_indices": [
+          1
+        ],
+        "text": "2. 依照《家庭关系登记等相关法律》第十五条第一款第一项签发的家庭关系证明书等能够确认家庭关系的"
+      }
+    ],
+    "A26693-zh-00060": [
+      {
+        "file_indices": [
+          1
+        ],
+        "text": "文件一份"
+      }
+    ],
+    "A26693-zh-00061": [
+      {
+        "file_indices": [
+          1
+        ],
+        "text": "3. 诊断书（仅限存在与人口贩运等直接相关的伤害或疾病）一份"
+      }
+    ],
+    "A26693-zh-00062": [
+      {
+        "file_indices": [
+          1
+        ],
+        "text": "4. 出入境事实证明书（仅限人口贩运等受害者为外国人的情形）一份"
+      }
+    ],
+    "A26693-zh-00063": [
+      {
+        "file_indices": [
+          1
+        ],
+        "text": "5. 劳动合同等证明就业的文件（仅限劳动者）一份"
+      }
+    ],
+    "A26693-zh-00064": [
+      {
+        "file_indices": [
+          1
+        ],
+        "text": "6. 其他能够证明申请人系人口贩运等受害者的资料一份"
+      }
+    ],
+    "A26693-zh-00066": [
+      {
+        "file_indices": [
+          2
+        ],
+        "text": "中央人口贩运等受害者权益保护机构负责人依《防止人口贩运等及保护受害者等法施行令》第二十八条（敏感信息及唯一身份识别信息的处理）、"
+      }
+    ],
+    "A26693-zh-00067": [
+      {
+        "file_indices": [
+          2
+        ],
+        "text": "《个人信息保护法》第十五条（个人信息的收集、利用）、第十七条（个人信息的提供）、第二十四条（唯一身份识别信息处理限制）"
+      }
+    ],
+    "A26693-zh-00068": [
+      {
+        "file_indices": [
+          2
+        ],
+        "text": "及第二十四条之二（居民登记号码处理限制），为办理受害者确认书签发业务，按以下内容收集、利用"
+      }
+    ],
+    "A26693-zh-00069": [
+      {
+        "file_indices": [
+          2
+        ],
+        "text": "和提供所需的个人信息。"
+      }
+    ],
+    "A26693-zh-00076": [
+      {
+        "file_indices": [
+          2
+        ],
+        "text": "- 劳动合同等证明就业的资料"
+      }
+    ],
+    "A26693-zh-00077": [
+      {
+        "file_indices": [
+          2
+        ],
+        "text": "- 其他能够证明其系人口贩运等受害者的资料"
+      }
+    ],
+    "A26693-zh-00078": [
+      {
+        "file_indices": [
+          2
+        ],
+        "text": "③ 个人信息保留和使用期限：自收到申请之日起保留五年。"
+      }
+    ],
+    "A26693-zh-00080": [
+      {
+        "file_indices": [
+          2
+        ],
+        "text": "- 接收方：地方人口贩运等受害者权益保护机构"
+      }
+    ],
+    "A26693-zh-00081": [
+      {
+        "file_indices": [
+          2
+        ],
+        "text": "- 提供目的：调查人口贩运等受害案件、人口贩运等案件判定委员会审议及表决等。"
+      }
+    ],
+    "A26693-zh-00082": [
+      {
+        "file_indices": [
+          2
+        ],
+        "text": "■ 您有权拒绝同意收集、利用和提供个人信息；拒绝同意的，"
+      }
+    ],
+    "A26693-zh-00083": [
+      {
+        "file_indices": [
+          2
+        ],
+        "text": "可能被排除在受害者确认书签发对象之外。"
+      }
+    ],
+    "A26693-zh-00084": [
+      {
+        "file_indices": [
+          2
+        ],
+        "text": "■ 我们承诺遵守《个人信息保护法》要求个人信息处理者遵守的保护规定，依法尽最大努力保护有关人员的权益，"
+      }
+    ],
+    "A26693-zh-00085": [
+      {
+        "file_indices": [
+          2
+        ],
+        "text": "并且绝不用于经许可的使用目的以外的其他用途。"
+      }
+    ],
+    "A26693-zh-00092": [
+      {
+        "file_indices": [
+          2
+        ],
+        "text": "申请人姓名："
+      }
+    ],
+    "A26693-zh-00094": [
+      {
+        "file_indices": [
+          2
+        ],
+        "text": "办理流程"
+      }
+    ],
+    "A26693-zh-00095": [
+      {
+        "file_indices": [
+          2
+        ],
+        "text": "填写申请书"
+      }
+    ],
+    "A26693-zh-00096": [
+      {
+        "file_indices": [
+          2
+        ],
+        "text": "受理"
+      }
+    ],
+    "A26693-zh-00099": [
+      {
+        "file_indices": [
+          2
+        ],
+        "text": "签发"
+      }
+    ],
+    "A26693-zh-00101": [
+      {
+        "file_indices": [
+          2
+        ],
+        "text": "办理机构（中央人口贩运等受害者权益保护机构）"
+      }
+    ],
+    "A26694-zh-00001": [
+      {
+        "file_indices": [
+          9
+        ],
+        "text": "■ 《防止人口贩运等及保护受害者等法施行规则》〔附表格式第二号〕"
+      }
+    ],
+    "A26694-zh-00002": [
+      {
+        "file_indices": [
+          9
+        ],
+        "text": "判定决议书"
+      }
+    ],
+    "A26694-zh-00004": [
+      {
+        "file_indices": [
+          9
+        ],
+        "text": "姓名"
+      }
+    ],
+    "A26694-zh-00006": [
+      {
+        "file_indices": [
+          9
+        ],
+        "text": "（英文姓名）"
+      }
+    ],
+    "A26694-zh-00009": [
+      {
+        "file_indices": [
+          9
+        ],
+        "text": "申请事由"
+      }
+    ],
+    "A26694-zh-00010": [
+      {
+        "file_indices": [
+          9
+        ],
+        "text": "判定意见"
+      }
+    ],
+    "A26694-zh-00011": [
+      {
+        "file_indices": [
+          9
+        ],
+        "text": "判定机构"
+      }
+    ],
+    "A26694-zh-00012": [
+      {
+        "file_indices": [
+          9
+        ],
+        "text": "○○地方人口贩运等受害者权益保护机构人口贩运等案件判定委员会"
+      }
+    ],
+    "A26694-zh-00013": [
+      {
+        "file_indices": [
+          9
+        ],
+        "text": "判定日期"
+      }
+    ],
+    "A26694-zh-00017": [
+      {
+        "file_indices": [
+          9
+        ],
+        "text": "依《防止人口贩运等及保护受害者等法施行令》第七条第三款及同法施行规则第三条第二款，"
+      }
+    ],
+    "A26694-zh-00018": [
+      {
+        "file_indices": [
+          9
+        ],
+        "text": "兹证明已作出上述判定。"
+      }
+    ],
+    "A26694-zh-00022": [
+      {
+        "file_indices": [
+          9
+        ],
+        "text": "判定委员会主席"
+      }
+    ],
+    "A26694-zh-00024": [
+      {
+        "file_indices": [
+          9
+        ],
+        "text": "判定委员会副主席"
+      }
+    ],
+    "A26694-zh-00026": [
+      {
+        "file_indices": [
+          9
+        ],
+        "text": "判定委员"
+      }
+    ],
+    "A26694-zh-00028": [
+      {
+        "file_indices": [
+          9
+        ],
+        "text": "判定委员"
+      }
+    ],
+    "A26694-zh-00030": [
+      {
+        "file_indices": [
+          9
+        ],
+        "text": "判定委员"
+      }
+    ],
+    "A26694-zh-00032": [
+      {
+        "file_indices": [
+          9
+        ],
+        "text": "判定委员"
+      }
+    ],
+    "A26694-zh-00034": [
+      {
+        "file_indices": [
+          9
+        ],
+        "text": "判定委员"
+      }
+    ],
+    "A26694-zh-00036": [
+      {
+        "file_indices": [
+          9
+        ],
+        "text": "判定委员"
+      }
+    ],
+    "A26694-zh-00038": [
+      {
+        "file_indices": [
+          9
+        ],
+        "text": "判定委员"
+      }
+    ],
+    "A26694-zh-00040": [
+      {
+        "file_indices": [
+          9
+        ],
+        "text": "判定委员"
+      }
+    ],
+    "A26694-zh-00042": [
+      {
+        "file_indices": [
+          9
+        ],
+        "text": "判定委员"
+      }
+    ],
+    "A26694-zh-00044": [
+      {
+        "file_indices": [
+          9
+        ],
+        "text": "判定委员"
+      }
+    ],
+    "A26694-zh-00046": [
+      {
+        "file_indices": [
+          9
+        ],
+        "text": "判定委员"
+      }
+    ],
+    "A26694-zh-00048": [
+      {
+        "file_indices": [
+          9
+        ],
+        "text": "判定委员"
+      }
+    ],
+    "A26694-zh-00050": [
+      {
+        "file_indices": [
+          9
+        ],
+        "text": "判定委员"
+      }
+    ],
+    "A26695-zh-00001": [
+      {
+        "file_indices": [
+          12
+        ],
+        "text": "■ 《防止人口贩运等及保护受害者等法施行规则》〔附表格式第三号〕〈2026年7月22日修订〉"
+      }
+    ],
+    "A26695-zh-00003": [
+      {
+        "file_indices": [
+          12
+        ],
+        "text": "签发编号：第"
+      }
+    ],
+    "A26695-zh-00004": [
+      {
+        "file_indices": [
+          12
+        ],
+        "text": "号"
+      }
+    ],
+    "A26695-zh-00005": [
+      {
+        "file_indices": [
+          12
+        ],
+        "text": "受害者确认书"
+      }
+    ],
+    "A26695-zh-00007": [
+      {
+        "file_indices": [
+          12
+        ],
+        "text": "姓名"
+      }
+    ],
+    "A26695-zh-00009": [
+      {
+        "file_indices": [
+          12
+        ],
+        "text": "（英文姓名）"
+      }
+    ],
+    "A26695-zh-00011": [
+      {
+        "file_indices": [
+          12
+        ],
+        "text": "监护人（必要时填写）"
+      }
+    ],
+    "A26695-zh-00012": [
+      {
+        "file_indices": [
+          12
+        ],
+        "text": "与监护人的关系（必要时填写）"
+      }
+    ],
+    "A26695-zh-00013": [
+      {
+        "file_indices": [
+          12
+        ],
+        "text": "受害类型"
+      }
+    ],
+    "A26695-zh-00014": [
+      {
+        "file_indices": [
+          12
+        ],
+        "text": "卖淫〔 〕"
+      }
+    ],
+    "A26695-zh-00015": [
+      {
+        "file_indices": [
+          12
+        ],
+        "text": "性剥削〔 〕"
+      }
+    ],
+    "A26695-zh-00016": [
+      {
+        "file_indices": [
+          12
+        ],
+        "text": "劳动剥削〔 〕"
+      }
+    ],
+    "A26695-zh-00017": [
+      {
+        "file_indices": [
+          12
+        ],
+        "text": "器官摘取〔 〕、其他剥削〔 〕"
+      }
+    ],
+    "A26695-zh-00018": [
+      {
+        "file_indices": [
+          12
+        ],
+        "text": "兹证明上述人员依照《防止人口贩运等及保护受害者等法》第十四条第三款、同法施行令第七条"
+      }
+    ],
+    "A26695-zh-00019": [
+      {
+        "file_indices": [
+          12
+        ],
+        "text": "第四款及同法施行规则第三条第三款的规定，系人口贩运等受害者。"
+      }
+    ],
+    "A26695-zh-00023": [
+      {
+        "file_indices": [
+          12
+        ],
+        "text": "中央人口贩运等受害者权益保护机构负责人"
+      }
+    ],
+    "A26695-zh-00024": [
+      {
+        "file_indices": [
+          12
+        ],
+        "text": "公章"
+      }
+    ],
+    "A26696-zh-00001": [
+      {
+        "file_indices": [
+          14
+        ],
+        "text": "■ 《防止人口贩运等及保护受害者等法施行规则》〔附表格式第四号〕"
+      }
+    ],
+    "A26696-zh-00002": [
+      {
+        "file_indices": [
+          14
+        ],
+        "text": "受害者确认书申请及签发登记簿"
+      }
+    ],
+    "A26696-zh-00003": [
+      {
+        "file_indices": [
+          14
+        ],
+        "text": "申请"
+      }
+    ],
+    "A26696-zh-00004": [
+      {
+        "file_indices": [
+          14
+        ],
+        "text": "签发"
+      }
+    ],
+    "A26696-zh-00005": [
+      {
+        "file_indices": [
+          14
+        ],
+        "text": "经办人"
+      }
+    ],
+    "A26696-zh-00007": [
+      {
+        "file_indices": [
+          14
+        ],
+        "text": "（未签发时注明"
+      }
+    ],
+    "A26696-zh-00008": [
+      {
+        "file_indices": [
+          14
+        ],
+        "text": "流水号"
+      }
+    ],
+    "A26696-zh-00009": [
+      {
+        "file_indices": [
+          14
+        ],
+        "text": "年月日"
+      }
+    ],
+    "A26696-zh-00010": [
+      {
+        "file_indices": [
+          14
+        ],
+        "text": "姓名"
+      }
+    ],
+    "A26696-zh-00012": [
+      {
+        "file_indices": [
+          14
+        ],
+        "text": "年月日"
+      }
+    ],
+    "A26696-zh-00013": [
+      {
+        "file_indices": [
+          14
+        ],
+        "text": "签发编号"
+      }
+    ],
+    "A26696-zh-00014": [
+      {
+        "file_indices": [
+          14
+        ],
+        "text": "签发对象"
+      }
+    ],
+    "A26696-zh-00015": [
+      {
+        "file_indices": [
+          14
+        ],
+        "text": "判定机构"
+      }
+    ],
+    "A26696-zh-00016": [
+      {
+        "file_indices": [
+          14
+        ],
+        "text": "原因）"
+      }
+    ],
+    "A26696-zh-00017": [
+      {
+        "file_indices": [
+          14
+        ],
+        "text": "本人"
+      }
+    ],
+    "A26696-zh-00018": [
+      {
+        "file_indices": [
+          14
+        ],
+        "text": "举报人"
+      }
+    ],
+    "A26697-zh-00001": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "■ 《防止人口贩运等及保护受害者等法施行规则》〔附表格式第五号〕"
+      }
+    ],
+    "A26697-zh-00002": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "（正面）"
+      }
+    ],
+    "A26697-zh-00003": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "地方人口贩运等"
+      }
+    ],
+    "A26697-zh-00004": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "受害者权益保护机构"
+      }
+    ],
+    "A26697-zh-00005": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "工作人员证"
+      }
+    ],
+    "A26697-zh-00006": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "（地区—流水号）"
+      }
+    ],
+    "A26697-zh-00010": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "（脱帽上半身照片，"
+      }
+    ],
+    "A26697-zh-00011": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "无背景且于最近六个月内"
+      }
+    ],
+    "A26697-zh-00012": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "拍摄）"
+      }
+    ],
+    "A26697-zh-00013": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "姓名"
+      }
+    ],
+    "A26697-zh-00014": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "特别市长、广域市长、道知事"
+      }
+    ],
+    "A26697-zh-00015": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "特别自治市长、特别自治道知事"
+      }
+    ],
+    "A26697-zh-00016": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "70毫米×100毫米（肯特纸180克/平方米）"
+      }
+    ],
+    "A26697-zh-00017": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "（背面）"
+      }
+    ],
+    "A26697-zh-00018": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "所属"
+      }
+    ],
+    "A26697-zh-00019": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "机构："
+      }
+    ],
+    "A26697-zh-00020": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "职务（职级）："
+      }
+    ],
+    "A26697-zh-00021": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "姓"
+      }
+    ],
+    "A26697-zh-00022": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "名："
+      }
+    ],
+    "A26697-zh-00024": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "兹证明上述人员依照《防止人口贩运等及保护受害者"
+      }
+    ],
+    "A26697-zh-00025": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "等法》第二十二条第三款及同法"
+      }
+    ],
+    "A26697-zh-00026": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "施行规则第六条第一款的规定，为○○地方人口贩运等"
+      }
+    ],
+    "A26697-zh-00027": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "受害者权益保护机构工作人员。"
+      }
+    ],
+    "A26697-zh-00028": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "特此证明。"
+      }
+    ],
+    "A26697-zh-00032": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "特别市长、广域市长、道知事"
+      }
+    ],
+    "A26697-zh-00034": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "特别自治市长、特别自治道知事"
+      }
+    ],
+    "A26697-zh-00035": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "1. 本证持有人系地方人口贩运等受害者权益保护"
+      }
+    ],
+    "A26697-zh-00036": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "机构工作人员，可以陪同开展人口贩运等受害者"
+      }
+    ],
+    "A26697-zh-00037": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "救助活动；依据《防止人口贩运等及保护受害者"
+      }
+    ],
+    "A26697-zh-00038": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "等法》第十七条、第十八条或者第二十二条规定，"
+      }
+    ],
+    "A26697-zh-00039": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "可以陪同参与侦查机关调查、证人讯问等程序，"
+      }
+    ],
+    "A26697-zh-00040": [
+      {
+        "file_indices": [
+          16
+        ],
+        "text": "并在场陪同。"
+      }
+    ],
+    "A26698-zh-00001": [
+      {
+        "file_indices": [
+          20
+        ],
+        "text": "■ 《防止人口贩运等及保护受害者等法施行规则》〔附表格式第六号〕"
+      }
+    ],
+    "A26698-zh-00002": [
+      {
+        "file_indices": [
+          20
+        ],
+        "text": "身份证件签发及管理登记簿"
+      }
+    ],
+    "A26698-zh-00003": [
+      {
+        "file_indices": [
+          20
+        ],
+        "text": "流水号"
+      }
+    ],
+    "A26698-zh-00004": [
+      {
+        "file_indices": [
+          20
+        ],
+        "text": "姓名"
+      }
+    ],
+    "A26698-zh-00005": [
+      {
+        "file_indices": [
+          20
+        ],
+        "text": "所属机构"
+      }
+    ],
+    "A26698-zh-00006": [
+      {
+        "file_indices": [
+          20
+        ],
+        "text": "职务（职级）"
+      }
+    ],
+    "A26698-zh-00007": [
+      {
+        "file_indices": [
+          20
+        ],
+        "text": "签发日期"
+      }
+    ],
+    "A26698-zh-00008": [
+      {
+        "file_indices": [
+          20
+        ],
+        "text": "领证人签名"
+      },
+      {
+        "file_indices": [
+          22
+        ],
+        "text": "签发人签名"
+      }
+    ],
+    "A26698-zh-00009": [
+      {
+        "file_indices": [
+          20
+        ],
+        "text": "交还日期"
+      }
+    ],
+    "A26698-zh-00010": [
+      {
+        "file_indices": [
+          20
+        ],
+        "text": "交还人签名"
+      },
+      {
+        "file_indices": [
+          22
+        ],
+        "text": "签发人签名"
+      }
+    ],
+    "A26698-zh-00011": [
+      {
+        "file_indices": [
+          20
+        ],
+        "text": "签发经办"
+      }
+    ],
+    "A26698-zh-00012": [
+      {
+        "file_indices": [
+          20
+        ],
+        "text": "公务员确认"
+      }
+    ],
+    "A26699-zh-00001": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "■ 《防止人口贩运等及保护受害者等法施行规则》〔附表格式第七号〕〈2025年10月1日修订〉"
+      }
+    ],
+    "A26699-zh-00002": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "专责医疗机构指定申请书"
+      }
+    ],
+    "A26699-zh-00003": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "受理编号"
+      }
+    ],
+    "A26699-zh-00004": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "受理日期和时间"
+      }
+    ],
+    "A26699-zh-00006": [
+      {
+        "file_indices": [
+          115
+        ],
+        "text": "处理期限"
+      }
+    ],
+    "A26699-zh-00009": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "姓名（代表人）"
+      }
+    ],
+    "A26699-zh-00010": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "出生年月日（法人登记号码）"
+      }
+    ],
+    "A26699-zh-00011": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "法人名称"
+      }
+    ],
+    "A26699-zh-00014": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "机构概况"
+      }
+    ],
+    "A26699-zh-00017": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "所在地"
+      }
+    ],
+    "A26699-zh-00018": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "机构负责人姓名"
+      }
+    ],
+    "A26699-zh-00020": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "诊疗科目"
+      }
+    ],
+    "A26699-zh-00021": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "工作人员"
+      }
+    ],
+    "A26699-zh-00022": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "共计"
+      }
+    ],
+    "A26699-zh-00023": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "人（医生"
+      }
+    ],
+    "A26699-zh-00024": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "人，护士"
+      }
+    ],
+    "A26699-zh-00025": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "人，其他人员"
+      }
+    ],
+    "A26699-zh-00026": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "人）"
+      }
+    ],
+    "A26699-zh-00027": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "依照《防止人口贩运等及保护受害者等法》第二十九条第一款、同法施行令第二十条第二款及"
+      }
+    ],
+    "A26699-zh-00028": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "同法施行规则第七条第一款，申请指定上述专责医疗机构。"
+      }
+    ],
+    "A26699-zh-00031": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "日"
+      }
+    ],
+    "A26699-zh-00034": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "性别平等家庭部部长、特别市长、广域市长、道知事"
+      }
+    ],
+    "A26699-zh-00036": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "特别自治市长、特别自治道知事、市长、郡守、区厅长"
+      }
+    ],
+    "A26699-zh-00038": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "1. 法人章程（仅限申请人为法人）"
+      }
+    ],
+    "A26699-zh-00039": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "手续费"
+      }
+    ],
+    "A26699-zh-00040": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "提交文件"
+      }
+    ],
+    "A26699-zh-00041": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "2. 证明属于《防止人口贩运等及保护受害者等法施行令》第二十条第一款各项所列"
+      }
+    ],
+    "A26699-zh-00042": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "无"
+      }
+    ],
+    "A26699-zh-00043": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "医疗机构类型的文件"
+      }
+    ],
+    "A26699-zh-00044": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "经办公务员"
+      }
+    ],
+    "A26699-zh-00045": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "申请人无需提交的文件"
+      }
+    ],
+    "A26699-zh-00046": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "法人登记事项证明书"
+      }
+    ],
+    "A26699-zh-00047": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "核实事项"
+      }
+    ],
+    "A26699-zh-00048": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "不同意核实时申请人须自行提交的文件"
+      }
+    ],
+    "A26699-zh-00049": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "营业者登记证"
+      }
+    ],
+    "A26699-zh-00050": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "行政信息共同利用同意书"
+      }
+    ],
+    "A26699-zh-00051": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "本人同意经办公务员为办理本申请，依《电子政府法》第三十六条第一款，通过行政信息共同利用机制"
+      }
+    ],
+    "A26699-zh-00052": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "核实上述经办公务员核实事项。* 如不同意，申请人须自行提交相关文件。"
+      }
+    ],
+    "A26699-zh-00056": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "办理流程"
+      }
+    ],
+    "A26699-zh-00057": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "申请书"
+      }
+    ],
+    "A26699-zh-00058": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "受理"
+      }
+    ],
+    "A26699-zh-00061": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "制作指定书"
+      }
+    ],
+    "A26699-zh-00062": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "签发"
+      }
+    ],
+    "A26699-zh-00063": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "填写"
+      }
+    ],
+    "A26699-zh-00065": [
+      {
+        "file_indices": [
+          23
+        ],
+        "text": "办理机构（性别平等家庭部、特别市、广域市、道、特别自治市、特别自治道、市、郡、区）"
+      }
+    ],
+    "A26700-zh-00001": [
+      {
+        "file_indices": [
+          27
+        ],
+        "text": "■ 《防止人口贩运等及保护受害者等法施行规则》〔附表格式第八号〕〈2025年10月1日修订〉"
+      }
+    ],
+    "A26700-zh-00003": [
+      {
+        "file_indices": [
+          27
+        ],
+        "text": "专责医疗机构指定书"
+      }
+    ],
+    "A26700-zh-00004": [
+      {
+        "file_indices": [
+          27
+        ],
+        "text": "1. 机构名称："
+      }
+    ],
+    "A26700-zh-00005": [
+      {
+        "file_indices": [
+          27
+        ],
+        "text": "2. 所在地："
+      }
+    ],
+    "A26700-zh-00006": [
+      {
+        "file_indices": [
+          27
+        ],
+        "text": "3. 代表人姓名："
+      }
+    ],
+    "A26700-zh-00008": [
+      {
+        "file_indices": [
+          27
+        ],
+        "text": "依照《防止人口贩运等及保护受害者等法》第二十九条第一款、同法施行令"
+      }
+    ],
+    "A26700-zh-00009": [
+      {
+        "file_indices": [
+          27
+        ],
+        "text": "第二十条第三款及同法施行规则第七条第三款，将上述机构指定为人口贩运等"
+      }
+    ],
+    "A26700-zh-00010": [
+      {
+        "file_indices": [
+          27
+        ],
+        "text": "受害者专责医疗机构。"
+      }
+    ],
+    "A26700-zh-00014": [
+      {
+        "file_indices": [
+          27
+        ],
+        "text": "性别平等家庭部部长、特别市长、广域市长、道知事"
+      }
+    ],
+    "A26700-zh-00016": [
+      {
+        "file_indices": [
+          27
+        ],
+        "text": "特别自治市长、特别自治道知事、市长、郡守、区厅长"
+      }
+    ],
+    "A26701-zh-00001": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "■ 《防止人口贩运等及保护受害者等法施行规则》〔附表格式第九号〕"
+      }
+    ],
+    "A26701-zh-00002": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "人口贩运等受害者支援设施指定申请书"
+      }
+    ],
+    "A26701-zh-00003": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "※在〔 〕内的相应位置打√。"
+      }
+    ],
+    "A26701-zh-00004": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "受理编号"
+      }
+    ],
+    "A26701-zh-00005": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "受理日期和时间"
+      }
+    ],
+    "A26701-zh-00006": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "办理日期和时间"
+      }
+    ],
+    "A26701-zh-00007": [
+      {
+        "file_indices": [
+          115,
+          116
+        ],
+        "text": "处理期限"
+      }
+    ],
+    "A26701-zh-00010": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "姓名（代表人）"
+      }
+    ],
+    "A26701-zh-00012": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "法人名称（法人登记号码）"
+      }
+    ],
+    "A26701-zh-00015": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "设施概况"
+      }
+    ],
+    "A26701-zh-00018": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "所在地"
+      }
+    ],
+    "A26701-zh-00019": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "设施负责人姓名"
+      }
+    ],
+    "A26701-zh-00021": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "预计开始运营日期"
+      }
+    ],
+    "A26701-zh-00022": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "入住定员（人）"
+      }
+    ],
+    "A26701-zh-00023": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "设施设备"
+      }
+    ],
+    "A26701-zh-00025": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "㎡（起居室"
+      }
+    ],
+    "A26701-zh-00026": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "㎡、办公室"
+      }
+    ],
+    "A26701-zh-00027": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "㎡、浴室"
+      }
+    ],
+    "A26701-zh-00028": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "㎡、餐厅"
+      }
+    ],
+    "A26701-zh-00029": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "㎡、其他"
+      }
+    ],
+    "A26701-zh-00030": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "工作人员"
+      }
+    ],
+    "A26701-zh-00032": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "人（设施负责人"
+      }
+    ],
+    "A26701-zh-00033": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "人、咨询员"
+      }
+    ],
+    "A26701-zh-00034": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "人、其他"
+      }
+    ],
+    "A26701-zh-00035": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "人）"
+      }
+    ],
+    "A26701-zh-00036": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "依照《防止人口贩运等及保护受害者等法》第三十三条第二款、同法施行令第二十三条第二款及"
+      }
+    ],
+    "A26701-zh-00037": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "同法施行规则第八条第一款，申请将人口贩运等受害者支援设施指定为（〔 〕"
+      }
+    ],
+    "A26701-zh-00038": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "一般支援设施、〔 〕"
+      }
+    ],
+    "A26701-zh-00039": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "残疾人支援设施、〔 〕"
+      }
+    ],
+    "A26701-zh-00040": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "儿童"
+      }
+    ],
+    "A26701-zh-00041": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "及青少年支援设施、〔 〕"
+      }
+    ],
+    "A26701-zh-00042": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "外国人支援设施、〔 〕"
+      }
+    ],
+    "A26701-zh-00043": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "自立支援共同生活设施）中的相应类型。"
+      }
+    ],
+    "A26701-zh-00049": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "特别市长、广域市长、特别自治市长"
+      }
+    ],
+    "A26701-zh-00051": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "道知事、特别自治道知事"
+      }
+    ],
+    "A26701-zh-00052": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "市长、郡守、区厅长"
+      }
+    ],
+    "A26701-zh-00054": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "1. 法人章程（仅限申请人为法人）"
+      }
+    ],
+    "A26701-zh-00055": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "手续费"
+      }
+    ],
+    "A26701-zh-00056": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "申请人提交文件"
+      }
+    ],
+    "A26701-zh-00057": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "2. 租赁合同（仅限租赁不动产）"
+      }
+    ],
+    "A26701-zh-00058": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "无"
+      }
+    ],
+    "A26701-zh-00059": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "3. 标示支援设施各结构部分面积的平面图"
+      }
+    ],
+    "A26701-zh-00060": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "4. 证明支援设施负责人资格的文件"
+      }
+    ],
+    "A26701-zh-00061": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "5. 支援设施工作人员名单及其资格证明文件"
+      }
+    ],
+    "A26701-zh-00062": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "6. 支援设施运营计划及收支预算书"
+      }
+    ],
+    "A26701-zh-00063": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "经办公务员"
+      }
+    ],
+    "A26701-zh-00064": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "申请人无需提交的文件"
+      }
+    ],
+    "A26701-zh-00065": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "法人登记事项证明书（仅限申请人为法人）"
+      }
+    ],
+    "A26701-zh-00066": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "核实事项"
+      }
+    ],
+    "A26701-zh-00067": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "、建筑物登记事项证明书、土地登记事项证明书"
+      }
+    ],
+    "A26701-zh-00068": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "及建筑物台账"
+      }
+    ],
+    "A26701-zh-00069": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "申请人不同意核实时须自行提交的文件"
+      }
+    ],
+    "A26701-zh-00070": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "营业者登记证、国家技术资格证（仅在需要资格证时）"
+      }
+    ],
+    "A26701-zh-00071": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "不同意核实时"
+      }
+    ],
+    "A26701-zh-00072": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "须自行提交"
+      }
+    ],
+    "A26701-zh-00073": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "行政信息共同利用同意书"
+      }
+    ],
+    "A26701-zh-00074": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "本人同意经办公务员为办理本申请，依《电子政府法》第三十六条第一款，通过行政信息共同利用机制"
+      }
+    ],
+    "A26701-zh-00075": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "核实上述经办公务员核实事项。* 如不同意，申请人须自行提交相关文件。"
+      }
+    ],
+    "A26701-zh-00078": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "办理流程"
+      }
+    ],
+    "A26701-zh-00079": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "申请书"
+      }
+    ],
+    "A26701-zh-00080": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "受理"
+      }
+    ],
+    "A26701-zh-00083": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "制作指定书"
+      }
+    ],
+    "A26701-zh-00084": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "签发"
+      }
+    ],
+    "A26701-zh-00085": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "填写"
+      }
+    ],
+    "A26701-zh-00087": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "市、道"
+      }
+    ],
+    "A26701-zh-00088": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "市、道"
+      }
+    ],
+    "A26701-zh-00089": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "市、道"
+      }
+    ],
+    "A26701-zh-00090": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "市、道"
+      }
+    ],
+    "A26701-zh-00091": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "市、郡、区"
+      }
+    ],
+    "A26701-zh-00092": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "市、郡、区"
+      }
+    ],
+    "A26701-zh-00093": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "市、郡、区"
+      }
+    ],
+    "A26701-zh-00094": [
+      {
+        "file_indices": [
+          29
+        ],
+        "text": "市、郡、区"
+      }
+    ],
+    "A26702-zh-00001": [
+      {
+        "file_indices": [
+          34
+        ],
+        "text": "■ 《防止人口贩运等及保护受害者等法施行规则》〔附表格式第十号〕"
+      }
+    ],
+    "A26702-zh-00002": [
+      {
+        "file_indices": [
+          34
+        ],
+        "text": "（正面）"
+      }
+    ],
+    "A26702-zh-00003": [
+      {
+        "file_indices": [
+          34
+        ],
+        "text": "第　　号"
+      }
+    ],
+    "A26702-zh-00004": [
+      {
+        "file_indices": [
+          34
+        ],
+        "text": "人口贩运等受害者支援设施指定书"
+      }
+    ],
+    "A26702-zh-00006": [
+      {
+        "file_indices": [
+          34
+        ],
+        "text": "2. 所在地："
+      }
+    ],
+    "A26702-zh-00008": [
+      {
+        "file_indices": [
+          34
+        ],
+        "text": "3. 入住定员："
+      }
+    ],
+    "A26702-zh-00009": [
+      {
+        "file_indices": [
+          34
+        ],
+        "text": "人"
+      }
+    ],
+    "A26702-zh-00010": [
+      {
+        "file_indices": [
+          34
+        ],
+        "text": "4. 运营法人名称："
+      }
+    ],
+    "A26702-zh-00011": [
+      {
+        "file_indices": [
+          34
+        ],
+        "text": "（法人登记号码："
+      }
+    ],
+    "A26702-zh-00012": [
+      {
+        "file_indices": [
+          34
+        ],
+        "text": "5. 设施负责人姓名："
+      }
+    ],
+    "A26702-zh-00014": [
+      {
+        "file_indices": [
+          34
+        ],
+        "text": "依照《防止人口贩运等及保护受害者等法》第三十三条第二款、"
+      }
+    ],
+    "A26702-zh-00015": [
+      {
+        "file_indices": [
+          34
+        ],
+        "text": "同法施行令第二十三条第三款及同法施行规则第八条第三款的规定，"
+      }
+    ],
+    "A26702-zh-00016": [
+      {
+        "file_indices": [
+          34
+        ],
+        "text": "将上述设施指定为人口贩运等受害者支援设施。"
+      }
+    ],
+    "A26702-zh-00020": [
+      {
+        "file_indices": [
+          34
+        ],
+        "text": "特别市长、广域市长、特别自治市长、道知事"
+      }
+    ],
+    "A26702-zh-00022": [
+      {
+        "file_indices": [
+          34
+        ],
+        "text": "特别自治道知事、市长、郡守、区厅长"
+      }
+    ],
+    "A26702-zh-00024": [
+      {
+        "file_indices": [
+          34
+        ],
+        "text": "（背面）"
+      }
+    ],
+    "A26702-zh-00025": [
+      {
+        "file_indices": [
+          34
+        ],
+        "text": "变更事项"
+      }
+    ],
+    "A26702-zh-00026": [
+      {
+        "file_indices": [
+          34
+        ],
+        "text": "年月日"
+      }
+    ],
+    "A26702-zh-00028": [
+      {
+        "file_indices": [
+          34
+        ],
+        "text": "记录人"
+      }
+    ],
+    "A26703-zh-00001": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "■ 《防止人口贩运等及保护受害者等法施行规则》〔附表格式第十一号〕"
+      }
+    ],
+    "A26703-zh-00002": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "人口贩运等受害者支援设施变更指定申请书"
+      }
+    ],
+    "A26703-zh-00003": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "（〔 〕设施负责人 〔 〕所在地 〔 〕名称 〔 〕入住定员）"
+      }
+    ],
+    "A26703-zh-00004": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "※在〔 〕内相应位置打√，深色底纹栏由申请人留空。"
+      }
+    ],
+    "A26703-zh-00005": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "受理编号"
+      }
+    ],
+    "A26703-zh-00006": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "受理日期和时间"
+      }
+    ],
+    "A26703-zh-00007": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "办理日期"
+      }
+    ],
+    "A26703-zh-00008": [
+      {
+        "file_indices": [
+          115
+        ],
+        "text": "处理期限"
+      }
+    ],
+    "A26703-zh-00011": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "姓名（代表人）"
+      }
+    ],
+    "A26703-zh-00012": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "出生年月日（法人登记号码）"
+      }
+    ],
+    "A26703-zh-00013": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "法人名称"
+      }
+    ],
+    "A26703-zh-00016": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "设施概况"
+      }
+    ],
+    "A26703-zh-00017": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "支援设施名称"
+      }
+    ],
+    "A26703-zh-00018": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "支援设施负责人姓名"
+      }
+    ],
+    "A26703-zh-00019": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "变更年月日"
+      }
+    ],
+    "A26703-zh-00020": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "变更事项"
+      }
+    ],
+    "A26703-zh-00021": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "变更前"
+      }
+    ],
+    "A26703-zh-00022": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "设施负责人姓名"
+      }
+    ],
+    "A26703-zh-00025": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "所在地"
+      }
+    ],
+    "A26703-zh-00026": [
+      {
+        "file_indices": [
+          115
+        ],
+        "text": "入住定员"
+      }
+    ],
+    "A26703-zh-00027": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "变更后"
+      }
+    ],
+    "A26703-zh-00028": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "设施负责人姓名"
+      }
+    ],
+    "A26703-zh-00031": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "所在地"
+      }
+    ],
+    "A26703-zh-00032": [
+      {
+        "file_indices": [
+          115
+        ],
+        "text": "入住定员"
+      }
+    ],
+    "A26703-zh-00033": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "依《防止人口贩运等及保护受害者等法》第三十三条第二款、同法施行令第二十三条第四款及"
+      }
+    ],
+    "A26703-zh-00034": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "同法施行规则第八条第四款，申请对上述人口贩运等受害者支援设施的指定事项作如下变更。"
+      }
+    ],
+    "A26703-zh-00040": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "特别市长、广域市长、特别自治市长"
+      }
+    ],
+    "A26703-zh-00041": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "致"
+      }
+    ],
+    "A26703-zh-00042": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "道知事、特别自治道知事"
+      }
+    ],
+    "A26703-zh-00043": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "市长、郡守、区厅长"
+      }
+    ],
+    "A26703-zh-00045": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "1. 人口贩运等受害者支援设施指定书"
+      }
+    ],
+    "A26703-zh-00046": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "手续费"
+      }
+    ],
+    "A26703-zh-00047": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "申请人提交文件"
+      }
+    ],
+    "A26703-zh-00048": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "2. 租赁合同（仅限设施所在地变更且租赁不动产的情形）"
+      },
+      {
+        "file_indices": [
+          37
+        ],
+        "text": "2. 租赁合同（仅在设施所在地变更且租赁不动产的"
+      }
+    ],
+    "A26703-zh-00049": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "无"
+      }
+    ],
+    "A26703-zh-00050": [
+      {
+        "file_indices": [
+          37
+        ],
+        "text": "情况下适用）"
+      }
+    ],
+    "A26703-zh-00051": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "3. 标示变更后支援设施各结构部分面积的平面图（仅在支援设施"
+      }
+    ],
+    "A26703-zh-00052": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "所在地变更时适用）"
+      }
+    ],
+    "A26703-zh-00053": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "4. 证明支援设施负责人资格的文件（仅在负责人"
+      }
+    ],
+    "A26703-zh-00054": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "变更时适用）"
+      }
+    ],
+    "A26703-zh-00055": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "5. 设施及财产使用、处分计划书（仅在设施所在地变更时"
+      }
+    ],
+    "A26703-zh-00056": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "适用）"
+      }
+    ],
+    "A26703-zh-00057": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "6. 入住者安置措施计划书（仅在设施所在地及入住定员发生变更时适用）"
+      },
+      {
+        "file_indices": [
+          37
+        ],
+        "text": "6. 入住者安置措施计划书（仅在设施所在地及入住定员发生变更时"
+      }
+    ],
+    "A26703-zh-00058": [
+      {
+        "file_indices": [
+          37
+        ],
+        "text": "适用）"
+      }
+    ],
+    "A26703-zh-00059": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "经办公务员"
+      }
+    ],
+    "A26703-zh-00060": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "建筑物登记事项证明书及土地登记事项证明书"
+      }
+    ],
+    "A26703-zh-00061": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "核实事项"
+      }
+    ],
+    "A26703-zh-00062": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "本人同意经办公务员为办理本申请，依《电子政府法》第三十六条第一款，通过行政信息共同利用机制"
+      }
+    ],
+    "A26703-zh-00063": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "核实上述经办公务员核实事项。* 如不同意，申请人须自行提交相关文件。"
+      }
+    ],
+    "A26703-zh-00066": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "办理流程"
+      }
+    ],
+    "A26703-zh-00067": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "填写变更申请书"
+      }
+    ],
+    "A26703-zh-00068": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "受理"
+      }
+    ],
+    "A26703-zh-00071": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "变更指定书"
+      }
+    ],
+    "A26703-zh-00072": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "签发"
+      }
+    ],
+    "A26703-zh-00073": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "制作"
+      }
+    ],
+    "A26703-zh-00075": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "市、道"
+      }
+    ],
+    "A26703-zh-00076": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "市、道"
+      }
+    ],
+    "A26703-zh-00077": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "市、道"
+      }
+    ],
+    "A26703-zh-00078": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "市、道"
+      }
+    ],
+    "A26703-zh-00079": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "市、郡、区"
+      }
+    ],
+    "A26703-zh-00080": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "市、郡、区"
+      }
+    ],
+    "A26703-zh-00081": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "市、郡、区"
+      }
+    ],
+    "A26703-zh-00082": [
+      {
+        "file_indices": [
+          36
+        ],
+        "text": "市、郡、区"
+      }
+    ],
+    "A26704-zh-00001": [
+      {
+        "file_indices": [
+          40
+        ],
+        "text": "■ 《防止人口贩运等及保护受害者等法施行规则》〔附表格式第十二号〕"
+      }
+    ],
+    "A26704-zh-00002": [
+      {
+        "file_indices": [
+          40
+        ],
+        "text": "人口贩运等受害者入住委托书"
+      }
+    ],
+    "A26704-zh-00003": [
+      {
+        "file_indices": [
+          40
+        ],
+        "text": "拟申请"
+      }
+    ],
+    "A26704-zh-00004": [
+      {
+        "file_indices": [
+          40
+        ],
+        "text": "姓名"
+      }
+    ],
+    "A26704-zh-00005": [
+      {
+        "file_indices": [
+          40
+        ],
+        "text": "居民登记号码"
+      }
+    ],
+    "A26704-zh-00006": [
+      {
+        "file_indices": [
+          40
+        ],
+        "text": "入住的"
+      }
+    ],
+    "A26704-zh-00007": [
+      {
+        "file_indices": [
+          40
+        ],
+        "text": "（外国人登记号码或者国内居所申报号码）"
+      }
+    ],
+    "A26704-zh-00008": [
+      {
+        "file_indices": [
+          40
+        ],
+        "text": "受害者"
+      }
+    ],
+    "A26704-zh-00011": [
+      {
+        "file_indices": [
+          40
+        ],
+        "text": "委托"
+      }
+    ],
+    "A26704-zh-00012": [
+      {
+        "file_indices": [
+          40
+        ],
+        "text": "机构名称"
+      }
+    ],
+    "A26704-zh-00013": [
+      {
+        "file_indices": [
+          40
+        ],
+        "text": "机构负责人姓名"
+      }
+    ],
+    "A26704-zh-00014": [
+      {
+        "file_indices": [
+          40
+        ],
+        "text": "机构"
+      }
+    ],
+    "A26704-zh-00016": [
+      {
+        "file_indices": [
+          40
+        ],
+        "text": "经办人（职务、职级）姓名"
+      }
+    ],
+    "A26704-zh-00018": [
+      {
+        "file_indices": [
+          40
+        ],
+        "text": "入住委托事由"
+      }
+    ],
+    "A26704-zh-00019": [
+      {
+        "file_indices": [
+          40
+        ],
+        "text": "依照《防止人口贩运等及保护受害者等法施行规则》第九条第二款，现向贵支援设施"
+      }
+    ],
+    "A26704-zh-00020": [
+      {
+        "file_indices": [
+          40
+        ],
+        "text": "委托接收上述人员入住。"
+      }
+    ],
+    "A26704-zh-00024": [
+      {
+        "file_indices": [
+          40
+        ],
+        "text": "○○地方人口贩运等受害者权益保护机构负责人"
+      }
+    ],
+    "A26704-zh-00025": [
+      {
+        "file_indices": [
+          40
+        ],
+        "text": "（印章）"
+      }
+    ],
+    "A26704-zh-00026": [
+      {
+        "file_indices": [
+          40
+        ],
+        "text": "人口贩运等受害者支援设施负责人"
+      }
+    ],
+    "A26704-zh-00027": [
+      {
+        "file_indices": [
+          40
+        ],
+        "text": "收"
+      }
+    ],
+    "A26704-zh-00028": [
+      {
+        "file_indices": [
+          40
+        ],
+        "text": "（设施名称："
+      }
+    ],
+    "A26705-zh-00001": [
+      {
+        "file_indices": [
+          41
+        ],
+        "text": "■ 《防止人口贩运等及保护受害者等法施行规则》〔附表格式第十三号〕"
+      }
+    ],
+    "A26705-zh-00002": [
+      {
+        "file_indices": [
+          41
+        ],
+        "text": "入住期限延长通知书"
+      }
+    ],
+    "A26705-zh-00003": [
+      {
+        "file_indices": [
+          41
+        ],
+        "text": "受理编号"
+      }
+    ],
+    "A26705-zh-00004": [
+      {
+        "file_indices": [
+          41
+        ],
+        "text": "受理日期和时间"
+      }
+    ],
+    "A26705-zh-00005": [
+      {
+        "file_indices": [
+          115,
+          117
+        ],
+        "text": "处理期限"
+      }
+    ],
+    "A26705-zh-00007": [
+      {
+        "file_indices": [
+          41
+        ],
+        "text": "对象"
+      }
+    ],
+    "A26705-zh-00008": [
+      {
+        "file_indices": [
+          41
+        ],
+        "text": "姓名"
+      }
+    ],
+    "A26705-zh-00009": [
+      {
+        "file_indices": [
+          41
+        ],
+        "text": "居民登记号码"
+      }
+    ],
+    "A26705-zh-00010": [
+      {
+        "file_indices": [
+          41
+        ],
+        "text": "受害者"
+      }
+    ],
+    "A26705-zh-00011": [
+      {
+        "file_indices": [
+          41
+        ],
+        "text": "（外国人登记号码或者国内居所申报号码）"
+      }
+    ],
+    "A26705-zh-00012": [
+      {
+        "file_indices": [
+          41
+        ],
+        "text": "入住设施名称"
+      }
+    ],
+    "A26705-zh-00013": [
+      {
+        "file_indices": [
+          41
+        ],
+        "text": "所在地"
+      }
+    ],
+    "A26705-zh-00014": [
+      {
+        "file_indices": [
+          41
+        ],
+        "text": "入住年月日"
+      }
+    ],
+    "A26705-zh-00015": [
+      {
+        "file_indices": [
+          41
+        ],
+        "text": "延长期限"
+      }
+    ],
+    "A26705-zh-00016": [
+      {
+        "file_indices": [
+          41
+        ],
+        "text": "延长事由"
+      }
+    ],
+    "A26705-zh-00017": [
+      {
+        "file_indices": [
+          41
+        ],
+        "text": "依照《防止人口贩运等及保护受害者等法施行规则》第十条第五款，通知上述人员的"
+      }
+    ],
+    "A26705-zh-00018": [
+      {
+        "file_indices": [
+          41
+        ],
+        "text": "入住期限已延长。"
+      }
+    ],
+    "A26705-zh-00022": [
+      {
+        "file_indices": [
+          41
+        ],
+        "text": "人口贩运等受害者支援设施负责人"
+      }
+    ],
+    "A26705-zh-00023": [
+      {
+        "file_indices": [
+          41
+        ],
+        "text": "（印章）"
+      }
+    ],
+    "A26705-zh-00024": [
+      {
+        "file_indices": [
+          41
+        ],
+        "text": "特别市长、广域市长、特别自治市长"
+      }
+    ],
+    "A26705-zh-00025": [
+      {
+        "file_indices": [
+          41
+        ],
+        "text": "收"
+      }
+    ],
+    "A26705-zh-00026": [
+      {
+        "file_indices": [
+          41
+        ],
+        "text": "道知事、特别自治道知事"
+      }
+    ],
+    "A26705-zh-00027": [
+      {
+        "file_indices": [
+          41
+        ],
+        "text": "市长、郡守、区厅长"
+      }
+    ],
+    "A26705-zh-00028": [
+      {
+        "file_indices": [
+          41
+        ],
+        "text": "随附文件"
+      }
+    ],
+    "A26705-zh-00029": [
+      {
+        "file_indices": [
+          41
+        ],
+        "text": "1. 证明延长事由的文件"
+      }
+    ],
+    "A26705-zh-00030": [
+      {
+        "file_indices": [
+          41
+        ],
+        "text": "手续费"
+      }
+    ],
+    "A26705-zh-00031": [
+      {
+        "file_indices": [
+          41
+        ],
+        "text": "2. 医生诊断书、意见书（仅限残疾人受害者支援设施）"
+      }
+    ],
+    "A26705-zh-00032": [
+      {
+        "file_indices": [
+          41
+        ],
+        "text": "无"
+      }
+    ],
+    "A39474-zh-00001": [
+      {
+        "file_indices": [
+          43
+        ],
+        "text": "■ 《防止人口贩运等及保护受害者等法施行令》〔附表一〕"
+      }
+    ],
+    "A39474-zh-00004": [
+      {
+        "file_indices": [
+          43
+        ],
+        "text": "甲. 设立标准"
+      }
+    ],
+    "A39474-zh-00006": [
+      {
+        "file_indices": [
+          43
+        ],
+        "text": "1）应当配备履行法第十五条第一款各项业务所需的空间及设备"
+      }
+    ],
+    "A39474-zh-00007": [
+      {
+        "file_indices": [
+          43
+        ],
+        "text": "。"
+      }
+    ],
+    "A39474-zh-00008": [
+      {
+        "file_indices": [
+          43
+        ],
+        "text": "2）应当按照《消防设施设置及管理法》规定的消防安全标准配备灭火"
+      }
+    ],
+    "A39474-zh-00009": [
+      {
+        "file_indices": [
+          43
+        ],
+        "text": "设备和避难设备。"
+      }
+    ],
+    "A39474-zh-00010": [
+      {
+        "file_indices": [
+          43
+        ],
+        "text": "乙. 运营标准"
+      }
+    ],
+    "A39474-zh-00014": [
+      {
+        "file_indices": [
+          44
+        ],
+        "text": "2）备置账簿等"
+      }
+    ],
+    "A39474-zh-00018": [
+      {
+        "file_indices": [
+          44
+        ],
+        "text": "丙）运营日志"
+      }
+    ],
+    "A39474-zh-00021": [
+      {
+        "file_indices": [
+          44
+        ],
+        "text": "己）总分类账及收支辅助账簿"
+      }
+    ],
+    "A39474-zh-00022": [
+      {
+        "file_indices": [
+          44
+        ],
+        "text": "庚）现金及物品出纳簿及其证明文件"
+      }
+    ],
+    "A39474-zh-00023": [
+      {
+        "file_indices": [
+          44
+        ],
+        "text": "辛）报告文件档案及与有关行政机关往来的文件档案"
+      }
+    ],
+    "A39474-zh-00024": [
+      {
+        "file_indices": [
+          44
+        ],
+        "text": "壬）与依据法第十五条第一款第七项受理举报有关的记录及文件"
+      }
+    ],
+    "A39474-zh-00026": [
+      {
+        "file_indices": [
+          44
+        ],
+        "text": "甲）中央受害者权益保护机构的设立、运营相关会计，应与法人会计或"
+      }
+    ],
+    "A39474-zh-00027": [
+      {
+        "file_indices": [
+          44
+        ],
+        "text": "其他事业的会计分开处理。"
+      }
+    ],
+    "A39474-zh-00028": [
+      {
+        "file_indices": [
+          44
+        ],
+        "text": "乙）从国家、地方自治团体获得的补助款物，以及从其他机构"
+      }
+    ],
+    "A39474-zh-00029": [
+      {
+        "file_indices": [
+          44
+        ],
+        "text": "收到的捐赠款物，应分别设置独立账户进行会计处理。"
+      }
+    ],
+    "A39474-zh-00031": [
+      {
+        "file_indices": [
+          45
+        ],
+        "text": "甲. 设立标准"
+      }
+    ],
+    "A39474-zh-00033": [
+      {
+        "file_indices": [
+          45
+        ],
+        "text": "甲）应配备能够开展法第十五条第二款第一项规定的举报受理及同款第三项至第五项"
+      }
+    ],
+    "A39474-zh-00034": [
+      {
+        "file_indices": [
+          45
+        ],
+        "text": "规定的业务所需的空间和设备。"
+      }
+    ],
+    "A39474-zh-00038": [
+      {
+        "file_indices": [
+          45
+        ],
+        "text": "甲）应设置面积不少于16.5平方米的独立空间。"
+      }
+    ],
+    "A39474-zh-00041": [
+      {
+        "file_indices": [
+          45
+        ],
+        "text": "丙）应确保留有足够空间，放置为儿童、青少年、残疾人、外国人等提供咨询时所需的沟通辅助"
+      }
+    ],
+    "A39474-zh-00042": [
+      {
+        "file_indices": [
+          45
+        ],
+        "text": "工具。"
+      }
+    ],
+    "A39474-zh-00043": [
+      {
+        "file_indices": [
+          45
+        ],
+        "text": "丁）咨询室应配备经当事人同意后可以录制咨询过程的设备和"
+      }
+    ],
+    "A39474-zh-00044": [
+      {
+        "file_indices": [
+          45
+        ],
+        "text": "用品。"
+      }
+    ],
+    "A39474-zh-00047": [
+      {
+        "file_indices": [
+          46
+        ],
+        "text": "4）紧急保护室（仅限需要依法第二十二条第一款履行紧急措施义务的"
+      }
+    ],
+    "A39474-zh-00048": [
+      {
+        "file_indices": [
+          46
+        ],
+        "text": "情形）"
+      }
+    ],
+    "A39474-zh-00049": [
+      {
+        "file_indices": [
+          46
+        ],
+        "text": "甲）应当设置面积不少于9.9平方米、能够依法第二十二条第二款将受害者与人口贩运"
+      }
+    ],
+    "A39474-zh-00050": [
+      {
+        "file_indices": [
+          46
+        ],
+        "text": "等行为人分开，并提供食宿等临时保护服务所需"
+      }
+    ],
+    "A39474-zh-00051": [
+      {
+        "file_indices": [
+          46
+        ],
+        "text": "的设施。"
+      }
+    ],
+    "A39474-zh-00055": [
+      {
+        "file_indices": [
+          46
+        ],
+        "text": "甲）应当设置面积不少于39平方米、用于对受害者及其家属、权益保护机构工作人员以及"
+      }
+    ],
+    "A39474-zh-00056": [
+      {
+        "file_indices": [
+          46
+        ],
+        "text": "其他有关人员进行教育的专用空间。"
+      }
+    ],
+    "A39474-zh-00058": [
+      {
+        "file_indices": [
+          46
+        ],
+        "text": "乙. 运营标准"
+      }
+    ],
+    "A39474-zh-00062": [
+      {
+        "file_indices": [
+          46
+        ],
+        "text": "2）备置账簿等"
+      }
+    ],
+    "A39474-zh-00066": [
+      {
+        "file_indices": [
+          47
+        ],
+        "text": "丙）运营日志"
+      }
+    ],
+    "A39474-zh-00069": [
+      {
+        "file_indices": [
+          47
+        ],
+        "text": "己）总分类账及收支辅助账簿"
+      }
+    ],
+    "A39474-zh-00070": [
+      {
+        "file_indices": [
+          47
+        ],
+        "text": "庚）现金及物品出纳簿及其证明文件"
+      }
+    ],
+    "A39474-zh-00071": [
+      {
+        "file_indices": [
+          47
+        ],
+        "text": "辛）报告文件档案及与有关行政机关收发的文件档案"
+      }
+    ],
+    "A39474-zh-00072": [
+      {
+        "file_indices": [
+          47
+        ],
+        "text": "壬）与地方受害者权益保护机构开展的受害者咨询等业务有关的记录"
+      }
+    ],
+    "A39474-zh-00073": [
+      {
+        "file_indices": [
+          47
+        ],
+        "text": "及文件"
+      }
+    ],
+    "A39474-zh-00075": [
+      {
+        "file_indices": [
+          47
+        ],
+        "text": "甲）地方受害者权益保护机构的设立、运营相关会计，应与法人会计或者"
+      }
+    ],
+    "A39474-zh-00076": [
+      {
+        "file_indices": [
+          47
+        ],
+        "text": "其他事业的会计分开处理。"
+      }
+    ],
+    "A39474-zh-00077": [
+      {
+        "file_indices": [
+          47
+        ],
+        "text": "乙）从国家或者地方自治团体获得的补助款物及从其他机构"
+      }
+    ],
+    "A39474-zh-00078": [
+      {
+        "file_indices": [
+          47
+        ],
+        "text": "收到的捐赠款物，应分别设置独立账户进行会计处理。"
+      }
+    ],
+    "A39475-zh-00001": [
+      {
+        "file_indices": [
+          53
+        ],
+        "text": "■ 《防止人口贩运等及保护受害者等法施行令》〔附表二〕"
+      }
+    ],
+    "A39475-zh-00005": [
+      {
+        "file_indices": [
+          53
+        ],
+        "text": "1. 受害者权益"
+      }
+    ],
+    "A39475-zh-00006": [
+      {
+        "file_indices": [
+          53
+        ],
+        "text": "甲. 依《社会福利事业法》第十一条第一款取得一级社会福利师"
+      }
+    ],
+    "A39475-zh-00007": [
+      {
+        "file_indices": [
+          53
+        ],
+        "text": "保护机构"
+      }
+    ],
+    "A39475-zh-00008": [
+      {
+        "file_indices": [
+          53
+        ],
+        "text": "资格，且从事社会福利或者人权领域相关工作"
+      }
+    ],
+    "A39475-zh-00009": [
+      {
+        "file_indices": [
+          53
+        ],
+        "text": "负责人"
+      }
+    ],
+    "A39475-zh-00010": [
+      {
+        "file_indices": [
+          53
+        ],
+        "text": "满五年以上的人。"
+      }
+    ],
+    "A39475-zh-00011": [
+      {
+        "file_indices": [
+          53
+        ],
+        "text": "乙. 在社会福利设施、社会福利团体、公益团体或者人权团体任职"
+      }
+    ],
+    "A39475-zh-00012": [
+      {
+        "file_indices": [
+          53
+        ],
+        "text": "并从事社会福利或者人权领域相关工作满七年"
+      }
+    ],
+    "A39475-zh-00013": [
+      {
+        "file_indices": [
+          53
+        ],
+        "text": "的人。"
+      }
+    ],
+    "A39475-zh-00014": [
+      {
+        "file_indices": [
+          53
+        ],
+        "text": "丙. 作为国家或者地方自治团体七级以上公务员，从事社会福利"
+      }
+    ],
+    "A39475-zh-00015": [
+      {
+        "file_indices": [
+          53
+        ],
+        "text": "或者人权领域相关工作满七年的人。"
+      }
+    ],
+    "A39475-zh-00016": [
+      {
+        "file_indices": [
+          54
+        ],
+        "text": "丁. 依《律师法》第四条取得律师资格，"
+      }
+    ],
+    "A39475-zh-00017": [
+      {
+        "file_indices": [
+          54
+        ],
+        "text": "从事社会福利或者人权领域相关工作满三年"
+      }
+    ],
+    "A39475-zh-00018": [
+      {
+        "file_indices": [
+          54
+        ],
+        "text": "的人。"
+      }
+    ],
+    "A39475-zh-00019": [
+      {
+        "file_indices": [
+          54
+        ],
+        "text": "戊. 在法学、社会学、社会福利学、女性学或者其他类似领域"
+      }
+    ],
+    "A39475-zh-00020": [
+      {
+        "file_indices": [
+          54
+        ],
+        "text": "取得博士学位，并从事社会福利或者人权领域"
+      }
+    ],
+    "A39475-zh-00021": [
+      {
+        "file_indices": [
+          54
+        ],
+        "text": "相关工作满五年的人。"
+      }
+    ],
+    "A39475-zh-00022": [
+      {
+        "file_indices": [
+          54
+        ],
+        "text": "己. 在法学、社会学、社会福利学、女性学或者其他类似领域"
+      }
+    ],
+    "A39475-zh-00023": [
+      {
+        "file_indices": [
+          54
+        ],
+        "text": "取得硕士学位，并从事社会福利或者人权领域"
+      }
+    ],
+    "A39475-zh-00024": [
+      {
+        "file_indices": [
+          54
+        ],
+        "text": "相关工作满七年的人。"
+      }
+    ],
+    "A39475-zh-00025": [
+      {
+        "file_indices": [
+          54
+        ],
+        "text": "庚. 在《高等教育法》第二条规定的学校，取得法学、社会学、社会福利学、"
+      }
+    ],
+    "A39475-zh-00026": [
+      {
+        "file_indices": [
+          54
+        ],
+        "text": "女性学或者其他类似领域的学士学位"
+      }
+    ],
+    "A39475-zh-00027": [
+      {
+        "file_indices": [
+          54
+        ],
+        "text": "或者专科学士学位的人（包括依法被认定具备同等学历的人），"
+      }
+    ],
+    "A39475-zh-00028": [
+      {
+        "file_indices": [
+          54
+        ],
+        "text": "从事社会福利或者"
+      }
+    ],
+    "A39475-zh-00029": [
+      {
+        "file_indices": [
+          54
+        ],
+        "text": "人权领域相关工作满九年的人。"
+      }
+    ],
+    "A39475-zh-00031": [
+      {
+        "file_indices": [
+          55
+        ],
+        "text": "甲. 依《社会福利事业法》第十一条第一款取得二级以上社会福利师"
+      }
+    ],
+    "A39475-zh-00032": [
+      {
+        "file_indices": [
+          55
+        ],
+        "text": "资格，并从事社会福利或者人权领域相关工作"
+      }
+    ],
+    "A39475-zh-00033": [
+      {
+        "file_indices": [
+          55
+        ],
+        "text": "满三年以上的人。"
+      }
+    ],
+    "A39475-zh-00034": [
+      {
+        "file_indices": [
+          55
+        ],
+        "text": "乙. 在社会福利设施、社会福利团体或者人权团体担任管理人员或职员，"
+      }
+    ],
+    "A39475-zh-00035": [
+      {
+        "file_indices": [
+          55
+        ],
+        "text": "从事社会福利或者人权领域相关工作满三年"
+      }
+    ],
+    "A39475-zh-00036": [
+      {
+        "file_indices": [
+          55
+        ],
+        "text": "的人。"
+      }
+    ],
+    "A39475-zh-00037": [
+      {
+        "file_indices": [
+          55
+        ],
+        "text": "丙. 作为国家或者地方自治团体的公务员，在社会福利或者人权"
+      }
+    ],
+    "A39475-zh-00038": [
+      {
+        "file_indices": [
+          55
+        ],
+        "text": "领域相关工作满三年的人。"
+      }
+    ],
+    "A39475-zh-00039": [
+      {
+        "file_indices": [
+          55
+        ],
+        "text": "丁. 在《高等教育法》第二条规定的学校，取得法学、社会学、社会福利学、"
+      }
+    ],
+    "A39475-zh-00040": [
+      {
+        "file_indices": [
+          55
+        ],
+        "text": "女性学或者其他类似领域的学士学位或者"
+      }
+    ],
+    "A39475-zh-00041": [
+      {
+        "file_indices": [
+          55
+        ],
+        "text": "专科学士学位的人（包括依法被认定具有同等学历的人），"
+      }
+    ],
+    "A39475-zh-00042": [
+      {
+        "file_indices": [
+          55
+        ],
+        "text": "从事社会福利或者"
+      }
+    ],
+    "A39475-zh-00043": [
+      {
+        "file_indices": [
+          55
+        ],
+        "text": "人权领域相关工作满三年的人。"
+      }
+    ],
+    "A39475-zh-00045": [
+      {
+        "file_indices": [
+          55
+        ],
+        "text": "甲. 在《高等教育法》第二条规定的学校取得学士学位或者"
+      }
+    ],
+    "A39475-zh-00046": [
+      {
+        "file_indices": [
+          55
+        ],
+        "text": "专科学士学位的人（包括依法被认定具有同等学历的人），"
+      }
+    ],
+    "A39475-zh-00047": [
+      {
+        "file_indices": [
+          55
+        ],
+        "text": "从事社会福利或者"
+      }
+    ],
+    "A39475-zh-00048": [
+      {
+        "file_indices": [
+          55
+        ],
+        "text": "人权领域相关工作满一年的人。"
+      }
+    ],
+    "A39475-zh-00049": [
+      {
+        "file_indices": [
+          55
+        ],
+        "text": "乙. 在社会福利设施、社会福利团体、公益团体或者人权团体担任职员，"
+      }
+    ],
+    "A39475-zh-00050": [
+      {
+        "file_indices": [
+          55
+        ],
+        "text": "从事社会福利或者人权领域相关工作满两年"
+      }
+    ],
+    "A39475-zh-00051": [
+      {
+        "file_indices": [
+          55
+        ],
+        "text": "的人。"
+      }
+    ],
+    "A39475-zh-00052": [
+      {
+        "file_indices": [
+          55
+        ],
+        "text": "备注：本表所称“工作经验”，包括取得相应资格或学位之前、"
+      }
+    ],
+    "A39475-zh-00053": [
+      {
+        "file_indices": [
+          55
+        ],
+        "text": "被有关机构聘用为管理人员或职员之前，或者被任命为公务员之前的工作经历。"
+      }
+    ],
+    "A39476-zh-00001": [
+      {
+        "file_indices": [
+          56
+        ],
+        "text": "■ 《防止人口贩运等及保护受害者等法施行令》〔附表三〕"
+      }
+    ],
+    "A39476-zh-00004": [
+      {
+        "file_indices": [
+          56
+        ],
+        "text": "支援设施应当具备下列各项设备。但在不得已的情况下，乙、"
+      }
+    ],
+    "A39476-zh-00005": [
+      {
+        "file_indices": [
+          56
+        ],
+        "text": "丙、丁项所列设备可以共用，或者己、庚、辛项所列设备可以共用。"
+      }
+    ],
+    "A39476-zh-00007": [
+      {
+        "file_indices": [
+          56
+        ],
+        "text": "甲. 卧室及起居室"
+      }
+    ],
+    "A39476-zh-00011": [
+      {
+        "file_indices": [
+          56
+        ],
+        "text": "3）除走廊等公共区域以外，卧室及起居室的实际面积应达到每名入住者6.6"
+      }
+    ],
+    "A39476-zh-00012": [
+      {
+        "file_indices": [
+          56
+        ],
+        "text": "平方米以上，且每间卧室入住人数不得超过四人。"
+      }
+    ],
+    "A39476-zh-00013": [
+      {
+        "file_indices": [
+          56
+        ],
+        "text": "乙. 办公室"
+      }
+    ],
+    "A39476-zh-00015": [
+      {
+        "file_indices": [
+          56
+        ],
+        "text": "丙. 咨询室"
+      }
+    ],
+    "A39476-zh-00017": [
+      {
+        "file_indices": [
+          56
+        ],
+        "text": "丁. 值班室"
+      }
+    ],
+    "A39476-zh-00019": [
+      {
+        "file_indices": [
+          56
+        ],
+        "text": "戊. 餐厅及烹饪室"
+      }
+    ],
+    "A39476-zh-00021": [
+      {
+        "file_indices": [
+          56
+        ],
+        "text": "己. 浴室"
+      }
+    ],
+    "A39476-zh-00023": [
+      {
+        "file_indices": [
+          57
+        ],
+        "text": "庚. 洗衣房"
+      }
+    ],
+    "A39476-zh-00025": [
+      {
+        "file_indices": [
+          57
+        ],
+        "text": "辛. 卫生间"
+      }
+    ],
+    "A39476-zh-00027": [
+      {
+        "file_indices": [
+          57
+        ],
+        "text": "壬. 供水设施及排水设备"
+      }
+    ],
+    "A39476-zh-00029": [
+      {
+        "file_indices": [
+          57
+        ],
+        "text": "应配备能够供应符合《饮用水管理法》第五条规定的饮用水水质标准的地下水等"
+      }
+    ],
+    "A39476-zh-00030": [
+      {
+        "file_indices": [
+          57
+        ],
+        "text": "的设施。"
+      }
+    ],
+    "A39476-zh-00031": [
+      {
+        "file_indices": [
+          57
+        ],
+        "text": "2）应当安装符合《下水道法》规定的排水设备。"
+      }
+    ],
+    "A39476-zh-00032": [
+      {
+        "file_indices": [
+          57
+        ],
+        "text": "癸. 应急灾害防备设施"
+      }
+    ],
+    "A39476-zh-00033": [
+      {
+        "file_indices": [
+          57
+        ],
+        "text": "应当依照《消防设施设置及管理法》规定的消防安全标准配备灭火"
+      }
+    ],
+    "A39476-zh-00034": [
+      {
+        "file_indices": [
+          57
+        ],
+        "text": "设备和避难设备。"
+      }
+    ],
+    "A39476-zh-00035": [
+      {
+        "file_indices": [
+          57
+        ],
+        "text": "2. 工作人员人数"
+      }
+    ],
+    "A39476-zh-00036": [
+      {
+        "file_indices": [
+          57
+        ],
+        "text": "类别"
+      }
+    ],
+    "A39476-zh-00037": [
+      {
+        "file_indices": [
+          57
+        ],
+        "text": "支援设施容纳人数"
+      }
+    ],
+    "A39476-zh-00038": [
+      {
+        "file_indices": [
+          57
+        ],
+        "text": "十人以下"
+      }
+    ],
+    "A39476-zh-00039": [
+      {
+        "file_indices": [
+          57
+        ],
+        "text": "十一人以上"
+      }
+    ],
+    "A39476-zh-00040": [
+      {
+        "file_indices": [
+          57
+        ],
+        "text": "十五人以上"
+      }
+    ],
+    "A39476-zh-00041": [
+      {
+        "file_indices": [
+          57
+        ],
+        "text": "二十人以上"
+      }
+    ],
+    "A39476-zh-00042": [
+      {
+        "file_indices": [
+          57
+        ],
+        "text": "不足十五人"
+      }
+    ],
+    "A39476-zh-00043": [
+      {
+        "file_indices": [
+          57
+        ],
+        "text": "不足二十人"
+      }
+    ],
+    "A39476-zh-00044": [
+      {
+        "file_indices": [
+          58
+        ],
+        "text": "支援设施负责人"
+      }
+    ],
+    "A39476-zh-00049": [
+      {
+        "file_indices": [
+          58
+        ],
+        "text": "咨询员"
+      }
+    ],
+    "A39476-zh-00054": [
+      {
+        "file_indices": [
+          58
+        ],
+        "text": "辅助人员"
+      }
+    ],
+    "A39476-zh-00063": [
+      {
+        "file_indices": [
+          58
+        ],
+        "text": "备注：支援设施负责人应当为全职人员，不得兼任其他业务。"
+      }
+    ],
+    "A39476-zh-00064": [
+      {
+        "file_indices": [
+          58
+        ],
+        "text": "但可以兼任其所属法人、团体运营的法第三十三条第三款第五项规定的自立支援共同"
+      }
+    ],
+    "A39476-zh-00065": [
+      {
+        "file_indices": [
+          58
+        ],
+        "text": "生活设施的负责人。"
+      }
+    ],
+    "A39477-zh-00001": [
+      {
+        "file_indices": [
+          59
+        ],
+        "text": "■ 《防止人口贩运等及保护受害者等法施行令》〔附表四〕〈2026年3月24日修订〉"
+      }
+    ],
+    "A39477-zh-00003": [
+      {
+        "file_indices": [
+          59
+        ],
+        "text": "1. 入住者管理"
+      }
+    ],
+    "A39477-zh-00004": [
+      {
+        "file_indices": [
+          59
+        ],
+        "text": "甲. 应考虑入住者的年龄、性格及身心健康状况，对其进行观察和指导，并根据"
+      }
+    ],
+    "A39477-zh-00005": [
+      {
+        "file_indices": [
+          59
+        ],
+        "text": "保护工作的进展，采取安排回家或者转往其他支援设施等必要措施。"
+      }
+    ],
+    "A39477-zh-00007": [
+      {
+        "file_indices": [
+          59
+        ],
+        "text": "乙. 应保持入住者生活环境清洁，并根据其健康状况安排运动和休息。"
+      }
+    ],
+    "A39477-zh-00009": [
+      {
+        "file_indices": [
+          59
+        ],
+        "text": "丙. 不得允许入住者（包括入住者的子女中经支援设施负责人认可的婴幼儿）"
+      }
+    ],
+    "A39477-zh-00010": [
+      {
+        "file_indices": [
+          59
+        ],
+        "text": "及支援设施工作人员以外的人在支援设施居住。"
+      }
+    ],
+    "A39477-zh-00011": [
+      {
+        "file_indices": [
+          59
+        ],
+        "text": "丁. 因受害者等入住、退所等导致入住人数变化时，应当向"
+      }
+    ],
+    "A39477-zh-00012": [
+      {
+        "file_indices": [
+          59
+        ],
+        "text": "指定权人（指指定该支援设施的市、道知事或者市长、郡守、区厅长）"
+      }
+    ],
+    "A39477-zh-00013": [
+      {
+        "file_indices": [
+          59
+        ],
+        "text": "报告。"
+      }
+    ],
+    "A39477-zh-00017": [
+      {
+        "file_indices": [
+          59
+        ],
+        "text": "丙. 支援设施入住办法"
+      }
+    ],
+    "A39477-zh-00020": [
+      {
+        "file_indices": [
+          59
+        ],
+        "text": "3. 备置账簿等"
+      }
+    ],
+    "A39477-zh-00021": [
+      {
+        "file_indices": [
+          59
+        ],
+        "text": "应当将下列各项的账簿及文件备置于办公室。在此情况下，下列各项所列账簿"
+      }
+    ],
+    "A39477-zh-00022": [
+      {
+        "file_indices": [
+          59
+        ],
+        "text": "及文件可以按照《电子文书及电子交易基本法》第五条规定，以电子文书或者电子化"
+      }
+    ],
+    "A39477-zh-00023": [
+      {
+        "file_indices": [
+          59
+        ],
+        "text": "文书形式保存。"
+      }
+    ],
+    "A39477-zh-00025": [
+      {
+        "file_indices": [
+          60
+        ],
+        "text": "1）支援设施历史记录簿"
+      }
+    ],
+    "A39477-zh-00027": [
+      {
+        "file_indices": [
+          60
+        ],
+        "text": "3）会议记录"
+      }
+    ],
+    "A39477-zh-00028": [
+      {
+        "file_indices": [
+          60
+        ],
+        "text": "4）所属法人或者机构的章程及有关决议文件"
+      }
+    ],
+    "A39477-zh-00029": [
+      {
+        "file_indices": [
+          60
+        ],
+        "text": "5）文书档案（包括报告书及与有关行政机关收发的文书）"
+      }
+    ],
+    "A39477-zh-00031": [
+      {
+        "file_indices": [
+          60
+        ],
+        "text": "乙. 业务相关账簿及文件"
+      }
+    ],
+    "A39477-zh-00032": [
+      {
+        "file_indices": [
+          60
+        ],
+        "text": "1）支援设施入住者相关文件（包括个人情况调查表、健康记录簿、入住及退所者名单、"
+      }
+    ],
+    "A39477-zh-00033": [
+      {
+        "file_indices": [
+          60
+        ],
+        "text": "保护进展、指导及咨询等相关文件）"
+      }
+    ],
+    "A39477-zh-00034": [
+      {
+        "file_indices": [
+          60
+        ],
+        "text": "2）运营日志及咨询日志"
+      }
+    ],
+    "A39477-zh-00035": [
+      {
+        "file_indices": [
+          60
+        ],
+        "text": "3）运营项目管理登记簿（包括项目运营日志及评估相关文件）"
+      }
+    ],
+    "A39477-zh-00037": [
+      {
+        "file_indices": [
+          60
+        ],
+        "text": "丙. 财务、会计相关账簿及文件"
+      }
+    ],
+    "A39477-zh-00038": [
+      {
+        "file_indices": [
+          60
+        ],
+        "text": "1）总分类账及收支辅助账簿"
+      }
+    ],
+    "A39477-zh-00041": [
+      {
+        "file_indices": [
+          60
+        ],
+        "text": "4）物品管理登记簿"
+      }
+    ],
+    "A39477-zh-00043": [
+      {
+        "file_indices": [
+          60
+        ],
+        "text": "6）其他会计相关证明文件"
+      }
+    ],
+    "A39478-zh-00001": [
+      {
+        "file_indices": [
+          61
+        ],
+        "text": "■ 《防止人口贩运等及保护受害者等法施行令》〔附表五〕"
+      }
+    ],
+    "A39478-zh-00003": [
+      {
+        "file_indices": [
+          61
+        ],
+        "text": "1. 一般标准"
+      }
+    ],
+    "A39478-zh-00004": [
+      {
+        "file_indices": [
+          61
+        ],
+        "text": "甲. 按违法行为次数加重行政处分的标准，适用于最近三年内因相同违法"
+      }
+    ],
+    "A39478-zh-00005": [
+      {
+        "file_indices": [
+          61
+        ],
+        "text": "行为曾受到行政处分的情形。此时，期间的计算以就该违法行为"
+      }
+    ],
+    "A39478-zh-00006": [
+      {
+        "file_indices": [
+          61
+        ],
+        "text": "受到行政处分之日及该处分后再次实施相同违法行为而被"
+      }
+    ],
+    "A39478-zh-00007": [
+      {
+        "file_indices": [
+          61
+        ],
+        "text": "查获之日为准。"
+      }
+    ],
+    "A39478-zh-00008": [
+      {
+        "file_indices": [
+          61
+        ],
+        "text": "乙. 依据甲目加重处分时，加重处分的适用次数为该次违法"
+      }
+    ],
+    "A39478-zh-00009": [
+      {
+        "file_indices": [
+          61
+        ],
+        "text": "行为之前的处分次数（甲目所定期间内有两次以上行政处分时，"
+      }
+    ],
+    "A39478-zh-00010": [
+      {
+        "file_indices": [
+          61
+        ],
+        "text": "以其中较高次数为准）的下一次数。"
+      }
+    ],
+    "A39478-zh-00011": [
+      {
+        "file_indices": [
+          61
+        ],
+        "text": "丙. 有两项以上违法行为且各自适用的处分标准不同时，"
+      }
+    ],
+    "A39478-zh-00012": [
+      {
+        "file_indices": [
+          61
+        ],
+        "text": "适用其中较重的处分标准。但两项以上处分标准均为停止业务处分时，"
+      }
+    ],
+    "A39478-zh-00013": [
+      {
+        "file_indices": [
+          61
+        ],
+        "text": "在不超过各项处分标准期间合计的范围内，可以在较重的"
+      }
+    ],
+    "A39478-zh-00014": [
+      {
+        "file_indices": [
+          61
+        ],
+        "text": "处分标准二分之一的范围内加重处分。"
+      }
+    ],
+    "A39478-zh-00015": [
+      {
+        "file_indices": [
+          61
+        ],
+        "text": "丁. 有下列任一情形的，即使不符合第二项个别标准，仍可"
+      }
+    ],
+    "A39478-zh-00016": [
+      {
+        "file_indices": [
+          61
+        ],
+        "text": "撤销指定。"
+      }
+    ],
+    "A39478-zh-00017": [
+      {
+        "file_indices": [
+          61
+        ],
+        "text": "1）对入住者的违法行为情节严重（如因故意或者重大过失实施违法行为，"
+      }
+    ],
+    "A39478-zh-00018": [
+      {
+        "file_indices": [
+          61
+        ],
+        "text": "并考虑违法程度、动机及结果等因素，"
+      }
+    ],
+    "A39478-zh-00019": [
+      {
+        "file_indices": [
+          61
+        ],
+        "text": "认为有必要加重处分标准），"
+      }
+    ],
+    "A39478-zh-00020": [
+      {
+        "file_indices": [
+          61
+        ],
+        "text": "致使支援设施无法正常运营的。"
+      }
+    ],
+    "A39478-zh-00021": [
+      {
+        "file_indices": [
+          61
+        ],
+        "text": "2）存在三项以上违法行为，且属于下列任一情形的："
+      }
+    ],
+    "A39478-zh-00022": [
+      {
+        "file_indices": [
+          61
+        ],
+        "text": "甲）违法行为种类达到四种以上。"
+      }
+    ],
+    "A39478-zh-00023": [
+      {
+        "file_indices": [
+          61
+        ],
+        "text": "乙）全部违法行为均属于第二十五条第一款第四项规定的情形。"
+      }
+    ],
+    "A39478-zh-00024": [
+      {
+        "file_indices": [
+          61
+        ],
+        "text": "戊. 单一违法行为应受到停止业务处分时，有下列任一情形的，"
+      }
+    ],
+    "A39478-zh-00025": [
+      {
+        "file_indices": [
+          62
+        ],
+        "text": "有下列任一情形的，可以在原处分标准二分之一的范围内减轻停止业务处分。"
+      }
+    ],
+    "A39478-zh-00026": [
+      {
+        "file_indices": [
+          62
+        ],
+        "text": "但属于法第三十六条第一款第三项或第四项的，不得减轻。"
+      }
+    ],
+    "A39478-zh-00028": [
+      {
+        "file_indices": [
+          62
+        ],
+        "text": "1）认定违法行为系因轻微疏忽或者错误造成的。"
+      }
+    ],
+    "A39478-zh-00029": [
+      {
+        "file_indices": [
+          62
+        ],
+        "text": "2）违法行为内容及程度轻微，所造成的损害较小的。"
+      }
+    ],
+    "A39478-zh-00030": [
+      {
+        "file_indices": [
+          62
+        ],
+        "text": "3）认定违法者已为纠正或者消除违法状态而作出努力的"
+      }
+    ],
+    "A39478-zh-00031": [
+      {
+        "file_indices": [
+          62
+        ],
+        "text": "情形。"
+      }
+    ],
+    "A39478-zh-00032": [
+      {
+        "file_indices": [
+          62
+        ],
+        "text": "4）其他考虑违法行为的程度、动机及后果等，认为有必要缩短停止业务"
+      }
+    ],
+    "A39478-zh-00033": [
+      {
+        "file_indices": [
+          62
+        ],
+        "text": "期间的。"
+      }
+    ],
+    "A39478-zh-00034": [
+      {
+        "file_indices": [
+          62
+        ],
+        "text": "2. 个别标准"
+      }
+    ],
+    "A39478-zh-00035": [
+      {
+        "file_indices": [
+          62
+        ],
+        "text": "违法行为"
+      }
+    ],
+    "A39478-zh-00036": [
+      {
+        "file_indices": [
+          62
+        ],
+        "text": "依据"
+      }
+    ],
+    "A39478-zh-00037": [
+      {
+        "file_indices": [
+          62
+        ],
+        "text": "行政处分标准"
+      }
+    ],
+    "A39478-zh-00038": [
+      {
+        "file_indices": [
+          62
+        ],
+        "text": "法律条文"
+      }
+    ],
+    "A39478-zh-00039": [
+      {
+        "file_indices": [
+          62
+        ],
+        "text": "第一次违法"
+      }
+    ],
+    "A39478-zh-00040": [
+      {
+        "file_indices": [
+          62
+        ],
+        "text": "第二次违法"
+      }
+    ],
+    "A39478-zh-00041": [
+      {
+        "file_indices": [
+          62
+        ],
+        "text": "第三次违法"
+      }
+    ],
+    "A39478-zh-00042": [
+      {
+        "file_indices": [
+          62
+        ],
+        "text": "第四次违法"
+      }
+    ],
+    "A39478-zh-00043": [
+      {
+        "file_indices": [
+          62
+        ],
+        "text": "甲. 通过虚假或者其他不正当"
+      }
+    ],
+    "A39478-zh-00044": [
+      {
+        "file_indices": [
+          62
+        ],
+        "text": "撤销指定"
+      }
+    ],
+    "A39478-zh-00045": [
+      {
+        "file_indices": [
+          62
+        ],
+        "text": "方式取得指定的。"
+      }
+    ],
+    "A39478-zh-00046": [
+      {
+        "file_indices": [
+          62
+        ],
+        "text": "法第三十六条第一款"
+      }
+    ],
+    "A39478-zh-00047": [
+      {
+        "file_indices": [
+          62
+        ],
+        "text": "第一项"
+      }
+    ],
+    "A39478-zh-00048": [
+      {
+        "file_indices": [
+          62
+        ],
+        "text": "乙. 不符合依据法第三十三条第六款规定的"
+      }
+    ],
+    "A39478-zh-00049": [
+      {
+        "file_indices": [
+          62
+        ],
+        "text": "警告"
+      }
+    ],
+    "A39478-zh-00050": [
+      {
+        "file_indices": [
+          62
+        ],
+        "text": "停止业务"
+      }
+    ],
+    "A39478-zh-00051": [
+      {
+        "file_indices": [
+          63
+        ],
+        "text": "停止业务"
+      }
+    ],
+    "A39478-zh-00052": [
+      {
+        "file_indices": [
+          63
+        ],
+        "text": "撤销指定"
+      }
+    ],
+    "A39478-zh-00053": [
+      {
+        "file_indices": [
+          63
+        ],
+        "text": "不符合指定标准的"
+      }
+    ],
+    "A39478-zh-00054": [
+      {
+        "file_indices": [
+          63
+        ],
+        "text": "法第三十六条第一款"
+      }
+    ],
+    "A39478-zh-00057": [
+      {
+        "file_indices": [
+          63
+        ],
+        "text": "情形"
+      }
+    ],
+    "A39478-zh-00058": [
+      {
+        "file_indices": [
+          63
+        ],
+        "text": "第二项"
+      }
+    ],
+    "A39478-zh-00059": [
+      {
+        "file_indices": [
+          63
+        ],
+        "text": "丙. 违反法第三十九条规定，以"
+      }
+    ],
+    "A39478-zh-00061": [
+      {
+        "file_indices": [
+          63
+        ],
+        "text": "停止业务"
+      }
+    ],
+    "A39478-zh-00062": [
+      {
+        "file_indices": [
+          63
+        ],
+        "text": "停止业务"
+      }
+    ],
+    "A39478-zh-00064": [
+      {
+        "file_indices": [
+          63
+        ],
+        "text": "营利为目的运营的情形"
+      }
+    ],
+    "A39478-zh-00065": [
+      {
+        "file_indices": [
+          63
+        ],
+        "text": "法第三十六条第一款"
+      }
+    ],
+    "A39478-zh-00068": [
+      {
+        "file_indices": [
+          63
+        ],
+        "text": "第三项"
+      }
+    ],
+    "A39478-zh-00069": [
+      {
+        "file_indices": [
+          63
+        ],
+        "text": "丁. 未依法第四十五条第三款"
+      }
+    ],
+    "A39478-zh-00071": [
+      {
+        "file_indices": [
+          63
+        ],
+        "text": "停止业务"
+      }
+    ],
+    "A39478-zh-00072": [
+      {
+        "file_indices": [
+          63
+        ],
+        "text": "停止业务"
+      }
+    ],
+    "A39478-zh-00074": [
+      {
+        "file_indices": [
+          63
+        ],
+        "text": "履行纠正命令的情形"
+      }
+    ],
+    "A39478-zh-00075": [
+      {
+        "file_indices": [
+          63
+        ],
+        "text": "法第三十六条第一款"
+      }
+    ],
+    "A39478-zh-00078": [
+      {
+        "file_indices": [
+          63
+        ],
+        "text": "情形"
+      }
+    ],
+    "A39478-zh-00079": [
+      {
+        "file_indices": [
+          63
+        ],
+        "text": "第四项"
+      }
+    ],
+    "A39478-zh-00080": [
+      {
+        "file_indices": [
+          63
+        ],
+        "text": "戊. 将国家或者地方自治团体的"
+      }
+    ],
+    "A39478-zh-00081": [
+      {
+        "file_indices": [
+          63
+        ],
+        "text": "第二十五条"
+      }
+    ],
+    "A39478-zh-00082": [
+      {
+        "file_indices": [
+          63
+        ],
+        "text": "停止业务"
+      }
+    ],
+    "A39478-zh-00083": [
+      {
+        "file_indices": [
+          63
+        ],
+        "text": "停止业务"
+      }
+    ],
+    "A39478-zh-00085": [
+      {
+        "file_indices": [
+          63
+        ],
+        "text": "补助金用于规定用途以外的"
+      }
+    ],
+    "A39478-zh-00086": [
+      {
+        "file_indices": [
+          63
+        ],
+        "text": "第一款第一项"
+      }
+    ],
+    "A39478-zh-00089": [
+      {
+        "file_indices": [
+          63
+        ],
+        "text": "用途的情形"
+      }
+    ],
+    "A39478-zh-00090": [
+      {
+        "file_indices": [
+          64
+        ],
+        "text": "己. 未记载会计账簿"
+      }
+    ],
+    "A39478-zh-00091": [
+      {
+        "file_indices": [
+          64
+        ],
+        "text": "第二十五条"
+      }
+    ],
+    "A39478-zh-00092": [
+      {
+        "file_indices": [
+          64
+        ],
+        "text": "停止业务"
+      }
+    ],
+    "A39478-zh-00093": [
+      {
+        "file_indices": [
+          64
+        ],
+        "text": "停止业务"
+      }
+    ],
+    "A39478-zh-00095": [
+      {
+        "file_indices": [
+          64
+        ],
+        "text": "或者作虚假记载的"
+      }
+    ],
+    "A39478-zh-00096": [
+      {
+        "file_indices": [
+          64
+        ],
+        "text": "第一款第二项"
+      }
+    ],
+    "A39478-zh-00099": [
+      {
+        "file_indices": [
+          64
+        ],
+        "text": "己. 未依法第四十五条提交报告"
+      }
+    ],
+    "A39478-zh-00100": [
+      {
+        "file_indices": [
+          64
+        ],
+        "text": "第二十五条"
+      }
+    ],
+    "A39478-zh-00102": [
+      {
+        "file_indices": [
+          64
+        ],
+        "text": "停止业务"
+      }
+    ],
+    "A39478-zh-00103": [
+      {
+        "file_indices": [
+          64
+        ],
+        "text": "停止业务"
+      }
+    ],
+    "A39478-zh-00105": [
+      {
+        "file_indices": [
+          64
+        ],
+        "text": "或者资料，"
+      }
+    ],
+    "A39478-zh-00106": [
+      {
+        "file_indices": [
+          64
+        ],
+        "text": "第一款第三项"
+      }
+    ],
+    "A39478-zh-00109": [
+      {
+        "file_indices": [
+          64
+        ],
+        "text": "或者作虚假报告、"
+      }
+    ],
+    "A39478-zh-00110": [
+      {
+        "file_indices": [
+          64
+        ],
+        "text": "提交虚假资料的情形"
+      }
+    ],
+    "A39478-zh-00111": [
+      {
+        "file_indices": [
+          64
+        ],
+        "text": "庚. 支援设施负责人或者工作人员"
+      }
+    ],
+    "A39478-zh-00112": [
+      {
+        "file_indices": [
+          64
+        ],
+        "text": "第二十五条"
+      }
+    ],
+    "A39478-zh-00113": [
+      {
+        "file_indices": [
+          64
+        ],
+        "text": "停止业务"
+      }
+    ],
+    "A39478-zh-00114": [
+      {
+        "file_indices": [
+          64
+        ],
+        "text": "停止业务"
+      }
+    ],
+    "A39478-zh-00116": [
+      {
+        "file_indices": [
+          64
+        ],
+        "text": "对入住者实施殴打、"
+      }
+    ],
+    "A39478-zh-00117": [
+      {
+        "file_indices": [
+          64
+        ],
+        "text": "第一款第四项"
+      }
+    ],
+    "A39478-zh-00120": [
+      {
+        "file_indices": [
+          64
+        ],
+        "text": "伤害、性暴力、性骚扰，"
+      }
+    ],
+    "A39478-zh-00121": [
+      {
+        "file_indices": [
+          64
+        ],
+        "text": "或者通过辱骂、威胁等"
+      }
+    ],
+    "A39478-zh-00122": [
+      {
+        "file_indices": [
+          64
+        ],
+        "text": "实施精神虐待的"
+      }
+    ],
+    "A39478-zh-00123": [
+      {
+        "file_indices": [
+          64
+        ],
+        "text": "情形"
+      }
+    ],
+    "A39479-zh-00001": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "■ 《防止人口贩运等及保护受害者等法施行令》〔附表六〕"
+      }
+    ],
+    "A39479-zh-00003": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "1. 一般标准"
+      }
+    ],
+    "A39479-zh-00004": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "甲. 按违法次数加重行政罚款的标准，适用于最近三年内因相同违法"
+      }
+    ],
+    "A39479-zh-00005": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "行为曾受到行政罚款处分的情形。此时，期间的计算以"
+      }
+    ],
+    "A39479-zh-00006": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "受到该违法行为行政罚款处分之日及处分后再次实施相同违法行为"
+      }
+    ],
+    "A39479-zh-00007": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "而被查获之日为准。"
+      }
+    ],
+    "A39479-zh-00008": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "乙. 依据甲目加重罚款时，加重处罚适用的次数应为该违法"
+      }
+    ],
+    "A39479-zh-00009": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "行为以前的处罚次数（甲目规定期间内有两次以上罚款处分时，"
+      }
+    ],
+    "A39479-zh-00010": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "以较高的次数为准）的下一次数。"
+      }
+    ],
+    "A39479-zh-00011": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "丙. 处罚机关在下列任一情形下，可以按照第二项的个别标准"
+      }
+    ],
+    "A39479-zh-00012": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "在罚款金额二分之一的范围内减轻罚款。但"
+      }
+    ],
+    "A39479-zh-00013": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "对拖欠行政罚款的违法者不适用。"
+      }
+    ],
+    "A39479-zh-00014": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "1）违法行为系因轻微疏忽或者错误造成的。"
+      }
+    ],
+    "A39479-zh-00015": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "2）违法行为内容及程度轻微，造成的损害较小的。"
+      }
+    ],
+    "A39479-zh-00016": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "3）认定违法者已努力纠正或者消除违法状态的"
+      }
+    ],
+    "A39479-zh-00017": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "情形。"
+      }
+    ],
+    "A39479-zh-00018": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "4）其他考虑违法行为的程度、动机及结果等，认为有必要减轻行政罚款"
+      }
+    ],
+    "A39479-zh-00019": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "金额的情形。"
+      }
+    ],
+    "A39479-zh-00020": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "2. 个别标准"
+      }
+    ],
+    "A39479-zh-00021": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "违法行为"
+      }
+    ],
+    "A39479-zh-00022": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "依据"
+      }
+    ],
+    "A39479-zh-00023": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "行政罚款金额"
+      }
+    ],
+    "A39479-zh-00024": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "法律条文"
+      }
+    ],
+    "A39479-zh-00025": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "第一次违法"
+      }
+    ],
+    "A39479-zh-00026": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "第二次违法"
+      }
+    ],
+    "A39479-zh-00027": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "第三次及以上违法"
+      }
+    ],
+    "A39479-zh-00028": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "甲. 无正当理由未依法"
+      }
+    ],
+    "A39479-zh-00030": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "第二十一条第二款"
+      }
+    ],
+    "A39479-zh-00031": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "法第五十条第一款"
+      }
+    ],
+    "A39479-zh-00032": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "进行举报的情形"
+      }
+    ],
+    "A39479-zh-00033": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "乙. 对依法第四十五条第一款"
+      }
+    ],
+    "A39479-zh-00034": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "150万韩元"
+      }
+    ],
+    "A39479-zh-00035": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "200万韩元"
+      }
+    ],
+    "A39479-zh-00036": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "300万韩元"
+      }
+    ],
+    "A39479-zh-00037": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "有关公务员进行的进入、"
+      }
+    ],
+    "A39479-zh-00038": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "法第五十条第二款"
+      }
+    ],
+    "A39479-zh-00039": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "检查予以拒绝、妨碍或者"
+      }
+    ],
+    "A39479-zh-00040": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "第一项"
+      }
+    ],
+    "A39479-zh-00041": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "规避的情形"
+      }
+    ],
+    "A39479-zh-00042": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "丙. 违反法第四十六条规定的"
+      }
+    ],
+    "A39479-zh-00043": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "150万韩元"
+      }
+    ],
+    "A39479-zh-00044": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "200万韩元"
+      }
+    ],
+    "A39479-zh-00045": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "300万韩元"
+      }
+    ],
+    "A39479-zh-00046": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "禁止使用类似名称的义务"
+      }
+    ],
+    "A39479-zh-00047": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "法第五十条第二款"
+      }
+    ],
+    "A39479-zh-00048": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "的情形"
+      }
+    ],
+    "A39479-zh-00049": [
+      {
+        "file_indices": [
+          65
+        ],
+        "text": "第二项"
+      }
+    ],
+    "B1-zh-00004": [
+      {
+        "file_indices": [
+          66
+        ],
+        "text": "第二条（定义）本法所用术语的含义如下。\n1. “人口贩运等”是指以卖淫、性剥削、劳动剥削、摘取器官等剥削为目的，实施下列各目之一的行为，招募、运输、转送、藏匿、移交或者接收人员的行为。但是，招募、运输、转送、藏匿、移交或者接收《儿童及青少年性保护法》第二条第一项规定的儿童、青少年（以下简称“儿童、青少年”）或者《残疾人福利法》第二条规定的残疾人（以下简称“残疾人”）时，无须实施下列各目之一的行为。\n甲. 对他人实施殴打、威胁、强迫、逮捕、拘禁、拐取、诱拐或者买卖的行为。\n乙. 对他人使用欺诈手段或者威势，或者利用他人困境的行为。\n丙. 向因业务关系、雇佣关系或者其他关系而对他人负有保护、监督职责的人提供或者约定提供金钱、财物或者财产利益的行为。\n2. “人口贩运等犯罪”是指人口贩运等行为中构成下列各目之一的犯罪。\n甲. 《刑法》第二编第二十八章遗弃与虐待罪中第二百七十四条（虐待儿童使其从事过度劳动）之罪，以及第三十一章拐取、诱拐和人口贩卖罪中第二百八十七条（拐取、诱拐未成年人）、第二百八十八条（以猥亵等为目的的拐取、诱拐等）、第二百八十九条（人口贩卖）、第二百九十条（因拐取、诱拐、买卖、运送等致伤或者伤害）、第二百九十一条（因拐取、诱拐、买卖、运送等致人死亡）、第二百九十二条（接收、藏匿被拐取、诱拐、买卖、运送之人等）、第二百九十四条（未遂犯）及第二百九十六条（预备、共谋）之罪。\n乙. 《处罚介绍卖淫等行为法》第十八条及第二十三条（未遂犯）之罪（仅限第十八条之罪的未遂犯）。\n丙. 《儿童及青少年性保护法》第十二条（买卖儿童、青少年）至第十五条（介绍营业行为等）之罪。\n丁. 《青少年保护法》第五十五条至第五十七条之罪。\n戊. 《儿童福利法》第七十一条第一款第一项、第二项（仅限该法第十七条第七项及第八项的行为）、第三项（仅限该法第十七条第十项的行为）及第四项之罪。\n己. 《劳动基准法》第一百零七条之罪（仅限该法第七条所规定的行为）。\n庚. 《船员法》第一百六十七条第三项之罪。\n辛. 《残疾人福利法》第八十六条第二款第二项之罪。\n壬. 《促进精神健康及支援精神疾病患者福利服务法》第八十五条第五项之罪。\n癸. 《无家可归者等福利及自立支援法》第二十六条第一款之罪。\n子. 《器官等移植法》第四十四条（仅限该条第一款第二项至第六项、第八项及第九项之罪）、第四十五条及第四十八条（仅限该条第三项至第七项之罪）之罪。\n丑. 甲目至子目所列犯罪中依据其他法律加重处罚的犯罪。\n\n"
+      }
+    ],
+    "B1-zh-00006": [
+      {
+        "file_indices": [
+          66
+        ],
+        "text": "第四条（受害者的同意等）\n① 存在第二条第一项各目之一所列行为的，即使犯罪受害者同意受到剥削，也不影响实施人口贩运等行为者的犯罪成立。\n② 对受害者在人口贩运等过程中实施的犯罪行为，可以减轻或者免除对该受害者的刑罚。\n\n"
+      }
+    ],
+    "B1-zh-00010": [
+      {
+        "file_indices": [
+          66
+        ],
+        "text": "第八条（制定防止人口贩运等综合计划）\n① 性别平等家庭部部长应当与有关中央行政机关负责人协商，并经第九条规定的人口贩运等防止政策协调协议会审议，每五年制定并实施关于防止人口贩运等以及保护、支援受害者等的综合计划（以下简称“综合计划”）。变更综合计划时亦同。〈2025年10月1日修订〉\n② 综合计划应当包括下列事项：\n1. 防止人口贩运等以及保护、支援受害者的政策基本方向。\n2. 国内外有关人口贩运等的政策动向。\n3. 人口贩运等犯罪及受害者的实际状况分析。\n4. 关于预防和防止人口贩运等的事项。\n5. 关于识别、保护和支援受害者的事项。\n6. 关于改进预防、防止人口贩运等及保护受害者相关制度的事项。\n7. 推进预防、防止人口贩运等及保护、支援受害者政策所需资金的筹措及运用方案。\n8. 关于有关中央行政机关在预防、防止人口贩运等及保护、支援受害者政策方面的职责分工。\n9. 其他为预防、防止人口贩运等及保护、支援受害者所必需且由总统令规定的事项。\n③ 有关中央行政机关负责人应当每年制定并实施关于防止人口贩运等以及保护、支援受害者等的事业计划，并每年向性别平等家庭部部长提交该计划及上一年度计划的实施成果。〈2025年10月1日修订〉\n④ 性别平等家庭部部长应当汇总依第三款提交的事业计划及实施成果，制定综合计划。〈2025年10月1日修订〉\n⑤ 性别平等家庭部部长应当每年检查综合计划的实施成果；认为有必要将结果反映在综合计划中的，应当依第一款后段变更综合计划，或者在制定下一综合计划时予以反映。〈2025年10月1日修订〉\n⑥ 除第一款至第五款规定的事项外，制定综合计划的时间、程序、方法等必要事项由总统令规定。\n\n"
+      }
+    ],
+    "B1-zh-00011": [
+      {
+        "file_indices": [
+          67
+        ],
+        "text": "第九条（防止人口贩运等政策协调协议会）\n① 为审议下列事项并促进有关部门之间的合作与协调，在教育部部长所属机构内设立防止人口贩运等政策协调协议会（以下简称“政策协议会”）。〈2025年10月1日修订〉\n1. 关于制定和实施综合计划的事项。\n2. 关于预防、防止人口贩运等及保护、支援受害者政策各领域主要措施的事项。\n3. 关于制定预防、防止人口贩运等及保护、支援受害者政策和提供咨询意见的事项。\n4. 主席认为为预防、防止人口贩运等及保护、支援受害者所必需的其他事项。\n② 政策协议会由包括主席在内的不超过十五名委员组成；主席由教育部部长担任，副主席由性别平等家庭部部长担任，其他委员为下列人员。〈2025年10月1日修订〉\n1. 法务部部长。\n2. 文化体育观光部部长。\n3. 保健福祉部部长。\n4. 雇佣劳动部部长。\n5. 海洋水产部部长。\n6. 警察厅厅长。\n7. 海洋警察厅厅长。\n8. 总统令规定的有关中央行政机关负责人。\n9. 主席从具有预防、防止人口贩运等及保护、支援受害者方面丰富专业知识与经验的人员中委任的人。\n③ 根据第二款第九项委任的委员任期为三年，仅可连任一次。\n④ 政策协议会设干事一名，由主席从性别平等家庭部所属高级公务员中指定。〈2025年10月1日修订〉\n⑤ 政策协议会的组成与运营所需其他事项由总统令规定。\n\n"
+      }
+    ],
+    "B1-zh-00013": [
+      {
+        "file_indices": [
+          67
+        ],
+        "text": "第十一条（教育等）\n① 国家和地方自治团体应当为预防人口贩运等以及保护、支援受害者，对下列人员开展关于识别人口贩运等受害者等内容的教育，并将教育结果提交性别平等家庭部部长。〈2022年12月13日、2025年10月1日修订〉\n1. 根据第二十一条第二款负有举报义务的人。\n2. 根据第二十九条设立的专责医疗机构的工作人员。\n3. 根据第三十三条设立的人口贩运等受害者支援设施的工作人员。\n4. 负责《出入境管理法》第二十五条之二及第四十六条之二所规定业务的出入境管理公务员。\n5. 根据《劳动基准法》第一百零一条第一款规定的劳动监察官。\n6. 根据《船员法》第一百二十五条第一款规定的船员劳动监察官。\n7. 从事人口贩运等犯罪侦查及审判相关工作的国家机关工作人员。\n8. 总统令规定的其他机构的工作人员。\n② 第一款规定的教育内容、方式和受教育对象范围等必要事项由总统令规定。\n\n"
+      }
+    ],
+    "B1-zh-00016": [
+      {
+        "file_indices": [
+          68
+        ],
+        "text": "第十四条（签发受害者确认书）\n① 遭受人口贩运等侵害的人或者第二十一条第二款规定的举报义务人，可以请求性别平等家庭部部长签发确认书。〈2025年10月1日修订〉\n② 为在签发第一款所述受害者确认书时审议、判定申请人是否属于受害者，在第十五条规定的地方人口贩运等受害者权益保护机构设立人口贩运等案件判定委员会（本条以下简称“判定委员会”）。判定委员会的组成和运作所需事项由总统令规定。\n③ 性别平等家庭部部长可以经过判定委员会的判定，依总统令规定签发确认书。〈2025年10月1日修订〉\n④ 性别平等家庭部部长可以将有关确认书签发的事务委托第十五条规定的中央人口贩运等受害者权益保护机构办理。〈2025年10月1日修订〉\n⑤ 性别平等家庭部部长向外国人签发受害者确认书时，可以向法务部部长移送相关资料，请求适用《出入境管理法》第二十五条之二及第四十六条之二。〈2022年12月13日、2025年10月1日修订〉\n\n"
+      },
+      {
+        "file_indices": [
+          69
+        ],
+        "text": "第十四条（签发受害者确认书）\n① 遭受人口贩运等侵害的人或者第二十一条第二款规定的举报义务人，可以请求性别平等家庭部部长签发确认书。〈2025年10月1日修订〉\n② 为在签发第一款所述受害者确认书时审议、判定申请人是否属于受害者，在第十五条规定的地方人口贩运等受害者权益保护机构设立人口贩运等案件判定委员会（本条以下简称“判定委员会”）。判定委员会的组成和运作所需事项由总统令规定。\n③ 性别平等家庭部部长可以经过判定委员会的判定，依总统令规定签发确认书。〈2025年10月1日修订〉\n④ 性别平等家庭部部长可以将有关确认书签发的事务授权第十五条规定的中央人口贩运等受害者权益保护机构办理。〈2025年10月1日修订〉\n⑤ 性别平等家庭部部长向外国人签发受害者确认书时，可以向法务部部长移送相关资料，请求适用《出入境管理法》第二十五条之二及第四十六条之二。〈2022年12月13日、2025年10月1日修订〉\n\n"
+      }
+    ],
+    "B1-zh-00018": [
+      {
+        "file_indices": [
+          68
+        ],
+        "text": "第十六条（选任律师的特别规定）\n① 犯罪受害者及其法定代理人可以选任律师，以防止其在刑事程序中受到损害并保障其获得法律援助。\n② 对第一款所述律师，准用《性暴力犯罪处罚等特例法》第二十七条第二款至第六款的规定。此时，“受害者”视为“犯罪受害者”，“受害者等”视为“犯罪受害者及其法定代理人”。\n\n"
+      }
+    ],
+    "B1-zh-00019": [
+      {
+        "file_indices": [
+          68
+        ],
+        "text": "第十七条（信赖关系人的陪同在场）\n① 法院讯问作为证人的犯罪受害者时，如检察官、犯罪受害者或者其法定代理人提出申请，除可能妨碍审判等不得已的情形外，应当准许与犯罪受害者有信赖关系的人陪同在场。\n② 侦查机关调查第一款所述犯罪受害者时，准用第一款的规定。\n③ 在第一款及第二款的情形中，如果有信赖关系的人陪同在场对犯罪受害者不利，或者犯罪受害者不愿其陪同在场，法院和侦查机关不得准许其陪同。\n\n"
+      }
+    ],
+    "B1-zh-00020": [
+      {
+        "file_indices": [
+          68
+        ],
+        "text": "第十八条（提供陈述辅助人员支援）关于人口贩运等案件的调查和审理，准用《性暴力犯罪处罚等特例法》第三十六条至第三十九条的规定。此时，“性暴力犯罪受害者”和“受害者”均视为“犯罪受害者”。\n\n"
+      }
+    ],
+    "B1-zh-00021": [
+      {
+        "file_indices": [
+          70
+        ],
+        "text": "第十九条（侦查和审判程序中的照顾）\n① 侦查机关、法院及诉讼关系人应当慎重考虑犯罪受害者的年龄、心理状态以及是否存在后遗残疾等情况，在调查、审理和审判过程中注意避免损害犯罪受害者的人格或者名誉，或者侵犯其私人秘密。\n② 侦查机关和法院调查犯罪受害者或者进行审理、审判时，应当营造使其能够在安定状态下陈述的环境，并将调查、审理和审判的次数限制在必要的最低限度。\n\n"
+      }
+    ],
+    "B1-zh-00022": [
+      {
+        "file_indices": [
+          70
+        ],
+        "text": "第二十条（不公开审理）\n① 为保护人口贩运等犯罪受害者的私生活，可以通过裁定不公开审理该犯罪案件。\n② 被传唤作证的犯罪受害者及其家属可以以保护私生活等为由，申请不公开进行证人讯问。\n③ 审判长收到第二款规定的申请时，可以就是否准许申请及是否公开、在法庭以外场所讯问等证人讯问的方式和地点作出决定。\n④ 第一款及第三款的情形，准用《法院组织法》第五十七条（审判公开）第二款、第三款以及《军事法院法》第六十七条（审判公开）第二款、第三款的规定。\n\n第四章 人口贩运等受害者的举报、保护及支援\n\n"
+      }
+    ],
+    "B1-zh-00023": [
+      {
+        "file_indices": [
+          70
+        ],
+        "text": "第二十一条（举报义务）\n① 任何人得知发生人口贩运等受害事实时，可以向受害者权益保护机构或者侦查机关举报（包括提出告诉、告发；以下同）。\n② 下列设施的负责人或者工作人员在执行职务时得知人口贩运等受害事实的，应当立即向受害者权益保护机构或者侦查机关举报。\n1. 第三十三条规定的人口贩运等受害者支援设施。\n2. 《防止家庭暴力及保护受害者等法》第四条之六规定的紧急电话中心、该法第五条规定的家庭暴力咨询所及第七条规定的家庭暴力受害者保护设施。\n3. 《防止卖淫及保护受害者等法》第九条规定的卖淫受害者等支援设施及该法第十七条规定的卖淫受害者咨询所。\n4. 《防止性暴力及保护受害者等法》第十条规定的性暴力受害者咨询所、该法第十二条规定的性暴力受害者保护设施及该法第十八条规定的性暴力受害者综合支援中心。\n5. 《儿童福利法》第五十条规定的儿童福利设施。\n6. 《人身保护法》第二条规定的医疗设施、福利设施、收容设施及保护设施。\n7. 《青少年保护法》第三十五条规定的青少年保护与康复中心。\n8. 《青少年福利支援法》第二十九条规定的青少年咨询福利中心。\n9. 《儿童及青少年性保护法》第四十七条之二规定的卖淫受害儿童、青少年支援中心。\n10. 《残疾人福利法》第五十八条规定的残疾人福利设施。\n11. 总统令规定的其他设施。\n③ 任何人不得因他人举报人口贩运等受害事实而对举报人施加不利待遇。\n④ 除其他法律另有规定外，任何人不得在互联网或者出版物上刊载、或者通过广播媒体播出能够识别举报人或者受害者（以下简称“举报人等”）身份的个人资料、照片等信息或者材料。\n\n"
+      }
+    ],
+    "B1-zh-00025": [
+      {
+        "file_indices": [
+          70
+        ],
+        "text": "第二十三条（对受害者的保护）\n① 检察官或者司法警察在侦查过程中有充分理由认为犯罪嫌疑人或者参考人受到人口贩运等侵害时，应当立即通知其法定代理人、亲属或者辩护人，并采取人身保护、不公开侦查等必要的保护措施。\n② 有充分理由认为依第一款应予通知的法定代理人、亲属或者辩护人参与了人口贩运等行为，或者存在保护犯罪嫌疑人或者参考人私生活等不得已的事由时，可以不依第一款规定通知。\n③ 检察官或者司法警察在侦查过程中有充分理由认为犯罪嫌疑人或者参考人受到人口贩运等侵害时，应当将其转介至第三十三条规定的人口贩运等受害者支援设施等支援团体，使其在侦查程序中获得协助及咨询支援。\n④ 法院或者侦查机关调查举报人等或者将其作为证人讯问时，准用《特定犯罪举报人等保护法》第七条至第十三条的规定。此时，“犯罪举报等”视为“举报”，“犯罪举报人等”视为“举报人等”。\n\n"
+      }
+    ],
+    "B1-zh-00026": [
+      {
+        "file_indices": [
+          71
+        ],
+        "text": "第二十四条（因不法原因产生的债权无效）\n① 实施人口贩运等犯罪者因其犯罪行为对受害者享有的债权，无论合同的形式或者名义如何，均属无效。转让该债权或者由他人承担该债务的，亦同。\n② 检察官或者司法警察侦查因涉嫌不履行与第一款不法原因有关的债务而被告诉、告发的案件时，应当查明提供金钱、财物或者其他财产利益是否被用作诱骗、强迫人口贩运等的手段，并在侦查中予以考虑。\n③ 检察官或者司法警察调查受害者时，应当告知受害者本人或者其法定代理人等第一款规定的债权无效的事实。\n\n"
+      }
+    ],
+    "B1-zh-00027": [
+      {
+        "file_indices": [
+          71
+        ],
+        "text": "第二十五条（对受害者等的就学支援）\n① 受害者或者在受害者遭受侵害时居留在韩国的受害者直系卑亲属家庭成员（以下简称“受害者等”）为未成年人的，国家和地方自治团体可以支援其在《初等及中等教育法》第二条规定的学校就学，包括入学、重新入学、转学和编入学。\n② 受害者等有必要在住所地以外地区就学时，应当提供支援，以使其顺利就学。在此情形下，负责就学支援的有关人员应当注意避免侵犯受害者等的私生活。\n③ 出勤天数的计算等第二款就学支援所需事项由总统令规定。\n\n"
+      }
+    ],
+    "B1-zh-00028": [
+      {
+        "file_indices": [
+          71
+        ],
+        "text": "第二十六条（对受害者等的就业支援）\n① 国家和地方自治团体可以通过职业培训、就业对接等方式，支援受害者等就业。\n② 就业支援对象的范围及就业支援所需事项由总统令规定。\n\n"
+      }
+    ],
+    "B1-zh-00030": [
+      {
+        "file_indices": [
+          71
+        ],
+        "text": "第二十八条（医疗费用支援）\n① 受害者权益保护机构或者第三十三条规定的人口贩运等受害者支援设施的负责人将受害者等转介至医疗机构接受疾病治疗等时，国家或者地方自治团体可以对《医疗给付法》第七条规定的医疗给付不予支付的治疗项目，支援全部或者部分医疗费用。\n② 第一款规定的医疗费用支援范围、程序等必要事项由总统令规定。\n\n"
+      }
+    ],
+    "B1-zh-00031": [
+      {
+        "file_indices": [
+          72
+        ],
+        "text": "第二十九条（指定专责医疗机构等）\n① 性别平等家庭部部长或者市、道知事、市长、郡守、区厅长（指自治区的区厅长；以下同）可以将国立、公立医院、保健所或者民间医疗设施指定为专门负责治疗受害者等的机构（以下简称“专责医疗机构”）。〈2025年10月1日修订〉\n② 受害者等、受害者权益保护机构或者第三十三条规定的人口贩运等受害者支援设施的负责人等提出请求时，专责医疗机构应当向受害者等提供下列医疗支援：\n1. 保健咨询。\n2. 健康检查。\n3. 疾病治疗。\n4. 总统令规定的其他身体、精神治疗。\n③ 第一款规定的专责医疗机构指定及第二款规定的医疗支援费用支付等必要事项，由总统令规定。\n\n"
+      }
+    ],
+    "B1-zh-00033": [
+      {
+        "file_indices": [
+          72
+        ],
+        "text": "第三十一条（回国支援）\n① 国家和地方自治团体可以为外国籍受害者开展回国支援项目。\n② 在国外发现具有大韩民国国籍的犯罪受害者时，法务部部长可以请求驻外使领馆负责人协助该犯罪受害者回国等必要事宜；收到请求的驻外使领馆负责人无特殊事由时，应当予以协助。\n③ 国家和地方自治团体可以支援第一款及第二款所述回国支援所需费用的全部或者一部分。\n④ 第一款及第二款所述支援范围和支援程序等必要事项由总统令规定。\n\n"
+      }
+    ],
+    "B1-zh-00035": [
+      {
+        "file_indices": [
+          72
+        ],
+        "text": "第三十三条（支援设施的设立和运营等）\n① 国家或者地方自治团体可以设立、运营人口贩运等受害者支援设施（以下简称“支援设施”）。\n② 国家或者地方自治团体以外的人拟设立、运营支援设施的，应当取得市、道知事或者市长、郡守、区厅长的指定。\n③ 支援设施的种类如下：\n1. 一般支援设施：向受害者等提供食宿并支援其自立的设施。\n2. 残疾人支援设施：向残疾受害者等提供食宿并支援其自立的设施。\n3. 儿童、青少年支援设施：向儿童、青少年受害者等提供食宿，并通过就学、教育等支援其自立的设施。\n4. 外国人支援设施：向外国籍受害者等提供食宿并支援其回国的设施。\n5. 自立支援共同生活设施：向从第一项至第四项支援设施退所的人提供住宿等便利并支援其自立的设施。\n④ 各类支援设施的入住期限如下。〈2025年10月1日修订〉\n1. 一般支援设施：一年以内。但可依性别平等家庭部令规定，在一年六个月范围内延长。\n2. 残疾人支援设施：两年以内。但可依性别平等家庭部令规定，延长至受害恢复所需期间。\n3. 儿童、青少年支援设施：至年满十九岁。但可依性别平等家庭部令规定，在两年范围内延长。\n4. 外国人支援设施：三个月（属于第四十三条规定情形时，为该条适用的期间）。\n5. 自立支援共同生活设施：两年以内。但可依性别平等家庭部令规定，在两年范围内延长。\n⑤ 国家或者地方自治团体可以补助支援设施运营所需费用的全部或者一部分。\n⑥ 支援设施的指定标准、程序及运营标准等必要事项由总统令规定。\n\n"
+      }
+    ],
+    "B1-zh-00036": [
+      {
+        "file_indices": [
+          73
+        ],
+        "text": "第三十四条（支援设施的业务）\n① 一般支援设施应当开展下列业务。〈2025年10月1日修订〉\n1. 保护受害者等并提供食宿。\n2. 支援对受害者等的紧急救助。\n3. 为受害者等心理稳定及适应社会提供咨询和治疗。\n4. 将受害者等送至医疗机构接受疾病治疗、健康管理等医疗支援。\n5. 陪同受害者等接受侦查机关调查和法院的证人讯问。\n6. 请求《法律援助法》第八条规定的大韩法律救助公团等有关机构提供必要的协助与支援。\n7. 开展受害者等的自立、自救教育并提供就业信息。\n8. 协助领取《国民基础生活保障法》等社会保障相关法令规定的给付。\n9. 衔接依据《犯罪受害者保护法》第七条向受害者等提供的治疗费、生活费等支援。\n10. 其他法律委托支援设施开展的业务。\n11. 性别平等家庭部令规定的其他为保护受害者等所需的业务。\n② 残疾人支援设施除第一款各项业务外，还应当开展支援残疾人自立的各项业务。\n③ 儿童、青少年支援设施除第一款各项业务外，还应当提供升学教育或者协助进入教育机构就学。\n④ 外国人支援设施应当开展第一款第一项至第七项、第九项所列业务以及回国支援业务。\n⑤ 自立支援共同生活设施应当开展下列业务。〈2025年10月1日修订〉\n1. 运营自救共同体。\n2. 就业及技术教育（包括委托教育）。\n3. 提供就业及创业信息。\n4. 性别平等家庭部令规定的其他为适应社会所需的支援业务。\n\n"
+      }
+    ],
+    "B1-zh-00038": [
+      {
+        "file_indices": [
+          73
+        ],
+        "text": "第三十六条（撤销支援设施的指定等）\n① 市、道知事或者市长、郡守、区厅长对于依第三十三条第二款获得指定的支援设施，如存在下列情形之一，可以撤销其指定或者命令其停止业务。但属于第一项情形时，必须撤销指定。\n1. 以虚假或者其他不正当方式取得指定的。\n2. 不符合第三十三条第六款规定的指定标准的。\n3. 违反第三十九条规定，以营利为目的运营的。\n4. 不履行第四十五条第三款规定的纠正命令的。\n5. 属于总统令规定的其他事由的。\n② 第一款规定的撤销指定或者停止业务的标准，由总统令在考虑处分事由及违法程度等因素后规定。\n\n"
+      }
+    ],
+    "B1-zh-00043": [
+      {
+        "file_indices": [
+          74
+        ],
+        "text": "第四十一条（支援设施的合并设立和运营）国家或者地方自治团体可以将依本法设立、运营的支援设施与总统令规定的性质相似的设施合并设立、运营，或者建议将其合并设立、运营。\n\n第五章 关于外国籍受害者的特别规定\n\n"
+      }
+    ],
+    "B1-zh-00049": [
+      {
+        "file_indices": [
+          75
+        ],
+        "text": "第四十七条（权限的委任和委托）\n① 性别平等家庭部部长及有关中央行政机关负责人根据本法享有的权限，可以依总统令规定，将其中一部分委任给市、道知事或者市长、郡守、区厅长。〈2025年10月1日修订〉\n② 性别平等家庭部部长可以依总统令规定，将根据本法享有的部分权限委托给依据《性别平等基本法》第四十六条之二设立的韩国女性人权振兴院。〈2025年10月1日修订〉\n\n第七章 罚则\n\n"
+      }
+    ],
+    "B1-zh-00050": [
+      {
+        "file_indices": [
+          75
+        ],
+        "text": "第四十八条（罚则）\n① 有下列情形之一的，处三年以下有期徒刑或者三千万韩元以下罚金：\n1. 违反依第十八条准用的《性暴力犯罪处罚等特例法》第三十八条第二款规定的人。\n2. 违反第二十一条第三款，对举报人口贩运等受害事实的人实施下列任一不利措施的人：\n甲. 罢免、免职、解雇及其他导致丧失身份的不利身份措施。\n乙. 惩戒、停职、减薪、降级、限制晋升及其他不当人事措施。\n丙. 调职、调动、不分配职务、重新安排职务及其他违反本人意愿的人事措施。\n丁. 在业绩考核或者同事评价等方面实行歧视，或者据此差别支付工资、奖金等。\n戊. 限制职业能力开发、提高所需的教育培训机会；限制或者取消预算、人员等可用资源；停止使用安全信息或者机密信息，或者撤销其处理资格；以及其他对工作条件等造成不利影响的歧视或者措施。\n己. 编制或者公开重点注意人员名单、集体排斥、殴打、辱骂等造成精神或者身体损害的行为。\n庚. 对其职务实施不当审计或者调查，或者公开其结果。\n3. 违反第二十一条第四款，在互联网或者出版物刊载或者通过广播媒体传播足以识别举报人等身份的信息或者资料的人。\n4. 违反依第二十三条第四款准用的《特定犯罪举报人等保护法》第八条规定的人。\n② 违反第二十二条第六款，拒绝前往人口贩运等现场人员的现场调查或者妨碍其执行职务的，处二年以下有期徒刑或者二千万韩元以下罚金。\n③ 有下列情形之一的，处一年以下有期徒刑或者一千万韩元以下罚金：\n1. 未依第三十三条第二款获得指定而设立、运营支援设施的人。\n2. 违反第三十九条禁止以营利为目的运营规定的人。\n3. 违反第四十条保守秘密义务的人。\n\n"
+      }
+    ],
+    "B1-zh-00052": [
+      {
+        "file_indices": [
+          76
+        ],
+        "text": "第五十条（行政罚款）\n① 无正当理由未依第二十一条第二款规定进行举报的，处五百万韩元以下行政罚款。\n② 有下列情形之一的，处三百万韩元以下行政罚款：\n1. 拒绝、妨碍或者规避有关公务员依第四十五条第一款进行的进入、检查的人。\n2. 违反第四十六条禁止使用类似名称义务的人。\n③ 第一款及第二款规定的行政罚款，由性别平等家庭部部长或者地方自治团体负责人依总统令规定征收并处以罚款。〈2025年10月1日修订〉\n\n"
+      }
+    ],
+    "B1-zh-00054": [
+      {
+        "file_indices": [
+          76
+        ],
+        "text": "附则（《出入境管理法》）〈第19070号，2022年12月13日〉\n\n"
+      }
+    ],
+    "B1-zh-00058": [
+      {
+        "file_indices": [
+          77
+        ],
+        "text": "附则（《政府组织法》）〈第21065号，2025年10月1日〉\n\n"
+      }
+    ],
+    "B1-zh-00061": [
+      {
+        "file_indices": [
+          77
+        ],
+        "text": "第七条（其他法律的修改）①至〈424〉省略。\n\n〈425〉《防止人口贩运等及保护受害者等法》部分修改如下。\n\n将第三条第一款第三项、第八条第一款前段及同条第三款至第五款、第九条第二款各项以外的部分、第十条第一款及同条第二款前段、第十一条第一款各项以外的部分、第十三条第一款及第三款、第十四条第一款及第三款至第五款、第十五条第一款各项以外的部分及同条第四款前段和后段、第二十七条第二款和第三款、第二十九条第一款、第三十八条第一款、第四十五条第一款和第三款、第四十七条第一款和第二款、第五十条第三款中的“女性家庭部部长”分别改为“性别平等家庭部部长”。\n\n将第九条第一款各项以外的部分及同条第二款各项以外的部分中的“副总理兼教育部部长”分别改为“教育部部长”。\n\n将第九条第四款中的“女性家庭部”改为“性别平等家庭部”。\n\n将第十条第三款、第十五条第一款第八项、同条第二款第五项、第三十三条第四款第一项但书、同款第二项但书、同款第三项但书、同款第五项但书、第三十四条第一款第十一项、同条第五款第四项及第三十八条第二款中的“女性家庭部令”分别改为“性别平等家庭部令”。\n\n〈426〉至〈626〉省略。\n\n"
+      }
+    ],
+    "B2-zh-00001": [
+      {
+        "file_indices": [
+          90
+        ],
+        "text": "《防止人口贩运等及保护受害者等法施行令》"
+      }
+    ],
+    "B2-zh-00002": [
+      {
+        "file_indices": [
+          90
+        ],
+        "text": "第一条（目的）本令旨在规定《防止人口贩运等及保护受害者等法》委任的事项及施行该法所需的事项。\n\n"
+      }
+    ],
+    "B2-zh-00005": [
+      {
+        "file_indices": [
+          90
+        ],
+        "text": "第四条（政策协议会的组成与运营）\n① 法第九条第二款第八项所称“总统令规定的有关中央行政机关负责人”，是指下列中央行政机关负责人：\n1. 外交部部长。\n2. 行政安全部部长。\n3. 其他由政策协议会主席考虑审议、协调事项的内容和性质等，认为有必要参加的中央行政机关负责人。\n② 依照法第九条第二款第九项委任的委员有下列情形之一时，政策协议会主席可以解除其委员职务：\n1. 因身心障碍无法履行职务。\n2. 存在与职务有关的不当行为。\n3. 因怠于职守、损害品位或者其他原因而被认为不适合继续担任委员。\n4. 委员本人表示难以履行职务。\n③ 政策协议会主席代表政策协议会并统筹其事务。\n④ 主席因不得已的事由无法履行职务时，由副主席代行；主席及副主席均因不得已的事由无法履行职务时，由主席事先指定的委员代行。\n⑤ 主席召集政策协议会会议并担任会议主席。\n⑥ 政策协议会会议由在任委员过半数出席方可召开，决议由出席委员过半数赞成通过。\n⑦ 可以在预算范围内向出席会议的委员支付津贴及旅费。但公务员委员因与其主管业务直接有关而出席的，不予支付。\n⑧ 政策协议会认为审议、协调主管事项所必需时，可以请求有关中央行政机关、地方自治团体、法人、团体或者专家等协助提交资料或者陈述意见。\n⑨ 除第一款至第八款规定的事项外，政策协议会的组成与运营所需事项，由主席经政策协议会表决决定。\n\n"
+      }
+    ],
+    "B2-zh-00006": [
+      {
+        "file_indices": [
+          90
+        ],
+        "text": "第五条（教育等）\n① 法第十一条第一款第八项所称“总统令规定的机构工作人员”，是指依照《社会保障给付的利用、提供及受给权人发掘相关法律》第四十三条第一款，配置在特别市、广域市、特别自治市、道、特别自治道（以下简称“市、道”）、市、郡、区（指自治区；以下同）、邑、面、洞或者社会保障事务专责机构的社会福利专责公务员。\n② 法第十一条第一款所列不同教育对象的教育主管机关如下：\n1. 法第十一条第一款第一项至第三项及第八项所列人员：对其所属机构或者法人、团体、设施的所在地具有管辖权的特别市长、广域市长、特别自治市长、道知事、特别自治道知事或者市长、郡守、区厅长（指自治区区厅长；以下同）。\n2. 法第十一条第一款第四项至第七项所列人员：其所属中央行政机关负责人。\n③ 法第十一条第一款规定的教育应当每年开展至少一小时，通过集中教育或者远程教育等方式进行，并包括下列内容。〈2025年10月1日修订〉\n1. 人口贩运等的类型和特点。\n2. 人口贩运等犯罪的主要内容。\n3. 防止及处罚人口贩运等相关法令的内容。\n4. 关于保护、支援法第三条第一款规定的人口贩运等受害者（以下简称“受害者”）的内容。\n5. 关于法第十三条第一款规定的受害者识别及保护指标（以下简称“受害者识别指标”）的内容。\n6. 发现受害者时的举报方法及保护程序。\n7. 性别平等家庭部部长认为预防、防止人口贩运等所需的其他内容。\n④ 依第二款及第三款开展受害者识别等教育的中央行政机关负责人、特别市长、广域市长、特别自治市长、道知事、特别自治道知事或者市长、郡守、区厅长，应当于下一年度一月三十一日前将教育实施结果提交性别平等家庭部部长。〈2025年10月1日修订〉\n\n"
+      },
+      {
+        "file_indices": [
+          105
+        ],
+        "text": "第五条（教育等）\n① 法第十一条第一款第八项所称“总统令规定的机构工作人员”，是指依照《社会保障给付的利用、提供及受给权人发掘相关法律》第四十三条第一款，配置在特别市、广域市、特别自治市、道、特别自治道（以下简称“市、道”）、市、郡、区（指自治区；以下同）、邑、面、洞或者社会保障事务专责机构的社会福利专责公务员。\n② 法第十一条第一款所列不同教育对象的教育主管机关如下：\n1. 法第十一条第一款第一项至第三项及第八项所列人员：对其所属机构或者法人、团体、设施的所在地具有管辖权的特别市长、广域市长、特别自治市长、道知事、特别自治道知事或者市长、郡守、区厅长（指自治区区厅长；以下同）。\n2. 法第十一条第四项至第七项所列人员：其所属中央行政机关负责人。\n③ 法第十一条第一款规定的教育应当每年开展至少一小时，通过集中教育或者远程教育等方式进行，并包括下列内容。〈2025年10月1日修订〉\n1. 人口贩运等的类型和特点。\n2. 人口贩运等犯罪的主要内容。\n3. 防止及处罚人口贩运等相关法令的内容。\n4. 关于保护、支援法第三条第一款规定的人口贩运等受害者（以下简称“受害者”）的内容。\n5. 关于法第十三条第一款规定的受害者识别及保护指标（以下简称“受害者识别指标”）的内容。\n6. 发现受害者时的举报方法及保护程序。\n7. 性别平等家庭部部长认为预防、防止人口贩运等所需的其他内容。\n④ 依第二款及第三款开展受害者识别等教育的中央行政机关负责人、特别市长、广域市长、特别自治市长、道知事、特别自治道知事或者市长、郡守、区厅长，应当于下一年度一月三十一日前将教育实施结果提交性别平等家庭部部长。〈2025年10月1日修订〉\n\n"
+      }
+    ],
+    "B2-zh-00009": [
+      {
+        "file_indices": [
+          91
+        ],
+        "text": "第八条（判定委员会的组成和运营）\n① 判定委员会由包括主席一名、副主席一名在内的不超过十五名委员组成，组成时应当考虑性别因素。\n② 判定委员会主席由地方受害者权益保护机构负责人担任，副主席由委员互选产生。\n③ 判定委员会委员由地方受害者权益保护机构负责人从下列人员中任命或者委任。在此情况下，应当包括由特别市长、广域市长、特别自治市长、道知事、特别自治道知事（以下简称“市、道知事”）推荐的至少七名委员，并且律师和医生各至少一名。\n1. 由市、道知事从出入境管理公务员、《劳动基准法》第一百零一条第一款规定的劳动监察官、《船员法》第一百二十五条第一款规定的船员劳动监察官、从事人口贩运等犯罪侦查及审判的国家机关公务员，以及市、道所属公务员中推荐的人员。\n2. 《律师法》规定的律师。\n3. 《医疗法》规定的医生。\n4. 《社会福利事业法》第十一条规定的社会福利师。\n5. 其他在法学或者人权有关领域具有丰富知识和经验的人员。\n④ 依第三款委任的判定委员会委员任期为两年，仅可连任两次。\n⑤ 判定委员会主席发现受委任委员有下列情形之一时，可以解除对该委员的委任：\n1. 因身心障碍无法履行职务。\n2. 存在与职务有关的不当行为。\n3. 因怠于职守、损害品位或者其他原因被认为不适合继续担任委员。\n4. 委员本人表示难以履行职务。\n⑥ 判定委员会主席代表判定委员会，并统筹委员会事务。\n⑦ 主席因不得已的事由无法履行职务时，由副主席代行；主席、副主席均无法履行职务时，由主席事先指定的委员代行。\n\n"
+      }
+    ],
+    "B2-zh-00010": [
+      {
+        "file_indices": [
+          91
+        ],
+        "text": "第九条（判定委员会委员的除斥、申请回避及自行回避）\n① 判定委员会委员有下列情形之一的，不得参与判定委员会对有关议案的审议、表决：\n1. 委员本人、其配偶或者前配偶是有关议案的当事人（当事人为法人、团体等时，包括其管理人员；本项及第二项同）或者与该当事人存在直接利害关系。\n2. 委员是或者曾经是有关议案当事人的亲属。\n3. 委员曾就有关议案提供证言、陈述、咨询、研究、服务或者鉴定。\n4. 委员或者其所属法人、团体等在最近三年内曾担任有关议案当事人的代理人。\n5. 委员最近三年内曾在有关议案当事人所属的法人、团体等任职。\n② 有关议案当事人认为存在第一款规定的除斥事由，或者有难以期待委员公正审议、表决的情形时，可以向判定委员会主席提出申请，要求该委员回避。判定委员会应当通过表决决定是否准许申请，被申请回避的委员不得参与该项表决。\n③ 委员属于第一款各项规定的除斥事由时，应当自行回避对有关议案的审议及表决。\n\n"
+      }
+    ],
+    "B2-zh-00011": [
+      {
+        "file_indices": [
+          91
+        ],
+        "text": "第十条（判定委员会会议）\n① 判定委员会主席召集委员会会议并担任会议主席。\n② 会议须有在任委员过半数出席方可召开，决议须经出席委员过半数赞成方可通过。\n③ 判定委员会会议不公开举行。\n④ 可以在预算范围内向出席会议的委员支付津贴及旅费。但公务员委员因与其主管业务直接相关而出席的，不予支付。\n\n"
+      }
+    ],
+    "B2-zh-00013": [
+      {
+        "file_indices": [
+          92
+        ],
+        "text": "第十二条（请求核实事实或提供有关资料）法第十五条第三款前段所称“总统令规定的有关机构负责人”，是指下列机构负责人：\n1. 地方自治团体负责人。\n2. 市、道警察厅厅长及警察署署长。\n3. 地方海洋警察厅厅长及海洋警察署署长。\n4. 出入境、外国人厅厅长及出入境、外国人事务所所长。\n5. 地方雇佣劳动厅厅长及其支厅厅长。\n\n"
+      }
+    ],
+    "B2-zh-00015": [
+      {
+        "file_indices": [
+          92
+        ],
+        "text": "第十四条（委托运营受害者权益保护机构）\n① 性别平等家庭部部长或者市、道知事依照法第十五条第四款，拟指定《公共机构运营法》第四条规定的公共机构（以下简称“公共机构”）或者非营利法人并委托其运营受害者权益保护机构时，应当综合考虑下列事项指定受托机构。〈2025年10月1日修订〉\n1. 受害者权益保护或者社会福利相关业务的实施成绩及运营计划。\n2. 是否符合附表一规定的设立标准。\n3. 是否符合附表二规定的工作人员资格标准。\n4. 财务的透明性及可信性。\n5. 该公共机构或者非营利法人所属设施是否曾发生侵犯人权事件。\n② 性别平等家庭部部长或者市、道知事依照法第十五条第四款及本条第一款委托运营受害者权益保护机构时，应当公告受托公共机构或者非营利法人的名称、委托业务内容等。〈2025年10月1日修订〉\n\n"
+      }
+    ],
+    "B2-zh-00017": [
+      {
+        "file_indices": [
+          92
+        ],
+        "text": "第十六条（对受害者等的就学支援）\n① 中央行政机关及地方自治团体负责人依照法第二十五条第一款和第二款，受害者或者在受害者受侵害时居留韩国的受害者直系卑亲属家庭成员（以下简称“受害者等”）为未成年人，需要就读《初等及中等教育法》第二条规定的学校（包括入学、重新入学、转学及编入学；以下同）时，可以请求教育监、教育长或者该法第二条规定的学校（以下简称“学校”）负责人采取必要的就学措施。\n② 收到第一款请求的教育监、教育长或者学校负责人，应当使受害者等优先进入其受到保护的居住地附近学校就学。\n③ 依照法第二十五条第三款，学校负责人即使在受害者等就学所需手续完成之前，也可以允许其参加课程学习，并可以将该期间计入出勤天数。\n④ 教育监、教育长或者学校负责人应当管理和监督，防止第一款至第三款规定的措施被与就学业务无关的人知悉。\n\n"
+      }
+    ],
+    "B2-zh-00019": [
+      {
+        "file_indices": [
+          93
+        ],
+        "text": "第十八条（向受害者提供法律咨询等）\n① 性别平等家庭部部长可以考虑案件进展阶段所需的支援、受害者的经济能力、自行寻求权利救济的能力以及自行防御的可能性等，依照法第二十七条第一款向受害者提供法律咨询、诉讼代理等支援（以下简称“法律咨询等”）；受害者有下列情形之一的，可以优先支援。〈2025年10月1日修订〉\n1. 《国民基础生活保障法》规定的受给人。\n2. 《儿童及青少年性保护法》规定的儿童、青少年。\n3. 《残疾人福利法施行令》附表一规定的残疾人。\n② 法第二十七条第二款所称“总统令规定的弱势儿童、青少年等犯罪受害者”，是指下列人员：\n1. 属于《国民基础生活保障法》规定受给人的人口贩运等犯罪受害者（以下简称“犯罪受害者”）。\n2. 入住法第三十三条第三款第三项规定的儿童、青少年支援设施的儿童、青少年犯罪受害者，或者属于《青少年福利支援法》规定的离家青少年的犯罪受害者。\n3. 《残疾人福利法施行令》附表一规定的残疾犯罪受害者。\n③ 法第二十七条第三款所称“总统令规定的其他机构”，是指《律师法》第七十八条第一款规定的大韩律师协会。\n④ 性别平等家庭部部长获悉人口贩运等受害事实，认为有必要向受害者提供法律咨询等时，可以依受害者或者其法定代理人的意愿，请求法第二十七条第三款规定的机构提供法律咨询等。〈2025年10月1日修订〉\n⑤ 性别平等家庭部部长可以在预算范围内负担法律咨询等所需的费用。但接受法律咨询等的人已经依其他法令获得相关费用支援的，不在此限。〈2025年10月1日修订〉\n\n"
+      }
+    ],
+    "B2-zh-00020": [
+      {
+        "file_indices": [
+          93
+        ],
+        "text": "第十九条（医疗费用支援）\n① 地方受害者权益保护机构负责人或者法第三十三条规定的人口贩运等受害者支援设施（以下简称“支援设施”）负责人，在开展法第十五条第二款各项业务期间或者受害者等入住支援设施期间，因受害者等发生疾病、受伤、分娩等而将其转介至医疗机构接受疾病治疗等时，可以依照法第二十八条第一款，就《医疗给付法》第七条规定的医疗给付不予支付的治疗项目，请求有管辖权的市、道知事或者市长、郡守、区厅长支援下列费用：\n1. 《国民健康保险法》第四十四条第一款规定的本人部分负担金（不包括该法第四十一条第四款规定的非给付项目）。\n2. 开具诊断证明书的费用。\n3. 对依照法第二十二条第二款移交受害者权益保护机构或者医疗机构的受害者进行健康检查的费用。\n② 收到第一款医疗费用支付请求的市、道知事或者市长、郡守、区厅长，在核实接受治疗的人属于受害者等之后，可以支援医疗费用。此时可以就医疗费是否适当及最高限额等征询医生、律师等专家的意见。\n③ 市、道知事或者市长、郡守、区厅长依第二款支援的医疗费用，由国家和地方自治团体按照《补助金管理法施行令》第四条第一款规定的负担比例承担。\n\n"
+      }
+    ],
+    "B2-zh-00022": [
+      {
+        "file_indices": [
+          93
+        ],
+        "text": "第二十一条（回国支援）\n① 法第三十一条第一款规定的回国支援范围如下。〈2025年10月1日修订〉\n1. 提供回国支援项目的信息并协助对接。\n2. 协助准备《护照法》第十四条第一款规定的护照替代证明文件等、预订交通工具，提供口译及陪同受害者等服务，以便利其前往最终目的地。\n3. 性别平等家庭部部长另行制定并公告的、为协助受害者回国所需的其他行政及财政支援。\n② 拟依照法第三十一条第一款获得回国支援的外国籍受害者，或者法第三十三条第三款第四项规定的外国人支援设施负责人，可以向有管辖权的市、道知事或者市长、郡守、区厅长申请。\n③ 收到第二款申请的市、道知事或者市长、郡守、区厅长，应当决定是否给予回国支援，并将决定通知申请支援的受害者或者外国人支援设施负责人。\n\n"
+      }
+    ],
+    "B2-zh-00023": [
+      {
+        "file_indices": [
+          94
+        ],
+        "text": "第二十二条（限制重复支援）国家机关及地方自治团体负责人应当通过《社会保障基本法》第三十七条第二款规定的社会保障信息系统等，核实受害者等是否已依其他法令获得与法第二十五条至第三十一条规定的内容类似的保护和支援，以避免发生法第三十二条规定的重复支援。\n\n"
+      }
+    ],
+    "B2-zh-00026": [
+      {
+        "file_indices": [
+          94
+        ],
+        "text": "第二十五条（撤销支援设施指定等）\n① 法第三十六条第一款第五项所称“总统令规定的事由”，是指下列事由：\n1. 将国家或者地方自治团体的补助金用于规定用途以外的用途。\n2. 不记载会计账簿或者作虚假记载。\n3. 未依法第四十五条报告或者提交资料，或者作虚假报告、提交虚假资料。\n4. 支援设施负责人或者工作人员对入住者实施殴打、伤害、性暴力、性骚扰，或者通过辱骂、威胁等方式实施精神虐待。\n② 法第三十六条第一款规定的行政处分标准见附表五。\n③ 市、道知事或者市长、郡守、区厅长拟依法第三十六条第一款撤销支援设施指定或者命令停止业务时，应当就将使用该设施的受害者等转移至其他支援设施的必要性、计划等，事先作出充分说明。\n④ 市、道知事或者市长、郡守、区厅长作出第三款说明后，应当考虑使用设施的受害者等的意愿，采取向其他支援设施转移等为保护入住者权益所必需的措施。\n\n"
+      }
+    ],
+    "B2-zh-00027": [
+      {
+        "file_indices": [
+          94
+        ],
+        "text": "第二十六条（支援设施的合并设立与运营）法第四十一条所称“总统令规定的性质相似的设施”，是指下列设施。〈2025年10月1日修订〉\n1. 《防止家庭暴力及保护受害者等法》第七条规定的家庭暴力受害者保护设施。\n2. 《老年人福利法》第三十一条规定的老年人福利设施。\n3. 《防止卖淫及保护受害者等法》第九条规定的卖淫受害者等支援设施。\n4. 《防止性暴力及保护受害者等法》第十二条规定的性暴力受害者保护设施。\n5. 《儿童福利法》第五十条规定的儿童福利设施。\n6. 《残疾儿童福利支援法》第八条规定的中央残疾儿童支援中心或者同法第九条规定的地方残疾儿童支援中心。\n7. 《残疾人福利法》第五十八条规定的残疾人福利设施。\n8. 《青少年福利支援法》第三十一条规定的青少年福利设施。\n9. 《单亲家庭支援法》第十九条规定的单亲家庭福利设施。\n10. 性别平等家庭部部长另行制定并公告的其他社会福利相关设施。\n\n"
+      }
+    ],
+    "B2-zh-00028": [
+      {
+        "file_indices": [
+          95
+        ],
+        "text": "第二十七条（业务委托）性别平等家庭部部长依照法第四十七条第二款，将下列业务委托给《性别平等基本法》第四十六条之二第一款规定的韩国女性人权振兴院。〈2025年10月1日修订〉\n1. 法第十一条第一款规定的人口贩运等受害者识别等教育以及教育完成情况管理业务。\n2. 法第十三条第三款规定的受害者识别指标使用实绩的接收业务。\n3. 法第二十七条规定的受害者法律咨询等支援业务。\n\n"
+      }
+    ],
+    "B2-zh-00029": [
+      {
+        "file_indices": [
+          95
+        ],
+        "text": "第二十八条（敏感信息及唯一身份识别信息的处理）\n① 国家机关、地方自治团体负责人（相关权限被委任、委托时，包括受委任、受委托人；本条下同）、受害者权益保护机构负责人或者支援设施负责人，为执行下列业务确有必要时，可以处理含有《个人信息保护法施行令》第十九条规定的居民登记号码、护照号码、驾驶证号码或者外国人登记号码（本条以下简称“居民登记号码等”）的资料：\n1. 法第十一条规定的、针对法第二十一条第二款所列举报义务人实施教育的业务。\n2. 法第十四条规定的受害者确认书签发业务。\n3. 法第十五条第二款第一项、第二项、第四项规定的举报受理、咨询及后续管理、判定委员会运营业务。\n4. 法第十七条第一款规定的、申请与犯罪受害者有信赖关系的人陪同在场的业务。\n5. 法第二十一条第二款规定的举报受理业务。\n6. 法第二十五条规定的就学支援业务。\n7. 法第二十七条规定的法律咨询等业务。\n8. 法第三十三条第二款规定的支援设施指定业务。\n9. 法第三十四条规定的支援设施业务。\n10. 法第三十六条规定的撤销支援设施指定及停止业务的事务。\n② 国家机关、地方自治团体负责人、受害者权益保护机构负责人或者支援设施负责人，为执行下列业务确有必要时，可以处理包含《个人信息保护法》第二十三条规定的健康信息（本条以下简称“健康信息”）及居民登记号码等的资料：\n1. 法第二十二条规定的紧急措施等业务。\n2. 法第二十六条规定的就业支援业务。\n3. 法第二十八条规定的医疗费用支援业务。\n4. 法第三十条规定的生活支援业务。\n5. 法第三十一条规定的回国支援业务。\n③ 下列人员为执行各项所列业务确有必要时，可以处理包含受害者健康信息、法第二十二条第二款所述人口贩运等行为人的《个人信息保护法施行令》第十八条第二项规定的犯罪经历资料信息（本条以下简称“犯罪经历信息”）或者居民登记号码等的资料。但受害者权益保护机构负责人仅在核实犯罪经历内容时，方可处理包含犯罪经历信息的资料：\n1. 司法警察及地方受害者权益保护机构：法第二十二条规定的受害事实举报的受理、通知以及紧急保护业务。\n2. 受害者权益保护机构：法第十五条第一款第七项或者同条第二款第一项、第二项、第四项规定的举报受理、调查、咨询等业务。\n\n"
+      }
+    ],
+    "B2-zh-00030": [
+      {
+        "file_indices": [
+          95
+        ],
+        "text": "第二十九条（规制重新审查）性别平等家庭部部长应当以2023年1月1日为基准，每三年（指每满三年的年份中基准日相同日期的前一日以前）审查下列事项的合理性，并采取改进等措施。〈2025年10月1日修订〉\n1. 第二十三条第一款及附表三规定的支援设施指定标准。\n2. 第二十四条及附表四规定的支援设施运营标准。\n\n"
+      }
+    ],
+    "B2-zh-00036": [
+      {
+        "file_indices": [
+          96
+        ],
+        "text": "第四条（其他法令的修改）①至〈16〉省略。\n〈17〉《防止人口贩运等及保护受害者等法施行令》部分修改如下。\n将第二条第一款至第四款、第三条第一款至第五款、第五条第三款第七项及同条第四款、第六条第一款至第三款、第七条第一款及同条第三款至第五款、第十四条第一款各项以外的部分及同条第二款、第十八条第一款各项以外的部分及同条第四款、同条第五款正文、第二十条第一款各项以外的部分及同款第一项、同条第二款至第四款、第二十一条第一款第三项、第二十六条第十项、第二十七条各项以外的部分以及第二十九条各项以外的部分中的“女性家庭部部长”分别改为“性别平等家庭部部长”。\n将第七条第三款、第四款、第二十条第二款、第三款及第二十三条第二款至第五款中的“女性家庭部令”分别改为“性别平等家庭部令”。\n〈18〉至〈24〉省略。\n\n"
+      }
+    ],
+    "B2-zh-00037": [
+      {
+        "file_indices": [
+          96
+        ],
+        "text": "附则（关于部分修改四项法令以便利国民履行行政义务行为的总统令）〈第36221号，2026年3月24日〉\n\n本令自公布之日起施行。\n\n"
+      }
+    ],
+    "B3-zh-00001": [
+      {
+        "file_indices": [
+          106
+        ],
+        "text": "《防止人口贩运等及保护受害者等法施行规则》"
+      }
+    ],
+    "B3-zh-00002": [
+      {
+        "file_indices": [
+          106
+        ],
+        "text": "第一条（目的）本规则旨在规定《防止人口贩运等及保护受害者等法》及该法施行令委任的事项以及实施所需的事项。\n\n"
+      }
+    ],
+    "B3-zh-00004": [
+      {
+        "file_indices": [
+          106
+        ],
+        "text": "第三条（签发受害者确认书等）\n① 依照法第十四条第一款，人口贩运等受害者或者法第二十一条第二款规定的举报义务人拟申请签发受害者确认书时，应当将下列文件附于附表格式第一号《受害者确认书签发申请书》，提交法第十五条第一款规定的中央人口贩运等受害者权益保护机构（以下简称“中央受害者权益保护机构”）负责人：\n1. 居民登记证、驾驶证、护照、外国人登记证等公共机构签发的能够确认本人身份的身份证件复印件。\n2. 依《家庭关系登记等相关法律》第十五条第一款第一项出具的家庭关系证明书等能够确认家庭关系的文件。\n3. 诊断书（仅在受有与人口贩运等直接存在因果关系的伤病时适用）。\n4. 出入境事实证明书（仅在受害者为外国人时适用）。\n5. 劳动合同等证明就业情况的文件（仅对劳动者适用）。\n6. 其他能够证明其系人口贩运等受害者的资料。\n② 《防止人口贩运等及保护受害者等法施行令》（以下简称“令”）第七条第三款所称“性别平等家庭部令规定的判定决议书”，是指附表格式第二号判定决议书。〈2025年10月1日修订〉\n③ 令第七条第四款所称“性别平等家庭部令规定的受害者确认书”，是指附表格式第三号受害者确认书。〈2025年10月1日修订〉\n④ 中央受害者权益保护机构负责人收到依照法第十四条第一款提出的确认书签发申请，或者依照同条第三款签发确认书时，应当编制、管理附表格式第四号受害者确认书申请及签发登记簿。\n\n"
+      }
+    ],
+    "B3-zh-00005": [
+      {
+        "file_indices": [
+          107
+        ],
+        "text": "第四条（中央受害者权益保护机构的业务）法第十五条第一款第八项所称“性别平等家庭部令规定的与预防、防止人口贩运等有关的业务”，是指下列业务。〈2025年10月1日修订〉\n1. 对法第三条第一款规定的人口贩运等受害者（以下简称“受害者”）保护及支援服务进行调查、编制和管理统计。\n2. 协助检查有关中央行政机关负责人依照法第八条第三款提交的人口贩运等预防及受害者保护、支援事业计划（以下简称“事业计划”）及上一年度事业计划的执行成果。\n3. 支援法第十五条第二款规定的地方人口贩运等受害者权益保护机构（以下简称“地方受害者权益保护机构”）及法第三十三条规定的人口贩运等受害者支援设施（以下简称“支援设施”）的业务。\n4. 性别平等家庭部部长委托的其他预防、防止人口贩运等相关业务。\n\n"
+      }
+    ],
+    "B3-zh-00007": [
+      {
+        "file_indices": [
+          107
+        ],
+        "text": "第六条（签发证明受害者权益保护机构工作人员职权的证件）\n① 依照法第二十二条第三款，证明执行进入、调查或者询问职务的人员权限的证件，采用附表格式第五号。\n② 市、道知事依第一款签发身份证件时，应当编制并管理附表格式第六号身份证件签发及管理登记簿。〈2025年3月25日修订〉\n③ 依第一款领取身份证件的人退休时，应当向市、道知事交还证件。\n\n"
+      }
+    ],
+    "B3-zh-00008": [
+      {
+        "file_indices": [
+          107
+        ],
+        "text": "第七条（申请指定专责医疗机构）\n① 拟依法第二十九条第一款及令第二十条第二款获得专责医疗机构指定的人，应当将下列文件附于附表格式第七号《专责医疗机构指定申请书》，提交性别平等家庭部部长、市、道知事或者市长、郡守、区厅长（指自治区区厅长；以下同）。〈2025年10月1日修订〉\n1. 法人章程（仅限申请人为法人）。\n2. 证明属于令第二十条第一款各项所列医疗机构类型的文件。\n② 收到第一款申请书的性别平等家庭部部长、市、道知事或者市长、郡守、区厅长，应当通过《电子政府法》第三十六条第一款规定的行政信息共同利用机制核实下列文件；但申请人不同意核实第二项文件时，应当要求其提交复印件。〈2025年10月1日修订〉\n1. 法人登记事项证明书（仅限申请人为法人）。\n2. 营业者登记证。\n③ 令第二十条第三款所称“性别平等家庭部令规定的专责医疗机构指定书”，是指附表格式第八号专责医疗机构指定书。〈2025年10月1日修订〉\n\n"
+      }
+    ],
+    "B3-zh-00009": [
+      {
+        "file_indices": [
+          107
+        ],
+        "text": "第八条（申请指定支援设施等）\n① 拟依法第三十三条第二款及令第二十三条第二款获得支援设施指定的人，应当将下列文件附于附表格式第九号《人口贩运等受害者支援设施指定申请书》，提交市、道知事或者市长、郡守、区厅长：\n1. 法人章程（仅限申请人为法人）。\n2. 租赁合同（仅限租赁不动产）。\n3. 标示支援设施各结构部分面积的平面图。\n4. 证明支援设施负责人资格的文件。\n5. 支援设施工作人员名单及资格证明文件。\n6. 支援设施运营计划书及收支预算书。\n② 收到第一款申请书的市、道知事或者市长、郡守、区厅长，应当通过《电子政府法》第三十六条第一款规定的行政信息共同利用机制核实下列文件；但申请人不同意核实第二项文件时，应当要求其提交复印件：\n1. 法人登记事项证明书（仅限申请人为法人）、建筑物登记事项证明书、土地登记事项证明书及建筑物台账。\n2. 营业者登记证及国家技术资格证（仅在需要资格证时）。\n③ 令第二十三条第三款所称“性别平等家庭部令规定的支援设施指定书”，是指附表格式第十号人口贩运等受害者支援设施指定书。〈2025年10月1日修订〉\n④ 获指定为支援设施的人依照令第二十三条第四款，因支援设施所在地、名称、入住定员或者负责人发生变化时，应当将下列文件附于附表格式第十一号《支援设施变更指定申请书》，提交市、道知事或者市长、郡守、区厅长：\n1. 支援设施指定书。\n2. 租赁合同（仅限因设施所在地变更而租赁不动产）。\n3. 标示变更后支援设施各结构部分面积的平面图（仅限设施所在地变更）。\n4. 证明支援设施负责人资格的文件（仅限负责人变更）。\n5. 设施及财产使用、处分计划书（仅限设施所在地变更）。\n6. 入住者安置措施计划书（仅限设施所在地及入住定员变更）。\n⑤ 收到第四款变更指定申请书的市、道知事或者市长、郡守、区厅长，应当通过《电子政府法》第三十六条第一款规定的行政信息共同利用机制核实下列文件：\n1. 建筑物登记事项证明书（仅限设施所在地及入住定员变更）。\n2. 土地登记事项证明书（仅限设施所在地及入住定员变更）。\n\n"
+      }
+    ],
+    "B3-zh-00010": [
+      {
+        "file_indices": [
+          108
+        ],
+        "text": "第九条（入住支援设施等）\n① 未成年受害者或者受害者受侵害时在韩国居留的直系卑亲属家庭成员入住支援设施时，市、道知事或者市长、郡守、区厅长应当通知其亲权人、法定代理人或者亲属（以下简称“亲权人等”）。但亲权人等属于法第二十三条第二款规定的情形，或者无法确认亲权人等的，不在此限。\n② 地方受害者权益保护机构负责人，为依法第二十二条第二款向受害者提供紧急保护，或者因法第三十四条第一款第二项规定的对受害者等的紧急救助而拟委托其入住支援设施时，应当向相关支援设施负责人提交附表格式第十二号入住委托书。\n③ 除第一款及第二款规定的事项外，入住支援设施所需事项由性别平等家庭部部长规定。〈2025年10月1日修订〉\n\n"
+      }
+    ],
+    "B3-zh-00011": [
+      {
+        "file_indices": [
+          108
+        ],
+        "text": "第十条（延长支援设施入住期限）\n① 法第三十三条第三款第一项规定的一般支援设施负责人，依同条第四款第一项但书，为保护受害者等确有必要时，可以延长入住期限。\n② 法第三十三条第三款第二项规定的残疾人支援设施负责人，依同条第四款第二项但书，受害者等需要心理稳定或者正在接受治疗等，为保护受害者等确有必要时，可以将入住期限延长至恢复受害状态所需期间。\n③ 法第三十三条第三款第三项规定的儿童、青少年支援设施负责人，依同条第四款第三项但书，受害者等正在就读《初等及中等教育法》第二条或者《高等教育法》第二条规定的学校，或者其他法律规定设立、运营的各类学校（包括已确定入学者）时，可以延长入住期限。\n④ 法第三十三条第三款第五项规定的自立支援共同生活设施负责人，依同条第四款第五项但书，受害者等正在接受自立、自救教育或者培训等时，可以延长入住期限。\n⑤ 支援设施负责人依第一款至第四款延长受害者等的入住期限时，应当自延长之日起十五日内，将证明延长事由的文件附于附表格式第十三号《入住期限延长通知书》，通知市、道知事或者市长、郡守、区厅长。残疾人支援设施负责人依第二款延长期限时，还应附具医生诊断书、意见书等能够证明受害者恢复所需期间的文件。\n\n"
+      }
+    ],
+    "B3-zh-00012": [
+      {
+        "file_indices": [
+          108
+        ],
+        "text": "第十一条（退离支援设施等）入住者有下列情形之一的，支援设施负责人可以采取退所措施：\n1. 法第三十三条第四款规定的入住期限届满。\n2. 已达到法第三十四条第一款第二项规定的紧急救助支援目的。\n3. 入住者希望退所或者停止使用设施。\n4. 通过虚假或者其他不正当方式入住。\n\n"
+      }
+    ],
+    "B3-zh-00013": [
+      {
+        "file_indices": [
+          109
+        ],
+        "text": "第十二条（支援设施评价的标准和方法）\n① 根据法第三十八条第一款，对支援设施运营业绩的评价标准如下：\n1. 支援设施环境的适当性。\n2. 支援设施运营及人员管理的适当性。\n3. 支援设施从业人员的专业能力。\n4. 入住人员对服务的满意度。\n5. 支援设施建立地区合作体系的程度。\n6. 为改善支援设施运营所必需的其他事项。\n② 性别平等家庭部部长可以委托具备人口贩运等相关专业知识、人员及设备的大学、研究机构、非营利法人或者团体，开展法第三十八条第一款规定的评价。〈2025年10月1日修订〉\n\n"
+      }
+    ],
+    "B3-zh-00018": [
+      {
+        "file_indices": [
+          108
+        ],
+        "text": "第六条（其他法令的修改）①至⑮省略。\n〈16〉《防止人口贩运等及保护受害者等法施行规则》部分修改如下。\n将第二条第二款及同条第三款第三项、第四条第四项、第七条第一款各项以外的部分、同条第二款各项以外部分的正文、第九条第三款、第十二条第二款、附表格式第七号及附表格式第八号中的“女性家庭部部长”，分别改为“性别平等家庭部部长”。\n将第三条第二款及第三款、第四条各项以外的部分、第五条各项以外的部分、第七条第三款以及第八条第三款中的“女性家庭部令”，分别改为“性别平等家庭部令”。\n将附表格式第七号办理程序栏中的“女性家庭部”改为“性别平等家庭部”。\n〈17〉至〈22〉省略。\n\n"
+      }
+    ],
+    "B3-zh-00019": [
+      {
+        "file_indices": [
+          108
+        ],
+        "text": "附则〈第13号，2026年7月22日〉\n\n本规则自公布之日起施行。\n\n"
+      }
+    ]
+  },
+  "worker": "C03"
+}
