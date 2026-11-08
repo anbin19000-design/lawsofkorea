@@ -1,0 +1,48 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "status": "IN_PROGRESS",
+  "checked_rows": 3,
+  "corrected_rows": 3,
+  "edits": [
+    {
+      "id": "A38090-zh-00001",
+      "text": "■《渔业产品流通管理与支持法》实施令[附表1]"
+    },
+    {
+      "id": "A38091-zh-00001",
+      "text": "■《渔业产品流通管理与支持法》实施令[附表2]<2023年4月25日修订>"
+    },
+    {
+      "id": "A23948-zh-00001",
+      "text": "■《水产品流通管理支援法》实施细则[附表2]<2019年7月1日修订>"
+    }
+  ],
+  "judgments": [
+    {
+      "id": "A38090-zh-00001",
+      "decision": "EDIT",
+      "source_hash": "c6e94007101154f2b099c52e6037310eac7da5a2fa5911a2becf11f4cc48725c",
+      "basis": "한국어 시행령/시행규칙 별표 제1·2호 식별 유지; 첨부·부록과 별표의 명칭 구별"
+    },
+    {
+      "id": "A38091-zh-00001",
+      "decision": "EDIT",
+      "source_hash": "2e64e3d7ab0f90fc47b7c3fabfe5688a86f11971713ee4ce6761d5129b85e80e",
+      "basis": "한국어 시행령/시행규칙 별표 제1·2호 식별 유지; 첨부·부록과 별표의 명칭 구별"
+    },
+    {
+      "id": "A23948-zh-00001",
+      "decision": "EDIT",
+      "source_hash": "820ba94df90d6acaa556ccf4345488d1cf2f6636c1f23eb5e1129ad9fb06a3fc",
+      "basis": "한국어 시행령/시행규칙 별표 제1·2호 식별 유지; 첨부·부록과 별표의 명칭 구별"
+    }
+  ],
+  "source_sha": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c",
+    "en": "32423453da2fcfa466c97946520181a32643e289"
+  },
+  "note": "Document-level annex identity preserved; previous Chinese contents remain."
+}
