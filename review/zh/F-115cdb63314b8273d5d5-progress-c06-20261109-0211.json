@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 435,
+    "verified_zh_rows": 460,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 435,
-      "checked_rows": 435,
+      "next_row_zero_based": 460,
+      "checked_rows": 460,
       "total_rows": 5228
     }
   },
@@ -571,9 +571,51 @@
       "text": "  4. 《国家支持地方道路线指定令》\n  5. 《普通国道路线指定令》\n",
       "original_text": "  4. “关于指定州属地方道路路线的条例” \n  5.《国家公路总路线指定条例》\n",
       "reason": "국가지원지방도 및 일반국도 노선 지정령의 법령명 오역"
+    },
+    {
+      "id": "B2-zh-00150",
+      "text": "  ⑤ 《道路法施行令》部分内容修订如下。\n",
+      "original_text": "  ⑤《道路法实施细则》部分内容修改如下。\n",
+      "reason": "도로법 시행령을 시행규칙으로 오역"
+    },
+    {
+      "id": "B2-zh-00157",
+      "text": "  ⑨ 《道路法施行令》部分内容修订如下。\n",
+      "original_text": "  ⑨ 《道路法实施细则》部分内容修订如下。\n",
+      "reason": "도로법 시행령을 시행세칙으로 오역"
+    },
+    {
+      "id": "B2-zh-00162",
+      "text": "本法令自公布之日起施行。但是，第八十条之二修正规定自2015年11月12日起施行。\n",
+      "original_text": "本法令自公布之日起生效。但第80条第2款的修正规定自2015年11月12日起生效。\n",
+      "reason": "제80조의2를 제80조제2항으로 잘못 분절하여 시행일 대상 조문을 변경"
+    },
+    {
+      "id": "B2-zh-00166",
+      "text": "补充规定（《济州特别自治道设立及国际自由城市建设特别法施行令》）<第26922号，2016年1月22日>\n",
+      "original_text": "ADDEND（济州特别自治道设立及国际自由城市设立特别法实施令）<2016年1月22日第26922号>\n",
+      "reason": "부칙 표제의 ADDEND 오기 및 법령명 부정확"
+    },
+    {
+      "id": "B2-zh-00170",
+      "text": "第五条及第六条省略\n",
+      "original_text": "条款 5 和 6 已省略\n",
+      "reason": "조문 번호가 아니라 단순 ‘조항’으로 표현된 구조를 조문 표기로 바로잡음"
+    },
+    {
+      "id": "B2-zh-00174",
+      "text": "  第四十条第一项中，“《房地产价格公开及评估法》第十一条”改为“《房地产价格公示法》第十条”。\n",
+      "original_text": "  第 40 条第 1 款中，“房地产价格公开及评估法第 11 条”应改为“房地产价格公开法第 10 条”。\n",
+      "reason": "제40조제1호를 제40조제1항으로 오역"
+    },
+    {
+      "id": "B2-zh-00152",
+      "text": "补充规定（为设定监管审查期限等而对《建筑法施行令》等进行部分修订的施行令）<第25840号，2014年12月9日>\n",
+      "original_text": "补充规定（对《建筑法》等法规实施令进行部分修正，以进行监管重组，包括设立监管审查期）<2014年12月9日，第25840号>\n",
+      "reason": "규제 재검토기한 설정의 법령 부칙 표제를 부정확하게 번역"
     }
   ],
-  "note": "Sequential Chinese review continued through row 434. Added nine focused corrections to amendment list numbering, decree vs regulation titles, delegated-authority terminology, stray unsupported word, highway authority designation, and official decree names. Prior 60 edits retained. Continue from row 435. IN_PROGRESS.",
+  "note": "Sequential Chinese review continued through row 459. Added seven focused corrections: Road Act Enforcement Decree mislabeled as enforcement rules, wrong article numbering (Article 80-2 vs Article 80(2)), supplementary title ADDEND typo, skipped article numbering, Article 40 item vs paragraph, and supplementary amendment title. Prior 70 edits retained. Continue from row 460. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
