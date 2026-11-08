@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 840,
+    "verified_zh_rows": 900,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 840,
-      "checked_rows": 840,
+      "next_row_zero_based": 900,
+      "checked_rows": 900,
       "total_rows": 5228
     }
   },
@@ -1057,9 +1057,39 @@
       "text": "■ 《道路法施行令》[附表一] <2026年6月23日修订>",
       "original_text": "■ 道路法实施令[附表1]<2026年6月23日修订>",
       "reason": "도로법 시행령을 부정확하게 표기"
+    },
+    {
+      "id": "A28846-zh-00063",
+      "text": "时，相关防护结构顶部距路面的距离为1.5米（因施工等不可避免的情况时，",
+      "original_text": "时，指的是相关防护结构的上部，距路面 1.5 米（Gong",
+      "reason": "正文中残留Gong标记并导致句子不完整"
+    },
+    {
+      "id": "A28846-zh-00068",
+      "text": "5) 在地面上设置输油管道时，管道最下端应距路面5米以上。",
+      "original_text": "5) 架设地面以上输油管道时，管道底部距离路面必须不超过5米。",
+      "reason": "原文要求5米以上，译文误成不超过5米，改变安全净空标准"
+    },
+    {
+      "id": "A28846-zh-00069",
+      "text": "",
+      "original_text": "Item 要显示",
+      "reason": "译文夹杂无关英文模板残片"
+    },
+    {
+      "id": "A28846-zh-00076",
+      "text": "若因地形条件或其他不可避免的事由，",
+      "original_text": "如果安装在 START 道路表面之下，那一定是迫不得已的原因。",
+      "reason": "残留START标记且句义错乱"
+    },
+    {
+      "id": "A28846-zh-00084",
+      "text": "2. 占用期限",
+      "original_text": "2. 入住期",
+      "reason": "道路占用期间误译为入住期间"
     }
   ],
-  "note": "Sequential Chinese review continued through original row 839. Completed the remaining portion of Annex 1 and began Annex 2. Added nine focused corrections for updated administrative names, road-section locality errors, residual MTQ token in a numeric cell, and Annex heading law title. Previous 142 edits retained. Continue from row 840. IN_PROGRESS.",
+  "note": "Sequential Chinese review continued through original row 899, completing initial review of Annex 1 and advancing through Annex 2 occupancy standards. Added five focused corrections: residual Gong/START/Item artifacts, reversal of minimum 5m oil-pipeline clearance, and occupancy period mistranslation. Previous 151 edits retained. Continue from row 900. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
