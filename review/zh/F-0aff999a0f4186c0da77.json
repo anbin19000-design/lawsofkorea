@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 129,
+    "correction_count": 135,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -928,6 +928,48 @@
       "original": "第二条（关于行政罚款标准的过渡措施）  根据附件五第2项第（j）款至第（h）款修订规定，对在附件五生效日之前发生的违法行为处以行政罚款的，不计入违法次数的计算。\n\n",
       "corrected": "第二条（关于行政罚款标准的过渡措施）  根据附表5第2号自“자”目至“하”目修订规定，对于附则第1条但书规定的施行日前违法行为所受到的行政罚款处分，不计入修订后的附表5第2号自“자”目至“하”目所规定的违法次数计算。\n\n",
       "reason": "한글 자~하목 조문 번호가 j~h로 잘못 번역되었고 처분의 위반횟수 산정대상을 명시할 필요가 있음."
+    },
+    "B2-zh-00155": {
+      "doc": "B2",
+      "source_hash": "83574674a874ddf671d6bc38ccaada016267959e85b6243d0ab088c306b72b23",
+      "original": "第2条（信息披露声明变更登记的适用性）①附件1第3项(a)款及附件1-2的相关修订规定，即使特许人的上一个财政年度于2020年12月31日结束，也适用。在这种情况下，变更登记的截止日期为2021年4月30日（如果特许人是编制财务报表的独资企业，则截止日期为2021年6月29日）。\n\n  ② 即使特许经营者在附件一第1条但书规定的生效日期之前已运行管理支持系统，并在附件一第1条但书规定的生效日期之后继续运行该系统，附件一第8项第(e)款及其相关附件一和附件二的修订规定仍然适用。在此情况下，变更原因应视为发生在附件一第1条但书规定的生效日期所在的季度。\n\n",
+      "corrected": "第2条（信息披露声明变更登记的适用性）①附表1第3号h目及附件1-2的相关修订规定，即使特许人的上一个财政年度于2020年12月31日结束，也适用。在这种情况下，变更登记的截止日期为2021年4月30日（如果特许人是编制财务报表的独资企业，则截止日期为2021年6月29日）。\n\n  ② 即使特许经营者在附则第1条但书规定的生效日期之前已运行管理支持系统，并在附则第1条但书规定的生效日期之后继续运行该系统，附表1第8号e目及其相关附表1之2的修订规定仍然适用。在此情况下，变更原因应视为发生在附则第1条但书规定的生效日期所在的季度。\n\n",
+      "reason": "별표1 제3호아목을 a목으로 잘못 표기하고 ‘별표1의2’를 별표1과 별표2로 잘못 분리한 법적 인용 오류."
+    },
+    "B2-zh-00163": {
+      "doc": "B2",
+      "source_hash": "ecefc6c3ced7820f0f0eaf29393a096c2ecf23faed2d433bb839f95f6e67848d",
+      "original": "第 2 条（适用于信息披露声明中应包含的事项）附件 1 第 4 款 (a) 项和第 6 款 (b) 项的修订规定，自本法令生效后，根据本法第 6 条第 2 款第 1 项或第 2 项登记或修改信息披露声明之日起适用。\n\n",
+      "corrected": "第 2 条（适用于信息披露声明中应包含的事项）附件 1 第 4 款 (a) 项和第 6 款 (b) 项的修订规定，自本法令生效后，根据本法第6条之2第1款或第2款登记或修改信息披露声明之日起适用。\n\n",
+      "reason": "법 제6조의2제1항 또는 제2항을 제6조제2항제1호 또는 제2호로 잘못 변환한 인용 오류."
+    },
+    "B2-zh-00167": {
+      "doc": "B2",
+      "source_hash": "0c6cbadfc64d18b2654369512bfdb6180d4796725a60d9635ca80386995ab8b7",
+      "original": "  在附件 1 第 2 项 (b) 款中，将“垄断规制和公平交易法实施令第 3 条第 1 款”替换为“垄断规制和公平交易法实施令第 4 条第 1 款”，将“垄断规制和公平交易法实施令第 11 条第 1 款”替换为“垄断规制和公平交易法实施令第 16 条第 1 款”；在同一项 (g) 款中，将“垄断规制和公平交易法第 2 条第 5 款”替换为“垄断规制和公平交易法第 2 条第 6 款”。\n\n",
+      "corrected": "  在附件 1 第 2 项 (b) 款中，将“垄断规制和公平交易法实施令第 3 条第1号”替换为“垄断规制和公平交易法实施令第 4 条第1号”，将“垄断规制和公平交易法实施令第 11 条第1号”替换为“垄断规制和公平交易法实施令第 16 条第1号”；在同一项 (g) 款中，将“垄断规制和公平交易法第 2 条第5号”替换为“垄断规制和公平交易法第 2 条第6号”。\n\n",
+      "reason": "부칙의 독점규제법 시행령 각 제1호 및 법 제5호·제6호를 ‘항’으로 오인한 법조문 번호 오류."
+    },
+    "B2-zh-00168": {
+      "doc": "B2",
+      "source_hash": "1311f80857a4ec6a8c4603d1edfaf07aba5e5d84e252c6d1aafbfc7c38e24fae",
+      "original": "  在附件5第2项第(k)款规定的违法行为部分，将“垄断规制与公平交易法第43条之2”替换为“垄断规制与公平交易法第66条”；在同一项第(t)款规定的违法行为部分（不包括第1)项至第3)项），将“垄断规制与公平交易法第50条第1款第1项”替换为“垄断规制与公平交易法第81条第1款第1项”；在同一项第(p)款规定的违法行为部分（不包括第1)项至第3)项），将“垄断规制与公平交易法第50条第1款第3项”替换为“垄断规制与公平交易法第81条第1款第3项”，并将“第3款”替换为“第6款”。在同一条款第（h）款关于违反规定的部分中，“垄断规制与公平交易法第五十条第二款”应改为“垄断规制与公平交易法第八十一条第二款”。\n\n  ② 至 <68> 省略\n\n",
+      "corrected": "  在附件5第2项“카”目规定的违法行为部分，将“垄断规制与公平交易法第43条之2”替换为“垄断规制与公平交易法第66条”；在同一项“타”目规定的违法行为部分（不包括第1)项至第3)项），将“垄断规制与公平交易法第50条第1款第1项”替换为“垄断规制与公平交易法第81条第1款第1项”；在同一项“파”目规定的违法行为部分（不包括第1)项至第3)项），将“垄断规制与公平交易法第50条第1款第3项”替换为“垄断规制与公平交易法第81条第1款第3项”，并将“第3款”替换为“第6款”。在同一条款“하”目关于违反规定的部分中，“垄断规制与公平交易法第五十条第二款”应改为“垄断规制与公平交易法第八十一条第二款”。\n\n  ② 至 <68> 省略\n\n",
+      "reason": "별표5 한글 목번호 카·타·파·하를 임의 영어 알파벳 k·t·p·h로 오인한 인용 오류."
+    },
+    "B2-zh-00175": {
+      "doc": "B2",
+      "source_hash": "c9af50831ff8efc4fe7fe5a8ba037271adf650bc8aaf0cdafd688c8d745da500",
+      "original": "  附件 1 第 2 款 (b) 项中的“垄断规制和公平交易法实施令第 4 条第 1 款”应改为“垄断规制和公平交易法实施令第 4 条第 1 款第 1 项”。\n\n  跳过 ② 到 ⑦\n\n",
+      "corrected": "  附件 1 第 2 款 (b) 项中的“垄断规制和公平交易法实施令第4条第1号”应改为“垄断规制和公平交易法实施令第 4 条第 1 款第 1 项”。\n\n  跳过 ② 到 ⑦\n\n",
+      "reason": "제4조제1호(호)와 제4조제1항제1호(항·호)의 구분을 잘못 번역한 변경 전 인용문 오류."
+    },
+    "B2-zh-00180": {
+      "doc": "B2",
+      "source_hash": "e4c87d279f174b9d6c43d21d63407347c5de8eb75737a214b81759f6f7e222da",
+      "original": "第一条（生效日期）本法令自公布之日起生效。但是，下列各款的修正规定自各款规定的日期生效。\n\n  1. 对第十二条各款以外的部分进行修订：2024年7月3日\n\n  2. 修订第十二条第七款和附件二第二款第（3）项和第（4）项的规定：自公布之日起六个月\n\n",
+      "corrected": "第一条（生效日期）本法令自公布之日起生效。但是，下列各款的修正规定自各款规定的日期生效。\n\n  1. 对第十二条各款以外的部分进行修订：2024年7月3日\n\n  2. 修订第十二条第七款和附表2第2号“나”目第（3）项和第（4）项的规定：自公布之日起满六个月之日\n\n",
+      "reason": "별표2 제2호나목(3)(4)의 나목을 누락하여 부칙 시행시점 적용대상을 넓힌 인용 오류."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -979,7 +1021,8 @@
     "C05 16c9500f212b continuation: B2 Articles 21-2, 25, 27-29 corrected for dispute committee identity, reporting direction, wrong court-stay cross-reference, missing paragraph labels and exam exemption/fee refund kinship scope. Prior corrections preserved; IN_PROGRESS.",
     "C05 16c9500f212b continuation: B2 Articles 30, 32-3 and 32-4 corrected for missing paragraph markers and publication-order legal effect. Prior work preserved; IN_PROGRESS.",
     "C05 0ecaf31c3202: B2 transitional provisions sequential inspection rows 79-105, seven confirmed errors in permissive clause, article-number citations, annex citations, old-standard application corrected; full family review not certified.",
-    "C05 0ecaf31c3202 continuation: B2 supplementary clauses 106-152 reviewed in order; corrected six source-grounded party, effective-date and article/annex citations; full audit incomplete."
+    "C05 0ecaf31c3202 continuation: B2 supplementary clauses 106-152 reviewed in order; corrected six source-grounded party, effective-date and article/annex citations; full audit incomplete.",
+    "C05 0ecaf31c3202 continuation: B2 rows 153-190 sequential supplementary inspection; source-grounded correction of Korean annex subitem letters and legal paragraph/number distinctions, six corrections. Annex spillover in B2-zh-00190 retained in existing correction. No family completion certification."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -988,5 +1031,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 129
+  "corrected_rows": 135
 }
