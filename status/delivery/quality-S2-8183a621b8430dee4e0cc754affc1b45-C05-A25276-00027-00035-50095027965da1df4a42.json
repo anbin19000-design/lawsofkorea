@@ -1,0 +1,64 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-3705abbc710de4b867bc",
+  "worker": "C05",
+  "branch": "main",
+  "source_blobs": {
+    "ko": "7974bf81d14f4838ae85d4b3ceea80a2f0e65fed",
+    "zh": "045dd328cd77f3eecd8b6cd485be27f2389773e8"
+  },
+  "document_key": "A25276",
+  "document_source_hash": "bcdd3ea81f96f89443d3477838f86cc6d749bd4b8c466d138d14a19ac6c85e72",
+  "checked_range": "A25276-zh-00027..A25276-zh-00035 (previously staged corrections only)",
+  "checked_ids": [
+    "A25276-zh-00027",
+    "A25276-zh-00030",
+    "A25276-zh-00031",
+    "A25276-zh-00032",
+    "A25276-zh-00033",
+    "A25276-zh-00034",
+    "A25276-zh-00035"
+  ],
+  "checked_rows": 7,
+  "adopted_edits": [
+    {
+      "id": "A25276-zh-00027",
+      "text": "申请认证的"
+    },
+    {
+      "id": "A25276-zh-00030",
+      "text": "消防设备"
+    },
+    {
+      "id": "A25276-zh-00031",
+      "text": "依照《消防设备管理法》第12条第2款、同法施行令第11条及同法施行规则第8条第1款规定，"
+    },
+    {
+      "id": "A25276-zh-00032",
+      "text": "现申请上述消防设备认证。"
+    },
+    {
+      "id": "A25276-zh-00033",
+      "text": "年"
+    },
+    {
+      "id": "A25276-zh-00034",
+      "text": "月"
+    },
+    {
+      "id": "A25276-zh-00035",
+      "text": "日"
+    }
+  ],
+  "rationale": {
+    "A25276-zh-00027": "‘인증신청’은 다음 행 ‘소방장비’와 이어져 ‘인증신청 소방장비’ 항목이 됨. 기존 认证申请은 동사·명사 관계가 불명확해 申请认证的로 연결.",
+    "A25276-zh-00030": "앞 행과 합치면 ‘申请认证的消防设备’이며 원문 ‘인증신청 소방장비’에 부합.",
+    "A25276-zh-00031": "한국어 법령명 소방장비관리법, 법 제12조제2항, 시행령 제11조, 시행규칙 제8조제1항의 인용을 그대로 보존; 이 행은 다음 행과 연결.",
+    "A25276-zh-00032": "‘같이 소방장비 인증을 신청합니다’로 이어지는 서식 신청문; 기존 共同申请의 공동신청 의미 삭제.",
+    "A25276-zh-00033": "‘년’ 서식 날짜 단위.",
+    "A25276-zh-00034": "‘월’ 서식 날짜 단위.",
+    "A25276-zh-00035": "‘일’ 서식 날짜 단위."
+  },
+  "status": "QUALITY_PARTIAL",
+  "note": "Seven already-staged form corrections independently validated against Korean source including split-cell continuity; no additional unique reviewed rows and no COMPLETE receipt. Preserve all existing progress and quality files."
+}
