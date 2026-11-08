@@ -1,0 +1,264 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-115cdb63314b8273d5d5",
+  "worker": "C06",
+  "pc": "WORK-C",
+  "panel_id": "panel-06",
+  "status": "IN_PROGRESS",
+  "phase": "ZH_FULL_REVIEW_IN_PROGRESS",
+  "source_blobs": {
+    "ko": "159cb5a14f8f5e07bea8f04a5437adbf4b15c6ba",
+    "en": "f29bd3277059d324e7bbe7a69b6b6b49ab69939f",
+    "zh": "de02d84d8491a7aa79491594587e28914944a33a"
+  },
+  "previous_progress_path": "review/zh/F-115cdb63314b8273d5d5-progress-c06-zh-20261109e.json",
+  "previous_progress_blob_sha": "8572fa990e0f9f41080935b62c26a6fa88e6ec10",
+  "reading_evidence": {
+    "ko_complete_documents": [
+      "B1",
+      "B2",
+      "A28845",
+      "A28846",
+      "A28847",
+      "A28849",
+      "A28850",
+      "A28851",
+      "B3",
+      "A4662",
+      "A4663",
+      "A4664",
+      "A4665",
+      "A4666",
+      "A4667",
+      "A4668",
+      "A4669",
+      "A4670",
+      "A4671",
+      "A4672",
+      "A4673",
+      "A4674",
+      "A4675",
+      "A4676",
+      "A4677",
+      "A4678",
+      "A4679",
+      "A4680",
+      "A4681",
+      "A4682",
+      "A4683",
+      "A4684",
+      "A4685",
+      "A4686",
+      "A4687",
+      "A4688",
+      "A4689",
+      "A4690",
+      "A4691",
+      "A4692",
+      "A4693",
+      "A4694",
+      "A4695",
+      "A4696",
+      "A4697",
+      "A4698",
+      "A4699",
+      "A4700",
+      "A4701",
+      "A4702",
+      "A4703",
+      "A4704",
+      "A4705",
+      "A4706",
+      "A4707",
+      "A4708",
+      "A4709",
+      "A4710",
+      "A4711",
+      "A4712",
+      "A4713"
+    ],
+    "ko_decree_operational_articles": "제1조~제105조",
+    "ko_decree_supplementary_lines_read": {
+      "start_zero_based": 967,
+      "end_exclusive_zero_based": 1766
+    },
+    "ko_decree_next_line_zero_based": null,
+    "ko_full_read": true,
+    "en_full_read": true,
+    "zh_full_review": false,
+    "verified_zh_rows": 0,
+    "ko_next_document": null,
+    "ko_annex_1": {
+      "document_key": "A28845",
+      "status": "READ_COMPLETE",
+      "lines": 807,
+      "content": "Road route numbers; lengths in km; start-end delegated national-road stretches; revised 2026-06-23"
+    },
+    "ko_annex_2": {
+      "document_key": "A28846",
+      "status": "READ_COMPLETE",
+      "lines": 447,
+      "topics": "Occupancy placement: buried infrastructure clearances; power line height 6m/4.5m etc; pipeline depth 0.8-3m, oil line 1.2-1.8m; permit duration up to 10 or 3 years; restoration, safety and on-road marking requirements"
+    },
+    "ko_annex_3_5_6_7": {
+      "A28847": "Fee table by land categories, infrastructure types, rates, annual/monthly rules and 20m/40m underground reductions",
+      "A28849": "Administrative enforcement charges KRW 500k, 500k or 1m depending on noncompliance order",
+      "A28850": "Land acquisition delegated fee tiers 20/17/15/13/10 per mille, never above 20 per mille",
+      "A28851": "Fine calculation, prior 1-year violations and escalating truck weight fines, excessive occupancy area rates."
+    },
+    "ko_ministerial_rule": {
+      "key": "B3",
+      "status": "READ_COMPLETE",
+      "lines": 542,
+      "topics": "Road designations and permits, reporting deadlines, inspection and underground utility drawings, road ledger permanent storage, road occupation/closure, weight-limit vehicle permits, regulatory fees, rights succession, 2014-2026 supplementary amendments."
+    },
+    "ko_rule_annexes": {
+      "A4662": "Road boundary markers/signpost spacing 50m to 500m, dimensions and siting",
+      "A4663": "Road kilometer datum marking and positioning",
+      "A4664": "14 publicly posted road occupancy permit data items",
+      "A4665": "Road excavation utility location signage, interval 20m urban/50m rural, RFID materials and dimensions"
+    },
+    "ko_form_notes": {
+      "A4666": "Road route designation/change/abolition public notice; type, number, start/end, route length in kilometers, overlapping roads",
+      "A4667": "Related approval application, attachment 1:50k map, authority and fee none",
+      "A4668": "Road zone decision/change/abolition public notice, location/area and affected land",
+      "A4669": "Construction project progress report and four supporting documents; 15-day handling period"
+    },
+    "ko_form_notes_5_10": "Work execution order (objection 30 days, appeal/litigation 90 days), completion inspection application and required completion records/design/costs, maintenance order, work notice, completion notice, and maintenance of other structures.",
+    "ko_form_notes_11_16": "Road works permit with 15-day handling and 0.1% fee, work commencement, completion inspection, maintenance permit, roadside zone gazette, boundary sign ledger.",
+    "ko_form_notes_17_21": "Existing/illegal roadside buildings inventory two-page ledgers and restoration; road-boundary post stocktake; land purchase claim with 2-month handling; appraisal costs notice including 30-day objection and 90-day appeal/litigation.",
+    "ko_road_ledger": {
+      "key": "A4687",
+      "lines": 2510,
+      "semantic_nonempty_lines": 326,
+      "pages": 20,
+      "topics": "General road, bridges, tunnels, pedestrian overpasses, underpasses, elevated roads and interchanges, geometry, earthworks, safety and auxiliary facilities, road zone, toll roads, bypass roads, roadside zones, occupancy; detailed tabular subfields read."
+    },
+    "ko_form_notes_23_24": "Road officer identification card front/back (photo 3x4cm), 60x90mm; road occupancy initial permit form includes applicants, utility and safety attachments, fee KRW1,000, penalties, processing period tables.",
+    "ko_form_notes_25_29": "Permit extension 7-day processing; amendment form and local/central schedules; occupancy license rights-succession 2-month notice and up to KRW 500k penalty; public announcement and register.",
+    "ko_form_notes_30_41": "Road occupancy project plans and coordination, completion confirmation and works substitution, impounded objects records, travel restrictions, exceptional vehicle operation permit (10-day processing and KRW5,000 fee), land access/identity form, construction commencement and quarterly reports.",
+    "english_next_document": "documents/en/kr-001821-276971-en.json",
+    "ko_final_forms": "Business execution summary, cost-sharing orders (30/90-day appeals), compensation adjudication, succession of permit rights (7-day processing), applicable-road public notice, occupancy cancellation application (5-day processing).",
+    "english_current_document": null,
+    "english_current_document_body_sha256": "08b2b098f5b3d861a88c0faeb100b1fa0b4a88a3d8dad28436969e859cbf4efe",
+    "english_read_to_character_exclusive": 171673,
+    "english_confirmed_complete_articles": "Linked English law 204419 characters, KLRI duplicate legally equivalent, decree 171673 characters fully read",
+    "english_current_partial_article": null,
+    "english_notes": "Read official fallback Road Act English full_text characters 0-30999; Articles 1-20 covered, Article 21 partially. Article 19 includes apparent unrelated penalty item among route-notice items in English source; flag for later Korean/Chinese comparison, do not presume Chinese edit. English legal source version 276971 differs from KO 280119. 2 additional associated English documents remain unread.",
+    "english_topics_read": "Road network planning; route classifications and designation; road-zone decisions; project authorization; delegated road works; clearance and three-dimensional protection zones; purchase and appraisal; motorways and tourist roads; road signs/register/integrated registry; road research and traffic information; start of occupancy permission. Occupancy permissions, safety and underground utilities; fees and fee refunds, objections, surcharge of 120%; reinstatement and administrative execution; road protection and emergency traffic restrictions.",
+    "english_completed_documents": [
+      {
+        "path": "documents/en/kr-001821-276971-en.json",
+        "body_sha256": "08b2b098f5b3d861a88c0faeb100b1fa0b4a88a3d8dad28436969e859cbf4efe",
+        "characters_read": 204419,
+        "status": "READ_COMPLETE",
+        "scope": "Articles 1-118 and complete addenda"
+      },
+      {
+        "path": "documents/en/kr-klri-71547-en.json",
+        "body_sha256": "903efbc1684e6a71927c551308ee9b5b3a989c73ac048e6ec1390f06a52b9bf0",
+        "characters_total": 218178,
+        "status": "CONTENT_EQUIVALENCE_VERIFIED",
+        "comparison": "All 32190 normalized tokens from first English legal text matched in same order against 32392 tokens of KLRI source, 39 difference spans consisting solely of metadata: 271-token introductory act-history header, 37 repeated date/act-number headers, 5-token footer; no differing body tokens. Diff matcher ratio 0.9945805332755256."
+      },
+      {
+        "path": "documents/en/kr-003400-287115-en.json",
+        "body_sha256": "2fa55876fd9bdbf9d918bb140193c3585c499004b4ebcc379f977582c4f44f54",
+        "characters_read": 171673,
+        "status": "READ_COMPLETE",
+        "scope": "Entire decree through Article 105 and addenda ending Presidential Decree No. 36423 of June 23 2026"
+      }
+    ]
+  },
+  "edits": [],
+  "note": "C06 sequential Chinese 23/5228 reviewed, 17 edited rows cumulative; Korean 61 documents and all English references fully read. IN_PROGRESS.",
+  "chinese_review": {
+    "total_rows": 5228,
+    "checked_rows": 23,
+    "checked_prefix_end_exclusive": 23,
+    "additional_targeted_rows_inspected": [
+      "B1-zh-00012"
+    ],
+    "edits": [
+      {
+        "id": "B1-zh-00001",
+        "text": "道路法"
+      },
+      {
+        "id": "B1-zh-00012",
+        "text": "第十条（道路的类型和等级）道路的类型如下，其等级按下列各款所列顺序排列。\n1. 高速公路（包括高速公路支线）\n2. 一般国道（包括一般国道的支线）\n3. 特别市道、广域市道\n4. 地方道\n5. 市道\n6. 郡道\n7. 区道\n\n"
+      },
+      {
+        "id": "B1-zh-00004",
+        "text": "第二条（定义）本法所用术语的含义如下。<2025年12月2日修订>\n1. “道路”一词是指总统令规定的设施构成的结构，如第 10 条所列举的车道、人行道、自行车道、侧道、隧道、桥梁和立交桥，以及道路附属设施。\n2. “道路附属设施”一词是指道路管理部门为方便道路使用、确保道路交通安全和顺畅以及出于其他道路管理目的而安装的下列任何设施或结构。\na. 道路使用支持设施，例如停车场、公交车站和休息区\nb. 道路安全设施，例如视觉引导标志、中央分隔带、减速带、护栏等。\nc. 道路管理设施，例如收费设施、道路管制设施和道路管理办公室\nd. 交通管理设施，例如道路标志和交通量测量设施\ne. 道路防灾救援活动、道路环境改善和维护等道路辅助设施，例如落石防护设施、除雪设施和饮水设施等。\nf. 总统令规定的其他用于维持道路等功能所需的设施。\n3. “国家公路网”一词是指按照第十条各款规定，有条不紊地组织起来，使高速公路、国道、省道等能够相互有机地发挥功能的公路网。\n4。“国家干线公路网”一词是指构成全国公路网基础的路线，具体而言，是指第十条第1款规定的高速公路和同一条第2款规定的普通国道。\n5。“道路管理机构”是指作为道路规划、建设和管理的主要实体，并且根据道路分类属于第 23 条规定的下列任何一项的机构。\na. 国土交通大臣\nb. 特别市市长、广域市市长、特别自治市市长、道知事、特别自治道知事、市长、郡守或自治区区厅长（以下简称“行政机关”）\n6.“道路区域”是指构成道路的地块，该区域是根据第 25 条确定的。\n7.“道路建设”是指涉及道路新建、扩建、改善和维修的工程。\n8.“道路养护和管理”是指为维持道路功能而进行的一般道路管理活动（包括小修小补等）。\n9。“其他构筑物”是指路堤、护坡、铁路或轨道桥梁、道路交叉口、行道树以及总统令规定的与道路具有相同用途的其他构筑物。\n\n"
+      },
+      {
+        "id": "B1-zh-00007",
+        "text": "第五条（制定全国公路网综合规划）\n① 国土交通大臣应每10年制定国家公路网综合规划（以下简称“综合规划”），以进行公路网的建设和有效管理等。\n② 总体规划应当与下列各款所列规划相协调制定。<2024年1月16日修订>\n1. 根据《国家土地框架法》第6条第2款第1项制定的国家综合规划\n2. 根据《国家综合交通系统效率法》第4条第1款制定的国家干线运输网络规划\n3. 根据《地方自治与区域均衡发展特别法》第六条第一款制定的地方时代综合规划\n③ 总体规划应包括下列事项：<2018年12月18日、2025年1月31日修订>\n1. 关于道路现状及道路交通状况变化预测的事项\n2. 道路政策的基本目标和方向\n3. 关于道路环境友好型建设和确保可持续性的事项\n3-2. 关于保障道路设施安全的事项\n4. 关于居民参与以防止社会冲突发生的事项\n5. 通过有效利用道路资产提升道路价值和改善用户便利性的事项\n6. 与道路相关的研究和技术开发事项，例如应用先进技术的道路建设\n7. 关于国家干线公路网的组成和建设的事项\n8. 关于保障国家干线公路网建设和管理所需财政资源的基本方向和投资总体优先顺序的事项\n9. 关于国家干线公路网国际连通性的事项\n9-2. 关于建设道路网络以促进区域均衡发展的事项\n10. 总统令规定的其他关于国家干线公路网建设、管理和利用的事项\n④ 国土交通部长根据第一款拟制定综合规划时，应当事先与有关中央行政机关的负责人协商，听取特别大都会市长、都会市市长、特别自治市市长、省长、特别自治省长（以下简称“市/省长”）以及自治区区长、县长、区长（以下简称“自治区区长”）的意见，并按照第九条的规定，由道路政策审议委员会审议。\n⑤ 国土交通部长按照第1款制定了综合计划后，应当立即在官方公报上公布其主要内容，并将综合计划送交有关中央行政机关负责人、省市长、县长、区长。\n⑥ 国土交通大臣可自综合规划制定之日起每五年审查一次该规划的有效性，并应在必要时修改该规划。\n⑦ 已制定的综合规划如需修订，则第4款和第5款的规定应参照适用。但总统令规定的次要事项如需修订，则不适用本条规定。\n\n"
+      },
+      {
+        "id": "B1-zh-00008",
+        "text": "第六条（道路建设和管理计划等的制定）\n① 道路管理机构应当每五年对其管辖范围内根据第二十三条分类的道路（包括根据第十三条划分的高速公路支线或国道；以下在本条中均适用）制定道路建设及管理计划（以下简称“建设及管理计划”），以保障道路的顺利建设、维护和管理。但是，根据第十五条第二款规定由国家支持的地方道路，其建设及管理计划由国土交通大臣制定。\n② 施工和管理计划应当符合总体规划。\n③ 建设和管理计划应包括下列事项：\n1. 道路建设与管理的目标和方向\n2. 道路建设项目概述、项目工期和优先级\n3. 道路管理、道路及道路资产的利用和运营相关事宜\n4. 与道路建设和管理等所需费用以及财政资源的获取有关的事项\n5. 关于道路周边环境的保护和管理以及关于当地社区保护的事项\n6. 关于改善道路景观的事项\n7. 关于道路交通信息系统的建立和运行的事项\n8. 道路管理机构认为为系统地建设和管理道路所必需的其他事项\n④ 道路管理部门在制定道路建设管理计划时，应当事先征询有关道路建设事项的行政机关负责人的意见，必要时，可以要求主管地方政府负责人提供资料。\n⑤ 国土交通部长根据第1款制定建设和管理计划时，应当按照第9条的规定，由道路政策审议委员会审议；市长或省长制定建设和管理计划时，应当与国土交通部长协商；市长、县长或区长制定建设和管理计划时，应当与特区市长、大都会市长或省长协商。\n⑥ 道路管理机构应当按照国土交通部令对道路的财产价值进行调查和评估，并将结果反映在建设和管理计划中，并系统地管理相关数据。在此情况下，道路财产价值的调查和评估应当符合《国家会计法》第十一条规定的国民会计准则。\n⑦ 道路管理机构制定建设或管理计划时，应当按照国土交通部制定的条例予以公布。\n⑧ 已制定的建设和管理计划如需修改，则适用第5款和第7款的规定。但总统令规定的次要事项如需修改，则不适用本条规定。\n\n"
+      },
+      {
+        "id": "B1-zh-00010",
+        "text": "第八条（改善大都市交通拥堵道路）\n① 国土交通部长应当每五年按地区制定大都市区交通拥堵道路改善工程计划（以下简称“本条中的工程计划”），针对大都市区内由市长、省长、市长、县长、区长作为道路管理机关管辖，且为缓解交通拥堵、保障物流顺畅而必须实施改善工程的大都市区主要干道（以下简称“大都市区交通拥堵道路”）。\n② 事业计划应包括下列事项。\n1. 大都市区交通拥堵道路改善工程（以下简称“改善工程”）的目标\n2. 道路改善项目\n3. 年度改进项目计划\n4. 改进项目实施的总投资规模\n5. 为实施改进项目所需资金筹集计划\n6. 总统令规定的其他事项\n③ 国土交通部长在制定工程计划时，应当与有关中央行政机关负责人和省市市长、县长、区长协商，并按照第九条规定，由道路政策审议委员会审议。\n④ 行政机关应当按照项目计划，每年制定并实施大都市交通拥堵道路改善详细项目计划。\n⑤ 大都市交通拥堵道路的选择标准、管理方法等必要事项，由总统令规定。\n⑥ 第3款的规定经必要修改后适用于已制定的事业计划的变更。但是，本款规定不适用于总统令规定的次要事项的修改。\n⑦ 根据《地方自治法》第198条，国土交通大臣可以每五年对人口超过50万的大城市的主要干道交通拥堵等实际情况进行调查。<新增于2017年1月17日、2021年1月12日>\n\n"
+      },
+      {
+        "id": "B1-zh-00011",
+        "text": "第九条（道路政策审议委员会的设立和组成）\n① 在国土交通大臣领导下设立道路政策审议委员会（以下简称“委员会”），审议下列有关道路政策的事项。\n1. 关于制定和修订总体规划的事项\n2. 关于国土交通大臣制定的建设和管理计划的制定和修改事宜\n3. 关于施工和管理计划协调的事项\n4. 关于大都市区交通拥堵道路改善工程规划的制定和修订事宜\n5. 关于国土交通大臣指定和通知的道路路线的指定事宜\n6. 关于调整国有收费公路通行费的事项\n7. 关于对长期延误且符合总统令规定条件的道路相关项目进行重新评估的事项\n8. 国土交通大臣要求审议的其他有关道路政策的重要事项\n② 委员会由一名主席和不超过25名成员组成，包括一名副主席。\n③ 主席和副主席由国土交通部长指定。\n④ 委员会成员由国土交通部长从符合下列各款规定的人员中指定或委任。\n1. 属于高级公务员队伍的普通公务员或隶属于中央行政机关的三级及以上公务员\n2. 土地、基础设施和交通部长认为必要的，具有道路方面丰富知识和经验的人员\n⑤ 非公职人员成员的任期为两年，可连任；替补成员的任期为前任成员的剩余任期。\n⑥ 关于委员会的组成和运作以及其他必要事项，由总统令规定。\n\n第三章 道路类型和道路管理机构\n\n"
+      },
+      {
+        "id": "B1-zh-00013",
+        "text": "第11条（高速公路的指定和公告）  国土交通大臣应当指定并公告一条专用于机动车高速通行的道路（机动车指《汽车管理法》第二条第一号规定的汽车，自动驾驶车辆指《汽车管理法》第二条第一号之三规定的自动驾驶汽车，工程机械指《工程机械管理法》第二条第一款第一项规定的工程机械，并由总统令予以规定；以下第四十七条、第一百一十三条和第一百一十五条第一号亦适用），该道路应为连接主要城市、构成公路交通网络重要轴线的道路。<2023年8月16日修订>\n\n"
+      },
+      {
+        "id": "B1-zh-00014",
+        "text": "第十二条（国家公路的指定和通报）\n① 国土交通大臣应当确定连接主要城市、指定港口（指根据《港口法》第三条以总统令规定的港口）、主要机场、国家工业园区或旅游目的地的公路路线，并与高速公路共同构成国家干线公路网，并指定和公布国家级公路。<2020年1月29日修订>\n② 国土交通部长根据第1款指定并公布国道路线时，如需更换穿过特别自治市、特别自治省或市管辖范围内的现有国道，部长可指定并公布绕行现有国道的路段作为国道替代绕行道路（以下简称“绕行国道”）。\n③ 国土交通大臣如有必要维护国道作为国家干线公路网的功能，可将位于特别市、广域市、特别自治市、特别自治道或市辖区（不包括邑区和面区）内的国道部分路段指定并公开宣布为指定国道（以下简称“指定国道”）。指定国道的指定标准、程序和管理标准由总统令规定。<2020年6月9日修订>\n④ 如果国土交通部长打算根据第3款指定（包括变更和撤销）某条指定国道，他/她应当听取对该指定国道所在路段具有管辖权的特别市市长、大都会市长、特别自治市市长、特别自治省省长或市长的意见。\n\n"
+      },
+      {
+        "id": "B1-zh-00016",
+        "text": "第十四条（特别市道和广域市道的指定和通知）特别市市长或广域市市长应当从其管辖范围内的道路中，确定符合下列各项规定的道路路线，并指定并公告为特别市道或广域市道。\n1. 构成相关特别城市或大都市主要道路网络的道路\n2. 连接特区和特大城市主要区域与周边城市、港口、工业园区、物流设施等的道路。\n3. 除第1款和第2款规定的道路外，对维持特别城市或大都市功能尤为重要的道路。\n\n"
+      },
+      {
+        "id": "B1-zh-00017",
+        "text": "第十五条（地方道路的指定和通知）\n① 省长或者特别自治省省长应当确定符合下列各项条件的道路路线，作为该省或者特别自治省管辖范围内道路的主要道路网络，并指定、公开宣布为地方道路。\n1. 从省会城市通往市或县城的道路\n2. 连接城市或县政府办公室的道路\n3. 连接位于省或特别自治省境内或与该省或特别自治省密切相关的机场、港口和车站的道路\n4. 连接省或特别自治省境内的机场、海港或车站与高速公路、国道或与该省或特别自治省密切相关的地方道路的道路\n5. 除第1至4款所列道路外，对省或特别自治省发展具有特殊重要性的道路\n② 国土交通大臣可根据连接主要交通枢纽（如主要城市、机场、港口、工业园区、主要岛屿和旅游目的地）以及补充国家干线公路网的需要，从地方道路中确定路线，并指定和公布国家重点地方公路。在此情况下，为保持交通连通性的一致性，国土交通大臣可根据具体情况，将部分特殊城市道路、大都会城市道路、城市道路、县道或尚未指定路线的新建道路纳入国家重点地方公路的指定和公布范围。\n\n"
+      },
+      {
+        "id": "B1-zh-00018",
+        "text": "第十六条（市道的指定和公告）特别自治市或市市长（行政市的市长为特别自治省省长）应当确定特别自治市、市或行政市管辖范围内的道路路线，并指定并公告市道。\n\n"
+      },
+      {
+        "id": "B1-zh-00019",
+        "text": "第十七条（县道的指定和通知）县长应当指定并通知县道，方法是从本县（包括大都市辖区内的县；以下本条亦适用）管辖范围内的道路上，确定符合下列任何一项条件的道路路线。\n1. 从县城到镇或乡镇办事处的道路\n2. 连接邑事务所或面事务所所在地的道路\n3. 除第1款和第2款所述道路外，对县发展尤为重要的其他道路\n\n"
+      },
+      {
+        "id": "B1-zh-00020",
+        "text": "第十八条（区级公路的指定和通知）区政府负责人应当确定辖区内非市级特别公路或大都会公路连接各洞的道路路线，并指定和通知为区级公路。\n\n"
+      },
+      {
+        "id": "B1-zh-00021",
+        "text": "第十九条（道路路线等的指定和通知方法）\n① 根据第十一条至第十三条和第十五条第二款的规定，高速公路、国道、支线和国家支持的地方道路的路线指定和公告，应当在官方公报上公布；根据第十四条、第十五条第一款和第十六条至第十八条的规定，城市专用道路、大都会道路、地方道路、市级道路、县级道路和区级道路的路线指定和公告，应当在有关地方政府的官方公报上公布。\n② 根据第1款规定指定和公开宣布道路路线，应当包括下列各款的事项。\n1. 路线编号\n2. 路线名称\n3. 起始点，结束点\n4. 主要中转点\n5. 其他必要事项\n③ 国土交通大臣根据第1款指定或者通知某条路线时，应当与有关中央行政机关的负责人协商，并由委员会审议。\n④ 根据第36条规定，道路管理机构因道路管理机构以外的人员修建道路而需要指定和公布道路路线的，在确认相关道路修建工程竣工后，可以按照第1款至第3款的规定指定和公布道路路线。\n\n"
+      },
+      {
+        "id": "B1-zh-00022",
+        "text": "第二十条（管辖范围外道路的指定）\n① 尽管有第十四条至第十八条的规定，行政机关如认为特别必要，可以按照总统令的规定，与有关行政机关协商，将位于其管辖范围之外的道路指定为特别城市道路、大都会城市道路、省道、市道、县道或区道。\n② 如第1款规定的咨询未能完成，市长或省长可向国土交通部长提出申请，市长、县长或区长可分别向特别市长、广域市长或省长提出申请，请求裁决。\n③ 如果根据第 2 款作出裁决，则根据第 1 款所述协商视为成立。\n④ 如依第1款进行咨询或依第2款作出裁决，指定道路路线的行政机关应当在有关地方政府的官方公报上公布该事实。\n\n"
+      },
+      {
+        "id": "B1-zh-00023",
+        "text": "第21条（道路路线的变更和废止）\n① 国土交通大臣或者行政机关可以变更根据第11条至第18条和第20条指定的道路路线，或者废除全部或部分道路路线。\n② 行政机关如欲指定、变更或废止某条道路，须按国土交通部条例规定，就特别市道路、广域市道路、省级道路及市道（仅限特别自治市市长指定的路线）取得国土交通部长的批准；就市级道路（特别自治市市长指定道路的除外）、县级道路或区级道路，须取得特别市市长、广域市市长或省长的批准。\n③ 国土交通大臣或行政机关如欲根据第1款变更或废除某条路线，应当按照国土交通部制定的条例予以公布。\n\n"
+      }
+    ],
+    "review_status": "IN_PROGRESS",
+    "notes": [
+      "Row 1 is the untranslated English title; fixed to 道路法.",
+      "Article 10 category labels 3-7 mistranslated and MTQ marker embedded in item 1; only faulty portions replaced, rest preserved.",
+      "Article 10 considered targeted correction; rows 2 through 11 require complete sequential validation before increasing continuous checked prefix.",
+      "Rows 0-4 directly read in full against Korean source; Article 2 minimal corrections for missing 侧道, clause lettering and omitted local-authority categories.",
+      "Rows 5-7 fully read. Corrected Article 5 item 10 omission and erroneous paragraph ④; Article 6 clarified 国土交通部令 and 国家会计法. Rest unchanged.",
+      "Rows 8-11 fully read: Article 7 accurate, Article 8 business plan mistranslated as 商业计划书 in two places, Article 9 clause 7 truncated and paragraph ③ label absent; corrected only those defects. Article 10 correction previously saved.",
+      "Rows 12-16 fully compared. Article 11 corrected cross-references to Motor Vehicle Management Act and Article 115 subparagraph; Article 12 paragraph ④ label; Article 14 mistakenly translated 特别市 as 特区 and implied construction; Article 15 subparagraph 3 omitted index.",
+      "Rows 17-22 fully compared. Corrected 市道 and 洞 terminology, local 邑/面 administrative names, clause ④ labels, 裁定 incorrectly translated as 财务结算/拨款, and Article21 city road approval exception inverted."
+    ]
+  }
+}
