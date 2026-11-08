@@ -1,0 +1,236 @@
+{
+  "schema": "LAW_ZH_C02_CANDIDATE_ADJUDICATION_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "task_marker": "ea6051d0b151",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "scope": "Previously sequentially reviewed Korean source, official English fallback where available, Chinese rows; resolve only nonmaterial historical candidates without altering approved corrections",
+  "decisions": [
+    {
+      "id": "A25466-zh-00001",
+      "decision": "RETAIN_MASTER",
+      "reason": "Form 4 source heading; bracket glyphs and spacing only.",
+      "source_hash": "8ff9b856c64cf23b0f1bd9128058e0b8486e133a5885b4ba7361622d80b693f7",
+      "target_id": "XML:1802704",
+      "retained_text": "■ 《智慧城市建设及产业振兴等相关法律施行规则》[附页第4号格式] <2021年7月12日修订>",
+      "rejected_historical_variant": "■ 《智慧城市建设及产业振兴等相关法律施行规则》〔附页第4号格式〕<2021年7月12日修订>"
+    },
+    {
+      "id": "A25466-zh-00003",
+      "decision": "RETAIN_MASTER",
+      "reason": "Form 4 instruction that applicant leaves shaded boxes blank; equivalent wording.",
+      "source_hash": "e7dc03cf40f82d5fb09c95341fdd2ca8c2a387f73240fe22653d0499eea7afa2",
+      "target_id": "XML:1802706",
+      "retained_text": "※ 深色栏无需申请人填写，在［",
+      "rejected_historical_variant": "※ 深色栏由申请人留空，并在［"
+    },
+    {
+      "id": "A25466-zh-00004",
+      "decision": "RETAIN_MASTER",
+      "reason": "Form 4 checkmark instruction; same meaning with synonymous '相应/对应'.",
+      "source_hash": "9c2cff79a84df6db8a038d4803908bc9bd951c982152400d044ce6c5b3292004",
+      "target_id": "XML:1802707",
+      "retained_text": "］内对应位置标记√。",
+      "rejected_historical_variant": "］内相应位置标记√。"
+    },
+    {
+      "id": "A25467-zh-00001",
+      "decision": "RETAIN_MASTER",
+      "reason": "Form 5 heading; glyph, Arabic/Chinese numeral and spacing variants only.",
+      "source_hash": "74c2f72a2b1565fc78b153f3bd22e9777980fcafd9a0771fa40efd4979197fbd",
+      "target_id": "XML:1802777",
+      "retained_text": "■ 《智慧城市建设及产业振兴等相关法律施行规则》[附页第5号格式] <2021年7月12日修订>",
+      "rejected_historical_variant": "■《智慧城市建设及产业振兴等相关法律施行规则》〔附页第五号格式〕<2021年7月12日修订>"
+    },
+    {
+      "id": "A25470-zh-00039",
+      "decision": "RETAIN_MASTER",
+      "reason": "Form 6 legal citations; Arabic vs Chinese numeral spelling, same section references.",
+      "source_hash": "bc81933bbce3074f732413ef738a9c5cdd7ca5395df93ea43d5c1512f4e664e0",
+      "target_id": "XML:1802923",
+      "retained_text": "依据《智慧城市建设及产业振兴等相关法律》第51条第2款正文、第53条之3第1款及该法施行令第54条",
+      "rejected_historical_variant": "依据《智慧城市建设及产业振兴等相关法律》第五十一条第二款正文、第五十三条之三第一款、该法施行令第五十四条"
+    },
+    {
+      "id": "A25471-zh-00001",
+      "decision": "RETAIN_MASTER",
+      "reason": "Form 7 heading; bracket, numeral and spacing only.",
+      "source_hash": "ba4698902d93f5af7ec12ef0d418cba9ecb18605c3ca669807eb28d41bffd4a3",
+      "target_id": "XML:1802958",
+      "retained_text": "■ 《智慧城市建设及产业振兴等相关法律施行规则》[附页第7号格式] <2021年7月12日修订>",
+      "rejected_historical_variant": "■《智慧城市建设及产业振兴等相关法律施行规则》〔附页第7号格式〕<2021年7月12日修订>"
+    },
+    {
+      "id": "A25471-zh-00002",
+      "decision": "RETAIN_MASTER",
+      "reason": "Form 7 check box; punctuation and spacing only.",
+      "source_hash": "e4b6c2bae4c5c1b1984fd53300838d75995dc14098b6b7dc02621f3cc9021b24",
+      "target_id": "XML:1802959",
+      "retained_text": "［ ］智慧创新事业",
+      "rejected_historical_variant": "[ ] 智慧创新事业"
+    },
+    {
+      "id": "A25471-zh-00003",
+      "decision": "RETAIN_MASTER",
+      "reason": "Form 7 '연장확인서'; 延长 vs 延期 is a synonym, accepted master matches Korean extension.",
+      "source_hash": "8f703d3d562e2bdb8fc322f94045df440794c60d38a8ac56bf76aff9f213c0fe",
+      "target_id": "XML:1802960",
+      "retained_text": "延长确认书",
+      "rejected_historical_variant": "延期确认书"
+    },
+    {
+      "id": "A25471-zh-00004",
+      "decision": "RETAIN_MASTER",
+      "reason": "Form 7 check box; punctuation and spacing only.",
+      "source_hash": "7a0b9bef1f76ba0d4ac192b1bf7ccb617b105e598dc5c034283cb5fc1b200bca",
+      "target_id": "XML:1802961",
+      "retained_text": "［ ］智慧实证事业",
+      "rejected_historical_variant": "[ ] 智慧实证事业"
+    },
+    {
+      "id": "A25471-zh-00024",
+      "decision": "RETAIN_MASTER",
+      "reason": "Form 7 statutory citations; article numbers spelled Chinese or Arabic, references unchanged.",
+      "source_hash": "bc81933bbce3074f732413ef738a9c5cdd7ca5395df93ea43d5c1512f4e664e0",
+      "target_id": "XML:1802982",
+      "retained_text": "依据《智慧城市建设及产业振兴等相关法律》第51条第2款正文、第53条之3第1款及该法施行令第54条",
+      "rejected_historical_variant": "依据《智慧城市建设及产业振兴等相关法律》第五十一条第二款正文、第五十三条之三第一款及该法施行令第五十四条"
+    },
+    {
+      "id": "A25472-zh-00026",
+      "decision": "RETAIN_MASTER",
+      "reason": "Form 8 statutory citations; references and substantive language identical.",
+      "source_hash": "b98810347a861636351ede9c49d30bd43ea9245047828fcb502909d6cbb19d66",
+      "target_id": "XML:1803019",
+      "retained_text": "根据《智慧城市建设及产业振兴等相关法律》第53条之3第3款、同法施行令第58条之3第3款及",
+      "rejected_historical_variant": "依据《智慧城市建设及产业振兴等相关法律》第五十三条之三第三款、该法施行令第五十八条之三第三款及"
+    },
+    {
+      "id": "A25472-zh-00033",
+      "decision": "RETAIN_MASTER",
+      "reason": "Form 8 addressee; 致 changes address style but not addressee or operative meaning.",
+      "source_hash": "1bb47a2591dabb25b9d28b6fa8980630dc00d03d8797150a0606ae968d76bf8c",
+      "target_id": "XML:1803026",
+      "retained_text": "国土交通部长官及",
+      "rejected_historical_variant": "致国土交通部长官及"
+    },
+    {
+      "id": "A25472-zh-00036",
+      "decision": "RETAIN_MASTER",
+      "reason": "Form 8 attached evidence; 附件资料 and 附件材料 equivalent.",
+      "source_hash": "fd2f47ef0e382c62edaf27036494fbc803f503705144e1049d1463aadda6388b",
+      "target_id": "XML:1803029",
+      "retained_text": "附件材料",
+      "rejected_historical_variant": "附件资料"
+    },
+    {
+      "id": "A25473-zh-00008",
+      "decision": "RETAIN_MASTER",
+      "reason": "Form 9 representative label; master 代表人姓名 precisely reflects Korean representative, candidate 负责人 is less specific.",
+      "source_hash": "261b57a79be08234e7fecc714416fc5066fe557c83f23b6ae778c5c825138510",
+      "target_id": "XML:1803042",
+      "retained_text": "代表人姓名",
+      "rejected_historical_variant": "负责人姓名"
+    },
+    {
+      "id": "A25473-zh-00017",
+      "decision": "RETAIN_MASTER",
+      "reason": "Form 9 statutory citations; only number and connector format vary.",
+      "source_hash": "e7e19bf14b58dd3026fc8736155aa56ae6ed8e2094ee4e742c63d55ea0f46e06",
+      "target_id": "XML:1803052",
+      "retained_text": "根据《智慧城市建设及产业振兴等相关法律》第53条之3第3款、同法施行令第58条之3第4款及",
+      "rejected_historical_variant": "依据《智慧城市建设及产业振兴等相关法律》第五十三条之三第三款、该法施行令第五十八条之三第四款及"
+    },
+    {
+      "id": "A25473-zh-00023",
+      "decision": "RETAIN_MASTER",
+      "reason": "Form 9 notification formula; 告知 and 通知 equivalent in context.",
+      "source_hash": "d41b670a9eff7a595f0c8600bbdc8f4ceef794ca7e87b8d4ce73d701d8501d29",
+      "target_id": "XML:1803058",
+      "retained_text": "特此告知。",
+      "rejected_historical_variant": "特此通知。"
+    },
+    {
+      "id": "A25474-zh-00002",
+      "decision": "RETAIN_MASTER",
+      "reason": "Form 10 review-result title; 法令整备 matches Korean 법령정비 without broadening into generic laws/regulations.",
+      "source_hash": "823121d174aebb77a642f142ec5c2902e77994a8525ed47ce3ef0714b197fc1e",
+      "target_id": "XML:1803066",
+      "retained_text": "法令整备审查结果书",
+      "rejected_historical_variant": "法律法规整备审查结果书"
+    },
+    {
+      "id": "A25474-zh-00010",
+      "decision": "RETAIN_MASTER",
+      "reason": "Form 10 담당 부서; 承办部门 and 负责部门 equivalent administrative expressions.",
+      "source_hash": "27167a8a3661bfdea948eada424948f7e3aad1a26f73569912edf2456c6f03cf",
+      "target_id": "XML:1803075",
+      "retained_text": "承办部门",
+      "rejected_historical_variant": "负责部门"
+    },
+    {
+      "id": "A25474-zh-00013",
+      "decision": "RETAIN_MASTER",
+      "reason": "Form 10 enactment and amendment plan; Chinese conjunction style only.",
+      "source_hash": "ee1ea32bb06f4b802cf35e9ba2025e2aad8fbc3ff35cacab72fca36a9c27478d",
+      "target_id": "XML:1803078",
+      "retained_text": "法令制定及修订计划",
+      "rejected_historical_variant": "法律法规制定、修订计划"
+    },
+    {
+      "id": "A25474-zh-00015",
+      "decision": "RETAIN_MASTER",
+      "reason": "Form 10 results notification; both variants notify same examination result.",
+      "source_hash": "5d30dbf297c4bc3091fd8f3b4c7d98bde5d798aa5da931e902429c8b361752c4",
+      "target_id": "XML:1803080",
+      "retained_text": "特此通知上述法令整备审查结果。",
+      "rejected_historical_variant": "现将法律法规整备审查结果通知如下。"
+    },
+    {
+      "id": "A36426-zh-00001",
+      "decision": "RETAIN_MASTER",
+      "reason": "Decree annex 3 title; punctuation/bracket spacing only.",
+      "source_hash": "c74f4ac7fdbc8045bef25b006f068395214c1583f6b5854ef17e855fa1896e5b",
+      "target_id": "XML:2657309",
+      "retained_text": "■ 《智慧城市建设及产业振兴等相关法律施行令》[附表3] <2025年9月30日修订>",
+      "rejected_historical_variant": "■《智慧城市建设及产业振兴等相关法律施行令》〔附表3〕<2025年9月30日修订>"
+    },
+    {
+      "id": "A36426-zh-00005",
+      "decision": "RETAIN_MASTER",
+      "reason": "Decree annex 3 legal citation Article 27; numeral style only.",
+      "source_hash": "4d7240ffe3272f19a787f3f9b16cfc3bebd8021caff8beb86a80d583d4a1d364",
+      "target_id": "XML:2657313",
+      "retained_text": "1. 依据本法第27条，国土交通部长官对",
+      "rejected_historical_variant": "1. 依据本法第二十七条，国土交通部长官对"
+    },
+    {
+      "id": "A36426-zh-00009",
+      "decision": "RETAIN_MASTER",
+      "reason": "Decree annex 3 进行推进与支持 versus 推进与支持; redundant 进行 only.",
+      "source_hash": "927c9a62b365afcb212ade91f76004c32d7d990b2deedceb42df00f3195aefe9",
+      "target_id": "XML:2657317",
+      "retained_text": "推进与支持",
+      "rejected_historical_variant": "进行推进与支持"
+    },
+    {
+      "id": "A36426-zh-00014",
+      "decision": "RETAIN_MASTER",
+      "reason": "Decree annex 3 Article 30 paragraph 1; numeral style only.",
+      "source_hash": "19d6101aff043459cefb84dddce38a6e6d1e7b0d2d4c9a5e44aee0eb9837b154",
+      "target_id": "XML:2657323",
+      "retained_text": "3. 依据本法第30条第1款，国土交通部长官对",
+      "rejected_historical_variant": "3. 依据本法第三十条第一款，国土交通部长官对"
+    }
+  ],
+  "new_edits": 0,
+  "remaining_candidates_expected": 162,
+  "english_note": "712/1133 rows have reference English; 421 have no English reference. The available official English documents were read in full in the prior sequential-reading checkpoint, with source versions B1=283399 and B2=270111. They do not version-match Korean B1=280109 and B2=286647. No English documents exist for B3 and the ten forms/annex-related form documents; Korean controls for those.",
+  "completion_receipt_verified": false
+}
