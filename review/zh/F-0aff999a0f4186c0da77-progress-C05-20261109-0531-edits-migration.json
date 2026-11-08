@@ -1,0 +1,28 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "panel_id": "panel-05",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "audit": {
+    "zh_rows": 1687,
+    "legacy_corrections": 1079,
+    "source_bound_matches": 1079,
+    "duplicate_ids": 0,
+    "missing_source_ids": 0,
+    "source_hash_mismatches": 0,
+    "original_text_mismatches": 0,
+    "nonempty_changed_edits": 1023,
+    "intentional_deletion_decisions": 24,
+    "no_change_decisions": 32,
+    "decision_file": "review/zh/F-0aff999a0f4186c0da77-empty-edit-decisions-C05-20261109-0531.json"
+  },
+  "outstanding": "Continue exhaustive sequential semantic review and final quality control. Do not mark COMPLETE or issue a completion receipt until the full Chinese review is evidenced and all canonical checks pass.",
+  "prior_review_blob_sha": "fd93c7ce4b76e9abe8238519d7091e55e8955470"
+}
