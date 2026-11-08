@@ -1,0 +1,49 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:a770ee763b70",
+  "status": "IN_PROGRESS",
+  "phase": "ZH_SEMANTIC_REVIEW_CONTINUATION",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_en_index_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "english_status": "B3 NO_DOCUMENT_ENGLISH; current Korean authoritative",
+  "checked_rows": 2,
+  "checked_ids": [
+    "B3-zh-00003",
+    "B3-zh-00006"
+  ],
+  "corrected_rows": 2,
+  "results": [
+    {
+      "id": "B3-zh-00003",
+      "verdict": "CORRECTED",
+      "reason": "Korean Article 2(2) 대학, 연구기관, 법인 또는 단체 requires 法人 or 团体, not 企业 (business enterprise); replace only category wording."
+    },
+    {
+      "id": "B3-zh-00006",
+      "verdict": "CORRECTED",
+      "reason": "Korean Article 5(3) 관계 기관ㆍ법인ㆍ단체ㆍ시설 distinguishes legal persons and organizations; replace Chinese 企业、组织 with 法人、团体."
+    }
+  ],
+  "edits": [
+    {
+      "id": "B3-zh-00003",
+      "source_hash": "4a8fbe5c6ce8dfdc6636953177681157c76fae538c42bf37b2cf4658674df9fa",
+      "text": "第二条（人口贩运等案件的调查方法和内容）\n① 根据《防止人口贩运等及保护受害者等法》（以下简称“本法”）第十条第一款的规定，对人口贩运等情况进行调查，应当采用书面调查、在线调查或现场调查等方式进行。\n② 性别平等和家庭部长可委托具备人口贩运等方面专业知识、人员和设备的大学、研究机构、法人或团体开展情况调查。<2025年10月1日修订>\n③ 事实调查应包括以下事项：<2025年10月1日修订>\n1. 关于人口贩运受害者的一般特征等事项，例如性别、年龄、原籍国和就业状况\n2. 关于人口贩运等造成的损害的事项，包括原因、发生类型和暴力类型\n3. 性别平等和家庭部长认为为制定有关预防和遏制人口贩运等以及保护和支持受害者的​​政策所必需的其他事项\n\n"
+    },
+    {
+      "id": "B3-zh-00006",
+      "source_hash": "cecdd70546ba4f17e25305af880bb927d8f25899dee434e01ce123b4e53e9bf7",
+      "text": "第五条（区域受害者权利保护机构的职责） 本法第十五条第二款第五项中，“性别平等和家庭部条例规定的与预防和遏制人口贩运等有关的职责”是指下列各款所列的职责。<2025年3月25日修订；2025年10月1日修订>\n1. 保护受害者和支持受害者康复\n2. 支持受害者入住支持机构，以便根据该法第22条第2款移交的受害者能够获得紧急保护\n3. 建立相关机构、法人、团体和设施之间在预防人口贩运等方面的合作与交流机制，并为受害者提供支持。\n4. 中央受害者权利保护机构要求的任务，例如提供有关人口贩运案件调查状况和结果的信息等。\n5. 特别市、大都会市、特别自治市市长、省长或特别自治省省长（以下简称“市/省长”）确定的其他与预防和遏制人口贩运等有关的事项\n\n"
+    }
+  ],
+  "previous_review": "review/zh/F-0536890d62605f77ff0a-progress-C03-5151b8788484-family-source-audit.json",
+  "prior_evidence_index": "status/delivery/reconcile-S2-8f70e317249155938a79444493d089b4-evidence-7e6b69412a765526.json",
+  "protected_unresolved_ids": [
+    "A26697-zh-00008",
+    "A26699-zh-00053"
+  ],
+  "note": "Exact source B3 has no document English; two previously-unlisted B3 IDs examined against Korean. Prior edits and source identities unchanged. Full 1136-row semantic review and complete receipt still pending."
+}
