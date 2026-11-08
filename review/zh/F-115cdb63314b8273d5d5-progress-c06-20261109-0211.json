@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 410,
+    "verified_zh_rows": 435,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 410,
-      "checked_rows": 410,
+      "next_row_zero_based": 435,
+      "checked_rows": 435,
       "total_rows": 5228
     }
   },
@@ -511,9 +511,69 @@
       "text": "  ⑥ 《公共厕所等相关法律施行令》部分内容修订如下。\n",
       "original_text": "  6. 对《公共厕所等相关法律实施细则》的部分内容修改如下。\n",
       "reason": "법률 개정 순번 ⑥이 일반 숫자 6으로 표기되고 시행령을 시행규칙으로 오역"
+    },
+    {
+      "id": "B2-zh-00128",
+      "text": "  ⑭ 《关于放宽企业活动限制的特别措施法施行令》部分内容修订如下。\n",
+      "original_text": "  14. 对《商业活动放松管制特别措施法》实施令的部分内容修改如下。\n",
+      "reason": "개정 법령 목록의 항목 번호 ⑭를 일반 숫자 14로 훼손"
+    },
+    {
+      "id": "B2-zh-00129",
+      "text": "  ⑬ 《国土规划及利用法施行令》部分内容修订如下。\n",
+      "original_text": "  ⑬ 《国家土地规划利用法》实施细则部分内容修改如下。\n",
+      "reason": "법령명과 시행령/시행규칙 구분 오류"
+    },
+    {
+      "id": "B2-zh-00133",
+      "text": "  第四条（国土交通部长官的权限代行）",
+      "original_text": "  第四条（国土交通部长授权）",
+      "reason": "권한대행 조항을 권한 위임으로 부정확하게 번역"
+    },
+    {
+      "id": "B2-zh-00134",
+      "text": "  第七条（收费公路管理权人的业务代行）",
+      "original_text": "  第七条（收费公路管理机构的代理职责）",
+      "reason": "유료도로관리권자를 기관으로 오역"
+    },
+    {
+      "id": "B2-zh-00134-extra",
+      "text": "……\n",
+      "original_text": "……确实。\n",
+      "reason": "한국어 원문에 없는 ‘确实’가 중국어 문장에 삽입된 오류"
+    },
+    {
+      "id": "B2-zh-00135",
+      "text": "  《自然环境保全法施行令》部分内容修订如下。\n",
+      "original_text": "  《自然环境保育法》实施细则部分内容修改如下。\n",
+      "reason": "자연환경보전법 시행령을 시행규칙으로 오역"
+    },
+    {
+      "id": "B2-zh-00136",
+      "text": "  <36> 《殡葬等相关法律施行令》部分内容修订如下。\n",
+      "original_text": "  <36> 《殡葬服务法》等实施细则部分内容修改如下。\n",
+      "reason": "장사 등에 관한 법률 시행령의 법령명·법령 형식 오역"
+    },
+    {
+      "id": "B2-zh-00138",
+      "text": "    178. 根据《道路法》第五十二条第一款规定的高速公路连接许可。但仅限于面积达到2,000平方米以上且属于下列各项之一的设施。\n",
+      "original_text": "    178. 根据《道路法》第52条第1款的规定，允许连接高速公路。但前提是，本规定仅适用于面积为2000平方米以上的，且符合下列各款规定的设施。\n",
+      "reason": "고속국도 연결허가 문장 내 허가 대상의 조건부 관계를 부정확하게 표현"
+    },
+    {
+      "id": "B2-zh-00140",
+      "text": "  <31> 《防止人工照明造成光污染法施行令》部分内容修订如下。\n",
+      "original_text": "  《防止人工照明造成光污染法》实施细则部分内容修改如下。\n",
+      "reason": "인공조명에 의한 빛공해 방지법 시행령을 시행세칙으로 오역"
+    },
+    {
+      "id": "B2-zh-00143",
+      "text": "  4. 《国家支持地方道路线指定令》\n  5. 《普通国道路线指定令》\n",
+      "original_text": "  4. “关于指定州属地方道路路线的条例” \n  5.《国家公路总路线指定条例》\n",
+      "reason": "국가지원지방도 및 일반국도 노선 지정령의 법령명 오역"
     }
   ],
-  "note": "Sequential Chinese review continued through original row 409. Added ten focused corrections covering paragraphs 4-6 and expense support, erroneous Road Traffic Act cross-reference, adjudication title, land purchase vs acquisition tax, residual MTQ token, regulatory review clause, administrative fine heading, decree names and amendment item numbering. Previous 50 edits retained. Continue from row 410. IN_PROGRESS.",
+  "note": "Sequential Chinese review continued through row 434. Added nine focused corrections to amendment list numbering, decree vs regulation titles, delegated-authority terminology, stray unsupported word, highway authority designation, and official decree names. Prior 60 edits retained. Continue from row 435. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
