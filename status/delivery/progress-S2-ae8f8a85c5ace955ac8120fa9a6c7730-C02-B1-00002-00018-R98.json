@@ -1,0 +1,24 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 6,
+  "checked_ids": [
+    "B1-zh-00002",
+    "B1-zh-00003",
+    "B1-zh-00007",
+    "B1-zh-00011",
+    "B1-zh-00013",
+    "B1-zh-00018"
+  ],
+  "edits": [],
+  "status": "IN_PROGRESS",
+  "note": "R98 inspected earliest B1 rows missing explicit checked IDs: 00002 chapter heading; 00003 purpose; 00007 law precedence; 00011 plan change; 00013 hearing; 00018 deletion. No new corrections. B1-zh-00016 Korean citation discrepancy already corrected in B1-00014-00016-R9.json; do not duplicate. Original hashes and saved records preserved; full-family final merging still pending."
+}
