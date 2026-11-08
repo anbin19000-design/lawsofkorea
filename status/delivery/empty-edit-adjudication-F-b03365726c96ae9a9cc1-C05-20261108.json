@@ -1,0 +1,41 @@
+{
+  "schema": "LAW_ZH_EMPTY_EDIT_ADJUDICATION_V1",
+  "job_id": "F-b03365726c96ae9a9cc1",
+  "worker": "C05",
+  "assignment_id": "S2-13d54292ded7d9dee0336566bbd6552b",
+  "status": "IN_PROGRESS",
+  "source_commit": "cf91b988356d39ef374f1e2950831b446f9805aa",
+  "source_blobs": {
+    "ko": "da998892a905553b9118a68d7462283dd789aa0e",
+    "en": "0ae67d1026dd416649e23cf41790c10a301c2597",
+    "zh": "d1581ff0123795ec633f73554343bf9e5f9f3df9"
+  },
+  "removed_noise_rows": 2,
+  "records": [
+    {
+      "id": "A35454-zh-00042",
+      "source_hash": "0925aa90ecffa7d68ff7837a8061fc0727ed11f2ac486e261ce991adc65577ed",
+      "target_id": "XML:2588321",
+      "original_chinese": "案例",
+      "classification": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "과태료 별표의 가목 위반 유형을 표시하는 원문은 00034, 00039, 00041에 완결되어 있음. '案例'는 기존 자동번역의 중복 분절 잔재이며 독립 원문 셀이 아님.",
+      "adjacent_ids": [
+        "A35454-zh-00041",
+        "A35454-zh-00043"
+      ]
+    },
+    {
+      "id": "A35454-zh-00075",
+      "source_hash": "5afc0f37a680e4894d836636d38c96c86680845d765916ba40bfeebcd0655f15",
+      "target_id": "XML:2588354",
+      "original_chinese": "如果避免",
+      "classification": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "과태료 별표의 마목 '사고조사를 거부ㆍ방해 또는 기피한 경우'는 00068과 00073에 명시되며 뒤따른 '如果避免'는 불완전한 반복 단편.",
+      "adjacent_ids": [
+        "A35454-zh-00074",
+        "B3-zh-00001"
+      ]
+    }
+  ],
+  "comment": "Two old isolated Chinese translation fragments removed intentionally; actual provisions preserved in adjacent cells, no missing text. Must not emit empty text edits in final review."
+}
