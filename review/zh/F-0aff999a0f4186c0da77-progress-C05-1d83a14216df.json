@@ -1,0 +1,57 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_sha": "53090610f23df45c9191d8fa18d573e2788ed7a4",
+  "prior_corrections_preserved": 373,
+  "new_corrections": [
+    "A34909-zh-00138",
+    "A34909-zh-00141",
+    "A34909-zh-00142",
+    "A34909-zh-00143",
+    "A34909-zh-00144",
+    "A34909-zh-00145",
+    "A34909-zh-00148",
+    "A34909-zh-00149",
+    "A34909-zh-00249",
+    "A34909-zh-00250",
+    "A34909-zh-00251",
+    "A34909-zh-00252",
+    "A34909-zh-00253",
+    "A34909-zh-00254",
+    "A34909-zh-00255",
+    "A34909-zh-00256"
+  ],
+  "cumulative_corrections": 389,
+  "integrity": {
+    "chinese_rows": 1687,
+    "distinct_row_ids": 1687,
+    "correction_id_doc_source_hash_original_mismatches": 0,
+    "uncorrected_hangul_or_MTQ_START_END_markers": 0
+  },
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "english_coverage": {
+    "rows_with_english": 1258,
+    "rows_without_english": 429
+  },
+  "inspected_span": "A34909 section 5(a) franchisee initial payments/refund/escrow; section 6(e) territorial restrictions and substitute-channel sales; Korean full-context comparison",
+  "review_status": "ZH_SEMANTIC_AUDIT_IN_PROGRESS",
+  "quality_open_items": [
+    "Full sequential semantic verification of all 1687 Chinese rows remains incomplete",
+    "A34911 formula image/table verification unresolved",
+    "429 rows without English require direct KO/ZH checking"
+  ],
+  "notes": "16 source-grounded corrections to A34909 saved and reread; 373 earlier corrections preserved. Full family remains IN_PROGRESS; no completion receipt."
+}
