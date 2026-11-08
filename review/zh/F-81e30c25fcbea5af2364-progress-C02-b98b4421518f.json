@@ -1,0 +1,61 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "panel_id": "panel-02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:b98b4421518f",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "prior_master_blob_sha": "07ab99ccf3529c22557364941ae1df18a0c725d3",
+  "checkpoint_type": "DIRECT_KOREAN_VERIFIED_REFERENCE_AND_MEANING_CORRECTIONS",
+  "checked_ids": [
+    "B2-zh-00050",
+    "B2-zh-00074"
+  ],
+  "checked_rows_new": 2,
+  "edits": [
+    {
+      "id": "B2-zh-00050",
+      "source_hash": "6d4d0b7778a69ae268b3c84d1434eac41b8349cfc67b9478c625b48e1ae763b5",
+      "target_id": "1cc76714e77deec6d62805c51d6cb6ed7cfd56fb06483ec18a607b603cd94cc9",
+      "text": "第三十九条（已开发土地等的供给方法）\n① 项目实施者可以按照本法第38条第2款的规定，通过私人合同以租赁或出售的方式，向按照本施行令第38条第2款选定的人员提供已开发的土地等。\n② 除第1款规定的事项外，有关通过私人合同、租赁和销售方式提供已开发土地等的供应方法等必要事项，由国土交通大臣确定并公布。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-b98b4421518f.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "The first reference is to Decree Article 38(2), while the second is to the parent Act Article 38(2); Chinese erroneously made both references the parent Act."
+    },
+    {
+      "id": "B2-zh-00074",
+      "source_hash": "34ab0a56c7d6b00443864ea9340d6e58e81a27d4d861082b7c9a111868ed5741",
+      "target_id": "5d5ba2d228893a5f470e5074a7860401f67a8e6cca84bb81780202e1a4b40829",
+      "text": "第57-3条（损害赔偿程序）\n① 根据本法第53条第6款规定的责任保险或赔偿计划，拟向智能创新经营者申请损害赔偿的人（以下简称“索赔人”），应当向智能创新经营者提交一份包含下列各项内容的索赔申请表。\n1. 索赔人姓名和地址\n2. 索赔人与死者之间的关系（仅适用于受害人死亡的情况）\n3. 损坏发生详情\n4. 索赔金额及计算依据\n② 收到第 1 款所述索赔的智能创新企业经营者，应当立即通知索赔人，其投保责任保险的情况或第57条之2第1款第2项规定的损害赔偿计划。\n③ 任何根据第1款收到索赔且未投保责任保险的智能创新企业经营者，应当自收到索赔之日起30日内，按照第57条之2第1款第2项规定的损害赔偿方案，向索赔人赔偿损失。\n④ 如果智能创新经营者拒绝按照本法第53条第5款的规定支付损害赔偿金，应当自收到第1款规定的索赔之日起30日内，以书面形式将拒绝支付损害赔偿金的详情，包括证明不存在故意或过失的材料，通知索赔人。\n⑤ 收到第1款所述索赔的智能创新企业经营者应当立即向国土交通大臣报告收到损害赔偿索赔的事实，并应当自赔偿金支付之日起15日内（包括根据第4款拒绝支付损害赔偿金之日）报告结果。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-b98b4421518f.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "The source says deceased victim, not deceased claimant; paragraph ② requires notification of insurance enrollment or the statutory compensation plan, not a combined purported insurance/plan."
+    }
+  ],
+  "ordered_reading_certification": {
+    "ko": false,
+    "en": false,
+    "zh": false
+  },
+  "missing_english_docs": [
+    "B3",
+    "A25465",
+    "A25466",
+    "A25467",
+    "A25468",
+    "A25469",
+    "A25470",
+    "A25471",
+    "A25472",
+    "A25473",
+    "A25474"
+  ],
+  "notes": "Current official worker binding checked: C02 panel-02. Two clearly evidenced errors corrected, no unrelated text altered. Full KO→EN→ZH semantic read remains uncertified; do not issue COMPLETE receipt."
+}
