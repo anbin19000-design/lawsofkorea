@@ -10954,6 +10954,18 @@
       "A8699/A8709 Arabic form source body is absent from extraction",
       "A8690-zh-00499 is a split JPEG source fragment; preserve original"
     ],
-    "next_action": "Resume sequential review from the first flagged/unresolved row without changing source blobs; do not mark COMPLETE until all blockers have verified source alignment or remain explicitly approved non-blocking holds."
+    "next_action": "Resume sequential review from the first flagged/unresolved row without changing source blobs; do not mark COMPLETE until all blockers have verified source alignment or remain explicitly approved non-blocking holds.",
+    "sequential_followup": {
+      "section": "B1-zh-00102..B1-zh-00196",
+      "rows_read": 95,
+      "findings": [
+        "B1-zh-00122 and B1-zh-00132 already have retained corrections in the prior change index.",
+        "References to the Design Protection Act in B1-zh-00104 and B1-zh-00107 are legitimate amendment-history references, not misrenderings of 고안.",
+        "No additional definite error established in the targeted anomaly terms; original wording preserved."
+      ],
+      "decision": "KEEP_EXISTING_CORRECTIONS_AND_TEXT",
+      "source_ko_blob_sha": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+      "source_zh_blob_sha": "8c67da73d62c784e988ce2b7655ef398504b0786"
+    }
   }
 }
