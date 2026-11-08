@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 4850,
+    "verified_zh_rows": 5002,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 4850,
-      "checked_rows": 4850,
+      "next_row_zero_based": 5002,
+      "checked_rows": 5002,
       "total_rows": 5228
     }
   },
@@ -8497,9 +8497,483 @@
       "text": "80毫米×70毫米[白纸120克/平方米]",
       "original_text": "80mm×70mm[白纸 120g/㎡]",
       "reason": "신분증 규격 표기 정돈"
+    },
+    {
+      "id": "A4705-zh-00001",
+      "text": "■《道路法施行规则》[附件表格第40号] <2019年9月26日修订>",
+      "original_text": "■ 道路交通法执行规则 [附件表格编号 40] <2019 年 9 月 26 日修订>",
+      "reason": "도로법 시행규칙을 도로교통법 시행규칙으로 오역"
+    },
+    {
+      "id": "A4705-zh-00002",
+      "text": "工程开工报告",
+      "original_text": "施工开工报告",
+      "reason": "공사착공 보고서의 서식용어 정돈"
+    },
+    {
+      "id": "A4705-zh-00005",
+      "text": "长度",
+      "original_text": "超过",
+      "reason": "연장을 초과로 오역"
+    },
+    {
+      "id": "A4705-zh-00007",
+      "text": "长度（公里）",
+      "original_text": "扩展",
+      "reason": "연장을 확장으로 오역"
+    },
+    {
+      "id": "A4705-zh-00009",
+      "text": "车道数",
+      "original_text": "通道号",
+      "reason": "차로 수를 통로 번호로 오역"
+    },
+    {
+      "id": "A4705-zh-00011",
+      "text": "工程期间",
+      "original_text": "业务周期",
+      "reason": "사업기간을 업무 주기로 오역"
+    },
+    {
+      "id": "A4705-zh-00017",
+      "text": "日",
+      "original_text": "天（",
+      "reason": "일수 표기의 문장 조각을 정돈"
+    },
+    {
+      "id": "A4705-zh-00019",
+      "text": "主要构筑物",
+      "original_text": "主要结构",
+      "reason": "주요 구조물을 일반 구조로 축소"
+    },
+    {
+      "id": "A4705-zh-00020",
+      "text": "施工现场情况",
+      "original_text": "施工",
+      "reason": "착공현황 표제를 단순 시공으로 축소"
+    },
+    {
+      "id": "A4705-zh-00021",
+      "text": "承包事项",
+      "original_text": "合约详情",
+      "reason": "도급내역을 계약 상세로 정돈"
+    },
+    {
+      "id": "A4705-zh-00023",
+      "text": "空白",
+      "original_text": "空",
+      "reason": "공란을 명확하게 표기"
+    },
+    {
+      "id": "A4705-zh-00024",
+      "text": "商号",
+      "original_text": "当前",
+      "reason": "상호를 현재로 오역"
+    },
+    {
+      "id": "A4705-zh-00025",
+      "text": "代表人",
+      "original_text": "商标名称",
+      "reason": "대표자를 상표명으로 오역"
+    },
+    {
+      "id": "A4705-zh-00026",
+      "text": "金额",
+      "original_text": "代表",
+      "reason": "금액을 대표로 오역"
+    },
+    {
+      "id": "A4705-zh-00027",
+      "text": "百万韩元",
+      "original_text": "状态",
+      "reason": "백만원 단위를 상태로 오역"
+    },
+    {
+      "id": "A4705-zh-00028",
+      "text": "开工日期",
+      "original_text": "金额",
+      "reason": "착공일을 금액으로 오역"
+    },
+    {
+      "id": "A4705-zh-00029",
+      "text": "预计竣工日期",
+      "original_text": "百万韩元",
+      "reason": "준공예정일을 금액 단위로 오역"
+    },
+    {
+      "id": "A4705-zh-00030",
+      "text": "依据《道路法施行令》第八十七条第一款及同法施行规则第四十三条第一款第一项，特此报告上述工程已开工。",
+      "original_text": "根据《道路法实施条例》第87条第1款和该法实施细则第43条第1款第1项的规定，如上所述。",
+      "reason": "도로법 시행령 및 시행규칙 인용과 착공 보고 문장을 훼손"
+    },
+    {
+      "id": "A4705-zh-00032",
+      "text": "工程已开工，特此报告。",
+      "original_text": "我们报告，该工程已开始。",
+      "reason": "착공 보고 종결 문장을 정돈"
+    },
+    {
+      "id": "A4705-zh-00039",
+      "text": "大都市圈广域交通委员会委员长",
+      "original_text": "大都会区交通委员会主席",
+      "reason": "대도시권광역교통위원장 직함을 공식 표기로 정돈"
+    },
+    {
+      "id": "A4705-zh-00040",
+      "text": "致",
+      "original_text": "您的",
+      "reason": "수신인 귀하를 ‘당신의’로 오역"
+    },
+    {
+      "id": "A4705-zh-00041",
+      "text": "地方国土管理厅厅长",
+      "original_text": "区域土地管理办公室主任",
+      "reason": "지방국토관리청장을 국토관리사무소장으로 오역"
+    },
+    {
+      "id": "A4705-zh-00042",
+      "text": "行政安全部长官",
+      "original_text": "内政和安全部长",
+      "reason": "행정안전부장관 직함을 정돈"
+    },
+    {
+      "id": "A4705-zh-00043",
+      "text": "附件：工程开工申报书",
+      "original_text": "附件：开工通知",
+      "reason": "공사착공계를 착공 통지로 오역"
+    },
+    {
+      "id": "A4706-zh-00001",
+      "text": "■《道路法施行规则》[附件表格第41号] <2019年9月26日修订>",
+      "original_text": "■ 道路交通法执行规则 [附件表格编号 41] <2019 年 9 月 26 日修订>",
+      "reason": "도로법 시행규칙을 도로교통법 시행규칙으로 오역"
+    },
+    {
+      "id": "A4706-zh-00002",
+      "text": "道路工程季度进度报告",
+      "original_text": "高速公路公司季度进展报告",
+      "reason": "도로공사 분기별 공정보고서를 고속도로회사 보고서로 오역"
+    },
+    {
+      "id": "A4706-zh-00003",
+      "text": "工程概况",
+      "original_text": "公司",
+      "reason": "사업개요를 회사로 오역"
+    },
+    {
+      "id": "A4706-zh-00006",
+      "text": "长度",
+      "original_text": "超过",
+      "reason": "연장을 초과로 오역"
+    },
+    {
+      "id": "A4706-zh-00008",
+      "text": "长度（公里）",
+      "original_text": "扩展",
+      "reason": "연장을 확장으로 오역"
+    },
+    {
+      "id": "A4706-zh-00010",
+      "text": "车道数",
+      "original_text": "通道号",
+      "reason": "차로 수를 통로 번호로 오역"
+    },
+    {
+      "id": "A4706-zh-00012",
+      "text": "工程期间",
+      "original_text": "业务周期",
+      "reason": "사업기간을 업무 주기로 오역"
+    },
+    {
+      "id": "A4706-zh-00017",
+      "text": "日",
+      "original_text": "天（",
+      "reason": "일수 표기를 정돈"
+    },
+    {
+      "id": "A4706-zh-00019",
+      "text": "承包人",
+      "original_text": "承包商",
+      "reason": "도급자 표기를 계약 당사자 용어로 정돈"
+    },
+    {
+      "id": "A4706-zh-00020",
+      "text": "商号",
+      "original_text": "商标名称",
+      "reason": "상호를 상표명으로 오역"
+    },
+    {
+      "id": "A4706-zh-00022",
+      "text": "分季度工程进度",
+      "original_text": "分钟",
+      "reason": "분기공정을 분(minute)으로 오역"
+    },
+    {
+      "id": "A4706-zh-00023",
+      "text": "累计",
+      "original_text": "处理",
+      "reason": "누계를 처리로 오역"
+    },
+    {
+      "id": "A4706-zh-00024",
+      "text": "截至上一季度的累计",
+      "original_text": "截至上一季度的累计值",
+      "reason": "지난 분기까지의 누계를 정돈"
+    },
+    {
+      "id": "A4706-zh-00025",
+      "text": "本季度",
+      "original_text": "本季度",
+      "reason": "이번 분기 표기를 유지"
+    },
+    {
+      "id": "A4706-zh-00026",
+      "text": "累计",
+      "original_text": "累计",
+      "reason": "누계 표기를 유지"
+    },
+    {
+      "id": "A4706-zh-00027",
+      "text": "计划",
+      "original_text": "空",
+      "reason": "계획을 공란으로 오역"
+    },
+    {
+      "id": "A4706-zh-00028",
+      "text": "计划",
+      "original_text": "计划",
+      "reason": "계획 항목 표기를 유지"
+    },
+    {
+      "id": "A4706-zh-00029",
+      "text": "实绩",
+      "original_text": "性能",
+      "reason": "실적을 성능으로 오역"
+    },
+    {
+      "id": "A4706-zh-00030",
+      "text": "对比（%）",
+      "original_text": "比较(%)",
+      "reason": "대비(%) 항목을 정돈"
+    },
+    {
+      "id": "A4706-zh-00037",
+      "text": "季度",
+      "original_text": "测试",
+      "reason": "분기를 시험으로 오역"
+    },
+    {
+      "id": "A4706-zh-00038",
+      "text": "依据《道路法施行令》第八十七条第一款及同法施行规则第四十三条第一款第二项，特此报告上述工程的本季度进度。",
+      "original_text": "根据《道路法》实施法令第87条第1款和该法实施细则第43条第1款第2项的规定，如上所述。",
+      "reason": "시행령·시행규칙 인용 및 분기공정보고 문장 오류"
+    },
+    {
+      "id": "A4706-zh-00040",
+      "text": "季度工程进度报告",
+      "original_text": "报告分支进程。",
+      "reason": "분기별 공정보고를 보고 분기 진행으로 오역"
+    },
+    {
+      "id": "A4706-zh-00046",
+      "text": "大都市圈广域交通委员会委员长",
+      "original_text": "大都会区交通委员会主席",
+      "reason": "위원장 직함을 공식 표기로 정돈"
+    },
+    {
+      "id": "A4706-zh-00047",
+      "text": "致",
+      "original_text": "您的",
+      "reason": "수신인 귀하를 ‘당신의’로 오역"
+    },
+    {
+      "id": "A4706-zh-00048",
+      "text": "地方国土管理厅厅长",
+      "original_text": "区域土地管理办公室主任",
+      "reason": "지방국토관리청장을 국토관리사무소장으로 오역"
+    },
+    {
+      "id": "A4706-zh-00049",
+      "text": "行政安全部长官",
+      "original_text": "内政和安全部长",
+      "reason": "행정안전부장관 직함 정돈"
+    },
+    {
+      "id": "A4707-zh-00001",
+      "text": "■《道路法施行规则》[附件表格第42号] <2019年9月26日修订>",
+      "original_text": "■ 道路交通法执行规则 [附件表格编号 42] <2019 年 9 月 26 日修订>",
+      "reason": "도로법 시행규칙을 도로교통법 시행규칙으로 오역"
+    },
+    {
+      "id": "A4707-zh-00002",
+      "text": "工程实绩报告书",
+      "original_text": "业务绩效报告",
+      "reason": "사업실적보고서를 일반 업무성과 보고로 축소"
+    },
+    {
+      "id": "A4707-zh-00003",
+      "text": "1. 工程概况",
+      "original_text": "1. 业务概览",
+      "reason": "사업개요를 업무개요로 축소"
+    },
+    {
+      "id": "A4707-zh-00007",
+      "text": "长度（公里）",
+      "original_text": "延伸段 (km)",
+      "reason": "연장을 연장 구간으로 오역"
+    },
+    {
+      "id": "A4707-zh-00009",
+      "text": "车道数",
+      "original_text": "通道号",
+      "reason": "차로 수를 통로 번호로 오역"
+    },
+    {
+      "id": "A4707-zh-00010",
+      "text": "工程期间",
+      "original_text": "业务周期",
+      "reason": "사업기간을 업무 주기로 오역"
+    },
+    {
+      "id": "A4707-zh-00017",
+      "text": "承包人",
+      "original_text": "承包商",
+      "reason": "도급자 용어 정돈"
+    },
+    {
+      "id": "A4707-zh-00018",
+      "text": "商号",
+      "original_text": "商标名称",
+      "reason": "상호를 상표명으로 오역"
+    },
+    {
+      "id": "A4707-zh-00019",
+      "text": "代表人",
+      "original_text": "代表",
+      "reason": "대표자 표기를 정돈"
+    },
+    {
+      "id": "A4707-zh-00020",
+      "text": "主要工程内容",
+      "original_text": "主要业务详情",
+      "reason": "주요 사업내역을 업무 상세로 오역"
+    },
+    {
+      "id": "A4707-zh-00021",
+      "text": "2. 工程实绩（截至　年　月　日）",
+      "original_text": "2. 业务绩效（",
+      "reason": "사업실적 제목 및 기준일을 불완전 번역"
+    },
+    {
+      "id": "A4707-zh-00025",
+      "text": "主要工程进度",
+      "original_text": "主要进程",
+      "reason": "주요 공정을 일반 진행으로 축소"
+    },
+    {
+      "id": "A4707-zh-00027",
+      "text": "实绩",
+      "original_text": "性能",
+      "reason": "실적을 성능으로 오역"
+    },
+    {
+      "id": "A4707-zh-00028",
+      "text": "今后计划",
+      "original_text": "备注",
+      "reason": "장래 계획을 비고로 오역"
+    },
+    {
+      "id": "A4707-zh-00029",
+      "text": "数量",
+      "original_text": "数量",
+      "reason": "수량 표기를 유지"
+    },
+    {
+      "id": "A4707-zh-00030",
+      "text": "金额",
+      "original_text": "金额",
+      "reason": "금액 표기를 유지"
+    },
+    {
+      "id": "A4707-zh-00035",
+      "text": "3. 按财源分类的明细（单位：百万韩元）",
+      "original_text": "3. 资金来源详情（单位：百万韩元）",
+      "reason": "재원별 명세 표제를 정돈"
+    },
+    {
+      "id": "A4707-zh-00036",
+      "text": "财源类别",
+      "original_text": "按资源",
+      "reason": "재원별을 자원에 따라로 오역"
+    },
+    {
+      "id": "A4707-zh-00038",
+      "text": "实绩",
+      "original_text": "性能",
+      "reason": "실적을 성능으로 오역"
+    },
+    {
+      "id": "A4707-zh-00041",
+      "text": "国库补助",
+      "original_text": "财政部补贴",
+      "reason": "국고보조를 재무부 보조금으로 오역"
+    },
+    {
+      "id": "A4707-zh-00042",
+      "text": "道费（道财政）",
+      "original_text": "Dobi(道费)",
+      "reason": "도비를 음역으로 훼손"
+    },
+    {
+      "id": "A4707-zh-00043",
+      "text": "市费（市财政）",
+      "original_text": "城市费",
+      "reason": "시비를 도시 수수료로 오역"
+    },
+    {
+      "id": "A4707-zh-00044",
+      "text": "依据《道路法施行令》第八十七条第二款及同法施行规则第四十三条第二款，特此报告道路工程的工程实绩。",
+      "original_text": "根据《道路法》实施法令第87条第2款和该法实施细则第43条第2款的规定，如上所述，道路公司",
+      "reason": "사업실적 보고 문장과 법령명 오류"
+    },
+    {
+      "id": "A4707-zh-00045",
+      "text": "特此报告。",
+      "original_text": "报告公司业务绩效。",
+      "reason": "사업실적보고 종결문을 회사 업무성과로 오역"
+    },
+    {
+      "id": "A4707-zh-00052",
+      "text": "致",
+      "original_text": "您的",
+      "reason": "수신인 귀하를 ‘당신의’로 오역"
+    },
+    {
+      "id": "A4707-zh-00053",
+      "text": "地方国土管理厅厅长",
+      "original_text": "区域土地管理办公室主任",
+      "reason": "지방국토관리청장 오역"
+    },
+    {
+      "id": "A4707-zh-00054",
+      "text": "行政安全部长官",
+      "original_text": "内政和安全部长",
+      "reason": "행정안전부장관 직함 정돈"
+    },
+    {
+      "id": "A4707-zh-00056",
+      "text": "竣工检查报告书",
+      "original_text": "竣工检验报告",
+      "reason": "준공검사조서의 서식 용어 정돈"
+    },
+    {
+      "id": "A4707-zh-00057",
+      "text": "按财源分类的计算书",
+      "original_text": "资金来源声明",
+      "reason": "재원별 계산서를 재원 선언서로 오역"
     }
   ],
-  "note": "Sequential review advanced through row 4849, completing A4703 land entry/use/obstacle modification notice and A4704 road officer identity certificate. Added 29 targeted corrections for notice options, access/use area/period, legal notice text, entrant/user, identity certificate fields (position/title/name/validity) and statutory powers. Previous 1361 edits retained. Continue from row 4850 with A4705. IN_PROGRESS.",
+  "note": "Sequential review advanced through row 5001, completing A4705 construction commencement report, A4706 quarterly progress report and A4707 project performance report. Added 62 targeted corrections for project report fields, road length/lane count, contractor/trade name, amount/date labels, statutory citations and recipients; quarterly progress metrics and cumulative/actual/planned labels; project performance and funding source terms. Previous 1391 edits retained. Continue from row 5002 with A4708. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
