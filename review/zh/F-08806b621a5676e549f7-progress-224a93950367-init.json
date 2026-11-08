@@ -9,7 +9,7 @@
     "en": "1de956c78a42df17c5f36079fab0b672ec1521b8",
     "zh": "dc8febba565ee7adee3dea09461594f98d24ea3d"
   },
-  "checked_rows": 23,
+  "checked_rows": 25,
   "edits": [
     {
       "id": "B2-zh-00014",
@@ -125,10 +125,20 @@
       "id": "A19766-zh-00043",
       "text": "被指定为性能检验机构",
       "reason": "对应“성능검사기관으로 지정을 받은 경우”的中间分段，去除START污染。"
+    },
+    {
+      "id": "B1-zh-00023",
+      "text": "第十二条（国家地震危险性地图等的制作和利用）\n① 行政安全部长官可以制作并公布国家地震危险性地图（以下简称“国家地震危险性地图”），供抗震设计等使用。<2013年8月6日、2017年3月21日、2017年7月26日修订>\n② 行政安全部长官可以自国家地震危险性地图公布之日起每五年审查其适用性，并根据需要予以修改。<2013年8月6日、2017年3月21日、2017年7月26日修订>\n③ 制作或修改第1款和第2款所述国家地震危险性地图时，应与有关中央行政机关负责人协商；制作或修改后，应将其内容通知有关中央行政机关负责人。\n④ 有关中央行政机关负责人应利用第1款所述国家地震危险性地图开展抗震设计等工作，以减轻地震灾害。\n⑤ 市、道知事等可以制作并利用其管辖区域的区域地震危险性地图。<2013年8月6日、2017年3月21日修订>\n",
+      "reason": "한국어 조문 제목 및 반복되는 정의어 '지진위험지도'를 정확히 반영하고 '지진재해지도'로 오역된 부분을 바로잡음."
+    },
+    {
+      "id": "B1-zh-00038",
+      "text": "第二十三条（断层调查、研究及活动断层地图的制作等）\n① 行政安全部长官应为保障地基安全，对朝鲜半岛全境的断层开展调查和研究，调查对象包括城市、《产业立地及开发法》第2条第8号所称产业园区、《社会基础设施民间投资法》第2条第1号所称社会基础设施，以及《核安全法》第2条第8号和第10号所称核反应堆及相关设施等。<2011年8月4日、2013年8月6日、2017年3月21日、2017年7月26日、2017年12月26日修订>\n② 灾害管理责任机构负责人在调查、研究或实施项目等过程中发现断层时，应向行政安全部长官通报下列事项。<2020年6月9日新增>\n1. 断层位置\n2. 断层规模\n3. 地表断层照片\n4. 行政安全部长官认为为确认断层而有必要并予以公告的其他事项\n③ 行政安全部长官开展第1款规定的断层调查和研究时，应利用根据第2款通报的事项。<2020年6月9日新增>\n④ 行政安全部长官应根据第1款规定的调查、研究结果，建立并管理有关可能发生地震的断层（以下简称“活动断层”）的数据库，并可以制作、公布活动断层地图。<2013年8月6日、2017年3月21日、2017年7月26日、2017年12月26日、2020年6月9日修订>\n⑤ 行政安全部长官可以与有关中央行政机关负责人协商，建议对活动断层区域内的既有设施进行补充或加固；新建设施时，也可以建议按照考虑活动断层因素的抗震标准进行建设。<2013年8月6日、2017年3月21日、2017年7月26日、2020年6月9日修订>\n⑥ 行政安全部长官可以与有关中央行政机关负责人共同实施断层相关调查、研究。在此情况下，行政安全部长官与有关中央行政机关负责人应共同承担调查、研究所需费用。<2017年12月26日新增、2020年6月9日修订>\n\n",
+      "reason": "'단층'을 故障/过失로 오역한 전 문장을 断层으로 바로잡고 제23조 각 항의 조사대상·통보사항·활성단층 개념을 원문에 맞춤."
     }
   ],
   "status": "IN_PROGRESS",
-  "phase": "TARGETED_CLEAR_DEFECTS",
+  "phase": "TARGETED_SEMANTIC_REVIEW",
   "reading_order": [
     "KO_FULL",
     "EN_FULL",
@@ -194,5 +204,5 @@
     "A19779": "NO_DOCUMENT_ENGLISH"
   },
   "prior_state": "No review/zh/F-08806b621a5676e549f7.json or receipts/F-08806b621a5676e549f7.json found on main at intake. Existing progress records not found by targeted GitHub code search; verify exact candidate paths before assuming none.",
-  "note": "Targeted pass identified clear Hangul omissions in B2-zh-00067 and B2-zh-00083, a mixed untranslated passage in B2-zh-00099, incorrect statutory references in B2-zh-00014, and MTQ contamination in selected form labels. This is not full-family review. Continue full sequential KO then EN then ZH reading; verify remaining MTQ and B3 table issues against original annex XML before finalization. B3-zh-00034 has had the remaining visible Korean table labels translated; remaining MTQ fragments in A19766-zh-00021 and A19766-zh-00064 require exact XML/source-cell verification before any replacement. Full sequential source reading and complete 1,639-row review remain pending. Resolved three additional MTQ-corrupted cells by matching the immediately adjacent Korean table/process sequence: A19766-00021, A19766-00064, and A19767-00067. Continue whole-family sequential review; this checkpoint remains IN_PROGRESS. Additional review removed remaining START placeholder artifacts from A36502, A19765, A19766 and translated the residual English Recorder label in B3 table. The full sequential reading/review across all 24 documents remains pending; no COMPLETE claim. Machine-assisted residue scan found 4 Hangul-containing rows, 14 MTQ-corrupted rows, 7 START-token rows, and one Recorder English label in the original Chinese file. All are represented in the cumulative edit list; the effective edited rows were checked for removal of these specific artifacts. The original source rows remain unchanged. Full sequential review of all 1,639 rows remains pending."
+  "note": "Targeted pass identified clear Hangul omissions in B2-zh-00067 and B2-zh-00083, a mixed untranslated passage in B2-zh-00099, incorrect statutory references in B2-zh-00014, and MTQ contamination in selected form labels. This is not full-family review. Continue full sequential KO then EN then ZH reading; verify remaining MTQ and B3 table issues against original annex XML before finalization. B3-zh-00034 has had the remaining visible Korean table labels translated; remaining MTQ fragments in A19766-zh-00021 and A19766-zh-00064 require exact XML/source-cell verification before any replacement. Full sequential source reading and complete 1,639-row review remain pending. Resolved three additional MTQ-corrupted cells by matching the immediately adjacent Korean table/process sequence: A19766-00021, A19766-00064, and A19767-00067. Continue whole-family sequential review; this checkpoint remains IN_PROGRESS. Additional review removed remaining START placeholder artifacts from A36502, A19765, A19766 and translated the residual English Recorder label in B3 table. The full sequential reading/review across all 24 documents remains pending; no COMPLETE claim. Machine-assisted residue scan found 4 Hangul-containing rows, 14 MTQ-corrupted rows, 7 START-token rows, and one Recorder English label in the original Chinese file. All are represented in the cumulative edit list; the effective edited rows were checked for removal of these specific artifacts. The original source rows remain unchanged. Full sequential review of all 1,639 rows remains pending. Added two substantive B1 corrections: B1-zh-00023 corrects the legal term for the national seismic hazard map; B1-zh-00038 corrects systematic mistranslation of 단층 as 故障/过失 throughout Article 23, including all six paragraphs. Full 1,639-row semantic review remains incomplete."
 }
