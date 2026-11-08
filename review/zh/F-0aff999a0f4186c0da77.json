@@ -21,8 +21,8 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 72,
-    "pending_rows": 1615,
+    "correction_count": 75,
+    "pending_rows": 1612,
     "by_document": {}
   },
   "corrections": {
@@ -529,6 +529,27 @@
       "original": "并非受托机构和市/省长都已确认此事。此外，您[]",
       "corrected": "受托机构或市、道知事并未全面核实其内容是否属实。此外，您",
       "reason": "시행령 별표 1 정보공개서 표지의 기관별 사실 확인 여부 안내문 끝에 남은 [] 잡음을 제거하고 '내용의 사실 여부를 모두 확인한 것은 아님'을 한국어 원문에 따라 명확히 복원."
+    },
+    "A34909-zh-00037": {
+      "doc": "A34909",
+      "source_hash": "062fb00b009c11d42f70d469d8918b39f8a582b3b29233f7629d392b755d9416",
+      "original": "在韩国经营或正在经营特许经营业务满3年的关联方名称",
+      "corrected": "最近三年内曾在韩国经营或正在经营特许经营业务的关联方的名称",
+      "reason": "한국어 별표 1은 최근 3년 이내에 경영한 적이 있거나 현재 경영하는 특수관계인을 뜻함. 중국어 '经营…满3年'은 3년 이상 영업을 요구하는 오역."
+    },
+    "A34909-zh-00046": {
+      "doc": "A34909",
+      "source_hash": "6bc58e594c05fe515d60971ceed2571d9d9aa7dc3c76e7f1877c3a8a3f9bfc9c",
+      "original": "1) 年度资产负债表和损益表。但前提是，特许人[提交]资产负债表和损益表",
+      "corrected": "1) 各年度资产负债表和损益表。但是，如果特许人未编制资产负债表和损益表，",
+      "reason": "한국어 원문의 '작성하지 아니하는 경우에는'을 중국어가 '[提交]'로 오역하여 대체증빙 요건이 뒤집힌 부분 수정."
+    },
+    "A34909-zh-00047": {
+      "doc": "A34909",
+      "source_hash": "ab9dabd50ed85a279cc0e138738983ec1af3e4553394a05f8facb0920d88eda1",
+      "original": "如果未准备好，则根据《增值税法》可以核实销售收入的[主体][]",
+      "corrected": "则可以使用根据《增值税法》编制的增值税申报表等能够核实销售额的证明文件",
+      "reason": "한국어 '매출액을 확인할 수 있는 부가가치세신고서 등의 증명서류' 부분이 [主体][]로 훼손되어 최소 복원."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -564,7 +585,8 @@
     "C05 b5c0ceb7102d: A34916-zh-00136 correct same-Article clauses 3 and 4 restored from Korean table; 67 corrections cumulative, no COMPLETE certification.",
     "C05 bd07648d1ce4: Annex A34912 rows 00058 and 00086 corrected against Korean full-context source, preserving previous 67 corrections; Chinese full semantic audit remains unverified.",
     "C05 2222ebeb54cf: annex 2 fragments 63/64 corrected against full Korean clause (4), prior 69 preserved; no full-row completion certification.",
-    "C05 fae2c4774c60: A34909-zh-00017 disclaimer truth-verification statement repaired against Korean annex 1; previous 71 edits preserved; semantic review incomplete."
+    "C05 fae2c4774c60: A34909-zh-00017 disclaimer truth-verification statement repaired against Korean annex 1; previous 71 edits preserved; semantic review incomplete.",
+    "C05 0d34f96333ad: annex A34909 rows 37, 46, 47 Korean-source-grounded correction of three-year affiliation scope and financial alternative evidence; previous 72 preserved; complete semantic review remains outstanding."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -573,5 +595,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 72
+  "corrected_rows": 75
 }
