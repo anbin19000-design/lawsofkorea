@@ -1,0 +1,252 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26703",
+  "quality_batch": "A26703-quality-01",
+  "range": {
+    "first": "A26703-zh-00001",
+    "last": "A26703-zh-00025"
+  },
+  "quality_checked_rows": 25,
+  "quality_passed_rows": 25,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "A26703-zh-00001",
+    "A26703-zh-00002",
+    "A26703-zh-00003",
+    "A26703-zh-00004",
+    "A26703-zh-00005",
+    "A26703-zh-00006",
+    "A26703-zh-00007",
+    "A26703-zh-00008",
+    "A26703-zh-00009",
+    "A26703-zh-00010",
+    "A26703-zh-00011",
+    "A26703-zh-00012",
+    "A26703-zh-00013",
+    "A26703-zh-00014",
+    "A26703-zh-00015",
+    "A26703-zh-00016",
+    "A26703-zh-00017",
+    "A26703-zh-00018",
+    "A26703-zh-00019",
+    "A26703-zh-00020",
+    "A26703-zh-00021",
+    "A26703-zh-00022",
+    "A26703-zh-00023",
+    "A26703-zh-00024",
+    "A26703-zh-00025"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_files": [
+    "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-R1.json",
+    "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26703-00001-00083.json"
+  ],
+  "results": [
+    {
+      "id": "A26703-zh-00001",
+      "source_hash": "e5c454b238f72348fa79bac98e40d2d38132af9ba07445cdcb971d3941e8c1ad",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true
+    },
+    {
+      "id": "A26703-zh-00002",
+      "source_hash": "01266b955d76bd091c95ac61231dcb93c688eb267ee40782751d89bf7bc09e67",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true
+    },
+    {
+      "id": "A26703-zh-00003",
+      "source_hash": "3afa30237582a4280535fa3dc6008b385fd5306dc0db75f5958328394e48b1e5",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true
+    },
+    {
+      "id": "A26703-zh-00004",
+      "source_hash": "12671009564bad8a6f8594cf96b05b9a8bacc8121812f4eed87e72a0cfb4d6ed",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true
+    },
+    {
+      "id": "A26703-zh-00005",
+      "source_hash": "b736160e9f7f0d321a2b458369e87ad0a76a9b7c00b4454ad463a28ce8d1d95b",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true
+    },
+    {
+      "id": "A26703-zh-00006",
+      "source_hash": "5a4e38a1578eaec376cc5e1ad28f33f019956fc98d46f14b142cad94c5b1d1a5",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true
+    },
+    {
+      "id": "A26703-zh-00007",
+      "source_hash": "73bb6cce4a51c9be6d75cb4162609abed97cc4d3f5abdac1312e42797089d001",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true
+    },
+    {
+      "id": "A26703-zh-00008",
+      "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true
+    },
+    {
+      "id": "A26703-zh-00009",
+      "source_hash": "c18bfab41b74046ea98c8d4a09881e14e66377bfe535b5364bd442f828564be5",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true
+    },
+    {
+      "id": "A26703-zh-00010",
+      "source_hash": "ef1661bfe1d0b773aea1bc51daf1dfa70e9d997454acf123165fd7df67dc959c",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true
+    },
+    {
+      "id": "A26703-zh-00011",
+      "source_hash": "135b2d53c337583773ec05ac31eb1e280c78db754abfe7dcfb462196f269bdae",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true
+    },
+    {
+      "id": "A26703-zh-00012",
+      "source_hash": "fcf499d943a69cd0a7f49a2f56d1f62c47ab38e4a8a46df75dba413fe834c156",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true
+    },
+    {
+      "id": "A26703-zh-00013",
+      "source_hash": "6bb977cc7fd9abf728aee5d61d7beddddd356404bd01ccf71ae740fb12c87720",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true
+    },
+    {
+      "id": "A26703-zh-00014",
+      "source_hash": "4edc94394feec0a6ca6b04c04db74384ad82a009922c2195ea48a7c1cda5088e",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true
+    },
+    {
+      "id": "A26703-zh-00015",
+      "source_hash": "28e058c7cec8846e6c5fb52308685e1c534d4b8a745ab01a9d40c045f3fd6c71",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true
+    },
+    {
+      "id": "A26703-zh-00016",
+      "source_hash": "d6190fb77a7ff6d9c9ed4b3404454b31c394bfcb69afd9e10bf3affcb9d022f7",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true
+    },
+    {
+      "id": "A26703-zh-00017",
+      "source_hash": "29ad7bb4251e915977238e64bb020baba7b10218df699d53afa3a7516c5ad664",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true
+    },
+    {
+      "id": "A26703-zh-00018",
+      "source_hash": "0ee7e84e73cfe73f165915daea92e9373cfd27e0e61d9edd755ad5eecbad73d4",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true
+    },
+    {
+      "id": "A26703-zh-00019",
+      "source_hash": "83a2d58e6e4023f8099cd507177e590775a24fddf563f9101d439d18eeef9872",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true
+    },
+    {
+      "id": "A26703-zh-00020",
+      "source_hash": "467d305bfbe5e83a8a6e0bb6cb5811b4dcbb6a04a9c274f30d8fc20c201f3433",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true
+    },
+    {
+      "id": "A26703-zh-00021",
+      "source_hash": "0c263cac5947d01e4f69892f89149e14c2922831c2afc7ebaf29274b3d71c1ed",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true
+    },
+    {
+      "id": "A26703-zh-00022",
+      "source_hash": "e5ac93c257305de93a487c1ced0a64993a58dab1ab2b277227fa514e6d658068",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true
+    },
+    {
+      "id": "A26703-zh-00023",
+      "source_hash": "f7ea9e331f80935959d8c179f685fbbdfde7f0301e791106a64b454bb1d6e80c",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true
+    },
+    {
+      "id": "A26703-zh-00024",
+      "source_hash": "4cda38a249ab558190e607c4e4e9aca9c14c4591b75debb9989be5cba4ceab0f",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true
+    },
+    {
+      "id": "A26703-zh-00025",
+      "source_hash": "ef4403031e6e67eb6ff612ac7f030ff5fcf2e12e2b56fe2fa253adc78b0c68bb",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true
+    }
+  ],
+  "edits": [],
+  "note": "A26703 별지 제11호서식 1~25행의 제목, 신청 항목, 처리기간(5일), 변경 전 시설장·주소 등 한국어 서식 문맥과 기저장 교정 대조. MTQ 행 00008은 기존 R1 교정문 '处理期限'을 적용하여 중복 교정 없음. 원본 행·해시 불변. 가족 전체 COMPLETE 아님."
+}
