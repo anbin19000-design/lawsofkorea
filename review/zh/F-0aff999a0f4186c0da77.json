@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 98,
+    "correction_count": 100,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -711,6 +711,20 @@
       "original": "第25条（修改其他法律）①特许经营业务公平交易法部分修改如下。\n\n  除第 2 条第 10 款第 (c) 项第 1) 至 3) 款以外的部分，“垄断规制和公平交易法第 2 条第 5 款”应改为“垄断规制和公平交易法第 2 条第 6 款”。\n\n  第 12-4 条第 3 款中的“垄断规制和公平交易法第 2 条第 3 款”应改为“垄断规制和公平交易法第 2 条第 12 款”。\n\n  第十六条第一款中的“垄断规制和公平交易法第四十八条之二第一款”应改为“垄断规制和公平交易法第七十二条第一款”。\n\n  在第37条第1款中，将“垄断规制和公平交易法第42条、第43条、第43条之2、第44条、第45条、第50条第1款至第4款、第52条、第52条之2、第53条、第53条之2和第55条之2款的规定”替换为“垄断规制和公平交易法第64条至第68条、第81条第1款、第2款、第3款、第6款和第9款、第93条、第95条至第97条和第101条”；在同一条第2款中，将“垄断规制与公平交易法第55-4条至第55-8条”替换为“垄断规制与公平交易法”；在同一条第3款中，将“第103条至第107条的规定”替换为“垄断规制与公平交易法第53条、第53-2条、第54条和第55条的规定”；在同一条第4款中，将“垄断规制与公平交易法第62条的规定”替换为“垄断规制与公平交易法第119条”。 \n\n  第 37 条之 2，第 4 款，“垄断规制和公平交易法第 56 条之 2 款和第 57 条”应改为“垄断规制和公平交易法第 110 条和第 115 条”。\n\n",
       "corrected": "第25条（修改其他法律）①《加盟事业交易公平化法》部分修改如下。\n\n第2条第10号(c)目1)至3)以外部分中的“《垄断规制与公平交易法》第2条第5号”改为“《垄断规制与公平交易法》第2条第6号”。\n\n第12条之4第3款中的“《垄断规制与公平交易法》第2条第3号”改为“《垄断规制与公平交易法》第2条第12号”。\n\n第16条第1款中的“《垄断规制与公平交易法》第48条之2第1款”改为“《垄断规制与公平交易法》第72条第1款”。\n\n第37条第1款中的旧法条列举改为《垄断规制与公平交易法》第64条至第68条、第81条第1款、第2款、第3款、第6款、第9款、第93条、第95条至第97条及第101条；同条第2款中的旧引用改为该法第103条至第107条；同条第3款中的旧引用改为该法第96条、第97条、第98条之2、第99条及第100条；同条第4款中的旧引用改为该法第119条。\n\n第37条之2第4款中的“《垄断规制与公平交易法》第56条之2及第57条”改为该法第110条及第115条。\n\n",
       "reason": "第37条第2款和第3款修法对照的原译把新旧引文顺序互换，且遗漏第98条之2；依据本条后续合并修订及现行法条对照恢复替换方向。"
+    },
+    "B1-zh-00151": {
+      "doc": "B1",
+      "source_hash": "810ba86e16e8f18ea7d006a9e41f10bf175141a9d0e82f08d32d2cbc9b7b9db6",
+      "original": "第二条（关于未通知执行详情等的适用性和过渡措施）① 本法实施后，凡未通知执行详情或未遵守第十二条之六第二款规定的检查请求者，自其之日起适用第四十三条第六款第七项的修正规定。\n\n  ② 对于在本法实施之前未按原第 12-6 条第 1 款规定通知执行详情或未回应检查请求的特许经营人，可按照第 33 条至第 35 条的规定采取纠正措施、提出纠正建议或处以行政罚款。\n\n",
+      "corrected": "第二条（关于未通知执行明细等情形的适用例及过渡措施）① 第43条第6款第7项的修正规定，自本法施行后发生违反第12条之6第2款、未通知执行明细或未响应阅览要求的情形起适用。\n\n② 对于在本法施行前违反旧第12条之6第1款、未通知执行明细或未响应阅览要求的特许经营总部，可以依第33条至第35条规定采取纠正措施、提出纠正建议或处以附加罚款。\n\n",
+      "reason": "第1款误译为‘不遵守第12条之6第2款的检查请求’，原文是未通知执行明细或未响应阅览要求的并列行为。"
+    },
+    "B1-zh-00160": {
+      "doc": "B1",
+      "source_hash": "be8ada96da3a6cbfdbdc12f1dc3ec197a026053665d40dcd47ab5ab5df580615",
+      "original": "第 3 条（适用于理事会）第 17 条的修订规定适用于本法实施后新成立的理事会。\n\n",
+      "corrected": "第三条（关于调解委员会的适用例）第17条的修正规定，适用于本法施行后新组成的特许经营业务交易纠纷调解委员会。\n\n",
+      "reason": "第17条的협의회为法定分쟁조정협의회，译作理事会会误指董事会，须明确为纠纷调解委员会。"
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -754,7 +768,8 @@
     "C05 4c8e2af1b090: B1 Articles 21, 23, 23-2, 24, 25, 27-29, 31 reviewed against complete Korean clauses; nine additional minimal corrections for committee identity, statutory citation/paragraph numbering, disqualification terminology and duties. Whole-family audit remains IN_PROGRESS.",
     "C05 4c8e2af1b090 continuation: B1 Articles 31-2, 32-3 and 34-2 corrected for paragraph numbering, competent actor, notice content, prosecution-trigger terminology and consent-resolution criteria. Full-family Chinese semantic audit remains IN_PROGRESS.",
     "C05 c9e74e20be50 continuation: B1 transitional provision Article 9 and applicability provision Article 4 reviewed; two clear errors corrected (mediation application mislabeled as litigation; injured franchisee party mislabeled as franchisor). Existing corrections preserved; IN_PROGRESS.",
-    "C05 b942ab665ddb: B1 transitional provisions rows 124, 135 and amendment Act row 139 corrected for wrong cross-reference, injured party, and reversed old/new statutory citations. Existing corrections retained; status IN_PROGRESS."
+    "C05 b942ab665ddb: B1 transitional provisions rows 124, 135 and amendment Act row 139 corrected for wrong cross-reference, injured party, and reversed old/new statutory citations. Existing corrections retained; status IN_PROGRESS.",
+    "C05 b942ab665ddb continuation: B1 rows 151 and 160 reviewed; corrected the misrendered alternative conduct in transitional provision and restored statutory dispute-resolution committee identity. Existing corrections preserved; IN_PROGRESS."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -763,5 +778,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 98
+  "corrected_rows": 100
 }
