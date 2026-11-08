@@ -1,0 +1,208 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_blob_observed": "003cad21fa104b32a22b7d401755e50ffab76f42",
+  "cumulative_corrections": 866,
+  "inspected_span": "A34912 rows 101–147 sequentially compared with Korean Schedule 2. Existing corrections at rows 101, 104–114, 118, 128, 132, 134, 140, 143 and 147 were retained. Reviewed purchase coercion, unfair pressure, unfair contract terms, management interference, sales targets, excessive penalties, consumer damage compensation and unfair business penalties.",
+  "proposed_corrections": [
+    {
+      "id": "A34912-zh-00102",
+      "source_hash": "1a4accfaef1138a85edd5e18795fe80043d5f7b334d42d268f8050e47c007292",
+      "text": "强制加盟店经营者购买或租赁与特许经营业务经营无关，或超过经营所需数量的设施、设备、商品、服务、原材料或辅助材料等，",
+      "reason": "가맹사업 경영과 무관하거나 필요한 양을 초과하는 구매·임차 강제라는 요건 복구."
+    },
+    {
+      "id": "A34912-zh-00103",
+      "source_hash": "80f6ae624cd716f6e9d6389f0a048df438c91c46c5f4ba8aa8c0bbcf941944f1",
+      "text": "的行为。",
+      "reason": "앞 행에 이어지는 강제구매 정의를 완결."
+    },
+    {
+      "id": "A34912-zh-00107",
+      "source_hash": "75826b61b35c7426a953e39cd1861139e1b7056ef625c547a840925f8bcaee97",
+      "text": "或者设定、变更加盟店经营者难以履行或对其不利的合同条款，或者",
+      "reason": "계약조항 설정·변경의 주체와 불리함을 복구."
+    },
+    {
+      "id": "A34912-zh-00109",
+      "source_hash": "4f287e5d92034a518c03fd5b7597fe5cd8f8a33d005f441e42d9203486f5a657",
+      "text": "在合同续约过程中，较以往交易条件或其他加盟店经营者的交易条件明显不利地设定或变更合同条件的行为",
+      "reason": "갱신 과정에서 종전 또는 다른 가맹점사업자보다 현저히 불리한 조건이라는 기준 복구."
+    },
+    {
+      "id": "A34912-zh-00113",
+      "source_hash": "aa86c223fb5e193a3f19b02f570533553df972f4b8cb78a1ba10afd76304072c",
+      "text": "强制加盟店经营者实现该销售目标的行为",
+      "reason": "판매목표 달성 강제 행위를 완결."
+    },
+    {
+      "id": "A34912-zh-00115",
+      "source_hash": "bbace3ffa72aae87779097f998c142d422ac43d2d4db313aa5789899d34038ec",
+      "text": "4. 不合理地加重损害赔偿义务的行为",
+      "reason": "부당한 손해배상의무 부과행위 표제 복구."
+    },
+    {
+      "id": "A34912-zh-00116",
+      "source_hash": "b93b6e2f0e419dfeeda7136471b6cc764224c8616777806851593aa3f74983c6",
+      "text": "本法第12条第1款第5项所规定行为的类型及标准如下。",
+      "reason": "조문 인용 및 행위 유형·기준을 정확히 표현."
+    },
+    {
+      "id": "A34912-zh-00117",
+      "source_hash": "2c9af72d0e4074833bf39aaa69aa9315e74650dd290794f394b821a9f799ca16",
+      "text": "",
+      "reason": "원문에는 별도 대응 문구가 없는 기계번역 파편으로 보이며 XML 경계 확인 후 제거."
+    },
+    {
+      "id": "A34912-zh-00119",
+      "source_hash": "1266531b6f6d8b738fe787dec0588a696bc8a74d25e4d3ab11b66becf7e76ca0",
+      "text": "1) 设定或加重因合同提前解除而产生的违约金的行为",
+      "reason": "계약 중도해지 시 과중한 위약금 설정·부과라는 법률용어 복구."
+    },
+    {
+      "id": "A34912-zh-00120",
+      "source_hash": "7116714c539232a59926750499f65b530cbd2de020f6fcaff2da73e5a37d5349",
+      "text": "应综合考虑合同解除经过、交易双方的可归责程度、剩余合同期限，",
+      "reason": "계약해지 경위·귀책정도·잔여기간이라는 판단요소 복구."
+    },
+    {
+      "id": "A34912-zh-00121",
+      "source_hash": "1ef1e5b135a5fd195b2eb05665d4627a535e57bd3bf0ea44f6357f2c5e569ab5",
+      "text": "以及合同提前解除后，特许总部为与后续加盟店经营者签订合同通常预计所需期间",
+      "reason": "후속 가맹점사업자와 계약 체결에 통상 소요될 것으로 예상되는 기간이라는 뜻을 '下一个特许人' 오역에서 교정."
+    },
+    {
+      "id": "A34912-zh-00122",
+      "source_hash": "3874ac39b87f123947fa2d9b496a07c72b8ecd473814b8923b1047a3941abe5f",
+      "text": "所对应的损失金额等因素，若据此设定或收取明显过重的违约金，",
+      "reason": "기간에 상당하는 손해액 등에 비추어 과중한 위약금이라는 법적 판단을 복구."
+    },
+    {
+      "id": "A34912-zh-00123",
+      "source_hash": "e3a9090cd4289f402ec7599d0485bb39d376de230aa7360541012be178d58436",
+      "text": "或者订立含有该等过重违约金条款的合同的行为",
+      "reason": "계약 체결 또는 부과라는 행위 유형을 명확히 함."
+    },
+    {
+      "id": "A34912-zh-00125",
+      "source_hash": "3fd7985ec164b9f775e42ff6d579a32af67b5dd002c001713781ba375ffc6ef5",
+      "text": "迟延支付商品或服务价款时，",
+      "reason": "상품·용역 대금 지급 지연 상황을 완결."
+    },
+    {
+      "id": "A34912-zh-00126",
+      "source_hash": "09b35b32384df6d8ee8b37dba98563b3a59dac3d0b151d7c126b12cff9dc73dc",
+      "text": "根据迟延原因、正常交易惯例等因素，设定或收取过重迟延损害赔偿金，",
+      "reason": "지연손해금 과중성 판단요소를 복구."
+    },
+    {
+      "id": "A34912-zh-00127",
+      "source_hash": "bc03fec5e8492caeffb474c6ab5bd5ea16470629d14ae288a48e2a3d6e4badf2",
+      "text": "或者订立含有该等条款的合同的行为",
+      "reason": "앞 행의 지연손해금 설정·부과 행위를 완결."
+    },
+    {
+      "id": "A34912-zh-00129",
+      "source_hash": "67ce376ebf1fb0ec4570ed0723259a2725447d0c8c600d68ce6ee7a5e5760626",
+      "text": "消费者因特许总部供应商品的原始缺陷等原因受到损害时，",
+      "reason": "소비자 피해의 원인을 공급물품의 원시적 하자로 정확히 복구."
+    },
+    {
+      "id": "A34912-zh-00130",
+      "source_hash": "b8ef6da2e974e1031b2cc98e735e24ec4be76a9d972689327becfe476e89a2f7",
+      "text": "仍不合理地约定由加盟店经营者承担全部损害赔偿义务的行为",
+      "reason": "계약 체결 행위와 손해배상의무 전가라는 의미를 복구."
+    },
+    {
+      "id": "A34912-zh-00131",
+      "source_hash": "a66a55df408001c9190547fb5dd3691f6046ea1833d1f8c077ca7df1ce8fb6f6",
+      "text": "",
+      "reason": "앞 행에 연결되는 불필요한 '订立合同以承担负担' 파편으로 XML 구조 확인 필요."
+    },
+    {
+      "id": "A34912-zh-00133",
+      "source_hash": "9725697f9c4e19bfd9169ad96db2efa29ba09c3022624082bb598883ff6fa96a",
+      "text": "自加盟店经营者开始营业之日所在月份的次月起连续一年的平均销售额，",
+      "reason": "개시월 다음 달부터 1년간의 평균 매출액이라는 기준 기간·대상을 복구."
+    },
+    {
+      "id": "A34912-zh-00135",
+      "source_hash": "7c1a54c38f4727e62566e115dd6c16dfd40662738430708556a255d7c0362ad0",
+      "text": "因平均销售额未达到最低预计销售额而提前解除合同的，特许总部",
+      "reason": "평균매출액이 예상매출액 최저액에 미달해 중도 해지하는 상황을 정확히 표현."
+    },
+    {
+      "id": "A34912-zh-00136",
+      "source_hash": "6c6dc8b6404f2456884f4324a1a00aecbb5142f1e3f880a5b0828515368c4e47",
+      "text": "以丧失因合同解除而产生的预期利益为由收取违约金的行为。但是，",
+      "reason": "기대이익 상실을 이유로 위약금을 부과한다는 행위와 예외 연결 복구."
+    },
+    {
+      "id": "A34912-zh-00137",
+      "source_hash": "96cdd2a83a5c03841f0d23dc3dea68330620c5e976cd500f8f1c76bb154180b9",
+      "text": "因加盟店经营者违反加盟合同、未遵守特许总部提出的经营方针或类似事由，",
+      "reason": "가맹점사업자 계약 위반 및 경영방침 미준수라는 예외 사유를 복구."
+    },
+    {
+      "id": "A34912-zh-00138",
+      "source_hash": "17520edba045824301f55f978b9c0714763e443ff91389dce994b3a3633609a2",
+      "text": "导致平均销售额低于预计销售额最低额的情形除外。",
+      "reason": "예상매출액 최저액 미달의 예외 조건을 완결."
+    },
+    {
+      "id": "A34912-zh-00141",
+      "source_hash": "e105b65994ecdcf2fa7b7eb1594ef45b919ede9c6cb04837d66509e4e6be84bc",
+      "text": "属于(a)目或(b)目所列情形的，",
+      "reason": "가목·나목에 준하는 경우라는 범위를 복구."
+    },
+    {
+      "id": "A34912-zh-00142",
+      "source_hash": "f0fdb04cf81ffc8fe23c61983c3dcc3c1d3489f3351a03d2c64a71f22a1a0c0b",
+      "text": "不合理地要求加盟店经营者承担损害赔偿义务，",
+      "reason": "손해배상의무 부담 주체와 부당성을 명확히 함."
+    },
+    {
+      "id": "A34912-zh-00144",
+      "source_hash": "627292f25ef144e7e5d7a850f314777a55a43e29b03dd1e1f8f09b8b71abe424",
+      "text": "5. 其他不公平交易行为",
+      "reason": "표제 자체는 적절하며 수정 불필요."
+    },
+    {
+      "id": "A34912-zh-00145",
+      "source_hash": "9f0be7b1ea47157e009abccd245fc7999f73a533eceef05f1eda8be1f44e16d2",
+      "text": "本法第12条第1款第6项所规定的行为，是指特许总部",
+      "reason": "법 제12조제1항제6호 행위의 정의를 문장 구조에 맞춰 복구."
+    },
+    {
+      "id": "A34912-zh-00146",
+      "source_hash": "cb2246a242726f9fa1d46a7e6ac085c076008001303341441fd13da8ae32b66d",
+      "text": "强制其加盟店经营者与自己进行交易，",
+      "reason": "가맹본부가 자기 가맹점사업자에게 거래를 강제하는 행위의 주체·대상을 복구."
+    }
+  ],
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "chinese_total_rows": 1687,
+  "checked_rows": 849,
+  "corrected_rows": 866,
+  "quality_open_items": [
+    "Full sequential semantic audit of all 1,687 Chinese rows remains incomplete",
+    "429 rows without independently exact English require direct Korean/Chinese semantic comparison",
+    "A34909/A34910 candidates checkpoint-only",
+    "A34912 rows 1–147 checked; candidate issues checkpoint-only; proceed to next document A34913",
+    "Remaining annex/form rows require sequential review and final QC"
+  ],
+  "note": "No source SHA changed. Proposed edits are checkpoint-only and not counted as official corrections. IN_PROGRESS; no completion receipt."
+}
