@@ -19,17 +19,18 @@
   "scope": {
     "documents_total": 34,
     "zh_rows_total": 2925,
-    "rows_reviewed": 1614,
+    "rows_reviewed": 1718,
     "documents_reviewed": [
       "B1: partial review; full semantic pass remains",
       "B2: partial review; full semantic pass remains",
       "B3: 46 rows inspected",
       "A12177-A12192: prior review preserved",
       "A12193: all 106 rows inspected",
-      "A12194: all 73 rows inspected; obvious terminology, MTQ, field labels and statute-reference errors corrected"
+      "A12194: all 73 rows inspected; obvious terminology, MTQ, field labels and statute-reference errors corrected",
+      "A12195: all 104 rows inspected; terminology, MTQ artifacts, statute reference and form labels corrected where clearly wrong"
     ],
-    "documents_remaining": 14,
-    "rows_not_yet_reviewed": 1311
+    "documents_remaining": 13,
+    "rows_not_yet_reviewed": 1207
   },
   "english_availability": {
     "official_full_text_documents": [
@@ -42,8 +43,8 @@
       "B2": "e75241d5a275a1d646bb7c48dc37a31daff529c4"
     }
   },
-  "checked_rows": 1614,
-  "corrected_rows": 1370,
+  "checked_rows": 1718,
+  "corrected_rows": 1415,
   "edits": [
     {
       "id": "B1-zh-00001",
@@ -5524,9 +5525,189 @@
     {
       "id": "A12194-zh-00036",
       "text": "210mm×297mm[胶版纸（80g/㎡）]"
+    },
+    {
+      "id": "A12195-zh-00001",
+      "text": "■ 《房地产价格公示法施行规则》[附表第19号格式]"
+    },
+    {
+      "id": "A12195-zh-00002",
+      "text": "共同住宅价格意见书"
+    },
+    {
+      "id": "A12195-zh-00003",
+      "text": "收件编号"
+    },
+    {
+      "id": "A12195-zh-00004",
+      "text": "收件日期"
+    },
+    {
+      "id": "A12195-zh-00005",
+      "text": "处理期限"
+    },
+    {
+      "id": "A12195-zh-00006",
+      "text": "自意见提交期间届满之日起30日"
+    },
+    {
+      "id": "A12195-zh-00007",
+      "text": "意见"
+    },
+    {
+      "id": "A12195-zh-00008",
+      "text": "姓名（法人名称）"
+    },
+    {
+      "id": "A12195-zh-00010",
+      "text": "提交人"
+    },
+    {
+      "id": "A12195-zh-00016",
+      "text": "对象"
+    },
+    {
+      "id": "A12195-zh-00017",
+      "text": "所在地及地号"
+    },
+    {
+      "id": "A12195-zh-00018",
+      "text": "共同住宅"
+    },
+    {
+      "id": "A12195-zh-00019",
+      "text": "名称（小区名称）"
+    },
+    {
+      "id": "A12195-zh-00020",
+      "text": "栋名"
+    },
+    {
+      "id": "A12195-zh-00021",
+      "text": "户号"
+    },
+    {
+      "id": "A12195-zh-00022",
+      "text": "提交意见"
+    },
+    {
+      "id": "A12195-zh-00023",
+      "text": "查阅价格"
+    },
+    {
+      "id": "A12195-zh-00024",
+      "text": "意见价格"
+    },
+    {
+      "id": "A12195-zh-00025",
+      "text": "内容"
+    },
+    {
+      "id": "A12195-zh-00026",
+      "text": "韩元"
+    },
+    {
+      "id": "A12195-zh-00027",
+      "text": "韩元"
+    },
+    {
+      "id": "A12195-zh-00028",
+      "text": "提交意见的理由"
+    },
+    {
+      "id": "A12195-zh-00029",
+      "text": "根据《房地产价格公示法施行令》第四十二条，现就查阅的共同住宅价格提出上述意见。"
+    },
+    {
+      "id": "A12195-zh-00030",
+      "text": "。"
+    },
+    {
+      "id": "A12195-zh-00031",
+      "text": "年"
+    },
+    {
+      "id": "A12195-zh-00032",
+      "text": "月"
+    },
+    {
+      "id": "A12195-zh-00033",
+      "text": "日"
+    },
+    {
+      "id": "A12195-zh-00034",
+      "text": "意见提交人"
+    },
+    {
+      "id": "A12195-zh-00035",
+      "text": "（签名或盖章）"
+    },
+    {
+      "id": "A12195-zh-00036",
+      "text": "致国土交通部长官"
+    },
+    {
+      "id": "A12195-zh-00037",
+      "text": "附件"
+    },
+    {
+      "id": "A12195-zh-00038",
+      "text": "意见提交相关参考资料（仅在有参考资料时提交）"
+    },
+    {
+      "id": "A12195-zh-00039",
+      "text": "手续费"
+    },
+    {
+      "id": "A12195-zh-00040",
+      "text": "处理程序"
+    },
+    {
+      "id": "A12195-zh-00041",
+      "text": "填写意见书"
+    },
+    {
+      "id": "A12195-zh-00042",
+      "text": "受理"
+    },
+    {
+      "id": "A12195-zh-00043",
+      "text": "审查"
+    },
+    {
+      "id": "A12195-zh-00044",
+      "text": "共同住宅价格"
+    },
+    {
+      "id": "A12195-zh-00045",
+      "text": "审批"
+    },
+    {
+      "id": "A12195-zh-00046",
+      "text": "处理结果"
+    },
+    {
+      "id": "A12195-zh-00047",
+      "text": "重新调查"
+    },
+    {
+      "id": "A12195-zh-00048",
+      "text": "通知"
+    },
+    {
+      "id": "A12195-zh-00049",
+      "text": "意见提交人"
+    },
+    {
+      "id": "A12195-zh-00050",
+      "text": "国土交通部长官"
+    },
+    {
+      "id": "A12195-zh-00051",
+      "text": "210mm×297mm（胶版纸80g/㎡）"
     }
   ],
   "status": "IN_PROGRESS",
-  "next": "继续按顺序检查A12195至A12207共13份表单；随后对B1、B2全文补做语义复核及最终全量质量检查。",
-  "edits_saved": 1370
+  "next": "继续按顺序检查A12196至A12207共12份表单；随后对B1、B2全文补做语义复核和最终全量质量检查。",
+  "edits_saved": 1415
 }
