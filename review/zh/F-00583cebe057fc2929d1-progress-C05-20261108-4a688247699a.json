@@ -1,0 +1,41 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "family": "실용신안법",
+  "worker": "C05",
+  "assignment_marker": "[WORK-TASK:C05:F-00583cebe057fc2929d1:4a688247699a]",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "200e858f7c899fc1d39b35aeb7414ddb93c7fcaf",
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "prior_corrections": 243,
+  "new_corrections": [
+    {
+      "id": "B1-zh-00182",
+      "source_hash": "e21ddfb5b2f14896e0eda98f3491177698a3fd5f4f3c592a443ba588e0269eb7",
+      "decision": "CORRECT",
+      "reason": "2023년 부칙 제2조 '참고인 의견서'는 증인 의견서가 아니라 참고인 의견서이며, '특허심판원'은 일반 상소위원회가 아님."
+    },
+    {
+      "id": "B1-zh-00183",
+      "source_hash": "35dde47548a8120fa06d477e6465ee42288eb19b188efca46de4fad2722269f9",
+      "decision": "CORRECT",
+      "reason": "법률 제20200호 공포된 법률을 중국어에서 법안(法案)으로 잘못 표시한 부분만 교정하고 법령명 '산업재산 정보'를 반영."
+    }
+  ],
+  "total_corrections": 245,
+  "pending_rows_preserved": 89,
+  "english_note": "Exact-version official English exists for statute and decree. Rule and attached forms rely on historical-version English fallback, not exact-version authoritative translation.",
+  "reading_status": "FULL_KO_EN_ZH_SEQUENTIAL_READING_NOT_VERIFIED",
+  "completion_receipt": null,
+  "notes": "원문 및 기존 교정 보존. B1 2행 참고인/특허심판원·법률명 오역 보정. 24문서 전체 검수 및 89행 원문 대응 미완료, COMPLETE 미발행."
+}
