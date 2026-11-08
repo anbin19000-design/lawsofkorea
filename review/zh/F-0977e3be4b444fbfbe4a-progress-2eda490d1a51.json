@@ -17,10 +17,10 @@
   },
   "reading_checkpoint": {
     "required_order": "KO_FULL_EN_FULL_ZH_FULL",
-    "ko": "IN_PROGRESS; full text read in sequence for B1 (law), B2 (decree), B3 (enforcement rule), A21391 and A21392 (forms 1-2). Remaining Korean source documents A21393-A21427 (35 forms).",
+    "ko": "IN_PROGRESS; full text read in sequence for B1 (law), B2 (decree), B3 (enforcement rule), and forms A21391-A21394 (forms 1-4). Remaining Korean source documents A21395-A21427 (33 forms).",
     "en": "NOT_COMPLETE; manifest confirms exact-version official English bodies only for B1 and B2; B3 and all 37 forms have no document-level English source. Exact English body documents still need retrieval and full reading.",
     "zh": "IN_PROGRESS; initial B1 rows and end-of-family annex rows sampled; no claim of full 1,966-row sequential review yet.",
-    "next_step": "Continue Korean source bodies A21393-A21427 in order, then retrieve/read exact-version English documents B1/B2, then review all Chinese rows sequentially."
+    "next_step": "Continue Korean source bodies A21395-A21427 in order, then retrieve/read exact-version English documents B1/B2, then review all Chinese rows sequentially."
   },
   "findings": [
     {
@@ -39,6 +39,6 @@
       "reason": "The existing row contains a materially incorrect description of the 15-year limitation (the source does not say 15 years from filing where a final judgment remains outstanding in the manner rendered). Re-aligned with the Korean source text."
     }
   ],
-  "note": "Checkpoint updated after continuing Korean source reading. Earlier 3 findings retained. No COMPLETE status or official receipt asserted.",
+  "note": "Checkpoint updated after continuing Korean source reading through form A21394. Earlier findings retained. No COMPLETE status or official receipt asserted.",
   "progress_marker": "2eda490d1a51"
 }
