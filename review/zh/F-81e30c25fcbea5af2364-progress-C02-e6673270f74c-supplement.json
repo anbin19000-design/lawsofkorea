@@ -1,0 +1,37 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:e6673270f74c",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "checkpoint_type": "SUPPLEMENTARY_PROVISION_CLEAR_MISTRANSLATION_ADJUDICATION",
+  "source_blob_sha": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "prior_master_blob_sha": "68ed2842e6e42c710da6b842ec6c18fb8613f05b",
+  "checked_ids": [
+    "B1-zh-00123"
+  ],
+  "checked_rows_new": 1,
+  "edits": [
+    {
+      "id": "B1-zh-00123",
+      "source_hash": "878c049fc4de0fe7da8240d1dbcb98e1eba0e2afb418dbf85a6015c29ac679a7",
+      "target_id": "60c423823cd1b5f313aecd48f210fbcf063a613533fb4ce5e1c6611bbffc4328",
+      "text": "第六条（其他法律的修改）①至<618>省略\n\n  <619> 《泛在城市建设等相关法律》部分修改如下。\n\n  第四条第一款各项以外的部分、同条第二款前段及第三款前段、第五条第一款、第六条第一款及第二款、第八条第二款及第六款、第十条第一款、第十三条第二款至第四款、第十四条第二款至第四款、第十五条第三款前段、第十九条之二第三款、第十九条之三第二款、第十九条之四第一款及第三款、同条第四款各项以外部分的正文、第二十条第一款正文、第二十三条第三款各项以外的部分及第二十八条第一款及第二款中的“国土海洋部长官”，分别修改为“国土交通部长官”。\n\n  第二十条第一款正文及第二十二条第一款中的“行政安全部长官”，分别修改为“安全行政部长官”。\n\n  第二十三条第三款各项以外的部分中的“行政安全部长官、国土海洋部长官及广播通信委员会委员长”修改为“未来创造科学部长官、安全行政部长官及国土交通部长官”，同款第二项中的“国务总理室长”修改为“国务调整室长”。\n\n  <620>至<710>省略\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-e6673270f74c-supplement.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON_HISTORICAL_CANDIDATE_ADJUDICATED",
+      "reason": "Supplementary provision amends specified ministry titles and enumerated clauses. Existing Chinese text mistakenly presents already-updated ministry name as original, corrupts cross-references, omits <619> and adds gibberish. Historical complete clause candidate checked against Korean amendment clauses and adopted for this defective row."
+    }
+  ],
+  "ordered_reading_certification": {
+    "ko": false,
+    "en": false,
+    "zh": false
+  },
+  "notes": "Adjudicates previously saved unconfirmed candidate against Korean amendment instructions; row is extensively corrupted so whole affected row corrected. Does not certify full-family readthrough."
+}
