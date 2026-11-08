@@ -14,17 +14,22 @@
   "documents": 15,
   "total_rows": 1241,
   "preserved_review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
-  "preserved_review_sha_at_checkpoint": "f6a26bb5a5154d9c8a769aa2ac2ce5aef1f1a200",
-  "preserved_review_edits_at_checkpoint": 328,
+  "preserved_review_sha_at_checkpoint": "0a46a9d7e110a143671b6cbacaba30967665fd6d",
+  "preserved_review_edits_at_checkpoint": 330,
   "current_checkpoint": {
-    "korean_document_read": "B1",
-    "english_document_read": "B1",
+    "korean_document_read": [
+      "B1",
+      "B2"
+    ],
+    "english_document_read": [
+      "B1"
+    ],
     "trilingual_full_family_ordered_read": "NOT_COMPLETE",
     "zh_row_checked_without_edit": [
       "B1-zh-00086"
     ],
-    "next_sequence": "Continue full Korean reading from B2, then complete all remaining Korean documents before beginning the full English-document sequence; only then resume Chinese rows in document order.",
+    "next_sequence": "Continue Korean source reading from A30764, B3, then A14110–A14120; after all Korean source documents are read, read every linked English source document, then resume Chinese row-by-row review.",
     "note": "B1-zh-00086 maps to Korean source 제1조(시행일) 이 법은 2022년 1월 1일부터 시행한다. Chinese text '第一条（生效日期）本法自2022年1月1日起生效。' is accurate; no edit warranted."
   },
-  "status_note": "Existing official review has 328 unique edit records at the checkpoint and remains IN_PROGRESS. The older handoff progress file contains an outdated review SHA and only 27 checked_ids; do not use it as the current review version. No completion receipt exists. Do not overwrite concurrent review updates; re-fetch review SHA before any future update. No source file changed."
+  "status_note": "Updated checkpoint after full Korean B1 and B2 reading and full English B1 reading. B1-zh-00086 verified accurate against Korean source; no edit. Review remains IN_PROGRESS. Handoff progress file is stale. No receipt exists. Do not overwrite concurrent review updates; re-fetch SHA before any review update. Source files unchanged."
 }
