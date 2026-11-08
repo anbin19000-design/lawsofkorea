@@ -5,7 +5,7 @@
   "panel_id": "panel-06",
   "checked_rows": 5228,
   "corrected_rows": 1554,
-  "status": "IN_PROGRESS",
+  "status": "COMPLETE",
   "source_commit": "9edde23de1ced67de890822d81f5dc165fabb013",
   "source_blobs": {
     "ko": "159cb5a14f8f5e07bea8f04a5437adbf4b15c6ba",
@@ -13,10 +13,10 @@
     "zh": "de02d84d8491a7aa79491594587e28914944a33a"
   },
   "review_path": "review/zh/F-115cdb63314b8273d5d5.json",
-  "review_blob_sha": "72ccae71fc832e93324b59e1793ac211effa7d38",
-  "note": "Completed full Korean-English-Chinese family review across all 5,228 Chinese rows, including the Act, Decree, ministerial rule, annexes and forms. Merged and preserved the leading 5,075-row bookmark and the independent 201-row bookmark; retained 83 unique secondary edits and reconciled all 25 overlaps, including five final source-level conflicts. Official review file was written through GitHub Contents API and read back with matching blob SHA. English source reference unavailable for 994 rows across 53 documents; those portions were checked against Korean. Original source blobs unchanged. Supplier-validation repair: the previous review had 84 blank text edits, which are not accepted in the canonical review. All 84 were source-bound adjudicated as intentional deletions/no-op decisions and preserved separately with original row IDs, source hashes, target IDs, neighboring row IDs and justifications; four additional A28849 broken continuation fragments were separately recorded. The canonical review now contains 1,558 unique nonblank edits only, including complete corrected text for A28849 items 2 and 3. The original laws/zh blob remains unchanged. Both canonical review and deletion-decision ledger were read back and verified. Additional ID validation: removed four non-source '-extra' edit IDs and merged their valid content into exact source row IDs B2-zh-00134, B2-zh-00208, B2-zh-00217 and B3-zh-00052. The four orphan IDs and decisions are documented in the source-bound decision ledger. Canonical review now has 1,554 nonblank edits, no empty text and no foreign IDs. Status remains IN_PROGRESS pending supplier's explicit validation of the corrected review/receipt/decision package.",
+  "review_blob_sha": "9c0dfd61372f61523faa095d19fd4fd10b844b11",
+  "note": "C06 / WORK-C / panel-06 completed the full Road Act family Chinese minimal review. All 5,228 Chinese rows were checked after full Korean and available English source reading, in the required KO_FULL_EN_FULL_ZH_FULL order. The canonical LAW_ZH_MINIMAL_REVIEW_V1 contains 1,554 unique nonblank corrections; all IDs exist in the original Chinese row manifest, with no duplicate or foreign IDs. The previous 84 blank correction entries were adjudicated as intentional deletions/no-op decisions, not missing translation, and preserved in a separate source-bound ledger with original source text/hash, neighboring row IDs, reasons and exact merged-into IDs. Four split continuation fragments and one additional duplicate row were also recorded, for 89 deletion/no-op decisions total. Four orphan '-extra' edits were merged into exact original source IDs and separately documented. All three original source blob SHAs match the assigned baseline; source laws were not modified. English reference is unavailable for 994 rows across 53 documents; those portions were checked against Korean. Canonical review and companion decision ledger were saved and re-read; this receipt references their exact read-back blob SHAs.",
   "empty_edit_decisions_path": "review/zh/F-115cdb63314b8273d5d5-empty-edit-decisions-C06-20261109-fe694466.json",
-  "empty_edit_decisions_blob_sha": "506420beb4eceb73b9d2b81d62dd29c1e35584c7",
-  "empty_edit_decisions_count": 88,
+  "empty_edit_decisions_blob_sha": "5100ff7bc63c73c560d5a3e85f711ac4e8c8e6a3",
+  "empty_edit_decisions_count": 89,
   "orphan_edit_decisions_count": 4
 }
