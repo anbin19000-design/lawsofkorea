@@ -1,0 +1,197 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-31334bc4303ae2cb3d80",
+  "worker": "C06",
+  "status": "IN_PROGRESS",
+  "document": "A22641",
+  "source_progress_sha": "a69b2785a392f80eecedeab72686f36450f10469",
+  "previous_quality_sha": "dc3c370289f8c4a0c8de0bbb0edbc509e6794ca0",
+  "aggregate_sha": "3326c6d23014c93da17d6e108f2fcf717f142395",
+  "ko_sha": "d6d795ff1ece4a82663a83efd46f7f73afa7fbbb",
+  "zh_sha": "7a6d1e8d841fb3b27185d6d4a6b811149d604dc0",
+  "checked_count": 18,
+  "checks": [
+    {
+      "id": "A22641-zh-00001",
+      "source_hash": "fe638212905e81da972e990fc3e3feb88e4729ba05766878ef6bf9dc59f17a8e",
+      "target_id": "XML:1607300",
+      "korean": "생활주변방사선 안전관리법 시행규칙 [별지 제9호서식] <신설 2023. 6. 7.>",
+      "original_text": "■ 生活环境辐射安全管理法实施细则[附件9] <2023年6月7日新增>",
+      "candidate_text": "■ 《生活环境辐射安全管理法实施规则》[附表格式第9号] <2023年6月7日新增>",
+      "verdict": "ACCEPT",
+      "final_text": "■ 《生活环境辐射安全管理法实施规则》[附表格式第9号] <2023年6月7日新增>"
+    },
+    {
+      "id": "A22641-zh-00002",
+      "source_hash": "a0d07c8d84eb67f572fed12aacabc6eaffe8e26d7cd5b6e4f2fac2995c1600b5",
+      "target_id": "XML:1607301",
+      "korean": "건강진단 결과 보고서",
+      "original_text": "健康检查结果报告",
+      "candidate_text": "健康检查结果报告书",
+      "verdict": "ACCEPT",
+      "final_text": "健康检查结果报告书"
+    },
+    {
+      "id": "A22641-zh-00004",
+      "source_hash": "83b29c435d77479c5bbdab2c46e151d4a5c4585948bedf8fdc8ffc99df051575",
+      "target_id": "XML:1607303",
+      "korean": "사업자",
+      "original_text": "业务操作员",
+      "candidate_text": "经营者",
+      "verdict": "ACCEPT",
+      "final_text": "经营者"
+    },
+    {
+      "id": "A22641-zh-00006",
+      "source_hash": "70a34a56b11d603959f0534c3ae0a6597cdceb25fd4ea07b7f9c0d643cf4c1f6",
+      "target_id": "XML:1607305",
+      "korean": "사업자등록번호",
+      "original_text": "营业执照号码",
+      "candidate_text": "经营者登记号码",
+      "verdict": "ACCEPT",
+      "final_text": "经营者登记号码"
+    },
+    {
+      "id": "A22641-zh-00010",
+      "source_hash": "9bcf16c099d8212f5de2adc40424be5085619276e9d998a2eb8c6589654971fb",
+      "target_id": "XML:1607309",
+      "korean": "(성명)",
+      "original_text": "(名称)",
+      "candidate_text": "（姓名）",
+      "verdict": "ACCEPT",
+      "final_text": "（姓名）"
+    },
+    {
+      "id": "A22641-zh-00016",
+      "source_hash": "bb30833c3ac5f36e05ba66c54c683b02bb5bd3cd49626cf18026a86b61ea906f",
+      "target_id": "XML:1607315",
+      "korean": "분기 보고내용",
+      "original_text": "季度报告",
+      "candidate_text": "季度报告内容",
+      "verdict": "ACCEPT",
+      "final_text": "季度报告内容"
+    },
+    {
+      "id": "A22641-zh-00017",
+      "source_hash": "0909c98c874340d6c25765c310d0c64b3e6d8c61a3bcf92a1db4294a6fd30da6",
+      "target_id": "XML:1607316",
+      "korean": "성 명",
+      "original_text": "名称",
+      "candidate_text": "姓名",
+      "verdict": "ACCEPT",
+      "final_text": "姓名"
+    },
+    {
+      "id": "A22641-zh-00018",
+      "source_hash": "0cfaa069c4d77e55af86144e32ee89b6d1bb736458ac46736e38965103c9fbd7",
+      "target_id": "XML:1607317",
+      "korean": "주민등록번호",
+      "original_text": "居民注册号",
+      "candidate_text": "居民登记号码",
+      "verdict": "ACCEPT",
+      "final_text": "居民登记号码"
+    },
+    {
+      "id": "A22641-zh-00021",
+      "source_hash": "7dc4d9b7cd10b1449da80d38f987033c0456c69cd1ddf4ac19908546c953eb25",
+      "target_id": "XML:1607320",
+      "korean": "혈색소량",
+      "original_text": "血红蛋白水平",
+      "candidate_text": "血红蛋白量",
+      "verdict": "ACCEPT",
+      "final_text": "血红蛋白量"
+    },
+    {
+      "id": "A22641-zh-00022",
+      "source_hash": "abbc9929c1399886d15783b1b7ed7dc3416c72538e823c04a84f52b0a0909853",
+      "target_id": "XML:1607321",
+      "korean": "판정소견",
+      "original_text": "评估结果",
+      "candidate_text": "诊断意见",
+      "verdict": "ACCEPT",
+      "final_text": "诊断意见"
+    },
+    {
+      "id": "A22641-zh-00023",
+      "source_hash": "f4ff6c2724e5adecf58d2632abb5b37b5b4bf156ac47a9fe24d33c43660f5aff",
+      "target_id": "XML:1607322",
+      "korean": "검진일",
+      "original_text": "考试日期",
+      "candidate_text": "健康检查日期",
+      "verdict": "ACCEPT",
+      "final_text": "健康检查日期"
+    },
+    {
+      "id": "A22641-zh-00026",
+      "source_hash": "5fb618857b3bcaddb43326d0ae9c56ff43e860d1ae3096df59cd69c7c3682b96",
+      "target_id": "XML:1607325",
+      "korean": "(PLT, 103/μL)",
+      "original_text": "(PLT, 103/μL)",
+      "candidate_text": "(PLT, 10³/μL)",
+      "verdict": "ACCEPT",
+      "final_text": "(PLT, 10³/μL)"
+    },
+    {
+      "id": "A22641-zh-00028",
+      "source_hash": "67113018fe6622a7afe96b1e27c88f1ef8222da2986aa3a93fa27ff225921837",
+      "target_id": "XML:1607327",
+      "korean": "「생활주변방사선 안전관리법」 제18조의2제1항제3호 및 같은 법 시행규칙 제8조의2제2항제5호",
+      "original_text": "根据《生活环境辐射安全管理法》第十八条之二第一款第三项和该法实施细则第八条之二第二款第五项的规定",
+      "candidate_text": "根据《生活环境辐射安全管理法》第十八条之二第一款第三号及该法实施规则第八条之二第二款第五号，",
+      "verdict": "ACCEPT",
+      "final_text": "根据《生活环境辐射安全管理法》第十八条之二第一款第三号及该法实施规则第八条之二第二款第五号，"
+    },
+    {
+      "id": "A22641-zh-00029",
+      "source_hash": "0eba35668f7c261801096f42c72f8205bbe9cff68221d02846de92dc68ae8002",
+      "target_id": "XML:1607328",
+      "korean": "같은 법 제18조제5항에 따른 건강진단 결과를 보고합니다.",
+      "original_text": "兹根据该法第18条第5款规定，报告健康检查结果。",
+      "candidate_text": "报告根据该法第十八条第五款进行的健康检查结果。",
+      "verdict": "ACCEPT",
+      "final_text": "报告根据该法第十八条第五款进行的健康检查结果。"
+    },
+    {
+      "id": "A22641-zh-00035",
+      "source_hash": "0c243e373da2082e1321b0abc85d68e86b7325c94042b2e4c6bf088dcbf40da6",
+      "target_id": "XML:1607334",
+      "korean": "원자력안전위원회",
+      "original_text": "核安全委员会",
+      "candidate_text": "核安全与安保委员会",
+      "verdict": "ACCEPT",
+      "final_text": "核安全与安保委员会"
+    },
+    {
+      "id": "A22641-zh-00036",
+      "source_hash": "d0618ded237932911627727b901c214672efcbff1fd036ad12fcc54e69bf50ed",
+      "target_id": "XML:1607335",
+      "korean": "귀중",
+      "original_text": "至",
+      "candidate_text": "收",
+      "verdict": "ACCEPT",
+      "final_text": "收"
+    },
+    {
+      "id": "A22641-zh-00037",
+      "source_hash": "41e11819187cd0d8c51419c8b34571d1f01d02758075137da10203ce9bd4c517",
+      "target_id": "XML:1607336",
+      "korean": "작성방법",
+      "original_text": "如何写入",
+      "candidate_text": "填写说明",
+      "verdict": "ACCEPT",
+      "final_text": "填写说明"
+    },
+    {
+      "id": "A22641-zh-00038",
+      "source_hash": "d3c31eed7269bf06a3c9bff9caf64ae9913f9e6833bfc42ec8a6b049fea5c77d",
+      "target_id": "XML:1607337",
+      "korean": "건강진단 판정소견 결과 특이사항이 있는 승무원에 대하여 작성합니다.",
+      "original_text": "本文件适用于健康检查结果有特定异常的船员。",
+      "candidate_text": "仅填写健康检查诊断意见结果存在特殊事项的乘务员。",
+      "verdict": "ACCEPT",
+      "final_text": "仅填写健康检查诊断意见结果存在特殊事项的乘务员。"
+    }
+  ],
+  "next_quality_scope": "A22640",
+  "note": "Source-checked A22641 corrections; original IDs and hashes unchanged."
+}
