@@ -1,0 +1,19 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_RECEIPT_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "checked_rows": 1687,
+  "corrected_rows": 1079,
+  "status": "COMPLETE",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_blob": "fd93c7ce4b76e9abe8238519d7091e55e8955470",
+  "note": "Completed the full franchise-law family: Korean sources read in full, available English sources read in order, and all 1,687 Chinese rows across 18 documents sequentially checked against Korean. Preserved existing accurate translations and applied only source-grounded minimal corrections/refinements. Final QC: 1,687 unique row IDs; all 1,079 correction source hashes match the original Chinese rows; no missing rows; no uncorrected MTQ/START/Korean residue (the Korean sample label in A34917-zh-00079 is intentionally preserved); formula rows in A34911 visually verified against the official Korean schedule PDF. Exact English independently available for B1; other English references are family fallbacks, so Korean-Chinese comparison was used where exact English was unavailable. Original source blob SHA values unchanged."
+}
