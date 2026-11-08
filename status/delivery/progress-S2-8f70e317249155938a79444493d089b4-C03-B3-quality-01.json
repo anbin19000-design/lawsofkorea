@@ -1,0 +1,54 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "B3",
+  "quality_batch": "B3-quality-01",
+  "range": {
+    "first": "B3-zh-00010",
+    "last": "B3-zh-00012"
+  },
+  "quality_checked_rows": 3,
+  "quality_passed_rows": 3,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "B3-zh-00010",
+    "B3-zh-00011",
+    "B3-zh-00012"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B3-00010-00019.json",
+  "results": [
+    {
+      "id": "B3-zh-00010",
+      "source_hash": "ad351be82919628feafdf2f31e78077f14de7ecb222f7c0b5e667d8e10241e90",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "한국어 시행규칙 제9조 제1~3항과 비교하여 미성년 피해자 및 직계비속 가족구성원의 입소 통지, 법 제23조제2항 예외, 제22조제2항·제34조제1항제2호 및 별지 제12호서식 인용을 보존했음을 확인."
+    },
+    {
+      "id": "B3-zh-00011",
+      "source_hash": "dbc5e6ad522302d711e96681254478ac45c2f9b483a092ff67251185aabfb2e3",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "한국어 제10조 5개 항의 시설별 연장 사유 및 법 제33조제3·4항 단서 인용, 입소기간 연장 15일 이내 통보, 별지 제13호서식 및 장애인시설의 진단서·소견서 요건을 확인."
+    },
+    {
+      "id": "B3-zh-00012",
+      "source_hash": "63ea54a2993d45926aaa68c4757136b6c2f046095b1258424a6d662f53aadcbc",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "한국어 제11조와 비교하여 입소기간 만료·긴급구조 목적 달성·본인 희망·부정 입소의 4가지 퇴소사유를 정확하게 보존함."
+    }
+  ],
+  "edits": [],
+  "note": "제9~11조 B3 저장 교정 3건을 한국어 원문의 원래 행과 대조해 품질 확정. 기존 진행·품질 기록 유지. 전체 1136행 통합검증 전이므로 COMPLETE 및 영수증은 생성하지 않음."
+}
