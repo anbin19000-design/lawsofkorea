@@ -1,0 +1,61 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "panel_id": "panel-02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:cdb16aa1344a",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "prior_master_blob_sha": "bafa3777c04a1332b69bf122e10619b9bcff7016",
+  "checkpoint_type": "RULE_ARTICLE_DIRECT_COMPARISON",
+  "checked_ids": [
+    "B3-zh-00002",
+    "B3-zh-00004"
+  ],
+  "checked_rows_new": 2,
+  "edits": [
+    {
+      "id": "B3-zh-00002",
+      "source_hash": "1ead33533718e10f807b7999e535008f399b8c904024412bc74124a1db88f536",
+      "target_id": "8f5cf23ae0a3233ab39c873011233af2537827eaa31da971081d7b556d1e4a1b",
+      "text": "第一条（目的）本规则的目的是规定《智慧城市建设及产业振兴等相关法律》及其施行令授权的事项，以及为实施该等法律所必需的事项。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-cdb16aa1344a-rule.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Rule Article 1 expressly refers to delegated matters of the parent Act and its Enforcement Decree, not the parent Act and 'implementation rules'."
+    },
+    {
+      "id": "B3-zh-00004",
+      "source_hash": "8c865a4a1033261b59b0741ebd2c1bfba0d5104cc028ece67d2126186af05125",
+      "target_id": "040152a04dda12c0eef4ae59d74e2dc365cdb74f8dc7060054bc0d6d941b8655",
+      "text": "第三条（国家试点城市建设项目绩效评价的实施）\n① 国土交通大臣应当按照第三条之三的规定，通过绩效评估委员会的审议，对国家试点城市建设项目绩效进行评估，并将评估结果通知项目实施方。\n② 收到第1款通知的项目实施者如对结果有异议，可自收到通知之日起10日内向国土交通大臣提交异议详情及相关说明材料。\n③ 如有人根据第 2 款提出异议，国土交通大臣应在绩效评估委员会重新审议后，决定是否采纳该异议的内容。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-cdb16aa1344a-rule.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Rule Article 3 refers to Article 3-3 evaluation committee, not Article 3 paragraph 3."
+    }
+  ],
+  "english_unavailable_for": [
+    "B3",
+    "A25465",
+    "A25466",
+    "A25467",
+    "A25468",
+    "A25469",
+    "A25470",
+    "A25471",
+    "A25472",
+    "A25473",
+    "A25474"
+  ],
+  "ordered_reading_certification": {
+    "ko": false,
+    "en": false,
+    "zh": false
+  },
+  "notes": "Only Korean-supported mistranslations changed. No complete ordered source-reading certification."
+}
