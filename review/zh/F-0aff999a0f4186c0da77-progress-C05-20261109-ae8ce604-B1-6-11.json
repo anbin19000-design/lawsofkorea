@@ -1,0 +1,36 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_blob_after_save": "bb36960588afff03e15b5f406b16000c0e5029ba",
+  "prior_corrections_preserved": 787,
+  "cumulative_corrections": 787,
+  "new_corrections": [
+    "B1-zh-00011",
+    "B1-zh-00013",
+    "B1-zh-00018"
+  ],
+  "inspected_span": "B1 Articles 6-3, 6-5 and 11 checked in sequence; three material corrections. Adjacent Articles 6-4, 7–10 and 11-2–12-6 rechecked.",
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "chinese_total_rows": 1687,
+  "checked_rows": 512,
+  "corrected_rows": 787,
+  "quality_open_items": [
+    "Full sequential semantic audit of all 1,687 Chinese rows remains incomplete",
+    "429 rows without independently exact English require direct Korean/Chinese semantic comparison",
+    "Remaining law/decree/annex/form rows require untruncated semantic comparison and final quality control"
+  ],
+  "note": "Three B1 legal-semantic corrections appended; all prior corrections/source hashes preserved. Review saved through GitHub Contents API; IN_PROGRESS, no completion receipt."
+}
