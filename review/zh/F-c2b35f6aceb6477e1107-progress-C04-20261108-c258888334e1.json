@@ -1,0 +1,44 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-c2b35f6aceb6477e1107",
+  "worker": "C04",
+  "assignment_marker": "c258888334e1",
+  "status": "IN_PROGRESS",
+  "source_blob_shas": {
+    "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
+    "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
+    "zh": "f8879f4a12299069e4831b03f15a2a2fa30c8089"
+  },
+  "docs": 15,
+  "zh_rows": 1241,
+  "english_with_reference": 911,
+  "english_without_reference": 330,
+  "prior_edits": 183,
+  "added_ids": [
+    "A14118-zh-00003",
+    "A14118-zh-00029",
+    "A14118-zh-00039",
+    "A14118-zh-00043",
+    "A14119-zh-00020",
+    "A14117-zh-00032",
+    "A14117-zh-00041",
+    "A14117-zh-00044",
+    "A14114-zh-00017",
+    "A14115-zh-00008",
+    "A14115-zh-00018",
+    "A14115-zh-00123"
+  ],
+  "total_edits": 195,
+  "review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
+  "review_commits": [
+    "510c48ec86d9c4e1fbd91e56293e7a07d1ba5f97",
+    "7e7fec30cba9f71eee123bd3a30116a804206ea7"
+  ],
+  "stages_complete": {
+    "korean": false,
+    "english": false,
+    "chinese": false
+  },
+  "completion_receipt": false,
+  "note": "12 narrowly grounded translation corrections; all prior 183 preserved; exact SHA maintained. Full-family Chinese semantic coverage and Korean/English full reading are not certified."
+}
