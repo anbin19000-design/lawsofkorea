@@ -1,0 +1,58 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:0c6e6b1f3281",
+  "status": "IN_PROGRESS",
+  "phase": "ANNEX_LAYOUT_QUALITY_RECONCILIATION",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_en_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "review_blob_sha": "73d9eb03f27b621ef1d6429a0c46d26cd12a3760",
+  "read_stages_preserved": {
+    "full_korean_read": true,
+    "full_available_english_read": true,
+    "all_chinese_1136_rows_examined": true
+  },
+  "total_documents": 22,
+  "review_edit_count": 792,
+  "new_edits": 0,
+  "existing_edits_amended": [
+    {
+      "id": "A39478-zh-00025",
+      "before": "有下列任一情形的，可以在原处分标准二分之一的范围内减轻停止业务处分。",
+      "after": "可以在原处分标准二分之一的范围内减轻停止业务处分。",
+      "source_reason": "Korean Annex 5 subparagraph 마 has the conditional phrase exactly once; Chinese row 24 already supplies it."
+    }
+  ],
+  "unresolved_source_layout_ids": [
+    "A39474-zh-00040",
+    "A39476-zh-00006",
+    "A39476-zh-00010",
+    "A39477-zh-00006",
+    "A39477-zh-00008",
+    "A39478-zh-00027",
+    "A26697-zh-00008",
+    "A26699-zh-00053"
+  ],
+  "investigation": "GitHub code search found past review checkpoints but no independent evidence of original XML text for isolated target IDs. Source family JSON contains Korean plain-text annex/form content and Chinese target IDs, without an authoritative per-cell Korean mapping. No speculative deletion made.",
+  "english_document_missing_for": [
+    "B3",
+    "A26693",
+    "A26694",
+    "A26695",
+    "A26696",
+    "A26697",
+    "A26698",
+    "A26699",
+    "A26700",
+    "A26701",
+    "A26702",
+    "A26703",
+    "A26704",
+    "A26705"
+  ],
+  "final_meaning_review_certified": false,
+  "complete_receipt_authorized": false,
+  "next_action": "Acquire/verify raw source XML provenance for held target IDs; then integrate final semantics and issue COMPLETE only after full integrity checks."
+}
