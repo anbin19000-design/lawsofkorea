@@ -1,0 +1,35 @@
+{
+  "schema": "LAW_ZH_C02_CANDIDATE_ADJUDICATION_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "task_marker": "60cef5c6b26b",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "scope": "A25465 Korean Form 3 initial 4 cells, historical variant adjudication",
+  "decisions": [
+    {
+      "id": "A25465-zh-00001",
+      "decision": "RETAIN_MASTER",
+      "reason": "'〔附页第3号格式〕' and '[附页第3号格式]' designate same Korean [별지 제3호서식]; punctuation variation does not justify replacing accepted correction."
+    },
+    {
+      "id": "A25465-zh-00003",
+      "decision": "RETAIN_MASTER",
+      "reason": "Both variants say applicant does not fill shaded field; Korean '색상이 어두운 칸은 신청인이 적지 않으며' already conveyed by master."
+    },
+    {
+      "id": "A25465-zh-00004",
+      "decision": "RETAIN_MASTER",
+      "reason": "Both variants accurately preserve Korean instruction to check relevant box with √; punctuation/word choice only."
+    }
+  ],
+  "english_note": "No direct English document for A25465; Korean original controls.",
+  "new_edits": 0,
+  "remaining_candidates_expected": 186,
+  "completion_receipt_verified": false
+}
