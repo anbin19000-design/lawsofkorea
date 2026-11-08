@@ -1,0 +1,41 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_blob_after_save": "7b77b60cb9dc0da2e926828fa2d81f505723b938",
+  "prior_corrections_preserved": 855,
+  "cumulative_corrections": 863,
+  "new_corrections": [
+    "A34909-zh-00026",
+    "A34909-zh-00042",
+    "A34909-zh-00043",
+    "A34909-zh-00044",
+    "A34909-zh-00045",
+    "A34909-zh-00052",
+    "A34909-zh-00053",
+    "A34909-zh-00055"
+  ],
+  "inspected_span": "A34909 rows 26–55 sequentially rechecked against the Korean annex text; eight clear translation/numbering defects corrected. Rows 1–25 and 26–55 retained with prior decisions.",
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "chinese_total_rows": 1687,
+  "checked_rows": 849,
+  "corrected_rows": 863,
+  "quality_open_items": [
+    "Full sequential semantic audit of all 1,687 Chinese rows remains incomplete",
+    "429 rows without independently exact English require direct Korean/Chinese semantic comparison",
+    "Remaining annex/form rows require untruncated semantic comparison and final quality control"
+  ],
+  "note": "Eight additional corrections saved in official review file; original text, source hashes, and prior correction records preserved. IN_PROGRESS; no receipt."
+}
