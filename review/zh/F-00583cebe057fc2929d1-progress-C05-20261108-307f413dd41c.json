@@ -1,0 +1,35 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "family": "실용신안법",
+  "worker": "C05",
+  "assignment_marker": "[WORK-TASK:C05:F-00583cebe057fc2929d1:307f413dd41c]",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "552df98c5ab889b8be24efd41fb96f5ffa9644f5",
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "prior_corrections": 227,
+  "new_corrections": [
+    {
+      "id": "B1-zh-00038",
+      "source_hash": "ea7d18f5284806ef13ec27df1c9911f87dc3b67f7d05dc0f03210bb5aad84f6f",
+      "decision": "CORRECT",
+      "reason": "제29조 한국어 '업으로서' 및 동일 버전 공식 영어 'commercial act / for commercial or industrial'에 비추어 영리 목적 여부로 제한되는 '以营利为目的' 두 곳만 영업행위 뜻으로 보정."
+    }
+  ],
+  "total_corrections": 228,
+  "pending_rows_preserved": 89,
+  "english_note": "Official exact-version EN for B1 and B2; B3 and forms have old-version fallback only, not same-version authoritative translation. Official EN article 29 reviewed.",
+  "reading_status": "FULL_KO_EN_ZH_SEQUENTIAL_READING_NOT_VERIFIED",
+  "completion_receipt": null,
+  "notes": "원문 3 blob SHA 불변. 기저장 227 교정 보존, 이번 제29조 1행에서 업으로서를 영리목적으로 한정한 의미 오역 2곳 최소 교정. 판독/대응 보류 89행 및 전체 순차 독해 검증 미완료. 다음 법령 미수취."
+}
