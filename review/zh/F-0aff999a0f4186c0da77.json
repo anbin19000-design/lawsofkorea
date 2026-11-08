@@ -17,11 +17,11 @@
     "en": "laws/en/F-0aff999a0f4186c0da77.json",
     "zh": "laws/zh/F-0aff999a0f4186c0da77.json"
   },
-  "progress_path": "review/zh/F-0aff999a0f4186c0da77-progress-C05-16c9500f212b.json",
+  "progress_path": "review/zh/F-0aff999a0f4186c0da77-progress-C05-0ecaf31c3202.json",
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 116,
+    "correction_count": 123,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -837,6 +837,55 @@
       "original": "第32条之4（公布收到改正令的事实的方法）\n① 根据本法第33条第3款，公平交易委员会拟责令有关特许经营者公布其已收到整改令的事实时，应当参照下列各款规定，确定公布的内容、媒体类型和数量、版面大小等，并作出整改令。\n1. 违规内容和程度\n2. 违规的周期和频率\n② 公平交易委员会依据第1款命令公开宣布已收到纠正令时，可以要求有关特许经营者事先就措辞等事宜咨询公平交易委员会。\n\n",
       "corrected": "第三十二条之四（收到纠正命令事实的公布方法）\n① 公平交易委员会拟依本法第33条第3款命令相关加盟总部公布其收到纠正命令的事实时，应考虑下列事项，确定公布内容、媒体种类及数量、版面大小等，并命令其公布。\n1. 违法行为的内容及程度\n2. 违法行为的期间及次数\n② 公平交易委员会依第①款命令公布收到纠正命令的事实时，可以要求相关加盟总部事先就公告文案等与公平交易委员会进行协商。\n\n",
       "reason": "第32条之4第①款原译误将‘命令公布’写成‘作出整改令’，第②款协商文案的主体关系亦不准确；按韩文修复。"
+    },
+    "B2-zh-00079": {
+      "doc": "B2",
+      "source_hash": "d74cc0ae9d1bfc18090da2e3581e8cd10579cc704e5294cdaeca5a5e86a38d49",
+      "original": "第九条（关于提供信息披露声明的特别规定）尽管第六条第四款的规定有所修改，但自本法令生效之日起六个月内，特许人不得提供有关拟加盟商计划开设的未来店铺位置附近的店铺的文件。\n\n",
+      "corrected": "第九条（关于提供信息披露声明的特别规定）尽管第六条第四款的规定有所修改，但自本法令生效之日起六个月内，特许人可以不提供有关潜在加盟商拟开设店铺地点附近其他店铺的文件。\n\n",
+      "reason": "원문 ‘제공하지 아니할 수 있다’는 제공 생략을 허용하는 규정인데 중국어가 제공 금지 의무로 반전됨."
+    },
+    "B2-zh-00083": {
+      "doc": "B2",
+      "source_hash": "753b70181f7011599899632a7c7bb290aab3bb9298d9d9bea6b78b608911d389",
+      "original": "第26条（修改其他法律）① 对特许经营业务公平交易法实施令部分修改如下。\n\n  第五条第六款第四项规定如下。\n\n    4. 根据《资本市场和金融投资业务法》受托人\n\n  ② 至 <113> 省略\n\n",
+      "corrected": "第26条（修改其他法律）① 对特许经营业务公平交易法实施令部分修改如下。\n\n  第五条之六第4项规定如下。\n\n    4. 根据《资本市场和金融投资业务法》受托人\n\n  ② 至 <113> 省略\n\n",
+      "reason": "제5조의6제4호를 제5조제6항제4호로 잘못 인용한 명백한 인용 오류."
+    },
+    "B2-zh-00093": {
+      "doc": "B2",
+      "source_hash": "8b24f11105fafe98ca9b9e9345250f931daaa69ff2ac45751b4354e844cd8c3c",
+      "original": "第四条（修改其他法律）①至⑤ 省略\n\n  6. 对特许经营业务公平交易法实施细则的部分内容修改如下。\n\n  除第 5 条第 2 款第 1 项的子款外，第 1 号表格首页的但书规定，“电子政务法第 21 条第 1 款”应改为“电子政务法第 36 条第 1 款”。\n\n  省略⑦至<192>\n\n",
+      "corrected": "第四条（修改其他法律）①至⑤ 省略\n\n  ⑥ 对特许经营业务公平交易法实施令的部分内容修改如下。\n\n  第5条之2第1款各项以外部分的但书及附件第1号表格首页中的，“电子政务法第 21 条第 1 款”应改为“电子政务法第 36 条第 1 款”。\n\n  省略⑦至<192>\n\n",
+      "reason": "시행령을 시행세칙으로 오인하고 제5조의2제1항 각 호 외 부분 단서의 조문 구조를 잘못 옮긴 오류."
+    },
+    "B2-zh-00095": {
+      "doc": "B2",
+      "source_hash": "830f944fe5a963fd281e252b0590affca9804b2d5552b349ea33f54cf5e5d0da",
+      "original": "第一条（生效日期）本法令自公布之日起三个月后生效。但是，第五条和第五至第七条的修正规定自其公布之日起生效。\n\n",
+      "corrected": "第一条（生效日期）本法令自公布之日起三个月后生效。但是，第五条和第五条之七的修正规定自其公布之日起生效。\n\n",
+      "reason": "제5조의7을 제5조부터 제7조까지의 범위로 잘못 번역한 오역."
+    },
+    "B2-zh-00098": {
+      "doc": "B2",
+      "source_hash": "1b66a74f97b608261d7c3f49d6b78b7e20a1b6c26c818eff7c64b1cf5ab03496",
+      "original": "第四条（关于信息披露声明登记的特别规定）尽管第五条第三款第二项的规定有所修改，但特许经营者如欲在本法令实施后变更附件一第2项第（f）款和第（h）款、第（c）款至第（f）款和第（g）款第3）项和第（h）款所列事项，公平交易委员会可在30日内办理登记手续。\n\n",
+      "corrected": "第四条（关于信息披露声明登记的特别规定）尽管第五条之三第2款的规定有所修改，但特许经营者如欲在本法令实施后变更附表1第2号第f目及第h目、第3号第c目至第f目、第g目第3）小目及第h目所列事项，公平交易委员会可在30日内办理登记手续。\n\n",
+      "reason": "제5조의3제2항을 제5조제3항제2호로 오인하고 별표1 제3호의 문맥을 누락한 인용 오류."
+    },
+    "B2-zh-00099": {
+      "doc": "B2",
+      "source_hash": "f35206cdb68198dea8dc7190c75f74f6c54031c0c31c1a88199e5773bdad1fdb",
+      "original": "第五条（关于行政处罚标准的过渡措施）  对本法令生效前发生的行为适用行政处罚标准时，应当沿用先前的判例。\n\n",
+      "corrected": "第五条（关于行政处罚标准的过渡措施）  对本法令生效前发生的行为适用行政处罚标准时，应当按照此前的规定办理。\n\n",
+      "reason": "‘종전의 예에 따른다’는 종전 기준 적용을 의미하며 판례 적용이 아님."
+    },
+    "B2-zh-00102": {
+      "doc": "B2",
+      "source_hash": "4dafb1b1f16aee5649215aa6df8adb13bcbff443aba6433274a1f69b5204e759",
+      "original": "第七条（修改其他法律）①《特许经营业务公平交易法》实施令部分修改如下。\n\n  在第 5-4 条第 1 款中，“公共机构个人信息保护法第 2 条第 2 款”应改为“个人信息保护法第 2 条第 1 款”。\n\n  跳过 ② 到 ⑥\n\n",
+      "corrected": "第七条（修改其他法律）①《特许经营业务公平交易法》实施令部分修改如下。\n\n  在第 5-4 条第 1 款中，“公共机构个人信息保护法第2条第2号”应改为“个人信息保护法第2条第1号”。\n\n  跳过 ② 到 ⑥\n\n",
+      "reason": "제2조제2호·제1호의 ‘호’를 ‘항’으로 오인한 법조문 인용 오류."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -886,7 +935,8 @@
     "C05 081ce62a2467 continuation: B2 Article 13-2(2) exception narrowed correctly to additional work unrelated to franchise uniformity; paragraph numbering restored. Also normalized paragraph line breaks in Article 5-2 correction. IN_PROGRESS.",
     "C05 16c9500f212b: B2 Articles 14-18 reviewed; corrected Article 15 administrative termination grounds/lettering, Article 16-2 insurance contract termination prohibition (critical reversal), Article 17 paragraph numbering, and Article 18 dispute committee identity. Existing edits preserved; IN_PROGRESS.",
     "C05 16c9500f212b continuation: B2 Articles 21-2, 25, 27-29 corrected for dispute committee identity, reporting direction, wrong court-stay cross-reference, missing paragraph labels and exam exemption/fee refund kinship scope. Prior corrections preserved; IN_PROGRESS.",
-    "C05 16c9500f212b continuation: B2 Articles 30, 32-3 and 32-4 corrected for missing paragraph markers and publication-order legal effect. Prior work preserved; IN_PROGRESS."
+    "C05 16c9500f212b continuation: B2 Articles 30, 32-3 and 32-4 corrected for missing paragraph markers and publication-order legal effect. Prior work preserved; IN_PROGRESS.",
+    "C05 0ecaf31c3202: B2 transitional provisions sequential inspection rows 79-105, seven confirmed errors in permissive clause, article-number citations, annex citations, old-standard application corrected; full family review not certified."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -895,5 +945,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 116
+  "corrected_rows": 123
 }
