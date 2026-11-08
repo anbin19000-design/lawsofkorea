@@ -2,7 +2,7 @@
   "job_id": "F-b5c27d20d49b721e47e6",
   "worker": "C05",
   "checked_rows": 1207,
-  "corrected_rows": 777,
+  "corrected_rows": 746,
   "status": "COMPLETE",
   "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
   "source_blobs": {
@@ -11,7 +11,16 @@
     "zh": "66ea4d0981f8e1a76348309f8254051d4914f693"
   },
   "review_path": "review/zh/F-b5c27d20d49b721e47e6.json",
-  "review_blob_sha": "6d1da625cfb4a36f5037e683993f485b8aef1923",
+  "review_blob_sha": "d5959ea87d85ebe3bb80861d6938ef3e6be11c53",
   "document_count": 17,
-  "note": "Single-family Chinese minimal review complete: 17 documents, 1207 unique checked rows and 777 unique corrected IDs. All source blob SHAs unchanged. Three duplicated edits reconciled by Korean-source review; original progress checkpoints preserved. English reference aligned to 785 rows, unavailable on 422 and historical fallback used only as reference."
+  "note": "COMPLETE after verification: 17 documents, 1207 checked IDs, 746 substantive nonempty corrections and 31 explicitly recorded removals of nonsemantic OCR/MTQ fragments. All 777 originally recorded edit decisions accounted for; see immutable adjudication record. KO/EN/ZH source blobs unchanged; English index supports 785 references, 422 unavailable.",
+  "removed_noise_rows": 31,
+  "total_adjudicated_changes": 777,
+  "previous_review_blob_sha": "6d1da625cfb4a36f5037e683993f485b8aef1923",
+  "empty_edit_adjudication": {
+    "path": "status/delivery/empty-edit-adjudication-F-b5c27d20d49b721e47e6-C05-20261108.json",
+    "blob_sha": "a35d31d6330307fc516ed7eee7d1c9c385dc1798",
+    "decision_count": 31,
+    "original_review_blob_sha": "6d1da625cfb4a36f5037e683993f485b8aef1923"
+  }
 }
