@@ -1,0 +1,129 @@
+{
+  "schema": "LAW_ZH_QUALITY_AGGREGATE_V1",
+  "job_id": "F-31334bc4303ae2cb3d80",
+  "worker": "C06",
+  "status": "IN_PROGRESS",
+  "source": {
+    "ko_sha": "d6d795ff1ece4a82663a83efd46f7f73afa7fbbb",
+    "zh_sha": "7a6d1e8d841fb3b27185d6d4a6b811149d604dc0",
+    "en_sha": "16e015facbcef00df95c985f816f47acf7bcfef7"
+  },
+  "aggregate_parts": [
+    {
+      "path": "review/zh/F-31334bc4303ae2cb3d80-C06-quality-aggregate-01.json",
+      "sha": "9e30ecbb1592228db08c06264a416d30b64d44f4"
+    },
+    {
+      "path": "review/zh/F-31334bc4303ae2cb3d80-C06-quality-aggregate-02.json",
+      "sha": "2cafe78110090ce11bc726fba1f7a81577cc04ae"
+    }
+  ],
+  "progress_files": 26,
+  "documents": 19,
+  "checked_range_rows": 1206,
+  "original_rows": 1206,
+  "edit_occurrences": 595,
+  "unique_edit_ids": 595,
+  "duplicate_ids": [],
+  "unknown_original_ids": [],
+  "per_document": [
+    {
+      "doc": "B1",
+      "rows": 74,
+      "corrected_unique": 18
+    },
+    {
+      "doc": "B2",
+      "rows": 55,
+      "corrected_unique": 19
+    },
+    {
+      "doc": "A37294",
+      "rows": 41,
+      "corrected_unique": 27
+    },
+    {
+      "doc": "A37295",
+      "rows": 262,
+      "corrected_unique": 105
+    },
+    {
+      "doc": "B3",
+      "rows": 23,
+      "corrected_unique": 9
+    },
+    {
+      "doc": "A22629",
+      "rows": 77,
+      "corrected_unique": 52
+    },
+    {
+      "doc": "A22630",
+      "rows": 55,
+      "corrected_unique": 45
+    },
+    {
+      "doc": "A22631",
+      "rows": 59,
+      "corrected_unique": 34
+    },
+    {
+      "doc": "A22632",
+      "rows": 26,
+      "corrected_unique": 15
+    },
+    {
+      "doc": "A22633",
+      "rows": 55,
+      "corrected_unique": 36
+    },
+    {
+      "doc": "A22634",
+      "rows": 67,
+      "corrected_unique": 35
+    },
+    {
+      "doc": "A22635",
+      "rows": 55,
+      "corrected_unique": 27
+    },
+    {
+      "doc": "A22636",
+      "rows": 42,
+      "corrected_unique": 22
+    },
+    {
+      "doc": "A22637",
+      "rows": 27,
+      "corrected_unique": 15
+    },
+    {
+      "doc": "A22638",
+      "rows": 58,
+      "corrected_unique": 30
+    },
+    {
+      "doc": "A22639",
+      "rows": 90,
+      "corrected_unique": 35
+    },
+    {
+      "doc": "A22640",
+      "rows": 62,
+      "corrected_unique": 33
+    },
+    {
+      "doc": "A22641",
+      "rows": 39,
+      "corrected_unique": 18
+    },
+    {
+      "doc": "A22642",
+      "rows": 39,
+      "corrected_unique": 20
+    }
+  ],
+  "quality_first_id": "A22642-zh-00001",
+  "quality_first_verdict": "ACCEPT",
+  "note": "Integrity validation only; candidate text semantic QA still required before COMPLETE review and receipt."
+}
