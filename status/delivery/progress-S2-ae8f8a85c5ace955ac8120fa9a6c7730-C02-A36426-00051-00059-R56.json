@@ -1,0 +1,63 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "checked_rows": 9,
+  "checked_ids": [
+    "A36426-zh-00051",
+    "A36426-zh-00052",
+    "A36426-zh-00053",
+    "A36426-zh-00054",
+    "A36426-zh-00055",
+    "A36426-zh-00056",
+    "A36426-zh-00057",
+    "A36426-zh-00058",
+    "A36426-zh-00059"
+  ],
+  "edits": [
+    {
+      "id": "A36426-zh-00051",
+      "text": "依据《政府出资研究机构等的设立、运营"
+    },
+    {
+      "id": "A36426-zh-00052",
+      "text": "及培育相关法律》第八条"
+    },
+    {
+      "id": "A36426-zh-00053",
+      "text": "设立的韩国交通研究院"
+    },
+    {
+      "id": "A36426-zh-00054",
+      "text": "依据《产业技术创新促进法》第四十二条"
+    },
+    {
+      "id": "A36426-zh-00055",
+      "text": "设立的机器人相关专业生产技术研究所"
+    },
+    {
+      "id": "A36426-zh-00056",
+      "text": "依据《韩国教育学术信息院法》设立的韩国"
+    },
+    {
+      "id": "A36426-zh-00057",
+      "text": "教育学术信息院"
+    },
+    {
+      "id": "A36426-zh-00058",
+      "text": "韩国水资源公社"
+    },
+    {
+      "id": "A36426-zh-00059",
+      "text": "韩国土地住宅公社"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "note": "R56: Annex 3 last 9 Chinese cells compared against Korean adjacent table lines. Corrected government-funded research institutions act, Korea Transport Institute, robotics research institute, Korean Education and Research Information Service, K-water and Korea Land and Housing Corporation. Preserve all existing progress and original rows/hashes. No COMPLETE receipt."
+}
