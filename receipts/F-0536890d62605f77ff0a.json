@@ -1,0 +1,31 @@
+{
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "checked_rows": 1136,
+  "corrected_rows": 791,
+  "status": "COMPLETE",
+  "source_commit": "b27342935db74e8a67977fbc1b3a9e92eea6f0db",
+  "source_blobs": {
+    "ko": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+    "en": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+    "zh": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c"
+  },
+  "review_path": "review/zh/F-0536890d62605f77ff0a.json",
+  "review_blob_sha": "6efb3c7a3377968c425428c6488a1c41f26241e7",
+  "document_count": 22,
+  "removed_noise_rows": 9,
+  "total_adjudicated_changes": 800,
+  "previous_review_blob_sha": "6aa73645db2b2b9edea42f4157421c8afacc1207",
+  "empty_edit_adjudication": {
+    "path": "status/delivery/empty-edit-adjudication-F-0536890d62605f77ff0a-C03-20261108.json",
+    "blob_sha": "04b8b6e376e038681550d4fd72318b034a2ba6f6",
+    "decision_count": 9,
+    "original_review_blob_sha": "6aa73645db2b2b9edea42f4157421c8afacc1207"
+  },
+  "english_coverage": {
+    "exact": 1,
+    "older_fallback": 7,
+    "no_document_english": 14
+  },
+  "note": "C03 official family receipt: 22 linked documents, 1136 unique Chinese IDs fully reviewed, 791 nonempty minimal corrections and 9 separately adjudicated nonsemantic OCR/segmentation fragments. No empty edits in final review. Earlier 800 decisions conserved as edits+adjudication ledger. Korean source controls, older English decree only reference; no document English for implementing ordinance/forms. KO/EN/ZH source blobs unchanged from required baseline."
+}
