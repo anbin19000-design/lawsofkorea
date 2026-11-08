@@ -2,7 +2,7 @@
   "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-7423351d4946866bbacf",
   "worker": "C01",
-  "checked_rows": 52,
+  "checked_rows": 54,
   "edits": [
     {
       "id": "B1-zh-00065",
@@ -1007,10 +1007,18 @@
     {
       "id": "B3-zh-00046",
       "text": "第 44 条（支持渔业产品流通项目信息化的组织）本法第 51 条第 2 款中，“海洋水产部条例规定的与渔业产品有关的组织”是指下列各款所列的组织。\n1. 根据施行令第3条规定的生产者团体和生产者\n2. 根据该法第53条设立的渔业产品流通协会和根据该法第54条设立的渔业产品流通相关组织\n\n"
+    },
+    {
+      "id": "B3-zh-00049",
+      "text": "第47条（条例审查）海洋水产大臣应每三年根据下列各款规定的参考日期（即每三年之年的1月1日之前）审查下列各款所列事项的有效性，并采取改进等措施。\n1. 根据第7-2条规定，海产品交易地点受到限制：2020年1月1日\n2. 根据第11条第2款购买和批发水产品的拍卖市场经营者有义务保留记录：2022年1月1日\n3. 根据第14条规定，许可产地中间批发商之间进行交易：2022年1月1日\n4. 根据第24条及附表1规定的各类违法行为处分标准等：2022年1月1日\n\n"
+    },
+    {
+      "id": "B3-zh-00018",
+      "text": "第十六条（电子拍卖和竞价的例外情况）根据本法第十九条第三款的规定，可以采用举手法、记录法或书面竞价法等方式进行拍卖或竞价的情况如下：\n1. 出售为调节供求和稳定价格而购买、储备或进口的渔业产品的情况\n2. 其他考虑品目及地区特性后，拍卖市场开设者认为有必要的情况\n\n"
     }
   ],
   "status": "IN_PROGRESS",
-  "note": "IN_PROGRESS. 251 distinct Chinese source rows corrected; retained previous 248 corrections. New B3 Art 7-2 breeding seed eel exception, Art 24 inclusive 'at or below' thresholds, Art 44 producer groups pursuant to Enforcement Decree 3. Source SHA unchanged; Rule/annex/form lacks independent English. Entire 1207-row family semantic and source XML cell alignment not yet certified; no COMPLETE receipt.",
+  "note": "IN_PROGRESS. 253 unique corrected rows, existing corrections preserved. Further new B3 Art 47(3)-(4) conditional permit inter-intermediate wholesalers and violation-specific sanction rules; B3 Art16(2) restored complete auction exception condition. Korean source SHA unchanged. Full family semantic equivalence & annex/form XML source cell alignment not complete; do not issue COMPLETE.",
   "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
   "source_sha": {
     "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
