@@ -1,0 +1,63 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 25,
+  "checked_ids": [
+    "A25470-zh-00019",
+    "A25470-zh-00020",
+    "A25470-zh-00021",
+    "A25470-zh-00022",
+    "A25470-zh-00023",
+    "A25470-zh-00024",
+    "A25470-zh-00025",
+    "A25470-zh-00026",
+    "A25470-zh-00027",
+    "A25470-zh-00028",
+    "A25470-zh-00029",
+    "A25470-zh-00030",
+    "A25470-zh-00031",
+    "A25470-zh-00032",
+    "A25470-zh-00033",
+    "A25470-zh-00034",
+    "A25470-zh-00035",
+    "A25470-zh-00036",
+    "A25470-zh-00037",
+    "A25470-zh-00038",
+    "A25470-zh-00039",
+    "A25470-zh-00040",
+    "A25470-zh-00041",
+    "A25470-zh-00042",
+    "A25470-zh-00043"
+  ],
+  "edits": [
+    {
+      "id": "A25470-zh-00035",
+      "source_hash": "ea7eaf344a5395eff2a9ba7cca74918c630f2bb3756dcafd2808b63f2562dc9c",
+      "target_id": "XML:1802919",
+      "text": "月起"
+    },
+    {
+      "id": "A25470-zh-00037",
+      "source_hash": "daa3cb99ac5b73675f8b35ce883b0f838ee260bfe60423e839c0f10f765845c5",
+      "target_id": "XML:1802921",
+      "text": "月止（"
+    },
+    {
+      "id": "A25470-zh-00038",
+      "source_hash": "974fa99cbd5e266720415dfa25024d1e80d835f450e8f88927fcdd8bbff6709a",
+      "target_id": "XML:1802922",
+      "text": "个月）"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "korean_evidence": "연장 신청기간: 년 월부터 년 월까지 ( 개월); 승인내용, 승인번호, 승인일, 규제특례 및 규제개선 대상 법령",
+  "note": "R97 fills explicit review of A25470 rows19-43 and fixes lost date-range 起/止 markers and duration unit 个月; retains R8 edits of main statutory basis, business period and conditional clause, and R90/R91 records. Source SHA unchanged, family incomplete."
+}
