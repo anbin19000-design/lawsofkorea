@@ -12,21 +12,20 @@
     "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
     "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
   },
-  "checkpoint_type": "REFINEMENT_OF_EXISTING_EDIT",
+  "checkpoint_type": "DIRECT_KOREAN_COMPARISON",
   "checked_ids": [
-    "B1-zh-00033"
+    "B1-zh-00037"
   ],
-  "checked_rows_new": 0,
-  "refined_edit_count": 1,
+  "checked_rows_new": 1,
   "edits": [
     {
-      "id": "B1-zh-00033",
-      "source_hash": "d6cac962515676ca1102b6221021add3ef89603fe1499ae54bce5206b4fb3d79",
-      "target_id": "66353b0534ee7de63513ce8ee13e03057a8dc2b642dce4ae1e1384492f0e9dc6",
-      "text": "第23条（国家智慧城市委员会）\n① 为审议智慧城市相关事宜，将在国土交通部长领导下设立智慧城市委员会（以下简称“委员会”）。<2015年12月29日、2017年3月21日、2018年8月14日、2019年11月26日、2025年12月2日修订>\n1. 关于综合规划的事项\n2. 国家实施的智慧城市建设项目相关事宜\n3. 中央行政机关负责人与地方政府负责人之间意见协调事宜\n4. 政府支持智慧城市振兴的措施\n5. 关于各部门信息系统链接与整合以激活智慧城市服务的事项\n6. 关于国家试点城市和智慧城市专业化综合体的指定、取消指定和范围变更的事项\n7. 关于创新增长促进区的指定、变更或撤销的事项\n8. 主席提交会议的有关智慧城市的事项\n9. 删除<2021.3.16>\n10. 删除<2021.3.16>\n11. 关于智慧创新项目和智慧示范项目的审批、变更和取消的事项\n12. 总统令规定的其他重要事项\n② 委员会成员不超过30人，包括2名主席和3名副主席。<2012年5月23日、2019年11月26日、2020年6月9日修订>\n③ 委员会设共同主席两名，分别为国土交通部长官，以及总统从第1项和第2项所列委员中委任的一人；副主席由科学技术信息通信部副部长、内政安全部副部长和国土交通部副部长担任；成员由下列各款所列人员担任。<2013年3月23日、2014年11月19日、2015年12月29日、2017年3月21日、2017年7月26日、2019年11月26日、2020年6月9日修订>\n1. 由国土交通大臣任命的具有智慧城市方面丰富知识和经验的人士\n2. 一位在监管创新和创新产业方面拥有丰富知识和经验的私营部门专家，由国土交通大臣任命\n3. 就智慧创新项目等事宜，相关中央行政机关副部长或副部级官员审议\n4. 负责智慧创新项目等事宜的地方政府负责人（如属特别市、都会区、特别自治市、省或特别自治省，则为副市长或副省长）需进行审议。\n5. 总统令规定的中央行政机关副部长\n④ 为协助委员会审议工作，可根据总统令设立由地方政府组成的专门委员会或咨询机构。<2015年12月29日、2017年3月21日新增>\n⑤ 除第1至4款规定外，委员会的组成和运作所需事项，由总统令规定。<2015年12月29日修订>\n\n",
+      "id": "B1-zh-00037",
+      "text": "第二十四条之三（指导、监督等）\n① 国土交通部长官在必要时，为监督智慧城市项目实施者及协会，可要求其报告业务事项、提交资料或发出其他必要命令，并可派其所属公务员进入其办公室，调查或检查账簿、文件等。<2020年6月9日修订>\n② 按照第1款规定进行进入、检查等的公务员应当携带表明其职权的证件，并向对方出示。\n\n第六章 智慧城市产业支持 <2017年3月21日新增>\n\n",
+      "source_hash": "289e7ad3130c6375a23e446e9a428fd1b7348c92dd9c8a61d7c149569315948c",
+      "target_id": "78e04dba61fcd67483a11537a100fa689f328ecd27822d207672e33949734bb3",
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c221b3b4d123.json",
-      "verification": "C02_DIRECT_KOREAN_AND_OFFICIAL_ENGLISH_COMPARISON",
-      "reason": "韩国文“위원장 2명”及官方英文“shall be jointly the chairpersons”均明确规定两名共同主席；原修订稿误写为由部长与总统任命一人担任主席，现仅修正该句并保留其余已校正内容。"
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "韩文“소속 공무원”指国土交通部所属公务员，不是“其管辖范围内的官员”；同时“협회”是本法第24条之2定义的协会，现明确为协会。"
     }
   ],
   "ordered_reading_certification": {
@@ -34,14 +33,14 @@
     "en": false,
     "zh": false
   },
-  "prior_master_blob_sha": "867bfd19a8b89d4deb101dc03f8388e32bf3b254",
+  "prior_master_blob_sha": "3574a6fe3a87a8f527a958ed811f2c91928ba6e3",
   "prior_edit_count": 291,
-  "cumulative_edit_count": 291,
-  "cumulative_checked_unique_ids": 306,
+  "cumulative_edit_count": 292,
+  "cumulative_checked_unique_ids": 307,
   "notes": [
-    "Compared Korean Act Article 23(3) with official English fallback full_text and prior Chinese edit.",
-    "Korean says there are two chairpersons and the Minister plus one presidentially commissioned member shall jointly be chairpersons; clarified this as two co-chairpersons.",
-    "This refines existing edit B1-zh-00033; no new row count or duplicate edit.",
-    "Not a full-family readthrough certificate; preserve IN_PROGRESS."
+    "Compared Korean Act Article 24-3 with Chinese row B1-zh-00037.",
+    "Corrected 소속 공무원 to Ministry-affiliated officials, and 협회 to the statutory Association.",
+    "Article 23(3) prior edit was refined separately to reflect two joint chairpersons.",
+    "Partial checkpoint only; no full-family ordered reading certificate or COMPLETE status."
   ]
 }
