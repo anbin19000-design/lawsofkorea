@@ -1,0 +1,263 @@
+{
+  "schema": "LAW_ZH_C02_CANDIDATE_ADJUDICATION_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "task_marker": "6694df1f44e2",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "scope": "Decree annex 4, Korean administrative-fine criteria and threshold comparison; historical cross-cell alternatives only",
+  "decisions": [
+    {
+      "id": "A36427-zh-00004",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean Decree annex 4 general rule starts aggravated administrative fine on count of offenses within one year; master text retains precise administrative fine terminology and row break.",
+      "source_hash": "41e06415a2db7073450cf23f14590e2d8d99843c1d771ea249ab30c02f3bcf0d",
+      "target_id": "XML:2657373",
+      "retained_text": "甲. 根据违反行为的次数适用加重行政罚款标准时，对最近一年内",
+      "rejected_historical_variant": "甲. 根据违法次数加重罚款的标准，适用于最近一年内（第二项丁目"
+    },
+    {
+      "id": "A36427-zh-00005",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 4 specifies three-year window for item 2(d)-(f) and same-offense fine history; master properly preserves cross-cell syntax, candidate truncates context at edge.",
+      "source_hash": "c10658b85f999b743e4b7f2f8aa638d6a0868c9d80b4f8aa83c65d58abb6ca71",
+      "target_id": "XML:2657374",
+      "retained_text": "（第二项丁至己目所列违反行为为最近三年内）同一违反行为",
+      "rejected_historical_variant": "至己目规定的违法行为为最近三年内）因相同违法行为受到罚款处分的情形。"
+    },
+    {
+      "id": "A36427-zh-00006",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 4 date-counting clause begins after same-offense condition; master provides contiguous clause boundary.",
+      "source_hash": "bc341af6c84d35508e1b868718b26e3847b21ef22d3bdb9a7cc6910d9253844b",
+      "target_id": "XML:2657375",
+      "retained_text": "曾受行政罚款处分的情况适用。计算期间时，",
+      "rejected_historical_variant": "此时，期间的计算以就该违法行为受到罚款处分之日以及处分后再次实施同一"
+    },
+    {
+      "id": "A36427-zh-00007",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 4 calculates dates from prior administrative disposition and renewed discovery; master retains both acts across cells.",
+      "source_hash": "a8df4eb03f04f0a4c80e259c5f0bcc9b7ecc25882ff492de4b52db2319a5d673",
+      "target_id": "XML:2657376",
+      "retained_text": "以该违反行为受到行政罚款处分之日及此后再次实施同一违反行为",
+      "rejected_historical_variant": "违法行为而被查获之日"
+    },
+    {
+      "id": "A36427-zh-00008",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 4 closing clause defines the dates for calculating period; master closes full sentence, candidate isolated 为准 only.",
+      "source_hash": "8290dd0f5fdee25cc1ff59e8aaf8db1aaa40853a401189ca0ab19d381f140a5f",
+      "target_id": "XML:2657377",
+      "retained_text": "而被查获之日为准。",
+      "rejected_historical_variant": "为准。"
+    },
+    {
+      "id": "A36427-zh-00009",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 4 next tier is prior penalty tier plus one; master correctly introduces prior violation context.",
+      "source_hash": "28427a9884ed513dd4321efe166cf34c52bfab835193a1e9c6d06ad75605857e",
+      "target_id": "XML:2657378",
+      "retained_text": "乙. 依据甲目加重处罚时，适用的次数为该违反行为",
+      "rejected_historical_variant": "乙. 依甲目作出加重罚款处分时，加重处分适用的次数为该违法行为发生前"
+    },
+    {
+      "id": "A36427-zh-00010",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 4 highest prior tier within window is applicable; master preserves prior penalty counts, candidate overlaps earlier cell.",
+      "source_hash": "229ebd824e8ed5d2f241bad75f8b50069d7a0a54a89064e5b08e3ee0c66af58c",
+      "target_id": "XML:2657379",
+      "retained_text": "发生前的处罚次数（甲目规定的期间内已受两次以上行政罚款处分的，",
+      "rejected_historical_variant": "已受罚款处分的次数（在甲目规定期间内有两次以上罚款处分的，"
+    },
+    {
+      "id": "A36427-zh-00011",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 4 requires 下一次/再加一次, same tier rule; keep master precise wording.",
+      "source_hash": "fde04a0f554335ad66c97ccfa50ef6e607943069a8eef47524bc2ecd450db5ff",
+      "target_id": "XML:2657380",
+      "retained_text": "以其中较高次数为准）再加一次。",
+      "rejected_historical_variant": "以其中较高的次数为准）的下一次。"
+    },
+    {
+      "id": "A36427-zh-00012",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 4 '부과권자' and '개별기준' more faithfully retained as 处罚机关 and 个别标准.",
+      "source_hash": "a110e297f1f94fe0843c49b3d5e5b561ddaae47c7f302d2fc6526f1b94c6fc52",
+      "target_id": "XML:2657381",
+      "retained_text": "丙. 处罚机关在下列任一情形时，可依第二项个别标准",
+      "rejected_historical_variant": "丙. 在下列任一情形下，罚款征收机关可以将第二项具体标准规定的"
+    },
+    {
+      "id": "A36427-zh-00013",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 4 allows half reduction of administrative fine and uses exception; accepted master preserves context with row 12 and 14.",
+      "source_hash": "946d0d71608f125f72727b9c29698932642f3a6ad1d7d10a3b5d6b620819e15c",
+      "target_id": "XML:2657382",
+      "retained_text": "在行政罚款金额的二分之一范围内减轻罚款。但",
+      "rejected_historical_variant": "罚款金额在二分之一的幅度内减轻。但是，违法行为人"
+    },
+    {
+      "id": "A36427-zh-00014",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 4 explicitly disallows reduction for persons in arrears; master keeps complete subject/limitation.",
+      "source_hash": "23dffcebe1098143d4a9902e3b248cf0cec9c2ab6537da4302f519e2297ad6ed",
+      "target_id": "XML:2657383",
+      "retained_text": "对正在拖欠行政罚款的违法者，不得减轻罚款金额。",
+      "rejected_historical_variant": "拖欠罚款的，不得减轻。"
+    },
+    {
+      "id": "A36427-zh-00015",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 4 references 질서위반행위규제법 시행령 Article 2-2(1), and master preserves reference.",
+      "source_hash": "8c89c331e22d9750cb662004c34ddef1dbacd609ac96bc533e5c66ceec57e797",
+      "target_id": "XML:2657384",
+      "retained_text": "1) 违法者属于《违反秩序行为规制法施行令》第2条之二第1款各项之一",
+      "rejected_historical_variant": "1) 违法行为人符合《秩序违反行为规制法施行令》第二条之二第一款各项规定的任一情形"
+    },
+    {
+      "id": "A36427-zh-00022",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 4 aggravation rule refers to individual criteria; accepted master retains specific criteria name.",
+      "source_hash": "256284c6a4f3b0c96b06cc4c55e328ee31f62dc4af3e086128c806b25dd9728e",
+      "target_id": "XML:2657391",
+      "retained_text": "丁. 处罚机关在下列任一情形时，可依第二项个别标准",
+      "rejected_historical_variant": "丁. 在下列任一情形下，罚款征收机关可以将第二项具体标准规定的"
+    },
+    {
+      "id": "A36427-zh-00023",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 4 allows up to half additional fine; accepted master preserves administrative fine and proviso.",
+      "source_hash": "b0828ff5ce6503803dc23d75b2bcb1706f31548c9b9e6fed32246c752b7ff27d",
+      "target_id": "XML:2657392",
+      "retained_text": "在行政罚款金额的二分之一范围内加重罚款。但是",
+      "rejected_historical_variant": "罚款金额在二分之一的幅度内增加。但即使增加，"
+    },
+    {
+      "id": "A36427-zh-00080",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 4 cites Act Articles 52(6) and 50(2), same legal references, master retains consistent number format.",
+      "source_hash": "71e27a076292c68c9a4c83c67c44ff0b7b82e22e506bf974cd614bb9420b39c5",
+      "target_id": "XML:2657451",
+      "retained_text": "己. 违反本法第52条第6款（包括依本法第50条第2款",
+      "rejected_historical_variant": "己. 违反本法第五十二条第六款（包括依据第五十条第二款"
+    },
+    {
+      "id": "A36427-zh-00086",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 4 lists cancellation of smart innovation project plan and continuation; master moves clause boundary into next cell accurately.",
+      "source_hash": "d47cef44e9e40158db83df91ef9940707989a8180d84a51dc3f11369c554115b",
+      "target_id": "XML:2657458",
+      "retained_text": "准用的情形），智慧创新项目",
+      "rejected_historical_variant": "准用的情形），智慧创新事业计划被撤销后"
+    },
+    {
+      "id": "A36427-zh-00087",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 4 continuation after cancelled plan is prohibited; master preserves cross-cell subject and temporal relation.",
+      "source_hash": "8af950fad27a26608cc920123da9cdff51fbd2ebbe618e1a2cf830d0ce3601ef",
+      "target_id": "XML:2657459",
+      "retained_text": "计划被撤销后仍继续实施该项目",
+      "rejected_historical_variant": "仍继续实施智慧创新事业"
+    },
+    {
+      "id": "A36427-zh-00091",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 4 legal obligation includes liability insurance or damage compensation; master preserves both alternatives across next row.",
+      "source_hash": "9fe8063eb76e7a2f6a92fea60ccf8019c615e6a325d2ce44cf58de7a967ccedd",
+      "target_id": "XML:2657463",
+      "retained_text": "未投保责任保险，或者未就人身、财产损害",
+      "rejected_historical_variant": "保险，或未制定对人身及财产"
+    },
+    {
+      "id": "A36427-zh-00094",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 4 requires non-provision of damage compensation plan; master preserves omitted verb, candidate only 的情形.",
+      "source_hash": "7f4b3a96a7c30e3811611fe4f6817ce1b48abf5f44d373c50b5621ba65080cf3",
+      "target_id": "XML:2657466",
+      "retained_text": "未制定赔偿方案的情形",
+      "rejected_historical_variant": "的情形"
+    },
+    {
+      "id": "A36427-zh-00097",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 4 fine tier for less than 1 month; master matches threshold, candidate equivalent but wording less specific.",
+      "source_hash": "fa6593511aa61bde77a4cdcee6919699df633b774c75d18b321ebda08551f3dd",
+      "target_id": "XML:2657469",
+      "retained_text": "违反期间不足1个月的情形",
+      "rejected_historical_variant": "期间不满一个月的情形"
+    },
+    {
+      "id": "A36427-zh-00100",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 4 tier 1 month up to under 3 months; master correctly represents closed lower bound and open upper bound.",
+      "source_hash": "db582843eea660ba89929bff355328e8671687c86f3cdbf2372e26988d44a003",
+      "target_id": "XML:2657472",
+      "retained_text": "违反期间为1个月以上、不满3个月",
+      "rejected_historical_variant": "期间满一个月但不满三个月"
+    },
+    {
+      "id": "A36427-zh-00104",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 4 tier 3 months up to under 6 months; master keeps both bounds.",
+      "source_hash": "d1876035e2493027f2de746e90f51024480ff2816ccefc0b409639d19f303b48",
+      "target_id": "XML:2657476",
+      "retained_text": "违反期间为3个月以上、不满6个月",
+      "rejected_historical_variant": "期间满三个月但不满六个月"
+    },
+    {
+      "id": "A36427-zh-00108",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 4 tier at least 6 months; master accurately represents minimum.",
+      "source_hash": "fcf3672e54e467189e1e1298a2b2d312d3bbb9ca964bf2ad3b08a12ec70aa871",
+      "target_id": "XML:2657480",
+      "retained_text": "违反期间为6个月以上的情形",
+      "rejected_historical_variant": "期间满六个月的情形"
+    },
+    {
+      "id": "A36427-zh-00117",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 4 smart demonstration tier under one month; master preserves threshold.",
+      "source_hash": "fa6593511aa61bde77a4cdcee6919699df633b774c75d18b321ebda08551f3dd",
+      "target_id": "XML:2657489",
+      "retained_text": "违反期间不足1个月的情形",
+      "rejected_historical_variant": "期间不满一个月的情形"
+    },
+    {
+      "id": "A36427-zh-00120",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 4 smart demonstration tier 1 to under 3 months; master preserves both bounds.",
+      "source_hash": "db582843eea660ba89929bff355328e8671687c86f3cdbf2372e26988d44a003",
+      "target_id": "XML:2657492",
+      "retained_text": "违反期间为1个月以上、不满3个月",
+      "rejected_historical_variant": "期间满一个月但不满三个月"
+    },
+    {
+      "id": "A36427-zh-00124",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 4 smart demonstration tier 3 to under 6 months; master preserves both bounds.",
+      "source_hash": "d1876035e2493027f2de746e90f51024480ff2816ccefc0b409639d19f303b48",
+      "target_id": "XML:2657496",
+      "retained_text": "违反期间为3个月以上、不满6个月",
+      "rejected_historical_variant": "期间满三个月但不满六个月"
+    },
+    {
+      "id": "A36427-zh-00128",
+      "decision": "RETAIN_MASTER",
+      "reason": "Korean annex 4 smart demonstration tier 6 months or more; master preserves minimum.",
+      "source_hash": "fcf3672e54e467189e1e1298a2b2d312d3bbb9ca964bf2ad3b08a12ec70aa871",
+      "target_id": "XML:2657500",
+      "retained_text": "违反期间为6个月以上的情形",
+      "rejected_historical_variant": "期间满六个月的情形"
+    }
+  ],
+  "new_edits": 0,
+  "remaining_candidates_expected": 95,
+  "english_note": "No direct English annex translation; Korean source controls.",
+  "completion_receipt_verified": false
+}
