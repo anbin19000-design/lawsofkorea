@@ -1,0 +1,49 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:ef290af4a19d",
+  "status": "IN_PROGRESS",
+  "phase": "KOREAN_AND_AVAILABLE_ENGLISH_FULL_READ_COMPLETED",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_en_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "full_korean_read": true,
+  "full_english_read": true,
+  "full_chinese_semantic_review": false,
+  "english_bodies_read": [
+    {
+      "path": "documents/en/kr-014071-276899-en.json",
+      "blob_sha": "d0d8afa349016e48889d936e4ed1c9454a7f4e07",
+      "characters": 54401
+    },
+    {
+      "path": "documents/en/kr-014371-246917-en.json",
+      "blob_sha": "f5abc9a132b8fc9ee5bba322f9fff5cd720ba2c1",
+      "characters": 43718
+    }
+  ],
+  "english_limitations": {
+    "old_decree_version": "246917",
+    "korean_decree_version": "284943",
+    "annex_tables_without_separate_current_english": true,
+    "ordinance_and_13_forms_without_document_english": true,
+    "unreliable_english_example": [
+      {
+        "provision": "Act Article 50(1)",
+        "english": "five hundred million won",
+        "korean": "500만원",
+        "note": "Korean states 5 million won, not 500 million; do not rely on English for Chinese financial terms."
+      },
+      {
+        "provision": "Act addendum Act No.18100",
+        "english": "January 1, 2003",
+        "korean": "2023년 1월 1일",
+        "note": "English apparent year typo."
+      }
+    ]
+  },
+  "checked_rows": 0,
+  "edits": [],
+  "next_action": "Sequentially review all 1136 effective Chinese rows, preserving confirmed corrections, and complete only after full semantic and annex/layout resolution."
+}
