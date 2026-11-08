@@ -1,0 +1,28 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-c2b35f6aceb6477e1107",
+  "worker": "C04",
+  "assignment_marker": "7a3bac326ef3",
+  "status": "IN_PROGRESS",
+  "source_blob_shas": {
+    "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
+    "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
+    "zh": "f8879f4a12299069e4831b03f15a2a2fa30c8089"
+  },
+  "document_count": 15,
+  "chinese_rows": 1241,
+  "english_reference_rows": 911,
+  "without_english_reference_rows": 330,
+  "previous_edit_count": 231,
+  "added_edit_ids": [
+    "B1-zh-00028"
+  ],
+  "new_total_edit_count": 232,
+  "review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
+  "review_commit": "259d2f19fbb2aeb5cbe3d16903872bba485abe84",
+  "full_korean_read_verified": false,
+  "full_english_read_verified": false,
+  "full_chinese_read_verified": false,
+  "complete_receipt": false,
+  "note": "Confirmed existing source blobs, previous 231 review edits, and checkpoint. Corrected only criminal fine terminology from 罚款 to 罚金 in Article 24 (B1-zh-00028), preserving all other wording and records. Sequential full-language review not yet certified."
+}
