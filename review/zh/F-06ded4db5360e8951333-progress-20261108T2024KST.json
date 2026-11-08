@@ -1,0 +1,118 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-06ded4db5360e8951333",
+  "family_id": "F-06ded4db5360e8951333",
+  "worker": "C03",
+  "panel_id": "panel-03",
+  "status": "IN_PROGRESS",
+  "source_commit": "ad08506c712156b47b7d1c5d9402565bd09f3433",
+  "source_blobs": {
+    "ko": "dcc6098448a933f7817442bf8ba600bae69233af",
+    "en": "06a06221c673eb82b151282c515897dd2be7163",
+    "zh": "21af5746664736adfeba51d100cd535d24817c01"
+  },
+  "scope": {
+    "documents": 21,
+    "zh_rows": 1709
+  },
+  "reading": {
+    "ko": "FULL_READ_COMPLETED",
+    "en": "FULL_LINKED_DOCUMENTS_READ_COMPLETED",
+    "zh": "FULL_FILE_LOADED_AND_MECHANICAL_SCAN_COMPLETED_MANUAL_SEQUENTIAL_REVIEW_PENDING"
+  },
+  "english_coverage": {
+    "exact_version": [
+      "B1"
+    ],
+    "fallback_official_translation": [
+      "B2",
+      "A29032",
+      "A29033",
+      "A29034",
+      "A29035",
+      "B3",
+      "A5541",
+      "A5542",
+      "A5543",
+      "A5544",
+      "A5545",
+      "A5546",
+      "A5547",
+      "A5548",
+      "A5549",
+      "A5550",
+      "A5551",
+      "A5552",
+      "A5553",
+      "A5554"
+    ],
+    "linked_files": [
+      "documents/en/kr-000354-268293-en.json",
+      "documents/en/kr-003572-266761-en.json",
+      "documents/en/kr-007196-149064-en.json"
+    ],
+    "note": "The English manifest marks the main Act as exact-version English and the Decree/Rule plus attached annexes/forms as fallback official English references; source versions differ."
+  },
+  "checked_rows": 0,
+  "mechanical_scan_rows": 1709,
+  "candidate_findings": [
+    {
+      "id": "A5541-zh-00007",
+      "issue": "MTQ artifact appended to processing-period label; source Korean form shows 처리기간 3일.",
+      "proposed_minimal_text": "处理期限"
+    },
+    {
+      "id": "A5544-zh-00009",
+      "issue": "Same MTQ artifact; source Korean form shows 처리기간 即时.",
+      "proposed_minimal_text": "处理期限"
+    },
+    {
+      "id": "A5545-zh-00007",
+      "issue": "Same MTQ artifact; source Korean form shows 처리기간 3일.",
+      "proposed_minimal_text": "处理期限"
+    },
+    {
+      "id": "A5546-zh-00010",
+      "issue": "Same MTQ artifact; source Korean form shows 처리기간 3일.",
+      "proposed_minimal_text": "处理期限"
+    },
+    {
+      "id": "A5548-zh-00007",
+      "issue": "Same MTQ artifact; source Korean form shows 처리기간 7일.",
+      "proposed_minimal_text": "处理期限"
+    },
+    {
+      "id": "A5551-zh-00007",
+      "issue": "Same MTQ artifact; source Korean form shows 처리기간 3일.",
+      "proposed_minimal_text": "处理期限"
+    },
+    {
+      "id": "A5552-zh-00010",
+      "issue": "Same MTQ artifact; source Korean form shows 처리기간 3일.",
+      "proposed_minimal_text": "处理期限"
+    },
+    {
+      "id": "A5554-zh-00005",
+      "issue": "Same MTQ artifact; source Korean form shows 처리기간 3일.",
+      "proposed_minimal_text": "处理期限"
+    },
+    {
+      "id": "A5554-zh-00009",
+      "issue": "Mixed English/Chinese label 'Of 主办公室'; official English form text uses 'Address of Main Office'; verify exact Korean field before correction.",
+      "proposed_minimal_text": "主办公室地址"
+    },
+    {
+      "id": "B2-zh-00129",
+      "issue": "Contains residual Korean phrase '의 수량' and apparent annex text spillover; row end offset exceeds B2 source_ko length, so reconcile against A29032 rather than broad rewrite.",
+      "proposed_minimal_text": null
+    }
+  ],
+  "edits": [],
+  "notes": [
+    "No existing review/zh/F-06ded4db5360e8951333.json or receipts/F-06ded4db5360e8951333.json existed at inspection time (Contents API returned 404).",
+    "Official status/active/C03.json and status/worker-bindings.json both bind C03 to https://chatgpt.com/c/6af041f2-e328-83ee-ae24-c2dbe020c5a2.",
+    "Panel-03 initially displayed a different conversation; it was navigated to the official C03 URL and verified. The current assignment is present in that conversation; panel reports WORKING/stop-ui. A further send attempt returned operation-canceled and was not retried.",
+    "Do not mark COMPLETE until all 1709 rows are sequentially reviewed, edits are verified, and final review/receipt are saved and reread."
+  ],
+  "updated_at": "2026-11-08T20:24:00+09:00"
+}
