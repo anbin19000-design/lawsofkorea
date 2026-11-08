@@ -21,8 +21,8 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 31,
-    "pending_rows": 1656,
+    "correction_count": 42,
+    "pending_rows": 1645,
     "by_document": {}
   },
   "corrections": {
@@ -242,6 +242,83 @@
       "original": "END 中的披露声明变更",
       "corrected": "信息披露声明的变更登记",
       "reason": "정보공개서 변경등록에 들어간 END 오염 텍스트 제거."
+    },
+    "A34915-zh-00028": {
+      "doc": "A34915",
+      "source_hash": "b189b87694f2f33b87bbbc6bc0527eda51cda662b8aa3e77650a9494700542fa",
+      "original": "考虑到《反垄断法》第三十五条第二款第二项规定的违法行为的持续时间和频率，基本计算如下：",
+      "corrected": "考虑到本法第35条第2款第2项规定的违法行为的持续时间和频率，基本计算如下：",
+      "reason": "별표 4의2 원문 법 제35조제2항제2호의 잘못된 타 법률 인용 교정."
+    },
+    "A34916-zh-00095": {
+      "doc": "A34916",
+      "source_hash": "849b42659ee6577f5fca7a26b07bdd19892357deb1f70d878a2bae9998147c4a",
+      "original": "A. 违反《广告法》第12-6条第2款的广告",
+      "corrected": "A. 违反本法第12条之六第2款的广告",
+      "reason": "별표 5 광고 판촉행사 규정인 법 제12조의6제2항을 광고법으로 오인한 오역 교정."
+    },
+    "A34917-zh-00048": {
+      "doc": "A34917",
+      "source_hash": "882d69d68ff181eded7c4d95a9c5e474fec28a4a8b93f9b0443e2c0d4f09346b",
+      "original": "2. 前三个财政年度的财务状况表和损益表（如果特许经营商不编制财务报表，则提供前三个财政年度的财务状况表和损益表）",
+      "corrected": "2. 前三个财政年度的财务状况表和损益表（如果特许人不编制财务报表，则提供能够证明前三个财政年度销售收入的文件）",
+      "reason": "신규등록 신청서에서 재무제표가 없을 때 매출액 확인 서류를 제출하도록 한 한국어를 반복 재무제표 제출로 오역한 부분 교정."
+    },
+    "A34920-zh-00070": {
+      "doc": "A34920",
+      "source_hash": "dd042777bcd009b8a1d014dab887ba027a7d4395f5d3947d069a279a932a4e76",
+      "original": "我同意核实车辆登记证。",
+      "corrected": "我同意核实营业登记证明。",
+      "reason": "변경등록 서식 행정정보 공동이용 확인 대상 사업자등록증명을 차량등록증으로 번역한 오역 교정."
+    },
+    "A34921-zh-00038": {
+      "doc": "A34921",
+      "source_hash": "e4ef0e7dcc9cbbf01c6b0ed4eb9e32366198ab52ba01688b91fa5e715f5352fa",
+      "original": "信息披露声明、车辆登记证原件（如车辆登记证原件遗失，需提供遗失原因说明文件）",
+      "corrected": "信息披露声明登记证原件（如登记证原件遗失，需提供说明遗失原因的文件）",
+      "reason": "등록취소 요청서 첨부서류 정보공개서 등록증 원본을 차량 등록증 원본으로 잘못 옮긴 오역 교정."
+    },
+    "A34917-zh-00009": {
+      "doc": "A34917",
+      "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
+      "original": "处理周期MTQc2e2f91c71addd2000420结束",
+      "corrected": "办理期限",
+      "reason": "서식 처리기간 표제에서 비원문 MTQ 오염 제거."
+    },
+    "A34920-zh-00012": {
+      "doc": "A34920",
+      "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
+      "original": "处理周期MTQc2e2f91c71addd2000420结束",
+      "corrected": "办理期限",
+      "reason": "서식 처리기간 표제에서 비원문 MTQ 오염 제거."
+    },
+    "A34921-zh-00043": {
+      "doc": "A34921",
+      "source_hash": "1a5be3c5938c8c2cedf096bb1485ce5f53335572edc7c3dbbf132e7bf9927045",
+      "original": "确认MTQ58ff4ab269393e6100315结束",
+      "corrected": "确认事项",
+      "reason": "서식 담당자 확인사항 항목에 끼어든 비원문 MTQ 오염 제거."
+    },
+    "A34922-zh-00006": {
+      "doc": "A34922",
+      "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
+      "original": "处理周期MTQc2e2f91c71addd2000420结束",
+      "corrected": "办理期限",
+      "reason": "서식 처리기간 표제에서 비원문 MTQ 오염 제거."
+    },
+    "A34924-zh-00009": {
+      "doc": "A34924",
+      "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
+      "original": "处理周期MTQc2e2f91c71addd2000420结束",
+      "corrected": "办理期限",
+      "reason": "서식 처리기간 표제에서 비원문 MTQ 오염 제거."
+    },
+    "A34925-zh-00007": {
+      "doc": "A34925",
+      "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
+      "original": "处理周期MTQc2e2f91c71addd2000420结束",
+      "corrected": "办理期限",
+      "reason": "서식 처리기간 표제에서 비원문 MTQ 오염 제거."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -257,7 +334,8 @@
     "C05 Chinese B2 initial rows: minimal repair of Article 5-4, 5-6, 5-9 captions, depository party, and Act 22(4) citation.",
     "C05 Chinese B2 rows 45-86 review: 5 newly verified errors in source act citations and decree titles; unreviewed rows remain.",
     "C05 annex A34909 initial cover-page mandatory disclosure: corrected 3 clear substantive mistranslations against Korean source.",
-    "C05 annex A34909 and A34910: verified source contamination markers START/END/MTQ, minimal replacements based on Korean original."
+    "C05 annex A34909 and A34910: verified source contamination markers START/END/MTQ, minimal replacements based on Korean original.",
+    "C05 annex and form inspection: 11 confirmed errors corrected; includes substantive wrong certificate, notice wording and extract MTQ contamination. Full source sequence still requires final certification."
   ],
   "reading_evidence": {
     "ko": "18 documents full reading recorded in progress-C05-382d0b9d5453.json",
@@ -265,6 +343,6 @@
     "zh": "Ordered Chinese review started at B1-zh-00001; 35 rows displayed, with some long rows truncated pending return to full row text; first 3 additional corrections supported by Korean and English.",
     "full_sequential_human_review_complete": false
   },
-  "checked_rows": 31,
-  "corrected_rows": 31
+  "checked_rows": 42,
+  "corrected_rows": 42
 }
