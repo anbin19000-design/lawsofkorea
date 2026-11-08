@@ -11,7 +11,7 @@
   },
   "prior_review_path": "review/zh/F-b5c27d20d49b721e47e6-C05-B2-00041-00060-IN_PROGRESS.json",
   "prior_review_sha": "b2fb4d43f65e3cbb108765048560891372a25c88",
-  "checked_rows": 24,
+  "checked_rows": 34,
   "checked_ids": [
     "B2-zh-00061",
     "B2-zh-00062",
@@ -36,7 +36,17 @@
     "B2-zh-00081",
     "B2-zh-00082",
     "B2-zh-00083",
-    "B2-zh-00084"
+    "B2-zh-00084",
+    "B2-zh-00085",
+    "B2-zh-00086",
+    "B2-zh-00087",
+    "B2-zh-00088",
+    "B2-zh-00089",
+    "B2-zh-00090",
+    "B2-zh-00091",
+    "B2-zh-00092",
+    "B2-zh-00093",
+    "B2-zh-00094"
   ],
   "decisions": [
     {
@@ -182,6 +192,66 @@
       "source_hash": "3d5862c6fb58676c3098e22bbd203ba08b5af9ff96346b8588aceb0e61cd1570",
       "decision": "CORRECT",
       "basis": "신용정보의 이용 및 보호에 관한 법률 시행령 정식 명칭"
+    },
+    {
+      "id": "B2-zh-00085",
+      "source_hash": "aaa16cee621460cf22af040b5fd770ab428858ba8eea05ea8121758a08c81575",
+      "decision": "KEEP",
+      "basis": "한국어 원문 및 효력·조문 대조"
+    },
+    {
+      "id": "B2-zh-00086",
+      "source_hash": "1fa2d78222cc5f3a7b268ba3015a524a8e57a9355a8b17e0ae4253566ef34323",
+      "decision": "KEEP",
+      "basis": "한국어 원문 및 효력·조문 대조"
+    },
+    {
+      "id": "B2-zh-00087",
+      "source_hash": "fa358ad4c573edf0f8d6116037fe7385010b71f987144ec550f11fbcd4323180",
+      "decision": "CORRECT",
+      "basis": "제25조제2항제1호의 项 오역과 '각 호 외의 부분' 역전 및 법령 명칭"
+    },
+    {
+      "id": "B2-zh-00088",
+      "source_hash": "bc28291f8a8368cab289540ec155c57b21b6d38387b73664ba08b936ee269006",
+      "decision": "KEEP",
+      "basis": "한국어 원문 및 효력·조문 대조"
+    },
+    {
+      "id": "B2-zh-00089",
+      "source_hash": "b6b1d56bee5ca1ee720792474759359cdf67e22579f1f6f69b51cf37c04f5fdc",
+      "decision": "KEEP",
+      "basis": "한국어 원문 및 효력·조문 대조"
+    },
+    {
+      "id": "B2-zh-00090",
+      "source_hash": "e5ec497a511d23d3341e6d5a0e1c05a8f45733dd9a7a5873ee4ea0d7260f6266",
+      "decision": "KEEP",
+      "basis": "한국어 원문 및 효력·조문 대조"
+    },
+    {
+      "id": "B2-zh-00091",
+      "source_hash": "e47e691b3e9aab7cf286c0b9ea8a8d6fb993851a9517750c916200e54d3a6116",
+      "decision": "KEEP",
+      "basis": "한국어 원문 및 효력·조문 대조"
+    },
+    {
+      "id": "B2-zh-00092",
+      "source_hash": "603e0f07a28a13ba8cf8c0352b1f7d110b70e46ed1090f4bceb290169c681f3b",
+      "decision": "CORRECT",
+      "basis": "성평등가족부 직제 정식 표현"
+    },
+    {
+      "id": "B2-zh-00093",
+      "source_hash": "7e6e22e61292964529f766476ac8b548e46e518a0a2798f493f2bc284667d132",
+      "decision": "KEEP",
+      "basis": "한국어 원문 및 효력·조문 대조"
+    },
+    {
+      "id": "B2-zh-00094",
+      "source_hash": "c27a8d90e2fad39db31a7ec7c05311572dbb07d5ec24565e9bc0e8ebd63ca618",
+      "decision": "KEEP",
+      "basis": "한국어 원문 및 효력·조문 대조"
     }
   ],
   "edits": [
@@ -220,8 +290,16 @@
     {
       "id": "B2-zh-00084",
       "text": "附则（《信用信息利用及保护相关法律施行令》）<第30893号，2020年8月4日>\n\n"
+    },
+    {
+      "id": "B2-zh-00087",
+      "text": "第三条（其他法令的修订）①至<63>省略。\n\n  <64>《单亲家庭支援法施行令》部分修订如下。\n\n  将第十四条第一款各项以外部分中的“依《信用信息利用及保护相关法律》第二条第六项规定的信用信息集中机构”改为“依《信用信息利用及保护相关法律》第二十五条第二款第一项规定的综合信用信息集中机构”。\n\n  <65>省略。\n\n"
+    },
+    {
+      "id": "B2-zh-00092",
+      "text": "附则（《性别平等家族部及其所属机关组织规定》）<第35806号，2025年10月1日>\n\n"
     }
   ],
-  "next_id": "B2-zh-00085",
+  "next_id": "B2-zh-00095",
   "note": "B2 rows 00061–00084 verified, preceding review preserved. No COMPLETE receipt."
 }
