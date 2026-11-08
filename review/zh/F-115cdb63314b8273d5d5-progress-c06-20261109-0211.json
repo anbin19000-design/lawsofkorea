@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 1800,
+    "verified_zh_rows": 1860,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 1800,
-      "checked_rows": 1800,
+      "next_row_zero_based": 1860,
+      "checked_rows": 1860,
       "total_rows": 5228
     }
   },
@@ -2341,9 +2341,75 @@
       "text": "※ 道路管理机关认为有必要时，可以根据《道路法施行令》第五十五条第十二号规定，确定各类地下埋设物的标示名称。",
       "original_text": "※ 如有必要，道路管理机构应按照《道路法实施令》第55条第12款的规定进行安装。",
       "reason": "埋设物种类별 표기명을 정할 수 있다는 의미를 설치의무로 오역"
+    },
+    {
+      "id": "A4665-zh-00114",
+      "text": "D. 标志桩",
+      "original_text": "。封面说明",
+      "reason": "표지주를 표지(cover) 설명으로 오역"
+    },
+    {
+      "id": "A4665-zh-00115",
+      "text": "1) 标志桩的制作",
+      "original_text": "1) 封面艺术制作",
+      "reason": "표지주 제작을 표지 예술 제작으로 오역"
+    },
+    {
+      "id": "A4665-zh-00118",
+      "text": "C) 颜色：地面线以上露出的部分应涂黄色。",
+      "original_text": ") 颜色：将地面以上裸露区域涂成黄色。",
+      "reason": "표지주의 지반선 위 노출부분 색상 설명을 불완전하게 번역"
+    },
+    {
+      "id": "A4665-zh-00119",
+      "text": "标志桩上标示埋设物种类、管理机构及距离时，“内”字应采用阴刻并涂黑色，距离数字（2.0）应以黑色油漆标示。",
+      "original_text": "起点涂成黑色，距离数字（2.0）用黑色油漆标记。",
+      "reason": "매설물 종류·관리기관·거리표기 중 ‘내’ 글씨의 음각 요건 누락"
+    },
+    {
+      "id": "A4665-zh-00120",
+      "text": "标志桩上可以插入或附着提供埋设物信息的电子标签（RFID标签）。",
+      "original_text": "将提供有关被埋物体信息的电子标签（RFID标签）插入标记柱中。",
+      "reason": "전자태그 삽입 또는 부착 가능 표현의 누락"
+    },
+    {
+      "id": "A4665-zh-00121",
+      "text": "",
+      "original_text": "或可附加。",
+      "reason": "与前一项完整句合并后删除重复片段"
+    },
+    {
+      "id": "A4666-zh-00039",
+      "text": "填写方法",
+      "original_text": "如何写入",
+      "reason": "서식의 작성방법 표제 오역"
+    },
+    {
+      "id": "A4666-zh-00040",
+      "text": "1. 指定国道应在现有普通国道路线编号后加注“－中指定国道”填写。（例如：普通国道第1号中的指定国道）",
+      "original_text": "1. 指定国道通过在现有普通国道编号后添加“- 指定国道”来输入。（例如：普通国道 1 号 指定国道）",
+      "reason": "지정국도의 노선번호 기재 방식과 예시를 부정확하게 번역"
+    },
+    {
+      "id": "A4666-zh-00041",
+      "text": "2. 起点、终点应填写至行政区域的邑、面、洞及地号；主要经过地及与其他道路路线重叠的区段，应填写至邑、面、洞。",
+      "original_text": "2。对于起点和终点，请指定行政区划，精确到邑、面或洞级别和地段编号；对于主要交汇点和与其他道路路线重叠的路段，请指定邑/面/洞。",
+      "reason": "主要经过地和路线重叠区段的行政区划填写要求不准确"
+    },
+    {
+      "id": "A4666-zh-00042",
+      "text": "",
+      "original_text": "写入 Myeon 和 Dong。",
+      "reason": "韩文行政区划单位被残留为拉丁转写并重复"
+    },
+    {
+      "id": "A4667-zh-00001",
+      "text": "■ 《道路法施行规则》[附表二号格式]",
+      "original_text": "■ 道路交通法执行规则 [附件表格 2]",
+      "reason": "도로법 시행규칙을 도로교통법 시행규칙으로 오역"
     }
   ],
-  "note": "Sequential Chinese review continued through original row 1799 of Annex 4 marker installation standards. Added thirteen focused corrections to linear/area facility marker placement, marker vs cover type, rural marker post, branch-point spacing, pole diameter symbol, buried-utility type labels and ministry decree title. Previous 352 edits retained. Continue from row 1800. IN_PROGRESS.",
+  "note": "Sequential Chinese review continued through original row 1859, reviewing Annex 4 buried utility marking standards and the first road route notice/application forms. Added ten focused corrections to marker post heading/painting/engraving/RFID requirements, form completion instructions, designated national road numbering, administrative-area details, and Road Act Enforcement Rule title. Previous 365 edits retained. Continue from row 1860. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
