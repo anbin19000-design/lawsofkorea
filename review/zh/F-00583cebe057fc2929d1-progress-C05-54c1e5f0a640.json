@@ -1,0 +1,31 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "worker": "C05",
+  "panel_id": "panel-05",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "d20eb44f910c3c41b54cb6b7eb1e0fc20501ef47",
+  "prior_corrections": 252,
+  "correction_count": 253,
+  "updated_correction_ids": [
+    "B2-zh-00068"
+  ],
+  "new_correction_ids": [
+    "B2-zh-00075"
+  ],
+  "pending_rows": 89,
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "full_reading_proven": false,
+  "receipt_issued": false,
+  "note": "원문 제3조 준용법·심판 청구기간·나목 오류 및 시행령 부칙 생략 조문표기 교정. 전체 독해 및 남은 판독 보류 미완료."
+}
