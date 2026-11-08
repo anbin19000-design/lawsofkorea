@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 3912,
+    "verified_zh_rows": 4060,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 3912,
-      "checked_rows": 3912,
+      "next_row_zero_based": 4060,
+      "checked_rows": 4060,
       "total_rows": 5228
     }
   },
@@ -6067,9 +6067,177 @@
       "text": "不得。",
       "original_text": "无法.",
       "reason": "금지 문장을 불가능으로 오역"
+    },
+    {
+      "id": "A4689-zh-00001",
+      "text": "■《道路法施行规则》[附件表格第24号] <2022年11月17日修订>",
+      "original_text": "■ 道路交通法执行规则 [表格编号 24] <2022 年 11 月 17 日修订>",
+      "reason": "도로법 시행규칙을 도로교통법 시행규칙으로 오역"
+    },
+    {
+      "id": "A4689-zh-00005",
+      "text": "收件日期",
+      "original_text": "收货日期",
+      "reason": "접수일을 물품 수령일로 오역"
+    },
+    {
+      "id": "A4689-zh-00006",
+      "text": "办理期限（参见背面）",
+      "original_text": "处理周期MTQc2e2f91c71addd2000420结束",
+      "reason": "처리기간에 MTQ 잔존 및 표제 오류"
+    },
+    {
+      "id": "A4689-zh-00007",
+      "text": "参见背面",
+      "original_text": "查看背面",
+      "reason": "뒤쪽 참조를 뒤쪽을 보라는 명령으로 오역"
+    },
+    {
+      "id": "A4689-zh-00011",
+      "text": "姓名）",
+      "original_text": "语句)",
+      "reason": "성명) 조각을 문장으로 오역"
+    },
+    {
+      "id": "A4689-zh-00012",
+      "text": "商号",
+      "original_text": "商标名称",
+      "reason": "상호를 상표명으로 오역"
+    },
+    {
+      "id": "A4689-zh-00020",
+      "text": "路线编号",
+      "original_text": "路由编号",
+      "reason": "노선번호를 네트워크 라우팅 번호로 오역"
+    },
+    {
+      "id": "A4689-zh-00021",
+      "text": "（路线名称）",
+      "original_text": "(路由名称)",
+      "reason": "노선명을 네트워크 라우팅 명칭으로 오역"
+    },
+    {
+      "id": "A4689-zh-00024",
+      "text": "占用期限",
+      "original_text": "使用期",
+      "reason": "점용기간을 일반 사용기간으로 축소"
+    },
+    {
+      "id": "A4689-zh-00025",
+      "text": "开挖期限",
+      "original_text": "挖掘期",
+      "reason": "굴착기간의 법률용어를 정돈"
+    },
+    {
+      "id": "A4689-zh-00026",
+      "text": "被占用物的结构",
+      "original_text": "被占据物体的结构",
+      "reason": "점용물을 점유된 물체로 부정확하게 번역"
+    },
+    {
+      "id": "A4689-zh-00028",
+      "text": "施工时间",
+      "original_text": "构造时序",
+      "reason": "공사의 시기를 구조 시간순서로 오역"
+    },
+    {
+      "id": "A4689-zh-00030",
+      "text": "本人依据《道路法》第六十一条及同法施行令第五十四条第一款，申请上述道路占用许可。",
+      "original_text": "本人谨根据《道路法》第61条和该法实施令第54条第1款的规定，申请上述道路占用许可证。",
+      "reason": "신청 문장에 법령명 및 도로점용허가 용어를 정돈"
+    },
+    {
+      "id": "A4689-zh-00037",
+      "text": "致道路管理机关",
+      "original_text": "您的",
+      "reason": "도로관리청 귀하를 ‘당신의’로 오역"
+    },
+    {
+      "id": "A4689-zh-00040",
+      "text": "⑤手续费",
+      "original_text": "⑤费用",
+      "reason": "수수료를 일반 비용으로 축소"
+    },
+    {
+      "id": "A4689-zh-00043",
+      "text": "1,000韩元",
+      "original_text": "1,000 元",
+      "reason": "수수료 통화 단위 오류"
+    },
+    {
+      "id": "A4689-zh-00044",
+      "text": "如已收到根据同一施行令第五十六条第三款发出的、允许按照依据第五十六条第一款提交的事业计划实施道路占用项目的通知，则适用本例外。",
+      "original_text": "如收到报告（如已根据《道路法实施法令》第56条第1款提交项目计划），则适用本规定。",
+      "reason": "시행령 제56조제3항의 통보 및 사업계획서 예외 문맥 오류"
+    },
+    {
+      "id": "A4689-zh-00045",
+      "text": "或行政机关",
+      "original_text": "或行政机构",
+      "reason": "행정청의 법률상 주체 용어를 정돈"
+    },
+    {
+      "id": "A4689-zh-00050",
+      "text": "主要地下埋设物管理人的意见书[依据《道路法施行令》第五十六条第一款]",
+      "original_text": "a. 大型地下设施管理者的意见声明[依据《道路法实施令》第56条第1款]",
+      "reason": "주요 지하매설물을 대형 지하시설로 오역하고 시행령 표기 오류"
+    },
+    {
+      "id": "A4689-zh-00053",
+      "text": "按地方自治团体条例规定的金额",
+      "original_text": "金额待定",
+      "reason": "조례로 정하는 금액을 금액 미정으로 오역"
+    },
+    {
+      "id": "A4689-zh-00054",
+      "text": "收到依据同一施行令第五十六条第三款发出的通知时（限于已依第五十六条第一款提交事业计划的情形）",
+      "original_text": "根据《道路法实施法令》第56条第3款（依据第56条第1款）的规定收到通知时",
+      "reason": "시행령의 통보 예외 문장 및 조항 관계 오류"
+    },
+    {
+      "id": "A4689-zh-00058",
+      "text": "并附上反映道路管理审议委员会依据《道路法施行令》第六十二条进行审议、协调结果的安全措施等文件。",
+      "original_text": "。该编号反映了道路管理审议委员会根据《道路法实施令》第62条进行审议和调整的结果。编号为",
+      "reason": "안전대책 서류의 첨부 요구를 ‘번호’로 오역"
+    },
+    {
+      "id": "A4689-zh-00063",
+      "text": "法律依据",
+      "original_text": "基本法",
+      "reason": "근거 법률을 기본법으로 오역"
+    },
+    {
+      "id": "A4689-zh-00066",
+      "text": "并征收损失补偿金。",
+      "original_text": "I 应予征收（《道路法》第72条和第114条第6款）。",
+      "reason": "변상금의 부과를 문자 ‘I’로 훼손"
+    },
+    {
+      "id": "A4689-zh-00071",
+      "text": "如果拟延长占用期限，应在许可期限届满前取得延期许可。",
+      "original_text": "如果您打算延长入住期限，则必须在许可证到期前获得延期许可证。",
+      "reason": "점용기간을 입주기간으로 오역"
+    },
+    {
+      "id": "A4689-zh-00074",
+      "text": "2. 在①栏填写占用目的，例如休息站、加油站、工厂、公寓、出入口道路等。",
+      "original_text": "2. 在①中，填写占用用途，例如休息区、加油站、工厂、公寓、通道等。",
+      "reason": "휴게소·진입로 등 점용목적의 시설 용어 정돈"
+    },
+    {
+      "id": "A4689-zh-00076",
+      "text": "但是，对于《道路法施行令》第五十五条第六号、第八号及第十二号规定的情形，无须标示自道路中心线起算的左右距离及位置。",
+      "original_text": "。然而，根据《道路法实施令》第55条第6、8和12款的规定，道路中心线左右两侧的距离以及",
+      "reason": "도로법 시행령 인용 및 좌우거리·위치 생략 규정의 문장 구조 오류"
+    },
+    {
+      "id": "A4689-zh-00079",
+      "text": "5. 对于涉及道路开挖的占用，在④栏填写“由申请人或道路管理机关（许可机关）负责恢复”。",
+      "original_text": "5. 在④中，对于涉及道路挖掘的占用，请填写“由申请人或道路管理机构（许可证持有人）进行修复”。",
+      "reason": "도로 복구 방법에서 도로관리청을 허가자로 오역"
     }
   ],
-  "note": "Completed sequential review of A4688 (road maintenance officer identity card form, front/back). Added six focused corrections for statute/rule title, photo background/recency requirement, sample name, ministry title, position/rank and prohibition sentence. Previous 980 edits retained. Continue from row 3912 with A4689. IN_PROGRESS.",
+  "note": "Sequential review continued through row 4059 of A4689, the road occupation permit application form (front and back) including application fields, attachments, fee, legal notices and completion guidance. Added 27 targeted corrections for rule title, receipt/processing labels and MTQ token, applicant details, road occupation terminology, permit addressee, fees/currency, major underground utility documents, legal basis and penalties, and instructions. Previous 986 edits retained. Continue from row 4060. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
