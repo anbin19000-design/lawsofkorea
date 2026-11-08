@@ -30,7 +30,20 @@
   },
   "assistant_count": 16,
   "assistant_excerpt": "C03 법령 검수 승계 결과\nIN_PROGRESS · 전체 검수 미완료\n\n배정 정보\n\n법령가족: 인신매매등방지 및 피해자보호 등에 관한 법률\n\nJob ID: F-0536890d62605f77ff0a\n\n담당 워커: C03\n\n저장소: anbin19000-design/lawsofkorea\n\n브랜치: main\n\n공식 GitHub 확인 결과\n\n점검 항목\n\n\t\n\n결과\n\n\n\n\n법령가족 문서\n\n\t\n\n22개 확인\n\n\n\n\n중국어 원본 행\n\n\t\n\n1,136개\n\n\n\n\n중국어 ID 중복\n\n\t\n\n0개\n\n\n\n\n중국어 빈 행\n\n\t\n\n0개\n\n\n\n\nMTQ·비정상 표식 포함 원본 행\n\n\t\n\n15개\n\n\n\n\n기존 인계 색인\n\n\t\n\n확인\n\n\n\n\n기존 진행 기록\n\n\t\n\n123개 경로 확인\n\n\n\n\n최종 검수본\n\n\t\n\n없음\n\n\n\n\n완료 영수증\n\n\t\n\n없음\n\n한국어·영어·중국어 가족 파일 및 연결된 영어 원문 2개를 조회했습니다. 기존 MTQ 교정과 중복 판정 기록도 확인했습니다.\n\n기존 판정 중 A26703-zh-00050, A26703-zh-00058 등은 추가 확인이 필요한 상태입니다. 기존 교정과 원문 해시는 변경하지 않았습니다.\n\n현재 남은 작업\n\n영어 색인에서 영어 대응이 없는 134행을 포함해 전체 원문 독해 및 중국어 1,136행의 최종 대조를 완료해야 합니다. 이후 기존 교정 기록을 중복 없이 통합하고 검수본과 영수증을 각각 저장·재조회해야 합니다.\n\n이번 실행에서는 새로운 GitHub 커밋이나 완료 영수증을 발행하지 않았습니다. 전체 검수가 끝나지 않았으므로 COMPLETE로 표시하지 않았고, 다음 법령도 수취하지 않았습니다.\n\n기존 저장 결과는 보존되어 있으나, 요청하신 법령가족 전체 검수는 아직 완료되지 않았습니다.",
+  "attempted_at": "2026-11-08T08:16:49.207627+00:00",
   "created_at": "2026-11-08T08:16:44.536494+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-8f70e317249155938a79444493d089b4",
+    "attempted_at": "2026-11-08T08:16:49.207627+00:00",
+    "claim_commit": "06c0a12b0d5d480f45f720acecd901e4c910ecb1",
+    "event_id": "obs-1cae48dec609f2c9d01e9c3afba854572996ee0e",
+    "job_id": "F-0536890d62605f77ff0a",
+    "record_path": "status/delivery/recovery-S2-8f70e317249155938a79444493d089b4.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C03"
+  },
   "episode": 9,
   "event_id": "obs-1cae48dec609f2c9d01e9c3afba854572996ee0e",
   "idle_followup": true,
@@ -531,7 +544,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-97d985f37c22452511747d26]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "6727f3026ce2b303eb5816b08263ace00160be29",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6af02eea-dd70-83ee-bc83-f4750543f673",
   "worker": "C03"
 }
