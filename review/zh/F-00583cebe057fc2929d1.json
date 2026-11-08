@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1374,
     "distinct_rows": 1374,
-    "correction_count": 168,
+    "correction_count": 170,
     "pending_rows": 89,
     "by_document": {
       "B1": {
@@ -36,7 +36,7 @@
       },
       "A29604": {
         "total": 63,
-        "corrected": 7,
+        "corrected": 9,
         "pending": 58
       },
       "B3": {
@@ -1322,6 +1322,20 @@
       "original": "或更高版本",
       "corrected": "以上",
       "reason": "表格“3회 이상”中的“이상”意为“以上”，而非软件版本。"
+    },
+    "A29604-zh-00043": {
+      "doc": "A29604",
+      "source_hash": "6c4f72981a15893339e07da6759ec70df03b4b8d236aebfff2ab284da43647df",
+      "original": "段落 1 第 1 段",
+      "corrected": "第1款第1项",
+      "reason": "법 제52조제1항제1호应为本法第52条第1款第1项。"
+    },
+    "A29604-zh-00044": {
+      "doc": "A29604",
+      "source_hash": "911fce6c37155894c61d6a7795f74457a78deaf532e08122b49955533006970d",
+      "original": "在向法官作虚假陈述的情况下",
+      "corrected": "向专利审判院作虚假陈述时",
+      "reason": "특허심판원不是法官；更正接受虚假陈述的机关。"
     }
   },
   "mapping_issues": [
