@@ -13,20 +13,6 @@
       "decision": "INTENTIONAL_SEGMENT_DELETION"
     },
     {
-      "id": "A29185-zh-00060",
-      "source_hash": "ec8d3f07240da0507573b21a22f63fb0d0dce1e8996a2c168de090d7ed885ed7",
-      "original": "求值。",
-      "reason": "本行是上一行“进行评估”的重复分段残片，删除重复文本；由独立判定记录保留删除理由。",
-      "decision": "INTENTIONAL_SEGMENT_DELETION"
-    },
-    {
-      "id": "A29185-zh-00063",
-      "source_hash": "09e8a8101587b648ac0e58b7920ee0d671da44fb29196819f041825318d96480",
-      "original": "必须确定。",
-      "reason": "删除与前行重复且无独立含义的“必须确定”机器残片。",
-      "decision": "INTENTIONAL_SEGMENT_DELETION"
-    },
-    {
       "id": "A6597-zh-00033",
       "source_hash": "487c52cf5f0d183038b6a979ef63ee720ccd301843f9504283e2429228dd4e98",
       "original": ".",
@@ -106,5 +92,5 @@
   ],
   "note": "Separate source-bound record of blank or unchanged legacy correction records; these are excluded from canonical nonblank edits and corrected_rows. The row IDs, source hashes, original Chinese texts and rationales are retained.",
   "no_change_count": 10,
-  "intentional_deletion_count": 4
+  "intentional_deletion_count": 2
 }
