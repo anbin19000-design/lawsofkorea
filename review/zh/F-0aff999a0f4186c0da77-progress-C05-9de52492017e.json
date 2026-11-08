@@ -1,0 +1,49 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_sha": "bf33202dd17a62f7a037cfceefdd75e12c8037c3",
+  "prior_corrections_preserved": 359,
+  "new_corrections": [
+    "A34915-zh-00006",
+    "A34915-zh-00011",
+    "A34915-zh-00016",
+    "A34915-zh-00037",
+    "A34915-zh-00038",
+    "A34915-zh-00039",
+    "A34915-zh-00040",
+    "A34915-zh-00041",
+    "A34915-zh-00042",
+    "A34915-zh-00043",
+    "A34915-zh-00044"
+  ],
+  "cumulative_corrections": 370,
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "chinese_total_rows": 1687,
+  "english_note": "B1 exact English; B2 fallback; no independently verified exact English for annexes/forms; 429 rows without English.",
+  "inspected_span": "A34915 full Korean source and Chinese translation fragments (surcharge assessment/reduction); other documents retain prior reading progress",
+  "integrity": {
+    "unique_chinese_rows": 1687,
+    "correction_id_doc_original_and_source_hash_mismatches": 0,
+    "uncorrected_rows_matching_hangul_mtq_start_end": 0
+  },
+  "review_status": "ZH_SEMANTIC_AUDIT_IN_PROGRESS",
+  "quality_open_items": [
+    "Whole-family Chinese 1687-row semantic verification not certified",
+    "A34911 formula visual completeness unresolved",
+    "429 rows without English reference require KO/ZH checking"
+  ],
+  "notes": "Previous 359 corrections preserved; 11 additional Korean-verified annex 4-2 fixes committed and read back. No COMPLETE status or receipt."
+}
