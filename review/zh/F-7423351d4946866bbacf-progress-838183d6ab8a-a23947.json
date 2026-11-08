@@ -1,0 +1,47 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "panel_id": "panel-01",
+  "assignment_id": "S2-c174f0e36bef5fedb717095f1cea01f6",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:838183d6ab8a]",
+  "status": "IN_PROGRESS",
+  "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
+  "source_sha": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "official_review_blob": "fd06d1522c3efff89bc36858a6cdb64914123038",
+  "checked_rows": 679,
+  "unique_edits": 486,
+  "reviewed_sequentially": [
+    "B1-zh-00089..B1-zh-00103",
+    "B2-zh-00001..B2-zh-00057",
+    "A38090-zh-00001..A38090-zh-00039",
+    "A38091-zh-00001..A38091-zh-00119",
+    "B3-zh-00001..B3-zh-00076",
+    "A23947-zh-00001..A23947-zh-00285"
+  ],
+  "english_status": "English source available and read for B1/B2 and their linked decree annexes A38090/A38091. No independent English document for B3 and rule annexes/forms.",
+  "next_position": "A23948-zh-00001",
+  "critical_review_notes": [
+    "A23947 general rules corrected: cumulative penalties for multiple violations, repeat count within one year, aggravating/mitigating factors, small-business relief.",
+    "A23947 table all three sections checked: market operator, origin auctioneer, origin intermediary wholesaler. Violation descriptions and legal grounds corrected; sanctions/periods preserved.",
+    "Previous correction A38090-zh-00012 punctuation-only remains an XML-cell verification item.",
+    "Some rows are split across adjacent table cells; source cell-level XML reconciliation remains necessary."
+  ],
+  "remaining_documents": [
+    "A23948",
+    "A23949",
+    "A23950",
+    "A23951",
+    "A23952",
+    "A23953",
+    "A23954",
+    "A23955",
+    "A23956",
+    "A23957"
+  ],
+  "note": "Annex 1 first-pass semantic review complete, but overall family remains IN_PROGRESS. Do not issue COMPLETE receipt until all annexes/forms are reviewed and cell alignment validated."
+}
