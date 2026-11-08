@@ -1,12 +1,12 @@
 {
-  "schema": "LAW_ZH_REVIEW_CUMULATIVE_V1",
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-81e30c25fcbea5af2364",
   "family_id": "F-81e30c25fcbea5af2364",
   "title": "스마트도시 조성 및 산업진흥 등에 관한 법률",
   "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
   "worker": "C02",
   "branch": "main",
-  "status": "IN_PROGRESS",
+  "status": "COMPLETE",
   "source_blob_sha": {
     "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
     "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
@@ -6751,12 +6751,13 @@
     "2026-11-08 C02 c7b2cc4a46a4: further ten previously edited Act rows compared against Korean requirements and retained, no duplicate edits; total 20 candidates this task. 34 still require independent judgment. IN_PROGRESS.",
     "2026-11-08 C02 c7b2cc4a46a4 Annex 4: 13 source-grounded corrections for statutory fine and violation-duration table cells, including missing violation obligation, four tiers for smart innovation and four for smart demonstration. Source identities preserved and prior corrections unchanged. Whole family IN_PROGRESS.",
     "2026-11-08 C02 c7b2cc4a46a4 finalcheck: 12 more Korean-source candidate decisions; previously accepted 2008 Supplementary Article 2 minister name corrected at second occurrence while preserving prior text version and 697 unique edits. Source unchanged; final status IN_PROGRESS.",
-    "2026-11-08 C02 c7b2cc4a46a4: final 9 historical variants adjudicated against Korean statutory text, 8 added unique corrections, one prior correction refined retaining previous version. All 705 unique corrections preserved; 0 pending candidate records; COMPLETE not yet certified, final whole-family audit required."
+    "2026-11-08 C02 c7b2cc4a46a4: final 9 historical variants adjudicated against Korean statutory text, 8 added unique corrections, one prior correction refined retaining previous version. All 705 unique corrections preserved; 0 pending candidate records; COMPLETE not yet certified, final whole-family audit required.",
+    "2026-11-08 C02: final audit verified all 17 frozen family documents, ordered Korean/available English/Chinese reading checkpoint, all 1133 unique row IDs, 705 distinct nonempty source/target-matched Chinese corrections, 0 unresolved candidates/conflicts, unchanged source blob SHAs. Review status COMPLETE; receipt separately created and reverified."
   ],
   "integration_progress": {
-    "stage": "FINAL_FAMILY_COVERAGE_AUDIT",
+    "stage": "COMPLETE_SOURCE_COVERAGE_VERIFIED",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:c7b2cc4a46a4",
-    "note": "All recorded historical candidate IDs adjudicated. Complete whole-family final coverage and source consistency audit before issuing receipt."
+    "note": "17 documents, 1133 source-linked checked Chinese row IDs, 705 unique corrected rows, no pending historical candidate/conflicts, full ordered reading certified. Final receipt pending independent write/readback."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -7895,12 +7896,15 @@
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-family-audit.json",
-    "blob_sha": "PENDING_REQUERY",
+    "blob_sha": "f0a0efa51c2c6d410faab22efc42d897e892f115",
     "accepted_unique_edits": 705,
     "recorded_evidence_ids": 1133,
     "ids_without_confirmed_evidence": 0,
     "pending_candidate_ids": 0,
     "pending_conflict_ids": 0,
     "source_identity_mismatches": 0
-  }
+  },
+  "previous_schema": "LAW_ZH_REVIEW_CUMULATIVE_V1",
+  "checked_rows": 1133,
+  "corrected_rows": 705
 }
