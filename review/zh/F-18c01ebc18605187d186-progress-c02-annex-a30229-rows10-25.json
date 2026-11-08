@@ -1,0 +1,31 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-18c01ebc18605187d186",
+  "family_id": "F-18c01ebc18605187d186",
+  "assignment_id": "UW-0a673f8b565379da27f279fba00d2225",
+  "worker": "C02",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "1805b1dd08b6fb873f41f2ecc4a176f21df600e7",
+    "en": "012c37af32361e00852ac15d80479e7420c1c02b",
+    "zh": "33f05fab4e90982af82e2021dd54235f11428a33"
+  },
+  "document_count": 65,
+  "total_zh_rows": 5238,
+  "checked_rows": 305,
+  "corrected_rows": 184,
+  "ordered_reading_certification": {
+    "korean": "READ_COMPLETE_ALL_65_DOCUMENTS",
+    "english": "READ_COMPLETE_AVAILABLE_SOURCES_B1_AND_B2_FALLBACK",
+    "chinese": "IN_PROGRESS; B2 through row 105; Annex A30229 reviewed sequentially through row 25; table-cell alignment and remaining documents pending"
+  },
+  "checkpoint": "A30229-zh-00025",
+  "pending": "Continue A30229 rows 26 onward; exact source-cell alignment for A30229-zh-00020, 00022, 00024, 00025; then remaining documents in original row order.",
+  "review_blob_sha": "049610e70d172d8c9a1e46b972f76e66cc1b379c",
+  "notes": [
+    "Started dedicated review of Annex A30229 (Enforcement Decree Schedule 1). Corrected its official title, qualification-standard heading, column heading and four professional category names. The remaining table cells A30229-zh-00010 onward require sequential Korean-to-Chinese table-structure review; not marked complete.",
+    "Sequential review resumed in Annex A30229 through row 24. Corrected obvious mistranslations in the social-work qualification, the Medical Technicians Act citation, and the occupational-therapy training-period exclusion. Other reviewed fragments were retained pending the next table-aligned pass.",
+    "Sequential Annex A30229 review continued through rows 10-25. Corrected clear mistranslations of statutory 'under the Nursing Act', social welfare/social work academic fields, Medical Technicians Act reference, nursing master's qualification, and mental-health occupational therapist terminology. Row A30229-zh-00024 contains corrupted machine text ('球 END'); exact source-cell alignment must be established before replacement. Rows 20, 22, 24-25 remain subject to source-aligned table QA; no completion claim."
+  ]
+}
