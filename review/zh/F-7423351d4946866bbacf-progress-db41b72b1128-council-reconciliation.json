@@ -1,0 +1,38 @@
+{
+  "schema": "LAW_ZH_REVIEW_AUDIT_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "panel_id": "panel-01",
+  "assignment_id": "S2-c174f0e36bef5fedb717095f1cea01f6",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:db41b72b1128]",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "review_path": "review/zh/F-7423351d4946866bbacf.json",
+  "review_blob": "b4dfdee18d136c2350174f94fefcf497e40fe98f",
+  "family_documents": 16,
+  "chinese_rows": 1207,
+  "prior_correction_ids": 265,
+  "current_correction_ids": 266,
+  "added_ids": [
+    "B2-zh-00007"
+  ],
+  "amended_prior_ids": [
+    "B2-zh-00006",
+    "B2-zh-00009"
+  ],
+  "details": "Enforcement Decree Arts 5,6,8: reconciled name of statutory fishery products distribution development council throughout existing Chinese revisions; preserved correct appointment and quorum provisions; retained all prior edits.",
+  "authoritative_source": "Korean Act and Decree; available exact-version official English for B1 and B2",
+  "english_missing": "B3 and subordinate rule annex/form documents; Korean text used as authority",
+  "source_sha_unchanged": true,
+  "complete_receipt_issued": false,
+  "full_semantic_review_completed": false,
+  "unresolved": [
+    "1207 Chinese rows not fully semantically certified",
+    "Annex and form XML cell-level source correspondence remains incomplete"
+  ],
+  "next_action": "Continue same C01 assignment, legally accurate review of all family documents, only mark COMPLETE and file receipt after evidence of total coverage."
+}
