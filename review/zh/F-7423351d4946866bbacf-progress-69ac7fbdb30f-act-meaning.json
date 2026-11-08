@@ -1,0 +1,38 @@
+{
+  "schema": "LAW_ZH_REVIEW_AUDIT_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "panel_id": "panel-01",
+  "assignment_id": "S2-c174f0e36bef5fedb717095f1cea01f6",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:69ac7fbdb30f]",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "review_blob": "3fc536530d6a39af22c49166e92c470d167d5906",
+  "review_path": "review/zh/F-7423351d4946866bbacf.json",
+  "source_documents": 16,
+  "source_rows": 1207,
+  "prior_unique_corrections": 274,
+  "current_unique_corrections": 276,
+  "new_ids": [
+    "B1-zh-00054",
+    "B1-zh-00051"
+  ],
+  "evidence": [
+    "Act Article 49 Korean 처리물량 규모화, English scaling up handling capacity; Chinese 加工量 corrected to 处理规模",
+    "Act Article 46 Korean 상품성, English marketability; Chinese 市场竞争力 corrected to 商品性"
+  ],
+  "source_sha_unchanged": true,
+  "prior_edits_preserved": true,
+  "independent_english_missing_for": "B3 and connected rule annexes/forms",
+  "full_semantic_review_completed": false,
+  "complete_receipt_issued": false,
+  "unresolved": [
+    "Full 1207 Chinese rows semantic verification unfinished",
+    "Annex and form XML cell alignment, including punctuation-only rows, not certified"
+  ],
+  "next_action": "Continue same entire legal family, only issue COMPLETE and official receipt after complete semantic and XML correspondence verification."
+}
