@@ -1,0 +1,39 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-18c01ebc18605187d186",
+  "worker": "C02",
+  "assignment_id": "UW-0a673f8b565379da27f279fba00d2225",
+  "status": "IN_PROGRESS",
+  "checkpoint_id": "C02-20261109-A11347-CHECKED",
+  "resume_at": "A11348",
+  "source_blob_sha": {
+    "ko": "1805b1dd08b6fb873f41f2ecc4a176f21df600e7",
+    "en": "012c37af32361e00852ac15d80479e7420c1c02b",
+    "zh": "33f05fab4e90982af82e2021dd54235f11428a33"
+  },
+  "verified_source_counts": {
+    "documents": 65,
+    "zh_rows": 5238
+  },
+  "reviewed_documents": [
+    {
+      "key": "A11345",
+      "zh_rows": 144,
+      "corrected_rows": 93,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A11346",
+      "zh_rows": 126,
+      "corrected_rows": 122,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A11347",
+      "zh_rows": 122,
+      "corrected_rows": 120,
+      "english_status": "NO_DOCUMENT_ENGLISH"
+    }
+  ],
+  "note": "A11345-A11347 reviewed in sequence against full Korean sources; English sources unavailable for these annexes. Corrected clear mistranslations and retained statutory numeric standards. Main review remains IN_PROGRESS. Resume at A11348."
+}
