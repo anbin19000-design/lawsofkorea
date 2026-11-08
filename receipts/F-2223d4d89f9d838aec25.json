@@ -1,0 +1,95 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_RECEIPT_V1",
+  "job_id": "F-2223d4d89f9d838aec25",
+  "family_id": "F-2223d4d89f9d838aec25",
+  "title": "사방사업법",
+  "worker": "C05",
+  "panel_id": "panel-05",
+  "pc": "WORK-C",
+  "branch": "main",
+  "status": "COMPLETE",
+  "completed_at": "2026-11-09",
+  "source_commit": "5ca6685452f89ed7f2c82222bcb43613f559060e",
+  "source_blobs": {
+    "ko": "8da45e553059c6fa43c2398c7a85fb031801269f",
+    "en": "9aa870a762b685cffb5165159330ce674c944554",
+    "zh": "770640285a1e85001013331a4a0a6fba3909dd43"
+  },
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "reading_evidence": {
+    "korean": {
+      "complete": true,
+      "documents": 23,
+      "sha": "8da45e553059c6fa43c2398c7a85fb031801269f"
+    },
+    "english": {
+      "complete": true,
+      "documents": 23,
+      "distinct_linked_bodies": 5,
+      "linked_references": 27,
+      "all_linked_bodies_loaded": true,
+      "sha": "9aa870a762b685cffb5165159330ce674c944554"
+    },
+    "chinese": {
+      "complete": true,
+      "rows": 1290,
+      "fully_compared_rows": 1290,
+      "sha": "770640285a1e85001013331a4a0a6fba3909dd43"
+    }
+  },
+  "results": {
+    "total_chinese_rows": 1290,
+    "checked_rows": 1290,
+    "corrected_rows": 720,
+    "correction_records": 720,
+    "edit_records": 720,
+    "no_change_rows": 304,
+    "pending_rows": 0,
+    "per_document": {
+      "B1": 122,
+      "B2": 199,
+      "B3": 85,
+      "A29186": 43,
+      "A6580": 74,
+      "A29185": 80,
+      "A6581": 30,
+      "A6582": 16,
+      "A6585": 36,
+      "A6586": 70,
+      "A6587": 29,
+      "A6588": 25,
+      "A6589": 60,
+      "A6590": 83,
+      "A6591": 40,
+      "A6592": 30,
+      "A6594": 43,
+      "A6595": 15,
+      "A6596": 26,
+      "A6597": 67,
+      "A6598": 29,
+      "A6599": 40,
+      "A6600": 48
+    }
+  },
+  "artifacts": {
+    "review_path": "review/zh/F-2223d4d89f9d838aec25.json",
+    "review_sha": "5429ef1020c0af98a335fe473d2d83eab27c4e00",
+    "no_change_decisions_path": "review/zh/F-2223d4d89f9d838aec25-empty-edit-decisions-C05-20261109-0600.json",
+    "no_change_decisions_sha": "d920ead33b72fe9ed99eb8c39990087d2016cb3e",
+    "progress_path": "review/zh/F-2223d4d89f9d838aec25-progress-C05-20261109-COMPLETE.json",
+    "progress_sha": "a7627d9a01ef0d48d22580063edbaf5c968075f0"
+  },
+  "quality_control": {
+    "status": "PASS",
+    "source_hash_mismatches": 0,
+    "edit_record_mismatches": 0,
+    "decision_source_mismatches": 0,
+    "duplicate_edit_ids": 0,
+    "duplicate_no_change_decisions": 0,
+    "correction_no_change_overlap": 0,
+    "source_blobs_unchanged": true,
+    "two_standalone_punctuation_fragments_removed": true,
+    "minimal_correction_policy_respected": true
+  },
+  "notes": "Completed the entire assigned law family, including the Act, Enforcement Decree, Enforcement Rule, connected annexes and forms. Minimal obvious mistranslations were corrected; accurate existing translations were preserved. English form-level translations were not independently available for every annex/form, so those form rows were checked against the complete Korean source while the available linked English bodies were read in full."
+}
