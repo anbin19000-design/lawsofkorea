@@ -21,8 +21,8 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 42,
-    "pending_rows": 1645,
+    "correction_count": 43,
+    "pending_rows": 1644,
     "by_document": {}
   },
   "corrections": {
@@ -319,6 +319,13 @@
       "original": "处理周期MTQc2e2f91c71addd2000420结束",
       "corrected": "办理期限",
       "reason": "서식 처리기간 표제에서 비원문 MTQ 오염 제거."
+    },
+    "B2-zh-00190": {
+      "doc": "B2",
+      "source_hash": "af4d5e3dcf3a07d3bea7ddd055e31c4ddeadf950eb1351cd48136f22f065f7bc",
+      "original": "第二条（关于信息披露声明内容等的过渡措施）  凡在附录第一条但书生效日期之前，依据本法第六条之二第一款和第二款提出信息披露声明登记或变更登记申请的，即使附件一和附件一之二的规定有所修改，信息披露声明的内容和变更期限仍适用本法之前的规定。\n\n信息披露声明详情（与第4条第1款相关）\n■ 特许经营业务公平交易法实施令[附表1]<2026年8月4日修订>                   \n\n  信息披露声明的内容（与第4条第1款相关）                                                    \n\n  1. 信息披露声明封面                                                                      \n\n    A. 韩文显示“信息披露声明”                                                            \n\n    B. 以下句子                                                                         \n\n      本披露声明涵盖您打算签订的特许经营协议以及相关特许经营业务的各个方面。         \n\n  由于本合同包含信息，请在充分了解合同内容后再决定是否签订合同。            \n\n  和                                                                                 \n\n      根据《特许经营业务公平交易法》，拟加盟商信息披露声明的内容如下：       \n\n  ，特此提供一定期限。因此，本次信息披露          \n\n  自收到文件之日起 14 天（如已收到律师或特许经营顾问的建议，则为 7 天）            \n\n  在此日期之前，特许人不能向您收取特许经营费，也不能与您签订特许经营协议。          \n\n  开始。                                                                                   \n\n      本信息披露声明仅包含法律规定的事项及其相关事实。       \n\n  公平交易委员会（《特许经营业务公平交易法》第39条第2款第1项）和           \n\n  在根据同一法实施令第36条第1款的规定，已委托他人履行信息披露声明登记等职责的情况下             \n\n  尚未得到受托机构和市/省长确认。此外，您[]           \n\n  由于特许经营业务严格按照特许经营协议的内容进行运营，因此信息披露声明的内容也必须符合特许经营协议的规定。          \n\n  。                                                            \n\n    C. 特许人的商号、商业标志、主要营业地点，以及与特许经营业务相关的特许人     \n\n  互联网主页地址、信息披露声明主管部门、加盟业务咨询电话号码           \n\n    D. 信息披露声明的注册号和首次注册日期                                                \n\n    E. 信息披露声明的最终登记日期                                                            \n\n",
+      "corrected": "第二条（关于信息披露声明内容等的过渡措施）  凡在附录第一条但书生效日期之前，依据本法第六条之二第一款和第二款提出信息披露声明登记或变更登记申请的，即使附件一和附件一之二的规定有所修改，信息披露声明的内容和变更期限仍适用本法之前的规定。\n\n",
+      "reason": "시행령 한국어 원문은 제2조 경과조치에서 끝나지만 중국어 행에 별표 1 시작부분이 이어진 명백한 문서 경계 중복임. 별표 1 번역은 A34909 별도 문서에서 보존되므로 시행령 구간에는 부칙 제2조만 남김."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -335,7 +342,8 @@
     "C05 Chinese B2 rows 45-86 review: 5 newly verified errors in source act citations and decree titles; unreviewed rows remain.",
     "C05 annex A34909 initial cover-page mandatory disclosure: corrected 3 clear substantive mistranslations against Korean source.",
     "C05 annex A34909 and A34910: verified source contamination markers START/END/MTQ, minimal replacements based on Korean original.",
-    "C05 annex and form inspection: 11 confirmed errors corrected; includes substantive wrong certificate, notice wording and extract MTQ contamination. Full source sequence still requires final certification."
+    "C05 annex and form inspection: 11 confirmed errors corrected; includes substantive wrong certificate, notice wording and extract MTQ contamination. Full source sequence still requires final certification.",
+    "Verified B2-zh-00190 crosses beyond Korean decree body length 40341: duplicate annex text is retained in distinct A34909 document; trim only B2 review correction, raw originals untouched."
   ],
   "reading_evidence": {
     "ko": "18 documents full reading recorded in progress-C05-382d0b9d5453.json",
@@ -343,6 +351,6 @@
     "zh": "Ordered Chinese review started at B1-zh-00001; 35 rows displayed, with some long rows truncated pending return to full row text; first 3 additional corrections supported by Korean and English.",
     "full_sequential_human_review_complete": false
   },
-  "checked_rows": 42,
-  "corrected_rows": 42
+  "checked_rows": 43,
+  "corrected_rows": 43
 }
