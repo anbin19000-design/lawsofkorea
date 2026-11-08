@@ -1,0 +1,350 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-31334bc4303ae2cb3d80",
+  "worker": "C06",
+  "status": "IN_PROGRESS",
+  "document": "A22640",
+  "source_progress_sha": "0b44050bb570efb872dc92220fd3dac06ca94f92",
+  "previous_quality_sha": "ffee392c68b13dc1fdd51524c5a737ebfc0f8df6",
+  "aggregate_sha": "3326c6d23014c93da17d6e108f2fcf717f142395",
+  "ko_sha": "d6d795ff1ece4a82663a83efd46f7f73afa7fbbb",
+  "zh_sha": "7a6d1e8d841fb3b27185d6d4a6b811149d604dc0",
+  "checked_count": 33,
+  "checks": [
+    {
+      "id": "A22640-zh-00001",
+      "source_hash": "7918a95ecd6afd2393fccf514a8ef8cb521d25bfab292ac5d8c46ec2c0ffa5d1",
+      "target_id": "XML:1607238",
+      "korean_evidence": "생활주변방사선 안전관리법 시행규칙 [별지 제8호서식]",
+      "original_text": "■ 生活环境辐射安全管理法实施细则[附件8] <2023年6月7日新增>",
+      "candidate_text": "■ 《生活环境辐射安全管理法实施规则》[附表格式第8号] <2023年6月7日新增>",
+      "verdict": "ACCEPT",
+      "final_text": "■ 《生活环境辐射安全管理法实施规则》[附表格式第8号] <2023年6月7日新增>"
+    },
+    {
+      "id": "A22640-zh-00002",
+      "source_hash": "65ca70d5f933a5eee26e1ff3f7909c22f48c74316244c81cfd27adbc1ff6c6ba",
+      "target_id": "XML:1607239",
+      "korean_evidence": "승무원의 건강 보호 및 안전을 위한 조치 결과",
+      "original_text": "船员健康保护和安全措施结果",
+      "candidate_text": "乘务员健康保护及安全措施实施结果",
+      "verdict": "ACCEPT",
+      "final_text": "乘务员健康保护及安全措施实施结果"
+    },
+    {
+      "id": "A22640-zh-00003",
+      "source_hash": "03d372195269e4a4a72790feda043d00a346495c7e010caa69d805d20c9c741c",
+      "target_id": "XML:1607240",
+      "korean_evidence": "[  ] 기록서",
+      "original_text": "] 记录",
+      "candidate_text": "[ ] 记录表",
+      "verdict": "ACCEPT",
+      "final_text": "[ ] 记录表"
+    },
+    {
+      "id": "A22640-zh-00004",
+      "source_hash": "83f4a812044bbd3d1cfbe5499301f1a7e1b1ae52db51e18942bb147f9efcdc14",
+      "target_id": "XML:1607241",
+      "korean_evidence": "[  ] 보고서",
+      "original_text": "] 报告",
+      "candidate_text": "[ ] 报告书",
+      "verdict": "ACCEPT",
+      "final_text": "[ ] 报告书"
+    },
+    {
+      "id": "A22640-zh-00007",
+      "source_hash": "b6ef554c92c1ee06c5c51142ea35929d24f513f49937876ea1d846a0a7057648",
+      "target_id": "XML:1607244",
+      "korean_evidence": "(앞쪽)",
+      "original_text": "（前端）",
+      "candidate_text": "（正面）",
+      "verdict": "ACCEPT",
+      "final_text": "（正面）"
+    },
+    {
+      "id": "A22640-zh-00008",
+      "source_hash": "83b29c435d77479c5bbdab2c46e151d4a5c4585948bedf8fdc8ffc99df051575",
+      "target_id": "XML:1607245",
+      "korean_evidence": "사업자",
+      "original_text": "业务操作员",
+      "candidate_text": "经营者",
+      "verdict": "ACCEPT",
+      "final_text": "经营者"
+    },
+    {
+      "id": "A22640-zh-00010",
+      "source_hash": "70a34a56b11d603959f0534c3ae0a6597cdceb25fd4ea07b7f9c0d643cf4c1f6",
+      "target_id": "XML:1607247",
+      "korean_evidence": "사업자등록번호",
+      "original_text": "营业执照号码",
+      "candidate_text": "经营者登记号码",
+      "verdict": "ACCEPT",
+      "final_text": "经营者登记号码"
+    },
+    {
+      "id": "A22640-zh-00014",
+      "source_hash": "9bcf16c099d8212f5de2adc40424be5085619276e9d998a2eb8c6589654971fb",
+      "target_id": "XML:1607251",
+      "korean_evidence": "(성명)",
+      "original_text": "(名称)",
+      "candidate_text": "（姓名）",
+      "verdict": "ACCEPT",
+      "final_text": "（姓名）"
+    },
+    {
+      "id": "A22640-zh-00019",
+      "source_hash": "4dc8f27b161f059c77d4fd039259f31f36b0e54e6e99d99ccf4512bd042dee18",
+      "target_id": "XML:1607256",
+      "korean_evidence": "보고시기",
+      "original_text": "1. 报告日期：",
+      "candidate_text": "1. 报告时间：",
+      "verdict": "ACCEPT",
+      "final_text": "1. 报告时间："
+    },
+    {
+      "id": "A22640-zh-00020",
+      "source_hash": "2e0642a4010d17cd6fd5f6ad175a92e25dc0c4dc2e968a5d60393368a77ca9cf",
+      "target_id": "XML:1607257",
+      "korean_evidence": "1분기",
+      "original_text": "年初第一季度[ ]",
+      "candidate_text": "年　第一季度[ ]",
+      "verdict": "ACCEPT",
+      "final_text": "年　第一季度[ ]"
+    },
+    {
+      "id": "A22640-zh-00025",
+      "source_hash": "b70df59dfcee97b5ccf75398b31ff333953686e3444e032f1afeba04f8d60476",
+      "target_id": "XML:1607262",
+      "korean_evidence": "피폭방사선량을 고려한 방법",
+      "original_text": "2. 考虑辐射暴露剂量的方法",
+      "candidate_text": "2. 考虑辐射受照剂量的方法",
+      "verdict": "ACCEPT",
+      "final_text": "2. 考虑辐射受照剂量的方法"
+    },
+    {
+      "id": "A22640-zh-00026",
+      "source_hash": "a8510b14ab168b919a545d61c26836edf500fe6d14d26626a0b4816e8a05b2f9",
+      "target_id": "XML:1607263",
+      "korean_evidence": "조치사항",
+      "original_text": "3. 操作项",
+      "candidate_text": "3. 措施事项",
+      "verdict": "ACCEPT",
+      "final_text": "3. 措施事项"
+    },
+    {
+      "id": "A22640-zh-00027",
+      "source_hash": "5aa32deffdf1362feb45b4aaf4a1945b15c91915f96194031e41bc759b5f2f97",
+      "target_id": "XML:1607264",
+      "korean_evidence": "성명",
+      "original_text": "名称",
+      "candidate_text": "姓名",
+      "verdict": "ACCEPT",
+      "final_text": "姓名"
+    },
+    {
+      "id": "A22640-zh-00032",
+      "source_hash": "ef3e9c12ff67c4d00181597b3983dc4b115e33ec666952d1b628549acdb9acd5",
+      "target_id": "XML:1607269",
+      "korean_evidence": "정보제공 실적",
+      "original_text": "4. 提供的信息收益",
+      "candidate_text": "4. 信息提供情况",
+      "verdict": "ACCEPT",
+      "final_text": "4. 信息提供情况"
+    },
+    {
+      "id": "A22640-zh-00036",
+      "source_hash": "ab9442a23e772cce670320f5d60fb8e84f94b845c859d2f7691c7d052aeabb99",
+      "target_id": "XML:1607273",
+      "korean_evidence": "사유",
+      "original_text": "原因",
+      "candidate_text": "备注",
+      "verdict": "REJECT",
+      "final_text": "原因"
+    },
+    {
+      "id": "A22640-zh-00037",
+      "source_hash": "633eb4fad9d4125cb218f85bfa0564b905025269a9e06a2acbbfa8fc5f352d7b",
+      "target_id": "XML:1607274",
+      "korean_evidence": "생활주변방사선 안전관리법",
+      "original_text": "根据《生活环境辐射安全管理法》第十八条之二第一款第二项和该法实施细则第八条之二第二款第三项的规定",
+      "candidate_text": "根据《生活环境辐射安全管理法》第十八条之二第一款第二号及该法实施规则第八条之二第二款第三号，",
+      "verdict": "ACCEPT",
+      "final_text": "根据《生活环境辐射安全管理法》第十八条之二第一款第二号及该法实施规则第八条之二第二款第三号，"
+    },
+    {
+      "id": "A22640-zh-00038",
+      "source_hash": "4b7cf28d1880366151b2bb41a93051db541151c08b5ec0049ec627bb282540b8",
+      "target_id": "XML:1607275",
+      "korean_evidence": "승무원의 건강 보호 및 안전을 위한 조치 결과를 보고합니다.",
+      "original_text": "根据同一法第18条第4款报告船员健康保护和安全措施的结果。",
+      "candidate_text": "报告根据该法第十八条第四款采取的乘务员健康保护及安全措施的结果。",
+      "verdict": "ACCEPT",
+      "final_text": "报告根据该法第十八条第四款采取的乘务员健康保护及安全措施的结果。"
+    },
+    {
+      "id": "A22640-zh-00044",
+      "source_hash": "0c243e373da2082e1321b0abc85d68e86b7325c94042b2e4c6bf088dcbf40da6",
+      "target_id": "XML:1607281",
+      "korean_evidence": "원자력안전위원회",
+      "original_text": "核安全委员会",
+      "candidate_text": "核安全与安保委员会",
+      "verdict": "ACCEPT",
+      "final_text": "核安全与安保委员会"
+    },
+    {
+      "id": "A22640-zh-00045",
+      "source_hash": "d0618ded237932911627727b901c214672efcbff1fd036ad12fcc54e69bf50ed",
+      "target_id": "XML:1607282",
+      "korean_evidence": "귀중",
+      "original_text": "至",
+      "candidate_text": "收",
+      "verdict": "ACCEPT",
+      "final_text": "收"
+    },
+    {
+      "id": "A22640-zh-00047",
+      "source_hash": "d6d87e05c543e71cabaccf3ed61804e7e814d1a465e94f4fdc59f331ba61f822",
+      "target_id": "XML:1607284",
+      "korean_evidence": "(뒤쪽)",
+      "original_text": "(后部)",
+      "candidate_text": "（背面）",
+      "verdict": "ACCEPT",
+      "final_text": "（背面）"
+    },
+    {
+      "id": "A22640-zh-00048",
+      "source_hash": "41e11819187cd0d8c51419c8b34571d1f01d02758075137da10203ce9bd4c517",
+      "target_id": "XML:1607285",
+      "korean_evidence": "작성방법",
+      "original_text": "如何写入",
+      "candidate_text": "填写说明",
+      "verdict": "ACCEPT",
+      "final_text": "填写说明"
+    },
+    {
+      "id": "A22640-zh-00049",
+      "source_hash": "6941379ca3745d5ebefaa9469d14f5ca74325151ed1e4f958917779ea32698bc",
+      "target_id": "XML:1607286",
+      "korean_evidence": "보고시기: 보고하는 연도를 적고",
+      "original_text": "1. 报告期：输入报告年份，并在相应的季度旁打“√”。",
+      "candidate_text": "1. 报告时间：填写报告年度，在相应季度方框内标记“√”。",
+      "verdict": "ACCEPT",
+      "final_text": "1. 报告时间：填写报告年度，在相应季度方框内标记“√”。"
+    },
+    {
+      "id": "A22640-zh-00050",
+      "source_hash": "9ddd66f80a9028c5dbbc0d765e46ce3318d942ac46f30ca3c4280f6c50251568",
+      "target_id": "XML:1607287",
+      "korean_evidence": "피폭방사선량을 고려한 방법:",
+      "original_text": "2. 考虑辐射暴露的方法：在安排国际航线船员的船上值班、分配登船值班时间等时，应尽量减少船员的辐射暴露。",
+      "candidate_text": "2. 考虑辐射受照剂量的方法：安排乘务员执飞国际航线时，应记载为尽量减少乘务员受照剂量而考虑的方法，如分配飞行工作时间等。",
+      "verdict": "REVISE",
+      "final_text": "2. 考虑受照剂量的方法：在安排乘务员执飞国际航线的工作时，填写为尽量降低其受照剂量"
+    },
+    {
+      "id": "A22640-zh-00051",
+      "source_hash": "0a6e3cee3cf2e5f645b0fcaa4b3b2f2be364da8b7ce7590d878b2051b61af860",
+      "target_id": "XML:1607288",
+      "korean_evidence": "소화하기 위해 고려한 방법을 적습니다.",
+      "original_text": "写下考虑的消化方法。",
+      "candidate_text": "填写所考虑的方法。",
+      "verdict": "REVISE",
+      "final_text": "而考虑的方法，例如分配乘机工作时间等。"
+    },
+    {
+      "id": "A22640-zh-00052",
+      "source_hash": "013e13800f9ea088a435cc32b42674b50c85655aca012f6f3b8799abe1ba468f",
+      "target_id": "XML:1607289",
+      "korean_evidence": "조치사항:",
+      "original_text": "3. 行动：在存在超过核安全与安保委员会制定和通报的年度辐射暴露标准的风险的情况下，[相关船员的健康检查结果...]",
+      "candidate_text": "3. 措施事项：在可能超过核安全与安保委员会公布的年度受照剂量标准时，或依据健康检查结果，",
+      "verdict": "ACCEPT",
+      "final_text": "3. 措施事项：在可能超过核安全与安保委员会公布的年度受照剂量标准时，或依据健康检查结果，"
+    },
+    {
+      "id": "A22640-zh-00053",
+      "source_hash": "2a930dbadac416fd5c96166329a96e7f5df1713de83cfd7fcd38d8cc3871d6a5",
+      "target_id": "XML:1607290",
+      "korean_evidence": "우주방사선으로 인한 건강 악화 우려",
+      "original_text": "如果医疗意见表明宇宙辐射可能导致健康状况恶化，且该人员的状况使其难以继续执行飞行任务，韩国原子能机构将采取相应措施。",
+      "candidate_text": "医生认为该乘务员可能因宇宙辐射而健康恶化、难以继续执行飞行任务时，或",
+      "verdict": "ACCEPT",
+      "final_text": "医生认为该乘务员可能因宇宙辐射而健康恶化、难以继续执行飞行任务时，或"
+    },
+    {
+      "id": "A22640-zh-00054",
+      "source_hash": "95bda93d7e2529b9bb28a17b4f3429967a72a5120497d5346859439761092ae4",
+      "target_id": "XML:1607291",
+      "korean_evidence": "전위원회가 정하여 고시한 연간 피폭방사선량 기준을 초과한 경우",
+      "original_text": "如果超过前委员会确定并通报的年度辐射暴露标准，则适用《生活环境辐射安全管理法》实施令第10条的每一款规定。",
+      "candidate_text": "已超过核安全与安保委员会公布的年度受照剂量标准时，应依《生活环境辐射安全管理法实施令》第十条各号",
+      "verdict": "ACCEPT",
+      "final_text": "已超过核安全与安保委员会公布的年度受照剂量标准时，应依《生活环境辐射安全管理法实施令》第十条各号"
+    },
+    {
+      "id": "A22640-zh-00055",
+      "source_hash": "faa8f55351fd80a9222e70154d75c4a9b1779c7daea9abbd87b4acf6a16a90c5",
+      "target_id": "XML:1607292",
+      "korean_evidence": "조치를 실시한 후 작성합니다.",
+      "original_text": "执行操作后请写入此内容。",
+      "candidate_text": "实施相关措施后填写。",
+      "verdict": "ACCEPT",
+      "final_text": "实施相关措施后填写。"
+    },
+    {
+      "id": "A22640-zh-00056",
+      "source_hash": "c705a79a0d4033bff8256016c161d11a9fc11882142e438d1214710e616dafda",
+      "target_id": "XML:1607293",
+      "korean_evidence": "내용란: 해당 승무원에 대해 실시한 조치사항",
+      "original_text": "- 内容：记录针对相关船员采取的行动。",
+      "candidate_text": "- 内容栏：填写对有关乘务员实际采取的措施。",
+      "verdict": "ACCEPT",
+      "final_text": "- 内容栏：填写对有关乘务员实际采取的措施。"
+    },
+    {
+      "id": "A22640-zh-00058",
+      "source_hash": "ef3e9c12ff67c4d00181597b3983dc4b115e33ec666952d1b628549acdb9acd5",
+      "target_id": "XML:1607295",
+      "korean_evidence": "정보제공 실적",
+      "original_text": "4. 提供的信息收益",
+      "candidate_text": "4. 信息提供情况",
+      "verdict": "ACCEPT",
+      "final_text": "4. 信息提供情况"
+    },
+    {
+      "id": "A22640-zh-00059",
+      "source_hash": "9eff479063cc39e486644dab11ab41a00ec10a4b3f6996b221dc44cecd65cd8b",
+      "target_id": "XML:1607296",
+      "korean_evidence": "방법란: 개인별 전자우편 발송",
+      "original_text": "- 方法部分：描述提供信息的方法，例如发送个人电子邮件或利用内部计算机网络。",
+      "candidate_text": "- 方法栏：填写通过个人电子邮件、公司内部计算机网络等提供信息的方式。",
+      "verdict": "ACCEPT",
+      "final_text": "- 方法栏：填写通过个人电子邮件、公司内部计算机网络等提供信息的方式。"
+    },
+    {
+      "id": "A22640-zh-00060",
+      "source_hash": "c5358d25ee9fb3891ed6964dca4da299b2953dd641a038fd3f27c9a029095574",
+      "target_id": "XML:1607297",
+      "korean_evidence": "내용란: 개인별 연간 피폭방사선량",
+      "original_text": "- 内容部分：输入提供给机组人员的详细信息，例如个人年度辐射暴露量。",
+      "candidate_text": "- 内容栏：填写提供给乘务员的信息，如个人年度受照剂量等。",
+      "verdict": "ACCEPT",
+      "final_text": "- 内容栏：填写提供给乘务员的信息，如个人年度受照剂量等。"
+    },
+    {
+      "id": "A22640-zh-00061",
+      "source_hash": "b218c1389ac8b0beabaf5699af1251a165d20d63a5928bfd7712c2731c5eee23",
+      "target_id": "XML:1607298",
+      "korean_evidence": "비고란: 승무원이 별도로 정보를 요청한 경우",
+      "original_text": "-备注：如有机组人员特别要求提供信息，请在此处填写详细信息。",
+      "candidate_text": "- 备注栏：乘务员另外请求信息时，填写相关内容。",
+      "verdict": "ACCEPT",
+      "final_text": "- 备注栏：乘务员另外请求信息时，填写相关内容。"
+    }
+  ],
+  "accepted": 30,
+  "revised": 2,
+  "rejected": 1,
+  "next_quality_scope": "A22639",
+  "note": "Correction 00036 rejected: Korean table header is 사유 (reason); do not replace with 备注. 00050-00051 revised to avoid duplicated meaning across adjacent cells."
+}
