@@ -17,11 +17,11 @@
     "en": "laws/en/F-0aff999a0f4186c0da77.json",
     "zh": "laws/zh/F-0aff999a0f4186c0da77.json"
   },
-  "progress_path": "review/zh/F-0aff999a0f4186c0da77-progress-C05-0ecaf31c3202.json",
+  "progress_path": "review/zh/F-0aff999a0f4186c0da77-progress-C05-00d89ac6886f.json",
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 135,
+    "correction_count": 142,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -970,6 +970,55 @@
       "original": "第一条（生效日期）本法令自公布之日起生效。但是，下列各款的修正规定自各款规定的日期生效。\n\n  1. 对第十二条各款以外的部分进行修订：2024年7月3日\n\n  2. 修订第十二条第七款和附件二第二款第（3）项和第（4）项的规定：自公布之日起六个月\n\n",
       "corrected": "第一条（生效日期）本法令自公布之日起生效。但是，下列各款的修正规定自各款规定的日期生效。\n\n  1. 对第十二条各款以外的部分进行修订：2024年7月3日\n\n  2. 修订第十二条第七款和附表2第2号“나”目第（3）项和第（4）项的规定：自公布之日起满六个月之日\n\n",
       "reason": "별표2 제2호나목(3)(4)의 나목을 누락하여 부칙 시행시점 적용대상을 넓힌 인용 오류."
+    },
+    "A34909-zh-00004": {
+      "doc": "A34909",
+      "source_hash": "42c36f4ee7011eee617a37ff370f7ed6a9677ecdd6967a4e29959201554dcb73",
+      "original": "a. 韩文显示“信息披露声明”",
+      "corrected": "가. 韩文显示“信息披露声明”",
+      "reason": "제1호 가목의 한국어 목번호가 영문 a로 바뀌어 목 순서가 손상됨."
+    },
+    "A34909-zh-00005": {
+      "doc": "A34909",
+      "source_hash": "5d5bcfae4e10c50d23a12ef0b81747e72ec3ad15702194daf5d8ff44877cd216",
+      "original": "B. 以下句子",
+      "corrected": "나. 以下句子",
+      "reason": "제1호 나목의 목번호를 잘못 영문 B로 표기함."
+    },
+    "A34909-zh-00020": {
+      "doc": "A34909",
+      "source_hash": "0b1eed8a8dec68d7791abfb0e957a6dcdaf0ec586230943306aeac47ca3e5bdd",
+      "original": "。特许人的商号、商业标志、主要营业地点，以及与特许经营业务相关的特许人",
+      "corrected": "다.特许人的商号、商业标志、主要营业地点，以及与特许经营业务相关的特许人",
+      "reason": "제1호 다목의 목번호가 문장부호로 사라진 오류를 원문에 맞춰 복구함."
+    },
+    "A34909-zh-00022": {
+      "doc": "A34909",
+      "source_hash": "8fd2775d3ac60fc6ad13a4ecb8fe2882fbc0758b81d01f0d1d702658f947fa91",
+      "original": "d. 信息披露声明的注册号和初始注册日期",
+      "corrected": "라. 信息披露声明的注册号和初始注册日期",
+      "reason": "제1호 라목의 목번호가 영문 d로 바뀐 오류."
+    },
+    "A34909-zh-00023": {
+      "doc": "A34909",
+      "source_hash": "5dfbb021ed0ccfefd2bf93fb2936e6277e98380474be9cf4e558a4f1f47f333f",
+      "original": "E. 信息披露声明的最终注册日期",
+      "corrected": "마. 信息披露声明的最终注册日期",
+      "reason": "제1호 마목의 목번호가 영문 E로 바뀐 오류."
+    },
+    "A34909-zh-00024": {
+      "doc": "A34909",
+      "source_hash": "94951bf7489f2410a6ff99afef66186c796b5dffb9c1b75ba705f6995f0785f3",
+      "original": "B. 信息披露声明编制参考日期",
+      "corrected": "바. 信息披露声明编制参考日期",
+      "reason": "제1호 바목(작성 기준일)의 목번호가 영문 B로 오인됨."
+    },
+    "A34909-zh-00028": {
+      "doc": "A34909",
+      "source_hash": "96dff0dcb94d6de27789df004800bc56f30fc96d8c7be5664dc685a2f64ea829",
+      "original": "B. 特许人的关联方 [垄断规制和公平交易法实施令第4条第1款]",
+      "corrected": "나. 特许人的关联方 [垄断规制和公平交易法实施令第4条第1款]",
+      "reason": "제2호 나목의 목번호가 영문 B로 오인됨."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -1022,7 +1071,8 @@
     "C05 16c9500f212b continuation: B2 Articles 30, 32-3 and 32-4 corrected for missing paragraph markers and publication-order legal effect. Prior work preserved; IN_PROGRESS.",
     "C05 0ecaf31c3202: B2 transitional provisions sequential inspection rows 79-105, seven confirmed errors in permissive clause, article-number citations, annex citations, old-standard application corrected; full family review not certified.",
     "C05 0ecaf31c3202 continuation: B2 supplementary clauses 106-152 reviewed in order; corrected six source-grounded party, effective-date and article/annex citations; full audit incomplete.",
-    "C05 0ecaf31c3202 continuation: B2 rows 153-190 sequential supplementary inspection; source-grounded correction of Korean annex subitem letters and legal paragraph/number distinctions, six corrections. Annex spillover in B2-zh-00190 retained in existing correction. No family completion certification."
+    "C05 0ecaf31c3202 continuation: B2 rows 153-190 sequential supplementary inspection; source-grounded correction of Korean annex subitem letters and legal paragraph/number distinctions, six corrections. Annex spillover in B2-zh-00190 retained in existing correction. No family completion certification.",
+    "C05 00d89ac6886f: A34909 first section inspected against full annex Korean text. Seven displaced or lost subitem identifiers repaired (가/나/다/라/마/바 and subsequent 나). Existing corrections preserved; no full semantic certification."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -1031,5 +1081,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 135
+  "corrected_rows": 142
 }
