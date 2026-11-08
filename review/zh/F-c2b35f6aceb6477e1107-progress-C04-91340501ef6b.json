@@ -1,0 +1,30 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-c2b35f6aceb6477e1107",
+  "worker": "C04",
+  "assignment_marker": "91340501ef6b",
+  "status": "IN_PROGRESS",
+  "source_blob_shas": {
+    "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
+    "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
+    "zh": "f8879f4a12299069e4831b03f15a2a2fa30c8089"
+  },
+  "document_count": 15,
+  "chinese_rows": 1241,
+  "english_reference_rows": 911,
+  "without_english_reference_rows": 330,
+  "previous_edit_count": 232,
+  "added_edit_ids": [
+    "B1-zh-00036",
+    "B1-zh-00041",
+    "B1-zh-00050"
+  ],
+  "new_total_edit_count": 235,
+  "review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
+  "review_commit": "20f48a151ad69b6759739d7940b4f8f0339e3abc",
+  "full_korean_read_verified": false,
+  "full_english_read_verified": false,
+  "full_chinese_read_verified": false,
+  "complete_receipt": false,
+  "note": "Confirmed unchanged source blobs and previous 232 edits. Korean supplementary provision headings 부칙 in three School Meals Act rows mistranslated as 附录 and minimally corrected to 附则. This is a progress checkpoint, not full sequential multilingual verification."
+}
