@@ -19,10 +19,10 @@
   "progress": {
     "korean": "COMPLETE",
     "english": "COMPLETE",
-    "chinese": "IN_PROGRESS; all rows of B1/B2/B3 (including B3 Annex 1 cross-checked to separate Korean source A27040) and all Decree appendices reviewed; all form rows reviewed/corrected or retained; final QA pending.",
-    "reviewed_rows": 1239,
+    "chinese": "IN_PROGRESS; all 1,275 Chinese rows have been read and provisionally reviewed; final QA remains. All form placeholders and table fields reviewed; retain source citation anomaly in A27052. Need run consistency checks and reconcile original hashes before COMPLETE.",
+    "reviewed_rows": 1275,
     "corrected_rows": 1196,
-    "remaining_rows": 36
+    "remaining_rows": 0
   },
   "documents": [],
   "rows": [
@@ -11130,7 +11130,12 @@
       "text": "60 天",
       "text_original": "60 天",
       "text_reviewed": "60 天",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00008",
@@ -11386,7 +11391,12 @@
       "text": "年份",
       "text_original": "年份",
       "text_reviewed": "年份",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00020",
@@ -11400,7 +11410,12 @@
       "text": "月份",
       "text_original": "月份",
       "text_reviewed": "月份",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00021",
@@ -11414,7 +11429,12 @@
       "text": "日",
       "text_original": "日",
       "text_reviewed": "日",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00022",
@@ -11450,7 +11470,12 @@
       "text": "（签名或印章）",
       "text_original": "（签名或印章）",
       "text_reviewed": "（签名或印章）",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00024",
@@ -11486,7 +11511,12 @@
       "text": "至：",
       "text_original": "至：",
       "text_reviewed": "至：",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00026",
@@ -12047,7 +12077,12 @@
       "text": "年份",
       "text_original": "年份",
       "text_reviewed": "年份",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27045-zh-00013",
@@ -12061,7 +12096,12 @@
       "text": "月份",
       "text_original": "月份",
       "text_reviewed": "月份",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27045-zh-00014",
@@ -12075,7 +12115,12 @@
       "text": "日",
       "text_original": "日",
       "text_reviewed": "日",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27045-zh-00015",
@@ -12111,7 +12156,12 @@
       "text": "官方印章",
       "text_original": "官方印章",
       "text_reviewed": "官方印章",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27046-zh-00001",
@@ -12367,7 +12417,12 @@
       "text": "(公司名称)",
       "text_original": "(公司名称)",
       "text_reviewed": "(公司名称)",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27046-zh-00013",
@@ -12381,7 +12436,12 @@
       "text": "预计日期",
       "text_original": "预计日期",
       "text_reviewed": "预计日期",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27046-zh-00014",
@@ -12395,7 +12455,12 @@
       "text": "预计日期",
       "text_original": "预计日期",
       "text_reviewed": "预计日期",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27046-zh-00015",
@@ -12409,7 +12474,12 @@
       "text": "编号",
       "text_original": "编号",
       "text_reviewed": "编号",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00001",
@@ -17157,7 +17227,12 @@
       "text": "年份",
       "text_original": "年份",
       "text_reviewed": "年份",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00021",
@@ -17171,7 +17246,12 @@
       "text": "月份",
       "text_original": "月份",
       "text_reviewed": "月份",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00022",
@@ -17185,7 +17265,12 @@
       "text": "日",
       "text_original": "日",
       "text_reviewed": "日",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00023",
@@ -17221,7 +17306,12 @@
       "text": "（签名或印章）",
       "text_original": "（签名或印章）",
       "text_reviewed": "（签名或印章）",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00025",
@@ -17257,7 +17347,12 @@
       "text": "至：",
       "text_original": "至：",
       "text_reviewed": "至：",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00027",
@@ -17843,7 +17938,12 @@
       "text": "（国土交通部）",
       "text_original": "（国土交通部）",
       "text_reviewed": "（国土交通部）",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00054",
@@ -17857,7 +17957,12 @@
       "text": "（国土交通部）",
       "text_original": "（国土交通部）",
       "text_reviewed": "（国土交通部）",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00055",
@@ -18245,7 +18350,12 @@
       "text": "年份",
       "text_original": "年份",
       "text_reviewed": "年份",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27051-zh-00018",
@@ -18259,7 +18369,12 @@
       "text": "月份",
       "text_original": "月份",
       "text_reviewed": "月份",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27051-zh-00019",
@@ -18273,7 +18388,12 @@
       "text": "日",
       "text_original": "日",
       "text_reviewed": "日",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27051-zh-00020",
@@ -18287,7 +18407,12 @@
       "text": "国土交通大臣",
       "text_original": "国土交通大臣",
       "text_reviewed": "国土交通大臣",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27051-zh-00021",
@@ -18301,7 +18426,12 @@
       "text": "官方印章",
       "text_original": "官方印章",
       "text_reviewed": "官方印章",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27052-zh-00001",
@@ -20596,7 +20726,12 @@
       "text": "年份",
       "text_original": "年份",
       "text_reviewed": "年份",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27054-zh-00014",
@@ -20610,7 +20745,12 @@
       "text": "月份",
       "text_original": "月份",
       "text_reviewed": "月份",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27054-zh-00015",
@@ -20624,7 +20764,12 @@
       "text": "日",
       "text_original": "日",
       "text_reviewed": "日",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27054-zh-00016",
@@ -20638,7 +20783,12 @@
       "text": "国土交通大臣",
       "text_original": "国土交通大臣",
       "text_reviewed": "国土交通大臣",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27054-zh-00017",
@@ -20652,7 +20802,12 @@
       "text": "官方印章",
       "text_original": "官方印章",
       "text_reviewed": "官方印章",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27055-zh-00001",
@@ -23334,7 +23489,12 @@
       "text": "年份",
       "text_original": "年份",
       "text_reviewed": "年份",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27059-zh-00011",
@@ -23348,7 +23508,12 @@
       "text": "月份",
       "text_original": "月份",
       "text_reviewed": "月份",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27059-zh-00012",
@@ -23362,7 +23527,12 @@
       "text": "日",
       "text_original": "日",
       "text_reviewed": "日",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27059-zh-00013",
@@ -23376,7 +23546,12 @@
       "text": "国土交通大臣",
       "text_original": "国土交通大臣",
       "text_reviewed": "国土交通大臣",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27059-zh-00014",
@@ -23390,7 +23565,12 @@
       "text": "官方印章",
       "text_original": "官方印章",
       "text_reviewed": "官方印章",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED",
+      "review_notes": [
+        {
+          "reason": "已按对应韩文表格核对：日期、签章、收件人、台账编号等表格占位字段准确，保留原译文。"
+        }
+      ]
     },
     {
       "id": "A27060-zh-00001",
