@@ -1,0 +1,219 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-17c1830954cb52c759c2",
+  "worker": "C04",
+  "panel_id": "panel-04",
+  "assignment_id": "UW-13dcf8b336720c3b2618fdc820a94e6a",
+  "status": "IN_PROGRESS",
+  "source_commit": "5f7a7e32af396dc79cd118fe4cd10694a66a9197",
+  "source_blobs": {
+    "ko": "dc7900aa39aa4daea43830abfc398a436695411c",
+    "en": "6dde8519d0cb5d72763353feaac3b483954cd1bc",
+    "zh": "cd35c01be0c39b6adbf2cc69f5f814e2c9cf8a67"
+  },
+  "review_file_sha": "de301567d25d400ebf696ebaa52dc50405023dfd",
+  "progress": {
+    "documents": 30,
+    "total_rows": 1275,
+    "reviewed_rows": 86,
+    "corrected_rows": 55,
+    "unchanged_rows": 31,
+    "pending_rows": 1189
+  },
+  "completed_reading": {
+    "korean": "COMPLETE: all 30 Korean documents (law, decree, rules, annexes and forms) read sequentially.",
+    "english": "COMPLETE: exact English Act, fallback English Decree, and all 195 rows in reviewed/en/KR_014648.json read sequentially; no English text edited.",
+    "chinese": "IN_PROGRESS: B1 all 42 rows reviewed; B2 all 35 rows reviewed; B3 9 rows corrected (00003,00004,00007,00011,00016,00018,00020,00023,00024); all other B3 rows and annexes/forms pending."
+  },
+  "per_document": {
+    "B1": {
+      "total": 42,
+      "reviewed": 42,
+      "corrected": 22,
+      "unchanged": 20
+    },
+    "B2": {
+      "total": 35,
+      "reviewed": 35,
+      "corrected": 24,
+      "unchanged": 11
+    },
+    "A39652": {
+      "total": 27,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0
+    },
+    "A39653": {
+      "total": 54,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0
+    },
+    "A39654": {
+      "total": 16,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0
+    },
+    "A39655": {
+      "total": 53,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0
+    },
+    "A39656": {
+      "total": 42,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0
+    },
+    "B3": {
+      "total": 27,
+      "reviewed": 9,
+      "corrected": 9,
+      "unchanged": 0
+    },
+    "A27040": {
+      "total": 79,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0
+    },
+    "A27041": {
+      "total": 27,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0
+    },
+    "A27042": {
+      "total": 90,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0
+    },
+    "A27043": {
+      "total": 81,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0
+    },
+    "A27044": {
+      "total": 39,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0
+    },
+    "A27045": {
+      "total": 16,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0
+    },
+    "A27046": {
+      "total": 15,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0
+    },
+    "A27047": {
+      "total": 80,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0
+    },
+    "A27048": {
+      "total": 78,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0
+    },
+    "A27049": {
+      "total": 69,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0
+    },
+    "A27050": {
+      "total": 55,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0
+    },
+    "A27051": {
+      "total": 21,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0
+    },
+    "A27052": {
+      "total": 59,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0
+    },
+    "A27053": {
+      "total": 47,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0
+    },
+    "A27054": {
+      "total": 17,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0
+    },
+    "A27055": {
+      "total": 15,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0
+    },
+    "A27056": {
+      "total": 43,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0
+    },
+    "A27057": {
+      "total": 26,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0
+    },
+    "A27058": {
+      "total": 46,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0
+    },
+    "A27059": {
+      "total": 14,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0
+    },
+    "A27060": {
+      "total": 15,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0
+    },
+    "A27061": {
+      "total": 47,
+      "reviewed": 0,
+      "corrected": 0,
+      "unchanged": 0
+    }
+  },
+  "findings": [
+    "B2-zh-00009, B2-zh-00018 had untranslated Korean source segments; translated in review file.",
+    "B2-zh-00026/00027 had heavily corrupted/mixed-language translation of amended 2026 Enforcement Decree Article 25; reconstructed from current Korean source.",
+    "B2-zh-00035 Annex 1 had clear facility mistranslations (taxiway/apron) and obsolete law reference; corrected against current source and English fallback.",
+    "B3-zh-00003 had obsolete pre-2026 energy-law text and omitted fuel-cell/hydrogen equipment; corrected to current Korean text.",
+    "B3-zh-00007 had untranslated Korean subitems and numbering errors; fully translated.",
+    "B1 Article 9(12) vs A27052 form's Article 93(12) citation discrepancy retained as source anomaly; not silently normalized."
+  ],
+  "next_step": "Continue B3 remaining rows and attached table; then review A39652-A39656, A27040-A27061 sequentially, checking every row, table and form. Preserve existing correct Chinese text and source SHAs. Only mark COMPLETE after full-family final QA and successful readback of official review file and receipt."
+}
