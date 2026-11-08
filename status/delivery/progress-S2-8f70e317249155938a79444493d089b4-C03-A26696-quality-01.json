@@ -1,0 +1,214 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26696",
+  "quality_batch": "A26696-quality-01",
+  "range": {
+    "first": "A26696-zh-00001",
+    "last": "A26696-zh-00019"
+  },
+  "quality_checked_rows": 19,
+  "quality_passed_rows": 19,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "A26696-zh-00001",
+    "A26696-zh-00002",
+    "A26696-zh-00003",
+    "A26696-zh-00004",
+    "A26696-zh-00005",
+    "A26696-zh-00006",
+    "A26696-zh-00007",
+    "A26696-zh-00008",
+    "A26696-zh-00009",
+    "A26696-zh-00010",
+    "A26696-zh-00011",
+    "A26696-zh-00012",
+    "A26696-zh-00013",
+    "A26696-zh-00014",
+    "A26696-zh-00015",
+    "A26696-zh-00016",
+    "A26696-zh-00017",
+    "A26696-zh-00018",
+    "A26696-zh-00019"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26696-00001-00019.json",
+  "results": [
+    {
+      "id": "A26696-zh-00001",
+      "source_hash": "8fb7b76d1d05fe220259c724c3899c2bb72d7861ea1dc4c4374fb74b42527f49",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "별지 제4호서식 공식 법률명과 양식번호"
+    },
+    {
+      "id": "A26696-zh-00002",
+      "source_hash": "7ecec98ecf424f633eec976b3225215801909dbbf738ddfd7af8b6bd37756c92",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "확인서 요청 및 발급 대장 제목"
+    },
+    {
+      "id": "A26696-zh-00003",
+      "source_hash": "be41aba2fd84362ba49d22d8635d6c05f86426ee40846f1354e944062c4557a8",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "요청 열 구분"
+    },
+    {
+      "id": "A26696-zh-00004",
+      "source_hash": "fc0aec8efc9cf7434964f86433311e24f2998ef6e36c7e3904222fa29065b276",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "발급 열 구분"
+    },
+    {
+      "id": "A26696-zh-00005",
+      "source_hash": "750086e9fe99bde5d8094513e465e2eb5468aa793f38ff81a1d52389af317148",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "처리자 열 구분"
+    },
+    {
+      "id": "A26696-zh-00006",
+      "source_hash": "cb8c6b238f800814355e19339cd8accac66e3694f0770d65b3b95a72a190e49c",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "비고 열 구분"
+    },
+    {
+      "id": "A26696-zh-00007",
+      "source_hash": "d4335e4767e00a6636528a158bf9e1dcb346a3c0dcf49564ef9636b8684feeed",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "미발급 시 사유 표기의 첫 셀"
+    },
+    {
+      "id": "A26696-zh-00008",
+      "source_hash": "f8152b235035198a49b4c419b309a16cb41263ab1292e6cefeaa2debac2abd26",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "일련번호"
+    },
+    {
+      "id": "A26696-zh-00009",
+      "source_hash": "9dd1771d703c46576eba89ca6d25dcfe72faa2a07570a4e57c5b61449438904f",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "요청 연월일"
+    },
+    {
+      "id": "A26696-zh-00010",
+      "source_hash": "5aa32deffdf1362feb45b4aaf4a1945b15c91915f96194031e41bc759b5f2f97",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "성명"
+    },
+    {
+      "id": "A26696-zh-00011",
+      "source_hash": "f7ea9e331f80935959d8c179f685fbbdfde7f0301e791106a64b454bb1d6e80c",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "생년월일"
+    },
+    {
+      "id": "A26696-zh-00012",
+      "source_hash": "9dd1771d703c46576eba89ca6d25dcfe72faa2a07570a4e57c5b61449438904f",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "발급 연월일"
+    },
+    {
+      "id": "A26696-zh-00013",
+      "source_hash": "2fbd9337e652d7499c050d32189eea6e0c45920a41589ebf5441c7829c3d371a",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "발급번호"
+    },
+    {
+      "id": "A26696-zh-00014",
+      "source_hash": "5ee6fc3073efa1c809288c058351a9309d29c2b0093a136895910619f7aa96a2",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "발급대상자"
+    },
+    {
+      "id": "A26696-zh-00015",
+      "source_hash": "fce7a1553ac75ccf2ff4b619aeb07faff1d49fe85bd128d2ebad03a85fb0529d",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "판정기관"
+    },
+    {
+      "id": "A26696-zh-00016",
+      "source_hash": "4f10aa4c127b5bdb24803e55e7c3aa2747205d5715bfdb73e0e58f7807a9d01b",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "미발급 사유 표기의 나머지 셀"
+    },
+    {
+      "id": "A26696-zh-00017",
+      "source_hash": "9cfad998cc84beb294598ce45962b8ace566e8613ba6bcd6173c85dc67fff883",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "본인 신청 구분"
+    },
+    {
+      "id": "A26696-zh-00018",
+      "source_hash": "bd6c8cccb6aa815bc26f04b4d3f9b1e83d3454d885ed59afb667bd3f496a2433",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신고인 신청 구분"
+    },
+    {
+      "id": "A26696-zh-00019",
+      "source_hash": "6a9fd2459313c78ed634682f52734f6a424348a2381255da601ab4f842ec71c4",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "용지 크기와 종이 중량"
+    }
+  ],
+  "edits": [],
+  "note": "A26696 피해자 확인서 요청·발급 대장 19개 셀과 기존 교정을 한국어 표의 요청/발급 구분·성명·일자·판정기관·미발급 사유·용지규격과 대조하여 품질 판정. 기존 ID·원문/교정·해시 불변. 가족 COMPLETE 아님."
+}
