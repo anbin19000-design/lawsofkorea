@@ -21,8 +21,8 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 57,
-    "pending_rows": 1630,
+    "correction_count": 58,
+    "pending_rows": 1629,
     "by_document": {}
   },
   "corrections": {
@@ -424,6 +424,13 @@
       "original": "将责任推卸给 START  的行为",
       "corrected": "或者将本应由特许人承担的损害赔偿义务转嫁给加盟商的行为",
       "reason": "별표 2 부당한 손해배상의무 부과행위 라목의 가맹본부 손해배상의무 전가 대상이 START로 훼손된 오역을 한국어 원문에 따라 복원."
+    },
+    "A34912-zh-00134": {
+      "doc": "A34912",
+      "source_hash": "0035673df64aa41642bdd3fba53a1685280bb026bedfac18abf628a884cffc9a",
+      "original": "销售额为特许经营者根据该法第 9 条第 3 款和第 5 款提供的预计销售额中的[最高]金额。",
+      "corrected": "销售额为特许经营者根据该法第 9 条第 3 款和第 5 款提供的预计销售额中的最低金额。",
+      "reason": "별표 2의 부당한 영업위약금 부과행위는 예상매출액의 최저액 미달을 기준으로 하나, 중국어가 최고액으로 역전한 명백한 오역을 최소 교정."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -449,7 +456,8 @@
     "C05 full-length B1 clause reinspection: recovered Article 11(2)(13) missing substance and Article 31 mandatory cancellation scope.",
     "Latest integrity checkpoint review/zh/F-0aff999a0f4186c0da77-progress-C05-382d0b9d5453-final-checkpoint.json confirms 54 corrections with zero source mismatches, but does not certify completed Chinese semantic review.",
     "C05 continuation 91cb01eae9bf/3e61e88b96b9: annex A34912 two START-contaminated Chinese row fragments repaired against full Korean annex context; prior 54 corrections retained. Full 1687-row Chinese semantic certification remains incomplete.",
-    "C05 continued annex A34912 row 00143: verified START contamination against Korean subsection 4(d), cumulative corrections 57; no completion certification."
+    "C05 continued annex A34912 row 00143: verified START contamination against Korean subsection 4(d), cumulative corrections 57; no completion certification.",
+    "C05 1de82ffe0e73 continuation: annex A34912-zh-00134 high/low expected sales threshold reversal corrected against Korean annex. Full Chinese sequential semantic review remains IN_PROGRESS."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -458,5 +466,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 57
+  "corrected_rows": 58
 }
