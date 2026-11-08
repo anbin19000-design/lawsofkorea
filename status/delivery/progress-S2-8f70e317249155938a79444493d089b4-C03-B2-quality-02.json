@@ -1,0 +1,79 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "B2",
+  "quality_batch": "B2-quality-02",
+  "range": {
+    "first": "B2-zh-00005",
+    "last": "B2-zh-00011"
+  },
+  "quality_checked_rows": 5,
+  "quality_passed_rows": 4,
+  "quality_failed_rows": 1,
+  "quality_checked_ids": [
+    "B2-zh-00005",
+    "B2-zh-00006",
+    "B2-zh-00009",
+    "B2-zh-00010",
+    "B2-zh-00011"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_files": [
+    "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-00001-00006.json",
+    "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-00007-00012.json"
+  ],
+  "prior_quality_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-quality-01.json",
+  "prior_quality_blob_sha": "b941d4a11df6db465fbf69b35f812eda8b28e0cc",
+  "results": [
+    {
+      "id": "B2-zh-00005",
+      "source_hash": "e90f721b330446d1017904c347a6d5f4e312a4d3fc4bdbafc0aa0f4138e4452b",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Article 4 Korean source has nine paragraphs and policy council membership, dismissal, quorum, expenses and consultation powers. Existing Chinese correction preserves ①–⑨, cited Article 9(2)(8)/(9), the majority vote, and the exception for public officials attending directly in connection with their duties."
+    },
+    {
+      "id": "B2-zh-00006",
+      "source_hash": "cc6774fc17d10e8b1752c766cf01255cac084994fd34126ddc276d83cd8ecf90",
+      "verdict": "FAIL",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Article 5 paragraph ② item 2 in the preserved Korean source reads '법 제11조제4호부터 제7호까지'; the saved Chinese correction instead cites '法第十一条第一款第四项至第七项', inserting '第一款' not written in that exact source reference. All other saved content must remain unchanged. Resolve source citation discrepancy before final adoption."
+    },
+    {
+      "id": "B2-zh-00009",
+      "source_hash": "18b130e6a4a5ba2b08e3a5caf42589da3456b95f0083f4e8859fea66868a3130",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Article 8 Chinese correction preserves seven paragraphs, 15-member maximum, president and vice-president, at least seven recommended members, at least one lawyer and physician each, two-year appointed term with only two reappointments, and chair succession."
+    },
+    {
+      "id": "B2-zh-00010",
+      "source_hash": "895fd13fc1c747cd7312f099754116460f2ac3f80906c543fce6d2df8ed6ba00",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Article 9 Chinese correction differentiates automatic disqualification under paragraph ①, an interested party's request to disqualify in paragraph ②, and self-recusal in paragraph ③; preserves all five grounds and the three-year lookback."
+    },
+    {
+      "id": "B2-zh-00011",
+      "source_hash": "a71bf50c7d7dec6fe0eb1813d010df62345d492b0ee5d56cd2e2422aee6abd25",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Article 10 Chinese correction preserves meeting convening authority, a quorum of more than half of sitting members, passage by more than half of attendees, closed proceedings, and the official-duty exception to expenses."
+    }
+  ],
+  "edits": [],
+  "note": "B2-quality-01's two PASS decisions remain untouched. B2-zh-00003/00004/00007/00008/00012 have no saved correction in prior progress files and are not counted as correction quality decisions. B2-zh-00006 has an unresolved source-reference discrepancy; do not mark family COMPLETE. No original or prior correction files modified."
+}
