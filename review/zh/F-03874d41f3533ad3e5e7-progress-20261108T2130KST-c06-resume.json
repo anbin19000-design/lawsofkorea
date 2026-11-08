@@ -1,0 +1,70 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-03874d41f3533ad3e5e7",
+  "worker": "C06",
+  "branch": "main",
+  "source_commit": "c01454001dfebb21404f0bd62eb41ed779c24911",
+  "source_blobs": {
+    "ko": "a876d2ac8d00e8ab1ff5e56885dc83f20e960282",
+    "en": "3ff265044e626009ba558df3eacfaa824db40e2f",
+    "zh": "c5cddaa9319ac82d8f93a8393395980fd1ce1e78"
+  },
+  "scope": {
+    "documents": 62,
+    "zh_rows": 3247
+  },
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "verified_reading": {
+    "ko_documents_loaded": 62,
+    "ko_characters": 356579,
+    "en_linked_unique_documents": 2,
+    "en_characters": 123618,
+    "zh_rows_loaded": 3247,
+    "zh_rows_screened_for_korean_and_mtq_artifacts": 3247
+  },
+  "checked_rows": 4,
+  "corrected_rows": 4,
+  "edits": [
+    {
+      "id": "B2-zh-00007",
+      "text": "第五条（国家海洋基准点的分类）\n① 根据本法第九条第一款，国家海洋基准点分为下列各类：\n1. 基本水准点：以基本水准面（指在一定期间内观测潮汐后计算得出的最低海面）为基础设定，作为海洋调查时测量海域水深及干潮露出地高度的基准点。\n2. 水道测量基准点：以卫星基准点为基础设定，作为海洋调查时测量海域水平位置的基准点。\n3. 领海基准点：为划定我国领海而设定的基准点。\n② 根据第一款各项设定的国家海洋基准点，必要时可以划分等级。\n\n"
+    },
+    {
+      "id": "B2-zh-00020",
+      "text": "第十八条（海洋调查及信息业务报酬标准）根据本法第三十九条第一款，海洋调查及信息业务的报酬应区分直接费用和间接费用计算。\n\n第四章 海洋信息的利用\n\n"
+    },
+    {
+      "id": "B3-zh-00021",
+      "text": "第十九条（海洋调查技术人员的申报等）\n① 海洋调查技术人员（指本法第二十五条第二款规定的海洋调查技术人员；以下同）拟依本法第二十六条第一款申报或变更申报工作单位、工作经历、学历及资格等事项（以下称“工作单位及经历等”）的，应在附件第十一号格式的海洋调查技术人员申报书中附上下列文件，或者在附件第十二号格式的海洋调查技术人员变更申报书中附上证明变更事项的文件，提交海洋调查协会。\n1. 附件第十三号格式的海洋调查技术人员经历确认书（仅限经雇主或发包方确认的情形）。\n2. 国家技术资格证书复印件（仅限适用人员提交）。\n3. 毕业证明书（仅限适用人员提交）。\n4. 照片一张（3.5×4.5厘米）。\n5. 业绩证明书复印件等能够证明工作经历的文件。\n② 海洋调查技术人员拟依本法第二十六条第三款取得海洋调查技术经历证（以下简称“海洋调查技术经历证”）的，应向海洋调查协会提交附件第十四号格式的申请书。\n③ 海洋调查技术经历证按照附件第十五号格式签发。\n④ 海洋调查协会签发海洋调查技术经历证时，应按照附件第十六号格式，将有关详细事项记入海洋调查技术经历证签发登记簿并予以管理。\n⑤ 根据本法第二十六条第五款，海洋调查技术人员的工作单位及经历等，应通过海洋调查技术人员工作经历确认书（附件第十七号格式）及海洋调查技术人员持有证明书（附件第十八号格式）予以确认。\n\n"
+    },
+    {
+      "id": "B3-zh-00041",
+      "text": "第三十九条（海洋信息出版物销售代理人的指定）\n① 拟依本法第五十条第一款被指定为销售代理人者（以下简称“销售代理人”），应向国立海洋调查院院长提交附件第四十号格式的海洋信息出版物销售代理人指定申请书，并附上下列文件：\n1. 事业计划书（包括销售方式、反映航行通告的计划及用户支持方案等）。\n2. 高管人员名单（仅限法人）。\n3. 海洋调查技术人员名单及经历证明书等证明资料。\n4. 证明持有能够确认数字形式海洋信息出版物的电子系统的资料（仅限申请被指定为数字形式海洋信息出版物销售代理人者）。\n② 国立海洋调查院院长收到第一款规定的申请时，应通过《电子政府法》第三十六条第一款规定的行政信息共同利用，确认营业执照或法人登记事项证明书（仅限法人）。但申请人不同意确认营业执照的，应要求其附上该执照复印件。\n③ 国立海洋调查院院长收到第一款规定的指定申请后，应确认申请人是否具备本令第二十一条规定的销售代理人指定条件，并签发附件第四十一号格式的海洋信息出版物销售代理人指定书。\n\n"
+    }
+  ],
+  "outstanding": [
+    "Full semantic review of all 3247 Chinese rows remains incomplete; do not mark COMPLETE.",
+    "46 rows surfaced in screening: four rows with Korean untranslated passages now have proposed corrections; remaining MTQ/XML markers and mixed-language annex/form rows require source-XML validation.",
+    "A39200 Annex 1 qualification table has an inaccurate partial translation in B2-zh-00070; requires full row-by-row correction against the Korean annex.",
+    "English index blob is readable and identifies two unique official English texts: law and enforcement decree. No English link was listed for the other 60 documents; those sections require Korean-Chinese comparison and explicit no-English annotation."
+  ],
+  "english_sources": [
+    {
+      "path": "documents/en/kr-013687-277099-en.json",
+      "blob_sha": "63e9dccfb58a0364c3363a838d7a98a6b7166448",
+      "characters": 90353
+    },
+    {
+      "path": "documents/en/kr-014018-283013-en.json",
+      "blob_sha": "df6091b28e95f8c2ab0ae7b19abcdbbcd5c4e142",
+      "characters": 33265
+    }
+  ],
+  "notes": [
+    "Recovered EN index via Git blob SHA 3ff265044e626009ba558df3eacfaa824db40e2f; previous empty Contents response was not evidence of absent English materials.",
+    "Loaded all 62 Korean source documents, the two linked unique English texts, and all 3247 Chinese rows in assigned family order.",
+    "The four proposed corrections address B2-zh-00007, B2-zh-00020, B3-zh-00021, B3-zh-00041. Existing accurate Chinese text retained where applicable.",
+    "Prior checkpoint review/zh/F-03874d41f3533ad3e5e7-progress-20261108T2110KST-c06-initial.json remains preserved."
+  ],
+  "status": "IN_PROGRESS"
+}
