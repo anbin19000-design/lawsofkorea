@@ -1,0 +1,155 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A39474",
+  "quality_batch": "A39474-quality-05",
+  "range": {
+    "first": "A39474-zh-00066",
+    "last": "A39474-zh-00078"
+  },
+  "quality_checked_rows": 13,
+  "quality_passed_rows": 13,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "A39474-zh-00066",
+    "A39474-zh-00067",
+    "A39474-zh-00068",
+    "A39474-zh-00069",
+    "A39474-zh-00070",
+    "A39474-zh-00071",
+    "A39474-zh-00072",
+    "A39474-zh-00073",
+    "A39474-zh-00074",
+    "A39474-zh-00075",
+    "A39474-zh-00076",
+    "A39474-zh-00077",
+    "A39474-zh-00078"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39474-00066-00078.json",
+  "prior_quality_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39474-quality-04.json",
+  "results": [
+    {
+      "id": "A39474-zh-00066",
+      "source_hash": "887314459c48e910b074732efeb403954940d0c440a0d11827cf06cf548125e6",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "지역기관 장부 항목의 다. 운영일지에 해당하는 표지·내용 교정 확인"
+    },
+    {
+      "id": "A39474-zh-00067",
+      "source_hash": "6c9ad4b944371b854da4b8c8de526f7b6bbbff4089b510092f677720fc586f54",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "지역피해자권익보호기관 기관장과 직원의 인사카드 비치 의무 확인"
+    },
+    {
+      "id": "A39474-zh-00068",
+      "source_hash": "08483ea1eab10f5e7d449eed79466e02a7cff35b23fab1e5d38b3f85a141cb70",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "예산서 및 결산서 비치 항목 확인"
+    },
+    {
+      "id": "A39474-zh-00069",
+      "source_hash": "b3db18a2d5394227e7fa4bad0656db188ab900fb714c558e58141d8717628be2",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "총계정원장과 수입·지출 보조장부를 구분한 교정 확인"
+    },
+    {
+      "id": "A39474-zh-00070",
+      "source_hash": "75a7e6885edf3b8fa6ba9bf2cc83a093bf8d841a4355d5a8551ccf3a5821669d",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "금전·물품 출납부와 증명서류의 교정 확인"
+    },
+    {
+      "id": "A39474-zh-00071",
+      "source_hash": "121402971d8af5db38e1d10c2e394290b4463dc452923b25f287f4b92f103cf6",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "보고서철 및 관계 행정기관과 송수신한 문서철의 구분 확인"
+    },
+    {
+      "id": "A39474-zh-00072",
+      "source_hash": "86b33bb8372d76a8795b1d6677e731884985a14a4576ed8f9473cd1c3078579e",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "지역기관 피해자 상담 등 업무 관련 기록 및 서류의 앞부분 확인"
+    },
+    {
+      "id": "A39474-zh-00073",
+      "source_hash": "f925a878e61390f9e2d97b54e825e36b8d14d6c5228d157e61ba8cbc93b15166",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "앞 행과 결합한 업무기록 및 서류 의무 확인"
+    },
+    {
+      "id": "A39474-zh-00074",
+      "source_hash": "16736e61038858fc333499b19e32ebf466bf8edbff1bdbde2cbafb3e6f685b10",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "3. 회계 제목 일치"
+    },
+    {
+      "id": "A39474-zh-00075",
+      "source_hash": "514355cd12e534794d25b1a320f5e372e50df0ad2023ec82b947dcd5f974fc81",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "지역기관 운영 회계를 법인회계 또는 다른 사업 회계와 분리하는 앞부분 확인"
+    },
+    {
+      "id": "A39474-zh-00076",
+      "source_hash": "c9b457e38ce7f628b203dbebaa4dea71dcb8cb58f3f3b815c3c9e657b9be3cc9",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "앞 행과 결합하여 별도 회계 처리 의무 확인"
+    },
+    {
+      "id": "A39474-zh-00077",
+      "source_hash": "08ec2ec8704328ca36a6a536976c1366f59b42c05b6c40b572e79f886a87c419",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "국가·지방자치단체 보조금품과 타 기관 기부금품 구분 확인"
+    },
+    {
+      "id": "A39474-zh-00078",
+      "source_hash": "a2ab799895e48e921f464c23d4921107c02ad190d4c72c82b012ac8a3adc6d9e",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "앞 행과 결합하여 별도 계정 회계 처리 의무 확인"
+    }
+  ],
+  "edits": [],
+  "note": "별표 1 마지막 66~78번 13개 XML 셀을 한국어 원문과 대조. 장부의 순서, 피해자상담 기록, 법인·다른 사업 회계와 분리 및 보조금품·기부금품 별도 계정 의무를 기존 교정 10건과 함께 검증. 원본 행·해시·기저장 교정 보존. 가족 전체 1136행 최종 집계 전으로 COMPLETE 아님."
+}
