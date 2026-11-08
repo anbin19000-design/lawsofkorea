@@ -1,0 +1,46 @@
+{
+  "schema": "LAW_ZH_EMPTY_EDIT_DECISIONS_V1",
+  "job_id": "F-1497d85066511dfeffd4",
+  "worker": "C04",
+  "assignment_id": "UW-577a8438cf2c8840d042cd9459b04984",
+  "review_original_blob_sha": "800f4af61a2ee085a670cd84a6f2fb01a9231688",
+  "source_blobs": {
+    "ko": "f7414f486d3fff46fec301f56e47f37575f835aa",
+    "en": "835fe6c61b35a38db06d890138be0001ca03c610",
+    "zh": "a039851e87912aaef943e29d8fe40df20ae65e8a"
+  },
+  "empty_edit_count": 2,
+  "decision_counts": {
+    "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT": 2
+  },
+  "status": "SOURCE_BOUND_DECISIONS_RECORDED",
+  "note": "Re-evaluated all 12 prior blank edits against the complete Korean forms and source-row neighbors. Ten were not deletions: they were split fragments or punctuation and have now been given source-backed nonempty Chinese text in the canonical review. Two were genuine spurious/duplicate segments and are intentionally excluded from canonical edits; their IDs, source texts, hashes, neighbors and reasons are preserved below. No original source row is modified.",
+  "decisions": [
+    {
+      "id": "A29204-zh-00041",
+      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "prior_edit_text": "",
+      "source_row_text": "包含 START 阶段。",
+      "doc": "A29204",
+      "source_hash": "fcba13d1970c162c854c13e4d81475b638feb17c2f299eb04d3fc1f465ba4711",
+      "target_id": "XML:2089202",
+      "previous_row_id": "A29204-zh-00040",
+      "following_row_id": "A29205-zh-00001",
+      "reason": "The Chinese segment '包含 START 阶段。' has no corresponding Korean text in the full source for Appendix 8-4; it is an unsupported injected fragment. The Korean table's complete item 2 is already represented by the adjacent reviewed segments.",
+      "preservation": "The original source row and ID remain untouched in laws/zh; deletion means no replacement entry in canonical edits, not erasing or changing the source."
+    },
+    {
+      "id": "A13790-zh-00073",
+      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "prior_edit_text": "",
+      "source_row_text": "已写入",
+      "doc": "A13790",
+      "source_hash": "4f961469c457130737f277d3bf7109e25b7b49eeb89e618f98200b9f308ad3d3",
+      "target_id": "XML:1030436",
+      "previous_row_id": "A13790-zh-00072",
+      "following_row_id": "A13790-zh-00074",
+      "reason": "The source form's process diagram contains only one '대장 기재' step, already represented by A13790-zh-00071 ('登记于台账'); this separate '已写入' segment is duplicate debris, not a second Korean process step.",
+      "preservation": "The original source row and ID remain untouched in laws/zh; deletion means no replacement entry in canonical edits, not erasing or changing the source."
+    }
+  ]
+}
