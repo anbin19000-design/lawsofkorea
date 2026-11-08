@@ -1,0 +1,50 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:5b21d79de9ad",
+  "status": "IN_PROGRESS",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_en_index_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "english_document_reference": "documents/en/kr-014071-276899-en.json",
+  "quality_checked_rows": 4,
+  "checked_rows": 4,
+  "checked_ids": [
+    "B1-zh-00005",
+    "B1-zh-00007",
+    "B1-zh-00008",
+    "B1-zh-00009"
+  ],
+  "quality_passed_rows": 4,
+  "results": [
+    {
+      "id": "B1-zh-00005",
+      "verdict": "PASS",
+      "reason": "Korean Article 3 and exact-version English Article 3 both contain three victim eligibility categories and two nationality/residency categories, preserved in Chinese."
+    },
+    {
+      "id": "B1-zh-00007",
+      "verdict": "PASS",
+      "reason": "Article 5 provisions on state/local duties, financing and international cooperation retain the operative meaning and two-paragraph structure."
+    },
+    {
+      "id": "B1-zh-00008",
+      "verdict": "PASS",
+      "reason": "Article 6 retains all four enumerated victim rights: aid/compensation, information, participation/legal aid, privacy and personal safety."
+    },
+    {
+      "id": "B1-zh-00009",
+      "verdict": "PASS",
+      "reason": "Article 7 preserves primacy and the victim-favorable exception; Chapter II heading follows correctly."
+    }
+  ],
+  "edits": [],
+  "prior_evidence_index": "status/delivery/reconcile-S2-8f70e317249155938a79444493d089b4-evidence-7e6b69412a765526.json",
+  "prior_verification_file": "review/zh/F-0536890d62605f77ff0a-progress-C03-8d2adb521ba2-B1-initial-verification.json",
+  "protected_unresolved_ids": [
+    "A26697-zh-00008",
+    "A26699-zh-00053"
+  ],
+  "note": "Four additional B1 rows checked against Korean and exact-version English, no correction needed. Previously recorded edits and unresolved items unchanged. Does not establish full family review."
+}
