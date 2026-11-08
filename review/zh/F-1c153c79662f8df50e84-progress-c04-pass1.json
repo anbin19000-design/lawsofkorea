@@ -15,7 +15,7 @@
     "required_order": "KO_FULL_EN_FULL_ZH_FULL",
     "ko": "COMPLETE: all 34 Korean source documents read in source order.",
     "en": "COMPLETE: B1 exact English and B2 English draft read in full; reviewed/en/KR_008306.json reference read; B3 and forms lack complete English document translations.",
-    "zh": "IN_PROGRESS: fragmented table labels in A12179 and the opinion-hearing results form A12180 have been reconciled. All 34 documents have been reviewed for obvious issues; final whole-family QA and canonical result/receipt still pending."
+    "zh": "IN_PROGRESS: a cross-form pass removed mixed English/Chinese label fragments across the forms (Name, Land, Price, shape, Entry and START). Intentional English form reproductions and unit specifications are retained."
   },
   "scope": {
     "documents": 34,
@@ -4433,13 +4433,35 @@
       "text_original": "2. 市长、县长或区长的正式回复文件一份",
       "corrected_text": "2. 市长、郡守或区厅长的回复公文副本1份",
       "note": "修正附件清单及地方首长职衔。"
+    },
+    {
+      "id": "A12180-zh-00007",
+      "source_hash": "3763e417c129951c00eb75b8f48b67557f4e9a924375d25706a2b17aa9c35217",
+      "text_original": "听证意见日期 START",
+      "corrected_text": "意见听取日期",
+      "note": "移除残留START并修正听取意见日期字段。"
+    },
+    {
+      "id": "A12189-zh-00007",
+      "source_hash": "3763e417c129951c00eb75b8f48b67557f4e9a924375d25706a2b17aa9c35217",
+      "text_original": "听证意见日期 START",
+      "corrected_text": "意见听取日期",
+      "note": "移除残留START并修正听取意见日期字段。"
+    },
+    {
+      "id": "A12200-zh-00008",
+      "source_hash": "3763e417c129951c00eb75b8f48b67557f4e9a924375d25706a2b17aa9c35217",
+      "text_original": "听证意见日期 START",
+      "corrected_text": "意见听取日期",
+      "note": "移除残留START并修正听取意见日期字段。"
     }
   ],
   "quality_checks": {
     "source_zh_sha_preserved": true,
     "mtq_remaining": 0,
     "unique_changed_ids": true,
-    "total_saved_changes": 630
+    "total_saved_changes": 633,
+    "mixed_english_chinese_rows_remaining": 36
   },
-  "next_step": "Run complete 2,925-row ID/source_hash coverage and residual MTQ/Korean checks; reconcile progress edits against all source rows; construct canonical LAW_ZH_MINIMAL_REVIEW_V1 with actual corrected rows and checked_rows, then save and re-read receipt only after QA."
+  "next_step": "Continue checking all form content and table continuity; resolve any remaining mixed-script defects and then perform final source-hash, unique-ID, MTQ, Korean-fragment and numeric/reference QA."
 }
