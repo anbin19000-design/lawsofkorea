@@ -1,0 +1,323 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0e85eccd3114729a4e48",
+  "worker": "C04",
+  "panel_id": "panel-04",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "7a73f0fd20ea34126bcaa28cb6d800668ba02f87",
+    "en": "6e1e1fafe1ce67a3ff6a7b762ebc5d7b678d4b8b",
+    "zh": "6893de556d097781e2fbfee0ca8662250e56787d"
+  },
+  "source_commit_assignment": "88dc2efccaffe36fc3ec0b83f3f6a64a8b45fec4",
+  "source_commit_previous_checkpoint": "e4d2c9c2907b9faa27a0207136f59368478cdf57",
+  "based_on": "review/zh/F-0e85eccd3114729a4e48-progress-d9bfcd381140-2809-qc.json",
+  "reading_checkpoint": {
+    "required_order": "KO_FULL_EN_FULL_ZH_FULL",
+    "ko": "COMPLETE; sequentially read full source_ko across all 46 documents B1 B2 A38105–A38108 B3 A23999–A24037, including lengthy annexes and all form pages.",
+    "en": "COMPLETE; sequentially read B1 exact official English full_text 55,791 chars (documents/en/kr-012312-259239-en.json, blob 49cef4722fbabb607ccade08ca7db65280394001) then B2 official English 32,289 chars (documents/en/kr-012585-280589-en.json, blob a86dd6eb189ef55e80fc6397129ce2c1ab116b32). B3 and 39 other documents have no document-level English full text; annexes A38105–A38108 reference B2 English.",
+    "zh": "COMPLETE first-pass sequential review of all 2809 Chinese rows across 46 legal-family documents; final reconciliation and QA pending.",
+    "next_step": "Reconcile parallel conflicting decisions, audit unique edits, untranslated Korean/MTQ, source SHA; publish official files only on success."
+  },
+  "conflict_count": 59,
+  "conflict_decisions": [
+    {
+      "id": "B2-zh-00003",
+      "choice": "alternate_text",
+      "reason": "Korean 수산동물의 수정란과 다음 각 호의 수산동물의 어린 개체 distinguishes all fertilized aquatic-animal eggs from specified juveniles."
+    },
+    {
+      "id": "B2-zh-00006",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "B2-zh-00009",
+      "choice": "alternate_text",
+      "reason": "Korean 중간 육성시설 refers to intermediate rearing equipment, not generic nursery seedlings."
+    },
+    {
+      "id": "B2-zh-00012",
+      "choice": "alternate_text",
+      "reason": "Korean 수산종자사업자, 정관, 설립인가, 회원의 명부 refer to aquatic seed industry operator, association bylaws, establishment authorization and member register."
+    },
+    {
+      "id": "B2-zh-00019",
+      "choice": "alternate_text",
+      "reason": "Korean 분쟁대상 수산종자 and 공동 시료채취; existing mistranslates subject as aquatic plant and adds conditions not in law."
+    },
+    {
+      "id": "B2-zh-00039",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38105-zh-00005",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38105-zh-00006",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38105-zh-00012",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38105-zh-00028",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38105-zh-00039",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38105-zh-00047",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38105-zh-00050",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38105-zh-00055",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38106-zh-00015",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38106-zh-00017",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38106-zh-00027",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38106-zh-00034",
+      "choice": "alternate_text",
+      "reason": "Korean 비고 on counting one qualified person in only one personnel category is made explicit."
+    },
+    {
+      "id": "A38107-zh-00005",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38107-zh-00006",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38107-zh-00018",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38107-zh-00022",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38107-zh-00029",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38107-zh-00036",
+      "choice": "alternate_text",
+      "reason": "Korean 거짓이나 그 밖의 부정한 방법 explicit fraud wording was omitted by existing variant."
+    },
+    {
+      "id": "A38107-zh-00040",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38107-zh-00048",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38107-zh-00057",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38108-zh-00010",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38108-zh-00013",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38108-zh-00014",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38108-zh-00024",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38108-zh-00030",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38108-zh-00039",
+      "choice": "alternate_text",
+      "reason": "Korean 30일 이내에 신고를 하지 않거나 explicitly requires non-reporting; existing variant omits negative."
+    },
+    {
+      "id": "A38108-zh-00052",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38108-zh-00073",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38108-zh-00117",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A38108-zh-00122",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "B3-zh-00007",
+      "choice": "alternate_text",
+      "reason": "Korean names aquatic parent fish/shellfish and equipment/qualifications; existing variant contains mistranslated labels and omitted/garbled categories."
+    },
+    {
+      "id": "B3-zh-00008",
+      "choice": "alternate_text",
+      "reason": "Korean 넙치/전복/터봇 and registration exam and mandatory consultation terms are preserved by alternate."
+    },
+    {
+      "id": "B3-zh-00011",
+      "choice": "alternate_text",
+      "reason": "Korean 친어등 대여 교환 대상자 and 종자개량기관; existing inserts nonexistent special law and aquatic plant limitation."
+    },
+    {
+      "id": "B3-zh-00012",
+      "choice": "alternate_text",
+      "reason": "Korean 장관이 무상으로 대여 means ministry lends to user, not minister borrows; alternate corrects subject direction."
+    },
+    {
+      "id": "B3-zh-00013",
+      "choice": "alternate_text",
+      "reason": "Korean reciprocal contract for exchange and settlement of any price difference accurately represented."
+    },
+    {
+      "id": "B3-zh-00014",
+      "choice": "alternate_text",
+      "reason": "Korean 수산종자생산업 categories, municipal officers and documents are properly captured; original existing names wrong industry."
+    },
+    {
+      "id": "B3-zh-00031",
+      "choice": "alternate_text",
+      "reason": "Korean 법 제30조 references same Act; avoid invented title of a different statute."
+    },
+    {
+      "id": "B3-zh-00038",
+      "choice": "alternate_text",
+      "reason": "Korean 법 제34조제5항 same Act; existing reference incorrectly makes it a separately named promotion act."
+    },
+    {
+      "id": "B3-zh-00039",
+      "choice": "alternate_text",
+      "reason": "Korean 제37조제1항 compensation claim is prerequisite, not 제34조제7항 applied as immediate target."
+    },
+    {
+      "id": "A24016-zh-00003",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A24016-zh-00013",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A24016-zh-00014",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A24016-zh-00037",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A24017-zh-00003",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A24017-zh-00010",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A24017-zh-00014",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A24017-zh-00016",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A24017-zh-00018",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A24017-zh-00022",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A24017-zh-00024",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A24017-zh-00027",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    },
+    {
+      "id": "A24017-zh-00031",
+      "choice": "existing_text",
+      "reason": "Existing C04 minimally corrected text retained; alternative does not establish a material Korean-source discrepancy."
+    }
+  ],
+  "provisional_alternate_selected": 16,
+  "provisional_existing_retained": 43,
+  "notes": "All 59 competing variants retained in original QC checkpoint; this audit only chooses among them, without mutating source or overwriting prior findings. Remaining full QA required before COMPLETE."
+}
