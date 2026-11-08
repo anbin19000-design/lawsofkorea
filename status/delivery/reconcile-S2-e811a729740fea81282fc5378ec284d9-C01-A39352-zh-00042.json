@@ -1,0 +1,20 @@
+{
+  "schema": "LAW_ZH_RECONCILE_V1",
+  "job_id": "F-eb24b26e08a83be58f81",
+  "assignment_id": "S2-e811a729740fea81282fc5378ec284d9",
+  "worker": "C01",
+  "branch": "main",
+  "status": "RECONCILED",
+  "row_id": "A39352-zh-00042",
+  "source_hash": "5df999b38d40f890d6ea21c24c9f8526b88a81f91d1229b1fae6fb50e532d4c5",
+  "source_blob_sha": {
+    "ko": "f0d6fbd2ef344c2fcc23f9c68a9e5dfbb3ed196a",
+    "zh": "0ab0bdb3db18772f9e4cb45b0e179805f0df3940"
+  },
+  "candidate_files": [
+    "status/delivery/progress-S2-e811a729740fea81282fc5378ec284d9-C01-A39352-00028-00055.json",
+    "status/delivery/progress-S2-e811a729740fea81282fc5378ec284d9-C01-A39352-00028-00082.json"
+  ],
+  "text": "予以拒绝或妨碍的情形",
+  "note": "Korean 거부하거나 방해한 경우 is the ending fragment of annex table cell rows 36,41,42; predicate 拒绝或妨碍 must appear at end of the complete sentence. Prior progress already checked this row: 0 new unique rows; family IN_PROGRESS."
+}
