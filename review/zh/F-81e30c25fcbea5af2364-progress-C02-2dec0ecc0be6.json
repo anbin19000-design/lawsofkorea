@@ -1,0 +1,57 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "family_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "panel_id": "panel-02",
+  "pc": "WORK-C",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "task_marker": "WORK-TASK:C02:F-81e30c25fcbea5af2364:2dec0ecc0be6",
+  "source_blob_sha": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "source_document_count": 17,
+  "total_zh_rows": 1133,
+  "prior_review_sha": "b8090928c392698ba13a57f0a36846e9e809a4ea",
+  "edited_ids": [
+    "B2-zh-00122",
+    "B2-zh-00126",
+    "B2-zh-00133",
+    "B2-zh-00140"
+  ],
+  "retained_ids": [
+    "B2-zh-00119",
+    "B2-zh-00121",
+    "B2-zh-00125",
+    "B2-zh-00127",
+    "B2-zh-00129",
+    "B2-zh-00131",
+    "B2-zh-00136",
+    "B2-zh-00137",
+    "B2-zh-00139"
+  ],
+  "reading_certification": {
+    "ko": false,
+    "en": false,
+    "zh": false
+  },
+  "english_unavailable": [
+    "B3",
+    "A25465",
+    "A25466",
+    "A25467",
+    "A25468",
+    "A25469",
+    "A25470",
+    "A25471",
+    "A25472",
+    "A25473",
+    "A25474"
+  ],
+  "notes": "Official worker binding matches new Chat address. Existing historical edits preserved. B2 review continues; no assertion of complete family-wide ordered read.",
+  "next_review": "Continue original Korean family ordered reading, followed by all English source documents; resolve remaining Chinese evidence and candidates; only complete after evidence is independently verified."
+}
