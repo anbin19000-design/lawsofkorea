@@ -1,0 +1,98 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "B1",
+  "quality_batch": "B1-quality-03",
+  "range": {
+    "first": "B1-zh-00016",
+    "last": "B1-zh-00020"
+  },
+  "quality_checked_rows": 4,
+  "quality_passed_rows": 3,
+  "quality_failed_rows": 1,
+  "quality_checked_ids": [
+    "B1-zh-00016",
+    "B1-zh-00018",
+    "B1-zh-00019",
+    "B1-zh-00020"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00016-00020.json",
+  "prior_progress_blob_sha": "0ccf2eee524221b2b19c112f9da0ab809ff295f5",
+  "results": [
+    {
+      "id": "B1-zh-00016",
+      "source_hash": "7123dba81c06014bd7641436ed676f96fa275c013eff84dbf36d918a75dd2e55",
+      "source_span": {
+        "start": 5564,
+        "end": 6099
+      },
+      "candidate_from": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00016-00020.json",
+      "verdict": "FAIL",
+      "source_span_verified": true,
+      "source_hash_matches_original_row": true,
+      "mtq_marker_present": false,
+      "start_marker_present": false,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Article 14 Korean source paragraph 4 says the Minister may '위임' the issuance function to the central institution; existing Chinese correction says '委托', which can imply contractual entrustment rather than statutory delegation. Paragraphs 1–3 and 5, including Immigration Control Act Articles 25-2 and 46-2, otherwise correspond. Correct this one legal authority verb before PASS.",
+      "issue": "Paragraph 4: '委托...办理' should express statutory delegation ('委任/授权...办理') with the Korean source preserved."
+    },
+    {
+      "id": "B1-zh-00018",
+      "source_hash": "9c9c6015b193ab2aa15e66473e6e1ee1f3b3f0d9935ef9d4fde8675c931f49dc",
+      "source_span": {
+        "start": 7261,
+        "end": 7475
+      },
+      "candidate_from": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00016-00020.json",
+      "verdict": "PASS",
+      "source_span_verified": true,
+      "source_hash_matches_original_row": true,
+      "mtq_marker_present": false,
+      "start_marker_present": false,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Article 16 allows crime victims and legal representatives to appoint counsel; Article 27 paragraphs 2–6 of the Act on Special Cases Concerning the Punishment etc. of Sexual Crimes applies mutatis mutandis, and both substitution phrases are preserved."
+    },
+    {
+      "id": "B1-zh-00019",
+      "source_hash": "dd9bb197dde72ae3c6be548ecc7db60376e3cc8c345cbd39f30dc5927f34a76a",
+      "source_span": {
+        "start": 7475,
+        "end": 7761
+      },
+      "candidate_from": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00016-00020.json",
+      "verdict": "PASS",
+      "source_span_verified": true,
+      "source_hash_matches_original_row": true,
+      "mtq_marker_present": false,
+      "start_marker_present": false,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Article 17 correctly differentiates court examination of a witness from investigative questioning. The prosecutorial/victim/representative request, mandatory attendance absent unavoidable trial interference and prohibition where disadvantageous or unwanted match all three paragraphs."
+    },
+    {
+      "id": "B1-zh-00020",
+      "source_hash": "32718ea804bfa49fc1b609df436df7c83268a3a272327d71d31155a802378bf9",
+      "source_span": {
+        "start": 7761,
+        "end": 7882
+      },
+      "candidate_from": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00016-00020.json",
+      "verdict": "PASS",
+      "source_span_verified": true,
+      "source_hash_matches_original_row": true,
+      "mtq_marker_present": false,
+      "start_marker_present": false,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Article 18 correctly applies Articles 36–39 of the Act on Special Cases Concerning the Punishment etc. of Sexual Crimes to investigation/hearing of human-trafficking cases and preserves both victim-term substitutions."
+    }
+  ],
+  "edits": [],
+  "note": "Existing candidates audited against Korean source; one potential statutory delegation terminology error in Article 14(4) is held for correction. Existing corrections and IDs preserved; no entire-family COMPLETE claim."
+}
