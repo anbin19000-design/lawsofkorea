@@ -1,0 +1,79 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:950203ea968c",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "documents": 17,
+  "source_rows": 1133,
+  "source_verified": true,
+  "english_source_status": {
+    "linked_files": [
+      "documents/en/kr-010730-283399-en.json",
+      "documents/en/kr-010846-270111-en.json"
+    ],
+    "linked_english_fallback_not_exact": true,
+    "no_document_english": [
+      "B3",
+      "A25465",
+      "A25466",
+      "A25467",
+      "A25468",
+      "A25469",
+      "A25470",
+      "A25471",
+      "A25472",
+      "A25473",
+      "A25474"
+    ],
+    "english_index_rows_without_english": 421
+  },
+  "reconciliation_basis": "status/delivery/reconcile-S2-ae8f8a85c5ace955ac8120fa9a6c7730-evidence-897b23bd7d0b8383.json",
+  "reconciliation_snapshot": {
+    "stored_candidate_ids": 538,
+    "stored_checked_ids": 651,
+    "distinct_candidate_text_conflict_ids": 15,
+    "adjudicated_in_this_record": 2,
+    "unresolved_prior_candidate_conflicts": 13
+  },
+  "checked_rows": 2,
+  "checked_ids": [
+    "B1-zh-00163",
+    "B1-zh-00165"
+  ],
+  "edits": [
+    {
+      "id": "B1-zh-00163",
+      "text": "第二条（关于国家示范城市指定的过渡措施）本法施行前由国土交通部长官指定的国家示范城市，不受原规定限制，视为依本法指定。\n\n",
+      "source_hash": "2bf28fd861386ff733107dad4b6788f6b835022b5555d97c7f3ec1741c2bd7af",
+      "target_id": "e58ed4f90397d319f6d96cb65a858c9957204e15cab41eb7df96f7037001af71"
+    },
+    {
+      "id": "B1-zh-00165",
+      "text": "附则 <第16631号，2019年11月26日>\n\n本法自公布之日起满三个月之日施行。但第三十五条之三的修订规定自公布之日起满六个月之日施行。\n\n",
+      "source_hash": "e2e0121c1b5f8ae6b89783dc3b0941e70f986d8ef083c8ab5e6a8c66dc26615f",
+      "target_id": "3e49171f6d92c8638f587c87f936de6cf636639f1974b8394d0b58dbed4050bc"
+    }
+  ],
+  "adjudications": [
+    {
+      "id": "B1-zh-00163",
+      "verdict": "PRESERVE_MINIMAL_PRIOR_CANDIDATE",
+      "reason": "Korean: '이 법 시행 전에 국토교통부장관이 지정한 국가시범도시는 종전의 규정에도 불구하고 이 법에 따라 지정된 것으로 본다.' Existing candidate index 78 accurately captures deeming effect and avoids adding an unnecessary second occurrence of 国家示范城市. Other candidate from 79,84 is semantically equivalent but longer."
+    },
+    {
+      "id": "B1-zh-00165",
+      "verdict": "PRESERVE_PRIOR_CANDIDATE_EXACT_LEGAL_REFERENCE",
+      "reason": "Korean supplementary provision no. 16631 explicitly states 3 months from promulgation, except amended Article 35-3 after 6 months. Both prior candidates are broadly consistent; use existing candidate from 79,84 to express elapsed months accurately and preserve '제35조의3' distinct from 35(3)."
+    }
+  ],
+  "note": "These two decisions resolve conflicting historical candidate texts against Korean B1 original; they are not 2 newly uncovered row IDs. Previous progress and candidate records remain authoritative and preserved. No assertion of a completed sequential full-language reading or 1,133-row Chinese audit. Do not issue COMPLETE.",
+  "next_action": "Adjudicate 13 remaining conflicting historical candidates after exact Korean source and cross-cell comparisons; reconcile all newer C02 progress not present in older index, then finish ordered full-family reading and semantic verification before creating final integrated review and completion receipt."
+}
