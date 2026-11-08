@@ -1,0 +1,76 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-3705abbc710de4b867bc",
+  "worker": "C05",
+  "branch": "main",
+  "source_blobs": {
+    "ko": "7974bf81d14f4838ae85d4b3ceea80a2f0e65fed",
+    "zh": "045dd328cd77f3eecd8b6cd485be27f2389773e8"
+  },
+  "document_key": "A25278",
+  "document_source_hash": "ff252b7ea532b9e225fa50dbc6f050c3c2f7228c96628edc557a563e1564d8a7",
+  "checked_ids": [
+    "A25278-zh-00018",
+    "A25278-zh-00019",
+    "A25278-zh-00020",
+    "A25278-zh-00021",
+    "A25278-zh-00022",
+    "A25278-zh-00023",
+    "A25278-zh-00024",
+    "A25278-zh-00025",
+    "A25278-zh-00026",
+    "A25278-zh-00027",
+    "A25278-zh-00028",
+    "A25278-zh-00029",
+    "A25278-zh-00030",
+    "A25278-zh-00031",
+    "A25278-zh-00032",
+    "A25278-zh-00033",
+    "A25278-zh-00034"
+  ],
+  "checked_rows": 17,
+  "adopted_edits": [
+    {
+      "id": "A25278-zh-00018",
+      "text": "年"
+    },
+    {
+      "id": "A25278-zh-00019",
+      "text": "月"
+    },
+    {
+      "id": "A25278-zh-00023",
+      "text": "消防厅厅长"
+    },
+    {
+      "id": "A25278-zh-00024",
+      "text": "收"
+    },
+    {
+      "id": "A25278-zh-00028",
+      "text": "2. 记载认证机构所认证消防设备范围的事业计划书"
+    },
+    {
+      "id": "A25278-zh-00029",
+      "text": "3. 证明符合《消防设备管理法施行令》第19条第1款规定的认证机构指定条件的"
+    },
+    {
+      "id": "A25278-zh-00030",
+      "text": "文件"
+    },
+    {
+      "id": "A25278-zh-00032",
+      "text": "负责公务员"
+    },
+    {
+      "id": "A25278-zh-00033",
+      "text": "法人登记事项证明书或营业登记证"
+    },
+    {
+      "id": "A25278-zh-00034",
+      "text": "确认事项"
+    }
+  ],
+  "status": "QUALITY_PARTIAL",
+  "note": "Checked A25278 form 3 Korean source against Chinese rows 18–34; corrected year/month units, recipient, attachment descriptions, designated institution reference, official verification labels. Prior 1–17 quality judgments and original review untouched; no COMPLETE receipt."
+}
