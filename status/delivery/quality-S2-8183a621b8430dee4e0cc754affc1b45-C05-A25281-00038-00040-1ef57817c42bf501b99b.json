@@ -1,0 +1,28 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-3705abbc710de4b867bc",
+  "worker": "C05",
+  "branch": "main",
+  "source_blobs": {
+    "ko": "7974bf81d14f4838ae85d4b3ceea80a2f0e65fed",
+    "zh": "045dd328cd77f3eecd8b6cd485be27f2389773e8"
+  },
+  "checked_ids": [
+    "A25281-zh-00038",
+    "A25281-zh-00040"
+  ],
+  "source_document": "면제확인 신청서",
+  "source_ko": "1. 사업자등록증 사본 또는 이에 준하는 서류(같은 제품을 제조하는 공장이 둘 이상인 경우에는 공장별로 첨부합니다)",
+  "adopted_edits": [
+    {
+      "id": "A25281-zh-00038",
+      "text": "1. 营业执照复印件或同等文件（如有两家以上工厂制造同一产品，"
+    },
+    {
+      "id": "A25281-zh-00040",
+      "text": "应按各工厂分别附上）"
+    }
+  ],
+  "judgment": "PASS_EXISTING_CORRECTIONS",
+  "note": "Two contiguous form cells express one condition. No new edits or checked-row credit. Complete family quality review and receipt remain pending."
+}
