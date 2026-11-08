@@ -14,7 +14,7 @@
   "documents": 15,
   "total_rows": 1241,
   "preserved_review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
-  "preserved_review_sha_at_checkpoint": "c856732c8c6eb8fd01cbbd0f75081f110263eb07",
+  "preserved_review_sha_at_checkpoint": "bcb44e41bec8df04595b510c9ca68e17d2a3fc63",
   "preserved_review_edits_at_checkpoint": 350,
   "current_checkpoint": {
     "korean_document_read": [
@@ -44,8 +44,38 @@
     "zh_row_checked_without_edit": [
       "B1-zh-00086"
     ],
-    "next_sequence": "Begin full Chinese rows in original document order (1,241 rows), compare against Korean source and linked English sources; retain existing 342 edit records and any protected source/edition/layout holds. No claim that unavailable local ordinances, delegated instruments, or original binary layouts have been supplied.",
-    "note": "B1-zh-00086 maps to Korean source 제1조(시행일) 이 법은 2022년 1월 1일부터 시행한다. Chinese text '第一条（生效日期）本法自2022年1月1日起生效。' is accurate; no edit warranted."
+    "next_sequence": "Chinese B1: first 28 rows checked against the full Korean B1 source and English B1 source; existing edits retained. B1-zh-00047 existing correction amended minimally to restore the correct old/new Ministry name substitution. Continue B1-zh-00029 onward in order.",
+    "note": "B1-zh-00086 maps to Korean source 제1조(시행일) 이 법은 2022년 1월 1일부터 시행한다. Chinese text '第一条（生效日期）本法自2022年1月1日起生效。' is accurate; no edit warranted.",
+    "zh_checked_ids": [
+      "B1-zh-00001",
+      "B1-zh-00002",
+      "B1-zh-00003",
+      "B1-zh-00004",
+      "B1-zh-00005",
+      "B1-zh-00006",
+      "B1-zh-00007",
+      "B1-zh-00008",
+      "B1-zh-00009",
+      "B1-zh-00010",
+      "B1-zh-00011",
+      "B1-zh-00012",
+      "B1-zh-00013",
+      "B1-zh-00014",
+      "B1-zh-00015",
+      "B1-zh-00016",
+      "B1-zh-00017",
+      "B1-zh-00018",
+      "B1-zh-00019",
+      "B1-zh-00020",
+      "B1-zh-00021",
+      "B1-zh-00022",
+      "B1-zh-00023",
+      "B1-zh-00024",
+      "B1-zh-00025",
+      "B1-zh-00026",
+      "B1-zh-00027",
+      "B1-zh-00028"
+    ]
   },
-  "status_note": "All 15 Korean source documents read in order. All held English full_text sources read: Act AI draft, Decree AI draft plus official English source translation, and Enforcement Rule AI draft (including all four appendices and seven forms); Decree AI draft includes administrative-fine Appendix. The Decree metadata preserves 29 precise holds (17 delegated-text/edition and 12 original attachment binary/layout); do not invent or claim those missing sources. Chinese full review is next. Review remains IN_PROGRESS; latest SHA captured; no receipt. Source files unchanged. Re-fetch latest review SHA before any write."
+  "status_note": "Korean 15/15 and linked English full texts read. Chinese B1 rows 1–28 checked; 350 unique existing edit IDs preserved. One prior edit B1-zh-00047 minimally corrected to restore source-accurate old/new Ministry name substitution. Review remains IN_PROGRESS. No source files changed; no receipt. Continue Chinese row order."
 }
