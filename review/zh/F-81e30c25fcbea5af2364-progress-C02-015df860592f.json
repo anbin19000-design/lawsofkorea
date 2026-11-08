@@ -1,0 +1,38 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "panel_id": "panel-02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:015df860592f",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "prior_master_blob_sha": "e4d0e802690b7187a13a561296d05d9b4623b66f",
+  "checked_ids": [
+    "B1-zh-00009"
+  ],
+  "checked_rows_new": 1,
+  "edits": [
+    {
+      "id": "B1-zh-00009",
+      "text": "第五条（举行公开听证会）\n① 国土交通大臣编制综合规划草案后，应当举行公开听证会，听取相关专家等人士的意见；如大臣认为公开听证会上提出的意见合理，应当将该等意见纳入综合规划草案。<2013年3月23日修订>\n② 根据第1款举行公开听证会所需事项，由总统令规定。\n\n",
+      "source_hash": "95396a3987fa8fe138249574f63d8c6ec0a51294ca899e60f8999e3fac291af8",
+      "target_id": "6763179860184cecb87dac0f0f0b6b787dd6593f832767e06f9c685a15313e4c",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-015df860592f.json",
+      "verification": "C02_DIRECT_KOREAN_ARTICLE5_COMPARISON",
+      "reason": "Korean Act Article 5(1) explicitly says 종합계획안을 작성하였을 때 (after preparing draft comprehensive plan) and 의견을 종합계획안에 반영 (incorporate opinions into draft), not the final comprehensive plan."
+    }
+  ],
+  "english_status": "B1_REFERENCE_ENGLISH_FALLBACK_VERSION; KOREAN_SOURCE_CONTROLS",
+  "ordered_reading_certification": {
+    "ko": false,
+    "en": false,
+    "zh": false
+  },
+  "note": "Corrected Act Article 5 draft/final plan distinction, do not mark COMPLETE until full family review."
+}
