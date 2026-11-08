@@ -1,0 +1,17 @@
+{
+  "job_id": "F-b5c27d20d49b721e47e6",
+  "worker": "C05",
+  "checked_rows": 1207,
+  "corrected_rows": 777,
+  "status": "COMPLETE",
+  "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
+  "source_blobs": {
+    "ko": "24ddd78e32a748b7d1c1ce01fef19d036494b9e9",
+    "en": "3d130788df10274ded6103c1fa81654c977eec5c",
+    "zh": "66ea4d0981f8e1a76348309f8254051d4914f693"
+  },
+  "review_path": "review/zh/F-b5c27d20d49b721e47e6.json",
+  "review_blob_sha": "6d1da625cfb4a36f5037e683993f485b8aef1923",
+  "document_count": 17,
+  "note": "Single-family Chinese minimal review complete: 17 documents, 1207 unique checked rows and 777 unique corrected IDs. All source blob SHAs unchanged. Three duplicated edits reconciled by Korean-source review; original progress checkpoints preserved. English reference aligned to 785 rows, unavailable on 422 and historical fallback used only as reference."
+}
