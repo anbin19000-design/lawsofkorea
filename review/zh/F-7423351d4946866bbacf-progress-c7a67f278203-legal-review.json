@@ -1,0 +1,40 @@
+{
+  "schema": "LAW_ZH_REVIEW_AUDIT_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "panel_id": "panel-01",
+  "assignment_id": "S2-c174f0e36bef5fedb717095f1cea01f6",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:c7a67f278203]",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "review_path": "review/zh/F-7423351d4946866bbacf.json",
+  "review_blob": "7ec171e9062788e5aa902e0c3838409c8fb11799",
+  "source_documents": 16,
+  "source_rows": 1207,
+  "previous_unique_corrections": 269,
+  "current_unique_corrections": 272,
+  "added": [
+    "B1-zh-00033",
+    "B1-zh-00036",
+    "B1-zh-00047"
+  ],
+  "change_basis": [
+    "Act 28(3) registration validity extension capped within 1 year",
+    "Act 31(5) imports distribution history declaration procedures and scope",
+    "Act 42 releases and recoverable loan support amounts"
+  ],
+  "prior_edits_preserved": true,
+  "english_status": "Exact-version B1/B2 official English; NO_DOCUMENT_ENGLISH B3 and related annex/form texts",
+  "source_sha_unchanged": true,
+  "complete_receipt_issued": false,
+  "semantic_review_complete": false,
+  "unresolved": [
+    "All 1207 rows not independently certified for complete semantic correspondence",
+    "Annex and form XML source cell continuity and punctuation-only markers not fully resolved"
+  ],
+  "next_action": "Continue same C01 assignment; require full family evidence before issuing COMPLETE and receipts."
+}
