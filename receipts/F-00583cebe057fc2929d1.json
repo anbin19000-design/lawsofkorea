@@ -1,0 +1,37 @@
+{
+  "job_id": "F-00583cebe057fc2929d1",
+  "worker": "C05",
+  "panel_id": "panel-05",
+  "checked_rows": 1374,
+  "corrected_rows": 473,
+  "status": "COMPLETE",
+  "review_schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "b3d58bca7d1d3895e75f4ff066920b2650881ff3",
+  "review_commit_sha": "c60a2b76547bdc850c7fd89f3cecc19fef0c4e7b",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "source_commit": "f9efcacdc9bda214472cf52eb0ba7291583929d5",
+  "note": "C05 completed the full Chinese review of the Utility Model Act family: 24 Korean/English document records and 1,374 unique Chinese rows, in the required KO-full → EN-full → ZH-full order. The review contains 473 correction actions (472 replacement texts and one deletion of an OCR-only trailing fragment), with zero pending rows. The 63-row administrative-fine annex and all 509 rows of the utility-model application form were aligned in sequence against the complete Korean originals. Garbled Japanese/Chinese certificate fields were reconstructed only where they matched the same-revision Korean master certificates A8691/A8701. Arabic certificate bodies A8699/A8709 were absent from Korean OCR; supplemental Chinese certificate text was added separately based on those equivalent Korean master forms, and the need to verify the Arabic artwork remains explicitly noted. The linked English full_text does not contain the annex body, and no same-version English application-form translation was available; Korean controlled those comparisons. All 473 correction originals and source hashes were checked against the unchanged Chinese source blob with zero mismatches. Source blobs unchanged: ko 5249368872e1c46c3e583b88a759c0526e6e04ef, en 3e4f2c2143657fb0bcf6fb08385f4329c2840ae5, zh 8c67da73d62c784e988ce2b7655ef398504b0786. No laws/* source files were modified. Saved final review file and verified its readback. Operational database ingestion is separate.",
+  "limitations": [
+    "A8693/A8698/A8703/A8708的日文/中文证书OCR含问号和乱码；可对应字段及证明语句已按相同修订日期的韩文主表A8691/A8701重建，具体外文原图仍建议复核。",
+    "A8699/A8709阿拉伯语证书主体未被韩文OCR提取；主体中文仅按同修订日期的韩文主表A8691/A8701补译，阿拉伯语原图正文仍建议复核。",
+    "A29604 과태료 별표의 공식 연결 영문 full_text에는 별표 본문이 포함되지 않아 한국어 원문과 중국어를 직접 대조함.",
+    "A8690 2026-05-14 개정 출원서에는 동일 버전의 서식별 영문본이 확인되지 않아, 구판 공식 영문은 참고용으로만 사용하고 한국어 원문을 기준으로 검수함."
+  ],
+  "supplemental_translations": [
+    {
+      "document": "A8699",
+      "source_master_document": "A8691",
+      "source_master_hash": "60d70f8bcb56a313e4ce31eb42b6a2f91180fba8cb2ebdce77cb227d89c87db7"
+    },
+    {
+      "document": "A8709",
+      "source_master_document": "A8701",
+      "source_master_hash": "79d695ff50057825a6979f48604b1e8034213355619cbcbbd9d6e1356f4d0cfc"
+    }
+  ]
+}
