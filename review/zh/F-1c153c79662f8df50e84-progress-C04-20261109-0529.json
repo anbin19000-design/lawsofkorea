@@ -1,0 +1,38 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-1c153c79662f8df50e84",
+  "worker": "C04",
+  "pc": "WORK-C",
+  "panel_id": "panel-04",
+  "source_commit": "e2c29b72dbaeccc4eb66876894d901c67de3f909",
+  "source_blobs": {
+    "ko": "e1b24030d49282e7ffee1466e72b4197f51d03e9",
+    "en": "83ff5ff6a4bcee53c6990ad71d240b71cc20db8b",
+    "zh": "8c8bc3b30a9fb349785b2ad05ff3f0c3fd051b35"
+  },
+  "phase": "KO_FULL_EN_FULL_ZH_FULL",
+  "completed_stages": {
+    "ko_full_read": true,
+    "en_available_full_read": true,
+    "zh_full_review": false
+  },
+  "scope": {
+    "documents_total": 34,
+    "zh_rows_total": 2925,
+    "documents_reviewed": [
+      "B1"
+    ],
+    "rows_reviewed": 60,
+    "documents_remaining": 33
+  },
+  "english_availability": {
+    "official_full_text_documents": [
+      "B1",
+      "B2"
+    ],
+    "no_document_english_documents": 32
+  },
+  "edits_saved": 6,
+  "status": "IN_PROGRESS",
+  "next": "继续B2及B3、A12177-A12207逐份中文全文复核；逐条对照韩文，并仅在有官方英文全文时使用英文辅助。完成后质量检查、写入最终检수본及收据。"
+}
