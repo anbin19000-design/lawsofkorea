@@ -1,0 +1,45 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "B1",
+  "quality_batch": "B1-quality-11",
+  "range": {
+    "first": "B1-zh-00051",
+    "last": "B1-zh-00056"
+  },
+  "quality_checked_rows": 2,
+  "quality_passed_rows": 2,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "B1-zh-00052",
+    "B1-zh-00054"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00051-00056.json",
+  "prior_progress_blob_sha": "88dbb0c6c4c429e40a2cba0dfb20eb051715a08a",
+  "results": [
+    {
+      "id": "B1-zh-00052",
+      "source_hash": "c2ed8686abe28b9e7b6de60bd7a1b40c1edddc53d964d17e6b2aef7283d626cf",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Article 50: corrected Chinese retains 5 million KRW ceiling for failure to report under Article 21(2), 3 million KRW for obstructing Article 45(1) checks or violating Article 46, and both imposition and collection by the minister or local government head under Presidential Decree."
+    },
+    {
+      "id": "B1-zh-00054",
+      "source_hash": "fc697aafb195273ece1edab785c6e02487c547fb467b43221f029b630c3145f0",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Korean supplementary provision expressly names the Immigration Control Act, Act No. 19070, December 13 2022. The corrected heading is a supplementary provision, not an annex, and preserves all identifiers."
+    }
+  ],
+  "edits": [],
+  "note": "Compared Korean source and saved corrections for B1 rows 52 and 54. Other already-checked rows untouched; job remains IN_PROGRESS."
+}
