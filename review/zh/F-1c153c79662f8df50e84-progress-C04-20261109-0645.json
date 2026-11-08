@@ -1,0 +1,52 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-1c153c79662f8df50e84",
+  "worker": "C04",
+  "pc": "WORK-C",
+  "panel_id": "panel-04",
+  "source_commit": "e2c29b72dbaeccc4eb66876894d901c67de3f909",
+  "source_blobs": {
+    "ko": "e1b24030d49282e7ffee1466e72b4197f51d03e9",
+    "en": "83ff5ff6a4bcee53c6990ad71d240b71cc20db8b",
+    "zh": "8c8bc3b30a9fb349785b2ad05ff3f0c3fd051b35"
+  },
+  "phase": "KO_FULL_EN_FULL_ZH_FULL",
+  "completed_stages": {
+    "ko_full_read": true,
+    "en_available_full_read": true,
+    "zh_full_review": false
+  },
+  "scope": {
+    "documents_total": 34,
+    "zh_rows_total": 2925,
+    "documents_reviewed": [
+      "B1: prior initial review only; needs full pass",
+      "B2: selected rows; full pass remains",
+      "B3: all 46 rows sequentially inspected",
+      "A12177: all 86 rows inspected",
+      "A12178: all 30 rows inspected",
+      "A12179: all 59 rows inspected",
+      "A12180: all 18 rows inspected",
+      "A12181: all 116 rows inspected",
+      "A12182: all 74 rows inspected",
+      "A12183: all 104 rows inspected"
+    ],
+    "rows_reviewed": 715,
+    "documents_remaining": 26,
+    "rows_not_yet_reviewed": 2210
+  },
+  "english_availability": {
+    "official_full_text_documents": [
+      "B1",
+      "B2"
+    ],
+    "no_document_english_documents": 32,
+    "linked_english_body_sha": {
+      "B1": "c41cda23b98a8e39950d8d33b58ce9c287cf1cfb",
+      "B2": "e75241d5a275a1d646bb7c48dc37a31daff529c4"
+    }
+  },
+  "edits_saved": 586,
+  "status": "IN_PROGRESS",
+  "next": "继续A12184至A12207剩余24份表单，随后补做B1/B2全量语义复核及B3完整复核，完成全量质量检查后才可生成收据。"
+}
