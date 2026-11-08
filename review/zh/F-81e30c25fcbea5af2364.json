@@ -2368,6 +2368,15 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-8dfaa637d612.json",
       "verification": "C02_DIRECT_KOREAN_LEGAL_REFERENCE_COMPARISON",
       "reason": "Korean Act Article 15(1)22 cites 「물환경보전법」 제9조의2 (Article 9-2), not Article 9 paragraph 2."
+    },
+    {
+      "id": "B1-zh-00001",
+      "text": "智慧城市建设及产业振兴等相关法律",
+      "source_hash": "fa4aa60d3d11bd5f247bdfcd6ec545563c79c6486a0883dba7ac13aa998c143a",
+      "target_id": "afc47a11051ffcc1fdcceecf335db87eb01c344488fecb8403f414297b06ed5c",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-6babcb0e5d1b.json",
+      "verification": "C02_KOREAN_TITLE_AND_OFFICIAL_ENGLISH_TITLE_COMPARISON",
+      "reason": "现有标题将已生效的法律称为“法案”，误作尚待审议的 bill；按韩文正式法名及英文 ACT ON... 改为“相关法律”。"
     }
   ],
   "adjudicated_edit_count": 288,
@@ -7552,12 +7561,13 @@
   "notes": [
     "This is an IN_PROGRESS cumulative manifest; pending candidates are NOT confirmed edits.",
     "Preserve historical source, independent progress records and original translation. No completion claim.",
-    "Existing stored adjudications and later progress files must be incorporated with source/hash verification before COMPLETE."
+    "Existing stored adjudications and later progress files must be incorporated with source/hash verification before COMPLETE.",
+    "2026-11-08 C02 continuation: corrected B1 title terminology only. Article 2, Article 3(1)(6), and Article 3-2 corrections were already integrated; no duplicates added."
   ],
   "integration_progress": {
-    "stage": "C02_ACT_ARTICLE8_RECONCILED",
-    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:c149b879bdb9",
-    "note": "Article 8(4) residual city/county and governor terms reconciled. Whole family remains IN_PROGRESS."
+    "stage": "B1_OFFICIAL_TITLE_RECONCILED",
+    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:6babcb0e5d1b",
+    "note": "B1 title corrected from bill to enacted law after Korean/official English comparison. Whole family remains IN_PROGRESS."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -7862,7 +7872,8 @@
     "B1-zh-00008",
     "B1-zh-00010",
     "B1-zh-00009",
-    "B1-zh-00020"
+    "B1-zh-00020",
+    "B1-zh-00001"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
