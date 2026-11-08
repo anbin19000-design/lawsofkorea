@@ -1,0 +1,118 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_blob_observed": "003cad21fa104b32a22b7d401755e50ffab76f42",
+  "cumulative_corrections": 866,
+  "inspected_span": "A34909 rows 206–235 sequentially compared with the Korean annex. Prior corrections for 214, 219–227, 229–232 were retained. Candidate repairs for economic-benefit terminology and online/offline sale provisions are recorded below.",
+  "proposed_corrections": [
+    {
+      "id": "A34909-zh-00206",
+      "source_hash": "daf19058b58b638d531808c68f11c2ef00ddd73a62ce03005fdda7aa026e8fcd",
+      "text": "相关商品或服务的名称，以及",
+      "reason": "특수관계인이 경제적 이익을 취하는 상품 또는 용역의 명칭이라는 문맥을 연결."
+    },
+    {
+      "id": "A34909-zh-00207",
+      "source_hash": "0e6620e4d45ebefa4abbe7939b476a1185d6bf10a3677f275614d814636b2c35",
+      "text": "该关联方参与供应商品或提供服务的方式，以及上一会计年度归属于该关联方的经济利益内容",
+      "reason": "경제적 이익의 귀속 및 관여 방법을 한국어 원문에 맞춰 복구."
+    },
+    {
+      "id": "A34909-zh-00208",
+      "source_hash": "879bbb63d77f2594b252075a81fe11f06f841e49d7d05a27fc37bcc2997e10a4",
+      "text": "（包括销售额、租金收入等；如无法计算准确金额，",
+      "reason": "경제적 이익의 예시 및 추정액 표시 요건을 복구."
+    },
+    {
+      "id": "A34909-zh-00209",
+      "source_hash": "ad69cca5c31949039e5ca76c411adde6747be94fb47e81e8c3087f945d580781",
+      "text": "应注明为估算金额，并标明上限和下限）",
+      "reason": "추정금액의 상한·하한 표시 조건 복구."
+    },
+    {
+      "id": "A34909-zh-00210",
+      "source_hash": "139b2ba658a8b1487d96a560e0d93757cc27560c4a0ce31e358e23d8c7226227",
+      "text": "3) 特许总部就其强制或建议加盟店经营者与特许总部或其指定者进行交易的品项，",
+      "reason": "가맹본부가 직전 사업연도에 납품업체 등으로부터 경제적 이익을 얻는 거래 품목의 문맥 복구."
+    },
+    {
+      "id": "A34909-zh-00211",
+      "source_hash": "38bbb3bed5dd3e26e2aaede05147aab78caec469f78b20cb3b4f75cc513c0c12",
+      "text": "在上一会计年度从供货商、服务提供商等处",
+      "reason": "경제적 이익을 취득한 상대방을 정확히 표현."
+    },
+    {
+      "id": "A34909-zh-00212",
+      "source_hash": "9f306308e920b3e991e1d985f8dd6d872432a811960426015426092a308c7328",
+      "text": "取得金钱、物品、服务或其他经济利益的，",
+      "reason": "금전·물품·용역 등 경제적 이익의 수취라는 원문 동사를 복구."
+    },
+    {
+      "id": "A34909-zh-00213",
+      "source_hash": "deed590d7297ba7a13599e57f4cae5bf2ed4db4df634387adb5218ac117743a4",
+      "text": "应记载该供货商、服务提供商等的名称及经济利益内容[如为金钱，应记载销售奖励金、回扣（rebate）等，不论名称如何，",
+      "reason": "판매장려금·리베이트 등 금전성 경제이익의 표시 방식을 복구."
+    },
+    {
+      "id": "A34909-zh-00215",
+      "source_hash": "5c6bdcc57f568153fb911f3e1806d909a92fc90da399f70b0848c1cea6727c65",
+      "text": "如金额无法准确计算，应注明为估算金额并标明上限和下限；如非金钱，",
+      "reason": "금전이 아닌 경우와 추정액 상·하한 표시 조건을 명확히 함."
+    },
+    {
+      "id": "A34909-zh-00216",
+      "source_hash": "db45c730991497cc7c93e9a66e573ddd650d5621d25279694f31a75172c665e1",
+      "text": "应记载相关商品或服务的名称、数量等；以下第4项亦同）",
+      "reason": "상품·용역의 명칭·수량 기재와 이하 제4호에도 동일 적용되는 문구 복구."
+    },
+    {
+      "id": "A34909-zh-00217",
+      "source_hash": "8ad48931d265e7ce7dbca55d3ec096cefdf38a617c7b51a3a5b83d60be0fa15c",
+      "text": "4) 特许总部强制加盟店经营者就相关品项与特许总部的关联方进行交易（",
+      "reason": "가맹본부 특수관계인과의 거래를 강제한 품목이라는 규정 문맥 복구."
+    },
+    {
+      "id": "A34909-zh-00218",
+      "source_hash": "5afd385c941855866091c9a369cf6992ec9f7a8991ffe2a664f217327db007ce",
+      "text": "包括关联方商品或服务直接供应给加盟店经营者，或通过第三方供应的情形）",
+      "reason": "특수관계인의 상품·용역이 직접 또는 제3자 매개로 공급되는 범위 복구."
+    },
+    {
+      "id": "A34909-zh-00220",
+      "source_hash": "9b380fe03262c792c735650a980287259e4f0028b46b18ca7bc57a41d7be9eaf",
+      "text": "如该关联方在上一会计年度从供货商、服务提供商等处取得经济利益，",
+      "reason": "문장 주체를 특수관계인으로 명확히 함."
+    },
+    {
+      "id": "A34909-zh-00221",
+      "source_hash": "dd5d8137732a2113bc6ee14225e5217e5228601610649a27a2a751465a4237b0",
+      "text": "应记载相关供货商、服务提供商等的名称及经济利益内容",
+      "reason": "앞서 저장된 수정문을 재확인. 현재 교정문이 적절하므로 추가 수정 불필요."
+    }
+  ],
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "chinese_total_rows": 1687,
+  "checked_rows": 849,
+  "corrected_rows": 866,
+  "quality_open_items": [
+    "Full sequential semantic audit of all 1,687 Chinese rows remains incomplete",
+    "429 rows without independently exact English require direct Korean/Chinese semantic comparison",
+    "A34909 rows 81–110, 111–145, 146–175, and 176–205 proposed edits remain checkpoint-only",
+    "A34909 rows 206–235 proposed corrections remain checkpoint-only",
+    "Remaining annex/form rows require untruncated semantic comparison and final quality control"
+  ],
+  "note": "No source SHA changed. Proposed corrections are checkpoint evidence only and are not counted as official review corrections. IN_PROGRESS; no completion receipt."
+}
