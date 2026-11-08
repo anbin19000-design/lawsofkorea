@@ -3,7 +3,7 @@
   "job_id": "F-02c515d98a78404ca699",
   "worker": "C03",
   "task_id": "WORK-TASK:C03:F-02c515d98a78404ca699:7271018fd541",
-  "status": "IN_PROGRESS",
+  "status": "COMPLETE",
   "source_ko_blob_sha": "65aedec9e89b416787ffa1f31fd0355527c11670",
   "source_en_blob_sha": "6738aac3bb911f281c34a87039aed8815de24350",
   "source_zh_blob_sha": "3ffb734574196fd0f3295236a8e220cbf0e9cae8",
@@ -513,7 +513,12 @@
     "all_documents_reviewed": true,
     "source_sha_verified": true,
     "reviewed_through_row": "A21305-zh-00017",
-    "english_missing_marked": true
+    "english_missing_marked": true,
+    "canonical_review_written": true,
+    "source_rows": 2081,
+    "document_count": 28,
+    "review_blob_sha_before_complete": "e9132a88db5a273824c27d789e4c89e831e2c0c6"
   },
-  "note": "Full-family Chinese review continued from saved checkpoint row 771 through the final form row. Preserved prior 48 decisions; removed machine-translation control artifacts and corrected clear degree, credential, equipment, processing-period and form-label mistranslations. Existing accurate Chinese retained. English reference coverage is partial and historical; Korean original controls."
+  "note": "Full-family Chinese review continued from saved checkpoint row 771 through the final form row. Preserved prior 48 decisions; removed machine-translation control artifacts and corrected clear degree, credential, equipment, processing-period and form-label mistranslations. Existing accurate Chinese retained. English reference coverage is partial and historical; Korean original controls.",
+  "completed_at": "2026-11-08T12:00:00+00:00"
 }
