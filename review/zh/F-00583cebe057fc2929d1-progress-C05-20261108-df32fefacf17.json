@@ -1,0 +1,124 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "worker": "C05",
+  "assignment": "[WORK-TASK:C05:F-00583cebe057fc2929d1:df32fefacf17]",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "previous_progress": "review/zh/F-00583cebe057fc2929d1-progress-C05-20261108-9581ef2c8567.json",
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "623a8387dc02e621d4f6a49ad33a2065d129ec03",
+  "review_commit": "9982b5f0a016ffed97d2a272bd2d91fe6c257306",
+  "scope": {
+    "documents": 24,
+    "rows": 1374
+  },
+  "prior_corrections": 189,
+  "added": [
+    {
+      "id": "B3-zh-00003",
+      "source_hash": "7eb34fe5bc4dbf2a379e95c7f1600f8b5c3e80c331caf5747ec186aefb7c3d2d",
+      "decision": "CORRECT",
+      "reason": "한국어 시행규칙 대응 구간 대조: 기관명, 고안/출원서 부착 대상 및 항목 번호의 명백한 오류에 한정한 최소 교정."
+    },
+    {
+      "id": "B3-zh-00004",
+      "source_hash": "c04057f1a55c137dc43925c6125e652bb6c79f29011822019f3363cfc435c6a2",
+      "decision": "CORRECT",
+      "reason": "한국어 시행규칙 대응 구간 대조: 기관명, 고안/출원서 부착 대상 및 항목 번호의 명백한 오류에 한정한 최소 교정."
+    },
+    {
+      "id": "B3-zh-00007",
+      "source_hash": "9d9d28066797fcbf4e5cdfacc27a0313e6bcc26b5cdd50f85016211a6dbcc034",
+      "decision": "CORRECT",
+      "reason": "한국어 시행규칙 대응 구간 대조: 기관명, 고안/출원서 부착 대상 및 항목 번호의 명백한 오류에 한정한 최소 교정."
+    },
+    {
+      "id": "B3-zh-00011",
+      "source_hash": "037cd037587c37248bf236b9369e58236beb348b34082a6365e225e2c8cfed9c",
+      "decision": "CORRECT",
+      "reason": "한국어 시행규칙 대응 구간 대조: 기관명, 고안/출원서 부착 대상 및 항목 번호의 명백한 오류에 한정한 최소 교정."
+    },
+    {
+      "id": "B3-zh-00019",
+      "source_hash": "7ff0f6623e4701bfc22d847550af96a2991f8442ababcce70737a865472115c3",
+      "decision": "CORRECT",
+      "reason": "한국어 시행규칙 대응 구간 대조: 기관명, 고안/출원서 부착 대상 및 항목 번호의 명백한 오류에 한정한 최소 교정."
+    },
+    {
+      "id": "B3-zh-00021",
+      "source_hash": "85b24c451422f50b8fb882a2f11bcdf792e9f46328ea328b7618c6a8ea729229",
+      "decision": "CORRECT",
+      "reason": "한국어 시행규칙 대응 구간 대조: 기관명, 고안/출원서 부착 대상 및 항목 번호의 명백한 오류에 한정한 최소 교정."
+    },
+    {
+      "id": "B3-zh-00010",
+      "source_hash": "81ecc0f9c2b963880bb319eaf9c346e8097aac6bc983c7473312ac626e5ef653",
+      "decision": "CORRECT",
+      "reason": "고안자 오역 및 제④항 '첨부하지 않을 수 있다'를 '不得附上'으로 반전한 법적 의미 교정, 제3호 준용법조문 방향 교정, 기관명 정정."
+    },
+    {
+      "id": "B3-zh-00017",
+      "source_hash": "79a1c4ce77dacec4586515ae659561d3fdf74560d561d6df07dcc9ddaf786de8",
+      "decision": "CORRECT",
+      "reason": "지식재산처장 기관명 및 제④항 번호 누락 정정."
+    }
+  ],
+  "correction_count": 197,
+  "pending_rows_from_prior_review": 89,
+  "english_note": "B1/B2 official exact-version; B3/forms only 2010 fallback, not exact current version; decree also has AI draft.",
+  "unresolved": [
+    {
+      "id": "B2-zh-00081",
+      "status": "SOURCE_MAPPING_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A29604",
+      "status": "ANNEX_ALIGNMENT_REQUIRED"
+    },
+    {
+      "id": "B3-zh-00117",
+      "status": "SOURCE_MAPPING_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8690",
+      "status": "FORM_ALIGNMENT_REQUIRED"
+    },
+    {
+      "id": "A8693",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8698",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8699",
+      "status": "SOURCE_CONTENT_MISSING"
+    },
+    {
+      "id": "A8703",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8708",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8709",
+      "status": "SOURCE_CONTENT_MISSING"
+    },
+    {
+      "id": "A8690-zh-00499",
+      "status": "SOURCE_TEXT_FRAGMENT_REVIEW_REQUIRED"
+    }
+  ],
+  "reading_status": "FULL_KO_EN_ZH_SEQUENTIAL_READING_NOT_VERIFIED",
+  "completion_receipt": null,
+  "notes": "기존 189개 교정과 원문 SHA 보존. 시행규칙 8행(지식재산처장/고안자/서식/허용 조항)을 직접 KO와 대응 검토하여 수정. 문서 전체 전수 의미검수 및 원문 훼손 보류 미해결. 종료 영수증 발행 안 함."
+}
