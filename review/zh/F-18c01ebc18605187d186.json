@@ -632,6 +632,20 @@
       "source_hash": "756f5b4d6951ebceab535e553650082d8522597d2081478e053088b2e461934b",
       "target_id": "38002958f131e4883c5d2ea2523f6e17d73f68840eb3a46eea9eb3c2ced0de27",
       "source_progress": "C02 sequential review; checked against Korean B1 source through Article 20 transitional amendments"
+    },
+    {
+      "id": "B1-zh-00131",
+      "text": "第44条之6中的“依据《精神保健法》的精神保健专业人员”改为“依据《精神健康促进及精神疾病患者福利服务支援法》的精神健康专业人员”。\n\n",
+      "source_hash": "1e709a829915589bc4774df9e0f4f12795c6971a2cde6f845a459f21b0b88ca4",
+      "target_id": "d50b8014205e7c899e40d74fd7562f335cbe9d234ec75337cdaa76ccc027b93d",
+      "source_progress": "C02 sequential review; checked against Korean B1 source through 2019 amendment"
+    },
+    {
+      "id": "B1-zh-00137",
+      "text": "第三条（关于精神健康专业人员资格限制事由的过渡措施）第18条第3号修正规定施行时已取得精神健康专业人员资格的人，如因该修正规定施行前的行为而符合该修正规定所规定的资格限制事由，尽管有该修正规定，仍适用原有规定。\n\n",
+      "source_hash": "3040b12f106727b54b35e7fb63e57fc4ecd59102abbdc409ae134d90f5ad4d31",
+      "target_id": "dd7d0acb6f906a7d596f288fc337b76e68af9d0acddc0b0d57e84c29ed2cfcec",
+      "source_progress": "C02 sequential review; checked against Korean B1 source through 2019 amendment"
     }
   ],
   "adjudicated_edit_count": 0,
@@ -646,7 +660,7 @@
   "ordered_reading_certification": {
     "korean": "READ_COMPLETE_ALL_65_DOCUMENTS",
     "english": "READ_COMPLETE_AVAILABLE_SOURCES_B1_AND_B2_FALLBACK",
-    "chinese": "IN_PROGRESS through B1-zh-00130; sequential continuation required"
+    "chinese": "IN_PROGRESS through B1-zh-00138; sequential continuation required"
   },
   "checked_unique_ids": [
     "B1-zh-00001",
@@ -778,10 +792,18 @@
     "B1-zh-00127",
     "B1-zh-00128",
     "B1-zh-00129",
-    "B1-zh-00130"
+    "B1-zh-00130",
+    "B1-zh-00131",
+    "B1-zh-00132",
+    "B1-zh-00133",
+    "B1-zh-00134",
+    "B1-zh-00135",
+    "B1-zh-00136",
+    "B1-zh-00137",
+    "B1-zh-00138"
   ],
-  "checked_rows": 130,
-  "corrected_rows": 88,
+  "checked_rows": 138,
+  "corrected_rows": 90,
   "notes": [
     "Only obvious omissions of clause numbering and a missing subparagraph marker corrected; substantive terminology and existing wording retained.",
     "B2 English is an older fallback (version 272521), not exact current Korean version; newer provisions require Korean-Chinese comparison.",
@@ -799,6 +821,7 @@
     "Sequential review through B1-zh-00098. Corrected Article 72 containment/abuse terminology, Article 73 special-treatment heading and specialist terminology, Articles 74-75 institution scope and specialist terminology, Article 78 support/fostering terminology, Article 81 facility/operator terminology, and Article 81-2 facility terminology and missing paragraph marker. Other checked rows retained.",
     "Sequential review through B1-zh-00110. Corrected penalty/discharge terminology and statutory references in Articles 84-86, corrected the joint-penalty provision heading in Article 88, and corrected discharge-notice terms in Article 89. Rows 99-100, 104, and 107-110 checked and retained where wording was accurate.",
     "Sequential review through B1-zh-00118. Corrected the temporal condition in transitional Article 5, restored numerous statutory item/paragraph cross-references in Article 7, normalized the transitional national/regional plan wording, and corrected Article 11's statutory reference and legacy legal-status term.",
-    "Sequential review through B1-zh-00130. Corrected transitional mental-care facility/operator terminology, guardian/guardianship terms, committee naming, and obvious legal-reference and paragraph structure errors in the extensive consequential amendments. Article 29 제주 statute list is summarized only where translation was structurally unreliable; retain the authoritative Korean list as controlling and review further during final QA."
+    "Sequential review through B1-zh-00130. Corrected transitional mental-care facility/operator terminology, guardian/guardianship terms, committee naming, and obvious legal-reference and paragraph structure errors in the extensive consequential amendments. Article 29 제주 statute list is summarized only where translation was structurally unreliable; retain the authoritative Korean list as controlling and review further during final QA.",
+    "Sequential review through B1-zh-00138. Corrected the consequential amendment's mental-health professional terminology and clarified the transition clause on qualification-disqualification grounds. Other rows 132-136 and 138 were checked and retained."
   ]
 }
