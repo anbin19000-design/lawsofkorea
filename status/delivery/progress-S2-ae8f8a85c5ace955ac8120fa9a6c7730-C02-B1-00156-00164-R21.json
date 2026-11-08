@@ -1,0 +1,36 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 9,
+  "checked_ids": [
+    "B1-zh-00156",
+    "B1-zh-00157",
+    "B1-zh-00158",
+    "B1-zh-00159",
+    "B1-zh-00160",
+    "B1-zh-00161",
+    "B1-zh-00162",
+    "B1-zh-00163",
+    "B1-zh-00164"
+  ],
+  "edits": [
+    {
+      "id": "B1-zh-00159",
+      "text": "第三条（其他法律的修改）①至⑧省略。\n\n⑨《智慧城市建设及产业振兴等相关法律》部分修改如下。\n\n将第3条第1款第3号修改如下：\n\n3.《创新城市建设及发展特别法》规定的创新城市开发事业。\n\n⑩至<19>省略。\n\n"
+    },
+    {
+      "id": "B1-zh-00163",
+      "text": "第二条（关于国家示范城市指定的过渡措施）本法施行前由国土交通部长官指定的国家示范城市，不受原规定限制，视为依本法指定。\n\n"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "note": "Korean source compared row-by-row for B1 156-164; corrected source law title and the transitional clause's legal effect."
+}
