@@ -1,0 +1,39 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-17c1830954cb52c759c2",
+  "worker": "C04",
+  "panel_id": "panel-04",
+  "assignment_id": "UW-13dcf8b336720c3b2618fdc820a94e6a",
+  "status": "IN_PROGRESS",
+  "source_commit": "5f7a7e32af396dc79cd118fe4cd10694a66a9197",
+  "source_blobs": {
+    "ko": "dc7900aa39aa4daea43830abfc398a436695411c",
+    "en": "6dde8519d0cb5d72763353feaac3b483954cd1bc",
+    "zh": "cd35c01be0c39b6adbf2cc69f5f814e2c9cf8a67"
+  },
+  "scope": {
+    "documents": 30,
+    "zh_rows": 1275,
+    "english_reference_rows": 1158,
+    "english_missing_rows": 117,
+    "english_document_statuses": {
+      "EXACT_ENGLISH_AVAILABLE": 1,
+      "FALLBACK_ENGLISH_AVAILABLE": 6,
+      "NO_DOCUMENT_ENGLISH": 23
+    },
+    "additional_existing_english_reference": {
+      "path": "reviewed/en/KR_014648.json",
+      "rows": 195,
+      "sha": "404c7e43166b5ce4c0efbf036e4919d1d192270d"
+    }
+  },
+  "reading_checkpoint": {
+    "required_order": "KO_FULL_EN_FULL_ZH_FULL",
+    "ko": "COMPLETED: all 30 Korean documents B1, B2, A39652-A39656, B3, A27040-A27061 read sequentially. Forms and annex layouts inspected; noted A27052 source citation anomaly (form cites Act Article 93(12), B1 Act Article 9(12)).",
+    "en": "COMPLETED: exact official English B1 full_text; fallback official English B2 full_text including annex references; and all 195 rows of reviewed/en/KR_014648.json read sequentially. The 195-row file contains the B3 rule and appendices/forms English references, even though the manifest marks 23 entries NO_DOCUMENT_ENGLISH; coverage must be reconciled against row matches. English reference itself contains defects (e.g. “Vertiport- style star” for identification marking) and is not to be edited.",
+    "zh": "IN_PROGRESS next: sequentially review all 1275 Chinese rows in document order against full Korean and existing English. No Chinese edits made yet.",
+    "next_step": "Continue Chinese review in order, preserving correct translations and only making clear error/omission corrections; check numbers, citations, table/form continuity, and all English-absent segments."
+  },
+  "findings": [],
+  "notes": "Source blobs verified unchanged: KO dc7900aa39aa4daea43830abfc398a436695411c; EN 6dde8519d0cb5d72763353feaac3b483954cd1bc; ZH cd35c01be0c39b6adbf2cc69f5f814e2c9cf8a67. Official review and receipt files absent initially. Progress snapshots stored as -progress-20261109-c04-01.json and -02.json; both read back."
+}
