@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 389,
+    "correction_count": 402,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -2748,6 +2748,97 @@
       "original": "，请查看有关",
       "corrected": "应记载相关交易内容。",
       "reason": "시행령 별표 1 제6호 마목 한국어 원문 대조: 영업지역 외 고객 판매 제한과 대리점·온라인·홈쇼핑 등 대체재 거래공개 조항의 의미 오류 복구."
+    },
+    "A34909-zh-00223": {
+      "doc": "A34909",
+      "source_hash": "8b1fed6acf989e73b8eb87978cb303ac11a5d2c3e14b95f1d1b279e49d96cef5",
+      "original": "1) 上一财政年度末的国内年销售额（国内销售额不存在，难以计算国内年销售额",
+      "corrected": "1) 截至上一财政年度末，年度国内销售额（如因不可避免的事由难以计算年度国内销售额，",
+      "reason": "시행령 별표 1 한국어 원문 대조: 온라인·오프라인 매출 구성, 중도해지 평균 영업위약금 산정 방식, 신용제공 주체·조건·금액 기재요건의 명백한 오역 교정."
+    },
+    "A34909-zh-00224": {
+      "doc": "A34909",
+      "source_hash": "310909cffbacc5f51afcb55f03c15bfd0970c1cf217e3f062e7b6e4e03ddf676",
+      "original": "在出现不可避免的情况时，按照公平交易委员会规定和公布的方法进行计算。",
+      "corrected": "则按公平交易委员会规定并公告的方法计算）中，线上销售额与线下销售额各自所占的比例。",
+      "reason": "시행령 별표 1 한국어 원문 대조: 온라인·오프라인 매출 구성, 중도해지 평균 영업위약금 산정 방식, 신용제공 주체·조건·금액 기재요건의 명백한 오역 교정."
+    },
+    "A34909-zh-00225": {
+      "doc": "A34909",
+      "source_hash": "de0c03dad00eced5a744febdb1ee55b612df539af88a105c9c3c585cf8262f79",
+      "original": "线上销售额和线下销售额占总销售额的比例（指总销售额）。在这种情况下，线上销售额非",
+      "corrected": "其中，线上销售额比例应分别列明特许人直接运营的网上商城销售额及由他人运营的网上商城销售额；",
+      "reason": "시행령 별표 1 한국어 원문 대조: 온라인·오프라인 매출 구성, 중도해지 평균 영업위약금 산정 방식, 신용제공 주체·조건·금액 기재요건의 명백한 오역 교정."
+    },
+    "A34909-zh-00226": {
+      "doc": "A34909",
+      "source_hash": "98ab6e7ba3585ad6a3052e58ed3bb37cc7b2328ac8b8f111c10b97725ef8461a",
+      "original": "其中包括特许经营商直接运营的网上商城的销售收入和其他人运营的网上商城的销售收入。",
+      "corrected": "线下销售额比例应分别列明加盟店销售额及其他线下销售额。",
+      "reason": "시행령 별표 1 한국어 원문 대조: 온라인·오프라인 매출 구성, 중도해지 평균 영업위약금 산정 방식, 신용제공 주체·조건·금액 기재요건의 명백한 오역 교정."
+    },
+    "A34909-zh-00227": {
+      "doc": "A34909",
+      "source_hash": "e889086189dfa6c655f14be98bd9c94b6378b1e58fe1c2e61cecfe1b0206bbc9",
+      "original": "作为销售收入，线下销售收入的比例包括特许经营销售收入和其他线下销售收入。",
+      "corrected": "（应分别记载上述各项销售额的构成。）",
+      "reason": "시행령 별표 1 한국어 원문 대조: 온라인·오프라인 매출 구성, 중도해지 평균 영업위약금 산정 방식, 신용제공 주체·조건·금액 기재요건의 명백한 오역 교정."
+    },
+    "A34909-zh-00265": {
+      "doc": "A34909",
+      "source_hash": "a500ea748100e3ce7cbb3ef83619a1fa86c1cff0ef5664614df2f3a44f4ebdea",
+      "original": "5) 提前终止合同的平均运营罚款（过去 3 年加盟商应承担的年度负债）",
+      "corrected": "5) 因加盟商可归责事由而提前解除合同的平均营业违约金现况（以最近3年内每年提前解除的各合同为对象，",
+      "reason": "시행령 별표 1 한국어 원문 대조: 온라인·오프라인 매출 구성, 중도해지 평균 영업위약금 산정 방식, 신용제공 주체·조건·금액 기재요건의 명백한 오역 교정."
+    },
+    "A34909-zh-00266": {
+      "doc": "A34909",
+      "source_hash": "0369950293fa624afbd5ec8d327288bcd7d43f029f90b970fa82e4914b2cafb4",
+      "original": "原因提前终止的每份合同，剩余合同期限将以 6 个月为单位进行划分，直至",
+      "corrected": "将各合同剩余期限按6个月为单位划分，",
+      "reason": "시행령 별표 1 한국어 원문 대조: 온라인·오프라인 매출 구성, 중도해지 평균 영업위약금 산정 방식, 신용제공 주체·조건·금액 기재요건의 명백한 오역 교정."
+    },
+    "A34909-zh-00267": {
+      "doc": "A34909",
+      "source_hash": "a95f65cdcd15b35399d4dc5adf1b423fa9deab695dab72c84bca4e7f73e35ceb",
+      "original": "（指每个单位周期的平均罚款负担）状态。在这种情况下，合同",
+      "corrected": "分别计算各单位期间违约金负担额的平均金额）。",
+      "reason": "시행령 별표 1 한국어 원문 대조: 온라인·오프라인 매출 구성, 중도해지 평균 영업위약금 산정 방식, 신용제공 주체·조건·금액 기재요건의 명백한 오역 교정."
+    },
+    "A34909-zh-00268": {
+      "doc": "A34909",
+      "source_hash": "6e858bbbd479c362c8026fe705882e6a02ea286f0e3916381b729f8aef984258",
+      "original": "对于每个提前终止特许经营权的加盟商，实际罚款金额可能与平均运营罚款金额有所不同。",
+      "corrected": "并应注明每家提前解除合同的加盟店实际违约金金额可能与平均营业违约金金额不同。",
+      "reason": "시행령 별표 1 한국어 원문 대조: 온라인·오프라인 매출 구성, 중도해지 평균 영업위약금 산정 방식, 신용제공 주체·조건·금액 기재요건의 명백한 오역 교정."
+    },
+    "A34909-zh-00306": {
+      "doc": "A34909",
+      "source_hash": "daae1d8a8e7b1694e16d2aff5311fbb031a383ea06abfbd97d38d059bd4b559a",
+      "original": "关联方或各类金融机构（《贷款业务登记等及金融消费者保护法》）",
+      "corrected": "（包括《贷款业等登记及金融使用者保护法》第2条第1款(a)目所规定的贷款业者），",
+      "reason": "시행령 별표 1 한국어 원문 대조: 온라인·오프라인 매출 구성, 중도해지 평균 영업위약금 산정 방식, 신용제공 주체·조건·금액 기재요건의 명백한 오역 교정."
+    },
+    "A34909-zh-00307": {
+      "doc": "A34909",
+      "source_hash": "be4ce44c6fcca27bab96d5abba75302104c712e14c2450187fa4c10e19708962",
+      "original": "在贷款人根据第2条第1款(a)项安排信贷提供的情况下，相关的",
+      "corrected": "应记载提供该信用者的姓名（如为法人，则记载其代表人姓名）及名称，",
+      "reason": "시행령 별표 1 한국어 원문 대조: 온라인·오프라인 매출 구성, 중도해지 평균 영업위약금 산정 방식, 신용제공 주체·조건·금액 기재요건의 명백한 오역 교정."
+    },
+    "A34909-zh-00308": {
+      "doc": "A34909",
+      "source_hash": "823bd966544d2c30fd45f68008e07ff2753615026d34bf478cc5d0c7cc3e8cb0",
+      "original": "提供信贷一方的名称（或公司代表的名称）和职务，以及相关信贷",
+      "corrected": "以及信用提供的具体条件和信用提供金额，",
+      "reason": "시행령 별표 1 한국어 원문 대조: 온라인·오프라인 매출 구성, 중도해지 평균 영업위약금 산정 방식, 신용제공 주체·조건·금액 기재요건의 명백한 오역 교정."
+    },
+    "A34909-zh-00309": {
+      "doc": "A34909",
+      "source_hash": "ef1adbbe0120388dd46bf072ba57e04ed55759ccd874608287fe40d9511f1bdc",
+      "original": "的具体条件和授信额度，以及提供的授信额度（分为商户开户阶段和商户运营阶段",
+      "corrected": "并分别列明加盟店开设阶段与加盟店经营阶段的金额。",
+      "reason": "시행령 별표 1 한국어 원문 대조: 온라인·오프라인 매출 구성, 중도해지 평균 영업위약금 산정 방식, 신용제공 주체·조건·금액 기재요건의 명백한 오역 교정."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -2824,7 +2915,8 @@
     "C05 9de52492017e: compared Korean Annex A34915 surcharge basis and linked original Chinese lines, corrected 11 concrete mistranslations; no whole family semantic completion certification.",
     "C05 c40b97c6430f: A34909 disclosure-cover statutory disclaimer clauses 14-16 restored against full Korean sentence; preserve row 17 continuation.",
     "C05 1d83a14216df: A34909 section 5(a) source-grounded corrections for franchisee startup payments, refund/return conditions and escrow amount; 8 rows.",
-    "C05 1d83a14216df: A34909 section 6(e) source-grounded territorial restriction and substitute-goods sales disclosure corrections (8)."
+    "C05 1d83a14216df: A34909 section 6(e) source-grounded territorial restriction and substitute-goods sales disclosure corrections (8).",
+    "C05 ec2de23b2e8f: A34909 source comparison added 13 corrections to sales ratios, average early termination penalties and credit disclosure."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -2833,5 +2925,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 389
+  "corrected_rows": 402
 }
