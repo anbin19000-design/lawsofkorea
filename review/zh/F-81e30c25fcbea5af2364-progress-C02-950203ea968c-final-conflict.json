@@ -1,0 +1,40 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:950203ea968c",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "checked_rows": 1,
+  "checked_ids": [
+    "A25466-zh-00054"
+  ],
+  "edits": [
+    {
+      "id": "A25466-zh-00054",
+      "text": "（反映措施要求内容及相关计划）",
+      "source_hash": "1a39b63ebc14d01a1a7860d16f50eb3fff12c03d13216dea0f40a1016c6a3298",
+      "target_id": "XML:1802758"
+    }
+  ],
+  "adjudications": [
+    {
+      "id": "A25466-zh-00054",
+      "verdict": "CORRECT_CLEAR_OMISSION_AND_MISTRANSLATION",
+      "korean": "신청서 제출 (조치요구 내용 및 계획 반영)",
+      "reason": "Row 46 carries 申请书提交; this row must retain both '조치요구 내용' and '계획 반영'. Prior variants respectively omitted plan incorporation or left it incomplete. Korean process table has no downstream Chinese cell carrying the missing plan-reflection phrase."
+    }
+  ],
+  "reconciliation_note": "All 15 conflicting candidate IDs from older 92-file index have now been individually adjudicated across this task's three progress files. This does NOT certify post-index updates, or complete sequential Korean/English/Chinese review.",
+  "prior_progress": [
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-950203ea968c-adjudication.json",
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-950203ea968c-forms-reconcile.json"
+  ],
+  "next_action": "Read and reconcile all newer C02 files outside older index and unmatched checked IDs; verify every document in Korean->available English->Chinese order, then consolidate into final result and receipt only after entire family complete."
+}
