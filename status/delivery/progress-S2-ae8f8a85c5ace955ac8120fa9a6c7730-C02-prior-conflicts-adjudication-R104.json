@@ -1,0 +1,70 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "status": "IN_PROGRESS",
+  "checked_rows": 4,
+  "checked_ids": [
+    "A25466-zh-00054",
+    "A25470-zh-00005",
+    "A25470-zh-00006",
+    "A36426-zh-00010"
+  ],
+  "edits": [
+    {
+      "id": "A25466-zh-00054",
+      "text": "（措施要求内容",
+      "source_hash": "1a39b63ebc14d01a1a7860d16f50eb3fff12c03d13216dea0f40a1016c6a3298",
+      "target_id": "XML:1802758"
+    },
+    {
+      "id": "A25470-zh-00005",
+      "text": "※ 深色栏由申请人留空，并在［",
+      "source_hash": "c20e97d732d34ae7d88e40b5b31c8fa9bdfc507be8d615a4da47703ff00c0397",
+      "target_id": "XML:1802888"
+    },
+    {
+      "id": "A25470-zh-00006",
+      "text": "］内相应位置标记√。",
+      "source_hash": "9c2cff79a84df6db8a038d4803908bc9bd951c982152400d044ce6c5b3292004",
+      "target_id": "XML:1802889"
+    },
+    {
+      "id": "A36426-zh-00010",
+      "text": "2. 依据本法第二十九条第二款，国土交通",
+      "source_hash": "f597971ba7c4d19437e846072435133aada69630b88130ec83bc43ddf76e072a",
+      "target_id": "XML:2657318"
+    }
+  ],
+  "adjudications": [
+    {
+      "id": "A25466-zh-00054",
+      "selected_prior_file": "status/delivery/progress-S2-ae8f8a85c5ace955ac8120fa9a6c7730-C02-A25466-00043-00070-R85.json",
+      "reason": "한국어 원문 처리절차 '(조치요구 내용 및 계획 반영)'이 복수 셀로 분리됨. 54번 셀에서 '反映'을 선반영하지 않고 다른 셀과 이어지도록 기존 R85 선택"
+    },
+    {
+      "id": "A25470-zh-00005",
+      "selected_prior_file": "status/delivery/progress-S2-ae8f8a85c5ace955ac8120fa9a6c7730-C02-A25470-00005-00018-R90.json",
+      "reason": "한국어 서식의 체크박스 안내는 다음 셀 00006과 연결되고 '앞쪽'은 별도 셀 00007. R8의 단일 셀 중복 통합 후보 제외"
+    },
+    {
+      "id": "A25470-zh-00006",
+      "selected_prior_file": "status/delivery/progress-S2-ae8f8a85c5ace955ac8120fa9a6c7730-C02-A25470-00005-00018-R90.json",
+      "reason": "한국어 '[ ]에는 해당되는 곳에 √표시'와 부합하도록 00005에서 이어지는 문장 선택. '（正面）'는 00007 대상"
+    },
+    {
+      "id": "A36426-zh-00010",
+      "selected_prior_file": "status/delivery/progress-S2-ae8f8a85c5ace955ac8120fa9a6c7730-C02-A36426-00002-00013-R72.json",
+      "reason": "한국어 별표의 위탁업무 명칭이 표 셀로 이어짐. R72의 국토교통부장관 분할은 후속 셀과의 반복을 피함"
+    }
+  ],
+  "note": "R104 existing-candidate reconciliation of four documented variants against unchanged Korean originals and adjacent form/table cells. Edits reuse prior stored texts, do not add new semantic edits. Entire 1133-row whole-family review is NOT complete. Preserve all prior files, no COMPLETE receipt."
+}
