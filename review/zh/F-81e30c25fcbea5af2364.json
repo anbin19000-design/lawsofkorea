@@ -2899,9 +2899,18 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-2dec0ecc0be6-b.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
       "reason": "Correct supplementary provision label and identify decree effective date."
+    },
+    {
+      "id": "B1-zh-00027",
+      "source_hash": "d82d301b2a3a19b17db99adca7a68e9d63ffc07dd5554f56100178ba8424babd",
+      "target_id": "0b3e58d502f1bb1b7f634f098671d47cc7e7a1e9196a1319af5a5d0f9b779955",
+      "text": "第十九条之三（智慧城市基础设施等的利用）\n① 智慧城市基础设施管理机构可以允许有意开发或升级智慧城市服务或智慧城市技术的个人付费使用智慧城市基础设施进行测试等活动。<2017年3月21日修订>\n② 国土交通大臣可在预算范围内，为智慧城市基础设施管理机构实施的智慧城市服务或智慧城市技术开发与升级项目的部分费用提供财政支持。<2013年3月23日修订；2017年3月21日修订>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-253f69ad016f-zh.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Correct 고도화 to 技术升级 / 服务升级 rather than 推进 or 推广 in article 19-3(1)-(2)."
     }
   ],
-  "adjudicated_edit_count": 300,
+  "adjudicated_edit_count": 301,
   "pending_single_candidate_count": 343,
   "pending_conflict_count": 0,
   "pending_single_candidates": [
@@ -8112,12 +8121,13 @@
     "2026-11-08 C02 continuation: corrected B2 rows 00108, 00109, 00110 and 00112 in 2010-2012 historical supplementary amendments; corrected Decree titles, 附则 label, item <52> marker and city/county basic plan terminology. Rows 00107 and 00111 compared and retained.",
     "2026-11-08 C02 continuation 6330608994de: verified Korean-source B2 rows 00114-00116, 00118; corrected three supplement headings/effective-date terms; retained 00116. No COMPLETE certification.",
     "2026-11-08 C02 2dec0ecc0be6: retained original source blobs; corrected B2 00122/00126/00133/00140 after Korean source comparison; retained previously checked accurate rows; whole-family status IN_PROGRESS.",
-    "C02 2dec0ecc0be6 additional pass: five corrections to B2 historical decree supplementary provisions through 2019; still IN_PROGRESS, ordered reading not certified."
+    "C02 2dec0ecc0be6 additional pass: five corrections to B2 historical decree supplementary provisions through 2019; still IN_PROGRESS, ordered reading not certified.",
+    "C02 253f69ad016f: B1-zh-00027 minimal correction of 고도화; keep 17-document status IN_PROGRESS."
   ],
   "integration_progress": {
-    "stage": "B2_2016_TO_2019_SUPPLEMENTARY_RECONCILIATION",
-    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:2dec0ecc0be6",
-    "note": "2016-2019 B2 supplementary provisions: five new corrections; previously recorded edits preserved, remaining provisions unverified."
+    "stage": "CHINESE_B1_ORDERED_INITIAL_REVIEW",
+    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:253f69ad016f",
+    "note": "Korean family and available English sources read; B1 Chinese rows 00001-00035 compared, one minimal semantic correction in B1-zh-00027. Entire 1133-row family NOT yet verified."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
