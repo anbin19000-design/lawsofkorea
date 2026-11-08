@@ -19,16 +19,17 @@
   "scope": {
     "documents_total": 34,
     "zh_rows_total": 2925,
-    "rows_reviewed": 1541,
+    "rows_reviewed": 1614,
     "documents_reviewed": [
       "B1: partial review; full semantic pass remains",
       "B2: partial review; full semantic pass remains",
       "B3: 46 rows inspected",
       "A12177-A12192: prior review preserved",
-      "A12193: all 106 rows inspected"
+      "A12193: all 106 rows inspected",
+      "A12194: all 73 rows inspected; obvious terminology, MTQ, field labels and statute-reference errors corrected"
     ],
-    "documents_remaining": 15,
-    "rows_not_yet_reviewed": 1384
+    "documents_remaining": 14,
+    "rows_not_yet_reviewed": 1311
   },
   "english_availability": {
     "official_full_text_documents": [
@@ -41,8 +42,8 @@
       "B2": "e75241d5a275a1d646bb7c48dc37a31daff529c4"
     }
   },
-  "checked_rows": 1541,
-  "corrected_rows": 1334,
+  "checked_rows": 1614,
+  "corrected_rows": 1370,
   "edits": [
     {
       "id": "B1-zh-00001",
@@ -5379,8 +5380,153 @@
     {
       "id": "A12193-zh-00055",
       "text": "210mm×297mm（胶版纸80g/㎡）"
+    },
+    {
+      "id": "A12194-zh-00001",
+      "text": "■ 《房地产价格公示法施行规则》[附表第18号格式]"
+    },
+    {
+      "id": "A12194-zh-00002",
+      "text": "共同住宅价格确认（申请）书"
+    },
+    {
+      "id": "A12194-zh-00003",
+      "text": "收件编号"
+    },
+    {
+      "id": "A12194-zh-00004",
+      "text": "收件日期"
+    },
+    {
+      "id": "A12194-zh-00005",
+      "text": "处理期限"
+    },
+    {
+      "id": "A12194-zh-00006",
+      "text": "立即"
+    },
+    {
+      "id": "A12194-zh-00007",
+      "text": "申请人"
+    },
+    {
+      "id": "A12194-zh-00008",
+      "text": "姓名（法人名称）"
+    },
+    {
+      "id": "A12194-zh-00009",
+      "text": "地址"
+    },
+    {
+      "id": "A12194-zh-00010",
+      "text": "电话号码"
+    },
+    {
+      "id": "A12194-zh-00011",
+      "text": "申请对象共同住宅"
+    },
+    {
+      "id": "A12194-zh-00012",
+      "text": "确认内容"
+    },
+    {
+      "id": "A12194-zh-00013",
+      "text": "价格基准年度"
+    },
+    {
+      "id": "A12194-zh-00014",
+      "text": "所在地及地号"
+    },
+    {
+      "id": "A12194-zh-00015",
+      "text": "地号"
+    },
+    {
+      "id": "A12194-zh-00016",
+      "text": "名称"
+    },
+    {
+      "id": "A12194-zh-00017",
+      "text": "栋名"
+    },
+    {
+      "id": "A12194-zh-00018",
+      "text": "户号"
+    },
+    {
+      "id": "A12194-zh-00019",
+      "text": "共同住宅价格"
+    },
+    {
+      "id": "A12194-zh-00020",
+      "text": "（基准日）"
+    },
+    {
+      "id": "A12194-zh-00021",
+      "text": "（小区名称）"
+    },
+    {
+      "id": "A12194-zh-00022",
+      "text": "（韩元）"
+    },
+    {
+      "id": "A12194-zh-00023",
+      "text": "根据《房地产价格公示法施行规则》第十七条，特此申请确认上述共同住宅价格。"
+    },
+    {
+      "id": "A12194-zh-00024",
+      "text": "附件"
+    },
+    {
+      "id": "A12194-zh-00025",
+      "text": "无"
+    },
+    {
+      "id": "A12194-zh-00026",
+      "text": "手续费"
+    },
+    {
+      "id": "A12194-zh-00027",
+      "text": "市、郡、区"
+    },
+    {
+      "id": "A12194-zh-00028",
+      "text": "条例规定"
+    },
+    {
+      "id": "A12194-zh-00029",
+      "text": "根据《房地产价格公示法施行规则》第十七条，兹确认您申请的共同住宅价格如下。"
+    },
+    {
+      "id": "A12194-zh-00030",
+      "text": "特此确认。"
+    },
+    {
+      "id": "A12194-zh-00031",
+      "text": "年"
+    },
+    {
+      "id": "A12194-zh-00032",
+      "text": "月"
+    },
+    {
+      "id": "A12194-zh-00033",
+      "text": "日"
+    },
+    {
+      "id": "A12194-zh-00034",
+      "text": "市长、郡守或区厅长"
+    },
+    {
+      "id": "A12194-zh-00035",
+      "text": "官方印章"
+    },
+    {
+      "id": "A12194-zh-00036",
+      "text": "210mm×297mm[胶版纸（80g/㎡）]"
     }
   ],
   "status": "IN_PROGRESS",
-  "next": "A12194-A12207 remaining form rows; then full semantic re-review B1/B2 and final continuity/MTQ/numeric/citation/form checks."
+  "next": "继续按顺序检查A12195至A12207共13份表单；随后对B1、B2全文补做语义复核及最终全量质量检查。",
+  "edits_saved": 1370
 }
