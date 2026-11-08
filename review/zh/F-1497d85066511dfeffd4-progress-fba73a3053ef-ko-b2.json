@@ -1,0 +1,46 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-1497d85066511dfeffd4",
+  "family_id": "F-1497d85066511dfeffd4",
+  "worker": "C04",
+  "panel_id": "panel-04",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "f7414f486d3fff46fec301f56e47f37575f835aa",
+    "en": "835fe6c61b35a38db06d890138be0001ca03c610",
+    "zh": "a039851e87912aaef943e29d8fe40df20ae65e8a"
+  },
+  "prior_progress": [
+    "review/zh/F-1497d85066511dfeffd4-progress-fa05befc3a32-ko-inventory.json",
+    "review/zh/F-1497d85066511dfeffd4-progress-e157db6934c7-ko-b1-inspection.json"
+  ],
+  "scope": {
+    "documents": 56,
+    "zh_rows": 3494
+  },
+  "verification": {
+    "active_worker": "C04",
+    "active_family_matches": true,
+    "ko_contents_sha_matches": true,
+    "en_blob_sha_matches": true,
+    "zh_blob_sha_matches": true,
+    "official_review_exists": false,
+    "complete_receipt_exists": false
+  },
+  "reading_checkpoint": {
+    "required_order": "KO_FULL_EN_FULL_ZH_FULL",
+    "ko": {
+      "completed_documents": [
+        "B1"
+      ],
+      "current_document": "B2",
+      "current_position": "source_ko char offset 22000 of 58303, at article 36 (company university installation); text before this offset inspected in order",
+      "remaining": "B2 from char 22000 then annexes and B3 and all attached forms, 54 additional documents"
+    },
+    "en": "NOT_STARTED: index and Git Blob available; fallback version differs from current Korean text",
+    "zh": "NOT_STARTED: Git Blob available; Chinese semantic review must follow full KO then full EN"
+  },
+  "edits": [],
+  "findings": [],
+  "notes": "Same-family non-destructive continuation. B1 law 35892 source characters inspected including substantive provisions and all addenda; B2 executive decree inspected from start through 22000 characters (through beginning of article 36). No Chinese edits; no completion claim. Preserve previous checkpoints and source hashes."
+}
