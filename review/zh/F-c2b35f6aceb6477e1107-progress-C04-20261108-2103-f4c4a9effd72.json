@@ -1,0 +1,30 @@
+{
+  "schema": "LAW_ZH_PROGRESS_V1",
+  "assignment_id": "S2-901caa00a22014b2aeb6d9a618edfdbf",
+  "job_id": "F-c2b35f6aceb6477e1107",
+  "worker": "C04",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
+    "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
+    "zh": "f8879f4a12299069e4831b03f15a2a2fa30c8089"
+  },
+  "source_commit": "61d1fe5523280bd5fe8850a34b0ad2e124da51b7",
+  "documents": 15,
+  "total_rows": 1241,
+  "preserved_review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
+  "preserved_review_sha_at_checkpoint": "f6a26bb5a5154d9c8a769aa2ac2ce5aef1f1a200",
+  "preserved_review_edits_at_checkpoint": 328,
+  "current_checkpoint": {
+    "korean_document_read": "B1",
+    "english_document_read": "B1",
+    "trilingual_full_family_ordered_read": "NOT_COMPLETE",
+    "zh_row_checked_without_edit": [
+      "B1-zh-00086"
+    ],
+    "next_sequence": "Continue full Korean reading from B2, then complete all remaining Korean documents before beginning the full English-document sequence; only then resume Chinese rows in document order.",
+    "note": "B1-zh-00086 maps to Korean source 제1조(시행일) 이 법은 2022년 1월 1일부터 시행한다. Chinese text '第一条（生效日期）本法自2022年1月1日起生效。' is accurate; no edit warranted."
+  },
+  "status_note": "Existing official review has 328 unique edit records at the checkpoint and remains IN_PROGRESS. The older handoff progress file contains an outdated review SHA and only 27 checked_ids; do not use it as the current review version. No completion receipt exists. Do not overwrite concurrent review updates; re-fetch review SHA before any future update. No source file changed."
+}
