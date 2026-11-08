@@ -1,0 +1,321 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-b5c27d20d49b721e47e6",
+  "worker": "C05",
+  "status": "IN_PROGRESS",
+  "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
+  "source_blobs": {
+    "ko": "24ddd78e32a748b7d1c1ce01fef19d036494b9e9",
+    "en": "3d130788df10274ded6103c1fa81654c977eec5c",
+    "zh": "66ea4d0981f8e1a76348309f8254051d4914f693"
+  },
+  "checked_rows": 32,
+  "checked_ids": [
+    "A5231-zh-00001",
+    "A5231-zh-00002",
+    "A5231-zh-00003",
+    "A5231-zh-00004",
+    "A5231-zh-00005",
+    "A5231-zh-00006",
+    "A5231-zh-00007",
+    "A5231-zh-00008",
+    "A5231-zh-00009",
+    "A5231-zh-00010",
+    "A5231-zh-00011",
+    "A5231-zh-00012",
+    "A5231-zh-00013",
+    "A5231-zh-00014",
+    "A5231-zh-00015",
+    "A5231-zh-00016",
+    "A5231-zh-00017",
+    "A5231-zh-00018",
+    "A5231-zh-00019",
+    "A5231-zh-00020",
+    "A5231-zh-00021",
+    "A5231-zh-00022",
+    "A5231-zh-00023",
+    "A5231-zh-00024",
+    "A5231-zh-00025",
+    "A5231-zh-00026",
+    "A5231-zh-00027",
+    "A5231-zh-00028",
+    "A5231-zh-00029",
+    "A5231-zh-00030",
+    "A5231-zh-00031",
+    "A5231-zh-00032"
+  ],
+  "decisions": [
+    {
+      "id": "A5231-zh-00001",
+      "source_hash": "918a653fb70385654c92e1fc83a18110541f4b2a1b7d6485ed75bf70a0b936cb",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5231-zh-00002",
+      "source_hash": "b6ef554c92c1ee06c5c51142ea35929d24f513f49937876ea1d846a0a7057648",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5231-zh-00003",
+      "source_hash": "b94e182b9a95d9dc23294428515515c68a59d1d634e19d301cdc19e9a9516fed",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5231-zh-00004",
+      "source_hash": "9ba036621f98410d949e1637eacda4c14487bf75777f874508d89d83892b6aaa",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5231-zh-00005",
+      "source_hash": "84e821cc8bce39c326e97ce3a8e540957cfbb7e42c41d8f5cb5e3e8587664519",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5231-zh-00006",
+      "source_hash": "d1555580de82ca45783370eeca85dbcd6c417866c58711355c9a9a357e8790f6",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5231-zh-00007",
+      "source_hash": "2fd298c05dc1f398eca8a5a706e1ba717d08b35a48f381964619f340adfa03b6",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5231-zh-00008",
+      "source_hash": "197500d4840ff62e5b7636953da0c060e5b8423ef3867f7f6b927bf24aefe0f8",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5231-zh-00009",
+      "source_hash": "1e5d807edab25b43cf1651b9e824f1be25279b85875c358a97d9a14ce1903535",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5231-zh-00010",
+      "source_hash": "9f96b8e22cc06bfafc548ef472e33b60548b190f17dbc04b1da176a50d2c6d2c",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5231-zh-00011",
+      "source_hash": "ade4be081414673f25b18f2602f6fb1876245e10647c48adbee6bee976463da7",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5231-zh-00012",
+      "source_hash": "1936c3416f3657d484c700469eaeb02d1a0d51137073eebb5d547853eff6e226",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5231-zh-00013",
+      "source_hash": "00c7fb7971dc46bb2f231412324fe28b4beb02994ef1ee48e737a9531e0617ef",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5231-zh-00014",
+      "source_hash": "ca0732512d7c0de86e90a8d7894d281a0e01aaab35ae35e0585a0470c99e6041",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5231-zh-00015",
+      "source_hash": "65ab6cdb77b5ad617359c10eba448cf91f2592b382a99b9a0f2daa2aa378a355",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5231-zh-00016",
+      "source_hash": "9c8cb722b3932d6179cf246da5556e0541410cad95d28c1267fb4297b48c3f9f",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5231-zh-00017",
+      "source_hash": "d3d4713332e2dc645f9449d194c8b4b3f8f4f5d74aeed7dd1e7d01e203a7be26",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5231-zh-00018",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5231-zh-00019",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5231-zh-00020",
+      "source_hash": "dfc76879e2f5c3ead09186ff1c6b635624f96b7adbd71d94c37566429ca5df6f",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5231-zh-00021",
+      "source_hash": "9170dd7a099e9a3c170bade681381d2fdb0c637188c7b0f05d4447fec48577cb",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5231-zh-00022",
+      "source_hash": "c2c25ba0a53a6f7b97292cfe2d401a55b263f9c6222471a4b8a4c3509c1a4197",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5231-zh-00023",
+      "source_hash": "92156b24d9cc5aaf7fdd90fcbc0f68304c29d6d7249e1b3446085cad5c54e6f6",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5231-zh-00024",
+      "source_hash": "d6d87e05c543e71cabaccf3ed61804e7e814d1a465e94f4fdc59f331ba61f822",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5231-zh-00025",
+      "source_hash": "d1a537bb70f1b6f2466ca3ff40caa32b2936e2b96cf40a25b4fd00e379fa349f",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5231-zh-00026",
+      "source_hash": "a923216e37d6cfc4d9987b2fba001fa454ae237afb8fdc0a42e5f4e176cf098c",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5231-zh-00027",
+      "source_hash": "98ebd37ce3c1cd6abbe7da2f848d87a6002a00b609ecf9e582bbc5019f4ffbbf",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5231-zh-00028",
+      "source_hash": "bdb17d1f5327c0d9b34111564d94498fec3fcd938779f2f170ddc1ee4468f1fc",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5231-zh-00029",
+      "source_hash": "09f76a1b7a6712eeafef23fe0e17136e76ce2ed4cf511d099cd08b89f345bcc0",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5231-zh-00030",
+      "source_hash": "b3378685b76ee79fd0ef7cf37e79809b26c4f5aeb2efc3851f2fe38ce6663e84",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5231-zh-00031",
+      "source_hash": "ba123b0dd12c873879b89d1982a261a8bdbd0d5459bfe2835bd29ed3f7bbe5f7",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5231-zh-00032",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "decision": "KEEP"
+    }
+  ],
+  "edits": [
+    {
+      "id": "A5231-zh-00001",
+      "text": "■ 《单亲家庭支援法施行规则》[附页第5号表格] <2014年7月22日新设>"
+    },
+    {
+      "id": "A5231-zh-00002",
+      "text": "（正面）"
+    },
+    {
+      "id": "A5231-zh-00003",
+      "text": "第　号"
+    },
+    {
+      "id": "A5231-zh-00004",
+      "text": "单亲家庭福利设施设置申报确认书"
+    },
+    {
+      "id": "A5231-zh-00007",
+      "text": "3. 设施负责人姓名："
+    },
+    {
+      "id": "A5231-zh-00008",
+      "text": "（出生年月日："
+    },
+    {
+      "id": "A5231-zh-00009",
+      "text": "4. 所在地："
+    },
+    {
+      "id": "A5231-zh-00010",
+      "text": ""
+    },
+    {
+      "id": "A5231-zh-00011",
+      "text": "5. 入住（使用）定员："
+    },
+    {
+      "id": "A5231-zh-00012",
+      "text": "户（人）"
+    },
+    {
+      "id": "A5231-zh-00013",
+      "text": "6. 运营法人名称："
+    },
+    {
+      "id": "A5231-zh-00014",
+      "text": "7. 代表人（法人）姓名："
+    },
+    {
+      "id": "A5231-zh-00015",
+      "text": "8. 特别记载事项："
+    },
+    {
+      "id": "A5231-zh-00016",
+      "text": "依据《单亲家庭支援法》第二十条第三款及同法施行规则第十条第三款，"
+    },
+    {
+      "id": "A5231-zh-00017",
+      "text": "发给上述单亲家庭福利设施设置申报确认书。"
+    },
+    {
+      "id": "A5231-zh-00018",
+      "text": "年"
+    },
+    {
+      "id": "A5231-zh-00019",
+      "text": "月"
+    },
+    {
+      "id": "A5231-zh-00021",
+      "text": "特别自治市市长、特别自治道知事、市长、郡守、区厅长"
+    },
+    {
+      "id": "A5231-zh-00022",
+      "text": "公章"
+    },
+    {
+      "id": "A5231-zh-00023",
+      "text": "210毫米×297毫米[白色纸张120克/平方米]"
+    },
+    {
+      "id": "A5231-zh-00024",
+      "text": "（背面）"
+    },
+    {
+      "id": "A5231-zh-00025",
+      "text": "变更"
+    },
+    {
+      "id": "A5231-zh-00026",
+      "text": "事项"
+    },
+    {
+      "id": "A5231-zh-00027",
+      "text": ""
+    },
+    {
+      "id": "A5231-zh-00028",
+      "text": ""
+    },
+    {
+      "id": "A5231-zh-00030",
+      "text": "内容"
+    },
+    {
+      "id": "A5231-zh-00031",
+      "text": "记录人"
+    }
+  ],
+  "next_id": "A5232-zh-00001",
+  "note": "Reviewed complete 32 fields of facility registration receipt. Protected source hashes and mapped front/back certificate fields and legal citation."
+}
