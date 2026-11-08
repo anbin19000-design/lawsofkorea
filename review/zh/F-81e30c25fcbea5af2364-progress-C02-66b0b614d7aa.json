@@ -17,11 +17,11 @@
   },
   "current_review": {
     "path": "review/zh/F-81e30c25fcbea5af2364.json",
-    "blob_sha": "b4fb447ae2c9b9f4ecbc2edc9fec9d92327fc067",
+    "blob_sha": "32c430f6d21c334e99c185dfd934c84d62c14a28",
     "schema": "LAW_ZH_REVIEW_CUMULATIVE_V1",
     "status": "IN_PROGRESS",
-    "edits": 324,
-    "checked_unique_ids": 390
+    "edits": 326,
+    "checked_unique_ids": 404
   },
   "reading_checkpoint": {
     "korean": {
@@ -110,7 +110,20 @@
         "B2-zh-00077",
         "B2-zh-00079",
         "B2-zh-00080",
-        "B2-zh-00081"
+        "B2-zh-00081",
+        "B2-zh-00069",
+        "B2-zh-00070",
+        "B2-zh-00082",
+        "B2-zh-00083",
+        "B2-zh-00084",
+        "B2-zh-00085",
+        "B2-zh-00086",
+        "B2-zh-00087",
+        "B2-zh-00088",
+        "B2-zh-00089",
+        "B2-zh-00090",
+        "B2-zh-00091",
+        "B2-zh-00092"
       ],
       "new_corrections": [
         "B2-zh-00028",
@@ -134,7 +147,14 @@
         "B2-zh-00072",
         "B2-zh-00076",
         "B2-zh-00077",
-        "B2-zh-00079"
+        "B2-zh-00079",
+        "B2-zh-00069",
+        "B2-zh-00070",
+        "B2-zh-00075",
+        "B2-zh-00082",
+        "B2-zh-00084",
+        "B2-zh-00089",
+        "B2-zh-00091"
       ],
       "checked_without_change": [
         "B2-zh-00033",
@@ -184,7 +204,14 @@
         "B2-zh-00074",
         "B2-zh-00075",
         "B2-zh-00080",
-        "B2-zh-00081"
+        "B2-zh-00081",
+        "B2-zh-00083",
+        "B2-zh-00085",
+        "B2-zh-00086",
+        "B2-zh-00087",
+        "B2-zh-00088",
+        "B2-zh-00090",
+        "B2-zh-00092"
       ]
     }
   },
@@ -276,6 +303,34 @@
     {
       "id": "B2-zh-00079",
       "reason": "Correct the title and legal references in Article 60 delegation of affairs."
+    },
+    {
+      "id": "B2-zh-00069",
+      "reason": "Correct implementation period terminology and legal references."
+    },
+    {
+      "id": "B2-zh-00070",
+      "reason": "Restore paragraphs ④ and ⑥ and correct numbering."
+    },
+    {
+      "id": "B2-zh-00075",
+      "reason": "Correct delegation title and recipient agency name."
+    },
+    {
+      "id": "B2-zh-00082",
+      "reason": "Correct supplementary provision label and historical law title."
+    },
+    {
+      "id": "B2-zh-00084",
+      "reason": "Correct inconsistent Bogeumjari law name and amendment-item numbering."
+    },
+    {
+      "id": "B2-zh-00089",
+      "reason": "Correct historical Enforcement Decree instrument title and institution name."
+    },
+    {
+      "id": "B2-zh-00091",
+      "reason": "Correct supplementary provision label and Free Economic Zone Enforcement Decree title."
     }
   ],
   "english_coverage_note": "The index lists 712/1,133 row-level English references; 421 have no row-level English. B1 and B2 have official parent fallback, but it is a different version for B2; B3 and all A25465-A25474 have no indexed English documents.",
@@ -285,5 +340,5 @@
     "zh": false
   },
   "completion_receipt_verified": false,
-  "next_action": "Continue from B2-zh-00082 (or next unchecked row in exact source order), then complete all remaining B2 rows and B1, annexes, B3 and forms. Full Korean, available English and Chinese family-wide ordered read-through remains uncertified; no completion receipt."
+  "next_action": "Continue B2 in source order from the next unchecked row (currently after B2-zh-00092); finish all remaining decree rows, then review B1, annexes, rule and forms. Full family Korean and available English reading followed by complete Chinese review is not yet certified."
 }
