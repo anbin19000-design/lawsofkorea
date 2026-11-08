@@ -1,0 +1,97 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:18815b85632d",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "prior_master_blob_sha": "761e8f1e1b6b17fec0c5cb083d88db772aafbc54",
+  "checkpoint_type": "VERIFIED_MINIMAL_KOREAN_CROSS_REFERENCE_AND_NUMBERING_CORRECTIONS",
+  "checked_ids": [
+    "B1-zh-00044",
+    "B1-zh-00048",
+    "B2-zh-00016",
+    "B2-zh-00018",
+    "B1-zh-00049"
+  ],
+  "checked_rows_new": 5,
+  "edits": [
+    {
+      "id": "B1-zh-00044",
+      "source_hash": "9eb970e7bc5220c48751dc361b51ec02482f115eb4094e85bed0af546576b4c1",
+      "target_id": "2d493fae421ab0b861439044f1014db2b9581fa9c5ea5dad41635b37b1196f8f",
+      "text": "第31条（财政支持等）\n① 根据《韩国信用担保基金法》设立的韩国信用担保基金和根据《韩国技术担保基金法》设立的韩国技术担保基金，可以为智慧城市项目提供优惠担保条件，例如担保限额和担保费。\n② 根据《住房和城市发展基金法》，国土交通大臣可使用住房和城市发展基金为智慧城市项目等提供支持。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-18815b85632d.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Restore omitted paragraph ① in Article 31 without otherwise changing translation."
+    },
+    {
+      "id": "B1-zh-00048",
+      "source_hash": "ed08ab1d6d2b4adfb01a9729fcdb28f5f97a7ea0629480caf27a4fe1e423ef2f",
+      "target_id": "4aa98fc7113f4370f3b0976e5dafcfb820d41cd2da9e3a4347db94b564059713",
+      "text": "第34条之2（授权和委托权力及职责等）\n① 国土交通部长可根据总统令的规定，将本法的部分权力委托给市长和省长。\n② 国土交通大臣可根据总统令的规定，将本法规定的全部或部分职责委托给第 19-4 条规定的支持机构以及与智慧城市建设相关的机构或组织。\n③ 国土交通大臣可为履行第 2 款所委托的任务所需的全部或部分费用提供支持。\n④ 根据本法第2款受托履行全部或部分职责的机构或组织，经国土交通部长批准，可将部分受托职责再委托给总统令规定的机构或组织。<2021年3月16日新增>\n\n第七章 国家试点城市的指定与支持等 <2018年8月14日新增>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-18815b85632d.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Restore omitted paragraph ④ for Article 34-2."
+    },
+    {
+      "id": "B2-zh-00016",
+      "source_hash": "e190e086d18ad70c78df1b51898183fa3bd7b574791b6b1a18de159ee93f0b4f",
+      "target_id": "d7f396011d205de871278353d1bd588a4ab9bb8c2dbfde4325b9b11aa996bc49",
+      "text": "第十三条（关于制定智慧城市规划的特别规定）\n① 为依据本法第八条第二款的规定，特别市市长、广域市市长、特别自治市市长、特别自治省知事、市市长或县长（不包括广域市辖区内的县长；以下统称“市长或县长”）应当向国土交通大臣提交符合《国土规划利用法》规定的城市或县基本规划（以下简称“城市或县基本规划”），该规划应体现本法第八条第一款各项智慧城市规划的内容。<2012年4月10日、2012年11月20日、2013年3月23日、2017年9月19日修订>\n② 如依本条第1款提交的市、县基本规划未能充分反映本法第8条第1款各分项规定的智慧城市规划内容，国土交通大臣可要求市长或县长对该市、县基本规划进行补充。<2012年4月10日、2013年3月23日、2017年9月19日修订>\n③ 市长或县长如收到依据第2款提出的城市或县基本规划补充申请，应于收到申请之日起30日内，将补充是否完成及补充计划告知国土交通部长。<2012年4月10日修订，2013年3月23日修订>\n④ 尽管有第2款的规定，国土交通部长官可以批准根据第1款提交的城市和县的基本规划，但前提是基本规划的内容必须在规定的期限内进行补充。在这种情况下，市长或县长应当在基本规划获得批准之日起30天内将补充规划通知国土交通部长官。<2012年4月10日修订；2013年3月23日修订>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-18815b85632d.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Enforcement Decree Article 13: 법 제8조 means the Smart City Act, not the National Land Planning Act; restore paragraph ④."
+    },
+    {
+      "id": "B2-zh-00018",
+      "source_hash": "f719b8903300284a88053db72c1632d6a46e74fca8e7e24dbf8fb56793d11464",
+      "target_id": "27ca3f01e7a0765ffe67c6a7eb9617bb278c2c16b003f22fd0af557675c6756e",
+      "text": "第十五条（智慧城市规划的批准）\n① 根据本法第十条第一款的规定，智慧城市规划的编制机构为获得智慧城市规划的批准，应当向国土交通大臣提交智慧城市规划草案，并附上下列各款规定的文件。<2012年11月20日、2013年3月23日、2017年9月19日、2019年8月20日修订>\n1. 根据该法第9条举行公开听证会的结果（仅适用于举行公开听证会的情况）\n2. 与相关行政机关负责人磋商结果\n② 国土交通大臣依据《智慧城市法》第十条第一款批准智慧城市规划时，应当事先与相关中央行政机关负责人进行磋商。收到磋商请求的相关中央行政机关负责人，除特殊情况外，应当自收到请求之日起20日内提出意见。<2013年3月23日修订；2017年9月19日修订>\n③ 如依本条第1款提交的智慧城市规划草案未能充分反映本法第8条第1款各分项规定的智慧城市规划内容，国土交通大臣可要求负责制定智慧城市规划的机关对智慧城市规划草案进行补充。<2012年11月20日、2013年3月23日、2017年9月19日修订>\n④ 负责制定智慧城市规划的机构如收到依据第3款提出的智慧城市规划草案补充申请，应自收到申请之日起30日内，将补充是否完成及补充方案告知国土交通大臣。<2012年4月10日、2012年11月20日、2013年3月23日、2017年9月19日修订>\n⑤ 尽管有第3款的规定，国土交通大臣可以批准根据第1款提交的智慧城市规划提案，但前提是该智慧城市规划提案的内容在规定期限内得到补充。在这种情况下，负责制定智慧城市规划的机构应当在批准之日起30天内将补充规划通知国土交通大臣。<2012年11月20日、2013年3月23日、2017年9月19日修订>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-18815b85632d.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Restore paragraph ④ in Decree Article 15."
+    },
+    {
+      "id": "B1-zh-00049",
+      "source_hash": "fc5d09661bacd799fe20016ad458c59e169b3baa3de5d92130e9cc38ccf0f3af",
+      "target_id": "c6be1fd44d42bf0520629d9faad6d0fcf319368726059ba76082a5d0ea1ec1bb",
+      "text": "第三十五条（指定国家试点城市等）\n① 国土交通部长可直接或应有关中央行政机关负责人或特别城市、广域市、特别自治市、特别自治省、市长或县（以下简称“地方政府主管部门负责人”）的请求，指定下列任何地区为国家先导城市，以支持智慧城市服务和智慧城市技术的发展和培育，并实现智慧城市领先建设。\n1. 具有高潜力发展成为区域创新增长中心，并与邻近地区智慧城市产业相结合的地区\n2. 预计有利于智慧城市服务和智慧城市技术研发或智慧城市基础设施建设的地区\n3. 国家或地方主管政府能够便捷地支持智慧城市产业发展的地区\n4. 其他符合总统令规定的领域\n② 国土交通大臣根据第1款指定国家试点城市时，应当听取主管地方政府首长的意见，并与有关中央行政机关首长协商，然后由委员会审议。\n③ 如有必要变更国家示范城市的范围，国土交通大臣可直接或应有关中央行政机关负责人或主管地方政府负责人的请求变更国家示范城市的范围。在此情况下，变更国家示范城市范围的程序，适用第2款的规定。\n④ 如果国家试点城市不再符合总统令规定的指定标准，国土交通大臣可以直接撤销其指定资格，也可以应相关中央行政机关负责人或主管地方政府负责人的请求撤销。在这种情况下，撤销国家试点城市指定资格的程序，应参照第2款的规定。\n⑤ 国土交通大臣可要求主管地方政府负责人或有关中央行政机关负责人提交资料，以进行第1款规定的指定、第3款规定的变更或第4款规定的解除。\n⑥ 国土交通部长根据第1、3、4款指定或撤销国家试点城市，或变更国家试点城市范围时，应当在官方公报上公布，并将相关文件副本送交主管地方政府负责人。主管地方政府负责人应当确保相关文件副本的内容至少公开查阅14天。\n⑦ 国家试点城市指定标准、程序、方法等其他必要事项，由总统令规定。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-18815b85632d.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Restore Article 35 paragraphs ④ and ⑥."
+    }
+  ],
+  "ordered_reading_certification": {
+    "ko": false,
+    "en": false,
+    "zh": false
+  },
+  "english_sources": {
+    "available_parent_official_fallback": [
+      "B1",
+      "B2"
+    ],
+    "no_document_english": [
+      "B3",
+      "A25465",
+      "A25466",
+      "A25467",
+      "A25468",
+      "A25469",
+      "A25470",
+      "A25471",
+      "A25472",
+      "A25473",
+      "A25474"
+    ],
+    "coverage_note": "712/1133 rows have reference English in prior index, 421 do not. Parent fallback not exact Korean version."
+  },
+  "notes": "All 17 Korean documents and linked English originals accessed for scope/structural verification, not certified as full semantic read. Five directly verified Chinese clause corrections. Retain IN_PROGRESS until full ordered semantic reading is complete."
+}
