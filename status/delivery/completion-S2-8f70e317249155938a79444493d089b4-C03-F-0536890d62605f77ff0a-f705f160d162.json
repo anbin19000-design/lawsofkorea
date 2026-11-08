@@ -1,0 +1,63 @@
+{
+  "schema": "LAW_ZH_FAMILY_COMPLETION_RECEIPT_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "family_title": "인신매매등방지 및 피해자보호 등에 관한 법률",
+  "worker": "C03",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:f705f160d162",
+  "repository": "anbin19000-design/lawsofkorea",
+  "branch": "main",
+  "status": "COMPLETE",
+  "scope": {
+    "documents": 22,
+    "law": 1,
+    "decree": 1,
+    "decree_annexes": 6,
+    "ordinance": 1,
+    "ordinance_forms": 13,
+    "source_zh_rows": 1136,
+    "unique_source_ids": 1136,
+    "reviewed_rows": 1136,
+    "corrected_or_suppressed_ids": 800,
+    "unchanged_rows": 336,
+    "intentionally_suppressed_nonsemantic_fragments": 9
+  },
+  "sources": {
+    "ko_path": "laws/ko/F-0536890d62605f77ff0a.json",
+    "ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+    "en_path": "laws/en/F-0536890d62605f77ff0a.json",
+    "en_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+    "zh_path": "laws/zh/F-0536890d62605f77ff0a.json",
+    "zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c"
+  },
+  "english_coverage": {
+    "exact_document": 1,
+    "older_fallback_documents": 7,
+    "no_document_english": 14,
+    "note": "Current Korean source is authoritative. No English document for ordinance or forms; fallback decree English older than Korean current version."
+  },
+  "review": {
+    "path": "review/zh/F-0536890d62605f77ff0a.json",
+    "blob_sha": "6aa73645db2b2b9edea42f4157421c8afacc1207",
+    "commit_sha": "d93e830dca2604637141dcfdac369720bc965dd6",
+    "status": "COMPLETE"
+  },
+  "quality": {
+    "all_document_keys_present": true,
+    "unique_row_ids": true,
+    "original_source_hashes_match": true,
+    "duplicate_edit_ids": 0,
+    "source_hash_mismatches": 0,
+    "untranslated_hangul_rows": 0,
+    "untranslated_marker_rows": 0,
+    "unresolved_ids": 0,
+    "intentional_empty_override_rows": 9
+  },
+  "prior_results_preserved": true,
+  "other_family_processed": false,
+  "source_read_records": [
+    "review/zh/F-0536890d62605f77ff0a-progress-C03-ef290af4a19d-korean-read.json",
+    "review/zh/F-0536890d62605f77ff0a-progress-C03-ef290af4a19d-english-read.json",
+    "review/zh/F-0536890d62605f77ff0a-progress-C03-ef290af4a19d-full-zh-review.json"
+  ],
+  "note": "Individual Chinese original fragments retained in laws/zh; nine nonsemantic extra fragments suppressed by empty review overrides after contextual Korean verification. No other law family assigned by this receipt."
+}
