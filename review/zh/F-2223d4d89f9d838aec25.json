@@ -4377,6 +4377,48 @@
       "original": "国家森林管理办公室主任，区域森林服务局",
       "corrected": "地方森林厅国有林管理所长",
       "reason": "准确翻译“지방산림청국유림관리소장”。"
+    },
+    "A6594-zh-00005": {
+      "doc": "A6594",
+      "source_hash": "1e40adc06b23ec0669a9bacc16743dd2f4f233315c586b43d9b973e33fc27621",
+      "original": "位置",
+      "corrected": "职务",
+      "reason": "“직”是调查人的职务，不是地理位置。"
+    },
+    "A6594-zh-00008": {
+      "doc": "A6594",
+      "source_hash": "d33acaf7b5b95d85545659709ad83b229b2b83954796f4c05c1ae08052addeec",
+      "original": "陆地位置",
+      "corrected": "土地所在地",
+      "reason": "“토지 소재지”指土地所在地。"
+    },
+    "A6594-zh-00019": {
+      "doc": "A6594",
+      "source_hash": "30eab65a6492a4c5528b8c25495e3e7119504c27d9866fe5edda066852584e04",
+      "original": "城市/县",
+      "corrected": "市、郡",
+      "reason": "“시ㆍ군”是市、郡。"
+    },
+    "A6594-zh-00020": {
+      "doc": "A6594",
+      "source_hash": "cd81162ce9d9eca2d1a2e7e132fac97b4ff77ac2e3de8b5c5b34b5c932ecf5c3",
+      "original": "邑/面",
+      "corrected": "邑、面",
+      "reason": "保留韩国行政区划名称“邑、面”。"
+    },
+    "A6594-zh-00027": {
+      "doc": "A6594",
+      "source_hash": "9285603ef22574fff2f62a1f6be09f41b8fbe16c7ad6934ff1194f23be0213e1",
+      "original": "区域",
+      "corrected": "面积（㎡）",
+      "reason": "此列对应解除指定面积。"
+    },
+    "A6594-zh-00043": {
+      "doc": "A6594",
+      "source_hash": "b2af9eb10e1286fa279e2d028caca3c88c446da84b02a71edd1b722db7fa7313",
+      "original": "420mm×297mm[白纸 80g/㎡]",
+      "corrected": "420mm×297mm［白色纸张80g/㎡］",
+      "reason": "“백상지”是白色纸张规格，保留尺寸及克重。"
     }
   },
   "edits": [
@@ -6827,15 +6869,39 @@
     {
       "id": "A6592-zh-00029",
       "text": "地方森林厅国有林管理所长"
+    },
+    {
+      "id": "A6594-zh-00005",
+      "text": "职务"
+    },
+    {
+      "id": "A6594-zh-00008",
+      "text": "土地所在地"
+    },
+    {
+      "id": "A6594-zh-00019",
+      "text": "市、郡"
+    },
+    {
+      "id": "A6594-zh-00020",
+      "text": "邑、面"
+    },
+    {
+      "id": "A6594-zh-00027",
+      "text": "面积（㎡）"
+    },
+    {
+      "id": "A6594-zh-00043",
+      "text": "420mm×297mm［白色纸张80g/㎡］"
     }
   ],
-  "checked_rows": 1022,
-  "corrected_rows": 612,
-  "notes": "Initial source-grounded correction set after full Korean and available English source reading. Chinese sequential review continues; do not treat this as completion. Sequential review so far: B1 rows 1–122; B2 rows 1–70. Additional complete targeted passes: A29186 (43 rows) and B3 rows 1–24. 64 nonblank changed edits are saved; further Chinese rows and documents remain pending. No COMPLETE certification. All source-bound correction records are retained. Blank fragment deletions and no-change records are documented separately at review/zh/F-2223d4d89f9d838aec25-empty-edit-decisions-C05-20261109-0600.json. Full semantic coverage is complete for B1, B2, B3, A29186 and A6580; A29185 and all attached forms remain in partial/targeted review. Status remains IN_PROGRESS. Sequential review resumed from the saved A29185 annex work. All 80 A29185 rows were compared against the Korean annex; 5 additional minimal corrections were added and 10 no-change decisions were recorded. Previously saved A29185 corrections were preserved. Next pending sequential document: A6581 (forms), with 687 rows still pending overall. Status remains IN_PROGRESS. A6581 form (30 rows) has now been fully compared against the Korean original; 11 minimal corrections and 11 no-change decisions were added, with prior targeted corrections retained. Next sequential pending form: A6582. Status remains IN_PROGRESS. A6582 designated-area map form (16 rows) has now been fully compared against the Korean form and the linked English Enforcement Rule references. Three additional minimal corrections and 10 no-change decisions were recorded; existing corrections were retained. Next pending sequential form: A6585. Status remains IN_PROGRESS. A6585 land-use notice form (36 rows) fully compared with the Korean original and linked English rule references; 7 additional minimal corrections and 22 no-change decisions recorded. Existing correction records retained. Next sequential form: A6586. Status remains IN_PROGRESS. A6586 loss-compensation application form (70 rows) fully compared with the Korean form and linked English Enforcement Rule references. 14 additional minimal corrections and 40 no-change decisions recorded, including consistent correction of repeated flowchart labels. Next sequential form: A6587. Status remains IN_PROGRESS. A6587 loss-compensation determination form (29 rows) fully compared with the Korean original. 5 additional minimal corrections and 16 no-change decisions recorded. Existing edits retained. Next sequential form: A6588. Status remains IN_PROGRESS. A6588 compensation decision register form (25 rows) fully compared with the Korean original. 6 additional minimal corrections and 8 no-change decisions recorded. Next sequential form: A6589. Status remains IN_PROGRESS. A6589 application for adjudication form (60 rows) fully compared with Korean source. 6 additional minimal corrections and 41 no-change decisions recorded. Existing edits retained. Next sequential form: A6590. Status remains IN_PROGRESS. A6590 application for permission to cut standing trees/bamboo etc. (83 rows) fully compared against Korean source and linked English Rule references. 17 additional minimal corrections and 46 no-change decisions recorded. Existing correction records retained. Next sequential form: A6591. Status remains IN_PROGRESS. A6591 permit certificate form (40 rows) fully compared against Korean source. 19 additional minimal corrections and 11 no-change decisions recorded; existing corrections retained. Next sequential form: A6592. Status remains IN_PROGRESS. A6592 notice of distribution of erosion-control-site benefits (30 rows) fully compared with Korean source. 11 new minimal corrections, 1 prior interim correction superseded after source recheck, and 9 no-change decisions recorded. Next sequential document: A6594. Status remains IN_PROGRESS.",
+  "checked_rows": 1065,
+  "corrected_rows": 618,
+  "notes": "Initial source-grounded correction set after full Korean and available English source reading. Chinese sequential review continues; do not treat this as completion. Sequential review so far: B1 rows 1–122; B2 rows 1–70. Additional complete targeted passes: A29186 (43 rows) and B3 rows 1–24. 64 nonblank changed edits are saved; further Chinese rows and documents remain pending. No COMPLETE certification. All source-bound correction records are retained. Blank fragment deletions and no-change records are documented separately at review/zh/F-2223d4d89f9d838aec25-empty-edit-decisions-C05-20261109-0600.json. Full semantic coverage is complete for B1, B2, B3, A29186 and A6580; A29185 and all attached forms remain in partial/targeted review. Status remains IN_PROGRESS. Sequential review resumed from the saved A29185 annex work. All 80 A29185 rows were compared against the Korean annex; 5 additional minimal corrections were added and 10 no-change decisions were recorded. Previously saved A29185 corrections were preserved. Next pending sequential document: A6581 (forms), with 687 rows still pending overall. Status remains IN_PROGRESS. A6581 form (30 rows) has now been fully compared against the Korean original; 11 minimal corrections and 11 no-change decisions were added, with prior targeted corrections retained. Next sequential pending form: A6582. Status remains IN_PROGRESS. A6582 designated-area map form (16 rows) has now been fully compared against the Korean form and the linked English Enforcement Rule references. Three additional minimal corrections and 10 no-change decisions were recorded; existing corrections were retained. Next pending sequential form: A6585. Status remains IN_PROGRESS. A6585 land-use notice form (36 rows) fully compared with the Korean original and linked English rule references; 7 additional minimal corrections and 22 no-change decisions recorded. Existing correction records retained. Next sequential form: A6586. Status remains IN_PROGRESS. A6586 loss-compensation application form (70 rows) fully compared with the Korean form and linked English Enforcement Rule references. 14 additional minimal corrections and 40 no-change decisions recorded, including consistent correction of repeated flowchart labels. Next sequential form: A6587. Status remains IN_PROGRESS. A6587 loss-compensation determination form (29 rows) fully compared with the Korean original. 5 additional minimal corrections and 16 no-change decisions recorded. Existing edits retained. Next sequential form: A6588. Status remains IN_PROGRESS. A6588 compensation decision register form (25 rows) fully compared with the Korean original. 6 additional minimal corrections and 8 no-change decisions recorded. Next sequential form: A6589. Status remains IN_PROGRESS. A6589 application for adjudication form (60 rows) fully compared with Korean source. 6 additional minimal corrections and 41 no-change decisions recorded. Existing edits retained. Next sequential form: A6590. Status remains IN_PROGRESS. A6590 application for permission to cut standing trees/bamboo etc. (83 rows) fully compared against Korean source and linked English Rule references. 17 additional minimal corrections and 46 no-change decisions recorded. Existing correction records retained. Next sequential form: A6591. Status remains IN_PROGRESS. A6591 permit certificate form (40 rows) fully compared against Korean source. 19 additional minimal corrections and 11 no-change decisions recorded; existing corrections retained. Next sequential form: A6592. Status remains IN_PROGRESS. A6592 notice of distribution of erosion-control-site benefits (30 rows) fully compared with Korean source. 11 new minimal corrections, 1 prior interim correction superseded after source recheck, and 9 no-change decisions recorded. Next sequential document: A6594. Status remains IN_PROGRESS. A6594 record of cancellation of erosion-control-area designation (43 rows) fully compared with Korean source. 6 additional minimal corrections and 7 no-change decisions recorded; prior corrections preserved. Next sequential form: A6595. Status remains IN_PROGRESS.",
   "coverage": {
     "total_rows": 1290,
     "distinct_rows": 1290,
-    "fully_compared_rows": 1022,
+    "fully_compared_rows": 1065,
     "fully_compared_by_document": {
       "B1": 122,
       "B2": 199,
@@ -6852,10 +6918,10 @@
       "A6589": 60,
       "A6590": 83,
       "A6591": 40,
-      "A6592": 30
+      "A6592": 30,
+      "A6594": 43
     },
     "partial_targeted_docs": [
-      "A6594",
       "A6595",
       "A6596",
       "A6597",
@@ -6863,7 +6929,7 @@
       "A6599",
       "A6600"
     ],
-    "pending_rows": 268
+    "pending_rows": 225
   },
   "empty_edit_decisions_path": "review/zh/F-2223d4d89f9d838aec25-empty-edit-decisions-C05-20261109-0600.json"
 }
