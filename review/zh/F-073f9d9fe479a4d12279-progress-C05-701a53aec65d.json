@@ -5,7 +5,7 @@
   "worker": "C05",
   "panel": "panel-05",
   "branch": "main",
-  "status": "IN_PROGRESS",
+  "status": "COMPLETE",
   "source_blobs": {
     "ko": "6143afa8022216e9ca4d05ca2ba62c4fb3e45d0e",
     "en": "5ca2adb168a584384cda930a58163198b580bd0d",
@@ -5635,9 +5635,10 @@
     "本轮完成附件第4号之2指定申请、4号之3指定书、4号之4登记申请及4号之5登记证的表格审查。纠正指定/登记法律关系、机构名称、负责人/其他从业人员字段、法人/事业者登记信息、专用面积、主管机关、办理流程及正背面字段。",
     "本轮完成附件第4号之6变更登记申请、第4号之7停业/歇业/恢复业务申报、第5号犯罪经历查询申请、第6号犯罪经历查询委托书及第7号育儿助手犯罪经历/健康检查确认书。修正法定表格名称、申请/申报主体、处理期限、业务状态勾选、犯罪类别、外国人身份字段及主管机关。",
     "完成末尾18个未索引行的逐项审查：确认无误的方框选项、纸张规格及表格字段标记为已审；修正第4号之4办理程序、第4号之7遗失指定书/登记证说明及行政信息共同利用同意文字、第5号格式纸张规格、第7号格式选项。所有1,516个行ID均已纳入审查决策；准确译文保留。",
-    "全量原文阅读证据补录：韩国语 laws/ko 文件的33个文档（含法律、施行令、施行规则、12个附表及18个格式）已按顺序读取；可用官方英文全文已完整读取法律和施行令两份，施行规则及其附表/格式没有独立英文文件。施行令附表A37296虽关联同一英文施行令，但英文全文并未包含附表正文，故按韩文与中文直接对照。随后1516个中文行已逐行完成审查。"
+    "全量原文阅读证据补录：韩国语 laws/ko 文件的33个文档（含法律、施行令、施行规则、12个附表及18个格式）已按顺序读取；可用官方英文全文已完整读取法律和施行令两份，施行规则及其附表/格式没有独立英文文件。施行令附表A37296虽关联同一英文施行令，但英文全文并未包含附表正文，故按韩文与中文直接对照。随后1516个中文行已逐行完成审查。",
+    "正式完成文件 review/zh/F-073f9d9fe479a4d12279.json 已保存并重新读取，schema=LAW_ZH_MINIMAL_REVIEW_V1、status=COMPLETE、checked_rows=1516、1391条唯一非空修正。完成回执 receipts/F-073f9d9fe479a4d12279.json 已保存并重新读取，status=COMPLETE。"
   ],
-  "next": "All 1,516 rows have a review decision or retained existing translation. Perform final structural, source-hash, omission, and output schema audit before official review and receipt.",
+  "next": "Family completed. Canonical review and receipt saved and re-queried. Await or accept the next official C05 supplier assignment; do not select a family manually.",
   "reviewed_ids": [
     "B1-zh-00002",
     "B1-zh-00003",
