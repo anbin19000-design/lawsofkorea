@@ -329,19 +329,35 @@
     },
     {
       "id": "B2-zh-00128",
-      "text": "第十三条（修改其他法律）①至<27>款省略\n\n  <28>《普适城市建设等法施行令》部分内容修改如下。\n\n  第五条第一款中的“「建筑技术管理法」”应改为“「建筑技术促进法」”。\n\n  <29> 至 <37> 已省略\n\n",
+      "text": "第十三条（修改其他法律）①至<27>款省略\n\n  <28>《普适城市建设等法施行令》部分内容修改如下。\n\n  第五条第一款中的“「建设技术管理法」”应改为“「建设技术振兴法」”。\n\n  <29> 至 <37> 已省略\n\n",
       "source_hash": "8667b28fe17767eca9a75513aa51d90b86613742c1aba39d1b88ecc1285c1807",
       "target_id": "6b2b51667c5ce4b9c8dad23454dc0525b4a0adc25996e3ab18b28c24af068653",
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-73645d4f3db3-continuation.json",
-      "verification": "C02_RECORDED_COMPARISON"
+      "verification": "C02_RECORDED_COMPARISON",
+      "prior_text_versions": [
+        {
+          "task": "3aa49a4f01f1",
+          "text": "第十三条（修改其他法律）①至<27>款省略\n\n  <28>《普适城市建设等法施行令》部分内容修改如下。\n\n  第五条第一款中的“「建筑技术管理法」”应改为“「建筑技术促进法」”。\n\n  <29> 至 <37> 已省略\n\n",
+          "reason": "Keep prior cumulative translation before correction"
+        }
+      ],
+      "last_correction_reason": "Correct statutory construction technology titles in historical amendment."
     },
     {
       "id": "B2-zh-00130",
-      "text": "补充文件（地方自治团体出资及出捐机构运营法施行令）<2014年9月24日第25621号>\n\n",
+      "text": "附则（地方自治团体出资及出捐机构运营法施行令）<2014年9月24日第25621号>\n\n",
       "source_hash": "5719fe86f9f8722ac89802f04e642803d17a4a1e1a9aeab20507a6211f05532c",
       "target_id": "af9abade441aea8a4e0c18affced2d00d0390bf145768edc47b385d0f95acab2",
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-73645d4f3db3-continuation.json",
-      "verification": "C02_RECORDED_COMPARISON"
+      "verification": "C02_RECORDED_COMPARISON",
+      "prior_text_versions": [
+        {
+          "task": "3aa49a4f01f1",
+          "text": "补充文件（地方自治团体出资及出捐机构运营法施行令）<2014年9月24日第25621号>\n\n",
+          "reason": "Keep prior cumulative translation before correction"
+        }
+      ],
+      "last_correction_reason": "Correct 부칙 translated as document rather than supplementary provision."
     },
     {
       "id": "B2-zh-00132",
@@ -8262,12 +8278,13 @@
     "C02 8d3a9d26d513: B1 rows 00055-00105 inspected; corrected 00079/00081/00083/00102; retained other existing translations and edits.",
     "C02 751eec993a83: B1 00106-00199 examined, amended 00131 00152 00172 to restore missing amendment item markers and truncated legal condition; IN_PROGRESS.",
     "C02 751eec993a83 B2 00001-00032 inspected; corrected B2-zh-00012 omitted scheduled time; prior 356 corrections preserved.",
-    "C02 3aa49a4f01f1: B2 33-95 examined, repaired 00008, 00036, 00067, 00084; pre-existing edit wording preserved for updated entries."
+    "C02 3aa49a4f01f1: B2 33-95 examined, repaired 00008, 00036, 00067, 00084; pre-existing edit wording preserved for updated entries.",
+    "C02 3aa49a4f01f1 B2 examined through row 130; corrected historical Construction Technology Promotion titles and supplementary provision label."
   ],
   "integration_progress": {
-    "stage": "B2_CHINESE_REVIEW_TO_00095",
+    "stage": "B2_CHINESE_REVIEW_TO_00130",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:3aa49a4f01f1",
-    "note": "B2 rows 33-95 read. Correct 4 clear mistranslations (1 new edit, 3 cumulative existing edits revised with original versions retained). Remaining B2 rows 96-209 and annexes and forms."
+    "note": "B2 00033-00130 examined. Updated existing B2 00036, 00067, 00084, 00128, 00130 with previous texts retained and added B2 00008. B2 00117 lengthy historical cross references remain flagged."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
