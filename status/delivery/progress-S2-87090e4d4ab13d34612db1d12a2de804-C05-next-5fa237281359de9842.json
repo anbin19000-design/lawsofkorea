@@ -11,7 +11,7 @@
   },
   "prior_review_path": "review/zh/F-b5c27d20d49b721e47e6-C05-B2-00041-00060-IN_PROGRESS.json",
   "prior_review_sha": "b2fb4d43f65e3cbb108765048560891372a25c88",
-  "checked_rows": 12,
+  "checked_rows": 24,
   "checked_ids": [
     "B2-zh-00061",
     "B2-zh-00062",
@@ -24,7 +24,19 @@
     "B2-zh-00069",
     "B2-zh-00070",
     "B2-zh-00071",
-    "B2-zh-00072"
+    "B2-zh-00072",
+    "B2-zh-00073",
+    "B2-zh-00074",
+    "B2-zh-00075",
+    "B2-zh-00076",
+    "B2-zh-00077",
+    "B2-zh-00078",
+    "B2-zh-00079",
+    "B2-zh-00080",
+    "B2-zh-00081",
+    "B2-zh-00082",
+    "B2-zh-00083",
+    "B2-zh-00084"
   ],
   "decisions": [
     {
@@ -98,6 +110,78 @@
       "source_hash": "95453ba62a836ef32d8ee64111ff45658d2da1564b874e62b62759c041467ee9",
       "decision": "KEEP",
       "basis": "한국어 본문 시작·끝 위치를 직접 대조해 날짜·효력·조문 대응 확인"
+    },
+    {
+      "id": "B2-zh-00073",
+      "source_hash": "6920f4a21e42a99b4b2a10e0b3dc117705544b4e1326d483d915a8d1a56ee37e",
+      "decision": "CORRECT",
+      "basis": "시행령을 시행규칙으로 오역 및 경과조치 조건"
+    },
+    {
+      "id": "B2-zh-00074",
+      "source_hash": "2b237febed22fe7121adab54d87d324a94da23ce695056ab30a1a55a42207152",
+      "decision": "CORRECT",
+      "basis": "고등교육법 시행령 및 기준 중위소득 명칭"
+    },
+    {
+      "id": "B2-zh-00075",
+      "source_hash": "1b4a9f42596c35607286f3bda30c6d979e712a24405f3e10e5b17259cca580d6",
+      "decision": "KEEP",
+      "basis": "한국어 원문 대조 후 날짜·조문 및 효과 일치"
+    },
+    {
+      "id": "B2-zh-00076",
+      "source_hash": "1fa2d78222cc5f3a7b268ba3015a524a8e57a9355a8b17e0ae4253566ef34323",
+      "decision": "KEEP",
+      "basis": "한국어 원문 대조 후 날짜·조문 및 효과 일치"
+    },
+    {
+      "id": "B2-zh-00077",
+      "source_hash": "0be9a66ade4719f6677b5afc74c7ddd15d5f5ee14974ab141326014834125959",
+      "decision": "CORRECT",
+      "basis": "가맹사업거래의 공정화에 관한 법률 시행령 법령명과 개정 취지"
+    },
+    {
+      "id": "B2-zh-00078",
+      "source_hash": "29d6e193bb72343954aad5b22866795271985042201bc5d10f47670106970177",
+      "decision": "KEEP",
+      "basis": "한국어 원문 대조 후 날짜·조문 및 효과 일치"
+    },
+    {
+      "id": "B2-zh-00079",
+      "source_hash": "cadcc6a804cc0f951403f15b810feb77c51c63e4487c014a4a41f3024dc3193c",
+      "decision": "KEEP",
+      "basis": "한국어 원문 대조 후 날짜·조문 및 효과 일치"
+    },
+    {
+      "id": "B2-zh-00080",
+      "source_hash": "dd16b09ccc4c60dbcba1faaefc9d03c6e919c45d5595391dc225a1ea4f8cbfbf",
+      "decision": "KEEP",
+      "basis": "한국어 원문 대조 후 날짜·조문 및 효과 일치"
+    },
+    {
+      "id": "B2-zh-00081",
+      "source_hash": "e2620a96f99a314a8f816848e9fb5c5ac1fd32dd90a3ed025765dd7d1cfe9596",
+      "decision": "KEEP",
+      "basis": "한국어 원문 대조 후 날짜·조문 및 효과 일치"
+    },
+    {
+      "id": "B2-zh-00082",
+      "source_hash": "1a0c2ac0830d3c36b69e1b4599934c67273635c4b28cf241596716e3cc199c74",
+      "decision": "CORRECT",
+      "basis": "제11조제1호와 법 제11조제1항 구별 및 적용례 조건"
+    },
+    {
+      "id": "B2-zh-00083",
+      "source_hash": "4a532c49c56f9a6d04f601c842fd6205ef10694c472760e7b826623e9abdf2a3",
+      "decision": "KEEP",
+      "basis": "한국어 원문 대조 후 날짜·조문 및 효과 일치"
+    },
+    {
+      "id": "B2-zh-00084",
+      "source_hash": "3d5862c6fb58676c3098e22bbd203ba08b5af9ff96346b8588aceb0e61cd1570",
+      "decision": "CORRECT",
+      "basis": "신용정보의 이용 및 보호에 관한 법률 시행령 정식 명칭"
     }
   ],
   "edits": [
@@ -116,8 +200,28 @@
     {
       "id": "B2-zh-00070",
       "text": "附则（《为整顿规制（包括设定规制重新审查期限）而部分修订〈建筑法施行令〉等法令的总统令》）<第25840号，2014年12月9日>\n\n"
+    },
+    {
+      "id": "B2-zh-00073",
+      "text": "第十六条（关于修订《单亲家庭支援法施行令》的过渡措施）对本令施行前的违法行为适用行政罚款征收标准时，尽管《单亲家庭支援法施行令》附表2第2项的规定已修订，仍适用原规定。\n\n"
+    },
+    {
+      "id": "B2-zh-00074",
+      "text": "附则（《因引入基准中位收入及改革定制型福利给付体系而部分修订〈高等教育法施行令〉等法令的总统令》）<第26683号，2015年11月30日>\n\n"
+    },
+    {
+      "id": "B2-zh-00077",
+      "text": "附则（《为设定规制重新审查期限等而部分修订〈加盟事业交易公正化相关法律施行令〉等法令的总统令》）<第27751号，2016年12月30日>\n\n"
+    },
+    {
+      "id": "B2-zh-00082",
+      "text": "第二条（关于金融信息等范围的适用例）第十一条第一项的修订规定，自本令施行后依本法第十一条第一款申请福利给付的情形起适用。\n\n"
+    },
+    {
+      "id": "B2-zh-00084",
+      "text": "附则（《信用信息利用及保护相关法律施行令》）<第30893号，2020年8月4日>\n\n"
     }
   ],
-  "next_id": "B2-zh-00073",
-  "note": "First 12 newly checked B2 rows, preserved previous B2-00041..00060 review; no completion receipt."
+  "next_id": "B2-zh-00085",
+  "note": "B2 rows 00061–00084 verified, preceding review preserved. No COMPLETE receipt."
 }
