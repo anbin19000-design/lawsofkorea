@@ -1,0 +1,97 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:e772d50bbb37",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "english_status": "A25466 NO_DOCUMENT_ENGLISH; Korean source controls",
+  "checked_rows": 11,
+  "checked_ids": [
+    "A25466-zh-00060",
+    "A25466-zh-00061",
+    "A25466-zh-00062",
+    "A25466-zh-00063",
+    "A25466-zh-00064",
+    "A25466-zh-00065",
+    "A25466-zh-00066",
+    "A25466-zh-00067",
+    "A25466-zh-00068",
+    "A25466-zh-00069",
+    "A25466-zh-00070"
+  ],
+  "edits": [
+    {
+      "id": "A25466-zh-00063",
+      "text": "国土交通部长官",
+      "source_hash": "5d198bb5e838918707a8044806bdf8567e7d1a9dde69dc6d15d873ed679d8657",
+      "target_id": "XML:1802769"
+    },
+    {
+      "id": "A25466-zh-00065",
+      "text": "国土交通部长官",
+      "source_hash": "5d198bb5e838918707a8044806bdf8567e7d1a9dde69dc6d15d873ed679d8657",
+      "target_id": "XML:1802771"
+    },
+    {
+      "id": "A25466-zh-00066",
+      "text": "国土交通部长官",
+      "source_hash": "5d198bb5e838918707a8044806bdf8567e7d1a9dde69dc6d15d873ed679d8657",
+      "target_id": "XML:1802772"
+    },
+    {
+      "id": "A25466-zh-00067",
+      "text": "地方自治团体",
+      "source_hash": "9c5b280d5fd819d9c77298012a1b32728b2bb8951b3f2fa14afab1674c44d9e6",
+      "target_id": "XML:1802773"
+    },
+    {
+      "id": "A25466-zh-00068",
+      "text": "／国土交通部长官",
+      "source_hash": "301068cc58a36e729634410946baa29cab9d16c883d6824c6612294f92a2630b",
+      "target_id": "XML:1802774"
+    },
+    {
+      "id": "A25466-zh-00069",
+      "text": "负责部门",
+      "source_hash": "d6a66b9c4627f200ab1b7b52560c2f8aab39ec9d5a9e0e92de431ad2df3827bd",
+      "target_id": "XML:1802775"
+    }
+  ],
+  "checked_details": [
+    {
+      "ids": [
+        "A25466-zh-00063",
+        "A25466-zh-00065",
+        "A25466-zh-00066",
+        "A25466-zh-00067",
+        "A25466-zh-00068",
+        "A25466-zh-00069"
+      ],
+      "verdict": "RECONFIRM_PREVIOUS_CANDIDATES",
+      "reason": "한국어 서식 처리절차의 국토교통부장관, 관할 지방자치단체 담당 부서 명칭을 서식의 다중 셀과 대조. 기존 후보만 재확인."
+    },
+    {
+      "ids": [
+        "A25466-zh-00060",
+        "A25466-zh-00061",
+        "A25466-zh-00062",
+        "A25466-zh-00064",
+        "A25466-zh-00070"
+      ],
+      "verdict": "KEEP_EXISTING",
+      "reason": "신청인 두 셀, 관할, 관계기관의 장 및 210mm×297mm 용지 규격의 한국어 대응을 확인하고 보존."
+    }
+  ],
+  "prior_progress": [
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-e2dd159a3841.json"
+  ],
+  "next_review": "A25467-zh-00001 onward; verify remaining form/annex and final whole family unique coverage",
+  "note": "11 source cells checked; 6 historical candidates confirmed, 5 unchanged. No new unique coverage claim from candidate reconfirmation. Complete Korean/English/Chinese whole-family semantic review and final integration remain outstanding; no COMPLETE receipt."
+}
