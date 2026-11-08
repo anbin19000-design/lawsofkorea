@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 2280,
+    "verified_zh_rows": 2340,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 2280,
-      "checked_rows": 2280,
+      "next_row_zero_based": 2340,
+      "checked_rows": 2340,
       "total_rows": 5228
     }
   },
@@ -3031,9 +3031,111 @@
       "text": "特此通知。",
       "original_text": "特此通知您，我将维护和管理这项其他工作。",
       "reason": "타공작물을 타공사로 오역"
+    },
+    {
+      "id": "A4676-zh-00016",
+      "text": "施工地点",
+      "original_text": "执行地点MTQc457213303f7cfe800460结束",
+      "reason": "施工地点字段夹杂MTQ残留标记"
+    },
+    {
+      "id": "A4676-zh-00017",
+      "text": "施工区间",
+      "original_text": "施工实施部分",
+      "reason": "공사시행구간을 일부로 오역"
+    },
+    {
+      "id": "A4676-zh-00020",
+      "text": "（公里）",
+      "original_text": "公里)",
+      "reason": "长度单位括号格式残缺"
+    },
+    {
+      "id": "A4676-zh-00028",
+      "text": "工程目的及理由",
+      "original_text": "建造目的和原因",
+      "reason": "공사의 목적 및 사유를 건축 목적과 원인으로 오역"
+    },
+    {
+      "id": "A4676-zh-00029",
+      "text": "依据《道路法》第三十六条第一款、《道路法施行令》第三十四条第一款及《道路法施行规则》第十三条第一款，现申请道路工程施工许可。",
+      "original_text": "根据《道路法》第三十六条第一款、《道路法》实施令第三十四条第一款和《道路法实施细则》第十三条第一款的规定，如上所述。",
+      "reason": "도로법 시행령·시행규칙 법령명 오류 및 허가 신청 문장 누락"
+    },
+    {
+      "id": "A4676-zh-00030",
+      "text": "现申请道路工程施工许可。",
+      "original_text": "我特此申请进行此项道路建设工程的许可。",
+      "reason": "许可申请的法律文体不准确"
+    },
+    {
+      "id": "A4676-zh-00039",
+      "text": "项目计划书",
+      "original_text": "商业计划",
+      "reason": "사업계획서를 상업계획으로 오역"
+    },
+    {
+      "id": "A4676-zh-00040",
+      "text": "手续费",
+      "original_text": "费用",
+      "reason": "수수료를 일반 비용으로 오역"
+    },
+    {
+      "id": "A4676-zh-00042",
+      "text": "工程费的千分之一，或",
+      "original_text": "施工成本的 1/1,000 或",
+      "reason": "수수료 산정 기준의 법률 문체 보정"
+    },
+    {
+      "id": "A4676-zh-00044",
+      "text": "由道路管理机关所属地方自治团体的条例规定的金额。",
+      "original_text": "由地方政府法令确定的金额",
+      "reason": "지방자치단체 조례를 일반 법령으로 오역"
+    },
+    {
+      "id": "A4677-zh-00001",
+      "text": "■ 《道路法施行规则》[附表第十二号格式]",
+      "original_text": "■ 道路法执行条例 [附件表格编号 12]",
+      "reason": "도로법 시행규칙을 실행조례로 오역"
+    },
+    {
+      "id": "A4677-zh-00008",
+      "text": "施工区间",
+      "original_text": "施工实施部分",
+      "reason": "공사시행구간을 일부로 오역"
+    },
+    {
+      "id": "A4677-zh-00012",
+      "text": "许可日期",
+      "original_text": "授权日期",
+      "reason": "허가연월일을 권한일자로 오역"
+    },
+    {
+      "id": "A4677-zh-00022",
+      "text": "依据《道路法》第三十六条第二款、《道路法施行令》第三十四条第三款及《道路法施行规则》第十三条第三款，现申报已开始实施道路工程。",
+      "original_text": "根据《道路法》第三十六条第二款、《道路法》实施令第三十四条第三款和《道路法实施细则》第十三条第三款，如上所述。",
+      "reason": "道路法施行令及施行规则名称错译，开工申报主句遗漏"
+    },
+    {
+      "id": "A4677-zh-00023",
+      "text": "特此申报已开始实施该道路工程。",
+      "original_text": "我在此报告，这条道路的建设已经启动。",
+      "reason": "공사 착수 신고 문체를 정확히 표현"
+    },
+    {
+      "id": "A4677-zh-00027",
+      "text": "工程实施人",
+      "original_text": "构造实现者",
+      "reason": "공사 시행자를 구조 실현자로 오역"
+    },
+    {
+      "id": "A4677-zh-00031",
+      "text": "收件人",
+      "original_text": "至：",
+      "reason": "귀하를‘至’로 직역"
     }
   ],
-  "note": "Sequential Chinese review continued through original row 2279, reviewing road maintenance order, construction start/completion notices and other-structure maintenance notice forms. Added focused corrections to Road Act Enforcement Rule form titles, route/period/reason fields, legal citations, objections and administrative remedies, completion records, other structures vs other works, and maintenance notice language. Previous 442 edits retained. Continue from row 2280. IN_PROGRESS.",
+  "note": "Sequential Chinese review continued through original row 2339, reviewing road construction permit and commencement report forms. Added seventeen focused corrections to construction location/segment, purpose/reason, rule/decree citations, application/commencement statements, business plan vs project plan, fee basis, ordinance basis, permit date, and responsible implementer terminology. Previous 480 edits retained. Continue from row 2340. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
