@@ -21,8 +21,8 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 64,
-    "pending_rows": 1623,
+    "correction_count": 65,
+    "pending_rows": 1622,
     "by_document": {}
   },
   "corrections": {
@@ -473,6 +473,13 @@
       "original": "有关 START  的管理和监督等详细信息",
       "corrected": "有关特许人的管理和监督等事项的详细内容",
       "reason": "별표 1 가맹본부의 관리·감독 등에 관한 상세한 내용에서 START 잡음 제거 및 빠진 주체 보완."
+    },
+    "A34909-zh-00219": {
+      "doc": "A34909",
+      "source_hash": "49552cfa1bff097d8c4a8cb1e78b68843a5b1415c783dcf5027fb3c31e27a04e",
+      "original": "对于必须支付的项目（包括[项目]），如果关联方在上一个财政年度[支付] []",
+      "corrected": "对于被强制交易的品目，如果关联方在上一营业年度从供应商、服务提供商等获得经济利益，",
+      "reason": "별표 1 특수관계인의 납품·용역업체 경제적 이익 공시 요건을 지급으로 뒤집고 훼손한 원문 대조 교정."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -502,7 +509,8 @@
     "C05 1de82ffe0e73 continuation: annex A34912-zh-00134 high/low expected sales threshold reversal corrected against Korean annex. Full Chinese sequential semantic review remains IN_PROGRESS.",
     "C05 1de82ffe0e73: A34916-zh-00158 MTQ/START contamination repaired against Korean annex 5 fine criterion, cumulative 59; IN_PROGRESS.",
     "C05 841a8fba515f: annex A34909-zh-00203 forced purchase versus provision, and A34909-zh-00301 mandatory minimum cost-support citation were corrected against Korean source. Full semantic Chinese review remains incomplete.",
-    "C05 841a8fba515f continued annex A34909 contaminated rows 146/232/271, Korean-source minimal restoration; exhaustive Chinese semantic review remains incomplete."
+    "C05 841a8fba515f continued annex A34909 contaminated rows 146/232/271, Korean-source minimal restoration; exhaustive Chinese semantic review remains incomplete.",
+    "C05 841a8fba515f: A34909-zh-00219 affiliate economic benefit received, not paid, corrected against Korean original. Full semantic review incomplete."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -511,5 +519,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 64
+  "corrected_rows": 65
 }
