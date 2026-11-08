@@ -1,0 +1,32 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "worker": "C05",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "405e22fefa7d647a94d03f290332282d05d20e59",
+  "correction_count": 254,
+  "new_correction_ids": [
+    "B2-zh-00073"
+  ],
+  "pending_rows": 89,
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "full_reading_proven": false,
+  "completion_receipt": null,
+  "english_availability": {
+    "rows_with_english_reference": 771,
+    "rows_without_english_reference": 603
+  },
+  "note": "기존 253건 보존, B2-zh-00073 1건 추가; 법률 가족 전체 순차 검증과 89행 보류 미완료. GitHub 경쟁 갱신 충돌 후 최종 검수 파일 재조회·대조."
+}
