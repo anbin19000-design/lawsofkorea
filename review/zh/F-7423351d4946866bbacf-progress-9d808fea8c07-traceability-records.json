@@ -1,0 +1,159 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "status": "IN_PROGRESS",
+  "checked_rows": 14,
+  "corrected_rows": 14,
+  "edits": [
+    {
+      "id": "A23949-zh-00001",
+      "text": "■《水产品流通管理及支援法》施行规则[附表3]<2026年1月9日修订>"
+    },
+    {
+      "id": "A23949-zh-00006",
+      "text": "b. 生产者、流通者和销售者应通过书面资料或电子记录管理与追溯水产品有关的信息（包括"
+    },
+    {
+      "id": "A23949-zh-00007",
+      "text": "为追溯管理而登记的信息，下同），并"
+    },
+    {
+      "id": "A23949-zh-00008",
+      "text": "应能够在国立水产品质量管理院院长要求时提供该信息。"
+    },
+    {
+      "id": "A23949-zh-00009",
+      "text": "c. 生产者、流通者和销售者应当针对追溯水产品可能发生的安全问题"
+    },
+    {
+      "id": "A23949-zh-00010",
+      "text": "建立召回等事后管理制度。"
+    },
+    {
+      "id": "A23949-zh-00011",
+      "text": "d. 生产者、流通者和销售者使用了可能危及追溯水产品安全的有害物质等物质时，"
+    },
+    {
+      "id": "A23949-zh-00012",
+      "text": "应记录其使用情况，必要时还可以对该"
+    },
+    {
+      "id": "A23949-zh-00013",
+      "text": "水产品自行进行安全性检查。"
+    },
+    {
+      "id": "A23949-zh-00015",
+      "text": "但追溯管理登记有效期已延长的，应将记录"
+    },
+    {
+      "id": "A23949-zh-00016",
+      "text": "保存至延长的有效期届满。"
+    },
+    {
+      "id": "A23949-zh-00017",
+      "text": "2. 个别适用事项"
+    },
+    {
+      "id": "A23949-zh-00024",
+      "text": "④ 养殖场或者盐田的位置（仅适用于养殖水产品或者日晒盐），批发市场地址"
+    },
+    {
+      "id": "A23949-zh-00025",
+      "text": "或者捕捞地点（仅适用于捕捞水产品）"
+    }
+  ],
+  "judgments": [
+    {
+      "id": "A23949-zh-00001",
+      "decision": "EDIT",
+      "source_hash": "313c066fa976d0d1e1e7f64426a93e46430446ac4dd165c0a25f8a9dea07dc3a",
+      "basis": "시행규칙 별표 3 표제, 부록 아닌 별표"
+    },
+    {
+      "id": "A23949-zh-00006",
+      "decision": "EDIT",
+      "source_hash": "e68456476563f1bb8dee709f4c9c97dc2f5749b75854a9c5e263eb1cf39a1797",
+      "basis": "별표3 나목 관련 정보 문서·전자기록으로 관리 의무"
+    },
+    {
+      "id": "A23949-zh-00007",
+      "decision": "EDIT",
+      "source_hash": "fa5bffe0763f2f48c818d30c2037fa7f74fda9c7f3abe3639d931dc9b808648f",
+      "basis": "별표3 나목 이력추적관리를 위해 등록한 정보 포함"
+    },
+    {
+      "id": "A23949-zh-00008",
+      "decision": "EDIT",
+      "source_hash": "466fe8ea76b35473a4c2d530b820c9149779337d8e80df8d940413b9a0265a4e",
+      "basis": "별표3 나목 국립수산물품질관리원장 요구 시 정보 제공"
+    },
+    {
+      "id": "A23949-zh-00009",
+      "decision": "EDIT",
+      "source_hash": "8690a2712f1c2883bf0115a42bdb4964b1cf38ea1171c0b1c5aebe3c95cb6446",
+      "basis": "별표3 다목 안전성 문제 대비"
+    },
+    {
+      "id": "A23949-zh-00010",
+      "decision": "EDIT",
+      "source_hash": "061c85ea445a2def68b04301641378122a5aa33be2592b8fda8a6dc4ff0d49cb",
+      "basis": "별표3 다목 리콜 등 사후관리체계"
+    },
+    {
+      "id": "A23949-zh-00011",
+      "decision": "EDIT",
+      "source_hash": "3c436a12e46e59ee1c7fc06fbaae458d78922b4679cfd005774e3f1ddb2b8c95",
+      "basis": "별표3 라목 위해물질 등 사용 기록"
+    },
+    {
+      "id": "A23949-zh-00012",
+      "decision": "EDIT",
+      "source_hash": "195c4de8b727fb1a45dd6fe4bff4907c08e5ac6afdc0f627383333ecc41b574d",
+      "basis": "별표3 라목 위해물질 사용 내역 기록 및 자율검사"
+    },
+    {
+      "id": "A23949-zh-00013",
+      "decision": "EDIT",
+      "source_hash": "c0d4fbefe6b33e51dabd32783fc7751d341674b27e33d2cac8b67a00ea6574ba",
+      "basis": "별표3 라목 자율적 안전성 검사"
+    },
+    {
+      "id": "A23949-zh-00015",
+      "decision": "EDIT",
+      "source_hash": "376481044d7d4de92712be24b289e9bc05e397ad3af4eb9cd6bdc5b891d28c05",
+      "basis": "별표3 마목 연장 시 연장기간까지 보관, '다음 유효기간' 삭제"
+    },
+    {
+      "id": "A23949-zh-00016",
+      "decision": "EDIT",
+      "source_hash": "183ae1c8b5f91bfcb13565d58aab675a61588d0f98d92f58589b083345200e1f",
+      "basis": "별표3 마목 연장기간까지 보관"
+    },
+    {
+      "id": "A23949-zh-00017",
+      "decision": "EDIT",
+      "source_hash": "6de473d4b019abbf5c14a9f03ba2e39800428f5214de1092c0c3cf91cc3c9ab9",
+      "basis": "별표3 개별 적용사항"
+    },
+    {
+      "id": "A23949-zh-00024",
+      "decision": "EDIT",
+      "source_hash": "c45dc620f138680fd3642868dcc447723909594a2a9351579eed360806297543",
+      "basis": "별표3 생산정보 양식장·염전 위치와 위판장 주소"
+    },
+    {
+      "id": "A23949-zh-00025",
+      "decision": "EDIT",
+      "source_hash": "ee7d4aff1f456f3ad26038a08346adaa00ed1f52a487d369b43a45c8780a747a",
+      "basis": "별표3 생산정보 어획 장소"
+    }
+  ],
+  "source_sha": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c",
+    "en": "32423453da2fcfa466c97946520181a32643e289"
+  },
+  "english_status": "NO_DOCUMENT_ENGLISH",
+  "note": "Korean annex 3 common duties, record retention, individual section and location data directly verified; original source unchanged."
+}
