@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 230,
+    "correction_count": 253,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -1635,6 +1635,167 @@
       "original": "附件表 1，项目 3：项目 (a)、(k) 和 (t)",
       "corrected": "附表1第3号：가目、카目及타目",
       "reason": "별표 1의2에서 변경등록·변경신고 대상의 한글 목번호 및 세목을 임의 영어 글자/단어로 잘못 옮긴 오류를 한국어 원문 표와 직접 대조해 최소 교정."
+    },
+    "A34912-zh-00008": {
+      "doc": "A34912",
+      "source_hash": "35bcdacd701403f2510439fa0f59083acc861f13f0ff834e422f68a3b096dcd0",
+      "original": "a. 拒绝销售支持等。",
+      "corrected": "가. 拒绝销售支持等。",
+      "reason": "거래거절 제1호 가목 번호 오류."
+    },
+    "A34912-zh-00014": {
+      "doc": "A34912",
+      "source_hash": "cf8c838b5efcdbd3a92da8988037fe35a9238db41c3dbec9d5502c0b2fde96c3",
+      "original": "B. 无正当理由拒绝续签合同",
+      "corrected": "나. 无正当理由拒绝续签合同",
+      "reason": "부당한 계약갱신 거절 나목 번호 오류."
+    },
+    "A34912-zh-00034": {
+      "doc": "A34912",
+      "source_hash": "27e3b972dd86a223b532a4b19185db115e51f6b6f31c48ea120ccdf9da68254b",
+      "original": ". 不公平的合同终止",
+      "corrected": "다. 不公平的合同终止",
+      "reason": "부당한 계약해지 다목 번호 누락."
+    },
+    "A34912-zh-00036": {
+      "doc": "A34912",
+      "source_hash": "f9127c894f80dd3cf94351ee518fcc79793530af499ac795938fe86c85de29ac",
+      "original": "2. 条件事务",
+      "corrected": "2. 附带约束条件的交易",
+      "reason": "‘구속조건부 거래’를 단순한 ‘조건 업무’로 오역."
+    },
+    "A34912-zh-00039": {
+      "doc": "A34912",
+      "source_hash": "40a5cb67d3cad0f33e653a06c4c600b80579cbc6ceb1a2d21f320afdf783def5",
+      "original": "a. 价格约束",
+      "corrected": "가. 价格约束",
+      "reason": "가격 구속 가목 번호 오류."
+    },
+    "A34912-zh-00048": {
+      "doc": "A34912",
+      "source_hash": "9323e2037f2c7b59d10aeb78082fffcec5bde4e08c7595d34d49e3666bb53273",
+      "original": "B. 交易对手的绑定",
+      "corrected": "나. 交易对手的绑定",
+      "reason": "거래상대방 구속 나목 번호 오류."
+    },
+    "A34912-zh-00066": {
+      "doc": "A34912",
+      "source_hash": "3c321b72074e2d1966fc929584353ca78cb2ca766ac8223b545d64a10bb397c3",
+      "original": ". 特许经营商销售商品或服务的限制",
+      "corrected": "다. 特许经营商销售商品或服务的限制",
+      "reason": "판매제한 다목 번호 누락."
+    },
+    "A34912-zh-00074": {
+      "doc": "A34912",
+      "source_hash": "b26ada73247d0d924784bdca69f8a3cb3c75d85fa78cb24577efde3caf3bd66a",
+      "original": "与 Aligo 特许经营商签订合同",
+      "corrected": "并与加盟店经营者订立合同",
+      "reason": "원문의 가맹점사업자와 계약 체결 문구가 ‘Aligo’라는 잘못된 토큰으로 번역됨."
+    },
+    "A34912-zh-00075": {
+      "doc": "A34912",
+      "source_hash": "54fb2676453b911b80f0146c7245d4f2035d8c76a5eba87e8f46350a8f5be210",
+      "original": "d. 在业务区域内强制执行合规性",
+      "corrected": "라. 在业务区域内强制执行合规性",
+      "reason": "영업지역 준수강제 라목 번호 오류."
+    },
+    "A34912-zh-00085": {
+      "doc": "A34912",
+      "source_hash": "837050c74f0cad90d78b2c09f9b90cdadf0c932e42a6dca73f9becc88bae393f",
+      "original": "E. 对特许经营经营者业务活动的其他限制",
+      "corrected": "마. 对特许经营经营者业务活动的其他限制",
+      "reason": "영업활동 제한 마목 번호 오류."
+    },
+    "A34912-zh-00093": {
+      "doc": "A34912",
+      "source_hash": "b26ada73247d0d924784bdca69f8a3cb3c75d85fa78cb24577efde3caf3bd66a",
+      "original": "与 Aligo 特许经营商签订合同",
+      "corrected": "并与加盟店经营者订立合同",
+      "reason": "원문의 가맹점사업자와 계약 체결을 Aligo로 오역."
+    },
+    "A34912-zh-00101": {
+      "doc": "A34912",
+      "source_hash": "6bbac1e5d6b45a63a6f99169285f2e726df08bcd6d27f33bda502c7175b608c9",
+      "original": "a. 强制购买：对加盟商强制执行的与加盟业务管理无关或与加盟业务管理相关的购买",
+      "corrected": "가. 强制购买：对加盟商强制执行的与加盟业务管理无关或与加盟业务管理相关的购买",
+      "reason": "구입강제 가목 번호 오류."
+    },
+    "A34912-zh-00104": {
+      "doc": "A34912",
+      "source_hash": "d2cb8ca55215eeb655365af8c88b6227f47e4b21b379c9f7b9d346c92e036351",
+      "original": "B. 不公正胁迫：强迫特许经营者不公平地提供经济利益",
+      "corrected": "나. 不正当强迫：不正当地强迫提供经济利益",
+      "reason": "부당한 강요 나목 번호와 상대방 표현의 명백한 오역."
+    },
+    "A34912-zh-00105": {
+      "doc": "A34912",
+      "source_hash": "14bc69cd7b206a7b0f1c8d94f721dbbc3e44a63554c2effc1e7ede2598273e42",
+      "original": "强迫企业经营者承担成本的行为",
+      "corrected": "或强迫加盟店经营者承担费用的行为",
+      "reason": "비용 부담을 강요당하는 주체는 가맹점사업자임."
+    },
+    "A34912-zh-00106": {
+      "doc": "A34912",
+      "source_hash": "bdb371a8dda8a89d992355ad2920aba6d07a4a4a2799181960b8b06ff0e3f6cd",
+      "original": ". 制定或修改不公平合同条款：特许经营商难以履行或",
+      "corrected": "다. 制定或修改不公平合同条款：特许经营商难以履行或",
+      "reason": "부당한 계약조항 설정·변경 다목 번호 유실."
+    },
+    "A34912-zh-00108": {
+      "doc": "A34912",
+      "source_hash": "1b0a2ff3e0f07d8e5e41f30389262c16f9fb76f81f2ab8b570fde274b69a14d4",
+      "original": "该定义明显优于之前的交易条件或其他特许经营商的交易条件。",
+      "corrected": "该定义明显不利于之前的交易条件或其他特许经营商的交易条件。",
+      "reason": "종전 또는 다른 가맹점사업자의 거래조건보다 현저히 ‘불리한’을 ‘유리한’으로 반전 번역."
+    },
+    "A34912-zh-00110": {
+      "doc": "A34912",
+      "source_hash": "f6bca7cff0e0b5e3e8371c3a111fe397a670d4a3465bb181e366194b9aeacc0f",
+      "original": "d. 干预管理：在没有正当理由的情况下强迫加盟商指定特定人员经营门店",
+      "corrected": "라. 经营干预：无正当理由强迫加盟店经营者与特定人员共同经营加盟店",
+      "reason": "특정인과 함께 운영하도록 강요한다는 원문을 특정인 단독 지정으로 잘못 번역."
+    },
+    "A34912-zh-00112": {
+      "doc": "A34912",
+      "source_hash": "1c49ca02adade34d1292e2ff47568597437c6a4e9758960f4f66e438800d415b",
+      "original": "E. 销售目标的强加：不公平地设定销售目标，导致加盟商",
+      "corrected": "마. 销售目标的强加：不公平地设定销售目标，导致加盟商",
+      "reason": "판매목표 강제 마목 번호 오류."
+    },
+    "A34912-zh-00114": {
+      "doc": "A34912",
+      "source_hash": "6e6351eb32270f38cce933ec74ca2eed7770220e3feb55798fe2fb83896b8f1e",
+      "original": "f. 提供不利条件：与第 a 至 e 项所述行为等效的情况，其中特许经营者",
+      "corrected": "바. 提供不利条件：与第 a 至 e 项所述行为等效的情况，其中特许经营者",
+      "reason": "불이익 제공 바목 번호 오류."
+    },
+    "A34912-zh-00118": {
+      "doc": "A34912",
+      "source_hash": "dde09d25798813a23420de43eae87278306876217400ce0d8293927c0bd1a090",
+      "original": "A. 设定或施加过重处罚的行为",
+      "corrected": "가. 设定或施加过重处罚的行为",
+      "reason": "과중한 위약금 가목 번호 오류."
+    },
+    "A34912-zh-00128": {
+      "doc": "A34912",
+      "source_hash": "131ab344639179478f2791a1c3be5be5f81a8258921315b095850195d920232b",
+      "original": "B. 转移消费者损害赔偿义务的行为",
+      "corrected": "나. 转移消费者损害赔偿义务的行为",
+      "reason": "소비자 피해 보상 전가 나목 번호 오류."
+    },
+    "A34912-zh-00132": {
+      "doc": "A34912",
+      "source_hash": "378ada461cb8577ce14e1bdaccba4b57c2818fceffdf400c71afd255b0f135a1",
+      "original": ". 不公平地施加商业处罚",
+      "corrected": "다. 不公平地施加商业处罚",
+      "reason": "부당한 영업위약금 다목 번호 유실."
+    },
+    "A34912-zh-00140": {
+      "doc": "A34912",
+      "source_hash": "5fe778ee870fba3b6360c707815f0ca9522379cbe414a419ec324d58905ffb79",
+      "original": "d. 其他强加不公平损害赔偿义务的行为",
+      "corrected": "라. 其他强加不公平损害赔偿义务的行为",
+      "reason": "그 밖의 부당한 손해배상 의무 라목 번호 오류."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -1694,7 +1855,8 @@
     "C05 00d89ac6886f continued: A34909 rows 155-210 inspected against Korean appendix; nine confirmed subitem and siting-selection errors corrected. IN_PROGRESS.",
     "C05 00d89ac6886f: A34909 rows 211-260 checked; repaired annex subsection markers, omitted online/offline ratio clause and mistranslated non-establishment of competing outlets. Whole-family semantic review remains IN_PROGRESS.",
     "C05 00d89ac6886f: A34909 rows 261-328 reviewed against full Korean source, repaired 24 confirmed legal subitem label and substantive mistranslation errors (employee count versus owner working requirement, procedure mistranslated as surgery). Whole family audit remains incomplete.",
-    "C05 00d89ac6886f: A34910 50-row change-registration/deadline table read against Korean Annex 1-2; 18 wrong subsection citations corrected, pre-existing table artifact fixes preserved. Full-family audit IN_PROGRESS."
+    "C05 00d89ac6886f: A34910 50-row change-registration/deadline table read against Korean Annex 1-2; 18 wrong subsection citations corrected, pre-existing table artifact fixes preserved. Full-family audit IN_PROGRESS.",
+    "C05 00d89ac6886f: Annex A34912 full 147-row first-pass inspection against Korean source; repaired 23 explicit errors in subitem labels, Aligo contamination, coercion beneficiary, and reversed disadvantage term. Other previously corrected rows preserved; exhaustive semantic review remains pending."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -1703,5 +1865,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 230
+  "corrected_rows": 253
 }
