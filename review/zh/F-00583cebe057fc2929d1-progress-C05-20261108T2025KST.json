@@ -143,7 +143,56 @@
       }
     ],
     "annex_status": null,
-    "next_action": "Continue row-by-row against the complete Korean and English source set. Resolve A29604 by aligning the whole annex table; reconcile B2-zh-00081 and B3-zh-00117 source-boundary spans; align A8690 form segments; retain source-legibility/source-content holds for A8693/A8698/A8699/A8703/A8708/A8709 and fragment A8690-zh-00499 until reliable originals are available."
+    "next_action": "Continue row-by-row against the complete Korean and English source set. Resolve A29604 by aligning the whole annex table; reconcile B2-zh-00081 and B3-zh-00117 source-boundary spans; align A8690 form segments; retain source-legibility/source-content holds for A8693/A8698/A8699/A8703/A8708/A8709 and fragment A8690-zh-00499 until reliable originals are available.",
+    "read_order_evidence": {
+      "order": [
+        "KOREAN_FULL",
+        "ENGLISH_FULL",
+        "CHINESE_FULL"
+      ],
+      "ko": {
+        "sha": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+        "documents": 24,
+        "characters": 261255
+      },
+      "en": {
+        "sha": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+        "documents": 24,
+        "exact_version_official": [
+          "B1",
+          "B2",
+          "A29604"
+        ],
+        "fallback_official": [
+          "B3",
+          "A8690",
+          "A8691",
+          "A8692",
+          "A8693",
+          "A8694",
+          "A8695",
+          "A8696",
+          "A8697",
+          "A8698",
+          "A8699",
+          "A8700",
+          "A8701",
+          "A8702",
+          "A8703",
+          "A8704",
+          "A8705",
+          "A8706",
+          "A8707",
+          "A8708",
+          "A8709"
+        ]
+      },
+      "zh": {
+        "sha": "8c67da73d62c784e988ce2b7655ef398504b0786",
+        "rows": 1374,
+        "characters": 85299
+      }
+    }
   },
   "notes": "Preserve canonical review and previous progress files. No COMPLETE status and no receipt until every document/row has defensible source alignment or formally recorded source hold."
 }
