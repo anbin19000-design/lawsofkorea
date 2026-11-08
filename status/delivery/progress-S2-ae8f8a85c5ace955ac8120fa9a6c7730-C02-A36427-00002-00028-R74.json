@@ -1,0 +1,76 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 27,
+  "checked_ids": [
+    "A36427-zh-00002",
+    "A36427-zh-00003",
+    "A36427-zh-00004",
+    "A36427-zh-00005",
+    "A36427-zh-00006",
+    "A36427-zh-00007",
+    "A36427-zh-00008",
+    "A36427-zh-00009",
+    "A36427-zh-00010",
+    "A36427-zh-00011",
+    "A36427-zh-00012",
+    "A36427-zh-00013",
+    "A36427-zh-00014",
+    "A36427-zh-00015",
+    "A36427-zh-00016",
+    "A36427-zh-00017",
+    "A36427-zh-00018",
+    "A36427-zh-00019",
+    "A36427-zh-00020",
+    "A36427-zh-00021",
+    "A36427-zh-00022",
+    "A36427-zh-00023",
+    "A36427-zh-00024",
+    "A36427-zh-00025",
+    "A36427-zh-00026",
+    "A36427-zh-00027",
+    "A36427-zh-00028"
+  ],
+  "edits": [
+    {
+      "id": "A36427-zh-00002",
+      "source_hash": "be279ccd93f007a994f413a5ca9dd027eee68236822fe9ab968c58c8ca980a64",
+      "target_id": "XML:2657371",
+      "text": "行政罚款的处以标准（与第六十一条有关）"
+    },
+    {
+      "id": "A36427-zh-00003",
+      "source_hash": "a617cf3ccc65ba6af0228b05b78c02b61364dbd74e669da8ea55dab0e5a320b6",
+      "target_id": "XML:2657372",
+      "text": "1. 一般标准"
+    },
+    {
+      "id": "A36427-zh-00018",
+      "source_hash": "0da64ec4e1dbf765cb1b2750c9909b6f0c22e55fd0c8c487baf96d03f4cce3a5",
+      "target_id": "XML:2657387",
+      "text": "3) 违法行为人为纠正或消除违法状态作出了努力"
+    },
+    {
+      "id": "A36427-zh-00020",
+      "source_hash": "679c3c04136572c5f8223d5477e9ef38f48564181e29d2c52c2b281780b4ff75",
+      "target_id": "XML:2657389",
+      "text": "4) 其他考虑违法行为的程度、动机及后果等，"
+    },
+    {
+      "id": "A36427-zh-00021",
+      "source_hash": "cffc692503ec0cec315d6856629355e0d31d78a7426be0b00568d7156c6e4c7b",
+      "target_id": "XML:2657390",
+      "text": "被认定有必要减轻的情形"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "note": "R74 compared Annex 4 fine schedules general standards Korean source with rows 2-28; five new corrections to annex heading, general standard, correction of violation status and mitigation clause, preserving earlier 4-15/16/19/22-23/26/28 edits. Retain adjacent-cell boundaries and source hashes. No COMPLETE receipt."
+}
