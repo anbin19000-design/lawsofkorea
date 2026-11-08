@@ -1,0 +1,27 @@
+{
+  "schema": "LAW_ZH_RECONCILE_V1",
+  "job_id": "F-eb24b26e08a83be58f81",
+  "assignment_id": "S2-e811a729740fea81282fc5378ec284d9",
+  "worker": "C01",
+  "branch": "main",
+  "status": "RECONCILED",
+  "row_id": "B3-zh-00014",
+  "source_hash": "2cfd8e48d041b617ba696e7c6e136d432f6c453716f292dbe00d35c53a490705",
+  "source_blob_sha": {
+    "ko": "f0d6fbd2ef344c2fcc23f9c68a9e5dfbb3ed196a",
+    "zh": "0ab0bdb3db18772f9e4cb45b0e179805f0df3940"
+  },
+  "candidate_files": [
+    {
+      "path": "status/delivery/progress-S2-e811a729740fea81282fc5378ec284d9-C01-B3-00013-00016.json",
+      "sha": "eac8ee1814a2ec44bf5aeb53bf24935bd1b4ec5e"
+    },
+    {
+      "path": "status/delivery/progress-S2-e811a729740fea81282fc5378ec284d9-C01-B3-00014-00021.json",
+      "sha": "8fc8600458a50725e8ed19194d4c022a4a3d387a"
+    }
+  ],
+  "selected_from": "status/delivery/progress-S2-e811a729740fea81282fc5378ec284d9-C01-B3-00013-00016.json",
+  "text": "第十二条（实施计划的轻微变更事项）本法第30条第3款但书所称“变更国土交通部令规定的轻微事项的情形”，指下列情形。但轻微事项发生多次变更的，应累计计算：\n1. 在项目实施区域不变的范围内，更正因错误、遗漏等造成的项目实施面积差错\n2. 在百分之十的范围内缩减项目实施面积\n3. 在百分之十的范围内增减项目费用\n4. 为反映《空间信息的构建及管理等相关法律》规定的地籍测量结果，变更下列事项：\n甲. 工业区整备区域\n乙. 根据本法第16条第1款第7项规定的土地利用规划划分的土地\n丙. 《国土规划及利用法》规定的城市、郡规划设施\n5. 根据《国土规划及利用法施行令》第25条第3款变更城市、郡管理规划（地区单位规划除外）\n6. 根据《国土规划及利用法施行令》第25条第4款变更地区单位规划\n7. 变更依据本法第32条第1款视为取得的相关许可、批准等（仅限有关法令规定为轻微变更的情形）\n\n第二节 按项目实施方式实施等\n\n",
+  "note": "Korean source 제12조(실시계획의 경미한 변경사항) aligns with 实施计划, project area unchanged, 10/100 (=10%) limits, cumulative minor changes, industrial district maintenance zone, statutory cross references and section heading. The 00014-00021 candidate uses 实施规划 and 工业区整治区域; selected 00013-00016 version better preserves the source terminology. One conflicting ID only; no other row or original source modified."
+}
