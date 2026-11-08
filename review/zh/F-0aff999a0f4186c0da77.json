@@ -17,11 +17,11 @@
     "en": "laws/en/F-0aff999a0f4186c0da77.json",
     "zh": "laws/zh/F-0aff999a0f4186c0da77.json"
   },
-  "progress_path": "review/zh/F-0aff999a0f4186c0da77-progress-C05-c9e74e20be50.json",
+  "progress_path": "review/zh/F-0aff999a0f4186c0da77-progress-C05-b942ab665ddb.json",
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 95,
+    "correction_count": 98,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -690,6 +690,27 @@
       "original": "第四条（损害赔偿责任的适用） 经修订的第三十七条之二的规定适用于本法实施后首次提出的损害赔偿请求，该请求是特许经营者违反第九条第一款或第十二条第一款第一项规定，给特许经营者造成损害的情况。\n\n",
       "corrected": "第四条（损害赔偿责任的适用） 经修订的第三十七条之二的规定适用于本法实施后首次提出的损害赔偿请求，该请求是特许经营者违反第九条第一款或第十二条第一款第一项规定，给加盟店经营者造成损害的情况。\n\n",
       "reason": "韩文原文受损害主体为加盟店经营者（가맹점사업자），原译误为特许经营者（가맹본부）。"
+    },
+    "B1-zh-00124": {
+      "doc": "B1",
+      "source_hash": "2e76c5833b70f3f4a98a18470f9800330f9c69c7aa134e56fb8b6d34d52ffac7",
+      "original": "第 4 条（损害赔偿责任的适用） 经修订的第 37 条第 2 款的规定适用于本法实施后首次提出的损害赔偿请求，该请求是特许经营者违反经修订的第 12 条第 5 款的规定，给特许经营者造成损害的情况。\n\n",
+      "corrected": "第四条（损害赔偿责任的适用例）经修订的第37条之2规定，适用于本法实施后，特许经营总部首次违反经修订的第12条之5并因此给加盟店经营者造成损害时提出的损害赔偿请求。\n\n",
+      "reason": "韩文引用为第37条之2而非第37条第2款；受损害主体是加盟店经营者，不是特许经营总部。"
+    },
+    "B1-zh-00135": {
+      "doc": "B1",
+      "source_hash": "6ac57e0c7e1656612408be5ec868af469d60dde582f54519f2d658734492b3e7",
+      "original": "第三条（限制违规行为的整改措施或行政罚款期限的适用性）① 除第三十二条第二款各分项和同一款第一分项外，经修订的第三十二条第二款除同一分项外的其他部分的规定，自公平交易委员会根据第三十二条之三第一款第一部分收到报告之日起适用。\n\n  ② 本法实施后，公平交易委员会依据第32条之3第2款启动调查之时，适用经修订的第32条第2款（不包括其子款）及该款第2子款的规定。\n\n",
+      "corrected": "第三条（关于限制对违法行为采取纠正措施或处以附加罚款的期限的适用例）① 经修订的第32条第2款各项以外部分及同款第1项，自本法施行后公平交易委员会首次收到依据第32条之3第1款前段提出的举报时起适用。\n\n② 经修订的第32条第2款各项以外部分及同款第2项，自本法施行后公平交易委员会依据第32条之3第2款启动调查时起适用。\n\n",
+      "reason": "第32条第2款外的部分及其第1、2项是并列修订内容；原译把‘各项以外部分’误译为排除各项，并误置第一款的修饰关系。"
+    },
+    "B1-zh-00139": {
+      "doc": "B1",
+      "source_hash": "844c962f3caf01ab5ae4badac6ae6001a73b810aec212bf505c1c36e69f716e0",
+      "original": "第25条（修改其他法律）①特许经营业务公平交易法部分修改如下。\n\n  除第 2 条第 10 款第 (c) 项第 1) 至 3) 款以外的部分，“垄断规制和公平交易法第 2 条第 5 款”应改为“垄断规制和公平交易法第 2 条第 6 款”。\n\n  第 12-4 条第 3 款中的“垄断规制和公平交易法第 2 条第 3 款”应改为“垄断规制和公平交易法第 2 条第 12 款”。\n\n  第十六条第一款中的“垄断规制和公平交易法第四十八条之二第一款”应改为“垄断规制和公平交易法第七十二条第一款”。\n\n  在第37条第1款中，将“垄断规制和公平交易法第42条、第43条、第43条之2、第44条、第45条、第50条第1款至第4款、第52条、第52条之2、第53条、第53条之2和第55条之2款的规定”替换为“垄断规制和公平交易法第64条至第68条、第81条第1款、第2款、第3款、第6款和第9款、第93条、第95条至第97条和第101条”；在同一条第2款中，将“垄断规制与公平交易法第55-4条至第55-8条”替换为“垄断规制与公平交易法”；在同一条第3款中，将“第103条至第107条的规定”替换为“垄断规制与公平交易法第53条、第53-2条、第54条和第55条的规定”；在同一条第4款中，将“垄断规制与公平交易法第62条的规定”替换为“垄断规制与公平交易法第119条”。 \n\n  第 37 条之 2，第 4 款，“垄断规制和公平交易法第 56 条之 2 款和第 57 条”应改为“垄断规制和公平交易法第 110 条和第 115 条”。\n\n",
+      "corrected": "第25条（修改其他法律）①《加盟事业交易公平化法》部分修改如下。\n\n第2条第10号(c)目1)至3)以外部分中的“《垄断规制与公平交易法》第2条第5号”改为“《垄断规制与公平交易法》第2条第6号”。\n\n第12条之4第3款中的“《垄断规制与公平交易法》第2条第3号”改为“《垄断规制与公平交易法》第2条第12号”。\n\n第16条第1款中的“《垄断规制与公平交易法》第48条之2第1款”改为“《垄断规制与公平交易法》第72条第1款”。\n\n第37条第1款中的旧法条列举改为《垄断规制与公平交易法》第64条至第68条、第81条第1款、第2款、第3款、第6款、第9款、第93条、第95条至第97条及第101条；同条第2款中的旧引用改为该法第103条至第107条；同条第3款中的旧引用改为该法第96条、第97条、第98条之2、第99条及第100条；同条第4款中的旧引用改为该法第119条。\n\n第37条之2第4款中的“《垄断规制与公平交易法》第56条之2及第57条”改为该法第110条及第115条。\n\n",
+      "reason": "第37条第2款和第3款修法对照的原译把新旧引文顺序互换，且遗漏第98条之2；依据本条后续合并修订及现行法条对照恢复替换方向。"
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -732,7 +753,8 @@
     "C05 2a1d790988cd: source-aligned B1 Article 15-2 missing paragraph markers and Article 17 council terminology/statutory citation repaired; full 1687-row semantic audit remains incomplete.",
     "C05 4c8e2af1b090: B1 Articles 21, 23, 23-2, 24, 25, 27-29, 31 reviewed against complete Korean clauses; nine additional minimal corrections for committee identity, statutory citation/paragraph numbering, disqualification terminology and duties. Whole-family audit remains IN_PROGRESS.",
     "C05 4c8e2af1b090 continuation: B1 Articles 31-2, 32-3 and 34-2 corrected for paragraph numbering, competent actor, notice content, prosecution-trigger terminology and consent-resolution criteria. Full-family Chinese semantic audit remains IN_PROGRESS.",
-    "C05 c9e74e20be50 continuation: B1 transitional provision Article 9 and applicability provision Article 4 reviewed; two clear errors corrected (mediation application mislabeled as litigation; injured franchisee party mislabeled as franchisor). Existing corrections preserved; IN_PROGRESS."
+    "C05 c9e74e20be50 continuation: B1 transitional provision Article 9 and applicability provision Article 4 reviewed; two clear errors corrected (mediation application mislabeled as litigation; injured franchisee party mislabeled as franchisor). Existing corrections preserved; IN_PROGRESS.",
+    "C05 b942ab665ddb: B1 transitional provisions rows 124, 135 and amendment Act row 139 corrected for wrong cross-reference, injured party, and reversed old/new statutory citations. Existing corrections retained; status IN_PROGRESS."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -741,5 +763,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 95
+  "corrected_rows": 98
 }
