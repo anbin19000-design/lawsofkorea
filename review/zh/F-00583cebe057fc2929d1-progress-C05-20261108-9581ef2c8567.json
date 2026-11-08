@@ -1,0 +1,140 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "family": "실용신안법",
+  "worker": "C05",
+  "assignment_marker": "[WORK-TASK:C05:F-00583cebe057fc2929d1:9581ef2c8567]",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "4590938fb44e8bb124e1b4cf7df6ddc01cf4c8f8",
+  "review_commit": "549418b642829253f51667f6744e195a3d7729f7",
+  "previous_progress": "review/zh/F-00583cebe057fc2929d1-progress-C05-20261108-d135b2575b59.json",
+  "scope": {
+    "documents": 24,
+    "rows": 1374
+  },
+  "correction_count": 189,
+  "prior_corrections": 187,
+  "added": [
+    {
+      "id": "B3-zh-00015",
+      "decision": "CORRECT",
+      "source_hash": "ec04fd087cf1966e70b86306364cba2d0b4e26f58f13c50ffe40ec70a9bf4443",
+      "reason": "현행 시행규칙 한국어 원문과 대응 위치 확인. 중국어 행에 남아 있던 한국어 조항 및 호 전부 번역하고, 관련 기관·준용조문·발급 주체의 명백한 오역 바로잡음. 구버전 영어는 참고자료로만 사용."
+    },
+    {
+      "id": "B3-zh-00016",
+      "decision": "CORRECT",
+      "source_hash": "dc291314c5749f4ecf8fdaa27bd7f14e17a789c67ddf8a15d0c02b145bfa6382",
+      "reason": "현행 시행규칙 한국어 원문과 대응 위치 확인. 중국어 행에 남아 있던 한국어 조항 및 호 전부 번역하고, 관련 기관·준용조문·발급 주체의 명백한 오역 바로잡음. 구버전 영어는 참고자료로만 사용."
+    }
+  ],
+  "audit": {
+    "remaining_korean_in_effective_zh_rows": 0,
+    "pending_from_prior_review": 89,
+    "full_reading_order_verified": false,
+    "full_semantic_review_verified": false
+  },
+  "english_note": "B1/B2 official exact-version; B3/forms only 2010 fallback, not exact current version; decree also has AI draft.",
+  "unresolved": [
+    {
+      "id": "B2-zh-00081",
+      "status": "SOURCE_MAPPING_REVIEW_REQUIRED",
+      "note": "B2 KO length 17073; row start 16647 end 18445 crosses source boundary; zh includes material labelled annex. No speculative replacement."
+    },
+    {
+      "doc": "A29604",
+      "status": "ANNEX_ALIGNMENT_REQUIRED",
+      "note": "ANNEX rows lack start/end offsets; compare entire original annex against target rows before final judgment."
+    },
+    {
+      "id": "B3-zh-00117",
+      "status": "SOURCE_MAPPING_REVIEW_REQUIRED",
+      "note": "B3 KO source ends at 23873, row end 25597 and text contains next annex/form; original unchanged."
+    },
+    {
+      "doc": "A8690",
+      "status": "FORM_ALIGNMENT_REQUIRED",
+      "note": "509 form rows have null source offsets; original KO form 41859 chars. Align sections/text before full verification."
+    },
+    {
+      "doc": "A8693",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED",
+      "note": "Japanese-language certificate source contains '?', target contains broken hybrid Japanese/Chinese. Requires source text repair before definitive translation.",
+      "ids": [
+        "A8693-zh-00002",
+        "A8693-zh-00008",
+        "A8693-zh-00009",
+        "A8693-zh-00011",
+        "A8693-zh-00012",
+        "A8693-zh-00013"
+      ]
+    },
+    {
+      "doc": "A8698",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED",
+      "ids": [
+        "A8698-zh-00002",
+        "A8698-zh-00003",
+        "A8698-zh-00015",
+        "A8698-zh-00016",
+        "A8698-zh-00018",
+        "A8698-zh-00019",
+        "A8698-zh-00020"
+      ],
+      "note": "Chinese-language certificate source itself contains corrupted ? symbols and unreadable text; no reconstruction without verified source."
+    },
+    {
+      "doc": "A8699",
+      "status": "SOURCE_CONTENT_MISSING",
+      "note": "Arabic certificate KO extracted text only contains paper dimensions and anti-counterfeit note; body cannot be compared."
+    },
+    {
+      "doc": "A8703",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED",
+      "ids": [
+        "A8703-zh-00002",
+        "A8703-zh-00003",
+        "A8703-zh-00009",
+        "A8703-zh-00010",
+        "A8703-zh-00011",
+        "A8703-zh-00012",
+        "A8703-zh-00013",
+        "A8703-zh-00014"
+      ],
+      "note": "Portable Japanese form source garbled, retain original and flag."
+    },
+    {
+      "doc": "A8708",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED",
+      "ids": [
+        "A8708-zh-00003",
+        "A8708-zh-00004",
+        "A8708-zh-00016",
+        "A8708-zh-00017",
+        "A8708-zh-00019",
+        "A8708-zh-00020",
+        "A8708-zh-00021"
+      ],
+      "note": "Portable Chinese certificate source garbled; no speculative replacement."
+    },
+    {
+      "doc": "A8709",
+      "status": "SOURCE_CONTENT_MISSING",
+      "note": "Arabic portable certificate body absent in KO text extraction; only margin/note text available."
+    },
+    {
+      "id": "A8690-zh-00499",
+      "status": "SOURCE_TEXT_FRAGMENT_REVIEW_REQUIRED",
+      "note": "JPEG organization name split across A8690 rows 498-499; preserve original until source alignment."
+    }
+  ],
+  "completion_receipt": null,
+  "notes": "한국어본 24개 문서 및 영어 연계 현황 확인. 중국어 행 중 B3-zh-00015, B3-zh-00016의 한글 잔존 본문 완역·기존 명백한 오역 교정. 원문 SHA와 기존 교정 187건 보존. 전수 3개 언어 독해 및 미해결 원문 정합성 완료를 증명할 수 없어 COMPLETE/완료 영수증 미발행."
+}
