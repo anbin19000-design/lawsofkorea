@@ -6151,5 +6151,19 @@
     ],
     "correction_count": 143,
     "english_availability": "The linked English family file provides fallback English for this form, not a same-version form-specific translation; Korean form is controlling where English is not an exact-version match."
+  },
+  "form_english_note": "A8690 is linked to the family fallback English source, but no same-version form-specific English document was identified for the 2026-05-14 revised application form. English fallback was treated as reference only; the Korean form controls where it differs or is not represented.",
+  "source_integrity_check": {
+    "checked_at": "2026-11-08",
+    "ko_blob_sha": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en_blob_sha": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh_blob_sha": "8c67da73d62c784e988ce2b7655ef398504b0786",
+    "ko_documents": 24,
+    "en_documents": 24,
+    "zh_rows": 1374,
+    "correction_entries": 427,
+    "correction_original_and_source_hash_mismatches": 0,
+    "per_document_row_counts_match": true,
+    "status": "PASS_WITH_EXPLICIT_SOURCE_HOLDS"
   }
 }
