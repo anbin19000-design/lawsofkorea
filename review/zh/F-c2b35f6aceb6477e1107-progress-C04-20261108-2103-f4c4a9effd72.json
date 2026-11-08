@@ -19,7 +19,12 @@
   "current_checkpoint": {
     "korean_document_read": [
       "B1",
-      "B2"
+      "B2",
+      "A30764",
+      "B3",
+      "A14110",
+      "A14111",
+      "A14112"
     ],
     "english_document_read": [
       "B1"
@@ -28,8 +33,8 @@
     "zh_row_checked_without_edit": [
       "B1-zh-00086"
     ],
-    "next_sequence": "Continue Korean source reading from A30764, B3, then A14110–A14120; after all Korean source documents are read, read every linked English source document, then resume Chinese row-by-row review.",
+    "next_sequence": "Continue Korean source reading from A14113, then A14114–A14120; only after all 15 Korean source documents are read, complete the linked English-document reading sequence and then resume Chinese rows in document order.",
     "note": "B1-zh-00086 maps to Korean source 제1조(시행일) 이 법은 2022년 1월 1일부터 시행한다. Chinese text '第一条（生效日期）本法自2022年1月1日起生效。' is accurate; no edit warranted."
   },
-  "status_note": "Updated checkpoint after full Korean B1 and B2 reading and full English B1 reading. B1-zh-00086 verified accurate against Korean source; no edit. Review remains IN_PROGRESS. Handoff progress file is stale. No receipt exists. Do not overwrite concurrent review updates; re-fetch SHA before any review update. Source files unchanged."
+  "status_note": "Updated after sequential Korean reading of B1, B2, A30764, B3, A14110, A14111, A14112; English B1 read. B1-zh-00086 verified accurate, no edit. Full-family ordered reading remains incomplete. Existing review remains IN_PROGRESS; latest review SHA captured at checkpoint. No receipt exists. No source files changed. Do not overwrite concurrent review updates; re-fetch SHA before any review write."
 }
