@@ -1,0 +1,37 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_blob_after_save": "ee097d23eb3bbeb2e9aad1c1e294424a5909abdd",
+  "cumulative_corrections": 761,
+  "checked_rows": 461,
+  "chinese_total_rows": 1687,
+  "inspected_span": "A34917 form fields; B1 supplementary clauses 147 and 159; family-wide row-ID/source-hash/original-text integrity and untranslated-marker scan",
+  "quality_checks": {
+    "distinct_zh_row_ids": 1687,
+    "duplicate_row_ids": 0,
+    "correction_integrity_mismatches": 0,
+    "uncorrected_hangul_rows": 0,
+    "uncorrected_mtq_start_end_rows": 0,
+    "ko_document_count": 18,
+    "en_index_document_count": 18
+  },
+  "quality_open_items": [
+    "Full sequential semantic audit of all 1,687 Chinese rows remains incomplete",
+    "A34911 formula is absent from extracted Korean text and requires source-artifact visual verification",
+    "429 Chinese rows without independently exact English require direct Korean/Chinese semantic comparison",
+    "Residual unreviewed rows and family-wide final quality control remain open"
+  ],
+  "note": "QA scan found no duplicate Chinese row IDs, no correction source-hash/original/document mismatches, and no uncorrected Hangul or MTQ/START/END markers. This automated integrity/contamination scan is not a substitute for full semantic review. No COMPLETE status or receipt."
+}
