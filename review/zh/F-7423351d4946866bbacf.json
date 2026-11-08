@@ -2,7 +2,7 @@
   "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-7423351d4946866bbacf",
   "worker": "C01",
-  "checked_rows": 63,
+  "checked_rows": 66,
   "edits": [
     {
       "id": "B1-zh-00065",
@@ -1051,10 +1051,22 @@
     {
       "id": "B2-zh-00020",
       "text": "第十九条（水产品冷链分销体系建立标准等）\n① 根据该法第35条，海洋水产大臣可以根据需要，制定和实施水产品从生产阶段到销售阶段所有分销过程中的冷链分销系统建设等政策，或者为水产品分销经营者提供支持，规定和公布设施等标准。\n② 第1款规定的设施等标准，应当根据水产品分销经营者经营的水产品种类、水产品的消费模式以及水产品分销经营者的经营特点和规模来确定。\n③ 海洋水产大臣根据第1款规定制定和公布设施等标准时，应当事先与食品医药品安全处长协商。\n\n"
+    },
+    {
+      "id": "B2-zh-00008",
+      "text": "第七条（主席等的职责）\n① 主席代表协议会并监督协议会的事务。<2024年4月30日修订>\n② 副主席协助主席，并在主席因不可避免的情况无法履行职责时代表主席行事。\n\n"
+    },
+    {
+      "id": "B2-zh-00012",
+      "text": "第11条（津贴等）协议会成员和其他相关专家出席协议会会议，可在预算范围内获得津贴和差旅费。但公职人员因履行其职责直接出席协议会会议，不在此限。<2024年4月30日修订>\n\n"
+    },
+    {
+      "id": "B2-zh-00013",
+      "text": "第十二条（详细运作规则）除本法令规定的事项外，协议会运作所必需的事项，由协议会主席根据协议会决议予以决定。\n\n"
     }
   ],
   "status": "IN_PROGRESS",
-  "note": "IN_PROGRESS. 262 unique legal Chinese rows corrected with prior edits preserved. This pass corrected B2 decree title, Article 8 meeting quorum based on incumbent members not registered association membership, and Article 19 consultation with Head of Ministry of Food and Drug Safety. Source SHA unchanged, full 1207-row cross-language verification and annex/form cell continuity incomplete. No COMPLETE receipt.",
+  "note": "IN_PROGRESS. 265 unique Chinese rows corrected with previous edits preserved; B2 Articles 7, 11 and 12 replaced mistaken board of directors (理事会) with statutory fishery-product distribution development council (协议会). Korean source SHA unchanged. Full 1207-row and annex/form source XML mapping verification incomplete, no COMPLETE receipt.",
   "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
   "source_sha": {
     "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
