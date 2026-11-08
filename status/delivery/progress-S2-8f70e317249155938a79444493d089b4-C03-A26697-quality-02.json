@@ -1,0 +1,225 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26697",
+  "quality_batch": "A26697-quality-02",
+  "range": {
+    "first": "A26697-zh-00024",
+    "last": "A26697-zh-00043"
+  },
+  "quality_checked_rows": 20,
+  "quality_passed_rows": 20,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "A26697-zh-00024",
+    "A26697-zh-00025",
+    "A26697-zh-00026",
+    "A26697-zh-00027",
+    "A26697-zh-00028",
+    "A26697-zh-00029",
+    "A26697-zh-00030",
+    "A26697-zh-00031",
+    "A26697-zh-00032",
+    "A26697-zh-00033",
+    "A26697-zh-00034",
+    "A26697-zh-00035",
+    "A26697-zh-00036",
+    "A26697-zh-00037",
+    "A26697-zh-00038",
+    "A26697-zh-00039",
+    "A26697-zh-00040",
+    "A26697-zh-00041",
+    "A26697-zh-00042",
+    "A26697-zh-00043"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26697-00001-00043.json",
+  "prior_quality_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26697-quality-01.json",
+  "results": [
+    {
+      "id": "A26697-zh-00024",
+      "source_hash": "651b2e6efe82252888e9f333fd56470837c758da5cfbb6c0e63bc09eb3e86424",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법 제22조제3항·시행규칙 제6조제1항과 직원 신분 증명 문장 연계"
+    },
+    {
+      "id": "A26697-zh-00025",
+      "source_hash": "472d300a2314ea389ef3d4f5acda14c6506468d35686f0cf0d7a3e0accc14618",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법 제22조제3항·시행규칙 제6조제1항과 직원 신분 증명 문장 연계"
+    },
+    {
+      "id": "A26697-zh-00026",
+      "source_hash": "f0d4ca855033eb69ccf042ddd2d7fd16ffad8a538ee6ff3b422f86dd7ba216c2",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법 제22조제3항·시행규칙 제6조제1항과 직원 신분 증명 문장 연계"
+    },
+    {
+      "id": "A26697-zh-00027",
+      "source_hash": "6b2ebefdb9dfd1e927d76233f17263974f3b8c1d7eec61389ba4432ac0e6fbe5",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법 제22조제3항·시행규칙 제6조제1항과 직원 신분 증명 문장 연계"
+    },
+    {
+      "id": "A26697-zh-00028",
+      "source_hash": "1dea1df8e723b726b6801f9695b44f605789db9a3ff4c66dc45491ba1ce0fc96",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법 제22조제3항·시행규칙 제6조제1항과 직원 신분 증명 문장 연계"
+    },
+    {
+      "id": "A26697-zh-00029",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "발급일자·지방자치단체장 직인 및 직명 대조"
+    },
+    {
+      "id": "A26697-zh-00030",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "발급일자·지방자치단체장 직인 및 직명 대조"
+    },
+    {
+      "id": "A26697-zh-00031",
+      "source_hash": "dfc76879e2f5c3ead09186ff1c6b635624f96b7adbd71d94c37566429ca5df6f",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "발급일자·지방자치단체장 직인 및 직명 대조"
+    },
+    {
+      "id": "A26697-zh-00032",
+      "source_hash": "d0d4846e2f55d14b2788851adaa78876764396683276302525dc01d3ac7f6ecc",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "발급일자·지방자치단체장 직인 및 직명 대조"
+    },
+    {
+      "id": "A26697-zh-00033",
+      "source_hash": "c2c25ba0a53a6f7b97292cfe2d401a55b263f9c6222471a4b8a4c3509c1a4197",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "발급일자·지방자치단체장 직인 및 직명 대조"
+    },
+    {
+      "id": "A26697-zh-00034",
+      "source_hash": "6ce6163f2531180bf1303c3b6b19d6d7df589a187c26fb1b9479f5e52810f3b6",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "발급일자·지방자치단체장 직인 및 직명 대조"
+    },
+    {
+      "id": "A26697-zh-00035",
+      "source_hash": "d97ef7cd7bc68091d87bdb9c1a1043db0e8620e3e9aa624237d6cbf1b3af23d9",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법 제17·18·22조 인용, 구조 동행 및 수사·신문 동석 권한 확인"
+    },
+    {
+      "id": "A26697-zh-00036",
+      "source_hash": "be798caaaa9e51b5382683e00ae68e630763eb6eb701e74670314abf94405432",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법 제17·18·22조 인용, 구조 동행 및 수사·신문 동석 권한 확인"
+    },
+    {
+      "id": "A26697-zh-00037",
+      "source_hash": "4176492c7d94ff81ad327f5f67269a3f8c637c3f5dd4084c382aeb83d05e51b5",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법 제17·18·22조 인용, 구조 동행 및 수사·신문 동석 권한 확인"
+    },
+    {
+      "id": "A26697-zh-00038",
+      "source_hash": "b4502b8e2855ce109d2b70e16d1dc86a5ff54504eb20871b1ea8c641f5772fd7",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법 제17·18·22조 인용, 구조 동행 및 수사·신문 동석 권한 확인"
+    },
+    {
+      "id": "A26697-zh-00039",
+      "source_hash": "fd9ccec4e1a72ab394795330f6484fc6307a1310c4afc6fb270af5651112a6f9",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법 제17·18·22조 인용, 구조 동행 및 수사·신문 동석 권한 확인"
+    },
+    {
+      "id": "A26697-zh-00040",
+      "source_hash": "4f2e3e7e07e919635b73a3767e6117d012e35a0b4ff4d26ffe3f32b01e001cc5",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법 제17·18·22조 인용, 구조 동행 및 수사·신문 동석 권한 확인"
+    },
+    {
+      "id": "A26697-zh-00041",
+      "source_hash": "66171e010eac1056aa1a54699d2e0e1484fc5f476035a4294024a67b56da4f03",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "대여·양도 금지, 퇴직 시 반납 의무 확인"
+    },
+    {
+      "id": "A26697-zh-00042",
+      "source_hash": "4aed61247cfd4d085590d4ae04018582f8e27375ca258a59b445e00ef9c26855",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "대여·양도 금지, 퇴직 시 반납 의무 확인"
+    },
+    {
+      "id": "A26697-zh-00043",
+      "source_hash": "ea362dddae26281bb9a158df2d8e8cf20a581723ccf44da59bad0c332918487a",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "습득 시 우체통 투입 문구 확인"
+    }
+  ],
+  "edits": [],
+  "note": "직원증 뒷면 24~43번 한국어 원문 대조. 법령 인용과 구조 동행·수사 동석 범위, 발급권자 직인, 반환 의무 등을 확인. 앞 구간 8번 NEEDS_CORRECTION은 유지, 기존 진행 교정 불변. 가족 COMPLETE 아님."
+}
