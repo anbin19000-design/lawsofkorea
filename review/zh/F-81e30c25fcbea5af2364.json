@@ -6404,10 +6404,28 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-5e7d64734731-adjudication.json",
       "verification": "C02_KOREAN_LEGAL_TITLE_COMPARISON",
       "reason": "Korean source names 빈집 및 소규모주택 정비에 관한 특례법; minimally correct '维护' to statutory '整备' and '住房' to '住宅' while preserving citation and date."
+    },
+    {
+      "id": "B1-zh-00129",
+      "source_hash": "a519f970907d80fc108d8947e92031f10c4d0762155b909dfe5d01543374cb67",
+      "target_id": "4cdd7fa5ae3bfec998a3b8063c887d0d311df8e98f2dbba237e5f1242cae23d8",
+      "text": "补充条款（政府组织法）<第12844号法律，2014年11月19日>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-5e7d64734731-supplement.json",
+      "verification": "C02_KOREAN_SUPPLEMENT_SOURCE_COMPARISON",
+      "reason": "Korean source supplementary Government Organization Act #12844 is a 법률 (Act), not 법령 (generic decree/legal instrument); correct the statute type only."
+    },
+    {
+      "id": "B1-zh-00193",
+      "source_hash": "a0467a3073ee60b74961bae084e4607ca678964206be6e094ab946cd83c26722",
+      "target_id": "0e02f5e8317f2282ba68b39f8bad15cbb839760106910e2ede6d9bb8ea88d29a",
+      "text": "第二条（修改其他法律）① 省略\n\n  ②《智慧城市建设及产业振兴等相关法律》部分修改如下。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-5e7d64734731-supplement.json",
+      "verification": "C02_KOREAN_SUPPLEMENT_SOURCE_COMPARISON",
+      "reason": "Korean source cites exact title 스마트도시 조성 및 산업진흥 등에 관한 법률; correct the cross-referenced Act title only."
     }
   ],
-  "adjudicated_edit_count": 681,
-  "pending_single_candidate_count": 63,
+  "adjudicated_edit_count": 683,
+  "pending_single_candidate_count": 54,
   "pending_conflict_count": 0,
   "pending_single_candidates": [
     {
@@ -7041,21 +7059,6 @@
       "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
     },
     {
-      "id": "B1-zh-00129",
-      "source_hash": "a519f970907d80fc108d8947e92031f10c4d0762155b909dfe5d01543374cb67",
-      "target_id": "4cdd7fa5ae3bfec998a3b8063c887d0d311df8e98f2dbba237e5f1242cae23d8",
-      "variants": [
-        {
-          "text": "附则（政府组织法）<第12844号，2014年11月19日>\n\n",
-          "file_indices": [
-            37
-          ]
-        }
-      ],
-      "text": "附则（政府组织法）<第12844号，2014年11月19日>\n\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
       "id": "B1-zh-00131",
       "source_hash": "4a11ecac55ed342fccb5dca131a2ce9a38649abcbf416bfb580e7758c9e16c6b",
       "target_id": "eee02bb633e8abb059cefd5344fd5d671f4e059175c60bfee6ff6c9666211731",
@@ -7068,51 +7071,6 @@
         }
       ],
       "text": "第六条（其他法律的修改）①至<219>省略\n\n  <220> 《泛在城市建设等相关法律》部分修改如下。\n\n  将第二十条第一款正文、第二十二条第一款及第二十三条第三款各项以外部分中的“安全行政部长官”分别修改为“行政自治部长官”。\n\n  <221>至<258>省略\n\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "B1-zh-00135",
-      "source_hash": "1c970893ff889817af39440319e5a27bb296aa91472bfdded9dce9213d84873e",
-      "target_id": "c60b2253da2dceec12bf4b95f46ef3141e9178603a544e9c70ac5d99d0e41986",
-      "variants": [
-        {
-          "text": "第二条（关于城市再生事业的适用例）第三条第六项的修正规定，自本法施行后首次依据《城市再生激活及支援特别法》制定城市再生激活计划时起适用。\n\n",
-          "file_indices": [
-            38
-          ]
-        }
-      ],
-      "text": "第二条（关于城市再生事业的适用例）第三条第六项的修正规定，自本法施行后首次依据《城市再生激活及支援特别法》制定城市再生激活计划时起适用。\n\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "B1-zh-00138",
-      "source_hash": "56a469f8171e1a55234e62c74d69f69bba856acf7c1648402d1199fc7bf2677e",
-      "target_id": "75e275c4d13146b4e0fe16ce7a867bd18ea0d90890a5f3f867997338658921fb",
-      "variants": [
-        {
-          "text": "第七条（其他法律的修改）①至<42>省略\n\n  <43> 《泛在城市建设等相关法律》部分修改如下。\n\n  将第十五条第一款第十二项中的“目的外使用批准”修改为“使用许可”。\n\n  <44>至<65>省略\n\n",
-          "file_indices": [
-            38
-          ]
-        }
-      ],
-      "text": "第七条（其他法律的修改）①至<42>省略\n\n  <43> 《泛在城市建设等相关法律》部分修改如下。\n\n  将第十五条第一款第十二项中的“目的外使用批准”修改为“使用许可”。\n\n  <44>至<65>省略\n\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "B1-zh-00140",
-      "source_hash": "420d60e62be519b97f1eca012790f1caf2a87d2ed0b7059cde4771f4d3a47158",
-      "target_id": "6db7a4e91a8cb3706fd08fe3258c637600a44b0fe804a23632c85c673f05e908",
-      "variants": [
-        {
-          "text": "第一条（施行日期）本法自公布之日起经过一年后施行。但依附则第六条修订的法律中，对在本法施行前已公布但尚未施行的法律所作的修订，自各该法律的施行之日起施行。\n\n第二条至第五条省略\n\n",
-          "file_indices": [
-            75
-          ]
-        }
-      ],
-      "text": "第一条（施行日期）本法自公布之日起经过一年后施行。但依附则第六条修订的法律中，对在本法施行前已公布但尚未施行的法律所作的修订，自各该法律的施行之日起施行。\n\n第二条至第五条省略\n\n",
       "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
     },
     {
@@ -7146,21 +7104,6 @@
       "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
     },
     {
-      "id": "B1-zh-00147",
-      "source_hash": "2f085e8ce1715b9b8a8e753de88c1d3773a9a4cfefcf3968a91c40115b63be56",
-      "target_id": "57943d4f1c06a02c9796e97e2236d988355a747ab2afd771f32527f98685be65",
-      "variants": [
-        {
-          "text": "附则 <第14718号，2017年3月21日>\n\n",
-          "file_indices": [
-            75
-          ]
-        }
-      ],
-      "text": "附则 <第14718号，2017年3月21日>\n\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
       "id": "B1-zh-00149",
       "source_hash": "baf1b541851e8b73b16844f567ec648c312f44e7f4bab5911837caa8a84bf003",
       "target_id": "f14817da6dfb7a8ba3671634530de1a99c1245532fa9dad970c4984e7b0a45bd",
@@ -7191,21 +7134,6 @@
       "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
     },
     {
-      "id": "B1-zh-00159",
-      "source_hash": "99fe7e002350111d1f348c2b5bd433cfd2f156e07fc2f3977f80a258dfa82678",
-      "target_id": "baadfc93ed53f6bf2591ad253a512baaf75bd0fd9e694e03368cacf963ca7d52",
-      "variants": [
-        {
-          "text": "第三条（其他法律的修改）①至⑧省略。\n\n⑨《智慧城市建设及产业振兴等相关法律》部分修改如下。\n\n将第3条第1款第3号修改如下：\n\n3.《创新城市建设及发展特别法》规定的创新城市开发事业。\n\n⑩至<19>省略。\n\n",
-          "file_indices": [
-            78
-          ]
-        }
-      ],
-      "text": "第三条（其他法律的修改）①至⑧省略。\n\n⑨《智慧城市建设及产业振兴等相关法律》部分修改如下。\n\n将第3条第1款第3号修改如下：\n\n3.《创新城市建设及发展特别法》规定的创新城市开发事业。\n\n⑩至<19>省略。\n\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
       "id": "B1-zh-00172",
       "source_hash": "bda44eed797c7b70de715ac4d0244f2a1588f80c4896e57968315c000b59a42c",
       "target_id": "601262be273f6419edf3889be56bc61cb9af80cecaf17bd110378ef86d2a00f2",
@@ -7233,51 +7161,6 @@
         }
       ],
       "text": "附则（《为整备法律用语而部分修改国土交通委员会所管78部法律的法律》）<第17453号，2020年6月9日>\n\n本法自公布之日起施行。<但书省略>\n\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "B1-zh-00178",
-      "source_hash": "e9f3c3df8a41fc66cc0f19f48607f829e28ad010157da56f15bba50111f59b4b",
-      "target_id": "8a642530cb18dbf6dde449e184ef02548f70c97d11fbcc8e778ff0c207338593",
-      "variants": [
-        {
-          "text": "第二十五条（其他法律的修改）①至<41>省略。\n\n  <42>《智慧城市建设及产业振兴等相关法律》部分修改如下。\n\n  将第四十一条第二款第二号中的“《关于垄断规制及公平交易的法律》第十四条”修改为“《关于垄断规制及公平交易的法律》第三十一条”。\n\n  <43>至<82>省略。\n\n",
-          "file_indices": [
-            81
-          ]
-        }
-      ],
-      "text": "第二十五条（其他法律的修改）①至<41>省略。\n\n  <42>《智慧城市建设及产业振兴等相关法律》部分修改如下。\n\n  将第四十一条第二款第二号中的“《关于垄断规制及公平交易的法律》第十四条”修改为“《关于垄断规制及公平交易的法律》第三十一条”。\n\n  <43>至<82>省略。\n\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "B1-zh-00185",
-      "source_hash": "1941237186a498ddb6c2b39a2eff90a2e64b257637bebf21c2a3746b62da680c",
-      "target_id": "ab4b936868a51d8396f8b5aa21b7c207c63d90f3a5a0647a0ebfa027e7eb3c21",
-      "variants": [
-        {
-          "text": "第十四条（其他法律的修改）①至<33>省略。\n\n  <34>《智慧城市建设及产业振兴等相关法律》部分修改如下。\n\n  将第十五条第一款第十七号中的“《关于预防火灾、消防设施设置、维护及安全管理的法律》第七条”修改为“《关于消防设施设置及管理的法律》第六条”。\n\n  <35>至<54>省略。\n\n",
-          "file_indices": [
-            81
-          ]
-        }
-      ],
-      "text": "第十四条（其他法律的修改）①至<33>省略。\n\n  <34>《智慧城市建设及产业振兴等相关法律》部分修改如下。\n\n  将第十五条第一款第十七号中的“《关于预防火灾、消防设施设置、维护及安全管理的法律》第七条”修改为“《关于消防设施设置及管理的法律》第六条”。\n\n  <35>至<54>省略。\n\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "B1-zh-00193",
-      "source_hash": "a0467a3073ee60b74961bae084e4607ca678964206be6e094ab946cd83c26722",
-      "target_id": "0e02f5e8317f2282ba68b39f8bad15cbb839760106910e2ede6d9bb8ea88d29a",
-      "variants": [
-        {
-          "text": "第二条（其他法律的修改）①省略。\n\n  ②《智慧城市建设及产业振兴等相关法律》部分修改如下。\n\n",
-          "file_indices": [
-            81
-          ]
-        }
-      ],
-      "text": "第二条（其他法律的修改）①省略。\n\n  ②《智慧城市建设及产业振兴等相关法律》部分修改如下。\n\n",
       "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
     },
     {
@@ -7461,12 +7344,13 @@
     "2026-11-08 C02 6694df1f44e2 annex 4: directly compared Korean fine criteria and cross-cell thresholds and retained 27 prior source-grounded master corrections. This task adjudicated 55 historical variants in two progress records, pending 150 -> 95, existing 680 edits unchanged. Remains IN_PROGRESS.",
     "2026-11-08 C02 0e1edbb7e85b: source-grounded reconciliation of 13 legal Act/Decree historical variants against Korean originals and accepted Chinese master. Pending 95->82. All 680 accepted edits and source blob hashes preserved; COMPLETE withheld.",
     "2026-11-08 C02 0e1edbb7e85b: additional 7 Korean Act/Decree historical variants adjudicated; total 20 this assignment. 82->75 pending. 680 accepted edit records and source hashes retained; no COMPLETE.",
-    "2026-11-08 C02 5e7d64734731: compared 12 source-grounded historical Act/Decree candidates against original Korean law. Retained 11 existing Chinese source rows; corrected B1-zh-00143 statutory title of the Vacant Houses and Small-Scale Housing Maintenance Special Act with minimal change. Preserved 680 prior accepted edits and source identities. IN_PROGRESS."
+    "2026-11-08 C02 5e7d64734731: compared 12 source-grounded historical Act/Decree candidates against original Korean law. Retained 11 existing Chinese source rows; corrected B1-zh-00143 statutory title of the Vacant Houses and Small-Scale Housing Maintenance Special Act with minimal change. Preserved 680 prior accepted edits and source identities. IN_PROGRESS.",
+    "2026-11-08 C02 5e7d64734731 supplement: 9 historical supplement candidates adjudicated; 7 originals retained and 2 statutory titles/reference types corrected. Total this task 21 candidates, 3 newly confirmed edits. Cumulative 683 accepted edits; 54 pending. Source SHA preserved; IN_PROGRESS."
   ],
   "integration_progress": {
-    "stage": "ACT_DECREE_HISTORICAL_ADJUDICATION",
+    "stage": "ACT_SUPPLEMENT_HISTORICAL_ADJUDICATION",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:5e7d64734731",
-    "note": "12 Korean-source candidate decisions including one precise historical statute-title correction; 63 candidates remain, 681 confirmed edits."
+    "note": "21 candidates adjudicated in this task, 3 minimal changes to statutory names/citations, 54 candidates remain."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -8606,10 +8490,10 @@
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-family-audit.json",
     "blob_sha": "PENDING_REQUERY",
-    "accepted_unique_edits": 681,
+    "accepted_unique_edits": 683,
     "recorded_evidence_ids": 1133,
     "ids_without_confirmed_evidence": 0,
-    "pending_candidate_ids": 63,
+    "pending_candidate_ids": 54,
     "pending_conflict_ids": 0,
     "source_identity_mismatches": 0
   }
