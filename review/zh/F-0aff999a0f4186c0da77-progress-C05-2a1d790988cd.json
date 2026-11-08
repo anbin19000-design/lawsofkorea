@@ -1,0 +1,27 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "panel_id": "panel-05",
+  "pc": "WORK-C",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "chinese_total_rows": 1687,
+  "correction_count": 82,
+  "new_corrections": [
+    "B1-zh-00031",
+    "B1-zh-00036"
+  ],
+  "prior_corrections_preserved": 80,
+  "review_status": "FULL_SEMANTIC_AUDIT_NOT_COMPLETE",
+  "notes": "Continued from 80 corrections. Confirmed numbered paragraph omissions in Act Article 15-2 and Act Article 17 committee name, missing paragraph numbering, and Public Institutions Act Article 37(3) citation. Raw originals untouched; no completion receipt issued."
+}
