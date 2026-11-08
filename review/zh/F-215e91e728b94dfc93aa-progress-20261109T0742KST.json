@@ -4,7 +4,7 @@
   "worker": "C06",
   "panel_id": "panel-06",
   "pc": "WORK-C",
-  "status": "IN_PROGRESS",
+  "status": "COMPLETE",
   "source_commit": "396bee96cb14d35f6f4e36330de5998314afded1",
   "source_blobs": {
     "en": "e59574105c58e4041e11b2782728fe6d9e56c186",
@@ -19,11 +19,11 @@
   "total_documents": 2,
   "total_rows": 1490,
   "checked_rows": 1490,
-  "edits": 348,
+  "edits": 350,
   "next_row_index": 1490,
-  "review_sha": "c0f41815caf085eabdd1ec8eeb1e4f840cecb859",
-  "review_file_status": "IN_PROGRESS",
+  "review_sha": "a763127333f73b117d1c9066b5ad4889068b0b61",
+  "review_file_status": "COMPLETE",
   "reading_order": "KO_FULL_THEN_EN_FULL_THEN_ZH_FULL",
   "worker_chat": "https://chatgpt.com/c/6af0dfef-9c28-83e8-a035-c75d26241cf5",
-  "note": "B1法律1,347行及B2施行令143行、計1,490行を順次確認。韓国語全件、英語全件と連結英語文書、続いて中国語全件の順で読解済み。全体QA（条文参照・数値・連番・用語・補則、編集ID一意性）待ち。ステータスIN_PROGRESS。"
+  "note": "全量最终QA完成。B1 1,347行 + B2 143行 = 1,490行。官方review文件和receipt均已Contents API保存并重新读取确认COMPLETE；350个修订ID全部唯一且对应原文行，源SHA一致，校正文本无韩文残留。"
 }
