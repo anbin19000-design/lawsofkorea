@@ -6,7 +6,7 @@
   "panel_id": "panel-05",
   "pc": "WORK-C",
   "status": "IN_PROGRESS",
-  "stage": "ZH_TARGETED_ISSUES_IDENTIFIED_REVIEW_NOT_COMPLETE",
+  "stage": "ZH_TARGETED_CORRECTIONS_ACCUMULATED_NOT_FULLY_REVIEWED",
   "source_blobs": {
     "ko": "6143afa8022216e9ca4d05ca2ba62c4fb3e45d0e",
     "en": "5ca2adb168a584384cda930a58163198b580bd0d",
@@ -26,8 +26,8 @@
     }
   ],
   "english_no_document_count": 30,
-  "checked_rows": 5,
-  "corrected_rows": 5,
+  "checked_rows": 7,
+  "corrected_rows": 7,
   "edits": [
     {
       "id": "B1-zh-00025",
@@ -58,6 +58,18 @@
       "text": "补充规定 <2026年4月21日第9号>\n\n本规则将于2026年4月23日生效。\n\n教育机构指定标准（与第四条第一款相关）\n■ 儿童保育支持法执行规则 [附表 1] <2026 年 4 月 21 日修订>\n\n  教育机构指定标准（与第四条第一款相关）                                          \n\n  1. 设施标准                                                                   \n\n    考虑到教育需求、交通便利性等因素，幼教工作者培训机构的选址应符合实际情况。     \n\n  必须符合以下设施标准。                                 \n\n┌─────┬────────────────────────────────┐\n\n│分类│设施标准│\n\n├─────┼────────────────────────────────┤\n\n│基本设施  │甲. 教室                                                      │\n\n│ │ 1) 幼儿保育员培训课程（理论、实践等）运行所需的空间 │\n\n│          │应予配备                                                         │\n\n│          │ 2) 应配备视听教学所需器材                       │\n\n│ │ 3) 必须配备或能够使用实践培训所需的设备 │\n\n│          │乙. 办公室                                                      │\n\n│ │ 1) 幼儿保育员培训课程管理和学员辅导所需的空间 │\n\n│          │应予配备                                                         │\n\n│ │ 2) 为业务运营配备必要的设施和设备，例如通信设备和家具 │\n\n│          │丙. 其他设施                                                │\n\n│ │ 1) 学习有益于健康和卫生的知识，例如自然采光、通风、照明以及供暖和制冷设施 │\n\n│ │准备环境 │\n\n│          │ 2) 应配备与设施规模相适应的卫生间和供水设施         │\n\n│ │ 3) 根据《消防设施安装、维护和安全管理法》的规定 │\n\n│          │配备灭火器具并设置紧急出口            │\n\n├─────┼────────────────────────────────┤\n\n│辅助设施│研讨室、参考室、休息室、医务室及其他教育和│\n\n│ │可配备运行和管理所需的设施。 │\n\n└─────┴────────────────────────────────┘\n\n  2. 人力部署标准                                                              \n\n",
       "source_hash": "364ca07daeb1cd4292276ed5dec81167bc5955efc5a3cc10dda1e581bcdb4b81",
       "reason": "Translate retained Korean labels and equipment/safety requirements in attached Annex 1 table without replacing already translated cells"
+    },
+    {
+      "id": "B1-zh-00030",
+      "text": "第十八条（都市支援中心和托幼服务机构的管理和评估）\n① 根据第十条之四第三款、第十一条第三款和第十一条之二第一款、第三款的规定，性别平等和家庭部长在评估都市支援中心和托幼服务机构是否按照经营标准等规定妥善经营后，可采取必要措施，例如公布评估结果。<2020年5月19日、2025年4月22日、2025年10月1日修订>\n② 性别平等及家庭部长应通过持续管理和评估托幼服务的内容，努力提高托幼服务提供者提供的服务质量。<2025年4月22日修订；2025年10月1日修订>\n③ 性别平等和家庭部长可将第1款和第2款规定的部分管理和评估职责委托给专门机构，例如公司或组织。<2025年10月1日修订>\n④ 根据第1款对机构运作和托育服务提供情况进行评估的方法、评估结果的公布方法以及其他必要事项，由性别平等和家庭部条例规定。<2020年5月19日、2025年10月1日修订>\n\n",
+      "source_hash": "dc6ff557d242a2dc95c79787639b7b7b6d1daff8fe3cec375231573f91b291e9",
+      "reason": "Remove erroneous cited statute and restore paragraph ④ enumeration"
+    },
+    {
+      "id": "B3-zh-00029",
+      "text": "第十五条之二（托育支持综合信息系统的运营）根据本法第二十五条第五款，性别平等与家庭部长官应将本条第一款规定的托育支持综合信息系统的运营职责委托给依据《健康家庭框架法》第三十四条之二设立的韩国家庭健康振兴院。<2025年10月1日修订>\n\n",
+      "source_hash": "42f6801152b87a7f6ce5e88b53c2c16b4f2d87178e75ebb243fb11581aeb880c",
+      "reason": "Correct Korean institute name from research institute to promotion agency"
     }
   ],
   "remaining_flagged_rows": [],
@@ -66,6 +78,7 @@
     "Original Chinese law files and previous checkpoint are unchanged.",
     "Final review and receipt remain unwritten until complete evidence.",
     "B2 Article 5 original Chinese was preserved except explicit statute-reference, numbering and untranslated-item corrections; other phrasing still requires full final semantic review.",
-    "B3-zh-00057 contains part of Annex 1 appended to the last enforcement-rule body row; correction preserves original row identity and table structure."
+    "B3-zh-00057 contains part of Annex 1 appended to the last enforcement-rule body row; correction preserves original row identity and table structure.",
+    "Two further cross-checked obvious source/reference mismatches corrected; full 1516-row semantic verification remains outstanding."
   ]
 }
