@@ -6398,54 +6398,9 @@
     }
   ],
   "adjudicated_edit_count": 680,
-  "pending_single_candidate_count": 189,
+  "pending_single_candidate_count": 186,
   "pending_conflict_count": 0,
   "pending_single_candidates": [
-    {
-      "id": "A25465-zh-00001",
-      "source_hash": "f049a9a372145f59578c5383b5413927c497251e685c6c7752a22d8edd332743",
-      "target_id": "XML:1802632",
-      "variants": [
-        {
-          "text": "■ 《智慧城市建设及产业振兴等相关法律施行规则》〔附页第3号格式〕<2021年7月12日修订>",
-          "file_indices": [
-            40
-          ]
-        }
-      ],
-      "text": "■ 《智慧城市建设及产业振兴等相关法律施行规则》〔附页第3号格式〕<2021年7月12日修订>",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "A25465-zh-00003",
-      "source_hash": "e7dc03cf40f82d5fb09c95341fdd2ca8c2a387f73240fe22653d0499eea7afa2",
-      "target_id": "XML:1802634",
-      "variants": [
-        {
-          "text": "※ 深色栏由申请人留空，并在［",
-          "file_indices": [
-            40
-          ]
-        }
-      ],
-      "text": "※ 深色栏由申请人留空，并在［",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "A25465-zh-00004",
-      "source_hash": "9c2cff79a84df6db8a038d4803908bc9bd951c982152400d044ce6c5b3292004",
-      "target_id": "XML:1802635",
-      "variants": [
-        {
-          "text": "］内相应位置标记√。",
-          "file_indices": [
-            40
-          ]
-        }
-      ],
-      "text": "］内相应位置标记√。",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
     {
       "id": "A25466-zh-00001",
       "source_hash": "8ff9b856c64cf23b0f1bd9128058e0b8486e133a5885b4ba7361622d80b693f7",
@@ -9334,12 +9289,13 @@
     "2026-11-08 C02 4e0b46ff6294 family audit: reconciled sequential B1 checkpoints 1-54, 55-105 and 106-199, and directly compared B2 rows 00113-00115. All 1133 Chinese row IDs now have review evidence; ordered Korean, available English and Chinese reading certifications set true. English fallback versions mismatch Korean B1/B2 and no English exists for B3/forms. 343 historical single candidates remain; family stays IN_PROGRESS.",
     "2026-11-08 C02 09943096b1f1: 125 identical historical candidates already accepted, reconciled without rewriting; 12 clear annex 3/4 cross-cell corrections accepted after source review; 206 nonidentical candidates remain. Preserved all source identities and prior decision history. IN_PROGRESS.",
     "2026-11-08 C02 09943096b1f1 forms: corrected 11 currently accepted form translations against Korean rule/form labels and statutory reference terms; previous master texts preserved in prior_text_versions. 195 old variants still require review. Status IN_PROGRESS.",
-    "2026-11-08 C02 09943096b1f1: source-backed annex/form label fixes recorded for 6 rows (A36425 16/18/44/51, A36424 02, A25471 07). 189 historical candidates remain, COMPLETE withheld."
+    "2026-11-08 C02 09943096b1f1: source-backed annex/form label fixes recorded for 6 rows (A36425 16/18/44/51, A36424 02, A25471 07). 189 historical candidates remain, COMPLETE withheld.",
+    "2026-11-08 C02 60cef5c6b26b: Korean original Form 3 A25465 rows 00001, 00003, 00004 compared with three historical variants; variants are semantically equivalent to accepted master corrections. Retained master wording, recorded adjudications in review/zh/F-81e30c25fcbea5af2364-progress-C02-60cef5c6b26b-adjudication.json; pending candidates 189 -> 186. Other candidates and all 680 accepted corrections preserved. IN_PROGRESS."
   ],
   "integration_progress": {
-    "stage": "ANNEX_1_2_AND_FORM_7_LABEL_ADJUDICATION",
-    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:09943096b1f1",
-    "note": "Confirmed 6 Korean-source heading, administrative-disposition and form-date labels, retaining original cell boundaries. The remaining historical variants require independent adjudication."
+    "stage": "FORM_3_HISTORICAL_VARIANT_ADJUDICATION",
+    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:60cef5c6b26b",
+    "note": "Three Form 3 historical punctuation/synonym variants adjudicated; accepted corrections unchanged. Continue unresolved candidates."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -10482,7 +10438,7 @@
     "accepted_unique_edits": 680,
     "recorded_evidence_ids": 1133,
     "ids_without_confirmed_evidence": 0,
-    "pending_candidate_ids": 189,
+    "pending_candidate_ids": 186,
     "pending_conflict_ids": 0,
     "source_identity_mismatches": 0
   }
