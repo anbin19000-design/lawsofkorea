@@ -1,0 +1,58 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-3705abbc710de4b867bc",
+  "worker": "C05",
+  "branch": "main",
+  "source_blobs": {
+    "ko": "7974bf81d14f4838ae85d4b3ceea80a2f0e65fed",
+    "zh": "045dd328cd77f3eecd8b6cd485be27f2389773e8"
+  },
+  "document_key": "A25276",
+  "document_source_hash": "bcdd3ea81f96f89443d3477838f86cc6d749bd4b8c466d138d14a19ac6c85e72",
+  "checked_range": "A25276-zh-00054..A25276-zh-00059 (previously staged corrections only)",
+  "checked_ids": [
+    "A25276-zh-00054",
+    "A25276-zh-00055",
+    "A25276-zh-00056",
+    "A25276-zh-00057",
+    "A25276-zh-00058",
+    "A25276-zh-00059"
+  ],
+  "checked_rows": 6,
+  "adopted_edits": [
+    {
+      "id": "A25276-zh-00054",
+      "text": "办理程序"
+    },
+    {
+      "id": "A25276-zh-00055",
+      "text": "受理"
+    },
+    {
+      "id": "A25276-zh-00056",
+      "text": "审查、判定及审批"
+    },
+    {
+      "id": "A25276-zh-00057",
+      "text": "制作认证书"
+    },
+    {
+      "id": "A25276-zh-00058",
+      "text": "颁发认证书"
+    },
+    {
+      "id": "A25276-zh-00059",
+      "text": "认证申请人"
+    }
+  ],
+  "rationale": {
+    "A25276-zh-00054": "‘처리절차’ 표 제목 번역.",
+    "A25276-zh-00055": "‘접수’ 처리 단계 번역.",
+    "A25276-zh-00056": "‘심사ㆍ판정 및 결재’에 대응하며 세 동작을 보존.",
+    "A25276-zh-00057": "‘인증서 작성’ 처리 단계 번역.",
+    "A25276-zh-00058": "‘인증서 발급’ 처리 단계 번역.",
+    "A25276-zh-00059": "‘인증신청자’ 처리 주체 번역."
+  },
+  "status": "QUALITY_PARTIAL",
+  "note": "Six prior staged procedure-table corrections checked against Korean form layout. No duplicate progress counted; receipt withheld."
+}
