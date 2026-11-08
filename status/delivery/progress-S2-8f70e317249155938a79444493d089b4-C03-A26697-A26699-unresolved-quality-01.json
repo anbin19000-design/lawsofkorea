@@ -1,0 +1,36 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "quality_batch": "unresolved-quality-01",
+  "quality_checked_rows": 2,
+  "quality_passed_rows": 0,
+  "quality_failed_rows": 2,
+  "quality_checked_ids": [
+    "A26697-zh-00008",
+    "A26699-zh-00053"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "results": [
+    {
+      "id": "A26697-zh-00008",
+      "source_hash": "b010248c8c2c3154a576549e73d18403d19047e5da834babcaabf0c46ffe3334",
+      "original_text": "金",
+      "verdict": "NEEDS_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "reason": "한국어 사진란은 '사 진' 다음 3.5㎝×4.5㎝이고 해당 단독 '金'에 상응하는 단어 없음. 단독 셀의 공백/레이아웃 대응 가능성을 배제 못함."
+    },
+    {
+      "id": "A26699-zh-00053",
+      "source_hash": "581d7432d17a8bb1a9126a9b9d558f65ecda93a65fd3e5b340d55d650b003147",
+      "original_text": "按需。",
+      "verdict": "NEEDS_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "reason": "한국어 앞 행 '합니' 뒤 현재 행 '다.'로 이어지는 어미. 중국어 앞 셀은 이미 '须自行提交相关文件。'로 완료되어 '按需。'는 뜻을 부당하게 추가함. 빈 셀을 허용하지 않는 교정 스키마상 대체문 확정 보류."
+    }
+  ],
+  "edits": [],
+  "note": "두 미확정 셀은 한국어/인접 행 재대조에서 오염을 확인했으나 비어 있지 않은 정확한 대체 셀을 보장할 수 없어 교정문 저장 보류. 기저장·원본 ID/해시 불변. 다음 서식 계속."
+}
