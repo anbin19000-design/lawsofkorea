@@ -19,10 +19,10 @@
   "progress": {
     "korean": "COMPLETE",
     "english": "COMPLETE",
-    "chinese": "IN_PROGRESS; A27040, A27042, A27043 complete review of general and individual disposition tables; forms remain under sequential review.",
-    "reviewed_rows": 610,
-    "corrected_rows": 575,
-    "remaining_rows": 665
+    "chinese": "IN_PROGRESS; reviewed/corrected all rows of A27040, A27041, A27042, A27043; form review/corrections progressed for A27044, A27045, A27046, A27050, A27051, A27054, A27059, A27060; remaining forms A27047-A27049, A27052-A27053, A27055-A27058, A27061 continue.",
+    "reviewed_rows": 764,
+    "corrected_rows": 729,
+    "remaining_rows": 511
   },
   "documents": [],
   "rows": [
@@ -10993,10 +10993,15 @@
       "end": null,
       "target_id": "XML:1906677",
       "source_hash": "5926b358e4133968c108306a77931c4e465bcf09bd30a485e1cf7eac51fd0a3b",
-      "text": "■ 城市空中交通促进支援法实施细则[附件1]",
+      "text": "■《促进和支持城市空中交通利用法施行规则》[附件1]",
       "text_original": "■ 城市空中交通促进支援法实施细则[附件1]",
-      "text_reviewed": "■ 城市空中交通促进支援法实施细则[附件1]",
-      "review_status": "PENDING"
+      "text_reviewed": "■《促进和支持城市空中交通利用法施行规则》[附件1]",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00002",
@@ -11007,10 +11012,15 @@
       "end": null,
       "target_id": "XML:1906678",
       "source_hash": "b9629fd9faa716234653123510913b0945e5dead87cef9db8a44fe277ade1c7b",
-      "text": "城市空中交通示范项目运营方指定申请",
+      "text": "城市空中交通示范项目运营者指定申请书",
       "text_original": "城市空中交通示范项目运营方指定申请",
-      "text_reviewed": "城市空中交通示范项目运营方指定申请",
-      "review_status": "PENDING"
+      "text_reviewed": "城市空中交通示范项目运营者指定申请书",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00003",
@@ -11021,10 +11031,15 @@
       "end": null,
       "target_id": "XML:1906679",
       "source_hash": "6a6c43c1e39653bfd65bfd00e8a2b273ce4c10a5655f8f19a21131253ccd37b7",
-      "text": "※ 深色背景的方框内没有申请人。",
+      "text": "※ 请在相应的[ ]内打√，深色背景栏由申请人以外的人员填写。",
       "text_original": "※ 深色背景的方框内没有申请人。",
-      "text_reviewed": "※ 深色背景的方框内没有申请人。",
-      "review_status": "PENDING"
+      "text_reviewed": "※ 请在相应的[ ]内打√，深色背景栏由申请人以外的人员填写。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00004",
@@ -11035,10 +11050,15 @@
       "end": null,
       "target_id": "XML:1906680",
       "source_hash": "b736160e9f7f0d321a2b458369e87ad0a76a9b7c00b4454ad463a28ce8d1d95b",
-      "text": "收据编号",
+      "text": "受理编号",
       "text_original": "收据编号",
-      "text_reviewed": "收据编号",
-      "review_status": "PENDING"
+      "text_reviewed": "受理编号",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00005",
@@ -11049,10 +11069,15 @@
       "end": null,
       "target_id": "XML:1906681",
       "source_hash": "5a4e38a1578eaec376cc5e1ad28f33f019956fc98d46f14b142cad94c5b1d1a5",
-      "text": "收据日期和时间",
+      "text": "受理日期及时间",
       "text_original": "收据日期和时间",
-      "text_reviewed": "收据日期和时间",
-      "review_status": "PENDING"
+      "text_reviewed": "受理日期及时间",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00006",
@@ -11099,7 +11124,12 @@
       "text": "申请人",
       "text_original": "申请人",
       "text_reviewed": "申请人",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00009",
@@ -11110,10 +11140,15 @@
       "end": null,
       "target_id": "XML:1906685",
       "source_hash": "f4d1761059261db7f6d82ccd6941200ab87391b47810d478e7470d37050e2667",
-      "text": "名称（如果是公司，则填写公司名称及其代表姓名）",
+      "text": "姓名（法人时填写法人名称及代表人姓名）",
       "text_original": "名称（如果是公司，则填写公司名称及其代表姓名）",
-      "text_reviewed": "名称（如果是公司，则填写公司名称及其代表姓名）",
-      "review_status": "PENDING"
+      "text_reviewed": "姓名（法人时填写法人名称及代表人姓名）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00010",
@@ -11124,10 +11159,15 @@
       "end": null,
       "target_id": "XML:1906686",
       "source_hash": "fcf499d943a69cd0a7f49a2f56d1f62c47ab38e4a8a46df75dba413fe834c156",
-      "text": "出生日期（公司注册号）",
+      "text": "出生日期（法人登记号码）",
       "text_original": "出生日期（公司注册号）",
-      "text_reviewed": "出生日期（公司注册号）",
-      "review_status": "PENDING"
+      "text_reviewed": "出生日期（法人登记号码）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00011",
@@ -11138,10 +11178,15 @@
       "end": null,
       "target_id": "XML:1906687",
       "source_hash": "ef4403031e6e67eb6ff612ac7f030ff5fcf2e12e2b56fe2fa253adc78b0c68bb",
-      "text": "位置",
+      "text": "所在地",
       "text_original": "位置",
-      "text_reviewed": "位置",
-      "review_status": "PENDING"
+      "text_reviewed": "所在地",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00012",
@@ -11155,7 +11200,12 @@
       "text": "电话号码",
       "text_original": "电话号码",
       "text_reviewed": "电话号码",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00013",
@@ -11166,10 +11216,15 @@
       "end": null,
       "target_id": "XML:1906689",
       "source_hash": "6eb8af2283964dd94cf76c27e369a8683f5fc1ae122ffc100bb7a269d8d453b3",
-      "text": "应用程序详细信息",
+      "text": "申请内容",
       "text_original": "应用程序详细信息",
-      "text_reviewed": "应用程序详细信息",
-      "review_status": "PENDING"
+      "text_reviewed": "申请内容",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00014",
@@ -11180,10 +11235,15 @@
       "end": null,
       "target_id": "XML:1906690",
       "source_hash": "285f8804ec56c3d704d5b9b7f3bc53618442cb3569325bdcb2167fa1a769ad52",
-      "text": "城市空中交通示范项目规划区域",
+      "text": "城市空中交通示范项目计划区域",
       "text_original": "城市空中交通示范项目规划区域",
-      "text_reviewed": "城市空中交通示范项目规划区域",
-      "review_status": "PENDING"
+      "text_reviewed": "城市空中交通示范项目计划区域",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00015",
@@ -11194,10 +11254,15 @@
       "end": null,
       "target_id": "XML:1906691",
       "source_hash": "9481e19ae88bfe4297284da0c94b323f6950b6cabca5bff32e6658446ac76596",
-      "text": "城市空中交通示范项目启动目标日期",
+      "text": "城市空中交通示范项目开始目标日期",
       "text_original": "城市空中交通示范项目启动目标日期",
-      "text_reviewed": "城市空中交通示范项目启动目标日期",
-      "review_status": "PENDING"
+      "text_reviewed": "城市空中交通示范项目开始目标日期",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00016",
@@ -11208,10 +11273,15 @@
       "end": null,
       "target_id": "XML:1906692",
       "source_hash": "f293a588748337f9e9cba9c15780a726782a10a690670224089d395813cec80b",
-      "text": "城市空中交通示范项目的关键细节",
+      "text": "城市空中交通示范项目主要内容",
       "text_original": "城市空中交通示范项目的关键细节",
-      "text_reviewed": "城市空中交通示范项目的关键细节",
-      "review_status": "PENDING"
+      "text_reviewed": "城市空中交通示范项目主要内容",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00017",
@@ -11222,10 +11292,15 @@
       "end": null,
       "target_id": "XML:1906693",
       "source_hash": "95d28ae5c518a80d89143c49f60c3a9c26d707a1f8a670c4f961a07566178bee",
-      "text": "根据《城市空中交通促进支援法》第七条第一款和该法实施细则第六条第一款的规定",
+      "text": "依据《促进和支持城市空中交通利用法》第7条第1款及同法施行规则第6条第1款，",
       "text_original": "根据《城市空中交通促进支援法》第七条第一款和该法实施细则第六条第一款的规定",
-      "text_reviewed": "根据《城市空中交通促进支援法》第七条第一款和该法实施细则第六条第一款的规定",
-      "review_status": "PENDING"
+      "text_reviewed": "依据《促进和支持城市空中交通利用法》第7条第1款及同法施行规则第6条第1款，",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00018",
@@ -11236,10 +11311,15 @@
       "end": null,
       "target_id": "XML:1906694",
       "source_hash": "e2f6b615c877d878624dad18a71030effd4bc1d3a50d856f528e322a2302dd55",
-      "text": "我正在申请成为城市空中交通示范项目运营方。",
+      "text": "申请指定为城市空中交通示范项目运营者。",
       "text_original": "我正在申请成为城市空中交通示范项目运营方。",
-      "text_reviewed": "我正在申请成为城市空中交通示范项目运营方。",
-      "review_status": "PENDING"
+      "text_reviewed": "申请指定为城市空中交通示范项目运营者。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00019",
@@ -11295,7 +11375,12 @@
       "text": "申请人",
       "text_original": "申请人",
       "text_reviewed": "申请人",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00023",
@@ -11320,10 +11405,15 @@
       "end": null,
       "target_id": "XML:1906700",
       "source_hash": "5d198bb5e838918707a8044806bdf8567e7d1a9dde69dc6d15d873ed679d8657",
-      "text": "国土交通部长",
+      "text": "国土交通部长官",
       "text_original": "国土交通部长",
-      "text_reviewed": "国土交通部长",
-      "review_status": "PENDING"
+      "text_reviewed": "国土交通部长官",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00025",
@@ -11351,7 +11441,12 @@
       "text": "受托机构负责人",
       "text_original": "受托机构负责人",
       "text_reviewed": "受托机构负责人",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00027",
@@ -11362,10 +11457,15 @@
       "end": null,
       "target_id": "XML:1906703",
       "source_hash": "415c12cfe236ffa5094f9e3a7709063457a807995edc8ff53226e774fda2c5bd",
-      "text": "附件",
+      "text": "附件文件",
       "text_original": "附件",
-      "text_reviewed": "附件",
-      "review_status": "PENDING"
+      "text_reviewed": "附件文件",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00028",
@@ -11376,10 +11476,15 @@
       "end": null,
       "target_id": "XML:1906704",
       "source_hash": "4e0edefb5fb3882def60f6c7280f6d1d40da9c21bbb0383cd35159676bd52813",
-      "text": "1. 商业计划，包括以下内容",
+      "text": "1. 包含下列事项的事业计划书",
       "text_original": "1. 商业计划，包括以下内容",
-      "text_reviewed": "1. 商业计划，包括以下内容",
-      "review_status": "PENDING"
+      "text_reviewed": "1. 包含下列事项的事业计划书",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00029",
@@ -11390,10 +11495,15 @@
       "end": null,
       "target_id": "XML:1906705",
       "source_hash": "0313408cdf794fea03a1b1d6758e8ad6cc7c6a9f70b7256de98dafab6a45bf1a",
-      "text": "费用",
+      "text": "手续费",
       "text_original": "费用",
-      "text_reviewed": "费用",
-      "review_status": "PENDING"
+      "text_reviewed": "手续费",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00030",
@@ -11404,10 +11514,15 @@
       "end": null,
       "target_id": "XML:1906706",
       "source_hash": "0eb2c1e84e2ca974dbcc78a34b4d644113b523912bf4a51ea14be309a175ee25",
-      "text": "A. 演示目的和演示期限",
+      "text": "a. 示范目的及示范期间",
       "text_original": "A. 演示目的和演示期限",
-      "text_reviewed": "A. 演示目的和演示期限",
-      "review_status": "PENDING"
+      "text_reviewed": "a. 示范目的及示范期间",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00031",
@@ -11418,10 +11533,15 @@
       "end": null,
       "target_id": "XML:1906707",
       "source_hash": "e5c73b169a0f15900e3c6dbddb9e11f1760ea79d0c82cea2f4cb2a9ea2b3464d",
-      "text": "B. 示范实施计划和实施体系",
+      "text": "b. 示范推进计划及推进体系",
       "text_original": "B. 示范实施计划和实施体系",
-      "text_reviewed": "B. 示范实施计划和实施体系",
-      "review_status": "PENDING"
+      "text_reviewed": "b. 示范推进计划及推进体系",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00032",
@@ -11432,10 +11552,15 @@
       "end": null,
       "target_id": "XML:1906708",
       "source_hash": "72ea3d64ace5bc9414498b815d4305c8867b0942a508179e0657ad60d1274daa",
-      "text": "否",
+      "text": "无",
       "text_original": "否",
-      "text_reviewed": "否",
-      "review_status": "PENDING"
+      "text_reviewed": "无",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00033",
@@ -11446,10 +11571,15 @@
       "end": null,
       "target_id": "XML:1906709",
       "source_hash": "4e5a3de52cbf1575412503588d1692bcab395c97624ddc63b8ad96e050c30b08",
-      "text": ". 安全管理和事故响应计划",
+      "text": "c. 安全管理及事故应对计划",
       "text_original": ". 安全管理和事故响应计划",
-      "text_reviewed": ". 安全管理和事故响应计划",
-      "review_status": "PENDING"
+      "text_reviewed": "c. 安全管理及事故应对计划",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00034",
@@ -11460,10 +11590,15 @@
       "end": null,
       "target_id": "XML:1906710",
       "source_hash": "f92249d08e505690353b59a6357bf1b4ad032d145124fd238382f2f617cd5975",
-      "text": "d. 此外，如果国土交通大臣认为有必要指定城市空中交通示范项目运营商",
+      "text": "d. 国土交通部长官认为为指定城市空中交通示范项目运营者所必要并公告的其他事项",
       "text_original": "d. 此外，如果国土交通大臣认为有必要指定城市空中交通示范项目运营商",
-      "text_reviewed": "d. 此外，如果国土交通大臣认为有必要指定城市空中交通示范项目运营商",
-      "review_status": "PENDING"
+      "text_reviewed": "d. 国土交通部长官认为为指定城市空中交通示范项目运营者所必要并公告的其他事项",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00035",
@@ -11474,10 +11609,15 @@
       "end": null,
       "target_id": "XML:1906712",
       "source_hash": "92d07dde0d24d68f5640e5e095eedad6b44f0abb7a5ba88bef7524e70bee28c8",
-      "text": "2。符合《促进和支持城市空中交通法》实施令附件2规定的指定标准。",
+      "text": "2. 证明符合施行令附件2规定的指定标准的文件",
       "text_original": "2。符合《促进和支持城市空中交通法》实施令附件2规定的指定标准。",
-      "text_reviewed": "2。符合《促进和支持城市空中交通法》实施令附件2规定的指定标准。",
-      "review_status": "PENDING"
+      "text_reviewed": "2. 证明符合施行令附件2规定的指定标准的文件",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00036",
@@ -11488,10 +11628,15 @@
       "end": null,
       "target_id": "XML:1906713",
       "source_hash": "09bb30200039752fb070fbb4087532db71af016a84dd263f03915c4ea97356e5",
-      "text": "证明满意度的文件",
+      "text": "（证明符合指定标准的文件）",
       "text_original": "证明满意度的文件",
-      "text_reviewed": "证明满意度的文件",
-      "review_status": "PENDING"
+      "text_reviewed": "（证明符合指定标准的文件）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00037",
@@ -11502,10 +11647,15 @@
       "end": null,
       "target_id": "XML:1906714",
       "source_hash": "c9cacdac4264cd8d65fcfe64cd7438fcedd19f2619e8f6c02a97f03676d4ec7e",
-      "text": "联系",
+      "text": "经办人确认事项",
       "text_original": "联系",
-      "text_reviewed": "联系",
-      "review_status": "PENDING"
+      "text_reviewed": "经办人确认事项",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00038",
@@ -11516,10 +11666,15 @@
       "end": null,
       "target_id": "XML:1906715",
       "source_hash": "9a9f2914840f9c76c733d9c4d457eb08f608d3f9d27d6c16389d63b4bce953ca",
-      "text": "公司注册证书（仅适用于公司申请人）",
+      "text": "法人登记事项证明书（仅限申请人为法人时）",
       "text_original": "公司注册证书（仅适用于公司申请人）",
-      "text_reviewed": "公司注册证书（仅适用于公司申请人）",
-      "review_status": "PENDING"
+      "text_reviewed": "法人登记事项证明书（仅限申请人为法人时）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00039",
@@ -11549,10 +11704,15 @@
       "end": null,
       "target_id": "XML:1906717",
       "source_hash": "4e630e64d288a3eccad38418c7b7001ada9c3bc100d95b7f44b195552c41c79a",
-      "text": "■ 城市空中交通促进支援法实施细则[附件2]",
+      "text": "■《促进和支持城市空中交通利用法施行规则》[附件2]",
       "text_original": "■ 城市空中交通促进支援法实施细则[附件2]",
-      "text_reviewed": "■ 城市空中交通促进支援法实施细则[附件2]",
-      "review_status": "PENDING"
+      "text_reviewed": "■《促进和支持城市空中交通利用法施行规则》[附件2]",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27045-zh-00002",
@@ -11563,10 +11723,15 @@
       "end": null,
       "target_id": "XML:1906718",
       "source_hash": "b94e182b9a95d9dc23294428515515c68a59d1d634e19d301cdc19e9a9516fed",
-      "text": "第一个",
+      "text": "编号",
       "text_original": "第一个",
-      "text_reviewed": "第一个",
-      "review_status": "PENDING"
+      "text_reviewed": "编号",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27045-zh-00003",
@@ -11577,10 +11742,15 @@
       "end": null,
       "target_id": "XML:1906720",
       "source_hash": "e083442de7eaee55d4be1448aaa4a793d5ae3a74e19e3824073f997cc09972c7",
-      "text": "城市空中交通示范项目运营方指定证书",
+      "text": "城市空中交通示范项目运营者指定证",
       "text_original": "城市空中交通示范项目运营方指定证书",
-      "text_reviewed": "城市空中交通示范项目运营方指定证书",
-      "review_status": "PENDING"
+      "text_reviewed": "城市空中交通示范项目运营者指定证",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27045-zh-00004",
@@ -11591,10 +11761,15 @@
       "end": null,
       "target_id": "XML:1906721",
       "source_hash": "e193d5a5926c007e9f9e1e49b819983e3b011cce3a67c4f2e13780249ae6eda8",
-      "text": "1. 名称（如果是公司，请填写公司名称及其代表姓名）：",
+      "text": "1. 姓名（法人时填写法人名称及代表人姓名）：",
       "text_original": "1. 名称（如果是公司，请填写公司名称及其代表姓名）：",
-      "text_reviewed": "1. 名称（如果是公司，请填写公司名称及其代表姓名）：",
-      "review_status": "PENDING"
+      "text_reviewed": "1. 姓名（法人时填写法人名称及代表人姓名）：",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27045-zh-00005",
@@ -11605,10 +11780,15 @@
       "end": null,
       "target_id": "XML:1906722",
       "source_hash": "dd42d8690e7d7eaf8465207feac31d4a06e618a581582e73cc258924d464a6b9",
-      "text": "2. 出生日期（公司注册号）：",
+      "text": "2. 出生日期（法人登记号码）：",
       "text_original": "2. 出生日期（公司注册号）：",
-      "text_reviewed": "2. 出生日期（公司注册号）：",
-      "review_status": "PENDING"
+      "text_reviewed": "2. 出生日期（法人登记号码）：",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27045-zh-00006",
@@ -11619,10 +11799,15 @@
       "end": null,
       "target_id": "XML:1906723",
       "source_hash": "6fc58aacf3caacd7e546132842143f26d8288c1964f2cf3bba166054bc7a8653",
-      "text": "3。位置：",
+      "text": "3. 所在地：",
       "text_original": "3。位置：",
-      "text_reviewed": "3。位置：",
-      "review_status": "PENDING"
+      "text_reviewed": "3. 所在地：",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27045-zh-00007",
@@ -11633,10 +11818,15 @@
       "end": null,
       "target_id": "XML:1906724",
       "source_hash": "1b6329dffee75181fb0620f02caaf9ff548468e6a5d997ea107ffd83f3ab7c9c",
-      "text": "4. 业务领域：",
+      "text": "4. 事业领域：",
       "text_original": "4. 业务领域：",
-      "text_reviewed": "4. 业务领域：",
-      "review_status": "PENDING"
+      "text_reviewed": "4. 事业领域：",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27045-zh-00008",
@@ -11650,7 +11840,12 @@
       "text": "5. 指定日期：",
       "text_original": "5. 指定日期：",
       "text_reviewed": "5. 指定日期：",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27045-zh-00009",
@@ -11661,10 +11856,15 @@
       "end": null,
       "target_id": "XML:1906726",
       "source_hash": "1dd1b599f725a279802c6902332706b677329b4b7a5f7557e4901371ce1f84d5",
-      "text": "6. 单元状态：",
+      "text": "6. 附加条件：",
       "text_original": "6. 单元状态：",
-      "text_reviewed": "6. 单元状态：",
-      "review_status": "PENDING"
+      "text_reviewed": "6. 附加条件：",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27045-zh-00010",
@@ -11675,10 +11875,15 @@
       "end": null,
       "target_id": "XML:1906727",
       "source_hash": "bc28c8967f5cd5905fca95e4740903a31815e76106bc6a8d8332fe1064c71407",
-      "text": "《城市空中交通利用促进支援法》第七条第一款及同一法律",
+      "text": "依据《促进和支持城市空中交通利用法》第7条第1款及同法施行规则第6条第3款，",
       "text_original": "《城市空中交通利用促进支援法》第七条第一款及同一法律",
-      "text_reviewed": "《城市空中交通利用促进支援法》第七条第一款及同一法律",
-      "review_status": "PENDING"
+      "text_reviewed": "依据《促进和支持城市空中交通利用法》第7条第1款及同法施行规则第6条第3款，",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27045-zh-00011",
@@ -11689,10 +11894,15 @@
       "end": null,
       "target_id": "XML:1906728",
       "source_hash": "58add67ad9d053e889183063b6f2de392abf4c8bfbfc210aea659df829f3ab0f",
-      "text": "根据实施细则第6条第3款，我们指定您为城市空中交通示范项目运营人。",
+      "text": "指定为城市空中交通示范项目运营者。",
       "text_original": "根据实施细则第6条第3款，我们指定您为城市空中交通示范项目运营人。",
-      "text_reviewed": "根据实施细则第6条第3款，我们指定您为城市空中交通示范项目运营人。",
-      "review_status": "PENDING"
+      "text_reviewed": "指定为城市空中交通示范项目运营者。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27045-zh-00012",
@@ -11745,10 +11955,15 @@
       "end": null,
       "target_id": "XML:1906732",
       "source_hash": "9571d4c1342a632e54ed77d876335e9bd629e100e76e8118d290c879db57b832",
-      "text": "国土交通大臣",
+      "text": "国土交通部长官",
       "text_original": "国土交通大臣",
-      "text_reviewed": "国土交通大臣",
-      "review_status": "PENDING"
+      "text_reviewed": "国土交通部长官",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27045-zh-00016",
@@ -11773,10 +11988,15 @@
       "end": null,
       "target_id": "XML:1906734",
       "source_hash": "9c5ea9f13c3c958283c8a09167b6fdff867c47a7e0b555a49ddba005b85229a1",
-      "text": "■ 城市空中交通促进支援法实施细则 [附件3]",
+      "text": "■《促进和支持城市空中交通利用法施行规则》[附件3]",
       "text_original": "■ 城市空中交通促进支援法实施细则 [附件3]",
-      "text_reviewed": "■ 城市空中交通促进支援法实施细则 [附件3]",
-      "review_status": "PENDING"
+      "text_reviewed": "■《促进和支持城市空中交通利用法施行规则》[附件3]",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27046-zh-00002",
@@ -11787,10 +12007,15 @@
       "end": null,
       "target_id": "XML:1906735",
       "source_hash": "4b58e77f601ba96fe019df21343b10f3c613b7ee7c29f1f2d5dbfae5d0e413e3",
-      "text": "指定城市空中交通示范项目运营商登记册",
+      "text": "城市空中交通示范项目运营者指定台账",
       "text_original": "指定城市空中交通示范项目运营商登记册",
-      "text_reviewed": "指定城市空中交通示范项目运营商登记册",
-      "review_status": "PENDING"
+      "text_reviewed": "城市空中交通示范项目运营者指定台账",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27046-zh-00003",
@@ -11804,7 +12029,12 @@
       "text": "指定编号",
       "text_original": "指定编号",
       "text_reviewed": "指定编号",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27046-zh-00004",
@@ -11818,7 +12048,12 @@
       "text": "指定日期",
       "text_original": "指定日期",
       "text_reviewed": "指定日期",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27046-zh-00005",
@@ -11829,10 +12064,15 @@
       "end": null,
       "target_id": "XML:1906738",
       "source_hash": "5aa32deffdf1362feb45b4aaf4a1945b15c91915f96194031e41bc759b5f2f97",
-      "text": "名称",
+      "text": "姓名（法人名称）",
       "text_original": "名称",
-      "text_reviewed": "名称",
-      "review_status": "PENDING"
+      "text_reviewed": "姓名（法人名称）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27046-zh-00006",
@@ -11843,10 +12083,15 @@
       "end": null,
       "target_id": "XML:1906739",
       "source_hash": "ef4403031e6e67eb6ff612ac7f030ff5fcf2e12e2b56fe2fa253adc78b0c68bb",
-      "text": "位置",
+      "text": "所在地",
       "text_original": "位置",
-      "text_reviewed": "位置",
-      "review_status": "PENDING"
+      "text_reviewed": "所在地",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27046-zh-00007",
@@ -11857,10 +12102,15 @@
       "end": null,
       "target_id": "XML:1906740",
       "source_hash": "1fd23945dd4f56912dd1817c7ecbb241ee3f7debbc5fde38f5469bad8047d787",
-      "text": "业务启动",
+      "text": "预计事业开始日期",
       "text_original": "业务启动",
-      "text_reviewed": "业务启动",
-      "review_status": "PENDING"
+      "text_reviewed": "预计事业开始日期",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27046-zh-00008",
@@ -11871,10 +12121,15 @@
       "end": null,
       "target_id": "XML:1906741",
       "source_hash": "01e072fa1efc3a454ea193d15d5a24c448ce9fa37c8b0fbdb3282e11e947eedd",
-      "text": "项目终止",
+      "text": "预计事业结束日期",
       "text_original": "项目终止",
-      "text_reviewed": "项目终止",
-      "review_status": "PENDING"
+      "text_reviewed": "预计事业结束日期",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27046-zh-00009",
@@ -11885,10 +12140,15 @@
       "end": null,
       "target_id": "XML:1906742",
       "source_hash": "9a52dfa87ebfe64f8dc4ed2e3090e610d4c3f8351705d9a0b6581fb06f8374f8",
-      "text": "指定官方文件",
+      "text": "指定公文编号",
       "text_original": "指定官方文件",
-      "text_reviewed": "指定官方文件",
-      "review_status": "PENDING"
+      "text_reviewed": "指定公文编号",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27046-zh-00010",
@@ -11899,10 +12159,15 @@
       "end": null,
       "target_id": "XML:1906743",
       "source_hash": "d4615248e49ac0f6f70c8cb339f75093bae2a9d15e84ab9dea075d4377185912",
-      "text": "业务经营者分类",
+      "text": "事业者类别",
       "text_original": "业务经营者分类",
-      "text_reviewed": "业务经营者分类",
-      "review_status": "PENDING"
+      "text_reviewed": "事业者类别",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27046-zh-00011",
@@ -11913,10 +12178,15 @@
       "end": null,
       "target_id": "XML:1906744",
       "source_hash": "6b942fd3fa4bb6b6e0afd095c9144ee5b9e494cef775d44fa4e650d111873cf7",
-      "text": "业务详情",
+      "text": "事业内容",
       "text_original": "业务详情",
-      "text_reviewed": "业务详情",
-      "review_status": "PENDING"
+      "text_reviewed": "事业内容",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27046-zh-00012",
@@ -15186,10 +15456,15 @@
       "end": null,
       "target_id": "XML:1906987",
       "source_hash": "7c441030fa533c942206ee7d38cf0f4afe8281aaa5a6b334f5f1a3f1f1fc753a",
-      "text": "■ 城市空中交通促进支援法实施细则[附件7]",
+      "text": "■《促进和支持城市空中交通利用法施行规则》[附件7]",
       "text_original": "■ 城市空中交通促进支援法实施细则[附件7]",
-      "text_reviewed": "■ 城市空中交通促进支援法实施细则[附件7]",
-      "review_status": "PENDING"
+      "text_reviewed": "■《促进和支持城市空中交通利用法施行规则》[附件7]",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00002",
@@ -15200,10 +15475,15 @@
       "end": null,
       "target_id": "XML:1906988",
       "source_hash": "0ab0a106269ffde2fb29f20b6960b64bf7138d4fc41c55ad7edda5c35a7a465a",
-      "text": "垂直起降场建设完成报告",
+      "text": "垂直起降场工程竣工报告书",
       "text_original": "垂直起降场建设完成报告",
-      "text_reviewed": "垂直起降场建设完成报告",
-      "review_status": "PENDING"
+      "text_reviewed": "垂直起降场工程竣工报告书",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00003",
@@ -15214,10 +15494,15 @@
       "end": null,
       "target_id": "XML:1906989",
       "source_hash": "6a6c43c1e39653bfd65bfd00e8a2b273ce4c10a5655f8f19a21131253ccd37b7",
-      "text": "※ 深色背景的方框内没有申请人。",
+      "text": "※ 深色背景栏由申请人以外的人员填写。",
       "text_original": "※ 深色背景的方框内没有申请人。",
-      "text_reviewed": "※ 深色背景的方框内没有申请人。",
-      "review_status": "PENDING"
+      "text_reviewed": "※ 深色背景栏由申请人以外的人员填写。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00004",
@@ -15228,10 +15513,15 @@
       "end": null,
       "target_id": "XML:1906990",
       "source_hash": "b736160e9f7f0d321a2b458369e87ad0a76a9b7c00b4454ad463a28ce8d1d95b",
-      "text": "收据编号",
+      "text": "受理编号",
       "text_original": "收据编号",
-      "text_reviewed": "收据编号",
-      "review_status": "PENDING"
+      "text_reviewed": "受理编号",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00005",
@@ -15242,10 +15532,15 @@
       "end": null,
       "target_id": "XML:1906991",
       "source_hash": "5a4e38a1578eaec376cc5e1ad28f33f019956fc98d46f14b142cad94c5b1d1a5",
-      "text": "接收日期",
+      "text": "受理日期及时间",
       "text_original": "接收日期",
-      "text_reviewed": "接收日期",
-      "review_status": "PENDING"
+      "text_reviewed": "受理日期及时间",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00006",
@@ -15256,10 +15551,15 @@
       "end": null,
       "target_id": "XML:1906992",
       "source_hash": "505256a0b3a2758d4ccb05b1a7dd0a73d2302570ea3951a4650a9cc6204d58dc",
-      "text": "报告",
+      "text": "报告人（实施者）",
       "text_original": "报告",
-      "text_reviewed": "报告",
-      "review_status": "PENDING"
+      "text_reviewed": "报告人（实施者）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00007",
@@ -15270,10 +15570,15 @@
       "end": null,
       "target_id": "XML:1906993",
       "source_hash": "f4d1761059261db7f6d82ccd6941200ab87391b47810d478e7470d37050e2667",
-      "text": "名称（如果是公司，则填写公司名称及其代表姓名）",
+      "text": "姓名（法人时填写法人名称及代表人姓名）",
       "text_original": "名称（如果是公司，则填写公司名称及其代表姓名）",
-      "text_reviewed": "名称（如果是公司，则填写公司名称及其代表姓名）",
-      "review_status": "PENDING"
+      "text_reviewed": "姓名（法人时填写法人名称及代表人姓名）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00008",
@@ -15284,10 +15589,15 @@
       "end": null,
       "target_id": "XML:1906994",
       "source_hash": "fcf499d943a69cd0a7f49a2f56d1f62c47ab38e4a8a46df75dba413fe834c156",
-      "text": "出生日期（公司注册号）",
+      "text": "出生日期（法人登记号码）",
       "text_original": "出生日期（公司注册号）",
-      "text_reviewed": "出生日期（公司注册号）",
-      "review_status": "PENDING"
+      "text_reviewed": "出生日期（法人登记号码）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00009",
@@ -15298,10 +15608,15 @@
       "end": null,
       "target_id": "XML:1906995",
       "source_hash": "e42ab5c2c599fb0bd95bc4fa79d4d9a9795c79d73a93bc74c1e601b0f115b3a0",
-      "text": "（执行器）",
+      "text": "（实施者）",
       "text_original": "（执行器）",
-      "text_reviewed": "（执行器）",
-      "review_status": "PENDING"
+      "text_reviewed": "（实施者）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00010",
@@ -15312,10 +15627,15 @@
       "end": null,
       "target_id": "XML:1906996",
       "source_hash": "ef4403031e6e67eb6ff612ac7f030ff5fcf2e12e2b56fe2fa253adc78b0c68bb",
-      "text": "位置",
+      "text": "所在地",
       "text_original": "位置",
-      "text_reviewed": "位置",
-      "review_status": "PENDING"
+      "text_reviewed": "所在地",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00011",
@@ -15329,7 +15649,12 @@
       "text": "电话号码",
       "text_original": "电话号码",
       "text_reviewed": "电话号码",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00012",
@@ -15340,10 +15665,15 @@
       "end": null,
       "target_id": "XML:1906999",
       "source_hash": "19de4a5436903bc544b8ea6b1aeba802aac8e27a96345fd74572240cd9a88305",
-      "text": "权限日期",
+      "text": "许可日期",
       "text_original": "权限日期",
-      "text_reviewed": "权限日期",
-      "review_status": "PENDING"
+      "text_reviewed": "许可日期",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00013",
@@ -15354,10 +15684,15 @@
       "end": null,
       "target_id": "XML:1907000",
       "source_hash": "9f96b8e22cc06bfafc548ef472e33b60548b190f17dbc04b1da176a50d2c6d2c",
-      "text": "名称",
+      "text": "工程（事业）名称",
       "text_original": "名称",
-      "text_reviewed": "名称",
-      "review_status": "PENDING"
+      "text_reviewed": "工程（事业）名称",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00014",
@@ -15368,10 +15703,15 @@
       "end": null,
       "target_id": "XML:1907002",
       "source_hash": "e0bebb354d8f7f3b0c8204eb75c50bfa0454ca9797de7d5d8d4c1ddc4d77a399",
-      "text": "启动",
+      "text": "预计开工日期",
       "text_original": "启动",
-      "text_reviewed": "启动",
-      "review_status": "PENDING"
+      "text_reviewed": "预计开工日期",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00015",
@@ -15382,10 +15722,15 @@
       "end": null,
       "target_id": "XML:1907003",
       "source_hash": "5b910cd1473d913c6c858155675ff04b62c1bac78641367474fda3758421a496",
-      "text": "值",
+      "text": "预计竣工日期",
       "text_original": "值",
-      "text_reviewed": "值",
-      "review_status": "PENDING"
+      "text_reviewed": "预计竣工日期",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00016",
@@ -15399,7 +15744,12 @@
       "text": "设施规模",
       "text_original": "设施规模",
       "text_reviewed": "设施规模",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00017",
@@ -15410,10 +15760,15 @@
       "end": null,
       "target_id": "XML:1907005",
       "source_hash": "6aa1a49189871a1148b8a3a99b8333e6629025d23f3732d65af2f5cbb0e007ba",
-      "text": "总建设成本",
+      "text": "工程总费用",
       "text_original": "总建设成本",
-      "text_reviewed": "总建设成本",
-      "review_status": "PENDING"
+      "text_reviewed": "工程总费用",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00018",
@@ -15424,10 +15779,15 @@
       "end": null,
       "target_id": "XML:1907007",
       "source_hash": "f76f2d3071dd5fb47d95576fbe6c6f36fa88531cd538c2ea5e3633522bb7c873",
-      "text": "《城市空中交通促进支援法》第九条第十款及该法实施细则第十五条第一款",
+      "text": "依据《促进和支持城市空中交通利用法》第9条第10款及同法施行规则第15条第1款，",
       "text_original": "《城市空中交通促进支援法》第九条第十款及该法实施细则第十五条第一款",
-      "text_reviewed": "《城市空中交通促进支援法》第九条第十款及该法实施细则第十五条第一款",
-      "review_status": "PENDING"
+      "text_reviewed": "依据《促进和支持城市空中交通利用法》第9条第10款及同法施行规则第15条第1款，",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00019",
@@ -15438,10 +15798,15 @@
       "end": null,
       "target_id": "XML:1907008",
       "source_hash": "0374542ce966c913a332b49e1fe676cb7e66afb693e2c5ecaac350810bd5fb9f",
-      "text": ".",
+      "text": "提交垂直起降场工程竣工报告书。",
       "text_original": ".",
-      "text_reviewed": ".",
-      "review_status": "PENDING"
+      "text_reviewed": "提交垂直起降场工程竣工报告书。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00020",
@@ -15494,10 +15859,15 @@
       "end": null,
       "target_id": "XML:1907012",
       "source_hash": "0c639d2d444c27b00e62773c945b777ab7f758a78db81162b877a3e7675fda7d",
-      "text": "报告器",
+      "text": "报告人",
       "text_original": "报告器",
-      "text_reviewed": "报告器",
-      "review_status": "PENDING"
+      "text_reviewed": "报告人",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00024",
@@ -15522,10 +15892,15 @@
       "end": null,
       "target_id": "XML:1907014",
       "source_hash": "5d198bb5e838918707a8044806bdf8567e7d1a9dde69dc6d15d873ed679d8657",
-      "text": "国土交通部长",
+      "text": "国土交通部长官",
       "text_original": "国土交通部长",
-      "text_reviewed": "国土交通部长",
-      "review_status": "PENDING"
+      "text_reviewed": "国土交通部长官",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00026",
@@ -15553,7 +15928,12 @@
       "text": "受托机构负责人",
       "text_original": "受托机构负责人",
       "text_reviewed": "受托机构负责人",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00028",
@@ -15564,10 +15944,15 @@
       "end": null,
       "target_id": "XML:1907017",
       "source_hash": "0c639d2d444c27b00e62773c945b777ab7f758a78db81162b877a3e7675fda7d",
-      "text": "报告器",
+      "text": "报告人提交文件",
       "text_original": "报告器",
-      "text_reviewed": "报告器",
-      "review_status": "PENDING"
+      "text_reviewed": "报告人提交文件",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00029",
@@ -15578,10 +15963,15 @@
       "end": null,
       "target_id": "XML:1907018",
       "source_hash": "3d1ff17d4984696b415d3d53218dd4f88382fabb9e6594a72b5cc5a02ac2c9ea",
-      "text": "1. 竣工报告（包含竣工设计文件和竣工照片）",
+      "text": "1. 竣工报告（包括竣工设计文件及竣工照片）",
       "text_original": "1. 竣工报告（包含竣工设计文件和竣工照片）",
-      "text_reviewed": "1. 竣工报告（包含竣工设计文件和竣工照片）",
-      "review_status": "PENDING"
+      "text_reviewed": "1. 竣工报告（包括竣工设计文件及竣工照片）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00030",
@@ -15592,10 +15982,15 @@
       "end": null,
       "target_id": "XML:1907019",
       "source_hash": "0313408cdf794fea03a1b1d6758e8ad6cc7c6a9f70b7256de98dafab6a45bf1a",
-      "text": "费用",
+      "text": "手续费",
       "text_original": "费用",
-      "text_reviewed": "费用",
-      "review_status": "PENDING"
+      "text_reviewed": "手续费",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00031",
@@ -15606,10 +16001,15 @@
       "end": null,
       "target_id": "XML:1907020",
       "source_hash": "9b9f765e005f6811c5e986daa041057cea83f9af6c19ca7d70a7ef3c9ab707c9",
-      "text": "待提交文档",
+      "text": "无",
       "text_original": "待提交文档",
-      "text_reviewed": "待提交文档",
-      "review_status": "PENDING"
+      "text_reviewed": "无",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00032",
@@ -15620,10 +16020,15 @@
       "end": null,
       "target_id": "XML:1907021",
       "source_hash": "137657cc9e93e1c402a514acab15b4d5aac59887add3804e1f4f901bcb61a9c4",
-      "text": "2. 竣工照片或图纸，用于区分施工开始前和竣工后的情况",
+      "text": "2. 能够区分开工前及竣工后状况的竣工照片或图纸",
       "text_original": "2. 竣工照片或图纸，用于区分施工开始前和竣工后的情况",
-      "text_reviewed": "2. 竣工照片或图纸，用于区分施工开始前和竣工后的情况",
-      "review_status": "PENDING"
+      "text_reviewed": "2. 能够区分开工前及竣工后状况的竣工照片或图纸",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00033",
@@ -15634,10 +16039,15 @@
       "end": null,
       "target_id": "XML:1907022",
       "source_hash": "72ea3d64ace5bc9414498b815d4305c8867b0942a508179e0657ad60d1274daa",
-      "text": "否",
+      "text": "（文件续）",
       "text_original": "否",
-      "text_reviewed": "否",
-      "review_status": "PENDING"
+      "text_reviewed": "（文件续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00034",
@@ -15648,10 +16058,15 @@
       "end": null,
       "target_id": "XML:1907023",
       "source_hash": "3845bac7624b70ec3c4f91420f254271af08d29f442430f9876f75de81eb88fd",
-      "text": "3. 根据《建筑技术促进法》实施令第93条（以下简称“该法”）编制的质量测试或检验结果汇总表",
+      "text": "3. 依据《建设技术振兴法施行令》第93条编制的质量试验或检查结果汇总表",
       "text_original": "3. 根据《建筑技术促进法》实施令第93条（以下简称“该法”）编制的质量测试或检验结果汇总表",
-      "text_reviewed": "3. 根据《建筑技术促进法》实施令第93条（以下简称“该法”）编制的质量测试或检验结果汇总表",
-      "review_status": "PENDING"
+      "text_reviewed": "3. 依据《建设技术振兴法施行令》第93条编制的质量试验或检查结果汇总表",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00035",
@@ -15662,10 +16077,15 @@
       "end": null,
       "target_id": "XML:1907024",
       "source_hash": "4363984804ec383e4731f57babece73d62529e5315e43da2e487f289ae6c48c8",
-      "text": "（仅适用于根据实施法令第89条规定必须制定质量控制计划或质量检测计划的建设项目）",
+      "text": "（仅限依据同一施行令第89条必须制定质量管理计划或质量试验计划的建设工程）",
       "text_original": "（仅适用于根据实施法令第89条规定必须制定质量控制计划或质量检测计划的建设项目）",
-      "text_reviewed": "（仅适用于根据实施法令第89条规定必须制定质量控制计划或质量检测计划的建设项目）",
-      "review_status": "PENDING"
+      "text_reviewed": "（仅限依据同一施行令第89条必须制定质量管理计划或质量试验计划的建设工程）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00036",
@@ -15676,10 +16096,15 @@
       "end": null,
       "target_id": "XML:1907025",
       "source_hash": "0b096f89e7a1379edd1e7cc752dda47bf5e2f570a1b25e3822ae8277ec5a644f",
-      "text": "4. 市长、县长或区长（自治区指区长）签发的地籍测量结果图（土地划分",
+      "text": "4. 市长、郡守或区厅长（指自治区区厅长）出具的地籍测量成果图（仅限土地分割等需要确认地籍测量成果图的情形）",
       "text_original": "4. 市长、县长或区长（自治区指区长）签发的地籍测量结果图（土地划分",
-      "text_reviewed": "4. 市长、县长或区长（自治区指区长）签发的地籍测量结果图（土地划分",
-      "review_status": "PENDING"
+      "text_reviewed": "4. 市长、郡守或区厅长（指自治区区厅长）出具的地籍测量成果图（仅限土地分割等需要确认地籍测量成果图的情形）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00037",
@@ -15690,10 +16115,15 @@
       "end": null,
       "target_id": "XML:1907026",
       "source_hash": "c1889baefbac9f6d68e4c9e7dbc23f26cfb4b560a22057d2760925f90dfd5c26",
-      "text": ")",
+      "text": "（上述文件续）",
       "text_original": ")",
-      "text_reviewed": ")",
-      "review_status": "PENDING"
+      "text_reviewed": "（上述文件续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00038",
@@ -15704,10 +16134,15 @@
       "end": null,
       "target_id": "XML:1907027",
       "source_hash": "c9cacdac4264cd8d65fcfe64cd7438fcedd19f2619e8f6c02a97f03676d4ec7e",
-      "text": "联系",
+      "text": "经办人确认事项",
       "text_original": "联系",
-      "text_reviewed": "联系",
-      "review_status": "PENDING"
+      "text_reviewed": "经办人确认事项",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00039",
@@ -15718,10 +16153,15 @@
       "end": null,
       "target_id": "XML:1907028",
       "source_hash": "9a9f2914840f9c76c733d9c4d457eb08f608d3f9d27d6c16389d63b4bce953ca",
-      "text": "公司注册证书（仅适用于公司申请人）",
+      "text": "法人登记事项证明书（仅限申请人为法人时）",
       "text_original": "公司注册证书（仅适用于公司申请人）",
-      "text_reviewed": "公司注册证书（仅适用于公司申请人）",
-      "review_status": "PENDING"
+      "text_reviewed": "法人登记事项证明书（仅限申请人为法人时）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00040",
@@ -15732,10 +16172,15 @@
       "end": null,
       "target_id": "XML:1907029",
       "source_hash": "1a5be3c5938c8c2cedf096bb1485ce5f53335572edc7c3dbbf132e7bf9927045",
-      "text": "待验证事项",
+      "text": "确认事项",
       "text_original": "待验证事项",
-      "text_reviewed": "待验证事项",
-      "review_status": "PENDING"
+      "text_reviewed": "确认事项",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00041",
@@ -15746,10 +16191,15 @@
       "end": null,
       "target_id": "XML:1907030",
       "source_hash": "2879222415672d201abfe3e634d8339e67e1459aae97a4f34b023760aaf0d94f",
-      "text": "处理过程",
+      "text": "办理程序",
       "text_original": "处理过程",
-      "text_reviewed": "处理过程",
-      "review_status": "PENDING"
+      "text_reviewed": "办理程序",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00042",
@@ -15760,10 +16210,15 @@
       "end": null,
       "target_id": "XML:1907031",
       "source_hash": "4c090f6ff0844a25cc8cf1468cc94a2c16f7cd5d8ac369b5854675e094ba81c6",
-      "text": "报表创建",
+      "text": "编制报告书",
       "text_original": "报表创建",
-      "text_reviewed": "报表创建",
-      "review_status": "PENDING"
+      "text_reviewed": "编制报告书",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00043",
@@ -15774,10 +16229,15 @@
       "end": null,
       "target_id": "XML:1907032",
       "source_hash": "7e75ad0a7ea4c419d8532ca6652de0d23b34f1ecc852de4b3aaa54ed418b29f3",
-      "text": "收据",
+      "text": "受理",
       "text_original": "收据",
-      "text_reviewed": "收据",
-      "review_status": "PENDING"
+      "text_reviewed": "受理",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00044",
@@ -15791,7 +16251,12 @@
       "text": "审查",
       "text_original": "审查",
       "text_reviewed": "审查",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00045",
@@ -15802,10 +16267,15 @@
       "end": null,
       "target_id": "XML:1907034",
       "source_hash": "95f917fe3d2584ffa811e126334250c6e45c6f42c924def5cbe91a50fb98d304",
-      "text": "完成 Re",
+      "text": "批准",
       "text_original": "完成 Re",
-      "text_reviewed": "完成 Re",
-      "review_status": "PENDING"
+      "text_reviewed": "批准",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00046",
@@ -15819,7 +16289,12 @@
       "text": "收到通知",
       "text_original": "收到通知",
       "text_reviewed": "收到通知",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00047",
@@ -15830,10 +16305,15 @@
       "end": null,
       "target_id": "XML:1907036",
       "source_hash": "0c639d2d444c27b00e62773c945b777ab7f758a78db81162b877a3e7675fda7d",
-      "text": "报告器",
+      "text": "报告人",
       "text_original": "报告器",
-      "text_reviewed": "报告器",
-      "review_status": "PENDING"
+      "text_reviewed": "报告人",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00048",
@@ -15847,7 +16327,12 @@
       "text": "处理机构",
       "text_original": "处理机构",
       "text_reviewed": "处理机构",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00049",
@@ -15861,7 +16346,12 @@
       "text": "处理机构",
       "text_original": "处理机构",
       "text_reviewed": "处理机构",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00050",
@@ -15875,7 +16365,12 @@
       "text": "处理机构",
       "text_original": "处理机构",
       "text_reviewed": "处理机构",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00051",
@@ -15886,10 +16381,15 @@
       "end": null,
       "target_id": "XML:1907040",
       "source_hash": "0c639d2d444c27b00e62773c945b777ab7f758a78db81162b877a3e7675fda7d",
-      "text": "报告器",
+      "text": "报告人",
       "text_original": "报告器",
-      "text_reviewed": "报告器",
-      "review_status": "PENDING"
+      "text_reviewed": "报告人",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00052",
@@ -15900,10 +16400,15 @@
       "end": null,
       "target_id": "XML:1907041",
       "source_hash": "4db01c80551e28d827d5d9f3325694f55523dc9e972c0080640a77cb25315e1d",
-      "text": "(国土交通部或",
+      "text": "（国土交通部或",
       "text_original": "(国土交通部或",
-      "text_reviewed": "(国土交通部或",
-      "review_status": "PENDING"
+      "text_reviewed": "（国土交通部或",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00053",
@@ -15942,10 +16447,15 @@
       "end": null,
       "target_id": "XML:1907044",
       "source_hash": "f34c8b69053f9e5989bbbc9ad8f5c4dc580e199d3812fd530f49f11f00c4281e",
-      "text": "受托人)",
+      "text": "受托机构）",
       "text_original": "受托人)",
-      "text_reviewed": "受托人)",
-      "review_status": "PENDING"
+      "text_reviewed": "受托机构）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27051-zh-00001",
@@ -15956,10 +16466,15 @@
       "end": null,
       "target_id": "XML:1907045",
       "source_hash": "1828cc90c4a4cb8124b1a30074cdda08d13f3538f8f6f250b6cc5b3a6c6c81e9",
-      "text": "■ 城市空中交通促进支援法实施细则 [附件8]",
+      "text": "■《促进和支持城市空中交通利用法施行规则》[附件8]",
       "text_original": "■ 城市空中交通促进支援法实施细则 [附件8]",
-      "text_reviewed": "■ 城市空中交通促进支援法实施细则 [附件8]",
-      "review_status": "PENDING"
+      "text_reviewed": "■《促进和支持城市空中交通利用法施行规则》[附件8]",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27051-zh-00002",
@@ -15970,10 +16485,15 @@
       "end": null,
       "target_id": "XML:1907046",
       "source_hash": "125797a76771f62a679621bfb7f5e96383eef0a6a0071f2a60475f8f06b41bfc",
-      "text": "垂直起降场完成证书",
+      "text": "垂直起降场竣工确认书",
       "text_original": "垂直起降场完成证书",
-      "text_reviewed": "垂直起降场完成证书",
-      "review_status": "PENDING"
+      "text_reviewed": "垂直起降场竣工确认书",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27051-zh-00003",
@@ -15984,10 +16504,15 @@
       "end": null,
       "target_id": "XML:1907047",
       "source_hash": "5ea1f8dafca22f113f3a65157e944089af64c66c3a0a9d08197d9344b6a52b5a",
-      "text": "申请人",
+      "text": "申请人（实施者）",
       "text_original": "申请人",
-      "text_reviewed": "申请人",
-      "review_status": "PENDING"
+      "text_reviewed": "申请人（实施者）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27051-zh-00004",
@@ -15998,10 +16523,15 @@
       "end": null,
       "target_id": "XML:1907048",
       "source_hash": "f4d1761059261db7f6d82ccd6941200ab87391b47810d478e7470d37050e2667",
-      "text": "名称（如果是公司，则填写公司名称及其代表姓名）",
+      "text": "姓名（法人时填写法人名称及代表人姓名）",
       "text_original": "名称（如果是公司，则填写公司名称及其代表姓名）",
-      "text_reviewed": "名称（如果是公司，则填写公司名称及其代表姓名）",
-      "review_status": "PENDING"
+      "text_reviewed": "姓名（法人时填写法人名称及代表人姓名）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27051-zh-00005",
@@ -16012,10 +16542,15 @@
       "end": null,
       "target_id": "XML:1907049",
       "source_hash": "fcf499d943a69cd0a7f49a2f56d1f62c47ab38e4a8a46df75dba413fe834c156",
-      "text": "出生日期（公司注册号）",
+      "text": "出生日期（法人登记号码）",
       "text_original": "出生日期（公司注册号）",
-      "text_reviewed": "出生日期（公司注册号）",
-      "review_status": "PENDING"
+      "text_reviewed": "出生日期（法人登记号码）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27051-zh-00006",
@@ -16026,10 +16561,15 @@
       "end": null,
       "target_id": "XML:1907050",
       "source_hash": "e42ab5c2c599fb0bd95bc4fa79d4d9a9795c79d73a93bc74c1e601b0f115b3a0",
-      "text": "（执行器）",
+      "text": "（实施者）",
       "text_original": "（执行器）",
-      "text_reviewed": "（执行器）",
-      "review_status": "PENDING"
+      "text_reviewed": "（实施者）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27051-zh-00007",
@@ -16040,10 +16580,15 @@
       "end": null,
       "target_id": "XML:1907051",
       "source_hash": "ef4403031e6e67eb6ff612ac7f030ff5fcf2e12e2b56fe2fa253adc78b0c68bb",
-      "text": "位置",
+      "text": "所在地",
       "text_original": "位置",
-      "text_reviewed": "位置",
-      "review_status": "PENDING"
+      "text_reviewed": "所在地",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27051-zh-00008",
@@ -16054,10 +16599,15 @@
       "end": null,
       "target_id": "XML:1907053",
       "source_hash": "19de4a5436903bc544b8ea6b1aeba802aac8e27a96345fd74572240cd9a88305",
-      "text": "权限日期",
+      "text": "许可日期",
       "text_original": "权限日期",
-      "text_reviewed": "权限日期",
-      "review_status": "PENDING"
+      "text_reviewed": "许可日期",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27051-zh-00009",
@@ -16068,10 +16618,15 @@
       "end": null,
       "target_id": "XML:1907054",
       "source_hash": "9f96b8e22cc06bfafc548ef472e33b60548b190f17dbc04b1da176a50d2c6d2c",
-      "text": "名称",
+      "text": "工程（事业）名称",
       "text_original": "名称",
-      "text_reviewed": "名称",
-      "review_status": "PENDING"
+      "text_reviewed": "工程（事业）名称",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27051-zh-00010",
@@ -16082,10 +16637,15 @@
       "end": null,
       "target_id": "XML:1907056",
       "source_hash": "e0bebb354d8f7f3b0c8204eb75c50bfa0454ca9797de7d5d8d4c1ddc4d77a399",
-      "text": "启动",
+      "text": "预计开工日期",
       "text_original": "启动",
-      "text_reviewed": "启动",
-      "review_status": "PENDING"
+      "text_reviewed": "预计开工日期",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27051-zh-00011",
@@ -16096,10 +16656,15 @@
       "end": null,
       "target_id": "XML:1907057",
       "source_hash": "5b910cd1473d913c6c858155675ff04b62c1bac78641367474fda3758421a496",
-      "text": "值",
+      "text": "预计竣工日期",
       "text_original": "值",
-      "text_reviewed": "值",
-      "review_status": "PENDING"
+      "text_reviewed": "预计竣工日期",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27051-zh-00012",
@@ -16113,7 +16678,12 @@
       "text": "设施规模",
       "text_original": "设施规模",
       "text_reviewed": "设施规模",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27051-zh-00013",
@@ -16124,10 +16694,15 @@
       "end": null,
       "target_id": "XML:1907059",
       "source_hash": "6aa1a49189871a1148b8a3a99b8333e6629025d23f3732d65af2f5cbb0e007ba",
-      "text": "总建设成本",
+      "text": "工程总费用",
       "text_original": "总建设成本",
-      "text_reviewed": "总建设成本",
-      "review_status": "PENDING"
+      "text_reviewed": "工程总费用",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27051-zh-00014",
@@ -16138,10 +16713,15 @@
       "end": null,
       "target_id": "XML:1907060",
       "source_hash": "ef0b1d0080600f9f1e8afb6681483250b8e83822fdce1bcd6528364578efb6ff",
-      "text": "施工期",
+      "text": "工程期间",
       "text_original": "施工期",
-      "text_reviewed": "施工期",
-      "review_status": "PENDING"
+      "text_reviewed": "工程期间",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27051-zh-00015",
@@ -16152,10 +16732,15 @@
       "end": null,
       "target_id": "XML:1907061",
       "source_hash": "eb034e86ba812b56ce31a427bac478e65feb03c340e7638a1251c360a70e7bf8",
-      "text": "《城市空中交通促进支援法》第九条第十一款及该法实施细则第十五条",
+      "text": "依据《促进和支持城市空中交通利用法》第9条第11款及同法施行规则第15条第2款，",
       "text_original": "《城市空中交通促进支援法》第九条第十一款及该法实施细则第十五条",
-      "text_reviewed": "《城市空中交通促进支援法》第九条第十一款及该法实施细则第十五条",
-      "review_status": "PENDING"
+      "text_reviewed": "依据《促进和支持城市空中交通利用法》第9条第11款及同法施行规则第15条第2款，",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27051-zh-00016",
@@ -16166,10 +16751,15 @@
       "end": null,
       "target_id": "XML:1907062",
       "source_hash": "513d03e667412d71a787b6529042b01920dd39a43e48796b30dfa39940a4816f",
-      "text": "我确认施工已按照第2段规定完成。",
+      "text": "确认上述工程已竣工。",
       "text_original": "我确认施工已按照第2段规定完成。",
-      "text_reviewed": "我确认施工已按照第2段规定完成。",
-      "review_status": "PENDING"
+      "text_reviewed": "确认上述工程已竣工。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27051-zh-00017",
@@ -17764,10 +18354,15 @@
       "end": null,
       "target_id": "XML:1907180",
       "source_hash": "b75f0d30ea9b96d684dd1c0a441e44979a7967e214dfe7df93ed9891489c2b76",
-      "text": "■ 城市空中交通促进支援法实施细则[附件11]",
+      "text": "■《促进和支持城市空中交通利用法施行规则》[附件11]",
       "text_original": "■ 城市空中交通促进支援法实施细则[附件11]",
-      "text_reviewed": "■ 城市空中交通促进支援法实施细则[附件11]",
-      "review_status": "PENDING"
+      "text_reviewed": "■《促进和支持城市空中交通利用法施行规则》[附件11]",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27054-zh-00002",
@@ -17778,10 +18373,15 @@
       "end": null,
       "target_id": "XML:1907181",
       "source_hash": "b94e182b9a95d9dc23294428515515c68a59d1d634e19d301cdc19e9a9516fed",
-      "text": "第一个",
+      "text": "编号",
       "text_original": "第一个",
-      "text_reviewed": "第一个",
-      "review_status": "PENDING"
+      "text_reviewed": "编号",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27054-zh-00003",
@@ -17792,10 +18392,15 @@
       "end": null,
       "target_id": "XML:1907183",
       "source_hash": "b9a007568ca09fd8135f4eca6f31c2e2aa07d9882a3eb7faabfaca96d569a827",
-      "text": "指定为城市空中交通运营商",
+      "text": "城市空中交通事业者指定证",
       "text_original": "指定为城市空中交通运营商",
-      "text_reviewed": "指定为城市空中交通运营商",
-      "review_status": "PENDING"
+      "text_reviewed": "城市空中交通事业者指定证",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27054-zh-00004",
@@ -17806,10 +18411,15 @@
       "end": null,
       "target_id": "XML:1907184",
       "source_hash": "e193d5a5926c007e9f9e1e49b819983e3b011cce3a67c4f2e13780249ae6eda8",
-      "text": "1. 名称（如果是公司，请填写公司名称及其代表姓名）：",
+      "text": "1. 姓名（法人时填写法人名称及代表人姓名）：",
       "text_original": "1. 名称（如果是公司，请填写公司名称及其代表姓名）：",
-      "text_reviewed": "1. 名称（如果是公司，请填写公司名称及其代表姓名）：",
-      "review_status": "PENDING"
+      "text_reviewed": "1. 姓名（法人时填写法人名称及代表人姓名）：",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27054-zh-00005",
@@ -17820,10 +18430,15 @@
       "end": null,
       "target_id": "XML:1907185",
       "source_hash": "dd42d8690e7d7eaf8465207feac31d4a06e618a581582e73cc258924d464a6b9",
-      "text": "2. 出生日期（公司注册号）：",
+      "text": "2. 出生日期（法人登记号码）：",
       "text_original": "2. 出生日期（公司注册号）：",
-      "text_reviewed": "2. 出生日期（公司注册号）：",
-      "review_status": "PENDING"
+      "text_reviewed": "2. 出生日期（法人登记号码）：",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27054-zh-00006",
@@ -17834,10 +18449,15 @@
       "end": null,
       "target_id": "XML:1907186",
       "source_hash": "6fc58aacf3caacd7e546132842143f26d8288c1964f2cf3bba166054bc7a8653",
-      "text": "3。位置：",
+      "text": "3. 所在地：",
       "text_original": "3。位置：",
-      "text_reviewed": "3。位置：",
-      "review_status": "PENDING"
+      "text_reviewed": "3. 所在地：",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27054-zh-00007",
@@ -17848,10 +18468,15 @@
       "end": null,
       "target_id": "XML:1907187",
       "source_hash": "1b6329dffee75181fb0620f02caaf9ff548468e6a5d997ea107ffd83f3ab7c9c",
-      "text": "4. 业务领域：",
+      "text": "4. 事业领域：",
       "text_original": "4. 业务领域：",
-      "text_reviewed": "4. 业务领域：",
-      "review_status": "PENDING"
+      "text_reviewed": "4. 事业领域：",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27054-zh-00008",
@@ -17862,10 +18487,15 @@
       "end": null,
       "target_id": "XML:1907188",
       "source_hash": "f600161bce79f20f5a8ec814da3a3304ca5ee6c1b67880b22a8eef89234732f6",
-      "text": "5. 城市空中交通业务办公室：",
+      "text": "5. 城市空中交通事业营业所：",
       "text_original": "5. 城市空中交通业务办公室：",
-      "text_reviewed": "5. 城市空中交通业务办公室：",
-      "review_status": "PENDING"
+      "text_reviewed": "5. 城市空中交通事业营业所：",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27054-zh-00009",
@@ -17879,7 +18509,12 @@
       "text": "6. 指定日期：",
       "text_original": "6. 指定日期：",
       "text_reviewed": "6. 指定日期：",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27054-zh-00010",
@@ -17890,10 +18525,15 @@
       "end": null,
       "target_id": "XML:1907190",
       "source_hash": "65641c8ae219f1f675fc775d6da13946a2d36f332411b531f64a5b0d3ab0b9ad",
-      "text": "7. 单元状态：",
+      "text": "7. 附加条件：",
       "text_original": "7. 单元状态：",
-      "text_reviewed": "7. 单元状态：",
-      "review_status": "PENDING"
+      "text_reviewed": "7. 附加条件：",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27054-zh-00011",
@@ -17904,10 +18544,15 @@
       "end": null,
       "target_id": "XML:1907191",
       "source_hash": "4334790f601e974f3aa4419a526bc41bf30160d74250625409b97c01896ed4a8",
-      "text": "《城市空中交通促进支援法》第十四条第一款及同一法律",
+      "text": "依据《促进和支持城市空中交通利用法》第14条第1款及同法施行规则第19条第3款，",
       "text_original": "《城市空中交通促进支援法》第十四条第一款及同一法律",
-      "text_reviewed": "《城市空中交通促进支援法》第十四条第一款及同一法律",
-      "review_status": "PENDING"
+      "text_reviewed": "依据《促进和支持城市空中交通利用法》第14条第1款及同法施行规则第19条第3款，",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27054-zh-00012",
@@ -17918,10 +18563,15 @@
       "end": null,
       "target_id": "XML:1907192",
       "source_hash": "cf130f97f23049735e772b2d1a281da95be5910abfe5488211c59e5f9648ee23",
-      "text": "根据实施细则第十九条第三款，指定为城市空中交通业务经营者。",
+      "text": "指定为城市空中交通事业者。",
       "text_original": "根据实施细则第十九条第三款，指定为城市空中交通业务经营者。",
-      "text_reviewed": "根据实施细则第十九条第三款，指定为城市空中交通业务经营者。",
-      "review_status": "PENDING"
+      "text_reviewed": "指定为城市空中交通事业者。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27054-zh-00013",
@@ -19847,10 +20497,15 @@
       "end": null,
       "target_id": "XML:1907332",
       "source_hash": "f3c662c7c893ee341963e0e3466c826b153b8d864b8bc81b08591f8d54a8b1d5",
-      "text": "■ 城市空中交通促进支援法实施细则[附件16]",
+      "text": "■《促进和支持城市空中交通利用法施行规则》[附件16]",
       "text_original": "■ 城市空中交通促进支援法实施细则[附件16]",
-      "text_reviewed": "■ 城市空中交通促进支援法实施细则[附件16]",
-      "review_status": "PENDING"
+      "text_reviewed": "■《促进和支持城市空中交通利用法施行规则》[附件16]",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27059-zh-00002",
@@ -19861,10 +20516,15 @@
       "end": null,
       "target_id": "XML:1907333",
       "source_hash": "b94e182b9a95d9dc23294428515515c68a59d1d634e19d301cdc19e9a9516fed",
-      "text": "第一个",
+      "text": "编号",
       "text_original": "第一个",
-      "text_reviewed": "第一个",
-      "review_status": "PENDING"
+      "text_reviewed": "编号",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27059-zh-00003",
@@ -19875,10 +20535,15 @@
       "end": null,
       "target_id": "XML:1907335",
       "source_hash": "ca1e5d04549aa9a9c0023d4cd767e3f00a099a0ff9dbb59083c8fdd04ef67f3e",
-      "text": "专业人力资源培训机构指定证书",
+      "text": "专业人才培养机构指定证",
       "text_original": "专业人力资源培训机构指定证书",
-      "text_reviewed": "专业人力资源培训机构指定证书",
-      "review_status": "PENDING"
+      "text_reviewed": "专业人才培养机构指定证",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27059-zh-00004",
@@ -19889,10 +20554,15 @@
       "end": null,
       "target_id": "XML:1907336",
       "source_hash": "263539b6c93c09fb2739848fd42e11fd840e2ffdd8ece1c74ca2658a779c4940",
-      "text": "1. 机构/组织名称：",
+      "text": "1. 机关、团体名称：",
       "text_original": "1. 机构/组织名称：",
-      "text_reviewed": "1. 机构/组织名称：",
-      "review_status": "PENDING"
+      "text_reviewed": "1. 机关、团体名称：",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27059-zh-00005",
@@ -19903,10 +20573,15 @@
       "end": null,
       "target_id": "XML:1907337",
       "source_hash": "fb0d08af0bf7c75c66e9f5c41ba164d5bcade70de776fd9c92821ee3c997e991",
-      "text": "2. 机构/组织代表：",
+      "text": "2. 机关、团体代表人：",
       "text_original": "2. 机构/组织代表：",
-      "text_reviewed": "2. 机构/组织代表：",
-      "review_status": "PENDING"
+      "text_reviewed": "2. 机关、团体代表人：",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27059-zh-00006",
@@ -19917,10 +20592,15 @@
       "end": null,
       "target_id": "XML:1907338",
       "source_hash": "6491ece1997d8edf32ddd3d0e8ea08e3a43d4865fdeb995163309b204728feee",
-      "text": "3。位置：",
+      "text": "3. 所在地：",
       "text_original": "3。位置：",
-      "text_reviewed": "3。位置：",
-      "review_status": "PENDING"
+      "text_reviewed": "3. 所在地：",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27059-zh-00007",
@@ -19931,10 +20611,15 @@
       "end": null,
       "target_id": "XML:1907339",
       "source_hash": "9364070d9e4472a7c670442615011a86a68b3f02e4f1dcc0084dc0aafbc9da5d",
-      "text": "《城市空中交通促进支援法》第24条第3款及相同条款",
+      "text": "依据《促进和支持城市空中交通利用法》第24条第3款及同法施行规则第23条第3款，",
       "text_original": "《城市空中交通促进支援法》第24条第3款及相同条款",
-      "text_reviewed": "《城市空中交通促进支援法》第24条第3款及相同条款",
-      "review_status": "PENDING"
+      "text_reviewed": "依据《促进和支持城市空中交通利用法》第24条第3款及同法施行规则第23条第3款，",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27059-zh-00008",
@@ -19945,10 +20630,15 @@
       "end": null,
       "target_id": "XML:1907340",
       "source_hash": "5a2fa6ffecbd67037958ed488842824b1b4b8301fccb9f918f20f3a7802a20d2",
-      "text": "根据该法实施细则第二十三条第三款的规定，上述机构和组织被指定为专业人员培训机构。",
+      "text": "指定上述机关、团体为专业人才培养机构。",
       "text_original": "根据该法实施细则第二十三条第三款的规定，上述机构和组织被指定为专业人员培训机构。",
-      "text_reviewed": "根据该法实施细则第二十三条第三款的规定，上述机构和组织被指定为专业人员培训机构。",
-      "review_status": "PENDING"
+      "text_reviewed": "指定上述机关、团体为专业人才培养机构。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27059-zh-00009",
@@ -19959,10 +20649,15 @@
       "end": null,
       "target_id": "XML:1907341",
       "source_hash": "7113f00ee5b35146990ba52723fd9d3f9076f48149410c1e7c89031169755d91",
-      "text": "表示。",
+      "text": "（指定事项）",
       "text_original": "表示。",
-      "text_reviewed": "表示。",
-      "review_status": "PENDING"
+      "text_reviewed": "（指定事项）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27059-zh-00010",
@@ -20043,10 +20738,15 @@
       "end": null,
       "target_id": "XML:1907347",
       "source_hash": "fa9e005062935231fd49af106c160a5e6144fd387e40eb9169af28ac2c88453a",
-      "text": "■ 城市空中交通促进支援法实施细则[附件17]",
+      "text": "■《促进和支持城市空中交通利用法施行规则》[附件17]",
       "text_original": "■ 城市空中交通促进支援法实施细则[附件17]",
-      "text_reviewed": "■ 城市空中交通促进支援法实施细则[附件17]",
-      "review_status": "PENDING"
+      "text_reviewed": "■《促进和支持城市空中交通利用法施行规则》[附件17]",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27060-zh-00002",
@@ -20057,10 +20757,15 @@
       "end": null,
       "target_id": "XML:1907348",
       "source_hash": "f0801932b472bf9ad1a52ab8f39654ee42c8599d1cc89b102d1648902e415cb6",
-      "text": "指定专业培训机构登记册",
+      "text": "专业人才培养机构指定台账",
       "text_original": "指定专业培训机构登记册",
-      "text_reviewed": "指定专业培训机构登记册",
-      "review_status": "PENDING"
+      "text_reviewed": "专业人才培养机构指定台账",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27060-zh-00003",
@@ -20074,7 +20779,12 @@
       "text": "指定编号",
       "text_original": "指定编号",
       "text_reviewed": "指定编号",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27060-zh-00004",
@@ -20088,7 +20798,12 @@
       "text": "指定日期",
       "text_original": "指定日期",
       "text_reviewed": "指定日期",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27060-zh-00005",
@@ -20099,10 +20814,15 @@
       "end": null,
       "target_id": "XML:1907351",
       "source_hash": "a387535cf4b175ed2b772e8166d82de71db1777e7560fbfd325e908d31ea4a51",
-      "text": "机构名称",
+      "text": "机关、团体名称",
       "text_original": "机构名称",
-      "text_reviewed": "机构名称",
-      "review_status": "PENDING"
+      "text_reviewed": "机关、团体名称",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27060-zh-00006",
@@ -20113,10 +20833,15 @@
       "end": null,
       "target_id": "XML:1907352",
       "source_hash": "7bdbbfa1a6f2c065dc71d6c5479f207830048667134efede03f4a3beb9b42c68",
-      "text": "代表",
+      "text": "代表人姓名",
       "text_original": "代表",
-      "text_reviewed": "代表",
-      "review_status": "PENDING"
+      "text_reviewed": "代表人姓名",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27060-zh-00007",
@@ -20127,10 +20852,15 @@
       "end": null,
       "target_id": "XML:1907353",
       "source_hash": "ef4403031e6e67eb6ff612ac7f030ff5fcf2e12e2b56fe2fa253adc78b0c68bb",
-      "text": "位置",
+      "text": "所在地",
       "text_original": "位置",
-      "text_reviewed": "位置",
-      "review_status": "PENDING"
+      "text_reviewed": "所在地",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27060-zh-00008",
@@ -20141,10 +20871,15 @@
       "end": null,
       "target_id": "XML:1907354",
       "source_hash": "db0ad87d5d062675839fd272dc1955a8871d4183a25da6b7e94735935e8b823e",
-      "text": "教育设施",
+      "text": "教育设施现状",
       "text_original": "教育设施",
-      "text_reviewed": "教育设施",
-      "review_status": "PENDING"
+      "text_reviewed": "教育设施现状",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27060-zh-00009",
@@ -20155,10 +20890,15 @@
       "end": null,
       "target_id": "XML:1907355",
       "source_hash": "b10ccd10885869c6775f8fd31523335166ba85a5c3d4ca708fa9915894fe9849",
-      "text": "教育设备",
+      "text": "教育设备现状",
       "text_original": "教育设备",
-      "text_reviewed": "教育设备",
-      "review_status": "PENDING"
+      "text_reviewed": "教育设备现状",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27060-zh-00010",
@@ -20169,10 +20909,15 @@
       "end": null,
       "target_id": "XML:1907356",
       "source_hash": "43c1bea397e445ee4271b06bbf39be811d7303737b37fa8f22b5456be7c83402",
-      "text": "专业讲师",
+      "text": "专业教师人员现状",
       "text_original": "专业讲师",
-      "text_reviewed": "专业讲师",
-      "review_status": "PENDING"
+      "text_reviewed": "专业教师人员现状",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27060-zh-00011",
@@ -20183,10 +20928,15 @@
       "end": null,
       "target_id": "XML:1907357",
       "source_hash": "4ad7484fd7619a5c9dcafa7973568b89c9b655a18f386492477a5741bb80f114",
-      "text": "ㆍ组织名称",
+      "text": "（机关、团体名称）",
       "text_original": "ㆍ组织名称",
-      "text_reviewed": "ㆍ组织名称",
-      "review_status": "PENDING"
+      "text_reviewed": "（机关、团体名称）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27060-zh-00012",
@@ -20197,10 +20947,15 @@
       "end": null,
       "target_id": "XML:1907358",
       "source_hash": "5aa32deffdf1362feb45b4aaf4a1945b15c91915f96194031e41bc759b5f2f97",
-      "text": "名称",
+      "text": "（代表人姓名）",
       "text_original": "名称",
-      "text_reviewed": "名称",
-      "review_status": "PENDING"
+      "text_reviewed": "（代表人姓名）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27060-zh-00013",
@@ -20211,10 +20966,15 @@
       "end": null,
       "target_id": "XML:1907359",
       "source_hash": "26a70f243076b72154af0a81c0a303844d12708e4b83ceb5db869bd3298da5d9",
-      "text": "状态",
+      "text": "（所在地）",
       "text_original": "状态",
-      "text_reviewed": "状态",
-      "review_status": "PENDING"
+      "text_reviewed": "（所在地）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27060-zh-00014",
@@ -20225,10 +20985,15 @@
       "end": null,
       "target_id": "XML:1907360",
       "source_hash": "26a70f243076b72154af0a81c0a303844d12708e4b83ceb5db869bd3298da5d9",
-      "text": "状态",
+      "text": "（教育设施、设备）",
       "text_original": "状态",
-      "text_reviewed": "状态",
-      "review_status": "PENDING"
+      "text_reviewed": "（教育设施、设备）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27060-zh-00015",
@@ -20239,10 +21004,15 @@
       "end": null,
       "target_id": "XML:1907361",
       "source_hash": "26a70f243076b72154af0a81c0a303844d12708e4b83ceb5db869bd3298da5d9",
-      "text": "状态",
+      "text": "（专业教师人员）",
       "text_original": "状态",
-      "text_reviewed": "状态",
-      "review_status": "PENDING"
+      "text_reviewed": "（专业教师人员）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正申请书、证明书、登记台账及竣工报告中的机关名称、字段标签、法条引用和明显错译。"
+        }
+      ]
     },
     {
       "id": "A27061-zh-00001",
