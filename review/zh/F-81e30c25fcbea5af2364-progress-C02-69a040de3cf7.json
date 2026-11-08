@@ -1,0 +1,37 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "panel_id": "panel-02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:69a040de3cf7",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "prior_review_blob_sha": "7839e8546910fe50ebe54e71db4490b0664835ae",
+  "checked_ids": [
+    "B3-zh-00003"
+  ],
+  "checked_rows_new": 1,
+  "edits": [
+    {
+      "id": "B3-zh-00003",
+      "text": "第二条（国家试点城市建设项目等绩效评价方案的制定）\n①国土交通大臣应当按照《智慧城市和产业创建与促进法》（以下简称“本法”）第35条之3、第2款的规定，每年制定国家试点城市建设项目绩效评估计划（以下简称“绩效评估计划”）。\n② 绩效考核计划应包括以下项目。\n1. 绩效评估的基本方向和实施计划\n2. 绩效评估的范围和对象\n3. 绩效评估标准、绩效指标及各绩效指标评分\n4. 编制绩效评估所需资料\n5. 绩效评估结果利用计划\n6. 绩效评估结果的披露范围和方法\n7. 为客观评价国家试点城市建设项目绩效而认为必要的其他事项\n③ 国土交通大臣在制定绩效评估计划后，应当立即通知相关国家示范城市建设项目实施单位。\n\n",
+      "source_hash": "c875130cab088149bc446f1856cf5ef6da3bfd90a67e52146375d100f13015dc",
+      "target_id": "332ecf91042d3ab51f8d17111b5a5e8b1ed8b488787057b5151b0a9eece1c20d",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-69a040de3cf7.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Korean Rule Article 2(2) item 2 specifies 범위 및 대상 (scope and subjects), not themes; item 4 specifies 자료의 작성 (preparation of materials) and uses 성과평가 (performance evaluation), not 성능평가."
+    }
+  ],
+  "english_status": "B3_NO_DOCUMENT_ENGLISH; KOREAN_SOURCE_CONTROLS",
+  "ordered_reading_certification": {
+    "ko": false,
+    "en": false,
+    "zh": false
+  },
+  "note": "One directly compared rule translation fixed. Full 17-document readthrough remains unverified; no COMPLETE receipt."
+}
