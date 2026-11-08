@@ -1,0 +1,68 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "status": "IN_PROGRESS",
+  "checked_rows": 3,
+  "checked_ids": [
+    "B1-zh-00163",
+    "B1-zh-00165",
+    "B1-zh-00190"
+  ],
+  "edits": [
+    {
+      "id": "B1-zh-00163",
+      "text": "第二条（关于国家示范城市指定的过渡措施）本法施行前由国土交通部长官指定的国家示范城市，不受原规定限制，视为依本法指定的国家示范城市。\n\n",
+      "source_hash": "2bf28fd861386ff733107dad4b6788f6b835022b5555d97c7f3ec1741c2bd7af"
+    },
+    {
+      "id": "B1-zh-00165",
+      "text": "附则 <第16631号，2019年11月26日>\n\n本法自公布之日起满三个月之日施行。但第三十五条之三的修订规定自公布之日起满六个月之日施行。\n\n",
+      "source_hash": "e2e0121c1b5f8ae6b89783dc3b0941e70f986d8ef083c8ab5e6a8c66dc26615f"
+    },
+    {
+      "id": "B1-zh-00190",
+      "text": "第三条（其他法律的修改）①至⑥省略。\n\n  ⑦《智慧城市建设及产业振兴等相关法律》部分修改如下。\n\n  将第四十四条第一款前段中的“第四十条之二第一款规定的选址规制最小区域”修改为“第四十条之三第一款规定的城市创新区域”；将同款后段中的“第四十条之二第二款至第六款”修改为“第四十条之三第二款、第三款、第五款及第四十条之六第一款、第二款”；将同条第二款中的“尽管有第四十条之二第八款的规定，选址规制最小区域”修改为“尽管有第四十条之三第七款的规定，城市创新区域”。\n\n  ⑧省略。\n\n",
+      "source_hash": "8b806baff1094647db77bc6e2758081576e45651a49f514edf270bc9add73916"
+    }
+  ],
+  "adjudications": [
+    {
+      "id": "B1-zh-00163",
+      "selected_file": "B1-00163-00165-R64.json",
+      "reason": "한국어 '국가시범도시 ... 지정된 것으로 본다'를 끝까지 명시; R21보다 문장 목적어 명확"
+    },
+    {
+      "id": "B1-zh-00165",
+      "selected_file": "B1-00163-00165-R64.json",
+      "reason": "제35조의3 및 공포 후 3개월·6개월 시행 시점을 원문과 일치, R22의 동일 의미 표현보다 보존된 정확한 판본 선택"
+    },
+    {
+      "id": "B1-zh-00190",
+      "selected_file": "B1-00174-00199-R23.json",
+      "reason": "한국어 법률명 '산업진흥'과 제40조의2·제40조의3·제40조의6 법조 인용 일치, R65의 '产业促进' 대신 정합적인 법률명 유지"
+    }
+  ],
+  "supersedes": [
+    {
+      "id": "B1-zh-00163",
+      "alternative_file": "B1-00156-00164-R21.json"
+    },
+    {
+      "id": "B1-zh-00165",
+      "alternative_file": "B1-00165-00173-R22.json"
+    },
+    {
+      "id": "B1-zh-00190",
+      "alternative_file": "B1-00190-R65.json"
+    }
+  ],
+  "note": "Three historical variant IDs adjudicated against immutable Korean source. Reuses existing approved edit texts; no source row mutation or new semantic edit. R101/R102 and previous progress preserved. Other variant IDs and final whole-family review remain unfinished; no COMPLETE receipt."
+}
