@@ -1,0 +1,80 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "status": "IN_PROGRESS",
+  "scope": {
+    "document": "B1",
+    "from": "B1-zh-00070",
+    "to": "B1-zh-00077"
+  },
+  "checked_rows": 8,
+  "corrected_rows": 2,
+  "judgments": [
+    {
+      "id": "B1-zh-00070",
+      "decision": "KEEP",
+      "basis": "附则第1条韩中文本条款、时限及法律引用对照",
+      "source_hash": "5b7b7ce00ce4ba4c696d6b6cc0d3cd9522eb78f4c0e501bed0ee7129bdb3666a"
+    },
+    {
+      "id": "B1-zh-00071",
+      "decision": "EDIT",
+      "basis": "申报适用对象为本法实施后首次进口申报的批次，不限于申报人",
+      "source_hash": "3743d5ae74bc4c46a651872992facf542b48eba55030a99ec5f316c71d78feec"
+    },
+    {
+      "id": "B1-zh-00072",
+      "decision": "KEEP",
+      "basis": "附则第3条韩中文本条款、时限及法律引用对照",
+      "source_hash": "8d96e7a41d0273cd8e3a0164f86f30dcb7849da9f695da323cc5cdfe2d4b4abf"
+    },
+    {
+      "id": "B1-zh-00073",
+      "decision": "KEEP",
+      "basis": "附则第4条韩中文本条款、时限及法律引用对照",
+      "source_hash": "92e73b47a24cc53acbe246bb9553c7b8347ba02bafb5bd8f49bceda493f512d9"
+    },
+    {
+      "id": "B1-zh-00074",
+      "decision": "KEEP",
+      "basis": "附则第5条韩中文本条款、时限及法律引用对照",
+      "source_hash": "4f056cb811bfb7f18c938b8a3a525de28e7c6eca06583dc786087e49f52e372e"
+    },
+    {
+      "id": "B1-zh-00075",
+      "decision": "EDIT",
+      "basis": "拍卖师由开设者任命，非指定",
+      "source_hash": "95c0ad3a0cad81f9d0d04fc4f3254c9b295e5696260b55f6300af4c0b251f1d9"
+    },
+    {
+      "id": "B1-zh-00076",
+      "decision": "KEEP",
+      "basis": "附则第7条韩中文本条款、时限及法律引用对照",
+      "source_hash": "28d496f78aa75c047cb1e27502bfe72f5711bb9bef0b1077d75fb56f1f96736c"
+    },
+    {
+      "id": "B1-zh-00077",
+      "decision": "KEEP",
+      "basis": "附则第8条韩中文本条款、时限及法律引用对照",
+      "source_hash": "6d542883de0f9e9a7dface5f7f9dbbf312581e28e693582d47fc46914157aa17"
+    }
+  ],
+  "edits": [
+    {
+      "id": "B1-zh-00071",
+      "text": "第二条（关于进口流通履历申报等规定的适用例）第31条规定的进口流通履历申报，自本法施行后首次进行进口申报的水产品起适用。\n\n"
+    },
+    {
+      "id": "B1-zh-00075",
+      "text": "第六条（关于产地拍卖师的过渡措施）本法施行时，在依原《水产业法》指定的批发市场中由该市场开设者任命的拍卖师，视为本法规定的产地拍卖师。\n\n"
+    }
+  ],
+  "source_sha": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c",
+    "en": "32423453da2fcfa466c97946520181a32643e289"
+  },
+  "previous_progress_path": "status/delivery/progress-S2-c174f0e36bef5fedb717095f1cea01f6-C01-next-03f1473b39f062ee44.json",
+  "next_range": "B1-zh-00078 onward"
+}
