@@ -1,0 +1,34 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-073f9d9fe479a4d12279",
+  "family_id": "F-073f9d9fe479a4d12279",
+  "worker": "C05",
+  "panel_id": "panel-05",
+  "pc": "WORK-C",
+  "status": "IN_PROGRESS",
+  "stage": "SOURCE_INVENTORY_VERIFIED_KO_FULL_READING_PENDING",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "6143afa8022216e9ca4d05ca2ba62c4fb3e45d0e",
+    "en": "5ca2adb168a584384cda930a58163198b580bd0d",
+    "zh": "ea246a5d95bbd3b5e46ef855e25e69c90408efb1"
+  },
+  "source_commit": "ca9fa46b54d70700aea6e82c032491c0a1d1958c",
+  "document_count": 33,
+  "zh_row_count": 1516,
+  "english_index": {
+    "exact_english_documents": [
+      "B1",
+      "B2",
+      "A37296"
+    ],
+    "no_document_english_count": 30
+  },
+  "checked_rows": 0,
+  "edits": [],
+  "notes": [
+    "Main review and receipt not found as of this checkpoint; no completed full-language reading is asserted.",
+    "Source blob SHAs match status/active/C05.json.",
+    "No original source or existing correction modified. English linked documents must be read before marking EN complete."
+  ]
+}
