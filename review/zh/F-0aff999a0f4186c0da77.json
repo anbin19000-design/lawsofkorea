@@ -21,8 +21,8 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 67,
-    "pending_rows": 1620,
+    "correction_count": 69,
+    "pending_rows": 1618,
     "by_document": {}
   },
   "corrections": {
@@ -494,6 +494,20 @@
       "original": "START 第 3 条和  条",
       "corrected": "条第3款及第4款",
       "reason": "별표 5 카목 과태료 근거조항 '같은 조 제3항 및 제4항'이 행·셀 분할 중 START와 빈 조항으로 훼손되어 직전 행과 이어지는 조문번호를 원문대로 복원."
+    },
+    "A34912-zh-00058": {
+      "doc": "A34912",
+      "source_hash": "0990370db43e9223a68186a88457ff6fd476d90d3696fb61866cf79078b3fff2",
+      "original": "(3) 特许人通过事先的信息披露声明，[购买/出售]特定交易伙伴",
+      "corrected": "(3) 特许人事先通过信息披露书，告知与特定交易对象进行购买、销售",
+      "reason": "시행령 별표 2 거래상대방 구속 예외요건 (3)의 '구입ㆍ판매 또는 임대차' 중 매입·판매가 [购买/出售] 불확정 문구로 남아 있어 뜻과 문장 연결을 명확하게 복원."
+    },
+    "A34912-zh-00086": {
+      "doc": "A34912",
+      "source_hash": "11ffbd80d0498d550fac0ecac56c43122eea225169e24636a383a4ca11e74f07",
+      "original": "在与第 (a) 至 (d) 款等效的情况下，如果特许经营者的业务活动受到不公平的[审查]",
+      "corrected": "属于与上述(a)至(d)项类似的情形，不合理地限制加盟商经营活动的行为。",
+      "reason": "별표 2 마목 '가목 내지 라목에 준하는 경우로서 부당하게 가맹점사업자의 영업활동을 제한하는 행위'가 [审查]로 잘못 옮겨진 오역 최소 교정."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -526,7 +540,8 @@
     "C05 841a8fba515f continued annex A34909 contaminated rows 146/232/271, Korean-source minimal restoration; exhaustive Chinese semantic review remains incomplete.",
     "C05 841a8fba515f: A34909-zh-00219 affiliate economic benefit received, not paid, corrected against Korean original. Full semantic review incomplete.",
     "C05 b5c0ceb7102d: Annex A34909 row 00221 restored supplier/provider names and economic benefits from Korean original; previous 65 edits preserved; full Chinese semantic verification incomplete.",
-    "C05 b5c0ceb7102d: A34916-zh-00136 correct same-Article clauses 3 and 4 restored from Korean table; 67 corrections cumulative, no COMPLETE certification."
+    "C05 b5c0ceb7102d: A34916-zh-00136 correct same-Article clauses 3 and 4 restored from Korean table; 67 corrections cumulative, no COMPLETE certification.",
+    "C05 bd07648d1ce4: Annex A34912 rows 00058 and 00086 corrected against Korean full-context source, preserving previous 67 corrections; Chinese full semantic audit remains unverified."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -535,5 +550,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 67
+  "corrected_rows": 69
 }
