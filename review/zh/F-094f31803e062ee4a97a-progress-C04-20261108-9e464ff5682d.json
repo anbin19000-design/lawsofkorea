@@ -40,11 +40,39 @@
     "A23734",
     "A23735"
   ],
-  "english_read_complete": [],
+  "english_read_complete": [
+    "B1: documents/en/kr-012046-279671-en.json official full_text 75583 characters",
+    "B3: reviewed/en/KR_012391.json 239 connected English rows (text_en 52847 characters), full read; annex/form references contain titles only"
+  ],
   "chinese_read_complete": [],
   "existing_review_found": false,
   "existing_receipt_found": false,
   "english_availability": "B1 official English document; other documents NO_DOCUMENT_ENGLISH; B3 and related annex/form reviewed/en/KR_012391.json reference to inspect only after all Korean documents are read",
-  "next_stage": "Korean originals 25/25 read. Read available linked English originals next, then review Chinese sequentially.",
-  "note": "All 25 Korean source document full texts read in family order. No Chinese rows inspected yet, no COMPLETE certification."
+  "next_stage": "Read and review all 1560 Chinese rows in ordered 25-document family; English absent for decree/annexes/forms, compare KO-ZH directly; preserve exact existing Chinese unless proven incorrect.",
+  "note": "Full Korean 25/25 read; English official B1 full text and linked rule English 239 rows read; other English original documents unavailable as listed. Chinese full sequential checking begins.",
+  "english_unavailable": [
+    "B2",
+    "A38017",
+    "A38018",
+    "A23716",
+    "A23717",
+    "A23718",
+    "A23719",
+    "A23720",
+    "A23721",
+    "A23722",
+    "A23723",
+    "A23724",
+    "A23725",
+    "A23726",
+    "A23727",
+    "A23728",
+    "A23729",
+    "A23730",
+    "A23731",
+    "A23732",
+    "A23733",
+    "A23734",
+    "A23735"
+  ]
 }
