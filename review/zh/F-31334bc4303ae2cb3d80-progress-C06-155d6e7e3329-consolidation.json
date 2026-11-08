@@ -1,0 +1,55 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-31334bc4303ae2cb3d80",
+  "worker": "C06",
+  "assignment_id": "S2-30caa1192ecd4c75a8ea030b41cf3e77",
+  "task_id": "155d6e7e3329",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "d6d795ff1ece4a82663a83efd46f7f73afa7fbbb",
+    "en": "16e015facbcef00df95c985f816f47acf7bcfef7",
+    "zh": "7a6d1e8d841fb3b27185d6d4a6b811149d604dc0"
+  },
+  "documents": 19,
+  "original_rows": 1206,
+  "unique_prior_candidate_edit_ids": 595,
+  "unknown_prior_edit_ids": [],
+  "candidate_text_residual_markers": [],
+  "reviewed_quality_files": 16,
+  "progress_files": 26,
+  "quality_adjudications_distinct_ids": 119,
+  "required_final_overrides": [
+    {
+      "id": "B2-zh-00020",
+      "source_path": "review/zh/F-31334bc4303ae2cb3d80-C06-quality-14.json",
+      "verdict": "REVISED_ACCEPT",
+      "action": "use final_text from quality-14, not uncorrected progress-01 or earlier candidate"
+    },
+    {
+      "id": "A22642-zh-00033",
+      "source_path": "review/zh/F-31334bc4303ae2cb3d80-C06-quality-16.json",
+      "verdict": "REJECT_CANDIDATE_KEEP_ORIGINAL",
+      "action": "exclude prior candidate edit; retain original Chinese 核安全委员会"
+    },
+    {
+      "id": "A22640-zh-00036",
+      "source_path": "review/zh/F-31334bc4303ae2cb3d80-C06-quality-04.json",
+      "verdict": "REJECT",
+      "action": "retain original Chinese 原因; do not apply rejected candidate 备注"
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "A22639-zh-00029",
+      "reason": "crew table split-cell Korean mapping needs verification against authoritative original table XML"
+    },
+    {
+      "id": "A22639-zh-00032",
+      "reason": "crew table split-cell Korean mapping needs verification against authoritative original table XML"
+    }
+  ],
+  "english_source_note": "English source linked in 3 files; rules/forms use 2021 fallback differing from Korean version; Korean is authoritative; avoid claiming complete same-version English alignment.",
+  "verified_scope": "All 26 historical progress files, 16 quality files and Chinese 1206 row IDs structurally consolidated; no claim of completed semantic review.",
+  "next_action": "Resolve form split-cell mappings, verify remaining candidate semantics against Korean source, then write review/zh/F-31334bc4303ae2cb3d80.json with COMPLETE only once full semantic quality is substantiated.",
+  "note": "Separate completion receipt no longer required by latest task. Do not duplicate any prior saved edits or override an adjudicated rejection."
+}
