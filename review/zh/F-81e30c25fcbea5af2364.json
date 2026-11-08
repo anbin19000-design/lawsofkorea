@@ -5844,6 +5844,15 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-b2-end.json",
       "verification": "C02_DIRECT_KOREAN_ENFORCEMENT_DECREE_COMPARISON",
       "reason": "Correct supplementary provision, official law/decree title, institutional name, and statutory effective-date terms against Korean source."
+    },
+    {
+      "id": "A36424-zh-00024",
+      "source_hash": "bea49dec260c5de4984565ac927f2fb8aa00ec416064de75da9bf7df96c0fdc8",
+      "target_id": "XML:2657247",
+      "text": "乙. 配备供专业人员履行职责所需的计算机等通信及计算设备",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex1.json",
+      "verification": "C02_DIRECT_KOREAN_ANNEX_COMPARISON",
+      "reason": "Korean annex enumerates facility conditions as 가 then 나; this second facility condition must be item 乙, not a duplicate 甲."
     }
   ],
   "adjudicated_edit_count": 554,
@@ -11079,12 +11088,13 @@
     "2026-11-08 C02 4e0b46ff6294: compared B2 rows 00117-00140 against the Korean Enforcement Decree. Reconciled 9 row texts, including correction of 시행령 misrendered as implementation rules and the 2013/2014 ministry-name substitution chain; retained accurate rows. Original source blobs and prior review decisions preserved. Family remains IN_PROGRESS.",
     "2026-11-08 C02 4e0b46ff6294 continuation: compared B2 rows 00141-00160 with Korean source, added corrections for 00148, 00152 and 00153, and retained previous verified edits on related rows. Full-family review remains IN_PROGRESS.",
     "2026-11-08 C02 4e0b46ff6294 decree-tail: compared B2 rows 00161-00180; corrected 14 rows with clear supplementary provision, enforcement decree title and 시행/施行 errors, plus the correct title of the Intelligent Informatization Basic Act Enforcement Decree. Existing prior edits retained. Full-family review remains IN_PROGRESS.",
-    "2026-11-08 C02 4e0b46ff6294 B2 tail: compared all rows 00181-00209 to Korean original through the end of the Enforcement Decree, corrected 17 rows and retained existing edits. B2 00209 annex spillover is kept in the separately catalogued A36424 annex, not duplicated into B2. Whole-family status remains IN_PROGRESS."
+    "2026-11-08 C02 4e0b46ff6294 B2 tail: compared all rows 00181-00209 to Korean original through the end of the Enforcement Decree, corrected 17 rows and retained existing edits. B2 00209 annex spillover is kept in the separately catalogued A36424 annex, not duplicated into B2. Whole-family status remains IN_PROGRESS.",
+    "2026-11-08 C02 4e0b46ff6294 Annex 1: compared all 31 A36424 Chinese cells with the Korean annex; corrected the second facility condition's item marker (나) from duplicate a to 乙. Existing prior edits retained, including area split cells and footnote statutory definitions. Full-family remains IN_PROGRESS."
   ],
   "integration_progress": {
-    "stage": "B2_HISTORICAL_TAIL_ROWS_00181_00209_RECONCILED",
+    "stage": "A36424_ANNEX1_ROWS_00001_00031_RECONCILED",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:4e0b46ff6294",
-    "note": "Compared B2 rows 00181-00209 against Korean source through 2026-06-02. Corrected remaining supplementary labels, 시행령/effective-date terms, official names of linked decrees and Korean Land Information Corporation. Existing corrections for rows 00184, 00188, 00197, 00202, 00205, 00208, 00209 retained; row 00209 boundary remains limited to its supplement, with annex content preserved in A36424."
+    "note": "Compared all 31 Chinese cells in A36424 with the complete Korean annex. Prior accepted corrections for title, table headings, personnel letters, experience qualifications, office-area split cells and statutory definitions retained. Corrected the facility item marker 나 from duplicate 'a' to '乙'. No direct row-level English match; Korean source controls."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -11673,7 +11683,30 @@
     "B2-zh-00203",
     "B2-zh-00204",
     "B2-zh-00206",
-    "B2-zh-00207"
+    "B2-zh-00207",
+    "A36424-zh-00002",
+    "A36424-zh-00004",
+    "A36424-zh-00005",
+    "A36424-zh-00006",
+    "A36424-zh-00008",
+    "A36424-zh-00009",
+    "A36424-zh-00010",
+    "A36424-zh-00012",
+    "A36424-zh-00014",
+    "A36424-zh-00015",
+    "A36424-zh-00016",
+    "A36424-zh-00018",
+    "A36424-zh-00019",
+    "A36424-zh-00020",
+    "A36424-zh-00021",
+    "A36424-zh-00022",
+    "A36424-zh-00023",
+    "A36424-zh-00024",
+    "A36424-zh-00025",
+    "A36424-zh-00028",
+    "A36424-zh-00029",
+    "A36424-zh-00030",
+    "A36424-zh-00031"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
