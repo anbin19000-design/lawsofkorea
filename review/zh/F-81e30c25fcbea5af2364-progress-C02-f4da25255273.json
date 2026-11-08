@@ -1,0 +1,80 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:f4da25255273",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "checked_rows": 3,
+  "checked_ids": [
+    "A25466-zh-00049",
+    "A25466-zh-00053",
+    "A25469-zh-00020"
+  ],
+  "edits": [
+    {
+      "id": "A25466-zh-00049",
+      "text": "国家智慧",
+      "source_hash": "dd50bf4e100c50bb7de97e94f4b8f92cabd82bb70ff520768313737d6d634a48",
+      "target_id": "XML:1802753"
+    },
+    {
+      "id": "A25466-zh-00053",
+      "text": "意见回复",
+      "source_hash": "fe040418b7e8e99f8adaddc31cde1c58f36234a9cb6cd99522138fa5cdc4fb5b",
+      "target_id": "XML:1802757"
+    },
+    {
+      "id": "A25469-zh-00020",
+      "text": "说明事项",
+      "source_hash": "e366f1722c14b3b9f148d91ae2b3310bfb70d41bb0ed97b66d5d2598c4358fe2",
+      "target_id": "XML:1802875"
+    }
+  ],
+  "adjudications": [
+    {
+      "id": "A25466-zh-00049",
+      "korean_context": "국가스마트 / 도시위원회 / 심의",
+      "reason": "Korean processing-flow cell split across top and bottom lines; preceding saved 00056 = 城市委员会审议. Choosing existing shorter candidate 国家智慧 avoids repeating 城市委员会 within the same workflow box; adjacent 00056 is retained from prior progress.",
+      "prior_candidate_file_indices": [
+        46,
+        47
+      ]
+    },
+    {
+      "id": "A25466-zh-00053",
+      "korean_context": "의견 회신",
+      "reason": "Workflow table already has 검토 및 at cell 00045; follow-up opinions are returned here. Existing concise candidate 意见回复 preserves cell split without adding an extra 审查 that belongs to the preceding cell.",
+      "prior_candidate_file_indices": [
+        47
+      ]
+    },
+    {
+      "id": "A25469-zh-00020",
+      "korean_context": "그 밖의 / 안내 사항",
+      "reason": "Korean form separates '그 밖의' (cell 00019, already 其他) from '안내 사항' (cell 00020). Existing 说明事项 candidate avoids redundant 其他 and replaces opaque MTQ corruption.",
+      "prior_candidate_file_indices": [
+        50
+      ]
+    }
+  ],
+  "english_status": {
+    "linked_documents": [
+      "documents/en/kr-010730-283399-en.json",
+      "documents/en/kr-010846-270111-en.json"
+    ],
+    "indexed_rows_without_english": 421,
+    "note": "Both newly adjudicated form sections lack document-specific English; Korean controls."
+  },
+  "prior_progress_files": [
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-8e24b13497c9.json",
+    "status/delivery/progress-S2-ae8f8a85c5ace955ac8120fa9a6c7730-C02-prior-conflicts-adjudication-R105.json"
+  ],
+  "note": "Preserve all prior progress edits, candidate-level reconciliation only; not a claim of whole family read-through or 1133-row semantic completion. Distinct from new unique ID coverage; no COMPLETE status."
+}
