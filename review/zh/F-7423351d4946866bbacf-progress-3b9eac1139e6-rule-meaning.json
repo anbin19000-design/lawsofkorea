@@ -1,0 +1,38 @@
+{
+  "schema": "LAW_ZH_REVIEW_AUDIT_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "panel_id": "panel-01",
+  "assignment_id": "S2-c174f0e36bef5fedb717095f1cea01f6",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:3b9eac1139e6]",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "review_path": "review/zh/F-7423351d4946866bbacf.json",
+  "review_blob": "052df9879c0b088bd025a6e43ee5e265dfbe3baa",
+  "scope_documents": 16,
+  "total_source_chinese_rows": 1207,
+  "existing_corrections_before": 253,
+  "total_unique_corrections": 256,
+  "new_ids": [
+    "B3-zh-00030",
+    "B3-zh-00035",
+    "B3-zh-00020"
+  ],
+  "amended_existing_ids": [
+    "B3-zh-00028"
+  ],
+  "source_grounding": "Direct comparison to Korean Rules Articles 18, 26, 28, 33; B3 independent exact English unavailable",
+  "worker_binding_verified": true,
+  "original_source_blobs_preserved": true,
+  "completion_receipt_existing": false,
+  "completed_semantic_review": false,
+  "unresolved": [
+    "All 1207 Chinese rows not individually certified for full Korean legal-meaning equivalence",
+    "Annex/form XML cells including ambiguous punctuation-only rows not fully aligned"
+  ],
+  "next_action": "Continue Korean-authoritative Chinese checking across act, decree, rules, annexes and forms; preserve prior edits and IDs. Only COMPLETE after end-to-end meaning validation and files reread."
+}
