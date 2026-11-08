@@ -1,0 +1,61 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 5,
+  "checked_ids": [
+    "A25466-zh-00044",
+    "A25466-zh-00045",
+    "A25466-zh-00049",
+    "A25466-zh-00053",
+    "A25466-zh-00056"
+  ],
+  "edits": [
+    {
+      "id": "A25466-zh-00044",
+      "source_hash": "d756749ae151055bb3f2fb59a27fb00c3964fefb2a90809570b03e8c0189e1ab",
+      "target_id": "XML:1802748",
+      "text": "申请书"
+    },
+    {
+      "id": "A25466-zh-00045",
+      "source_hash": "4ed6802c84310ca319ebc82690dacae701a4db6bdab6d8125357557f24f747d6",
+      "target_id": "XML:1802749",
+      "text": "审查及"
+    },
+    {
+      "id": "A25466-zh-00049",
+      "source_hash": "dd50bf4e100c50bb7de97e94f4b8f92cabd82bb70ff520768313737d6d634a48",
+      "target_id": "XML:1802753",
+      "text": "国家智慧"
+    },
+    {
+      "id": "A25466-zh-00053",
+      "source_hash": "fe040418b7e8e99f8adaddc31cde1c58f36234a9cb6cd99522138fa5cdc4fb5b",
+      "target_id": "XML:1802757",
+      "text": "意见回复"
+    },
+    {
+      "id": "A25466-zh-00056",
+      "source_hash": "ec62aa9040a8b490a9cb71b023cde353201573d0c1c85b632fd6bcfa89be2732",
+      "target_id": "XML:1802760",
+      "text": "城市委员会审议"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "korean_evidence": "신청서 작성 | 검토 및 의견 회신 | 국가스마트도시위원회 심의",
+  "joined_final_texts": {
+    "form": "申请书编制",
+    "review": "审查及意见回复",
+    "committee": "国家智慧城市委员会审议"
+  },
+  "supersedes": "R6 and R85 overlapping A25466 00044, 00045, 00049 and 00056; corrected 00053 to prevent repetition. Earlier files remain unchanged. R86 is the definitive selection.",
+  "note": "R86 resolves five overlapping form-process label IDs against the joined Korean original. Row52 编制 retained. Original source hashes unchanged; not COMPLETE."
+}
