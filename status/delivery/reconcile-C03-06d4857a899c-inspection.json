@@ -1,0 +1,44 @@
+{
+  "assignment_id": "UW-15fe2fa6283929400ef0e6db473f9080",
+  "binding_url": "https://chatgpt.com/c/6af05bf1-ee38-83ee-b5db-b56a8b35748c",
+  "current_review_checkpoint": "35adf1a4",
+  "follow_up": "Retry verification only with the exact pending message in delivery logs or a recipient Chat. Historical family transition alone does not establish receipt. Preserve pending intent and existing decisions.",
+  "historical_begin": 1794137250.1807866,
+  "inspected_at": "2026-11-08T14:54:39.685320+00:00",
+  "job_id": "F-06ded4db5360e8951333",
+  "last_received": "[WORK-TASK:C03:F-06ded4db5360e8951333:c7ac536ba46a]",
+  "observations": [
+    {
+      "job": "F-02c515d98a78404ca699",
+      "marker": null,
+      "observed_at": 1794137246.4058268,
+      "state": "COMPLETION_REPORTED",
+      "url": "https://chatgpt.com/c/6af041f2-e328-83ee-ae24-c2dbe020c5a2"
+    },
+    {
+      "job": "F-06ded4db5360e8951333",
+      "marker": null,
+      "observed_at": 1794137256.5563984,
+      "state": "WORKING",
+      "url": "https://chatgpt.com/c/6af041f2-e328-83ee-ae24-c2dbe020c5a2"
+    },
+    {
+      "job": "F-06ded4db5360e8951333",
+      "marker": null,
+      "observed_at": 1794137266.862705,
+      "state": "WORKING",
+      "url": "https://chatgpt.com/c/6af041f2-e328-83ee-ae24-c2dbe020c5a2"
+    }
+  ],
+  "pending_marker": "[WORK-TASK:C03:F-06ded4db5360e8951333:06d4857a899c]",
+  "pending_prompt_sha256": "8bfb2f08142a9b305e9ccc4dd5451321e0ab914dd1a9b04282d3a3f5cc88914f",
+  "retired_view": "https://chatgpt.com/c/6af041f2-e328-83ee-ae24-c2dbe020c5a2",
+  "reviewed_identifier_count": 10,
+  "source_blobs": {
+    "en": "06a06221c673eb82b151282c515897dd2be7163c",
+    "ko": "dcc6098448a933f7817442bf8ba600bae69233af",
+    "zh": "21af5746664736adfeba51d100cd535d24817c01"
+  },
+  "status": "UNCERTAIN_NO_RESEND",
+  "worker": "C03"
+}
