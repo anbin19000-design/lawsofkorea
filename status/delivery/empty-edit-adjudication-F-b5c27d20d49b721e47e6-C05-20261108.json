@@ -1,0 +1,764 @@
+{
+  "schema": "LAW_ZH_EMPTY_EDIT_ADJUDICATION_V1",
+  "job_id": "F-b5c27d20d49b721e47e6",
+  "worker": "C05",
+  "status": "IN_PROGRESS",
+  "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
+  "source_blobs": {
+    "ko": "24ddd78e32a748b7d1c1ce01fef19d036494b9e9",
+    "zh": "66ea4d0981f8e1a76348309f8254051d4914f693",
+    "en": "3d130788df10274ded6103c1fa81654c977eec5c"
+  },
+  "original_review_blob_sha": "6d1da625cfb4a36f5037e683993f485b8aef1923",
+  "original_receipt_blob_sha": "febb1e3100113fd64d5aa4f05bbcbdea83023315",
+  "original_checked_rows": 1207,
+  "original_edit_rows": 777,
+  "blank_edit_count": 31,
+  "decision_summary": {
+    "remove_nonsemantic_fragments": 31,
+    "restore_missing_translation": 0
+  },
+  "english_note": "English packet references 785 aligned rows; 422 have no English references. English versions for B1/B2 are historical fallback; Korean authoritative.",
+  "records": [
+    {
+      "id": "A28946-zh-00042",
+      "source_hash": "cd6f1a12dce916184d25977a8d04fc8165d6311cad726578b8bb87fd793ef582",
+      "target_id": "XML:2065100",
+      "document": "A28946",
+      "original_zh_text": "系列)",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "원문 인용관계의 끝 괄호를 파손한 중복 단편. 제12조제1항제2호 관련 의미는 00032·00034·00035·00040에 이미 배치됨",
+      "adjacent_cells": [
+        {
+          "id": "A28946-zh-00041",
+          "adopted_zh_text": "高中"
+        },
+        {
+          "id": "A28946-zh-00043",
+          "adopted_zh_text": "广域市、特别自治市、"
+        }
+      ],
+      "korean_document_title": "국가와 지방자치단체 간의 복지 급여 비용부담 비율\n(제18조제1호 관련)",
+      "korean_document_source_hash": "724fb4b917b77dd88790018521010afb1a96b3054bd6e109390bd94f1800c7e6",
+      "ko_full_document_available": true,
+      "english_document_status": "FALLBACK_ENGLISH_AVAILABLE"
+    },
+    {
+      "id": "A28947-zh-00033",
+      "source_hash": "b40bc53d0b0a32de502510aa7a2893779e2e1488b7e1e66b53fd6e11def268ff",
+      "target_id": "XML:2065147",
+      "document": "A28947",
+      "original_zh_text": "加载情况",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "첫 번째 위반행위 행의 말미에 붙은 무의미한 '加载情况'. 위반행위는 00026·00031로 보존",
+      "adjacent_cells": [
+        {
+          "id": "A28947-zh-00032",
+          "adopted_zh_text": "第一款第一项"
+        },
+        {
+          "id": "A28947-zh-00034",
+          "adopted_zh_text": "乙. 无正当理由未依本法第二十三条"
+        }
+      ],
+      "korean_document_title": "과태료의 부과기준(제20조 관련)",
+      "korean_document_source_hash": "4a16dceca951866da1bbbf3a11fcc0edb5c8f0b0ef06bdb031fb555e9fd145c5",
+      "ko_full_document_available": true,
+      "english_document_status": "FALLBACK_ENGLISH_AVAILABLE"
+    },
+    {
+      "id": "A28947-zh-00041",
+      "source_hash": "ec456c8c6c7cc2feebec673020df15308bfd2b44406812958f939a390523e098",
+      "target_id": "XML:2065155",
+      "document": "A28947",
+      "original_zh_text": "如果不是",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "두 번째 위반행위 말미에 붙은 무의미한 '如果不是'. 부정 의미는 00034·00039에 보존",
+      "adjacent_cells": [
+        {
+          "id": "A28947-zh-00040",
+          "adopted_zh_text": "第一款第二项"
+        },
+        {
+          "id": "A28947-zh-00042",
+          "adopted_zh_text": "丙. 无正当理由依本法第二十三条"
+        }
+      ],
+      "korean_document_title": "과태료의 부과기준(제20조 관련)",
+      "korean_document_source_hash": "4a16dceca951866da1bbbf3a11fcc0edb5c8f0b0ef06bdb031fb555e9fd145c5",
+      "ko_full_document_available": true,
+      "english_document_status": "FALLBACK_ENGLISH_AVAILABLE"
+    },
+    {
+      "id": "A28947-zh-00049",
+      "source_hash": "8bc8d931ba69c00c9a1bf440cd9f711c2580c3e8f9f1eb3bd5db662dcd22fd9d",
+      "target_id": "XML:2065163",
+      "document": "A28947",
+      "original_zh_text": "、",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "세 번째 위반행위에 붙은 불필요한 구두점. 허위보고 의미는 00042·00047에 보존",
+      "adjacent_cells": [
+        {
+          "id": "A28947-zh-00048",
+          "adopted_zh_text": "第一款第二项"
+        },
+        {
+          "id": "A28947-zh-00050",
+          "adopted_zh_text": "丁. 无正当理由拒绝或逃避本法"
+        }
+      ],
+      "korean_document_title": "과태료의 부과기준(제20조 관련)",
+      "korean_document_source_hash": "4a16dceca951866da1bbbf3a11fcc0edb5c8f0b0ef06bdb031fb555e9fd145c5",
+      "ko_full_document_available": true,
+      "english_document_status": "FALLBACK_ENGLISH_AVAILABLE"
+    },
+    {
+      "id": "A5222-zh-00034",
+      "source_hash": "eaa11e131e0fef5db4f8ba12654ffbbabc375c6ac3ec0f82edc54aefc2e27822",
+      "target_id": "XML:385704",
+      "document": "A5222",
+      "original_zh_text": "、",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "별표 열이 줄바꿈되며 생성된 단독 구두점. 교육 중인 조건은 00033에 보존",
+      "adjacent_cells": [
+        {
+          "id": "A5222-zh-00033",
+          "adopted_zh_text": "乙. 母亲或父亲正在依《补习班设立、运营及课外辅导相关法律》登记的补习班接受教育时"
+        },
+        {
+          "id": "A5222-zh-00035",
+          "adopted_zh_text": "丙. 母亲或父亲正在《性别平等基本法》第四十七条规定的女性人力开发中心，或"
+        }
+      ],
+      "korean_document_title": "한부모가족복지시설의 입소기간, 입소기간의 연장사유 및 연장가능 기간(제9조의7 관련)",
+      "korean_document_source_hash": "6ff31e027fdffaaa74ac40f4dd09696fb3a9060294f41e8a73af61bdb6a99134",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "id": "A5222-zh-00039",
+      "source_hash": "2c6f1d2ff981cf7d85b433d80b3e92791956799657094fb832f6f93a9ce7a6c0",
+      "target_id": "XML:385709",
+      "document": "A5222",
+      "original_zh_text": "，然后",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "다음 항목 표제를 앞질러 생긴 연결어 오역. 참여 요건은 00037·00038에 보존",
+      "adjacent_cells": [
+        {
+          "id": "A5222-zh-00038",
+          "adopted_zh_text": "同法第十四条规定的求职活动支援项目时"
+        },
+        {
+          "id": "A5222-zh-00040",
+          "adopted_zh_text": "戊. 母亲或父亲是正在参加《中小企业创业支援法》规定的创业教育的预备创业者，"
+        }
+      ],
+      "korean_document_title": "한부모가족복지시설의 입소기간, 입소기간의 연장사유 및 연장가능 기간(제9조의7 관련)",
+      "korean_document_source_hash": "6ff31e027fdffaaa74ac40f4dd09696fb3a9060294f41e8a73af61bdb6a99134",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "id": "A5222-zh-00048",
+      "source_hash": "eef2b4ab37101f269abfb2104c6c8639563322d3af2a5b9bb290d69773fbf4f2",
+      "target_id": "XML:385718",
+      "document": "A5222",
+      "original_zh_text": "和",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "별표 말미 불필요한 단독 접속사. 비고 완결문은 00046·00047에 보존",
+      "adjacent_cells": [
+        {
+          "id": "A5222-zh-00047",
+          "adopted_zh_text": "认为有必要延长入住期限时，可以在第一项规定期限之外另行延长入住期限。"
+        }
+      ],
+      "korean_document_title": "한부모가족복지시설의 입소기간, 입소기간의 연장사유 및 연장가능 기간(제9조의7 관련)",
+      "korean_document_source_hash": "6ff31e027fdffaaa74ac40f4dd09696fb3a9060294f41e8a73af61bdb6a99134",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "id": "A5223-zh-00005",
+      "source_hash": "1c6f86add3abfc3dd73afa070eb2749e905e1c6c635e7f4b450abef4b698faf2",
+      "target_id": "XML:385723",
+      "document": "A5223",
+      "original_zh_text": ".",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "원문 문장 뒤에 중복된 마침표. 완결문은 00004에 보존",
+      "adjacent_cells": [
+        {
+          "id": "A5223-zh-00004",
+          "adopted_zh_text": "单亲家庭福利设施应充分考虑保健、卫生、供水、安全、环境及交通便利等因素，设置于舒适的环境中。"
+        },
+        {
+          "id": "A5223-zh-00006",
+          "adopted_zh_text": "2. 各类设施的规模"
+        }
+      ],
+      "korean_document_title": "한부모가족복지시설의 설치기준(제10조의2제1항 관련)",
+      "korean_document_source_hash": "9a97a068a44749d0da751d8736d241817eed305385ed29aeb4ea15848a7fef3d",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "id": "A5223-zh-00024",
+      "source_hash": "4d8eb89af8fc40721a7c29b06ec470702f3a42556307e2876983718aa004bed8",
+      "target_id": "XML:385742",
+      "document": "A5223",
+      "original_zh_text": "保持）",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "직전 행의 (户) 분절 부산물. 전체 면적 단위와 계산식은 00023에 보존",
+      "adjacent_cells": [
+        {
+          "id": "A5223-zh-00023",
+          "adopted_zh_text": "20.79平方米×定员（户）"
+        },
+        {
+          "id": "A5223-zh-00025",
+          "adopted_zh_text": "丙. 生活支援设施"
+        }
+      ],
+      "korean_document_title": "한부모가족복지시설의 설치기준(제10조의2제1항 관련)",
+      "korean_document_source_hash": "9a97a068a44749d0da751d8736d241817eed305385ed29aeb4ea15848a7fef3d",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "id": "A5223-zh-00033",
+      "source_hash": "4d8eb89af8fc40721a7c29b06ec470702f3a42556307e2876983718aa004bed8",
+      "target_id": "XML:385751",
+      "document": "A5223",
+      "original_zh_text": "保持）",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "직전 행의 (户) 분절 부산물. 전체 면적 단위와 계산식은 00032에 보존",
+      "adjacent_cells": [
+        {
+          "id": "A5223-zh-00032",
+          "adopted_zh_text": "56.1平方米×定员（户）"
+        },
+        {
+          "id": "A5223-zh-00034",
+          "adopted_zh_text": "丁. 临时支援设施"
+        }
+      ],
+      "korean_document_title": "한부모가족복지시설의 설치기준(제10조의2제1항 관련)",
+      "korean_document_source_hash": "9a97a068a44749d0da751d8736d241817eed305385ed29aeb4ea15848a7fef3d",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "id": "A5223-zh-00039",
+      "source_hash": "205d67ece2b6097b2dab98c507fa558974886b06807d39092b599e786ed9ded8",
+      "target_id": "XML:385757",
+      "document": "A5223",
+      "original_zh_text": "单亲家庭福利咨询中心",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "원문 시설명 중복 조각. 82㎡ 및 49㎡ 조건은 00038·00040·00041·00042에 보존",
+      "adjacent_cells": [
+        {
+          "id": "A5223-zh-00038",
+          "adopted_zh_text": "82平方米。但是，将单亲家庭福利咨询所"
+        },
+        {
+          "id": "A5223-zh-00040",
+          "adopted_zh_text": "设置、运营于单亲家庭福利设施内时，"
+        }
+      ],
+      "korean_document_title": "한부모가족복지시설의 설치기준(제10조의2제1항 관련)",
+      "korean_document_source_hash": "9a97a068a44749d0da751d8736d241817eed305385ed29aeb4ea15848a7fef3d",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "id": "A5223-zh-00080",
+      "source_hash": "0ff582c93ee0a5c8af4d5d6ba4108a7a6b522eeac3edac4de29c75d6f4d48aae",
+      "target_id": "XML:385801",
+      "document": "A5223",
+      "original_zh_text": "必须冷启动。",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "상담실 문장의 '必须冷启动'이라는 무관한 자동번역 부산물. 상담시설 요건은 00079에 보존",
+      "adjacent_cells": [
+        {
+          "id": "A5223-zh-00079",
+          "adopted_zh_text": "应配备适当设施，以便在咨询内容不被公开的情况下，在舒适的环境中开展咨询。"
+        },
+        {
+          "id": "A5223-zh-00081",
+          "adopted_zh_text": "4）图书室"
+        }
+      ],
+      "korean_document_title": "한부모가족복지시설의 설치기준(제10조의2제1항 관련)",
+      "korean_document_source_hash": "9a97a068a44749d0da751d8736d241817eed305385ed29aeb4ea15848a7fef3d",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "id": "A5223-zh-00091",
+      "source_hash": "921f4fa1019926c9096502fd9e9b7eccf887490f74cbde3b5c5e1e487ca6b185",
+      "target_id": "XML:385813",
+      "document": "A5223",
+      "original_zh_text": "必须配备能够进行此类操作的设施。",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "급수 규정의 잘린 자동번역 중복문. 상수도 우선 및 지하수 수질 기준·설치 요건은 00090에 보존",
+      "adjacent_cells": [
+        {
+          "id": "A5223-zh-00090",
+          "adopted_zh_text": "甲）供水设施应使用自来水。但不能使用自来水时，应配备能够供应符合《饮用水管理法》第五条规定的饮用水水质标准的地下水等的设施。"
+        },
+        {
+          "id": "A5223-zh-00092",
+          "adopted_zh_text": "乙）使用地下水等时，取水水源应与厕所、废弃物处理设施、动物饲养场及"
+        }
+      ],
+      "korean_document_title": "한부모가족복지시설의 설치기준(제10조의2제1항 관련)",
+      "korean_document_source_hash": "9a97a068a44749d0da751d8736d241817eed305385ed29aeb4ea15848a7fef3d",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "id": "A5223-zh-00099",
+      "source_hash": "717a3cffb329d4aac132d45d934de88c449bd2da0aa099a1aa50157f6e5b4fd6",
+      "target_id": "XML:385821",
+      "document": "A5223",
+      "original_zh_text": ".",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "비상구 잠금장치 요건 말미의 중복 마침표. 내용은 00097·00098에 보존",
+      "adjacent_cells": [
+        {
+          "id": "A5223-zh-00098",
+          "adopted_zh_text": "紧急出口上方应安装出口引导灯，并在门的内侧设置锁定装置。"
+        },
+        {
+          "id": "A5223-zh-00100",
+          "adopted_zh_text": "乙）建筑物为两层以上时，应设置紧急楼梯，并配备其他应对安全事故及紧急"
+        }
+      ],
+      "korean_document_title": "한부모가족복지시설의 설치기준(제10조의2제1항 관련)",
+      "korean_document_source_hash": "9a97a068a44749d0da751d8736d241817eed305385ed29aeb4ea15848a7fef3d",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "id": "A5223-zh-00116",
+      "source_hash": "fa34a944573c3911265d55b73d9544555ebad2442e8d755e42ec95df089276d8",
+      "target_id": "XML:385839",
+      "document": "A5223",
+      "original_zh_text": "必须。",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "프로그램실 설비 요건 말미의 중복 '必须'. 의미는 00115에 보존",
+      "adjacent_cells": [
+        {
+          "id": "A5223-zh-00115",
+          "adopted_zh_text": "应配备入住者文化教育所需的设施，并设置计算机等必要设备。"
+        },
+        {
+          "id": "A5223-zh-00117",
+          "adopted_zh_text": "13) 医务室"
+        }
+      ],
+      "korean_document_title": "한부모가족복지시설의 설치기준(제10조의2제1항 관련)",
+      "korean_document_source_hash": "9a97a068a44749d0da751d8736d241817eed305385ed29aeb4ea15848a7fef3d",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "id": "A5226-zh-00026",
+      "source_hash": "2099cd7f323c38ac89f0ebc4dd140529ccb048fb87aa42935038b81b0325020d",
+      "target_id": "XML:386029",
+      "document": "A5226",
+      "original_zh_text": "您的",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "수신인 뒤의 한국어 '귀하'에 대한 자동번역 잔재 '您的'. 수신인은 00025에서 '致'로 완결",
+      "adjacent_cells": [
+        {
+          "id": "A5226-zh-00025",
+          "adopted_zh_text": "致特别自治市市长、特别自治道知事、市长、郡守、区厅长"
+        },
+        {
+          "id": "A5226-zh-00027",
+          "adopted_zh_text": "随附材料"
+        }
+      ],
+      "korean_document_title": "한부모가족증명서 발급신청서",
+      "korean_document_source_hash": "2704aafa311a2fa9bb0636d744fc0add197da834eb4c93ca762319775afed96c",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "id": "A5228-zh-00012",
+      "source_hash": "8c57fafb0573bcf5d4c3c3c8fe9cf393c03159f4d399668c98e2647a9c26c956",
+      "target_id": "XML:386085",
+      "document": "A5228",
+      "original_zh_text": "小型",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "주소 행을 분할하며 생긴 무의미한 '小型'. 주소 필드와 전화 필드는 00011·00013에 보존",
+      "adjacent_cells": [
+        {
+          "id": "A5228-zh-00011",
+          "adopted_zh_text": "地址"
+        },
+        {
+          "id": "A5228-zh-00013",
+          "adopted_zh_text": "(电话:"
+        }
+      ],
+      "korean_document_title": "복지급여수급계좌 입금 신청서",
+      "korean_document_source_hash": "db22e92226d222b7036c2997c60dd1602a5673ae6dcb3c9569c503427de63ade",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "id": "A5228-zh-00027",
+      "source_hash": "2099cd7f323c38ac89f0ebc4dd140529ccb048fb87aa42935038b81b0325020d",
+      "target_id": "XML:386100",
+      "document": "A5228",
+      "original_zh_text": "您的",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "수신인 뒤의 자동번역 잔재 '您的'. 수신인은 00026에서 '致'로 완결",
+      "adjacent_cells": [
+        {
+          "id": "A5228-zh-00026",
+          "adopted_zh_text": "致特别自治市市长、特别自治道知事、市长、郡守、区厅长"
+        },
+        {
+          "id": "A5228-zh-00028",
+          "adopted_zh_text": "提交材料"
+        }
+      ],
+      "korean_document_title": "복지급여수급계좌 입금 신청서",
+      "korean_document_source_hash": "db22e92226d222b7036c2997c60dd1602a5673ae6dcb3c9569c503427de63ade",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "id": "A5229-zh-00018",
+      "source_hash": "5c932ecc50ad5c4eabc108ab57a05a89f65d4a6cb9b7089030a94780c98c1ee2",
+      "target_id": "XML:386140",
+      "document": "A5229",
+      "original_zh_text": ".",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "신청 문장에 뒤따른 잘못 분할된 마침표. 신청 문장은 00017에서 완결",
+      "adjacent_cells": [
+        {
+          "id": "A5229-zh-00017",
+          "adopted_zh_text": "依据《单亲家庭支援法》第十七条之五及同法施行规则第九条之四，申请青少年单亲父母健康检查。"
+        },
+        {
+          "id": "A5229-zh-00019",
+          "adopted_zh_text": "年"
+        }
+      ],
+      "korean_document_title": "청소년 한부모 건강진단 신청서",
+      "korean_document_source_hash": "fb12a67748b3b4624b7fe78817b57fee5df2d9aa7565263f8c0545b98898d1d9",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "id": "A5229-zh-00026",
+      "source_hash": "2099cd7f323c38ac89f0ebc4dd140529ccb048fb87aa42935038b81b0325020d",
+      "target_id": "XML:386148",
+      "document": "A5229",
+      "original_zh_text": "您的",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "수신인 뒤의 자동번역 잔재 '您的'. 수신인은 00025에서 '致'로 완결",
+      "adjacent_cells": [
+        {
+          "id": "A5229-zh-00025",
+          "adopted_zh_text": "致特别自治市市长、特别自治道知事、市长、郡守、区厅长"
+        },
+        {
+          "id": "A5229-zh-00027",
+          "adopted_zh_text": "随附材料"
+        }
+      ],
+      "korean_document_title": "청소년 한부모 건강진단 신청서",
+      "korean_document_source_hash": "fb12a67748b3b4624b7fe78817b57fee5df2d9aa7565263f8c0545b98898d1d9",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "id": "A5229-zh-00036",
+      "source_hash": "837d5d028930fb39e15ffa7476a25b2a4e02b82f4e6b41a3df51df9f761587f9",
+      "target_id": "XML:386161",
+      "document": "A5229",
+      "original_zh_text": "发行",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "처리 절차 '통보'를 분할한 중복·오역 조각. 정식 단계는 00035에 '通知'로 보존",
+      "adjacent_cells": [
+        {
+          "id": "A5229-zh-00035",
+          "adopted_zh_text": "通知"
+        },
+        {
+          "id": "A5229-zh-00037",
+          "adopted_zh_text": ""
+        }
+      ],
+      "korean_document_title": "청소년 한부모 건강진단 신청서",
+      "korean_document_source_hash": "fb12a67748b3b4624b7fe78817b57fee5df2d9aa7565263f8c0545b98898d1d9",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "id": "A5229-zh-00037",
+      "source_hash": "5bded62d50c159833b06055483466a39c484b1ff34689425c66e91c6eee871ff",
+      "target_id": "XML:386162",
+      "document": "A5229",
+      "original_zh_text": "阳离子",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "처리 절차에서 '통보'를 잘못 인식한 '阳离子'. 정식 단계는 00035에 보존",
+      "adjacent_cells": [
+        {
+          "id": "A5229-zh-00036",
+          "adopted_zh_text": ""
+        },
+        {
+          "id": "A5229-zh-00038",
+          "adopted_zh_text": "申请人"
+        }
+      ],
+      "korean_document_title": "청소년 한부모 건강진단 신청서",
+      "korean_document_source_hash": "fb12a67748b3b4624b7fe78817b57fee5df2d9aa7565263f8c0545b98898d1d9",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "id": "A5230-zh-00030",
+      "source_hash": "6a29c77879a4645b02c4ffe0dff634eaa571e6d7c787623ffab33fcbe2e91b0a",
+      "target_id": "XML:386197",
+      "document": "A5230",
+      "original_zh_text": "MTQ65a9fb034c3bc16200293开始",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "생활복지사의 OCR/MTQ 제어 문자열. 표 머리의 생활+복지사 의미는 00029·00037에 보존",
+      "adjacent_cells": [
+        {
+          "id": "A5230-zh-00029",
+          "adopted_zh_text": "生活"
+        },
+        {
+          "id": "A5230-zh-00031",
+          "adopted_zh_text": "生活"
+        }
+      ],
+      "korean_document_title": "한부모가족복지시설 설치신고서",
+      "korean_document_source_hash": "0e045c875cb6491a5413c13afbedabd8e823113901781ac349598400eb715749",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "id": "A5230-zh-00032",
+      "source_hash": "6a29c77879a4645b02c4ffe0dff634eaa571e6d7c787623ffab33fcbe2e91b0a",
+      "target_id": "XML:386199",
+      "document": "A5230",
+      "original_zh_text": "MTQ65a9fb034c3bc16200293开始",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "생활지도원의 OCR/MTQ 제어 문자열. 표 머리의 생활+지도원 의미는 00031·00038에 보존",
+      "adjacent_cells": [
+        {
+          "id": "A5230-zh-00031",
+          "adopted_zh_text": "生活"
+        },
+        {
+          "id": "A5230-zh-00033",
+          "adopted_zh_text": "护士"
+        }
+      ],
+      "korean_document_title": "한부모가족복지시설 설치신고서",
+      "korean_document_source_hash": "0e045c875cb6491a5413c13afbedabd8e823113901781ac349598400eb715749",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "id": "A5230-zh-00060",
+      "source_hash": "ab367eb9a60ab986cced13036f1046c74e836124cee93cf61bb91d56d8372ee9",
+      "target_id": "XML:386231",
+      "document": "A5230",
+      "original_zh_text": "发布",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "교육실 단어 분절의 잘못 번역된 '发布'. 교양교육실은 00059에 보존",
+      "adjacent_cells": [
+        {
+          "id": "A5230-zh-00059",
+          "adopted_zh_text": "文化教育室"
+        },
+        {
+          "id": "A5230-zh-00061",
+          "adopted_zh_text": "产后"
+        }
+      ],
+      "korean_document_title": "한부모가족복지시설 설치신고서",
+      "korean_document_source_hash": "0e045c875cb6491a5413c13afbedabd8e823113901781ac349598400eb715749",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "id": "A5230-zh-00078",
+      "source_hash": "2099cd7f323c38ac89f0ebc4dd140529ccb048fb87aa42935038b81b0325020d",
+      "target_id": "XML:386251",
+      "document": "A5230",
+      "original_zh_text": "至",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "수신인 뒤의 불필요한 조각 '至'. 수신인은 00077·00079로 보존",
+      "adjacent_cells": [
+        {
+          "id": "A5230-zh-00077",
+          "adopted_zh_text": "致特别自治市市长、特别自治道知事"
+        },
+        {
+          "id": "A5230-zh-00079",
+          "adopted_zh_text": "市长、郡守、区厅长"
+        }
+      ],
+      "korean_document_title": "한부모가족복지시설 설치신고서",
+      "korean_document_source_hash": "0e045c875cb6491a5413c13afbedabd8e823113901781ac349598400eb715749",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "id": "A5231-zh-00010",
+      "source_hash": "9f96b8e22cc06bfafc548ef472e33b60548b190f17dbc04b1da176a50d2c6d2c",
+      "target_id": "XML:386287",
+      "document": "A5231",
+      "original_zh_text": "名称",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "소재지 란 내 깨진 '名' 조각. 소재지 필드는 00009에 보존",
+      "adjacent_cells": [
+        {
+          "id": "A5231-zh-00009",
+          "adopted_zh_text": "4. 所在地："
+        },
+        {
+          "id": "A5231-zh-00011",
+          "adopted_zh_text": "5. 入住（使用）定员："
+        }
+      ],
+      "korean_document_title": "한부모가족복지시설 설치신고 확인증",
+      "korean_document_source_hash": "e1e2438b263e660d60fe00fdd52d78d1eed32ebde51e8a1ddc88233a4b8ef462",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "id": "A5231-zh-00027",
+      "source_hash": "98ebd37ce3c1cd6abbe7da2f848d87a6002a00b609ecf9e582bbc5019f4ffbbf",
+      "target_id": "XML:386304",
+      "document": "A5231",
+      "original_zh_text": "公司",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "뒷면 '변경사항' 표제의 오인식된 조각 '公司'. 표제는 00025·00026에 보존",
+      "adjacent_cells": [
+        {
+          "id": "A5231-zh-00026",
+          "adopted_zh_text": "事项"
+        },
+        {
+          "id": "A5231-zh-00028",
+          "adopted_zh_text": ""
+        }
+      ],
+      "korean_document_title": "한부모가족복지시설 설치신고 확인증",
+      "korean_document_source_hash": "e1e2438b263e660d60fe00fdd52d78d1eed32ebde51e8a1ddc88233a4b8ef462",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "id": "A5231-zh-00028",
+      "source_hash": "bdb17d1f5327c0d9b34111564d94498fec3fcd938779f2f170ddc1ee4468f1fc",
+      "target_id": "XML:386305",
+      "document": "A5231",
+      "original_zh_text": "详情",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "뒷면 '변경사항' 표제의 중복 조각. 표제는 00025·00026에 보존",
+      "adjacent_cells": [
+        {
+          "id": "A5231-zh-00027",
+          "adopted_zh_text": ""
+        },
+        {
+          "id": "A5231-zh-00029",
+          "adopted_zh_text": "日期"
+        }
+      ],
+      "korean_document_title": "한부모가족복지시설 설치신고 확인증",
+      "korean_document_source_hash": "e1e2438b263e660d60fe00fdd52d78d1eed32ebde51e8a1ddc88233a4b8ef462",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "id": "A5232-zh-00045",
+      "source_hash": "2099cd7f323c38ac89f0ebc4dd140529ccb048fb87aa42935038b81b0325020d",
+      "target_id": "XML:386355",
+      "document": "A5232",
+      "original_zh_text": "至",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "수신인 뒤의 불필요한 조각 '至'. 수신인은 00044에서 '致'로 완결",
+      "adjacent_cells": [
+        {
+          "id": "A5232-zh-00044",
+          "adopted_zh_text": "致特别自治市市长、特别自治道知事、市长、郡守、区厅长"
+        },
+        {
+          "id": "A5232-zh-00046",
+          "adopted_zh_text": "申报人（代表人）"
+        }
+      ],
+      "korean_document_title": "한부모가족복지시설 변경신고서",
+      "korean_document_source_hash": "c2cac35ba170617768a0cf2944537ebce654ed45316b62ea061d6bfc81139d00",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "id": "A5233-zh-00030",
+      "source_hash": "2099cd7f323c38ac89f0ebc4dd140529ccb048fb87aa42935038b81b0325020d",
+      "target_id": "XML:386413",
+      "document": "A5233",
+      "original_zh_text": "您的",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "수신인 뒤의 자동번역 잔재 '您的'. 수신인은 00029에서 '致'로 완결",
+      "adjacent_cells": [
+        {
+          "id": "A5233-zh-00029",
+          "adopted_zh_text": "致特别自治市市长、特别自治道知事、市长、郡守、区厅长"
+        },
+        {
+          "id": "A5233-zh-00031",
+          "adopted_zh_text": "随附材料"
+        }
+      ],
+      "korean_document_title": "한부모가족복지시설(폐지, 운영중단, 재개)신고서",
+      "korean_document_source_hash": "ae20338a4c12e8765325808f56c468fed19ee0063155fbaa499bc6378531aa2c",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    }
+  ]
+}
