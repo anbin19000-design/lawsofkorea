@@ -14,7 +14,7 @@
   },
   "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
   "prior_corrections_preserved": 135,
-  "cumulative_corrections": 172,
+  "cumulative_corrections": 181,
   "new_corrections": [
     "A34909-zh-00004",
     "A34909-zh-00005",
@@ -52,13 +52,22 @@
     "A34909-zh-00150",
     "A34909-zh-00152",
     "A34909-zh-00153",
-    "A34909-zh-00154"
+    "A34909-zh-00154",
+    "A34909-zh-00155",
+    "A34909-zh-00159",
+    "A34909-zh-00173",
+    "A34909-zh-00177",
+    "A34909-zh-00181",
+    "A34909-zh-00185",
+    "A34909-zh-00187",
+    "A34909-zh-00188",
+    "A34909-zh-00194"
   ],
-  "inspected_span": "A34909-zh-00001 through A34909-zh-00154 (targeted full-context comparisons)",
+  "inspected_span": "A34909-zh-00001 through A34909-zh-00210 (targeted source-aligned inspection, not full semantic certification)",
   "verified_ko_reading_documents": 18,
   "verified_linked_english_readings": 3,
   "chinese_total_rows": 1687,
   "english_note": "B1 exact English, B2 fallback version; independently verified exact English unavailable for annexes and forms.",
   "review_status": "A34909_SEMANTIC_AUDIT_IN_PROGRESS",
-  "notes": "Seven clearly damaged Korean annex item markers restored in Chinese translations; existing edits preserved. Annex rows lack start/end offsets, so match against full original annex. No COMPLETE claim or receipt. Additional 14 destroyed or displaced annex subitem identifiers recovered with Korean full-text heading checks; not a completion marker. Sixteen further source-verified corrections in annex text including telephone contact, 1/3/5/10-year operating duration, proportions, and annex subitem identifiers. Whole family semantic certification incomplete."
+  "notes": "Seven clearly damaged Korean annex item markers restored in Chinese translations; existing edits preserved. Annex rows lack start/end offsets, so match against full original annex. No COMPLETE claim or receipt. Additional 14 destroyed or displaced annex subitem identifiers recovered with Korean full-text heading checks; not a completion marker. Sixteen further source-verified corrections in annex text including telephone contact, 1/3/5/10-year operating duration, proportions, and annex subitem identifiers. Whole family semantic certification incomplete. Nine additional source-grounded corrections through annex row 194; following rows up to 210 inspected, existing edits preserved."
 }
