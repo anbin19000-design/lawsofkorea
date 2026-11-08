@@ -15,7 +15,7 @@
     "required_order": "KO_FULL_EN_FULL_ZH_FULL",
     "ko": "COMPLETE: all 34 Korean source documents read in source order.",
     "en": "COMPLETE: B1 exact English and B2 English draft read in full; reviewed/en/KR_008306.json reference read; B3 and forms lack complete English document translations.",
-    "zh": "IN_PROGRESS: forms A12194–A12198 received targeted corrections. Remaining A12199–A12207 and table-label segmentation in A12179/A12180 remain to be reviewed."
+    "zh": "IN_PROGRESS: targeted corrections saved for A12199–A12207, including form titles, labels, property types, legal references and prices. Remaining A12179/A12180 segmentation and whole-family final QA are outstanding."
   },
   "scope": {
     "documents": 34,
@@ -3012,13 +3012,1021 @@
       "text_original": "批准年份",
       "corrected_text": "使用批准年份",
       "note": "修正使用批准年份字段。"
+    },
+    {
+      "id": "A12199-zh-00001",
+      "source_hash": "6aa8c647af8b6b580dc1d4c4bfe5362d581a4c2948a15900dd91ebc263848d84",
+      "text_original": "■ 房地产价格公开披露法实施细则 [附件表格23]",
+      "corrected_text": "■《房地产价格公示法施行规则》[别纸第23号书式]",
+      "note": "修正非住宅标准房地产调查报告表头母法名称。"
+    },
+    {
+      "id": "A12199-zh-00002",
+      "source_hash": "18e7eed34ca94a62ad7fe4516eb69991f543feb906878018ca0f1d3af0ac622f",
+      "text_original": "（第 1 页，共 3 页）",
+      "corrected_text": "（第1页，共3页）",
+      "note": "规范页码。"
+    },
+    {
+      "id": "A12199-zh-00003",
+      "source_hash": "3894afb2041ad5f94ff589a8e672f1918b11f2e3e867ca302d9ec1ff407e5bd2",
+      "text_original": "非住宅标准房地产调查详情及价格计算意见",
+      "corrected_text": "非住宅标准房地产调查事项及价格计算意见书",
+      "note": "修正报告标题。"
+    },
+    {
+      "id": "A12199-zh-00004",
+      "source_hash": "a4c25b7efff0bd0e9f60067b774908faba2a282fc47db8f70ae33ca94bfc06bf",
+      "text_original": "非住宅标准房地产",
+      "corrected_text": "非住宅标准房地产编号：",
+      "note": "修正编号字段。"
+    },
+    {
+      "id": "A12199-zh-00005",
+      "source_hash": "31014994a12b17622c0b2a1524002b3aaa439c1afd1696ec157a0adbec95f2af",
+      "text_original": "序列号:",
+      "corrected_text": "调查、计算人员：",
+      "note": "修正调查计算人员字段。"
+    },
+    {
+      "id": "A12199-zh-00008",
+      "source_hash": "1224f1d8a70b9defef7c1725bffb7748f4fa4c88bdc0f7ea1219a96d912da46e",
+      "text_original": "着陆",
+      "corrected_text": "土地",
+      "note": "修正土地属性字段。"
+    },
+    {
+      "id": "A12199-zh-00009",
+      "source_hash": "cac86917237b341dd83b3e9b520f22f49d9e7f839c4b7a9352c87da5f8667f17",
+      "text_original": "Land 类别",
+      "corrected_text": "地目",
+      "note": "修正地目字段。"
+    },
+    {
+      "id": "A12199-zh-00010",
+      "source_hash": "96e236841d85de19ed412f0d519eb298b9c0727fe21b0a812d77c2dccb39c252",
+      "text_original": "站点区域",
+      "corrected_text": "宅基地面积",
+      "note": "修正宅基地面积字段。"
+    },
+    {
+      "id": "A12199-zh-00012",
+      "source_hash": "a6f444699fd8526035337779876a0699fdd67cc46fa9b40aba9bad1b738e6c89",
+      "text_original": "因子",
+      "corrected_text": "因素",
+      "note": "修正因素字段。"
+    },
+    {
+      "id": "A12199-zh-00013",
+      "source_hash": "d2dfce93ede42fb62b73919907b36fb6e6dd7b96aef7138ab485b3fcf8505e4c",
+      "text_original": "复杂状态",
+      "corrected_text": "个别",
+      "note": "修正个别因素字段。"
+    },
+    {
+      "id": "A12199-zh-00015",
+      "source_hash": "46df0f51d34892209c8703a62f15a548e5e7722c76ade0317ab5eebef3a0426b",
+      "text_original": "和",
+      "corrected_text": "及",
+      "note": "修复“区域因素及个别因素分析”标题的连接词。"
+    },
+    {
+      "id": "A12199-zh-00016",
+      "source_hash": "0983250a9db31bdac70bbd7c05e632824062681648337b38ab342c672c5c1def",
+      "text_original": "个人",
+      "corrected_text": "个别",
+      "note": "修正个别因素字段。"
+    },
+    {
+      "id": "A12199-zh-00018",
+      "source_hash": "ac0e9ef613fd92c8484505ca0959d80e905c57778049ec7ed2a52c4c60072c71",
+      "text_original": "那个",
+      "corrected_text": "等",
+      "note": "修正地形、地势等字段。"
+    },
+    {
+      "id": "A12199-zh-00019",
+      "source_hash": "a6f444699fd8526035337779876a0699fdd67cc46fa9b40aba9bad1b738e6c89",
+      "text_original": "因子",
+      "corrected_text": "因素",
+      "note": "修正因素字段。"
+    },
+    {
+      "id": "A12199-zh-00021",
+      "source_hash": "fc1c7955c77f0c2411f799cb1ebee13a996a822620236fe18cca6c120e2a8c0f",
+      "text_original": "方向",
+      "corrected_text": "方位",
+      "note": "修正方位字段。"
+    },
+    {
+      "id": "A12199-zh-00022",
+      "source_hash": "1588fbaa0bf8816f0dc9e33e0aa1f634626508fcb6bef3f187f217fee1bebdda",
+      "text_original": "城市规划和",
+      "corrected_text": "城市规划及",
+      "note": "修复城市规划和公法限制字段。"
+    },
+    {
+      "id": "A12199-zh-00023",
+      "source_hash": "24d6528a4daf1cbc0e7bed9477512fd17a17bc5dc21e2fb10c87fc0529cc9e2e",
+      "text_original": "使用区域：",
+      "corrected_text": "用途地区：",
+      "note": "修正用途地区字段。"
+    },
+    {
+      "id": "A12199-zh-00024",
+      "source_hash": "ab44710476a34d1610765a3b1d165f955fe5f2756997877eaf9d6fd8b27ad42a",
+      "text_original": "公共监管",
+      "corrected_text": "公法限制",
+      "note": "修正公法限制字段。"
+    },
+    {
+      "id": "A12199-zh-00025",
+      "source_hash": "691b40f769f06e6c3d5aba96e6dc21d999bbb73f56beebb808842b33c7f05b8e",
+      "text_original": "使用区域：",
+      "corrected_text": "用途区域：",
+      "note": "修正用途区域字段。"
+    },
+    {
+      "id": "A12199-zh-00026",
+      "source_hash": "172e8cba60eaf0545fe045375d9c2feb519df58b921f016965f261223e2ae2f3",
+      "text_original": "城市规划设施:",
+      "corrected_text": "城市规划设施：",
+      "note": "修正城市规划设施字段。"
+    },
+    {
+      "id": "A12199-zh-00027",
+      "source_hash": "019c2e92f24b81340a45cf71bcf93f3f8ec653657a4341f35d3b258bde530592",
+      "text_original": "侵占率",
+      "corrected_text": "占有率",
+      "note": "修正占有率字段。"
+    },
+    {
+      "id": "A12200-zh-00001",
+      "source_hash": "7ab1552a3457049a79eb09979eda79cb37184a3af734822b81ba18b0ea3e2af7",
+      "text_original": "■ 房地产价格公开披露法实施细则 [附件表格24]",
+      "corrected_text": "■《房地产价格公示法施行规则》[别纸第24号书式]",
+      "note": "修正意见听取结果表头母法名称。"
+    },
+    {
+      "id": "A12200-zh-00002",
+      "source_hash": "74862a613019ec255a1c8cec55d87fde44f5f381d72127571cbf1d9a8cdd6c33",
+      "text_original": "市长、县长和区长的标准非住宅房地产价格",
+      "corrected_text": "市长、郡守或区厅长听取非住宅标准房地产价格意见的结果报告",
+      "note": "修正标题和地方首长职衔。"
+    },
+    {
+      "id": "A12200-zh-00004",
+      "source_hash": "ebd5ec7e91454142d80519d7ccc52225f6a22b1e2128a61abc122df438e63045",
+      "text_original": "城市/县/区名称:",
+      "corrected_text": "市、郡、区名称：",
+      "note": "修正地方行政区划名称。"
+    },
+    {
+      "id": "A12200-zh-00010",
+      "source_hash": "c566eec6be38abd9e0490c8e41d158debcfe87dc57dbc631bb455dcd0d781079",
+      "text_original": "市/县/区房地产价格披露委员会会议日期",
+      "corrected_text": "市、郡、区房地产价格公示委员会会议日期",
+      "note": "修正委员会名称。"
+    },
+    {
+      "id": "A12201-zh-00001",
+      "source_hash": "9d544ecc5f7e9eb82077b9a74e59139d9ed5e9fb050f2c4b2382d8c1f2b7aba0",
+      "text_original": "■ 房地产价格公开披露法实施细则 [附件表格25]",
+      "corrected_text": "■《房地产价格公示法施行规则》[别纸第25号书式]",
+      "note": "修正非住宅标准房地产异议申请书表头。"
+    },
+    {
+      "id": "A12201-zh-00002",
+      "source_hash": "b77a6ffe90b3574dfd5e2de1c9d13b53170c77270707035d2c898867ac18bf8c",
+      "text_original": "非住宅物业标准房地产价格异议表",
+      "corrected_text": "非住宅标准房地产价格异议申请书",
+      "note": "修正法定价格类型及申请书标题。"
+    },
+    {
+      "id": "A12201-zh-00003",
+      "source_hash": "d2a83006cd9318b5b81042ef1648450b0fd5e1e039e9a7c9081506920cb4e9e4",
+      "text_original": "※ 申请人无需填写深色部分。",
+      "corrected_text": "※ 阴影栏无需由申请人填写。",
+      "note": "修正阴影栏说明。"
+    },
+    {
+      "id": "A12201-zh-00005",
+      "source_hash": "ebc9b96eb63cf003b7b1fc13d77fd353ced43869ee6c7836a9f3be4c588e1391",
+      "text_original": "收货日期",
+      "corrected_text": "收件日期",
+      "note": "修正收件日期。"
+    },
+    {
+      "id": "A12201-zh-00010",
+      "source_hash": "4b237b7c112d6da6395f1e447cbac78f5d1928aad05d425161451f4d0a6eac1c",
+      "text_original": "Name(公司名称)",
+      "corrected_text": "姓名（法人名称）",
+      "note": "修正申请人姓名字段。"
+    },
+    {
+      "id": "A12201-zh-00017",
+      "source_hash": "8c609debc12c2cd08ebde99d0d4f80137bd62074c4821a4bcb3e3fdaec279f95",
+      "text_original": "主题",
+      "corrected_text": "对象",
+      "note": "修正对象房地产标签。"
+    },
+    {
+      "id": "A12201-zh-00018",
+      "source_hash": "115405af4dae9d095ed9b83245f44867ae05d631425330f837da2d0224f313ea",
+      "text_original": "位置和批号",
+      "corrected_text": "所在地及地号",
+      "note": "修正所在地及地号字段。"
+    },
+    {
+      "id": "A12201-zh-00021",
+      "source_hash": "cac86917237b341dd83b3e9b520f22f49d9e7f839c4b7a9352c87da5f8667f17",
+      "text_original": "Land 类别",
+      "corrected_text": "土地地目",
+      "note": "修正地目字段。"
+    },
+    {
+      "id": "A12201-zh-00022",
+      "source_hash": "ef0ec5eec77fb7759dea6b123ad449538f1ba8901f2d0d08c3029beea3ef397b",
+      "text_original": "站点面积 (㎡)",
+      "corrected_text": "宅基地面积（㎡）",
+      "note": "修正宅基地面积字段。"
+    },
+    {
+      "id": "A12201-zh-00023",
+      "source_hash": "097385de27a114321a359d9178858a0033110a9d15918aab6ceca71262f047da",
+      "text_original": "土地利用区",
+      "corrected_text": "用途地区",
+      "note": "修正用途地区字段。"
+    },
+    {
+      "id": "A12201-zh-00024",
+      "source_hash": "31c1dc6593426471ecbdae01579b6552a650d5138f0cc4129bfe367fe7ca0034",
+      "text_original": "总建筑面积（​​㎡）",
+      "corrected_text": "建筑物总面积（㎡）",
+      "note": "修正建筑物总面积字段。"
+    },
+    {
+      "id": "A12201-zh-00025",
+      "source_hash": "98c7949a5e9c547fceaeaa4bed290edc252c6c32214fc0e31a23907d128c47d6",
+      "text_original": "批准年份",
+      "corrected_text": "使用批准年份",
+      "note": "修正使用批准年份字段。"
+    },
+    {
+      "id": "A12201-zh-00027",
+      "source_hash": "f8f6603517715d1b24177af3f09ec2b2d89568018038e6ea7585d5d2f123f670",
+      "text_original": "主建筑结构",
+      "corrected_text": "主体建筑结构",
+      "note": "修正主体建筑结构字段。"
+    },
+    {
+      "id": "A12201-zh-00028",
+      "source_hash": "a381fab686d0c563a24164a83442041e9471a4fa7a330e141f6353f8fcad48c1",
+      "text_original": "反对",
+      "corrected_text": "异议内容",
+      "note": "修正异议内容栏。"
+    },
+    {
+      "id": "A12201-zh-00029",
+      "source_hash": "0ce31c00b1d76903a60434f04330efd37b738995f5e188306397b3bfe369c2ac",
+      "text_original": "官方评估价格",
+      "corrected_text": "公示价格",
+      "note": "修正标准非住宅房地产公示价格字段。"
+    },
+    {
+      "id": "A12201-zh-00030",
+      "source_hash": "ac00a13fa20066f6c55584de44ba4f1815e81b6c2e32e369b2a89f12e3d94380",
+      "text_original": "Price 建议价格",
+      "corrected_text": "异议价格",
+      "note": "修正异议价格字段，移除英文残词。"
+    },
+    {
+      "id": "A12201-zh-00031",
+      "source_hash": "cb0f24046b508710d6315e71bd9b21b920cf15301b0cf055dc9569c507576ea3",
+      "text_original": "内容",
+      "corrected_text": "异议理由",
+      "note": "修正异议理由字段。"
+    },
+    {
+      "id": "A12202-zh-00001",
+      "source_hash": "c43bbbfe4d2ff3db341c866ab204a25685fbe15af9dfe0c74c9967de49012a60",
+      "text_original": "■ 房地产价格公开披露法实施细则 [附件表格26]",
+      "corrected_text": "■《房地产价格公示法施行规则》[别纸第26号书式]",
+      "note": "修正非住宅个别房地产确认申请书表头。"
+    },
+    {
+      "id": "A12202-zh-00002",
+      "source_hash": "d2e7f9c9874ee52891ddf6d789f9db7689cad8b89bbbf879bb639c641834fd24",
+      "text_original": "非住宅个人房地产价格确认（申请）表",
+      "corrected_text": "非住宅个别房地产价格确认（申请）书",
+      "note": "修正法定价格类型。"
+    },
+    {
+      "id": "A12202-zh-00003",
+      "source_hash": "d2a83006cd9318b5b81042ef1648450b0fd5e1e039e9a7c9081506920cb4e9e4",
+      "text_original": "※ 申请人无需填写深色部分。",
+      "corrected_text": "※ 阴影栏无需由申请人填写。",
+      "note": "修正阴影栏说明。"
+    },
+    {
+      "id": "A12202-zh-00005",
+      "source_hash": "ebc9b96eb63cf003b7b1fc13d77fd353ced43869ee6c7836a9f3be4c588e1391",
+      "text_original": "收货日期",
+      "corrected_text": "收件日期",
+      "note": "修正收件日期。"
+    },
+    {
+      "id": "A12202-zh-00009",
+      "source_hash": "4b237b7c112d6da6395f1e447cbac78f5d1928aad05d425161451f4d0a6eac1c",
+      "text_original": "Name(公司名称)",
+      "corrected_text": "姓名（法人名称）",
+      "note": "修正申请人姓名字段。"
+    },
+    {
+      "id": "A12202-zh-00012",
+      "source_hash": "05cde1e4391f75bb78e10ac4e639dc998bea3ad3ca74927c4cb1cc8100cc25eb",
+      "text_original": "资格 非住宅个人房地产",
+      "corrected_text": "申请对象非住宅个别房地产",
+      "note": "修正申请对象类别。"
+    },
+    {
+      "id": "A12202-zh-00013",
+      "source_hash": "7da0a18577ffb4b9128e7ac493ab27f78fc4844fdcd8e1cf9d606187b79efa5e",
+      "text_original": "详情待确认",
+      "corrected_text": "确认内容",
+      "note": "修正确认内容字段。"
+    },
+    {
+      "id": "A12202-zh-00015",
+      "source_hash": "115405af4dae9d095ed9b83245f44867ae05d631425330f837da2d0224f313ea",
+      "text_original": "位置和批号",
+      "corrected_text": "所在地及地号",
+      "note": "修正所在地及地号字段。"
+    },
+    {
+      "id": "A12202-zh-00018",
+      "source_hash": "f31ed19a10c7134a598d12e21f9dd8f87d130e72683b45227f6d40f3391d8c82",
+      "text_original": "非居民个人",
+      "corrected_text": "非住宅个别房地产价格",
+      "note": "修正价格字段。"
+    },
+    {
+      "id": "A12202-zh-00020",
+      "source_hash": "8538ddccd3546154c8d958f4d2cf56e8220a0525df1eb9b42d79300e5e02972e",
+      "text_original": "房地产价格（韩元）",
+      "corrected_text": "价格（韩元）",
+      "note": "修正货币字段。"
+    },
+    {
+      "id": "A12202-zh-00024",
+      "source_hash": "2dcfbf17c9c2232eaca68f8ecf09a916ce9c00ed45c29eb62b4f651ab000122f",
+      "text_original": "根据《房地产价格公开法》实施细则第24条的规定，对上述个别非住宅房地产价格进行核实。",
+      "corrected_text": "根据《房地产价格公示法施行规则》第二十四条，现申请确认上述非住宅个别房地产价格。",
+      "note": "修正确认申请法源及术语。"
+    },
+    {
+      "id": "A12202-zh-00029",
+      "source_hash": "ff4f7292e4b6f7044bb0dd5617ce6a076d1135bdc0e27da20bc5c6d3b2cea04e",
+      "text_original": "城市、县和区",
+      "corrected_text": "市、郡、区",
+      "note": "修正地方行政区划名称。"
+    },
+    {
+      "id": "A12202-zh-00030",
+      "source_hash": "560c9335fdfb10efd26f73e477b9f6691a2da991597229e60451e507183b8763",
+      "text_original": "受条例约束",
+      "corrected_text": "依市、郡、区条例规定",
+      "note": "修正地方条例收费说明。"
+    },
+    {
+      "id": "A12202-zh-00031",
+      "source_hash": "8a982618c6295a7450252db70a10edb1c313089e7c24fe65bd9012d69a996420",
+      "text_original": "根据《房地产价格公开披露法》实施细则第24条的规定，关于您的申请，非住宅个人房地产",
+      "corrected_text": "根据《房地产价格公示法施行规则》第二十四条，确认贵方申请的非住宅个别房地产价格如下：",
+      "note": "修正确认书法源和术语。"
+    },
+    {
+      "id": "A12203-zh-00001",
+      "source_hash": "52a4b8409a433a2f7a1552243a41fb71123ea8927e9cbe3cd1ab6bf2a340f1da",
+      "text_original": "■ 房地产价格公开披露法实施细则 [附件表格27]",
+      "corrected_text": "■《房地产价格公示法施行规则》[别纸第27号书式]",
+      "note": "修正非住宅个别房地产意见书表头。"
+    },
+    {
+      "id": "A12203-zh-00002",
+      "source_hash": "0e88755ce136b61fb027cbbd32d563c33596a8f2b13fa6317b5f58bf3304cd45",
+      "text_original": "对非住宅个人房地产价格的意见",
+      "corrected_text": "非住宅个别房地产价格意见书",
+      "note": "修正法定价格类型。"
+    },
+    {
+      "id": "A12203-zh-00003",
+      "source_hash": "620c125f9df0c08a6f40fd632e2abd5ba610138091bd6b44b012a2d6368b0634",
+      "text_original": "※ 深色列无需意见提交者填写。",
+      "corrected_text": "※ 阴影栏无需由意见提交人填写。",
+      "note": "修正阴影栏说明。"
+    },
+    {
+      "id": "A12203-zh-00005",
+      "source_hash": "ebc9b96eb63cf003b7b1fc13d77fd353ced43869ee6c7836a9f3be4c588e1391",
+      "text_original": "收货日期",
+      "corrected_text": "收件日期",
+      "note": "修正收件日期。"
+    },
+    {
+      "id": "A12203-zh-00010",
+      "source_hash": "4b237b7c112d6da6395f1e447cbac78f5d1928aad05d425161451f4d0a6eac1c",
+      "text_original": "Name(公司名称)",
+      "corrected_text": "姓名（法人名称）",
+      "note": "修正姓名字段。"
+    },
+    {
+      "id": "A12203-zh-00018",
+      "source_hash": "8c609debc12c2cd08ebde99d0d4f80137bd62074c4821a4bcb3e3fdaec279f95",
+      "text_original": "主题",
+      "corrected_text": "对象",
+      "note": "修正对象房地产标签。"
+    },
+    {
+      "id": "A12203-zh-00019",
+      "source_hash": "115405af4dae9d095ed9b83245f44867ae05d631425330f837da2d0224f313ea",
+      "text_original": "位置和批号",
+      "corrected_text": "所在地及地号",
+      "note": "修正所在地及地号字段。"
+    },
+    {
+      "id": "A12203-zh-00021",
+      "source_hash": "5c63838ad6405730b41f4bf166b23529f3d03698f5bb638f4f8c1146a60f89ce",
+      "text_original": "个人房地产",
+      "corrected_text": "个别房地产",
+      "note": "修正对象类别。"
+    },
+    {
+      "id": "A12203-zh-00022",
+      "source_hash": "cac86917237b341dd83b3e9b520f22f49d9e7f839c4b7a9352c87da5f8667f17",
+      "text_original": "Land 类别",
+      "corrected_text": "土地地目",
+      "note": "修正地目字段。"
+    },
+    {
+      "id": "A12203-zh-00023",
+      "source_hash": "ef0ec5eec77fb7759dea6b123ad449538f1ba8901f2d0d08c3029beea3ef397b",
+      "text_original": "站点面积 (㎡)",
+      "corrected_text": "宅基地面积（㎡）",
+      "note": "修正宅基地面积字段。"
+    },
+    {
+      "id": "A12203-zh-00024",
+      "source_hash": "097385de27a114321a359d9178858a0033110a9d15918aab6ceca71262f047da",
+      "text_original": "土地利用区",
+      "corrected_text": "用途地区",
+      "note": "修正用途地区字段。"
+    },
+    {
+      "id": "A12203-zh-00025",
+      "source_hash": "31c1dc6593426471ecbdae01579b6552a650d5138f0cc4129bfe367fe7ca0034",
+      "text_original": "总建筑面积（​​㎡）",
+      "corrected_text": "建筑物总面积（㎡）",
+      "note": "修正建筑物总面积字段。"
+    },
+    {
+      "id": "A12203-zh-00026",
+      "source_hash": "98c7949a5e9c547fceaeaa4bed290edc252c6c32214fc0e31a23907d128c47d6",
+      "text_original": "批准年份",
+      "corrected_text": "使用批准年份",
+      "note": "修正使用批准年份字段。"
+    },
+    {
+      "id": "A12203-zh-00028",
+      "source_hash": "f8f6603517715d1b24177af3f09ec2b2d89568018038e6ea7585d5d2f123f670",
+      "text_original": "主建筑结构",
+      "corrected_text": "主体建筑结构",
+      "note": "修正主体建筑结构字段。"
+    },
+    {
+      "id": "A12203-zh-00030",
+      "source_hash": "e85b10295ce1bc518a234ea616987106145eed22bf8b43c0b1eb6b5bd08346a1",
+      "text_original": "提交意见",
+      "corrected_text": "意见提交内容",
+      "note": "修正意见提交内容栏。"
+    },
+    {
+      "id": "A12203-zh-00031",
+      "source_hash": "db3114f823eb6ba5ebd1849c35b60a81a68b9eaa58620faa80e674f8b7896dd4",
+      "text_original": "价格可供公开查阅",
+      "corrected_text": "查阅价格",
+      "note": "修正查阅价格字段。"
+    },
+    {
+      "id": "A12203-zh-00032",
+      "source_hash": "ac00a13fa20066f6c55584de44ba4f1815e81b6c2e32e369b2a89f12e3d94380",
+      "text_original": "Price 建议价格",
+      "corrected_text": "意见价格",
+      "note": "修正意见价格栏，移除英文残词。"
+    },
+    {
+      "id": "A12203-zh-00033",
+      "source_hash": "cb0f24046b508710d6315e71bd9b21b920cf15301b0cf055dc9569c507576ea3",
+      "text_original": "内容",
+      "corrected_text": "申请理由",
+      "note": "修正申请理由字段。"
+    },
+    {
+      "id": "A12204-zh-00001",
+      "source_hash": "7b8af97c175dae7ff52aea85bd99377145c95fe03516c7d1fed9d0e85b74edd2",
+      "text_original": "■ 房地产价格公开披露法实施细则 [附件表格28]",
+      "corrected_text": "■《房地产价格公示法施行规则》[别纸第28号书式]",
+      "note": "修正非住宅个别房地产异议申请书表头。"
+    },
+    {
+      "id": "A12204-zh-00002",
+      "source_hash": "601c4d3efa65ea11606eb95c389e1a17154fa7d73208ce0d53ed4ad4d357591c",
+      "text_original": "对个人非住宅房地产价格的异议",
+      "corrected_text": "非住宅个别房地产价格异议申请书",
+      "note": "修正法定价格类型。"
+    },
+    {
+      "id": "A12204-zh-00003",
+      "source_hash": "d2a83006cd9318b5b81042ef1648450b0fd5e1e039e9a7c9081506920cb4e9e4",
+      "text_original": "※ 申请人无需填写深色部分。",
+      "corrected_text": "※ 阴影栏无需由申请人填写。",
+      "note": "修正阴影栏说明。"
+    },
+    {
+      "id": "A12204-zh-00005",
+      "source_hash": "ebc9b96eb63cf003b7b1fc13d77fd353ced43869ee6c7836a9f3be4c588e1391",
+      "text_original": "收货日期",
+      "corrected_text": "收件日期",
+      "note": "修正收件日期。"
+    },
+    {
+      "id": "A12204-zh-00010",
+      "source_hash": "4b237b7c112d6da6395f1e447cbac78f5d1928aad05d425161451f4d0a6eac1c",
+      "text_original": "Name(公司名称)",
+      "corrected_text": "姓名（法人名称）",
+      "note": "修正申请人姓名字段。"
+    },
+    {
+      "id": "A12204-zh-00017",
+      "source_hash": "8c609debc12c2cd08ebde99d0d4f80137bd62074c4821a4bcb3e3fdaec279f95",
+      "text_original": "主题",
+      "corrected_text": "对象",
+      "note": "修正对象房地产标签。"
+    },
+    {
+      "id": "A12204-zh-00018",
+      "source_hash": "115405af4dae9d095ed9b83245f44867ae05d631425330f837da2d0224f313ea",
+      "text_original": "位置和批号",
+      "corrected_text": "所在地及地号",
+      "note": "修正所在地及地号字段。"
+    },
+    {
+      "id": "A12204-zh-00020",
+      "source_hash": "5c63838ad6405730b41f4bf166b23529f3d03698f5bb638f4f8c1146a60f89ce",
+      "text_original": "个人房地产",
+      "corrected_text": "个别房地产",
+      "note": "修正对象类别。"
+    },
+    {
+      "id": "A12204-zh-00021",
+      "source_hash": "cac86917237b341dd83b3e9b520f22f49d9e7f839c4b7a9352c87da5f8667f17",
+      "text_original": "Land 类别",
+      "corrected_text": "土地地目",
+      "note": "修正地目字段。"
+    },
+    {
+      "id": "A12204-zh-00022",
+      "source_hash": "ef0ec5eec77fb7759dea6b123ad449538f1ba8901f2d0d08c3029beea3ef397b",
+      "text_original": "站点面积 (㎡)",
+      "corrected_text": "宅基地面积（㎡）",
+      "note": "修正宅基地面积字段。"
+    },
+    {
+      "id": "A12204-zh-00023",
+      "source_hash": "097385de27a114321a359d9178858a0033110a9d15918aab6ceca71262f047da",
+      "text_original": "土地利用区",
+      "corrected_text": "用途地区",
+      "note": "修正用途地区字段。"
+    },
+    {
+      "id": "A12204-zh-00024",
+      "source_hash": "31c1dc6593426471ecbdae01579b6552a650d5138f0cc4129bfe367fe7ca0034",
+      "text_original": "总建筑面积（​​㎡）",
+      "corrected_text": "建筑物总面积（㎡）",
+      "note": "修正建筑物总面积字段。"
+    },
+    {
+      "id": "A12204-zh-00025",
+      "source_hash": "98c7949a5e9c547fceaeaa4bed290edc252c6c32214fc0e31a23907d128c47d6",
+      "text_original": "批准年份",
+      "corrected_text": "使用批准年份",
+      "note": "修正使用批准年份字段。"
+    },
+    {
+      "id": "A12204-zh-00027",
+      "source_hash": "f8f6603517715d1b24177af3f09ec2b2d89568018038e6ea7585d5d2f123f670",
+      "text_original": "主建筑结构",
+      "corrected_text": "主体建筑结构",
+      "note": "修正主体建筑结构字段。"
+    },
+    {
+      "id": "A12204-zh-00028",
+      "source_hash": "1f29232021d16cb1d0fca07e895d939949c328fa18ca92413677e6e0bae5a78a",
+      "text_original": "主楼使用",
+      "corrected_text": "主体建筑用途",
+      "note": "修正主体建筑用途字段。"
+    },
+    {
+      "id": "A12204-zh-00029",
+      "source_hash": "a381fab686d0c563a24164a83442041e9471a4fa7a330e141f6353f8fcad48c1",
+      "text_original": "反对",
+      "corrected_text": "异议内容",
+      "note": "修正异议内容栏。"
+    },
+    {
+      "id": "A12204-zh-00030",
+      "source_hash": "0ce31c00b1d76903a60434f04330efd37b738995f5e188306397b3bfe369c2ac",
+      "text_original": "官方评估价格",
+      "corrected_text": "公示价格",
+      "note": "修正公示价格字段。"
+    },
+    {
+      "id": "A12204-zh-00031",
+      "source_hash": "ac00a13fa20066f6c55584de44ba4f1815e81b6c2e32e369b2a89f12e3d94380",
+      "text_original": "Price 建议价格",
+      "corrected_text": "异议价格",
+      "note": "修正异议价格栏，移除英文残词。"
+    },
+    {
+      "id": "A12204-zh-00032",
+      "source_hash": "cb0f24046b508710d6315e71bd9b21b920cf15301b0cf055dc9569c507576ea3",
+      "text_original": "内容",
+      "corrected_text": "异议理由",
+      "note": "修正异议理由字段。"
+    },
+    {
+      "id": "A12205-zh-00001",
+      "source_hash": "8187f1921f28499d116be32710f97e6be1bf17573404e1c1fa8d5b891fb5bf3f",
+      "text_original": "■ 房地产价格公开披露法实施细则 [附件表格29]",
+      "corrected_text": "■《房地产价格公示法施行规则》[别纸第29号书式]",
+      "note": "修正非住宅集合房地产确认书表头。"
+    },
+    {
+      "id": "A12205-zh-00002",
+      "source_hash": "9d0bc88e5f09b2817ca819adb5c86c5d0ced90c2c2bc8dc45dd97616a8fe13cb",
+      "text_original": "非住宅集体房地产价格确认（申请）表",
+      "corrected_text": "非住宅集合房地产价格确认（申请）书",
+      "note": "修正法定集合房地产术语。"
+    },
+    {
+      "id": "A12205-zh-00003",
+      "source_hash": "d2a83006cd9318b5b81042ef1648450b0fd5e1e039e9a7c9081506920cb4e9e4",
+      "text_original": "※ 申请人无需填写深色部分。",
+      "corrected_text": "※ 阴影栏无需由申请人填写。",
+      "note": "修正阴影栏说明。"
+    },
+    {
+      "id": "A12205-zh-00005",
+      "source_hash": "ebc9b96eb63cf003b7b1fc13d77fd353ced43869ee6c7836a9f3be4c588e1391",
+      "text_original": "收货日期",
+      "corrected_text": "收件日期",
+      "note": "修正收件日期。"
+    },
+    {
+      "id": "A12205-zh-00009",
+      "source_hash": "4b237b7c112d6da6395f1e447cbac78f5d1928aad05d425161451f4d0a6eac1c",
+      "text_original": "Name(公司名称)",
+      "corrected_text": "姓名（法人名称）",
+      "note": "修正申请人姓名字段。"
+    },
+    {
+      "id": "A12205-zh-00012",
+      "source_hash": "53ca3eca6af7f87fa3d3ce8d3d362349ac6bd24f20e205aab415d2f6a4e00eba",
+      "text_original": "申请资格 非住宅集体房地产",
+      "corrected_text": "申请对象非住宅集合房地产",
+      "note": "修正申请对象类别。"
+    },
+    {
+      "id": "A12205-zh-00013",
+      "source_hash": "7da0a18577ffb4b9128e7ac493ab27f78fc4844fdcd8e1cf9d606187b79efa5e",
+      "text_original": "详情待确认",
+      "corrected_text": "确认内容",
+      "note": "修正确认内容字段。"
+    },
+    {
+      "id": "A12205-zh-00015",
+      "source_hash": "ef4403031e6e67eb6ff612ac7f030ff5fcf2e12e2b56fe2fa253adc78b0c68bb",
+      "text_original": "位置",
+      "corrected_text": "所在地",
+      "note": "修正所在地字段。"
+    },
+    {
+      "id": "A12205-zh-00016",
+      "source_hash": "3a4808ed60d42158802406eafc733fbd9e7ffe43cd87895e51d2d3991578a75a",
+      "text_original": "批号",
+      "corrected_text": "地号",
+      "note": "修正地号字段。"
+    },
+    {
+      "id": "A12205-zh-00017",
+      "source_hash": "4cda38a249ab558190e607c4e4e9aca9c14c4591b75debb9989be5cba4ceab0f",
+      "text_original": "名称",
+      "corrected_text": "名称（小区名称）",
+      "note": "修正小区名称字段。"
+    },
+    {
+      "id": "A12205-zh-00018",
+      "source_hash": "e86eff24d7b466a999174ab5d8987561f329c8656431ecb74a26e72a82ae8669",
+      "text_original": "建筑物名称或编号",
+      "corrected_text": "栋名",
+      "note": "修正栋名字段。"
+    },
+    {
+      "id": "A12205-zh-00019",
+      "source_hash": "d85d1cb94a5d96112e05a61db2160a0c2615e5ee5b4f460ce035c2655fe3ee84",
+      "text_original": "单元号",
+      "corrected_text": "户号",
+      "note": "修正户号字段。"
+    },
+    {
+      "id": "A12205-zh-00020",
+      "source_hash": "1b12dfff7d24da6bec2e33025d109fdd51b3d660b91cfb9fa80de92feccbc7e7",
+      "text_original": "非住宅",
+      "corrected_text": "非住宅集合房地产",
+      "note": "修正对象类别。"
+    },
+    {
+      "id": "A12205-zh-00023",
+      "source_hash": "8a4b857eb6f5e4b31868d38d0b1af47194f1058e6871fad79a8d9ffac079b493",
+      "text_original": "集体房地产价格（中标）",
+      "corrected_text": "非住宅集合房地产价格（韩元）",
+      "note": "修正价格字段及币种。"
+    },
+    {
+      "id": "A12205-zh-00024",
+      "source_hash": "fb89c5cdd9c04ffa8ea32b0399c173cde21a63ae47549f107f54b0c0a2700f33",
+      "text_original": "根据《房地产价格公开披露法》实施细则第28条的规定，确认上述非住宅集体房地产价格。",
+      "corrected_text": "根据《房地产价格公示法施行规则》第二十八条，现申请确认上述非住宅集合房地产价格。",
+      "note": "修正确认申请法源及术语。"
+    },
+    {
+      "id": "A12205-zh-00029",
+      "source_hash": "ff4f7292e4b6f7044bb0dd5617ce6a076d1135bdc0e27da20bc5c6d3b2cea04e",
+      "text_original": "城市、县和区",
+      "corrected_text": "市、郡、区",
+      "note": "修正地方行政区划名称。"
+    },
+    {
+      "id": "A12205-zh-00030",
+      "source_hash": "560c9335fdfb10efd26f73e477b9f6691a2da991597229e60451e507183b8763",
+      "text_original": "受条例约束",
+      "corrected_text": "依市、郡、区条例规定",
+      "note": "修正地方条例收费说明。"
+    },
+    {
+      "id": "A12205-zh-00031",
+      "source_hash": "a25e107ce3e6620bb48744702bf400e6fadb8d7cded3fc8de91cf292c565a84d",
+      "text_original": "根据《房地产价格公开披露法》实施细则第28条，关于您提交的非住宅集体房地产申请",
+      "corrected_text": "根据《房地产价格公示法施行规则》第二十八条，确认贵方申请的非住宅集合房地产价格如下：",
+      "note": "修正确认书法源和术语。"
+    },
+    {
+      "id": "A12206-zh-00001",
+      "source_hash": "99e4b69203e29b23f041a0313680fd72d3b5b70bf3abb702a6404fd2324ba06b",
+      "text_original": "■ 房地产价格公开披露法实施细则 [附件表格30]",
+      "corrected_text": "■《房地产价格公示法施行规则》[别纸第30号书式]",
+      "note": "修正非住宅集合房地产意见书表头。"
+    },
+    {
+      "id": "A12206-zh-00002",
+      "source_hash": "9389546196e2a86cdf0f4ec10d4073586181f013828ea85ade5d32dd268efe8e",
+      "text_original": "关于非住宅集体房地产价格的观点",
+      "corrected_text": "非住宅集合房地产价格意见书",
+      "note": "修正法定术语。"
+    },
+    {
+      "id": "A12206-zh-00003",
+      "source_hash": "620c125f9df0c08a6f40fd632e2abd5ba610138091bd6b44b012a2d6368b0634",
+      "text_original": "※ 深色列无需意见提交者填写。",
+      "corrected_text": "※ 阴影栏无需由意见提交人填写。",
+      "note": "修正阴影栏说明。"
+    },
+    {
+      "id": "A12206-zh-00005",
+      "source_hash": "ebc9b96eb63cf003b7b1fc13d77fd353ced43869ee6c7836a9f3be4c588e1391",
+      "text_original": "收货日期",
+      "corrected_text": "收件日期",
+      "note": "修正收件日期。"
+    },
+    {
+      "id": "A12206-zh-00010",
+      "source_hash": "4b237b7c112d6da6395f1e447cbac78f5d1928aad05d425161451f4d0a6eac1c",
+      "text_original": "Name(公司名称)",
+      "corrected_text": "姓名（法人名称）",
+      "note": "修正姓名字段。"
+    },
+    {
+      "id": "A12206-zh-00018",
+      "source_hash": "8c609debc12c2cd08ebde99d0d4f80137bd62074c4821a4bcb3e3fdaec279f95",
+      "text_original": "主题",
+      "corrected_text": "对象",
+      "note": "修正对象房地产标签。"
+    },
+    {
+      "id": "A12206-zh-00019",
+      "source_hash": "115405af4dae9d095ed9b83245f44867ae05d631425330f837da2d0224f313ea",
+      "text_original": "位置和批号",
+      "corrected_text": "所在地及地号",
+      "note": "修正所在地及地号字段。"
+    },
+    {
+      "id": "A12206-zh-00021",
+      "source_hash": "7e11061c57c9a08f4995be09e69892972080e571869cf0e8f5cf89ac6db1bef4",
+      "text_original": "集体房地产",
+      "corrected_text": "集合房地产",
+      "note": "修正集合房地产类别。"
+    },
+    {
+      "id": "A12206-zh-00022",
+      "source_hash": "50358624dc88e34a37109f3169331dbbf5ba3a688502d9ba3f27f82db8509356",
+      "text_original": "Name(复合体名称)",
+      "corrected_text": "名称（小区名称）",
+      "note": "修正小区名称字段。"
+    },
+    {
+      "id": "A12206-zh-00023",
+      "source_hash": "e86eff24d7b466a999174ab5d8987561f329c8656431ecb74a26e72a82ae8669",
+      "text_original": "建筑物名称或编号",
+      "corrected_text": "栋名",
+      "note": "修正栋名字段。"
+    },
+    {
+      "id": "A12206-zh-00024",
+      "source_hash": "d85d1cb94a5d96112e05a61db2160a0c2615e5ee5b4f460ce035c2655fe3ee84",
+      "text_original": "单元号",
+      "corrected_text": "户号",
+      "note": "修正户号字段。"
+    },
+    {
+      "id": "A12206-zh-00025",
+      "source_hash": "e85b10295ce1bc518a234ea616987106145eed22bf8b43c0b1eb6b5bd08346a1",
+      "text_original": "提交意见",
+      "corrected_text": "意见提交内容",
+      "note": "修正意见提交内容栏。"
+    },
+    {
+      "id": "A12206-zh-00026",
+      "source_hash": "db3114f823eb6ba5ebd1849c35b60a81a68b9eaa58620faa80e674f8b7896dd4",
+      "text_original": "价格可供公开查阅",
+      "corrected_text": "查阅价格",
+      "note": "修正查阅价格字段。"
+    },
+    {
+      "id": "A12206-zh-00027",
+      "source_hash": "ac00a13fa20066f6c55584de44ba4f1815e81b6c2e32e369b2a89f12e3d94380",
+      "text_original": "Price 建议价格",
+      "corrected_text": "意见价格",
+      "note": "修正意见价格栏，移除英文残词。"
+    },
+    {
+      "id": "A12206-zh-00028",
+      "source_hash": "cb0f24046b508710d6315e71bd9b21b920cf15301b0cf055dc9569c507576ea3",
+      "text_original": "内容",
+      "corrected_text": "申请理由",
+      "note": "修正申请理由字段。"
+    },
+    {
+      "id": "A12206-zh-00032",
+      "source_hash": "3daffe0e57e0552bdf47cabffea6452d062957a9ee20440910e6c4129c928621",
+      "text_original": "关于依据《房地产价格公开披露法》实施细则第66条所审查的非住宅集体房地产价格，上述内容",
+      "corrected_text": "根据《房地产价格公示法施行令》第六十六条，现就非住宅集合房地产价格提出上述意见。",
+      "note": "修正意见书法律依据及术语。"
+    },
+    {
+      "id": "A12207-zh-00001",
+      "source_hash": "44fad3f8b1fecd20d473606220c21e13f2f704c81ec83b05f224eddeeb768cfa",
+      "text_original": "■ 房地产价格公开披露法实施细则 [附件表格31]",
+      "corrected_text": "■《房地产价格公示法施行规则》[别纸第31号书式]",
+      "note": "修正非住宅集合房地产异议申请书表头。"
+    },
+    {
+      "id": "A12207-zh-00002",
+      "source_hash": "f2e7e46c3ab0433e803ea59f057616f6aba74a8f0ad879c50a1db037fee3cc12",
+      "text_original": "非住宅集体房地产价格异议申请",
+      "corrected_text": "非住宅集合房地产价格异议申请书",
+      "note": "修正法定术语。"
+    },
+    {
+      "id": "A12207-zh-00003",
+      "source_hash": "d2a83006cd9318b5b81042ef1648450b0fd5e1e039e9a7c9081506920cb4e9e4",
+      "text_original": "※ 申请人无需填写深色部分。",
+      "corrected_text": "※ 阴影栏无需由申请人填写。",
+      "note": "修正阴影栏说明。"
+    },
+    {
+      "id": "A12207-zh-00005",
+      "source_hash": "ebc9b96eb63cf003b7b1fc13d77fd353ced43869ee6c7836a9f3be4c588e1391",
+      "text_original": "收货日期",
+      "corrected_text": "收件日期",
+      "note": "修正收件日期。"
+    },
+    {
+      "id": "A12207-zh-00010",
+      "source_hash": "4b237b7c112d6da6395f1e447cbac78f5d1928aad05d425161451f4d0a6eac1c",
+      "text_original": "Name(公司名称)",
+      "corrected_text": "姓名（法人名称）",
+      "note": "修正申请人姓名字段。"
+    },
+    {
+      "id": "A12207-zh-00017",
+      "source_hash": "364d448a22b1512f4d3cd6ffae16cd65c8e787a5bbe2a79e4b4fe964e509f437",
+      "text_original": "主题",
+      "corrected_text": "对象",
+      "note": "修正对象房地产标签。"
+    },
+    {
+      "id": "A12207-zh-00018",
+      "source_hash": "3c2d6ddb4a94f1f363750ba2402fd1286402566fc07871795119af9623e46fbd",
+      "text_original": "属性",
+      "corrected_text": "土地",
+      "note": "修正对象土地标签。"
+    },
+    {
+      "id": "A12207-zh-00019",
+      "source_hash": "115405af4dae9d095ed9b83245f44867ae05d631425330f837da2d0224f313ea",
+      "text_original": "位置和批号",
+      "corrected_text": "所在地及地号",
+      "note": "修正所在地及地号字段。"
+    },
+    {
+      "id": "A12207-zh-00021",
+      "source_hash": "7e11061c57c9a08f4995be09e69892972080e571869cf0e8f5cf89ac6db1bef4",
+      "text_original": "集体房地产",
+      "corrected_text": "集合房地产",
+      "note": "修正集合房地产类别。"
+    },
+    {
+      "id": "A12207-zh-00022",
+      "source_hash": "50358624dc88e34a37109f3169331dbbf5ba3a688502d9ba3f27f82db8509356",
+      "text_original": "Name(复合体名称)",
+      "corrected_text": "名称（小区名称）",
+      "note": "修正小区名称字段。"
+    },
+    {
+      "id": "A12207-zh-00023",
+      "source_hash": "e86eff24d7b466a999174ab5d8987561f329c8656431ecb74a26e72a82ae8669",
+      "text_original": "建筑物名称或编号",
+      "corrected_text": "栋名",
+      "note": "修正栋名字段。"
+    },
+    {
+      "id": "A12207-zh-00024",
+      "source_hash": "d85d1cb94a5d96112e05a61db2160a0c2615e5ee5b4f460ce035c2655fe3ee84",
+      "text_original": "单元号",
+      "corrected_text": "户号",
+      "note": "修正户号字段。"
+    },
+    {
+      "id": "A12207-zh-00025",
+      "source_hash": "a381fab686d0c563a24164a83442041e9471a4fa7a330e141f6353f8fcad48c1",
+      "text_original": "反对",
+      "corrected_text": "异议内容",
+      "note": "修正异议内容栏。"
+    },
+    {
+      "id": "A12207-zh-00026",
+      "source_hash": "0ce31c00b1d76903a60434f04330efd37b738995f5e188306397b3bfe369c2ac",
+      "text_original": "官方评估价格",
+      "corrected_text": "公示价格",
+      "note": "修正非住宅集合房地产公示价格字段。"
+    },
+    {
+      "id": "A12207-zh-00027",
+      "source_hash": "ac00a13fa20066f6c55584de44ba4f1815e81b6c2e32e369b2a89f12e3d94380",
+      "text_original": "Price 建议价格",
+      "corrected_text": "异议价格",
+      "note": "修正异议价格字段。"
+    },
+    {
+      "id": "A12207-zh-00030",
+      "source_hash": "421ebe38ac32dbf2b7d33845dfd130f262a7640f93dcbd7b346fe2befabd4217",
+      "text_original": "应用程序基础",
+      "corrected_text": "异议理由",
+      "note": "修正异议理由字段。"
+    },
+    {
+      "id": "A12207-zh-00031",
+      "source_hash": "b02f4a97e884756b3f7cd29b26e064d99edd40fca4f019ff1d4913480e78c11b",
+      "text_original": "根据《房地产价格公开披露法》第22条第9款",
+      "corrected_text": "根据《房地产价格公示法》第二十二条第九款，",
+      "note": "修正异议申请法律依据。"
     }
   ],
   "quality_checks": {
     "source_zh_sha_preserved": true,
     "mtq_remaining": 0,
     "unique_changed_ids": true,
-    "total_saved_changes": 427
+    "total_saved_changes": 571
   },
-  "next_step": "Continue A12199–A12207 sequentially, inspect all remaining form fields, amounts, signatures, and processing-flow labels, and revisit A12179/A12180 segmentation."
+  "next_step": "Revisit A12179 and A12180 fragmented table labels; perform full 2,925-row coverage, MTQ, untranslated Korean, numeric/cross-reference and bilingual form QA; then construct canonical review and receipt."
 }
