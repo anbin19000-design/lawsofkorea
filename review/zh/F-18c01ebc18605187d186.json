@@ -1437,6 +1437,62 @@
       "source_hash": "3a7156bb8fada17f69a2d86ca6f2678de9e97e3ffef7a61be4b8798e255e81ee",
       "target_id": "XML:2217645",
       "source_progress": "C02 sequential Annex A30229 table review; obvious OCR/MT corruption"
+    },
+    {
+      "id": "A30229-zh-00118",
+      "text": "卫生福利部长",
+      "source_hash": "a3efb9a4df05e7fa34e439031900488c463e6b963bd1bc119f79e18a6db39ce9",
+      "target_id": "XML:2217663",
+      "source_progress": "C02 sequential Annex A30229 review; obvious MT mistranslation, table fragments"
+    },
+    {
+      "id": "A30229-zh-00132",
+      "text": "3. 根据《国家技术资格法施行令》",
+      "source_hash": "f683fe4f316002bb9de2adb786ca215bb4b133893884ca963cce990fcf793c63",
+      "target_id": "XML:2217678",
+      "source_progress": "C02 sequential Annex A30229 review; obvious MT mistranslation, table fragments"
+    },
+    {
+      "id": "A30229-zh-00133",
+      "text": "3. 二级精神健康护士",
+      "source_hash": "e5fcad06556d28fa876a1ca34a55c17bc7c66ec024271558ad15e18d888da003",
+      "target_id": "XML:2217679",
+      "source_progress": "C02 sequential Annex A30229 review; obvious MT mistranslation, table fragments"
+    },
+    {
+      "id": "A30229-zh-00134",
+      "text": "第12条之2第1款规定",
+      "source_hash": "d8be883d8ecccb09009081d6e5447a521ba815a8566e504c90df6e1bf642d109",
+      "target_id": "XML:2217680",
+      "source_progress": "C02 sequential Annex A30229 review; obvious MT mistranslation, table fragments"
+    },
+    {
+      "id": "A30229-zh-00141",
+      "text": "在精神护理领域任职",
+      "source_hash": "fd85957693f0d06aa6d4df5b166223d388beb42f79d04eafd51c788f8e931725",
+      "target_id": "XML:2217688",
+      "source_progress": "C02 sequential Annex A30229 review; obvious MT mistranslation, table fragments"
+    },
+    {
+      "id": "A30229-zh-00142",
+      "text": "卫生福利部长",
+      "source_hash": "d3fcbadac4da42c1a1025d7231674ac185d663f7e8ad8b510be48949724a65eb",
+      "target_id": "XML:2217690",
+      "source_progress": "C02 sequential Annex A30229 review; obvious MT mistranslation, table fragments"
+    },
+    {
+      "id": "A30229-zh-00143",
+      "text": "副教授以上职务",
+      "source_hash": "eef84a1990e75899d22a147fb6fcc436a909b1caaaaf7ff74571d128425532f5",
+      "target_id": "XML:2217691",
+      "source_progress": "C02 sequential Annex A30229 review; obvious MT mistranslation, table fragments"
+    },
+    {
+      "id": "A30229-zh-00144",
+      "text": "在护理大学任职",
+      "source_hash": "1c78d8669f32c6a7fffd5419ada49b5f5d75539c7683f6fdb24e71e5a777d3af",
+      "target_id": "XML:2217692",
+      "source_progress": "C02 sequential Annex A30229 review; obvious MT mistranslation, table fragments"
     }
   ],
   "adjudicated_edit_count": 0,
@@ -1451,7 +1507,7 @@
   "ordered_reading_certification": {
     "korean": "READ_COMPLETE_ALL_65_DOCUMENTS",
     "english": "READ_COMPLETE_AVAILABLE_SOURCES_B1_AND_B2_FALLBACK",
-    "chinese": "IN_PROGRESS; B1 complete; B2 through row 105; Annex A30229 reviewed through row 105; remaining A30229 table cells and other documents pending"
+    "chinese": "IN_PROGRESS; B1 complete; B2 through row 105; Annex A30229 reviewed sequentially through row 145; remainder pending"
   },
   "checked_unique_ids": [
     "B1-zh-00001",
@@ -1838,10 +1894,50 @@
     "A30229-zh-00102",
     "A30229-zh-00103",
     "A30229-zh-00104",
-    "A30229-zh-00105"
+    "A30229-zh-00105",
+    "A30229-zh-00106",
+    "A30229-zh-00107",
+    "A30229-zh-00108",
+    "A30229-zh-00109",
+    "A30229-zh-00110",
+    "A30229-zh-00111",
+    "A30229-zh-00112",
+    "A30229-zh-00113",
+    "A30229-zh-00114",
+    "A30229-zh-00115",
+    "A30229-zh-00116",
+    "A30229-zh-00117",
+    "A30229-zh-00118",
+    "A30229-zh-00119",
+    "A30229-zh-00120",
+    "A30229-zh-00121",
+    "A30229-zh-00122",
+    "A30229-zh-00123",
+    "A30229-zh-00124",
+    "A30229-zh-00125",
+    "A30229-zh-00126",
+    "A30229-zh-00127",
+    "A30229-zh-00128",
+    "A30229-zh-00129",
+    "A30229-zh-00130",
+    "A30229-zh-00131",
+    "A30229-zh-00132",
+    "A30229-zh-00133",
+    "A30229-zh-00134",
+    "A30229-zh-00135",
+    "A30229-zh-00136",
+    "A30229-zh-00137",
+    "A30229-zh-00138",
+    "A30229-zh-00139",
+    "A30229-zh-00140",
+    "A30229-zh-00141",
+    "A30229-zh-00142",
+    "A30229-zh-00143",
+    "A30229-zh-00144",
+    "A30229-zh-00145"
   ],
-  "checked_rows": 385,
-  "corrected_rows": 203,
+  "checked_rows": 425,
+  "corrected_rows": 211,
   "notes": [
     "Only obvious omissions of clause numbering and a missing subparagraph marker corrected; substantive terminology and existing wording retained.",
     "B2 English is an older fallback (version 272521), not exact current Korean version; newer provisions require Korean-Chinese comparison.",
@@ -1880,6 +1976,7 @@
     "Sequential Annex A30229 review continued through rows 10-25. Corrected clear mistranslations of statutory 'under the Nursing Act', social welfare/social work academic fields, Medical Technicians Act reference, nursing master's qualification, and mental-health occupational therapist terminology. Row A30229-zh-00024 contains corrupted machine text ('球 END'); exact source-cell alignment must be established before replacement. Rows 20, 22, 24-25 remain subject to source-aligned table QA; no completion claim.",
     "Continued Annex A30229 sequentially through row 65. Corrected clear mistranslations/corrupted fragments for the Minister of Health and Welfare, occupational therapy, the defined training institution, table reference, person, and exclusion-period phrase. Uncertain fragmented cells remain for contextual table QA.",
     "Sequential review of Annex A30229 rows 66-74. Corrected the four grade-2 professional category labels and qualification labels where the machine translation had dropped or distorted the professional specialty. Fragmentary repeated cells from row 75 onward remain pending contextual table alignment.",
-    "Sequential Annex A30229 review continued through row 105. Corrected only unmistakable machine/OCR corruptions ('加纳地方政府', '心理健康从 START', '钢铁强化项目等') using the Korean schedule context. Rows 75-87, 92, 94, 96, 98-99, 101-105 contain split fragments whose exact cell boundaries need further table-context QA; no speculative reconstruction applied."
+    "Sequential Annex A30229 review continued through row 105. Corrected only unmistakable machine/OCR corruptions ('加纳地方政府', '心理健康从 START', '钢铁强化项目等') using the Korean schedule context. Rows 75-87, 92, 94, 96, 98-99, 101-105 contain split fragments whose exact cell boundaries need further table-context QA; no speculative reconstruction applied.",
+    "Sequential Annex A30229 review continued through row 145. Corrected clear corruption in Minister title, National Technical Qualifications Act citation, nursing professional qualification, statutory reference, and nursing college faculty rank/context. Other fragmented cells retained where the exact XML cell phrase is uncertain; continue with table alignment rather than guessing."
   ]
 }
