@@ -1,0 +1,51 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-1497d85066511dfeffd4",
+  "worker": "C04",
+  "panel_id": "panel-04",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "f7414f486d3fff46fec301f56e47f37575f835aa",
+    "en": "835fe6c61b35a38db06d890138be0001ca03c610",
+    "zh": "a039851e87912aaef943e29d8fe40df20ae65e8a"
+  },
+  "previous_checkpoint": "review/zh/F-1497d85066511dfeffd4-progress-fba73a3053ef-ko-all.json",
+  "reading_checkpoint": {
+    "required_order": "KO_FULL_EN_FULL_ZH_FULL",
+    "ko": "COMPLETE_READ: all 56 Korean documents",
+    "en": "COMPLETE_READ: English family index 56 entries and both available linked English document full texts read, no other English documents listed",
+    "zh": "NOT_STARTED: begin sequential review of all 3494 rows"
+  },
+  "english": {
+    "available_document_paths": [
+      "documents/en/kr-000851-249989-en.json",
+      "documents/en/kr-003751-269769-en.json"
+    ],
+    "available_documents": [
+      {
+        "path": "documents/en/kr-000851-249989-en.json",
+        "file_sha": "5c585487ef65303b9c7eaf7b31f422b9261b3d63",
+        "source_version": "249989",
+        "chars": 103149
+      },
+      {
+        "path": "documents/en/kr-003751-269769-en.json",
+        "file_sha": "346e6e2d2b01914a03b83f2ac48240db12beb39a",
+        "source_version": "269769",
+        "chars": 159594
+      }
+    ],
+    "current_ko_versions": [
+      "279615",
+      "284897",
+      "282217"
+    ],
+    "english_doc_status_counts": {
+      "FALLBACK_ENGLISH_AVAILABLE": 17,
+      "NO_DOCUMENT_ENGLISH": 39
+    },
+    "note": "Both English versions are historical fallback and must not replace newer Korean statutes; 39 family documents have NO_DOCUMENT_ENGLISH"
+  },
+  "edits": [],
+  "notes": "Read all 56 KO documents and available 2 linked English full texts in required order, no Chinese correction before next stage. Source SHA unchanged."
+}
