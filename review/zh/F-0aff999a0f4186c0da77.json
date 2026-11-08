@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 402,
+    "correction_count": 405,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -2839,6 +2839,27 @@
       "original": "的具体条件和授信额度，以及提供的授信额度（分为商户开户阶段和商户运营阶段",
       "corrected": "并分别列明加盟店开设阶段与加盟店经营阶段的金额。",
       "reason": "시행령 별표 1 한국어 원문 대조: 온라인·오프라인 매출 구성, 중도해지 평균 영업위약금 산정 방식, 신용제공 주체·조건·금액 기재요건의 명백한 오역 교정."
+    },
+    "B1-zh-00006": {
+      "doc": "B1",
+      "source_hash": "d75335646244413305b3fa9cf5c69bbe0afe9762794897be68850e7ad39a7f66",
+      "original": "第三条（不适用于小型特许经营商等）\n① 本法不适用于下列情形：<2012年2月17日、2013年8月13日修订>\n1. 若加盟商自首次支付加盟费之日起至6个月内向特许人支付的加盟费总额不超过总统令规定的100万韩元以内，则\n2. 如果特许经营商的年销售收入低于总统令规定的2亿韩元以内的特定标准，则适用本规定。但是，如果与特许经营商签订合同的加盟商数量为5家或以上，或超过总统令规定的数量，则不适用本规定。\n② 尽管有第1款的规定，但第6条之2至6条之5、第7条、第9条、第10条和第15条之2适用于所有特许经营业务交易。<2013年8月13日新增，2021年5月18日更新>\n\n第二章 特许经营业务交易的基本原则\n\n",
+      "corrected": "第三条（不适用于小型特许经营商等）\n① 本法不适用于下列情形：<2012年2月17日、2013年8月13日修订>\n1. 若加盟商自首次支付加盟费之日起至6个月内向特许人支付的加盟费总额不超过总统令规定的100万韩元以内，则\n2. 如果特许经营商的年销售收入低于总统令规定的2亿韩元以内的特定标准，则不适用本法。但是，如果与特许经营商签订合同的加盟商数量达到总统令规定的5家以上范围内的标准，则不适用本款规定。\n② 尽管有第1款的规定，但第6条之2至第6条之5、第7条、第9条、第10条和第15条之2适用于所有特许经营业务交易。<2013年8月13日新增，2021年5月18日修订>\n\n",
+      "reason": "제3조제1항은 법 적용 제외 사유를 규정하므로 '适用本规定'은 명백한 의미 역전. 다만 수치 기준 문구는 원문 구조를 유지해 최소 교정."
+    },
+    "B1-zh-00010": {
+      "doc": "B1",
+      "source_hash": "4c3e9f7de8d8f329a31ecffdad2156a8c6d3e5b5c6e73500ad196e378f8098eb",
+      "original": "第六条之二（信息披露声明等的登记）\n① 特许经营者应当按照总统令的规定，向公平交易委员会或特别市、广域市、特别自治市市长或省、特别自治省知事（以下统称“市/省知事”）登记拟向潜在加盟商提供的信息披露声明。<2013年8月13日、2018年1月16日修订>\n② 特许经营者如欲变更根据第1款登记的披露声明中所载明的、总统令规定的事项，应当在总统令规定的期限内向公平交易委员会或市长/都知事登记变更事项。但是，如特许经营者欲变更总统令规定的次要事项，应当报告变更情况。<2013年8月13日新增；2018年1月16日更新>\n③ 公平交易委员会和市长/都知事应当公开依据第1款或第2款登记、修改或报告的信息公开声明。但是，《个人信息保护法》第2条第1款规定的个人信息和《防止不正当竞争及商业秘密保护法》第2条第2款规定的商业秘密除外。<2013年8月13日、2016年12月20日、2018年1月16日修订>\n4. 公平交易委员会和市长/都督根据第3款规定发布信息披露声明时，应当事先通知相关特许经营人披露的内容和方式，并给予其更正与事实不符内容的机会。<2013年8月13日、2016年3月29日、2018年1月16日修订>\n⑤ 公平交易委员会可在预算范围内设立并运营特许经营业务信息提供系统，用于根据第3款披露信息声明（包括市长或省长披露的情况）。<2013年8月13日修订，2018年1月16日修订>\n6. 信息披露声明的登记、变更登记、通知和公开的其他方法和程序，由总统令规定。<2013年8月13日修订>\n\n",
+      "corrected": "第六条之二（信息披露声明等的登记）\n① 特许经营者应当按照总统令的规定，向公平交易委员会或特别市、广域市、特别自治市市长或省、特别自治省知事（以下统称“市/道知事”）登记拟向潜在加盟商提供的信息披露声明。<2013年8月13日、2018年1月16日修订>\n② 特许经营者如欲变更根据第1款登记的信息披露声明中总统令规定的记载事项，应当在总统令规定的期限内向公平交易委员会或市/道知事办理变更登记。但是，如欲变更总统令规定的轻微事项，应当申报。<2013年8月13日新增；2018年1月16日修订>\n③ 公平交易委员会和市/道知事应当公开依据第1款或第2款办理登记、变更登记或申报的信息披露声明。但是，《个人信息保护法》第2条第1号规定的个人信息和《防止不正当竞争及商业秘密保护法》第2条第2号规定的商业秘密除外。<2013年8月13日、2016年12月20日、2018年1月16日修订>\n④ 公平交易委员会和市/道知事根据第3款公开信息披露声明时，应当事先通知相关特许经营总部公开的内容和方式，并给予其更正与事实不符内容的机会。<2013年8月13日、2016年3月29日、2018年1月16日修订>\n⑤ 公平交易委员会可在预算范围内设立并运营特许经营业务信息提供系统，用于公开第3款规定的信息披露声明（包括市/道知事公开的情形）。<2013年8月13日、2018年1月16日修订>\n⑥ 信息披露声明的登记、变更登记、申报及公开的其他方法和程序，由总统令规定。<2013年8月13日修订>\n\n",
+      "reason": "한국어 원문의 제3항·제4항·제6항 표기를 중국어에서 항 번호와 아라비아 숫자로 혼용한 오류 및 제4항의 행위주체 명칭 오역을 최소 정리."
+    },
+    "B1-zh-00012": {
+      "doc": "B1",
+      "source_hash": "c12390aec55de4f320292211197e4499b99648008b480de7acc10cc8cce04248",
+      "original": "第六条之四（信息披露声明登记的注销）\n① 信息公开声明如符合下列任何一项情形，公平交易委员会和市长/都知事可以撤销其登记。但如符合第1项和第2项情形，则应当撤销登记。<2013年8月13日、2016年12月20日、2018年1月16日修订>\n1. 如果披露声明是通过虚假或其他欺诈手段注册的，则\n2. 在符合第6条第3款第1项第2款规定的情况下\n3. 如总统令规定的重要事项（以下简称“重要事项”）不属于第二条第十款所列项目，则\n4. 如果特许经营商已提交营业关闭报告，则\n5. 当特许经营商请求取消信息披露声明注册时\n② 公平交易委员会以及各市、省市长、省长可以公布已被撤销信息披露声明登记的特许经营商名单。<2013年8月13日新增，2018年1月16日更新>\n\n",
+      "corrected": "第六条之四（信息披露声明登记的撤销）\n① 信息披露声明符合下列任何一项情形的，公平交易委员会和市/道知事可以撤销其登记。但符合第1项和第2项情形的，应当撤销登记。<2013年8月13日、2016年12月20日、2018年1月16日修订>\n1. 通过虚假或其他不正当方法登记信息披露声明的情形；\n2. 符合第六条之三第一款第二项规定的情形；\n3. 遗漏第二条第十号各目中总统令规定的重要记载事项（以下简称“重要事项”）的情形；\n4. 特许经营总部申报停业的情形；\n5. 特许经营总部请求撤销信息披露声明登记的情形。\n② 公平交易委员会和市/道知事可以公开信息披露声明登记被撤销的特许经营总部名单。<2013年8月13日新增，2018年1月16日修订>\n\n",
+      "reason": "제6조의3제1항제2호 인용 오류, 중요사항 누락의 의미 역전, 가맹본부를 가맹점사업자로 오역한 부분을 한국어 원문에 맞춰 교정."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -2917,7 +2938,8 @@
     "C05 1d83a14216df: A34909 section 5(a) source-grounded corrections for franchisee startup payments, refund/return conditions and escrow amount; 8 rows.",
     "C05 1d83a14216df: A34909 section 6(e) source-grounded territorial restriction and substitute-goods sales disclosure corrections (8).",
     "C05 ec2de23b2e8f: A34909 source comparison added 13 corrections to sales ratios, average early termination penalties and credit disclosure.",
-    "C05 b059174ccc26 continuation: revalidated active C05/panel-05 binding and exact KO/EN/ZH source blob SHAs; fetched all three linked English source documents (B1 exact, B2 family fallback + KLRI fallback) and confirmed they remain readable. Continued targeted sequential Chinese review of A34911 (4 rows) and A34913 (12 rows) against full Korean annex text: labels and legal references retained where accurate; A34911 formula content is not present in extracted Korean text and remains an explicit visual/source-artifact QA open item. Scanned all 1,687 Chinese rows for uncorrected MTQ/START/END markers and residual Hangul; zero uncorrected matches (all hits are already covered by corrections). This scan is a contamination check, not a substitute for full semantic comparison. Existing 402 corrections and source hashes preserved; family remains IN_PROGRESS, with 429 no-English rows requiring direct KO/ZH semantic audit and full sequential semantic certification still outstanding."
+    "C05 b059174ccc26 continuation: revalidated active C05/panel-05 binding and exact KO/EN/ZH source blob SHAs; fetched all three linked English source documents (B1 exact, B2 family fallback + KLRI fallback) and confirmed they remain readable. Continued targeted sequential Chinese review of A34911 (4 rows) and A34913 (12 rows) against full Korean annex text: labels and legal references retained where accurate; A34911 formula content is not present in extracted Korean text and remains an explicit visual/source-artifact QA open item. Scanned all 1,687 Chinese rows for uncorrected MTQ/START/END markers and residual Hangul; zero uncorrected matches (all hits are already covered by corrections). This scan is a contamination check, not a substitute for full semantic comparison. Existing 402 corrections and source hashes preserved; family remains IN_PROGRESS, with 429 no-English rows requiring direct KO/ZH semantic audit and full sequential semantic certification still outstanding.",
+    "C05 2050e581878f continuation: B1 Articles 3, 6-2 and 6-4 rechecked against complete Korean source. Three material corrections added: application-exemption clause meaning reversal; paragraph-number/actor rendering in Article 6-2; Article 6-4 cross-reference, omitted-important-matters reversal, and franchisor/franchisee party identity. Previous 402 edits preserved. Full-family Chinese semantic audit remains incomplete; status IN_PROGRESS."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -2926,5 +2948,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 402
+  "corrected_rows": 405
 }
