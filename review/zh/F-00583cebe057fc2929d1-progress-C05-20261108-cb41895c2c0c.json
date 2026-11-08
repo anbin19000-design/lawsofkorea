@@ -12,7 +12,7 @@
     "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
   },
   "review_path": "review/zh/F-00583cebe057fc2929d1.json",
-  "review_blob_sha": "305c4d07485bfd1d0e5106d14fd23fe9d7f95b91",
+  "review_blob_sha": "51adfd168a655d70c8e6665e4ecc1f9626081d7f",
   "scope": {
     "documents": 24,
     "zh_rows": 1374
@@ -30,9 +30,15 @@
       "source_hash": "2a3f820d12c4839389e8a11fd7f275472e77945bbc363688c5b6b885a498df8e",
       "decision": "CORRECT",
       "reason": "한국어 장 제목 '제7장 심판ㆍ재심 및 소송'에서 심판/재심을 일반 재결·재심사로 오인한 표현을 법률절차 용어로 정정."
+    },
+    {
+      "id": "B1-zh-00033",
+      "source_hash": "8dcaf5d180992d2e385f271b238750a45087f142e6ebd5ccaca78103ac6c8934",
+      "decision": "CORRECT",
+      "reason": "제24조제3호 '출원시부터 국내에 있는 물건'은 출원 당시 한때 국내에 있었다는 뜻이 아니라 출원 시점부터 국내에 계속 존재한 물건이므로 시간적 계속 요건을 명시."
     }
   ],
-  "total_corrections": 224,
+  "total_corrections": 225,
   "pending_rows_preserved": 89,
   "english_note": "B1/B2 official same-version EN; B3 and attached forms only have old-version fallback EN; AI draft not official.",
   "reading_status": "FULL_KO_EN_ZH_SEQUENTIAL_READING_NOT_VERIFIED",
@@ -50,5 +56,5 @@
     "A8690-zh-00499"
   ],
   "completion_receipt": null,
-  "notes": "기존 222건 보존, 금회 B1 2행의 법적 절차용어 오역만 대조 후 정정. 89행 원문 대응/판독 보류, 전체 24개 한국어·영어·중국어 순차 독해 검증 미완료로 COMPLETE 보류."
+  "notes": "기존 222건 보존, 금회 B1 2행의 법적 절차용어 오역만 대조 후 정정. 89행 원문 대응/판독 보류, 전체 24개 한국어·영어·중국어 순차 독해 검증 미완료로 COMPLETE 보류. 추가: 제24조제3호 '출원시부터'의 계속 요건 누락 교정 1행, 이번 배정 총 3행."
 }
