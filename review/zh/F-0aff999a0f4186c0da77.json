@@ -21,8 +21,8 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 59,
-    "pending_rows": 1628,
+    "correction_count": 61,
+    "pending_rows": 1626,
     "by_document": {}
   },
   "corrections": {
@@ -438,6 +438,20 @@
       "original": "MTQ57e46e45399043a602238 如果未执行 START 命令",
       "corrected": "不遵从维持秩序命令的情形",
       "reason": "별표 5 과태료 부과기준 타목의 '질서유지명령에 응하지 않은 경우'가 MTQ 및 START 잡음으로 오염된 문구를 원문에 맞게 보완."
+    },
+    "A34909-zh-00203": {
+      "doc": "A34909",
+      "source_hash": "ebc284744a13762dce78c95605a48480efb3122e159a6b3af0691892b2bb8b3c",
+      "original": "2) 如果特许人[提供]给被特许人，使其从特许人或特许人指定的人员处购买",
+      "corrected": "2) 特许人强制加盟商从特许人或其指定的人处购买商品或服务的情形",
+      "reason": "별표 1 특수관계인 경제적 이익 공시 조건의 '구입하도록 강제한 것'을 '제공'으로 오역한 부분을 원문에 따라 바로잡음."
+    },
+    "A34909-zh-00301": {
+      "doc": "A34909",
+      "source_hash": "d6d91bf865e042c74431b8eff24a6ca136464985149f263ef27d06be0caaa837",
+      "original": "即使支付了的START条款规定的最低强制性费用，相关内容",
+      "corrected": "即使仅支付根据本法第12条之二第2款规定必须支付的最低费用，也应记载相关内容",
+      "reason": "별표 1 점포환경개선 비용지원 공시에서 법 제12조의2제2항 및 최소 의무지급액 기재 조건이 START 오염으로 누락된 부분 복원."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -465,7 +479,8 @@
     "C05 continuation 91cb01eae9bf/3e61e88b96b9: annex A34912 two START-contaminated Chinese row fragments repaired against full Korean annex context; prior 54 corrections retained. Full 1687-row Chinese semantic certification remains incomplete.",
     "C05 continued annex A34912 row 00143: verified START contamination against Korean subsection 4(d), cumulative corrections 57; no completion certification.",
     "C05 1de82ffe0e73 continuation: annex A34912-zh-00134 high/low expected sales threshold reversal corrected against Korean annex. Full Chinese sequential semantic review remains IN_PROGRESS.",
-    "C05 1de82ffe0e73: A34916-zh-00158 MTQ/START contamination repaired against Korean annex 5 fine criterion, cumulative 59; IN_PROGRESS."
+    "C05 1de82ffe0e73: A34916-zh-00158 MTQ/START contamination repaired against Korean annex 5 fine criterion, cumulative 59; IN_PROGRESS.",
+    "C05 841a8fba515f: annex A34909-zh-00203 forced purchase versus provision, and A34909-zh-00301 mandatory minimum cost-support citation were corrected against Korean source. Full semantic Chinese review remains incomplete."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -474,5 +489,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 59
+  "corrected_rows": 61
 }
