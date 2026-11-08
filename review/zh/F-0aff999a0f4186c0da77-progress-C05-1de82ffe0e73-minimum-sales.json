@@ -1,0 +1,29 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "panel_id": "panel-05",
+  "pc": "WORK-C",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_commit": "a9e36b11f373ff6cec57ef41b541a1546d9afcb5",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "prior_verified_corrections": 57,
+  "new_verified_ids": [
+    "A34912-zh-00134"
+  ],
+  "cumulative_corrections": 58,
+  "chinese_total_rows": 1687,
+  "chinese_full_semantic_review_complete": false,
+  "review_file": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_blob_sha": "e7805161f02c4159605f1414dbbac3e98813287f",
+  "prior_progress": "review/zh/F-0aff999a0f4186c0da77-progress-C05-382d0b9d5453-final-checkpoint.json",
+  "note": "Minimum anticipated sales threshold corrected from 最高 to 最低 against Korean annex 2. Full Chinese semantic review and completion receipt remain pending."
+}
