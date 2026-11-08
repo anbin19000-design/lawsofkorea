@@ -18,7 +18,18 @@
       "final_text": "记录时间",
       "verdict": "ACCEPT",
       "reason": "한국어 표 머리글 '기록시기'에 대응하는 중국어는 '记录时间'. MTQ 해시 표식과 '结束'는 한국어 원문에 없으므로 제거."
+    },
+    {
+      "id": "A22630-zh-00044",
+      "target_id": "XML:1606733",
+      "source_hash": "34d6947c7cbd1b8272a0b876e68f29bfe830afd93fd0926de55bbee53c443129",
+      "korean_context": "[별표 2] 보고사항 및 보고기한, '영 제10조제4호가목에 따른 경위 조사 및 연간 피폭방사선량의 재평가 결과를 즉시 보고해야 한다.' — 인접 행 A22630-zh-00042~00043과 연결",
+      "original_text": "必须在START报到。",
+      "candidate_text": "须立即报告。",
+      "final_text": "须立即报告。",
+      "verdict": "ACCEPT",
+      "reason": "한국어 연결 셀의 '즉시 보고해야 한다'를 번역함. START는 원문에 없는 표식이며 '报到'는 보고(报告)의 오역."
     }
   ],
-  "note": "First previously unadjudicated cell checked against Korean source table; other prior quality decisions preserved in separate source file. IN_PROGRESS, not COMPLETE."
+  "note": "Two newly adjudicated cells verified directly against Korean annex table contexts; prior quality records and source hashes preserved. Remaining cells not completed."
 }
