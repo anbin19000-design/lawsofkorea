@@ -1,0 +1,27 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 1,
+  "checked_ids": [
+    "B1-zh-00015"
+  ],
+  "edits": [
+    {
+      "id": "B1-zh-00015",
+      "source_hash": "900e1d75f97395f894b6eb011cf914bba7b302fb706457fa1e09f554356fffb5",
+      "target_id": "1a77f4253c38db3eb4caaf1fa0365c6c5e6f0ee1a8cb97a76da4b84974efa959",
+      "text": "第十条（智慧城市计划的批准）\n① 智慧城市计划制定权人依据第八条制定智慧城市计划后，应当事先与有关行政机关负责人协商，并取得国土交通部长官的批准。<2012年5月23日、2013年3月23日、2017年3月21日修订>\n② 智慧城市计划制定权人取得第一款规定的批准后，应当立即在公报上公告其内容。<2012年5月23日、2017年3月21日修订>\n\n"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "korean_evidence": "제10조(스마트도시계획의 승인) ① 스마트도시계획수립권자는 ... 국토교통부장관의 승인을 받아야 한다. ② ... 지체 없이 그 내용을 공보에 공고하여야 한다.",
+  "note": "R99 fills previously unreviewed B1-zh-00015. Corrects minister title and statutory plan formulation authority to consistent wording; preserves article 10 citations, effective revision dates, original hashes and all older B1 records. No COMPLETE."
+}
