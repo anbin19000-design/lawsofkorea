@@ -1,0 +1,92 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-27b32586fe5bcdf40d75",
+  "family_id": "F-27b32586fe5bcdf40d75",
+  "title": "역세권의 개발 및 이용에 관한 법률",
+  "worker": "C05",
+  "panel_id": "panel-05",
+  "pc": "WORK-C",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "fc0254714cb6af59bd2bee25bb9dda69160f5b3b",
+    "en": "0bedebdb36c6a3519f36c38a5b0df86d3002c344",
+    "zh": "faeaf97ee6d3b707f88c023d9db47660c7228325"
+  },
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "reading_evidence": {
+    "korean": {
+      "complete": true,
+      "documents": 24,
+      "characters": 151085,
+      "sha": "fc0254714cb6af59bd2bee25bb9dda69160f5b3b"
+    },
+    "english": {
+      "complete": true,
+      "official_documents": 2,
+      "official_bodies_loaded": true,
+      "reviewed_rule_rows": 95,
+      "reviewed_rule_sha": "4a071c848951d7e3ea6ee64391c5d118f401acd0",
+      "sha": "0bedebdb36c6a3519f36c38a5b0df86d3002c344"
+    },
+    "chinese": {
+      "loaded_rows": 1394,
+      "full_sequential_comparison_complete": false,
+      "sha": "faeaf97ee6d3b707f88c023d9db47660c7228325"
+    }
+  },
+  "english_availability": {
+    "rows": 1394,
+    "rows_with_english": 1084,
+    "rows_without_document_english": 310,
+    "official_rule_translation": "reviewed/en/KR_011294.json"
+  },
+  "checked_rows": 0,
+  "corrected_rows": 5,
+  "edits": [
+    {
+      "id": "B1-zh-00003",
+      "text": "第二条（定义）本法所用术语的含义如下。<2018年3月13日、2018年12月18日修订>\n1. “车站区域”是指依据《铁路建设及铁路设施维护管理法》《铁路产业发展基本法》和《城市铁路法》建设、运营的铁路车站及其附近下列铁路设施（以下称“铁路车站等铁路设施”）和周边地区中，由国土交通部长官认为有必要而指定的区域。\n  a. 用于铁路运营的建筑物及建筑设备；\n  b. 用于维修、保养铁路车辆及线路的线路维修基地、车辆维修基地和车辆停放设施；\n  c. 因开发铁路车站等铁路设施而需要设置、迁移或废止的铁路线路及其附属设施。\n2. “车站区域开发项目”是指在车站区域开发区内，为建设铁路车站等铁路设施，以及具有居住、教育、保健、福利、旅游、文化、商业、体育等功能的园区并设置相关设施而实施的项目。\n3. “车站区域开发区”是指为实施车站区域开发项目，依第4条及第9条指定并公告的区域。\n\n"
+    },
+    {
+      "id": "B1-zh-00011",
+      "text": "第七条之二（项目协商会的组成）\n① 指定权人可以为就下列事项进行协商或提供咨询，组成并运营项目协商会。\n1. 制定及实施项目计划所需事项；\n2. 协调当地居民意见所需事项；\n3. 总统令规定的其他事项。\n② 项目协商会由包括指定权人在内的15名以内委员组成，委员由指定权人在下列人员中任命或委任。\n1. 相关地方自治团体的公务员；\n2. 项目实施者（包括依第5条提议指定开发区的人）；\n3. 相关专家；\n4. 居民代表。\n③ 有下列情形之一时，指定权人应召开项目协商会。\n1. 过半数项目协商会委员提出请求时；\n2. 指定权人认为有必要时。\n④ 本法规定以外，关于项目协商会的组成、运营等必要事项，由公告或地方自治团体条例规定。\n\n"
+    },
+    {
+      "id": "B1-zh-00078",
+      "text": "第二十一条（其他法律的修订）①至<48>项省略\n\n  <49>《车站区域开发及利用法》部分条文修改如下。\n\n  将第16条第1款第18项中的“《住宅法》第16条”改为“《住宅法》第15条”。\n\n  <50>至<86>项省略\n\n"
+    },
+    {
+      "id": "B2-zh-00143",
+      "text": "第六条（其他法令的修订）①至<253>项省略\n\n  <254>《车站区域开发及利用法施行令》部分条文修改如下。\n\n  将第37条第1款各项以外部分中的“企划财政部长官”改为“财政经济部长官及企划预算处长官”。\n\n  将第38条第1款及同条第2款第1项中的“企划财政部长官”分别改为“财政经济部长官及企划预算处长官”。\n\n  <255>至<313>项省略\n\n"
+    },
+    {
+      "id": "B3-zh-00034",
+      "text": "附则 <第1506号，2025年8月1日>\n\n本规则自2025年8月1日起施行。\n\n"
+    }
+  ],
+  "findings": {
+    "untranslated_or_mixed_language_rows": [
+      "B1-zh-00003",
+      "B1-zh-00010",
+      "B1-zh-00011",
+      "B1-zh-00014",
+      "B1-zh-00017",
+      "B1-zh-00025",
+      "B1-zh-00027",
+      "B1-zh-00034",
+      "B1-zh-00035",
+      "B1-zh-00037",
+      "B1-zh-00048",
+      "B1-zh-00078",
+      "B2-zh-00059",
+      "B2-zh-00143",
+      "B3-zh-00034"
+    ],
+    "duplicate_annex_text_in_body_rows": [
+      "B2-zh-00143",
+      "B3-zh-00034"
+    ]
+  },
+  "notes": "Read all 24 Korean source documents (151,085 characters) in the assigned bundle, then both official English bodies (Act and Enforcement Decree) and all 95 rows of the reviewed English Enforcement Rule. English index reports 1,084/1,394 rows with English and 310 without document-level English. Loaded all 1,394 Chinese rows and performed an initial whole-file anomaly scan. Found mixed Korean/Chinese or untranslated content in 15 rows. Five unambiguous minimal fixes are recorded here; full sequential Chinese review of 1,394 rows remains pending. Do not mark COMPLETE. No source blobs changed."
+}
