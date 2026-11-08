@@ -2,7 +2,7 @@
   "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-7423351d4946866bbacf",
   "worker": "C01",
-  "checked_rows": 36,
+  "checked_rows": 39,
   "edits": [
     {
       "id": "B1-zh-00065",
@@ -943,10 +943,22 @@
     {
       "id": "B3-zh-00011",
       "text": "第九条（产地交易参与者报告）任何打算按照本法第十五条规定作为产地交易参与者进行报告的人，应当按照本法附件二表格向鱼市经营者提交产地交易参与者报告，并附上下列各款规定的文件。\n1. 个人的情况\na. 履历表\nb. 银行存款余额证明\nc. 营业执照\nd. 根据《国家税收征收法》出具的纳税证明和根据《地方税收基本法》出具的纳税证明\n2. 法人的情况\na. 公司章程\nb. 法人登记事项证明书（不包括鱼市经营者能够核实公司注册证书的情况）\nc. 股东名册或成员名册\nd. 营业执照\ne. 根据《国家税收征收法》出具的缴税证明和根据《地方税收基本法》出具的缴税证明\n\n"
+    },
+    {
+      "id": "B2-zh-00006",
+      "text": "第五条（水产品流通发展委员会等的组成）\n① 根据本法第九条第一款设立的水产品流通发展委员会（以下简称“委员会”）由不超过20名成员组成，包括1名主席和1名副主席。<2024年4月30日修订>\n② 理事会主席由海洋水产部长从海洋水产部负责水产品流通事务的高级公务员中指定，理事会副主席由海洋水产部长从第3款各分项所列成员中指定。<2024年4月30日修订>\n③ 理事会成员应为下列各款所列人员。<2024年4月30日修订>\n1. 由海洋渔业部长从海洋渔业部公职人员中任命的人员\n2. 由食品药品安全处长从食品药品安全处所属公务员中指定的人员\n3. 由国家渔业质量管理服务局局长（以下简称“国家渔业质量管理服务局局长”）从国家渔业质量管理服务局的公职人员中指定一人。\n4. 删除<2024.4.30>\n5. 删除<2024.4.30>\n④ 删除 <2024.4.30>\n⑤ 应任命一名秘书负责理事会的事务。该秘书应由海洋渔业部长从海洋渔业部下属的公职人员中指定。<2024年4月30日修订>\n\n"
+    },
+    {
+      "id": "B3-zh-00024",
+      "text": "第22条（检查通知）市长、县长、区长根据本法第24条第1款规定，要检查鱼市经营者的经营活动及相关账簿和财产状况的，应当事先通知鱼市经营者检查的目的、范围、时间，以及进行检查的公务员所属机关、职务及姓名。\n\n"
+    },
+    {
+      "id": "B3-zh-00032",
+      "text": "第30条（溯源管理登记的有效期）根据本法第28条第1款但书的规定，养殖水产品溯源管理登记的有效期为五年。\n\n"
     }
   ],
   "status": "IN_PROGRESS",
-  "note": "IN_PROGRESS. 235 unique corrections retained; B3 Articles 8-9 application documents corrected against Korean, independent English unavailable for B3. Full 1207-row semantic review and annex/form source-cell continuity remain incomplete; no COMPLETE receipt.",
+  "note": "IN_PROGRESS. 238 cumulative corrections; exact source SHA preserved; previous edits retained. B2 Article 5 missing enumerator and appointing authority, B3 Article 22 affiliation omitted, Article 30 statutory proviso restored. Full semantic review and annex/form XML fidelity remain incomplete; no COMPLETE.",
   "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
   "source_sha": {
     "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
