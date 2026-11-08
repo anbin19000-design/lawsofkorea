@@ -1,0 +1,81 @@
+{
+  "schema": "LAW_ZH_PROGRESS_V1",
+  "assignment_id": "S2-5bdf355848bab61b328c4753cea6e242",
+  "action_id": "ba2233b6c837dc028f",
+  "job_id": "F-5c680578acc95aaaac92",
+  "worker": "C04",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "scope": "B1 overlapping correction adjudication, unique IDs, Korean-source aligned",
+  "source_blobs": {
+    "ko": "81188b51954682ac58f4fc97f20e06ae50da8992",
+    "zh": "7a2b3ae20229648a0e49c4370ae8b66b31acd9f8"
+  },
+  "evidence": {
+    "adjudication_path": "review/zh/quality/F-5c680578acc95aaaac92-C04-conflict-adjudication-20261108-57805a.json",
+    "adjudication_sha": "2eeac8435108b0e209b26333bf2e06523d16abff",
+    "master_sha": "d6197b5c195761a124e2300e9644b5d8f71178be",
+    "segments": [
+      {
+        "path": "review/zh/segments/F-5c680578acc95aaaac92-C04-B1-00002-00005-20261108.json",
+        "sha": "ac26012936f09f956095ac8fe7057e759235c4a2"
+      },
+      {
+        "path": "review/zh/segments/F-5c680578acc95aaaac92-C04-B1-00002-00017.json",
+        "sha": "a0ab983c682499eef1b00724431ba920349d2708"
+      },
+      {
+        "path": "review/zh/segments/F-5c680578acc95aaaac92-C04-B1-00111-00116-20261108-cba446.json",
+        "sha": "f337afdc8335d09af92642f19a58ba44c0f85a8f"
+      }
+    ]
+  },
+  "checked_ids": [
+    "B1-zh-00002",
+    "B1-zh-00003",
+    "B1-zh-00004",
+    "B1-zh-00111",
+    "B1-zh-00116"
+  ],
+  "decisions": [
+    {
+      "id": "B1-zh-00002",
+      "adjudication_preferred": "master",
+      "resolved_source": "segment B1-00002-00005",
+      "status": "CANDIDATE_REQUIRES_MASTER_RECONCILIATION",
+      "reason": "Korean Article 1 specifies fee relief and restrictions, appropriate state property management and healthy fiscal operations. Master currently has no edit for this ID; both segment variants are faithful, first segment preserves complete sense."
+    },
+    {
+      "id": "B1-zh-00003",
+      "adjudication_preferred": "master",
+      "resolved_source": "segment B1-00002-00005",
+      "status": "CANDIDATE_REQUIRES_MASTER_RECONCILIATION",
+      "reason": "Korean Article 2 enumerates fee reduction, longer-term permission or lease, and gratuitous transfer under State Property Act article 55(1). Master edit absent, first segment keeps all three categories."
+    },
+    {
+      "id": "B1-zh-00004",
+      "adjudication_preferred": "master",
+      "resolved_source": "segment B1-00002-00005",
+      "status": "CANDIDATE_REQUIRES_MASTER_RECONCILIATION",
+      "reason": "Korean Article 3 lists donation or substitute facility consideration and statutory permits or transfer. Master edit absent; first segment represents these exceptions."
+    },
+    {
+      "id": "B1-zh-00111",
+      "adjudication_preferred": "master",
+      "resolved_source": "master",
+      "status": "RETAIN",
+      "reason": "Retains original supplementary act revision references, item markers 19 and 20–626, and minister title update as adjudicated."
+    },
+    {
+      "id": "B1-zh-00116",
+      "adjudication_preferred": "master",
+      "resolved_source": "master",
+      "status": "RETAIN",
+      "reason": "Preserves original supplementary effective date 2026-07-01, and removes unrelated annex content appearing in initial Chinese row."
+    }
+  ],
+  "unique_checked_rows": 5,
+  "duplicate_edits_created": 0,
+  "new_edits": [],
+  "note": "Progress only; B1 overlap deduplicated by row ID. Do not mark family COMPLETE. Existing master, segment and hashes unchanged; rows 00002-00004 source preference anomaly requires reconciliation before final merge."
+}
