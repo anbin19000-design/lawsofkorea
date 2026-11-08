@@ -1,0 +1,29 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-215e91e728b94dfc93aa",
+  "worker": "C06",
+  "panel_id": "panel-06",
+  "pc": "WORK-C",
+  "status": "IN_PROGRESS",
+  "source_commit": "396bee96cb14d35f6f4e36330de5998314afded1",
+  "source_blobs": {
+    "en": "e59574105c58e4041e11b2782728fe6d9e56c186",
+    "ko": "0c25588998cdc0458eef947b1df6fbf0fa8a53ad",
+    "zh": "8dd306f496c45a96f27cae0411fcf682a485ad13"
+  },
+  "source_sha_verified": {
+    "ko": "0c25588998cdc0458eef947b1df6fbf0fa8a53ad",
+    "en": "e59574105c58e4041e11b2782728fe6d9e56c186",
+    "zh": "8dd306f496c45a96f27cae0411fcf682a485ad13"
+  },
+  "total_documents": 2,
+  "total_rows": 1490,
+  "checked_rows": 640,
+  "edits": 181,
+  "next_row_index": 640,
+  "review_sha": "ce94591db1a941003f5bcee3121c26f8ead2dc41",
+  "review_file_status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_THEN_EN_FULL_THEN_ZH_FULL",
+  "worker_chat": "https://chatgpt.com/c/6af0d958-0680-83ee-bcd5-436475e482dc",
+  "note": "동일 원문 SHA에서 B1-zh-00640까지 순차 검수. 자본준비금/이익준비금, 중간배당, 주주의 회계장부열람권, 이익공여 금지, 사채 발행의 명백한 용어·효과 오류를 수정. 계속 IN_PROGRESS."
+}
