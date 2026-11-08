@@ -1,0 +1,32 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_commit": "a9e36b11f373ff6cec57ef41b541a1546d9afcb5",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "inherited_reading_evidence": {
+    "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
+    "en": "3 linked English source bodies read in order, archived in progress-C05-382d0b9d5453-enfull.json",
+    "zh": "All 1687 rows sequentially previewed to last A34925 row; targeted full semantic comparisons on material and doubtful passages. This is NOT an exhaustive full semantic audit: some long rows were clipped during viewing.",
+    "full_sequential_human_review_complete": false
+  },
+  "previous_checkpoint": "review/zh/F-0aff999a0f4186c0da77-progress-C05-2222ebeb54cf-annex2-71.json",
+  "new_correction_id": "A34909-zh-00017",
+  "previous_corrections": 71,
+  "cumulative_corrections": 72,
+  "chinese_total_rows": 1687,
+  "review_file": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_blob_sha": "27dd29dfce914227eeaf378914c55685a4b2b208",
+  "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
+  "completion_receipt": null,
+  "outstanding": "Full untruncated sequential semantic review of all Chinese rows and annex/form continuity not yet verified; do not certify COMPLETE."
+}
