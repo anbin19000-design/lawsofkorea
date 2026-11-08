@@ -1,0 +1,39 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_RECEIPT_V1",
+  "job_id": "F-1845adcc26057a6fdf07",
+  "family_id": "F-1845adcc26057a6fdf07",
+  "title": "박물관 및 미술관 진흥법",
+  "worker": "C04",
+  "panel_id": "panel-04",
+  "pc": "WORK-C",
+  "branch": "main",
+  "source_commit": "c7ea43e610fc93569f1eb9b80ea289a3f3f6b5cb",
+  "source_blobs": {
+    "ko": "f203b4891221fc26f128c7d52c5aa2cdbf498042",
+    "en": "2fc7fb0aa0a3775c1c5510838b0ba3dc1cf4d78a",
+    "zh": "4606a3e95d5abb72840ba60f55c193ab9626514e"
+  },
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "documents_checked": 27,
+  "checked_rows": 1622,
+  "corrected_rows": 212,
+  "english_exact_documents": 0,
+  "english_fallback_documents": 2,
+  "english_missing_exact_document_count": 27,
+  "english_unmatched_rows": 320,
+  "review_file": "review/zh/F-1845adcc26057a6fdf07.json",
+  "review_blob_sha": "052ba2b5eaa89fd4b52a886a1b86fd26bed6842d",
+  "review_status": "COMPLETE",
+  "previous_progress": "review/zh/F-1845adcc26057a6fdf07-progress-df8d7dc7e2a9-qa5.json",
+  "verification": {
+    "review_file_reread": true,
+    "source_sha_preserved": true,
+    "all_active_edits_match_source_rows": true,
+    "no_blank_edit_text": true,
+    "no_machine_translation_markers": true,
+    "original_sources_unchanged": true,
+    "document_keys_contiguous": true,
+    "source_overlap_reconciled": true
+  },
+  "status": "COMPLETE"
+}
