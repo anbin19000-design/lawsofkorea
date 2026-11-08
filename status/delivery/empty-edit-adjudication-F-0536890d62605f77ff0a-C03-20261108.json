@@ -1,0 +1,242 @@
+{
+  "schema": "LAW_ZH_EMPTY_EDIT_ADJUDICATION_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "assignment_id": "S2-8f70e317249155938a79444493d089b4",
+  "task_id": "LAW-VERIFIED-ACTION:50acd4f4157a1563de",
+  "status": "IN_PROGRESS",
+  "source_commit": "b27342935db74e8a67977fbc1b3a9e92eea6f0db",
+  "source_blobs": {
+    "ko": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+    "en": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+    "zh": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c"
+  },
+  "original_review_blob_sha": "6aa73645db2b2b9edea42f4157421c8afacc1207",
+  "original_checked_rows": 1136,
+  "original_edit_rows": 800,
+  "blank_edit_count": 9,
+  "decision_summary": {
+    "remove_nonsemantic_fragments": 9,
+    "restore_missing_translation": 0
+  },
+  "english_note": "B1 exact English; B2 and 6 annexes older fallback; B3 and forms no document-level English. Korean authoritative.",
+  "records": [
+    {
+      "id": "A39474-zh-00007",
+      "document": "A39474",
+      "source_hash": "b07f284c168b4439d8094be830d84b516e0148679cabd0662c895cfc05d593ad",
+      "target_id": "XML:2864049",
+      "original_zh_text": ".",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "독립 마침표. 별표 1 사무실 공간·설비 의무는 00006에 완결되고 마침표도 해당 문장에 포함되어 있음.",
+      "adjacent_cells": [
+        {
+          "id": "A39474-zh-00006",
+          "adopted_zh_text": "1）应当配备履行法第十五条第一款各项业务所需的空间及设备。"
+        },
+        {
+          "id": "A39474-zh-00008",
+          "adopted_zh_text": "2）应当按照《消防设施设置及管理法》规定的消防安全标准配备灭火"
+        }
+      ],
+      "korean_document_title": "피해자권익보호기관의 설치ㆍ운영 기준(제13조제1항 관련)",
+      "korean_document_source_hash": "8dcdd420b7296b9117e59042a7e490a17990ce3d670239146ed695bc6d2efee1",
+      "ko_full_document_available": true,
+      "english_document_status": "FALLBACK_ENGLISH_AVAILABLE"
+    },
+    {
+      "id": "A39474-zh-00040",
+      "document": "A39474",
+      "source_hash": "b07f284c168b4439d8094be830d84b516e0148679cabd0662c895cfc05d593ad",
+      "target_id": "XML:2864082",
+      "original_zh_text": ".",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "별표 1 상담실 비밀보장 설치기준의 추가 독립 마침표. 원문의 규범은 00039에 모두 번역되어 있음.",
+      "adjacent_cells": [
+        {
+          "id": "A39474-zh-00039",
+          "adopted_zh_text": "b) 必须安装隔断或隔音装置，以确保咨询内容的保密性。"
+        },
+        {
+          "id": "A39474-zh-00041",
+          "adopted_zh_text": "丙）应确保留有足够空间，放置为儿童、青少年、残疾人、外国人等提供咨询时所需的沟通辅助"
+        }
+      ],
+      "korean_document_title": "피해자권익보호기관의 설치ㆍ운영 기준(제13조제1항 관련)",
+      "korean_document_source_hash": "8dcdd420b7296b9117e59042a7e490a17990ce3d670239146ed695bc6d2efee1",
+      "ko_full_document_available": true,
+      "english_document_status": "FALLBACK_ENGLISH_AVAILABLE"
+    },
+    {
+      "id": "A39476-zh-00006",
+      "document": "A39476",
+      "source_hash": "86a1c2a464c15dedd6731c95a7bd21a6d5137bd9c5c92d2d973627070388368a",
+      "target_id": "XML:2864180",
+      "original_zh_text": "有。",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "별표 3 시설 설비 겸용 가능성 문장의 불필요한 잔여 단편 '有。'. 완전한 허용조건은 00004-00005에 있음.",
+      "adjacent_cells": [
+        {
+          "id": "A39476-zh-00005",
+          "adopted_zh_text": "丙、丁项所列设备可以共用，或者己、庚、辛项所列设备可以共用。"
+        },
+        {
+          "id": "A39476-zh-00007",
+          "adopted_zh_text": "甲. 卧室及起居室"
+        }
+      ],
+      "korean_document_title": "지원시설의 지정 기준(제23조제1항 관련)",
+      "korean_document_source_hash": "d89f0ac7e0d58febbaf1625f0c87d0a6950db5ad53d561857fd9ff2322b351d6",
+      "ko_full_document_available": true,
+      "english_document_status": "FALLBACK_ENGLISH_AVAILABLE"
+    },
+    {
+      "id": "A39476-zh-00010",
+      "document": "A39476",
+      "source_hash": "1ab67c3cec534999dddc50c15fff63fd7f7c456c99bb4b921720adbda26bad6e",
+      "target_id": "XML:2864184",
+      "original_zh_text": "必须。",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "별표 3 침실 출입구 대피 방향 의무 뒤의 잔여 '必须。'. 의무의 완전한 내용은 00009에 보존.",
+      "adjacent_cells": [
+        {
+          "id": "A39476-zh-00009",
+          "adopted_zh_text": "2) 入口应面向走廊或宽敞的空间，以便在发生紧急灾害时便于疏散。"
+        },
+        {
+          "id": "A39476-zh-00011",
+          "adopted_zh_text": "3）除走廊等公共区域以外，卧室及起居室的实际面积应达到每名入住者6.6"
+        }
+      ],
+      "korean_document_title": "지원시설의 지정 기준(제23조제1항 관련)",
+      "korean_document_source_hash": "d89f0ac7e0d58febbaf1625f0c87d0a6950db5ad53d561857fd9ff2322b351d6",
+      "ko_full_document_available": true,
+      "english_document_status": "FALLBACK_ENGLISH_AVAILABLE"
+    },
+    {
+      "id": "A39477-zh-00006",
+      "document": "A39477",
+      "source_hash": "b07f284c168b4439d8094be830d84b516e0148679cabd0662c895cfc05d593ad",
+      "target_id": "XML:2864246",
+      "original_zh_text": ".",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "별표 4 입소자 관찰·귀가·이동 조치 완결문 뒤의 중복 마침표. 00004-00005 보존.",
+      "adjacent_cells": [
+        {
+          "id": "A39477-zh-00005",
+          "adopted_zh_text": "保护工作的进展，采取安排回家或者转往其他支援设施等必要措施。"
+        },
+        {
+          "id": "A39477-zh-00007",
+          "adopted_zh_text": "乙. 应保持入住者生活环境清洁，并根据其健康状况安排运动和休息。"
+        }
+      ],
+      "korean_document_title": "지원시설의 운영기준(제24조 관련)",
+      "korean_document_source_hash": "832f4c51b5ab4f0d453fcaac083d85d259dcda1cdf98b1a0d0332fc6676a9e80",
+      "ko_full_document_available": true,
+      "english_document_status": "FALLBACK_ENGLISH_AVAILABLE"
+    },
+    {
+      "id": "A39477-zh-00008",
+      "document": "A39477",
+      "source_hash": "e6fb8bb1ba504ee2e998dc8a43b29931377aa46f82ac1729463f59e0b3d0710d",
+      "target_id": "XML:2864248",
+      "original_zh_text": ".",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "별표 4 입소자 건강·운동·휴식 완결문 뒤의 중복 마침표. 00007 보존.",
+      "adjacent_cells": [
+        {
+          "id": "A39477-zh-00007",
+          "adopted_zh_text": "乙. 应保持入住者生活环境清洁，并根据其健康状况安排运动和休息。"
+        },
+        {
+          "id": "A39477-zh-00009",
+          "adopted_zh_text": "丙. 不得允许入住者（包括入住者的子女中经支援设施负责人认可的婴幼儿）"
+        }
+      ],
+      "korean_document_title": "지원시설의 운영기준(제24조 관련)",
+      "korean_document_source_hash": "832f4c51b5ab4f0d453fcaac083d85d259dcda1cdf98b1a0d0332fc6676a9e80",
+      "ko_full_document_available": true,
+      "english_document_status": "FALLBACK_ENGLISH_AVAILABLE"
+    },
+    {
+      "id": "A39478-zh-00027",
+      "document": "A39478",
+      "source_hash": "975618a39c5c7638e653d046ec1849fb359821455207080dacd2ff747cd718d0",
+      "target_id": "XML:2864310",
+      "original_zh_text": "不是这样的。",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "별표 5 감경 예외조항의 불완전한 중복 부정문 '不是这样的。'. 법 제36조 제1항 3·4호에 감경을 적용하지 않는다는 의미는 00026에 명시.",
+      "adjacent_cells": [
+        {
+          "id": "A39478-zh-00026",
+          "adopted_zh_text": "但属于法第三十六条第一款第三项或第四项的，不得减轻。"
+        },
+        {
+          "id": "A39478-zh-00028",
+          "adopted_zh_text": "1）认定违法行为系因轻微疏忽或者错误造成的。"
+        }
+      ],
+      "korean_document_title": "행정처분의 기준(제25조제2항 관련)",
+      "korean_document_source_hash": "8508a232e02ffc047df916e74bbdbde9d42087a2ab58ff2418144babb91f80e8",
+      "ko_full_document_available": true,
+      "english_document_status": "FALLBACK_ENGLISH_AVAILABLE"
+    },
+    {
+      "id": "A26697-zh-00008",
+      "document": "A26697",
+      "source_hash": "b010248c8c2c3154a576549e73d18403d19047e5da834babcaabf0c46ffe3334",
+      "target_id": "XML:1886762",
+      "original_zh_text": "金",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "별지 5호 직원증 사진란의 '金' 단독 오인식. 원문은 사진 및 3.5×4.5cm 크기 표기이며 00007·00009-00012에 보존.",
+      "adjacent_cells": [
+        {
+          "id": "A26697-zh-00007",
+          "adopted_zh_text": "照片"
+        },
+        {
+          "id": "A26697-zh-00009",
+          "adopted_zh_text": "3.5㎝×4.5㎝"
+        }
+      ],
+      "korean_document_title": "지역인신매매등 피해자권익보호기관 직원증",
+      "korean_document_source_hash": "4acd0e9f4b37b7a698d2be9eed4a1d4cc860e55f4155691270917bb35daf8092",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "id": "A26699-zh-00053",
+      "document": "A26699",
+      "source_hash": "581d7432d17a8bb1a9126a9b9d558f65ecda93a65fd3e5b340d55d650b003147",
+      "target_id": "XML:1886865",
+      "original_zh_text": "按需。",
+      "prior_edit_text": "",
+      "decision": "REMOVE_NON_SEMANTIC_FRAGMENT",
+      "reason": "별지 7호 전담의료기관 지정신청서 행정정보 공동이용 동의서의 남은 '按需。'는 무관한 분할 잔재. 동의 거부 시 관련 서류 직접 제출 의무는 00051-00052에 번역되어 있음.",
+      "adjacent_cells": [
+        {
+          "id": "A26699-zh-00052",
+          "adopted_zh_text": "核实上述经办公务员核实事项。* 如不同意，申请人须自行提交相关文件。"
+        },
+        {
+          "id": "A26699-zh-00054",
+          "adopted_zh_text": "申请人"
+        }
+      ],
+      "korean_document_title": "전담의료기관 지정신청서",
+      "korean_document_source_hash": "6b4d94041a29b4d7d4d77e5660a76180db667f0f43090facaa24592eb619e2c3",
+      "ko_full_document_available": true,
+      "english_document_status": "NO_DOCUMENT_ENGLISH"
+    }
+  ],
+  "note": "Separate ledger for nine intentionally suppressed fragments. Do not emit empty text edits in canonical review. Original source rows and hashes preserved."
+}
