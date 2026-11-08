@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 280,
+    "correction_count": 286,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -1985,6 +1985,48 @@
       "original": "1) 特许经营者实际承担违约负担或违约对市场影响的能力，",
       "corrected": "1) 特许经营总部实际承担行政罚款的能力，或其违法行为对市场造成的影响，",
       "reason": "韩文附表原文对照后 명백한 기간·법령명·과징금 의미 오류만 최소 교정"
+    },
+    "A34916-zh-00015": {
+      "doc": "A34916",
+      "source_hash": "8c89c331e22d9750cb662004c34ddef1dbacd609ac96bc533e5c66ceec57e797",
+      "original": "1) 违反《公共秩序违法行为管制法》实施令第2条第2款第1项任何子款规定的，均属违法行为。",
+      "corrected": "1) 违法行为人属于《违反秩序行为规制法实施令》第2条之二第1款各项规定的任一情形",
+      "reason": "별표 5 한국어 원문 대조: 법령 인용, 위반행위 또는 행정절차 행위자 의미의 명백한 오역만 교정."
+    },
+    "A34916-zh-00093": {
+      "doc": "A34916",
+      "source_hash": "5e6a3e46f3db463054b06e26476375df0b6754377c8fec1f54df72067aa75b64",
+      "original": "如果协议未得到遵守",
+      "corrected": "未保存特许经营合同的情形",
+      "reason": "별표 5 한국어 원문 대조: 법령 인용, 위반행위 또는 행정절차 행위자 의미의 명백한 오역만 교정."
+    },
+    "A34916-zh-00104": {
+      "doc": "A34916",
+      "source_hash": "cb28a8017d9344ecd05f54b21f1e6ceaf4beee2c9dd08cb6245ffd16b608ecc3",
+      "original": ". 违反《特许经营法》第29条第4款拒绝授予特许经营权",
+      "corrected": "i. 违反本法第29条第4款，冒称特许经营交易专家",
+      "reason": "별표 5 한국어 원문 대조: 법령 인용, 위반행위 또는 행정절차 행위자 의미의 명백한 오역만 교정."
+    },
+    "A34916-zh-00112": {
+      "doc": "A34916",
+      "source_hash": "feb71d4db053d39a55c3a8570a442e0cc0717feed1a8fdd4c52f440ee10a9a17",
+      "original": "。根据《数据保护法》第32-2条第2款提供的数据。",
+      "corrected": "j. 未提交本法第32条之二第2款规定的资料",
+      "reason": "별표 5 한국어 원문 대조: 법령 인용, 위반행위 또는 행정절차 행위자 의미의 명백한 오역만 교정."
+    },
+    "A34916-zh-00165": {
+      "doc": "A34916",
+      "source_hash": "aa1479c1a5f5dc322f0e69f09e7bb88d8a760fce623d5281bfa7a7f17d05df76",
+      "original": "相反，无正当理由出现两次或两次以上。",
+      "corrected": "违反规定，无正当理由两次以上未出席的情形",
+      "reason": "별표 5 한국어 원문 대조: 법령 인용, 위반행위 또는 행정절차 행위자 의미의 명백한 오역만 교정."
+    },
+    "A34916-zh-00211": {
+      "doc": "A34916",
+      "source_hash": "d7e8db5af581ec3b1e77cc712d0f272bd74d55a67c2f9f45579f612e0ccea7e2",
+      "original": "无正当理由拒绝或阻挠公司亦属违法行为",
+      "corrected": "无正当理由拒绝、妨碍或规避依该法第81条第2款进行的调查",
+      "reason": "별표 5 한국어 원문 대조: 법령 인용, 위반행위 또는 행정절차 행위자 의미의 명백한 오역만 교정."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -2047,7 +2089,8 @@
     "C05 00d89ac6886f: A34910 50-row change-registration/deadline table read against Korean Annex 1-2; 18 wrong subsection citations corrected, pre-existing table artifact fixes preserved. Full-family audit IN_PROGRESS.",
     "C05 00d89ac6886f: Annex A34912 full 147-row first-pass inspection against Korean source; repaired 23 explicit errors in subitem labels, Aligo contamination, coercion beneficiary, and reversed disadvantage term. Other previously corrected rows preserved; exhaustive semantic review remains pending.",
     "C05 00d89ac6886f: A34914/A34915 reviewed against full Korean annexes. 23 definite corrections: personnel/qualification criteria, facility subsection numbering, fine calculation and discretionary waiver, fines vs penalties, sales vs volume. Full semantic family review IN_PROGRESS.",
-    "C05 6dfadf0508d4: annex A34914 and A34915 source-grounded 4 corrections; full Chinese semantic certification remains incomplete."
+    "C05 6dfadf0508d4: annex A34914 and A34915 source-grounded 4 corrections; full Chinese semantic certification remains incomplete.",
+    "C05 f2c254040744: Korean annex A34916 penalty-table comparison: 6 confirmed legal-citation and offense semantic corrections. Full Chinese semantic review uncompleted, status IN_PROGRESS."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -2056,5 +2099,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 280
+  "corrected_rows": 286
 }
