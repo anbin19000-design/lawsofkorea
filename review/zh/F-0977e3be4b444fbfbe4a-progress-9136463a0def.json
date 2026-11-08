@@ -1,0 +1,43 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0977e3be4b444fbfbe4a",
+  "worker": "C04",
+  "status": "IN_PROGRESS",
+  "source_commit": "f0c6f89d2cf6267b807b4228b1221f03c441237b",
+  "source_blobs": {
+    "ko": "a54b3d7db1e4a1dad1ee3bc49a1be56040cd2e8d",
+    "en": "1cb11fd3f0d55c6bb13aedb402a10f4f40cae9b2",
+    "zh": "8f285e46b9995ee0d38411249eb9916fccd5e956"
+  },
+  "scope": {
+    "documents": 40,
+    "zh_rows": 1966,
+    "english_rows": 1767,
+    "english_missing_rows": 199
+  },
+  "reading_checkpoint": {
+    "required_order": "KO_FULL_EN_FULL_ZH_FULL",
+    "ko": "NOT_COMPLETE; source catalog and all 40 document bodies inventoried, full sequential reading still required",
+    "en": "NOT_COMPLETE; English manifest inspected: exact official English body exists for B1 and B2; B3 and all 37 annex/form documents have no document-level English source",
+    "zh": "IN_PROGRESS; inspected initial B1 body rows and terminal annex rows; full sequential review remains",
+    "next_step": "Read all 40 Korean source bodies in order, then retrieve and read the two exact-version English documents and linked sources, then review all 1966 Chinese rows in order."
+  },
+  "findings": [
+    {
+      "id": "B1-zh-00003",
+      "text": "第一条（目的）本法旨在对因性偏好障碍而实施性暴力犯罪、且被认定有再次实施性暴力犯罪危险的人实施性冲动药物治疗，以防止性暴力犯罪再犯并促进其回归社会。（2012年12月18日修订）",
+      "reason": "Existing Chinese reverses and fragments the subject/predicate and omits the statutory treatment purpose; minimal semantic correction."
+    },
+    {
+      "id": "B1-zh-00004",
+      "text": "第二条（定义）本法所用术语的含义如下。<2011年8月4日；2012年12月18日；2016年1月19日；2017年10月31日；2017年12月19日修订>\n1. “性变态患者”是指符合《治疗监护等相关法律》第2条第1款第3项规定的人，以及经精神健康医学科专科医师鉴定，因性异常习癖而无法自行控制其行为的人。\n2. “性暴力犯罪”是指下列各项犯罪：\na. 《关于儿童及青少年性保护的法律》第7条（对儿童及青少年的强奸、强制猥亵等）至第10条（强奸等杀人、致死）规定的犯罪；\nb. 《性暴力犯罪处罚等特例法》第3条（特殊强盗强奸等）至第13条（利用通信媒体实施淫秽行为）规定的犯罪，以及第15条（未遂犯）规定的犯罪（仅限第3条至第9条的未遂犯）；\nc. 《刑法》第297条（强奸）、第297条之2（类似强奸）、第298条（强制猥亵）、第299条（准强奸、准强制猥亵）、第300条（未遂犯）、第301条（强奸等致伤、致死伤）、第301条之2（强奸等杀人、致死）、第302条（奸淫未成年人等）、第303条（利用业务上的权势等奸淫）、第305条（奸淫、猥亵未成年人）、第339条（强盗强奸）、第340条第3款（仅限强奸他人的犯罪）及第342条（未遂犯）规定的犯罪（仅限第339条及第340条第3款中强奸他人的未遂犯）；\nd. 根据其他法律对a项至c项所列犯罪加重处罚的犯罪。\n3. “性冲动药物治疗”（以下简称“药物治疗”）是指为抑制异常性冲动或欲望，通过向性变态患者投药及实施心理治疗等方法，在一定期间内减弱或使其异常性功能恢复正常的治疗。",
+      "reason": "Corrects clear list-label corruption, Criminal Code misrendered as Constitution, and a false reference to the Constitution; also fixes the definition lead-in. Statutory title translations should be checked against the corresponding official titles during the full review."
+    },
+    {
+      "id": "B1-zh-00006",
+      "text": "第4条（治疗令的申请）\n① 检察官可以向法院申请对年满19周岁、因对他人实施性暴力犯罪而属于性变态患者，且被认定有再次实施性暴力犯罪危险的人作出药物治疗令（以下简称“治疗令”）。<2012年12月18日修订>\n② 检察官应当在取得精神健康医学科专科医师对治疗令申请对象（以下简称“治疗令被申请人”）的诊断或鉴定后，申请治疗令。<2011年8月4日修订>\n③ 根据第1款提出的治疗令申请，应当在就已提起公诉或已独立申请治疗监护的性暴力犯罪案件（以下简称“被告案件”）进行的上诉审辩论终结前提出。\n④ 法院认为根据被告案件的审理结果有必要作出治疗令时，可以要求检察官申请治疗令。\n⑤ 自提起公诉或独立申请治疗监护之日起，未经判决确定而经过15年的，不得申请治疗令。\n⑥ 第2款所规定的精神健康医学科专科医师诊断或鉴定所需事项，由总统令规定。<2011年8月4日修订>\n\n",
+      "reason": "The existing row contains a materially incorrect description of the 15-year limitation (the source does not say 15 years from filing where a final judgment remains outstanding in the manner rendered). Re-aligned with the Korean source text."
+    }
+  ],
+  "note": "This is a checkpoint only. No COMPLETE status or official receipt is asserted. Preserve the source files and continue from the same source hashes."
+}
