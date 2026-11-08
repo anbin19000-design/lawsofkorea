@@ -1,0 +1,42 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_sha": "510c93f82c655bff9a51c2dbce042c03cd69f7dc",
+  "prior_corrections_preserved": 292,
+  "new_corrections": [
+    "A34917-zh-00014",
+    "A34917-zh-00031",
+    "A34917-zh-00036",
+    "A34917-zh-00056",
+    "A34917-zh-00082",
+    "A34917-zh-00089",
+    "A34918-zh-00006",
+    "A34918-zh-00013",
+    "A34918-zh-00014",
+    "A34920-zh-00013",
+    "A34920-zh-00036",
+    "A34920-zh-00047",
+    "A34920-zh-00086",
+    "A34920-zh-00096"
+  ],
+  "cumulative_corrections": 306,
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "chinese_total_rows": 1687,
+  "inspected_span": "A34917 / A34918 / A34920: full Korean annex form bodies and each row of Chinese translation compared; family-wide Chinese semantic certification pending",
+  "english_note": "B1 exact English; B2 fallback English version; independently verified exact English not available for annexes/forms.",
+  "review_status": "ZH_SEMANTIC_AUDIT_IN_PROGRESS",
+  "notes": "Prior 292 minimal corrections preserved, 14 new source-grounded form corrections stored and verified by GitHub Contents API. Form A34921 onward and whole-family QA require additional review. Full Chinese semantic review not certified. No COMPLETE, no receipt."
+}
