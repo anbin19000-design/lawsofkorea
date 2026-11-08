@@ -1,0 +1,48 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "panel_id": "panel-02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:cdb16aa1344a",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "prior_master_blob_sha": "f29353ef0af5ce5942af148d7cf76a1e40a87043",
+  "checkpoint_type": "VERIFIED_LEGAL_CROSS_REFERENCES",
+  "checked_ids": [
+    "B2-zh-00049",
+    "B2-zh-00120"
+  ],
+  "checked_rows_new": 2,
+  "edits": [
+    {
+      "id": "B2-zh-00049",
+      "source_hash": "42b7c466b9f2f67a4f040e7d8312045aeae07c6c4bd514f1c87afea39d528110",
+      "target_id": "244bad0cb56711ea35960af55efae6a461b57f46f5f576854a518a2b6b28ee64",
+      "text": "第38条（公开征集商业计划书的程序）\n① 项目实施者根据《智慧城市建设法》第三十八条第一款的规定，拟征集智慧城市建设项目商业计划书时，应当在两份以上综合性日报上刊登下列各款事项（指根据《报业振兴法》第九条第一款的规定，以全国发行范围为登记的综合性日报）。\n1. 项目计划概述，包括国家示范城市建设项目的目的、地点、规模、周期和方法\n2. 通过租赁和出售已开发土地等方式制定供应计划。\n3. 商业计划书撰写指南\n4. 申请指南，包括商业计划书提交期限和方式\n5. 商业计划书评估标准和评估计划\n6. 准备和提交商业计划书等所需的其他事项。\n② 项目实施者应当对根据第一款公告提交的项目计划书，按照同款第5项的规定进行评估，予以选择。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-cdb16aa1344a.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Decree Article 38(2) references paragraph 1 and its subparagraph 5, not subparagraphs 1 and 5 of the present paragraph."
+    },
+    {
+      "id": "B2-zh-00120",
+      "source_hash": "527999a0bd79486f2f40e160b223733bc866377a590e05b9a97f17f0936e9901",
+      "target_id": "d6ea0fbd0af5de3e7f2bb2bc268ad078c8f0cac156cb11074c16703a5be150b5",
+      "text": "第五条（其他法令的修改）《普适城市建设等法实施令》部分内容修改如下。\n\n  第十七条第四款第六项规定如下。\n\n    6. 根据《新万金项目促进与支持法》第8条指定为项目实施者的人员\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-cdb16aa1344a.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Supplementary Article 5 amends another enforcement decree (다른 법령), not another Act alone."
+    }
+  ],
+  "ordered_reading_certification": {
+    "ko": false,
+    "en": false,
+    "zh": false
+  },
+  "notes": "Checked C02 official worker binding and matching source SHA; only confirmed mistranslations amended; sequential full-family semantic read remains incomplete."
+}
