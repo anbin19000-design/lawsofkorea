@@ -3495,6 +3495,13 @@
       "source_hash": "4082991fcd524bbbee3caedb6b3c91ca7e81f01c7e34dd947fa360d4512682f9",
       "target_id": "XML:837849",
       "source_progress": "C02 sequential A11335 qualification-training schedule review; corrected clear professional title, grade heading and course-subject label against Korean table"
+    },
+    {
+      "id": "A11335-zh-00066",
+      "text": "精神病理学（异常",
+      "source_hash": "8119d5ee451e43ab31252916ad5d14824405012adad95ef71b0de7462f50e28f",
+      "target_id": "XML:837855",
+      "source_progress": "C02 sequential A11335 review; corrected clear mistranslation 이상心理学 = abnormal psychology; retained table split across adjacent XML cells"
     }
   ],
   "adjudicated_edit_count": 0,
@@ -3509,7 +3516,7 @@
   "ordered_reading_certification": {
     "korean": "READ_COMPLETE_ALL_65_DOCUMENTS",
     "english": "READ_COMPLETE_AVAILABLE_SOURCES_B1_AND_B2_FALLBACK",
-    "chinese": "IN_PROGRESS; B1 complete; B2 through row 105; A30229 1-212; A30230 1-29; A30231 1-136; A30232 1-18; A30233 1-142; B3 rows 1-123 complete; A11335 rows 1-60 reviewed; remaining A11335 rows 61-593 and A11336-A11391 pending"
+    "chinese": "IN_PROGRESS; B1 complete; B2 through row 105; A30229 1-212; A30230 1-29; A30231 1-136; A30232 1-18; A30233 1-142; B3 rows 1-123 complete; A11335 rows 1-85 reviewed; remaining A11335 rows 86-593 and A11336-A11391 pending"
   },
   "checked_unique_ids": [
     "B1-zh-00001",
@@ -4511,10 +4518,35 @@
     "A11335-zh-00057",
     "A11335-zh-00058",
     "A11335-zh-00059",
-    "A11335-zh-00060"
+    "A11335-zh-00060",
+    "A11335-zh-00061",
+    "A11335-zh-00062",
+    "A11335-zh-00063",
+    "A11335-zh-00064",
+    "A11335-zh-00065",
+    "A11335-zh-00066",
+    "A11335-zh-00067",
+    "A11335-zh-00068",
+    "A11335-zh-00069",
+    "A11335-zh-00070",
+    "A11335-zh-00071",
+    "A11335-zh-00072",
+    "A11335-zh-00073",
+    "A11335-zh-00074",
+    "A11335-zh-00075",
+    "A11335-zh-00076",
+    "A11335-zh-00077",
+    "A11335-zh-00078",
+    "A11335-zh-00079",
+    "A11335-zh-00080",
+    "A11335-zh-00081",
+    "A11335-zh-00082",
+    "A11335-zh-00083",
+    "A11335-zh-00084",
+    "A11335-zh-00085"
   ],
-  "checked_rows": 1000,
-  "corrected_rows": 497,
+  "checked_rows": 1025,
+  "corrected_rows": 498,
   "notes": [
     "Only obvious omissions of clause numbering and a missing subparagraph marker corrected; substantive terminology and existing wording retained.",
     "B2 English is an older fallback (version 272521), not exact current Korean version; newer provisions require Korean-Chinese comparison.",
@@ -4572,6 +4604,7 @@
     "C02 sequential B3 review advanced through rows 77-92. Corrected mental sanatorium terminology, record-retention transition paragraph, occupational therapy terminology, broken subitem lettering in transitional qualifications, and consequential amendment law titles and numbering. Rows 77, 80-81, 83, and 88-92 checked and retained where accurate. No English B3 source exists.",
     "C02 sequential B3 review advanced through rows 93-108. Rows 93-94, 97-100, and 103-108 were checked and retained where accurate. Corrected mental rehabilitation facility admission-period applicability, outpatient treatment order compliance transition, psychiatric medical institution toilet installation applicability, and extensive transitional facility specifications including patient-area thresholds, bed limits, spacing and isolation room standards. Numeric values and effective dates compared against Korean source; no English B3 source exists.",
     "C02 completed sequential B3 rows 1-123. Corrected public-hospital operating assessment application, direct-contract term for 수의계약, repeal and transition for mental sanatorium facilities, and amendment titles. B3-zh-00123 contained appended training-course schedule content not present in the B3 Korean source; this content belongs to separately indexed A11335 (정신건강전문요원 수련과정) and was removed from the B3 body row, retaining only its supplementary provision. A11335 remains to be reviewed as its own linked annex. Rows 111-112 and 118-120 checked and retained. No English B3 source exists.",
-    "C02 began sequential review of separately indexed Annex A11335 (mental-health professional training curriculum). Rows 1-60 compared with full Korean table; corrected clinical psychology professional label, grade heading, course-subject column labels, and interview-technique translation. Preserved all hours and totals. English source unavailable for this annex."
+    "C02 began sequential review of separately indexed Annex A11335 (mental-health professional training curriculum). Rows 1-60 compared with full Korean table; corrected clinical psychology professional label, grade heading, course-subject column labels, and interview-technique translation. Preserved all hours and totals. English source unavailable for this annex.",
+    "C02 continued A11335 rows 61-85. Corrected the clear mistranslation of 이상심리학 as abnormal psychology in row 66, preserving the table's split across adjacent cells. Other subject labels, hours and totals in rows 61-85 checked and retained; English source unavailable."
   ]
 }
