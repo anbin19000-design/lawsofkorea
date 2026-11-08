@@ -7681,30 +7681,9 @@
     "Existing stored adjudications and later progress files must be incorporated with source/hash verification before COMPLETE."
   ],
   "integration_progress": {
-    "stage": "PRIOR_REVIEW_IMPORT_2",
-    "parts": [
-      "139c4dc122a6",
-      "0db64372db7d",
-      "e772d50bbb37",
-      "a413694a23a9",
-      "e2dd159a3841",
-      "2407efe1b802",
-      "8e24b13497c9",
-      "b60d6ff9747e",
-      "0f19298f1d56",
-      "3858c44d97d7"
-    ],
-    "newly_imported": 100,
-    "older_differences_overridden_by_prior_adjudication": [
-      {
-        "id": "A25466-zh-00044",
-        "source": "8e24b13497c9"
-      },
-      {
-        "id": "A25466-zh-00045",
-        "source": "8e24b13497c9"
-      }
-    ]
+    "stage": "HISTORICAL_AND_RECENT_EDITS_INTEGRATED_EVIDENCE_AUDITED",
+    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:58c856e5e47c",
+    "note": "No COMPLETE until sequential source and all 1133 rows verified."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -7964,5 +7943,14 @@
     "A25470-zh-00036",
     "A25470-zh-00037",
     "A25470-zh-00038"
-  ]
+  ],
+  "coverage_audit": {
+    "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
+    "blob_sha": "ea7a19a50159d915c3f459b8b00f241c7b7bdda9",
+    "accepted_unique_edits": 242,
+    "recorded_evidence_ids": 784,
+    "ids_without_confirmed_evidence": 349,
+    "pending_candidate_ids": 379,
+    "source_identity_mismatches": 0
+  }
 }
