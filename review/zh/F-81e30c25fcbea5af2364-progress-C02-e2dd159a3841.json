@@ -1,0 +1,131 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:e2dd159a3841",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "english_status": {
+    "A25466": "NO_DOCUMENT_ENGLISH",
+    "note": "Form lacks separate English text; Korean controls."
+  },
+  "checked_rows": 10,
+  "checked_ids": [
+    "A25466-zh-00038",
+    "A25466-zh-00039",
+    "A25466-zh-00040",
+    "A25466-zh-00041",
+    "A25466-zh-00042",
+    "A25466-zh-00046",
+    "A25466-zh-00051",
+    "A25466-zh-00057",
+    "A25466-zh-00058",
+    "A25466-zh-00059"
+  ],
+  "edits": [
+    {
+      "id": "A25466-zh-00038",
+      "text": "1. 智慧实证事业计划书",
+      "source_hash": "7e9ef4e21dfc22a8f0840793f4cc2487dea9b0e1a2b4023f3a518427de8cfd9e",
+      "target_id": "XML:1802742"
+    },
+    {
+      "id": "A25466-zh-00039",
+      "text": "2. 说明符合《智慧城市建设及产业振兴等相关法律》第五十条第一款任一项规定的",
+      "source_hash": "4432017aca8297e8c75ea5bf1d6c4bc9ac727d195cb4abed7ffbd62e43616125",
+      "target_id": "XML:1802743"
+    },
+    {
+      "id": "A25466-zh-00040",
+      "text": "资料",
+      "source_hash": "e9b5866663b4b352a59c89f8501daf3a7aeb4504c9fb2a83de38ebd8009feda3",
+      "target_id": "XML:1802744"
+    },
+    {
+      "id": "A25466-zh-00041",
+      "text": "3. 依据《智慧城市建设及产业振兴等相关法律》第四十九条第二款后段，管辖地方自治团体负责人的意见及措施要求",
+      "source_hash": "e4fc6a62f67b1bc64a0a445e4a633f8b9b845d743a69b705d7ef1a416fe2b25a",
+      "target_id": "XML:1802745"
+    },
+    {
+      "id": "A25466-zh-00042",
+      "text": "以及相应的措施计划",
+      "source_hash": "85852e97e1c34330fc7442490d742a996ef2a49833c2739b53fb0ce78c299d94",
+      "target_id": "XML:1802746"
+    },
+    {
+      "id": "A25466-zh-00046",
+      "text": "提交申请书",
+      "source_hash": "fa8f8130d678f28e5e7d4b67b4cd40e103c92ebbd5adee3c2c8967ef1f344012",
+      "target_id": "XML:1802750"
+    },
+    {
+      "id": "A25466-zh-00051",
+      "text": "智慧实证事业",
+      "source_hash": "3f6f93b705da083a59a1503d2ac437eb8763c01aed8b387906ee2a7ee5f1c768",
+      "target_id": "XML:1802755"
+    },
+    {
+      "id": "A25466-zh-00057",
+      "text": "计划批准",
+      "source_hash": "f8ef8c86d2a9453a1de2432b3c28ec42b381698b64a4f08b5284dacf919be7f7",
+      "target_id": "XML:1802761"
+    },
+    {
+      "id": "A25466-zh-00058",
+      "text": "通知及审查",
+      "source_hash": "751d13e49ef0471553653fca38251f676142b6ad1adb5e198f8c6459878b14f2",
+      "target_id": "XML:1802763"
+    },
+    {
+      "id": "A25466-zh-00059",
+      "text": "确认书签发",
+      "source_hash": "63df1370d03c3271d7436c8eb3f0d328617ea12cfe07a06f3ecdaf91c5059d5b",
+      "target_id": "XML:1802765"
+    }
+  ],
+  "checked_details": [
+    {
+      "ids": [
+        "A25466-zh-00038",
+        "A25466-zh-00039",
+        "A25466-zh-00040",
+        "A25466-zh-00041",
+        "A25466-zh-00042"
+      ],
+      "verdict": "RECONFIRM_PRIOR_CANDIDATES",
+      "reason": "한국어 첨부서류 1~3호에서 사업계획서, 제50조제1항 해당성 자료, 제49조제2항 의견·조치요구·조치계획을 앞뒤 셀 연속으로 대조."
+    },
+    {
+      "id": "A25466-zh-00046",
+      "verdict": "RECONFIRM_PRIOR_CANDIDATE",
+      "reason": "신청서 제출은 提交申请书로 특정해 서식 처리절차 의미를 보존."
+    },
+    {
+      "id": "A25466-zh-00051",
+      "verdict": "RECONFIRM_PRIOR_CANDIDATE",
+      "reason": "스마트실증사업은 Smart演示项目처럼 영어가 섞인 표현이 아니라 기존 번역 후보 智慧实证事业를 적용."
+    },
+    {
+      "ids": [
+        "A25466-zh-00057",
+        "A25466-zh-00058",
+        "A25466-zh-00059"
+      ],
+      "verdict": "RECONFIRM_PRIOR_CANDIDATES",
+      "reason": "계획 승인, 통보 및 검토, 승인 확인서 발급을 처리절차의 독립 셀에 유지."
+    }
+  ],
+  "prior_progress": [
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-447d23a25479.json",
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-3453d66f087b.json"
+  ],
+  "next_review": "A25466-zh-00060 onward; then A25467 and other form/annex review, full 1133-row integration",
+  "note": "All ten selected edits reuse previously saved candidate texts. No new unique source-row coverage inferred. Whole-family semantic review incomplete; no COMPLETE or receipt."
+}
