@@ -1,0 +1,75 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "panel_id": "panel-02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:2b569e8b1d3b",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "checkpoint_type": "DIRECT_KOREAN_LEGAL_REFERENCE_AND_OMISSION_REVIEW",
+  "checked_ids": [
+    "B1-zh-00061",
+    "B1-zh-00063",
+    "B1-zh-00065",
+    "B1-zh-00072"
+  ],
+  "checked_rows_new": 4,
+  "edits": [
+    {
+      "id": "B1-zh-00061",
+      "text": "第四十二条之三（汽车租赁业务的特别规定）在国家试点城市内，拟经营《客运汽车运输事业法》第二条第四项所规定的汽车租赁业务者，如具备国土交通部令规定的条件（例如无人预约、调度系统），国土交通部长官尽管有《客运汽车运输事业法》第二十九条的规定，仍可按照总统令规定，另行确定所需车库面积及营业所的标准。\n\n",
+      "source_hash": "71cee6bb28b982927b1422c99ba2fcff63313b5f205d3f713f38ea6137476b42",
+      "target_id": "12c158e3da755628f0b68d3074710f7358c57e4d48506f1ea84f9ef200d8c1e3",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-2b569e8b1d3b.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "韩文法名为「여객자동차 운수사업법」，应明确为客运汽车运输事业法；原译“客运业务法”过于泛化，且“보유 차고 면적”是所需/持有车库面积标准。仅作必要术语澄清。"
+    },
+    {
+      "id": "B1-zh-00063",
+      "text": "第四十四条（关于创新增长促进区的特别规定）\n① 根据本法第四十三条第一款指定为创新增长促进区的区域，视为已根据《国土规划及利用法》第四十条之三第一款指定为城市创新区。在此情况下，《国土规划及利用法》第四十条之三第二款、第三款、第五款以及第四十条之六第一款、第二款的规定，准用之。<2019年4月23日、2024年2月6日修订>\n② 国土交通大臣拟根据本法第四十三条第一款指定创新增长促进区时，尽管有《国土规划及利用法》第四十条之三第七款的规定，仍可按照总统令规定，另行确定城市创新区的规划制定标准及面积等。<2019年4月23日新增，2024年2月6日修订>\n\n",
+      "source_hash": "66837d07a3ab9cb791d262e8e1b72a02cbad35d5bd9d0e04330d34ea208f5fb0",
+      "target_id": "96440f5e1c9ab9a14737cfd3a79d73cc4589f8c38f094967268616a660357fc0",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-2b569e8b1d3b.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "本条的第43条第1款均指本法（智慧城市法）第43条，不是《国土规划及利用法》第43条；原译两处均误引法律来源，予以纠正。"
+    },
+    {
+      "id": "B1-zh-00065",
+      "text": "删除第46条 <2020年6月9日>\n\n第八章 智慧创新及示范项目的监管特别规定等 <2021年3月16日修订>\n\n",
+      "source_hash": "230a20be7ee29833c72f37f36361671fd1718d7790bff6271ec2e97eed4463b0",
+      "target_id": "d4a0d455a9933cd77ecc96067470918392f99c402831785e6337977738c26d17",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-2b569e8b1d3b.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "韩文“제46조 삭제”应译为“删除第46条”，原译“文章46”不是法律条文编号的正确表达。"
+    },
+    {
+      "id": "B1-zh-00072",
+      "text": "第五十二条（智慧创新项目的变更、措施及撤销等）\n① 智慧创新项目经营者拟变更智慧创新项目计划时，应向国土交通大臣申请变更。\n② 第四十九条第四款、第五款、第七款及第五十一条第一款的规定，准用于第一款所述智慧创新项目计划的变更。但变更总统令规定的轻微事项时，不在此限。\n③ 删除 <2021年3月16日>\n④ 在实施智慧创新项目期间，如实施区域发生或可能发生危害国民健康、安全、环境，或个人信息安全保护、处理等的情形，国土交通大臣可采取下列措施。<2021年3月16日修订>\n1. 暂时或永久中止该智慧创新项目\n2. 对该智慧创新项目发出纠正命令\n3. 变更该智慧创新项目计划的条件，或修改、补充其内容\n4. 限制或变更该智慧创新项目的地域范围\n5. 总统令规定的其他措施\n⑤ 发生下列事由时，国土交通大臣可与实施区域管辖地方自治团体负责人协商，并经委员会审议后，撤销智慧创新项目的批准。但发生第1项事由时，必须撤销批准。<2021年3月16日修订>\n1. 以虚假或其他不正当方法取得智慧创新项目计划批准\n2. 未按照已批准的智慧创新项目计划实施项目\n3. 尽管已采取第四款各项措施，仍未能预防或消除实施区域内有关国民健康、安全、环境及个人信息安全保护、处理的风险或危害\n4. 智慧创新项目计划获批后，无正当理由一年内未开始实施智慧创新项目\n⑥ 智慧创新项目计划的批准依第五款被撤销时，智慧创新项目经营者应立即停止实施该项目，不得继续提供或使用相关智慧创新技术、服务。\n\n",
+      "source_hash": "253e26e992781f4efaa74dd5196ae5361c37d8c0a7ba49df20c0721325bf2bbe",
+      "target_id": "5b3d3a47319804574990f9c715ac139840bfe42ad186f646b33dfbf1b810981c",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-2b569e8b1d3b.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "韩文第52条第4款第1项明确规定“해당 스마트혁신사업의 일시적 또는 영구적 중지”（暂时或永久中止项目），原译仅写“相关项目”，遗漏核心法律措施；其余内容保留原有结构，仅作少量必要规范术语调整。"
+    }
+  ],
+  "ordered_reading_certification": {
+    "ko": false,
+    "en": false,
+    "zh": false
+  },
+  "prior_master_blob_sha": "dfc2407f5622c5110cd6ffc00e9752cfcda5f271",
+  "prior_edit_count": 296,
+  "cumulative_edit_count": 300,
+  "cumulative_checked_unique_ids": 315,
+  "notes": [
+    "Compared Korean and Chinese B1 rows 00061, 00063, 00065 and 00072.",
+    "Corrected legal title and Article 44 cross-reference, statutory deleted-article label, and missing temporary/permanent suspension action in Article 52(4)(1).",
+    "Existing corrections remain preserved; this checkpoint does not certify complete ordered reading of all 17 documents."
+  ]
+}
