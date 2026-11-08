@@ -1,0 +1,175 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-b5c27d20d49b721e47e6",
+  "worker": "C05",
+  "status": "IN_PROGRESS",
+  "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
+  "source_blobs": {
+    "ko": "24ddd78e32a748b7d1c1ce01fef19d036494b9e9",
+    "en": "3d130788df10274ded6103c1fa81654c977eec5c",
+    "zh": "66ea4d0981f8e1a76348309f8254051d4914f693"
+  },
+  "checked_rows": 20,
+  "checked_ids": [
+    "B3-zh-00001",
+    "B3-zh-00002",
+    "B3-zh-00003",
+    "B3-zh-00004",
+    "B3-zh-00005",
+    "B3-zh-00006",
+    "B3-zh-00007",
+    "B3-zh-00008",
+    "B3-zh-00009",
+    "B3-zh-00010",
+    "B3-zh-00011",
+    "B3-zh-00012",
+    "B3-zh-00013",
+    "B3-zh-00014",
+    "B3-zh-00015",
+    "B3-zh-00016",
+    "B3-zh-00017",
+    "B3-zh-00018",
+    "B3-zh-00019",
+    "B3-zh-00020"
+  ],
+  "decisions": [
+    {
+      "id": "B3-zh-00001",
+      "source_hash": "25c69c35e2d01d91009e94b2ff94b9e02be6f54fb6607f841172ad4e063e806b",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "B3-zh-00002",
+      "source_hash": "a36e44dc86e29fbe188a19843e3c05a6bd9e5fa127d90192dc01c0167c54c421",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "B3-zh-00003",
+      "source_hash": "58ee58a2de54b0aca40a1500b3008d669f88f781954feef6439256a636fcdaf2",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "B3-zh-00004",
+      "source_hash": "6c1ffdf06cc8b6629db8a01c891397e494fac38b5c4d2462d9442a9f9b35458e",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B3-zh-00005",
+      "source_hash": "41cfa51aa4d7e55b0d240466a6a3cc9bfdc1b442cb3386892f14dcca4b5209cf",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "B3-zh-00006",
+      "source_hash": "246f8762efc08910c24be5e9290a1dadb29184bf64cea812d0d441eee2f8635f",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B3-zh-00007",
+      "source_hash": "3bb88f21c64ddfbd9b7b1668f3827e149a763e5c858243994952d3c7b5cd315e",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B3-zh-00008",
+      "source_hash": "8b698e072b8f1b678e16fd833a832e20624e90a6828d8402a242e9434fbbfc71",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B3-zh-00009",
+      "source_hash": "d598c58db82e5aaced071d430b9821d75aed5db60bdef9bd9296389c519338a5",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B3-zh-00010",
+      "source_hash": "5e329bb1980b97860c0be27a7575d7772b25252180aee1329c37d70de2fac8b2",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "B3-zh-00011",
+      "source_hash": "8daae8bf5fa8683941396a7b6ea3d3b947d14f7a92c911479e49885161a51401",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B3-zh-00012",
+      "source_hash": "1329bc0ba95e6c344be8296a6235fa2fcea3c4836a61e13cb887c54edacab76b",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B3-zh-00013",
+      "source_hash": "1d5670a9c1780892c713cc059f29be5cc4f87d09dd5124e98cf8e6a84f830807",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "B3-zh-00014",
+      "source_hash": "005aa2f6be596e42828fa5985260236a93e2da7baa1fcf5d5450b6667c944898",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B3-zh-00015",
+      "source_hash": "94296daea1758c4d37d25e8e2cc220fe6423c645ddc3a608c50e164b481663e1",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B3-zh-00016",
+      "source_hash": "466ac42aad60b8ad1a5ed6b7f5ecfdbcc49e74ccb2345f08cbafa5d3db17e561",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B3-zh-00017",
+      "source_hash": "5b174666c708260aa041947be156e5f2a6485f403fc0a7e80d3491b63afaadec",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B3-zh-00018",
+      "source_hash": "f56011d77bbdbabf9d64ffab14918ed4abf0a61fd0fb5efcbe64eb22f8682b00",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B3-zh-00019",
+      "source_hash": "8a75d52bc6d99e1ff6144e9640cef56d7597fd6d4f7df2f5d14beab7e94b75d4",
+      "decision": "KEEP"
+    },
+    {
+      "id": "B3-zh-00020",
+      "source_hash": "9a3fc233ef4903c4a7ed9159948189e14d05eda370762d63076e2a39009dad76",
+      "decision": "CORRECT"
+    }
+  ],
+  "edits": [
+    {
+      "id": "B3-zh-00001",
+      "text": "《单亲家庭支援法施行规则》"
+    },
+    {
+      "id": "B3-zh-00002",
+      "text": "第一条（目的）本规则旨在规定《单亲家庭支援法》及同法施行令委任的事项和施行所需的事项。<2003年7月9日、2006年5月12日、2008年1月15日修订>\n\n"
+    },
+    {
+      "id": "B3-zh-00003",
+      "text": "第二条（母亲或父亲的范围）《单亲家庭支援法》（以下简称“本法”）第四条第一项戊目中的“性别平等家族部令规定的人”，指符合下列任一情形的人。<1996年1月17日、2003年7月9日、2005年6月23日、2006年5月12日、2008年1月15日、2008年3月3日、2010年3月19日、2012年8月2日、2025年10月1日修订>\n1. 配偶生死不明的人\n2. 因与配偶或其家属不和等原因离家出走的人\n3. 删除<2012年8月2日>\n\n"
+    },
+    {
+      "id": "B3-zh-00005",
+      "text": "第三条之二（支援对象范围的特例）本法第五条之二第二款第五项中的“性别平等家族部令规定的儿童”，指符合下列任一情形的儿童。<2008年12月31日、2010年3月19日、2012年1月2日、2025年10月1日修订>\n1. 删除<2012年1月2日>\n2. 父母因家庭不和等离家出走，致使无法获得父母扶养的儿童\n3. 其他因父母失业等长期丧失经济能力，致使无法获得扶养的儿童\n\n"
+    },
+    {
+      "id": "B3-zh-00010",
+      "text": "第七条（福利给付受领账户汇款申请书）《单亲家庭支援法施行令》（以下简称“施行令”）第十四条之二第一款规定的福利给付受领账户汇款申请书，采用附页第3号表格。\n\n"
+    },
+    {
+      "id": "B3-zh-00013",
+      "text": "第九条之二（对青少年单亲父母的教育支援）本法第十七条之二第一款第四项中“性别平等家族部令规定的事项”，指在青少年单亲父母就学期间，为其所抚养子女提供照料的支援。<2025年10月1日修订>\n\n"
+    },
+    {
+      "id": "B3-zh-00020",
+      "text": "第十条之二（单亲家庭福利设施设置标准等）\n① 依本法第二十条第六款，单亲家庭福利设施设置标准见附表2。<2008年1月15日、2012年1月2日、2023年3月23日修订>\n② 依本法第二十条第六款，单亲家庭福利设施应配备的从业人员职种、人数及资格标准分别见附表3及附表4。但在地区内缺乏符合附表4资格标准的人员等不可避免的情形下，可按照特别自治市、特别自治道、市、郡、区的条例规定放宽标准。<2008年1月15日、2012年1月2日、2014年12月12日、2023年3月23日修订>\n\n"
+    }
+  ],
+  "next_id": "B3-zh-00021",
+  "deferred": [
+    {
+      "id": "B3-zh-00021",
+      "reason": "Prior MTQ adjudication hold remains; prior decision not yet reconciled"
+    }
+  ],
+  "note": "Original Korean comparison B3 1-20, including source law title and definition, Article 7 delegated form, and facility standard. Retain B3-21 prior hold."
+}
