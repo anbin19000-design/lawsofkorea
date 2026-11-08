@@ -2314,10 +2314,19 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-cdb16aa1344a-rule.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
       "reason": "Rule Article 3 refers to Article 3-3 evaluation committee, not Article 3 paragraph 3."
+    },
+    {
+      "id": "B3-zh-00003",
+      "text": "第二条（国家试点城市建设项目等绩效评价方案的制定）\n①国土交通大臣应当按照《智慧城市和产业创建与促进法》（以下简称“本法”）第35条之3、第2款的规定，每年制定国家试点城市建设项目绩效评估计划（以下简称“绩效评估计划”）。\n② 绩效考核计划应包括以下项目。\n1. 绩效评估的基本方向和实施计划\n2. 绩效评估的范围和对象\n3. 绩效评估标准、绩效指标及各绩效指标评分\n4. 编制绩效评估所需资料\n5. 绩效评估结果利用计划\n6. 绩效评估结果的披露范围和方法\n7. 为客观评价国家试点城市建设项目绩效而认为必要的其他事项\n③ 国土交通大臣在制定绩效评估计划后，应当立即通知相关国家示范城市建设项目实施单位。\n\n",
+      "source_hash": "c875130cab088149bc446f1856cf5ef6da3bfd90a67e52146375d100f13015dc",
+      "target_id": "332ecf91042d3ab51f8d17111b5a5e8b1ed8b488787057b5151b0a9eece1c20d",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-69a040de3cf7.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Korean Rule Article 2(2) item 2 specifies 범위 및 대상 (scope and subjects), not themes; item 4 specifies 자료의 작성 (preparation of materials) and uses 성과평가 (performance evaluation), not 성능평가."
     }
   ],
-  "adjudicated_edit_count": 282,
-  "pending_single_candidate_count": 348,
+  "adjudicated_edit_count": 283,
+  "pending_single_candidate_count": 347,
   "pending_conflict_count": 0,
   "pending_single_candidates": [
     {
@@ -7526,21 +7535,6 @@
       ],
       "text": "《智慧城市建设及产业振兴等相关法律施行规则》",
       "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "B3-zh-00003",
-      "source_hash": "c875130cab088149bc446f1856cf5ef6da3bfd90a67e52146375d100f13015dc",
-      "target_id": "332ecf91042d3ab51f8d17111b5a5e8b1ed8b488787057b5151b0a9eece1c20d",
-      "variants": [
-        {
-          "text": "第二条（国家示范城市建设事业绩效评价计划的制定等）\n① 国土交通部长官应当每年制定依据《智慧城市建设及产业振兴等相关法律》（以下简称“本法”）第三十五条之三第二款评价国家示范城市建设事业绩效的计划（以下简称“绩效评价计划”）。\n② 绩效评价计划应当包括下列事项：\n1. 绩效评价的基本方向及推进日程\n2. 绩效评价的范围和对象\n3. 绩效评价标准、绩效指标及各指标的分值\n4. 绩效评价所需资料的编制\n5. 绩效评价结果的运用方案\n6. 绩效评价结果的公开范围及方法\n7. 客观评价国家示范城市建设事业绩效所需的其他事项\n③ 国土交通部长官制定绩效评价计划后，应当立即通知有关国家示范城市建设事业的事业实施者。\n\n",
-          "file_indices": [
-            39
-          ]
-        }
-      ],
-      "text": "第二条（国家示范城市建设事业绩效评价计划的制定等）\n① 国土交通部长官应当每年制定依据《智慧城市建设及产业振兴等相关法律》（以下简称“本法”）第三十五条之三第二款评价国家示范城市建设事业绩效的计划（以下简称“绩效评价计划”）。\n② 绩效评价计划应当包括下列事项：\n1. 绩效评价的基本方向及推进日程\n2. 绩效评价的范围和对象\n3. 绩效评价标准、绩效指标及各指标的分值\n4. 绩效评价所需资料的编制\n5. 绩效评价结果的运用方案\n6. 绩效评价结果的公开范围及方法\n7. 客观评价国家示范城市建设事业绩效所需的其他事项\n③ 国土交通部长官制定绩效评价计划后，应当立即通知有关国家示范城市建设事业的事业实施者。\n\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
     }
   ],
   "pending_conflicts": [],
@@ -7577,8 +7571,8 @@
   ],
   "integration_progress": {
     "stage": "C02_RULE_CORRECTIONS_IN_PROGRESS",
-    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:cdb16aa1344a",
-    "note": "Four source-supported corrections this execution; full readthrough remains uncertified."
+    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:69a040de3cf7",
+    "note": "One additional verified B3-zh-00003 correction; full readthrough remains uncertified."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -7877,7 +7871,8 @@
     "B2-zh-00049",
     "B2-zh-00120",
     "B3-zh-00002",
-    "B3-zh-00004"
+    "B3-zh-00004",
+    "B3-zh-00003"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
