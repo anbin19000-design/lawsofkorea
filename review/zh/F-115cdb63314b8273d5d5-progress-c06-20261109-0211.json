@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 2640,
+    "verified_zh_rows": 2700,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 2640,
-      "checked_rows": 2640,
+      "next_row_zero_based": 2700,
+      "checked_rows": 2700,
       "total_rows": 5228
     }
   },
@@ -3475,9 +3475,117 @@
       "text": "户数",
       "original_text": "家具数量",
       "reason": "가구 수를 가구(家具)로 오역"
+    },
+    {
+      "id": "A4684-zh-00034",
+      "text": "高速公路",
+      "original_text": "高速公路 国道",
+      "reason": "도로 종류의 행 구분이 하나로 합쳐짐"
+    },
+    {
+      "id": "A4684-zh-00035",
+      "text": "普通国道",
+      "original_text": "常规",
+      "reason": "일반국도를 일반으로만 축약"
+    },
+    {
+      "id": "A4684-zh-00037",
+      "text": "普通国道",
+      "original_text": "国家公路",
+      "reason": "일반국도를 국가도로로 오역"
+    },
+    {
+      "id": "A4684-zh-00038",
+      "text": "4车道以上",
+      "original_text": "4 通道",
+      "reason": "4차로 이상을 4개 통로로 오역"
+    },
+    {
+      "id": "A4684-zh-00040",
+      "text": "4车道以下",
+      "original_text": "4 通道",
+      "reason": "4차로 미만을 4개 통로로 오역"
+    },
+    {
+      "id": "A4684-zh-00042",
+      "text": "地方道",
+      "original_text": "本地道路",
+      "reason": "지방도의 도로 종류 명칭 정정"
+    },
+    {
+      "id": "A4684-zh-00044",
+      "text": "4车道以上",
+      "original_text": "4 通道",
+      "reason": "4차로 이상을 4개 통로로 오역"
+    },
+    {
+      "id": "A4684-zh-00046",
+      "text": "4车道以下",
+      "original_text": "4 通道",
+      "reason": "4차로 미만을 4개 통로로 오역"
+    },
+    {
+      "id": "A4684-zh-00049",
+      "text": "填写方法",
+      "original_text": "如何写入",
+      "reason": "서식의 작성방법 표제 정정"
+    },
+    {
+      "id": "A4685-zh-00001",
+      "text": "■ 《道路法施行规则》[附表第二十号格式]",
+      "original_text": "■ 道路交通法执行规则 [附件表格编号 20]",
+      "reason": "도로법 시행규칙을 도로교통법 시행규칙으로 오역"
+    },
+    {
+      "id": "A4685-zh-00006",
+      "text": "办理期限：2个月",
+      "original_text": "处理周期MTQc2e2f91c71addd2000420结束",
+      "reason": "처리기간과 잔존 MTQ 토큰 오류"
+    },
+    {
+      "id": "A4685-zh-00008",
+      "text": "购买申请人",
+      "original_text": "购买",
+      "reason": "매수청구인 명칭이 잘림"
+    },
+    {
+      "id": "A4685-zh-00017",
+      "text": "地号",
+      "original_text": "批号",
+      "reason": "지번을 배치번호로 오역"
+    },
+    {
+      "id": "A4685-zh-00018",
+      "text": "土地类别",
+      "original_text": "指定",
+      "reason": "지목을 지정으로 오역"
+    },
+    {
+      "id": "A4685-zh-00027",
+      "text": "权利内容",
+      "original_text": "版权内容",
+      "reason": "권리의 내용을 저작권 내용으로 오역"
+    },
+    {
+      "id": "A4685-zh-00038",
+      "text": "依据《道路法》第四十一条第一款、《道路法施行令》第四十三条第一款及《道路法施行规则》第十九条，现申请购买上述土地。",
+      "original_text": "根据《道路法》第41条第1款、《道路法》实施令第43条第1款和《道路法实施细则》第19条的规定，如上所述。",
+      "reason": "施行令、施行规则名称错误及土地购买申请主句遗漏"
+    },
+    {
+      "id": "A4685-zh-00039",
+      "text": "",
+      "original_text": "I 请求购买此土地。",
+      "reason": "与前一项完整句合并并删除多余第一人称"
+    },
+    {
+      "id": "A4685-zh-00040",
+      "text": "收件人：",
+      "original_text": "至：",
+      "reason": "귀하를‘至’로 직译"
     }
   ],
-  "note": "Sequential Chinese review continued through original row 2639, reviewing existing/illegal roadside buildings registers and annual roadside-zone marker/building status report. Added focused corrections to current resident, building/structure terminology, roadside zone, pre-change photo label, form title, report table columns and rectified/unrectified marker counts; removed residual MTQ. Previous 525 edits retained. Continue from row 2640. IN_PROGRESS.",
+  "note": "Sequential Chinese review continued through original row 2699, reviewing annual roadside-zone status report and land purchase claim form. Added focused corrections to road categories and lane thresholds, form completion heading, land purchase form title and 2-month handling period, claimant, parcel number, land category, right content, statutory citations and application statement; removed residual MTQ. Previous 554 edits retained. Continue from row 2700. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
