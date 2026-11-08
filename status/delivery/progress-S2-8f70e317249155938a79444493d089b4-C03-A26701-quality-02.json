@@ -1,0 +1,275 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26701",
+  "quality_batch": "A26701-quality-02",
+  "range": {
+    "first": "A26701-zh-00026",
+    "last": "A26701-zh-00050"
+  },
+  "quality_checked_rows": 25,
+  "quality_passed_rows": 25,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "A26701-zh-00026",
+    "A26701-zh-00027",
+    "A26701-zh-00028",
+    "A26701-zh-00029",
+    "A26701-zh-00030",
+    "A26701-zh-00031",
+    "A26701-zh-00032",
+    "A26701-zh-00033",
+    "A26701-zh-00034",
+    "A26701-zh-00035",
+    "A26701-zh-00036",
+    "A26701-zh-00037",
+    "A26701-zh-00038",
+    "A26701-zh-00039",
+    "A26701-zh-00040",
+    "A26701-zh-00041",
+    "A26701-zh-00042",
+    "A26701-zh-00043",
+    "A26701-zh-00044",
+    "A26701-zh-00045",
+    "A26701-zh-00046",
+    "A26701-zh-00047",
+    "A26701-zh-00048",
+    "A26701-zh-00049",
+    "A26701-zh-00050"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26701-00001-00095.json",
+  "prior_quality_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26701-quality-01.json",
+  "results": [
+    {
+      "id": "A26701-zh-00026",
+      "source_hash": "906d72552712b06d1341b0c66c3132ade3c3d7e40973d429862221486a2d45f1",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시설 종류별 ㎡ 단위 구획: 거실·사무실·목욕실·식당·기타"
+    },
+    {
+      "id": "A26701-zh-00027",
+      "source_hash": "fadf1164c123c71418d3063da6a3d0f9e3c470acab749bc4ca1ef07e3b4b3400",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시설 종류별 ㎡ 단위 구획: 거실·사무실·목욕실·식당·기타"
+    },
+    {
+      "id": "A26701-zh-00028",
+      "source_hash": "6f63aedf231eb1a332b6a3c8132caec378ef5042827b167a3ded50cf9ce83138",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시설 종류별 ㎡ 단위 구획: 거실·사무실·목욕실·식당·기타"
+    },
+    {
+      "id": "A26701-zh-00029",
+      "source_hash": "50e5c3c9b2790920894ec2b94733a7f510fa7d543848666e2e62b300ac49a5f3",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시설 종류별 ㎡ 단위 구획: 거실·사무실·목욕실·식당·기타"
+    },
+    {
+      "id": "A26701-zh-00030",
+      "source_hash": "72b8cbdf8773c47da3a176b9b498628926cfa0c402aed0d7f44c589042914e47",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "종사자 인원: 시설장·상담원·기타"
+    },
+    {
+      "id": "A26701-zh-00031",
+      "source_hash": "5a849f1fc9d520fe3fc6c5527b3ed46b776b38a878724fb77858177cfaac612c",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "종사자 인원: 시설장·상담원·기타"
+    },
+    {
+      "id": "A26701-zh-00032",
+      "source_hash": "c86e732914be7c62cceb494e3334bff973c497d6a57dfb85ac58e02ce47059e9",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "종사자 인원: 시설장·상담원·기타"
+    },
+    {
+      "id": "A26701-zh-00033",
+      "source_hash": "67bd15f85cc625c8ebca9df4fad70f780ad248bf87a2d1cdaf79ac1d329938d1",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "종사자 인원: 시설장·상담원·기타"
+    },
+    {
+      "id": "A26701-zh-00034",
+      "source_hash": "6990da5251842d48b61cbdad8faa00e6a6696d3e865eae8a96097cbae3aada2a",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "종사자 인원: 시설장·상담원·기타"
+    },
+    {
+      "id": "A26701-zh-00035",
+      "source_hash": "1201d4e0ce1cdea263a1949e6adbdd6a7726dae6ebf7f8ef10986a5482c3c0d6",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "종사자 인원: 시설장·상담원·기타"
+    },
+    {
+      "id": "A26701-zh-00036",
+      "source_hash": "5a13e9a56c2ff2aa24d98c63099030cb462b49dc83fb346bd3f58f0d43143088",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법 제33조제2항, 시행령 제23조제2항 및 시행규칙 제8조제1항"
+    },
+    {
+      "id": "A26701-zh-00037",
+      "source_hash": "966a189828d52453ca2a14433dbc26df1d16d805372d6a57cc4d849471ba3979",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법 제33조제2항, 시행령 제23조제2항 및 시행규칙 제8조제1항"
+    },
+    {
+      "id": "A26701-zh-00038",
+      "source_hash": "3527dce0a858c2392f127fa5dcac50cf134b1c6e99b5249a6d4f049aeac4dba4",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "일반·장애인·아동청소년·외국인·자립지원 공동생활시설 종류"
+    },
+    {
+      "id": "A26701-zh-00039",
+      "source_hash": "b66dd4fe75b5e7e5ad3df020ca48b5f88cbda4d8be872e1479967028f0cfa8d7",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "일반·장애인·아동청소년·외국인·자립지원 공동생활시설 종류"
+    },
+    {
+      "id": "A26701-zh-00040",
+      "source_hash": "b637bbe1734ea13729c569b3d328497e22bc0ba065ad2bc03d1ce451d58df588",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "일반·장애인·아동청소년·외국인·자립지원 공동생활시설 종류"
+    },
+    {
+      "id": "A26701-zh-00041",
+      "source_hash": "128759e5e2b9e83b530e12676d8a46821ef12b08deb64ba6ba47457e7c2abe70",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "일반·장애인·아동청소년·외국인·자립지원 공동생활시설 종류"
+    },
+    {
+      "id": "A26701-zh-00042",
+      "source_hash": "923287ef3c15b5e20799d2c01e7508205cab0a81410c85b9c83cd69af67e032b",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "일반·장애인·아동청소년·외국인·자립지원 공동생활시설 종류"
+    },
+    {
+      "id": "A26701-zh-00043",
+      "source_hash": "72f060f15a454594d4203441e2867d4da04a26b3b5be941f3774f43c62d4d28f",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "일반·장애인·아동청소년·외국인·자립지원 공동생활시설 종류"
+    },
+    {
+      "id": "A26701-zh-00044",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청 연월일 및 신청인 서명·날인"
+    },
+    {
+      "id": "A26701-zh-00045",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청 연월일 및 신청인 서명·날인"
+    },
+    {
+      "id": "A26701-zh-00046",
+      "source_hash": "dfc76879e2f5c3ead09186ff1c6b635624f96b7adbd71d94c37566429ca5df6f",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청 연월일 및 신청인 서명·날인"
+    },
+    {
+      "id": "A26701-zh-00047",
+      "source_hash": "c2d23e1deac0e715647a4c407bc50eba842f6bf2557004d8c363f988e16c8208",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청 연월일 및 신청인 서명·날인"
+    },
+    {
+      "id": "A26701-zh-00048",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청 연월일 및 신청인 서명·날인"
+    },
+    {
+      "id": "A26701-zh-00049",
+      "source_hash": "247bf6dc11bcb23190bea6fe005b4aff2cc34f0f5b579af8fe7e4a003b81c840",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "특별시장·광역시장·특별자치시장 수신인"
+    },
+    {
+      "id": "A26701-zh-00050",
+      "source_hash": "2099cd7f323c38ac89f0ebc4dd140529ccb048fb87aa42935038b81b0325020d",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "특별시장·광역시장·특별자치시장 수신인"
+    }
+  ],
+  "edits": [],
+  "note": "A26701 26~50행 시설 구획과 종사자, 법령 인용, 지원시설 유형 및 신청 서명에 관한 기존 교정·원문 대응 품질 확인. 원본 ID/해시 및 기존 판정 불변. 전체 COMPLETE 아님."
+}
