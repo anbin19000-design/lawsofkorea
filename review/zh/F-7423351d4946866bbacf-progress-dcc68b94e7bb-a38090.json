@@ -1,0 +1,37 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "panel_id": "panel-01",
+  "assignment_id": "S2-c174f0e36bef5fedb717095f1cea01f6",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:dcc68b94e7bb]",
+  "status": "IN_PROGRESS",
+  "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
+  "source_sha": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "official_review_blob": "79236f95231cb09467e686b7c4c3a5ad057ca5da",
+  "checked_rows": 199,
+  "unique_edits": 297,
+  "reviewed_sequentially": [
+    "B1-zh-00089..B1-zh-00103",
+    "B2-zh-00001..B2-zh-00057",
+    "A38090-zh-00001..A38090-zh-00039"
+  ],
+  "verified": [
+    "B2-zh-00004 corrected materially false assertion that qualifying corporation is unlawful; restored capital threshold.",
+    "B2-zh-00005 statutory cross-reference corrected to this Act Article 27.",
+    "B2-zh-00021 MTQ contamination corrected; treatment restriction translated.",
+    "B2-zh-00051 untranslated Korean text corrected.",
+    "B2-zh-00057 reduced to addendum only; extraneous penalty schedule belongs to separate annex A38090.",
+    "A38090 daily surcharge amounts 12 bands and annual turnover brackets checked against Korean schedule."
+  ],
+  "unresolved": [
+    "A38090-zh-00012 is a punctuation-only dot requiring XML cell check.",
+    "Full XML cell alignment for all annexes and forms not yet complete."
+  ],
+  "next_position": "A38091-zh-00001",
+  "note": "Original source SHA unchanged. Existing 287 edits retained; ten A38090 edits added. Source rows still show original unedited MTQ/Hangul in B2-zh-00021 and B2-zh-00051; their corrected translations are stored in official review edits."
+}
