@@ -2892,35 +2892,35 @@
       "source_hash": "f77265ae6366bb646ef36dac0bb666875933b36e83744b708b7bdf4ce13eb6d0",
       "original": "边坡指定解除声明",
       "corrected": "侵蚀控制区解除指定调查记录",
-      "reason": "“지정해제조서”是解除指定调查记录，不是边坡解除声明。"
+      "reason": "“사방지지정해제조서”是解除侵蚀控制区指定的调查记录，不是边坡声明。"
     },
     "A6594-zh-00010": {
       "doc": "A6594",
       "source_hash": "62bfa23ecd1440d2c96faba2de8f359ebe363c063d769cce37f2e6444a95bc7c",
       "original": "保存预防解锁",
-      "corrected": "解除指定情况",
-      "reason": "原译“保存预防解锁”无意义，按表格字段“해제”恢复解除指定情况。"
+      "corrected": "解除指定",
+      "reason": "表格列标题是侵蚀控制区指定解除，不是保存预防解锁。"
     },
     "A6594-zh-00011": {
       "doc": "A6594",
       "source_hash": "565bdfbb9e2afd8bbe92cd837980415793a1eb5dd923abfbcf4dc884a0348fc4",
       "original": "地黄白当归",
-      "corrected": "地况、林况",
-      "reason": "“지황·임황”分别为地况、林况，不是人名或药材。"
+      "corrected": "地况及林况",
+      "reason": "“지황 및 임황”是地况及林况，不是药材名称。"
     },
     "A6594-zh-00013": {
       "doc": "A6594",
       "source_hash": "39cee9fd498fcb7184831b77d374ad698688e614c5cf625e96cd3520753c4087",
       "original": "取消理由",
       "corrected": "解除指定理由",
-      "reason": "“해제 사유”是解除指定理由。"
+      "reason": "“해제사유”是解除指定理由。"
     },
     "A6594-zh-00015": {
       "doc": "A6594",
       "source_hash": "7bb792e80eea7a8cdfb3cfa7273c9e5d883bfb65af424d0f56f92272d24ff1df",
       "original": "报销",
-      "corrected": "补偿情况",
-      "reason": "“변상”是补偿/返还，不是报销。"
+      "corrected": "补偿金",
+      "reason": "“변상금”是补偿金/返还金，不是报销。"
     },
     "A6596-zh-00001": {
       "doc": "A6596",
@@ -2934,7 +2934,7 @@
       "source_hash": "2f97cf0044fd21f573d173f0dd07861954efdd19d4d619bef34065b377d9f73b",
       "original": "指定发布边坡防护场地补偿评估报告",
       "corrected": "侵蚀控制区解除指定补偿金评估记录",
-      "reason": "表格标题应反映“解除指定”及“补偿金评估记录”。"
+      "reason": "标题中的“사방지지정해제”是解除侵蚀控制区指定；“사정조서”是评估记录。"
     },
     "A6596-zh-00006": {
       "doc": "A6596",
@@ -2948,7 +2948,7 @@
       "source_hash": "b2dde718ab5a038a637e8d6f5ee844d72f4ef7a52c734412dd360ed7e4953ebf",
       "original": "归属(韩元)",
       "corrected": "归属金额（韩元）",
-      "reason": "“귀속”是归属，不是一般所有权。"
+      "reason": "“귀속”是归属金额。"
     },
     "A6598-zh-00001": {
       "doc": "A6598",
@@ -3187,6 +3187,202 @@
       "original": "  兹删除第22-2条和第22-3条。\n\n  省略⑤至⑫\n\n",
       "corrected": "删除第22条之2及第22条之3。\n\n⑤至⑫省略\n\n",
       "reason": "“각각 삭제한다”是分别删除，不需要“兹”这一非法律表达。"
+    },
+    "A6594-zh-00003": {
+      "doc": "A6594",
+      "source_hash": "12fd6fa0dc55a6ae04c55f793db85b442e4e0b45d9a2690a0a2714c70bfd6c7b",
+      "original": "○ 调查日期：",
+      "corrected": "调查日期：",
+      "reason": "恢复调查日期字段。"
+    },
+    "A6594-zh-00004": {
+      "doc": "A6594",
+      "source_hash": "ddc7a810de7514e6d48d841bd6ec7186f7ffb47548eaf529b6969c743a36017a",
+      "original": "○ 调查员：",
+      "corrected": "调查人：",
+      "reason": "“조사자”是调查人。"
+    },
+    "A6594-zh-00014": {
+      "doc": "A6594",
+      "source_hash": "c2e8295373e44e5999f0423f39148a0eedb7e6fcc9a06d542bd4301427ca0548",
+      "original": "侵蚀控制设施",
+      "corrected": "侵蚀控制设施",
+      "reason": "“사방시설”是侵蚀控制设施。"
+    },
+    "A6594-zh-00016": {
+      "doc": "A6594",
+      "source_hash": "af6d32d82c647cfaf0de22a96303cd96d0d7933fb5477de549f51d13edb7317a",
+      "original": "(法律文本)",
+      "corrected": "（法条）",
+      "reason": "“법조문”是法条。"
+    },
+    "A6594-zh-00017": {
+      "doc": "A6594",
+      "source_hash": "f66746594df28606f6be2ff644ead5b47357e6582a75c100d051cf81c6edba11",
+      "original": "立木",
+      "corrected": "立木",
+      "reason": "“입목”是立木。"
+    },
+    "A6594-zh-00018": {
+      "doc": "A6594",
+      "source_hash": "95d5acdf6edd746bf2f3cfa2fa473918674847f80402c24bb171ed16486af5a6",
+      "original": "集合",
+      "corrected": "无偿让与措施",
+      "reason": "“양여조치”是无偿让与措施。"
+    },
+    "A6594-zh-00021": {
+      "doc": "A6594",
+      "source_hash": "5483d60d85ce9c861e8e7ae8ca400b57870f7fde500fed7c500df0332ccecb04",
+      "original": "东ㆍRi",
+      "corrected": "洞、里",
+      "reason": "“동ㆍ리”是洞、里，不应保留韩文Ri。"
+    },
+    "A6594-zh-00022": {
+      "doc": "A6594",
+      "source_hash": "3a4808ed60d42158802406eafc733fbd9e7ffe43cd87895e51d2d3991578a75a",
+      "original": "包裹编号",
+      "corrected": "地块编号",
+      "reason": "“지번”是地块编号。"
+    },
+    "A6594-zh-00023": {
+      "doc": "A6594",
+      "source_hash": "9285603ef22574fff2f62a1f6be09f41b8fbe16c7ad6934ff1194f23be0213e1",
+      "original": "区域",
+      "corrected": "面积（㎡）",
+      "reason": "恢复面积字段。"
+    },
+    "A6594-zh-00024": {
+      "doc": "A6594",
+      "source_hash": "637165138f8705bb95610d6e5f163312d3f9770cf42419aaaaf8d752079c18b5",
+      "original": "侵蚀控制工程",
+      "corrected": "侵蚀控制工程种类",
+      "reason": "“사방사업 종류”是侵蚀控制工程种类。"
+    },
+    "A6594-zh-00026": {
+      "doc": "A6594",
+      "source_hash": "e857e01c1f645701b756b1e89493bf67f30dfac51e200ed03bdfd4337fdcf333",
+      "original": "通知编号和",
+      "corrected": "公告编号及日期",
+      "reason": "“고시번호 및 일자”是公告编号及日期。"
+    },
+    "A6594-zh-00028": {
+      "doc": "A6594",
+      "source_hash": "2a3ca270cf13cc6d88076110b4dca3640fab696466378e5e6768a45bf57356d2",
+      "original": "公告编号",
+      "corrected": "公告编号及日期",
+      "reason": "恢复公告编号及日期字段。"
+    },
+    "A6594-zh-00031": {
+      "doc": "A6594",
+      "source_hash": "5ec5b9c0b56f220613494121e7a0fca805677a1d3ac4767dace283603451d780",
+      "original": "胸高",
+      "corrected": "胸径",
+      "reason": "“흉고직경”是胸径。"
+    },
+    "A6594-zh-00032": {
+      "doc": "A6594",
+      "source_hash": "0383beaa281cb51eee1d2eb1e2c7ec33f7ceb3841b0a73d0e6f871dd92ba15ab",
+      "original": "每公顷",
+      "corrected": "每公顷",
+      "reason": "“ha당”是每公顷。"
+    },
+    "A6594-zh-00033": {
+      "doc": "A6594",
+      "source_hash": "d1feb61226ed7a0dc833cf88c5ef895cfa6d1d0678bc6f23ec466f2281309de3",
+      "original": "地面覆盖",
+      "corrected": "株数",
+      "reason": "“본수”是树木株数。"
+    },
+    "A6594-zh-00034": {
+      "doc": "A6594",
+      "source_hash": "0c6484ee1b2d94d01a3c0546764b919fc32d109b0f05c242da2958c40a87bfb9",
+      "original": "传输度量",
+      "corrected": "材积（㎥）",
+      "reason": "“재적”是立木材积，不是传输度量。"
+    },
+    "A6594-zh-00035": {
+      "doc": "A6594",
+      "source_hash": "6530a5348b9c420fb15215542b9d85808e5cd931a8cd6cde8a6ef2f44f0b8616",
+      "original": "操作",
+      "corrected": "地被状态",
+      "reason": "“지피상태”是地被状态。"
+    },
+    "A6596-zh-00003": {
+      "doc": "A6596",
+      "source_hash": "b3c81b0dc3a258aa5de77c43b784a625997e7795519e099be4b0e0afd6ed0197",
+      "original": "陆地位置",
+      "corrected": "土地所在地",
+      "reason": "“토지소재지”是土地所在地。"
+    },
+    "A6596-zh-00004": {
+      "doc": "A6596",
+      "source_hash": "3a4808ed60d42158802406eafc733fbd9e7ffe43cd87895e51d2d3991578a75a",
+      "original": "包裹编号",
+      "corrected": "地块编号",
+      "reason": "“지번”是地块编号。"
+    },
+    "A6596-zh-00005": {
+      "doc": "A6596",
+      "source_hash": "0fb62dae9c337ad5dd6bab92ebcf0d9d502dc6552868240654ae7c6342cac2be",
+      "original": "侵蚀控制区",
+      "corrected": "侵蚀控制区面积",
+      "reason": "“사방지 면적”是侵蚀控制区面积。"
+    },
+    "A6596-zh-00016": {
+      "doc": "A6596",
+      "source_hash": "4e2799552cb5b84b13e3b79619db6f6252baeac615b25041cb45d8ff7938144b",
+      "original": "项目成本",
+      "corrected": "工程费用",
+      "reason": "“사업비”是工程费用。"
+    },
+    "A6596-zh-00017": {
+      "doc": "A6596",
+      "source_hash": "898778f1314f2275f180d6c368e9a65de54a2036a59bab99de9c8cfb096907af",
+      "original": "管理成本",
+      "corrected": "管理费用",
+      "reason": "“관리비”是管理费用。"
+    },
+    "A6596-zh-00018": {
+      "doc": "A6596",
+      "source_hash": "2991f61ced07a61e82f4b66ec330b106efa81d6bd622bcfd0650e8a819554f9a",
+      "original": "其他",
+      "corrected": "其他费用",
+      "reason": "“기타”是其他费用。"
+    },
+    "A6596-zh-00020": {
+      "doc": "A6596",
+      "source_hash": "2b3276f136cb2aa4567d153062b369e1e1966f093ff4e4d866b3ed11c2d93031",
+      "original": "国家财政部",
+      "corrected": "国库",
+      "reason": "“국고”是国库，不是国家财政部。"
+    },
+    "A6596-zh-00021": {
+      "doc": "A6596",
+      "source_hash": "f297d4f024d93e122911bc8c9cc33b5f5508a146497aaab2460e81bc3ea7fbdb",
+      "original": "省级基金",
+      "corrected": "道库",
+      "reason": "“도비”是道级财政资金。"
+    },
+    "A6596-zh-00022": {
+      "doc": "A6596",
+      "source_hash": "83e256ef889a589a185d88fa645d52e117f2c4104a6ba4c79b04e6d9eea3e9f4",
+      "original": "县级资金",
+      "corrected": "郡库",
+      "reason": "“군비”是郡级财政资金。"
+    },
+    "A6596-zh-00024": {
+      "doc": "A6596",
+      "source_hash": "1e40adc06b23ec0669a9bacc16743dd2f4f233315c586b43d9b973e33fc27621",
+      "original": "位置",
+      "corrected": "职务",
+      "reason": "“직”是职务/职位。"
+    },
+    "A6596-zh-00025": {
+      "doc": "A6596",
+      "source_hash": "5aa32deffdf1362feb45b4aaf4a1945b15c91915f96194031e41bc759b5f2f97",
+      "original": "名称",
+      "corrected": "姓名",
+      "reason": "“성명”是姓名。"
     }
   },
   "edits": [
@@ -4796,11 +4992,11 @@
     },
     {
       "id": "A6594-zh-00010",
-      "text": "解除指定情况"
+      "text": "解除指定"
     },
     {
       "id": "A6594-zh-00011",
-      "text": "地况、林况"
+      "text": "地况及林况"
     },
     {
       "id": "A6594-zh-00013",
@@ -4808,7 +5004,7 @@
     },
     {
       "id": "A6594-zh-00015",
-      "text": "补偿情况"
+      "text": "补偿金"
     },
     {
       "id": "A6596-zh-00001",
@@ -4957,10 +5153,110 @@
     {
       "id": "B1-zh-00121",
       "text": "删除第22条之2及第22条之3。\n\n⑤至⑫省略\n\n"
+    },
+    {
+      "id": "A6594-zh-00003",
+      "text": "调查日期："
+    },
+    {
+      "id": "A6594-zh-00004",
+      "text": "调查人："
+    },
+    {
+      "id": "A6594-zh-00016",
+      "text": "（法条）"
+    },
+    {
+      "id": "A6594-zh-00018",
+      "text": "无偿让与措施"
+    },
+    {
+      "id": "A6594-zh-00021",
+      "text": "洞、里"
+    },
+    {
+      "id": "A6594-zh-00022",
+      "text": "地块编号"
+    },
+    {
+      "id": "A6594-zh-00023",
+      "text": "面积（㎡）"
+    },
+    {
+      "id": "A6594-zh-00024",
+      "text": "侵蚀控制工程种类"
+    },
+    {
+      "id": "A6594-zh-00026",
+      "text": "公告编号及日期"
+    },
+    {
+      "id": "A6594-zh-00028",
+      "text": "公告编号及日期"
+    },
+    {
+      "id": "A6594-zh-00031",
+      "text": "胸径"
+    },
+    {
+      "id": "A6594-zh-00033",
+      "text": "株数"
+    },
+    {
+      "id": "A6594-zh-00034",
+      "text": "材积（㎥）"
+    },
+    {
+      "id": "A6594-zh-00035",
+      "text": "地被状态"
+    },
+    {
+      "id": "A6596-zh-00003",
+      "text": "土地所在地"
+    },
+    {
+      "id": "A6596-zh-00004",
+      "text": "地块编号"
+    },
+    {
+      "id": "A6596-zh-00005",
+      "text": "侵蚀控制区面积"
+    },
+    {
+      "id": "A6596-zh-00016",
+      "text": "工程费用"
+    },
+    {
+      "id": "A6596-zh-00017",
+      "text": "管理费用"
+    },
+    {
+      "id": "A6596-zh-00018",
+      "text": "其他费用"
+    },
+    {
+      "id": "A6596-zh-00020",
+      "text": "国库"
+    },
+    {
+      "id": "A6596-zh-00021",
+      "text": "道库"
+    },
+    {
+      "id": "A6596-zh-00022",
+      "text": "郡库"
+    },
+    {
+      "id": "A6596-zh-00024",
+      "text": "职务"
+    },
+    {
+      "id": "A6596-zh-00025",
+      "text": "姓名"
     }
   ],
   "checked_rows": 523,
-  "corrected_rows": 442,
+  "corrected_rows": 467,
   "notes": "Initial source-grounded correction set after full Korean and available English source reading. Chinese sequential review continues; do not treat this as completion. Sequential review so far: B1 rows 1–122; B2 rows 1–70. Additional complete targeted passes: A29186 (43 rows) and B3 rows 1–24. 64 nonblank changed edits are saved; further Chinese rows and documents remain pending. No COMPLETE certification. All source-bound correction records are retained. Blank fragment deletions and no-change records are documented separately at review/zh/F-2223d4d89f9d838aec25-empty-edit-decisions-C05-20261109-0600.json. Full semantic coverage is complete for B1, B2, B3, A29186 and A6580; A29185 and all attached forms remain in partial/targeted review. Status remains IN_PROGRESS.",
   "coverage": {
     "total_rows": 1290,
