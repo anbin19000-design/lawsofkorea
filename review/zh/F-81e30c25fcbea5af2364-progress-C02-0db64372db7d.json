@@ -1,0 +1,73 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:0db64372db7d",
+  "status": "IN_PROGRESS",
+  "branch": "main",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "checked_rows": 3,
+  "checked_ids": [
+    "B1-zh-00035",
+    "A36424-zh-00003",
+    "A36425-zh-00052"
+  ],
+  "edits": [
+    {
+      "id": "B1-zh-00035",
+      "text": "第二十四条（智慧城市事业协议会）\n① 拟推进智慧城市建设事业等的地方自治团体负责人，为协商下列有关事业推进的事项，应当组建并运营智慧城市事业协议会（以下简称“协议会”）。<2015年12月29日、2017年3月21日修订>\n1. 有关实施计划的事项\n2. 有关智慧城市基础设施的管理、运营及筹措资金方案的事项\n3. 有关智慧城市基础设施移交与接管的事项\n4. 为顺利推进智慧城市建设事业，由总统令规定的其他事项\n② 协议会由下列人员组成，委员人数不得超过25人。<2012年5月23日、2017年3月21日修订>\n1. 有关行政机关的公务员\n2. 地方自治团体的公务员\n3. 事业实施者\n4. 城市规划或信息通信领域的专家\n5. 智慧城市建设事业对象地区的居民\n6. 智慧城市服务领域的专家\n③ 除第一款和第二款规定的事项外，协议会的组成、运营等所需事项，由有关地方自治团体的条例规定。\n\n",
+      "source_hash": "24cc691b164e0ec646a6e6a571fef424f96b9fdc2ec3261a2f1cc31ef0ff2604",
+      "target_id": "19bdd492a555aa689e9f77924301a277e0d95064d09630c11a9274656e260ba7"
+    },
+    {
+      "id": "A36424-zh-00003",
+      "text": "类别",
+      "source_hash": "d8ba487317ac4e370c544ff11fee92077c5dfe235d14d8d93e213e278685f7be",
+      "target_id": "XML:2657226"
+    },
+    {
+      "id": "A36425-zh-00052",
+      "text": "3个月",
+      "source_hash": "811f2cac7e1b9971cc17f7c24b0901accc169353ffd0d4f84ed010480f253ba9",
+      "target_id": "XML:2657308"
+    }
+  ],
+  "adjudications": [
+    {
+      "id": "B1-zh-00035",
+      "verdict": "RECONFIRM_PRIOR_CANDIDATE",
+      "reason": "한국어 제24조(스마트도시사업협의회)의 협의회 구성과 25명 이내 위원, 1~4호 및 1~6호 열거 내용이 기존 저장된 중국어 후보와 대조 일치. 원본 중국어 503자 중 한국어 문장 다수가 미번역되어 기존 파일 인덱스 25의 전부 번역된 후보를 보존.",
+      "prior_candidate_file_index": 25
+    },
+    {
+      "id": "A36424-zh-00003",
+      "verdict": "RECONFIRM_PRIOR_CANDIDATE",
+      "reason": "별표1 표 머리말 구분 → 类别, 다음 셀 指定要求와 연속. MTQ 표식 제거 후보 보존.",
+      "prior_candidate_file_index": 10
+    },
+    {
+      "id": "A36425-zh-00052",
+      "verdict": "RECONFIRM_PRIOR_CANDIDATE",
+      "reason": "별표2 업무정지 기준 시설기준 미달의 두 번째 기준 3개월 → 3个月, 첫 번째 1个月 셀 다음에 위치. MTQ 표식 제거 후보 보존.",
+      "prior_candidate_file_index": 11
+    }
+  ],
+  "english_status": {
+    "document_specific_english_missing": [
+      "A36424",
+      "A36425"
+    ],
+    "note": "English index is a fallback translation of the parent enforcement decree and not a direct row-by-row translation of the annexes."
+  },
+  "prior_progress": [
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-3d3a40a47c11.json",
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-f4da25255273.json",
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-8e24b13497c9.json"
+  ],
+  "note": "Three pre-existing candidates were rechecked against Korean source and annex cell sequence; DO NOT add three to new unique coverage. Prior candidate edits remain preserved. Full legal family review incomplete; no COMPLETE status."
+}
