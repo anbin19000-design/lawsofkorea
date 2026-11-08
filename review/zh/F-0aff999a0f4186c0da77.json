@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 298,
+    "correction_count": 306,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -2111,6 +2111,62 @@
       "original": "准备注册证书",
       "corrected": "拟稿、审批；制作登记证书",
       "reason": "별지 제1호서식 한국어 원문에 따른 명백한 용어·법령 인용·필수 신청문구 및 처리 절차 누락의 최소 교정."
+    },
+    "A34918-zh-00006": {
+      "doc": "A34918",
+      "source_hash": "9840d67e6200a873979c66d7911eb1d6b1122aeb10a008e83673eebff8a2f995",
+      "original": "商标",
+      "corrected": "营业标识",
+      "reason": "별지 제2·4호서식 한국어 원문 대조로 확인한 법령 조문번호·기간·문구 및 절차의 명백한 오류만 최소 교정."
+    },
+    "A34918-zh-00013": {
+      "doc": "A34918",
+      "source_hash": "397e6e10b0fbac759e4574a82da73b22d8139bd5f52a282623bd7b835eb70efe",
+      "original": "根据实施法令第5条第2款第4项的规定，信息披露声明已按上述规定登记。",
+      "corrected": "根据该法实施令第5条之二第4款，确认信息披露书已按上述内容登记。",
+      "reason": "별지 제2·4호서식 한국어 원문 대조로 확인한 법령 조문번호·기간·문구 및 절차의 명백한 오류만 최소 교정."
+    },
+    "A34918-zh-00014": {
+      "doc": "A34918",
+      "source_hash": "1ccf979ded1d55109a5947d93061c15e970cd10d42ff6e72c9fabfd21f091649",
+      "original": "I 证明。",
+      "corrected": "特此证明。",
+      "reason": "별지 제2·4호서식 한국어 원문 대조로 확인한 법령 조문번호·기간·문구 및 절차의 명백한 오류만 최소 교정."
+    },
+    "A34920-zh-00013": {
+      "doc": "A34920",
+      "source_hash": "a7ec95a06cb4a6ce74fac879dda1c1d1677c65a69f45ac0cbd6cc63e7594a71e",
+      "original": "更改注册20th",
+      "corrected": "变更登记20天",
+      "reason": "별지 제2·4호서식 한국어 원문 대조로 확인한 법령 조문번호·기간·문구 및 절차의 명백한 오류만 최소 교정."
+    },
+    "A34920-zh-00036": {
+      "doc": "A34920",
+      "source_hash": "ff4ef81080a8a8b4bac9f952f86c9acea506b1aab9b945aadb59ec2764cb5186",
+      "original": "任务管理器",
+      "corrected": "信息披露书业务负责人",
+      "reason": "별지 제2·4호서식 한국어 원문 대조로 확인한 법령 조문번호·기간·문구 및 절차의 명백한 오류만 최소 교정."
+    },
+    "A34920-zh-00047": {
+      "doc": "A34920",
+      "source_hash": "4f11326c708cd54db8b8c2095a16565b0c10457efea770a345117bce46c1d5ed",
+      "original": "第 6 节，上述信息披露声明 [",
+      "corrected": "第6款的规定，现就上述信息披露书办理[",
+      "reason": "별지 제2·4호서식 한국어 원문 대조로 확인한 법령 조문번호·기간·문구 및 절차의 명백한 오류만 최소 교정."
+    },
+    "A34920-zh-00086": {
+      "doc": "A34920",
+      "source_hash": "aef2c3e4ea31ea3eb1b82ac3ef7631fd87618e28138ec881c043a106a45e32cc",
+      "original": "我不会记下手机号码。",
+      "corrected": "不得填写代表人的个人手机号码。",
+      "reason": "별지 제2·4호서식 한국어 원문 대조로 확인한 법령 조문번호·기간·문구 및 절차의 명백한 오류만 최소 교정."
+    },
+    "A34920-zh-00096": {
+      "doc": "A34920",
+      "source_hash": "fe9016be8d288f93e8003e45b4abf0ee4ed7d2f49649387dcdde16ef0a265476",
+      "original": "注册证书变更",
+      "corrected": "拟稿、审批；登记证书变更事项",
+      "reason": "별지 제2·4호서식 한국어 원문 대조로 확인한 법령 조문번호·기간·문구 및 절차의 명백한 오류만 최소 교정."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -2176,7 +2232,8 @@
     "C05 6dfadf0508d4: annex A34914 and A34915 source-grounded 4 corrections; full Chinese semantic certification remains incomplete.",
     "C05 f2c254040744: Korean annex A34916 penalty-table comparison: 6 confirmed legal-citation and offense semantic corrections. Full Chinese semantic review uncompleted, status IN_PROGRESS.",
     "C05 f2c254040744 Annex5 further 6 distinct, source verified penalty schedule corrections. No final full row certification.",
-    "C05 16f5d26f374d: Annex A34917 Korean source checked; 6 concrete wording/citation/form workflow corrections. No full-family semantic certification."
+    "C05 16f5d26f374d: Annex A34917 Korean source checked; 6 concrete wording/citation/form workflow corrections. No full-family semantic certification.",
+    "C05 16f5d26f374d: continued annex A34918 and A34920 review; 8 source-grounded corrections. Chinese full semantic review remains incomplete."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -2185,5 +2242,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 298
+  "corrected_rows": 306
 }
