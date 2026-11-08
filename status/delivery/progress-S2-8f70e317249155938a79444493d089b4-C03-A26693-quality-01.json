@@ -1,0 +1,127 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26693",
+  "quality_batch": "A26693-quality-01",
+  "range": {
+    "first": "A26693-zh-00001",
+    "last": "A26693-zh-00010"
+  },
+  "quality_checked_rows": 10,
+  "quality_passed_rows": 10,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "A26693-zh-00001",
+    "A26693-zh-00002",
+    "A26693-zh-00003",
+    "A26693-zh-00004",
+    "A26693-zh-00005",
+    "A26693-zh-00006",
+    "A26693-zh-00007",
+    "A26693-zh-00008",
+    "A26693-zh-00009",
+    "A26693-zh-00010"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_files": [
+    "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26693-00001-00030.json",
+    "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-R1.json"
+  ],
+  "results": [
+    {
+      "id": "A26693-zh-00001",
+      "source_hash": "e55c2a0c62f743be97747ee01392c89c126986c3046cf6140f188d9ed8e526c4",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시행규칙 별지 제1호서식 명칭 및 법률명 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00002",
+      "source_hash": "088d9d86e7ac73eedae3399efe3e60bc4d3a5ea5adab8e3564aa47bd7d44657b",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "피해자 확인서 발급 신청서 제목 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00003",
+      "source_hash": "22173fd5a6f67b4f4ca78140fcd6be1de1f84a55922b02f5283b9c3d1b01d84d",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "어두운 셀 및 체크 표시 작성 지침 확인"
+    },
+    {
+      "id": "A26693-zh-00004",
+      "source_hash": "b6ef554c92c1ee06c5c51142ea35929d24f513f49937876ea1d846a0a7057648",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "앞쪽 표기 확인"
+    },
+    {
+      "id": "A26693-zh-00005",
+      "source_hash": "b736160e9f7f0d321a2b458369e87ad0a76a9b7c00b4454ad463a28ce8d1d95b",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "접수번호 항목 확인"
+    },
+    {
+      "id": "A26693-zh-00006",
+      "source_hash": "5a4e38a1578eaec376cc5e1ad28f33f019956fc98d46f14b142cad94c5b1d1a5",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "접수일시 항목 확인"
+    },
+    {
+      "id": "A26693-zh-00007",
+      "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "기존 R1의 처리기간 교정과 MTQ 제거 확인"
+    },
+    {
+      "id": "A26693-zh-00008",
+      "source_hash": "16aed32d67bc3f3c81c7d8236ac3ab4f70bb5585d4a2db7550a6fad3230ed59e",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "80일, 연장 시 110일 기간 수치 확인"
+    },
+    {
+      "id": "A26693-zh-00009",
+      "source_hash": "908a4e580f61c8b9fc1e72fd77eb535ab09436f33a18f8430d9daab506cd6d7e",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "피해자 구분 표기 확인"
+    },
+    {
+      "id": "A26693-zh-00010",
+      "source_hash": "9f96b8e22cc06bfafc548ef472e33b60548b190f17dbc04b1da176a50d2c6d2c",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "성명 표기와 기존 교정 확인"
+    }
+  ],
+  "edits": [],
+  "note": "서식 첫 10개 중국어 셀을 한국어 신청서 첫 페이지 및 기저장 교정 7건과 대조. A26693 7번의 MTQ 잔재 제거 교정도 보존. B3·A39474 기록 및 원본 데이터 불변. 전체 1136행 COMPLETE 아님."
+}
