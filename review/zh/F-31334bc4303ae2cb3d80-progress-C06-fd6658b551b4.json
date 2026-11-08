@@ -1,0 +1,123 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-31334bc4303ae2cb3d80",
+  "worker": "C06",
+  "task_id": "fd6658b551b4",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "d6d795ff1ece4a82663a83efd46f7f73afa7fbbb",
+    "en": "16e015facbcef00df95c985f816f47acf7bcfef7",
+    "zh": "7a6d1e8d841fb3b27185d6d4a6b811149d604dc0"
+  },
+  "review_path": "review/zh/F-31334bc4303ae2cb3d80.json",
+  "review_sha": "edafa87da8ec79939687f8c21a5c8f1f2f3965a3",
+  "prior_confirmed_edits": 576,
+  "updated_confirmed_edits": 588,
+  "additional_edit_rows": 12,
+  "document_count": 19,
+  "original_zh_rows": 1206,
+  "source_integrity": {
+    "ko_bodies_fully_structurally_spanned": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "source_zh_unique_ids": 1206,
+    "review_unknown_ids": 0,
+    "review_duplicate_ids": 0,
+    "unchanged_original_rows": 618,
+    "annex_form_hash_matched_cells": 853,
+    "numeric_cell_audit_flags": 63,
+    "number_flag_note": "Flags predominantly Chinese numerals vs Arabic numeric notation, not all violations; 10³/μL visually confirmed from original document."
+  },
+  "english_sources": [
+    {
+      "path": "documents/en/kr-011433-259305-en.json",
+      "version": "259305",
+      "body_sha256": "fab629c1f76033674452fa8d12b644476757d025da31f33f51cf22ac46ae9c6e",
+      "sha_verified": true
+    },
+    {
+      "path": "documents/en/kr-011662-275185-en.json",
+      "version": "275185",
+      "body_sha256": "02b2458db6d19c480a3723c2c9414effd66a260a7cb0c48151a0b1d665718168",
+      "sha_verified": true
+    },
+    {
+      "path": "documents/en/kr-011882-232789-en.json",
+      "version": "232789",
+      "body_sha256": "84f28349c061262bd38000e97bdf8b60bc28931099009efd15e606e42f47851b",
+      "sha_verified": true
+    }
+  ],
+  "english_exact_version_document_links": 4,
+  "english_fallback_version_document_links": 15,
+  "high_confidence_fixes": [
+    {
+      "ids": [
+        "B1-zh-00019",
+        "B1-zh-00034",
+        "B2-zh-00012",
+        "B2-zh-00024",
+        "A37295-zh-00141",
+        "A22630-zh-00032",
+        "A22630-zh-00040",
+        "A22640-zh-00052"
+      ],
+      "reason": "Remove unsupported 与安保 from original Chinese institution title while preserving context."
+    },
+    {
+      "ids": [
+        "B2-zh-00015"
+      ],
+      "reason": "전로(轉爐) is 转炉, not 转换器"
+    },
+    {
+      "ids": [
+        "B3-zh-00015"
+      ],
+      "reason": "업무개시일 means start of operations rather than incorporation date"
+    },
+    {
+      "ids": [
+        "B1-zh-00023"
+      ],
+      "reason": "Aviation immigration-related data corrected to actual 출입국 자료"
+    },
+    {
+      "ids": [
+        "B1-zh-00028",
+        "B2-zh-00016",
+        "B2-zh-00017",
+        "B2-zh-00018",
+        "B2-zh-00021",
+        "B2-zh-00023",
+        "B1-zh-00033"
+      ],
+      "reason": "유의물질 corrected from major/dangerous/important materials to 需关注物质"
+    },
+    {
+      "ids": [
+        "B1-zh-00037"
+      ],
+      "reason": "양벌규정 denotes dual punishment and 벌금 is criminal fine, not administrative 罚款"
+    },
+    {
+      "ids": [
+        "A22630-zh-00051",
+        "A22630-zh-00055"
+      ],
+      "reason": "폐업 is business termination, not temporary shutdown"
+    },
+    {
+      "ids": [
+        "B1-zh-00009"
+      ],
+      "reason": "Act Article 7 research and development project implementation by contracted institution"
+    }
+  ],
+  "protected_prior_adjudications": "Keep prior 21 candidates excluded and earlier no-change institutional name decisions. No original IDs/hashes or operational DB modified.",
+  "outstanding_validation": "Remaining 600+ unchanged Chinese rows and the full meaning of accumulated edits require final systematic Korean→English-where-same-version→Chinese review, including split annexes and numeric citations; automated structural and hash checks do not prove semantic completeness.",
+  "receipt_status": "NOT_ISSUED",
+  "note": "Saving IN_PROGRESS only. Do not use numeric/ID coverage as a proxy for full law-family semantic verification; do not issue COMPLETE receipt until all remaining semantic checks and source-version caveats are resolved."
+}
