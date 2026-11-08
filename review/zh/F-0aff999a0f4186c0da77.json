@@ -17,11 +17,11 @@
     "en": "laws/en/F-0aff999a0f4186c0da77.json",
     "zh": "laws/zh/F-0aff999a0f4186c0da77.json"
   },
-  "progress_path": "review/zh/F-0aff999a0f4186c0da77-progress-C05-382d0b9d5453-final-checkpoint.json",
+  "progress_path": "review/zh/F-0aff999a0f4186c0da77-progress-C05-2a1d790988cd.json",
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 80,
+    "correction_count": 82,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -585,6 +585,20 @@
       "original": "[指根据第十四条第一款第一项规定认定的关联方。下文亦适用] 其中，截至编制日期，[]",
       "corrected": "第14条第1款第1项规定的关联方；下同〕中，截至编制基准日，",
       "reason": "시행령 별표 1의 '같은 영 제14조제1항제1호에 따른 특수관계인 ... 이하 같다] 중 작성 기준일 현재'의 조문과 닫는 인용·기준일 표현을 복원하고 빈 [] 제거."
+    },
+    "B1-zh-00031": {
+      "doc": "B1",
+      "source_hash": "c6ac6d2eb0e26abd58bee6f3c05b1b4f05cf04c5e279667974699df6625e7073",
+      "original": "第十五条之二（特许经营经营者损害赔偿保险合同等）\n① 为补偿加盟商遭受的损失，特许人可订立下列任何一种合同（以下简称“加盟商损害赔偿保险合同等”）。<2012年2月17日修订>\n1. 根据《保险业务法》订立的保险合同\n2. 机构依据《金融服务委员会设立等法》第38条订立的债务支付担保合同，以保障特许经营经营者获得损害赔偿金\n3. 与依据第15-3条设立的互助协会签订互助合同\n根据加盟商损害赔偿保险合同等规定负有向加盟商支付损害赔偿义务的人，在发生赔偿事由时，应当立即支付赔偿金。如果延迟支付，应当支付延迟赔偿金。\n特许经营者如欲订立加盟商损害赔偿保险合同等，在提交销售收入等数据时，不得提交虚假数据，以订立加盟商损害赔偿保险合同等。\n④在订立加盟商损害赔偿保险合同等时，特许人应当确保赔偿水平足以补偿加盟商的损失。\n⑤ 已与加盟商签订损害赔偿保险合同等的特许人，可以使用表明该事实的标记。\n⑥ 未订立加盟商损害赔偿保险合同等的特许人，不得按照第5款使用商标，或制作、使用与其相似的商标。\n⑦特许经营商损害赔偿保险合同等其他必要事项，由总统令规定。\n\n",
+      "corrected": "第十五条之二（特许经营经营者损害赔偿保险合同等）\n① 为补偿加盟商遭受的损失，特许人可订立下列任何一种合同（以下简称“加盟商损害赔偿保险合同等”）。<2012年2月17日修订>\n1. 根据《保险业务法》订立的保险合同\n2. 机构依据《金融服务委员会设立等法》第38条订立的债务支付担保合同，以保障特许经营经营者获得损害赔偿金\n3. 与依据第15-3条设立的互助协会签订互助合同\n② 根据加盟商损害赔偿保险合同等规定负有向加盟商支付损害赔偿义务的人，在发生赔偿事由时，应当立即支付赔偿金。如果延迟支付，应当支付延迟赔偿金。\n③ 特许经营者如欲订立加盟商损害赔偿保险合同等，在提交销售收入等数据时，不得提交虚假数据，以订立加盟商损害赔偿保险合同等。\n④在订立加盟商损害赔偿保险合同等时，特许人应当确保赔偿水平足以补偿加盟商的损失。\n⑤ 已与加盟商签订损害赔偿保险合同等的特许人，可以使用表明该事实的标记。\n⑥ 未订立加盟商损害赔偿保险合同等的特许人，不得按照第5款使用商标，或制作、使用与其相似的商标。\n⑦特许经营商损害赔偿保险合同等其他必要事项，由总统令规定。\n\n",
+      "reason": "韩文原文第15条之2第②、③款序号在中文译文中遗漏，补回原有款号。"
+    },
+    "B1-zh-00036": {
+      "doc": "B1",
+      "source_hash": "e499639b20e6d3b3e40f0a3c1d53e0bc05ea5c2535ca7b7961ce7f452ab2149a",
+      "original": "第十七条（理事会的组成）\n① 理事会由九名成员组成，其中一名为主席。\n② 成员应分为代表公众利益的成员、代表特许人利益的成员和代表被特许人利益的成员，每类成员人数相等。\n③ 调解中心理事会成员（以下简称“调解中心理事会”）由调解中心主任根据下列各款规定，由公平交易委员会主席委任或任命；市/省理事会成员（以下简称“市/省理事会”）由市/省长根据下列各款规定，由该市/省长委任或任命。<2005年12月29日、2007年8月3日、2018年3月27日、2023年8月8日修订>\n1. 在大学主修法律、经济学或工商管理，并根据高等教育法第2条第1款、第2款或第5款在学校或认可的研究机构担任或曾经担任副教授或以上职位，或同等职位的人。\n2. 现任或曾任法官或检察官的人员，或具有律师资格的人员\n3. 担任或曾担任4级或以上公职人员（包括高级公务员）且具有反垄断和公平贸易事务经验的人员\n4. 一位在特许经营业务交易和纠纷调解方面拥有丰富知识和经验的人士\n4. 调解委员会主席由公平交易委员会主席从代表公众利益的成员中任命，市/省调解委员会主席由市/省长从代表公众利益的成员中任命或委任。在此情况下，调解委员会主席应为常任委员。<2007年8月3日、2018年3月27日、2023年8月8日修订>\n⑤成员任期为三年，可连任。\n6. 成员出现空缺时，应当按照第3款的规定任命一名替补成员，该替补成员的任期为原成员的剩余任期。\n调解委员会主席除履行公务外，不得从事任何营利性商业活动。<新增于 2024.1.2>\n⑧ 关于以营利为目的的业务范围，根据《公共机构运营法》第三十七条第七款的规定，参照适用第三款。<新增于2024年1月2日>\n调解委员会主席可同时从事非营利活动，但须由公平交易委员会主席审查该等活动是否构成第8款所指的营利活动。<2024年1月2日新增>\n\n",
+      "corrected": "第十七条（调解委员会的组成）\n① 调解委员会由九名成员组成，其中一名为主席。\n② 成员应分为代表公众利益的成员、代表特许人利益的成员和代表被特许人利益的成员，每类成员人数相等。\n③ 调解中心调解委员会成员（以下简称“调解中心调解委员会”）由调解中心主任根据下列各款规定，由公平交易委员会主席委任或任命；市/省调解委员会成员（以下简称“市/省调解委员会”）由市/省长根据下列各款规定，由该市/省长委任或任命。<2005年12月29日、2007年8月3日、2018年3月27日、2023年8月8日修订>\n1. 在大学主修法律、经济学或工商管理，并根据高等教育法第2条第1款、第2款或第5款在学校或认可的研究机构担任或曾经担任副教授或以上职位，或同等职位的人。\n2. 现任或曾任法官或检察官的人员，或具有律师资格的人员\n3. 担任或曾担任4级或以上公职人员（包括高级公务员）且具有反垄断和公平贸易事务经验的人员\n4. 一位在特许经营业务交易和纠纷调解方面拥有丰富知识和经验的人士\n④ 调解委员会主席由公平交易委员会主席从代表公众利益的成员中任命，市/省调解委员会主席由市/省长从代表公众利益的成员中任命或委任。在此情况下，调解委员会主席应为常任委员。<2007年8月3日、2018年3月27日、2023年8月8日修订>\n⑤成员任期为三年，可连任。\n6. 成员出现空缺时，应当按照第3款的规定任命一名替补成员，该替补成员的任期为原成员的剩余任期。\n调解委员会主席除履行公务外，不得从事任何营利性商业活动。<新增于 2024.1.2>\n⑧ 关于以营利为目的的业务范围，根据《公共机构运营法》第三十七条第三款的规定，准用该款。<新增于2024年1月2日>\n调解委员会主席可同时从事非营利活动，但须由公平交易委员会主席审查该等活动是否构成第8款所指的营利活动。<2024年1月2日新增>\n\n",
+      "reason": "原文第17条“협의회”为纠纷调解委员会而非理事会；第⑧款准用《公共机构运营法》第37条第3款，修复错误引用及第④款款号。"
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -623,7 +637,8 @@
     "C05 fae2c4774c60: A34909-zh-00017 disclaimer truth-verification statement repaired against Korean annex 1; previous 71 edits preserved; semantic review incomplete.",
     "C05 0d34f96333ad: annex A34909 rows 37, 46, 47 Korean-source-grounded correction of three-year affiliation scope and financial alternative evidence; previous 72 preserved; complete semantic review remains outstanding.",
     "C05 3b88121742c9: restored mandatory designated-counterparty trading clause A34912-zh-00062 and escrow request/payout conditions A34924-zh-00055/56 against Korean originals; earlier 75 preserved; whole-family Chinese semantic review remains incomplete.",
-    "C05 b5904ba631e7: annex A34909 definition cross-references rows 29/30 corrected from KO; previous 78 preserved. Semantic Chinese full audit incomplete."
+    "C05 b5904ba631e7: annex A34909 definition cross-references rows 29/30 corrected from KO; previous 78 preserved. Semantic Chinese full audit incomplete.",
+    "C05 2a1d790988cd: source-aligned B1 Article 15-2 missing paragraph markers and Article 17 council terminology/statutory citation repaired; full 1687-row semantic audit remains incomplete."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -632,5 +647,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 80
+  "corrected_rows": 82
 }
