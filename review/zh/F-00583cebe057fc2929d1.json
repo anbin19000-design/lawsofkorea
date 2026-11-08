@@ -22,7 +22,7 @@
     "total_rows": 1374,
     "distinct_rows": 1374,
     "correction_count": 347,
-    "pending_rows": 86,
+    "pending_rows": 28,
     "by_document": {
       "B1": {
         "total": 196,
@@ -37,7 +37,7 @@
       "A29604": {
         "total": 63,
         "corrected": 37,
-        "pending": 58
+        "pending": 0
       },
       "B3": {
         "total": 117,
@@ -2579,11 +2579,6 @@
   },
   "mapping_issues": [
     {
-      "doc": "A29604",
-      "status": "ANNEX_ALIGNMENT_REQUIRED",
-      "note": "ANNEX rows lack start/end offsets; compare entire original annex against target rows before final judgment."
-    },
-    {
       "doc": "A8690",
       "status": "FORM_ALIGNMENT_REQUIRED",
       "note": "509 form rows have null source offsets; original KO form 41859 chars. Align sections/text before full verification."
@@ -2656,5 +2651,394 @@
     }
   ],
   "english_note": "A29604 별표는 영어 family descriptor에서 공식 영문 문서 연결은 확인되나, 해당 영문 full_text는 시행령 조문 본문까지만 제공하고 별표 본문을 포함하지 않음. 별표는 한국어 원문과 중국어를 직접 대조하여 검수.",
-  "notes": "기존 번역과 원본은 변경하지 않음. 명백한 교정문만 누적. SOURCE_MAPPING_REVIEW_REQUIRED/SOURCE_LEGIBILITY_REVIEW_REQUIRED/ANNEX_ALIGNMENT_REVIEW_REQUIRED 판정 잔존. 전수 검증·완료 영수증 미발행. 2026-11-08 C05: 별표 3개 행의 명백한 오역만 추가 교정, 원문 대응 미해결은 그대로 보류. 2026-11-08 C05-0888152c0192: 별표의 명백한 항목번호·근거법조문·기관·범위 오역 9건 추가, 다른 검수 결과와 기존 보류 사유 유지. 2026-11-08 C05 0888152c0192: 별표 금액 증감의 법적 의미와 조건절 명백한 오역 5건 교정. C05 d135b2575b59: 별표에서 원문과 직접 대응되는 조건절 3건만 추가 교정. 전체 독해 및 판독 보류는 유지. C05 9581ef2c8567: B3 제10조의3·제11조 내 한국어 잔존 구절 번역 보완; 현행 KO 원문 대응 확인, 구판 EN 참조 제한, 완결 보류. C05 df32fefacf17: 시행규칙 현행 한국어 원문 대조 후 신규 6개 행 최소교정; 원본·기존 보류 유지. C05 df32fefacf17: 시행규칙 제7조·제12조 명백한 자격·허용조항 역전 및 기관명 교정. C05 d8d567b9d025: 시행규칙 제13조의5 기한·준용조문 및 기관명 근거 확인 후 국소 교정. C05 d8d567b9d025: 제17조 서류 미첨부 요건 및 고안 개념 오역 교정. C05 31b3e20e09f7: 시행규칙 부칙에 원문과 다르게 축소된 절차 범위 및 신고 명칭 최소교정 2행. C05 0e95778b2a23: 시행규칙 부칙 2개 행의 정당한 권리자 요건 누락 최소 교정. 남은 근거·판독 보류 유지. C05 c3a6d5974e05: 시행규칙 부칙 시행일·제17조 인용·전단 범위 명백한 오역 3건 누적, 원문 및 이전 교정 유지. C05 e869380ff933: 시행규칙 부칙 3행의 고안자 오역, 2025 기관개편 조문 누락·손상, 영문 치환문 원형 복원. C05 a0e4cf6f4506: 시행령의 출원·청구, 우선심사 및 특허심판 기관 관련 3행 명백 오역 최소교정. C05 a0e4cf6f4506 이어서: 시행령 6조의2 조문·조건 오류 정정 3행. C05 394b8dc2463f: 시행령 3개 행의 선택적 인용 청구항 기재요건·준용 근거·과태료 부과 용어 오류만 최소 교정.\n2026-11-08 C05 03da842f359c: B1-zh-00043의 제22조의2 인용 오역 1건 최소 교정. 전체 순차 독해 확인 및 보류 89행은 미완료.\n2026-11-08 C05 842852caeecc: B1-zh-00027·00047 원문 대조 후 준용법조문 및 국제출원서·고안 용어 명백 오역 2행 최소교정. 전체 독해/보류는 미완료.\n2026-11-08 C05 842852caeecc 추가: B1-zh-00040 기관명 및 실용신안공보 매체 오역 최소 교정.\n2026-11-08 C05 cb41895c2c0c: 실용신안법 제14조 각하결정 및 제7장 심판·재심 용어의 명백한 오역 2행 최소 교정; 기존 SHA와 교정 보존. 전체 순차 독해와 보류 89행 미완료.\n2026-11-08 C05 cb41895c2c0c 이어서: 제24조제3호 '출원시부터'의 계속 요건 누락 1행 추가 교정.\n2026-11-08 C05 c23ade476ec7: 제16조 등록료 납부 기준일과 제32조 심판/공탁 의미 오역 2행 최소 교정. 원문 SHA 불변, 기존 검수·보류 보존. 전체 순차독해 확인 전.\n2026-11-08 C05 307f413dd41c: 제29조 '업으로서'의 영리 목적 제한 오역 1행 최소 교정, 동일 버전 공식 영어 대조. 기존 227개 교정 및 원문 SHA 보존. 전수 독해/보류 89행 미완료.\n2026-11-08 C05 bfa4f11b6ced: B1 제45조·제49조의2·제52조·부칙 제2조 4행 원문 및 공식 영문 대조 최소교정. 기저장 228건과 source SHA 유지. 전체 독해·기존 보류 89행 검증 미완료.\n2026-11-08 C05 9c81658b7180: 제51조의 피해자청구 조건 적용범위, 부칙 제5조 심판/재심의 법적 용어 오역 2행 최소 교정. 기존 SHA/232건 보존. 전수 독해 및 89행 보류 미완료.\n2026-11-08 C05 1ca6b7fbd069: 부칙의 전용실시권 및 최초 출원부터의 적용시점 3행 최소 교정. 원문 SHA 및 기존 234건 보존. 89행 보류와 전체 순차 독해 미해결.\n2026-11-08 C05 d68de1356603: 부칙 제8조 심판절차 및 부칙 제7조 설정등록 요건 오역 2행 정정, 원문 SHA와 기저장 교정 유지; 전체 순차 독해 및 판독 보류 미완료.\n2026-11-08 C05 7f9ca8aea381: 법률 부칙 제14~16·21조의 각하/심판·거절결정·선출원 오역 4행 최소교정. 이전 SHA 및 239건 유지. 전체 가족 전수 검증·보류 89행은 미완료.\n2026-11-08 C05 4a688247699a: B1 부칙 제2023년 참고인 및 특허심판원, 2024년 제20200호 법률명 2행 최소 교정. 원문 SHA 및 기존 243 교정 보존. 전체 독해와 89행 보류 미해결.\n2026-11-08 C05 3278e94f0d41: 시행령 부칙 제2조 우선심사/변경출원·정당한 권리자 의미 오역 2행 교정. 245건 기저장·원문 SHA 보존. 89행 판독보류 및 전체 독해 미완료.\n2026-11-08 C05 9c28c0edd8e9: 시행령 부칙 B2-zh-00058/00062/00067 3행의 목 번호, 법조문 각 호 및 우선심사 명백 오역만 최소 수정. 원문 SHA 및 기존 247건 보존. FULL KO/EN/ZH 순차 독해 증거 및 보류 89행 미해결.\n2026-11-08 C05 7c2ac4c57d06: 시행령 2024년 부칙 B2-zh-00069·00071에서 '벤처기업육성에 관한 특별법/특별조치법'을 '창업기업 촉진'으로 오역한 법령명만 국소 교정. 기저장 250건, 원문 SHA 및 보류 89행 보존. 전체 KO→EN→ZH 독해 증거 미완료.\nC05 7c2ac4c57d06 추가: B2-zh-00071 제5조제5호 인용의 '款'을 '项'으로 교정.\n2026-11-08 C05 54c1e5f0a640: B2-zh-00068 법 제3조 준용 출처·심판 청구기간·나목 인용 오류 추가 교정, B2-zh-00075 제2조 및 제3조 표기 누락 교정. 기존 252개 교정 및 89행 보류 보존. 가족 전체 순차 독해 및 검증 미완료.\n2026-11-08 C05 5e20b1ea4cf0: B2-zh-00073 시행령 2024년 부칙 제목 '부칙'의 '补充文件' 오역을 '附则'로 교정. 기존 253건, 원문 SHA 및 보류 89행 보존. KO/EN/ZH 전 문서 순차 독해와 보류 해소는 미완료.\n2026-11-08 C05 f9495c693ec0: B1-zh-00150/00158 부칙 제목 및 생략 조문 인용 명백 오류 2건을 현행 한국어 원문과 직접 대조 후 최소 교정. 기존 교정, 89행 보류, KO/EN/ZH 원문 SHA 보존. 전체 문서 독해·보류 최종 해결 미완료.\n2026-11-08 C05 fec8ca299648: 법률 부칙 B1-zh-00156/00161/00166/00171 및 시행규칙 부칙 B3-zh-00076/00081/00103의 제목 '부칙' 오역 7행만 한국어 원문과 대조·교정. 기존 256건 및 89행 보류, 원문 SHA 유지; 법령가족 전체 순차 독해와 최종 인증 미완료.\n2026-11-08 C05 fdcb2b67ec27: 법률 부칙 B1-zh-00115/00117/00118/00133/00134에 공포된 특허법 일부개정법률을 법안(法案)으로 잘못 기재한 오역 5건 최소 수정. 동일 원문 SHA, 기존 263건·89행 보류 유지. 전체 KO/EN/ZH 연속 독해 및 최종 인증 미완료.\n2026-11-08 C05 25bc81b0cf7e: 법률 부칙 B1-zh-00120/00131/00141에서 공포된 법률 번호를 '法案'으로 표시한 오역 및 제137조제3항 후단 위치 역전만 최소 교정. 기저장 268건·원문 SHA·89행 보류 보존; 가족 전체 KO/EN/ZH 독해 증거 미완료.\n2026-11-08 C05 a8b9e08d24f6: 기존 B1-zh-00141의 법률 제14035호 특허법 제133조의2제4항 전단/후단·제5항 인용 계층 오류만 추가 보정. 기존 271개 교정과 89행 보류 유지. 전 문서 전체 순차 독해 증거 미완료.\n2026-11-08 C05 9a14f72ce625: 원문 offset과 직접 대응하는 B1/B2/B3의 잔여 부칙 제목 59행(한국어 '부칙' 대 중국어 '补充规定/增补')을 '附则'로 최소 교정. 기존 271건, 원문 SHA 및 89행 보류 보존. 전체 문서 순차 독해/최종 검증은 미완료.\n2026-11-08 C05 40c8794e5e8d: B1-zh-00137/00145의 공포된 법률 제14035호를 '法'으로 축약하거나 법률명 표기를 불완전하게 옮긴 부분 2건 최소 교정. 기존 330건, SHA 및 89행 보류 보존. 전체 KO/EN/ZH 순차 독해와 최종 인증 미완료.\n2026-11-08 C05 d07c2a37d912: 기존 B3-zh-00006 교정문에서 제3항의 법 제8조의3제6항을 《专利法》으로 둔 잔존 오기를 《实用新型法》으로 수정. 신규 행 수는 변동 없음. C05 dec9e5621204: B3-zh-00117의 원문 끝 경계(23829~23873)를 확인하여 시행규칙 부칙 내용만 남기고 다음 문서 A8690 출원서가 혼입된 범위를 제거. B3의 pending 1건 해소, 원본 SHA 보존. C05 dec9e5621204 추가: B2-zh-00081의 한국어 원문 경계(16647~17073)와 정확히 대조하여 시행령 개정 부칙 다섯 문단 및 생략 조항만 남기고 별표 A29604 내용의 혼입을 제거. 기관명·개정 대상 조문 오역 교정. B2 보류 1건 해소. C05 25374f7faca7: A29604 별표 일반기준 1(a) 및 1(d), 표의 정당한 사유 표현을 한국어 별표 전체와 대조하여 5행 최소 교정. 남은 표 구조/행 경계 판독 보류는 유지. C05 25374f7faca7 이어서: 출원서 A8690-zh-00499의 JPEG 영문명 분절을 앞뒤 행과 한국어 원문으로 대조해 오역 '待办' 제거. 500행 PDF 항목 번호, 501행 다음 항목 표지·본문, 503행 누락된 작성 유의사항 제목을 최소 보완. 개별 조각 보류 해소, 전체 서식 구조 정렬 보류는 유지. C05 f61defa2c380: 과태료 별표 1.다·라의 한국어 원문 줄바꿈을 반영해 체납자 감경 제외 및 감경·가중 사유의 조건절 분절 10행을 최소 교정. 표 구조 전체 정렬 및 원문 손상 서식 보류는 계속. C05 147ef9f05ba3: 별표 일반기준 다목의 항목 표지, 체납자 감경 제외 문장, 법 위반상태 시정·해소 노력 조건절의 잔여 오역 4행 추가 교정. C05 fc0b53145954: 별표 일반기준 나목 적용요건·위반횟수 기산일, 다목 제4호 조건절 및 개별기준 다목 소환 불응 표현을 한국어 원문과 대조해 4행 최소 교정. 영문 별표 본문은 연결된 영문 full_text에서 제공되지 않아 한국어 원문과 중국어 직접 대조로 검수 중임을 명시."
+  "notes": "기존 번역과 원본은 변경하지 않음. 명백한 교정문만 누적. SOURCE_MAPPING_REVIEW_REQUIRED/SOURCE_LEGIBILITY_REVIEW_REQUIRED/ANNEX_ALIGNMENT_REVIEW_REQUIRED 판정 잔존. 전수 검증·완료 영수증 미발행. 2026-11-08 C05: 별표 3개 행의 명백한 오역만 추가 교정, 원문 대응 미해결은 그대로 보류. 2026-11-08 C05-0888152c0192: 별표의 명백한 항목번호·근거법조문·기관·범위 오역 9건 추가, 다른 검수 결과와 기존 보류 사유 유지. 2026-11-08 C05 0888152c0192: 별표 금액 증감의 법적 의미와 조건절 명백한 오역 5건 교정. C05 d135b2575b59: 별표에서 원문과 직접 대응되는 조건절 3건만 추가 교정. 전체 독해 및 판독 보류는 유지. C05 9581ef2c8567: B3 제10조의3·제11조 내 한국어 잔존 구절 번역 보완; 현행 KO 원문 대응 확인, 구판 EN 참조 제한, 완결 보류. C05 df32fefacf17: 시행규칙 현행 한국어 원문 대조 후 신규 6개 행 최소교정; 원본·기존 보류 유지. C05 df32fefacf17: 시행규칙 제7조·제12조 명백한 자격·허용조항 역전 및 기관명 교정. C05 d8d567b9d025: 시행규칙 제13조의5 기한·준용조문 및 기관명 근거 확인 후 국소 교정. C05 d8d567b9d025: 제17조 서류 미첨부 요건 및 고안 개념 오역 교정. C05 31b3e20e09f7: 시행규칙 부칙에 원문과 다르게 축소된 절차 범위 및 신고 명칭 최소교정 2행. C05 0e95778b2a23: 시행규칙 부칙 2개 행의 정당한 권리자 요건 누락 최소 교정. 남은 근거·판독 보류 유지. C05 c3a6d5974e05: 시행규칙 부칙 시행일·제17조 인용·전단 범위 명백한 오역 3건 누적, 원문 및 이전 교정 유지. C05 e869380ff933: 시행규칙 부칙 3행의 고안자 오역, 2025 기관개편 조문 누락·손상, 영문 치환문 원형 복원. C05 a0e4cf6f4506: 시행령의 출원·청구, 우선심사 및 특허심판 기관 관련 3행 명백 오역 최소교정. C05 a0e4cf6f4506 이어서: 시행령 6조의2 조문·조건 오류 정정 3행. C05 394b8dc2463f: 시행령 3개 행의 선택적 인용 청구항 기재요건·준용 근거·과태료 부과 용어 오류만 최소 교정.\n2026-11-08 C05 03da842f359c: B1-zh-00043의 제22조의2 인용 오역 1건 최소 교정. 전체 순차 독해 확인 및 보류 89행은 미완료.\n2026-11-08 C05 842852caeecc: B1-zh-00027·00047 원문 대조 후 준용법조문 및 국제출원서·고안 용어 명백 오역 2행 최소교정. 전체 독해/보류는 미완료.\n2026-11-08 C05 842852caeecc 추가: B1-zh-00040 기관명 및 실용신안공보 매체 오역 최소 교정.\n2026-11-08 C05 cb41895c2c0c: 실용신안법 제14조 각하결정 및 제7장 심판·재심 용어의 명백한 오역 2행 최소 교정; 기존 SHA와 교정 보존. 전체 순차 독해와 보류 89행 미완료.\n2026-11-08 C05 cb41895c2c0c 이어서: 제24조제3호 '출원시부터'의 계속 요건 누락 1행 추가 교정.\n2026-11-08 C05 c23ade476ec7: 제16조 등록료 납부 기준일과 제32조 심판/공탁 의미 오역 2행 최소 교정. 원문 SHA 불변, 기존 검수·보류 보존. 전체 순차독해 확인 전.\n2026-11-08 C05 307f413dd41c: 제29조 '업으로서'의 영리 목적 제한 오역 1행 최소 교정, 동일 버전 공식 영어 대조. 기존 227개 교정 및 원문 SHA 보존. 전수 독해/보류 89행 미완료.\n2026-11-08 C05 bfa4f11b6ced: B1 제45조·제49조의2·제52조·부칙 제2조 4행 원문 및 공식 영문 대조 최소교정. 기저장 228건과 source SHA 유지. 전체 독해·기존 보류 89행 검증 미완료.\n2026-11-08 C05 9c81658b7180: 제51조의 피해자청구 조건 적용범위, 부칙 제5조 심판/재심의 법적 용어 오역 2행 최소 교정. 기존 SHA/232건 보존. 전수 독해 및 89행 보류 미완료.\n2026-11-08 C05 1ca6b7fbd069: 부칙의 전용실시권 및 최초 출원부터의 적용시점 3행 최소 교정. 원문 SHA 및 기존 234건 보존. 89행 보류와 전체 순차 독해 미해결.\n2026-11-08 C05 d68de1356603: 부칙 제8조 심판절차 및 부칙 제7조 설정등록 요건 오역 2행 정정, 원문 SHA와 기저장 교정 유지; 전체 순차 독해 및 판독 보류 미완료.\n2026-11-08 C05 7f9ca8aea381: 법률 부칙 제14~16·21조의 각하/심판·거절결정·선출원 오역 4행 최소교정. 이전 SHA 및 239건 유지. 전체 가족 전수 검증·보류 89행은 미완료.\n2026-11-08 C05 4a688247699a: B1 부칙 제2023년 참고인 및 특허심판원, 2024년 제20200호 법률명 2행 최소 교정. 원문 SHA 및 기존 243 교정 보존. 전체 독해와 89행 보류 미해결.\n2026-11-08 C05 3278e94f0d41: 시행령 부칙 제2조 우선심사/변경출원·정당한 권리자 의미 오역 2행 교정. 245건 기저장·원문 SHA 보존. 89행 판독보류 및 전체 독해 미완료.\n2026-11-08 C05 9c28c0edd8e9: 시행령 부칙 B2-zh-00058/00062/00067 3행의 목 번호, 법조문 각 호 및 우선심사 명백 오역만 최소 수정. 원문 SHA 및 기존 247건 보존. FULL KO/EN/ZH 순차 독해 증거 및 보류 89행 미해결.\n2026-11-08 C05 7c2ac4c57d06: 시행령 2024년 부칙 B2-zh-00069·00071에서 '벤처기업육성에 관한 특별법/특별조치법'을 '창업기업 촉진'으로 오역한 법령명만 국소 교정. 기저장 250건, 원문 SHA 및 보류 89행 보존. 전체 KO→EN→ZH 독해 증거 미완료.\nC05 7c2ac4c57d06 추가: B2-zh-00071 제5조제5호 인용의 '款'을 '项'으로 교정.\n2026-11-08 C05 54c1e5f0a640: B2-zh-00068 법 제3조 준용 출처·심판 청구기간·나목 인용 오류 추가 교정, B2-zh-00075 제2조 및 제3조 표기 누락 교정. 기존 252개 교정 및 89행 보류 보존. 가족 전체 순차 독해 및 검증 미완료.\n2026-11-08 C05 5e20b1ea4cf0: B2-zh-00073 시행령 2024년 부칙 제목 '부칙'의 '补充文件' 오역을 '附则'로 교정. 기존 253건, 원문 SHA 및 보류 89행 보존. KO/EN/ZH 전 문서 순차 독해와 보류 해소는 미완료.\n2026-11-08 C05 f9495c693ec0: B1-zh-00150/00158 부칙 제목 및 생략 조문 인용 명백 오류 2건을 현행 한국어 원문과 직접 대조 후 최소 교정. 기존 교정, 89행 보류, KO/EN/ZH 원문 SHA 보존. 전체 문서 독해·보류 최종 해결 미완료.\n2026-11-08 C05 fec8ca299648: 법률 부칙 B1-zh-00156/00161/00166/00171 및 시행규칙 부칙 B3-zh-00076/00081/00103의 제목 '부칙' 오역 7행만 한국어 원문과 대조·교정. 기존 256건 및 89행 보류, 원문 SHA 유지; 법령가족 전체 순차 독해와 최종 인증 미완료.\n2026-11-08 C05 fdcb2b67ec27: 법률 부칙 B1-zh-00115/00117/00118/00133/00134에 공포된 특허법 일부개정법률을 법안(法案)으로 잘못 기재한 오역 5건 최소 수정. 동일 원문 SHA, 기존 263건·89행 보류 유지. 전체 KO/EN/ZH 연속 독해 및 최종 인증 미완료.\n2026-11-08 C05 25bc81b0cf7e: 법률 부칙 B1-zh-00120/00131/00141에서 공포된 법률 번호를 '法案'으로 표시한 오역 및 제137조제3항 후단 위치 역전만 최소 교정. 기저장 268건·원문 SHA·89행 보류 보존; 가족 전체 KO/EN/ZH 독해 증거 미완료.\n2026-11-08 C05 a8b9e08d24f6: 기존 B1-zh-00141의 법률 제14035호 특허법 제133조의2제4항 전단/후단·제5항 인용 계층 오류만 추가 보정. 기존 271개 교정과 89행 보류 유지. 전 문서 전체 순차 독해 증거 미완료.\n2026-11-08 C05 9a14f72ce625: 원문 offset과 직접 대응하는 B1/B2/B3의 잔여 부칙 제목 59행(한국어 '부칙' 대 중국어 '补充规定/增补')을 '附则'로 최소 교정. 기존 271건, 원문 SHA 및 89행 보류 보존. 전체 문서 순차 독해/최종 검증은 미완료.\n2026-11-08 C05 40c8794e5e8d: B1-zh-00137/00145의 공포된 법률 제14035호를 '法'으로 축약하거나 법률명 표기를 불완전하게 옮긴 부분 2건 최소 교정. 기존 330건, SHA 및 89행 보류 보존. 전체 KO/EN/ZH 순차 독해와 최종 인증 미완료.\n2026-11-08 C05 d07c2a37d912: 기존 B3-zh-00006 교정문에서 제3항의 법 제8조의3제6항을 《专利法》으로 둔 잔존 오기를 《实用新型法》으로 수정. 신규 행 수는 변동 없음. C05 dec9e5621204: B3-zh-00117의 원문 끝 경계(23829~23873)를 확인하여 시행규칙 부칙 내용만 남기고 다음 문서 A8690 출원서가 혼입된 범위를 제거. B3의 pending 1건 해소, 원본 SHA 보존. C05 dec9e5621204 추가: B2-zh-00081의 한국어 원문 경계(16647~17073)와 정확히 대조하여 시행령 개정 부칙 다섯 문단 및 생략 조항만 남기고 별표 A29604 내용의 혼입을 제거. 기관명·개정 대상 조문 오역 교정. B2 보류 1건 해소. C05 25374f7faca7: A29604 별표 일반기준 1(a) 및 1(d), 표의 정당한 사유 표현을 한국어 별표 전체와 대조하여 5행 최소 교정. 남은 표 구조/행 경계 판독 보류는 유지. C05 25374f7faca7 이어서: 출원서 A8690-zh-00499의 JPEG 영문명 분절을 앞뒤 행과 한국어 원문으로 대조해 오역 '待办' 제거. 500행 PDF 항목 번호, 501행 다음 항목 표지·본문, 503행 누락된 작성 유의사항 제목을 최소 보완. 개별 조각 보류 해소, 전체 서식 구조 정렬 보류는 유지. C05 f61defa2c380: 과태료 별표 1.다·라의 한국어 원문 줄바꿈을 반영해 체납자 감경 제외 및 감경·가중 사유의 조건절 분절 10행을 최소 교정. 표 구조 전체 정렬 및 원문 손상 서식 보류는 계속. C05 147ef9f05ba3: 별표 일반기준 다목의 항목 표지, 체납자 감경 제외 문장, 법 위반상태 시정·해소 노력 조건절의 잔여 오역 4행 추가 교정. C05 fc0b53145954: 별표 일반기준 나목 적용요건·위반횟수 기산일, 다목 제4호 조건절 및 개별기준 다목 소환 불응 표현을 한국어 원문과 대조해 4행 최소 교정. 영문 별표 본문은 연결된 영문 full_text에서 제공되지 않아 한국어 원문과 중국어 직접 대조로 검수 중임을 명시. C05 97bec76d6eae: 과태료 별표 전체 한국어 3,455자와 중국어 63행을 순서대로 전수 대조하여 일반기준·개별기준 표의 항목, 근거조문, 금액열까지 수동 정렬 검수. 별표의 원문 오프셋이 null인 구조적 사유는 전체 순서 대조로 해소되어 ANNEX_ALIGNMENT_REQUIRED 제거, 별표 pending 58을 0으로 갱신. 공식 영문 본문에는 별표 본문이 포함되지 않음을 기록.",
+  "annex_alignment": {
+    "document": "A29604",
+    "status": "REVIEWED",
+    "korean_source_chars": 3455,
+    "chinese_rows": 63,
+    "order_alignment": "All 63 Chinese rows compared in order against the complete Korean annex, including general standards, 3-column fine table, legal citations, and amounts.",
+    "rows": [
+      {
+        "id": "A29604-zh-00001",
+        "hasCorrection": false,
+        "source_hash": "58f99fdb9384cdbd3449c938f0bfd267ece16a35ca45a6efe07794631d7ccfdc",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00002",
+        "hasCorrection": false,
+        "source_hash": "e6e39f7619a1d955cf656e0d6bcb46c9a599d5a40e14e78fcb37686d8ac74e9f",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00003",
+        "hasCorrection": false,
+        "source_hash": "a617cf3ccc65ba6af0228b05b78c02b61364dbd74e669da8ea55dab0e5a320b6",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00004",
+        "hasCorrection": true,
+        "source_hash": "a52b06c487972ddff39fa7cab1029662b44e85a4cf2f77e0e69b439e0bb15206",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00005",
+        "hasCorrection": true,
+        "source_hash": "2a89acebaa15379f7a8e4e3427f6a41952e68aeed7bbe34c33e9262c430ced6c",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00006",
+        "hasCorrection": true,
+        "source_hash": "7cd937a13432cf8fd5022445771441b6213470fdbd43144c71a8ac6d9cab5586",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00007",
+        "hasCorrection": true,
+        "source_hash": "e18fcb1ba09508e92bc97ef21267785f1245892d2116553469b74e8998a17fd1",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00008",
+        "hasCorrection": true,
+        "source_hash": "6070dfe578e6cb05152d36b7d0c004090f5f159047afc12aef685e555c5e5efe",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00009",
+        "hasCorrection": true,
+        "source_hash": "53d5db8a07d1ab7b3f939c497a251f7837050c2bc39f40d4207a985b8c1525a2",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00010",
+        "hasCorrection": true,
+        "source_hash": "27d64650b479a648c9ccff232d13a7cae9a89662205f65dcb4a943a2d9d2dfa3",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00011",
+        "hasCorrection": true,
+        "source_hash": "f42166629e245e46f2e76ad048b133cced450d09f7da80f097340de126b70323",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00012",
+        "hasCorrection": true,
+        "source_hash": "f3b9a36d5f87f84a660299f09de727c25428bccf113570503d2d95113bb5b675",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00013",
+        "hasCorrection": true,
+        "source_hash": "d2e12294bf3bddd83404005e6da614e92423d6e3e1eaa244ccc66abef3f1b48f",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00014",
+        "hasCorrection": true,
+        "source_hash": "8c89c331e22d9750cb662004c34ddef1dbacd609ac96bc533e5c66ceec57e797",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00015",
+        "hasCorrection": true,
+        "source_hash": "ee67c0e99a78d82c90a8a5cc0488325c1372554d6cb29e1181e08981ac959600",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00016",
+        "hasCorrection": false,
+        "source_hash": "6ec56c642de8197effa0eeca8cede8d63f53b71daf7820b31e5629d1cb5d6726",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00017",
+        "hasCorrection": true,
+        "source_hash": "4a4315f0acadc28e89fa7b2ac30bb7c9a8ffbb4df1b45c724443a4400149fb8f",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00018",
+        "hasCorrection": true,
+        "source_hash": "1d6e2f62530c9e84c64f5cf1d525ecfb17e3f2bf071256483ccfe71d7f97c4ca",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00019",
+        "hasCorrection": true,
+        "source_hash": "b66181ac1c49b17c5074e21cc3c1871529f67b6c87b83e8463db707ad141424e",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00020",
+        "hasCorrection": true,
+        "source_hash": "aeb3dd7ddd6b8c6a57378b8ca6c88b205790b03a1bf7cd488889651ba0f47655",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00021",
+        "hasCorrection": true,
+        "source_hash": "4b2cd6d63c385548225ddde2c1e91c9211e9043e40bacdf27667e8b30488fe60",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00022",
+        "hasCorrection": true,
+        "source_hash": "eb41fdcc56f30b7a1a6e203accd45307886d890b5c9abbd28d40239c4f214b06",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00023",
+        "hasCorrection": true,
+        "source_hash": "1b8619782bb69bb502fee1e12f0091e5e4822fbaa80f2ccc917e69a118285eee",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00024",
+        "hasCorrection": true,
+        "source_hash": "e946da103ec9ec132817afa72073269111e7b16e4a75d3a247ec6e3aba911c02",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00025",
+        "hasCorrection": true,
+        "source_hash": "ba1f63344196196d8e53bbd56867c2922dccc849179e6110c15a14d6ab312bfc",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00026",
+        "hasCorrection": false,
+        "source_hash": "684a047d806d3bf947cce7e35b6d3cfd0b1add8292ff4a98337a75d16a51dc2a",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00027",
+        "hasCorrection": true,
+        "source_hash": "f4bd2d007be5a6ffb47558391e872b937b419adc891df267496f27e8b631385f",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00028",
+        "hasCorrection": true,
+        "source_hash": "aeb3dd7ddd6b8c6a57378b8ca6c88b205790b03a1bf7cd488889651ba0f47655",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00029",
+        "hasCorrection": true,
+        "source_hash": "1d6f6bce78138ea58d3cc062dbce45c849d57266d25052a404c84318174a0c95",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00030",
+        "hasCorrection": false,
+        "source_hash": "903aa577eae3314c52694d8cb0c32f8a688802c384b7267385dc97b9afdad866",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00031",
+        "hasCorrection": false,
+        "source_hash": "f301e09bb088a35ead5a94b8a5272800ed1989bf2a850f142c6a2bc9c86559d4",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00032",
+        "hasCorrection": false,
+        "source_hash": "29868af714531b76fa12c0f1dcdcda16bef1ea9b78725e46eb97ac3b291f90a0",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00033",
+        "hasCorrection": false,
+        "source_hash": "4da4b59cbfd66518a897d218064dc6a845afee02d516e1aa110b8d210daccd96",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00034",
+        "hasCorrection": false,
+        "source_hash": "b3aba0b413acf7c30e8024efdb3c316561fd66d87ce9ea9fea1aeafe5fbd2f0b",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00035",
+        "hasCorrection": false,
+        "source_hash": "cfe5ecf17362a926a6c6e609a0edacd7e80f706658fcca366b6e2b7415c6d873",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00036",
+        "hasCorrection": true,
+        "source_hash": "e6e77b83100b28e797f155f37162ee0a171cb2b4193e24205fbc9debf6cca32e",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00037",
+        "hasCorrection": false,
+        "source_hash": "379a0527058d1520884bb033cd73ebc8adc1d4ac47cc8ac348219dd7c21a3949",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00038",
+        "hasCorrection": false,
+        "source_hash": "be32cbe662160500b655af7ecbad4e3468adf18e498ec29becb8fbbf1414a013",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00039",
+        "hasCorrection": false,
+        "source_hash": "b902cc4550838229a710bfec4c38cbc7eb11082367a409df9135e7f007a96bda",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00040",
+        "hasCorrection": false,
+        "source_hash": "b7a56873cd771f2c446d369b649430b65a756ba278ff97ec81bb6f55b2e73569",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00041",
+        "hasCorrection": false,
+        "source_hash": "1a6562590ef19d1045d06c4055742d38288e9e6dcd71ccde5cee80f1d5a774eb",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00042",
+        "hasCorrection": true,
+        "source_hash": "2b4c9e0f2da2c3b74a26e42ac0e3267671c285869e6b05789b45547e91648e20",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00043",
+        "hasCorrection": true,
+        "source_hash": "6c4f72981a15893339e07da6759ec70df03b4b8d236aebfff2ab284da43647df",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00044",
+        "hasCorrection": true,
+        "source_hash": "911fce6c37155894c61d6a7795f74457a78deaf532e08122b49955533006970d",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00045",
+        "hasCorrection": true,
+        "source_hash": "c63e98b59661561e94b5706605e63002de4125d4f839e76605df4ab3da0ba40d",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00046",
+        "hasCorrection": false,
+        "source_hash": "be32cbe662160500b655af7ecbad4e3468adf18e498ec29becb8fbbf1414a013",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00047",
+        "hasCorrection": false,
+        "source_hash": "b902cc4550838229a710bfec4c38cbc7eb11082367a409df9135e7f007a96bda",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00048",
+        "hasCorrection": false,
+        "source_hash": "b7a56873cd771f2c446d369b649430b65a756ba278ff97ec81bb6f55b2e73569",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00049",
+        "hasCorrection": false,
+        "source_hash": "1a6562590ef19d1045d06c4055742d38288e9e6dcd71ccde5cee80f1d5a774eb",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00050",
+        "hasCorrection": true,
+        "source_hash": "a5f502fea4480f1cd46f58e0a516e4ba4c6d86769463a6e4a01101e8014902a0",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00051",
+        "hasCorrection": true,
+        "source_hash": "421c7b60ad5cdc158d4503f2c2f520686960bc9505e644ca4e1c8cbe6042bb3e",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00052",
+        "hasCorrection": false,
+        "source_hash": "880b680e1205faa4a6f9dc9f0adb2a9aebb2c688d254538d6a1b516a6612da44",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00053",
+        "hasCorrection": true,
+        "source_hash": "f13e0409a09beac0b6c1b586a02b93fef05c4f810f66cca9bb1b07cd01a4f6e7",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00054",
+        "hasCorrection": true,
+        "source_hash": "49b512187b831f54422a995a3b6faaa17b6d0b7ed0fe59f41b785d74ec460c5d",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00055",
+        "hasCorrection": false,
+        "source_hash": "be32cbe662160500b655af7ecbad4e3468adf18e498ec29becb8fbbf1414a013",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00056",
+        "hasCorrection": false,
+        "source_hash": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00057",
+        "hasCorrection": false,
+        "source_hash": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00058",
+        "hasCorrection": false,
+        "source_hash": "f5ca38f748a1d6eaf726b8a42fb575c3c71f1864a8143301782de13da2d9202b",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00059",
+        "hasCorrection": true,
+        "source_hash": "fb81523fcb07c591fa39b9cf45e539cdfe797b4f2db83a1344abe3c63e1f2d1b",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00060",
+        "hasCorrection": true,
+        "source_hash": "8d622ea97bbd8322668382b2b126fdf273ae06442beffba957bba639878c2740",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00061",
+        "hasCorrection": true,
+        "source_hash": "66faab816a7ef1ca60edf0cdba5c6da9973596b9fea7489c9a46dfe44f88f4f6",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00062",
+        "hasCorrection": true,
+        "source_hash": "5a33c15c73b00e0457c377aac6aaa24b6d3d5ee2fbebab1c1cac0720a5daaa19",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      },
+      {
+        "id": "A29604-zh-00063",
+        "hasCorrection": false,
+        "source_hash": "da3fe13b244673e7cb2235643606b7bc9419ab9809a0c431763c29cc1332a35d",
+        "review": "ORDERED_WHOLE_TABLE_KO_ZH_ALIGNMENT"
+      }
+    ],
+    "corrections": 37,
+    "english_availability": "Official linked English full_text does not include the annex body; this annex was checked directly against Korean source."
+  }
 }
