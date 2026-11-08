@@ -1,0 +1,20 @@
+{
+  "schema": "LAW_ZH_RECONCILE_V1",
+  "job_id": "F-eb24b26e08a83be58f81",
+  "assignment_id": "S2-e811a729740fea81282fc5378ec284d9",
+  "worker": "C01",
+  "branch": "main",
+  "status": "RECONCILED",
+  "row_id": "A39352-zh-00036",
+  "source_hash": "1caa2f58a4e226588ee782bbf557d0777149b807eb5a33f8b5e3fe19a9792752",
+  "source_blob_sha": {
+    "ko": "f0d6fbd2ef344c2fcc23f9c68a9e5dfbb3ed196a",
+    "zh": "0ab0bdb3db18772f9e4cb45b0e179805f0df3940"
+  },
+  "candidate_files": [
+    "status/delivery/progress-S2-e811a729740fea81282fc5378ec284d9-C01-A39352-00028-00055.json",
+    "status/delivery/progress-S2-e811a729740fea81282fc5378ec284d9-C01-A39352-00028-00082.json"
+  ],
+  "text": "甲. 对依据本法第8条及第17条实施的",
+  "note": "Table split-cell context: 가. 법 제8조 및 법 제17조에 따른 조사 또는 측량을 위한 행위를 거부하거나 방해한 경우. Keep the opening phrase to combine with rows 41 and 42; do not incorrectly attach the refusal predicate before the investigation phrase. Prior progress already checked this row: 0 new unique rows; family IN_PROGRESS."
+}
