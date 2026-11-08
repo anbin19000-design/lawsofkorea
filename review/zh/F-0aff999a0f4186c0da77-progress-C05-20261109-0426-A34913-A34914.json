@@ -1,0 +1,70 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_blob_observed": "003cad21fa104b32a22b7d401755e50ffab76f42",
+  "cumulative_corrections": 866,
+  "inspected_span": "A34913 (12 rows) and A34914 (26 rows) read sequentially against their full Korean sources. Existing corrections for MTQ remnants, examination stages, legal citations, staffing qualifications, thresholds and paragraph markers were retained.",
+  "proposed_corrections": [
+    {
+      "id": "A34913-zh-00001",
+      "source_hash": "849334571a921eb2279ad593cf6820e38a0d2e8e194481920781b3c39f3de88f",
+      "text": "■ 《特许经营业务交易公平化法实施令》[附表3] <2008年1月31日修订>",
+      "reason": "별표3를 부속서가 아닌 법령 별표로 표기."
+    },
+    {
+      "id": "A34914-zh-00001",
+      "source_hash": "20dc9401f4956c305feff27b8ca4cd2cfb530cfd3c12b9459574a27e2ad3936c",
+      "text": "■ 《特许经营业务交易公平化法实施令》[附表4] <2012年2月29日修订>",
+      "reason": "별표4 표기를 법령상 附表로 복구."
+    },
+    {
+      "id": "A34914-zh-00021",
+      "source_hash": "c6a61bb7e70573226fa4751bfbf21142d0685b50567b0429064c220dd6a407f2",
+      "text": "가. 指定日前最近3年内，具有为50家以上特许总部，或100名以上加盟意向人及加盟店经营者，或30名以上加盟交易专家开展教育、培训的业绩",
+      "reason": "50개 이상 가맹본부 또는 100명 이상 가맹희망자·가맹점사업자 또는 30명 이상 가맹거래사라는 선택적 기준의 '또는' 구조를 복구."
+    },
+    {
+      "id": "A34914-zh-00022",
+      "source_hash": "805c512933eddc4f4a4901146c95590657bfa6975ab8cf029679b660f7a9faec",
+      "text": "的教育、培训业绩；",
+      "reason": "앞 행의 교육·연수 실적 문장을 완결."
+    },
+    {
+      "id": "A34914-zh-00023",
+      "source_hash": "889f980f3832c22697a796e7bed3716a52f75864dd3a303f4434af736597c477",
+      "text": "",
+      "reason": "기존 '业绩' 교정과 겹치는 세그먼트 파편 여부를 XML로 확인."
+    },
+    {
+      "id": "A34914-zh-00024",
+      "source_hash": "c3f80d1cbfe346a436dbb6201a660bc358c86a50772cecd59311327548e01dcb",
+      "text": "나. 指定日前最近3年内，具有30件以上与特许经营业务相关的纠纷调解业绩；",
+      "reason": "원문의 나목을 나.로 복구하고 지정일 직전 3년 및 분쟁조정 실적 요건을 정확히 표현."
+    }
+  ],
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "chinese_total_rows": 1687,
+  "checked_rows": 849,
+  "corrected_rows": 866,
+  "quality_open_items": [
+    "Full sequential semantic audit of all 1,687 Chinese rows remains incomplete",
+    "429 rows without independently exact English require direct Korean/Chinese semantic comparison",
+    "A34909/A34910/A34912 candidate edits checkpoint-only",
+    "A34913/A34914 reviewed; selected title/qualification criteria candidates checkpoint-only",
+    "A34915 and A34916 annexes and all forms remain to be reviewed"
+  ],
+  "note": "No source SHA changed. Proposed changes checkpoint-only, not included in official correction count. IN_PROGRESS; no receipt."
+}
