@@ -1,0 +1,95 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "family": "실용신안법",
+  "worker": "C05",
+  "assignment": "[WORK-TASK:C05:F-00583cebe057fc2929d1:a0e4cf6f4506]",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "c358c2248a950707bb00974a49c51ed331d4e61c",
+  "review_commit": "7ad8fc2014afe6205778753742d77bd692af9427",
+  "previous_progress": "review/zh/F-00583cebe057fc2929d1-progress-C05-20261108-a0e4cf6f4506.json",
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "previous_corrections": 212,
+  "new_corrections": [
+    {
+      "id": "B2-zh-00009",
+      "source_hash": "0428399e923b31ab00059955e17fe3885fecdea64d48cb1021059379c4415c13",
+      "decision": "CORRECT",
+      "reason": "韩文 시행령 우선심사/본법 제14·15·33조와 특허법 구분, 지식재산처장 기관명 명백한 오역 교정."
+    },
+    {
+      "id": "B2-zh-00010",
+      "source_hash": "e62058d04423dad034cbb851c4857d476a0b480db90a64e2d9d898b91f981bc8",
+      "decision": "CORRECT",
+      "reason": "원문 '8개월이 되는 날까지', 고안≠外观设计, 지식재산처장 및 원문에 없는 2023년 삽입을 정정."
+    },
+    {
+      "id": "B2-zh-00011",
+      "source_hash": "5fe8b0ae7b4fdb41156c8b8994fe33c9937362998bb7d67916c5cdc0459fefd2",
+      "decision": "CORRECT",
+      "reason": "민사소송법 제173조 '책임질 수 없는 사유가 없어진 후' 조건 오류, 원문 없는 연도, 제4호 지연기간을 면제로 뒤집은 오역 교정."
+    }
+  ],
+  "total_corrections": 215,
+  "prior_pending_rows": 89,
+  "english_note": "B1/B2 official exact-version; B3/forms only 2010 fallback, not exact current version; decree also has AI draft.",
+  "unresolved": [
+    {
+      "id": "B2-zh-00081",
+      "status": "SOURCE_MAPPING_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A29604",
+      "status": "ANNEX_ALIGNMENT_REQUIRED"
+    },
+    {
+      "id": "B3-zh-00117",
+      "status": "SOURCE_MAPPING_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8690",
+      "status": "FORM_ALIGNMENT_REQUIRED"
+    },
+    {
+      "id": "A8693",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8698",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8699",
+      "status": "SOURCE_CONTENT_MISSING"
+    },
+    {
+      "id": "A8703",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8708",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8709",
+      "status": "SOURCE_CONTENT_MISSING"
+    },
+    {
+      "id": "A8690-zh-00499",
+      "status": "SOURCE_TEXT_FRAGMENT_REVIEW_REQUIRED"
+    }
+  ],
+  "reading_status": "FULL_KO_EN_ZH_SEQUENTIAL_READING_NOT_VERIFIED",
+  "completion_receipt": null,
+  "notes": "기존 212건 보존, 시행령 제6조의2 3개 행의 기한·준용조문·증거없는 연도·법적 효과 역전 부분 수정. 원문 SHA 불변, 전체 24개 문서 및 보류 원문 대응·서식 훼손 미해결. 상태 IN_PROGRESS 유지."
+}
