@@ -1,0 +1,106 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:f358f5583319",
+  "status": "IN_PROGRESS",
+  "phase": "ANNEX_4_SOURCE_COMPARISON",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_en_index_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "english_status": "English fallback older-version; Korean 2026-03-24 Annex 4 controlling",
+  "document": "A39477",
+  "checked_rows": 13,
+  "checked_ids": [
+    "A39477-zh-00002",
+    "A39477-zh-00014",
+    "A39477-zh-00015",
+    "A39477-zh-00016",
+    "A39477-zh-00018",
+    "A39477-zh-00019",
+    "A39477-zh-00024",
+    "A39477-zh-00026",
+    "A39477-zh-00030",
+    "A39477-zh-00036",
+    "A39477-zh-00039",
+    "A39477-zh-00040",
+    "A39477-zh-00042"
+  ],
+  "passed_rows": 13,
+  "corrected_rows": 0,
+  "edits": [],
+  "results": [
+    {
+      "id": "A39477-zh-00002",
+      "verdict": "PASS",
+      "reason": "Annex 4 operating standards title cites Article 24 accurately."
+    },
+    {
+      "id": "A39477-zh-00014",
+      "verdict": "PASS",
+      "reason": "Section 2 creation and implementation of operation rules matches the Korean."
+    },
+    {
+      "id": "A39477-zh-00015",
+      "verdict": "PASS",
+      "reason": "Operational policy of support facility retained."
+    },
+    {
+      "id": "A39477-zh-00016",
+      "verdict": "PASS",
+      "reason": "Allocation of staff duties retained."
+    },
+    {
+      "id": "A39477-zh-00018",
+      "verdict": "PASS",
+      "reason": "Rules on using support facilities retained."
+    },
+    {
+      "id": "A39477-zh-00019",
+      "verdict": "PASS",
+      "reason": "Program operation rules retained."
+    },
+    {
+      "id": "A39477-zh-00024",
+      "verdict": "PASS",
+      "reason": "Management books and related documents heading retained."
+    },
+    {
+      "id": "A39477-zh-00026",
+      "verdict": "PASS",
+      "reason": "Staff list includes personnel cards, resume and photo."
+    },
+    {
+      "id": "A39477-zh-00030",
+      "verdict": "PASS",
+      "reason": "Register for receipt and dispatch of documents retained."
+    },
+    {
+      "id": "A39477-zh-00036",
+      "verdict": "PASS",
+      "reason": "Documents related to staff education and training retained."
+    },
+    {
+      "id": "A39477-zh-00039",
+      "verdict": "PASS",
+      "reason": "Cashbook and supporting vouchers retained."
+    },
+    {
+      "id": "A39477-zh-00040",
+      "verdict": "PASS",
+      "reason": "Budget and settlement records retained."
+    },
+    {
+      "id": "A39477-zh-00042",
+      "verdict": "PASS",
+      "reason": "Property register, inventory and proof of ownership or use retained."
+    }
+  ],
+  "prior_evidence_index": "status/delivery/reconcile-S2-8f70e317249155938a79444493d089b4-evidence-7e6b69412a765526.json",
+  "previous_progress": "review/zh/F-0536890d62605f77ff0a-progress-C03-3ee843da8cef-A39476-facility-standards.json",
+  "protected_unresolved_ids": [
+    "A26697-zh-00008",
+    "A26699-zh-00053"
+  ],
+  "note": "Thirteen Annex 4 rows with no prior stored edit candidates verified against current Korean. Other source lines require pre-existing candidate reconciliation. Family-wide full reading not established."
+}
