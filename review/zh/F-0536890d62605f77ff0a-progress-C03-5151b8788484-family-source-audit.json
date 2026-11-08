@@ -1,0 +1,133 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:5151b8788484",
+  "status": "IN_PROGRESS",
+  "phase": "FAMILY_SOURCE_INVENTORY_AND_EVIDENCE_GAP_AUDIT",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_en_index_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "checked_rows": 0,
+  "checked_ids": [],
+  "edits": [],
+  "document_count": 22,
+  "zh_rows": 1136,
+  "unique_zh_ids": 1136,
+  "duplicate_zh_ids": 0,
+  "document_row_counts": {
+    "B1": 62,
+    "B2": 37,
+    "A39474": 78,
+    "A39475": 53,
+    "A39476": 65,
+    "A39477": 43,
+    "A39478": 123,
+    "A39479": 49,
+    "B3": 19,
+    "A26693": 102,
+    "A26694": 52,
+    "A26695": 25,
+    "A26696": 19,
+    "A26697": 43,
+    "A26698": 13,
+    "A26699": 66,
+    "A26700": 17,
+    "A26701": 95,
+    "A26702": 30,
+    "A26703": 83,
+    "A26704": 29,
+    "A26705": 33
+  },
+  "english_source_documents": [
+    {
+      "path": "documents/en/kr-014071-276899-en.json",
+      "blob_sha": "d0d8afa349016e48889d936e4ed1c9454a7f4e07",
+      "version": "276899",
+      "relationship": "EXACT_VERSION",
+      "body_characters": 54401
+    },
+    {
+      "path": "documents/en/kr-014371-246917-en.json",
+      "blob_sha": "f5abc9a132b8fc9ee5bba322f9fff5cd720ba2c1",
+      "version": "246917",
+      "relationship": "OLDER_FALLBACK",
+      "body_characters": 43718
+    }
+  ],
+  "english_document_status": {
+    "exact": [
+      "B1"
+    ],
+    "older_fallback": [
+      "B2",
+      "A39474",
+      "A39475",
+      "A39476",
+      "A39477",
+      "A39478",
+      "A39479"
+    ],
+    "none": [
+      "B3",
+      "A26693",
+      "A26694",
+      "A26695",
+      "A26696",
+      "A26697",
+      "A26698",
+      "A26699",
+      "A26700",
+      "A26701",
+      "A26702",
+      "A26703",
+      "A26704",
+      "A26705"
+    ]
+  },
+  "prior_evidence_index": "status/delivery/reconcile-S2-8f70e317249155938a79444493d089b4-evidence-7e6b69412a765526.json",
+  "prior_handoff_index": "status/delivery/handoff-index-a8651744abf73367b1a3.json",
+  "legacy_index_checked_id_count": 672,
+  "legacy_index_edit_candidate_id_count": 792,
+  "legacy_index_unlisted_id_count": 464,
+  "legacy_unlisted_counts": {
+    "B1": 33,
+    "B2": 16,
+    "A39474": 0,
+    "A39475": 53,
+    "A39476": 65,
+    "A39477": 43,
+    "A39478": 123,
+    "A39479": 49,
+    "B3": 9,
+    "A26693": 0,
+    "A26694": 0,
+    "A26695": 0,
+    "A26696": 0,
+    "A26697": 0,
+    "A26698": 0,
+    "A26699": 0,
+    "A26700": 0,
+    "A26701": 0,
+    "A26702": 0,
+    "A26703": 14,
+    "A26704": 29,
+    "A26705": 30
+  },
+  "existing_unresolved_quality_ids": [
+    "A26697-zh-00008",
+    "A26699-zh-00053"
+  ],
+  "previous_review": "review/zh/F-0536890d62605f77ff0a-progress-C03-cdb0b8a38f71-B2-remaining.json",
+  "quality_assurance": {
+    "source_files_present": true,
+    "english_linked_bodies_present": true,
+    "all_zh_ids_unique": true,
+    "all_prior_candidate_ids_in_zh": true,
+    "full_ko_semantic_read_verified": false,
+    "full_en_semantic_read_verified": false,
+    "full_zh_semantic_review_verified": false,
+    "complete_receipt_authorized": false
+  },
+  "note": "Repository-wide source and evidence audit checkpoint only; old index absence is NOT proof of an unchecked row because further progress records exist. Preserve all prior determinations. Full language-by-language semantic reading and consolidated edits remain pending. No COMPLETE receipt emitted."
+}
