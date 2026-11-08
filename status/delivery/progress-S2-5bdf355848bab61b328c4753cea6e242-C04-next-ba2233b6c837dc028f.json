@@ -77,5 +77,22 @@
   "unique_checked_rows": 5,
   "duplicate_edits_created": 0,
   "new_edits": [],
-  "note": "Progress only; B1 overlap deduplicated by row ID. Do not mark family COMPLETE. Existing master, segment and hashes unchanged; rows 00002-00004 source preference anomaly requires reconciliation before final merge."
+  "note": "Progress only; B1 overlap deduplicated by row ID. Do not mark family COMPLETE. Existing master, segment and hashes unchanged; rows 00002-00004 source preference anomaly requires reconciliation before final merge.",
+  "next_segment_check": {
+    "path": "review/zh/segments/F-5c680578acc95aaaac92-C04-B1-00018-00024-20261108.json",
+    "sha": "d94c0a09d18aece509ed3c4aab612ea30f2e76cf",
+    "checked_ids": [
+      "B1-zh-00018",
+      "B1-zh-00019",
+      "B1-zh-00020",
+      "B1-zh-00021",
+      "B1-zh-00022",
+      "B1-zh-00023",
+      "B1-zh-00024"
+    ],
+    "existing_edits_preserved": 6,
+    "new_edits": 0,
+    "status": "VERIFIED_EXISTING",
+    "reason": "Directly compared Korean source cell offsets for all seven rows, including transitional clauses, dates and article numbers; existing segment corrections retained without duplicate writes."
+  }
 }
