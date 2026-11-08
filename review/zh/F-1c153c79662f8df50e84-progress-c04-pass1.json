@@ -15,7 +15,7 @@
     "required_order": "KO_FULL_EN_FULL_ZH_FULL",
     "ko": "COMPLETE: all 34 Korean source documents read in source order.",
     "en": "COMPLETE: B1 exact English and B2 English draft read in full; reviewed/en/KR_008306.json reference read; B3 and forms lack complete English document translations.",
-    "zh": "IN_PROGRESS: B3 rows 1–46 reviewed. Forms A12177–A12207 remain to be reviewed in order."
+    "zh": "IN_PROGRESS: forms A12177, A12178 and A12181 received targeted corrections to mistranslated field labels, legal basis, dates, and headings. Remaining forms A12179–A12207 require sequential review; A12180 still needs table-label verification."
   },
   "scope": {
     "documents": 34,
@@ -1283,13 +1283,300 @@
       "text_original": "增补（估价及估价师法实施细则）<第1099号，2022年1月21日>\n\n",
       "corrected_text": "补充规定（《鉴定评估及鉴定评估师法施行规则》）<第1099号，2022年1月21日>\n\n",
       "note": "修正鉴定评估法律及施行规则名称。"
+    },
+    {
+      "id": "A12177-zh-00001",
+      "source_hash": "dacd5edbe05ec06451bec2eb7869d9b97e85e2999d299acac387a028de792f7e",
+      "text_original": "■ 房地产价格公开披露法实施细则 [附件1]",
+      "corrected_text": "■《房地产价格公示法施行规则》[别纸第1号书式]",
+      "note": "修正表格标题中的母法名称和书式编号。"
+    },
+    {
+      "id": "A12177-zh-00002",
+      "source_hash": "67090688bc203d66cf6cf652218614f652b24ed164bc01f4111b084758696687",
+      "text_original": "标准土地官方评估价格意见",
+      "corrected_text": "标准土地公示地价意见书",
+      "note": "将标准土地公示地价准确翻译为法定术语。"
+    },
+    {
+      "id": "A12177-zh-00003",
+      "source_hash": "620c125f9df0c08a6f40fd632e2abd5ba610138091bd6b44b012a2d6368b0634",
+      "text_original": "※ 深色列无需意见提交者填写。",
+      "corrected_text": "※ 阴影栏无需意见提交者填写。",
+      "note": "原文指表格中阴影栏，不是深色列。"
+    },
+    {
+      "id": "A12177-zh-00005",
+      "source_hash": "ebc9b96eb63cf003b7b1fc13d77fd353ced43869ee6c7836a9f3be4c588e1391",
+      "text_original": "收货日期",
+      "corrected_text": "收件日期",
+      "note": "表格登记日期为收件日期。"
+    },
+    {
+      "id": "A12177-zh-00007",
+      "source_hash": "2523750d1d78950bb0372bb4cda56494996671fee1fbf95a32b1539b2d134fe8",
+      "text_original": "的意见的期限为",
+      "corrected_text": "意见提交期限为",
+      "note": "恢复意见提交期限字段。"
+    },
+    {
+      "id": "A12177-zh-00009",
+      "source_hash": "7ad1735ed90b297b88a23b60a24f6cda0f79ba0e8d7628dc283bf41cf5dad74c",
+      "text_original": "离子",
+      "corrected_text": "意见",
+      "note": "纠正意见提交人字段首行的错译。"
+    },
+    {
+      "id": "A12177-zh-00010",
+      "source_hash": "4b237b7c112d6da6395f1e447cbac78f5d1928aad05d425161451f4d0a6eac1c",
+      "text_original": "Name(公司名称)",
+      "corrected_text": "姓名（法人名称）",
+      "note": "表格姓名（法人名称）字段。"
+    },
+    {
+      "id": "A12177-zh-00018",
+      "source_hash": "364d448a22b1512f4d3cd6ffae16cd65c8e787a5bbe2a79e4b4fe964e509f437",
+      "text_original": "主题",
+      "corrected_text": "对象",
+      "note": "修正对象土地分栏标签。"
+    },
+    {
+      "id": "A12177-zh-00019",
+      "source_hash": "3c2d6ddb4a94f1f363750ba2402fd1286402566fc07871795119af9623e46fbd",
+      "text_original": "属性",
+      "corrected_text": "土地",
+      "note": "修正对象土地分栏标签。"
+    },
+    {
+      "id": "A12177-zh-00021",
+      "source_hash": "32e608b594bece7ab3a3b13c3cea02909a92c863e239f30dc20e329b412f0e21",
+      "text_original": "着陆",
+      "corrected_text": "地块",
+      "note": "修正土地地块标签。"
+    },
+    {
+      "id": "A12177-zh-00028",
+      "source_hash": "e85b10295ce1bc518a234ea616987106145eed22bf8b43c0b1eb6b5bd08346a1",
+      "text_original": "意见提交",
+      "corrected_text": "意见提交内容",
+      "note": "修正意见提交内容栏目名称。"
+    },
+    {
+      "id": "A12177-zh-00029",
+      "source_hash": "a3fa0683ba9a6529f8aad6f085f0a0a8c38809680d9f21eee31e1b08e0f8a827",
+      "text_original": "建议价格",
+      "corrected_text": "拟定价格",
+      "note": "区分拟定价格和意见价格。"
+    },
+    {
+      "id": "A12177-zh-00030",
+      "source_hash": "ac00a13fa20066f6c55584de44ba4f1815e81b6c2e32e369b2a89f12e3d94380",
+      "text_original": "Price 建议价格",
+      "corrected_text": "意见价格",
+      "note": "修正意见价格栏，移除残留英文单词。"
+    },
+    {
+      "id": "A12177-zh-00032",
+      "source_hash": "29a8084f176069a6f917935ee44944640b5501317df53ac271c38e91ba6f49da",
+      "text_original": "根据《房地产价格公开法》第三条第二款和该法实施令第五条第三款的规定，标准土地的估价",
+      "corrected_text": "根据《房地产价格公示法》第三条第二款及该法施行令第五条第三款，现就标准土地拟公示价格提出上述意见",
+      "note": "准确翻译意见提交的法律依据和对象。"
+    },
+    {
+      "id": "A12177-zh-00033",
+      "source_hash": "a395e87bae64d72d66034deefbdc8b52fd45dd56c1635405a09e320a665d5165",
+      "text_original": ".",
+      "corrected_text": "。",
+      "note": "保留原文句末标点。"
+    },
+    {
+      "id": "A12177-zh-00039",
+      "source_hash": "c4a5e4b680ba56bb2b3309f98c60d707b08803603204441a703e38eed38f012d",
+      "text_original": "致国土交通部长",
+      "corrected_text": "致：国土交通部长官",
+      "note": "修正国土交通部长官职衔。"
+    },
+    {
+      "id": "A12178-zh-00001",
+      "source_hash": "12cfba31120a54de7ddfdf42a2e9ca280be67f36d2c9647b018f70ad4d17997e",
+      "text_original": "■ 房地产价格公开披露法实施细则 [附件表格2]",
+      "corrected_text": "■《房地产价格公示法施行规则》[别纸第2号书式]",
+      "note": "修正表格标题中的母法名称和书式编号。"
+    },
+    {
+      "id": "A12178-zh-00002",
+      "source_hash": "db133784dc410ad415c90b15b9e20d8d87bbab62e83485505ed81e3d63c7804b",
+      "text_original": "标准土地价格调查及评估报告",
+      "corrected_text": "标准土地公示地价调查、评估报告",
+      "note": "修正标准土地公示地价法定术语。"
+    },
+    {
+      "id": "A12178-zh-00015",
+      "source_hash": "7eca962793f3f76f87d2cc9d9087b791ce10276f56df5bfe08c3c0fd4bcf6179",
+      "text_original": "已在官方登记簿中记录",
+      "corrected_text": "登记簿记载地目",
+      "note": "공부상 지목指登记簿记载的地目。"
+    },
+    {
+      "id": "A12178-zh-00016",
+      "source_hash": "1b73e7be6c729c071c4e56906c819e2f3cc9d9d3860b82f8b6e0ff8e8145cb98",
+      "text_original": "地理",
+      "corrected_text": "地理位置",
+      "note": "修复地理位置栏的拆分译文。"
+    },
+    {
+      "id": "A12178-zh-00017",
+      "source_hash": "770bdb495b6edba2da479779aca736cbded8fe0168c39c4561552cc1c0d30f56",
+      "text_original": "使用",
+      "corrected_text": "土地利用情况",
+      "note": "修正土地利用情况字段。"
+    },
+    {
+      "id": "A12178-zh-00020",
+      "source_hash": "9dfe7f4f5deecccc60168281cebe0d665b2156fcbc81e65eb57d30b9d845847a",
+      "text_original": "道路和运输",
+      "corrected_text": "道路及交通状况",
+      "note": "修正道路、交通环境字段。"
+    },
+    {
+      "id": "A12178-zh-00021",
+      "source_hash": "a66ff8822316a660166d4aeff8d4d6ffc8fe7eceedf58aa4f742147988161a36",
+      "text_original": "shape 和",
+      "corrected_text": "地形及",
+      "note": "修复地形及地势字段开头。"
+    },
+    {
+      "id": "A12178-zh-00023",
+      "source_hash": "cac86917237b341dd83b3e9b520f22f49d9e7f839c4b7a9352c87da5f8667f17",
+      "text_original": "Land 类别",
+      "corrected_text": "地目",
+      "note": "토지 지목指土地地目。"
+    },
+    {
+      "id": "A12181-zh-00001",
+      "source_hash": "253d72711545ee36d854d3a96c0e4a85cf67b64b177d5c3acd510c7c593da254",
+      "text_original": "■ 房地产价格公开披露法实施细则[附件5]<2022年3月30日修订>",
+      "corrected_text": "■《房地产价格公示法施行规则》[别纸第5号书式]<2022年3月30日修订>",
+      "note": "修正异议申请书表头法名和书式编号。"
+    },
+    {
+      "id": "A12181-zh-00002",
+      "source_hash": "c5872ea145f7c97ba663e939f1b188b002dfd8d3ac3ba27840bb236b1ffd912a",
+      "text_original": "您也可以通过政府24小时服务网站（www.gov.kr）申请。",
+      "corrected_text": "也可通过政府24（www.gov.kr）网站提出申请",
+      "note": "按原文政府24网站提示修正。"
+    },
+    {
+      "id": "A12181-zh-00003",
+      "source_hash": "d90f64d83741d03589fcaa552aeb8b71f91ce8f87a194cc32b40a150ae8f81a0",
+      "text_original": "可以做到。",
+      "corrected_text": "。",
+      "note": "保留与上一行相连的句末标点。"
+    },
+    {
+      "id": "A12181-zh-00004",
+      "source_hash": "aaab6656a2d761f4bddb60c3f273a4f814add40b652146f9e08715b408eaa97f",
+      "text_original": "对官方评估标准土地价格提出异议表格",
+      "corrected_text": "标准土地公示地价异议申请书",
+      "note": "将表格标题修正为异议申请书。"
+    },
+    {
+      "id": "A12181-zh-00006",
+      "source_hash": "ebc9b96eb63cf003b7b1fc13d77fd353ced43869ee6c7836a9f3be4c588e1391",
+      "text_original": "收货日期",
+      "corrected_text": "收件日期",
+      "note": "修正收件日期字段。"
+    },
+    {
+      "id": "A12181-zh-00010",
+      "source_hash": "4b237b7c112d6da6395f1e447cbac78f5d1928aad05d425161451f4d0a6eac1c",
+      "text_original": "Name(公司名称)",
+      "corrected_text": "姓名（法人名称）",
+      "note": "修正申请人姓名字段。"
+    },
+    {
+      "id": "A12181-zh-00017",
+      "source_hash": "364d448a22b1512f4d3cd6ffae16cd65c8e787a5bbe2a79e4b4fe964e509f437",
+      "text_original": "主题",
+      "corrected_text": "对象",
+      "note": "修正对象土地标签。"
+    },
+    {
+      "id": "A12181-zh-00018",
+      "source_hash": "3c2d6ddb4a94f1f363750ba2402fd1286402566fc07871795119af9623e46fbd",
+      "text_original": "属性",
+      "corrected_text": "土地",
+      "note": "修正对象土地标签。"
+    },
+    {
+      "id": "A12181-zh-00020",
+      "source_hash": "809b4c1ed45b0f38e49448669edf5909c46b8817505532f81f511621f5c4f091",
+      "text_original": "标准地块",
+      "corrected_text": "标准土地",
+      "note": "修正异议对象类型。"
+    },
+    {
+      "id": "A12181-zh-00027",
+      "source_hash": "a381fab686d0c563a24164a83442041e9471a4fa7a330e141f6353f8fcad48c1",
+      "text_original": "反对",
+      "corrected_text": "异议",
+      "note": "이의在本表中指异议。"
+    },
+    {
+      "id": "A12181-zh-00028",
+      "source_hash": "9262b342f1e6bdc033a2e766aec6dd8cf21f40bdeb110bb6f8132bdb27c89d13",
+      "text_original": "官方评估土地价格",
+      "corrected_text": "标准土地公示地价",
+      "note": "修正异议对象价格术语。"
+    },
+    {
+      "id": "A12181-zh-00029",
+      "source_hash": "ac00a13fa20066f6c55584de44ba4f1815e81b6c2e32e369b2a89f12e3d94380",
+      "text_original": "Price 建议价格",
+      "corrected_text": "异议价格",
+      "note": "修正申请人提出的异议价格字段。"
+    },
+    {
+      "id": "A12181-zh-00030",
+      "source_hash": "d50b3dbf426664f40f93ab0da601bd7d9a2076f376bdadccf63149b8ecd1e5c3",
+      "text_original": "应用程序基础",
+      "corrected_text": "异议理由",
+      "note": "修正申请理由字段。"
+    },
+    {
+      "id": "A12181-zh-00031",
+      "source_hash": "b1b56885b6cae4715d87bcd15524c490175c399732ef9224b71f190f397d49fe",
+      "text_original": "根据《房地产价格公开法》第七条第一款和该法实施令第十二条的规定",
+      "corrected_text": "根据《房地产价格公示法》第七条第一款及该法施行令第十二条，",
+      "note": "修正异议申请法律依据。"
+    },
+    {
+      "id": "A12181-zh-00034",
+      "source_hash": "2330199cec2ec7a0ebde6447fa4f65e4a1ea04c7b9b3b565f72b15c4dde44f99",
+      "text_original": "在",
+      "corrected_text": "日",
+      "note": "日期字段年、月、日的最后一项。"
+    },
+    {
+      "id": "A12181-zh-00035",
+      "source_hash": "a9be5e24d6ee9a77d672d992135be8735ef0fd50cff6cbc1b3e5a6e05af6aaca",
+      "text_original": "我谨就上述公开公布的标准土地价格提出异议。",
+      "corrected_text": "现就上述公示的标准土地价格提出异议。",
+      "note": "统一公示地价术语。"
+    },
+    {
+      "id": "A12181-zh-00041",
+      "source_hash": "c4a5e4b680ba56bb2b3309f98c60d707b08803603204441a703e38eed38f012d",
+      "text_original": "致国土交通部长",
+      "corrected_text": "致：国土交通部长官",
+      "note": "修正国土交通部长官职衔。"
     }
   ],
   "quality_checks": {
     "source_zh_sha_preserved": true,
     "mtq_remaining": 0,
     "unique_changed_ids": true,
-    "total_saved_changes": 180
+    "total_saved_changes": 221
   },
-  "next_step": "Review all 31 attached forms A12177–A12207 sequentially. Preserve English bilingual sections where intentionally included; correct MTQ control remnants and untranslated Korean field labels only."
+  "next_step": "Continue form-by-form review from A12179 onward, compare each Korean field with its Chinese row, preserve English bilingual sections, and inspect table headings, labels, amounts, signatures, and processing-flow labels."
 }
