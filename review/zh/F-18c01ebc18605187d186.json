@@ -1409,6 +1409,34 @@
       "source_hash": "25886096976ed74bdf3fec22f89dac67e1fd290dc5daf2d5f90890474048fd17",
       "target_id": "XML:2217619",
       "source_progress": "C02 sequential Annex A30229 review; obvious qualification category mistranslation"
+    },
+    {
+      "id": "A30229-zh-00088",
+      "text": "或地方政府",
+      "source_hash": "0cd06d138f81f7f6dc099bf4de7054bca492bf1d37e426d9403683f659261dcb",
+      "target_id": "XML:2217633",
+      "source_progress": "C02 sequential Annex A30229 table review; obvious OCR/MT corruption"
+    },
+    {
+      "id": "A30229-zh-00091",
+      "text": "精神健康促进项目等",
+      "source_hash": "4c7f0b7c3b9faec3a2eedf9f6f12cad929c646ed5dfa47a70fe293e0bc87cdc6",
+      "target_id": "XML:2217636",
+      "source_progress": "C02 sequential Annex A30229 table review; obvious OCR/MT corruption"
+    },
+    {
+      "id": "A30229-zh-00093",
+      "text": "精神健康促进项目等",
+      "source_hash": "4c7f0b7c3b9faec3a2eedf9f6f12cad929c646ed5dfa47a70fe293e0bc87cdc6",
+      "target_id": "XML:2217638",
+      "source_progress": "C02 sequential Annex A30229 table review; obvious OCR/MT corruption"
+    },
+    {
+      "id": "A30229-zh-00100",
+      "text": "精神健康促进项目等",
+      "source_hash": "3a7156bb8fada17f69a2d86ca6f2678de9e97e3ffef7a61be4b8798e255e81ee",
+      "target_id": "XML:2217645",
+      "source_progress": "C02 sequential Annex A30229 table review; obvious OCR/MT corruption"
     }
   ],
   "adjudicated_edit_count": 0,
@@ -1423,7 +1451,7 @@
   "ordered_reading_certification": {
     "korean": "READ_COMPLETE_ALL_65_DOCUMENTS",
     "english": "READ_COMPLETE_AVAILABLE_SOURCES_B1_AND_B2_FALLBACK",
-    "chinese": "IN_PROGRESS; B1 complete; B2 through row 105; Annex A30229 reviewed through row 74; remaining table and other annexes/forms pending"
+    "chinese": "IN_PROGRESS; B1 complete; B2 through row 105; Annex A30229 reviewed through row 105; remaining A30229 table cells and other documents pending"
   },
   "checked_unique_ids": [
     "B1-zh-00001",
@@ -1779,10 +1807,41 @@
     "A30229-zh-00071",
     "A30229-zh-00072",
     "A30229-zh-00073",
-    "A30229-zh-00074"
+    "A30229-zh-00074",
+    "A30229-zh-00075",
+    "A30229-zh-00076",
+    "A30229-zh-00077",
+    "A30229-zh-00078",
+    "A30229-zh-00079",
+    "A30229-zh-00080",
+    "A30229-zh-00081",
+    "A30229-zh-00082",
+    "A30229-zh-00083",
+    "A30229-zh-00084",
+    "A30229-zh-00085",
+    "A30229-zh-00086",
+    "A30229-zh-00087",
+    "A30229-zh-00088",
+    "A30229-zh-00089",
+    "A30229-zh-00090",
+    "A30229-zh-00091",
+    "A30229-zh-00092",
+    "A30229-zh-00093",
+    "A30229-zh-00094",
+    "A30229-zh-00095",
+    "A30229-zh-00096",
+    "A30229-zh-00097",
+    "A30229-zh-00098",
+    "A30229-zh-00099",
+    "A30229-zh-00100",
+    "A30229-zh-00101",
+    "A30229-zh-00102",
+    "A30229-zh-00103",
+    "A30229-zh-00104",
+    "A30229-zh-00105"
   ],
-  "checked_rows": 354,
-  "corrected_rows": 199,
+  "checked_rows": 385,
+  "corrected_rows": 203,
   "notes": [
     "Only obvious omissions of clause numbering and a missing subparagraph marker corrected; substantive terminology and existing wording retained.",
     "B2 English is an older fallback (version 272521), not exact current Korean version; newer provisions require Korean-Chinese comparison.",
@@ -1820,6 +1879,7 @@
     "Sequential review resumed in Annex A30229 through row 24. Corrected obvious mistranslations in the social-work qualification, the Medical Technicians Act citation, and the occupational-therapy training-period exclusion. Other reviewed fragments were retained pending the next table-aligned pass.",
     "Sequential Annex A30229 review continued through rows 10-25. Corrected clear mistranslations of statutory 'under the Nursing Act', social welfare/social work academic fields, Medical Technicians Act reference, nursing master's qualification, and mental-health occupational therapist terminology. Row A30229-zh-00024 contains corrupted machine text ('球 END'); exact source-cell alignment must be established before replacement. Rows 20, 22, 24-25 remain subject to source-aligned table QA; no completion claim.",
     "Continued Annex A30229 sequentially through row 65. Corrected clear mistranslations/corrupted fragments for the Minister of Health and Welfare, occupational therapy, the defined training institution, table reference, person, and exclusion-period phrase. Uncertain fragmented cells remain for contextual table QA.",
-    "Sequential review of Annex A30229 rows 66-74. Corrected the four grade-2 professional category labels and qualification labels where the machine translation had dropped or distorted the professional specialty. Fragmentary repeated cells from row 75 onward remain pending contextual table alignment."
+    "Sequential review of Annex A30229 rows 66-74. Corrected the four grade-2 professional category labels and qualification labels where the machine translation had dropped or distorted the professional specialty. Fragmentary repeated cells from row 75 onward remain pending contextual table alignment.",
+    "Sequential Annex A30229 review continued through row 105. Corrected only unmistakable machine/OCR corruptions ('加纳地方政府', '心理健康从 START', '钢铁强化项目等') using the Korean schedule context. Rows 75-87, 92, 94, 96, 98-99, 101-105 contain split fragments whose exact cell boundaries need further table-context QA; no speculative reconstruction applied."
   ]
 }
