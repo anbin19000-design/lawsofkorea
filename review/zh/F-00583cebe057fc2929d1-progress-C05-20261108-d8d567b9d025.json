@@ -1,0 +1,83 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "family": "실용신안법",
+  "worker": "C05",
+  "assignment": "[WORK-TASK:C05:F-00583cebe057fc2929d1:d8d567b9d025]",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "previous_progress": "review/zh/F-00583cebe057fc2929d1-progress-C05-20261108-df32fefacf17.json",
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "07c5a31493c320ca4598ae94460b19e4a9a18d52",
+  "review_commit": "7ccdf791cc67647178d06085c778b27fc6e1bec9",
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "prior_corrections": 197,
+  "new_corrections": [
+    {
+      "id": "B3-zh-00022",
+      "source_hash": "19ce815eb09afa7694b23b5c15cf9ce4de1e40f4b745716e162312d80a164375",
+      "decision": "CORRECT",
+      "reason": "시행규칙 제13조의5 한국어 원문 대조: 8개월 기한의 전후 반전, 제17조 준용 주체를 특허법으로 오인한 조문, 지식재산처·특허심판원 명칭, 제33조·제44조를 특허법 조문으로 오기한 부분을 국소적으로 교정."
+    }
+  ],
+  "total_corrections": 198,
+  "previous_pending_rows": 89,
+  "unresolved": [
+    {
+      "id": "B2-zh-00081",
+      "status": "SOURCE_MAPPING_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A29604",
+      "status": "ANNEX_ALIGNMENT_REQUIRED"
+    },
+    {
+      "id": "B3-zh-00117",
+      "status": "SOURCE_MAPPING_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8690",
+      "status": "FORM_ALIGNMENT_REQUIRED"
+    },
+    {
+      "id": "A8693",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8698",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8699",
+      "status": "SOURCE_CONTENT_MISSING"
+    },
+    {
+      "id": "A8703",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8708",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8709",
+      "status": "SOURCE_CONTENT_MISSING"
+    },
+    {
+      "id": "A8690-zh-00499",
+      "status": "SOURCE_TEXT_FRAGMENT_REVIEW_REQUIRED"
+    }
+  ],
+  "english_note": "B1/B2 official exact-version; B3/forms only 2010 fallback, not exact current version; decree also has AI draft.",
+  "reading_status": "FULL_KO_EN_ZH_SEQUENTIAL_READING_NOT_VERIFIED",
+  "completion_receipt": null,
+  "notes": "기존 197개 교정 유지, 시행규칙 13조의5 1개 행 원문 준용·기한 교정. 원문 SHA 불변, 전체 묶음 완료 검증 및 훼손 자료 미해결로 완료 영수증 미발행."
+}
