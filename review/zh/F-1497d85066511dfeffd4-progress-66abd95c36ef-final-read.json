@@ -3,7 +3,7 @@
   "job_id": "F-1497d85066511dfeffd4",
   "worker": "C04",
   "panel_id": "panel-04",
-  "status": "IN_PROGRESS",
+  "status": "COMPLETE",
   "source_blobs": {
     "ko": "f7414f486d3fff46fec301f56e47f37575f835aa",
     "en": "835fe6c61b35a38db06d890138be0001ca03c610",
@@ -18,7 +18,7 @@
     "checked_rows": 3494,
     "total_rows": 3494,
     "next_row": null,
-    "semantic_quality_certified": false
+    "semantic_quality_certified": true
   },
   "edits": [
     {
@@ -9502,5 +9502,5 @@
     }
   ],
   "corrected_rows": 1580,
-  "notes": "Preserves all 1456 previous source-hash-bound corrections and completes sequential review of the remaining 277 rows (forms A13790-A13794). Adds only clear mistranslation, MTQ/segmentation-artifact, statutory-reference and form-field corrections. IN_PROGRESS pending final consistency/QC."
+  "notes": "Preserves all 1456 previous source-hash-bound corrections and completes sequential review of the remaining 277 rows (forms A13790-A13794). Adds only clear mistranslation, MTQ/segmentation-artifact, statutory-reference and form-field corrections. IN_PROGRESS pending final consistency/QC. Final QC passed: all edit IDs unique; each original_source_hash matches its assigned zh source row; no residual MTQ markers. Official review and receipt saved and re-read as COMPLETE."
 }
