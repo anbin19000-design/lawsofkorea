@@ -17,11 +17,11 @@
   },
   "current_review": {
     "path": "review/zh/F-81e30c25fcbea5af2364.json",
-    "blob_sha": "a0b20cc716cc8efc4ff6f9e996ac6f30b1f8f272",
+    "blob_sha": "3bbcca49d43e09449696c49da160c644ce5916c5",
     "schema": "LAW_ZH_REVIEW_CUMULATIVE_V1",
     "status": "IN_PROGRESS",
     "edits": 324,
-    "checked_unique_ids": 372
+    "checked_unique_ids": 378
   },
   "reading_checkpoint": {
     "korean": {
@@ -89,7 +89,13 @@
         "B2-zh-00032",
         "B2-zh-00034",
         "B2-zh-00035",
-        "B2-zh-00036"
+        "B2-zh-00036",
+        "B2-zh-00040",
+        "B2-zh-00043",
+        "B2-zh-00045",
+        "B2-zh-00047",
+        "B2-zh-00051",
+        "B2-zh-00055"
       ],
       "new_corrections": [
         "B2-zh-00028",
@@ -105,7 +111,8 @@
         "B2-zh-00017",
         "B2-zh-00020",
         "B2-zh-00025",
-        "B2-zh-00027"
+        "B2-zh-00027",
+        "B2-zh-00040"
       ],
       "checked_without_change": [
         "B2-zh-00033",
@@ -142,7 +149,12 @@
         "B2-zh-00032",
         "B2-zh-00034",
         "B2-zh-00035",
-        "B2-zh-00036"
+        "B2-zh-00036",
+        "B2-zh-00043",
+        "B2-zh-00045",
+        "B2-zh-00047",
+        "B2-zh-00051",
+        "B2-zh-00055"
       ]
     }
   },
@@ -202,6 +214,10 @@
     {
       "id": "B2-zh-00027",
       "reason": "Restore truncated second exemption and complete paragraph ④."
+    },
+    {
+      "id": "B2-zh-00040",
+      "reason": "Restore paragraph numbering ④ and ⑥-⑧ and item punctuation."
     }
   ],
   "english_coverage_note": "The index lists 712/1,133 row-level English references; 421 have no row-level English. B1 and B2 have official parent fallback, but it is a different version for B2; B3 and all A25465-A25474 have no indexed English documents.",
@@ -211,5 +227,5 @@
     "zh": false
   },
   "completion_receipt_verified": false,
-  "next_action": "Continue B2 in statutory sequence from the next unchecked Chinese row. Korean and English full-family sequential reading and full Chinese family review remain uncertified; do not mark COMPLETE or issue a receipt."
+  "next_action": "Continue from next unchecked B2 row in statutory sequence, then complete remaining annexes and forms. Do not certify full-family reading until the complete Korean and available English originals have been read in order and all Chinese rows have been reviewed."
 }
