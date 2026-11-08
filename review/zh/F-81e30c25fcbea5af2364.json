@@ -2521,6 +2521,51 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-ab7160916418.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
       "reason": "第53条之2第2款中的“규제특례 적용”是规制特例的适用情况，不是“规制特别规定的申请”；原译将已经适用的规制特例误译为申请。同步按原文保留各款法律条件、期限和责任主体。"
+    },
+    {
+      "id": "B1-zh-00084",
+      "text": "第五条（修改其他法律）《社会基础设施民间投资法》部分修改如下。\n\n  在第二条第一款中新增“무”项，内容如下：\n\n      무.《关于普适城市建设等的法律》第二条第三项所规定的普适城市基础设施。\n\n  在第二条第十三款中新增“투”项，内容如下：\n\n      투.《关于普适城市建设等的法律》。\n\n",
+      "source_hash": "5cfd697dabde1223286af235d0db617d65c3e02b9dfac7c2471842d71bebf053",
+      "target_id": "b0c6a3da97384a528f1a7c53405b09b1e5fab565ba079610365d756e7da4e54a",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-ab7160916418.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "韩文原文在两个新增款项中使用特定韩文字母序号“무.”和“투.”，原译分别写成“Mu.”和“二”，第二处造成编号错误；且将正式法律名称误称为“法案”。保留原韩文序号以免错误换算，并将法案改为法律。"
+    },
+    {
+      "id": "B1-zh-00085",
+      "text": "附则（《公共财产及物品管理法》）<第9174号法律，2008年12月26日>\n\n",
+      "source_hash": "0b5eb08af2be3ef2eaacfbbaf3078ad456053d4123320f90a53940daa6da8187",
+      "target_id": "a347f9d040fe60c33eb8888f3938a5deeb00fbbc9bc6d60e70a44adb9bf527bc",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-ab7160916418.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "该标题是已制定法律的附则标题，编号应称“法律”而非“法案”；“부칙”在此为附则。"
+    },
+    {
+      "id": "B1-zh-00090",
+      "text": "附则（《国家信息化基本法》）<第9705号法律，2009年5月22日>\n\n",
+      "source_hash": "34cbc586ef7876efeba0a0b4d2a42a064fed421ae742a3ff4e3ce20d72ea17e7",
+      "target_id": "9a09d51d39c56cbc593fa16df49d9e497b873a32175447f3854880350e7f1ff5",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-ab7160916418.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "该标题指已制定的《国家信息化基本法》，不是法案；原译“法案”错误。"
+    },
+    {
+      "id": "B1-zh-00094",
+      "text": "附则（《农渔村整备法》）<第9758号法律，2009年6月9日>\n\n",
+      "source_hash": "b9c58ecbc7ea93de17ff2e8b4efc4a4fdbea754e1ed8499f33cc4677d018e83b",
+      "target_id": "34d18520fbc1939b8bdb90b03f035282fb864ffdf29e8101a1c741bf125ed6cb",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-ab7160916418.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "已制定的法律编号应为法律而非法案；将正式法律标题作最小澄清。"
+    },
+    {
+      "id": "B1-zh-00098",
+      "text": "附则（《森林保护法》）<第9763号法律，2009年6月9日>\n\n",
+      "source_hash": "cb888401113069b0afcae01e93c372358d449a3a0b3ae94401eb2d17a1ab9548",
+      "target_id": "e014bc14e648eebe8b8c3f6ae9d2ee6caa7a4b66f5e2cba4f8c3d09e0ea998b6",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-ab7160916418.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "已制定的法律编号应为法律而非法案；将正式法律标题作最小澄清。"
     }
   ],
   "adjudicated_edit_count": 288,
@@ -7715,12 +7760,13 @@
     "2026-11-08 C02 continuation: four source-grounded corrections in B1 rows 00061, 00063, 00065 and 00072; prior edits including Article 53-3 numbering preserved.",
     "2026-11-08 C02 continuation: restored the omitted 신고 (filing/notification) element for temporary mountain use in B1-zh-00108; no style-only rewrites.",
     "2026-11-08 C02 continuation: corrected Article 33 item 1 condition, Article 40 Aviation Safety Act Article 2 subparagraph 3, and Article 41 Software Promotion Act Article 2 subparagraphs 3 and 4. Existing master decisions preserved.",
-    "2026-11-08 C02 continuation: refined existing B1-zh-00073 and added correction for B1-zh-00074; retained previous edits and source hashes."
+    "2026-11-08 C02 continuation: refined existing B1-zh-00073 and added correction for B1-zh-00074; retained previous edits and source hashes.",
+    "2026-11-08 C02 continuation: corrected B1 rows 00084, 00085, 00090, 00094 and 00098; preserved existing review history."
   ],
   "integration_progress": {
-    "stage": "B1_ARTICLES53_AND53_2_SUBMISSION_OBJECTS_RECONCILED",
+    "stage": "B1_EARLY_TRANSITIONAL_LAW_TITLES_AND_ENUMERATION_RECONCILED",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:ab7160916418",
-    "note": "Clarified Article 53(3) deadline and submission object in existing edit; corrected Article 53-2(2) regulatory-exemption application mistranslation. Whole family remains IN_PROGRESS."
+    "note": "Corrected historic law addenda titles mislabelled as bills and restored Korean statutory sub-item markers in B1-zh-00084. Whole family remains IN_PROGRESS."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -8042,7 +8088,12 @@
     "B1-zh-00046",
     "B1-zh-00057",
     "B1-zh-00058",
-    "B1-zh-00074"
+    "B1-zh-00074",
+    "B1-zh-00084",
+    "B1-zh-00085",
+    "B1-zh-00090",
+    "B1-zh-00094",
+    "B1-zh-00098"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
