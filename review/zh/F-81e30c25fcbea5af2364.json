@@ -2260,9 +2260,27 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-b98b4421518f.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
       "reason": "The source says deceased victim, not deceased claimant; paragraph ② requires notification of insurance enrollment or the statutory compensation plan, not a combined purported insurance/plan."
+    },
+    {
+      "id": "B2-zh-00073",
+      "source_hash": "b7bdd555e3309f97391efe01aebaecf0e19d5d720880da706489f522143ae815",
+      "target_id": "d4961f2307f2319ba0c9423143dd9502ec7cae59e6009af013a87dfaba25a68e",
+      "text": "第57-2条（无法投保责任保险时的损害赔偿等赔偿标准）\n① 如果智能创新企业经营者打算根据该法第53条第6款的规定获得批准，则必须向国土交通大臣提交智能创新企业计划书，其中包括下列各款规定的数据。\n1. 无法获得责任保险的原因说明\n2. 损害赔偿计划，包括因实施智能创新项目计划而发生人身或财产损害的赔偿方法、标准和程序\n② 如果智能创新企业经营者根据本法第53条第6款但书制定损害赔偿方案，则标准金额应当符合本施行令第57条第1款的规定。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-b98b4421518f-continued.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Restore exception clause (단서) and correct internal Decree Article 57(1) cross-reference erroneously cited as parent Act."
+    },
+    {
+      "id": "B2-zh-00052",
+      "source_hash": "b2e0513190a3eb7e68eb991457f686b697def30150a8227c122de56cf80305ba",
+      "target_id": "de129bcaef0d463439ac5be6e117021193da0d08f37385a2136578519c167a6c",
+      "text": "第40条之2（关于可再生能源范围的特别规定）\n① 如果国土交通大臣打算根据该法第42条之2第1款对可再生能源的范围作出不同的界定，则应当根据行政程序法第 46 条发布行政通知。\n② 如果国土交通大臣根据该法第 42-2 条第 1 款确定了可再生能源的不同范围，则应在官方公报上公布。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-b98b4421518f-continued.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Correct Article 42-2(1) legal hierarchy in ministerial notice provision."
     }
   ],
-  "adjudicated_edit_count": 276,
+  "adjudicated_edit_count": 278,
   "pending_single_candidate_count": 350,
   "pending_conflict_count": 0,
   "pending_single_candidates": [
@@ -7552,9 +7570,9 @@
     "Existing stored adjudications and later progress files must be incorporated with source/hash verification before COMPLETE."
   ],
   "integration_progress": {
-    "stage": "C02_DIRECT_CORRECTIONS_ORDERED_READING_PENDING",
+    "stage": "C02_VERIFIED_EDITS_FULL_FAMILY_AUDIT_PENDING",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:b98b4421518f",
-    "note": "Two direct source-grounded corrections, existing translations preserved; full read not yet certified."
+    "note": "Four new directly verified corrections this task, full family audit incomplete."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -7847,7 +7865,9 @@
     "B2-zh-00078",
     "B2-zh-00053",
     "B2-zh-00050",
-    "B2-zh-00074"
+    "B2-zh-00074",
+    "B2-zh-00073",
+    "B2-zh-00052"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
