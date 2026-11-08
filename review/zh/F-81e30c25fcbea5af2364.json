@@ -2791,9 +2791,36 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-66b0b614d7aa.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
       "reason": "Use 附则 and the standard name of the National Land Planning and Utilization Act Enforcement Decree."
+    },
+    {
+      "id": "B2-zh-00114",
+      "source_hash": "f762d2bdf4ec8b9da4639cdf7ed7a5209cb0e18859f42108ec7b3df737a9faf0",
+      "target_id": "73f40c932a0b62489a23ffdde1831f587a329bb58949623fdb968028b68a0260",
+      "text": "附则 <第24189号，2012年11月20日>\n\n本施行令自2012年11月24日起施行。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-6330608994de.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Correct 부칙 and 이 영, 시행."
+    },
+    {
+      "id": "B2-zh-00115",
+      "source_hash": "886d1979faf30a0c2170387cbedf47e82fbcf861e58aea6a47468e7fbef01dba",
+      "target_id": "e477f8a04cad45fa5f40bc4d2ed56af0f9c686039fee67798a28d382639373f5",
+      "text": "附则（《国土交通部及其所属机关职制》）<第24443号，2013年3月23日>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-6330608994de.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Correct supplementary provision label and organization decree title."
+    },
+    {
+      "id": "B2-zh-00118",
+      "source_hash": "e19cf6da49db580d4791e9ecdc5465e757b4dc110d4210dbdbca9b483d5203a4",
+      "target_id": "ee1879ff4dac8dd7dc336e71bff8cd50b46e6eec73e90082894757616302f7af",
+      "text": "附则（《新万金事业推进及支援特别法施行令》）<第24720号，2013年9月9日>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-6330608994de.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Correct supplementary provision label and name of referenced enforcement decree."
     }
   ],
-  "adjudicated_edit_count": 288,
+  "adjudicated_edit_count": 291,
   "pending_single_candidate_count": 343,
   "pending_conflict_count": 0,
   "pending_single_candidates": [
@@ -8001,12 +8028,13 @@
     "2026-11-08 C02 continuation: corrected B2 rows 00089 and 00091 in historical amendment supplements (Enforcement Decree title and official institution name; supplement terminology). Rows 00087, 00088, 00090 and 00092 compared and retained.",
     "2026-11-08 C02 continuation: corrected B2 rows 00093, 00094, 00097 and 00099 in 2009 amendment supplements (Enforcement Decree instrument title, supplementary-provision label, National Informatization Act title and missing item marker). Rows 00095, 00096 and 00098 compared and retained.",
     "2026-11-08 C02 continuation: corrected B2 rows 00101, 00103, 00105 and 00106 in 2010 supplementary amendments; restored omitted amendment item numbers and corrected supplementary-provision labels and Decree titles. Rows 00100, 00102 and 00104 compared and retained.",
-    "2026-11-08 C02 continuation: corrected B2 rows 00108, 00109, 00110 and 00112 in 2010-2012 historical supplementary amendments; corrected Decree titles, 附则 label, item <52> marker and city/county basic plan terminology. Rows 00107 and 00111 compared and retained."
+    "2026-11-08 C02 continuation: corrected B2 rows 00108, 00109, 00110 and 00112 in 2010-2012 historical supplementary amendments; corrected Decree titles, 附则 label, item <52> marker and city/county basic plan terminology. Rows 00107 and 00111 compared and retained.",
+    "2026-11-08 C02 continuation 6330608994de: verified Korean-source B2 rows 00114-00116, 00118; corrected three supplement headings/effective-date terms; retained 00116. No COMPLETE certification."
   ],
   "integration_progress": {
-    "stage": "B2_HISTORICAL_SUPPLEMENTS_2010_TO_2012_RECONCILED",
-    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:66b0b614d7aa",
-    "note": "Corrected B2-zh-00108, 00109, 00110 and 00112; retained adjacent effective-date rows. Whole family remains IN_PROGRESS."
+    "stage": "B2_2012_TO_2013_SUPPLEMENTARY_PROVISIONS_RECONCILED",
+    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:6330608994de",
+    "note": "Corrected B2 00114, 00115, 00118; B2 00116 retained. B2 00117 requires careful cross-reference verification. Full-family sequential reading not certified."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -8432,7 +8460,8 @@
     "B2-zh-00110",
     "B2-zh-00112",
     "B2-zh-00107",
-    "B2-zh-00111"
+    "B2-zh-00111",
+    "B2-zh-00116"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
