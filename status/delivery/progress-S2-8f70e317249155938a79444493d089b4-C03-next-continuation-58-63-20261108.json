@@ -1,0 +1,70 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26703",
+  "range": {
+    "first": "A26703-zh-00058",
+    "last": "A26703-zh-00063"
+  },
+  "quality_checked_rows": 6,
+  "quality_passed_rows": 5,
+  "quality_failed_rows": 1,
+  "quality_checked_ids": [
+    "A26703-zh-00058",
+    "A26703-zh-00059",
+    "A26703-zh-00060",
+    "A26703-zh-00061",
+    "A26703-zh-00062",
+    "A26703-zh-00063"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_correction_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26703-00001-00083.json",
+  "results": [
+    {
+      "id": "A26703-zh-00058",
+      "source_hash": "afe9e0b436d352335d3ec653a3ae47614a09aeb779d5f9897d8863a26306225c",
+      "verdict": "NEEDS_RECONCILIATION",
+      "reason": "57행 기저장 교정문에 6호 적용 조건 전체가 포함되어 별도 '(适用)'가 한국어 셀에 독립 대응하는지 확인 필요. 덮어쓰기 보류."
+    },
+    {
+      "id": "A26703-zh-00059",
+      "source_hash": "b827c74bf8d6e87420e0f5fbb59551e36f9d2f125502ccc70f9f11139bd8294d",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "adopted_text": "经办公务员",
+      "reason": "담당 공무원"
+    },
+    {
+      "id": "A26703-zh-00060",
+      "source_hash": "19f6628f64e34858adbff5edae175fb444aa65584c72ac93ab8cf0b4dadd90a6",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "adopted_text": "建筑物登记事项证明书及土地登记事项证明书",
+      "reason": "건물등기사항증명서, 토지등기사항증명서"
+    },
+    {
+      "id": "A26703-zh-00061",
+      "source_hash": "1a5be3c5938c8c2cedf096bb1485ce5f53335572edc7c3dbbf132e7bf9927045",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "adopted_text": "核实事项",
+      "reason": "확인사항. 원본 MTQ 오염 제거된 기저장 교정문 확인"
+    },
+    {
+      "id": "A26703-zh-00062",
+      "source_hash": "c9b10df2527127ea18b556946c54ecd34af4184b48195d70f5331c986474353a",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "adopted_text": "本人同意经办公务员为办理本申请，依《电子政府法》第三十六条第一款，通过行政信息共同利用机制",
+      "reason": "전자정부법 제36조제1항 및 행정정보 공동이용 동의 문맥의 앞부분"
+    },
+    {
+      "id": "A26703-zh-00063",
+      "source_hash": "8039545810c56c1326e547bcc99867fb23d8932f3a5c8679eb13a813dd61ea19",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "adopted_text": "核实上述经办公务员核实事项。* 如不同意，申请人须自行提交相关文件。",
+      "reason": "확인사항 동의와 미동의 시 신청인 직접 서류 제출 의무"
+    }
+  ],
+  "edits": [],
+  "note": "New quality decisions only; source hash preserved; row 58 requires neighboring-cell reconciliation and has not been overwritten. Row 50 likewise remains unresolved."
+}
