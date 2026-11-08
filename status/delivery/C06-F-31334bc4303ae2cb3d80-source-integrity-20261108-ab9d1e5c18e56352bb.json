@@ -1,0 +1,40 @@
+{
+  "schema": "LAW_ZH_SOURCE_INTEGRITY_AUDIT_V1",
+  "job_id": "F-31334bc4303ae2cb3d80",
+  "assignment_id": "S2-30caa1192ecd4c75a8ea030b41cf3e77",
+  "worker": "C06",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "d6d795ff1ece4a82663a83efd46f7f73afa7fbbb",
+    "en": "16e015facbcef00df95c985f816f47acf7bcfef7",
+    "zh": "7a6d1e8d841fb3b27185d6d4a6b811149d604dc0"
+  },
+  "document_count": 19,
+  "zh_row_count": 1206,
+  "duplicate_zh_row_ids": [],
+  "english_documents": [
+    {
+      "path": "documents/en/kr-011433-259305-en.json",
+      "sha": "78b926945038f20db5256cfbda8df03c41a43a74",
+      "version": "259305",
+      "type": "EXACT"
+    },
+    {
+      "path": "documents/en/kr-011662-275185-en.json",
+      "sha": "175aec07dc6b11c4a307553317d905314d00b3d7",
+      "version": "275185",
+      "type": "EXACT"
+    },
+    {
+      "path": "documents/en/kr-011882-232789-en.json",
+      "sha": "6067d0630ff7d0f832dfe6b455020ac5e5f9bfb0",
+      "version": "232789",
+      "type": "FALLBACK"
+    }
+  ],
+  "automated_indicator_count": 25,
+  "indicator_scope": "Original Chinese rows containing MTQ/START/END or Korean text; existing progress-01 already addresses all 25, so no duplicate edit proposed.",
+  "prior_quality_path": "review/zh/F-31334bc4303ae2cb3d80-C06-quality-aggregate-final.json",
+  "prior_quality_sha": "3326c6d23014c93da17d6e108f2fcf717f142395",
+  "note": "Source integrity and scope audit only. No claim of full semantic reading or COMPLETE. Preserve all existing progress and quality judgments, including rejection for A22642-zh-00033. English fallback version differs from Korean rule version; Korean authoritative. Final review and receipt not written."
+}
