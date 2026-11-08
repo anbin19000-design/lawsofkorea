@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 1380,
+    "verified_zh_rows": 1440,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 1380,
-      "checked_rows": 1380,
+      "next_row_zero_based": 1440,
+      "checked_rows": 1440,
       "total_rows": 5228
     }
   },
@@ -1621,9 +1621,243 @@
       "text": "",
       "original_text": "在未有水利管理人员参与的情况下进行挖掘作业",
       "reason": "与前一项完整句合并后删除重复错误片段"
+    },
+    {
+      "id": "A28851-zh-00072",
+      "text": "J. 违反本法第七十六条第六款规定的紧急通行限制的情形",
+      "original_text": "。根据该法第76条第6款实施紧急交通管制。",
+      "reason": "紧急通行限制行为的表格类别句被截断"
+    },
+    {
+      "id": "A28851-zh-00075",
+      "text": "",
+      "original_text": "，则违反了",
+      "reason": "与前一项完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00077",
+      "text": "K. 违反本法第七十七条第一款规定的车辆通行限制的情形",
+      "original_text": "车辆。根据该法第77条第1款的规定，驾驶限制",
+      "reason": "车辆运行限制违法类别句残缺"
+    },
+    {
+      "id": "A28851-zh-00079",
+      "text": "违法行为",
+      "original_text": "违规情况",
+      "reason": "行政罚款表中违法行为栏术语不准确"
+    },
+    {
+      "id": "A28851-zh-00081",
+      "text": "1) 违反本法第七十七条第一款正文规定的车辆通行限制，轴荷超限不足2吨，或总重量超限不足5吨而行驶的情形",
+      "original_text": "1) 根据该法第77条第1款正文的规定进行操作",
+      "reason": "第一档车辆超限数值条件未译出且‘操作’不当"
+    },
+    {
+      "id": "A28851-zh-00085",
+      "text": "",
+      "original_text": "违反限值，使轴荷小于2吨",
+      "reason": "与前一项完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00086",
+      "text": "",
+      "original_text": "或总重量小于 5 吨",
+      "reason": "与前一项完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00087",
+      "text": "",
+      "original_text": "如果操作过度",
+      "reason": "与前一项完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00088",
+      "text": "2) 违反本法第七十七条第一款正文规定的车辆通行限制，轴荷超限2吨以上但不足4吨，或总重量超限5吨以上但不足15吨而行驶的情形",
+      "original_text": "根据该法第77条第1款正文的规定，实施操作限制。",
+      "reason": "第二档车辆超限数值范围缺失且语义不通"
+    },
+    {
+      "id": "A28851-zh-00092",
+      "text": "",
+      "original_text": "规定，轴荷为 2 吨或以上，且轴荷为 4 吨；违反",
+      "reason": "与第二档完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00093",
+      "text": "",
+      "original_text": "或总重量 5 吨或以上 15",
+      "reason": "与第二档完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00094",
+      "text": "",
+      "original_text": "吨",
+      "reason": "与第二档完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00095",
+      "text": "3) 违反本法第七十七条第一款正文规定的车辆通行限制，轴荷超限4吨以上，或总重量超限15吨以上而行驶的情形",
+      "original_text": "根据该法第77条第1款正文的规定进行操作",
+      "reason": "第三档车辆超限标准数值缺失"
+    },
+    {
+      "id": "A28851-zh-00099",
+      "text": "",
+      "original_text": "违反限重规定，轴荷超过4吨或以上。",
+      "reason": "与第三档完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00100",
+      "text": "",
+      "original_text": "或总重量超过 15 吨或以上",
+      "reason": "与第三档完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00101",
+      "text": "",
+      "original_text": "如果操作",
+      "reason": "与第三档完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00102",
+      "text": "4) 违反本法第七十七条第一款正文规定的车辆通行限制，车辆宽度超限不足0.3米、高度超限不足0.3米，或长度超限不足3.0米而行驶的情形",
+      "original_text": "4) 根据该法第77条第1款正文进行的运作",
+      "reason": "第四档车宽、车高、车长超限数值缺失"
+    },
+    {
+      "id": "A28851-zh-00104",
+      "text": "",
+      "original_text": "车辆宽度超过0.3米限制",
+      "reason": "与第四档完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00105",
+      "text": "",
+      "original_text": "或高度 0.3 米",
+      "reason": "与第四档完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00106",
+      "text": "",
+      "original_text": "或长度为 3.0 米",
+      "reason": "与第四档完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00107",
+      "text": "",
+      "original_text": "如果操作超过小于 START",
+      "reason": "与第四档完整句合并并删除残留START标记"
+    },
+    {
+      "id": "A28851-zh-00108",
+      "text": "5) 违反本法第七十七条第一款正文规定的车辆通行限制，车辆宽度超限0.3米以上但不足0.5米、高度超限0.3米以上但不足0.5米，或长度超限3.0米以上但不足5.0米而行驶的情形",
+      "original_text": "根据该法第77条第1款正文的规定进行操作",
+      "reason": "第五档车宽、车高、车长范围及阈值翻译不完整"
+    },
+    {
+      "id": "A28851-zh-00110",
+      "text": "",
+      "original_text": "车辆宽度超出限制0.3米",
+      "reason": "与第五档完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00111",
+      "text": "",
+      "original_text": "超过 0.5 米，或高度",
+      "reason": "与第五档完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00112",
+      "text": "",
+      "original_text": "大于 0.3 米且小于 0.5 米",
+      "reason": "与第五档完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00113",
+      "text": "",
+      "original_text": "或长度超过 3.0 米，或超过 5.0 米",
+      "reason": "与第五档完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00114",
+      "text": "",
+      "original_text": "如果操作超过小于",
+      "reason": "与第五档完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00115",
+      "text": "6) 违反本法第七十七条第一款正文规定的车辆通行限制，车辆宽度超限0.5米以上、高度超限0.5米以上，或长度超限5.0米以上而行驶的情形",
+      "original_text": "根据该法第77条第1款正文的规定进行操作",
+      "reason": "第六档车宽、车高、车长超限标准缺失"
+    },
+    {
+      "id": "A28851-zh-00117",
+      "text": "",
+      "original_text": "车辆宽度超过0.5米限制",
+      "reason": "与第六档完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00118",
+      "text": "",
+      "original_text": "或更高，或者高度小于 0.5 米",
+      "reason": "与第六档完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00119",
+      "text": "",
+      "original_text": "超过限制，或长度为 5.0 米或以上。",
+      "reason": "与第六档完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00120",
+      "text": "",
+      "original_text": "如果操作超过 START",
+      "reason": "与第六档完整句合并并删除残留START标记"
+    },
+    {
+      "id": "A28851-zh-00121",
+      "text": "7) 违反本法第七十七条第一款但书规定的许可事项驾驶车辆的，视为违反同款正文规定的车辆通行限制，并按照1)至6)项相应违法行为的标准征收罚款。",
+      "original_text": "根据该法第77条第1款的但书规定，允许这样做。",
+      "reason": "许可事项违反时视同违反正文并按对应档次处罚的法律效果遗漏"
+    },
+    {
+      "id": "A28851-zh-00122",
+      "text": "",
+      "original_text": "《法案》第77条第1款正文",
+      "reason": "与第七项完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00123",
+      "text": "",
+      "original_text": "违反规定驾驶车辆",
+      "reason": "与第七项完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00124",
+      "text": "",
+      "original_text": "违规判断，1)",
+      "reason": "与第七项完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00125",
+      "text": "",
+      "original_text": "到 6)",
+      "reason": "与第七项完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00126",
+      "text": "",
+      "original_text": "与上述",
+      "reason": "与第七项完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00127",
+      "text": "L. 未依本法第七十七条第二款履行管理义务的情形",
+      "original_text": "K. 未按照《管理法》第77条第2款履行管理职责",
+      "reason": "道路法错写为管理法且违法类别序号错位"
     }
   ],
-  "note": "Sequential Chinese review continued through original row 1379 of Annex 7 fine schedule. Added 17 focused corrections for residual START markers, fine schedule terminology, violation frequency, road ledger non-submission, excessive road occupation, unpermitted temporary placement, wrong statute citation, and major underground utility manager participation. Previous 228 edits retained. Continue from row 1380. IN_PROGRESS.",
+  "note": "Sequential Chinese review continued through original row 1439 of Annex 7 administrative fine schedule. Added focused corrections to emergency traffic restriction, vehicle restriction categories, all six quantitative overrun bands (axle load, gross weight, width, height, length), permitted-vehicle condition violations, and erroneous statute name. Preserved fine amounts and table structure by consolidating fragmented text into corresponding item cells. Previous 245 edits retained. Continue from row 1440. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
