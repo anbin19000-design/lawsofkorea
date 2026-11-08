@@ -1,0 +1,79 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "B1",
+  "quality_batch": "B1-quality-01",
+  "range": {
+    "first": "B1-zh-00001",
+    "last": "B1-zh-00010"
+  },
+  "quality_checked_rows": 3,
+  "quality_passed_rows": 3,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "B1-zh-00004",
+    "B1-zh-00006",
+    "B1-zh-00010"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00001-00010.json",
+  "prior_progress_blob_sha": "5e11195e78394d150cd8f512567fca187f6b53d4",
+  "results": [
+    {
+      "id": "B1-zh-00004",
+      "source_hash": "03dd8e54508759514d44df3947fd1ebd523007063fbfa349adb6e5fcca6fd869",
+      "source_span": {
+        "start": 75,
+        "end": 1454
+      },
+      "candidate_from": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00001-00010.json",
+      "verdict": "PASS",
+      "source_span_verified": true,
+      "source_hash_matches_original_row": true,
+      "mtq_marker_present": false,
+      "start_marker_present": false,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Article 2 definition, protected persons exception, all 12 crime subitems and statutory references correspond to the Korean source."
+    },
+    {
+      "id": "B1-zh-00006",
+      "source_hash": "6156268537789fb52c6ab8b5f1cecf16aa4035a0c7eb11907c44d5eb1b4ee1aa",
+      "source_span": {
+        "start": 1841,
+        "end": 2017
+      },
+      "candidate_from": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00001-00010.json",
+      "verdict": "PASS",
+      "source_span_verified": true,
+      "source_hash_matches_original_row": true,
+      "mtq_marker_present": false,
+      "start_marker_present": false,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Article 4(1) consent does not affect offender culpability; Article 4(2) refers to offences committed by the victim, and mitigation or exemption remains discretionary."
+    },
+    {
+      "id": "B1-zh-00010",
+      "source_hash": "12ec230b5bd24024158ec125445bcb7b7154e8bd3675b5b0e9747685e2195b15",
+      "source_span": {
+        "start": 2555,
+        "end": 3517
+      },
+      "candidate_from": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00001-00010.json",
+      "verdict": "PASS",
+      "source_span_verified": true,
+      "source_hash_matches_original_row": true,
+      "mtq_marker_present": false,
+      "start_marker_present": false,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Article 8 paragraphs 1-6, five-year plan, annual duties, competent minister, Article 9 reference and complete item 9 match Korean source."
+    }
+  ],
+  "edits": [],
+  "note": "Quality audit of three previously saved Chinese corrections only. Korean source is controlling. Prior correction texts and source records remain unchanged. No whole-family COMPLETE claim."
+}
