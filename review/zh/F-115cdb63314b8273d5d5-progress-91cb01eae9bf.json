@@ -6,7 +6,7 @@
   "pc": "WORK-C",
   "assignment_marker": "[WORK-TASK:C06:F-115cdb63314b8273d5d5:91cb01eae9bf]",
   "status": "IN_PROGRESS",
-  "phase": "KO_FULL_READING_PENDING",
+  "phase": "KO_STRUCTURAL_TRAVERSAL_COMPLETE_FULL_READING_PENDING",
   "source_commit": "9edde23de1ced67de890822d81f5dc165fabb013",
   "source_blobs": {
     "ko": "159cb5a14f8f5e07bea8f04a5437adbf4b15c6ba",
@@ -32,5 +32,638 @@
     "verified_row_count": 0
   },
   "edits": [],
-  "note": "Source blobs fetched and structural inventory verified. No substantive full-text reading or row-by-row translation review attested; do not treat as completion. Original and any existing corrections must be retained. Official final review and receipt are absent as of this checkpoint."
+  "note": "All 61 Korean source documents traversed mechanically for completeness, document metadata, nonempty body and article headings. This is NOT legal-text semantic reading; KO_FULL_READING remains pending. Three existing English references located but their full semantic reading remains pending. No Chinese review or changes started.",
+  "ko_structural_traversal": {
+    "status": "COMPLETE",
+    "document_count": 61,
+    "characters": 563317,
+    "nonempty_documents": 61,
+    "article_heading_matches": 461,
+    "documents": [
+      {
+        "index": 1,
+        "key": "B1",
+        "kind": "법률",
+        "title": "도로법",
+        "characters": 95186,
+        "lines": 2093,
+        "sha256": "20c5a846268eb2892ebfbe5f99b1e58bdbff9f04c72c03f5644a7d7b4722fd9e",
+        "article_heading_matches": 214
+      },
+      {
+        "index": 2,
+        "key": "B2",
+        "kind": "대통령령",
+        "title": "도로법 시행령",
+        "characters": 72840,
+        "lines": 1766,
+        "sha256": "327f4a6165c8fde1bd3bbb2a2213d171a591c19aeebf148ed8005d8efd64d7ec",
+        "article_heading_matches": 173
+      },
+      {
+        "index": 3,
+        "key": "A28845",
+        "kind": "별표",
+        "title": "일반국도 위임대상 구간(제29조제1항 관련)",
+        "characters": 19019,
+        "lines": 807,
+        "sha256": "c97bc5dbc5c297a981c743cc539f987bb1494d8531d92e79c2287427254917dd",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 4,
+        "key": "A28846",
+        "kind": "별표",
+        "title": "도로점용허가의 기준(제54조제5항 관련)",
+        "characters": 10275,
+        "lines": 447,
+        "sha256": "4481059ebecda93ec9dcfef8f531a12e862f0c769efcfa5b2c772da2cd6a257b",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 5,
+        "key": "A28847",
+        "kind": "별표",
+        "title": "점용료 산정기준(제69조제1항 관련)",
+        "characters": 16134,
+        "lines": 516,
+        "sha256": "f4887a2c0d8d8f1c70396ea07579c0f659e435153f99a059027c23378a90c11f",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 6,
+        "key": "A28849",
+        "kind": "별표",
+        "title": "이행강제금의 부과기준(제93조제1항 관련)",
+        "characters": 742,
+        "lines": 57,
+        "sha256": "277f06dcfc8304fcd0bcbb83a0b866dfbb03809a6943b17daffdf800ae9f9743",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 7,
+        "key": "A28850",
+        "kind": "별표",
+        "title": "토지매수 업무 및 손실보상 업무의 위임수수료 요율 기준표(제102조제2항 관련)",
+        "characters": 1531,
+        "lines": 81,
+        "sha256": "fe905c8027a615ae316dc1b789d2a7aefdb9bdab2121c4c589e41fab247b4fe5",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 8,
+        "key": "A28851",
+        "kind": "별표",
+        "title": "과태료의 부과기준(제105조제1항 관련)",
+        "characters": 12528,
+        "lines": 534,
+        "sha256": "c27474efd171dc46369e066f3382972f4acc3d9970677cf29107fa4d7ffa3f5c",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 9,
+        "key": "B3",
+        "kind": "국토교통부령",
+        "title": "도로법 시행규칙",
+        "characters": 23351,
+        "lines": 542,
+        "sha256": "161abc9f304ae42e696d1bbae67bdf0cdb2809835d04086de30a16986558089d",
+        "article_heading_matches": 74
+      },
+      {
+        "index": 10,
+        "key": "A4662",
+        "kind": "별표",
+        "title": "푯대 및 표지의 설치기준(제17조제1항 관련)",
+        "characters": 12624,
+        "lines": 303,
+        "sha256": "6205adc575b563fee38f0dcdd760e7719e9a98b7212e6ee934c0a4852740310c",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 11,
+        "key": "A4663",
+        "kind": "별표",
+        "title": "도로원표의 크기ㆍ표기방법 및 설치기준(제23조제2항 관련)",
+        "characters": 2130,
+        "lines": 99,
+        "sha256": "6e4f32fe355830f93c753c1fb327a8b47c99cff94b537ac261aa7c589e779988",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 12,
+        "key": "A4664",
+        "kind": "별표",
+        "title": "도로의 점용허가 게시사항(제26조제4항 관련)",
+        "characters": 905,
+        "lines": 69,
+        "sha256": "6ede19b0ba319fff16d3d8917fa9f60bc6fa97ff32e82d21cf79b93f4cfb1a20",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 13,
+        "key": "A4665",
+        "kind": "별표",
+        "title": "표지 등의 설치기준(제27조 관련)",
+        "characters": 9268,
+        "lines": 387,
+        "sha256": "8ff8bb21ffbd184b8b5a175c51d3246e19250fca3aaf517d506ae4255013729e",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 14,
+        "key": "A4666",
+        "kind": "서식",
+        "title": "도로 노선의(지정, 변경, 폐지)고시",
+        "characters": 4839,
+        "lines": 192,
+        "sha256": "6ca053c3c8be1f59783ace2076d2d0ed0b7a5a5c46f5e027cecad346fb152783",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 15,
+        "key": "A4667",
+        "kind": "서식",
+        "title": "도로 노선의(지정, 변경, 폐지)승인신청서",
+        "characters": 7295,
+        "lines": 286,
+        "sha256": "823c1455d184e780286cda7f0e2290a4af927dac5427d9d847b9360a2f2638b3",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 16,
+        "key": "A4668",
+        "kind": "서식",
+        "title": "도로구역 결정(변경 또는 폐지) 고시",
+        "characters": 3403,
+        "lines": 120,
+        "sha256": "effc677ae16e8a9da93565f0c041180b5e1afddaf1ea7e6e41c57e63b1162634",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 17,
+        "key": "A4669",
+        "kind": "서식",
+        "title": "공사(사업) 진행 상황 신고서",
+        "characters": 5845,
+        "lines": 204,
+        "sha256": "cb83c4697ff75612aa132ab6f6f54e81c3271f1031b0391e240686f0d53d4478",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 18,
+        "key": "A4670",
+        "kind": "서식",
+        "title": "도로공사 시행 명령서",
+        "characters": 3512,
+        "lines": 144,
+        "sha256": "4cd9878dd1438eb6b589003618455266590efb5e9ec426e4dc4314176efdacea",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 19,
+        "key": "A4671",
+        "kind": "서식",
+        "title": "도로공사 준공검사 신청서",
+        "characters": 3092,
+        "lines": 138,
+        "sha256": "dd689143e351a76680b17da71849c483f8b8373bf169be23dead2f541672d09f",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 20,
+        "key": "A4672",
+        "kind": "서식",
+        "title": "도로의 유지ㆍ관리 명령서",
+        "characters": 3230,
+        "lines": 120,
+        "sha256": "dd375f38b38053bc6ad308808834024dc8c2264eb5868f2649870778e4238343",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 21,
+        "key": "A4673",
+        "kind": "서식",
+        "title": "공사 시행 통지서",
+        "characters": 3061,
+        "lines": 111,
+        "sha256": "a875ece794df5b37cf5f93bf82ecf5be7e639c4f95f7d24021adc0af5d158bc5",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 22,
+        "key": "A4674",
+        "kind": "서식",
+        "title": "공사 준공 통지서",
+        "characters": 3056,
+        "lines": 111,
+        "sha256": "b2609129bd29249967afa0f710b1252f57b24439617f5303cce40f6dd77d2fbf",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 23,
+        "key": "A4675",
+        "kind": "서식",
+        "title": "타공작물의 유지ㆍ관리 통지서",
+        "characters": 3542,
+        "lines": 123,
+        "sha256": "5e0eb6898b8158def6deeadd8d0317072d3792cb875b007ec97b5ac58259791b",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 24,
+        "key": "A4676",
+        "kind": "서식",
+        "title": "도로공사 시행 허가 신청서",
+        "characters": 4060,
+        "lines": 147,
+        "sha256": "eff476847e1a358281661e7a82007700bf79259dd08578224d8f7ac38de30487",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 25,
+        "key": "A4677",
+        "kind": "서식",
+        "title": "도로공사 착수 신고서",
+        "characters": 3288,
+        "lines": 117,
+        "sha256": "f0e0cf239ebcdb8b4a395fd38606469ed0db75357766ffd29abb51c5213f0257",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 26,
+        "key": "A4678",
+        "kind": "서식",
+        "title": "도로공사 준공검사 신청서",
+        "characters": 2767,
+        "lines": 126,
+        "sha256": "54eb6b0c95a413804fb9083c9e60609322ef2a836a478c7287e3567ae86e6f8b",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 27,
+        "key": "A4679",
+        "kind": "서식",
+        "title": "도로의 유지ㆍ관리 허가 신청서",
+        "characters": 4357,
+        "lines": 156,
+        "sha256": "e59c0a97e6b611692641d44ab3ff4a75629136c815be0353cb59483c1d559468",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 28,
+        "key": "A4680",
+        "kind": "서식",
+        "title": "접도구역 지정 고시",
+        "characters": 2647,
+        "lines": 111,
+        "sha256": "8989ff3d97612e217c69bdf628f95d063d0dac11db9db3ac5ea042c142d17d1e",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 29,
+        "key": "A4681",
+        "kind": "서식",
+        "title": "접도구역의 푯대 및 표지 관리대장",
+        "characters": 1661,
+        "lines": 72,
+        "sha256": "051493b8c8604693e0387c864fef993639d87396758c5a2027576898ef9645fe",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 30,
+        "key": "A4682",
+        "kind": "서식",
+        "title": "접도구역의 기존 건축물(공작물) 관리대장",
+        "characters": 6896,
+        "lines": 235,
+        "sha256": "c7cc6b0bff9922094826e70d55ce1613806dd12c322f904da368e48ba4de3ec2",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 31,
+        "key": "A4683",
+        "kind": "서식",
+        "title": "접도구역의 불법건축물(공작물) 관리대장",
+        "characters": 7729,
+        "lines": 247,
+        "sha256": "8ef06e97e6810706c65011480041be9075f66eb494be3ca031eb0bae23371275",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 32,
+        "key": "A4684",
+        "kind": "서식",
+        "title": "접도구역의 푯대 및 기존 건축물(공작물) 관리현황 보고",
+        "characters": 6363,
+        "lines": 138,
+        "sha256": "0a2f331d2201e1dc7a98375a57dafca0b8302a4201a086bd6c612127fd035fde",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 33,
+        "key": "A4685",
+        "kind": "서식",
+        "title": "토지매수청구서",
+        "characters": 6777,
+        "lines": 262,
+        "sha256": "25aeabe625284efe35e38a6e50a55fdfb3dc893423ec04ac8f23a0bd98e1dda9",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 34,
+        "key": "A4686",
+        "kind": "서식",
+        "title": "감정평가 비용의 납부고지서",
+        "characters": 5984,
+        "lines": 237,
+        "sha256": "676f3c6a636b8b6f264dd4681f3b68c6298c772084bd2f167781a2c70f076c9e",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 35,
+        "key": "A4687",
+        "kind": "서식",
+        "title": "도로대장",
+        "characters": 70288,
+        "lines": 2510,
+        "sha256": "29018076fa58a4d34c2e947308f2fefb2410266269f4671d64d90e97288fccb6",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 36,
+        "key": "A4688",
+        "kind": "서식",
+        "title": "도로관리원증",
+        "characters": 2467,
+        "lines": 165,
+        "sha256": "2b2ed77ca0f7000d03bb096af7a97f034bf5c22b3fff76b1c9759b57f9522ac2",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 37,
+        "key": "A4689",
+        "kind": "서식",
+        "title": "도로점용허가 신청서",
+        "characters": 13204,
+        "lines": 457,
+        "sha256": "52f78da1e8f4313885a06480f3fa377bdfc3516753320eed0c3b49267f666c95",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 38,
+        "key": "A4690",
+        "kind": "서식",
+        "title": "도로점용허가 기간연장 신청서",
+        "characters": 11699,
+        "lines": 400,
+        "sha256": "f6ed4382ae3b37256b09757e5c7fa6009cc7b199031db5648120c6e1560c27d4",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 39,
+        "key": "A4691",
+        "kind": "서식",
+        "title": "도로점용허가 변경 신청서",
+        "characters": 11740,
+        "lines": 424,
+        "sha256": "2303e8c4e3afdc4baabc5694238e10c1de197bd6a41091bba6723cebc8ca6e29",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 40,
+        "key": "A4692",
+        "kind": "서식",
+        "title": "도로점용 허가증",
+        "characters": 3134,
+        "lines": 147,
+        "sha256": "443abd899e9aff601fdc497ea560496d450989f6dcfb5b6e1b7bb096a0b3793b",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 41,
+        "key": "A4693",
+        "kind": "서식",
+        "title": "도로점용허가 내용 공고",
+        "characters": 2521,
+        "lines": 114,
+        "sha256": "3dc6f15167dc406624f7bfa23c035e5968e5e419362b4ed2fea0b3ffdf9f75c0",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 42,
+        "key": "A4694",
+        "kind": "서식",
+        "title": "도로점용허가 대장",
+        "characters": 3124,
+        "lines": 154,
+        "sha256": "3cf2a7be5caf2745f282d76ee3f22d2162fecf5f433afc5138e6775a9b71dc0c",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 43,
+        "key": "A4695",
+        "kind": "서식",
+        "title": "도로점용 사업계획서",
+        "characters": 5255,
+        "lines": 183,
+        "sha256": "2bc3150c8c28e32d9a1fe30bb96f37dd776788bb8b0829072c8b0bf8267474b5",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 44,
+        "key": "A4696",
+        "kind": "서식",
+        "title": "도로점용 사업계획 조정 통보",
+        "characters": 2817,
+        "lines": 99,
+        "sha256": "f56bdfcc7f892ee6c7e6c5ea2094b8d4cc2774bedd8f72f7cdceb0a7cff1a968",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 45,
+        "key": "A4697",
+        "kind": "서식",
+        "title": "도로점용공사(원상회복공사) 준공확인 신청서",
+        "characters": 5054,
+        "lines": 195,
+        "sha256": "e27c1ce8fdb26f6d278a46c086f6ed47d51b4aeb95416bd22e37d48d93abf4c6",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 46,
+        "key": "A4698",
+        "kind": "서식",
+        "title": "도로 점용공사 대행 통지서",
+        "characters": 3468,
+        "lines": 129,
+        "sha256": "87bd2e4869829855287687a948126c4502be8681d44b0925de8107bc4f909a06",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 47,
+        "key": "A4699",
+        "kind": "서식",
+        "title": "적치물 등의 보관대장",
+        "characters": 3777,
+        "lines": 177,
+        "sha256": "4f689b6c214bf9f9ebb0bc79a7ce402801e42660188739db4032a2852845908e",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 48,
+        "key": "A4700",
+        "kind": "서식",
+        "title": "적치물 청구증",
+        "characters": 1683,
+        "lines": 144,
+        "sha256": "5eda73a2d253cf4b04e35f8d5e241aa521e00c3b7a7c54699a9563127998106f",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 49,
+        "key": "A4701",
+        "kind": "서식",
+        "title": "(통행의 금지ㆍ제한, 차량의 운행 제한)공고",
+        "characters": 3181,
+        "lines": 132,
+        "sha256": "8d9b8b415198deef9a869305f5e81bfdf513b7587ab817639d13d8da8e5f8f2a",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 50,
+        "key": "A4702",
+        "kind": "서식",
+        "title": "제한차량 운행허가(신규, 변경)신청서",
+        "characters": 11933,
+        "lines": 448,
+        "sha256": "1192fb0753184ad6bd3dc59ca4a7de99c4bb70a2809264d8c2ed303f090e8373",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 51,
+        "key": "A4703",
+        "kind": "서식",
+        "title": "(토지 출입, 토지 사용, 장애물 변경ㆍ제거)통지서",
+        "characters": 2731,
+        "lines": 99,
+        "sha256": "513d8dd54429b01c00cd4e664a3193fba77574cb15df3b3886535a86764e1040",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 52,
+        "key": "A4704",
+        "kind": "서식",
+        "title": "신분증명서",
+        "characters": 2030,
+        "lines": 108,
+        "sha256": "a151753e7b545e264c6f4324cb065ef35e5324256cc5b5c44811ad225afce3f7",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 53,
+        "key": "A4705",
+        "kind": "서식",
+        "title": "공사착공 보고서",
+        "characters": 3384,
+        "lines": 135,
+        "sha256": "f30444fc2a7c6c590d692b294c8cfa89870676c75a669f4aa649dddae90b0423",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 54,
+        "key": "A4706",
+        "kind": "서식",
+        "title": "도로공사 분기별 공정보고서",
+        "characters": 2495,
+        "lines": 123,
+        "sha256": "54dd26069c487efcd3c5aad20979241b1b0a1573aeff2d31ead6e058df92d1ea",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 55,
+        "key": "A4707",
+        "kind": "서식",
+        "title": "사업실적보고서",
+        "characters": 3633,
+        "lines": 177,
+        "sha256": "bd87e31fc2a6bc3ea8824d927feb494ac743fc59d9b1ff9ad8a1b27db79945e6",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 56,
+        "key": "A4708",
+        "kind": "서식",
+        "title": "도로 비용 부담 명령서",
+        "characters": 3637,
+        "lines": 132,
+        "sha256": "e0c046e053c39bff673ab001a409b47ffab6f0fdbd780297cf943aeffb7a5005",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 57,
+        "key": "A4709",
+        "kind": "서식",
+        "title": "타공작물의 관리자 등에 대한 비용 부담 명령",
+        "characters": 2301,
+        "lines": 105,
+        "sha256": "231a7412fafe3cfbe87a55853c3b56b4ea840e5763d2f09094434f02fbeb0a4a",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 58,
+        "key": "A4710",
+        "kind": "서식",
+        "title": "재결신청서",
+        "characters": 2259,
+        "lines": 140,
+        "sha256": "713372928bafcbb97d319c4e1258dc9b6507dffde67045e5144bb8a6c41580f1",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 59,
+        "key": "A4711",
+        "kind": "서식",
+        "title": "권리ㆍ의무의 승계신고서",
+        "characters": 7736,
+        "lines": 240,
+        "sha256": "b84f7cadebadd6d2fdda456eb5c293c2b7c96a0a17cc4949f6a6ac51ab5b990f",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 60,
+        "key": "A4712",
+        "kind": "서식",
+        "title": "준용도로 공고",
+        "characters": 2206,
+        "lines": 96,
+        "sha256": "4e0c3db4a09a65276df68856d700a06d96d88d5a48a3e32fd40bda1f45a2cb1d",
+        "article_heading_matches": 0
+      },
+      {
+        "index": 61,
+        "key": "A4713",
+        "kind": "서식",
+        "title": "도로점용허가 취소신청서",
+        "characters": 5623,
+        "lines": 204,
+        "sha256": "296066ffbe5155cb75b3cd14e7b8efa42b378f31e9ad3b91bdd1d29f264d272e",
+        "article_heading_matches": 0
+      }
+    ]
+  },
+  "english_reference_documents_identified": [
+    {
+      "path": "documents/en/kr-001821-276971-en.json",
+      "sha": "1c3a04989c8fdb3715a5ecf07ee50240884e98b1"
+    },
+    {
+      "path": "documents/en/kr-klri-71547-en.json",
+      "sha": "48a8b57dbb18c4d3612898707a6a58393997fa8a"
+    },
+    {
+      "path": "documents/en/kr-003400-287115-en.json",
+      "sha": "2a9365469c2317f77b4301d5f9c15cc25ae68b61"
+    }
+  ]
 }
