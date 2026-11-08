@@ -1,0 +1,34 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-c2b35f6aceb6477e1107",
+  "worker": "C04",
+  "assignment_marker": "b901eef9c776",
+  "status": "IN_PROGRESS",
+  "source_blob_shas": {
+    "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
+    "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
+    "zh": "f8879f4a12299069e4831b03f15a2a2fa30c8089"
+  },
+  "source_documents": 15,
+  "zh_rows": 1241,
+  "english_reference_rows": 911,
+  "english_reference_missing_rows": 330,
+  "prior_edit_count": 156,
+  "added_edit_ids": [
+    "B1-zh-00020",
+    "B1-zh-00025",
+    "B1-zh-00065",
+    "B1-zh-00092"
+  ],
+  "new_edit_count": 4,
+  "total_unique_edits": 160,
+  "review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
+  "review_commit": "57e42a1c282ef385d5f002fae5d9d1b8bd20ed6b",
+  "source_reading_verified": {
+    "ko_entire": false,
+    "en_entire": false,
+    "zh_entire": false
+  },
+  "complete_receipt": false,
+  "note": "Incremental substantive corrections; earlier edits intact, no assertion of complete source reading or all 1241 rows having been inspected."
+}
