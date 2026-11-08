@@ -1,0 +1,28 @@
+{
+  "schema": "LAW_ZH_PROGRESS_V1",
+  "job_id": "F-c2b35f6aceb6477e1107",
+  "worker": "C04",
+  "task_id": "WORK-TASK:C04:F-c2b35f6aceb6477e1107:4d1b7b4e135c",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
+    "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
+    "zh": "f8879f4a12299069e4831b03f15a2a2fa30c8089"
+  },
+  "documents": 15,
+  "rows_total": 1241,
+  "english_coverage": {
+    "rows_with_english": 911,
+    "rows_without_english": 330
+  },
+  "linked_english_documents": 4,
+  "unique_saved_edits": 33,
+  "added_ids": [
+    "B2-zh-00004",
+    "B2-zh-00008",
+    "B2-zh-00011"
+  ],
+  "review_blob_sha": "3bc50e484b29c1c4d51b479bf91e2265e94a43cc",
+  "next_first_unverified_id": "B1-zh-00086",
+  "note": "Korean 15 documents, linked English source index and 4 English docs, Chinese 1241-row packet fetched. Previous 30 corrections preserved. B2-zh-00004 references, B2-zh-00008 enumerators, and B2-zh-00011 inclusive 100 pupil threshold + enumerators corrected. No complete sequential semantic reading or 1241-row quality certification claimed. No receipt per current instruction."
+}
