@@ -5,6 +5,7 @@
   "idle_followup": true,
   "job_id": "F-7423351d4946866bbacf",
   "marker": "[LAO-HANDOFF:0e3c0be84d60527735f4]",
+  "new_url": "https://chatgpt.com/c/6af026b0-0cf4-83ee-bbeb-45435a2b2d46",
   "old_url": "https://chatgpt.com/c/6af017db-65d8-83ec-9c45-ff08e769f61d",
   "operator_resume": "배포기에서 작업을 가져와서 중복되지 않게 후속작업을 수행하라",
   "panel_id": "panel-01",
@@ -14,6 +15,7 @@
   "remote": "status/delivery/auto-handoff-0e3c0be84d60527735f4.json",
   "schema": "LAW_AUTO_HANDOFF_V1",
   "source_marker": "[LAW-SUPPLY-V2:S2-c174f0e36bef5fedb717095f1cea01f6:C01:F-7423351d4946866bbacf]",
-  "status": "INTENT",
+  "status": "REBOUND",
+  "verified_at": "2026-11-08T07:38:14.697929+00:00",
   "worker": "C01"
 }
