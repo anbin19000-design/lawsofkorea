@@ -2818,9 +2818,45 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-6330608994de.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
       "reason": "Correct supplementary provision label and name of referenced enforcement decree."
+    },
+    {
+      "id": "B2-zh-00122",
+      "source_hash": "302fef72a7099c8c14b348d8f6f43fd61ae606e1f4584c298528ec9e21d5cd80",
+      "target_id": "e5b2c19b77ec377727ac4c083947fc93ceab9eca74f164e9dd8f098a829e290f",
+      "text": "附则（《公共住宅建设等特别法施行令》）<第25339号，2014年4月29日>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-2dec0ecc0be6.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Correct supplementary provision label and referenced presidential decree title."
+    },
+    {
+      "id": "B2-zh-00126",
+      "source_hash": "506fb9092dfdb01745aeaccec779d6cbb831c99b09cce222cf597eae2bdf0f31",
+      "target_id": "a7380ec6791279bea2c1cac7a332d48e8a440f42ce0c41bd88fdf740a23c1b68",
+      "text": "附则（《建设技术振兴法施行令》）<第25358号，2014年5月22日>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-2dec0ecc0be6.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Correct 부칙 and 건설기술 진흥법 시행령 title (construction engineering, not architectural technology)."
+    },
+    {
+      "id": "B2-zh-00133",
+      "source_hash": "a3c47358b5319a3ba45787da785dfea890df8d8d79398cc9047d30e04f9d9dac",
+      "target_id": "c900e1761edaceffac343e738ccbfe7d7cc44d4a3b4334dfa6de6fdcf575d43d",
+      "text": "附则（《行政自治部及其所属机关职制》）<第25751号，2014年11月19日>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-2dec0ecc0be6.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Correct 부칙 and the ministry's organization decree title."
+    },
+    {
+      "id": "B2-zh-00140",
+      "source_hash": "53ef3f0c76071fa25970a62f419ac80b4372ee34cad1e9be5aa4f36147414c7e",
+      "target_id": "52438de9643e5f2fb4852719a6ff95fa2989b57614dcfe4e95ead4d9f5da2094",
+      "text": "附则 <第27281号，2016年6月28日>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-2dec0ecc0be6.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Correct 부칙 label."
     }
   ],
-  "adjudicated_edit_count": 291,
+  "adjudicated_edit_count": 295,
   "pending_single_candidate_count": 343,
   "pending_conflict_count": 0,
   "pending_single_candidates": [
@@ -8029,12 +8065,13 @@
     "2026-11-08 C02 continuation: corrected B2 rows 00093, 00094, 00097 and 00099 in 2009 amendment supplements (Enforcement Decree instrument title, supplementary-provision label, National Informatization Act title and missing item marker). Rows 00095, 00096 and 00098 compared and retained.",
     "2026-11-08 C02 continuation: corrected B2 rows 00101, 00103, 00105 and 00106 in 2010 supplementary amendments; restored omitted amendment item numbers and corrected supplementary-provision labels and Decree titles. Rows 00100, 00102 and 00104 compared and retained.",
     "2026-11-08 C02 continuation: corrected B2 rows 00108, 00109, 00110 and 00112 in 2010-2012 historical supplementary amendments; corrected Decree titles, 附则 label, item <52> marker and city/county basic plan terminology. Rows 00107 and 00111 compared and retained.",
-    "2026-11-08 C02 continuation 6330608994de: verified Korean-source B2 rows 00114-00116, 00118; corrected three supplement headings/effective-date terms; retained 00116. No COMPLETE certification."
+    "2026-11-08 C02 continuation 6330608994de: verified Korean-source B2 rows 00114-00116, 00118; corrected three supplement headings/effective-date terms; retained 00116. No COMPLETE certification.",
+    "2026-11-08 C02 2dec0ecc0be6: retained original source blobs; corrected B2 00122/00126/00133/00140 after Korean source comparison; retained previously checked accurate rows; whole-family status IN_PROGRESS."
   ],
   "integration_progress": {
-    "stage": "B2_2012_TO_2013_SUPPLEMENTARY_PROVISIONS_RECONCILED",
-    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:6330608994de",
-    "note": "Corrected B2 00114, 00115, 00118; B2 00116 retained. B2 00117 requires careful cross-reference verification. Full-family sequential reading not certified."
+    "stage": "B2_2013_TO_2016_SUPPLEMENTARY_PROVISIONS_PARTIAL_RECONCILIATION",
+    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:2dec0ecc0be6",
+    "note": "Source comparison for B2 00117-00140 (prior edits preserved). Four new minimal corrections. Sequential full-family read remains unverified; B2 00134 and other long provisions require further checking."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -8461,7 +8498,16 @@
     "B2-zh-00112",
     "B2-zh-00107",
     "B2-zh-00111",
-    "B2-zh-00116"
+    "B2-zh-00116",
+    "B2-zh-00119",
+    "B2-zh-00121",
+    "B2-zh-00125",
+    "B2-zh-00127",
+    "B2-zh-00129",
+    "B2-zh-00131",
+    "B2-zh-00136",
+    "B2-zh-00137",
+    "B2-zh-00139"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
