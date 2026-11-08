@@ -1,0 +1,47 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "worker": "C05",
+  "assignment_marker": "[WORK-TASK:C05:F-00583cebe057fc2929d1:03da842f359c]",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "9d1b9a5389325801a2316678f870e5811f07f5a8",
+  "scope": {
+    "documents": 24,
+    "rows": 1374
+  },
+  "prior_corrections": 218,
+  "new_corrections": [
+    {
+      "id": "B1-zh-00043",
+      "source_hash": "a527a27a4201e38e07ccdaec51f36555c55032493c0387757ca65178686c315f",
+      "decision": "CORRECT",
+      "reason": "제31조의2제3항 단서의 '제22조의2'는 제22조 제2항이 아닌 독립 조문 제22조의2이므로 잘못된 법조문 인용만 바로잡음."
+    }
+  ],
+  "total_corrections": 219,
+  "pending_rows_preserved": 89,
+  "reading_status": "FULL_KO_EN_ZH_SEQUENTIAL_READING_NOT_VERIFIED",
+  "english_note": "B1/B2 exact-version official English indexed; B3 and forms have old-version fallback only, which is not equivalent to current-version English.",
+  "unresolved": [
+    "B2-zh-00081",
+    "A29604",
+    "B3-zh-00117",
+    "A8690",
+    "A8693",
+    "A8698",
+    "A8699",
+    "A8703",
+    "A8708",
+    "A8709",
+    "A8690-zh-00499"
+  ],
+  "completion_receipt": null,
+  "notes": "1개 법조문 인용의 명백한 오역을 원문 대조하여 수정. 이전 218개 교정과 89개 보류 유지. 전체 순차 독해 및 보류 원문 정합성 미해결로 COMPLETE 아님."
+}
