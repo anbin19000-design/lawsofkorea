@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 181,
+    "correction_count": 188,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -1292,6 +1292,55 @@
       "original": "a. 加盟商开展或经营相关加盟业务所需的所有房地产 ·",
       "corrected": "가. 加盟商开展或经营相关加盟业务所需的所有房地产 ·",
       "reason": "영업활동 조건 제6호 가목 번호 오역."
+    },
+    "A34909-zh-00222": {
+      "doc": "A34909",
+      "source_hash": "85a399a06cf9a789c8c0a4796a8405ea6e14dc15f694086c165818dfefca46e5",
+      "original": "B. 关于特许经营商线上和线下销售的事项",
+      "corrected": "나. 关于特许经营商线上和线下销售的事项",
+      "reason": "온라인·오프라인 판매사항 나목을 영문 B로 잘못 인식함."
+    },
+    "A34909-zh-00229": {
+      "doc": "A34909",
+      "source_hash": "4ea3220081c2377efe5449d6be9d3e75bdb1e95007d21a3bfe0146399924a89f",
+      "original": "2) 在上一财政年度末售出的国内产品中，非",
+      "corrected": "2) 截至上一营业年度末，国内销售商品中线上专用商品与线下专用商品所占的比例",
+      "reason": "온라인·오프라인 전용 상품의 비중을 기재할 의무가 잘린 중국어 문장으로 누락되어 한국어 원문에 맞춰 보충함."
+    },
+    "A34909-zh-00230": {
+      "doc": "A34909",
+      "source_hash": "0cd6739cd25b7595963a9874bec4000bb05b34d174e1bbc10864cd9918e312b4",
+      "original": "。删除 <2014.2.11>",
+      "corrected": "다.删除 <2014.2.11>",
+      "reason": "삭제된 다목 목번호 유실 오류."
+    },
+    "A34909-zh-00231": {
+      "doc": "A34909",
+      "source_hash": "c6f33724cb8aeba9db844f2d5a5b45292a2f833c91e2195311c11512f1d1dd3a",
+      "original": "d. 在商品或服务价格的确定受到限制的情况下，贸易伙伴和特许经营经营者对此应适用",
+      "corrected": "라. 在商品或服务价格的确定受到限制的情况下，贸易伙伴和特许经营经营者对此应适用",
+      "reason": "상품·용역 가격결정 제한 라목 번호 오류."
+    },
+    "A34909-zh-00239": {
+      "doc": "A34909",
+      "source_hash": "2501c6b99719637481d3e4228ac3ad4cbb0732fd8552d049f0cfc741fad6711c",
+      "original": "E. 保护加盟商经营区域的具体细节",
+      "corrected": "마. 保护加盟商经营区域的具体细节",
+      "reason": "영업지역 보호 마목 번호 오류."
+    },
+    "A34909-zh-00243": {
+      "doc": "A34909",
+      "source_hash": "bd3ff0bf38b503053bffc73157ce7f4e067d35bf8982cb6c9585385d0d5ae798",
+      "original": "仅限于公司自营店和加盟店）这一事实尚未确定（特许人或其",
+      "corrected": "仅限于公司自营店和加盟店）不设立的事实（特许人或其",
+      "reason": "원문은 영업지역 내 동종 직영점·가맹점을 설치하지 않는다는 사실을 기재하는 의무인데 ‘미확정’으로 오역됨."
+    },
+    "A34909-zh-00258": {
+      "doc": "A34909",
+      "source_hash": "f8a8e80071adc075a268d1038a79fb69742029fe86b9243f5bcaf6bb3df43cde",
+      "original": "B. 合同期限、续签、延期、终止和取消合同的详细信息",
+      "corrected": "바. 合同期限、续签、延期、终止和取消合同的详细信息",
+      "reason": "계약기간·계약갱신·해지 바목 번호 오류."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -1348,7 +1397,8 @@
     "C05 00d89ac6886f: A34909 first section inspected against full annex Korean text. Seven displaced or lost subitem identifiers repaired (가/나/다/라/마/바 and subsequent 나). Existing corrections preserved; no full semantic certification.",
     "C05 00d89ac6886f continuation: A34909 rows 58-101 matched against full Korean Annex 1 heading sequence; 14 displaced/mistranslated Korean item labels restored. Not a complete semantic audit.",
     "C05 00d89ac6886f: A34909 rows 102-154: corrected telephone label, lost legal subitems, sales ratio and 1/3/5/10 year continuity range against Korean Annex 1; preserved previous edits.",
-    "C05 00d89ac6886f continued: A34909 rows 155-210 inspected against Korean appendix; nine confirmed subitem and siting-selection errors corrected. IN_PROGRESS."
+    "C05 00d89ac6886f continued: A34909 rows 155-210 inspected against Korean appendix; nine confirmed subitem and siting-selection errors corrected. IN_PROGRESS.",
+    "C05 00d89ac6886f: A34909 rows 211-260 checked; repaired annex subsection markers, omitted online/offline ratio clause and mistranslated non-establishment of competing outlets. Whole-family semantic review remains IN_PROGRESS."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -1357,5 +1407,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 181
+  "corrected_rows": 188
 }
