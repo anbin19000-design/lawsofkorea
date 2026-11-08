@@ -21,8 +21,8 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 69,
-    "pending_rows": 1618,
+    "correction_count": 71,
+    "pending_rows": 1616,
     "by_document": {}
   },
   "corrections": {
@@ -508,6 +508,20 @@
       "original": "在与第 (a) 至 (d) 款等效的情况下，如果特许经营者的业务活动受到不公平的[审查]",
       "corrected": "属于与上述(a)至(d)项类似的情形，不合理地限制加盟商经营活动的行为。",
       "reason": "별표 2 마목 '가목 내지 라목에 준하는 경우로서 부당하게 가맹점사업자의 영업활동을 제한하는 행위'가 [审查]로 잘못 옮겨진 오역 최소 교정."
+    },
+    "A34912-zh-00063": {
+      "doc": "A34912",
+      "source_hash": "33847868f6ebcbe84ece0c95a570dd83ea63a1d613a48ab94868de4e13baf782",
+      "original": "对房地产、服务、设施、货物、原材料或辅助材料征收的税款，迫使人们这样做。",
+      "corrected": "要求加盟商交易的房地产、服务、设施、商品、原材料或辅助材料的",
+      "reason": "별표 2 (4) 항목 강제 거래의 대상이 되는 부동산·용역·설비·상품 등을 '征收的税款'으로 오역한 부분 교정."
+    },
+    "A34912-zh-00064": {
+      "doc": "A34912",
+      "source_hash": "29b594d222599bd1b1d4607f8f74c608850b39b6dbad293a042dae867e41c2e7",
+      "original": "特许经营商  的交易条件，例如详情、价格、数量、质量和交易对手等。",
+      "corrected": "详细内容、价格、数量、质量及交易对象等交易条件",
+      "reason": "별표 2 (4) 항목 '세부내역, 가격, 수량, 품질 및 그 거래상대방 등 거래조건'이 부정확하고 누락된 부분을 복원."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -541,7 +555,8 @@
     "C05 841a8fba515f: A34909-zh-00219 affiliate economic benefit received, not paid, corrected against Korean original. Full semantic review incomplete.",
     "C05 b5c0ceb7102d: Annex A34909 row 00221 restored supplier/provider names and economic benefits from Korean original; previous 65 edits preserved; full Chinese semantic verification incomplete.",
     "C05 b5c0ceb7102d: A34916-zh-00136 correct same-Article clauses 3 and 4 restored from Korean table; 67 corrections cumulative, no COMPLETE certification.",
-    "C05 bd07648d1ce4: Annex A34912 rows 00058 and 00086 corrected against Korean full-context source, preserving previous 67 corrections; Chinese full semantic audit remains unverified."
+    "C05 bd07648d1ce4: Annex A34912 rows 00058 and 00086 corrected against Korean full-context source, preserving previous 67 corrections; Chinese full semantic audit remains unverified.",
+    "C05 2222ebeb54cf: annex 2 fragments 63/64 corrected against full Korean clause (4), prior 69 preserved; no full-row completion certification."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -550,5 +565,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 69
+  "corrected_rows": 71
 }
