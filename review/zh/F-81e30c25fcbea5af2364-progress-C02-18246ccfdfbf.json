@@ -1,0 +1,54 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:18246ccfdfbf",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "scope": "B2 enforcement decree, preserve full existing row text except identified mistranslation or omission",
+  "checked_rows": 2,
+  "checked_ids": [
+    "B2-zh-00029",
+    "B2-zh-00032"
+  ],
+  "edits": [
+    {
+      "id": "B2-zh-00029",
+      "source_hash": "1480ccf3257a358e1e3e744ade42121933abfd1927047f847d679d21abc4ddec",
+      "target_id": "5d7a593cfeb4a37de9caf5bb4fa40807ff72b5b1421ec4996462b1b5f97b546e",
+      "text": "第22-4条（智慧城市服务支持机构等的指定）\n① 国土交通大臣如欲依本法第十九条之四第一款指定智慧城市服务支援机构（以下简称“支援机构”），应当在官方公报上公布指定申请事宜，并于互联网主页等处发布公告。<2013年3月23日修订；2017年9月19日修订>\n② 任何申请成为支持机构的人员必须符合附表 1 的要求。\n③ 任何拟被指定为支援机构的人士，均须向国土交通大臣提交申请，并附上下列各款所列文件。<2013年3月23日修订>\n1. 公司章程或同等效力的业务运营规则\n2. 关于《法案》第19-4条第2款各子款所规定义务的商业计划\n3. 专业人员配备情况\n4. 设施明细表\n④ 国土交通大臣依据本法第19条之4第1款或第4款指定支援机构或命令撤销指定或暂停支援机构营业的，应当在官方公报上公布，并在互联网主页上予以公告。<2013年3月23日修订>\n⑤ 根据该法第19条之4第4款，撤销支持机构指定资格和暂停其营业的准则见附件表2。\n6. 除第1款至第5款规定事项外，有关支援机构的指定程序和运作的必要事项，由国土交通大臣决定，并以公告形式公布。<2013年3月23日修订>\n\n第四章 智慧城市技术及信息保护等标准 <2017年9月19日修订>\n\n"
+    },
+    {
+      "id": "B2-zh-00032",
+      "source_hash": "e80e23630a956b82106e6c58265b2ff7623e33b3cc3cf46ddd1abff066f7aadc",
+      "target_id": "f6862cf63211bd62b8fc8d6b2a2fbc48cb9403e9b582c3913c9a32b14ebedf08",
+      "text": "第二十五条（国家智慧城市委员会的组成）\n① 根据《智慧城市法》第二十三条第一款，由国土交通部长官根据该法第三款第一项任命的国家智慧城市委员会（以下简称“委员会”）成员任期两年，可连任。<2016年6月28日、2017年9月19日修订>\n② 本法第23条第3款第5项所称“总统令规定的中央行政机关副部长”是指下列人员之一：<2016年6月28日、2017年9月19日、2020年2月25日、2021年6月15日、2025年10月1日、2025年12月30日修订>\n1. 删除<2025.12.30>\n2. 文化、体育和旅游部第二副部长\n3. 贸易、工业和能源部副部长\n4. 卫生福利部副部长\n5. 气候、能源和环境副部长\n6. 中小企业和创业部第一副部长\n7. 计划和预算副部长\n③ 委员会主席代表委员会并监督委员会事务。\n④ 若主席因不可抗力无法履行职责，则由副主席（即国土交通部副部长）代行其职责。<2013年3月23日修订，2016年6月28日修订>\n⑤ 委员会设两名秘书；秘书应分别为国土交通部负责土地或城市相关领域的高级公务员，以及内政安全部负责信息化相关领域的高级公务员。<2013年3月23日、2014年11月19日、2017年7月26日修订>\n\n"
+    }
+  ],
+  "adjudications": [
+    {
+      "id": "B2-zh-00029",
+      "verdict": "CLEAR_KOREAN_TO_CHINESE_CORRECTION",
+      "reason": "한국어 시행령 제22조의4제3항 제3호 '전문인력 보유 현황'과 제4호 '시설 명세서'가 중국어에서 각각 '持有' 및 '设施规格'으로 오역·누락되었으므로 해당 명칭만 보완."
+    },
+    {
+      "id": "B2-zh-00032",
+      "verdict": "CLEAR_KOREAN_TO_CHINESE_CORRECTION",
+      "reason": "한국어 시행령 제25조제1항은 '연임할 수 있다'라고만 규정하며 연임 횟수를 1회로 제한하지 않으므로 '可连任一届'에서 근거 없는 제한을 삭제."
+    }
+  ],
+  "prior_index": "status/delivery/reconcile-S2-ae8f8a85c5ace955ac8120fa9a6c7730-evidence-897b23bd7d0b8383.json",
+  "prior_progress": [
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-9978dc6b942b-reconcile.json",
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-9978dc6b942b-postindex-evidence.json"
+  ],
+  "english_status": "B2 English fallback is of different source version, Korean current source controls; not a complete English read-through claim",
+  "note": "Two B2 rows absent from checked IDs and candidate IDs in earlier reconciliation index; confirmed Korean source spans. Original text, source IDs and SHA preserved; full review is not complete.",
+  "next_review": "Continue unreviewed B2 clauses and then remaining documents in order; eventually reconcile global 1133 rows and final integrated review."
+}
