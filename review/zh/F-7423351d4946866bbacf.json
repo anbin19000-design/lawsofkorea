@@ -2,7 +2,7 @@
   "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-7423351d4946866bbacf",
   "worker": "C01",
-  "checked_rows": 84,
+  "checked_rows": 88,
   "edits": [
     {
       "id": "B1-zh-00065",
@@ -1135,10 +1135,26 @@
     {
       "id": "B1-zh-00027",
       "text": "第22条之2（支持鱼类市场等现代化）\n① 国家或地方政府应当制定水产市场设施现代化支持计划，其中包括以下事项。<2023年10月24日修订>\n1. 扩大鱼市水产品电子交易（包括电子拍卖）\n2. 建立鱼市低温流通体系\n3. 改善鱼市卫生条件\n4. 海洋水产部条例规定的其他有关鱼市设施现代化改造的事项\n② 国家或地方政府可根据第1款规定的支持计划向鱼市经营者提供支持。\n\n"
+    },
+    {
+      "id": "B1-zh-00016",
+      "text": "第十三条之二（水产品交易场所的限制）因交易信息不足而价格扰乱严重、由海洋水产部条例规定的水产品，不得在鱼市以外的任何地方进行买卖或交易。\n\n"
+    },
+    {
+      "id": "B1-zh-00019",
+      "text": "第十五条（产地交易参与者的报告）任何打算履行本地销售参与者职责的人，应当按照海洋水产部制定的条例，向鱼市经营者报告其本地销售参与者身份。\n\n"
+    },
+    {
+      "id": "B1-zh-00024",
+      "text": "第二十条（鱼市公告）\n① 为保护寄售人和消费者的权益，鱼市经营者应当公开交易量、价格信息、财务状况、根据第十六条第一款设置的产地拍卖师以及依据第二十一条第一款的评估结果等信息。\n② 根据第1款规定，有关公告的内容、方法、程序等事项，由海洋水产部条例规定。\n\n"
+    },
+    {
+      "id": "B1-zh-00028",
+      "text": "第23条（报告）\n① 市长、郡守或区厅长可以要求鱼市经营者报告其资产和经营状况。\n② 当认为对稳定水产品价格和供需特别必要时，鱼市经营者可以要求产地中间批发商报告业务执行情况。\n\n"
     }
   ],
   "status": "IN_PROGRESS",
-  "note": "IN_PROGRESS. 283 unique corrected rows; existing edits preserved. Act Arts 5,6,7: precise special-city/provincial government titles corrected; Art22-2 cold-chain translation corrected to low-temperature distribution system. Source SHA unchanged. Full 1207-row review and annex/form XML correspondence remain incomplete; no COMPLETE receipt.",
+  "note": "IN_PROGRESS. 287 unique corrections. Act Art13-2 correctly attaches MOF rule definition to specified fishery products, Art15 산지매매참가인 translated as origin trading participant, Art20 산지경매사 is an auctioneer positioned at the fish market, Art23 local authority titles and 산지중도매인 corrected. Prior edits retained; source SHAs unchanged. Whole 1207-row semantic audit and annex/form XML correspondence incomplete; no COMPLETE receipt.",
   "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
   "source_sha": {
     "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
