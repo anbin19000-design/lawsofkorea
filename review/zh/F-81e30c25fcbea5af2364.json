@@ -3486,10 +3486,17 @@
       "id": "A36427-zh-00069",
       "source_hash": "57b5987e7319edde8155347fa1f58b08caa454086a07ad01b45a54bceadba267",
       "target_id": "XML:2657439",
-      "text": "第1项",
-      "reason": "Restore explicitly wrong table-cell text from original Korean decree annex.",
-      "verification": "C02_DIRECT_KOREAN_APPENDIX_COMPARISON",
-      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3aa49a4f01f1.json"
+      "text": "第1号",
+      "reason": "Correct clear table continuation, official statutory references and legal numbering against Korean annex.",
+      "verification": "C02_DIRECT_KOREAN_ANNEX4_COMPARISON",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex4.json",
+      "prior_text_versions": [
+        {
+          "task": "4e0b46ff6294",
+          "text": "第1项",
+          "reason": "Preserve prior cumulative wording before current Korean penalty-annex comparison"
+        }
+      ]
     },
     {
       "id": "A36427-zh-00071",
@@ -3504,19 +3511,33 @@
       "id": "A36427-zh-00077",
       "source_hash": "71437aa09522b625a53a3d6fe73cdfdd2b8cc106b48a83fb309fe2fc4612c3cc",
       "target_id": "XML:2657448",
-      "text": "第2项",
-      "reason": "Restore explicitly wrong table-cell text from original Korean decree annex.",
-      "verification": "C02_DIRECT_KOREAN_APPENDIX_COMPARISON",
-      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3aa49a4f01f1.json"
+      "text": "第2号",
+      "reason": "Correct clear table continuation, official statutory references and legal numbering against Korean annex.",
+      "verification": "C02_DIRECT_KOREAN_ANNEX4_COMPARISON",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex4.json",
+      "prior_text_versions": [
+        {
+          "task": "4e0b46ff6294",
+          "text": "第2项",
+          "reason": "Preserve prior cumulative wording before current Korean penalty-annex comparison"
+        }
+      ]
     },
     {
       "id": "A36427-zh-00085",
       "source_hash": "79a3947d12975b0f1644ec6711012991da5e76d19cda6a58c949bf7ebc91bf6e",
       "target_id": "XML:2657457",
-      "text": "第3项",
-      "reason": "Restore explicitly wrong table-cell text from original Korean decree annex.",
-      "verification": "C02_DIRECT_KOREAN_APPENDIX_COMPARISON",
-      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3aa49a4f01f1.json"
+      "text": "第3号",
+      "reason": "Correct clear table continuation, official statutory references and legal numbering against Korean annex.",
+      "verification": "C02_DIRECT_KOREAN_ANNEX4_COMPARISON",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex4.json",
+      "prior_text_versions": [
+        {
+          "task": "4e0b46ff6294",
+          "text": "第3项",
+          "reason": "Preserve prior cumulative wording before current Korean penalty-annex comparison"
+        }
+      ]
     },
     {
       "id": "A36427-zh-00091",
@@ -5476,28 +5497,49 @@
       "id": "A36427-zh-00061",
       "source_hash": "7d12b952579993bd639a1860f555303e6b53efbcb75a7c12ff9fc6fa173477ea",
       "target_id": "XML:2657430",
-      "text": "二款第三号",
-      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3aa49a4f01f1.json",
-      "verification": "C02_SOURCE_VERIFIED_HISTORICAL_CANDIDATE",
-      "reason": "Correct a clear mistranslated field, legal reference, penalty column or source-defined body name, without unnecessary stylistic rewrite."
+      "text": "第2款第3号",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex4.json",
+      "verification": "C02_DIRECT_KOREAN_ANNEX4_COMPARISON",
+      "reason": "Correct clear table continuation, official statutory references and legal numbering against Korean annex.",
+      "prior_text_versions": [
+        {
+          "task": "4e0b46ff6294",
+          "text": "二款第三号",
+          "reason": "Preserve prior cumulative wording before current Korean penalty-annex comparison"
+        }
+      ]
     },
     {
       "id": "A36427-zh-00092",
       "source_hash": "5d4ef505870fe4c302811d931e41a5edbd5ad5114c9de85988cbb19065e7138b",
       "target_id": "XML:2657464",
-      "text": "第四号",
-      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3aa49a4f01f1.json",
-      "verification": "C02_SOURCE_VERIFIED_HISTORICAL_CANDIDATE",
-      "reason": "Correct a clear mistranslated field, legal reference, penalty column or source-defined body name, without unnecessary stylistic rewrite."
+      "text": "第4号",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex4.json",
+      "verification": "C02_DIRECT_KOREAN_ANNEX4_COMPARISON",
+      "reason": "Correct clear table continuation, official statutory references and legal numbering against Korean annex.",
+      "prior_text_versions": [
+        {
+          "task": "4e0b46ff6294",
+          "text": "第四号",
+          "reason": "Preserve prior cumulative wording before current Korean penalty-annex comparison"
+        }
+      ]
     },
     {
       "id": "A36427-zh-00112",
       "source_hash": "70bcb5d1e89941a76b35b2f1f197fa3173a6a8a8877f016de55938479e64817a",
       "target_id": "XML:2657484",
-      "text": "第五号",
-      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3aa49a4f01f1.json",
-      "verification": "C02_SOURCE_VERIFIED_HISTORICAL_CANDIDATE",
-      "reason": "Correct a clear mistranslated field, legal reference, penalty column or source-defined body name, without unnecessary stylistic rewrite."
+      "text": "第5号",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex4.json",
+      "verification": "C02_DIRECT_KOREAN_ANNEX4_COMPARISON",
+      "reason": "Correct clear table continuation, official statutory references and legal numbering against Korean annex.",
+      "prior_text_versions": [
+        {
+          "task": "4e0b46ff6294",
+          "text": "第五号",
+          "reason": "Preserve prior cumulative wording before current Korean penalty-annex comparison"
+        }
+      ]
     },
     {
       "id": "B1-zh-00106",
@@ -5948,6 +5990,132 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex3.json",
       "verification": "C02_DIRECT_KOREAN_ANNEX3_COMPARISON",
       "reason": "Use exact statutory support-agency term and official Korean public-corporation names."
+    },
+    {
+      "id": "A36427-zh-00024",
+      "source_hash": "7e2d94eae37ebfe1abe4a4fbd9c43bbdfdc4847191a0365d16b75fdf5ead51de",
+      "target_id": "XML:2657393",
+      "text": "即使加重，也不得超过本法第55条第1款及第2款规定的罚款金额上限。",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex4.json",
+      "verification": "C02_DIRECT_KOREAN_ANNEX4_COMPARISON",
+      "reason": "Correct clear table continuation, official statutory references and legal numbering against Korean annex."
+    },
+    {
+      "id": "A36427-zh-00026",
+      "source_hash": "0925aa90ecffa7d68ff7837a8061fc0727ed11f2ac486e261ce991adc65577ed",
+      "target_id": "XML:2657395",
+      "text": "的情形",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex4.json",
+      "verification": "C02_DIRECT_KOREAN_ANNEX4_COMPARISON",
+      "reason": "Correct clear table continuation, official statutory references and legal numbering against Korean annex."
+    },
+    {
+      "id": "A36427-zh-00028",
+      "source_hash": "e366814d4287af1b8b841620197dcac3e19e622ef692112ed2a40a1de031b809",
+      "target_id": "XML:2657397",
+      "text": "被认定有必要加重的情形",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex4.json",
+      "verification": "C02_DIRECT_KOREAN_ANNEX4_COMPARISON",
+      "reason": "Correct clear table continuation, official statutory references and legal numbering against Korean annex."
+    },
+    {
+      "id": "A36427-zh-00030",
+      "source_hash": "903aa577eae3314c52694d8cb0c32f8a688802c384b7267385dc97b9afdad866",
+      "target_id": "XML:2657399",
+      "text": "违法行为",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex4.json",
+      "verification": "C02_DIRECT_KOREAN_ANNEX4_COMPARISON",
+      "reason": "Correct clear table continuation, official statutory references and legal numbering against Korean annex."
+    },
+    {
+      "id": "A36427-zh-00038",
+      "source_hash": "8a6893d0509c4efeaf9ecbf319e6474ab274da0868748240b26d2f321daf27c1",
+      "target_id": "XML:2657407",
+      "text": "本法第55条",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex4.json",
+      "verification": "C02_DIRECT_KOREAN_ANNEX4_COMPARISON",
+      "reason": "Correct clear table continuation, official statutory references and legal numbering against Korean annex."
+    },
+    {
+      "id": "A36427-zh-00043",
+      "source_hash": "91149101593eada4e8eaf10ed1ccfae4ca2a259a98c9f6b72cf0647abf4dbffd",
+      "target_id": "XML:2657412",
+      "text": "第2款第1号",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex4.json",
+      "verification": "C02_DIRECT_KOREAN_ANNEX4_COMPARISON",
+      "reason": "Correct clear table continuation, official statutory references and legal numbering against Korean annex."
+    },
+    {
+      "id": "A36427-zh-00048",
+      "source_hash": "8a6893d0509c4efeaf9ecbf319e6474ab274da0868748240b26d2f321daf27c1",
+      "target_id": "XML:2657417",
+      "text": "本法第55条",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex4.json",
+      "verification": "C02_DIRECT_KOREAN_ANNEX4_COMPARISON",
+      "reason": "Correct clear table continuation, official statutory references and legal numbering against Korean annex."
+    },
+    {
+      "id": "A36427-zh-00053",
+      "source_hash": "a3e2971f9d5afbee5f635ca23353f6ed4b9a6af628d1654e8dea9cf94fa3a326",
+      "target_id": "XML:2657422",
+      "text": "第2款第2号",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex4.json",
+      "verification": "C02_DIRECT_KOREAN_ANNEX4_COMPARISON",
+      "reason": "Correct clear table continuation, official statutory references and legal numbering against Korean annex."
+    },
+    {
+      "id": "A36427-zh-00056",
+      "source_hash": "8a6893d0509c4efeaf9ecbf319e6474ab274da0868748240b26d2f321daf27c1",
+      "target_id": "XML:2657425",
+      "text": "本法第55条",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex4.json",
+      "verification": "C02_DIRECT_KOREAN_ANNEX4_COMPARISON",
+      "reason": "Correct clear table continuation, official statutory references and legal numbering against Korean annex."
+    },
+    {
+      "id": "A36427-zh-00065",
+      "source_hash": "b48e2ce8a9f50bb49179b1e3320ccf13758da5e8451faaad295899f97d028c95",
+      "target_id": "XML:2657434",
+      "text": "本法第55条第1款",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex4.json",
+      "verification": "C02_DIRECT_KOREAN_ANNEX4_COMPARISON",
+      "reason": "Correct clear table continuation, official statutory references and legal numbering against Korean annex."
+    },
+    {
+      "id": "A36427-zh-00073",
+      "source_hash": "b48e2ce8a9f50bb49179b1e3320ccf13758da5e8451faaad295899f97d028c95",
+      "target_id": "XML:2657443",
+      "text": "本法第55条第1款",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex4.json",
+      "verification": "C02_DIRECT_KOREAN_ANNEX4_COMPARISON",
+      "reason": "Correct clear table continuation, official statutory references and legal numbering against Korean annex."
+    },
+    {
+      "id": "A36427-zh-00081",
+      "source_hash": "b48e2ce8a9f50bb49179b1e3320ccf13758da5e8451faaad295899f97d028c95",
+      "target_id": "XML:2657452",
+      "text": "本法第55条第1款",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex4.json",
+      "verification": "C02_DIRECT_KOREAN_ANNEX4_COMPARISON",
+      "reason": "Correct clear table continuation, official statutory references and legal numbering against Korean annex."
+    },
+    {
+      "id": "A36427-zh-00090",
+      "source_hash": "b48e2ce8a9f50bb49179b1e3320ccf13758da5e8451faaad295899f97d028c95",
+      "target_id": "XML:2657462",
+      "text": "本法第55条第1款",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex4.json",
+      "verification": "C02_DIRECT_KOREAN_ANNEX4_COMPARISON",
+      "reason": "Correct clear table continuation, official statutory references and legal numbering against Korean annex."
+    },
+    {
+      "id": "A36427-zh-00110",
+      "source_hash": "b48e2ce8a9f50bb49179b1e3320ccf13758da5e8451faaad295899f97d028c95",
+      "target_id": "XML:2657482",
+      "text": "本法第55条第1款",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-annex4.json",
+      "verification": "C02_DIRECT_KOREAN_ANNEX4_COMPARISON",
+      "reason": "Correct clear table continuation, official statutory references and legal numbering against Korean annex."
     }
   ],
   "adjudicated_edit_count": 554,
@@ -11186,12 +11354,13 @@
     "2026-11-08 C02 4e0b46ff6294 B2 tail: compared all rows 00181-00209 to Korean original through the end of the Enforcement Decree, corrected 17 rows and retained existing edits. B2 00209 annex spillover is kept in the separately catalogued A36424 annex, not duplicated into B2. Whole-family status remains IN_PROGRESS.",
     "2026-11-08 C02 4e0b46ff6294 Annex 1: compared all 31 A36424 Chinese cells with the Korean annex; corrected the second facility condition's item marker (나) from duplicate a to 乙. Existing prior edits retained, including area split cells and footnote statutory definitions. Full-family remains IN_PROGRESS.",
     "2026-11-08 C02 4e0b46ff6294 Annex 2: compared all 52 A36425 Chinese cells against the Korean original and prior R69/R70 evidence. Updated rows 2, 15, 28 and 33; specifically restored row 28 and 33 as continuation fragments rather than duplicated full descriptions. Existing edits and all original cell IDs/hashes preserved. Family remains IN_PROGRESS.",
-    "2026-11-08 C02 4e0b46ff6294 Annex 3: compared all 59 A36426 Chinese cells against the Korean original and prior R72/R75/R76 evidence. Added seven minimal official-term/name corrections in rows 6,11,15,23,37,58,59. Prior corrections and split-cell boundaries retained. Family remains IN_PROGRESS."
+    "2026-11-08 C02 4e0b46ff6294 Annex 3: compared all 59 A36426 Chinese cells against the Korean original and prior R72/R75/R76 evidence. Added seven minimal official-term/name corrections in rows 6,11,15,23,37,58,59. Prior corrections and split-cell boundaries retained. Family remains IN_PROGRESS.",
+    "2026-11-08 C02 4e0b46ff6294 Annex 4: compared all 128 A36427 cells against Korean source and existing prior edits. Added/updated 20 minimal corrections for statutory references, numbering and table continuation; preserved all previous amount, duration and split-cell corrections. Annex 4 complete at cell-comparison level; family remains IN_PROGRESS."
   ],
   "integration_progress": {
-    "stage": "A36426_ANNEX3_ROWS_00001_00059_RECONCILED",
+    "stage": "A36427_ANNEX4_ROWS_00001_00128_RECONCILED",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:4e0b46ff6294",
-    "note": "Compared all 59 Chinese cells in A36426 against the Korean Annex 3. Preserved prior R72-R76 corrections for split cells, statutory citations, delegated agencies and official names. Added minimal corrections for defined support-agency term and Korea Overseas Infrastructure & Urban Development Corporation, Korea Water Resources Corporation, and Korea Land & Housing Corporation."
+    "note": "Compared all 128 Chinese cells in A36427 with the complete Korean penalty annex. Preserved prior 58 master edits and earlier Annex 4 progress. Corrected clear statutory citations (Act, Article 55 paragraphs/subparagraphs), penalty-table item numbering, missing case-continuation cells and fine-ceiling clause. Existing amounts and duration bands retained; full-family ordered-reading certification still incomplete."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -11903,7 +12072,102 @@
     "A36426-zh-00050",
     "A36426-zh-00054",
     "A36426-zh-00058",
-    "A36426-zh-00059"
+    "A36426-zh-00059",
+    "A36427-zh-00002",
+    "A36427-zh-00003",
+    "A36427-zh-00004",
+    "A36427-zh-00005",
+    "A36427-zh-00006",
+    "A36427-zh-00007",
+    "A36427-zh-00008",
+    "A36427-zh-00009",
+    "A36427-zh-00010",
+    "A36427-zh-00011",
+    "A36427-zh-00012",
+    "A36427-zh-00013",
+    "A36427-zh-00014",
+    "A36427-zh-00015",
+    "A36427-zh-00016",
+    "A36427-zh-00017",
+    "A36427-zh-00018",
+    "A36427-zh-00019",
+    "A36427-zh-00020",
+    "A36427-zh-00021",
+    "A36427-zh-00022",
+    "A36427-zh-00023",
+    "A36427-zh-00024",
+    "A36427-zh-00025",
+    "A36427-zh-00026",
+    "A36427-zh-00027",
+    "A36427-zh-00028",
+    "A36427-zh-00030",
+    "A36427-zh-00031",
+    "A36427-zh-00032",
+    "A36427-zh-00033",
+    "A36427-zh-00034",
+    "A36427-zh-00035",
+    "A36427-zh-00036",
+    "A36427-zh-00038",
+    "A36427-zh-00039",
+    "A36427-zh-00043",
+    "A36427-zh-00044",
+    "A36427-zh-00048",
+    "A36427-zh-00049",
+    "A36427-zh-00053",
+    "A36427-zh-00055",
+    "A36427-zh-00056",
+    "A36427-zh-00057",
+    "A36427-zh-00060",
+    "A36427-zh-00061",
+    "A36427-zh-00063",
+    "A36427-zh-00064",
+    "A36427-zh-00065",
+    "A36427-zh-00069",
+    "A36427-zh-00070",
+    "A36427-zh-00071",
+    "A36427-zh-00072",
+    "A36427-zh-00073",
+    "A36427-zh-00077",
+    "A36427-zh-00078",
+    "A36427-zh-00079",
+    "A36427-zh-00080",
+    "A36427-zh-00081",
+    "A36427-zh-00085",
+    "A36427-zh-00086",
+    "A36427-zh-00087",
+    "A36427-zh-00088",
+    "A36427-zh-00089",
+    "A36427-zh-00090",
+    "A36427-zh-00091",
+    "A36427-zh-00092",
+    "A36427-zh-00093",
+    "A36427-zh-00094",
+    "A36427-zh-00095",
+    "A36427-zh-00097",
+    "A36427-zh-00098",
+    "A36427-zh-00100",
+    "A36427-zh-00101",
+    "A36427-zh-00102",
+    "A36427-zh-00104",
+    "A36427-zh-00105",
+    "A36427-zh-00106",
+    "A36427-zh-00108",
+    "A36427-zh-00109",
+    "A36427-zh-00110",
+    "A36427-zh-00111",
+    "A36427-zh-00112",
+    "A36427-zh-00113",
+    "A36427-zh-00114",
+    "A36427-zh-00115",
+    "A36427-zh-00117",
+    "A36427-zh-00118",
+    "A36427-zh-00120",
+    "A36427-zh-00121",
+    "A36427-zh-00122",
+    "A36427-zh-00124",
+    "A36427-zh-00125",
+    "A36427-zh-00126",
+    "A36427-zh-00128"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
