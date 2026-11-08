@@ -1,0 +1,99 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "status": "IN_PROGRESS",
+  "checked_rows": 8,
+  "corrected_rows": 8,
+  "edits": [
+    {
+      "id": "A23947-zh-00056",
+      "text": "违规指定产地中间批发商的情况"
+    },
+    {
+      "id": "A23947-zh-00065",
+      "text": "未配备产地拍卖师或者让非产地拍卖师的人员"
+    },
+    {
+      "id": "A23947-zh-00069",
+      "text": "进行拍卖"
+    },
+    {
+      "id": "A23947-zh-00070",
+      "text": "的情况"
+    },
+    {
+      "id": "A23947-zh-00105",
+      "text": "拒绝或者回避接受委托或销售"
+    },
+    {
+      "id": "A23947-zh-00109",
+      "text": "或者给予不正当差别待遇的情况"
+    },
+    {
+      "id": "A23947-zh-00165",
+      "text": "13) 对根据本法第24条实施的检查"
+    },
+    {
+      "id": "A23947-zh-00170",
+      "text": "无正当理由拒绝接受或者"
+    }
+  ],
+  "judgments": [
+    {
+      "id": "A23947-zh-00056",
+      "decision": "EDIT",
+      "source_hash": "659b885e2d2350f0422284c29d3c45a029c7382c400ba591cc53f86405f7052e",
+      "basis": "별표 법 제14조제2항 위반 산지중도매인 지정, '地下' 오역"
+    },
+    {
+      "id": "A23947-zh-00065",
+      "decision": "EDIT",
+      "source_hash": "49624c9816f323a97bea744eae35b882cc667cd92e396ae26b25172b61799005",
+      "basis": "별표 제16조제1항 산지경매사를 두지 않거나 비경매사로 경매를 하게 한 경우"
+    },
+    {
+      "id": "A23947-zh-00069",
+      "decision": "EDIT",
+      "source_hash": "cc3d610d07e980ac9916beacafd13341194597fc8e02c2d5116dd6b7f89ddf6a",
+      "basis": "별표 제16조제1항 경매를 하도록 한 경우 연속 셀"
+    },
+    {
+      "id": "A23947-zh-00070",
+      "decision": "EDIT",
+      "source_hash": "d8bbc885f11e0ff9634086d56652ec7f517df10063b1cb36bdaa695c1049d417",
+      "basis": "별표 제16조제1항 위반 문장 종결"
+    },
+    {
+      "id": "A23947-zh-00105",
+      "decision": "EDIT",
+      "source_hash": "fa274e0377a2517a237a15f68e51968198ea8960541d32fd3c8052d665c32b2a",
+      "basis": "별표 제18조제2항 수탁 또는 판매 거부·기피"
+    },
+    {
+      "id": "A23947-zh-00109",
+      "decision": "EDIT",
+      "source_hash": "70ffb8765ec73ca8d5a8b2ee62efd6f3194bcd31bd5791f2f98568ff831779e1",
+      "basis": "별표 제18조제2항 부당한 차별대우"
+    },
+    {
+      "id": "A23947-zh-00165",
+      "decision": "EDIT",
+      "source_hash": "3c34d58576f17b7de226a088436cc1a92c34e80442b4aceda2db26978e588364",
+      "basis": "별표 제24조 검사 13호 위반 항목"
+    },
+    {
+      "id": "A23947-zh-00170",
+      "decision": "EDIT",
+      "source_hash": "45a74965198712a0dd46126e103b3aa77f8dbc5fb6ee42d554fb62b994b5ed8a",
+      "basis": "별표 제24조 검사에 정당한 사유 없이 응하지 않거나 이를 방해한 경우의 연결 셀"
+    }
+  ],
+  "source_sha": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c",
+    "en": "32423453da2fcfa466c97946520181a32643e289"
+  },
+  "english_status": "NO_DOCUMENT_ENGLISH",
+  "note": "Korean-source annex table continuation semantics checked, current source row IDs and hashes retained."
+}
