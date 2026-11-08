@@ -1,0 +1,531 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-b5c27d20d49b721e47e6",
+  "worker": "C05",
+  "status": "IN_PROGRESS",
+  "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
+  "source_blobs": {
+    "ko": "24ddd78e32a748b7d1c1ce01fef19d036494b9e9",
+    "en": "3d130788df10274ded6103c1fa81654c977eec5c",
+    "zh": "66ea4d0981f8e1a76348309f8254051d4914f693"
+  },
+  "checked_rows": 51,
+  "checked_ids": [
+    "A5225-zh-00001",
+    "A5225-zh-00002",
+    "A5225-zh-00003",
+    "A5225-zh-00004",
+    "A5225-zh-00005",
+    "A5225-zh-00006",
+    "A5225-zh-00007",
+    "A5225-zh-00008",
+    "A5225-zh-00009",
+    "A5225-zh-00010",
+    "A5225-zh-00011",
+    "A5225-zh-00012",
+    "A5225-zh-00013",
+    "A5225-zh-00014",
+    "A5225-zh-00015",
+    "A5225-zh-00016",
+    "A5225-zh-00017",
+    "A5225-zh-00018",
+    "A5225-zh-00019",
+    "A5225-zh-00020",
+    "A5225-zh-00021",
+    "A5225-zh-00022",
+    "A5225-zh-00023",
+    "A5225-zh-00024",
+    "A5225-zh-00025",
+    "A5225-zh-00026",
+    "A5225-zh-00027",
+    "A5225-zh-00028",
+    "A5225-zh-00029",
+    "A5225-zh-00030",
+    "A5225-zh-00031",
+    "A5225-zh-00032",
+    "A5225-zh-00033",
+    "A5225-zh-00034",
+    "A5225-zh-00035",
+    "A5225-zh-00036",
+    "A5225-zh-00037",
+    "A5225-zh-00038",
+    "A5225-zh-00039",
+    "A5225-zh-00040",
+    "A5225-zh-00041",
+    "A5225-zh-00042",
+    "A5225-zh-00043",
+    "A5225-zh-00044",
+    "A5225-zh-00045",
+    "A5225-zh-00046",
+    "A5225-zh-00047",
+    "A5225-zh-00048",
+    "A5225-zh-00049",
+    "A5225-zh-00050",
+    "A5225-zh-00051"
+  ],
+  "decisions": [
+    {
+      "id": "A5225-zh-00001",
+      "source_hash": "91b57f063f0333fd64116b50f4f450d7b442e67f39b7f8df8a3807e8dcfc335e",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00002",
+      "source_hash": "a02ba18bcfc3ccba0e0f07b116b997fc5d6f30a7485507435517063aab5d4bcd",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00003",
+      "source_hash": "135df8e61fb65adffae02fd1c98a85be9ae7cedb2417ecbb78beb57d1869257e",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00004",
+      "source_hash": "db22f3abccf580cf805a56ee1b22833c37c78c3f908cf87299f828cbf6d6cd9d",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00005",
+      "source_hash": "f55edacad0f1248a27ec3d1f624779073df1f6924bd500f084bc5d17e316db65",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00006",
+      "source_hash": "cb0b5bd5429717e3253221ef5f229ca60d0fb0395bda44d952ec283f2d7f0d59",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00007",
+      "source_hash": "077ebda1dedcfc1736f488e0275d34174b43becb953dcc2322ed97c597c503cb",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00008",
+      "source_hash": "2ab93bf851613b42b7de69a62b0b4002279bd7be23e16633dd020040a1caf530",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00009",
+      "source_hash": "8849503b7f3f1b2e95fbabf6a6cef0cbaaeaf9cfd8daa6d7f85127f2db774fbc",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00010",
+      "source_hash": "9494a045d6feb5673a063755c6f2ac18144f3e0332b28261859edfc34f6432bf",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00011",
+      "source_hash": "d81087d5c7b20ecab637e1175a91a8f91c56f812736d8f182dd9442fd5693767",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00012",
+      "source_hash": "00173637bafec1fc4cb4c048855a3cdc2877c422aee97b89683ee3f398fc9f53",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00013",
+      "source_hash": "8331db94bc751e949b61249373189ad515050432b831fbfa7cea30c680239e87",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00014",
+      "source_hash": "88521a20345ef9c77a14fef349337a6fef70ca8f72856b30d7904efed62f5683",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00015",
+      "source_hash": "46c43caf332e63b73563416e7c876ee8cf034e03eb74d621047d5d0af4b40c90",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00016",
+      "source_hash": "88521a20345ef9c77a14fef349337a6fef70ca8f72856b30d7904efed62f5683",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00017",
+      "source_hash": "45265ce690d3d896d691308f57aeac3639cef8c9c9aab37979e14f6c99753f79",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00018",
+      "source_hash": "eff9938b7338a48a3438f7d310eb0ed773d9d7d0fc6b1dd8ced1e89e01fc3f9e",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00019",
+      "source_hash": "2fd90beff2865b0d44ca1ae3403744af4b9a4e18fd6bc46cdda9b82e306f5aea",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00020",
+      "source_hash": "7aae0f794014f62e50d9170e79410de311b5c50b2fe232c206fc611bfcb9c4f7",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00021",
+      "source_hash": "356e445cfa1272e78e3233782f153c7c40b05960ce1a3f9090eaca6e17fb56da",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00022",
+      "source_hash": "88521a20345ef9c77a14fef349337a6fef70ca8f72856b30d7904efed62f5683",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00023",
+      "source_hash": "90031f6ac27bf69116bbbe712d8a03d170cf9bbb6712cb2790571dd76180d60a",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00024",
+      "source_hash": "ba2c3e82a169851cf2a0c6b3f4a5ce1c44f5b5d56795ae8f066dc11bcc9c47f7",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00025",
+      "source_hash": "344162a5b13e5cb3ab0ccde94945290a3e81820f63f959c249a2f51a26fa073f",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00026",
+      "source_hash": "b3fd14c9fed4d7b2df83bdcfb538f07863a7b381c4dcec50ea3ffa8f5a94b426",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00027",
+      "source_hash": "8849503b7f3f1b2e95fbabf6a6cef0cbaaeaf9cfd8daa6d7f85127f2db774fbc",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00028",
+      "source_hash": "fd9488b5d7bb1b15064bad67d7659346d83013fa26b7216ba27dba2bcb0cd788",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00029",
+      "source_hash": "4a9226b67bfa2814653868cef234cffc5ac32b6c3ef02b4da0760a4343df0e18",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00030",
+      "source_hash": "94aea34cbd23410bcc5605e03627c1f65bf8da45f2cb2a01bd99c8eb515af317",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00031",
+      "source_hash": "b3fd14c9fed4d7b2df83bdcfb538f07863a7b381c4dcec50ea3ffa8f5a94b426",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00032",
+      "source_hash": "8849503b7f3f1b2e95fbabf6a6cef0cbaaeaf9cfd8daa6d7f85127f2db774fbc",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00033",
+      "source_hash": "7db0214e26f3afa2888f522756011c742caeef123d7fffdde0fc5b691e150f1e",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00034",
+      "source_hash": "ba2c3e82a169851cf2a0c6b3f4a5ce1c44f5b5d56795ae8f066dc11bcc9c47f7",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00035",
+      "source_hash": "dbf76d86524759f656409f5a37d6d986d55cdcc6c4b638a47422e1c1ca49a1e7",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00036",
+      "source_hash": "5d69d40957dbcc1a71d22ebbdba406fbac9e5616a9352a8c76c8ec4158be2bb5",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00037",
+      "source_hash": "8c6f0adfbcdea8d0a407b43f6c4203d4c0fbd1a23c08aac6b8a724c50883f3da",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00038",
+      "source_hash": "5203ad0bd0bf059ab74dea75e592763339aa3031ce125ffba14bd65524db0568",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00039",
+      "source_hash": "e780cb93b974e9921743e1acd3530774cbae69ec0c1e0cb2cdf5c250198f719a",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00040",
+      "source_hash": "78eb2b0c3d3fbe9d860eccce3ced629a58f3b61738186883b00d30e3d5937018",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00041",
+      "source_hash": "9055be9706af7732f3e4a8ed1d0cfa61c629e17f68cf8ea27bba6f16fb6176e2",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00042",
+      "source_hash": "b68b4d4c2eefe6fa33a47a9d97823a7c5038e82207eb16a69c354faa6d168950",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00043",
+      "source_hash": "5c648e7f86995ade2169fb3842ce80b0bb4c4d9baf2faeb50094648dfc41390a",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00044",
+      "source_hash": "203063fa9c6c326ec628b5b0bbc4cf98206c0b43b70f3ff5512e2d176fc2e766",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00045",
+      "source_hash": "22caa993d96a5826030d3560c91562b169b14d90e48a206cebedf1be265eed14",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00046",
+      "source_hash": "85484d0cad3491f6992cbaeff07ff4ac8ec1efcaf2301b3f97c2ea80c8fcdd05",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00047",
+      "source_hash": "faca56ab816df9d8e904770dfae394ae8e364eee22642092b93cbff56ba40eb0",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00048",
+      "source_hash": "c01e01b37be53eaa2d601dd2ab0b6c9e21b772faf755905d4d0dd233c20ddcd1",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00049",
+      "source_hash": "4cd57bad1eb473e24f51954bcaddd42a1c86417a702e9baaa5c03e18ef192bf9",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00050",
+      "source_hash": "a30df89622ef3edb4ff35fe263b8a1c64308e4a9191114ce43ad505bf77ea41b",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5225-zh-00051",
+      "source_hash": "8275cbc141a4f4b141614194b820307120712715145170fee8d74eb3fa278192",
+      "decision": "CORRECT"
+    }
+  ],
+  "edits": [
+    {
+      "id": "A5225-zh-00001",
+      "text": "■ 《单亲家庭支援法施行规则》[附表4] <2024年11月26日修订>"
+    },
+    {
+      "id": "A5225-zh-00002",
+      "text": "单亲家庭福利设施从业人员的资格标准（与第十条之二第二款有关）"
+    },
+    {
+      "id": "A5225-zh-00003",
+      "text": "1. 单亲家庭福利设施负责人的资格标准"
+    },
+    {
+      "id": "A5225-zh-00004",
+      "text": "甲. 依《社会福利事业法》取得一级社会福利师资格后，具有三年以上社会"
+    },
+    {
+      "id": "A5225-zh-00005",
+      "text": "福利工作经历的人"
+    },
+    {
+      "id": "A5225-zh-00006",
+      "text": "乙. 依《社会福利事业法》取得二级以上社会福利师资格后，具有五年以上"
+    },
+    {
+      "id": "A5225-zh-00007",
+      "text": "社会福利工作经历的人"
+    },
+    {
+      "id": "A5225-zh-00008",
+      "text": "丙. 在国家或地方自治团体担任七级以上公务员，具有五年以上社会福利"
+    },
+    {
+      "id": "A5225-zh-00009",
+      "text": "工作经历的人"
+    },
+    {
+      "id": "A5225-zh-00010",
+      "text": "丁. 作为社会福利设施或社会福利团体的工作人员，具有七年以上社会福利"
+    },
+    {
+      "id": "A5225-zh-00011",
+      "text": "工作经历的人"
+    },
+    {
+      "id": "A5225-zh-00012",
+      "text": "戊. 具有《健康家庭基本法》规定的健康家庭师资格，并在以《健康家庭基本法》"
+    },
+    {
+      "id": "A5225-zh-00013",
+      "text": "第二十一条第二款各项事项为主要业务的设施及机构中具有七年以上"
+    },
+    {
+      "id": "A5225-zh-00014",
+      "text": "工作经历的人"
+    },
+    {
+      "id": "A5225-zh-00015",
+      "text": "己. 具有《医疗法》规定的护士资格，并具有七年以上社会福利"
+    },
+    {
+      "id": "A5225-zh-00016",
+      "text": "工作经历的人"
+    },
+    {
+      "id": "A5225-zh-00017",
+      "text": "2. 单亲家庭福利设施从业人员的资格标准"
+    },
+    {
+      "id": "A5225-zh-00018",
+      "text": "甲. 事务局长"
+    },
+    {
+      "id": "A5225-zh-00019",
+      "text": "（1）依《社会福利事业法》取得二级以上社会福利师资格后，具有两年以上"
+    },
+    {
+      "id": "A5225-zh-00020",
+      "text": "社会福利工作经历的人"
+    },
+    {
+      "id": "A5225-zh-00021",
+      "text": "（2）在国家或地方自治团体担任一般职公务员，具有两年以上社会福利"
+    },
+    {
+      "id": "A5225-zh-00022",
+      "text": "工作经历的人"
+    },
+    {
+      "id": "A5225-zh-00023",
+      "text": "（3）作为社会福利设施或社会福利团体的工作人员，具有三年以上社会福利"
+    },
+    {
+      "id": "A5225-zh-00024",
+      "text": "工作经历的人"
+    },
+    {
+      "id": "A5225-zh-00025",
+      "text": "（4）具有《健康家庭基本法》规定的健康家庭师资格，并在以该法"
+    },
+    {
+      "id": "A5225-zh-00026",
+      "text": "第二十一条第二款各项事项为主要业务的设施及机构中具有两年以上"
+    },
+    {
+      "id": "A5225-zh-00027",
+      "text": "工作经历的人"
+    },
+    {
+      "id": "A5225-zh-00028",
+      "text": "乙. 生活福利师"
+    },
+    {
+      "id": "A5225-zh-00029",
+      "text": "（1）具有《社会福利事业法》规定的二级以上社会福利师资格的人"
+    },
+    {
+      "id": "A5225-zh-00030",
+      "text": "（2）具有《健康家庭基本法》规定的健康家庭师资格，并在以该法"
+    },
+    {
+      "id": "A5225-zh-00031",
+      "text": "第二十一条第二款各项事项为主要业务的设施及机构中具有两年以上"
+    },
+    {
+      "id": "A5225-zh-00032",
+      "text": "工作经历的人"
+    },
+    {
+      "id": "A5225-zh-00033",
+      "text": "（3）具有三年以上《社会福利事业法》第二条第一项规定的社会福利咨询工作"
+    },
+    {
+      "id": "A5225-zh-00034",
+      "text": "经历的人"
+    },
+    {
+      "id": "A5225-zh-00035",
+      "text": "（4）具有《青少年基本法》第二十一条及第二十二条规定的青少年指导师或青少年咨询师"
+    },
+    {
+      "id": "A5225-zh-00036",
+      "text": "资格的人"
+    },
+    {
+      "id": "A5225-zh-00037",
+      "text": "（5）在大学主修心理学、教育学、女性学、社会学、社会事业学、法学、神学、医学、"
+    },
+    {
+      "id": "A5225-zh-00038",
+      "text": "护理学或社会福利学并已毕业的人（包括预计毕业者），或者"
+    },
+    {
+      "id": "A5225-zh-00039",
+      "text": "依照法令被认可具有同等以上学历的人"
+    },
+    {
+      "id": "A5225-zh-00040",
+      "text": "丙. 生活指导员"
+    },
+    {
+      "id": "A5225-zh-00041",
+      "text": "依《初等及中等教育法》从高中以上学校毕业的人（包括预计毕业者），"
+    },
+    {
+      "id": "A5225-zh-00042",
+      "text": "或依照法令被认可具有同等以上学历的人"
+    },
+    {
+      "id": "A5225-zh-00043",
+      "text": "丁. 护士"
+    },
+    {
+      "id": "A5225-zh-00044",
+      "text": "具有《医疗法》规定的护士资格的人（包括护理助理）。但具有护理助理"
+    },
+    {
+      "id": "A5225-zh-00045",
+      "text": "资格的人，应具有三年以上社会福利工作经历。"
+    },
+    {
+      "id": "A5225-zh-00046",
+      "text": "戊. 营养师"
+    },
+    {
+      "id": "A5225-zh-00047",
+      "text": "具有《国民营养管理法》规定的营养师资格的人"
+    },
+    {
+      "id": "A5225-zh-00048",
+      "text": "己. 厨师"
+    },
+    {
+      "id": "A5225-zh-00049",
+      "text": "具有《食品卫生法》规定的厨师资格的人"
+    },
+    {
+      "id": "A5225-zh-00050",
+      "text": "庚. 管理人员"
+    },
+    {
+      "id": "A5225-zh-00051",
+      "text": "身体健康且不存在录用限制事由的人"
+    }
+  ],
+  "next_id": "A5226-zh-00001",
+  "note": "Full 51-cell A5225 qualifications annex compared with Korean. Verified statutory professional credentials, years (3,5,7,2), law citations; corrected reversed <=2-year mistranslations, false allegation of illegal activity, and corrupted job categories. Earlier checkpoints preserved; incomplete job."
+}
