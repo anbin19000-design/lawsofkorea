@@ -1,0 +1,35 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "worker": "C05",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "51d1209e0802e556d0d93bd856c45ea15ab26d73",
+  "previous_corrections": 330,
+  "new_correction_ids": [
+    "B1-zh-00137",
+    "B1-zh-00145"
+  ],
+  "correction_count": 332,
+  "pending_rows": 89,
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "full_reading_proven": false,
+  "completion_receipt": null,
+  "english_note": "B1/B2 official exact-version; B3/forms only 2010 fallback, not exact current version; decree also has AI draft.",
+  "english_reference_rows": {
+    "with_english": 771,
+    "without_english": 603
+  },
+  "note": "법률 제14035호를 '法'으로 축약한 부칙 인용 2행 교정. 원문 SHA, 기존 판단 및 89행 보류 유지. 전체 가족 순차 독해·최종 인증 미완료."
+}
