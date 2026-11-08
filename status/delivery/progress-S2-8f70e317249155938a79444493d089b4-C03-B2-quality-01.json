@@ -1,0 +1,44 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "B2",
+  "quality_batch": "B2-quality-01",
+  "range": {
+    "first": "B2-zh-00001",
+    "last": "B2-zh-00002"
+  },
+  "quality_checked_rows": 2,
+  "quality_passed_rows": 2,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "B2-zh-00001",
+    "B2-zh-00002"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-00001-00006.json",
+  "results": [
+    {
+      "id": "B2-zh-00001",
+      "source_hash": "3fdaecbf1dcb850809cb2e8831b6c26e580dca572bf34a9d140ac25f35b40902",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Korean decree title is 인신매매등방지 및 피해자보호 등에 관한 법률 시행령. Saved Chinese correction correctly identifies the implementing presidential decree and retains the paired 등 modifiers."
+    },
+    {
+      "id": "B2-zh-00002",
+      "source_hash": "359f238a1a43334b66e3531fca86ccf0aab37de70ba0246e4c3c4e0a67313a75",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Korean Article 1 states that the decree prescribes matters delegated by the named Act and matters necessary for its implementation. Saved Chinese text retains the authority and purpose without adding another statute or changing the delegated power."
+    }
+  ],
+  "edits": [],
+  "note": "Quality verified only B2-zh-00001 and B2-zh-00002 against corresponding Korean source. Other B2 corrections and the rest of family final quality verification remain IN_PROGRESS. No complete review or receipt."
+}
