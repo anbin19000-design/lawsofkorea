@@ -2575,6 +2575,15 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-ab7160916418.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
       "reason": "韩国修法条文明确将旧法名“화재예방, 소방시설 설치ㆍ유지 및 안전관리에 관한 법률”改为新法名“소방시설 설치 및 관리에 관한 법률”。原中文两侧译名完全相同，遗漏了被修订的法律名称差异。"
+    },
+    {
+      "id": "B1-zh-00070",
+      "text": "第五十条（智慧示范项目等）\n① 拟在智慧规制创新区实施智慧示范项目的经营者（以下简称“智慧示范项目经营者”），在项目符合下列任一情形时，可向国土交通部长官申请批准该项目的实施计划（以下简称“智慧示范项目计划”）。\n1. 作为智慧创新技术、服务许可等依据的法律法规中，没有规定推进该智慧示范项目所需的标准、规格或要求等。\n2. 根据作为智慧创新技术、服务许可等依据的法律法规，适用推进该智慧示范项目所需的标准、规格或要求等并不适当。\n3. 根据作为智慧创新技术、服务许可等依据的法律法规，无法实施该智慧示范项目。\n② 关于第一款所述批准及变更等，准用第四十九条、第五十一条及第五十二条（不包括第四十九条第一款及第五十一条第二款）。在此情况下，“智慧创新项目”视为“智慧示范项目”，“智慧创新项目计划”视为“智慧示范项目计划”，“智慧创新项目经营者”视为“智慧示范项目经营者”，“实施区域”视为“实证区域”，“提供或使用智慧创新技术、服务”视为“测试或验证智慧创新技术、服务”。<2021年3月16日修订>\n\n",
+      "source_hash": "1582001b51b6a749a045c5c72e9a52648a2923575df8060677bbceb8939ab2ad",
+      "target_id": "9dc3ee5e1567ae7da107d5fc25141b755939ce8537708c847a7c2dfeee27b110",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-ab7160916418.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "第50条第1款第2项韩文是“适用相关标准、规格、要求并不适当”，原译误写成这些标准本身“不适用”，改变了判断对象。修正为适用该标准不适当，保留其他结构。"
     }
   ],
   "adjudicated_edit_count": 288,
@@ -7771,12 +7780,13 @@
     "2026-11-08 C02 continuation: corrected Article 33 item 1 condition, Article 40 Aviation Safety Act Article 2 subparagraph 3, and Article 41 Software Promotion Act Article 2 subparagraphs 3 and 4. Existing master decisions preserved.",
     "2026-11-08 C02 continuation: refined existing B1-zh-00073 and added correction for B1-zh-00074; retained previous edits and source hashes.",
     "2026-11-08 C02 continuation: corrected B1 rows 00084, 00085, 00090, 00094 and 00098; preserved existing review history.",
-    "2026-11-08 C02 continuation: corrected B1-zh-00116, where the Chinese translation erased the statutory title amendment by translating old and new titles identically."
+    "2026-11-08 C02 continuation: corrected B1-zh-00116, where the Chinese translation erased the statutory title amendment by translating old and new titles identically.",
+    "2026-11-08 C02 continuation: corrected B1-zh-00070 Article 50(1)(2) legal test; other paragraphs retained with only necessary terminology alignment."
   ],
   "integration_progress": {
-    "stage": "B1_TRANSITIONAL_AMENDMENT_00116_LEGAL_TITLE_CHANGE_RECONCILED",
+    "stage": "B1_ARTICLE50_1_2_APPLICABILITY_TEST_RECONCILED",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:ab7160916418",
-    "note": "Restored the distinction between former and amended Fire Facilities Act titles in B1-zh-00116. Whole family remains IN_PROGRESS."
+    "note": "Corrected Article 50(1)(2): the statutory test is that applying the standards is inappropriate, not that the standards are inapplicable. Whole family remains IN_PROGRESS."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -8104,7 +8114,8 @@
     "B1-zh-00090",
     "B1-zh-00094",
     "B1-zh-00098",
-    "B1-zh-00116"
+    "B1-zh-00116",
+    "B1-zh-00070"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
