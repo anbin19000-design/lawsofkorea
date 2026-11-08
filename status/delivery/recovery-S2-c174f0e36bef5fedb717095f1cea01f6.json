@@ -31,7 +31,20 @@
   },
   "assistant_count": 6,
   "assistant_excerpt": "C01 신규 법령 검수 진행\n검수 진행 중 · 완료 미확정\n\nJob ID: F-7423351d4946866bbacf\n\n법령가족: 수산물 유통의 관리 및 지원에 관한 법률\n\n기준 커밋: 01868b0f3b54e96996be33523bb0aac437d272c0\n\nGitHub 원문: 16개 문서 확인\n\n중국어 행: 1,207개, 행 ID 1,207개 중복 없음\n\n기존 검수 파일 및 영수증: 해당 경로에 없음\n\n초기 검사에서 MTQ 표식, 문장 안의 START, 한국어 미번역 조각이 포함된 행 21개를 확인했습니다. 이들은 실제 한국어 원문에 맞춰 교정해야 하며, 단순 표식 삭제만으로 처리하지 않습니다.\n\n추가 확인 결과\n\nmain의 한국어·중국어·영어 원문 파일 SHA가 기준 커밋과 모두 일치합니다.\n\n영어 연결 문서 2개와 시행규칙의 영어 검수 기록을 확인했습니다.\n\n별표·서식의 처리기간, 법률 인용, 미번역 조문 등에서 실제 교정이 필요한 내용을 확인했습니다.\n\n현재 상태: 검수 미완료 / 저장 보류\n\n1,207개 행 전체의 의미 검증과 교정문 확정이 끝나지 않았으므로 COMPLETE로 선언하지 않았습니다.\n\n대상\n\n\t\n\n상태\n\n\n\n\nreview/zh/F-7423351d4946866bbacf.json\n\n\t\n\n미생성\n\n\n\n\nreceipts/F-7423351d4946866bbacf.json\n\n\t\n\n미생성\n\n\n\n\n기존 laws/* 원문\n\n\t\n\n변경 없음\n\n기존 배정은 재시도하지 않았고, 신규 배정의 완료 영수증도 허위로 발행하지 않았습니다. 이번 배정은 후속 검수가 필요한 미완료 상태입니다.",
+  "attempted_at": "2026-11-08T06:38:51.078913+00:00",
   "created_at": "2026-11-08T06:38:45.823411+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-c174f0e36bef5fedb717095f1cea01f6",
+    "attempted_at": "2026-11-08T06:38:51.078913+00:00",
+    "claim_commit": "fa3d46a60f3b127f20dfd14fc84d24ef10986e0f",
+    "event_id": "obs-0091fff04ebcde266eea7d955d5de2dc935a78f7",
+    "job_id": "F-7423351d4946866bbacf",
+    "record_path": "status/delivery/recovery-S2-c174f0e36bef5fedb717095f1cea01f6.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C01"
+  },
   "episode": 1,
   "event_id": "obs-0091fff04ebcde266eea7d955d5de2dc935a78f7",
   "idle_followup": true,
@@ -43,7 +56,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-f4cffd676fe5695b87201703]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "46b26d9d63d0b8ab2f5d4100acf44821cabc23c1",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6af017db-65d8-83ec-9c45-ff08e769f61d",
   "worker": "C01"
 }
