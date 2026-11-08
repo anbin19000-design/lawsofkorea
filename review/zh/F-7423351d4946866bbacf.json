@@ -2,7 +2,7 @@
   "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-7423351d4946866bbacf",
   "worker": "C01",
-  "checked_rows": 57,
+  "checked_rows": 60,
   "edits": [
     {
       "id": "B1-zh-00065",
@@ -1027,10 +1027,22 @@
     {
       "id": "B3-zh-00020",
       "text": "第十八条（费用）\n① 鱼市经营者和生产区域内的中间批发商可以收取下列各款规定的费用。\n1. 设施使用费：鱼市经营者因使用鱼市设施而收取的费用\n2. 寄售费（指鱼市经营者经营未按照本法第18条第3款规定列入清单的水产品时收取的手续费；以下在本条中均适用）：鱼市经营者从受托销售水产品的寄售人处收取的费用（包括鱼市经营者经营未按照本法第18条第3款规定列入清单的水产品时的寄售人）。\n3. 经纪费：批发商在海鲜生产区域内，居间水产品买卖时向该水产品交易当事人收取的费用。\n② 根据第1款第2项规定的寄售费或根据第1款第3项规定的经纪费，由鱼市经营者根据下列各款的分类，通过营业规定确定。\n1. 佣金：交易金额的 60/1000 以内\n2. 经纪费：交易金额的 40/1000 以内\n\n"
+    },
+    {
+      "id": "B2-zh-00027",
+      "text": "第26条（水产品流通协会）\n① 按照本法第53条第1款的规定，拟取得成立渔业产品分销协会（以下简称“协会”）的许可的渔业产品分销经营者，应当向海洋水产大臣申请许可。\n② 海洋水产大臣收到根据第1款提出的成立协会的授权申请后，可以考虑该协会对渔业产品流通行业发展的贡献程度、渔业产品流通经营者的代表性等因素，批准成立该协会。\n③ 该法第53条第5款第6项中，“总统令规定的业务”是指下列各款所列的业务。\n1. 促进渔业分销行业发展所需技术的研究与开发，以及国外数据收集、调查和研究项目\n2. 为海鲜分销商提供业务改进咨询和指导\n3. 促进渔业分销行业发展国际合作\n4. 海鲜及海鲜分销行业的推广\n5. 协会章程规定的其他业务\n④ 本协会章程应包含下列事项。\n1. 目的\n2. 名称\n3. 主要办公地点\n4. 会员注册和退会事宜\n5. 与业务相关的事项\n6. 关于会员大会和理事会的事项\n7. 关于高管的事项\n8. 组织和运作相关事宜\n9. 关于资产和会计的事项\n10. 关于解散的事项\n11. 关于修改和变更公司章程的事项\n12. 与协会运作相关的其他事项\n⑤ 如果海洋和渔业部长认为有必要监督该协会，他/她可以要求该协会报告与其业务相关的事项或提交相关材料。\n\n"
+    },
+    {
+      "id": "B2-zh-00042",
+      "text": "第四条（修改其他法律）①至<16>款省略\n\n  <17>《水产品流通管理及支援法施行令》部分修改如下。\n\n"
+    },
+    {
+      "id": "B2-zh-00025",
+      "text": "第二十四条（水产品收购和储备业务的损失处理）\n① 海洋水产大臣应当按照本法第43条的规定，确定本法第40条规定的收购或储备业务中，每项业务可视为经营成本的管理费用的限额。\n② 根据第1款计算每个具体项目管理费用限额的方法等必要事项，由海洋水产大臣决定。\n\n"
     }
   ],
   "status": "IN_PROGRESS",
-  "note": "IN_PROGRESS. 256 unique corrected Chinese rows; preserved all prior edits. This pass: Rules Article 18 brokerage commission payer, Article 26 tracking management plan and review team nominating authority, Article 28 waybill versus invoice, Article 33 inbound/outbound traceability records. No independent B3 English; Korean authoritative. Original SHA unchanged. Entire 1207 row and annex/form XML semantic verification incomplete; no COMPLETE receipt.",
+  "note": "IN_PROGRESS. 259 distinct source rows corrected; retained earlier edits. Also corrected B2 Articles 24,26, 2020 addendum amendment reference (business governance, reserve funds and correct Presidential Decree versus subordinate Rules). Original SHA unchanged. Independent English B1/B2 available. Full meaning verification across 1207 Chinese rows and annex/form XML alignment incomplete; no COMPLETE receipt.",
   "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
   "source_sha": {
     "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
