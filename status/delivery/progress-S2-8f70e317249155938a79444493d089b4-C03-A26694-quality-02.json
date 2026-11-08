@@ -1,0 +1,365 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26694",
+  "quality_batch": "A26694-quality-02",
+  "range": {
+    "first": "A26694-zh-00019",
+    "last": "A26694-zh-00052"
+  },
+  "quality_checked_rows": 34,
+  "quality_passed_rows": 34,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "A26694-zh-00019",
+    "A26694-zh-00020",
+    "A26694-zh-00021",
+    "A26694-zh-00022",
+    "A26694-zh-00023",
+    "A26694-zh-00024",
+    "A26694-zh-00025",
+    "A26694-zh-00026",
+    "A26694-zh-00027",
+    "A26694-zh-00028",
+    "A26694-zh-00029",
+    "A26694-zh-00030",
+    "A26694-zh-00031",
+    "A26694-zh-00032",
+    "A26694-zh-00033",
+    "A26694-zh-00034",
+    "A26694-zh-00035",
+    "A26694-zh-00036",
+    "A26694-zh-00037",
+    "A26694-zh-00038",
+    "A26694-zh-00039",
+    "A26694-zh-00040",
+    "A26694-zh-00041",
+    "A26694-zh-00042",
+    "A26694-zh-00043",
+    "A26694-zh-00044",
+    "A26694-zh-00045",
+    "A26694-zh-00046",
+    "A26694-zh-00047",
+    "A26694-zh-00048",
+    "A26694-zh-00049",
+    "A26694-zh-00050",
+    "A26694-zh-00051",
+    "A26694-zh-00052"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26694-00001-00052.json",
+  "prior_quality_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26694-quality-01.json",
+  "results": [
+    {
+      "id": "A26694-zh-00019",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "서식 판정 확인 날짜의 연·월·일 대응"
+    },
+    {
+      "id": "A26694-zh-00020",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "서식 판정 확인 날짜의 연·월·일 대응"
+    },
+    {
+      "id": "A26694-zh-00021",
+      "source_hash": "dfc76879e2f5c3ead09186ff1c6b635624f96b7adbd71d94c37566429ca5df6f",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "서식 판정 확인 날짜의 연·월·일 대응"
+    },
+    {
+      "id": "A26694-zh-00022",
+      "source_hash": "c4fc15aa2f53bf1a95756ad2d7156cffee28c64195b31dea9f2428d1a99f31ff",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "판정위원장·판정부위원장 명칭 대응"
+    },
+    {
+      "id": "A26694-zh-00023",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "판정위원 서명 또는 날인 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00024",
+      "source_hash": "c662bd0cb1bc02839be2ea52b95d6ed8c2e90d3c6f4dbbddacb8c1d92a3475b1",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "판정위원장·판정부위원장 명칭 대응"
+    },
+    {
+      "id": "A26694-zh-00025",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "판정위원 서명 또는 날인 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00026",
+      "source_hash": "41b485b282fc5bccb6dcd803946e3d89ccdf39d863c3796058bdd7acdd6802b7",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "반복되는 판정위원 직위 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00027",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "판정위원 서명 또는 날인 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00028",
+      "source_hash": "41b485b282fc5bccb6dcd803946e3d89ccdf39d863c3796058bdd7acdd6802b7",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "반복되는 판정위원 직위 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00029",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "판정위원 서명 또는 날인 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00030",
+      "source_hash": "41b485b282fc5bccb6dcd803946e3d89ccdf39d863c3796058bdd7acdd6802b7",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "반복되는 판정위원 직위 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00031",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "판정위원 서명 또는 날인 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00032",
+      "source_hash": "41b485b282fc5bccb6dcd803946e3d89ccdf39d863c3796058bdd7acdd6802b7",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "반복되는 판정위원 직위 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00033",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "판정위원 서명 또는 날인 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00034",
+      "source_hash": "41b485b282fc5bccb6dcd803946e3d89ccdf39d863c3796058bdd7acdd6802b7",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "반복되는 판정위원 직위 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00035",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "판정위원 서명 또는 날인 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00036",
+      "source_hash": "41b485b282fc5bccb6dcd803946e3d89ccdf39d863c3796058bdd7acdd6802b7",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "반복되는 판정위원 직위 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00037",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "판정위원 서명 또는 날인 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00038",
+      "source_hash": "41b485b282fc5bccb6dcd803946e3d89ccdf39d863c3796058bdd7acdd6802b7",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "반복되는 판정위원 직위 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00039",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "판정위원 서명 또는 날인 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00040",
+      "source_hash": "41b485b282fc5bccb6dcd803946e3d89ccdf39d863c3796058bdd7acdd6802b7",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "반복되는 판정위원 직위 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00041",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "판정위원 서명 또는 날인 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00042",
+      "source_hash": "41b485b282fc5bccb6dcd803946e3d89ccdf39d863c3796058bdd7acdd6802b7",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "반복되는 판정위원 직위 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00043",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "판정위원 서명 또는 날인 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00044",
+      "source_hash": "41b485b282fc5bccb6dcd803946e3d89ccdf39d863c3796058bdd7acdd6802b7",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "반복되는 판정위원 직위 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00045",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "판정위원 서명 또는 날인 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00046",
+      "source_hash": "41b485b282fc5bccb6dcd803946e3d89ccdf39d863c3796058bdd7acdd6802b7",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "반복되는 판정위원 직위 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00047",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "판정위원 서명 또는 날인 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00048",
+      "source_hash": "41b485b282fc5bccb6dcd803946e3d89ccdf39d863c3796058bdd7acdd6802b7",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "반복되는 판정위원 직위 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00049",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "판정위원 서명 또는 날인 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00050",
+      "source_hash": "41b485b282fc5bccb6dcd803946e3d89ccdf39d863c3796058bdd7acdd6802b7",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "반복되는 판정위원 직위 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00051",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "판정위원 서명 또는 날인 표기 확인"
+    },
+    {
+      "id": "A26694-zh-00052",
+      "source_hash": "6a9fd2459313c78ed634682f52734f6a424348a2381255da601ab4f842ec71c4",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "A4 용지 210×297mm 및 두 종류 80g/㎡ 용지 규격 확인"
+    }
+  ],
+  "edits": [],
+  "note": "A26694 19~52번: 확인 일자, 위원장·부위원장·14개 판정위원 항목, 서명과 용지 규격 등 한국어 원문 대조. 기존 교정·원본 ID/해시 보존. A26694 52행 품질 기록 누적 완료. 가족 전체 COMPLETE 아님."
+}
