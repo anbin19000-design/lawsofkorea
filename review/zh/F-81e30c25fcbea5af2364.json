@@ -2395,6 +2395,15 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-0fb8b7cbc86e.json",
       "verification": "C02_DIRECT_KOREAN_LEGAL_TERM_COMPARISON",
       "reason": "韩文“귀속”在本条指公共设施在竣工后归属/移交给管理机关，并非设施所有权概念；仅将标题“所有权”改为“归属”，保留正文原译。"
+    },
+    {
+      "id": "B1-zh-00037",
+      "text": "第二十四条之三（指导、监督等）\n① 国土交通部长官在必要时，为监督智慧城市项目实施者及协会，可要求其报告业务事项、提交资料或发出其他必要命令，并可派其所属公务员进入其办公室，调查或检查账簿、文件等。<2020年6月9日修订>\n② 按照第1款规定进行进入、检查等的公务员应当携带表明其职权的证件，并向对方出示。\n\n第六章 智慧城市产业支持 <2017年3月21日新增>\n\n",
+      "source_hash": "289e7ad3130c6375a23e446e9a428fd1b7348c92dd9c8a61d7c149569315948c",
+      "target_id": "78e04dba61fcd67483a11537a100fa689f328ecd27822d207672e33949734bb3",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c221b3b4d123.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "韩文“소속 공무원”指国土交通部所属公务员，不是“其管辖范围内的官员”；同时“협회”是本法第24条之2定义的协会，现明确为协会。"
     }
   ],
   "adjudicated_edit_count": 288,
@@ -7583,12 +7592,13 @@
     "2026-11-08 C02 continuation: corrected B1 title terminology only. Article 2, Article 3(1)(6), and Article 3-2 corrections were already integrated; no duplicates added.",
     "2026-11-08 C02 continuation: B1-zh-00023 corrected against Korean original. Other reviewed nearby rows have prior integrated corrections or no confirmed material error; no duplicate edits.",
     "2026-11-08 C02 continuation: corrected B1-zh-00024 heading terminology only; retained the existing body translation.",
-    "2026-11-08 C02 refinement: refined the previously accepted B1-zh-00033 edit to make the two co-chair structure explicit; this updates an existing edit and does not increase unique checked-row count."
+    "2026-11-08 C02 refinement: refined the previously accepted B1-zh-00033 edit to make the two co-chair structure explicit; this updates an existing edit and does not increase unique checked-row count.",
+    "2026-11-08 C02 continuation: corrected B1-zh-00037 for the meaning of 소속 공무원 and the defined Association; retained the overall article structure."
   ],
   "integration_progress": {
-    "stage": "B1_ARTICLE23_COCHAIR_STRUCTURE_REFINED",
+    "stage": "B1_ARTICLE24_3_SUPERVISION_SCOPE_RECONCILED",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:c221b3b4d123",
-    "note": "Article 23(3) now explicitly states two joint chairpersons as required by Korean and official English. Whole family remains IN_PROGRESS."
+    "note": "B1 Article 24-3 supervision wording corrected to Ministry-affiliated officials and the statutory Association. Whole family remains IN_PROGRESS."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -7896,7 +7906,8 @@
     "B1-zh-00020",
     "B1-zh-00001",
     "B1-zh-00023",
-    "B1-zh-00024"
+    "B1-zh-00024",
+    "B1-zh-00037"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
