@@ -1,0 +1,43 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-17c1830954cb52c759c2",
+  "worker": "C04",
+  "pc": "WORK-C",
+  "panel_id": "panel-04",
+  "assignment_id": "UW-ae29ceae79dce2b6f6b096967b9c7d2a",
+  "predecessor_assignment_id": "UW-13dcf8b336720c3b2618fdc820a94e6a",
+  "status": "COMPLETE",
+  "source_commit": "5f7a7e32af396dc79cd118fe4cd10694a66a9197",
+  "source_blobs": {
+    "ko": "dc7900aa39aa4daea43830abfc398a436695411c",
+    "en": "6dde8519d0cb5d72763353feaac3b483954cd1bc",
+    "zh": "cd35c01be0c39b6adbf2cc69f5f814e2c9cf8a67"
+  },
+  "review_path": "review/zh/F-17c1830954cb52c759c2.json",
+  "review_blob_sha": "f3840a26468fbf6e3c21f310bdfaf8666d1b029c",
+  "receipt_path": "receipts/F-17c1830954cb52c759c2.json",
+  "receipt_blob_sha": "0fdf20d2315763d99ef485b005fc6ffa57c5e70a",
+  "counts": {
+    "documents": 30,
+    "total_rows": 1275,
+    "reviewed_rows": 1275,
+    "corrected_rows": 1196,
+    "unchanged_rows": 79,
+    "pending_rows": 0
+  },
+  "reading": {
+    "korean": "COMPLETE",
+    "english": "COMPLETE",
+    "chinese": "COMPLETE"
+  },
+  "final_qa": {
+    "id_order_match": true,
+    "original_chinese_preserved": true,
+    "duplicate_ids": 0,
+    "empty_rows": 0,
+    "unreviewed_rows": 0,
+    "residual_mtq_ocr_tokens": 0,
+    "residual_korean_fragments": 0
+  },
+  "notes": "Official review file status COMPLETE and official receipt status COMPLETE; both saved and read back through GitHub Contents API. Active C04 status lists the same Job ID with successor assignment UW-ae29ceae79dce2b6f6b096967b9c7d2a; predecessor UW-13dcf8b336720c3b2618fdc820a94e6a preserved. No next law family selected."
+}
