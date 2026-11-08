@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 253,
+    "correction_count": 276,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -1796,6 +1796,167 @@
       "original": "d. 其他强加不公平损害赔偿义务的行为",
       "corrected": "라. 其他强加不公平损害赔偿义务的行为",
       "reason": "그 밖의 부당한 손해배상 의무 라목 번호 오류."
+    },
+    "A34914-zh-00004": {
+      "doc": "A34914",
+      "source_hash": "6dbd22ad07f9a49ef88c780416330f071a3d69ed8f9dd4d1341ee627fdba9220",
+      "original": "a. 一个或多个建筑面积为150平方米或以上的阶梯教室，能够进行团体培训",
+      "corrected": "가. 一个或多个建筑面积为150平方米或以上的阶梯教室，能够进行团体培训",
+      "reason": "시설 기준 가목 번호 오류."
+    },
+    "A34914-zh-00007": {
+      "doc": "A34914",
+      "source_hash": "5c23b37d04de058fada8e1eb8239f4960a397dc537bcd03f6c20fc3ca74a2b9b",
+      "original": "B. 必须配备能够同时容纳 10 人或以上进行视频培训的设施。",
+      "corrected": "나. 必须配备能够同时容纳 10 人或以上进行视频培训的设施。",
+      "reason": "시설 기준 나목 번호 오류."
+    },
+    "A34914-zh-00009": {
+      "doc": "A34914",
+      "source_hash": "7349f63c3098ba801ebee050a92c9f24fad864d57b964e425d82952de3e9f0d6",
+      "original": "a. 全职讲师履行《教师法》第31-2条第1款第1至3项规定的职责 1",
+      "corrected": "가. 본法第31条之2第1款第1项至第3项业务，应设置至少1名专职讲师。",
+      "reason": "법 제31조의2를 ‘교사법’으로 오인하고 전임강사 1명 이상의 최소 기준을 누락한 오류."
+    },
+    "A34914-zh-00011": {
+      "doc": "A34914",
+      "source_hash": "261c446d57b81b147a5b83d6e743236cddf925a55d0b4581fc94279871b8ed19",
+      "original": "B. 第A款所述的全职讲师应符合下列任何一项条件：",
+      "corrected": "나. 第가目所述的全职讲师应符合下列任何一项条件：",
+      "reason": "인력기준 나목과 가목 인용 오류."
+    },
+    "A34914-zh-00012": {
+      "doc": "A34914",
+      "source_hash": "ace8fb9fe900b765a113ab86a86f408275168c9c3943ba33bed2a0d7ea5625f4",
+      "original": "1) 作为一名在大学主修法律、经济学或工商管理等一个或多个专业的学生，​​“高等",
+      "corrected": "1) 在大学主修法律、经济学或经营学中至少一个专业的人，​​“高等",
+      "reason": "현직 대학생으로 한정한 오역을 대학교 전공자 기준으로 수정."
+    },
+    "A34914-zh-00019": {
+      "doc": "A34914",
+      "source_hash": "74d77801cb94bbff956f1c9234145e7b7645309aa7410af2280b3830ff804a8b",
+      "original": "。至少需要雇用3名管理人员。",
+      "corrected": "다.至少需要雇用3名管理人员。",
+      "reason": "관리직원 3명 이상 다목 번호 누락."
+    },
+    "A34914-zh-00021": {
+      "doc": "A34914",
+      "source_hash": "c6a61bb7e70573226fa4751bfbf21142d0685b50567b0429064c220dd6a407f2",
+      "original": "a. 在指定日期之前的三年内，拥有五十个或以上特许经营商或潜在特许经营商以及特许经营商",
+      "corrected": "가. 指定日前最近3年内，对50家以上加盟总部、100名以上潜在加盟者及加盟店经营者，或30名以上加盟交易专家",
+      "reason": "교육실적 기준의 세 집단 최소 실적 수치 및 대상 주체 오류 보정."
+    },
+    "A34914-zh-00022": {
+      "doc": "A34914",
+      "source_hash": "805c512933eddc4f4a4901146c95590657bfa6975ab8cf029679b660f7a9faec",
+      "original": "实际经营过100名或以上经营者，或30名或以上特许经营交易专家的教育和培训的经营者",
+      "corrected": "开展过教育培训的",
+      "reason": "교육·연수 실적을 업자 경영실적으로 오역한 부분."
+    },
+    "A34914-zh-00023": {
+      "doc": "A34914",
+      "source_hash": "889f980f3832c22697a796e7bed3716a52f75864dd3a303f4434af736597c477",
+      "original": "将出现",
+      "corrected": "业绩",
+      "reason": "실적을 ‘발생할 것이다’로 오역한 부분."
+    },
+    "A34914-zh-00024": {
+      "doc": "A34914",
+      "source_hash": "c3f80d1cbfe346a436dbb6201a660bc358c86a50772cecd59311327548e01dcb",
+      "original": "a. 公司必须在指定日期之前的 3 年内记录 30 起或以上与特许经营业务相关的纠纷调解案件。",
+      "corrected": "나. 教育机构应在指定日期之前的 3 年内记录 30 起或以上与特许经营业务相关的纠纷调解案件。",
+      "reason": "교육실적 나목 번호 및 주체 오류."
+    },
+    "A34914-zh-00025": {
+      "doc": "A34914",
+      "source_hash": "049852f21c488be71511df5d95d909383704fd0356db42ad42a27c13f41a4ce5",
+      "original": "。作为一所依据《高等教育法》第二条设立的学校，在指定日期之前的三年内，附件表 3",
+      "corrected": "다.作为一所依据《高等教育法》第二条设立的学校，在指定日期之前的三年内，附件表 3",
+      "reason": "교육실적 다목 번호 누락."
+    },
+    "A34915-zh-00003": {
+      "doc": "A34915",
+      "source_hash": "30489e2cc76c5136be3ab65e7a46c98d16153a746d07126f4a52b4f68127a3cc",
+      "original": "1. 是否施加处罚的决定",
+      "corrected": "1. 是否施加附加罚款的决定",
+      "reason": "과징금 부과여부 결정은 일반 처벌 여부가 아님."
+    },
+    "A34915-zh-00007": {
+      "doc": "A34915",
+      "source_hash": "3cdce74d493ca02230022d95e79966c3fb49361982ebc07f8630ba80f73d9e12",
+      "original": "a. 在特许经营业务的公平交易秩序受到严重阻碍的情况下",
+      "corrected": "가. 在特许经营业务的公平交易秩序受到严重阻碍的情况下",
+      "reason": "과징금 결정 가목 번호 오류."
+    },
+    "A34915-zh-00008": {
+      "doc": "A34915",
+      "source_hash": "a497ef304082f00f9e5d3cee5cb08ca584562826a571f17157c69919793c88cc",
+      "original": "B. 对加盟商等影响重大的案例",
+      "corrected": "나. 对加盟商等影响重大的案例",
+      "reason": "과징금 결정 나목 번호 오류."
+    },
+    "A34915-zh-00009": {
+      "doc": "A34915",
+      "source_hash": "576e8831e4e92b2d47ef9aa5c3bbf160f20242fd6b6ea13614d7abe2649b6e99",
+      "original": "。如果因违反",
+      "corrected": "다. 因违法行为产生不当得利的情形",
+      "reason": "과징금 원칙 부과 요건인 ‘위반행위로 부당이득 발생’이 잘린 번역으로 누락."
+    },
+    "A34915-zh-00010": {
+      "doc": "A34915",
+      "source_hash": "5762165b80cc9e9ece7a8b2196e6418dc24524781e9b87f70d20fe4a3ce28d08",
+      "original": "d. 公平交易委员会认定的其他与第a至c款等效的情况",
+      "corrected": "라. 公平交易委员会认定的其他与第a至c款等效的情况",
+      "reason": "과징금 결정 라목 번호 오류."
+    },
+    "A34915-zh-00012": {
+      "doc": "A34915",
+      "source_hash": "c9986c0ec4134a5c96f5c93401babd09b431234fb9ee5d7cfb051967b2fb4b82",
+      "original": "2. 行政罚款计算标准",
+      "corrected": "2. 附加罚款计算标准",
+      "reason": "과징금과 과태료 구별이 필요한 제2호 제목 오역."
+    },
+    "A34915-zh-00017": {
+      "doc": "A34915",
+      "source_hash": "94e837960fadf1848f6bedaf0093a6ec7ed94ae8018a245ff34cea38b55fddd6",
+      "original": "a. 基本计算准则",
+      "corrected": "가. 基本计算准则",
+      "reason": "기본 산정기준 가목 번호 오류."
+    },
+    "A34915-zh-00026": {
+      "doc": "A34915",
+      "source_hash": "6dfe2f2ddd54f7036832bfff9d23fb3cdca28e7f4d82e791a7bb7ce4bc8f97c0",
+      "original": "原则上，产量应参照特许经营商的会计数据等确定。",
+      "corrected": "原则上，销售收入应参照特许经营商的会计数据等确定。",
+      "reason": "관련매출액을 산출량으로 잘못 번역."
+    },
+    "A34915-zh-00027": {
+      "doc": "A34915",
+      "source_hash": "3436cf2b1630ecd3063a485d06dd4be8bd638fc79a320b533ccefeadcf287f02",
+      "original": "B. 根据违规周期和频率等进行调整（以下简称“第一次调整”）",
+      "corrected": "나. 根据违规周期和频率等进行调整（以下简称“第一次调整”）",
+      "reason": "1차 조정 나목 번호 오류."
+    },
+    "A34915-zh-00031": {
+      "doc": "A34915",
+      "source_hash": "dd69169d38a9d55aa8ae9de2fbb72671f5973a78b261eeeb9510f649fa299e07",
+      "original": ". 根据违规的性质和情况进行调整（以下简称“第二次调整”）",
+      "corrected": "다. 根据违规的性质和情况进行调整（以下简称“第二次调整”）",
+      "reason": "2차 조정 다목 번호 유실."
+    },
+    "A34915-zh-00035": {
+      "doc": "A34915",
+      "source_hash": "ec440c221f314acf80ef1452d28c6af0e7f0085bb5a775d7211e1da1a298b65f",
+      "original": "Ra. 附加费",
+      "corrected": "라. 附加费",
+      "reason": "부과과징금 라목 번호를 Ra로 잘못 변환."
+    },
+    "A34915-zh-00049": {
+      "doc": "A34915",
+      "source_hash": "5e6f8f255d1b9bf4f392dd33a242799e4bc42c5c35f631bf490bf26fad523316",
+      "original": "如果确认无力支付罚款附加费，则免除罚款附加费。",
+      "corrected": "如果确认无力支付罚款附加费，可以免除罚款附加费。",
+      "reason": "과징금 면제의 임의 규정 ‘면제할 수 있다’를 면제 의무로 잘못 번역한 법적 효과 오류."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -1856,7 +2017,8 @@
     "C05 00d89ac6886f: A34909 rows 211-260 checked; repaired annex subsection markers, omitted online/offline ratio clause and mistranslated non-establishment of competing outlets. Whole-family semantic review remains IN_PROGRESS.",
     "C05 00d89ac6886f: A34909 rows 261-328 reviewed against full Korean source, repaired 24 confirmed legal subitem label and substantive mistranslation errors (employee count versus owner working requirement, procedure mistranslated as surgery). Whole family audit remains incomplete.",
     "C05 00d89ac6886f: A34910 50-row change-registration/deadline table read against Korean Annex 1-2; 18 wrong subsection citations corrected, pre-existing table artifact fixes preserved. Full-family audit IN_PROGRESS.",
-    "C05 00d89ac6886f: Annex A34912 full 147-row first-pass inspection against Korean source; repaired 23 explicit errors in subitem labels, Aligo contamination, coercion beneficiary, and reversed disadvantage term. Other previously corrected rows preserved; exhaustive semantic review remains pending."
+    "C05 00d89ac6886f: Annex A34912 full 147-row first-pass inspection against Korean source; repaired 23 explicit errors in subitem labels, Aligo contamination, coercion beneficiary, and reversed disadvantage term. Other previously corrected rows preserved; exhaustive semantic review remains pending.",
+    "C05 00d89ac6886f: A34914/A34915 reviewed against full Korean annexes. 23 definite corrections: personnel/qualification criteria, facility subsection numbering, fine calculation and discretionary waiver, fines vs penalties, sales vs volume. Full semantic family review IN_PROGRESS."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -1865,5 +2027,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 253
+  "corrected_rows": 276
 }
