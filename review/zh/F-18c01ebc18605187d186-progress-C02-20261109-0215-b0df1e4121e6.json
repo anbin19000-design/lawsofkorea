@@ -23,12 +23,14 @@
         "source_hash": "5eb9a3cce3ec46deda5018e07aa2237e69b18d9d65d09725ec17b6b8a8fb9072"
       },
       "B2": {
-        "status": "IN_PROGRESS",
-        "length_chars": 30455
+        "status": "READ_COMPLETE",
+        "length_chars": 30455,
+        "note": "Read sequentially through Article 41, Appendix 5 and all transitional provisions."
       },
       "B3": {
-        "status": "NOT_STARTED",
-        "length_chars": 39904
+        "status": "IN_PROGRESS",
+        "length_chars": 39904,
+        "last_read_range": "0-10000"
       },
       "annexes_and_forms": {
         "status": "NOT_STARTED",
@@ -59,5 +61,5 @@
     "edits": 0,
     "checked_unique_ids": 0
   },
-  "note": "Resumed from source blobs recorded in official C02 active assignment. Contents API returned empty body for EN/ZH source files; exact SHA blobs were fetched and parsed successfully. Prior progress/review files for this job were not located in current main branch by exact-path lookup or repository code search. No source file modified. Do not infer missing source from empty Contents body. Continue Korean full-family sequential reading, then all available English full texts, then Chinese rows in source order. 689 rows have no linked English coverage, across documents without English references; mark English-unavailable and continue KO/ZH comparison. "
+  "note": "Resumed from source blobs recorded in official C02 active assignment. Contents API returned empty body for EN/ZH source files; exact SHA blobs were fetched and parsed successfully. Prior progress/review files for this job were not located in current main branch by exact-path lookup or repository code search. No source file modified. Do not infer missing source from empty Contents body. Continue Korean full-family sequential reading, then all available English full texts, then Chinese rows in source order. 689 rows have no linked English coverage, across documents without English references; mark English-unavailable and continue KO/ZH comparison.  B1 and B2 Korean source texts read completely; B3 Korean source reading has begun. No review edits made before completion of the required KO->EN->ZH reading order."
 }
