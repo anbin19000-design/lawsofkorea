@@ -1,0 +1,26 @@
+{
+  "schema": "LAW_ZH_PROGRESS_V1",
+  "job_id": "F-c2b35f6aceb6477e1107",
+  "worker": "C04",
+  "task_id": "WORK-TASK:C04:F-c2b35f6aceb6477e1107:8f38128fc77b",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
+    "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
+    "zh": "f8879f4a12299069e4831b03f15a2a2fa30c8089"
+  },
+  "documents_total": 15,
+  "zh_rows_total": 1241,
+  "english_row_matches": 911,
+  "english_rows_without_direct_match": 330,
+  "previous_edits": 36,
+  "added_ids": [
+    "B2-zh-00015",
+    "B2-zh-00019",
+    "B2-zh-00021"
+  ],
+  "total_unique_edits": 39,
+  "review_sha": "275b32bba69c52a007afa5e79ac1c0d51e1eba6b",
+  "next_first_unverified_id": "B1-zh-00086",
+  "note": "Original Korean / English / Chinese blobs unchanged. Restored previously truncated contractual sentence and corrected clear legal authority/annex language. These are 3 added verified correction IDs; not a full 1241-row semantic audit. Keep IN_PROGRESS; no receipt required."
+}
