@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 370,
+    "correction_count": 373,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -2615,6 +2615,27 @@
       "original": "可能因过量而减少。",
       "corrected": "可以超过50%减轻罚款。",
       "reason": "시행령 별표 4의2 한국어본 전체 대조: 과징금 부과·공고·산정·감액 요건의 잘못된 조건/숫자·의미 단절을 원문 의미에 맞춰 최소 복구."
+    },
+    "A34909-zh-00014": {
+      "doc": "A34909",
+      "source_hash": "47a4db813a4cbfc8d8d80d69c822c9445e02fa97674b149c23bc58f35d4d1ac7",
+      "original": "本信息披露声明仅包含法律规定的事项及其内容的事实。",
+      "corrected": "本信息披露书仅载有法令规定的记载事项，",
+      "reason": "시행령 별표 1 표지 경고문 한국어 원문과 연속 문맥 대조: 정보공개서 기재사항의 범위 및 공정위 업무위탁 괄호절의 잘못된 분절·의미 교정."
+    },
+    "A34909-zh-00015": {
+      "doc": "A34909",
+      "source_hash": "0a9a319412ab361279e5cc1313d7fb8a860e9d3d9f197e162e6be3f8afdec8df",
+      "original": "是否公平交易委员会（《特许经营业务公平交易法》第39条第2款第1项）和",
+      "corrected": "其内容是否属实，并非均由公平交易委员会（依照《特许经营业务公平交易法》第39条第2款第1项及该法实施令第36条第1款，",
+      "reason": "시행령 별표 1 표지 경고문 한국어 원문과 연속 문맥 대조: 정보공개서 기재사항의 범위 및 공정위 업무위탁 괄호절의 잘못된 분절·의미 교정."
+    },
+    "A34909-zh-00016": {
+      "doc": "A34909",
+      "source_hash": "631ff5bfa6147a10f8678a1ec0167de75f80f7ced2dd5ce40da1c2886d273ae6",
+      "original": "在根据同一法实施令第36条第1款规定，信息披露声明登记等职责委托他人履行的情况下，",
+      "corrected": "信息披露书登记等业务受委托办理时，",
+      "reason": "시행령 별표 1 표지 경고문 한국어 원문과 연속 문맥 대조: 정보공개서 기재사항의 범위 및 공정위 업무위탁 괄호절의 잘못된 분절·의미 교정."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -2688,7 +2709,8 @@
     "C05 d3c2c0c523fc: exact Korean-source reconciliation of escrow form identity and won-amount expressions; 13 minimal corrections; family semantic QA not COMPLETE.",
     "C05 d3c2c0c523fc: 6 additional escrow-deposit legal form-heading corrections; unchanged KO/EN/ZH source blobs and all prior corrections preserved.",
     "C05 b12a95d6624f: annex A34916 rechecked against whole Korean source; 8 clear semantic/enum corrections. Source preserved, full semantic review still pending.",
-    "C05 9de52492017e: compared Korean Annex A34915 surcharge basis and linked original Chinese lines, corrected 11 concrete mistranslations; no whole family semantic completion certification."
+    "C05 9de52492017e: compared Korean Annex A34915 surcharge basis and linked original Chinese lines, corrected 11 concrete mistranslations; no whole family semantic completion certification.",
+    "C05 c40b97c6430f: A34909 disclosure-cover statutory disclaimer clauses 14-16 restored against full Korean sentence; preserve row 17 continuation."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -2697,5 +2719,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 370
+  "corrected_rows": 373
 }
