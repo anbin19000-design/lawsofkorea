@@ -1,0 +1,52 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 10,
+  "checked_range": {
+    "doc": "B1",
+    "start": "B1-zh-00092",
+    "end": "B1-zh-00101"
+  },
+  "edits": [
+    {
+      "id": "B1-zh-00092",
+      "text": "第六条（其他法律的修订）①至⑤省略。\n\n  ⑥ 《泛在城市建设等法》部分修订如下。\n\n  将第二条第三号乙目中的“《信息化促进基本法》第二条第五号”改为“《国家信息化基本法》第三条第十三号”，将“第五号之二”改为“第十四号”。\n\n  将第四条第三款后段中的“根据《信息化促进基本法》第五条制定的信息化促进基本计划中有关行政业务及地区信息化促进的部门计划”改为“根据《国家信息化基本法》第六条制定的国家信息化基本计划中有关行政业务及地区国家信息化的部门计划”。\n\n  ⑦至⑫省略。\n\n",
+      "source_hash": "73d6784798b3aec5571b1733ee6bf6261c1c36440003719ac99d2528ddfc6f80",
+      "target_id": "bddbb3709f0ddbe458ee5e23039ecb7aaf125050d967d864870d36220d7a3f32"
+    },
+    {
+      "id": "B1-zh-00094",
+      "text": "附则（《农渔村整备法》）<第9758号，2009年6月9日>\n\n",
+      "source_hash": "b9c58ecbc7ea93de17ff2e8b4efc4a4fdbea754e1ed8499f33cc4677d018e83b",
+      "target_id": "34d18520fbc1939b8bdb90b03f035282fb864ffdf29e8101a1c741bf125ed6cb"
+    },
+    {
+      "id": "B1-zh-00096",
+      "text": "第二十二条（其他法律的修订）①至<30>省略。\n\n  <31> 《泛在城市建设等法》部分修订如下。\n\n  将第十五条第一款第十二号中的“根据《农渔村整备法》第二十二条规定的农业基础设施”改为“根据《农渔村整备法》第二十三条规定的农业生产基础设施”。\n\n  <32>至<53>省略。\n\n",
+      "source_hash": "e863133c2e5fe49a2231190faa1d5272d4e6f94d83e48941c6e244693dfa4664",
+      "target_id": "310e6c7204864fd4c789e86f7922df7d48f6e7ddfd13df2bc3d6a46aed6cb755"
+    },
+    {
+      "id": "B1-zh-00098",
+      "text": "附则（《森林保护法》）<第9763号，2009年6月9日>\n\n",
+      "source_hash": "cb888401113069b0afcae01e93c372358d449a3a0b3ae94401eb2d17a1ab9548",
+      "target_id": "e014bc14e648eebe8b8c3f6ae9d2ee6caa7a4b66f5e2cba4f8c3d09e0ea998b6"
+    },
+    {
+      "id": "B1-zh-00100",
+      "text": "第七条（其他法律的修订）①至<35>省略。\n\n  <36> 《泛在城市建设等法》部分修订如下。\n\n  将第十五条第一款第十四号中的“依同法第四十五条对保安林内采伐等行为的许可或者申报”改为“依《森林保护法》第九条第一款及第二款第一号、第二号对森林保护区（森林遗传资源保护区除外）内行为的许可或者申报”。\n\n  <37>至<61>省略。\n\n",
+      "source_hash": "5f8de838d332d0ae9f82159821253fce05d01eee56edcd4e2f33e06bdf2307a5",
+      "target_id": "841271a4a315a9c765e8843f32fadb0707ca40c7b602d4e8894de4902d603823"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "note": "R13 B1 92-101 verified against Korean source. 93,95,97,99,101 unchanged; original historical statutory titles and numbered legal references preserved. Not COMPLETE."
+}
