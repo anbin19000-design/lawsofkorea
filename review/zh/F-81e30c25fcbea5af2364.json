@@ -1954,10 +1954,19 @@
       "target_id": "XML:1802922",
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3858c44d97d7.json",
       "verification": "PRIOR_C02_VERIFIED_EDIT_RECORD"
+    },
+    {
+      "id": "B1-zh-00006",
+      "source_hash": "c0f516ca89a6ec5a3df7e79a46f026ab2f03ea2665037730cacc8b20e9d48c03",
+      "target_id": "7bb9dd6094884c0b03ca9b8634ea83920a999556338e003d0c82b246ca8f1bf8",
+      "text": "第三条之二（国家等的责任）国家和地方政府应当制定和实施建设智慧城市和振兴智慧城市产业等所需的各项政策。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-d3c6d7805973.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Korean 제3조의2 is Article 3-2, not paragraph 2 of Article 3; change heading only, preserve existing body."
     }
   ],
-  "adjudicated_edit_count": 242,
-  "pending_single_candidate_count": 379,
+  "adjudicated_edit_count": 243,
+  "pending_single_candidate_count": 378,
   "pending_conflict_count": 0,
   "pending_single_candidates": [
     {
@@ -5953,21 +5962,6 @@
       "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
     },
     {
-      "id": "B1-zh-00006",
-      "source_hash": "c0f516ca89a6ec5a3df7e79a46f026ab2f03ea2665037730cacc8b20e9d48c03",
-      "target_id": "7bb9dd6094884c0b03ca9b8634ea83920a999556338e003d0c82b246ca8f1bf8",
-      "variants": [
-        {
-          "text": "第三条之二（国家等的职责）国家及地方自治团体应当制定并实施建设智慧城市、振兴智慧城市产业等所需的各项政策措施。\n\n",
-          "file_indices": [
-            16
-          ]
-        }
-      ],
-      "text": "第三条之二（国家等的职责）国家及地方自治团体应当制定并实施建设智慧城市、振兴智慧城市产业等所需的各项政策措施。\n\n",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
       "id": "B1-zh-00008",
       "source_hash": "cee9fd3e31ad47a5ca5ba82a95f54c0f293d911fb6ab310ba63a2805af41718b",
       "target_id": "a3b1647d0c721e8b81391eee86cdbd29b40caea02e6a67c3da9ab43c9a949f9b",
@@ -7681,9 +7675,9 @@
     "Existing stored adjudications and later progress files must be incorporated with source/hash verification before COMPLETE."
   ],
   "integration_progress": {
-    "stage": "HISTORICAL_AND_RECENT_EDITS_INTEGRATED_EVIDENCE_AUDITED",
-    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:58c856e5e47c",
-    "note": "No COMPLETE until sequential source and all 1133 rows verified."
+    "stage": "TARGETED_CORRECTION_ADDED_SEQUENTIAL_READ_PENDING",
+    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:d3c6d7805973",
+    "note": "Article 3-2 heading correction verified; full sequential read not yet certified."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -7942,7 +7936,8 @@
     "A25470-zh-00035",
     "A25470-zh-00036",
     "A25470-zh-00037",
-    "A25470-zh-00038"
+    "A25470-zh-00038",
+    "B1-zh-00006"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
