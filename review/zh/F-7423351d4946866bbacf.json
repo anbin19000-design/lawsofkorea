@@ -2,7 +2,7 @@
   "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-7423351d4946866bbacf",
   "worker": "C01",
-  "checked_rows": 34,
+  "checked_rows": 36,
   "edits": [
     {
       "id": "B1-zh-00065",
@@ -935,10 +935,18 @@
     {
       "id": "B1-zh-00040",
       "text": "第三十五条（建立水产品等冷链配送制度）\n①海洋水产大臣应当制定并实施包括下列事项在内的政策，以建立水产品从生产阶段到销售阶段所有分销过程中的冷链分销系统等。\n1. 根据保藏方法建立活鱼、鲜鱼和冷冻水产品分销卫生管理标准\n2. 冷链配送设施标准制定及配送设施监控等。\n3. 冷链配送等运输标准。\n4. 建立水产品冷链配送系统等其他必要事项。\n② 海洋水产大臣可向渔业产品分销经营者提供必要的支持，以实现第1款规定的政策。\n③ 与建立水产品冷链分销系统等相关的其他标准、设施等事项，由总统令规定。\n\n"
+    },
+    {
+      "id": "B3-zh-00010",
+      "text": "第八条（生产区域批发商的指定）\n① 根据本法第十四条第一款规定，拟被指定为产区批发商的人，应当按照鱼市经营者的规定，向鱼市经营者提交产区批发商指定申请书，并附上下列各款所列文件。\n1. 个人的情况\na. 履历表\nb. 银行存款余额证明\nc. 营业执照\nd. 根据《国家税收征收法》出具的纳税证明和根据《地方税收基本法》出具的纳税证明\n2. 法人的情况\na. 公司章程\nb. 法人登记事项证明书（不包括鱼市经营者能够核实公司注册证书的情况）\nc. 股东名册或成员名册\nd. 营业执照\ne. 根据《国家税收征收法》出具的缴税证明和根据《地方税收基本法》出具的缴税证明\n② 本法第十四条第二款第六项中，“海洋水产部条例规定的产区批发商指定条件”是指各产区聘用批发商的鱼市，其相关鱼市的经营规章中规定的下列各项事项。\n1. 最低交易金额\n2. 交易金额付款保证金\n\n"
+    },
+    {
+      "id": "B3-zh-00011",
+      "text": "第九条（产地交易参与者报告）任何打算按照本法第十五条规定作为产地交易参与者进行报告的人，应当按照本法附件二表格向鱼市经营者提交产地交易参与者报告，并附上下列各款规定的文件。\n1. 个人的情况\na. 履历表\nb. 银行存款余额证明\nc. 营业执照\nd. 根据《国家税收征收法》出具的纳税证明和根据《地方税收基本法》出具的纳税证明\n2. 法人的情况\na. 公司章程\nb. 法人登记事项证明书（不包括鱼市经营者能够核实公司注册证书的情况）\nc. 股东名册或成员名册\nd. 营业执照\ne. 根据《国家税收征收法》出具的缴税证明和根据《地方税收基本法》出具的缴税证明\n\n"
     }
   ],
   "status": "IN_PROGRESS",
-  "note": "IN_PROGRESS. Prior corrections preserved. Added correction to B1 Article 35(1)1: distinguish live fish, fresh fish, and frozen fishery products (활어·선어·냉동수산물). Full semantic review of all 1207 rows and annex/form XML mapping still incomplete.",
+  "note": "IN_PROGRESS. 235 unique corrections retained; B3 Articles 8-9 application documents corrected against Korean, independent English unavailable for B3. Full 1207-row semantic review and annex/form source-cell continuity remain incomplete; no COMPLETE receipt.",
   "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
   "source_sha": {
     "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
