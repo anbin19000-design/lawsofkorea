@@ -3964,6 +3964,48 @@
       "original": "国家森林管理办公室主任，区域森林服务局",
       "corrected": "地方森林厅国有林管理所长",
       "reason": "“지방산림청국유림관리소장”是地方森林厅国有林管理所长。"
+    },
+    "A6588-zh-00004": {
+      "doc": "A6588",
+      "source_hash": "3a4808ed60d42158802406eafc733fbd9e7ffe43cd87895e51d2d3991578a75a",
+      "original": "包裹编号",
+      "corrected": "地块编号",
+      "reason": "“지번”是土地地块编号。"
+    },
+    "A6588-zh-00012": {
+      "doc": "A6588",
+      "source_hash": "30eab65a6492a4c5528b8c25495e3e7119504c27d9866fe5edda066852584e04",
+      "original": "城市/县",
+      "corrected": "市、郡",
+      "reason": "“시ㆍ군”应译为市、郡。"
+    },
+    "A6588-zh-00013": {
+      "doc": "A6588",
+      "source_hash": "cd81162ce9d9eca2d1a2e7e132fac97b4ff77ac2e3de8b5c5b34b5c932ecf5c3",
+      "original": "邑/面",
+      "corrected": "邑、面",
+      "reason": "保留韩国行政区划名称“邑、面”，修正分隔符。"
+    },
+    "A6588-zh-00014": {
+      "doc": "A6588",
+      "source_hash": "5483d60d85ce9c861e8e7ae8ca400b57870f7fde500fed7c500df0332ccecb04",
+      "original": "东ㆍRi",
+      "corrected": "洞、里",
+      "reason": "“동ㆍ리”是洞、里，不是东和Ri。"
+    },
+    "A6588-zh-00016": {
+      "doc": "A6588",
+      "source_hash": "9285603ef22574fff2f62a1f6be09f41b8fbe16c7ad6934ff1194f23be0213e1",
+      "original": "区域",
+      "corrected": "面积",
+      "reason": "“면적”是面积字段。"
+    },
+    "A6588-zh-00017": {
+      "doc": "A6588",
+      "source_hash": "5fc5d09292be8799797f5ca14dc33b0aea0412efcfa45bfb105a37d4472333b1",
+      "original": "详细信息",
+      "corrected": "损失内容",
+      "reason": "“손실 내역”是损失内容。"
     }
   },
   "edits": [
@@ -6178,15 +6220,39 @@
     {
       "id": "A6587-zh-00027",
       "text": "地方森林厅国有林管理所长"
+    },
+    {
+      "id": "A6588-zh-00004",
+      "text": "地块编号"
+    },
+    {
+      "id": "A6588-zh-00012",
+      "text": "市、郡"
+    },
+    {
+      "id": "A6588-zh-00013",
+      "text": "邑、面"
+    },
+    {
+      "id": "A6588-zh-00014",
+      "text": "洞、里"
+    },
+    {
+      "id": "A6588-zh-00016",
+      "text": "面积"
+    },
+    {
+      "id": "A6588-zh-00017",
+      "text": "损失内容"
     }
   ],
-  "checked_rows": 784,
-  "corrected_rows": 553,
-  "notes": "Initial source-grounded correction set after full Korean and available English source reading. Chinese sequential review continues; do not treat this as completion. Sequential review so far: B1 rows 1–122; B2 rows 1–70. Additional complete targeted passes: A29186 (43 rows) and B3 rows 1–24. 64 nonblank changed edits are saved; further Chinese rows and documents remain pending. No COMPLETE certification. All source-bound correction records are retained. Blank fragment deletions and no-change records are documented separately at review/zh/F-2223d4d89f9d838aec25-empty-edit-decisions-C05-20261109-0600.json. Full semantic coverage is complete for B1, B2, B3, A29186 and A6580; A29185 and all attached forms remain in partial/targeted review. Status remains IN_PROGRESS. Sequential review resumed from the saved A29185 annex work. All 80 A29185 rows were compared against the Korean annex; 5 additional minimal corrections were added and 10 no-change decisions were recorded. Previously saved A29185 corrections were preserved. Next pending sequential document: A6581 (forms), with 687 rows still pending overall. Status remains IN_PROGRESS. A6581 form (30 rows) has now been fully compared against the Korean original; 11 minimal corrections and 11 no-change decisions were added, with prior targeted corrections retained. Next sequential pending form: A6582. Status remains IN_PROGRESS. A6582 designated-area map form (16 rows) has now been fully compared against the Korean form and the linked English Enforcement Rule references. Three additional minimal corrections and 10 no-change decisions were recorded; existing corrections were retained. Next pending sequential form: A6585. Status remains IN_PROGRESS. A6585 land-use notice form (36 rows) fully compared with the Korean original and linked English rule references; 7 additional minimal corrections and 22 no-change decisions recorded. Existing correction records retained. Next sequential form: A6586. Status remains IN_PROGRESS. A6586 loss-compensation application form (70 rows) fully compared with the Korean form and linked English Enforcement Rule references. 14 additional minimal corrections and 40 no-change decisions recorded, including consistent correction of repeated flowchart labels. Next sequential form: A6587. Status remains IN_PROGRESS. A6587 loss-compensation determination form (29 rows) fully compared with the Korean original. 5 additional minimal corrections and 16 no-change decisions recorded. Existing edits retained. Next sequential form: A6588. Status remains IN_PROGRESS.",
+  "checked_rows": 809,
+  "corrected_rows": 559,
+  "notes": "Initial source-grounded correction set after full Korean and available English source reading. Chinese sequential review continues; do not treat this as completion. Sequential review so far: B1 rows 1–122; B2 rows 1–70. Additional complete targeted passes: A29186 (43 rows) and B3 rows 1–24. 64 nonblank changed edits are saved; further Chinese rows and documents remain pending. No COMPLETE certification. All source-bound correction records are retained. Blank fragment deletions and no-change records are documented separately at review/zh/F-2223d4d89f9d838aec25-empty-edit-decisions-C05-20261109-0600.json. Full semantic coverage is complete for B1, B2, B3, A29186 and A6580; A29185 and all attached forms remain in partial/targeted review. Status remains IN_PROGRESS. Sequential review resumed from the saved A29185 annex work. All 80 A29185 rows were compared against the Korean annex; 5 additional minimal corrections were added and 10 no-change decisions were recorded. Previously saved A29185 corrections were preserved. Next pending sequential document: A6581 (forms), with 687 rows still pending overall. Status remains IN_PROGRESS. A6581 form (30 rows) has now been fully compared against the Korean original; 11 minimal corrections and 11 no-change decisions were added, with prior targeted corrections retained. Next sequential pending form: A6582. Status remains IN_PROGRESS. A6582 designated-area map form (16 rows) has now been fully compared against the Korean form and the linked English Enforcement Rule references. Three additional minimal corrections and 10 no-change decisions were recorded; existing corrections were retained. Next pending sequential form: A6585. Status remains IN_PROGRESS. A6585 land-use notice form (36 rows) fully compared with the Korean original and linked English rule references; 7 additional minimal corrections and 22 no-change decisions recorded. Existing correction records retained. Next sequential form: A6586. Status remains IN_PROGRESS. A6586 loss-compensation application form (70 rows) fully compared with the Korean form and linked English Enforcement Rule references. 14 additional minimal corrections and 40 no-change decisions recorded, including consistent correction of repeated flowchart labels. Next sequential form: A6587. Status remains IN_PROGRESS. A6587 loss-compensation determination form (29 rows) fully compared with the Korean original. 5 additional minimal corrections and 16 no-change decisions recorded. Existing edits retained. Next sequential form: A6588. Status remains IN_PROGRESS. A6588 compensation decision register form (25 rows) fully compared with the Korean original. 6 additional minimal corrections and 8 no-change decisions recorded. Next sequential form: A6589. Status remains IN_PROGRESS.",
   "coverage": {
     "total_rows": 1290,
     "distinct_rows": 1290,
-    "fully_compared_rows": 784,
+    "fully_compared_rows": 809,
     "fully_compared_by_document": {
       "B1": 122,
       "B2": 199,
@@ -6198,10 +6264,10 @@
       "A6582": 16,
       "A6585": 36,
       "A6586": 70,
-      "A6587": 29
+      "A6587": 29,
+      "A6588": 25
     },
     "partial_targeted_docs": [
-      "A6588",
       "A6589",
       "A6590",
       "A6591",
@@ -6214,7 +6280,7 @@
       "A6599",
       "A6600"
     ],
-    "pending_rows": 506
+    "pending_rows": 481
   },
   "empty_edit_decisions_path": "review/zh/F-2223d4d89f9d838aec25-empty-edit-decisions-C05-20261109-0600.json"
 }
