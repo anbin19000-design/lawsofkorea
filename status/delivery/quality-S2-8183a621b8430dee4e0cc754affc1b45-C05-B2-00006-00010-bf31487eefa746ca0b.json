@@ -1,0 +1,38 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-3705abbc710de4b867bc",
+  "worker": "C05",
+  "branch": "main",
+  "source_blobs": {
+    "ko": "7974bf81d14f4838ae85d4b3ceea80a2f0e65fed",
+    "zh": "045dd328cd77f3eecd8b6cd485be27f2389773e8"
+  },
+  "checked_ids": [
+    "B2-zh-00006",
+    "B2-zh-00009",
+    "B2-zh-00010"
+  ],
+  "checked_rows": 3,
+  "adopted_edits": [
+    {
+      "id": "B2-zh-00006",
+      "text": "第四条（市、道管理计划的制定程序等）\n① 市、道知事应当在计划实施前一年的11月30日前，制定法第五条第一款规定的市、道消防设备管理计划（以下简称“市、道管理计划”），并提交消防厅厅长。\n② 市、道知事应当在计划实施前一年的12月31日前，制定法第五条第三款规定的市、道消防设备管理实施计划（以下简称“市、道实施计划”），并提交消防厅厅长。\n③ 消防厅厅长可以调整依照第二款提交的市、道实施计划，或者要求变更。\n④ 市、道知事应当于每年2月15日前将上一年度市、道实施计划的执行实绩提交消防厅厅长。\n⑤ 市、道实施计划执行实绩应当包含的具体事项，由行政安全部令规定。\n\n"
+    },
+    {
+      "id": "B2-zh-00009",
+      "text": "第七条（制定消防器材等基本标准）\n① 根据法第十条第一款但书的规定，消防厅长官应当按照本法第八条的规定，经消防器材技术审议委员会审议，以制定、修改或废止消防器材必须具备的基本标准（以下简称“基本标准”）。<2023年5月15日修订>\n② 国家消防厅厅长拟制定、修改或废除基本标准时，可以举行公开听证会等，听取各利益相关方的意见。<2023年5月15日修订>\n③ 国家消防局局长制定、修改或废止基本标准时，应当在官方公报和网站等处公布相关基本标准的名称、编号、制定、修改或废止日期等。<2020年11月24日修订；2023年5月15日再次修订>\n④ 国家消防局局长应自第3款公布之日起每五年审查一次基本标准的有效性，并在必要时修改或废止基本标准。但是，如果由于消防行业技术的变革或发展，需要补充或改进消防设备的性能或功能，则在审查其有效性后，即使五年期限未满，也可以修改或废止相关基本标准。<2020年11月24日、2020年12月15日、2023年5月15日修订>\n⑤ 除第1至4款规定事项外，有关基本标准等管理的详细事项，由国家消防厅厅长另行决定。<2023年5月15日修订>\n\n"
+    },
+    {
+      "id": "B2-zh-00010",
+      "text": "第八条（设立消防装备技术审查委员会）\n① 在国家消防厅厅长领导下设立消防器材技术审议委员会，审议有关消防器材基本规格、认证等事项。<2023年5月15日修订>\n1. 关于基本标准的制定、修订或废除的事项\n2. 关于根据法第十二条第一款规定进行认证的消防设备的选型、变更和注销事宜\n3. 国家消防局局长提交消防设备技术审议委员会审议的其他有关基本标准和认证等事项\n② 根据第1款规定，消防装备技术审议委员会的组成和运作等事项，由内政安全部条例规定。\n\n第四章 消防设备等的认证\n\n"
+    }
+  ],
+  "judgment": "PASS_EXISTING_CORRECTIONS",
+  "rationale": {
+    "B2-zh-00006": "Korean 제4조 requires city/provincial governors to file management plans by November 30 and implementation plans by December 31 of prior year, prior-year results by February 15, and delegates details to ministry ordinance; candidate preserves all deadlines, actors and cross-references.",
+    "B2-zh-00009": "Korean 제7조 first paragraph specifically cites 법 제10조제1항 단서 and review by 제8조 committee; candidate restores the proviso, keeps 5-year review duty and dates of amendments.",
+    "B2-zh-00010": "Korean 제8조 enumerates committee purposes and 법 제12조제1항 certification equipment decisions; candidate corrects erroneous 《消防法》 citation to 法 and retains chapter-4 transition."
+  },
+  "status": "QUALITY_PARTIAL",
+  "note": "Quality verification of existing B2 edits only; no new edit count. Original source unchanged; B2 remainder still pending."
+}
