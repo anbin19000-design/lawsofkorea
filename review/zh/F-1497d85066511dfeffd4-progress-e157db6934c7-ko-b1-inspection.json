@@ -1,0 +1,42 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-1497d85066511dfeffd4",
+  "family_id": "F-1497d85066511dfeffd4",
+  "worker": "C04",
+  "panel_id": "panel-04",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "f7414f486d3fff46fec301f56e47f37575f835aa",
+    "en": "835fe6c61b35a38db06d890138be0001ca03c610",
+    "zh": "a039851e87912aaef943e29d8fe40df20ae65e8a"
+  },
+  "previous_checkpoint": "review/zh/F-1497d85066511dfeffd4-progress-fa05befc3a32-ko-inventory.json",
+  "scope": {
+    "documents": 56,
+    "document_types": {
+      "법률": 1,
+      "대통령령": 1,
+      "교육부령": 1,
+      "별표": 18,
+      "서식": 35
+    },
+    "zh_rows": 3494
+  },
+  "verification": {
+    "ko_contents_sha_matches": true,
+    "en_git_blob_retrieved": true,
+    "zh_git_blob_retrieved": true,
+    "source_sha_matches_prior_checkpoint": true,
+    "official_review_exists": false,
+    "complete_receipt_exists": false
+  },
+  "reading_checkpoint": {
+    "required_order": "KO_FULL_EN_FULL_ZH_FULL",
+    "ko": "IN_PROGRESS: B1 law beginning through provision 20 and closing addenda inspected; complete B1 and remaining 55 documents have NOT been certified as sequentially read",
+    "en": "NOT_STARTED: blob/index verified only; English fallback versions not exact Korean versions",
+    "zh": "NOT_STARTED: blob available; sequential review must wait for full Korean and English reading"
+  },
+  "edits": [],
+  "findings": [],
+  "notes": "Non-destructive continuation. Preserve all original sources, existing checkpoint, and prior decisions. No COMPLETE assertion; next step is full sequential Korean reading starting B1, then all remaining Korean sources before English and Chinese."
+}
