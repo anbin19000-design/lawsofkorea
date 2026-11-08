@@ -2,7 +2,7 @@
   "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-c2b35f6aceb6477e1107",
   "worker": "C04",
-  "checked_rows": 56,
+  "checked_rows": 59,
   "edits": [
     {
       "id": "A14112-zh-00030",
@@ -227,8 +227,20 @@
     {
       "id": "B2-zh-00053",
       "text": "附则（关于部分修订61项法令以支持小企业主经济复苏的总统令）<第33434号，2023年4月25日>\n\n"
+    },
+    {
+      "id": "B3-zh-00022",
+      "text": "第七条（修改其他法令）①至<53>款已省略\n\n  <54> 《学校供餐法施行规则》部分修订如下。 \n\n  在第二条第三款和第四款、第六条第二款和第八条第二款中，“教育科学技术部长”应改为“教育部长”。\n\n  第 8 条第 2 款中的“韩国食品药品安全厅厅长”应改为“食品药品安全部长”。\n\n  <55> 至 <61> 已省略\n\n"
+    },
+    {
+      "id": "B3-zh-00027",
+      "text": "第二条（关于修改表格的过渡措施）本规则施行时依照原规定使用的表格，在本规则施行后三个月内，可以与本规则规定的表格同时使用。\n\n"
+    },
+    {
+      "id": "B3-zh-00031",
+      "text": "第五条（修改其他法令）①至⑩ 省略\n\n  ⑪《学校供餐法施行规则》部分修改如下。\n\n"
     }
   ],
   "status": "IN_PROGRESS",
-  "note": "C04 1ca1e51cca2e: previous 52 corrections preserved, four addendum and legal-name corrections appended. Source SHA unchanged; full 15-document semantic review not completed."
+  "note": "C04 10fb33f110b3: retained 56 existing edits, added B3-zh-00022 missing <54> and legal rule citation, B3-zh-00027 preexisting form condition, B3-zh-00031 enumerator ⑪. Whole family review remains incomplete."
 }
