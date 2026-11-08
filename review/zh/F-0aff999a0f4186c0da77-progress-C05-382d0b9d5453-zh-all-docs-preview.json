@@ -1,0 +1,179 @@
+{
+  "schema": "LAW_FAMILY_READING_EVIDENCE_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "family_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "assignment_marker": "382d0b9d5453",
+  "status": "IN_PROGRESS",
+  "stage": "KO_FULL_EN_FULL_ZH_SEMANTIC_REVIEW_IN_PROGRESS",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "ko_evidence_path": "review/zh/F-0aff999a0f4186c0da77-progress-C05-382d0b9d5453.json",
+  "en_evidence_path": "review/zh/F-0aff999a0f4186c0da77-progress-C05-382d0b9d5453-enfull.json",
+  "ko_stage_completed": true,
+  "en_stage_completed": true,
+  "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
+  "zh": {
+    "total_rows": 1687,
+    "document_count": 18,
+    "review_sequence_previewed": "B1-zh-00001 through A34925-zh-00053 in source order",
+    "row_inspection_limitation": "Long rows truncated during sequential display; source-context semantic verification remains incomplete. Do not treat this as comprehensive manual certification.",
+    "by_document": {
+      "B1": {
+        "total": 169,
+        "first": "B1-zh-00001",
+        "last": "B1-zh-00169"
+      },
+      "B2": {
+        "total": 190,
+        "first": "B2-zh-00001",
+        "last": "B2-zh-00190"
+      },
+      "A34909": {
+        "total": 328,
+        "first": "A34909-zh-00001",
+        "last": "A34909-zh-00328"
+      },
+      "A34910": {
+        "total": 50,
+        "first": "A34910-zh-00001",
+        "last": "A34910-zh-00050"
+      },
+      "A34911": {
+        "total": 4,
+        "first": "A34911-zh-00001",
+        "last": "A34911-zh-00004"
+      },
+      "A34912": {
+        "total": 147,
+        "first": "A34912-zh-00001",
+        "last": "A34912-zh-00147"
+      },
+      "A34913": {
+        "total": 12,
+        "first": "A34913-zh-00001",
+        "last": "A34913-zh-00012"
+      },
+      "A34914": {
+        "total": 26,
+        "first": "A34914-zh-00001",
+        "last": "A34914-zh-00026"
+      },
+      "A34915": {
+        "total": 54,
+        "first": "A34915-zh-00001",
+        "last": "A34915-zh-00054"
+      },
+      "A34916": {
+        "total": 212,
+        "first": "A34916-zh-00001",
+        "last": "A34916-zh-00212"
+      },
+      "A34917": {
+        "total": 96,
+        "first": "A34917-zh-00001",
+        "last": "A34917-zh-00096"
+      },
+      "A34918": {
+        "total": 26,
+        "first": "A34918-zh-00001",
+        "last": "A34918-zh-00026"
+      },
+      "A34920": {
+        "total": 106,
+        "first": "A34920-zh-00001",
+        "last": "A34920-zh-00106"
+      },
+      "A34921": {
+        "total": 79,
+        "first": "A34921-zh-00001",
+        "last": "A34921-zh-00079"
+      },
+      "A34922": {
+        "total": 41,
+        "first": "A34922-zh-00001",
+        "last": "A34922-zh-00041"
+      },
+      "A34923": {
+        "total": 34,
+        "first": "A34923-zh-00001",
+        "last": "A34923-zh-00034"
+      },
+      "A34924": {
+        "total": 60,
+        "first": "A34924-zh-00001",
+        "last": "A34924-zh-00060"
+      },
+      "A34925": {
+        "total": 53,
+        "first": "A34925-zh-00001",
+        "last": "A34925-zh-00053"
+      }
+    },
+    "confirmed_correction_ids": [
+      "B1-zh-00017",
+      "B2-zh-00017",
+      "B2-zh-00189",
+      "A34917-zh-00064",
+      "A34920-zh-00069",
+      "A34921-zh-00045",
+      "B1-zh-00009",
+      "B1-zh-00011",
+      "B1-zh-00013",
+      "B1-zh-00004",
+      "B1-zh-00005",
+      "B1-zh-00069",
+      "B1-zh-00071",
+      "B1-zh-00072",
+      "B2-zh-00010",
+      "B2-zh-00012",
+      "B2-zh-00015",
+      "B2-zh-00040",
+      "B2-zh-00045",
+      "B2-zh-00046",
+      "B2-zh-00063",
+      "B2-zh-00064",
+      "B2-zh-00071",
+      "A34909-zh-00011",
+      "A34909-zh-00012",
+      "A34909-zh-00018",
+      "A34909-zh-00064",
+      "A34909-zh-00214",
+      "A34910-zh-00003",
+      "A34910-zh-00013",
+      "A34910-zh-00038",
+      "A34915-zh-00028",
+      "A34916-zh-00095",
+      "A34917-zh-00048",
+      "A34920-zh-00070",
+      "A34921-zh-00038",
+      "A34917-zh-00009",
+      "A34920-zh-00012",
+      "A34921-zh-00043",
+      "A34922-zh-00006",
+      "A34924-zh-00009",
+      "A34925-zh-00007",
+      "B2-zh-00190",
+      "A34912-zh-00033",
+      "A34912-zh-00081",
+      "A34913-zh-00003",
+      "A34924-zh-00053",
+      "A34925-zh-00046",
+      "A34915-zh-00046"
+    ],
+    "confirmed_correction_count": 49,
+    "requires_full_semantic_recheck": true
+  },
+  "issues": [
+    "Long Chinese lines within B1/B2 need complete manual review; preceding previews may have truncated suffixes.",
+    "Annex/form line fragments must be reviewed with source Korean table layout to distinguish actual omission from split rows.",
+    "2 English decree fallback files are older than Korean 2026-08-04 amendments; no exact independent English verified for annexes or forms."
+  ],
+  "completion_receipt": null
+}
