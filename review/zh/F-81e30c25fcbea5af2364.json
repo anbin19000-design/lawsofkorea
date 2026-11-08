@@ -11411,12 +11411,13 @@
     "2026-11-08 C02 4e0b46ff6294 Annex 4: compared all 128 A36427 cells against Korean source and existing prior edits. Added/updated 20 minimal corrections for statutory references, numbering and table continuation; preserved all previous amount, duration and split-cell corrections. Annex 4 complete at cell-comparison level; family remains IN_PROGRESS.",
     "2026-11-08 C02 4e0b46ff6294 B3: compared all 13 B3 rows against Korean source; corrected rows 11-12 부칙/시행 wording. Retained previous edits for articles 1-6 and the row 13 boundary split that prevents separate application forms from being duplicated into B3. English index has no direct B3 document. Family remains IN_PROGRESS.",
     "2026-11-08 C02 4e0b46ff6294 Form A25465: compared all 70 cells with Korean Form 3 and reconciled R5/R80/R81/R82/R96. Added/updated rows 51,54,55 for term consistency and accurate flowchart note/addressee. Prior corrections and cell IDs/hashes retained. English index has no direct English row-level form source. Family remains IN_PROGRESS.",
-    "2026-11-08 C02 4e0b46ff6294 Form A25466: compared all 70 cells with Korean Form 4 and reconciled R5/R83/R84/R85/R86/R104. Restored row 54 to the exact R85/R104 selected prefix fragment to preserve cell boundaries; all other prior decisions retained. Family remains IN_PROGRESS."
+    "2026-11-08 C02 4e0b46ff6294 Form A25466: compared all 70 cells with Korean Form 4 and reconciled R5/R83/R84/R85/R86/R104. Restored row 54 to the exact R85/R104 selected prefix fragment to preserve cell boundaries; all other prior decisions retained. Family remains IN_PROGRESS.",
+    "2026-11-08 C02 4e0b46ff6294 Form A25467: compared all 31 cells with Korean Form 5 and reconciled R6/R87. No additional clear material errors beyond the stored corrections; all row IDs now included in checked_unique_ids. English index has no direct row-level form translation. Family remains IN_PROGRESS."
   ],
   "integration_progress": {
-    "stage": "A25466_FORM4_ROWS_00001_00070_RECONCILED",
+    "stage": "A25467_FORM5_ROWS_00001_00031_RECONCILED",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:4e0b46ff6294",
-    "note": "Compared all 70 A25466 cells with Korean Form 4 and reconciled R5/R83-R86/R104. Preserved all prior corrected labels, legal citations, application grounds, supporting-document text, process diagram, minister/agency names and page size. Restored row 54 to the R85/R104-selected prefix fragment '（措施要求内容' to prevent premature insertion of '反映' across the split-cell boundary."
+    "note": "Compared all 31 Chinese cells in Form 5 against the Korean approval confirmation form and reconciled prior R6 and R87. Existing corrections for checkboxes, receipt number, registration number, legal scope, region, special conditions, legal citations, signature and official seal retained; no further clear material error found."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -12296,7 +12297,18 @@
     "A25466-zh-00050",
     "A25466-zh-00052",
     "A25466-zh-00054",
-    "A25466-zh-00055"
+    "A25466-zh-00055",
+    "A25467-zh-00001",
+    "A25467-zh-00005",
+    "A25467-zh-00007",
+    "A25467-zh-00008",
+    "A25467-zh-00010",
+    "A25467-zh-00011",
+    "A25467-zh-00012",
+    "A25467-zh-00014",
+    "A25467-zh-00015",
+    "A25467-zh-00017",
+    "A25467-zh-00018"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
