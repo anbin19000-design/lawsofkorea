@@ -1,0 +1,143 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:447d23a25479",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "english_status": "A25466 NO_DOCUMENT_ENGLISH; Korean text controls",
+  "checked_rows": 10,
+  "checked_ids": [
+    "A25466-zh-00017",
+    "A25466-zh-00020",
+    "A25466-zh-00021",
+    "A25466-zh-00022",
+    "A25466-zh-00023",
+    "A25466-zh-00024",
+    "A25466-zh-00025",
+    "A25466-zh-00027",
+    "A25466-zh-00028",
+    "A25466-zh-00029"
+  ],
+  "edits": [
+    {
+      "id": "A25466-zh-00017",
+      "text": "主要目的及内容",
+      "source_hash": "64aedb364d4943eabefccf4b36159605d4dee02c6483d97c9ebc66442a048288",
+      "target_id": "XML:1802720"
+    },
+    {
+      "id": "A25466-zh-00020",
+      "text": "[ ] 依据许可等所据法律规定，不适宜适用推进该智慧实证事业所需的",
+      "source_hash": "49ae5196cc3e0ed42dce71ebf0db79cb13d1c6307585e3270c9889a30d1d423c",
+      "target_id": "XML:1802723"
+    },
+    {
+      "id": "A25466-zh-00021",
+      "text": "标准、规格、条件",
+      "source_hash": "0b1f4ffe0973cbd2a64f928003aa53c4ebdc8ebc66e6a4a2b51eab5633afc8b3",
+      "target_id": "XML:1802724"
+    },
+    {
+      "id": "A25466-zh-00022",
+      "text": "等的情形",
+      "source_hash": "b0f6091b032c71c8dfc6ce0ad820990ddbe1e9e0a7f82b659768f71382e225d5",
+      "target_id": "XML:1802725"
+    },
+    {
+      "id": "A25466-zh-00023",
+      "text": "[ ] 依据许可等所据法律规定，无法实施该智慧实证事业的情形",
+      "source_hash": "73c6447b9735a598d0da9379a8f17d153f0f96046662b3aba336c411187f7fdf",
+      "target_id": "XML:1802726"
+    },
+    {
+      "id": "A25466-zh-00024",
+      "text": "申请内容",
+      "source_hash": "6eb8af2283964dd94cf76c27e369a8683f5fc1ae122ffc100bb7a269d8d453b3",
+      "target_id": "XML:1802727"
+    },
+    {
+      "id": "A25466-zh-00025",
+      "text": "规制特例及规制改善所涉及的法律法规",
+      "source_hash": "085bbf8840b5bd20723df5fabce60dd5b8b6f9c387e0d30624a1e9f6a8ca316c",
+      "target_id": "XML:1802728"
+    },
+    {
+      "id": "A25466-zh-00027",
+      "text": "事业期间",
+      "source_hash": "abf6a908dadc95038d202b1dcd98df3b3ea0a9a60a2cad3c03ad6ee395c3c32c",
+      "target_id": "XML:1802730"
+    },
+    {
+      "id": "A25466-zh-00028",
+      "text": "依据《智慧城市建设及产业振兴等相关法律》第五十条第一款，以及该法施行令第五十三条所准用的",
+      "source_hash": "3eaa12118d6a2393af1d568590da0b67c496e21d69ead41ad3fb4cb6c9cf8378",
+      "target_id": "XML:1802731"
+    },
+    {
+      "id": "A25466-zh-00029",
+      "text": "该施行令第五十二条第二款及该法施行规则第四条第一款，现按上述内容申请智慧实证事业。",
+      "source_hash": "c432ed17fef35bcc210b282b7f72fa86b42b60bc52f198511d694c573d5c4807",
+      "target_id": "XML:1802732"
+    }
+  ],
+  "checked_details": [
+    {
+      "id": "A25466-zh-00017",
+      "verdict": "NEW_CLEAR_MISTRANSLATION_CORRECTION",
+      "reason": "한국어 '주요 목적 및 내용'에서 目的는 '목적'이고 用途는 '용도'이므로 수정. 기존 후보 색인에 없는 문구."
+    },
+    {
+      "ids": [
+        "A25466-zh-00020",
+        "A25466-zh-00021",
+        "A25466-zh-00022"
+      ],
+      "verdict": "CONFIRM_PREVIOUS_CANDIDATES",
+      "reason": "한국어 신청 사유는 '기준·규격·요건 등을 적용하는 것이 적절하지 않은 경우'이며 3개 셀 분할 번역을 유지."
+    },
+    {
+      "ids": [
+        "A25466-zh-00023",
+        "A25466-zh-00024",
+        "A25466-zh-00025",
+        "A25466-zh-00027"
+      ],
+      "verdict": "CONFIRM_PREVIOUS_CANDIDATES",
+      "reason": "실증사업의 시행 불가능 사유, 신청 내용, 규제특례 대상 법령, 사업기간을 한국어와 일치시킴."
+    },
+    {
+      "ids": [
+        "A25466-zh-00028",
+        "A25466-zh-00029"
+      ],
+      "verdict": "CONFIRM_PREVIOUS_CANDIDATES",
+      "reason": "법률 제50조제1항 및 시행령 제53조에 따라 준용되는 시행령 제52조제2항과 시행규칙 제4조제1항 인용을 분할 셀로 연결."
+    }
+  ],
+  "new_candidate_ids": [
+    "A25466-zh-00017"
+  ],
+  "pre_existing_candidate_ids": [
+    "A25466-zh-00020",
+    "A25466-zh-00021",
+    "A25466-zh-00022",
+    "A25466-zh-00023",
+    "A25466-zh-00024",
+    "A25466-zh-00025",
+    "A25466-zh-00027",
+    "A25466-zh-00028",
+    "A25466-zh-00029"
+  ],
+  "prior_progress": [
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-3453d66f087b.json"
+  ],
+  "next_review": "A25466-zh-00030 onward, then other forms/annexes and full document-wide consolidation",
+  "note": "One newly established correction candidate and nine re-adjudicated historical candidates. Unique coverage must not double count 9 historical candidates. Not complete."
+}
