@@ -1,0 +1,65 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-2223d4d89f9d838aec25",
+  "family_id": "F-2223d4d89f9d838aec25",
+  "title": "사방사업법",
+  "worker": "C05",
+  "panel_id": "panel-05",
+  "pc": "WORK-C",
+  "branch": "main",
+  "status": "COMPLETE",
+  "source_commit": "5ca6685452f89ed7f2c82222bcb43613f559060e",
+  "source_blobs": {
+    "ko": "8da45e553059c6fa43c2398c7a85fb031801269f",
+    "en": "9aa870a762b685cffb5165159330ce674c944554",
+    "zh": "770640285a1e85001013331a4a0a6fba3909dd43"
+  },
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "reading_evidence": {
+    "ko": {
+      "complete": true,
+      "documents": 23,
+      "source_blob_sha": "8da45e553059c6fa43c2398c7a85fb031801269f"
+    },
+    "en": {
+      "complete": true,
+      "index_documents": 23,
+      "distinct_linked_bodies": 5,
+      "linked_references": 27,
+      "all_linked_bodies_loaded": true,
+      "source_blob_sha": "9aa870a762b685cffb5165159330ce674c944554"
+    },
+    "zh": {
+      "complete": true,
+      "total_rows": 1290,
+      "fully_compared_rows": 1290,
+      "source_blob_sha": "770640285a1e85001013331a4a0a6fba3909dd43"
+    }
+  },
+  "review": {
+    "path": "review/zh/F-2223d4d89f9d838aec25.json",
+    "sha": "5429ef1020c0af98a335fe473d2d83eab27c4e00",
+    "status": "COMPLETE",
+    "checked_rows": 1290,
+    "corrected_rows": 720,
+    "correction_records": 720,
+    "edits": 720
+  },
+  "no_change_decisions": {
+    "path": "review/zh/F-2223d4d89f9d838aec25-empty-edit-decisions-C05-20261109-0600.json",
+    "sha": "d920ead33b72fe9ed99eb8c39990087d2016cb3e",
+    "count": 304
+  },
+  "final_qc": {
+    "status": "PASS",
+    "pending_rows": 0,
+    "source_hash_mismatches": 0,
+    "edit_mismatches": 0,
+    "decision_source_mismatches": 0,
+    "duplicate_edit_ids": 0,
+    "duplicate_decisions": 0,
+    "correction_decision_overlap": 0
+  },
+  "receipt_path": "receipts/F-2223d4d89f9d838aec25.json",
+  "notes": "All 1,290 Chinese rows were sequentially compared after full Korean and available English source reading. Existing corrections were preserved and accumulated; no-op correction records were normalized into unique no-change decisions. Original source blobs remained unchanged. Official review and decision files were read back and validated."
+}
