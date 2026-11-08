@@ -3537,6 +3537,41 @@
       "source_hash": "ce1245637252333c51bbe5c90fc05398ab1ac447d58490e5af17d3e4a64a04a7",
       "target_id": "XML:837951",
       "source_progress": "C02 sequential A11335 table review; minimal correction: The source is 급수 (grade/class), not 成绩 (score)."
+    },
+    {
+      "id": "A11335-zh-00208",
+      "text": "各发展阶段的精神",
+      "source_hash": "0bf2520414b66a598dca330fa400a19cc060efea012c50745e3c244e05a08d41",
+      "target_id": "XML:837999",
+      "source_progress": "C02 sequential A11335 table review; minimal correction: Korean fragment is 발달단계별 정신; retained the separate following nursing cell."
+    },
+    {
+      "id": "A11335-zh-00210",
+      "text": "精神健康行政与",
+      "source_hash": "8d425ecfc1705c3902f6538349b423862eccd67735204ddbb14acacf1445344f",
+      "target_id": "XML:838001",
+      "source_progress": "C02 sequential A11335 table review; minimal correction: Removed embedded English and restored the Korean phrase 정신건강행정 및."
+    },
+    {
+      "id": "A11335-zh-00212",
+      "text": "个案管理(Ⅱ)（以机构为中心）",
+      "source_hash": "747d1c06452414344e86bf4c34b8f1276d58ec41d966771b9fab395617ffc90a",
+      "target_id": "XML:838003",
+      "source_progress": "C02 sequential A11335 table review; minimal correction: 기관중심 means institution-centered, not between institutions."
+    },
+    {
+      "id": "A11335-zh-00215",
+      "text": "政策",
+      "source_hash": "ff41d4a47c5fd63e9a962be1f79def83ac9d48eeae744cd43108b639f2e80f1a",
+      "target_id": "XML:838006",
+      "source_progress": "C02 sequential A11335 table review; minimal correction: 정책 means policy, not strategy."
+    },
+    {
+      "id": "A11335-zh-00216",
+      "text": "为中心)",
+      "source_hash": "2d78994549b0da04088480915ecf874d8318c0c27d7bd1f4b102333f329e74e1",
+      "target_id": "XML:838007",
+      "source_progress": "C02 sequential A11335 table review; minimal correction: 중심 is the suffix 'centered'; the Chinese phrase is '以居家为中心' when read with its associated case-management cell."
     }
   ],
   "adjudicated_edit_count": 0,
@@ -4673,10 +4708,50 @@
     "A11335-zh-00177",
     "A11335-zh-00178",
     "A11335-zh-00179",
-    "A11335-zh-00180"
+    "A11335-zh-00180",
+    "A11335-zh-00181",
+    "A11335-zh-00182",
+    "A11335-zh-00183",
+    "A11335-zh-00184",
+    "A11335-zh-00185",
+    "A11335-zh-00186",
+    "A11335-zh-00187",
+    "A11335-zh-00188",
+    "A11335-zh-00189",
+    "A11335-zh-00190",
+    "A11335-zh-00191",
+    "A11335-zh-00192",
+    "A11335-zh-00193",
+    "A11335-zh-00194",
+    "A11335-zh-00195",
+    "A11335-zh-00196",
+    "A11335-zh-00197",
+    "A11335-zh-00198",
+    "A11335-zh-00199",
+    "A11335-zh-00200",
+    "A11335-zh-00201",
+    "A11335-zh-00202",
+    "A11335-zh-00203",
+    "A11335-zh-00204",
+    "A11335-zh-00205",
+    "A11335-zh-00206",
+    "A11335-zh-00207",
+    "A11335-zh-00208",
+    "A11335-zh-00209",
+    "A11335-zh-00210",
+    "A11335-zh-00211",
+    "A11335-zh-00212",
+    "A11335-zh-00213",
+    "A11335-zh-00214",
+    "A11335-zh-00215",
+    "A11335-zh-00216",
+    "A11335-zh-00217",
+    "A11335-zh-00218",
+    "A11335-zh-00219",
+    "A11335-zh-00220"
   ],
-  "checked_rows": 1120,
-  "corrected_rows": 503,
+  "checked_rows": 1160,
+  "corrected_rows": 508,
   "notes": [
     "Only obvious omissions of clause numbering and a missing subparagraph marker corrected; substantive terminology and existing wording retained.",
     "B2 English is an older fallback (version 272521), not exact current Korean version; newer provisions require Korean-Chinese comparison.",
@@ -4739,6 +4814,7 @@
     "C02 continued A11335 rows 86-115. Practical training, psychological assessment, individual/group psychotherapy, psychosocial rehabilitation, individual case analysis, hours and academic activity entries were checked against the schedule structure and retained; no clear mistranslation requiring a change was identified. English source unavailable.",
     "Final merge QA for overlapping Annex A30229 saves f8633965c0d6b83c4c9683e5ad4deeed4eecf49d and e42e292b913c3f98b1d5b5ca36b3304341060246: retain A30229-zh-00012 as “1. 社会福利学或社会工作学” (Korean source cell: “1. 사회복지학 또 / 는 사회사업학에”, source_hash d3e67943e0027b0a7abee2697734cb0723e7bba745cd3c1a90c5adc4bee6afa0); retain A30229-zh-00013 as “1. 根据《医疗技术人员等相关法律》” (Korean source cell: “1. 「의료기사 등에 / 관한 법률」에 따”, source_hash 512c134f93be65c648e879536ce497ea55e5dddaced8a3581a0599e2a6962534). The earlier f863 save truncated row 00012 after “或”; e42e292b restored the full parallel legal-study-field phrase. The row 00013 text is substantively unchanged; only source_progress wording differed. Both final texts align with the Korean cells and preserve the original source hashes/target IDs. This adjudication does not certify the remaining Annex A30229 table or the family; status remains IN_PROGRESS.",
     "Resumed source-locked review of Annex A30229 after the overlap merge adjudication. In the training-institution qualification clause, removed machine-corrupted bracket artifacts in rows 28-29 and restored the Minister of Health and Welfare title/designation relation. These two cell edits are limited to the clearly recoverable ministerial designation phrase; fragmented neighboring cells remain under sequential table-context review. The family remains IN_PROGRESS.",
-    "C02 resumed the next pending Chinese review segment at A11335-zh-00116 and checked rows 116-180 against the Korean Schedule 1 table. Corrected only three clear cell errors: 00119 rendered the qualification grade 2급 as a school year; 00136 mistranslated 이상 in 이상심리학 as 以上 rather than 异常; 00162 rendered 급수 as 成绩 rather than 等级. Hour totals and the surrounding course names were checked and retained. This schedule has no English source; Korean controls. Review continues at A11335 row 181; family remains IN_PROGRESS."
+    "C02 resumed the next pending Chinese review segment at A11335-zh-00116 and checked rows 116-180 against the Korean Schedule 1 table. Corrected only three clear cell errors: 00119 rendered the qualification grade 2급 as a school year; 00136 mistranslated 이상 in 이상심리학 as 以上 rather than 异常; 00162 rendered 급수 as 成绩 rather than 等级. Hour totals and the surrounding course names were checked and retained. This schedule has no English source; Korean controls. Review continues at A11335 row 181; family remains IN_PROGRESS.",
+    "C02 continued the no-English-source A11335 training-course schedule, checking rows 181-220 against the Korean table. Corrected the clear mixed-language fragment in the mental-health administration/policy cell, policy terminology, institution-centered case-management wording, the developmental-stage mental-nursing fragment, and the home-centered suffix. Numeric hours and accurate table labels were retained. Resume at A11335 row 221; family remains IN_PROGRESS."
   ]
 }
