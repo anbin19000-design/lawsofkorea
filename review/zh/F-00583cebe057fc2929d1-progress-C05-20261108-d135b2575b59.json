@@ -1,0 +1,97 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "worker": "C05",
+  "assignment_marker": "[WORK-TASK:C05:F-00583cebe057fc2929d1:d135b2575b59]",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "previous_progress": "review/zh/F-00583cebe057fc2929d1-progress-C05-20261108T1832KST-0888152c0192-finalcheckpoint.json",
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "f1fcc832e9f05be3c1b0e9a8fb3b6f23ad7aa013",
+  "review_commit": "aa4c1e535c6bcfcc26bff1a06ee49f102cc17626",
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "corrections_prior": 184,
+  "new_corrections": [
+    {
+      "id": "A29604-zh-00015",
+      "source_hash": "ee67c0e99a78d82c90a8a5cc0488325c1372554d6cb29e1181e08981ac959600",
+      "decision": "CORRECT",
+      "corrected": "的情形",
+      "reason": "韩语别表该行对应“하나에 해당하는 경우”，原译“如果应用”错误表达适用条件。"
+    },
+    {
+      "id": "A29604-zh-00025",
+      "source_hash": "ba1f63344196196d8e53bbd56867c2922dccc849179e6110c15a14d6ab312bfc",
+      "decision": "CORRECT",
+      "corrected": "的情形",
+      "reason": "韩语别表该行承接“인정되는 경우”，原译“案例”误指案件而非条件情形。"
+    },
+    {
+      "id": "A29604-zh-00028",
+      "source_hash": "aeb3dd7ddd6b8c6a57378b8ca6c88b205790b03a1bf7cd488889651ba0f47655",
+      "decision": "CORRECT",
+      "corrected": "被认定为有必要的情形",
+      "reason": "韩语别表该行对应“필요가 있다고 인정되는 경우”，原译“在必要时”漏译认定条件。"
+    }
+  ],
+  "corrections_total": 187,
+  "previous_pending_rows": 89,
+  "english_note": "B1/B2 official exact-version; B3/forms only 2010 fallback, not exact current version; decree also has AI draft.",
+  "unresolved": [
+    {
+      "id": "B2-zh-00081",
+      "status": "SOURCE_MAPPING_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A29604",
+      "status": "ANNEX_ALIGNMENT_REQUIRED"
+    },
+    {
+      "id": "B3-zh-00117",
+      "status": "SOURCE_MAPPING_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8690",
+      "status": "FORM_ALIGNMENT_REQUIRED"
+    },
+    {
+      "id": "A8693",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8698",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8699",
+      "status": "SOURCE_CONTENT_MISSING"
+    },
+    {
+      "id": "A8703",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8708",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "A8709",
+      "status": "SOURCE_CONTENT_MISSING"
+    },
+    {
+      "id": "A8690-zh-00499",
+      "status": "SOURCE_TEXT_FRAGMENT_REVIEW_REQUIRED"
+    }
+  ],
+  "reading_status": "NOT_VERIFIED_COMPLETE_IN_CURRENT_EXECUTION",
+  "completion_receipt": null,
+  "notes": "Same KO/EN/ZH blob SHA as prior checkpoint. Existing 184 corrections preserved; 3 new annex fragment corrections only. Existing pending categories persist; no assertion of entire KO/EN/ZH reading, all row validation or COMPLETE."
+}
