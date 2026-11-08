@@ -2170,7 +2170,25 @@
     "A6664-zh-00039",
     "A6664-zh-00040",
     "A6664-zh-00041",
-    "A6664-zh-00042"
+    "A6664-zh-00042",
+    "A6664-zh-00043",
+    "A6664-zh-00044",
+    "A6664-zh-00045",
+    "A6664-zh-00046",
+    "A6664-zh-00047",
+    "A6664-zh-00048",
+    "A6664-zh-00049",
+    "A6664-zh-00050",
+    "A6664-zh-00051",
+    "A6664-zh-00052",
+    "A6664-zh-00053",
+    "A6664-zh-00054",
+    "A6664-zh-00055",
+    "A6664-zh-00056",
+    "A6664-zh-00057",
+    "A6664-zh-00058",
+    "A6664-zh-00059",
+    "A6664-zh-00060"
   ],
   "edits": [
     {
@@ -9096,6 +9114,82 @@
     {
       "id": "A6664-zh-00042",
       "text": "董事、监事现况"
+    },
+    {
+      "id": "A6664-zh-00043",
+      "text": "评估金额"
+    },
+    {
+      "id": "A6664-zh-00044",
+      "text": "出资人"
+    },
+    {
+      "id": "A6664-zh-00045",
+      "text": "所在地"
+    },
+    {
+      "id": "A6664-zh-00046",
+      "text": "普通财产"
+    },
+    {
+      "id": "A6664-zh-00047",
+      "text": "种类"
+    },
+    {
+      "id": "A6664-zh-00048",
+      "text": "评估金额"
+    },
+    {
+      "id": "A6664-zh-00049",
+      "text": "出资人"
+    },
+    {
+      "id": "A6664-zh-00050",
+      "text": "所在地"
+    },
+    {
+      "id": "A6664-zh-00051",
+      "text": "* 电脑等家具、固定装置，应统一归入“办公用品”项目填写。"
+    },
+    {
+      "id": "A6664-zh-00052",
+      "text": ""
+    },
+    {
+      "id": "A6664-zh-00053",
+      "text": "董事、监事现况"
+    },
+    {
+      "id": "A6664-zh-00054",
+      "text": "职务"
+    },
+    {
+      "id": "A6664-zh-00055",
+      "text": "姓名"
+    },
+    {
+      "id": "A6664-zh-00056",
+      "text": "出生日期"
+    },
+    {
+      "id": "A6664-zh-00057",
+      "text": "任期"
+    },
+    {
+      "id": "A6664-zh-00058",
+      "text": "国籍"
+    },
+    {
+      "id": "A6664-zh-00059",
+      "text": "是否存在特殊关系"
+    },
+    {
+      "id": "A6664-zh-00060",
+      "text": "地址"
+    },
+    {
+      "id": "A6664-zh-00061",
+      "text": "210毫米×297毫米［保存用纸（第1种）70g/㎡］"
     }
   ],
   "notes": [
@@ -9146,7 +9240,8 @@
     "Sequentially reviewed all 18 Chinese rows of A6660. Corrected certificate fields, the annual course completion statement, statutory reference and seal/paper details.",
     "Sequentially reviewed all 105 Chinese rows of A6662. Reconstructed the social welfare foundation establishment permit application, asset and staffing schedules, full attachment list, public-official verification items and processing flow.",
     "Sequentially reviewed all 31 Chinese rows of A6663. Corrected the social welfare corporation establishment permit certificate, licensing authority, seal, and back-page change register.",
-    "Sequentially reviewed all 42 Chinese rows of A6664. Corrected social welfare corporation terminology and the management ledger's authority, registration, assets, facilities and executive-status fields."
+    "Sequentially reviewed all 42 Chinese rows of A6664. Corrected social welfare corporation terminology and the management ledger's authority, registration, assets, facilities and executive-status fields.",
+    "Corrected the earlier A6664 row-count checkpoint: the ledger contains 60 rows, not 42. Completed rows 00043–00060 covering ordinary property, the note on office equipment, executive status fields and paper specification."
   ],
   "checkpoint": "C04 continuation marker 88cbd4126afe",
   "english_unavailable_documents": [
@@ -9185,5 +9280,5 @@
     "A6682",
     "A6683"
   ],
-  "checked_rows": 2100
+  "checked_rows": 2118
 }
