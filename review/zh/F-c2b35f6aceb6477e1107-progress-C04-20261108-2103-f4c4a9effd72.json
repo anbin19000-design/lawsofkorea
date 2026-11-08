@@ -14,8 +14,8 @@
   "documents": 15,
   "total_rows": 1241,
   "preserved_review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
-  "preserved_review_sha_at_checkpoint": "78019cbfd0cd1a4a946aa875646ff5bb2fd85286",
-  "preserved_review_edits_at_checkpoint": 342,
+  "preserved_review_sha_at_checkpoint": "c856732c8c6eb8fd01cbbd0f75081f110263eb07",
+  "preserved_review_edits_at_checkpoint": 350,
   "current_checkpoint": {
     "korean_document_read": [
       "B1",
@@ -35,14 +35,17 @@
       "A14120"
     ],
     "english_document_read": [
-      "B1"
+      "B1: documents/en/i18n-30c3050cbb553734f8fc4548761a39285370ec6a24622fea.json (AI_DRAFT; full_text read)",
+      "B2: documents/en/i18n-8e67defe715c03e2fdbe6b9fcb2be0977a75c21062f2311d.json (AI_DRAFT; full_text read, includes Appendix fine schedule)",
+      "B2: documents/en/kr-005377-250483-en.json (OFFICIAL_SOURCE_TRANSLATION; full_text read)",
+      "B3: documents/en/i18n-48a16230baeb3c5f73d18ded886283542b8c54523670e1f9.json (AI_DRAFT; full_text read, includes Appendices 1–4 and Forms 1–7)"
     ],
-    "trilingual_full_family_ordered_read": "NOT_COMPLETE",
+    "trilingual_full_family_ordered_read": "KO_FULL_COMPLETE; EN_HELD_TEXT_FULL_COMPLETE; ZH_FULL_NOT_STARTED",
     "zh_row_checked_without_edit": [
       "B1-zh-00086"
     ],
-    "next_sequence": "All 15 Korean documents fetched and read in document order. Continue reading linked English sources in family order: B1 already read; then B2 (both AI draft and official English translation), A30764 (same decree annex source), B3 and linked rule/forms/annex source; then resume Chinese rows in document order.",
+    "next_sequence": "Begin full Chinese rows in original document order (1,241 rows), compare against Korean source and linked English sources; retain existing 342 edit records and any protected source/edition/layout holds. No claim that unavailable local ordinances, delegated instruments, or original binary layouts have been supplied.",
     "note": "B1-zh-00086 maps to Korean source 제1조(시행일) 이 법은 2022년 1월 1일부터 시행한다. Chinese text '第一条（生效日期）本法自2022年1月1日起生效。' is accurate; no edit warranted."
   },
-  "status_note": "Korean full source reading completed for all 15 family documents in order; English full reading completed for B1 only. Chinese B1-zh-00086 checked accurate, no edit. Review concurrently advanced to latest SHA captured at checkpoint; IN_PROGRESS; no receipt. No source files changed. Re-fetch latest review SHA before any write."
+  "status_note": "All 15 Korean source documents read in order. All held English full_text sources read: Act AI draft, Decree AI draft plus official English source translation, and Enforcement Rule AI draft (including all four appendices and seven forms); Decree AI draft includes administrative-fine Appendix. The Decree metadata preserves 29 precise holds (17 delegated-text/edition and 12 original attachment binary/layout); do not invent or claim those missing sources. Chinese full review is next. Review remains IN_PROGRESS; latest SHA captured; no receipt. Source files unchanged. Re-fetch latest review SHA before any write."
 }
