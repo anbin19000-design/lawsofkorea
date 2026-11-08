@@ -1,0 +1,45 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-1c153c79662f8df50e84",
+  "worker": "C04",
+  "pc": "WORK-C",
+  "panel_id": "panel-04",
+  "source_commit": "e2c29b72dbaeccc4eb66876894d901c67de3f909",
+  "source_blobs": {
+    "ko": "e1b24030d49282e7ffee1466e72b4197f51d03e9",
+    "en": "83ff5ff6a4bcee53c6990ad71d240b71cc20db8b",
+    "zh": "8c8bc3b30a9fb349785b2ad05ff3f0c3fd051b35"
+  },
+  "phase": "KO_FULL_EN_FULL_ZH_FULL",
+  "completed_stages": {
+    "ko_full_read": true,
+    "en_available_full_read": true,
+    "zh_full_review": false
+  },
+  "scope": {
+    "documents_total": 34,
+    "zh_rows_total": 2925,
+    "documents_reviewed": [
+      "B1 (60 rows; initial review)",
+      "B2 (selected rows: 00007, 00087-00089, 00107)",
+      "B3 (selected row: 00046)"
+    ],
+    "rows_reviewed": 66,
+    "documents_remaining": 31,
+    "rows_not_yet_reviewed": 2859
+  },
+  "english_availability": {
+    "official_full_text_documents": [
+      "B1",
+      "B2"
+    ],
+    "no_document_english_documents": 32,
+    "linked_english_body_sha": {
+      "B1": "c41cda23b98a8e39950d8d33b58ce9c287cf1cfb",
+      "B2": "e75241d5a275a1d646bb7c48dc37a31daff529c4"
+    }
+  },
+  "edits_saved": 13,
+  "status": "IN_PROGRESS",
+  "next": "继续逐份完整复核B2剩余行、B3及A12177-A12207。特别核对附表、表格和表格内韩文残留。不得提前COMPLETE。"
+}
