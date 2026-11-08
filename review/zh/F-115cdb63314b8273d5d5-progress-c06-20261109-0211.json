@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 1440,
+    "verified_zh_rows": 1500,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 1440,
-      "checked_rows": 1440,
+      "next_row_zero_based": 1500,
+      "checked_rows": 1500,
       "total_rows": 5228
     }
   },
@@ -1855,9 +1855,69 @@
       "text": "L. 未依本法第七十七条第二款履行管理义务的情形",
       "original_text": "K. 未按照《管理法》第77条第2款履行管理职责",
       "reason": "道路法错写为管理法且违法类别序号错位"
+    },
+    {
+      "id": "A28851-zh-00132",
+      "text": "L. 未履行本法第七十七条第二款规定的管理义务的情形（仅限于租赁的货物装载车辆违反本法第七十七条第一款规定的车辆运行限制而行驶的情形）",
+      "original_text": "构成违规",
+      "reason": "租赁货车管理义务违反情形被截断，遗漏适用范围"
+    },
+    {
+      "id": "A28851-zh-00133",
+      "text": "",
+      "original_text": "违反第77条第1款规定的驾驶限制",
+      "reason": "与前一项完整句合并后删除重复片段"
+    },
+    {
+      "id": "A28851-zh-00134",
+      "text": "",
+      "original_text": "是金额",
+      "reason": "与前一项完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00135",
+      "text": "",
+      "original_text": "仅限于通过启动执行操作的情况）",
+      "reason": "与前一项完整句合并后删除残缺片段"
+    },
+    {
+      "id": "A28851-zh-00136",
+      "text": "M. 违反本法第七十七条第三款，指示或要求车辆驾驶员违反同条第一款规定的车辆运行限制行驶的情形",
+      "original_text": "违反该法第77条第3款驾驶车辆",
+      "reason": "指示、要求驾驶员违法行驶的行为被误译为驾驶员本人驾驶"
+    },
+    {
+      "id": "A28851-zh-00138",
+      "text": "按车目1)至7)项所对应的违法行为金额征收",
+      "original_text": "Item 1) 至 7)",
+      "reason": "英文Item残留且未译出对应罚款金额的引用关系"
+    },
+    {
+      "id": "A28851-zh-00142",
+      "text": "N. 违反本法第七十七条第三款，向车辆驾驶员告知与事实不符的装载货物重量的情形",
+      "original_text": "如果指示或请求的操作违反了 的限制",
+      "reason": "将货物重量虚假告知误译为指示行驶，且缺失法规主语"
+    },
+    {
+      "id": "A28851-zh-00144",
+      "text": "N. 违反本法第七十七条第三款，向车辆驾驶员告知与事实不符的装载货物重量的情形",
+      "original_text": "第一部分：违反本法第77条第3款驾驶车辆",
+      "reason": "货物重量虚假告知行为误译为驾驶车辆"
+    },
+    {
+      "id": "A28851-zh-00146",
+      "text": "",
+      "original_text": "装载到电子设备上的货物重量是一个事实，",
+      "reason": "与前一项完整句合并后删除错误片段"
+    },
+    {
+      "id": "A28851-zh-00149",
+      "text": "1) 违反本法第七十七条第一款正文规定的车辆运行限制，轴荷超限不足2吨或总重量超限不足5吨而行驶的情形",
+      "original_text": "1) 车辆的",
+      "reason": "车辆载荷违法分档标准被截断"
     }
   ],
-  "note": "Sequential Chinese review continued through original row 1439 of Annex 7 administrative fine schedule. Added focused corrections to emergency traffic restriction, vehicle restriction categories, all six quantitative overrun bands (axle load, gross weight, width, height, length), permitted-vehicle condition violations, and erroneous statute name. Preserved fine amounts and table structure by consolidating fragmented text into corresponding item cells. Previous 245 edits retained. Continue from row 1440. IN_PROGRESS.",
+  "note": "Sequential Chinese review continued through original row 1499 of Annex 7 fine schedule. Added ten focused corrections to rental cargo-vehicle management, directing drivers to violate restrictions, false notification of loaded cargo weight, cross-reference to fine bands, and first cargo-weight violation threshold. Previous 284 edits retained. Continue from row 1500. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
