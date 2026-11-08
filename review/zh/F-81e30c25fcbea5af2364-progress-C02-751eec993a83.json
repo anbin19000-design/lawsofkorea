@@ -16,8 +16,8 @@
   },
   "cumulative_review": {
     "path": "review/zh/F-81e30c25fcbea5af2364.json",
-    "blob_sha": "8924d2e6c5b09b8438ad76153e29cd6a78ced8d0",
-    "edits": 356
+    "blob_sha": "175a2cfda1d0c945d38101894b8ba6e63aa99fe2",
+    "edits": 357
   },
   "reading_status": {
     "korean_family_source_read": true,
@@ -26,17 +26,22 @@
     "chinese_fully_read": false
   },
   "chinese_review": {
-    "document": "B1",
+    "document": "B2",
     "comparison_continued_from": "B1-zh-00106",
-    "last_inspected": "B1-zh-00199",
+    "last_inspected": "B2-zh-00032",
     "new_edit_ids": [
       "B1-zh-00131",
       "B1-zh-00152",
-      "B1-zh-00172"
+      "B1-zh-00172",
+      "B2-zh-00012"
     ],
-    "next_row": "B2-zh-00001",
+    "next_row": "B2-zh-00033",
     "total_family_rows": 1133,
-    "previous_edits_preserved": true
+    "previous_edits_preserved": true,
+    "inspected_documents": [
+      "B1"
+    ],
+    "current_document": "B2"
   },
   "english_unavailable_documents": [
     "B3",
@@ -57,5 +62,5 @@
     "zh": false
   },
   "completion_receipt_verified": false,
-  "next_action": "Continue Chinese in document order from B2-zh-00001; resolve 17-document full verification before completing."
+  "next_action": "Continue sequential B2 from 00033, then all four decree annexes, B3, and ten forms. Preserve original text; complete only after full family review and receipt verification."
 }
