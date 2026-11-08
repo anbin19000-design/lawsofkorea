@@ -4,7 +4,7 @@
   "pc": "WORK-C",
   "panel_id": "panel-06",
   "checked_rows": 5228,
-  "corrected_rows": 1640,
+  "corrected_rows": 1558,
   "status": "COMPLETE",
   "source_commit": "9edde23de1ced67de890822d81f5dc165fabb013",
   "source_blobs": {
@@ -13,6 +13,9 @@
     "zh": "de02d84d8491a7aa79491594587e28914944a33a"
   },
   "review_path": "review/zh/F-115cdb63314b8273d5d5.json",
-  "review_blob_sha": "e239f84bfb4d24e19f29f71a568d40df6b76554f",
-  "note": "Completed full Korean-English-Chinese family review across all 5,228 Chinese rows, including the Act, Decree, ministerial rule, annexes and forms. Merged and preserved the leading 5,075-row bookmark and the independent 201-row bookmark; retained 83 unique secondary edits and reconciled all 25 overlaps, including five final source-level conflicts. Official review file was written through GitHub Contents API and read back with matching blob SHA. English source reference unavailable for 994 rows across 53 documents; those portions were checked against Korean. Original source blobs unchanged."
+  "review_blob_sha": "f1fe54059c6503b1eeda6c5f67364931e6942069",
+  "note": "Completed full Korean-English-Chinese family review across all 5,228 Chinese rows, including the Act, Decree, ministerial rule, annexes and forms. Merged and preserved the leading 5,075-row bookmark and the independent 201-row bookmark; retained 83 unique secondary edits and reconciled all 25 overlaps, including five final source-level conflicts. Official review file was written through GitHub Contents API and read back with matching blob SHA. English source reference unavailable for 994 rows across 53 documents; those portions were checked against Korean. Original source blobs unchanged. Supplier-validation repair: the previous review had 84 blank text edits, which are not accepted in the canonical review. All 84 were source-bound adjudicated as intentional deletions/no-op decisions and preserved separately with original row IDs, source hashes, target IDs, neighboring row IDs and justifications; four additional A28849 broken continuation fragments were separately recorded. The canonical review now contains 1,558 unique nonblank edits only, including complete corrected text for A28849 items 2 and 3. The original laws/zh blob remains unchanged. Both canonical review and deletion-decision ledger were read back and verified.",
+  "empty_edit_decisions_path": "review/zh/F-115cdb63314b8273d5d5-empty-edit-decisions-C06-20261109-fe694466.json",
+  "empty_edit_decisions_blob_sha": "0feaca8d965b43a9f6fc0428c72fbf0a6a24f3ea",
+  "empty_edit_decisions_count": 88
 }
