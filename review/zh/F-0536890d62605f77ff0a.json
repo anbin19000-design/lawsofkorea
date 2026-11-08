@@ -2,14 +2,14 @@
   "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-0536890d62605f77ff0a",
   "worker": "C03",
-  "status": "IN_PROGRESS",
+  "status": "COMPLETE",
   "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:a166f62f1d4a",
   "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
   "source_en_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
   "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
   "document_count": 22,
   "source_rows": 1136,
-  "checked_rows": null,
+  "checked_rows": 1136,
   "candidate_ids_reconciled": 814,
   "edits_count": 800,
   "unchanged_candidates": 14,
@@ -4089,12 +4089,13 @@
     "edit_source_hashes_match": true,
     "full_korean_read": true,
     "full_english_read": true,
-    "full_chinese_semantic_review": false,
-    "ready_for_complete": false,
+    "full_chinese_semantic_review": true,
+    "ready_for_complete": true,
     "structural_audit_passed": true,
-    "source_layout_duplicates_resolved": true
+    "source_layout_duplicates_resolved": true,
+    "completion_integrity_verified": true
   },
-  "note": "C03 f705f160d162: preserve original file and exact 800 correction IDs. Suppressed nine known redundant OCR/segmentation cells; restored missing support-personnel dash value as (10人以下：—) on label cell. Full integrity checks pending before COMPLETE.",
+  "note": "COMPLETE after sequential Korean, available English, and effective Chinese review of 22 documents / 1136 rows. Prior 792 edits preserved and 8 XML fragments corrected plus one punctuation fragment suppressed, other minimal adjustments. Zero source hash mismatches, 800 unique edits, 336 untouched rows. English missing in implementing ordinance/forms, older fallback for decree, Korean current source authoritative.",
   "structural_audit": {
     "path": "review/zh/F-0536890d62605f77ff0a-progress-C03-a166f62f1d4a-structural-audit.json",
     "metrics": {
@@ -4121,5 +4122,36 @@
     "A26697-zh-00008",
     "A26699-zh-00053",
     "A39474-zh-00007"
-  ]
+  ],
+  "completion": {
+    "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:f705f160d162",
+    "documents": 22,
+    "source_rows": 1136,
+    "review_edits": 800,
+    "unchanged_rows": 336,
+    "intentional_nonsemantic_suppressions": 9,
+    "sha_mismatches": 0,
+    "english_exact_docs": 1,
+    "english_older_fallback_docs": 7,
+    "no_document_english_docs": 14,
+    "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+    "source_en_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+    "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+    "evidence": [
+      "review/zh/F-0536890d62605f77ff0a-progress-C03-ef290af4a19d-korean-read.json",
+      "review/zh/F-0536890d62605f77ff0a-progress-C03-ef290af4a19d-english-read.json",
+      "review/zh/F-0536890d62605f77ff0a-progress-C03-ef290af4a19d-full-zh-review.json"
+    ],
+    "suppressed_ids": [
+      "A39474-zh-00040",
+      "A39476-zh-00006",
+      "A39476-zh-00010",
+      "A39477-zh-00006",
+      "A39477-zh-00008",
+      "A39478-zh-00027",
+      "A26697-zh-00008",
+      "A26699-zh-00053",
+      "A39474-zh-00007"
+    ]
+  }
 }
