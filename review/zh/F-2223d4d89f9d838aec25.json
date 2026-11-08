@@ -1708,8 +1708,8 @@
       "doc": "A29185",
       "source_hash": "e01309bc0abaeb1b0fb702dd1869ad91c72241779722b3c76cbc81d890563e91",
       "original": "必须是可以通过实施 START 来防止或减少损害的领域。",
-      "corrected": "",
-      "reason": "前一行已完整表达“实施侵蚀控制工程能够预防或减少损害的地区”，该行仅为重复的机器污染尾片；删除并单独记录。"
+      "corrected": "能够预防或减少损害的地区。",
+      "reason": "该行对应海岸防灾林营造工程的效果条件；原译START为机器污染，应恢复“能够预防或减少损害的地区”。"
     },
     "A29185-zh-00038": {
       "doc": "A29185",
@@ -1750,8 +1750,8 @@
       "doc": "A29185",
       "source_hash": "fc85ef01000f84a655527b697e80c8f97d5c014a8ff9fd45b79298321cd389a1",
       "original": "它必须是能够防止或减少START造成的损害的区域。",
-      "corrected": "",
-      "reason": "该行与前行已合并表达的“能够预防或减少山体滑坡、泥石流造成损害的地区”重复，删除START污染残片。"
+      "corrected": "能够预防或减少山体滑坡、泥石流造成损害的地区。",
+      "reason": "该行对应侵蚀控制坝设置工程的效果条件；原译START为机器污染，应恢复预防或减少滑坡、泥石流损害的要求。"
     },
     "A29185-zh-00059": {
       "doc": "A29185",
@@ -4616,6 +4616,10 @@
       "text": "复原工程"
     },
     {
+      "id": "A29185-zh-00034",
+      "text": "能够预防或减少损害的地区。"
+    },
+    {
       "id": "A29185-zh-00038",
       "text": "防止工程"
     },
@@ -4634,6 +4638,10 @@
     {
       "id": "A29185-zh-00051",
       "text": "侵蚀控制坝"
+    },
+    {
+      "id": "A29185-zh-00055",
+      "text": "能够预防或减少山体滑坡、泥石流造成损害的地区。"
     },
     {
       "id": "A29185-zh-00059",
@@ -5685,7 +5693,7 @@
     }
   ],
   "checked_rows": 523,
-  "corrected_rows": 506,
+  "corrected_rows": 508,
   "notes": "Initial source-grounded correction set after full Korean and available English source reading. Chinese sequential review continues; do not treat this as completion. Sequential review so far: B1 rows 1–122; B2 rows 1–70. Additional complete targeted passes: A29186 (43 rows) and B3 rows 1–24. 64 nonblank changed edits are saved; further Chinese rows and documents remain pending. No COMPLETE certification. All source-bound correction records are retained. Blank fragment deletions and no-change records are documented separately at review/zh/F-2223d4d89f9d838aec25-empty-edit-decisions-C05-20261109-0600.json. Full semantic coverage is complete for B1, B2, B3, A29186 and A6580; A29185 and all attached forms remain in partial/targeted review. Status remains IN_PROGRESS.",
   "coverage": {
     "total_rows": 1290,
