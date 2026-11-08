@@ -25,15 +25,21 @@
   ],
   "reading_checkpoint": {
     "order": "KO_FULL_EN_FULL_ZH_FULL",
-    "ko": "B1 full law and B2 full presidential decree read sequentially. Next A28996 annex (doc 3 of 27); documents thereafter have not been sequentially read.",
-    "en": "NOT_STARTED; fallback English paths identified, newer Korean versions",
-    "zh": "NOT_STARTED; rows inventoried only",
-    "next_step": "Continue Korean from A28996, then A28997, A28998, B3, all 21 forms; after complete KO read two full English texts, then inspect Chinese rows in order."
+    "ko": "COMPLETE: all 27 Korean documents read sequentially B1, B2, A28996, A28997, A28998, B3, forms A5493–A5513; tabular/form cell text inspected in document order.",
+    "en": "COMPLETE: read complete available official older English versions B1 (63,876 characters, documents/en/kr-000824-270163-en.json) then B2 (45,528 characters, documents/en/kr-003552-270899-en.json); no document English for B3 or attached forms.",
+    "zh": "NOT_STARTED: begin Chinese row B1-zh-00001 (global 1/1622).",
+    "next_step": "Review Chinese 1622 rows sequentially preserving correct original text; use Korean current source and English only if version aligned. Record minimal edits, source discrepancies and final QA."
   },
   "findings": [],
   "source_notices": [
     "Legal original 2026.3.5 local-government terminology and 2026.5.12 committee references may differ from earlier English translations; do not adopt stale translations.",
-    "B1 Art.16 obligatory public registration vs optional private/university registration, Art.22 closure 14-day response with deemed acceptance, Art.28 discretionary 6-month closure, Art.29 registration revocation/2-year re-registration restriction."
+    "B1 Art.16 obligatory public registration vs optional private/university registration, Art.22 closure 14-day response with deemed acceptance, Art.28 discretionary 6-month closure, Art.29 registration revocation/2-year re-registration restriction.",
+    "English B1 translates invalid 'certified sports leader' in Article 6-2 whereas Korean explicitly refers to curator; English B1 Art 22(4) says revoke designation whereas Korean says cancel registration; do not propagate English mistakes.",
+    "Korean B3 Art 10 references 법 제28조 rather than 법 제30조 for annual operational report; keep original and flag discrepancy rather than silently changing."
   ],
-  "note": "Previous family review and receipt not found at inspection. Source contents and SHA match assignment; no originals edited. No Chinese correction or COMPLETE claim."
+  "note": "Previous family review and receipt not found at inspection. Source contents and SHA match assignment; no originals edited. No Chinese correction or COMPLETE claim.",
+  "english_full_text_sha": {
+    "B1": "77585662effa3d48e796b1a14a54710587ab8bda",
+    "B2": "a06c72241e4522805ac3c69e3b909d68e53a150e"
+  }
 }
