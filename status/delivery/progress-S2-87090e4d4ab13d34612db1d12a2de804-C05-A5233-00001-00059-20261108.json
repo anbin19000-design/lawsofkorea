@@ -1,0 +1,579 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-b5c27d20d49b721e47e6",
+  "worker": "C05",
+  "status": "IN_PROGRESS",
+  "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
+  "source_blobs": {
+    "ko": "24ddd78e32a748b7d1c1ce01fef19d036494b9e9",
+    "en": "3d130788df10274ded6103c1fa81654c977eec5c",
+    "zh": "66ea4d0981f8e1a76348309f8254051d4914f693"
+  },
+  "checked_rows": 59,
+  "checked_ids": [
+    "A5233-zh-00001",
+    "A5233-zh-00002",
+    "A5233-zh-00003",
+    "A5233-zh-00004",
+    "A5233-zh-00005",
+    "A5233-zh-00006",
+    "A5233-zh-00007",
+    "A5233-zh-00008",
+    "A5233-zh-00009",
+    "A5233-zh-00010",
+    "A5233-zh-00011",
+    "A5233-zh-00012",
+    "A5233-zh-00013",
+    "A5233-zh-00014",
+    "A5233-zh-00015",
+    "A5233-zh-00016",
+    "A5233-zh-00017",
+    "A5233-zh-00018",
+    "A5233-zh-00019",
+    "A5233-zh-00020",
+    "A5233-zh-00021",
+    "A5233-zh-00022",
+    "A5233-zh-00023",
+    "A5233-zh-00024",
+    "A5233-zh-00025",
+    "A5233-zh-00026",
+    "A5233-zh-00027",
+    "A5233-zh-00028",
+    "A5233-zh-00029",
+    "A5233-zh-00030",
+    "A5233-zh-00031",
+    "A5233-zh-00032",
+    "A5233-zh-00033",
+    "A5233-zh-00034",
+    "A5233-zh-00035",
+    "A5233-zh-00036",
+    "A5233-zh-00037",
+    "A5233-zh-00038",
+    "A5233-zh-00039",
+    "A5233-zh-00040",
+    "A5233-zh-00041",
+    "A5233-zh-00042",
+    "A5233-zh-00043",
+    "A5233-zh-00044",
+    "A5233-zh-00045",
+    "A5233-zh-00046",
+    "A5233-zh-00047",
+    "A5233-zh-00048",
+    "A5233-zh-00049",
+    "A5233-zh-00050",
+    "A5233-zh-00051",
+    "A5233-zh-00052",
+    "A5233-zh-00053",
+    "A5233-zh-00054",
+    "A5233-zh-00055",
+    "A5233-zh-00056",
+    "A5233-zh-00057",
+    "A5233-zh-00058",
+    "A5233-zh-00059"
+  ],
+  "decisions": [
+    {
+      "id": "A5233-zh-00001",
+      "source_hash": "ffe5eba8f19c3327210ecb6fe7c01ee1ad72df501d541e000c4d00b7e23dc05f",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00002",
+      "source_hash": "93711cdc08cc3d83ba53f0f142b0a0c40febd43de64b05a186c806b56a281e62",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00003",
+      "source_hash": "6cd2b691708212eb7b6d18e552b95890389b7d7a21fa1b262e6197b75b356808",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00004",
+      "source_hash": "b736160e9f7f0d321a2b458369e87ad0a76a9b7c00b4454ad463a28ce8d1d95b",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00005",
+      "source_hash": "077799922882e7164f2c60c7438b5c7801d9292508fe570790b88d0f55754a87",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00006",
+      "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00007",
+      "source_hash": "4191dd8d20f47dced8b1e95af0a2b477da7f98b6b27016e5eb2593f3d7af2bb4",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00008",
+      "source_hash": "bd6c8cccb6aa815bc26f04b4d3f9b1e83d3454d885ed59afb667bd3f496a2433",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00009",
+      "source_hash": "5aa32deffdf1362feb45b4aaf4a1945b15c91915f96194031e41bc759b5f2f97",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00010",
+      "source_hash": "f7ea9e331f80935959d8c179f685fbbdfde7f0301e791106a64b454bb1d6e80c",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5233-zh-00011",
+      "source_hash": "1586e9e7699c4795f94ac01ad5a23e6280cdfdf467824e8b1f26736f3a559c0f",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00012",
+      "source_hash": "28e058c7cec8846e6c5fb52308685e1c534d4b8a745ab01a9d40c045f3fd6c71",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5233-zh-00013",
+      "source_hash": "ed29e8ffc2bb589fbd70cc2d8b59135cda21dba3bfce34ff8d58e80c9295e5e2",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5233-zh-00014",
+      "source_hash": "82fc21f2358c7ca0131fbbf4b337041ce466107b5095f8fd9a6f2ca104cc6852",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00015",
+      "source_hash": "78b37dca364e45133225f5758fbea47515935527f56379135a37a75b73fb8859",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5233-zh-00016",
+      "source_hash": "7d5cd91b50927792da620345b51ff71a2dbd97e2b085bb83227da373918623e2",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5233-zh-00017",
+      "source_hash": "ef4403031e6e67eb6ff612ac7f030ff5fcf2e12e2b56fe2fa253adc78b0c68bb",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00018",
+      "source_hash": "b2effe0fd9825fa4e9a347b8d5c8e89601a74e56e7b85baaee7a284292f7dfc5",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00019",
+      "source_hash": "3257b211a886685d81fe7fc0e2d946ee9f9002d8255c0bd8470b087b37e6c432",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00020",
+      "source_hash": "d58786f07d4fedb5eef169cc36deeb719ace0d8e8e1e9c1a65226669748a1c7a",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00021",
+      "source_hash": "ab9442a23e772cce670320f5d60fb8e84f94b845c859d2f7691c7d052aeabb99",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5233-zh-00022",
+      "source_hash": "5619134e7e7f654d59c9affd510b9c36caf072513c3e381e36aaf5e37d160e51",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00023",
+      "source_hash": "4dddf381d7e3dd5ad5eec5d1209e553c1a632dda9430e61efd616e7381e46341",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00024",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00025",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00026",
+      "source_hash": "dfc76879e2f5c3ead09186ff1c6b635624f96b7adbd71d94c37566429ca5df6f",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5233-zh-00027",
+      "source_hash": "bd6c8cccb6aa815bc26f04b4d3f9b1e83d3454d885ed59afb667bd3f496a2433",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00028",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5233-zh-00029",
+      "source_hash": "fa145c2c6b92908269d2ed1a8dd6e968f9a393b36f2712d6e2288c5448e6145e",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00030",
+      "source_hash": "2099cd7f323c38ac89f0ebc4dd140529ccb048fb87aa42935038b81b0325020d",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00031",
+      "source_hash": "415c12cfe236ffa5094f9e3a7709063457a807995edc8ff53226e774fda2c5bd",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00032",
+      "source_hash": "5850148df19b79a9a43c638b1b7ea9988b2a69b1998bf9ea9d012ea9917e122c",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00033",
+      "source_hash": "0313408cdf794fea03a1b1d6758e8ad6cc7c6a9f70b7256de98dafab6a45bf1a",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00034",
+      "source_hash": "34bda8dd0e3dd21c4b5a3ea8cebac17c6701402c82e768cebdaa111eb179bbac",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00035",
+      "source_hash": "e154470373c6faa5f0a8df7ac199261d57ba8dc3cb84f6376fcce418f0d2cf7c",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00036",
+      "source_hash": "7ae103bdc537e2f62119486e33f25dd6fd7930b0f74f87e03b7224451d93ed02",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00037",
+      "source_hash": "0a468f0864a0ff7e05c533066a2175b4e2bfe9301df28d3ff973ec04e60ba237",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00038",
+      "source_hash": "654162f8c81a7f64beb3acf4264016e36d5c2ded7e29671c52ab7177a0c5dd15",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00039",
+      "source_hash": "e7f478f400b5eedc679d37a09829bbae8991a1540b406f4b394a73e2821e835a",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00040",
+      "source_hash": "ddb0c3341ba11d5588696c8b48ef81c643e2fca744da47f118aa2c409c4f5299",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00041",
+      "source_hash": "b34b5218c7578255c953cf43241fe4d7ef31e1e078da7dd82b5008ef78fb1801",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00042",
+      "source_hash": "2a3ba42717521ab79d0eb2b7ec7305c8ca8a4d5744cedf3c77e7ee0eeef6f5b8",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00043",
+      "source_hash": "89761db002b6ca5ae0e7c3865d54ab359fcedc339f0361c5c1b47e326f2c4d7c",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00044",
+      "source_hash": "db5ecff984ec86fc5c8005eed41f4b63014f54f337f0b4f125234e3013e1474e",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00045",
+      "source_hash": "7e75ad0a7ea4c419d8532ca6652de0d23b34f1ecc852de4b3aaa54ed418b29f3",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00046",
+      "source_hash": "c9d7424bd47b7982574b40597f2f73884a8378fd5946fb3df51742f13e8cdffb",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00047",
+      "source_hash": "95f917fe3d2584ffa811e126334250c6e45c6f42c924def5cbe91a50fb98d304",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00048",
+      "source_hash": "38077fb6439e62333f77ad0cf1209db0fdde4368307d7c10cd7ef332b185bd04",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00049",
+      "source_hash": "bd6c8cccb6aa815bc26f04b4d3f9b1e83d3454d885ed59afb667bd3f496a2433",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00050",
+      "source_hash": "7e743d7df96769d0fb95b5b4beada30a69bd10f4917d0c3e71be331f8a645993",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00051",
+      "source_hash": "7e743d7df96769d0fb95b5b4beada30a69bd10f4917d0c3e71be331f8a645993",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00052",
+      "source_hash": "7e743d7df96769d0fb95b5b4beada30a69bd10f4917d0c3e71be331f8a645993",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00053",
+      "source_hash": "d97782c91f289163e956350fd1fbc6fdcbc7e26bb36408c1880308bb59addcfc",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00054",
+      "source_hash": "d97782c91f289163e956350fd1fbc6fdcbc7e26bb36408c1880308bb59addcfc",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00055",
+      "source_hash": "b051874ae08ff30a0a52c4d8fefda37fc248d446d5c74cf0b12eb82d6d6407bf",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00056",
+      "source_hash": "7d74c83120c4385cfe0cfcb43fa360949c089679493e3c80358857eab064a72c",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00057",
+      "source_hash": "7d74c83120c4385cfe0cfcb43fa360949c089679493e3c80358857eab064a72c",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00058",
+      "source_hash": "3d27698a0ca8356f900924e0d6af276c697101b4781d6d61b9ff823c2ab48622",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5233-zh-00059",
+      "source_hash": "b1720c17e690db930c500e53ad739e5c8195e5e039caf8cccb54f4abcb137778",
+      "decision": "CORRECT"
+    }
+  ],
+  "edits": [
+    {
+      "id": "A5233-zh-00001",
+      "text": "■ 《单亲家庭支援法施行规则》[附页第7号表格] <2019年8月28日修订>"
+    },
+    {
+      "id": "A5233-zh-00002",
+      "text": "单亲家庭福利设施（[ ]废止 [ ]暂停运营 [ ]恢复运营）申报书"
+    },
+    {
+      "id": "A5233-zh-00003",
+      "text": "※ 请在相应的[  ]内打√。"
+    },
+    {
+      "id": "A5233-zh-00004",
+      "text": "受理编号"
+    },
+    {
+      "id": "A5233-zh-00005",
+      "text": "受理日期"
+    },
+    {
+      "id": "A5233-zh-00006",
+      "text": "办理期限"
+    },
+    {
+      "id": "A5233-zh-00007",
+      "text": "7日"
+    },
+    {
+      "id": "A5233-zh-00008",
+      "text": "申报人"
+    },
+    {
+      "id": "A5233-zh-00009",
+      "text": "姓名"
+    },
+    {
+      "id": "A5233-zh-00011",
+      "text": "法人名称"
+    },
+    {
+      "id": "A5233-zh-00014",
+      "text": "申报内容"
+    },
+    {
+      "id": "A5233-zh-00017",
+      "text": "所在地"
+    },
+    {
+      "id": "A5233-zh-00018",
+      "text": "设施负责人姓名"
+    },
+    {
+      "id": "A5233-zh-00019",
+      "text": "废止（暂停运营、恢复运营）年月日"
+    },
+    {
+      "id": "A5233-zh-00020",
+      "text": "暂停运营期间（不超过1年）"
+    },
+    {
+      "id": "A5233-zh-00022",
+      "text": "依据《单亲家庭支援法》第二十一条及同法施行规则第十一条第一款，现依上述内容申报单亲家庭福利"
+    },
+    {
+      "id": "A5233-zh-00023",
+      "text": "设施的（[ ]废止 [ ]暂停运营 [ ]恢复运营）。"
+    },
+    {
+      "id": "A5233-zh-00024",
+      "text": "年"
+    },
+    {
+      "id": "A5233-zh-00025",
+      "text": "月"
+    },
+    {
+      "id": "A5233-zh-00027",
+      "text": "申报人"
+    },
+    {
+      "id": "A5233-zh-00029",
+      "text": "致特别自治市市长、特别自治道知事、市长、郡守、区厅长"
+    },
+    {
+      "id": "A5233-zh-00030",
+      "text": ""
+    },
+    {
+      "id": "A5233-zh-00031",
+      "text": "随附材料"
+    },
+    {
+      "id": "A5233-zh-00032",
+      "text": "1. 单亲家庭福利设施废止、暂停运营或恢复运营理由书（法人还应附有就废止、暂停运营或恢复运营作出决议的"
+    },
+    {
+      "id": "A5233-zh-00033",
+      "text": "手续费"
+    },
+    {
+      "id": "A5233-zh-00034",
+      "text": "董事会会议记录复印件）1份"
+    },
+    {
+      "id": "A5233-zh-00035",
+      "text": "无"
+    },
+    {
+      "id": "A5233-zh-00036",
+      "text": "2. 单亲家庭福利设施入住者的安置措施计划书（仅限废止或暂停运营时）1"
+    },
+    {
+      "id": "A5233-zh-00037",
+      "text": "份"
+    },
+    {
+      "id": "A5233-zh-00038",
+      "text": "3. 补助金、赞助款使用结果报告书及以其为财源形成的剩余财产返还措施计划书（仅限废止或"
+    },
+    {
+      "id": "A5233-zh-00039",
+      "text": "暂停运营时）1份"
+    },
+    {
+      "id": "A5233-zh-00040",
+      "text": "4. 单亲家庭福利设施财产使用或处分计划书（仅限废止或暂停运营时）"
+    },
+    {
+      "id": "A5233-zh-00041",
+      "text": "1份"
+    },
+    {
+      "id": "A5233-zh-00042",
+      "text": "5. 单亲家庭福利设施设置申报确认书（仅限废止时）1份"
+    },
+    {
+      "id": "A5233-zh-00043",
+      "text": "办理流程"
+    },
+    {
+      "id": "A5233-zh-00044",
+      "text": "填写申报书"
+    },
+    {
+      "id": "A5233-zh-00045",
+      "text": "受理"
+    },
+    {
+      "id": "A5233-zh-00046",
+      "text": "审核"
+    },
+    {
+      "id": "A5233-zh-00047",
+      "text": "审批"
+    },
+    {
+      "id": "A5233-zh-00048",
+      "text": "通知"
+    },
+    {
+      "id": "A5233-zh-00049",
+      "text": "申报人"
+    },
+    {
+      "id": "A5233-zh-00050",
+      "text": "处理机关"
+    },
+    {
+      "id": "A5233-zh-00051",
+      "text": "处理机关"
+    },
+    {
+      "id": "A5233-zh-00052",
+      "text": "处理机关"
+    },
+    {
+      "id": "A5233-zh-00053",
+      "text": "（特别自治市、特别自治道、"
+    },
+    {
+      "id": "A5233-zh-00054",
+      "text": "（特别自治市、特别自治道、"
+    },
+    {
+      "id": "A5233-zh-00055",
+      "text": "（特别自治市、特别自治道、"
+    },
+    {
+      "id": "A5233-zh-00056",
+      "text": "市、郡、区）"
+    },
+    {
+      "id": "A5233-zh-00057",
+      "text": "市、郡、区）"
+    },
+    {
+      "id": "A5233-zh-00058",
+      "text": "市、郡、区）"
+    },
+    {
+      "id": "A5233-zh-00059",
+      "text": "210毫米×297毫米[白色纸张80克/平方米（再生纸）]"
+    }
+  ],
+  "next_id": "A28946-zh-00001",
+  "note": "Completed A5233 59-cell facility closure/suspension/resumption declaration, including <=1 year suspension limit, 7 day handling, required board minutes for corporations, and refund of leftover assets. Existing MTQ 00006 preserved."
+}
