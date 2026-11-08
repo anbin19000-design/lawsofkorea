@@ -1,0 +1,18 @@
+{
+  "job_id": "F-115cdb63314b8273d5d5",
+  "worker": "C06",
+  "pc": "WORK-C",
+  "panel_id": "panel-06",
+  "checked_rows": 5228,
+  "corrected_rows": 1640,
+  "status": "COMPLETE",
+  "source_commit": "9edde23de1ced67de890822d81f5dc165fabb013",
+  "source_blobs": {
+    "ko": "159cb5a14f8f5e07bea8f04a5437adbf4b15c6ba",
+    "en": "f29bd3277059d324e7bbe7a69b6b6b49ab69939f",
+    "zh": "de02d84d8491a7aa79491594587e28914944a33a"
+  },
+  "review_path": "review/zh/F-115cdb63314b8273d5d5.json",
+  "review_blob_sha": "e239f84bfb4d24e19f29f71a568d40df6b76554f",
+  "note": "Completed full Korean-English-Chinese family review across all 5,228 Chinese rows, including the Act, Decree, ministerial rule, annexes and forms. Merged and preserved the leading 5,075-row bookmark and the independent 201-row bookmark; retained 83 unique secondary edits and reconciled all 25 overlaps, including five final source-level conflicts. Official review file was written through GitHub Contents API and read back with matching blob SHA. English source reference unavailable for 994 rows across 53 documents; those portions were checked against Korean. Original source blobs unchanged."
+}
