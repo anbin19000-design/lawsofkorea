@@ -6,8 +6,8 @@
   "panel_id": "panel-05",
   "branch": "main",
   "checked_rows": 1687,
-  "corrected_rows": 1079,
-  "status": "IN_PROGRESS",
+  "corrected_rows": 1023,
+  "status": "COMPLETE",
   "source_blobs": {
     "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
     "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
@@ -15,6 +15,9 @@
   },
   "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
   "review_blob": null,
-  "note": "Completed the full franchise-law family: Korean sources read in full, available English sources read in order, and all 1,687 Chinese rows across 18 documents sequentially checked against Korean. Preserved existing accurate translations and applied only source-grounded minimal corrections/refinements. Final QC: 1,687 unique row IDs; all 1,079 correction source hashes match the original Chinese rows; no missing rows; no uncorrected MTQ/START/Korean residue (the Korean sample label in A34917-zh-00079 is intentionally preserved); formula rows in A34911 visually verified against the official Korean schedule PDF. Exact English independently available for B1; other English references are family fallbacks, so Korean-Chinese comparison was used where exact English was unavailable. Original source blob SHA values unchanged. Superseded on 2026-11-09 after INVALID_EDITS: canonical review migrated to an `edits` array with 1,023 nonblank changed replacements; 24 intentional deletions and 32 no-op records retained with source hashes and rationales in the separate decision ledger. Current full semantic review/final QC remains IN_PROGRESS; no new review_blob_sha is certified.",
-  "previous_review_blob_sha": "fd93c7ce4b76e9abe8238519d7091e55e8955470"
+  "note": "C05 completed full Korean–English–Chinese review of the franchise law family: 18 Korean documents read in order; all available linked English sources read in order (B1 exact; remaining English references are fallback or unavailable exact translations); all 1,687 Chinese rows across 18 documents reviewed in order. Canonical LAW_ZH_MINIMAL_REVIEW_V1 has 1,023 unique, nonblank changed edits. All 1,079 legacy correction records were verified against original Chinese row IDs, SHA hashes and original text. 24 intentional fragment deletions and 32 no-change records are separately documented with source IDs, hashes, original text and rationales; excluded from corrected_rows. No missing/duplicate edit IDs, blank edits, source mismatches, or residual MTQ/START markers. One Korean-script literal example in A34917-zh-00079 is intentionally preserved. A34911 formulas were visually verified against the official Korean schedule PDF. Source blobs unchanged. Review and decision ledger saved separately; no operational database changed.",
+  "previous_review_blob_sha": "fd93c7ce4b76e9abe8238519d7091e55e8955470",
+  "review_blob_sha": "458efd15bc0116a8a785318b396f9b8e2acf5df6",
+  "empty_edit_decisions_path": "review/zh/F-0aff999a0f4186c0da77-empty-edit-decisions-C05-20261109-0531.json",
+  "empty_edit_decisions_blob_sha": "bdd81b29b25a8ffff2eb970c213058bb25395c4b"
 }
