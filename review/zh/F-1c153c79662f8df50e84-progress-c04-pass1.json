@@ -15,7 +15,7 @@
     "required_order": "KO_FULL_EN_FULL_ZH_FULL",
     "ko": "COMPLETE: all 34 Korean source documents read in source order.",
     "en": "COMPLETE: B1 exact English and B2 English draft read in full; reviewed/en/KR_008306.json reference read; B3 and forms lack complete English document translations.",
-    "zh": "IN_PROGRESS: a cross-form pass removed mixed English/Chinese label fragments across the forms (Name, Land, Price, shape, Entry and START). Intentional English form reproductions and unit specifications are retained."
+    "zh": "IN_PROGRESS: all 34 documents have received an initial sequential review; 634 unique row corrections are recorded. Source scan shows 48 MTQ rows and 4 Korean-residual rows, all mapped to correction entries. Mixed English/Chinese defects have been addressed; remaining mixed-script cases are intentional gov.kr URLs and paper-size/unit notation, except the corrected END token in A12201."
   },
   "scope": {
     "documents": 34,
@@ -4454,14 +4454,31 @@
       "text_original": "听证意见日期 START",
       "corrected_text": "意见听取日期",
       "note": "移除残留START并修正听取意见日期字段。"
+    },
+    {
+      "id": "A12201-zh-00038",
+      "source_hash": "1a150064f53d10cb411e90354027a8c492a1a5831531af6066cf87f6ed198b64",
+      "text_original": "END 披露的非住宅标准房地产",
+      "corrected_text": "非住宅标准房地产价格",
+      "note": "移除残留英文控制标记END，恢复流程图中的非住宅标准房地产价格字段。"
     }
   ],
   "quality_checks": {
     "source_zh_sha_preserved": true,
     "mtq_remaining": 0,
     "unique_changed_ids": true,
-    "total_saved_changes": 633,
-    "mixed_english_chinese_rows_remaining": 36
+    "total_saved_changes": 634,
+    "mixed_english_chinese_rows_remaining": 36,
+    "source_row_count": 2925,
+    "source_document_count": 34,
+    "progress_edit_count": 634,
+    "source_hash_mismatches": 0,
+    "duplicate_source_ids": 0,
+    "empty_corrected_text": 0,
+    "mtq_rows_in_source": 48,
+    "mtq_rows_with_recorded_corrections": 48,
+    "korean_residual_rows_in_source": 4,
+    "korean_residual_rows_with_recorded_corrections": 4
   },
-  "next_step": "Continue checking all form content and table continuity; resolve any remaining mixed-script defects and then perform final source-hash, unique-ID, MTQ, Korean-fragment and numeric/reference QA."
+  "next_step": "Final full-row review and canonical result construction are still pending. Verify all 2,925 rows against source IDs and hashes, ensure each actual edit is in edits with nonempty corrected_text, classify unchanged rows, and only then write COMPLETE review and receipt."
 }
