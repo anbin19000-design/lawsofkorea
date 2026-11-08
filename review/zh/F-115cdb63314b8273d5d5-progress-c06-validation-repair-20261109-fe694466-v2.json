@@ -1,0 +1,48 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-115cdb63314b8273d5d5",
+  "worker": "C06",
+  "pc": "WORK-C",
+  "panel_id": "panel-06",
+  "status": "IN_PROGRESS",
+  "phase": "SUPPLIER_VALIDATION_PENDING",
+  "source_commit": "9edde23de1ced67de890822d81f5dc165fabb013",
+  "source_blobs": {
+    "ko": "159cb5a14f8f5e07bea8f04a5437adbf4b15c6ba",
+    "en": "f29bd3277059d324e7bbe7a69b6b6b49ab69939f",
+    "zh": "de02d84d8491a7aa79491594587e28914944a33a"
+  },
+  "checked_rows": 5228,
+  "corrected_rows": 1554,
+  "canonical_review": {
+    "path": "review/zh/F-115cdb63314b8273d5d5.json",
+    "blob_sha": "72ccae71fc832e93324b59e1793ac211effa7d38",
+    "status": "IN_PROGRESS",
+    "nonblank_edits": 1554,
+    "empty_text_edits": 0,
+    "foreign_ids": [],
+    "duplicate_ids": 0
+  },
+  "receipt": {
+    "path": "receipts/F-115cdb63314b8273d5d5.json",
+    "blob_sha": "b5ed701e72fa4117ef5989ae185477a897efd39a",
+    "status": "IN_PROGRESS",
+    "review_blob_sha": "72ccae71fc832e93324b59e1793ac211effa7d38"
+  },
+  "decision_ledger": {
+    "path": "review/zh/F-115cdb63314b8273d5d5-empty-edit-decisions-C06-20261109-fe694466.json",
+    "blob_sha": "506420beb4eceb73b9d2b81d62dd29c1e35584c7",
+    "empty_deletions": 88,
+    "orphan_merges": 4,
+    "invalid_source_bound_decisions": 0
+  },
+  "verification": {
+    "source_zh_rows": 5228,
+    "canonical_ids_all_exist": true,
+    "all_canonical_text_nonblank": true,
+    "no_duplicate_ids": true,
+    "ledger_deletions_source_hash_verified": true,
+    "receipt_matches_review": true
+  },
+  "note": "Repaired blank correction entries by preserving 88 intentional deletion/no-op decisions separately; merged four non-source '-extra' IDs into the exact source rows. Restored full row replacements for four affected B2/B3 rows, preserving all original row content. Canonical review contains only 1,554 unique nonblank edits bound to source IDs. Review, receipt and deletion/orphan ledger have been saved and read back. Awaiting supplier validation; retain this family and do not take another assignment."
+}
