@@ -1,0 +1,45 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "panel_id": "panel-02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:0fb8b7cbc86e",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "checked_ids": [
+    "B1-zh-00023"
+  ],
+  "checked_rows_new": 1,
+  "edits": [
+    {
+      "id": "B1-zh-00023",
+      "text": "第十七条（实施计划等审批的特别规定）\n① 项目实施者在根据其他法律实施项目时，如依据相关法律制定并取得包含第十四条所列实施计划内容的开发计划和实施计划的批准，则该实施计划视为已依据第十四条制定或批准。<2015年12月29日修订>\n② 项目实施者按照第1款规定的项目通过竣工检查时，视为已依据第16条通过竣工检查。\n\n",
+      "source_hash": "20babaaf6a1f99e9ed629adb3b23385cee6ade394c305687453d13fd65e4f128",
+      "target_id": "372e24b3f790eec8ba52192add0d38f110a97a07cc2524156b508b1a53fa9d7b",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-0fb8b7cbc86e.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "韩文“준공검사를 받았을 때”表示项目实施者通过竣工检查，不是收到竣工验收报告；中文原译将法律条件和法律效果均误译为收到报告，作最小语义修正。"
+    }
+  ],
+  "ordered_reading_certification": {
+    "ko": false,
+    "en": false,
+    "zh": false
+  },
+  "prior_master_blob_sha": "e6762e3461335e7901f688b8237bfcf93744f844",
+  "prior_edit_count": 289,
+  "cumulative_edit_count": 290,
+  "cumulative_checked_unique_ids": 305,
+  "notes": [
+    "Read and compared Korean Act B1-zh-00023 with the current Chinese row.",
+    "Corrected the completion-inspection condition in Article 17(2), retaining the original sentence structure and amendment note.",
+    "Neighboring rows B1-zh-00022, B1-zh-00025 and B1-zh-00028 already have prior master edits; no duplicate edits were added.",
+    "Partial checkpoint only; no full-family ordered reading certificate or COMPLETE status."
+  ]
+}
