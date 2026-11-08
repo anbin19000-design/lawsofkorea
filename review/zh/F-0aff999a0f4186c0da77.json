@@ -17,7 +17,7 @@
     "en": "laws/en/F-0aff999a0f4186c0da77.json",
     "zh": "laws/zh/F-0aff999a0f4186c0da77.json"
   },
-  "progress_path": "review/zh/F-0aff999a0f4186c0da77-progress-C05-382d0b9d5453-zhstart.json",
+  "progress_path": "review/zh/F-0aff999a0f4186c0da77-progress-C05-382d0b9d5453-semantic-audit.json",
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
@@ -408,12 +408,13 @@
     "C05 annex and form inspection: 11 confirmed errors corrected; includes substantive wrong certificate, notice wording and extract MTQ contamination. Full source sequence still requires final certification.",
     "Verified B2-zh-00190 crosses beyond Korean decree body length 40341: duplicate annex text is retained in distinct A34909 document; trim only B2 review correction, raw originals untouched.",
     "C05 annex and form recheck: 6 additional source-grounded START/MTQ corrections, prior 43 preserved.",
-    "C05 targeted full-row semantic recheck of B1(20,22) and B2(16-2) found critical reversals in insurance beneficiary and termination clause."
+    "C05 targeted full-row semantic recheck of B1(20,22) and B2(16-2) found critical reversals in insurance beneficiary and termination clause.",
+    "Checkpoint review/zh/F-0aff999a0f4186c0da77-progress-C05-382d0b9d5453-semantic-audit.json records 52 verified corrections and explicitly incomplete full semantic Chinese row review."
   ],
   "reading_evidence": {
-    "ko": "18 documents full reading recorded in progress-C05-382d0b9d5453.json",
-    "en": "3 linked official English documents full reading recorded in progress-C05-382d0b9d5453-enfull.json",
-    "zh": "Ordered Chinese review started at B1-zh-00001; 35 rows displayed, with some long rows truncated pending return to full row text; first 3 additional corrections supported by Korean and English.",
+    "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
+    "en": "3 linked English source bodies read in order, archived in progress-C05-382d0b9d5453-enfull.json",
+    "zh": "All 1687 rows sequentially previewed to last A34925 row; targeted full semantic comparisons on material and doubtful passages. This is NOT an exhaustive full semantic audit: some long rows were clipped during viewing.",
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 52,
