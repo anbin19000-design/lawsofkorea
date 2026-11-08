@@ -1,0 +1,289 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "family_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "panel_id": "panel-02",
+  "pc": "WORK-C",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "task_marker": "WORK-TASK:C02:F-81e30c25fcbea5af2364:66b0b614d7aa",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "current_review": {
+    "path": "review/zh/F-81e30c25fcbea5af2364.json",
+    "blob_sha": "b4fb447ae2c9b9f4ecbc2edc9fec9d92327fc067",
+    "schema": "LAW_ZH_REVIEW_CUMULATIVE_V1",
+    "status": "IN_PROGRESS",
+    "edits": 324,
+    "checked_unique_ids": 390
+  },
+  "reading_checkpoint": {
+    "korean": {
+      "document": "B2",
+      "source_document_fetched": true,
+      "source_length_chars": 47665,
+      "complete_family_read": false
+    },
+    "english": {
+      "available_parent_fallback": "documents/en/kr-010846-270111-en.json",
+      "source_version": "270111",
+      "basis": "FAMILY_LATEST_FALLBACK",
+      "body_fetched": true,
+      "full_sequential_read": false,
+      "version_mismatch_note": "The fallback is not the exact Korean version 286647."
+    },
+    "chinese": {
+      "document": "B2",
+      "compared_ids": [
+        "B2-zh-00028",
+        "B2-zh-00030",
+        "B2-zh-00031",
+        "B2-zh-00033",
+        "B2-zh-00037",
+        "B2-zh-00038",
+        "B2-zh-00039",
+        "B2-zh-00041",
+        "B2-zh-00042",
+        "B2-zh-00044",
+        "B2-zh-00046",
+        "B2-zh-00049",
+        "B2-zh-00052",
+        "B2-zh-00058",
+        "B2-zh-00048",
+        "B2-zh-00050",
+        "B2-zh-00053",
+        "B2-zh-00054",
+        "B2-zh-00056",
+        "B2-zh-00059",
+        "B2-zh-00060",
+        "B2-zh-00061",
+        "B2-zh-00062",
+        "B2-zh-00063",
+        "B2-zh-00001",
+        "B2-zh-00002",
+        "B2-zh-00003",
+        "B2-zh-00005",
+        "B2-zh-00006",
+        "B2-zh-00007",
+        "B2-zh-00008",
+        "B2-zh-00009",
+        "B2-zh-00011",
+        "B2-zh-00012",
+        "B2-zh-00013",
+        "B2-zh-00014",
+        "B2-zh-00017",
+        "B2-zh-00019",
+        "B2-zh-00020",
+        "B2-zh-00022",
+        "B2-zh-00023",
+        "B2-zh-00024",
+        "B2-zh-00025",
+        "B2-zh-00027",
+        "B2-zh-00029",
+        "B2-zh-00032",
+        "B2-zh-00034",
+        "B2-zh-00035",
+        "B2-zh-00036",
+        "B2-zh-00040",
+        "B2-zh-00043",
+        "B2-zh-00045",
+        "B2-zh-00047",
+        "B2-zh-00051",
+        "B2-zh-00055",
+        "B2-zh-00057",
+        "B2-zh-00064",
+        "B2-zh-00065",
+        "B2-zh-00066",
+        "B2-zh-00068",
+        "B2-zh-00071",
+        "B2-zh-00072",
+        "B2-zh-00073",
+        "B2-zh-00074",
+        "B2-zh-00075",
+        "B2-zh-00076",
+        "B2-zh-00077",
+        "B2-zh-00079",
+        "B2-zh-00080",
+        "B2-zh-00081"
+      ],
+      "new_corrections": [
+        "B2-zh-00028",
+        "B2-zh-00030",
+        "B2-zh-00031",
+        "B2-zh-00046",
+        "B2-zh-00049",
+        "B2-zh-00052",
+        "B2-zh-00058",
+        "B2-zh-00001",
+        "B2-zh-00003",
+        "B2-zh-00011",
+        "B2-zh-00017",
+        "B2-zh-00020",
+        "B2-zh-00025",
+        "B2-zh-00027",
+        "B2-zh-00040",
+        "B2-zh-00057",
+        "B2-zh-00066",
+        "B2-zh-00071",
+        "B2-zh-00072",
+        "B2-zh-00076",
+        "B2-zh-00077",
+        "B2-zh-00079"
+      ],
+      "checked_without_change": [
+        "B2-zh-00033",
+        "B2-zh-00037",
+        "B2-zh-00038",
+        "B2-zh-00039",
+        "B2-zh-00041",
+        "B2-zh-00042",
+        "B2-zh-00044",
+        "B2-zh-00048",
+        "B2-zh-00050",
+        "B2-zh-00053",
+        "B2-zh-00054",
+        "B2-zh-00056",
+        "B2-zh-00059",
+        "B2-zh-00060",
+        "B2-zh-00061",
+        "B2-zh-00062",
+        "B2-zh-00063",
+        "B2-zh-00002",
+        "B2-zh-00005",
+        "B2-zh-00006",
+        "B2-zh-00007",
+        "B2-zh-00008",
+        "B2-zh-00009",
+        "B2-zh-00012",
+        "B2-zh-00013",
+        "B2-zh-00014",
+        "B2-zh-00019",
+        "B2-zh-00022",
+        "B2-zh-00023",
+        "B2-zh-00024",
+        "B2-zh-00029",
+        "B2-zh-00032",
+        "B2-zh-00034",
+        "B2-zh-00035",
+        "B2-zh-00036",
+        "B2-zh-00043",
+        "B2-zh-00045",
+        "B2-zh-00047",
+        "B2-zh-00051",
+        "B2-zh-00055",
+        "B2-zh-00064",
+        "B2-zh-00065",
+        "B2-zh-00068",
+        "B2-zh-00073",
+        "B2-zh-00074",
+        "B2-zh-00075",
+        "B2-zh-00080",
+        "B2-zh-00081"
+      ]
+    }
+  },
+  "corrections": [
+    {
+      "id": "B2-zh-00028",
+      "reason": "Preserve statutory actual-cost ceiling for infrastructure usage fees."
+    },
+    {
+      "id": "B2-zh-00030",
+      "reason": "Correct the current statutory title of the Broadcasting Media and Communications Commission chair."
+    },
+    {
+      "id": "B2-zh-00031",
+      "reason": "Correct legal citation from Article 4 paragraph 2 to Article 4 subparagraph 2."
+    },
+    {
+      "id": "B2-zh-00046",
+      "reason": "Use the defined term 总体规划师 consistently for 총괄계획가 and 총괄계획단."
+    },
+    {
+      "id": "B2-zh-00049",
+      "reason": "Correct 일반일간신문 to ordinary/general daily newspapers."
+    },
+    {
+      "id": "B2-zh-00052",
+      "reason": "Render 행정예고 as administrative advance notice (行政预告)."
+    },
+    {
+      "id": "B2-zh-00058",
+      "reason": "Correct the statute title in subparagraph 2 to 国土规划及利用法."
+    },
+    {
+      "id": "B2-zh-00001",
+      "reason": "Correct enforcement decree title and distinguish decree from Act."
+    },
+    {
+      "id": "B2-zh-00003",
+      "reason": "Correct the Act title in Article 1."
+    },
+    {
+      "id": "B2-zh-00011",
+      "reason": "Correct statutory title 《智能信息化基本法》 and the scope of the comprehensive plan draft."
+    },
+    {
+      "id": "B2-zh-00017",
+      "reason": "Correct defined planning authority and legal reference to Article 9-2(4)."
+    },
+    {
+      "id": "B2-zh-00020",
+      "reason": "Restore missing item 3 marker in Article 17(3)."
+    },
+    {
+      "id": "B2-zh-00025",
+      "reason": "Correct false reference to Smart City Infrastructure Act and translate project name accurately."
+    },
+    {
+      "id": "B2-zh-00027",
+      "reason": "Restore truncated second exemption and complete paragraph ④."
+    },
+    {
+      "id": "B2-zh-00040",
+      "reason": "Restore paragraph numbering ④ and ⑥-⑧ and item punctuation."
+    },
+    {
+      "id": "B2-zh-00057",
+      "reason": "Restore malformed item lettering in Article 44."
+    },
+    {
+      "id": "B2-zh-00066",
+      "reason": "Correct paragraph numbering and statutory references in Article 52."
+    },
+    {
+      "id": "B2-zh-00071",
+      "reason": "Restore paragraph ⑥ and correct the project-management report provisions."
+    },
+    {
+      "id": "B2-zh-00072",
+      "reason": "Correct paragraph ④ and the actual-loss exception in liability insurance."
+    },
+    {
+      "id": "B2-zh-00076",
+      "reason": "Restore paragraph numbering in Article 58-2."
+    },
+    {
+      "id": "B2-zh-00077",
+      "reason": "Correct erroneous Act references and restore paragraphs ⑥-⑩ in Article 58-3."
+    },
+    {
+      "id": "B2-zh-00079",
+      "reason": "Correct the title and legal references in Article 60 delegation of affairs."
+    }
+  ],
+  "english_coverage_note": "The index lists 712/1,133 row-level English references; 421 have no row-level English. B1 and B2 have official parent fallback, but it is a different version for B2; B3 and all A25465-A25474 have no indexed English documents.",
+  "ordered_reading_certification": {
+    "ko": false,
+    "en": false,
+    "zh": false
+  },
+  "completion_receipt_verified": false,
+  "next_action": "Continue from B2-zh-00082 (or next unchecked row in exact source order), then complete all remaining B2 rows and B1, annexes, B3 and forms. Full Korean, available English and Chinese family-wide ordered read-through remains uncertified; no completion receipt."
+}
