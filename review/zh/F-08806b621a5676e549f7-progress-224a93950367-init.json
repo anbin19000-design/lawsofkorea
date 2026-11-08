@@ -9,7 +9,7 @@
     "en": "1de956c78a42df17c5f36079fab0b672ec1521b8",
     "zh": "dc8febba565ee7adee3dea09461594f98d24ea3d"
   },
-  "checked_rows": 15,
+  "checked_rows": 18,
   "edits": [
     {
       "id": "B2-zh-00014",
@@ -85,6 +85,21 @@
       "id": "B3-zh-00034",
       "text": "补充规定 <第183号，2021年6月10日>\n\n该规定自2021年6月10日起生效。\n\n地震加速度测量仪器的性能检验标准（与第2-2条第1款相关）\n■ 地震火山灾害对策法实施细则 [附表1] <2020年6月4日新增>                  \n\n  地震加速度测量仪器的性能检验标准（与第2-2条第1款相关）                          \n\n┌─────┬─────────┬──────────────────────┐\n\n│设备类别 │检验项目         │性能标准                                   │\n\n├─────┼─────────┼──────────────────────┤\n\n│地震加速度│测量分量│ㆍ3方向分量（1个垂直方向，2个水平方向）│\n\n│检测器│ │ㆍ 2路组件│\n\n│ │ │ㆍ 单向成分 │\n\n│          ├─────────┼──────────────────────┤\n\n│ │频率范围 │ㆍ 0.1~50Hz 范围 │\n\n│ │ │ㆍ 误差范围 < 3dB │\n\n│          ├─────────┼──────────────────────┤\n\n│ │动态范围 │ㆍ 120dB 或更高 │\n\n│ │ │ㆍ 最大实测地震加速度 2.0g │\n\n│          ├─────────┼──────────────────────┤\n\n│ │输出电压线性度比 │ㆍ 1% 以内 │\n\n│          ├─────────┼──────────────────────┤\n\n│ │组件间灵敏度误差 │ㆍ 1%以内[自由场（受地震加速度测量时） │\n\n│ │ │表示结构的地面运动 │\n\n│          │                  │建筑物、构筑物等一般设施       │\n\n│ │ │指没有 │ │ 对于 │\n\n│ │ │ㆍ 2%以内（针对设施） │\n\n│          ├─────────┼──────────────────────┤\n\n│ │输出电压 │ㆍ最大输出电压 │\n\n│          ├─────────┼──────────────────────┤\n\n│ │输出方式 │ㆍ 差分输出方式 │\n\n├─────┼─────────┼──────────────────────┤\n\n│地震加速度│动态范围│ㆍ 120dB 或更高│\n\n│Recorder ├──────────┼──────────────────────┤\n\n",
       "reason": "表格中的韩文设备类别、检验项目、性能标准及设施类别标签未译，按韩国语表格字段补译；原有其他表格内容保留。"
+    },
+    {
+      "id": "A19766-zh-00021",
+      "text": "被认定为对性能检验申请人等造成较大损害的情形",
+      "reason": "对应韩文“피해가 크다고 인정되는 경우”，修复MTQ污染并补足前行未译完的条件。"
+    },
+    {
+      "id": "A19766-zh-00064",
+      "text": "未达到指定标准的情形",
+      "reason": "对应表格中“지정기준에 적합하지 않게 된 경우”，修复MTQ污染。"
+    },
+    {
+      "id": "A19767-zh-00067",
+      "text": "填写并提交申请书",
+      "reason": "对应申请流程首个步骤“신청서 작성 및 제출”，修复MTQ污染。"
     }
   ],
   "status": "IN_PROGRESS",
@@ -154,5 +169,5 @@
     "A19779": "NO_DOCUMENT_ENGLISH"
   },
   "prior_state": "No review/zh/F-08806b621a5676e549f7.json or receipts/F-08806b621a5676e549f7.json found on main at intake. Existing progress records not found by targeted GitHub code search; verify exact candidate paths before assuming none.",
-  "note": "Targeted pass identified clear Hangul omissions in B2-zh-00067 and B2-zh-00083, a mixed untranslated passage in B2-zh-00099, incorrect statutory references in B2-zh-00014, and MTQ contamination in selected form labels. This is not full-family review. Continue full sequential KO then EN then ZH reading; verify remaining MTQ and B3 table issues against original annex XML before finalization. B3-zh-00034 has had the remaining visible Korean table labels translated; remaining MTQ fragments in A19766-zh-00021 and A19766-zh-00064 require exact XML/source-cell verification before any replacement. Full sequential source reading and complete 1,639-row review remain pending."
+  "note": "Targeted pass identified clear Hangul omissions in B2-zh-00067 and B2-zh-00083, a mixed untranslated passage in B2-zh-00099, incorrect statutory references in B2-zh-00014, and MTQ contamination in selected form labels. This is not full-family review. Continue full sequential KO then EN then ZH reading; verify remaining MTQ and B3 table issues against original annex XML before finalization. B3-zh-00034 has had the remaining visible Korean table labels translated; remaining MTQ fragments in A19766-zh-00021 and A19766-zh-00064 require exact XML/source-cell verification before any replacement. Full sequential source reading and complete 1,639-row review remain pending. Resolved three additional MTQ-corrupted cells by matching the immediately adjacent Korean table/process sequence: A19766-00021, A19766-00064, and A19767-00067. Continue whole-family sequential review; this checkpoint remains IN_PROGRESS."
 }
