@@ -1,0 +1,513 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-b5c27d20d49b721e47e6",
+  "worker": "C05",
+  "status": "IN_PROGRESS",
+  "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
+  "source_blobs": {
+    "ko": "24ddd78e32a748b7d1c1ce01fef19d036494b9e9",
+    "en": "3d130788df10274ded6103c1fa81654c977eec5c",
+    "zh": "66ea4d0981f8e1a76348309f8254051d4914f693"
+  },
+  "checked_rows": 56,
+  "checked_ids": [
+    "A5223-zh-00066",
+    "A5223-zh-00067",
+    "A5223-zh-00068",
+    "A5223-zh-00069",
+    "A5223-zh-00070",
+    "A5223-zh-00071",
+    "A5223-zh-00072",
+    "A5223-zh-00073",
+    "A5223-zh-00074",
+    "A5223-zh-00075",
+    "A5223-zh-00076",
+    "A5223-zh-00077",
+    "A5223-zh-00078",
+    "A5223-zh-00079",
+    "A5223-zh-00080",
+    "A5223-zh-00081",
+    "A5223-zh-00082",
+    "A5223-zh-00083",
+    "A5223-zh-00084",
+    "A5223-zh-00085",
+    "A5223-zh-00086",
+    "A5223-zh-00087",
+    "A5223-zh-00088",
+    "A5223-zh-00089",
+    "A5223-zh-00090",
+    "A5223-zh-00091",
+    "A5223-zh-00092",
+    "A5223-zh-00093",
+    "A5223-zh-00094",
+    "A5223-zh-00095",
+    "A5223-zh-00096",
+    "A5223-zh-00097",
+    "A5223-zh-00098",
+    "A5223-zh-00099",
+    "A5223-zh-00100",
+    "A5223-zh-00101",
+    "A5223-zh-00102",
+    "A5223-zh-00103",
+    "A5223-zh-00104",
+    "A5223-zh-00105",
+    "A5223-zh-00106",
+    "A5223-zh-00107",
+    "A5223-zh-00108",
+    "A5223-zh-00109",
+    "A5223-zh-00110",
+    "A5223-zh-00111",
+    "A5223-zh-00112",
+    "A5223-zh-00113",
+    "A5223-zh-00114",
+    "A5223-zh-00115",
+    "A5223-zh-00116",
+    "A5223-zh-00117",
+    "A5223-zh-00118",
+    "A5223-zh-00119",
+    "A5223-zh-00120",
+    "A5223-zh-00121"
+  ],
+  "decisions": [
+    {
+      "id": "A5223-zh-00066",
+      "source_hash": "c582dba0580dadd1277c12d90107283dc0867b002b40e65141a2740c1be3533f",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00067",
+      "source_hash": "70dddd7b1ca622a7cdbd6daf6e6d5e6a74fdc3acfe7ccf1f9ad60aed13fff9ff",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00068",
+      "source_hash": "c01571fb2542d16d1afc46f99b0e2257101ef57dbaf6bfc52d0b24a3c0283571",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00069",
+      "source_hash": "106e7415a0c27c091abb0f41698e5b670257ffa9de29c844d933cc27135fbf81",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00070",
+      "source_hash": "933e418050e59ad4eecbfe215557ae10d23110a485e3292eb3596cf33048e430",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00071",
+      "source_hash": "d55fc1f34d485fd8a1890f3a39817d01c31c88e44e7434b76d0ad4532ab0fd82",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00072",
+      "source_hash": "60e9a6b3ccb8662d75ebfaa6b6efa772dd68bac2db6d03b440e62a5022547668",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00073",
+      "source_hash": "e3cd3c89a1dcc12fec03642709059d595915343204223991420a01e76c383ca4",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00074",
+      "source_hash": "1dea9ff8341d2299337376bc76a12f8a4d026b6d915d39ad0417d3f6a3baab61",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00075",
+      "source_hash": "83eda1fd8e0347b5e4584cf2d37bbf76a81d78a3423e0d3da5235c5d543e5edf",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5223-zh-00076",
+      "source_hash": "4276ef96d593213bd9cf25654124475833f76ed164bf169e148600a4017b36f5",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00077",
+      "source_hash": "1b6674ecd813c5309d2addc9a11359850b6de137d70c7b6887849a47ceaaf4bd",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00078",
+      "source_hash": "89370de89f39984bec2df843e182c4c342de971795e7333e2d1b318db841bcdf",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5223-zh-00079",
+      "source_hash": "1f43150d7d991b5b1da97d467e0341fc40023cb4088e8e21ce3787aa9e9a1e30",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00080",
+      "source_hash": "0ff582c93ee0a5c8af4d5d6ba4108a7a6b522eeac3edac4de29c75d6f4d48aae",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00081",
+      "source_hash": "e63f85e2dd9c448553ac6979fb2f9294aeeab3aed11478594dd2f224c1074201",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00082",
+      "source_hash": "172ab52c9a04ba25158a319db987c20f7a4d8608a8ee98df12e2df76fddbddf1",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00083",
+      "source_hash": "8dcda76471cf7e9ae2c095eafa85b36bea7032b4ba622d3fa27c22f19c26f52e",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00084",
+      "source_hash": "f5d1bd8590ff5cebdaf3eb45763414942026f02788641dad598aaec58577bb41",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5223-zh-00085",
+      "source_hash": "e57d564da610373216e114183e8aeea04517f718167ee053348262e99d7831a0",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00086",
+      "source_hash": "3739b02869fcbd5534a3a1479d0288b0d12e6d4355e35f0acd2f16db7515459d",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00087",
+      "source_hash": "bf0cc7a67786430f4646abddbd7186487e25db74f73a5452032feb0241b5735e",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5223-zh-00088",
+      "source_hash": "37102b32afc412586da15b27e8b8c464f39fe14ab93e910296f68c9874e232f6",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5223-zh-00089",
+      "source_hash": "119821b72f0c4f19928cd9b2c29e030b6820584ddd72b7737e049141f39771be",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5223-zh-00090",
+      "source_hash": "8d3198e8a7ab7ac8d2e35f7c5a33dcacaf56ddf1d97423115371980677fe7c9a",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00091",
+      "source_hash": "921f4fa1019926c9096502fd9e9b7eccf887490f74cbde3b5c5e1e487ca6b185",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00092",
+      "source_hash": "cf5a3a379803905a992a983bc4f9ec50683db0c66b4a5406454f25930b70e89b",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00093",
+      "source_hash": "4a9005960ef8f54a226d9ac67eefb291288ae7f4e0f4430fa479dcf35d9b31b2",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00094",
+      "source_hash": "7633bb4d5dca45171b860b6c00545002bb9a5cb45522b69e0e0de9be018bb85e",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00095",
+      "source_hash": "b5627d3ba10ab5e0e8a3c4566a7842b2093fbe9a8266f034f93d78a3056db807",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5223-zh-00096",
+      "source_hash": "f295434656077aaec27f3d12418b81b5f1b9f2c8fdbba76f1446027e3f84d5e1",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5223-zh-00097",
+      "source_hash": "2f79d3d265c6d8ad62e3b5aa33682ecf4f568a7c14d882fc561b30296ffba7a3",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00098",
+      "source_hash": "e8018a3ad316138c75851919a6e478d5a9de94a93f24c40df974a93a75cd6d41",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00099",
+      "source_hash": "717a3cffb329d4aac132d45d934de88c449bd2da0aa099a1aa50157f6e5b4fd6",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00100",
+      "source_hash": "113035378a24e4c1cc1024b0277acb364ed70089c8978235cf00aa1737c3efc4",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00101",
+      "source_hash": "ba33c70f601f98b171de53c15f5ccd3f1890f1330c4141ebb1ab18834300782e",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00102",
+      "source_hash": "ea5642e9d55ebbcc840f8c489eea72af08cc6f4feb5919551d2d469ccb63696a",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00103",
+      "source_hash": "60b020ed487e159367db6453611e161485122e25f63b24d95e340a1f86e7b1fe",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00104",
+      "source_hash": "277c2b82aaa3edc76766736a93d9262137e64ec2e2fc137b4f55a70308e4a29b",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00105",
+      "source_hash": "5b4f47e9f9139b53286f21197e659bbcb468bd1fc0de4a483c899097da6b6529",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00106",
+      "source_hash": "adad68ea387238efd8558ecd76e309d3a394054bf0fafb4a767611a05826c6fb",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00107",
+      "source_hash": "77e4ec67043ba93607ca958ce81eaf9b13484383ba87112eeb9b8a0254a4da7b",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00108",
+      "source_hash": "fdadafa989248f87459e111ab1a4b404e0891216a76d9190c63c00adb4ce5cdd",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5223-zh-00109",
+      "source_hash": "e262100c647dbb2edbb708f00c33109734e07af7b32ec13e34a7e4b2c4b90214",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5223-zh-00110",
+      "source_hash": "645072817ec5bea9afc82b7ab36368462e695c254fd7751f889a47526ad3e5b3",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5223-zh-00111",
+      "source_hash": "00a23c026d9c835565a9528c9ee806bf22824bfef73939e5d1aaeea9d4475854",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5223-zh-00112",
+      "source_hash": "af14d1fe8ad029264e2d2d1214814c4065335b12f2718c2eaf36e47672e6a838",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5223-zh-00113",
+      "source_hash": "7533aa3fc7693d5e808f3e61c211549521f5d9094ab3e4589a10e301b84aa6f0",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5223-zh-00114",
+      "source_hash": "d37898234b1d8b96f5a6e9613552fc79bf4bb73ec57b2246068d13512601be4d",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00115",
+      "source_hash": "6782fe165453a794a7f9c9cd4baca39f7721c1a0946c35ebcc8f7912e08b1962",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00116",
+      "source_hash": "fa34a944573c3911265d55b73d9544555ebad2442e8d755e42ec95df089276d8",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00117",
+      "source_hash": "89d73f39ed0b33c0474009b75c0f62607f860ee39a65a334682ac974592ae98c",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5223-zh-00118",
+      "source_hash": "469b77eacf10a94fb684b42bc09ad3499ba405a838eee7e3a6eeda00a6d281a9",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5223-zh-00119",
+      "source_hash": "23533feddfcb647a08f96f32ea0ca3a182824d21655a34b65a8e94692a7530a6",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A5223-zh-00120",
+      "source_hash": "f2a4c72b4d53ea2ab56af026266c9d1f58e6683d21a4e7fbc693c0d29a195dda",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A5223-zh-00121",
+      "source_hash": "24855d75f3811331a4a1b762f1c0e7fd7c88aca854f82f084e59e90c650aa35f",
+      "decision": "CORRECT"
+    }
+  ],
+  "edits": [
+    {
+      "id": "A5223-zh-00066",
+      "text": "丙）分娩支援设施每间生活室的定员不超过6人，每间生活室的实际面积应按"
+    },
+    {
+      "id": "A5223-zh-00067",
+      "text": "该生活室定员每人不少于6.6平方米计算。"
+    },
+    {
+      "id": "A5223-zh-00068",
+      "text": "丁）养育支援设施的生活室应配备厨房，每户生活室的实际面积"
+    },
+    {
+      "id": "A5223-zh-00069",
+      "text": "不得少于13.21平方米。"
+    },
+    {
+      "id": "A5223-zh-00070",
+      "text": "戊）生活支援设施的生活室应配备厨房，生活室实际面积如下："
+    },
+    {
+      "id": "A5223-zh-00071",
+      "text": "（1）2007年3月29日以前设置的设施：每户不少于27.65平方米"
+    },
+    {
+      "id": "A5223-zh-00072",
+      "text": "（2）2007年3月29日以后设置的设施：每户不少于42.9平方米"
+    },
+    {
+      "id": "A5223-zh-00073",
+      "text": "己）临时支援设施每间生活室的定员不超过6人，每间生活室的实际面积应按"
+    },
+    {
+      "id": "A5223-zh-00074",
+      "text": "该生活室定员每人不少于6.6平方米计算。"
+    },
+    {
+      "id": "A5223-zh-00076",
+      "text": "应配备办公所需的适当设备，与咨询室兼用时，"
+    },
+    {
+      "id": "A5223-zh-00077",
+      "text": "应在办公室内确保独立的咨询空间。"
+    },
+    {
+      "id": "A5223-zh-00079",
+      "text": "应配备适当设施，以便在咨询内容不被公开的情况下，在舒适的环境中开展咨询。"
+    },
+    {
+      "id": "A5223-zh-00080",
+      "text": ""
+    },
+    {
+      "id": "A5223-zh-00081",
+      "text": "4）图书室"
+    },
+    {
+      "id": "A5223-zh-00082",
+      "text": "应配备图书室使用者所需的桌椅等适当设备，并为培养使用者的情操"
+    },
+    {
+      "id": "A5223-zh-00083",
+      "text": "备置报纸、杂志等读物。"
+    },
+    {
+      "id": "A5223-zh-00085",
+      "text": "应分别设置男女水冲式厕所。厕所与浴室兼用时，"
+    },
+    {
+      "id": "A5223-zh-00086",
+      "text": "应另设淋浴及洗漱设备。"
+    },
+    {
+      "id": "A5223-zh-00090",
+      "text": "甲）供水设施应使用自来水。但不能使用自来水时，应配备能够供应符合《饮用水管理法》第五条规定的饮用水水质标准的地下水等的设施。"
+    },
+    {
+      "id": "A5223-zh-00091",
+      "text": ""
+    },
+    {
+      "id": "A5223-zh-00092",
+      "text": "乙）使用地下水等时，取水水源应与厕所、废弃物处理设施、动物饲养场及"
+    },
+    {
+      "id": "A5223-zh-00093",
+      "text": "其他可能污染地下水等的场所保持20米以上的距离，"
+    },
+    {
+      "id": "A5223-zh-00094",
+      "text": "并设置于符合上述距离的位置。"
+    },
+    {
+      "id": "A5223-zh-00097",
+      "text": "甲）应配备灭火器材、设置紧急出口等紧急灾害应对设施。"
+    },
+    {
+      "id": "A5223-zh-00098",
+      "text": "紧急出口上方应安装出口引导灯，并在门的内侧设置锁定装置。"
+    },
+    {
+      "id": "A5223-zh-00099",
+      "text": ""
+    },
+    {
+      "id": "A5223-zh-00100",
+      "text": "乙）建筑物为两层以上时，应设置紧急楼梯，并配备其他应对安全事故及紧急"
+    },
+    {
+      "id": "A5223-zh-00101",
+      "text": "灾害的疏散设施与设备等。"
+    },
+    {
+      "id": "A5223-zh-00102",
+      "text": "丙）其他消防设施的设置依《消防设施设置及管理相关法律施行令》"
+    },
+    {
+      "id": "A5223-zh-00103",
+      "text": "附表1办理。"
+    },
+    {
+      "id": "A5223-zh-00104",
+      "text": "丁）使用燃气时，应依《城市燃气事业法》及《液化石油气安全管理"
+    },
+    {
+      "id": "A5223-zh-00105",
+      "text": "及事业法》设置并管理。"
+    },
+    {
+      "id": "A5223-zh-00106",
+      "text": "9）警卫室"
+    },
+    {
+      "id": "A5223-zh-00107",
+      "text": "应配备设施警卫工作所需的适当警卫室。"
+    },
+    {
+      "id": "A5223-zh-00114",
+      "text": "12）活动室"
+    },
+    {
+      "id": "A5223-zh-00115",
+      "text": "应配备入住者文化教育所需的设施，并设置计算机等必要设备。"
+    },
+    {
+      "id": "A5223-zh-00116",
+      "text": ""
+    },
+    {
+      "id": "A5223-zh-00120",
+      "text": "面积应足以使产妇在分娩后恢复并采取所需的产后护理措施，"
+    },
+    {
+      "id": "A5223-zh-00121",
+      "text": "并应配备相应设施。"
+    }
+  ],
+  "next_id": "A5224-zh-00001",
+  "note": "Completed A5223 annex 66-121 Korean source comparison; corrected safety, water law, 20m setback, area-per-person, facility specification and OCR gibberish. All previous checkpoints preserved."
+}
