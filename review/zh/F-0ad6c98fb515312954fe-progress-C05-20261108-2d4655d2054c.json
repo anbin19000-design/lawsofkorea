@@ -5,7 +5,7 @@
   "worker": "C05",
   "panel": "panel-05",
   "branch": "main",
-  "status": "IN_PROGRESS",
+  "status": "COMPLETE",
   "source_blobs": {
     "ko": "d97cefcf6e981738dad64a8806cca670f25a0a8d",
     "en": "f53a898a2de4ee06334a8d26e24b3eb5dd4c4c15",
@@ -2989,9 +2989,10 @@
     "已按顺序完成19份韩文原文的全文阅读；随后完整阅读1份精确版本官方英文法律全文及2份施行令历史/系列回退英文全文。英语施行令均非现行精确版本，且没有对应附件表格正文，故仅作术语与结构参考。先完成B1全部41行及B2全部97行的中文审查。B2-zh-00097源范围超出当前B2 source_ko长度，文本包含附表1片段，已保留并标记审查，稍后与A28544逐项核对，避免擅自删除。",
     "完成附表1至附表6（A28544-A28549）全部行的中文核对。修正国际货币基金组织附表中的捐助类型/账户词、韩元币种遗漏；国际复兴开发银行附表中的技术援助基金、JPO计划、全球教育伙伴关系、阿富汗重建信托基金、脆弱国家经济和平建设基金、可持续城市及区域发展基金等误译，及若干币种/数字；国际开发协会表的韩元误译及一处数字错位；国际金融公司150万美元误译为1.50万美元；亚洲开发银行表两处金额数字顺序错误及业务基金名称/币种；非洲开发基金表的“赢”币种误译。",
     "完成附表7至附表17（A28550-A28560）全部行的中文核对。修正非洲开发银行表的缴款对象、计算单位数量级和美元数额；商品共同基金/国际投资担保机构等机构名称与缴款术语；欧洲复兴开发银行表的金额、初级专业人员/实习生派遣计划及“出资”误译；美洲开发银行表的金额和币种；美洲投资公司名称；亚洲基础设施投资银行表的实缴/催缴资本比例；东盟与中日韩宏观经济研究办公室名称；中美洲经济一体化银行表的实缴资本数额和合作基金捐助用语。A28559末尾的拆分句合并为完整、可读的备注译文。",
-    "最终编辑映射复核：恢复附表2第91项金额行A28545-zh-00328为100万美元；恢复附表5序号22行A28548-zh-00079，并将对应业务基金捐助说明放回A28548-zh-00082。"
+    "最终编辑映射复核：恢复附表2第91项金额行A28545-zh-00328为100万美元；恢复附表5序号22行A28548-zh-00079，并将对应业务基金捐助说明放回A28548-zh-00082。",
+    "正式检收完成：review/zh/F-0ad6c98fb515312954fe.json 已保存并重新读取，status COMPLETE；receipts/F-0ad6c98fb515312954fe.json 已保存并重新读取，status COMPLETE。"
   ],
-  "next": "Read all Korean documents in source order, then all linked English documents (exact/fallback provenance recorded), then review all Chinese rows in order.",
+  "next": "Family completed. Canonical review and completion receipt saved and re-queried. Await the next official C05 supplier assignment; do not select another law family manually.",
   "reading_evidence": {
     "order": "KO_FULL_EN_FULL_ZH_FULL",
     "ko": {
