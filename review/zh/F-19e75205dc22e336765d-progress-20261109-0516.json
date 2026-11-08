@@ -1,0 +1,93 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-19e75205dc22e336765d",
+  "worker": "C06",
+  "panel_id": "panel-06",
+  "pc": "WORK-C",
+  "status": "IN_PROGRESS",
+  "checkpoint": "2026-11-09T05:16:00+09:00",
+  "active_assignment": {
+    "assignment_id": "UW-e7b1c2fbea7713747efc0430f7209c01",
+    "status": "ACTIVE",
+    "conversation_url": "https://chatgpt.com/c/6af0d459-1248-83e8-8b0a-0cdd2d4330be",
+    "source_commit": "cfb1d2139b0964af5165eecacfab57c57c1fe432"
+  },
+  "worker_binding": {
+    "assistant_count": 2,
+    "bootstrap_marker": "[KIIP-GITHUB-WORKER-BOOTSTRAP:C06:20261107]",
+    "conversation_id": "6af0d459-1248-83e8-8b0a-0cdd2d4330be",
+    "handoff_assignment_id": "S2-30caa1192ecd4c75a8ea030b41cf3e77",
+    "panel_id": "panel-06",
+    "pc": "WORK-C",
+    "ready_text": "C06 READY",
+    "replaced_url": "https://chatgpt.com/c/6af0cc75-699c-83ec-bf5d-6600e8a49506",
+    "status": "WORKING",
+    "title": "중국어 법령 검수",
+    "url": "https://chatgpt.com/c/6af0d459-1248-83e8-8b0a-0cdd2d4330be",
+    "verified": true,
+    "verified_at": "2026-11-08T20:00:39.144119+00:00",
+    "worker": "C06"
+  },
+  "source_blobs": {
+    "ko": "f3c381ac40a93d2dd0c81eeeec800d0484334dce",
+    "en": "9ccc8a185bc0a2975d2e349d3fc3690f6e4b439b",
+    "zh": "42d5c0c29e2439f506c7209aebee695f5a1a631b"
+  },
+  "reading": {
+    "ko": {
+      "status": "FULL_READ",
+      "documents": 30,
+      "characters": 238917
+    },
+    "en": {
+      "status": "FULL_READ",
+      "index_documents": 30,
+      "source_documents": 2,
+      "exact_documents": 1,
+      "fallback_documents": 29,
+      "rows_with_english": 1558,
+      "rows_without_english": 772
+    },
+    "zh": {
+      "status": "PARTIAL_REVIEW",
+      "documents": 30,
+      "rows": 2330,
+      "checked_rows": 1250
+    }
+  },
+  "review_path": "review/zh/F-19e75205dc22e336765d.json",
+  "review_sha": "de35ddc9c598032e5a520fb8df08f0bca370aa4f",
+  "edits_saved": 1190,
+  "targeted_review": [
+    "A29848",
+    "A29849",
+    "A29850",
+    "A29854",
+    "A29855",
+    "A29857",
+    "A29858",
+    "A29861"
+  ],
+  "recent_changes": {
+    "new_edits": 33,
+    "latest_commit": "e45465c675d6f084a7d2c200bbdce78bb96a9a65",
+    "latest_verified_review_sha": "de35ddc9c598032e5a520fb8df08f0bca370aa4f",
+    "description": "A29854 발급대장 필드, A29855 통지서비스 신청서, A29858 보호신청 통보, A29861 열람확인서의 명백한 용어·서식 오류 교정. 앞선 교정 1,157건 보존."
+  },
+  "holds": [
+    {
+      "document": "A29851",
+      "source_hash": "1131eebc012f57cbcf1e90743a58d595b346bedd4405cdd37fefa08b632ba896",
+      "affected_rows": 85,
+      "reason": "한국어 source_ko 자체에 다수의 물음표·손상문자가 있어 내용을 신뢰성 있게 복원할 수 없음. 정확한 영문 대응 원문도 확인되지 않으므로 추측 교정 금지."
+    }
+  ],
+  "pending": [
+    "B2 및 서식 잔여 중국어 행을 원문 순서대로 대조하고 checked_rows를 실제 독해량에 따라 누적",
+    "A29851의 신뢰 가능한 공식 원본 확보 가능성 확인",
+    "영문 미대응 772행은 한국어 원문 대조 후 영어 자료 부재를 명시",
+    "전체 미번역·MTQ·숫자·인용·조문번호·표/서식 연속성 QA",
+    "최종 검수본과 receipt를 각각 저장 및 재조회; 그 전까지 COMPLETE 금지"
+  ],
+  "protection": "No source SHA changed; no laws/* or operational database writes; C06 assignment and binding verified."
+}
