@@ -3698,7 +3698,7 @@
   "ordered_reading_certification": {
     "korean": "READ_COMPLETE_ALL_65_DOCUMENTS",
     "english": "READ_COMPLETE_AVAILABLE_SOURCES_B1_AND_B2_FALLBACK",
-    "chinese": "IN_PROGRESS; B1 complete; B2 through row 105; A30229 1-212; A30230 1-29; A30231 1-136; A30232 1-18; A30233 1-142; B3 rows 1-123 complete; A11335 rows 1-115 reviewed; remaining A11335 rows 116-593 and A11336-A11391 pending"
+    "chinese": "IN_PROGRESS; B1 complete; B2 through row 105; A30229 1-212; A30230 1-29; A30231 1-136; A30232 1-18; A30233 1-142; B3 rows 1-123 complete; A11335 rows 1-300 reviewed; A11335 rows 301-593 and A11336-A11391 pending"
   },
   "checked_unique_ids": [
     "B1-zh-00001",
@@ -5010,5 +5010,8 @@
     "C02 continued the no-English-source A11335 training-course schedule, checking rows 181-220 against the Korean table. Corrected the clear mixed-language fragment in the mental-health administration/policy cell, policy terminology, institution-centered case-management wording, the developmental-stage mental-nursing fragment, and the home-centered suffix. Numeric hours and accurate table labels were retained. Resume at A11335 row 221; family remains IN_PROGRESS.",
     "C02 continued A11335 rows 221-260 against the Korean nursing-specialist training table. Corrected the two subtotal fragments translated as 子, two practical-training labels rendered as generic practice, the mistranslated treatment label, the institution-centered case-management phrase, and three split suffix fragments for 중심 rendered as 居中. Numeric hour cells and accurate subject labels were retained. No English source exists for this ministry-rule annex. Resume at row 261; family remains IN_PROGRESS.",
     "C02 reviewed A11335 rows 261-300 against the Korean training schedule. Corrected the class-II qualification marker rendered as a school year, two treatment cells mistranslated as 处理, two practical-training labels rendered as generic practice, and the paired nursing-intervention conjunction in two parallel table cells. All hour values and other course labels were checked and retained. Resume at row 301; family remains IN_PROGRESS."
-  ]
+  ],
+  "checkpoint_id": "C02-20261109-A11335-116-300",
+  "checkpoint_status": "IN_PROGRESS",
+  "checkpoint_note": "A11335 rows 116-300 reviewed; cumulative 1,240 unique rows; 524 edits; resume at row 301."
 }
