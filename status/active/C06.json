@@ -6,6 +6,8 @@
   "delivery_status": "SENT_VERIFIED",
   "documents": 30,
   "family_id": "F-19e75205dc22e336765d",
+  "held_at": "2026-11-08T20:30:15.699899+00:00",
+  "hold_reason": "SOURCE_HOLD: A29851 서식의 한국어 원문 및 연결 영어 자료 손상. 손상 문장 복원 근거 필요. 기존 검수 및 행 증거 보존.",
   "job_id": "F-19e75205dc22e336765d",
   "marker": "[WORK-TASK:C06:F-19e75205dc22e336765d:a784deb027bd]",
   "panel_id": "panel-06",
@@ -19,7 +21,7 @@
     "zh": "42d5c0c29e2439f506c7209aebee695f5a1a631b"
   },
   "source_commit": "cfb1d2139b0964af5165eecacfab57c57c1fe432",
-  "status": "ACTIVE",
+  "status": "HELD",
   "title": "인감증명법",
   "verified_at": "2026-11-08T19:24:06.036461+00:00",
   "worker": "C06"

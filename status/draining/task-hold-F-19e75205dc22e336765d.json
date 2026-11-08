@@ -1,0 +1,28 @@
+{
+  "assignment_id": "UW-e7b1c2fbea7713747efc0430f7209c01",
+  "evidence": {
+    "assistant": "2a950f19d7d3fc6355860383e216bd29c78fb4460617d5d97806ee6e5645d75b",
+    "checkpoint": "review/zh/F-19e75205dc22e336765d-progress-C06-20261109T1812.json",
+    "checkpoint_blob": "f352efd95cf7c87e9fa58bb2bff56b4a1af3d0aa",
+    "head": "74f92f998779d46da979e99db40b103c448686b2",
+    "review_blob": "379a3e6ca3489bc0aa5849409a0bf2afdc876e30",
+    "source_blobs": {
+      "en": "9ccc8a185bc0a2975d2e349d3fc3690f6e4b439b",
+      "ko": "f3c381ac40a93d2dd0c81eeeec800d0484334dce",
+      "zh": "42d5c0c29e2439f506c7209aebee695f5a1a631b"
+    },
+    "url": "https://chatgpt.com/c/6af0d958-0680-83ee-bcd5-436475e482dc",
+    "user": "1790b25c5d9e93eb4e051fb292b5f88ee499cd3d799743c2ba12fc0e3455403b"
+  },
+  "held_at": "2026-11-08T20:30:15.699880+00:00",
+  "job_id": "F-19e75205dc22e336765d",
+  "reason": "SOURCE_HOLD: A29851 서식의 한국어 원문 및 연결 영어 자료 손상. 손상 문장 복원 근거 필요. 기존 검수 및 행 증거 보존.",
+  "schema": "WORKER_TASK_HOLD_V1",
+  "source_blobs": {
+    "en": "9ccc8a185bc0a2975d2e349d3fc3690f6e4b439b",
+    "ko": "f3c381ac40a93d2dd0c81eeeec800d0484334dce",
+    "zh": "42d5c0c29e2439f506c7209aebee695f5a1a631b"
+  },
+  "status": "HELD",
+  "worker": "C06"
+}
