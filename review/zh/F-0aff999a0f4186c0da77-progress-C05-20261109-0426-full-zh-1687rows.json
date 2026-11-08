@@ -1,0 +1,43 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_blob_observed": "758c9673f84022cf5caab6bd5c44aff5e545d36c",
+  "cumulative_corrections": 1042,
+  "inspected_span": "All 18 Chinese documents and all 1,687 unique Chinese rows have now been read sequentially against the complete Korean source set. A34909 328 rows, A34910 50, A34911 4, A34912 147, A34913 12, A34914 26, A34915 54, A34916 212 and all eight forms A34917/A34918/A34920–A34925 were examined. B1 and B2 full sequential review evidence was already preserved in prior checkpoints. Added 175 corrections across A34909–A34915 and refined 105+ existing corrections for Korean clause-marker residue and annex item citations. Final QC remains open.",
+  "counts": {
+    "total_chinese_rows": 1687,
+    "unique_rows": 1687,
+    "official_corrections": 1042,
+    "documents": 18
+  },
+  "remaining_qc": [
+    "A34909 candidate rows 114–115 and 122–123 etc saved; unresolved segmentation candidates 116, 125, 138, 151, 160 etc require final review.",
+    "A34909 rows 81–110 corrections saved; rows 111–235 and 266–295 reviewed and selected corrections saved; remaining non-selected proposals need adjudication.",
+    "A34910 row-level table/annex cross-reference labels and dates reviewed; residual candidate rows require final cross-check.",
+    "A34911 formula rows 1–4 previously visually verified against official Korean schedule PDF; confirm formulas remain intact in final review.",
+    "A34912 rows 1–147 reviewed; selected substantive corrections saved; several uncertain segmentation fragments intentionally remain unaltered pending final XML-context review.",
+    "A34914 education qualification criteria refined; check the disjunctive thresholds and schedule references once more.",
+    "A34915 fine calculation percentages and thresholds checked; selected legal-meaning corrections saved.",
+    "A34916 all 212 rows and numeric table values checked; confirm all numerical table rows against original source.",
+    "A34917–A34925 forms reviewed; MTQ and administrative-information consent translations were corrected, but final form/table continuity pass remains.",
+    "Full final QC: no residual MTQ/START tokens in corrected text; one intentionally retained Korean example label 페어트레이드 in A34917 row 79."
+  ],
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "chinese_total_rows": 1687,
+  "checked_rows": 1687,
+  "corrected_rows": 1042,
+  "note": "All 1,687 Chinese rows have been sequentially reviewed; status remains IN_PROGRESS pending final QC, review metadata reconciliation, receipt generation and independent re-read. Source SHA values unchanged; no completion receipt."
+}
