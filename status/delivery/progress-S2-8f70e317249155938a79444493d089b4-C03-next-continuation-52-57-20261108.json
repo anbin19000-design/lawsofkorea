@@ -1,0 +1,78 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26703",
+  "range": {
+    "first": "A26703-zh-00052",
+    "last": "A26703-zh-00057"
+  },
+  "quality_checked_rows": 6,
+  "quality_passed_rows": 6,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "A26703-zh-00052",
+    "A26703-zh-00053",
+    "A26703-zh-00054",
+    "A26703-zh-00055",
+    "A26703-zh-00056",
+    "A26703-zh-00057"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_correction_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26703-00001-00083.json",
+  "previous_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-next-c01d377902a960c0bb-02.json",
+  "results": [
+    {
+      "id": "A26703-zh-00052",
+      "source_hash": "635d1cb764ae8b19acf10b69ed7a6c868a244876cbb226c6d29d8eb9edf00849",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "adopted_text": "所在地变更时适用）",
+      "reason": "한국어 3호 평면도 제출 조건 중 소재지 변경 시에만 해당한다는 후속 셀을 기존 51행과 연결하여 확인",
+      "source_hash_matches_original_row": true
+    },
+    {
+      "id": "A26703-zh-00053",
+      "source_hash": "e3154138963e306b144b4ed58c04173309c9aa0d9fd6638357c4548386958d73",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "adopted_text": "4. 证明支援设施负责人资格的文件（仅在负责人",
+      "reason": "한국어 4호 시설장 자격 증명서와 시설장 변경 조건의 앞부분 확인",
+      "source_hash_matches_original_row": true
+    },
+    {
+      "id": "A26703-zh-00054",
+      "source_hash": "f378bb6c7bbf071164aa1358c090433f60d5162dfb823be65e5da52a87cf44b9",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "adopted_text": "变更时适用）",
+      "reason": "한국어 4호 시설장 변경 시에만 해당한다는 후속 셀 확인",
+      "source_hash_matches_original_row": true
+    },
+    {
+      "id": "A26703-zh-00055",
+      "source_hash": "ee9bf14d09be7ad21eb1ad1921ed2756aea57cf7fd3c63be5d84688b8e8556a3",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "adopted_text": "5. 设施及财产使用、处分计划书（仅在设施所在地变更时",
+      "reason": "한국어 5호 시설·재산 사용 처분계획서와 소재지 변경 조건 확인",
+      "source_hash_matches_original_row": true
+    },
+    {
+      "id": "A26703-zh-00056",
+      "source_hash": "81a6c1a9071a799978b9b558555ae70a40fccbe5f0c730d34bf2b4fbf69f9c58",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "adopted_text": "适用）",
+      "reason": "한국어 5호 변경 시에만 해당한다는 후속 셀 확인",
+      "source_hash_matches_original_row": true
+    },
+    {
+      "id": "A26703-zh-00057",
+      "source_hash": "82c796e213293b7f12aa9afda2e9e47efd3cee40bc6812813dae484e13946787",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "adopted_text": "6. 入住者安置措施计划书（仅在设施所在地及入住定员发生变更时适用）",
+      "reason": "한국어 6호 입소자 조치계획서, 소재지 및 입소 정원 변경 시 적용 조건 확인",
+      "source_hash_matches_original_row": true
+    }
+  ],
+  "edits": [],
+  "note": "Follow-on quality verification of 52-57 only; prior corrections reused, no duplicate edits or family COMPLETE claim. Row 50 remains NEEDS_RECONCILIATION."
+}
