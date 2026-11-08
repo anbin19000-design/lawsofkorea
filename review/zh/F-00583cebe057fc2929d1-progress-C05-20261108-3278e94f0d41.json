@@ -1,0 +1,41 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "family": "실용신안법",
+  "worker": "C05",
+  "assignment_marker": "[WORK-TASK:C05:F-00583cebe057fc2929d1:3278e94f0d41]",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "e90d98a0d7690ef0946029f65ecf6b57c680d01b",
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "prior_corrections": 245,
+  "new_corrections": [
+    {
+      "id": "B2-zh-00055",
+      "source_hash": "53ee82d17cde6fc408774eb6e455706ce555be75120b0b7b0648094bb0d5e8f5",
+      "decision": "CORRECT",
+      "reason": "시행령 부칙 제2조 '우선심사'는 우선권(priority claim) 심사가 아닌 우선/신속심사(expedited examination)이므로 '优先权审查' 명백 오역을 교정."
+    },
+    {
+      "id": "B2-zh-00045",
+      "source_hash": "050b08422c4602c37e4b8c8d23df089087f0e1b78bd2b81f2943687a2771b0f6",
+      "decision": "CORRECT",
+      "reason": "시행령 부칙 제2조의 변경출원은 명세서 보정(修正申请)이 아닌 특허·실용신안 간 변경/전환출원이며 정당한 권리자 출원 요건을 보존."
+    }
+  ],
+  "total_corrections": 247,
+  "pending_rows_preserved": 89,
+  "english_note": "Official exact-version English indexed for B1/B2; B3 and forms only historic fallback; no invented EN where not available.",
+  "reading_status": "FULL_KO_EN_ZH_SEQUENTIAL_READING_NOT_VERIFIED",
+  "completion_receipt": null,
+  "notes": "기저장 교정 245건·원문 SHA 보존. 이번 시행령 2행 우선심사/변경출원/정당한 권리자 오역 최소교정. 전체 24개 문서 순차 독해, 연결 별표·서식 89행 보류 미해결. COMPLETE 미발행."
+}
