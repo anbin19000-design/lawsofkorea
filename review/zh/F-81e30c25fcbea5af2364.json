@@ -2908,9 +2908,36 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-253f69ad016f-zh.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
       "reason": "Correct 고도화 to 技术升级 / 服务升级 rather than 推进 or 推广 in article 19-3(1)-(2)."
+    },
+    {
+      "id": "B1-zh-00034",
+      "source_hash": "1a672ee6bc914da7b130ce98047e986d67df9c743011c2c50354e56f081b5992",
+      "target_id": "eec6da1c36cf51b6990a4619770ea8dfec7506dda847b52c13cc09414f464bcc",
+      "text": "第23-2条（国家试点城市支援小组）\n① 在国土交通部下设国家先导城市支援小组（以下简称“支援小组”），支援下列各款所述事项，包括国家先导城市的指定和运营，以及国家先导城市的高效发展和支援。\n1. 国家试点城市的指定、运营和发展\n2. 建立国家试点城市创建合作体系\n3. 总统令规定的其他事项\n② 支持小组的组成和运作所需事项由总统令规定。\n\n",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-253f69ad016f-zh.json",
+      "reason": "Correct Ministry 国土交通部, not Japanese-style 省."
+    },
+    {
+      "id": "B1-zh-00051",
+      "source_hash": "41bf70eb752660d91354f5a4483dd65542b34a55cab873f1c3e620d8a01d11a0",
+      "target_id": "07af9d4a2778e4f54ec6d2d197bfe6ef22b78831db2bcfc6d0a0da79538a0715",
+      "text": "第35-3条（绩效评估和评估结果披露）\n① 指定国家示范城市时，国土交通大臣应当为国家示范城市建设项目制定目标和绩效指标（指能够客观衡量目标实现程度的指标；下文同上）。\n② 国土交通大臣应当按照第1款规定的目标和绩效指标，对国家试点城市建设项目进行绩效评估，并公布评估结果。\n③ 根据第2款规定，有关绩效评估方法、结果公布方法和时间等事项，由国土交通部令规定。\n\n",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-253f69ad016f-zh.json",
+      "reason": "Translate 국토교통부령 as Ministerial Decree, not provincial ordinance."
+    },
+    {
+      "id": "B1-zh-00053",
+      "source_hash": "32f48ba2bf31329b35601087d40289e2ddcbd25700b1280fdcd135af4e510d50",
+      "target_id": "429dbb30972369faaf740b00ea643e0401e844d2f751fdb09e36900e53591a52",
+      "text": "第三十六条之二（合资公司等的特别规定）\n① 为顺利实施国家示范城市建设项目，地方政府可以与民营企业共同投资，设立实施国家示范城市建设项目的法人（以下简称“法人”），但须符合第十二条第一款第六项的规定。在此情况下，地方政府出资或出资机构的运作法不适用于该法人。\n② 公司运营事项应当按照公司章程规定，公司章程应当包括下列事项：\n1. 目的\n2. 名称\n3. 主要办公地点\n4. 资本或出资\n5. 关于股份发行的事项\n6. 关于股东大会的事项\n7. 关于官员和雇员的事项\n8. 关于董事会运作的事项\n9. 与业务范围、内容和执行有关的事项\n10. 预算与会计\n11. 关于公司章程修订的事项\n12. 关于解散的事项\n13. 国土交通部令规定的其他事项\n\n",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-253f69ad016f-zh.json",
+      "reason": "Translate 국토교통부령 accurately as ministerial decree."
     }
   ],
-  "adjudicated_edit_count": 301,
+  "adjudicated_edit_count": 304,
   "pending_single_candidate_count": 343,
   "pending_conflict_count": 0,
   "pending_single_candidates": [
@@ -8122,12 +8149,13 @@
     "2026-11-08 C02 continuation 6330608994de: verified Korean-source B2 rows 00114-00116, 00118; corrected three supplement headings/effective-date terms; retained 00116. No COMPLETE certification.",
     "2026-11-08 C02 2dec0ecc0be6: retained original source blobs; corrected B2 00122/00126/00133/00140 after Korean source comparison; retained previously checked accurate rows; whole-family status IN_PROGRESS.",
     "C02 2dec0ecc0be6 additional pass: five corrections to B2 historical decree supplementary provisions through 2019; still IN_PROGRESS, ordered reading not certified.",
-    "C02 253f69ad016f: B1-zh-00027 minimal correction of 고도화; keep 17-document status IN_PROGRESS."
+    "C02 253f69ad016f: B1-zh-00027 minimal correction of 고도화; keep 17-document status IN_PROGRESS.",
+    "C02 253f69ad016f: B1 00034, 00051, 00053 repaired incorrect ministry or ministerial-decree translations; B1 00027 previously corrected."
   ],
   "integration_progress": {
-    "stage": "CHINESE_B1_ORDERED_INITIAL_REVIEW",
+    "stage": "CHINESE_B1_ORDERED_INITIAL_REVIEW_TO_00054",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:253f69ad016f",
-    "note": "Korean family and available English sources read; B1 Chinese rows 00001-00035 compared, one minimal semantic correction in B1-zh-00027. Entire 1133-row family NOT yet verified."
+    "note": "Chinese B1 rows 00001-00054 read against Korean; 4 new minimal corrections in this task so far, preserving all prior edits. Whole family in progress."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
