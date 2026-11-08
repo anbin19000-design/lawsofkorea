@@ -5174,9 +5174,54 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3aa49a4f01f1.json",
       "verification": "C02_SOURCE_VERIFIED_HISTORICAL_CANDIDATE",
       "reason": "Correct a clear mistranslated field, legal reference, penalty column or source-defined body name, without unnecessary stylistic rewrite."
+    },
+    {
+      "id": "B1-zh-00106",
+      "source_hash": "67cdfb906056aac1a7d107e56088a3e20b33493ee27621da0ee9a926b678ae46",
+      "target_id": "75369ebbfbf654c35213880610be994875d2eeaa18d27533a26dc29a4007baa8",
+      "text": "附则（《山地管理法》）<第10331号法律，2010年5月31日>",
+      "reason": "Correct 산지관리법 (mountainous districts, not just mountains), statute designation and 부칙.",
+      "verification": "C02_DIRECT_KOREAN_STATUTE_TERM_CHECK",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3aa49a4f01f1.json"
+    },
+    {
+      "id": "B1-zh-00139",
+      "source_hash": "da6e288bfe716413f6a54e87fa0f0885db2236f9b043e6d9f028b265d1087b66",
+      "target_id": "6533059622b91aac421cebfe481c7d2c089b2add1e5cad244d858c69dc6b8aa3",
+      "text": "附则（《水环境保全法》）<第14532号法律，2017年1月17日>",
+      "reason": "Correct 물환경보전법 title and 부칙.",
+      "verification": "C02_DIRECT_KOREAN_STATUTE_TERM_CHECK",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3aa49a4f01f1.json"
+    },
+    {
+      "id": "B1-zh-00166",
+      "source_hash": "e275dc526a0bf21b17a126aa62158bbeeb22f58cd4a63870d9589cb34eedc664",
+      "target_id": "ae5c5496bc9c3bb06d784e4933e6359bbc63a1814a460d83d58daf11c3d99f77",
+      "text": "附则（《智能信息化基本法》）<第17344号法律，2020年6月9日>",
+      "reason": "Correct 지능정보화 기본법, not intelligent information society framework.",
+      "verification": "C02_DIRECT_KOREAN_STATUTE_TERM_CHECK",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3aa49a4f01f1.json"
+    },
+    {
+      "id": "B1-zh-00187",
+      "source_hash": "3d13a393b1729ca5c86c27fc18a3fec39180f9fbffd7ec360303a2bfddf8fa26",
+      "target_id": "e61f65fc02508cc49fc6364ce7b2916414cb58acc01b7e775a58bd1635a9d995",
+      "text": "附则（《关于国土规划及利用的法律》）<第20234号法律，2024年2月6日>",
+      "reason": "Correct 国土 planning source Act and supplementary provision.",
+      "verification": "C02_DIRECT_KOREAN_STATUTE_TERM_CHECK",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3aa49a4f01f1.json"
+    },
+    {
+      "id": "B2-zh-00007",
+      "source_hash": "9479a879a7ce7fbab49534fede1a46e399bd4e7d59d91cf4a725b34d95af0ae2",
+      "target_id": "aef5976c105b97800c5592b025646d97658b5ff269fda1488969767de1ab37ef",
+      "text": "第四条之二（应用建设技术或信息通信技术的装置）法第二条第三号丁目所称“闭路电视等总统令规定的设施”，是指下列设施。\n1. 闭路电视、传感器、影像信息处理设备等生成、收集智慧城市信息的设施\n2. 存储装置、软件等为将收集的智慧城市信息用于服务目的而设置的设施\n\n",
+      "reason": "Correct 건설기술 as construction technology; clarify original facilities and exact clause reference.",
+      "verification": "C02_DIRECT_KOREAN_STATUTE_TERM_CHECK",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3aa49a4f01f1.json"
     }
   ],
-  "adjudicated_edit_count": 547,
+  "adjudicated_edit_count": 552,
   "pending_single_candidate_count": 343,
   "pending_conflict_count": 0,
   "pending_single_candidates": [
@@ -10402,12 +10447,13 @@
     "C02 3aa49a4f01f1: preserved previous edited wording for B2-zh-00117 and corrected statutory numbering and ministry names.",
     "C02 3aa49a4f01f1: corrected 17 additional source-backed enforcement-decree annex 2/4 penalty cell errors.",
     "C02 3aa49a4f01f1: restored 65 explicit form and appendix legal-term candidate corrections after comparing Korean source; unchanged historical edits preserved.",
-    "C02 3aa49a4f01f1: reviewed and accepted 60 further source-backed legal fields and appendix column corrections, preserving previous edits."
+    "C02 3aa49a4f01f1: reviewed and accepted 60 further source-backed legal fields and appendix column corrections, preserving previous edits.",
+    "C02 3aa49a4f01f1: repaired Korean statute names B1 00106/00139/00166/00187 and B2 00007 construction term."
   ],
   "integration_progress": {
-    "stage": "SOURCE_BACKED_FORM_AND_ANNEX_CORRECTIONS",
+    "stage": "FINAL_SOURCE_BACKED_TERMS_REVIEW_PARTIAL",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:3aa49a4f01f1",
-    "note": "Additional historical candidates adopted after verifying IDs/source hashes against original 17 documents; complex legal clauses kept under review, not complete."
+    "note": "Five additional unambiguous wrong statute names and construction technology translations fixed. Unresolved historical candidates and full row-by-row certifications remain."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
