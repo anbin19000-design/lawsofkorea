@@ -1,0 +1,79 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:73645d4f3db3",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "checked_rows": 5,
+  "checked_ids": [
+    "A36424-zh-00026",
+    "A36424-zh-00027",
+    "A36425-zh-00004",
+    "A36425-zh-00005",
+    "A36425-zh-00006"
+  ],
+  "edits": [
+    {
+      "id": "A36424-zh-00026",
+      "text": "1.“智慧城市专业”是指与本施行令第二条所述智慧城市服务相关，依据《高等教育法》第二条",
+      "source_hash": "68d3a1e49e41cb0de7e0aa9921166928105130242141b87887d78f726f6ebdb7",
+      "target_id": "XML:2657250"
+    },
+    {
+      "id": "A36424-zh-00027",
+      "text": "在学校开设的学科或课程。",
+      "source_hash": "a53d3cedc3769a2b8844b74fd6861020a0c58e10936646acfd777391f2e14ee1",
+      "target_id": "XML:2657251"
+    },
+    {
+      "id": "A36425-zh-00004",
+      "text": "甲. 按违反次数适用的行政处分标准，仅适用于最近一年内",
+      "source_hash": "71076a96e8afd568f939cb5acf208b53900f68b1aea3ea66bdd1fd24f9335711",
+      "target_id": "XML:2657259"
+    },
+    {
+      "id": "A36425-zh-00005",
+      "text": "因相同违反行为已受行政处分的情况。此时，适用行政处分标准时，",
+      "source_hash": "4a666ff11ea3789d36f0778888a6fe13ba372e6f80046fcf5a278205311e6622",
+      "target_id": "XML:2657260"
+    },
+    {
+      "id": "A36425-zh-00006",
+      "text": "以首次就相同违反行为作出行政处分之日为准。",
+      "source_hash": "6119f822635396eb13bd9859eb034b29aa2851acdd01ef7972e0fdb4988590d8",
+      "target_id": "XML:2657261"
+    }
+  ],
+  "checked_details": [
+    {
+      "ids": [
+        "A36424-zh-00026",
+        "A36424-zh-00027"
+      ],
+      "verdict": "CORRECT_SPLIT_DEFINITION",
+      "reason": "Annex 1 note 1 defines '스마트도시 전공' by relation to decree Article 2 smart-city service and departments/courses at Higher Education Act Article 2 schools. Old translation omitted essential service relationship and corrupted split cells."
+    },
+    {
+      "ids": [
+        "A36425-zh-00004",
+        "A36425-zh-00005",
+        "A36425-zh-00006"
+      ],
+      "verdict": "CORRECT_SANCTION_LOOKBACK_CRITERIA",
+      "reason": "Annex 2 general criterion applies repeat-offense administrative dispositions during the last year and counts from the date of first disposition for same violation; old Chinese was repetitive and materially lost the condition."
+    }
+  ],
+  "english_status": "No separate annex English; Korean controls.",
+  "prior_progress": [
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-73645d4f3db3-annex.json"
+  ],
+  "note": "Only a five-cell continuation of the same whole-family job. Exact source SHA and IDs unchanged; not COMPLETE.",
+  "next_review": "Continue remaining annex, rule, forms and cumulative index reconciliation; publish final only with complete 17-document verification."
+}
