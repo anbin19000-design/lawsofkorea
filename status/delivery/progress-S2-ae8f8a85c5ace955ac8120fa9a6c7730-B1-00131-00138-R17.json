@@ -1,0 +1,42 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 8,
+  "checked_ids": [
+    "B1-zh-00131",
+    "B1-zh-00132",
+    "B1-zh-00133",
+    "B1-zh-00134",
+    "B1-zh-00135",
+    "B1-zh-00136",
+    "B1-zh-00137",
+    "B1-zh-00138"
+  ],
+  "edits": [
+    {
+      "id": "B1-zh-00131",
+      "source_hash": "4a11ecac55ed342fccb5dca131a2ce9a38649abcbf416bfb580e7758c9e16c6b",
+      "text": "第六条（其他法律的修改）①至<219>省略\n\n  <220> 《泛在城市建设等相关法律》部分修改如下。\n\n  将第二十条第一款正文、第二十二条第一款及第二十三条第三款各项以外部分中的“安全行政部长官”分别修改为“行政自治部长官”。\n\n  <221>至<258>省略\n\n"
+    },
+    {
+      "id": "B1-zh-00135",
+      "source_hash": "1c970893ff889817af39440319e5a27bb296aa91472bfdded9dce9213d84873e",
+      "text": "第二条（关于城市再生事业的适用例）第三条第六项的修正规定，自本法施行后首次依据《城市再生激活及支援特别法》制定城市再生激活计划时起适用。\n\n"
+    },
+    {
+      "id": "B1-zh-00138",
+      "source_hash": "56a469f8171e1a55234e62c74d69f69bba856acf7c1648402d1199fc7bf2677e",
+      "text": "第七条（其他法律的修改）①至<42>省略\n\n  <43> 《泛在城市建设等相关法律》部分修改如下。\n\n  将第十五条第一款第十二项中的“目的外使用批准”修改为“使用许可”。\n\n  <44>至<65>省略\n\n"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "note": "Korean source comparison B1 131-138. Corrected ministry obligations, Article 3 item 6 application, statutory historical name and permitted-use wording. Prior progress retained; not COMPLETE."
+}
