@@ -1,0 +1,23 @@
+{
+  "job_id": "F-b03365726c96ae9a9cc1",
+  "worker": "C05",
+  "status": "COMPLETE",
+  "source_commit": "cf91b988356d39ef374f1e2950831b446f9805aa",
+  "source_blobs": {
+    "ko": "da998892a905553b9118a68d7462283dd789aa0e",
+    "en": "0ae67d1026dd416649e23cf41790c10a301c2597",
+    "zh": "d1581ff0123795ec633f73554343bf9e5f9f3df9"
+  },
+  "document_count": 24,
+  "checked_rows": 1241,
+  "corrected_rows": 797,
+  "removed_noise_rows": 2,
+  "review_path": "review/zh/F-b03365726c96ae9a9cc1.json",
+  "review_blob_sha": "3fc8718286af9b3ddb18147f022b76640e627aa4",
+  "empty_edit_adjudication": {
+    "path": "status/delivery/empty-edit-adjudication-F-b03365726c96ae9a9cc1-C05-20261108.json",
+    "blob_sha": "2e984933a174cc1bb8555dfd1414eaa994d3cd98",
+    "decision_count": 2
+  },
+  "note": "Space Development Promotion Act family: 24 documents, 1241 distinct checked Chinese rows, 797 substantive correction texts, 2 explicitly adjudicated removals of meaningless annex OCR fragments. Source hashes unchanged; no empty corrections. English index links 972 rows while 269 are without English."
+}
