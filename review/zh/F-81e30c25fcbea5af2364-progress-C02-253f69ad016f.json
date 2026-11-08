@@ -32,7 +32,15 @@
       "A36427",
       "B3",
       "A25465",
-      "A25466"
+      "A25466",
+      "A25467",
+      "A25468",
+      "A25469",
+      "A25470",
+      "A25471",
+      "A25472",
+      "A25473",
+      "A25474"
     ],
     "document_lengths": [
       {
@@ -72,21 +80,12 @@
         "chars": 8469
       }
     ],
-    "read_limit_note": "B1 read in previous task but some prior output was truncated, so its full reading is NOT certified. B2 (0-47665) and four enforcement-decree annexes and B3 displayed in current task; forms A25465/66 displayed; A25467-A25474 only previewed and require full reading.",
-    "remaining_full_text_forms": [
-      "A25467",
-      "A25468",
-      "A25469",
-      "A25470",
-      "A25471",
-      "A25472",
-      "A25473",
-      "A25474"
-    ],
-    "complete_ko_family_read": false
+    "read_limit_note": "All 17 Korean documents presented in order across current and preceding C02 turns; previously truncated B1 subsection 35500–43000 re-fetched in smaller segments. This records the source read-through only, not translation adjudication.",
+    "remaining_full_text_forms": [],
+    "complete_ko_family_read": true
   },
   "english_reading": {
-    "phase": "NOT_STARTED",
+    "phase": "READY_TO_READ_ENGLISH",
     "available_fallback_paths": [
       "documents/en/kr-010730-283399-en.json",
       "documents/en/kr-010846-270111-en.json"
@@ -115,10 +114,10 @@
   },
   "new_edits": [],
   "ordered_reading_certification": {
-    "ko": false,
+    "ko": true,
     "en": false,
     "zh": false
   },
   "completion_receipt_verified": false,
-  "next_action": "Read Korean forms A25467-A25474 fully, resolve B1 reading gaps, then both available English documents in full, then Chinese rows in order; keep originals and previous edits intact."
+  "next_action": "Read official English document B1 first then B2 in full, recording their distinct fallback versions; then Chinese 1133 rows sequentially without altering correct existing translations."
 }
