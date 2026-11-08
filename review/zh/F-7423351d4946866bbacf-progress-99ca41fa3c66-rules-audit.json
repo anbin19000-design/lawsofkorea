@@ -1,0 +1,40 @@
+{
+  "schema": "LAW_ZH_REVIEW_AUDIT_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:99ca41fa3c66]",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "review_path": "review/zh/F-7423351d4946866bbacf.json",
+  "review_blob": "ab220978efd7bff4e1f3d760bc0cde9d7928ff98",
+  "previous_corrections": 233,
+  "current_corrections": 238,
+  "newly_corrected_rows": [
+    "B3-zh-00010",
+    "B3-zh-00011",
+    "B2-zh-00006",
+    "B3-zh-00024",
+    "B3-zh-00032"
+  ],
+  "details": "Rules Arts 8-9 résumé, business registration, shareholder/member list and legal documentary terms; Decree Art5 missing member number and appointing authority; Rules Art22 inspector's institution omitted; Rules Art30 proviso restored.",
+  "english_status": {
+    "B1": "EXACT_ENGLISH_AVAILABLE",
+    "B2": "EXACT_ENGLISH_AVAILABLE",
+    "B3": "NO_DOCUMENT_ENGLISH",
+    "rule_annexes_forms": "NO_DOCUMENT_ENGLISH"
+  },
+  "source_documents": 16,
+  "source_chinese_rows": 1207,
+  "existing_edits_preserved": true,
+  "full_semantic_review_completed": false,
+  "unresolved_issues": [
+    "Annex/form punctuation-only XML target cell alignment",
+    "Remaining rows not yet independently meaning-verified"
+  ],
+  "complete_receipt_issued": false,
+  "next_action": "Continue same family, reconcile semantic verification across all Chinese rows with Korean authoritative source and available exact-version English before COMPLETE."
+}
