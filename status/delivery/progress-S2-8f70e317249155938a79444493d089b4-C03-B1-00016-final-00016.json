@@ -1,0 +1,27 @@
+{
+  "schema": "LAW_ZH_PARTIAL_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "B1",
+  "range": {
+    "first": "B1-zh-00016",
+    "last": "B1-zh-00016"
+  },
+  "checked_rows": 0,
+  "corrected_rows": 1,
+  "correction_supersedes": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00016-00020.json",
+  "prior_progress_blob_sha": "0ccf2eee524221b2b19c112f9da0ab809ff295f5",
+  "prior_quality_failure": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-quality-03.json",
+  "prior_quality_blob_sha": "784cc7c0518deed3e61c649cb6d989027ebbd97e",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "edits": [
+    {
+      "id": "B1-zh-00016",
+      "source_hash": "7123dba81c06014bd7641436ed676f96fa275c013eff84dbf36d918a75dd2e55",
+      "text": "第十四条（签发受害者确认书）\n① 遭受人口贩运等侵害的人或者第二十一条第二款规定的举报义务人，可以请求性别平等家庭部部长签发确认书。〈2025年10月1日修订〉\n② 为在签发第一款所述受害者确认书时审议、判定申请人是否属于受害者，在第十五条规定的地方人口贩运等受害者权益保护机构设立人口贩运等案件判定委员会（本条以下简称“判定委员会”）。判定委员会的组成和运作所需事项由总统令规定。\n③ 性别平等家庭部部长可以经过判定委员会的判定，依总统令规定签发确认书。〈2025年10月1日修订〉\n④ 性别平等家庭部部长可以将有关确认书签发的事务授权第十五条规定的中央人口贩运等受害者权益保护机构办理。〈2025年10月1日修订〉\n⑤ 性别平等家庭部部长向外国人签发受害者确认书时，可以向法务部部长移送相关资料，请求适用《出入境管理法》第二十五条之二及第四十六条之二。〈2022年12月13日、2025年10月1日修订〉\n\n"
+    }
+  ],
+  "note": "Final adoption supersedes only B1-zh-00016 previous candidate. Korean Article 14(4) uses 위임 (statutory delegation), rendered 授权 rather than 委托. Other article paragraphs and prior edit IDs preserved without rewriting. Not additional checked row or whole-family completion."
+}
