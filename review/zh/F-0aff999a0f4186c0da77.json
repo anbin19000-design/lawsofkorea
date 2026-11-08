@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 405,
+    "correction_count": 408,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -2860,6 +2860,27 @@
       "original": "第六条之四（信息披露声明登记的注销）\n① 信息公开声明如符合下列任何一项情形，公平交易委员会和市长/都知事可以撤销其登记。但如符合第1项和第2项情形，则应当撤销登记。<2013年8月13日、2016年12月20日、2018年1月16日修订>\n1. 如果披露声明是通过虚假或其他欺诈手段注册的，则\n2. 在符合第6条第3款第1项第2款规定的情况下\n3. 如总统令规定的重要事项（以下简称“重要事项”）不属于第二条第十款所列项目，则\n4. 如果特许经营商已提交营业关闭报告，则\n5. 当特许经营商请求取消信息披露声明注册时\n② 公平交易委员会以及各市、省市长、省长可以公布已被撤销信息披露声明登记的特许经营商名单。<2013年8月13日新增，2018年1月16日更新>\n\n",
       "corrected": "第六条之四（信息披露声明登记的撤销）\n① 信息披露声明符合下列任何一项情形的，公平交易委员会和市/道知事可以撤销其登记。但符合第1项和第2项情形的，应当撤销登记。<2013年8月13日、2016年12月20日、2018年1月16日修订>\n1. 通过虚假或其他不正当方法登记信息披露声明的情形；\n2. 符合第六条之三第一款第二项规定的情形；\n3. 遗漏第二条第十号各目中总统令规定的重要记载事项（以下简称“重要事项”）的情形；\n4. 特许经营总部申报停业的情形；\n5. 特许经营总部请求撤销信息披露声明登记的情形。\n② 公平交易委员会和市/道知事可以公开信息披露声明登记被撤销的特许经营总部名单。<2013年8月13日新增，2018年1月16日修订>\n\n",
       "reason": "제6조의3제1항제2호 인용 오류, 중요사항 누락의 의미 역전, 가맹본부를 가맹점사업자로 오역한 부분을 한국어 원문에 맞춰 교정."
+    },
+    "A34917-zh-00008": {
+      "doc": "A34917",
+      "source_hash": "5a4e38a1578eaec376cc5e1ad28f33f019956fc98d46f14b142cad94c5b1d1a5",
+      "original": "收据日期和时间",
+      "corrected": "受理日期和时间",
+      "reason": "신청서의 접수일·시간으로, 영수증 발급일을 뜻하는 收据日期보다 受理日期가 정확함."
+    },
+    "A34920-zh-00011": {
+      "doc": "A34920",
+      "source_hash": "5a4e38a1578eaec376cc5e1ad28f33f019956fc98d46f14b142cad94c5b1d1a5",
+      "original": "收据日期和时间",
+      "corrected": "受理日期和时间",
+      "reason": "변경등록 신청서의 접수일·시간을 뜻하므로 收据日期가 아닌 受理日期로 교정."
+    },
+    "A34925-zh-00006": {
+      "doc": "A34925",
+      "source_hash": "ebc9b96eb63cf003b7b1fc13d77fd353ced43869ee6c7836a9f3be4c588e1391",
+      "original": "收货日期",
+      "corrected": "受理日期",
+      "reason": "접수일(접수된 날짜)을 배송·수령일 의미의 收货日期로 번역한 명백한 오역 교정."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -2939,7 +2960,8 @@
     "C05 1d83a14216df: A34909 section 6(e) source-grounded territorial restriction and substitute-goods sales disclosure corrections (8).",
     "C05 ec2de23b2e8f: A34909 source comparison added 13 corrections to sales ratios, average early termination penalties and credit disclosure.",
     "C05 b059174ccc26 continuation: revalidated active C05/panel-05 binding and exact KO/EN/ZH source blob SHAs; fetched all three linked English source documents (B1 exact, B2 family fallback + KLRI fallback) and confirmed they remain readable. Continued targeted sequential Chinese review of A34911 (4 rows) and A34913 (12 rows) against full Korean annex text: labels and legal references retained where accurate; A34911 formula content is not present in extracted Korean text and remains an explicit visual/source-artifact QA open item. Scanned all 1,687 Chinese rows for uncorrected MTQ/START/END markers and residual Hangul; zero uncorrected matches (all hits are already covered by corrections). This scan is a contamination check, not a substitute for full semantic comparison. Existing 402 corrections and source hashes preserved; family remains IN_PROGRESS, with 429 no-English rows requiring direct KO/ZH semantic audit and full sequential semantic certification still outstanding.",
-    "C05 2050e581878f continuation: B1 Articles 3, 6-2 and 6-4 rechecked against complete Korean source. Three material corrections added: application-exemption clause meaning reversal; paragraph-number/actor rendering in Article 6-2; Article 6-4 cross-reference, omitted-important-matters reversal, and franchisor/franchisee party identity. Previous 402 edits preserved. Full-family Chinese semantic audit remains incomplete; status IN_PROGRESS."
+    "C05 2050e581878f continuation: B1 Articles 3, 6-2 and 6-4 rechecked against complete Korean source. Three material corrections added: application-exemption clause meaning reversal; paragraph-number/actor rendering in Article 6-2; Article 6-4 cross-reference, omitted-important-matters reversal, and franchisor/franchisee party identity. Previous 402 edits preserved. Full-family Chinese semantic audit remains incomplete; status IN_PROGRESS.",
+    "C05 2050e581878f continuation: three application/form field labels corrected against Korean 접수일/접수일시; '收货日期/收据日期' had incorrectly implied delivery/receipt voucher rather than filing intake. Prior 405 edits preserved. Full-family semantic review remains IN_PROGRESS."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -2948,5 +2970,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 405
+  "corrected_rows": 408
 }
