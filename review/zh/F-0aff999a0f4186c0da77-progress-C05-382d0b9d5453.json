@@ -1,0 +1,314 @@
+{
+  "schema": "LAW_FAMILY_READING_EVIDENCE_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "panel_id": "panel-05",
+  "assignment_marker": "382d0b9d5453",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "stage": "KO_FULL_READ_EN_PENDING",
+  "ko": {
+    "source_path": "laws/ko/F-0aff999a0f4186c0da77.json",
+    "source_blob": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "documents": [
+      {
+        "order": 1,
+        "key": "B1",
+        "kind": "법률",
+        "title": "가맹사업거래의 공정화에 관한 법률",
+        "law_id": "kr-009367-268283-ko",
+        "version": "268283",
+        "source_hash": "9f26d5841ec405a5daa23077a5bc9722d744256bad075d7c76729b8c59e8180e",
+        "characters": 47725,
+        "reading": "READ_IN_ORDER",
+        "proof": {
+          "opening": "제1장 총칙\n\n제1조(목적) 이 법은 가맹사업의 공정한 거래질서를 확립하고 가맹본부와 가맹점사업자가 대등한 지위에서 상호보완적으로 균형있게 발전하도록 함으로써 소비자 복지의 증진과 국민경제의 건전한",
+          "ending": " 및 제100조\"로 한다.\n\n  ②부터 ⑨까지 생략\n\n부칙(이행강제금 규정 정비를 위한 가맹사업거래의 공정화에 관한 법률 등 10개 법률의 일부개정에 관한 법률) <제20712호,2025.1.21>\n\n이 법은 공포한 날부터 시행한다."
+        }
+      },
+      {
+        "order": 2,
+        "key": "B2",
+        "kind": "대통령령",
+        "title": "가맹사업거래의 공정화에 관한 법률 시행령",
+        "law_id": "kr-009369-288453-ko",
+        "version": "288453",
+        "source_hash": "bdbebcf64832a2a896bd9f56cd4b36cb843be6679289d14d56c76997be079d4d",
+        "characters": 40341,
+        "reading": "READ_IN_ORDER",
+        "proof": {
+          "opening": "제1조(목적) 이 영은 「가맹사업거래의 공정화에 관한 법률」에서 위임한 사항과 그 시행에 관하여 필요한 사항을 규정함을 목적으로 한다. <개정 2008.1.31>\n\n제2조 삭제 <2008.1.31>",
+          "ending": "제1조 단서에 따른 시행일 전에 법 제6조의2제1항ㆍ제2항에 따라 정보공개서의 등록 또는 변경등록을 신청한 경우 정보공개서의 기재사항 및 변경 기한에 관하여는 별표 1 및 별표 1의2의 개정규정에도 불구하고 종전의 규정에 따른다.\n\n"
+        }
+      },
+      {
+        "order": 3,
+        "key": "A34909",
+        "kind": "별표",
+        "title": "정보공개서의 기재사항(제4조제1항 관련)",
+        "law_id": "kr-009369-288453-ko",
+        "version": null,
+        "source_hash": "f1811faff9f94195d068a9ffd8a3909cb8e2670b1543d6f3192ca729b092386d",
+        "characters": 22989,
+        "reading": "READ_IN_ORDER",
+        "proof": {
+          "opening": "■ 가맹사업거래의 공정화에 관한 법률 시행령 [별표 1] <개정 2026. 8. 4.>                   \n\n\n                                        ",
+          "ending": "말 기준 전체 직영점의 연간 평균 매출액(연간 평균 매출액을 산정하      \n\n\n  기 곤란한 불가피한 사정이 있는 경우에는 공정거래위원회가 정하여 고시하는 바에             \n\n\n  따라 산정한 매출액을 말한다)\n\n\n\n\n"
+        }
+      },
+      {
+        "order": 4,
+        "key": "A34910",
+        "kind": "별표",
+        "title": "정보공개서의 변경 사항 및 변경 기한(제5조의3제1항 관련)",
+        "law_id": "kr-009369-288453-ko",
+        "version": null,
+        "source_hash": "f39fa8ededf83343bd1dc5539140d6717a12c753de06c2c0230788d44d19299c",
+        "characters": 2395,
+        "reading": "READ_IN_ORDER",
+        "proof": {
+          "opening": "■ 가맹사업거래의 공정화에 관한 법률 시행령 [별표 1의2] <개정 2026. 8. 4.>          \n\n\n                                               ",
+          "ending": "\n\n\n│    │별표 1 제7호: 전체                            │                            │\n\n\n└──┴───────────────────────┴──────────────┘\n\n\n\n\n"
+        }
+      },
+      {
+        "order": 5,
+        "key": "A34911",
+        "kind": "별표",
+        "title": "직전 사업연도 매출환산액의 계산방법(제9조제4항 관련)",
+        "law_id": "kr-009369-288453-ko",
+        "version": null,
+        "source_hash": "cac63c22471a0cf02b66a9acc35540ce7ba6a3feb43821484968564181fe865c",
+        "characters": 497,
+        "reading": "READ_IN_ORDER",
+        "proof": {
+          "opening": "■ 가맹사업거래의 공정화에 관한 법률 시행령 [별표 1의3] <신설 2014.2.11>\n\n\n\n\n\n\n                                                       ",
+          "ending": "        \n\n\n                                                                      \n\n\n  2. 직전 사업연도의 영업기간이 6개월 이상 1년 미만인 가맹점의 경우\n\n\n\n\n"
+        }
+      },
+      {
+        "order": 6,
+        "key": "A34912",
+        "kind": "별표",
+        "title": "불공정거래행위의 유형 또는 기준(제13조제1항관련)",
+        "law_id": "kr-009369-288453-ko",
+        "version": null,
+        "source_hash": "cda2a655f1bec4d6c05703418b52e0a4142d003e18a0066802155f9e61108af7",
+        "characters": 9557,
+        "reading": "READ_IN_ORDER",
+        "proof": {
+          "opening": "■ 가맹사업거래의 공정화에 관한 법률 시행령 [별표 2] <개정 2024. 6. 4.>         \n\n\n                                                  ",
+          "ending": "위란 가맹본부가 다른 경쟁가맹본부의 가       \n\n\n  맹점사업자를 자기와 거래하도록 하여 자기의 가맹점사업자의 영업에 불이익         \n\n\n  을 주거나 다른 경쟁가맹본부의 가맹사업에 불이익을 주는 행위를 말한다.\n\n\n\n\n"
+        }
+      },
+      {
+        "order": 7,
+        "key": "A34913",
+        "kind": "별표",
+        "title": "가맹거래사 시험과목(제28조제5항관련)",
+        "law_id": "kr-009369-288453-ko",
+        "version": null,
+        "source_hash": "f720cdbf186822b8baae8f9b6c9d97aaba1be89d30530441b3de6668c25944f7",
+        "characters": 796,
+        "reading": "READ_IN_ORDER",
+        "proof": {
+          "opening": "■ 가맹사업거래의 공정화에 관한 법률 시행령 [별표 3] <개정 2008.1.31>       \n\n\n                                                      ",
+          "ending": "                 ┃\n\n\n┃        │○가맹계약에 관한 이론 및 실무                                  ┃\n\n\n┗━━━━┷━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\n\n\n\n\n"
+        }
+      },
+      {
+        "order": 8,
+        "key": "A34914",
+        "kind": "별표",
+        "title": "교육기관 등의 지정기준(제32조의2 관련)",
+        "law_id": "kr-009369-288453-ko",
+        "version": null,
+        "source_hash": "0cadd91b84cca864c122fcb008358e1e99ee03e71601406f451662bf5e73df5f",
+        "characters": 1944,
+        "reading": "READ_IN_ORDER",
+        "proof": {
+          "opening": "■ 가맹사업거래의 공정화에 관한 법률 시행령 [별표 4] <개정 2012.2.29>             \n\n\n                                                ",
+          "ending": "적이 30건 이상일 것        \n\n\n    다. 「고등교육법」 제2조에 따른 학교로서 지정일 바로 전 3년 동안 별표 3         \n\n\n  에 열거된 가맹거래사 1차 시험과목 중 한 가지 이상을 매 학기 개설할 것\n\n\n\n\n"
+        }
+      },
+      {
+        "order": 9,
+        "key": "A34915",
+        "kind": "별표",
+        "title": "과징금의 부과기준(제34조제4항 관련)",
+        "law_id": "kr-009369-288453-ko",
+        "version": null,
+        "source_hash": "ea47ed7b432ac8def9553b47122ccb5b1331af376fd1cd14d898666058e213c6",
+        "characters": 3398,
+        "reading": "READ_IN_ORDER",
+        "proof": {
+          "opening": "■ 가맹사업거래의 공정화에 관한 법률 시행령 [별표 4의2] <개정 2026. 8. 4.>\n\n\n                                                         ",
+          "ending": " 산정기준의 부과기준율, 관련매출액 산정에 관한 세부기준, 1차 조정 및    \n\n\n  2차 조정, 그 밖에 과징금의 부과에 필요한 세부적인 기준과 방법 등에 관한       \n\n\n  사항은 공정거래위원회가 정하여 고시한다.\n\n\n\n\n"
+        }
+      },
+      {
+        "order": 10,
+        "key": "A34916",
+        "kind": "별표",
+        "title": "과태료의 부과기준(제37조 관련)",
+        "law_id": "kr-009369-288453-ko",
+        "version": null,
+        "source_hash": "18985d8665390672e03b9dbe3d780534ca809b3f6014a7f961e30cb834981847",
+        "characters": 9367,
+        "reading": "READ_IN_ORDER",
+        "proof": {
+          "opening": "■ 가맹사업거래의 공정화에 관한 법률 시행령 [별표 5] <개정 2022. 6. 7.>             \n\n\n                                              ",
+          "ending": " │\n\n\n│는 기피한 경우                          │                │      │      │      │\n\n\n└────────────────────┴────────┴───┴───┴───┘\n\n\n\n\n"
+        }
+      },
+      {
+        "order": 11,
+        "key": "A34917",
+        "kind": "서식",
+        "title": "정보공개서 신규등록 신청서",
+        "law_id": "kr-009369-288453-ko",
+        "version": null,
+        "source_hash": "bd06a3655c9232157e87474752dc5190da603a2eda4181b9ed4a56fd8b225118",
+        "characters": 12608,
+        "reading": "READ_IN_ORDER",
+        "proof": {
+          "opening": "■ 가맹사업거래의 공정화에 관한 법률 시행령 [별지 제1호서식] <개정 2026. 8. 4.>   가맹사업거래홈페이지(franchise.ftc.go.kr)         \n\n\n            ",
+          "ending": "\n  신청인            처리기관      처리기관      처리기관        처리기관          처리기관      \n\n\n────────────────────────────────────────────────\n\n\n\n\n"
+        }
+      },
+      {
+        "order": 12,
+        "key": "A34918",
+        "kind": "서식",
+        "title": "정보공개서 등록증",
+        "law_id": "kr-009369-288453-ko",
+        "version": null,
+        "source_hash": "42bdfb6d81d7981dc426d95bc2f3d3c927db19f579a2b1c1ac60679beb954c60",
+        "characters": 3255,
+        "reading": "READ_IN_ORDER",
+        "proof": {
+          "opening": "■ 가맹사업거래의 공정화에 관한 법률 시행령 [별지 제2호서식] <개정 2018. 12. 18.>   \n\n\n                                                  ",
+          "ending": "당자(서명 또는 인)│\n\n\n├───┼──────────┼──────────┤\n\n\n│      │                    │                    │\n\n\n└───┴──────────┴──────────┘\n\n\n\n\n"
+        }
+      },
+      {
+        "order": 13,
+        "key": "A34920",
+        "kind": "서식",
+        "title": "정보공개서(변경등록 신청서, 변경신고서)",
+        "law_id": "kr-009369-288453-ko",
+        "version": null,
+        "source_hash": "ec5bb938ed7d60e1e44717f9b6c26db26b67f8f572fb31559bbc65494a930c0c",
+        "characters": 13388,
+        "reading": "READ_IN_ORDER",
+        "proof": {
+          "opening": "■ 가맹사업거래의 공정화에 관한 법률 시행령 [별지 제4호서식] <개정 2026. 8. 4.>   가맹사업거래홈페이지(franchise.ftc.go.kr)   \n\n\n                  ",
+          "ending": "                                                                     \n\n\n─────────────────────────────────────────────────────\n\n\n\n\n"
+        }
+      },
+      {
+        "order": 14,
+        "key": "A34921",
+        "kind": "서식",
+        "title": "정보공개서 등록취소 요청서",
+        "law_id": "kr-009369-288453-ko",
+        "version": null,
+        "source_hash": "03af99bc55d6334d2ed23f44db189ece10e9ce47a25df760bd47a94faa1ff59c",
+        "characters": 10259,
+        "reading": "READ_IN_ORDER",
+        "proof": {
+          "opening": "■ 가맹사업거래의 공정화에 관한 법률 시행령 [별지 제4호의2서식] <신설 2026. 8. 4.>  가맹사업거래홈페이지(franchise.ftc.go.kr)   \n\n\n                 ",
+          "ending": "└─────┘  └───────┘\n\n\n  요청인            처리기관      처리기관      처리기관        처리기관        \n\n\n────────────────────────────────────────\n\n\n\n\n"
+        }
+      },
+      {
+        "order": 15,
+        "key": "A34922",
+        "kind": "서식",
+        "title": "가맹금예치신청서",
+        "law_id": "kr-009369-288453-ko",
+        "version": null,
+        "source_hash": "a77debaf398627d516255255591fe2c9ae0c1a3195ae7bbfbb3f86ca31c85d95",
+        "characters": 6933,
+        "reading": "READ_IN_ORDER",
+        "proof": {
+          "opening": "■ 가맹사업거래의 공정화에 관한 법률 시행령 [별지 제5호서식] <개정 2021. 11. 19.>                                                   \n\n\n  ",
+          "ending": "                            \n\n\n───────────────────────────────────────────────────────────────────\n\n\n  210mm×297mm[백상지 80g/㎡]\n\n\n\n\n"
+        }
+      },
+      {
+        "order": 16,
+        "key": "A34923",
+        "kind": "서식",
+        "title": "가맹금 예치증서",
+        "law_id": "kr-009369-288453-ko",
+        "version": null,
+        "source_hash": "522c4379ef1b207081e0f5c74aa8038e6317d81c1fea71c70851c70870fa6f21",
+        "characters": 5051,
+        "reading": "READ_IN_ORDER",
+        "proof": {
+          "opening": "■ 가맹사업거래의 공정화에 관한 법률 시행령 [별지 제6호서식] <개정 2021. 11. 19.>                                     \n\n\n                ",
+          "ending": "회에 신고한 경우                         \n\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n\n  210mm×297mm[백상지 120g/㎡]\n\n\n\n\n"
+        }
+      },
+      {
+        "order": 17,
+        "key": "A34924",
+        "kind": "서식",
+        "title": "예치가맹금(지급 요청서, 반환 요청서)",
+        "law_id": "kr-009369-288453-ko",
+        "version": null,
+        "source_hash": "5417dbaa5f5c674481d21070b55025d87e389e6ef81ba8ec52b0935946798e4e",
+        "characters": 6760,
+        "reading": "READ_IN_ORDER",
+        "proof": {
+          "opening": "■ 가맹사업거래의 공정화에 관한 법률 시행령 [별지 제7호서식] <개정 2021. 11. 19.>                                           \n\n\n          ",
+          "ending": "                                \n\n\n───────────────────────────────────────────────────────────────\n\n\n  210mm×297mm[백상지 80g/㎡]\n\n\n\n\n"
+        }
+      },
+      {
+        "order": 18,
+        "key": "A34925",
+        "kind": "서식",
+        "title": "예치가맹금 지급보류 요청서",
+        "law_id": "kr-009369-288453-ko",
+        "version": null,
+        "source_hash": "3973f021255f176821174be419bef87402d6b9df4c04ac0d37c239dc0883e168",
+        "characters": 6473,
+        "reading": "READ_IN_ORDER",
+        "proof": {
+          "opening": "■ 가맹사업거래의 공정화에 관한 법률 시행령 [별지 제8호서식] <개정 2021. 11. 19.>                                           \n\n\n          ",
+          "ending": "                                \n\n\n───────────────────────────────────────────────────────────────\n\n\n  210mm×297mm[백상지 80g/㎡]\n\n\n\n\n"
+        }
+      }
+    ],
+    "total_documents": 18,
+    "read_method": "Sequential direct inspection of full source_ko body, including law, decree, annexes, forms and addenda; table whitespace normalized for display only, not source modification",
+    "completed": true
+  },
+  "en": {
+    "completed": false
+  },
+  "zh": {
+    "completed": false,
+    "prior_corrections": [
+      "B1-zh-00017",
+      "B2-zh-00017",
+      "B2-zh-00189",
+      "A34917-zh-00064",
+      "A34920-zh-00069",
+      "A34921-zh-00045"
+    ]
+  },
+  "completion_receipt": null,
+  "notes": [
+    "All 18 Korean documents reviewed in catalogue order prior to linked-English stage.",
+    "No new Chinese edits made in this continuation; all six previous corrections preserved.",
+    "No separate implementing regulation (시행규칙) appears among the 18 assigned catalogue entries; scope follows assigned frozen family catalogue."
+  ]
+}
