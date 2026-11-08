@@ -2,7 +2,7 @@
   "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-c2b35f6aceb6477e1107",
   "worker": "C04",
-  "checked_rows": 115,
+  "checked_rows": 125,
   "edits": [
     {
       "id": "A14112-zh-00030",
@@ -463,8 +463,48 @@
     {
       "id": "A14111-zh-00097",
       "text": "以及因地区条件而被认定难以适用学校供餐食材质量管理标准的情形，"
+    },
+    {
+      "id": "A14113-zh-00001",
+      "text": "■ 《学校供餐法施行规则》[附表4] <2021年1月29日修订>"
+    },
+    {
+      "id": "A14113-zh-00007",
+      "text": "应记录并管理餐具消毒保管柜的温度。"
+    },
+    {
+      "id": "A14113-zh-00022",
+      "text": "为防止交叉污染，应按用途分别使用，并随时清洗、消毒。"
+    },
+    {
+      "id": "A14113-zh-00027",
+      "text": "应避免与存在交叉污染风险的器具、容器或原材料等接触而受到污染，"
+    },
+    {
+      "id": "A14113-zh-00031",
+      "text": "e. 解冻后的食品应立即使用。"
+    },
+    {
+      "id": "A14113-zh-00036",
+      "text": "应抑制微生物繁殖或毒素产生。"
+    },
+    {
+      "id": "A14113-zh-00045",
+      "text": "应进行试餐检查。"
+    },
+    {
+      "id": "A14113-zh-00048",
+      "text": "e. 每次烹制的食品应留存一人份，在零下18℃以下保存144小时以上。"
+    },
+    {
+      "id": "A14113-zh-00049",
+      "text": ""
+    },
+    {
+      "id": "A14113-zh-00053",
+      "text": "进行消毒，并备置消毒证明书。"
     }
   ],
   "status": "IN_PROGRESS",
-  "note": "C04 b7be18971112: preserved 110 existing unique corrections. Five new A14111 annex quality-control fixes: certified kimchi producer, disaster exception and location-related exceptions. Full 15-document / 1241-row reading not yet certified; no COMPLETE receipt."
+  "note": "C04 729e7244fb4b: 115 prior edits preserved. Ten source-checked corrections in A14113 hygiene/safety annex, including immediate USE after thawing, 144 hours at <= -18 C for one-person retention sample, tasting inspection, contamination prevention and equipment temperature logs. Full 15-document sequential meaning review not certified."
 }
