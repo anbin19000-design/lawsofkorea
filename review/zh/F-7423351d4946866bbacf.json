@@ -2,7 +2,7 @@
   "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-7423351d4946866bbacf",
   "worker": "C01",
-  "checked_rows": 75,
+  "checked_rows": 77,
   "edits": [
     {
       "id": "B1-zh-00065",
@@ -1099,10 +1099,18 @@
     {
       "id": "B1-zh-00048",
       "text": "第 43 条（采购和储备项目损失的处理）海洋水产大臣应将因第 40 条规定的采购和第 41 条规定的储备项目而产生的数量损耗、价格下跌、因销售、出口、捐赠或其他处置而造成的成本损失，以及为实施该项目所必需的管理费用（如运输、包装和害虫防治等），按照总统令的规定，作为该项目的费用处理。\n\n"
+    },
+    {
+      "id": "B1-zh-00054",
+      "text": "第四十九条（在产区设立水产品基地配送中心）\n① 国家或地方政府可以为那些打算建立以水产品原产地为基础的分销中心，以收集、加工和销售水产品，从而扩大水产品处理规模、提高产品附加值的个人或实体提供必要的支持，例如确保土地或安装设施等。\n② 根据第1款规定，水产品产区配送中心的设立、运营及设施标准等事项，由海洋水产部条例规定。\n\n"
+    },
+    {
+      "id": "B1-zh-00051",
+      "text": "第四十六条（促进水产品标准化）\n①海洋水产大臣可以确定贸易商品和鱼箱等的规格，以提高水产品的商品性，提高分销效率，促进公平贸易。\n② 海洋水产大臣可要求或建议水产品分销商生产和使用符合交易商品规格的设备，使用符合规格的包装，并为此目的扩大必要的分销设施和设备，以促进水产品的标准化，并可为此提供必要的支持。\n③ 海洋水产部长可向参与促进渔业产品标准化的人员提供优惠措施，例如优先支持渔业政策资金。\n④ 第1款规定的贸易品类型、规格等事项，由海洋水产部条例规定。\n\n"
     }
   ],
   "status": "IN_PROGRESS",
-  "note": "IN_PROGRESS; 274 unique source IDs corrected and prior corrections preserved. Act Art38: production area and production condition; Act Art43: physical diminution in quantity, not value decrease. Original SHA unchanged; incomplete full-family 1207-row meaning verification and annex/form XML alignment. No COMPLETE receipt.",
+  "note": "IN_PROGRESS. 276 unique corrected rows; previous corrections preserved. Korean Act Arts 46 and 49 compared with exact-version official English: marketability is not market competitiveness, handling capacity is not processing amount. Original source SHA unchanged. All 1207 Chinese rows and annex/form source XML correspondence not semantically certified; COMPLETE receipt not issued.",
   "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
   "source_sha": {
     "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
