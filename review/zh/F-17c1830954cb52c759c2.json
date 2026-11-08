@@ -19,10 +19,10 @@
   "progress": {
     "korean": "COMPLETE",
     "english": "COMPLETE",
-    "chinese": "IN_PROGRESS; corrected forms A27044-A27046, A27050-A27051, A27054-A27055, A27059-A27060; remaining form rows require sequential review.",
-    "reviewed_rows": 764,
-    "corrected_rows": 729,
-    "remaining_rows": 511
+    "chinese": "IN_PROGRESS; full row-by-row corrections applied to A27047-A27049 application forms; continue remaining A27052/A27053/A27055-A27058/A27061 and final source-gap review.",
+    "reviewed_rows": 977,
+    "corrected_rows": 942,
+    "remaining_rows": 298
   },
   "documents": [],
   "rows": [
@@ -12415,10 +12415,15 @@
       "end": null,
       "target_id": "XML:1906749",
       "source_hash": "3805d51b6fed7d956f7a1517838673848724975d1927ffe99c6831a49ef22e22",
-      "text": "■ 城市空中交通促进支援法实施细则[附件4]",
+      "text": "■《促进和支持城市空中交通利用法施行规则》[附件4]",
       "text_original": "■ 城市空中交通促进支援法实施细则[附件4]",
-      "text_reviewed": "■ 城市空中交通促进支援法实施细则[附件4]",
-      "review_status": "PENDING"
+      "text_reviewed": "■《促进和支持城市空中交通利用法施行规则》[附件4]",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00002",
@@ -12429,10 +12434,15 @@
       "end": null,
       "target_id": "XML:1906750",
       "source_hash": "c6b609133ea3975823f9fb63b9ba51f317565080c56b3d2b60035b45f45b55e3",
-      "text": "飞行员操作区域",
+      "text": "试点运行区（指定、变更指定、撤销指定）申请书",
       "text_original": "飞行员操作区域",
-      "text_reviewed": "飞行员操作区域",
-      "review_status": "PENDING"
+      "text_reviewed": "试点运行区（指定、变更指定、撤销指定）申请书",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00003",
@@ -12443,10 +12453,15 @@
       "end": null,
       "target_id": "XML:1906751",
       "source_hash": "aac672156bf1f04199b60a5b47e8448fd064433ec0c039efab7f121dd2368beb",
-      "text": "] 指定",
+      "text": "[ ] 指定",
       "text_original": "] 指定",
-      "text_reviewed": "] 指定",
-      "review_status": "PENDING"
+      "text_reviewed": "[ ] 指定",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00004",
@@ -12457,10 +12472,15 @@
       "end": null,
       "target_id": "XML:1906752",
       "source_hash": "d756749ae151055bb3f2fb59a27fb00c3964fefb2a90809570b03e8c0189e1ab",
-      "text": "应用程序",
+      "text": "申请书",
       "text_original": "应用程序",
-      "text_reviewed": "应用程序",
-      "review_status": "PENDING"
+      "text_reviewed": "申请书",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00005",
@@ -12471,10 +12491,15 @@
       "end": null,
       "target_id": "XML:1906753",
       "source_hash": "b82a3028a168aad43ee76a514d5a36bbb14a37148ace7ae79e7494cb6d445e3d",
-      "text": "] 更改指定",
+      "text": "[ ] 变更指定",
       "text_original": "] 更改指定",
-      "text_reviewed": "] 更改指定",
-      "review_status": "PENDING"
+      "text_reviewed": "[ ] 变更指定",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00006",
@@ -12485,10 +12510,15 @@
       "end": null,
       "target_id": "XML:1906754",
       "source_hash": "69957937633a8ee2d0271e4316dfdea1ab0c4b7d12daa690bc9dde0786c304da",
-      "text": "] 取消指定",
+      "text": "[ ] 撤销指定",
       "text_original": "] 取消指定",
-      "text_reviewed": "] 取消指定",
-      "review_status": "PENDING"
+      "text_reviewed": "[ ] 撤销指定",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00007",
@@ -12499,10 +12529,15 @@
       "end": null,
       "target_id": "XML:1906755",
       "source_hash": "d7158888efb89278ec374747d1a1b47fcd992c5bedcc6d899a007f0d087f7638",
-      "text": "在 [] 中勾选相应的方框，申请人不应填写深色背景的方框。",
+      "text": "※ 请在相应的[ ]内打√，深色背景栏由申请人以外的人员填写。",
       "text_original": "在 [] 中勾选相应的方框，申请人不应填写深色背景的方框。",
-      "text_reviewed": "在 [] 中勾选相应的方框，申请人不应填写深色背景的方框。",
-      "review_status": "PENDING"
+      "text_reviewed": "※ 请在相应的[ ]内打√，深色背景栏由申请人以外的人员填写。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00008",
@@ -12513,10 +12548,15 @@
       "end": null,
       "target_id": "XML:1906756",
       "source_hash": "b6ef554c92c1ee06c5c51142ea35929d24f513f49937876ea1d846a0a7057648",
-      "text": "（前端）",
+      "text": "（正面）",
       "text_original": "（前端）",
-      "text_reviewed": "（前端）",
-      "review_status": "PENDING"
+      "text_reviewed": "（正面）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00009",
@@ -12527,10 +12567,15 @@
       "end": null,
       "target_id": "XML:1906757",
       "source_hash": "b736160e9f7f0d321a2b458369e87ad0a76a9b7c00b4454ad463a28ce8d1d95b",
-      "text": "收据编号",
+      "text": "受理编号",
       "text_original": "收据编号",
-      "text_reviewed": "收据编号",
-      "review_status": "PENDING"
+      "text_reviewed": "受理编号",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00010",
@@ -12541,10 +12586,15 @@
       "end": null,
       "target_id": "XML:1906758",
       "source_hash": "5a4e38a1578eaec376cc5e1ad28f33f019956fc98d46f14b142cad94c5b1d1a5",
-      "text": "收据日期和时间",
+      "text": "受理日期及时间",
       "text_original": "收据日期和时间",
-      "text_reviewed": "收据日期和时间",
-      "review_status": "PENDING"
+      "text_reviewed": "受理日期及时间",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00011",
@@ -12574,10 +12624,15 @@
       "end": null,
       "target_id": "XML:1906760",
       "source_hash": "6631a1c0bab75cfb449f293b4b35597e3ad4bd0f85264e6042d16f3dd1956d37",
-      "text": "120 天",
+      "text": "120日",
       "text_original": "120 天",
-      "text_reviewed": "120 天",
-      "review_status": "PENDING"
+      "text_reviewed": "120日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00013",
@@ -12591,7 +12646,12 @@
       "text": "申请人",
       "text_original": "申请人",
       "text_reviewed": "申请人",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00014",
@@ -12602,10 +12662,15 @@
       "end": null,
       "target_id": "XML:1906762",
       "source_hash": "a387535cf4b175ed2b772e8166d82de71db1777e7560fbfd325e908d31ea4a51",
-      "text": "机构名称",
+      "text": "机关名称",
       "text_original": "机构名称",
-      "text_reviewed": "机构名称",
-      "review_status": "PENDING"
+      "text_reviewed": "机关名称",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00015",
@@ -12616,10 +12681,15 @@
       "end": null,
       "target_id": "XML:1906763",
       "source_hash": "ef4403031e6e67eb6ff612ac7f030ff5fcf2e12e2b56fe2fa253adc78b0c68bb",
-      "text": "位置",
+      "text": "所在地",
       "text_original": "位置",
-      "text_reviewed": "位置",
-      "review_status": "PENDING"
+      "text_reviewed": "所在地",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00016",
@@ -12630,10 +12700,15 @@
       "end": null,
       "target_id": "XML:1906764",
       "source_hash": "cbd8975e279b620616cc2248caa1ec6c5348d1ba599415015b1022b65aa614ef",
-      "text": "(电话号码:",
+      "text": "（电话号码：）",
       "text_original": "(电话号码:",
-      "text_reviewed": "(电话号码:",
-      "review_status": "PENDING"
+      "text_reviewed": "（电话号码：）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00017",
@@ -12644,10 +12719,15 @@
       "end": null,
       "target_id": "XML:1906765",
       "source_hash": "b5779076bbbbf9db492a480604ca39bbd9422794740e8b96f1f9519a25801552",
-      "text": "应用程序目标",
+      "text": "申请对象",
       "text_original": "应用程序目标",
-      "text_reviewed": "应用程序目标",
-      "review_status": "PENDING"
+      "text_reviewed": "申请对象",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00018",
@@ -12658,10 +12738,15 @@
       "end": null,
       "target_id": "XML:1906766",
       "source_hash": "5d4a59655a91d1210c1a87bc02357bdf9f1161547511e6561efe1a69b0b8e527",
-      "text": "试点运行区域名称",
+      "text": "试点运行区名称",
       "text_original": "试点运行区域名称",
-      "text_reviewed": "试点运行区域名称",
-      "review_status": "PENDING"
+      "text_reviewed": "试点运行区名称",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00019",
@@ -12672,10 +12757,15 @@
       "end": null,
       "target_id": "XML:1906767",
       "source_hash": "6e13910456166a929a2fbd1c43b52e97b50f3cc398429af77a426ad849a3c997",
-      "text": "试点运行区域位置",
+      "text": "试点运行区位置",
       "text_original": "试点运行区域位置",
-      "text_reviewed": "试点运行区域位置",
-      "review_status": "PENDING"
+      "text_reviewed": "试点运行区位置",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00020",
@@ -12686,10 +12776,15 @@
       "end": null,
       "target_id": "XML:1906768",
       "source_hash": "00e21a9d115de174b260dd4f49b3265c2f55e416adf1420bb239f652a081a597",
-      "text": "试点运行区域运行周期",
+      "text": "试点运行区运营期间",
       "text_original": "试点运行区域运行周期",
-      "text_reviewed": "试点运行区域运行周期",
-      "review_status": "PENDING"
+      "text_reviewed": "试点运行区运营期间",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00021",
@@ -12700,10 +12795,15 @@
       "end": null,
       "target_id": "XML:1906769",
       "source_hash": "959b8b08f59e9b6c2c2990f72ce241351f9cfb17ae592dbeed43b3bc80489147",
-      "text": "《促进和支持城市空中交通利用法》第八条第一款及该法实施令",
+      "text": "依据《促进和支持城市空中交通利用法》第8条第1款及同法施行令",
       "text_original": "《促进和支持城市空中交通利用法》第八条第一款及该法实施令",
-      "text_reviewed": "《促进和支持城市空中交通利用法》第八条第一款及该法实施令",
-      "review_status": "PENDING"
+      "text_reviewed": "依据《促进和支持城市空中交通利用法》第8条第1款及同法施行令",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00022",
@@ -12714,10 +12814,15 @@
       "end": null,
       "target_id": "XML:1906770",
       "source_hash": "8db6d236f4049b200d235e1d69110a8767005a8f21ead2736e8a92009bbc820b",
-      "text": "第八条第一款",
+      "text": "第8条第1款",
       "text_original": "第八条第一款",
-      "text_reviewed": "第八条第一款",
-      "review_status": "PENDING"
+      "text_reviewed": "第8条第1款",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00023",
@@ -12728,10 +12833,15 @@
       "end": null,
       "target_id": "XML:1906771",
       "source_hash": "ca04012db8e0777ea4697947f51120479b7b7d2260687b64d07d3f1646c0595b",
-      "text": "第九条第一款",
+      "text": "第9条第1款",
       "text_original": "第九条第一款",
-      "text_reviewed": "第九条第一款",
-      "review_status": "PENDING"
+      "text_reviewed": "第9条第1款",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00024",
@@ -12742,10 +12852,15 @@
       "end": null,
       "target_id": "XML:1906772",
       "source_hash": "15d70066de8914cf7b56204504ec5944c8dba08f643c37b63cfbfeb16c4c6302",
-      "text": "第十条第一款",
+      "text": "第10条第1款",
       "text_original": "第十条第一款",
-      "text_reviewed": "第十条第一款",
-      "review_status": "PENDING"
+      "text_reviewed": "第10条第1款",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00025",
@@ -12756,10 +12871,15 @@
       "end": null,
       "target_id": "XML:1906773",
       "source_hash": "12dc95a1f975251d8b68c220ddd66b38cd27ad7c1a5c9112317e854fd9bea810",
-      "text": "和",
+      "text": "申请试点运行区的",
       "text_original": "和",
-      "text_reviewed": "和",
-      "review_status": "PENDING"
+      "text_reviewed": "申请试点运行区的",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00026",
@@ -12770,10 +12890,15 @@
       "end": null,
       "target_id": "XML:1906774",
       "source_hash": "5a736ca28185378140b1a6deae71b111be08598476e5602461432733ee51ed94",
-      "text": ".",
+      "text": "（申请事项）",
       "text_original": ".",
-      "text_reviewed": ".",
-      "review_status": "PENDING"
+      "text_reviewed": "（申请事项）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00027",
@@ -12784,10 +12909,15 @@
       "end": null,
       "target_id": "XML:1906775",
       "source_hash": "128a80a0334344a31e55e6aaa3e697ee1b77c3a128ea65eecd52da0c5705e735",
-      "text": "]指定",
+      "text": "指定",
       "text_original": "]指定",
-      "text_reviewed": "]指定",
-      "review_status": "PENDING"
+      "text_reviewed": "指定",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00028",
@@ -12798,10 +12928,15 @@
       "end": null,
       "target_id": "XML:1906776",
       "source_hash": "4adeeb479c45351084bf7bd84f10163a30e74b850228f1d690e74cd58681a560",
-      "text": "]更改指定",
+      "text": "变更指定",
       "text_original": "]更改指定",
-      "text_reviewed": "]更改指定",
-      "review_status": "PENDING"
+      "text_reviewed": "变更指定",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00029",
@@ -12812,10 +12947,15 @@
       "end": null,
       "target_id": "XML:1906777",
       "source_hash": "cf7e2fb613773623d65c2c21cb5fe79917ae81a44bfe1e64d47f1ea78a0410a1",
-      "text": "]取消指定",
+      "text": "撤销指定",
       "text_original": "]取消指定",
-      "text_reviewed": "]取消指定",
-      "review_status": "PENDING"
+      "text_reviewed": "撤销指定",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00030",
@@ -12871,7 +13011,12 @@
       "text": "申请人",
       "text_original": "申请人",
       "text_reviewed": "申请人",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00034",
@@ -12896,10 +13041,15 @@
       "end": null,
       "target_id": "XML:1906783",
       "source_hash": "5d198bb5e838918707a8044806bdf8567e7d1a9dde69dc6d15d873ed679d8657",
-      "text": "国土交通部长",
+      "text": "国土交通部长官",
       "text_original": "国土交通部长",
-      "text_reviewed": "国土交通部长",
-      "review_status": "PENDING"
+      "text_reviewed": "国土交通部长官",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00036",
@@ -12927,7 +13077,12 @@
       "text": "受托机构负责人",
       "text_original": "受托机构负责人",
       "text_reviewed": "受托机构负责人",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00038",
@@ -12938,10 +13093,15 @@
       "end": null,
       "target_id": "XML:1906786",
       "source_hash": "415c12cfe236ffa5094f9e3a7709063457a807995edc8ff53226e774fda2c5bd",
-      "text": "附件",
+      "text": "附件文件",
       "text_original": "附件",
-      "text_reviewed": "附件",
-      "review_status": "PENDING"
+      "text_reviewed": "附件文件",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00039",
@@ -12952,10 +13112,15 @@
       "end": null,
       "target_id": "XML:1906787",
       "source_hash": "7dee49c12898730c9bb55294543e417c38795c50d5d3116d0819a3c7428772f5",
-      "text": "指定",
+      "text": "指定时",
       "text_original": "指定",
-      "text_reviewed": "指定",
-      "review_status": "PENDING"
+      "text_reviewed": "指定时",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00040",
@@ -12966,10 +13131,15 @@
       "end": null,
       "target_id": "XML:1906788",
       "source_hash": "0e734456dec6e59b9562519d5c27c43127ac6c56860f4900c7b91a207bf6e1c9",
-      "text": "1. 试点运行区域运行计划",
+      "text": "1. 试点运行区运营计划书",
       "text_original": "1. 试点运行区域运行计划",
-      "text_reviewed": "1. 试点运行区域运行计划",
-      "review_status": "PENDING"
+      "text_reviewed": "1. 试点运行区运营计划书",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00041",
@@ -12980,10 +13150,15 @@
       "end": null,
       "target_id": "XML:1906789",
       "source_hash": "0313408cdf794fea03a1b1d6758e8ad6cc7c6a9f70b7256de98dafab6a45bf1a",
-      "text": "费用",
+      "text": "手续费",
       "text_original": "费用",
-      "text_reviewed": "费用",
-      "review_status": "PENDING"
+      "text_reviewed": "手续费",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00042",
@@ -12994,10 +13169,15 @@
       "end": null,
       "target_id": "XML:1906790",
       "source_hash": "b3fcbe922ab30a95b9fa26bdf9cfd21f1c416105a0b083782e95b8929bc245b5",
-      "text": "2. 申请指定为试点运行区域的区域[关于]“促进和支持城市空中交通利用”",
+      "text": "2. 证明申请指定区域符合《促进和支持城市空中交通利用法施行令》第8条第4款规定条件的文件",
       "text_original": "2. 申请指定为试点运行区域的区域[关于]“促进和支持城市空中交通利用”",
-      "text_reviewed": "2. 申请指定为试点运行区域的区域[关于]“促进和支持城市空中交通利用”",
-      "review_status": "PENDING"
+      "text_reviewed": "2. 证明申请指定区域符合《促进和支持城市空中交通利用法施行令》第8条第4款规定条件的文件",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00043",
@@ -13008,10 +13188,15 @@
       "end": null,
       "target_id": "XML:1906791",
       "source_hash": "e154470373c6faa5f0a8df7ac199261d57ba8dc3cb84f6376fcce418f0d2cf7c",
-      "text": "否",
+      "text": "无",
       "text_original": "否",
-      "text_reviewed": "否",
-      "review_status": "PENDING"
+      "text_reviewed": "无",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00044",
@@ -13022,10 +13207,15 @@
       "end": null,
       "target_id": "XML:1906792",
       "source_hash": "a3cd799d1eed9173172d9af46e34828e403e3e7b2197d152ff8ef628cdb79b97",
-      "text": "证明已满足该法实施令第8条第4款规定的要求的证明文件",
+      "text": "（条件证明文件续）",
       "text_original": "证明已满足该法实施令第8条第4款规定的要求的证明文件",
-      "text_reviewed": "证明已满足该法实施令第8条第4款规定的要求的证明文件",
-      "review_status": "PENDING"
+      "text_reviewed": "（条件证明文件续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00045",
@@ -13036,10 +13226,15 @@
       "end": null,
       "target_id": "XML:1906793",
       "source_hash": "07f1d9667ae15c257caafe076ba25ce14da1582404ccbf3859743f439d6ccebd",
-      "text": "《促进和支持城市空中交通法实施法令》第八条第二款或第三款",
+      "text": "3. 依据施行令第8条第2款或第3款提交的意见及其处理结果文件",
       "text_original": "《促进和支持城市空中交通法实施法令》第八条第二款或第三款",
-      "text_reviewed": "《促进和支持城市空中交通法实施法令》第八条第二款或第三款",
-      "review_status": "PENDING"
+      "text_reviewed": "3. 依据施行令第8条第2款或第3款提交的意见及其处理结果文件",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00046",
@@ -13050,10 +13245,15 @@
       "end": null,
       "target_id": "XML:1906794",
       "source_hash": "e9429cce097cc50aebb96bc70288bdc2f9686d04b1fce5c7ba5be97506d27d86",
-      "text": "节提交的意见及其处理结果的文件",
+      "text": "（意见及处理结果文件续）",
       "text_original": "节提交的意见及其处理结果的文件",
-      "text_reviewed": "节提交的意见及其处理结果的文件",
-      "review_status": "PENDING"
+      "text_reviewed": "（意见及处理结果文件续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00047",
@@ -13064,10 +13264,15 @@
       "end": null,
       "target_id": "XML:1906795",
       "source_hash": "7e79e8b614d464974fb859738367f7ff66e18c15babfde07220a924221574769",
-      "text": "4. 国土交通大臣认为指定试点运行区所必需的其他文件",
+      "text": "4. 国土交通部长官认为指定试点运行区所必要并公告的其他文件",
       "text_original": "4. 国土交通大臣认为指定试点运行区所必需的其他文件",
-      "text_reviewed": "4. 国土交通大臣认为指定试点运行区所必需的其他文件",
-      "review_status": "PENDING"
+      "text_reviewed": "4. 国土交通部长官认为指定试点运行区所必要并公告的其他文件",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00048",
@@ -13078,10 +13283,15 @@
       "end": null,
       "target_id": "XML:1906796",
       "source_hash": "72cfa6e68850154f48de115f2af9314f7d6ef9b41dfacf298bbf651d4954324f",
-      "text": "指定更改",
+      "text": "变更指定时",
       "text_original": "指定更改",
-      "text_reviewed": "指定更改",
-      "review_status": "PENDING"
+      "text_reviewed": "变更指定时",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00049",
@@ -13092,10 +13302,15 @@
       "end": null,
       "target_id": "XML:1906797",
       "source_hash": "871bd304b8e9f0d445604f71cbe86cfd594f7f329e9c0addc1ae6c865b60479e",
-      "text": "1. 关于试点作业区作业计划变更的文件",
+      "text": "1. 关于试点运行区运营计划变更事项的文件",
       "text_original": "1. 关于试点作业区作业计划变更的文件",
-      "text_reviewed": "1. 关于试点作业区作业计划变更的文件",
-      "review_status": "PENDING"
+      "text_reviewed": "1. 关于试点运行区运营计划变更事项的文件",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00050",
@@ -13106,10 +13321,15 @@
       "end": null,
       "target_id": "XML:1906798",
       "source_hash": "c9572660c81500a62eaa38ecee7b92a7baadcc17e00c35cf2af6cbb12d2bf27b",
-      "text": "2. 变更后的试点运行区域为“城市空中交通促进利用和支持法实施令”",
+      "text": "2. 证明变更后的试点运行区符合施行令第8条第4款规定条件的文件",
       "text_original": "2. 变更后的试点运行区域为“城市空中交通促进利用和支持法实施令”",
-      "text_reviewed": "2. 变更后的试点运行区域为“城市空中交通促进利用和支持法实施令”",
-      "review_status": "PENDING"
+      "text_reviewed": "2. 证明变更后的试点运行区符合施行令第8条第4款规定条件的文件",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00051",
@@ -13120,10 +13340,15 @@
       "end": null,
       "target_id": "XML:1906799",
       "source_hash": "8b63caa53109c6e8e902c9ebf41667d149c71f6e8dfd713274da1f5cc4bd4048",
-      "text": "证明已符合[条例]第8条第4款规定的文件",
+      "text": "（条件证明文件续）",
       "text_original": "证明已符合[条例]第8条第4款规定的文件",
-      "text_reviewed": "证明已符合[条例]第8条第4款规定的文件",
-      "review_status": "PENDING"
+      "text_reviewed": "（条件证明文件续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00052",
@@ -13134,10 +13359,15 @@
       "end": null,
       "target_id": "XML:1906800",
       "source_hash": "67d6a2d9d8e22fd465356c5dc689aee187b58bc538b91b10e80f909cbd4cff05",
-      "text": "3。参照适用《城市空中交通促进和支持法》实施法令第9条第2款。",
+      "text": "3. 依据施行令第9条第2款准用的施行令第8条第2款或第3款提交的意见及其处理结果文件",
       "text_original": "3。参照适用《城市空中交通促进和支持法》实施法令第9条第2款。",
-      "text_reviewed": "3。参照适用《城市空中交通促进和支持法》实施法令第9条第2款。",
-      "review_status": "PENDING"
+      "text_reviewed": "3. 依据施行令第9条第2款准用的施行令第8条第2款或第3款提交的意见及其处理结果文件",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00053",
@@ -13148,10 +13378,15 @@
       "end": null,
       "target_id": "XML:1906801",
       "source_hash": "635782c3d196e9d03cebd9b960f5de080673630bcc7a0848947db6ad0f87b407",
-      "text": "关于依据同一法令第8条第2款或第3款提交的意见及其处理结果",
+      "text": "（意见及处理结果文件续）",
       "text_original": "关于依据同一法令第8条第2款或第3款提交的意见及其处理结果",
-      "text_reviewed": "关于依据同一法令第8条第2款或第3款提交的意见及其处理结果",
-      "review_status": "PENDING"
+      "text_reviewed": "（意见及处理结果文件续）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00054",
@@ -13162,10 +13397,15 @@
       "end": null,
       "target_id": "XML:1906802",
       "source_hash": "26c0be857543a06548cadd5e2e02798da89ac9340a53d5e8cf78857406f32720",
-      "text": "文件（不包括依据同一法令第9条第3款申请变更细微事项的情况）",
+      "text": "（但申请变更施行令第9条第3款规定的轻微事项时除外）",
       "text_original": "文件（不包括依据同一法令第9条第3款申请变更细微事项的情况）",
-      "text_reviewed": "文件（不包括依据同一法令第9条第3款申请变更细微事项的情况）",
-      "review_status": "PENDING"
+      "text_reviewed": "（但申请变更施行令第9条第3款规定的轻微事项时除外）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00055",
@@ -13176,10 +13416,15 @@
       "end": null,
       "target_id": "XML:1906803",
       "source_hash": "3b1e70c51fe2e08b46a989de868edc7214426ae46f8f7fd63e6e45bd354be332",
-      "text": "4. 国土交通大臣认为变更试点运行区指定所必需的其他事项，并予以宣布",
+      "text": "4. 国土交通部长官认为变更试点运行区指定所必要并公告的其他文件",
       "text_original": "4. 国土交通大臣认为变更试点运行区指定所必需的其他事项，并予以宣布",
-      "text_reviewed": "4. 国土交通大臣认为变更试点运行区指定所必需的其他事项，并予以宣布",
-      "review_status": "PENDING"
+      "text_reviewed": "4. 国土交通部长官认为变更试点运行区指定所必要并公告的其他文件",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00056",
@@ -13190,10 +13435,15 @@
       "end": null,
       "target_id": "XML:1906804",
       "source_hash": "e90c4f2356666af132b34f3ae94098bd2d344b97c646f4f206cfea2a1c4f6980",
-      "text": "文档",
+      "text": "（其他文件）",
       "text_original": "文档",
-      "text_reviewed": "文档",
-      "review_status": "PENDING"
+      "text_reviewed": "（其他文件）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00057",
@@ -13204,10 +13454,15 @@
       "end": null,
       "target_id": "XML:1906805",
       "source_hash": "607c5321dfea2a9f2e92dddb4afcd497b065994c51f116b4b3a990db3f492184",
-      "text": "撤销指定",
+      "text": "撤销指定时",
       "text_original": "撤销指定",
-      "text_reviewed": "撤销指定",
-      "review_status": "PENDING"
+      "text_reviewed": "撤销指定时",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00058",
@@ -13218,10 +13473,15 @@
       "end": null,
       "target_id": "XML:1906806",
       "source_hash": "0c434f69fbdc72c7531eed5300fd16667af8eac2d48546edb9ef4e5c33c4b801",
-      "text": "1. 证明发布原因的文件",
+      "text": "1. 证明撤销事由的文件",
       "text_original": "1. 证明发布原因的文件",
-      "text_reviewed": "1. 证明发布原因的文件",
-      "review_status": "PENDING"
+      "text_reviewed": "1. 证明撤销事由的文件",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00059",
@@ -13232,10 +13492,15 @@
       "end": null,
       "target_id": "XML:1906807",
       "source_hash": "40e4bb0f68ee56778161237cf8f2a75668ddca0c87b4f6ca323a02ad0c8c22f6",
-      "text": "2. 国土交通大臣认为撤销试点运营区指定所必需的文件",
+      "text": "2. 国土交通部长官认为撤销试点运行区指定所必要并公告的其他文件",
       "text_original": "2. 国土交通大臣认为撤销试点运营区指定所必需的文件",
-      "text_reviewed": "2. 国土交通大臣认为撤销试点运营区指定所必需的文件",
-      "review_status": "PENDING"
+      "text_reviewed": "2. 国土交通部长官认为撤销试点运行区指定所必要并公告的其他文件",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00060",
@@ -13246,10 +13511,15 @@
       "end": null,
       "target_id": "XML:1906808",
       "source_hash": "d6d87e05c543e71cabaccf3ed61804e7e814d1a465e94f4fdc59f331ba61f822",
-      "text": "(后部)",
+      "text": "（背面）",
       "text_original": "(后部)",
-      "text_reviewed": "(后部)",
-      "review_status": "PENDING"
+      "text_reviewed": "（背面）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00061",
@@ -13260,10 +13530,15 @@
       "end": null,
       "target_id": "XML:1906809",
       "source_hash": "2879222415672d201abfe3e634d8339e67e1459aae97a4f34b023760aaf0d94f",
-      "text": "处理程序",
+      "text": "办理程序",
       "text_original": "处理程序",
-      "text_reviewed": "处理程序",
-      "review_status": "PENDING"
+      "text_reviewed": "办理程序",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00062",
@@ -13277,7 +13552,12 @@
       "text": "申请人",
       "text_original": "申请人",
       "text_reviewed": "申请人",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00063",
@@ -13291,7 +13571,12 @@
       "text": "处理机构",
       "text_original": "处理机构",
       "text_reviewed": "处理机构",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00064",
@@ -13302,10 +13587,15 @@
       "end": null,
       "target_id": "XML:1906812",
       "source_hash": "6045ac35eda734e8e40084e5263ba32bd22154df7f7e88b5fb20870804abbef4",
-      "text": "国土交通省（委托机构）",
+      "text": "国土交通部（受托机构）",
       "text_original": "国土交通省（委托机构）",
-      "text_reviewed": "国土交通省（委托机构）",
-      "review_status": "PENDING"
+      "text_reviewed": "国土交通部（受托机构）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00065",
@@ -13316,10 +13606,15 @@
       "end": null,
       "target_id": "XML:1906814",
       "source_hash": "d995d6ab415d91d191bafde064de400b1e66d82532d91ec0cc02d72258ce5cda",
-      "text": "收据",
+      "text": "受理",
       "text_original": "收据",
-      "text_reviewed": "收据",
-      "review_status": "PENDING"
+      "text_reviewed": "受理",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00066",
@@ -13330,10 +13625,15 @@
       "end": null,
       "target_id": "XML:1906815",
       "source_hash": "415c12cfe236ffa5094f9e3a7709063457a807995edc8ff53226e774fda2c5bd",
-      "text": "附件",
+      "text": "附件文件核查",
       "text_original": "附件",
-      "text_reviewed": "附件",
-      "review_status": "PENDING"
+      "text_reviewed": "附件文件核查",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00067",
@@ -13344,10 +13644,15 @@
       "end": null,
       "target_id": "XML:1906816",
       "source_hash": "b825f7fc259129967085ef1a9d043e695f10e24231906e3a63007935e73bbec9",
-      "text": "相关中央行政机关负责人，",
+      "text": "与有关中央行政机关负责人、",
       "text_original": "相关中央行政机关负责人，",
-      "text_reviewed": "相关中央行政机关负责人，",
-      "review_status": "PENDING"
+      "text_reviewed": "与有关中央行政机关负责人、",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00068",
@@ -13358,10 +13663,15 @@
       "end": null,
       "target_id": "XML:1906817",
       "source_hash": "4564d95ffa561119082c5ae6987690106e4e7d38cd89e1ce20bfca57bf2cd75a",
-      "text": "验证和审查",
+      "text": "确认及审查",
       "text_original": "验证和审查",
-      "text_reviewed": "验证和审查",
-      "review_status": "PENDING"
+      "text_reviewed": "确认及审查",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00069",
@@ -13372,10 +13682,15 @@
       "end": null,
       "target_id": "XML:1906818",
       "source_hash": "bc7efca1c505bb26c6e12a35a27cc29ef68b80ce481cfbcef1c5b95fbc0712f1",
-      "text": "相关公共机构负责人和",
+      "text": "有关公共机构负责人及",
       "text_original": "相关公共机构负责人和",
-      "text_reviewed": "相关公共机构负责人和",
-      "review_status": "PENDING"
+      "text_reviewed": "有关公共机构负责人及",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00070",
@@ -13386,10 +13701,15 @@
       "end": null,
       "target_id": "XML:1906819",
       "source_hash": "f39affe79bfa3514975a0b74d397fe2f27639e84ed1258169876888a3880a52d",
-      "text": "与相关市/省长协商",
+      "text": "相关市、道知事协商",
       "text_original": "与相关市/省长协商",
-      "text_reviewed": "与相关市/省长协商",
-      "review_status": "PENDING"
+      "text_reviewed": "相关市、道知事协商",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00071",
@@ -13403,7 +13723,12 @@
       "text": "审查",
       "text_original": "审查",
       "text_reviewed": "审查",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00072",
@@ -13414,10 +13739,15 @@
       "end": null,
       "target_id": "XML:1906821",
       "source_hash": "323c58d204c54a7cbec478e2385c5d0abe7ac40f97616b797c378c6bfe4d4e05",
-      "text": "? 与相关机构磋商结果",
+      "text": "（有关机构协商结果）",
       "text_original": "? 与相关机构磋商结果",
-      "text_reviewed": "? 与相关机构磋商结果",
-      "review_status": "PENDING"
+      "text_reviewed": "（有关机构协商结果）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00073",
@@ -13428,10 +13758,15 @@
       "end": null,
       "target_id": "XML:1906822",
       "source_hash": "ca0cbcf2e1dd44e0bc9a25bb2497c1635f5e5f39546c9d1e3119818a3b8ba3a3",
-      "text": "？该区域内居民的意见等（指定·",
+      "text": "（区域内居民意见等）",
       "text_original": "？该区域内居民的意见等（指定·",
-      "text_reviewed": "？该区域内居民的意见等（指定·",
-      "review_status": "PENDING"
+      "text_reviewed": "（区域内居民意见等）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00074",
@@ -13442,10 +13777,15 @@
       "end": null,
       "target_id": "XML:1906823",
       "source_hash": "9957a0590e654a3290efb0c4a0b1650ac23d1e9d1cffdb99b4eaa7fc101977b5",
-      "text": "（更改时）",
+      "text": "（指定或变更时）",
       "text_original": "（更改时）",
-      "text_reviewed": "（更改时）",
-      "review_status": "PENDING"
+      "text_reviewed": "（指定或变更时）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00075",
@@ -13456,10 +13796,15 @@
       "end": null,
       "target_id": "XML:1906824",
       "source_hash": "a691ab8a177914b42451fe86ed03b4d15a5671a902f7500454a25ba7ed2866ac",
-      "text": "？有效状态等。",
+      "text": "（其他要求等）",
       "text_original": "？有效状态等。",
-      "text_reviewed": "？有效状态等。",
-      "review_status": "PENDING"
+      "text_reviewed": "（其他要求等）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00076",
@@ -13470,10 +13815,15 @@
       "end": null,
       "target_id": "XML:1906825",
       "source_hash": "fc154e49942e9f6460c3e19f071391facc49695bac1dcc8204c0938e90a287c0",
-      "text": "国家运输委员会审议",
+      "text": "国家交通委员会审议",
       "text_original": "国家运输委员会审议",
-      "text_reviewed": "国家运输委员会审议",
-      "review_status": "PENDING"
+      "text_reviewed": "国家交通委员会审议",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00077",
@@ -13484,10 +13834,15 @@
       "end": null,
       "target_id": "XML:1906826",
       "source_hash": "c6b609133ea3975823f9fb63b9ba51f317565080c56b3d2b60035b45f45b55e3",
-      "text": "飞行员操作区域",
+      "text": "试点运行区",
       "text_original": "飞行员操作区域",
-      "text_reviewed": "飞行员操作区域",
-      "review_status": "PENDING"
+      "text_reviewed": "试点运行区",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00078",
@@ -13498,10 +13853,15 @@
       "end": null,
       "target_id": "XML:1906827",
       "source_hash": "0a7689b516b2d90dfa7a83cb07e9a708c94b0c062a06eb10f293674800b4ed29",
-      "text": "决定是否指定、更改或发布",
+      "text": "决定是否指定、变更或撤销",
       "text_original": "决定是否指定、更改或发布",
-      "text_reviewed": "决定是否指定、更改或发布",
-      "review_status": "PENDING"
+      "text_reviewed": "决定是否指定、变更或撤销",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00079",
@@ -13515,7 +13875,12 @@
       "text": "通知",
       "text_original": "通知",
       "text_reviewed": "通知",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00080",
@@ -13526,10 +13891,15 @@
       "end": null,
       "target_id": "XML:1906829",
       "source_hash": "e5b925b0bbe5fb9457ad4aed53ee212f87a04efacb26a4fb88d517404a15fbee",
-      "text": "通知及相关机构通报",
+      "text": "向申请人及有关机构通知",
       "text_original": "通知及相关机构通报",
-      "text_reviewed": "通知及相关机构通报",
-      "review_status": "PENDING"
+      "text_reviewed": "向申请人及有关机构通知",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复试点运行区申请书中“飞行员作业区域”等误译、法条引用及附件材料/流程字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00001",
@@ -13540,10 +13910,15 @@
       "end": null,
       "target_id": "XML:1906830",
       "source_hash": "9a152a0c65d4a019a6e8b3084f7f2448ec3b779a488c0f287b9f00f5ece9a8da",
-      "text": "■ 城市空中交通促进支援法实施细则[附件5]",
+      "text": "■《促进和支持城市空中交通利用法施行规则》[附件5]",
       "text_original": "■ 城市空中交通促进支援法实施细则[附件5]",
-      "text_reviewed": "■ 城市空中交通促进支援法实施细则[附件5]",
-      "review_status": "PENDING"
+      "text_reviewed": "■《促进和支持城市空中交通利用法施行规则》[附件5]",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00002",
@@ -13554,10 +13929,15 @@
       "end": null,
       "target_id": "XML:1906831",
       "source_hash": "e2381566aa7c0b0e85718e883f226d45fe89923cbf75454621e07463f0b7297e",
-      "text": "垂直端口开发",
+      "text": "垂直起降场开发（许可、变更许可）申请书",
       "text_original": "垂直端口开发",
-      "text_reviewed": "垂直端口开发",
-      "review_status": "PENDING"
+      "text_reviewed": "垂直起降场开发（许可、变更许可）申请书",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00003",
@@ -13568,10 +13948,15 @@
       "end": null,
       "target_id": "XML:1906832",
       "source_hash": "3f059dad47e49c17e98acf1ce5c63cb7d6592605b05e0cde95ac4ac3c092803a",
-      "text": "] 权限",
+      "text": "[ ] 许可",
       "text_original": "] 权限",
-      "text_reviewed": "] 权限",
-      "review_status": "PENDING"
+      "text_reviewed": "[ ] 许可",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00004",
@@ -13582,10 +13967,15 @@
       "end": null,
       "target_id": "XML:1906833",
       "source_hash": "d756749ae151055bb3f2fb59a27fb00c3964fefb2a90809570b03e8c0189e1ab",
-      "text": "应用程序",
+      "text": "申请书",
       "text_original": "应用程序",
-      "text_reviewed": "应用程序",
-      "review_status": "PENDING"
+      "text_reviewed": "申请书",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00005",
@@ -13596,10 +13986,15 @@
       "end": null,
       "target_id": "XML:1906834",
       "source_hash": "d548ed451993f6fdc71346d62e7de33cfe401dccee74c3d0a3dc9de8a1fdfec1",
-      "text": "] 变更许可",
+      "text": "[ ] 变更许可",
       "text_original": "] 变更许可",
-      "text_reviewed": "] 变更许可",
-      "review_status": "PENDING"
+      "text_reviewed": "[ ] 变更许可",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00006",
@@ -13610,10 +14005,15 @@
       "end": null,
       "target_id": "XML:1906835",
       "source_hash": "d7158888efb89278ec374747d1a1b47fcd992c5bedcc6d899a007f0d087f7638",
-      "text": "在 [] 中勾选相应的方框，申请人不应填写深色背景的方框。",
+      "text": "※ 请在相应的[ ]内打√，深色背景栏由申请人以外的人员填写。",
       "text_original": "在 [] 中勾选相应的方框，申请人不应填写深色背景的方框。",
-      "text_reviewed": "在 [] 中勾选相应的方框，申请人不应填写深色背景的方框。",
-      "review_status": "PENDING"
+      "text_reviewed": "※ 请在相应的[ ]内打√，深色背景栏由申请人以外的人员填写。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00007",
@@ -13624,10 +14024,15 @@
       "end": null,
       "target_id": "XML:1906836",
       "source_hash": "b6ef554c92c1ee06c5c51142ea35929d24f513f49937876ea1d846a0a7057648",
-      "text": "（前端）",
+      "text": "（正面）",
       "text_original": "（前端）",
-      "text_reviewed": "（前端）",
-      "review_status": "PENDING"
+      "text_reviewed": "（正面）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00008",
@@ -13638,10 +14043,15 @@
       "end": null,
       "target_id": "XML:1906837",
       "source_hash": "b736160e9f7f0d321a2b458369e87ad0a76a9b7c00b4454ad463a28ce8d1d95b",
-      "text": "收据编号",
+      "text": "受理编号",
       "text_original": "收据编号",
-      "text_reviewed": "收据编号",
-      "review_status": "PENDING"
+      "text_reviewed": "受理编号",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00009",
@@ -13652,10 +14062,15 @@
       "end": null,
       "target_id": "XML:1906838",
       "source_hash": "5a4e38a1578eaec376cc5e1ad28f33f019956fc98d46f14b142cad94c5b1d1a5",
-      "text": "收据日期和时间",
+      "text": "受理日期及时间",
       "text_original": "收据日期和时间",
-      "text_reviewed": "收据日期和时间",
-      "review_status": "PENDING"
+      "text_reviewed": "受理日期及时间",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00010",
@@ -13685,10 +14100,15 @@
       "end": null,
       "target_id": "XML:1906840",
       "source_hash": "7d12be69e9dee5133875b3f795c77acfcde079e6732be0b3e176265d4db93563",
-      "text": "40 天",
+      "text": "40日",
       "text_original": "40 天",
-      "text_reviewed": "40 天",
-      "review_status": "PENDING"
+      "text_reviewed": "40日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00012",
@@ -13702,7 +14122,12 @@
       "text": "申请人",
       "text_original": "申请人",
       "text_reviewed": "申请人",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00013",
@@ -13713,10 +14138,15 @@
       "end": null,
       "target_id": "XML:1906842",
       "source_hash": "f4d1761059261db7f6d82ccd6941200ab87391b47810d478e7470d37050e2667",
-      "text": "名称（如果是公司，则填写公司名称及其代表姓名）",
+      "text": "姓名（法人时填写法人名称及代表人姓名）",
       "text_original": "名称（如果是公司，则填写公司名称及其代表姓名）",
-      "text_reviewed": "名称（如果是公司，则填写公司名称及其代表姓名）",
-      "review_status": "PENDING"
+      "text_reviewed": "姓名（法人时填写法人名称及代表人姓名）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00014",
@@ -13727,10 +14157,15 @@
       "end": null,
       "target_id": "XML:1906843",
       "source_hash": "fcf499d943a69cd0a7f49a2f56d1f62c47ab38e4a8a46df75dba413fe834c156",
-      "text": "出生日期（公司注册号）",
+      "text": "出生日期（法人登记号码）",
       "text_original": "出生日期（公司注册号）",
-      "text_reviewed": "出生日期（公司注册号）",
-      "review_status": "PENDING"
+      "text_reviewed": "出生日期（法人登记号码）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00015",
@@ -13741,10 +14176,15 @@
       "end": null,
       "target_id": "XML:1906844",
       "source_hash": "ef4403031e6e67eb6ff612ac7f030ff5fcf2e12e2b56fe2fa253adc78b0c68bb",
-      "text": "位置",
+      "text": "所在地",
       "text_original": "位置",
-      "text_reviewed": "位置",
-      "review_status": "PENDING"
+      "text_reviewed": "所在地",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00016",
@@ -13758,7 +14198,12 @@
       "text": "电话号码",
       "text_original": "电话号码",
       "text_reviewed": "电话号码",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00017",
@@ -13769,10 +14214,15 @@
       "end": null,
       "target_id": "XML:1906848",
       "source_hash": "e0bebb354d8f7f3b0c8204eb75c50bfa0454ca9797de7d5d8d4c1ddc4d77a399",
-      "text": "启动",
+      "text": "工程（事业）名称",
       "text_original": "启动",
-      "text_reviewed": "启动",
-      "review_status": "PENDING"
+      "text_reviewed": "工程（事业）名称",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00018",
@@ -13783,10 +14233,15 @@
       "end": null,
       "target_id": "XML:1906849",
       "source_hash": "5b910cd1473d913c6c858155675ff04b62c1bac78641367474fda3758421a496",
-      "text": "值",
+      "text": "（名称）",
       "text_original": "值",
-      "text_reviewed": "值",
-      "review_status": "PENDING"
+      "text_reviewed": "（名称）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00019",
@@ -13797,10 +14252,15 @@
       "end": null,
       "target_id": "XML:1906850",
       "source_hash": "1d7f9e27f01c9b1ee34304f2f5fc2262397ffdb23d5e6f014b755336b3e0d56f",
-      "text": "到达",
+      "text": "位置",
       "text_original": "到达",
-      "text_reviewed": "到达",
-      "review_status": "PENDING"
+      "text_reviewed": "位置",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00020",
@@ -13811,10 +14271,15 @@
       "end": null,
       "target_id": "XML:1906852",
       "source_hash": "380bd5afbff5e69e594365b95c9c0b48f1b5ff43b287de90e2161a0b497ab546",
-      "text": "完成",
+      "text": "许可对象",
       "text_original": "完成",
-      "text_reviewed": "完成",
-      "review_status": "PENDING"
+      "text_reviewed": "许可对象",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00021",
@@ -13825,10 +14290,15 @@
       "end": null,
       "target_id": "XML:1906853",
       "source_hash": "396159745e203d0de79fc70ad06731e7c3d747858c5618b1497bff4f8a6bf4b1",
-      "text": "锣声",
+      "text": "（工程名称）",
       "text_original": "锣声",
-      "text_reviewed": "锣声",
-      "review_status": "PENDING"
+      "text_reviewed": "（工程名称）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00022",
@@ -13839,10 +14309,15 @@
       "end": null,
       "target_id": "XML:1906854",
       "source_hash": "8c568cd5cfb56bacef33b9aa11a9be8c6e7e402d0618bec16a9aa807b6818b81",
-      "text": "预计日期",
+      "text": "预计开工日期",
       "text_original": "预计日期",
-      "text_reviewed": "预计日期",
-      "review_status": "PENDING"
+      "text_reviewed": "预计开工日期",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00023",
@@ -13853,10 +14328,15 @@
       "end": null,
       "target_id": "XML:1906855",
       "source_hash": "8c568cd5cfb56bacef33b9aa11a9be8c6e7e402d0618bec16a9aa807b6818b81",
-      "text": "预计日期",
+      "text": "预计竣工日期",
       "text_original": "预计日期",
-      "text_reviewed": "预计日期",
-      "review_status": "PENDING"
+      "text_reviewed": "预计竣工日期",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00024",
@@ -13867,10 +14347,15 @@
       "end": null,
       "target_id": "XML:1906856",
       "source_hash": "3cd62cb5fb6e0683ff7317396e627b076186d293fa47b1c602205169a03c6204",
-      "text": "《城市空中交通利用促进支援法》第九条第二款及其实施细则",
+      "text": "依据《促进和支持城市空中交通利用法》第9条第2款及同法施行规则第10条第1款",
       "text_original": "《城市空中交通利用促进支援法》第九条第二款及其实施细则",
-      "text_reviewed": "《城市空中交通利用促进支援法》第九条第二款及其实施细则",
-      "review_status": "PENDING"
+      "text_reviewed": "依据《促进和支持城市空中交通利用法》第9条第2款及同法施行规则第10条第1款",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00025",
@@ -13884,7 +14369,12 @@
       "text": "第10条第1款",
       "text_original": "第10条第1款",
       "text_reviewed": "第10条第1款",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00026",
@@ -13898,7 +14388,12 @@
       "text": "第10条第2款",
       "text_original": "第10条第2款",
       "text_reviewed": "第10条第2款",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00027",
@@ -13909,10 +14404,15 @@
       "end": null,
       "target_id": "XML:1906859",
       "source_hash": "810598d72e49a5007291b7bf5d1b78d16989735c4a94b9effe0ae6d8c662c44b",
-      "text": "和",
+      "text": "申请垂直起降场开发许可的",
       "text_original": "和",
-      "text_reviewed": "和",
-      "review_status": "PENDING"
+      "text_reviewed": "申请垂直起降场开发许可的",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00028",
@@ -13923,10 +14423,15 @@
       "end": null,
       "target_id": "XML:1906860",
       "source_hash": "5a736ca28185378140b1a6deae71b111be08598476e5602461432733ee51ed94",
-      "text": ".",
+      "text": "（申请事项）",
       "text_original": ".",
-      "text_reviewed": ".",
-      "review_status": "PENDING"
+      "text_reviewed": "（申请事项）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00029",
@@ -13937,10 +14442,15 @@
       "end": null,
       "target_id": "XML:1906861",
       "source_hash": "3f059dad47e49c17e98acf1ce5c63cb7d6592605b05e0cde95ac4ac3c092803a",
-      "text": "] 权限",
+      "text": "许可",
       "text_original": "] 权限",
-      "text_reviewed": "] 权限",
-      "review_status": "PENDING"
+      "text_reviewed": "许可",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00030",
@@ -13951,10 +14461,15 @@
       "end": null,
       "target_id": "XML:1906862",
       "source_hash": "d548ed451993f6fdc71346d62e7de33cfe401dccee74c3d0a3dc9de8a1fdfec1",
-      "text": "] 变更许可",
+      "text": "变更许可",
       "text_original": "] 变更许可",
-      "text_reviewed": "] 变更许可",
-      "review_status": "PENDING"
+      "text_reviewed": "变更许可",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00031",
@@ -13965,10 +14480,15 @@
       "end": null,
       "target_id": "XML:1906863",
       "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
-      "text": "年份",
+      "text": "年",
       "text_original": "年份",
-      "text_reviewed": "年份",
-      "review_status": "PENDING"
+      "text_reviewed": "年",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00032",
@@ -13979,10 +14499,15 @@
       "end": null,
       "target_id": "XML:1906864",
       "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
-      "text": "月份",
+      "text": "月",
       "text_original": "月份",
-      "text_reviewed": "月份",
-      "review_status": "PENDING"
+      "text_reviewed": "月",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00033",
@@ -13996,7 +14521,12 @@
       "text": "日",
       "text_original": "日",
       "text_reviewed": "日",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00034",
@@ -14010,7 +14540,12 @@
       "text": "申请人",
       "text_original": "申请人",
       "text_reviewed": "申请人",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00035",
@@ -14035,10 +14570,15 @@
       "end": null,
       "target_id": "XML:1906868",
       "source_hash": "5d198bb5e838918707a8044806bdf8567e7d1a9dde69dc6d15d873ed679d8657",
-      "text": "国土交通部长",
+      "text": "国土交通部长官",
       "text_original": "国土交通部长",
-      "text_reviewed": "国土交通部长",
-      "review_status": "PENDING"
+      "text_reviewed": "国土交通部长官",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00037",
@@ -14066,7 +14606,12 @@
       "text": "受托机构负责人",
       "text_original": "受托机构负责人",
       "text_reviewed": "受托机构负责人",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00039",
@@ -14077,10 +14622,15 @@
       "end": null,
       "target_id": "XML:1906871",
       "source_hash": "ef1661bfe1d0b773aea1bc51daf1dfa70e9d997454acf123165fd7df67dc959c",
-      "text": "申请人",
+      "text": "申请人提交文件",
       "text_original": "申请人",
-      "text_reviewed": "申请人",
-      "review_status": "PENDING"
+      "text_reviewed": "申请人提交文件",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00040",
@@ -14091,10 +14641,15 @@
       "end": null,
       "target_id": "XML:1906872",
       "source_hash": "eb2f48543e4d60e5be26f0e03ec680f3500c9893487a83a4256280f72659842e",
-      "text": "开发许可",
+      "text": "申请许可时",
       "text_original": "开发许可",
-      "text_reviewed": "开发许可",
-      "review_status": "PENDING"
+      "text_reviewed": "申请许可时",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00041",
@@ -14105,10 +14660,15 @@
       "end": null,
       "target_id": "XML:1906873",
       "source_hash": "6bf917dfa5ffa84813abf0a362030a89181ee80c70427ec7943a22d83dc68e35",
-      "text": "1. 垂直起降场开发计划，包括以下内容",
+      "text": "1. 包含下列事项的垂直起降场开发计划书",
       "text_original": "1. 垂直起降场开发计划，包括以下内容",
-      "text_reviewed": "1. 垂直起降场开发计划，包括以下内容",
-      "review_status": "PENDING"
+      "text_reviewed": "1. 包含下列事项的垂直起降场开发计划书",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00042",
@@ -14119,10 +14679,15 @@
       "end": null,
       "target_id": "XML:1906874",
       "source_hash": "0313408cdf794fea03a1b1d6758e8ad6cc7c6a9f70b7256de98dafab6a45bf1a",
-      "text": "费用",
+      "text": "手续费",
       "text_original": "费用",
-      "text_reviewed": "费用",
-      "review_status": "PENDING"
+      "text_reviewed": "手续费",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00043",
@@ -14133,10 +14698,15 @@
       "end": null,
       "target_id": "XML:1906875",
       "source_hash": "9b9f765e005f6811c5e986daa041057cea83f9af6c19ca7d70a7ef3c9ab707c9",
-      "text": "待提交文档",
+      "text": "无",
       "text_original": "待提交文档",
-      "text_reviewed": "待提交文档",
-      "review_status": "PENDING"
+      "text_reviewed": "无",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00044",
@@ -14147,10 +14717,15 @@
       "end": null,
       "target_id": "XML:1906876",
       "source_hash": "6d9e045200c5895ef5ae5f1047e32ff46008fc8abb0530e9ddd546ff16427a49",
-      "text": "应用",
+      "text": "（开发计划书）",
       "text_original": "应用",
-      "text_reviewed": "应用",
-      "review_status": "PENDING"
+      "text_reviewed": "（开发计划书）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00045",
@@ -14161,10 +14736,15 @@
       "end": null,
       "target_id": "XML:1906877",
       "source_hash": "dd7e8bbcf86ce11f1e184fcf52a866dcab44c1b668a7a1a26f23e5d6d0ba4715",
-      "text": "A. 垂直起降场开发项目的发展目标",
+      "text": "a. 垂直起降场开发项目的开发目的",
       "text_original": "A. 垂直起降场开发项目的发展目标",
-      "text_reviewed": "A. 垂直起降场开发项目的发展目标",
-      "review_status": "PENDING"
+      "text_reviewed": "a. 垂直起降场开发项目的开发目的",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00046",
@@ -14175,10 +14755,15 @@
       "end": null,
       "target_id": "XML:1906878",
       "source_hash": "72ea3d64ace5bc9414498b815d4305c8867b0942a508179e0657ad60d1274daa",
-      "text": "否",
+      "text": "（开发目的）",
       "text_original": "否",
-      "text_reviewed": "否",
-      "review_status": "PENDING"
+      "text_reviewed": "（开发目的）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00047",
@@ -14189,10 +14774,15 @@
       "end": null,
       "target_id": "XML:1906879",
       "source_hash": "c560d6348a05fa00da35883ae888805899995dc5a99bb495e4b00d18fbb85b7a",
-      "text": "B. 垂直起降场开发项目实施期",
+      "text": "b. 垂直起降场开发项目的实施期间",
       "text_original": "B. 垂直起降场开发项目实施期",
-      "text_reviewed": "B. 垂直起降场开发项目实施期",
-      "review_status": "PENDING"
+      "text_reviewed": "b. 垂直起降场开发项目的实施期间",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00048",
@@ -14203,10 +14793,15 @@
       "end": null,
       "target_id": "XML:1906880",
       "source_hash": "46a734e76c6369898ad416eefdf50bbe9d65e0686be879fc5ca9f4feefe0975e",
-      "text": ". 规划中的垂直起降场开发地点的位置、范围和当前状态",
+      "text": "c. 计划开发的垂直起降场用地的位置、范围及现状",
       "text_original": ". 规划中的垂直起降场开发地点的位置、范围和当前状态",
-      "text_reviewed": ". 规划中的垂直起降场开发地点的位置、范围和当前状态",
-      "review_status": "PENDING"
+      "text_reviewed": "c. 计划开发的垂直起降场用地的位置、范围及现状",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00049",
@@ -14217,10 +14812,15 @@
       "end": null,
       "target_id": "XML:1906881",
       "source_hash": "8ea1bdc9f7af8aecc2bd20b3a7a79687f5910bf7965371c0d3f368e01555a702",
-      "text": "d. 此外，如果国土交通大臣认为有必要批准垂直起降场开发项目",
+      "text": "d. 国土交通部长官认为为许可垂直起降场开发项目所必要并公告的其他事项",
       "text_original": "d. 此外，如果国土交通大臣认为有必要批准垂直起降场开发项目",
-      "text_reviewed": "d. 此外，如果国土交通大臣认为有必要批准垂直起降场开发项目",
-      "review_status": "PENDING"
+      "text_reviewed": "d. 国土交通部长官认为为许可垂直起降场开发项目所必要并公告的其他事项",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00050",
@@ -14231,10 +14831,15 @@
       "end": null,
       "target_id": "XML:1906883",
       "source_hash": "3d649d3ce4ec90c2d8f022ab49628a664e178ae188660cf0872c868b77cd4e49",
-      "text": "2. 垂直起降场开发设施布局规划图",
+      "text": "2. 垂直起降场开发设施配置计划图",
       "text_original": "2. 垂直起降场开发设施布局规划图",
-      "text_reviewed": "2. 垂直起降场开发设施布局规划图",
-      "review_status": "PENDING"
+      "text_reviewed": "2. 垂直起降场开发设施配置计划图",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00051",
@@ -14245,10 +14850,15 @@
       "end": null,
       "target_id": "XML:1906884",
       "source_hash": "ce512d0d9063a1ec762bea12358c848de4959c484dec6b3fb0e825395c700ccc",
-      "text": "3. 按项目范围划分的预计项目成本规范（包括施工成本）",
+      "text": "3. 按事业内容分类的预计事业费用（包括工程费用）明细表",
       "text_original": "3. 按项目范围划分的预计项目成本规范（包括施工成本）",
-      "text_reviewed": "3. 按项目范围划分的预计项目成本规范（包括施工成本）",
-      "review_status": "PENDING"
+      "text_reviewed": "3. 按事业内容分类的预计事业费用（包括工程费用）明细表",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00052",
@@ -14259,10 +14869,15 @@
       "end": null,
       "target_id": "XML:1906885",
       "source_hash": "850c1b11ed5a3562e52a7e016a55047ad411f0210bff2378889eca7a6dccc199",
-      "text": "4. [致]《城市空中交通促进支援法实施细则》附件2",
+      "text": "4. 证明符合附件2规定标准的文件",
       "text_original": "4. [致]《城市空中交通促进支援法实施细则》附件2",
-      "text_reviewed": "4. [致]《城市空中交通促进支援法实施细则》附件2",
-      "review_status": "PENDING"
+      "text_reviewed": "4. 证明符合附件2规定标准的文件",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00053",
@@ -14273,10 +14888,15 @@
       "end": null,
       "target_id": "XML:1906887",
       "source_hash": "9b3a6c464d2eada35c58c91fda32dac1514d17c9220d04936727b6c4d1221e75",
-      "text": "允许更改",
+      "text": "申请变更许可时",
       "text_original": "允许更改",
-      "text_reviewed": "允许更改",
-      "review_status": "PENDING"
+      "text_reviewed": "申请变更许可时",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00054",
@@ -14287,10 +14907,15 @@
       "end": null,
       "target_id": "XML:1906888",
       "source_hash": "3dec3f20e781becf13524d928485094391f847887ecb156c8b8338f14100705b",
-      "text": "1. 说明垂直起降场开发项目变更原因及详情的文件",
+      "text": "1. 记载垂直起降场开发项目变更理由及变更内容的文件",
       "text_original": "1. 说明垂直起降场开发项目变更原因及详情的文件",
-      "text_reviewed": "1. 说明垂直起降场开发项目变更原因及详情的文件",
-      "review_status": "PENDING"
+      "text_reviewed": "1. 记载垂直起降场开发项目变更理由及变更内容的文件",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00055",
@@ -14301,10 +14926,15 @@
       "end": null,
       "target_id": "XML:1906889",
       "source_hash": "6d9e045200c5895ef5ae5f1047e32ff46008fc8abb0530e9ddd546ff16427a49",
-      "text": "应用",
+      "text": "（变更申请文件）",
       "text_original": "应用",
-      "text_reviewed": "应用",
-      "review_status": "PENDING"
+      "text_reviewed": "（变更申请文件）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00056",
@@ -14315,10 +14945,15 @@
       "end": null,
       "target_id": "XML:1906890",
       "source_hash": "ab4c0f4b5e47d356b5723eacbb8883a754ea1cc4f6ea2d077642c7669772248e",
-      "text": "2. 相关图纸规范及项目估算成本（含施工成本）（变更确认",
+      "text": "2. 相关图纸及预计事业费用（包括工程费用）明细表",
       "text_original": "2. 相关图纸规范及项目估算成本（含施工成本）（变更确认",
-      "text_reviewed": "2. 相关图纸规范及项目估算成本（含施工成本）（变更确认",
-      "review_status": "PENDING"
+      "text_reviewed": "2. 相关图纸及预计事业费用（包括工程费用）明细表",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00057",
@@ -14329,10 +14964,15 @@
       "end": null,
       "target_id": "XML:1906891",
       "source_hash": "393a17d6435a5ad6a1f68039d776579dd83ff427135670f76009691149d65777",
-      "text": "（仅当有必要时才附加）",
+      "text": "（仅在确认变更内容所必要时附具）",
       "text_original": "（仅当有必要时才附加）",
-      "text_reviewed": "（仅当有必要时才附加）",
-      "review_status": "PENDING"
+      "text_reviewed": "（仅在确认变更内容所必要时附具）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00058",
@@ -14343,10 +14983,15 @@
       "end": null,
       "target_id": "XML:1906892",
       "source_hash": "c9cacdac4264cd8d65fcfe64cd7438fcedd19f2619e8f6c02a97f03676d4ec7e",
-      "text": "联系",
+      "text": "经办人确认事项",
       "text_original": "联系",
-      "text_reviewed": "联系",
-      "review_status": "PENDING"
+      "text_reviewed": "经办人确认事项",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00059",
@@ -14357,10 +15002,15 @@
       "end": null,
       "target_id": "XML:1906893",
       "source_hash": "9a9f2914840f9c76c733d9c4d457eb08f608d3f9d27d6c16389d63b4bce953ca",
-      "text": "公司注册证书（仅适用于公司申请人）",
+      "text": "法人登记事项证明书（仅限申请人为法人时）",
       "text_original": "公司注册证书（仅适用于公司申请人）",
-      "text_reviewed": "公司注册证书（仅适用于公司申请人）",
-      "review_status": "PENDING"
+      "text_reviewed": "法人登记事项证明书（仅限申请人为法人时）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00060",
@@ -14390,10 +15040,15 @@
       "end": null,
       "target_id": "XML:1906895",
       "source_hash": "d6d87e05c543e71cabaccf3ed61804e7e814d1a465e94f4fdc59f331ba61f822",
-      "text": "(返回)",
+      "text": "（背面）",
       "text_original": "(返回)",
-      "text_reviewed": "(返回)",
-      "review_status": "PENDING"
+      "text_reviewed": "（背面）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00062",
@@ -14404,10 +15059,15 @@
       "end": null,
       "target_id": "XML:1906896",
       "source_hash": "2879222415672d201abfe3e634d8339e67e1459aae97a4f34b023760aaf0d94f",
-      "text": "处理程序",
+      "text": "办理程序",
       "text_original": "处理程序",
-      "text_reviewed": "处理程序",
-      "review_status": "PENDING"
+      "text_reviewed": "办理程序",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00063",
@@ -14421,7 +15081,12 @@
       "text": "申请人",
       "text_original": "申请人",
       "text_reviewed": "申请人",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00064",
@@ -14435,7 +15100,12 @@
       "text": "处理机构",
       "text_original": "处理机构",
       "text_reviewed": "处理机构",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00065",
@@ -14446,10 +15116,15 @@
       "end": null,
       "target_id": "XML:1906899",
       "source_hash": "6045ac35eda734e8e40084e5263ba32bd22154df7f7e88b5fb20870804abbef4",
-      "text": "国土交通省（委托机构）",
+      "text": "国土交通部（或受托机构）",
       "text_original": "国土交通省（委托机构）",
-      "text_reviewed": "国土交通省（委托机构）",
-      "review_status": "PENDING"
+      "text_reviewed": "国土交通部（或受托机构）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00066",
@@ -14460,10 +15135,15 @@
       "end": null,
       "target_id": "XML:1906901",
       "source_hash": "d995d6ab415d91d191bafde064de400b1e66d82532d91ec0cc02d72258ce5cda",
-      "text": "收据",
+      "text": "受理",
       "text_original": "收据",
-      "text_reviewed": "收据",
-      "review_status": "PENDING"
+      "text_reviewed": "受理",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00067",
@@ -14474,10 +15154,15 @@
       "end": null,
       "target_id": "XML:1906902",
       "source_hash": "415c12cfe236ffa5094f9e3a7709063457a807995edc8ff53226e774fda2c5bd",
-      "text": "附件",
+      "text": "附件文件核查",
       "text_original": "附件",
-      "text_reviewed": "附件",
-      "review_status": "PENDING"
+      "text_reviewed": "附件文件核查",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00068",
@@ -14488,10 +15173,15 @@
       "end": null,
       "target_id": "XML:1906903",
       "source_hash": "bc8336f874ce4d42a89f748ca8a9fd505f978dd7421d75bbecd563766fb90ff2",
-      "text": "相关中央行政机构负责人",
+      "text": "与有关中央行政机关负责人",
       "text_original": "相关中央行政机构负责人",
-      "text_reviewed": "相关中央行政机构负责人",
-      "review_status": "PENDING"
+      "text_reviewed": "与有关中央行政机关负责人",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00069",
@@ -14502,10 +15192,15 @@
       "end": null,
       "target_id": "XML:1906904",
       "source_hash": "4564d95ffa561119082c5ae6987690106e4e7d38cd89e1ce20bfca57bf2cd75a",
-      "text": "验证和审查",
+      "text": "确认及审查",
       "text_original": "验证和审查",
-      "text_reviewed": "验证和审查",
-      "review_status": "PENDING"
+      "text_reviewed": "确认及审查",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00070",
@@ -14516,10 +15211,15 @@
       "end": null,
       "target_id": "XML:1906905",
       "source_hash": "78ce42786d4a867edb7fcce86999f912c874954ffb75aaf3e39f8674297f9e01",
-      "text": "并与相关市/省长协商",
+      "text": "并与相关市、道知事协商",
       "text_original": "并与相关市/省长协商",
-      "text_reviewed": "并与相关市/省长协商",
-      "review_status": "PENDING"
+      "text_reviewed": "并与相关市、道知事协商",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00071",
@@ -14533,7 +15233,12 @@
       "text": "审查",
       "text_original": "审查",
       "text_reviewed": "审查",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00072",
@@ -14544,10 +15249,15 @@
       "end": null,
       "target_id": "XML:1906907",
       "source_hash": "323c58d204c54a7cbec478e2385c5d0abe7ac40f97616b797c378c6bfe4d4e05",
-      "text": "? 与相关机构磋商结果",
+      "text": "（有关机构协商结果）",
       "text_original": "? 与相关机构磋商结果",
-      "text_reviewed": "? 与相关机构磋商结果",
-      "review_status": "PENDING"
+      "text_reviewed": "（有关机构协商结果）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00073",
@@ -14558,10 +15268,15 @@
       "end": null,
       "target_id": "XML:1906908",
       "source_hash": "a691ab8a177914b42451fe86ed03b4d15a5671a902f7500454a25ba7ed2866ac",
-      "text": "？有效状态等。",
+      "text": "（其他审查事项）",
       "text_original": "？有效状态等。",
-      "text_reviewed": "？有效状态等。",
-      "review_status": "PENDING"
+      "text_reviewed": "（其他审查事项）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00074",
@@ -14572,10 +15287,15 @@
       "end": null,
       "target_id": "XML:1906909",
       "source_hash": "fc154e49942e9f6460c3e19f071391facc49695bac1dcc8204c0938e90a287c0",
-      "text": "国家运输委员会审议",
+      "text": "国家交通委员会审议",
       "text_original": "国家运输委员会审议",
-      "text_reviewed": "国家运输委员会审议",
-      "review_status": "PENDING"
+      "text_reviewed": "国家交通委员会审议",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00075",
@@ -14586,10 +15306,15 @@
       "end": null,
       "target_id": "XML:1906910",
       "source_hash": "c5d2558f04c05238336a06cb9c6ef0fe8a9c30e1853a7832caf0a8c02205a79a",
-      "text": "垂直起降场开发项目许可证或",
+      "text": "垂直起降场开发项目许可或",
       "text_original": "垂直起降场开发项目许可证或",
-      "text_reviewed": "垂直起降场开发项目许可证或",
-      "review_status": "PENDING"
+      "text_reviewed": "垂直起降场开发项目许可或",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00076",
@@ -14600,10 +15325,15 @@
       "end": null,
       "target_id": "XML:1906911",
       "source_hash": "ae671506e272ab6ec7ddac565a401b0ee37478b26b266ccc228219d5da14863f",
-      "text": "决定是否允许变更",
+      "text": "决定是否批准变更许可",
       "text_original": "决定是否允许变更",
-      "text_reviewed": "决定是否允许变更",
-      "review_status": "PENDING"
+      "text_reviewed": "决定是否批准变更许可",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00077",
@@ -14617,7 +15347,12 @@
       "text": "通知",
       "text_original": "通知",
       "text_reviewed": "通知",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00078",
@@ -14628,10 +15363,15 @@
       "end": null,
       "target_id": "XML:1906913",
       "source_hash": "e5b925b0bbe5fb9457ad4aed53ee212f87a04efacb26a4fb88d517404a15fbee",
-      "text": "通知及相关机构通报",
+      "text": "通知申请人及有关机构",
       "text_original": "通知及相关机构通报",
-      "text_reviewed": "通知及相关机构通报",
-      "review_status": "PENDING"
+      "text_reviewed": "通知申请人及有关机构",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复垂直起降场开发许可申请书中的术语、40日办理期限、许可选项及附件文件字段。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00001",
@@ -14642,10 +15382,15 @@
       "end": null,
       "target_id": "XML:1906914",
       "source_hash": "02a100291c7d0fac28983da765b052e5d6a30e15c14efcf20626b8a729599298",
-      "text": "■ 城市空中交通促进支援法实施细则 [附件6]",
+      "text": "■《促进和支持城市空中交通利用法施行规则》[附件6]",
       "text_original": "■ 城市空中交通促进支援法实施细则 [附件6]",
-      "text_reviewed": "■ 城市空中交通促进支援法实施细则 [附件6]",
-      "review_status": "PENDING"
+      "text_reviewed": "■《促进和支持城市空中交通利用法施行规则》[附件6]",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00002",
@@ -14656,10 +15401,15 @@
       "end": null,
       "target_id": "XML:1906915",
       "source_hash": "5c250f2d7815d45cdd654a1a7ee4952c6c9ca047618502356a3b8496d7864f60",
-      "text": "开发项目实施计划",
+      "text": "开发项目实施计划（批准、变更批准）申请书",
       "text_original": "开发项目实施计划",
-      "text_reviewed": "开发项目实施计划",
-      "review_status": "PENDING"
+      "text_reviewed": "开发项目实施计划（批准、变更批准）申请书",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00003",
@@ -14670,10 +15420,15 @@
       "end": null,
       "target_id": "XML:1906916",
       "source_hash": "b2d04a0658066b1ae3b9d84cf8f27321a195e0e55388148f68f67c9029660171",
-      "text": "] 授权",
+      "text": "[ ] 批准",
       "text_original": "] 授权",
-      "text_reviewed": "] 授权",
-      "review_status": "PENDING"
+      "text_reviewed": "[ ] 批准",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00004",
@@ -14684,10 +15439,15 @@
       "end": null,
       "target_id": "XML:1906917",
       "source_hash": "d756749ae151055bb3f2fb59a27fb00c3964fefb2a90809570b03e8c0189e1ab",
-      "text": "应用程序",
+      "text": "申请书",
       "text_original": "应用程序",
-      "text_reviewed": "应用程序",
-      "review_status": "PENDING"
+      "text_reviewed": "申请书",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00005",
@@ -14698,10 +15458,15 @@
       "end": null,
       "target_id": "XML:1906918",
       "source_hash": "4f015ac9c34e15ce4d31909c64fa11eb4974033ce0c88e1332b5d078bd4f6709",
-      "text": "] 更改授权",
+      "text": "[ ] 变更批准",
       "text_original": "] 更改授权",
-      "text_reviewed": "] 更改授权",
-      "review_status": "PENDING"
+      "text_reviewed": "[ ] 变更批准",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00006",
@@ -14712,10 +15477,15 @@
       "end": null,
       "target_id": "XML:1906919",
       "source_hash": "d7158888efb89278ec374747d1a1b47fcd992c5bedcc6d899a007f0d087f7638",
-      "text": "在 [] 中勾选相应的方框，申请人不应填写深色背景的方框。",
+      "text": "※ 请在相应的[ ]内打√，深色背景栏由申请人以外的人员填写。",
       "text_original": "在 [] 中勾选相应的方框，申请人不应填写深色背景的方框。",
-      "text_reviewed": "在 [] 中勾选相应的方框，申请人不应填写深色背景的方框。",
-      "review_status": "PENDING"
+      "text_reviewed": "※ 请在相应的[ ]内打√，深色背景栏由申请人以外的人员填写。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00007",
@@ -14726,10 +15496,15 @@
       "end": null,
       "target_id": "XML:1906920",
       "source_hash": "b736160e9f7f0d321a2b458369e87ad0a76a9b7c00b4454ad463a28ce8d1d95b",
-      "text": "收据编号",
+      "text": "受理编号",
       "text_original": "收据编号",
-      "text_reviewed": "收据编号",
-      "review_status": "PENDING"
+      "text_reviewed": "受理编号",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00008",
@@ -14740,10 +15515,15 @@
       "end": null,
       "target_id": "XML:1906921",
       "source_hash": "5a4e38a1578eaec376cc5e1ad28f33f019956fc98d46f14b142cad94c5b1d1a5",
-      "text": "收据日期和时间",
+      "text": "受理日期及时间",
       "text_original": "收据日期和时间",
-      "text_reviewed": "收据日期和时间",
-      "review_status": "PENDING"
+      "text_reviewed": "受理日期及时间",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00009",
@@ -14773,10 +15553,15 @@
       "end": null,
       "target_id": "XML:1906923",
       "source_hash": "d85851858d06af8258eb751e807caf602208c73e50a8f4418f94bee59fdbf166",
-      "text": "90天",
+      "text": "90日",
       "text_original": "90天",
-      "text_reviewed": "90天",
-      "review_status": "PENDING"
+      "text_reviewed": "90日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00011",
@@ -14790,7 +15575,12 @@
       "text": "申请人",
       "text_original": "申请人",
       "text_reviewed": "申请人",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00012",
@@ -14801,10 +15591,15 @@
       "end": null,
       "target_id": "XML:1906925",
       "source_hash": "f4d1761059261db7f6d82ccd6941200ab87391b47810d478e7470d37050e2667",
-      "text": "名称（如果是公司，则填写公司名称及其代表姓名）",
+      "text": "姓名（法人时填写法人名称及代表人姓名）",
       "text_original": "名称（如果是公司，则填写公司名称及其代表姓名）",
-      "text_reviewed": "名称（如果是公司，则填写公司名称及其代表姓名）",
-      "review_status": "PENDING"
+      "text_reviewed": "姓名（法人时填写法人名称及代表人姓名）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00013",
@@ -14815,10 +15610,15 @@
       "end": null,
       "target_id": "XML:1906926",
       "source_hash": "fcf499d943a69cd0a7f49a2f56d1f62c47ab38e4a8a46df75dba413fe834c156",
-      "text": "出生日期（公司注册号）",
+      "text": "出生日期（法人登记号码）",
       "text_original": "出生日期（公司注册号）",
-      "text_reviewed": "出生日期（公司注册号）",
-      "review_status": "PENDING"
+      "text_reviewed": "出生日期（法人登记号码）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00014",
@@ -14829,10 +15629,15 @@
       "end": null,
       "target_id": "XML:1906927",
       "source_hash": "ef4403031e6e67eb6ff612ac7f030ff5fcf2e12e2b56fe2fa253adc78b0c68bb",
-      "text": "位置",
+      "text": "所在地",
       "text_original": "位置",
-      "text_reviewed": "位置",
-      "review_status": "PENDING"
+      "text_reviewed": "所在地",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00015",
@@ -14846,7 +15651,12 @@
       "text": "电话号码",
       "text_original": "电话号码",
       "text_reviewed": "电话号码",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00016",
@@ -14857,10 +15667,15 @@
       "end": null,
       "target_id": "XML:1906931",
       "source_hash": "e0bebb354d8f7f3b0c8204eb75c50bfa0454ca9797de7d5d8d4c1ddc4d77a399",
-      "text": "启动",
+      "text": "名称",
       "text_original": "启动",
-      "text_reviewed": "启动",
-      "review_status": "PENDING"
+      "text_reviewed": "名称",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00017",
@@ -14871,10 +15686,15 @@
       "end": null,
       "target_id": "XML:1906932",
       "source_hash": "5b910cd1473d913c6c858155675ff04b62c1bac78641367474fda3758421a496",
-      "text": "值",
+      "text": "（开发项目名称）",
       "text_original": "值",
-      "text_reviewed": "值",
-      "review_status": "PENDING"
+      "text_reviewed": "（开发项目名称）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00018",
@@ -14888,7 +15708,12 @@
       "text": "许可日期",
       "text_original": "许可日期",
       "text_reviewed": "许可日期",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00019",
@@ -14899,10 +15724,15 @@
       "end": null,
       "target_id": "XML:1906934",
       "source_hash": "380bd5afbff5e69e594365b95c9c0b48f1b5ff43b287de90e2161a0b497ab546",
-      "text": "6月",
+      "text": "预计开工日期",
       "text_original": "6月",
-      "text_reviewed": "6月",
-      "review_status": "PENDING"
+      "text_reviewed": "预计开工日期",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00020",
@@ -14913,10 +15743,15 @@
       "end": null,
       "target_id": "XML:1906935",
       "source_hash": "396159745e203d0de79fc70ad06731e7c3d747858c5618b1497bff4f8a6bf4b1",
-      "text": "锣声",
+      "text": "预计竣工日期",
       "text_original": "锣声",
-      "text_reviewed": "锣声",
-      "review_status": "PENDING"
+      "text_reviewed": "预计竣工日期",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00021",
@@ -14927,10 +15762,15 @@
       "end": null,
       "target_id": "XML:1906936",
       "source_hash": "8c568cd5cfb56bacef33b9aa11a9be8c6e7e402d0618bec16a9aa807b6818b81",
-      "text": "预计日期",
+      "text": "工程（事业）名称",
       "text_original": "预计日期",
-      "text_reviewed": "预计日期",
-      "review_status": "PENDING"
+      "text_reviewed": "工程（事业）名称",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00022",
@@ -14941,10 +15781,15 @@
       "end": null,
       "target_id": "XML:1906938",
       "source_hash": "b918d5af77b8733a489218cf90ec744604ce4966780baaef23f3d1950a23813a",
-      "text": "周期",
+      "text": "工程（事业）期间",
       "text_original": "周期",
-      "text_reviewed": "周期",
-      "review_status": "PENDING"
+      "text_reviewed": "工程（事业）期间",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00023",
@@ -14955,10 +15800,15 @@
       "end": null,
       "target_id": "XML:1906939",
       "source_hash": "09c30a4ba493bb4819214dabb3243cc2d422d5201d9cafe21b71b4d91f1f42ce",
-      "text": "《城市空中交通利用促进支援法》第九条第七款及其实施细则",
+      "text": "依据《促进和支持城市空中交通利用法》第9条第7款及同法施行规则第12条第2款",
       "text_original": "《城市空中交通利用促进支援法》第九条第七款及其实施细则",
-      "text_reviewed": "《城市空中交通利用促进支援法》第九条第七款及其实施细则",
-      "review_status": "PENDING"
+      "text_reviewed": "依据《促进和支持城市空中交通利用法》第9条第7款及同法施行规则第12条第2款",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00024",
@@ -14969,10 +15819,15 @@
       "end": null,
       "target_id": "XML:1906940",
       "source_hash": "b9b647013f2a075148fbeb70a3e0f9fa409f33a54e4c650d90d7d9b4614c3b95",
-      "text": "第十二条第二款",
+      "text": "第12条第2款",
       "text_original": "第十二条第二款",
-      "text_reviewed": "第十二条第二款",
-      "review_status": "PENDING"
+      "text_reviewed": "第12条第2款",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00025",
@@ -14986,7 +15841,12 @@
       "text": "第13条第1款",
       "text_original": "第13条第1款",
       "text_reviewed": "第13条第1款",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00026",
@@ -14997,10 +15857,15 @@
       "end": null,
       "target_id": "XML:1906942",
       "source_hash": "60ae59ad8519f92a416195facf0a2c8393bf6089a6e1bcdf82bc567d8dd43002",
-      "text": "和",
+      "text": "申请开发项目实施计划",
       "text_original": "和",
-      "text_reviewed": "和",
-      "review_status": "PENDING"
+      "text_reviewed": "申请开发项目实施计划",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00027",
@@ -15011,10 +15876,15 @@
       "end": null,
       "target_id": "XML:1906943",
       "source_hash": "5a736ca28185378140b1a6deae71b111be08598476e5602461432733ee51ed94",
-      "text": ".",
+      "text": "（申请事项）",
       "text_original": ".",
-      "text_reviewed": ".",
-      "review_status": "PENDING"
+      "text_reviewed": "（申请事项）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00028",
@@ -15025,10 +15895,15 @@
       "end": null,
       "target_id": "XML:1906944",
       "source_hash": "b2d04a0658066b1ae3b9d84cf8f27321a195e0e55388148f68f67c9029660171",
-      "text": "] 授权",
+      "text": "批准",
       "text_original": "] 授权",
-      "text_reviewed": "] 授权",
-      "review_status": "PENDING"
+      "text_reviewed": "批准",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00029",
@@ -15039,10 +15914,15 @@
       "end": null,
       "target_id": "XML:1906945",
       "source_hash": "4f015ac9c34e15ce4d31909c64fa11eb4974033ce0c88e1332b5d078bd4f6709",
-      "text": "] 更改授权",
+      "text": "变更批准",
       "text_original": "] 更改授权",
-      "text_reviewed": "] 更改授权",
-      "review_status": "PENDING"
+      "text_reviewed": "变更批准",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00030",
@@ -15053,10 +15933,15 @@
       "end": null,
       "target_id": "XML:1906946",
       "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
-      "text": "年份",
+      "text": "年",
       "text_original": "年份",
-      "text_reviewed": "年份",
-      "review_status": "PENDING"
+      "text_reviewed": "年",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00031",
@@ -15067,10 +15952,15 @@
       "end": null,
       "target_id": "XML:1906947",
       "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
-      "text": "月份",
+      "text": "月",
       "text_original": "月份",
-      "text_reviewed": "月份",
-      "review_status": "PENDING"
+      "text_reviewed": "月",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00032",
@@ -15084,7 +15974,12 @@
       "text": "日",
       "text_original": "日",
       "text_reviewed": "日",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00033",
@@ -15098,7 +15993,12 @@
       "text": "申请人",
       "text_original": "申请人",
       "text_reviewed": "申请人",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00034",
@@ -15123,10 +16023,15 @@
       "end": null,
       "target_id": "XML:1906951",
       "source_hash": "5d198bb5e838918707a8044806bdf8567e7d1a9dde69dc6d15d873ed679d8657",
-      "text": "国土交通部长",
+      "text": "国土交通部长官",
       "text_original": "国土交通部长",
-      "text_reviewed": "国土交通部长",
-      "review_status": "PENDING"
+      "text_reviewed": "国土交通部长官",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00036",
@@ -15154,7 +16059,12 @@
       "text": "受托机构负责人",
       "text_original": "受托机构负责人",
       "text_reviewed": "受托机构负责人",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00038",
@@ -15165,10 +16075,15 @@
       "end": null,
       "target_id": "XML:1906954",
       "source_hash": "ef1661bfe1d0b773aea1bc51daf1dfa70e9d997454acf123165fd7df67dc959c",
-      "text": "申请人",
+      "text": "申请人提交文件",
       "text_original": "申请人",
-      "text_reviewed": "申请人",
-      "review_status": "PENDING"
+      "text_reviewed": "申请人提交文件",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00039",
@@ -15179,10 +16094,15 @@
       "end": null,
       "target_id": "XML:1906955",
       "source_hash": "8ae7d2efba2a09155b7d75a8a4d760fe642a1add7c6210e00d025b6a1dce9f85",
-      "text": "已批准",
+      "text": "申请批准时",
       "text_original": "已批准",
-      "text_reviewed": "已批准",
-      "review_status": "PENDING"
+      "text_reviewed": "申请批准时",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00040",
@@ -15193,10 +16113,15 @@
       "end": null,
       "target_id": "XML:1906956",
       "source_hash": "d72cdacca171f5826609630345ef447e79a5131dd8f35bb52ef73478030991b7",
-      "text": "1.《城市空中交通利用促进支援法》第9条第6款的每一项",
+      "text": "1. 包含本法第9条第6款各号所列事项的事业计划书",
       "text_original": "1.《城市空中交通利用促进支援法》第9条第6款的每一项",
-      "text_reviewed": "1.《城市空中交通利用促进支援法》第9条第6款的每一项",
-      "review_status": "PENDING"
+      "text_reviewed": "1. 包含本法第9条第6款各号所列事项的事业计划书",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00041",
@@ -15207,10 +16132,15 @@
       "end": null,
       "target_id": "XML:1906957",
       "source_hash": "0313408cdf794fea03a1b1d6758e8ad6cc7c6a9f70b7256de98dafab6a45bf1a",
-      "text": "费用",
+      "text": "手续费",
       "text_original": "费用",
-      "text_reviewed": "费用",
-      "review_status": "PENDING"
+      "text_reviewed": "手续费",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00042",
@@ -15221,10 +16151,15 @@
       "end": null,
       "target_id": "XML:1906958",
       "source_hash": "9b9f765e005f6811c5e986daa041057cea83f9af6c19ca7d70a7ef3c9ab707c9",
-      "text": "待提交文档",
+      "text": "无",
       "text_original": "待提交文档",
-      "text_reviewed": "待提交文档",
-      "review_status": "PENDING"
+      "text_reviewed": "无",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00043",
@@ -15235,10 +16170,15 @@
       "end": null,
       "target_id": "XML:1906959",
       "source_hash": "6d9e045200c5895ef5ae5f1047e32ff46008fc8abb0530e9ddd546ff16427a49",
-      "text": "应用",
+      "text": "（事业计划书）",
       "text_original": "应用",
-      "text_reviewed": "应用",
-      "review_status": "PENDING"
+      "text_reviewed": "（事业计划书）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00044",
@@ -15249,13 +16189,16 @@
       "end": null,
       "target_id": "XML:1906960",
       "source_hash": "bd756801b2c64a089e11b0169882ee151cfaa4789fae3fe2f70416e49e5ccaeb",
-      "text": "事业计划书（含事业计划内容）",
+      "text": "（申请材料）",
       "text_original": "商业计划书（含 START 详情）",
-      "text_reviewed": "事业计划书（含事业计划内容）",
+      "text_reviewed": "（申请材料）",
       "review_status": "REVIEWED_CORRECTED",
       "review_notes": [
         {
           "reason": "清除OCR/MTQ残留START，恢复附件文件名。"
+        },
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
         }
       ]
     },
@@ -15268,10 +16211,15 @@
       "end": null,
       "target_id": "XML:1906961",
       "source_hash": "72ea3d64ace5bc9414498b815d4305c8867b0942a508179e0657ad60d1274daa",
-      "text": "否",
+      "text": "（无）",
       "text_original": "否",
-      "text_reviewed": "否",
-      "review_status": "PENDING"
+      "text_reviewed": "（无）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00046",
@@ -15282,10 +16230,15 @@
       "end": null,
       "target_id": "XML:1906962",
       "source_hash": "8c48d7890d29aa3e105c8feb94ade58e211a5fa9da234a8260a9e1484d179133",
-      "text": "2. 国土交通大臣认为为批准实施发展项目所必需的其他情况",
+      "text": "2. 国土交通部长官认为批准开发项目实施所必要的其他文件",
       "text_original": "2. 国土交通大臣认为为批准实施发展项目所必需的其他情况",
-      "text_reviewed": "2. 国土交通大臣认为为批准实施发展项目所必需的其他情况",
-      "review_status": "PENDING"
+      "text_reviewed": "2. 国土交通部长官认为批准开发项目实施所必要的其他文件",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00047",
@@ -15296,10 +16249,15 @@
       "end": null,
       "target_id": "XML:1906963",
       "source_hash": "f069bec8b54f3e7697b33664f0efa5bd1bf03cb7d3c0027ddb0c3dfe6c1fbf9d",
-      "text": "确定",
+      "text": "（其他文件）",
       "text_original": "确定",
-      "text_reviewed": "确定",
-      "review_status": "PENDING"
+      "text_reviewed": "（其他文件）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00048",
@@ -15310,10 +16268,15 @@
       "end": null,
       "target_id": "XML:1906964",
       "source_hash": "c27c48719da510d1e9075e895b2d6df6dee7bd25f525628690713bef61f2a1a4",
-      "text": "更改授权",
+      "text": "申请变更批准时",
       "text_original": "更改授权",
-      "text_reviewed": "更改授权",
-      "review_status": "PENDING"
+      "text_reviewed": "申请变更批准时",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00049",
@@ -15324,10 +16287,15 @@
       "end": null,
       "target_id": "XML:1906965",
       "source_hash": "1bae88f44222bca65ee21b786d44dc6eaedf3e11e70ba8cd80baadb168fc1e63",
-      "text": "1. 说明变更原因和变更详情的文档",
+      "text": "1. 记载变更理由及变更内容的文件",
       "text_original": "1. 说明变更原因和变更详情的文档",
-      "text_reviewed": "1. 说明变更原因和变更详情的文档",
-      "review_status": "PENDING"
+      "text_reviewed": "1. 记载变更理由及变更内容的文件",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00050",
@@ -15338,10 +16306,15 @@
       "end": null,
       "target_id": "XML:1906966",
       "source_hash": "6d9e045200c5895ef5ae5f1047e32ff46008fc8abb0530e9ddd546ff16427a49",
-      "text": "应用",
+      "text": "（变更申请文件）",
       "text_original": "应用",
-      "text_reviewed": "应用",
-      "review_status": "PENDING"
+      "text_reviewed": "（变更申请文件）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00051",
@@ -15352,10 +16325,15 @@
       "end": null,
       "target_id": "XML:1906967",
       "source_hash": "ab4c0f4b5e47d356b5723eacbb8883a754ea1cc4f6ea2d077642c7669772248e",
-      "text": "2. 相关图纸规范及项目估算成本（含施工成本）（变更确认",
+      "text": "2. 相关图纸及预计事业费用（包括工程费用）明细表",
       "text_original": "2. 相关图纸规范及项目估算成本（含施工成本）（变更确认",
-      "text_reviewed": "2. 相关图纸规范及项目估算成本（含施工成本）（变更确认",
-      "review_status": "PENDING"
+      "text_reviewed": "2. 相关图纸及预计事业费用（包括工程费用）明细表",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00052",
@@ -15366,10 +16344,15 @@
       "end": null,
       "target_id": "XML:1906968",
       "source_hash": "393a17d6435a5ad6a1f68039d776579dd83ff427135670f76009691149d65777",
-      "text": "（仅当有必要时才附加）",
+      "text": "（仅在确认变更内容所必要时附具）",
       "text_original": "（仅当有必要时才附加）",
-      "text_reviewed": "（仅当有必要时才附加）",
-      "review_status": "PENDING"
+      "text_reviewed": "（仅在确认变更内容所必要时附具）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00053",
@@ -15380,10 +16363,15 @@
       "end": null,
       "target_id": "XML:1906969",
       "source_hash": "c9cacdac4264cd8d65fcfe64cd7438fcedd19f2619e8f6c02a97f03676d4ec7e",
-      "text": "联系",
+      "text": "经办人确认事项",
       "text_original": "联系",
-      "text_reviewed": "联系",
-      "review_status": "PENDING"
+      "text_reviewed": "经办人确认事项",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00054",
@@ -15394,10 +16382,15 @@
       "end": null,
       "target_id": "XML:1906970",
       "source_hash": "9a9f2914840f9c76c733d9c4d457eb08f608d3f9d27d6c16389d63b4bce953ca",
-      "text": "公司注册证书（仅适用于公司申请人）",
+      "text": "法人登记事项证明书（仅限申请人为法人时）",
       "text_original": "公司注册证书（仅适用于公司申请人）",
-      "text_reviewed": "公司注册证书（仅适用于公司申请人）",
-      "review_status": "PENDING"
+      "text_reviewed": "法人登记事项证明书（仅限申请人为法人时）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00055",
@@ -15408,10 +16401,15 @@
       "end": null,
       "target_id": "XML:1906971",
       "source_hash": "1a5be3c5938c8c2cedf096bb1485ce5f53335572edc7c3dbbf132e7bf9927045",
-      "text": "待验证事项",
+      "text": "确认事项",
       "text_original": "待验证事项",
-      "text_reviewed": "待验证事项",
-      "review_status": "PENDING"
+      "text_reviewed": "确认事项",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00056",
@@ -15422,10 +16420,15 @@
       "end": null,
       "target_id": "XML:1906972",
       "source_hash": "2879222415672d201abfe3e634d8339e67e1459aae97a4f34b023760aaf0d94f",
-      "text": "处理过程",
+      "text": "办理程序",
       "text_original": "处理过程",
-      "text_reviewed": "处理过程",
-      "review_status": "PENDING"
+      "text_reviewed": "办理程序",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00057",
@@ -15436,10 +16439,15 @@
       "end": null,
       "target_id": "XML:1906974",
       "source_hash": "7e75ad0a7ea4c419d8532ca6652de0d23b34f1ecc852de4b3aaa54ed418b29f3",
-      "text": "接受",
+      "text": "受理",
       "text_original": "接受",
-      "text_reviewed": "接受",
-      "review_status": "PENDING"
+      "text_reviewed": "受理",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00058",
@@ -15453,7 +16461,12 @@
       "text": "审查",
       "text_original": "审查",
       "text_reviewed": "审查",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00059",
@@ -15464,10 +16477,15 @@
       "end": null,
       "target_id": "XML:1906976",
       "source_hash": "95f917fe3d2584ffa811e126334250c6e45c6f42c924def5cbe91a50fb98d304",
-      "text": "完成 Re",
+      "text": "批准",
       "text_original": "完成 Re",
-      "text_reviewed": "完成 Re",
-      "review_status": "PENDING"
+      "text_reviewed": "批准",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00060",
@@ -15481,7 +16499,12 @@
       "text": "收到通知",
       "text_original": "收到通知",
       "text_reviewed": "收到通知",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00061",
@@ -15495,7 +16518,12 @@
       "text": "申请人",
       "text_original": "申请人",
       "text_reviewed": "申请人",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00062",
@@ -15509,7 +16537,12 @@
       "text": "处理机构",
       "text_original": "处理机构",
       "text_reviewed": "处理机构",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00063",
@@ -15523,7 +16556,12 @@
       "text": "处理机构",
       "text_original": "处理机构",
       "text_reviewed": "处理机构",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00064",
@@ -15537,7 +16575,12 @@
       "text": "处理机构",
       "text_original": "处理机构",
       "text_reviewed": "处理机构",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00065",
@@ -15551,7 +16594,12 @@
       "text": "申请人",
       "text_original": "申请人",
       "text_reviewed": "申请人",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00066",
@@ -15562,10 +16610,15 @@
       "end": null,
       "target_id": "XML:1906983",
       "source_hash": "4db01c80551e28d827d5d9f3325694f55523dc9e972c0080640a77cb25315e1d",
-      "text": "(国土交通部或",
+      "text": "（国土交通部或",
       "text_original": "(国土交通部或",
-      "text_reviewed": "(国土交通部或",
-      "review_status": "PENDING"
+      "text_reviewed": "（国土交通部或",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00067",
@@ -15579,7 +16632,12 @@
       "text": "（国土交通部）",
       "text_original": "（国土交通部）",
       "text_reviewed": "（国土交通部）",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00068",
@@ -15593,7 +16651,12 @@
       "text": "（国土交通部）",
       "text_original": "（国土交通部）",
       "text_reviewed": "（国土交通部）",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00069",
@@ -15604,10 +16667,15 @@
       "end": null,
       "target_id": "XML:1906986",
       "source_hash": "f34c8b69053f9e5989bbbc9ad8f5c4dc580e199d3812fd530f49f11f00c4281e",
-      "text": "受托人)",
+      "text": "受托机构）",
       "text_original": "受托人)",
-      "text_reviewed": "受托人)",
-      "review_status": "PENDING"
+      "text_reviewed": "受托机构）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复开发项目实施计划批准申请书中的批准/变更批准、90日办理期限、字段及附件要求。"
+        }
+      ]
     },
     {
       "id": "A27050-zh-00001",
