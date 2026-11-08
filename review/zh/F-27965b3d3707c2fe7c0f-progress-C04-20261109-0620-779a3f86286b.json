@@ -1,0 +1,52 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-27965b3d3707c2fe7c0f",
+  "worker": "C04",
+  "panel_id": "panel-04",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_commit": "8af815dbd55269bccbbd8330328dadf018b8bcb3",
+  "source_blobs": {
+    "ko": "349b2faece96bb6e77f2c29afe6ff88eec30f307",
+    "en": "da0546fcc12bef5d6a308cb8f661aa3671ad5919",
+    "zh": "46339c5ab85767bc0d99d88e7165e31e525c9021"
+  },
+  "assignment_marker": "[WORK-TASK:C04:F-27965b3d3707c2fe7c0f:779a3f86286b]",
+  "active_assignment_marker": "[WORK-TASK:C04:F-27965b3d3707c2fe7c0f:45a5a97a8053]",
+  "chat_url": "https://chatgpt.com/c/6af0e252-ace8-83ee-b5c3-f0e0ba9d60a5",
+  "scope": {
+    "documents": 42,
+    "zh_rows": 2808
+  },
+  "reading_evidence": {
+    "korean": {
+      "status": "READ_FULL",
+      "documents": 42,
+      "source_file_sha": "349b2faece96bb6e77f2c29afe6ff88eec30f307"
+    },
+    "english": {
+      "status": "READ_FULL_AVAILABLE_SOURCES",
+      "index_sha": "da0546fcc12bef5d6a308cb8f661aa3671ad5919",
+      "english_documents": 2,
+      "paths": [
+        "documents/en/kr-000202-265931-en.json",
+        "documents/en/kr-003759-283185-en.json"
+      ],
+      "missing_english_documents": 40,
+      "notes": "English index maps English source text to the Act and Enforcement Decree/associated appendices; no English documents are listed for the Enforcement Rule and its attached forms/annexes."
+    }
+  },
+  "chinese_review": {
+    "status": "NOT_STARTED",
+    "checked_rows": 0,
+    "total_rows": 2808,
+    "next_row_id": "B1-zh-00001",
+    "edits": []
+  },
+  "prior_work": {
+    "review_file": "NOT_FOUND",
+    "receipt_file": "NOT_FOUND",
+    "matching_progress_files": "NONE_FOUND"
+  },
+  "updated_at": "2026-11-09T06:20:00+09:00"
+}
