@@ -2,7 +2,7 @@
   "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-7423351d4946866bbacf",
   "worker": "C01",
-  "checked_rows": 49,
+  "checked_rows": 52,
   "edits": [
     {
       "id": "B1-zh-00065",
@@ -995,10 +995,22 @@
     {
       "id": "B3-zh-00047",
       "text": "第四十五条（促进水产品电子交易）\n① 根据本法第52条第1款规定进行电子交易的水产品，属于水产品。\n② 根据本法第52条第1款规定，渔业产品电子交易费用应按照下列各款的分类，向使用渔业产品电子交易平台（指海洋水产大臣根据本法第52条第1款第1项设立、运营和管理的渔业产品电子交易平台；以下简称“该平台”）的买卖双方收取的款项。\n1. 对于卖家：海鲜电子交易平台使用费和销售佣金\n2. 买方：水产品电子交易市场使用费\n③ 根据第2款第1项规定，销售佣金不得超过交易金额的千分之三十。\n\n"
+    },
+    {
+      "id": "B3-zh-00009",
+      "text": "第 7-2 条（对交易地点有限制的渔业产品）本法第 13-2 条中“海洋水产部条例规定的渔业产品”是指鳗鱼（不包括作为养殖苗种的鳗鱼）。\n\n"
+    },
+    {
+      "id": "B3-zh-00026",
+      "text": "第24条（违规处理标准等）\n① 本法第26条第2款第11项中，“不高于海洋水产部长官规定的标准”是指下列任何一种情况：\n1. 如果根据本法第21条第1款进行的评估结果显示，交易绩效的评估等级连续两次不高于海洋水产部长官确定并公告的等级，则\n2. 如果根据该法第21条第1款进行的评估结果显示，财务稳健性评估得分连续两次不高于鱼市平均得分的三分之二，则\n② 根据本法第26条第1款至第4款的规定，对违法行为进行处置的标准如附表1所示。\n\n"
+    },
+    {
+      "id": "B3-zh-00046",
+      "text": "第 44 条（支持渔业产品流通项目信息化的组织）本法第 51 条第 2 款中，“海洋水产部条例规定的与渔业产品有关的组织”是指下列各款所列的组织。\n1. 根据施行令第3条规定的生产者团体和生产者\n2. 根据该法第53条设立的渔业产品流通协会和根据该法第54条设立的渔业产品流通相关组织\n\n"
     }
   ],
   "status": "IN_PROGRESS",
-  "note": "IN_PROGRESS. 248 distinct preserved edits. New: B3 Arts 7(1),35(2),45(2)3 corrections of paragraph/item citation, dedicated Korean institute's official name, and buyer's fee obligation. Original Korean/English/Chinese SHA unchanged. Full legal-family semantic verification of 1207 Chinese cells, annex/form XML continuity NOT complete. No COMPLETE receipt.",
+  "note": "IN_PROGRESS. 251 distinct Chinese source rows corrected; retained previous 248 corrections. New B3 Art 7-2 breeding seed eel exception, Art 24 inclusive 'at or below' thresholds, Art 44 producer groups pursuant to Enforcement Decree 3. Source SHA unchanged; Rule/annex/form lacks independent English. Entire 1207-row family semantic and source XML cell alignment not yet certified; no COMPLETE receipt.",
   "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
   "source_sha": {
     "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
