@@ -1,0 +1,32 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-31334bc4303ae2cb3d80",
+  "worker": "C06",
+  "status": "IN_PROGRESS",
+  "document": "A22639",
+  "source_progress_sha": "dff3678b5188d17046f96395fdcc59a1450a0a33",
+  "previous_quality_sha": "76155a4aed6c678d97ff52996849d57935f48448",
+  "ko_sha": "d6d795ff1ece4a82663a83efd46f7f73afa7fbbb",
+  "zh_sha": "7a6d1e8d841fb3b27185d6d4a6b811149d604dc0",
+  "checks": [
+    {
+      "id": "A22639-zh-00029",
+      "korean_evidence": "운항승무원 │ [빈 인원수 칸]",
+      "original_text": "船员（人员）",
+      "candidate_text": "乘务员（人）",
+      "verdict": "NEEDS_REVIEW",
+      "final_text": null,
+      "reason": "원문 표의 운항승무원 셀은 이미 00030 驾驶舱机组人员로 연결돼 있으며, 00029 후보를 단독 채택하면 중복 또는 비어 있는 값 칸의 오역 우려"
+    },
+    {
+      "id": "A22639-zh-00032",
+      "korean_evidence": "객실승무원 │ [빈 인원수 칸]",
+      "original_text": "子",
+      "candidate_text": "人员",
+      "verdict": "NEEDS_REVIEW",
+      "final_text": null,
+      "reason": "원문 객실승무원은 00031 客舱乘务员로 대응하며 00032의 독립 人员 추가는 표 구조와 불일치할 가능성이 있어 원본 XML 셀 대응 필요"
+    }
+  ],
+  "note": "Unresolved split-table cell mappings are preserved as pending. This is not a COMPLETE semantic QA or a final review."
+}
