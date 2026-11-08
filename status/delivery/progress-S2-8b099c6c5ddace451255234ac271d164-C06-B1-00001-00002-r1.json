@@ -1,0 +1,26 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-30bcdff2a0a276264f49",
+  "worker": "C06",
+  "source_blobs": {
+    "ko": "ab1e418ab644e0e597cc68e9cf9d6a3376b47122",
+    "zh": "370248c62ce5c3a6932214f87be6c465b730595b"
+  },
+  "checked_rows": 2,
+  "checked_ids": [
+    "B1-zh-00001",
+    "B1-zh-00002"
+  ],
+  "edits": [
+    {
+      "id": "B1-zh-00001",
+      "text": "《关于特殊任务执行人员补偿的法律》"
+    },
+    {
+      "id": "B1-zh-00002",
+      "text": "第一条（目的）本法旨在通过向因特殊任务而为国家作出特别牺牲的特殊任务执行人员及其遗属给予必要补偿，保障特殊任务执行人员及其遗属的生活安定，并促进国民团结。\n\n"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "note": "Compared Korean source B1 title and Article 1 with original Chinese row IDs; preserves all prior files. Not a whole-family completion."
+}
