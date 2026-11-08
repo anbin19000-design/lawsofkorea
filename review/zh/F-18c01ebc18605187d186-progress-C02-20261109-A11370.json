@@ -1,0 +1,85 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-18c01ebc18605187d186",
+  "family_id": "F-18c01ebc18605187d186",
+  "worker": "C02",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "1805b1dd08b6fb873f41f2ecc4a176f21df600e7",
+    "en": "012c37af32361e00852ac15d80479e7420c1c02b",
+    "zh": "33f05fab4e90982af82e2021dd54235f11428a33"
+  },
+  "document": "A11370",
+  "document_title": "행정처분대장",
+  "checked_rows": 14,
+  "corrected_rows": 9,
+  "edits": [
+    {
+      "id": "A11370-zh-00004",
+      "text": "文书编号及",
+      "source_hash": "59631edb8c985e2ab18851fa1b0762969be94d4dc3f2e2d35a7d6abae16c36d0",
+      "target_id": "XML:840916",
+      "source_progress": "C02 sequential A11370 review against complete Korean Enforcement Rule Form 13; restored split table headings and corrected mixed-language mistranslations. No English source exists."
+    },
+    {
+      "id": "A11370-zh-00005",
+      "text": "设施（机构",
+      "source_hash": "b6d2f120a3e8593b4d9f60d37109ef86fbd4c9c8b569477aa38da7889ba25653",
+      "target_id": "XML:840917",
+      "source_progress": "C02 sequential A11370 review against complete Korean Enforcement Rule Form 13; restored split table headings and corrected mixed-language mistranslations. No English source exists."
+    },
+    {
+      "id": "A11370-zh-00006",
+      "text": "所在地",
+      "source_hash": "ef4403031e6e67eb6ff612ac7f030ff5fcf2e12e2b56fe2fa253adc78b0c68bb",
+      "target_id": "XML:840918",
+      "source_progress": "C02 sequential A11370 review against complete Korean Enforcement Rule Form 13; restored split table headings and corrected mixed-language mistranslations. No English source exists."
+    },
+    {
+      "id": "A11370-zh-00007",
+      "text": "代表人",
+      "source_hash": "7bdbbfa1a6f2c065dc71d6c5479f207830048667134efede03f4a3beb9b42c68",
+      "target_id": "XML:840919",
+      "source_progress": "C02 sequential A11370 review against complete Korean Enforcement Rule Form 13; restored split table headings and corrected mixed-language mistranslations. No English source exists."
+    },
+    {
+      "id": "A11370-zh-00008",
+      "text": "违法事项",
+      "source_hash": "a8c6ec9751108c0cd154bf2990cad44773b4bc14094baec9729ef1af9e9b90e7",
+      "target_id": "XML:840920",
+      "source_progress": "C02 sequential A11370 review against complete Korean Enforcement Rule Form 13; restored split table headings and corrected mixed-language mistranslations. No English source exists."
+    },
+    {
+      "id": "A11370-zh-00009",
+      "text": "处分内容及",
+      "source_hash": "3a59ca10cf5447fcc927ca5361540959abe7ed1933bca3d43a89551c1e327560",
+      "target_id": "XML:840921",
+      "source_progress": "C02 sequential A11370 review against complete Korean Enforcement Rule Form 13; restored split table headings and corrected mixed-language mistranslations. No English source exists."
+    },
+    {
+      "id": "A11370-zh-00011",
+      "text": "发文日期",
+      "source_hash": "4bd008140d6691a4f41217e6a5e6eac80dbb3e08e2c1d27034bdbaed2e2bce17",
+      "target_id": "XML:840923",
+      "source_progress": "C02 sequential A11370 review against complete Korean Enforcement Rule Form 13; restored split table headings and corrected mixed-language mistranslations. No English source exists."
+    },
+    {
+      "id": "A11370-zh-00012",
+      "text": "）名称",
+      "source_hash": "1bfe75e8f5263b5166fede4d711384a0c8b30a3a398a74202771efad6b152ebe",
+      "target_id": "XML:840924",
+      "source_progress": "C02 sequential A11370 review against complete Korean Enforcement Rule Form 13; restored split table headings and corrected mixed-language mistranslations. No English source exists."
+    },
+    {
+      "id": "A11370-zh-00013",
+      "text": "期限",
+      "source_hash": "b918d5af77b8733a489218cf90ec744604ce4966780baaef23f3d1950a23813a",
+      "target_id": "XML:840925",
+      "source_progress": "C02 sequential A11370 review against complete Korean Enforcement Rule Form 13; restored split table headings and corrected mixed-language mistranslations. No English source exists."
+    }
+  ],
+  "checkpoint_id": "C02-20261109-A11370-CHECKED",
+  "checkpoint_note": "A11370 (Enforcement Rule Form 13: administrative disposition register) all 14 Chinese rows checked against complete Korean table. Corrected mixed-language/split headings for document number and dispatch date, facility/agency name, location, representative, violation, disposition details and period. No English source exists. Resume at A11371; family remains IN_PROGRESS.",
+  "previous_review_sha": "64def7cd60dcc56f6cbf9f50f833d1807fac1100"
+}
