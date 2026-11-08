@@ -1,0 +1,37 @@
+{
+  "schema": "LAW_ZH_REVIEW_AUDIT_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "status": "IN_PROGRESS",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:7fc1cb889e6b]",
+  "source_blobs": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "review_path": "review/zh/F-7423351d4946866bbacf.json",
+  "review_blob": "492a60b99dae851b6f5c07e7328bd29f2ffe05a7",
+  "source_documents": 16,
+  "source_rows": 1207,
+  "prior_edits": 232,
+  "current_edits": 233,
+  "verified_this_pass": [
+    {
+      "id": "B1-zh-00040",
+      "article": "Act Article 35(1)1",
+      "issue": "활어·선어·냉동수산물 incorrectly rendered as 活鲜、鲜冻海产品, obscuring live fish/fresh fish/frozen products",
+      "correction": "活鱼、鲜鱼和冷冻水产品"
+    }
+  ],
+  "preserved_prior_edits": true,
+  "full_semantic_review_completed": false,
+  "unresolved_xml_punctuation_ids": [
+    "A38090-zh-00012",
+    "A23947-zh-00010",
+    "A23948-zh-00013",
+    "A23948-zh-00019",
+    "A23951-zh-00017"
+  ],
+  "complete_receipt_issued": false,
+  "next_scope": "Continue semantic comparison of remaining rows in all 16 documents, especially decree/rule annexes and forms; validate XML cell alignment before editing punctuation-only source cells. Do not issue COMPLETE until all rows verified."
+}
