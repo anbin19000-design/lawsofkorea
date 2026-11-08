@@ -1,0 +1,28 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "checked_rows": 0,
+  "quality_checked_rows": 0,
+  "quality_checked_ids": [],
+  "edits": [],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "duplicate_reconciliation": {
+    "authoritative_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-R1.json",
+    "duplicate_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-next-A26693-A26701-MTQ-20261108.json",
+    "duplicate_ids": [
+      "A26693-zh-00007",
+      "A26701-zh-00007"
+    ],
+    "match": "identical id/source_hash/text",
+    "count_as_new_edits": 0,
+    "authoritative_sha": "4bfc778a7787129a0f76e9f5731d7dcc8eff5ad5",
+    "duplicate_sha": "b391e9661860f679bcc0fb8fcca5844120e67d14"
+  },
+  "supersedes": [
+    "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-next-A26693-A26701-MTQ-20261108.json"
+  ],
+  "note": "Correction: two identical MTQ edits already existed in C03-R1; the later record is duplicate-only and must not increase unique corrected or checked ID totals. Preserve both old files and all hashes. Not COMPLETE."
+}
