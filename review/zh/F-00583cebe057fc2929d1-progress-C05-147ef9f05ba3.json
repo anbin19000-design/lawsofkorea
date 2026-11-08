@@ -1,0 +1,238 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "family": "실용신안법",
+  "worker": "C05",
+  "panel": "panel-05",
+  "status": "IN_PROGRESS",
+  "branch": "main",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "worker_conversation": "https://chatgpt.com/c/6af05978-8920-83e8-901c-76e3cccfde42",
+  "canonical_review": {
+    "path": "review/zh/F-00583cebe057fc2929d1.json",
+    "blob_sha": "3870761e31840a16e286dfa9599a7afbf907482c",
+    "schema": "WORKC_ZH_FAMILY_REVIEW_V1",
+    "status": "IN_PROGRESS",
+    "corrections": 344,
+    "coverage": {
+      "total_rows": 1374,
+      "distinct_rows": 1374,
+      "correction_count": 344,
+      "pending_rows": 86,
+      "by_document": {
+        "B1": {
+          "total": 196,
+          "corrected": 105,
+          "pending": 0
+        },
+        "B2": {
+          "total": 81,
+          "corrected": 46,
+          "pending": 0
+        },
+        "A29604": {
+          "total": 63,
+          "corrected": 34,
+          "pending": 58
+        },
+        "B3": {
+          "total": 117,
+          "corrected": 79,
+          "pending": 0
+        },
+        "A8690": {
+          "total": 509,
+          "corrected": 63,
+          "pending": 0
+        },
+        "A8691": {
+          "total": 38,
+          "corrected": 8,
+          "pending": 0
+        },
+        "A8692": {
+          "total": 20,
+          "corrected": 0,
+          "pending": 0
+        },
+        "A8693": {
+          "total": 20,
+          "corrected": 0,
+          "pending": 6
+        },
+        "A8694": {
+          "total": 21,
+          "corrected": 0,
+          "pending": 0
+        },
+        "A8695": {
+          "total": 21,
+          "corrected": 0,
+          "pending": 0
+        },
+        "A8696": {
+          "total": 20,
+          "corrected": 0,
+          "pending": 0
+        },
+        "A8697": {
+          "total": 21,
+          "corrected": 0,
+          "pending": 0
+        },
+        "A8698": {
+          "total": 27,
+          "corrected": 1,
+          "pending": 7
+        },
+        "A8699": {
+          "total": 4,
+          "corrected": 0,
+          "pending": 0
+        },
+        "A8700": {
+          "total": 4,
+          "corrected": 0,
+          "pending": 0
+        },
+        "A8701": {
+          "total": 40,
+          "corrected": 8,
+          "pending": 0
+        },
+        "A8702": {
+          "total": 22,
+          "corrected": 0,
+          "pending": 0
+        },
+        "A8703": {
+          "total": 22,
+          "corrected": 0,
+          "pending": 8
+        },
+        "A8704": {
+          "total": 24,
+          "corrected": 0,
+          "pending": 0
+        },
+        "A8705": {
+          "total": 23,
+          "corrected": 0,
+          "pending": 0
+        },
+        "A8706": {
+          "total": 23,
+          "corrected": 0,
+          "pending": 0
+        },
+        "A8707": {
+          "total": 24,
+          "corrected": 0,
+          "pending": 0
+        },
+        "A8708": {
+          "total": 29,
+          "corrected": 1,
+          "pending": 7
+        },
+        "A8709": {
+          "total": 5,
+          "corrected": 0,
+          "pending": 0
+        }
+      }
+    }
+  },
+  "this_turn": {
+    "updated_existing_rows": [
+      "A29604-zh-00011",
+      "A29604-zh-00013",
+      "A29604-zh-00017",
+      "A29604-zh-00018"
+    ],
+    "result": "Corrected remaining mistranslation fragments in the annex mitigation/penalty section; preserved source hashes and previous decisions; canonical review saved and read back."
+  },
+  "holds": [
+    {
+      "doc": "A29604",
+      "status": "ANNEX_ALIGNMENT_REQUIRED",
+      "note": "ANNEX rows lack start/end offsets; compare entire original annex against target rows before final judgment."
+    },
+    {
+      "doc": "A8690",
+      "status": "FORM_ALIGNMENT_REQUIRED",
+      "note": "509 form rows have null source offsets; original KO form 41859 chars. Align sections/text before full verification."
+    },
+    {
+      "doc": "A8693",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED",
+      "note": "Japanese-language certificate source contains '?', target contains broken hybrid Japanese/Chinese. Requires source text repair before definitive translation.",
+      "ids": [
+        "A8693-zh-00002",
+        "A8693-zh-00008",
+        "A8693-zh-00009",
+        "A8693-zh-00011",
+        "A8693-zh-00012",
+        "A8693-zh-00013"
+      ]
+    },
+    {
+      "doc": "A8698",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED",
+      "ids": [
+        "A8698-zh-00002",
+        "A8698-zh-00003",
+        "A8698-zh-00015",
+        "A8698-zh-00016",
+        "A8698-zh-00018",
+        "A8698-zh-00019",
+        "A8698-zh-00020"
+      ],
+      "note": "Chinese-language certificate source itself contains corrupted ? symbols and unreadable text; no reconstruction without verified source."
+    },
+    {
+      "doc": "A8699",
+      "status": "SOURCE_CONTENT_MISSING",
+      "note": "Arabic certificate KO extracted text only contains paper dimensions and anti-counterfeit note; body cannot be compared."
+    },
+    {
+      "doc": "A8703",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED",
+      "ids": [
+        "A8703-zh-00002",
+        "A8703-zh-00003",
+        "A8703-zh-00009",
+        "A8703-zh-00010",
+        "A8703-zh-00011",
+        "A8703-zh-00012",
+        "A8703-zh-00013",
+        "A8703-zh-00014"
+      ],
+      "note": "Portable Japanese form source garbled, retain original and flag."
+    },
+    {
+      "doc": "A8708",
+      "status": "SOURCE_LEGIBILITY_REVIEW_REQUIRED",
+      "ids": [
+        "A8708-zh-00003",
+        "A8708-zh-00004",
+        "A8708-zh-00016",
+        "A8708-zh-00017",
+        "A8708-zh-00019",
+        "A8708-zh-00020",
+        "A8708-zh-00021"
+      ],
+      "note": "Portable Chinese certificate source garbled; no speculative replacement."
+    },
+    {
+      "doc": "A8709",
+      "status": "SOURCE_CONTENT_MISSING",
+      "note": "Arabic portable certificate body absent in KO text extraction; only margin/note text available."
+    }
+  ],
+  "next": "Continue aligning annex and form rows to source; retain source-legibility and source-content holds for Japanese, Chinese and Arabic certificates. Do not issue COMPLETE or receipt while unresolved holds remain."
+}
