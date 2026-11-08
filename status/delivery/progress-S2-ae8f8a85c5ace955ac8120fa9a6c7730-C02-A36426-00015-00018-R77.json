@@ -1,0 +1,36 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 4,
+  "checked_ids": [
+    "A36426-zh-00015",
+    "A36426-zh-00016",
+    "A36426-zh-00017",
+    "A36426-zh-00018"
+  ],
+  "edits": [
+    {
+      "id": "A36426-zh-00016",
+      "source_hash": "de2056e4e7d3edd5bd060d6cc1731701a926be1e9af110eb0857b1bb9b1fb2b5",
+      "target_id": "XML:2657325",
+      "text": "智慧城市领域的国际合作及"
+    },
+    {
+      "id": "A36426-zh-00017",
+      "source_hash": "7b054c6bcdf2bb2d8e982b2ae8bb0abc579e8604aa53e1351826d940c23087b0",
+      "target_id": "XML:2657326",
+      "text": "对国内智慧城市产业进军海外的支持"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "korean_evidence": "3. 법 제30조제1항에 따른 국토교통부장관의 스마트도시 분야 국제협력 및 국내 스마트도시산업 해외진출 지원",
+  "note": "R77: Korean Annex 3 rows 15-18; improve translation and joined sentence with existing 14, preserve agencies 15/18. Original hashes verified following first 409; one approved recovery create."
+}
