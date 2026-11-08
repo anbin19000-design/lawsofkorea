@@ -19,10 +19,10 @@
   "progress": {
     "korean": "COMPLETE",
     "english": "COMPLETE",
-    "chinese": "IN_PROGRESS; B1/B2 fully reviewed; B3 main Articles 1-25 reviewed, but B3-00027 annex body awaits source reconciliation; all Decree appendices A39652-A39656 corrected/reviewed. Next: all 22 forms A27040-A27061.",
-    "reviewed_rows": 285,
-    "corrected_rows": 254,
-    "remaining_rows": 990
+    "chinese": "IN_PROGRESS; B1/B2 complete; B3 Articles 1-25 reviewed with row 27 annex-content source gap; all Decree appendices A39652-A39656 reviewed/corrected. Next forms A27040-A27061.",
+    "reviewed_rows": 295,
+    "corrected_rows": 260,
+    "remaining_rows": 980
   },
   "documents": [],
   "rows": [
@@ -3098,10 +3098,15 @@
       "end": null,
       "target_id": "XML:2872885",
       "source_hash": "f07d29567873c450164b30c10895c428c0a0c2a8bbc9e760b04c18c079034482",
-      "text": "4. 根据上表，设备和人员的详细标准应由国土交通大臣确定并公布。",
+      "text": "4. 上表所列设备及人员的详细标准，由国土交通部长官规定并公告。",
       "text_original": "4. 根据上表，设备和人员的详细标准应由国土交通大臣确定并公布。",
-      "text_reviewed": "4. 根据上表，设备和人员的详细标准应由国土交通大臣确定并公布。",
-      "review_status": "PENDING"
+      "text_reviewed": "4. 上表所列设备及人员的详细标准，由国土交通部长官规定并公告。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "校正机关称谓。"
+        }
+      ]
     },
     {
       "id": "A39653-zh-00054",
@@ -3115,7 +3120,7 @@
       "text": ".",
       "text_original": ".",
       "text_reviewed": ".",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED"
     },
     {
       "id": "A39654-zh-00001",
@@ -3411,10 +3416,15 @@
       "end": null,
       "target_id": "XML:2872904",
       "source_hash": "8c48cfcf7a761db0973ee1b684a51f7285852f376c33e37e9f1f4b7f8b5e3547",
-      "text": "。第四级：仅配备必要设施的垂直起降场",
+      "text": "d. 四级：仅具备必备设施的垂直起降场",
       "text_original": "。第四级：仅配备必要设施的垂直起降场",
-      "text_reviewed": "。第四级：仅配备必要设施的垂直起降场",
-      "review_status": "PENDING"
+      "text_reviewed": "d. 四级：仅具备必备设施的垂直起降场",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "纠正设施分类等级的编号与术语。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00001",
@@ -4378,7 +4388,7 @@
       "text": "该领域的设备和人员标准必须分别得到满足。",
       "text_original": "该领域的设备和人员标准必须分别得到满足。",
       "text_reviewed": "该领域的设备和人员标准必须分别得到满足。",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED"
     },
     {
       "id": "A39655-zh-00052",
@@ -4389,10 +4399,15 @@
       "end": null,
       "target_id": "XML:2872956",
       "source_hash": "a7cda18a26f997bb82d21b2259ff3ce3928c1faf115a95c477671b0bc5322bc1",
-      "text": "3. 根据上表，设备和人员的详细标准应由国土交通大臣确定并公布。",
+      "text": "3. 上表所列设备及人员的详细标准，由国土交通部长官规定并公告。",
       "text_original": "3. 根据上表，设备和人员的详细标准应由国土交通大臣确定并公布。",
-      "text_reviewed": "3. 根据上表，设备和人员的详细标准应由国土交通大臣确定并公布。",
-      "review_status": "PENDING"
+      "text_reviewed": "3. 上表所列设备及人员的详细标准，由国土交通部长官规定并公告。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "校正机关称谓。"
+        }
+      ]
     },
     {
       "id": "A39655-zh-00053",
@@ -4406,7 +4421,7 @@
       "text": ".",
       "text_original": ".",
       "text_reviewed": ".",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED"
     },
     {
       "id": "A39656-zh-00001",
@@ -5063,13 +5078,16 @@
       "end": null,
       "target_id": "XML:2872992",
       "source_hash": "9ea163357e163e2304d5273eb68ab750648ded1a922f6d9bde4c37f99ffaacab",
-      "text": "300",
+      "text": "违反本法第9条第12款，在取得竣工确认书前使用垂直起降场",
       "text_original": "确认完成违反了《法》第9条第12款的规定",
-      "text_reviewed": "300",
+      "text_reviewed": "违反本法第9条第12款，在取得竣工确认书前使用垂直起降场",
       "review_status": "REVIEWED_CORRECTED",
       "review_notes": [
         {
           "reason": "附件5原译文有多处断句错位和法律术语误译；依韩国施行令附件5修复表格与罚款标准。"
+        },
+        {
+          "reason": "修复个别标准中违法行为描述的前半句。"
         }
       ]
     },
@@ -5142,7 +5160,7 @@
       "text": "500",
       "text_original": "500",
       "text_reviewed": "500",
-      "review_status": "PENDING"
+      "review_status": "REVIEWED_UNCHANGED"
     },
     {
       "id": "A39656-zh-00040",
@@ -5153,10 +5171,15 @@
       "end": null,
       "target_id": "XML:2872997",
       "source_hash": "5451bb084a0a455e20b71df3ca50b7e6e2d7e1aec1fa152113912c6c57ce7096",
-      "text": "在收到证书之前使用 Vertiport",
+      "text": "或未取得使用许可",
       "text_original": "在收到证书之前使用 Vertiport",
-      "text_reviewed": "在收到证书之前使用 Vertiport",
-      "review_status": "PENDING"
+      "text_reviewed": "或未取得使用许可",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修复OCR分段中错误的Vertiport残留。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00041",
@@ -5167,10 +5190,15 @@
       "end": null,
       "target_id": "XML:2872998",
       "source_hash": "dc150f101a2a8f6118949d316b377a38c7c3795c17bb55f5b29463b31d59099a",
-      "text": "或未经许可 Vertifo",
+      "text": "而使用垂直起降场",
       "text_original": "或未经许可 Vertifo",
-      "text_reviewed": "或未经许可 Vertifo",
-      "review_status": "PENDING"
+      "text_reviewed": "而使用垂直起降场",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "补全违法行为对象。"
+        }
+      ]
     },
     {
       "id": "A39656-zh-00042",
@@ -5181,10 +5209,15 @@
       "end": null,
       "target_id": "XML:2872999",
       "source_hash": "01f8804f18e9ae6bf9c76e3f699b622e7da7af57ab93a011e8602cdb4b805e2c",
-      "text": "，则使用",
+      "text": "的情形",
       "text_original": "，则使用",
-      "text_reviewed": "，则使用",
-      "review_status": "PENDING"
+      "text_reviewed": "的情形",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "补全表格违法行为描述。"
+        }
+      ]
     },
     {
       "id": "B3-zh-00001",
