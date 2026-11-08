@@ -9,9 +9,9 @@
   "source_zh_blob_sha": "3ffb734574196fd0f3295236a8e220cbf0e9cae8",
   "document_count": 28,
   "source_rows": 2081,
-  "checked_rows": 462,
-  "corrected_rows": 29,
-  "edits_count": 29,
+  "checked_rows": 625,
+  "corrected_rows": 42,
+  "edits_count": 42,
   "edits": [
     {
       "id": "B1-zh-00011",
@@ -157,15 +157,82 @@
       "id": "A36961-zh-00017",
       "source_hash": "a253a15e58716ec946b1c5b60683d3cc3b56b4d759cd553c975f5c2ba2b2604e",
       "text": "许可限制期限"
+    },
+    {
+      "id": "A36962-zh-00005",
+      "source_hash": "e9278ca2704bd67412fd662f9c7674aec29c4d77be52f39e26cf3b3f4e034f7d",
+      "text": "奖励金"
+    },
+    {
+      "id": "A36962-zh-00006",
+      "source_hash": "750114638039488a1252607403537aba5d4507df9bde86fe33f05c4f62d5e486",
+      "text": "一级"
+    },
+    {
+      "id": "A36962-zh-00015",
+      "source_hash": "2b72aaa7fd250e8ac4fa1200edfeb5b44e8e11085d5cdb875797b3acde599e94",
+      "text": "三级"
+    },
+    {
+      "id": "A36962-zh-00019",
+      "source_hash": "50b168812c694ca9d52e94e527c6eee30b8d92112fe8d14cfed2caabdd48b8bf",
+      "text": "四级"
+    },
+    {
+      "id": "A36962-zh-00023",
+      "source_hash": "742f8cbba35e3573cf26288ccebcfe496f5d3d0581e26c3dabafb0305cdf8cf0",
+      "text": "五级"
+    },
+    {
+      "id": "A36962-zh-00025",
+      "source_hash": "ec32def14caae856350cdc14244dd3cc180dfc63aee66aad0d0de00b92811a2c",
+      "text": "200万韩元"
+    },
+    {
+      "id": "A36963-zh-00024",
+      "source_hash": "d5a35315032f21ff7063b6b22ebb192f8d8bbea76f4199767fa50ca47f9fb999",
+      "text": "尽管第二项辛目的规定另有规定，仍应作出撤销登记的处分。"
+    },
+    {
+      "id": "A36963-zh-00042",
+      "source_hash": "a0ab91b507e7e8a6c251628032a42426753fc567accec416e6716cf5b5a1cf69",
+      "text": "遗迹受到损坏的情形"
+    },
+    {
+      "id": "A36963-zh-00049",
+      "source_hash": "b6a99dc104ab46935e0aa9d9ab8cc83c033217663a4e67264cbaf1fd7e3fb10c",
+      "text": "根据《国家遗产影响诊断法》第十一条"
+    },
+    {
+      "id": "A36963-zh-00115",
+      "source_hash": "7852a0f9a7707c1873659ac667ce26e12737e740c54bfd1f91bbf5d31ef5edb2",
+      "text": "或者通过其他不正当方法实施影响诊断的情形"
+    },
+    {
+      "id": "A36963-zh-00125",
+      "source_hash": "236983f938adbd47985933b8758968052c5ddaa24cf06339c716080fc24958ed",
+      "text": "经国家遗产委员会认定的情形"
+    },
+    {
+      "id": "A36963-zh-00131",
+      "source_hash": "6bf473026941095e540512b3701a9441712ac3ee52bcb880d2c289b74f14c413",
+      "text": "由于故意或疏忽，《产业安全保健法》"
+    },
+    {
+      "id": "A36963-zh-00135",
+      "source_hash": "b462d436fecff095ae638a8fce268fd964dae28007a648c3fcb40ecde8d78a54",
+      "text": "根据该法第二条第二项"
     }
   ],
   "reviewed_document_keys": [
     "B1",
     "B2",
     "A36960",
-    "A36961"
+    "A36961",
+    "A36962",
+    "A36963"
   ],
-  "next_document_key": "A36962",
+  "next_document_key": "A36964",
   "english_note": "B1, B2 and related decree annexes use historical English reference; current Korean authoritative. B3, ordinance annexes, forms lack full document English.",
   "verification": {
     "full_korean_read": true,
@@ -173,5 +240,5 @@
     "full_chinese_semantic_review": false,
     "ready_for_complete": false
   },
-  "note": "Chinese review of law/decree, decree annex 1 and annex 2 completed in order (462 rows), 29 minimal corrections. Korean and English source-stage read evidence unchanged. Further annexes, ordinance and forms remain. IN_PROGRESS."
+  "note": "Sequential Chinese review B1 B2 A36960-63 (625 rows); 42 nonempty minimal corrections in canonical file. Source originals preserved; next decree annex 5. Not COMPLETE."
 }
