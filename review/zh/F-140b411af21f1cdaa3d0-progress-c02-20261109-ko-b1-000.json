@@ -1,0 +1,34 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-140b411af21f1cdaa3d0",
+  "worker": "C02",
+  "panel_id": "panel-02",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "c6142609a379dbac06a35c01ab73a4bd06b3edee",
+    "en": "6110f5d5ee6416ed04aa81fd04ec2f718585adff",
+    "zh": "1be3efd228811776cde100df8b3b07ed2776e5e4"
+  },
+  "source_commit": "e3a60207b193388c4d67ad7eb8611d3e79e0c455",
+  "family_documents": 29,
+  "zh_rows_total": 1652,
+  "stage": "KO_FULL_READING",
+  "verified_ko_doc": "B1",
+  "ko_read_through_character_offset": 7000,
+  "ko_doc_total_characters": 33152,
+  "ko_read_status": "PARTIAL",
+  "en_read_status": "NOT_STARTED",
+  "zh_review_status": "NOT_STARTED",
+  "checked_rows": 0,
+  "edits": [],
+  "english_coverage": {
+    "available": [
+      "B1",
+      "B2",
+      "A36236",
+      "A36237"
+    ],
+    "unavailable_document_count": 25
+  },
+  "note": "Verified current main source file SHA against C02 active assignment; repository tree contains no prior matching review/progress/receipt for this job. Read Korean B1 from start through character 7000; continue KO B1 at offset 7000, then KO remaining documents, EN full linked originals, ZH full review. No Chinese correction or completion claimed."
+}
