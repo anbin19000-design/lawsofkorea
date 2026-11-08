@@ -1,0 +1,84 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-b5c27d20d49b721e47e6",
+  "worker": "C05",
+  "status": "IN_PROGRESS",
+  "checked_rows": 8,
+  "checked_ids": [
+    "B3-zh-00024",
+    "B3-zh-00025",
+    "B3-zh-00026",
+    "B3-zh-00027",
+    "B3-zh-00028",
+    "B3-zh-00029",
+    "B3-zh-00030",
+    "B3-zh-00031"
+  ],
+  "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
+  "source_blobs": {
+    "ko": "24ddd78e32a748b7d1c1ce01fef19d036494b9e9",
+    "en": "3d130788df10274ded6103c1fa81654c977eec5c",
+    "zh": "66ea4d0981f8e1a76348309f8254051d4914f693"
+  },
+  "decisions": [
+    {
+      "id": "B3-zh-00024",
+      "source_hash": "8f01e00e096c527495899e6ba0e693e80844d49b0a41bee9a1804239cb74160c",
+      "decision": "CORRECT",
+      "basis": "제11조의4는 장(章)이 아니라 조(條); 사업 정지·폐지와 시설 폐쇄의 구별"
+    },
+    {
+      "id": "B3-zh-00025",
+      "source_hash": "bcfbcc56c2c5a81dc495bce621a089250f18fb26c430190b96ce105ffae74d0f",
+      "decision": "KEEP",
+      "basis": "한국어 조문과 중국어 수치·인용 대응 확인"
+    },
+    {
+      "id": "B3-zh-00026",
+      "source_hash": "22496a47e067fc6c37424e4e3a3ca2be518587a590a17c1fb970cece0d055459",
+      "decision": "KEEP",
+      "basis": "한국어 조문과 중국어 수치·인용 대응 확인"
+    },
+    {
+      "id": "B3-zh-00027",
+      "source_hash": "721e7085a7c3fedfe576a90010df72ad70e310951953f95c8b91be1d16681ec3",
+      "decision": "KEEP",
+      "basis": "한국어 조문과 중국어 수치·인용 대응 확인"
+    },
+    {
+      "id": "B3-zh-00028",
+      "source_hash": "f01c8e7021d8e81f0f98cb8eba2c0c3f3959b055f19169a70f6d5b0f898f6fc7",
+      "decision": "KEEP",
+      "basis": "한국어 조문과 중국어 수치·인용 대응 확인"
+    },
+    {
+      "id": "B3-zh-00029",
+      "source_hash": "1f35792c3e5af1dc69d33df084c4c901f5bc5145c9f41f57ada497fe3a813a63",
+      "decision": "KEEP",
+      "basis": "한국어 조문과 중국어 수치·인용 대응 확인"
+    },
+    {
+      "id": "B3-zh-00030",
+      "source_hash": "fd0d389ad038d6f9735c71f2972f4872ea91c246878c94d3cd9d4b632eef1a1e",
+      "decision": "KEEP",
+      "basis": "한국어 조문과 중국어 수치·인용 대응 확인"
+    },
+    {
+      "id": "B3-zh-00031",
+      "source_hash": "d7cc00638c209122fb0ade98fe1dc8634b5b9a7edaae1d367ab386cf06e7a828",
+      "decision": "CORRECT",
+      "basis": "부녀복지관→여성복지관의 서로 다른 명칭을 동일하게 옮긴 오류"
+    }
+  ],
+  "edits": [
+    {
+      "id": "B3-zh-00024",
+      "text": "第十一条之四（设施关闭等后的措施）  单亲家庭福利机构的根据本法第二十四条第二款，其业务被停止或废止或者设施被关闭时，特别自治市市长、特别自治省省长、市长、县长或者区长应当采取下列各款规定的措施。\n1. 使机构居民能够选择其他机构并验证其执行情况的措施\n2. 核实补贴和赞助的使用情况，并采取措施追回使用这些资金创建的剩余资产\n3. 为保护设施居民的权利和利益而认为必要的其他措施\n\n"
+    },
+    {
+      "id": "B3-zh-00031",
+      "text": "补充规定（卖淫预防法等的实施细则）<1999年5月8日第107号>\n\n①（生效日期）本规则自1999年5月9日起生效。\n\n②（其他法律的修订）《母婴福利法实施细则》修订如下。\n\n在“按设施分类”栏中，附件表 2 的第 2 项“妇女福利馆”改为“女性福利馆”。\n\n"
+    }
+  ],
+  "note": "Separate append-only checkpoint. Previously reviewed IDs unchanged. Not complete; no receipt."
+}
