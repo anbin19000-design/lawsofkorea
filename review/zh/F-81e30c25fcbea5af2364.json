@@ -6431,27 +6431,129 @@
       "verification": "C02_KOREAN_SUPPLEMENT_SOURCE_COMPARISON",
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c7b2cc4a46a4-adjudication.json",
       "reason": "2025 Korean supplementary amendment explicitly cites full Smart City Act name."
-    }
-  ],
-  "adjudicated_edit_count": 684,
-  "pending_single_candidate_count": 34,
-  "pending_conflict_count": 0,
-  "pending_single_candidates": [
+    },
     {
       "id": "A36427-zh-00089",
       "source_hash": "bdbe58cd0b91940cfef05db7eec121a4b4b01481c3c010a32da3d3747c25592d",
       "target_id": "XML:2657461",
-      "variants": [
-        {
-          "text": "庚. 违反本法第五十三条第六款，未投保责任",
-          "file_indices": [
-            14
-          ]
-        }
-      ],
       "text": "庚. 违反本法第五十三条第六款，未投保责任",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c7b2cc4a46a4-annex4.json",
+      "verification": "C02_KOREAN_ANNEX4_SOURCE_COMPARISON",
+      "reason": "Korean annex 4 item 사 / Act Article 53(6): translate liability-insurance breach rather than unrelated 公司; correct legal violation and requirement."
     },
+    {
+      "id": "A36427-zh-00095",
+      "source_hash": "352ce9915c4c18344bfd28a21cd3d23354c6fb1ddd91eb7542ea1bded2fc2e33",
+      "target_id": "XML:2657467",
+      "text": "1) 自智慧创新事业实施之日起，违法",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c7b2cc4a46a4-annex4.json",
+      "verification": "C02_KOREAN_ANNEX4_SOURCE_COMPARISON",
+      "reason": "Korean annex 4 first smart innovation violation tier begins at implementation date and requires '위반기간'; candidate corrects original vague 上述."
+    },
+    {
+      "id": "A36427-zh-00098",
+      "source_hash": "e5fbb7afa1cfa06482bfa66fc3d71bba04bd32ee74849ee68c9de61886cf9362",
+      "target_id": "XML:2657470",
+      "text": "2) 自智慧创新事业实施之日起，违法",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c7b2cc4a46a4-annex4.json",
+      "verification": "C02_KOREAN_ANNEX4_SOURCE_COMPARISON",
+      "reason": "Korean annex 4 second smart innovation violation tier, same Korean starting point and violation-period condition."
+    },
+    {
+      "id": "A36427-zh-00101",
+      "source_hash": "2c6f1d2ff981cf7d85b433d80b3e92791956799657094fb832f6f93a9ce7a6c0",
+      "target_id": "XML:2657473",
+      "text": "的情形",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c7b2cc4a46a4-annex4.json",
+      "verification": "C02_KOREAN_ANNEX4_SOURCE_COMPARISON",
+      "reason": "Korean annex 4 second tier ends with '인 경우'; correct bare dangling conditional to 的情形."
+    },
+    {
+      "id": "A36427-zh-00102",
+      "source_hash": "1dd78c46105b69a84ca50c704c5650d4f00c5084b12735adb0ce711d6de6ccb2",
+      "target_id": "XML:2657474",
+      "text": "3) 自智慧创新事业实施之日起，违法",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c7b2cc4a46a4-annex4.json",
+      "verification": "C02_KOREAN_ANNEX4_SOURCE_COMPARISON",
+      "reason": "Korean annex 4 third smart innovation violation tier, preserve violation period from commencement."
+    },
+    {
+      "id": "A36427-zh-00105",
+      "source_hash": "2c6f1d2ff981cf7d85b433d80b3e92791956799657094fb832f6f93a9ce7a6c0",
+      "target_id": "XML:2657477",
+      "text": "的情形",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c7b2cc4a46a4-annex4.json",
+      "verification": "C02_KOREAN_ANNEX4_SOURCE_COMPARISON",
+      "reason": "Korean annex 4 third tier ends with '인 경우'; correct original dangling 则 to 的情形."
+    },
+    {
+      "id": "A36427-zh-00106",
+      "source_hash": "f44d098ec2cc2e63535c3d1fa69e01627df56e467a2a8220ea989da70b020342",
+      "target_id": "XML:2657478",
+      "text": "4) 自智慧创新事业实施之日起，违法",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c7b2cc4a46a4-annex4.json",
+      "verification": "C02_KOREAN_ANNEX4_SOURCE_COMPARISON",
+      "reason": "Korean annex 4 fourth smart innovation violation tier, preserve violation period from commencement."
+    },
+    {
+      "id": "A36427-zh-00115",
+      "source_hash": "e43477d0908bbf111c304cd956b2e31debe5ab08853784be52807e6ebfecfb24",
+      "target_id": "XML:2657487",
+      "text": "1) 自智慧实证事业实施之日起，违法",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c7b2cc4a46a4-annex4.json",
+      "verification": "C02_KOREAN_ANNEX4_SOURCE_COMPARISON",
+      "reason": "Korean annex 4 first smart demonstration violation tier starts at service commencement and violation period."
+    },
+    {
+      "id": "A36427-zh-00118",
+      "source_hash": "85c9a4e3a8a4b04f5d6da4d759500eff65c46607a32f174796feba4bd47ec558",
+      "target_id": "XML:2657490",
+      "text": "2) 自智慧实证事业实施之日起，违法",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c7b2cc4a46a4-annex4.json",
+      "verification": "C02_KOREAN_ANNEX4_SOURCE_COMPARISON",
+      "reason": "Korean annex 4 second smart demonstration violation tier begins after demonstration commenced, instead of generic '上述'."
+    },
+    {
+      "id": "A36427-zh-00121",
+      "source_hash": "2c6f1d2ff981cf7d85b433d80b3e92791956799657094fb832f6f93a9ce7a6c0",
+      "target_id": "XML:2657493",
+      "text": "的情形",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c7b2cc4a46a4-annex4.json",
+      "verification": "C02_KOREAN_ANNEX4_SOURCE_COMPARISON",
+      "reason": "Korean annex 4 second tier ends with '인 경우'; replace dangling 则 with 的情形."
+    },
+    {
+      "id": "A36427-zh-00122",
+      "source_hash": "9898b4dd436ba290e74dca517e88ebbd20771037cc243d3aa07ab59676aa863c",
+      "target_id": "XML:2657494",
+      "text": "3) 自智慧实证事业实施之日起，违法",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c7b2cc4a46a4-annex4.json",
+      "verification": "C02_KOREAN_ANNEX4_SOURCE_COMPARISON",
+      "reason": "Korean annex 4 third smart demonstration tier, clarify violation period and scheme."
+    },
+    {
+      "id": "A36427-zh-00125",
+      "source_hash": "2c6f1d2ff981cf7d85b433d80b3e92791956799657094fb832f6f93a9ce7a6c0",
+      "target_id": "XML:2657497",
+      "text": "的情形",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c7b2cc4a46a4-annex4.json",
+      "verification": "C02_KOREAN_ANNEX4_SOURCE_COMPARISON",
+      "reason": "Korean annex 4 third tier ends with '인 경우'; replace dangling 则 with 的情形."
+    },
+    {
+      "id": "A36427-zh-00126",
+      "source_hash": "8282311d9d9e13de8056c2d870bb024691d2f1849926931afb5f56c0b34e09e2",
+      "target_id": "XML:2657498",
+      "text": "4) 自智慧实证事业实施之日起，违法",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c7b2cc4a46a4-annex4.json",
+      "verification": "C02_KOREAN_ANNEX4_SOURCE_COMPARISON",
+      "reason": "Korean annex 4 fourth smart demonstration violation tier, preserve scope and temporal start."
+    }
+  ],
+  "adjudicated_edit_count": 697,
+  "pending_single_candidate_count": 21,
+  "pending_conflict_count": 0,
+  "pending_single_candidates": [
     {
       "id": "A36427-zh-00093",
       "source_hash": "98a6914c1f0981f6fe3b0eaacdfcb40a36d52108e9701a1ddfbb384b2bdba91b",
@@ -6465,186 +6567,6 @@
         }
       ],
       "text": "损害的赔偿方案",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "A36427-zh-00095",
-      "source_hash": "352ce9915c4c18344bfd28a21cd3d23354c6fb1ddd91eb7542ea1bded2fc2e33",
-      "target_id": "XML:2657467",
-      "variants": [
-        {
-          "text": "1) 自智慧创新事业实施之日起，违法",
-          "file_indices": [
-            14
-          ]
-        }
-      ],
-      "text": "1) 自智慧创新事业实施之日起，违法",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "A36427-zh-00098",
-      "source_hash": "e5fbb7afa1cfa06482bfa66fc3d71bba04bd32ee74849ee68c9de61886cf9362",
-      "target_id": "XML:2657470",
-      "variants": [
-        {
-          "text": "2) 自智慧创新事业实施之日起，违法",
-          "file_indices": [
-            14
-          ]
-        }
-      ],
-      "text": "2) 自智慧创新事业实施之日起，违法",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "A36427-zh-00101",
-      "source_hash": "2c6f1d2ff981cf7d85b433d80b3e92791956799657094fb832f6f93a9ce7a6c0",
-      "target_id": "XML:2657473",
-      "variants": [
-        {
-          "text": "的情形",
-          "file_indices": [
-            14
-          ]
-        }
-      ],
-      "text": "的情形",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "A36427-zh-00102",
-      "source_hash": "1dd78c46105b69a84ca50c704c5650d4f00c5084b12735adb0ce711d6de6ccb2",
-      "target_id": "XML:2657474",
-      "variants": [
-        {
-          "text": "3) 自智慧创新事业实施之日起，违法",
-          "file_indices": [
-            14
-          ]
-        }
-      ],
-      "text": "3) 自智慧创新事业实施之日起，违法",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "A36427-zh-00105",
-      "source_hash": "2c6f1d2ff981cf7d85b433d80b3e92791956799657094fb832f6f93a9ce7a6c0",
-      "target_id": "XML:2657477",
-      "variants": [
-        {
-          "text": "的情形",
-          "file_indices": [
-            14
-          ]
-        }
-      ],
-      "text": "的情形",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "A36427-zh-00106",
-      "source_hash": "f44d098ec2cc2e63535c3d1fa69e01627df56e467a2a8220ea989da70b020342",
-      "target_id": "XML:2657478",
-      "variants": [
-        {
-          "text": "4) 自智慧创新事业实施之日起，违法",
-          "file_indices": [
-            14
-          ]
-        }
-      ],
-      "text": "4) 自智慧创新事业实施之日起，违法",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "A36427-zh-00115",
-      "source_hash": "e43477d0908bbf111c304cd956b2e31debe5ab08853784be52807e6ebfecfb24",
-      "target_id": "XML:2657487",
-      "variants": [
-        {
-          "text": "1) 自智慧实证事业实施之日起，违法",
-          "file_indices": [
-            14
-          ]
-        }
-      ],
-      "text": "1) 自智慧实证事业实施之日起，违法",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "A36427-zh-00118",
-      "source_hash": "85c9a4e3a8a4b04f5d6da4d759500eff65c46607a32f174796feba4bd47ec558",
-      "target_id": "XML:2657490",
-      "variants": [
-        {
-          "text": "2) 自智慧实证事业实施之日起，违法",
-          "file_indices": [
-            14
-          ]
-        }
-      ],
-      "text": "2) 自智慧实证事业实施之日起，违法",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "A36427-zh-00121",
-      "source_hash": "2c6f1d2ff981cf7d85b433d80b3e92791956799657094fb832f6f93a9ce7a6c0",
-      "target_id": "XML:2657493",
-      "variants": [
-        {
-          "text": "的情形",
-          "file_indices": [
-            14
-          ]
-        }
-      ],
-      "text": "的情形",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "A36427-zh-00122",
-      "source_hash": "9898b4dd436ba290e74dca517e88ebbd20771037cc243d3aa07ab59676aa863c",
-      "target_id": "XML:2657494",
-      "variants": [
-        {
-          "text": "3) 自智慧实证事业实施之日起，违法",
-          "file_indices": [
-            14
-          ]
-        }
-      ],
-      "text": "3) 自智慧实证事业实施之日起，违法",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "A36427-zh-00125",
-      "source_hash": "2c6f1d2ff981cf7d85b433d80b3e92791956799657094fb832f6f93a9ce7a6c0",
-      "target_id": "XML:2657497",
-      "variants": [
-        {
-          "text": "的情形",
-          "file_indices": [
-            14
-          ]
-        }
-      ],
-      "text": "的情形",
-      "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
-    },
-    {
-      "id": "A36427-zh-00126",
-      "source_hash": "8282311d9d9e13de8056c2d870bb024691d2f1849926931afb5f56c0b34e09e2",
-      "target_id": "XML:2657498",
-      "variants": [
-        {
-          "text": "4) 自智慧实证事业实施之日起，违法",
-          "file_indices": [
-            14
-          ]
-        }
-      ],
-      "text": "4) 自智慧实证事业实施之日起，违法",
       "verification": "HISTORICAL_CANDIDATE_NOT_FINAL"
     },
     {
@@ -7056,12 +6978,13 @@
     "2026-11-08 C02 5e7d64734731: compared 12 source-grounded historical Act/Decree candidates against original Korean law. Retained 11 existing Chinese source rows; corrected B1-zh-00143 statutory title of the Vacant Houses and Small-Scale Housing Maintenance Special Act with minimal change. Preserved 680 prior accepted edits and source identities. IN_PROGRESS.",
     "2026-11-08 C02 5e7d64734731 supplement: 9 historical supplement candidates adjudicated; 7 originals retained and 2 statutory titles/reference types corrected. Total this task 21 candidates, 3 newly confirmed edits. Cumulative 683 accepted edits; 54 pending. Source SHA preserved; IN_PROGRESS.",
     "2026-11-08 C02 c7b2cc4a46a4: 10 pending historical variant determinations, including precise update of 2025 Government Organization Act supplementary reference to full Smart City Act title. Retained 9 other accepted/original expressions, original source SHA, preceding verified edits. Whole-family IN_PROGRESS.",
-    "2026-11-08 C02 c7b2cc4a46a4: further ten previously edited Act rows compared against Korean requirements and retained, no duplicate edits; total 20 candidates this task. 34 still require independent judgment. IN_PROGRESS."
+    "2026-11-08 C02 c7b2cc4a46a4: further ten previously edited Act rows compared against Korean requirements and retained, no duplicate edits; total 20 candidates this task. 34 still require independent judgment. IN_PROGRESS.",
+    "2026-11-08 C02 c7b2cc4a46a4 Annex 4: 13 source-grounded corrections for statutory fine and violation-duration table cells, including missing violation obligation, four tiers for smart innovation and four for smart demonstration. Source identities preserved and prior corrections unchanged. Whole family IN_PROGRESS."
   ],
   "integration_progress": {
-    "stage": "ACT_HISTORICAL_VARIANT_ADJUDICATION",
+    "stage": "DECREE_ANNEX4_FINE_RULE_ADJUDICATION",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:c7b2cc4a46a4",
-    "note": "20 historical variants adjudicated this task, one new correction; 34 remain."
+    "note": "33 candidates adjudicated this task, 14 new minimal corrections, 21 unresolved candidates remain."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -8201,10 +8124,10 @@
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-4e0b46ff6294-family-audit.json",
     "blob_sha": "PENDING_REQUERY",
-    "accepted_unique_edits": 684,
+    "accepted_unique_edits": 697,
     "recorded_evidence_ids": 1133,
     "ids_without_confirmed_evidence": 0,
-    "pending_candidate_ids": 34,
+    "pending_candidate_ids": 21,
     "pending_conflict_ids": 0,
     "source_identity_mismatches": 0
   }
