@@ -1,0 +1,80 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 12,
+  "checked_ids": [
+    "A25470-zh-00005",
+    "A25470-zh-00006",
+    "A25470-zh-00007",
+    "A25470-zh-00008",
+    "A25470-zh-00010",
+    "A25470-zh-00012",
+    "A25470-zh-00013",
+    "A25470-zh-00014",
+    "A25470-zh-00015",
+    "A25470-zh-00016",
+    "A25470-zh-00017",
+    "A25470-zh-00018"
+  ],
+  "edits": [
+    {
+      "id": "A25470-zh-00005",
+      "source_hash": "c20e97d732d34ae7d88e40b5b31c8fa9bdfc507be8d615a4da47703ff00c0397",
+      "target_id": "XML:1802888",
+      "text": "※ 深色栏由申请人留空，并在［"
+    },
+    {
+      "id": "A25470-zh-00006",
+      "source_hash": "9c2cff79a84df6db8a038d4803908bc9bd951c982152400d044ce6c5b3292004",
+      "target_id": "XML:1802889",
+      "text": "］内相应位置标记√。"
+    },
+    {
+      "id": "A25470-zh-00007",
+      "source_hash": "b6ef554c92c1ee06c5c51142ea35929d24f513f49937876ea1d846a0a7057648",
+      "target_id": "XML:1802890",
+      "text": "（正面）"
+    },
+    {
+      "id": "A25470-zh-00008",
+      "source_hash": "b736160e9f7f0d321a2b458369e87ad0a76a9b7c00b4454ad463a28ce8d1d95b",
+      "target_id": "XML:1802891",
+      "text": "受理编号"
+    },
+    {
+      "id": "A25470-zh-00012",
+      "source_hash": "7e53d842dd0fd3a5f45f9a5162eb0ddefccb0e462c2c1c38b1e4f0d5a81dd547",
+      "target_id": "XML:1802895",
+      "text": "营业（法人）登记号码"
+    },
+    {
+      "id": "A25470-zh-00015",
+      "source_hash": "261b57a79be08234e7fecc714416fc5066fe557c83f23b6ae778c5c825138510",
+      "target_id": "XML:1802898",
+      "text": "负责人姓名"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "supersedes": [
+    {
+      "id": "A25470-zh-00005",
+      "old_path": "status/delivery/progress-S2-ae8f8a85c5ace955ac8120fa9a6c7730-A25470-00001-00071-R8.json",
+      "reason": "Korean instruction and (앞쪽) are distinct; original R8 row 05 appended (正面) while row 06 repeated it. This 3-cell correction preserves each original cell boundary."
+    },
+    {
+      "id": "A25470-zh-00006",
+      "old_path": "status/delivery/progress-S2-ae8f8a85c5ace955ac8120fa9a6c7730-A25470-00001-00071-R8.json",
+      "reason": "Restore checkbox instruction ending to row 06, keep '(正面)' only row 07."
+    }
+  ],
+  "korean_evidence": "※ 색상이 어두운 칸은 신청인이 작성하지 않으며, [  ]에는 해당되는 곳에 √표시를 합니다. (앞쪽); 접수번호; 사업자(법인)등록번호; 대표자명",
+  "note": "R90 begins A25470 after A25469. Restores distinct checkbox-instruction and front-side cells from prior R8 overlapping translation, fixes remaining form labels. Original row IDs and hashes unchanged; IN_PROGRESS."
+}
