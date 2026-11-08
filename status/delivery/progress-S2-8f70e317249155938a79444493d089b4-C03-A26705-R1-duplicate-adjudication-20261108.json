@@ -1,0 +1,26 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "checked_rows": 0,
+  "quality_checked_ids": [],
+  "edits": [],
+  "duplicate_reconciliation": {
+    "authoritative_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-R1.json",
+    "duplicate_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-next-A26705-MTQ-quality-20261108.json",
+    "duplicate_id": "A26705-zh-00005",
+    "same_text": "处理期限",
+    "count_as_new_edit": 0,
+    "retain_independent_quality_ids": [
+      "A26705-zh-00006",
+      "A26705-zh-00033"
+    ]
+  },
+  "supersedes": [
+    "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-next-A26705-MTQ-quality-20261108.json"
+  ],
+  "note": "Existing C03-R1 had exact MTQ label correction, prevent duplicate increment. Other two independent quality checks in later file stand. Original source SHA and files preserved; not COMPLETE."
+}
