@@ -21,8 +21,8 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 26,
-    "pending_rows": 1661,
+    "correction_count": 31,
+    "pending_rows": 1656,
     "by_document": {}
   },
   "corrections": {
@@ -207,6 +207,41 @@
       "original": "由于特许经营业务严格按照特许经营协议的内容进行运营，因此信息披露声明的内容也必须符合特许经营协议的规定。",
       "corrected": "由于您最终须依照特许经营合同的内容经营特许业务，因此不得仅依赖信息披露声明的内容。",
       "reason": "'정보공개서의 내용에만 의존하여서는 아니 된다'라는 금지를 계약내용과 반드시 일치해야 한다는 내용으로 오역한 것 교정."
+    },
+    "A34909-zh-00064": {
+      "doc": "A34909",
+      "source_hash": "7e7c8cc4faea20fef13883133cdce6870d1d942d22be68cee42fbd0c15e20eca",
+      "original": "如果 START 被拒绝，则该事实，",
+      "corrected": "如果注册申请被驳回，则注明该事实。",
+      "reason": "등록이 거부된 경우 그 사실이라는 명시사항에 끼어든 START 미번역 표식 교정."
+    },
+    "A34909-zh-00214": {
+      "doc": "A34909",
+      "source_hash": "c043e3fa81869f64f5d152f300a63381c7dae0137d743f8d85c483b7648f8860",
+      "original": "无论金额名称如何，例如 START（返利），都请说明总金额；但如果无法计算出确切金额，也请说明。",
+      "corrected": "不论该款项的名称如何，例如回扣，均须注明总金额；无法准确计算时应注明估算金额。",
+      "reason": "리베이트 등 경제적 이익 기재 안내에서 START 미번역 표시를 없애고 원문 의미 복구."
+    },
+    "A34910-zh-00003": {
+      "doc": "A34910",
+      "source_hash": "d8ba487317ac4e370c544ff11fee92077c5dfe235d14d8d93e213e278685f7be",
+      "original": "分类MTQ29f13724665d54a300119结束",
+      "corrected": "分类",
+      "reason": "분류 표제에 섞인 MTQ 비원문 식별자 제거."
+    },
+    "A34910-zh-00013": {
+      "doc": "A34910",
+      "source_hash": "520e86204d9f382434cc45f9e2969ee75d193ac9a2ecf5867084ea7522b35c04",
+      "original": "MTQ57e46e45399043a601939（仅适用于与 START 相关的信息）",
+      "corrected": "（仅限与代表人相关的信息）",
+      "reason": "별표 1의2 제2호 사목 대표자 관련 정보 문구에 MTQ와 START가 들어간 오염 텍스트 교정."
+    },
+    "A34910-zh-00038": {
+      "doc": "A34910",
+      "source_hash": "61277446628336b1e04b7ac27a829238068446194f5c0cee8ce90b96632b97ab",
+      "original": "END 中的披露声明变更",
+      "corrected": "信息披露声明的变更登记",
+      "reason": "정보공개서 변경등록에 들어간 END 오염 텍스트 제거."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -221,7 +256,8 @@
     "C05 review of Chinese B1 rows 36-120 found penalty/complaint law cross-reference errors; corrected only verified spans.",
     "C05 Chinese B2 initial rows: minimal repair of Article 5-4, 5-6, 5-9 captions, depository party, and Act 22(4) citation.",
     "C05 Chinese B2 rows 45-86 review: 5 newly verified errors in source act citations and decree titles; unreviewed rows remain.",
-    "C05 annex A34909 initial cover-page mandatory disclosure: corrected 3 clear substantive mistranslations against Korean source."
+    "C05 annex A34909 initial cover-page mandatory disclosure: corrected 3 clear substantive mistranslations against Korean source.",
+    "C05 annex A34909 and A34910: verified source contamination markers START/END/MTQ, minimal replacements based on Korean original."
   ],
   "reading_evidence": {
     "ko": "18 documents full reading recorded in progress-C05-382d0b9d5453.json",
@@ -229,6 +265,6 @@
     "zh": "Ordered Chinese review started at B1-zh-00001; 35 rows displayed, with some long rows truncated pending return to full row text; first 3 additional corrections supported by Korean and English.",
     "full_sequential_human_review_complete": false
   },
-  "checked_rows": 26,
-  "corrected_rows": 26
+  "checked_rows": 31,
+  "corrected_rows": 31
 }
