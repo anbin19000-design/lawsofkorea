@@ -1,0 +1,76 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:2407efe1b802",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "english_status": "A25465 NO_DOCUMENT_ENGLISH, Korean is controlling",
+  "checked_rows": 4,
+  "checked_ids": [
+    "A25465-zh-00006",
+    "A25465-zh-00008",
+    "A25465-zh-00012",
+    "A25465-zh-00017"
+  ],
+  "edits": [
+    {
+      "id": "A25465-zh-00006",
+      "text": "受理日期",
+      "source_hash": "ebc9b96eb63cf003b7b1fc13d77fd353ced43869ee6c7836a9f3be4c588e1391",
+      "target_id": "XML:1802637"
+    },
+    {
+      "id": "A25465-zh-00008",
+      "text": "姓名（法人名称）",
+      "source_hash": "4b237b7c112d6da6395f1e447cbac78f5d1928aad05d425161451f4d0a6eac1c",
+      "target_id": "XML:1802639"
+    },
+    {
+      "id": "A25465-zh-00012",
+      "text": "负责人姓名",
+      "source_hash": "261b57a79be08234e7fecc714416fc5066fe557c83f23b6ae778c5c825138510",
+      "target_id": "XML:1802643"
+    },
+    {
+      "id": "A25465-zh-00017",
+      "text": "主要目的及内容",
+      "source_hash": "64aedb364d4943eabefccf4b36159605d4dee02c6483d97c9ebc66442a048288",
+      "target_id": "XML:1802648"
+    }
+  ],
+  "checked_details": [
+    {
+      "id": "A25465-zh-00006",
+      "verdict": "CONFIRM_PRIOR_CORRECTION",
+      "reason": "접수일은 受理日期. 기존 收货日期는 물품 수령일이므로 오역"
+    },
+    {
+      "id": "A25465-zh-00008",
+      "verdict": "CONFIRM_PRIOR_CORRECTION",
+      "reason": "성명(법인명)에서 영문 Name 혼입을 제거하고 법인명을 유지"
+    },
+    {
+      "id": "A25465-zh-00012",
+      "verdict": "CONFIRM_PRIOR_CORRECTION",
+      "reason": "대표자명은 대표자의 이름이므로 기존 代表名称의 대상 오류를 바로잡음"
+    },
+    {
+      "id": "A25465-zh-00017",
+      "verdict": "CONFIRM_PRIOR_CORRECTION",
+      "reason": "주요 목적 및 내용의 '목적'을 기존 主要用途에서 정확한 主要目的로 복원"
+    }
+  ],
+  "source_basis": "Existing reconciled candidate variants from status/delivery/reconcile-S2-ae8f8a85c5ace955ac8120fa9a6c7730-evidence-897b23bd7d0b8383.json confirmed against Korean A25465 form; no new unique coverage claimed",
+  "prior_progress": [
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-3d9d94ad98e7.json"
+  ],
+  "next_review": "A25465-zh-00018 onward, then other annex/form rows with unresolved conflicts",
+  "note": "Preserve all earlier corrections. Do not add candidate re-adjudications to cumulative unique row counts. Final 1133-row review unverified."
+}
