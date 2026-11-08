@@ -1,0 +1,41 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "family": "실용신안법",
+  "worker": "C05",
+  "assignment_marker": "[WORK-TASK:C05:F-00583cebe057fc2929d1:c23ade476ec7]",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "228ee58c47cf6e4429cb94fab421e617d21b5330",
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "prior_corrections": 225,
+  "new_corrections": [
+    {
+      "id": "B1-zh-00020",
+      "source_hash": "6d44144c529d59aae90dff378a3730c32ff62680b0d87db8753e3103ca4624ef",
+      "decision": "CORRECT",
+      "reason": "제16조제1항 설정등록일과 다음 해부터의 매년 1년분 등록료 납부 기준을 원문에 맞게 정정; 기존 역문은 납부 기준일을 다음 해로 잘못 설명."
+    },
+    {
+      "id": "B1-zh-00044",
+      "source_hash": "fd7b9c4d5984590ea24e0fc48c9b25f18196f32b825b18add21e6bfe6286adf8",
+      "decision": "CORRECT",
+      "reason": "제32조제1항의 통상실시권 허락 심판을 법원의 판결로 잘못 한정한 오역 및 제4항의 공탁을 은행 예금으로 잘못 번역한 오역 교정."
+    }
+  ],
+  "total_corrections": 227,
+  "pending_rows_preserved": 89,
+  "english_note": "B1/B2 official exact-version source indexed; B3 and forms have older version fallback only, and annex-specific English not fully verified.",
+  "reading_status": "FULL_KO_EN_ZH_SEQUENTIAL_READING_NOT_VERIFIED",
+  "completion_receipt": null,
+  "notes": "기존 225건 유지하고 2행 교정 저장 및 원문 SHA 확인. 법률·시행령·시행규칙·별표·서식 전체 순차 의미검수 및 원문 미판독 89행 해결 전까지 COMPLETE 불가."
+}
