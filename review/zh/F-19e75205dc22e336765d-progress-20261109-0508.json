@@ -1,0 +1,78 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-19e75205dc22e336765d",
+  "worker": "C06",
+  "panel_id": "panel-06",
+  "pc": "WORK-C",
+  "status": "IN_PROGRESS",
+  "checkpoint": "2026-11-09T05:08:00+09:00",
+  "active_assignment": {
+    "assignment_id": "UW-e7b1c2fbea7713747efc0430f7209c01",
+    "conversation_url": "https://chatgpt.com/c/6af0d459-1248-83e8-8b0a-0cdd2d4330be",
+    "delivery_status": "SENT_VERIFIED"
+  },
+  "binding": {
+    "conversation_id": "6af0d459-1248-83e8-8b0a-0cdd2d4330be",
+    "url": "https://chatgpt.com/c/6af0d459-1248-83e8-8b0a-0cdd2d4330be",
+    "verified": true
+  },
+  "source_commit": "cfb1d2139b0964af5165eecacfab57c57c1fe432",
+  "source_blobs": {
+    "ko": "f3c381ac40a93d2dd0c81eeeec800d0484334dce",
+    "en": "9ccc8a185bc0a2975d2e349d3fc3690f6e4b439b",
+    "zh": "42d5c0c29e2439f506c7209aebee695f5a1a631b"
+  },
+  "reading": {
+    "ko": {
+      "status": "FULL_READ",
+      "documents": 30,
+      "characters": 238917
+    },
+    "en": {
+      "status": "FULL_READ",
+      "documents": 2,
+      "characters": 100432,
+      "exact_documents": 1,
+      "fallback_documents": 29,
+      "rows_with_english": 1558,
+      "rows_without_english": 772
+    },
+    "zh": {
+      "status": "PARTIAL_REVIEW",
+      "documents": 30,
+      "rows": 2330,
+      "checked_rows": 1250,
+      "next_row": 1251
+    }
+  },
+  "review_path": "review/zh/F-19e75205dc22e336765d.json",
+  "review_sha": "8fd162e5c0b61511f3df222c31c0387c63b78953",
+  "edits_saved": 1157,
+  "progress_since_last_checkpoint": {
+    "new_corrections": 124,
+    "latest_review_commit": "cff74d219e72413cdb74fb18658150fa29aa0189",
+    "latest_verified_review_sha": "8fd162e5c0b61511f3df222c31c0387c63b78953",
+    "notes": [
+      "A29848/A29850/A29857 영어 안내문 잔여 부분 번역 및 보완",
+      "A29849 위임장/동의서 명백한 오역 교정",
+      "A29847/A29856/A29859/A29860 인감 용어·MTQ/OCR 잔재 교정",
+      "A29854~A29861 서식 제목의 법령명·별지 번호 정밀화"
+    ]
+  },
+  "holds": [
+    {
+      "document": "A29851",
+      "reason": "한국어 source_ko 자체에 다수의 ??, ? 및 잘못된 문자 혼입이 확인되어 원문 의미를 확정할 수 없음. 대응 영어 별지 역시 해당 서식에 대해 신뢰 가능한 정확본이 확인되지 않아 임의 복원 금지.",
+      "source_hash": "1131eebc012f57cbcf1e90743a58d595b346bedd4405cdd37fefa08b632ba896",
+      "affected_rows": 85
+    }
+  ],
+  "pending": [
+    "중국어 1,251~2,330행 나머지 순차 검수 및 checked_rows 누적",
+    "A29851의 신뢰 가능한 한국어 원본/공식 영문 대응본 확보 여부 확인",
+    "772개 영어 미대응 행의 한국어 대조 및 영문 부재 판단 기록",
+    "전체 MTQ·영문 잔존·누락·수치·조문번호·표/서식 연속성 QA",
+    "검수본 COMPLETE 및 완료 receipt는 모든 품질검사 통과 후에만 저장"
+  ],
+  "protection": "active assignment, worker binding, and source blob SHAs verified; no source files or operational DB modified."
+}
