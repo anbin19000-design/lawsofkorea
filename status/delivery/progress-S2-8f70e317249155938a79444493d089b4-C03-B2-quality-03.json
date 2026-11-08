@@ -1,0 +1,44 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "B2",
+  "quality_batch": "B2-quality-03",
+  "range": {
+    "first": "B2-zh-00013",
+    "last": "B2-zh-00015"
+  },
+  "quality_checked_rows": 2,
+  "quality_passed_rows": 2,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "B2-zh-00013",
+    "B2-zh-00015"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B2-00013-00017.json",
+  "results": [
+    {
+      "id": "B2-zh-00013",
+      "source_hash": "0ae42c7d60f56232959d9546368c86bd447e1fda4c32d1416d5003c4f508b782",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Article 12 preserves the introductory Article 15(3) first-sentence citation and all five institution types, including city/province police headquarters vs police stations, maritime police, immigration offices and local labor offices."
+    },
+    {
+      "id": "B2-zh-00015",
+      "source_hash": "113ae33a909a456292a87fa4587868deb4e430dfd2afeca88b6ee50f8f720fbc",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Article 14 preserves the Article 15(4) entrustment, public institution Article 4 citation, all five evaluation criteria, two annex cross-references, announcement duty and 2025-10-01 amendment markers."
+    }
+  ],
+  "edits": [],
+  "note": "Quality checked preserved correction rows 13 and 15 against exact Korean source; no corrections modified. Prior B2-quality-reconcile-01 superseding correction for row 6 remains intact. Family IN_PROGRESS."
+}
