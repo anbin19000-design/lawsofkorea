@@ -1,0 +1,37 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-31334bc4303ae2cb3d80",
+  "worker": "C06",
+  "task_id": "2bd78254e2b9",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "d6d795ff1ece4a82663a83efd46f7f73afa7fbbb",
+    "en": "16e015facbcef00df95c985f816f47acf7bcfef7",
+    "zh": "7a6d1e8d841fb3b27185d6d4a6b811149d604dc0"
+  },
+  "initial_verified_edits": 144,
+  "newly_confirmed": 12,
+  "total_confirmed_edits": 156,
+  "remaining_historical_candidates": 439,
+  "review_path": "review/zh/F-31334bc4303ae2cb3d80.json",
+  "review_blob_sha": "b70ab52fceccbc09c7094e2dcad68f7f8ceacf63",
+  "new_ids": [
+    "A37294-zh-00006",
+    "A37294-zh-00008",
+    "A37294-zh-00017",
+    "A37294-zh-00028",
+    "A37294-zh-00034",
+    "A37295-zh-00133",
+    "A37295-zh-00140",
+    "A37295-zh-00163",
+    "A37295-zh-00178",
+    "A37295-zh-00186",
+    "A37295-zh-00104",
+    "A37295-zh-00170"
+  ],
+  "note": "Five split-table cells in decree Annex 1 checked against Korean inspection-cycle and mSv limit; seven penalty Annex 2 citation labels verified with Korean law Article 31 and annex context. Historical edits, rejected candidates, source IDs and blobs preserved. Remaining 439 candidates not fully semantically judged; NOT COMPLETE. English available by 3 linked documents; later rule/form documents rely on fallback version.",
+  "holds": [
+    "A22639-zh-00029",
+    "A22639-zh-00032"
+  ]
+}
