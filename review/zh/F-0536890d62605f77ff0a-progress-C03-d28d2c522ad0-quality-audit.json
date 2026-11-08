@@ -1,0 +1,86 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:d28d2c522ad0",
+  "status": "IN_PROGRESS",
+  "phase": "AFTER_FULL_TRILINGUAL_READ_TARGETED_SEMANTIC_AND_LAYOUT_AUDIT",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_en_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "canonical_review_blob_sha": "e84d1ac48766ae769c0e08cc90f8009dfc2dcc67",
+  "read_stages_carried_forward_from": "review/zh/F-0536890d62605f77ff0a-progress-C03-ef290af4a19d-full-zh-review.json",
+  "korean_read": true,
+  "english_read": true,
+  "chinese_1136_rows_examined": true,
+  "source_sha_all_unchanged": true,
+  "review_corrections": 788,
+  "new_edit_ids": [
+    "B2-zh-00016"
+  ],
+  "existing_edit_revised": [
+    "B3-zh-00006"
+  ],
+  "substantive_changes": [
+    {
+      "id": "B3-zh-00006",
+      "source_ko": "법 제22조제2항에 따라 인도받은 피해자가 응급보호를 받을 수 있도록 지원시설에 입소 지원",
+      "before": "支持受害者入住支持机构",
+      "after": "协助受害者入住支援设施",
+      "reason": "Correct source support-facility designation and affirmative admission assistance."
+    },
+    {
+      "id": "B2-zh-00016",
+      "source_ko": "「외국인근로자의 고용 등에 관한 법률」 제21조에 따른 사업을 같은 법 시행령 제31조제2항 및 제3항에 따라 위탁받아 수행하는 한국산업인력공단, 비영리법인 또는 비영리단체",
+      "before": "韩国人力资源开发服务公司，一家非营利法人，或根据《外国劳动者雇佣等法》第21条受托并开展业务的非营利组织，依据该法实施令第31条第2款和第3款的规定。",
+      "after": "根据《外国劳动者雇佣等法施行令》第三十一条第二款及第三款，受托执行《外国劳动者雇佣等法》第二十一条规定的业务的韩国产业人力公团、非营利法人或者非营利团体。",
+      "reason": "Correct organization legal form and which bodies perform the entrusted functions."
+    }
+  ],
+  "source_layout_tokens_held": [
+    {
+      "id": "A39474-zh-00040",
+      "text": ".",
+      "note": "Following confidentiality clause already fully expressed by previous cell."
+    },
+    {
+      "id": "A39476-zh-00006",
+      "text": "有。",
+      "note": "Residual from annex 3 opening equipment list."
+    },
+    {
+      "id": "A39476-zh-00010",
+      "text": "必须。",
+      "note": "Residual from bedroom entrance requirement."
+    },
+    {
+      "id": "A39477-zh-00006",
+      "text": ".",
+      "note": "Following paragraph 1(a), complete in prior cell."
+    },
+    {
+      "id": "A39477-zh-00008",
+      "text": ".",
+      "note": "Following paragraph 1(b), complete in prior cell."
+    },
+    {
+      "id": "A39478-zh-00027",
+      "text": "不是这样的。",
+      "note": "Already expressed proviso in preceding row; stray redundant and misleading split line."
+    },
+    {
+      "id": "A26697-zh-00008",
+      "text": "金",
+      "note": "No matching separate source word in ID photo label."
+    },
+    {
+      "id": "A26699-zh-00053",
+      "text": "按需。",
+      "note": "Source Korean has final wrapped syllable 다. of consent clause; prior row is semantically complete."
+    }
+  ],
+  "reason_not_complete": "Eight isolated original target_id XML cells have not been definitively reconciled with source layout; no reliable deletion or source-layout repair in canonical Chinese data, and final semantics/format proof not achieved.",
+  "completion_receipt_emitted": false,
+  "only_assigned_family_processed": true,
+  "next_action": "Resolve source target XML cell provenance and final presentation of eight held fragments, perform final meaning and count validation, then mark COMPLETE and issue completion receipt only if verified."
+}
