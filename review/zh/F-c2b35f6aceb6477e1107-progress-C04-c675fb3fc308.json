@@ -1,0 +1,26 @@
+{
+  "schema": "LAW_ZH_PROGRESS_V1",
+  "job_id": "F-c2b35f6aceb6477e1107",
+  "worker": "C04",
+  "task_id": "WORK-TASK:C04:F-c2b35f6aceb6477e1107:c675fb3fc308",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
+    "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
+    "zh": "f8879f4a12299069e4831b03f15a2a2fa30c8089"
+  },
+  "total_documents": 15,
+  "total_zh_rows": 1241,
+  "english_rows_with_direct_match": 911,
+  "english_rows_without_direct_match": 330,
+  "previous_edits": 42,
+  "added_ids": [
+    "B3-zh-00008",
+    "B2-zh-00026",
+    "B2-zh-00023"
+  ],
+  "total_unique_edits": 45,
+  "review_sha": "8c3af9a3bef52d1f159c632fbdb0510afbcf2b9e",
+  "next_first_unverified_id": "B1-zh-00086",
+  "note": "Original language blobs unchanged. Three targeted corrections persisted; entire Korean-English-Chinese sequence and 1241-row Chinese semantic QA not fully certified. English no-direct-match does not establish absent English text. No separate receipt per instruction."
+}
