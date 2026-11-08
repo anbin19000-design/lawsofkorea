@@ -277,19 +277,21 @@
     },
     {
       "id": "B2-zh-00108",
-      "text": "第十条（修改其他法律）①至⑨ 省略\n\n  ⑩ 《普适城市建设等法》施行令部分修改如下。\n\n  第 22 条第 2 款第 2 项中的“电信业务法第 2 条第 1 项”应改为“电信业务法第 2 条第 8 项”。\n\n  ⑪ 至 <20> 已省略\n\n",
       "source_hash": "8b3656b91bcbc098298de138d6b9f3480dd00d11bc3260fc7711e74444e6d8db",
       "target_id": "f5e6df41fa19509e492a41e56db360fefe862a0d12f9fc032caf862b6e1d4ec2",
-      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-73645d4f3db3.json",
-      "verification": "C02_RECORDED_KOREAN_COMPARISON"
+      "text": "第十条（其他法令的修订）第一项至第九项省略。\n\n第十项 对《普适城市建设等相关法律施行令》作如下部分修订。\n\n将第二十二条第二款第二项中的“《电信事业法》第二条第一项”修改为“《电信事业法》第二条第八项”。\n\n第十一项至第二十项省略。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-66b0b614d7aa.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Correct instrument title from enforcement rules to Enforcement Decree."
     },
     {
       "id": "B2-zh-00112",
-      "text": "第十四条（修改其他法律）①至<51> 已省略\n\n  <52> 《普适城市建设等法》施行令部分修改如下。\n\n  第十三条第一款至第三款、该条第四款第一部分以及第十五条第四款中的“城市基本规划”应改为“城市/县基本规划”。\n\n  <53> 至 <85> 已省略\n\n",
       "source_hash": "bd2e946575d1e76f271fba4337bf358301844abd86e0f91f0d90cbedc43f99ea",
       "target_id": "56263cb2dfd2fb41a135fabacca4a67890793b6fe62f6c1b892ba76790612523",
-      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-73645d4f3db3.json",
-      "verification": "C02_RECORDED_KOREAN_COMPARISON"
+      "text": "第十四条（其他法令的修订）第一项至第五十一项省略。\n\n第五十二项 对《普适城市建设等相关法律施行令》作如下部分修订。\n\n将第十三条第一款至第三款、同条第四款前段及第十五条第四款中的“城市基本规划”分别修改为“城市、郡基本规划”。\n\n第五十三项至第八十五项省略。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-66b0b614d7aa.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Restore amendment item <52> and correct the instrument title."
     },
     {
       "id": "B2-zh-00117",
@@ -2771,6 +2773,24 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-66b0b614d7aa.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
       "reason": "Use 附则 for 부칙 and correct the Enforcement Decree title."
+    },
+    {
+      "id": "B2-zh-00109",
+      "source_hash": "4f4b25bba3d06bc6b63b5970be3c8aa2cb2a425d9b07672997cef3acf1c4ec43",
+      "target_id": "2b2668c33b5e38cc776ac1df8001b36913a78073c8f7faf63e0679a6d082a727",
+      "text": "附则（《为行政信息共同利用及文件减量而对经济教育支援法施行令等进行部分修订的总统令》）<第22467号，2010年11月2日>\n\n本施行令自公布之日起施行。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-66b0b614d7aa.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Correct 부칙 label and clarify this is a partial-amendment Presidential Decree, not an addendum."
+    },
+    {
+      "id": "B2-zh-00110",
+      "source_hash": "c22a3e8ab591c250007232cf46e145579956657824c39fd604228a0c2b3811d3",
+      "target_id": "d9954fe3139f311ccd8d7cc5531d608fd5f034401ae436b1cd60bac172f03b0e",
+      "text": "附则（《国土规划及利用法施行令》）<第23718号，2012年4月10日>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-66b0b614d7aa.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Use 附则 and the standard name of the National Land Planning and Utilization Act Enforcement Decree."
     }
   ],
   "adjudicated_edit_count": 288,
@@ -7980,12 +8000,13 @@
     "2026-11-08 C02 continuation: corrected B2 rows 00069, 00070, 00075, 00082 and 00084; corrected implementation-period terminology, paragraph numbering, delegated-agency statute/name and historical supplementary amendment terminology. Rows 00083, 00085 and 00086 compared and retained.",
     "2026-11-08 C02 continuation: corrected B2 rows 00089 and 00091 in historical amendment supplements (Enforcement Decree title and official institution name; supplement terminology). Rows 00087, 00088, 00090 and 00092 compared and retained.",
     "2026-11-08 C02 continuation: corrected B2 rows 00093, 00094, 00097 and 00099 in 2009 amendment supplements (Enforcement Decree instrument title, supplementary-provision label, National Informatization Act title and missing item marker). Rows 00095, 00096 and 00098 compared and retained.",
-    "2026-11-08 C02 continuation: corrected B2 rows 00101, 00103, 00105 and 00106 in 2010 supplementary amendments; restored omitted amendment item numbers and corrected supplementary-provision labels and Decree titles. Rows 00100, 00102 and 00104 compared and retained."
+    "2026-11-08 C02 continuation: corrected B2 rows 00101, 00103, 00105 and 00106 in 2010 supplementary amendments; restored omitted amendment item numbers and corrected supplementary-provision labels and Decree titles. Rows 00100, 00102 and 00104 compared and retained.",
+    "2026-11-08 C02 continuation: corrected B2 rows 00108, 00109, 00110 and 00112 in 2010-2012 historical supplementary amendments; corrected Decree titles, 附则 label, item <52> marker and city/county basic plan terminology. Rows 00107 and 00111 compared and retained."
   ],
   "integration_progress": {
-    "stage": "B2_HISTORICAL_SUPPLEMENTS_2010_RECONCILED",
+    "stage": "B2_HISTORICAL_SUPPLEMENTS_2010_TO_2012_RECONCILED",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:66b0b614d7aa",
-    "note": "Corrected B2-zh-00101, 00103, 00105 and 00106; adjacent effective-date and omitted-section rows retained. Whole-family review remains IN_PROGRESS."
+    "note": "Corrected B2-zh-00108, 00109, 00110 and 00112; retained adjacent effective-date rows. Whole family remains IN_PROGRESS."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -8405,7 +8426,13 @@
     "B2-zh-00106",
     "B2-zh-00100",
     "B2-zh-00102",
-    "B2-zh-00104"
+    "B2-zh-00104",
+    "B2-zh-00108",
+    "B2-zh-00109",
+    "B2-zh-00110",
+    "B2-zh-00112",
+    "B2-zh-00107",
+    "B2-zh-00111"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
