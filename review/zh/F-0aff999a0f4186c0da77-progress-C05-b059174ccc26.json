@@ -1,0 +1,44 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_commit": "7ac4c38b71b5e7238b690c1fb42098f98cc7e052",
+  "prior_corrections_preserved": 402,
+  "cumulative_corrections": 402,
+  "new_corrections": [],
+  "inspected_span": "A34911 rows 1-4 and A34913 rows 1-12; global contamination-marker scan across 1,687 Chinese rows",
+  "semantic_checks": {
+    "A34911": "4 labels compared with complete Korean source text; embedded calculation formulas are absent from extracted source and visual inspection remains open",
+    "A34913": "12 rows compared with complete Korean annex text; no additional definite mistranslation requiring edit"
+  },
+  "integrity": {
+    "chinese_rows": 1687,
+    "distinct_row_ids": 1687,
+    "uncorrected_mtq_start_end_or_hangul_matches": 0,
+    "correction_count": 402,
+    "source_sha_mismatches": 0
+  },
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "english_coverage": {
+    "rows_with_english": 1258,
+    "rows_without_english": 429
+  },
+  "quality_open_items": [
+    "Full sequential semantic audit of all 1,687 Chinese rows remains incomplete",
+    "A34911 formula table requires visual/source-artifact check; formula text is absent from extracted Korean source",
+    "429 rows without English require direct Korean/Chinese semantic comparison"
+  ],
+  "note": "Targeted continuation only; no COMPLETE certification and no receipt created. Previous review and progress records retained."
+}
