@@ -2,7 +2,7 @@
   "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-7423351d4946866bbacf",
   "worker": "C01",
-  "checked_rows": 73,
+  "checked_rows": 75,
   "edits": [
     {
       "id": "B1-zh-00065",
@@ -1091,10 +1091,18 @@
     {
       "id": "B1-zh-00047",
       "text": "第四十二条（支持私人渔业产品采购业务和放出命令）\n① 如有必要，海洋水产大臣可使用渔业发展基金向渔业产品分销经营者提供预付贷款支持，用于短期调整渔业产品供需和稳定价格，以支付部分款项。\n② 根据第1款规定，海洋水产大臣可以命令已获得贷款支持的渔业产品分销经营者，在必​​要时为了调整渔业产品的供需和稳定价格，释放其购买或储存的渔业产品。\n③ 收到第2款命令的渔业产品分销经营者应当遵守该命令，不遵守该命令的渔业产品分销经营者可以追回向其提供的全部或部分贷款资金。\n\n"
+    },
+    {
+      "id": "B1-zh-00043",
+      "text": "第38条（渔业观察）\n① 海洋水产大臣应当每年对主要水产品进行渔业观察，通过调查分析天气信息、生产面积、生产状况、库存量、消费趋势和海外市场信息，稳定水产品的供需，并公布观察结果。\n② 海洋水产部长可指定全国渔业合作社联合会、渔业相关机构或组织为专门从事渔业观察的机构，以便有效履行第1款规定的渔业观察职责。<2018年12月31日修订>\n③ 海洋水产大臣可根据第2款规定，指定特定项目交由渔业观察机构进行渔业观察，并可在预算范围内提供补助或补贴，以支付其运作所需费用。<2018年12月31日新增>\n④ 根据第2款和第3款，指定和运作专门从事渔业观察的机构以及指定项目等的必要事项，由海洋水产部条例规定。<2018年12月31日修订>\n\n"
+    },
+    {
+      "id": "B1-zh-00048",
+      "text": "第 43 条（采购和储备项目损失的处理）海洋水产大臣应将因第 40 条规定的采购和第 41 条规定的储备项目而产生的数量损耗、价格下跌、因销售、出口、捐赠或其他处置而造成的成本损失，以及为实施该项目所必需的管理费用（如运输、包装和害虫防治等），按照总统令的规定，作为该项目的费用处理。\n\n"
     }
   ],
   "status": "IN_PROGRESS",
-  "note": "IN_PROGRESS; 272 unique corrections, all preexisting edits preserved. C01 identified Act Article 28(3) extension UP TO one year not automatically one year, Art31(5) import history procedural scope, and Art42 release order and recovery of loan financing. Korean source authoritative, available English indexed; source SHA preserved. Complete semantic verification of 1207 Chinese cells and annex/form XML correspondence NOT achieved. No COMPLETE receipt.",
+  "note": "IN_PROGRESS; 274 unique source IDs corrected and prior corrections preserved. Act Art38: production area and production condition; Act Art43: physical diminution in quantity, not value decrease. Original SHA unchanged; incomplete full-family 1207-row meaning verification and annex/form XML alignment. No COMPLETE receipt.",
   "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
   "source_sha": {
     "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
