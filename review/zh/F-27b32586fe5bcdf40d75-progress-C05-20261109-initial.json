@@ -41,8 +41,8 @@
     "rows_without_document_english": 310,
     "official_rule_translation": "reviewed/en/KR_011294.json"
   },
-  "checked_rows": 5,
-  "corrected_rows": 5,
+  "checked_rows": 10,
+  "corrected_rows": 10,
   "edits": [
     {
       "id": "B1-zh-00003",
@@ -63,6 +63,26 @@
     {
       "id": "B3-zh-00034",
       "text": "附则 <第1506号，2025年8月1日>\n\n本规则自2025年8月1日起施行。\n\n"
+    },
+    {
+      "id": "B1-zh-00014",
+      "text": "第十条（解除开发区指定等）\n① 依第4条指定的开发区有下列情形之一的，指定权人可以经城市规划委员会审议，解除该开发区的指定。\n1. 自依第4条指定开发区之日起两年内，未指定第12条规定的项目实施者的；\n2. 依第12条第1款指定的项目实施者，自被指定之日起两年内未申请批准第13条规定的实施计划的；\n3. 依第12条第1款指定的项目实施者，自取得第13条规定的实施计划批准之日起一年内未着手实施车站区域开发项目的。\n② 依第22条发布工程竣工公告（采用换地方式实施项目的，为换地处分公告）时，视为开发区指定于公告发布日的次日解除。<2025年12月2日新增>\n③ 依第1款解除开发区指定时，依据《国土规划及利用法》确定的用途地区及地段单位规划区，视为分别恢复为指定该开发区之前的用途地区及地段单位规划区，或者予以废止。<2025年12月2日新增>\n④ 指定权人依第1款解除开发区指定时，应依总统令规定，将其内容刊登于官报或公报。<2025年12月2日修订>\n\n"
+    },
+    {
+      "id": "B1-zh-00025",
+      "text": "第十九条（预收款）\n① 项目实施者可以依总统令规定，向拟取得或使用因车站区域开发项目而开发的土地、建筑物或构筑物等（以下称“开发土地等”）的人，预先收取全部或部分相应价款。<2023年8月16日修订>\n② 项目实施者（指定权人为项目实施者的情形除外）拟依第1款预先收取全部或部分相应价款时，应取得指定权人的批准。\n\n"
+    },
+    {
+      "id": "B1-zh-00027",
+      "text": "第二十一条（竣工检查）\n① 项目实施者完成车站区域开发项目后，应立即依总统令规定接受指定权人的竣工检查。\n② 指定权人收到第1款规定的竣工检查申请后，应依总统令规定实施竣工检查；确认工程依获批实施计划内容实施的，应向申请人颁发国土交通部令规定的竣工检查确认书。<2013年3月23日修订>\n③ 项目实施者依第1款接受竣工检查的，视为已取得第16条第1款各项所规定许可、批准等项下相关项目的竣工检查或竣工批准。此时，指定权人应事先就实施该竣工检查与有关行政机关首长协商。\n④ 为有效实施车站区域开发项目所必需时，项目实施者即使尚未完成该项目的全部工程，也可以就已完成的部分依第1款接受竣工检查。\n⑤ 项目实施者在依第2款取得竣工检查确认书之前，不得使用作为车站区域开发项目一部分而开发或设置的土地或设施。但已依总统令规定向指定权人申报竣工前使用，或取得竣工前使用许可的，不在此限。\n\n"
+    },
+    {
+      "id": "B1-zh-00034",
+      "text": "第二十八条（债券的发行）\n① 项目实施者（限于第12条第1款第1项至第5项规定的主体；但不包括同款第2项及第3项所列主体中由国家铁路公团及韩国铁道公社出资比例均未达到50%的法人）可以为筹措车站区域开发项目所需资金而发行车站区域开发债券（以下称“债券”）。<2020年6月9日修订>\n② 地方自治团体首长拟依《地方财政法》第11条申请行政安全部长官批准发行第1款规定的债券时，应事先与国土交通部长官协商；国家及地方自治团体以外的项目实施者发行债券，应取得指定权人的批准。<2013年3月23日、2014年11月19日、2017年7月26日修订>\n③ 债券的利率、发行方式、发行程序、偿还及发行事务处理等必要事项，由总统令规定。\n\n"
+    },
+    {
+      "id": "B1-zh-00035",
+      "text": "第二十九条（债券的购买）\n① 下列人员之一应购买债券。\n1. 与项目实施者签订工程承包合同的人；\n2. 在依《国土规划及利用法》第56条第1款取得许可的人中，由总统令规定的人。\n② 适用第1款时，还包括依其他法律经过协商，且依该法律视为已取得第13条实施计划批准或《国土规划及利用法》第56条开发行为许可的人。<2020年6月9日修订>\n③ 关于债券购买对象、金额及程序等必要事项，由总统令规定。\n\n"
     }
   ],
   "findings": {
@@ -88,5 +108,5 @@
       "B3-zh-00034"
     ]
   },
-  "notes": "Read all 24 Korean source documents (151,085 characters) in the assigned bundle, then both official English bodies (Act and Enforcement Decree) and all 95 rows of the reviewed English Enforcement Rule. English index reports 1,084/1,394 rows with English and 310 without document-level English. Loaded all 1,394 Chinese rows and performed an initial whole-file anomaly scan. Found mixed Korean/Chinese or untranslated content in 15 rows. Five unambiguous minimal fixes are recorded here; full sequential Chinese review of 1,394 rows remains pending. Do not mark COMPLETE. No source blobs changed. Five rows have now received source-grounded minimal corrections and are retained in this progress checkpoint; the other 1,389 rows remain to be sequentially reviewed."
+  "notes": "Read all 24 Korean source documents (151,085 characters) in the assigned bundle, then both official English bodies (Act and Enforcement Decree) and all 95 rows of the reviewed English Enforcement Rule. English index reports 1,084/1,394 rows with English and 310 without document-level English. Loaded all 1,394 Chinese rows and performed an initial whole-file anomaly scan. Found mixed Korean/Chinese or untranslated content in 15 rows. Five unambiguous minimal fixes are recorded here; full sequential Chinese review of 1,394 rows remains pending. Do not mark COMPLETE. No source blobs changed. Five rows have now received source-grounded minimal corrections and are retained in this progress checkpoint; the other 1,389 rows remain to be sequentially reviewed. Additional sequentially checked rows: B1-zh-00014, B1-zh-00025, B1-zh-00027, B1-zh-00034, B1-zh-00035. These five rows now have minimal corrections; total checked/corrected rows in this checkpoint: 10. Full 1,394-row review remains IN_PROGRESS."
 }
