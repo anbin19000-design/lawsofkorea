@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 351,
+    "correction_count": 359,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -2482,6 +2482,62 @@
       "original": "特许经营费押金证明",
       "corrected": "加盟费托管证明书",
       "reason": "한국어 원문 '예치가맹금', '가맹금 예치증서', '지급보류 요청서'에 상응하는 법정 서식명·금전 성격을 복원. 단순 보증금·계약금으로의 오역 수정."
+    },
+    "A34916-zh-00012": {
+      "doc": "A34916",
+      "source_hash": "e9c3dd9bceadcd6617f946b89df9835f3db84688d25a40c3302780bb98c65887",
+      "original": "。在下列任何情况下，公平交易委员会可根据第2款规定处以行政罚款。",
+      "corrected": "c. 公平交易委员会在下列任一情形下，可在第2项规定的行政罚款金额的二分之一范围内减轻罚款。",
+      "reason": "시행령 별표 5 한국어본: 과태료 감경 규정, 조사·출석 위반의 동사, 표의 호목·조문번호 및 가맹점사업자 제출요건의 명백한 오역 최소 교정."
+    },
+    "A34916-zh-00014": {
+      "doc": "A34916",
+      "source_hash": "d71aa4d375e9478007a457e9184f6f517189036ed87bfcb21688e71efcd6f825",
+      "original": "这不适用于执行  的违规者。",
+      "corrected": "但对拖欠行政罚款的违法行为人不适用。",
+      "reason": "시행령 별표 5 한국어본: 과태료 감경 규정, 조사·출석 위반의 동사, 표의 호목·조문번호 및 가맹점사업자 제출요건의 명백한 오역 최소 교정."
+    },
+    "A34916-zh-00023": {
+      "doc": "A34916",
+      "source_hash": "e92f44138b79cd59d7048e47e5565bfeb3d56f0babb01f40aa47391a1b1b579b",
+      "original": "d. 在下列任何情况下，公平交易委员会可根据第2款规定处以行政罚款",
+      "corrected": "d. 公平交易委员会在下列任一情形下，可在第2项规定的行政罚款金额",
+      "reason": "시행령 별표 5 한국어본: 과태료 감경 규정, 조사·출석 위반의 동사, 표의 호목·조문번호 및 가맹점사업자 제출요건의 명백한 오역 최소 교정."
+    },
+    "A34916-zh-00031": {
+      "doc": "A34916",
+      "source_hash": "1d6f6bce78138ea58d3cc062dbce45c849d57266d25052a404c84318174a0c95",
+      "original": "2. 单个标准",
+      "corrected": "2. 具体标准",
+      "reason": "시행령 별표 5 한국어본: 과태료 감경 규정, 조사·출석 위반의 동사, 표의 호목·조문번호 및 가맹점사업자 제출요건의 명백한 오역 최소 교정."
+    },
+    "A34916-zh-00131": {
+      "doc": "A34916",
+      "source_hash": "5a36e1d2c389a942e23a144e804dfc7b53d78b042d021a3c67be792818f05496",
+      "original": "K. 特许经营违反了该法第32-2条第4款",
+      "corrected": "k. 违反本法第32条之二第4款，使加盟商不提交资料",
+      "reason": "시행령 별표 5 한국어본: 과태료 감경 규정, 조사·출석 위반의 동사, 표의 호목·조문번호 및 가맹점사업자 제출요건의 명백한 오역 최소 교정."
+    },
+    "A34916-zh-00135": {
+      "doc": "A34916",
+      "source_hash": "a54beed4f5bd41a8d4263596036bd18bbcd62b3c37838b183231eec4ce7565bc",
+      "original": "不得导致或促使提交虚假数据",
+      "corrected": "或者要求其提交虚假资料的情形",
+      "reason": "시행령 별표 5 한국어본: 과태료 감경 규정, 조사·출석 위반의 동사, 표의 호목·조문번호 및 가맹점사업자 제출요건의 명백한 오역 최소 교정."
+    },
+    "A34916-zh-00159": {
+      "doc": "A34916",
+      "source_hash": "7652fa0177d00f69a569f85bef9068e2854c5ab86c7b4246c87227b7eac5663b",
+      "original": "部分。根据该法第37条第1款的规定，",
+      "corrected": "m. 根据本法第37条第1款准用的",
+      "reason": "시행령 별표 5 한국어본: 과태료 감경 규정, 조사·출석 위반의 동사, 표의 호목·조문번호 및 가맹점사업자 제출요건의 명백한 오역 최소 교정."
+    },
+    "A34916-zh-00203": {
+      "doc": "A34916",
+      "source_hash": "112829d50b761add9a811935b93b901e9da76f0dacc7b99159421c63e1c41ce8",
+      "original": "ge。根据该法第37条第1款的规定，",
+      "corrected": "o. 根据本法第37条第1款准用的",
+      "reason": "시행령 별표 5 한국어본: 과태료 감경 규정, 조사·출석 위반의 동사, 표의 호목·조문번호 및 가맹점사업자 제출요건의 명백한 오역 최소 교정."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -2553,7 +2609,8 @@
     "C05 94852f90eda2: A34923/A34924 source checked; 8 verified corrections; remaining family semantic QA pending.",
     "C05 94852f90eda2: A34925 source checked; 10 source-grounded corrections. Complete family-wide Chinese semantic QA still pending.",
     "C05 d3c2c0c523fc: exact Korean-source reconciliation of escrow form identity and won-amount expressions; 13 minimal corrections; family semantic QA not COMPLETE.",
-    "C05 d3c2c0c523fc: 6 additional escrow-deposit legal form-heading corrections; unchanged KO/EN/ZH source blobs and all prior corrections preserved."
+    "C05 d3c2c0c523fc: 6 additional escrow-deposit legal form-heading corrections; unchanged KO/EN/ZH source blobs and all prior corrections preserved.",
+    "C05 b12a95d6624f: annex A34916 rechecked against whole Korean source; 8 clear semantic/enum corrections. Source preserved, full semantic review still pending."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -2562,5 +2619,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 351
+  "corrected_rows": 359
 }
