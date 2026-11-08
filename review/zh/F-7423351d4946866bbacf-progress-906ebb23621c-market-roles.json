@@ -1,0 +1,42 @@
+{
+  "schema": "LAW_ZH_REVIEW_AUDIT_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "panel_id": "panel-01",
+  "assignment_id": "S2-c174f0e36bef5fedb717095f1cea01f6",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:906ebb23621c]",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "review_path": "review/zh/F-7423351d4946866bbacf.json",
+  "review_blob": "36d8a7b839fa9cbf8a951b8563155b9b7f5751ac",
+  "documents": 16,
+  "source_rows": 1207,
+  "previous_unique_corrections": 283,
+  "current_unique_corrections": 287,
+  "new_ids": [
+    "B1-zh-00016",
+    "B1-zh-00019",
+    "B1-zh-00024",
+    "B1-zh-00028"
+  ],
+  "grounds": [
+    "Act Art13-2 regulatory definition scope",
+    "Act Art15 origin trading participant role",
+    "Act Art20 origin auctioneer role",
+    "Act Art23 municipal authority and origin intermediate wholesaler titles"
+  ],
+  "previous_edits_preserved": true,
+  "source_sha_unchanged": true,
+  "english_available": "Exact-version B1/B2 English; no separate B3/rule annex/form English",
+  "complete_receipt_issued": false,
+  "full_semantic_review_completed": false,
+  "unresolved": [
+    "Full semantic validation of all 1207 rows not complete",
+    "Annex/form XML cell alignment, including punctuation-only tokens, not complete"
+  ],
+  "next_action": "Continue C01 family in order; no COMPLETE or next assignment before all documents verified."
+}
