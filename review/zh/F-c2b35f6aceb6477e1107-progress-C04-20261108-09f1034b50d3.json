@@ -1,0 +1,34 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-c2b35f6aceb6477e1107",
+  "worker": "C04",
+  "assignment_marker": "09f1034b50d3",
+  "status": "IN_PROGRESS",
+  "scope": "15 documents, Korean -> available English -> Chinese",
+  "source_shas": {
+    "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
+    "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
+    "zh": "f8879f4a12299069e4831b03f15a2a2fa30c8089"
+  },
+  "english_index_coverage": {
+    "rows": 1241,
+    "with_english": 911,
+    "without_english": 330
+  },
+  "new_corrections": [
+    {
+      "id": "B1-zh-00018",
+      "basis": "유치원운영위원회/학교운영위원회 correspond to 运营委员会, not 指导委员会"
+    },
+    {
+      "id": "B1-zh-00032",
+      "basis": "제4조제3호 refers to 第四条第三项, not 第四条第三款"
+    }
+  ],
+  "preserved_prior_edits": 133,
+  "review_edit_count": 135,
+  "verified_full_sequential_reading": false,
+  "verified_full_chinese_review": false,
+  "complete_receipt": false,
+  "note": "Original Korean/English/Chinese source blobs preserved; no finished family review asserted; continue the same assignment."
+}
