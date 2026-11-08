@@ -1,0 +1,53 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-19e75205dc22e336765d",
+  "worker": "C06",
+  "panel_id": "panel-06",
+  "pc": "WORK-C",
+  "status": "IN_PROGRESS",
+  "checkpoint": "2026-11-09T16:18:00+09:00",
+  "source_commit": "cfb1d2139b0964af5165eecacfab57c57c1fe432",
+  "source_blobs": {
+    "ko": "f3c381ac40a93d2dd0c81eeeec800d0484334dce",
+    "en": "9ccc8a185bc0a2975d2e349d3fc3690f6e4b439b",
+    "zh": "42d5c0c29e2439f506c7209aebee695f5a1a631b"
+  },
+  "reading": {
+    "ko": {
+      "status": "FULL_READ",
+      "documents": 30,
+      "characters": 238917
+    },
+    "en": {
+      "status": "FULL_READ",
+      "documents": 2,
+      "characters": 100432,
+      "exact_documents": 1,
+      "fallback_documents": 29,
+      "rows_with_english": 1558,
+      "rows_without_english": 772
+    },
+    "zh": {
+      "status": "PARTIAL_REVIEW",
+      "documents": 30,
+      "rows": 2330,
+      "checked_rows": 130
+    }
+  },
+  "review_path": "review/zh/F-19e75205dc22e336765d.json",
+  "review_sha": "9a48b35d93ee4959585add071094e0412f9123f2",
+  "edits_saved": 96,
+  "pending": [
+    "B2 시행령 15~131 전수 대조",
+    "A29829~A29861 잔여 별지 행 전수 검수",
+    "A29851 손상 행에 대한 원문 회복 근거 확보 전 임의 번역 금지",
+    "772개 영문 미대응 행 한국어 원문과 전수 대조 및 영문 부재 표시",
+    "전체 MTQ/누락/수치/인용/서식 연속성 최종 검사",
+    "완료 파일과 영수증 저장 및 재조회"
+  ],
+  "observations": [
+    "A29851 한국어 source_ko 원문 자체가 OCR/인코딩 손상된 구간 포함. 현재 SHA가 고정된 동일 원문에서는 해당 부분을 추측으로 복원하지 않음.",
+    "A29844/A29848/A29850/A29857은 중국어 행에서 영어가 남아 있는 부분이 상당수 있어 추후 행별 번역 보완 필요."
+  ],
+  "protection": "active/C06 ACTIVE 및 WORK-C panel-06 C06 binding 확인. KO/EN/ZH 원문 SHA 일치. 운영 DB 변경 없음."
+}
