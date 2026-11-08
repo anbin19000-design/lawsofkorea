@@ -1,0 +1,31 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_sha": "382a6eea4616aa864bbf224d689421a2e2735d2b",
+  "prior_corrections_preserved": 276,
+  "new_corrections": [
+    "A34914-zh-00006",
+    "A34914-zh-00013",
+    "A34915-zh-00002",
+    "A34915-zh-00036"
+  ],
+  "cumulative_corrections": 280,
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "chinese_total_rows": 1687,
+  "english_note": "B1 exact English; B2 fallback English version; annex/forms lack independently confirmed exact English.",
+  "review_status": "ZH_SEMANTIC_AUDIT_IN_PROGRESS",
+  "notes": "Existing ordered KO and linked EN reading evidence preserved. Four annex rows corrected against Korean source and review file read-back confirmed. Full Chinese semantic review not certified; no COMPLETE and no receipt."
+}
