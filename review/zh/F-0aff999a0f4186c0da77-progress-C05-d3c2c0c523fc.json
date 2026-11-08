@@ -39,7 +39,8 @@
   "cumulative_corrections": 351,
   "integrity": {
     "distinct_row_ids": 1687,
-    "correction_id_doc_source_hash_and_original_mismatches": 0
+    "correction_id_doc_source_hash_and_original_mismatches": 0,
+    "uncorrected_rows_matching_hangul_or_mtq_start_end_markers": 0
   },
   "verified_ko_reading_documents": 18,
   "verified_linked_english_readings": 3,
@@ -55,5 +56,5 @@
     "Confirm image-only or missing tabular formula artwork in A34911 before family-wide completeness certification",
     "Review source-backed English coverage, 429 rows without English; continue KO/ZH comparison"
   ],
-  "notes": "19 new source-grounded minimal corrections added and GitHub review reread. 332 preceding corrections and source SHAs unchanged. QA of 351 edits found zero row ID/source_hash/original/doc mismatches. Do NOT issue COMPLETE receipt."
+  "notes": "19 new source-grounded minimal corrections added and GitHub review reread. 332 preceding corrections and source SHAs unchanged. QA of 351 edits found zero row ID/source_hash/original/doc mismatches. Do NOT issue COMPLETE receipt. Automated marker scan of uncorrected ZH rows found no raw Hangul or MTQ/START/END residues; this is not a semantic review substitute."
 }
