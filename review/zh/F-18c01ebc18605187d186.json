@@ -82,17 +82,17 @@
     },
     {
       "id": "A30229-zh-00012",
-      "text": "1. 社会福利学或",
+      "text": "1. 社会福利学或社会工作学",
       "source_hash": "d3e67943e0027b0a7abee2697734cb0723e7bba745cd3c1a90c5adc4bee6afa0",
       "target_id": "XML:2217552",
-      "source_progress": "C02 sequential Annex 1 review; checked against Korean Annex 1 qualification table"
+      "source_progress": "C02 sequential Annex A30229 table review; minimal correction"
     },
     {
       "id": "A30229-zh-00013",
       "text": "1. 根据《医疗技术人员等相关法律》",
       "source_hash": "512c134f93be65c648e879536ce497ea55e5dddaced8a3581a0599e2a6962534",
       "target_id": "XML:2217553",
-      "source_progress": "C02 sequential Annex 1 review; checked against Korean Annex 1 qualification table"
+      "source_progress": "C02 sequential Annex A30229 table review; minimal correction"
     },
     {
       "id": "A30229-zh-00015",
@@ -1276,6 +1276,34 @@
       "source_hash": "6e70f816f426374f529522a614da39a11ddee6411a2b8ead62705f198f7e05d3",
       "target_id": "04508d1bc2d48a9002780af7acf4d7b0011df8ce9f23f96677fa6d9382adc3a5",
       "source_progress": "C02 Korean B2 body cross-check; removed duplicated, misattached annex-table content, which is separately indexed as A30229"
+    },
+    {
+      "id": "A30229-zh-00011",
+      "text": "1. 根据《护理法》",
+      "source_hash": "a98b35c9170a7fdce916e4e9bae616c38155dfbd08a2e5045e0527eb089bf91c",
+      "target_id": "XML:2217551",
+      "source_progress": "C02 sequential Annex A30229 table review; minimal correction"
+    },
+    {
+      "id": "A30229-zh-00018",
+      "text": "护理学硕士及以上学位",
+      "source_hash": "b95f5cd4c271626884047ca03274b64c3754b2446b7456165e63db454aa54a2f",
+      "target_id": "XML:2217560",
+      "source_progress": "C02 sequential Annex A30229 table review; minimal correction"
+    },
+    {
+      "id": "A30229-zh-00019",
+      "text": "精神健康作业治疗师",
+      "source_hash": "5874a6ecb7e082caa157237c62e2a0efbd25b83c3482d80fadfa401fbe591791",
+      "target_id": "XML:2217561",
+      "source_progress": "C02 sequential Annex A30229 table review; minimal correction"
+    },
+    {
+      "id": "A30229-zh-00023",
+      "text": "取得护士执照，",
+      "source_hash": "c4921dd82d9af9564edb5723fef0fbfea54c37f413ebb1693633893cb36f8107",
+      "target_id": "XML:2217565",
+      "source_progress": "C02 sequential Annex A30229 table review; minimal correction"
     }
   ],
   "adjudicated_edit_count": 0,
@@ -1290,7 +1318,7 @@
   "ordered_reading_certification": {
     "korean": "READ_COMPLETE_ALL_65_DOCUMENTS",
     "english": "READ_COMPLETE_AVAILABLE_SOURCES_B1_AND_B2_FALLBACK",
-    "chinese": "IN_PROGRESS; B2 through row 105; Annex A30229 reviewed sequentially through row 24"
+    "chinese": "IN_PROGRESS; B2 through row 105; Annex A30229 reviewed sequentially through row 25; table-cell alignment and remaining documents pending"
   },
   "checked_unique_ids": [
     "B1-zh-00001",
@@ -1596,10 +1624,11 @@
     "A30229-zh-00021",
     "A30229-zh-00022",
     "A30229-zh-00023",
-    "A30229-zh-00024"
+    "A30229-zh-00024",
+    "A30229-zh-00025"
   ],
-  "checked_rows": 293,
-  "corrected_rows": 180,
+  "checked_rows": 305,
+  "corrected_rows": 184,
   "notes": [
     "Only obvious omissions of clause numbering and a missing subparagraph marker corrected; substantive terminology and existing wording retained.",
     "B2 English is an older fallback (version 272521), not exact current Korean version; newer provisions require Korean-Chinese comparison.",
@@ -1634,6 +1663,7 @@
     "Sequential review through B2-zh-00104. Corrected 2025 Nursing Act cross-references and the 2026 consolidated special-city enforcement decree title; other commencement dates and omitted amendment ranges checked and retained. Annex 1 qualification table begins at B2-zh-00105 and requires dedicated table-structure review.",
     "B2-zh-00105 was aligned to the actual Korean B2 body: the amendment clause only changes Annex 4 item 2 jurisdiction column and omits items 60-78. The appended garbled Annex 1 table was removed from this body row because Annex 1 is separately indexed under A30229 and must be reviewed there.",
     "Started dedicated review of Annex A30229 (Enforcement Decree Schedule 1). Corrected its official title, qualification-standard heading, column heading and four professional category names. The remaining table cells A30229-zh-00010 onward require sequential Korean-to-Chinese table-structure review; not marked complete.",
-    "Sequential review resumed in Annex A30229 through row 24. Corrected obvious mistranslations in the social-work qualification, the Medical Technicians Act citation, and the occupational-therapy training-period exclusion. Other reviewed fragments were retained pending the next table-aligned pass."
+    "Sequential review resumed in Annex A30229 through row 24. Corrected obvious mistranslations in the social-work qualification, the Medical Technicians Act citation, and the occupational-therapy training-period exclusion. Other reviewed fragments were retained pending the next table-aligned pass.",
+    "Sequential Annex A30229 review continued through rows 10-25. Corrected clear mistranslations of statutory 'under the Nursing Act', social welfare/social work academic fields, Medical Technicians Act reference, nursing master's qualification, and mental-health occupational therapist terminology. Row A30229-zh-00024 contains corrupted machine text ('球 END'); exact source-cell alignment must be established before replacement. Rows 20, 22, 24-25 remain subject to source-aligned table QA; no completion claim."
   ]
 }
