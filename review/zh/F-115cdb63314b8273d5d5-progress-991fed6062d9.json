@@ -142,14 +142,15 @@
     "en_reading_position": {
       "file": "documents/en/kr-klri-71547-en.json",
       "source_blob_sha": "48a8b57dbb18c4d3612898707a6a58393997fa8a",
-      "next_line_zero_based": 0,
       "total_lines": 10235,
-      "notes": "Completed first 1169-line English statute document, including main law articles and 2014–2025 supplementary provisions. Second English version has many blank markup lines; read all substantive text in original order."
+      "lines_read_from_start": 2000,
+      "next_line_zero_based": 2000,
+      "notes": "Second English Road Act reference read through Article 23 start; 2000 original lines include 410 nonempty content lines. Formatting contains repetitive blank lines. Follow remaining original order."
     },
     "en_completed_documents": [
       "documents/en/kr-001821-276971-en.json"
     ]
   },
   "edits": [],
-  "note": "Korean 61/61 complete, English official reference 1/3 complete, continuing KLRI English Road Act. Chinese 0/5228. No edits."
+  "note": "KO 61/61 completed. EN 1/3 complete and second EN source lines 0–1999 checked. ZH 0/5228 reviewed."
 }
