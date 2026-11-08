@@ -1,0 +1,28 @@
+{
+  "schema": "LAW_ZH_PROGRESS_V1",
+  "job_id": "F-c2b35f6aceb6477e1107",
+  "worker": "C04",
+  "task_id": "WORK-TASK:C04:F-c2b35f6aceb6477e1107:e700a4688f58",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
+    "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
+    "zh": "f8879f4a12299069e4831b03f15a2a2fa30c8089"
+  },
+  "documents_total": 15,
+  "zh_rows_total": 1241,
+  "english_rows_with_direct_match": 911,
+  "english_rows_without_direct_match": 330,
+  "previous_edits": 59,
+  "added_ids": [
+    "B3-zh-00003",
+    "B3-zh-00004",
+    "B3-zh-00005",
+    "B3-zh-00012"
+  ],
+  "total_unique_edits": 63,
+  "review_blob_sha": "4ead11d23559061e39854027c94804a24e5243a3",
+  "next_first_unverified_id": "B1-zh-00086",
+  "receipt_status": "NOT_ISSUED",
+  "note": "Original blobs intact and 59 prior edits retained. Four source-confirmed corrections persisted. Full Chinese row-by-row semantic QA not certified, so COMPLETE and final receipt are withheld."
+}
