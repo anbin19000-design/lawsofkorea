@@ -2274,19 +2274,19 @@
       "id": "B2-zh-00052",
       "source_hash": "b2e0513190a3eb7e68eb991457f686b697def30150a8227c122de56cf80305ba",
       "target_id": "de129bcaef0d463439ac5be6e117021193da0d08f37385a2136578519c167a6c",
-      "text": "第40条之2（关于可再生能源范围的特别规定）\n① 如果国土交通大臣打算根据该法第42条之2第1款对可再生能源的范围作出不同的界定，则应当根据行政程序法第 46 条发布行政通知。\n② 如果国土交通大臣根据该法第 42-2 条第 1 款确定了可再生能源的不同范围，则应在官方公报上公布。\n\n",
-      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-b98b4421518f-continued.json",
+      "text": "第四十条之二（关于可再生能源范围的特别规定）\n① 国土交通部长官拟依据本法第四十二条之二第一款另行规定可再生能源范围时，应当依照《行政程序法》第四十六条发布行政预告。\n② 国土交通部长官依据本法第四十二条之二第一款另行规定可再生能源范围的，应当在官方公报上予以公告。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-e33af5bbd71a.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
-      "reason": "Correct Article 42-2(1) legal hierarchy in ministerial notice provision."
+      "reason": "Translate 행정예고 as administrative advance notice (行政预告), not a generic administrative notice."
     },
     {
       "id": "B2-zh-00049",
       "source_hash": "42b7c466b9f2f67a4f040e7d8312045aeae07c6c4bd514f1c87afea39d528110",
       "target_id": "244bad0cb56711ea35960af55efae6a461b57f46f5f576854a518a2b6b28ee64",
-      "text": "第38条（公开征集商业计划书的程序）\n① 项目实施者根据《智慧城市建设法》第三十八条第一款的规定，拟征集智慧城市建设项目商业计划书时，应当在两份以上综合性日报上刊登下列各款事项（指根据《报业振兴法》第九条第一款的规定，以全国发行范围为登记的综合性日报）。\n1. 项目计划概述，包括国家示范城市建设项目的目的、地点、规模、周期和方法\n2. 通过租赁和出售已开发土地等方式制定供应计划。\n3. 商业计划书撰写指南\n4. 申请指南，包括商业计划书提交期限和方式\n5. 商业计划书评估标准和评估计划\n6. 准备和提交商业计划书等所需的其他事项。\n② 项目实施者应当对根据第一款公告提交的项目计划书，按照同款第5项的规定进行评估，予以选择。\n\n",
-      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-cdb16aa1344a.json",
+      "text": "第三十八条（项目计划的公开征集程序）\n① 项目实施者拟根据本法第三十八条第一款公开征集智慧城市建设项目计划时，应当在两份以上普通日报（指根据《报业等振兴法》第九条第一款登记、发行区域为全国的普通日报）上公告下列事项。\n1. 项目计划概要，包括国家试点城市建设项目的目的、位置、规模、期限及方式等\n2. 通过租赁或出售已开发土地等方式供应的计划\n3. 项目计划书编制指南\n4. 项目计划书的提交期限、提交方式等公开征集申请须知\n5. 项目计划书的评估标准及评估计划\n6. 编制、提交项目计划书等所需的其他事项\n② 项目实施者应当按照第一款第五项规定的标准，对根据第一款公告提交的项目计划书进行评估并选定。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-e33af5bbd71a.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
-      "reason": "Decree Article 38(2) references paragraph 1 and its subparagraph 5, not subparagraphs 1 and 5 of the present paragraph."
+      "reason": "Correct 일반일간신문 as ordinary/general daily newspapers, not comprehensive dailies; preserve statutory notice scope and item numbering."
     },
     {
       "id": "B2-zh-00120",
@@ -2611,6 +2611,24 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-resume-20261108T2109.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
       "reason": "The Korean cross-reference is Article 4, subparagraph 2 (제4조제2호), not Article 4, paragraph 2."
+    },
+    {
+      "id": "B2-zh-00046",
+      "source_hash": "4e61887dbd12241593f98ddbb123037fe9105d8fad315f90c62aed4deb184486",
+      "target_id": "e99d7252c3a70db67b355dedfbf983b85eb5a64889db6a2d81f8da4ee24acddc",
+      "text": "第三十五条（国家试点城市总体规划师的聘任等）\n① 本法第三十五条之二第一款规定的总体规划师（以下简称“总体规划师”），由国土交通部长官从在智慧城市相关技术、经济、社会及科学领域具有丰富专业知识或经验的人士中聘任。<2019年8月20日修订>\n② 本法第三十五条之二第一款第三项所称“支持国家试点城市运营等由总统令规定的业务”，是指与国家试点城市运营有关的下列业务。<2019年8月20日修订>\n1. 支持建立和运营国家试点城市建设项目的推进体系\n2. 支持国家试点城市建设项目的国内外合作\n③ 国土交通部长官认为为总体规划师顺利履行职责有必要时，可以提供预算等必要支持。<2019年8月20日新增>\n④ 总体规划师认为为顺利履行职责有必要时，可以组建并运营总体规划团队。<2019年8月20日新增>\n⑤ 总体规划师的聘任程序及履职方式、总体规划团队的组成和运营等必要事项，由国土交通部长官规定。<2019年8月20日新增>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-e33af5bbd71a.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Keep the defined term 总体规划师 consistent throughout; source uses 총괄계획가 and 총괄계획단."
+    },
+    {
+      "id": "B2-zh-00058",
+      "source_hash": "3421b5868589348f7bfbf3db1c4276e89d5fd9ddffbe0647cc7d72cd3d9ec6b7",
+      "target_id": "87890e09b58e5c11f33f9c08f0a395ea74cec89e8ecaa6ebcb8cbe68f240ddd5",
+      "text": "第四十四条之二（关于指定城市创新区等的特别规定）\n① 国土交通部长官依据本法第四十四条第二款拟指定创新增长促进区时，可以另行规定有关指定城市创新区等事项如下。<2024年7月30日修订>\n1. 根据《国土规划及利用法》第四十条之三第七款公告的可指定为城市创新区的最大面积\n2. 根据《国土规划及利用法》第四十条之三第七款公告的城市创新区可用总建筑面积（指总面积中扣除基础设施面积后的建筑面积）中住宅功能建筑面积的上限\n② 国土交通部长官拟另行规定第一款各项事项时，应当依照《行政程序法》第四十六条发布行政预告。\n③ 国土交通部长官另行规定第一款各项事项的，应当在官方公报上公告。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-e33af5bbd71a.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Correct the misnamed Act in item 2 and preserve the legal concept of available gross floor area; administrative pre-announcement terminology aligned."
     }
   ],
   "adjudicated_edit_count": 288,
@@ -7810,12 +7828,13 @@
     "2026-11-08 C02 continuation: corrected B1-zh-00116, where the Chinese translation erased the statutory title amendment by translating old and new titles identically.",
     "2026-11-08 C02 continuation: corrected B1-zh-00070 Article 50(1)(2) legal test; other paragraphs retained with only necessary terminology alignment.",
     "2026-11-08 C02 continuation: three direct Korean-source corrections in Enforcement Decree B2 rows 00028, 00030 and 00031: preserve the actual-cost ceiling, update the Broadcasting Media and Communications Commission title, and correct Article 4 subparagraph 2 citation. Whole-family review remains IN_PROGRESS; no completion certification.",
-    "2026-11-08 C02 continuation: additionally compared B2 rows 00033, 00037, 00038, 00039, 00041, 00042 and 00044 directly against the Korean source; no clear material mistranslation confirmed, so existing text retained."
+    "2026-11-08 C02 continuation: additionally compared B2 rows 00033, 00037, 00038, 00039, 00041, 00042 and 00044 directly against the Korean source; no clear material mistranslation confirmed, so existing text retained.",
+    "2026-11-08 C02 continuation: four further source-grounded corrections in B2 rows 00046, 00049, 00052 and 00058 (consistent 总体规划师 terminology; 普通日报; 行政预告; correct 国土规划及利用法 citation). Also compared rows 00048, 00050, 00053, 00054, 00056 and 00059-00063 and retained existing text where no clear material error was confirmed."
   ],
   "integration_progress": {
-    "stage": "B2_ARTICLES_22_3_TO_24_RECONCILED",
+    "stage": "B2_ARTICLES_35_TO_44_2_RECONCILED",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:e33af5bbd71a",
-    "note": "Corrected B2-zh-00028, 00030 and 00031 against the unchanged Korean source. Continue statutory sequence and reconcile remaining evidence gaps; full-family ordered reading remains uncertified."
+    "note": "Added source-grounded minimal corrections for B2-zh-00046, 00049, 00052 and 00058. Full-family ordered reading and review remain IN_PROGRESS."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -8154,7 +8173,17 @@
     "B2-zh-00039",
     "B2-zh-00041",
     "B2-zh-00042",
-    "B2-zh-00044"
+    "B2-zh-00044",
+    "B2-zh-00046",
+    "B2-zh-00058",
+    "B2-zh-00048",
+    "B2-zh-00054",
+    "B2-zh-00056",
+    "B2-zh-00059",
+    "B2-zh-00060",
+    "B2-zh-00061",
+    "B2-zh-00062",
+    "B2-zh-00063"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
