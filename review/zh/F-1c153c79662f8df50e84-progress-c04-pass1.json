@@ -15,7 +15,7 @@
     "required_order": "KO_FULL_EN_FULL_ZH_FULL",
     "ko": "COMPLETE: all 34 Korean source documents read in source order.",
     "en": "COMPLETE: B1 exact English and B2 English draft read in full; reviewed/en/KR_008306.json reference read; B3 and forms lack complete English document translations.",
-    "zh": "IN_PROGRESS: targeted corrections saved for A12199–A12207, including form titles, labels, property types, legal references and prices. Remaining A12179/A12180 segmentation and whole-family final QA are outstanding."
+    "zh": "IN_PROGRESS: fragmented table labels in A12179 and the opinion-hearing results form A12180 have been reconciled. All 34 documents have been reviewed for obvious issues; final whole-family QA and canonical result/receipt still pending."
   },
   "scope": {
     "documents": 34,
@@ -4020,13 +4020,426 @@
       "text_original": "根据《房地产价格公开披露法》第22条第9款",
       "corrected_text": "根据《房地产价格公示法》第二十二条第九款，",
       "note": "修正异议申请法律依据。"
+    },
+    {
+      "id": "A12179-zh-00001",
+      "source_hash": "ed0c5bfb0b8c72f4796fe56c7b68b1ee31727c60f78dbba4f4d386e23fafdae5",
+      "text_original": "■ 房地产价格公开披露法实施细则 [附件表格3]",
+      "corrected_text": "■《房地产价格公示法施行规则》[别纸第3号书式]",
+      "note": "修正标准土地调查表表头母法名称。"
+    },
+    {
+      "id": "A12179-zh-00002",
+      "source_hash": "2f21d47e9874baf396c2a2baa3024edbae05464ca4965a5ada141458058fabac",
+      "text_original": "标准土地测量详情及价格评估意见",
+      "corrected_text": "标准土地调查事项及价格评估意见书",
+      "note": "修正标准土地调查事项及评估意见书标题。"
+    },
+    {
+      "id": "A12179-zh-00003",
+      "source_hash": "3f1a6e3dcaf2f8496bf1a8467a657f0f026c05183145ca1f81ad375cd5da1a66",
+      "text_original": "标准编号：",
+      "corrected_text": "标准土地编号：",
+      "note": "修正标准土地编号字段。"
+    },
+    {
+      "id": "A12179-zh-00006",
+      "source_hash": "8c57fafb0573bcf5d4c3c3c8fe9cf393c03159f4d399668c98e2647a9c26c956",
+      "text_original": "小型",
+      "corrected_text": "所在地",
+      "note": "修正土地所在地字段。"
+    },
+    {
+      "id": "A12179-zh-00008",
+      "source_hash": "8613fdfd863cefa560f085e6b9dc073f2c4318adbaafd707f8b108a0f99865f2",
+      "text_original": "指定用于研究的土地",
+      "corrected_text": "登记地目",
+      "note": "修正登记簿记载地目字段。"
+    },
+    {
+      "id": "A12179-zh-00009",
+      "source_hash": "9285603ef22574fff2f62a1f6be09f41b8fbe16c7ad6934ff1194f23be0213e1",
+      "text_original": "区域",
+      "corrected_text": "面积",
+      "note": "修正面积字段。"
+    },
+    {
+      "id": "A12179-zh-00011",
+      "source_hash": "d2dfce93ede42fb62b73919907b36fb6e6dd7b96aef7138ab485b3fcf8505e4c",
+      "text_original": "复杂状态",
+      "corrected_text": "是否为一宗土地",
+      "note": "修正是否属于一宗土地字段。"
+    },
+    {
+      "id": "A12179-zh-00013",
+      "source_hash": "091cad622fbd9d9f09a75220412b611f6cc83089e853391f4390ff50062adc67",
+      "text_original": "形状",
+      "corrected_text": "地块形状",
+      "note": "修正地块形状字段。"
+    },
+    {
+      "id": "A12179-zh-00014",
+      "source_hash": "d33ecbf1a84f62b021387c65fb31263284457737766b528686a396e4657a5a65",
+      "text_original": "当前使用",
+      "corrected_text": "利用状况",
+      "note": "修正利用状况字段。"
+    },
+    {
+      "id": "A12179-zh-00015",
+      "source_hash": "83d767d3c12e8c049dafe8192a8032d4b9f8b4b7f0fb95d218c8b714475a8520",
+      "text_original": "高程差",
+      "corrected_text": "地势高低",
+      "note": "修正地势高低字段。"
+    },
+    {
+      "id": "A12179-zh-00016",
+      "source_hash": "fc1c7955c77f0c2411f799cb1ebee13a996a822620236fe18cca6c120e2a8c0f",
+      "text_original": "方向",
+      "corrected_text": "方位",
+      "note": "修正方位字段。"
+    },
+    {
+      "id": "A12179-zh-00017",
+      "source_hash": "1588fbaa0bf8816f0dc9e33e0aa1f634626508fcb6bef3f187f217fee1bebdda",
+      "text_original": "城市规划和",
+      "corrected_text": "城市规划及",
+      "note": "修复城市规划及公法限制标题。"
+    },
+    {
+      "id": "A12179-zh-00018",
+      "source_hash": "24d6528a4daf1cbc0e7bed9477512fd17a17bc5dc21e2fb10c87fc0529cc9e2e",
+      "text_original": "使用区域：",
+      "corrected_text": "用途区域：",
+      "note": "修正用途区域字段。"
+    },
+    {
+      "id": "A12179-zh-00019",
+      "source_hash": "ab44710476a34d1610765a3b1d165f955fe5f2756997877eaf9d6fd8b27ad42a",
+      "text_original": "公共监管",
+      "corrected_text": "公法限制",
+      "note": "修正公法限制字段。"
+    },
+    {
+      "id": "A12179-zh-00020",
+      "source_hash": "691b40f769f06e6c3d5aba96e6dc21d999bbb73f56beebb808842b33c7f05b8e",
+      "text_original": "使用区域：",
+      "corrected_text": "用途地区：",
+      "note": "修正用途地区字段。"
+    },
+    {
+      "id": "A12179-zh-00021",
+      "source_hash": "172e8cba60eaf0545fe045375d9c2feb519df58b921f016965f261223e2ae2f3",
+      "text_original": "城市规划设施:",
+      "corrected_text": "城市规划设施：",
+      "note": "修正城市规划设施字段。"
+    },
+    {
+      "id": "A12179-zh-00022",
+      "source_hash": "019c2e92f24b81340a45cf71bcf93f3f8ec653657a4341f35d3b258bde530592",
+      "text_original": "侵占率",
+      "corrected_text": "冲突率：",
+      "note": "修正设施冲突率字段。"
+    },
+    {
+      "id": "A12179-zh-00024",
+      "source_hash": "01298855dc96d408a568eeaa4b9eefc894bba45b6bed0fba62ab904752a15e4c",
+      "text_original": "道路临街面",
+      "corrected_text": "临路状况",
+      "note": "修正道路接面字段。"
+    },
+    {
+      "id": "A12179-zh-00025",
+      "source_hash": "ab1b313ce9f36c022050939a68ace7883338465fb609b91eba0cb6f0b534f9f7",
+      "text_original": "主干道距离",
+      "corrected_text": "距干线道路距离",
+      "note": "修正干线道路距离字段。"
+    },
+    {
+      "id": "A12179-zh-00027",
+      "source_hash": "20c70ad3e6da7d90cc712aa03630748ba29f356987eab2fe6d222203224500c8",
+      "text_original": "农田",
+      "corrected_text": "农地",
+      "note": "修正农地类别标题。"
+    },
+    {
+      "id": "A12179-zh-00028",
+      "source_hash": "d8ba487317ac4e370c544ff11fee92077c5dfe235d14d8d93e213e278685f7be",
+      "text_original": "分类",
+      "corrected_text": "类别",
+      "note": "修正农地类别字段。"
+    },
+    {
+      "id": "A12179-zh-00029",
+      "source_hash": "94b62d0611488e210702d6c7c1a9294d7906210039a30fcf7cd81a2236134365",
+      "text_original": "生育力",
+      "corrected_text": "肥沃程度",
+      "note": "修正土壤肥沃程度字段。"
+    },
+    {
+      "id": "A12179-zh-00030",
+      "source_hash": "a47bdfed6c5f770241c4cf48e533893b7e2d82ed2f172a1ce1f6132d0cb00be2",
+      "text_original": "土地整合",
+      "corrected_text": "土地整理情况",
+      "note": "修正土地整理字段。"
+    },
+    {
+      "id": "A12179-zh-00031",
+      "source_hash": "6e08ff147e59ad6a1a6657eeecf8a751d8f393404fb424659558fb727b7dc117",
+      "text_original": "森林用地分类",
+      "corrected_text": "林地类别",
+      "note": "修正林地类别字段。"
+    },
+    {
+      "id": "A12179-zh-00032",
+      "source_hash": "217dca5b5e978f0b7869e022d94bad1a85cdec53b6b99912acdcb897c7abf32d",
+      "text_original": "评估",
+      "corrected_text": "评估意见",
+      "note": "修正评估意见标题。"
+    },
+    {
+      "id": "A12179-zh-00033",
+      "source_hash": "7ad1735ed90b297b88a23b60a24f6cda0f79ba0e8d7628dc283bf41cf5dad74c",
+      "text_original": "离子",
+      "corrected_text": "评估价格",
+      "note": "修正评估价格字段。"
+    },
+    {
+      "id": "A12179-zh-00034",
+      "source_hash": "217dca5b5e978f0b7869e022d94bad1a85cdec53b6b99912acdcb897c7abf32d",
+      "text_original": "初级-",
+      "corrected_text": "韩元／㎡",
+      "note": "修正货币及面积单位。"
+    },
+    {
+      "id": "A12179-zh-00035",
+      "source_hash": "de7ade47709532b99bad00ce2db7073fec7744f10170072956ca9aba9c2cbba8",
+      "text_original": "赢/㎡",
+      "corrected_text": "参考价格",
+      "note": "修正参考价格标题。"
+    },
+    {
+      "id": "A12179-zh-00036",
+      "source_hash": "756bb666121b904a22fd94f262494f7f51535c26cea5d78d926c586eb77841f0",
+      "text_original": "参考价格",
+      "corrected_text": "上年度地价",
+      "note": "修正上年度地价字段。"
+    },
+    {
+      "id": "A12179-zh-00037",
+      "source_hash": "e48de12780b3948d39a0d2575cd161c76c2d83fb6d5666035dac603bfb7ec156",
+      "text_original": "上年土地价格",
+      "corrected_text": "年度公示地价（个别公示地价）",
+      "note": "修正年度公示地价字段。"
+    },
+    {
+      "id": "A12179-zh-00038",
+      "source_hash": "2df7a8cacd2a63b2b479f4aa2b8d011f778f79baf9c3e5adf991742c1b7a89e1",
+      "text_original": "年份 官方评估土地价格（个人官方评估土地价格）",
+      "corrected_text": "韩元／㎡",
+      "note": "修正货币及面积单位。"
+    },
+    {
+      "id": "A12179-zh-00039",
+      "source_hash": "de7ade47709532b99bad00ce2db7073fec7744f10170072956ca9aba9c2cbba8",
+      "text_original": "赢/㎡",
+      "corrected_text": "交易案例",
+      "note": "修正交易案例字段。"
+    },
+    {
+      "id": "A12179-zh-00040",
+      "source_hash": "9fb84aa2cc466d4376353478224a41ea31f2e834cd7418873a709d1f5700bdef",
+      "text_original": "可比较事务",
+      "corrected_text": "所在地",
+      "note": "修正所在地字段。"
+    },
+    {
+      "id": "A12179-zh-00041",
+      "source_hash": "ef4403031e6e67eb6ff612ac7f030ff5fcf2e12e2b56fe2fa253adc78b0c68bb",
+      "text_original": "位置",
+      "corrected_text": "地目",
+      "note": "修正地目字段。"
+    },
+    {
+      "id": "A12179-zh-00042",
+      "source_hash": "cac86917237b341dd83b3e9b520f22f49d9e7f839c4b7a9352c87da5f8667f17",
+      "text_original": "Land 类别",
+      "corrected_text": "用途地区",
+      "note": "修正用途地区字段。"
+    },
+    {
+      "id": "A12179-zh-00043",
+      "source_hash": "097385de27a114321a359d9178858a0033110a9d15918aab6ceca71262f047da",
+      "text_original": "土地利用区",
+      "corrected_text": "交易日期",
+      "note": "修正交易日期字段。"
+    },
+    {
+      "id": "A12179-zh-00044",
+      "source_hash": "f320abb4667eec69f0bce5fd2c745961a82237e00350e54300e19a23a5bc9447",
+      "text_original": "交易日",
+      "corrected_text": "面积",
+      "note": "修正面积字段。"
+    },
+    {
+      "id": "A12179-zh-00045",
+      "source_hash": "9285603ef22574fff2f62a1f6be09f41b8fbe16c7ad6934ff1194f23be0213e1",
+      "text_original": "区域",
+      "corrected_text": "金额",
+      "note": "修正金额字段。"
+    },
+    {
+      "id": "A12179-zh-00046",
+      "source_hash": "5c705e1a45d06ea90cead7c44903e65fce45ae5951f816ba693c5548a2998885",
+      "text_original": "金额",
+      "corrected_text": "韩元／㎡",
+      "note": "修正金额单位。"
+    },
+    {
+      "id": "A12179-zh-00047",
+      "source_hash": "de7ade47709532b99bad00ce2db7073fec7744f10170072956ca9aba9c2cbba8",
+      "text_original": "赢/㎡",
+      "corrected_text": "评估先例",
+      "note": "修正评估先例字段。"
+    },
+    {
+      "id": "A12179-zh-00048",
+      "source_hash": "34eccdb9c0d6982cad5f1acb96e5348e3798112630daa873cbd87f59219b233f",
+      "text_original": "评估先例",
+      "corrected_text": "所在地",
+      "note": "修正所在地字段。"
+    },
+    {
+      "id": "A12179-zh-00049",
+      "source_hash": "ef4403031e6e67eb6ff612ac7f030ff5fcf2e12e2b56fe2fa253adc78b0c68bb",
+      "text_original": "位置",
+      "corrected_text": "地目",
+      "note": "修正地目字段。"
+    },
+    {
+      "id": "A12179-zh-00050",
+      "source_hash": "cac86917237b341dd83b3e9b520f22f49d9e7f839c4b7a9352c87da5f8667f17",
+      "text_original": "Land 类别",
+      "corrected_text": "用途地区",
+      "note": "修正用途地区字段。"
+    },
+    {
+      "id": "A12179-zh-00051",
+      "source_hash": "097385de27a114321a359d9178858a0033110a9d15918aab6ceca71262f047da",
+      "text_original": "土地利用区",
+      "corrected_text": "评估日期",
+      "note": "修正评估日期字段。"
+    },
+    {
+      "id": "A12179-zh-00052",
+      "source_hash": "0451b3342d68dde81bf73b1029f73aad6db55d132f2f46be68ba8e2745fa2315",
+      "text_original": "评估日期",
+      "corrected_text": "评估目的",
+      "note": "修正评估目的字段。"
+    },
+    {
+      "id": "A12179-zh-00053",
+      "source_hash": "a0fbc067cebc8ba7fa8110b48f846b0f75391760499a0a4c39a377b56b30558a",
+      "text_original": "用途",
+      "corrected_text": "面积",
+      "note": "修正面积字段。"
+    },
+    {
+      "id": "A12179-zh-00054",
+      "source_hash": "9285603ef22574fff2f62a1f6be09f41b8fbe16c7ad6934ff1194f23be0213e1",
+      "text_original": "区域",
+      "corrected_text": "金额",
+      "note": "修正金额字段。"
+    },
+    {
+      "id": "A12179-zh-00055",
+      "source_hash": "5c705e1a45d06ea90cead7c44903e65fce45ae5951f816ba693c5548a2998885",
+      "text_original": "金额",
+      "corrected_text": "韩元／㎡",
+      "note": "修正金额单位。"
+    },
+    {
+      "id": "A12179-zh-00056",
+      "source_hash": "de7ade47709532b99bad00ce2db7073fec7744f10170072956ca9aba9c2cbba8",
+      "text_original": "赢/㎡",
+      "corrected_text": "市价水平",
+      "note": "修正市价水平字段。"
+    },
+    {
+      "id": "A12179-zh-00057",
+      "source_hash": "7513a02da36219fb8e14c3d3a501b123bb70c88dee950a8b9c469e0a269f3480",
+      "text_original": "当地现行价格",
+      "corrected_text": "韩元／㎡",
+      "note": "修正市价单位。"
+    },
+    {
+      "id": "A12180-zh-00001",
+      "source_hash": "0f0e0cdaec2adc45eeadd1e362f234dc42662881972138b4542003cb923da332",
+      "text_original": "■ 房地产价格公开披露法实施细则 [附件表格4]",
+      "corrected_text": "■《房地产价格公示法施行规则》[别纸第4号书式]",
+      "note": "修正意见听取结果表头母法名称。"
+    },
+    {
+      "id": "A12180-zh-00002",
+      "source_hash": "01d4bbfad8e3cc14da7e83065e0273c5a92adf4c915a1a680be9dabc57b77013",
+      "text_original": "市长、县长和区长就标准土地价格发表意见的听证结果",
+      "corrected_text": "市长、郡守或区厅长听取标准土地公示地价意见的结果报告",
+      "note": "修正表格标题及地方首长职衔。"
+    },
+    {
+      "id": "A12180-zh-00003",
+      "source_hash": "ebd5ec7e91454142d80519d7ccc52225f6a22b1e2128a61abc122df438e63045",
+      "text_original": "城市/县/区名称:",
+      "corrected_text": "市、郡、区名称：",
+      "note": "修正地方行政区划名称。"
+    },
+    {
+      "id": "A12180-zh-00009",
+      "source_hash": "c566eec6be38abd9e0490c8e41d158debcfe87dc57dbc631bb455dcd0d781079",
+      "text_original": "市/县/区房地产价格披露委员会会议日期",
+      "corrected_text": "市、郡、区房地产价格公示委员会会议日期",
+      "note": "修正委员会名称。"
+    },
+    {
+      "id": "A12180-zh-00010",
+      "source_hash": "7fb47502c1cec9c788aab9a844bb41189eb5053c48006d23d1a469e1f134d628",
+      "text_original": "回复日期",
+      "corrected_text": "意见回复日期",
+      "note": "修正意见回复日期字段。"
+    },
+    {
+      "id": "A12180-zh-00013",
+      "source_hash": "2d41ad58ab357f2bf766ec404fa8dfd65f3080a3e4460e0efd86b35e1c8fe585",
+      "text_original": "是否反射",
+      "corrected_text": "是否予以反映",
+      "note": "修正是否反映意见字段。"
+    },
+    {
+      "id": "A12180-zh-00014",
+      "source_hash": "deafe7451424edeb3ea41d0ea496ba9c7a8cb036a06b72dfafbc697e890500f3",
+      "text_original": "是",
+      "corrected_text": "采纳情况",
+      "note": "修正反映/采纳情况字段。"
+    },
+    {
+      "id": "A12180-zh-00016",
+      "source_hash": "3f8a1c182b0b46be83b3d345575e2d4a52c18dbd197236b64bead0d63956312d",
+      "text_original": "1. 一份意见听证请求副本",
+      "corrected_text": "1. 意见听取请求书副本1份",
+      "note": "修正附件清单。"
+    },
+    {
+      "id": "A12180-zh-00017",
+      "source_hash": "0a9bc8052331f06b4e9e0d11f4f8c212cbf99cc1784d731c35f15d98b822c84f",
+      "text_original": "2. 市长、县长或区长的正式回复文件一份",
+      "corrected_text": "2. 市长、郡守或区厅长的回复公文副本1份",
+      "note": "修正附件清单及地方首长职衔。"
     }
   ],
   "quality_checks": {
     "source_zh_sha_preserved": true,
     "mtq_remaining": 0,
     "unique_changed_ids": true,
-    "total_saved_changes": 571
+    "total_saved_changes": 630
   },
-  "next_step": "Revisit A12179 and A12180 fragmented table labels; perform full 2,925-row coverage, MTQ, untranslated Korean, numeric/cross-reference and bilingual form QA; then construct canonical review and receipt."
+  "next_step": "Run complete 2,925-row ID/source_hash coverage and residual MTQ/Korean checks; reconcile progress edits against all source rows; construct canonical LAW_ZH_MINIMAL_REVIEW_V1 with actual corrected rows and checked_rows, then save and re-read receipt only after QA."
 }
