@@ -1,0 +1,50 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-3705abbc710de4b867bc",
+  "worker": "C05",
+  "branch": "main",
+  "source_blobs": {
+    "ko": "7974bf81d14f4838ae85d4b3ceea80a2f0e65fed",
+    "zh": "045dd328cd77f3eecd8b6cd485be27f2389773e8"
+  },
+  "checked_range": "B2-zh-00058..B2-zh-00062",
+  "checked_ids": [
+    "B2-zh-00058",
+    "B2-zh-00059",
+    "B2-zh-00060",
+    "B2-zh-00061",
+    "B2-zh-00062"
+  ],
+  "checked_rows": 5,
+  "adopted_edits": [
+    {
+      "id": "B2-zh-00058",
+      "text": "附则 <第31268号，2020年12月15日>\n\n本施行令自2021年1月1日起施行。\n\n"
+    },
+    {
+      "id": "B2-zh-00059",
+      "text": "附则（关于为整顿难懂的法令用语而部分修改473项法令的总统令）<第31380号，2021年1月5日>\n\n本施行令自公布之日起施行。<但书省略>\n\n"
+    },
+    {
+      "id": "B2-zh-00060",
+      "text": "附则 <第33465号，2023年5月15日>\n\n本施行令自2023年5月16日起施行。\n\n"
+    },
+    {
+      "id": "B2-zh-00061",
+      "text": "附则（关于为推进行政法制革新而部分修改《加德岛新机场建设特别法施行令》等123项法令的总统令）<第33913号，2023年12月12日>\n\n本施行令自公布之日起施行。\n\n"
+    },
+    {
+      "id": "B2-zh-00062",
+      "text": "附则 <第34565号，2024年6月11日>\n\n本施行令自公布之日起施行。\n\n"
+    }
+  ],
+  "rationale": {
+    "B2-zh-00058": "부칙은 附则, 이 영은 本施行令; 시행일 2021-01-01 보존.",
+    "B2-zh-00059": "473개 법령은 법률에 한정되지 않으므로 473项法令; 공포 즉시 시행 및 단서 생략 보존.",
+    "B2-zh-00060": "부칙 및 이 영 용어 교정, 시행일 2023-05-16 보존.",
+    "B2-zh-00061": "123개 법령은 123项法令, 가덕도신공항 건설 특별법 시행령 명칭 및 행정법제 혁신 목적 보존.",
+    "B2-zh-00062": "부칙 및 이 영의 시행 문구 교정, 2024-06-11 공포일 보존."
+  },
+  "status": "QUALITY_PARTIAL",
+  "note": "New bounded quality validation of B2 rows 58-62 against unchanged Korean source; prior quality files untouched. Does not certify 1162 rows and does not authorize COMPLETE receipt."
+}
