@@ -1,0 +1,231 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-31334bc4303ae2cb3d80",
+  "worker": "C06",
+  "status": "IN_PROGRESS",
+  "source_progress_path": "review/zh/F-31334bc4303ae2cb3d80-C06-progress-26.json",
+  "source_progress_sha": "91b2b2debb311c604ebd64e2c10cc865aef9d234",
+  "previous_quality_sha": "e855eb78f89b25ae61c65d860d08f6d0d1b01c26",
+  "aggregate_sha": "3326c6d23014c93da17d6e108f2fcf717f142395",
+  "ko_sha": "d6d795ff1ece4a82663a83efd46f7f73afa7fbbb",
+  "zh_sha": "7a6d1e8d841fb3b27185d6d4a6b811149d604dc0",
+  "document": "A22642",
+  "checked_ids": [
+    "A22642-zh-00002",
+    "A22642-zh-00003",
+    "A22642-zh-00004",
+    "A22642-zh-00006",
+    "A22642-zh-00008",
+    "A22642-zh-00012",
+    "A22642-zh-00018",
+    "A22642-zh-00020",
+    "A22642-zh-00021",
+    "A22642-zh-00023",
+    "A22642-zh-00024",
+    "A22642-zh-00026",
+    "A22642-zh-00027",
+    "A22642-zh-00033",
+    "A22642-zh-00034",
+    "A22642-zh-00035",
+    "A22642-zh-00036",
+    "A22642-zh-00037",
+    "A22642-zh-00038"
+  ],
+  "checks": [
+    {
+      "id": "A22642-zh-00002",
+      "source_hash": "a0a5ed986dc2e4f7a4db80cbf8acbb62a8257b8eae8d29460305dc8b37a7dcae",
+      "target_id": "XML:1607340",
+      "korean": "승무원에 대한 교육 실시 결과",
+      "original_text": "机组训练结果",
+      "candidate_text": "乘务员教育实施结果",
+      "verdict": "ACCEPT",
+      "final_text": "乘务员教育实施结果"
+    },
+    {
+      "id": "A22642-zh-00003",
+      "source_hash": "03d372195269e4a4a72790feda043d00a346495c7e010caa69d805d20c9c741c",
+      "target_id": "XML:1607341",
+      "korean": "[  ] 기록서",
+      "original_text": "] 记录",
+      "candidate_text": "[ ] 记录表",
+      "verdict": "ACCEPT",
+      "final_text": "[ ] 记录表"
+    },
+    {
+      "id": "A22642-zh-00004",
+      "source_hash": "83f4a812044bbd3d1cfbe5499301f1a7e1b1ae52db51e18942bb147f9efcdc14",
+      "target_id": "XML:1607342",
+      "korean": "[  ] 보고서",
+      "original_text": "] 报告",
+      "candidate_text": "[ ] 报告书",
+      "verdict": "ACCEPT",
+      "final_text": "[ ] 报告书"
+    },
+    {
+      "id": "A22642-zh-00006",
+      "source_hash": "83b29c435d77479c5bbdab2c46e151d4a5c4585948bedf8fdc8ffc99df051575",
+      "target_id": "XML:1607344",
+      "korean": "사업자",
+      "original_text": "业务操作员",
+      "candidate_text": "经营者",
+      "verdict": "ACCEPT",
+      "final_text": "经营者"
+    },
+    {
+      "id": "A22642-zh-00008",
+      "source_hash": "70a34a56b11d603959f0534c3ae0a6597cdceb25fd4ea07b7f9c0d643cf4c1f6",
+      "target_id": "XML:1607346",
+      "korean": "사업자등록번호",
+      "original_text": "营业执照号码",
+      "candidate_text": "经营者登记号码",
+      "verdict": "ACCEPT",
+      "final_text": "经营者登记号码"
+    },
+    {
+      "id": "A22642-zh-00012",
+      "source_hash": "9bcf16c099d8212f5de2adc40424be5085619276e9d998a2eb8c6589654971fb",
+      "target_id": "XML:1607350",
+      "korean": "(성명)",
+      "original_text": "(名称)",
+      "candidate_text": "（姓名）",
+      "verdict": "ACCEPT",
+      "final_text": "（姓名）"
+    },
+    {
+      "id": "A22642-zh-00018",
+      "source_hash": "eceb7e44c64a0853895410f16bf5bb008f6a45a9b1fccab7677ddbc1980e1e8e",
+      "target_id": "XML:1607356",
+      "korean": "년 분기 교육 결과",
+      "original_text": "季度培训结果",
+      "candidate_text": "季度教育结果",
+      "verdict": "ACCEPT",
+      "final_text": "季度教育结果"
+    },
+    {
+      "id": "A22642-zh-00020",
+      "source_hash": "0909c98c874340d6c25765c310d0c64b3e6d8c61a3bcf92a1db4294a6fd30da6",
+      "target_id": "XML:1607358",
+      "korean": "성 명",
+      "original_text": "名称",
+      "candidate_text": "姓名",
+      "verdict": "ACCEPT",
+      "final_text": "姓名"
+    },
+    {
+      "id": "A22642-zh-00021",
+      "source_hash": "0cfaa069c4d77e55af86144e32ee89b6d1bb736458ac46736e38965103c9fbd7",
+      "target_id": "XML:1607359",
+      "korean": "주민등록번호",
+      "original_text": "居民注册号",
+      "candidate_text": "居民登记号码",
+      "verdict": "ACCEPT",
+      "final_text": "居民登记号码"
+    },
+    {
+      "id": "A22642-zh-00023",
+      "source_hash": "a9c9e5c5feb4e2d31f2f804a12a59ad90b217f61e6644234c1b57604c56435aa",
+      "target_id": "XML:1607361",
+      "korean": "교육 일자",
+      "original_text": "培训日期",
+      "candidate_text": "教育日期",
+      "verdict": "ACCEPT",
+      "final_text": "教育日期"
+    },
+    {
+      "id": "A22642-zh-00024",
+      "source_hash": "319a7841b9f8ecb300a6c78b12ee412da7ed3bc9d4274b162f7254efa3972ae0",
+      "target_id": "XML:1607362",
+      "korean": "수료번호",
+      "original_text": "证书完成编号",
+      "candidate_text": "结业编号",
+      "verdict": "ACCEPT",
+      "final_text": "结业编号"
+    },
+    {
+      "id": "A22642-zh-00026",
+      "source_hash": "3ed686cc919031f6025ab9dd026678343456279a7b8835de61412bb8703b0083",
+      "target_id": "XML:1607364",
+      "korean": "「생활주변방사선 안전관리법」 제18조의2제1항제4호 및 같은 법 시행규칙 제8조의2제2항제6호",
+      "original_text": "根据《生活环境辐射安全管理法》第18条之2第1款第4项和该法实施细则第8条之2第2款第6项的规定，",
+      "candidate_text": "根据《生活环境辐射安全管理法》第十八条之二第一款第四号及该法实施规则第八条之二第二款第六号，",
+      "verdict": "ACCEPT",
+      "final_text": "根据《生活环境辐射安全管理法》第十八条之二第一款第四号及该法实施规则第八条之二第二款第六号，"
+    },
+    {
+      "id": "A22642-zh-00027",
+      "source_hash": "5eabd48b022dd1b925da05cca2eded8f726ab267d8fe3de2d4d32292165fd375",
+      "target_id": "XML:1607365",
+      "korean": "같은 법 제18조제6항에 따른 교육실시 결과를 보고합니다.",
+      "original_text": "我报告根据同一法案第 18 条第 6 款进行的教育结果。",
+      "candidate_text": "报告根据该法第十八条第六款实施教育的结果。",
+      "verdict": "ACCEPT",
+      "final_text": "报告根据该法第十八条第六款实施教育的结果。"
+    },
+    {
+      "id": "A22642-zh-00033",
+      "source_hash": "0c243e373da2082e1321b0abc85d68e86b7325c94042b2e4c6bf088dcbf40da6",
+      "target_id": "XML:1607371",
+      "korean": "원자력안전위원회  귀중",
+      "original_text": "核安全委员会",
+      "candidate_text": "核安全与安保委员会",
+      "verdict": "ACCEPT",
+      "final_text": "核安全与安保委员会"
+    },
+    {
+      "id": "A22642-zh-00034",
+      "source_hash": "d0618ded237932911627727b901c214672efcbff1fd036ad12fcc54e69bf50ed",
+      "target_id": "XML:1607372",
+      "korean": "귀중",
+      "original_text": "至",
+      "candidate_text": "收",
+      "verdict": "ACCEPT",
+      "final_text": "收"
+    },
+    {
+      "id": "A22642-zh-00035",
+      "source_hash": "41e11819187cd0d8c51419c8b34571d1f01d02758075137da10203ce9bd4c517",
+      "target_id": "XML:1607373",
+      "korean": "작성방법",
+      "original_text": "如何写入",
+      "candidate_text": "填写说明",
+      "verdict": "ACCEPT",
+      "final_text": "填写说明"
+    },
+    {
+      "id": "A22642-zh-00036",
+      "source_hash": "c251594986dc20c215820f6c2f572bf0d6e2a7d57926c88aca7ceb30506c7f18",
+      "target_id": "XML:1607374",
+      "korean": "1. 구분: 신규교육 또는 정기교육을 구분하여 적습니다.",
+      "original_text": "1. 分类：区分新培训和常规培训。",
+      "candidate_text": "1. 类别：分别填写新任教育或定期教育。",
+      "verdict": "REVISE",
+      "final_text": "1. 类别：区分初次培训与定期培训填写。"
+    },
+    {
+      "id": "A22642-zh-00037",
+      "source_hash": "631f8acdcf1061e7e627cba958dcced56cde622d98b619b77f35b302f7ead5e5",
+      "target_id": "XML:1607375",
+      "korean": "2. 교육 일자: 교육기관에서 발급하는 교육 수료증에 표기된 교육 실시 일자를 적습니다.",
+      "original_text": "2. 培训日期：请输入培训机构颁发的结业证书上所示的培训日期。",
+      "candidate_text": "2. 教育日期：填写教育机构颁发的结业证书中注明的教育实施日期。",
+      "verdict": "ACCEPT",
+      "final_text": "2. 教育日期：填写教育机构颁发的结业证书中注明的教育实施日期。"
+    },
+    {
+      "id": "A22642-zh-00038",
+      "source_hash": "679e401ef363d8c106bc8ce982e35d290283cacc04d1714b31e45c2659be0a81",
+      "target_id": "XML:1607376",
+      "korean": "3. 수료번호: 교육기관에서 발급하는 교육 수료증에 표기된 교육 실시 수료번호를 적습니다.",
+      "original_text": "3. 完成编号：请输入教育机构颁发的结业证书上显示的培训完成编号。",
+      "candidate_text": "3. 结业编号：填写教育机构颁发的结业证书中注明的结业编号。",
+      "verdict": "ACCEPT",
+      "final_text": "3. 结业编号：填写教育机构颁发的结业证书中注明的结业编号。"
+    }
+  ],
+  "checked_count": 19,
+  "accepted": 18,
+  "revised": 1,
+  "next_quality_scope": "A22641",
+  "note": "Source row IDs and source_hash retained; aggregate 595 candidates unchanged; 00036 final wording refined."
+}
