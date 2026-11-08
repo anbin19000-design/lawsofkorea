@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 700,
+    "verified_zh_rows": 780,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 700,
-      "checked_rows": 700,
+      "next_row_zero_based": 780,
+      "checked_rows": 780,
       "total_rows": 5228
     }
   },
@@ -931,9 +931,81 @@
       "text": "江原特别自治道杨口郡南面（杨口邑）松清里 ～ 江原特别自治道杨口郡东面林塘里",
       "original_text": "江原道阳口郡南面(阳口邑)松清里～江原道阳口郡东面林堂里",
       "reason": "강원특별자치도 신 행정구역명 누락"
+    },
+    {
+      "id": "A28845-zh-00179",
+      "text": "江原特别自治道杨口郡南面永夏里 ～ 江原特别自治道麟蹄郡南面新南里",
+      "original_text": "江原道杨口郡南面永夏里 ～ 江原道麟蹄郡南面新南里",
+      "reason": "강원특별자치도 신 행정구역명 누락"
+    },
+    {
+      "id": "A28845-zh-00183",
+      "text": "江原特别自治道铁原郡西面玉荣里 ～ 江原特别自治道铁原郡金化邑鹤里",
+      "original_text": "江原道特别自治道铁原郡西面玉荣里 ～ 江原道特别自治道铁原郡金华邑鹤里",
+      "reason": "도 명칭을 ‘강원도 특별자치도’로 중복·오역"
+    },
+    {
+      "id": "A28845-zh-00187",
+      "text": "江原特别自治道铁原郡金化邑鹤寺里 ～ 江原特别自治道洪川郡内面栗田里",
+      "original_text": "江原道铁原郡金花邑鹤寺里 ～ 江原道洪川郡内面栗田里",
+      "reason": "강원특별자치도 신 행정구역명 누락 및 금화읍 표기 오류"
+    },
+    {
+      "id": "A28845-zh-00189",
+      "text": "江原特别自治道洪川郡内面栗田里 ～ 江原特别自治道襄阳郡襄阳邑月里",
+      "original_text": "江原道洪川郡内面栗田里 ~ 江原道襄阳郡襄阳邑月里",
+      "reason": "강원특별자치도 신 행정구역명 누락"
+    },
+    {
+      "id": "A28845-zh-00197",
+      "text": "江原特别自治道旌善郡北坪面宿岩里 ～ 江原特别自治道襄阳郡西面论化里",
+      "original_text": "江原道旌善郡北坪面水甘里 ～ 江原道襄阳郡西面暖花里",
+      "reason": "강원특별자치도 신 행정구역명 누락 및 지명 오역"
+    },
+    {
+      "id": "A28845-zh-00216",
+      "text": "京畿道加平郡清平面高城里 ～ 江原特别自治道华川郡史内面沙仓里",
+      "original_text": "京畿道加平郡清平面高城里 ～ 江原道华川郡早爱面沙仓里",
+      "reason": "강원특별자치도 신 행정구역명 및 사내면 오역"
+    },
+    {
+      "id": "A28845-zh-00218",
+      "text": "江原特别自治道华川郡史内面三一里 ～ 江原特别自治道华川郡史内面沙仓里",
+      "original_text": "江原道华川郡早爱面三一里 ～ 江原道华川郡早爱面沙昌里",
+      "reason": "강원특별자치도 신 행정구역명 누락 및 사내면 오역"
+    },
+    {
+      "id": "A28845-zh-00224",
+      "text": "全南光州综合特别市康津郡马良面马良里 ～ 全南光州综合特别市莞岛郡莞岛邑加用里",
+      "original_text": "全罗南道光州市康津郡马阳面马阳里 ～ 全罗南道光州市莞岛郡莞岛邑加容里",
+      "reason": "旧行政区划名称残留及地名音译错误"
+    },
+    {
+      "id": "A28845-zh-00226",
+      "text": "全南光州综合特别市莞岛郡莞岛邑加用里 ～ 全南光州综合特别市莞岛郡郡外面元东里",
+      "original_text": "全罗南道光州市莞岛郡莞岛邑加涌里 ～ 全罗南道光州市莞岛郡郡江面元东里",
+      "reason": "旧行政区划名称残留及郡外面误译"
+    },
+    {
+      "id": "A28845-zh-00228",
+      "text": "全南光州综合特别市海南郡北坪面南仓里 ～ 全南光州综合特别市海南郡黄山面南里里",
+      "original_text": "全南光州光州综合特别市海南郡北平面南昌里 ～ 全南光州光州综合特别市海南郡黄山面南里里",
+      "reason": "行政区划名称重复且北坪面名称误译"
+    },
+    {
+      "id": "A28845-zh-00230",
+      "text": "全南光州综合特别市灵光郡白水邑大田里 ～ 全南光州综合特别市灵光郡洪农邑夜岩里",
+      "original_text": "大田里，白水邑，灵光郡，光州综合特别市 ～ 夜岩里，洪农邑，灵光郡，光州综合特别市，全罗南道",
+      "reason": "地点行政层级顺序颠倒及旧行政区划名称残留"
+    },
+    {
+      "id": "A28845-zh-00232",
+      "text": "全南光州综合特别市高敞郡上下面龙台里 ～ 全南光州综合特别市高敞郡上下面龙台里",
+      "original_text": "全罗南道光州市高敞郡上下面龙大里 ～ 全罗南道光州市高敞郡上下面龙大里",
+      "reason": "旧行政区划名称残留及地名音译错误"
     }
   ],
-  "note": "Sequential Chinese review continued through original row 699 of Annex 1. Added eight corrections for Jeonnam-Gwangju and Gangwon/Jeonbuk administrative names, garbled road-section place order/transliterations, and table row label mistranslation. Previous 122 edits retained. Continue from row 700. IN_PROGRESS.",
+  "note": "Sequential Chinese review continued through original row 779 of Annex 1. Added twelve corrections for Gangwon Special Self-Governing Province and Jeonnam-Gwangju Integrated Special City names, road-section location order, and obvious township/place-name errors. Previous 130 edits retained. Continue from row 780. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
