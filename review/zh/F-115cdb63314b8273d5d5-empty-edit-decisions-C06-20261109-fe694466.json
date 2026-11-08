@@ -9,16 +9,17 @@
     "en": "f29bd3277059d324e7bbe7a69b6b6b49ab69939f",
     "zh": "de02d84d8491a7aa79491594587e28914944a33a"
   },
-  "empty_edit_count": 88,
+  "empty_edit_count": 89,
   "decision_counts": {
-    "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT": 88
+    "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW": 80,
+    "DELETE_UNSUPPORTED_TEMPLATE_OCR_OR_STRAY_FRAGMENT": 9
   },
   "status": "SOURCE_BOUND_DECISIONS_RECORDED",
-  "note": "Re-adjudicated every blank correction from the prior official review. All 84 empty edit entries were blank deletion/no-op decisions (OCR/template debris, unsupported fragments, duplicate continuations, or text already consolidated into adjacent complete corrected rows); none is a missing Korean provision. Added four source-bound deletion decisions for A28849's split continuation cells after restoring complete translations for schedule items 2 and 3. Empty decisions are preserved here with original IDs, source text/hash, target IDs, neighbors and reasons, and are excluded from canonical nonblank edits. Original laws/zh rows remain unchanged. Four orphan '-extra' correction IDs were reconciled to exact source row IDs; no invalid ID remains in the canonical review. They are preserved here as merge decisions, not active correction IDs.",
+  "note": "Re-adjudicated every blank correction from the prior official review. All 84 empty edit entries were blank deletion/no-op decisions (OCR/template debris, unsupported fragments, duplicate continuations, or text already consolidated into adjacent complete corrected rows); none is a missing Korean provision. Added four source-bound deletion decisions for A28849's split continuation cells after restoring complete translations for schedule items 2 and 3. Empty decisions are preserved here with original IDs, source text/hash, target IDs, neighbors and reasons, and are excluded from canonical nonblank edits. Original laws/zh rows remain unchanged. Four orphan '-extra' correction IDs were reconciled to exact source row IDs; no invalid ID remains in the canonical review. They are preserved here as merge decisions, not active correction IDs. All deletion/no-op decisions now identify their exact complete replacement row(s) wherever substantive meaning is consolidated. Rechecked form rows against the Korean source; A4662-zh-00051 is an additional duplicate of the complete prohibition translated at A4662-zh-00050 and is included as the 89th source-bound deletion decision. A4668-zh-00022 maps to the full 'major through-point' field at A4668-zh-00020; A4670/A4672 route type and route name fragments map to the complete field labels at rows 00003/00004. The administrative-review/administrative-litigation fragments A4686-zh-00042/00043 are fully represented in A4686-zh-00041.",
   "decisions": [
     {
       "id": "A28846-zh-00069",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "DELETE_UNSUPPORTED_TEMPLATE_OCR_OR_STRAY_FRAGMENT",
       "prior_edit_text": "",
       "source_row_text": "Item 要显示",
       "doc": "A28846",
@@ -27,11 +28,12 @@
       "previous_row_id": "A28846-zh-00068",
       "following_row_id": "A28846-zh-00070",
       "reason": "译文夹杂无关英文模板残片",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": []
     },
     {
       "id": "A28847-zh-00099",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "之外，类似于",
       "doc": "A28847",
@@ -39,12 +41,15 @@
       "target_id": "XML:2053778",
       "previous_row_id": "A28847-zh-00098",
       "following_row_id": "A28847-zh-00100",
-      "reason": "上一项目类别句段重复残留",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "上一项目类别句段重复残留 Targeted full replacement row(s): A28847-zh-00097. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28847-zh-00097"
+      ]
     },
     {
       "id": "A28847-zh-00197",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "（占用率小于）",
       "doc": "A28847",
@@ -52,12 +57,15 @@
       "target_id": "XML:2053879",
       "previous_row_id": "A28847-zh-00196",
       "following_row_id": "A28847-zh-00198",
-      "reason": "与前一单元合并后，原残缺括号文本应删除",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一单元合并后，原残缺括号文本应删除 Targeted full replacement row(s): A28847-zh-00196. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28847-zh-00196"
+      ]
     },
     {
       "id": "A28847-zh-00289",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "DELETE_UNSUPPORTED_TEMPLATE_OCR_OR_STRAY_FRAGMENT",
       "prior_edit_text": "",
       "source_row_text": "入口 MTQb52771adce86f6ae01778结束",
       "doc": "A28847",
@@ -66,11 +74,12 @@
       "previous_row_id": "A28847-zh-00288",
       "following_row_id": "A28847-zh-00290",
       "reason": "표 셀에 잔존한 MTQ 토큰 및 중복 템플릿 문자열 제거",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": []
     },
     {
       "id": "A28847-zh-00320",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "，则每超过",
       "doc": "A28847",
@@ -78,12 +87,15 @@
       "target_id": "XML:2054004",
       "previous_row_id": "A28847-zh-00319",
       "following_row_id": "A28847-zh-00321",
-      "reason": "与前一项合并后删除残缺重复片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项合并后删除残缺重复片段 Targeted full replacement row(s): A28847-zh-00319. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28847-zh-00319"
+      ]
     },
     {
       "id": "A28849-zh-00006",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "在",
       "doc": "A28849",
@@ -91,12 +103,15 @@
       "target_id": "XML:2054013",
       "previous_row_id": "A28849-zh-00005",
       "following_row_id": "A28849-zh-00007",
-      "reason": "与第一项完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与第一项完整句合并后删除残缺片段 Targeted full replacement row(s): A28849-zh-00004. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28849-zh-00004"
+      ]
     },
     {
       "id": "A28849-zh-00007",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "未执行，则",
       "doc": "A28849",
@@ -104,12 +119,15 @@
       "target_id": "XML:2054014",
       "previous_row_id": "A28849-zh-00006",
       "following_row_id": "A28849-zh-00008",
-      "reason": "与第一项完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与第一项完整句合并后删除残缺片段 Targeted full replacement row(s): A28849-zh-00004. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28849-zh-00004"
+      ]
     },
     {
       "id": "A28850-zh-00018",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "DELETE_UNSUPPORTED_TEMPLATE_OCR_OR_STRAY_FRAGMENT",
       "prior_edit_text": "",
       "source_row_text": "指的是合约。",
       "doc": "A28850",
@@ -118,11 +136,12 @@
       "previous_row_id": "A28850-zh-00017",
       "following_row_id": "A28850-zh-00019",
       "reason": "原译中无对应含义的残缺错误句段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": []
     },
     {
       "id": "A28850-zh-00020",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "双方可通过协商提高或降低委托费率。但是，提高委托费率标准并非易事。",
       "doc": "A28850",
@@ -130,12 +149,16 @@
       "target_id": "XML:2054043",
       "previous_row_id": "A28850-zh-00019",
       "following_row_id": "A28850-zh-00021",
-      "reason": "与第2项完整句合并并删除无根据的‘并非易事’",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与第2项完整句合并并删除无根据的‘并非易事’ Targeted full replacement row(s): A28850-zh-00019, A28850-zh-00021. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28850-zh-00019",
+        "A28850-zh-00021"
+      ]
     },
     {
       "id": "A28851-zh-00013",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "DELETE_UNSUPPORTED_TEMPLATE_OCR_OR_STRAY_FRAGMENT",
       "prior_edit_text": "",
       "source_row_text": "在被识别为 START  的情况下",
       "doc": "A28851",
@@ -144,11 +167,12 @@
       "previous_row_id": "A28851-zh-00012",
       "following_row_id": "A28851-zh-00014",
       "reason": "残留START模板标记及重复片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": []
     },
     {
       "id": "A28851-zh-00016",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "在事实得到确认的情况下",
       "doc": "A28851",
@@ -156,12 +180,15 @@
       "target_id": "XML:2054062",
       "previous_row_id": "A28851-zh-00015",
       "following_row_id": "A28851-zh-00017",
-      "reason": "无对应原文的冗余句段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "无对应原文的冗余句段 Targeted full replacement row(s): A28851-zh-00015. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00015"
+      ]
     },
     {
       "id": "A28851-zh-00029",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "或提交了错误的",
       "doc": "A28851",
@@ -169,12 +196,15 @@
       "target_id": "XML:2054077",
       "previous_row_id": "A28851-zh-00028",
       "following_row_id": "A28851-zh-00030",
-      "reason": "与前一项完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00026. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00026"
+      ]
     },
     {
       "id": "A28851-zh-00035",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "如果占用区域超过起始区域",
       "doc": "A28851",
@@ -182,12 +212,15 @@
       "target_id": "XML:2054083",
       "previous_row_id": "A28851-zh-00034",
       "following_row_id": "A28851-zh-00036",
-      "reason": "与前一项完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00032. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00032"
+      ]
     },
     {
       "id": "A28851-zh-00040",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "临时将货物等放置在道路上，未收到 START",
       "doc": "A28851",
@@ -195,12 +228,15 @@
       "target_id": "XML:2054088",
       "previous_row_id": "A28851-zh-00039",
       "following_row_id": "A28851-zh-00041",
-      "reason": "与前一项完整句合并并删除残留START标记",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并并删除残留START标记 Targeted full replacement row(s): A28851-zh-00037. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00037"
+      ]
     },
     {
       "id": "A28851-zh-00048",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "如果未做好预防措施",
       "doc": "A28851",
@@ -208,12 +244,15 @@
       "target_id": "XML:2054096",
       "previous_row_id": "A28851-zh-00047",
       "following_row_id": "A28851-zh-00049",
-      "reason": "与前一项完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00043. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00043"
+      ]
     },
     {
       "id": "A28851-zh-00064",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "在未有水利管理人员参与的情况下进行挖掘作业",
       "doc": "A28851",
@@ -221,12 +260,15 @@
       "target_id": "XML:2054112",
       "previous_row_id": "A28851-zh-00063",
       "following_row_id": "A28851-zh-00065",
-      "reason": "与前一项完整句合并后删除重复错误片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除重复错误片段 Targeted full replacement row(s): A28851-zh-00061. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00061"
+      ]
     },
     {
       "id": "A28851-zh-00075",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "，则违反了",
       "doc": "A28851",
@@ -234,12 +276,15 @@
       "target_id": "XML:2054123",
       "previous_row_id": "A28851-zh-00074",
       "following_row_id": "A28851-zh-00076",
-      "reason": "与前一项完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00077. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00077"
+      ]
     },
     {
       "id": "A28851-zh-00085",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "违反限值，使轴荷小于2吨",
       "doc": "A28851",
@@ -247,12 +292,15 @@
       "target_id": "XML:2054133",
       "previous_row_id": "A28851-zh-00084",
       "following_row_id": "A28851-zh-00086",
-      "reason": "与前一项完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00081. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00081"
+      ]
     },
     {
       "id": "A28851-zh-00086",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "或总重量小于 5 吨",
       "doc": "A28851",
@@ -260,12 +308,15 @@
       "target_id": "XML:2054134",
       "previous_row_id": "A28851-zh-00085",
       "following_row_id": "A28851-zh-00087",
-      "reason": "与前一项完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00081. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00081"
+      ]
     },
     {
       "id": "A28851-zh-00087",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "如果操作过度",
       "doc": "A28851",
@@ -273,12 +324,15 @@
       "target_id": "XML:2054135",
       "previous_row_id": "A28851-zh-00086",
       "following_row_id": "A28851-zh-00088",
-      "reason": "与前一项完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00081. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00081"
+      ]
     },
     {
       "id": "A28851-zh-00092",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "规定，轴荷为 2 吨或以上，且轴荷为 4 吨；违反",
       "doc": "A28851",
@@ -286,12 +340,15 @@
       "target_id": "XML:2054140",
       "previous_row_id": "A28851-zh-00091",
       "following_row_id": "A28851-zh-00093",
-      "reason": "与第二档完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与第二档完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00088. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00088"
+      ]
     },
     {
       "id": "A28851-zh-00093",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "或总重量 5 吨或以上 15",
       "doc": "A28851",
@@ -299,12 +356,15 @@
       "target_id": "XML:2054141",
       "previous_row_id": "A28851-zh-00092",
       "following_row_id": "A28851-zh-00094",
-      "reason": "与第二档完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与第二档完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00088. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00088"
+      ]
     },
     {
       "id": "A28851-zh-00094",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "吨",
       "doc": "A28851",
@@ -312,12 +372,15 @@
       "target_id": "XML:2054142",
       "previous_row_id": "A28851-zh-00093",
       "following_row_id": "A28851-zh-00095",
-      "reason": "与第二档完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与第二档完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00088. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00088"
+      ]
     },
     {
       "id": "A28851-zh-00099",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "违反限重规定，轴荷超过4吨或以上。",
       "doc": "A28851",
@@ -325,12 +388,15 @@
       "target_id": "XML:2054147",
       "previous_row_id": "A28851-zh-00098",
       "following_row_id": "A28851-zh-00100",
-      "reason": "与第三档完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与第三档完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00095. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00095"
+      ]
     },
     {
       "id": "A28851-zh-00100",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "或总重量超过 15 吨或以上",
       "doc": "A28851",
@@ -338,12 +404,15 @@
       "target_id": "XML:2054148",
       "previous_row_id": "A28851-zh-00099",
       "following_row_id": "A28851-zh-00101",
-      "reason": "与第三档完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与第三档完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00095. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00095"
+      ]
     },
     {
       "id": "A28851-zh-00101",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "如果操作",
       "doc": "A28851",
@@ -351,12 +420,15 @@
       "target_id": "XML:2054149",
       "previous_row_id": "A28851-zh-00100",
       "following_row_id": "A28851-zh-00102",
-      "reason": "与第三档完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与第三档完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00095. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00095"
+      ]
     },
     {
       "id": "A28851-zh-00104",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "车辆宽度超过0.3米限制",
       "doc": "A28851",
@@ -364,12 +436,15 @@
       "target_id": "XML:2054152",
       "previous_row_id": "A28851-zh-00103",
       "following_row_id": "A28851-zh-00105",
-      "reason": "与第四档完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与第四档完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00102. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00102"
+      ]
     },
     {
       "id": "A28851-zh-00105",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "或高度 0.3 米",
       "doc": "A28851",
@@ -377,12 +452,15 @@
       "target_id": "XML:2054153",
       "previous_row_id": "A28851-zh-00104",
       "following_row_id": "A28851-zh-00106",
-      "reason": "与第四档完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与第四档完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00102. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00102"
+      ]
     },
     {
       "id": "A28851-zh-00106",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "或长度为 3.0 米",
       "doc": "A28851",
@@ -390,12 +468,15 @@
       "target_id": "XML:2054154",
       "previous_row_id": "A28851-zh-00105",
       "following_row_id": "A28851-zh-00107",
-      "reason": "与第四档完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与第四档完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00102. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00102"
+      ]
     },
     {
       "id": "A28851-zh-00107",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "如果操作超过小于 START",
       "doc": "A28851",
@@ -403,12 +484,15 @@
       "target_id": "XML:2054155",
       "previous_row_id": "A28851-zh-00106",
       "following_row_id": "A28851-zh-00108",
-      "reason": "与第四档完整句合并并删除残留START标记",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与第四档完整句合并并删除残留START标记 Targeted full replacement row(s): A28851-zh-00102. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00102"
+      ]
     },
     {
       "id": "A28851-zh-00110",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "车辆宽度超出限制0.3米",
       "doc": "A28851",
@@ -416,12 +500,15 @@
       "target_id": "XML:2054158",
       "previous_row_id": "A28851-zh-00109",
       "following_row_id": "A28851-zh-00111",
-      "reason": "与第五档完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与第五档完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00108. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00108"
+      ]
     },
     {
       "id": "A28851-zh-00111",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "超过 0.5 米，或高度",
       "doc": "A28851",
@@ -429,12 +516,15 @@
       "target_id": "XML:2054159",
       "previous_row_id": "A28851-zh-00110",
       "following_row_id": "A28851-zh-00112",
-      "reason": "与第五档完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与第五档完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00108. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00108"
+      ]
     },
     {
       "id": "A28851-zh-00112",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "大于 0.3 米且小于 0.5 米",
       "doc": "A28851",
@@ -442,12 +532,15 @@
       "target_id": "XML:2054160",
       "previous_row_id": "A28851-zh-00111",
       "following_row_id": "A28851-zh-00113",
-      "reason": "与第五档完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与第五档完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00108. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00108"
+      ]
     },
     {
       "id": "A28851-zh-00113",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "或长度超过 3.0 米，或超过 5.0 米",
       "doc": "A28851",
@@ -455,12 +548,15 @@
       "target_id": "XML:2054161",
       "previous_row_id": "A28851-zh-00112",
       "following_row_id": "A28851-zh-00114",
-      "reason": "与第五档完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与第五档完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00108. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00108"
+      ]
     },
     {
       "id": "A28851-zh-00114",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "如果操作超过小于",
       "doc": "A28851",
@@ -468,12 +564,15 @@
       "target_id": "XML:2054162",
       "previous_row_id": "A28851-zh-00113",
       "following_row_id": "A28851-zh-00115",
-      "reason": "与第五档完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与第五档完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00108. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00108"
+      ]
     },
     {
       "id": "A28851-zh-00117",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "车辆宽度超过0.5米限制",
       "doc": "A28851",
@@ -481,12 +580,15 @@
       "target_id": "XML:2054165",
       "previous_row_id": "A28851-zh-00116",
       "following_row_id": "A28851-zh-00118",
-      "reason": "与第六档完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与第六档完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00115. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00115"
+      ]
     },
     {
       "id": "A28851-zh-00118",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "或更高，或者高度小于 0.5 米",
       "doc": "A28851",
@@ -494,12 +596,15 @@
       "target_id": "XML:2054166",
       "previous_row_id": "A28851-zh-00117",
       "following_row_id": "A28851-zh-00119",
-      "reason": "与第六档完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与第六档完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00115. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00115"
+      ]
     },
     {
       "id": "A28851-zh-00119",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "超过限制，或长度为 5.0 米或以上。",
       "doc": "A28851",
@@ -507,12 +612,15 @@
       "target_id": "XML:2054167",
       "previous_row_id": "A28851-zh-00118",
       "following_row_id": "A28851-zh-00120",
-      "reason": "与第六档完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与第六档完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00115. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00115"
+      ]
     },
     {
       "id": "A28851-zh-00120",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "如果操作超过 START",
       "doc": "A28851",
@@ -520,12 +628,15 @@
       "target_id": "XML:2054168",
       "previous_row_id": "A28851-zh-00119",
       "following_row_id": "A28851-zh-00121",
-      "reason": "与第六档完整句合并并删除残留START标记",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与第六档完整句合并并删除残留START标记 Targeted full replacement row(s): A28851-zh-00115. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00115"
+      ]
     },
     {
       "id": "A28851-zh-00122",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "《法案》第77条第1款正文",
       "doc": "A28851",
@@ -533,12 +644,15 @@
       "target_id": "XML:2054170",
       "previous_row_id": "A28851-zh-00121",
       "following_row_id": "A28851-zh-00123",
-      "reason": "与第七项完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与第七项完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00121. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00121"
+      ]
     },
     {
       "id": "A28851-zh-00123",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "违反规定驾驶车辆",
       "doc": "A28851",
@@ -546,12 +660,15 @@
       "target_id": "XML:2054171",
       "previous_row_id": "A28851-zh-00122",
       "following_row_id": "A28851-zh-00124",
-      "reason": "与第七项完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与第七项完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00121. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00121"
+      ]
     },
     {
       "id": "A28851-zh-00124",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "违规判断，1)",
       "doc": "A28851",
@@ -559,12 +676,15 @@
       "target_id": "XML:2054174",
       "previous_row_id": "A28851-zh-00123",
       "following_row_id": "A28851-zh-00125",
-      "reason": "与第七项完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与第七项完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00121. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00121"
+      ]
     },
     {
       "id": "A28851-zh-00125",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "到 6)",
       "doc": "A28851",
@@ -572,12 +692,15 @@
       "target_id": "XML:2054175",
       "previous_row_id": "A28851-zh-00124",
       "following_row_id": "A28851-zh-00126",
-      "reason": "与第七项完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与第七项完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00121. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00121"
+      ]
     },
     {
       "id": "A28851-zh-00126",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "与上述",
       "doc": "A28851",
@@ -585,12 +708,15 @@
       "target_id": "XML:2054176",
       "previous_row_id": "A28851-zh-00125",
       "following_row_id": "A28851-zh-00127",
-      "reason": "与第七项完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与第七项完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00121. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00121"
+      ]
     },
     {
       "id": "A28851-zh-00133",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "违反第77条第1款规定的驾驶限制",
       "doc": "A28851",
@@ -598,12 +724,15 @@
       "target_id": "XML:2054183",
       "previous_row_id": "A28851-zh-00132",
       "following_row_id": "A28851-zh-00134",
-      "reason": "与前一项完整句合并后删除重复片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除重复片段 Targeted full replacement row(s): A28851-zh-00132. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00132"
+      ]
     },
     {
       "id": "A28851-zh-00134",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "是金额",
       "doc": "A28851",
@@ -611,12 +740,15 @@
       "target_id": "XML:2054184",
       "previous_row_id": "A28851-zh-00133",
       "following_row_id": "A28851-zh-00135",
-      "reason": "与前一项完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00132. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00132"
+      ]
     },
     {
       "id": "A28851-zh-00135",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "仅限于通过启动执行操作的情况）",
       "doc": "A28851",
@@ -624,12 +756,15 @@
       "target_id": "XML:2054185",
       "previous_row_id": "A28851-zh-00134",
       "following_row_id": "A28851-zh-00136",
-      "reason": "与前一项完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除残缺片段 Targeted full replacement row(s): A28851-zh-00132. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00132"
+      ]
     },
     {
       "id": "A28851-zh-00146",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "装载到电子设备上的货物重量是一个事实，",
       "doc": "A28851",
@@ -637,12 +772,15 @@
       "target_id": "XML:2054196",
       "previous_row_id": "A28851-zh-00145",
       "following_row_id": "A28851-zh-00147",
-      "reason": "与前一项完整句合并后删除错误片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除错误片段 Targeted full replacement row(s): A28851-zh-00144. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28851-zh-00144"
+      ]
     },
     {
       "id": "A28851-zh-00201",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "DELETE_UNSUPPORTED_TEMPLATE_OCR_OR_STRAY_FRAGMENT",
       "prior_edit_text": "",
       "source_row_text": "否则 START",
       "doc": "A28851",
@@ -651,11 +789,12 @@
       "previous_row_id": "A28851-zh-00200",
       "following_row_id": "A28851-zh-00202",
       "reason": "잔존 START 템플릿 토큰 제거",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": []
     },
     {
       "id": "A28851-zh-00208",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "DELETE_UNSUPPORTED_TEMPLATE_OCR_OR_STRAY_FRAGMENT",
       "prior_edit_text": "",
       "source_row_text": "无法启动。",
       "doc": "A28851",
@@ -664,11 +803,12 @@
       "previous_row_id": "A28851-zh-00207",
       "following_row_id": "A28851-zh-00209",
       "reason": "원문에 없는 불필요한 실행 문구 삭제",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": []
     },
     {
       "id": "A4662-zh-00023",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "在城市地区，根据《关于该法的法案》",
       "doc": "A4662",
@@ -676,12 +816,15 @@
       "target_id": "XML:349341",
       "previous_row_id": "A4662-zh-00022",
       "following_row_id": "A4662-zh-00024",
-      "reason": "표지판 안내문을 앞 항목과 통합하여 중복된 잔여 조각 삭제",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "표지판 안내문을 앞 항목과 통합하여 중복된 잔여 조각 삭제 Targeted full replacement row(s): A4662-zh-00020. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4662-zh-00020"
+      ]
     },
     {
       "id": "A4662-zh-00024",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "适用工具区相关规定的地区",
       "doc": "A4662",
@@ -689,12 +832,15 @@
       "target_id": "XML:349342",
       "previous_row_id": "A4662-zh-00023",
       "following_row_id": "A4662-zh-00025",
-      "reason": "표지판 안내문을 앞 항목과 통합하여 중복된 잔여 조각 삭제",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "표지판 안내문을 앞 항목과 통합하여 중복된 잔여 조각 삭제 Targeted full replacement row(s): A4662-zh-00020. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4662-zh-00020"
+      ]
     },
     {
       "id": "A4662-zh-00026",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "的规定。",
       "doc": "A4662",
@@ -702,12 +848,15 @@
       "target_id": "XML:349344",
       "previous_row_id": "A4662-zh-00025",
       "following_row_id": "A4662-zh-00027",
-      "reason": "표지판 안내문을 앞 항목과 통합하여 중복된 잔여 조각 삭제",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "표지판 안내문을 앞 항목과 통합하여 중복된 잔여 조각 삭제 Targeted full replacement row(s): A4662-zh-00021. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4662-zh-00021"
+      ]
     },
     {
       "id": "A4662-zh-00027",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "DELETE_UNSUPPORTED_TEMPLATE_OCR_OR_STRAY_FRAGMENT",
       "prior_edit_text": "",
       "source_row_text": "这是肝脏。",
       "doc": "A4662",
@@ -716,11 +865,12 @@
       "previous_row_id": "A4662-zh-00026",
       "following_row_id": "A4662-zh-00028",
       "reason": "표지 도면 OCR 잔존 오역 문구 삭제",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": []
     },
     {
       "id": "A4662-zh-00052",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "操作。",
       "doc": "A4662",
@@ -728,12 +878,15 @@
       "target_id": "XML:349370",
       "previous_row_id": "A4662-zh-00051",
       "following_row_id": "A4662-zh-00053",
-      "reason": "与前项完整句合并后删除残缺词",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前项完整句合并后删除残缺词 Targeted full replacement row(s): A4662-zh-00050. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4662-zh-00050"
+      ]
     },
     {
       "id": "A4663-zh-00011",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "将被标记。",
       "doc": "A4663",
@@ -741,12 +894,15 @@
       "target_id": "XML:349386",
       "previous_row_id": "A4663-zh-00010",
       "following_row_id": "A4663-zh-00012",
-      "reason": "与前一项完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除残缺片段 Targeted full replacement row(s): A4663-zh-00010. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4663-zh-00010"
+      ]
     },
     {
       "id": "A4663-zh-00013",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "计算并显示",
       "doc": "A4663",
@@ -754,12 +910,15 @@
       "target_id": "XML:349389",
       "previous_row_id": "A4663-zh-00012",
       "following_row_id": "A4663-zh-00014",
-      "reason": "与前一项完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除残缺片段 Targeted full replacement row(s): A4663-zh-00012. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4663-zh-00012"
+      ]
     },
     {
       "id": "A4663-zh-00014",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "显示距离（公里）（例如，仁川 42 公里，木",
       "doc": "A4663",
@@ -767,12 +926,15 @@
       "target_id": "XML:349390",
       "previous_row_id": "A4663-zh-00013",
       "following_row_id": "A4663-zh-00015",
-      "reason": "与前一项完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除残缺片段 Targeted full replacement row(s): A4663-zh-00012. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4663-zh-00012"
+      ]
     },
     {
       "id": "A4663-zh-00016",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "429km)将",
       "doc": "A4663",
@@ -780,12 +942,15 @@
       "target_id": "XML:349392",
       "previous_row_id": "A4663-zh-00015",
       "following_row_id": "A4663-zh-00017",
-      "reason": "与前一项完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除残缺片段 Targeted full replacement row(s): A4663-zh-00015. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4663-zh-00015"
+      ]
     },
     {
       "id": "A4663-zh-00018",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "执行该任务的道路管理机构的名称，以及背面的[文本]",
       "doc": "A4663",
@@ -793,12 +958,15 @@
       "target_id": "XML:349395",
       "previous_row_id": "A4663-zh-00017",
       "following_row_id": "A4663-zh-00019",
-      "reason": "与前一项完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除残缺片段 Targeted full replacement row(s): A4663-zh-00017. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4663-zh-00017"
+      ]
     },
     {
       "id": "A4663-zh-00019",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "显示发布日期",
       "doc": "A4663",
@@ -806,12 +974,15 @@
       "target_id": "XML:349396",
       "previous_row_id": "A4663-zh-00018",
       "following_row_id": "A4663-zh-00020",
-      "reason": "与前一项完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除残缺片段 Targeted full replacement row(s): A4663-zh-00017. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4663-zh-00017"
+      ]
     },
     {
       "id": "A4663-zh-00026",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "在侧面（③）上，用方向和距离标明道路起点标志的原始位置。",
       "doc": "A4663",
@@ -819,12 +990,15 @@
       "target_id": "XML:349403",
       "previous_row_id": "A4663-zh-00025",
       "following_row_id": "A4663-zh-00027",
-      "reason": "与前一项完整句合并后删除重复片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除重复片段 Targeted full replacement row(s): A4663-zh-00025. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4663-zh-00025"
+      ]
     },
     {
       "id": "A4665-zh-00016",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "对于设施，应安装在距挖掘边界线 1 米以内。",
       "doc": "A4665",
@@ -832,12 +1006,15 @@
       "target_id": "XML:349441",
       "previous_row_id": "A4665-zh-00015",
       "following_row_id": "A4665-zh-00017",
-      "reason": "与前一项完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除残缺片段 Targeted full replacement row(s): A4665-zh-00015. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4665-zh-00015"
+      ]
     },
     {
       "id": "A4665-zh-00025",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "可以执行。",
       "doc": "A4665",
@@ -845,12 +1022,15 @@
       "target_id": "XML:349450",
       "previous_row_id": "A4665-zh-00024",
       "following_row_id": "A4665-zh-00026",
-      "reason": "与前一项完整句合并后删除无意义残句",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除无意义残句 Targeted full replacement row(s): A4665-zh-00024. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4665-zh-00024"
+      ]
     },
     {
       "id": "A4665-zh-00121",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "或可附加。",
       "doc": "A4665",
@@ -858,12 +1038,15 @@
       "target_id": "XML:349547",
       "previous_row_id": "A4665-zh-00120",
       "following_row_id": "A4665-zh-00122",
-      "reason": "与前一项完整句合并后删除重复片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除重复片段 Targeted full replacement row(s): A4665-zh-00120. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4665-zh-00120"
+      ]
     },
     {
       "id": "A4666-zh-00042",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "写入 Myeon 和 Dong。",
       "doc": "A4666",
@@ -871,12 +1054,15 @@
       "target_id": "XML:349601",
       "previous_row_id": "A4666-zh-00041",
       "following_row_id": "A4666-zh-00043",
-      "reason": "韩文行政区划单位被残留为拉丁转写并重复",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "韩文行政区划单位被残留为拉丁转写并重复 Targeted full replacement row(s): A4666-zh-00041. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4666-zh-00041"
+      ]
     },
     {
       "id": "A4666-zh-00034",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "部分",
       "doc": "A4666",
@@ -884,12 +1070,15 @@
       "target_id": "XML:349592",
       "previous_row_id": "A4666-zh-00033",
       "following_row_id": "A4666-zh-00035",
-      "reason": "与前一项完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除残缺片段 Targeted full replacement row(s): A4666-zh-00033. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4666-zh-00033"
+      ]
     },
     {
       "id": "A4666-zh-00035",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "Route 和",
       "doc": "A4666",
@@ -897,12 +1086,15 @@
       "target_id": "XML:349593",
       "previous_row_id": "A4666-zh-00034",
       "following_row_id": "A4666-zh-00036",
-      "reason": "与前一项合并并删除英文残留",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项合并并删除英文残留 Targeted full replacement row(s): A4666-zh-00033. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4666-zh-00033"
+      ]
     },
     {
       "id": "A4666-zh-00036",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "重叠部分",
       "doc": "A4666",
@@ -910,12 +1102,15 @@
       "target_id": "XML:349594",
       "previous_row_id": "A4666-zh-00035",
       "following_row_id": "A4666-zh-00037",
-      "reason": "与前一项完整句合并后删除重复片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除重复片段 Targeted full replacement row(s): A4666-zh-00033. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4666-zh-00033"
+      ]
     },
     {
       "id": "A4667-zh-00026",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "重复",
       "doc": "A4667",
@@ -923,12 +1118,15 @@
       "target_id": "XML:349628",
       "previous_row_id": "A4667-zh-00025",
       "following_row_id": "A4667-zh-00027",
-      "reason": "与前一项完整句合并后删除重复残片",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除重复残片 Targeted full replacement row(s): A4667-zh-00025. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4667-zh-00025"
+      ]
     },
     {
       "id": "A4667-zh-00028",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "部分",
       "doc": "A4667",
@@ -936,12 +1134,15 @@
       "target_id": "XML:349630",
       "previous_row_id": "A4667-zh-00027",
       "following_row_id": "A4667-zh-00029",
-      "reason": "与前一项完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除残缺片段 Targeted full replacement row(s): A4667-zh-00027. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4667-zh-00027"
+      ]
     },
     {
       "id": "A4668-zh-00022",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "通过",
       "doc": "A4668",
@@ -949,12 +1150,15 @@
       "target_id": "XML:349688",
       "previous_row_id": "A4668-zh-00021",
       "following_row_id": "A4668-zh-00023",
-      "reason": "与前一项合并后删除残缺词",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项合并后删除残缺词 Targeted full replacement row(s): A4668-zh-00020. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4668-zh-00020"
+      ]
     },
     {
       "id": "A4670-zh-00005",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "类型",
       "doc": "A4670",
@@ -962,12 +1166,15 @@
       "target_id": "XML:349766",
       "previous_row_id": "A4670-zh-00004",
       "following_row_id": "A4670-zh-00006",
-      "reason": "与路线编号字段合并后删除重复残片",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与路线编号字段合并后删除重复残片 Targeted full replacement row(s): A4670-zh-00003. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4670-zh-00003"
+      ]
     },
     {
       "id": "A4670-zh-00006",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "(路由名称)",
       "doc": "A4670",
@@ -975,12 +1182,15 @@
       "target_id": "XML:349767",
       "previous_row_id": "A4670-zh-00005",
       "following_row_id": "A4670-zh-00007",
-      "reason": "与路线编号字段合并后删除重复残片",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与路线编号字段合并后删除重复残片 Targeted full replacement row(s): A4670-zh-00004. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4670-zh-00004"
+      ]
     },
     {
       "id": "A4671-zh-00025",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "我现提交竣工验收申请。",
       "doc": "A4671",
@@ -988,12 +1198,15 @@
       "target_id": "XML:349833",
       "previous_row_id": "A4671-zh-00024",
       "following_row_id": "A4671-zh-00026",
-      "reason": "与前一项完整句合并后删除重复句",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除重复句 Targeted full replacement row(s): A4671-zh-00024. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4671-zh-00024"
+      ]
     },
     {
       "id": "A4672-zh-00005",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "类型",
       "doc": "A4672",
@@ -1001,12 +1214,15 @@
       "target_id": "XML:349850",
       "previous_row_id": "A4672-zh-00004",
       "following_row_id": "A4672-zh-00006",
-      "reason": "与路线编号字段合并后删除残片",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与路线编号字段合并后删除残片 Targeted full replacement row(s): A4672-zh-00003. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4672-zh-00003"
+      ]
     },
     {
       "id": "A4672-zh-00006",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "(路由名称)",
       "doc": "A4672",
@@ -1014,12 +1230,15 @@
       "target_id": "XML:349851",
       "previous_row_id": "A4672-zh-00005",
       "following_row_id": "A4672-zh-00007",
-      "reason": "与路线编号字段合并后删除残片",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与路线编号字段合并后删除残片 Targeted full replacement row(s): A4672-zh-00004. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4672-zh-00004"
+      ]
     },
     {
       "id": "A4672-zh-00021",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "DELETE_UNSUPPORTED_TEMPLATE_OCR_OR_STRAY_FRAGMENT",
       "prior_edit_text": "",
       "source_row_text": "萨",
       "doc": "A4672",
@@ -1028,11 +1247,12 @@
       "previous_row_id": "A4672-zh-00020",
       "following_row_id": "A4672-zh-00022",
       "reason": "无意义残留字删除",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": []
     },
     {
       "id": "A4678-zh-00022",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "道路建设已经完成，我们正在申请竣工验收。",
       "doc": "A4678",
@@ -1040,12 +1260,15 @@
       "target_id": "XML:350100",
       "previous_row_id": "A4678-zh-00021",
       "following_row_id": "A4678-zh-00023",
-      "reason": "与前一项完整句合并后删除重复句",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除重复句 Targeted full replacement row(s): A4678-zh-00021. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4678-zh-00021"
+      ]
     },
     {
       "id": "A4679-zh-00026",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "DELETE_UNSUPPORTED_TEMPLATE_OCR_OR_STRAY_FRAGMENT",
       "prior_edit_text": "",
       "source_row_text": ".",
       "doc": "A4679",
@@ -1054,11 +1277,12 @@
       "previous_row_id": "A4679-zh-00025",
       "following_row_id": "A4679-zh-00027",
       "reason": "与前一项完整句合并后删除残缺句点",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": []
     },
     {
       "id": "A4680-zh-00006",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "根据第十六条规定，现宣布路边区域划定如下。",
       "doc": "A4680",
@@ -1066,12 +1290,15 @@
       "target_id": "XML:350162",
       "previous_row_id": "A4680-zh-00005",
       "following_row_id": "A4680-zh-00007",
-      "reason": "与前一项完整句合并后删除重复句",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除重复句 Targeted full replacement row(s): A4680-zh-00005. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4680-zh-00005"
+      ]
     },
     {
       "id": "A4685-zh-00039",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "I 请求购买此土地。",
       "doc": "A4685",
@@ -1079,12 +1306,15 @@
       "target_id": "XML:350444",
       "previous_row_id": "A4685-zh-00038",
       "following_row_id": "A4685-zh-00040",
-      "reason": "与前一项完整句合并并删除多余第一人称",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并并删除多余第一人称 Targeted full replacement row(s): A4685-zh-00038. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4685-zh-00038"
+      ]
     },
     {
       "id": "A4686-zh-00042",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "即使这样做，无论是否有异议，根据《行政上诉法》，必须在收到通知之日起 90 天内进行行政复议。",
       "doc": "A4686",
@@ -1092,12 +1322,15 @@
       "target_id": "XML:350513",
       "previous_row_id": "A4686-zh-00041",
       "following_row_id": "A4686-zh-00043",
-      "reason": "与前一项完整句合并后删除残缺片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除残缺片段 Targeted full replacement row(s): A4686-zh-00041. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4686-zh-00041"
+      ]
     },
     {
       "id": "A4686-zh-00043",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "您可以根据《行政诉讼法》请求判决或提起行政诉讼。",
       "doc": "A4686",
@@ -1105,12 +1338,15 @@
       "target_id": "XML:350514",
       "previous_row_id": "A4686-zh-00042",
       "following_row_id": "A4686-zh-00044",
-      "reason": "与前一项完整句合并后删除重复片段",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "与前一项完整句合并后删除重复片段 Targeted full replacement row(s): A4686-zh-00041. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A4686-zh-00041"
+      ]
     },
     {
       "id": "A28849-zh-00010",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "在自恢复指令",
       "doc": "A28849",
@@ -1118,12 +1354,15 @@
       "target_id": "XML:2054017",
       "previous_row_id": "A28849-zh-00009",
       "following_row_id": "A28849-zh-00011",
-      "reason": "A28849 table item 2/3 condition has been consolidated into the adjacent complete corrected row. These isolated continuation fragments are removed from the correction overlay to avoid broken sentence cells; the Korean schedule is represented in full in the corrected item heading.",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "A28849 table item 2/3 condition has been consolidated into the adjacent complete corrected row. These isolated continuation fragments are removed from the correction overlay to avoid broken sentence cells; the Korean schedule is represented in full in the corrected item heading. Targeted full replacement row(s): A28849-zh-00008. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28849-zh-00008"
+      ]
     },
     {
       "id": "A28849-zh-00011",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "处执行，则为",
       "doc": "A28849",
@@ -1131,12 +1370,15 @@
       "target_id": "XML:2054018",
       "previous_row_id": "A28849-zh-00010",
       "following_row_id": "A28849-zh-00012",
-      "reason": "A28849 table item 2/3 condition has been consolidated into the adjacent complete corrected row. These isolated continuation fragments are removed from the correction overlay to avoid broken sentence cells; the Korean schedule is represented in full in the corrected item heading.",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "A28849 table item 2/3 condition has been consolidated into the adjacent complete corrected row. These isolated continuation fragments are removed from the correction overlay to avoid broken sentence cells; the Korean schedule is represented in full in the corrected item heading. Targeted full replacement row(s): A28849-zh-00008. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28849-zh-00008"
+      ]
     },
     {
       "id": "A28849-zh-00014",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "在自恢复指令",
       "doc": "A28849",
@@ -1144,12 +1386,15 @@
       "target_id": "XML:2054021",
       "previous_row_id": "A28849-zh-00013",
       "following_row_id": "A28849-zh-00015",
-      "reason": "A28849 table item 2/3 condition has been consolidated into the adjacent complete corrected row. These isolated continuation fragments are removed from the correction overlay to avoid broken sentence cells; the Korean schedule is represented in full in the corrected item heading.",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "A28849 table item 2/3 condition has been consolidated into the adjacent complete corrected row. These isolated continuation fragments are removed from the correction overlay to avoid broken sentence cells; the Korean schedule is represented in full in the corrected item heading. Targeted full replacement row(s): A28849-zh-00012. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28849-zh-00012"
+      ]
     },
     {
       "id": "A28849-zh-00015",
-      "decision": "DELETE_SPURIOUS_OR_DUPLICATE_SEGMENT",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
       "prior_edit_text": "",
       "source_row_text": "处执行，则为",
       "doc": "A28849",
@@ -1157,8 +1402,27 @@
       "target_id": "XML:2054022",
       "previous_row_id": "A28849-zh-00014",
       "following_row_id": "A28849-zh-00016",
-      "reason": "A28849 table item 2/3 condition has been consolidated into the adjacent complete corrected row. These isolated continuation fragments are removed from the correction overlay to avoid broken sentence cells; the Korean schedule is represented in full in the corrected item heading.",
-      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source."
+      "reason": "A28849 table item 2/3 condition has been consolidated into the adjacent complete corrected row. These isolated continuation fragments are removed from the correction overlay to avoid broken sentence cells; the Korean schedule is represented in full in the corrected item heading. Targeted full replacement row(s): A28849-zh-00012. The original source fragment is preserved in laws/zh and the target replacement contains its substantive meaning.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; omission from canonical edits means no replacement text, not erasure or modification of the source.",
+      "merged_into_ids": [
+        "A28849-zh-00012"
+      ]
+    },
+    {
+      "id": "A4662-zh-00051",
+      "decision": "MERGED_DUPLICATE_OR_FRAGMENT_INTO_COMPLETE_ROW",
+      "prior_edit_text": "",
+      "source_row_text": "未经授权擅自移动或损坏道路通行区域标志",
+      "doc": "A4662",
+      "source_hash": "5281139318d4fede236161086e7dcb71fe81d3575dfe20dea830c5ea48bc15ab",
+      "target_id": "XML:349369",
+      "previous_row_id": "A4662-zh-00050",
+      "following_row_id": "A4662-zh-00052",
+      "merged_into_ids": [
+        "A4662-zh-00050"
+      ],
+      "reason": "This row repeats the complete second prohibited-act statement already supplied by the corrected A4662-zh-00050 row; the following A4662-zh-00052 row is only the dangling word 'operation'. The original Korean sign lists this prohibited act once. Preserve the source row but exclude this duplicate fragment from the effective corrected output.",
+      "preservation": "Original source row and ID remain untouched in laws/zh; this is a source-bound deletion decision, not a source edit."
     }
   ],
   "orphan_edit_count": 4,
@@ -1191,5 +1455,8 @@
       "prior_edit_text": "第四十七条（原因者费用负担命令书）根据施行令第九十一条作出的原因者费用负担命令书，应当采用附表第四十四号格式。",
       "reason": "No matching source row ID exists. The correct full translation was moved to the actual source row B3-zh-00052, replacing an unrelated previous heading."
     }
-  ]
+  ],
+  "original_blank_edit_count": 84,
+  "additional_continuation_fragments": 4,
+  "additional_duplicate_rows": 1
 }
