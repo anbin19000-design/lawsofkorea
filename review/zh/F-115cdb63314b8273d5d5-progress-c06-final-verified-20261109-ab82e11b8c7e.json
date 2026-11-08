@@ -1,0 +1,54 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-115cdb63314b8273d5d5",
+  "worker": "C06",
+  "pc": "WORK-C",
+  "panel_id": "panel-06",
+  "status": "COMPLETE",
+  "phase": "SOURCE_BOUND_EMPTY_EDIT_ADJUDICATION_AND_FINAL_READBACK_COMPLETE",
+  "source_commit": "9edde23de1ced67de890822d81f5dc165fabb013",
+  "source_blobs": {
+    "ko": "159cb5a14f8f5e07bea8f04a5437adbf4b15c6ba",
+    "en": "f29bd3277059d324e7bbe7a69b6b6b49ab69939f",
+    "zh": "de02d84d8491a7aa79491594587e28914944a33a"
+  },
+  "checked_rows": 5228,
+  "corrected_rows": 1554,
+  "canonical_review": {
+    "path": "review/zh/F-115cdb63314b8273d5d5.json",
+    "blob_sha": "9c0dfd61372f61523faa095d19fd4fd10b844b11",
+    "status": "COMPLETE",
+    "edits": 1554,
+    "blank_text_edits": 0,
+    "foreign_ids": 0,
+    "duplicate_ids": 0
+  },
+  "receipt": {
+    "path": "receipts/F-115cdb63314b8273d5d5.json",
+    "blob_sha": "b6060d93c96d0e0e1b8d519ef5c26ac132a8fe66",
+    "status": "COMPLETE",
+    "review_blob_sha": "9c0dfd61372f61523faa095d19fd4fd10b844b11"
+  },
+  "deletion_decision_ledger": {
+    "path": "review/zh/F-115cdb63314b8273d5d5-empty-edit-decisions-C06-20261109-fe694466.json",
+    "blob_sha": "5100ff7bc63c73c560d5a3e85f711ac4e8c8e6a3",
+    "total_decisions": 89,
+    "original_blank_edits": 84,
+    "additional_split_continuations": 4,
+    "additional_duplicate_source_rows": 1,
+    "orphan_extra_id_merges": 4,
+    "source_hash_mismatches": 0,
+    "missing_merge_targets": 0
+  },
+  "verification": {
+    "source_zh_rows": 5228,
+    "source_blob_shas_match_assignment": true,
+    "all_review_ids_exist": true,
+    "all_review_text_nonblank": true,
+    "no_duplicate_or_extra_ids": true,
+    "receipt_matches_review_sha": true,
+    "receipt_matches_ledger_sha": true,
+    "all_deletion_decisions_source_bound": true
+  },
+  "note": "Resolved the supplier's MISSING_CORRECTION_TEXT and invalid-row-ID findings. The 84 originally blank correction entries were not filled with invented wording: they were individually source-adjudicated as deletion/no-op or fragments consolidated into complete corrected rows and documented with source hashes, source text, neighboring row IDs, and exact merge targets. Four additional broken continuation cells in A28849 and one duplicate source row A4662-zh-00051 were also documented. Four '-extra' IDs were merged into exact source IDs. Final canonical review has 1,554 unique nonblank edits only. Canonical review and receipt were saved and read back; both COMPLETE and mutually SHA-consistent. Source blobs unchanged. Do not select another family without a new official supplier assignment."
+}
