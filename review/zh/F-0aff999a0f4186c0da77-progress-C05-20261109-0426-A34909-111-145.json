@@ -1,0 +1,124 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_blob_observed": "003cad21fa104b32a22b7d401755e50ffab76f42",
+  "cumulative_corrections": 866,
+  "inspected_span": "A34909 rows 111–145 sequentially checked against the Korean annex. Prior corrections for rows 112, 117, 119–121, 124, 128, 132, 135, 138, 141–145 were preserved and considered. Further review candidates are recorded below; no official review-file mutation attempted due repeated Contents API 409 conflicts on earlier candidate save.",
+  "proposed_corrections": [
+    {
+      "id": "A34909-zh-00114",
+      "source_hash": "debdb94a33a3a05204e2f44ee5bde3cd8efaf99e340b82d3f04b526abcdde532",
+      "text": "2) 截至上一会计年度末，过去3年及5年内关闭的加盟店总数和平均经营期间",
+      "reason": "원문의 최근 3년·5년간 폐점한 가맹점 총수 및 평균 영업기간 표현을 명확히 함."
+    },
+    {
+      "id": "A34909-zh-00115",
+      "source_hash": "3d4dd1ebae90be4d7d556d3a96bc391eddfa138e41ba05be91865e71563fcd81",
+      "text": "（指各已关闭加盟店自首次签订加盟合同之日起至关闭之日止的平均天数）",
+      "reason": "폐점한 각 가맹점이 최초 가맹계약 체결일부터 폐점일까지의 일수를 평균한 것이라는 정의를 복구."
+    },
+    {
+      "id": "A34909-zh-00116",
+      "source_hash": "5d3f77e7b5d31773da7eca62d56643c1752011b1fb553de1ca3daff8a1e1732e",
+      "text": "",
+      "reason": "앞 행에서 이미 '平均天数'를 완결했으므로 이 행은 중복 파편으로서 원문 문맥과 세그먼트 경계를 재확인할 필요. 자동 삭제 대신 보류."
+    },
+    {
+      "id": "A34909-zh-00122",
+      "source_hash": "c5f3400ebe5e5df0475a1c2485ce9562f2b3632c3d7d17b66192b82d0c80686a",
+      "text": "（包括首次进入的年份及进入地区）",
+      "reason": "'최초 진출연도, 진출지역'을 '外观和扩展区域'로 오역한 부분 교정."
+    },
+    {
+      "id": "A34909-zh-00123",
+      "source_hash": "3f55a0b3a924b11e07560b4a22795a70d1e50cb30a86d641859828aa6eeb17d4",
+      "text": "4. 特许总部及其任职人员违反法律的事实等",
+      "reason": "가맹본부 및 임원의 법 위반 사실이라는 주체와 범위를 바로잡음."
+    },
+    {
+      "id": "A34909-zh-00125",
+      "source_hash": "39c6310438f2f8e32128181fcefa07b7d0a205a1b9b1c75abc289fc415251519",
+      "text": "向公平交易委员会举报其违反《特许经营业务公平交易法》或《垄断规制及公平交易法》或《条款规制法》",
+      "reason": "한국어 법률명과 신고 문맥을 원문에 맞춰 복구; 정확한 문맥 분절 확인 필요."
+    },
+    {
+      "id": "A34909-zh-00126",
+      "source_hash": "2ff340dd77cc8d33b57a078e11791f0a0cba39fb243dca256d038a26f3cf95a6",
+      "text": "并受到公平交易委员会作出的整改建议以上措施，或",
+      "reason": "'시정권고 이상의 조치'의 법정 행정조치 표현을 '整改建议以上'으로 복구."
+    },
+    {
+      "id": "A34909-zh-00127",
+      "source_hash": "de282c5456e193e129e5e76de8e87cc720cbff5fe751bfa0ae2a51ed0f196d62",
+      "text": "受到公平交易委员会或市、道知事依据本法第6条之4第1款作出的信息披露书登记撤销处分的事实",
+      "reason": "법 제6조의4제1항에 따른 정보공개서 등록취소 처분의 주체와 법적 효과를 복구."
+    },
+    {
+      "id": "A34909-zh-00129",
+      "source_hash": "30a61178d2ca693fd44af2fc23a637bd5671f2cb813c93b71a6d31b4ecf528f7",
+      "text": "违反《特许经营业务公平交易法》或《垄断规制及公平交易法》，或犯有诈骗、侵占、背信等侵害或非法取得他人财物或财产利益的犯罪",
+      "reason": "타인의 재물이나 재산상 이익을 영득 또는 이득하는 죄라는 범죄 유형을 '对财产实施欺诈'보다 정확히 복구."
+    },
+    {
+      "id": "A34909-zh-00130",
+      "source_hash": "50fb9269c3b3818054fced3e3deab843fd46494cb1bf72ae0cb6fdd48e6e2ec8",
+      "text": "并因上述犯罪的有罪确定判决而在相关民事诉讼中败诉，",
+      "reason": "민사소송에서 패소의 확정판결을 받았다는 법적 효과를 바로잡음."
+    },
+    {
+      "id": "A34909-zh-00131",
+      "source_hash": "a54d9d49e47214415d0324d0ae9dffed6bbcac30119c103aedb8370d8f95ec1f",
+      "text": "或已达成民事和解的事实",
+      "reason": "앞 행과 연결되는 민사상 화해 사실을 문장 구조에 맞춰 복구."
+    },
+    {
+      "id": "A34909-zh-00133",
+      "source_hash": "183eb5a73b0557ec7d399732a7d0b781d943158600487096bee3bfece5926f27",
+      "text": "因犯有诈骗、侵占、背信等侵害或非法取得他人财物或财产利益的犯罪而被判处刑罚的事实",
+      "reason": "한국어 원문 범죄 구성과 형 선고 사실을 명확히 복구."
+    },
+    {
+      "id": "A34909-zh-00134",
+      "source_hash": "00a452936bb3b034dfb2688a1557115825fe59e821d643a3983964115270a831",
+      "text": "5. 加盟店经营者的负担",
+      "reason": "가맹점사업자를 '加盟商'으로만 뭉뚱그린 기존 표제의 법률상 주체 표현을 정확히 함."
+    },
+    {
+      "id": "A34909-zh-00137",
+      "source_hash": "357885b0914ee5b09d8db54bda2d8aeec9460683999c3b547dc0ec9b846c89b9",
+      "text": "应支付对价的具体明细及支付方式信息（包括是否可用现金或银行卡支付）、退款条件及无法退款时的理由，",
+      "reason": "지급대가 내역·결제정보와 반환조건·불가 사유를 연결해 복구."
+    },
+    {
+      "id": "A34909-zh-00138",
+      "source_hash": "58fda2c997cdc18ad58f355e5295ed26b44916867756c40ee9f4639d219cf323",
+      "text": "（应分别列明合同定金、加盟费、分期付款首期款、预付租金、教育费、开业活动费等对价所包含的具体项目）",
+      "reason": "'반환조건'을 换货条件로 옮긴 오역을 제거하고 괄호 예시의 세그먼트 연결을 복구."
+    }
+  ],
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "chinese_total_rows": 1687,
+  "checked_rows": 849,
+  "corrected_rows": 866,
+  "quality_open_items": [
+    "Full sequential semantic audit of all 1,687 Chinese rows remains incomplete",
+    "429 rows without independently exact English require direct Korean/Chinese semantic comparison",
+    "A34909 rows 81–110 eight proposed edits still await official review-file save due repeated 409 conflicts",
+    "A34909 rows 111–145 candidates recorded but not yet committed into review corrections",
+    "Remaining annex/form rows require untruncated semantic comparison and final quality control"
+  ],
+  "note": "No source SHA changed. All candidate edits in this checkpoint are proposed only and must not be counted as saved official corrections. IN_PROGRESS; no receipt."
+}
