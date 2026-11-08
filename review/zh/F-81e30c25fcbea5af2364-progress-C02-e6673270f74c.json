@@ -1,0 +1,67 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:e6673270f74c",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "prior_master_blob_sha": "74c38c3e1a42be0e1355d8b527a0dc311e6fd2f3",
+  "checkpoint_type": "VERIFIED_MISSING_LEGAL_ENUMERATION",
+  "checked_ids": [
+    "B1-zh-00004",
+    "B2-zh-00010"
+  ],
+  "checked_rows_new": 2,
+  "edits": [
+    {
+      "id": "B1-zh-00004",
+      "source_hash": "9714a685cc51b1910bb73552cb019d355eeb657761ae1f3560f1618a8be41925",
+      "target_id": "205e7a7452372680f97c2c47c1da0774481dbf8f3dca129727c3bdff826e290e",
+      "text": "第二条（定义）本法所用术语的定义如下。<2009年5月22日；2017年3月21日；2018年8月14日；2019年11月26日；2020年6月9日；2021年3月16日修订>\n1。“智慧城市”是指通过整合建筑和信息通信技术，建设城市基础设施，提供各种城市服务的可持续城市，以提高城市的竞争力和生活质量。\n1-2.“国家先导城市”是指根据第三十五条规定指定设立的智慧城市，将智慧城市服务和智慧城市技术融入城市空间，以实现智慧城市管理和培育创新产业。\n2.“智慧城市服务”是指总统令规定的，通过智慧城市基础设施等收集行政、交通、福利、环境、防灾等主要城市功能的信息，然后提供这些信息或将这些信息相互关联起来的服务。\n3。“智慧城市基础设施”是指以下任何设施。\na. 根据《国家土地规划利用法》第二条第六款规定，将建筑技术和信息通信技术融合应用于基础设施建设的智能设施，或根据该法第十三款规定建设的公共设施，属于智能设施。\nb. 根据《智能信息社会框架法》第2条第9款规定的超互联智能信息通信网络，以及总统令规定的其他信息通信网络\nc. 它是总统令规定的与智慧城市管理和运营有关的设施，例如提供智慧城市服务的智慧城市综合运营中心等。\nd. 总统令规定的设施，例如闭路电视，作为应用建筑技术或信息通信技术收集、处理或提供智慧城市服务所需信息的设备。\n4.“智慧城市技术”是指建设-ICT融合技术以及利用ICT和ICT建设智慧城市基础设施和提供智慧城市服务。\n5.“建筑信息通信融合技术”是指总统令规定的将电子、控制、通信等技术与建筑技术相结合的技术，目的是使《国家土地规划利用法》第二条第六款规定的基础设施或第十三款规定的公共设施智能化。\n6.“智慧城市建设工程”是指按照第八条智慧城市规划，安装、建设、建立、维护、改进、供应和运营智慧城市基础设施、建筑物、构筑物等，以提供智慧城市服务的项目。\n6-2.“国家试点城市建设项目”是指在国家试点城市实施的智慧城市建设项目。\n7.“智慧城市产业”是指利用智慧城市技术、智慧城市基础设施、智慧城市服务等创造经济或社会附加值的产业。\n8。“创新增长促进区”是指根据第43条指定，通过激活智慧城市服务和智慧城市技术的融合与整合，支持智慧城市产业发展和促进投资的区域。\n9。“智慧创新技术与服务”是指通过改进智慧城市技术与服务，或通过利用、融合新技术与服务，为提高城市居民生活质量和促进创新产业发展做出贡献的技术与服务。\n10。“智能创新项目”是指根据第 49 条获得临时批准，以提供或利用智能创新技术和服务的项目。\n11。“智能示范项目”是指根据第 50 条批准的，用于测试和验证智能创新技术和服务的项目，其中在一定时期内不适用全部或部分法规。\n12. 删除<2021.3.16>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-e6673270f74c.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Restore c. third subparagraph marker and Article 2 definition item 7."
+    },
+    {
+      "id": "B2-zh-00010",
+      "source_hash": "1a6c0776439b8097bc8a74544358feb768707701b669b778d32c4946311332a7",
+      "target_id": "4a03e4ebd261d10e09fbb62e2b7ae411a0565853c8ccda766d96a11b4dd6e3d1",
+      "text": "第七条（适用范围等） 本法第三条第一款第七项所称“总统令规定的业务”，是指符合下列各款规定的业务。<2009年4月21日、2009年7月30日、2014年4月29日、2015年12月28日、2016年6月28日、2017年9月19日、2018年7月16日、2020年7月7日修订>\n1. 根据《住房法》进行的住房建设项目或场地开发项目\n2. 根据《城市及居住环境改善法》第2条第2款进行的更新项目\n3. 根据《城市再开发促进特别法》第二条第二款开展的再开发促进项目\n4. 根据《工业区址及开发法》进行的工业综合体开发项目和根据该法第39条进行的特殊区域开发项目\n5. 根据《公共住房特别法》第二条第三款（甲）项规定，公共住房区开发项目\n6. 根据《经济自由区指定及运营特别法》开展的经济自由区发展项目\n7. 根据《滨水区利用特别法》开展的滨水区开发项目\n8. 根据《区域发展与支持法》开展的区域发展项目\n9. 根据《车站区域开发利用法》进行的车站区域开发项目\n10. 根据《私人租赁住房特别法》设立的公助私人租赁住房供应促进区发展项目\n11. 根据《旅游促进法》开展的旅游综合体开发项目\n12. 根据《新万金项目促进支援特别法》第2条第2款，新万金项目\n\n第二章 制定智慧城市综合规划等 <2017年9月19日修订>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-e6673270f74c.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Restore three missing enumeration markers in Decree Article 7."
+    }
+  ],
+  "ordered_reading_certification": {
+    "ko": false,
+    "en": false,
+    "zh": false
+  },
+  "english_sources": {
+    "available_parent_official_fallback": [
+      "B1",
+      "B2"
+    ],
+    "no_document_english": [
+      "B3",
+      "A25465",
+      "A25466",
+      "A25467",
+      "A25468",
+      "A25469",
+      "A25470",
+      "A25471",
+      "A25472",
+      "A25473",
+      "A25474"
+    ],
+    "coverage_note": "712/1133 rows have reference English in prior index, 421 do not. Parent fallback not exact Korean version."
+  },
+  "notes": "Two directly compared Korean legal text rows. Minimal enumeration markers only; full ordered review not yet certified."
+}
