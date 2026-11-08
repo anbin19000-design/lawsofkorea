@@ -1,0 +1,42 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_blob_after_save": "003cad21fa104b32a22b7d401755e50ffab76f42",
+  "cumulative_corrections": 866,
+  "inspected_span": "A34909 rows 81–110 sequentially inspected against the Korean annex. Clear semantic issues were identified in rows 85–86, 88, 91–92, 95–96 and 100; the official review update was rejected twice with HTTP 409, so these proposed changes are NOT represented as saved corrections.",
+  "pending_correction_ids": [
+    "A34909-zh-00085",
+    "A34909-zh-00086",
+    "A34909-zh-00088",
+    "A34909-zh-00091",
+    "A34909-zh-00092",
+    "A34909-zh-00095",
+    "A34909-zh-00096",
+    "A34909-zh-00100"
+  ],
+  "pending_correction_note": "Re-fetch current main review and reconcile concurrent Contents API version before applying these changes. Preserve the latest review blob; do not overwrite concurrent work.",
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "chinese_total_rows": 1687,
+  "checked_rows": 849,
+  "corrected_rows": 866,
+  "quality_open_items": [
+    "Full sequential semantic audit of all 1,687 Chinese rows remains incomplete",
+    "429 rows without independently exact English require direct Korean/Chinese semantic comparison",
+    "Remaining annex/form rows require untruncated semantic comparison and final quality control",
+    "Eight proposed corrections for A34909 rows 81–110 await safe Contents API reconciliation after repeated 409 conflicts"
+  ],
+  "note": "IN_PROGRESS; no completion receipt. Source blob SHA values unchanged."
+}
