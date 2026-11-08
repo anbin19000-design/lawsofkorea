@@ -1,0 +1,41 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "panel_id": "panel-01",
+  "assignment_id": "S2-c174f0e36bef5fedb717095f1cea01f6",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:65aa3f7f82bd]",
+  "status": "IN_PROGRESS",
+  "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
+  "source_sha": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "source_documents": 16,
+  "source_chinese_rows": 1207,
+  "source_manifest_verified": true,
+  "english_status": "Exact-version English exists for B1 Act and B2 Enforcement Decree (including decree annex references); no independent English source for B3 Enforcement Rule and its related rule annexes/forms. Continue Korean-Chinese comparison for those documents.",
+  "prior_review_path": "review/zh/F-7423351d4946866bbacf.json",
+  "prior_review_blob": "b4daa6db7df1be35fe7da8695fb5acc0b7043b2e",
+  "prior_checked_rows": 88,
+  "prior_unique_edits": 287,
+  "prior_edits_preserved": true,
+  "prior_receipt_path": "receipts/F-7423351d4946866bbacf.json",
+  "prior_receipt_state": "NOT_FOUND",
+  "prior_progress_state": "status/delivery/progress-S2-c174f0e36bef5fedb717095f1cea01f6.json NOT_FOUND; assignment delivery record status/delivery/S2-c174f0e36bef5fedb717095f1cea01f6.json exists and is SENT_VERIFIED.",
+  "unresolved": [
+    "Full semantic equivalence of all 1207 Chinese rows is not certified; prior checked_rows remains 88.",
+    "Annex/form XML cell-level alignment remains incomplete.",
+    "Unresolved punctuation/source-cell IDs: A38090-zh-00012, A23947-zh-00010, A23948-zh-00013, A23948-zh-00019, A23951-zh-00017.",
+    "Official C01 binding conversation opens as a blank new chat with insufficient DOM; no worker instruction was sent. The initially observed panel conversation differed from the official binding, so it was not used."
+  ],
+  "current_turn_verified": [
+    "Official status/active/C01.json confirms this job is ACTIVE, worker C01, panel-01, 16 documents, 1207 rows.",
+    "status/worker-bindings.json confirms C01 official conversation URL https://chatgpt.com/c/6af0481a-e51c-83e8-99fe-74e269006881.",
+    "KO/EN/ZH source blob SHAs match the active assignment source_blobs; no source file changed.",
+    "All 16 document keys in KO, EN, and ZH package manifests are aligned.",
+    "Existing review has 287 unique edit entries but checked_rows=88 and status IN_PROGRESS; no COMPLETE receipt exists."
+  ],
+  "next_action": "Resume sequential full-family review from the last independently evidenced row, first resolving the five source-cell/punctuation IDs, then continue Korean full text -> available English full text -> Chinese rows in order, including all annex/form cells. Restore the bound C01 panel composer before sending work. Do not set COMPLETE or create a completion receipt until all 1207 rows are semantically checked and the official review and receipt are saved and re-read."
+}
