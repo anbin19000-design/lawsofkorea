@@ -31,7 +31,20 @@
   },
   "assistant_count": 20,
   "assistant_excerpt": "\n\n한국어 원문과 중국어 11개 행을 대조하고, 오류가 확인된 2개 행의 교정문을 신규 진행 파일에 저장했습니다.\n\n교정 행 ID\n\n\t\n\n검수·교정 내용\n\n\n\n\nB1-zh-00026\n\n\t\n\n제22조 위판장 개수·보수 지원에서 공동출하와 부지 확보의 의미 바로잡음\n\n\n\n\nB1-zh-00031\n\n\t\n\n제26조 허가취소·업무정지 사유 중 부정문 오류, 산지경매사 면직 의무 및 관련 조문 정정\n\nGitHub 저장 결과\n\n새 커밋: 775be2bd1bda7dd9c6007d0e293bee81b36b340e\n\n파일 SHA: 2a158a3b4f23a0ce4a0af31e2d0a180fec95c311\n\n저장 상태: IN_PROGRESS\n\n검수: 11행 / 신규 교정: 2행\n\n기존 31행 체크포인트: 변경 없음\n\n원문 ko/zh/en SHA: 변경 없음\n\n후속 구간 B1-00037~00046 저장·검증 완료\n\n두 번째 신규 구간도 GitHub main에 정상 저장하고 재조회했습니다.\n\n검수: 10행\n\n신규 교정: B1-zh-00038, 00039, 00044, 00046\n\n커밋: 85458dafda66add83163308f68bbd3610bd91bc1\n\n파일 SHA: 028d7ac4dc03cc98e675bf44eb928b83f0c02528\n\n상태: IN_PROGRESS\n\n교정문 4개의 ID 중복 없음과 비어 있지 않은 내용을 확인했습니다.\n\n이번 회차 누적 성과\n\n항목\n\n\t\n\n결과\n\n\n\n\n추가 검수 행\n\n\t\n\n21개\n\n\n\n\n추가 교정 행\n\n\t\n\n6개\n\n\n\n\n신규 GitHub 커밋\n\n\t\n\n2개\n\n\n\n\n다음 미검수 행\n\n\t\n\nB1-zh-00047\n\n앞서 저장한 25번까지의 판정과 31행 체크포인트는 보존했습니다.\n\n전체 법령가족은 계속 IN_PROGRESS이며, COMPLETE 영수증은 발행하지 않았습니다.",
+  "attempted_at": "2026-11-08T06:52:50.818718+00:00",
   "created_at": "2026-11-08T06:52:44.065273+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-c174f0e36bef5fedb717095f1cea01f6",
+    "attempted_at": "2026-11-08T06:52:50.818718+00:00",
+    "claim_commit": "88a99123c95fdd91e0755d4b99278742f855feda",
+    "event_id": "obs-b106cbdaefd9f6db0ac6fce8f0e247dc7c3b13f1",
+    "job_id": "F-7423351d4946866bbacf",
+    "record_path": "status/delivery/recovery-S2-c174f0e36bef5fedb717095f1cea01f6.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C01"
+  },
   "episode": 3,
   "event_id": "obs-b106cbdaefd9f6db0ac6fce8f0e247dc7c3b13f1",
   "idle_followup": true,
@@ -170,7 +183,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-eaec226a709f545539f60ac4]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "4c8f4bd465536a4ac7496e2be729ce58f8f978e5",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6af017db-65d8-83ec-9c45-ff08e769f61d",
   "worker": "C01"
 }
