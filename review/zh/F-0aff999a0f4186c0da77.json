@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 408,
+    "correction_count": 413,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -2881,6 +2881,41 @@
       "original": "收货日期",
       "corrected": "受理日期",
       "reason": "접수일(접수된 날짜)을 배송·수령일 의미의 收货日期로 번역한 명백한 오역 교정."
+    },
+    "B1-zh-00020": {
+      "doc": "B1",
+      "source_hash": "6c613116e44b498ea7a43f249e0e5ee45d8ce861155aeab7a6ae0f2600759812",
+      "original": "第十二条（禁止不正当交易行为）\n① 特许人不得从事下列任何一项可能妨碍特许经营业务公平交易的行为，也不得唆使其他经营者从事该等行为。<2007年8月3日、2013年8月13日、2016年3月29日修订>\n1. 不公平地暂停或拒绝向加盟商供应商品、服务或业务支持等，或大幅限制其内容的行为。\n2. 不公平地限制或约束特许经营商所经营的商品或服务的价格、贸易伙伴、贸易区域或业务活动的行为。\n3. 利用自身在交易中的支配地位，不公平地对加盟商造成不利影响的行为\n4. 删除<2013.8.13>\n5. 不公平地强加给加盟商赔偿损失的义务的行为，例如，与总统令规定的合同目的和内容以及潜在损失标准相比，施加过高的罚款。\n6. 除第 1 至 3 款和第 5 款所列行为外，可能妨碍特许经营业务公平交易的其他行为，例如不公平地诱使竞争对手的特许经营商的加盟商与自己进行交易的行为。\n② 第1款各分项规定的行为类型或标准，由总统令规定。\n\n",
+      "corrected": "第十二条（禁止不正当交易行为）\n① 特许经营总部不得从事下列任何一项可能妨碍特许经营业务公平交易的行为，也不得唆使其他经营者从事该等行为。<2007年8月3日、2013年8月13日、2016年3月29日修订>\n1. 不公平地暂停或拒绝向加盟商供应商品、服务或业务支持等，或大幅限制其内容的行为。\n2. 不公平地限制或约束加盟商所经营的商品或服务的价格、交易相对方、交易区域或加盟商的业务活动的行为。\n3. 利用自身在交易中的地位，不公平地使加盟商承担不利后果的行为。\n4. 删除<2013.8.13>\n5. 与合同目的、内容及所发生损害等总统令规定的标准相比，课以过重违约金等，不公平地使加盟商承担损害赔偿义务的行为。\n6. 除第1项至第3项及第5项所列行为外，其他可能妨碍特许经营业务公平交易的行为，例如不正当地诱使竞争特许经营总部的加盟商与自己进行交易的行为。\n② 第1款各项所规定行为的类型或标准，由总统令规定。\n\n",
+      "reason": "제12조제1항제5호의 발생한 손해를 잠재손해로 오역하고 위약금의 성격을 벌금으로 옮긴 부분, 제2호 거래상대방을 보완."
+    },
+    "B1-zh-00021": {
+      "doc": "B1",
+      "source_hash": "b3f544d7537138201b8ba6b8375aa5a27a431ce758f93cae109b794429b62d7e",
+      "original": "第十二条之二（禁止为改善店铺环境等目的进行不正当强制）\n① 特许经营者不得无总统令规定的正当理由强迫加盟商改善店铺环境。\n② 特许经营商应按总统令规定的比例承担一定金额，该金额不得超过总统令规定的加盟商店铺环境改善费用的40%。但是，在下列任何情况下，本规定均不适用。\n1. 若加盟商自愿进行店铺环境改善，而未得到特许人的任何建议或要求，则\n2. 如果由于加盟商的原因导致卫生、安全或类似问题，而不可避免地需要改善门店环境，则\n③ 根据第 2 款规定，特许经营人应承担的费用的计算、结算和支付程序以及其他必要事项，由总统令规定。\n\n",
+      "corrected": "第十二条之二（禁止不正当强制改善店铺环境等）\n① 特许经营总部不得无总统令规定的正当理由强迫加盟商改善店铺环境。\n② 特许经营总部应当承担相当于加盟商店铺环境改善费用中总统令规定费用的40%以内、并按总统令规定比例计算的金额。但是，在下列任何情况下，不适用本规定：\n1. 加盟商在没有特许经营总部劝告或要求的情况下，基于自愿意愿实施店铺环境改善的情形；\n2. 因加盟商自身应负责任的事由发生卫生、安全及类似问题，不得不改善店铺环境的情形。\n③ 特许经营总部依第2款应承担费用的计算、请求及支付程序，以及其他必要事项，由总统令规定。\n\n",
+      "reason": "제12조의2제2항 및 제3항에서 비용부담 주체는 가맹본부인데 중국어가 가맹점사업자/특허인으로 잘못 표기되어 부담주체가 역전·모호해짐."
+    },
+    "B1-zh-00023": {
+      "doc": "B1",
+      "source_hash": "787ad56c741c939f81346ad64141d9867c547efb614cf7c7b14256641d0712ee",
+      "original": "第十二条之四（禁止不正当侵犯商业领土）\n① 特许人应当在签订特许经营协议时确定被特许人的经营区域，并在特许经营协议中予以明确规定。\n② 如特许经营权续期过程中，因总统令规定的原因（例如商业区域发生突变）导致特许经营权经营范围变更，特许经营权人应当与被特许经营人达成协议。<2018年1月16日修订>\n③ 特许人不得无正当理由，在被特许人的经营区域内，设立与其经营业务相同的直营店或加盟店（此处“直营店”指《垄断规制与公平交易法》第12款所定义的关联公司，以下简称“关联公司”）。（此处“经营业务”指在客户群体、经营商品、经营形式和经营方式等方面具有地域性和人群覆盖范围的相同业务。）<2018年1月16日、2020年12月29日修订>\n\n",
+      "corrected": "第十二条之四（禁止不正当侵害营业区域）\n① 特许经营总部应当在签订特许经营合同之时设定加盟商的营业区域，并将其记载于特许经营合同。\n② 特许经营总部在续签特许经营合同时，因商圈急剧变化等总统令规定的事由而拟变更既有营业区域的，应当与加盟商达成协议。<2018年1月16日修订>\n③ 特许经营总部不得无正当理由，在特许经营合同期间内，于加盟商的营业区域内设置其自身或关联公司的直营店或加盟店。此处“关联公司”指《垄断规制及公平交易法》第2条第12号所规定的关联公司；此处“相同业种”指从需求群体的地域及人员范围、经营商品、营业形态及方式等方面来看可被认定为相同的业种。<2018年1月16日、2020年12月29日修订>\n\n",
+      "reason": "제12조의4제3항에서 자기 또는 계열회사의 직영점·가맹점 설치 금지의 주체와 범위가 괄호 번역에서 왜곡되었고, 계열회사 근거 조문에 제2조가 누락됨."
+    },
+    "B1-zh-00024": {
+      "doc": "B1",
+      "source_hash": "f3e910e1da21cd0b779abd1b2fd0e0f7c9161b329bd110f950b056b609378deb",
+      "original": "第十二条之五（禁止报复措施）特许经营人不得以被特许经营人实施下列任何一项行为为由，暂停、拒绝或限制向被特许经营人提供商品或服务或管理或经营活动支持，终止特许经营协议，或实施其他对被特许经营人造成不利影响的行为，也不得使关联公司或其他经营者实施上述行为。\n1. 根据第22条第1款申请争议调解\n2. 配合公平交易委员会依据《公平交易法》第32条之2进行的书面事实调查\n3. 根据第32条之3第1款进行报告，并根据该条第2款配合公平交易委员会的调查\n\n",
+      "corrected": "第十二条之五（禁止报复措施）特许经营总部不得以加盟商实施下列任何一项行为为由，对该加盟商中止、拒绝或限制商品、服务或经营管理活动支持的提供，解除特许经营合同，或实施其他不利行为，也不得使关联公司或其他经营者实施上述行为。\n1. 依据第22条第1款申请争议调解；\n2. 配合公平交易委员会依据本法第32条之2进行的书面事实调查；\n3. 依据第32条之3第1款举报，并配合该条第2款规定的公平交易委员会调查。\n\n",
+      "reason": "제12조의5는 본 법의 조항을 인용하므로 별도 '公平交易法'로 오역한 부분과 제3호 신고·조사 협조의 행위 구조를 교정."
+    },
+    "B1-zh-00027": {
+      "doc": "B1",
+      "source_hash": "0cb8f51a1347a2dac66dbd1010e5c844ea18b0e52ccde093ad00b186163b5a73",
+      "original": "第十三条（特许经营协议续签等）\n① 特许经营商不得无正当理由拒绝特许经营协议续期申请，如果该申请是在特许经营协议期满前180天至90天内提出的。但是，以下情况除外：\n1. 如果加盟商未能履行特许经营协议项下支付加盟费等义务\n2. 如果加盟商不接受通常适用于其他加盟商的合同条款或业务政策\n3. 如果加盟商未能遵守特许人任何属于以下任何子条款的重要业务政策，而这些政策被认为对维持特许经营业务是必要的，则\na. 与加盟商经营所需的店铺和设施的购置，或法律规定的资格、执照或许可证的取得有关的事项\nb. 与遵守为保持所售商品或服务质量所必需的制造方法或服务技术有关的事项\n此外，还有总统令规定的、对加盟商维持加盟业务正常运营而言必不可少的事项。\n② 加盟商要求续约的权利只能在总加盟合同期限（包括初始加盟合同期限）不超过 10 年的范围内行使。\n③ 如果特许人拒绝根据第1款提出的续约请求，应当自收到请求之日起15日内，以书面形式通知被特许人，说明拒绝的理由。\n4. 如果特许人未按照第3款的规定发出拒绝通知，或者未在特许经营协议期满前180天至90天内以书面形式通知被特许人有关条件变更或特许经营协议不予续签的事实，则该特许经营协议应视为在与期满前相同的条件下订立。但是，如果被特许人在合同期满前60天内提出异议，或者发生自然灾害或其他总统令规定的与特许人或被特许人相关的不可避免的情况，则本条不适用。\n\n",
+      "corrected": "第十三条（特许经营合同的续签等）\n① 加盟商在特许经营合同期限届满前180日至90日之间要求续签特许经营合同的，特许经营总部不得无正当理由拒绝。但下列情形除外：\n1. 加盟商未履行特许经营合同项下支付特许经营费等义务的情形；\n2. 加盟商不接受通常适用于其他加盟商的合同条件或经营方针的情形；\n3. 加盟商未遵守被认为为维持特许经营业务所必需、且属于下列各目之一的特许经营总部重要经营方针的情形：\n가. 关于确保加盟店经营所需店铺、设备，或取得法律法规要求的资格、执照、许可的事项；\n나. 关于遵守为维持所销售商品或服务质量所必需的制造方法或服务技术的事项；\n다. 其他为加盟商正常维持特许经营业务所必需、并由总统令规定的事项。\n② 加盟商的合同续签请求权，仅可在包括最初特许经营合同期限在内的整体特许经营合同期限不超过10年的范围内行使。\n③ 特许经营总部拒绝第1款规定的续签请求时，应当自收到该请求之日起15日内，以书面形式向加盟商通知并载明拒绝理由。\n④ 特许经营总部未依第3款发出拒绝通知，或未在合同期限届满前180日至90日之间以书面形式向加盟商通知条件变更或不予续签的事实的，视为以合同届满前的相同条件重新订立特许经营合同。但加盟商在合同届满之日前60日提出异议，或者特许经营总部或加盟商存在自然灾害及其他总统令规定的不可避免事由的，不在此限。\n\n",
+      "reason": "제13조제1항제3호 다목의 대통령령 위임사항이 '此外'로만 처리되어 항목이 누락되었고 제4항을 제4호로 잘못 표기한 점을 교정."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -2961,7 +2996,8 @@
     "C05 ec2de23b2e8f: A34909 source comparison added 13 corrections to sales ratios, average early termination penalties and credit disclosure.",
     "C05 b059174ccc26 continuation: revalidated active C05/panel-05 binding and exact KO/EN/ZH source blob SHAs; fetched all three linked English source documents (B1 exact, B2 family fallback + KLRI fallback) and confirmed they remain readable. Continued targeted sequential Chinese review of A34911 (4 rows) and A34913 (12 rows) against full Korean annex text: labels and legal references retained where accurate; A34911 formula content is not present in extracted Korean text and remains an explicit visual/source-artifact QA open item. Scanned all 1,687 Chinese rows for uncorrected MTQ/START/END markers and residual Hangul; zero uncorrected matches (all hits are already covered by corrections). This scan is a contamination check, not a substitute for full semantic comparison. Existing 402 corrections and source hashes preserved; family remains IN_PROGRESS, with 429 no-English rows requiring direct KO/ZH semantic audit and full sequential semantic certification still outstanding.",
     "C05 2050e581878f continuation: B1 Articles 3, 6-2 and 6-4 rechecked against complete Korean source. Three material corrections added: application-exemption clause meaning reversal; paragraph-number/actor rendering in Article 6-2; Article 6-4 cross-reference, omitted-important-matters reversal, and franchisor/franchisee party identity. Previous 402 edits preserved. Full-family Chinese semantic audit remains incomplete; status IN_PROGRESS.",
-    "C05 2050e581878f continuation: three application/form field labels corrected against Korean 접수일/접수일시; '收货日期/收据日期' had incorrectly implied delivery/receipt voucher rather than filing intake. Prior 405 edits preserved. Full-family semantic review remains IN_PROGRESS."
+    "C05 2050e581878f continuation: three application/form field labels corrected against Korean 접수일/접수일시; '收货日期/收据日期' had incorrectly implied delivery/receipt voucher rather than filing intake. Prior 405 edits preserved. Full-family semantic review remains IN_PROGRESS.",
+    "C05 66ee959d0b30 continuation: B1 Articles 12, 12-2, 12-4, 12-5 and 13 rechecked against full Korean clauses. Five definite corrections added: breach penalty vs fine/actual damage, franchisor cost-bearing party in store-environment improvements, affiliated-company/territory definition and statutory citation, retaliation cross-reference to this Act, and missing Article 13(1)3(c) plus paragraph 4 numbering. Prior 408 corrections preserved; IN_PROGRESS."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -2970,5 +3006,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 408
+  "corrected_rows": 413
 }
