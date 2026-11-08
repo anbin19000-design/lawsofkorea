@@ -1,0 +1,120 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:9978dc6b942b",
+  "status": "IN_PROGRESS",
+  "branch": "main",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "evidence_index": "status/delivery/reconcile-S2-ae8f8a85c5ace955ac8120fa9a6c7730-evidence-897b23bd7d0b8383.json",
+  "reconciliation": {
+    "index_files": 92,
+    "index_unique_checked_ids": 651,
+    "index_candidate_ids": 538,
+    "additional_C02_progress_files": 19,
+    "additional_C02_unique_checked_ids": 187,
+    "additional_C02_unique_edit_ids": 155,
+    "additional_not_in_index": [
+      "A25465-zh-00049",
+      "A25465-zh-00056",
+      "B3-zh-00010",
+      "A25466-zh-00017",
+      "A25467-zh-00025",
+      "B2-zh-00209",
+      "B3-zh-00013"
+    ],
+    "candidate_differences_found": 6,
+    "candidate_differences_adjudicated": 6
+  },
+  "checked_ids": [
+    "A25467-zh-00023",
+    "A25467-zh-00024",
+    "A25469-zh-00012",
+    "A25469-zh-00014",
+    "A25469-zh-00017",
+    "A25469-zh-00018"
+  ],
+  "checked_rows": 6,
+  "edits": [
+    {
+      "id": "A25467-zh-00023",
+      "text": "第二款，现按上述内容签发[",
+      "source_hash": "0812242d9d876ba8331005d787372d2f55fe4c4a8fbbbd96e8ef5981293c9a1b",
+      "target_id": "XML:1802801"
+    },
+    {
+      "id": "A25467-zh-00024",
+      "text": "]智慧创新事业[",
+      "source_hash": "62ee9a8cce92e5f57d502b9c27547d49eb477a95b2c77b6067f044b2aa948940",
+      "target_id": "XML:1802802"
+    },
+    {
+      "id": "A25469-zh-00012",
+      "text": "1. 需要国土交通部长官或主管行政机关负责人办理许可、批准、认证、验证、认可、",
+      "source_hash": "47b9cbc2fd209e6cea9ab5fd131d05300d3b13886a6daa4da115c85b23b58100",
+      "target_id": "XML:1802867"
+    },
+    {
+      "id": "A25469-zh-00014",
+      "text": "登记等手续",
+      "source_hash": "94b2cde7f3c06a64b48cebaf9f98f31f74a51afbea231127e01752601a583f19",
+      "target_id": "XML:1802869"
+    },
+    {
+      "id": "A25469-zh-00017",
+      "text": "2. 不需要国土交通部长官或主管行政机关负责人办理许可、批准、认证、验证、认可、",
+      "source_hash": "bccff45bcfd5a44a8f867d481b5f69eb5bb36137a0c099a9d220966801d7ac8a",
+      "target_id": "XML:1802872"
+    },
+    {
+      "id": "A25469-zh-00018",
+      "text": "登记等手续",
+      "source_hash": "01a009b6e766afd5c3a1e48d330d141d8288dd1d003fe49a5b8e7b24172b224d",
+      "target_id": "XML:1802873"
+    }
+  ],
+  "adjudications": [
+    {
+      "id": "A25467-zh-00023",
+      "verdict": "PRESERVE_CROSS_CELL_KOREAN_MEANING",
+      "reason": "Preserve split-cell statutory sentence; full option texts belong in 24 and 25, not duplicated in 23."
+    },
+    {
+      "id": "A25467-zh-00024",
+      "verdict": "PRESERVE_CROSS_CELL_KOREAN_MEANING",
+      "reason": "Continue the original checkbox sentence, with project 1 here and project 2 in 25."
+    },
+    {
+      "id": "A25469-zh-00012",
+      "verdict": "PRESERVE_CROSS_CELL_KOREAN_MEANING",
+      "reason": "Korean form line ends at '인'; the next continuation text '가ㆍ등록 등이 필요함' is in cell 14, so retain split not duplicate it."
+    },
+    {
+      "id": "A25469-zh-00014",
+      "verdict": "PRESERVE_CROSS_CELL_KOREAN_MEANING",
+      "reason": "Continuation of original Korean '인가ㆍ등록 등이 필요함' after cell 12; the consent/approval notion is already '认可' in prior cell."
+    },
+    {
+      "id": "A25469-zh-00017",
+      "verdict": "PRESERVE_CROSS_CELL_KOREAN_MEANING",
+      "reason": "Korean second checkbox row ends at '인' before row 18 continuation; preserve no-permit versus permit contrast."
+    },
+    {
+      "id": "A25469-zh-00018",
+      "verdict": "PRESERVE_CROSS_CELL_KOREAN_MEANING",
+      "reason": "Continuation after no-permit statement in 17; negative clause is in cell 17."
+    }
+  ],
+  "prior_progress": [
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-950203ea968c-adjudication.json",
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-950203ea968c-forms-reconcile.json",
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-950203ea968c-final-conflict.json"
+  ],
+  "note": "Six post-index differences resolved against Korean forms and neighboring cells, not fresh global coverage. Full ordered source reading and 1133 unique row audit not certified, do not mark COMPLETE.",
+  "next_action": "Finish verification of post-index seven additional edits, reconcile all source IDs and missing English source mapping; check remaining rows in document order, then publish a fully integrated file and completion receipt."
+}
