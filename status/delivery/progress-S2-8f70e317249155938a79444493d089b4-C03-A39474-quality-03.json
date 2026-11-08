@@ -1,0 +1,175 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A39474",
+  "quality_batch": "A39474-quality-03",
+  "range": {
+    "first": "A39474-zh-00030",
+    "last": "A39474-zh-00044"
+  },
+  "quality_checked_rows": 15,
+  "quality_passed_rows": 15,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "A39474-zh-00030",
+    "A39474-zh-00031",
+    "A39474-zh-00032",
+    "A39474-zh-00033",
+    "A39474-zh-00034",
+    "A39474-zh-00035",
+    "A39474-zh-00036",
+    "A39474-zh-00037",
+    "A39474-zh-00038",
+    "A39474-zh-00039",
+    "A39474-zh-00040",
+    "A39474-zh-00041",
+    "A39474-zh-00042",
+    "A39474-zh-00043",
+    "A39474-zh-00044"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39474-00030-00044.json",
+  "prior_quality_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39474-quality-02.json",
+  "results": [
+    {
+      "id": "A39474-zh-00030",
+      "source_hash": "9b65919cd1de3ae66eaf9d36097e7eb8ffb1498eb605f6075d6786a90fc5caac",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "지역피해자권익보호기관 설치·운영 기준 제목과 일치함."
+    },
+    {
+      "id": "A39474-zh-00031",
+      "source_hash": "04a976184d0c070209b98775a95d0c9b828cdef768c3534093e018e7d252e64a",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "가. 설치 기준 구분 표지가 일치함."
+    },
+    {
+      "id": "A39474-zh-00032",
+      "source_hash": "c0865560335eb5d83c239fa6d7eab57604ef41bb029585be07f8447f2ff38304",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "사무실의 소제목을 보존함."
+    },
+    {
+      "id": "A39474-zh-00033",
+      "source_hash": "50331dce37f50a8b2ae40a3d715543d6030573b19d84785602d33f0e0ce190ef",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법 제15조제2항제1호 신고접수 및 같은 항 제3~5호 업무 의무의 전반부를 34행과 연결해 확인함."
+    },
+    {
+      "id": "A39474-zh-00034",
+      "source_hash": "569046c4dacf827d6530e4b2cc1e8bcdf5bb140c5fbab28cffcb2a937db966dc",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "33행에서 이어지는 공간·설비 요건을 보존함."
+    },
+    {
+      "id": "A39474-zh-00035",
+      "source_hash": "c5825d4be9077b7d4a9e8539359d48f9a5d7e2f85e7c9a5bac6f833a5c7be414",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "소방시설 설치 및 관리에 관한 법률의 화재안전기준을 인접 36행과 함께 확인함."
+    },
+    {
+      "id": "A39474-zh-00036",
+      "source_hash": "21197c2ae01d5fda4a4d4dc3bf119f991ef804665937e2d76a29bb9953f82e1d",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "35행과 연결하여 소화설비 및 피난설비 구비 의무를 보존함."
+    },
+    {
+      "id": "A39474-zh-00037",
+      "source_hash": "cde635a7db946750c5cb2d9c1da49c0146b33088c22eac5f91285bee23f64886",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "상담실 소제목을 보존함."
+    },
+    {
+      "id": "A39474-zh-00038",
+      "source_hash": "4fbaff60e2f25acd150adf1d9a895a85a825a0d4b8af6a14fdf80c6773e4be8c",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "16.5제곱미터 이상 독립공간 요건을 보존함."
+    },
+    {
+      "id": "A39474-zh-00039",
+      "source_hash": "ed67e1b047e550455d7f179fde4fbc948de579d3372298357417a9bc636409d2",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "상담 비밀 보장을 위한 칸막이 또는 방음장치 의무를 보존함."
+    },
+    {
+      "id": "A39474-zh-00040",
+      "source_hash": "b07f284c168b4439d8094be830d84b516e0148679cabd0662c895cfc05d593ad",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "앞 문장 끝에 이어지는 XML 분절 종결 부호임을 확인함."
+    },
+    {
+      "id": "A39474-zh-00041",
+      "source_hash": "38b706614c279855f973db4342f6ea4af28f8fc1f56d43f03b336e5794eacaa6",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "아동·청소년, 장애인, 외국인 등의 상담에 필요한 의사소통 지원도구용 공간 확보 의무를 42행과 연결함."
+    },
+    {
+      "id": "A39474-zh-00042",
+      "source_hash": "87197170e1b1e3aa6ac2fa83214ea2e070ea9d8569760f07b049d52eb41d5841",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 41행과 연결하여 공간 확보 요건을 완성하고 START 손상을 제거한 기존 교정을 확인함."
+    },
+    {
+      "id": "A39474-zh-00043",
+      "source_hash": "25c972a59dd9e8dc4072e179d3bca13008863194a015563cc0b7d41f49d0d98c",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "상담 당사자 동의 및 상담 녹화 장비·비품의 구비 요건을 44행과 연결함."
+    },
+    {
+      "id": "A39474-zh-00044",
+      "source_hash": "6c0e686daa29a450383ffde6f0c0cf60bdf61a0384f0e80d8c4ccdd7248aba70",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "43행의 녹화장비와 비품 요건의 문장 완결을 확인함."
+    }
+  ],
+  "edits": [],
+  "note": "별표 1 30~44번 15개 XML 셀을 한국어 원문과 대조하고 기존 교정 8건을 품질 확인. 특히 16.5제곱미터, 상담 비밀 보장, 의사소통 도구 및 녹화 동의, START 훼손 교정을 대조함. 전체 COMPLETE 아님."
+}
