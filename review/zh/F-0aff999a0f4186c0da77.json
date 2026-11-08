@@ -2916,7 +2916,8 @@
     "C05 c40b97c6430f: A34909 disclosure-cover statutory disclaimer clauses 14-16 restored against full Korean sentence; preserve row 17 continuation.",
     "C05 1d83a14216df: A34909 section 5(a) source-grounded corrections for franchisee startup payments, refund/return conditions and escrow amount; 8 rows.",
     "C05 1d83a14216df: A34909 section 6(e) source-grounded territorial restriction and substitute-goods sales disclosure corrections (8).",
-    "C05 ec2de23b2e8f: A34909 source comparison added 13 corrections to sales ratios, average early termination penalties and credit disclosure."
+    "C05 ec2de23b2e8f: A34909 source comparison added 13 corrections to sales ratios, average early termination penalties and credit disclosure.",
+    "C05 b059174ccc26 continuation: revalidated active C05/panel-05 binding and exact KO/EN/ZH source blob SHAs; fetched all three linked English source documents (B1 exact, B2 family fallback + KLRI fallback) and confirmed they remain readable. Continued targeted sequential Chinese review of A34911 (4 rows) and A34913 (12 rows) against full Korean annex text: labels and legal references retained where accurate; A34911 formula content is not present in extracted Korean text and remains an explicit visual/source-artifact QA open item. Scanned all 1,687 Chinese rows for uncorrected MTQ/START/END markers and residual Hangul; zero uncorrected matches (all hits are already covered by corrections). This scan is a contamination check, not a substitute for full semantic comparison. Existing 402 corrections and source hashes preserved; family remains IN_PROGRESS, with 429 no-English rows requiring direct KO/ZH semantic audit and full sequential semantic certification still outstanding."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
