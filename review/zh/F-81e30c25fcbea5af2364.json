@@ -2674,6 +2674,24 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-2fe810db7d29.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
       "reason": "Restore missing enumeration marker 3 in Article 17(3); item 4 marker already present."
+    },
+    {
+      "id": "B2-zh-00025",
+      "source_hash": "93f1695901e515149920c0f54dd2a68c2d01c5fea9613a30c1912fd5544278cc",
+      "target_id": "2f2880bf42d00b39cbb353be42bf668c7f59669db1e5e05213e03e1e49b6600f",
+      "text": "第二十一条（竣工检查）\n① 项目实施者（国家及地方自治团体除外）依据本法第十六条第一款申请竣工检查时，应当向本法第十四条第二款规定的实施计划批准权人（以下简称“实施计划批准权人”）提交工程完工报告，并附上下列文件及图纸。<2017年9月19日修订>\n1. 竣工记录（包括竣工设计文件及竣工照片）\n2. 本法第十八条规定的智慧城市基础设施归属记录及图纸\n3. 竣工检查所需的其他文件\n② 实施计划批准权人收到第一款规定的工程完工报告后，应当立即进行竣工检查。\n③ 实施计划批准权人为有效进行竣工检查，必要时可以委托有关行政机关、《公共机构运营法》规定的公共机构、研究机构或其他专业机构等进行竣工检查。\n④ 实施计划批准权人可以要求接收或管理工程完工报告所列公共设施的管理机关参加竣工检查；收到该请求的管理机关，除有特殊理由外，应当遵从该请求。\n⑤ 国家或地方自治团体完成智慧城市建设项目，或者第一款规定的项目实施者通过竣工检查时，应当在官方公报或地方公报上公告工程完工，并载明下列事项。<2017年9月19日修订>\n1. 项目名称\n2. 项目实施者\n3. 项目实施区域的位置\n4. 竣工日期\n5. 已竣工的智慧城市基础设施及智慧城市服务的内容\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-2fe810db7d29.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Correct false reference to a nonexistent Smart City Infrastructure Act and translate 사업의 명칭 as project name, not company name."
+    },
+    {
+      "id": "B2-zh-00027",
+      "source_hash": "efe4deb8b4b315678f2abf7536b1f31c9e803daa4e4fb282e76a9ba0c73d1c48",
+      "target_id": "d1f1d83bbed74f687efad537dc8ab2a81d6c99229edab5367538547c4b1f9a21",
+      "text": "第二十二条之二（促进智慧城市服务相关信息的流通）\n① 智慧城市基础设施管理机关依据本法第十九条之二第一款拟提供信息时，应当在该机关的互联网主页公开该信息的目录及概要等。<2017年9月19日修订>\n② 本法第十九条之二第二款规定的手续费，由智慧城市基础设施管理机关在实际费用范围内确定，并应将其内容在官方公报或地方公报上公告，同时在该机关的互联网主页上公告。<2017年9月19日修订>\n③ 智慧城市基础设施管理机关在利用智慧城市服务相关信息符合下列任一情形时，可以免收手续费。<2017年9月19日修订>\n1. 国家或地方自治团体将该信息用于其业务时\n2. 教育、研究机构将该信息用于教育研究时\n④ 缴纳手续费的对象属于《小工商业基本法》第二条规定的小工商业者或《中小企业基本法》第二条规定的中小企业者，且智慧城市基础设施管理机关认为为减轻该对象的经济负担或支持经营稳定等有必要减免手续费时，可以减免手续费。<2024年9月3日新增>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-2fe810db7d29.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Restore the truncated second exemption case and the entirety of paragraph ④; preserve the fee waiver/reduction distinctions."
     }
   ],
   "adjudicated_edit_count": 288,
@@ -7876,12 +7894,13 @@
     "2026-11-08 C02 continuation: additionally compared B2 rows 00033, 00037, 00038, 00039, 00041, 00042 and 00044 directly against the Korean source; no clear material mistranslation confirmed, so existing text retained.",
     "2026-11-08 C02 continuation: four further source-grounded corrections in B2 rows 00046, 00049, 00052 and 00058 (consistent 总体规划师 terminology; 普通日报; 行政预告; correct 国土规划及利用法 citation). Also compared rows 00048, 00050, 00053, 00054, 00056 and 00059-00063 and retained existing text where no clear material error was confirmed.",
     "2026-11-08 C02 continuation: four direct Korean-source corrections in B2 rows 00001, 00003, 00011 and 00017: enforcement decree title/Act title, statutory Intelligent Informatization Basic Act name, and planning-authority plus Article 9-2(4) references. Existing prior edits preserved.",
-    "2026-11-08 C02 continuation: corrected missing item marker 3 in B2-zh-00020 (Article 17(3)); compared B2 rows 00002, 00005-00009, 00012-00014, 00019 and 00022 against Korean source and retained text."
+    "2026-11-08 C02 continuation: corrected missing item marker 3 in B2-zh-00020 (Article 17(3)); compared B2 rows 00002, 00005-00009, 00012-00014, 00019 and 00022 against Korean source and retained text.",
+    "2026-11-08 C02 continuation: corrected B2-zh-00025 (wrong law reference and project name) and B2-zh-00027 (truncated second exemption and omitted full paragraph ④). Also reconciled prior accepted corrections for B2-zh-00020, 00029, 00032, 00034, 00035 and 00036, and compared 00023-00024."
   ],
   "integration_progress": {
-    "stage": "B2_ARTICLE17_ENUMERATION_RECONCILED",
+    "stage": "B2_ARTICLES_17_TO_27_2_RECONCILED",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:2fe810db7d29",
-    "note": "Restored the omitted third subparagraph marker in B2 Article 17(3). Continue with following B2 rows; full-family ordered read remains IN_PROGRESS."
+    "note": "Corrected B2-zh-00025 and 00027; retained and reconciled prior accepted corrections on adjacent rows. Continue B2 statutory sequence. Whole family remains IN_PROGRESS."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -8245,7 +8264,17 @@
     "B2-zh-00013",
     "B2-zh-00014",
     "B2-zh-00019",
-    "B2-zh-00022"
+    "B2-zh-00022",
+    "B2-zh-00020",
+    "B2-zh-00023",
+    "B2-zh-00024",
+    "B2-zh-00025",
+    "B2-zh-00027",
+    "B2-zh-00029",
+    "B2-zh-00032",
+    "B2-zh-00034",
+    "B2-zh-00035",
+    "B2-zh-00036"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
