@@ -1,0 +1,36 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-c2b35f6aceb6477e1107",
+  "worker": "C04",
+  "assignment_marker": "068afd87678f",
+  "status": "IN_PROGRESS",
+  "source_blob_shas": {
+    "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
+    "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
+    "zh": "f8879f4a12299069e4831b03f15a2a2fa30c8089"
+  },
+  "document_count": 15,
+  "zh_rows": 1241,
+  "english_reference_rows": 911,
+  "english_without_reference": 330,
+  "prior_edits": 215,
+  "added_ids": [
+    "A14111-zh-00047",
+    "A14111-zh-00053",
+    "A14111-zh-00063"
+  ],
+  "total_edits": 218,
+  "review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
+  "review_commit": "14c63e58189013cd38a6404baa90042374066453",
+  "prior_correction_confirmed": {
+    "id": "A14111-zh-00054",
+    "correct_value": "1) 预处理水产品（经清洗、分拣及切割等加工后，可直接用于烹饪的食材）"
+  },
+  "read_stages_complete": {
+    "korean": false,
+    "english": false,
+    "chinese": false
+  },
+  "complete_receipt": false,
+  "note": "Source-checked water products section of A14111: repaired three adjacent terms/lettering; prior corrected row 54 preserved. No full sequential language reading or full-row validation asserted."
+}
