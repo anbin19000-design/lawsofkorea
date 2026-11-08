@@ -15,8 +15,8 @@
   "source_rows": 2925,
   "checked_rows": 2925,
   "corrected_rows": 2758,
-  "edits_count": 2746,
-  "unchanged_rows": 179,
+  "edits_count": 2758,
+  "unchanged_rows": 167,
   "document_edit_counts": {
     "B1": 18,
     "B2": 95,
@@ -13857,5 +13857,5 @@
     }
   ],
   "status": "COMPLETE",
-  "note": "C04全量审查完成：34份韩文文件、2,925条中文行及可用的B1/B2完整英文资料均按序检查。保留原有2,746项唯一修正，并追加A12193表单中发现的明显术语及机翻碎片修正；原始文件及source blob SHA未改动。"
+  "note": "C04 completed the full ordered review of all 34 family documents and 2,925 Chinese rows. Full Korean sources were read in order; available English full texts B1 and B2 were read in order; the remaining 32 documents had no independent full English text and were checked directly against Korean and Chinese. The canonical review preserves prior corrections and contains 2,758 unique, nonblank edits. Final validation found no duplicate or unknown edit IDs, blank edits, residual MTQ markers, untranslated Korean, or English source fragments. All source blob SHAs match the assignment; original source files were not modified."
 }
