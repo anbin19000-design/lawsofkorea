@@ -1,0 +1,59 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "status": "IN_PROGRESS",
+  "checked_rows": 4,
+  "corrected_rows": 4,
+  "edits": [
+    {
+      "id": "A23947-zh-00175",
+      "text": "B. 对产地拍卖师的行政处分"
+    },
+    {
+      "id": "A23947-zh-00196",
+      "text": "2) 扰乱批发市场上市水产品价格评估的情况"
+    },
+    {
+      "id": "A23947-zh-00216",
+      "text": "扰乱定价交易、协议交易等价格协商的情况"
+    },
+    {
+      "id": "A23947-zh-00228",
+      "text": "本法第十四条第二款第一项至第四项"
+    }
+  ],
+  "judgments": [
+    {
+      "id": "A23947-zh-00175",
+      "decision": "EDIT",
+      "source_hash": "06ac2658ad6435a4bc2dbb7a8856649b84edd756d04984a56f81e94f73e8d312",
+      "basis": "별표 산지경매사에 대한 행정처분에서 山区(산악 지역) 오역"
+    },
+    {
+      "id": "A23947-zh-00196",
+      "decision": "EDIT",
+      "source_hash": "5b957784f36ce21b1a541c66e57325b48a40837d5b558a2a4bb0e543431c1998",
+      "basis": "별표 위판장에 상장한 수산물의 가격평가를 문란하게 한 경우라는 위반행위 뜻의 누락"
+    },
+    {
+      "id": "A23947-zh-00216",
+      "decision": "EDIT",
+      "source_hash": "3b3160105fc5acf4b95ecd6a76128997dc697ea9ba5773f2af0a80cb1f3eb69c",
+      "basis": "별표 정가매매ㆍ수의매매 등 가격협의를 문란하게 한 경우의 오역"
+    },
+    {
+      "id": "A23947-zh-00228",
+      "decision": "EDIT",
+      "source_hash": "20aaedb069955a8da8a7df2e3c4740e977f22a06606152138416098573096668",
+      "basis": "별표 법 제14조제2항제1호부터 제4호까지는 본법 인용"
+    }
+  ],
+  "source_sha": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c",
+    "en": "32423453da2fcfa466c97946520181a32643e289"
+  },
+  "english_status": "NO_DOCUMENT_ENGLISH",
+  "note": "Annex Korean table comparison; preserve the remaining table cells and previous 88 edits."
+}
