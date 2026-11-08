@@ -2,7 +2,7 @@
   "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-7423351d4946866bbacf",
   "worker": "C01",
-  "checked_rows": 77,
+  "checked_rows": 80,
   "edits": [
     {
       "id": "B1-zh-00065",
@@ -1107,10 +1107,22 @@
     {
       "id": "B1-zh-00051",
       "text": "第四十六条（促进水产品标准化）\n①海洋水产大臣可以确定贸易商品和鱼箱等的规格，以提高水产品的商品性，提高分销效率，促进公平贸易。\n② 海洋水产大臣可要求或建议水产品分销商生产和使用符合交易商品规格的设备，使用符合规格的包装，并为此目的扩大必要的分销设施和设备，以促进水产品的标准化，并可为此提供必要的支持。\n③ 海洋水产部长可向参与促进渔业产品标准化的人员提供优惠措施，例如优先支持渔业政策资金。\n④ 第1款规定的贸易品类型、规格等事项，由海洋水产部条例规定。\n\n"
+    },
+    {
+      "id": "B1-zh-00006",
+      "text": "第四条（与其他法律的关系）本法在渔业产品分配的管理和支持方面优先于其他法律。\n\n第二章 水产品流通发展计划等\n\n"
+    },
+    {
+      "id": "B1-zh-00015",
+      "text": "第十三条（鱼市经营者的职责）\n① 为保障水产品生产者和交易者的利益以及保护消费者的权益，鱼市经营者应当实施下列事项。\n1. 鱼市设施的维护、改进和卫生管理\n2. 建立公平交易秩序\n3. 促进保鲜措施，例如标准化、包装改进和冷链配送，以提高海产品质量\n4. 促进和支持生产区域批发商的交易\n② 鱼市经营者应当制定并实施投资计划和质量改进等措施，以有效执行第1款各分项所列事项。\n③ 鱼市经营者应当根据鱼市的规模和交易量，从产地指定批发商。\n\n"
+    },
+    {
+      "id": "B1-zh-00056",
+      "text": "第51条（水产品流通信息化项目）\n① 海洋水产大臣可支持以下与渔业产品流通信息化相关的项目，以提高渔业产品流通效率，并通过顺畅地收集、管理和提供渔业产品流通信息来促进电子商务。\n1. 渔业产品分销系统信息化系统的建立与推广\n2. 建立水产品分销设施（如鱼市）信息管理系统\n3. 建立和推广到货、发货、库存和店铺管理系统，以提高海鲜门店的配送效率\n4. 渔业产品分销标准化标准代码的制定和推广\n5. 建立和推广用于电子水产品交易的系统，例如电子水产品交易市场（包括电子水产品交易设备及其配套的物流中心等辅助设施；以下简称“电子水产品交易市场”）。\n6. 促进渔业产品流通信息或流通信息系统的标准化\n7. 渔业产品分销信息化教育推广项目实施\n8. 其他为促进渔业产品分销信息化所必需的项目\n② 海洋水产大臣可在预算范围内，向海洋水产部条例规定的渔业产品分销经营者或渔业相关组织提供必要的支持，以开展第1款各分项所列项目。\n\n"
     }
   ],
   "status": "IN_PROGRESS",
-  "note": "IN_PROGRESS. 276 unique corrected rows; previous corrections preserved. Korean Act Arts 46 and 49 compared with exact-version official English: marketability is not market competitiveness, handling capacity is not processing amount. Original source SHA unchanged. All 1207 Chinese rows and annex/form source XML correspondence not semantically certified; COMPLETE receipt not issued.",
+  "note": "IN_PROGRESS. 279 unique edits, prior corrections preserved. Act Ch.2 heading: distribution development plan (not generic distribution etc); Art13 fair-trading order should be order/秩序 not order/命令; Art51(1)3 입하·출하 means arrivals and dispatches, not warehouse inbound/outbound. Original source SHA unchanged; full-family 1207 row semantic and annex/form XML alignment remains incomplete. No COMPLETE receipt.",
   "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
   "source_sha": {
     "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
