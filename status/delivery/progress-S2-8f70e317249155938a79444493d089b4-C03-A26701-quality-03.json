@@ -1,0 +1,275 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26701",
+  "quality_batch": "A26701-quality-03",
+  "range": {
+    "first": "A26701-zh-00051",
+    "last": "A26701-zh-00075"
+  },
+  "quality_checked_rows": 25,
+  "quality_passed_rows": 25,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "A26701-zh-00051",
+    "A26701-zh-00052",
+    "A26701-zh-00053",
+    "A26701-zh-00054",
+    "A26701-zh-00055",
+    "A26701-zh-00056",
+    "A26701-zh-00057",
+    "A26701-zh-00058",
+    "A26701-zh-00059",
+    "A26701-zh-00060",
+    "A26701-zh-00061",
+    "A26701-zh-00062",
+    "A26701-zh-00063",
+    "A26701-zh-00064",
+    "A26701-zh-00065",
+    "A26701-zh-00066",
+    "A26701-zh-00067",
+    "A26701-zh-00068",
+    "A26701-zh-00069",
+    "A26701-zh-00070",
+    "A26701-zh-00071",
+    "A26701-zh-00072",
+    "A26701-zh-00073",
+    "A26701-zh-00074",
+    "A26701-zh-00075"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26701-00001-00095.json",
+  "prior_quality_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26701-quality-02.json",
+  "results": [
+    {
+      "id": "A26701-zh-00051",
+      "source_hash": "22dbca15d2d9b9d7b8068524a957845972874b3f476cbfd058d70ccf9ad74e98",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "도지사·특별자치도지사·시장·군수·구청장 수신인"
+    },
+    {
+      "id": "A26701-zh-00052",
+      "source_hash": "90c592621154c95a8fb9b73dbe3665fd29f724a4f20758fa586607dc4c70ea07",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "도지사·특별자치도지사·시장·군수·구청장 수신인"
+    },
+    {
+      "id": "A26701-zh-00053",
+      "source_hash": "ef1661bfe1d0b773aea1bc51daf1dfa70e9d997454acf123165fd7df67dc959c",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "정관·임대차계약서·평면도·시설장 자격·직원명부·운영계획서 및 예산서 첨부서류"
+    },
+    {
+      "id": "A26701-zh-00054",
+      "source_hash": "7a9f7e9137d1b02b5ee900cfb4bcb118fe3f139955ef989f57a3e8481f0c8a28",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "정관·임대차계약서·평면도·시설장 자격·직원명부·운영계획서 및 예산서 첨부서류"
+    },
+    {
+      "id": "A26701-zh-00055",
+      "source_hash": "0313408cdf794fea03a1b1d6758e8ad6cc7c6a9f70b7256de98dafab6a45bf1a",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "정관·임대차계약서·평면도·시설장 자격·직원명부·운영계획서 및 예산서 첨부서류"
+    },
+    {
+      "id": "A26701-zh-00056",
+      "source_hash": "9b9f765e005f6811c5e986daa041057cea83f9af6c19ca7d70a7ef3c9ab707c9",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "정관·임대차계약서·평면도·시설장 자격·직원명부·운영계획서 및 예산서 첨부서류"
+    },
+    {
+      "id": "A26701-zh-00057",
+      "source_hash": "096e49fe016e4340d7bb42b47281cea6673c70383767682ddc8f4385c73fe662",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "정관·임대차계약서·평면도·시설장 자격·직원명부·운영계획서 및 예산서 첨부서류"
+    },
+    {
+      "id": "A26701-zh-00058",
+      "source_hash": "72ea3d64ace5bc9414498b815d4305c8867b0942a508179e0657ad60d1274daa",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "정관·임대차계약서·평면도·시설장 자격·직원명부·운영계획서 및 예산서 첨부서류"
+    },
+    {
+      "id": "A26701-zh-00059",
+      "source_hash": "407478cf41576521e993b7f10659d068a191186b1d0e647aec8b863fe3581e99",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "정관·임대차계약서·평면도·시설장 자격·직원명부·운영계획서 및 예산서 첨부서류"
+    },
+    {
+      "id": "A26701-zh-00060",
+      "source_hash": "b22e4d3e8f2818c2f914f3bb0a944293d7c58df11d8f1936c3330765339ba3b0",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "정관·임대차계약서·평면도·시설장 자격·직원명부·운영계획서 및 예산서 첨부서류"
+    },
+    {
+      "id": "A26701-zh-00061",
+      "source_hash": "aaca37e4a37deb7d59629d336a69c37050ed562c990b8680b474ee60429d37e2",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "정관·임대차계약서·평면도·시설장 자격·직원명부·운영계획서 및 예산서 첨부서류"
+    },
+    {
+      "id": "A26701-zh-00062",
+      "source_hash": "5df9740b236dafbc177ad3b378aa444fd8dc4efe290b45770ef2327d0e24385c",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "정관·임대차계약서·평면도·시설장 자격·직원명부·운영계획서 및 예산서 첨부서류"
+    },
+    {
+      "id": "A26701-zh-00063",
+      "source_hash": "b827c74bf8d6e87420e0f5fbb59551e36f9d2f125502ccc70f9f11139bd8294d",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "담당 공무원 확인사항, 법인·건물·토지 등기 및 건축물대장"
+    },
+    {
+      "id": "A26701-zh-00064",
+      "source_hash": "4236e13cff2fc275a6feae03a45c519bc07957a3eb60d3fa0f341e0a33dbcdba",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "담당 공무원 확인사항, 법인·건물·토지 등기 및 건축물대장"
+    },
+    {
+      "id": "A26701-zh-00065",
+      "source_hash": "3486a6087d87e50bcf758506b6bccde6b51fbf7497a643d5b3e1badc2149d5ff",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "담당 공무원 확인사항, 법인·건물·토지 등기 및 건축물대장"
+    },
+    {
+      "id": "A26701-zh-00066",
+      "source_hash": "1a5be3c5938c8c2cedf096bb1485ce5f53335572edc7c3dbbf132e7bf9927045",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "담당 공무원 확인사항, 법인·건물·토지 등기 및 건축물대장"
+    },
+    {
+      "id": "A26701-zh-00067",
+      "source_hash": "cfcfac7cdbc4a8edcd84a4eb4e42cedbd6fb2deb8c4b267fa7d0b4c0b3c14306",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "담당 공무원 확인사항, 법인·건물·토지 등기 및 건축물대장"
+    },
+    {
+      "id": "A26701-zh-00068",
+      "source_hash": "95feaec4b7c659e23eed05f185f0235114aaabc2fdbaf32a827a4f01ee9addf2",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "담당 공무원 확인사항, 법인·건물·토지 등기 및 건축물대장"
+    },
+    {
+      "id": "A26701-zh-00069",
+      "source_hash": "d783b555c92130e621ca7c660ddd7d2d06ead305d3c1b9eec9e388600dd300aa",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "동의하지 않을 경우 제출 자료 및 국가기술자격증"
+    },
+    {
+      "id": "A26701-zh-00070",
+      "source_hash": "d6333795ae9cf9160801f8a77c4b781b0d80002fe506471b4e3f88f83479bd90",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "동의하지 않을 경우 제출 자료 및 국가기술자격증"
+    },
+    {
+      "id": "A26701-zh-00071",
+      "source_hash": "d8e5229a3f6ca53573d3964a984afe1ac4fb444f74e51cf31361890ba177c373",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "동의하지 않을 경우 제출 자료 및 국가기술자격증"
+    },
+    {
+      "id": "A26701-zh-00072",
+      "source_hash": "4baca921dfdc66e9b39fe6f3b3f2265b183ca2b8aadaaec6171ac27845d02255",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "동의하지 않을 경우 제출 자료 및 국가기술자격증"
+    },
+    {
+      "id": "A26701-zh-00073",
+      "source_hash": "7a75dfb4f98958b7a32c3f19046d3b04a2959a4b408c360771276c41f7f9e542",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "전자정부법 제36조제1항에 따른 행정정보 공동이용 동의"
+    },
+    {
+      "id": "A26701-zh-00074",
+      "source_hash": "c9b10df2527127ea18b556946c54ecd34af4184b48195d70f5331c986474353a",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "전자정부법 제36조제1항에 따른 행정정보 공동이용 동의"
+    },
+    {
+      "id": "A26701-zh-00075",
+      "source_hash": "8039545810c56c1326e547bcc99867fb23d8932f3a5c8679eb13a813dd61ea19",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "전자정부법 제36조제1항에 따른 행정정보 공동이용 동의"
+    }
+  ],
+  "edits": [],
+  "note": "A26701 51~75행 수신기관·제출서류·공무원 확인사항·전자정부법 행정정보 공동이용 동의 구간 대조. 기존 교정과 행·원문 해시 보존, 가족 COMPLETE 아님."
+}
