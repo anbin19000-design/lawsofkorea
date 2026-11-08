@@ -1,0 +1,75 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-3705abbc710de4b867bc",
+  "worker": "C05",
+  "branch": "main",
+  "source_blobs": {
+    "ko": "7974bf81d14f4838ae85d4b3ceea80a2f0e65fed",
+    "zh": "045dd328cd77f3eecd8b6cd485be27f2389773e8"
+  },
+  "document_key": "A25281",
+  "document_source_hash": "ca931435b1a64e904be69a6b80ff968e3075ab68579abd97aec7275f25ff64bf",
+  "checked_ids": [
+    "A25281-zh-00001",
+    "A25281-zh-00002",
+    "A25281-zh-00003",
+    "A25281-zh-00004",
+    "A25281-zh-00005",
+    "A25281-zh-00006",
+    "A25281-zh-00007",
+    "A25281-zh-00008",
+    "A25281-zh-00009",
+    "A25281-zh-00010",
+    "A25281-zh-00011",
+    "A25281-zh-00012",
+    "A25281-zh-00013",
+    "A25281-zh-00014",
+    "A25281-zh-00015",
+    "A25281-zh-00016",
+    "A25281-zh-00017",
+    "A25281-zh-00018",
+    "A25281-zh-00019",
+    "A25281-zh-00020"
+  ],
+  "checked_rows": 20,
+  "adopted_edits": [
+    {
+      "id": "A25281-zh-00001",
+      "text": "■ 《消防设备管理法施行规则》[别纸第6号格式]"
+    },
+    {
+      "id": "A25281-zh-00002",
+      "text": "免除认证确认申请书"
+    },
+    {
+      "id": "A25281-zh-00003",
+      "text": "受理编号"
+    },
+    {
+      "id": "A25281-zh-00004",
+      "text": "受理日期和时间"
+    },
+    {
+      "id": "A25281-zh-00008",
+      "text": "营业登记号码"
+    },
+    {
+      "id": "A25281-zh-00009",
+      "text": "代表人"
+    },
+    {
+      "id": "A25281-zh-00014",
+      "text": "制造国名称"
+    },
+    {
+      "id": "A25281-zh-00016",
+      "text": "代理人"
+    },
+    {
+      "id": "A25281-zh-00017",
+      "text": "姓名"
+    }
+  ],
+  "status": "QUALITY_PARTIAL",
+  "note": "Compared A25281 form cells 1-20 with Korean original. Existing review correction for row 00005 (处理期限) retained and not duplicated. Corrected headings, receipt labels, representative and agent fields. This is not a COMPLETE family review."
+}
