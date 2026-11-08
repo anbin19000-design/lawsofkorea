@@ -1,0 +1,24 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-31334bc4303ae2cb3d80",
+  "worker": "C06",
+  "status": "IN_PROGRESS",
+  "ko_sha": "d6d795ff1ece4a82663a83efd46f7f73afa7fbbb",
+  "zh_sha": "7a6d1e8d841fb3b27185d6d4a6b811149d604dc0",
+  "prior_progress_path": "review/zh/F-31334bc4303ae2cb3d80-C06-progress-26.json",
+  "prior_progress_sha": "91b2b2debb311c604ebd64e2c10cc865aef9d234",
+  "checked": [
+    {
+      "id": "A22642-zh-00033",
+      "target_id": "XML:1607371",
+      "source_hash": "0c243e373da2082e1321b0abc85d68e86b7325c94042b2e4c6bf088dcbf40da6",
+      "korean_context": "[별지 제10호서식] 원자력안전위원회 귀중",
+      "original_text": "核安全委员会",
+      "candidate_text": "核安全与安保委员会",
+      "final_text": "核安全委员会",
+      "verdict": "REJECT_CANDIDATE_KEEP_ORIGINAL",
+      "reason": "한국어 원문 수신기관은 원자력안전위원회. 기존 중국어 '核安全委员会'가 대응하며, progress-26 후보가 추가한 '与安保'는 원문에 없는 기관명 변경이다. 최종 통합 edits에서 이 ID의 후보 교정문을 제외하고 원문을 유지해야 한다."
+    }
+  ],
+  "note": "Adjudicated an erroneous prior proposed change using current Korean annex text and the original Chinese row. Preserve prior records; not COMPLETE."
+}
