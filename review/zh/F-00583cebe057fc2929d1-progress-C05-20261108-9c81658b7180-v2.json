@@ -1,0 +1,41 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "family": "실용신안법",
+  "worker": "C05",
+  "assignment_marker": "[WORK-TASK:C05:F-00583cebe057fc2929d1:9c81658b7180]",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "1d24cb6d31338c888a1ff1fdbcbd96bb54606b10",
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "prior_corrections": 232,
+  "new_corrections": [
+    {
+      "id": "B1-zh-00066",
+      "source_hash": "b77e55c97d3cc2c359edcbb7f289fe0ea5a251c0c86b0e4dc0de793288eb7e12",
+      "decision": "CORRECT",
+      "reason": "제51조제1항 및 동일 버전 공식 영문의 confiscation OR judgment to deliver upon victim request에 맞게 피해자 청구 조건이 교부에만 걸리도록 정정."
+    },
+    {
+      "id": "B1-zh-00079",
+      "source_hash": "e0719611bd9d7a69c8c9ba6b8bbc9040558e4b27545061c0e9f905116b29b21c",
+      "decision": "CORRECT",
+      "reason": "부칙 제5조 '심사ㆍ심판ㆍ재심 및 소송'의 심판을 일반 상소(上诉)로, 재심을 재심사(复审)로 오역한 부분을 법적 절차 용어로 정정."
+    }
+  ],
+  "total_corrections": 234,
+  "pending_rows_preserved": 89,
+  "reading_status": "FULL_KO_EN_ZH_SEQUENTIAL_READING_NOT_VERIFIED",
+  "english_note": "B1/B2 same-version official EN; rule/forms old-version English only.",
+  "completion_receipt": null,
+  "notes": "Same assignment continuation: Article 51 confiscation/delivery scope and supplementary transitional trial/retrial 2 rows corrected. All originals and 232 prior corrections preserved. No COMPLETE."
+}
