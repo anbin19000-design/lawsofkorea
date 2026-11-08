@@ -35,8 +35,21 @@
       "annexes_and_forms": {
         "status": "IN_PROGRESS",
         "documents": 62,
-        "next_document": "A30229",
-        "completed_documents": 0
+        "completed_documents": 10,
+        "last_completed": "A11338",
+        "next_document": "A11339",
+        "completed_keys": [
+          "A30229",
+          "A30230",
+          "A30231",
+          "A30232",
+          "A30233",
+          "A11335",
+          "A11336",
+          "A11337",
+          "A11338",
+          "A11339"
+        ]
       }
     },
     "english": {
@@ -63,5 +76,5 @@
     "edits": 0,
     "checked_unique_ids": 0
   },
-  "note": "Resumed from source blobs recorded in official C02 active assignment. Contents API returned empty body for EN/ZH source files; exact SHA blobs were fetched and parsed successfully. Prior progress/review files for this job were not located in current main branch by exact-path lookup or repository code search. No source file modified. Do not infer missing source from empty Contents body. Continue Korean full-family sequential reading, then all available English full texts, then Chinese rows in source order. 689 rows have no linked English coverage, across documents without English references; mark English-unavailable and continue KO/ZH comparison.  B1 and B2 Korean source texts read completely; B3 Korean source reading has begun. No review edits made before completion of the required KO->EN->ZH reading order. Completed B3 Korean full text sequentially (39,904 chars). Started connected annex/form family; no review edits yet. Source hashes remain unchanged."
+  "note": "Resumed from source blobs recorded in official C02 active assignment. Contents API returned empty body for EN/ZH source files; exact SHA blobs were fetched and parsed successfully. Prior progress/review files for this job were not located in current main branch by exact-path lookup or repository code search. No source file modified. Do not infer missing source from empty Contents body. Continue Korean full-family sequential reading, then all available English full texts, then Chinese rows in source order. 689 rows have no linked English coverage, across documents without English references; mark English-unavailable and continue KO/ZH comparison.  B1 and B2 Korean source texts read completely; B3 Korean source reading has begun. No review edits made before completion of the required KO->EN->ZH reading order. Completed B3 Korean full text sequentially (39,904 chars). Started connected annex/form family; no review edits yet. Source hashes remain unchanged. Sequential Korean annex/form reading progressed through the first ten connected documents (A30229-A11339); continue from A11340. No translation edits have been applied."
 }
