@@ -1,0 +1,39 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_RECEIPT_V1",
+  "job_id": "F-0e85eccd3114729a4e48",
+  "family_id": "F-0e85eccd3114729a4e48",
+  "title": "수산종자산업육성법",
+  "worker": "C04",
+  "panel_id": "panel-04",
+  "pc": "WORK-C",
+  "branch": "main",
+  "source_commit": "88dc2efccaffe36fc3ec0b83f3f6a64a8b45fec4",
+  "source_blobs": {
+    "en": "6e1e1fafe1ce67a3ff6a7b762ebc5d7b678d4b8b",
+    "ko": "7a73f0fd20ea34126bcaa28cb6d800668ba02f87",
+    "zh": "6893de556d097781e2fbfee0ca8662250e56787d"
+  },
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "documents_checked": 46,
+  "checked_rows": 2809,
+  "corrected_rows": 603,
+  "english_exact_documents": 2,
+  "english_fallback_documents": 0,
+  "english_missing_exact_document_count": 44,
+  "english_unmatched_rows": 253,
+  "review_file": "review/zh/F-0e85eccd3114729a4e48.json",
+  "review_blob_sha": "2814c5bb5b48a0608a204267656b054f1031b893",
+  "review_status": "COMPLETE",
+  "previous_progress": "review/zh/F-0e85eccd3114729a4e48-progress-3f5c50c981ca-merged-qa.json",
+  "verification": {
+    "review_file_reread": true,
+    "source_sha_preserved": true,
+    "all_active_edits_match_source_rows": true,
+    "no_blank_edit_text": true,
+    "no_machine_translation_markers": true,
+    "original_sources_unchanged": true,
+    "document_keys_contiguous": true,
+    "all_59_conflicts_reconciled": true
+  },
+  "status": "COMPLETE"
+}
