@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 620,
+    "verified_zh_rows": 700,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 620,
-      "checked_rows": 620,
+      "next_row_zero_based": 700,
+      "checked_rows": 700,
       "total_rows": 5228
     }
   },
@@ -883,9 +883,57 @@
       "text": "江原特别自治道横城郡横城邑永永浦里 ～ 江原特别自治道洪川郡西石面丰岩里",
       "original_text": "江原道横城郡横城邑永龙浦里 ～ 江原道洪川郡西石面丰岩里",
       "reason": "강원특별자치도 행정구역명 및 지명 오역"
+    },
+    {
+      "id": "A28845-zh-00077",
+      "text": "全南光州综合特别市灵光郡法圣面龙德里 ～ 全南光州综合特别市灵光郡法圣面华川里",
+      "original_text": "永德里，法城面，灵光郡，光州综合特别市 ～ 华川里，法城面，灵光郡，光州综合特别市，全罗南道",
+      "reason": "地名顺序倒置且旧行政区划名称残留"
+    },
+    {
+      "id": "A28845-zh-00079",
+      "text": "全南光州综合特别市高敞郡雅山面三仁里 ～ 全南光州综合特别市高敞郡公音面长谷里",
+      "original_text": "全南光州光州综合特别市高敞郡牙山面三民里 ～ 全南光州光州综合特别市高敞郡宫金面长谷里",
+      "reason": "行政区划名称重复及面、里名称误译"
+    },
+    {
+      "id": "A28845-zh-00081",
+      "text": "全南光州综合特别市顺天市舟岩面仓村里 ～ 全南光州综合特别市顺天市西面鹤邱里",
+      "original_text": "全罗南道光州市顺天市朱岩面昌村里 ～ 全罗南道光州市西面顺天市九里",
+      "reason": "行政区划名称过时且第二地点行政层级与地名顺序错乱"
+    },
+    {
+      "id": "A28845-zh-00085",
+      "text": "全南光州综合特别市新安郡荏子面真里 ～ 全南光州综合特别市务安郡海际面柳月里",
+      "original_text": "全罗南道光州新安郡林子面真里 ～ 全罗南道光州务安郡海济面柳月里",
+      "reason": "旧行政区划名称残留及地名音译错误"
+    },
+    {
+      "id": "A28845-zh-00103",
+      "text": "全南光州综合特别市高兴郡锦山面乌川里 ～ 全南光州综合特别市高兴郡锦山面大兴里",
+      "original_text": "全罗南道光州特别市高兴郡锦山面乌川里 ～ 全罗南道光州特别市高兴郡锦山面大兴里",
+      "reason": "旧行政区划名称残留"
+    },
+    {
+      "id": "A28845-zh-00118",
+      "text": "编号30",
+      "original_text": "问题 30",
+      "reason": "표의 노선 번호를 ‘문제’로 오역"
+    },
+    {
+      "id": "A28845-zh-00123",
+      "text": "全北特别自治道任实郡康津面龙水里 ～ 全北特别自治道任实郡德治面回门里",
+      "original_text": "龙水里，江津面，临实郡，全北特别自治道 ～ 回门里，德智面，临实郡，全北特别自治道",
+      "reason": "지명·행정구역의 순서가 뒤바뀌고 면 명칭이 오역됨"
+    },
+    {
+      "id": "A28845-zh-00127",
+      "text": "江原特别自治道杨口郡南面（杨口邑）松清里 ～ 江原特别自治道杨口郡东面林塘里",
+      "original_text": "江原道阳口郡南面(阳口邑)松清里～江原道阳口郡东面林堂里",
+      "reason": "강원특별자치도 신 행정구역명 누락"
     }
   ],
-  "note": "Sequential Chinese review continued through original row 619, including first portion of Annex 1 (delegated national-road sections). Added 12 corrections for 2026 Jeonnam-Gwangju Integrated Special City and Gangwon Special Self-Governing Province names, malformed place order, and obvious place-name transliteration errors. Previous 110 edits retained. Continue from row 620. IN_PROGRESS.",
+  "note": "Sequential Chinese review continued through original row 699 of Annex 1. Added eight corrections for Jeonnam-Gwangju and Gangwon/Jeonbuk administrative names, garbled road-section place order/transliterations, and table row label mistranslation. Previous 122 edits retained. Continue from row 700. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
