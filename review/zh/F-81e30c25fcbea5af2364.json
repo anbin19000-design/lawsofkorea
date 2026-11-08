@@ -2386,6 +2386,15 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-0fb8b7cbc86e.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
       "reason": "韩文“준공검사를 받았을 때”表示项目实施者通过竣工检查，不是收到竣工验收报告；中文原译将法律条件和法律效果均误译为收到报告，作最小语义修正。"
+    },
+    {
+      "id": "B1-zh-00024",
+      "text": "第十八条（公共设施的归属）\n① 项目实施方安装的智慧城市基础设施，如在实施方案中指定为无偿移交，则该基础设施应视为公共设施，并参照适用《国家土地规划利用法》第六十五条的规定。<2017年3月21日修订>\n② 第1款所述公共设施，除本法或其他法律另有规定外，由特别市、广域市、特别自治市、特别自治省、市或县的市长管理，直至竣工后移交管理机关。但特别市或广域市市长事先征得辖区内区政府（指自治区）负责人的意见后，可由该区政府负责人管理。<2012年5月23日修订>\n③ 除第1款和第2款规定的以外，有关公共设施的归属和管理的事项，由总统令规定。\n\n",
+      "source_hash": "b7346b54da58698398da5fc7c9efe2f9a946569385367cd9f581c79ce7f56b15",
+      "target_id": "6d8356cfd2725c6f1af28adcd1abec92e62d3df162d546d575c56825a31d30a3",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-0fb8b7cbc86e.json",
+      "verification": "C02_DIRECT_KOREAN_LEGAL_TERM_COMPARISON",
+      "reason": "韩文“귀속”在本条指公共设施在竣工后归属/移交给管理机关，并非设施所有权概念；仅将标题“所有权”改为“归属”，保留正文原译。"
     }
   ],
   "adjudicated_edit_count": 288,
@@ -7572,12 +7581,13 @@
     "Preserve historical source, independent progress records and original translation. No completion claim.",
     "Existing stored adjudications and later progress files must be incorporated with source/hash verification before COMPLETE.",
     "2026-11-08 C02 continuation: corrected B1 title terminology only. Article 2, Article 3(1)(6), and Article 3-2 corrections were already integrated; no duplicates added.",
-    "2026-11-08 C02 continuation: B1-zh-00023 corrected against Korean original. Other reviewed nearby rows have prior integrated corrections or no confirmed material error; no duplicate edits."
+    "2026-11-08 C02 continuation: B1-zh-00023 corrected against Korean original. Other reviewed nearby rows have prior integrated corrections or no confirmed material error; no duplicate edits.",
+    "2026-11-08 C02 continuation: corrected B1-zh-00024 heading terminology only; retained the existing body translation."
   ],
   "integration_progress": {
-    "stage": "B1_ARTICLE17_COMPLETION_INSPECTION_CONDITION_RECONCILED",
+    "stage": "B1_ARTICLE18_VESTING_TERM_RECONCILED",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:0fb8b7cbc86e",
-    "note": "B1 Article 17(2) corrected: passing completion inspection is not receipt of an inspection report. Whole family remains IN_PROGRESS."
+    "note": "B1 Article 18 title corrected from ownership to public-facility vesting/attribution. Whole family remains IN_PROGRESS."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -7884,7 +7894,8 @@
     "B1-zh-00009",
     "B1-zh-00020",
     "B1-zh-00001",
-    "B1-zh-00023"
+    "B1-zh-00023",
+    "B1-zh-00024"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
