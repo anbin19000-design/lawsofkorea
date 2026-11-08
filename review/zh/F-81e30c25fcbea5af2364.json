@@ -250,11 +250,12 @@
     },
     {
       "id": "B2-zh-00097",
-      "text": "第三条（修改其他法律）①至⑩ 省略\n\n  ⑪ 《普适城市建设等法》施行令部分修改如下。\n\n  第八条第一款第一项中，“根据《信息化促进框架法》第五条制定的信息化促进基本计划”应改为“根据《国家信息化框架法》第六条制定的国家信息化基本计划”。\n\n  ⑫ 至 <19> 省略\n\n",
       "source_hash": "2c489003af08c1cfb7a07476b03864265f0ffa875cef5829298b84f36b124043",
       "target_id": "b3cdd2cd8d763c92f8b9ba28c9b875c1ec6ccc0746f6e5132a2762fb8efdfbeb",
-      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-fc3b2d940841-decree-supplementary.json",
-      "verification": "C02_RECORDED_KOREAN_COMPARISON"
+      "text": "第三条（其他法令的修订）第一项至第十项省略。\n\n第十一项 对《普适城市建设等相关法律施行令》作如下部分修订。\n\n将第八条第一款第一项中的“依据《信息化促进基本法》第五条制定的信息化促进基本计划”修改为“依据《国家信息化基本法》第六条制定的国家信息化基本计划”。\n\n第十二项至第十九项省略。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-66b0b614d7aa.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Restore omitted circled item ⑪ and correct instrument title and Act title terminology."
     },
     {
       "id": "B2-zh-00101",
@@ -2723,6 +2724,33 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-66b0b614d7aa.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
       "reason": "Use 附则 for 부칙 and render the title as the Enforcement Decree of the Special Act on Designation and Management of Free Economic Zones."
+    },
+    {
+      "id": "B2-zh-00093",
+      "source_hash": "fee5a75e37f0f8fd850d700c74fc75b247309b3e852b9660dbff34785a4b50f8",
+      "target_id": "f5ad17bd22d00ec0c8be4a4262411e9db9e62f53b7176cd26b4497681aefcd48",
+      "text": "第二条（其他法令的修订）第一项至第九项省略。\n\n第十项 对《普适城市建设等相关法律施行令》作如下部分修订。\n\n将第七条第六项及第十七条第四款第一项中的“《经济自由区指定及运营法》”分别修改为“《经济自由区指定及运营特别法》”。\n\n第十一项至第十五项省略。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-66b0b614d7aa.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Correct the instrument type from Enforcement Decree to Act enforcement decree."
+    },
+    {
+      "id": "B2-zh-00094",
+      "source_hash": "9c7abb220a207f9f355b53824d5306e6d3070945531d1bac3f6ae6e814548f86",
+      "target_id": "4d6f0f310ee8959e31270cea8e3acc827da922342bf43b7976ca1b6dbba70007",
+      "text": "附则（《国家信息化基本法施行令》）<第21698号，2009年8月21日>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-66b0b614d7aa.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Use 附则 for 부칙 and accurately identify the Enforcement Decree of the Framework Act on National Informatization."
+    },
+    {
+      "id": "B2-zh-00099",
+      "source_hash": "73a3aae3bf2ea02ab379f387ac9d9f7998771a805eb0371493f6e25fd59619f9",
+      "target_id": "4eb1bf3241c964723d7c01cf6a5c431c51f509bfba7c65b47753375bc9662c96",
+      "text": "附则（《港口法施行令》）<第21882号，2009年12月14日>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-66b0b614d7aa.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Use 附则 for 부칙 and the correct Enforcement Decree instrument name."
     }
   ],
   "adjudicated_edit_count": 288,
@@ -7930,12 +7958,13 @@
     "2026-11-08 C02 continuation: refined existing B2-zh-00040 edit to restore paragraph markers ④ and ⑥-⑧ and item punctuation; reconciled prior edits for B2-zh-00043, 00045, 00051 and 00055; checked B2-zh-00047 and retained translation.",
     "2026-11-08 C02 continuation: corrected B2 rows 00057, 00066, 00071, 00072, 00076, 00077 and 00079; restored omitted paragraph numbering and corrected false statutory references, truncated/merged clauses and delegation terminology. Rows 00064, 00065, 00068, 00080 and 00081 were compared and retained.",
     "2026-11-08 C02 continuation: corrected B2 rows 00069, 00070, 00075, 00082 and 00084; corrected implementation-period terminology, paragraph numbering, delegated-agency statute/name and historical supplementary amendment terminology. Rows 00083, 00085 and 00086 compared and retained.",
-    "2026-11-08 C02 continuation: corrected B2 rows 00089 and 00091 in historical amendment supplements (Enforcement Decree title and official institution name; supplement terminology). Rows 00087, 00088, 00090 and 00092 compared and retained."
+    "2026-11-08 C02 continuation: corrected B2 rows 00089 and 00091 in historical amendment supplements (Enforcement Decree title and official institution name; supplement terminology). Rows 00087, 00088, 00090 and 00092 compared and retained.",
+    "2026-11-08 C02 continuation: corrected B2 rows 00093, 00094, 00097 and 00099 in 2009 amendment supplements (Enforcement Decree instrument title, supplementary-provision label, National Informatization Act title and missing item marker). Rows 00095, 00096 and 00098 compared and retained."
   ],
   "integration_progress": {
-    "stage": "B2_HISTORICAL_SUPPLEMENTS_2009_RECONCILED",
+    "stage": "B2_HISTORICAL_SUPPLEMENTS_2009_TO_2009_DEC_RECONCILED",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:66b0b614d7aa",
-    "note": "Corrected historical supplementary amendment rows B2-zh-00089 and 00091; adjacent effective-date and omission rows retained. Whole-family status remains IN_PROGRESS."
+    "note": "Corrected B2-zh-00093, 00094, 00097 and 00099; neighboring dates and omitted sections retained. Whole family remains IN_PROGRESS."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -8341,7 +8370,14 @@
     "B2-zh-00087",
     "B2-zh-00088",
     "B2-zh-00090",
-    "B2-zh-00092"
+    "B2-zh-00092",
+    "B2-zh-00093",
+    "B2-zh-00094",
+    "B2-zh-00097",
+    "B2-zh-00099",
+    "B2-zh-00095",
+    "B2-zh-00096",
+    "B2-zh-00098"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
