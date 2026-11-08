@@ -2485,6 +2485,33 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-2b569e8b1d3b.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
       "reason": "韩文修法内容明确新增“산지일시사용허가ㆍ신고”（山地临时使用许可及申报）；原中文仅译出许可，遗漏申报这一并列法律行为，现补齐。"
+    },
+    {
+      "id": "B1-zh-00046",
+      "text": "第三十三条（认证的撤销）国土交通大臣可按照总统令规定，在根据第三十二条第一款取得认证者符合下列任一情形时撤销其认证。但符合第1项情形时，必须撤销该认证。\n1. 以虚假或其他不正当方法取得认证\n2. 不再符合第三十二条第二款规定的认证标准\n\n",
+      "source_hash": "3ef26c1eee822b2d1040336191ae77ee44155d668927dc50819696ed2de3d41a",
+      "target_id": "8d317ea27396c6eb5bf42f5f65bdc672ac349029e4d1bb16017a5afd0ce67d44",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c58770c05671.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "韩文“제1호”指第1项（第一项事由），并非“第一款”；原译将必须撤销认证的强制条件误写为第一款，且“인증”应为认证而非证书。"
+    },
+    {
+      "id": "B1-zh-00057",
+      "text": "第四十条（无人驾驶飞行装置的特别规定）在国家试点城市内，拟为研究、开发或治安、国防、安全目的使用《航空安全法》第二条第三项所规定的超轻型飞行装置中的无人驾驶飞行装置者，如已按照该法第一百二十二条办理超轻型飞行装置申报，则视为已取得该法第九条第一款第四项但书规定的批准，但仅限于国土交通部长官事先与《军事基地及军事设施保护法》第八条第二款所规定的主管部队指挥官等协商确定的区域。\n\n",
+      "source_hash": "c5e07eda8447359d69e8281253331a84cee9926cec1b4bc4ea0c2c912702ea6a",
+      "target_id": "d0d7ad75325d2b42f203abbab671fe80651257b919c970d48d2224632156e75b",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c58770c05671.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "韩文「항공안전법 제2조제3호」是第二条第三项/第三号定义，不是第二条第三款；同时「초경량비행장치」是超轻型飞行装置，不是飞机。"
+    },
+    {
+      "id": "B1-zh-00058",
+      "text": "第四十一条（参与软件业务的特别规定）\n① 国家、地方自治团体或依据《公共机构运营法》设立的公共机构（以下简称“国家机关等”）为实施国家试点城市建设项目而订购《软件振兴法》第二条第三项所规定的软件业务时，可以不适用该法第四十八条第二款至第五款。<2020年6月9日修订>\n② 根据第一款不适用《软件振兴法》第四十八条第二款至第五款时，国家机关等不得允许符合下列任一项的软件业务经营者单独或组成共同承包体参与投标。但因正文各项所列软件业务经营者参与投标不可避免，且属于总统令规定的情形时，不在此限。<2020年6月9日、2020年12月29日修订>\n1. 《软件振兴法》第二条第四项所规定的软件业务经营者中，不属于《中小企业基本法》第二条所规定中小企业的企业，且为总统令规定的企业\n2. 根据《垄断规制及公平交易法》第三十一条指定的相互出资限制企业集团所属公司（不包括《公共机构运营法》第四条所规定的公共机构）\n③ 关于根据第二款正文限制参与投标的标准、方法、程序等必要事项，由总统令规定。\n\n",
+      "source_hash": "799cc3af4698628990097e4050018da0078b708d7688b0dbe89f958776a0655d",
+      "target_id": "4e253d2b0f6b62182794b3d138bbe31e9292c382499404cef4c0828b778b6504",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c58770c05671.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "韩文《软件振兴法》第2条第3号、第4号均为定义条款中的第3项、第4项，不是第3款、第4款；原译把法条层级译错，需逐处修正。"
     }
   ],
   "adjudicated_edit_count": 288,
@@ -7677,12 +7704,13 @@
     "2026-11-08 C02 continuation: corrected B1-zh-00037 for the meaning of 소속 공무원 and the defined Association; retained the overall article structure.",
     "2026-11-08 C02 continuation: four clear translation/reference errors in B1 Articles 38, 39, 42 and 42-2 corrected against Korean source. Existing edits preserved.",
     "2026-11-08 C02 continuation: four source-grounded corrections in B1 rows 00061, 00063, 00065 and 00072; prior edits including Article 53-3 numbering preserved.",
-    "2026-11-08 C02 continuation: restored the omitted 신고 (filing/notification) element for temporary mountain use in B1-zh-00108; no style-only rewrites."
+    "2026-11-08 C02 continuation: restored the omitted 신고 (filing/notification) element for temporary mountain use in B1-zh-00108; no style-only rewrites.",
+    "2026-11-08 C02 continuation: corrected Article 33 item 1 condition, Article 40 Aviation Safety Act Article 2 subparagraph 3, and Article 41 Software Promotion Act Article 2 subparagraphs 3 and 4. Existing master decisions preserved."
   ],
   "integration_progress": {
-    "stage": "B1_TRANSITIONAL_AMENDMENT_CLAUSE_00108_RECONCILED",
-    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:2b569e8b1d3b",
-    "note": "Restored the omitted notification/filing element in B1 transitional amendment clause B1-zh-00108. Whole family remains IN_PROGRESS."
+    "stage": "B1_ARTICLES33_40_41_CROSS_REFERENCE_LEVELS_RECONCILED",
+    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:c58770c05671",
+    "note": "Corrected Article 33 first-subparagraph mandatory revocation condition and Article 40/41 statutory subparagraph references. Whole family remains IN_PROGRESS."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -8000,7 +8028,10 @@
     "B1-zh-00063",
     "B1-zh-00065",
     "B1-zh-00072",
-    "B1-zh-00108"
+    "B1-zh-00108",
+    "B1-zh-00046",
+    "B1-zh-00057",
+    "B1-zh-00058"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
