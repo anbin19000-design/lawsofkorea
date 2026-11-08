@@ -1,0 +1,18 @@
+{
+  "schema": "LAW_ZH_REVIEW_RECEIPT_V1",
+  "job_id": "F-140b411af21f1cdaa3d0",
+  "worker": "C02",
+  "panel_id": "panel-02",
+  "status": "COMPLETE",
+  "checked_rows": 1652,
+  "corrected_rows": 148,
+  "source_blobs": {
+    "ko": "c6142609a379dbac06a35c01ab73a4bd06b3edee",
+    "en": "6110f5d5ee6416ed04aa81fd04ec2f718585adff",
+    "zh": "1be3efd228811776cde100df8b3b07ed2776e5e4"
+  },
+  "source_commit": "e3a60207b193388c4d67ad7eb8611d3e79e0c455",
+  "review_path": "review/zh/F-140b411af21f1cdaa3d0.json",
+  "review_blob_sha": "79d3f87f9fb346ef4ed44f2a4bf551c5801f7952",
+  "note": "Verified complete 29-document family review: all Korean documents, all available linked English originals, then 1652 Chinese rows. Minimal clear mistranslations and omissions corrected; English missing in 25 document entries noted. Official review re-fetched and matched 148 unique edits, 1652 checked rows, source SHA provenance."
+}
