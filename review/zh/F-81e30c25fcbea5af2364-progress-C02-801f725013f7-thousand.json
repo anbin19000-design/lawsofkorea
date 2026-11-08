@@ -1,0 +1,61 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:801f725013f7",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "checked_rows": 5,
+  "checked_ids": [
+    "A36427-zh-00068",
+    "A36427-zh-00076",
+    "A36427-zh-00084",
+    "A36427-zh-00107",
+    "A36427-zh-00127"
+  ],
+  "edits": [],
+  "checked_details": [
+    {
+      "id": "A36427-zh-00068",
+      "verdict": "PRESERVE_AMOUNT",
+      "text": "1000万韩元",
+      "explanation": "Original Korean annex has 1,000만원, equivalent to Chinese 1000万韩元; checked numeric magnitude, not full table placement."
+    },
+    {
+      "id": "A36427-zh-00076",
+      "verdict": "PRESERVE_AMOUNT",
+      "text": "1000万韩元",
+      "explanation": "Original Korean annex has 1,000만원, equivalent to Chinese 1000万韩元; checked numeric magnitude, not full table placement."
+    },
+    {
+      "id": "A36427-zh-00084",
+      "verdict": "PRESERVE_AMOUNT",
+      "text": "1000万韩元",
+      "explanation": "Original Korean annex has 1,000만원, equivalent to Chinese 1000万韩元; checked numeric magnitude, not full table placement."
+    },
+    {
+      "id": "A36427-zh-00107",
+      "verdict": "PRESERVE_AMOUNT",
+      "text": "1000万韩元",
+      "explanation": "Original Korean annex has 1,000만원, equivalent to Chinese 1000万韩元; checked numeric magnitude, not full table placement."
+    },
+    {
+      "id": "A36427-zh-00127",
+      "verdict": "PRESERVE_AMOUNT",
+      "text": "1000万韩元",
+      "explanation": "Original Korean annex has 1,000만원, equivalent to Chinese 1000万韩元; checked numeric magnitude, not full table placement."
+    }
+  ],
+  "english_status": "A36427 NO_DOCUMENT_ENGLISH",
+  "prior_progress": [
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-801f725013f7-preserve.json"
+  ],
+  "note": "Correction to numeric comparison normalization for thousand-grouped Korean amount; no semantic row coverage beyond amount verification. No COMPLETE.",
+  "next_review": "Remaining annex semantic table alignment, unreviewed rule/forms, whole family merge."
+}
