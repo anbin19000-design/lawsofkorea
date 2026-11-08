@@ -1,0 +1,84 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:8e24b13497c9",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "english_availability": {
+    "official_linked_en_documents": [
+      "documents/en/kr-010730-283399-en.json",
+      "documents/en/kr-010846-270111-en.json"
+    ],
+    "rows_with_english": 712,
+    "rows_without_english": 421,
+    "document_no_english": [
+      "B3",
+      "A25465",
+      "A25466",
+      "A25467",
+      "A25468",
+      "A25469",
+      "A25470",
+      "A25471",
+      "A25472",
+      "A25473",
+      "A25474"
+    ],
+    "note": "English is version-fallback and not a substitute for Korean source text."
+  },
+  "checked_rows": 3,
+  "checked_ids": [
+    "A25466-zh-00044",
+    "A25466-zh-00045",
+    "A25466-zh-00056"
+  ],
+  "edits": [
+    {
+      "id": "A25466-zh-00044",
+      "text": "填写申请书",
+      "source_hash": "d756749ae151055bb3f2fb59a27fb00c3964fefb2a90809570b03e8c0189e1ab",
+      "target_id": "XML:1802748"
+    },
+    {
+      "id": "A25466-zh-00045",
+      "text": "审查并反馈意见",
+      "source_hash": "4ed6802c84310ca319ebc82690dacae701a4db6bdab6d8125357557f24f747d6",
+      "target_id": "XML:1802749"
+    },
+    {
+      "id": "A25466-zh-00056",
+      "text": "城市委员会审议",
+      "source_hash": "ec62aa9040a8b490a9cb71b023cde353201573d0c1c85b632fd6bcfa89be2732",
+      "target_id": "XML:1802760"
+    }
+  ],
+  "adjudications": [
+    {
+      "id": "A25466-zh-00044",
+      "source_ko": "신청서 작성",
+      "reason": "기존 '应用程序'는 신청서 작성 절차를 의미하지 않으므로 저장 후보 '填写申请书' 재채택. 다음 셀 00045는 별도의 검토 및 의견 회신."
+    },
+    {
+      "id": "A25466-zh-00045",
+      "source_ko": "검토 및 의견 회신",
+      "reason": "기존 혼합문자 'Review 和'가 번역 누락. 과거 후보의 '审查及'는 의견 회신 의미가 빠짐. 기존 완결 후보 '审查并反馈意见' 채택."
+    },
+    {
+      "id": "A25466-zh-00056",
+      "source_ko": "국가스마트도시위원회 심의",
+      "reason": "표의 이전 셀 00055는 관계 중앙행정기관 부분이고 00056은 국가스마트도시위원회의 심의를 뜻함. '市议会'는 오역. 과거 후보 '城市委员会审议'를 기존 판정 중 적합한 것으로 보존하되 위원회 고유명칭과 다른 셀의 연속성은 최종 통합 때 재점검."
+    }
+  ],
+  "previous_progress": [
+    "status/delivery/progress-S2-ae8f8a85c5ace955ac8120fa9a6c7730-C02-prior-conflicts-adjudication-R105.json",
+    "status/delivery/reconcile-S2-ae8f8a85c5ace955ac8120fa9a6c7730-evidence-897b23bd7d0b8383.json"
+  ],
+  "note": "Existing prior candidate texts adjudicated against Korean form workflow; not counted as first-ever reviewed rows. No existing progress overwritten. Full Korean/English/Chinese semantic read-through and 1133-row global adjudication not certified, so no COMPLETE status."
+}
