@@ -1,0 +1,39 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-5c680578acc95aaaac92",
+  "worker": "C04",
+  "checked_rows": 15,
+  "checked_ids": [
+    "B2-zh-00001",
+    "B2-zh-00002",
+    "B2-zh-00004",
+    "B2-zh-00005",
+    "B2-zh-00006",
+    "B2-zh-00007",
+    "B2-zh-00008",
+    "B2-zh-00009",
+    "B2-zh-00010",
+    "B2-zh-00011",
+    "B2-zh-00012",
+    "B2-zh-00013",
+    "B2-zh-00014",
+    "B2-zh-00015",
+    "B2-zh-00016"
+  ],
+  "edits": [
+    {
+      "id": "B2-zh-00008",
+      "text": "第五条（权限的委任）\n① 财政经济部长依据本法第十三条第一款，将国有财产特别规定检查、评价业务中有关国有财产特别规定运用情况调查的业务委任给采购厅长。<2024年11月12日、2025年12月30日修订>\n② 采购厅长为办理第一款规定的业务，应于每年2月底前制定国有财产特别规定运用情况调查计划，向财政经济部长报告，并通知《国有财产法》第二条第十一项规定的中央机关负责人等。<2025年12月30日修订>\n\n"
+    },
+    {
+      "id": "B2-zh-00012",
+      "text": "附则（财政经济部职制）<第35947号，2025年12月30日>\n\n"
+    },
+    {
+      "id": "B2-zh-00013",
+      "text": "第一条（施行日期）本令自2026年1月2日起施行。但依据附则第六条修订的总统令中，对本令施行前已公布而施行日期尚未届至的总统令作出的修订部分，分别自该总统令的施行日期起施行。\n\n"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "note": "Verified all B2 rows other than row 00003, already checked in an existing segment, against Korean decree. Existing master B2 edits (1,2,4,7,15) retained without duplication; corrected delegation (8), supplementary provision (12), and effective-date reference (13). Source blobs, row IDs and hashes unchanged."
+}
