@@ -31,7 +31,20 @@
   },
   "assistant_count": 11,
   "assistant_excerpt": "C05 중국어 검수 진행 결과\nIN_PROGRESS · 충돌로 중단\n\nJob ID: F-b5c27d20d49b721e47e6\n법령가족: 한부모가족지원법\n\n누적 검수 기록\n\n198행\n\n교정 저장\n\n61행\n\n전체 대상\n\n1,207행\n\n구간\n\n\t\n\n검수 기록\n\n\t\n\n교정\n\n\n\n\nB1 법률 00001~00158\n\n\t\n\n158행\n\n\t\n\n50행\n\n\n\n\nB2 시행령 00001~00040\n\n\t\n\n40행\n\n\t\n\n11행\n\n\n\n\n합계\n\n\t\n\n198행\n\n\t\n\n61행\n\n모두 별도 IN_PROGRESS 파일로 저장했고 GitHub 재조회를 통해 파일 SHA와 저장 내용을 확인했습니다.\n\n마지막 저장 성공\n\n구간: B2-zh-00021~00040\n\n커밋: 0e1da6693069d16570a37b0db75d142131aa6854\n\n파일 SHA: 37192694ab36939f55408cec36e7937abb0fac22\n\n중단 사유\n\n다음 구간인 B2-zh-00041~00070의 저장에서 GitHub 409 CONFLICT가 발생했습니다.\n\n원본 SHA와 대상 경로를 확인한 후 허용된 1회 재시도를 수행했으나 다시 충돌했습니다.\n\n지시된 STOP 조건에 따라 추가 저장과 재시도를 중단했습니다.\n\n기존 검수 파일은 보존했으며 laws/*를 수정하거나 COMPLETE 영수증을 생성하지 않았습니다.\n\n다음 미저장 구간은 B2-zh-00041부터입니다. 현재 상태는 HOLD — 반복 GitHub 409 충돌입니다.",
+  "attempted_at": "2026-11-08T06:52:27.454223+00:00",
   "created_at": "2026-11-08T06:52:22.222765+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-87090e4d4ab13d34612db1d12a2de804",
+    "attempted_at": "2026-11-08T06:52:27.454223+00:00",
+    "claim_commit": "9c5b286d6461660b57fc0aecc1eab1cfa5cc15a5",
+    "event_id": "obs-2469006b26c297d02b564b0939f606ec6dc1bcb5",
+    "job_id": "F-b5c27d20d49b721e47e6",
+    "record_path": "status/delivery/recovery-S2-87090e4d4ab13d34612db1d12a2de804.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C05"
+  },
   "episode": 1,
   "event_id": "obs-2469006b26c297d02b564b0939f606ec6dc1bcb5",
   "idle_followup": true,
@@ -43,7 +56,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-91eef9578a2e26119c302888]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "637911bc587de0ad405491d2aa792f7534900ed0",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6af017dc-5a00-83ec-b0d6-097529955c51",
   "worker": "C05"
 }
