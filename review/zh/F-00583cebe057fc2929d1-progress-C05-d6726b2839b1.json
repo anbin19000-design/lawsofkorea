@@ -1,0 +1,32 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "worker": "C05",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "80daceb6bbd8d86b5af2257b9f0bb81166408b33",
+  "previous_corrections": 330,
+  "new_correction_ids": [],
+  "correction_count": 330,
+  "pending_rows": 89,
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "full_reading_proven": false,
+  "completion_receipt": null,
+  "english_note": "B1/B2 official exact-version; B3/forms only 2010 fallback, not exact current version; decree also has AI draft.",
+  "english_reference_rows": {
+    "with_english": 771,
+    "without_english": 603
+  },
+  "note": "추가 검토에서 원문 offset과 대응하는 미교정 행을 검색했으며, '고안'→发明/外观设计 및 지식재산처장→知识产权部长 오역의 신규 확정 사례는 발견하지 못함. B2-zh-00081은 한국어 offset 경계를 넘어 별표 내용까지 포함한 SOURCE_MAPPING_REVIEW_REQUIRED로 기존 보류 유지. 89행 보류 및 전 문서 KO/EN/ZH 순차 독해·최종 검증 미완료."
+}
