@@ -2,7 +2,7 @@
   "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-c2b35f6aceb6477e1107",
   "worker": "C04",
-  "checked_rows": 18,
+  "checked_rows": 20,
   "edits": [
     {
       "id": "A14112-zh-00030",
@@ -75,8 +75,16 @@
     {
       "id": "B1-zh-00013",
       "text": "第十条（食品配料）\n① 学校膳食必须使用优质、安全的食材。\n② 食品原料的质量控制标准及其他与食品原料相关的必要事项，由教育部条例规定。<2008年2月29日、2013年3月23日修订>\n\n"
+    },
+    {
+      "id": "B1-zh-00019",
+      "text": "第十五条之二（关于食品原料采购合同的投标资格等限制）\n① 学校校长根据第十五条第一款签订购买学校供餐所需食品原料的合同时，对于被认为不适合履行合同的人员，例如违反《食品卫生法》、《畜产品卫生管理法》和《农产品和渔业产品原产地标签法》规定的卫生安全管理义务或原产地标签义务的人员，可以在六个月范围内，按照总统令规定的期限限制总统令指定的此类人员参与食材采购合同投标，或者将其排除在随意合同的签约对象之外。\n② 关于第1款规定的投标资格限制等具体适用标准、程序和其他必要事项，由总统令规定。\n\n"
+    },
+    {
+      "id": "B1-zh-00023",
+      "text": "第十九条（进入、检查、采样等）\n① 如有必要，教育部长或教育总监可指派与食品卫生或学校供餐相关的公职人员进入学校供餐场所，检查食品、设施、文件或工作条件，并可免费收集检查所需的最低限量食品。<2008年2月29日修订，2013年3月23日修订>\n② 任何公职人员如欲依第1款规定进入、检查、查看或收集，应当携带证明其职权的证件，并向有关人员出示。\n③ 如根据第1款规定进行检查等程序后，发现违反第十六条第二款第一项或第二项或者同条第三款规定的，教育部长或者教育总监可以责令有关学校的校长或者学校供餐单位纠正。<2008年2月29日、2013年3月23日、2013年5月22日修订>\n\n"
     }
   ],
   "status": "IN_PROGRESS",
-  "note": "C04 recovery: 18 verified corrected IDs. Six B1 article rows reconciled against Korean: statutory cross-reference, article numbering, item numbering, omitted paragraph marker and clause reference. Entire 1241-row family is not fully reviewed; no COMPLETE receipt."
+  "note": "20 verified correction IDs after recovery. B1 Article 15-2 bidding exclusion/6-month range and Article 19 inspection cross-references aligned to Korean. Full family semantic review still pending; no COMPLETE receipt."
 }
