@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 467,
+    "correction_count": 475,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -3294,6 +3294,62 @@
       "original": "第十六条之五（互助协会的运作和监督）\n① 互助协会应当在每个财政年度结束后两个月内完成账目结算，并于3月31日前向公平交易委员会提交该财政年度的经营业绩报告（包括互助成果等）和结算报告（包括资产负债表和损益表）。<2026年8月4日修订>\n② 互助协会应将依据第1款提交公平交易委员会的资产负债表和损益表存放于其主要办公地点（包括分支机构，如有），并应公开资产负债表。<2026年8月4日修订>\n\n",
       "corrected": "第十六条之五（互助组合的运营及监督）\n① 互助组合应在每个营业年度结束后2个月内完成结算，并于3月31日前向公平交易委员会提交该营业年度的业务实绩报告（包括互助实绩等）及结算报告（包括财务状况表、损益计算书）。<2026年8月4日修订>\n② 互助组合应将依第1款提交给公平交易委员会的财务状况表及损益计算书备置于主要事务所（有支部时包括支部），并公告财务状况表。<2026年8月4日修订>\n\n",
       "reason": "공제조합 용어를 법정 명칭으로 통일하고, 제출·비치·공고 대상인 재무상태표 및 손익계산서의 범위를 정확히 유지."
+    },
+    "B2-zh-00014": {
+      "doc": "B2",
+      "source_hash": "76484b973933379d2b5649416650d0c4d3b6c1cba3db4708cdf428b95c1019a1",
+      "original": "第五条之八（特许经营费存款机构） 在本法第六条之五第一款正文中，“总统令规定的机构（以下简称“存款机构”）”是指下列各款所列的机构。<2008年7月29日、2010年10月13日、2026年8月4日修订>\n1. 根据《银行法》第2条第1款第2项设立的银行\n2. 根据《邮政储蓄和保险法》设立的邮政局\n3. 保险公司依据《保险业务法》成立\n4. 根据《资本市场和金融投资业务法》受托人\n\n",
+      "corrected": "第五条之八（加盟费存款机构）本法第6条之5第1款正文所称“总统令规定的机构”（以下简称“存款机构”），指下列机构。<2008年7月29日、2010年10月13日、2026年8月4日修订>\n1. 《银行法》第2条第1款第2号规定的银行；\n2. 《邮政储蓄及保险相关法律》规定的邮政机关；\n3. 《保险业法》规定的保险公司；\n4. 《资本市场与金融投资业相关法律》规定的信托业者。\n\n",
+      "reason": "우체국 기관 및 신탁업자의 법정 유형을 일반 우체국·수탁자로 부정확하게 번역한 부분을 정확한 기관 명칭으로 수정."
+    },
+    "B2-zh-00024": {
+      "doc": "B2",
+      "source_hash": "bc3188399db85545e9837f58abe74c9196f56934bcb943cf5606f0041edf9a01",
+      "original": "第 12-2 条（确定违约赔偿条款不公平性的标准）该法第 12 条第 1 款第 5 项中，“总统令规定的标准，例如合同的目的和内容以及将要发生的损害赔偿”是指下列各款规定的标准。\n1. 合同的目的和内容\n2. 损失金额\n3. 双方过错的存在和程度\n4. 相关行业的正常交易惯例\n\n",
+      "corrected": "第十二条之二（判断违约金不公平性的标准）本法第12条第1款第5项所称“合同目的与内容、发生的损害等总统令规定的标准”，指下列标准：\n1. 合同的目的与内容；\n2. 发生的损害额大小；\n3. 当事人之间有无归责事由及其程度；\n4. 该行业的正常交易惯例。\n\n",
+      "reason": "위약금 부당성 기준 중 발생한 손해액 및 당사자 귀책사유의 유무가 단순 손실액·쌍방 과실로 축소·변형됨."
+    },
+    "B2-zh-00028": {
+      "doc": "B2",
+      "source_hash": "d43a1fe0816bd75e6a841b862448cd922978d7c17e08541b9a3bbe96b48c5751",
+      "original": "第十三条之四（经营范围变更的理由） 本法第十二条之四第二款中，“因总统令规定的理由，如经营范围突然变更的情况”是指下列任何一种情况：\n1. 在商业区因重建、改造或新城建设而发生快速变化的情况下\n2. 如果相关商业区的常住人口或流动人口发生重大变化，\n3. 如果由于消费者偏好变化等原因导致相关商品或服务的需求发生显著变化，\n4. 与第1至3款规定等效的情况，即维持现有业务范围被认为明显不合理。\n\n",
+      "corrected": "第十三条之四（营业区域变更事由）本法第12条之4第2款所称“商圈急剧变化等总统令规定的事由”，指下列任一情形：\n1. 因重建、再开发或新城建设等导致商圈急剧变化；\n2. 相关商圈的居住人口或流动人口显著变化；\n3. 因消费者偏好变化等，相关商品或服务的需求显著变化；\n4. 与第1项至第3项相当，且被认定维持现有营业区域明显不合理的情形。\n\n",
+      "reason": "영업지역을 일반적인 영업 범위인 '经营范围'로 번역하여 법정 용어가 훼손된 부분을 '营业区域'로 교정."
+    },
+    "B2-zh-00041": {
+      "doc": "B2",
+      "source_hash": "00d1b19324d747f120884b9acbe3607369567c5a3aaf1ac5bae8c956d50a3d05",
+      "original": "第二十条（代表的选举）\n① 当多人共同申请调解纠纷时，可以从申请人中选出至多三名代表。\n② 如果申请人未按照第1款的规定选定代表，主席可以建议申请人选定代表。\n③ 申请人变更代表时，应当立即通知主席。\n\n",
+      "corrected": "第二十条（代表人的选定）\n① 多人共同申请纠纷调解时，可以从申请人中选定3人以内的代表人。\n② 申请人未依第1款选定代表人时，协议会委员长可以建议申请人选定代表人。\n③ 申请人变更代表人时，应立即将该事实通知协议会委员长。\n\n",
+      "reason": "대표자 선정·변경 통지의 수신자는 위원장(협의회 위원장)이며, 중국어의 '主席'은 회의 주재자 등으로 혼동 가능하여 법정 직함을 명확히 함."
+    },
+    "B2-zh-00055": {
+      "doc": "B2",
+      "source_hash": "009ac1cf3ed5712c1dd2df5ee43dd060e8fcd9df9b3934dc40c3ffffda737af7",
+      "original": "第31条（证书的颁发）\n① 公平交易委员会应当向具备特许经营交易专家资格的人员颁发许可证。<2008年1月31日修订>\n② 特许经营交易专员执照颁发的相关事宜，由公平交易委员会决定并公布。<2008年1月31日修订>\n\n",
+      "corrected": "第三十一条（资格证书的颁发）\n① 公平交易委员会应向具备加盟交易专家资格者颁发资格证书。<2008年1月31日修订>\n② 关于加盟交易专家资格证书颁发的必要事项，由公平交易委员会确定并公告。<2008年1月31日修订>\n\n",
+      "reason": "자격증은 면허증이 아니라 자격증이며, 가맹거래사 법정 자격명칭을 통일."
+    },
+    "B2-zh-00056": {
+      "doc": "B2",
+      "source_hash": "8ec1eb12896f3aa836a598c91df5ccb8aaa19cdae7efe9c30fd4c3b8a378aa1f",
+      "original": "第三十二条（特许经营交易专家等的登记）\n① 凡欲依本法第29条第1款规定注册为特许经营交易专家者，应当依公平交易委员会所定程序，向公平交易委员会提交注册申请。<2008年1月31日修订>\n② 收到依据第1款提出的注册申请后，公平交易委员会应当将下列各款所述事项登记在特许经营交易专家名册中，并向申请人颁发注册证书。<2008年1月31日修订>\n1. 特许经营交易代理人的地址、姓名和居民登记号码\n2. 办公室名称和地址\n3. 注册号\n4. 公平交易委员会决定的其他事项\n③ 已注册为特许经营交易专家的，如遗失依据第2款颁发的注册证书，或该证书失效，应当向公平交易委员会提出重新颁发的申请。<2008年1月31日修订>\n④ 如果在根据第3款规定重新签发登记证后找到遗失的登记证，应当立即归还。\n⑤ 特许经营交易专家注册及续期注册的其他详细事项，由公平交易委员会确定并通知。<新增于2008年1月31日>\n\n",
+      "corrected": "第三十二条（加盟交易专家的登记等）\n① 拟依本法第29条第1款办理加盟交易专家登记者，应依公平交易委员会规定，向公平交易委员会提交登记申请书。<2008年1月31日修订>\n② 公平交易委员会收到第1款登记申请时，应在加盟交易专家登记簿记载下列事项，并向申请人颁发登记证。<2008年1月31日修订>\n1. 加盟交易专家的地址、姓名及居民登记号码；\n2. 事务所名称及所在地；\n3. 登记号码；\n4. 其他由公平交易委员会规定的事项。\n③ 已办理加盟交易专家登记者遗失依第2款领取的登记证，或登记证损坏无法使用时，应向公平交易委员会提交补发申请书。<2008年1月31日修订>\n④ 依第3款补发登记证后，如发现遗失的原登记证，应立即返还。\n⑤ 关于加盟交易专家登记及登记续期的其他具体事项，由公平交易委员会确定并公告。<2008年1月31日新增>\n\n",
+      "reason": "가맹거래사 명칭이 전문인·대리인 등으로 혼용되어 자격·등록부·등록증의 법적 주체를 통일."
+    },
+    "B2-zh-00061": {
+      "doc": "B2",
+      "source_hash": "70e58840e002ae9ac4aae3e035febe809bd9d79e7331ab7d98ea02a5101b748b",
+      "original": "第三十四条（附加费等的计算方法）\n① 本法第三十五条第一款正文中，“总统令规定的销售收入”是指相关特许人在违法期间（指违法行为开始日期至终止日期期间；以下本条亦适用）向关联被特许人或潜在被特许人销售商品或服务的销售收入，或等值金额（以下简称“相关销售收入”）。<2014年2月11日修订>\n② 在本法第三十五条第一款正文中，“总统令规定的经营者”是指在财务报表等文件中将商品或服务所得款项总额作为营业收入记录的经营者。<2014年2月11日新增>\n③ 本法第35条第1款但书中的“总统令规定的情况”是指下列任何一种情况：<2014年2月11日新增>\n1. 如果由于业务暂停等原因导致没有业务结果，则\n2. 如果由于违规期间等原因难以计算相关销售收入，则\n3. 在销售收入客观计算困难的情况下，例如销售收入计算数据因灾害等原因丢失或损坏时。\n④ 根据本法第三十五条第一款征收行政附加费的条件，见附表4-2。<2014年2月11日新增>\n⑤ 其他征收行政附加费的详细程序事项，由公平交易委员会确定并公布。<2014年2月11日修订>\n\n",
+      "corrected": "第三十四条（罚款附加费的计算方法等）\n① 本法第35条第1款正文所称“总统令规定的销售额”，指相关特许经营总部在违法期间（指违法行为开始日至终止日；以下本条相同）向相关加盟商或加盟希望者销售商品或服务的销售额，或与之相当的金额（以下简称“相关销售额”）。<2014年2月11日修订>\n② 本法第35条第1款正文所称“总统令规定的经营者”，指在财务报表等文件中将商品或服务对价合计额记载为营业收益的经营者。<2014年2月11日新增>\n③ 本法第35条第1款但书所称“总统令规定的情形”，指下列任一情形：<2014年2月11日新增>\n1. 因停止营业等原因没有营业实绩；\n2. 因无法确定违法期间等原因，难以计算相关销售额；\n3. 因灾害等导致销售额计算资料灭失或损坏等，客观上难以计算销售额。\n④ 依本法第35条第1款征收罚款附加费的标准，见附件表4之2。<2014年2月11日新增>\n⑤ 关于罚款附加费征收程序的其他具体事项，由公平交易委员会确定并公告。<2014年2月11日修订>\n\n",
+      "reason": "과징금 산정 기초의 매출 주체가 가맹본부인데 번역의 '相关特许人'은 부정확하고, 매출액·영업실적 기준을 원문에 맞춰 수정."
+    },
+    "B2-zh-00062": {
+      "doc": "B2",
+      "source_hash": "79447dcbb3b363fb7a1b7c57ab77e7ec01622d6d72742008f80a718edd51b1eb",
+      "original": "第三十五条（授权）根据本法第三十九条第一款，公平交易委员会授权有关市长或省长根据本法第四十三条第六款和第七款第一项的规定，对已根据本法第六条之二向市长或省长登记信息披露声明的特许经营商处以行政罚款。（2021年11月19日修订）\n\n",
+      "corrected": "第三十五条（权限的委任）公平交易委员会依本法第39条第1款，将本法第43条第6款及同条第7款第1项规定的行政罚款中，对依本法第6条之2向市、道知事登记信息披露声明的特许经营总部处以及征收行政罚款的权限，委任给该市、道知事。<2021年11月19日修订>\n\n",
+      "reason": "과태료 부과·징수 권한을 위임하는 규정인데, 중국어는 행정벌금의 종류와 위임 대상을 모호하게 번역하여 법정 행정질서벌인 과태료로 명확화."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -3384,7 +3440,8 @@
     "C05 9c0d04b7894a continuation: B1 Articles 29-2, 30, 34-4, 36, 37, 38, 42 and 15-5 checked against Korean source. Eight corrections: professional qualification title consistency, enforcement payment vs criminal fine distinction, administrative cooperation term, legal citation/decision terminology, supplementary statute application, two-penalty rule fine type, and whistleblower reward evidence/eligibility. Prior 437 corrections preserved; IN_PROGRESS.",
     "C05 9c0d04b7894a continuation: B1 supplementary provisions rows 89, 91, 145 and 152 checked against Korean original. Four clear corrections: franchisor party in refund transition, six-month old-disclosure exception, small-franchisor (not franchisee) applicability scope and recruitment trigger, and pre-effective-date advertising-agency contract condition (date reversal). Prior 445 corrections preserved; IN_PROGRESS.",
     "C05 03e86ea345d9 continuation: B2 Enforcement Decree Articles 3, 5, 5-2, 5-10, 8, 10, 12 and 13-3 checked against complete Korean clauses. Eight corrections: third-party consumer payment agency, one-year threshold inclusive, franchisor main-office/registration applicant identity, escrow request parties and statutory references, IP rights holder, 14-day refund request timing, franchisor's renewal refusal/business secrets, and prior-three-month period. Existing 449 corrections preserved; IN_PROGRESS.",
-    "C05 fee861554dd2 continuation: B2 Articles 5-3, 5-5, 5-7, 5-10, 13-5, 13-6, 14, 16, 16-3, 16-4 and 16-5 checked against Korean source. Ten corrections: change-registration/reporting actors and system, franchisor director/direct-store period, statutory administrative guideline title, escrow payment/hold/refund request roles, ad/promotion consent and agreement parties, execution-detail notification parties, renewal refusal policy subject, self-regulation review applicant, and mutual-aid cooperative statutory name and charter governance. Prior 457 corrections preserved; IN_PROGRESS."
+    "C05 fee861554dd2 continuation: B2 Articles 5-3, 5-5, 5-7, 5-10, 13-5, 13-6, 14, 16, 16-3, 16-4 and 16-5 checked against Korean source. Ten corrections: change-registration/reporting actors and system, franchisor director/direct-store period, statutory administrative guideline title, escrow payment/hold/refund request roles, ad/promotion consent and agreement parties, execution-detail notification parties, renewal refusal policy subject, self-regulation review applicant, and mutual-aid cooperative statutory name and charter governance. Prior 457 corrections preserved; IN_PROGRESS.",
+    "C05 f5e2767af4e5 continuation: B2 Articles 5-8, 12-2, 13-4, 20, 31, 32, 34 and 35 checked against Korean source. Seven corrections: statutory deposit institution names, actual loss and culpability standards, business territory term, mediation committee chair identity, professional qualification certificate and registration terminology, surcharge revenue actor/calculation conditions, and delegated administrative fine authority. Prior 467 corrections preserved; IN_PROGRESS."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -3393,5 +3450,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 467
+  "corrected_rows": 475
 }
