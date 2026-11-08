@@ -2,7 +2,7 @@
   "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-c2b35f6aceb6477e1107",
   "worker": "C04",
-  "checked_rows": 82,
+  "checked_rows": 89,
   "edits": [
     {
       "id": "A14112-zh-00030",
@@ -331,8 +331,36 @@
     {
       "id": "A30764-zh-00050",
       "text": "无正当理由"
+    },
+    {
+      "id": "A30764-zh-00039",
+      "text": "违反本法第16条第2款第1项，并依据第19条"
+    },
+    {
+      "id": "A30764-zh-00048",
+      "text": "违反本法第16条第2款第2项，并依据第19条"
+    },
+    {
+      "id": "A30764-zh-00052",
+      "text": "c. 学校供餐供应商违反本法第16条"
+    },
+    {
+      "id": "A30764-zh-00057",
+      "text": "第3款，依据本法第19条第3款"
+    },
+    {
+      "id": "A30764-zh-00058",
+      "text": "收到纠正命令后，"
+    },
+    {
+      "id": "A30764-zh-00059",
+      "text": "仍无正当理由"
+    },
+    {
+      "id": "A30764-zh-00060",
+      "text": "不履行该命令的情形"
     }
   ],
   "status": "IN_PROGRESS",
-  "note": "C04 d71e45084d7e: 75 prior unique corrections preserved; 7 source-aligned annex row corrections including SME fine reduction at up to 70% and no double reduction, and 'without just cause' negative condition. Annex is line-segmented; coherent restored clauses span adjacent IDs. Whole 15-document / 1241-row semantic certification incomplete."
+  "note": "C04 b3f5997dbf75: preserved 82 corrections; 7 additional original-aligned A30764 fine table cells corrected: Article 16(2)(1), 16(2)(2), 16(3), Article 19(3) and failure to comply without just cause. Prior 15-document complete audit and English full reading not certified; receipt withheld."
 }
