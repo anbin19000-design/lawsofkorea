@@ -1,0 +1,68 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:2a4a09401b64",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "checkpoint_type": "VERIFIED_MINIMAL_CORRECTIONS_FROM_EXISTING_CANDIDATES",
+  "checked_ids": [
+    "B1-zh-00016",
+    "B1-zh-00019",
+    "B1-zh-00022",
+    "B1-zh-00028"
+  ],
+  "checked_rows_new": 4,
+  "edits": [
+    {
+      "id": "B1-zh-00016",
+      "source_hash": "c99c5b7f9fb4f3e3236a003913cd087d67b8daf388352f88b05603182fc5048b",
+      "target_id": "add2d683fc39720cb37886c32f652aa593b0a7dd6fffebced2712abe43e19ca6",
+      "text": "第11条（智慧城市规划的修改）第8条第3款至第5款及第7款、第9条和第10条的规定，经必要修改后，适用于智慧城市规划的修改。但是，对于总统令规定的次要事项的修改，不适用本条规定。<2012年5月23日、2017年3月21日修订>\n\n第三章 智慧城市建设项目等的实施 <2017年3月21日修订>\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-2a4a09401b64.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Fix wrongly attached paragraph numbers: Korean applies Article 8 paragraphs 3–5 and 7, plus Articles 9 and 10."
+    },
+    {
+      "id": "B1-zh-00019",
+      "source_hash": "7fcfa954e5edfff01d1602c53ebf42013f1018cd45a19d5b9c869bd0f20a1ca3",
+      "target_id": "18993fb635af17f2e80a9d6febc8d164dc3a9baaaf52e890a52b278594ae7122",
+      "text": "第十四条（智慧城市建设项目实施方案）\n① 项目实施方应当制定智慧城市建设项目实施方案（以下简称“实施方案”），该实施方案应当包含下列各款内容。<2015年12月29日、2017年3月21日修订>\n1. 项目名称和范围\n2. 项目目标和基本方向\n3. 项目实施者\n4. 项目实施期\n5. 项目实施方法\n6. 年度投资计划和融资计划（包括成本分摊措施）\n7. 关于智慧城市基础设施的建立、管理和运营的事项\n8. 关于提供智慧城市服务的事项\n9. 关于智慧城市技术的事项\n10. 总统令规定的智慧城市建设所需的其他事项\n② 除国家或地方政府以外的项目实施者，依第一款制定实施计划时，应当取得特别市、广域市、特别自治市市长、特别自治省省长、市长或县长的批准（项目跨越两个或两个以上管辖区域的，如项目位于同一省管辖区域内，则须取得省长批准；如项目跨越两个或两个以上特别市、广域市或省管辖区域，则须取得国土交通部长批准；以下在本条及第十五条、第十六条中统称为“实施计划审批机关”）。<2012年5月23日、2013年3月23日修订>\n③ 国土交通部长（指国家作为项目实施主体的情况）或地方政府负责人依据第1款制定实施计划，或者实施计划审批机关依据第2款批准实施计划时，应当事先与有关行政机关负责人协商。<2012年5月23日、2013年3月23日修订>\n4. 国土交通部长（指国家作为项目实施方的情况）或地方政府负责人依据第1款制定实施计划，或依据第2款由批准实施计划的机关批准实施计划的，应当在官方公报或公共公报上公布实施计划的制定或批准；国土交通部长或省长批准实施计划的，应当将相关文件送交项目区域内具有管辖权的特别市、广域市、特别自治市、特别自治省市长、县长或县长。<2012年5月23日修订；2013年3月23日修订>\n⑤ 第2款至第4款的规定经必要修改后适用于实施方案的变更。但是，对于总统令规定的细微事项的变更，本规定不适用。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-2a4a09401b64.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Restore item 10 substance omitted after 'according to presidential decree'."
+    },
+    {
+      "id": "B1-zh-00022",
+      "source_hash": "0dc720b46792bc4708b7862b00ea168e6e641802cbe9c7e92ce78616bb6d9c4c",
+      "target_id": "8b537672ef1f6659865e8a9fffe926148e0b974ed932c1d7856f5083bc4726e9",
+      "text": "第十六条（竣工检验）\n① 项目实施单位（不包括国家和地方政府）完成智慧城市建设项目后，应当按照总统令的规定，接受实施计划审批机关的竣工验收。<2017年3月21日修订>\n② 如经竣工验收，批准实施计划的机构认定智慧城市建设项目已按实施计划完成，应当向项目实施方颁发竣工验收合格证书。<2017年3月21日修订>\n③ 国家或者地方政府完成智慧城市建设项目，或者项目实施者按照第1款规定收到竣工验收报告时，即视为已收到按照第十五条第1款各项规定取得的有关项目竣工的检查、授权、通知或者确认等文件。<2017年3月21日修订>\n④ 除第1款至第3款规定的事项外，有关竣工检验的事项由总统令规定。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-2a4a09401b64.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Restore paragraph ④ numbering."
+    },
+    {
+      "id": "B1-zh-00028",
+      "source_hash": "2763205634324094bb33f83b6c4dcd090c5fcaaafa310c0980d1aa1bfcc05c83",
+      "target_id": "af8a884d7f6baa29cf6a12309c39ff450d0e93c22b7caa9ca37a293dfc2d9c37",
+      "text": "第十九条之四（智慧城市服务支持机构的指定）\n① 国土交通大臣可指定符合总统令规定条件（例如具备专业人员和设施）的研究机构、组织或法人团体作为智慧城市服务支援机构（以下简称“支援机构”），以促进智慧城市服务的发展。<2013年3月23日修订；2017年3月21日修订>\n② 支持机构应履行下列各款规定的职责。<2017年3月21日修订>\n1. 智慧城市服务相关信息分发现状及分发情况的调查与分析\n2. 智慧城市相关产品和服务质量认证\n3. 智慧城市技术的研究与开发\n4. 支持智慧城市标准化\n5. 智慧城市专业人员的培训和支持\n6. 支持智慧城市及智慧城市技术出口\n7. 智慧城市认证支持\n8. 智慧城市服务使用情况调查与分析\n9. 此外，还需支持促进、政策探索和制度改进，以振兴智慧城市。\n③ 国土交通大臣可在预算范围内，向第1款指定的支援机构提供履行第2款所述职责所需的全部或部分费用。<2013年3月23日修订>\n④ 国土交通大臣可撤销支援机构的指定资格，或暂停其全部或部分业务，暂停期限不超过六个月，但须符合下列各款规定。然而，如属第1款规定，则必须撤销指定资格。<2013年3月23日修订>\n1. 如果该称号是通过虚假或其他欺诈手段获得的\n2. 如果履行职责时违反了指定事项\n3. 如果不再满足第 1 段规定的指定要求\n⑤ 指定和撤销指定支持机构的标准、程序和操作等必要事项，由总统令规定。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-2a4a09401b64.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Restore item 9 enumeration marker without rewriting body."
+    }
+  ],
+  "prior_master_blob_sha": "2269c7d37af7827d4a38d4705f4445187b6fd02a",
+  "ordered_reading_certification": {
+    "ko": false,
+    "en": false,
+    "zh": false
+  },
+  "english_note": "Existing official English parent fallbacks are version-mismatched, and English is missing for the 시행규칙 and forms. These four edits derive from exact Korean clause references and omissions.",
+  "notes": "Only four directly verified minimal corrections. Full Korean->available English->Chinese sequential reading not certified; do not complete or transfer assignment."
+}
