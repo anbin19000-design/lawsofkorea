@@ -1,0 +1,54 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-215e91e728b94dfc93aa",
+  "worker": "C06",
+  "panel_id": "panel-06",
+  "pc": "WORK-C",
+  "status": "IN_PROGRESS",
+  "source_commit": "396bee96cb14d35f6f4e36330de5998314afded1",
+  "source_blobs": {
+    "en": "e59574105c58e4041e11b2782728fe6d9e56c186",
+    "ko": "0c25588998cdc0458eef947b1df6fbf0fa8a53ad",
+    "zh": "8dd306f496c45a96f27cae0411fcf682a485ad13"
+  },
+  "source_sha_verified": {
+    "ko": "0c25588998cdc0458eef947b1df6fbf0fa8a53ad",
+    "en": "e59574105c58e4041e11b2782728fe6d9e56c186",
+    "zh": "8dd306f496c45a96f27cae0411fcf682a485ad13"
+  },
+  "blob_bytes": {
+    "ko": 292249,
+    "en": 1490,
+    "zh": 1490
+  },
+  "source_file_bytes": {
+    "ko": 300156,
+    "en": 463464,
+    "zh": 628471
+  },
+  "linked_english": [
+    {
+      "path": "documents/en/kr-001702-204485-en.json",
+      "sha": "ece825c83ed0c9c938640115688e6c6fe389480d",
+      "body_sha256": "47095e3345cf9494187180d0b57a80a0607d57dbbb6b25adb32dbfb8ec99e45c",
+      "version": "204485",
+      "full_text_length": 700941
+    },
+    {
+      "path": "documents/en/kr-003811-287141-en.json",
+      "sha": "f91fd66418c84cfdcd0b916b6127454c0c9dc3db",
+      "body_sha256": "5dfbf960c4d27e56327844987562cf364f231bb86cffa1af85f6503c6377402d",
+      "version": "287141",
+      "full_text_length": 85473
+    }
+  ],
+  "total_documents": 2,
+  "total_rows": 1490,
+  "checked_rows": 51,
+  "edits": 16,
+  "review_sha": "996e43db1afa0dc435e0ba3b4745ca251cb3045f",
+  "next_row_index": 51,
+  "reading_order": "KO_FULL_THEN_EN_FULL_THEN_ZH_FULL",
+  "worker_chat": "https://chatgpt.com/c/6af0d958-0680-83ee-bcd5-436475e482dc",
+  "note": "한국어 원문 blob, 영어 인덱스 blob, 중국어 blob을 source_blobs와 일치하는 SHA로 조회하고 전체 파싱. 두 연결 영문 문서의 전체 본문을 조회해 확인. 원문 2개 문서이며 서식/별표 문서 없음(현재 고정 카탈로그 기준). 아직 순차 검수 및 최종 QA 미완료."
+}
