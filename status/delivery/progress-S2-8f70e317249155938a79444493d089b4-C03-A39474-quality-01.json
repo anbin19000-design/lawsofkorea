@@ -1,0 +1,144 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A39474",
+  "quality_batch": "A39474-quality-01",
+  "range": {
+    "first": "A39474-zh-00001",
+    "last": "A39474-zh-00012"
+  },
+  "quality_checked_rows": 12,
+  "quality_passed_rows": 12,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "A39474-zh-00001",
+    "A39474-zh-00002",
+    "A39474-zh-00003",
+    "A39474-zh-00004",
+    "A39474-zh-00005",
+    "A39474-zh-00006",
+    "A39474-zh-00007",
+    "A39474-zh-00008",
+    "A39474-zh-00009",
+    "A39474-zh-00010",
+    "A39474-zh-00011",
+    "A39474-zh-00012"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A39474-00001-00012.json",
+  "results": [
+    {
+      "id": "A39474-zh-00001",
+      "source_hash": "78b65662544ea0f69f76516fed51b23b3fc50d175a9432ca270480f748a2f6b2",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "시행령 별표 1 제목으로 수정된 교정문이 한국어 별표 표제와 일치함."
+    },
+    {
+      "id": "A39474-zh-00002",
+      "source_hash": "ddff26af3bcf8814d8866c0511b71c98aed12ce30aee46bb0573bb4945e5e02d",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "피해자권익보호기관 설치·운영 기준 및 제13조제1항 인용이 일치함."
+    },
+    {
+      "id": "A39474-zh-00003",
+      "source_hash": "6a05bd5b82862a4d43d235d5b916d4080b9eb1eb0e22b0614aa7f4afaaf617e7",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "중앙피해자권익보호기관 설치·운영 기준 제목과 일치함."
+    },
+    {
+      "id": "A39474-zh-00004",
+      "source_hash": "04a976184d0c070209b98775a95d0c9b828cdef768c3534093e018e7d252e64a",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "가. 설치 기준을 甲. 设立标准로 구분하여 일치함."
+    },
+    {
+      "id": "A39474-zh-00005",
+      "source_hash": "f373f8a03c45dcd18b45dcf9690f31c1d77e667cef17fe3ec0b03664e0d7a418",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "요건을 모두 충족하는 사무실 보유 의무가 일치함."
+    },
+    {
+      "id": "A39474-zh-00006",
+      "source_hash": "e8ccf59bd923f008c7bfebe0f78ef3df1c4344461a099f73514be5a65cbd3e40",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "법 제15조제1항 각 호 업무 수행을 위한 공간·설비 마련 의무가 인접 7행과 함께 일치함."
+    },
+    {
+      "id": "A39474-zh-00007",
+      "source_hash": "b07f284c168b4439d8094be830d84b516e0148679cabd0662c895cfc05d593ad",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "앞 행에 이어지는 원문 줄바꿈 및 문장 종결을 보존함."
+    },
+    {
+      "id": "A39474-zh-00008",
+      "source_hash": "0901da54bf934fa7848a32d30c1c0aa0fada8751ff08afdd16ed31caa60b13d6",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "소방시설 설치 및 관리에 관한 법률의 화재안전기준 및 소화설비를 뒤 9행과 함께 대조함."
+    },
+    {
+      "id": "A39474-zh-00009",
+      "source_hash": "8202f97f09eb3278fb519a52fd1f783aa9a01cccaff4877a6d5fba6ec5eff91d",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "8행과 연결하여 소화설비 및 피난설비 구비 의무를 보존함."
+    },
+    {
+      "id": "A39474-zh-00010",
+      "source_hash": "a6700f2f22fed724d163a0a8216e9468e822b8ae1808153d634143a74f419595",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "나. 운영 기준 제목을 乙. 运营标准로 보존함."
+    },
+    {
+      "id": "A39474-zh-00011",
+      "source_hash": "38bb4dcaa3eb3c157da7c9ee927972836d88fc2839458f3823bd79da1a2fe367",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "운영 규정의 제정·시행 소제목을 보존함."
+    },
+    {
+      "id": "A39474-zh-00012",
+      "source_hash": "183271ae13ebb0e4afa83f618e5ee83b7cd08bdcf9228d4bc19fd24d4671da34",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "조직·인사·급여·회계·물품 및 운영에 필요한 규정의 범위를 13행과 연결하여 보존함."
+    }
+  ],
+  "edits": [],
+  "note": "시행령 별표 1 첫 12개 XML 셀의 기존 교정문을 한국어 원문 및 인접 셀과 대조하여 품질 확인. 기존 저장된 교정·원본·ID·해시 유지. 1136행 전체 COMPLETE 아님."
+}
