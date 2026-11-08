@@ -1,0 +1,38 @@
+{
+  "schema": "LAW_ZH_REVIEW_AUDIT_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "panel_id": "panel-01",
+  "assignment_id": "S2-c174f0e36bef5fedb717095f1cea01f6",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:91d15d3fff60]",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "review_path": "review/zh/F-7423351d4946866bbacf.json",
+  "review_blob": "735cf1240a9c98b621be173f8920055ac7aac1e8",
+  "family_documents": 16,
+  "source_rows": 1207,
+  "previous_unique_corrections": 272,
+  "current_unique_corrections": 274,
+  "new_corrected_ids": [
+    "B1-zh-00043",
+    "B1-zh-00048"
+  ],
+  "corrections": [
+    "Act Article 38 production area/production condition should not be region/crop condition",
+    "Act Article 43 physical diminution in volume (감모) should not be value decrease"
+  ],
+  "previous_edits_preserved": true,
+  "source_sha_unchanged": true,
+  "english_status": "B1/B2 English exact-version reference exists; B3 and related annex/forms lack independent English",
+  "receipt_exists": false,
+  "semantic_review_complete": false,
+  "unresolved": [
+    "Full 1207-row semantic certification still pending",
+    "Annex/form XML cell-level correspondence and punctuation-only tokens not fully established"
+  ],
+  "next_action": "Maintain same family, continue ordered full review of Chinese after Korean and available English source review; no COMPLETE before full semantic and cell verification."
+}
