@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 292,
+    "correction_count": 298,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -2069,6 +2069,48 @@
       "original": "根据第  条第 6 款的规定进行报告或要求",
       "corrected": "根据同条第6项的规定应报告或提交",
       "reason": "한국어 별표 5의 조문번호·가중처분 차수·과태료 감경 제외조건에 대한 명백한 오역 교정."
+    },
+    "A34917-zh-00014": {
+      "doc": "A34917",
+      "source_hash": "9840d67e6200a873979c66d7911eb1d6b1122aeb10a008e83673eebff8a2f995",
+      "original": "企业标签",
+      "corrected": "营业标识",
+      "reason": "별지 제1호서식 한국어 원문에 따른 명백한 용어·법령 인용·필수 신청문구 및 처리 절차 누락의 최소 교정."
+    },
+    "A34917-zh-00031": {
+      "doc": "A34917",
+      "source_hash": "ff4ef81080a8a8b4bac9f952f86c9acea506b1aab9b945aadb59ec2764cb5186",
+      "original": "任务管理器",
+      "corrected": "信息披露书业务负责人",
+      "reason": "별지 제1호서식 한국어 원문에 따른 명백한 용어·법령 인용·필수 신청문구 및 처리 절차 누락의 최소 교정."
+    },
+    "A34917-zh-00036": {
+      "doc": "A34917",
+      "source_hash": "1087ab0f2d38ee29ae4e0286b55762b2dd46e2fcef184762f8543347775d0d48",
+      "original": "。",
+      "corrected": "依据上述规定，现申请登记信息披露书。",
+      "reason": "별지 제1호서식 한국어 원문에 따른 명백한 용어·법령 인용·필수 신청문구 및 처리 절차 누락의 최소 교정."
+    },
+    "A34917-zh-00056": {
+      "doc": "A34917",
+      "source_hash": "e5976ba15ffe0d3f98d5284b4385f515ab57a2bfebb443af3f23848cf3bb5a82",
+      "original": "证明其符合该法实施法令第5条第5款第2项任何子款规定的文件",
+      "corrected": "或能够证明符合该法实施令第5条之五第2款各项中任一情形的文件",
+      "reason": "별지 제1호서식 한국어 원문에 따른 명백한 용어·법령 인용·필수 신청문구 및 처리 절차 누락의 최소 교정."
+    },
+    "A34917-zh-00082": {
+      "doc": "A34917",
+      "source_hash": "aef2c3e4ea31ea3eb1b82ac3ef7631fd87618e28138ec881c043a106a45e32cc",
+      "original": "我不会记下手机号码。",
+      "corrected": "不得填写代表人的个人手机号码。",
+      "reason": "별지 제1호서식 한국어 원문에 따른 명백한 용어·법령 인용·필수 신청문구 및 처리 절차 누락의 최소 교정."
+    },
+    "A34917-zh-00089": {
+      "doc": "A34917",
+      "source_hash": "bb6241fd24fab5e5ff615703a8071fa04ef64c6f8e1d5028589e49c0af8081b4",
+      "original": "准备注册证书",
+      "corrected": "拟稿、审批；制作登记证书",
+      "reason": "별지 제1호서식 한국어 원문에 따른 명백한 용어·법령 인용·필수 신청문구 및 처리 절차 누락의 최소 교정."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -2133,7 +2175,8 @@
     "C05 00d89ac6886f: A34914/A34915 reviewed against full Korean annexes. 23 definite corrections: personnel/qualification criteria, facility subsection numbering, fine calculation and discretionary waiver, fines vs penalties, sales vs volume. Full semantic family review IN_PROGRESS.",
     "C05 6dfadf0508d4: annex A34914 and A34915 source-grounded 4 corrections; full Chinese semantic certification remains incomplete.",
     "C05 f2c254040744: Korean annex A34916 penalty-table comparison: 6 confirmed legal-citation and offense semantic corrections. Full Chinese semantic review uncompleted, status IN_PROGRESS.",
-    "C05 f2c254040744 Annex5 further 6 distinct, source verified penalty schedule corrections. No final full row certification."
+    "C05 f2c254040744 Annex5 further 6 distinct, source verified penalty schedule corrections. No final full row certification.",
+    "C05 16f5d26f374d: Annex A34917 Korean source checked; 6 concrete wording/citation/form workflow corrections. No full-family semantic certification."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -2142,5 +2185,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 292
+  "corrected_rows": 298
 }
