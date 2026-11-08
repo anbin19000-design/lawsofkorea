@@ -1,0 +1,137 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_blob_observed": "003cad21fa104b32a22b7d401755e50ffab76f42",
+  "cumulative_corrections": 866,
+  "inspected_span": "Completed A34909 rows 296–328 sequential comparison and began A34910 rows 1–50. The A34909 existing correction decisions at 297, 300–309, 311, 314–319, 322–324 and 326 were retained. A34910 full Korean source (2,395 chars) and all 50 Chinese rows were inspected sequentially; existing corrections for clause hierarchy, numbering, and MTQ/OCR fragments were retained.",
+  "proposed_corrections": [
+    {
+      "id": "A34909-zh-00327",
+      "source_hash": "636994f1204347fe11e5d542cb5ddc842d21dd50f347fa7c068e9ad9cbcbda63",
+      "text": "（如因计算年度平均销售额存在不可避免的困难，则指依公平交易委员会规定并公告的方法计算的销售额）",
+      "reason": "한국어 원문의 '산정하기 곤란한 불가피한 사정이 있는 경우에는 공정거래위원회가 정하여 고시하는 바에 따라 산정한 매출액'을 오역한 부분을 복구."
+    },
+    {
+      "id": "A34909-zh-00328",
+      "source_hash": "3543e2cada5cd2313abb035d6f80bd2d5573ede8a26f2deb5429c3b2cadf359a",
+      "text": "",
+      "reason": "앞 행과 이어지는 정의 문구인지 확인이 필요한 분절. 원문 말미 문장 구조를 확인한 후 결정."
+    },
+    {
+      "id": "A34910-zh-00001",
+      "source_hash": "718d56e6fa4e1f5502de4acf015a49bf53cfa283058540f1bceb43a75a9f479b",
+      "text": "■ 《特许经营业务交易公平化法实施令》[附表1之2] <2026年8月4日修订>",
+      "reason": "별표 1의2는 일반 부속서가 아닌 법령상 별표이므로 '附表' 표기 복구."
+    },
+    {
+      "id": "A34910-zh-00002",
+      "source_hash": "8f5b7f10f91aa066e5fb2b34dd6c0c93569ac239c17978f6ef24de2472b4dea0",
+      "text": "信息披露书的变更事项及变更期限（与第5条之3第1款相关）",
+      "reason": "정보공개서와 변경기한 표제의 법률용어 및 조문 표기 일관성 복구."
+    },
+    {
+      "id": "A34910-zh-00007",
+      "source_hash": "9a3dbdb74f1b2363aa03e11cc81fbd6465a3b8277b76be08e1d891816597bbec",
+      "text": "附表1第1号：全部",
+      "reason": "별표1 제1호 전체를 의미하는 계층 표기 교정."
+    },
+    {
+      "id": "A34910-zh-00011",
+      "source_hash": "aaf25d1dc4a735bd0c6aee8e25970ce4627a576e9ff8c14107611a0af04a5421",
+      "text": "30日",
+      "reason": "변경사유 발생일부터 30일이라는 기한 단위는 맞지만 기준일과 연결되는 표 구조 확인 필요."
+    },
+    {
+      "id": "A34910-zh-00016",
+      "source_hash": "5df9c9c25b616c7b0dd31a3f44fc1ce83ed09437e2f62d0e3a151acc086c224d",
+      "text": "附表1第4号：全部",
+      "reason": "별표1 제4호 전체의 조문 인용 구조를 정규화."
+    },
+    {
+      "id": "A34910-zh-00024",
+      "source_hash": "86a60d4e1b0af712a68554778e8e1d19cbc5c0f0b8a64b6fa4d3729955978193",
+      "text": "附表1第8号：全部",
+      "reason": "별표1 제8호 전체의 조문 인용 구조를 정규화."
+    },
+    {
+      "id": "A34910-zh-00025",
+      "source_hash": "7ef1eccb83debfef39976a778419c17ce50bfbbb569e6c63351912fa47051c24",
+      "text": "附表1第9号：全部",
+      "reason": "별표1 제9호 전체의 조문 인용 구조를 정규화."
+    },
+    {
+      "id": "A34910-zh-00027",
+      "source_hash": "f3707da9a87c4eadee42db0e9db7533b98a226d32d7d6e80b8bd5218e5d3b68e",
+      "text": "每季度结束后30日",
+      "reason": "매 분기가 끝난 후 30일이라는 기한을 정확히 표현."
+    },
+    {
+      "id": "A34910-zh-00030",
+      "source_hash": "9da46e72813ac61dc668fbc9030acd5ec1c7c1403403f75e6496f4173fc3bae5",
+      "text": "每个会计年度结束后120日",
+      "reason": "매 사업연도 종료 후 120일이라는 기한의 기준 단위를 명확히 함."
+    },
+    {
+      "id": "A34910-zh-00036",
+      "source_hash": "22dc0ae8a25635730cefbe8c2faa9700e2b41aa5771d05b41b3572479765bb2e",
+      "text": "每个会计年度结束后180日",
+      "reason": "재무제표 작성 개인사업자인 가맹본부의 예외적 변경등록 신청기한 180일을 정확히 표현."
+    },
+    {
+      "id": "A34910-zh-00040",
+      "source_hash": "e36c51da9f1c139aa7577273664b73b65a672d671ff38ed7da07d055d7697b03",
+      "text": "可以申请变更登记。",
+      "reason": "변경등록 신청 가능 여부를 행정절차 용어로 명확히 함."
+    },
+    {
+      "id": "A34910-zh-00043",
+      "source_hash": "25acf82cd96ceca585c2f0278007f22153d94c901e7b373454bee249b9386e0f",
+      "text": "变更原因发生的季度",
+      "reason": "변경신고 사항의 기한 기준 문구로 원문에 맞춰 표현."
+    },
+    {
+      "id": "A34910-zh-00044",
+      "source_hash": "bbb56c63d872d9a1b38142b7c08d065ebb5c0c8ce73b48c0146504d62eef6127",
+      "text": "结束后30日",
+      "reason": "변경사유 발생 분기 종료 후 30일이라는 기한 구조를 앞뒤 행과 연결."
+    },
+    {
+      "id": "A34910-zh-00045",
+      "source_hash": "9b3ea623061f72b93688cbc00b80ad83b72096b0bb65fbe139beb2d617cc134f",
+      "text": "（仅限与相关",
+      "reason": "이전 행의 정보범위 제한 괄호와 연결되는 분절로 원문 대조 필요."
+    },
+    {
+      "id": "A34910-zh-00046",
+      "source_hash": "8967906d10de626b2ad083fa66fd4a9839a9f2c63442fa86e546bf8589c0d98d",
+      "text": "信息有关的事项）",
+      "reason": "관련 정보에 한정한다는 괄호 문구의 누락 부분 복구."
+    }
+  ],
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "chinese_total_rows": 1687,
+  "checked_rows": 849,
+  "corrected_rows": 866,
+  "quality_open_items": [
+    "Full sequential semantic audit of all 1,687 Chinese rows remains incomplete",
+    "429 rows without independently exact English require direct Korean/Chinese semantic comparison",
+    "A34909 rows 81–235 proposed edits remain checkpoint-only",
+    "A34909 rows 266–328 reviewed; row 327 proposed correction checkpoint-only",
+    "A34910 rows 1–50 reviewed; proposed table labels/deadlines and segmentation fixes checkpoint-only",
+    "Remaining A34910 rows and other annex/form documents require sequential review and final QC"
+  ],
+  "note": "No source SHA changed. All proposed changes remain checkpoint-only and are not included in official correction count. IN_PROGRESS; no receipt."
+}
