@@ -1,0 +1,277 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26699",
+  "quality_batch": "A26699-quality-01",
+  "range": {
+    "first": "A26699-zh-00001",
+    "last": "A26699-zh-00025"
+  },
+  "quality_checked_rows": 25,
+  "quality_passed_rows": 25,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "A26699-zh-00001",
+    "A26699-zh-00002",
+    "A26699-zh-00003",
+    "A26699-zh-00004",
+    "A26699-zh-00005",
+    "A26699-zh-00006",
+    "A26699-zh-00007",
+    "A26699-zh-00008",
+    "A26699-zh-00009",
+    "A26699-zh-00010",
+    "A26699-zh-00011",
+    "A26699-zh-00012",
+    "A26699-zh-00013",
+    "A26699-zh-00014",
+    "A26699-zh-00015",
+    "A26699-zh-00016",
+    "A26699-zh-00017",
+    "A26699-zh-00018",
+    "A26699-zh-00019",
+    "A26699-zh-00020",
+    "A26699-zh-00021",
+    "A26699-zh-00022",
+    "A26699-zh-00023",
+    "A26699-zh-00024",
+    "A26699-zh-00025"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_files": [
+    "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26699-00001-00066.json",
+    "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-R1.json"
+  ],
+  "results": [
+    {
+      "id": "A26699-zh-00001",
+      "source_hash": "795e79b52629bc8b7623495fdf6898e9dc5fc9441ff6cd5b9f149e808b99ab22",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "별지 제7호서식과 2025년 10월 1일 개정 명칭"
+    },
+    {
+      "id": "A26699-zh-00002",
+      "source_hash": "7c69dd6924dc68522d7a09af7688b27e2208d4be68eb1c7186651e709b96e2f2",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "전담의료기관 지정신청서 제목"
+    },
+    {
+      "id": "A26699-zh-00003",
+      "source_hash": "b736160e9f7f0d321a2b458369e87ad0a76a9b7c00b4454ad463a28ce8d1d95b",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "원본 한국어 접수 항목과 일치 여부 확인"
+    },
+    {
+      "id": "A26699-zh-00004",
+      "source_hash": "5a4e38a1578eaec376cc5e1ad28f33f019956fc98d46f14b142cad94c5b1d1a5",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "원본 한국어 접수 항목과 일치 여부 확인"
+    },
+    {
+      "id": "A26699-zh-00005",
+      "source_hash": "73bb6cce4a51c9be6d75cb4162609abed97cc4d3f5abdac1312e42797089d001",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "원본 한국어 접수 항목과 일치 여부 확인"
+    },
+    {
+      "id": "A26699-zh-00006",
+      "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "R1에서 처리기간 MTQ 혼입 제거 후 한국어 처리기간과 대조"
+    },
+    {
+      "id": "A26699-zh-00007",
+      "source_hash": "9b18d080133f1fa67b7a35c702ba00bf12322fbd42a1ae897eda2de2a57aa163",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "처리기간 20일 수치 확인"
+    },
+    {
+      "id": "A26699-zh-00008",
+      "source_hash": "ef1661bfe1d0b773aea1bc51daf1dfa70e9d997454acf123165fd7df67dc959c",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "원본 한국어 접수 항목과 일치 여부 확인"
+    },
+    {
+      "id": "A26699-zh-00009",
+      "source_hash": "135b2d53c337583773ec05ac31eb1e280c78db754abfe7dcfb462196f269bdae",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청인·기관 현황·대표자·법인번호·진료 기관장 항목 확인"
+    },
+    {
+      "id": "A26699-zh-00010",
+      "source_hash": "fcf499d943a69cd0a7f49a2f56d1f62c47ab38e4a8a46df75dba413fe834c156",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청인·기관 현황·대표자·법인번호·진료 기관장 항목 확인"
+    },
+    {
+      "id": "A26699-zh-00011",
+      "source_hash": "6bb977cc7fd9abf728aee5d61d7beddddd356404bd01ccf71ae740fb12c87720",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청인·기관 현황·대표자·법인번호·진료 기관장 항목 확인"
+    },
+    {
+      "id": "A26699-zh-00012",
+      "source_hash": "4edc94394feec0a6ca6b04c04db74384ad82a009922c2195ea48a7c1cda5088e",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청인·기관 현황·대표자·법인번호·진료 기관장 항목 확인"
+    },
+    {
+      "id": "A26699-zh-00013",
+      "source_hash": "28e058c7cec8846e6c5fb52308685e1c534d4b8a745ab01a9d40c045f3fd6c71",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청인·기관 현황·대표자·법인번호·진료 기관장 항목 확인"
+    },
+    {
+      "id": "A26699-zh-00014",
+      "source_hash": "b727d44a4175bf83009d9315045d3411d3ec2015ac351cbde340b32d67260dbf",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청인·기관 현황·대표자·법인번호·진료 기관장 항목 확인"
+    },
+    {
+      "id": "A26699-zh-00015",
+      "source_hash": "4cda38a249ab558190e607c4e4e9aca9c14c4591b75debb9989be5cba4ceab0f",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청인·기관 현황·대표자·법인번호·진료 기관장 항목 확인"
+    },
+    {
+      "id": "A26699-zh-00016",
+      "source_hash": "0b2058159659b5565c76e42b27766ba76f98a6e1a8d3cf0bc08ecd28b87626ce",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청인·기관 현황·대표자·법인번호·진료 기관장 항목 확인"
+    },
+    {
+      "id": "A26699-zh-00017",
+      "source_hash": "ef4403031e6e67eb6ff612ac7f030ff5fcf2e12e2b56fe2fa253adc78b0c68bb",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청인·기관 현황·대표자·법인번호·진료 기관장 항목 확인"
+    },
+    {
+      "id": "A26699-zh-00018",
+      "source_hash": "db2646da7eacd6f73821c10677f834894ca403e2b4a3d80a8f5a2c4283d41306",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청인·기관 현황·대표자·법인번호·진료 기관장 항목 확인"
+    },
+    {
+      "id": "A26699-zh-00019",
+      "source_hash": "f7ea9e331f80935959d8c179f685fbbdfde7f0301e791106a64b454bb1d6e80c",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청인·기관 현황·대표자·법인번호·진료 기관장 항목 확인"
+    },
+    {
+      "id": "A26699-zh-00020",
+      "source_hash": "49fcc0b198e50d110d33bf7a2810aab92c0dbe182ff1c1579d86ad450f86cd64",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "진료과목 및 종사자 총수·의사·간호사·기타 인원 구분 확인"
+    },
+    {
+      "id": "A26699-zh-00021",
+      "source_hash": "72b8cbdf8773c47da3a176b9b498628926cfa0c402aed0d7f44c589042914e47",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "진료과목 및 종사자 총수·의사·간호사·기타 인원 구분 확인"
+    },
+    {
+      "id": "A26699-zh-00022",
+      "source_hash": "5a849f1fc9d520fe3fc6c5527b3ed46b776b38a878724fb77858177cfaac612c",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "진료과목 및 종사자 총수·의사·간호사·기타 인원 구분 확인"
+    },
+    {
+      "id": "A26699-zh-00023",
+      "source_hash": "7643fa9d8233b8cda097a5d349bcd68c6e77ecef7b56b7d3dfda9b28bc533886",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "진료과목 및 종사자 총수·의사·간호사·기타 인원 구분 확인"
+    },
+    {
+      "id": "A26699-zh-00024",
+      "source_hash": "4b580fd4da7e34ac88eed3ee81f23ee37af229b7dbefb8dc086c61a1ebea07c6",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "진료과목 및 종사자 총수·의사·간호사·기타 인원 구분 확인"
+    },
+    {
+      "id": "A26699-zh-00025",
+      "source_hash": "83d6e245e6e7e718103bd493e41c90ea4bed24ba47e82f7ad69f95b29b004ca7",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "진료과목 및 종사자 총수·의사·간호사·기타 인원 구분 확인"
+    }
+  ],
+  "edits": [],
+  "note": "A26699 전담의료기관 지정 신청서 첫 25개 셀의 신청인·기관 개요·종사자·20일 처리기간 확인. R1 6번 MTQ 교정 및 기존 진행 교정 불변. 가족 전체 COMPLETE 아님."
+}
