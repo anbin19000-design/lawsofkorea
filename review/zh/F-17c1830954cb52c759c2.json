@@ -19,10 +19,10 @@
   "progress": {
     "korean": "COMPLETE",
     "english": "COMPLETE",
-    "chinese": "IN_PROGRESS; B1/B2 complete; B3 Articles 1-25 reviewed with row 27 annex-content source gap; all Decree appendices A39652-A39656 reviewed/corrected. Next forms A27040-A27061.",
-    "reviewed_rows": 295,
-    "corrected_rows": 260,
-    "remaining_rows": 980
+    "chinese": "IN_PROGRESS; A27041 criteria corrected; form MTQ/OCR remnants corrected for A27044/47/48/49/52/53/56/57/58 and inspector ID A27061. Other forms and annex tables remain under sequential review.",
+    "reviewed_rows": 360,
+    "corrected_rows": 325,
+    "remaining_rows": 915
   },
   "documents": [],
   "rows": [
@@ -9813,10 +9813,15 @@
       "end": null,
       "target_id": "XML:1906682",
       "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
-      "text": "处理周期MTQc2e2f91c71addd2000420结束",
+      "text": "办理期限：60日",
       "text_original": "处理周期MTQc2e2f91c71addd2000420结束",
-      "text_reviewed": "处理周期MTQc2e2f91c71addd2000420结束",
-      "review_status": "PENDING"
+      "text_reviewed": "办理期限：60日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "移除MTQ残留并恢复表单办理期限。"
+        }
+      ]
     },
     {
       "id": "A27044-zh-00007",
@@ -10275,10 +10280,15 @@
       "end": null,
       "target_id": "XML:1906716",
       "source_hash": "1a5be3c5938c8c2cedf096bb1485ce5f53335572edc7c3dbbf132e7bf9927045",
-      "text": "确认MTQ58ff4ab269393e6100315结束",
+      "text": "经办人确认事项",
       "text_original": "确认MTQ58ff4ab269393e6100315结束",
-      "text_reviewed": "确认MTQ58ff4ab269393e6100315结束",
-      "review_status": "PENDING"
+      "text_reviewed": "经办人确认事项",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正经办人确认栏标签。"
+        }
+      ]
     },
     {
       "id": "A27045-zh-00001",
@@ -10863,10 +10873,15 @@
       "end": null,
       "target_id": "XML:1906759",
       "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
-      "text": "处理周期MTQc2e2f91c71addd2000420结束",
+      "text": "办理期限：120日",
       "text_original": "处理周期MTQc2e2f91c71addd2000420结束",
-      "text_reviewed": "处理周期MTQc2e2f91c71addd2000420结束",
-      "review_status": "PENDING"
+      "text_reviewed": "办理期限：120日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "移除MTQ残留并恢复办理期限。"
+        }
+      ]
     },
     {
       "id": "A27047-zh-00012",
@@ -11969,10 +11984,15 @@
       "end": null,
       "target_id": "XML:1906839",
       "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
-      "text": "处理周期MTQc2e2f91c71addd2000420结束",
+      "text": "办理期限：40日",
       "text_original": "处理周期MTQc2e2f91c71addd2000420结束",
-      "text_reviewed": "处理周期MTQc2e2f91c71addd2000420结束",
-      "review_status": "PENDING"
+      "text_reviewed": "办理期限：40日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "移除MTQ残留并恢复办理期限。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00011",
@@ -12669,10 +12689,15 @@
       "end": null,
       "target_id": "XML:1906894",
       "source_hash": "1a5be3c5938c8c2cedf096bb1485ce5f53335572edc7c3dbbf132e7bf9927045",
-      "text": "确认MTQ58ff4ab269393e6100315结束",
+      "text": "经办人确认事项",
       "text_original": "确认MTQ58ff4ab269393e6100315结束",
-      "text_reviewed": "确认MTQ58ff4ab269393e6100315结束",
-      "review_status": "PENDING"
+      "text_reviewed": "经办人确认事项",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正经办人确认栏标签。"
+        }
+      ]
     },
     {
       "id": "A27048-zh-00061",
@@ -13047,10 +13072,15 @@
       "end": null,
       "target_id": "XML:1906922",
       "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
-      "text": "处理周期MTQc2e2f91c71addd2000420结束",
+      "text": "办理期限：90日",
       "text_original": "处理周期MTQc2e2f91c71addd2000420结束",
-      "text_reviewed": "处理周期MTQc2e2f91c71addd2000420结束",
-      "review_status": "PENDING"
+      "text_reviewed": "办理期限：90日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "移除MTQ残留并恢复办理期限。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00010",
@@ -13537,10 +13567,15 @@
       "end": null,
       "target_id": "XML:1906960",
       "source_hash": "bd756801b2c64a089e11b0169882ee151cfaa4789fae3fe2f70416e49e5ccaeb",
-      "text": "商业计划书（含 START 详情）",
+      "text": "事业计划书（含事业计划内容）",
       "text_original": "商业计划书（含 START 详情）",
-      "text_reviewed": "商业计划书（含 START 详情）",
-      "review_status": "PENDING"
+      "text_reviewed": "事业计划书（含事业计划内容）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "清除OCR/MTQ残留START，恢复附件文件名。"
+        }
+      ]
     },
     {
       "id": "A27049-zh-00045",
@@ -15035,10 +15070,15 @@
       "end": null,
       "target_id": "XML:1907073",
       "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
-      "text": "处理周期MTQc2e2f91c71addd2000420结束",
+      "text": "办理期限：20日",
       "text_original": "处理周期MTQc2e2f91c71addd2000420结束",
-      "text_reviewed": "处理周期MTQc2e2f91c71addd2000420结束",
-      "review_status": "PENDING"
+      "text_reviewed": "办理期限：20日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "移除MTQ残留并恢复办理期限。"
+        }
+      ]
     },
     {
       "id": "A27052-zh-00007",
@@ -15343,10 +15383,15 @@
       "end": null,
       "target_id": "XML:1907098",
       "source_hash": "913573faa9271ee79c7299610e305eef2e1f26051e114d908730be3bf9c701fe",
-      "text": "《城市空中交通促进支援法》第九十三条第十二款但书及该法实施细则第十五条",
+      "text": "依据《促进和支持城市空中交通利用法》第93条第12款但书及同法施行规则第15条第3款，申请竣工确认前使用许可。",
       "text_original": "《城市空中交通促进支援法》第九十三条第十二款但书及该法实施细则第十五条",
-      "text_reviewed": "《城市空中交通促进支援法》第九十三条第十二款但书及该法实施细则第十五条",
-      "review_status": "PENDING"
+      "text_reviewed": "依据《促进和支持城市空中交通利用法》第93条第12款但书及同法施行规则第15条第3款，申请竣工确认前使用许可。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "保留韩国原表格确实记载的第93条第12款这一原文异常，不擅自改为第9条；补全被遗漏的第15条第3款。"
+        }
+      ]
     },
     {
       "id": "A27052-zh-00029",
@@ -15357,10 +15402,15 @@
       "end": null,
       "target_id": "XML:1907099",
       "source_hash": "d43e626953eaf8e9108a3bc37b91f29c6c8d92da284540533162035a5c6f7ac4",
-      "text": "根据第 3 条规定，我特此申请在确认垂直起降场竣工之前使用该设施的许可证。",
+      "text": "（申请竣工确认前使用许可）",
       "text_original": "根据第 3 条规定，我特此申请在确认垂直起降场竣工之前使用该设施的许可证。",
-      "text_reviewed": "根据第 3 条规定，我特此申请在确认垂直起降场竣工之前使用该设施的许可证。",
-      "review_status": "PENDING"
+      "text_reviewed": "（申请竣工确认前使用许可）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "纠正原译文“根据第3条”的无依据残句。"
+        }
+      ]
     },
     {
       "id": "A27052-zh-00030",
@@ -15875,10 +15925,15 @@
       "end": null,
       "target_id": "XML:1907137",
       "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
-      "text": "处理周期MTQc2e2f91c71addd2000420结束",
+      "text": "办理期限：60日",
       "text_original": "处理周期MTQc2e2f91c71addd2000420结束",
-      "text_reviewed": "处理周期MTQc2e2f91c71addd2000420结束",
-      "review_status": "PENDING"
+      "text_reviewed": "办理期限：60日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "移除MTQ残留并恢复办理期限。"
+        }
+      ]
     },
     {
       "id": "A27053-zh-00008",
@@ -16015,10 +16070,15 @@
       "end": null,
       "target_id": "XML:1907147",
       "source_hash": "24b96cae30f752ac3235ce6020dcc82b7a63539b402e0d2469e6c60660838c45",
-      "text": "业务办公室名称和地址  END",
+      "text": "营业所名称及所在地",
       "text_original": "业务办公室名称和地址  END",
-      "text_reviewed": "业务办公室名称和地址  END",
-      "review_status": "PENDING"
+      "text_reviewed": "营业所名称及所在地",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "移除END残留并修正表单字段。"
+        }
+      ]
     },
     {
       "id": "A27053-zh-00018",
@@ -16435,10 +16495,15 @@
       "end": null,
       "target_id": "XML:1907179",
       "source_hash": "1a5be3c5938c8c2cedf096bb1485ce5f53335572edc7c3dbbf132e7bf9927045",
-      "text": "确认MTQ58ff4ab269393e6100315结束",
+      "text": "经办人确认事项",
       "text_original": "确认MTQ58ff4ab269393e6100315结束",
-      "text_reviewed": "确认MTQ58ff4ab269393e6100315结束",
-      "review_status": "PENDING"
+      "text_reviewed": "经办人确认事项",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "移除MTQ残留并恢复确认栏标签。"
+        }
+      ]
     },
     {
       "id": "A27054-zh-00001",
@@ -16967,10 +17032,15 @@
       "end": null,
       "target_id": "XML:1907218",
       "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
-      "text": "处理周期MTQc2e2f91c71addd2000420结束",
+      "text": "办理期限：30日",
       "text_original": "处理周期MTQc2e2f91c71addd2000420结束",
-      "text_reviewed": "处理周期MTQc2e2f91c71addd2000420结束",
-      "review_status": "PENDING"
+      "text_reviewed": "办理期限：30日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "移除MTQ残留并恢复办理期限。"
+        }
+      ]
     },
     {
       "id": "A27056-zh-00007",
@@ -17751,10 +17821,15 @@
       "end": null,
       "target_id": "XML:1907277",
       "source_hash": "fbfdc477a91e77cb1083a93c93a35e1f7709b31c96745750474a110d446431e7",
-      "text": "信息MTQbc63d4b54a0e3c9900047结束",
+      "text": "其他告知事项",
       "text_original": "信息MTQbc63d4b54a0e3c9900047结束",
-      "text_reviewed": "信息MTQbc63d4b54a0e3c9900047结束",
-      "review_status": "PENDING"
+      "text_reviewed": "其他告知事项",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "移除MTQ残留并恢复表单栏目。"
+        }
+      ]
     },
     {
       "id": "A27057-zh-00020",
@@ -17933,10 +18008,15 @@
       "end": null,
       "target_id": "XML:1907290",
       "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
-      "text": "处理周期MTQc2e2f91c71addd2000420结束",
+      "text": "办理期限：60日",
       "text_original": "处理周期MTQc2e2f91c71addd2000420结束",
-      "text_reviewed": "处理周期MTQc2e2f91c71addd2000420结束",
-      "review_status": "PENDING"
+      "text_reviewed": "办理期限：60日",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "移除MTQ残留并恢复办理期限。"
+        }
+      ]
     },
     {
       "id": "A27058-zh-00007",
@@ -18101,10 +18181,15 @@
       "end": null,
       "target_id": "XML:1907302",
       "source_hash": "343b584494faac2e8642c7f1bdff649073d34c65ff5c5e75054336f5529b1b12",
-      "text": "《城市空中交通促进支援法》第二十四条第四款及该法实施细则第二十三条第一款",
+      "text": "依据《促进和支持城市空中交通利用法》第24条第4款及同法施行规则第23条第1款，申请指定为专业人才培养机构。",
       "text_original": "《城市空中交通促进支援法》第二十四条第四款及该法实施细则第二十三条第一款",
-      "text_reviewed": "《城市空中交通促进支援法》第二十四条第四款及该法实施细则第二十三条第一款",
-      "review_status": "PENDING"
+      "text_reviewed": "依据《促进和支持城市空中交通利用法》第24条第4款及同法施行规则第23条第1款，申请指定为专业人才培养机构。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正法名并恢复完整申请语义。"
+        }
+      ]
     },
     {
       "id": "A27058-zh-00019",
@@ -18115,10 +18200,15 @@
       "end": null,
       "target_id": "XML:1907303",
       "source_hash": "26aab384bcd9e0738c9358713d0cc7a742b8353255a35eef06ab0fb5a54c8143",
-      "text": "因此，我特此申请将我校指定为上述专业人员培训机构。",
+      "text": "（专业人才培养机构指定申请）",
       "text_original": "因此，我特此申请将我校指定为上述专业人员培训机构。",
-      "text_reviewed": "因此，我特此申请将我校指定为上述专业人员培训机构。",
-      "review_status": "PENDING"
+      "text_reviewed": "（专业人才培养机构指定申请）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正原译文中不适当的“我校”表述。"
+        }
+      ]
     },
     {
       "id": "A27058-zh-00020",
@@ -18927,10 +19017,15 @@
       "end": null,
       "target_id": "XML:1907363",
       "source_hash": "b6ef554c92c1ee06c5c51142ea35929d24f513f49937876ea1d846a0a7057648",
-      "text": "（前端）",
+      "text": "（正面）",
       "text_original": "（前端）",
-      "text_reviewed": "（前端）",
-      "review_status": "PENDING"
+      "text_reviewed": "（正面）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正证件版面标注。"
+        }
+      ]
     },
     {
       "id": "A27061-zh-00003",
@@ -18955,10 +19050,15 @@
       "end": null,
       "target_id": "XML:1907365",
       "source_hash": "8d5daa2251e73c4015cd0197f84191374616b6b9e113ac26de7e649fa915e28d",
-      "text": "检查官方ID",
+      "text": "检查公务员证",
       "text_original": "检查官方ID",
-      "text_reviewed": "检查官方ID",
-      "review_status": "PENDING"
+      "text_reviewed": "检查公务员证",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正证件名称。"
+        }
+      ]
     },
     {
       "id": "A27061-zh-00005",
@@ -18997,10 +19097,15 @@
       "end": null,
       "target_id": "XML:1907368",
       "source_hash": "98ebd37ce3c1cd6abbe7da2f848d87a6002a00b609ecf9e582bbc5019f4ffbbf",
-      "text": "公司",
+      "text": "照片",
       "text_original": "公司",
-      "text_reviewed": "公司",
-      "review_status": "PENDING"
+      "text_reviewed": "照片",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "恢复照片栏标签。"
+        }
+      ]
     },
     {
       "id": "A27061-zh-00008",
@@ -19011,10 +19116,15 @@
       "end": null,
       "target_id": "XML:1907369",
       "source_hash": "b010248c8c2c3154a576549e73d18403d19047e5da834babcaabf0c46ffe3334",
-      "text": "金",
+      "text": "（3.5厘米×4.5厘米）",
       "text_original": "金",
-      "text_reviewed": "金",
-      "review_status": "PENDING"
+      "text_reviewed": "（3.5厘米×4.5厘米）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "原尺寸字段与照片说明分开。"
+        }
+      ]
     },
     {
       "id": "A27061-zh-00009",
@@ -19053,10 +19163,15 @@
       "end": null,
       "target_id": "XML:1907372",
       "source_hash": "ffa3c0de0f615f113b29ddf80a49453b98fa2cfa7c92117ee63095a958d8e74f",
-      "text": "地区",
+      "text": "类别（Occupation）：",
       "text_original": "地区",
-      "text_reviewed": "地区",
-      "review_status": "PENDING"
+      "text_reviewed": "类别（Occupation）：",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "恢复证件类别字段。"
+        }
+      ]
     },
     {
       "id": "A27061-zh-00012",
@@ -19067,10 +19182,15 @@
       "end": null,
       "target_id": "XML:1907373",
       "source_hash": "4ae4112cf8fdf27eb17a47cbe3e6abdb1cb8c91c497edb5bc54dc50adc39a544",
-      "text": "职业",
+      "text": "（类别）",
       "text_original": "职业",
-      "text_reviewed": "职业",
-      "review_status": "PENDING"
+      "text_reviewed": "（类别）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正错误标签。"
+        }
+      ]
     },
     {
       "id": "A27061-zh-00013",
@@ -19081,10 +19201,15 @@
       "end": null,
       "target_id": "XML:1907374",
       "source_hash": "b127abae8b5360094d7101b2f9fa89058f5edb9b69c4dd7410312b7e55f04c30",
-      "text": "（自提交日期起 6 个月）",
+      "text": "（自提交申请之日起6个月以内拍摄）",
       "text_original": "（自提交日期起 6 个月）",
-      "text_reviewed": "（自提交日期起 6 个月）",
-      "review_status": "PENDING"
+      "text_reviewed": "（自提交申请之日起6个月以内拍摄）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正照片拍摄时间要求。"
+        }
+      ]
     },
     {
       "id": "A27061-zh-00014",
@@ -19095,10 +19220,15 @@
       "end": null,
       "target_id": "XML:1907375",
       "source_hash": "5f298ffba8ca550e5a90aa0db2fcaec162adfe2dd26b795b8fb152834bf59dea",
-      "text": "在此期间，帽子被移除",
+      "text": "未戴帽子",
       "text_original": "在此期间，帽子被移除",
-      "text_reviewed": "在此期间，帽子被移除",
-      "review_status": "PENDING"
+      "text_reviewed": "未戴帽子",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正照片拍摄状态。"
+        }
+      ]
     },
     {
       "id": "A27061-zh-00015",
@@ -19109,10 +19239,15 @@
       "end": null,
       "target_id": "XML:1907377",
       "source_hash": "c8858b0ff4bcd6d62098a53b1ae27a685912fa1144ceb2ab894a088ab548c5aa",
-      "text": "名称",
+      "text": "在无背景的情况下拍摄的上半身彩色照片",
       "text_original": "名称",
-      "text_reviewed": "名称",
-      "review_status": "PENDING"
+      "text_reviewed": "在无背景的情况下拍摄的上半身彩色照片",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正照片说明。"
+        }
+      ]
     },
     {
       "id": "A27061-zh-00016",
@@ -19123,10 +19258,15 @@
       "end": null,
       "target_id": "XML:1907378",
       "source_hash": "dcce20700046f9261885b9f7d14e9226291d944a9630b1e86e3f243d177af03d",
-      "text": "状态，无后台",
+      "text": "姓名（Name）：",
       "text_original": "状态，无后台",
-      "text_reviewed": "状态，无后台",
-      "review_status": "PENDING"
+      "text_reviewed": "姓名（Name）：",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正证件字段。"
+        }
+      ]
     },
     {
       "id": "A27061-zh-00017",
@@ -19137,10 +19277,15 @@
       "end": null,
       "target_id": "XML:1907379",
       "source_hash": "c9b5f16618dc9d6c3d2f2b730dba6a5471a689688baaa93ae81ae27c6e42a6fa",
-      "text": "拍摄的上半身彩色照片）",
+      "text": "（姓名）",
       "text_original": "拍摄的上半身彩色照片）",
-      "text_reviewed": "拍摄的上半身彩色照片）",
-      "review_status": "PENDING"
+      "text_reviewed": "（姓名）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正错误字段残片。"
+        }
+      ]
     },
     {
       "id": "A27061-zh-00018",
@@ -19207,10 +19352,15 @@
       "end": null,
       "target_id": "XML:1907384",
       "source_hash": "9bf1d0be1fcaa1131ed5e585ef0cb4e487d0e2a76e09c4049732f8f03ece303e",
-      "text": "受雇于",
+      "text": "所属单位（Employed by）：",
       "text_original": "受雇于",
-      "text_reviewed": "受雇于",
-      "review_status": "PENDING"
+      "text_reviewed": "所属单位（Employed by）：",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "恢复所属单位字段。"
+        }
+      ]
     },
     {
       "id": "A27061-zh-00023",
@@ -19263,10 +19413,15 @@
       "end": null,
       "target_id": "XML:1907388",
       "source_hash": "39917bea8c41bd49888f7f45dba426e708624979db5e27c18b10ed495428ff52",
-      "text": "直到第(d)天",
+      "text": "有效期限至：",
       "text_original": "直到第(d)天",
-      "text_reviewed": "直到第(d)天",
-      "review_status": "PENDING"
+      "text_reviewed": "有效期限至：",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正证件有效期字段。"
+        }
+      ]
     },
     {
       "id": "A27061-zh-00027",
@@ -19305,10 +19460,15 @@
       "end": null,
       "target_id": "XML:1907391",
       "source_hash": "d6d87e05c543e71cabaccf3ed61804e7e814d1a465e94f4fdc59f331ba61f822",
-      "text": "(后部)",
+      "text": "（背面）",
       "text_original": "(后部)",
-      "text_reviewed": "(后部)",
-      "review_status": "PENDING"
+      "text_reviewed": "（背面）",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正证件版面标注。"
+        }
+      ]
     },
     {
       "id": "A27061-zh-00030",
@@ -19333,10 +19493,15 @@
       "end": null,
       "target_id": "XML:1907393",
       "source_hash": "129afe3560acbdbdd8c0e241c24b780f35aa44f1e113f298cc5c78c1cc8dff02",
-      "text": "此人受《城市空中交通促进支援法》第27条的约束。",
+      "text": "兹证明此人为依据《促进和支持城市空中交通利用法》第27条，有权命令城市空中交通事业者提交必要报告或资料，并可进入其办公室或其他必要场所检查相关业务的公务员。",
       "text_original": "此人受《城市空中交通促进支援法》第27条的约束。",
-      "text_reviewed": "此人受《城市空中交通促进支援法》第27条的约束。",
-      "review_status": "PENDING"
+      "text_reviewed": "兹证明此人为依据《促进和支持城市空中交通利用法》第27条，有权命令城市空中交通事业者提交必要报告或资料，并可进入其办公室或其他必要场所检查相关业务的公务员。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正背面韩文说明的核心法律含义。"
+        }
+      ]
     },
     {
       "id": "A27061-zh-00032",
@@ -19347,10 +19512,15 @@
       "end": null,
       "target_id": "XML:1907394",
       "source_hash": "67d5a8b29b4656a27bd0a2e17bccbe7276524a84f1c9f78e5ca0600c13dfc18c",
-      "text": "可以责令城市航空运输经营者按规定提交必要的报告或数据。",
+      "text": "有权命令城市空中交通事业者提交必要报告或资料，",
       "text_original": "可以责令城市航空运输经营者按规定提交必要的报告或数据。",
-      "text_reviewed": "可以责令城市航空运输经营者按规定提交必要的报告或数据。",
-      "review_status": "PENDING"
+      "text_reviewed": "有权命令城市空中交通事业者提交必要报告或资料，",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "补齐证件授权内容。"
+        }
+      ]
     },
     {
       "id": "A27061-zh-00033",
@@ -19361,10 +19531,15 @@
       "end": null,
       "target_id": "XML:1907395",
       "source_hash": "29f53b8aa83355a7073f7ed0ae910b38db7a01f5a1a7f92a17834450aaeded53",
-      "text": "并进入城市空中交通运营商办公室或其他必要地点",
+      "text": "并可进入城市空中交通事业者的办公室或其他必要场所，",
       "text_original": "并进入城市空中交通运营商办公室或其他必要地点",
-      "text_reviewed": "并进入城市空中交通运营商办公室或其他必要地点",
-      "review_status": "PENDING"
+      "text_reviewed": "并可进入城市空中交通事业者的办公室或其他必要场所，",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正事业者名称及进入权限。"
+        }
+      ]
     },
     {
       "id": "A27061-zh-00034",
@@ -19375,10 +19550,15 @@
       "end": null,
       "target_id": "XML:1907396",
       "source_hash": "65b59185036c6fc0ec37075d14167b5fcc0308cf54bbf868b4e427ba2be32f8b",
-      "text": "证明我是一名有资格检查这项工作的公职人员。",
+      "text": "检查其业务。",
       "text_original": "证明我是一名有资格检查这项工作的公职人员。",
-      "text_reviewed": "证明我是一名有资格检查这项工作的公职人员。",
-      "review_status": "PENDING"
+      "text_reviewed": "检查其业务。",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "补齐检查权限内容。"
+        }
+      ]
     },
     {
       "id": "A27061-zh-00035",
@@ -19501,10 +19681,15 @@
       "end": null,
       "target_id": "XML:1907405",
       "source_hash": "9571d4c1342a632e54ed77d876335e9bd629e100e76e8118d290c879db57b832",
-      "text": "国土交通大臣",
+      "text": "国土交通部长官",
       "text_original": "国土交通大臣",
-      "text_reviewed": "国土交通大臣",
-      "review_status": "PENDING"
+      "text_reviewed": "国土交通部长官",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正机关正式称谓。"
+        }
+      ]
     },
     {
       "id": "A27061-zh-00044",
@@ -19515,10 +19700,15 @@
       "end": null,
       "target_id": "XML:1907406",
       "source_hash": "83faf39dac58235c740844adf247d4dbd9a608fae4774efc8097334b9dc8611c",
-      "text": "官方",
+      "text": "官印",
       "text_original": "官方",
-      "text_reviewed": "官方",
-      "review_status": "PENDING"
+      "text_reviewed": "官印",
+      "review_status": "REVIEWED_CORRECTED",
+      "review_notes": [
+        {
+          "reason": "修正官方印章字段。"
+        }
+      ]
     },
     {
       "id": "A27061-zh-00045",
