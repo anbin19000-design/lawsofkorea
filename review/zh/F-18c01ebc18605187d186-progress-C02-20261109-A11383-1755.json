@@ -20480,7 +20480,7 @@
     },
     {
       "id": "A11383-zh-00043",
-      "text": "精神科专科医生、心理健康专业人员或主管保健所所长出具的意见书一份",
+      "text": "精神科专科医生出具的意见书，或心理健康专业人员或辖区保健所所长出具的意见书",
       "source_hash": "1d731f6b02b3081bdb90e6f6ed51440ad8fb0ae0d7352e67f9ad06d7aba5cf40",
       "target_id": "XML:841710",
       "source_progress": "C02 sequential A11383 review against complete Korean Enforcement Rule Form 25 outpatient treatment support request for a patient who discontinued treatment; corrected medical-aid types, treatment history, interruption period, outpatient institution, statutory citation and process labels. No English document exists."
@@ -23640,7 +23640,8 @@
     "Sequential review completed for A11381 (58 rows). Corrected 31 obvious mistranslations/corruptions including statutory basis, reconsideration grounds and 14-day deadline, applicant and patient relationship fields, and attachment/fee language. Preserved the form's split-cell structure; no English document exists.",
     "A11381附件栏最终按韩文表格的跨栏顺序校正：第一项证明文件、手续费/无、第一项适用条件括号分段、第二项审查结果通知书副本及其适用条件；避免把“MTQ”污染字符串当作原文或重复整句。",
     "Sequential review completed for A11382 (72 rows). Corrected 33 obvious mistranslations, including corrupted processing period, medical-aid benefit category, 입원 date (not school admission), outpatient institution, and invoice/receipt workflow labels. All other checked fragments retained. No English document exists.",
-    "Sequential review completed for A11383 (69 rows). Corrected 36 obvious mistranslations including benefit categories, admission count/date, prior self/other harm-related treatment, interrupted treatment duration, outpatient institution, and invoice workflow. All other checked fragments retained. No English document exists."
+    "Sequential review completed for A11383 (69 rows). Corrected 36 obvious mistranslations including benefit categories, admission count/date, prior self/other harm-related treatment, interrupted treatment duration, outpatient institution, and invoice workflow. All other checked fragments retained. No English document exists.",
+    "A11383附件意见书跨行校正：把“一份”保留在独立数量单元，避免与意见书内容重复。"
   ],
   "checkpoint_id": "C02-20261109-A11383-CHECKED",
   "checkpoint_status": "IN_PROGRESS",
