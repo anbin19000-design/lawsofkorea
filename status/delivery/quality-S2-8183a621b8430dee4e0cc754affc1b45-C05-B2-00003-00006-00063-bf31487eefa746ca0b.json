@@ -1,0 +1,38 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-3705abbc710de4b867bc",
+  "worker": "C05",
+  "branch": "main",
+  "source_blobs": {
+    "ko": "7974bf81d14f4838ae85d4b3ceea80a2f0e65fed",
+    "zh": "045dd328cd77f3eecd8b6cd485be27f2389773e8"
+  },
+  "checked_ids": [
+    "B2-zh-00003",
+    "B2-zh-00004",
+    "B2-zh-00063"
+  ],
+  "checked_rows": 3,
+  "adopted_edits": [
+    {
+      "id": "B2-zh-00003",
+      "text": "第一条（目的）本法令的目的是规定《消防设备管理法》授权委任的事项以及为执行该法所必需的事项。\n\n第二章 消防设备管理基本计划的制定等\n\n"
+    },
+    {
+      "id": "B2-zh-00004",
+      "text": "第二条（基本计划和实施计划中重要事项的变更）《消防设备管理法》（以下简称“法”）第四条第五款后半部分所称“总统令规定的重要事项”，是指下列各项所指的事项。\n1. 消防设备管理中长期政策目标或方向的变化\n2. 根据法第四条第一款制定的消防设备管理基本计划（以下简称“基本计划”）的总项目经费规模变更百分之十以上\n\n"
+    },
+    {
+      "id": "B2-zh-00063",
+      "text": "附则（关于因新设统合特别市而部分修改消防厅主管的21项法令的总统令）<第36432号，2026年6月23日>\n\n本施行令自2026年7月1日起施行。\n\n"
+    }
+  ],
+  "judgment": "PASS_EXISTING_CORRECTIONS",
+  "rationale": {
+    "B2-zh-00003": "Korean 제1조 expressly refers to matters delegated by 소방장비관리법 and its implementation; existing Chinese candidate restores law name and corrects 委托 to 授权委任; chapter 2 heading aligns with 소방장비관리 기본계획.",
+    "B2-zh-00004": "Korean 제2조 cites 법 제4조제5항 후단 and 제4조제1항, establishes a >=10% change threshold and defines 기본계획; existing Chinese candidate retains the precise references and threshold.",
+    "B2-zh-00063": "Korean final supplementary provision is 대통령령 제36432호 2026.6.23 and 시행일 2026.7.1; existing Chinese candidate exactly limits this row to that supplementary provision and removes mistakenly appended next-annex content including Korean and English residues. Annex is separately indexed; do not count it as B2 content."
+  },
+  "status": "QUALITY_PARTIAL",
+  "note": "A25281 prior quality file remains untouched. These three B2 IDs verified without duplicate row progress. Other B2 corrections await independent final quality verification; no COMPLETE receipt."
+}
