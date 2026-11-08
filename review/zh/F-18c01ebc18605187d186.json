@@ -1080,6 +1080,34 @@
       "source_hash": "ba492a9afcf23c86d5d0eda77c28f53c426c25dd8184edfb4502339396c1f343",
       "target_id": "8848dd62581df0c68ef1e98bb361e8d6db08a952c19190dad708853caccdb9ad",
       "source_progress": "C02 sequential review; Korean B2 cross-check"
+    },
+    {
+      "id": "B2-zh-00073",
+      "text": "附则（关于自治警察事务及市/道自治警察委员会的组织、运营等规定）<第31349号，2020年12月31日>\n\n",
+      "source_hash": "6fd3a7ca47c3098f1cfddfe954fdcfc813b3b53cb5d74568febe2a901287e82b",
+      "target_id": "19d2a0c7fb22f8a88f31849e71118e77a671d581c6c0dcbc1f58e58ef22e413a",
+      "source_progress": "C02 sequential review; Korean B2 source cross-check"
+    },
+    {
+      "id": "B2-zh-00076",
+      "text": "第四条（其他法令的修正）①至〈35〉省略\n\n〈36〉对《精神健康促进及精神疾病患者福利服务支援法施行令》作如下部分修正。\n\n第8条第1款第1号中的“《警察法》第2条”改为“《国家警察与自治警察组织及运营法》第13条”。\n\n〈37〉至〈49〉省略\n\n",
+      "source_hash": "801c3b3f882da08112d651b9e5b5d8f1532522f10b14eec8951d0b7230aab096",
+      "target_id": "c4cd1188067d2c5337b510d030d5ac94672bf0248e95443e08c63f8c0c42f3d0",
+      "source_progress": "C02 sequential review; Korean B2 source cross-check"
+    },
+    {
+      "id": "B2-zh-00080",
+      "text": "第二条（关于精神健康问题早期治疗支援的适用例）第5条之2的修正规定，也适用于本令施行前经精神健康医学科专科医生诊断存在精神健康问题，且本令施行时收入或财产等不超过依据同条第1款修正规定由保健福祉部长官确定并公告的标准，并在诊断之日起5年内正在接受早期治疗的人。\n\n",
+      "source_hash": "1e62ff98333af9f63e02a56c59392fe677772dff4c261f75c33c5155741c3392",
+      "target_id": "ab9862f1afef0509df84692c5589923bf92ba115679ef10ceb5e194fce741e5d",
+      "source_progress": "C02 sequential review; Korean B2 source cross-check"
+    },
+    {
+      "id": "B2-zh-00084",
+      "text": "第二条（关于精神健康作业治疗师资格标准的特别规定）本令施行时，已完成保健福祉部长官认可团体的培训课程，并符合下列各号区分条件的人，尽管附表1有修正规定，仍视为具备各号规定的资格。\n\n1. 符合下列任一目规定的人：精神健康作业治疗师1级\n(a) 在精神健康促进设施、保健所或接受国家或地方自治团体委托实施精神健康促进事业等的机构、团体（以下简称本条“设施等”）工作或曾有工作经历满5年的人（不包括保健福祉部长官确定的简单行政业务等；本条以下同）\n(b) 依据第2号(a)目具备精神健康作业治疗师2级资格，并在本令施行后5年内，连同此前工作期间在设施等工作满5年的人\n2. 符合下列任一目规定的人：精神健康作业治疗师2级\n(a) 在设施等工作或曾有工作经历满1年以上、不满5年的人\n(b) 在设施等工作或曾有工作经历不满1年，并在本令施行后3年内，连同此前工作期间在设施等工作满1年以上的人\n(c) 没有在设施等工作经历，并在本令施行后3年内在设施等工作满1年的人\n\n",
+      "source_hash": "6f9785a248cbc36fb861396192f48a3abb9c15d26f76061a63c3591353a2fdff",
+      "target_id": "ffd3355e833bf3734ae5ff3411bf2df7b5369079884f6c99fffb88fc73455489",
+      "source_progress": "C02 sequential review; Korean B2 source cross-check"
     }
   ],
   "adjudicated_edit_count": 0,
@@ -1094,7 +1122,7 @@
   "ordered_reading_certification": {
     "korean": "READ_COMPLETE_ALL_65_DOCUMENTS",
     "english": "READ_COMPLETE_AVAILABLE_SOURCES_B1_AND_B2_FALLBACK",
-    "chinese": "IN_PROGRESS through B2-zh-00072; sequential continuation required"
+    "chinese": "IN_PROGRESS through B2-zh-00084; sequential continuation required"
   },
   "checked_unique_ids": [
     "B1-zh-00001",
@@ -1343,10 +1371,22 @@
     "B2-zh-00069",
     "B2-zh-00070",
     "B2-zh-00071",
-    "B2-zh-00072"
+    "B2-zh-00072",
+    "B2-zh-00073",
+    "B2-zh-00074",
+    "B2-zh-00075",
+    "B2-zh-00076",
+    "B2-zh-00077",
+    "B2-zh-00078",
+    "B2-zh-00079",
+    "B2-zh-00080",
+    "B2-zh-00081",
+    "B2-zh-00082",
+    "B2-zh-00083",
+    "B2-zh-00084"
   ],
-  "checked_rows": 247,
-  "corrected_rows": 152,
+  "checked_rows": 259,
+  "corrected_rows": 156,
   "notes": [
     "Only obvious omissions of clause numbering and a missing subparagraph marker corrected; substantive terminology and existing wording retained.",
     "B2 English is an older fallback (version 272521), not exact current Korean version; newer provisions require Korean-Chinese comparison.",
@@ -1375,6 +1415,7 @@
     "B2-zh-00047 was fully corrected against the Korean source after the initial sequential pass identified corrupted law titles, cross-references and mixed machine-translation artifacts. The previously saved B2-zh-00048 text was aligned to Article 39(3)-(6).",
     "Sequential review through B2-zh-00060. Corrected regulatory-review terminology, consequential amendment instrument names and cross-references, mental-health professional terminology, and appendix heading; retained accurate effective dates and remaining text.",
     "Quality-preservation follow-up: restored the full existing text for B2-zh-00054 through B2-zh-00060 from the source index and applied only minimal statutory terminology substitutions, avoiding the earlier condensed paraphrase that could have omitted amendment subclauses.",
-    "Sequential review through B2-zh-00072. Corrected the appendix heading and exact title of the amended Enforcement Decree in the consequential amendment clause. Other commencement dates and transitional provisions in rows 62, 64-72 checked and retained."
+    "Sequential review through B2-zh-00072. Corrected the appendix heading and exact title of the amended Enforcement Decree in the consequential amendment clause. Other commencement dates and transitional provisions in rows 62, 64-72 checked and retained.",
+    "Sequential review through B2-zh-00084. Corrected the local-police regulation appendix heading, the police-law citation in consequential amendments, early-treatment specialist terminology, and the qualification name/requirements for mental-health occupational therapists. Other effective dates and transitional clauses checked and retained."
   ]
 }
