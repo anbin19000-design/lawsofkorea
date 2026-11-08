@@ -1,0 +1,256 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26697",
+  "quality_batch": "A26697-quality-01",
+  "range": {
+    "first": "A26697-zh-00001",
+    "last": "A26697-zh-00023"
+  },
+  "quality_checked_rows": 23,
+  "quality_passed_rows": 22,
+  "quality_failed_rows": 1,
+  "quality_checked_ids": [
+    "A26697-zh-00001",
+    "A26697-zh-00002",
+    "A26697-zh-00003",
+    "A26697-zh-00004",
+    "A26697-zh-00005",
+    "A26697-zh-00006",
+    "A26697-zh-00007",
+    "A26697-zh-00008",
+    "A26697-zh-00009",
+    "A26697-zh-00010",
+    "A26697-zh-00011",
+    "A26697-zh-00012",
+    "A26697-zh-00013",
+    "A26697-zh-00014",
+    "A26697-zh-00015",
+    "A26697-zh-00016",
+    "A26697-zh-00017",
+    "A26697-zh-00018",
+    "A26697-zh-00019",
+    "A26697-zh-00020",
+    "A26697-zh-00021",
+    "A26697-zh-00022",
+    "A26697-zh-00023"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26697-00001-00043.json",
+  "results": [
+    {
+      "id": "A26697-zh-00001",
+      "source_hash": "34d3fe9cd4e245fae2190545c29a49a5e6b68fa00965c77e96336c1ab80ea20c",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "서식명, 기관명, 직원증 앞·뒷면 및 인적사항과 한국어 대조"
+    },
+    {
+      "id": "A26697-zh-00002",
+      "source_hash": "b6ef554c92c1ee06c5c51142ea35929d24f513f49937876ea1d846a0a7057648",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "서식명, 기관명, 직원증 앞·뒷면 및 인적사항과 한국어 대조"
+    },
+    {
+      "id": "A26697-zh-00003",
+      "source_hash": "6bd97999072b232d8cd94cf86fda36720720ed6feb04f549921a9efc668ded2d",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "서식명, 기관명, 직원증 앞·뒷면 및 인적사항과 한국어 대조"
+    },
+    {
+      "id": "A26697-zh-00004",
+      "source_hash": "dcb0f88e206ca6862c383a82cc60d52ff722f8a7fea981b163d06337f9ad9e79",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "서식명, 기관명, 직원증 앞·뒷면 및 인적사항과 한국어 대조"
+    },
+    {
+      "id": "A26697-zh-00005",
+      "source_hash": "ee9cc0ea56e9d3c42dcae8fcba35283522deb53a2f6aca8ad4593c3c24c0ff2d",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "서식명, 기관명, 직원증 앞·뒷면 및 인적사항과 한국어 대조"
+    },
+    {
+      "id": "A26697-zh-00006",
+      "source_hash": "2e63f5b827c348476bf272ad172a40696b961d7bc8e083949baedbeb248dd08c",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "서식명, 기관명, 직원증 앞·뒷면 및 인적사항과 한국어 대조"
+    },
+    {
+      "id": "A26697-zh-00007",
+      "source_hash": "98ebd37ce3c1cd6abbe7da2f848d87a6002a00b609ecf9e582bbc5019f4ffbbf",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "서식명, 기관명, 직원증 앞·뒷면 및 인적사항과 한국어 대조"
+    },
+    {
+      "id": "A26697-zh-00008",
+      "source_hash": "b010248c8c2c3154a576549e73d18403d19047e5da834babcaabf0c46ffe3334",
+      "verdict": "NEEDS_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "원본 셀 '金'은 한국어 직원증 사진란의 해당 구획에서 의미가 확인되지 않으므로 독립 미확정 교정 후보로 지정. 인접 사진·치수 셀과 분리해 원문 XML 맥락 재검토 필요.",
+      "original_text": "金",
+      "proposed_action": "독립 셀의 실제 한국어 대응 여부를 확인하고 오염 문자인 경우 제거"
+    },
+    {
+      "id": "A26697-zh-00009",
+      "source_hash": "0e7b71ddd9db47c7a88934f6871d52a58a365713e0cba26b4e880933eb5dea0b",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "서식명, 기관명, 직원증 앞·뒷면 및 인적사항과 한국어 대조"
+    },
+    {
+      "id": "A26697-zh-00010",
+      "source_hash": "b06910591c25b83bd1faecbca816a220f87bd03d53fd906b4b395e399d89fb3d",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "탈모 상반신·무배경·최근 6개월 내 사진 기준 확인"
+    },
+    {
+      "id": "A26697-zh-00011",
+      "source_hash": "4d7ef3d2d63daa91a72dc501444b2de041833071f9fd728fd9b61e8123781f26",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "탈모 상반신·무배경·최근 6개월 내 사진 기준 확인"
+    },
+    {
+      "id": "A26697-zh-00012",
+      "source_hash": "7bcde218c376a3a7561a149b7128a62a3870597a7461fbae6fd085dc1a05c0db",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "탈모 상반신·무배경·최근 6개월 내 사진 기준 확인"
+    },
+    {
+      "id": "A26697-zh-00013",
+      "source_hash": "9f96b8e22cc06bfafc548ef472e33b60548b190f17dbc04b1da176a50d2c6d2c",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "서식명, 기관명, 직원증 앞·뒷면 및 인적사항과 한국어 대조"
+    },
+    {
+      "id": "A26697-zh-00014",
+      "source_hash": "d0d4846e2f55d14b2788851adaa78876764396683276302525dc01d3ac7f6ecc",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "서식명, 기관명, 직원증 앞·뒷면 및 인적사항과 한국어 대조"
+    },
+    {
+      "id": "A26697-zh-00015",
+      "source_hash": "6ce6163f2531180bf1303c3b6b19d6d7df589a187c26fb1b9479f5e52810f3b6",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "서식명, 기관명, 직원증 앞·뒷면 및 인적사항과 한국어 대조"
+    },
+    {
+      "id": "A26697-zh-00016",
+      "source_hash": "ec17887e7e81fe5671c49ad009e284a0c773e4367b8839689d1adfca6bf7e8f9",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "직원증 규격 70×100mm 및 켄트지 180g/㎡ 대조"
+    },
+    {
+      "id": "A26697-zh-00017",
+      "source_hash": "d6d87e05c543e71cabaccf3ed61804e7e814d1a465e94f4fdc59f331ba61f822",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "서식명, 기관명, 직원증 앞·뒷면 및 인적사항과 한국어 대조"
+    },
+    {
+      "id": "A26697-zh-00018",
+      "source_hash": "8c57fafb0573bcf5d4c3c3c8fe9cf393c03159f4d399668c98e2647a9c26c956",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "서식명, 기관명, 직원증 앞·뒷면 및 인적사항과 한국어 대조"
+    },
+    {
+      "id": "A26697-zh-00019",
+      "source_hash": "acf07872b4df353f19ed5878de48f13dbf164021f225b97f3bb868a41f0f94ae",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "서식명, 기관명, 직원증 앞·뒷면 및 인적사항과 한국어 대조"
+    },
+    {
+      "id": "A26697-zh-00020",
+      "source_hash": "64d51be8700bbdf2df4b18e1c3eddcbed9e0087e2c280c4e2f518630ea16fabc",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "서식명, 기관명, 직원증 앞·뒷면 및 인적사항과 한국어 대조"
+    },
+    {
+      "id": "A26697-zh-00021",
+      "source_hash": "bb35ab6d24daaf2db64eb43bf943f7653ff4f0c84bda2dede78d9ba7680b3f92",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "서식명, 기관명, 직원증 앞·뒷면 및 인적사항과 한국어 대조"
+    },
+    {
+      "id": "A26697-zh-00022",
+      "source_hash": "5daba86942ae7632cf685423e33d14cad623923921e9e5d29702b410a9e9f5ff",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "서식명, 기관명, 직원증 앞·뒷면 및 인적사항과 한국어 대조"
+    },
+    {
+      "id": "A26697-zh-00023",
+      "source_hash": "7eb0e9da006cb4f99e97d68f252ccec86c3b572142a98911f75cd9c8da369bfd",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "서식명, 기관명, 직원증 앞·뒷면 및 인적사항과 한국어 대조"
+    }
+  ],
+  "edits": [],
+  "note": "A26697 1~23번 셀 앞면 및 뒷면 인적사항의 기존 교정 검증. 8번 원본 '金' 혼입 의심을 별도 미확정 판정으로 보존. 기존 기록·원본 불변, 전체 COMPLETE 아님."
+}
