@@ -1,0 +1,41 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0e85eccd3114729a4e48",
+  "worker": "C04",
+  "status": "IN_PROGRESS",
+  "source_commit": "e4d2c9c2907b9faa27a0207136f59368478cdf57",
+  "source_blobs": {
+    "ko": "7a73f0fd20ea34126bcaa28cb6d800668ba02f87",
+    "en": "6e1e1fafe1ce67a3ff6a7b762ebc5d7b678d4b8b",
+    "zh": "6893de556d097781e2fbfee0ca8662250e56787d"
+  },
+  "scope": {
+    "documents": 46,
+    "zh_rows": 2809,
+    "english_rows_with_reference": 2556,
+    "english_missing_rows": 253
+  },
+  "reading_checkpoint": {
+    "required_order": "KO_FULL_EN_FULL_ZH_FULL",
+    "ko": "COMPLETE; sequentially read full source_ko across all 46 documents B1 B2 A38105–A38108 B3 A23999–A24037, including lengthy annexes and all form pages.",
+    "en": "COMPLETE; sequentially read B1 exact official English full_text 55,791 chars (documents/en/kr-012312-259239-en.json, blob 49cef4722fbabb607ccade08ca7db65280394001) then B2 official English 32,289 chars (documents/en/kr-012585-280589-en.json, blob a86dd6eb189ef55e80fc6397129ce2c1ab116b32). B3 and 39 other documents have no document-level English full text; annexes A38105–A38108 reference B2 English.",
+    "zh": "NOT_STARTED; rows and unique IDs verified but no row-level comparative review or edits begun.",
+    "next_step": "Begin sequential Chinese review at first B1 row, comparing against previously read KO and available EN; preserve unmodified accurate translations."
+  },
+  "english_coverage": {
+    "document_statuses": {
+      "EXACT_ENGLISH_AVAILABLE": 6,
+      "NO_DOCUMENT_ENGLISH": 40
+    },
+    "paths": [
+      "documents/en/kr-012312-259239-en.json",
+      "documents/en/kr-012585-280589-en.json"
+    ],
+    "english_body_shas": {
+      "B1": "e47a3a95cfc7db013dc608dc5baa28fbf66cea78c39ffec1f734dc929da01fc9",
+      "B2": "2d8e69cd10b4d8881028e2d498e69c686a20823971980e4db8b55bf315a2f697"
+    }
+  },
+  "findings": [],
+  "note": "No completed Chinese corrections, no COMPLETE claim or receipt. KO/EN/ZH source SHA captured. Originals unchanged."
+}
