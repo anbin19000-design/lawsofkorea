@@ -1,0 +1,52 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-30bcdff2a0a276264f49",
+  "worker": "C06",
+  "source_blobs": {
+    "ko": "ab1e418ab644e0e597cc68e9cf9d6a3376b47122",
+    "zh": "370248c62ce5c3a6932214f87be6c465b730595b"
+  },
+  "checked_rows": 12,
+  "checked_ids": [
+    "A35235-zh-00001",
+    "A35235-zh-00002",
+    "A35235-zh-00003",
+    "A35235-zh-00004",
+    "A35235-zh-00005",
+    "A35235-zh-00006",
+    "A35235-zh-00007",
+    "A35235-zh-00008",
+    "A35235-zh-00009",
+    "A35235-zh-00010",
+    "A35235-zh-00011",
+    "A35235-zh-00012"
+  ],
+  "edits": [
+    {
+      "id": "A35235-zh-00001",
+      "text": "■《特殊任务执行人员补偿法实施令》[附表格式第4号] <2015年12月30日修订>"
+    },
+    {
+      "id": "A35235-zh-00002",
+      "text": "特殊任务执行经过说明书"
+    },
+    {
+      "id": "A35235-zh-00004",
+      "text": "[ ] 失踪"
+    },
+    {
+      "id": "A35235-zh-00009",
+      "text": "地点"
+    },
+    {
+      "id": "A35235-zh-00010",
+      "text": "经过"
+    },
+    {
+      "id": "A35235-zh-00011",
+      "text": "证明方法"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "note": "Compared all twelve A35235 form cells with Korean source; corrected the 'missing' mistranslation to missing-person status, form citation and 'circumstances' label. No whole-family completion receipt. Preserve preexisting progress/review files."
+}
