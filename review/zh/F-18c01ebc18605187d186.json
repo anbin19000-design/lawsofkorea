@@ -1178,6 +1178,13 @@
       "source_hash": "9b490051876cdedb902b3fa42b175e3df63d62b9ae94e4e929a20bf9fa900527",
       "target_id": "00436b59179ae8c32625f60b7a1aefb8c1963ebafa7e97b046e1d66e75014bab",
       "source_progress": "C02 sequential review; Korean B2 source cross-check"
+    },
+    {
+      "id": "B2-zh-00105",
+      "text": "附表4第2号的管辖区域栏修改如下。\n\n〈60〉至〈78〉省略\n\n",
+      "source_hash": "6e70f816f426374f529522a614da39a11ddee6411a2b8ead62705f198f7e05d3",
+      "target_id": "04508d1bc2d48a9002780af7acf4d7b0011df8ce9f23f96677fa6d9382adc3a5",
+      "source_progress": "C02 Korean B2 body cross-check; removed duplicated, misattached annex-table content, which is separately indexed as A30229"
     }
   ],
   "adjudicated_edit_count": 0,
@@ -1192,7 +1199,7 @@
   "ordered_reading_certification": {
     "korean": "READ_COMPLETE_ALL_65_DOCUMENTS",
     "english": "READ_COMPLETE_AVAILABLE_SOURCES_B1_AND_B2_FALLBACK",
-    "chinese": "IN_PROGRESS through B2-zh-00104; sequential continuation required"
+    "chinese": "IN_PROGRESS through B2-zh-00105; annex A30229 table requires dedicated sequential review"
   },
   "checked_unique_ids": [
     "B1-zh-00001",
@@ -1473,10 +1480,11 @@
     "B2-zh-00101",
     "B2-zh-00102",
     "B2-zh-00103",
-    "B2-zh-00104"
+    "B2-zh-00104",
+    "B2-zh-00105"
   ],
-  "checked_rows": 279,
-  "corrected_rows": 166,
+  "checked_rows": 280,
+  "corrected_rows": 167,
   "notes": [
     "Only obvious omissions of clause numbering and a missing subparagraph marker corrected; substantive terminology and existing wording retained.",
     "B2 English is an older fallback (version 272521), not exact current Korean version; newer provisions require Korean-Chinese comparison.",
@@ -1508,6 +1516,7 @@
     "Sequential review through B2-zh-00072. Corrected the appendix heading and exact title of the amended Enforcement Decree in the consequential amendment clause. Other commencement dates and transitional provisions in rows 62, 64-72 checked and retained.",
     "Sequential review through B2-zh-00084. Corrected the local-police regulation appendix heading, the police-law citation in consequential amendments, early-treatment specialist terminology, and the qualification name/requirements for mental-health occupational therapists. Other effective dates and transitional clauses checked and retained.",
     "Sequential review through B2-zh-00096. Corrected 2024-2025 supplementary provision headings and the enforcement-decree title in consequential amendments; other effective dates, omitted ranges and regional jurisdiction changes checked and retained.",
-    "Sequential review through B2-zh-00104. Corrected 2025 Nursing Act cross-references and the 2026 consolidated special-city enforcement decree title; other commencement dates and omitted amendment ranges checked and retained. Annex 1 qualification table begins at B2-zh-00105 and requires dedicated table-structure review."
+    "Sequential review through B2-zh-00104. Corrected 2025 Nursing Act cross-references and the 2026 consolidated special-city enforcement decree title; other commencement dates and omitted amendment ranges checked and retained. Annex 1 qualification table begins at B2-zh-00105 and requires dedicated table-structure review.",
+    "B2-zh-00105 was aligned to the actual Korean B2 body: the amendment clause only changes Annex 4 item 2 jurisdiction column and omits items 60-78. The appended garbled Annex 1 table was removed from this body row because Annex 1 is separately indexed under A30229 and must be reviewed there."
   ]
 }
