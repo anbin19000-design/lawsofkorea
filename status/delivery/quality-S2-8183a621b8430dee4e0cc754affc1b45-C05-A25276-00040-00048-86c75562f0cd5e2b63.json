@@ -1,0 +1,37 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-3705abbc710de4b867bc",
+  "worker": "C05",
+  "branch": "main",
+  "source_blobs": {
+    "ko": "7974bf81d14f4838ae85d4b3ceea80a2f0e65fed",
+    "zh": "045dd328cd77f3eecd8b6cd485be27f2389773e8"
+  },
+  "document_key": "A25276",
+  "document_source_hash": "bcdd3ea81f96f89443d3477838f86cc6d749bd4b8c466d138d14a19ac6c85e72",
+  "checked_ids": [
+    "A25276-zh-00040",
+    "A25276-zh-00048"
+  ],
+  "checked_rows": 2,
+  "adopted_edits": [
+    {
+      "id": "A25276-zh-00040",
+      "text": "附件材料"
+    },
+    {
+      "id": "A25276-zh-00048",
+      "text": "负责人核定的手续费"
+    }
+  ],
+  "source_row_hashes": {
+    "A25276-zh-00040": "18256f8782d71f979ee0a9b998942e03340f2db10a68cb6391e5e3e72aeb3b92",
+    "A25276-zh-00048": "8a9bfef2b58a3a4723b9ef72e117a70da83c806f22a323525151a3f81e887cc5"
+  },
+  "rationale": {
+    "A25276-zh-00040": "Korean form column label 붙임 서류 denotes supporting attachment documents, not merely additional files; choose 附件材料.",
+    "A25276-zh-00048": "Korean split table cell 인증기관 / 의 장이 산정한 수수료 identifies fee assessed by the head of the certification body, following 시행령 제17조제1항; use 负责人核定的手续费 with previous cell."
+  },
+  "status": "QUALITY_PARTIAL",
+  "note": "Two previously staged but unconfirmed form candidates independently checked against Korean application form and adjacent cells. Preserve earlier progress, original row IDs/hashes, and quality decisions; no additional unique row coverage or COMPLETE receipt."
+}
