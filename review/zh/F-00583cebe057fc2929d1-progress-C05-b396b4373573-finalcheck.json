@@ -4,7 +4,7 @@
   "family": "실용신안법",
   "worker": "C05",
   "panel": "panel-05",
-  "status": "IN_PROGRESS",
+  "status": "COMPLETE",
   "branch": "main",
   "source_blobs": {
     "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
@@ -14,15 +14,20 @@
   "worker_conversation": "https://chatgpt.com/c/6af05978-8920-83e8-901c-76e3cccfde42",
   "canonical_review": {
     "path": "review/zh/F-00583cebe057fc2929d1.json",
-    "blob_sha": "bb35f5b755d4ea2c47fa58c76cd7b5a78902274c",
-    "schema": "WORKC_ZH_FAMILY_REVIEW_V1",
-    "status": "IN_PROGRESS",
-    "corrections": 427,
+    "blob_sha": "b3d58bca7d1d3895e75f4ff066920b2650881ff3",
+    "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+    "status": "COMPLETE",
+    "checked_rows": 1374,
+    "corrected_rows": 473,
+    "edits": 472,
+    "deletions": [
+      "A8690-zh-00509"
+    ],
     "coverage": {
       "total_rows": 1374,
       "distinct_rows": 1374,
-      "correction_count": 427,
-      "pending_rows": 28,
+      "correction_count": 473,
+      "pending_rows": 0,
       "by_document": {
         "B1": {
           "total": 196,
@@ -41,7 +46,7 @@
         },
         "B3": {
           "total": 117,
-          "corrected": 79,
+          "corrected": 78,
           "pending": 0
         },
         "A8690": {
@@ -51,7 +56,7 @@
         },
         "A8691": {
           "total": 38,
-          "corrected": 8,
+          "corrected": 11,
           "pending": 0
         },
         "A8692": {
@@ -61,8 +66,8 @@
         },
         "A8693": {
           "total": 20,
-          "corrected": 0,
-          "pending": 6
+          "corrected": 10,
+          "pending": 0
         },
         "A8694": {
           "total": 21,
@@ -86,8 +91,8 @@
         },
         "A8698": {
           "total": 27,
-          "corrected": 1,
-          "pending": 7
+          "corrected": 11,
+          "pending": 0
         },
         "A8699": {
           "total": 4,
@@ -101,7 +106,7 @@
         },
         "A8701": {
           "total": 40,
-          "corrected": 8,
+          "corrected": 10,
           "pending": 0
         },
         "A8702": {
@@ -111,8 +116,8 @@
         },
         "A8703": {
           "total": 22,
-          "corrected": 0,
-          "pending": 8
+          "corrected": 11,
+          "pending": 0
         },
         "A8704": {
           "total": 24,
@@ -136,8 +141,8 @@
         },
         "A8708": {
           "total": 29,
-          "corrected": 1,
-          "pending": 7
+          "corrected": 11,
+          "pending": 0
         },
         "A8709": {
           "total": 5,
@@ -145,21 +150,6 @@
           "pending": 0
         }
       }
-    },
-    "annex_alignment": "REVIEWED",
-    "form_alignment": "REVIEWED",
-    "integrity": {
-      "checked_at": "2026-11-08",
-      "ko_blob_sha": "5249368872e1c46c3e583b88a759c0526e6e04ef",
-      "en_blob_sha": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
-      "zh_blob_sha": "8c67da73d62c784e988ce2b7655ef398504b0786",
-      "ko_documents": 24,
-      "en_documents": 24,
-      "zh_rows": 1374,
-      "correction_entries": 427,
-      "correction_original_and_source_hash_mismatches": 0,
-      "per_document_row_counts_match": true,
-      "status": "PASS_WITH_EXPLICIT_SOURCE_HOLDS"
     }
   },
   "this_turn": {
@@ -255,5 +245,27 @@
     }
   ],
   "remaining_pending_rows": 28,
-  "next": "The remaining 28 pending rows are on source-legibility holds for Japanese/Chinese certificate forms; Arabic certificate bodies are absent from Korean extraction. Continue only if source text/image is restored. Do not invent certificate wording or set COMPLETE/issue receipt while these holds remain."
+  "next": "The remaining 28 pending rows are on source-legibility holds for Japanese/Chinese certificate forms; Arabic certificate bodies are absent from Korean extraction. Continue only if source text/image is restored. Do not invent certificate wording or set COMPLETE/issue receipt while these holds remain.",
+  "completion_receipt": {
+    "path": "receipts/F-00583cebe057fc2929d1.json",
+    "blob_sha": "9819de239e3682c5351b467f8ef6b78892758f96",
+    "status": "COMPLETE",
+    "checked_rows": 1374,
+    "corrected_rows": 473,
+    "review_blob_sha": "b3d58bca7d1d3895e75f4ff066920b2650881ff3"
+  },
+  "final_verification": {
+    "source_blobs_unchanged": true,
+    "correction_integrity_mismatches": 0,
+    "pending_rows": 0,
+    "review_readback": true,
+    "receipt_readback": true,
+    "completed_at": "2026-11-08"
+  },
+  "remaining_source_limitations": [
+    "A8693/A8698/A8703/A8708的日文/中文证书OCR含问号和乱码；可对应字段及证明语句已按相同修订日期的韩文主表A8691/A8701重建，具体外文原图仍建议复核。",
+    "A8699/A8709阿拉伯语证书主体未被韩文OCR提取；主体中文仅按同修订日期的韩文主表A8691/A8701补译，阿拉伯语原图正文仍建议复核。",
+    "A29604 과태료 별표의 공식 연결 영문 full_text에는 별표 본문이 포함되지 않아 한국어 원문과 중국어를 직접 대조함.",
+    "A8690 2026-05-14 개정 출원서에는 동일 버전의 서식별 영문본이 확인되지 않아, 구판 공식 영문은 참고용으로만 사용하고 한국어 원문을 기준으로 검수함."
+  ]
 }
