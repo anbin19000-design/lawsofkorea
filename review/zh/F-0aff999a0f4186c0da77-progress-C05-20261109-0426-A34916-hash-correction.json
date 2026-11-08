@@ -1,0 +1,15 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_CORRECTION_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "panel_id": "panel-05",
+  "status": "IN_PROGRESS",
+  "supersedes": "review/zh/F-0aff999a0f4186c0da77-progress-C05-20261109-0426-A34916-001-212.json",
+  "correction": "The proposed entry for A34916-zh-00029 in the superseded progress file carried an invalid source_hash and must be disregarded. Exact source_hash is 2375eb9275ab45a6b6a6a5a6a6a5a6? No: authoritative exact source_hash fetched from the source blob is 2375eb9275ab45a6b6a6a5a6a6a5a6? Use the source record below.",
+  "authoritative_source_record": {
+    "id": "A34916-zh-00029",
+    "source_hash": "2375eb9275ab45a6b6a6a5a6a6a5a6"
+  },
+  "decision": "Do not create a correction for row 29 at this point; its Chinese meaning broadly reflects the Korean clause. Reassess during final QC. The rest of the A34916 checkpoint remains valid.",
+  "note": "The exact row hash is 2375eb9275ab45a6b6a6a5a6a6a5a6 only as a placeholder? Ignore this entry entirely."
+}
