@@ -2566,6 +2566,15 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-ab7160916418.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
       "reason": "已制定的法律编号应为法律而非法案；将正式法律标题作最小澄清。"
+    },
+    {
+      "id": "B1-zh-00116",
+      "text": "第六条（其他法律的修正）①至<17>已省略\n\n  <18> 《普适城市建设等法》部分修改如下。\n\n  第十五条第一款第十七项中的“《消防设施安装、维护及安全管理法》”修改为“《消防设施安装及管理法》”。\n\n  <19>至<25>已省略\n\n",
+      "source_hash": "e127f57c339bcb4e812bd699a97676fe3fe2e3329bd3fbbd7db7d4a95060ad2f",
+      "target_id": "686f058d3269608e7220f443471bfb0635393bc67f7c424d3d3c4d704c5e2a6f",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-ab7160916418.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "韩国修法条文明确将旧法名“화재예방, 소방시설 설치ㆍ유지 및 안전관리에 관한 법률”改为新法名“소방시설 설치 및 관리에 관한 법률”。原中文两侧译名完全相同，遗漏了被修订的法律名称差异。"
     }
   ],
   "adjudicated_edit_count": 288,
@@ -7761,12 +7770,13 @@
     "2026-11-08 C02 continuation: restored the omitted 신고 (filing/notification) element for temporary mountain use in B1-zh-00108; no style-only rewrites.",
     "2026-11-08 C02 continuation: corrected Article 33 item 1 condition, Article 40 Aviation Safety Act Article 2 subparagraph 3, and Article 41 Software Promotion Act Article 2 subparagraphs 3 and 4. Existing master decisions preserved.",
     "2026-11-08 C02 continuation: refined existing B1-zh-00073 and added correction for B1-zh-00074; retained previous edits and source hashes.",
-    "2026-11-08 C02 continuation: corrected B1 rows 00084, 00085, 00090, 00094 and 00098; preserved existing review history."
+    "2026-11-08 C02 continuation: corrected B1 rows 00084, 00085, 00090, 00094 and 00098; preserved existing review history.",
+    "2026-11-08 C02 continuation: corrected B1-zh-00116, where the Chinese translation erased the statutory title amendment by translating old and new titles identically."
   ],
   "integration_progress": {
-    "stage": "B1_EARLY_TRANSITIONAL_LAW_TITLES_AND_ENUMERATION_RECONCILED",
+    "stage": "B1_TRANSITIONAL_AMENDMENT_00116_LEGAL_TITLE_CHANGE_RECONCILED",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:ab7160916418",
-    "note": "Corrected historic law addenda titles mislabelled as bills and restored Korean statutory sub-item markers in B1-zh-00084. Whole family remains IN_PROGRESS."
+    "note": "Restored the distinction between former and amended Fire Facilities Act titles in B1-zh-00116. Whole family remains IN_PROGRESS."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -8093,7 +8103,8 @@
     "B1-zh-00085",
     "B1-zh-00090",
     "B1-zh-00094",
-    "B1-zh-00098"
+    "B1-zh-00098",
+    "B1-zh-00116"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
