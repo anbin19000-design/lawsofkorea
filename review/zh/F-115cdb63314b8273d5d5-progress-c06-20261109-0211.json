@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 4381,
+    "verified_zh_rows": 4433,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 4381,
-      "checked_rows": 4381,
+      "next_row_zero_based": 4433,
+      "checked_rows": 4433,
       "total_rows": 5228
     }
   },
@@ -6973,9 +6973,237 @@
       "text": "地址、姓名",
       "original_text": "地址·名称",
       "reason": "성명을 일반 명칭으로 오역"
+    },
+    {
+      "id": "A4694-zh-00001",
+      "text": "道路占用许可登记簿",
+      "original_text": "道路占用许可证登记册",
+      "reason": "도로점용허가 대장을 허가증 등록册으로 부정확하게 표기"
+    },
+    {
+      "id": "A4694-zh-00006",
+      "text": "③许可日期",
+      "original_text": "③权限日期",
+      "reason": "허가일을 권한 날짜로 오역"
+    },
+    {
+      "id": "A4694-zh-00007",
+      "text": "④道路种类及路线编号",
+      "original_text": "④道路类型和",
+      "reason": "도로 종류 및 노선번호의 문구가 잘려 의미 누락"
+    },
+    {
+      "id": "A4694-zh-00010",
+      "text": "路线编号",
+      "original_text": "路由编号",
+      "reason": "노선번호를 네트워크 라우팅 번호로 오역"
+    },
+    {
+      "id": "A4694-zh-00014",
+      "text": "⑨姓名",
+      "original_text": "⑨ 语句",
+      "reason": "성명을 문장으로 오역"
+    },
+    {
+      "id": "A4694-zh-00015",
+      "text": "（居民登记号码）",
+      "original_text": "(长度)",
+      "reason": "주민등록번호를 길이로 오역"
+    },
+    {
+      "id": "A4694-zh-00017",
+      "text": "⑩占用期限",
+      "original_text": "⑩ 占用期",
+      "reason": "점용기간을 일반 점유 기간으로 축약"
+    },
+    {
+      "id": "A4694-zh-00018",
+      "text": "日",
+      "original_text": "每日",
+      "reason": "일간 기간 단위를 매일로 오역"
+    },
+    {
+      "id": "A4694-zh-00019",
+      "text": "⑪已安装构筑物明细",
+      "original_text": "⑪已安装工程详情",
+      "reason": "설치공작물 내역을 설치 공사 상세로 오역"
+    },
+    {
+      "id": "A4694-zh-00020",
+      "text": "⑫开挖工程施工方法",
+      "original_text": "⑫开挖施工方法",
+      "reason": "굴착공사 방법의 법령서식 용어 정돈"
+    },
+    {
+      "id": "A4694-zh-00021",
+      "text": "申请：",
+      "original_text": "应用程序：",
+      "reason": "신청을 응용 프로그램으로 오역"
+    },
+    {
+      "id": "A4694-zh-00023",
+      "text": "调整：",
+      "original_text": "调整：",
+      "reason": "조정 표기를 유지"
+    },
+    {
+      "id": "A4694-zh-00024",
+      "text": "⑬占用费",
+      "original_text": "⑬入住费",
+      "reason": "점용료를 입주비로 오역"
+    },
+    {
+      "id": "A4694-zh-00026",
+      "text": "计算地号：",
+      "original_text": "赢得",
+      "reason": "산출 지번을 획득으로 오역"
+    },
+    {
+      "id": "A4694-zh-00027",
+      "text": "⑭占用费征收、缴纳日期",
+      "original_text": "⑭入住费",
+      "reason": "점용료 부과징수일을 입주비로 오역"
+    },
+    {
+      "id": "A4694-zh-00028",
+      "text": "征收：",
+      "original_text": "拼版：",
+      "reason": "징수를 조판으로 오역"
+    },
+    {
+      "id": "A4694-zh-00029",
+      "text": "⑮恢复原状检查日期",
+      "original_text": "⑮恢复(Restore)",
+      "reason": "복구(원상회복) 검사일을 단순 복구로 축소"
+    },
+    {
+      "id": "A4694-zh-00030",
+      "text": "变更编号：",
+      "original_text": "计算批号：",
+      "reason": "변동사항 번호를 계산 배치번호로 오역"
+    },
+    {
+      "id": "A4694-zh-00031",
+      "text": "分配、征收日期",
+      "original_text": "分配和收集日期",
+      "reason": "부과 및 징수일을 배분·수집일로 오역"
+    },
+    {
+      "id": "A4694-zh-00032",
+      "text": "收缴：",
+      "original_text": "集合：",
+      "reason": "징수를 모임으로 오역"
+    },
+    {
+      "id": "A4694-zh-00033",
+      "text": "检查日期",
+      "original_text": "测试日期",
+      "reason": "검사일을 시험일로 오역"
+    },
+    {
+      "id": "A4694-zh-00034",
+      "text": "变更内容",
+      "original_text": "更改",
+      "reason": "변동내용을 일반 변경 동사로 축소"
+    },
+    {
+      "id": "A4694-zh-00035",
+      "text": "交通疏导措施",
+      "original_text": "交通管理措施",
+      "reason": "교통소통대책을 교통관리 조치로 모호하게 번역"
+    },
+    {
+      "id": "A4694-zh-00037",
+      "text": "类别",
+      "original_text": "分类",
+      "reason": "구분 항목을 범주로 정돈"
+    },
+    {
+      "id": "A4694-zh-00038",
+      "text": "变更内容",
+      "original_text": "更改",
+      "reason": "변동내용을 변경 내용으로 구체화"
+    },
+    {
+      "id": "A4694-zh-00039",
+      "text": "许可条件及履行情况",
+      "original_text": "许可条件和",
+      "reason": "허가조건 및 이행상황의 문장 잘림"
+    },
+    {
+      "id": "A4694-zh-00040",
+      "text": "许可条件",
+      "original_text": "权限条件",
+      "reason": "허가조건을 권한 조건으로 오역"
+    },
+    {
+      "id": "A4694-zh-00041",
+      "text": "履行情况",
+      "original_text": "实施状态",
+      "reason": "이행상황을 일반 시행 상태로 축소"
+    },
+    {
+      "id": "A4694-zh-00042",
+      "text": "履行情况",
+      "original_text": "实施状态",
+      "reason": "이행상황을 일반 시행 상태로 축소"
+    },
+    {
+      "id": "A4694-zh-00043",
+      "text": "现场调查人",
+      "original_text": "现场调查员",
+      "reason": "현지조사자의 서식 직책 표기 정돈"
+    },
+    {
+      "id": "A4694-zh-00044",
+      "text": "确认人",
+      "original_text": "已验证",
+      "reason": "확인자를 완료 상태로 오역"
+    },
+    {
+      "id": "A4694-zh-00045",
+      "text": "监督人",
+      "original_text": "主管",
+      "reason": "감독자를 단순 관리자/主管로 오역"
+    },
+    {
+      "id": "A4694-zh-00046",
+      "text": "恢复检查人",
+      "original_text": "恢复检查器",
+      "reason": "복구검사자를 검사 장치로 오역"
+    },
+    {
+      "id": "A4694-zh-00047",
+      "text": "210毫米×297毫米[保存用纸120克/平方米]",
+      "original_text": "210mm×297mm[保存纸 120g/㎡]",
+      "reason": "보존용지 규격 용어를 정돈"
+    },
+    {
+      "id": "A4694-zh-00049",
+      "text": "位置图",
+      "original_text": "位置地图",
+      "reason": "위치도 표제 정돈"
+    },
+    {
+      "id": "A4694-zh-00050",
+      "text": "包含占用物的土地照片",
+      "original_text": "被占用建筑物所在土地的照片",
+      "reason": "점용물이 포함된 대지의 사진을 건물로 한정해 오역"
+    },
+    {
+      "id": "A4694-zh-00051",
+      "text": "平面图",
+      "original_text": "平面图",
+      "reason": "평면도 표기를 유지"
+    },
+    {
+      "id": "A4694-zh-00052",
+      "text": "其他参考事项",
+      "original_text": "其他说明",
+      "reason": "그 밖의 참고사항을 설명으로 축소"
     }
   ],
-  "note": "Sequential review advanced through row 4380, completing A4691 change permit application, A4692 road occupation permit certificate and A4693 public notice form. Added 43 targeted corrections for local road jurisdiction labels and approval workflow, certificate title/fields and successor notification obligations, and public notice/statutory citations/road occupation terminology. Previous 1094 edits retained. Continue from row 4381 with A4694. IN_PROGRESS.",
+  "note": "Sequential review advanced through row 4432, completing A4694 road occupation permit register (front/back). Added 37 targeted corrections for ledger title, permit/road fields, name and ID, occupancy period, installed structures, excavation method, occupation fee, fee collection/restoration inspection, changes and compliance status, personnel roles, and backside attachments. Previous 1137 edits retained. Continue from row 4433 with A4695. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
