@@ -1,0 +1,87 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:139c4dc122a6",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "english_status": "A25465 NO_DOCUMENT_ENGLISH; Korean source controls",
+  "checked_rows": 5,
+  "checked_ids": [
+    "A25465-zh-00020",
+    "A25465-zh-00021",
+    "A25465-zh-00022",
+    "A25465-zh-00023",
+    "A25465-zh-00026"
+  ],
+  "edits": [
+    {
+      "id": "A25465-zh-00020",
+      "text": "[ ] 依据许可等所据法律规定，不适宜适用推进该智慧创新事业所需的",
+      "source_hash": "d42b567a80a8d5aea95ba94c3cd3f6f01e0cd29640e9e36efe9e2d223322aaa8",
+      "target_id": "XML:1802651"
+    },
+    {
+      "id": "A25465-zh-00021",
+      "text": "标准、规格、条件",
+      "source_hash": "0b1f4ffe0973cbd2a64f928003aa53c4ebdc8ebc66e6a4a2b51eab5633afc8b3",
+      "target_id": "XML:1802652"
+    },
+    {
+      "id": "A25465-zh-00022",
+      "text": "等的情形",
+      "source_hash": "b0f6091b032c71c8dfc6ce0ad820990ddbe1e9e0a7f82b659768f71382e225d5",
+      "target_id": "XML:1802653"
+    },
+    {
+      "id": "A25465-zh-00023",
+      "text": "申请内容",
+      "source_hash": "6eb8af2283964dd94cf76c27e369a8683f5fc1ae122ffc100bb7a269d8d453b3",
+      "target_id": "XML:1802654"
+    },
+    {
+      "id": "A25465-zh-00026",
+      "text": "事业实施期间",
+      "source_hash": "abf6a908dadc95038d202b1dcd98df3b3ea0a9a60a2cad3c03ad6ee395c3c32c",
+      "target_id": "XML:1802657"
+    }
+  ],
+  "checked_details": [
+    {
+      "id": "A25465-zh-00020",
+      "verdict": "CONFIRM_PRIOR_CORRECTION",
+      "reason": "현재 중국어는 허가 절차가 필요한 경우로 오역. 한국어는 기준·규격·요건 적용이 적절하지 않은 경우이며 21·22 셀과 연속"
+    },
+    {
+      "id": "A25465-zh-00021",
+      "verdict": "CONFIRM_PRIOR_CORRECTION",
+      "reason": "한국어 기준·규격·요건의 연결 구절을 기존 후보로 유지"
+    },
+    {
+      "id": "A25465-zh-00022",
+      "verdict": "CONFIRM_PRIOR_CORRECTION",
+      "reason": "두 번째 선택항목의 마지막 절을 앞선 셀과 연결해 완성"
+    },
+    {
+      "id": "A25465-zh-00023",
+      "verdict": "CONFIRM_PRIOR_CORRECTION",
+      "reason": "신청 내용은 웹 애플리케이션 상세정보가 아님"
+    },
+    {
+      "id": "A25465-zh-00026",
+      "verdict": "CONFIRM_PRIOR_CORRECTION",
+      "reason": "사업기간에 섞인 MTQ 표식을 제거한 기존 후보 채택"
+    }
+  ],
+  "prior_progress": [
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-2407efe1b802.json"
+  ],
+  "next_review": "A25465-zh-00027 onward; then unresolved form and table continuity and complete 1133-row integration",
+  "note": "Five previously saved candidate translations reconfirmed against Korean form and adjacent cells. Do not double-count as new unique coverage. Existing originals and corrections unchanged; not COMPLETE."
+}
