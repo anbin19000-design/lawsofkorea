@@ -1,0 +1,81 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-2223d4d89f9d838aec25",
+  "worker": "C05",
+  "panel_id": "panel-05",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "8da45e553059c6fa43c2398c7a85fb031801269f",
+    "en": "9aa870a762b685cffb5165159330ce674c944554",
+    "zh": "770640285a1e85001013331a4a0a6fba3909dd43"
+  },
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "reading_evidence": {
+    "ko": {
+      "complete": true,
+      "documents": 23,
+      "source_blob_sha": "8da45e553059c6fa43c2398c7a85fb031801269f"
+    },
+    "en": {
+      "complete": true,
+      "index_documents": 23,
+      "all_available_linked_sources_read": true,
+      "source_blob_sha": "9aa870a762b685cffb5165159330ce674c944554"
+    },
+    "zh": {
+      "complete": false,
+      "total_rows": 1290,
+      "fully_compared_rows": 649,
+      "fully_compared_by_document": {
+        "B1": 122,
+        "B2": 199,
+        "A29185": 80,
+        "A29186": 43,
+        "B3": 85,
+        "A6580": 74,
+        "A6581": 30,
+        "A6582": 16
+      }
+    }
+  },
+  "audit": {
+    "a29185_rows_compared": 80,
+    "a6581_rows_compared": 30,
+    "a6582_rows_compared": 16,
+    "a6582_additional_corrections": 3,
+    "a6582_no_change_decisions": 10,
+    "source_bound_mismatches": 0,
+    "source_sha_unchanged": true,
+    "canonical_review_checked_rows": 649,
+    "canonical_review_corrected_rows": 527
+  },
+  "coverage": {
+    "total_rows": 1290,
+    "distinct_rows": 1290,
+    "fully_compared_rows": 649,
+    "pending_rows": 641,
+    "partial_targeted_docs": [
+      "A6585",
+      "A6586",
+      "A6587",
+      "A6588",
+      "A6589",
+      "A6590",
+      "A6591",
+      "A6592",
+      "A6594",
+      "A6595",
+      "A6596",
+      "A6597",
+      "A6598",
+      "A6599",
+      "A6600"
+    ]
+  },
+  "review_path": "review/zh/F-2223d4d89f9d838aec25.json",
+  "review_blob_sha": "60c195f3aef95a3222685d35e8909889c0783692",
+  "empty_edit_decisions_path": "review/zh/F-2223d4d89f9d838aec25-empty-edit-decisions-C05-20261109-0600.json",
+  "empty_edit_decisions_blob_sha": "b68426b85605a08ac338250dc3a00b3af1f47a5f",
+  "next_step": "Continue sequential Chinese review at A6585, then A6586–A6600. Do not issue COMPLETE until all 1,290 rows and final QC are complete.",
+  "notes": "A6582 (16 rows) fully compared with Korean form and linked English Enforcement Rule reference. Existing corrections retained; official review and no-change decisions saved via GitHub Contents API. Task remains IN_PROGRESS."
+}
