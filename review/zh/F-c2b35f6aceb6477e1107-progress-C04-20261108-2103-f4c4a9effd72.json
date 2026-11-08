@@ -4,7 +4,7 @@
   "job_id": "F-c2b35f6aceb6477e1107",
   "worker": "C04",
   "branch": "main",
-  "status": "IN_PROGRESS",
+  "status": "COMPLETE",
   "source_blobs": {
     "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
     "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
@@ -44,7 +44,7 @@
     "zh_row_checked_without_edit": [
       "B1-zh-00086"
     ],
-    "next_sequence": "All 1,241 Chinese rows in all 15 family documents checked in order. Ready for final review and receipt save/re-read.",
+    "next_sequence": "Family complete. Do not start another family until a new official C04 assignment is issued.",
     "note": "B1-zh-00086 maps to Korean source 제1조(시행일) 이 법은 2022년 1월 1일부터 시행한다. Chinese text '第一条（生效日期）本法自2022年1月1日起生效。' is accurate; no edit warranted.",
     "zh_checked_ids": [
       "B1-zh-00001",
@@ -1288,7 +1288,16 @@
       "A14120-zh-00037",
       "A14120-zh-00038",
       "A14120-zh-00039"
-    ]
+    ],
+    "status": "COMPLETE"
   },
-  "status_note": "Final source sequence verified: 15/15 Korean documents read; all linked English full_texts read (Act AI draft, Decree AI draft, Decree official translation, Enforcement Rule AI draft containing Annexes 1–4 and Forms 1–7); all 1,241 Chinese rows checked in document order. All source blobs unchanged: ko 331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4, en 6b632dd08d72392bf36ccb19d6751b5bbf8c904e, zh f8879f4a12299069e4831b03f15a2a2fa30c8089. Existing minimal corrections preserved; 521 unique edit IDs. Review still IN_PROGRESS at this checkpoint; final COMPLETE review and receipt to be written/re-read next."
+  "status_note": "COMPLETE. Final review and receipt saved through GitHub Contents API and re-read successfully. All 15 Korean documents, all linked English texts, and all 1,241 Chinese rows reviewed. Source blobs unchanged. Waiting for next official C04 assignment; no other law family selected.",
+  "final_artifacts": {
+    "review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
+    "review_sha": "909d94606805a691bf3c01e7882a7e22c86f59bf",
+    "receipt_path": "receipts/F-c2b35f6aceb6477e1107.json",
+    "receipt_sha": "f7c1b360f386b836ea533ecb079379e798d45487",
+    "checked_rows": 1241,
+    "corrected_rows": 521
+  }
 }
