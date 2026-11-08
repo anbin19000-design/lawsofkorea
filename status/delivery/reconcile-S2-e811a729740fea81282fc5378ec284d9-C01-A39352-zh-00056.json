@@ -1,0 +1,21 @@
+{
+  "schema": "LAW_ZH_RECONCILE_V1",
+  "job_id": "F-eb24b26e08a83be58f81",
+  "assignment_id": "S2-e811a729740fea81282fc5378ec284d9",
+  "worker": "C01",
+  "branch": "main",
+  "status": "RECONCILED",
+  "row_id": "A39352-zh-00056",
+  "source_hash": "0fdd2b74288510b929bfdfe07e6e3c522a56f619ebd681b1f6aa494a9c51b95f",
+  "source_blob_sha": {
+    "ko": "f0d6fbd2ef344c2fcc23f9c68a9e5dfbb3ed196a",
+    "zh": "0ab0bdb3db18772f9e4cb45b0e179805f0df3940"
+  },
+  "candidate_files": [
+    "status/delivery/progress-S2-e811a729740fea81282fc5378ec284d9-C01-A39352-00028-00055.json",
+    "status/delivery/progress-S2-e811a729740fea81282fc5378ec284d9-C01-A39352-00028-00082.json",
+    "status/delivery/progress-S2-e811a729740fea81282fc5378ec284d9-C01-A39352-00056-00082.json"
+  ],
+  "text": "以外的其他业务的情形",
+  "note": "Korean 아닌 다른 업무를 한 경우; removes invalid START marker. Cross-row full sentence for 다. checked, no new checked ID, family IN_PROGRESS."
+}
