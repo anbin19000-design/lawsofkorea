@@ -1,0 +1,51 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:3d3a40a47c11",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "checked_rows": 2,
+  "checked_ids": [
+    "B2-zh-00209",
+    "B3-zh-00013"
+  ],
+  "edits": [
+    {
+      "id": "B2-zh-00209",
+      "text": "附则 <第36373号，2026年6月2日>\n\n本施行令自2026年6月3日起施行。\n\n",
+      "source_hash": "8448f5ea317ecf4c1584d4270727a5d19c629a4332257a3001b85e9e2e7a7ec9",
+      "target_id": "3fad8551d7d9efb49c7ecd9b5b1316eb9c6ccc97473f22fa595dc6a12d3ea14d"
+    },
+    {
+      "id": "B3-zh-00013",
+      "text": "附则 <第894号，2021年10月6日>\n\n本规则自公布之日起施行。\n\n删除 <2021年7月12日>\n■ 《智慧城市建设及产业振兴等相关法律施行规则》[附页第1号格式] 删除 <2021年7月12日>\n\n删除 <2021年7月12日>\n■ 《智慧城市建设及产业振兴等相关法律施行规则》[附页第2号格式] 删除 <2021年7月12日>\n\n",
+      "source_hash": "a8b63598884a7640a41e32c55bb2fe005c30dc8de58e0feb87cfd1e94654a87a",
+      "target_id": "0e51bdc8a48a41932511e193db478c505e6b2a1af56d9979373012ca5308d21d"
+    }
+  ],
+  "checked_details": [
+    {
+      "id": "B2-zh-00209",
+      "verdict": "CORRECT_DOCUMENT_BOUNDARY_SPILLOVER",
+      "reason": "Korean B2 source_ko length 47665; the row starts at 47616 and ends 49373, crossing the document boundary. Content after the 2026-06-03 effective clause belongs to attached annex A36424, already preserved separately; remove duplicated annex material from B2 row."
+    },
+    {
+      "id": "B3-zh-00013",
+      "verdict": "CORRECT_DOCUMENT_BOUNDARY_SPILLOVER_AND_UNTRANSLATED",
+      "reason": "Korean B3 source_ko length 2365; row starts 2162 and extends to 3901, crossing into A25465 form. Preserve B3 supplementary rule and deleted former forms 1 and 2; remove duplicate annex-form application content and translate remaining Delete/Korean form titles within B3."
+    }
+  ],
+  "prior_progress": [
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-8e24b13497c9.json",
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-f4da25255273.json",
+    "status/delivery/progress-S2-ae8f8a85c5ace955ac8120fa9a6c7730-C02-prior-conflicts-adjudication-R105.json"
+  ],
+  "note": "Two new boundary-spillover corrections compared against Korean document tails; annex A36424 and application form A25465 remain independently present in the unchanged zh source. Full 1133-row semantic review incomplete. No COMPLETE claim."
+}
