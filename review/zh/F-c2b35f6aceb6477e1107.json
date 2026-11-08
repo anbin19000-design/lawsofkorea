@@ -2,7 +2,7 @@
   "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-c2b35f6aceb6477e1107",
   "worker": "C04",
-  "checked_rows": 26,
+  "checked_rows": 27,
   "edits": [
     {
       "id": "A14112-zh-00030",
@@ -107,8 +107,12 @@
     {
       "id": "B1-zh-00076",
       "text": "第六条（其他法律的修正）①至<71>款已省略\n\n  <72> 《学校供餐服务法》部分修订如下。\n\n  第十条第二款、第十一条第二款、第十二条第二款和第十六条第二款第二项中的“教育科学技术部令”应改为“教育部令”。\n\n  第十八条第一款；第十九条第一款和第三款；第二十条；第二十一条第一款和第二款；第二十二条第三款；以及第二十五条第三款中，“教育科学技术部长”应改为“教育部长”。\n\n  <73> 至 <710> 已省略\n\n"
+    },
+    {
+      "id": "B1-zh-00093",
+      "text": "第2条（关于食材采购合同投标资格限制等规定的适用例）第15条之2的修订规定，适用于该修订规定施行后发布食材采购合同招标公告或者签订食材采购随意合同的情形。\n\n"
     }
   ],
   "status": "IN_PROGRESS",
-  "note": "Recovery round 3: 26 distinct verified minimal corrections. B1-zh-00069 preserved enumerator ⑬; B1-zh-00076 restored ministry decree terminology 部令. Full family IN_PROGRESS, no receipt."
+  "note": "Recovery round 4: preserved 26 existing edits; added B1-zh-00093 after direct Korean source comparison (restored post-effective-date applicability and corrected 수의계약 from 私人合同 to 随意合同). Entire 15-document review and full English reading are not certified; IN_PROGRESS, no receipt."
 }
