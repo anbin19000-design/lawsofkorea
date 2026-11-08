@@ -1,0 +1,31 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-c2b35f6aceb6477e1107",
+  "worker": "C04",
+  "panel_id": "panel-04",
+  "assignment_id": "S2-901caa00a22014b2aeb6d9a618edfdbf",
+  "assignment_marker": "c26843943c9a",
+  "status": "IN_PROGRESS",
+  "source_blob_shas": {
+    "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
+    "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
+    "zh": "f8879f4a12299069e4831b03f15a2a2fa30c8089"
+  },
+  "document_count": 15,
+  "chinese_rows": 1241,
+  "english_reference_rows": 911,
+  "without_english_reference_rows": 330,
+  "previous_edit_count": 249,
+  "revised_existing_edit_ids": [
+    "B1-zh-00012"
+  ],
+  "added_edit_ids": [],
+  "new_total_edit_count": 249,
+  "review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
+  "review_commit": "00a10d7995af2f06c6edb2ef544ba49bdab5e5f8",
+  "full_korean_read_verified": false,
+  "full_english_read_verified": false,
+  "full_chinese_read_verified": false,
+  "complete_receipt": false,
+  "note": "Verified official C04 panel-04 binding and original SHA unchanged; corrected prior existing review B1-zh-00012 to remove invented benefit entitlement and restore article 3 item 4 citation. Full sequential KO/EN/ZH semantic verification not certified."
+}
