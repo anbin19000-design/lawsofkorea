@@ -13,18 +13,18 @@
     "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
   },
   "checked_ids": [
-    "B1-zh-00023"
+    "B1-zh-00024"
   ],
   "checked_rows_new": 1,
   "edits": [
     {
-      "id": "B1-zh-00023",
-      "text": "第十七条（实施计划等审批的特别规定）\n① 项目实施者在根据其他法律实施项目时，如依据相关法律制定并取得包含第十四条所列实施计划内容的开发计划和实施计划的批准，则该实施计划视为已依据第十四条制定或批准。<2015年12月29日修订>\n② 项目实施者按照第1款规定的项目通过竣工检查时，视为已依据第16条通过竣工检查。\n\n",
-      "source_hash": "20babaaf6a1f99e9ed629adb3b23385cee6ade394c305687453d13fd65e4f128",
-      "target_id": "372e24b3f790eec8ba52192add0d38f110a97a07cc2524156b508b1a53fa9d7b",
+      "id": "B1-zh-00024",
+      "text": "第十八条（公共设施的归属）\n① 项目实施方安装的智慧城市基础设施，如在实施方案中指定为无偿移交，则该基础设施应视为公共设施，并参照适用《国家土地规划利用法》第六十五条的规定。<2017年3月21日修订>\n② 第1款所述公共设施，除本法或其他法律另有规定外，由特别市、广域市、特别自治市、特别自治省、市或县的市长管理，直至竣工后移交管理机关。但特别市或广域市市长事先征得辖区内区政府（指自治区）负责人的意见后，可由该区政府负责人管理。<2012年5月23日修订>\n③ 除第1款和第2款规定的以外，有关公共设施的归属和管理的事项，由总统令规定。\n\n",
+      "source_hash": "b7346b54da58698398da5fc7c9efe2f9a946569385367cd9f581c79ce7f56b15",
+      "target_id": "6d8356cfd2725c6f1af28adcd1abec92e62d3df162d546d575c56825a31d30a3",
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-0fb8b7cbc86e.json",
-      "verification": "C02_DIRECT_KOREAN_COMPARISON",
-      "reason": "韩文“준공검사를 받았을 때”表示项目实施者通过竣工检查，不是收到竣工验收报告；中文原译将法律条件和法律效果均误译为收到报告，作最小语义修正。"
+      "verification": "C02_DIRECT_KOREAN_LEGAL_TERM_COMPARISON",
+      "reason": "韩文“귀속”在本条指公共设施在竣工后归属/移交给管理机关，并非设施所有权概念；仅将标题“所有权”改为“归属”，保留正文原译。"
     }
   ],
   "ordered_reading_certification": {
@@ -32,14 +32,13 @@
     "en": false,
     "zh": false
   },
-  "prior_master_blob_sha": "e6762e3461335e7901f688b8237bfcf93744f844",
-  "prior_edit_count": 289,
-  "cumulative_edit_count": 290,
-  "cumulative_checked_unique_ids": 305,
+  "prior_master_blob_sha": "1097d6a4fd446cd36d1c147253cf6b64db192ced",
+  "prior_edit_count": 290,
+  "cumulative_edit_count": 291,
+  "cumulative_checked_unique_ids": 306,
   "notes": [
-    "Read and compared Korean Act B1-zh-00023 with the current Chinese row.",
-    "Corrected the completion-inspection condition in Article 17(2), retaining the original sentence structure and amendment note.",
-    "Neighboring rows B1-zh-00022, B1-zh-00025 and B1-zh-00028 already have prior master edits; no duplicate edits were added.",
-    "Partial checkpoint only; no full-family ordered reading certificate or COMPLETE status."
+    "Compared Korean Article 18 heading and context to Chinese row B1-zh-00024.",
+    "Changed only the heading term 所有权 to 归属; retained all existing paragraph translations.",
+    "Partial checkpoint; no full-family reading certificate or COMPLETE status."
   ]
 }
