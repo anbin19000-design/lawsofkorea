@@ -1,0 +1,151 @@
+{
+  "schema": "LAW_ZH_C06_FINAL_CANDIDATE_ADJUDICATION_V1",
+  "job_id": "F-31334bc4303ae2cb3d80",
+  "worker": "C06",
+  "task_id": "84b91c325b84",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "d6d795ff1ece4a82663a83efd46f7f73afa7fbbb",
+    "en": "16e015facbcef00df95c985f816f47acf7bcfef7",
+    "zh": "7a6d1e8d841fb3b27185d6d4a6b811149d604dc0"
+  },
+  "review_path": "review/zh/F-31334bc4303ae2cb3d80.json",
+  "review_blob_sha": "6dfcaabae0e25de6c61a5ece182fb2c6f6498687",
+  "original_rows": 1206,
+  "unique_edits": 569,
+  "prior_proposals": 595,
+  "unadopted_proposals": 26,
+  "retained_original_verdicts": [
+    {
+      "id": "B1-zh-00011",
+      "verdict": "KEEP_ORIGINAL",
+      "reason": "Existing numeric paragraph heading conveys same numbering; no mandatory retranslation."
+    },
+    {
+      "id": "B1-zh-00034",
+      "verdict": "KEEP_ORIGINAL",
+      "reason": "Existing numeric paragraph heading conveys same numbering; no mandatory retranslation."
+    },
+    {
+      "id": "A22630-zh-00015",
+      "verdict": "KEEP_ORIGINAL",
+      "reason": "Original short split-table unit or urgency is already correct; proposal adds unnecessary punctuation/words."
+    },
+    {
+      "id": "A22630-zh-00034",
+      "verdict": "KEEP_ORIGINAL",
+      "reason": "Original short split-table unit or urgency is already correct; proposal adds unnecessary punctuation/words."
+    },
+    {
+      "id": "A22631-zh-00040",
+      "verdict": "KEEP_ORIGINAL",
+      "reason": "Existing nuclear commission or code notation is appropriate; adding 与安保 or cosmetic edits is unsupported."
+    },
+    {
+      "id": "A22631-zh-00055",
+      "verdict": "KEEP_ORIGINAL",
+      "reason": "Existing nuclear commission or code notation is appropriate; adding 与安保 or cosmetic edits is unsupported."
+    },
+    {
+      "id": "A22631-zh-00056",
+      "verdict": "KEEP_ORIGINAL",
+      "reason": "Existing nuclear commission or code notation is appropriate; adding 与安保 or cosmetic edits is unsupported."
+    },
+    {
+      "id": "A22631-zh-00057",
+      "verdict": "KEEP_ORIGINAL",
+      "reason": "Existing nuclear commission or code notation is appropriate; adding 与安保 or cosmetic edits is unsupported."
+    },
+    {
+      "id": "A22632-zh-00018",
+      "verdict": "KEEP_ORIGINAL",
+      "reason": "Existing nuclear commission or code notation is appropriate; adding 与安保 or cosmetic edits is unsupported."
+    },
+    {
+      "id": "A22633-zh-00051",
+      "verdict": "KEEP_ORIGINAL",
+      "reason": "Existing nuclear commission or code notation is appropriate; adding 与安保 or cosmetic edits is unsupported."
+    },
+    {
+      "id": "A22633-zh-00052",
+      "verdict": "KEEP_ORIGINAL",
+      "reason": "Existing nuclear commission or code notation is appropriate; adding 与安保 or cosmetic edits is unsupported."
+    },
+    {
+      "id": "A22633-zh-00053",
+      "verdict": "KEEP_ORIGINAL",
+      "reason": "Existing nuclear commission or code notation is appropriate; adding 与安保 or cosmetic edits is unsupported."
+    },
+    {
+      "id": "A22634-zh-00040",
+      "verdict": "KEEP_ORIGINAL",
+      "reason": "Existing nuclear commission or code notation is appropriate; adding 与安保 or cosmetic edits is unsupported."
+    },
+    {
+      "id": "A22634-zh-00063",
+      "verdict": "KEEP_ORIGINAL",
+      "reason": "Existing nuclear commission or code notation is appropriate; adding 与安保 or cosmetic edits is unsupported."
+    },
+    {
+      "id": "A22634-zh-00064",
+      "verdict": "KEEP_ORIGINAL",
+      "reason": "Existing nuclear commission or code notation is appropriate; adding 与安保 or cosmetic edits is unsupported."
+    },
+    {
+      "id": "A22634-zh-00065",
+      "verdict": "KEEP_ORIGINAL",
+      "reason": "Existing nuclear commission or code notation is appropriate; adding 与安保 or cosmetic edits is unsupported."
+    },
+    {
+      "id": "A22635-zh-00038",
+      "verdict": "KEEP_ORIGINAL",
+      "reason": "Existing nuclear commission or code notation is appropriate; adding 与安保 or cosmetic edits is unsupported."
+    },
+    {
+      "id": "A22635-zh-00053",
+      "verdict": "KEEP_ORIGINAL",
+      "reason": "Existing nuclear commission or code notation is appropriate; adding 与安保 or cosmetic edits is unsupported."
+    },
+    {
+      "id": "A22636-zh-00038",
+      "verdict": "KEEP_ORIGINAL",
+      "reason": "Existing nuclear commission or code notation is appropriate; adding 与安保 or cosmetic edits is unsupported."
+    },
+    {
+      "id": "A22636-zh-00039",
+      "verdict": "KEEP_ORIGINAL",
+      "reason": "Existing nuclear commission or code notation is appropriate; adding 与安保 or cosmetic edits is unsupported."
+    },
+    {
+      "id": "A22636-zh-00040",
+      "verdict": "KEEP_ORIGINAL",
+      "reason": "Existing nuclear commission or code notation is appropriate; adding 与安保 or cosmetic edits is unsupported."
+    },
+    {
+      "id": "A22640-zh-00036",
+      "verdict": "KEEP_ORIGINAL",
+      "reason": "Korean 사유 matches existing 原因; rejected 备注."
+    },
+    {
+      "id": "A22642-zh-00033",
+      "verdict": "KEEP_ORIGINAL",
+      "reason": "Preserve prior quality-16 explicit rejection of needless 与安保."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "A22637-zh-00016",
+      "reason": "Korean extracted unit '103/μL' may represent superscript 10³; requires authoritative visual cell verification before changing numeric notation."
+    },
+    {
+      "id": "A22639-zh-00029",
+      "reason": "Crew table XML:1607176 corresponds to a split label and blank count cell; source-cell alignment is not proven."
+    },
+    {
+      "id": "A22639-zh-00032",
+      "reason": "Crew table XML:1607179 may correspond to a blank/split table element; proposed 人员 cannot be asserted without original XML cell mapping."
+    }
+  ],
+  "remaining_semantic_verification": "All unmodified rows and candidate corrections require final full-family semantic QA before COMPLETE, even though structural and marker screening passed.",
+  "notes": "Original source and all prior verdicts preserved. No COMPLETE status or receipt; unresolved numeric/form XML evidence."
+}
