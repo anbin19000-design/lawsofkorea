@@ -1,0 +1,35 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_blob_after_save": "af6298c38879389e395e7eb2ad455c04116bdcfc",
+  "prior_corrections_preserved": 782,
+  "cumulative_corrections": 783,
+  "new_corrections": [
+    "B2-zh-00025"
+  ],
+  "inspected_span": "B2 Article 13 heading checked against Korean legal term and paragraph body; one title correction.",
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "chinese_total_rows": 1687,
+  "checked_rows": 490,
+  "corrected_rows": 783,
+  "quality_open_items": [
+    "Full sequential semantic audit of all 1,687 Chinese rows remains incomplete",
+    "A34911 calculation formula requires visual source-artifact verification; frozen Korean source text has whitespace at formula locations",
+    "429 rows without independently exact English require direct Korean/Chinese semantic comparison",
+    "Remaining law/decree/annex/form rows require semantic comparison"
+  ],
+  "note": "One B2 terminology correction appended; prior edits/source hashes preserved. IN_PROGRESS; no completion receipt."
+}
