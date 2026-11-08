@@ -1,0 +1,48 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0ad6c98fb515312954fe",
+  "family": "국제금융기구에의 가입조치에 관한 법률",
+  "worker": "C05",
+  "panel": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "d97cefcf6e981738dad64a8806cca670f25a0a8d",
+    "en": "f53a898a2de4ee06334a8d26e24b3eb5dd4c4c15",
+    "zh": "1ec65820318f59d76137136c644db0bb07f53d79"
+  },
+  "source_document_hashes": {
+    "B1": "09e2047f16e2d9653e84527638a9cabe1043510335cc7afacd4aa0cdb74c0b3b",
+    "B2": "db3b86bb2ed07db6132db247d3af2fba5c190b1e5c46745b7145952a8d75e5e7",
+    "A28544": "c2ce82b05188c19d02864719001a8c145a74edb4ddebcfdf0c2fb87c107a574c",
+    "A28545": "adae94593354b47723186c3e5d380eddae7e76e233ede38d35dea5aa726e315d",
+    "A28546": "dde0f549a884065fbe4ff55a3d9e75b6caaa6343634f4f59cc55d68ff7d5dcac",
+    "A28547": "e23db27d500aa5d8d0113845dae7ec01255342bb6afa962ed1aad9e3deb6bd73",
+    "A28548": "e46a2efa7dd8cc8ba5cd0f1d19f8fd27169f42bec990131f941cca57d91f8e9a",
+    "A28549": "ed76d3d78a25b99770496c003d7358005e9ff39914d162b6c2b9d98660812382",
+    "A28550": "87f53febf1476286616b1896e4ea69b12f09832a9cbca32f3708bc66a8d22654",
+    "A28551": "2272ee5d6b9a5eb00272f269e19e0ba7dcd8b86b60b1c547300910af90169bfb",
+    "A28552": "397a90af5d7d77839f3e4f726592155dc547b0cd45e3d49ecdd2512b7678e2c9",
+    "A28553": "a79e1f0275a287a47e041cf456ef3a1cd9c1958165747a157a580a730f45e650",
+    "A28554": "f707c2da7c1c01520bbc1c34061604d86a60312d5da7eb83d2228cfd4b63492d",
+    "A28555": "d54400e4d0637a39f0a04d188dfaddbfd5de54add0468cacbe4687d7c3d05fd7",
+    "A28556": "0fdad42eda637b186677236d61cb433b5faac4a1c81699c9c6bde4cffa95b8ca",
+    "A28557": "58e2009fb6488e9cc25ad03fa9616202714eeb6da7ac1825215e5e500da96857",
+    "A28558": "78d302a7262d2a3432f18a7e7d35ba60e8c996889a797d6167657f74c79ff82b",
+    "A28559": "1a0f4a1bed09cb9c7daa9ea374a30192f68fe6d561f3afa78cd00f15d3993a46",
+    "A28560": "f36bf163eb530205f1bc25ca0ee667d1cb17ece2b6232141789f29d4f2c6746d"
+  },
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "coverage": {
+    "total_rows": 1797,
+    "distinct_rows": 1797,
+    "checked_rows": 0,
+    "pending_rows": 1797
+  },
+  "edits": [],
+  "reviewed_ids": [],
+  "notes": [
+    "기존 canonical review 및 receipt는 존재하지 않음(404 확인). 기존 progress 파일은 검색에서 확인되지 않아 새 progress 파일을 생성함. 원본 source blob SHA는 active/C05와 일치함."
+  ],
+  "next": "Read all Korean documents in source order, then all linked English documents (exact/fallback provenance recorded), then review all Chinese rows in order."
+}
