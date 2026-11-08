@@ -1752,6 +1752,34 @@
       "source_hash": "ed6fac88cce169891860982c0fa3bd7aa8e60d59a6e224d9e1256f0d5b0f2905",
       "target_id": "XML:2217789",
       "source_progress": "C02 sequential Annex A30230 review; aligned to complete Korean schedule text"
+    },
+    {
+      "id": "A30230-zh-00026",
+      "text": "通过作业治疗改善精神疾病患者等的身体及精神功能",
+      "source_hash": "b1034650950772f3efe9ff292f9cf16c74d3c88a7dd56e191d99a42480d5af24",
+      "target_id": "XML:2217790",
+      "source_progress": "C02 sequential Annex A30230 review; aligned to Korean source"
+    },
+    {
+      "id": "A30230-zh-00027",
+      "text": "2) 规划并实施针对精神疾病患者等及其家属的作业治疗教育和作业治疗服务",
+      "source_hash": "f35d7a692e5ef33f9828c400b3329ddae477e5e86e25c934afca9243113ee02f",
+      "target_id": "XML:2217791",
+      "source_progress": "C02 sequential Annex A30230 review; aligned to Korean source"
+    },
+    {
+      "id": "A30230-zh-00028",
+      "text": "实施",
+      "source_hash": "8ed954b97c7e2e8bf4f9ceddda260c6995d331292e9fd81926394cd15cdf3816",
+      "target_id": "XML:2217792",
+      "source_progress": "C02 sequential Annex A30230 review; aligned to Korean source"
+    },
+    {
+      "id": "A30230-zh-00029",
+      "text": "■《精神健康促进及精神疾病患者福利服务支援法施行令》[附表2] <2022年4月5日修订>",
+      "source_hash": "4c8d45ce8a1e3d9cd6b873f90d3f23c8afab2b6be70008807dc6289ecd434d8f",
+      "target_id": "XML:2217793",
+      "source_progress": "C02 sequential Annex A30230 review; aligned to Korean source"
     }
   ],
   "adjudicated_edit_count": 0,
@@ -1766,7 +1794,7 @@
   "ordered_reading_certification": {
     "korean": "READ_COMPLETE_ALL_65_DOCUMENTS",
     "english": "READ_COMPLETE_AVAILABLE_SOURCES_B1_AND_B2_FALLBACK",
-    "chinese": "IN_PROGRESS; B1 complete; B2 through row 105; A30229 rows 1-212 reviewed with fragmented-cell QA pending; A30230 rows 1-25 reviewed; remaining documents pending"
+    "chinese": "IN_PROGRESS; B1 complete; B2 through row 105; A30229 rows 1-212 reviewed with fragmented-cell QA pending; A30230 rows 1-29 reviewed; remaining documents pending"
   },
   "checked_unique_ids": [
     "B1-zh-00001",
@@ -2285,10 +2313,14 @@
     "A30230-zh-00022",
     "A30230-zh-00023",
     "A30230-zh-00024",
-    "A30230-zh-00025"
+    "A30230-zh-00025",
+    "A30230-zh-00026",
+    "A30230-zh-00027",
+    "A30230-zh-00028",
+    "A30230-zh-00029"
   ],
-  "checked_rows": 517,
-  "corrected_rows": 248,
+  "checked_rows": 521,
+  "corrected_rows": 252,
   "notes": [
     "Only obvious omissions of clause numbering and a missing subparagraph marker corrected; substantive terminology and existing wording retained.",
     "B2 English is an older fallback (version 272521), not exact current Korean version; newer provisions require Korean-Chinese comparison.",
@@ -2331,6 +2363,7 @@
     "Sequential Annex A30229 review continued through row 145. Corrected clear corruption in Minister title, National Technical Qualifications Act citation, nursing professional qualification, statutory reference, and nursing college faculty rank/context. Other fragmented cells retained where the exact XML cell phrase is uncertain; continue with table alignment rather than guessing.",
     "Sequential Annex A30229 review continued through row 185. Corrected obvious misrendering of the Nursing Act, Social Welfare Services Act Article 11(2), social welfare act reference, mental-health occupational therapist, Minister title, and clinical-psychology coursework. Rows 146-154, 156-158, 160-162, 165-168, 170-176, 178-185 remain fragmented/garbled and need source-aligned table QA; no unsupported reconstruction.",
     "Sequential Annex A30229 review completed through row 212. Corrected clear statutory references (Nursing Act, National Technical Qualifications Act Enforcement Decree, Article 12-2(1)), psychiatric nursing terminology, and the note's mistranslated equivalency recognition rule. Several fragmented cells remain dependent on XML/table rendering and need final source-aligned QA; no COMPLETE status.",
-    "Began sequential Annex A30230 review, aligning its broken/incorrect letter labels and terminology to the full Korean schedule. Corrected all rows 1-25 with complete source-aligned clauses; remaining rows continue."
+    "Began sequential Annex A30230 review, aligning its broken/incorrect letter labels and terminology to the full Korean schedule. Corrected all rows 1-25 with complete source-aligned clauses; remaining rows continue.",
+    "Completed sequential review of Annex A30230 rows 1-29, including the final occupational-therapy clause and the Annex 2 heading. Proceed to A30231."
   ]
 }
