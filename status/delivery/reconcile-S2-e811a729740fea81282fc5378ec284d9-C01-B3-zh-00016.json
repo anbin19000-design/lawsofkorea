@@ -1,0 +1,20 @@
+{
+  "schema": "LAW_ZH_RECONCILE_V1",
+  "job_id": "F-eb24b26e08a83be58f81",
+  "assignment_id": "S2-e811a729740fea81282fc5378ec284d9",
+  "worker": "C01",
+  "branch": "main",
+  "status": "RECONCILED",
+  "row_id": "B3-zh-00016",
+  "source_hash": "46aba6ef97bdb30484d4b81dc16a548fecf8bc9ef4998b702c98d0073db10cbb",
+  "source_blob_sha": {
+    "ko": "f0d6fbd2ef344c2fcc23f9c68a9e5dfbb3ed196a",
+    "zh": "0ab0bdb3db18772f9e4cb45b0e179805f0df3940"
+  },
+  "candidate_files": [
+    "status/delivery/progress-S2-e811a729740fea81282fc5378ec284d9-C01-B3-00013-00016.json",
+    "status/delivery/progress-S2-e811a729740fea81282fc5378ec284d9-C01-B3-00014-00021.json"
+  ],
+  "text": "第14条（竣工检查申请）项目实施者（市长、郡守等为项目实施者的情形除外）拟依法第39条第1款接受竣工检查的，应当在附页第11号格式的《工程完工报告书》中附上下列文件及图纸，提交市长、郡守等（依法第50条第2款由公共机构等实施项目的，指国土交通部长官）：\n1. 竣工明细书（包括竣工设计文件及竣工照片）；\n2. 《空间信息的构建及管理等相关法律》规定的地籍主管机关出具的地籍测量成果图；\n3. 竣工检查时需要与有关行政机关负责人协商的，该协商所需的文件及图纸；\n4. 法第65条规定的公共设施归属明细书及图纸；\n5. 新旧地籍对照图。\n\n",
+  "note": "Korean 제14조(준공검사 신청) compared with both candidates. Preserve legal citations 법 제39조제1항, 제50조제2항, 제65조 and 별지 제11호서식. Correct original erroneous 《公共设施所有权法》 citation; use 法第65条. Preserve 준공조서 / 준공설계도서 and 공사완료 보고서 distinctions. Both prior candidates were already checked: 0 new unique checked rows. Earlier B3-zh-00015 reconciliation preserved; family remains IN_PROGRESS."
+}
