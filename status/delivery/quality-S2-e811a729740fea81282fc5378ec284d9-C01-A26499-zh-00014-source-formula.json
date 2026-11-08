@@ -1,0 +1,23 @@
+{
+  "schema": "LAW_ZH_ROW_QUALITY_V1",
+  "job_id": "F-eb24b26e08a83be58f81",
+  "assignment_id": "S2-e811a729740fea81282fc5378ec284d9",
+  "worker": "C01",
+  "branch": "main",
+  "status": "SOURCE_FORMULA_AMBIGUITY",
+  "row_id": "A26499-zh-00014",
+  "source_hash": "08386c7c47d69d51fac7f13c1975beaeed288585b3bae04bd42b7fca301c9ab2",
+  "source_blob_sha": {
+    "ko": "f0d6fbd2ef344c2fcc23f9c68a9e5dfbb3ed196a",
+    "zh": "0ab0bdb3db18772f9e4cb45b0e179805f0df3940"
+  },
+  "source_commit": "1b83140cc7e5d3c8d35c4261c633619a6161ebe5",
+  "korean_formula_fragment": "사업지역 면적/공업지역정비구역 면적 ? 0.3)",
+  "existing_progress_file": "status/delivery/progress-S2-e811a729740fea81282fc5378ec284d9-C01-A26499-00001-00017.json",
+  "existing_progress_text": "项目地区面积／工业区整治区域面积 ? 0.3）］",
+  "decision": "The '?' mathematical operator is present in the baseline Korean annex as well as the Chinese candidate. No authoritative operator is established from the frozen source. Preserve existing progress and the operator without guessing plus or minus; flag this source ambiguity for authoritative confirmation before the final receipt.",
+  "checked_rows_added": 0,
+  "edits_added": 0,
+  "final_review_status": "IN_PROGRESS",
+  "note": "Focused annex formula cross-check; no existing row, hash, progress, or law source modified. All 1143 rows have prior progress coverage, but consolidation and conflict resolution remain prerequisite for COMPLETE."
+}
