@@ -1,0 +1,17 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_CORRECTION_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "panel_id": "panel-05",
+  "status": "IN_PROGRESS",
+  "supersedes": [
+    "review/zh/F-0aff999a0f4186c0da77-progress-C05-20261109-0426-A34916-001-212.json",
+    "review/zh/F-0aff999a0f4186c0da77-progress-C05-20261109-0426-A34916-hash-correction.json"
+  ],
+  "authoritative_source_record": {
+    "id": "A34916-zh-00029",
+    "source_hash": "2375eb9275ab45d97a9ac5b0019cd278951cb429b3ef42a10bf9d69ca4d94ff4",
+    "text": "此外，考虑到违法行为的程度、动机和后果等因素，加重处罚"
+  },
+  "decision": "Disregard the proposed row-29 edit in the first checkpoint and disregard the erroneous placeholder hashes in the interim correction note. Row 29 is broadly consistent with Korean '그 밖에 위반행위의 정도, 위반행위의 동기와 그 결과 등을 고려하여 가중할 필요가 있다고 인정되는 경우'; no separate correction is currently proposed. The other A34916 checkpoint content remains valid."
+}
