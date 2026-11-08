@@ -6,7 +6,7 @@
   "pc": "WORK-C",
   "assignment_marker": "[WORK-TASK:C06:F-115cdb63314b8273d5d5:91cb01eae9bf]",
   "status": "IN_PROGRESS",
-  "phase": "KO_STRUCTURAL_TRAVERSAL_COMPLETE_FULL_READING_PENDING",
+  "phase": "KO_FULL_READING_IN_PROGRESS",
   "source_commit": "9edde23de1ced67de890822d81f5dc165fabb013",
   "source_blobs": {
     "ko": "159cb5a14f8f5e07bea8f04a5437adbf4b15c6ba",
@@ -32,7 +32,7 @@
     "verified_row_count": 0
   },
   "edits": [],
-  "note": "All 61 Korean source documents traversed mechanically for completeness, document metadata, nonempty body and article headings. This is NOT legal-text semantic reading; KO_FULL_READING remains pending. Three existing English references located but their full semantic reading remains pending. No Chinese review or changes started.",
+  "note": "61-document Korean structural check completed and first five articles of Road Act substantively read. Remaining Korean text must be read before English and Chinese review. No translations edited.",
   "ko_structural_traversal": {
     "status": "COMPLETE",
     "document_count": 61,
@@ -665,5 +665,14 @@
       "path": "documents/en/kr-003400-287115-en.json",
       "sha": "2a9365469c2317f77b4301d5f9c15cc25ae68b61"
     }
-  ]
+  ],
+  "ko_reading_position": {
+    "document_index": 1,
+    "document_key": "B1",
+    "document_title": "도로법",
+    "fully_read_articles": "제1조~제5조",
+    "next_article": "제6조",
+    "full_read_completed": false,
+    "notes": "Reviewed Korean text: purpose; definitions (road, road annexes, road authorities and zones); State duties; restriction of private rights; 10-year national road network plan and 5-year review. No cross-language comparison begun."
+  }
 }
