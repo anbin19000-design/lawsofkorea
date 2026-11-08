@@ -1,0 +1,138 @@
+{
+  "schema": "LAW_ZH_REVIEW_AUDIT_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "status": "IN_PROGRESS",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:54a3d6906ad2]",
+  "source_blobs": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "review_blob": "154c8ba135d330525174c1d27e68fc7e211da2d1",
+  "documents": [
+    {
+      "key": "B1",
+      "kind": "법률",
+      "rows": 103,
+      "corrected": 32,
+      "english": "EXACT_ENGLISH_AVAILABLE"
+    },
+    {
+      "key": "B2",
+      "kind": "대통령령",
+      "rows": 57,
+      "corrected": 8,
+      "english": "EXACT_ENGLISH_AVAILABLE"
+    },
+    {
+      "key": "A38090",
+      "kind": "별표",
+      "rows": 39,
+      "corrected": 1,
+      "english": "EXACT_ENGLISH_AVAILABLE"
+    },
+    {
+      "key": "A38091",
+      "kind": "별표",
+      "rows": 119,
+      "corrected": 4,
+      "english": "EXACT_ENGLISH_AVAILABLE"
+    },
+    {
+      "key": "B3",
+      "kind": "해양수산부령",
+      "rows": 76,
+      "corrected": 15,
+      "english": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23947",
+      "kind": "별표",
+      "rows": 285,
+      "corrected": 10,
+      "english": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23948",
+      "kind": "별표",
+      "rows": 62,
+      "corrected": 1,
+      "english": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23949",
+      "kind": "별표",
+      "rows": 73,
+      "corrected": 0,
+      "english": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23950",
+      "kind": "별표",
+      "rows": 90,
+      "corrected": 3,
+      "english": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23951",
+      "kind": "서식",
+      "rows": 39,
+      "corrected": 1,
+      "english": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23952",
+      "kind": "서식",
+      "rows": 51,
+      "corrected": 1,
+      "english": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23953",
+      "kind": "서식",
+      "rows": 55,
+      "corrected": 1,
+      "english": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23954",
+      "kind": "서식",
+      "rows": 21,
+      "corrected": 0,
+      "english": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23955",
+      "kind": "서식",
+      "rows": 40,
+      "corrected": 1,
+      "english": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23956",
+      "kind": "서식",
+      "rows": 49,
+      "corrected": 1,
+      "english": "NO_DOCUMENT_ENGLISH"
+    },
+    {
+      "key": "A23957",
+      "kind": "서식",
+      "rows": 48,
+      "corrected": 1,
+      "english": "NO_DOCUMENT_ENGLISH"
+    }
+  ],
+  "source_rows": 1207,
+  "unique_source_ids": 1207,
+  "unique_corrected_ids": 80,
+  "correction_ids_valid": true,
+  "mechanical_scan": {
+    "rows_scanned": 1207,
+    "remaining_mtq_start_hangul": []
+  },
+  "semantic_status": "NOT_FULLY_VERIFIED",
+  "next_scope": "Continue independent Korean-authoritative semantic comparison of previously unreviewed annex/table/form rows and numeric/reference consistency; English document missing for B3 and annex/form documents.",
+  "note": "No receipt required by current task. No COMPLETE claim; source hashes unchanged. Historical checked_rows 31 is not revised without full row-level verification."
+}
