@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 866,
+    "correction_count": 867,
     "pending_rows": 830,
     "by_document": {}
   },
@@ -6087,6 +6087,13 @@
       "original": "按连锁店划分的加盟店和直营店总数（分别列出加盟店和直营店）",
       "corrected": "加盟店和直营店的总数（加盟店与直营店分别列示）",
       "reason": "한국어 '가맹점 및 직영점 총 수(가맹점과 직영점을 나누어 기재한다)'에 맞춰 불필요한 '按连锁店划分' 표현을 제거."
+    },
+    "A34913-zh-00001": {
+      "doc": "A34913",
+      "source_hash": "849334571a921eb2279ad593cf6820e38a0d2e8e194481920781b3c39f3de88f",
+      "original": "■ 特许经营业务公平交易法实施令[附录3] <2008年1月31日修订>",
+      "corrected": "■ 《特许经营业务交易公平化法实施令》[附表3] <2008年1月31日修订>",
+      "reason": "별표3를 일반 부속서가 아닌 법령 별표로 바로잡음."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
