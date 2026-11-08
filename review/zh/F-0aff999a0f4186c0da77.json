@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 276,
+    "correction_count": 280,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -1957,6 +1957,34 @@
       "original": "如果确认无力支付罚款附加费，则免除罚款附加费。",
       "corrected": "如果确认无力支付罚款附加费，可以免除罚款附加费。",
       "reason": "과징금 면제의 임의 규정 ‘면제할 수 있다’를 면제 의무로 잘못 번역한 법적 효과 오류."
+    },
+    "A34914-zh-00006": {
+      "doc": "A34914",
+      "source_hash": "783de854e201054bda3830bf834c05b0923449dda00784b3986a6aad7b24972d",
+      "original": "必须在当前期间继续租赁。",
+      "corrected": "必须在教育进行期间持续租赁。",
+      "reason": "韩文附表原文对照后 명백한 기간·법령명·과징금 의미 오류만 최소 교정"
+    },
+    "A34914-zh-00013": {
+      "doc": "A34914",
+      "source_hash": "223a8209f96b5d7b99bad8cf81625106f72e672e77999587c58826768d4a6df7",
+      "original": "根据《教育法》第二条规定，在学校或经认可的研究机构担任助理教授或以上职务的人员，或此人员",
+      "corrected": "根据《高等教育法》第2条规定，在学校或经认可的研究机构现任或曾任助理教授以上或相当职务的人员",
+      "reason": "韩文附表原文对照后 명백한 기간·법령명·과징금 의미 오류만 최소 교정"
+    },
+    "A34915-zh-00002": {
+      "doc": "A34915",
+      "source_hash": "07161ae22da2d66b061edf24e7fc2455f70295bc33d5ef9a168cbc093b3cf4e6",
+      "original": "附加费征收标准（与第34条第4款相关）",
+      "corrected": "行政罚款的征收标准（与第34条第4款相关）",
+      "reason": "韩文附表原文对照后 명백한 기간·법령명·과징금 의미 오류만 최소 교정"
+    },
+    "A34915-zh-00036": {
+      "doc": "A34915",
+      "source_hash": "9be3ecbb47e3bbe737e1631738c02cc84cc57b8ac6ae8413178d41bc8dc30a9a",
+      "original": "1) 特许经营者实际承担违约负担或违约对市场影响的能力，",
+      "corrected": "1) 特许经营总部实际承担行政罚款的能力，或其违法行为对市场造成的影响，",
+      "reason": "韩文附表原文对照后 명백한 기간·법령명·과징금 의미 오류만 최소 교정"
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -2018,7 +2046,8 @@
     "C05 00d89ac6886f: A34909 rows 261-328 reviewed against full Korean source, repaired 24 confirmed legal subitem label and substantive mistranslation errors (employee count versus owner working requirement, procedure mistranslated as surgery). Whole family audit remains incomplete.",
     "C05 00d89ac6886f: A34910 50-row change-registration/deadline table read against Korean Annex 1-2; 18 wrong subsection citations corrected, pre-existing table artifact fixes preserved. Full-family audit IN_PROGRESS.",
     "C05 00d89ac6886f: Annex A34912 full 147-row first-pass inspection against Korean source; repaired 23 explicit errors in subitem labels, Aligo contamination, coercion beneficiary, and reversed disadvantage term. Other previously corrected rows preserved; exhaustive semantic review remains pending.",
-    "C05 00d89ac6886f: A34914/A34915 reviewed against full Korean annexes. 23 definite corrections: personnel/qualification criteria, facility subsection numbering, fine calculation and discretionary waiver, fines vs penalties, sales vs volume. Full semantic family review IN_PROGRESS."
+    "C05 00d89ac6886f: A34914/A34915 reviewed against full Korean annexes. 23 definite corrections: personnel/qualification criteria, facility subsection numbering, fine calculation and discretionary waiver, fines vs penalties, sales vs volume. Full semantic family review IN_PROGRESS.",
+    "C05 6dfadf0508d4: annex A34914 and A34915 source-grounded 4 corrections; full Chinese semantic certification remains incomplete."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -2027,5 +2056,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 276
+  "corrected_rows": 280
 }
