@@ -13,10 +13,10 @@
   "documents": 15,
   "total_rows": 1241,
   "unique_source_ids": 1241,
-  "verified_corrections": 20,
-  "pending_manual_verification": 1221,
+  "verified_corrections": 22,
+  "pending_manual_verification": 1219,
   "review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
-  "review_sha": "5ec0b748811ef690a4577df68807e73030a06e49",
+  "review_sha": "a0e4738a03b0b0d748323a7eaf39c42eb08ba690",
   "checked_ids": [
     "A14112-zh-00030",
     "A14112-zh-00032",
@@ -37,7 +37,9 @@
     "B1-zh-00012",
     "B1-zh-00013",
     "B1-zh-00019",
-    "B1-zh-00023"
+    "B1-zh-00023",
+    "B1-zh-00026",
+    "B1-zh-00029"
   ],
   "findings": {
     "mtq_corruption_corrected": 8,
@@ -51,6 +53,6 @@
     "english_rows_unmatched": 330,
     "remaining_simple_MTQ_or_Hangul_patterns": 0
   },
-  "note": "Recovery round 1: exact original KO/EN/ZH blob SHAs confirmed unchanged; 8 new verified corrections persisted in two Contents API commits (76527c72ebfea566be4b4fb95dd1811eef205d68 and 646acc36427abf9f857b2412693ac483c340740f), read back. 20 correction IDs stored. Remaining 1221 rows not individually certified. Receipt withheld.",
-  "next_unverified_id": "B1-zh-00024"
+  "note": "Recovery round 2: source KO/EN/ZH SHAs unchanged. New corrected IDs B1-zh-00026, B1-zh-00029 committed in ad228d249184093e9242cd641b0dc646a151b0e4 and verified by Contents API. No 401/403/STOP/HOLD detected. 22 unique edits are stored; 1219 rows have not been independently certified. Receipt withheld.",
+  "next_unverified_id": "B1-zh-00042"
 }
