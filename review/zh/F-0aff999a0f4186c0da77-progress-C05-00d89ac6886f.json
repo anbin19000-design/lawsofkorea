@@ -14,7 +14,7 @@
   },
   "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
   "prior_corrections_preserved": 135,
-  "cumulative_corrections": 142,
+  "cumulative_corrections": 156,
   "new_corrections": [
     "A34909-zh-00004",
     "A34909-zh-00005",
@@ -22,13 +22,27 @@
     "A34909-zh-00022",
     "A34909-zh-00023",
     "A34909-zh-00024",
-    "A34909-zh-00028"
+    "A34909-zh-00028",
+    "A34909-zh-00058",
+    "A34909-zh-00060",
+    "A34909-zh-00062",
+    "A34909-zh-00069",
+    "A34909-zh-00075",
+    "A34909-zh-00076",
+    "A34909-zh-00078",
+    "A34909-zh-00079",
+    "A34909-zh-00081",
+    "A34909-zh-00083",
+    "A34909-zh-00090",
+    "A34909-zh-00093",
+    "A34909-zh-00099",
+    "A34909-zh-00101"
   ],
-  "inspected_span": "A34909-zh-00001 through A34909-zh-00065 (initial text and subsection identifiers)",
+  "inspected_span": "A34909-zh-00001 through A34909-zh-00101 (fragmented section markers, targeted semantic review)",
   "verified_ko_reading_documents": 18,
   "verified_linked_english_readings": 3,
   "chinese_total_rows": 1687,
   "english_note": "B1 exact English, B2 fallback version; independently verified exact English unavailable for annexes and forms.",
   "review_status": "A34909_SEMANTIC_AUDIT_IN_PROGRESS",
-  "notes": "Seven clearly damaged Korean annex item markers restored in Chinese translations; existing edits preserved. Annex rows lack start/end offsets, so match against full original annex. No COMPLETE claim or receipt."
+  "notes": "Seven clearly damaged Korean annex item markers restored in Chinese translations; existing edits preserved. Annex rows lack start/end offsets, so match against full original annex. No COMPLETE claim or receipt. Additional 14 destroyed or displaced annex subitem identifiers recovered with Korean full-text heading checks; not a completion marker."
 }
