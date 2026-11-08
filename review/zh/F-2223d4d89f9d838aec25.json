@@ -3656,6 +3656,41 @@
       "original": "可行性评估所需的其他事项，由韩国林业厅厅长决定并公布。",
       "corrected": "关于可行性评估的其他必要事项，由韩国山林厅长官规定并公告。",
       "reason": "“산림청장”应为韩国山林厅长官；“고시한다”是公告。"
+    },
+    "A29185-zh-00001": {
+      "doc": "A29185",
+      "source_hash": "f2ff2598d2e578d2f9db8ffcf1271076fe2f68cf1fcfadc2919f28cbb2184429",
+      "original": "■《侵蚀控制法》实施令[附表1]<2019年7月2日修订>",
+      "corrected": "■《侵蚀控制工程法施行令》[附表1]<2019年7月2日修订>",
+      "reason": "恢复韩国法令名称“사방사업법 시행령”，并统一本项目既定术语。"
+    },
+    "A29185-zh-00024": {
+      "doc": "A29185",
+      "source_hash": "2fe7d5ff44f273cc8cd57f88a8f25135622257a05d3d3d9894de623b36f33de2",
+      "original": "将是",
+      "corrected": "应符合上述条件。",
+      "reason": "该行是表格条件句的结尾，原译“将是”不符合中文法律表达。"
+    },
+    "A29185-zh-00035": {
+      "doc": "A29185",
+      "source_hash": "64839c6d476ee47274022061a2feca7dd13d6587043f4e7721053e74baf7cb33",
+      "original": "b. 距高潮海岸线200米以内",
+      "corrected": "b. 距满潮海岸线200米以内。",
+      "reason": "“만조해안선”指满潮海岸线，不是泛称高潮海岸线。"
+    },
+    "A29185-zh-00056": {
+      "doc": "A29185",
+      "source_hash": "6d445442e9c0549eb95426a3c96cac9c3df9d38601d0c240e9e920af73e214b9",
+      "original": "2. 可行性评估的时间和方法",
+      "corrected": "2. 可行性评估的时机及方法",
+      "reason": "“평가시기”指评估时机，非时间长度。"
+    },
+    "A29185-zh-00058": {
+      "doc": "A29185",
+      "source_hash": "fc31ffb2550af7e71e146860a481664fb5525e73aeb3eb8e2a3ab5411a9ac403",
+      "original": "适用。",
+      "corrected": "进行评估。",
+      "reason": "对应“평가한다”，应译为进行评估；与前一行的时机条件衔接。"
     }
   },
   "edits": [
@@ -5690,24 +5725,44 @@
     {
       "id": "A29185-zh-00080",
       "text": "关于可行性评估的其他必要事项，由韩国山林厅长官规定并公告。"
+    },
+    {
+      "id": "A29185-zh-00001",
+      "text": "■《侵蚀控制工程法施行令》[附表1]<2019年7月2日修订>"
+    },
+    {
+      "id": "A29185-zh-00024",
+      "text": "应符合上述条件。"
+    },
+    {
+      "id": "A29185-zh-00035",
+      "text": "b. 距满潮海岸线200米以内。"
+    },
+    {
+      "id": "A29185-zh-00056",
+      "text": "2. 可行性评估的时机及方法"
+    },
+    {
+      "id": "A29185-zh-00058",
+      "text": "进行评估。"
     }
   ],
-  "checked_rows": 523,
-  "corrected_rows": 508,
-  "notes": "Initial source-grounded correction set after full Korean and available English source reading. Chinese sequential review continues; do not treat this as completion. Sequential review so far: B1 rows 1–122; B2 rows 1–70. Additional complete targeted passes: A29186 (43 rows) and B3 rows 1–24. 64 nonblank changed edits are saved; further Chinese rows and documents remain pending. No COMPLETE certification. All source-bound correction records are retained. Blank fragment deletions and no-change records are documented separately at review/zh/F-2223d4d89f9d838aec25-empty-edit-decisions-C05-20261109-0600.json. Full semantic coverage is complete for B1, B2, B3, A29186 and A6580; A29185 and all attached forms remain in partial/targeted review. Status remains IN_PROGRESS.",
+  "checked_rows": 603,
+  "corrected_rows": 513,
+  "notes": "Initial source-grounded correction set after full Korean and available English source reading. Chinese sequential review continues; do not treat this as completion. Sequential review so far: B1 rows 1–122; B2 rows 1–70. Additional complete targeted passes: A29186 (43 rows) and B3 rows 1–24. 64 nonblank changed edits are saved; further Chinese rows and documents remain pending. No COMPLETE certification. All source-bound correction records are retained. Blank fragment deletions and no-change records are documented separately at review/zh/F-2223d4d89f9d838aec25-empty-edit-decisions-C05-20261109-0600.json. Full semantic coverage is complete for B1, B2, B3, A29186 and A6580; A29185 and all attached forms remain in partial/targeted review. Status remains IN_PROGRESS. Sequential review resumed from the saved A29185 annex work. All 80 A29185 rows were compared against the Korean annex; 5 additional minimal corrections were added and 10 no-change decisions were recorded. Previously saved A29185 corrections were preserved. Next pending sequential document: A6581 (forms), with 687 rows still pending overall. Status remains IN_PROGRESS.",
   "coverage": {
     "total_rows": 1290,
     "distinct_rows": 1290,
-    "fully_compared_rows": 523,
+    "fully_compared_rows": 603,
     "fully_compared_by_document": {
       "B1": 122,
       "B2": 199,
       "B3": 85,
       "A29186": 43,
-      "A6580": 74
+      "A6580": 74,
+      "A29185": 80
     },
     "partial_targeted_docs": [
-      "A29185",
       "A6581",
       "A6582",
       "A6585",
@@ -5726,7 +5781,7 @@
       "A6599",
       "A6600"
     ],
-    "pending_rows": 767
+    "pending_rows": 687
   },
   "empty_edit_decisions_path": "review/zh/F-2223d4d89f9d838aec25-empty-edit-decisions-C05-20261109-0600.json"
 }
