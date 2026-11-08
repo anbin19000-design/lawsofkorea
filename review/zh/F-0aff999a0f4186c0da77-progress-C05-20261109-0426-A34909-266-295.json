@@ -1,0 +1,118 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_blob_observed": "003cad21fa104b32a22b7d401755e50ffab76f42",
+  "cumulative_corrections": 866,
+  "inspected_span": "A34909 rows 266–295 sequentially checked against the Korean annex. Existing correction decisions at rows 266–271, 276–277, 279, 286, 288, 290, 292 and 295 were retained. Additional candidate notes for split fragments and legal meaning are listed below.",
+  "proposed_corrections": [
+    {
+      "id": "A34909-zh-00273",
+      "source_hash": "80fd616ef7d2750bb5127ec58ebc49ed3f6e153cc2ba5b758f22fa198b4bba51",
+      "text": "2) 是否允许委托或受托经营加盟店，以及所需条件",
+      "reason": "가맹점 운영 대행·위탁 가능 여부를 '특许经营业务' 일반 위임으로 넓힌 오역 교정."
+    },
+    {
+      "id": "A34909-zh-00274",
+      "source_hash": "b1c9507a690cc9af7f113d0f5c59854bb5474fae15a1cadd2431754be4b4e36e",
+      "text": "3) 加盟店经营者竞业禁止的范围（应记载竞业禁止期间、行业及地区）",
+      "reason": "경업금지 주체를 가맹점사업자로 명확히 함."
+    },
+    {
+      "id": "A34909-zh-00276",
+      "source_hash": "0a5a1d8c3b5f58f2a975cf6d2ba3d1f71c87de860f221542314e40f925dd6a94",
+      "text": "5) 建议加盟店经营者雇用的员工人数，以及加盟店经营者本人是否须直接在营业场所工作",
+      "reason": "직원 수와 가맹점사업자 본인의 직접 근무 여부라는 두 사항을 분리하여 정확히 표현."
+    },
+    {
+      "id": "A34909-zh-00280",
+      "source_hash": "8892df4372fe86780ef87688f83da53497982c1ed93c00cff059d8cfb37db00b",
+      "text": "1) 根据广告目的（例如商品广告或招募加盟店广告）及促销活动性质，",
+      "reason": "광고 목적과 판촉행사 성격에 따른 비용분담 기준이라는 문맥을 복구."
+    },
+    {
+      "id": "A34909-zh-00281",
+      "source_hash": "1409ed45514e553582648f05e70d016361482c2d7bf2af8df4dac8b69b266627",
+      "text": "确定特许总部与加盟店经营者之间的费用分担标准",
+      "reason": "비용분담 주체를 가맹본부 및 가맹점사업자로 정확히 표기."
+    },
+    {
+      "id": "A34909-zh-00282",
+      "source_hash": "c0e4a675aaf0bbe8c2bdd88b7793b215a8bca843467cd31bceefb42131e41783",
+      "text": "2) 联盟协议的详细内容[包括《电信事业法》第2条第19号所称移动通信事业者及",
+      "reason": "제휴계약 관련 법률 조문과 문맥을 복구."
+    },
+    {
+      "id": "A34909-zh-00283",
+      "source_hash": "dfe5a20498667115e66d169ccac2f5a744aad114759611e8094b745b62d593c8",
+      "text": "《信用专门金融业法》第2条第2号之2所称信用卡业者等合作企业的种类及名称，",
+      "reason": "신용카드업자 및 제휴업체 법률명 인용 오류 교정."
+    },
+    {
+      "id": "A34909-zh-00284",
+      "source_hash": "82ccff6e73d9d488acfd421107be4cf4528bbbbd00f4382f3f4425b59e06e75a",
+      "text": "以及联盟协议的交易条件（不包括联盟企业与特许总部之间费用分担比例的事项）]",
+      "reason": "제휴계약 거래조건의 괄호 예외를 원문에 맞게 복구."
+    },
+    {
+      "id": "A34909-zh-00285",
+      "source_hash": "2a1b6eb014bf2e9828d96fe56c3910342967bbb85f107891c414f616cb66c407",
+      "text": "",
+      "reason": "앞 행 괄호를 닫는 세그먼트 분절 여부를 XML 구조와 함께 재확인할 것."
+    },
+    {
+      "id": "A34909-zh-00287",
+      "source_hash": "2a0761f9f13710a8ce251d76e3520e7940d27a9d5eda00a96e256795f4d02044",
+      "text": "（包括加盟店经营者不得泄露的营业秘密范围及其期限）",
+      "reason": "영업비밀 보호 범위와 기간이라는 정의를 원문에 맞춰 복구."
+    },
+    {
+      "id": "A34909-zh-00289",
+      "source_hash": "0c40007f6e2c5c48d6d5b897f8b3f59cafe685a4bce68a0c78f8bfd3316581f5",
+      "text": "7. 开始经营特许业务的详细程序及所需期间",
+      "reason": "가맹사업 영업 개시 절차·소요기간 표제의 의미를 복구."
+    },
+    {
+      "id": "A34909-zh-00291",
+      "source_hash": "fd5534f79443d6f64f9af1bf0f86cb7e3104feb8bf987e0184f9790f79a0bb85",
+      "text": "（应按时间顺序记载，并包括接受律师或加盟交易专家咨询的方法）",
+      "reason": "시·시간 순서대로라는 뜻이 잘못된 'si' 잔재로 남아 이를 복구."
+    },
+    {
+      "id": "A34909-zh-00293",
+      "source_hash": "ff6d0eb42918846290a733540da2c49c523f24e6c1b338856cd8333580505947",
+      "text": "如无法计算准确期间，应注明为估算期间，并以包含上限和下限的区间表示）",
+      "reason": "정확한 기간 산정 불가 시 추정기간·상하한 구간 표시 의무를 복구."
+    },
+    {
+      "id": "A34909-zh-00294",
+      "source_hash": "b8ee0556c88018e7922430d073a54ac7f4b70b8902249047faf9086b0a0f2f0f",
+      "text": "",
+      "reason": "앞 행의 '区间表示'를 '节的形式'로 오인한 번역 분절 잔재. XML segment 확인 후 삭제 또는 교정."
+    }
+  ],
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "chinese_total_rows": 1687,
+  "checked_rows": 849,
+  "corrected_rows": 866,
+  "quality_open_items": [
+    "Full sequential semantic audit of all 1,687 Chinese rows remains incomplete",
+    "429 rows without independently exact English require direct Korean/Chinese semantic comparison",
+    "A34909 rows 81–235 proposed edits remain checkpoint-only",
+    "A34909 rows 266–295 candidate repairs recorded but not committed",
+    "A34909 remaining rows and other annex/form documents require sequential review and final QC"
+  ],
+  "note": "Source SHA values unchanged. Proposed edits are checkpoint-only, not included in official correction count. IN_PROGRESS; no receipt."
+}
