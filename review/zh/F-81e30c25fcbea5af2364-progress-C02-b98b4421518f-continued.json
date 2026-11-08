@@ -1,0 +1,48 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "panel_id": "panel-02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:b98b4421518f",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "prior_master_blob_sha": "1d039c60901ed7e3e49d49bf1643970b7906f01f",
+  "checkpoint_type": "VERIFIED_MINIMAL_CROSS_REFERENCE_FIXES",
+  "checked_ids": [
+    "B2-zh-00073",
+    "B2-zh-00052"
+  ],
+  "checked_rows_new": 2,
+  "edits": [
+    {
+      "id": "B2-zh-00073",
+      "source_hash": "b7bdd555e3309f97391efe01aebaecf0e19d5d720880da706489f522143ae815",
+      "target_id": "d4961f2307f2319ba0c9423143dd9502ec7cae59e6009af013a87dfaba25a68e",
+      "text": "第57-2条（无法投保责任保险时的损害赔偿等赔偿标准）\n① 如果智能创新企业经营者打算根据该法第53条第6款的规定获得批准，则必须向国土交通大臣提交智能创新企业计划书，其中包括下列各款规定的数据。\n1. 无法获得责任保险的原因说明\n2. 损害赔偿计划，包括因实施智能创新项目计划而发生人身或财产损害的赔偿方法、标准和程序\n② 如果智能创新企业经营者根据本法第53条第6款但书制定损害赔偿方案，则标准金额应当符合本施行令第57条第1款的规定。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-b98b4421518f-continued.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Restore exception clause (단서) and correct internal Decree Article 57(1) cross-reference erroneously cited as parent Act."
+    },
+    {
+      "id": "B2-zh-00052",
+      "source_hash": "b2e0513190a3eb7e68eb991457f686b697def30150a8227c122de56cf80305ba",
+      "target_id": "de129bcaef0d463439ac5be6e117021193da0d08f37385a2136578519c167a6c",
+      "text": "第40条之2（关于可再生能源范围的特别规定）\n① 如果国土交通大臣打算根据该法第42条之2第1款对可再生能源的范围作出不同的界定，则应当根据行政程序法第 46 条发布行政通知。\n② 如果国土交通大臣根据该法第 42-2 条第 1 款确定了可再生能源的不同范围，则应在官方公报上公布。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-b98b4421518f-continued.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Correct Article 42-2(1) legal hierarchy in ministerial notice provision."
+    }
+  ],
+  "ordered_reading_certification": {
+    "ko": false,
+    "en": false,
+    "zh": false
+  },
+  "notes": "Two directly evidenced precise legal cross-reference fixes. Original translations preserved except clear errors; full family read and final 1133-row verification not certified."
+}
