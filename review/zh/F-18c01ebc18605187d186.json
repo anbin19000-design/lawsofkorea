@@ -996,6 +996,13 @@
       "source_hash": "a439a597faf9b76898d9102bdc99fe7edc196a6a3483da59dc87d49e61471407",
       "target_id": "4b0ca12a69e2a131f5512baaa414759f47c64da3e68c02f030711922ee8e9986",
       "source_progress": "C02 sequential review; Korean B2 source cross-check"
+    },
+    {
+      "id": "B2-zh-00047",
+      "text": "第三十九条（敏感信息及固有识别信息的处理）\n① 保健福祉部长官（包括依据本法第38条之2第4款、本令第10条、第10条之3、第10条之4、第13条、第34条或第38条，接受保健福祉部长官权限或业务委任、委托的人，以及被指定为区域创伤中心的人）或地方自治团体负责人（包括接受相关权限或业务委任、委托的人），为履行下列各号规定的业务而确有必要时，可以处理《个人信息保护法》第23条规定的健康相关信息，或包含同法施行令第19条规定的居民登记号码、护照号码、驾驶执照号码或外国人登记号码的资料。但是，对于第4号至第7号及第10号规定的业务，不包括《个人信息保护法》第23条规定的健康相关信息。<2018年12月11日、2019年6月11日、2019年10月22日、2021年6月15日、2025年12月30日修订>\n1. 依据本法第10条第1款进行实况调查的业务\n2. 依据本法第11条第2款开展精神健康促进事业的业务\n3. 依据本法第15条第1款至第4款，设置、运营精神健康福利中心，以及提供、联动精神健康促进事业等的业务\n3之2. 依据本法第15条之2第1款至第3款，办理国家创伤中心及区域创伤中心业务的事项\n3之3. 依据本法第15条之3第1款及第2款，设置、运营综合成瘾管理支援中心，以及开展与成瘾问题相关支援事业的业务\n4. 依据本法第17条第1款、第3款及第7款，授予精神健康专业人员资格、实施继续教育及暂停、撤销资格的业务\n5. 依据本法第19条第2款，确认设立、开设精神医疗机构的资格限制事由的业务\n6. 依据本法第22条第2款及第3款，确认精神疗养设施许可及设置资格限制事由的业务\n7. 依据本法第26条第2款，办理精神康复设施申报及变更申报的业务\n8. 依据本法第38条之2办理程序协助的业务\n9. 依据本法第38条之3支援利用成年监护制度的业务\n10. 依据本法第44条第3款、第4款、第6款、第7款及第9款，办理入院诊断、转介及请求协助护送等事项的业务\n11. 依据本法第51条，确认个人身份信息、通知结果及向管辖警察署署长请求确认的业务\n12. 依据本法第53条第2款、第3款及第6款，办理审议、审查及调查请求的业务\n13. 依据本法第55条至第57条及第59条，处理出院等审查申请及通知其结果的业务\n14. 依据本法第60条，处理复审申请及审查的业务\n15. 依据本法第62条，办理解除住院的业务\n16. 依据本法第63条，对临时出院等情况进行后续观察的业务\n17. 依据本法第64条，办理门诊治疗支援等业务\n18. 依据本法第66条第1款、第2款及第4款，对精神健康促进设施进行指导、监督及审查，并办理相关命令事项\n19. 依据本法第67条，运营、管理入院及出院等管理系统的业务\n② 住院适宜性审查委员会或调查员为履行下列各号规定的业务而确有必要时，可以处理《个人信息保护法》第23条规定的健康相关信息，或包含同法施行令第19条规定的居民登记号码、护照号码、驾驶执照号码或外国人登记号码的资料。\n1. 依据本法第47条，审查住院等是否适当或不适当，并通知审查结果的业务\n2. 依据本法第48条第1款及第2款进行调查的业务\n",
+      "source_hash": "738efbfaf26973546c321cda4bc4b43ed4a5141ce1978758cc1325edd9d23636",
+      "target_id": "6f230e46ed1e2c07ee6bd4c8f15bd99d2e680f48502df8b404c48f45e74f0f5d",
+      "source_progress": "C02 dedicated source-aligned correction of corrupted Article 39(1)-(2), checked against full Korean B2 text"
     }
   ],
   "adjudicated_edit_count": 0,
@@ -1263,6 +1270,7 @@
     "Sequential review through B1-zh-00174. Corrected appendix headings and legal instrument naming in 2024/2025 amending statutes; other provisions and commencement dates in rows 163-167, 170-172, and 174 were checked and retained.",
     "Sequential review through B1-zh-00175 and B2-zh-00024. Corrected the acute-phase hospital preparation clause, enforcement-decree title and terminology, statutory cross-references, agency names, committee and facility names, paragraph/item numbering, and obvious omissions/terminology in the first 24 decree rows. B2 English is an older fallback; current Korean text controls.",
     "Sequential review through B2-zh-00036. Corrected guardianship qualification terminology, admission/diagnosis and protection terminology, admission-suitability committee naming, statutory references, and missing/incorrect paragraph numbering in Decree Articles 17-2 to 28. Existing accurate time limits and statutory content retained.",
-    "Sequential review through B2-zh-00048. Corrected review-application and personal-information processing provisions, statutory references, committee naming, facility terminology and paragraph numbering. Row B2-zh-00047 contains a large corrupted/mixed statutory list requiring a dedicated source-aligned pass; it remains pending adjudication and is not certified as clean."
+    "Sequential review through B2-zh-00048. Corrected review-application and personal-information processing provisions, statutory references, committee naming, facility terminology and paragraph numbering. Row B2-zh-00047 contains a large corrupted/mixed statutory list requiring a dedicated source-aligned pass; it remains pending adjudication and is not certified as clean.",
+    "B2-zh-00047 was fully corrected against the Korean source after the initial sequential pass identified corrupted law titles, cross-references and mixed machine-translation artifacts. The previously saved B2-zh-00048 text was aligned to Article 39(3)-(6)."
   ]
 }
