@@ -1,0 +1,80 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "panel_id": "panel-02",
+  "pc": "WORK-C",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:09943096b1f1",
+  "status": "IN_PROGRESS",
+  "branch": "main",
+  "source_blob_sha": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "prior_master_sha": "d1066045b23e05ed7e86c70b5bee0e3f9c6080d1",
+  "adjudicated": [
+    {
+      "id": "A36425-zh-00016",
+      "source_hash": "903aa577eae3314c52694d8cb0c32f8a688802c384b7267385dc97b9afdad866",
+      "target_id": "XML:2657271",
+      "text": "违法行为",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-09943096b1f1-annex-labels.json",
+      "verification": "C02_DIRECT_KOREAN_ANNEX_FORM_LABEL_COMPARISON",
+      "reason": "Correct source-defined column/heading or date label, retaining row boundary and original values."
+    },
+    {
+      "id": "A36425-zh-00018",
+      "source_hash": "4f76aec66f7d590fb78dc1aa334945d3c890647edca03d9753f962fa3ca9bf0a",
+      "target_id": "XML:2657273",
+      "text": "处分标准",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-09943096b1f1-annex-labels.json",
+      "verification": "C02_DIRECT_KOREAN_ANNEX_FORM_LABEL_COMPARISON",
+      "reason": "Correct source-defined column/heading or date label, retaining row boundary and original values."
+    },
+    {
+      "id": "A36425-zh-00044",
+      "source_hash": "811f2cac7e1b9971cc17f7c24b0901accc169353ffd0d4f84ed010480f253ba9",
+      "target_id": "XML:2657300",
+      "text": "三个月",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-09943096b1f1-annex-labels.json",
+      "verification": "C02_DIRECT_KOREAN_ANNEX_FORM_LABEL_COMPARISON",
+      "reason": "Correct source-defined column/heading or date label, retaining row boundary and original values."
+    },
+    {
+      "id": "A36425-zh-00051",
+      "source_hash": "b67117c397340aed31b19dff4be538b6ab6e1a0d3424f7189b0e0286baaa203a",
+      "target_id": "XML:2657307",
+      "text": "一个月",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-09943096b1f1-annex-labels.json",
+      "verification": "C02_DIRECT_KOREAN_ANNEX_FORM_LABEL_COMPARISON",
+      "reason": "Correct source-defined column/heading or date label, retaining row boundary and original values."
+    },
+    {
+      "id": "A36424-zh-00002",
+      "source_hash": "175e90d7a541a371e2fd69b9d9e06fb87a4739f75e182319d701e5de6f1182b0",
+      "target_id": "XML:2657225",
+      "text": "智慧城市服务支持机构的指定要求（与第二十二条之四第二款相关）",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-09943096b1f1-annex-labels.json",
+      "verification": "C02_DIRECT_KOREAN_ANNEX_FORM_LABEL_COMPARISON",
+      "reason": "Correct source-defined column/heading or date label, retaining row boundary and original values."
+    },
+    {
+      "id": "A25471-zh-00007",
+      "source_hash": "d1f0572d3dccc3d6836dbc9e5369b441e31427f7c163a340075d7070cfa63d3d",
+      "target_id": "XML:1802965",
+      "text": "批准延长实施期间的日期",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-09943096b1f1-annex-labels.json",
+      "verification": "C02_DIRECT_KOREAN_ANNEX_FORM_LABEL_COMPARISON",
+      "reason": "Correct source-defined column/heading or date label, retaining row boundary and original values."
+    }
+  ],
+  "unresolved_candidates": 189,
+  "ordered_reading_certification": {
+    "ko": true,
+    "en": true,
+    "zh": true
+  },
+  "note": "Six Korean-source verified labels across annexes and form. Continue whole family. No receipt yet."
+}
