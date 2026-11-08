@@ -1,0 +1,49 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "family_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "panel_id": "panel-02",
+  "pc": "WORK-C",
+  "branch": "main",
+  "checkpoint": "RESUME_SOURCE_AND_CUMULATIVE_REVIEW_REVALIDATION",
+  "status": "IN_PROGRESS",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "source_documents": 17,
+  "zh_rows": 1133,
+  "preserved_cumulative_review": {
+    "path": "review/zh/F-81e30c25fcbea5af2364.json",
+    "blob_sha": "f901441455c1a1428daf95b39e1531326babc451",
+    "schema": "LAW_ZH_REVIEW_CUMULATIVE_V1",
+    "status": "IN_PROGRESS",
+    "edits_recorded": 312,
+    "checked_unique_ids_in_manifest": 327,
+    "prior_checked_id_count": 651
+  },
+  "prior_coverage_audit": {
+    "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
+    "blob_sha": "ea7a19a50159d915c3f459b8b00f241c7b7bdda9",
+    "accepted_unique_edits": 242,
+    "recorded_evidence_ids": 784,
+    "ids_without_confirmed_evidence": 349,
+    "pending_historical_candidate_ids": 379,
+    "source_identity_mismatches": 0,
+    "readthrough_certified": false
+  },
+  "english_coverage_note": "712/1133 rows have English reference in the index; 421 have no row-level English reference. Parent official English fallback is available for B1/B2 only and is not an exact Korean-version match. No English document is indexed for B3 or A25465-A25474.",
+  "ordered_reading_certification": {
+    "ko": false,
+    "en": false,
+    "zh": false
+  },
+  "completion_receipt_verified": false,
+  "current_session_observation": "Official C02 active assignment and worker binding verified. Source files were re-fetched from main and all three blob SHAs match the active assignment. Parsed family structure: 17 Korean source documents and 1,133 Chinese rows; document-level counts were enumerated. B2 Korean source was retrieved; this checkpoint does not certify a complete semantic read-through of B2 or the family.",
+  "edits_added": [],
+  "next_action": "Continue sequentially from existing evidence without duplicating accepted edits: complete Korean full-family read, then all available English documents and explicitly record unavailable English documents, then review all Chinese rows in statutory document order. Resolve the 349 evidence gaps and 379 historical candidates against the source. Save/re-read cumulative review, then only after full verification write/re-read final LAW_ZH_MINIMAL_REVIEW_V1 and receipt with COMPLETE."
+}
