@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 3090,
+    "verified_zh_rows": 3160,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 3090,
-      "checked_rows": 3090,
+      "next_row_zero_based": 3160,
+      "checked_rows": 3160,
       "total_rows": 5228
     }
   },
@@ -4351,9 +4351,171 @@
       "text": "⑪长度",
       "original_text": "⑪扩展",
       "reason": "연장을 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00314",
+      "text": "⑬形式",
+      "original_text": "⑬格式化",
+      "reason": "형식을 포맷 작업으로 오역"
+    },
+    {
+      "id": "A4687-zh-00317",
+      "text": "通行",
+      "original_text": "通过",
+      "reason": "통행을 일반적인 통과 동사로 오역"
+    },
+    {
+      "id": "A4687-zh-00318",
+      "text": "荷载",
+      "original_text": "通过加载",
+      "reason": "하중을 통과 적재로 오역"
+    },
+    {
+      "id": "A4687-zh-00320",
+      "text": "混凝土",
+      "original_text": "球体",
+      "reason": "구체(콘크리트)를 구체·구형체로 오역"
+    },
+    {
+      "id": "A4687-zh-00323",
+      "text": "长度",
+      "original_text": "扩展",
+      "reason": "연장을 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00325",
+      "text": "长度/处数",
+      "original_text": "扩展/打开",
+      "reason": "연장/개소를 확장/개방으로 오역"
+    },
+    {
+      "id": "A4687-zh-00328",
+      "text": "材质",
+      "original_text": "物料",
+      "reason": "재질을 물량·자재로 오역"
+    },
+    {
+      "id": "A4687-zh-00329",
+      "text": "材质",
+      "original_text": "物料",
+      "reason": "재질을 물량·자재로 오역"
+    },
+    {
+      "id": "A4687-zh-00330",
+      "text": "照明设施",
+      "original_text": "照明安装",
+      "reason": "조명시설을 설치 행위로 오역"
+    },
+    {
+      "id": "A4687-zh-00331",
+      "text": "残疾人便利设施",
+      "original_text": "残疾人设施",
+      "reason": "장애인 편익시설의 편의·접근성 의미 누락"
+    },
+    {
+      "id": "A4687-zh-00332",
+      "text": "附属设施",
+      "original_text": "设施",
+      "reason": "부대시설의 부속·부대 의미 누락"
+    },
+    {
+      "id": "A4687-zh-00340",
+      "text": "竣工日期",
+      "original_text": "完成日期MTQab988e36dac4b3bb00205结束",
+      "reason": "준공일 항목에 MTQ 식별자 잔존"
+    },
+    {
+      "id": "A4687-zh-00341",
+      "text": "实施者",
+      "original_text": "执行器",
+      "reason": "시행자를 기계 실행기로 오역"
+    },
+    {
+      "id": "A4687-zh-00343",
+      "text": "设计者",
+      "original_text": "设计器",
+      "reason": "설계자를 장치로 오역"
+    },
+    {
+      "id": "A4687-zh-00344",
+      "text": "监理者",
+      "original_text": "主管",
+      "reason": "감리자를 단순 관리자/主管으로 오역"
+    },
+    {
+      "id": "A4687-zh-00348",
+      "text": "监理费",
+      "original_text": "监管费",
+      "reason": "감리비를 규제 수수료로 오역"
+    },
+    {
+      "id": "A4687-zh-00349",
+      "text": "2-4. 地下车行通道规格",
+      "original_text": "2-4. 地下通道规范",
+      "reason": "지하차도 제원을 일반 지하통로 규정으로 오역"
+    },
+    {
+      "id": "A4687-zh-00358",
+      "text": "⑧设施类别",
+      "original_text": "⑧ 按设施类型",
+      "reason": "시설물 종별을 ‘시설 유형에 따라’라는 문장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00362",
+      "text": "⑪终点",
+      "original_text": "⑪终端",
+      "reason": "종점을 단말로 오역"
+    },
+    {
+      "id": "A4687-zh-00363",
+      "text": "⑫状态等级",
+      "original_text": "⑫条件等级",
+      "reason": "상태등급을 조건등급으로 오역"
+    },
+    {
+      "id": "A4687-zh-00365",
+      "text": "⑭长度",
+      "original_text": "⑭扩展",
+      "reason": "연장을 확장으로 오역"
+    },
+    {
+      "id": "A4687-zh-00369",
+      "text": "车道数",
+      "original_text": "通道号",
+      "reason": "차로 수를 통로 번호로 오역"
+    },
+    {
+      "id": "A4687-zh-00370",
+      "text": "车道数",
+      "original_text": "通道号",
+      "reason": "차로 수를 통로 번호로 오역"
+    },
+    {
+      "id": "A4687-zh-00374",
+      "text": "（下行）",
+      "original_text": "（向下）",
+      "reason": "하행 방향을 아래쪽으로 직역"
+    },
+    {
+      "id": "A4687-zh-00376",
+      "text": "饰面材料",
+      "original_text": "完成物料MTQdba100db1d89811701925结束",
+      "reason": "마감재 표제에 MTQ 잔존 및 오역"
+    },
+    {
+      "id": "A4687-zh-00377",
+      "text": "通行限制高度",
+      "original_text": "交通高度限制",
+      "reason": "통행제한높이를 일반 교통 높이제한으로 부정확하게 표현"
+    },
+    {
+      "id": "A4687-zh-00379",
+      "text": "长度",
+      "original_text": "扩展",
+      "reason": "연장을 확장으로 오역"
     }
   ],
-  "note": "Sequential review advanced through row 3089 of road ledger forms, including tunnel specifications and beginning of pedestrian overpass form. Added 23 corrections to tunnel field terminology, condition/length/clearance, carriageway and lane direction, material and fire/evacuation systems, construction completion and professional roles, and pedestrian overpass title/position/length. Previous 677 edits preserved. Continue from row 3090. IN_PROGRESS.",
+  "note": "Sequential review continued through row 3159, covering pedestrian overpass and underpass/road subway specifications. Added 26 corrections for concrete vs sphere, type, length/count, accessibility and auxiliary facilities, construction/monitoring roles and dates (MTQ residue), underground road passage title, condition grade, lane count/direction, finish materials and clearance height. Previous 700 edits retained. Continue at row 3160. IN_PROGRESS.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
