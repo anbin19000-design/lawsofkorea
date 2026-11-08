@@ -1,0 +1,123 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-b5c27d20d49b721e47e6",
+  "worker": "C05",
+  "status": "IN_PROGRESS",
+  "action": "5fa237281359de9842",
+  "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
+  "source_blobs": {
+    "ko": "24ddd78e32a748b7d1c1ce01fef19d036494b9e9",
+    "zh": "66ea4d0981f8e1a76348309f8254051d4914f693"
+  },
+  "prior_review_path": "review/zh/F-b5c27d20d49b721e47e6-C05-B2-00041-00060-IN_PROGRESS.json",
+  "prior_review_sha": "b2fb4d43f65e3cbb108765048560891372a25c88",
+  "checked_rows": 12,
+  "checked_ids": [
+    "B2-zh-00061",
+    "B2-zh-00062",
+    "B2-zh-00063",
+    "B2-zh-00064",
+    "B2-zh-00065",
+    "B2-zh-00066",
+    "B2-zh-00067",
+    "B2-zh-00068",
+    "B2-zh-00069",
+    "B2-zh-00070",
+    "B2-zh-00071",
+    "B2-zh-00072"
+  ],
+  "decisions": [
+    {
+      "id": "B2-zh-00061",
+      "source_hash": "8e2d6a0cb4521829770b291049b5a044c5890321c90b47dd00ee759590895163",
+      "decision": "KEEP",
+      "basis": "한국어 본문 시작·끝 위치를 직접 대조해 날짜·효력·조문 대응 확인"
+    },
+    {
+      "id": "B2-zh-00062",
+      "source_hash": "4f414e7a1ca5c5b4b579c181b96d94c11887ab278c580d5f754217d24a020946",
+      "decision": "KEEP",
+      "basis": "한국어 본문 시작·끝 위치를 직접 대조해 날짜·효력·조문 대응 확인"
+    },
+    {
+      "id": "B2-zh-00063",
+      "source_hash": "33021d1128666792c39ba5e57479b28ef2d9306a208738364b8db11b4b533522",
+      "decision": "KEEP",
+      "basis": "한국어 본문 시작·끝 위치를 직접 대조해 날짜·효력·조문 대응 확인"
+    },
+    {
+      "id": "B2-zh-00064",
+      "source_hash": "29b627c99cf8bdc77766de5d174f384106e930f36c649e3287d9fd8dfdeabdeb",
+      "decision": "CORRECT",
+      "basis": "여성가족부 직제의 당시 기관명 및 부칙 명칭"
+    },
+    {
+      "id": "B2-zh-00065",
+      "source_hash": "7e5f07ffff6aef2f2136019cfb5263979ba5a34dacd8394c05b2d3c719360d57",
+      "decision": "KEEP",
+      "basis": "한국어 본문 시작·끝 위치를 직접 대조해 날짜·효력·조문 대응 확인"
+    },
+    {
+      "id": "B2-zh-00066",
+      "source_hash": "1fa2d78222cc5f3a7b268ba3015a524a8e57a9355a8b17e0ae4253566ef34323",
+      "decision": "KEEP",
+      "basis": "한국어 본문 시작·끝 위치를 직접 대조해 날짜·효력·조문 대응 확인"
+    },
+    {
+      "id": "B2-zh-00067",
+      "source_hash": "484610da966d1bdb3fe6a305c6b055cadbb4a1a248200d53ffe9a691a54b7937",
+      "decision": "CORRECT",
+      "basis": "⑫ 항목 및 시행령 명칭·인용·기관명 원문 대응"
+    },
+    {
+      "id": "B2-zh-00068",
+      "source_hash": "df45aebc98c58b3ce167129fcd69f9d59cfa4a04bd4d0698f165c61303138190",
+      "decision": "KEEP",
+      "basis": "한국어 본문 시작·끝 위치를 직접 대조해 날짜·효력·조문 대응 확인"
+    },
+    {
+      "id": "B2-zh-00069",
+      "source_hash": "c935560f69ffcd5b75e86b4c520addc24c38e4360b4c672b1b253aa69c08b05b",
+      "decision": "CORRECT",
+      "basis": "공공기관의 운영에 관한 법률 시행령 법령 명칭 및 부칙 형식"
+    },
+    {
+      "id": "B2-zh-00070",
+      "source_hash": "dc078ea01ec00c5e4b0fc74059a312ae034fc123d94b9fb1f9b0b5786f12f3be",
+      "decision": "CORRECT",
+      "basis": "건축법 시행령 명칭과 규제 재검토기한 의미 대응"
+    },
+    {
+      "id": "B2-zh-00071",
+      "source_hash": "7c56b65fb2b8658795b66b24444b56fe1f4e3d4e8df825fbba0d9c05a0901c8c",
+      "decision": "KEEP",
+      "basis": "한국어 본문 시작·끝 위치를 직접 대조해 날짜·효력·조문 대응 확인"
+    },
+    {
+      "id": "B2-zh-00072",
+      "source_hash": "95453ba62a836ef32d8ee64111ff45658d2da1564b874e62b62759c041467ee9",
+      "decision": "KEEP",
+      "basis": "한국어 본문 시작·끝 위치를 직접 대조해 날짜·효력·조문 대응 확인"
+    }
+  ],
+  "edits": [
+    {
+      "id": "B2-zh-00064",
+      "text": "附则（《女性家族部及其所属机关组织规定》）<第24446号，2013年3月23日>\n\n"
+    },
+    {
+      "id": "B2-zh-00067",
+      "text": "第三条（其他法令的修订）①至⑪省略。\n\n  ⑫《单亲家庭支援法施行令》部分修订如下。\n\n  将第十三条第二款第一项甲目中的“教育科学技术部部长”改为“教育部部长”。\n\n"
+    },
+    {
+      "id": "B2-zh-00069",
+      "text": "附则（《为确立敏感信息及唯一识别信息处理依据而部分修订〈公共机构运营法施行令〉等法令的总统令》）<第25532号，2014年8月6日>\n\n本令自2014年8月7日起施行。\n\n"
+    },
+    {
+      "id": "B2-zh-00070",
+      "text": "附则（《为整顿规制（包括设定规制重新审查期限）而部分修订〈建筑法施行令〉等法令的总统令》）<第25840号，2014年12月9日>\n\n"
+    }
+  ],
+  "next_id": "B2-zh-00073",
+  "note": "First 12 newly checked B2 rows, preserved previous B2-00041..00060 review; no completion receipt."
+}
