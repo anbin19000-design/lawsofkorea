@@ -20,7 +20,7 @@
     "zh_rows_loaded": 3247,
     "zh_rows_screened_for_korean_and_mtq_artifacts": 3247
   },
-  "checked_rows": 820,
+  "checked_rows": 822,
   "corrected_rows": 859,
   "edits": [
     {
@@ -3722,9 +3722,9 @@
   "sequential_review": {
     "document": "B1-B2-A39200-A39201-A39202-A39203-A39204-A39205-B3-A26149-A26150-A26151",
     "completed_through": "A26151-zh-00002",
-    "rows_sequentially_reviewed": 820,
+    "rows_sequentially_reviewed": 822,
     "total_rows": 3247,
-    "remaining_rows": 2427,
+    "remaining_rows": 2425,
     "previous_checkpoint": "review/zh/F-03874d41f3533ad3e5e7-progress-C06-20261109-0600-sequential-form-01-03.json"
   },
   "english_sources": [
@@ -3799,14 +3799,15 @@
     "Repaired inaccurate and mistranslated legal references, agency names and survey terms. No dates or time limits were changed.",
     "Sequentially reviewed B3-zh-00021 through B3-zh-00062 against Korean. Corrected marine survey technician terminology, business registration/variation/succession procedures, suspension rules and mitigation fractions, equipment inspection exemptions and processes, quality management, publication and notice methods, fees and entrusted work, and transitional amendments. Replaced vessel-inspection terminology and inaccurate agency/statutory references. The prior correct Article 19 and Article 39 corrections were preserved.",
     "Sequentially reviewed all 15 rows of A26149 and both rows of A26151. Corrected the distinction between copper-plate and stone-pillar markers (柱石製 is not tin), marker categories and structural types (monopile, Cheomseongdae-style, boundary-stone). Confirmed A26151 concerns vessel markings for basic/general hydrographic surveying; translated 水路測量 as waterway/hydrographic survey, not hydrology.",
-    "Sequentially reviewed all 123 rows of A26150 against the Korean standardization table. Corrected table headings, current/wave/wind directions, flow speed, wave height/period, salinity, visibility, ellipsoid height, exposed rock, terrestrial relief, overhead wires, shoreline length, marine geomagnetism, free-fall acceleration and seabed particle size. Preserved all units, minimum decimal places and vertical datums: WGS84, basic tidal datum, mean sea level and approximate highest high-water level. Numeric precision remains unchanged."
+    "Sequentially reviewed all 123 rows of A26150 against the Korean standardization table. Corrected table headings, current/wave/wind directions, flow speed, wave height/period, salinity, visibility, ellipsoid height, exposed rock, terrestrial relief, overhead wires, shoreline length, marine geomagnetism, free-fall acceleration and seabed particle size. Preserved all units, minimum decimal places and vertical datums: WGS84, basic tidal datum, mean sea level and approximate highest high-water level. Numeric precision remains unchanged.",
+    "Counter reconciliation: the sequential total is 822 rows (B1 118 + B2 70 + A39200-A39205 432 + B3 62 + A26149 15 + A26150 123 + A26151 2). The earlier checkpoint counter was two rows low; this correction changes only progress metadata, not any reviewed text."
   ],
   "previous_progress": "review/zh/F-03874d41f3533ad3e5e7-progress-C06-20261109-0600-sequential-form-01-03.json",
   "status": "IN_PROGRESS",
   "review_evidence": {
     "ko": "62/62 source documents loaded and read in source order",
     "en": "Both exact-version English texts fully read; 60 documents have no linked English document-level text",
-    "zh": "All prior sections through A26149 and A26151, plus all 123 rows A26150-zh-00001 through A26150-zh-00123 reviewed sequentially against Korean; remaining 2,427 rows outstanding."
+    "zh": "B1-zh-00001 through B1-zh-00118; B2-zh-00001 through B2-zh-00070; all annex rows A39200-A39205; B3-zh-00001 through B3-zh-00062; and all rows A26149-A26151 reviewed against Korean; remaining 2,425 rows outstanding."
   },
   "outstanding": [
     "Continue sequentially with A26152-A26201 (remaining forms and annexes).",
