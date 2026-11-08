@@ -45,13 +45,12 @@
     ],
     "previous_edit_texts_preserved": true,
     "pending_high_complexity": [
-      "PENDING_SOURCE_BACKED_UNEDITED_CANDIDATES_136",
-      "ALL_1133_ROWS_FINAL_SEMANTIC_CERTIFICATION",
-      "ANNEX4_PENALTY_TABLE_LAYOUT_AND_NUMERIC_VALIDATION",
-      "FORM_SUBSTANTIVE_CLAUSE_VERIFICATION"
+      "SOURCE_ALIGNED_FULL_SEMANTIC_REVIEW_AND_FORM_TABLES",
+      "UNRESOLVED_HISTORY_CANDIDATES_69",
+      "FINAL_REVIEW_RECEIPT_NOT_VERIFIED"
     ],
     "current_phase": "ALL_DOCUMENTS_INITIAL_READ_AND_CORRECTIONS_RECHECK_UNRESOLVED",
-    "corrected_this_task_count": 175,
+    "corrected_this_task_count": 242,
     "corrected_this_task_ids": [
       "B2-zh-00008",
       "B2-zh-00189",
@@ -156,16 +155,16 @@
     },
     "audit": {
       "source_rows": 1133,
-      "unique_edited_ids": 532,
+      "unique_edited_ids": 599,
       "unmatched_or_wrong_source_hash": 0,
-      "unresolved_historical_candidate_count": 136,
+      "unresolved_historical_candidate_count": 69,
       "historical_candidates_not_removed": true
     }
   },
   "cumulative_review": {
     "path": "review/zh/F-81e30c25fcbea5af2364.json",
-    "sha": "f0eedd75f211f5b8a5b4e9887dee70aa10e808f2",
-    "edit_count": 532
+    "sha": "db9b0372f5ffda78023c09e65508b14b01b850b6",
+    "edit_count": 599
   },
   "ordered_reading_certification": {
     "ko": true,
@@ -173,5 +172,5 @@
     "zh": false
   },
   "completion_receipt_verified": false,
-  "next_action": "Continue manual review of unresolved historical candidates against corresponding exact Korean paragraphs, audit 4 annex tables and form conditions, certify complete 1133 rows before any receipt."
+  "next_action": "Continue correcting genuine mistranslations in fragmented annexes and official forms, then resolve remaining historical candidates; mark COMPLETE and create receipt only if every source row has demonstrated final verification."
 }
