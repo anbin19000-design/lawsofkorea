@@ -86,7 +86,7 @@
     "ko_full_read": true,
     "en_full_read": true,
     "zh_full_review": false,
-    "verified_zh_rows": 130,
+    "verified_zh_rows": 152,
     "ko_next_document": null,
     "ko_annex_1": {
       "document_key": "A28845",
@@ -146,8 +146,8 @@
       "documents/en/kr-003400-287115-en.json"
     ],
     "zh_reading_position": {
-      "next_row_zero_based": 130,
-      "checked_rows": 130,
+      "next_row_zero_based": 152,
+      "checked_rows": 152,
       "total_rows": 5228
     }
   },
@@ -289,9 +289,27 @@
       "text": "第一百一十六条（连带责任规定）  法人代表、代理人、雇员或其他工作人员，如其本人或个人，在其经营业务范围内，违反第一百一十三条第一款和第七款、第一百一十四条或第一百一十五条规定的，除处罚违法者外，该法人或个人还应承担相应条款规定的罚款。  如其违反第一百一十三条第三款规定，除处罚违法者外，该法人或个人还应承担不超过五千万韩元的罚款。但该法人或个人为防止违法行为发生，已就有关业务尽到相当的注意和监督义务的，不适用上述规定。<2017年1月17日修订>\n\n",
       "original_text": "第一百一十六条（连带责任规定）  法人代表、代理人、雇员或其他工作人员，如其本人或个人，在其经营业务范围内，违反第一百一十三条第一款和第七款、第一百一十四条或第一百一十五条规定的，除处罚违法者外，该法人或个人还应承担相应条款规定的罚款。  如其违反第一百一十三条第三款规定，除处罚违法者外，该法人或个人还应承担不超过五千万韩元的罚款。但如该法人或个人在经营业务过程中未尽到合理注意和监管义务以防止违法行为发生，则不适用上述规定。<2017年1月17日修订>\n\n",
       "reason": "양벌규정 면책 요건의 부정을 반대로 번역하여 법률효과 역전"
+    },
+    {
+      "id": "B1-zh-00138",
+      "text": "第九条（补偿费等的适用）本法实施后，道路管理机构通知道路占用人超范围占用等情况之时，适用第七十二条第二款至第四款的修正规定。\n\n",
+      "original_text": "第九条（补偿费等的适用）本法实施后，道路管理机构通知道路占用人超载等情况之时，适用第七十二条第二款至第四款的修正规定。\n\n",
+      "reason": "초과점용을 차량 초과적재로 오역"
+    },
+    {
+      "id": "B1-zh-00136",
+      "text": "第七条（道路占用费减免的适用性） 第六十八条第四款和第六款的修订规定，自本法实施后，道路占用许可证申请提交之日起适用。\n\n",
+      "original_text": "第七条（征用费减免的适用性） 第六十八条第四款和第六款的修订规定，自本法实施后，道路占用许可证申请提交之日起适用。\n\n",
+      "reason": "점용료를 토지 수용비로 오역"
+    },
+    {
+      "id": "B1-zh-00146",
+      "text": "第十七条（收费公路的过渡措施）① 尽管《收费公路法》第六条第一款规定，在1999年8月9日（即第5894号法律（以下简称“该法”）生效之日）正在建设的桥梁等设施必须事先进行收费公路建设的公告，但在该法生效之日起六个月内进行收费公路建设的公告，该地点应按照《收费公路法》的规定视为收费公路。\n\n  ② 根据该法第35条和第36条规定收取通行费的桥梁等，在实施该法时，应视为收费公路法下的收费公路。\n\n",
+      "original_text": "第十七条（取消收费后的过渡措施）① 尽管《收费公路法》第六条第一款规定，在1999年8月9日（即第5894号法律（以下简称“该法”）生效之日）正在建设的桥梁等设施必须事先进行收费公路建设的公告，但在该法生效之日起六个月内进行收费公路建设的公告，该地点应按照《收费公路法》的规定视为收费公路。\n\n  ② 根据该法第35条和第36条规定收取通行费的桥梁等，在实施该法时，应视为收费公路法下的收费公路。\n\n",
+      "reason": "유료도로 경과조치의 제목 오역"
     }
   ],
-  "note": "Reviewed 130 Chinese rows in chronological source order, 23 targeted edits; corrected reversal of affirmative defense in Art.116 and wrong statutory references. Next row 130 starts original Road Act supplementary provisions.",
+  "note": "Rows 1–152 reviewed in strict order; three additional error fixes (road occupancy fee, excess road occupancy, toll road transitions). Next original 2014 cross-law amendments long rows, no complete flag.",
   "english_coverage": {
     "reference_rows": 4234,
     "unavailable_rows": 994,
