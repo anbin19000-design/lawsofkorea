@@ -1,0 +1,58 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "family_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "panel_id": "panel-02",
+  "pc": "WORK-C",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "task_marker": "WORK-TASK:C02:F-81e30c25fcbea5af2364:3aa49a4f01f1",
+  "source_blob_sha": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "korean_family_read": true,
+  "available_english_read": true,
+  "english_version_mismatch": true,
+  "english_missing_for": [
+    "B3",
+    "A25465",
+    "A25466",
+    "A25467",
+    "A25468",
+    "A25469",
+    "A25470",
+    "A25471",
+    "A25472",
+    "A25473",
+    "A25474"
+  ],
+  "chinese_review": {
+    "last_compared": "B2-zh-00095",
+    "next": "B2-zh-00096",
+    "complete": false,
+    "source_row_total": 1133,
+    "corrected": [
+      "B2-zh-00008",
+      "B2-zh-00036",
+      "B2-zh-00067",
+      "B2-zh-00084"
+    ],
+    "previous_edit_texts_preserved": true
+  },
+  "cumulative_review": {
+    "path": "review/zh/F-81e30c25fcbea5af2364.json",
+    "sha": "538a08c7cbddbc31e3d15e9852ef7ac65843a88b",
+    "edit_count": 358
+  },
+  "ordered_reading_certification": {
+    "ko": true,
+    "en": true,
+    "zh": false
+  },
+  "completion_receipt_verified": false,
+  "next_action": "Continue B2 row 96 to 209, then annexes, rule, forms, and final pending candidate adjudication. Avoid COMPLETE without full family proof."
+}
