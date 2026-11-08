@@ -2080,7 +2080,7 @@
       "source_hash": "731dcbc94e8f7bf4d47175b866cb54bb1296ca15fab074c1606ddd3dde840458",
       "original": "指定区域图纸MTQ4598133f13c92b2100038结束",
       "corrected": "指定区域图编号",
-      "reason": "删除MTQ污染标记；“지정구역도면번호”是指定区域图编号。"
+      "reason": "“지정구역도면번호”指指定区域图编号；删除MTQ污染标记。"
     },
     "A6582-zh-00001": {
       "doc": "A6582",
@@ -3691,6 +3691,76 @@
       "original": "适用。",
       "corrected": "进行评估。",
       "reason": "对应“평가한다”，应译为进行评估；与前一行的时机条件衔接。"
+    },
+    "A6581-zh-00002": {
+      "doc": "A6581",
+      "source_hash": "2efa80878701e7ec533738c228277a1ee3738a32a3ffc5c851dba7df311319e2",
+      "original": "侵蚀控制场地指定登记册",
+      "corrected": "侵蚀控制区指定台账",
+      "reason": "“사방지지정대장”是侵蚀控制区指定台账。"
+    },
+    "A6581-zh-00003": {
+      "doc": "A6581",
+      "source_hash": "b3c81b0dc3a258aa5de77c43b784a625997e7795519e099be4b0e0afd6ed0197",
+      "original": "陆地位置",
+      "corrected": "土地所在地",
+      "reason": "表格字段“토지소재지”指土地所在地。"
+    },
+    "A6581-zh-00006": {
+      "doc": "A6581",
+      "source_hash": "953ca086c9967252e73def18311858e090307e6291d88e68b0c1e14941ec4aed",
+      "original": "指定",
+      "corrected": "指定面积",
+      "reason": "此列与“해제 면적”相对，表示指定面积。"
+    },
+    "A6581-zh-00007": {
+      "doc": "A6581",
+      "source_hash": "293182ec397e6b89978c3957a898edf744881e68b437a474a5350481d0b26da8",
+      "original": "取消",
+      "corrected": "解除面积",
+      "reason": "此列对应解除面积，非一般取消动作。"
+    },
+    "A6581-zh-00015": {
+      "doc": "A6581",
+      "source_hash": "30eab65a6492a4c5528b8c25495e3e7119504c27d9866fe5edda066852584e04",
+      "original": "城市/县",
+      "corrected": "市、郡",
+      "reason": "“시ㆍ군”应译为市、郡。"
+    },
+    "A6581-zh-00016": {
+      "doc": "A6581",
+      "source_hash": "cd81162ce9d9eca2d1a2e7e132fac97b4ff77ac2e3de8b5c5b34b5c932ecf5c3",
+      "original": "邑/面",
+      "corrected": "邑、面",
+      "reason": "保留韩国行政区划名称“邑、面”，修正分隔符。"
+    },
+    "A6581-zh-00017": {
+      "doc": "A6581",
+      "source_hash": "5483d60d85ce9c861e8e7ae8ca400b57870f7fde500fed7c500df0332ccecb04",
+      "original": "东ㆍRi",
+      "corrected": "洞、里",
+      "reason": "“동ㆍ리”是洞、里，不是东和Ri。"
+    },
+    "A6581-zh-00020": {
+      "doc": "A6581",
+      "source_hash": "c3276b781d92f60b8203f963bf966092deaf62b3fc73e01e61e73e5a6b30b24a",
+      "original": "侵蚀控制",
+      "corrected": "侵蚀控制工程种类",
+      "reason": "“사방종류”指侵蚀控制工程种类。"
+    },
+    "A6581-zh-00021": {
+      "doc": "A6581",
+      "source_hash": "e857e01c1f645701b756b1e89493bf67f30dfac51e200ed03bdfd4337fdcf333",
+      "original": "通知编号和",
+      "corrected": "公告编号及日期",
+      "reason": "“고시번호 및 일자”是公告编号及日期。"
+    },
+    "A6581-zh-00025": {
+      "doc": "A6581",
+      "source_hash": "e857e01c1f645701b756b1e89493bf67f30dfac51e200ed03bdfd4337fdcf333",
+      "original": "通知编号和",
+      "corrected": "公告编号及日期",
+      "reason": "解除栏对应公告编号及日期。"
     }
   },
   "edits": [
@@ -5745,25 +5815,69 @@
     {
       "id": "A29185-zh-00058",
       "text": "进行评估。"
+    },
+    {
+      "id": "A6581-zh-00002",
+      "text": "侵蚀控制区指定台账"
+    },
+    {
+      "id": "A6581-zh-00003",
+      "text": "土地所在地"
+    },
+    {
+      "id": "A6581-zh-00006",
+      "text": "指定面积"
+    },
+    {
+      "id": "A6581-zh-00007",
+      "text": "解除面积"
+    },
+    {
+      "id": "A6581-zh-00015",
+      "text": "市、郡"
+    },
+    {
+      "id": "A6581-zh-00016",
+      "text": "邑、面"
+    },
+    {
+      "id": "A6581-zh-00017",
+      "text": "洞、里"
+    },
+    {
+      "id": "A6581-zh-00020",
+      "text": "侵蚀控制工程种类"
+    },
+    {
+      "id": "A6581-zh-00021",
+      "text": "公告编号及日期"
+    },
+    {
+      "id": "A6581-zh-00022",
+      "text": "指定区域图编号"
+    },
+    {
+      "id": "A6581-zh-00025",
+      "text": "公告编号及日期"
     }
   ],
-  "checked_rows": 603,
-  "corrected_rows": 513,
-  "notes": "Initial source-grounded correction set after full Korean and available English source reading. Chinese sequential review continues; do not treat this as completion. Sequential review so far: B1 rows 1–122; B2 rows 1–70. Additional complete targeted passes: A29186 (43 rows) and B3 rows 1–24. 64 nonblank changed edits are saved; further Chinese rows and documents remain pending. No COMPLETE certification. All source-bound correction records are retained. Blank fragment deletions and no-change records are documented separately at review/zh/F-2223d4d89f9d838aec25-empty-edit-decisions-C05-20261109-0600.json. Full semantic coverage is complete for B1, B2, B3, A29186 and A6580; A29185 and all attached forms remain in partial/targeted review. Status remains IN_PROGRESS. Sequential review resumed from the saved A29185 annex work. All 80 A29185 rows were compared against the Korean annex; 5 additional minimal corrections were added and 10 no-change decisions were recorded. Previously saved A29185 corrections were preserved. Next pending sequential document: A6581 (forms), with 687 rows still pending overall. Status remains IN_PROGRESS.",
+  "checked_rows": 633,
+  "corrected_rows": 524,
+  "notes": "Initial source-grounded correction set after full Korean and available English source reading. Chinese sequential review continues; do not treat this as completion. Sequential review so far: B1 rows 1–122; B2 rows 1–70. Additional complete targeted passes: A29186 (43 rows) and B3 rows 1–24. 64 nonblank changed edits are saved; further Chinese rows and documents remain pending. No COMPLETE certification. All source-bound correction records are retained. Blank fragment deletions and no-change records are documented separately at review/zh/F-2223d4d89f9d838aec25-empty-edit-decisions-C05-20261109-0600.json. Full semantic coverage is complete for B1, B2, B3, A29186 and A6580; A29185 and all attached forms remain in partial/targeted review. Status remains IN_PROGRESS. Sequential review resumed from the saved A29185 annex work. All 80 A29185 rows were compared against the Korean annex; 5 additional minimal corrections were added and 10 no-change decisions were recorded. Previously saved A29185 corrections were preserved. Next pending sequential document: A6581 (forms), with 687 rows still pending overall. Status remains IN_PROGRESS. A6581 form (30 rows) has now been fully compared against the Korean original; 11 minimal corrections and 11 no-change decisions were added, with prior targeted corrections retained. Next sequential pending form: A6582. Status remains IN_PROGRESS.",
   "coverage": {
     "total_rows": 1290,
     "distinct_rows": 1290,
-    "fully_compared_rows": 603,
+    "fully_compared_rows": 633,
     "fully_compared_by_document": {
       "B1": 122,
       "B2": 199,
       "B3": 85,
       "A29186": 43,
       "A6580": 74,
-      "A29185": 80
+      "A29185": 80,
+      "A6581": 30
     },
     "partial_targeted_docs": [
-      "A6581",
       "A6582",
       "A6585",
       "A6586",
@@ -5781,7 +5895,7 @@
       "A6599",
       "A6600"
     ],
-    "pending_rows": 687
+    "pending_rows": 657
   },
   "empty_edit_decisions_path": "review/zh/F-2223d4d89f9d838aec25-empty-edit-decisions-C05-20261109-0600.json"
 }
