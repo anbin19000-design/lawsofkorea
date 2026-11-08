@@ -1,0 +1,102 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "status": "IN_PROGRESS",
+  "scope": {
+    "document": "B1",
+    "from": "B1-zh-00078",
+    "to": "B1-zh-00088"
+  },
+  "checked_rows": 11,
+  "corrected_rows": 2,
+  "judgments": [
+    {
+      "id": "B1-zh-00078",
+      "source_hash": "fbfbc583c1ad6072d425abff223eaa340368321fda5efcb16ddc9ae53a8efb93",
+      "decision": "REQUIRES_FURTHER_REVIEW",
+      "basis": "타법 개정 대형 단일셀: 인용 법률명과 계약출하·부처명 변형 확인, 전체 문구 추가 검증 후 별도 교정 필요"
+    },
+    {
+      "id": "B1-zh-00079",
+      "source_hash": "cfc105426f71bd7ce059b2bc2c0fe91c3511df2a2d545874161b6c3f46f0a719",
+      "decision": "EDIT",
+      "basis": "제13조제4항 농림협중앙회 축약명 정확화 및 일관된 부처 명칭"
+    },
+    {
+      "id": "B1-zh-00080",
+      "source_hash": "9691a0a19ce884b330e46f1cab60b6c00f1d8efc300cb638ebe84457d046b326",
+      "decision": "KEEP",
+      "basis": "한국어 원문과 부칙의 날짜·조문번호·인용 대응 대조"
+    },
+    {
+      "id": "B1-zh-00081",
+      "source_hash": "3b660b5ee8ba74fc683b72b2eb43cba63dc7ad83b5abe2623c0ce4f15ecb3cce",
+      "decision": "KEEP",
+      "basis": "한국어 원문과 부칙의 날짜·조문번호·인용 대응 대조"
+    },
+    {
+      "id": "B1-zh-00082",
+      "source_hash": "237903a49135ab04ca3121e41209ca72a481021ff44ac1298df5c8f0f72de11f",
+      "decision": "KEEP",
+      "basis": "한국어 원문과 부칙의 날짜·조문번호·인용 대응 대조"
+    },
+    {
+      "id": "B1-zh-00083",
+      "source_hash": "7172cc4526b19c95db24e19764f4986d5189e2c90036101ff4ce5f11bcad947d",
+      "decision": "KEEP",
+      "basis": "한국어 원문과 부칙의 날짜·조문번호·인용 대응 대조"
+    },
+    {
+      "id": "B1-zh-00084",
+      "source_hash": "c27a8d90e2fad39db31a7ec7c05311572dbb07d5ec24565e9bc0e8ebd63ca618",
+      "decision": "KEEP",
+      "basis": "한국어 원문과 부칙의 날짜·조문번호·인용 대응 대조"
+    },
+    {
+      "id": "B1-zh-00085",
+      "source_hash": "82d878ce1c6b775189ee09f2463713929c448c991b1c461dda8c8be822bcb70f",
+      "decision": "EDIT",
+      "basis": "법률 제13268호 개정에서 〈52〉 항번호 누락 및 부칙 명칭 오류 정정"
+    },
+    {
+      "id": "B1-zh-00086",
+      "source_hash": "5db97fbeaa152c186007aeabebd1740dab87b250293a4b5ca819ecf84c70d02e",
+      "decision": "KEEP",
+      "basis": "한국어 원문과 부칙의 날짜·조문번호·인용 대응 대조"
+    },
+    {
+      "id": "B1-zh-00087",
+      "source_hash": "25ab8090219c7238abfcb9c5def1d259d4a6ffcd42cc55b280b8993c845bc68c",
+      "decision": "KEEP",
+      "basis": "한국어 원문과 부칙의 날짜·조문번호·인용 대응 대조"
+    },
+    {
+      "id": "B1-zh-00088",
+      "source_hash": "b79047d1af7ef7c69bf819492f24e9a23ca8edb93e274d05e05cd6c0dc33b9de",
+      "decision": "KEEP",
+      "basis": "한국어 원문과 부칙의 날짜·조문번호·인용 대응 대조"
+    }
+  ],
+  "edits": [
+    {
+      "id": "B1-zh-00079",
+      "text": "将第12条第1款中的“水产业发展基金”改为“依《水产业法》第76条设立的水产业发展基金”。\n\n将第13条第1款中的“农林畜产食品部长官或海洋水产部长官”改为“农林畜产食品部长官”，将“农水产品”分别改为“农产品”，将“农产品价格稳定基金或水产业发展基金”改为“农产品价格稳定基金”。\n\n将第13条第2款正文中的“储备用农水产品”改为“储备用农产品”。\n\n将第13条第3款中的“农林畜产食品部长官或海洋水产部长官”改为“农林畜产食品部长官”，将“储备用农水产品”改为“储备用农产品”。\n\n将第13条第4款中的“农林畜产食品部长官或海洋水产部长官”改为“农林畜产食品部长官”，将“农林水协中央会”改为“农林协中央会”。\n\n将第13条第5款中的“储备用农水产品”改为“储备用农产品”。\n\n"
+    },
+    {
+      "id": "B1-zh-00085",
+      "text": "第四条（其他法律的修订）①至〈51〉略。\n\n〈52〉对第13268号法律《水产品流通管理及支援法》部分内容作如下修订：\n\n将第39条第2款中的“依《水产业法》第76条设立的水产业发展基金”改为“依《水产业及渔村发展基本法》第46条设立的水产业发展基金”。\n\n删除第13268号法律《水产品流通管理及支援法》附则第9条第3款，并在同条新增第4款，内容如下：\n\n④《水产业及渔村发展基本法》部分修订如下：\n\n将第49条第1款第5项修改如下：\n\n5. 依《农水产品流通及价格稳定法》第4条、第8条、第10条至第12条以及《水产品流通管理及支援法》第38条至第43条规定开展的水产品生产调整、出货调节等价格稳定事业。\n\n〈53〉至〈63〉略。\n\n"
+    }
+  ],
+  "source_sha": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c",
+    "en": "32423453da2fcfa466c97946520181a32643e289"
+  },
+  "prior_progress_path": "status/delivery/progress-S2-c174f0e36bef5fedb717095f1cea01f6-C01-B1-00070-00077.json",
+  "unresolved_ids": [
+    "B1-zh-00078"
+  ],
+  "next_range": "B1-zh-00078 (unresolved large amendment cell), then B1-zh-00089",
+  "note": "Partial checkpoint; 00078 cannot be claimed complete; no family completion receipt."
+}
