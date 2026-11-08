@@ -1,0 +1,63 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-18c01ebc18605187d186",
+  "family_id": "F-18c01ebc18605187d186",
+  "assignment_id": "UW-0a673f8b565379da27f279fba00d2225",
+  "worker": "C02",
+  "panel_id": "panel-02",
+  "pc": "WORK-C",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "task_marker": "WORK-TASK:C02:F-18c01ebc18605187d186:b0df1e4121e6",
+  "source_commit": "332469810240418d7fe6b6f285996bd79a06ee40",
+  "source_blob_sha": {
+    "ko": "1805b1dd08b6fb873f41f2ecc4a176f21df600e7",
+    "en": "012c37af32361e00852ac15d80479e7420c1c02b",
+    "zh": "33f05fab4e90982af82e2021dd54235f11428a33"
+  },
+  "reading_checkpoint": {
+    "korean": {
+      "B1": {
+        "status": "READ_COMPLETE",
+        "length_chars": 67143,
+        "source_hash": "5eb9a3cce3ec46deda5018e07aa2237e69b18d9d65d09725ec17b6b8a8fb9072"
+      },
+      "B2": {
+        "status": "IN_PROGRESS",
+        "length_chars": 30455
+      },
+      "B3": {
+        "status": "NOT_STARTED",
+        "length_chars": 39904
+      },
+      "annexes_and_forms": {
+        "status": "NOT_STARTED",
+        "documents": 62
+      }
+    },
+    "english": {
+      "status": "INDEX_READ",
+      "rows_with_english": 4549,
+      "rows_without_english": 689,
+      "full_sequential_read": false,
+      "exact_act": "documents/en/kr-000222-279761-en.json",
+      "decree_fallback": "documents/en/kr-004830-272521-en.json",
+      "no_english_docs": [
+        "B3",
+        "A11335-A11391"
+      ]
+    },
+    "chinese": {
+      "status": "NOT_STARTED",
+      "rows": 5238,
+      "unique_docs": 65
+    }
+  },
+  "current_review": {
+    "path": "review/zh/F-18c01ebc18605187d186.json",
+    "status": "NOT_FOUND_ON_BRANCH_MAIN",
+    "edits": 0,
+    "checked_unique_ids": 0
+  },
+  "note": "Resumed from source blobs recorded in official C02 active assignment. Contents API returned empty body for EN/ZH source files; exact SHA blobs were fetched and parsed successfully. Prior progress/review files for this job were not located in current main branch by exact-path lookup or repository code search. No source file modified. Do not infer missing source from empty Contents body. Continue Korean full-family sequential reading, then all available English full texts, then Chinese rows in source order. 689 rows have no linked English coverage, across documents without English references; mark English-unavailable and continue KO/ZH comparison. "
+}
