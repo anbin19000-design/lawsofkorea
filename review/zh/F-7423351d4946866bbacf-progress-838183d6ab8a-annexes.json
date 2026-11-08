@@ -1,0 +1,51 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "panel_id": "panel-01",
+  "assignment_id": "S2-c174f0e36bef5fedb717095f1cea01f6",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:838183d6ab8a]",
+  "status": "IN_PROGRESS",
+  "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
+  "source_sha": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "official_review_blob": "5daaf32791e7e5717f913965a34b3427f992375a",
+  "checked_rows": 904,
+  "unique_edits": 682,
+  "reviewed_sequentially": [
+    "B1-zh-00089..B1-zh-00103",
+    "B2-zh-00001..B2-zh-00057",
+    "A38090-zh-00001..A38090-zh-00039",
+    "A38091-zh-00001..A38091-zh-00119",
+    "B3-zh-00001..B3-zh-00076",
+    "A23947-zh-00001..A23947-zh-00285",
+    "A23948-zh-00001..A23948-zh-00062",
+    "A23949-zh-00001..A23949-zh-00073",
+    "A23950-zh-00001..A23950-zh-00090"
+  ],
+  "english_status": "Exact English source available/read for B1/B2 and decree annexes A38090/A38091. No independent English documents for B3, its annexes and forms.",
+  "next_position": "A23951-zh-00001",
+  "corrections_added_this_turn": [
+    "A23947 full annex 1: general standards and three tables for market operators, origin auctioneers, and origin intermediary wholesalers; corrected violation descriptions, statutory grounds and sanctions.",
+    "A23948 full annex 2: corrected marking requirements, 13-digit fishery traceability code, lot-number construction, solar-salt code and QR linkage.",
+    "A23949 full annex 3: corrected common traceability requirements and producer/distributor/seller record fields, HACCP/certificate exception.",
+    "A23950 full annex 4: corrected multiple violation handling, recurrence, group mitigation, small-business relief and six cancellation/marking-ban grounds."
+  ],
+  "remaining_documents": [
+    "A23951",
+    "A23952",
+    "A23953",
+    "A23954",
+    "A23955",
+    "A23956",
+    "A23957"
+  ],
+  "unresolved": [
+    "A38090-zh-00012 punctuation-only dot requires source XML verification.",
+    "Final XML cell alignment and completeness review across annexes/forms pending."
+  ],
+  "note": "Four rule annexes A23947-A23950 have been semantically reviewed. Overall family is not complete. Seven forms remain. Preserve all prior edits; no COMPLETE status or receipt."
+}
