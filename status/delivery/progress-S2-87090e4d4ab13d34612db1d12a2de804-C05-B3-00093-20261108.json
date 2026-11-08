@@ -1,0 +1,32 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-b5c27d20d49b721e47e6",
+  "worker": "C05",
+  "status": "IN_PROGRESS",
+  "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
+  "source_blobs": {
+    "ko": "24ddd78e32a748b7d1c1ce01fef19d036494b9e9",
+    "en": "3d130788df10274ded6103c1fa81654c977eec5c",
+    "zh": "66ea4d0981f8e1a76348309f8254051d4914f693"
+  },
+  "checked_rows": 1,
+  "checked_ids": [
+    "B3-zh-00093"
+  ],
+  "decisions": [
+    {
+      "id": "B3-zh-00093",
+      "source_hash": "3b92c028c76610a8f4d7e6fcda13f3e7807a62dab3e5a3f375c12d8c10361fcb",
+      "decision": "CORRECT",
+      "basis": "Korean source is only the two amendment paragraphs; existing Chinese appended an unrelated annex fragment and mistranslated clauses."
+    }
+  ],
+  "edits": [
+    {
+      "id": "B3-zh-00093",
+      "text": "将第二条各项以外的部分、第三条之二各项以外的部分及第九条之二中的“女性家族部令”分别改为“性别平等家族部令”。\n\n将第三条、第四条第一款第七项及该条第二款、第五条第二款正文及但书、第六条、第九条之五第一款、该条第二款各项以外的部分及该款第三项、第十条第六款正文及但书、第十一条第三款、第十一条之二第三款正文及但书、第十一条之三，以及第十三条各项以外的部分中的“女性家族部部长”分别改为“性别平等家族部部长”。\n\n"
+    }
+  ],
+  "next_id": "A5222-zh-00001",
+  "note": "B3 93 source-bound amendment corrected. Spilled A5222 annex text excluded from B3 edit. Annex preserved as independently keyed rows. Full annex comparison still pending."
+}
