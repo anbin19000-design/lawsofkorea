@@ -2377,6 +2377,15 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-6babcb0e5d1b.json",
       "verification": "C02_KOREAN_TITLE_AND_OFFICIAL_ENGLISH_TITLE_COMPARISON",
       "reason": "现有标题将已生效的法律称为“法案”，误作尚待审议的 bill；按韩文正式法名及英文 ACT ON... 改为“相关法律”。"
+    },
+    {
+      "id": "B1-zh-00023",
+      "text": "第十七条（实施计划等审批的特别规定）\n① 项目实施者在根据其他法律实施项目时，如依据相关法律制定并取得包含第十四条所列实施计划内容的开发计划和实施计划的批准，则该实施计划视为已依据第十四条制定或批准。<2015年12月29日修订>\n② 项目实施者按照第1款规定的项目通过竣工检查时，视为已依据第16条通过竣工检查。\n\n",
+      "source_hash": "20babaaf6a1f99e9ed629adb3b23385cee6ade394c305687453d13fd65e4f128",
+      "target_id": "372e24b3f790eec8ba52192add0d38f110a97a07cc2524156b508b1a53fa9d7b",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-0fb8b7cbc86e.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "韩文“준공검사를 받았을 때”表示项目实施者通过竣工检查，不是收到竣工验收报告；中文原译将法律条件和法律效果均误译为收到报告，作最小语义修正。"
     }
   ],
   "adjudicated_edit_count": 288,
@@ -7562,12 +7571,13 @@
     "This is an IN_PROGRESS cumulative manifest; pending candidates are NOT confirmed edits.",
     "Preserve historical source, independent progress records and original translation. No completion claim.",
     "Existing stored adjudications and later progress files must be incorporated with source/hash verification before COMPLETE.",
-    "2026-11-08 C02 continuation: corrected B1 title terminology only. Article 2, Article 3(1)(6), and Article 3-2 corrections were already integrated; no duplicates added."
+    "2026-11-08 C02 continuation: corrected B1 title terminology only. Article 2, Article 3(1)(6), and Article 3-2 corrections were already integrated; no duplicates added.",
+    "2026-11-08 C02 continuation: B1-zh-00023 corrected against Korean original. Other reviewed nearby rows have prior integrated corrections or no confirmed material error; no duplicate edits."
   ],
   "integration_progress": {
-    "stage": "B1_OFFICIAL_TITLE_RECONCILED",
-    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:6babcb0e5d1b",
-    "note": "B1 title corrected from bill to enacted law after Korean/official English comparison. Whole family remains IN_PROGRESS."
+    "stage": "B1_ARTICLE17_COMPLETION_INSPECTION_CONDITION_RECONCILED",
+    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:0fb8b7cbc86e",
+    "note": "B1 Article 17(2) corrected: passing completion inspection is not receipt of an inspection report. Whole family remains IN_PROGRESS."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -7873,7 +7883,8 @@
     "B1-zh-00010",
     "B1-zh-00009",
     "B1-zh-00020",
-    "B1-zh-00001"
+    "B1-zh-00001",
+    "B1-zh-00023"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
