@@ -19,8 +19,8 @@
     "required_order": "KO_FULL_EN_FULL_ZH_FULL",
     "ko": "COMPLETE; read all 40 Korean source documents sequentially: B1-B3 and forms A21391-A21427. Long form A21410 was additionally read in slices across all 29,583 characters.",
     "en": "COMPLETE; read full_text sequentially for exact-version official English B1 (44,973 chars, 53 articles) and B2 (36,297 chars). English source SHA: B1 3fb4125ebe20d6eb77f20ec953c976185229edd1; B2 53ff816786de057b33a6adcf2abdbf59fa81b08e. B3 and all 37 forms have no document-level English source.",
-    "zh": "IN_PROGRESS; sequential review completed through A21393-zh-00022 (row 280 of 1,966). A21391, A21392, and initial A21393 fields reviewed; remaining rows continue in order.",
-    "next_step": "Continue from A21393-zh-00023 (row 281) through all 1,966 Chinese rows; verify each form field against the Korean originals and maintain exact source hashes.",
+    "zh": "IN_PROGRESS; sequential review completed through A21394-zh-00022 (row 330 of 1,966). Forms A21391-A21394 reviewed through the initial identity fields; remaining rows continue in order.",
+    "next_step": "Continue from A21394-zh-00023 (row 331) through all 1,966 rows; review all forms and preserve source IDs.",
     "english_source_blobs": {
       "B1": "3fb4125ebe20d6eb77f20ec953c976185229edd1",
       "B2": "53ff816786de057b33a6adcf2abdbf59fa81b08e"
@@ -726,8 +726,148 @@
       "id": "A21392-zh-00043",
       "text": "5. 其他调查所需资料",
       "reason": "“그 밖에 조사에 필요한 자료”应译其他调查所需资料。"
+    },
+    {
+      "id": "A21393-zh-00023",
+      "text": "（年龄）",
+      "reason": "“(세)”是年龄单位，应译年龄，不是年。"
+    },
+    {
+      "id": "A21393-zh-00024",
+      "text": "职业",
+      "reason": "“직업”应译职业，不是编号。"
+    },
+    {
+      "id": "A21393-zh-00025",
+      "text": "联系方式",
+      "reason": "“연락처”应译联系方式，不是年龄。"
+    },
+    {
+      "id": "A21393-zh-00026",
+      "text": "住所",
+      "reason": "“주거지”应译住所，不是联系信息。"
+    },
+    {
+      "id": "A21393-zh-00027",
+      "text": "登记基准地",
+      "reason": "“등록기준지”应译登记基准地，不是广告。"
+    },
+    {
+      "id": "A21393-zh-00028",
+      "text": "罪名",
+      "reason": "“죄명”应译罪名，不是连衣裙。"
+    },
+    {
+      "id": "A21393-zh-00029",
+      "text": "适用法律条文",
+      "reason": "“적용 법조문”应译适用法律条文，不是注册基座。"
+    },
+    {
+      "id": "A21393-zh-00030",
+      "text": "是否被拘留",
+      "reason": "“구속 여부”应译是否被拘留/羁押，不是进攻。"
+    },
+    {
+      "id": "A21393-zh-00031",
+      "text": "辩护人",
+      "reason": "表格栏位“변호인”应译辩护人，不是名称。"
+    },
+    {
+      "id": "A21393-zh-00033",
+      "text": "拘留",
+      "reason": "“구속”在该栏指拘留/羁押状态，不是滞留。"
+    },
+    {
+      "id": "A21393-zh-00035",
+      "text": "拘留（20",
+      "reason": "该字段为拘留日期格式的一部分，原译“约束”不当。"
+    },
+    {
+      "id": "A21393-zh-00036",
+      "text": "逮捕）",
+      "reason": "“체포”应译逮捕，保留与前一日期字段的连续性。"
+    },
+    {
+      "id": "A21393-zh-00037",
+      "text": "（印）",
+      "reason": "“인”是印章栏，不是密封。"
+    },
+    {
+      "id": "A21393-zh-00038",
+      "text": "Ⅱ. 治疗令申请原因事实",
+      "reason": "“치료명령 청구원인 사실”是治疗令申请原因事实。"
+    },
+    {
+      "id": "A21393-zh-00039",
+      "text": "Ⅲ. 附件",
+      "reason": "“첨부”应译附件。"
+    },
+    {
+      "id": "A21394-zh-00001",
+      "text": "■《关于性犯罪者性冲动的药物治疗法施行规则》[附件第4号格式]",
+      "reason": "统一法令名称及附件格式译名。"
+    },
+    {
+      "id": "A21394-zh-00002",
+      "text": "○○检察厅",
+      "reason": "“검찰청”应译检察厅。"
+    },
+    {
+      "id": "A21394-zh-00010",
+      "text": "○○地方法院院长",
+      "reason": "“지방법원장”应译地方法院院长，不是首席法官。"
+    },
+    {
+      "id": "A21394-zh-00011",
+      "text": "发件人",
+      "reason": "公文栏“발신”应译发件人。"
+    },
+    {
+      "id": "A21394-zh-00014",
+      "text": "（印）",
+      "reason": "署名栏“인”是印章，不是密封。"
+    },
+    {
+      "id": "A21394-zh-00015",
+      "text": "检察官",
+      "reason": "署名栏“검사”应译检察官。"
+    },
+    {
+      "id": "A21394-zh-00016",
+      "text": "标题",
+      "reason": "“제목”是标题栏。"
+    },
+    {
+      "id": "A21394-zh-00017",
+      "text": "标题：起诉书及治疗令申请书",
+      "reason": "“공소장 및 치료명령 청구서”应译起诉书及治疗令申请书，不是起诉和治疗令申请的泛称。"
+    },
+    {
+      "id": "A21394-zh-00018",
+      "text": "兹提起公诉，并申请作出药物治疗令。",
+      "reason": "原译“请求下令进行药物治疗”弱化了同时提起公诉的含义。"
+    },
+    {
+      "id": "A21394-zh-00019",
+      "text": "Ⅰ. 治疗令被申请人相关事项",
+      "reason": "该节标题指治疗令申请对象相关事项。"
+    },
+    {
+      "id": "A21394-zh-00020",
+      "text": "姓名",
+      "reason": "原译“完整”明显错误，字段为姓名。"
+    },
+    {
+      "id": "A21394-zh-00021",
+      "text": "居民登记",
+      "reason": "居民登记号码栏分成多个片段，应按完整字段表达。"
+    },
+    {
+      "id": "A21394-zh-00022",
+      "text": "号码",
+      "reason": "居民登记号码字段的续接部分。"
     }
   ],
-  "note": "Corrected the field-to-ID alignment for A21392 based on the Korean form table; removed the no-op finding. Korean and available English source reading complete. Chinese sequential review underway; 149 unique correction candidates retained. Not COMPLETE.",
+  "note": "Korean and available English source reading complete. Chinese sequential review underway; 170 unique correction candidates retained. Not COMPLETE.",
   "progress_marker": "2eda490d1a51"
 }
