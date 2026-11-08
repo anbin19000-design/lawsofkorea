@@ -66,7 +66,7 @@
       "issue": "纠正施行规则法名、示范运行任务和开发项目实施计划批准条款中的误译及错误法案指称。"
     }
   ],
-  "notes": "Preserves original source blobs and prior reading bookmark. Initial targeted corrections include incomplete Korean-only fragments in B2 Articles 8 and 17, statutory reference errors, the 100/100 state-property fee reduction cap, UAM terminology, appendix criteria and amounts, and MTQ artifacts/processing periods in forms. This is a progress checkpoint, not COMPLETE. Preserved original handoff checkpoint findings. All prior 48 empty correction entries have now been restored to nonempty source-backed fragments; no source row is intentionally deleted. Continued review of the full Decree Article 25, Rule Articles 10/15/17/19/22/23 and annex/form content. Corrected multiple corrupted or mistranslated cross-references, article titles, the delegated-work list and official institution names. Progress remains IN_PROGRESS. Additional targeted review corrected regulation titles and several remaining article references, the inspector certificate number, a stray Vertiport English term and construction-engineer mistranslations. All edits remain source-hash-bound; this is still an IN_PROGRESS checkpoint. Corrected the remaining misnamed enforcement-rule title embedded in the long supplementary-provision row B3-zh-00027; the duplicate annex body still requires detailed comparison with its separately indexed annex. Completed detailed sequential correction of the attached administrative-disposition criteria table A27040: general rules, aggravating/mitigating factors, legal grounds, first-to-fourth violation columns, and 30/60/90/120-day suspension measures.",
+  "notes": "Preserves original source blobs and prior reading bookmark. Initial targeted corrections include incomplete Korean-only fragments in B2 Articles 8 and 17, statutory reference errors, the 100/100 state-property fee reduction cap, UAM terminology, appendix criteria and amounts, and MTQ artifacts/processing periods in forms. This is a progress checkpoint, not COMPLETE. Preserved original handoff checkpoint findings. All prior 48 empty correction entries have now been restored to nonempty source-backed fragments; no source row is intentionally deleted. Continued review of the full Decree Article 25, Rule Articles 10/15/17/19/22/23 and annex/form content. Corrected multiple corrupted or mistranslated cross-references, article titles, the delegated-work list and official institution names. Progress remains IN_PROGRESS. Additional targeted review corrected regulation titles and several remaining article references, the inspector certificate number, a stray Vertiport English term and construction-engineer mistranslations. All edits remain source-hash-bound; this is still an IN_PROGRESS checkpoint. Corrected the remaining misnamed enforcement-rule title embedded in the long supplementary-provision row B3-zh-00027; the duplicate annex body still requires detailed comparison with its separately indexed annex. Completed detailed sequential correction of the attached administrative-disposition criteria table A27040: general rules, aggravating/mitigating factors, legal grounds, first-to-fourth violation columns, and 30/60/90/120-day suspension measures. Completed row-by-row correction of attached schedules A27042 and A27043, including general aggravation/mitigation rules, legal grounds, permit revocation/restoration, construction suspension periods and UAM business suspension periods.",
   "edits": [
     {
       "id": "B1-zh-00001",
@@ -1361,19 +1361,19 @@
     {
       "id": "A27042-zh-00001",
       "text": "■《促进和支持城市空中交通利用法施行规则》[附表3]",
-      "reason": "根据韩文原文及相关条文修正明显误译、条号、法令名称或不完整内容。",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
       "original_source_hash": "f71067efd112a49cca9ee72bbcd43698a19d8b26eb23f27b2d5429a4341f07eb"
     },
     {
       "id": "A27042-zh-00044",
-      "text": "本法第10条第2款第1号",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "许可",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
       "original_source_hash": "23900c920f9446833673a03f2954e76e901d9cd4df7be2a31752997982b8ed35"
     },
     {
       "id": "A27042-zh-00051",
-      "text": "本法第10条第2款第2号",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "30日",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
       "original_source_hash": "d408141d5ecd0a15456ea0eb24181054271a1e7bd75ef7c0e1adc7fd6e428e40"
     },
     {
@@ -1397,13 +1397,13 @@
     {
       "id": "A27043-zh-00001",
       "text": "■《促进和支持城市空中交通利用法施行规则》[附表4]",
-      "reason": "根据韩文原文及相关条文修正明显误译、条号、法令名称或不完整内容。",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
       "original_source_hash": "56f068572e94679de515e5f3302d69b4dfb459c9d3f716d6e0f086b5ba322e1d"
     },
     {
       "id": "A27043-zh-00044",
-      "text": "本法第14条第5款第1号",
-      "reason": "对照完整韩文原文及可用官方英文资料，修正明显误译、漏译、MTQ残留或表格字段错误。",
+      "text": "撤销指定",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
       "original_source_hash": "7dba1c2e88c679d2bf22be1f707f437b6540d517f1fd6337c64bcbc99bf9193a"
     },
     {
@@ -2089,7 +2089,589 @@
       "text": "停业120日",
       "reason": "依据附表1韩文原文恢复并纠正分段表格内容、处分标准和次数档次。",
       "original_source_hash": "7b3733aab2fd0dcf59d453ff7ce2c32f01b757f4d45bf6d21819f9915123613f"
+    },
+    {
+      "id": "A27042-zh-00002",
+      "text": "撤销垂直起降场开发项目许可等处分的具体标准（与第16条相关）",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "bab15064ac6077fc8848f517e6122ac49f62f011e7c486b2a366843d63238879"
+    },
+    {
+      "id": "A27042-zh-00003",
+      "text": "1. 一般标准",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "a617cf3ccc65ba6af0228b05b78c02b61364dbd74e669da8ea55dab0e5a320b6"
+    },
+    {
+      "id": "A27042-zh-00004",
+      "text": "a. 有两项以上违法行为，且各自适用的处分标准不同时，适用其中较重的处分标准；两项以上处分标准均为停工处分时，",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "8de19a9851bafc0d9e8534affb2612ea5a9f00991702c7b6a2fa736bbadece45"
+    },
+    {
+      "id": "A27042-zh-00005",
+      "text": "应在不超过各处分标准期间总和的范围内，将较重处分标准加重至其二分之一以内。",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "c7e044fdc82415296ceb56637a2307629a6ad0eb84eb76e5df005af8efd5c2c1"
+    },
+    {
+      "id": "A27042-zh-00006",
+      "text": "b. 按违法行为次数加重行政处分的标准，适用于最近一年内因同一违法行为受到行政处分的情形。期间以因该违法行为受到行政处分之日，以及处分后再次实施同一违法行为并被查获之日为准。",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "779dfe861846e81cccf86ce70e7db834f75d073ac34ff11ab4c1a13257fc9dc9"
+    },
+    {
+      "id": "A27042-zh-00007",
+      "text": "c. 依b目加重行政处分时，加重处分的适用档次为该违法行为此前处分档次的下一档；在b目规定期间内受到两次以上行政处分时，以较高档次为准。",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "689ab2f173d794e02362b846afd8d0af25b201c2ce905946bf7c9320ece3bf12"
+    },
+    {
+      "id": "A27042-zh-00008",
+      "text": "d. 处分权人考虑违法行为的动机、内容、次数及程度等下列加重或减轻事由，可以在处分标准二分之一范围内加重或减轻停工期间。但加重时停工期间不得超过六个月。",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "886be2ef5b4aee4e948bb3bf35327ea6d1bd3613a8c50718715c24a628ace150"
+    },
+    {
+      "id": "A27042-zh-00009",
+      "text": "1) 加重事由",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "7ccf973ee38bc8b094bfc87512db1b8a33d1087fdee1277cd87483601a940ac0"
+    },
+    {
+      "id": "A27042-zh-00010",
+      "text": "a) 违法行为内容或程度重大，认定对公众造成重大损害的情形；",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "7009b2c2379c001f97eea9f10d2dbb92e768557f492c35bf231ada13c5322d3d"
+    },
+    {
+      "id": "A27042-zh-00011",
+      "text": "b) 违法状态持续六个月以上的情形；",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "9b89d7cd2509de17c1a6d0149951449ce86d9c7d01f7585cfd31f8abd887216c"
+    },
+    {
+      "id": "A27042-zh-00012",
+      "text": "c) 考虑违法行为程度、动机及结果等，认定有必要加重处分的其他情形。",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "e810f74ec857ad1d9a22e3c17114d5d98557049edb9198ebf79b57f03c065d8c"
+    },
+    {
+      "id": "A27042-zh-00013",
+      "text": "2) 减轻事由",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "d354559bac93b1a95409ee2146a8cc3d19a6e02cfbfc8bc07da2ed840ad57a03"
+    },
+    {
+      "id": "A27042-zh-00014",
+      "text": "a) 违法行为被认定为因轻微疏忽或错误造成的情形；",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "71756296611284f3c1f665df5f50ed9ad628948ede6569451d97728ae313dd9f"
+    },
+    {
+      "id": "A27042-zh-00015",
+      "text": "b) 违法行为人立即纠正或改正违法行为，消除违法状态的情形；",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "2b46bd76cfab78e989a1ae0d6a610fb30c2ff88484940738307f9c469369e0d6"
+    },
+    {
+      "id": "A27042-zh-00016",
+      "text": "c) 考虑违法行为程度、动机及结果等，认定有必要减轻处分的其他情形。",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "2e373e2e4ac5797e4477a6f9e71585ac7dcc71ffda3292d18658f34743d06c12"
+    },
+    {
+      "id": "A27042-zh-00017",
+      "text": "2. 个别标准",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "40dfbe466f4cd389f016dab79850818b153561f9703b53b3242fe804cbd6f162"
+    },
+    {
+      "id": "A27042-zh-00018",
+      "text": "违法行为",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "0ff9c047b386d0376552302fda06b1ea8a9a3385b4873a22c26fa298538f5f9f"
+    },
+    {
+      "id": "A27042-zh-00019",
+      "text": "依据法律条文",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "48b1c5907a056c058836b7ea90699c857dbe45745b92b1bb0d5e48bd32e3c0bb"
+    },
+    {
+      "id": "A27042-zh-00020",
+      "text": "行政处分标准",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "acbaa3149147bc239effb9082fceff7245d0fadecbe2be63a5528da832b3405b"
+    },
+    {
+      "id": "A27042-zh-00021",
+      "text": "第1次违法",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "0925aa90ecffa7d68ff7837a8061fc0727ed11f2ac486e261ce991adc65577ed"
+    },
+    {
+      "id": "A27042-zh-00022",
+      "text": "第2次违法",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "5fc47b294c5fc64594110513552e6c745e172818c722820e61516626ff2c17d0"
+    },
+    {
+      "id": "A27042-zh-00023",
+      "text": "第3次违法",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "4c83a22413015bf65db17247a2f8de620414364ce5b0bb2e3b66b003a1420433"
+    },
+    {
+      "id": "A27042-zh-00024",
+      "text": "第4次及以上违法",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "88339eb189b6055cddefb749e0b0013a721208b64f14809db1385cfcec0ad477"
+    },
+    {
+      "id": "A27042-zh-00025",
+      "text": "a. 以虚假或其他不正当方法取得本法第9条第2款规定的许可的情形",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "489c511a6217b4a629194d29198817a347f133e9f2d90f406df62baff647e844"
+    },
+    {
+      "id": "A27042-zh-00026",
+      "text": "本法第10条第2款第1号",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "50d286a0875bcd2f5ab22521186474b01e91f9595b00adf148c6bc32ade6711f"
+    },
+    {
+      "id": "A27042-zh-00027",
+      "text": "撤销",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "ab2278d15ea5cb4b890d2fc1aca0fe77128ed8825cc45456870c434a79ff5465"
+    },
+    {
+      "id": "A27042-zh-00028",
+      "text": "许可",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "6aba41338aa494a0e6b605edc6998dd88f064425ca89c071154c14af5a857c7b"
+    },
+    {
+      "id": "A27042-zh-00029",
+      "text": "b. 违反本法第9条第2款，国土交通部长官以外的主体未经许可开发垂直起降场，或违反许可事项的情形",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "aed90b530fe1828060f4d10adfec72de912718f1d539716cd1480902890632b6"
+    },
+    {
+      "id": "A27042-zh-00030",
+      "text": "本法第10条第2款第2号",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "8670f98fe6ca7cf3747a44f709171cc17dff8424b56760716c12227fe70c11b1"
+    },
+    {
+      "id": "A27042-zh-00031",
+      "text": "未经许可开发垂直起降场的情形",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "1d6f6bce78138ea58d3cc062dbce45c849d57266d25052a404c84318174a0c95"
+    },
+    {
+      "id": "A27042-zh-00032",
+      "text": "恢复原状",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "903aa577eae3314c52694d8cb0c32f8a688802c384b7267385dc97b9afdad866"
+    },
+    {
+      "id": "A27042-zh-00033",
+      "text": "违反许可事项的情形",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "f301e09bb088a35ead5a94b8a5272800ed1989bf2a850f142c6a2bc9c86559d4"
+    },
+    {
+      "id": "A27042-zh-00034",
+      "text": "停工",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "d7f26532491d3211d6e65d9ce3fe4003c57e01edbe3f534e05b975ea57041e18"
+    },
+    {
+      "id": "A27042-zh-00035",
+      "text": "停工",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "453808332b8346c9e1954ffef8e87d7c8645abcc884e39a2c583ff251600635e"
+    },
+    {
+      "id": "A27042-zh-00036",
+      "text": "停工",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "f75ff0ce105d0acf38b5a14a59cc7d0e03b66d25389c0cc6f3654de5f9829795"
+    },
+    {
+      "id": "A27042-zh-00037",
+      "text": "撤销许可",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "a68191ef7bdd10d7fcd4c0cf10f51e1873d41c8d6c04cbf0af0625f1a32998ad"
+    },
+    {
+      "id": "A27042-zh-00038",
+      "text": "30日",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "8babdb5c9618a214bed6a9bbfddbc7c25131c0aa1fa244eaf3c9c77e4d0c0a22"
+    },
+    {
+      "id": "A27042-zh-00039",
+      "text": "60日",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "8babdb5c9618a214bed6a9bbfddbc7c25131c0aa1fa244eaf3c9c77e4d0c0a22"
+    },
+    {
+      "id": "A27042-zh-00040",
+      "text": "90日",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "8babdb5c9618a214bed6a9bbfddbc7c25131c0aa1fa244eaf3c9c77e4d0c0a22"
+    },
+    {
+      "id": "A27042-zh-00041",
+      "text": "c. 因情势变更，认定已无法继续实施垂直起降场开发项目的情形",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "e6e77b83100b28e797f155f37162ee0a171cb2b4193e24205fbc9debf6cca32e"
+    },
+    {
+      "id": "A27042-zh-00042",
+      "text": "本法第10条第2款第3号",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "8babdb5c9618a214bed6a9bbfddbc7c25131c0aa1fa244eaf3c9c77e4d0c0a22"
+    },
+    {
+      "id": "A27042-zh-00043",
+      "text": "撤销",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "012e3728ef5b57fb3c426a9a466183bfa7a5e67b95c30c51dc803f1f40af9cff"
+    },
+    {
+      "id": "A27042-zh-00045",
+      "text": "d. 收到本法第10条第1款改正命令者，未在国土交通部长官规定期限内采取适当措施的情形",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "e7a29abc3bdf6d15b0b59877fb19ed13d0bb13f96d98f94c4084a0b9bbfbf597"
+    },
+    {
+      "id": "A27042-zh-00046",
+      "text": "本法第10条第2款第4号",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "3f183de0c8f9ef69f362f7e275bb8b34f293dd2a506d40fd38b5e634c6340945"
+    },
+    {
+      "id": "A27042-zh-00047",
+      "text": "停工",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "be876433993ab7ba221512b5703b32060626f390aa50d7ed464a847a34539a6c"
+    },
+    {
+      "id": "A27042-zh-00048",
+      "text": "停工",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "eecb199678eef9bc6a0416502c1fc1f6d9b16a86fe8a2672b0c631e49230e656"
+    },
+    {
+      "id": "A27042-zh-00049",
+      "text": "停工",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "0925aa90ecffa7d68ff7837a8061fc0727ed11f2ac486e261ce991adc65577ed"
+    },
+    {
+      "id": "A27042-zh-00050",
+      "text": "撤销许可",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "52d17429ad82a4aaa89203568bc9004a9fb5f0956f9d76b21665bd62164c3aba"
+    },
+    {
+      "id": "A27042-zh-00052",
+      "text": "60日",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "f57af8b873782653173cd18c58c1b18226a40610548c8ec4d017911854c3f216"
+    },
+    {
+      "id": "A27042-zh-00053",
+      "text": "90日",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "fbbc313be15766907b70c436977a343c3226556b0cf8eb733dadef71ceb60261"
+    },
+    {
+      "id": "A27043-zh-00002",
+      "text": "撤销城市空中交通业务经营者指定等处分的具体标准（与第20条相关）",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "3755adc86d73fe85f973d51c652db6ffef2cffceb09c21ab388e70271d6de866"
+    },
+    {
+      "id": "A27043-zh-00003",
+      "text": "1. 一般标准",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "a617cf3ccc65ba6af0228b05b78c02b61364dbd74e669da8ea55dab0e5a320b6"
+    },
+    {
+      "id": "A27043-zh-00004",
+      "text": "a. 有两项以上违法行为，且各自适用的处分标准不同时，适用其中较重的处分标准；两项以上处分标准均为停业处分时，",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "8de19a9851bafc0d9e8534affb2612ea5a9f00991702c7b6a2fa736bbadece45"
+    },
+    {
+      "id": "A27043-zh-00005",
+      "text": "应在不超过各处分标准期间总和的范围内，将较重处分标准加重至其二分之一以内。",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "f380d68dad68f89ca7c746b3b3e43546f744700a91faa9211c7d7ea4fe43afce"
+    },
+    {
+      "id": "A27043-zh-00006",
+      "text": "b. 按违法行为次数加重行政处分的标准，适用于最近一年内因同一违法行为受到行政处分的情形。期间以因该违法行为受到行政处分之日，以及处分后再次实施同一违法行为并被查获之日为准。",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "91b632f651bc2a1b4eb1c145b2111a75d0c14be451085ee7577adc2b10698106"
+    },
+    {
+      "id": "A27043-zh-00007",
+      "text": "c. 依b目加重行政处分时，加重处分的适用档次为该违法行为此前处分档次的下一档；在b目规定期间内受到两次以上行政处分时，以较高档次为准。",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "37104ad64f6ed2c52ac8b8d471a24e1ed051dfa9255c4e691bed7b694c1d0394"
+    },
+    {
+      "id": "A27043-zh-00008",
+      "text": "d. 处分权人考虑违法行为的动机、内容、次数及程度等下列加重或减轻事由，可以在处分标准二分之一范围内加重或减轻停业期间。但加重时停业期间不得超过六个月。",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "886be2ef5b4aee4e948bb3bf35327ea6d1bd3613a8c50718715c24a628ace150"
+    },
+    {
+      "id": "A27043-zh-00009",
+      "text": "1) 加重事由",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "7ccf973ee38bc8b094bfc87512db1b8a33d1087fdee1277cd87483601a940ac0"
+    },
+    {
+      "id": "A27043-zh-00010",
+      "text": "a) 违法行为内容或程度重大，认定对使用者等造成重大损害的情形；",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "7009b2c2379c001f97eea9f10d2dbb92e768557f492c35bf231ada13c5322d3d"
+    },
+    {
+      "id": "A27043-zh-00011",
+      "text": "b) 违法状态持续六个月以上的情形；",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "9b89d7cd2509de17c1a6d0149951449ce86d9c7d01f7585cfd31f8abd887216c"
+    },
+    {
+      "id": "A27043-zh-00012",
+      "text": "c) 考虑违法行为程度、动机及结果等，认定有必要加重处分的其他情形。",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "e810f74ec857ad1d9a22e3c17114d5d98557049edb9198ebf79b57f03c065d8c"
+    },
+    {
+      "id": "A27043-zh-00013",
+      "text": "2) 减轻事由",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "d354559bac93b1a95409ee2146a8cc3d19a6e02cfbfc8bc07da2ed840ad57a03"
+    },
+    {
+      "id": "A27043-zh-00014",
+      "text": "a) 违法行为被认定为因轻微疏忽或错误造成的情形；",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "71756296611284f3c1f665df5f50ed9ad628948ede6569451d97728ae313dd9f"
+    },
+    {
+      "id": "A27043-zh-00015",
+      "text": "b) 违法行为人立即纠正或改正违法行为，消除违法状态的情形；",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "2b46bd76cfab78e989a1ae0d6a610fb30c2ff88484940738307f9c469369e0d6"
+    },
+    {
+      "id": "A27043-zh-00016",
+      "text": "c) 考虑违法行为程度、动机及结果等，认定有必要减轻处分的其他情形。",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "2e373e2e4ac5797e4477a6f9e71585ac7dcc71ffda3292d18658f34743d06c12"
+    },
+    {
+      "id": "A27043-zh-00017",
+      "text": "2. 个别标准",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "40dfbe466f4cd389f016dab79850818b153561f9703b53b3242fe804cbd6f162"
+    },
+    {
+      "id": "A27043-zh-00018",
+      "text": "违法行为",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "0ff9c047b386d0376552302fda06b1ea8a9a3385b4873a22c26fa298538f5f9f"
+    },
+    {
+      "id": "A27043-zh-00019",
+      "text": "依据法律条文",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "48b1c5907a056c058836b7ea90699c857dbe45745b92b1bb0d5e48bd32e3c0bb"
+    },
+    {
+      "id": "A27043-zh-00020",
+      "text": "行政处分标准",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "c639972e5af0b0b1f057214c6db5d3270252b31ee6359e0f147596d9661ca164"
+    },
+    {
+      "id": "A27043-zh-00021",
+      "text": "第1次违法",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "e1831b5da0f7207ef6aaa819bdb0899ca549273f22c0634020e633702944b1a1"
+    },
+    {
+      "id": "A27043-zh-00022",
+      "text": "第2次违法",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "5fc47b294c5fc64594110513552e6c745e172818c722820e61516626ff2c17d0"
+    },
+    {
+      "id": "A27043-zh-00023",
+      "text": "第3次违法",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "4c83a22413015bf65db17247a2f8de620414364ce5b0bb2e3b66b003a1420433"
+    },
+    {
+      "id": "A27043-zh-00024",
+      "text": "第4次及以上违法",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "88339eb189b6055cddefb749e0b0013a721208b64f14809db1385cfcec0ad477"
+    },
+    {
+      "id": "A27043-zh-00025",
+      "text": "a. 以虚假或其他不正当方法取得城市空中交通业务经营者指定的情形",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "489c511a6217b4a629194d29198817a347f133e9f2d90f406df62baff647e844"
+    },
+    {
+      "id": "A27043-zh-00026",
+      "text": "本法第14条第5款第1号",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "50d286a0875bcd2f5ab22521186474b01e91f9595b00adf148c6bc32ade6711f"
+    },
+    {
+      "id": "A27043-zh-00027",
+      "text": "撤销",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "ab2278d15ea5cb4b890d2fc1aca0fe77128ed8825cc45456870c434a79ff5465"
+    },
+    {
+      "id": "A27043-zh-00028",
+      "text": "指定",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "6aba41338aa494a0e6b605edc6998dd88f064425ca89c071154c14af5a857c7b"
+    },
+    {
+      "id": "A27043-zh-00029",
+      "text": "b. 收到本法第14条第4款改正命令后，无正当理由未在指定期限内履行的情形",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "aed90b530fe1828060f4d10adfec72de912718f1d539716cd1480902890632b6"
+    },
+    {
+      "id": "A27043-zh-00030",
+      "text": "本法第14条第5款第2号",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "8670f98fe6ca7cf3747a44f709171cc17dff8424b56760716c12227fe70c11b1"
+    },
+    {
+      "id": "A27043-zh-00031",
+      "text": "部分业务停止",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "1d6f6bce78138ea58d3cc062dbce45c849d57266d25052a404c84318174a0c95"
+    },
+    {
+      "id": "A27043-zh-00032",
+      "text": "部分业务停止",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "903aa577eae3314c52694d8cb0c32f8a688802c384b7267385dc97b9afdad866"
+    },
+    {
+      "id": "A27043-zh-00033",
+      "text": "部分业务停止",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "f301e09bb088a35ead5a94b8a5272800ed1989bf2a850f142c6a2bc9c86559d4"
+    },
+    {
+      "id": "A27043-zh-00034",
+      "text": "撤销指定",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "d7f26532491d3211d6e65d9ce3fe4003c57e01edbe3f534e05b975ea57041e18"
+    },
+    {
+      "id": "A27043-zh-00035",
+      "text": "未在指定期限内履行改正命令的情形",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "453808332b8346c9e1954ffef8e87d7c8645abcc884e39a2c583ff251600635e"
+    },
+    {
+      "id": "A27043-zh-00036",
+      "text": "停业30日",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "f75ff0ce105d0acf38b5a14a59cc7d0e03b66d25389c0cc6f3654de5f9829795"
+    },
+    {
+      "id": "A27043-zh-00037",
+      "text": "停业60日",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "a68191ef7bdd10d7fcd4c0cf10f51e1873d41c8d6c04cbf0af0625f1a32998ad"
+    },
+    {
+      "id": "A27043-zh-00038",
+      "text": "停业90日",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "8babdb5c9618a214bed6a9bbfddbc7c25131c0aa1fa244eaf3c9c77e4d0c0a22"
+    },
+    {
+      "id": "A27043-zh-00039",
+      "text": "c. 因示范运行对他人造成损害或产生交通危险的情形",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "8babdb5c9618a214bed6a9bbfddbc7c25131c0aa1fa244eaf3c9c77e4d0c0a22"
+    },
+    {
+      "id": "A27043-zh-00040",
+      "text": "本法第14条第5款第3号",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "8babdb5c9618a214bed6a9bbfddbc7c25131c0aa1fa244eaf3c9c77e4d0c0a22"
+    },
+    {
+      "id": "A27043-zh-00041",
+      "text": "部分业务停止",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "e6e77b83100b28e797f155f37162ee0a171cb2b4193e24205fbc9debf6cca32e"
+    },
+    {
+      "id": "A27043-zh-00042",
+      "text": "部分业务停止",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "8babdb5c9618a214bed6a9bbfddbc7c25131c0aa1fa244eaf3c9c77e4d0c0a22"
+    },
+    {
+      "id": "A27043-zh-00043",
+      "text": "部分业务停止",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "1d5df887c56912a8169bbd2c8a8e81b5539165c27de5fc11c1f12ead970cd993"
+    },
+    {
+      "id": "A27043-zh-00045",
+      "text": "对他人造成损害",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "7dee49c12898730c9bb55294543e417c38795c50d5d3116d0819a3c7428772f5"
+    },
+    {
+      "id": "A27043-zh-00046",
+      "text": "或产生交通危险的情形",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "157beb99388d8516c68662272a04d89476b38da86bb46142269fa94d12854d2e"
+    },
+    {
+      "id": "A27043-zh-00047",
+      "text": "停业30日",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "be876433993ab7ba221512b5703b32060626f390aa50d7ed464a847a34539a6c"
+    },
+    {
+      "id": "A27043-zh-00048",
+      "text": "停业60日",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "52b1ec3ae852287ea6c00606e8281709ffc6f1f09e0838c1d44e943dedfd3bfa"
+    },
+    {
+      "id": "A27043-zh-00049",
+      "text": "停业120日",
+      "reason": "依据附表韩文原文恢复并纠正处分标准、法律依据及表格分项。",
+      "original_source_hash": "4d7ba41cc569d20caef3470b9e3f27cf246de206e41bd37b66af1c8f5249f718"
     }
   ],
-  "corrected_rows": 337
+  "corrected_rows": 434
 }
