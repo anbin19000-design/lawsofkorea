@@ -1,0 +1,29 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-215e91e728b94dfc93aa",
+  "worker": "C06",
+  "panel_id": "panel-06",
+  "pc": "WORK-C",
+  "status": "IN_PROGRESS",
+  "source_commit": "396bee96cb14d35f6f4e36330de5998314afded1",
+  "source_blobs": {
+    "en": "e59574105c58e4041e11b2782728fe6d9e56c186",
+    "ko": "0c25588998cdc0458eef947b1df6fbf0fa8a53ad",
+    "zh": "8dd306f496c45a96f27cae0411fcf682a485ad13"
+  },
+  "source_sha_verified": {
+    "ko": "0c25588998cdc0458eef947b1df6fbf0fa8a53ad",
+    "en": "e59574105c58e4041e11b2782728fe6d9e56c186",
+    "zh": "8dd306f496c45a96f27cae0411fcf682a485ad13"
+  },
+  "total_documents": 2,
+  "total_rows": 1490,
+  "checked_rows": 1095,
+  "edits": 300,
+  "next_row_index": 1095,
+  "review_sha": "bb4107716c4370c4f93573c74dd8e2b55c89b8cf",
+  "review_file_status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_THEN_EN_FULL_THEN_ZH_FULL",
+  "worker_chat": "https://chatgpt.com/c/6af0dfef-9c28-83e8-a035-c75d26241cf5",
+  "note": "B1-zh-01095まで順次検査。運送契約の終了事由、旅客乗船、全船航海傭船契約、装卸費用及び出港後解除の訳誤りを修正。継続IN_PROGRESS。"
+}
