@@ -2,7 +2,7 @@
   "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-7423351d4946866bbacf",
   "worker": "C01",
-  "checked_rows": 32,
+  "checked_rows": 33,
   "edits": [
     {
       "id": "B1-zh-00065",
@@ -926,11 +926,15 @@
     },
     {
       "id": "B1-zh-00022",
-      "text": "第十八条（海产品在拍卖市场等场所的寄售）\n① 鱼市经营者应当从发货人处接收批发水产品。但是，在海洋水产部条例规定的特殊情况下，例如为了稳定水产品价格，经营者可以自行购买并批发水产品。\n② 除海洋水产部条例另有规定外，鱼市经营者不得拒绝或避免接受进港水产品或出售寄售水产品，也不得对交易伙伴进行不公平的歧视性待遇。\n③ 产地批发商不得交易除鱼市经营者列出的水产品以外的其他水产品。但是，根据海洋水产部条例，经市长、县长或区长许可的水产品，例如不适合鱼市经营者列出的进口水产品或远洋水产品，不受此限制。\n④ 产地中间批发商之间不得进行交易。但经市长、县长或区长按照海洋水产部条例规定取得许可的情况除外，例如加工过剩水产品。\n\n"
+      "text": "第十八条（海产品在拍卖市场等场所的寄售）\n① 鱼市经营者应当接受出货人的委托批发水产品。但是，在海洋水产部条例规定的特殊情况下，例如为了稳定水产品价格，经营者可以自行购买并批发水产品。\n② 除海洋水产部条例另有规定外，鱼市经营者不得拒绝或避免接受进港水产品或出售寄售水产品，也不得对交易伙伴进行不公平的歧视性待遇。\n③ 产地批发商不得交易除鱼市经营者列出的水产品以外的其他水产品。但是，根据海洋水产部条例，经市长、县长或区长许可的水产品，例如不适合鱼市经营者列出的进口水产品或远洋水产品，不受此限制。\n④ 产地中间批发商之间不得进行交易。但经市长、县长或区长按照海洋水产部条例规定取得许可的情况除外，例如处理生产过剩的水产品。\n\n"
+    },
+    {
+      "id": "B1-zh-00041",
+      "text": "第三十六条（渔业后卫生管理支持）\n① 海洋水产大臣和地方政府负责人应实施以下有关捕捞后卫生管理的项目，以达到卫生管理和保持捕捞水产品新鲜度的目的。\n1. 开发和分发用于收获后卫生管理的设备和设施，例如鱼箱\n2. 确保《农产品和水产品流通和价格稳定法》规定的鱼类市场、产区配送中心和消费区配送物流中心（以下简称“鱼类市场等”）、批发市场、公开拍卖市场和其他配送设施以及《传统市场和商业街振兴特别法》规定的传统市场等场所的水产品质量控制和卫生安全设施。\n3. 海产品卫生管理教育与推广\n4. 海洋和渔业部长或地方政府负责人认为必要的其他项目，用于捕捞后渔业产品的卫生管理\n② 海洋水产大臣可建议渔业产品分销经营者扩建根据第1款规定进行渔业产品卫生管理所需的设施和设备，并可为此提供必要的支持。\n\n"
     }
   ],
   "status": "IN_PROGRESS",
-  "note": "IN_PROGRESS. Existing edits retained; added B1-zh-00022 Art.18(4) correction of prohibited trading parties, directly verified against Korean and exact-version official English. Full semantic verification of 1207 rows and annex/form XML cell continuity not yet complete; no COMPLETE receipt.",
+  "note": "IN_PROGRESS. Existing edits preserved. Art.18(1)/(4) consignment and inter-wholesaler prohibition/surplus disposal and Art.36(1) fish containers verified with Korean and exact-version official English. Full meaning equivalence across 1207 rows and annex/form cell continuity NOT completed; do not issue COMPLETE receipt.",
   "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
   "source_sha": {
     "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
