@@ -1,0 +1,90 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:9978dc6b942b",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "checkpoint_type": "RECONFIRM_EXISTING_POST_INDEX_EDITS",
+  "checked_ids": [
+    "A25465-zh-00049",
+    "A25465-zh-00056",
+    "B3-zh-00010",
+    "A25466-zh-00017",
+    "A25467-zh-00025",
+    "B2-zh-00209",
+    "B3-zh-00013"
+  ],
+  "checked_rows_reconfirmed": 7,
+  "checked_rows_new": 0,
+  "edits": [
+    {
+      "id": "A25465-zh-00049",
+      "source_hash": "dd50bf4e100c50bb7de97e94f4b8f92cabd82bb70ff520768313737d6d634a48",
+      "target_id": "XML:1802680",
+      "text": "国家智慧",
+      "provenance": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3453d66f087b.json",
+      "evidence_blob_sha": "3cfb79090e0dd24deaecf97d06a7068335076d09"
+    },
+    {
+      "id": "A25465-zh-00056",
+      "source_hash": "ec62aa9040a8b490a9cb71b023cde353201573d0c1c85b632fd6bcfa89be2732",
+      "target_id": "XML:1802687",
+      "text": "城市委员会审议",
+      "provenance": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3453d66f087b.json",
+      "evidence_blob_sha": "3cfb79090e0dd24deaecf97d06a7068335076d09"
+    },
+    {
+      "id": "B3-zh-00010",
+      "source_hash": "d133401e4dad0affd5ea01ba59ffbf1b5cbf31f5569e871ce16f7f424e35733d",
+      "target_id": "a3a50ae4957f693aefaee77a8cbf928067d7a5dfd611732e078e556f97b71de9",
+      "text": "第六条（法令整备请求书等）\n① 依据施行令第五十八条之三第三款的法令整备请求书，使用附页第八号格式。\n② 依据施行令第五十八条之三第四款的法令整备请求确认书，使用附页第九号格式。\n③ 依据施行令第五十八条之三第七款的法令整备审查结果书，使用附页第十号格式。\n\n",
+      "provenance": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3d9d94ad98e7.json",
+      "evidence_blob_sha": "73fc867f5cbea9167090a73f0a4fd07823a6c63e"
+    },
+    {
+      "id": "A25466-zh-00017",
+      "source_hash": "64aedb364d4943eabefccf4b36159605d4dee02c6483d97c9ebc66442a048288",
+      "target_id": "XML:1802720",
+      "text": "主要目的及内容",
+      "provenance": "review/zh/F-81e30c25fcbea5af2364-progress-C02-447d23a25479.json",
+      "evidence_blob_sha": "c19d08f118fcf6d26438d6a3c0929472329ac3fa"
+    },
+    {
+      "id": "A25467-zh-00025",
+      "source_hash": "7c3cc1ec3428cd98a7da8229625fdca44a15cfc76623a274a757fa5397778aa8",
+      "target_id": "XML:1802803",
+      "text": "]智慧实证事业批准确认书。",
+      "provenance": "review/zh/F-81e30c25fcbea5af2364-progress-C02-da5817b40a4c.json",
+      "evidence_blob_sha": "fe624bfff44216bf2efebb6e70b7aee74f8c58e6"
+    },
+    {
+      "id": "B2-zh-00209",
+      "source_hash": "8448f5ea317ecf4c1584d4270727a5d19c629a4332257a3001b85e9e2e7a7ec9",
+      "target_id": "3fad8551d7d9efb49c7ecd9b5b1316eb9c6ccc97473f22fa595dc6a12d3ea14d",
+      "text": "附则 <第36373号，2026年6月2日>\n\n本施行令自2026年6月3日起施行。\n\n",
+      "provenance": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3d3a40a47c11.json",
+      "evidence_blob_sha": "c474aaee002b954501d5e59ff08a432a2eb8e226"
+    },
+    {
+      "id": "B3-zh-00013",
+      "source_hash": "a8b63598884a7640a41e32c55bb2fe005c30dc8de58e0feb87cfd1e94654a87a",
+      "target_id": "0e51bdc8a48a41932511e193db478c505e6b2a1af56d9979373012ca5308d21d",
+      "text": "附则 <第894号，2021年10月6日>\n\n本规则自公布之日起施行。\n\n删除 <2021年7月12日>\n■ 《智慧城市建设及产业振兴等相关法律施行规则》[附页第1号格式] 删除 <2021年7月12日>\n\n删除 <2021年7月12日>\n■ 《智慧城市建设及产业振兴等相关法律施行规则》[附页第2号格式] 删除 <2021年7月12日>\n\n",
+      "provenance": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3d3a40a47c11.json",
+      "evidence_blob_sha": "c474aaee002b954501d5e59ff08a432a2eb8e226"
+    }
+  ],
+  "reason": "These seven IDs are absent from older 92-file search index but already exist in C02 intermediate reviews. Exact source_hash and target_id match current zh source; preserve stored edits, including document-boundary-spillover corrections and cross-cell form text.",
+  "prior_progress": [
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-9978dc6b942b-reconcile.json"
+  ],
+  "note": "Reconciliation of historical edits only; no new unique coverage, no sequential 17-document full-reading proof, no COMPLETE.",
+  "next_action": "Audit all remaining unverified Chinese IDs and source-language stages, reconcile every historical edit, and issue COMPLETE only after integrated final result re-read."
+}
