@@ -1,0 +1,41 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:d3c6d7805973",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "checkpoint_type": "TARGETED_VERIFIED_TRANSLATION_CORRECTION",
+  "checked_ids": [
+    "B1-zh-00006"
+  ],
+  "checked_rows_new": 1,
+  "edits": [
+    {
+      "id": "B1-zh-00006",
+      "source_hash": "c0f516ca89a6ec5a3df7e79a46f026ab2f03ea2665037730cacc8b20e9d48c03",
+      "target_id": "7bb9dd6094884c0b03ca9b8634ea83920a999556338e003d0c82b246ca8f1bf8",
+      "text": "第三条之二（国家等的责任）国家和地方政府应当制定和实施建设智慧城市和振兴智慧城市产业等所需的各项政策。\n\n",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-d3c6d7805973.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "Korean 제3조의2 is Article 3-2, not paragraph 2 of Article 3; change heading only, preserve existing body."
+    }
+  ],
+  "korean_source": "제3조의2(국가 등의 책무) 국가와 지방자치단체는 스마트도시의 조성과 스마트도시산업의 활성화 등을 위하여 필요한 각종 시책을 수립ㆍ시행하여야 한다.\n\n",
+  "prior_chinese": "第3条第2款（国家等的责任）国家和地方政府应当制定和实施建设智慧城市和振兴智慧城市产业等所需的各项政策。\n\n",
+  "english_note": "Official English family fallback exists for B1 but not an exact-version equivalent; correction grounded in Korean clause numbering.",
+  "ordered_reading_certification": {
+    "ko": false,
+    "en": false,
+    "zh": false
+  },
+  "prior_master_sha": "c9804c61b6bc57f65a782a62234647a360f2dc9c",
+  "notes": "This verified correction is not certification of entire 17-document ordered reading; other unverified rows remain.",
+  "next_action": "Perform complete Korean-first, English-second, Chinese-third sequential examination before COMPLETE."
+}
