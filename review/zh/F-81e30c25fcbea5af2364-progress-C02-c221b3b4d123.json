@@ -12,20 +12,50 @@
     "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
     "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
   },
-  "checkpoint_type": "DIRECT_KOREAN_COMPARISON",
+  "checkpoint_type": "DIRECT_KOREAN_CROSS_REFERENCE_AND_LEGAL_TERM_REVIEW",
   "checked_ids": [
-    "B1-zh-00037"
+    "B1-zh-00055",
+    "B1-zh-00056",
+    "B1-zh-00059",
+    "B1-zh-00060"
   ],
-  "checked_rows_new": 1,
+  "checked_rows_new": 4,
   "edits": [
     {
-      "id": "B1-zh-00037",
-      "text": "第二十四条之三（指导、监督等）\n① 国土交通部长官在必要时，为监督智慧城市项目实施者及协会，可要求其报告业务事项、提交资料或发出其他必要命令，并可派其所属公务员进入其办公室，调查或检查账簿、文件等。<2020年6月9日修订>\n② 按照第1款规定进行进入、检查等的公务员应当携带表明其职权的证件，并向对方出示。\n\n第六章 智慧城市产业支持 <2017年3月21日新增>\n\n",
-      "source_hash": "289e7ad3130c6375a23e446e9a428fd1b7348c92dd9c8a61d7c149569315948c",
-      "target_id": "78e04dba61fcd67483a11537a100fa689f328ecd27822d207672e33949734bb3",
+      "id": "B1-zh-00055",
+      "text": "第三十八条（国家试点城市建设用地等供应的特别规定）\n① 拟在国家试点城市实施智慧城市建设项目的项目实施者，可以按照总统令的规定，公开征集该智慧城市建设项目的业务计划等。\n② 项目实施者可以按照总统令的规定，通过协商签订合同的方式，向根据第1款公开征集选定的人员供应智慧城市建设项目所形成的土地、建筑物或构筑物等。\n\n",
+      "source_hash": "372759c94770507f6f9f46f11e361318b3fca4c0fe18629df8bfbac8014d821b",
+      "target_id": "be48fe4f634691ed6ffe9c424e4d5a75812648b1fc8cddc4b3b8b3119df494db",
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c221b3b4d123.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
-      "reason": "韩文“소속 공무원”指国土交通部所属公务员，不是“其管辖范围内的官员”；同时“협회”是本法第24条之2定义的协会，现明确为协会。"
+      "reason": "韩文“수의계약”是非公开竞价的协商/直接订约方式，并非“私人合同”；将其最小修正为协商签订合同。"
+    },
+    {
+      "id": "B1-zh-00056",
+      "text": "第三十九条（自动驾驶汽车运行的特别规定）在国家试点城市内，为研究开发目的运行《汽车管理法》第二条第1项之3所规定的自动驾驶汽车时，只要不对他人造成危害或引发交通危险，则不适用《道路交通法》第四十九条第一款第十项、第十一项及第十一项之二的规定。\n\n",
+      "source_hash": "a2329d2c00a5a5ad238bab8ccfc71af37fc0ed9d011f6036a19fb24c11ed733a",
+      "target_id": "9ef648450b3fa96ffe0c515ec6ec2fabd1cc345e297592a56baac85f48bef6e7",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c221b3b4d123.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "韩文引文“자동차관리법 제2조제1호의3”是第二条第1项之3，不是第二条第一款至第三款；修正错误的法律条款引用。"
+    },
+    {
+      "id": "B1-zh-00059",
+      "text": "第四十二条（自用电信设备使用的特别规定）\n① 国家机关等依据《电信业务法》第二条第五项在国家试点城市安装自用电信设备的，尽管有该法第六十五条第一款的规定，仍可使用该自用电信设备提供第二条第二项所规定的智慧城市服务中的非营利性公共服务。\n② 自用电信设备的用途及使用程序所需事项，由科学技术信息通信部长官与国土交通部长官协商后共同公告。\n\n",
+      "source_hash": "95d72fcee1d2fd375352e2c15d31c849ce5c4b6cf6085c2f71424b3a973ce43c",
+      "target_id": "9cb6eef00b3d0f4b7ff084a7dbeeefa394d51f9e8ef0b0b476cfa5d5678f5b3a",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c221b3b4d123.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "“자가전기통신설비”是自用电信设备，不是泛指私人电信设施；“고시한다”是公告/公布，不是通知。修正术语和规范性行为。"
+    },
+    {
+      "id": "B1-zh-00060",
+      "text": "第四十二条之二（关于《促进新能源及可再生能源开发、利用和普及法》的特别规定）\n① 尽管《促进新能源及可再生能源开发、利用和普及法》第二条第二项(h)目另有规定，国土交通部长官仍可按照总统令规定，另行确定国家试点城市内可再生能源的范围。在此情况下，应事先就可再生能源的范围及拟利用可再生能源供能的地区，与气候、能源和环境部长官协商。<2025年10月1日修订>\n② 国家试点城市的项目实施者中，拟供应新能源及可再生能源者，可以利用位于国家试点城市内或邻近的河流、地形及设施，安装、运营和管理《促进新能源及可再生能源开发、利用和普及法》第二条第三项规定的新能源及可再生能源设备。\n\n",
+      "source_hash": "d7e98faa372c7d6d7cfe38de0625ecb0dc7a1a2075a0972be81229227dcccc03",
+      "target_id": "f55c4a083e119c5baf49696c3e2a432569ef4a3689b322dc7af88b2f9b448fb2",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-c221b3b4d123.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "reason": "韩文“제2조제2호아목”对应第二条第二项(h)目（아목），不是(a)项；修正错误的条款字母引用。"
     }
   ],
   "ordered_reading_certification": {
@@ -33,14 +63,14 @@
     "en": false,
     "zh": false
   },
-  "prior_master_blob_sha": "3574a6fe3a87a8f527a958ed811f2c91928ba6e3",
-  "prior_edit_count": 291,
-  "cumulative_edit_count": 292,
-  "cumulative_checked_unique_ids": 307,
+  "prior_master_blob_sha": "cde3a50a2c65e2b4549f425f2822752f90b33cf5",
+  "prior_edit_count": 292,
+  "cumulative_edit_count": 296,
+  "cumulative_checked_unique_ids": 311,
   "notes": [
-    "Compared Korean Act Article 24-3 with Chinese row B1-zh-00037.",
-    "Corrected 소속 공무원 to Ministry-affiliated officials, and 협회 to the statutory Association.",
-    "Article 23(3) prior edit was refined separately to reflect two joint chairpersons.",
-    "Partial checkpoint only; no full-family ordered reading certificate or COMPLETE status."
+    "Reviewed Korean and Chinese B1 rows 00055, 00056, 00059, 00060.",
+    "Corrected 수의계약, 자동차관리법 Article 2(1-3), 자가전기통신설비 and 공동 고시, and Article 42-2 item 아목 = (h).",
+    "These are minimal, source-grounded corrections; other nearby rows were not rewritten.",
+    "Whole-family ordered reading remains uncertified."
   ]
 }
