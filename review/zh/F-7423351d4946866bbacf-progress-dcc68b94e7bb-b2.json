@@ -1,0 +1,63 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "panel_id": "panel-01",
+  "assignment_id": "S2-c174f0e36bef5fedb717095f1cea01f6",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:dcc68b94e7bb]",
+  "status": "IN_PROGRESS",
+  "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
+  "source_sha": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "prior_review_blob": "c81fc38d5c0289bf3210bf91380a4a0f8317e51e",
+  "checked_rows": 160,
+  "unique_edits": 289,
+  "stages": {
+    "korean_all_16_documents_read": true,
+    "english_exact_versions_read": [
+      "B1",
+      "B2"
+    ],
+    "english_missing_documents": [
+      "B3",
+      "A23947",
+      "A23948",
+      "A23949",
+      "A23950",
+      "A23951",
+      "A23952",
+      "A23953",
+      "A23954",
+      "A23955",
+      "A23956",
+      "A23957"
+    ],
+    "chinese_sequential_rows": [
+      "B1-zh-00089",
+      "B1-zh-00103",
+      "B2-zh-00001",
+      "B2-zh-00057"
+    ],
+    "chinese_rows_in_B2": 57,
+    "b2_hangul_mtq_start_remaining": [
+      "B2-zh-00022",
+      "B2-zh-00051"
+    ]
+  },
+  "fixes": [
+    "B2-zh-00003: refined scope definition and statutory cross-reference",
+    "B2-zh-00004: corrected false statement that company was unlawful and restored 50% capital threshold/list",
+    "B2-zh-00005: corrected traceability legal citation to this Act Article 27",
+    "B2-zh-00006: restored missing numbered item 2 and authority name",
+    "B2-zh-00014: corrected exam subject and exemption wording",
+    "B2-zh-00021: removed MTQ token and corrected processing restriction terminology",
+    "B2-zh-00022: corrected reserve procurement/handling terminology",
+    "B2-zh-00051: translated untranslated Korean heading and corrected statutory citation",
+    "B2-zh-00057: removed unrelated annex schedule content duplicated from A38090; kept only decree addendum"
+  ],
+  "next_position": "A38090-zh-00001",
+  "note": "B2's 57 Chinese rows were sequentially checked against the Korean Enforcement Decree and exact-version English decree. All prior corrections retained. B2-zh-00057 contained an entire penalty surcharge schedule although its Korean source cell is only the 2024 addendum; the schedule belongs in separate annex A38090. Family not complete."
+}
