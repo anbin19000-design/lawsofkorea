@@ -1,0 +1,75 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "branch": "main",
+  "source_commit": "fbf2e92005feca8233db136f4bf6203f238c6672",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d"
+  },
+  "checked_rows": 14,
+  "checked_ids": [
+    "A36425-zh-00039",
+    "A36425-zh-00040",
+    "A36425-zh-00041",
+    "A36425-zh-00042",
+    "A36425-zh-00043",
+    "A36425-zh-00044",
+    "A36425-zh-00045",
+    "A36425-zh-00046",
+    "A36425-zh-00047",
+    "A36425-zh-00048",
+    "A36425-zh-00049",
+    "A36425-zh-00050",
+    "A36425-zh-00051",
+    "A36425-zh-00052"
+  ],
+  "edits": [
+    {
+      "id": "A36425-zh-00040",
+      "source_hash": "097b2e2eb36d514eb13b29c18105fa6085756f34e77993ece81a28eb6510cd93",
+      "target_id": "XML:2657296",
+      "text": "暂停业务"
+    },
+    {
+      "id": "A36425-zh-00041",
+      "source_hash": "097b2e2eb36d514eb13b29c18105fa6085756f34e77993ece81a28eb6510cd93",
+      "target_id": "XML:2657297",
+      "text": "暂停业务"
+    },
+    {
+      "id": "A36425-zh-00044",
+      "source_hash": "811f2cac7e1b9971cc17f7c24b0901accc169353ffd0d4f84ed010480f253ba9",
+      "target_id": "XML:2657300",
+      "text": "三个月"
+    },
+    {
+      "id": "A36425-zh-00045",
+      "source_hash": "7c245001a5da4ced51f8e0cad3c8ffd2d94befe6727b0444b5c24b892fbd7e33",
+      "target_id": "XML:2657301",
+      "text": "六个月"
+    },
+    {
+      "id": "A36425-zh-00047",
+      "source_hash": "097b2e2eb36d514eb13b29c18105fa6085756f34e77993ece81a28eb6510cd93",
+      "target_id": "XML:2657303",
+      "text": "暂停业务"
+    },
+    {
+      "id": "A36425-zh-00048",
+      "source_hash": "097b2e2eb36d514eb13b29c18105fa6085756f34e77993ece81a28eb6510cd93",
+      "target_id": "XML:2657304",
+      "text": "暂停业务"
+    },
+    {
+      "id": "A36425-zh-00051",
+      "source_hash": "b67117c397340aed31b19dff4be538b6ab6e1a0d3424f7189b0e0286baaa203a",
+      "target_id": "XML:2657307",
+      "text": "一个月"
+    }
+  ],
+  "status": "IN_PROGRESS",
+  "note": "R70: Korean Annex 2 sanctions table rows 39-52: personnel requirement failure first offense 3-month business suspension, second 6-month suspension, third+ cancellation; facility failure first 1-month suspension, second 3-month suspension, third+ cancellation. Seven new edits normalize 业务停止 as 暂停业务 and month duration labels. Existing 39/43/46/50/52 fragments and 42/49 cancellation labels retained. Avoid treating source row references as separate sanction columns. Original source hashes and rows unchanged. No family-wide COMPLETE or receipt."
+}
