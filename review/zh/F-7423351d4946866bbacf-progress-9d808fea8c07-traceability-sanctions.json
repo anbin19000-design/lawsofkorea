@@ -1,0 +1,89 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "status": "IN_PROGRESS",
+  "checked_rows": 7,
+  "corrected_rows": 7,
+  "edits": [
+    {
+      "id": "A23950-zh-00009",
+      "text": "但是，如果每项处分标准均为禁止标示，则可在其中较重的处分标准的二分之一范围内加重处分。"
+    },
+    {
+      "id": "A23950-zh-00020",
+      "text": "属于禁止标示处分的，可以在该处分期间的二分之一范围内减轻。"
+    },
+    {
+      "id": "A23950-zh-00021",
+      "text": "属于撤销登记处分的，可以减轻为禁止标示6个月的处分。"
+    },
+    {
+      "id": "A23950-zh-00022",
+      "text": "e. 处分机关对既无故意也无重大过失且符合《小商工人基本法》第2条规定的小商工人的违法者，"
+    },
+    {
+      "id": "A23950-zh-00025",
+      "text": "对于禁止标示处分，可以在原处分标准的百分之七十范围内减轻；对于撤销登记处分（本法第30条"
+    },
+    {
+      "id": "A23950-zh-00026",
+      "text": "第1款第1项或第2项规定的情形除外），可以减轻为禁止标示3个月的处分。"
+    },
+    {
+      "id": "A23950-zh-00032",
+      "text": "或者有关市场、行业状况是否持续恶化"
+    }
+  ],
+  "judgments": [
+    {
+      "id": "A23950-zh-00009",
+      "decision": "EDIT",
+      "source_hash": "d2feb97775c69c151cbf51593f68c7c70089c829a4ee0b79fe7ddb5b48f98e58",
+      "basis": "별표4 일반기준 가목 2) 표시금지는 무거운 기준 2분의1 범위 가중"
+    },
+    {
+      "id": "A23950-zh-00020",
+      "decision": "EDIT",
+      "source_hash": "260a0e5e321468bb380f2346f13080a654583a7441a887b46d8d07fa63702128",
+      "basis": "별표4 일반기준 라목 표시금지 기간 2분의1 범위 감경, 벌금 아님"
+    },
+    {
+      "id": "A23950-zh-00021",
+      "decision": "EDIT",
+      "source_hash": "cb2e0b3d3ce014f93db1391297a037b46891d95521e16524ef9f2078a6169547",
+      "basis": "별표4 라목 등록취소는 6개월 표시금지로 감경"
+    },
+    {
+      "id": "A23950-zh-00022",
+      "decision": "EDIT",
+      "source_hash": "1ecd8d71f000da762630dea300b0b80079c36991f1c11f773d65a92c233a3ac4",
+      "basis": "별표4 마목 고의 또는 중과실이 없는 소상공인, 잘못된 [..]와 조건 반전"
+    },
+    {
+      "id": "A23950-zh-00025",
+      "decision": "EDIT",
+      "source_hash": "95fd1afeed1536d75b1ad2d8c295e035148237140f7050070414d9559427bd07",
+      "basis": "별표4 마목 표시금지 70% 범위 감경 및 본법 등록취소, 허구 《车辆登记法》 제거"
+    },
+    {
+      "id": "A23950-zh-00026",
+      "decision": "EDIT",
+      "source_hash": "01c69e5030b9beca916d796aad80f4eb305cc7179a6d6c0306f44771ec88eb50",
+      "basis": "별표4 마목 제30조제1항제1호·제2호 제외 및 3개월 표시금지"
+    },
+    {
+      "id": "A23950-zh-00032",
+      "decision": "EDIT",
+      "source_hash": "43a1bdd7fbb9f7df407de50d5b51fdbfe743061b65fdbf6088f374162cdec42f",
+      "basis": "별표4 마목 경제위기로 시장·산업 여건 지속 악화, 病情 오역"
+    }
+  ],
+  "source_sha": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c",
+    "en": "32423453da2fcfa466c97946520181a32643e289"
+  },
+  "english_status": "NO_DOCUMENT_ENGLISH",
+  "note": "Korean annex verified. No amendment to source rows, prior review preserved."
+}
