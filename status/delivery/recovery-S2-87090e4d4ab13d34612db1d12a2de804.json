@@ -31,7 +31,20 @@
   },
   "assistant_count": 9,
   "assistant_excerpt": "C05 한부모가족지원법 검수 승계 결과\n신규 검수 기록 7개 저장·재조회 성공\n\n이번 실행에서 기존 배정을 유지하며 공식 GitHub에 다음 검수 결과를 추가 저장했습니다.\n\n검수 범위\n\n\t\n\n확인 행\n\n\t\n\n교정 행\n\n\n\n\nB3 시행규칙 51~64\n\n\t\n\n14\n\n\t\n\n8\n\n\n\n\nB3 시행규칙 65~92\n\n\t\n\n28\n\n\t\n\n7\n\n\n\n\nB3 시행규칙 93\n\n\t\n\n1\n\n\t\n\n1\n\n\n\n\nA5222 별표 전체\n\n\t\n\n48\n\n\t\n\n41\n\n\n\n\nA5223 별표 1~28\n\n\t\n\n28\n\n\t\n\n22\n\n\n\n\nA5223 별표 29~65\n\n\t\n\n37\n\n\t\n\n36\n\n\n\n\nA5223 별표 66~121\n\n\t\n\n56\n\n\t\n\n39\n\n\n\n\n합계\n\n\t\n\n212\n\n\t\n\n153\n\n이번 실행에서 A5222(입소기간 및 연장기준)와 A5223(시설 설치기준)의 모든 행에 대한 중국어 대조 기록을 저장했습니다.\n\n마지막 공식 GitHub 커밋은 2fa3cff1c4cb7ebcfc015c5e1723516a6b5b20b6이며, 파일 재조회까지 성공했습니다.\n\n현재 상태: IN_PROGRESS\n\n다음 검수 위치는 A5224-zh-00001입니다. 원문 SHA와 기존 검수 기록을 보존했으며, B3 21행의 보호 보류도 유지했습니다.\n\n전체 17개 문서·1,207행 검수의 완료와 최종 영어 원본·연결 자료의 전체 독해는 아직 확인되지 않았습니다. 따라서 COMPLETE 검수본과 완료 영수증은 발행하지 않았습니다. 남은 검수 및 기존 판정 충돌 해소가 필요합니다.",
+  "attempted_at": "2026-11-08T08:01:48.729895+00:00",
   "created_at": "2026-11-08T08:01:43.991019+00:00",
+  "delivery_result": {
+    "assignment_id": "S2-87090e4d4ab13d34612db1d12a2de804",
+    "attempted_at": "2026-11-08T08:01:48.729895+00:00",
+    "claim_commit": "d97de65e84a4e95b5b00671deb12b260c59a7b9c",
+    "event_id": "obs-d2e9f26eaa98163e28f5968d263f44383b4a89c2",
+    "job_id": "F-b5c27d20d49b721e47e6",
+    "record_path": "status/delivery/recovery-S2-87090e4d4ab13d34612db1d12a2de804.json",
+    "recovery": true,
+    "sent": true,
+    "status": "SENT_AWAITING_OBSERVER_ACK",
+    "worker": "C05"
+  },
   "episode": 2,
   "event_id": "obs-d2e9f26eaa98163e28f5968d263f44383b4a89c2",
   "idle_followup": true,
@@ -107,7 +120,7 @@
   "recovery_marker": "[LAW-RECOVERY-V1:R1-34926e6c643578f57ae653bc]",
   "schema": "LAW_RECOVERY_ONCE_V1",
   "source_head": "4e8cbdca056330803824448dacdc98e6e1c715dd",
-  "status": "RECOVERY_INTENT_NO_RESEND",
+  "status": "RECOVERY_SENT_AWAITING_ACK",
   "url": "https://chatgpt.com/c/6af02958-0798-83ec-a57b-2e0cb5da1afb",
   "worker": "C05"
 }
