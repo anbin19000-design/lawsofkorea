@@ -13,10 +13,10 @@
   "documents": 15,
   "total_rows": 1241,
   "unique_source_ids": 1241,
-  "verified_corrections": 23,
-  "pending_manual_verification": 1218,
+  "verified_corrections": 24,
+  "pending_manual_verification": 1217,
   "review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
-  "review_sha": "974397e0f8f60ff9b2d1e096caa779b721803e7d",
+  "review_sha": "ecffa7c6168ed87739f03d19fbb357f773001ac3",
   "checked_ids": [
     "A14112-zh-00030",
     "A14112-zh-00032",
@@ -40,7 +40,8 @@
     "B1-zh-00023",
     "B1-zh-00026",
     "B1-zh-00029",
-    "B1-zh-00047"
+    "B1-zh-00047",
+    "B1-zh-00061"
   ],
   "findings": {
     "mtq_corruption_corrected": 8,
@@ -54,6 +55,6 @@
     "english_rows_unmatched": 330,
     "remaining_simple_MTQ_or_Hangul_patterns": 0
   },
-  "note": "B1-zh-00042 through 00048 compared with Korean source; corrected one clear erroneous ministry ordinance term in B1-zh-00047. Review file saved and Contents API readback verified. 23 unique edits; remaining 1218 rows not independently certified. KO/EN/ZH source blobs unchanged; no COMPLETE receipt.",
-  "next_unverified_id": "B1-zh-00049"
+  "note": "Inspected B1-zh-00049 through 00062, source KO compared. Corrected B1-zh-00061 omission versus deletion. 24 verified corrections, 1217 remaining uncertified; no completion receipt.",
+  "next_unverified_id": "B1-zh-00063"
 }
