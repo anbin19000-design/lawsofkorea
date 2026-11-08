@@ -2,7 +2,7 @@
   "job_id": "F-1497d85066511dfeffd4",
   "worker": "C04",
   "checked_rows": 3494,
-  "corrected_rows": 1580,
+  "corrected_rows": 1578,
   "status": "COMPLETE",
   "source_blobs": {
     "ko": "f7414f486d3fff46fec301f56e47f37575f835aa",
@@ -10,6 +10,8 @@
     "zh": "a039851e87912aaef943e29d8fe40df20ae65e8a"
   },
   "review_path": "review/zh/F-1497d85066511dfeffd4.json",
-  "review_blob_sha": "800f4af61a2ee085a670cd84a6f2fb01a9231688",
-  "note": "Completed the full Lifelong Education Act family review: 56 Korean source documents read in full; English index and all available linked English full texts read in full, with absent English references recorded; all 3,494 Chinese rows checked in sequence, including all attached forms. Minimal corrections only; prior corrections preserved. Source blob SHAs match the assignment. Final QC verified 1,580 unique correction IDs, zero source-hash mismatches, and zero remaining MTQ markers."
+  "review_blob_sha": "19293e8e242d36405bfd1572e309d2fc01ec4bf8",
+  "empty_edit_decisions_path": "review/zh/F-1497d85066511dfeffd4-empty-edit-decisions-C04-20261109-c07d79a82872.json",
+  "empty_edit_decisions_blob_sha": "6a8c69bb009efa80fcb624377972214c04dd7630",
+  "note": "C04 completed full Lifelong Education Act family review: 56 Korean documents read in full, English index and all available linked English full texts read in full (documents without English references noted), and all 3,494 Chinese rows reviewed in order. Canonical LAW_ZH_MINIMAL_REVIEW_V1 has 1,578 unique nonblank edits. Supplier MISSING_CORRECTION_TEXT concern addressed: all 12 former blank edits were source-bound adjudicated; ten were restored as nonempty segmented Chinese text/punctuation, and two genuine spurious/duplicate segments were excluded from canonical edits and recorded with original IDs, source row text, source hashes, neighbors and rationale in the separate LAW_ZH_EMPTY_EDIT_DECISIONS_V1 file. No original laws/* source was changed. Final QC: no blank edits, no duplicate IDs, all 1,578 progress-ledger source hashes match original Chinese rows, canonical review matches progress texts exactly, and no residual MTQ markers. Source blobs unchanged."
 }
