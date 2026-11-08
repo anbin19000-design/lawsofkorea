@@ -1,0 +1,51 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:ccbd64437333",
+  "status": "IN_PROGRESS",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_en_index_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "english_document_reference": "documents/en/kr-014071-276899-en.json",
+  "checked_rows": 4,
+  "quality_checked_rows": 4,
+  "quality_passed_rows": 4,
+  "quality_failed_rows": 0,
+  "checked_ids": [
+    "B1-zh-00024",
+    "B1-zh-00029",
+    "B1-zh-00047",
+    "B1-zh-00051"
+  ],
+  "results": [
+    {
+      "id": "B1-zh-00024",
+      "verdict": "PASS",
+      "reason": "Article 22 paragraphs 1-6 checked against the Korean and exact-version English: immediate dispatch, accompaniment on request, separation and medical transfer, limited questioning, authority ID, free statements and prohibition of obstruction retained."
+    },
+    {
+      "id": "B1-zh-00029",
+      "verdict": "PASS",
+      "reason": "Article 27 paragraphs 1-5 checked: legal counseling and representation, mandatory attorney assistance for designated crime victims, legal aid referral, State financing and Presidential Decree procedural delegation retained."
+    },
+    {
+      "id": "B1-zh-00047",
+      "verdict": "PASS",
+      "reason": "Article 45 paragraphs 1-3 checked: reports/document inspections, prior notice and ID, remedial order with a fixed period for operational deficiencies retained."
+    },
+    {
+      "id": "B1-zh-00051",
+      "verdict": "PASS",
+      "reason": "Article 49 joint penalty and due-care/supervision exception both retained."
+    }
+  ],
+  "edits": [],
+  "prior_evidence_index": "status/delivery/reconcile-S2-8f70e317249155938a79444493d089b4-evidence-7e6b69412a765526.json",
+  "prior_verification_file": "review/zh/F-0536890d62605f77ff0a-progress-C03-987d6d104019-B1-articles-30-46.json",
+  "protected_unresolved_ids": [
+    "A26697-zh-00008",
+    "A26699-zh-00053"
+  ],
+  "note": "Four newly verified B1 rows, no edits. Existing work retained, English for regulations/forms may be missing or older fallback. No whole-family completion assertion."
+}
