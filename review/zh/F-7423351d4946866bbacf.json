@@ -2,7 +2,7 @@
   "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
   "job_id": "F-7423351d4946866bbacf",
   "worker": "C01",
-  "checked_rows": 46,
+  "checked_rows": 49,
   "edits": [
     {
       "id": "B1-zh-00065",
@@ -983,10 +983,22 @@
     {
       "id": "B3-zh-00043",
       "text": "第41条（标准化产品的装运和标记方法等）\n① 海洋水产大臣为促进本法第46条第2款规定的水产品标准化，可以鼓励生产、运输、分销或销售水产品的人员按照本法第46条第1款规定的标准生产、运输、分销或销售水产品。\n② 运输符合本法第46条第1款规定的水产品的人员，如欲表明所述水产品为标准化产品，应当在所述水产品包装的外表面标明“标准化产品”字样以及下列项目。\n1. 品目\n2. 产地\n3. 品种。但是，对于难以标明品种的物项，可以按照海洋水产大臣制定和公布的规定，省略品种的标明。\n4. 等级\n5. 实际重量。但是，对于因物品特性而难以标明实际重量的物品，可以按照海洋水产大臣规定和通知的方式统一标明件数或数量。\n6. 生产者或生产者团体的名称和电话号码\n\n"
+    },
+    {
+      "id": "B3-zh-00037",
+      "text": "第三十五条（指定渔业观察对象等）\n① 根据本法第38条第2款规定，渔业观察对象由海洋水产大臣根据相关水产品产量、价格波动率及其对公众生活的影响确定。<2019年7月1日修订>\n② 根据该法第38条第2款，海洋水产部长官指定依据《政府资助研究机构等设立、运营及促进法》设立的韩国海洋水产开发院为专门从事渔业观察的机构。<2019年7月1日修订>\n③ 根据第2款规定负责渔业观察的机构应当制定年度计划，开展渔业观察，并将观察结果报告海洋水产大臣。<2019年7月1日修订>\n④ 除第1至3款规定事项外，有关渔业观察机构的职责范围、支持等具体事项，由海洋水产大臣另行决定。<2019年7月1日新增>\n\n"
+    },
+    {
+      "id": "B3-zh-00008",
+      "text": "第七条（鱼类市场设施标准）\n① 根据本法第十二条第一款第二项的规定，鱼市必须提供的设施种类如下。但是，考虑到鱼市的具体情况等，第3项和第4项规定的设施可以不予提供。\n1. 拍卖行\n2. 卫生间等设施\n3. 存储设施\n4. 其他辅助设施\n② 第1款各分项规定的设施规模等的详细标准，由海洋水产大臣根据鱼市处理的水产品种类和交易量，以及储存、保鲜和加工的必要性确定并公布。\n\n"
+    },
+    {
+      "id": "B3-zh-00047",
+      "text": "第四十五条（促进水产品电子交易）\n① 根据本法第52条第1款规定进行电子交易的水产品，属于水产品。\n② 根据本法第52条第1款规定，渔业产品电子交易费用应按照下列各款的分类，向使用渔业产品电子交易平台（指海洋水产大臣根据本法第52条第1款第1项设立、运营和管理的渔业产品电子交易平台；以下简称“该平台”）的买卖双方收取的款项。\n1. 对于卖家：海鲜电子交易平台使用费和销售佣金\n2. 买方：水产品电子交易市场使用费\n③ 根据第2款第1项规定，销售佣金不得超过交易金额的千分之三十。\n\n"
     }
   ],
   "status": "IN_PROGRESS",
-  "note": "IN_PROGRESS. 245 cumulative unique corrected IDs. B3 Art38 tariff-statistics classification terminology, B3 Art41 mandatory label entries, B3 addendum Art3 legal references corrected. Existing edits and original SHA retained. Full 1207-row semantic review and annex/form XML correspondence not complete; no COMPLETE receipt.",
+  "note": "IN_PROGRESS. 248 distinct preserved edits. New: B3 Arts 7(1),35(2),45(2)3 corrections of paragraph/item citation, dedicated Korean institute's official name, and buyer's fee obligation. Original Korean/English/Chinese SHA unchanged. Full legal-family semantic verification of 1207 Chinese cells, annex/form XML continuity NOT complete. No COMPLETE receipt.",
   "source_commit": "01868b0f3b54e96996be33523bb0aac437d272c0",
   "source_sha": {
     "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
