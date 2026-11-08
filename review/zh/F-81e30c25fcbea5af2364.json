@@ -2998,9 +2998,18 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-751eec993a83.json",
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
       "reason": "Restore truncated condition 대통령령으로 정하는 기업."
+    },
+    {
+      "id": "B2-zh-00012",
+      "source_hash": "bfcc248c673b5fd32364aa782d0c52b80cc6ae2d8a1797d129cef71e3dc85780",
+      "target_id": "9e942190980d4727334378fc8fb40070d4c887e22071d04c1a6b788203fc0e27",
+      "text": "第九条（举行公开听证会）\n① 国土交通大臣如欲依本法第五条举行公开听证会，应至少提前十四日，在全国发行的至少一份日报、官方公报及官方网站上公布下列各款所述事项。<2013年3月23日修订>\n1. 举行公开听证会的目的\n2. 公开听证会的预定日期、时间和地点\n3. 拟议综合规划概述\n4. 关于意见陈述的事项\n5. 举行公开听证会所需的其他事项\n② 对综合规划草案内容有意见的市民或相关专家等，可以亲自出席公开听证会陈述意见，也可以将意见摘要以书面形式或通过信息通信网络提交国土交通大臣。<2013年3月23日修订>\n\n",
+      "reason": "Restore omitted time in 공청회 개최 예정 일시 및 장소 (scheduled date, time and place).",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-751eec993a83.json",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON"
     }
   ],
-  "adjudicated_edit_count": 311,
+  "adjudicated_edit_count": 312,
   "pending_single_candidate_count": 343,
   "pending_conflict_count": 0,
   "pending_single_candidates": [
@@ -8215,12 +8224,13 @@
     "C02 253f69ad016f: B1-zh-00027 minimal correction of 고도화; keep 17-document status IN_PROGRESS.",
     "C02 253f69ad016f: B1 00034, 00051, 00053 repaired incorrect ministry or ministerial-decree translations; B1 00027 previously corrected.",
     "C02 8d3a9d26d513: B1 rows 00055-00105 inspected; corrected 00079/00081/00083/00102; retained other existing translations and edits.",
-    "C02 751eec993a83: B1 00106-00199 examined, amended 00131 00152 00172 to restore missing amendment item markers and truncated legal condition; IN_PROGRESS."
+    "C02 751eec993a83: B1 00106-00199 examined, amended 00131 00152 00172 to restore missing amendment item markers and truncated legal condition; IN_PROGRESS.",
+    "C02 751eec993a83 B2 00001-00032 inspected; corrected B2-zh-00012 omitted scheduled time; prior 356 corrections preserved."
   ],
   "integration_progress": {
-    "stage": "B1_CHINESE_REVIEW_THROUGH_00199",
+    "stage": "B2_CHINESE_REVIEW_TO_00032",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:751eec993a83",
-    "note": "Inspected Chinese B1 rows 00106-00199 against Korean, three substantive omissions restored. Original sources and previous edits retained. B2 and annexes/rules/forms remain to verify."
+    "note": "B1 00106-00199 and B2 00001-00032 reviewed in order. B1 three corrections and B2 one omission corrected. Remaining B2 and annexes/rule/forms pending."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
