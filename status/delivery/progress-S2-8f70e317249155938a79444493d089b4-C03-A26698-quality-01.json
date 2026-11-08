@@ -1,0 +1,158 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26698",
+  "quality_batch": "A26698-quality-01",
+  "range": {
+    "first": "A26698-zh-00001",
+    "last": "A26698-zh-00013"
+  },
+  "quality_checked_rows": 13,
+  "quality_passed_rows": 11,
+  "quality_failed_rows": 2,
+  "quality_checked_ids": [
+    "A26698-zh-00001",
+    "A26698-zh-00002",
+    "A26698-zh-00003",
+    "A26698-zh-00004",
+    "A26698-zh-00005",
+    "A26698-zh-00006",
+    "A26698-zh-00007",
+    "A26698-zh-00008",
+    "A26698-zh-00009",
+    "A26698-zh-00010",
+    "A26698-zh-00011",
+    "A26698-zh-00012",
+    "A26698-zh-00013"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26698-00001-00013.json",
+  "results": [
+    {
+      "id": "A26698-zh-00001",
+      "source_hash": "9631dfd33dd9e7836777b5b0fd7eb09865581e5dc8fa9f3ef87e8dc734c3312a",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "별지 제6호 및 신분증 발급 및 관리 대장 서식명"
+    },
+    {
+      "id": "A26698-zh-00002",
+      "source_hash": "4282d527b09947c2ce7f1e309eb8e211fdf649a38a1f6e7e947d74a6ed319cfe",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "별지 제6호 및 신분증 발급 및 관리 대장 서식명"
+    },
+    {
+      "id": "A26698-zh-00003",
+      "source_hash": "f8152b235035198a49b4c419b309a16cb41263ab1292e6cefeaa2debac2abd26",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "일련번호·성명·소속·직위·발급일·반납일·발급 담당 공무원 항목"
+    },
+    {
+      "id": "A26698-zh-00004",
+      "source_hash": "5aa32deffdf1362feb45b4aaf4a1945b15c91915f96194031e41bc759b5f2f97",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "일련번호·성명·소속·직위·발급일·반납일·발급 담당 공무원 항목"
+    },
+    {
+      "id": "A26698-zh-00005",
+      "source_hash": "01603d13dd6590d7676446f682aed959803754281fa23ce912d6c1bf93cbcb15",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "일련번호·성명·소속·직위·발급일·반납일·발급 담당 공무원 항목"
+    },
+    {
+      "id": "A26698-zh-00006",
+      "source_hash": "530767dfbe357e6a37430d142588dc9618c4198769289889ebe0f39edd096268",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "일련번호·성명·소속·직위·발급일·반납일·발급 담당 공무원 항목"
+    },
+    {
+      "id": "A26698-zh-00007",
+      "source_hash": "a62558441372a7dfb1ca3fe7e958f0e7ba1ac7185726eb3ef211d056efc9b5a8",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "일련번호·성명·소속·직위·발급일·반납일·발급 담당 공무원 항목"
+    },
+    {
+      "id": "A26698-zh-00008",
+      "source_hash": "a7bf7464206d1e8a009c314009762340e847a5215e2692c332d97762fca91d9a",
+      "verdict": "NEEDS_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "한국어 원문 발급자 서명과 기존 중국어 领证人签名의 서명 주체가 다름. 동일하게 표시된 두 원문 열의 용어 유지 필요",
+      "existing_corrected_text": "领证人签名",
+      "proposed_corrected_text": "签发人签名"
+    },
+    {
+      "id": "A26698-zh-00009",
+      "source_hash": "24d26cae5872ac1dd6c815cbc50d27f5a2f6ed96b91bbfc473052f2973ef23b8",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "일련번호·성명·소속·직위·발급일·반납일·발급 담당 공무원 항목"
+    },
+    {
+      "id": "A26698-zh-00010",
+      "source_hash": "a7bf7464206d1e8a009c314009762340e847a5215e2692c332d97762fca91d9a",
+      "verdict": "NEEDS_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "한국어 원문 발급자 서명과 기존 중국어 交还人签名의 서명 주체가 다름. 동일하게 표시된 두 원문 열의 용어 유지 필요",
+      "existing_corrected_text": "交还人签名",
+      "proposed_corrected_text": "签发人签名"
+    },
+    {
+      "id": "A26698-zh-00011",
+      "source_hash": "297ad90a569d401098f5e45c00a4029454a4af0b920ff39abaff01fc0a0306dc",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "일련번호·성명·소속·직위·발급일·반납일·발급 담당 공무원 항목"
+    },
+    {
+      "id": "A26698-zh-00012",
+      "source_hash": "adb61a29e0e6c6dc763b0032f96c9a72fc62975187c0aa6617e19a47a0959b76",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "일련번호·성명·소속·직위·발급일·반납일·발급 담당 공무원 항목"
+    },
+    {
+      "id": "A26698-zh-00013",
+      "source_hash": "6a9fd2459313c78ed634682f52734f6a424348a2381255da601ab4f842ec71c4",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "210×297mm, 80g/㎡ 용지 규격"
+    }
+  ],
+  "edits": [],
+  "note": "A26698 13개 셀 원문 한국어 표와 교정 후보를 대조. 원문에 발급자 서명이 2회 동일하게 기재됐으나 기존 교정 8번/10번이 각각 领证人/交还人으로 바뀌어 서명 주체 불일치 2건을 별도 표시. 기존 교정 및 원본은 변경하지 않음. 가족 COMPLETE 아님."
+}
