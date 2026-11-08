@@ -19,8 +19,8 @@
     "required_order": "KO_FULL_EN_FULL_ZH_FULL",
     "ko": "COMPLETE; read all 40 Korean source documents sequentially: B1-B3 and forms A21391-A21427. Long form A21410 was additionally read in slices across all 29,583 characters.",
     "en": "COMPLETE; read full_text sequentially for exact-version official English B1 (44,973 chars, 53 articles) and B2 (36,297 chars). English source SHA: B1 3fb4125ebe20d6eb77f20ec953c976185229edd1; B2 53ff816786de057b33a6adcf2abdbf59fa81b08e. B3 and all 37 forms have no document-level English source.",
-    "zh": "IN_PROGRESS; sequential review completed through A21394-zh-00022 (row 330 of 1,966). Forms A21391-A21394 reviewed through the initial identity fields; remaining rows continue in order.",
-    "next_step": "Continue from A21394-zh-00023 (row 331) through all 1,966 rows; review all forms and preserve source IDs.",
+    "zh": "IN_PROGRESS; sequential review completed through A21397-zh-00016 (row 430 of 1,966). Forms A21391-A21397 reviewed through initial fields; remaining annex/form rows continue in order.",
+    "next_step": "Continue from A21397-zh-00017 (row 431) through all 1,966 rows; preserve original Korean and Chinese IDs and only correct clear errors.",
     "english_source_blobs": {
       "B1": "3fb4125ebe20d6eb77f20ec953c976185229edd1",
       "B2": "53ff816786de057b33a6adcf2abdbf59fa81b08e"
@@ -866,8 +866,223 @@
       "id": "A21394-zh-00022",
       "text": "号码",
       "reason": "居民登记号码字段的续接部分。"
+    },
+    {
+      "id": "A21394-zh-00034",
+      "text": "逮捕）",
+      "reason": "表格拘留/逮捕日期栏中的“체포”应译逮捕。"
+    },
+    {
+      "id": "A21394-zh-00035",
+      "text": "（印）",
+      "reason": "“인”表示印章栏，不是密封。"
+    },
+    {
+      "id": "A21394-zh-00036",
+      "text": "Ⅱ. 公诉事实及治疗令申请原因事实",
+      "reason": "“공소사실 및 치료명령 청구원인 사실”应完整译为公诉事实及治疗令申请原因事实。"
+    },
+    {
+      "id": "A21394-zh-00037",
+      "text": "Ⅲ. 附件",
+      "reason": "“첨부”应译附件。"
+    },
+    {
+      "id": "A21395-zh-00001",
+      "text": "■《关于性犯罪者性冲动的药物治疗法施行规则》[附件第4号之2格式]（2017年12月29日新增）",
+      "reason": "法令名称和附件格式编号应与施行规则统一。"
+    },
+    {
+      "id": "A21395-zh-00002",
+      "text": "治疗令执行免除申请书",
+      "reason": "原译标题“申请豁免执行治疗令”应明确为正式申请书名称。"
+    },
+    {
+      "id": "A21395-zh-00004",
+      "text": "姓名",
+      "reason": "“성명”应译姓名，不是名称。"
+    },
+    {
+      "id": "A21395-zh-00006",
+      "text": "（年龄）",
+      "reason": "该字段是年龄栏，原译“年)”不完整。"
+    },
+    {
+      "id": "A21395-zh-00007",
+      "text": "地址",
+      "reason": "“주소”应译地址，原译年龄错位。"
+    },
+    {
+      "id": "A21395-zh-00008",
+      "text": "（电话号码：",
+      "reason": "该字段为电话号码栏，原译“地址”发生字段错位。"
+    },
+    {
+      "id": "A21395-zh-00010",
+      "text": "原判决内容及收容事项",
+      "reason": "原译仅“原判决内容”，遗漏“및 수용사항”（及收容事项）。"
+    },
+    {
+      "id": "A21395-zh-00011",
+      "text": "罪名",
+      "reason": "“죄명”应译罪名，不是进攻。"
+    },
+    {
+      "id": "A21395-zh-00012",
+      "text": "刑种及刑期（治疗期间）",
+      "reason": "“형명ㆍ형기(치료기간)”应译刑种及刑期（治疗期间），不是型号名称/规格。"
+    },
+    {
+      "id": "A21395-zh-00015",
+      "text": "法院",
+      "reason": "“법원”应译法院。"
+    },
+    {
+      "id": "A21395-zh-00016",
+      "text": "刑期届满日",
+      "reason": "“형기종료일”应译刑期届满日，不是类型终止日期。"
+    },
+    {
+      "id": "A21395-zh-00017",
+      "text": "案件编号",
+      "reason": "“사건번호”应译案件编号。"
+    },
+    {
+      "id": "A21395-zh-00018",
+      "text": "收容机构",
+      "reason": "“수용기관”应译收容机构。"
+    },
+    {
+      "id": "A21395-zh-00020",
+      "text": "如附件所示",
+      "reason": "“별지와 같음”应译如附件所示。"
+    },
+    {
+      "id": "A21395-zh-00021",
+      "text": "申请理由",
+      "reason": "“신청의 사유”应译申请理由，不是应用。"
+    },
+    {
+      "id": "A21395-zh-00022",
+      "text": "根据《关于性犯罪者性冲动的药物治疗法》第8条之2第3款及该法施行令第4条之2第1款",
+      "reason": "原译法条引用存在条次格式和法令名称错误。"
+    },
+    {
+      "id": "A21395-zh-00023",
+      "text": "特此申请免除执行治疗令。",
+      "reason": "原译“我据此申请”不符合公文语体。"
+    },
+    {
+      "id": "A21395-zh-00027",
+      "text": "申请人",
+      "reason": "签署栏“신청인”应译申请人。"
+    },
+    {
+      "id": "A21395-zh-00028",
+      "text": "（签名或盖章）",
+      "reason": "“서명 또는 인”应译签名或盖章，不是签名或印章的混合表达。"
+    },
+    {
+      "id": "A21395-zh-00029",
+      "text": "○○地方法院",
+      "reason": "“○○지방법원”应译○○地方法院。"
+    },
+    {
+      "id": "A21395-zh-00030",
+      "text": "收",
+      "reason": "“귀중”是公文敬语收件标记，可译“收”。"
+    },
+    {
+      "id": "A21395-zh-00031",
+      "text": "参考资料",
+      "reason": "“참고자료”应译参考资料，不是支持文档。"
+    },
+    {
+      "id": "A21396-zh-00001",
+      "text": "■《关于性犯罪者性冲动的药物治疗法施行规则》[附件第5号格式]（2022年7月4日修订）",
+      "reason": "统一法令名称及附件格式。"
+    },
+    {
+      "id": "A21396-zh-00004",
+      "text": "※请在【】中相应的方框内打√。",
+      "reason": "原译“在中标记相应的方框”漏掉勾选符号的具体指示。"
+    },
+    {
+      "id": "A21396-zh-00014",
+      "text": "（印）",
+      "reason": "署名栏“인”是印章，不是“子”。"
+    },
+    {
+      "id": "A21396-zh-00015",
+      "text": "标题：预定释放通知",
+      "reason": "“석방 예정 통보”是预定释放通知。"
+    },
+    {
+      "id": "A21396-zh-00016",
+      "text": "根据《关于性犯罪者性冲动的药物治疗法》",
+      "reason": "该处法令标题后接选项条款，原译残留“【”不应独立保留。"
+    },
+    {
+      "id": "A21396-zh-00018",
+      "text": "第",
+      "reason": "法条引用格式中的“제”是条号前缀，不是“文章”。"
+    },
+    {
+      "id": "A21396-zh-00020",
+      "text": "依同法施行令第10条第3款，通知下列接受治疗令的人预计将按下述内容获释。",
+      "reason": "原译语序破碎，未表达法定的预定释放通知内容。"
+    },
+    {
+      "id": "A21397-zh-00001",
+      "text": "■《关于性犯罪者性冲动的药物治疗法施行规则》[附件第6号格式]",
+      "reason": "统一法令名称及附件格式编号。"
+    },
+    {
+      "id": "A21397-zh-00002",
+      "text": "○○检察厅",
+      "reason": "“검찰청”应译检察厅。"
+    },
+    {
+      "id": "A21397-zh-00004",
+      "text": "○○执行第　号",
+      "reason": "“○집 제”是执行指挥编号栏，不是执行编号的泛称。"
+    },
+    {
+      "id": "A21397-zh-00009",
+      "text": "○○保护观察所负责人（拘留所负责人）",
+      "reason": "“보호관찰소장(구치소장)”应译保护观察所负责人（拘留所负责人）。"
+    },
+    {
+      "id": "A21397-zh-00010",
+      "text": "发件人",
+      "reason": "“발신”是发件人栏。"
+    },
+    {
+      "id": "A21397-zh-00011",
+      "text": "○○地方检察厅",
+      "reason": "“지방검찰청”应译地方检察厅。"
+    },
+    {
+      "id": "A21397-zh-00013",
+      "text": "（印）",
+      "reason": "“인”表示印章，不是密封。"
+    },
+    {
+      "id": "A21397-zh-00014",
+      "text": "检察官",
+      "reason": "“검사”应译检察官，不是“子”。"
+    },
+    {
+      "id": "A21397-zh-00015",
+      "text": "标题",
+      "reason": "“제목”应译标题。"
+    },
+    {
+      "id": "A21397-zh-00016",
+      "text": "治疗令执行指挥书",
+      "reason": "“치료명령 집행지휘서”应译治疗令执行指挥书，不是治疗执行令。"
     }
   ],
-  "note": "Korean and available English source reading complete. Chinese sequential review underway; 170 unique correction candidates retained. Not COMPLETE.",
+  "note": "Korean and available English source reading complete. Chinese sequential review underway; 209 unique correction candidates retained. Not COMPLETE.",
   "progress_marker": "2eda490d1a51"
 }
