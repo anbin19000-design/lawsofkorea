@@ -1,0 +1,72 @@
+{
+  "schema": "LAW_ZH_QUALITY_CHECK_V1",
+  "job_id": "F-3705abbc710de4b867bc",
+  "worker": "C05",
+  "branch": "main",
+  "source_blobs": {
+    "ko": "7974bf81d14f4838ae85d4b3ceea80a2f0e65fed",
+    "zh": "045dd328cd77f3eecd8b6cd485be27f2389773e8"
+  },
+  "document_key": "A25277",
+  "document_source_hash": "9c7c8961de7adf8c149fcce4f4a26d5a0886d04439da592a1788c184b0928853",
+  "checked_ids": [
+    "A25277-zh-00011",
+    "A25277-zh-00012",
+    "A25277-zh-00013",
+    "A25277-zh-00015",
+    "A25277-zh-00016",
+    "A25277-zh-00019",
+    "A25277-zh-00020"
+  ],
+  "checked_rows": 7,
+  "adopted_edits": [
+    {
+      "id": "A25277-zh-00011",
+      "text": "2. 型号："
+    },
+    {
+      "id": "A25277-zh-00012",
+      "text": "3. 认证编号："
+    },
+    {
+      "id": "A25277-zh-00013",
+      "text": "4. 认证期限："
+    },
+    {
+      "id": "A25277-zh-00015",
+      "text": "年"
+    },
+    {
+      "id": "A25277-zh-00016",
+      "text": "月"
+    },
+    {
+      "id": "A25277-zh-00019",
+      "text": "公章"
+    },
+    {
+      "id": "A25277-zh-00020",
+      "text": "210mm×297mm[白色上等纸150g/㎡]"
+    }
+  ],
+  "source_row_hashes": {
+    "A25277-zh-00011": "095ee4a082e123e0e43067fb807d5ae381223e73ca488adbce5bda57d6eb4c75",
+    "A25277-zh-00012": "eb08ec2c2f749c71129a6543c631234f10916ef126329f49f973c5c15a509171",
+    "A25277-zh-00013": "b0a1baa493d69aaa0d0afd9b903b0add0ea3c0a24a37186371ec3b8645931e16",
+    "A25277-zh-00015": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+    "A25277-zh-00016": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+    "A25277-zh-00019": "c2c25ba0a53a6f7b97292cfe2d401a55b263f9c6222471a4b8a4c3509c1a4197",
+    "A25277-zh-00020": "30e3a282d195e09119ba30df5d50f13ab6b42c251538a85271c77475ac942343"
+  },
+  "rationale": {
+    "A25277-zh-00011": "형식: certification form model/type, not formatting.",
+    "A25277-zh-00012": "인증번호: correct certification-number label.",
+    "A25277-zh-00013": "인증기간: preserve certification period.",
+    "A25277-zh-00015": "년: date-year unit, not 年份.",
+    "A25277-zh-00016": "월: date-month unit, not 月份.",
+    "A25277-zh-00019": "직인: institutional official seal.",
+    "A25277-zh-00020": "백상지 150g/㎡: preserve dimension 210×297 mm and paper weight."
+  },
+  "status": "QUALITY_PARTIAL",
+  "note": "Seven staged correction candidates independently validated against Korean certificate form. A25277-zh-00017 already correctly reads 日 and is not counted as a correction. Previous A25277 quality file and A25276 files preserved; no increase in unique original review coverage."
+}
