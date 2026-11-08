@@ -2350,9 +2350,18 @@
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-7ffe3eb52630-article6.json",
       "verification": "C02_DIRECT_KOREAN_ARTICLE6_COMPARISON",
       "reason": "Korean Act Article 6(2) includes 시장 및 군수, which the existing Chinese translation rendered as only county heads; restores both mayors and county chiefs and preserves the metropolitan-city exception."
+    },
+    {
+      "id": "B1-zh-00009",
+      "text": "第五条（举行公开听证会）\n① 国土交通大臣编制综合规划草案后，应当举行公开听证会，听取相关专家等人士的意见；如大臣认为公开听证会上提出的意见合理，应当将该等意见纳入综合规划草案。<2013年3月23日修订>\n② 根据第1款举行公开听证会所需事项，由总统令规定。\n\n",
+      "source_hash": "95396a3987fa8fe138249574f63d8c6ec0a51294ca899e60f8999e3fac291af8",
+      "target_id": "6763179860184cecb87dac0f0f0b6b787dd6593f832767e06f9c685a15313e4c",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-015df860592f.json",
+      "verification": "C02_DIRECT_KOREAN_ARTICLE5_COMPARISON",
+      "reason": "Korean Act Article 5(1) explicitly says 종합계획안을 작성하였을 때 (after preparing draft comprehensive plan) and 의견을 종합계획안에 반영 (incorporate opinions into draft), not the final comprehensive plan."
     }
   ],
-  "adjudicated_edit_count": 286,
+  "adjudicated_edit_count": 287,
   "pending_single_candidate_count": 344,
   "pending_conflict_count": 0,
   "pending_single_candidates": [
@@ -7552,9 +7561,9 @@
     "Existing stored adjudications and later progress files must be incorporated with source/hash verification before COMPLETE."
   ],
   "integration_progress": {
-    "stage": "C02_ACT_ARTICLE6_MINIMAL_CORRECTIONS",
-    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:7ffe3eb52630",
-    "note": "Act Article 4 and 6 Korean-backed corrections applied. Full review incomplete."
+    "stage": "C02_ACT_ARTICLE5_MINIMAL_CORRECTIONS",
+    "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:015df860592f",
+    "note": "Direct Korean comparison: corrected draft comprehensive plan references; whole-family ordered reading not certified."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
@@ -7857,7 +7866,8 @@
     "B3-zh-00003",
     "B3-zh-00001",
     "B1-zh-00008",
-    "B1-zh-00010"
+    "B1-zh-00010",
+    "B1-zh-00009"
   ],
   "coverage_audit": {
     "path": "review/zh/F-81e30c25fcbea5af2364-progress-C02-58c856e5e47c-integration.json",
