@@ -19,8 +19,8 @@
     "required_order": "KO_FULL_EN_FULL_ZH_FULL",
     "ko": "COMPLETE; read all 40 Korean source documents sequentially: B1-B3 and forms A21391-A21427. Long form A21410 was additionally read in slices across all 29,583 characters.",
     "en": "COMPLETE; read full_text sequentially for exact-version official English B1 (44,973 chars, 53 articles) and B2 (36,297 chars). English source SHA: B1 3fb4125ebe20d6eb77f20ec953c976185229edd1; B2 53ff816786de057b33a6adcf2abdbf59fa81b08e. B3 and all 37 forms have no document-level English source.",
-    "zh": "IN_PROGRESS; sequential review completed through A21391-zh-00016 (row 188 of 1,966). B3 body rows and initial form A21391 fields reviewed; remaining annex/form rows continue in order.",
-    "next_step": "Continue from A21391-zh-00017 (row 189) through all 1,966 Chinese rows; inspect every form/annex field against Korean originals, preserving source IDs and exact source hashes.",
+    "zh": "IN_PROGRESS; sequential review completed through A21392-zh-00016 (row 229 of 1,966). Forms A21391 and initial A21392 fields examined; remaining annex/form rows continue in order.",
+    "next_step": "Continue from A21392-zh-00017 (row 230) through all 1,966 rows; inspect each form field and verify Korean source alignment.",
     "english_source_blobs": {
       "B1": "3fb4125ebe20d6eb77f20ec953c976185229edd1",
       "B2": "53ff816786de057b33a6adcf2abdbf59fa81b08e"
@@ -366,8 +366,153 @@
       "id": "A21391-zh-00016",
       "text": "标题：申请治疗令前诊断及鉴定",
       "reason": "原译漏掉“治疗令前”，且将诊断及鉴定混作意见。"
+    },
+    {
+      "id": "A21391-zh-00017",
+      "text": "根据《关于性犯罪者性冲动的药物治疗法》第4条第2款及第22条第2款第5项前段",
+      "reason": "原译条文引用不完整，遗漏第22条第2款第5项的具体款项及前段标识。"
+    },
+    {
+      "id": "A21391-zh-00018",
+      "text": "依上述规定，委托对下列对象进行治疗令申请前的诊断及鉴定。",
+      "reason": "原译“申请治疗令之前”语序不清，且“专家评估”未准确表达鉴定。"
+    },
+    {
+      "id": "A21391-zh-00019",
+      "text": "对象人",
+      "reason": "表格栏位“대상자”应为对象人/对象，不是相关人员。"
+    },
+    {
+      "id": "A21391-zh-00020",
+      "text": "姓名",
+      "reason": "表格栏位为“성명”，应译姓名，不应译为名称。"
+    },
+    {
+      "id": "A21391-zh-00021",
+      "text": "居民登记号码",
+      "reason": "表格栏位为居民登记号码，原译“名称”属明显错译。"
+    },
+    {
+      "id": "A21391-zh-00022",
+      "text": "住所",
+      "reason": "表格栏位“주거지”是住所/居住地，不是住宅泛称。"
+    },
+    {
+      "id": "A21391-zh-00023",
+      "text": "职业",
+      "reason": "表格栏位“직업”应为职业。"
+    },
+    {
+      "id": "A21391-zh-00024",
+      "text": "案件编号",
+      "reason": "表格栏位“사건번호”应译案件编号。"
+    },
+    {
+      "id": "A21391-zh-00025",
+      "text": "罪名",
+      "reason": "表格栏位“죄명”应译罪名，不是犯罪名称的泛称。"
+    },
+    {
+      "id": "A21391-zh-00026",
+      "text": "犯罪事实概要",
+      "reason": "表格栏位“범죄사실의 요지”应译犯罪事实概要。"
+    },
+    {
+      "id": "A21391-zh-00028",
+      "text": "诊断及鉴定事项",
+      "reason": "“진단 및 감정 사항”包含鉴定，不只是评估。"
+    },
+    {
+      "id": "A21391-zh-00029",
+      "text": "1. 是否属于性变态患者",
+      "reason": "原译“患者是否存在性变态”不够准确，法律定义对象为性变态患者。"
+    },
+    {
+      "id": "A21391-zh-00030",
+      "text": "2. 药物治疗是否有助于减少过度的性幻想或冲动",
+      "reason": "原译缺少“是否”，句义不完整。"
+    },
+    {
+      "id": "A21391-zh-00033",
+      "text": "通知期限",
+      "reason": "表格栏位“통보기한”是通知期限，不是截止日期的泛称。"
+    },
+    {
+      "id": "A21391-zh-00035",
+      "text": "参考资料",
+      "reason": "表格栏位“참고자료”应译参考资料，不是支持文档。"
+    },
+    {
+      "id": "A21391-zh-00036",
+      "text": "1. 犯罪嫌疑人讯问笔录1份",
+      "reason": "“피의자 신문조서”应译犯罪嫌疑人讯问笔录。"
+    },
+    {
+      "id": "A21391-zh-00037",
+      "text": "2. 被害人陈述笔录1份",
+      "reason": "“피해자 진술조서”是被害人陈述笔录，不是一般陈述。"
+    },
+    {
+      "id": "A21391-zh-00038",
+      "text": "3. 犯罪经历资料1份",
+      "reason": "“범죄경력자료”应译犯罪经历资料。"
+    },
+    {
+      "id": "A21391-zh-00039",
+      "text": "4. 侦查经历资料1份",
+      "reason": "“수사경력자료”应译侦查经历资料。"
+    },
+    {
+      "id": "A21392-zh-00001",
+      "text": "■《关于性犯罪者性冲动的药物治疗法施行规则》[附件第2号格式]（2022年7月4日修订）",
+      "reason": "统一法令名称、附件格式编号及施行规则译名。"
+    },
+    {
+      "id": "A21392-zh-00002",
+      "text": "○○检察厅",
+      "reason": "原译检察官署称谓不准确，应为检察厅。"
+    },
+    {
+      "id": "A21392-zh-00004",
+      "text": "第",
+      "reason": "编号栏“제”是编号前缀，不是“第一个”。"
+    },
+    {
+      "id": "A21392-zh-00008",
+      "text": "收件人",
+      "reason": "原译“收件人”本条正确，保持此译法；用于一致性记录。"
+    },
+    {
+      "id": "A21392-zh-00009",
+      "text": "○○保护观察所负责人",
+      "reason": "“보호관찰소장”应译保护观察所负责人，不是缓刑办公室主任。"
+    },
+    {
+      "id": "A21392-zh-00010",
+      "text": "发件人",
+      "reason": "原译“来自”不符合公文发文栏，应译发件人。"
+    },
+    {
+      "id": "A21392-zh-00013",
+      "text": "（印）",
+      "reason": "署名栏“인”表示印章，不是密封。"
+    },
+    {
+      "id": "A21392-zh-00014",
+      "text": "检察官",
+      "reason": "署名栏“검사”应译检察官，不是“子”。"
+    },
+    {
+      "id": "A21392-zh-00015",
+      "text": "标题",
+      "reason": "“제목”是公文标题栏。"
+    },
+    {
+      "id": "A21392-zh-00016",
+      "text": "标题：治疗令申请前调查请求",
+      "reason": "“치료명령 청구 전 조사 요청”应译治疗令申请前调查请求。"
     }
   ],
-  "note": "Korean and available English source reading complete. Chinese sequential review underway; 69 unique correction candidates retained. Not COMPLETE.",
+  "note": "Korean and available English source reading complete. Chinese sequential review underway; 96 unique correction candidates retained. Not COMPLETE.",
   "progress_marker": "2eda490d1a51"
 }
