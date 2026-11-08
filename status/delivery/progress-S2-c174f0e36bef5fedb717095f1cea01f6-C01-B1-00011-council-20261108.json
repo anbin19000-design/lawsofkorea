@@ -1,0 +1,28 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "status": "IN_PROGRESS",
+  "checked_rows": 1,
+  "corrected_rows": 1,
+  "source_sha": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c",
+    "en": "32423453da2fcfa466c97946520181a32643e289"
+  },
+  "edits": [
+    {
+      "id": "B1-zh-00011",
+      "text": "第九条（水产品流通发展协商会）\n①海洋水产部长可设立并运作水产品流通发展协商会，就渔业分销行业发展相关事宜与有关行政机关进行磋商。\n1. 制定基本计划和年度实施计划\n2. 海鲜配送系统效率提升\n3. 海产品分销行业发展的政策事项\n4. 渔业产品供需管理\n5. 海洋和渔业部长认为有必要就渔业产品分销行业发展进行磋商的其他事项\n② 海洋渔业部长如认为水产品流通发展协商会的成立目的已实现，可以解散该委员会。\n③ 第1款规定的水产品流通发展协商会的组成、运作等事项，由总统令规定。\n\n第三章 生产地鱼市\n\n"
+    }
+  ],
+  "judgments": [
+    {
+      "id": "B1-zh-00011",
+      "decision": "EDIT",
+      "source_hash": "247b9d8e94625a378057b3aa578fff388fae63d199a3b8152d8d00eed99a669f",
+      "basis": "법 제9조 수산물유통발전협의회 명칭을 한국어 원문 및 부칙의 명칭 변경과 대조하여 정확히 통일"
+    }
+  ],
+  "note": "No full family completion claimed."
+}
