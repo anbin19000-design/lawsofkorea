@@ -20022,6 +20022,13 @@
       "source_hash": "b0de984edf706195d57711905de4b8d83bebc1adc189e801bdc4ef0d721656e9",
       "target_id": "XML:841593",
       "source_progress": "C02 sequential A11381 review against complete Korean Enforcement Rule Form 23 reconsideration request; corrected applicant/target labels, statutory grounds, review period, reconsideration subject, and attachment/fee fragments. No English document exists."
+    },
+    {
+      "id": "A11381-zh-00054",
+      "text": "未能接受审查的情形",
+      "source_hash": "72ea3d64ace5bc9414498b815d4305c8867b0942a508179e0657ad60d1274daa",
+      "target_id": "XML:841590",
+      "source_progress": "C02 sequential A11381 review; restored the split condition phrase in the attachment table to complete the Korean parenthetical clause."
     }
   ],
   "adjudicated_edit_count": 0,
@@ -22783,7 +22790,7 @@
     "A11381-zh-00058"
   ],
   "checked_rows": 3136,
-  "corrected_rows": 1446,
+  "corrected_rows": 1447,
   "notes": [
     "Only obvious omissions of clause numbering and a missing subparagraph marker corrected; substantive terminology and existing wording retained.",
     "B2 English is an older fallback (version 272521), not exact current Korean version; newer provisions require Korean-Chinese comparison.",
@@ -22902,7 +22909,8 @@
     "Sequential review completed for A11379 (63 rows). Corrected 32 obvious mistranslations, including facility type (정신요양시설), applicant vs claimant/invoice, legal instrument names, committee names and workflow labels. All other checked fragments retained. No English document exists.",
     "Sequential review completed for A11380 (60 rows). Corrected 34 clear mistranslations/corrupted fragments including the 14-day re-review notice, committee process categories, protective-obligor I/II labels, facility title and statutory citations. All other rows checked and retained. No English document exists.",
     "Sequential review completed for A11381 (58 rows). Corrected 31 obvious mistranslations/corruptions including statutory basis, reconsideration grounds and 14-day deadline, applicant and patient relationship fields, and attachment/fee language. Preserved the form's split-cell structure; no English document exists.",
-    "A11381附件栏最终按韩文表格的跨栏顺序校正：第一项证明文件、手续费/无、第一项适用条件括号分段、第二项审查结果通知书副本及其适用条件；避免把“MTQ”污染字符串当作原文或重复整句。"
+    "A11381附件栏最终按韩文表格的跨栏顺序校正：第一项证明文件、手续费/无、第一项适用条件括号分段、第二项审查结果通知书副本及其适用条件；避免把“MTQ”污染字符串当作原文或重复整句。",
+    "补齐A11381-zh-00054分栏：与第53、55行合并构成“仅适用于未能在审查期限或延长期限内接受审查的情形”，修复此前未单独写入的中间片段。"
   ],
   "checkpoint_id": "C02-20261109-A11381-CHECKED",
   "checkpoint_status": "IN_PROGRESS",
