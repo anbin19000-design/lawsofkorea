@@ -41,8 +41,8 @@
     "rows_without_document_english": 310,
     "official_rule_translation": "reviewed/en/KR_011294.json"
   },
-  "checked_rows": 14,
-  "corrected_rows": 14,
+  "checked_rows": 15,
+  "corrected_rows": 15,
   "edits": [
     {
       "id": "B1-zh-00003",
@@ -99,6 +99,10 @@
     {
       "id": "B1-zh-00048",
       "text": "第二条（其他法律的修订）①《土地利用限制基本法》部分条文修改如下。\n\n  在附表中新增序号第242号，内容如下。\n\n  ┌──┬───────────────────┬───────┐\n\n│242 │《车站区域开发及利用法》第4条第1款 │车站区域开发区│\n\n└──┴───────────────────┴───────┘\n\n  ②《铁路建设法》部分条文修改如下。\n\n  删除第2条第8号、第9号，第22条、第23条及第23条之2第1款第2号。\n\n  ③《城市铁路法》部分条文修改如下。\n\n  删除第4条之5，并将第11条第6号中的“第4条之5”改为“《车站区域开发及利用法》”。\n\n  ④《交通设施特别会计法》部分条文修改如下。\n\n  将第5条第1款第9号改为第10号，并在同款中新增第9号如下：\n\n    9. 依《车站区域开发及利用法》第25条第3款归属于会计的车站区域开发收益。\n\n  将第5条之2第1款第8号改为第9号，并在同款中新增第8号如下：\n\n    8. 依《车站区域开发及利用法》第25条第3款归属于会计的车站区域开发收益。\n\n"
+    },
+    {
+      "id": "B2-zh-00059",
+      "text": "  在附表2第1号(a)目中按如下内容新增第(18)栏。\n\n┃│(18) 依《车站区域开发及利用法》第4条及第7条 │依《车站区域开发及利用法》第4条第3款，指定权人与相关中央行政机关首长协商时 ┃\n┃│指定车站区域开发区及制定项目计划                 │                                                   ┃\n\n┖┴──────────────────┴────────────────┚\n\n"
     }
   ],
   "findings": {
@@ -124,5 +128,5 @@
       "B3-zh-00034"
     ]
   },
-  "notes": "Read all 24 Korean source documents (151,085 characters) in the assigned bundle, then both official English bodies (Act and Enforcement Decree) and all 95 rows of the reviewed English Enforcement Rule. English index reports 1,084/1,394 rows with English and 310 without document-level English. Loaded all 1,394 Chinese rows and performed an initial whole-file anomaly scan. Found mixed Korean/Chinese or untranslated content in 15 rows. Five unambiguous minimal fixes are recorded here; full sequential Chinese review of 1,394 rows remains pending. Do not mark COMPLETE. No source blobs changed. Five rows have now received source-grounded minimal corrections and are retained in this progress checkpoint; the other 1,389 rows remain to be sequentially reviewed. Additional sequentially checked rows: B1-zh-00014, B1-zh-00025, B1-zh-00027, B1-zh-00034, B1-zh-00035. These five rows now have minimal corrections; total checked/corrected rows in this checkpoint: 10. Full 1,394-row review remains IN_PROGRESS. Further corrected rows: B1-zh-00010, B1-zh-00017, B1-zh-00037, B1-zh-00048. Checkpoint now contains 14 corrections; full sequential review remains pending."
+  "notes": "Read all 24 Korean source documents (151,085 characters) in the assigned bundle, then both official English bodies (Act and Enforcement Decree) and all 95 rows of the reviewed English Enforcement Rule. English index reports 1,084/1,394 rows with English and 310 without document-level English. Loaded all 1,394 Chinese rows and performed an initial whole-file anomaly scan. Found mixed Korean/Chinese or untranslated content in 15 rows. Five unambiguous minimal fixes are recorded here; full sequential Chinese review of 1,394 rows remains pending. Do not mark COMPLETE. No source blobs changed. Five rows have now received source-grounded minimal corrections and are retained in this progress checkpoint; the other 1,389 rows remain to be sequentially reviewed. Additional sequentially checked rows: B1-zh-00014, B1-zh-00025, B1-zh-00027, B1-zh-00034, B1-zh-00035. These five rows now have minimal corrections; total checked/corrected rows in this checkpoint: 10. Full 1,394-row review remains IN_PROGRESS. Further corrected rows: B1-zh-00010, B1-zh-00017, B1-zh-00037, B1-zh-00048. Checkpoint now contains 14 corrections; full sequential review remains pending. B2-zh-00059 was corrected to translate the remaining Korean table cells and preserve the row's table structure. Fifteen rows with detected mixed/untranslated Korean are now addressed in the progress record; a full sequential Chinese review remains pending."
 }
