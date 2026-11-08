@@ -1,0 +1,48 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:692776d583c9",
+  "status": "IN_PROGRESS",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_en_index_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "english_document_reference": "documents/en/kr-014071-276899-en.json",
+  "checked_rows": 3,
+  "checked_ids": [
+    "B1-zh-00012",
+    "B1-zh-00014",
+    "B1-zh-00015"
+  ],
+  "quality_checked_rows": 3,
+  "quality_passed_rows": 3,
+  "quality_failed_rows": 0,
+  "results": [
+    {
+      "id": "B1-zh-00012",
+      "verdict": "PASS",
+      "reason": "Article 10 Korean/official English: five-year survey, report, use as policy evidence, cooperation requests unless special reason, and ministerial ordinance for survey details all represented in Chinese; retain."
+    },
+    {
+      "id": "B1-zh-00014",
+      "verdict": "PASS",
+      "reason": "Article 12 duty to use broadcast, newspapers, Internet and other media for trafficking prevention and victim support is preserved; retain."
+    },
+    {
+      "id": "B1-zh-00015",
+      "verdict": "PASS",
+      "reason": "Article 13 clauses 1-3: publish victim identification indicators, recommend use by relevant agencies, consult heads, submit utilization records under presidential procedures; retained."
+    }
+  ],
+  "edits": [],
+  "previous_verifications": [
+    "review/zh/F-0536890d62605f77ff0a-progress-C03-8d2adb521ba2-B1-initial-verification.json",
+    "review/zh/F-0536890d62605f77ff0a-progress-C03-5b21d79de9ad-B1-articles-3-5-7.json"
+  ],
+  "prior_evidence_index": "status/delivery/reconcile-S2-8f70e317249155938a79444493d089b4-evidence-7e6b69412a765526.json",
+  "protected_unresolved_ids": [
+    "A26697-zh-00008",
+    "A26699-zh-00053"
+  ],
+  "note": "3 new previously unlisted B1 rows manually compared against original Korean and exact English. Existing review unchanged; this file is not whole-family completion."
+}
