@@ -21,7 +21,7 @@
   "coverage": {
     "total_rows": 1687,
     "distinct_rows": 1687,
-    "correction_count": 332,
+    "correction_count": 345,
     "pending_rows": 1607,
     "by_document": {}
   },
@@ -2349,6 +2349,97 @@
       "original": ".",
       "corrected": "将已托管的加盟费退还给加盟商。",
       "reason": "별지 제8호서식 한국어 원문 대조: 지급보류 사유, 법령 인용, 지급·반환 신청자 및 처리조건의 명백한 의미 오류·누락 교정."
+    },
+    "A34922-zh-00010": {
+      "doc": "A34922",
+      "source_hash": "135b2d53c337583773ec05ac31eb1e280c78db754abfe7dcfb462196f269bdae",
+      "original": "Name(代表)",
+      "corrected": "姓名（代表人）",
+      "reason": "별지 예치·지급 관련 서식의 한국어 '성명(대표자)', '금 ... 원 정', '가맹점명'에 대비하여 잔존 영문/잘못된 금액 단위·명칭을 원문에 맞게 교정."
+    },
+    "A34922-zh-00015": {
+      "doc": "A34922",
+      "source_hash": "135b2d53c337583773ec05ac31eb1e280c78db754abfe7dcfb462196f269bdae",
+      "original": "Name(代表)",
+      "corrected": "姓名（代表人）",
+      "reason": "별지 예치·지급 관련 서식의 한국어 '성명(대표자)', '금 ... 원 정', '가맹점명'에 대비하여 잔존 영문/잘못된 금액 단위·명칭을 원문에 맞게 교정."
+    },
+    "A34922-zh-00019": {
+      "doc": "A34922",
+      "source_hash": "24ce219bf119a5ed1035d534bbc226573026670c50f51913866fd38de3fcd5f8",
+      "original": "（金色",
+      "corrected": "（金额",
+      "reason": "별지 예치·지급 관련 서식의 한국어 '성명(대표자)', '금 ... 원 정', '가맹점명'에 대비하여 잔존 영문/잘못된 금액 단위·명칭을 원문에 맞게 교정."
+    },
+    "A34922-zh-00020": {
+      "doc": "A34922",
+      "source_hash": "0f8e6d29db72afac69a3ff8d3e6f2b1a0f2315b08ef141261dc5d449f80313e7",
+      "original": "(仅限已赢取)",
+      "corrected": "韩元整）",
+      "reason": "별지 예치·지급 관련 서식의 한국어 '성명(대표자)', '금 ... 원 정', '가맹점명'에 대비하여 잔존 영문/잘못된 금액 단위·명칭을 원문에 맞게 교정."
+    },
+    "A34923-zh-00005": {
+      "doc": "A34923",
+      "source_hash": "6d7a4e83f1f93faf498e6854b4dfa7041aae7bf7da7ec6157c1bce09bcc884c6",
+      "original": "(联盟名称)",
+      "corrected": "（加盟店名称）",
+      "reason": "별지 예치·지급 관련 서식의 한국어 '성명(대표자)', '금 ... 원 정', '가맹점명'에 대비하여 잔존 영문/잘못된 금액 단위·명칭을 원문에 맞게 교정."
+    },
+    "A34923-zh-00011": {
+      "doc": "A34923",
+      "source_hash": "24ce219bf119a5ed1035d534bbc226573026670c50f51913866fd38de3fcd5f8",
+      "original": "(金额",
+      "corrected": "（金额",
+      "reason": "별지 예치·지급 관련 서식의 한국어 '성명(대표자)', '금 ... 원 정', '가맹점명'에 대비하여 잔존 영문/잘못된 금액 단위·명칭을 원문에 맞게 교정."
+    },
+    "A34923-zh-00012": {
+      "doc": "A34923",
+      "source_hash": "0f8e6d29db72afac69a3ff8d3e6f2b1a0f2315b08ef141261dc5d449f80313e7",
+      "original": "(仅限已赢取)",
+      "corrected": "韩元整）",
+      "reason": "별지 예치·지급 관련 서식의 한국어 '성명(대표자)', '금 ... 원 정', '가맹점명'에 대비하여 잔존 영문/잘못된 금액 단위·명칭을 원문에 맞게 교정."
+    },
+    "A34924-zh-00029": {
+      "doc": "A34924",
+      "source_hash": "24ce219bf119a5ed1035d534bbc226573026670c50f51913866fd38de3fcd5f8",
+      "original": "（金色",
+      "corrected": "（金额",
+      "reason": "별지 예치·지급 관련 서식의 한국어 '성명(대표자)', '금 ... 원 정', '가맹점명'에 대비하여 잔존 영문/잘못된 금액 단위·명칭을 원문에 맞게 교정."
+    },
+    "A34924-zh-00030": {
+      "doc": "A34924",
+      "source_hash": "0f8e6d29db72afac69a3ff8d3e6f2b1a0f2315b08ef141261dc5d449f80313e7",
+      "original": "(仅限已赢取)",
+      "corrected": "韩元整）",
+      "reason": "별지 예치·지급 관련 서식의 한국어 '성명(대표자)', '금 ... 원 정', '가맹점명'에 대비하여 잔존 영문/잘못된 금액 단위·명칭을 원문에 맞게 교정."
+    },
+    "A34925-zh-00011": {
+      "doc": "A34925",
+      "source_hash": "135b2d53c337583773ec05ac31eb1e280c78db754abfe7dcfb462196f269bdae",
+      "original": "Name(代表)",
+      "corrected": "姓名（代表人）",
+      "reason": "별지 예치·지급 관련 서식의 한국어 '성명(대표자)', '금 ... 원 정', '가맹점명'에 대비하여 잔존 영문/잘못된 금액 단위·명칭을 원문에 맞게 교정."
+    },
+    "A34925-zh-00016": {
+      "doc": "A34925",
+      "source_hash": "135b2d53c337583773ec05ac31eb1e280c78db754abfe7dcfb462196f269bdae",
+      "original": "Name(代表)",
+      "corrected": "姓名（代表人）",
+      "reason": "별지 예치·지급 관련 서식의 한국어 '성명(대표자)', '금 ... 원 정', '가맹점명'에 대비하여 잔존 영문/잘못된 금액 단위·명칭을 원문에 맞게 교정."
+    },
+    "A34925-zh-00027": {
+      "doc": "A34925",
+      "source_hash": "24ce219bf119a5ed1035d534bbc226573026670c50f51913866fd38de3fcd5f8",
+      "original": "（金色",
+      "corrected": "（金额",
+      "reason": "별지 예치·지급 관련 서식의 한국어 '성명(대표자)', '금 ... 원 정', '가맹점명'에 대비하여 잔존 영문/잘못된 금액 단위·명칭을 원문에 맞게 교정."
+    },
+    "A34925-zh-00028": {
+      "doc": "A34925",
+      "source_hash": "0f8e6d29db72afac69a3ff8d3e6f2b1a0f2315b08ef141261dc5d449f80313e7",
+      "original": "(仅限已赢取)",
+      "corrected": "韩元整）",
+      "reason": "별지 예치·지급 관련 서식의 한국어 '성명(대표자)', '금 ... 원 정', '가맹점명'에 대비하여 잔존 영문/잘못된 금액 단위·명칭을 원문에 맞게 교정."
     }
   },
   "english_note": "B1 exact English; B2 decree English is fallback version; annexes and forms have no independently verified exact English translation.",
@@ -2418,7 +2509,8 @@
     "C05 16f5d26f374d: continued annex A34918 and A34920 review; 8 source-grounded corrections. Chinese full semantic review remains incomplete.",
     "C05 94852f90eda2: A34921/A34922 Korean-source comparison and 8 confirmed corrections. Full-family Chinese semantic certification still pending.",
     "C05 94852f90eda2: A34923/A34924 source checked; 8 verified corrections; remaining family semantic QA pending.",
-    "C05 94852f90eda2: A34925 source checked; 10 source-grounded corrections. Complete family-wide Chinese semantic QA still pending."
+    "C05 94852f90eda2: A34925 source checked; 10 source-grounded corrections. Complete family-wide Chinese semantic QA still pending.",
+    "C05 d3c2c0c523fc: exact Korean-source reconciliation of escrow form identity and won-amount expressions; 13 minimal corrections; family semantic QA not COMPLETE."
   ],
   "reading_evidence": {
     "ko": "18 Korean law family document bodies read in order, archived in progress-C05-382d0b9d5453.json",
@@ -2427,5 +2519,5 @@
     "full_sequential_human_review_complete": false
   },
   "checked_rows": 54,
-  "corrected_rows": 332
+  "corrected_rows": 345
 }
