@@ -1,0 +1,87 @@
+{
+  "schema": "LAW_ZH_INTERMEDIATE_REVIEW_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "worker": "C02",
+  "task_id": "WORK-TASK:C02:F-81e30c25fcbea5af2364:dfac99b5ac32",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "checked_rows": 6,
+  "checked_ids": [
+    "A36426-zh-00051",
+    "A36426-zh-00052",
+    "A36426-zh-00053",
+    "A36426-zh-00055",
+    "A36426-zh-00056",
+    "A36426-zh-00057"
+  ],
+  "edits": [
+    {
+      "id": "A36426-zh-00051",
+      "text": "《政府出资研究机构等的设立、运营",
+      "source_hash": "e129e219018d82e2bc1b5e632c9a75cd60b9d748651bd2940962e93f239a40ca",
+      "target_id": "XML:2657361"
+    },
+    {
+      "id": "A36426-zh-00052",
+      "text": "及培育相关法律》第八条规定设立的",
+      "source_hash": "cdf5ddca41265ff3a025ae05436519ed34a59ba98652e94586545987e77e597b",
+      "target_id": "XML:2657362"
+    },
+    {
+      "id": "A36426-zh-00053",
+      "text": "韩国交通研究院",
+      "source_hash": "3d87e8d8293db18848989d661caa06d055d96d627e73c67e55ff4f0f0a54e273",
+      "target_id": "XML:2657363"
+    },
+    {
+      "id": "A36426-zh-00055",
+      "text": "依据该法设立的机器人相关专业生产技术研究机构",
+      "source_hash": "fdaa994bc04c8dda3f854b13ce2f8cea4f3f80d86c3b2e460aa0b7a607a52800",
+      "target_id": "XML:2657365"
+    },
+    {
+      "id": "A36426-zh-00056",
+      "text": "依据《韩国教育学术信息院法》设立的",
+      "source_hash": "e505edb3f149e975cfdcd9df113fe778189a58f722c19daf4086cbe7cd97ea12",
+      "target_id": "XML:2657366"
+    },
+    {
+      "id": "A36426-zh-00057",
+      "text": "韩国教育学术信息院",
+      "source_hash": "27445d2efbb1ff68c889bb187438d2da29c0edd088a2a09f862aae1bde05edef",
+      "target_id": "XML:2657367"
+    }
+  ],
+  "adjudications": [
+    {
+      "ids": [
+        "A36426-zh-00051",
+        "A36426-zh-00052",
+        "A36426-zh-00053"
+      ],
+      "verdict": "CLEAR_MISTRANSLATION",
+      "reason": "Annex 3 institutional eligibility: the previous text split incorrectly describes the Government-Funded Research Institutes Act and makes the Korea Transport Institute into an awkward construction; reflect actual Korean '정부출연연구기관 등의 설립ㆍ운영 및 육성에 관한 법률 제8조에 따라 설립된 한국교통연구원' across the original three cells."
+    },
+    {
+      "ids": [
+        "A36426-zh-00055",
+        "A36426-zh-00056",
+        "A36426-zh-00057"
+      ],
+      "verdict": "CLEAR_MISTRANSLATION_OR_OMISSION",
+      "reason": "Preserve separate institution entries for robotic production technology research organization and Korea Education and Research Information Service under its governing Act, without misplacing Korea or omitting institution terminology."
+    }
+  ],
+  "english_status": "A36426 NO_DOCUMENT_ENGLISH; Korean original controls.",
+  "prior_progress": [
+    "review/zh/F-81e30c25fcbea5af2364-progress-C02-73645d4f3db3-annex-detail.json"
+  ],
+  "note": "Only unindexed annex 3 rows changed, with existing original IDs and source hashes. Full 17-document read-through and 1133-row verification remain uncertified; do not mark COMPLETE.",
+  "next_review": "Continue annex 3/4 and rule/forms, consolidate with all historical progress and verify before final receipt."
+}
