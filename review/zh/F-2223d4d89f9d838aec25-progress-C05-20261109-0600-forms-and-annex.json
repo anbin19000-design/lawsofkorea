@@ -1,0 +1,108 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-2223d4d89f9d838aec25",
+  "worker": "C05",
+  "panel_id": "panel-05",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "8da45e553059c6fa43c2398c7a85fb031801269f",
+    "en": "9aa870a762b685cffb5165159330ce674c944554",
+    "zh": "770640285a1e85001013331a4a0a6fba3909dd43"
+  },
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "reading_evidence": {
+    "ko": {
+      "complete": true,
+      "documents": 23,
+      "source_blob_sha": "8da45e553059c6fa43c2398c7a85fb031801269f"
+    },
+    "en": {
+      "complete": true,
+      "index_documents": 23,
+      "source_blob_sha": "9aa870a762b685cffb5165159330ce674c944554",
+      "all_available_linked_sources_read": true,
+      "qualification": "Official and AI-draft exact-version Act/Decree English materials and linked Enforcement Rule English references read. Exact English is not independently available for every annex/form; Korean-Chinese comparison controls those items."
+    },
+    "zh": {
+      "complete": false,
+      "total_rows": 1290,
+      "fully_compared_rows": 523,
+      "fully_compared_by_document": {
+        "B1": 122,
+        "B2": 199,
+        "B3": 85,
+        "A29186": 43,
+        "A6580": 74
+      },
+      "partial_targeted_docs": [
+        "A29185",
+        "A6581",
+        "A6582",
+        "A6585",
+        "A6586",
+        "A6587",
+        "A6588",
+        "A6589",
+        "A6590",
+        "A6591",
+        "A6592",
+        "A6594",
+        "A6595",
+        "A6596",
+        "A6597",
+        "A6598",
+        "A6599",
+        "A6600"
+      ]
+    }
+  },
+  "audit": {
+    "correction_records": 453,
+    "nonblank_changed_edits": 442,
+    "unique_edit_ids": 442,
+    "blank_decisions": 4,
+    "no_change_decisions": 7,
+    "source_bound_mismatches": 0,
+    "duplicate_ids": 0,
+    "blank_edits": 0,
+    "source_sha_unchanged": true
+  },
+  "coverage": {
+    "total_rows": 1290,
+    "distinct_rows": 1290,
+    "fully_compared_rows": 523,
+    "fully_compared_by_document": {
+      "B1": 122,
+      "B2": 199,
+      "B3": 85,
+      "A29186": 43,
+      "A6580": 74
+    },
+    "partial_targeted_docs": [
+      "A29185",
+      "A6581",
+      "A6582",
+      "A6585",
+      "A6586",
+      "A6587",
+      "A6588",
+      "A6589",
+      "A6590",
+      "A6591",
+      "A6592",
+      "A6594",
+      "A6595",
+      "A6596",
+      "A6597",
+      "A6598",
+      "A6599",
+      "A6600"
+    ],
+    "pending_rows": 767
+  },
+  "review_path": "review/zh/F-2223d4d89f9d838aec25.json",
+  "review_blob_sha": "42553b6975012431fabb6c18f92614e05cda2225",
+  "empty_edit_decisions_path": "review/zh/F-2223d4d89f9d838aec25-empty-edit-decisions-C05-20261109-0600.json",
+  "empty_edit_decisions_blob_sha": "fb5b2547ddbdebf0a623e2b4daa32530eb1d201f",
+  "outstanding": "Continue source-aligned semantic review of A29185 (Annex 1), then all remaining forms A6581/A6582/A6585–A6600. Verify remaining table/form values, cross-references, legal actors, numerical thresholds, dates and any MTQ/START residue. No completion receipt until all 1,290 rows are fully checked and final QC passes."
+}
