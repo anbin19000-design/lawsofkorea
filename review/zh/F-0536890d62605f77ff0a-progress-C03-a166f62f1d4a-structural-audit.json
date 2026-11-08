@@ -1,0 +1,36 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "task_id": "WORK-TASK:C03:F-0536890d62605f77ff0a:a166f62f1d4a",
+  "status": "IN_PROGRESS",
+  "phase": "CONSOLIDATED_REVIEW_STRUCTURAL_QA",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "review_blob_sha": "b588002ffd81258a58e6b80c6c5253326f7c6721",
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_en_blob_sha": "212f5eeb058e9e05339cc68a297e4b1e24fc6a7a",
+  "checked_rows": 0,
+  "edits": [],
+  "metrics": {
+    "source_rows": 1136,
+    "review_edits": 782,
+    "untouched_rows": 354,
+    "unique_ids": 1136,
+    "source_hash_mismatch": 0,
+    "empty_effective_rows": 0,
+    "hangul_effective_rows": 0,
+    "mtq_effective_rows": 0,
+    "flagged_literal_omissions": 2
+  },
+  "unresolved_ids": [
+    "A26697-zh-00008",
+    "A26699-zh-00053",
+    "A39474-zh-00040"
+  ],
+  "source_files": {
+    "review": "review/zh/F-0536890d62605f77ff0a.json",
+    "zh": "laws/zh/F-0536890d62605f77ff0a.json"
+  },
+  "limitations": "Mechanical structure/contamination scan only. Absence of pattern tokens, Hangul or blank rows is NOT proof of translation correctness. Existing three layout-associated anomalies remain held. No complete status permitted.",
+  "note": "Consolidated 782 edits applied in-memory across 1136 source Chinese rows; source identity and no-duplicate checks passed. Review and receipts remain incomplete."
+}
