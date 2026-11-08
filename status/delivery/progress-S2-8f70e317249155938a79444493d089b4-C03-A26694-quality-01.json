@@ -1,0 +1,204 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26694",
+  "quality_batch": "A26694-quality-01",
+  "range": {
+    "first": "A26694-zh-00001",
+    "last": "A26694-zh-00018"
+  },
+  "quality_checked_rows": 18,
+  "quality_passed_rows": 18,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "A26694-zh-00001",
+    "A26694-zh-00002",
+    "A26694-zh-00003",
+    "A26694-zh-00004",
+    "A26694-zh-00005",
+    "A26694-zh-00006",
+    "A26694-zh-00007",
+    "A26694-zh-00008",
+    "A26694-zh-00009",
+    "A26694-zh-00010",
+    "A26694-zh-00011",
+    "A26694-zh-00012",
+    "A26694-zh-00013",
+    "A26694-zh-00014",
+    "A26694-zh-00015",
+    "A26694-zh-00016",
+    "A26694-zh-00017",
+    "A26694-zh-00018"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26694-00001-00052.json",
+  "results": [
+    {
+      "id": "A26694-zh-00001",
+      "source_hash": "ebf5a54c6ed16fb5921b799959eb5da70bb5ed5308765d78f2427fde46f3425d",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "별지 제2호서식과 시행규칙 법률명 일치 확인"
+    },
+    {
+      "id": "A26694-zh-00002",
+      "source_hash": "56fc3150085c7924cc758bf92d082400d4e67158fab358fdc97e6a509c3bda9d",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "판정의결서의 판정·의결 의미 대조"
+    },
+    {
+      "id": "A26694-zh-00003",
+      "source_hash": "908a4e580f61c8b9fc1e72fd77eb535ab09436f33a18f8430d9daab506cd6d7e",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "한국어 원문 서식의 동일 항목과 맞는지 확인"
+    },
+    {
+      "id": "A26694-zh-00004",
+      "source_hash": "0909c98c874340d6c25765c310d0c64b3e6d8c61a3bcf92a1db4294a6fd30da6",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "피해자 성명 대조"
+    },
+    {
+      "id": "A26694-zh-00005",
+      "source_hash": "0c9782432a61e01698b294a5acad8506a7914231b4de7978baa1e5db90bcb0f3",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "한국어 원문 서식의 동일 항목과 맞는지 확인"
+    },
+    {
+      "id": "A26694-zh-00006",
+      "source_hash": "a44e94bae9fbac50848ab404ac5d343ab654e7bad05348e6d94ca255babff421",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "영문명 대조"
+    },
+    {
+      "id": "A26694-zh-00007",
+      "source_hash": "9cf627a47a099f91ec615a3fe69c93ddb90b823d684f9b1f4aff2dfe0adda7d6",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "한국어 원문 서식의 동일 항목과 맞는지 확인"
+    },
+    {
+      "id": "A26694-zh-00008",
+      "source_hash": "cbd8975e279b620616cc2248caa1ec6c5348d1ba599415015b1022b65aa614ef",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "한국어 원문 서식의 동일 항목과 맞는지 확인"
+    },
+    {
+      "id": "A26694-zh-00009",
+      "source_hash": "d50b3dbf426664f40f93ab0da601bd7d9a2076f376bdadccf63149b8ecd1e5c3",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "신청사유 대조"
+    },
+    {
+      "id": "A26694-zh-00010",
+      "source_hash": "2cb532af2f2813d24c4b3fd7a4bd491c07062da48bfc3f869575f1f91db6556b",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "판정의견 대조"
+    },
+    {
+      "id": "A26694-zh-00011",
+      "source_hash": "fce7a1553ac75ccf2ff4b619aeb07faff1d49fe85bd128d2ebad03a85fb0529d",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "판정기관 대조"
+    },
+    {
+      "id": "A26694-zh-00012",
+      "source_hash": "bc60e4f62672120d9e79bc55cfb084364942ca0a44e2854f86207df7cb0ac1d3",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "지역기관 인신매매등사례판정위원회 고유명칭 대조"
+    },
+    {
+      "id": "A26694-zh-00013",
+      "source_hash": "707b975408fdcfe3938f9d1ab09cc15b4053bae005ae3a606bfe3034cc94e0cb",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "판정일 대조"
+    },
+    {
+      "id": "A26694-zh-00014",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "한국어 원문 서식의 동일 항목과 맞는지 확인"
+    },
+    {
+      "id": "A26694-zh-00015",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "한국어 원문 서식의 동일 항목과 맞는지 확인"
+    },
+    {
+      "id": "A26694-zh-00016",
+      "source_hash": "dfc76879e2f5c3ead09186ff1c6b635624f96b7adbd71d94c37566429ca5df6f",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "한국어 원문 서식의 동일 항목과 맞는지 확인"
+    },
+    {
+      "id": "A26694-zh-00017",
+      "source_hash": "f7594361df086f169794925e04f0ffa06e83290560b56f83c76aa1824f894a3e",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "한국어 시행령 제7조제3항 및 시행규칙 제3조제2항 인용 대조"
+    },
+    {
+      "id": "A26694-zh-00018",
+      "source_hash": "2ab95043b0103fb13a11ef983dcd1c2a92b1d551c4e54205ae7b987dcabaf02c",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "START 혼입 제거 및 '판정이 이루어졌음을 증명' 문장 의미 복원 확인"
+    }
+  ],
+  "edits": [],
+  "note": "A26694 판정의결서 1~18번 셀 한국어·중국어 대조. 원법과 시행령/시행규칙 인용 및 START 오염 복구 확인. 기존 26건 교정 및 원본 해시 불변. 가족 전체 COMPLETE 아님."
+}
