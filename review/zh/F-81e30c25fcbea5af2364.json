@@ -3059,9 +3059,54 @@
       "verification": "C02_DIRECT_KOREAN_COMPARISON",
       "reason": "Correct 건설기술 진흥법 and 건설기술, not architecture.",
       "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3aa49a4f01f1.json"
+    },
+    {
+      "id": "B2-zh-00189",
+      "source_hash": "9f43646d526d2740a6f99fcc2d2a71f0cadbbf2f4ea605daf022e11cd54c5038",
+      "target_id": "9fedff2e7b3238744a40f40a930207ba73ba007cab4d57ea23df587af6d42234",
+      "text": "增补（关于部分修订五项法令以减轻小企业主等的货币支付负担的总统令）<第34872号，2024年9月3日>\n\n",
+      "reason": "법령 includes decrees, not only bills.",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3aa49a4f01f1.json"
+    },
+    {
+      "id": "B2-zh-00192",
+      "source_hash": "51e6d2556784fa25df10dfe2c950fda03e532e72a9b09100a7e7998aabec8037",
+      "target_id": "6cef72384cda49308b713e9f29a6be36d273c0ef7c08c6b0dfe44bb107cdbe03",
+      "text": "第三条（根据《智慧城市建设及产业振兴等相关法律施行令》的修正适用）《智慧城市建设和智慧产业促进法》实施法令第22条之2、第4款的修正规定，自本法令实施后提出信息提供申请之日起适用。\n\n",
+      "reason": "Restore exact named Enforcement Decree title in legal applicability clause.",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3aa49a4f01f1.json"
+    },
+    {
+      "id": "B2-zh-00199",
+      "source_hash": "19f7bacd2e1821afa65b115e862522998ca1f4ddd3cab6af628aef7fc70b874d",
+      "target_id": "4323ffa9f58480884c766fb2be0bb945321f66ae0c8accfcdcc32c35fbcb3dcb",
+      "text": "增补（关于部分修改40项法令以扩大地方政府事务自主立法权的总统令）<第35396号，2025年3月25日>\n\n本法令自颁布之日起一年后生效。\n\n",
+      "reason": "Correct 40개 법령, not 40 laws.",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3aa49a4f01f1.json"
+    },
+    {
+      "id": "B2-zh-00201",
+      "source_hash": "f8d4d73829d0918b9b7fd8b5f4846eabf79cdcfd4fbea97e9de85bb0a0a44850",
+      "target_id": "7fcaa8a51fb1215f6c30e2b287d6c6a36ee92195983443240d7d9c7a186922ef",
+      "text": "增补（关于部分修订306项法令以反映政府组织重组的总统令）<第35811号，2025年10月1日>\n\n本法令自颁布之日起生效。但是，根据本法令修订的总统令中，凡修订在本法令生效前颁布但尚未生效的总统令的部分，均自各总统令生效之日起生效。\n\n",
+      "reason": "Correct 306개 법령, not 306 laws.",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3aa49a4f01f1.json"
+    },
+    {
+      "id": "B2-zh-00202",
+      "source_hash": "e94cb060215343794849c45723917db1ef36905da0729360d1209f1fd79739ab",
+      "target_id": "0d872dca8bc7f9340a2585ed831eb845c7d3622fa4104177682db314ac5bb0d5",
+      "text": "附则（企划预算处及其所属机关职制）<第35948号，2025年12月30日>\n\n",
+      "reason": "Correct 부칙 and 기획예산처 distinct from a ministry.",
+      "verification": "C02_DIRECT_KOREAN_COMPARISON",
+      "source_progress": "review/zh/F-81e30c25fcbea5af2364-progress-C02-3aa49a4f01f1.json"
     }
   ],
-  "adjudicated_edit_count": 313,
+  "adjudicated_edit_count": 318,
   "pending_single_candidate_count": 343,
   "pending_conflict_count": 0,
   "pending_single_candidates": [
@@ -8279,12 +8324,13 @@
     "C02 751eec993a83: B1 00106-00199 examined, amended 00131 00152 00172 to restore missing amendment item markers and truncated legal condition; IN_PROGRESS.",
     "C02 751eec993a83 B2 00001-00032 inspected; corrected B2-zh-00012 omitted scheduled time; prior 356 corrections preserved.",
     "C02 3aa49a4f01f1: B2 33-95 examined, repaired 00008, 00036, 00067, 00084; pre-existing edit wording preserved for updated entries.",
-    "C02 3aa49a4f01f1 B2 examined through row 130; corrected historical Construction Technology Promotion titles and supplementary provision label."
+    "C02 3aa49a4f01f1 B2 examined through row 130; corrected historical Construction Technology Promotion titles and supplementary provision label.",
+    "C02 3aa49a4f01f1: B2 131-209 continued; corrected 189, 192, 199, 201, 202. Previously saved edits preserved."
   ],
   "integration_progress": {
-    "stage": "B2_CHINESE_REVIEW_TO_00130",
+    "stage": "B2_CHINESE_REVIEW_COMPLETE_SOURCE_209_ROWS_ANNEXES_NEXT",
     "last_task": "WORK-TASK:C02:F-81e30c25fcbea5af2364:3aa49a4f01f1",
-    "note": "B2 00033-00130 examined. Updated existing B2 00036, 00067, 00084, 00128, 00130 with previous texts retained and added B2 00008. B2 00117 lengthy historical cross references remain flagged."
+    "note": "Source-comparison reading across B2 rows 1-209 complete (2026-11-08 continuation). Long reference B2 00117 remains marked for precise further re-adjudication. Annexes, rule and forms pending."
   },
   "checked_unique_ids": [
     "B2-zh-00124",
