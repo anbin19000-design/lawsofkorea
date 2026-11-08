@@ -1,0 +1,154 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_blob_observed": "003cad21fa104b32a22b7d401755e50ffab76f42",
+  "cumulative_corrections": 866,
+  "inspected_span": "A34909 rows 176–205 sequentially checked against the Korean annex. Previously saved corrections for rows 177, 181, 185, 187–188, 194 and 203 retained. Proposed semantic repairs recorded for obvious formula/term mistranslations and OCR artifacts.",
+  "proposed_corrections": [
+    {
+      "id": "A34909-zh-00176",
+      "source_hash": "28371363e9f4d06a3e030320f7fa0ea6cba6ae9d4e27d1304729036a37f79c37",
+      "text": "上一会计年度营业期间达到6个月以上的加盟店向特许总部支付的差额加盟费合计额（上一会计年度营业期间不足1年的加盟店，其已支付差额加盟费按全年金额折算后计入）/上一会计年度营业期间达到6个月以上的加盟店数量",
+      "reason": "직전 사업연도 1년 미만 가맹점의 차액가맹금을 1년치로 환산해 반영한다는 계산식을 손상된 [反映启动金额] 파편에서 복구."
+    },
+    {
+      "id": "A34909-zh-00178",
+      "source_hash": "8c4bfd74ba6ef99e4958ba8d042e18f33f4541d10cceebe34630f78e2d45174b",
+      "text": "上一会计年度营业期间达到6个月以上的加盟店向特许总部支付的差额加盟费合计额/",
+      "reason": "평균매출액 대비 지급비율의 분자 정의와 6개월 이상 운영 기준을 복구."
+    },
+    {
+      "id": "A34909-zh-00179",
+      "source_hash": "92ebb2fc2180505022ed38351c80e0c8a85a56f658ef2721d4a18822aafd6082",
+      "text": "上一会计年度营业期间达到6个月以上的加盟店销售额合计",
+      "reason": "분모는 동일하게 사업연도 영업기간 6개월 이상 가맹점의 매출액 합계임을 복구."
+    },
+    {
+      "id": "A34909-zh-00180",
+      "source_hash": "68d27b7ca96cc61e26b4464b4802878ddd035170df8d04f001a98c2aa1676bec",
+      "text": "3) 特许总部对加盟店经营者的库存管理、会计处理等进行监督的具体情况",
+      "reason": "가맹본부의 가맹점사업자 재고관리·회계처리 감독 내역을 원문 용어로 복구."
+    },
+    {
+      "id": "A34909-zh-00182",
+      "source_hash": "506189d3d04c6d385ceb52e483c7f3f75494cd9b038383f6f3945fbb12ef72ab",
+      "text": "1) 加盟店经营者在合同延期或续签过程中须额外承担的费用（包括必要时迁移店铺的费用）",
+      "reason": "'점포 이전'을 저장으로 오역한 부분 교정."
+    },
+    {
+      "id": "A34909-zh-00183",
+      "source_hash": "7a80b35d2903776b05dc8fa1727841e5b7c547d910715a9c3bafccc2d77612c0",
+      "text": "",
+      "reason": "앞 행 괄호를 완결하는 중복·파편 행으로 보이나 별도 행 삭제는 원문 XML 구조 확인 후 확정."
+    },
+    {
+      "id": "A34909-zh-00184",
+      "source_hash": "3b8e3cc97d1e227f13f57bc91c90fff9de228e845d8cd5d8777d087c45fc7f37",
+      "text": "2) 因特许总部方面的原因导致合同等终止时的处理措施",
+      "reason": "가맹본부의 사정에 의한 종료라는 조건을 자연인 '特许人情况'가 아닌 법률상 주체로 명확히 함."
+    },
+    {
+      "id": "A34909-zh-00186",
+      "source_hash": "25fb10e13590ebb6ff4c6ef1bc13c74428c20d6df14f7a478fd1dada9c399f6da",
+      "text": "是否承继与现有加盟店经营者签订的合同",
+      "reason": "계약승계 여부라는 법적 의미를 '계약 보유'에서 복구."
+    },
+    {
+      "id": "A34909-zh-00189",
+      "source_hash": "89a5b4ed5e1062ecf6a0a07cc0b832022fd66c88b9ef7fc19551416805730a6a",
+      "text": "3) 加盟店经营者拟将加盟店经营权转让给其他经营者时，",
+      "reason": "가맹점운영권 양도 상황을 정확히 명시."
+    },
+    {
+      "id": "A34909-zh-00190",
+      "source_hash": "91a858377a0133065274a240b0f17d64225eaff91a1d2b95ccbcf9b0ddf6967f",
+      "text": "加盟店经营者或其他经营者应向特许总部支付的对价",
+      "reason": "양도 시 가맹본부에 지급할 대가의 주체·대상을 복구."
+    },
+    {
+      "id": "A34909-zh-00191",
+      "source_hash": "82db4564cc385f9828ed930f2ff392246d3c1677782216934857ed5c31664fa3",
+      "text": "4) 合同终止后的处理措施（包括退还由特许总部或其指定者供应的物品",
+      "reason": "계약 종료 후 재고물품 반품 등 처리방안을 정확히 연결."
+    },
+    {
+      "id": "A34909-zh-00192",
+      "source_hash": "cf36d580d4603c7d8350fce4bab56fdc44c350fd1b10f0640264c87bcf951d53",
+      "text": "的条件等库存物品处理方案）",
+      "reason": "재고물품 처리 방안 예시의 조건을 완성."
+    },
+    {
+      "id": "A34909-zh-00193",
+      "source_hash": "45c6a71fc65f01c56c2b208f3c8a1101d17ae6caf617d1498d1eb2925afbc365",
+      "text": "6. 经营活动的条件及限制",
+      "reason": "영업활동 조건 및 제한이라는 법령 표제 복구."
+    },
+    {
+      "id": "A34909-zh-00196",
+      "source_hash": "9f33256839083dbe7680df42d72e664c86678d00da191254f58f14fc78011c76",
+      "text": "1) 特许总部强制或建议加盟店经营者与特许总部或其指定者进行交易时，",
+      "reason": "'강제 또는 권장'의 행위 주체 및 조건을 정확히 복구."
+    },
+    {
+      "id": "A34909-zh-00197",
+      "source_hash": "f38684952e54d33b93e845b1d69a35ddbc669ae27b94a62b7713f317bd3d40ee",
+      "text": "应列明受强制或建议交易要求约束的品项、各品项是否收取差额加盟费，",
+      "reason": "품목별 차액가맹금 수취 여부를 복구."
+    },
+    {
+      "id": "A34909-zh-00198",
+      "source_hash": "24d1da20d081abbdd1adaa05bbc5055105d8f0f0ebf509070c9e07bdf60b6d44",
+      "text": "以及公平交易委员会公告规定的主要品项上一会计年度供货价格的上限和下限",
+      "reason": "공정위 고시로 정하는 주요 품목별 공급가격 상·하한이라는 필수 정보를 복구."
+    },
+    {
+      "id": "A34909-zh-00199",
+      "source_hash": "9830cc8571a2f83da119889587f9939cc6e403c80672d6308019b496026ff958",
+      "text": "（应区分特许总部直接供应的品项与特许总部指定者供应的品项分别记载。",
+      "reason": "직접 공급/지정자 공급 품목을 구분한다는 요건을 복구."
+    },
+    {
+      "id": "A34909-zh-00200",
+      "source_hash": "fa43ff2f058cbaf7b137c1d1297939227b58d1b7ee2e88177d1e2646e590d956",
+      "text": "但特许经营业务属于零售业（指便利店等面向消费者综合销售各种日用品的行业），",
+      "reason": "소매업 정의의 '각종 잡화를 종합적으로 판매'를 정확히 복구."
+    },
+    {
+      "id": "A34909-zh-00201",
+      "source_hash": "b27a4e364602fcf964f6412314e4dba01a63bc2c2f7677bf6c9868a6ed296003",
+      "text": "或特许总部不收取差额加盟费的，",
+      "reason": "차액가맹금을 수취하지 않는 경우라는 예외 조건 복구."
+    },
+    {
+      "id": "A34909-zh-00202",
+      "source_hash": "0ff8049d38f5c41c53d0818df0fa03f23cff9e0b37c04e9a843e020c1afea598",
+      "text": "可以省略记载相关信息）",
+      "reason": "앞 행과 이어지는 정보 기재 생략 예외를 복구."
+    }
+  ],
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "chinese_total_rows": 1687,
+  "checked_rows": 849,
+  "corrected_rows": 866,
+  "quality_open_items": [
+    "Full sequential semantic audit of all 1,687 Chinese rows remains incomplete",
+    "429 rows without independently exact English require direct Korean/Chinese semantic comparison",
+    "A34909 rows 81–110, 111–145, and 146–175 proposed edits remain checkpoint-only pending official review-file save",
+    "A34909 rows 176–205 proposed corrections recorded but not committed",
+    "Remaining annex/form rows require untruncated semantic comparison and final quality control"
+  ],
+  "note": "No source SHA changed. Proposed corrections are checkpoint evidence only and are not counted as official review corrections. IN_PROGRESS; no completion receipt."
+}
