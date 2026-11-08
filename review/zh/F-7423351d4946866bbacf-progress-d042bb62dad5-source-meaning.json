@@ -1,0 +1,36 @@
+{
+  "schema": "LAW_ZH_REVIEW_AUDIT_PROGRESS_V1",
+  "job_id": "F-7423351d4946866bbacf",
+  "worker": "C01",
+  "panel_id": "panel-01",
+  "assignment_id": "S2-c174f0e36bef5fedb717095f1cea01f6",
+  "task_marker": "[WORK-TASK:C01:F-7423351d4946866bbacf:d042bb62dad5]",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "29fd3ad19b12480013c342f04f012bac25726cb3",
+    "en": "32423453da2fcfa466c97946520181a32643e289",
+    "zh": "4eae0d2ecb3c5dd734b31e00ae2466e98255dc5c"
+  },
+  "review_path": "review/zh/F-7423351d4946866bbacf.json",
+  "review_blob": "2bf14f95d3e751dfe4571618e2e232c13b086798",
+  "source_documents": 16,
+  "source_rows": 1207,
+  "prior_unique_corrections": 266,
+  "total_unique_corrections": 269,
+  "new_ids": [
+    "B1-zh-00034",
+    "B1-zh-00035",
+    "B2-zh-00002"
+  ],
+  "source_sha_unchanged": true,
+  "prior_edits_preserved": true,
+  "source_grounding": "Korean Act Arts 29/30 and Decree Art 1, prior English exact-version indexed for B1/B2",
+  "missing_english": "B3 and related annex/form documents have no independently available English body",
+  "full_semantic_review_completed": false,
+  "completion_receipt_issued": false,
+  "unresolved": [
+    "Full end-to-end semantic certification for 1207 Chinese rows",
+    "Accurate annex and form XML cell correspondence including punctuation-only rows"
+  ],
+  "next_action": "Continue same legal family until all documents have been compared without missing source sections; COMPLETE and receipt only on verified full coverage."
+}
