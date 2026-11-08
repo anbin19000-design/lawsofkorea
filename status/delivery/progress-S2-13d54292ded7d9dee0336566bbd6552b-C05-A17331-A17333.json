@@ -1,0 +1,1228 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-b03365726c96ae9a9cc1",
+  "worker": "C05",
+  "assignment_id": "S2-13d54292ded7d9dee0336566bbd6552b",
+  "status": "IN_PROGRESS",
+  "source_commit": "cf91b988356d39ef374f1e2950831b446f9805aa",
+  "source_blobs": {
+    "ko": "da998892a905553b9118a68d7462283dd789aa0e",
+    "en": "0ae67d1026dd416649e23cf41790c10a301c2597",
+    "zh": "d1581ff0123795ec633f73554343bf9e5f9f3df9"
+  },
+  "checked_rows": 131,
+  "checked_ids": [
+    "A17331-zh-00001",
+    "A17331-zh-00002",
+    "A17331-zh-00003",
+    "A17331-zh-00004",
+    "A17331-zh-00005",
+    "A17331-zh-00006",
+    "A17331-zh-00007",
+    "A17331-zh-00008",
+    "A17331-zh-00009",
+    "A17331-zh-00010",
+    "A17331-zh-00011",
+    "A17331-zh-00012",
+    "A17331-zh-00013",
+    "A17331-zh-00014",
+    "A17331-zh-00015",
+    "A17332-zh-00001",
+    "A17332-zh-00002",
+    "A17332-zh-00003",
+    "A17332-zh-00004",
+    "A17332-zh-00005",
+    "A17332-zh-00006",
+    "A17332-zh-00007",
+    "A17332-zh-00008",
+    "A17332-zh-00009",
+    "A17332-zh-00010",
+    "A17332-zh-00011",
+    "A17332-zh-00012",
+    "A17332-zh-00013",
+    "A17332-zh-00014",
+    "A17332-zh-00015",
+    "A17332-zh-00016",
+    "A17332-zh-00017",
+    "A17332-zh-00018",
+    "A17332-zh-00019",
+    "A17332-zh-00020",
+    "A17332-zh-00021",
+    "A17332-zh-00022",
+    "A17332-zh-00023",
+    "A17332-zh-00024",
+    "A17332-zh-00025",
+    "A17332-zh-00026",
+    "A17332-zh-00027",
+    "A17332-zh-00028",
+    "A17332-zh-00029",
+    "A17332-zh-00030",
+    "A17332-zh-00031",
+    "A17332-zh-00032",
+    "A17332-zh-00033",
+    "A17332-zh-00034",
+    "A17332-zh-00035",
+    "A17332-zh-00036",
+    "A17332-zh-00037",
+    "A17332-zh-00038",
+    "A17332-zh-00039",
+    "A17332-zh-00040",
+    "A17332-zh-00041",
+    "A17332-zh-00042",
+    "A17332-zh-00043",
+    "A17333-zh-00001",
+    "A17333-zh-00002",
+    "A17333-zh-00003",
+    "A17333-zh-00004",
+    "A17333-zh-00005",
+    "A17333-zh-00006",
+    "A17333-zh-00007",
+    "A17333-zh-00008",
+    "A17333-zh-00009",
+    "A17333-zh-00010",
+    "A17333-zh-00011",
+    "A17333-zh-00012",
+    "A17333-zh-00013",
+    "A17333-zh-00014",
+    "A17333-zh-00015",
+    "A17333-zh-00016",
+    "A17333-zh-00017",
+    "A17333-zh-00018",
+    "A17333-zh-00019",
+    "A17333-zh-00020",
+    "A17333-zh-00021",
+    "A17333-zh-00022",
+    "A17333-zh-00023",
+    "A17333-zh-00024",
+    "A17333-zh-00025",
+    "A17333-zh-00026",
+    "A17333-zh-00027",
+    "A17333-zh-00028",
+    "A17333-zh-00029",
+    "A17333-zh-00030",
+    "A17333-zh-00031",
+    "A17333-zh-00032",
+    "A17333-zh-00033",
+    "A17333-zh-00034",
+    "A17333-zh-00035",
+    "A17333-zh-00036",
+    "A17333-zh-00037",
+    "A17333-zh-00038",
+    "A17333-zh-00039",
+    "A17333-zh-00040",
+    "A17333-zh-00041",
+    "A17333-zh-00042",
+    "A17333-zh-00043",
+    "A17333-zh-00044",
+    "A17333-zh-00045",
+    "A17333-zh-00046",
+    "A17333-zh-00047",
+    "A17333-zh-00048",
+    "A17333-zh-00049",
+    "A17333-zh-00050",
+    "A17333-zh-00051",
+    "A17333-zh-00052",
+    "A17333-zh-00053",
+    "A17333-zh-00054",
+    "A17333-zh-00055",
+    "A17333-zh-00056",
+    "A17333-zh-00057",
+    "A17333-zh-00058",
+    "A17333-zh-00059",
+    "A17333-zh-00060",
+    "A17333-zh-00061",
+    "A17333-zh-00062",
+    "A17333-zh-00063",
+    "A17333-zh-00064",
+    "A17333-zh-00065",
+    "A17333-zh-00066",
+    "A17333-zh-00067",
+    "A17333-zh-00068",
+    "A17333-zh-00069",
+    "A17333-zh-00070",
+    "A17333-zh-00071",
+    "A17333-zh-00072",
+    "A17333-zh-00073"
+  ],
+  "decisions": [
+    {
+      "id": "A17331-zh-00001",
+      "source_hash": "cc14b8e9eb0f20506aa16bbabfc3ca5bc57af4f62ad629b18e3271cc1e8f8c1f",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17331-zh-00002",
+      "source_hash": "b94e182b9a95d9dc23294428515515c68a59d1d634e19d301cdc19e9a9516fed",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17331-zh-00003",
+      "source_hash": "0654f13f214fe4745cf108d04c0496aa40b528eafbb80a37a1ba6d3b5dac8bc6",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17331-zh-00004",
+      "source_hash": "4bf9a8fcf828c71485d33e54acf9d97782a10892fab05ac4b5ce542752e8bdc5",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17331-zh-00005",
+      "source_hash": "2a022df736d9a7d1f87548ef1ab6c1c9e8563e33f38804ca7d036d319f8e2fc6",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17331-zh-00006",
+      "source_hash": "87e7bb67d24e089a28a7dfde780efeaf0f3a72edc18e7b933a51ee4b431d3461",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17331-zh-00007",
+      "source_hash": "743154166dd107b18569db54f0eda4620f1103c128ba99265a1f3a0fdbce1c4a",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17331-zh-00008",
+      "source_hash": "8f90d983219e8c2d02fa1a6b8ecbc27f9e26cd09f99a2aebaef2ce5631f47140",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17331-zh-00009",
+      "source_hash": "d2c20f532ba9f711501b4dd7367afb0535e6229fbcad91e28b61cd330f9af9a3",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17331-zh-00010",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17331-zh-00011",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17331-zh-00012",
+      "source_hash": "1bfa95cfdfb79f2ff0ecd2412e922b1aeb3936cb6a915f5ec6569fc9388a5768",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17331-zh-00013",
+      "source_hash": "c2c25ba0a53a6f7b97292cfe2d401a55b263f9c6222471a4b8a4c3509c1a4197",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17331-zh-00014",
+      "source_hash": "a3b7834f80d74149500d22d2c65b662c728f83a40ff8c8ec5ffcd5f955e0b708",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17331-zh-00015",
+      "source_hash": "92156b24d9cc5aaf7fdd90fcbc0f68304c29d6d7249e1b3446085cad5c54e6f6",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17332-zh-00001",
+      "source_hash": "e1ca93c9c88b331eac613b2d8a57db4aa83a1e6b9b109ea1237824ba77b24a8f",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00002",
+      "source_hash": "fc3626e0b156c9a2b4f55f65b3426d07d40dade282a7d404123aa28448d90598",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00003",
+      "source_hash": "598a2778608c1df41dc3064af81ef4abe13f67c9654a2894c6a01932784368f1",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00004",
+      "source_hash": "b736160e9f7f0d321a2b458369e87ad0a76a9b7c00b4454ad463a28ce8d1d95b",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00005",
+      "source_hash": "ebc9b96eb63cf003b7b1fc13d77fd353ced43869ee6c7836a9f3be4c588e1391",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00006",
+      "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17332-zh-00007",
+      "source_hash": "5b6b2f82977dae9f922345581e6dd401309ed8d9c102923a546fc73e5f70ab95",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00008",
+      "source_hash": "3c6e1be0a7e081d37c50f2b7f697696474d32a9482645f046512b1589b330099",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00009",
+      "source_hash": "28e058c7cec8846e6c5fb52308685e1c534d4b8a745ab01a9d40c045f3fd6c71",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17332-zh-00010",
+      "source_hash": "bcd42d5c2217611caa7a65b55ccbbc08f91ecd7c9c1add3bd9428cc6e7984df9",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00011",
+      "source_hash": "d2faf56b50c397fca878ad7abf18c9427d7b90c3c98f050d8eb50b902b70dfc1",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00012",
+      "source_hash": "6f6069fb176fa16daa9eda3b6e48dfd1f13f6da2596c1d2dcdbb0fd611722236",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00013",
+      "source_hash": "1acf74242cbc3fe81bdec15211a80a62f04ff533517c717b2d350537c97e98ff",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00014",
+      "source_hash": "99584dd66059fd7c141bbba36c77afd95aef81a85300d051903924240cdd1586",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00015",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00016",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00017",
+      "source_hash": "dfc76879e2f5c3ead09186ff1c6b635624f96b7adbd71d94c37566429ca5df6f",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17332-zh-00018",
+      "source_hash": "5b6b2f82977dae9f922345581e6dd401309ed8d9c102923a546fc73e5f70ab95",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00019",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17332-zh-00020",
+      "source_hash": "a3b7834f80d74149500d22d2c65b662c728f83a40ff8c8ec5ffcd5f955e0b708",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00021",
+      "source_hash": "2099cd7f323c38ac89f0ebc4dd140529ccb048fb87aa42935038b81b0325020d",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00022",
+      "source_hash": "415c12cfe236ffa5094f9e3a7709063457a807995edc8ff53226e774fda2c5bd",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00023",
+      "source_hash": "259c456fc741e9529225a3eb6baeb74cdefd49e91c111d0a60459128643d44d9",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00024",
+      "source_hash": "0313408cdf794fea03a1b1d6758e8ad6cc7c6a9f70b7256de98dafab6a45bf1a",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00025",
+      "source_hash": "72ea3d64ace5bc9414498b815d4305c8867b0942a508179e0657ad60d1274daa",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17332-zh-00026",
+      "source_hash": "aa77174005668fbb8fdf67e265550402ab5f1ec57546efc725193866717f59a2",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17332-zh-00027",
+      "source_hash": "183fa94d3b3146c9de0c1721aa2a3bd6257162631a090811ff19e69ce48109c2",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00028",
+      "source_hash": "2879222415672d201abfe3e634d8339e67e1459aae97a4f34b023760aaf0d94f",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00029",
+      "source_hash": "def8548f9c98a33743bfc2292bd3a241e205896c73c9193ec9c1e4c67acab3f1",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00030",
+      "source_hash": "5b6b2f82977dae9f922345581e6dd401309ed8d9c102923a546fc73e5f70ab95",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00031",
+      "source_hash": "115fc95ba0f4b68f3e56de94704e9482b7550668d9e20d1bd6cf1083ba131b3c",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00032",
+      "source_hash": "dfb8dcad778b20b9a95e2d577ab436ec31a3f400aeff8772236b61db06df9aed",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00033",
+      "source_hash": "8635c3866572b5c6fefb18c26e65929fbc96485e49761d376cb826a8aa7b9a5f",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17332-zh-00034",
+      "source_hash": "d1a49186e628f9615dbcf8af8ada0507b3408799d1bf12ffd8a09c16806bb99d",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00035",
+      "source_hash": "d995d6ab415d91d191bafde064de400b1e66d82532d91ec0cc02d72258ce5cda",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00036",
+      "source_hash": "16dbeb8c6ceff88130e7b079bb47acc9d5218d309fc9caa42a7438aa623d1746",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00037",
+      "source_hash": "5ff88008c5d112423b31e37d7bc0f27b4857ed177024b5599796c4beca7b06e9",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00038",
+      "source_hash": "9e7b724798fd633c8edd94df985f5dd5a381061bd13904fe0c55ebc9b9e7effd",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00039",
+      "source_hash": "55ab5fa7d17db8e2879073ff92c0886ee882cd9e5b61ce1bccc4186206201ede",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17332-zh-00040",
+      "source_hash": "0f2fdc11607221800146fbf5cf36ecb3c223e90a305ed346c0a13f2a962ae80e",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00041",
+      "source_hash": "4a711d897fdcfeef5ae465f3009cb7cda130eb44ed7272986cd6c7f8caed69cb",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00042",
+      "source_hash": "7e26d6faa049995d58c382c74bc2f5830e56d8ef6b2005e6f1671badb8ac565a",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17332-zh-00043",
+      "source_hash": "ec2aee85e540da2966af6b5ce253349646f0057e491c46dc4ce5e0035e5f08a4",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00001",
+      "source_hash": "9e668df3d14d7afa57cb3469da3acb063261c21e73cd1305440aaee6eddeed61",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00002",
+      "source_hash": "7c2961097df9add173182ed24673d75f8925d05b7f019696f6be33e0a20ba0d3",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00003",
+      "source_hash": "aac672156bf1f04199b60a5b47e8448fd064433ec0c039efab7f121dd2368beb",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00004",
+      "source_hash": "d756749ae151055bb3f2fb59a27fb00c3964fefb2a90809570b03e8c0189e1ab",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00005",
+      "source_hash": "3b5cdc9b5b9ae5bb9eccb8fe25cf46aafcea9367139bcc8272e8cbc3765ff429",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00006",
+      "source_hash": "09642c0e30ab71891e8987501d20e68dae32f66309816eff789cf124d5bd4ae2",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17333-zh-00007",
+      "source_hash": "b736160e9f7f0d321a2b458369e87ad0a76a9b7c00b4454ad463a28ce8d1d95b",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00008",
+      "source_hash": "5a4e38a1578eaec376cc5e1ad28f33f019956fc98d46f14b142cad94c5b1d1a5",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00009",
+      "source_hash": "80b03cc02583c37dc85c2eb20609c54da5f42ed2d43474a25b505193a5cc031c",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17333-zh-00010",
+      "source_hash": "dc8c86b5bbd150807c03c6ad18d1a508a62fa5241d72f56ea78063a4af14ac65",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00011",
+      "source_hash": "5ea1f8dafca22f113f3a65157e944089af64c66c3a0a9d08197d9344b6a52b5a",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17333-zh-00012",
+      "source_hash": "4787bcc7954fdfb3c972a917a67151d75fa62f8d6cf1bc45a6b9d126e0b85209",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00013",
+      "source_hash": "fcf499d943a69cd0a7f49a2f56d1f62c47ab38e4a8a46df75dba413fe834c156",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00014",
+      "source_hash": "ef4403031e6e67eb6ff612ac7f030ff5fcf2e12e2b56fe2fa253adc78b0c68bb",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00015",
+      "source_hash": "4edc94394feec0a6ca6b04c04db74384ad82a009922c2195ea48a7c1cda5088e",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17333-zh-00016",
+      "source_hash": "c14484ea765b49d7af49c383cb9a04006d10bd9d6e35859934686c4611e5cc43",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00017",
+      "source_hash": "e46fb1186ad02a941e6aedce49d6283185570bc04f7a86cd5298394f7afae066",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00018",
+      "source_hash": "f71016fc990e7ed588326e1755df191a9f8bec240aeb6689c06f3781513813c6",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00019",
+      "source_hash": "cd4530df02c851d2b57afc9c6fb6febe1351ab9d2999a98ee307742d88bd4626",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00020",
+      "source_hash": "137f8ca799a5827448b3b821dc4d88c95c42bb682d148dc6510bdcdce696109c",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00021",
+      "source_hash": "e0bebb354d8f7f3b0c8204eb75c50bfa0454ca9797de7d5d8d4c1ddc4d77a399",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00022",
+      "source_hash": "5b910cd1473d913c6c858155675ff04b62c1bac78641367474fda3758421a496",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00023",
+      "source_hash": "ae6a2f457c747e031d0a27ad07450e83ec9607615d8eb39ab7b83a71fabe93a8",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00024",
+      "source_hash": "5fbc9add7bd4911bb91895472982650616da7c0564b37eb59e59586070c04ee1",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00025",
+      "source_hash": "137f8ca799a5827448b3b821dc4d88c95c42bb682d148dc6510bdcdce696109c",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00026",
+      "source_hash": "0b9510ddacb7d400d65a1dffdec5c3275000f07b5de3a972de7036ce085fbd13",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00027",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00028",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00029",
+      "source_hash": "6040c4d0b46d3b42dd6bad4f3373c3c1a00f37dc13d17a81a27af0aea42a8b59",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00030",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00031",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00032",
+      "source_hash": "f0e17baacb8b695df040566bcb5ab0e0e8c41d74e7c44098c654e684c2f51305",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00033",
+      "source_hash": "974fa99cbd5e266720415dfa25024d1e80d835f450e8f88927fcdd8bbff6709a",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00034",
+      "source_hash": "60cf01c0e15aaa5ee7fc291a5395e1ddb74164019adc11e3e607a8edd110a835",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00035",
+      "source_hash": "724667c179f1d617fbc39be385465404593aa6f6b4e7f81408384da995c1520e",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00036",
+      "source_hash": "be6dc0c819268ba649c9ba6621b949f0fa1efb5fed869452e7312755d89b944c",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00037",
+      "source_hash": "02b79faeda1c6605fe81a969fffda59e2acbfda61eb362addb24bbe165853732",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00038",
+      "source_hash": "5796871dc935ab30cea621be26ebd68ac5193d99c6c1e240fc7e26ff771e343c",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00039",
+      "source_hash": "ae6a2f457c747e031d0a27ad07450e83ec9607615d8eb39ab7b83a71fabe93a8",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00040",
+      "source_hash": "9aedc527e7b27ba1987d6abe847044f59b0b624a9b8fff84fc4b9bb976700c5b",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00041",
+      "source_hash": "d6377877a269d44e7eecd2879fbc3332a38346305032e146a1788d7cb529c86a",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00042",
+      "source_hash": "4732a1490af0471f79ab5e2407c1dcee648c26f202fa144d56c8b53bff664933",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00043",
+      "source_hash": "ac0b9496223ef3c32562b9697c2b7e7408f2b12126ed7d37b6e49b54de02b720",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00044",
+      "source_hash": "87af741a9b2b475f5e32c45e3a3cbcb6f84a06ce44f1df4ed64988245c6c9958",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00045",
+      "source_hash": "9f45c10c3ac91dd691bb664dadbf59b59caf2f6e72b47011ca1fa190ec6d391c",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00046",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00047",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00048",
+      "source_hash": "dfc76879e2f5c3ead09186ff1c6b635624f96b7adbd71d94c37566429ca5df6f",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17333-zh-00049",
+      "source_hash": "ef1661bfe1d0b773aea1bc51daf1dfa70e9d997454acf123165fd7df67dc959c",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17333-zh-00050",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17333-zh-00051",
+      "source_hash": "a3b7834f80d74149500d22d2c65b662c728f83a40ff8c8ec5ffcd5f955e0b708",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00052",
+      "source_hash": "2099cd7f323c38ac89f0ebc4dd140529ccb048fb87aa42935038b81b0325020d",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00053",
+      "source_hash": "415c12cfe236ffa5094f9e3a7709063457a807995edc8ff53226e774fda2c5bd",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00054",
+      "source_hash": "4a83289516790ecdb5e087e7da05ae8b1480b4955c5998d0d7f264841c69342f",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00055",
+      "source_hash": "0313408cdf794fea03a1b1d6758e8ad6cc7c6a9f70b7256de98dafab6a45bf1a",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00056",
+      "source_hash": "93ad15edc700f339b56ef23d202edda1bea6bea2aa7f270e06061307dfae9388",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00057",
+      "source_hash": "72ea3d64ace5bc9414498b815d4305c8867b0942a508179e0657ad60d1274daa",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17333-zh-00058",
+      "source_hash": "4a8171fc7a15874de8bb41def257b1a7c30fbd8286fab474d1053f5c54fa6b1b",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00059",
+      "source_hash": "767ac20c00c2974e69aecbbb8d0c93ec0b64177a52b3dd60df5b0ccfb2d43333",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00060",
+      "source_hash": "a25ac035fd928dc91d25d7b38db340d69ee5ad4106229edaea59f33bf4e90b61",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00061",
+      "source_hash": "00efa8293d27536b111da388f0f1f2e300c119b7506819babcd3d56440878caa",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00062",
+      "source_hash": "eb3929383a59930a4451f3d52c6650822f9674ab7be719bfe009ebe2dc056d23",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00063",
+      "source_hash": "2879222415672d201abfe3e634d8339e67e1459aae97a4f34b023760aaf0d94f",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00064",
+      "source_hash": "321ce10951f8f28721f9181ec572e0fabcef03b215851df2b0d53507c4634ea8",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00065",
+      "source_hash": "7e75ad0a7ea4c419d8532ca6652de0d23b34f1ecc852de4b3aaa54ed418b29f3",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00066",
+      "source_hash": "415c12cfe236ffa5094f9e3a7709063457a807995edc8ff53226e774fda2c5bd",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00067",
+      "source_hash": "9e38f612af32309db6d0eebf1565bd70377b8b6bd4d19cce5d3ff1814d6f7079",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00068",
+      "source_hash": "4f961469c457130737f277d3bf7109e25b7b49eeb89e618f98200b9f308ad3d3",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00069",
+      "source_hash": "4564d95ffa561119082c5ae6987690106e4e7d38cd89e1ce20bfca57bf2cd75a",
+      "decision": "CORRECT"
+    },
+    {
+      "id": "A17333-zh-00070",
+      "source_hash": "ef1661bfe1d0b773aea1bc51daf1dfa70e9d997454acf123165fd7df67dc959c",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17333-zh-00071",
+      "source_hash": "8635c3866572b5c6fefb18c26e65929fbc96485e49761d376cb826a8aa7b9a5f",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17333-zh-00072",
+      "source_hash": "8635c3866572b5c6fefb18c26e65929fbc96485e49761d376cb826a8aa7b9a5f",
+      "decision": "KEEP"
+    },
+    {
+      "id": "A17333-zh-00073",
+      "source_hash": "8635c3866572b5c6fefb18c26e65929fbc96485e49761d376cb826a8aa7b9a5f",
+      "decision": "KEEP"
+    }
+  ],
+  "edits": [
+    {
+      "id": "A17331-zh-00001",
+      "text": "■ 《宇宙技术促进法施行规则》[附页第8号之6表格] <2024年5月27日修订>"
+    },
+    {
+      "id": "A17331-zh-00002",
+      "text": "第　号"
+    },
+    {
+      "id": "A17331-zh-00003",
+      "text": "宇宙新技术指定证书"
+    },
+    {
+      "id": "A17331-zh-00005",
+      "text": "2. 开发者（改良者）："
+    },
+    {
+      "id": "A17331-zh-00006",
+      "text": "3. 技术内容："
+    },
+    {
+      "id": "A17331-zh-00008",
+      "text": "依据《宇宙开发促进法》第十八条之七及同法施行令第十九条之十一，将上述技术"
+    },
+    {
+      "id": "A17331-zh-00009",
+      "text": "指定为宇宙新技术。"
+    },
+    {
+      "id": "A17331-zh-00010",
+      "text": "年"
+    },
+    {
+      "id": "A17331-zh-00011",
+      "text": "月"
+    },
+    {
+      "id": "A17331-zh-00012",
+      "text": "日"
+    },
+    {
+      "id": "A17331-zh-00013",
+      "text": "公章"
+    },
+    {
+      "id": "A17331-zh-00014",
+      "text": "宇宙航空厅厅长"
+    },
+    {
+      "id": "A17332-zh-00001",
+      "text": "■ 《宇宙开发促进法施行规则》[附页第9号表格] <2024年5月27日修订>"
+    },
+    {
+      "id": "A17332-zh-00002",
+      "text": "损失补偿请求书"
+    },
+    {
+      "id": "A17332-zh-00003",
+      "text": "（正面）"
+    },
+    {
+      "id": "A17332-zh-00004",
+      "text": "受理编号"
+    },
+    {
+      "id": "A17332-zh-00005",
+      "text": "受理日期"
+    },
+    {
+      "id": "A17332-zh-00007",
+      "text": "请求人"
+    },
+    {
+      "id": "A17332-zh-00008",
+      "text": "姓名或名称"
+    },
+    {
+      "id": "A17332-zh-00011",
+      "text": "损失补偿金额及其明细"
+    },
+    {
+      "id": "A17332-zh-00012",
+      "text": "协商内容"
+    },
+    {
+      "id": "A17332-zh-00013",
+      "text": "因宇宙物体发射造成的出入管制而遭受损失，依据《宇宙开发促进法》第二十条之二第一款、"
+    },
+    {
+      "id": "A17332-zh-00014",
+      "text": "同法施行令第二十条之二第一款及同法施行规则第十一条，请求按上述内容予以补偿。"
+    },
+    {
+      "id": "A17332-zh-00015",
+      "text": "年"
+    },
+    {
+      "id": "A17332-zh-00016",
+      "text": "月"
+    },
+    {
+      "id": "A17332-zh-00018",
+      "text": "请求人"
+    },
+    {
+      "id": "A17332-zh-00020",
+      "text": "宇宙航空厅厅长"
+    },
+    {
+      "id": "A17332-zh-00021",
+      "text": "敬启"
+    },
+    {
+      "id": "A17332-zh-00022",
+      "text": "随附文件"
+    },
+    {
+      "id": "A17332-zh-00023",
+      "text": "损失证明文件1份"
+    },
+    {
+      "id": "A17332-zh-00024",
+      "text": "手续费"
+    },
+    {
+      "id": "A17332-zh-00027",
+      "text": "（背面）"
+    },
+    {
+      "id": "A17332-zh-00028",
+      "text": "办理流程"
+    },
+    {
+      "id": "A17332-zh-00029",
+      "text": "本请求书按下列流程处理。"
+    },
+    {
+      "id": "A17332-zh-00030",
+      "text": "请求人"
+    },
+    {
+      "id": "A17332-zh-00031",
+      "text": "办理机关（主管部门）"
+    },
+    {
+      "id": "A17332-zh-00032",
+      "text": "（遭受损失的人）"
+    },
+    {
+      "id": "A17332-zh-00034",
+      "text": "填写请求书"
+    },
+    {
+      "id": "A17332-zh-00035",
+      "text": "受理"
+    },
+    {
+      "id": "A17332-zh-00036",
+      "text": "宇宙航空厅厅长与"
+    },
+    {
+      "id": "A17332-zh-00037",
+      "text": "请求人之间协商"
+    },
+    {
+      "id": "A17332-zh-00038",
+      "text": "协商未达成"
+    },
+    {
+      "id": "A17332-zh-00040",
+      "text": "进行损失调查及"
+    },
+    {
+      "id": "A17332-zh-00041",
+      "text": "鉴定评价"
+    },
+    {
+      "id": "A17332-zh-00042",
+      "text": "补偿完成"
+    },
+    {
+      "id": "A17332-zh-00043",
+      "text": "支付补偿金"
+    },
+    {
+      "id": "A17333-zh-00001",
+      "text": "■ 《宇宙开发促进法施行规则》[附页第10号表格] <2025年4月23日新设>"
+    },
+    {
+      "id": "A17333-zh-00002",
+      "text": "投资促进地区"
+    },
+    {
+      "id": "A17333-zh-00003",
+      "text": "[  ]指定"
+    },
+    {
+      "id": "A17333-zh-00004",
+      "text": "申请书"
+    },
+    {
+      "id": "A17333-zh-00005",
+      "text": "[  ]变更"
+    },
+    {
+      "id": "A17333-zh-00007",
+      "text": "受理编号"
+    },
+    {
+      "id": "A17333-zh-00008",
+      "text": "受理日期及时间"
+    },
+    {
+      "id": "A17333-zh-00010",
+      "text": "60日"
+    },
+    {
+      "id": "A17333-zh-00012",
+      "text": "姓名（法人名称及代表人姓名）"
+    },
+    {
+      "id": "A17333-zh-00013",
+      "text": "出生年月日（法人登记号码）"
+    },
+    {
+      "id": "A17333-zh-00014",
+      "text": "所在地"
+    },
+    {
+      "id": "A17333-zh-00016",
+      "text": "申请（变更）事项"
+    },
+    {
+      "id": "A17333-zh-00017",
+      "text": "申请区域"
+    },
+    {
+      "id": "A17333-zh-00018",
+      "text": "区域名称"
+    },
+    {
+      "id": "A17333-zh-00019",
+      "text": "面"
+    },
+    {
+      "id": "A17333-zh-00020",
+      "text": "积"
+    },
+    {
+      "id": "A17333-zh-00021",
+      "text": "所"
+    },
+    {
+      "id": "A17333-zh-00022",
+      "text": "在地"
+    },
+    {
+      "id": "A17333-zh-00024",
+      "text": "目"
+    },
+    {
+      "id": "A17333-zh-00025",
+      "text": "的"
+    },
+    {
+      "id": "A17333-zh-00026",
+      "text": "投资实施期间"
+    },
+    {
+      "id": "A17333-zh-00027",
+      "text": "年"
+    },
+    {
+      "id": "A17333-zh-00028",
+      "text": "月"
+    },
+    {
+      "id": "A17333-zh-00029",
+      "text": "起"
+    },
+    {
+      "id": "A17333-zh-00030",
+      "text": "年"
+    },
+    {
+      "id": "A17333-zh-00031",
+      "text": "月"
+    },
+    {
+      "id": "A17333-zh-00032",
+      "text": "至"
+    },
+    {
+      "id": "A17333-zh-00033",
+      "text": "（个月）"
+    },
+    {
+      "id": "A17333-zh-00034",
+      "text": "投资总金额"
+    },
+    {
+      "id": "A17333-zh-00035",
+      "text": "雇用规模"
+    },
+    {
+      "id": "A17333-zh-00036",
+      "text": "（常年雇用劳动者人数）"
+    },
+    {
+      "id": "A17333-zh-00037",
+      "text": "按事业内容"
+    },
+    {
+      "id": "A17333-zh-00038",
+      "text": "（按项目）"
+    },
+    {
+      "id": "A17333-zh-00040",
+      "text": "变更理由"
+    },
+    {
+      "id": "A17333-zh-00041",
+      "text": "※ 申请变更时简要说明变更原因。"
+    },
+    {
+      "id": "A17333-zh-00042",
+      "text": "依《宇宙开发促进法》第二十三条之二第一款、同法施行令第二十一条之四第四款及第七款、同法施行规则"
+    },
+    {
+      "id": "A17333-zh-00043",
+      "text": "第十二条，申请上述投资促进地区的[  ]指定或"
+    },
+    {
+      "id": "A17333-zh-00044",
+      "text": "[  ]变更。"
+    },
+    {
+      "id": "A17333-zh-00045",
+      "text": "以上申请事项如上。"
+    },
+    {
+      "id": "A17333-zh-00046",
+      "text": "年"
+    },
+    {
+      "id": "A17333-zh-00047",
+      "text": "月"
+    },
+    {
+      "id": "A17333-zh-00051",
+      "text": "宇宙航空厅厅长"
+    },
+    {
+      "id": "A17333-zh-00052",
+      "text": "敬启"
+    },
+    {
+      "id": "A17333-zh-00053",
+      "text": "随附文件"
+    },
+    {
+      "id": "A17333-zh-00054",
+      "text": "包括下列事项的事业计划书"
+    },
+    {
+      "id": "A17333-zh-00055",
+      "text": "手续费"
+    },
+    {
+      "id": "A17333-zh-00056",
+      "text": "1. 投资促进地区内投资总金额及投资内容"
+    },
+    {
+      "id": "A17333-zh-00058",
+      "text": "2. 雇用规模"
+    },
+    {
+      "id": "A17333-zh-00059",
+      "text": "3. 资金筹措计划"
+    },
+    {
+      "id": "A17333-zh-00060",
+      "text": "4. 对地区经济的贡献"
+    },
+    {
+      "id": "A17333-zh-00061",
+      "text": "5. 其他为吸引投资促进地区内投资所需且由宇宙航空厅厅长确定"
+    },
+    {
+      "id": "A17333-zh-00062",
+      "text": "并公告的事项"
+    },
+    {
+      "id": "A17333-zh-00063",
+      "text": "办理流程"
+    },
+    {
+      "id": "A17333-zh-00064",
+      "text": "填写指定（变更）申请书"
+    },
+    {
+      "id": "A17333-zh-00065",
+      "text": "受理"
+    },
+    {
+      "id": "A17333-zh-00066",
+      "text": "随附文件"
+    },
+    {
+      "id": "A17333-zh-00067",
+      "text": "通知结果"
+    },
+    {
+      "id": "A17333-zh-00068",
+      "text": "填写"
+    },
+    {
+      "id": "A17333-zh-00069",
+      "text": "确认并审核"
+    }
+  ],
+  "next_id": "FINAL_INTEGRITY_AUDIT",
+  "note": "Korean compare final A17331-33: technology designation certificate, loss-compensation claimant and agreed/non-agreed appraisal flow, investment district designation/change 60 day application. Existing MTQ A17332-00006 and -00039, A17333-00009 plus agency A17332-00033, A17333-00071-73 retained without duplicate."
+}
