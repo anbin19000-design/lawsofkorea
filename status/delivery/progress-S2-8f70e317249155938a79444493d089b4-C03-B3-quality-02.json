@@ -1,0 +1,54 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "B3",
+  "quality_batch": "B3-quality-02",
+  "range": {
+    "first": "B3-zh-00013",
+    "last": "B3-zh-00019"
+  },
+  "quality_checked_rows": 3,
+  "quality_passed_rows": 3,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "B3-zh-00013",
+    "B3-zh-00018",
+    "B3-zh-00019"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B3-00010-00019.json",
+  "results": [
+    {
+      "id": "B3-zh-00013",
+      "source_hash": "4916c8edb5581ed37eb774eaf964580fea1a3d5d08a25b9bc9f3d9fc29f5ccaf",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "한국어 제12조 6개 평가기준과 제2항 위탁 주체, 전문성·인력·장비 요건, 2025.10.1 개정 표시를 신규 교정문과 대조해 일치함을 확인."
+    },
+    {
+      "id": "B3-zh-00018",
+      "source_hash": "dc62a1c00ddeea8e1743f7d80415670f4d8e40de8b222d83978078c9adc0e58b",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "부칙 제6조 제16호의 구 여성가족부장관·여성가족부령·여성가족부에서 신 성평등가족부장관·성평등가족부령·성평등가족부로 변경하는 서로 다른 3개 대상 및 조문·서식 인용이 보존됨."
+    },
+    {
+      "id": "B3-zh-00019",
+      "source_hash": "72231f6d67aea1375a145784438aade61e92b3edaadf5a41a91c609be483336b",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "2026.7.22 제13호 부칙 및 공포일 시행을 보존하고 다음 별지·서식의 한국어 원문을 이 셀에 포함하지 않음을 확인."
+    }
+  ],
+  "edits": [],
+  "note": "B3-00013-quality-fix 신규 교정 및 기존 B3-00010-00019의 18·19번을 품질 확인. B3-zh-00014~00017 원문 미교정 상태 유지. 전체 가족 고유 행 통합 검증 및 최종 영수증은 미완료."
+}
