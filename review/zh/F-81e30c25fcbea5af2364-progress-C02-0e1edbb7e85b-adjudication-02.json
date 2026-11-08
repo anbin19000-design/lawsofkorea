@@ -1,0 +1,82 @@
+{
+  "schema": "LAW_ZH_C02_CANDIDATE_ADJUDICATION_V1",
+  "job_id": "F-81e30c25fcbea5af2364",
+  "assignment_id": "S2-ae8f8a85c5ace955ac8120fa9a6c7730",
+  "worker": "C02",
+  "task_marker": "0e1edbb7e85b",
+  "status": "IN_PROGRESS",
+  "source_blob_sha": {
+    "en": "d14318cac0f84def17a0a76b390a27ab076ebe8d",
+    "ko": "f537bf28431aceeb8e41ed1ecec3e9efa3ca31c2",
+    "zh": "a645aef6c5a2515e51322d6b9b69047f5ac6c25e"
+  },
+  "scope": "Additional Korean Act/Decree source-grounded historical review",
+  "decisions": [
+    {
+      "id": "B1-zh-00027",
+      "decision": "RETAIN_MASTER",
+      "source_hash": "d82d301b2a3a19b17db99adca7a68e9d63ffc07dd5554f56100178ba8424babd",
+      "target_id": "0b3e58d502f1bb1b7f634f098671d47cc7e7a1e9196a1319af5a5d0f9b779955",
+      "reason": "Korean Act Article 19-3 permits paid use of smart city infrastructure for service or technology development/upgrade and financial support within budget. Accepted master retains rights, purposes, and budget ceiling; candidate differs in wording.",
+      "retained_text": "第十九条之三（智慧城市基础设施等的利用）\n① 智慧城市基础设施管理机构可以允许有意开发或升级智慧城市服务或智慧城市技术的个人付费使用智慧城市基础设施进行测试等活动。<2017年3月21日修订>\n② 国土交通大臣可在预算范围内，为智慧城市基础设施管理机构实施的智慧城市服务或智慧城市技术开发与升级项目的部分费用提供财政支持。<2013年3月23日修订；2017年3月21日修订>\n\n",
+      "rejected_historical_variant": "第十九条之三（智慧城市基础设施的利用等）\n① 智慧城市基础设施的管理机关可以允许拟开发或提升智慧城市服务、智慧城市技术的主体有偿利用智慧城市基础设施开展试验等。<2017年3月21日修订>\n② 国土交通部长官可以在预算范围内，对智慧城市基础设施管理机关实施的智慧城市服务或智慧城市技术开发及提升事业所需的部分费用给予支持。<2013年3月23日、2017年3月21日修订>\n"
+    },
+    {
+      "id": "B1-zh-00037",
+      "decision": "RETAIN_MASTER",
+      "source_hash": "289e7ad3130c6375a23e446e9a428fd1b7348c92dd9c8a61d7c149569315948c",
+      "target_id": "78e04dba61fcd67483a11537a100fa689f328ecd27822d207672e33949734bb3",
+      "reason": "Korean Act Article 24-3 authorizes supervising project implementers/association, requiring reports and inspection by ministry-affiliated public officials carrying ID. Accepted master retains mandatory ID and affiliation, compared directly with Korean.",
+      "retained_text": "第二十四条之三（指导、监督等）\n① 国土交通部长官在必要时，为监督智慧城市项目实施者及协会，可要求其报告业务事项、提交资料或发出其他必要命令，并可派其所属公务员进入其办公室，调查或检查账簿、文件等。<2020年6月9日修订>\n② 按照第1款规定进行进入、检查等的公务员应当携带表明其职权的证件，并向对方出示。\n\n第六章 智慧城市产业支持 <2017年3月21日新增>\n\n",
+      "rejected_historical_variant": "第二十四条之三（指导、监督等）\n① 国土交通部长官为监督智慧城市事业实施者及协会，在必要时可以命令其报告业务事项、提交资料或下达其他必要命令，并可令所属公务员进入其事务所调查、检查账簿、文件等。<2020年6月9日修订>\n② 依第一款进入事务所进行检查等的公务员，应携带表明权限的证件并向对方出示。\n\n第六章 智慧城市产业的支持<2017年3月21日新增>\n"
+    },
+    {
+      "id": "B1-zh-00085",
+      "decision": "RETAIN_MASTER",
+      "source_hash": "0b5eb08af2be3ef2eaacfbbaf3078ad456053d4123320f90a53940daa6da8187",
+      "target_id": "a347f9d040fe60c33eb8888f3938a5deeb00fbbc9bc6d60e70a44adb9bf527bc",
+      "reason": "Korean supplementary statute #9174 2008-12-26 is 공유재산 및 물품 관리법; accepted 公共财产及物品管理法 is established specific property term, alternate 共有财产 is not a required correction.",
+      "retained_text": "附则（《公共财产及物品管理法》）<第9174号法律，2008年12月26日>\n\n",
+      "rejected_historical_variant": "附则（《共有财产及物品管理法》）<第9174号，2008年12月26日>\n\n"
+    },
+    {
+      "id": "B1-zh-00090",
+      "decision": "RETAIN_MASTER",
+      "source_hash": "34cbc586ef7876efeba0a0b4d2a42a064fed421ae742a3ff4e3ce20d72ea17e7",
+      "target_id": "9a09d51d39c56cbc593fa16df49d9e497b873a32175447f3854880350e7f1ff5",
+      "reason": "Korean supplementary statute #9705 2009-05-22; both titles/date match, master clarifies statute number as 法律; retain.",
+      "retained_text": "附则（《国家信息化基本法》）<第9705号法律，2009年5月22日>\n\n",
+      "rejected_historical_variant": "附则（《国家信息化基本法》）<第9705号，2009年5月22日>\n\n"
+    },
+    {
+      "id": "B1-zh-00094",
+      "decision": "RETAIN_MASTER",
+      "source_hash": "b9c58ecbc7ea93de17ff2e8b4efc4a4fdbea754e1ed8499f33cc4677d018e83b",
+      "target_id": "34d18520fbc1939b8bdb90b03f035282fb864ffdf29e8101a1c741bf125ed6cb",
+      "reason": "Korean supplementary statute #9758 2009-06-09; existing master supplies 法律 suffix without change in legal citation.",
+      "retained_text": "附则（《农渔村整备法》）<第9758号法律，2009年6月9日>\n\n",
+      "rejected_historical_variant": "附则（《农渔村整备法》）<第9758号，2009年6月9日>\n\n"
+    },
+    {
+      "id": "B1-zh-00098",
+      "decision": "RETAIN_MASTER",
+      "source_hash": "cb888401113069b0afcae01e93c372358d449a3a0b3ae94401eb2d17a1ab9548",
+      "target_id": "e014bc14e648eebe8b8c3f6ae9d2ee6caa7a4b66f5e2cba4f8c3d09e0ea998b6",
+      "reason": "Korean supplementary statute #9763 2009-06-09; existing master supplies 法律 suffix without change in legal citation.",
+      "retained_text": "附则（《森林保护法》）<第9763号法律，2009年6月9日>\n\n",
+      "rejected_historical_variant": "附则（《森林保护法》）<第9763号，2009年6月9日>\n\n"
+    },
+    {
+      "id": "B2-zh-00027",
+      "decision": "RETAIN_MASTER",
+      "source_hash": "efe4deb8b4b315678f2abf7536b1f31c9e803daa4e4fb282e76a9ba0c73d1c48",
+      "target_id": "d1f1d83bbed74f687efad537dc8ab2a81d6c99229edab5367538547c4b1f9a21",
+      "reason": "Korean Decree Article 22-2 requires actual-cost cap on fee, notice in gazette and website, waiver for public and educational use, and possible reduction for small merchants/SMEs. Accepted master retains the full four paragraphs and actual-cost cap.",
+      "retained_text": "第二十二条之二（促进智慧城市服务相关信息的流通）\n① 智慧城市基础设施管理机关依据本法第十九条之二第一款拟提供信息时，应当在该机关的互联网主页公开该信息的目录及概要等。<2017年9月19日修订>\n② 本法第十九条之二第二款规定的手续费，由智慧城市基础设施管理机关在实际费用范围内确定，并应将其内容在官方公报或地方公报上公告，同时在该机关的互联网主页上公告。<2017年9月19日修订>\n③ 智慧城市基础设施管理机关在利用智慧城市服务相关信息符合下列任一情形时，可以免收手续费。<2017年9月19日修订>\n1. 国家或地方自治团体将该信息用于其业务时\n2. 教育、研究机构将该信息用于教育研究时\n④ 缴纳手续费的对象属于《小工商业基本法》第二条规定的小工商业者或《中小企业基本法》第二条规定的中小企业者，且智慧城市基础设施管理机关认为为减轻该对象的经济负担或支持经营稳定等有必要减免手续费时，可以减免手续费。<2024年9月3日新增>\n\n",
+      "rejected_historical_variant": "第二十二条之二（促进智慧城市服务相关信息的流通）\n① 智慧城市基础设施管理机关依照法第十九条之二第一款拟提供信息时，应当在该机构互联网主页公开信息目录及概要等。<2017年9月19日修订>\n② 法第十九条之二第二款规定的手续费，由智慧城市基础设施管理机关在实际成本范围内确定，并应在官报或公报中公告其内容，同时在该机构互联网主页公布。<2017年9月19日修订>\n③ 智慧城市基础设施管理机关在利用智慧城市服务相关信息符合下列任意一种情形时，可以免除手续费。<2017年9月19日修订>\n1. 国家或地方自治团体将信息用于其业务时\n2. 教育、研究机构将信息用于教育研究时\n④ 缴费对象为《小工商业者基本法》第二条规定的小工商业者或《中小企业基本法》第二条规定的中小企业者，且智慧城市基础设施管理机关认为为减轻其经济负担或支持经营稳定等有必要减免手续费时，可以减免手续费。<2024年9月3日新增>\n\n"
+    }
+  ],
+  "new_edits": 0,
+  "remaining_candidates_expected": 75,
+  "completion_receipt_verified": false
+}
