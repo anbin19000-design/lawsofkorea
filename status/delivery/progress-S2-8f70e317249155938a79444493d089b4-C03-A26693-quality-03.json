@@ -1,0 +1,367 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "A26693",
+  "quality_batch": "A26693-quality-03",
+  "range": {
+    "first": "A26693-zh-00031",
+    "last": "A26693-zh-00064"
+  },
+  "quality_checked_rows": 34,
+  "quality_passed_rows": 33,
+  "quality_failed_rows": 1,
+  "quality_checked_ids": [
+    "A26693-zh-00031",
+    "A26693-zh-00032",
+    "A26693-zh-00033",
+    "A26693-zh-00034",
+    "A26693-zh-00035",
+    "A26693-zh-00036",
+    "A26693-zh-00037",
+    "A26693-zh-00038",
+    "A26693-zh-00039",
+    "A26693-zh-00040",
+    "A26693-zh-00041",
+    "A26693-zh-00042",
+    "A26693-zh-00043",
+    "A26693-zh-00044",
+    "A26693-zh-00045",
+    "A26693-zh-00046",
+    "A26693-zh-00047",
+    "A26693-zh-00048",
+    "A26693-zh-00049",
+    "A26693-zh-00050",
+    "A26693-zh-00051",
+    "A26693-zh-00052",
+    "A26693-zh-00053",
+    "A26693-zh-00054",
+    "A26693-zh-00055",
+    "A26693-zh-00056",
+    "A26693-zh-00057",
+    "A26693-zh-00058",
+    "A26693-zh-00059",
+    "A26693-zh-00060",
+    "A26693-zh-00061",
+    "A26693-zh-00062",
+    "A26693-zh-00063",
+    "A26693-zh-00064"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26693-00031-00064.json",
+  "prior_quality_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-A26693-quality-02.json",
+  "results": [
+    {
+      "id": "A26693-zh-00031",
+      "source_hash": "4edc94394feec0a6ca6b04c04db74384ad82a009922c2195ea48a7c1cda5088e",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00032",
+      "source_hash": "b3390524f58407e885b5a05c0ffeb7b3af46078160e0238df2ffd10e82e918d5",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00033",
+      "source_hash": "3c2687cab87211d72ce6adf3f1bf48f016c7495f62ede0bb3ad4b306d2cb2036",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00034",
+      "source_hash": "7d33749b9559d608aeeb48361dd6a03eba7070772f86346b8dcb9ca5bf8a79b5",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00035",
+      "source_hash": "839bed5dd8ab9525f82c78971a6f760c36904655efc2656a70e6355ac6fe2b6b",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00036",
+      "source_hash": "eeeeb7c956071ba308164b41394bb1d1fc50ea94d61dd35254d5ed5fe4f8d839",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00037",
+      "source_hash": "d04a9d75214738831b9f2ad47a5ca9908c5ea475ee43613a2a6bda552307b8ec",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00038",
+      "source_hash": "a0f3333753ded84c9d11d8417233bd08165ffd69ff22ee2b3dc48fae4696ed3b",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00039",
+      "source_hash": "795d2bd7018e2ec269b02d0b841e5f376597c11688b89219a1e58b0647677529",
+      "verdict": "NEEDS_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "한국어 제2조제1호의 '호'를 기존 중국어 교정문이 第一项으로 번역. 第一号로 정정 필요.",
+      "existing_corrected_text": "※请依据《防止人口贩运等及保护受害者等法》第二条第一项规定的人口贩运等行为，",
+      "proposed_corrected_text": "※请依据《防止人口贩运等及保护受害者等法》第二条第一号规定的人口贩运等行为，"
+    },
+    {
+      "id": "A26693-zh-00040",
+      "source_hash": "e71fd4b4daa3f9eb02b830deb82ace06c3771f9e5a7e5e94a729d37587cfa66b",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00041",
+      "source_hash": "12a80fea3deffab367a16161e3dfb420f0a9d13435b15e8434a195bccacdf441",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00042",
+      "source_hash": "f9fbf981939c168b9838ed8df7022573b4e576f817b3a5d7f89e9ecd8bc10b60",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00043",
+      "source_hash": "919be5b990b6f18fcfddc9b032252238eb16a4d2802a7f7bc42ee008496c0c1f",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00044",
+      "source_hash": "e23df8834a583975acd6211b467ad76c25a41bf4421ec3bb39ef556748700f54",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00045",
+      "source_hash": "ed8a406d02b187b85782da65937796100f2514b5c66e30bbdc760370421dda93",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00046",
+      "source_hash": "dfc76879e2f5c3ead09186ff1c6b635624f96b7adbd71d94c37566429ca5df6f",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00047",
+      "source_hash": "d18875e1fa5508fbd63ab68f1bdc871134b418fb8069e19c5a5d3b64327c2254",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00048",
+      "source_hash": "e991b22d98b36ce95197a917ce5f2c932e01a309a9b9b0812e1da93fa9579fb5",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00049",
+      "source_hash": "485c7190387165642eed07cc43925dbbe4751fd55bb9574665eea55ddbf26f59",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00050",
+      "source_hash": "2099cd7f323c38ac89f0ebc4dd140529ccb048fb87aa42935038b81b0325020d",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00051",
+      "source_hash": "be0ecbe0fce3773093fe5cd4e87eb308db06316e3946c0e06016e6e5d384dd72",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00052",
+      "source_hash": "d6d87e05c543e71cabaccf3ed61804e7e814d1a465e94f4fdc59f331ba61f822",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00053",
+      "source_hash": "415c12cfe236ffa5094f9e3a7709063457a807995edc8ff53226e774fda2c5bd",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00054",
+      "source_hash": "19995b9f2995ecd828c36601da915a84fb081ba31452fa01c394a563f7137db4",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00055",
+      "source_hash": "0313408cdf794fea03a1b1d6758e8ad6cc7c6a9f70b7256de98dafab6a45bf1a",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00056",
+      "source_hash": "5e77e25a6f857ec3e92cfd0cba4606819c1411377828763adac3c5cc297b485e",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00057",
+      "source_hash": "a7c6e233ecbe313fed09cd72cde0f5623ba99a933a926a1e601ed626540d9e08",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00058",
+      "source_hash": "95e3c75cd502220bd32f8b38b28bfae1f3f6090a48b1b66481c1f211cf248a3c",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00059",
+      "source_hash": "11160c3b9ff73b01ab2e91766f849c8fe95896e60b4304ccb116ed19e5875274",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00060",
+      "source_hash": "b2bde5d0cd36f30892232ebbaab7b8e304c3eadd08297707e384737c1da21ca9",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00061",
+      "source_hash": "3ef1ad5cc1f1bff450f69981afad74e43d29a3717515d636fcf527f53b39dedc",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00062",
+      "source_hash": "5272e3456df670ab9d4f443e69801b43805ce749ab936cf677a9e1576403bd1a",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00063",
+      "source_hash": "37eff570e2115b061f6cd3ede2ee99eef3630deb7c3dfa04689f0031b708cac1",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    },
+    {
+      "id": "A26693-zh-00064",
+      "source_hash": "54e2b99c4fd7c98c4ff7cffe727889822bf5712a20a875d36656eb9ceb9d4e5b",
+      "verdict": "PASS_AFTER_CORRECTION",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "인접 서식 셀과 한국어 항목·절차·첨부서류 또는 조문 표기 대응 확인"
+    }
+  ],
+  "edits": [],
+  "note": "31~64번 표·문장 및 인접 셀 연속 품질 대조. A26693-zh-00039 기존 저장 교정의 제2조제1호 인용이 第一项으로 기록되어 있어 第一号 수정 필요. 기존 진행 교정은 변경하지 않고 충돌 후보만 별도 명시. 1136행 COMPLETE 아님."
+}
