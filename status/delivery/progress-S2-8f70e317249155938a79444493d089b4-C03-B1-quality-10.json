@@ -1,0 +1,45 @@
+{
+  "schema": "LAW_ZH_QUALITY_PROGRESS_V1",
+  "job_id": "F-0536890d62605f77ff0a",
+  "worker": "C03",
+  "status": "IN_PROGRESS",
+  "document": "B1",
+  "quality_batch": "B1-quality-10",
+  "range": {
+    "first": "B1-zh-00046",
+    "last": "B1-zh-00050"
+  },
+  "quality_checked_rows": 2,
+  "quality_passed_rows": 2,
+  "quality_failed_rows": 0,
+  "quality_checked_ids": [
+    "B1-zh-00049",
+    "B1-zh-00050"
+  ],
+  "source_ko_blob_sha": "cf045f80edc2f938db0d4fe8220fd7d22754c72b",
+  "source_zh_blob_sha": "6aba81b8dd9749b92f915ab8a9faf4b1d2cd399c",
+  "prior_progress_file": "status/delivery/progress-S2-8f70e317249155938a79444493d089b4-C03-B1-00046-00050.json",
+  "prior_progress_blob_sha": "07762bfddabfb2badaccfbb1f48aa3c29702300c",
+  "results": [
+    {
+      "id": "B1-zh-00049",
+      "source_hash": "da7086aabae423aea3d566df7f3ed1e9033ace2fe2aef8735b8da25de017e135",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Article 47: Korean source differentiates delegation (委任) to provincial/municipal heads from entrustment (委托) to the Korea Women's Human Rights Promotion Agency under Gender Equality Framework Act Article 46-2. Correction preserves each competent subject, presidential-decree limitation, Article 46-2 reference, and chapter-seven heading."
+    },
+    {
+      "id": "B1-zh-00050",
+      "source_hash": "76c0ec06bf68d7dd539b46b9791ba4342b9c0e05c7633a436776dd0fca93a0fe",
+      "verdict": "PASS",
+      "source_hash_matches_original_row": true,
+      "citation_and_article_checked": true,
+      "subject_and_obligations_checked": true,
+      "reason": "Article 48: Correction retains penalties of 3 years/30 million KRW, 2 years/20 million KRW, and 1 year/10 million KRW; complete seven subitems of retaliation clause, Articles 18, 21(3)(4), 23(4), 22(6), 33(2), 39, 40, and respective referenced special laws are preserved."
+    }
+  ],
+  "edits": [],
+  "note": "Compared Korean and saved Chinese corrections for two distinct previously unverified B1 IDs. Existing edits unchanged; family remains IN_PROGRESS."
+}
