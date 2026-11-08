@@ -1,0 +1,60 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-00583cebe057fc2929d1",
+  "family": "실용신안법",
+  "worker": "C05",
+  "assignment_marker": "[WORK-TASK:C05:F-00583cebe057fc2929d1:842852caeecc]",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "source_blobs": {
+    "ko": "5249368872e1c46c3e583b88a759c0526e6e04ef",
+    "en": "3e4f2c2143657fb0bcf6fb08385f4329c2840ae5",
+    "zh": "8c67da73d62c784e988ce2b7655ef398504b0786"
+  },
+  "review_path": "review/zh/F-00583cebe057fc2929d1.json",
+  "review_blob_sha": "7a52530317245705f89e2f9ac808ba0b80286806",
+  "scope": {
+    "documents": 24,
+    "zh_rows": 1374
+  },
+  "prior_corrections": 219,
+  "new_corrections": [
+    {
+      "id": "B1-zh-00027",
+      "source_hash": "4af5c7722ea7d64dca4a47e1d318356ddfb10f3472b8499afec12f646063474c",
+      "decision": "CORRECT",
+      "reason": "原文第22조의2제4항제4호는 본법 제34조제1항과 본법 제41조를 인용함. 이를 특허법 인용으로 잘못 바꾼 두 곳만 교정."
+    },
+    {
+      "id": "B1-zh-00047",
+      "source_hash": "dfba687c00f1e141b8978bc6e2bfe73651c454faf4c835bd77ac5ab58e472953",
+      "decision": "CORRECT",
+      "reason": "제34조의2제1항의 출원서와 실용신안등록출원서는 신청행위가 아니라 출원 서류이며 제2항 '고안의 설명'은 발명 설명이 아님; 두 부분만 교정."
+    },
+    {
+      "id": "B1-zh-00040",
+      "source_hash": "c3426bf4bc41d05431c0856b4719fd3a7c6e917247c6736f8e3205175fa580c7",
+      "decision": "CORRECT",
+      "reason": "제30조의2제1항의 특허심판원장은 상소위원회 의장이 아니며, 제2항의 실용신안공보에 게재된 선행기술은 실용신안공보에 게재된 기술이라는 원문 의미만 교정."
+    }
+  ],
+  "total_corrections": 222,
+  "pending_rows_preserved": 89,
+  "reading_status": "FULL_KO_EN_ZH_SEQUENTIAL_READING_NOT_VERIFIED",
+  "english_note": "B1/B2: official exact-version English; B3/forms: 2010 old-version official fallback only, not same version; B2 AI draft not authoritative.",
+  "unresolved": [
+    "B2-zh-00081",
+    "A29604",
+    "B3-zh-00117",
+    "A8690",
+    "A8693",
+    "A8698",
+    "A8699",
+    "A8703",
+    "A8708",
+    "A8709",
+    "A8690-zh-00499"
+  ],
+  "completion_receipt": null,
+  "notes": "기저장 219 교정 보존, 한국어 대조 결과 제22조의2·제30조의2·제34조의2 3행에 명확한 인용·기관·출원서 오역만 보정. 전체 순차 독해·원문 판독 보류 미해결; COMPLETE 미발행."
+}
