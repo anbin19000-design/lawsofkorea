@@ -1,0 +1,37 @@
+{
+  "schema": "LAW_ZH_REVIEW_PROGRESS_V1",
+  "job_id": "F-c2b35f6aceb6477e1107",
+  "worker": "C04",
+  "assignment_marker": "89a52a939755",
+  "status": "IN_PROGRESS",
+  "source_blob_shas": {
+    "ko": "331f6c3ad7ac59c8c226f3b86ad4fb8dabaeb3c4",
+    "en": "6b632dd08d72392bf36ccb19d6751b5bbf8c904e",
+    "zh": "f8879f4a12299069e4831b03f15a2a2fa30c8089"
+  },
+  "document_count": 15,
+  "chinese_row_count": 1241,
+  "english_coverage": {
+    "with_reference": 911,
+    "without_reference": 330
+  },
+  "prior_edits": 135,
+  "new_edit_ids": [
+    "B2-zh-00001",
+    "B3-zh-00001",
+    "B2-zh-00002",
+    "B2-zh-00003",
+    "B2-zh-00006",
+    "B2-zh-00012",
+    "B3-zh-00002"
+  ],
+  "total_edits": 142,
+  "new_evidence": "Korean statute/decree/rule titles, article 4 item 2, kindergarten/school operation committee names",
+  "review_path": "review/zh/F-c2b35f6aceb6477e1107.json",
+  "review_commit": "f651caea746f71bcb95c9ec8fbe02c14aa12ef47",
+  "full_korean_read_verified": false,
+  "full_english_read_verified": false,
+  "full_chinese_read_verified": false,
+  "completion_receipt": false,
+  "note": "Checkpoint only; no assertion that all 1241 Chinese rows have been semantically inspected."
+}
