@@ -1,0 +1,131 @@
+{
+  "schema": "LAW_ZH_MINIMAL_REVIEW_PROGRESS_V1",
+  "job_id": "F-0aff999a0f4186c0da77",
+  "worker": "C05",
+  "pc": "WORK-C",
+  "panel_id": "panel-05",
+  "branch": "main",
+  "status": "IN_PROGRESS",
+  "reading_order": "KO_FULL_EN_FULL_ZH_FULL",
+  "source_blobs": {
+    "ko": "2accfa8b91d81a7d6123d3e46f3151c6fe7c4425",
+    "en": "3d6c05a97fb0a5cf56137dc80dd844d596164a1c",
+    "zh": "a327a2a8634f9f916e59df4f11bcaabb3a6b83d5"
+  },
+  "review_path": "review/zh/F-0aff999a0f4186c0da77.json",
+  "review_blob_observed": "003cad21fa104b32a22b7d401755e50ffab76f42",
+  "cumulative_corrections": 866,
+  "inspected_span": "A34909 rows 146–175 sequentially checked against the Korean annex. Prior edits in rows 146, 148–150, 152–155, 159 and 173 were preserved; clear terminology and segmentation issues in 151, 156–158, 160–172, and 174–175 are pending semantic reconciliation.",
+  "proposed_corrections": [
+    {
+      "id": "A34909-zh-00151",
+      "source_hash": "211af9d85167fa67d81b4fb23d158021f15f076270d3680f89a2878789a869c2",
+      "text": "（仅限特许总部为保持特许经营业务统一性而强制要求或建议采用的情形）",
+      "reason": "앞 행 괄호의 '강제 또는 권장하는 경우만 해당' 문구에 이어지는 분절을 복구."
+    },
+    {
+      "id": "A34909-zh-00156",
+      "source_hash": "773dddb6d05273156689c2ba83e1183be8d943e14795f4ea2cdbae3aecc7cd6d",
+      "text": "6) 关于加盟店经营者及其雇员的工作和招聘标准",
+      "reason": "근무 및 채용 기준을 고용·聘用로 중복·변형한 부분을 바로잡음."
+    },
+    {
+      "id": "A34909-zh-00157",
+      "source_hash": "41852875fcc44c72786c9f86ed196df6926640d3e231e87b6c72e9abed6c017a",
+      "text": "7) 加盟店经营所需的设施、设备、固定装置等物品的明细，以及供应方式和供应商",
+      "reason": "공급업체를 '供应业务'로 오역한 부분 교정."
+    },
+    {
+      "id": "A34909-zh-00158",
+      "source_hash": "272c85a977dda086ddfd89c1a79b56700170054e50f30527dde087a11a0cfb4c",
+      "text": "（仅限由特许总部或其指定者供应的情形）",
+      "reason": "'사례'를 '경우'로 오역한 표현을 교정."
+    },
+    {
+      "id": "A34909-zh-00160",
+      "source_hash": "22daf3daceb019a1bafb258aa436f77fdac62a6938f004b7d3d512d7668f129e",
+      "text": "1) 加盟店经营者为经营相关特许经营业务，须定期或不定期向特许总部或其指定者支付的所有对价明细，包括商标使用费、租赁费、广告及促销费、教育培训费、招牌租赁费、营业标识变更费用、",
+      "reason": "한국어 열거항목과 지급주체가 뒤 문장과 연결되도록 복구; 문체 개선이 아닌 누락된 주체·범위 복원."
+    },
+    {
+      "id": "A34909-zh-00161",
+      "source_hash": "651d52eadc21f300799b4f33cef8dd5badedb29f788c6fd14c522bd894ed68ef",
+      "text": "装修翻新费用、必需品采购价款估算额的上限和下限、",
+      "reason": "리모델링 비용 및 필수품목 구입대금 추정액이라는 용어를 복구."
+    },
+    {
+      "id": "A34909-zh-00162",
+      "source_hash": "fa1502f20caec8ed4e425b5fffa199cf835b993a9ebd44fc31ba90e32036d8c3",
+      "text": "库存管理及会计处理费用、包括销售时点管理系统（POS）在内的运营系统维护费用等，",
+      "reason": "재고관리·회계처리 비용과 POS를 포함한 운영시스템 유지비를 서로 뒤바꾼 오역 교정."
+    },
+    {
+      "id": "A34909-zh-00163",
+      "source_hash": "dc9f1f59979947a1445c6a5a6252c55b1acb555c63fafeb5d93f18b2c4ec32f7",
+      "text": "加盟店经营者为经营相关特许经营业务而须向特许总部或",
+      "reason": "가맹본부 또는 지정자에게 지급하는 대가의 주체와 연결을 원문에 맞춰 복구."
+    },
+    {
+      "id": "A34909-zh-00164",
+      "source_hash": "8765ff9e2e5caa9a7a5964c776e0ed1a95ce572961b01065a18d343801975ed6",
+      "text": "特许总部指定者定期或不定期支付的所有对价明细，",
+      "reason": "'가맹본부가 지정한 자'와 정기·비정기 지급의 수식관계를 복구."
+    },
+    {
+      "id": "A34909-zh-00165",
+      "source_hash": "bdc6114a544dfd23a13a2834db0d7f35a387dd7c987b3000f9f65513f466c95c",
+      "text": "以及有关支付方式的信息（包括是否可用现金或银行卡支付）、退款条件，",
+      "reason": "지급방식·반환조건 표현을 원문에 맞게 명확화."
+    },
+    {
+      "id": "A34909-zh-00166",
+      "source_hash": "847672c511297a7faa9f1b274a943009bd06fac46399bfef747ba2324c643452",
+      "text": "如不能退款，还应分别记载其理由。",
+      "reason": "반환될 수 없는 경우의 사유 및 항목별 기재 요건을 복구."
+    },
+    {
+      "id": "A34909-zh-00167",
+      "source_hash": "a061d2d5a865936621ee84a681322908d1338f17dfe96e16d2da9e6ae2b16bcd",
+      "text": "2) 加盟店经营者经营相关特许经营业务过程中，特许总部强制或建议加盟店经营者与特许总部或其指定者进行交易，因而向其供应的",
+      "reason": "한국어 문장의 강제·권장 거래 및 공급품목의 주체·행위를 복구."
+    },
+    {
+      "id": "A34909-zh-00168",
+      "source_hash": "da771db30a6217bda295356c8aa7e0e85e49eef4ae6c33a33670cec45a70c5ae",
+      "text": "品项中，加盟店经营者向特许总部支付的对价超过适当批发价格的部分",
+      "reason": "차액가맹금의 정의상 지급주체 및 적정 도매가격 초과분을 정확히 연결."
+    },
+    {
+      "id": "A34909-zh-00169",
+      "source_hash": "d96df7e6d9314d113c209ce6d92fc78435094659d9d8153ac14d7c4defebc4bc",
+      "text": "（以下称“差额加盟费”）相关的下列事项",
+      "reason": "정의 용어 '차액가맹금'을 '特许经营费差额'로 불일치하게 옮긴 번역을 통일."
+    },
+    {
+      "id": "A34909-zh-00170",
+      "source_hash": "5fa959f67b895b176383fcc6294221811f5a66ca5be74fd3a041c26a8273271b",
+      "text": "（应分别记载包含不动产租赁费和不包含不动产租赁费的情形；",
+      "reason": "부동산 임차료 포함/미포함의 두 경우를 나누어 기재한다는 원문 조건을 복구."
+    },
+    {
+      "id": "A34909-zh-00171",
+      "source_hash": "996aae83242aabfd07b6a3edd12b330751adac60e7e8520626577b6b064985c0",
+      "text": "特许总部直接制造或生产并供应给加盟店经营者的品项信息，可以不予记载）",
+      "reason": "가맹본부 직접 제조·생산·공급 품목 정보의 기재 생략 가능성을 '별도 기재'로 오역한 부분 교정."
+    }
+  ],
+  "verified_ko_reading_documents": 18,
+  "verified_linked_english_readings": 3,
+  "chinese_total_rows": 1687,
+  "checked_rows": 849,
+  "corrected_rows": 866,
+  "quality_open_items": [
+    "Full sequential semantic audit of all 1,687 Chinese rows remains incomplete",
+    "429 rows without independently exact English require direct Korean/Chinese semantic comparison",
+    "A34909 rows 81–110 eight proposed edits await official review-file save due repeated 409 conflicts",
+    "A34909 rows 111–145 proposed corrections remain checkpoint-only",
+    "A34909 rows 146–175 proposed corrections remain checkpoint-only",
+    "Remaining annex/form rows require untruncated semantic comparison and final quality control"
+  ],
+  "note": "No source SHA changed. Proposed corrections are checkpoint evidence only and are not counted as official review corrections. IN_PROGRESS; no completion receipt."
+}
